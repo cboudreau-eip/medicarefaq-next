@@ -44,7 +44,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
-            className="text-3xl md:text-4xl lg:text-[44px] font-extrabold text-white leading-[1.15] mb-5"
+            className="text-3xl md:text-4xl lg:text-[50px] font-extrabold text-white leading-[1.15] mb-5"
           >
             Understanding Medicare
             <br />
