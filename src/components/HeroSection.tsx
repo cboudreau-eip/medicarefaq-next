@@ -12,20 +12,20 @@ const trustItems = [
   { icon: BookOpen, label: "600+ Pages of Content", sublabel: "Comprehensive library" },
 ];
 
+const HERO_BG =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/hero-bg-JCwzhz6vF5hshLidyrZztx.webp";
+
 export default function HeroSection() {
   return (
-    <section className="relative bg-[#1B2A4A] overflow-hidden">
-      {/* Background pattern */}
+    <section className="relative overflow-hidden">
+      {/* Background image with overlay */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1B2A4A] via-[#1B2A4A] to-[#0F1C35]" />
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage:
-              "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
-            backgroundSize: "40px 40px",
-          }}
+        <img
+          src={HERO_BG}
+          alt=""
+          className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1B2A4A]/95 via-[#1B2A4A]/80 to-[#1B2A4A]/40" />
       </div>
       {/* Content */}
       <div className="container relative z-10 pt-14 pb-6 md:pt-20 md:pb-8">
