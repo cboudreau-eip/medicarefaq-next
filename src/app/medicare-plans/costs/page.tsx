@@ -1,24 +1,25 @@
 import type { Metadata } from "next";
 import SiteLayout from "@/components/SiteLayout";
-import MedicareCosts from "./PageContent";
+import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "How Much Does Medicare Cost? 2026 Premiums & Out-of-Pocket | MedicareFAQ",
-  description: "Learn what Medicare costs in 2026 — including Part A and Part B premiums, deductibles, and out-of-pocket expenses. Find out how to reduce your Medicare costs.",
-  alternates: { canonical: "https://www.medicarefaq.com/original-medicare/costs/" },
+  title: "Original Medicare Only",
+  description: "Understand Medicare costs for 2026 including Part A and Part B premiums, deductibles, and out-of-pocket expenses for Supplement and Advantage plans.",
   openGraph: {
-    title: "How Much Does Medicare Cost? 2026 Premiums & Out-of-Pocket | MedicareFAQ",
-    description: "Learn what Medicare costs in 2026 — including Part A and Part B premiums, deductibles, and out-of-pocket expenses. Find out how to reduce your Medicare costs.",
-    url: "https://www.medicarefaq.com/original-medicare/costs/",
-    type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    title: "Original Medicare Only",
+    description: "Understand Medicare costs for 2026 including Part A and Part B premiums, deductibles, and out-of-pocket expenses for Supplement and Advantage plans.",
+    url: "https://www.medicarefaq.com/medicare-supplement-plans/costs/",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/costs/",
   },
 };
 
 export default function Page() {
   return (
     <SiteLayout>
-      <MedicareCosts />
+      <PageContent />
     </SiteLayout>
   );
 }

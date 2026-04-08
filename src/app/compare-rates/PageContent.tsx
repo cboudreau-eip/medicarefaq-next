@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 /**
  * Compare Medicare Plans Page
@@ -7,7 +8,6 @@
  */
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import {
   CheckCircle2,
   XCircle,
@@ -99,16 +99,13 @@ const faqs = [
   },
 ];
 
-export default function ComparePlans() {  const [openFaq, setOpenFaq] = useState<number | null>(null);
+export default function PageContent() {
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
     <div className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -261,7 +258,6 @@ export default function ComparePlans() {  const [openFaq, setOpenFaq] = useState
         </div>
       </section>
 
-      
-    </div>
+      </div>
   );
 }
