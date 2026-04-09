@@ -46,7 +46,12 @@ export async function generateMetadata({
 
 export async function generateStaticParams() {
   const client = createClient();
-  const pages = await client.getAllByType("test_page");
 
-  return pages.map((page) => ({ uid: page.uid }));
+  try {
+    const pages = await client.getAllByType("test_page");
+    return pages.map((page) => ({ uid: page.uid }));
+  } catch {
+    // The type may not exist in Prismic yet — return empty array so build succeeds
+    return [];
+  }
 }
