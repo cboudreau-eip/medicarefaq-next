@@ -1,0 +1,5 @@
+{
+  "repositoryName": "medicarefaq",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./src/slices"]
+}
