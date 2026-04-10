@@ -67,6 +67,55 @@ function getIcon(name: string): React.ElementType {
   return iconMap[name.toLowerCase().replace(/[^a-z]/g, "")] || Shield;
 }
 
+/* ─── Markdown Link Parser ─── */
+/**
+ * Converts Markdown-style links [text](url) into Next.js <Link> components.
+ * Internal links (starting with /) use Next.js Link; external links open in new tab.
+ */
+function renderParagraph(text: string, key: number, className?: string) {
+  const parts: React.ReactNode[] = [];
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  while ((match = linkRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    const [, linkText, href] = match;
+    const isInternal = href.startsWith("/");
+    parts.push(
+      isInternal ? (
+        <Link
+          key={`link-${match.index}`}
+          href={href}
+          className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
+        >
+          {linkText}
+        </Link>
+      ) : (
+        <a
+          key={`link-${match.index}`}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
+        >
+          {linkText}
+        </a>
+      )
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return (
+    <p key={key} className={className}>
+      {parts}
+    </p>
+  );
+}
+
 /* ─── FAQ Component ─── */
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   const [open, setOpen] = useState(false);
@@ -144,9 +193,7 @@ function PlanSection({ data }: { data: PlanBreakdownData }) {
         <span className={`px-3 py-1 rounded-full text-xs font-bold ${coverageBg}`}>{data.coverageLabel}</span>
       </div>
       <div className="p-5 text-[#4B5563] text-[15px] leading-relaxed space-y-3">
-        {data.paragraphs.map((p, i) => (
-          <p key={i}>{p}</p>
-        ))}
+        {data.paragraphs.map((p, i) => renderParagraph(p, i))}
 
         {(data.whatItCovers || data.whatItDoesntCover) && (
           <div className="grid sm:grid-cols-2 gap-4 mt-4">
@@ -549,9 +596,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 <>
                   <h2 id="alternatives" className="text-2xl font-bold text-[#1B2A4A] mb-4 mt-10">{article.alternativesSection.title}</h2>
                   <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">
-                    {article.alternativesSection.paragraphs.map((p, i) => (
-                      <p key={i} className="text-[#4B5563] text-[15px] leading-relaxed mb-4">{p}</p>
-                    ))}
+                    {article.alternativesSection.paragraphs.map((p, i) => renderParagraph(p, i, "text-[#4B5563] text-[15px] leading-relaxed mb-4"))}
                     {article.alternativesSection.checklist && (
                       <div className="bg-[#EFF6FF] border border-[#BFDBFE] rounded-lg p-5 mt-4">
                         <h4 className="font-bold text-[#1E40AF] text-sm mb-3 flex items-center gap-2">
@@ -577,9 +622,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 <>
                   <h2 id="related-equipment" className="text-2xl font-bold text-[#1B2A4A] mb-4 mt-10">{article.relatedEquipment.title}</h2>
                   <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">
-                    {article.relatedEquipment.paragraphs.map((p, i) => (
-                      <p key={i} className="text-[#4B5563] text-[15px] leading-relaxed mb-4">{p}</p>
-                    ))}
+                    {article.relatedEquipment.paragraphs.map((p, i) => renderParagraph(p, i, "text-[#4B5563] text-[15px] leading-relaxed mb-4"))}
                     {article.relatedEquipment.callout && (() => {
                       const styles: Record<string, { bg: string; border: string; title: string }> = {
                         warning: { bg: "bg-[#FEF3C7]", border: "border-[#FDE68A]", title: "text-[#92400E]" },
@@ -607,9 +650,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 <>
                   <h2 id="medicaid-programs" className="text-2xl font-bold text-[#1B2A4A] mb-4 mt-10">{article.medicaidSection.title}</h2>
                   <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">
-                    {article.medicaidSection.paragraphs.map((p, i) => (
-                      <p key={i} className="text-[#4B5563] text-[15px] leading-relaxed mb-4">{p}</p>
-                    ))}
+                    {article.medicaidSection.paragraphs.map((p, i) => renderParagraph(p, i, "text-[#4B5563] text-[15px] leading-relaxed mb-4"))}
                     {article.medicaidSection.steps && (
                       <div className="bg-[#F5F3FF] border border-[#DDD6FE] rounded-lg p-5 mt-4">
                         <h4 className="font-bold text-[#5B21B6] text-sm mb-3 flex items-center gap-2">
@@ -635,9 +676,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 <>
                   <h2 id="making-decision" className="text-2xl font-bold text-[#1B2A4A] mb-4 mt-10">{article.decisionSection.title}</h2>
                   <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">
-                    {article.decisionSection.paragraphs.map((p, i) => (
-                      <p key={i} className="text-[#4B5563] text-[15px] leading-relaxed mb-4">{p}</p>
-                    ))}
+                    {article.decisionSection.paragraphs.map((p, i) => renderParagraph(p, i, "text-[#4B5563] text-[15px] leading-relaxed mb-4"))}
                     {article.decisionSection.checklist && (
                       <div className="bg-[#FEF3C7] border border-[#FDE68A] rounded-lg p-5 mt-4">
                         <h4 className="font-bold text-[#92400E] text-sm mb-3 flex items-center gap-2">
