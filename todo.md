@@ -35,25 +35,26 @@
 - [x] Build will-medicare-pay-for-a-nebulizer-machine FAQ
 
 ## Missing Pages Build — Batch 4: Structural Pages
-- [ ] Build medicare-advantage-plan-hmo page
-- [ ] Build role-of-a-caregiver sub-page
-- [ ] Build online-guides section page
+- [x] Build medicare-advantage-plan-hmo page
+- [x] Build role-of-a-caregiver sub-page
+- [x] Build online-guides section page
 
 ## Missing Pages Build — Batch 5: Blog Posts
-- [ ] Build switching-from-medicare-advantage-to-original-medicare blog post
-- [ ] Build top-free-computer-classes-for-seniors blog post
-- [ ] Build the-best-time-to-enroll-in-a-medicare-supplement-plan blog post
-- [ ] Build nevada-birthday-rule blog post
-- [ ] Build when-to-switch-medigap-plans blog post
-- [ ] Build medicare-supplements-cost-vs-value-explained blog post
-- [ ] Build direct-care-opportunity-act blog post
-- [ ] Build step-therapy-and-prior-authorization blog post
-- [ ] Build medicare-for-all blog post
-- [ ] Build understanding-medigaps-foreign-travel-benefits blog post
-- [ ] Build complications-of-shingles-in-the-elderly blog post
-- [ ] Build medicare-blue-button blog post
-- [ ] Build senior-dating-and-relationships blog post
-- [ ] Build companion-pets-for-seniors blog post
-- [ ] Build best-states-to-retire blog post
-- [ ] Build medicare-starter-guide-what-to-do-in-your-first-90-days blog post
-- [ ] Build how-can-seniors-save-on-prescription-drug-costs blog post
+- [x] Build switching-from-medicare-advantage-to-original-medicare blog post
+- [x] Build top-free-computer-classes-for-seniors blog post
+- [x] Build the-best-time-to-enroll-in-a-medicare-supplement-plan blog post
+- [x] Build nevada-birthday-rule blog post
+- [x] Build when-to-switch-medigap-plans blog post
+- [x] Build medicare-supplements-cost-vs-value-explained blog post
+- [x] Build direct-care-opportunity-act blog post
+- [x] Build step-therapy-and-prior-authorization blog post
+- [x] Build medicare-for-all blog post
+- [x] Build understanding-medigaps-foreign-travel-benefits blog post
+- [x] Build complications-of-shingles-in-the-elderly blog post
+- [x] Build medicare-blue-button blog post
+- [x] Build senior-dating-and-relationships blog post
+- [x] Build companion-pets-for-seniors blog post
+- [x] Build best-states-to-retire blog post
+- [x] Build medicare-starter-guide-what-to-do-in-your-first-90-days blog post
+- [x] Build how-can-seniors-save-on-prescription-drug-costs blog post
+- [ ] Create dynamic robots.ts for proper robots.txt with sitemap declaration
