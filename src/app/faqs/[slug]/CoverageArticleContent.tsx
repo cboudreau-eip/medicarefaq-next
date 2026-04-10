@@ -82,28 +82,35 @@ function renderParagraph(text: string, key: number, className?: string) {
       parts.push(text.slice(lastIndex, match.index));
     }
     const [, linkText, href] = match;
-    const isInternal = href.startsWith("/");
-    parts.push(
-      isInternal ? (
-        <Link
-          key={`link-${match.index}`}
-          href={href}
-          className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-        >
-          {linkText}
-        </Link>
-      ) : (
-        <a
-          key={`link-${match.index}`}
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-        >
-          {linkText}
-        </a>
-      )
-    );
+    if (!href || href.trim() === "") {
+      // Empty link — render as bold text instead of a broken link
+      parts.push(
+        <strong key={`bold-${match.index}`}>{linkText}</strong>
+      );
+    } else {
+      const isInternal = href.startsWith("/");
+      parts.push(
+        isInternal ? (
+          <Link
+            key={`link-${match.index}`}
+            href={href}
+            className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
+          >
+            {linkText}
+          </Link>
+        ) : (
+          <a
+            key={`link-${match.index}`}
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
+          >
+            {linkText}
+          </a>
+        )
+      );
+    }
     lastIndex = match.index + match[0].length;
   }
   if (lastIndex < text.length) {
