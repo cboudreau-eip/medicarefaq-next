@@ -7,3 +7,5 @@
 - [x] Add keyword-rich internal links to /enrollment/how-to-enroll
 - [x] Add keyword-rich internal links to /enrollment/late-penalties
 - [x] Add keyword-rich internal links to /tools/enrollment-timeline
+- [x] Create reusable schema components (FAQSchema, BreadcrumbSchema, ArticleSchema)
+- [x] Test schema markup on /enrollment/annual-changes page

@@ -9,6 +9,7 @@
 
 import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
+import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/schema";
 import {
   ArrowRightLeft,
   ChevronDown,
@@ -64,6 +65,34 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
 ];
 
+// Plain-text FAQ data for schema (no JSX — Google needs raw strings)
+const faqsForSchema = [
+  {
+    q: "Do I have to do anything during the Annual Enrollment Period?",
+    a: "No. If you're happy with your current coverage, you don't need to take any action — your plan will automatically renew. However, it's always a good idea to review your Annual Notice of Change (ANOC) to see if your plan's costs, benefits, or formulary have changed for the upcoming year.",
+  },
+  {
+    q: "Can I switch from Medicare Advantage to Original Medicare during AEP?",
+    a: "Yes. During the Annual Enrollment Period (October 15 – December 7), you can disenroll from your Medicare Advantage plan and return to Original Medicare. If you do, you can also enroll in a standalone Part D plan and a Medigap plan. However, Medigap plans may require medical underwriting outside of your initial Medigap Open Enrollment Period.",
+  },
+  {
+    q: "What's the difference between AEP and the MA Open Enrollment Period?",
+    a: "The Annual Enrollment Period (AEP) runs October 15 – December 7 and is open to all Medicare beneficiaries. The Medicare Advantage Open Enrollment Period (MA OEP) runs January 1 – March 31 and is only for people already enrolled in a Medicare Advantage plan. During the MA OEP, you can switch MA plans or return to Original Medicare.",
+  },
+  {
+    q: "When do changes made during AEP take effect?",
+    a: "Any changes you make during the Annual Enrollment Period (October 15 – December 7) take effect on January 1 of the following year. For example, changes made during AEP 2025 take effect January 1, 2026.",
+  },
+  {
+    q: "Can I change my Medigap plan during AEP?",
+    a: "No. The Annual Enrollment Period only applies to Medicare Advantage and Part D plans. Medigap (Medicare Supplement) plans can be changed at any time during the year, but you may be subject to medical underwriting outside of your initial Medigap Open Enrollment Period. Some states have additional protections.",
+  },
+  {
+    q: "What is the Annual Notice of Change (ANOC)?",
+    a: "The ANOC is a document your Medicare Advantage or Part D plan must send you by September 30 each year. It outlines any changes to your plan for the upcoming year, including changes to premiums, copays, covered drugs, provider networks, and benefits. Review it carefully to decide if you need to make changes during AEP.",
+  },
+];
+
 export default function AnnualChanges() {  const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
@@ -89,6 +118,24 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Structured Data (JSON-LD) */}
+      <FAQSchema faqs={faqsForSchema} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.medicarefaq.com/" },
+          { name: "Enrollment", url: "https://www.medicarefaq.com/medicare-enrollment/" },
+          { name: "Annual Changes" },
+        ]}
+      />
+      <ArticleSchema
+        title="Medicare Annual Enrollment Period | AEP Dates & Changes"
+        description="The Medicare Annual Enrollment Period runs October 15 – December 7 each year. Learn what changes you can make, 2026 cost updates, and how to review your coverage."
+        url="https://www.medicarefaq.com/medicare-enrollment/annual-enrollment-period/"
+        datePublished="2024-09-15"
+        dateModified="2026-01-10"
+        authorName="David Haass"
+        authorUrl="https://www.medicarefaq.com/about"
+      />
       
       
       
