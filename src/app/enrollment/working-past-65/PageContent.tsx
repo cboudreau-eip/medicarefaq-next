@@ -7,7 +7,7 @@
  * Color accent: amber/orange (#D97706) matching the Enrollment section identity.
  */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
 import {
   Briefcase,
@@ -38,7 +38,7 @@ const tableOfContents = [
   { id: "next-steps", label: "Next Steps" },
 ];
 
-const faqs = [
+const faqs: { q: string; a: ReactNode }[] = [
   {
     q: "I'm 65 and still working. Do I have to sign up for Medicare?",
     a: "It depends on your employer size. If your employer has 20 or more employees, your employer coverage is primary and you can delay Part B without penalty. However, you should still enroll in Part A since it's free and doesn't affect your employer coverage. If your employer has fewer than 20 employees, Medicare is primary and you should enroll in both Parts A and B at 65.",
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     q: "When should I enroll in Part B after I stop working?",
-    a: "You have an 8-month Special Enrollment Period (SEP) that begins the month after your employment ends or your employer coverage ends, whichever comes first. You should enroll in Part B during this window to avoid a gap in coverage and late enrollment penalties.",
+    a: <>You have an 8-month <Link href="/faqs/medicare-special-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900">Special Enrollment Period (SEP)</Link> that begins the month after your employment ends or your employer coverage ends, whichever comes first. You should enroll in Part B during this window to avoid a gap in coverage and <Link href="/enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>.</>,
   },
   {
     q: "Can I keep my employer coverage and have Medicare too?",
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: "Is COBRA considered creditable coverage for Medicare?",
-    a: "No. COBRA is not considered creditable coverage for Medicare purposes. If you're 65+ and on COBRA, you should enroll in Medicare during your Initial Enrollment Period or you may face late enrollment penalties. Medicare is always primary over COBRA coverage.",
+    a: <>No. COBRA is not considered creditable coverage for Medicare purposes. If you&apos;re 65+ and on COBRA, you should enroll in Medicare during your <Link href="/faqs/medicare-initial-enrollment-period" className="text-amber-700 underline font-semibold hover:text-amber-900">Initial Enrollment Period</Link> or you may face <Link href="/enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>. Medicare is always primary over COBRA coverage.</>,
   },
 ];
 
@@ -176,7 +176,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   If you're still working when you turn 65, you don't necessarily have to enroll in all parts of Medicare right away. Whether you should enroll now or delay depends primarily on the <strong>size of your employer</strong> and whether your employer coverage qualifies as <strong>creditable coverage</strong>.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
-                  Making the wrong decision here can be costly — enrolling too early could mean paying for duplicate coverage, while delaying too long without creditable coverage can result in permanent late enrollment penalties. This guide helps you navigate the decision.
+                  Making the wrong decision here can be costly — enrolling too early could mean paying for duplicate coverage, while delaying too long without creditable coverage can result in permanent <Link href="/enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>. This guide helps you navigate the decision.
                 </p>
               </section>
 
@@ -373,7 +373,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                     <div className="bg-white rounded-lg p-4 border border-amber-100">
                       <Shield className="w-5 h-5 text-amber-600 mb-2" />
                       <p className="text-sm font-semibold text-slate-900">Medigap Rights</p>
-                      <p className="text-sm text-slate-600">Your 6-month Medigap OEP begins when Part B starts — guaranteed issue rights apply</p>
+                      <p className="text-sm text-slate-600">Your 6-month <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap OEP</Link> begins when Part B starts — guaranteed issue rights apply</p>
                     </div>
                     <div className="bg-white rounded-lg p-4 border border-amber-100">
                       <CheckCircle2 className="w-5 h-5 text-amber-600 mb-2" />
@@ -389,7 +389,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                     <div>
                       <p className="font-semibold text-red-900 mb-1">Don't Miss Your 8-Month Window</p>
                       <p className="text-sm text-red-800">
-                        If you miss your SEP, you'll have to wait until the General Enrollment Period (January 1 – March 31), your coverage won't start until July 1, and you'll face a permanent Part B late enrollment penalty.
+                        If you miss your SEP, you'll have to wait until the <Link href="/faqs/medicare-general-enrollment-period" className="text-red-900 underline font-semibold hover:text-red-700">General Enrollment Period</Link> (January 1 – March 31), your coverage won't start until July 1, and you'll face a permanent <Link href="/faqs/medicare-part-b-late-enrollment-penalty" className="text-red-900 underline font-semibold hover:text-red-700">Part B late enrollment penalty</Link>.
                       </p>
                     </div>
                   </div>
@@ -411,7 +411,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                     <div>
                       <p className="font-semibold text-red-900 mb-1">You Cannot Contribute to an HSA Once Enrolled in Medicare</p>
                       <p className="text-sm text-red-800">
-                        Once you enroll in any part of Medicare — including Part A — you are no longer eligible to contribute to an HSA. This applies even if you're still working and have an HSA-eligible health plan.
+                        Once you enroll in any part of Medicare — including <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-red-900 underline font-semibold hover:text-red-700">Part A</Link> — you are no longer eligible to contribute to an HSA. This applies even if you're still working and have an HSA-eligible health plan.
                       </p>
                     </div>
                   </div>

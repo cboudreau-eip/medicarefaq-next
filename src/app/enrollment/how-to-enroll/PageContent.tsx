@@ -7,7 +7,7 @@
  * Color accent: amber/orange (#D97706) matching the Enrollment section identity.
  */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
 import {
   FileText,
@@ -40,7 +40,7 @@ const tableOfContents = [
   { id: "next-steps", label: "Next Steps" },
 ];
 
-const faqs = [
+const faqs: { q: string; a: ReactNode }[] = [
   {
     q: "Can I enroll in Medicare online?",
     a: "Yes. You can enroll in Medicare Parts A and B online at ssa.gov (Social Security's website). The online application takes about 10-15 minutes. For Medicare Advantage and Part D plans, you can enroll through the plan's website, Medicare.gov, or by calling the plan directly.",
@@ -51,11 +51,11 @@ const faqs = [
   },
   {
     q: "Can I enroll in Medicare and a supplement plan at the same time?",
-    a: "You can apply for both at the same time, but your Medigap coverage won't start until your Part B is effective. Many people apply for both during their IEP so everything is ready to go when their Medicare starts. A licensed agent can help coordinate the timing.",
+    a: <>You can apply for both at the same time, but your <Link href="/medicare-supplements" className="text-teal-700 underline font-semibold hover:text-teal-900">Medigap coverage</Link> won&apos;t start until your Part B is effective. Many people apply for both during their IEP so everything is ready to go when their Medicare starts. A licensed agent can help coordinate the timing.</>,
   },
   {
     q: "Do I need to enroll in Medicare if I have VA benefits?",
-    a: "VA benefits are not considered creditable coverage for Medicare purposes. However, many veterans choose to enroll in Medicare Part A (which is free) as a backup. Whether to enroll in Part B depends on your individual situation. Talk to a licensed agent to understand your options.",
+    a: <>VA benefits are not considered creditable coverage for Medicare purposes. However, many veterans choose to enroll in <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-teal-700 underline font-semibold hover:text-teal-900">Medicare Part A</Link> (which is free) as a backup. Whether to enroll in <Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-teal-700 underline font-semibold hover:text-teal-900">Part B</Link> depends on your individual situation. Talk to a licensed agent to understand your options.</>,
   },
   {
     q: "What if I need help with the enrollment process?",
@@ -175,7 +175,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   Medicare Enrollment Overview
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Enrolling in Medicare involves several separate steps depending on which coverage you want. <strong>Original Medicare (Parts A & B)</strong> is enrolled through Social Security, while <strong>Medicare Advantage</strong>, <strong>Part D</strong>, and <strong>Medigap</strong> plans are enrolled through private insurance companies.
+                  Enrolling in Medicare involves several separate steps depending on which coverage you want. <strong><Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A & B)</strong> is enrolled through Social Security, while <strong><Link href="/medicare-part-c/medicare-advantage-plans" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage</Link></strong>, <strong><Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">Part D</Link></strong>, and <strong><Link href="/medicare-supplements" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></strong> plans are enrolled through private insurance companies.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   This guide covers the enrollment process for each type of coverage, the documents you'll need, and all the ways you can sign up.
@@ -348,7 +348,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Don't Skip Part D</p>
                       <p className="text-sm text-amber-800">
-                        Even if you don't take many medications now, enrolling in Part D when first eligible avoids the permanent late enrollment penalty. Plans with low premiums provide affordable coverage you can upgrade later if your needs change.
+                        Even if you don't take many medications now, enrolling in Part D when first eligible avoids the permanent <Link href="/faqs/medicare-part-d-late-enrollment-penalty" className="text-amber-900 underline font-semibold hover:text-amber-700">late enrollment penalty</Link>. Plans with low premiums provide affordable coverage you can upgrade later if your needs change.
                       </p>
                     </div>
                   </div>
@@ -361,7 +361,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   How to Enroll in Medigap (Medicare Supplement)
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Medigap plans fill the gaps in Original Medicare — covering deductibles, copays, and coinsurance. They're sold by private insurance companies and can be enrolled in at any time, though your <strong>best opportunity</strong> is during your Medigap Open Enrollment Period.
+                  Medigap plans fill the gaps in Original Medicare — covering deductibles, copays, and coinsurance. They're sold by private insurance companies and can be enrolled in at any time, though your <strong>best opportunity</strong> is during your <Link href="/faqs/medicare-supplement-open-enrollment" className="text-teal-700 underline font-semibold hover:text-teal-900">Medigap Open Enrollment Period</Link>.
                 </p>
 
                 <div className="bg-gradient-to-r from-teal-50 to-green-50 border-2 border-teal-200 rounded-xl p-6 mb-6">
@@ -397,7 +397,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     <div>
                       <p className="font-semibold text-red-900 mb-1">Outside Your Medigap OEP</p>
                       <p className="text-sm text-red-800">
-                        If you apply for Medigap after your 6-month OEP, insurance companies can use medical underwriting. This means they can ask health questions, charge higher premiums, or deny coverage based on pre-existing conditions (in most states).
+                        If you apply for Medigap after your 6-month OEP, insurance companies can use <Link href="/faqs/medicare-supplement-underwriting-questions" className="text-red-900 underline font-semibold hover:text-red-700">medical underwriting</Link>. This means they can ask health questions, charge higher premiums, or deny coverage based on pre-existing conditions (in most states).
                       </p>
                     </div>
                   </div>

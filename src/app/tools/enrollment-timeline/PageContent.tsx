@@ -5,7 +5,8 @@
  * Design: Clean, light, authoritative tool page
  * Colors: Navy (#1B2A4A) header, teal/amber/green accents for timeline events
  */
-import { useState, useMemo } from "react";
+import { useState, useMemo, type ReactNode } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Calendar,
@@ -266,13 +267,13 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
             <Phone className="w-4 h-4" />
             Call (888) 335-8996
           </a>
-          <a
+            <Link
             href="/compare-rates"
             className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-colors border border-white/20"
           >
             Get Started Online
             <ArrowRight className="w-4 h-4" />
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -353,7 +354,7 @@ export default function PageContent() {
       <section className="bg-[#1B2A4A] pt-6 pb-10 md:pb-14">
         <div className="container">
           <nav className="flex items-center gap-2 text-sm text-white/50 mb-6">
-            <a href="/" className="hover:text-white/80 transition-colors">Home</a>
+            <Link href="/" className="hover:text-white/80 transition-colors">Home</Link>
             <ChevronRight className="w-3.5 h-3.5" />
             <span className="text-white/80">Tools</span>
             <ChevronRight className="w-3.5 h-3.5" />
@@ -429,7 +430,7 @@ export default function PageContent() {
                 Step 2: What is your current employment status?
               </label>
               <p className="text-sm text-[#6B7280] mb-3">
-                This determines whether you can delay Medicare enrollment without penalty.
+                This determines whether you can delay Medicare enrollment without <Link href="/enrollment/late-penalties" className="text-[#0D9488] underline font-semibold hover:text-[#0B7C72]">penalty</Link>.
               </p>
               <div className="grid sm:grid-cols-2 gap-3">
                 {EMPLOYMENT_OPTIONS.map((option) => (
@@ -563,11 +564,11 @@ export default function PageContent() {
               },
               {
                 q: "Do I need to sign up for both Part A and Part B?",
-                a: "Most people should sign up for Part A when they turn 65, as it's premium-free if you or your spouse paid Medicare taxes for 10+ years. Part B has a monthly premium and covers outpatient services. If you have employer coverage, you may choose to delay Part B (but not Part A) without penalty.",
+                a: <>Most people should sign up for <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-[#0D9488] underline font-semibold hover:text-[#0B7C72]">Part A</Link> when they turn 65, as it&apos;s premium-free if you or your spouse paid Medicare taxes for 10+ years. <Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-[#0D9488] underline font-semibold hover:text-[#0B7C72]">Part B</Link> has a monthly premium and covers outpatient services. If you have <Link href="/enrollment/working-past-65" className="text-[#0D9488] underline font-semibold hover:text-[#0B7C72]">employer coverage</Link>, you may choose to delay Part B (but not Part A) without penalty.</>,
               },
               {
                 q: "What happens if I miss my enrollment window?",
-                a: "If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you'll need to wait for the General Enrollment Period (January 1 – March 31), with coverage starting July 1. You may also face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you were eligible but didn't enroll.",
+                a: <>If you miss your <Link href="/enrollment/turning-65" className="text-[#0D9488] underline font-semibold hover:text-[#0B7C72]">Initial Enrollment Period</Link> and don&apos;t qualify for a Special Enrollment Period, you&apos;ll need to wait for the <Link href="/faqs/medicare-general-enrollment-period" className="text-[#0D9488] underline font-semibold hover:text-[#0B7C72]">General Enrollment Period</Link> (January 1 – March 31), with coverage starting July 1. You may also face a permanent <Link href="/enrollment/late-penalties" className="text-[#0D9488] underline font-semibold hover:text-[#0B7C72]">late enrollment penalty</Link> of 10% added to your Part B premium for each full 12-month period you were eligible but didn&apos;t enroll.</>,
               },
               {
                 q: "Is this tool free to use?",
@@ -584,7 +585,7 @@ export default function PageContent() {
   );
 }
 
-function FAQItem({ question, answer }: { question: string; answer: string }) {
+function FAQItem({ question, answer }: { question: string; answer: ReactNode }) {
   const [open, setOpen] = useState(false);
 
   return (

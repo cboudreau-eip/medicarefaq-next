@@ -7,7 +7,7 @@
  * Color accent: amber/orange (#D97706) matching the Enrollment section identity.
  */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
 import {
   Calendar,
@@ -36,18 +36,18 @@ const tableOfContents = [
   { id: "next-steps", label: "Next Steps" },
 ];
 
-const faqs = [
+const faqs: { q: string; a: ReactNode }[] = [
   {
     q: "When should I start the Medicare enrollment process?",
     a: "You should begin researching your Medicare options about 6 months before you turn 65. Your Initial Enrollment Period (IEP) opens 3 months before your 65th birthday month, so you'll want to have a plan in place by then. Enrolling during the first 3 months of your IEP ensures coverage starts on the 1st day of your birth month.",
   },
   {
     q: "Do I have to sign up for Medicare when I turn 65?",
-    a: "Not necessarily. If you have creditable employer coverage through your own job (or your spouse's employer with 20+ employees), you can delay Medicare Part B without penalty. However, most people should enroll in Part A since it's premium-free and doesn't affect employer coverage. If you don't have creditable coverage, you should enroll during your IEP to avoid late penalties.",
+    a: <>Not necessarily. If you have creditable employer coverage through your own job (or your spouse&apos;s employer with 20+ employees), you can delay Medicare Part B without penalty. However, most people should enroll in Part A since it&apos;s premium-free and doesn&apos;t affect employer coverage. If you don&apos;t have creditable coverage, you should enroll during your IEP to avoid <Link href="/enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late penalties</Link>.</>,
   },
   {
     q: "What happens if I miss my Initial Enrollment Period?",
-    a: "If you miss your IEP and don't qualify for a Special Enrollment Period, you'll have to wait until the General Enrollment Period (January 1 – March 31) to sign up. Your coverage won't start until July 1, and you may face a permanent Part B late enrollment penalty of 10% for each full 12-month period you were eligible but didn't enroll.",
+    a: <>If you miss your IEP and don&apos;t qualify for a <Link href="/faqs/medicare-special-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900">Special Enrollment Period</Link>, you&apos;ll have to wait until the <Link href="/faqs/medicare-general-enrollment-period" className="text-amber-700 underline font-semibold hover:text-amber-900">General Enrollment Period</Link> (January 1 – March 31) to sign up. Your coverage won&apos;t start until July 1, and you may face a permanent <Link href="/faqs/medicare-part-b-late-enrollment-penalty" className="text-amber-700 underline font-semibold hover:text-amber-900">Part B late enrollment penalty</Link> of 10% for each full 12-month period you were eligible but didn&apos;t enroll.</>,
   },
   {
     q: "Will I be automatically enrolled in Medicare at 65?",
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: "Can I enroll in Medicare Part A only and delay Part B?",
-    a: "Yes. Many people who are still working with employer coverage enroll in Part A (which is premium-free) while delaying Part B. This is perfectly fine as long as your employer coverage is creditable. When your employer coverage ends, you'll get a Special Enrollment Period to sign up for Part B without penalty.",
+    a: <>Yes. Many people who are still working with employer coverage enroll in Part A (which is premium-free) while delaying Part B. This is perfectly fine as long as your employer coverage is creditable. When your employer coverage ends, you&apos;ll get a <Link href="/faqs/medicare-special-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900">Special Enrollment Period</Link> to sign up for Part B without penalty.</>,
   },
   {
     q: "My birthday is on the 1st of the month. Does that change my IEP?",
@@ -416,7 +416,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                         <Shield className="w-5 h-5 text-blue-600" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-slate-900 mb-1">Medicare Part A (Hospital Insurance)</h3>
+                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-a" className="hover:text-amber-700 transition-colors">Medicare Part A (Hospital Insurance)</Link></h3>
                         <p className="text-sm text-slate-600 mb-2">
                           Covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. <strong>Premium-free</strong> for most people who worked 10+ years (40 quarters) paying Medicare taxes.
                         </p>
@@ -431,7 +431,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                         <Users className="w-5 h-5 text-teal-600" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-slate-900 mb-1">Medicare Part B (Medical Insurance)</h3>
+                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-b" className="hover:text-amber-700 transition-colors">Medicare Part B (Medical Insurance)</Link></h3>
                         <p className="text-sm text-slate-600 mb-2">
                           Covers doctor visits, outpatient care, preventive services, durable medical equipment, and more. Standard 2026 premium is <strong>$185/month</strong>. Can be delayed if you have creditable employer coverage.
                         </p>
@@ -446,7 +446,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                         <FileText className="w-5 h-5 text-purple-600" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-slate-900 mb-1">Medicare Part D (Prescription Drug Coverage)</h3>
+                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-d" className="hover:text-amber-700 transition-colors">Medicare Part D (Prescription Drug Coverage)</Link></h3>
                         <p className="text-sm text-slate-600 mb-2">
                           Standalone drug plans that cover prescription medications. Premiums vary by plan. If you delay without creditable drug coverage, you'll face a permanent late enrollment penalty.
                         </p>
@@ -463,7 +463,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1">Supplemental Coverage (Choose One Path)</h3>
                         <p className="text-sm text-slate-600 mb-2">
-                          You'll choose between a <strong>Medicare Supplement (Medigap)</strong> plan to fill gaps in Original Medicare, or a <strong>Medicare Advantage (Part C)</strong> plan that replaces Original Medicare with an all-in-one alternative. You cannot have both.
+                          You'll choose between a <Link href="/medicare-supplements" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Supplement (Medigap)</Link> plan to fill gaps in Original Medicare, or a <Link href="/medicare-part-c/medicare-advantage-plans" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Advantage (Part C)</Link> plan that replaces Original Medicare with an all-in-one alternative. You cannot have both.
                         </p>
                         <div className="flex gap-2 mt-2">
                           <Link href="/medicare-plans/supplement-vs-advantage" className="text-xs font-semibold text-blue-700 bg-blue-50 px-2 py-1 rounded hover:bg-blue-100 transition-colors">
@@ -482,7 +482,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   Your Medigap Open Enrollment Window
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  If you choose Original Medicare + Medigap, your <strong>Medigap Open Enrollment Period</strong> is critical. It begins the first day of the month your Medicare Part B is effective and lasts for <strong>6 months</strong>.
+                  If you choose Original Medicare + Medigap, your <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link> is critical. It begins the first day of the month your Medicare Part B is effective and lasts for <strong>6 months</strong>.
                 </p>
 
                 <div className="bg-gradient-to-r from-teal-50 to-blue-50 border border-teal-200 rounded-xl p-6 mb-6">
@@ -508,7 +508,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                     <div>
                       <p className="font-semibold text-red-900 mb-1">Don't Miss This Window</p>
                       <p className="text-sm text-red-800">
-                        After your 6-month Medigap OEP closes, insurance companies can use medical underwriting to decide whether to sell you a policy and how much to charge. You could be denied coverage or face higher premiums based on your health history.
+                        After your 6-month Medigap OEP closes, insurance companies can use <Link href="/faqs/medicare-supplement-underwriting-questions" className="text-red-900 underline font-semibold hover:text-red-700">medical underwriting</Link> to decide whether to sell you a policy and how much to charge. You could be denied coverage or face higher premiums based on your health history.
                       </p>
                     </div>
                   </div>

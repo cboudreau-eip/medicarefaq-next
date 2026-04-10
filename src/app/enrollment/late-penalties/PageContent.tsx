@@ -7,7 +7,7 @@
  * Color accent: amber/orange (#D97706) matching the Enrollment section identity.
  */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
 import {
   AlertCircle,
@@ -36,7 +36,7 @@ const tableOfContents = [
   { id: "next-steps", label: "Next Steps" },
 ];
 
-const faqs = [
+const faqs: { q: string; a: ReactNode }[] = [
   {
     q: "How long does the Part B late enrollment penalty last?",
     a: "The Part B late enrollment penalty is permanent. It's added to your monthly Part B premium for as long as you have Medicare. The penalty is 10% of the standard premium for each full 12-month period you were eligible for Part B but didn't enroll and didn't have creditable coverage.",
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: "I missed my IEP and don't have creditable coverage. What now?",
-    a: "You'll need to wait until the General Enrollment Period (January 1 – March 31) to sign up for Part B. Your coverage won't start until July 1. You will face a Part B late enrollment penalty based on how long you delayed. Contact us to understand your options and minimize the impact.",
+    a: <>You&apos;ll need to wait until the <Link href="/faqs/medicare-general-enrollment-period" className="text-red-700 underline font-semibold hover:text-red-900">General Enrollment Period</Link> (January 1 – March 31) to sign up for Part B. Your coverage won&apos;t start until July 1. You will face a <Link href="/faqs/medicare-part-b-late-enrollment-penalty" className="text-red-700 underline font-semibold hover:text-red-900">Part B late enrollment penalty</Link> based on how long you delayed. Contact us to understand your options and minimize the impact.</>,
   },
   {
     q: "Can I appeal a late enrollment penalty?",
@@ -174,7 +174,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   Medicare has specific enrollment windows, and missing them can have lasting financial consequences. If you don't sign up for Medicare when you're first eligible — and you don't have qualifying coverage that allows you to delay — you may face <strong>permanent late enrollment penalties</strong> that are added to your monthly premiums.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
-                  There are three types of Medicare late enrollment penalties: <strong>Part A</strong> (rare), <strong>Part B</strong> (most common), and <strong>Part D</strong> (prescription drugs). Each is calculated differently, but all are permanent additions to your monthly premium.
+                  There are three types of Medicare late enrollment penalties: <strong><Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-red-700 underline hover:text-red-900">Part A</Link></strong> (rare), <strong><Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-red-700 underline hover:text-red-900">Part B</Link></strong> (most common), and <strong><Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-red-700 underline hover:text-red-900">Part D</Link></strong> (prescription drugs). Each is calculated differently, but all are permanent additions to your monthly premium.
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-4">
@@ -252,7 +252,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   Part D Late Enrollment Penalty
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  The Part D penalty applies if you went <strong>63 or more consecutive days</strong> without Part D or other creditable prescription drug coverage after your Initial Enrollment Period ended.
+                  The <Link href="/faqs/medicare-part-d-late-enrollment-penalty" className="text-amber-700 underline font-semibold hover:text-amber-900">Part D penalty</Link> applies if you went <strong>63 or more consecutive days</strong> without Part D or other creditable prescription drug coverage after your <Link href="/faqs/medicare-initial-enrollment-period" className="text-amber-700 underline font-semibold hover:text-amber-900">Initial Enrollment Period</Link> ended.
                 </p>
 
                 <div className="bg-amber-50 border-2 border-amber-200 rounded-xl p-6 mb-6">
@@ -394,7 +394,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Enroll During Your Initial Enrollment Period</h3>
-                        <p className="text-sm text-green-800">Sign up for Parts A, B, and D during your 7-month IEP around your 65th birthday. This is the simplest way to avoid all penalties.</p>
+                        <p className="text-sm text-green-800">Sign up for Parts A, B, and D during your 7-month IEP around your 65th birthday. See our <Link href="/enrollment/turning-65" className="text-green-900 underline font-semibold hover:text-green-700">Turning 65 guide</Link> for details. This is the simplest way to avoid all penalties.</p>
                       </div>
                     </div>
                   </div>
@@ -404,7 +404,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Maintain Creditable Coverage If Delaying</h3>
-                        <p className="text-sm text-green-800">If you're working past 65 with employer coverage (20+ employees), keep that coverage active. Get a creditable coverage letter from your employer as proof.</p>
+                        <p className="text-sm text-green-800">If you're <Link href="/enrollment/working-past-65" className="text-green-900 underline font-semibold hover:text-green-700">working past 65</Link> with employer coverage (20+ employees), keep that coverage active. Get a creditable coverage letter from your employer as proof.</p>
                       </div>
                     </div>
                   </div>
@@ -414,7 +414,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Use Your Special Enrollment Period</h3>
-                        <p className="text-sm text-green-800">When your employer coverage ends, enroll in Medicare within your 8-month SEP. Don't wait — the clock starts when your employment or coverage ends.</p>
+                        <p className="text-sm text-green-800">When your employer coverage ends, enroll in Medicare within your 8-month <Link href="/faqs/medicare-special-enrollment-periods" className="text-green-900 underline font-semibold hover:text-green-700">Special Enrollment Period</Link>. Don't wait — the clock starts when your employment or coverage ends.</p>
                       </div>
                     </div>
                   </div>
