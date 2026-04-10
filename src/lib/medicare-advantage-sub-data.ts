@@ -682,4 +682,84 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Compare Medicare Plans", path: "/compare-rates" },
     ],
   },
+  {
+    slug: "medicare-advantage-plan-hmo",
+    title: "Medicare Advantage HMO Plans",
+    subtitle: "MEDICARE ADVANTAGE",
+    heroDescription:
+      "Medicare Advantage HMO plans offer comprehensive coverage with lower premiums by using a network of providers. Learn how HMO plans work, their benefits, and how to find the right plan.",
+    sections: [
+      {
+        id: "what-is-hmo",
+        heading: "What Is a Medicare Advantage HMO Plan?",
+        body: `<p>A Health Maintenance Organization (HMO) Medicare Advantage plan provides all your Medicare Part A and Part B benefits through a network of doctors, hospitals, and other healthcare providers. HMO plans typically require you to choose a primary care physician (PCP) who coordinates your care and provides referrals to in-network specialists.</p>
+<p>HMO plans are the most popular type of Medicare Advantage plan because they typically offer lower premiums — often $0/month — and predictable cost-sharing in exchange for using the plan's network.</p>`,
+      },
+      {
+        id: "how-hmo-works",
+        heading: "How Does an HMO Plan Work?",
+        body: `<p>With a Medicare Advantage HMO plan:</p>
+<ul>
+<li><strong>Choose a primary care physician (PCP)</strong> — Your PCP coordinates all your care and refers you to in-network specialists when needed.</li>
+<li><strong>Use in-network providers</strong> — Except for emergencies, you must use providers in the plan's network. Out-of-network care is generally not covered.</li>
+<li><strong>Get referrals for specialists</strong> — Most HMO plans require a referral from your PCP before seeing a specialist.</li>
+<li><strong>Pay predictable costs</strong> — HMO plans have fixed copays for most services, making budgeting easier.</li>
+</ul>`,
+      },
+      {
+        id: "hmo-benefits",
+        heading: "Benefits of a Medicare Advantage HMO Plan",
+        body: `<p>Medicare Advantage HMO plans offer several advantages over Original Medicare:</p>
+<ul>
+<li><strong>Low or $0 monthly premiums</strong> — Many HMO plans have no monthly premium beyond your Part B premium.</li>
+<li><strong>Out-of-pocket maximum</strong> — HMO plans cap your annual out-of-pocket costs. Original Medicare has no cap.</li>
+<li><strong>Extra benefits</strong> — Most HMO plans include prescription drug coverage (Part D), plus dental, vision, hearing, and fitness benefits.</li>
+<li><strong>Coordinated care</strong> — Your PCP coordinates all your care, reducing the risk of duplicate tests or conflicting treatments.</li>
+</ul>`,
+      },
+      {
+        id: "hmo-eligibility",
+        heading: "Eligibility for Medicare Advantage HMOs",
+        body: `<p>To enroll in a Medicare Advantage HMO plan, you must be enrolled in Medicare Part A and Part B, live in the plan's service area, and enroll during an eligible enrollment period (Initial Enrollment Period, Annual Enrollment Period October 15–December 7, or a Special Enrollment Period).</p>`,
+      },
+      {
+        id: "hmo-vs-ppo",
+        heading: "HMO vs. PPO: Which Medicare Advantage Plan Is Right for You?",
+        body: `<table>
+<thead><tr><th>Feature</th><th>HMO</th><th>PPO</th></tr></thead>
+<tbody>
+<tr><td>Monthly premium</td><td>Usually lower (often $0)</td><td>Usually higher</td></tr>
+<tr><td>Network requirement</td><td>Must use network</td><td>Preferred network, but flexible</td></tr>
+<tr><td>Referrals for specialists</td><td>Usually required</td><td>Not required</td></tr>
+<tr><td>Out-of-network coverage</td><td>Emergency only</td><td>Yes, at higher cost</td></tr>
+<tr><td>Best for</td><td>Cost-conscious, local care</td><td>Flexibility, travel, specialists</td></tr>
+</tbody>
+</table>`,
+      },
+    ],
+    faqs: [
+      {
+        question: "Is a Medicare Advantage HMO the same as Medicare?",
+        answer:
+          "A Medicare Advantage HMO is a type of Medicare — it replaces Original Medicare (Parts A and B) and is offered by a private insurer. You still have Medicare, but your benefits are delivered through the HMO plan instead of directly through the federal government.",
+      },
+      {
+        question: "Do HMO Medicare Advantage plans require referrals?",
+        answer:
+          "Most HMO plans require a referral from your primary care physician to see a specialist. Some plans offer 'open access' HMO options that don't require referrals — check the plan's Evidence of Coverage for details.",
+      },
+      {
+        question: "What happens if I see an out-of-network doctor with an HMO plan?",
+        answer:
+          "With a standard HMO plan, you generally have no coverage for out-of-network care except in emergencies. Always verify that your providers are in-network before receiving non-emergency care.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage HMO-POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
+      { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
+      { label: "Medicare HMO vs. PPO", path: "/faqs/medicare-hmo-vs-ppo" },
+      { label: "Compare Medicare Plans", path: "/compare-rates" },
+    ],
+  },
 ];

@@ -453,4 +453,81 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
     ],
   },
+  {
+    slug: "role-of-a-caregiver",
+    title: "Roles of a Caregiver",
+    subtitle: "CAREGIVER RESOURCES",
+    heroDescription:
+      "Understanding the roles and responsibilities of a caregiver is essential for providing quality care. Learn about caregiver duties, ADL assistance, advocacy, and end-of-life activities.",
+    sections: [
+      {
+        id: "caregiver-duties",
+        heading: "Caregiver Duties",
+        body: `<p>Caregivers take on a wide range of responsibilities depending on the needs of the person they care for. Duties can be broadly categorized into personal care, medical support, emotional support, and household management.</p>
+<p>The scope of caregiving often expands over time as the care recipient's needs increase. It's important for caregivers to understand their role clearly and seek help when needed to avoid burnout.</p>`,
+      },
+      {
+        id: "adls",
+        heading: "Performing or Assisting With ADLs",
+        body: `<p>Activities of Daily Living (ADLs) are the basic self-care tasks that people perform every day. Caregivers often assist with:</p>
+<ul>
+<li><strong>Bathing and personal hygiene</strong> — Helping with showers, baths, grooming, and oral care</li>
+<li><strong>Dressing</strong> — Selecting appropriate clothing and assisting with putting it on</li>
+<li><strong>Eating</strong> — Preparing meals, feeding assistance, and monitoring nutrition</li>
+<li><strong>Mobility</strong> — Helping with walking, transfers (bed to chair), and positioning</li>
+<li><strong>Toileting</strong> — Assisting with bathroom use and managing incontinence</li>
+<li><strong>Medication management</strong> — Organizing medications, reminding about doses, and monitoring side effects</li>
+</ul>`,
+      },
+      {
+        id: "advocacy",
+        heading: "Advocating for Healthcare Needs",
+        body: `<p>One of the most important roles of a caregiver is serving as a healthcare advocate. This includes:</p>
+<ul>
+<li>Attending medical appointments and taking notes</li>
+<li>Communicating symptoms and changes in condition to healthcare providers</li>
+<li>Reviewing Medicare Summary Notices (MSNs) and Explanation of Benefits (EOBs) for errors</li>
+<li>Researching treatment options and asking questions on behalf of the care recipient</li>
+<li>Coordinating between multiple healthcare providers</li>
+<li>Understanding Medicare coverage and appealing denied claims when necessary</li>
+</ul>`,
+      },
+      {
+        id: "end-of-life",
+        heading: "Handling End-of-Life Activities",
+        body: `<p>Caregivers often play a central role in end-of-life planning and care, including:</p>
+<ul>
+<li>Discussing and documenting advance directives (living will, healthcare proxy/power of attorney)</li>
+<li>Coordinating hospice care — Medicare covers hospice services for beneficiaries with a terminal illness and a life expectancy of six months or less</li>
+<li>Managing comfort care and pain management</li>
+<li>Providing emotional support and presence</li>
+<li>Handling practical matters such as funeral planning and estate administration</li>
+</ul>
+<p>Medicare's hospice benefit covers a wide range of services including nursing care, social work, chaplain services, and respite care for family caregivers.</p>`,
+      },
+    ],
+    faqs: [
+      {
+        question: "What are the three main strengths of a caregiver?",
+        answer:
+          "The three most important strengths of an effective caregiver are patience (the ability to remain calm under stress), empathy (understanding and sharing the feelings of the care recipient), and organization (managing medications, appointments, and care tasks efficiently).",
+      },
+      {
+        question: "What is the hardest part of being a caregiver?",
+        answer:
+          "Most caregivers report that the emotional toll \u2014 including grief, guilt, and isolation \u2014 is the hardest aspect of caregiving. Caregiver burnout is common and can affect both physical and mental health. Seeking respite care, joining support groups, and accepting help from others are essential strategies for sustainable caregiving.",
+      },
+      {
+        question: "Does Medicare pay family caregivers?",
+        answer:
+          "Original Medicare does not pay family members for providing care. However, some state Medicaid programs offer consumer-directed programs that allow beneficiaries to hire and pay family members as personal care attendants. Contact your state Medicaid office or local Area Agency on Aging for details.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
+      { label: "What Is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
+      { label: "What Are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
+      { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
+    ],
+  },
 ];
