@@ -25,14 +25,14 @@
 - [x] Build medicare-enrollment-periods page
 
 ## Missing Pages Build — Batch 3: FAQ Articles
-- [ ] Build chronic-care-management FAQ
-- [ ] Build five-surprising-facts-about-medigap-you-didnt-know FAQ
-- [ ] Build does-medicare-cover-hormone-therapy-for-menopause FAQ
-- [ ] Build medicare-cover-dialysis-treatments FAQ
-- [ ] Build medicare-plan-g-reviews FAQ
-- [ ] Build report-medicare-fraud FAQ
-- [ ] Build medicare-hmo-vs-ppo FAQ
-- [ ] Build will-medicare-pay-for-a-nebulizer-machine FAQ
+- [x] Build chronic-care-management FAQ
+- [x] Build five-surprising-facts-about-medigap-you-didnt-know FAQ
+- [x] Build does-medicare-cover-hormone-therapy-for-menopause FAQ
+- [x] Build medicare-cover-dialysis-treatments FAQ
+- [x] Build medicare-plan-g-reviews FAQ
+- [x] Build report-medicare-fraud FAQ
+- [x] Build medicare-hmo-vs-ppo FAQ
+- [x] Build will-medicare-pay-for-a-nebulizer-machine FAQ
 
 ## Missing Pages Build — Batch 4: Structural Pages
 - [ ] Build medicare-advantage-plan-hmo page
