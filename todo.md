@@ -58,4 +58,5 @@
 - [x] Build medicare-starter-guide-what-to-do-in-your-first-90-days blog post
 - [x] Build how-can-seniors-save-on-prescription-drug-costs blog post
 - [x] Create dynamic robots.ts for proper robots.txt with sitemap declaration
-- [ ] Fix blog sitemap to include all individual blog post URLs
+- [x] Fix blog sitemap to include all individual blog post URLs
+- [ ] Set logo.png as site favicon (favicon.ico, apple-touch-icon)
