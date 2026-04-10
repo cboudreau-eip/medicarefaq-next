@@ -99,7 +99,7 @@ export const navigationData: NavCategory[] = [
   {
     title: "Medicare Plans",
     href: "/medicare-plans",
-    color: "#1B2A4A",
+    color: "#3B82F6",
     items: [
       {
         title: "Original Medicare (Parts A & B)",
