@@ -56,7 +56,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "There are several stand-alone dental plans available that will help cover the cost of dental implants. These plans often group with additional coverage for [vision and hearing]() as well, as Original Medicare also does not cover those services. However, not all dental plans will cover the cost of dental implants, so it is important to speak with an agent to understand your plan’s coverage before enrolling.",
+          "There are several stand-alone dental plans available that will help cover the cost of dental implants. These plans often group with additional coverage for [vision and hearing](/faqs/does-medicare-cover-hearing-aids) as well, as Original Medicare also does not cover those services. However, not all dental plans will cover the cost of dental implants, so it is important to speak with an agent to understand your plan's coverage before enrolling.",
         ],
       },
       {
@@ -66,7 +66,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "There are several stand-alone dental plans available that will help cover the cost of dental implants. These plans often group with additional coverage for [vision and hearing]() as well, as Original Medicare also does not cover those services. However, not all dental plans will cover the cost of dental implants, so it is important to speak with an agent to understand your plan’s coverage before enrolling.",
+          "There are several stand-alone dental plans available that will help cover the cost of dental implants. These plans often group with additional coverage for [vision and hearing](/faqs/does-medicare-cover-hearing-aids) as well, as Original Medicare also does not cover those services. For a full overview of what these plans include, see our guide to [Medicare Advantage plan options](/medicare-part-c/medicare-advantage-plans). However, not all dental plans will cover the cost of dental implants, so it is important to speak with an agent to understand your plan's coverage before enrolling.",
         ],
       },
       {
