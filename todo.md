@@ -19,10 +19,10 @@
 - [x] Build nebraska-medigap-plans state page
 
 ## Missing Pages Build — Batch 2: Original Medicare Section Pages
-- [ ] Build medicare-eligibility page
-- [ ] Build medicare-coverage page
-- [ ] Build medicare-costs page
-- [ ] Build medicare-enrollment-periods page
+- [x] Build medicare-eligibility page
+- [x] Build medicare-coverage page
+- [x] Build medicare-costs page
+- [x] Build medicare-enrollment-periods page
 
 ## Missing Pages Build — Batch 3: FAQ Articles
 - [ ] Build chronic-care-management FAQ
