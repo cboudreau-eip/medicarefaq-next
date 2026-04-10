@@ -7,7 +7,7 @@
  * Color accent: amber/orange (#D97706) matching the Enrollment section identity.
  */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
 import {
   ArrowRightLeft,
@@ -37,18 +37,18 @@ const tableOfContents = [
   { id: "next-steps", label: "Next Steps" },
 ];
 
-const faqs = [
+const faqs: { q: string; a: ReactNode }[] = [
   {
     q: "Do I have to do anything during the Annual Enrollment Period?",
     a: "No. If you're happy with your current coverage, you don't need to take any action — your plan will automatically renew. However, it's always a good idea to review your Annual Notice of Change (ANOC) to see if your plan's costs, benefits, or formulary have changed for the upcoming year.",
   },
   {
     q: "Can I switch from Medicare Advantage to Original Medicare during AEP?",
-    a: "Yes. During the Annual Enrollment Period (October 15 – December 7), you can disenroll from your Medicare Advantage plan and return to Original Medicare. If you do, you can also enroll in a standalone Part D plan and a Medigap plan. However, Medigap plans may require medical underwriting outside of your initial Medigap Open Enrollment Period.",
+    a: <>Yes. During the Annual Enrollment Period (October 15 – December 7), you can disenroll from your Medicare Advantage plan and return to Original Medicare. If you do, you can also enroll in a standalone Part D plan and a Medigap plan. However, Medigap plans may require <Link href="/faqs/medicare-supplement-underwriting-questions" className="text-amber-700 underline font-semibold hover:text-amber-900">medical underwriting</Link> outside of your initial <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link>.</>,
   },
   {
     q: "What's the difference between AEP and the MA Open Enrollment Period?",
-    a: "The Annual Enrollment Period (AEP) runs October 15 – December 7 and is open to all Medicare beneficiaries. The Medicare Advantage Open Enrollment Period (MA OEP) runs January 1 – March 31 and is only for people already enrolled in a Medicare Advantage plan. During the MA OEP, you can switch MA plans or return to Original Medicare.",
+    a: <>The Annual Enrollment Period (AEP) runs October 15 – December 7 and is open to all Medicare beneficiaries. The <Link href="/medicare-part-c/medicare-advantage-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Advantage Open Enrollment Period</Link> (MA OEP) runs January 1 – March 31 and is only for people already enrolled in a Medicare Advantage plan. During the MA OEP, you can switch MA plans or return to Original Medicare.</>,
   },
   {
     q: "When do changes made during AEP take effect?",
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: "Can I change my Medigap plan during AEP?",
-    a: "No. The Annual Enrollment Period only applies to Medicare Advantage and Part D plans. Medigap (Medicare Supplement) plans can be changed at any time during the year, but you may be subject to medical underwriting outside of your initial Medigap Open Enrollment Period. Some states have additional protections.",
+    a: <>No. The Annual Enrollment Period only applies to Medicare Advantage and Part D plans. <Link href="/medicare-supplements" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap (Medicare Supplement) plans</Link> can be changed at any time during the year, but you may be subject to medical underwriting outside of your initial <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link>. Some states have additional protections.</>,
   },
   {
     q: "What is the Annual Notice of Change (ANOC)?",
@@ -172,7 +172,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                   What Changes Each Year in Medicare?
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Medicare isn't static. Every year, the Centers for Medicare & Medicaid Services (CMS) adjusts costs, updates coverage rules, and allows insurance companies to modify their plan offerings. These changes can affect your premiums, deductibles, copays, drug formularies, and provider networks.
+                  Medicare isn't static. Every year, the Centers for Medicare & Medicaid Services (CMS) adjusts costs, updates coverage rules, and allows insurance companies to modify their plan offerings. These changes can affect your premiums, deductibles, copays, <Link href="/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" className="text-amber-700 underline font-semibold hover:text-amber-900">drug formularies</Link>, and provider networks.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   That's why it's important to review your coverage annually — even if you're satisfied with your current plan. A plan that worked well this year may have significant changes next year.
@@ -239,7 +239,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">New for 2026: Part D Out-of-Pocket Cap</p>
                       <p className="text-sm text-blue-800">
-                        Starting in 2025, the Inflation Reduction Act introduced a <strong>$2,000 annual out-of-pocket cap</strong> for Part D prescription drug costs. This continues in 2026 and eliminates the catastrophic coverage phase where beneficiaries previously had to pay 5% of drug costs indefinitely.
+                        Starting in 2025, the Inflation Reduction Act introduced a <strong>$2,000 annual out-of-pocket cap</strong> for <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-blue-900 underline font-semibold hover:text-blue-700">Part D prescription drug costs</Link>. This continues in 2026 and eliminates the catastrophic coverage phase where beneficiaries previously had to pay 5% of drug costs indefinitely.
                       </p>
                     </div>
                   </div>
@@ -284,7 +284,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                   Medicare Advantage Open Enrollment Period (MA OEP)
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  The <strong>MA OEP</strong> runs from <strong>January 1 through March 31</strong> each year. This is a secondary enrollment window available <strong>only to people already enrolled in a Medicare Advantage plan</strong>.
+                  The <strong>MA OEP</strong> runs from <strong>January 1 through March 31</strong> each year. This is a secondary enrollment window available <strong>only to people already enrolled in a <Link href="/medicare-part-c/medicare-advantage-plans" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Advantage plan</Link></strong>.
                 </p>
 
                 <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 mb-6">
