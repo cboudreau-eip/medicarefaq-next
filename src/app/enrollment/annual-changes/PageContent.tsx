@@ -131,10 +131,11 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
         title="Medicare Annual Enrollment Period | AEP Dates & Changes"
         description="The Medicare Annual Enrollment Period runs October 15 – December 7 each year. Learn what changes you can make, 2026 cost updates, and how to review your coverage."
         url="https://www.medicarefaq.com/medicare-enrollment/annual-enrollment-period/"
-        datePublished="2024-09-15"
-        dateModified="2026-01-10"
+        datePublished="2024-09-15T00:00:00+00:00"
+        dateModified="2026-01-10T00:00:00+00:00"
         authorName="David Haass"
         authorUrl="https://www.medicarefaq.com/about"
+        imageUrl="https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg"
       />
       
       

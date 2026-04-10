@@ -9,3 +9,4 @@
 - [x] Add keyword-rich internal links to /tools/enrollment-timeline
 - [x] Create reusable schema components (FAQSchema, BreadcrumbSchema, ArticleSchema)
 - [x] Test schema markup on /enrollment/annual-changes page
+- [x] Fix schema issues on /enrollment/annual-changes: ISO 8601 dates + add image field
