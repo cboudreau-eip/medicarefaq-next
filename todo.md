@@ -57,4 +57,5 @@
 - [x] Build best-states-to-retire blog post
 - [x] Build medicare-starter-guide-what-to-do-in-your-first-90-days blog post
 - [x] Build how-can-seniors-save-on-prescription-drug-costs blog post
-- [ ] Create dynamic robots.ts for proper robots.txt with sitemap declaration
+- [x] Create dynamic robots.ts for proper robots.txt with sitemap declaration
+- [ ] Fix blog sitemap to include all individual blog post URLs

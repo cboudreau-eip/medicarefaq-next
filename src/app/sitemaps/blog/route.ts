@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
+import { blogArticles } from "@/lib/blog-articles-data";
 
 const BASE_URL = "https://www.medicarefaq.com";
-const lastModified = new Date("2026-04-09").toISOString();
 
 type SitemapEntry = {
   url: string;
   priority: string;
   changefreq: string;
+  lastmod?: string;
 };
 
 function buildXml(entries: SitemapEntry[]): string {
@@ -14,7 +15,7 @@ function buildXml(entries: SitemapEntry[]): string {
     .map(
       (e) => `  <url>
     <loc>${e.url}</loc>
-    <lastmod>${lastModified}</lastmod>
+    <lastmod>${e.lastmod ?? new Date().toISOString()}</lastmod>
     <changefreq>${e.changefreq}</changefreq>
     <priority>${e.priority}</priority>
   </url>`
@@ -28,22 +29,21 @@ ${urls}
 }
 
 export function GET() {
-  /**
-   * Blog sitemap — currently includes the blog index page.
-   * When blog posts are added to the database or CMS, fetch them here
-   * and map each post to a sitemap entry:
-   *
-   * const posts = await db.query.blogPosts.findMany({ ... });
-   * for (const post of posts) {
-   *   entries.push({ url: `${BASE_URL}/blog/${post.slug}`, ... });
-   * }
-   */
   const entries: SitemapEntry[] = [
+    // Blog index
     {
       url: `${BASE_URL}/blog`,
-      priority: "0.7",
+      priority: "0.8",
       changefreq: "weekly",
+      lastmod: new Date("2026-04-10").toISOString(),
     },
+    // Individual blog posts
+    ...blogArticles.map((article) => ({
+      url: `${BASE_URL}/blog/${article.slug}`,
+      priority: article.featured ? "0.8" : "0.7",
+      changefreq: "monthly" as const,
+      lastmod: new Date(article.date).toISOString(),
+    })),
   ];
 
   return new NextResponse(buildXml(entries), {
