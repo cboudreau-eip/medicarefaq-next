@@ -24,7 +24,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "4 min read",
     featured: true,
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "a-quick-note-on-medicare-costs", title: "A Quick Note on Medicare costs" },
       { id: "medicare-part-a", title: "Medicare Part A" },
@@ -73,7 +73,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "4 min read",
     featured: true,
-    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "projected-medicare-part-d-premiums-decrease-in-2026", title: "Projected: Medicare Part D Premiums Decrease in 2026" },
       { id: "how-does-cms-determine-the-average-projected-premium-for-part-d", title: "How Does CMS Determine the Average Projected Premium for Part D?" },
@@ -129,7 +129,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "how-a-medicare-supplement-plan-works", title: "How a Medicare Supplement Plan Works" },
       { id: "how-a-medicare-advantage-plan-works", title: "How a Medicare Advantage Plan Works" },
@@ -193,7 +193,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "your-initial-enrollment-period-iep", title: "Your Initial Enrollment Period (IEP)" },
       { id: "the-general-enrollment-period-gep", title: "The General Enrollment Period (GEP)" },
@@ -254,7 +254,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "are-medigap-plans-available-everywhere", title: "Are Medigap Plans Available Everywhere?" },
       { id: "what-does-each-plan-cover-and-not-cover", title: "What Does Each Plan Cover and Not Cover?" },
@@ -323,7 +323,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=500&fit=crop",
     keyTakeaways: [
       "What is a Medicare Advantage Plan?",
       "When should I compare Medicare Advantage plans?",
@@ -451,7 +451,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "what-is-the-medicare-part-d-payment-plan", title: "What Is the Medicare Part D Payment Plan?" },
       { id: "who-qualifies-for-the-medicare-part-d-payment-plan", title: "Who Qualifies for the Medicare Part D Payment Plan?" },
@@ -521,7 +521,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "does-paying-a-higher-premium-mean-more-coverage", title: "Does Paying a Higher Premium Mean More Coverage?" },
       { id: "a-cost-versus-value-analysis", title: "A Cost Versus Value Analysis" },
@@ -575,7 +575,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "what-are-medigap-plans", title: "What Are Medigap Plans?" },
       { id: "what-costs-do-medigap-plans-cover", title: "What Costs Do Medigap Plans Cover?" },
@@ -633,7 +633,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: true,
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "what-is-automatic-enrollment", title: "What Is Automatic Enrollment?" },
       { id: "what-is-manual-voluntary-enrollment", title: "What Is Manual (Voluntary) Enrollment?" },
@@ -699,7 +699,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "14 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "key-differences", title: "Key Differences Between Medigap and Medicare Advantage" },
       { id: "understanding-coverage-transparency", title: "Understanding Coverage Transparency" },
@@ -762,7 +762,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "15 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=500&fit=crop",
     keyTakeaways: [
       "The Medigap free look period gives you 30 days to evaluate a new Medicare Supplement policy without commitment",
       "During this period, you can compare your new policy with your current one to ensure it meets your healthcare and financial needs",
@@ -850,7 +850,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "13 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "how-the-part-b-deductible-works", title: "How the Part B Deductible Works" },
       { id: "services-that-count-toward-the-part-b-deductible", title: "Services That Count Toward the Part B Deductible" },
@@ -1031,7 +1031,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "4 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "understanding-pre-existing-conditions-in-medigap", title: "Understanding Pre-Existing Conditions in Medigap" },
       { id: "medigap-enrollment-timing", title: "Medigap Enrollment Timing" },
@@ -1090,7 +1090,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "understanding-medicare-part-b-premiums", title: "Understanding Medicare Part B Premiums" },
       { id: "how-the-part-b-giveback-works", title: "How the Part B Giveback Works" },
@@ -1202,7 +1202,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "3 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "primary-vs-secondary-payer-rules", title: "Primary vs Secondary Payer Rules" },
       { id: "employer-coverage-size-and-medicare-coordination", title: "Employer Coverage Size and Medicare Coordination" },
@@ -1317,7 +1317,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=500&fit=crop",
     tableOfContents: [
       { id: "understanding-network-free-healthcare", title: "Understanding Network-Free Healthcare" },
       { id: "doctor-and-specialist-access", title: "Doctor and Specialist Access" },
@@ -1373,7 +1373,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=800&h=500&fit=crop",
       keyTakeaways: ["Medicare flex cards are prepaid debit cards offered by certain Medicare Advantage plans to help pay for eligible health and wellness expenses beyond traditional medical care", "Not all Medicare Advantage plans offer flex cards, so you'll need to check your specific plan\'s benefits or shop during Annual Enrollment Period to find one that does", "Flex card funds are typically use-it-or-lose-it each year, meaning unused money doesn\'t roll over to the next plan year", "Common eligible expenses include dental, vision, hearing aids, fitness programs, and over-the-counter health items, though approved uses vary by plan"],
       tableOfContents: [
         { id: "what-is-medicare-flex-card", title: "What Is a Medicare Flex Card?" },
@@ -1560,7 +1560,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=500&fit=crop",
       keyTakeaways: ["You can enroll in Medicare at 65 without receiving Social Security benefits, but you must apply separately for Medicare.", "If you delay Social Security past 65, you should still sign up for Medicare on time to avoid paying higher premiums for life.", "Working past 65 and having employer coverage doesn't automatically exempt you from Medicare enrollment requirements.", "Missing Medicare\'s initial enrollment period can result in permanent late enrollment penalties unless you have qualifying coverage."],
       tableOfContents: [
         { id: "medicare-and-social-security-are-separate", title: "Medicare and Social Security Are Completely Separate" },
@@ -1727,7 +1727,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=800&h=500&fit=crop",
       keyTakeaways: ["Full Retirement Age (FRA) is when you can claim 100% of your Social Security benefit; it ranges from 66 to 67 depending on your birth year", "Your FRA does not change your Medicare eligibility at age 65, but it affects how much Social Security income you'll receive", "Claiming Social Security before your FRA results in permanently reduced benefits, while delaying past FRA increases your benefit by 8% per year", "Coordinating your Medicare enrollment with your Social Security claiming strategy can help maximize your retirement income and avoid costly penalties"],
       tableOfContents: [
         { id: "what-is-full-retirement-age", title: "What Is Full Retirement Age?" },
@@ -1906,7 +1906,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1521791055366-0d553872952f?w=800&h=500&fit=crop",
       keyTakeaways: ["Losing employer coverage qualifies you for a Special Enrollment Period, giving you 60 days to enroll in Medicare without late penalties", "You must enroll in Medicare Part A and Part B even if you're still working, unless your employer has fewer than 20 employees", "Coordinate your employer plan end date with your Medicare start date to avoid gaps or overlaps in coverage", "In 2026, Part B costs $185 per month with a $257 deductible, and Part A has a $1,676 deductible for hospital stays"],
       tableOfContents: [
         { id: "understanding-employer-coverage-transition", title: "Understanding Your Employer Coverage Transition" },
@@ -2073,7 +2073,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?w=800&h=500&fit=crop",
       keyTakeaways: ["Original Medicare (Parts A and B) works the same in every state, so your coverage doesn't change when you move", "Medicare Advantage and Part D plans are state-specific, and your current plan may not be available in your new state", "You have a special enrollment period to change plans when you move, even outside the normal Annual Enrollment Period", "Contact your plans 2-3 months before moving to understand your options and avoid coverage gaps"],
       tableOfContents: [
         { id: "original-medicare-coverage", title: "Original Medicare Stays the Same Across State Lines" },
@@ -2243,7 +2243,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&h=500&fit=crop",
       keyTakeaways: ["Some Medicare Advantage plans offer a grocery allowance or food benefit, typically worth $30 to $150 per month, but Original Medicare does not include this benefit.", "Grocery allowance benefits are supplemental and vary significantly by plan, insurer, and location, so comparing your specific options during enrollment is essential.", "These benefits are designed to support nutritional health and may be tied to chronic condition management, such as diabetes or heart disease.", "To access a grocery allowance, you must be enrolled in a qualifying Medicare Advantage plan and meet any eligibility requirements your plan specifies."],
       tableOfContents: [
         { id: "understanding-grocery-allowance", title: "Understanding the Medicare Grocery Allowance" },
@@ -2409,7 +2409,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop",
       keyTakeaways: ["$0 premium Medicare Advantage plans eliminate the Part B premium ($185/month in 2026), but this saving may be offset by higher out-of-pocket costs at the doctor's office and hospital", "Network restrictions mean you can only see in-network providers, and going out-of-network costs significantly more or may not be covered at all", "These plans often include dental, vision, and hearing coverage that Original Medicare doesn\'t offer, which can provide real value if you use those services", "Your total costs depend on your health status, where you live, and which providers and services you use most, so comparing your specific situation matters more than the $0 premium alone"],
       tableOfContents: [
         { id: "why-zero-premium-plans-exist", title: "Why Do $0 Premium Medicare Advantage Plans Exist?" },
@@ -2563,7 +2563,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&h=500&fit=crop",
       keyTakeaways: ["Illinois allows Medicare Supplement policyholders to switch plans once per calendar year without answering health questions or undergoing medical underwriting during a 30-day birthday month window", "The birthday rule applies to all Medigap policies issued or renewed in Illinois, making it easier to find better coverage or lower premiums", "You must submit your application within 30 days of your policy's anniversary date, and your new coverage takes effect on the first day of the following month", "This valuable benefit lets you upgrade plans, downgrade to save money, or switch carriers without worrying about pre-existing conditions being excluded"],
       tableOfContents: [
         { id: "what-is-the-illinois-birthday-rule", title: "What Is the Illinois Birthday Rule?" },
@@ -2705,7 +2705,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=500&fit=crop",
       keyTakeaways: ["You must stop HSA contributions once you enroll in Medicare Part A", "Continuing contributions after Medicare enrollment triggers a 20% penalty plus income taxes", "You can use existing HSA funds tax-free for qualified medical expenses in retirement"],
       tableOfContents: [
         { id: "hsa-medicare-rules", title: "HSA Rules Change at 65" },
@@ -2801,7 +2801,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=800&h=500&fit=crop",
       keyTakeaways: ["Part A covers hospital care, Part B covers doctor visits and outpatient services", "Part C is an alternative way to get Parts A and B through private insurers", "Part D covers prescription drugs and is optional but recommended"],
       tableOfContents: [
         { id: "part-a", title: "Medicare Part A: Hospital Insurance" },
@@ -2900,7 +2900,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop",
       keyTakeaways: ["Part B premium is $185/month in 2026, with a $257 annual deductible", "Covers doctor visits, outpatient services, and preventive care with 20% coinsurance after deductible", "Income-related adjustments (IRMAA) may increase premiums for higher earners"],
       tableOfContents: [
         { id: "section-1", title: "What Is Medicare Part B?" },
@@ -3000,7 +3000,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=500&fit=crop",
       keyTakeaways: ["Amazon RxPass offers generic medications for $5/month but isn't integrated with Medicare", "Medicare beneficiaries can use RxPass only if they decline Part D coverage", "RxPass covers about 50 generic medications, a fraction of typical Part D formularies"],
       tableOfContents: [
         { id: "what-is-rxpass", title: "What Is Amazon RxPass?" },
@@ -3099,7 +3099,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop",
       keyTakeaways: ["Medicare assignment means your doctor accepts Medicare's approved amount as full payment", "Non-participating providers can charge up to 15% above Medicare\'s approved fee", "Opt-out doctors are entirely outside Medicare and can charge any amount"],
       tableOfContents: [
         { id: "what-is-assignment", title: "What Is Medicare Assignment?" },
@@ -3187,7 +3187,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800&h=500&fit=crop",
       keyTakeaways: ["Medicare beneficiaries can access prescription drug discounts through Part D plans and manufacturer programs", "Retailers and service providers offer significant discounts on groceries, travel, and entertainment for cardholders aged 65+", "Organizations like AARP provide exclusive deals on insurance, travel, and everyday purchases"],
       tableOfContents: [
         { id: "prescription-drug-discounts", title: "Prescription Drug Discounts" },
@@ -3282,7 +3282,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&h=500&fit=crop",
       keyTakeaways: ["Veterans can coordinate TRICARE, VA benefits, and Medicare for comprehensive coverage", "Medicare becomes primary at age 65 for most beneficiaries, even with active TRICARE coverage", "Proper enrollment timing prevents gaps and penalties in your healthcare coverage"],
       tableOfContents: [
         { id: "coverage-overview", title: "Coverage Overview for Veterans" },
@@ -3370,7 +3370,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '9 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Original Medicare (Part A & B) does not cover vision, dental, or hearing services, leaving beneficiaries responsible for 100% of costs',
         'Medicare Advantage plans often include vision, dental, and hearing benefits, though coverage varies significantly by plan and location',
@@ -3435,7 +3435,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Many seniors qualify for SNAP benefits, which can provide up to $291/month in food assistance regardless of Medicare enrollment status',
         'The Low-Income Subsidy (LIS) program can eliminate or significantly reduce your Medicare Part D prescription drug costs if you qualify',
@@ -3507,7 +3507,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Review your Medicare card immediately to ensure all personal information is accurate and correct any errors with Social Security',
         'Set up your online Medicare account at Medicare.gov to access claims, coverage information, and manage your benefits digitally',
@@ -3574,7 +3574,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Medicare Advantage plans deny approximately 1 in 5 claims; understanding your appeal rights is critical to getting coverage you\'ve paid for',
         'You have multiple levels of appeal available, from internal reconsideration to independent external review at no cost to you',
@@ -3642,7 +3642,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Medicare Part A covers skilled nursing care in certified facilities for up to 100 days following a qualifying hospital stay, with beneficiary costs increasing after day 20',
         'Custodial care--assistance with daily living activities--is never covered by Medicare and must be paid out-of-pocket or through Medicaid or private insurance',
@@ -3707,7 +3707,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '9 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Federal and state laws provide comprehensive protections against elder fraud, abuse, and exploitation, with penalties including criminal charges and civil liability',
         'Medicare beneficiaries are frequent targets for scams involving fraudulent billing, fake prescriptions, and identity theft that can cost thousands annually',
@@ -3776,7 +3776,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '10 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516589091380-5d8e87df6999?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Your marital status affects Medicare eligibility, spousal benefits, and premium assistance programs you may qualify for',
         'Divorced individuals can claim benefits on an ex-spouse\'s Social Security record after 10+ years of marriage, impacting Medicare timing',
@@ -3846,7 +3846,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '9 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Switching from Medicare Advantage to a Medigap plan is possible during Open Enrollment or qualifying life events, but timing is critical to avoid coverage gaps',
         'You may have guaranteed issue rights that protect you from pre-existing condition exclusions when switching, depending on your specific situation',
@@ -3914,7 +3914,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Medicare Care Compare Tool allows you to search hospitals, dialysis facilities, and nursing homes using quality metrics and safety ratings to find the best providers in your area.',
         'Compare providers side-by-side using data on patient outcomes, staffing levels, infection rates, and readmission rates to make informed healthcare decisions.',
@@ -3983,7 +3983,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&h=500&fit=crop',
       keyTakeaways: [
         'You cannot enroll in Medicare at age 60; eligibility begins at 65 unless you qualify due to disability or ESRD',
         'Starting at 60, research your future Medicare options and understand Part A, B, C, and D coverage to make informed decisions',
@@ -4051,7 +4051,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '9 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Plan F is no longer available to newly eligible Medicare beneficiaries as of January 1, 2020, but existing enrollees can keep it',
         'Plan G now offers nearly identical coverage to Plan F at substantially lower premiums for most beneficiaries',
@@ -4119,7 +4119,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1568454537842-d933259bb258?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Louisiana\'s Birthday Rule lets you change Medigap plans once per year during your birthday month without medical underwriting or waiting periods',
         'You can switch to any Medigap plan offered by any insurance company, regardless of health conditions or age',
@@ -4188,7 +4188,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '6 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Medicare Advantage plans have hidden costs beyond premiums, including copays, coinsurance, and deductibles',
         'Out-of-pocket maximums vary significantly between plans, ranging from $4,500 to $12,700 in 2026',
@@ -4240,7 +4240,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '4 minutes',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1568234928966-359c35dd8327?w=800&h=500&fit=crop',
       keyTakeaways: [
         'Losing employer or union coverage qualifies you for a Special Enrollment Period to enroll in Medicare without penalties',
         'You have 8 months from losing coverage to enroll without late enrollment penalties',
@@ -4291,7 +4291,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Observation status means you are not formally admitted, which affects your Medicare coverage and out-of-pocket costs significantly",
       "Inpatient admission qualifies for Part A benefits, while observation care uses Part B, resulting in different deductibles and copays",
@@ -4343,7 +4343,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Kentucky honors the Medigap Birthday Rule, allowing you to switch plans once yearly without medical underwriting during your birthday month.",
       "You can change Medigap coverage in the month of your birthday and the two months following without health questions or waiting periods.",
@@ -4398,7 +4398,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Over 27 percent of seniors aged 60 and older experience chronic loneliness, significantly impacting health outcomes",
       "Social isolation increases mortality risk by up to 26 percent and is linked to depression, cognitive decline, and heart disease",
@@ -4453,7 +4453,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Missing enrollment deadlines can result in permanent premium penalties on your Medicare coverage",
       "Late enrollment penalties apply to Part A, Part B, and Part D for each month you delay",
@@ -4505,7 +4505,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=800&h=500&fit=crop",
     keyTakeaways: [
       "The Coverage Gap Discount Program provides manufacturer discounts on brand-name drugs during the donut hole phase of Medicare Part D.",
       "Eligible beneficiaries receive 70% discounts on covered brand-name medications when they reach the coverage gap threshold.",
@@ -4561,7 +4561,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=500&fit=crop",
     keyTakeaways: [
       "You can enroll in Medicare at 65 even while working, but understand how employer coverage affects your benefits",
       "Delayed enrollment penalties may apply if you do not sign up when first eligible while still employed",
@@ -4613,7 +4613,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1576671081837-49000212a370?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Some drugs are covered under Part B when administered by healthcare providers in clinical settings rather than self-administered at home.",
       "Part B covers injectable drugs, infusions, and chemotherapy treatments given in hospitals or doctor offices as part of medical services.",
@@ -4668,7 +4668,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Late enrollment penalties can last your entire lifetime and increase your monthly premiums permanently",
       "Missing initial enrollment deadlines triggers penalties even if you delay Medicare for years afterward",
@@ -4723,7 +4723,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Medicare covers limited alternative therapies, primarily acupuncture for chronic pain under specific conditions",
       "Chiropractic care is covered for spinal manipulation only, not other services like X-rays or physical therapy",
@@ -4778,7 +4778,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Many seniors regret not enrolling in Medicare on time, leading to costly late enrollment penalties that last a lifetime",
       "Failing to understand prescription drug coverage gaps leaves retirees vulnerable to high medication costs during critical years",
@@ -4834,7 +4834,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Maryland Medicare Supplement Birthday Rule allows you to switch plans once per year without medical underwriting during your birthday month",
       "You have 63 days from your birthday to change Medigap plans under this guarantee issue right",
@@ -4887,7 +4887,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Joe Namath Medicare commercials promote Medicare Advantage plans, not Original Medicare coverage",
       "These ads target seniors eligible for Medicare with information about plan options and benefits",
@@ -4940,7 +4940,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Oklahoma honors the Birthday Rule, allowing you to switch Medigap plans once per year during your birthday month without medical underwriting.",
       "You have a 31-day window during your birthday month to request a Medigap plan change without health questions or waiting periods.",
@@ -4995,7 +4995,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Medigap plans can legally deny coverage or charge higher premiums based on preexisting conditions outside open enrollment periods",
       "Your health history directly impacts Medigap eligibility and costs, making timing of enrollment critically important",
@@ -5048,7 +5048,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Medicare maintains an Inpatient Only List of procedures that must be performed in a hospital setting to receive coverage",
       "Procedures on this list cannot be done in ambulatory surgery centers or outpatient facilities under Medicare rules",
@@ -5100,7 +5100,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=500&fit=crop",
     keyTakeaways: [
       "The Medicare What Is Covered App provides instant access to your personalized coverage details anytime, anywhere through your smartphone or tablet.",
       "Search specific services, medications, and providers to understand what Medicare will pay for before you receive care or fill prescriptions.",
@@ -5156,7 +5156,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Plans A, B, C, and N offer distinct coverage options with varying costs and benefits beyond Plan F and G",
       "Plan N may provide lower premiums while maintaining comprehensive coverage for most beneficiaries",
@@ -5213,7 +5213,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Medicare eligibility begins at age 65, but enrollment timing affects your lifetime costs and coverage options significantly.",
       "Plan ahead for Medicare premiums, deductibles, and out-of-pocket expenses as part of your overall retirement budget strategy.",
@@ -5270,7 +5270,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Medicare Part B premiums increase to $185 per month in 2026, up from previous year rates",
       "Part A hospital deductible rises to $1,676 while Part B deductible reaches $257",
@@ -5323,7 +5323,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Virginia and Utah now allow Medigap switches during annual birthday months without medical underwriting",
       "The birthday rule gives enrollees more flexibility to change plans annually without health restrictions",
@@ -5377,7 +5377,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1560472355-536de3962603?w=800&h=500&fit=crop",
     keyTakeaways: [
       "COBRA provides temporary health coverage after job loss, while Medigap supplements Original Medicare with additional benefits and coverage",
       "COBRA premiums average 102% of group plan costs, making it expensive compared to Medicare alternatives for those age 65+",
@@ -5569,7 +5569,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=500&fit=crop",
     keyTakeaways: [
       "You can switch from Medicare Advantage to Original Medicare during the MA OEP (Jan 1–Mar 31) or AEP (Oct 15–Dec 7)",
       "Medigap plans may require medical underwriting if you switch outside your initial enrollment window",
@@ -5651,7 +5651,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Several free online platforms offer beginner-friendly computer courses designed for seniors",
       "Local libraries and community centers often offer in-person tech help at no cost",
@@ -5720,7 +5720,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1553484771-371a605b060b?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Your Medigap Open Enrollment Period is the 6 months starting when you're 65+ and enrolled in Part B",
       "During this period, insurers cannot deny you coverage or charge more due to health conditions",
@@ -5783,7 +5783,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "4 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Nevada's birthday rule gives Medigap enrollees a 60-day window around their birthday to switch plans without underwriting",
       "You can switch to an equal or lesser plan from any carrier",
@@ -5841,7 +5841,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=800&h=500&fit=crop",
     keyTakeaways: [
       "You can apply to switch Medigap plans at any time, but you may need to pass medical underwriting",
       "The best time to switch is during your initial Open Enrollment Period or a guaranteed issue event",
@@ -5908,7 +5908,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Medigap premiums range from $80–$300+/month depending on plan, age, and location",
       "Without Medigap, a single hospital stay can cost thousands in out-of-pocket expenses",
@@ -5976,7 +5976,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1550572017-edd951b55104?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Step therapy requires trying lower-cost drugs before a plan will cover a more expensive one",
       "Prior authorization requires advance approval from your plan before receiving certain services",
@@ -6044,7 +6044,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Medicare for All would extend government-run health coverage to all Americans",
       "Proponents argue it would reduce administrative costs and eliminate coverage gaps",
@@ -6104,7 +6104,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Original Medicare does not cover care outside the U.S. except in limited border situations",
       "Medigap Plans C, D, F, G, M, and N include foreign travel emergency coverage",
@@ -6170,7 +6170,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "4 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Medicare Blue Button 2.0 lets beneficiaries download up to 3 years of Medicare claims data",
       "The data can be shared with health apps, providers, and caregivers",
@@ -6226,7 +6226,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Companionship and relationships have significant health benefits for seniors",
       "Online dating sites designed for seniors make it easier to meet compatible partners",
@@ -6302,7 +6302,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Pets reduce loneliness, lower blood pressure, and provide daily routine for seniors",
       "Dogs, cats, and birds are among the most popular companion pets for older adults",
@@ -6379,7 +6379,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&h=500&fit=crop",
     keyTakeaways: [
       "Florida, Arizona, and Tennessee consistently rank among the top states for retirees",
       "Tax-friendliness, healthcare quality, and cost of living are the top factors to consider",
@@ -6446,7 +6446,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1600880959865-c2cf9d3a31d9?w=800&h=500&fit=crop",
     keyTakeaways: [
       "The first 90 days of Medicare are your best window to set up supplemental coverage without underwriting",
       "Enroll in Part D or a Medicare Advantage plan to avoid late enrollment penalties",
@@ -6512,7 +6512,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "6 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=500&fit=crop",
     keyTakeaways: [
       "The Part D $2,000 out-of-pocket cap (effective 2025) provides major protection against catastrophic drug costs",
       "Extra Help (Low Income Subsidy) can reduce Part D premiums and copays to near zero",
@@ -6582,7 +6582,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "4 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&h=500&fit=crop",
     keyTakeaways: [
       "The Direct Care Opportunity Act addresses the shortage of home health aides and personal care workers",
       "Direct care workers provide essential support that allows seniors to remain in their homes",
