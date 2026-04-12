@@ -27,10 +27,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Ambulance Transportation',
         paragraphs: [
           'Updated on January 10, 2022',
-          'In the case of an emergency, Medicare will cover an ambulance ride to the hospital. Medicare...',
+          'In the case of an emergency, [Medicare](/faqs/what-is-medicare) will cover an [ambulance ride](/faqs/ambulance-and-medicare-coverage) to the hospital. Medicare...',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-in-home-caregivers", "5-government-benefits-for-seniors", "does-medicare-cover-meals-on-wheels"],
   },
   {
     slug: 'qualified-medicare-beneficiary-program',
@@ -52,10 +53,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare and Medicaid: How to Qualify for Both',
         paragraphs: [
           'Updated on January 18, 2023',
-          'It is not uncommon to be eligible for both Medicare and Medicaid. Learn how to...',
+          'It is not uncommon to be [eligible for both [Medicare](/faqs/what-is-medicare) and Medicaid](/faqs/medicare-vs-medicaid). Learn how to...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program"],
   },
   {
     slug: 'medicare-extra-help-program',
@@ -81,6 +83,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["qualified-medicare-beneficiary-program", "medicare-savings-programs", "irmaa", "how-can-seniors-save-on-prescription-drug-costs"],
   },
   {
     slug: 'hsa-and-medicare',
@@ -105,6 +108,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["medicare-and-hsa-rules-what-happens-when-you-turn-65", "medicare-costs-2025", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
   },
   {
     slug: 'eliquis-cost-with-medicare',
@@ -130,6 +134,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary", "new-in-2025-medicares-part-d-payment-plan-explained"],
   },
   {
     slug: 'what-dental-expenses-does-medicare-cover',
@@ -151,10 +156,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Vision',
         paragraphs: [
           'Updated on April 25, 2023',
-          'Original Medicare routine vision coverage is not comprehensive. However, you have options when it comes...',
+          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) routine vision coverage is not comprehensive. However, you have [options](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) when it comes...',
         ],
       },
     ],
+    relatedSlugs: ["does-medicare-cover-dental-implants", "does-medicare-cover-glasses", "medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-root-canals"],
   },
   {
     slug: 'top-10-medicare-supplement-insurance-companies',
@@ -176,10 +182,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'When Can I Change My Medicare Supplement Plan?',
         paragraphs: [
           'Updated on March 15, 2023',
-          'Medicare Supplement plans allow you to enroll in coverage at any time once you are...',
+          '[Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) allow you to [enroll in coverage](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) at any time once you are...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-the-best-medicare-supplement-plan", "average-cost-of-medicare-supplement-plans"],
   },
   {
     slug: 'medicare-for-dummies',
@@ -201,10 +208,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [[Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-starter-guide-what-to-do-in-your-first-90-days", "what-is-medicare", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
   },
   {
     slug: 'medicare-gym-membership',
@@ -226,10 +234,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Coverage for Bariatric Weight Loss Surgeries',
         paragraphs: [
           'Updated on February 25, 2022',
-          'According to the Centers for Disease Control and Prevention (CDC), nearly 40% of US adults...',
+          'According to the Centers for Disease Control and Prevention (CDC), [Nearly 40% of US adults](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "silver-sneakers-program", "medicare-annual-wellness-visit", "medicare-and-alternative-therapies-whats-covered-and-whats-not"],
   },
   {
     slug: 'medicare-coverage-for-incontinence-supplies',
@@ -251,10 +260,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) [running through your mind](/blog/medicare-starter-guide-what-to-do-in-your-first-90-days) at any given...',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-ostomy-supplies", "medicare-coverage-for-bathroom-safety-devices", "does-medicare-cover-a-shower-transfer-bench"],
   },
   {
     slug: 'what-is-medicare-creditable-coverage',
@@ -276,10 +286,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Premiums Reimbursement Through Employer',
         paragraphs: [
           'Updated on March 17, 2023',
-          'While your employer can’t pay your Medicare premiums in the true sense, you’ll be glad...',
+          'While your [employer](/blog/understanding-how-medicare-works-with-employer-health-plans) can’t pay your [Medicare premiums](/blog/medicare-costs-2025) in the true sense, you’ll be glad...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-creditable-coverage", "medicare-part-d-late-enrollment-penalty", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
     slug: 'medicare-part-d-part-b-vaccines',
@@ -300,10 +311,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'I have the Choice plan.  I had to pay for both my shingles shots at CVS and they want me to pay for my Tetanus shot.  Is this right???  What about the flu shot?',
+          'I have the [Choice plan](/faqs/medicare-advantage-vs-medicare-supplement).  I had to pay for both my [shingles shots](/faqs/medicare-part-b-premiums) at CVS and they want me to pay for my Tetanus shot.  Is this right???  What about the flu shot?',
         ],
       },
     ],
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026"],
   },
   {
     slug: 'medigap-birthday-rule',
@@ -325,10 +337,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'How Much Can a Medigap Plan Save Me',
         paragraphs: [
           'Updated on November 15, 2024',
-          'There are many options for supplemental insurance to Medicare. You might be wondering How much...',
+          'There are many options for [supplemental insurance to Medicare](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). You might be wondering How much...',
         ],
       },
     ],
+    relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "maryland-medicare-supplement-birthday-rule"],
   },
   {
     slug: 'get-on-the-medicare-do-not-call-list',
@@ -350,10 +363,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Cards & Medicare Beneficiary Identifiers',
         paragraphs: [
           'Updated on June 13, 2023',
-          'To improve security and comply with the Medicare Access and Chip Reauthorization Act, the Center...',
+          'To improve security and comply with the [Medicare Access and Chip Reauthorization Act](/blog/medicare-news), the [Center](/blog/5-things-to-do-after-you-receive-your-medicare-card)...',
         ],
       },
     ],
+    relatedSlugs: ["joe-namath-medicare-commericals", "laws-against-taking-advantage-of-the-elderly", "report-medicare-fraud"],
   },
   {
     slug: 'medicare-calendar-year-and-benefit-periods',
@@ -375,10 +389,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'How Much Can a Medigap Plan Save Me',
         paragraphs: [
           'Updated on November 15, 2024',
-          'There are many options for supplemental insurance to Medicare. You might be wondering How much...',
+          'There are many options for [supplemental insurance to Medicare](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). You might be wondering [How much](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-annual-enrollment-period", "medicare-initial-enrollment-period", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
   },
   {
     slug: 'medicare-and-employer-coverage',
@@ -400,10 +415,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Is Medicare Mandatory?',
         paragraphs: [
           'Updated on May 21, 2024',
-          'For most, Medicare isn’t mandatory, but there are a lot of variables you’ll want to...',
+          'For most, Medicare isn’t mandatory, but there are [a lot of variables](/blog/understanding-how-medicare-works-with-employer-health-plans) you’ll want to...',
         ],
       },
     ],
+    relatedSlugs: ["transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "when-should-you-enroll-in-medicare-if-still-working", "understanding-how-medicare-works-with-employer-health-plans"],
   },
   {
     slug: 'medicare-questions',
@@ -425,10 +441,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'FEHB and Medicare',
         paragraphs: [
           'Updated on February 16, 2026',
-          'If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB...',
+          'If you have [Federal Employee Health Benefits (FEHB)](/faqs/fehb-and-medicare), you may be wondering [how your FEHB](/blog/understanding-how-medicare-works-with-employer-health-plans)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "what-is-medicare", "turning-65-these-are-the-most-common-medicare-questions-answered", "applying-for-medicare"],
   },
   {
     slug: 'medicare-advantage-over-the-counter-cards',
@@ -450,10 +467,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'All-In-One Medicare Plan',
         paragraphs: [
           'Updated on May 22, 2023',
-          'An all-in-one Medicare insurance plan can mean several different things. There are Medicare Advantage plans,...',
+          'An all-in-one Medicare insurance plan can mean several different things. There are [Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained),...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-advantage-extra-benefits-explained-whats-really-included", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "best-medicare-advantage-plans"],
   },
   {
     slug: 'medicare-part-b-late-enrollment-penalty',
@@ -475,10 +493,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'How TRICARE Works with Medicare',
         paragraphs: [
           'Updated on October 30, 2023',
-          'Beneficiaries eligible for both TRICARE and Medicare should understand how the two medical insurance programs...',
+          'Beneficiaries eligible for both [TRICARE and Medicare](/blog/understanding-the-intersection-of-tricare-va-benefits-and-medicare) should understand how the [two medical insurance programs](/faqs/how-tricare-works-with-medicare)...',
         ],
       },
     ],
+    relatedSlugs: ["protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "when-should-you-enroll-in-medicare-if-still-working"],
   },
   {
     slug: 'when-is-medicare-primary',
@@ -500,10 +519,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare and VA Benefits',
         paragraphs: [
           'Updated on December 4, 2023',
-          'Serving in the American armed forces provides our nation’s heroes with various benefits from the...',
+          'Serving in the [American armed forces](/blog/understanding-the-intersection-of-tricare-va-benefits-and-medicare) provides our nation’s heroes with [various benefits](/faqs/medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage) from the...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-secondary-insurance", "medicare-and-workers-comp"],
   },
   {
     slug: 'medicare-part-b-premiums',
@@ -525,7 +545,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [[Medicare](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
@@ -554,10 +574,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'FEHB and Medicare',
         paragraphs: [
           'Updated on February 16, 2026',
-          'If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB...',
+          'If you have [Federal Employee Health Benefits (FEHB)](/faqs/fehb-and-medicare), you may be wondering [how your FEHB](/blog/understanding-how-medicare-works-with-employer-health-plans)...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage", "how-tricare-works-with-medicare", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
   },
   {
     slug: 'state-specific-medicare-rules',
@@ -579,10 +600,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Living in Two States',
         paragraphs: [
           'Updated on February 26, 2024',
-          'Many individuals on Medicare have dual residency. Sometimes known as snowbirds, those with dual residency...',
+          'Many individuals on Medicare have [dual residency](/faqs/how-dual-residency-and-medicare-works). Sometimes known as [snowbirds](/blog/best-states-to-retire), those with dual residency...',
         ],
       },
     ],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice", "moving-to-another-state-with-medicare", "how-dual-residency-and-medicare-works"],
   },
   {
     slug: 'can-my-employer-pay-my-medicare-premiums',
@@ -604,10 +626,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can reduce your Medicare premiums. Almost everyone pays a premium...',
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "when-should-you-enroll-in-medicare-if-still-working"],
   },
   {
     slug: 'medicare-and-prescription-drugs-whats-covered-and-whats-not',
@@ -669,6 +692,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary", "how-can-seniors-save-on-prescription-drug-costs"],
   },
   {
     slug: 'medicare-special-enrollment-periods',
@@ -690,10 +714,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Can Medicare Be Used in Any State?',
         paragraphs: [
           'Updated on June 27, 2025',
-          'Although Medicare is a federal program, Medicare by state may have some different rules that...',
+          'Although Medicare is a federal program, [Medicare by state](/faqs/state-specific-medicare-rules) may have some [different rules](/blog/what-happens-to-your-medicare-when-you-move-states) that...',
         ],
       },
     ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
   },
   {
     slug: 'medicare-8-minute-rule',
@@ -715,10 +740,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Average Cost of Medicare Supplement Plans',
         paragraphs: [
           'Updated on July 13, 2023',
-          'The average cost of Medicare Supplement plans can be hard to pinpoint because monthly premiums...',
+          'The average cost of [Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can be hard to pinpoint because [monthly premiums](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-physical-therapy", "scope-of-appointment", "medicare-prior-authorization", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],
   },
   {
     slug: 'medicare-visiting-angels',
@@ -740,10 +766,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'What Does Medicare Cover for Long Term Care',
         paragraphs: [
           'Updated on September 29, 2021',
-          'Most long-term care costs are the patient’s responsibility. But, in some cases – limited coverage...',
+          'Most [long-term care costs](/blog/medicare-costs-2025) are the patient’s responsibility. But, in some cases – [limited coverage](/blog/how-medicare-handles-skilled-nursing-vs-custodial-care)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-meals-on-wheels"],
   },
   {
     slug: 'medicare-low-income-subsidy',
@@ -765,10 +792,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare and VA Benefits',
         paragraphs: [
           'Updated on December 4, 2023',
-          'Serving in the American armed forces provides our nation’s heroes with various benefits from the...',
+          'Serving in the American [armed forces](/blog/understanding-the-intersection-of-tricare-va-benefits-and-medicare) provides our nation’s heroes with [various benefits](/blog/5-government-benefits-for-seniors) from the...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-extra-help-program", "qualified-medicare-beneficiary-program", "how-can-seniors-save-on-prescription-drug-costs"],
   },
   {
     slug: 'irmaa',
@@ -790,10 +818,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can reduce your Medicare premiums. Almost everyone pays a premium...',
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "reduce-medicare-premiums", "irmaa"],
   },
   {
     slug: 'medicare-for-disabled-individuals',
@@ -815,10 +844,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'What Does Medicare Cover for ALS Patients',
         paragraphs: [
           'Updated on September 27, 2021',
-          'Medicare coverage is available for amyotrophic lateral sclerosis (ALS), also known as Lou Gehrig’s disease....',
+          '[Medicare coverage](/blog/medicare-parts-a-b-c-and-d-explained-simply) is available for [amyotrophic lateral sclerosis (ALS)](/faqs/medicare-coverage-for-amyotrophic-lateral-sclerosis-als), also known as Lou Gehrig’s disease....',
         ],
       },
     ],
+    relatedSlugs: ["when-should-you-enroll-in-medicare-if-still-working", "can-you-get-medicare-without-receiving-social-security-benefits", "applying-for-medicare", "medicare-at-60"],
   },
   {
     slug: 'manufacturers-coupons-and-medicare',
@@ -840,10 +870,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Extra Help Program Income Limits',
         paragraphs: [
           'Updated on January 7, 2026',
-          'Medicare Extra Help is a low-income subsidy for individuals enrolled in Medicare Part D. This...',
+          'Medicare Extra Help is a [low-income subsidy](/faqs/medicare-extra-help-program) for individuals enrolled in [Medicare Part D](/blog/new-in-2025-medicares-part-d-payment-plan-explained). This...',
         ],
       },
     ],
+    relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "coverage-gap-discount-program", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
   },
   {
     slug: 'medicare-coverage-for-skilled-nursing-facilities',
@@ -865,10 +896,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'What Does Medicare Cover for ALS Patients',
         paragraphs: [
           'Updated on September 27, 2021',
-          'Medicare coverage is available for amyotrophic lateral sclerosis (ALS), also known as Lou Gehrig’s disease....',
+          '[Medicare coverage](/faqs/medicare-coverage-for-amyotrophic-lateral-sclerosis-als) is available for amyotrophic lateral sclerosis (ALS), also known as Lou Gehrig’s disease....',
         ],
       },
     ],
+    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-coverage-for-in-home-caregivers", "medicare-inpatient-vs-outpatient-vs-under-observation"],
   },
   {
     slug: 'can-i-cancel-medicare-advantage-plan',
@@ -890,10 +922,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Advantage Open Enrollment Period',
         paragraphs: [
           'Updated on February 17, 2026',
-          'The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31....',
+          'The [Medicare Advantage Open Enrollment Period (MAOEP)](/faqs/medicare-advantage-open-enrollment-period) occurs annually from [January 1 until March 31](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up)....',
         ],
       },
     ],
+    relatedSlugs: ["making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans"],
   },
   {
     slug: 'medicare-part-d-late-enrollment-penalty',
@@ -915,10 +948,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Extra Help Program Income Limits',
         paragraphs: [
           'Updated on January 7, 2026',
-          'Medicare Extra Help is a low-income subsidy for individuals enrolled in Medicare Part D. This...',
+          '[Medicare Extra Help](/faqs/medicare-extra-help-program) is a low-income subsidy for individuals enrolled in [Medicare Part D](/blog/new-in-2025-medicares-part-d-payment-plan-explained). This...',
         ],
       },
     ],
+    relatedSlugs: ["the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "new-in-2025-medicares-part-d-payment-plan-explained"],
   },
   {
     slug: 'medicare-for-green-card-holders',
@@ -939,10 +973,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Hi,I am 76 years old ,green card holder and more than 5 years here.Never worked in USHow can I get health insurance?',
+          'Hi,I am [76 years old](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) ,green card holder and more than 5 years here.[Never worked in US](/blog/can-you-get-medicare-without-receiving-social-security-benefits)How can I get [health insurance](/faqs/what-is-medicare)?',
         ],
       },
     ],
+    relatedSlugs: ["can-you-get-medicare-without-receiving-social-security-benefits", "medicare-parts-a-b-c-and-d-explained-simply", "5-things-to-do-after-you-receive-your-medicare-card", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
     slug: 'medicare-guaranteed-issue',
@@ -964,10 +999,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Supplement Plans (Medigap) Pricing Methods',
         paragraphs: [
           'Updated on March 8, 2023',
-          'There are many factors that impact the monthly premium price of your Medicare Supplement (Medigap)...',
+          'There are many factors that impact the [monthly premium price of your [Medicare Supplement](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) (Medigap)](/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage)...',
         ],
       },
     ],
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "how-the-medigap-free-look-period-protects-you", "medigap-underwriting-how-preexisting-conditions-still-matter"],
   },
   {
     slug: 'silver-sneakers-program',
@@ -989,10 +1025,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Are There Alternatives to Medicare?',
         paragraphs: [
           'Updated on September 9, 2021',
-          'Being Medicare-eligible doesn’t mean it’s necessary to enroll immediately. There are alternatives to Medicare. These...',
+          'Being [Medicare-eligible](/faqs/what-is-medicare) doesn’t mean it’s necessary to enroll immediately. There are [alternatives to Medicare](/faqs/alternative-to-medicare). These...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "5-government-benefits-for-seniors", "discounts-for-seniors", "does-medicare-offer-a-grocery-allowance"],
   },
   {
     slug: 'medicare-general-enrollment-period',
@@ -1014,10 +1051,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Initial Enrollment Period',
         paragraphs: [
           'Updated on September 8, 2023',
-          'Your Medicare Initial Enrollment Period is your first and best opportunity to sign up for...',
+          'Your [Medicare Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) is your first and best opportunity to [sign up for](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up)...',
         ],
       },
     ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
   },
   {
     slug: 'moving-to-another-state-with-medicare',
@@ -1039,10 +1077,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "best-states-to-retire", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
   },
   {
     slug: 'medicare-supplement-underwriting-questions',
@@ -1064,10 +1103,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Agents Near Me',
         paragraphs: [
           'Updated on March 11, 2024',
-          'With the help of technology, it is no longer necessary to find a Medicare broker...',
+          'With the help of technology, it is no longer necessary to find a [Medicare broker](/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medigap-underwriting-how-preexisting-conditions-still-matter", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "how-the-medigap-free-look-period-protects-you"],
   },
   {
     slug: 'medicare-physician-fee-schedule-lookup-tool',
@@ -1089,10 +1129,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'CMS Advocates for Price Transparency',
         paragraphs: [
           'Updated on February 11, 2022',
-          'The Centers for Medicare & Medicaid Services (CMS) is advocating for price transparency from hospitals....',
+          'The [Centers for Medicare & Medicaid Services (CMS)](/faqs/what-is-medicare) is advocating for [price transparency](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) from hospitals....',
         ],
       },
     ],
+    relatedSlugs: ["finding-local-doctors-who-accept-medicare", "understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-whats-covered-app", "care-compare-tool"],
   },
   {
     slug: 'medicare-coverage-for-my-children',
@@ -1113,11 +1154,12 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Hello, I am on SSDI and have had Medicare since November of 2020. We have a son with the same medical condition that has disabled me and he is also autistic, homebound, etc. However, my husband makes too much for us to qualify for medicaid, and the waiver list for our state is 7 years. Is there a way to have MY medicare as a secondary insurance for my son to pay the regular $250 ER copays and deductibles? We have insurance through my husband’s job but all of our extra money goes to medical bills, supplies, equipment, etc.',
+          'Hello, I am on [SSDI](/faqs/[Medicare](/faqs/what-is-medicare)-for-disabled-individuals) and have had Medicare since November of 2020. We have a son with the same medical condition that has disabled me and he is also autistic, homebound, etc. However, my husband makes too much for us to qualify for [medicaid](/faqs/medicare-vs-medicaid), and the waiver list for our state is 7 years. Is there a way to have MY medicare as a secondary insurance for my son to pay the regular $250 ER copays and deductibles? We have insurance through my husband’s job but all of our extra money goes to medical bills, supplies, equipment, etc.',
           'Thank you for your time!',
         ],
       },
     ],
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "when-should-you-enroll-in-medicare-if-still-working", "can-you-get-medicare-without-receiving-social-security-benefits", "medicare-for-disabled-individuals"],
   },
   {
     slug: 'medicare-part-b-give-back-plan',
@@ -1139,10 +1181,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can reduce your Medicare premiums. Almost everyone pays a premium...',
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-costs-2025", "medicare-part-b-premiums", "reduce-medicare-premiums"],
   },
   {
     slug: 'switch-medicare-advantage-to-medicare-supplement',
@@ -1164,10 +1207,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'All-In-One Medicare Plan',
         paragraphs: [
           'Updated on May 22, 2023',
-          'An all-in-one Medicare insurance plan can mean several different things. There are Medicare Advantage plans,...',
+          'An all-in-one Medicare insurance plan can mean several different things. There are [Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained),...',
         ],
       },
     ],
+    relatedSlugs: ["making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "when-to-switch-medigap-plans-what-you-need-to-know", "medicare-trial-rights-explained-your-safety-net-for-plan-changes"],
   },
   {
     slug: 'welcome-to-medicare-preventative-visit',
@@ -1189,10 +1233,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'Medicare Annual Wellness Visit',
         paragraphs: [
           'Updated on May 16, 2023',
-          'Each year you have Medicare coverage, you are eligible for an Annual Wellness Visit. The...',
+          'Each year you have [Medicare coverage](/blog/medicare-parts-a-b-c-and-d-explained-simply), you are eligible for an [Annual Wellness Visit](/faqs/medicare-annual-wellness-visit). The...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "medicare-annual-wellness-visit", "5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
   },
   {
     slug: 'medicare-coverage-for-mammograms',
@@ -1217,6 +1262,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "medicare-coverage-for-cancer", "medicare-annual-wellness-visit", "does-medicare-cover-cologuard"],
   },
   {
     slug: 'medicare-supplement-open-enrollment',
@@ -1238,10 +1284,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: 'How Much Can a Medigap Plan Save Me',
         paragraphs: [
           'Updated on November 15, 2024',
-          'There are many options for supplemental insurance to Medicare. You might be wondering How much...',
+          'There are many options for [supplemental insurance to Medicare](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). You might be wondering [How much](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "how-the-medigap-free-look-period-protects-you"],
   },
   {
     slug: 'does-medicare-cover-meals-on-wheels',
@@ -1263,10 +1310,11 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-and-alternative-therapies-whats-covered-and-whats-not", "does-medicare-offer-a-grocery-allowance", "5-government-benefits-for-seniors", "discounts-for-seniors"],
   },
   {
     slug: 'medicare-initial-enrollment-period',
@@ -1346,14 +1394,14 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       {
         heading: 'Medicare Part D Initial Enrollment Period',
         paragraphs: [
-          'Your Medicare Part D Initial Enrollment Period is the same as your Medicare Part A and Part B Initial Enrollment Period. Suppose you do not enroll in Medicare Part D prescription drug coverage during your Initial Enrollment Period window. You may incur aPart D late enrollment penaltyif you do not have creditable coverage.Once you enroll in at least Medicare Part A, you become eligible forMedicare Part D.When Do I Enroll in Medicare Part D if I Missed my IEP?If you missed your Initial Enrollment Period, you should know the Annual Enrollment Period for Medicare Advantage and Medicare Part D occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No',
-          'Once you enroll in at least Medicare Part A, you become eligible forMedicare Part D.When Do I Enroll in Medicare Part D if I Missed my IEP?If you missed your Initial Enrollment Period, you should know the Annual Enrollment Period for Medicare Advantage and Medicare Part D occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No',
+          'Your [Medicare Part D Initial Enrollment Period](/blog/how-is-medicare-part-d-changing-in-2026) is the same as your [Medicare Part A and Part B Initial Enrollment Period](/blog/medicare-parts-a-b-c-and-d-explained-simply). Suppose you do not enroll in Medicare Part D prescription drug coverage during your Initial Enrollment Period window. You may incur aPart D late enrollment penaltyif you do not have creditable coverage.Once you enroll in at least Medicare Part A, you become eligible forMedicare Part D.When Do I Enroll in Medicare Part D if I Missed my IEP?If you missed your Initial Enrollment Period, you should know the Annual Enrollment Period for Medicare Advantage and Medicare Part D occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No',
+          'Once you enroll in at least Medicare Part A, you become eligible forMedicare Part D.When Do I Enroll in Medicare Part D if I Missed my IEP?If you missed your Initial Enrollment Period, you should know the [Annual Enrollment Period for Medicare Advantage and Medicare Part D](/faqs/medicare-annual-enrollment-period) occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No',
         ],
       },
       {
         heading: 'When Do I Enroll in Medicare Part D if I Missed my IEP?',
         paragraphs: [
-          'If you missed your Initial Enrollment Period, you should know the Annual Enrollment Period for Medicare Advantage and Medicare Part D occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No',
+          'If you missed your Initial Enrollment Period, you should know the [Annual Enrollment Period for Medicare Advantage and Medicare Part D](/blog/the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them) occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No',
         ],
         listItems: [
           'Was this article helpful ?',
@@ -1361,5 +1409,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-general-enrollment-period", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
   },
 ];

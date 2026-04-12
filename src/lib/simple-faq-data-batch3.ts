@@ -27,10 +27,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'MAPD vs. PDP Through Medicare Part D',
         paragraphs: [
           'Updated on November 15, 2024',
-          'Medicare Part D Prescription Drug Plans and Medicare Advantage Prescription Drug Plans both provide drug...',
+          '[Medicare Part D Prescription Drug Plans](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not) and [Medicare Advantage Prescription Drug Plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) both provide drug...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "does-medicare-cover-mental-health", "medicare-coverage-for-cardiovascular-disease", "will-medicare-cover-my-surgery"],
   },
   {
     slug: 'medicare-coverage-for-cardiovascular-disease',
@@ -52,10 +53,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Atrial Fibrillation (AFib)',
         paragraphs: [
           'Updated on November 13, 2024',
-          'Atrial fibrillation, also known as AFib, is a serious heart condition that affects an estimated...',
+          '[Atrial fibrillation, also known as AFib](/faqs/does-medicare-cover-atrial-fibrillation-afib), is a [serious heart condition](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know) that affects an estimated...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "medicare-coverage-for-blood-pressure-monitors", "does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-lower-back-pain-management"],
   },
   {
     slug: 'medicare-preventive-services',
@@ -77,10 +79,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-annual-wellness-visit", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-colonoscopy-screenings", "medicare-coverage-for-mammograms"],
   },
   {
     slug: 'qualified-health-plans-medicare',
@@ -102,10 +105,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can reduce your Medicare premiums. Almost everyone pays a premium...',
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-parts-a-b-c-and-d-explained-simply", "understanding-how-medicare-works-with-employer-health-plans", "medigap-vs-medicare-advantage"],
   },
   {
     slug: 'medicare-replacement-plans',
@@ -127,10 +131,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Medicare Advantage Cost by State',
         paragraphs: [
           'Updated on November 12, 2024',
-          'Your Medicare Advantage cost will vary depending on which state you call home. It’s important...',
+          'Your [Medicare Advantage cost](/faqs/average-cost-of-medicare-advantage) will vary depending on [which state you call home](/blog/what-happens-to-your-medicare-when-you-move-states). It’s important...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage"],
   },
   {
     slug: 'medicare-coverage-for-plastic-surgery',
@@ -151,10 +156,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'I just recently had baractric sleeve surgery and medicare covered.  Does medicare cover saggy skin removal after the weight loss?',
+          'I just recently had baractric sleeve surgery and [medicare covered](/faqs/medicare-coverage-for-bariatric-surgery).  Does medicare cover [saggy skin removal after the weight loss](/faqs/does-medicare-cover-prosthetic-devices)?',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "will-medicare-cover-my-surgery", "what-does-medically-necessary-mean", "does-medicare-cover-cataract-surgery"],
   },
   {
     slug: 'medicare-and-wound-care-coverage',
@@ -175,10 +181,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'My dad needs his wound bandage changed daily as instructed by his Doctor. He is at home and Medicare says they will only pay for 3 days a week. If the doctor says it needs to be changed daily why won’t Medicare pay? He has Medicare Part A + B',
+          'My dad needs his [wound bandage changed daily](/faqs/durable-medical-equipment) as instructed by his Doctor. He is at home and Medicare says they will only pay for 3 days a week. If the doctor says it needs to be changed daily why won’t Medicare pay? He has [Medicare Part A + B](/blog/medicare-parts-a-b-c-and-d-explained-simply)',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-stroke-victims"],
   },
   {
     slug: 'differences-between-medicare-and-social-security',
@@ -200,10 +207,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["full-retirement-age", "can-you-get-medicare-without-receiving-social-security-benefits", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "guide-to-retirement-planning"],
   },
   {
     slug: 'durable-medical-equipment',
@@ -225,10 +233,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Diabetic Supplies?',
         paragraphs: [
           'Updated on March 27, 2023',
-          'Medicare covers diabetic supplies and services for those diagnosed with the chronic health condition. Diabetes...',
+          '[Medicare covers diabetic supplies](/faqs/medicare-[Diabetes](/faqs/does-medicare-cover-prosthetic-devices)) and services for those diagnosed with the chronic health condition. Diabetes...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-wheelchairs-and-scooters", "medicare-coverage-for-bathroom-safety-devices", "does-medicare-cover-medical-alert-systems", "will-medicare-pay-for-a-nebulizer-machine", "medicare-coverage-for-compression-socks"],
   },
   {
     slug: 'is-medicare-mandatory',
@@ -250,10 +259,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'What is Medicare?',
         paragraphs: [
           'Updated on June 6, 2025',
-          'You may find yourself asking, what is Medicare? Medicare is a federally-run health insurance program...',
+          'You may find yourself asking, [what is Medicare](/faqs/what-is-medicare)? Medicare is a [federally-run health insurance program](/faqs/how-is-medicare-funded)...',
         ],
       },
     ],
+    relatedSlugs: ["applying-for-medicare", "when-should-you-enroll-in-medicare-if-still-working", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
   },
   {
     slug: 'medicare-paperless-billing',
@@ -275,10 +285,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'How to File a Medicare Claim',
         paragraphs: [
           'Updated on September 15, 2021',
-          'Most of the time, you won’t need to worry about filing your own Medicare claims....',
+          'Most of the time, you won’t need to worry about [filing your own [Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) claims](/faqs/how-to-file-a-medicare-claim)....',
         ],
       },
     ],
+    relatedSlugs: ["medicare-easy-pay", "5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "medicare-enrollment-checklist"],
   },
   {
     slug: 'does-medicare-cover-atrial-fibrillation-afib',
@@ -300,10 +311,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Finding a Medicare Cardiologist',
         paragraphs: [
           'Updated on May 23, 2023',
-          'Medicare covers medically necessary inpatient and outpatient services provided by a cardiologist. Medicare coverage to...',
+          '[Medicare covers medically necessary](/faqs/what-does-medically-necessary-mean) inpatient and outpatient services provided by a [cardiologist](/faqs/medicare-coverage-for-cardiovascular-disease). [Medicare coverage](/blog/medicare-parts-a-b-c-and-d-explained-simply) to...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "will-medicare-cover-my-surgery", "medicare-preventive-services"],
   },
   {
     slug: 'applying-for-medicare',
@@ -325,10 +337,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Is Medicare Mandatory?',
         paragraphs: [
           'Updated on May 21, 2024',
-          'For most, Medicare isn’t mandatory, but there are a lot of variables you’ll want to...',
+          'For most, Medicare isn’t mandatory, but there are a lot of [variables](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) you’ll want to...',
         ],
       },
     ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-does-medicare-start", "medicare-enrollment-checklist", "turning-65-these-are-the-most-common-medicare-questions-answered"],
   },
   {
     slug: 'medicare-coverage-for-smoking-cessation-treatments',
@@ -412,6 +425,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "medicare-annual-wellness-visit", "does-medicare-cover-mental-health", "retirement-regrets-of-seniors"],
   },
   {
     slug: 'six-protected-classes',
@@ -433,10 +447,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Medicare Extra Help Program Income Limits',
         paragraphs: [
           'Updated on January 7, 2026',
-          'Medicare Extra Help is a low-income subsidy for individuals enrolled in Medicare Part D. This...',
+          '[Medicare Extra Help](/faqs/medicare-extra-help-program) is a low-income subsidy for individuals enrolled in [Medicare Part D](/blog/new-in-2025-medicares-part-d-payment-plan-explained). This...',
         ],
       },
     ],
+    relatedSlugs: ["part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know", "new-in-2025-medicares-part-d-payment-plan-explained"],
   },
   {
     slug: 'medicare-supplement-plans-medigap-pricing-methods',
@@ -458,10 +473,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Average Cost of Medicare Supplement Plans',
         paragraphs: [
           'Updated on July 13, 2023',
-          'The average cost of Medicare Supplement plans can be hard to pinpoint because monthly premiums...',
+          'The average cost of [Medicare Supplement plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can be hard to pinpoint because [monthly premiums](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "average-cost-of-medicare-supplement-plans", "how-medigap-plans-affect-your-overall-medicare-costs", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
   },
   {
     slug: 'hospital-indemnity-insurance',
@@ -536,7 +552,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         paragraphs: [
           'Hospital Indemnity insurance and Medigap can work together to bring you ultimate savings. Medigap helps with medical copays and deductibles that Medicare won’t pay. But Medigap won’t provide the same coverage as Hospital Indemnity insurance.Why? Well, Indemnity plans can help pay household costs. If you’re in the hospital and unable to contribute financially at home, this insurance can help pick up those costs.While you’re in the hospital, you want your life to continue running as normally as possible. Medigap helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
           'Why? Well, Indemnity plans can help pay household costs. If you’re in the hospital and unable to contribute financially at home, this insurance can help pick up those costs.While you’re in the hospital, you want your life to continue running as normally as possible. Medigap helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
-          'While you’re in the hospital, you want your life to continue running as normally as possible. Medigap helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
+          'While you’re in the hospital, you want your life to continue running as normally as possible. [Medigap](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
         ],
       },
       {
@@ -551,6 +567,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["what-is-medicare-cost-sharing", "what-is-medicare-assignment", "average-cost-of-medicare-supplement-plans", "do-i-really-need-supplemental-insurance-with-medicare"],
   },
   {
     slug: 'what-is-medicare-cost-sharing',
@@ -572,10 +589,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Deductible vs. Copay vs. Coinsurance vs. Premium',
         paragraphs: [
           'Updated on September 22, 2021',
-          'If you’re new to Medicare, understanding the different terminology can be overwhelming. That’s why it’s...',
+          'If you’re [new to Medicare](/blog/medicare-starter-guide-what-to-do-in-your-first-90-days), [understanding the different terminology](/blog/medicare-parts-a-b-c-and-d-explained-simply) can be overwhelming. That’s why it’s...',
         ],
       },
     ],
+    relatedSlugs: ["hospital-indemnity-insurance", "deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
   {
     slug: 'what-is-medicare-assignment',
@@ -597,10 +615,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'How to File a Medicare Claim',
         paragraphs: [
           'Updated on September 15, 2021',
-          'Most of the time, you won’t need to worry about filing your own Medicare claims....',
+          'Most of the time, you won’t need to worry about [filing your own [Medicare](/faqs/what-is-medicare) claims](/faqs/how-to-file-a-medicare-claim)....',
         ],
       },
     ],
+    relatedSlugs: ["understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-reimbursement", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-cost-sharing"],
   },
   {
     slug: 'medicare-reimbursement',
@@ -622,10 +641,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [[Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["what-is-medicare-assignment", "how-to-file-a-medicare-claim", "advance-beneficiary-notice", "what-is-medicare-cost-sharing"],
   },
   {
     slug: 'special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage',
@@ -689,6 +709,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["medicare-special-enrollment-periods", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
   },
   {
     slug: 'average-cost-of-medicare-supplement-plans',
@@ -710,10 +731,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Top 10 Most Expensive States for Medigap Plans',
         paragraphs: [
           'Updated on March 15, 2023',
-          'Medicare Supplement (Medigap) plan premiums vary from state to state. Although the benefits are standardized,...',
+          '[Medicare Supplement](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) ([Medigap](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one)) plan premiums vary from state to state. Although the benefits are standardized,...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplements-cost-vs-value-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
     slug: 'medicare-coverage-for-dermatology',
@@ -735,10 +757,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [[Medicare](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "what-does-medically-necessary-mean", "will-medicare-cover-my-surgery", "medicare-coverage-for-plastic-surgery"],
   },
   {
     slug: 'medicare-benefits',
@@ -760,10 +783,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Medicare Coverage for Disabled Under 65',
         paragraphs: [
           'Updated on March 28, 2022',
-          'If you\'re under 65 and disabled, once you\'ve collected Social Security benefits for 24 months,...',
+          'If you\'re under 65 and [disabled](/faqs/medicare-for-disabled-individuals), once you\'ve collected [Social Security benefits](/faqs/differences-between-medicare-and-social-security) for 24 months,...',
         ],
       },
     ],
+    relatedSlugs: ["delay-medicare", "can-you-be-denied-a-medicare-supplement-plan", "is-medicare-mandatory", "when-does-medicare-start"],
   },
   {
     slug: 'medicare-coverage-for-prostate-specific-antigen-psa-test',
@@ -784,10 +808,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Specifically, how is it communicated that a test is medically necessary? It really is not as simple as your doctor “deeming” something medically necessary. Something is medically necessary when it is ordered by a doctor evaluating, managing and treating a medical condition, is it not? For males on testosterone, it is medically necessary to monitor PSA every 6 months. This has been communicated to Medicare by ordering CPT 84153 and including ICD-10 E29.1. Yet the lab claim was denied. What additional information is to be provided?',
+          'Specifically, how is it communicated that a test is [medically necessary](/faqs/what-does-medically-necessary-mean)? It really is not as simple as your doctor “deeming” something medically necessary. Something is medically necessary when it is ordered by a doctor evaluating, managing and treating a medical condition, is it not? For males on testosterone, it is medically necessary to monitor PSA every 6 months. This has been communicated to Medicare by ordering CPT 84153 and including ICD-10 E29.1. Yet the lab claim was denied. What additional information is to be provided?',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-coverage-for-colonoscopy-screenings", "what-to-know-about-medicare-at-64"],
   },
   {
     slug: 'who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules',
@@ -839,6 +864,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["medicare-social-security-and-power-of-attorney", "how-can-i-get-medicare-for-my-mom-or-dad", "applying-for-medicare", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide"],
   },
   {
     slug: 'does-medicare-cover-asthma-inhalers',
@@ -864,6 +890,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary", "does-medicare-cover-copd", "six-protected-classes"],
   },
   {
     slug: 'medicaid-spend-down-program',
@@ -885,10 +912,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Medicare and Medicaid: How to Qualify for Both',
         paragraphs: [
           'Updated on January 18, 2023',
-          'It is not uncommon to be eligible for both Medicare and Medicaid. Learn how to...',
+          'It is not uncommon to be [eligible for both Medicare and Medicaid](/faqs/medicare-vs-medicaid). Learn how to...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-vs-medicaid", "qualified-medicare-beneficiary-program", "medicare-savings-programs", "medicare-low-income-subsidy"],
   },
   {
     slug: 'medicare-easy-pay',
@@ -910,10 +938,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Deductible vs. Copay vs. Coinsurance vs. Premium',
         paragraphs: [
           'Updated on September 22, 2021',
-          'If you’re new to Medicare, understanding the different terminology can be overwhelming. That’s why it’s...',
+          'If you’re [new to Medicare](/blog/medicare-starter-guide-what-to-do-in-your-first-90-days), [understanding the different terminology](/blog/medicare-parts-a-b-c-and-d-explained-simply) can be overwhelming. That’s why it’s...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-paperless-billing", "medicare-part-b-premiums", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
   },
   {
     slug: 'reduce-medicare-premiums',
@@ -935,10 +964,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'New Medicare Changes for 2026',
         paragraphs: [
           'Updated on February 18, 2026',
-          '2026 brings many changes to Medicare and not all are cost-related. Options are expanding for...',
+          '[2026 brings many changes to Medicare](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes) and not all are cost-related. [Options are expanding](/blog/how-is-medicare-part-d-changing-in-2026) for...',
         ],
       },
     ],
+    relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "irmaa", "medicare-savings-programs", "medicare-low-income-subsidy"],
   },
   {
     slug: 'top-5-dental-insurance-for-seniors',
@@ -960,10 +990,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Dental, Vision, and Hearing Insurance for Seniors with Medicare',
         paragraphs: [
           'Updated on February 22, 2024',
-          'Oral and optical health are of paramount importance for seniors on Medicare. Proper care is...',
+          '[Oral and optical health](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) are of paramount importance for seniors on [Medicare](/faqs/what-is-medicare). Proper care is...',
         ],
       },
     ],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors", "does-medicare-cover-dental-implants"],
   },
   {
     slug: 'ambulance-and-medicare-coverage',
@@ -985,10 +1016,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Emergency Room Visits',
         paragraphs: [
           'Updated on September 28, 2021',
-          'Emergencies can happen at any time, that’s why it’s important to know what parts of...',
+          '[Emergencies](/faqs/does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another) can happen at any time, that’s why it’s important to know [what parts of](/blog/medicare-parts-a-b-c-and-d-explained-simply)...',
         ],
       },
     ],
+    relatedSlugs: ["does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "medicare-coverage-for-in-home-caregivers", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-inpatient-vs-outpatient-vs-under-observation"],
   },
   {
     slug: 'medicare-history',
@@ -1010,10 +1042,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [[Medicare](/faqs/what-is-medicare)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-news", "guide-to-retirement-planning"],
   },
   {
     slug: 'medicare-select',
@@ -1034,10 +1067,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Mostly, my point was that the Medigap select plans are being marketed as a supplement unless you are smart enough to ask about the preferred list of providers you must use or have payment excluded. Read the contract. Great article. I thought a supplement was a supplement covering the 20% until I found this article! Why BCBS in AL you ask. 1. Probably 95% of providers accept BCBS. 2. Checked on a Humana supplement G and some of my doctors did not participate. 3. The marketplace has nothing to do with Medicare to my knowledge but all insurers in AL have pulled out of that but BCBS. While others may sell insurance, they are not interested in providing a competitive market and may not cover a lot of counties. 4. Some of the Aetna policies in my area are underwritten by Continental Insurance in Brentwood, TN. Not good or bad just not Aetna. 5. In my mind if you buy a Medicare supplement it needs to be long term with a company that will be there and it does not need to be a select supplement PPO or HMO that if someone gets in the mix who is not a select or preferred provider then it is not covered. 6. I found a lot of complaints on Humana and United Healthcare. Valid or not I cannot say but where there is smoke…Note that some companies charge more for a Medigap Select than other for a full Medigap. Great site. Keep up the good work.',
+          'Mostly, my point was that the [Medigap select plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) are being marketed as a supplement unless you are smart enough to ask about the [preferred list of providers](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) you must use or have payment excluded. [Read the contract](/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan). Great article. I thought a supplement was a supplement covering the 20% until I found this article! Why BCBS in AL you ask. 1. Probably 95% of providers accept BCBS. 2. Checked on a Humana supplement G and some of my doctors did not participate. 3. The marketplace has nothing to do with Medicare to my knowledge but all insurers in AL have pulled out of that but BCBS. While others may sell insurance, they are not interested in providing a competitive market and may not cover a lot of counties. 4. Some of the Aetna policies in my area are underwritten by Continental Insurance in Brentwood, TN. Not good or bad just not Aetna. 5. In my mind if you buy a Medicare supplement it needs to be long term with a company that will be there and it does not need to be a select supplement PPO or HMO that if someone gets in the mix who is not a select or preferred provider then it is not covered. 6. I found a lot of complaints on Humana and United Healthcare. Valid or not I cannot say but where there is smoke…Note that some companies charge more for a Medigap Select than other for a full Medigap. Great site. Keep up the good work.',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-vs-medicare-advantage", "what-is-a-medicare-supplement-plan-and-who-needs-one", "choosing-a-medigap-policy"],
   },
   {
     slug: 'medicare-braces-devices',
@@ -1058,10 +1092,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Are finger ring splints for osteoarthritis covered by Medicare? I need multiple splints for both hands',
+          'Are finger ring splints for [osteoarthritis](/faqs/rheumatoid-arthritis-treatment-and-medicare-coverage) [covered by Medicare](/faqs/does-medicare-cover-prosthetic-devices)? I need multiple splints for both hands',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-medical-alert-systems"],
   },
   {
     slug: 'what-to-know-about-medicare-at-64',
@@ -1082,10 +1117,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'If I am enrolled, and plan to continue to be enrolled in a company-sponsored group plan (with an HSA), am I obligated to sign up for Medicare?',
+          'If I am enrolled, and plan to continue to be enrolled in a [company-sponsored group plan](/blog/understanding-how-medicare-works-with-employer-health-plans) (with an [HSA](/blog/medicare-and-hsa-rules-what-happens-when-you-turn-65)), am I obligated to [sign up for Medicare](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up)?',
         ],
       },
     ],
+    relatedSlugs: ["medicare-at-60", "when-should-you-enroll-in-medicare-if-still-working", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
     slug: 'medicare-coverage-for-diabetic-shoes',
@@ -1107,10 +1143,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Durable Medical Equipment Covered by Medicare',
         paragraphs: [
           'Updated on March 22, 2023',
-          'Durable medical equipment is essential for so many Medicare beneficiaries because it can help with...',
+          '[Durable medical equipment](/faqs/durable-medical-equipment) is essential for so many [Medicare beneficiaries](/faqs/what-is-medicare) because it can help with...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-diabetes", "durable-medical-equipment", "medicare-preventive-services", "does-medicare-cover-medical-alert-systems"],
   },
   {
     slug: 'can-you-get-medicare-in-puerto-rico',
@@ -1132,10 +1169,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Medicare for Green Card Holders (Medicare for Immigrants)',
         paragraphs: [
           'Updated on May 23, 2023',
-          'While Medicare for green card holders is available, you may still have expenses when using...',
+          'While [Medicare for green card holders](/faqs/medicare-for-green-card-holders) is available, you may still have [expenses](/blog/medicare-costs-2025) when using...',
         ],
       },
     ],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "how-dual-residency-and-medicare-works", "state-specific-medicare-rules", "moving-to-another-state-with-medicare"],
   },
   {
     slug: 'medicare-coverage-for-lower-back-pain-management',
@@ -1157,10 +1195,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Acupuncture',
         paragraphs: [
           'Updated on September 27, 2021',
-          'Medicare does cover some acupuncture treatments. But, Acupuncture is only covered if it treats chronic...',
+          '[Medicare does cover some acupuncture treatments](/faqs/does-medicare-cover-acupuncture). But, Acupuncture is only covered if it treats [chronic](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-physical-therapy", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "does-medicare-cover-acupuncture", "finding-local-doctors-who-accept-medicare"],
   },
   {
     slug: 'medicare-coverage-for-pacemakers',
@@ -1185,6 +1224,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "will-medicare-cover-my-surgery", "medicare-coverage-for-stroke-victims", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill"],
   },
   {
     slug: 'medicare-coverage-for-stroke-victims',
@@ -1209,6 +1249,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-physical-therapy", "medicare-coverage-for-in-home-caregivers", "will-medicare-cover-my-surgery", "medicare-preventive-services", "does-medicare-cover-speech-therapy"],
   },
   {
     slug: 'can-you-be-denied-a-medicare-supplement-plan',
@@ -1230,10 +1271,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Average Cost of Medicare Supplement Plans',
         paragraphs: [
           'Updated on July 13, 2023',
-          'The average cost of Medicare Supplement plans can be hard to pinpoint because monthly premiums...',
+          'The average cost of [Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can be hard to pinpoint because [monthly premiums](/faqs/average-cost-of-medicare-supplement-plans)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter"],
   },
   {
     slug: 'medicare-coverage-for-blood-pressure-monitors',
@@ -1255,10 +1297,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Atrial Fibrillation (AFib)',
         paragraphs: [
           'Updated on November 13, 2024',
-          'Atrial fibrillation, also known as AFib, is a serious heart condition that affects an estimated...',
+          '[Atrial fibrillation](/faqs/medicare-coverage-for-cardiovascular-disease), also known as AFib, is a serious [heart condition](/faqs/does-medicare-cover-atrial-fibrillation-afib) that affects an estimated...',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "medicare-preventive-services", "does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-cardiovascular-disease", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
   {
     slug: 'native-american-health-and-medicare',
@@ -1280,10 +1323,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Medicare Creditable Coverage',
         paragraphs: [
           'Updated on February 16, 2026',
-          'If you choose to delay your Medicare coverage, you’ll want to ensure you have creditable...',
+          'If you choose to [delay your Medicare coverage](/faqs/delay-medicare), you’ll want to ensure you have [creditable](/faqs/what-is-medicare-creditable-coverage)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "what-is-medicare", "does-medicare-cover-mental-health", "medicare-coverage-for-in-home-caregivers", "5-government-benefits-for-seniors"],
   },
   {
     slug: 'does-medicare-cover-varicose-veins',
@@ -1304,10 +1348,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'My vascular surgeon states that I have Venous Insufficiency and have had spider vein bleeds too – once a gushing artery major bleed. He mentions that I need sclerotheraphy and asked me to confirm of my documentation if this is covered by my Medicare A & o rB & also my Medigap insurance? What specific coding should he use for Medicare billing purposes? Will Medicare cover this 80% coverage with documentations from surgeon?',
+          'My vascular surgeon states that I have Venous Insufficiency and have had spider vein bleeds too – once a gushing artery major bleed. He mentions that I need sclerotheraphy and asked me to confirm of my documentation if this is covered by my [Medicare](/faqs/what-is-medicare) A & o rB & also my Medigap insurance? What specific coding should he use for Medicare billing purposes? Will Medicare cover this 80% coverage with documentations from surgeon?',
         ],
       },
     ],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "what-does-medically-necessary-mean", "durable-medical-equipment", "medicare-coverage-for-cardiovascular-disease"],
   },
   {
     slug: 'medicare-managed-care-plans',
@@ -1329,10 +1374,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Best Medicare Advantage Plans for 2026',
         paragraphs: [
           'Updated on January 16, 2024',
-          'When it comes to Medicare, there are several plan options available for those eligible for...',
+          'When it comes to [Medicare](/faqs/what-is-medicare), there are several [plan options](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) available for those eligible for...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "original-medicare-vs-medicare-advantage", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medicare-advantage-extra-benefits-explained-whats-really-included", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans"],
   },
   {
     slug: 'medicare-annual-wellness-visit',
@@ -1354,10 +1400,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Medicare Mental Health Coverage: What You Need to Know in 2026',
         paragraphs: [
           'Updated on March 11, 2026',
-          'Mental health is just as important as physical health, especially as you age and face...',
+          '[Mental health](/faqs/does-medicare-cover-mental-health) is just as important as physical health, especially [as you age](/faqs/medicare-preventive-services) and face...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "welcome-to-medicare-preventative-visit", "does-medicare-cover-mental-health", "5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
   },
   {
     slug: 'what-does-medically-necessary-mean',
@@ -1379,10 +1426,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Acupuncture',
         paragraphs: [
           'Updated on September 27, 2021',
-          'Medicare does cover some acupuncture treatments. But, Acupuncture is only covered if it treats chronic...',
+          '[Medicare does cover some acupuncture treatments](/faqs/does-medicare-cover-acupuncture). But, Acupuncture is only covered if it treats [chronic](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know)...',
         ],
       },
     ],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-prior-authorization", "advance-beneficiary-notice"],
   },
   {
     slug: 'do-i-really-need-supplemental-insurance-with-medicare',
@@ -1404,10 +1452,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "why-medicare-supplements-offer-peace-of-mind", "do-i-really-need-supplemental-insurance-with-medicare"],
   },
   {
     slug: 'how-can-i-get-medicare-for-my-mom-or-dad',
@@ -1428,9 +1477,10 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'How do you apply for Medicare supplemental plans if your parents have dementia and are unable to complete any forms. Additionally nor do I have any type of power of attorney, etc',
+          'How do you apply for [Medicare supplemental plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) if your parents have [dementia](/faqs/who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules) and are unable to complete any forms. Additionally nor do I have any type of [power of attorney](/faqs/medicare-social-security-and-power-of-attorney), etc',
         ],
       },
     ],
+    relatedSlugs: ["applying-for-medicare", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-initial-enrollment-period", "medicare-starter-guide-what-to-do-in-your-first-90-days", "what-is-medicare"],
   },
 ];

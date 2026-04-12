@@ -27,10 +27,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare and Medicaid: How to Qualify for Both',
         paragraphs: [
           'Updated on January 18, 2023',
-          'It is not uncommon to be eligible for both Medicare and Medicaid. Learn how to...',
+          'It is not uncommon to be [eligible for both Medicare and Medicaid](/faqs/medicare-vs-medicaid). [Learn how to](/faqs/qualified-medicare-beneficiary-program)...',
         ],
       },
     ],
+    relatedSlugs: ["qualified-medicare-beneficiary-program", "medicare-extra-help-program", "reduce-medicare-premiums", "irmaa", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
   },
   {
     slug: 'what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide',
@@ -115,6 +116,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-beneficiary-identifiers", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "applying-for-medicare"],
   },
   {
     slug: 'medicare-prior-authorization',
@@ -136,10 +138,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'How Do I Find Pain Management Doctors Near Me That Accept Medicare?',
         paragraphs: [
           'Updated on November 18, 2024',
-          'Original Medicare will cover pain management services when medically necessary. Yet, some services or treatments...',
+          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover [pain management services](/faqs/medicare-coverage-for-lower-back-pain-management) when [medically necessary](/faqs/what-does-medically-necessary-mean). Yet, some services or treatments...',
         ],
       },
     ],
+    relatedSlugs: ["scope-of-appointment", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "advance-beneficiary-notice"],
   },
   {
     slug: 'medicare-coverage-for-compression-socks',
@@ -161,10 +164,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Are There Alternatives to Medicare?',
         paragraphs: [
           'Updated on September 9, 2021',
-          'Being Medicare-eligible doesn’t mean it’s necessary to enroll immediately. There are alternatives to Medicare. These...',
+          '[Being Medicare-eligible](/faqs/when-should-you-enroll-in-medicare-if-still-working) doesn’t mean it’s necessary to enroll immediately. There are [alternatives to Medicare](/faqs/alternative-to-medicare). These...',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-prosthetic-devices"],
   },
   {
     slug: 'medicare-supplement-plans-and-pre-existing-conditions',
@@ -186,10 +190,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Supplement Underwriting Eligibility Questions',
         paragraphs: [
           'Updated on March 21, 2023',
-          'Medicare Supplement Underwriting Eligibility Questions It is not always mandatory to answer Medicare Supplement underwriting...',
+          '[Medicare Supplement underwriting](/faqs/medicare-supplement-underwriting-questions) Eligibility Questions It is not always mandatory to answer Medicare Supplement underwriting...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan", "medicare-supplement-underwriting-questions"],
   },
   {
     slug: 'scope-of-appointment',
@@ -211,10 +216,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Forms You Should Bookmark',
         paragraphs: [
           'Updated on January 25, 2024',
-          'Medicare forms are necessary when you wish to make changes to your benefits, appeal a...',
+          'Medicare forms are necessary when you wish to [make changes to your benefits](/faqs/medicare-advantage-open-enrollment-period), [appeal a](/blog/medicare-advantage-denied-claims-crisis)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-prior-authorization", "advance-beneficiary-notice", "what-does-medically-necessary-mean", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],
   },
   {
     slug: 'medicare-coverage-for-stem-cell-treatments',
@@ -236,10 +242,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Hip Replacement?',
         paragraphs: [
           'Updated on May 23, 2023',
-          'Medicare will cover hip replacements for beneficiaries when it is medically necessary. If you break...',
+          '[Medicare will cover hip replacements](/faqs/medicare-coverage-for-hip-injections) for beneficiaries when it is [medically necessary](/faqs/what-does-medically-necessary-mean). If you break...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-and-alternative-therapies-whats-covered-and-whats-not", "will-medicare-cover-my-surgery", "what-does-medically-necessary-mean", "medicare-preventive-services"],
   },
   {
     slug: 'medicare-and-mail-order-prescriptions',
@@ -261,10 +268,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Extra Help Program Income Limits',
         paragraphs: [
           'Updated on January 7, 2026',
-          'Medicare Extra Help is a low-income subsidy for individuals enrolled in Medicare Part D. This...',
+          'Medicare Extra Help is a [low-income subsidy](/faqs/medicare-extra-help-program) for individuals enrolled in [Medicare Part D](/blog/how-is-medicare-part-d-changing-in-2026). This...',
         ],
       },
     ],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary"],
   },
   {
     slug: 'medicare-social-security-and-power-of-attorney',
@@ -286,10 +294,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'What Is the Full Retirement Age?',
         paragraphs: [
           'Updated on February 13, 2026',
-          'The full retirement age can range from 66-67 years depending on when you were born....',
+          'The [full retirement age](/blog/full-retirement-age) can range from 66-67 years depending on when you were born....',
         ],
       },
     ],
+    relatedSlugs: ["differences-between-medicare-and-social-security", "who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules", "married-divorced-widowed-how-relationship-status-affects-medicare", "how-can-i-get-medicare-for-my-mom-or-dad", "applying-for-medicare"],
   },
   {
     slug: 'surprised-by-higher-medicare-premiums-it-could-be-irmaa',
@@ -362,6 +371,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
   },
   {
     slug: 'does-medicare-cover-cologuard',
@@ -383,10 +393,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Are Incontinence Supplies Covered by Medicare?',
         paragraphs: [
           'Updated on October 24, 2023',
-          'Incontinence supplies help manage bowel and urinary output from the body. These supplies are most...',
+          '[Incontinence supplies](/faqs/medicare-coverage-for-incontinence-supplies) help manage [bowel and urinary output](/faqs/does-medicare-cover-ostomy-supplies) from the body. These supplies are most...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-colonoscopy-screenings", "medicare-preventive-services", "does-medicare-cover-a-biopsy", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "what-does-medically-necessary-mean"],
   },
   {
     slug: 'medicare-and-retiree-insurance',
@@ -408,10 +419,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Premiums Reimbursement Through Employer',
         paragraphs: [
           'Updated on March 17, 2023',
-          'While your employer can’t pay your Medicare premiums in the true sense, you’ll be glad...',
+          'While your [employer](/blog/understanding-how-medicare-works-with-employer-health-plans) can’t pay your [Medicare premiums](/blog/medicare-costs-2025) in the true sense, you’ll be glad...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "understanding-cobra-and-medigap-coverage-costs-and-key-differences", "when-should-you-enroll-in-medicare-if-still-working", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
     slug: 'part-d-formulary',
@@ -433,10 +445,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'MAPD vs. PDP Through Medicare Part D',
         paragraphs: [
           'Updated on November 15, 2024',
-          'Medicare Part D Prescription Drug Plans and Medicare Advantage Prescription Drug Plans both provide drug...',
+          '[Medicare Part D Prescription Drug Plans](/faqs/mapd-vs-part-d) and [Medicare Advantage Prescription Drug Plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) both provide drug...',
         ],
       },
     ],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "top-5-medicare-prescription-drug-plans", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "new-in-2025-medicares-part-d-payment-plan-explained"],
   },
   {
     slug: 'top-5-medicare-prescription-drug-plans',
@@ -458,10 +471,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can reduce your Medicare premiums. Almost everyone pays a premium...',
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). Almost everyone pays a premium...',
         ],
       },
     ],
+    relatedSlugs: ["part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "how-can-seniors-save-on-prescription-drug-costs", "new-in-2025-medicares-part-d-payment-plan-explained", "six-protected-classes"],
   },
   {
     slug: 'average-cost-of-medicare-advantage',
@@ -483,10 +497,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Top 10 Most Expensive States for Medigap Plans',
         paragraphs: [
           'Updated on March 15, 2023',
-          'Medicare Supplement (Medigap) plan premiums vary from state to state. Although the benefits are standardized,...',
+          '[Medicare Supplement (Medigap) plan premiums](/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage) vary from state to state. Although the benefits are standardized,...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-costs-2025", "best-medicare-advantage-plans"],
   },
   {
     slug: 'turning-65-these-are-the-most-common-medicare-questions-answered',
@@ -592,6 +607,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "25-medicare-qas-you-should-know", "full-retirement-age", "what-is-medicare"],
   },
   {
     slug: 'medicare-coverage-for-botox-treatments',
@@ -612,10 +628,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'I received botex injections every 3 months from stroke related symptoms on my weak right upper arm/hands.I start Medicare in May 2024. Does Medicare cover this ?',
+          'I received botex injections every 3 months from stroke related symptoms on my weak right upper arm/hands.[I start Medicare in May 2024](/faqs/when-should-you-enroll-in-medicare-if-still-working). [Does Medicare cover](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) this ?',
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-plastic-surgery", "medicare-preventive-services", "what-does-medically-necessary-mean", "will-medicare-cover-my-surgery"],
   },
   {
     slug: 'how-tricare-works-with-medicare',
@@ -637,10 +654,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare and VA Benefits',
         paragraphs: [
           'Updated on December 4, 2023',
-          'Serving in the American armed forces provides our nation’s heroes with various benefits from the...',
+          'Serving in the American armed forces provides our nation’s heroes with various [benefits](/blog/5-government-benefits-for-seniors) from the...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-and-va-benefits", "how-dual-residency-and-medicare-works", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage"],
   },
   {
     slug: 'how-to-file-a-medicare-claim',
@@ -662,10 +680,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'How to File a Fast Medicare Appeal',
         paragraphs: [
           'Updated on November 15, 2021',
-          'If Medicare denies coverage for a healthcare service, item, or medication, you have a right...',
+          '[If Medicare denies coverage](/blog/medicare-advantage-denied-claims-crisis) for a healthcare service, item, or medication, [you have a right](/faqs/medicare-trial-rights-explained-your-safety-net-for-plan-changes)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-reimbursement", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "advance-beneficiary-notice"],
   },
   {
     slug: 'medicare-cobra',
@@ -687,10 +706,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Is Medicare Primary or Secondary?',
         paragraphs: [
           'Updated on January 25, 2024',
-          'Typically, Medicare coverage will be your primary insurance when you have additional forms of coverage....',
+          'Typically, [Medicare coverage](/faqs/what-is-medicare) will be your [primary insurance](/faqs/when-is-medicare-primary) when you have [additional forms of coverage](/blog/understanding-how-medicare-works-with-employer-health-plans)....',
         ],
       },
     ],
+    relatedSlugs: ["understanding-cobra-and-medigap-coverage-costs-and-key-differences", "medicare-creditable-coverage", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "when-should-you-enroll-in-medicare-if-still-working"],
   },
   {
     slug: 'medicare-enrollment-checklist',
@@ -712,10 +732,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Advantage Checklist',
         paragraphs: [
           'Updated on September 26, 2023',
-          'Before enrolling in a Medicare Advantage plan, it’s important to consider a variety of factors....',
+          'Before enrolling in a [Medicare Advantage plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it’s important to [consider a variety of factors](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans)....',
         ],
       },
     ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period", "5-things-to-do-after-you-receive-your-medicare-card"],
   },
   {
     slug: 'dental-and-vision-insurance-for-seniors',
@@ -737,10 +758,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Hearing Aids',
         paragraphs: [
           'Updated on August 10, 2023',
-          'As we age, it’s common to lose at least some hearing ability. Many beneficiaries wonder...',
+          'As we age, it’s common to [lose at least some hearing ability](/faqs/does-medicare-cover-hearing-aids). [Many beneficiaries wonder](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options)...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-dental-implants", "does-medicare-cover-glasses", "does-medicare-cover-hearing-aids"],
   },
   {
     slug: 'what-to-do-with-medicare-if-youre-moving-medicare-change-of-address',
@@ -817,6 +839,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "best-states-to-retire"],
   },
   {
     slug: 'medicare-trial-rights-explained-your-safety-net-for-plan-changes',
@@ -914,6 +937,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan"],
   },
   {
     slug: 'medicare-coverage-for-cancer',
@@ -934,10 +958,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Hello there my wife has stage 3 Brest cancer she also has Medical her doctor submitted for the Mobile chemotherapy personality so they submitted again and did the chemo anyway and now it’s time for her second chemo and it was denied and they still have not approved  from the first one yet what can be done',
+          'Hello there my wife has stage 3 Brest cancer she also has [Medical](/blog/medicare-parts-a-b-c-and-d-explained-simply) her doctor submitted for the Mobile [chemotherapy](/faqs/does-medicare-cover-mental-health) personality so they submitted again and did the chemo anyway and now it’s time for her second chemo and it was [denied](/blog/medicare-advantage-denied-claims-crisis) and they still have not approved  from the first one yet what can be done',
         ],
       },
     ],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-preventive-services", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
   {
     slug: 'medicare-advantage-vs-medicare-supplement',
@@ -959,10 +984,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Best Medicare Advantage Plans for 2026',
         paragraphs: [
           'Updated on January 16, 2024',
-          'When it comes to Medicare, there are several plan options available for those eligible for...',
+          'When it comes to [Medicare](/faqs/what-is-medicare), there are several [plan options](/blog/medicare-parts-a-b-c-and-d-explained-simply) available for those eligible for...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling"],
   },
   {
     slug: 'how-dual-residency-and-medicare-works',
@@ -984,10 +1010,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover International Travel?',
         paragraphs: [
           'Updated on October 30, 2023',
-          'Whether you plan on traveling within the United States or abroad, knowing just how far...',
+          'Whether you plan on [traveling within the United States or abroad](/faqs/travel-insurance-for-seniors-with-medicare), [knowing just how far](/blog/what-happens-to-your-medicare-when-you-move-states)...',
         ],
       },
     ],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address"],
   },
   {
     slug: 'medicare-supplemental-insurance-tax-deductible',
@@ -1009,10 +1036,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can reduce your Medicare premiums. Almost everyone pays a premium...',
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-supplements-cost-vs-value-explained", "medicare-costs-2025", "average-cost-of-medicare-supplement-plans"],
   },
   {
     slug: 'medicare-supplement-plan-f-vs-plan-g-vs-plan-n',
@@ -1034,10 +1062,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [[Medicare](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g", "what-is-the-best-medicare-supplement-plan", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
     slug: 'medicare-and-divorce',
@@ -1058,10 +1087,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'To the medicarefaq.com admin, Thanks for the well-researched and well-written post!',
+          'To the medicarefaq.com admin, Thanks for the [well-researched and well-written post](/blog/married-divorced-widowed-how-relationship-status-affects-medicare)!',
         ],
       },
     ],
+    relatedSlugs: ["married-divorced-widowed-how-relationship-status-affects-medicare", "differences-between-medicare-and-social-security", "applying-for-medicare", "full-retirement-age", "when-does-medicare-start"],
   },
   {
     slug: 'medicare-coverage-for-bariatric-surgery',
@@ -1086,6 +1116,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-preventive-services", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "what-does-medically-necessary-mean", "advance-beneficiary-notice"],
   },
   {
     slug: 'travel-insurance-for-seniors-with-medicare',
@@ -1106,11 +1137,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'My wife and I are permanent residents in Mexico. We will keep our Medicare Part A & B, and have an air ambulance service to get us back to the US if needed. What would you recommend for emergency coverage while living here.',
+          'My wife and I are permanent residents in Mexico. We will keep our [Medicare Part A & B](/blog/medicare-parts-a-b-c-and-d-explained-simply), and have an air ambulance service to get us back to the US if needed. What would you recommend for [emergency coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) while living here.',
           'Thank you',
         ],
       },
     ],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
     slug: 'does-medicare-cover-a-biopsy',
@@ -1132,10 +1164,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Mammograms',
         paragraphs: [
           'Updated on May 3, 2023',
-          'Original Medicare pays for an annual mammogram screening for beneficiaries ages 40 and up. Medicare...',
+          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) pays for an [annual mammogram screening](/faqs/medicare-coverage-for-mammograms) for beneficiaries ages 40 and up. Medicare...',
         ],
       },
     ],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-coverage-for-cancer", "what-does-medically-necessary-mean"],
   },
   {
     slug: 'best-medicare-advantage-plans',
@@ -1157,10 +1190,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Advantage Cost by State',
         paragraphs: [
           'Updated on November 12, 2024',
-          'Your Medicare Advantage cost will vary depending on which state you call home. It’s important...',
+          'Your [Medicare Advantage cost](/faqs/average-cost-of-medicare-advantage) will vary depending on [which state you call home](/blog/what-happens-to-your-medicare-when-you-move-states). It’s important...',
         ],
       },
     ],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-extra-benefits-explained-whats-really-included", "original-medicare-vs-medicare-advantage"],
   },
   {
     slug: 'what-is-the-best-medicare-supplement-plan',
@@ -1182,10 +1216,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Plan F vs. Plan G vs. Plan N',
         paragraphs: [
           'Updated on January 20, 2026',
-          'Medicare Supplement Plan F vs. Plan G vs. Plan N, provide the most comprehensive benefits...',
+          '[Medicare Supplement Plan F vs. Plan G vs. Plan N](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n), provide the most [comprehensive benefits](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained)...',
         ],
       },
     ],
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n"],
   },
   {
     slug: 'does-medicare-cover-medical-alert-systems',
@@ -1206,10 +1241,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'My mother has Humana Medicare -do they pay for any of these alert devices She doesn’t drive so only needs one at home  Thanks',
+          'My mother has [Humana Medicare](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) -do they pay for any of these alert devices She doesn’t drive so only needs one at home  Thanks',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-bathroom-safety-devices", "home-safety-assessment-for-the-elderly", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
   },
   {
     slug: 'rheumatoid-arthritis-treatment-and-medicare-coverage',
@@ -1230,10 +1266,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'I am about to start Medicare Parts A and B on 1/1/2024, I am going to select the Medigap coverage but I would like to know about the drug formularies for Part D coverage. I am currently on Amjevita with a co-pay assist bringing my cost to $0. So, would I lose this co-pay assist when I sign up for Part D? I am not really getting results from Amjevita and have tried 23 other drugs and biologics for RA. I would like to see which drugs each Part D plan covers to see if there is anything else I can try. Thank you.',
+          'I am about to start [Medicare Parts A and B](/blog/medicare-parts-a-b-c-and-d-explained-simply) on 1/1/2024, I am going to select the [Medigap coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) but I would like to know about the drug formularies for [Part D coverage](/faqs/part-d-formulary). I am currently on Amjevita with a co-pay assist bringing my cost to $0. So, would I lose this co-pay assist when I sign up for Part D? I am not really getting results from Amjevita and have tried 23 other drugs and biologics for RA. I would like to see which drugs each Part D plan covers to see if there is anything else I can try. Thank you.',
         ],
       },
     ],
+    relatedSlugs: ["medicare-advantage-for-chronic-conditions-what-you-need-to-know", "does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-physical-therapy", "medicare-preventive-services"],
   },
   {
     slug: 'medicare-vs-obamacare',
@@ -1255,10 +1292,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [[Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-vs-medicaid", "qualified-health-plans-medicare"],
   },
   {
     slug: 'does-medicare-cover-urinary-catheters',
@@ -1283,6 +1321,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-ostomy-supplies", "medicare-coverage-for-incontinence-supplies", "what-does-medically-necessary-mean"],
   },
   {
     slug: 'does-medicare-cover-ostomy-supplies',
@@ -1304,10 +1343,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Catheters',
         paragraphs: [
           'Updated on June 10, 2022',
-          'Medicare covers catheters and related medical supplies that a doctor says is medically necessary. Coverage...',
+          'Medicare covers [catheters](/faqs/does-medicare-cover-urinary-catheters) and related medical supplies that a doctor says is [medically necessary](/faqs/what-does-medically-necessary-mean). Coverage...',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-urinary-catheters", "medicare-coverage-for-incontinence-supplies", "what-does-medically-necessary-mean"],
   },
   {
     slug: 'medicare-and-workers-comp',
@@ -1329,10 +1369,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'How to File a Medicare Claim',
         paragraphs: [
           'Updated on September 15, 2021',
-          'Most of the time, you won’t need to worry about filing your own Medicare claims....',
+          'Most of the time, you won’t need to worry about [filing your own Medicare claims](/faqs/how-to-file-a-medicare-claim)....',
         ],
       },
     ],
+    relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
   },
   {
     slug: 'does-medicare-cover-medical-nutritional-therapy',
@@ -1354,10 +1395,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover Diabetic Supplies?',
         paragraphs: [
           'Updated on March 27, 2023',
-          'Medicare covers diabetic supplies and services for those diagnosed with the chronic health condition. Diabetes...',
+          '[Medicare covers diabetic supplies](/faqs/medicare-diabetes) and services for those diagnosed with the [chronic health condition](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know). Diabetes...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-preventive-services", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "does-medicare-cover-speech-therapy", "medicare-coverage-for-in-home-caregivers"],
   },
   {
     slug: 'medicare-secondary-insurance',
@@ -1379,10 +1421,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Is Medicare Mandatory?',
         paragraphs: [
           'Updated on May 21, 2024',
-          'For most, Medicare isn’t mandatory, but there are a lot of variables you’ll want to...',
+          'For most, Medicare isn’t mandatory, but there are a lot of [variables](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) you’ll want to...',
         ],
       },
     ],
+    relatedSlugs: ["medicare-and-workers-comp", "understanding-how-medicare-works-with-employer-health-plans", "when-is-medicare-primary", "medicare-and-retiree-insurance"],
   },
   {
     slug: 'medicare-vs-medicaid',
@@ -1404,10 +1447,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Extra Help Program Income Limits',
         paragraphs: [
           'Updated on January 7, 2026',
-          'Medicare Extra Help is a low-income subsidy for individuals enrolled in Medicare Part D. This...',
+          '[Medicare Extra Help](/faqs/medicare-extra-help-program) is a low-income subsidy for individuals enrolled in [Medicare Part D](/blog/how-is-medicare-part-d-changing-in-2026). This...',
         ],
       },
     ],
+    relatedSlugs: ["what-is-medicare", "medicare-savings-programs", "qualified-medicare-beneficiary-program", "medicaid-spend-down-program"],
   },
   {
     slug: 'home-safety-assessment-for-the-elderly',
@@ -1428,10 +1472,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Hi I don’t see anywhere on CMS that Medicare covers a home safety assessment. I also don’t see a CPT code anywhere. Is this still a covered benefit?',
+          'Hi I don’t see anywhere on CMS that [Medicare covers](/faqs/medicare-preventive-services) a home safety assessment. I also don’t see a [CPT code](/faqs/does-medicare-cover-a-shower-transfer-bench) anywhere. Is this still a [covered benefit](/faqs/medicare-coverage-for-bathroom-safety-devices)?',
         ],
       },
     ],
+    relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-bathroom-safety-devices", "durable-medical-equipment"],
   },
   {
     slug: 'mapd-vs-part-d',
@@ -1453,10 +1498,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Best Medicare Advantage Plans for 2026',
         paragraphs: [
           'Updated on January 16, 2024',
-          'When it comes to Medicare, there are several plan options available for those eligible for...',
+          'When it comes to [Medicare](/faqs/what-is-medicare), there are several [plan options](/blog/medicare-parts-a-b-c-and-d-explained-simply) available for those eligible for...',
         ],
       },
     ],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-parts-a-b-c-and-d-explained-simply", "part-d-formulary"],
   },
   {
     slug: 'medicare-coverage-for-oxygen-therapy',
@@ -1478,10 +1524,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Durable Medical Equipment Covered by Medicare',
         paragraphs: [
           'Updated on March 22, 2023',
-          'Durable medical equipment is essential for so many Medicare beneficiaries because it can help with...',
+          '[Durable medical equipment](/faqs/durable-medical-equipment) is essential for so many [Medicare beneficiaries](/faqs/25-medicare-qas-you-should-know) because it can help with...',
         ],
       },
     ],
+    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-copd", "medicare-coverage-for-cardiovascular-disease", "will-medicare-pay-for-a-nebulizer-machine"],
   },
   {
     slug: 'medicare-coverage-for-alcohol-misuse',
@@ -1503,10 +1550,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many Medicare-related questions running through your mind at any given...',
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
         ],
       },
     ],
+    relatedSlugs: ["does-medicare-cover-mental-health", "medicare-preventive-services", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "medicare-coverage-for-smoking-cessation-treatments"],
   },
   {
     slug: 'part-b-excess-charges-medicare-overcharge-measure',
@@ -1528,10 +1576,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'How Do I Find Medicare Doctors Near Me?',
         paragraphs: [
           'Updated on January 4, 2023',
-          'Not all doctors accept Medicare. However, over 98% of doctors nationwide do accept Medicare. So,...',
+          'Not all [doctors accept Medicare](/blog/understanding-medicare-assignment-what-it-means-and-why-it-matters). However, over 98% of doctors nationwide do accept Medicare. So,...',
         ],
       },
     ],
+    relatedSlugs: ["understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-part-b-annual-deductible-explained-what-youll-pay", "how-to-file-a-medicare-claim", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "finding-local-doctors-who-accept-medicare"],
   },
   {
     slug: 'medicare-forms',
@@ -1553,9 +1602,10 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'How Do I Find Pain Management Doctors Near Me That Accept Medicare?',
         paragraphs: [
           'Updated on November 18, 2024',
-          'Original Medicare will cover pain management services when medically necessary. Yet, some services or treatments...',
+          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover [pain management services](/faqs/medicare-coverage-for-lower-back-pain-management) when [medically necessary](/faqs/what-does-medically-necessary-mean). Yet, some services or treatments...',
         ],
       },
     ],
+    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days", "applying-for-medicare", "how-to-file-a-medicare-claim", "medicare-enrollment-checklist"],
   },
 ];

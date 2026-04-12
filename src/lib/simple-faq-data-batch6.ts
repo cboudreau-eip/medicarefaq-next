@@ -19,21 +19,21 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'What Is Medicare Chronic Care Management?',
         paragraphs: [
-          'Medicare Chronic Care Management (CCM) is a Medicare Part B benefit that provides coordinated care services for beneficiaries with two or more chronic conditions expected to last at least 12 months. CCM covers non-face-to-face care coordination services, such as care plan development, medication management, and 24/7 access to a care team.',
+          'Medicare Chronic Care Management (CCM) is a [Medicare Part B benefit](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) that provides coordinated care services for beneficiaries with two or more chronic conditions expected to last at least 12 months. CCM covers non-face-to-face care coordination services, such as care plan development, medication management, and 24/7 access to a care team.',
           'CCM is billed by your primary care provider or specialist and typically involves at least 20 minutes of clinical staff time per month dedicated to your care coordination outside of regular office visits.',
         ],
       },
       {
         heading: 'Who Qualifies for Medicare Chronic Care Management?',
         paragraphs: [
-          'To qualify for Medicare Chronic Care Management, you must have two or more chronic conditions that are expected to last at least 12 months or until death, and that place you at significant risk of death, acute exacerbation, or functional decline.',
+          'To qualify for Medicare Chronic Care Management, you must have [two or more chronic conditions](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know) that are expected to last at least 12 months or until death, and that place you at significant risk of death, acute exacerbation, or functional decline.',
           'Common qualifying chronic conditions include diabetes, heart disease, COPD, hypertension, Alzheimer\'s disease, arthritis, cancer, and depression. Your provider must document these conditions and create a comprehensive care plan.',
         ],
       },
       {
         heading: 'Does Medicare Pay for Chronic Care Management?',
         paragraphs: [
-          'Yes. Medicare Part B covers Chronic Care Management services. After meeting your Part B deductible ($257 in 2026), Medicare pays 80% of the approved amount and you pay 20% coinsurance. If you have a Medicare Supplement (Medigap) plan, it may cover your 20% coinsurance.',
+          'Yes. Medicare Part B covers Chronic Care Management services. After meeting your Part B deductible ($257 in 2026), Medicare pays 80% of the approved amount and you pay 20% coinsurance. If you have a [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it may cover your 20% coinsurance.',
           'The monthly cost to you for CCM services is typically around $8–$12 after Medicare pays its share, making it a very affordable benefit for eligible beneficiaries.',
         ],
       },
@@ -78,21 +78,21 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         heading: 'Plans Are Standardized, Yet Prices Can Vary Significantly',
         paragraphs: [
           'All Medigap plans of the same letter (e.g., Plan G) offer identical benefits regardless of which insurance company sells them — this is required by federal law. However, the monthly premiums can vary dramatically between carriers for the exact same coverage. Two companies selling Plan G in the same zip code might charge $120/month and $200/month respectively.',
-          'This is why comparison shopping is so important. Always compare rates from multiple carriers before choosing a Medigap plan. The benefits are identical, so the only difference is price and the carrier\'s financial stability.',
+          'This is why [comparison shopping is so important](/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage). Always compare rates from multiple carriers before choosing a Medigap plan. The benefits are identical, so the only difference is price and the carrier\'s financial stability.',
         ],
       },
       {
         heading: 'Grandfathered Plans Offer Coverage That Is No Longer Available',
         paragraphs: [
-          'Medicare Supplement Plan F and Plan C — which cover the Part B deductible — were eliminated for new Medicare beneficiaries starting January 1, 2020. However, if you enrolled in Plan F or Plan C before that date, you can keep your plan indefinitely.',
-          'If you have a grandfathered Plan F, you are receiving coverage that new enrollees cannot get. This is a significant benefit worth preserving.',
+          'Medicare Supplement [Plan F and Plan C](/blog/medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it) — which cover the Part B deductible — were eliminated for new Medicare beneficiaries starting January 1, 2020. However, if you enrolled in Plan F or Plan C before that date, you can keep your plan indefinitely.',
+          'If you have a [grandfathered Plan F](/blog/exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g), you are receiving coverage that new enrollees cannot get. This is a significant benefit worth preserving.',
         ],
       },
       {
         heading: 'Coverage Extends 365 Hospital Days Beyond Original Medicare',
         paragraphs: [
-          'Original Medicare Part A covers inpatient hospital stays, but coverage ends after 90 days in a benefit period (plus 60 lifetime reserve days). Most Medigap plans add an additional 365 days of hospital coverage beyond what Medicare covers — at no cost to you.',
-          'This means if you face a catastrophic illness requiring an extended hospital stay, your Medigap plan provides a full year of additional coverage after Medicare\'s benefits are exhausted.',
+          '[Original Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers inpatient hospital stays, but coverage ends after 90 days in a benefit period (plus 60 lifetime reserve days). Most Medigap plans add an additional 365 days of hospital coverage beyond what Medicare covers — at no cost to you.',
+          'This means if you face a catastrophic illness requiring an [extended hospital stay](/faqs/how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days), your Medigap plan provides a full year of additional coverage after Medicare\'s benefits are exhausted.',
         ],
       },
       {
@@ -132,16 +132,16 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         heading: 'Does Medicare Cover HRT?',
         paragraphs: [
           'Yes, Medicare covers hormone replacement therapy in certain circumstances. The type of coverage depends on how the HRT is administered:',
-          'Medicare Part D (prescription drug coverage) covers oral HRT medications (pills), transdermal patches, topical gels and creams, and vaginal rings — when prescribed by your doctor and listed on your plan\'s formulary.',
-          'Medicare Part B may cover hormone injections administered in a doctor\'s office or clinic as a medical service.',
+          '[Medicare Part D (prescription drug coverage)](/faqs/part-d-formulary) covers oral HRT medications (pills), transdermal patches, topical gels and creams, and vaginal rings — when prescribed by your doctor and listed on your plan\'s formulary.',
+          '[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) may cover hormone injections administered in a doctor\'s office or clinic as a medical service.',
         ],
       },
       {
         heading: 'Learn More About How Medicare Will Cover Hormone Therapy for Menopause',
         paragraphs: [
-          'To get Medicare coverage for HRT, you need a prescription from your doctor. For Part D coverage, check your plan\'s formulary to confirm your specific medication is covered. If it\'s not on the formulary, your doctor can request a formulary exception.',
-          'If you don\'t have Part D coverage, you can enroll during the Annual Enrollment Period (October 15 – December 7) or during a Special Enrollment Period if you qualify. Keep in mind that delaying Part D enrollment without creditable coverage can result in a permanent late enrollment penalty.',
-          'A Medicare Supplement (Medigap) plan can help cover your Part B cost-sharing (20% coinsurance) for hormone injections administered in a medical setting, reducing your out-of-pocket costs.',
+          'To get Medicare coverage for HRT, you need a prescription from your doctor. For Part D coverage, check your plan\'s formulary to confirm your specific medication is covered. If it\'s not on the formulary, your doctor can request a [formulary exception](/blog/why-some-drugs-are-covered-under-part-b-instead-of-part-d).',
+          'If you don\'t have Part D coverage, you can enroll during the [Annual Enrollment Period](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) (October 15 – December 7) or during a Special Enrollment Period if you qualify. Keep in mind that delaying Part D enrollment without creditable coverage can result in a permanent late enrollment penalty.',
+          'A [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can help cover your Part B cost-sharing (20% coinsurance) for hormone injections administered in a medical setting, reducing your out-of-pocket costs.',
         ],
       },
     ],
@@ -166,17 +166,17 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'Does Medicare Cover Kidney Dialysis?',
         paragraphs: [
-          'Yes. Medicare covers kidney dialysis treatments for people with End-Stage Renal Disease (ESRD). People with ESRD can qualify for Medicare at any age — not just at 65. Medicare coverage for ESRD typically begins the 4th month of dialysis treatments, though it can begin sooner in certain circumstances.',
-          'Medicare Part B covers outpatient dialysis services, including hemodialysis performed at a Medicare-certified dialysis facility, peritoneal dialysis performed at home (with training), and home hemodialysis (with training and equipment).',
+          'Yes. Medicare covers kidney dialysis treatments for people with [End-Stage Renal Disease (ESRD)](/faqs/does-medicare-cover-end-stage-renal-disease). People with ESRD can qualify for Medicare at any age — not just at 65. Medicare coverage for ESRD typically begins the 4th month of dialysis treatments, though it can begin sooner in certain circumstances.',
+          '[Medicare Part B covers outpatient dialysis services](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered), including hemodialysis performed at a Medicare-certified dialysis facility, peritoneal dialysis performed at home (with training), and home hemodialysis (with training and equipment).',
           'Medicare Part A covers inpatient dialysis when you are admitted to a hospital for a related condition.',
         ],
       },
       {
         heading: 'How to Get Help with Your Dialysis Out-of-Pocket Costs Under Medicare',
         paragraphs: [
-          'After meeting your Part B deductible ($257 in 2026), Medicare pays 80% of dialysis costs and you pay 20% coinsurance. Because dialysis is typically required three times per week, these costs can add up significantly.',
-          'A Medicare Supplement (Medigap) plan can cover your 20% coinsurance, dramatically reducing your out-of-pocket dialysis costs. If you have ESRD and are under 65, federal law requires insurers in some states to sell you Medigap — check your state\'s rules.',
-          'If you have limited income, you may qualify for Medicare Savings Programs that help pay your Part B premium and cost-sharing, or for Extra Help with Part D drug costs.',
+          'After meeting your [Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) ($257 in 2026), Medicare pays 80% of dialysis costs and you pay 20% coinsurance. Because dialysis is typically required three times per week, these costs can add up significantly.',
+          'A [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can cover your 20% coinsurance, dramatically reducing your out-of-pocket dialysis costs. If you have ESRD and are under 65, federal law requires insurers in some states to sell you Medigap — check your state\'s rules.',
+          'If you have limited income, you may qualify for [Medicare Savings Programs](/faqs/medicare-savings-programs) that help pay your Part B premium and cost-sharing, or for Extra Help with Part D drug costs.',
         ],
       },
     ],
@@ -201,27 +201,27 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'Best Medicare Supplement Plan G Reviews in 2026',
         paragraphs: [
-          'Medicare Supplement Plan G offers comprehensive coverage, paying for the Part A deductible ($1,676 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (20%), Part B excess charges, skilled nursing facility coinsurance, and foreign travel emergency care.',
-          'The only cost Plan G does not cover is the Part B deductible ($257 in 2026). After paying that once per year, Plan G covers virtually everything else Medicare doesn\'t pay.',
+          '[Medicare Supplement Plan G](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) offers comprehensive coverage, paying for the Part A deductible ($1,676 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (20%), Part B excess charges, skilled nursing facility coinsurance, and foreign travel emergency care.',
+          'The only cost Plan G does not cover is the [Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) ($257 in 2026). After paying that once per year, Plan G covers virtually everything else Medicare doesn\'t pay.',
         ],
       },
       {
         heading: 'Do Medigap Plan G Carrier Financial Ratings Matter?',
         paragraphs: [
-          'Yes — carrier financial strength ratings matter when choosing a Plan G insurer. Look for carriers rated A or higher by AM Best, which indicates financial stability and the ability to pay claims. Top-rated carriers include Mutual of Omaha, AARP/UnitedHealthcare, Cigna, Aetna, and Humana.',
+          'Yes — [carrier financial strength ratings](/faqs/top-10-medicare-supplement-insurance-companies) matter when choosing a Plan G insurer. Look for carriers rated A or higher by AM Best, which indicates financial stability and the ability to pay claims. Top-rated carriers include Mutual of Omaha, AARP/UnitedHealthcare, Cigna, Aetna, and Humana.',
           'Since all Plan G policies offer identical benefits, a carrier\'s financial rating and pricing history (how much they raise rates over time) are key differentiators.',
         ],
       },
       {
         heading: 'Medicare Supplement Plan G Customer Service',
         paragraphs: [
-          'Customer service quality varies among Plan G carriers. Consider factors such as 24/7 claims support, online account management, ease of claims filing, and member satisfaction ratings. J.D. Power\'s Medicare Supplement Insurance Study rates carriers annually on customer satisfaction.',
+          'Customer service quality varies among Plan G carriers. Consider factors such as 24/7 [claims support](/faqs/how-to-file-a-medicare-claim), online account management, ease of claims filing, and member satisfaction ratings. J.D. Power\'s Medicare Supplement Insurance Study rates carriers annually on customer satisfaction.',
         ],
       },
       {
         heading: 'Overall Medicare Supplement Plan G Review',
         paragraphs: [
-          'Plan G earns high marks for its comprehensive coverage and predictable costs. For most new Medicare beneficiaries in 2026, Plan G is the top recommendation — it provides near-complete coverage of Medicare\'s cost-sharing gaps for a reasonable monthly premium.',
+          'Plan G earns high marks for its [comprehensive coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) and predictable costs. For most new Medicare beneficiaries in 2026, Plan G is the top recommendation — it provides near-complete coverage of Medicare\'s cost-sharing gaps for a reasonable monthly premium.',
           'The key is comparing rates from multiple carriers in your area, as premiums for identical Plan G coverage can vary by 30–50% or more depending on the insurer.',
         ],
       },
@@ -247,8 +247,8 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'What Is Medicare Fraud?',
         paragraphs: [
-          'Medicare fraud occurs when someone intentionally deceives the Medicare program to receive payment. Common examples include billing for services not provided, billing for more expensive services than were actually performed (upcoding), billing for unnecessary services, using someone else\'s Medicare number, and kickbacks for referrals.',
-          'Medicare abuse involves practices that are inconsistent with sound medical, business, or fiscal practices — such as billing for services that aren\'t medically necessary. Medicare waste refers to overutilization of services without intentional deception.',
+          '[Medicare fraud](/blog/laws-against-taking-advantage-of-the-elderly) occurs when someone intentionally deceives the Medicare program to receive payment. Common examples include billing for services not provided, billing for more expensive services than were actually performed (upcoding), billing for unnecessary services, using someone else\'s Medicare number, and kickbacks for referrals.',
+          '[Medicare abuse](/blog/medicare-advantage-denied-claims-crisis) involves practices that are inconsistent with sound medical, business, or fiscal practices — such as billing for services that aren\'t medically necessary. Medicare waste refers to overutilization of services without intentional deception.',
         ],
       },
       {
@@ -291,7 +291,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'What Is the Difference Between Medicare HMO vs. PPO Plans?',
         paragraphs: [
-          'Both Medicare HMO and PPO plans are Medicare Advantage (Part C) plans offered by private insurance companies. They both cover all Original Medicare benefits (Parts A and B) and often include additional benefits like prescription drugs, dental, and vision.',
+          'Both Medicare HMO and PPO plans are [Medicare Advantage (Part C) plans](/faqs/original-medicare-vs-medicare-advantage) offered by private insurance companies. They both cover all Original Medicare benefits (Parts A and B) and often include additional benefits like prescription drugs, dental, and vision.',
           'The key differences are in how you access care and what you pay.',
         ],
       },
@@ -312,7 +312,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         heading: 'Which Is Better — Medicare Advantage HMO vs. PPO?',
         paragraphs: [
           'The best choice depends on your priorities. Choose an HMO if you want lower costs and are comfortable using a network of providers. Choose a PPO if you value flexibility to see any doctor without referrals, travel frequently, or have established relationships with out-of-network specialists.',
-          'Keep in mind that neither HMO nor PPO plans are available everywhere. Plan availability varies by county, so compare plans available in your specific area.',
+          'Keep in mind that neither HMO nor PPO plans are available everywhere. [plan availability varies by county](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up), so compare plans available in your specific area.',
         ],
       },
     ],
@@ -337,14 +337,14 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'Will Medicare Pay for a Nebulizer Machine?',
         paragraphs: [
-          'Yes. Medicare Part B covers nebulizer machines as durable medical equipment (DME) when medically necessary. To qualify for coverage, your doctor must prescribe the nebulizer, it must be for use in your home, and you must purchase it from a Medicare-enrolled DME supplier.',
-          'After meeting your Part B deductible ($257 in 2026), Medicare pays 80% of the approved amount for the nebulizer and you pay 20% coinsurance. If you have a Medigap plan, it may cover your 20% coinsurance.',
+          'Yes. Medicare Part B covers nebulizer machines as [durable medical equipment (DME)](/faqs/durable-medical-equipment) when medically necessary. To qualify for coverage, your doctor must prescribe the nebulizer, it must be for use in your home, and you must purchase it from a Medicare-enrolled DME supplier.',
+          'After meeting your Part B deductible ($257 in 2026), Medicare pays 80% of the approved amount for the nebulizer and you pay 20% coinsurance. If you have a [Medigap plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it may cover your 20% coinsurance.',
         ],
       },
       {
         heading: 'Medicare Guidelines for Nebulizer Medications',
         paragraphs: [
-          'Medicare Part B (not Part D) covers medications administered through a nebulizer when they are medically necessary. This includes drugs like albuterol, ipratropium (Atrovent), and budesonide (Pulmicort) when used in a nebulizer. The medication must be prescribed by your doctor and obtained from a Medicare-enrolled pharmacy or DME supplier.',
+          '[Medicare Part B (not Part D) covers medications](/blog/why-some-drugs-are-covered-under-part-b-instead-of-part-d) administered through a nebulizer when they are medically necessary. This includes drugs like albuterol, ipratropium (Atrovent), and budesonide (Pulmicort) when used in a nebulizer. The medication must be prescribed by your doctor and obtained from a Medicare-enrolled pharmacy or DME supplier.',
         ],
       },
       {
@@ -362,7 +362,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'Does a Medicare Supplement Pay for a Nebulizer?',
         paragraphs: [
-          'A Medicare Supplement (Medigap) plan can help cover your out-of-pocket costs for a nebulizer. Most Medigap plans cover the 20% Part B coinsurance after Medicare pays its 80%, which can significantly reduce your costs for both the nebulizer machine and the medications used in it.',
+          'A [Medicare Supplement (Medigap) plan](/blog/how-medigap-plans-affect-your-overall-medicare-costs) can help cover your out-of-pocket costs for a nebulizer. Most Medigap plans cover the 20% Part B coinsurance after Medicare pays its 80%, which can significantly reduce your costs for both the nebulizer machine and the medications used in it.',
         ],
       },
     ],

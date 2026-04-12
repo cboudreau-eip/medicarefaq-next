@@ -77,7 +77,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "not-covered",
         paragraphs: [
           "Let us help you navigate your Medicare journey",
-          "Keep in mind, Medicare Supplement plans only pay secondary to Medicare. So, if Medicare does not pay first, your Medicare Supplement plan will not cover any costs.",
+          "Keep in mind, [Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) only pay secondary to Medicare. So, if [Medicare does not pay first](/faqs/when-is-medicare-primary), your Medicare Supplement plan will not cover any costs.",
         ],
       },
     ],
@@ -105,6 +105,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers dental implants and more.",
     },
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
   },
   {
     slug: "does-medicare-cover-glasses",
@@ -153,7 +154,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "There are few circumstances where Original Medicare will cover glasses, contact lenses, or eye exams. However, do not count on Original Medicare for ordinary vision coverage.",
+          "There are few circumstances where [Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover glasses, contact lenses, or eye exams. However, do not count on Original Medicare for ordinary vision coverage.",
         ],
       },
       {
@@ -163,7 +164,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Medicare Advantage (Part C) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Medicare Advantage (Part C) plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
         ],
       },
       {
@@ -173,8 +174,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "Medicare Supplement plans do not offer coverage for glasses or eye exams. Medicare Supplement plans only provide coverage for the remaining balance after Original Medicare pays its share. Because Original Medicare does not cover these services, neither do Medicare Supplement plans.",
-          "If you enroll in a Medicare Supplement plan, you are not out of coverage options when it comes to glasses and eye exams. Stand-alone vision plans available that offer coverage for glasses, eye exams, and more may be available in your area. Stand-alone plans may also offer coverage for additional services like hearing aids and dental care.",
+          "[Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) do not offer coverage for glasses or eye exams. Medicare Supplement plans only provide coverage for the remaining balance after Original Medicare pays its share. Because Original Medicare does not cover these services, neither do Medicare Supplement plans.",
+          "If you enroll in a Medicare Supplement plan, you are not out of coverage options when it comes to glasses and eye exams. [Stand-alone vision plans](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) available that offer coverage for glasses, eye exams, and more may be available in your area. Stand-alone plans may also offer coverage for additional services like hearing aids and dental care.",
         ],
       },
     ],
@@ -205,6 +206,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers glasses and more.",
     },
+    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-cataract-surgery", "medicare-vision-care-coverage", "does-medicare-cover-macular-degeneration"],
   },
   {
     slug: "does-medicare-cover-hearing-aids",
@@ -261,7 +263,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "not-covered",
         statusBadge: "Does NOT cover hearing aids",
         paragraphs: [
-          "Original Medicare (Medicare Part A and Part B) does not provide coverage for hearing aids or exams for fitting hearing aids. Beneficiaries are responsible for 100% of these costs as Original Medicare does not deem hearing aids medically necessary.",
+          "[Original Medicare (Medicare Part A and Part B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) does not provide coverage for hearing aids or exams for fitting hearing aids. Beneficiaries are responsible for 100% of these costs as Original Medicare does not deem hearing aids medically necessary.",
           "In some cases, Medicare may cover hearing exams if your practitioner orders them in conjunction with another medical issue. For example, if your provider requests a diagnostic hearing and balance exam because you have a history of falling regularly, Medicare Part B will provide coverage.",
         ],
         whatItCovers: [
@@ -285,7 +287,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Some plans offer hearing benefits",
         paragraphs: [
-          "Medicare Advantage plans (Part C) may offer hearing benefits that include hearing aids. However, not all plans have this benefit, and the coverage varies by plan and ZIP code. Check network audiologists and the plan's Evidence of Coverage for details.",
+          "[Medicare Advantage plans (Part C)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) may offer hearing benefits that include hearing aids. However, not all plans have this benefit, and the coverage varies by plan and ZIP code. Check network audiologists and the plan's Evidence of Coverage for details.",
           "Some Medicare Advantage plans offer a hearing aid allowance (typically $500\u2013$3,000 per ear every 1\u20133 years). Others may include routine hearing exams and discounted hearing aid programs.",
         ],
         whatItCovers: [
@@ -313,8 +315,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "not-covered",
         statusBadge: "Does NOT cover hearing aids",
         paragraphs: [
-          "Medicare Supplement plans work as supplemental coverage to Original Medicare. Also known as Medigap, these policies only cover the out-of-pocket balance of what Medicare covers. Because Medicare does not cover hearing aids, Medicare Supplement plans don't cover them either.",
-          "You can, however, enroll in a separate insurance policy that includes hearing services and hearing aids. Often, hearing coverage comes bundled with vision and dental coverage, providing coverage for the most significant gaps in Original Medicare.",
+          "[Medicare Supplement plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) work as supplemental coverage to Original Medicare. Also known as Medigap, these policies only cover the out-of-pocket balance of what Medicare covers. Because Medicare does not cover hearing aids, Medicare Supplement plans don't cover them either.",
+          "You can, however, enroll in a separate insurance policy that includes hearing services and hearing aids. Often, hearing coverage comes bundled with [vision and dental coverage](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options), providing coverage for the most significant gaps in Original Medicare.",
         ],
       },
     ],
@@ -404,6 +406,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Original Medicare doesn't cover hearing aids, but some Medicare Advantage plans do. Our licensed agents can compare plans in your area that include hearing benefits \u2014 at no cost to you.",
     },
+    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors", "top-5-dental-insurance-for-seniors", "medicare-costs-2025"],
   },
   {
     slug: "does-medicare-cover-chiropractic-care",
@@ -452,7 +455,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Original Medicare (Part A & B) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
         ],
       },
       {
@@ -462,7 +465,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Some Medicare Part C plans may include coverage for chiropractic treatments for a range of conditions. Every Advantage plan is different; look at your explanation of benefits to see what your policy covers. Not all Medicare Advantage plans will offer chiropractic coverage.",
+          "Some [Medicare Part C](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) plans may include coverage for chiropractic treatments for a range of conditions. Every Advantage plan is different; look at your explanation of benefits to see what your policy covers. Not all Medicare Advantage plans will offer chiropractic coverage.",
         ],
       },
       {
@@ -472,7 +475,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Supplement plans (Medigap) cover the same services and procedures as Medicare. Medigap doesn’t include extra coverage beyond Medicare. However, Medigap plans can help with out-of-pocket costs such as coinsurance. If Medicare covers a Chiropractic service, your Medigap plan will pay its portion.",
+          "[Medicare Supplement plans (Medigap)](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) cover the same services and procedures as Medicare. Medigap doesn’t include extra coverage beyond Medicare. However, Medigap plans can help with out-of-pocket costs such as coinsurance. If Medicare covers a Chiropractic service, your Medigap plan will pay its portion.",
         ],
       },
     ],
@@ -505,6 +508,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers chiropractic care and more.",
     },
+    relatedSlugs: ["does-medicare-cover-acupuncture", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "medicare-coverage-for-lower-back-pain-management"],
   },
   {
     slug: "does-medicare-cover-acupuncture",
@@ -553,7 +557,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Original Medicare (Part A & B) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's [Evidence of Coverage](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) or speak with a licensed agent.",
         ],
       },
       {
@@ -563,7 +567,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Advantage plans vary by location, not all plans offered are going to cover Acupuncture. But, Humana and UnitedHealthcare® both offer plans in select areas with some acupuncture coverage. There may be other carriers that offer this benefit, but it really just depends on the plans available in your service area.",
+          "[Medicare Advantage plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) vary by location, not all plans offered are going to cover Acupuncture. But, Humana and UnitedHealthcare® both offer plans in select areas with some acupuncture coverage. There may be other carriers that offer this benefit, but it really just depends on the plans available in your service area.",
         ],
       },
       {
@@ -573,7 +577,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Supplements will cover any benefit that Medicare covers. So, if Medicare approves the acupuncture, the Medigap company will pay a portion of the bill. But, when Medicare denies coverage for treatment, Medigap won’t cover either.",
+          "[Medicare Supplements](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) will cover any benefit that Medicare covers. So, if Medicare approves the acupuncture, the [Medigap](/blog/how-medigap-plans-affect-your-overall-medicare-costs) company will pay a portion of the bill. But, when Medicare denies coverage for treatment, Medigap won’t cover either.",
         ],
       },
     ],
@@ -604,6 +608,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers acupuncture and more.",
     },
+    relatedSlugs: ["does-medicare-cover-chiropractic-care", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "medicare-preventive-services"],
   },
   {
     slug: "does-medicare-cover-sleep-apnea",
@@ -652,9 +657,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Additionally, required supplies for a CPAP machine receive coverage through Medicare. Keep in mind that the Medicare Part B deductible applies to all equipment.",
-          "If you have a Medicare Supplement (Medigap plan), it will cover the remainder of the cost. Medicare Part B will pay for 80% of sleep apnea devices covered by Medicare after you meet the deductible. However, if Medicare approves your device, Medigap will pay for the remaining 20%, and you will receive complete coverage.",
-          "Copays, network restrictions, and deductibles could apply for those with Medicare Advantage. Check with your provider before scheduling a sleep study or getting sleep apnea treatment equipment.",
+          "Additionally, required supplies for a CPAP machine receive coverage through Medicare. Keep in mind that the [Medicare Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) applies to all equipment.",
+          "If you have a [Medicare Supplement (Medigap plan)](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it will cover the remainder of the cost. Medicare Part B will pay for 80% of sleep apnea devices covered by Medicare after you meet the deductible. However, if Medicare approves your device, Medigap will pay for the remaining 20%, and you will receive complete coverage.",
+          "Copays, network restrictions, and deductibles could apply for those with [Medicare Advantage](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans). Check with your provider before scheduling a sleep study or getting sleep apnea treatment equipment.",
         ],
       },
       {
@@ -664,7 +669,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Medicare Advantage (Part C) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Medicare Advantage (Part C) plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
         ],
       },
       {
@@ -708,6 +713,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers sleep apnea and more.",
     },
+    relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "medicare-parts-a-b-c-and-d-explained-simply"],
   },
   {
     slug: "does-medicare-cover-cataract-surgery",
@@ -756,7 +762,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Original Medicare (Part A & B) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's [Evidence of Coverage](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) or speak with a licensed agent.",
         ],
       },
       {
@@ -766,7 +772,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Medicare Advantage (Part C) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Medicare Advantage (Part C)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
         ],
       },
       {
@@ -776,7 +782,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Medicare Supplement (Medigap) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Medicare Supplement (Medigap)](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
         ],
       },
     ],
@@ -808,6 +814,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers cataract surgery - medicare cataract surgery and more.",
     },
+    relatedSlugs: ["does-medicare-cover-glasses", "medicare-vision-care-coverage", "medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-macular-degeneration"],
   },
   {
     slug: "does-medicare-cover-hospice",
@@ -856,7 +863,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Original Medicare (Part A & B) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply.",
+          "[Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply.",
         ],
       },
       {
@@ -866,7 +873,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Medigap plans do not have networks. Therefore, if you have a Medicare Supplement plan, you can enjoy supplemental coverage regardless of the network for your skilled nursing facility.",
+          "Medigap plans do not have networks. Therefore, if you have a [Medicare Supplement plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), you can enjoy supplemental coverage regardless of the network for your skilled nursing facility.",
         ],
       },
       {
@@ -876,7 +883,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Supplement (Medigap) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply.",
+          "[Medicare Supplement (Medigap)](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply.",
         ],
       },
     ],
@@ -904,6 +911,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers hospice and palliative care and more.",
     },
+    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one"],
   },
   {
     slug: "does-medicare-cover-dentures",
@@ -952,8 +960,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "But it’s important to note that coverage for dentures on Medicare can still occur. To better illustrate how this is possible, it’s important to understand how Medicare benefits are provided:",
-          "There are guidelines that private insurance companies must follow, but there is also the opportunity to provide additional benefits. Therefore, while Original Medicare doesn’t cover dentures, without rare exceptions, other forms of coverage provided by private insurance companies may be at the company’s discretion for each individual plan.",
+          "But it’s important to note that coverage for dentures on Medicare can still occur. To better illustrate how this is possible, it’s important to understand [how Medicare benefits are provided](/faqs/what-is-medicare):",
+          "There are guidelines that private insurance companies must follow, but there is also the opportunity to provide additional benefits. Therefore, while Original Medicare doesn’t cover dentures, without rare exceptions, [other forms of coverage provided](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) by private insurance companies may be at the company’s discretion for each individual plan.",
         ],
       },
       {
@@ -963,7 +971,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "There are guidelines that private insurance companies must follow, but there is also the opportunity to provide additional benefits. Therefore, while Original Medicare doesn’t cover dentures, without rare exceptions, other forms of coverage provided by private insurance companies may be at the company’s discretion for each individual plan.",
+          "There are guidelines that [private insurance companies](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) must follow, but there is also the opportunity to provide additional benefits. Therefore, while Original Medicare doesn’t cover dentures, without rare exceptions, other forms of coverage provided by private insurance companies may be at the company’s discretion for each individual plan.",
         ],
       },
       {
@@ -1001,6 +1009,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers does medicare pay and cover the cost of dentures and more.",
     },
+    relatedSlugs: ["does-medicare-cover-dental-implants", "what-dental-expenses-does-medicare-cover", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors"],
   },
   {
     slug: "does-medicare-cover-mental-health",
@@ -1049,7 +1058,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Original Medicare (Part A & B) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply.",
+          "[Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply.",
         ],
       },
       {
@@ -1059,7 +1068,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Medicare Advantage (Part C) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Medicare Advantage (Part C) plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's [Evidence of Coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) or speak with a licensed agent.",
         ],
       },
       {
@@ -1069,7 +1078,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Medicare Supplement (Medigap) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some [Medicare Supplement (Medigap) plans](/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan) may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
         ],
       },
     ],
@@ -1097,6 +1106,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers medicare mental health coverage: what you need to know in 2026 and more.",
     },
+    relatedSlugs: ["medicare-coverage-for-alcohol-misuse", "medicare-preventive-services", "will-medicare-cover-my-surgery", "what-is-medicare"],
   },
   {
     slug: "does-medicare-cover-ozempic",
@@ -1145,8 +1155,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "| Medicare Part D (standalone) | Yes, if on formulary and medically necessary | $30–$150* | Cost varies by plan, tier, and coverage phase |",
-          "| Medicare Advantage (Part C with drug coverage) | Yes, if on plan’s formulary | $25–$150* | Copays/coinsurance may be lower with some plans, including HMO and PPO options |",
+          "| [Medicare Part D (standalone)](/blog/how-is-medicare-part-d-changing-in-2026) | Yes, if on formulary and medically necessary | $30–$150* | Cost varies by plan, tier, and coverage phase |",
+          "| [Medicare Advantage (Part C with drug coverage)](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) | Yes, if on plan’s formulary | $25–$150* | Copays/coinsurance may be lower with some plans, including HMO and PPO options |",
           "| Medigap (Supplement) | No | N/A | Must pair with Part D for prescription coverage |",
         ],
       },
@@ -1167,7 +1177,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some Medicare Supplement (Medigap) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "Some Medicare Supplement (Medigap) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's [Evidence of Coverage](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) or speak with a licensed agent.",
         ],
       },
     ],
@@ -1199,6 +1209,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers ozempic 2026 guide to costs, coverage, and savings and more.",
     },
+    relatedSlugs: ["medicare-diabetes", "does-medicare-cover-wegovy", "part-d-formulary", "how-is-medicare-part-d-changing-in-2026"],
   },
   {
     slug: "does-medicare-cover-speech-therapy",
@@ -1247,7 +1258,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "Original Medicare (Part A & B) does not directly cover this service. However, related medical services may be covered under certain circumstances.",
+          "[Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) does not directly cover this service. However, related medical services may be covered under certain circumstances.",
         ],
       },
       {
@@ -1257,7 +1268,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "Remember, Original Medicare benefits come from a federal government-run program, whereas private carriers provide Medigap and Medicare Advantage coverage.",
+          "Remember, Original Medicare benefits come from a federal government-run program, whereas private carriers provide Medigap and [Medicare Advantage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) coverage.",
         ],
       },
       {
@@ -1267,7 +1278,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "If you require rehab for a related issue, Medicare Part A can also help. Furthermore, Medicare Advantage may also provide benefits, but these can vary from plan to plan and carrier to carrier.",
+          "If you require rehab for a related issue, [Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply) can also help. Furthermore, [Medicare Advantage](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) may also provide benefits, but these can vary from plan to plan and carrier to carrier.",
           "Remember, Original Medicare benefits come from a federal government-run program, whereas private carriers provide Medigap and Medicare Advantage coverage.",
         ],
       },
@@ -1296,6 +1307,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers speech therapy and more.",
     },
+    relatedSlugs: ["medicare-coverage-for-stroke-victims", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-physical-therapy", "does-medicare-cover-copd"],
   },
   {
     slug: "does-medicare-cover-copd",
@@ -1344,7 +1356,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Original Medicare (Part A & B) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply.",
+          "[Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply.",
         ],
       },
       {
@@ -1354,8 +1366,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "For those enrolling in a health maintenance plan (HMO), you’ll need a referral to see a pulmonologist with Medicare Advantage. You won’t need a referral if your Medicare Advantage plan is a preferred provider organization plan (PPO).",
-          "Depending on your healthcare needs, Medicare Supplement plans can help you reduce healthcare costs when seeing a specialist and more freedom to do so than enrolling in a Medicare Advantage plan. But it’s still important to speak with your specialist to understand whether or not they accept Medicare Assignment and a licensed Medicare agent to ensure which coverage works best for you.",
+          "For those enrolling in a health maintenance plan (HMO), you’ll need a referral to see a pulmonologist with [Medicare Advantage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). You won’t need a referral if your Medicare Advantage plan is a preferred provider organization plan (PPO).",
+          "Depending on your healthcare needs, [Medicare Supplement plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can help you reduce healthcare costs when seeing a specialist and more freedom to do so than enrolling in a [Medicare Advantage plan](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans). But it’s still important to speak with your specialist to understand whether or not they accept Medicare Assignment and a licensed Medicare agent to ensure which coverage works best for you.",
         ],
       },
       {
@@ -1393,6 +1405,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers finding a pulmonologist on medicare and more.",
     },
+    relatedSlugs: ["does-medicare-cover-asthma-inhalers", "medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "does-medicare-cover-sleep-apnea"],
   },
   {
     slug: "does-medicare-cover-pre-existing-conditions",
@@ -1441,7 +1454,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Every beneficiary gets an enrollment window called your Initial Enrollment Period. At this time, you can enroll in Medicare without any health questions. Once you enroll in Part B, you’ll have another enrollment window that allows you to enroll in a supplemental plan without pre-existing conditions impacting your chances of being accepted into the plan.",
+          "Every beneficiary gets an enrollment window called your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period). At this time, you can enroll in Medicare without any health questions. Once you enroll in Part B, you’ll have another enrollment window that allows you to enroll in a supplemental plan without pre-existing conditions impacting your chances of being accepted into the plan.",
         ],
       },
       {
@@ -1451,7 +1464,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Yes, Medicare Advantage plans will cover pre-existing conditions. This is one of the features that attract beneficiaries to Advantage plans. However, they don’t consider all the out-of-pocket costs you have to pay when you go to the doctor. Those with a chronic condition will get better long-term benefits with a Medicare Supplement (Medigap) Plan.",
+          "Yes, [Medicare Advantage plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) will cover pre-existing conditions. This is one of the features that attract beneficiaries to Advantage plans. However, they don’t consider all the out-of-pocket costs you have to pay when you go to the doctor. Those with a chronic condition will get better long-term benefits with a Medicare Supplement (Medigap) Plan.",
         ],
       },
       {
@@ -1461,9 +1474,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Yes, Medicare Supplements cover pre-existing conditions as long as you enroll at the right time. When purchasing a Medicare Supplement plan during your Medigap Open Enrollment Period, you’re automatically eligible for coverage.",
-          "During this period, you’re granted Guaranteed Issue Rights. Private insurance companies offering Medigap plans cannot deny you coverage or increase your rates due to any pre-existing health conditions.",
-          "If you don’t enroll during your Open Enrollment Period, you can be denied coverage or charges a higher premium due to pre-existing health conditions.",
+          "Yes, [Medicare Supplements cover pre-existing conditions](/blog/medicare-supplement-and-pre-existing-conditions-what-you-need-to-know) as long as you enroll at the right time. When purchasing a Medicare Supplement plan during your Medigap Open Enrollment Period, you’re automatically eligible for coverage.",
+          "During this period, you’re granted [Guaranteed Issue Rights](/faqs/medicare-supplement-open-enrollment). Private insurance companies offering Medigap plans cannot deny you coverage or increase your rates due to any pre-existing health conditions.",
+          "If you don’t enroll during your [Open Enrollment Period](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up), you can be denied coverage or charges a higher premium due to pre-existing health conditions.",
         ],
       },
     ],
@@ -1491,6 +1504,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers pre-existing health conditions and more.",
     },
+    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan"],
   },
   {
     slug: "does-medicare-cover-prosthetic-devices",
@@ -1539,9 +1553,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Original Medicare is made up of Medicare Part A and Part B. Each part of Medicare provides different coverage and requires you to pay a different coinsurance amount depending on your care. Here’s how Medicare covers prosthetics:",
-          "Since each situation is unique to the beneficiary, it’s important to talk with your doctor to see how Medicare will cover your prosthetics. It’s also worth noting that in order to use your Medicare coverage, you must be receiving healthcare from a Medicare-approved doctor or facility.",
-          "The Medicare guidelines for orthotics and prosthetics are straightforward. Still, we’ll continue to break down some of the most common prosthetic devices covered by Medicare for a clearer idea of how your coverage will work.",
+          "[Original Medicare is made up of Medicare Part A and Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply). Each part of Medicare provides different coverage and requires you to pay a different coinsurance amount depending on your care. Here’s how Medicare covers prosthetics:",
+          "Since each situation is unique to the beneficiary, it’s important to [talk with your doctor to see how Medicare will cover your prosthetics](/faqs/finding-local-doctors-who-accept-medicare). It’s also worth noting that in order to use your Medicare coverage, you must be receiving healthcare from a Medicare-approved doctor or facility.",
+          "The [Medicare guidelines for orthotics and prosthetics](/faqs/durable-medical-equipment) are straightforward. Still, we’ll continue to break down some of the most common prosthetic devices covered by Medicare for a clearer idea of how your coverage will work.",
         ],
       },
       {
@@ -1591,6 +1605,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers prosthetics and more.",
     },
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "medicare-braces-devices", "medicare-coverage-for-diabetic-shoes"],
   },
   {
     slug: "when-should-you-enroll-in-medicare-if-still-working",
@@ -1643,8 +1658,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "When you have health insurance through your employer or your spouse's employer, that coverage must coordinate directly with Medicare. The size of the company is the most critical factor in this coordination.",
-          "If the employer has twenty or more employees, the group health plan pays first, and Medicare pays second. In this specific scenario, you might choose to delay Medicare Part B to save on monthly premiums.",
-          "However, if the company has fewer than twenty employees, Medicare pays first. You must enroll in both Part A and Part B to avoid massive gaps in your healthcare coverage.",
+          "If the employer has twenty or more employees, the group health plan pays first, and Medicare pays second. In this specific scenario, you might choose to [delay Medicare Part B](/faqs/delay-medicare) to save on monthly premiums.",
+          "However, if the company has fewer than twenty employees, Medicare pays first. You must [enroll in both Part A and Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) to avoid massive gaps in your healthcare coverage.",
         ],
         callout: {
           type: "warning",
@@ -1660,7 +1675,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "You have several distinct choices when you turn sixty-five. You can enroll in both Part A and Part B, regardless of your current employment status.",
-          "Because Part A is premium-free for most individuals who have worked at least ten years in the United States, it is generally wise to enroll in Part A immediately. Part A covers inpatient hospital stays and skilled nursing facility care.",
+          "Because Part A is premium-free for most individuals who have worked at least ten years in the United States, it is generally wise to enroll in Part A immediately. [Part A covers inpatient hospital stays and skilled nursing facility care](/blog/how-medicare-handles-skilled-nursing-vs-custodial-care).",
           "You can then decide to safely delay Part B, which covers outpatient medical services, if your current employer coverage is officially considered creditable.",
         ],
       },
@@ -1760,6 +1775,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Ready to Explore Your Medicare Options?",
       text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
     },
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage"],
   },
   {
     slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
@@ -1808,9 +1824,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies by Plan",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Advantage plans are private insurance alternatives to Original Medicare that must cover all the same benefits as Medicare Parts A and B. However, these plans can go beyond the basic requirements by offering supplemental benefits that Original Medicare doesn't cover.",
-          "These extra benefits might include routine dental care, vision services, hearing aids, wellness programs, prescription drug coverage, and even non-medical services like transportation to appointments.",
-          "The key thing to understand is that these benefits aren't standardized. They vary significantly from plan to plan and location to location.",
+          "Medicare Advantage plans are [private insurance alternatives to Original Medicare](/faqs/original-medicare-vs-medicare-advantage) that must cover all the same benefits as Medicare Parts A and B. However, these plans can go beyond the basic requirements by offering supplemental benefits that Original Medicare doesn't cover.",
+          "These extra benefits might include routine dental care, vision services, hearing aids, wellness programs, [prescription drug coverage](/blog/how-is-medicare-part-d-changing-in-2026), and even non-medical services like transportation to appointments.",
+          "The key thing to understand is that these benefits aren't standardized. They [vary significantly from plan to plan and location to location](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans).",
         ],
       },
       {
@@ -1820,8 +1836,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Caps Apply",
         coverageType: "partial",
         paragraphs: [
-          "Supplemental benefits in Medicare Advantage plans typically operate on fixed allowances or spending caps. These limits reset annually or quarterly, depending on the specific benefit.",
-          "For instance, a plan might provide $50 per quarter for over-the-counter products, giving you $200 total per year to spend on eligible items. If you need $75 worth of OTC products in one quarter, you'd pay the extra $25 out of pocket.",
+          "[Supplemental benefits in Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) typically operate on fixed allowances or spending caps. These limits reset annually or quarterly, depending on the specific benefit.",
+          "For instance, a plan might provide $50 per quarter for [over-the-counter products](/faqs/medicare-advantage-over-the-counter-cards), giving you $200 total per year to spend on eligible items. If you need $75 worth of OTC products in one quarter, you'd pay the extra $25 out of pocket.",
           "These allowances are designed to help with routine expenses rather than provide comprehensive coverage.",
         ],
         callout: {
@@ -1937,6 +1953,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Compare Medicare Advantage Plans in Your Area",
       text: "Our licensed agents can help you evaluate extra benefits and find the right Medicare Advantage plan for your needs.",
     },
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-vs-medicare-supplement"],
   },
   {
     slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling",
@@ -1985,7 +2002,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Key Difference",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Supplement plans allow you to see any provider in the United States who accepts Original Medicare. There are no network limitations, and you do not need referrals to see specialists.",
+          "Medicare Supplement plans allow you to see any provider in the United States who accepts [Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply). There are no network limitations, and you do not need referrals to see specialists.",
           "In stark contrast, Medicare Advantage plans typically require you to use a strict network of local doctors and hospitals. If you accidentally step outside of that designated network, you may be fully responsible for the cost of your care.",
         ],
       },
@@ -1996,8 +2013,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Predictability",
         coverageType: "covered",
         paragraphs: [
-          "With a Medicare Supplement plan, you pay a consistent monthly premium, and the plan steps in to cover most, or even all, of your out-of-pocket costs, such as copayments, coinsurance, and deductibles.",
-          "Medicare Advantage plans often feature lower initial monthly premiums, but they come with variable out-of-pocket costs as you utilize services. A sudden illness or hospital stay on an Advantage plan can lead to rapid, unpredictable medical bills until you hit a high out-of-pocket maximum.",
+          "With a Medicare Supplement plan, you pay a consistent monthly premium, and the plan steps in to cover most, or even all, of your out-of-pocket costs, such as [copayments, coinsurance, and deductibles](/faqs/deductible-copay-coinsurance-premium).",
+          "Medicare Advantage plans often feature lower initial monthly premiums, but they come with [variable out-of-pocket costs](/blog/medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses) as you utilize services. A sudden illness or hospital stay on an Advantage plan can lead to rapid, unpredictable medical bills until you hit a high out-of-pocket maximum.",
         ],
         callout: {
           type: "tip",
@@ -2012,8 +2029,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Care Access",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Supplement plans offer robust, comprehensive coverage that functions automatically alongside Original Medicare. You do not have to worry about the insurance company stepping in to deny a required service through prior authorization.",
-          "Conversely, Medicare Advantage plans frequently require you to obtain prior permission from the insurance company before receiving certain treatments, diagnostic tests, or surgeries.",
+          "Medicare Supplement plans offer robust, comprehensive coverage that functions automatically alongside Original Medicare. You do not have to worry about the insurance company stepping in to deny a required service through [prior authorization](/blog/step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know).",
+          "Conversely, Medicare Advantage plans frequently require you to obtain [prior permission from the insurance company](/faqs/medicare-prior-authorization) before receiving certain treatments, diagnostic tests, or surgeries.",
         ],
       },
       {
@@ -2095,6 +2112,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Compare Medicare Supplement Plans in Your Area",
       text: "Our licensed agents can help you compare Medicare Supplement and Medicare Advantage options to find the best fit for your needs.",
     },
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage"],
   },
   {
     slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage",
@@ -2142,9 +2160,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Recommended",
         coverageType: "covered",
         paragraphs: [
-          "Veterans often have access to VA healthcare but enrolling in Medicare Part A and Medicare Part B is still highly recommended by the Department of Veterans Affairs.",
+          "Veterans often have access to [VA healthcare](/blog/understanding-the-intersection-of-tricare-va-benefits-and-medicare) but enrolling in Medicare Part A and Medicare Part B is still highly recommended by the Department of Veterans Affairs.",
           "VA benefits are excellent, but they are generally restricted to VA facilities and specific approved providers. Original Medicare expands your access to the broader civilian healthcare system.",
-          "To maximize this civilian coverage and protect yourself from out-of-pocket costs, you must choose between a Medicare Advantage plan and a Medicare Supplement plan.",
+          "To maximize this civilian coverage and protect yourself from out-of-pocket costs, you must choose between a [Medicare Advantage plan and a Medicare Supplement plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained).",
         ],
       },
       {
@@ -2154,9 +2172,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Limitations",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Advantage, also known as Part C, is an alternative to Original Medicare. These plans often heavily advertise to veterans by offering Part B premium reductions or additional perks like dental and vision benefits.",
-          "However, they come with significant limitations. Medicare Advantage plans utilize strict provider networks, such as Health Maintenance Organizations or Preferred Provider Organizations.",
-          "If you go outside the designated network, your medical care may not be covered. Additionally, you must frequently obtain prior authorization from the insurance company before you can receive certain tests or treatments.",
+          "[Medicare Advantage, also known as Part C](/blog/medicare-parts-a-b-c-and-d-explained-simply), is an alternative to Original Medicare. These plans often heavily advertise to veterans by offering Part B premium reductions or additional perks like dental and vision benefits.",
+          "However, they come with significant limitations. Medicare Advantage plans utilize strict [provider networks, such as Health Maintenance Organizations or Preferred Provider Organizations](/faqs/medicare-hmo-vs-ppo).",
+          "If you go outside the designated network, your medical care may not be covered. Additionally, you must frequently obtain [prior authorization from the insurance company](/blog/step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know) before you can receive certain tests or treatments.",
         ],
         callout: {
           type: "warning",
@@ -2218,6 +2236,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Veterans: Find the Right Medicare Coverage",
       text: "Our licensed agents understand veteran healthcare needs and can help you find the best Medicare Supplement plan to complement your VA benefits.",
     },
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage", "understanding-the-intersection-of-tricare-va-benefits-and-medicare", "how-tricare-works-with-medicare", "medicare-and-va-benefits"],
   },
   {
     slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
@@ -2269,8 +2288,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Hospital Coverage",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Part A covers inpatient hospital stays, skilled nursing facility care, and hospice. Most people do not pay a monthly premium for Part A if they or their spouse paid Medicare taxes for at least 10 years.",
-          "The Part A deductible for each hospital benefit period is $1,736 in 2026, an increase of $60 from $1,676 in 2025. After your deductible is met, you pay $0 for the first 60 days.",
+          "[Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers inpatient hospital stays, skilled nursing facility care, and hospice. Most people do not pay a monthly premium for Part A if they or their spouse paid Medicare taxes for at least 10 years.",
+          "The [Part A deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) for each hospital benefit period is $1,736 in 2026, an increase of $60 from $1,676 in 2025. After your deductible is met, you pay $0 for the first 60 days.",
           "For days 61-90, you pay $434 per day. For Lifetime Reserve Days (91+), you pay $868 per day. Skilled nursing facility coinsurance for days 21-100 is $217 per day.",
         ],
       },
@@ -2281,9 +2300,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Outpatient Coverage",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Part B covers doctor visits, outpatient services, preventive care, and durable medical equipment.",
-          "The 2026 standard Part B premium is $202.90 per month, a significant increase from $185 in 2025. The annual Part B deductible increased from $257 to $283.",
-          "After you meet the $283 deductible, you are typically responsible for 20% of the Medicare-approved amount for most services. This 20% coinsurance has no annual limit.",
+          "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) covers doctor visits, outpatient services, preventive care, and durable medical equipment.",
+          "The 2026 standard [Part B premium](/faqs/medicare-part-b-premiums) is $202.90 per month, a significant increase from $185 in 2025. The annual Part B deductible increased from $257 to $283.",
+          "After you meet the $283 deductible, you are typically responsible for 20% of the Medicare-approved amount for most services. This [20% coinsurance](/faqs/deductible-copay-coinsurance-premium) has no annual limit.",
         ],
         callout: {
           type: "warning",
@@ -2394,6 +2413,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Protect Yourself from Rising Medicare Costs",
       text: "Our licensed agents can help you find a Medicare Supplement plan that covers the gaps and gives you predictable monthly costs.",
     },
+    relatedSlugs: ["medicare-costs-2025", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "new-in-2025-medicares-part-d-payment-plan-explained", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
   },
   {
     slug: "does-medicare-cover-life-alert",
@@ -2465,7 +2485,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "Medicare treats medical alert systems as convenience items rather than medically necessary equipment. Medicare Part B covers durable medical equipment that your doctor prescribes for medical conditions, but personal emergency response systems do not meet these requirements.",
+          "Medicare treats medical alert systems as convenience items rather than medically necessary equipment. Medicare Part B covers [durable medical equipment](/faqs/durable-medical-equipment) that your doctor prescribes for medical conditions, but personal emergency response systems do not meet these requirements.",
           "According to Medicare.gov, which is managed by CMS, items that are primarily for convenience or comfort, such as medical alert systems, are excluded from coverage.",
           "The distinction matters because Medicare focuses on treating medical conditions rather than preventing potential emergencies.",
         ],
@@ -2477,9 +2497,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies by Plan",
         coverageType: "partial",
         paragraphs: [
-          "Your best chance for Medicare-related coverage of medical alert systems comes through Medicare Advantage plans. Many Medicare Advantage insurers offer supplemental benefits that go beyond what Original Medicare covers, and some include medical alert devices as part of their wellness programs.",
+          "Your best chance for Medicare-related coverage of medical alert systems comes through [Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). Many Medicare Advantage insurers offer [supplemental benefits](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) that go beyond what Original Medicare covers, and some include medical alert devices as part of their wellness programs.",
           "These benefits typically work in one of two ways. Some plans provide a specific medical alert device at no extra cost, while others offer a monthly allowance that you can apply toward the device of your choice. The allowance might cover the full monthly cost or provide a partial discount.",
-          "However, coverage varies significantly between plans and geographic areas. A Medicare Advantage plan in Florida might offer comprehensive medical alert benefits, while a similar plan in your state might not include this benefit at all.",
+          "However, coverage varies significantly between plans and geographic areas. A [Medicare Advantage plan](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) in Florida might offer comprehensive medical alert benefits, while a similar plan in your state might not include this benefit at all.",
         ],
       },
 {
@@ -2529,6 +2549,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["does-medicare-cover-medical-alert-systems", "does-medicare-cover-a-shower-transfer-bench", "home-safety-assessment-for-the-elderly", "durable-medical-equipment"],
       },
     ],
     relatedTopics: [
@@ -2634,9 +2655,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "A portion of the payroll taxes you pay throughout your working career are set aside in a trust fund to help pay for Medicare Part A. If you or a spouse contribute to Medicare taxes for a minimum of 40 quarters (10 years) in the U.S., then your Medicare Part A benefits will have a $0 monthly premium.",
+          "A portion of the payroll taxes you pay throughout your working career are set aside in a trust fund to help pay for [Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply). If you or a spouse contribute to Medicare taxes for a minimum of 40 quarters (10 years) in the U.S., then your Medicare Part A benefits will have a $0 monthly premium.",
           "Beneficiaries who contribute 30-39 quarters will have a monthly premium of $311. Those with fewer than 30 quarters of contributions would pay the full premium, which is $565 in 2026.",
-          "While the premium for Part A may be $0 in some cases, you are still responsible for deductibles, copayments and coinsurance when receiving care.",
+          "While the premium for Part A may be $0 in some cases, you are still responsible for [deductibles, copayments and coinsurance](/faqs/deductible-copay-coinsurance-premium) when receiving care.",
         ],
       },
 {
@@ -2646,8 +2667,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Part B is not free. Most Medicare Part B enrollees have a standard monthly premium that can change from year to year. For 2026, the standard monthly premium is $202.90, up from $185 in 2025.",
-          "Premiums reflect income. Therefore, if you’re in a higher income bracket, you will pay more for coverage, this is known as IRMAA.",
+          "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) is not free. Most Medicare Part B enrollees have a standard monthly premium that can change from year to year. For 2026, the standard monthly premium is $202.90, up from $185 in 2025.",
+          "Premiums reflect income. Therefore, if you’re in a higher income bracket, you will pay more for coverage, this is known as [IRMAA](/faqs/irmaa).",
           "In addition to your premium, Medicare Part B also requires you to pay a deductible, copayments, and coinsurance each time you use your benefits.",
         ],
       },
@@ -2676,6 +2697,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-part-b-annual-deductible-explained-what-youll-pay", "what-is-medicare"],
       },
     ],
     relatedTopics: [
@@ -2781,7 +2803,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The following are the top 25 most asked questions by you – our clients- to our licensed Medicare agents. These questions are listed in no particular order.",
+          "The following are the [top 25 most asked questions](/faqs/medicare-questions) by you – our clients- to our licensed Medicare agents. These questions are listed in no particular order.",
           "1.  Who is Eligible for Medicare?",
           "2.  Will I automatically be enrolled in Medicare when I turn 65?",
         ],
@@ -2824,6 +2846,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "turning-65-these-are-the-most-common-medicare-questions-answered", "medicare-enrollment-checklist"],
       },
     ],
     relatedTopics: [
@@ -2929,9 +2952,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "The annual Medicare Part B deductible has increased in 2026 to $283, which is $26 more than last year. The standard Part B premium is increased to $202.90 monthly, which is $17.90 more per month.",
-          "Medicare Part A is does not have a premium for most people. However, the premium does increase each year. In 2026, the Medicare Part A deductible will be $1,736 for each benefit period. That makes the increase $60 more than last year. But, those who buy into Medicare could pay a full Part A premium of $565 each month. And, those who paid 30-39 quarters could pay $311 per month.",
-          "The inpatient hospital benefit period costs are rising slightly for 2026. For days 1-60 beneficiaries will continue to pay $0 each day. Days 61-90 now cost $434 per day. Finally, for days 91 and beyond, you’ll pay $868 coinsurance for each day. Now, skilled nursing facility copayments also saw an increase; days 21-100 cost $217 per day.",
+          "The annual [Medicare Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) has increased in 2026 to $283, which is $26 more than last year. The standard [Part B premium](/faqs/medicare-part-b-premiums) is increased to $202.90 monthly, which is $17.90 more per month.",
+          "Medicare Part A is does not have a premium for most people. However, the premium does increase each year. In 2026, the [Medicare Part A deductible](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes) will be $1,736 for each benefit period. That makes the increase $60 more than last year. But, those who buy into Medicare could pay a full Part A premium of $565 each month. And, those who paid 30-39 quarters could pay $311 per month.",
+          "The [inpatient hospital benefit](/blog/observation-vs-inpatient-why-it-can-affect-your-medicare-bill) period costs are rising slightly for 2026. For days 1-60 beneficiaries will continue to pay $0 each day. Days 61-90 now cost $434 per day. Finally, for days 91 and beyond, you’ll pay $868 coinsurance for each day. Now, skilled nursing facility copayments also saw an increase; days 21-100 cost $217 per day.",
         ],
       },
 {
@@ -2941,7 +2964,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The number of Medicare Advantage plans available to the average beneficiary has increased for 2026. Also, telemedicine is growing in availability. Before we go over all the specifics on new Medicare benefits, let’s take a look at the cost of Medicare in 2026.",
+          "The number of [Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) available to the average beneficiary has increased for 2026. Also, telemedicine is growing in availability. Before we go over all the specifics on new Medicare benefits, let’s take a look at the cost of Medicare in 2026.",
         ],
       },
 {
@@ -2951,7 +2974,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Advantage plans are available across the United States. Beneficiaries can also expect to see more plan options, even for those in rural areas. More options and lower costs are good news to beneficiaries opting for Part C insurance.",
+          "Medicare Advantage plans are available across the United States. Beneficiaries can also expect to see more plan options, even for those in rural areas. More options and lower costs are good news to beneficiaries opting for [Part C insurance](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans).",
         ],
       },
     ],
@@ -2985,6 +3008,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-costs-2025", "medicare-changes"],
       },
     ],
     relatedTopics: [
@@ -3090,8 +3114,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Many disposable adult diaper manufacturers offer assistance programs that provide free or reduced-cost products to eligible individuals. These programs are designed to help those who face financial hardships or have difficulty affording the necessary incontinence supplies. The availability of these programs can vary significantly among different manufacturers, and eligibility criteria and benefits offered may differ from one company to another.",
-          "To access these assistance programs, you should reach out directly to the manufacturers of the adult diapers you use or are interested in. By contacting their customer service or assistance departments, you can inquire about the availability of any financial aid programs, application procedures, and eligibility requirements. Manufacturers often have dedicated resources to help individuals navigate these programs and ensure they receive the support they need.",
+          "Many disposable adult diaper manufacturers offer assistance programs that provide free or reduced-cost products to eligible individuals. These programs are designed to help those who face [financial hardships](/blog/5-government-benefits-for-seniors) or have difficulty affording the necessary incontinence supplies. The availability of these programs can vary significantly among different manufacturers, and eligibility criteria and benefits offered may differ from one company to another.",
+          "To access these [assistance programs](/faqs/medicare-savings-programs), you should reach out directly to the manufacturers of the adult diapers you use or are interested in. By contacting their customer service or assistance departments, you can inquire about the availability of any financial aid programs, application procedures, and eligibility requirements. Manufacturers often have dedicated resources to help individuals navigate these programs and ensure they receive the support they need.",
         ],
       },
     ],
@@ -3108,6 +3132,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["medicare-coverage-for-incontinence-supplies", "durable-medical-equipment", "reduce-medicare-premiums", "medicare-savings-programs"],
       },
     ],
     relatedTopics: [
@@ -3213,9 +3238,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Supplement Plan G pays secondary to Original Medicare. Thus, it will only cover services after Medicare Part A and Part B have paid their portions. However, coverage for anesthesia used in pain management can be tricky. Medicare Supplement Plan G will cover anesthesia costs when they are billed correctly and are associated with a procedure that Medicare covers. This means that if the anesthesia is part of a Medicare-approved treatment, Plan G will generally help cover the associated costs.",
-          "Yet, there are important caveats you should consider. If the anesthesia is billed incorrectly or if it is associated with a procedure that Medicare does not cover, Plan G will not provide coverage. For instance, if the procedure for which anesthesia is being used is considered experimental or not medically necessary under Medicare guidelines, the costs may not be covered by Medicare or Medigap Plan G.",
-          "To avoid unexpected expenses, it is always important to ensure that the anesthesia and related procedures are pre-approved by Medicare and billed correctly. Consulting with your healthcare provider and reviewing the specifics with your insurance carrier can help clarify what costs will be covered under Plan G.",
+          "[Medicare Supplement Plan G](/blog/medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it) pays secondary to [Original Medicare](/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know). Thus, it will only cover services after Medicare Part A and Part B have paid their portions. However, coverage for anesthesia used in pain management can be tricky. Medicare Supplement Plan G will cover anesthesia costs when they are billed correctly and are associated with a procedure that Medicare covers. This means that if the anesthesia is part of a Medicare-approved treatment, Plan G will generally help cover the associated costs.",
+          "Yet, there are important caveats you should consider. If the anesthesia is billed incorrectly or if it is associated with a [procedure that Medicare does not cover](/faqs/does-medicare-cover-anesthesia), Plan G will not provide coverage. For instance, if the procedure for which anesthesia is being used is considered experimental or not medically necessary under Medicare guidelines, the costs may not be covered by Medicare or Medigap Plan G.",
+          "To avoid unexpected expenses, it is always important to ensure that the anesthesia and related procedures are [pre-approved by Medicare](/blog/step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know) and billed correctly. Consulting with your healthcare provider and reviewing the specifics with your insurance carrier can help clarify what costs will be covered under Plan G.",
         ],
       },
     ],
@@ -3232,6 +3257,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
       },
     ],
     relatedTopics: [
@@ -3337,9 +3363,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician. To qualify for coverage, the bench must be prescribed as part of a plan to address a specific medical need, such as assisting with mobility and safety in the shower for individuals with certain impairments. The necessity of the bench must be clearly outlined by the prescribing doctor, who will need to documentation to support the claim. This documentation is crucial for ensuring that the item meets Medicare’s criteria for durable medical equipment (DME) coverage.",
-          "However, coverage can vary depending on the supplier and their adherence to Medicare’s guidelines. It is essential to work with a supplier who is enrolled in Medicare and understands the requirements for DME coverage. They will help ensure that the shower transfer bench is appropriately billed to Medicare, and that all paperwork is completed correctly.",
-          "Additionally, id the transfer bench is covered by Medicare, patients may need to pay certain costs out of pocket, such as deductibles or co-insurance, depending on their specific plan and any additional coverage they may have. It is essential to speak with both your healthcare provider and the supply company to confirm the details of coverage and any potential costs before proceeding with the purchase.",
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) may cover the cost of a shower transfer bench if it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean) and prescribed by a physician. To qualify for coverage, the bench must be prescribed as part of a plan to address a specific medical need, such as assisting with mobility and safety in the shower for individuals with certain impairments. The necessity of the bench must be clearly outlined by the prescribing doctor, who will need to documentation to support the claim. This documentation is crucial for ensuring that the item meets Medicare’s criteria for durable medical equipment (DME) coverage.",
+          "However, coverage can vary depending on the supplier and their adherence to Medicare’s guidelines. It is essential to work with a supplier who is enrolled in Medicare and understands the requirements for [DME coverage](/faqs/durable-medical-equipment). They will help ensure that the shower transfer bench is appropriately billed to Medicare, and that all paperwork is completed correctly.",
+          "Additionally, id the transfer bench is covered by Medicare, patients may need to pay certain costs out of pocket, such as [deductibles or co-insurance](/faqs/deductible-copay-coinsurance-premium), depending on their specific plan and any additional coverage they may have. It is essential to speak with both your healthcare provider and the supply company to confirm the details of coverage and any potential costs before proceeding with the purchase.",
         ],
       },
     ],
@@ -3356,6 +3382,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-bathroom-safety-devices", "how-medicare-handles-skilled-nursing-vs-custodial-care"],
       },
     ],
     relatedTopics: [
@@ -3473,9 +3500,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "Medicare does not cover the costs of fitness programs and gym memberships. Thus, Original Medicare does not cover the cost of SilverSneakers.",
-          "Medicare Advantage plans can offer additional benefits unavailable through Original Medicare. Often, these plans include some type of gym membership or wellness program.",
-          "Medicare Supplement (Medigap) policies do not include coverage for gym memberships. However, some carriers offer these benefits to their enrollees. The availability of these plans also varies by state, so speaking with a licensed agent is the best way to find out if you can enroll in a Medigap policy that includes coverage for a gym membership.",
+          "Medicare does not cover the costs of fitness programs and gym memberships. Thus, [Original Medicare](/faqs/original-medicare-vs-medicare-advantage) does not cover the cost of SilverSneakers.",
+          "[Medicare Advantage plans can offer additional benefits](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) unavailable through Original Medicare. Often, these plans include some type of gym membership or wellness program.",
+          "[Medicare Supplement (Medigap) policies](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) do not include coverage for gym memberships. However, some carriers offer these benefits to their enrollees. The availability of these plans also varies by state, so speaking with a licensed agent is the best way to find out if you can enroll in a Medigap policy that includes coverage for a gym membership.",
         ],
       },
 {
@@ -3525,6 +3552,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["top-free-computer-classes-for-seniors", "5-government-benefits-for-seniors", "discounts-for-seniors"],
       },
     ],
     relatedTopics: [
@@ -3630,8 +3658,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "You can expect to receive a Medicare Annual Notice of Change letter if you are a beneficiary with Medicare Advantage or a Medicare Part D prescription drug plan.",
-          "However, you should not expect to receive an Annual Notice of Change for a Medicare Supplement plan. That is because Medicare Supplement (Medigap) Plans do not incur annual changes to benefits. So, the letter is not necessary.",
+          "You can expect to receive a Medicare Annual Notice of Change letter if you are a beneficiary with [Medicare Advantage](/faqs/original-medicare-vs-medicare-advantage) or a [Medicare Part D prescription drug plan](/blog/how-is-medicare-part-d-changing-in-2026).",
+          "However, you should not expect to receive an Annual Notice of Change for a [Medicare Supplement plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). That is because Medicare Supplement (Medigap) Plans do not incur annual changes to benefits. So, the letter is not necessary.",
         ],
       },
 {
@@ -3642,7 +3670,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "The Medicare Annual Notice of Change letter is something you receive every year from your Medicare Advantage plan or Medicare Part D plan. The ANOC provides all of the information you need on any changes to your plan’s cost and coverage that will take place on January 1st of the following year.",
-          "It’s a good idea to thoroughly review your Annual Notice of Change Medicare updates to see if your current plan will still meet your healthcare needs and budget in the new year.",
+          "It’s a good idea to thoroughly review your [Annual Notice of Change Medicare updates](/blog/the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them) to see if your current plan will still meet your healthcare needs and budget in the new year.",
           "You should contact your plan’s insurance company if you do not receive your ANOC.",
         ],
       },
@@ -3653,7 +3681,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The ANOC letter will include any changes to your Medicare Advantage or Medicare Part D plan. It will outline cost changes and, if applicable, benefit and service area changes.",
+          "The ANOC letter will include any changes to your Medicare Advantage or Medicare Part D plan. It will outline cost changes and, if applicable, [benefit and service area changes](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes).",
           "Those on Medicare Advantage will receive a letter from their private insurance company providing their coverage. The correspondence will include changes in costs, benefits, and any adjustments to the service area.",
           "Private insurers offering Medicare Part D plans must also send their beneficiaries an ANOC letter. For Medicare Part D prescription drug plans, the ANOC will outline any cost, service area, and formulary changes.",
         ],
@@ -3672,6 +3700,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor"],
       },
     ],
     relatedTopics: [
@@ -3777,7 +3806,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The Medicare Give Back Benefit reduces your Part B premiums. This is a great way to lower your healthcare costs if you are a senior on Medicare. Enrolling in a Medicare Advantage plan that offers this benefit means your carriers pay either a part of or the entire premium for your Medicare Part B each month.",
+          "The Medicare Give Back Benefit reduces your Part B premiums. This is a great way to lower your healthcare costs if you are a senior on Medicare. Enrolling in a [Medicare Advantage plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) that offers this benefit means your carriers pay either a part of or the entire premium for your Medicare Part B each month.",
         ],
       },
 {
@@ -3787,7 +3816,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Yes, Medicare Part B Premium Reduction is another term for the Medicare Give Back Benefit. Depending on your region, you may see slightly different names for the program, but just know that they are all Medicare Advantage plans. The benefit functions the same across plans, no matter what it’s called.",
+          "Yes, Medicare Part B Premium Reduction is another term for the Medicare Give Back Benefit. Depending on your region, you may see slightly different names for the program, but just know that they are all [Medicare Advantage plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans). The benefit functions the same across plans, no matter what it’s called.",
         ],
       },
 {
@@ -3797,7 +3826,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The Medicare Part B Give Back Program is only available through Medicare Advantage plans. Private insurance companies provide these plans, and their availability can change from carrier to carrier. The best way to identify which plans offer the benefit is to speak with a licensed Medicare agent about your healthcare needs.",
+          "The Medicare Part B Give Back Program is only available through [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included). Private insurance companies provide these plans, and their availability can change from carrier to carrier. The best way to identify which plans offer the benefit is to speak with a licensed Medicare agent about your healthcare needs.",
         ],
       },
     ],
@@ -3814,6 +3843,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "reduce-medicare-premiums", "irmaa"],
       },
     ],
     relatedTopics: [
@@ -3919,7 +3949,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "**Excerpt:** Medicare Advantage plans are not for everyone. But are they truly bad? When you enroll in coverage, there are several factors to consider such as costs, availability, and the plans network.",
+          "**Excerpt:** [Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) are not for everyone. But are they truly bad? When you enroll in coverage, there are several factors to consider such as costs, availability, and the plans network.",
         ],
       },{
         planName: "Full Article Content:",
@@ -3928,8 +3958,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Many seniors turn to Medicare Advantage plans as an alternative to traditional Medicare as healthcare costs continue to rise across the country. However, despite the promises of these plans, they often come with a host of downsides that some overlook. Medicare Advantage plans may include additional benefits like prescription drug coverage, care for vision, dental, hearing aids, and maybe even a free membership to the gym. Yet, people often complain about or criticize these plans. So, what are the disadvantages of Medicare Advantage? Why are Medicare Advantage plans bad?",
-          "Misinformation and a lack of understanding can lead to Medicare Advantage nightmares. So, we are here to help clear the air. Medicare Advantage plans are not bad in every situation. However, they are certainly not a good fit for everyone. You should only enroll in Medicare Advantage coverage if it is the best fit for your unique situation. Below, we clarify why these seemingly too-good-to-be-true plans have a less-than-stellar reputation and answer the much-anticipated question of why Medicare Advantage plans are bad.",
+          "Many seniors turn to Medicare Advantage plans as an alternative to [traditional Medicare](/faqs/original-medicare-vs-medicare-advantage) as healthcare costs continue to rise across the country. However, despite the promises of these plans, they often come with a host of downsides that some overlook. Medicare Advantage plans may include additional benefits like prescription drug coverage, care for vision, dental, hearing aids, and maybe even a free membership to the gym. Yet, people often complain about or criticize these plans. So, what are the disadvantages of Medicare Advantage? Why are Medicare Advantage plans bad?",
+          "Misinformation and a lack of understanding can lead to Medicare Advantage nightmares. So, we are here to help clear the air. [Medicare Advantage plans are not bad in every situation](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). However, they are certainly not a good fit for everyone. You should only enroll in Medicare Advantage coverage if it is the best fit for your unique situation. Below, we clarify why these seemingly too-good-to-be-true plans have a less-than-stellar reputation and answer the much-anticipated question of why Medicare Advantage plans are bad.",
         ],
       },{
         planName: "Why Do Doctors Not Like Medicare Advantage Plans?",
@@ -3987,6 +4017,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-advantage-denied-claims-crisis"],
       },
     ],
     relatedTopics: [
@@ -4155,6 +4186,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan"],
       },
     ],
     relatedTopics: [
@@ -4260,7 +4292,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "**Summary:** Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a qualifying life event to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage. **Estimated Read Time:** 16 mins",
+          "**Summary:** Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a [qualifying life event](/faqs/special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage) to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage. **Estimated Read Time:** 16 mins",
         ],
       },{
         planName: "Table of Contents:",
@@ -4280,7 +4312,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Your Medicare Special Enrollment Period, also known as a Special Election Period, is an opportunity to enroll in or change your Medicare coverage when you are experiencing a qualifying life event. While a Medicare SEP is allowed for all beneficiaries, you must have coverage that qualifies and be undergoing a qualifying life event.",
+          "Your Medicare Special Enrollment Period, also known as a [Special Election Period](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up), is an opportunity to enroll in or change your Medicare coverage when you are experiencing a qualifying life event. While a Medicare SEP is allowed for all beneficiaries, you must have coverage that qualifies and be undergoing a qualifying life event.",
           "For example, if you decide that you are unhappy with your [Medicare Part C]() coverage and want to switch, but it’s outside of the [Medicare Annual Enrollment Period](), you’ll have to wait until the fall. However, if you are moving to a new city that requires you to enroll in a different plan option, you’d be given the opportunity to make changes because of Special Enrollment Period Medicare provides.",
           "Everyone experiences different life changes and shouldn’t have to forgo healthcare coverage because of them. Again, you’ll need to undergo a qualifying event, but if you do, you’ll receive a Special Enrollment Period for Medicare. Starting in 2024, there are even more potential SEPs that will become available.",
         ],
@@ -4291,7 +4323,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Special Enrollment Periods come when a qualifying life event allows you to make changes to your Medicare Advantage and Medicare Part D prescription drug coverage. Here are the most common examples that qualify under Medicare special enrollment qualifications:",
+          "Medicare Special Enrollment Periods come when a qualifying life event allows you to make changes to your [Medicare Advantage and Medicare Part D](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) prescription drug coverage. Here are the most common examples that qualify under Medicare special enrollment qualifications:",
         ],
       },{
         planName: "You’ve Moved to an Area Your Plan Doesn’t Offer Coverage",
@@ -4300,7 +4332,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The SEP Medicare provides here works in a few ways. Those who notify their carrier before moving will receive a Special Enrollment Period that starts the month before they make the move and will last for two months following the completion of the move.",
+          "The SEP Medicare provides here works in a few ways. Those who notify their carrier before [moving](/blog/what-happens-to-your-medicare-when-you-move-states) will receive a Special Enrollment Period that starts the month before they make the move and will last for two months following the completion of the move.",
           "If you wait to tell your carrier until after you move, your SEP begins the month your carrier was notified and will last two more months afterward. Anyone who doesn’t enroll in a new Medicare Advantage or Part D plan using an SEP will rely on Original Medicare by default.",
         ],
       },{
@@ -4310,7 +4342,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "If you are no longer receiving coverage from your place of work, here’s how your Special Enrollment Period for Medicare works:",
+          "If you are [no longer receiving coverage from your place of work](/blog/transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide), here’s how your Special Enrollment Period for Medicare works:",
           "For Part B coverage, you’ll have eight months following the end of your employer’s plan or your time of employment ends.",
           "For beneficiaries with Medicare Advantage or Part D plans, you’ll have an SEP for two months following the conclusion of your coverage.",
         ],
@@ -4329,6 +4361,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
       },
     ],
     relatedTopics: [
@@ -4435,8 +4468,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "**URL:** https://www.medicarefaq.com/faqs/medicare-advantage-open-enrollment-period/",
-          "**Summary:** The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have Medicare Advantage plans can make one change to their coverage. The MAOEP is not the time to enroll in Medicare Advantage for the first time. Be sure to use this period to review your plan’s network, coverage, and formulary when applicable to ensure that your coverage meets your healthcare needs. Estimated Read Time: 9 mins",
-          "If you are unhappy with your current Medicare Advantage plan, the Medicare Advantage Open Enrollment Period (MAOEP) is an annual window that allows you to make a one-time change to your existing Medicare Advantage coverage.",
+          "**Summary:** The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have [Medicare Advantage plans](/faqs/best-medicare-advantage-plans) can make one change to their coverage. The MAOEP is not the time to enroll in Medicare Advantage for the first time. Be sure to use this period to review your plan’s network, coverage, and formulary when applicable to ensure that your coverage meets your healthcare needs. Estimated Read Time: 9 mins",
+          "If you are unhappy with your current Medicare Advantage plan, the Medicare Advantage Open Enrollment Period (MAOEP) is an annual window that allows you to make a one-time change to your existing [Medicare Advantage coverage](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included).",
         ],
       },{
         planName: "Do you have to go through underwriting if you switch during the MAOEP period?",
@@ -4445,7 +4478,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Betsy, you will never have to go through underwriting for a Medicare Advantage plan. However, if you leave Medicare Advantage during MAOEP, and wish to enroll in a Medicare Supplement plan, you will need to go through underwriting to enroll in a Medigap plan.",
+          "Betsy, you will never have to go through underwriting for a Medicare Advantage plan. However, if you leave Medicare Advantage during MAOEP, and wish to enroll in a [Medicare Supplement plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), you will need to go through underwriting to enroll in a Medigap plan.",
         ],
       },{
         planName: "Can I change my Part D plan during this period? I am on Original Medicare with a Part D drug plan that is not what I thought it was, based on the numbers I saw on medicare.gov.",
@@ -4454,7 +4487,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Hello Robert, unfortunately unless you have a special enrollment period, you are not eligible to change your Medicare Part D plan during this time. The annual Medicare Part D enrollment period is October 15-December 7.",
+          "Hello Robert, unfortunately unless you have a special enrollment period, you are not eligible to change your Medicare Part D plan during this time. The annual [Medicare Part D enrollment period](/blog/how-is-medicare-part-d-changing-in-2026) is October 15-December 7.",
         ],
       },{
         planName: "If I want to disenroll from a MA plan and go back to original medicare, do I simply call to cancel my MA and choose a PDP?",
@@ -4463,7 +4496,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Tina, from January 1 through March 31, you can leave your Medicare Advantage plan and return to Original Medicare. This time is known as the Medicare Advantage Open Enrollment Period. To review your options, complete our online rate form to speak with a licensed agent.",
+          "Tina, from January 1 through March 31, you can leave your Medicare Advantage plan and return to [Original Medicare](/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know). This time is known as the Medicare Advantage Open Enrollment Period. To review your options, complete our online rate form to speak with a licensed agent.",
         ],
       },{
         planName: "I have Medicare Advantage with Kaiser, would like to switch to BLUESHIELD Medigap PPO, can I do it on my Birthday? Or Only bebfore December 7th?",
@@ -4498,6 +4531,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["medicare-annual-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
       },
     ],
     relatedTopics: [
@@ -4635,7 +4669,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The Federal Employees Health Benefits Program, or FEHB, is the world’s largest employer-sponsored group health insurance program. This coverage is for federal workers and retirees, as well as their families and spouses. Through the FEHB, federal employees (retired or currently employed) can choose to enroll in a variety of health insurance plans.",
+          "The [Federal Employees Health Benefits Program](/blog/understanding-how-medicare-works-with-employer-health-plans), or FEHB, is the world’s largest employer-sponsored group health insurance program. This coverage is for federal workers and retirees, as well as their families and spouses. Through the FEHB, federal employees (retired or currently employed) can choose to enroll in a variety of health insurance plans.",
           "Individuals who enroll in a health insurance plan through the FEHB program receive a government contribution to their plan costs and can have their coverage continue into retirement. Additionally, those participating in the FEHB program can also change their coverage annually during the Federal Benefits Open Season (occurs in November and December).",
           "Since FEHB plan coverage can carry into retirement, you may be wondering: what happens when I become eligible for Medicare if I have coverage through the FEHB program? Below, we’ll take a closer look at your options regarding coverage and some considerations to make before making any changes.",
         ],
@@ -4676,6 +4710,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["medicare-and-employer-coverage", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
       },
     ],
     relatedTopics: [
@@ -4803,7 +4838,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "If you are approaching Medicare eligibility and wish to delay Medicare Part B without penalty, you must have creditable health coverage. Some of the most common types of creditable coverage include:",
+          "If you are approaching Medicare eligibility and wish to [delay Medicare Part B without penalty](/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines), you must have creditable health coverage. Some of the most common types of creditable coverage include:",
           "[Large employer group plans]()",
           "Union-sponsored health plans",
         ],
@@ -4814,7 +4849,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "When it comes to creditable coverage, not all plan types qualify. You will want to be sure that your health care plan is considered creditable for Medicare Part B when delaying Part B coverage.",
+          "When it comes to creditable coverage, not all plan types qualify. You will want to be sure that your health care plan is considered [creditable for Medicare Part B](/faqs/when-should-you-enroll-in-medicare-if-still-working) when delaying Part B coverage.",
           "Examples of coverage that is not creditable for Medicare Part B include:",
           "TRICARE",
         ],
@@ -4854,6 +4889,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["what-is-medicare-creditable-coverage", "medicare-and-employer-coverage", "medicare-cobra", "when-should-you-enroll-in-medicare-if-still-working"],
       },
     ],
     relatedTopics: [
@@ -4970,9 +5006,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The Medicare Part D late enrollment penalty is an additional cost on top of your monthly Medicare Part D premium. This extra charge is based on the current year’s national base Medicare Part D premium.",
-          "The Medicare Part D penalty amount is 1% of the national base premium for every month you went without creditable drug coverage when first eligible for Medicare. The penalty is in place to encourage beneficiaries to enroll in a Medicare Part D plan if they lack creditable coverage, meaning drug coverage at least as good as a Medicare drug plan.",
-          "When you first become eligible for Medicare, you receive an Initial Enrollment Period to sign up for Original Medicare. Once you have Original Medicare, you are eligible for Medicare Part D.",
+          "The Medicare Part D late enrollment penalty is an additional cost on top of your monthly [Medicare Part D premium](/blog/medicare-costs-2025). This extra charge is based on the current year’s national base Medicare Part D premium.",
+          "The Medicare Part D penalty amount is 1% of the national base premium for every month you went without [creditable drug coverage](/faqs/medicare-creditable-coverage) when first eligible for Medicare. The penalty is in place to encourage beneficiaries to enroll in a Medicare Part D plan if they lack creditable coverage, meaning drug coverage at least as good as a Medicare drug plan.",
+          "When you first become eligible for Medicare, you receive an [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) to sign up for Original Medicare. Once you have Original Medicare, you are eligible for Medicare Part D.",
         ],
       },{
         planName: "After your Initial Enrollment Period, you will pay the Medicare Part D late penalty if you go without one of these types of drug plans for 63 days or more:",
@@ -4982,7 +5018,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "A Medicare Part D plan",
-          "Prescription coverage through Medicare Part C – a Medicare Advantage Prescription Drug (MAPD) plan",
+          "Prescription coverage through Medicare Part C – a [Medicare Advantage Prescription Drug (MAPD) plan](/faqs/mapd-vs-part-d)",
           "Another healthcare plan that includes prescription drug coverage that is at least as good as the coverage Medicare provides",
         ],
       },{
@@ -4992,7 +5028,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "If you do not enroll in Medicare Part D when you first become eligible, and you don’t have other creditable drug coverage, you may face a late enrollment penalty.",
+          "If you do not enroll in Medicare Part D when you first become eligible, and you don’t have other creditable drug coverage, you may face a [late enrollment penalty](/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines).",
         ],
       },{
         planName: "Is There a Medicare Part D Penalty Under 65?",
@@ -5031,6 +5067,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["medicare-part-b-late-enrollment-penalty", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "how-is-medicare-part-d-changing-in-2026"],
       },
     ],
     relatedTopics: [
@@ -5136,7 +5173,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "A Medicare Supplement cost-sharing plan can be an excellent alternative for those looking to avoid higher premiums. Also known as Medigap plans, there are 12 different lettered options, but when it comes to Medicare cost-sharing plans, you’ll typically enjoy a much lower premium. Medicare Supplement cost-sharing plans include Plan L, Plan K, and Plan M. Learn more about each option, if you can benefit from them, and how to sign up.",
+          "A [Medicare Supplement](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cost-sharing plan can be an excellent alternative for those looking to avoid higher premiums. Also known as Medigap plans, there are 12 different lettered options, but when it comes to Medicare cost-sharing plans, you’ll typically enjoy a much lower premium. Medicare Supplement cost-sharing plans include Plan L, Plan K, and Plan M. Learn more about each option, if you can benefit from them, and how to sign up.",
         ],
       },{
         planName: "What is a Medicare Cost Sharing Plan?",
@@ -5156,9 +5193,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "The two most popular Medicare cost-sharing plans are Medicare Supplement Plan L and Plan K. Both have identical benefits but different cost-sharing levels. Each also has an annual out-of-pocket maximum, which protects you from outrageous medical bills by covering 100% of your healthcare costs once the maximum is met.",
-          "Everyone’s healthcare and budget needs will differ, and one of the great things about Medigap plans is that there are varying levels of benefits to help you find benefits that match your individual needs.",
-          "While Medicare cost-sharing plans aren’t included in the best Medicare Supplement plans, they still offer value. Not all carriers offer every plan option, but if you’re looking for a Medigap Plan K or Plan L, speak to a licensed insurance agent that represents the top-rated insurance companies in your area.",
+          "The two most popular Medicare cost-sharing plans are [Medicare Supplement Plan L and Plan K](/blog/exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g). Both have identical benefits but different cost-sharing levels. Each also has an annual out-of-pocket maximum, which protects you from outrageous medical bills by covering 100% of your healthcare costs once the maximum is met.",
+          "Everyone’s healthcare and budget needs will differ, and one of the great things about Medigap plans is that there are [varying levels of benefits](/faqs/how-to-choose-a-medicare-supplement-plan-that-fits-your-budget) to help you find benefits that match your individual needs.",
+          "While Medicare cost-sharing plans aren’t included in the best Medicare Supplement plans, they still offer value. Not all carriers offer every plan option, but if you’re looking for a Medigap Plan K or Plan L, speak to a [licensed insurance agent](/faqs/medicare-agents-near-me) that represents the top-rated insurance companies in your area.",
         ],
       },{
         planName: "Plan L Cost-Sharing",
@@ -5208,6 +5245,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket", "what-is-medicare-cost-sharing", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling"],
       },
     ],
     relatedTopics: [
@@ -5313,7 +5351,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Original Medicare coverage helps alleviate your healthcare costs. However, it does not cover everything. When enrolling in Original Medicare, it is essential to review your spending limits to understand if your coverage is right for your budget. For many, it may come as a surprise that Original Medicare (Medicare Part A and Part B) does not have a maximum out-of-pocket limit.",
+          "[Original Medicare coverage](/faqs/original-medicare-vs-medicare-advantage) helps alleviate your healthcare costs. However, it does not cover everything. When enrolling in Original Medicare, it is essential to review your spending limits to understand if your coverage is right for your budget. For many, it may come as a surprise that Original Medicare (Medicare Part A and Part B) does not have a maximum out-of-pocket limit.",
           "Find Medicare Plans in 3 Easy Steps",
           "Let us help you navigate your Medicare journey",
         ],
@@ -5346,7 +5384,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "Medicare Advantage plans allow the costs for the following services to count towards the plan’s maximum out-of-pocket:",
+          "[Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) allow the costs for the following services to count towards the plan’s maximum out-of-pocket:",
           "Doctors’ visits",
           "Emergency room visits",
         ],
@@ -5386,6 +5424,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["deductible-copay-coinsurance-premium", "medicare-cost-sharing-plans", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses"],
       },
     ],
     relatedTopics: [
@@ -5510,6 +5549,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-special-enrollment-periods", "medicare-advantage-open-enrollment-period", "medicare-general-enrollment-period", "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained"],
       },
     ],
     relatedTopics: [
@@ -5517,16 +5557,22 @@ export const coverageArticles: CoverageArticleData[] = [
         title: "Dental Implants",
         description: "Learn more about dental implants",
         slug: "does-medicare-cover-dental-implants",
+        relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-hearing-aids", "what-dental-expenses-does-medicare-cover", "dental-and-vision-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
+        relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-hearing-aids", "what-dental-expenses-does-medicare-cover", "dental-and-vision-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
       },
 {
         title: "Glasses",
         description: "Learn more about glasses",
         slug: "does-medicare-cover-glasses",
+        relatedSlugs: ["does-medicare-cover-hearing-aids", "does-medicare-cover-dental-implants", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors"],
+        relatedSlugs: ["does-medicare-cover-hearing-aids", "does-medicare-cover-dental-implants", "dental-and-vision-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options", "medicare-vision-care-coverage"],
       },
 {
         title: "Hearing Aids",
         description: "Learn more about hearing aids",
         slug: "does-medicare-cover-hearing-aids",
+        relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-dental-implants", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors"],
+        relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-dental-implants", "dental-and-vision-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options", "what-dental-expenses-does-medicare-cover"],
       },
 {
         title: "Sleep Apnea",
@@ -5543,5 +5589,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ctaBanner: {
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+        relatedSlugs: ["does-medicare-cover-copd", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "medicare-preventive-services", "does-medicare-cover-medical-alert-systems"],
+        relatedSlugs: ["medicare-preventive-services", "medicare-parts-a-b-c-and-d-explained-simply", "does-medicare-cover-mental-health", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-cover-my-surgery"],
     },
   },];
