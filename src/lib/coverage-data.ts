@@ -619,7 +619,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-sleep-apnea.jpg",
     },
     title: "Does Medicare Cover Sleep Apnea",
-    subtitle: "Sleep apnea is a common condition with which many people struggle. Medicare Part B provides coverage for sleep apnea, including doctor visits, sleep studies, and equipment to treat the disorder when a",
+    subtitle: "Medicare Part B covers sleep studies and CPAP/BiPAP equipment for obstructive sleep apnea when medically necessary and ordered by a Medicare-enrolled provider. After meeting the Part B deductible, Medicare pays 80% of approved costs. A Medigap plan generally covers the remaining 20% coinsurance.",
     category: "Medicare Coverage",
     dateUpdated: "April 13, 2026",
     author: {
