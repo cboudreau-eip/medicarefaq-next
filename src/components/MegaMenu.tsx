@@ -19,7 +19,7 @@ function MegaMenuPanel({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -4 }}
       transition={{ duration: 0.15, ease: "easeOut" }}
-      className="absolute top-full left-0 w-full bg-white border-b border-[#E5E7EB] shadow-lg z-50"
+      className="absolute top-full left-1/2 -translate-x-1/2 w-[min(90vw,1200px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
     >
       <div className="container py-5">
         <div className="flex gap-6">
