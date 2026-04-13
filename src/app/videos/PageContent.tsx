@@ -242,10 +242,26 @@ export default function Videos() {  useEffect(() => {
                     rel="noopener noreferrer"
                     className="group bg-white border border-slate-200 rounded-xl overflow-hidden hover:border-indigo-200 hover:shadow-md transition-all"
                   >
-                    {/* Thumbnail placeholder */}
-                    <div className="relative aspect-video bg-gradient-to-br from-slate-100 to-slate-200 flex items-center justify-center">
-                      <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center group-hover:bg-red-700 transition-colors shadow-lg">
-                        <Play className="w-6 h-6 text-white ml-0.5" />
+                    {/* YouTube Thumbnail */}
+                    <div className="relative aspect-video bg-slate-900 flex items-center justify-center overflow-hidden">
+                      <img
+                        src={`https://img.youtube.com/vi/${vid.youtubeId}/maxresdefault.jpg`}
+                        alt={vid.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                        onError={(e) => {
+                          // Fall back to hqdefault if maxresdefault isn't available
+                          const target = e.target as HTMLImageElement;
+                          if (target.src.includes('maxresdefault')) {
+                            target.src = `https://img.youtube.com/vi/${vid.youtubeId}/hqdefault.jpg`;
+                          }
+                        }}
+                      />
+                      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-14 h-14 bg-red-600/90 rounded-full flex items-center justify-center group-hover:bg-red-600 group-hover:scale-110 transition-all shadow-lg">
+                          <Play className="w-6 h-6 text-white ml-0.5" />
+                        </div>
                       </div>
                       <div className="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-2 py-0.5 rounded">
                         {vid.duration}
