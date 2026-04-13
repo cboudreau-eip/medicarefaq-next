@@ -1,21 +1,21 @@
 "use client";
 
-import { Star, MapPin, Users, FileCheck, BookOpen } from "lucide-react";
+import { Star, MapPin, Users, FileCheck } from "lucide-react";
 import { motion } from "framer-motion";
 
 const trustItems = [
   { icon: Star, label: "BBB A+ Rated", sublabel: "Since 2015" },
   { icon: MapPin, label: "Licensed in All 50 States", sublabel: "Full national coverage" },
-  { icon: Users, label: "60,000+ Clients Helped", sublabel: "Medicare guidance" },
+  { icon: Users, label: "1,000,000+ Clients Helped", sublabel: "Medicare guidance" },
   { icon: FileCheck, label: "Editorially Reviewed", sublabel: "By Medicare professionals" },
-  { icon: BookOpen, label: "600+ Pages of Content", sublabel: "Comprehensive library" },
+
 ];
 
 export default function TrustBar() {
   return (
     <section className="bg-white border-b border-[#E5E7EB]">
       <div className="container py-6">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {trustItems.map((item, index) => {
             const Icon = item.icon;
             return (

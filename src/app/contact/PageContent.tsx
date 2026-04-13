@@ -110,7 +110,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
           <div className="flex flex-wrap items-center gap-6 text-sm text-slate-400">
             <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-teal-400" /> Licensed in All 50 States</span>
             <span className="flex items-center gap-1.5"><Star className="w-4 h-4 text-teal-400" /> BBB A+ Rated</span>
-            <span className="flex items-center gap-1.5"><Users className="w-4 h-4 text-teal-400" /> 60,000+ Clients Helped</span>
+            <span className="flex items-center gap-1.5"><Users className="w-4 h-4 text-teal-400" /> 1,000,000+ Clients Helped</span>
           </div>
         </div>
       </section>

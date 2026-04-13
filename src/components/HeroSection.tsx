@@ -1,15 +1,15 @@
 "use client";
 
-import { ArrowRight, Star, MapPin, Users, FileCheck, BookOpen } from "lucide-react";
+import { ArrowRight, Star, MapPin, Users, FileCheck } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
 const trustItems = [
   { icon: Star, label: "BBB A+ Rated", sublabel: "Since 2015" },
   { icon: MapPin, label: "Licensed in All 50 States", sublabel: "Full national coverage" },
-  { icon: Users, label: "60,000+ Clients Helped", sublabel: "Medicare guidance" },
+  { icon: Users, label: "1,000,000+ Clients Helped", sublabel: "Medicare guidance" },
   { icon: FileCheck, label: "Editorially Reviewed", sublabel: "By Medicare professionals" },
-  { icon: BookOpen, label: "600+ Pages of Content", sublabel: "Comprehensive library" },
+
 ];
 
 const HERO_BG =
@@ -37,7 +37,7 @@ export default function HeroSection() {
           >
             <span className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm text-white/90 text-sm font-medium px-4 py-1.5 rounded-full mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-[#0D9488]" />
-              Trusted by 60,000+ clients nationwide
+              Trusted by 1,000,000+ clients nationwide
             </span>
           </motion.div>
           <motion.h1

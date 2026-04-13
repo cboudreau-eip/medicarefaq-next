@@ -991,7 +991,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                       },
                       {
                         icon: Users,
-                        label: "60,000+ Clients Served",
+                        label: "1,000,000+ Clients Served",
                       },
                       {
                         icon: Star,
