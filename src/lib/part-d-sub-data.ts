@@ -155,6 +155,7 @@ export const partDSubPages: PartDSubPage[] = [
     relatedLinks: [
       { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
       { label: "SilverScript Plans", href: "/original-medicare/medicare-parts/medicare-part-d/silverscript" },
+      { label: "Mutual of Omaha Part D Plans", href: "/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha" },
       { label: "Part D Late Enrollment Penalty", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty" },
     ],
   },

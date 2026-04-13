@@ -80,6 +80,8 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     relatedLinks: [
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
+      { label: "Medicare Advantage HMO Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo" },
+      { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
       { label: "Medicare Advantage Enrollment Periods", path: "/medicare-part-c/medicare-advantage-enrollment-periods" },

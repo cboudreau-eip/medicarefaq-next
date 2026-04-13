@@ -94,6 +94,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       { label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver" },
       { label: "What Are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
       { label: "What Is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
+      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
     ],
   },
   {

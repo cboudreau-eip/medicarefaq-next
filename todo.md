@@ -59,4 +59,16 @@
 - [x] Build how-can-seniors-save-on-prescription-drug-costs blog post
 - [x] Create dynamic robots.ts for proper robots.txt with sitemap declaration
 - [x] Fix blog sitemap to include all individual blog post URLs
-- [ ] Set logo.png as site favicon (favicon.ico, apple-touch-icon)
+- [x] Set logo.png as site favicon (favicon.ico, apple-touch-icon)
+
+## UI Adjustments
+- [ ] Reduce mega menu dropdown height — tighten padding/spacing (~20-30% reduction) starting with Medicare Plans
+- [ ] Apply mega menu height reduction globally to all menus
+- [ ] Make mega menu dropdown not full-width — constrain to content container width, centered under nav
+- [ ] Fix journey button subtitle readability — stack text with full white subtitle and subtle divider (Option C)
+
+## Orphan Page Fixes
+- [x] Rebuild /faqs index page — Option A: all 250 articles with category filter pills
+- [ ] Fix orphaned non-FAQ pages (mutual-of-omaha, role-of-a-caregiver, MA plan types)
+- [ ] Update relatedSlugs to point more links at 72 orphaned FAQ articles
+- [ ] Consolidate 18 FAQ categories into 6-7 parent groups for cleaner filter pills

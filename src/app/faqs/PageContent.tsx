@@ -16,16 +16,13 @@ import {
   Shield,
   ChevronRight,
   HelpCircle,
-  Stethoscope,
   Heart,
   Pill,
   Eye,
   DollarSign,
   ClipboardList,
-  FileText,
   BookOpen,
   Accessibility,
-  Activity,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { coverageArticles } from "@/lib/coverage-data";
@@ -67,46 +64,80 @@ const allArticles: FAQCard[] = [
   })),
 ];
 
-/* ─── Category colour & icon map ─── */
-const categoryMeta: Record<string, { color: string; icon: typeof Shield }> = {
-  "Medicare Coverage": { color: "#059669", icon: Shield },
-  "General Medicare": { color: "#1B2A4A", icon: BookOpen },
-  "Medicare FAQ": { color: "#4B5563", icon: HelpCircle },
-  "Coverage": { color: "#059669", icon: Shield },
-  "Medicare Supplements": { color: "#7C3AED", icon: Heart },
-  "Medicare Supplement (Medigap)": { color: "#7C3AED", icon: Heart },
-  "Medicare Advantage": { color: "#D97706", icon: Activity },
-  "Medicare Enrollment": { color: "#2563EB", icon: ClipboardList },
-  "Enrollment": { color: "#2563EB", icon: ClipboardList },
-  "Prescription Drugs": { color: "#DC2626", icon: Pill },
-  "Medicare Part D": { color: "#DC2626", icon: Pill },
-  "Dental, Vision & Hearing": { color: "#0891B2", icon: Eye },
-  "Medicaid & Assistance": { color: "#059669", icon: Accessibility },
-  "Medicare Part B": { color: "#2563EB", icon: FileText },
-  "Medicare Part A": { color: "#1B2A4A", icon: FileText },
-  "Costs & Savings": { color: "#D97706", icon: DollarSign },
-  "Medicare & Disability": { color: "#7C3AED", icon: Accessibility },
-};
+/* ─── Consolidated parent category groups ─── */
+const CATEGORY_GROUPS: {
+  label: string;
+  color: string;
+  icon: typeof Shield;
+  matches: string[];
+}[] = [
+  {
+    label: "Coverage",
+    color: "#059669",
+    icon: Shield,
+    matches: ["Medicare Coverage", "Coverage", "General Medicare", "Medicare FAQ"],
+  },
+  {
+    label: "Plans & Supplements",
+    color: "#7C3AED",
+    icon: Heart,
+    matches: ["Medicare Supplements", "Medicare Supplement (Medigap)", "Medicare Advantage"],
+  },
+  {
+    label: "Enrollment",
+    color: "#2563EB",
+    icon: ClipboardList,
+    matches: ["Medicare Enrollment", "Enrollment"],
+  },
+  {
+    label: "Costs & Drugs",
+    color: "#DC2626",
+    icon: DollarSign,
+    matches: ["Prescription Drugs", "Medicare Part D", "Costs & Savings"],
+  },
+  {
+    label: "Dental, Vision & Hearing",
+    color: "#0891B2",
+    icon: Eye,
+    matches: ["Dental, Vision & Hearing"],
+  },
+  {
+    label: "Special Situations",
+    color: "#6B7280",
+    icon: Accessibility,
+    matches: ["Medicaid & Assistance", "Medicare & Disability", "Medicare Part A", "Medicare Part B"],
+  },
+];
 
-function getCategoryColor(name: string) {
-  return categoryMeta[name]?.color || "#6B7280";
+/* Map raw category → parent group label */
+function getGroupLabel(rawCategory: string): string {
+  for (const group of CATEGORY_GROUPS) {
+    if (group.matches.includes(rawCategory)) return group.label;
+  }
+  return "Coverage"; // fallback
 }
 
-function getCategoryIcon(name: string) {
-  return categoryMeta[name]?.icon || HelpCircle;
+function getGroupColor(groupLabel: string): string {
+  if (groupLabel === "All Topics") return "#1B2A4A";
+  return CATEGORY_GROUPS.find((g) => g.label === groupLabel)?.color || "#6B7280";
 }
 
-/* ─── Derive unique categories with counts ─── */
-function deriveCategories(articles: FAQCard[]) {
-  const cats = new Map<string, number>();
+function getGroupIcon(groupLabel: string) {
+  return CATEGORY_GROUPS.find((g) => g.label === groupLabel)?.icon || HelpCircle;
+}
+
+/* ─── Build filter pill list with counts ─── */
+function buildFilterPills(articles: FAQCard[]) {
+  const counts = new Map<string, number>();
   for (const a of articles) {
-    cats.set(a.category, (cats.get(a.category) || 0) + 1);
+    const group = getGroupLabel(a.category);
+    counts.set(group, (counts.get(group) || 0) + 1);
   }
   return [
     { name: "All Topics", count: articles.length },
-    ...Array.from(cats.entries())
-      .sort((a, b) => b[1] - a[1])
-      .map(([name, count]) => ({ name, count })),
+    ...CATEGORY_GROUPS.map((g) => ({ name: g.label, count: counts.get(g.label) || 0 })).filter(
+      (g) => g.count > 0
+    ),
   ];
 }
 
@@ -114,12 +145,12 @@ export default function FAQIndex() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("All Topics");
 
-  const categories = useMemo(() => deriveCategories(allArticles), []);
+  const categories = useMemo(() => buildFilterPills(allArticles), []);
 
   const filteredArticles = useMemo(() => {
     return allArticles.filter((a) => {
       const matchesCategory =
-        activeCategory === "All Topics" || a.category === activeCategory;
+        activeCategory === "All Topics" || getGroupLabel(a.category) === activeCategory;
       const q = searchQuery.toLowerCase();
       const matchesSearch =
         q === "" ||
@@ -205,15 +236,13 @@ export default function FAQIndex() {
             <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
               {categories.map((cat) => {
                 const isActive = activeCategory === cat.name;
-                const color =
-                  cat.name === "All Topics"
-                    ? "#1B2A4A"
-                    : getCategoryColor(cat.name);
+                const color = getGroupColor(cat.name);
+                const IconComp = getGroupIcon(cat.name);
                 return (
                   <button
                     key={cat.name}
                     onClick={() => setActiveCategory(cat.name)}
-                    className={`shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-sm font-medium transition-all duration-200 border ${
+                    className={`shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 border ${
                       isActive
                         ? "text-white shadow-sm"
                         : "text-[#6B7280] bg-white border-[#E5E7EB] hover:border-[#D1D5DB] hover:bg-[#F9FAFB]"
@@ -224,13 +253,14 @@ export default function FAQIndex() {
                         : {}
                     }
                   >
+                    <IconComp className="w-3.5 h-3.5" />
                     {cat.name}
                     <span
                       className={`text-xs ${
-                        isActive ? "text-white/80" : "text-[#9CA3AF]"
+                        isActive ? "text-white/70" : "text-[#9CA3AF]"
                       }`}
                     >
-                      {cat.count}
+                      ({cat.count})
                     </span>
                   </button>
                 );
@@ -311,7 +341,9 @@ export default function FAQIndex() {
             ) : (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {filteredArticles.map((article, index) => {
-                  const IconComponent = getCategoryIcon(article.category);
+                  const groupLabel = getGroupLabel(article.category);
+                  const groupColor = getGroupColor(groupLabel);
+                  const IconComponent = getGroupIcon(groupLabel);
                   return (
                     <motion.div
                       key={article.slug}
@@ -330,37 +362,25 @@ export default function FAQIndex() {
                         {/* Coloured top accent */}
                         <div
                           className="h-1"
-                          style={{
-                            backgroundColor: getCategoryColor(article.category),
-                          }}
+                          style={{ backgroundColor: groupColor }}
                         />
                         <div className="p-5 flex flex-col h-[calc(100%-4px)]">
                           <div className="flex items-start gap-3 mb-3">
                             <div
                               className="w-9 h-9 rounded-lg flex items-center justify-center shrink-0"
-                              style={{
-                                backgroundColor: `${getCategoryColor(
-                                  article.category
-                                )}12`,
-                              }}
+                              style={{ backgroundColor: `${groupColor}18` }}
                             >
                               <IconComponent
                                 className="w-4 h-4"
-                                style={{
-                                  color: getCategoryColor(article.category),
-                                }}
+                                style={{ color: groupColor }}
                               />
                             </div>
                             <div className="flex-1 min-w-0">
                               <span
                                 className="inline-block text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded text-white mb-1.5"
-                                style={{
-                                  backgroundColor: getCategoryColor(
-                                    article.category
-                                  ),
-                                }}
+                                style={{ backgroundColor: groupColor }}
                               >
-                                {article.category}
+                                {groupLabel}
                               </span>
                               <h3 className="font-bold text-[#1B2A4A] text-[15px] leading-snug group-hover:text-[#C41230] transition-colors line-clamp-2">
                                 {article.title}
