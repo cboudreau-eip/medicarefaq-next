@@ -2827,7 +2827,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "Medicare has four distinct parts, each covering different healthcare services. Understanding what each part does helps you make informed decisions about your coverage. Most people need all four parts for comprehensive protection, though some choose Medicare Advantage (Part C) as an alternative to original Medicare.",
+          content: "Medicare has four distinct parts, each covering different healthcare services. Understanding what each part does helps you make informed decisions about your coverage. Most people need all four parts for comprehensive protection, though some choose [Medicare Advantage](/medicare-part-c/medicare-advantage-plans) (Part C) as an alternative to original Medicare.",
         },
         {
           type: "heading",
@@ -2837,7 +2837,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Part A covers inpatient hospital stays, skilled nursing facility care, hospice care, and some home health services. Most people age 65 or older get Part A automatically at no premium if they or their spouse paid Medicare taxes for 10 years. For 2026, the Part A deductible is $1,676 per benefit period.",
+          content: "[Part A](/original-medicare/medicare-parts/medicare-part-a) covers inpatient hospital stays, skilled nursing facility care, hospice care, and some home health services. Most people age 65 or older get Part A automatically at no premium if they or their spouse paid Medicare taxes for 10 years. For 2026, the Part A deductible is $1,676 per benefit period.",
         },
         {
           type: "heading",
@@ -2847,7 +2847,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Part B covers doctor visits, outpatient services, lab tests, X-rays, and preventive care. You must enroll during your initial enrollment period or face a permanent penalty. The 2026 Part B premium is $185 per month, and the annual deductible is $257. After meeting your deductible, you typically pay 20% of covered services.",
+          content: "[Part B](/original-medicare/medicare-parts/medicare-part-b) covers doctor visits, outpatient services, lab tests, X-rays, and preventive care. You must enroll during your [initial enrollment period](/enrollment/initial-enrollment-period) or face a permanent penalty. The 2026 Part B premium is $185 per month, and the annual deductible is $257. After meeting your deductible, you typically pay 20% of covered services.",
         },
         {
           type: "heading",
@@ -2888,7 +2888,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Most beneficiaries choose original Medicare (Parts A and B) plus a Medigap supplemental plan and standalone Part D. Others prefer Medicare Advantage for simplified coverage. Consider your doctors, medications, and health needs when deciding.",
+          content: "Most beneficiaries choose original Medicare (Parts A and B) plus a [Medigap supplemental plan](/medicare-supplements) and standalone Part D. Others prefer Medicare Advantage for simplified coverage. Consider your doctors, medications, and health needs when deciding.",
         }
       ],
       faqs: [
@@ -2927,7 +2927,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "Medicare Part B is medical insurance covering outpatient care, doctor visits, and preventive services. Understanding its costs and coverage is essential for managing healthcare expenses. The 2026 premium, deductible, and coinsurance amounts differ from previous years, affecting what beneficiaries pay out of pocket.",
+          content: "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) is medical insurance covering outpatient care, doctor visits, and preventive services. Understanding its costs and coverage is essential for managing healthcare expenses. The 2026 premium, deductible, and coinsurance amounts differ from previous years, affecting what beneficiaries pay out of pocket.",
         },
         {
           type: "heading",
@@ -2937,7 +2937,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Part B covers medically necessary outpatient services including doctor appointments, diagnostic tests, durable medical equipment, and mental health services. It's optional but recommended for most beneficiaries. Part B works alongside Part A (hospital insurance) to provide comprehensive coverage.",
+          content: "Part B covers medically necessary outpatient services including doctor appointments, diagnostic tests, durable medical equipment, and mental health services. It's optional but recommended for most beneficiaries. Part B works alongside [Part A](/original-medicare/medicare-parts/medicare-part-a) (hospital insurance) to provide comprehensive coverage.",
         },
         {
           type: "heading",
@@ -2973,7 +2973,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Part B does not cover routine eye exams, dental care, hearing aids, or long-term care. Prescription drugs require Part D coverage. Many beneficiaries purchase Medigap or Medicare Advantage plans to fill gaps and reduce out-of-pocket costs beyond the deductible and coinsurance.",
+          content: "Part B does not cover routine eye exams, dental care, hearing aids, or long-term care. Prescription drugs require [Part D coverage](/original-medicare/medicare-parts/medicare-part-d). Many beneficiaries purchase [Medigap](/medicare-supplements) or Medicare Advantage plans to fill gaps and reduce out-of-pocket costs beyond the deductible and coinsurance.",
         },
         {
           type: "callout",
@@ -2989,7 +2989,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Most people enroll in Part B when turning 65 during their Initial Enrollment Period. Late enrollment penalties apply if you delay without qualifying exemptions. You can change plans during the Open Enrollment Period (October 15, December 7) each year.",
+          content: "Most people enroll in Part B when turning 65 during their [Initial Enrollment Period](/enrollment/initial-enrollment-period). [Late enrollment penalties](/enrollment/late-penalties) apply if you delay without qualifying exemptions. You can change plans during the Open Enrollment Period (October 15, December 7) each year.",
         }
       ],
       faqs: [
@@ -3028,7 +3028,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "Amazon RxPass is a prescription discount service offering generic medications for a flat $5 monthly fee. While it sounds attractive, Medicare beneficiaries need to understand important restrictions before using it alongside their coverage. RxPass cannot be combined with traditional Medicare Part D plans, creating a significant choice for seniors managing medication costs.",
+          content: "Amazon RxPass is a prescription discount service offering generic medications for a flat $5 monthly fee. While it sounds attractive, Medicare beneficiaries need to understand important restrictions before using it alongside their coverage. RxPass cannot be combined with traditional [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) plans, creating a significant choice for seniors managing medication costs.",
         },
         {
           type: "heading",
@@ -3048,7 +3048,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Medicare beneficiaries cannot use RxPass while enrolled in Part D. If you have Part D coverage, using RxPass violates your plan's terms. However, Medicare beneficiaries without Part D coverage can use RxPass. This is only viable if you\'ve actively declined Part D during your Initial Enrollment Period or don\'t qualify for Part D.",
+          content: "Medicare beneficiaries cannot use RxPass while enrolled in Part D. If you have Part D coverage, using RxPass violates your plan's terms. However, Medicare beneficiaries without Part D coverage can use RxPass. This is only viable if you've actively declined Part D during your [Initial Enrollment Period](/enrollment/initial-enrollment-period) or don't qualify for Part D.",
         },
         {
           type: "callout",
@@ -3079,7 +3079,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "For beneficiaries taking only the 50 covered RxPass medications, the $5 monthly fee ($60/year) is significantly cheaper than Part D's average $185 monthly premium ($2,220/year). However, Part D offers broader coverage for brand-name and specialty drugs. The choice depends on your specific medications and health needs.",
+          content: "For beneficiaries taking only the 50 covered RxPass medications, the $5 monthly fee ($60/year) is significantly cheaper than Part D's average $185 monthly premium ($2,220/year). However, [Part D](/original-medicare/medicare-parts/medicare-part-d) offers broader coverage for brand-name and specialty drugs. The choice depends on your specific medications and health needs.",
         },
         {
           type: "heading",
@@ -3089,7 +3089,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "To use RxPass as a Medicare beneficiary, you must not be enrolled in Part D. Visit Amazon's RxPass website, verify your medications are covered, and pay the $5 monthly fee. You can then fill prescriptions at participating pharmacies. If you currently have Part D but want to explore RxPass, contact your plan administrator about disenrollment options.",
+          content: "To use RxPass as a Medicare beneficiary, you must not be enrolled in Part D. Visit Amazon's RxPass website, verify your medications are covered, and pay the $5 monthly fee. You can then fill prescriptions at participating pharmacies. If you currently have Part D but want to explore RxPass, contact your plan administrator about disenrollment options during the [Annual Enrollment Period](/enrollment/annual-changes).",
         }
       ],
       faqs: [
@@ -3127,7 +3127,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "Medicare assignment is a critical concept that directly impacts your healthcare bills. When a doctor accepts Medicare assignment, they agree to charge only Medicare's approved amount for covered services. Understanding the difference between participating, non-participating, and opt-out providers helps you avoid surprise bills and make informed healthcare decisions.",
+          content: "Medicare assignment is a critical concept that directly impacts your healthcare bills. When a doctor accepts Medicare assignment, they agree to charge only Medicare's approved amount for covered services. Understanding the difference between participating, non-participating, and opt-out providers helps you avoid surprise bills and make informed healthcare decisions. [Original Medicare](/original-medicare) beneficiaries are most affected by assignment rules.",
         },
         {
           type: "heading",
@@ -3137,7 +3137,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Medicare assignment occurs when a healthcare provider agrees to accept Medicare's approved amount as full payment for covered services. Participating providers must accept assignment on all Medicare patients. You pay your share (coinsurance and deductible), and Medicare covers the rest. Non-participating providers can choose assignment case-by-case. This agreement protects you from balance billing, where doctors charge more than Medicare allows.",
+          content: "Medicare assignment occurs when a healthcare provider agrees to accept Medicare's approved amount as full payment for covered services. Participating providers must accept assignment on all Medicare patients. You pay your share (coinsurance and deductible), and Medicare covers the rest. Non-participating providers can choose assignment case-by-case. This agreement protects you from balance billing, where doctors charge more than Medicare allows. Many beneficiaries add a [Medigap plan](/medicare-supplements) to cover the 20% coinsurance.",
         },
         {
           type: "heading",
@@ -3178,7 +3178,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "With assignment, your out-of-pocket costs are predictable. You pay your Part B deductible ($257 in 2026) and 20% coinsurance after. Non-participating providers accepting assignment charge the same, but those not accepting can charge 15% more. For example, if Medicare approves $100, a non-participating provider can bill up to $115. These charges count toward your maximum out-of-pocket costs only if assignment is accepted.",
+          content: "With assignment, your out-of-pocket costs are predictable. You pay your [Part B deductible](/original-medicare/medicare-parts/medicare-part-b) ($257 in 2026) and 20% coinsurance after. Non-participating providers accepting assignment charge the same, but those not accepting can charge 15% more. For example, if Medicare approves $100, a non-participating provider can bill up to $115. These charges count toward your maximum out-of-pocket costs only if assignment is accepted.",
         }
       ],
       faqs: [
@@ -3217,7 +3217,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "Retirement doesn't have to strain your budget. Seniors have access to hundreds of discounts across healthcare, shopping, dining, and travel. From Medicare-related savings to retailer programs, knowing where to look can reduce monthly expenses significantly. This guide covers the best discounts available to beneficiaries aged 65 and older.",
+          content: "Retirement doesn't have to strain your budget. Seniors have access to hundreds of discounts across healthcare, shopping, dining, and travel. From Medicare-related savings to retailer programs, knowing where to look can reduce monthly expenses significantly. This guide covers the best discounts available to beneficiaries aged 65 and older, including those with [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) that offer extra benefits.",
         },
         {
           type: "heading",
@@ -3227,7 +3227,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Medicare Part D plans include prescription drug coverage with negotiated lower prices. Once you meet the annual deductible, your plan covers 75% of costs until reaching the coverage gap. Many pharmaceutical manufacturers offer patient assistance programs for eligible beneficiaries. The Extra Help program also subsidizes Part D premiums and copayments for low-income seniors.",
+          content: "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) plans include prescription drug coverage with negotiated lower prices. Once you meet the annual deductible, your plan covers 75% of costs until reaching the coverage gap. Many pharmaceutical manufacturers offer patient assistance programs for eligible beneficiaries. The Extra Help program also subsidizes Part D premiums and copayments for low-income seniors.",
         },
         {
           type: "heading",
@@ -3268,7 +3268,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "AARP membership provides exclusive discounts on travel, insurance, dining, and shopping. The National Council on Aging connects seniors with local discount programs. Senior centers offer discounted classes, meals, and activities. Area Agencies on Aging coordinate regional savings initiatives. Some nonprofits provide vouchers for utilities, food, and medical services.",
+          content: "AARP membership provides exclusive discounts on travel, insurance, dining, and shopping. The National Council on Aging connects seniors with local discount programs. Senior centers offer discounted classes, meals, and activities. Area Agencies on Aging coordinate regional savings initiatives. Some nonprofits provide vouchers for utilities, food, and medical services. For prescription savings specifically, see our guide to [Medicare Part D plans](/original-medicare/medicare-parts/medicare-part-d).",
         },
         {
           type: "callout",
@@ -3312,7 +3312,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "Veterans and military retirees often juggle multiple health insurance options. TRICARE provides coverage while serving or retired, VA benefits offer service-connected care, and Medicare covers beneficiaries at 65. Understanding how these three systems coordinate is crucial for avoiding coverage gaps, minimizing out-of-pocket costs, and accessing all available benefits. This guide explains the intersection and helps you make informed decisions.",
+          content: "Veterans and military retirees often juggle multiple health insurance options. TRICARE provides coverage while serving or retired, VA benefits offer service-connected care, and Medicare covers beneficiaries at 65. Understanding how these three systems coordinate is crucial for avoiding coverage gaps, minimizing out-of-pocket costs, and accessing all available benefits. This guide explains the intersection and helps you make informed decisions about [Original Medicare](/original-medicare) and supplemental options.",
         },
         {
           type: "heading",
@@ -3332,7 +3332,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "At age 65, Medicare becomes your primary insurance for most services, even if you're covered by TRICARE. TRICARE becomes secondary, covering costs Medicare doesn\'t pay. The VA remains separate and covers service-connected conditions regardless of Medicare status. This coordination is automatic, but you must enroll in Medicare Part B (premium $185 monthly in 2026) to avoid late enrollment penalties. Not enrolling when eligible can cost 10% extra per month permanently.",
+          content: "At age 65, Medicare becomes your primary insurance for most services, even if you're covered by TRICARE. TRICARE becomes secondary, covering costs Medicare doesn't pay. The VA remains separate and covers service-connected conditions regardless of Medicare status. This coordination is automatic, but you must enroll in [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) (premium $185 monthly in 2026) to avoid [late enrollment penalties](/enrollment/late-penalties). Not enrolling when eligible can cost 10% extra per month permanently..",
         },
         {
           type: "heading",
@@ -3342,7 +3342,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Enroll in Medicare Part A and Part B during your initial enrollment period, three months before and after your 65th birthday. TRICARE beneficiaries don't face the usual late enrollment penalties if they have other creditable coverage, but Part B remains essential for seamless coordination. Notify TRICARE of your Medicare enrollment to ensure proper claim processing. Missing this coordination window creates billing confusion and potential coverage gaps.",
+          content: "Enroll in Medicare Part A and Part B during your [initial enrollment period](/enrollment/initial-enrollment-period), three months before and after your 65th birthday. TRICARE beneficiaries don't face the usual late enrollment penalties if they have other creditable coverage, but Part B remains essential for seamless coordination. Notify TRICARE of your Medicare enrollment to ensure proper claim processing. Missing this coordination window creates billing confusion and potential coverage gaps.",
         },
         {
           type: "table",
@@ -3407,13 +3407,13 @@ export const blogArticles: BlogArticleData[] = [
         { id: 'enrollment-tips', title: 'Enrollment Tips and Timeline' },
       ],
       sections: [
-        { type: 'paragraph', content: 'When you turn 65 and become eligible for Medicare, you\'ll receive comprehensive coverage for hospital care, doctor visits, and many preventive services. However, there\'s a significant gap in this coverage: vision, dental, and hearing services are largely excluded from Original Medicare. For millions of seniors, this creates a challenging situation where essential health services require out-of-pocket payment. Understanding your options is crucial to maintaining your quality of life and preventing health complications that can arise from untreated vision, dental, and hearing problems.' },
+        { type: 'paragraph', content: 'When you turn 65 and become eligible for Medicare, you\'ll receive comprehensive coverage for hospital care, doctor visits, and many preventive services. However, there\'s a significant gap in this coverage: vision, dental, and hearing services are largely excluded from [Original Medicare](/original-medicare). For millions of seniors, this creates a challenging situation where essential health services require out-of-pocket payment. Understanding your options is crucial to maintaining your quality of life and preventing health complications that can arise from untreated vision, dental, and hearing problems.' },
         { type: 'heading', level: 2, text: 'The Original Medicare Coverage Gap', id: 'original-medicare-gap' },
         { type: 'paragraph', content: 'Original Medicare, consisting of Part A (hospital insurance) and Part B (medical insurance), provides extensive coverage for hospital stays, doctor appointments, and diagnostic services. However, routine vision exams, eyeglasses, hearing aids, and dental care are considered \'optional\' services not covered by Original Medicare. The 2026 Part A deductible is $1,676, Part B premium is $185 per month, and Part B deductible is $257, but these amounts don\'t apply to uncovered services. This means seniors must pay the full cost of these services themselves, which can be substantial over time.' },
         { type: 'callout', calloutType: 'info', calloutTitle: 'Limited Exceptions', calloutText: 'Original Medicare covers certain eye conditions like diabetic retinopathy and age-related macular degeneration when medically necessary. It also covers dental services only if they\'re integral to a covered procedure, such as teeth extraction before radiation therapy. These exceptions are narrow and don\'t cover routine preventive care.' },
         { type: 'heading', level: 2, text: 'Medicare Advantage and Supplemental Coverage', id: 'medicare-advantage-benefits' },
-        { type: 'paragraph', content: 'Medicare Advantage (Part C) plans are an alternative to Original Medicare offered by private insurance companies. One of their key advantages is that many include vision, dental, and hearing benefits that Original Medicare doesn\'t provide. These plans combine hospital and medical coverage with additional benefits, though they typically involve different provider networks and cost structures than Original Medicare. Coverage details vary significantly between plans and insurers, so it\'s essential to review specific benefits when comparing options.' },
-        { type: 'paragraph', content: 'Medigap (supplemental) policies work differently. These plans are designed to cover costs that Original Medicare leaves unpaid, such as copayments and deductibles. However, standard Medigap plans don\'t cover vision, dental, or hearing services either. If you choose Original Medicare with a Medigap policy, you\'ll still need to purchase separate coverage for these services through standalone plans or discount programs.' },
+        { type: 'paragraph', content: '[Medicare Advantage](/medicare-part-c/medicare-advantage-plans) (Part C) plans are an alternative to Original Medicare offered by private insurance companies. One of their key advantages is that many include vision, dental, and hearing benefits that Original Medicare doesn\'t provide. These plans combine hospital and medical coverage with additional benefits, though they typically involve different provider networks and cost structures than Original Medicare. Coverage details vary significantly between plans and insurers, so it\'s essential to review specific benefits when comparing options.' },
+        { type: 'paragraph', content: '[Medigap](/medicare-supplements) (supplemental) policies work differently. These plans are designed to cover costs that Original Medicare leaves unpaid, such as copayments and deductibles. However, standard Medigap plans don\'t cover vision, dental, or hearing services either. If you choose Original Medicare with a Medigap policy, you\'ll still need to purchase separate coverage for these services through standalone plans or discount programs.' },
         { type: 'heading', level: 2, text: 'Vision Coverage Options', id: 'vision-coverage-options' },
         { type: 'paragraph', content: 'Vision coverage options for seniors include Medicare Advantage plans with vision benefits, standalone vision insurance plans, and discount vision programs. Medicare Advantage plans with vision benefits typically cover routine eye exams, eyeglasses, and sometimes contact lenses, though the extent of coverage varies. Standalone vision plans are available from companies like VSP and EyeMed, offering coverage for exams, frames, lenses, and contact lenses at more affordable premiums, usually between $100-$200 annually. Discount vision programs provide reduced rates at participating eye care providers but aren\'t insurance; you pay a membership fee and receive discounts on services.' },
         { type: 'list', ordered: false, items: ["Routine eye exams (typically covered every 12-24 months)", "Eyeglass frames and lenses (allowance varies by plan)", "Contact lenses (some plans cover instead of glasses)", "Treatment for certain eye diseases covered by Medicare (e.g., glaucoma)", "Discounts on additional pairs or premium lens options"] },
@@ -3427,7 +3427,7 @@ export const blogArticles: BlogArticleData[] = [
         { type: 'table', headers: ["Coverage Type", "Vision", "Dental", "Hearing", "Average Annual Cost"], rows: [["Original Medicare Only", "Not covered", "Not covered", "Not covered", "$0-$3,000+ out-of-pocket"], ["Medicare Advantage (with benefits)", "Often covered", "Often covered", "Rarely covered", "$0-$200 premiums + copays"], ["Standalone Plans", "$100-$200/year", "$100-$200/year", "Varies widely", "$200-$600+ total"], ["Discount Programs", "$100-$180/year", "$80-$200/year", "$100-$200/year", "$300-$500 total"]] },
         { type: 'callout', calloutType: 'info', calloutTitle: 'Key Comparison Factors', calloutText: 'When comparing plans, consider annual maximums (especially for dental), waiting periods, network providers in your area, and whether preventive services are fully covered. Also verify if the plan covers emergency services and how referrals work if needed.' },
         { type: 'heading', level: 2, text: 'Enrollment Tips and Timeline', id: 'enrollment-tips' },
-        { type: 'paragraph', content: 'Timing is critical when enrolling in vision, dental, and hearing coverage. If you\'re new to Medicare, you have a seven-month Initial Enrollment Period centered on your 65th birthday. During this window, you can enroll in Medicare Advantage plans, which often include vision, dental, and hearing benefits. If you miss this period, you may face limited enrollment opportunities and potential late enrollment penalties. The Annual Enrollment Period (AEP) runs from October 15 to December 7 each year, allowing you to switch plans or make changes to your coverage.' },
+        { type: 'paragraph', content: 'Timing is critical when enrolling in vision, dental, and hearing coverage. If you\'re new to Medicare, you have a seven-month [Initial Enrollment Period](/enrollment/initial-enrollment-period) centered on your 65th birthday. During this window, you can enroll in Medicare Advantage plans, which often include vision, dental, and hearing benefits. If you miss this period, you may face limited enrollment opportunities and potential [late enrollment penalties](/enrollment/late-penalties). The [Annual Enrollment Period](/enrollment/annual-changes) (AEP) runs from October 15 to December 7 each year, allowing you to switch plans or make changes to your coverage.' },
         { type: 'list', ordered: false, items: ["Review all available Medicare Advantage plans in your area before October 15 each year", "Check if your current dentist, eye doctor, or audiologist is in the plan's network", "Compare coverage limits and annual maximums for dental and vision", "Consider standalone plans if Medicare Advantage doesn\'t meet your needs", "Enroll in coverage before your anticipated need to avoid waiting periods", "Take advantage of preventive benefits during your open enrollment period"] },
       ],
       faqs: [
