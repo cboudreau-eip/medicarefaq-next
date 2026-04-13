@@ -2549,7 +2549,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["does-medicare-cover-medical-alert-systems", "does-medicare-cover-a-shower-transfer-bench", "home-safety-assessment-for-the-elderly", "durable-medical-equipment"],
       },
     ],
     relatedTopics: [
@@ -2584,6 +2583,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["does-medicare-cover-medical-alert-systems", "does-medicare-cover-a-shower-transfer-bench", "home-safety-assessment-for-the-elderly", "durable-medical-equipment"],
   },
   {
     slug: "is-medicare-free",
@@ -2697,7 +2697,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-part-b-annual-deductible-explained-what-youll-pay", "what-is-medicare"],
       },
     ],
     relatedTopics: [
@@ -2732,6 +2731,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-part-b-annual-deductible-explained-what-youll-pay", "what-is-medicare"],
   },
   {
     slug: "25-medicare-qas-you-should-know",
@@ -2846,7 +2846,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "turning-65-these-are-the-most-common-medicare-questions-answered", "medicare-enrollment-checklist"],
       },
     ],
     relatedTopics: [
@@ -2881,6 +2880,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "turning-65-these-are-the-most-common-medicare-questions-answered", "medicare-enrollment-checklist"],
   },
   {
     slug: "new-medicare-changes",
@@ -3008,7 +3008,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-costs-2025", "medicare-changes"],
       },
     ],
     relatedTopics: [
@@ -3043,6 +3042,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-costs-2025", "medicare-changes"],
   },
   {
     slug: "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends",
@@ -3132,7 +3132,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["medicare-coverage-for-incontinence-supplies", "durable-medical-equipment", "reduce-medicare-premiums", "medicare-savings-programs"],
       },
     ],
     relatedTopics: [
@@ -3167,6 +3166,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["medicare-coverage-for-incontinence-supplies", "durable-medical-equipment", "reduce-medicare-premiums", "medicare-savings-programs"],
   },
   {
     slug: "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management",
@@ -3257,7 +3257,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
       },
     ],
     relatedTopics: [
@@ -3292,6 +3291,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
   },
   {
     slug: "does-medicare-cover-a-shower-transfer-bench",
@@ -3382,7 +3382,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-bathroom-safety-devices", "how-medicare-handles-skilled-nursing-vs-custodial-care"],
       },
     ],
     relatedTopics: [
@@ -3417,6 +3416,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-bathroom-safety-devices", "how-medicare-handles-skilled-nursing-vs-custodial-care"],
   },
   {
     slug: "medicare-silversneakers-program",
@@ -3552,7 +3552,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["top-free-computer-classes-for-seniors", "5-government-benefits-for-seniors", "discounts-for-seniors"],
       },
     ],
     relatedTopics: [
@@ -3587,6 +3586,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["top-free-computer-classes-for-seniors", "5-government-benefits-for-seniors", "discounts-for-seniors"],
   },
   {
     slug: "medicare-annual-notice-of-change-letter",
@@ -3700,7 +3700,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor"],
       },
     ],
     relatedTopics: [
@@ -3735,6 +3734,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor"],
   },
   {
     slug: "medicare-give-back-benefit",
@@ -3843,7 +3843,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "reduce-medicare-premiums", "irmaa"],
       },
     ],
     relatedTopics: [
@@ -3878,6 +3877,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "reduce-medicare-premiums", "irmaa"],
   },
   {
     slug: "why-medicare-advantage-plans-are-bad",
@@ -4017,7 +4017,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-advantage-denied-claims-crisis"],
       },
     ],
     relatedTopics: [
@@ -4052,6 +4051,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-advantage-denied-claims-crisis"],
   },
   {
     slug: "medigap-vs-medicare-advantage",
@@ -4186,7 +4186,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan"],
       },
     ],
     relatedTopics: [
@@ -4221,6 +4220,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan"],
   },
   {
     slug: "medicare-special-enrollment-period",
@@ -4361,7 +4361,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
       },
     ],
     relatedTopics: [
@@ -4396,6 +4395,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
   },
   {
     slug: "medicare-advantage-open-enrollment-period",
@@ -4531,7 +4531,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["medicare-annual-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
       },
     ],
     relatedTopics: [
@@ -4566,6 +4565,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["medicare-annual-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
   },
   {
     slug: "fehb-and-medicare",
@@ -4710,7 +4710,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["medicare-and-employer-coverage", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
       },
     ],
     relatedTopics: [
@@ -4745,6 +4744,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["medicare-and-employer-coverage", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
   },
   {
     slug: "medicare-creditable-coverage",
@@ -4889,7 +4889,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["what-is-medicare-creditable-coverage", "medicare-and-employer-coverage", "medicare-cobra", "when-should-you-enroll-in-medicare-if-still-working"],
       },
     ],
     relatedTopics: [
@@ -4924,6 +4923,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["what-is-medicare-creditable-coverage", "medicare-and-employer-coverage", "medicare-cobra", "when-should-you-enroll-in-medicare-if-still-working"],
   },
   {
     slug: "medicare-part-d-penalty",
@@ -5067,7 +5067,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["medicare-part-b-late-enrollment-penalty", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "how-is-medicare-part-d-changing-in-2026"],
       },
     ],
     relatedTopics: [
@@ -5102,6 +5101,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["medicare-part-b-late-enrollment-penalty", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "how-is-medicare-part-d-changing-in-2026"],
   },
   {
     slug: "medicare-cost-sharing-plans",
@@ -5245,7 +5245,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket", "what-is-medicare-cost-sharing", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling"],
       },
     ],
     relatedTopics: [
@@ -5280,6 +5279,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket", "what-is-medicare-cost-sharing", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling"],
   },
   {
     slug: "medicare-maximum-out-of-pocket",
@@ -5424,7 +5424,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["deductible-copay-coinsurance-premium", "medicare-cost-sharing-plans", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses"],
       },
     ],
     relatedTopics: [
@@ -5459,6 +5458,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
+    relatedSlugs: ["deductible-copay-coinsurance-premium", "medicare-cost-sharing-plans", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses"],
   },
   {
     slug: "medicare-annual-enrollment-period",
@@ -5549,7 +5549,6 @@ export const coverageArticles: CoverageArticleData[] = [
 {
         icon: "dollar",
         text: "Compare plans to find the best value",
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-special-enrollment-periods", "medicare-advantage-open-enrollment-period", "medicare-general-enrollment-period", "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained"],
       },
     ],
     relatedTopics: [
@@ -5557,22 +5556,16 @@ export const coverageArticles: CoverageArticleData[] = [
         title: "Dental Implants",
         description: "Learn more about dental implants",
         slug: "does-medicare-cover-dental-implants",
-        relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-hearing-aids", "what-dental-expenses-does-medicare-cover", "dental-and-vision-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
-        relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-hearing-aids", "what-dental-expenses-does-medicare-cover", "dental-and-vision-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
       },
 {
         title: "Glasses",
         description: "Learn more about glasses",
         slug: "does-medicare-cover-glasses",
-        relatedSlugs: ["does-medicare-cover-hearing-aids", "does-medicare-cover-dental-implants", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors"],
-        relatedSlugs: ["does-medicare-cover-hearing-aids", "does-medicare-cover-dental-implants", "dental-and-vision-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options", "medicare-vision-care-coverage"],
       },
 {
         title: "Hearing Aids",
         description: "Learn more about hearing aids",
         slug: "does-medicare-cover-hearing-aids",
-        relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-dental-implants", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors"],
-        relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-dental-implants", "dental-and-vision-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options", "what-dental-expenses-does-medicare-cover"],
       },
 {
         title: "Sleep Apnea",
@@ -5589,7 +5582,6 @@ export const coverageArticles: CoverageArticleData[] = [
     ctaBanner: {
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
-        relatedSlugs: ["does-medicare-cover-copd", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "medicare-preventive-services", "does-medicare-cover-medical-alert-systems"],
-        relatedSlugs: ["medicare-preventive-services", "medicare-parts-a-b-c-and-d-explained-simply", "does-medicare-cover-mental-health", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-cover-my-surgery"],
     },
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage"],
   },];

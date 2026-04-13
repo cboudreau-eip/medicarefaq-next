@@ -686,11 +686,6 @@ export const blogArticles: BlogArticleData[] = [
       { question: "What happens if I miss my enrollment deadline?", answer: "Missing your Initial Enrollment Period can result in a permanent late enrollment penalty of 10% added to your Part B premium for every full 12-month period you were eligible but didn't enroll. You may also have gaps in coverage." },
       { question: "Does COBRA count as employer coverage for Medicare purposes?", answer: "No. COBRA and retiree health plans do not count as active employer coverage. You must still enroll in Medicare Part B when you turn 65 to avoid late penalties." },
     ],
-    relatedSlugs: [
-      "medicare-part-b-annual-deductible-explained-what-youll-pay",
-      "how-the-medigap-free-look-period-protects-you",
-      "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained",
-    ],
   },
 {
     seo: {

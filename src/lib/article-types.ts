@@ -167,6 +167,7 @@ export interface CoverageArticleData {
     title: string;
     text: string;
   };
+  relatedSlugs?: string[];
 }
 
 /* ─── Simple FAQ Article Schema (scraped from live site) ─── */
