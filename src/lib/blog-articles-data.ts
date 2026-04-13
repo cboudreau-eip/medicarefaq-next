@@ -1580,7 +1580,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "One of the most common misconceptions about Medicare is that you must be receiving Social Security to enroll. Many people assume these two programs are linked, so they put off signing up for Medicare thinking they'll handle both at the same time. This confusion can be costly. The truth is, Medicare eligibility is independent of Social Security benefits. You can apply for Medicare without touching your Social Security account, and you can delay collecting Social Security while enrolling in Medicare on schedule. Understanding this distinction is essential to protecting your health coverage and avoiding unnecessary penalties.",
+          content: "One of the most common misconceptions about Medicare is that you must be receiving Social Security to enroll. Many people assume these two programs are linked, so they put off signing up for Medicare thinking they'll handle both at the same time. This confusion can be costly. The truth is, Medicare eligibility is independent of Social Security benefits. You can apply for Medicare without touching your Social Security account, and you can delay collecting Social Security while enrolling in Medicare on schedule. Understanding this distinction is essential to protecting your health coverage and avoiding [unnecessary penalties](/enrollment/late-penalties).",
         },
         {
           type: "heading",
@@ -1604,7 +1604,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Your Initial Enrollment Period (IEP) for Medicare begins three months before the month you turn 65 and ends three months after. For example, if you turn 65 in June, your IEP runs from March through September. During this seven-month window, you should enroll in Medicare regardless of whether you're claiming Social Security.",
+          content: "Your [Initial Enrollment Period](/enrollment/initial-enrollment-period) (IEP) for Medicare begins three months before the month you turn 65 and ends three months after. For example, if you turn 65 in June, your IEP runs from March through September. During this seven-month window, you should enroll in Medicare regardless of whether you're claiming Social Security.",
         },
         {
           type: "paragraph",
@@ -1626,7 +1626,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Late enrollment penalties apply if you miss your IEP without creditable coverage (coverage that's at least as good as Medicare). If you\'re covered by an employer plan with 20 or more employees, you may be exempt from penalties. However, once you leave that job or the coverage ends, you have a special enrollment period to sign up for Medicare without penalty. Missing this window is dangerous. The longer you wait past 65, the higher your lifetime premiums will be.",
+          content: "Late enrollment penalties apply if you miss your IEP without creditable coverage (coverage that's at least as good as Medicare). If you're covered by an employer plan with 20 or more employees, you may be exempt from penalties. However, once you leave that job or the coverage ends, you have a [special enrollment period](/enrollment/special-enrollment-period) to sign up for Medicare without penalty.. Missing this window is dangerous. The longer you wait past 65, the higher your lifetime premiums will be.",
         },
         {
           type: "callout",
@@ -1646,7 +1646,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "When you apply, you'll create or use an existing Medicare.gov account. You\'ll need your birth certificate, proof of citizenship or lawful residency, and your Social Security number. The process is the same whether you\'re claiming Social Security or not. You\'ll choose between Original Medicare (Parts A and B) or a Medicare Advantage plan (Part C), and you can add prescription drug coverage (Part D) during your IEP. If you wait until later, enrollment periods may be limited, and penalties could apply.",
+          content: "When you apply, you'll create or use an existing Medicare.gov account. You'll need your birth certificate, proof of citizenship or lawful residency, and your Social Security number. The process is the same whether you're claiming Social Security or not. You'll choose between [Original Medicare](/original-medicare) (Parts A and B) or a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) (Part C), and you can add prescription drug coverage (Part D) during your IEP. If you wait until later, enrollment periods may be limited, and penalties could apply.",
         },
         {
           type: "paragraph",
@@ -1813,7 +1813,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Here's something important to understand: your Medicare eligibility at age 65 is completely separate from your FRA. You become eligible for Medicare on your 65th birthday, regardless of when your FRA falls. Whether your FRA is 66, 67, or somewhere in between, you should enroll in Medicare during your Initial Enrollment Period, which begins three months before your 65th birthday and ends three months after.",
+          content: "Here's something important to understand: your Medicare eligibility at age 65 is completely separate from your FRA. You become eligible for Medicare on your 65th birthday, regardless of when your FRA falls. Whether your FRA is 66, 67, or somewhere in between, you should enroll in Medicare during your [Initial Enrollment Period](/enrollment/initial-enrollment-period), which begins three months before your 65th birthday and ends three months after.",
         },
         {
           type: "callout",
@@ -1823,11 +1823,11 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Many people mistakenly believe they should wait to enroll in Medicare until they reach their FRA. This is incorrect and can be costly. You should enroll in Medicare at 65, regardless of your plans for Social Security. The only exception is if you're still working and covered by an employer group health plan with 20 or more employees, in which case you may be able to delay Part B enrollment without penalty.",
+          content: "Many people mistakenly believe they should wait to enroll in Medicare until they reach their FRA. This is incorrect and can be costly. You should enroll in Medicare at 65, regardless of your plans for Social Security. The only exception is if you're still working and covered by an employer group health plan with 20 or more employees, in which case you may be able to delay Part B enrollment without [late enrollment penalties](/enrollment/late-penalties).",
         },
         {
           type: "paragraph",
-          content: "In 2026, Medicare Part B has a standard monthly premium of $185 per month, though it varies based on income. Part B also has an annual deductible of $257. Part A (hospital insurance) generally has no premium if you've worked long enough, but it carries a $1,676 deductible for hospital stays in 2026. Part D (prescription drug coverage) premiums vary by plan, but enrolling during your Initial Enrollment Period helps you avoid late enrollment penalties.",
+          content: "In 2026, [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) has a standard monthly premium of $185 per month, though it varies based on income. Part B also has an annual deductible of $257. Part A (hospital insurance) generally has no premium if you've worked long enough, but it carries a $1,676 deductible for hospital stays in 2026. [Part D](/original-medicare/medicare-parts/medicare-part-d) (prescription drug coverage) premiums vary by plan, but enrolling during your Initial Enrollment Period helps you avoid late enrollment penalties.",
         },
         {
           type: "heading",
@@ -1948,7 +1948,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Normally, Medicare has strict enrollment windows during the Initial Enrollment Period or Annual Enrollment Period. If you miss these windows, you pay late enrollment penalties for as long as you have Medicare. However, losing employer coverage qualifies you for a Special Enrollment Period, or SEP. This protection is your safety net.",
+          content: "Normally, Medicare has strict enrollment windows during the [Initial Enrollment Period](/enrollment/initial-enrollment-period) or [Annual Enrollment Period](/enrollment/annual-changes). If you miss these windows, you pay [late enrollment penalties](/enrollment/late-penalties) for as long as you have Medicare. However, losing employer coverage qualifies you for a Special Enrollment Period, or SEP. This protection is your safety net.",
         },
         {
           type: "paragraph",
@@ -2001,7 +2001,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Once you're enrolled in Part A and Part B, you need to decide between two main coverage paths: Original Medicare with a Medigap plan, or a Medicare Advantage plan. This decision deserves careful thought because your choice affects out-of-pocket costs and your doctor options going forward.",
+          content: "Once you're enrolled in Part A and Part B, you need to decide between two main coverage paths: [Original Medicare with a Medigap plan](/medicare-supplements), or a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans). This decision deserves careful thought because your choice affects out-of-pocket costs and your doctor options going forward.",
         },
         {
           type: "table",
@@ -2096,7 +2096,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "Moving to a new state is stressful enough without worrying about your health insurance. The good news is that Original Medicare makes interstate moves straightforward. The challenging part involves Medicare Advantage plans and Part D coverage, which operate differently depending on where you live. Understanding what changes and what doesn't will help you maintain continuous coverage and avoid unexpected costs when you cross state lines.",
+          content: "Moving to a new state is stressful enough without worrying about your health insurance. The good news is that [Original Medicare](/original-medicare) makes interstate moves straightforward. The challenging part involves [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) and [Part D coverage](/original-medicare/medicare-parts/medicare-part-d), which operate differently depending on where you live. Understanding what changes and what doesn't will help you maintain continuous coverage and avoid unexpected costs when you cross state lines.",
         },
         {
           type: "heading",
@@ -2162,7 +2162,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Medicare recognizes that moving to a new state is a qualifying life event. You're entitled to a Special Enrollment Period that allows you to change your Medicare coverage outside the normal Annual Enrollment Period, which runs from October 15 through December 7 each year. This Special Enrollment Period lasts for two months beginning the month you move.",
+          content: "Medicare recognizes that moving to a new state is a qualifying life event. You're entitled to a [Special Enrollment Period](/enrollment/special-enrollment-period) that allows you to change your Medicare coverage outside the normal [Annual Enrollment Period](/enrollment/annual-changes), which runs from October 15 through December 7 each year. This Special Enrollment Period lasts for two months beginning the month you move.",
         },
         {
           type: "paragraph",
@@ -2273,7 +2273,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "A grocery allowance, sometimes called a food benefit or nutrition benefit, is a supplemental feature offered by certain Medicare Advantage plans. Unlike traditional Medicare coverage that focuses on medical services like doctor visits and hospital stays, a grocery allowance provides credits or cash you can use to purchase qualifying food items at participating retailers. This benefit recognizes the connection between nutrition and health outcomes, particularly for seniors managing chronic conditions like diabetes, heart disease, or kidney disease.",
+          content: "A grocery allowance, sometimes called a food benefit or nutrition benefit, is a supplemental feature offered by certain [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans). Unlike traditional Medicare coverage that focuses on medical services like doctor visits and hospital stays, a grocery allowance provides credits or cash you can use to purchase qualifying food items at participating retailers. This benefit recognizes the connection between nutrition and health outcomes, particularly for seniors managing chronic conditions like diabetes, heart disease, or kidney disease.",
         },
         {
           type: "paragraph",
@@ -2287,7 +2287,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Only Medicare Advantage plans (Part C) can offer a grocery allowance benefit. Original Medicare (Part A and Part B) does not include grocery allowances as a standard benefit, though you might find some through supplemental Medigap policies in rare cases. Among Medicare Advantage plans, the availability of a grocery allowance varies considerably by plan and geographic region.",
+          content: "Only Medicare Advantage plans (Part C) can offer a grocery allowance benefit. [Original Medicare](/original-medicare) (Part A and Part B) does not include grocery allowances as a standard benefit, though you might find some through supplemental [Medigap policies](/medicare-supplements) in rare cases. Among Medicare Advantage plans, the availability of a grocery allowance varies considerably by plan and geographic region.",
         },
         {
           type: "paragraph",
@@ -2367,7 +2367,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Additionally, many communities have programs like Meals on Wheels, senior meal programs, and food banks that serve Medicare beneficiaries. These programs can provide nutritious meals or food assistance at low or no cost. Your local Area Agency on Aging can help you locate these resources. If improving your nutrition is important to you and you have Original Medicare, you might also consider switching to a Medicare Advantage plan with a grocery allowance during the next Annual Enrollment Period, which runs from October 15 through December 7 each year.",
+          content: "Additionally, many communities have programs like Meals on Wheels, senior meal programs, and food banks that serve Medicare beneficiaries. These programs can provide nutritious meals or food assistance at low or no cost. Your local Area Agency on Aging can help you locate these resources. If improving your nutrition is important to you and you have Original Medicare, you might also consider switching to a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) with a grocery allowance during the next [Annual Enrollment Period](/enrollment/annual-changes), which runs from October 15 through December 7 each year.",
         },
         {
           type: "callout",
@@ -2440,7 +2440,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Medicare Advantage plans are run by private insurance companies under contract with Medicare. These companies receive a fixed payment from Medicare for each beneficiary they enroll, regardless of how much care that person uses. This creates an incentive for insurers to attract healthier people, since they'll spend less on their care. One effective marketing tactic is eliminating the monthly premium entirely. In 2026, Original Medicare Part B costs $185 per month, so a $0 premium plan advertises a substantial monthly saving. However, insurance companies offset this loss by charging higher copays and deductibles when you actually use healthcare. Understanding this trade-off is essential before you enroll.",
+          content: "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) are run by private insurance companies under contract with Medicare. These companies receive a fixed payment from Medicare for each beneficiary they enroll, regardless of how much care that person uses. This creates an incentive for insurers to attract healthier people, since they'll spend less on their care. One effective marketing tactic is eliminating the monthly premium entirely. In 2026, Original Medicare Part B costs $185 per month, so a $0 premium plan advertises a substantial monthly saving. However, insurance companies offset this loss by charging higher copays and deductibles when you actually use healthcare. Understanding this trade-off is essential before you enroll.",
         },
         {
           type: "heading",
@@ -2468,7 +2468,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Compare this to Original Medicare, where you pay the Part B deductible of $257 once per year, then 20 percent of approved charges for most services. There's no annual out-of-pocket maximum with Original Medicare alone, which can be a problem if you have serious health issues, which is why many people add Medigap coverage. However, if you\'re healthy and have modest healthcare needs, Original Medicare combined with Medigap coverage might cost less annually than the copays you\'d pay under a $0 premium Medicare Advantage plan.",
+          content: "Compare this to Original Medicare, where you pay the Part B deductible of $257 once per year, then 20 percent of approved charges for most services. There's no annual out-of-pocket maximum with Original Medicare alone, which can be a problem if you have serious health issues, which is why many people add [Medigap coverage](/medicare-supplements). However, if you're healthy and have modest healthcare needs, Original Medicare combined with [Medigap Plan G](/medicare-supplements/plan-g) might cost less annually than the copays you'd pay under a $0 premium Medicare Advantage plan.n.",
         },
         {
           type: "table",
@@ -2588,7 +2588,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "If you're a Medicare Supplement policyholder in Illinois, you have access to one of the most consumer-friendly protections in the country. The Illinois birthday rule gives you the opportunity to switch Medigap plans once each calendar year without having to answer health questions or undergo medical underwriting. This means you won\'t be denied coverage due to pre-existing conditions, and you won\'t pay higher premiums based on your health status. For seniors managing multiple health conditions or looking to save money on premiums, this annual window can be a game-changer.",
+          content: "If you're a Medicare Supplement policyholder in Illinois, you have access to one of the most consumer-friendly protections in the country. The Illinois birthday rule gives you the opportunity to switch [Medigap plans](/medicare-supplements) once each calendar year without having to answer health questions or undergo medical underwriting. This means you won\'t be denied coverage due to pre-existing conditions, and you won\'t pay higher premiums based on your health status. For seniors managing multiple health conditions or looking to save money on premiums, this annual window can be a game-changer.",
         },
         {
           type: "heading",
@@ -2632,7 +2632,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "The Illinois birthday rule applies to all Medicare Supplement policies issued or renewed in Illinois after a certain effective date. Nearly all major Medigap carriers operating in Illinois must honor this rule, including companies like AARP, Mutual of Omaha, Cigna, Humana, and others. You can switch from any approved Medigap plan to any other approved plan, or from one insurance carrier to another. The rule covers all standard Medigap plans available in Illinois, such as Plan A, Plan B, Plan C, Plan D, Plan F, Plan G, Plan K, Plan L, Plan M, and Plan N.",
+          content: "The Illinois birthday rule applies to all Medicare Supplement policies issued or renewed in Illinois after a certain effective date. Nearly all major Medigap carriers operating in Illinois must honor this rule, including companies like AARP, Mutual of Omaha, Cigna, Humana, and others. You can switch from any approved Medigap plan to any other approved plan, or from one insurance carrier to another. The rule covers all standard Medigap plans available in Illinois, such as [Plan A](/medicare-supplements/plan-a), [Plan B](/medicare-supplements/plan-b), Plan C, Plan D, [Plan F](/medicare-supplements/plan-f), [Plan G](/medicare-supplements/plan-g), Plan K, Plan L, Plan M, and [Plan N](/medicare-supplements/plan-n).",
         },
         {
           type: "paragraph",
@@ -2669,7 +2669,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Another common reason is upgrading plan benefits. Perhaps when you first enrolled in Medicare Supplement coverage, Plan A seemed affordable, but now you find yourself frustrated with higher out-of-pocket costs. During your birthday month, you can upgrade to Plan G or Plan N, which offer more comprehensive coverage. You might also switch if your health needs have changed and you want different covered services. The birthday rule makes these decisions truly optional rather than subject to health screening.",
+          content: "Another common reason is upgrading plan benefits. Perhaps when you first enrolled in Medicare Supplement coverage, Plan A seemed affordable, but now you find yourself frustrated with higher out-of-pocket costs. During your birthday month, you can upgrade to [Plan G](/medicare-supplements/plan-g) or [Plan N](/medicare-supplements/plan-n), which offer more comprehensive coverage. You might also switch if your health needs have changed and you want different covered services. The birthday rule makes these decisions truly optional rather than subject to health screening.",
         },
         {
           type: "paragraph",
@@ -2730,7 +2730,7 @@ export const blogArticles: BlogArticleData[] = [
       sections: [
         {
           type: "paragraph",
-          content: "Turning 65 brings significant changes to your Health Savings Account (HSA). Once you enroll in Medicare Part A, you become ineligible to contribute to your HSA. This rule applies even if you delay Social Security or continue working. Understanding these rules prevents costly tax penalties and helps you maximize your HSA benefits in retirement.",
+          content: "Turning 65 brings significant changes to your Health Savings Account (HSA). Once you enroll in [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a), you become ineligible to contribute to your HSA. This rule applies even if you delay Social Security or continue working. Understanding these rules prevents costly tax penalties and helps you maximize your HSA benefits in retirement.",
         },
         {
           type: "heading",
@@ -2750,7 +2750,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Stop HSA contributions the month you enroll in Part A. If you turn 65 and automatically enroll in Part A, your final contribution month is the month before enrollment. Most people become eligible for Medicare the first day of their birth month at age 65. Contributions made after enrollment are subject to penalties.",
+          content: "Stop HSA contributions the month you enroll in Part A. If you turn 65 and automatically enroll in Part A, your final contribution month is the month before enrollment. Most people become eligible for Medicare the first day of their birth month at age 65. Contributions made after enrollment are subject to [late enrollment penalties](/enrollment/late-penalties).",
         },
         {
           type: "heading",
@@ -2777,7 +2777,7 @@ export const blogArticles: BlogArticleData[] = [
         },
         {
           type: "paragraph",
-          content: "Your existing HSA balance remains yours to use tax-free for qualified medical expenses. This includes Medicare premiums, deductibles, copayments, and coinsurance. For 2026, Part B costs $185 monthly, with a $257 deductible. Part A has a $1,676 deductible. Many retirees use HSAs to cover these costs tax-free.",
+          content: "Your existing HSA balance remains yours to use tax-free for qualified medical expenses. This includes Medicare premiums, deductibles, copayments, and coinsurance. For 2026, [Part B](/original-medicare/medicare-parts/medicare-part-b) costs $185 monthly, with a $257 deductible. [Part A](/original-medicare/medicare-parts/medicare-part-a) has a $1,676 deductible. Many retirees use HSAs to cover these costs tax-free.",
         },
         {
           type: "heading",
