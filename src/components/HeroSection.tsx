@@ -68,32 +68,35 @@ export default function HeroSection() {
           >
             <Link
               href="/medicare-101"
-              className="group inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] text-white font-bold px-4 py-3 rounded-lg transition-all duration-150 shadow-lg shadow-[#0D9488]/25 whitespace-nowrap text-sm"
+              className="group inline-flex items-center justify-between gap-3 bg-[#0D9488] hover:bg-[#0B7C72] text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#0D9488]/25 text-sm flex-1"
             >
-              I&apos;m New to Medicare
-              <span className="text-xs text-white/70 font-normal hidden md:inline">
-                Turning 65 soon
-              </span>
+              <div className="flex flex-col">
+                <span className="font-bold text-white text-[15px] leading-tight">I&apos;m New to Medicare</span>
+                <span className="hidden md:block w-full h-px bg-white/30 my-1" />
+                <span className="hidden md:block text-xs text-white font-normal leading-tight">Turning 65 soon</span>
+              </div>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
             </Link>
             <Link
               href="/enrollment/working-past-65"
-              className="group inline-flex items-center gap-2 bg-[#D97706] hover:bg-[#B45309] text-white font-bold px-4 py-3 rounded-lg transition-all duration-150 shadow-lg shadow-[#D97706]/25 whitespace-nowrap text-sm"
+              className="group inline-flex items-center justify-between gap-3 bg-[#D97706] hover:bg-[#B45309] text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#D97706]/25 text-sm flex-1"
             >
-              Working Past 65
-              <span className="text-xs text-white/70 font-normal hidden md:inline">
-                Still have employer coverage
-              </span>
+              <div className="flex flex-col">
+                <span className="font-bold text-white text-[15px] leading-tight">Working Past 65</span>
+                <span className="hidden md:block w-full h-px bg-white/30 my-1" />
+                <span className="hidden md:block text-xs text-white font-normal leading-tight">Still have employer coverage</span>
+              </div>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
             </Link>
             <Link
               href="/compare-rates"
-              className="group inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur-sm text-white font-bold px-4 py-3 rounded-lg transition-all duration-150 border border-white/20 whitespace-nowrap text-sm"
+              className="group inline-flex items-center justify-between gap-3 bg-white/15 hover:bg-white/25 backdrop-blur-sm text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 border border-white/20 text-sm flex-1"
             >
-              Already Enrolled
-              <span className="text-xs text-white/70 font-normal hidden md:inline">
-                Want to compare or switch
-              </span>
+              <div className="flex flex-col">
+                <span className="font-bold text-white text-[15px] leading-tight">Already Enrolled</span>
+                <span className="hidden md:block w-full h-px bg-white/30 my-1" />
+                <span className="hidden md:block text-xs text-white font-normal leading-tight">Want to compare or switch</span>
+              </div>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
             </Link>
           </motion.div>
