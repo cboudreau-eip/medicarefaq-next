@@ -281,6 +281,56 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 </p>
               </section>
 
+              {/* Explore All Plans */}
+              <section id="all-plans" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-3" style={{ fontFamily: "'Merriweather', serif" }}>
+                  Explore Each Medigap Plan
+                </h2>
+                <p className="text-slate-600 mb-6">
+                  Every Medigap plan letter has a dedicated guide covering benefits, costs, pros and cons, and who it's best for.
+                </p>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-4">
+                  {[
+                    { slug: "plan-a", label: "Plan A", note: "Basic coverage", badge: null },
+                    { slug: "plan-b", label: "Plan B", note: "+ Part A deductible", badge: null },
+                    { slug: "plan-c", label: "Plan C", note: "Legacy — pre-2020", badge: "Legacy" },
+                    { slug: "plan-d", label: "Plan D", note: "Mid-tier coverage", badge: null },
+                    { slug: "plan-f", label: "Plan F", note: "Legacy — pre-2020", badge: "Legacy" },
+                    { slug: "plan-g", label: "Plan G", note: "Best overall value", badge: "Most Popular" },
+                    { slug: "plan-k", label: "Plan K", note: "50% cost-sharing", badge: null },
+                    { slug: "plan-l", label: "Plan L", note: "75% cost-sharing", badge: null },
+                    { slug: "plan-m", label: "Plan M", note: "50% Part A deductible", badge: null },
+                    { slug: "plan-n", label: "Plan N", note: "Budget-friendly", badge: "Budget Pick" },
+                    { slug: "high-deductible-plan-f", label: "HD Plan F", note: "Low premium, high deductible", badge: "Legacy" },
+                    { slug: "high-deductible-plan-g", label: "HD Plan G", note: "Low premium option", badge: null },
+                  ].map((plan) => (
+                    <Link
+                      key={plan.slug}
+                      href={`/medicare-supplements/${plan.slug}`}
+                      className="group relative bg-white border border-slate-200 hover:border-teal-400 rounded-xl p-4 transition-all hover:shadow-md"
+                    >
+                      {plan.badge && (
+                        <span className={`absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 rounded-full ${
+                          plan.badge === "Most Popular" ? "bg-teal-100 text-teal-700" :
+                          plan.badge === "Budget Pick" ? "bg-blue-100 text-blue-700" :
+                          "bg-slate-100 text-slate-500"
+                        }`}>{plan.badge}</span>
+                      )}
+                      <p className="font-bold text-slate-900 text-base group-hover:text-teal-700 transition-colors">{plan.label}</p>
+                      <p className="text-xs text-slate-500 mt-0.5">{plan.note}</p>
+                    </Link>
+                  ))}
+                </div>
+                <div className="flex gap-3 flex-wrap">
+                  <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
+                    Compare all plans side-by-side <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                  <Link href="/medicare-supplements/medigap-eligibility" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
+                    Check your eligibility <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+              </section>
+
               {/* Most Popular Plans */}
               <section id="popular-plans" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
