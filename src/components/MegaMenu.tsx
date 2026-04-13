@@ -21,12 +21,12 @@ function MegaMenuPanel({
       transition={{ duration: 0.15, ease: "easeOut" }}
       className="absolute top-full left-0 w-full bg-white border-b border-[#E5E7EB] shadow-lg z-50"
     >
-      <div className="container py-8">
-        <div className="flex gap-8">
+      <div className="container py-5">
+        <div className="flex gap-6">
           {/* Main items grid */}
           <div className="flex-1">
             <h3
-              className="text-xs font-bold tracking-wider mb-5 uppercase"
+              className="text-xs font-bold tracking-wider mb-3 uppercase"
               style={{ color: category.color }}
             >
               {category.title}
@@ -39,16 +39,16 @@ function MegaMenuPanel({
                     key={item.title}
                     href={item.href}
                     onClick={() => onClose()}
-                    className="group flex items-start gap-3.5 p-3 rounded-lg hover:bg-[#F5F7FA] transition-colors duration-150"
+                    className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#F5F7FA] transition-colors duration-150"
                   >
                     <div
-                      className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0 mt-0.5"
+                      className="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5"
                       style={{
                         backgroundColor: `${category.color}12`,
                         color: category.color,
                       }}
                     >
-                      <Icon className="w-5 h-5" />
+                      <Icon className="w-4 h-4" />
                     </div>
                     <div>
                       <span className="font-semibold text-[#1B2A4A] text-[15px] group-hover:text-[#1B2A4A] block leading-tight">
@@ -65,23 +65,23 @@ function MegaMenuPanel({
           </div>
           {/* Sidebar */}
           {category.sidebarItems && category.sidebarItems.length > 0 && (
-            <div className="w-[300px] shrink-0 border-l border-[#E5E7EB] pl-8">
-              <h4 className="text-xs font-bold tracking-wider text-[#C41230] mb-4 uppercase">
+            <div className="w-[280px] shrink-0 border-l border-[#E5E7EB] pl-6">
+              <h4 className="text-xs font-bold tracking-wider text-[#C41230] mb-3 uppercase">
                 {category.sidebarTitle}
               </h4>
-              <div className="space-y-4">
+              <div className="space-y-2.5">
                 {category.sidebarItems.map((item) => (
                   <Link
                     key={item.title}
                     href={item.href}
                     onClick={() => onClose()}
-                    className="block p-4 bg-[#F9FAFB] rounded-lg hover:bg-[#F0F4F8] transition-colors duration-150 group"
+                    className="block p-3 bg-[#F9FAFB] rounded-lg hover:bg-[#F0F4F8] transition-colors duration-150 group"
                   >
                     <span className="font-semibold text-[#1B2A4A] text-sm block leading-tight">
                       {item.title}
                     </span>
                     {item.description && (
-                      <span className="text-[13px] text-[#6B7280] mt-1.5 block leading-snug">
+                      <span className="text-[12px] text-[#6B7280] mt-1 block leading-snug">
                         {item.description}
                       </span>
                     )}
