@@ -621,7 +621,7 @@ export const coverageArticles: CoverageArticleData[] = [
     title: "Does Medicare Cover Sleep Apnea",
     subtitle: "Sleep apnea is a common condition with which many people struggle. Medicare Part B provides coverage for sleep apnea, including doctor visits, sleep studies, and equipment to treat the disorder when a",
     category: "Medicare Coverage",
-    dateUpdated: "May 4, 2022",
+    dateUpdated: "April 13, 2026",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -636,18 +636,18 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "Sleep apnea is a common condition with which many people struggle. Medicare Part B provides coverage for sleep apnea, including doctor visits, sleep studies, and equipment to treat the disorder when a physician deems it medically necessary.",
+      text: "Medicare Part B covers sleep studies and CPAP/BiPAP equipment for obstructive sleep apnea when medically necessary and ordered by a Medicare-enrolled provider. Coverage typically begins with a 12-week CPAP trial. After meeting the Part B deductible, Medicare pays 80% of the approved amount. A Medigap plan generally covers the remaining 20% coinsurance.",
       badges: [
-        { plan: "Original Medicare", status: "partial" },
+        { plan: "Original Medicare", status: "covered" },
         { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "not-covered" },
+        { plan: "Medigap", status: "partial" },
       ],
     },
     comparisonTable: [
-      { planType: "Original Medicare", coverage: "Some Plans", icon: "shield", notes: "Limited coverage under specific conditions" },
-      { planType: "Medicare Advantage", coverage: "Some Plans", icon: "shield", notes: "Coverage varies by plan and ZIP code" },
-      { planType: "Medigap", coverage: "Not Covered", icon: "shield", notes: "Only supplements Original Medicare benefits" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover related prescriptions" },
+      { planType: "Original Medicare", coverage: "Covered", icon: "shield", notes: "Part B covers sleep studies and CPAP/BiPAP when medically necessary" },
+      { planType: "Medicare Advantage", coverage: "Varies by Plan", icon: "shield", notes: "Must cover at least Original Medicare benefits; cost-sharing and networks vary" },
+      { planType: "Medigap", coverage: "Covers Cost-Sharing", icon: "shield", notes: "Pays Part B coinsurance (20%) for approved sleep studies and CPAP equipment" },
+      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "Covers related prescriptions; does not cover CPAP equipment (that is Part B DME)" },
     ],
     planBreakdowns: [
       {
@@ -657,9 +657,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "Additionally, required supplies for a CPAP machine receive coverage through Medicare. Keep in mind that the [Medicare Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) applies to all equipment.",
-          "If you have a [Medicare Supplement (Medigap plan)](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it will cover the remainder of the cost. Medicare Part B will pay for 80% of sleep apnea devices covered by Medicare after you meet the deductible. However, if Medicare approves your device, Medigap will pay for the remaining 20%, and you will receive complete coverage.",
-          "Copays, network restrictions, and deductibles could apply for those with [Medicare Advantage](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans). Check with your provider before scheduling a sleep study or getting sleep apnea treatment equipment.",
+          "Medicare Part B covers sleep studies (polysomnography) and CPAP or BiPAP equipment as durable medical equipment (DME) when ordered by a Medicare-enrolled provider and when obstructive sleep apnea is medically necessary to treat. Coverage typically begins with a 12-week CPAP trial; continued coverage requires documentation that therapy is helping and that the device is being used consistently.",
+          "Required supplies for a CPAP machine, including masks, tubing, and filters, also receive coverage through Medicare as Part B DME. The [Medicare Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) ($283 in 2026) applies, after which Medicare pays 80% of the Medicare-approved amount and you pay the remaining 20% coinsurance.",
+          "If you have a [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it generally covers that 20% Part B coinsurance for approved sleep studies and CPAP equipment, significantly reducing your out-of-pocket costs. The exact benefit depends on which Medigap plan you have — Plans K, L, and M handle cost-sharing differently than Plans G and N.",
         ],
       },
       {
@@ -669,17 +669,18 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "Some [Medicare Advantage (Part C) plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+          "By law, all [Medicare Advantage (Part C) plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover at least the same medically necessary sleep studies and CPAP/BiPAP equipment that Original Medicare covers. What varies between plans is the cost-sharing (copays and coinsurance), network restrictions, prior authorization requirements, and any additional supplemental benefits. Always review your plan's Evidence of Coverage or speak with a licensed agent to understand your specific costs.",
         ],
       },
       {
         planName: "Medicare Supplement (Medigap)",
         icon: "users",
         iconColor: "#7C3AED",
-        coverageLabel: "Covered",
-        coverageType: "covered",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "partial",
         paragraphs: [
-          "Copays, network restrictions, and deductibles could apply for those with Medicare Advantage. Check with your provider before scheduling a sleep study or getting sleep apnea treatment equipment.",
+          "Medigap does not create new benefits beyond what Original Medicare covers, but it generally pays the 20% Part B coinsurance for approved sleep studies and CPAP/BiPAP equipment. This means that once Part B approves your sleep apnea treatment, a Medigap plan can effectively eliminate most of your out-of-pocket costs for those services.",
+          "The exact benefit depends on your specific Medigap plan. Most standardized plans (such as Plan G and Plan N) cover the Part B coinsurance in full. Plans K and L cover a percentage of the coinsurance rather than the full amount. Medigap policies do not have provider networks the way Medicare Advantage plans do, so you can see any Medicare-accepting provider nationwide.",
         ],
       },
     ],
@@ -692,10 +693,10 @@ export const coverageArticles: CoverageArticleData[] = [
       { question: "Does Medicare cover sleep apnea surgery?", answer: "Medicare covers essential surgical procedures. When you meet specific criteria, Medicare should cover the surgery. A Medigap plan covers the surgery balance if Medicare covers uvulopalatopharyngoplasty (UPPP); those with a Medicare Advantage plan need to contact their insurer about coverage. Medicare considers Laser-assisted uvulopalatoplasty (LAUP) ineffective and thus, does not provide coverage." },
     ],
     quickReference: [
-      { icon: "alert", text: "<strong>Original Medicare</strong> coverage varies by plan" },
-      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
-      { icon: "x", text: "<strong>Medigap</strong> does not cover this service" },
-      { icon: "info", text: "Always verify coverage with your specific plan" },
+      { icon: "check", text: "<strong>Original Medicare (Part B)</strong> covers sleep studies and CPAP/BiPAP when medically necessary 2014 coverage is standardized nationwide based on clinical criteria, not plan choice" },
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> must cover at least Original Medicare's sleep apnea benefits; cost-sharing, networks, and prior auth requirements vary by plan" },
+      { icon: "check", text: "<strong>Medigap</strong> typically covers the 20% Part B coinsurance for approved sleep studies and CPAP equipment 2014 the exact amount depends on your specific plan" },
+      { icon: "info", text: "Always verify cost-sharing details with your specific plan before scheduling a sleep study or obtaining equipment" },
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare and supplemental plans.", slug: "does-medicare-cover-dental-implants" },
