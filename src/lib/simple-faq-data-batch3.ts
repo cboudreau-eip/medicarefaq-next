@@ -320,24 +320,107 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
   {
     slug: 'applying-for-medicare',
     seo: {
-      title: 'Applying and Signing Up for Medicare',
-      description: 'Applying and signing up for Medicare is simple. Understanding the right way to enroll in coverage is important. We\'re here to help you through the process.',
+      title: 'How to Apply for Medicare in 2026: Step-by-Step Enrollment Guide',
+      description: 'Learn how to apply for Medicare Part A and Part B in 2026. Three ways to enroll, required documents, enrollment periods, deadlines, and what to do if you already have Part A.',
       canonical: 'https://www.medicarefaq.com/faqs/applying-for-medicare/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/when-to-sign-up-for-medicare-and-how-to-apply.jpg',
     },
-    title: 'Applying and Signing Up for Medicare',
-    summary: 'The first step to receiving Medicare benefits is to enroll in the health insurance program. We break down the three ways you can enroll and the enrollment process timeline.',
+    title: 'How to Apply and Sign Up for Medicare',
+    summary: 'Everything you need to know about enrolling in Medicare, including three ways to apply, enrollment periods and deadlines, required documents, and how to add Part B if you already have Part A.',
     category: 'Enrollment',
-    dateUpdated: 'May 21, 2024',
+    dateUpdated: 'April 14, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '5 min',
+    readTime: '12 min',
     sections: [
       {
         heading: 'Is Medicare Mandatory?',
         paragraphs: [
-          'Updated on May 21, 2024',
-          'For most, Medicare isn’t mandatory, but there are a lot of [variables](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) you’ll want to...',
+          'Medicare is not mandatory for most Americans, but understanding when and how to enroll is critical to avoiding costly mistakes. If you are receiving Social Security benefits when you turn 65, you will be automatically enrolled in [Medicare Part A and Part B](/original-medicare). However, if you are not yet collecting Social Security, you will need to actively sign up for Medicare yourself.',
+          'Even though enrollment is technically optional, delaying Medicare without qualifying coverage from an employer can result in [late enrollment penalties](/enrollment/late-penalties) that permanently increase your premiums. For most people turning 65, enrolling in Medicare on time is one of the most important financial decisions they will make.',
+        ],
+      },
+      {
+        heading: 'Three Ways to Apply for Medicare',
+        paragraphs: [
+          'The Social Security Administration (SSA) handles Medicare enrollment. You can apply through any of the following three methods.',
+        ],
+        listItems: [
+          'Online at ssa.gov: Visit ssa.gov/medicare and click "Apply for Medicare Only." Create or log into your my Social Security account, complete the application (about 10 to 30 minutes), and submit it. This is the fastest and most convenient option, available 24 hours a day, 7 days a week.',
+          'By phone: Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778). Representatives are available Monday through Friday, 8 AM to 7 PM local time. Have your Social Security number and personal information ready before calling.',
+          'In person at your local SSA office: Find your nearest office at ssa.gov/locator. Scheduling an appointment in advance is recommended to reduce wait times. Bring all required documents (listed below) and complete Form CMS-40B with a representative.',
+        ],
+      },
+      {
+        heading: 'Medicare Enrollment Periods and Deadlines',
+        paragraphs: [
+          'When you can enroll in Medicare depends on your specific situation. There are three main [enrollment periods](/enrollment/initial-enrollment-period) you should know about.',
+          'Initial Enrollment Period (IEP): This is a 7-month window centered around your 65th birthday. It begins 3 months before your birthday month, includes your birthday month, and extends 3 months after. This is your best opportunity to enroll without penalties or delays. For the earliest possible coverage start date, apply during the 3 months before your birthday month.',
+          'Special Enrollment Period (SEP): If you delayed Medicare because you had health coverage through an employer or union, you qualify for a [Special Enrollment Period](/enrollment/special-enrollment-period). You have 8 months after losing your employer coverage (or stopping work, whichever comes first) to sign up for Part B without a penalty. This is the most common scenario for people who [work past 65](/enrollment/working-past-65).',
+          'General Enrollment Period (GEP): If you missed both your IEP and any applicable SEP, you can enroll during the General Enrollment Period, which runs from January 1 through March 31 each year. However, coverage will not start until July 1, and you may face a permanent late enrollment penalty of 10% for each full 12-month period you could have had Part B but did not sign up.',
+        ],
+      },
+      {
+        heading: 'How to Apply for Part B When You Already Have Part A',
+        paragraphs: [
+          'This is one of the most common Medicare enrollment scenarios. Many people receive Part A automatically at age 65 (especially if they are already collecting Social Security) but delay Part B because they have employer-sponsored health insurance. When that employer coverage ends, they need to actively enroll in Part B.',
+          'To add Part B when you already have Part A, you will need to apply through Social Security using one of the three methods described above. The most important step is to also submit Form CMS-L564, which your employer or former employer must complete. This form verifies that you had creditable employer coverage and qualifies you for a Special Enrollment Period so you can avoid the late penalty.',
+          'You have 8 months from the date your employer coverage ends (or the date you stop working, whichever happens first) to enroll in Part B. Do not wait until the last minute. Processing times can vary, and a gap in coverage could leave you responsible for significant out-of-pocket costs. The 2026 [Part B premium is $185 per month](/original-medicare/medicare-parts/medicare-part-b), and the Part A deductible is $1,676 per benefit period.',
+        ],
+      },
+      {
+        heading: 'Documents You Will Need',
+        paragraphs: [
+          'Before applying, gather the following documents to ensure a smooth enrollment process.',
+        ],
+        listItems: [
+          'Your Social Security number',
+          'Your Medicare card (if you already have Part A)',
+          'Proof of U.S. citizenship or lawful permanent resident status',
+          'If applying due to loss of employer coverage: Form CMS-L564 (Request for Employment Information), completed and signed by your employer or former employer',
+          'If you have COBRA coverage: documentation showing your COBRA coverage dates and when it will end',
+          'Your birth certificate or passport (if applying for the first time)',
+        ],
+      },
+      {
+        heading: 'When Does Coverage Start?',
+        paragraphs: [
+          'Your Medicare coverage start date depends on when you enroll and which enrollment period you use.',
+          'If you enroll during the 3 months before your 65th birthday month, coverage typically starts on the first day of your birthday month. If you enroll during your birthday month or the 3 months after, there will be a 1 to 3 month delay before coverage begins.',
+          'If you enroll during a Special Enrollment Period, coverage can start as early as the first day of the month after you enroll. If you enroll during the General Enrollment Period (January through March), coverage does not begin until July 1 of that year.',
+        ],
+      },
+      {
+        heading: 'Understanding Part A vs. Part B Enrollment',
+        paragraphs: [
+          '[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers hospital stays, skilled nursing facility care, hospice, and some home health services. Most people qualify for premium-free Part A at age 65 if they or their spouse paid Medicare taxes for at least 10 years (40 quarters). Because Part A is free for most people, there is generally no reason to delay it.',
+          '[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers doctor visits, outpatient care, preventive services, durable medical equipment, and some home health services. Part B has a monthly premium ($185 per month in 2026 for most beneficiaries), which is why some people choose to delay it if they have employer coverage.',
+          'It is important to understand that Part A and Part B together make up [Original Medicare](/original-medicare). Once you have both parts, you can choose to add a [Medicare Supplement (Medigap) plan](/medicare-supplements) to help cover out-of-pocket costs, or you can switch to a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) as an alternative way to receive your Medicare benefits.',
+        ],
+      },
+      {
+        heading: 'Avoiding Late Enrollment Penalties',
+        paragraphs: [
+          'One of the biggest mistakes new Medicare beneficiaries make is missing their enrollment window. If you do not sign up for Part B when you are first eligible and you do not have qualifying employer coverage, you will face a [late enrollment penalty](/enrollment/late-penalties) that lasts for as long as you have Part B.',
+          'The Part B late penalty is an additional 10% of the standard premium for each full 12-month period you could have had Part B but did not enroll. For example, if you delayed Part B for 3 years without creditable coverage, your monthly premium would be 30% higher than the standard rate, permanently. At 2026 rates, that means paying $240.50 per month instead of $185.',
+          'Part D (prescription drug coverage) also carries a late penalty of 1% of the national base beneficiary premium for each month you went without creditable drug coverage. These penalties add up over time and cannot be reversed.',
+        ],
+      },
+      {
+        heading: 'What to Do After You Enroll',
+        paragraphs: [
+          'Once your Medicare enrollment is confirmed, there are several important next steps to consider. You will receive your red, white, and blue Medicare card in the mail, typically within a few weeks of enrollment. Keep this card in a safe place and carry it with you to medical appointments.',
+          'After enrolling in Original Medicare, you should evaluate whether you need additional coverage. Many beneficiaries choose to add a [Medicare Supplement plan](/medicare-supplements) to help cover deductibles, coinsurance, and copayments that Original Medicare does not pay. Others prefer a Medicare Advantage plan, which bundles Part A, Part B, and often Part D into a single plan with additional benefits like dental and vision.',
+          'You should also consider enrolling in a [Part D prescription drug plan](/original-medicare/medicare-parts/medicare-part-d) if you are staying with Original Medicare. Even if you do not take many medications now, having drug coverage protects you from the Part D late penalty and ensures you are covered if your prescription needs change.',
+        ],
+      },
+      {
+        heading: 'Frequently Asked Questions',
+        paragraphs: [
+          'Can I apply for Medicare before I turn 65? You can apply for Medicare up to 3 months before your 65th birthday. This is the recommended approach to ensure coverage starts as early as possible.',
+          'Do I need to sign up for Medicare if I am still working? If you have employer coverage through your own job (or your spouse\'s job) at a company with 20 or more employees, you can delay Medicare Part B without penalty. However, you should still sign up for Part A since it is free for most people.',
+          'What if I missed my enrollment period? If you missed your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 through March 31). Coverage will start July 1, and you may owe a late penalty.',
+          'How long does it take to get my Medicare card? After enrolling, most people receive their Medicare card within 2 to 4 weeks. You can also log into your Medicare.gov account to access a digital copy of your card.',
         ],
       },
     ],

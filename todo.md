@@ -72,3 +72,4 @@
 - [ ] Fix orphaned non-FAQ pages (mutual-of-omaha, role-of-a-caregiver, MA plan types)
 - [ ] Update relatedSlugs to point more links at 72 orphaned FAQ articles
 - [ ] Consolidate 18 FAQ categories into 6-7 parent groups for cleaner filter pills
+- [ ] Rewrite /faqs/applying-for-medicare with comprehensive content and 5+ internal links

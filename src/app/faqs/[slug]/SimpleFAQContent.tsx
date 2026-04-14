@@ -5,7 +5,7 @@
  * Renders FAQ articles with headings + paragraphs, TOC sidebar, helpful vote, CTA banner.
  */
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import {
   Clock,
@@ -19,6 +19,37 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import type { SimpleFAQArticleData } from "@/lib/article-types";
+
+/* ─── Render markdown-style [text](url) links within paragraph text ─── */
+function renderInlineLinks(text: string, key: number | string): React.ReactNode {
+  const parts: React.ReactNode[] = [];
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  while ((match = linkRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    const [, linkText, href] = match;
+    const isInternal = href.startsWith("/");
+    parts.push(
+      isInternal ? (
+        <Link key={`link-${key}-${match.index}`} href={href} className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors">
+          {linkText}
+        </Link>
+      ) : (
+        <a key={`link-${key}-${match.index}`} href={href} target="_blank" rel="noopener noreferrer" className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors">
+          {linkText}
+        </a>
+      )
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts.length > 0 ? parts : text;
+}
 
 export default function SimpleFAQContent({ article }: { article: SimpleFAQArticleData }) {
   const [helpfulVote, setHelpfulVote] = useState<"yes" | "no" | null>(null);
@@ -122,13 +153,13 @@ export default function SimpleFAQContent({ article }: { article: SimpleFAQArticl
                     )}
                     {section.paragraphs.map((p, j) => (
                       <p key={j} className="text-[#4B5563] text-[15px] leading-relaxed mb-3">
-                        {p}
+                        {renderInlineLinks(p, j)}
                       </p>
                     ))}
                     {section.listItems && section.listItems.length > 0 && (
                       <ul className="list-disc pl-6 space-y-1.5 text-[#4B5563] text-[15px] mb-3">
                         {section.listItems.map((item, k) => (
-                          <li key={k}>{item}</li>
+                          <li key={k}>{renderInlineLinks(item, k)}</li>
                         ))}
                       </ul>
                     )}
