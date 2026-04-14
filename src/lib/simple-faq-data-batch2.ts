@@ -197,32 +197,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-prior-authorization", "advance-beneficiary-notice", "what-does-medically-necessary-mean", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],
   },
   {
-    slug: 'medicare-coverage-for-stem-cell-treatments',
-    seo: {
-      title: 'Does Medicare Cover Stem Cell Therapy?',
-      description: 'Does Medicare cover stem cell therapy? Specific healthcare options, such as HSCT & AuSCT, are approved by Medicare and the FDA. Learn more.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-stem-cell-treatments/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-stem-cell-therapy.jpg',
-    },
-    title: 'Does Medicare Cover Stem Cell Therapy?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'May 23, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Hip Replacement?',
-        paragraphs: [
-          'Updated on May 23, 2023',
-          '[Medicare will cover hip replacements](/faqs/medicare-coverage-for-hip-injections) for beneficiaries when it is [medically necessary](/faqs/what-does-medically-necessary-mean). If you break...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-and-alternative-therapies-whats-covered-and-whats-not", "will-medicare-cover-my-surgery", "what-does-medically-necessary-mean", "medicare-preventive-services"],
-  },
-  {
     slug: 'medicare-and-mail-order-prescriptions',
     seo: {
       title: 'Medicare and Mail Order Prescriptions',
@@ -559,31 +533,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "25-medicare-qas-you-should-know", "full-retirement-age", "what-is-medicare"],
   },
   {
-    slug: 'medicare-coverage-for-botox-treatments',
-    seo: {
-      title: 'Medicare Guidelines for Botox Treatments',
-      description: 'Whether using Botox for cosmetic or medically necessary treatment, It’s important to know your Medicare coverage benefits for Botox.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-botox-treatments/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-guidelines-for-botox-treatments.jpg',
-    },
-    title: 'Medicare Guidelines for Botox Treatments',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'I received botex injections every 3 months from stroke related symptoms on my weak right upper arm/hands.[I start Medicare in May 2024](/faqs/when-should-you-enroll-in-medicare-if-still-working). [Does Medicare cover](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) this ?',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-plastic-surgery", "medicare-preventive-services", "what-does-medically-necessary-mean", "will-medicare-cover-my-surgery"],
-  },
-  {
     slug: 'how-tricare-works-with-medicare',
     seo: {
       title: 'How TRICARE Works with Medicare',
@@ -889,31 +838,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan"],
   },
   {
-    slug: 'medicare-coverage-for-cancer',
-    seo: {
-      title: 'Medicare Coverage for Cancer Treatments',
-      description: 'If you or a loved one is on Medicare and was diagnosed with cancer, it\'s important to understand your Medicare Cancer Coverage, learn here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-cancer/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-cancer-treatments.jpg',
-    },
-    title: 'Medicare Coverage for Cancer Treatments',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Hello there my wife has stage 3 Brest cancer she also has [Medical](/blog/medicare-parts-a-b-c-and-d-explained-simply) her doctor submitted for the Mobile [chemotherapy](/faqs/does-medicare-cover-mental-health) personality so they submitted again and did the chemo anyway and now it’s time for her second chemo and it was [denied](/blog/medicare-advantage-denied-claims-crisis) and they still have not approved  from the first one yet what can be done',
-        ],
-      },
-    ],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-preventive-services", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
-  },
-  {
     slug: 'medicare-advantage-vs-medicare-supplement',
     seo: {
       title: 'Medigap vs Medicare Advantage',
@@ -1041,31 +965,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["married-divorced-widowed-how-relationship-status-affects-medicare", "differences-between-medicare-and-social-security", "applying-for-medicare", "full-retirement-age", "when-does-medicare-start"],
-  },
-  {
-    slug: 'medicare-coverage-for-bariatric-surgery',
-    seo: {
-      title: 'Medicare Coverage for Bariatric Weight Loss Surgeries',
-      description: 'Does Medicare cover bariatric surgery? Find out here which weight loss surgeries get coverage, as well as the requirements for approval.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-bariatric-surgery/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-bariatric-weight-loss-surgeries.jpg',
-    },
-    title: 'Medicare Coverage for Bariatric Weight Loss Surgeries',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Is excess skin removal paid by Medicare?',
-        ],
-      },
-    ],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-preventive-services", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "what-does-medically-necessary-mean", "advance-beneficiary-notice"],
   },
   {
     slug: 'travel-insurance-for-seniors-with-medicare',

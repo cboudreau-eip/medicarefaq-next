@@ -9564,4 +9564,1018 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["what-is-durable-medical-equipment-dme", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-ostomy-supplies", "medicare-coverage-for-incontinence-supplies"],
   },
 
+// BATCH 6: Skilled Nursing Facilities, Stem Cell Treatments, Botox, Cancer, Bariatric Surgery
+// Format: CoverageArticleData (correct format matching article-types.ts)
+
+  {
+    slug: "medicare-coverage-for-skilled-nursing-facilities",
+    seo: {
+      title: "Medicare Coverage for Skilled Nursing Facilities | MedicareFAQ",
+      description: "Medicare covers up to 100 days in a skilled nursing facility per benefit period. Learn the eligibility rules, daily costs, and how Medigap can cover your share.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-skilled-nursing-facilities/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-skilled-nursing-facilities.jpg",
+    },
+    title: "Medicare Coverage for Skilled Nursing Facilities",
+    subtitle: "Medicare Part A covers up to 100 days in a skilled nursing facility per benefit period — but only after a qualifying 3-day hospital stay. Learn the eligibility rules, daily costs, and how Medigap can eliminate your out-of-pocket expenses.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare Part A covers up to 100 days in a skilled nursing facility (SNF) per benefit period — but only after a qualifying 3-day inpatient hospital stay. Days 1–20 are fully covered. Days 21–100 require a daily coinsurance payment ($209.50 in 2024). After day 100, Medicare pays nothing. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can cover the daily coinsurance and extend your financial protection.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A)", coverage: "Covered — up to 100 days/benefit period", icon: "shield", notes: "Days 1–20 free; days 21–100 cost $209.50/day (2024); nothing after day 100" },
+      { planType: "Medicare Part B", coverage: "Partial — outpatient therapy only", icon: "activity", notes: "Covers outpatient physical, occupational, and speech therapy after SNF discharge" },
+      { planType: "Medicare Advantage", coverage: "Covered — varies by plan", icon: "heart", notes: "Must match Original Medicare minimum; prior authorization almost always required" },
+      { planType: "Medigap (Plan G/N)", coverage: "Covered — cost-sharing", icon: "users", notes: "Covers Part A coinsurance for days 21–100; reduces your cost to $0 with Plan G" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — up to 100 days per benefit period",
+        paragraphs: [
+          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) is the primary payer for skilled nursing facility care. To qualify, you must have had a qualifying inpatient hospital stay of at least 3 consecutive days (not counting the discharge day). The SNF admission must occur within 30 days of your hospital discharge.",
+          "Days 1–20 are covered at 100% — you pay nothing. Days 21–100 require a daily coinsurance of $209.50 in 2024. After day 100, Medicare pays nothing and you are responsible for the full daily rate, which can exceed $300–$500 per day at many facilities.",
+          "Each benefit period resets when you have been out of a hospital or SNF for 60 consecutive days, meaning you can receive another 100-day benefit if you are re-hospitalized.",
+        ],
+        whatItCovers: [
+          "Semi-private room and board",
+          "Skilled nursing care (wound care, IV therapy, injections)",
+          "Physical, occupational, and speech therapy",
+          "Medical social services",
+          "Medications, medical supplies, and equipment used in the facility",
+          "Dietary counseling",
+        ],
+        whatItDoesntCover: [
+          "Custodial care only (bathing, dressing, eating — with no skilled care)",
+          "Private room (unless medically necessary)",
+          "Personal items (TV, phone, toiletries)",
+          "Care in a non-Medicare-certified facility",
+        ],
+        callout: {
+          type: "warning",
+          title: "Observation Status Does Not Count",
+          text: "The 3-day hospital stay rule is strict — observation status does not count. Always confirm with your hospital that you are admitted as an inpatient, not under observation.",
+        },
+        costNote: "2024 SNF coinsurance: $0/day (Days 1–20), $209.50/day (Days 21–100), 100% out-of-pocket (Day 101+).",
+      },
+      {
+        planName: "Medicare Advantage",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered — varies by plan",
+        coverageType: "partial",
+        statusBadge: "Covered — prior authorization required",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover the same SNF benefits as Original Medicare, but the cost-sharing structure can differ significantly. Some plans offer lower daily coinsurance for days 21–100, while others may extend SNF coverage beyond 100 days.",
+          "Most Advantage plans require prior authorization for SNF admission. Without prior authorization, your claim may be denied. Always contact your plan before or immediately after a SNF admission.",
+          "Network restrictions may also apply — you may need to use an in-network SNF to receive full benefits. Out-of-network SNF care may result in higher costs or no coverage at all.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Always Get Prior Authorization",
+          text: "Always verify prior authorization requirements with your Medicare Advantage plan before or immediately after a SNF admission. Failure to do so can result in claim denial.",
+        },
+        costNote: "Costs vary by plan. Review your plan's Evidence of Coverage (EOC) for exact SNF cost-sharing details.",
+      },
+      {
+        planName: "Medigap (Medicare Supplement)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Part A coinsurance",
+        coverageType: "covered",
+        statusBadge: "Covers days 21–100 coinsurance with Plan G",
+        paragraphs: [
+          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) or Plan N will cover the daily coinsurance for SNF days 21–100, reducing your out-of-pocket cost to $0 for those days. This can save you over $16,760 if you use the full 80 days of coinsurance coverage.",
+          "Medigap does not extend the 100-day benefit period — after day 100, you are still responsible for all costs. However, for most SNF stays, the 100-day benefit is sufficient.",
+          "If you are enrolled in a Medicare Advantage plan, you cannot use a Medigap policy. Medigap only works alongside Original Medicare (Parts A and B).",
+        ],
+        whatItCovers: [
+          "Part A coinsurance for SNF days 21–100 ($0/day with Plan G)",
+          "Part A deductible (covered by Plan G)",
+          "Excess charges (covered by Plan G)",
+        ],
+        whatItDoesntCover: [
+          "SNF care beyond day 100",
+          "Custodial care not covered by Medicare",
+        ],
+        costNote: "With Plan G: $0 for SNF days 1–100 (after Part A deductible). Without Medigap: up to $16,760 in coinsurance for days 21–100.",
+      },
+    ],
+    costTable: {
+      title: "SNF Daily Cost Breakdown (2024)",
+      headers: ["Days in SNF", "Medicare Pays", "You Pay (No Supplement)", "You Pay (With Plan G)"],
+      rows: [
+        { "Days in SNF": "Days 1–20", "Medicare Pays": "100%", "You Pay (No Supplement)": "$0", "You Pay (With Plan G)": "$0" },
+        { "Days in SNF": "Days 21–100", "Medicare Pays": "All but $209.50/day", "You Pay (No Supplement)": "$209.50/day", "You Pay (With Plan G)": "$0" },
+        { "Days in SNF": "Day 101+", "Medicare Pays": "$0", "You Pay (No Supplement)": "Full daily rate", "You Pay (With Plan G)": "Full daily rate" },
+        { "Days in SNF": "Max 80-day coinsurance exposure", "Medicare Pays": "—", "You Pay (No Supplement)": "Up to $16,760", "You Pay (With Plan G)": "$0" },
+      ],
+      footnote: "2024 figures. The Part A deductible ($1,632 in 2024) applies to the qualifying hospital stay, not the SNF stay itself.",
+    },
+    exceptionsSection: {
+      title: "When Medicare Won't Cover SNF Care",
+      items: [
+        {
+          title: "Custodial Care Only",
+          text: "Medicare does not cover custodial care — help with activities of daily living (bathing, dressing, eating) when no skilled nursing or therapy services are needed. If you only need custodial care, Medicare will not pay, even if you are in a SNF.",
+        },
+        {
+          title: "No Qualifying Hospital Stay",
+          text: "If you were not admitted as an inpatient for at least 3 consecutive days before your SNF admission, Medicare will not cover the SNF stay. Observation status days do not count toward the 3-day requirement.",
+        },
+        {
+          title: "SNF Not Medicare-Certified",
+          text: "The skilled nursing facility must be Medicare-certified for Medicare to pay. Always confirm the facility's certification status before admission.",
+        },
+        {
+          title: "Improvement No Longer Expected",
+          text: "Medicare covers SNF care as long as you need skilled services and are making progress. If your condition plateaus and no further improvement is expected, Medicare may stop covering the stay — even before day 100.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover 100% of skilled nursing facility costs?",
+        answer: "Medicare covers 100% of SNF costs for the first 20 days. Days 21–100 require a daily coinsurance ($209.50 in 2024). After day 100, Medicare pays nothing. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can cover the daily coinsurance for days 21–100.",
+      },
+      {
+        question: "What is the 3-day hospital stay rule for SNF coverage?",
+        answer: "To qualify for Medicare SNF coverage, you must have been admitted as an inpatient at a hospital for at least 3 consecutive days (not counting the discharge day). Observation status does not count. The SNF admission must occur within 30 days of hospital discharge.",
+      },
+      {
+        question: "Does Medicare cover long-term care in a nursing home?",
+        answer: "No. Medicare does not cover long-term custodial care in a nursing home. Medicare only covers skilled nursing care — services like wound care, IV therapy, or physical therapy provided by licensed professionals. For long-term care, you would need Medicaid or a long-term care insurance policy.",
+      },
+      {
+        question: "How does a Medicare benefit period work for SNF care?",
+        answer: "A benefit period begins the day you are admitted to a hospital or SNF and ends when you have been out of a hospital or SNF for 60 consecutive days. Each new benefit period gives you a fresh 100-day SNF benefit, but you must have a new qualifying 3-day hospital stay.",
+      },
+      {
+        question: "Can Medicare Advantage cover more than 100 days in a SNF?",
+        answer: "Some Medicare Advantage plans do offer extended SNF benefits beyond 100 days. Review your plan's Evidence of Coverage or call your plan to confirm. Prior authorization is typically required.",
+      },
+      {
+        question: "What is the difference between a SNF and a nursing home?",
+        answer: "A skilled nursing facility (SNF) provides short-term, medically necessary skilled care after a hospital stay. A nursing home provides long-term custodial care. Medicare covers SNF care; it does not cover long-term nursing home care.",
+      },
+      {
+        question: "Does Medicare cover physical therapy in a SNF?",
+        answer: "Yes. Physical therapy, occupational therapy, and speech-language pathology services provided in a SNF are covered under Part A during the benefit period. Outpatient therapy after discharge is covered under [Medicare Part B](/faqs/medicare-coverage-for-physical-therapy).",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Part A</strong> covers SNF days 1–20 at 100% after a qualifying 3-day hospital stay" },
+      { icon: "dollar", text: "Days 21–100: <strong>$209.50/day</strong> coinsurance in 2024" },
+      { icon: "x", text: "No Medicare coverage after day 100" },
+      { icon: "alert", text: "Observation status does <strong>not</strong> count toward the 3-day hospital requirement" },
+      { icon: "check", text: "Medigap Plan G covers the full days 21–100 coinsurance" },
+      { icon: "info", text: "Benefit period resets after 60 consecutive days out of a hospital or SNF" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Physical Therapy", description: "Learn how Medicare covers inpatient and outpatient physical therapy services.", slug: "medicare-coverage-for-physical-therapy" },
+      { title: "Does Medicare Cover Hospice?", description: "Understand Medicare's hospice benefit and how it differs from SNF care.", slug: "does-medicare-cover-hospice" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G covers SNF coinsurance and other Medicare cost-sharing.", slug: "medicare-supplement-plan-g" },
+      { title: "What Does Medicare Part A Cover?", description: "Explore the full scope of Medicare Part A hospital and SNF benefits.", slug: "what-does-medicare-part-a-cover" },
+    ],
+    sidebarRelatedLinks: [
+      "What Does Medicare Part A Cover",
+      "Medicare Supplement Plan G",
+      "Medicare Coverage for Physical Therapy",
+      "Does Medicare Cover Hospice",
+    ],
+    ctaBanner: {
+      title: "Worried About Skilled Nursing Facility Costs?",
+      text: "A Medigap Plan G can eliminate your skilled nursing facility coinsurance for days 21–100, saving you up to $16,760 per benefit period. Compare plans in your area today.",
+    },
+    relatedSlugs: ["does-medicare-cover-hospice", "medicare-coverage-for-physical-therapy", "medicare-supplement-plan-g", "what-does-medicare-part-a-cover"],
+  },
+
+  {
+    slug: "medicare-coverage-for-stem-cell-treatments",
+    seo: {
+      title: "Does Medicare Cover Stem Cell Therapy? | MedicareFAQ",
+      description: "Medicare covers FDA-approved stem cell transplants for certain cancers and blood disorders. Learn which therapies qualify and what you will pay.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-stem-cell-treatments/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-stem-cell-treatments.jpg",
+    },
+    title: "Does Medicare Cover Stem Cell Therapy?",
+    subtitle: "Medicare covers stem cell therapy only when it is FDA-approved and deemed medically necessary. Learn which conditions qualify, what Medicare pays, and why most stem cell therapies are not covered.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Medicare covers stem cell therapy only when it is FDA-approved and deemed medically necessary. The two approved therapies are Hematopoietic Stem Cell Transplantation (HSCT) and Autologous Stem Cell Transplantation (AuSCT), primarily for certain cancers and blood disorders. Stem cell therapy for knees, hips, back pain, arthritis, COPD, or cosmetic purposes is **not covered** because the FDA has not approved these applications.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "partial" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A)", coverage: "Covered — inpatient transplant", icon: "shield", notes: "Covers inpatient stem cell transplant hospital stay after Part A deductible" },
+      { planType: "Original Medicare (Part B)", coverage: "Partial — outpatient only", icon: "activity", notes: "Covers outpatient stem cell therapy sessions at 80% after Part B deductible" },
+      { planType: "Medicare Advantage", coverage: "Covered — same as A+B", icon: "heart", notes: "Must cover same FDA-approved therapies as Original Medicare; prior auth required" },
+      { planType: "Medigap (Plan G)", coverage: "Covered — cost-sharing", icon: "users", notes: "Covers Part A/B deductibles and coinsurance; reduces your cost to near $0" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — FDA-approved therapies only",
+        coverageType: "covered",
+        statusBadge: "Covered — HSCT and AuSCT for qualifying conditions",
+        paragraphs: [
+          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient stem cell transplants during a hospital stay. The transplant process — which can last 3 to 4 weeks as an inpatient — is covered after you meet the Part A deductible ($1,632 in 2024). Part A also covers any [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities) needed after discharge.",
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient stem cell therapy sessions. You pay 20% of the Medicare-approved amount after meeting the Part B deductible ($240 in 2024). Given the high cost of stem cell treatments ($5,000–$50,000+), this 20% can be substantial.",
+          "The critical requirement is FDA approval. Medicare only covers stem cell therapies approved by the FDA — specifically HSCT and AuSCT for certain cancers, blood disorders, and immune system conditions. Any non-FDA-approved therapy will be denied.",
+        ],
+        whatItCovers: [
+          "Hematopoietic Stem Cell Transplantation (HSCT) for certain cancers and blood disorders",
+          "Autologous Stem Cell Transplantation (AuSCT) for qualifying cancer conditions",
+          "Inpatient hospital stay during the transplant process",
+          "Outpatient follow-up sessions covered under Part B",
+          "FDA-approved stem cell therapy through eligible clinical trials",
+        ],
+        whatItDoesntCover: [
+          "Stem cell therapy for knees, hips, or joint pain (not FDA-approved)",
+          "Stem cell therapy for COPD, back pain, or arthritis (not FDA-approved)",
+          "Cosmetic or regenerative stem cell therapies",
+          "Non-FDA-approved experimental applications",
+        ],
+        callout: {
+          type: "tip",
+          title: "Clinical Trials May Expand Coverage",
+          text: "Medicare may also cover FDA-approved stem cell therapy through eligible clinical trials. Ask your oncologist if you qualify for a covered clinical trial.",
+        },
+        costNote: "Stem cell therapy costs range from $5,000 to $50,000+. With Original Medicare only, you pay 20% of outpatient costs and the Part A deductible for inpatient stays.",
+      },
+      {
+        planName: "Medicare Advantage",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered — same as Original Medicare",
+        coverageType: "covered",
+        statusBadge: "Covered — prior authorization required",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must provide the same coverage as Original Medicare Parts A and B. Therefore, FDA-approved stem cell therapies covered by Original Medicare are also covered by Medicare Advantage plans.",
+          "Some Advantage plans may offer additional benefits, but non-FDA-approved stem cell therapies remain excluded regardless of plan type. Prior authorization is commonly required for stem cell transplants under Advantage plans.",
+          "Network restrictions may require you to use specific oncology centers or hospitals. Verify that your preferred cancer treatment center is in-network before proceeding.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Prior Authorization Is Almost Always Required",
+          text: "Prior authorization is almost always required for stem cell transplants under Medicare Advantage. Contact your plan immediately after your oncologist recommends treatment.",
+        },
+        costNote: "Cost-sharing varies by plan. Review your Evidence of Coverage for specific stem cell transplant cost details.",
+      },
+      {
+        planName: "Medigap (Medicare Supplement)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers your cost-sharing",
+        coverageType: "covered",
+        statusBadge: "Covers Part A deductible and Part B coinsurance",
+        paragraphs: [
+          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible and the 20% Part B coinsurance for Medicare-approved stem cell therapy. Given the high cost of these treatments, Medigap can save you thousands of dollars.",
+          "Medigap covers any service that Original Medicare approves — so if Medicare approves a stem cell therapy, your Medigap plan will cover your share of the cost. This provides significant financial protection for expensive cancer treatments.",
+          "If you have a Medicare Advantage plan, you cannot use Medigap. Medigap only supplements Original Medicare (Parts A and B).",
+        ],
+        costNote: "With Plan G: pay only the Part B deductible ($240 in 2024). Without Medigap: 20% of all outpatient costs plus the Part A deductible for inpatient stays.",
+      },
+    ],
+    costTable: {
+      title: "Stem Cell Therapy Coverage by Condition",
+      headers: ["Condition/Application", "FDA Approved?", "Medicare Covers?", "Estimated Cost Without Coverage"],
+      rows: [
+        { "Condition/Application": "Certain cancers (lymphoma, leukemia)", "FDA Approved?": "Yes (HSCT/AuSCT)", "Medicare Covers?": "Yes", "Estimated Cost Without Coverage": "$50,000–$200,000+" },
+        { "Condition/Application": "Blood/immune disorders", "FDA Approved?": "Yes (HSCT)", "Medicare Covers?": "Yes", "Estimated Cost Without Coverage": "$50,000–$150,000+" },
+        { "Condition/Application": "Knee/hip/joint pain", "FDA Approved?": "No", "Medicare Covers?": "No", "Estimated Cost Without Coverage": "$3,000–$10,000 per joint" },
+        { "Condition/Application": "Back pain", "FDA Approved?": "No", "Medicare Covers?": "No", "Estimated Cost Without Coverage": "$5,000–$7,000" },
+        { "Condition/Application": "COPD", "FDA Approved?": "No", "Medicare Covers?": "No", "Estimated Cost Without Coverage": "$10,000–$35,000" },
+        { "Condition/Application": "Arthritis, neuropathy, shoulders", "FDA Approved?": "No", "Medicare Covers?": "No", "Estimated Cost Without Coverage": "$1,500–$10,000" },
+      ],
+      footnote: "Only FDA-approved stem cell therapies are covered by Medicare. Non-approved therapies are entirely out-of-pocket and may carry legal and safety risks.",
+    },
+    exceptionsSection: {
+      title: "Stem Cell Therapies Medicare Does NOT Cover",
+      items: [
+        {
+          title: "Non-FDA-Approved Applications",
+          text: "The vast majority of stem cell therapy applications — including for knees, hips, back pain, arthritis, COPD, neuropathy, and cosmetic purposes — are not FDA-approved and therefore not covered by Medicare. Clinics advertising these treatments may be operating illegally.",
+        },
+        {
+          title: "Multiple Myeloma",
+          text: "Despite being a blood cancer, stem cell transplants for multiple myeloma do not currently have Medicare coverage because they lack FDA approval for this specific indication.",
+        },
+        {
+          title: "Regenerative Medicine",
+          text: "Regenerative stem cell therapies (including exosome products) are not FDA-approved and are not covered by Medicare. The FDA has issued consumer alerts warning about unapproved regenerative medicine products.",
+        },
+        {
+          title: "Experimental Applications",
+          text: "Experimental applications of stem cell therapy, including for COVID-19, epilepsy, and many other conditions, are not FDA-approved and are not covered by Medicare.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover stem cell therapy for cancer?",
+        answer: "Yes, Medicare covers FDA-approved stem cell therapy for certain cancers, including lymphoma and leukemia. The two approved therapies are HSCT and AuSCT. Medicare may also cover stem cell therapy through eligible clinical trials for other cancer types.",
+      },
+      {
+        question: "Does Medicare cover stem cell therapy for knees or hips?",
+        answer: "No. The FDA has not approved stem cell therapy for knee or hip conditions. Because Medicare only covers FDA-approved treatments, stem cell therapy for joints is not covered. Medicare does cover [knee replacements](/faqs/does-medicare-cover-knee-replacement) and hip replacements when medically necessary.",
+      },
+      {
+        question: "Does Medicare cover autologous stem cell transplants?",
+        answer: "Yes. Medicare covers Autologous Stem Cell Transplantation (AuSCT) for conditions such as acute leukemia in remission and advanced Hodgkin's Disease, as well as to replenish stem cells destroyed during cancer treatment.",
+      },
+      {
+        question: "How much does stem cell therapy cost with Medicare?",
+        answer: "With Original Medicare, you pay the Part A deductible ($1,632 in 2024) for inpatient transplants and 20% of outpatient costs. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can reduce your share to just the annual Part B deductible ($240 in 2024).",
+      },
+      {
+        question: "Does Medicare cover stem cell therapy for COPD?",
+        answer: "No. Stem cell therapy for COPD is not FDA-approved and is not covered by Medicare. Costs can range from $10,000 to $35,000 and the procedures may carry significant health risks.",
+      },
+      {
+        question: "Can Medicare cover stem cell therapy through a clinical trial?",
+        answer: "Yes. If you qualify for an eligible clinical trial that meets CMS criteria, Medicare may cover the routine costs associated with the trial, including stem cell therapy. Ask your oncologist about available clinical trials.",
+      },
+      {
+        question: "Does Medicare Advantage cover stem cell therapy?",
+        answer: "Yes. Medicare Advantage plans must cover the same services as Original Medicare, including FDA-approved stem cell therapies. Prior authorization is typically required. Contact your plan before treatment.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare covers</strong> FDA-approved HSCT and AuSCT for certain cancers and blood disorders" },
+      { icon: "x", text: "Stem cell therapy for joints, back pain, COPD, and arthritis is <strong>NOT covered</strong>" },
+      { icon: "dollar", text: "Inpatient transplant: Part A deductible + coinsurance; Outpatient: 20% coinsurance" },
+      { icon: "check", text: "Medigap Plan G covers your share of Medicare-approved stem cell therapy" },
+      { icon: "alert", text: "Non-FDA-approved stem cell clinics may be operating illegally — verify with FDA" },
+      { icon: "info", text: "Clinical trials may provide Medicare coverage for additional stem cell applications" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Cancer", description: "Learn how Medicare covers chemotherapy, radiation, immunotherapy, and cancer screenings.", slug: "medicare-coverage-for-cancer" },
+      { title: "Does Medicare Cover End Stage Renal Disease?", description: "Understand Medicare's ESRD program and how it covers dialysis and kidney transplants.", slug: "does-medicare-cover-end-stage-renal-disease" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G covers your share of expensive Medicare-approved treatments.", slug: "medicare-supplement-plan-g" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn how Medicare covers diagnostic biopsies used to detect cancer.", slug: "does-medicare-cover-a-biopsy" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Cancer",
+      "Medicare Supplement Plan G",
+      "Does Medicare Cover a Biopsy",
+      "Does Medicare Cover End Stage Renal Disease",
+    ],
+    ctaBanner: {
+      title: "Facing a Costly Cancer Treatment?",
+      text: "A Medigap Plan G can cover your 20% coinsurance for Medicare-approved stem cell therapy and other cancer treatments. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-cancer", "does-medicare-cover-end-stage-renal-disease", "medicare-supplement-plan-g", "does-medicare-cover-a-biopsy"],
+  },
+
+  {
+    slug: "medicare-coverage-for-botox-treatments",
+    seo: {
+      title: "Medicare Coverage for Botox Treatments | MedicareFAQ",
+      description: "Medicare covers Botox for chronic migraines, overactive bladder, cervical dystonia, and other FDA-approved medical conditions. Learn the guidelines and costs.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-botox-treatments/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-guidelines-for-botox-treatments.jpg",
+    },
+    title: "Medicare Guidelines for Botox Treatments",
+    subtitle: "Medicare covers Botox injections for several FDA-approved medical conditions including chronic migraines, overactive bladder, cervical dystonia, and upper limb spasms. Learn what qualifies, what you will pay, and how Medigap can help.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Medicare covers Botox injections when they are medically necessary and FDA-approved for a specific condition. Covered conditions include chronic migraines (15+ headache days/month), overactive bladder, cervical dystonia, upper limb spasms, eyelid muscle spasms (blepharospasm), and excessive underarm sweating (hyperhidrosis). **Cosmetic Botox for wrinkles is not covered** unless the condition results from an accident or injury.",
+      badges: [
+        { plan: "Part B", status: "covered" },
+        { plan: "Part A", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part B)", coverage: "Covered — medically necessary Botox", icon: "shield", notes: "Covers 80% of outpatient Botox for approved conditions after Part B deductible" },
+      { planType: "Original Medicare (Part A)", coverage: "Partial — inpatient only", icon: "activity", notes: "Covers Botox administered during an inpatient hospital stay" },
+      { planType: "Medicare Advantage", coverage: "Covered — varies by plan", icon: "heart", notes: "Must cover same conditions as Original Medicare; prior auth often required" },
+      { planType: "Medigap (Plan G)", coverage: "Covered — cost-sharing", icon: "users", notes: "Covers the 20% Part B coinsurance for all Medicare-approved Botox sessions" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — medically necessary Botox",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary and FDA-approved",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers Botox injections administered in a doctor's office or outpatient clinic when the treatment is medically necessary and FDA-approved. Part B pays 80% of the Medicare-approved amount; you pay the remaining 20% after meeting your annual Part B deductible ($240 in 2024).",
+          "The typical Botox dosage for chronic migraines is 155 units, costing approximately $300–$600 per treatment session. With Part B covering 80%, your out-of-pocket cost per session would be approximately $60–$120 without a [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one).",
+          "Before receiving Botox, you must typically try other treatments first and show no improvement. Your doctor must document that Botox is medically necessary for your specific condition. Contact your plan before treatment to confirm coverage and whether prior authorization is required.",
+        ],
+        whatItCovers: [
+          "Botox for chronic migraines (15+ headache days/month)",
+          "Botox for overactive bladder (OAB) when other treatments have failed",
+          "Botox for cervical dystonia (involuntary neck muscle contractions)",
+          "Botox for upper limb spasticity after stroke or brain injury",
+          "Botox for blepharospasm (eyelid muscle spasms)",
+          "Botox for primary axillary hyperhidrosis (excessive underarm sweating)",
+        ],
+        whatItDoesntCover: [
+          "Cosmetic Botox for wrinkles or aesthetic purposes",
+          "Botox for conditions not FDA-approved",
+          "Botox for episodic migraines (fewer than 15 headache days/month)",
+          "Botox without documented prior treatment attempts",
+        ],
+        callout: {
+          type: "tip",
+          title: "Contact Your Plan Before Scheduling",
+          text: "Always contact your Medicare plan before receiving Botox injections to confirm coverage and prior authorization requirements. Your doctor may need to submit documentation of medical necessity.",
+        },
+        costNote: "Typical cost: 155 units at $300–$600/session. With Part B: you pay 20% (~$60–$120/session). With Plan G: $0 after the annual Part B deductible.",
+      },
+      {
+        planName: "Medicare Advantage",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered — varies by plan",
+        coverageType: "partial",
+        statusBadge: "Covered — prior authorization often required",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover the same Botox treatments as Original Medicare. However, cost-sharing, prior authorization requirements, and network restrictions vary by plan.",
+          "Some Advantage plans may offer additional coverage for Botox beyond the Original Medicare minimum, but cosmetic Botox remains excluded across all plan types.",
+          "Prior authorization is commonly required for Botox under Advantage plans. Your plan may also require you to see a specialist (neurologist, urologist, or dermatologist) rather than a primary care physician for the injection.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Check Prior Authorization Requirements",
+          text: "Check whether your Advantage plan requires a referral or prior authorization for Botox injections before scheduling your appointment.",
+        },
+        costNote: "Costs vary by plan. Some plans may have fixed copays for specialist visits where Botox is administered.",
+      },
+      {
+        planName: "Medigap (Medicare Supplement)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Part B coinsurance",
+        coverageType: "covered",
+        statusBadge: "Covers 20% coinsurance for all Medicare-approved Botox",
+        paragraphs: [
+          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the 20% Part B coinsurance for Medicare-approved Botox treatments. Since Botox for conditions like chronic migraines requires repeated treatments (typically every 12 weeks), Medigap can provide significant savings over time.",
+          "With Plan G, your only out-of-pocket cost for Medicare-approved Botox is the annual Part B deductible ($240 in 2024), after which all covered Botox treatments are paid at 100%.",
+          "If you receive Botox reimbursement from Medicare (i.e., your doctor does not bill Medicare directly), you may need to file a Medicare reimbursement claim. This is rare but can happen if your doctor does not accept Medicare assignment.",
+        ],
+        costNote: "With Plan G: $0 per Botox session after the annual Part B deductible. Without Medigap: 20% of each session's cost.",
+      },
+    ],
+    costTable: {
+      title: "Medicare Botox Coverage by Condition",
+      headers: ["Condition", "FDA Approved?", "Medicare Covers?", "Typical Frequency"],
+      rows: [
+        { "Condition": "Chronic migraines (15+ days/month)", "FDA Approved?": "Yes", "Medicare Covers?": "Yes (Part B)", "Typical Frequency": "Every 12 weeks" },
+        { "Condition": "Overactive bladder", "FDA Approved?": "Yes", "Medicare Covers?": "Yes (Part B)", "Typical Frequency": "Every 6–12 months" },
+        { "Condition": "Cervical dystonia", "FDA Approved?": "Yes", "Medicare Covers?": "Yes (Part B)", "Typical Frequency": "Every 12 weeks" },
+        { "Condition": "Upper limb spasms", "FDA Approved?": "Yes", "Medicare Covers?": "Yes (Part B)", "Typical Frequency": "Every 12 weeks" },
+        { "Condition": "Blepharospasm (eyelid spasms)", "FDA Approved?": "Yes", "Medicare Covers?": "Yes (Part B)", "Typical Frequency": "Every 3 months" },
+        { "Condition": "Hyperhidrosis (excess sweating)", "FDA Approved?": "Yes", "Medicare Covers?": "Yes (Part B)", "Typical Frequency": "Every 6–7 months" },
+        { "Condition": "Cosmetic wrinkle reduction", "FDA Approved?": "Yes (cosmetic)", "Medicare Covers?": "No", "Typical Frequency": "Every 3–4 months" },
+      ],
+      footnote: "Coverage requires medical necessity documentation. You must typically try other treatments first before Medicare approves Botox for most conditions.",
+    },
+    exceptionsSection: {
+      title: "When Medicare Won't Cover Botox",
+      items: [
+        {
+          title: "Cosmetic Purposes",
+          text: "Medicare does not cover Botox for cosmetic purposes — reducing wrinkles, fine lines, or other aesthetic treatments. The only exception is if cosmetic Botox is medically necessary due to an accident or injury (e.g., facial nerve damage).",
+        },
+        {
+          title: "Fewer Than 15 Migraine Days Per Month",
+          text: "For migraine coverage, you must experience 15 or more headache days per month. Botox is not covered for episodic migraines (fewer than 15 days/month). Your neurologist must document the frequency of your migraines.",
+        },
+        {
+          title: "No Prior Treatment Attempts",
+          text: "Medicare requires that you try other treatments first and show no improvement before approving Botox. Your doctor must document these prior treatment attempts in your medical record.",
+        },
+        {
+          title: "Non-FDA-Approved Applications",
+          text: "Botox for conditions not yet FDA-approved (such as depression, premature ejaculation, or certain pain conditions) is not covered by Medicare, even if your doctor recommends it.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover Botox for migraines?",
+        answer: "Yes. Medicare Part B covers Botox for chronic migraines — defined as 15 or more headache days per month. The FDA approves Botox (onabotulinumtoxinA) for this indication. You must typically try other preventive treatments first. Botox is administered every 12 weeks by a neurologist or headache specialist.",
+      },
+      {
+        question: "Does Medicare cover Botox for overactive bladder?",
+        answer: "Yes. Medicare covers Botox injections for overactive bladder (OAB) when other treatments have failed. The injection is typically administered by a urologist in an outpatient setting. Part B covers 80% of the cost.",
+      },
+      {
+        question: "Does Medicare cover Botox for hyperhidrosis (excessive sweating)?",
+        answer: "Yes. Medicare covers Botox for primary axillary hyperhidrosis (excessive underarm sweating) when it is severe and other treatments have not worked. Part B covers 80% of the Medicare-approved amount.",
+      },
+      {
+        question: "Does Medicare require prior authorization for Botox?",
+        answer: "Prior authorization requirements vary by plan. Original Medicare (Part B) does not always require prior authorization, but Medicare Advantage plans often do. Always contact your plan before scheduling Botox injections to confirm requirements.",
+      },
+      {
+        question: "Does Medicare cover Botox for cervical dystonia?",
+        answer: "Yes. Botox is FDA-approved for cervical dystonia (a painful condition causing involuntary neck muscle contractions), and Medicare Part B covers the treatment when medically necessary.",
+      },
+      {
+        question: "Does Medicare cover Botox for spasticity?",
+        answer: "Yes. Medicare covers Botox for upper limb spasticity — a condition that causes stiffness and involuntary muscle contractions in the arms and hands, often after a stroke or brain injury.",
+      },
+      {
+        question: "How much does Botox cost with Medicare?",
+        answer: "A typical Botox treatment (155 units for migraines) costs $300–$600. With Medicare Part B covering 80%, you pay approximately $60–$120 per session. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g), your cost is $0 after the annual Part B deductible.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare covers</strong> Botox for chronic migraines, OAB, cervical dystonia, and upper limb spasms" },
+      { icon: "x", text: "Cosmetic Botox for wrinkles is <strong>NOT covered</strong>" },
+      { icon: "dollar", text: "Part B pays 80%; you pay 20% (~$60–$120/session for migraines)" },
+      { icon: "alert", text: "Must try other treatments first before Medicare approves Botox" },
+      { icon: "check", text: "Medigap Plan G covers the 20% coinsurance for all Medicare-approved Botox" },
+      { icon: "info", text: "Migraine coverage requires <strong>15+ headache days per month</strong>" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover an Echocardiogram?", description: "Learn about Medicare coverage for cardiac diagnostic tests.", slug: "does-medicare-cover-an-echocardiogram" },
+      { title: "Medicare Coverage for Physical Therapy", description: "Understand how Medicare covers outpatient therapy services.", slug: "medicare-coverage-for-physical-therapy" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G covers your 20% coinsurance for outpatient treatments.", slug: "medicare-supplement-plan-g" },
+      { title: "Does Medicare Cover Anesthesia?", description: "Learn how Medicare covers anesthesia for outpatient and inpatient procedures.", slug: "does-medicare-cover-anesthesia" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Supplement Plan G",
+      "Medicare Coverage for Physical Therapy",
+      "Does Medicare Cover Anesthesia",
+      "Does Medicare Cover an Echocardiogram",
+    ],
+    ctaBanner: {
+      title: "Getting Regular Botox Treatments?",
+      text: "A Medigap Plan G can cover your 20% coinsurance for every Medicare-approved Botox session. Compare plans in your area today.",
+    },
+    relatedSlugs: ["medicare-supplement-plan-g", "medicare-coverage-for-physical-therapy", "does-medicare-cover-anesthesia", "does-medicare-cover-an-echocardiogram"],
+  },
+
+  {
+    slug: "medicare-coverage-for-cancer",
+    seo: {
+      title: "Medicare Coverage for Cancer Treatments | MedicareFAQ",
+      description: "Medicare covers chemotherapy, radiation, immunotherapy, CAR T-cell therapy, and cancer screenings. Learn how Parts A, B, D, and Medigap work together.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-cancer/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-cancer-treatments.jpg",
+    },
+    title: "Medicare Coverage for Cancer Treatments",
+    subtitle: "Medicare covers cancer screenings, chemotherapy, radiation, immunotherapy, CAR T-cell therapy, and more. Learn how Parts A, B, D, and Medigap work together to protect you from catastrophic cancer costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Medicare covers cancer treatment across multiple parts. [Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient hospital stays for surgery, chemotherapy, and radiation. [Part B](/faqs/what-is-medicare-part-b) covers outpatient chemotherapy, radiation, immunotherapy, and cancer screenings. [Part D](/faqs/what-is-medicare-part-d) covers oral cancer medications and anti-nausea drugs not covered by Part B. A Medigap plan paired with Part D can provide near-complete coverage for most cancer treatments.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Part D", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Hospital)", coverage: "Covered — inpatient cancer care", icon: "shield", notes: "Inpatient surgery, chemo, radiation, hospice, SNF after qualifying stay" },
+      { planType: "Medicare Part B (Medical)", coverage: "Covered — outpatient cancer care", icon: "activity", notes: "Outpatient chemo, radiation, immunotherapy, screenings — 80% after deductible" },
+      { planType: "Medicare Part D (Drug)", coverage: "Covered — oral cancer drugs", icon: "pill", notes: "Oral chemotherapy, anti-nausea pills, self-injected drugs — copay by tier" },
+      { planType: "Medigap (Plan G)", coverage: "Covered — cost-sharing", icon: "users", notes: "Covers Part A/B deductibles and coinsurance; reduces out-of-pocket to near $0" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — comprehensive cancer coverage",
+        coverageType: "covered",
+        statusBadge: "Covered across Parts A and B",
+        paragraphs: [
+          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers cancer treatment during inpatient hospital stays — including surgery, inpatient chemotherapy, and radiation. Part A also covers up to 100 days in a [skilled nursing facility](/faqs/medicare-coverage-for-skilled-nursing-facilities) after a qualifying hospital stay, and hospice care at a certified facility.",
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient cancer services — including chemotherapy administered at a doctor's office or clinic (80% coverage after the deductible), radiation therapy, immunotherapy, and diagnostic tests. Part B also covers 100% of many preventive cancer screenings, including annual [mammograms](/faqs/medicare-coverage-for-mammograms), colonoscopies, lung cancer screenings, and prostate cancer screenings.",
+          "Part B covers intravenous cancer drugs and anti-nausea medications. It also covers oral versions of IV drugs if the same drug could have been given intravenously and is taken within 48 hours of treatment.",
+        ],
+        whatItCovers: [
+          "Inpatient surgery, chemotherapy, and radiation (Part A)",
+          "Outpatient chemotherapy and immunotherapy at 80% (Part B)",
+          "Radiation therapy in outpatient settings (Part B)",
+          "Annual cancer screenings: mammograms, colonoscopies, lung CT, PSA tests (Part B, 100%)",
+          "IV cancer drugs and anti-nausea medications (Part B)",
+          "Hospice care at a certified facility (Part A)",
+          "Skilled nursing facility care after qualifying hospital stay (Part A)",
+          "CAR T-cell therapy at FDA-enrolled facilities (Part B)",
+        ],
+        whatItDoesntCover: [
+          "Oral cancer drugs not equivalent to IV drugs (covered by Part D instead)",
+          "Wigs for chemotherapy-related hair loss",
+          "Out-of-network providers (for Medicare Advantage plans)",
+          "Some immunotherapy drugs like Keytruda (check your specific plan)",
+        ],
+        callout: {
+          type: "tip",
+          title: "Original Medicare + Medigap Is Often Best for Cancer",
+          text: "If you have Medicare plus a comprehensive Medigap plan and a Part D drug plan, most of your cancer treatment can be covered at 100%. This is one of the most compelling reasons to choose Original Medicare over Medicare Advantage for cancer patients.",
+        },
+        costNote: "Part B covers 80% of outpatient chemo. Without Medigap, 20% of a $10,000 chemo cycle = $2,000 out-of-pocket. With Plan G: $0.",
+      },
+      {
+        planName: "Medicare Advantage",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered — network restrictions apply",
+        coverageType: "partial",
+        statusBadge: "Covered — but network access may be limited",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) cover the same cancer treatments as Original Medicare, but the structure is different. Most Advantage plans have networks — you must use in-network oncologists and cancer centers, or pay significantly more. Cancer Treatment Centers of America and other specialized facilities may not be in-network for your plan.",
+          "Advantage plans typically have annual out-of-pocket maximums ($3,000–$8,000 in 2024), which can provide some protection against catastrophic costs. However, you cannot add a Medigap plan to an Advantage plan, so your cost-sharing exposure may be higher than with Original Medicare + Medigap.",
+          "Prior authorization is commonly required for cancer treatments under Advantage plans. Delays in authorization can delay treatment. Many oncologists and cancer advocacy groups recommend Original Medicare + Medigap over Advantage plans for cancer patients.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Network Restrictions Can Limit Cancer Care",
+          text: "Cancer patients often find Original Medicare + Medigap provides better access to specialists and lower out-of-pocket costs than Medicare Advantage. Consider your options carefully before enrolling.",
+        },
+        costNote: "Advantage plans have annual out-of-pocket maximums, but network restrictions may limit access to specialized cancer centers.",
+      },
+      {
+        planName: "Medicare Part D + Medigap",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covered — near-complete coverage",
+        coverageType: "covered",
+        statusBadge: "Best combination for cancer coverage",
+        paragraphs: [
+          "[Medicare Part D](/faqs/what-is-medicare-part-d) covers oral cancer medications not covered by Part B — including oral chemotherapy drugs, anti-nausea medications only available in pill form, self-injected drugs, and medications to prevent cancer recurrence. Cancer drugs are often in the highest drug tiers, so your copay or coinsurance can be substantial without Part D.",
+          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible, the 20% Part B coinsurance, and all Part A hospital coinsurance. Combined with Part D, this creates near-complete coverage for most cancer treatments. The only out-of-pocket cost is the annual Part B deductible ($240 in 2024) and Part D drug costs.",
+          "The Medicare Catastrophic Coverage cap (effective 2024) limits your out-of-pocket Part D drug costs to $8,000/year, providing additional protection for expensive oral cancer drugs.",
+        ],
+        callout: {
+          type: "tip",
+          title: "The Gold Standard for Cancer Coverage",
+          text: "The combination of Original Medicare + Medigap Plan G + Part D provides the most comprehensive cancer coverage available. If you are newly diagnosed, review your plan options during your next enrollment period.",
+        },
+        costNote: "With Plan G + Part D: most cancer treatment costs are covered. Out-of-pocket limited to Part B deductible + Part D drug costs.",
+      },
+    ],
+    costTable: {
+      title: "Medicare Cancer Coverage by Treatment Type",
+      headers: ["Treatment", "Medicare Part", "Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        { "Treatment": "Inpatient surgery/chemo", "Medicare Part": "Part A", "Medicare Pays": "All after deductible", "Your Cost (No Supplement)": "$1,632 deductible (2024)", "Your Cost (With Plan G)": "$0" },
+        { "Treatment": "Outpatient chemotherapy", "Medicare Part": "Part B", "Medicare Pays": "80%", "Your Cost (No Supplement)": "20% of approved amount", "Your Cost (With Plan G)": "$0 after Part B deductible" },
+        { "Treatment": "Radiation therapy", "Medicare Part": "Part B (outpatient)", "Medicare Pays": "80%", "Your Cost (No Supplement)": "20%", "Your Cost (With Plan G)": "$0 after Part B deductible" },
+        { "Treatment": "Cancer screenings (mammogram, colonoscopy)", "Medicare Part": "Part B (preventive)", "Medicare Pays": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Plan G)": "$0" },
+        { "Treatment": "Oral cancer medications", "Medicare Part": "Part D", "Medicare Pays": "Varies by tier", "Your Cost (No Supplement)": "Copay/coinsurance", "Your Cost (With Plan G)": "Part D costs still apply" },
+        { "Treatment": "Hospice care", "Medicare Part": "Part A", "Medicare Pays": "100% at certified facility", "Your Cost (No Supplement)": "Small copays for drugs/respite", "Your Cost (With Plan G)": "Minimal" },
+      ],
+      footnote: "Cancer drug costs under Part D are subject to your plan's formulary and tier structure. The 2024 Part D out-of-pocket cap is $8,000.",
+    },
+    exceptionsSection: {
+      title: "Important Cancer Coverage Limitations",
+      items: [
+        {
+          title: "Some Immunotherapy Drugs",
+          text: "Medicare does not cover all immunotherapy drugs under standard Part B or Part D formularies. Some Advantage plans may offer coverage for specific drugs like Keytruda. Check your specific plan's formulary for immunotherapy drug coverage.",
+        },
+        {
+          title: "Wigs for Chemotherapy Patients",
+          text: "Medicare and Medigap do not cover wigs for chemotherapy-related hair loss. Some Medicare Advantage plans or supplemental cancer insurance policies may offer wig coverage. Managed care plans sometimes cover wigs with a doctor's prescription.",
+        },
+        {
+          title: "Out-of-Network Cancer Centers (Advantage Plans)",
+          text: "If you have a Medicare Advantage plan, receiving treatment at an out-of-network cancer center may result in significantly higher costs or no coverage. Original Medicare has no network restrictions.",
+        },
+        {
+          title: "Age Is Not a Barrier",
+          text: "Contrary to common misconceptions, Medicare does not limit cancer coverage after age 76. Parts A and B provide the same coverage regardless of age.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover chemotherapy?",
+        answer: "Yes. Medicare covers chemotherapy in hospital settings (Part A), doctor's offices, and outpatient clinics (Part B). Part B pays 80% of outpatient chemo costs. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the remaining 20%.",
+      },
+      {
+        question: "Does Medicare cover cancer screenings?",
+        answer: "Yes. Medicare covers 100% of many preventive cancer screenings, including annual [mammograms](/faqs/medicare-coverage-for-mammograms) for women over 40, colonoscopies every 10 years, annual lung cancer screenings for smokers aged 50–77, Pap smears, and annual prostate cancer screenings for men over 50.",
+      },
+      {
+        question: "Does Medicare cover immunotherapy for cancer?",
+        answer: "Yes. Medicare covers immunotherapy in many cases under Part A (inpatient) or Part B (outpatient). Coverage depends on the specific drug and its FDA approval status. Some immunotherapy drugs may not be covered under standard Medicare — check your plan's formulary.",
+      },
+      {
+        question: "Does Medicare cover CAR T-cell therapy?",
+        answer: "Yes. Medicare covers FDA-approved CAR T-cell therapy when administered at a healthcare facility enrolled in the FDA's REMS program. It is approved for certain non-Hodgkin lymphoma and B-cell precursor acute lymphoblastic leukemia.",
+      },
+      {
+        question: "Does Medicare cover oral chemotherapy drugs?",
+        answer: "Oral chemotherapy drugs are primarily covered under [Medicare Part D](/faqs/what-is-medicare-part-d). Part B covers oral versions of IV drugs if the same drug could have been given intravenously and is taken within 48 hours of treatment. A Part D plan is essential for comprehensive oral cancer drug coverage.",
+      },
+      {
+        question: "Is Medicare Advantage good for cancer patients?",
+        answer: "Many oncologists and cancer advocacy groups recommend Original Medicare + Medigap over Medicare Advantage for cancer patients. Advantage plans have network restrictions that may limit access to specialized cancer centers, and you cannot add a Medigap plan to reduce cost-sharing.",
+      },
+      {
+        question: "Does Medicare cover clinical trials for cancer?",
+        answer: "Yes. Medicare pays the routine costs of some clinical research studies, both inpatient and outpatient. If you qualify for an eligible clinical trial, Medicare may cover the standard care costs associated with the trial.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Part A</strong> covers inpatient cancer surgery, chemo, and radiation" },
+      { icon: "check", text: "<strong>Part B</strong> covers outpatient chemo, radiation, immunotherapy, and screenings at 80%" },
+      { icon: "check", text: "<strong>Part D</strong> covers oral cancer drugs and anti-nausea medications" },
+      { icon: "dollar", text: "With Plan G + Part D: most cancer costs covered; out-of-pocket limited to Part B deductible + drug costs" },
+      { icon: "alert", text: "Medicare Advantage network restrictions may limit access to specialized cancer centers" },
+      { icon: "x", text: "Wigs for chemotherapy hair loss are <strong>NOT covered</strong> by Medicare or Medigap" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Skilled Nursing Facilities", description: "Learn how Medicare covers SNF care after cancer surgery or treatment.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn how Medicare covers diagnostic biopsies used to detect cancer.", slug: "does-medicare-cover-a-biopsy" },
+      { title: "Medicare Coverage for Mammograms", description: "Understand Medicare's annual mammogram benefit for breast cancer screening.", slug: "medicare-coverage-for-mammograms" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G eliminates your 20% coinsurance for cancer treatments.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Supplement Plan G",
+      "Does Medicare Cover a Biopsy",
+      "Medicare Coverage for Mammograms",
+      "Medicare Coverage for Skilled Nursing Facilities",
+    ],
+    ctaBanner: {
+      title: "Protecting Yourself from Cancer Costs",
+      text: "Original Medicare + Medigap Plan G + Part D is the gold standard for cancer coverage. Compare plans in your area to find the best protection.",
+    },
+    relatedSlugs: ["medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-a-biopsy", "medicare-coverage-for-mammograms", "medicare-supplement-plan-g"],
+  },
+
+  {
+    slug: "medicare-coverage-for-bariatric-surgery",
+    seo: {
+      title: "Medicare Coverage for Bariatric Surgery | MedicareFAQ",
+      description: "Medicare covers gastric bypass, sleeve gastrectomy, and lap-band surgery for eligible beneficiaries. Learn the BMI requirements, covered procedures, and costs.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-bariatric-surgery/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-bariatric-surgery.jpg",
+    },
+    title: "Medicare Coverage for Bariatric Weight Loss Surgeries",
+    subtitle: "Medicare covers bariatric surgery including gastric bypass, sleeve gastrectomy, and lap-band surgery for beneficiaries who meet specific eligibility criteria. Learn the requirements, covered procedures, and what you will pay.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare covers bariatric surgery (including gastric bypass, sleeve gastrectomy, laparoscopic adjustable gastric banding, and duodenal switch) when you meet specific eligibility criteria — including a BMI of 35 or greater, at least one obesity-related health condition, documented participation in a medically supervised weight loss program, and a psychological evaluation. The average cost of bariatric surgery is $25,000–$30,000; Medicare covers most of this for eligible beneficiaries.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Part D", status: "partial" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A)", coverage: "Covered — inpatient surgery", icon: "shield", notes: "Inpatient bariatric surgery hospital stay after Part A deductible ($1,632 in 2024)" },
+      { planType: "Original Medicare (Part B)", coverage: "Covered — outpatient surgery", icon: "activity", notes: "Outpatient bariatric surgery and follow-up visits at 80% after Part B deductible" },
+      { planType: "Medicare Part D", coverage: "Partial — post-surgery drugs", icon: "pill", notes: "Prescription medications after surgery — copay/coinsurance by tier" },
+      { planType: "Medigap (Plan G)", coverage: "Covered — cost-sharing", icon: "users", notes: "Covers Part A deductible + Part B 20% coinsurance; reduces your cost to near $0" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — when eligibility requirements are met",
+        coverageType: "covered",
+        statusBadge: "Covered — BMI ≥ 35 with obesity-related condition required",
+        paragraphs: [
+          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient bariatric surgery — the hospital stay, operating room, [anesthesia](/faqs/does-medicare-cover-anesthesia), and recovery. You pay the Part A deductible ($1,632 in 2024) for each benefit period. If your surgery is performed as an outpatient procedure, [Medicare Part B](/faqs/what-is-medicare-part-b) covers 80% of the doctor's services and surgical supplies after the Part B deductible.",
+          "Medicare Part B also covers obesity counseling — up to 22 sessions in the first year for beneficiaries with a BMI over 30. This counseling is covered at 100% as a preventive service when provided by a primary care physician in a primary care setting.",
+          "Medicare Part D covers prescription medications prescribed after bariatric surgery, such as vitamins, supplements, and any medications needed for post-surgical management. Coverage depends on your specific Part D plan's formulary.",
+        ],
+        whatItCovers: [
+          "Gastric bypass (Roux-en-Y) surgery",
+          "Sleeve gastrectomy",
+          "Laparoscopic adjustable gastric banding (lap-band)",
+          "Duodenal switch (biliopancreatic diversion)",
+          "Anesthesia during surgery",
+          "Inpatient hospital stay and recovery",
+          "Obesity counseling (up to 22 sessions/year, 100% covered)",
+          "Follow-up outpatient visits",
+        ],
+        whatItDoesntCover: [
+          "Bariatric surgery for cosmetic weight loss (not medically necessary)",
+          "Surgery when BMI is below 35",
+          "Surgery without documented obesity-related health condition",
+          "Surgery without prior participation in a supervised weight loss program",
+        ],
+        callout: {
+          type: "tip",
+          title: "Free Obesity Counseling Available",
+          text: "Medicare covers obesity screening and counseling as a preventive service at 100% — no cost to you. This is a valuable benefit even if you do not ultimately qualify for bariatric surgery.",
+        },
+        costNote: "Average bariatric surgery cost: $25,000–$30,000. With Medicare: you pay the Part A deductible ($1,632) for inpatient surgery. With Plan G: $0.",
+      },
+      {
+        planName: "Medicare Advantage",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered — varies by plan",
+        coverageType: "partial",
+        statusBadge: "Covered — prior authorization almost always required",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover the same bariatric surgery benefits as Original Medicare for eligible beneficiaries. However, prior authorization is almost always required, and the approval process can be lengthy.",
+          "Some Advantage plans may have additional requirements beyond Medicare's standard eligibility criteria — such as longer participation in a supervised weight loss program or additional psychological evaluations.",
+          "Network restrictions apply — you must use an in-network bariatric surgeon and hospital. Not all hospitals or bariatric surgery centers may be in-network for your plan.",
+        ],
+        callout: {
+          type: "warning",
+          title: "Start the Prior Authorization Process Early",
+          text: "Prior authorization for bariatric surgery under Medicare Advantage can take weeks. Start the process early and work closely with your surgeon's office to gather all required documentation.",
+        },
+        costNote: "Cost-sharing varies by plan. Some Advantage plans have lower deductibles but higher coinsurance for surgical procedures.",
+      },
+      {
+        planName: "Medigap (Medicare Supplement)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Part A deductible and Part B coinsurance",
+        coverageType: "covered",
+        statusBadge: "Reduces your bariatric surgery cost to near $0",
+        paragraphs: [
+          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible for inpatient bariatric surgery and the 20% Part B coinsurance for outpatient procedures. Given the high cost of bariatric surgery ($25,000–$30,000), Medigap can save you thousands of dollars.",
+          "With Plan G, your only out-of-pocket cost for bariatric surgery is the annual Part B deductible ($240 in 2024), after which all Medicare-approved surgical costs are covered at 100%.",
+          "Medigap also covers any post-surgical hospital stays, [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities), and follow-up outpatient visits — providing comprehensive protection throughout your recovery.",
+        ],
+        costNote: "With Plan G: $240 total out-of-pocket (Part B deductible only). Without Medigap: $1,632 (Part A deductible) + 20% of outpatient costs.",
+      },
+    ],
+    costTable: {
+      title: "Medicare Bariatric Surgery Eligibility Requirements",
+      headers: ["Requirement", "Details", "Documentation Needed"],
+      rows: [
+        { "Requirement": "BMI", "Details": "35 or greater", "Documentation Needed": "BMI measurement from physician" },
+        { "Requirement": "Obesity-related condition", "Details": "At least one (diabetes, sleep apnea, hypertension, etc.)", "Documentation Needed": "Medical records documenting the condition" },
+        { "Requirement": "Duration of obesity", "Details": "Documented obesity for 5+ years", "Documentation Needed": "Medical history records" },
+        { "Requirement": "Supervised weight loss program", "Details": "Documented participation in medically supervised program", "Documentation Needed": "Program records and physician letter" },
+        { "Requirement": "Psychological evaluation", "Details": "Must pass psychological exam", "Documentation Needed": "Psychologist/psychiatrist evaluation report" },
+        { "Requirement": "No underlying medical disease", "Details": "No medical disease causing obesity", "Documentation Needed": "Physician documentation" },
+      ],
+      footnote: "Meeting all requirements does not guarantee coverage. Medicare and your plan will review your complete medical history before approving bariatric surgery.",
+    },
+    exceptionsSection: {
+      title: "When Medicare Won't Cover Bariatric Surgery",
+      items: [
+        {
+          title: "BMI Below 35",
+          text: "Medicare requires a BMI of 35 or greater for bariatric surgery coverage. If your BMI is between 30 and 35, you may qualify for obesity counseling but not surgical coverage.",
+        },
+        {
+          title: "No Obesity-Related Health Condition",
+          text: "You must have at least one obesity-related health condition (such as type 2 diabetes, sleep apnea, hypertension, or heart disease) to qualify for Medicare bariatric surgery coverage.",
+        },
+        {
+          title: "Insufficient Documentation",
+          text: "Medicare requires extensive documentation including 5+ years of obesity history, participation in a supervised weight loss program, and a psychological evaluation. Incomplete documentation is a common reason for denial.",
+        },
+        {
+          title: "Cosmetic Weight Loss",
+          text: "Medicare does not cover bariatric surgery for cosmetic weight loss. The surgery must be medically necessary to treat obesity-related health conditions.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover gastric bypass surgery?",
+        answer: "Yes. Medicare covers gastric bypass surgery (Roux-en-Y) when you meet the eligibility requirements: BMI ≥ 35, at least one obesity-related condition, documented participation in a supervised weight loss program, and a psychological evaluation. Part A covers the inpatient hospital stay.",
+      },
+      {
+        question: "Does Medicare cover sleeve gastrectomy?",
+        answer: "Yes. Medicare covers sleeve gastrectomy when your doctor deems it medically necessary and you meet the bariatric surgery eligibility requirements. This is one of the most commonly performed bariatric procedures covered by Medicare.",
+      },
+      {
+        question: "Does Medicare cover lap-band surgery?",
+        answer: "Yes. Medicare covers laparoscopic adjustable gastric banding (lap-band surgery) under the right conditions. Talk to your doctor and bariatric surgeon about your eligibility.",
+      },
+      {
+        question: "What is the BMI requirement for Medicare bariatric surgery coverage?",
+        answer: "Medicare requires a BMI of 35 or greater for bariatric surgery coverage. You must also have at least one obesity-related health condition such as type 2 diabetes, sleep apnea, or hypertension.",
+      },
+      {
+        question: "Does Medicare cover skin removal surgery after bariatric weight loss?",
+        answer: "Medicare may cover skin removal surgery (panniculectomy) after significant weight loss if it is medically necessary — for example, if the excess skin causes infections, rashes, or other medical problems. Purely cosmetic skin removal is not covered.",
+      },
+      {
+        question: "How much does bariatric surgery cost with Medicare?",
+        answer: "The average cost of bariatric surgery is $25,000–$30,000. With Original Medicare, you pay the Part A deductible ($1,632 in 2024) for an inpatient procedure. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g), your out-of-pocket cost is just the annual Part B deductible ($240 in 2024).",
+      },
+      {
+        question: "Does Medicare cover obesity counseling?",
+        answer: "Yes. Medicare covers obesity screening and counseling as a preventive service at 100% — no cost to you. Eligible beneficiaries with a BMI over 30 can receive up to 22 intensive behavioral therapy sessions in the first year, provided by a primary care physician in a primary care setting.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare covers</strong> gastric bypass, sleeve gastrectomy, lap-band, and duodenal switch" },
+      { icon: "alert", text: "Must meet all eligibility requirements: <strong>BMI ≥ 35</strong>, obesity-related condition, supervised program, psych eval" },
+      { icon: "dollar", text: "Average surgery cost: $25,000–$30,000. With Plan G: just <strong>$240 out-of-pocket</strong>" },
+      { icon: "check", text: "Obesity counseling (22 sessions/year) covered at <strong>100%</strong> as a preventive service" },
+      { icon: "info", text: "Prior authorization is almost always required — start the process early" },
+      { icon: "x", text: "Cosmetic weight loss surgery is <strong>NOT covered</strong>" },
+    ],
+    relatedTopics: [
+      { title: "Will Medicare Cover My Surgery?", description: "Understand the general rules for Medicare surgical coverage.", slug: "will-medicare-cover-my-surgery" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G can cover your bariatric surgery costs down to just $240.", slug: "medicare-supplement-plan-g" },
+      { title: "Does Medicare Cover Anesthesia?", description: "Learn how Medicare covers anesthesia for bariatric and other surgeries.", slug: "does-medicare-cover-anesthesia" },
+      { title: "Medicare Coverage for Skilled Nursing Facilities", description: "Learn how Medicare covers SNF care after major surgery.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Supplement Plan G",
+      "Will Medicare Cover My Surgery",
+      "Does Medicare Cover Anesthesia",
+      "Medicare Coverage for Skilled Nursing Facilities",
+    ],
+    ctaBanner: {
+      title: "Planning Bariatric Surgery?",
+      text: "A Medigap Plan G can reduce your out-of-pocket bariatric surgery cost to just $240. Compare plans in your area today.",
+    },
+    relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-supplement-plan-g", "does-medicare-cover-anesthesia", "medicare-coverage-for-skilled-nursing-facilities"],
+  },
+
 ];

@@ -825,32 +825,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "coverage-gap-discount-program", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
   },
   {
-    slug: 'medicare-coverage-for-skilled-nursing-facilities',
-    seo: {
-      title: 'Guidelines to Medicare Coverage for Skilled Nursing Facilities',
-      description: 'There are guidelines to Medicare coverage for Skilled Nursing Facilities. Learn about the 3-day rule and how long Medicare will cover SNF.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-skilled-nursing-facilities/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-skilled-nursing-facilities.jpg',
-    },
-    title: 'Guidelines to Medicare Coverage for Skilled Nursing Facilities',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'What Does Medicare Cover for ALS Patients',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          '[Medicare coverage](/faqs/medicare-coverage-for-amyotrophic-lateral-sclerosis-als) is available for amyotrophic lateral sclerosis (ALS), also known as Lou Gehrig’s disease....',
-        ],
-      },
-    ],
-    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-coverage-for-in-home-caregivers", "medicare-inpatient-vs-outpatient-vs-under-observation"],
-  },
-  {
     slug: 'can-i-cancel-medicare-advantage-plan',
     seo: {
       title: 'Can I Cancel My Medicare Advantage Plan?',
