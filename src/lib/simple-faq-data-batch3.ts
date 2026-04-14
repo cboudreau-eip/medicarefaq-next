@@ -551,7 +551,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       title: 'Medigap Pricing Methods Explained: Community-Rated vs Issue-Age vs Attained-Age (2026)',
       description: 'Learn the three Medigap pricing methods — community-rated, issue-age-rated, and attained-age-rated — and how each affects your Medicare Supplement premiums over time.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-supplement-plans-medigap-pricing-methods/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/types-of-medigap-pricing-methods.jpg',
+      ogImage: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/types-of-medigap-pricing-methods_5f48728d.jpg',
     },
     title: 'Medicare Supplement Plans (Medigap) Pricing Methods Explained',
     summary: 'Not all Medigap premiums are calculated the same way. Understanding the three pricing methods — community-rated, issue-age-rated, and attained-age-rated — can save you thousands of dollars over the life of your policy.',
@@ -657,10 +657,18 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
         "Health status — during your [Medigap Open Enrollment Period](/enrollment/initial-enrollment-period), insurers cannot charge more for pre-existing conditions. Outside that window, medical underwriting may apply."
       ]},
 
+      { type: "heading", level: 2, text: "Sources and Further Reading", id: "sources" },
+      { type: "list", ordered: false, items: [
+        "[CMS Medigap Consumer Guide](https://www.medicare.gov/supplements-other-insurance/whats-medicare-supplement-insurance-medigap) — Official Medicare.gov overview of Medigap plans and how they work",
+        "[NAIC Medigap Consumer Guide](https://content.naic.org/consumer/medigap-medicare-supplement-insurance.htm) — National Association of Insurance Commissioners guide to Medigap pricing and standardization",
+        "[SHIP National Technical Assistance Center](https://www.shiphelp.org/) — Free, unbiased Medicare counseling available in every state",
+        "[CMS Medigap Enrollment Data](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-supplemental-insurance-medigap) — Official CMS data on Medigap plan enrollment and premiums"
+      ]},
+
       { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faqs" },
       { type: "faq", faqs: [
         { question: "Can I switch from an attained-age plan to a community-rated plan later?", answer: "You can apply to switch, but outside of your Medigap Open Enrollment Period you will likely need to pass medical underwriting. If you have developed health conditions since your original enrollment, you may be denied or charged a higher rate. This is why choosing the right pricing method from the start is so important." },
-        { question: "Do all states offer all three pricing methods?", answer: "No. Some states regulate which pricing methods insurers can use. For example, several states require all Medigap plans to be community-rated. Check with your state insurance department or a licensed agent to see which methods are available in your area." },
+        { question: "Do all states offer all three pricing methods?", answer: "No. Some states regulate which pricing methods insurers can use. New York, Connecticut, Massachusetts, and Minnesota require all Medigap plans to be community-rated, meaning every enrollee pays the same base premium regardless of age. Massachusetts and Minnesota also use their own standardized plan structures that differ from the federal standard. Check with your state insurance department or a licensed agent to see which methods are available in your area." },
         { question: "Does the pricing method affect what my plan covers?", answer: "No. The pricing method only affects how your premium is calculated. A Plan G with community-rated pricing covers the exact same benefits as a Plan G with attained-age pricing. Medigap plan benefits are standardized by the federal government." },
         { question: "What is the best time to buy a Medigap plan to get the lowest rate?", answer: "The best time is during your Medigap Open Enrollment Period — the 6-month window that starts when you are 65 or older and enrolled in Medicare Part B. During this period, insurers must accept you regardless of health and cannot charge more for pre-existing conditions. If you choose an issue-age-rated plan, enrolling at 65 locks in the lowest possible rate." },
         { question: "Will my Medigap premium ever go down?", answer: "It is rare for Medigap premiums to decrease. However, you can lower your costs by shopping for a different insurer offering the same plan letter at a lower rate, taking advantage of household or EFT discounts, or switching to a plan with lower coverage (such as Plan N instead of Plan G)." }

@@ -4,6 +4,7 @@
  * Simple FAQ Article Content
  * Renders FAQ articles with headings + paragraphs, TOC sidebar, helpful vote, CTA banner.
  * Supports rich sections (tables, callouts, lists, FAQs) via the richSections field.
+ * Includes FAQ schema, Article schema, and Breadcrumb schema for SEO.
  */
 
 import React, { useState, useEffect } from "react";
@@ -23,13 +24,19 @@ import {
   Lightbulb,
   ChevronDown,
   ChevronUp,
+  Shield,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import type { SimpleFAQArticleData, BlogSectionContent } from "@/lib/article-types";
 import { blogArticles } from "@/lib/blog-articles-data";
+import FAQSchema from "@/components/schema/FAQSchema";
+import ArticleSchema from "@/components/schema/ArticleSchema";
+import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 
 /* ─── Set of all blog slugs for cross-reference routing ─── */
 const blogSlugs = new Set(blogArticles.map((a) => a.slug));
+
+const BASE_URL = "https://www.medicarefaq.com";
 
 /* ─── Render markdown-style [text](url) links within text ─── */
 function renderInlineLinks(text: string, key: number | string): React.ReactNode {
@@ -95,7 +102,7 @@ function renderParagraph(text: string, key: number | string, className?: string)
     parts.push(text.slice(lastIndex));
   }
   return (
-    <p key={key} className={className || "text-[#4B5563] text-[15px] leading-relaxed mb-3"}>
+    <p key={key} className={className || "text-[#374151] text-[16px] leading-relaxed mb-4"}>
       {parts}
     </p>
   );
@@ -289,6 +296,13 @@ export default function SimpleFAQContent({ article }: { article: SimpleFAQArticl
         .filter((s) => s.heading)
         .map((s, i) => ({ id: `section-${i}`, label: s.heading }));
 
+  // Extract FAQ items from richSections for schema
+  const faqSchemaItems = useRich
+    ? article.richSections!
+        .filter((s) => s.type === "faq")
+        .flatMap((s) => (s.faqs || []).map((f) => ({ q: f.question, a: f.answer })))
+    : [];
+
   // Scroll spy
   useEffect(() => {
     if (!toc.length) return;
@@ -315,8 +329,30 @@ export default function SimpleFAQContent({ article }: { article: SimpleFAQArticl
     }
   };
 
+  const pageUrl = `${BASE_URL}/faqs/${article.slug}/`;
+
   return (
     <main className="flex-1">
+      {/* ─── JSON-LD Schema ─── */}
+      <ArticleSchema
+        title={article.seo?.title || article.title}
+        description={article.seo?.description || article.summary}
+        url={pageUrl}
+        datePublished={article.datePublished || article.dateUpdated}
+        dateModified={article.dateUpdated}
+        authorName={article.author}
+        authorUrl={article.authorUrl ? `${BASE_URL}${article.authorUrl}` : undefined}
+        imageUrl={article.seo?.ogImage || undefined}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: `${BASE_URL}/` },
+          { name: "FAQs", url: `${BASE_URL}/faqs/` },
+          { name: article.title },
+        ]}
+      />
+      {faqSchemaItems.length > 0 && <FAQSchema faqs={faqSchemaItems} />}
+
       {/* ─── Article Header ─── */}
       <section className="bg-[#1B2A4A] py-10 md:py-14">
         <div className="container max-w-6xl mx-auto">
@@ -339,15 +375,16 @@ export default function SimpleFAQContent({ article }: { article: SimpleFAQArticl
             {article.summary && (
               <p className="text-white/60 text-lg max-w-3xl mb-6">{article.summary}</p>
             )}
+            {/* ─── Metadata Row ─── */}
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white/60">
-              {article.dateUpdated && (
+              {article.datePublished && (
                 <span className="flex items-center gap-1.5">
-                  <Calendar className="w-4 h-4" />Updated {article.dateUpdated}
+                  <Calendar className="w-4 h-4" />Published {article.datePublished}
                 </span>
               )}
-              {article.author && (
+              {article.dateUpdated && (
                 <span className="flex items-center gap-1.5">
-                  <User className="w-4 h-4" />Written By: {article.author}
+                  <Calendar className="w-4 h-4" />Last Reviewed {article.dateUpdated}
                 </span>
               )}
               {article.readTime && (
@@ -359,6 +396,63 @@ export default function SimpleFAQContent({ article }: { article: SimpleFAQArticl
           </motion.div>
         </div>
       </section>
+
+      {/* ─── Author / Reviewer Trust Bar ─── */}
+      {(article.author || article.reviewer) && (
+        <section className="bg-white border-b border-[#E5E7EB] py-4">
+          <div className="container max-w-6xl mx-auto">
+            <div className="flex flex-wrap items-center gap-6">
+              {article.author && (
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-full bg-[#1B2A4A] flex items-center justify-center shrink-0">
+                    <User className="w-4 h-4 text-white" />
+                  </div>
+                  <div className="text-sm">
+                    <p className="text-[#6B7280] text-xs uppercase tracking-wide font-semibold">Written By</p>
+                    {article.authorUrl ? (
+                      <Link href={article.authorUrl} className="font-semibold text-[#1B2A4A] hover:text-[#C41230] transition-colors">
+                        {article.author}
+                      </Link>
+                    ) : (
+                      <span className="font-semibold text-[#1B2A4A]">{article.author}</span>
+                    )}
+                    {article.authorTitle && (
+                      <p className="text-[#6B7280] text-xs">{article.authorTitle}</p>
+                    )}
+                  </div>
+                </div>
+              )}
+              {article.reviewer && (
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-full bg-[#059669] flex items-center justify-center shrink-0">
+                    <Shield className="w-4 h-4 text-white" />
+                  </div>
+                  <div className="text-sm">
+                    <p className="text-[#6B7280] text-xs uppercase tracking-wide font-semibold">Reviewed By</p>
+                    {article.reviewerUrl ? (
+                      <Link href={article.reviewerUrl} className="font-semibold text-[#1B2A4A] hover:text-[#C41230] transition-colors">
+                        {article.reviewer}
+                      </Link>
+                    ) : (
+                      <span className="font-semibold text-[#1B2A4A]">{article.reviewer}</span>
+                    )}
+                    {article.reviewerTitle && (
+                      <p className="text-[#6B7280] text-xs">{article.reviewerTitle}</p>
+                    )}
+                  </div>
+                </div>
+              )}
+              {/* Editorial Standards badge */}
+              <div className="ml-auto hidden md:flex items-center gap-2 text-xs text-[#6B7280]">
+                <Shield className="w-4 h-4 text-[#059669]" />
+                <Link href="/meet-the-editorial-team" className="hover:text-[#1B2A4A] transition-colors">
+                  Editorial Standards
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ─── Content + Sidebar ─── */}
       <section className="py-8 md:py-12">

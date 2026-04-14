@@ -184,9 +184,14 @@ export interface SimpleFAQArticleData {
   title: string;
   summary: string;
   category: string;
-  dateUpdated: string;
+  datePublished?: string;   // e.g. "January 15, 2024" — original publish date
+  dateUpdated: string;      // e.g. "April 14, 2026" — last reviewed/updated
   author: string;
+  authorUrl?: string;       // e.g. "/about-us/jagger-esch"
+  authorTitle?: string;     // e.g. "Licensed Insurance Agent"
   reviewer: string;
+  reviewerUrl?: string;     // e.g. "/about-us"
+  reviewerTitle?: string;   // e.g. "Compliance & Editorial Manager"
   readTime: string;
   sections: SimpleFAQSection[];
   /** Rich blog-style sections with tables, callouts, lists, FAQs. If present, rendered instead of sections. */
