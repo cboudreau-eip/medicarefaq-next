@@ -10578,4 +10578,1176 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-supplement-plan-g", "does-medicare-cover-anesthesia", "medicare-coverage-for-skilled-nursing-facilities"],
   },
 
+  // ── Ambulance ──────────────────────────────────────────────────────────────
+  {
+    slug: "ambulance-and-medicare-coverage",
+    seo: {
+      title: "Does Medicare Cover Ambulance Services? | MedicareFAQ",
+      description: "Medicare Part B covers medically necessary ambulance transportation. Learn when Medicare pays, what you'll owe, and how Medigap can eliminate your 20% coinsurance.",
+      canonical: "https://www.medicarefaq.com/faqs/ambulance-and-medicare-coverage/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/ambulance-medicare-coverage.jpg",
+    },
+    title: "Does Medicare Cover Ambulance Services?",
+    subtitle: "Medicare Part B covers emergency and some non-emergency ambulance transport when it is medically necessary. Learn what qualifies, what you pay, and how supplemental coverage can help.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Yes — Medicare Part B covers medically necessary ambulance transportation to the nearest appropriate facility. For emergency transport, Medicare pays 80% of the approved amount after your Part B deductible; you pay 20% coinsurance. Non-emergency transport requires a physician's written order certifying that other transport would endanger your health. Medicare Advantage plans cover ambulance services at the same level, though cost-sharing varies by plan.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Emergency)", coverage: "Covered", icon: "shield", notes: "80% after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part B (Non-Emergency)", coverage: "Covered with Conditions", icon: "shield", notes: "Requires physician certification that other transport would endanger health" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers ambulance transportation that is medically necessary — meaning your condition requires ambulance transport rather than other means of transportation. Emergency ambulance services are covered when your condition is life-threatening or requires immediate medical attention.",
+          "For non-emergency ambulance transport, Medicare requires a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis, chemotherapy, or wound care when you cannot safely travel by car or wheelchair van.",
+          "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you choose a more distant facility for personal preference, Medicare will only pay the amount it would have paid for the nearest appropriate facility.",
+        ],
+        whatItCovers: [
+          "Emergency ground ambulance transport to the nearest appropriate hospital or facility",
+          "Non-emergency ground ambulance with a physician's written order",
+          "Air ambulance (helicopter or fixed-wing) when ground transport would endanger your health",
+          "Transport to the nearest appropriate facility capable of treating your condition",
+          "Medically necessary transport to dialysis, chemotherapy, or wound care",
+        ],
+        whatItDoesntCover: [
+          "Non-emergency transport without a physician's written order",
+          "Transport to a more distant facility chosen for personal preference",
+          "Transport that is not to a Medicare-approved facility",
+          "Ambulance services from a non-participating provider (unless emergency)",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Average ground ambulance cost is $400–$1,200; air ambulance can exceed $30,000 — making Medigap coverage especially valuable.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all services that Original Medicare covers, including medically necessary ambulance transportation. However, your actual cost-sharing — copayments, coinsurance, and deductibles — depends on your specific plan.",
+          "Unlike Original Medicare, Medicare Advantage plans use provider networks. In a genuine emergency, your plan must cover ambulance services regardless of whether the ambulance company is in-network. For non-emergency transport, using an in-network provider will result in lower out-of-pocket costs.",
+        ],
+        whatItCovers: [
+          "All ambulance services covered by Original Medicare",
+          "Emergency ambulance regardless of network status",
+          "Non-emergency transport with physician certification",
+        ],
+        whatItDoesntCover: [
+          "Non-emergency ambulance without required physician certification",
+          "Transport chosen for personal preference over medical necessity",
+        ],
+        callout: {
+          type: "info",
+          title: "Emergency ambulance is always covered",
+          text: "In a true emergency, Medicare Advantage plans cannot deny ambulance coverage based on network status. You will not be penalized for using an out-of-network ambulance in a genuine emergency situation.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to cover the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance for ambulance services. Given that air ambulance bills can exceed $30,000, Medigap coverage can be particularly valuable.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $257 deductible for the year, Plan G covers your 20% share of any covered ambulance bill — whether it's a $500 ground transport or a $25,000 air ambulance.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) — covered by most Medigap plans",
+          "Part A deductible — covered by Plans D, G, and others",
+          "Excess charges — covered by Plans F and G",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Original Medicare",
+          "Non-emergency transport without physician certification",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for ambulance is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance — even for expensive air ambulance transport.",
+      },
+    ],
+    costTable: {
+      title: "Estimated Ambulance Costs Under Medicare (2026)",
+      headers: ["Transport Type", "Typical Bill", "Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Transport Type": "Ground ambulance (emergency)",
+          "Typical Bill": "$400 – $1,200",
+          "Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Transport Type": "Ground ambulance (non-emergency)",
+          "Typical Bill": "$300 – $800",
+          "Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Transport Type": "Air ambulance (helicopter)",
+          "Typical Bill": "$10,000 – $40,000+",
+          "Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% (potentially $2,000–$8,000+)",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Actual ambulance bills vary significantly by location, provider, and distance traveled.",
+    },
+    exceptionsSection: {
+      title: "When Medicare May Not Cover Ambulance Transport",
+      items: [
+        {
+          title: "Non-Emergency Transport Without Physician Certification",
+          text: "Medicare requires a physician's written order for non-emergency ambulance transport. Without this documentation, Medicare will deny the claim. If you regularly need non-emergency transport (such as for dialysis), make sure your doctor provides the required certification before each transport or on a recurring basis.",
+          highlight: "Ask your doctor for a written certification before scheduling non-emergency ambulance transport. Keep a copy for your records in case of a billing dispute.",
+        },
+        {
+          title: "Choosing a More Distant Facility",
+          text: "Medicare only covers transport to the nearest appropriate facility that can treat your condition. If you request transport to a hospital farther away — even if it is your preferred provider — Medicare will only pay the amount it would have paid for the nearest appropriate facility. You may be responsible for the difference.",
+        },
+        {
+          title: "Air Ambulance Billing Disputes",
+          text: "Air ambulance providers are not required to participate in Medicare, which means they can bill you for the difference between their charges and what Medicare approves. This is known as 'balance billing.' Medigap plans can help cover Medicare's approved coinsurance, but they do not protect against balance billing from non-participating air ambulance providers.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover ambulance rides to the emergency room?",
+        answer: "Yes — Medicare Part B covers emergency ambulance transport to the nearest appropriate hospital when your condition requires immediate medical attention. You pay 20% coinsurance after your Part B deductible. Medicare Advantage plans provide the same coverage, though cost-sharing varies by plan.",
+      },
+      {
+        question: "Does Medicare cover non-emergency ambulance transport?",
+        answer: "Yes, but only with a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis or chemotherapy when you cannot safely travel by car. Without physician certification, Medicare will deny the claim.",
+      },
+      {
+        question: "Does Medicare cover air ambulance (helicopter)?",
+        answer: "Yes — Medicare Part B covers medically necessary air ambulance transport when ground transport would endanger your health due to the distance, terrain, or your medical condition. However, air ambulance providers may not participate in Medicare, which can result in large balance bills beyond what Medicare approves.",
+      },
+      {
+        question: "How much does an ambulance cost with Medicare?",
+        answer: "With Original Medicare, you pay 20% coinsurance after the $257 Part B deductible. Ground ambulance bills typically range from $400–$1,200, so your share could be $80–$240 after the deductible. Air ambulance bills can exceed $30,000, making your 20% share potentially $6,000 or more. Medigap Plan G covers the 20% coinsurance after the deductible.",
+      },
+      {
+        question: "Does Medicare cover ambulance transport to dialysis?",
+        answer: "Yes — Medicare covers non-emergency ambulance transport to dialysis if your doctor certifies in writing that transport by other means would endanger your health. If you can travel safely by car or wheelchair van, Medicare will not cover ambulance transport to dialysis.",
+      },
+      {
+        question: "Will Medicare pay for an ambulance if I call 911?",
+        answer: "Yes — if you call 911 and an ambulance responds to a genuine medical emergency, Medicare Part B will cover the transport. The ambulance company must be Medicare-approved, but in a true emergency, Medicare Advantage plans also cannot deny coverage based on network status.",
+      },
+      {
+        question: "Does Medigap cover ambulance costs?",
+        answer: "Yes — most Medigap plans cover the 20% Part B coinsurance for ambulance services. Medigap Plan G covers the coinsurance in full after you pay the $257 Part B deductible. This is especially valuable for air ambulance transport, where 20% of a $30,000 bill could be $6,000.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Emergency ambulance</strong> is covered by Medicare Part B" },
+      { icon: "check", text: "<strong>Non-emergency transport</strong> requires a physician's written order" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 Part B deductible" },
+      { icon: "alert", text: "<strong>Air ambulance</strong> can result in large balance bills from non-participating providers" },
+      { icon: "info", text: "Medicare only covers transport to the <strong>nearest appropriate facility</strong>" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
+      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "medicare-supplement-plan-g" },
+      { title: "Medicare Coverage for Stroke Victims", description: "Learn how Medicare covers stroke treatment, rehabilitation, and long-term care.", slug: "medicare-coverage-for-stroke-victims" },
+    ],
+    sidebarRelatedLinks: [
+      "will-medicare-cover-my-surgery",
+      "what-is-medicare-part-b",
+      "medicare-supplement-plan-g",
+      "medicare-coverage-for-stroke-victims",
+    ],
+    ctaBanner: {
+      title: "Worried About Ambulance Bills?",
+      text: "A Medigap Plan G can eliminate your 20% coinsurance for ambulance services — including air ambulance. Compare plans in your area today.",
+    },
+    relatedSlugs: ["will-medicare-cover-my-surgery", "what-is-medicare-part-b", "medicare-supplement-plan-g", "medicare-coverage-for-stroke-victims"],
+  },
+
+  // ── Robotic Surgery ────────────────────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-robotic-surgery",
+    seo: {
+      title: "Does Medicare Cover Robotic Surgery? | MedicareFAQ",
+      description: "Medicare covers robotic surgery when it is medically necessary. Learn what you pay, how Medigap reduces your costs, and when Medicare Advantage may differ.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-robotic-surgery/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-robotic-surgery.jpg",
+    },
+    title: "Does Medicare Cover Robotic Surgery?",
+    subtitle: "Yes — Medicare covers robotic-assisted surgery when it is medically necessary. The technology used does not change your coverage; what matters is whether the procedure itself is covered.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes — Medicare covers robotic-assisted surgery when the underlying procedure is medically necessary. Medicare does not distinguish between traditional open surgery, laparoscopic surgery, and robotic surgery. If the procedure is covered, the robotic technique is covered too. You pay the same cost-sharing as any other covered surgery: 20% coinsurance under Part B for outpatient procedures, or the Part A deductible for inpatient hospital stays.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Part A", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "80% of approved amount after $257 deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers 100% after $1,676 per-benefit-period deductible for days 1–60" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers robotic-assisted surgery the same way it covers any other medically necessary surgical procedure. Medicare evaluates whether the procedure itself is medically necessary — not the technology used to perform it. If your doctor determines that surgery is needed to treat your condition, Medicare will cover it whether it is performed with traditional instruments or a robotic system.",
+          "The part of Medicare that applies depends on the setting. Outpatient robotic surgery at an ambulatory surgery center or hospital outpatient department falls under **Medicare Part B**. If you are admitted as a hospital inpatient, **Medicare Part A** applies. Robotic surgery is commonly used for prostate cancer (prostatectomy), hysterectomy, colorectal surgery, and joint replacement procedures.",
+          "Medicare also covers related services including anesthesia, pre-operative testing, and post-operative care as part of the surgical episode.",
+        ],
+        whatItCovers: [
+          "Robotic prostatectomy for prostate cancer",
+          "Robotic hysterectomy for gynecological conditions",
+          "Robotic colorectal surgery",
+          "Robotic joint replacement (hip, knee)",
+          "Robotic cardiac surgery when medically necessary",
+          "Anesthesia and related services during the procedure",
+          "Pre-operative and post-operative care",
+        ],
+        whatItDoesntCover: [
+          "Elective procedures without documented medical necessity",
+          "Cosmetic surgery using robotic techniques",
+          "Procedures performed by non-Medicare-participating providers",
+        ],
+        costNote: "Part B (outpatient): 20% coinsurance after $257 deductible. Part A (inpatient): $0 after $1,676 per-benefit-period deductible for days 1–60.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover all services that Original Medicare covers, including medically necessary robotic surgery. However, your cost-sharing — copayments, coinsurance, and deductibles — depends on your specific plan.",
+          "Medicare Advantage plans use provider networks. Confirm that your surgeon, the surgical facility, and the anesthesiologist are all in-network before your procedure. Out-of-network services can result in significantly higher costs or no coverage at all.",
+        ],
+        whatItCovers: [
+          "All robotic surgeries covered by Original Medicare",
+          "Anesthesia and related services",
+          "Pre-operative and post-operative care",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers (unless plan has out-of-network benefits)",
+          "Procedures not deemed medically necessary by your plan",
+        ],
+        callout: {
+          type: "tip",
+          title: "Verify your entire surgical team is in-network",
+          text: "Before robotic surgery, confirm that your surgeon, the hospital or surgery center, and the anesthesiologist are all in your Medicare Advantage plan's network. Out-of-network billing from any member of your surgical team can result in unexpected costs.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind after surgery — including the 20% Part B coinsurance and the Part A deductible. Because robotic surgery bills can be substantial, Medigap coverage can significantly reduce what you owe.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. For inpatient robotic surgery, Plan G also covers the Part A deductible. Unlike Medicare Advantage, Medigap has no provider networks — any surgeon who accepts Medicare will also accept your Medigap plan.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) — covered by most Medigap plans",
+          "Part A deductible ($1,676) — covered by Plans D, G, and others",
+          "Excess charges — covered by Plans F and G",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Original Medicare",
+          "Elective or cosmetic procedures",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for outpatient robotic surgery is the $257 Part B deductible. For inpatient procedures, Plan G covers the $1,676 Part A deductible as well.",
+      },
+    ],
+    exceptionsSection: {
+      title: "When Robotic Surgery May Not Be Covered",
+      items: [
+        {
+          title: "Medical Necessity Is Required",
+          text: "Medicare covers robotic surgery only when the underlying procedure is medically necessary. Your doctor must document the clinical reason for the surgery. Elective procedures — including cosmetic surgery — are not covered regardless of the technique used.",
+        },
+        {
+          title: "Provider Must Accept Medicare",
+          text: "Your surgeon and the surgical facility must both accept Medicare assignment. If your surgeon does not participate in Medicare, you may be responsible for the full cost of the procedure. Always verify Medicare participation before scheduling surgery.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover da Vinci robotic surgery?",
+        answer: "Yes — Medicare covers da Vinci robotic surgery when the underlying procedure is medically necessary. Medicare does not distinguish between surgical techniques. If the procedure (such as a prostatectomy or hysterectomy) is covered, it is covered whether performed with traditional instruments or the da Vinci system.",
+      },
+      {
+        question: "Does Medicare cover robotic knee replacement?",
+        answer: "Yes — Medicare covers robotic-assisted knee replacement surgery when it is medically necessary. The robotic technique does not change your coverage or cost-sharing. You pay the same 20% coinsurance (Part B) or Part A deductible as with traditional knee replacement surgery.",
+      },
+      {
+        question: "Does Medicare cover robotic prostate surgery?",
+        answer: "Yes — Medicare covers robotic prostatectomy (robotic-assisted radical prostatectomy) when it is medically necessary for prostate cancer treatment. This is one of the most common uses of robotic surgery, and Medicare covers it the same as traditional prostatectomy.",
+      },
+      {
+        question: "How much does robotic surgery cost with Medicare?",
+        answer: "With Original Medicare, you pay 20% coinsurance after the $257 Part B deductible for outpatient robotic surgery. For inpatient procedures, you pay the $1,676 Part A deductible. Medigap Plan G covers the 20% coinsurance after the deductible, significantly reducing your out-of-pocket cost.",
+      },
+      {
+        question: "Does Medicare Advantage cover robotic surgery?",
+        answer: "Yes — Medicare Advantage plans are required to cover all services that Original Medicare covers, including medically necessary robotic surgery. Your cost-sharing depends on your specific plan. Confirm that your surgeon and facility are in-network before scheduling.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Robotic surgery</strong> is covered the same as traditional surgery under Medicare" },
+      { icon: "check", text: "Medicare covers <strong>da Vinci, robotic knee, and robotic prostate surgery</strong>" },
+      { icon: "dollar", text: "Outpatient: <strong>20% coinsurance</strong> after $257 Part B deductible" },
+      { icon: "dollar", text: "Inpatient: <strong>$1,676 deductible</strong> per benefit period (Part A)" },
+      { icon: "info", text: "The <strong>surgical technique</strong> does not change Medicare coverage" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for diagnostic biopsies.", slug: "does-medicare-cover-a-biopsy" },
+      { title: "Does Medicare Cover Anesthesia?", description: "Understand how Medicare covers anesthesia for surgical procedures.", slug: "does-medicare-cover-anesthesia" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "will-medicare-cover-my-surgery",
+      "does-medicare-cover-a-biopsy",
+      "does-medicare-cover-anesthesia",
+      "medicare-supplement-plan-g",
+    ],
+    ctaBanner: {
+      title: "Facing Robotic Surgery?",
+      text: "Medigap Plan G can eliminate your 20% coinsurance for robotic surgery. Compare plans in your area and protect yourself from unexpected surgical bills.",
+    },
+    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-supplement-plan-g", "does-medicare-cover-a-biopsy"],
+  },
+
+  // ── Second Opinions ────────────────────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+    seo: {
+      title: "Does Medicare Cover Second Opinions? | MedicareFAQ",
+      description: "Medicare Part B covers second opinions for surgery and major diagnoses. Learn when you should get one, what Medicare pays, and how to find a specialist.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-second-opinions-and-when-should-you-get-one/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-second-opinions.jpg",
+    },
+    title: "Does Medicare Cover Second Opinions?",
+    subtitle: "Yes — Medicare Part B covers second opinions before surgery and for major diagnoses. You pay the same 20% coinsurance as any other outpatient visit. Learn when to get one and how to find a specialist.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes — Medicare Part B covers second opinions before surgery and for major diagnoses. The second opinion is treated like any other outpatient doctor visit: Medicare pays 80% of the approved amount after your Part B deductible, and you pay 20% coinsurance. If the second opinion differs from the first, Medicare may also cover a third opinion. Medicare Advantage plans cover second opinions at the same level, though cost-sharing varies.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Second Opinion)", coverage: "Covered", icon: "shield", notes: "80% after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part B (Third Opinion)", coverage: "Covered if Opinions Differ", icon: "shield", notes: "Covered when first and second opinions conflict" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered before surgery and for major diagnoses",
+        paragraphs: [
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers second opinions before surgery and for major diagnoses. A second opinion is treated the same as any other outpatient doctor visit — Medicare pays 80% of the approved amount after your Part B deductible, and you pay 20% coinsurance.",
+          "If the second opinion differs from the first, Medicare will also cover a third opinion to help you make an informed decision. You have the right to seek a second opinion from any Medicare-participating specialist, even if they are not in your primary doctor's practice or hospital system.",
+          "Getting a second opinion is especially important before elective surgery, when facing a new cancer diagnosis, or when your doctor recommends a major treatment change. Studies show that second opinions change the diagnosis or treatment plan in a significant percentage of cases.",
+        ],
+        whatItCovers: [
+          "Second opinion before elective or recommended surgery",
+          "Second opinion for a new cancer diagnosis",
+          "Second opinion for any major diagnosis or treatment decision",
+          "Third opinion when first and second opinions conflict",
+          "Specialist consultation fees",
+          "Review of test results, imaging, and pathology reports",
+        ],
+        whatItDoesntCover: [
+          "Second opinions from non-Medicare-participating providers",
+          "Opinions sought purely for personal reassurance without a clinical basis",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). A specialist consultation typically costs $150–$400, so your 20% share is $30–$80 after the deductible.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover second opinions at the same level as Original Medicare. However, your cost-sharing depends on your specific plan, and you may need a referral from your primary care physician to see a specialist.",
+          "If your plan requires referrals, make sure to get one before scheduling your second opinion appointment. Some Medicare Advantage plans also require prior authorization for specialist visits, so check your plan's requirements in advance.",
+        ],
+        whatItCovers: [
+          "Second and third opinions covered by Original Medicare",
+          "Specialist consultations within the plan's network",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network specialists (unless plan has out-of-network benefits)",
+          "Specialist visits without required referral or prior authorization",
+        ],
+        callout: {
+          type: "info",
+          title: "Check if you need a referral",
+          text: "Some Medicare Advantage plans (especially HMOs) require a referral from your primary care doctor before you can see a specialist for a second opinion. Call your plan before scheduling to avoid unexpected costs.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for second opinions, just as they do for any other covered outpatient visit. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the coinsurance in full after you meet the annual Part B deductible.",
+          "Unlike Medicare Advantage, Medigap has no provider networks — you can see any Medicare-participating specialist in the country without a referral. This makes it easy to seek a second opinion from a leading specialist at a major medical center.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for second and third opinions",
+          "Specialist consultation fees after the deductible",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Original Medicare",
+          "Non-Medicare-participating specialists",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for a second opinion is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
+      },
+    ],
+    alternativesSection: {
+      title: "When Should You Get a Second Opinion?",
+      paragraphs: [
+        "Getting a second opinion is a smart step whenever you face a major medical decision. It is not a sign of distrust toward your doctor — it is a recognized part of good medical care. Medicare specifically covers second opinions because they can prevent unnecessary procedures and ensure you receive the most appropriate treatment.",
+      ],
+      checklist: {
+        title: "Consider a second opinion when:",
+        type: "info",
+        items: [
+          "Your doctor recommends surgery — especially elective surgery",
+          "You receive a new cancer diagnosis",
+          "Your doctor recommends a major treatment change",
+          "Your diagnosis is rare, complex, or uncertain",
+          "You are not improving with your current treatment",
+          "Your doctor recommends amputation or other irreversible procedure",
+          "You feel uncertain or uncomfortable about the recommended treatment",
+          "Your condition involves multiple specialists with conflicting recommendations",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare pay for a second opinion before surgery?",
+        answer: "Yes — Medicare Part B covers second opinions before surgery. The visit is treated like any other outpatient doctor visit: Medicare pays 80% after your Part B deductible, and you pay 20% coinsurance. If the second opinion conflicts with the first, Medicare also covers a third opinion.",
+      },
+      {
+        question: "Does Medicare cover a third opinion?",
+        answer: "Yes — if your first and second opinions conflict, Medicare Part B will cover a third opinion. The same cost-sharing applies: 20% coinsurance after the $257 Part B deductible.",
+      },
+      {
+        question: "Can I see any doctor for a second opinion with Medicare?",
+        answer: "Yes — you can see any Medicare-participating specialist for a second opinion. With Original Medicare or Medigap, there are no network restrictions. With Medicare Advantage, you may need to use in-network providers or get a referral from your primary care doctor.",
+      },
+      {
+        question: "How much does a second opinion cost with Medicare?",
+        answer: "With Original Medicare, you pay 20% coinsurance after the $257 Part B deductible. A specialist consultation typically costs $150–$400, so your 20% share is $30–$80 after the deductible. Medigap Plan G covers the 20% coinsurance after the deductible.",
+      },
+      {
+        question: "Does Medicare Advantage cover second opinions?",
+        answer: "Yes — Medicare Advantage plans are required to cover second opinions at the same level as Original Medicare. However, you may need a referral or prior authorization, and you should use in-network specialists to minimize costs.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Second opinions</strong> are covered by Medicare Part B" },
+      { icon: "check", text: "<strong>Third opinions</strong> are covered when first and second opinions conflict" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 Part B deductible" },
+      { icon: "info", text: "You can see <strong>any Medicare-participating specialist</strong> — no network restrictions with Original Medicare" },
+      { icon: "alert", text: "Medicare Advantage may require a <strong>referral</strong> before seeing a specialist" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
+      { title: "Medicare Coverage for Cancer", description: "Learn how Medicare covers cancer diagnosis, treatment, and follow-up care.", slug: "medicare-coverage-for-cancer" },
+      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "will-medicare-cover-my-surgery",
+      "medicare-coverage-for-cancer",
+      "what-is-medicare-part-b",
+      "medicare-supplement-plan-g",
+    ],
+    ctaBanner: {
+      title: "Want to See Any Specialist Without Referrals?",
+      text: "With Medigap, you can see any Medicare-participating specialist — including for second opinions — without network restrictions. Compare plans in your area today.",
+    },
+    relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-coverage-for-cancer", "what-is-medicare-part-b", "medicare-supplement-plan-g"],
+  },
+
+  // ── Urinary Catheters ──────────────────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-urinary-catheters",
+    seo: {
+      title: "Does Medicare Cover Urinary Catheters? | MedicareFAQ",
+      description: "Medicare Part B covers urinary catheters as durable medical equipment when medically necessary. Learn what you pay, how many catheters Medicare allows per month, and how Medigap can help.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-urinary-catheters/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-urinary-catheters.jpg",
+    },
+    title: "Does Medicare Cover Urinary Catheters?",
+    subtitle: "Yes — Medicare Part B covers urinary catheters as durable medical equipment (DME) when medically necessary. Learn how many Medicare covers per month, what you pay, and how to get them.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes — Medicare Part B covers urinary catheters as durable medical equipment (DME) when your doctor certifies they are medically necessary. Medicare covers up to 200 intermittent catheters per month (or 4 per day). You pay 20% coinsurance after the Part B deductible, and the supplier must be a Medicare-enrolled DME supplier. Foley (indwelling) catheters are also covered when medically necessary.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (DME)", coverage: "Covered", icon: "shield", notes: "80% of approved amount after $257 deductible; up to 200 intermittent catheters/month" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Catheters used during a hospital stay are covered under Part A" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same DME as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered as durable medical equipment",
+        paragraphs: [
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers urinary catheters as durable medical equipment (DME) when your doctor certifies they are medically necessary. Common reasons include urinary retention, neurogenic bladder, spinal cord injury, and post-surgical recovery.",
+          "For intermittent catheters (used and discarded after each use), Medicare covers up to 200 per month — approximately 4 per day. For closed system catheters (which include a collection bag and are used by people at high risk of urinary tract infections), Medicare may cover up to 200 per month as well.",
+          "Foley catheters (indwelling catheters that remain in place) are also covered when medically necessary. You must obtain catheters from a Medicare-enrolled DME supplier to receive Medicare's pricing.",
+        ],
+        whatItCovers: [
+          "Intermittent urinary catheters (up to 200 per month)",
+          "Closed system catheters for high-risk patients",
+          "Foley (indwelling) catheters when medically necessary",
+          "Catheter insertion supplies (drainage bags, lubricants)",
+          "Replacement catheters as needed",
+        ],
+        whatItDoesntCover: [
+          "Catheters purchased from non-Medicare-enrolled suppliers",
+          "Catheters in excess of Medicare's monthly allowance without medical justification",
+          "Catheters for conditions not certified as medically necessary",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Medicare sets a fee schedule for DME, so costs are standardized across enrolled suppliers.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover all DME that Original Medicare covers, including urinary catheters. However, your cost-sharing and the suppliers you can use depend on your specific plan.",
+          "Medicare Advantage plans often have preferred DME supplier networks. Using a preferred supplier will result in lower out-of-pocket costs. Check your plan's formulary or call your plan to find approved DME suppliers for catheters.",
+        ],
+        whatItCovers: [
+          "All catheter types covered by Original Medicare",
+          "Monthly catheter supplies within plan's allowance",
+        ],
+        whatItDoesntCover: [
+          "Suppliers outside the plan's DME network",
+          "Quantities exceeding the plan's monthly allowance",
+        ],
+        callout: {
+          type: "info",
+          title: "Use your plan's preferred DME supplier",
+          text: "Medicare Advantage plans often have preferred DME supplier networks for catheters. Using a preferred supplier can significantly reduce your out-of-pocket costs. Call your plan to find approved suppliers before ordering.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for DME, including urinary catheters. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the coinsurance in full after you meet the annual Part B deductible.",
+          "For people who require catheters on an ongoing basis, Medigap can provide meaningful savings over time. Unlike Medicare Advantage, Medigap has no supplier network restrictions — you can use any Medicare-enrolled DME supplier.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for DME including catheters",
+          "Ongoing monthly catheter supply costs",
+        ],
+        whatItDoesntCover: [
+          "Supplies not covered by Original Medicare",
+          "Non-Medicare-enrolled suppliers",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for catheters is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all covered catheter supplies.",
+      },
+    ],
+    costTable: {
+      title: "Medicare Catheter Coverage Allowances (2026)",
+      headers: ["Catheter Type", "Monthly Allowance", "Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Catheter Type": "Intermittent catheter",
+          "Monthly Allowance": "Up to 200/month",
+          "Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Catheter Type": "Closed system catheter",
+          "Monthly Allowance": "Up to 200/month",
+          "Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Catheter Type": "Foley (indwelling) catheter",
+          "Monthly Allowance": "As medically necessary",
+          "Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Actual costs vary by supplier and catheter type.",
+    },
+    exceptionsSection: {
+      title: "Requirements for Medicare Catheter Coverage",
+      items: [
+        {
+          title: "Medical Necessity Documentation Required",
+          text: "Your doctor must certify in writing that urinary catheters are medically necessary for your condition. The documentation must specify the type of catheter needed and the medical reason. Without this certification, Medicare will deny the claim.",
+        },
+        {
+          title: "Must Use Medicare-Enrolled DME Supplier",
+          text: "You must obtain catheters from a supplier enrolled in Medicare's DME program. If you purchase catheters from a non-enrolled supplier, Medicare will not reimburse you. Ask your doctor for a referral to a Medicare-enrolled DME supplier.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "How many catheters does Medicare cover per month?",
+        answer: "Medicare Part B covers up to 200 intermittent catheters per month (approximately 4 per day). For closed system catheters, Medicare also covers up to 200 per month. Foley (indwelling) catheters are covered as medically necessary.",
+      },
+      {
+        question: "Does Medicare cover catheter supplies?",
+        answer: "Yes — Medicare Part B covers catheter insertion supplies including drainage bags, lubricants, and other accessories when they are part of a medically necessary catheter regimen. These are covered as DME under Part B.",
+      },
+      {
+        question: "Does Medicare cover Foley catheters?",
+        answer: "Yes — Medicare Part B covers Foley (indwelling) catheters when medically necessary. Your doctor must certify the medical necessity. Foley catheters are covered as DME under Part B, and you pay 20% coinsurance after the Part B deductible.",
+      },
+      {
+        question: "How do I get catheters covered by Medicare?",
+        answer: "To get catheters covered by Medicare: (1) Get a written order from your doctor certifying medical necessity; (2) Find a Medicare-enrolled DME supplier; (3) Provide the supplier with your Medicare information and doctor's order. The supplier will bill Medicare directly.",
+      },
+      {
+        question: "Does Medicare Advantage cover catheters?",
+        answer: "Yes — Medicare Advantage plans are required to cover all DME that Original Medicare covers, including urinary catheters. Check your plan for preferred DME suppliers and cost-sharing details.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Urinary catheters</strong> are covered by Medicare Part B as DME" },
+      { icon: "check", text: "Up to <strong>200 intermittent catheters</strong> per month are covered" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 Part B deductible" },
+      { icon: "info", text: "Must use a <strong>Medicare-enrolled DME supplier</strong>" },
+      { icon: "info", text: "Doctor must certify <strong>medical necessity</strong> in writing" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Incontinence Supplies", description: "Learn what incontinence products Medicare covers and what it does not.", slug: "medicare-coverage-for-incontinence-supplies" },
+      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "medicare-supplement-plan-g" },
+      { title: "Does Medicare Cover End Stage Renal Disease?", description: "Learn how Medicare covers kidney disease, dialysis, and transplants.", slug: "does-medicare-cover-end-stage-renal-disease" },
+    ],
+    sidebarRelatedLinks: [
+      "medicare-coverage-for-incontinence-supplies",
+      "what-is-medicare-part-b",
+      "medicare-supplement-plan-g",
+      "does-medicare-cover-end-stage-renal-disease",
+    ],
+    ctaBanner: {
+      title: "Need Ongoing Catheter Supplies?",
+      text: "Medigap Plan G can eliminate your 20% coinsurance for catheters and other DME. Compare plans in your area and reduce your monthly supply costs.",
+    },
+    relatedSlugs: ["medicare-coverage-for-incontinence-supplies", "what-is-medicare-part-b", "medicare-supplement-plan-g", "does-medicare-cover-end-stage-renal-disease"],
+  },
+
+  // ── Varicose Veins ─────────────────────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-varicose-veins",
+    seo: {
+      title: "Does Medicare Cover Varicose Vein Treatment? | MedicareFAQ",
+      description: "Medicare covers varicose vein treatment when medically necessary — not cosmetic. Learn which procedures are covered, what you pay, and when Medicare will deny your claim.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-varicose-veins/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-varicose-veins.jpg",
+    },
+    title: "Does Medicare Cover Varicose Vein Treatment?",
+    subtitle: "Medicare covers varicose vein treatment only when it is medically necessary — not for cosmetic reasons. Learn which procedures qualify, what you pay, and how to document medical necessity.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare covers varicose vein treatment when it is medically necessary — meaning your veins are causing symptoms such as pain, swelling, skin ulcers, or blood clots. Cosmetic treatment of varicose veins (to improve appearance only) is not covered. When medically necessary, treatment falls under Medicare Part B: Medicare pays 80% after your $257 deductible, and you pay 20% coinsurance.",
+      badges: [
+        { plan: "Medicare Part B", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Medically Necessary)", coverage: "Covered", icon: "shield", notes: "80% after $257 deductible; symptoms like pain, ulcers, or clots required" },
+      { planType: "Medicare Part B (Cosmetic)", coverage: "Not Covered", icon: "shield", notes: "Treatment for appearance only is explicitly excluded from Medicare" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered (Medically Necessary)", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance when treatment is covered" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered (Medically Necessary Only)",
+        coverageType: "partial",
+        statusBadge: "Covered when causing symptoms; not covered for cosmetic reasons",
+        paragraphs: [
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers varicose vein treatment when it is medically necessary. Medicare defines medically necessary as treatment required to diagnose or treat a health condition — not to improve appearance. For varicose veins, this means your veins must be causing symptoms that affect your health or daily functioning.",
+          "Qualifying symptoms include chronic pain or aching in the legs, significant swelling (edema), skin changes such as discoloration or thickening, venous skin ulcers, superficial thrombophlebitis (inflammation and clotting), or bleeding from varicose veins. Medicare typically requires documentation of conservative treatment (such as compression stockings) before approving more invasive procedures.",
+          "Covered procedures include endovenous laser ablation (EVLA), radiofrequency ablation (RFA), sclerotherapy for symptomatic veins, and surgical stripping when medically necessary. All procedures must be performed by a Medicare-participating provider.",
+        ],
+        whatItCovers: [
+          "Endovenous laser ablation (EVLA) for symptomatic varicose veins",
+          "Radiofrequency ablation (RFA) for symptomatic veins",
+          "Sclerotherapy when veins are causing symptoms",
+          "Surgical stripping when medically necessary",
+          "Diagnostic ultrasound to evaluate venous insufficiency",
+          "Office visits and consultations for symptomatic varicose veins",
+        ],
+        whatItDoesntCover: [
+          "Treatment for cosmetic reasons only (appearance improvement)",
+          "Sclerotherapy for spider veins without symptoms",
+          "Treatment without documented symptoms or failed conservative therapy",
+          "Procedures by non-Medicare-participating providers",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered (Medically Necessary Only)",
+        coverageType: "partial",
+        statusBadge: "Covered when medically necessary — cost-sharing varies",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) cover medically necessary varicose vein treatment at the same level as Original Medicare. However, your plan may require prior authorization before approving treatment, and you must use in-network providers to receive the lowest cost-sharing.",
+          "Some Medicare Advantage plans have additional requirements for varicose vein treatment — such as requiring documentation of failed conservative therapy (compression stockings for 3–6 months) before approving ablation or surgery. Check your plan's prior authorization requirements before scheduling treatment.",
+        ],
+        whatItCovers: [
+          "All medically necessary varicose vein treatments covered by Original Medicare",
+          "Diagnostic ultrasound and consultations",
+        ],
+        whatItDoesntCover: [
+          "Cosmetic treatment for appearance only",
+          "Out-of-network providers (unless plan has out-of-network benefits)",
+          "Treatment without required prior authorization",
+        ],
+        callout: {
+          type: "warning",
+          title: "Prior authorization may be required",
+          text: "Many Medicare Advantage plans require prior authorization for varicose vein procedures. Submit your documentation of symptoms and failed conservative therapy before scheduling treatment to avoid a denied claim.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary varicose vein treatment. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the coinsurance in full after you meet the annual Part B deductible.",
+          "Medigap does not add coverage for cosmetic varicose vein treatment — it only covers the cost-sharing for services that Original Medicare covers. Unlike Medicare Advantage, Medigap has no provider network restrictions.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for medically necessary varicose vein treatment",
+          "Diagnostic ultrasound and consultation fees",
+        ],
+        whatItDoesntCover: [
+          "Cosmetic treatment not covered by Original Medicare",
+          "Treatment without documented medical necessity",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for covered varicose vein treatment is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
+      },
+    ],
+    exceptionsSection: {
+      title: "Cosmetic vs. Medical: The Key Distinction",
+      items: [
+        {
+          title: "What Makes Varicose Vein Treatment 'Medically Necessary'",
+          text: "Medicare requires documented symptoms to approve varicose vein treatment. Symptoms that qualify include: chronic leg pain or aching, significant swelling (edema), skin ulcers or skin changes (lipodermatosclerosis), superficial thrombophlebitis, or bleeding from varicose veins. Treatment purely for cosmetic improvement — with no documented symptoms — will be denied.",
+          highlight: "Keep a symptom diary and ask your doctor to document all symptoms in your medical record. This documentation is critical if Medicare reviews your claim.",
+        },
+        {
+          title: "Conservative Therapy May Be Required First",
+          text: "Medicare and many Medicare Advantage plans require documentation that conservative therapy (such as wearing compression stockings for 3–6 months) failed before approving more invasive procedures. Make sure your doctor documents your trial of conservative therapy and the reasons it was insufficient.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover varicose vein surgery?",
+        answer: "Yes — Medicare Part B covers varicose vein surgery (including surgical stripping and endovenous ablation) when it is medically necessary. You must have documented symptoms such as pain, swelling, or skin ulcers. Cosmetic surgery for appearance only is not covered.",
+      },
+      {
+        question: "Does Medicare cover sclerotherapy for varicose veins?",
+        answer: "Medicare covers sclerotherapy for varicose veins when they are causing symptoms. Sclerotherapy for spider veins or purely cosmetic purposes is not covered. Your doctor must document the medical necessity.",
+      },
+      {
+        question: "Does Medicare cover compression stockings for varicose veins?",
+        answer: "Medicare does not typically cover compression stockings for varicose veins. However, compression stockings prescribed for venous ulcers or lymphedema may be covered as DME under Part B. Check with your doctor and supplier.",
+      },
+      {
+        question: "How much does varicose vein treatment cost with Medicare?",
+        answer: "With Original Medicare, you pay 20% coinsurance after the $257 Part B deductible. Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000. Medigap Plan G covers the 20% coinsurance after the deductible.",
+      },
+      {
+        question: "Will Medicare pay for laser vein treatment?",
+        answer: "Yes — Medicare covers endovenous laser ablation (EVLA) when it is medically necessary for symptomatic varicose veins. The procedure must be performed by a Medicare-participating provider, and you must have documented symptoms and typically a failed trial of conservative therapy.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medically necessary</strong> varicose vein treatment is covered by Medicare Part B" },
+      { icon: "x", text: "<strong>Cosmetic treatment</strong> for appearance only is NOT covered" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 Part B deductible" },
+      { icon: "info", text: "Document <strong>symptoms and failed conservative therapy</strong> to support your claim" },
+      { icon: "alert", text: "Medicare Advantage may require <strong>prior authorization</strong>" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Plastic Surgery", description: "Learn when Medicare covers reconstructive vs. cosmetic procedures.", slug: "medicare-coverage-for-plastic-surgery" },
+      { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
+      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
+      { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "medicare-coverage-for-plastic-surgery",
+      "will-medicare-cover-my-surgery",
+      "what-is-medicare-part-b",
+      "medicare-supplement-plan-g",
+    ],
+    ctaBanner: {
+      title: "Facing Varicose Vein Treatment?",
+      text: "Medigap Plan G can cover your 20% coinsurance for medically necessary varicose vein procedures. Compare plans in your area today.",
+    },
+    relatedSlugs: ["medicare-coverage-for-plastic-surgery", "will-medicare-cover-my-surgery", "what-is-medicare-part-b", "medicare-supplement-plan-g"],
+  },
+
+  // ── Wegovy ─────────────────────────────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-wegovy",
+    seo: {
+      title: "Does Medicare Cover Wegovy? | MedicareFAQ",
+      description: "Medicare does not currently cover Wegovy for weight loss under Part D. Learn about the IRA's potential to change this, what alternatives exist, and how to reduce your costs.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-wegovy/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-wegovy.jpg",
+    },
+    title: "Does Medicare Cover Wegovy?",
+    subtitle: "Medicare does not currently cover Wegovy (semaglutide) for weight loss under Part D. However, the Inflation Reduction Act may change this. Learn what's covered, what alternatives exist, and how to reduce your costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "No — Medicare Part D does not currently cover Wegovy (semaglutide) when prescribed solely for weight loss. Federal law has historically prohibited Medicare Part D from covering weight-loss drugs. However, Ozempic (the same active ingredient, semaglutide) is covered by Medicare Part D when prescribed for type 2 diabetes. If you have heart disease, Medicare may cover Wegovy under a separate indication — CMS issued guidance in 2024 allowing coverage for cardiovascular risk reduction.",
+      badges: [
+        { plan: "Medicare Part D", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "not-covered" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part D (Weight Loss)", coverage: "Not Covered", icon: "shield", notes: "Federal law prohibits Part D coverage for weight-loss drugs" },
+      { planType: "Medicare Part D (Cardiovascular Risk)", coverage: "Covered (2024+)", icon: "shield", notes: "CMS approved coverage for cardiovascular risk reduction in 2024" },
+      { planType: "Medicare Part D (Ozempic for Diabetes)", coverage: "Covered", icon: "shield", notes: "Ozempic (same drug) is covered when prescribed for type 2 diabetes" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Not Covered for Weight Loss", icon: "heart", notes: "Same restrictions as Part D apply; cardiovascular indication may be covered" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medicare Part D (Prescription Drug Coverage)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered for Weight Loss",
+        coverageType: "not-covered",
+        statusBadge: "Not covered for weight loss; covered for cardiovascular risk reduction",
+        paragraphs: [
+          "[Medicare Part D](/faqs/what-is-medicare-part-d) does not cover Wegovy when prescribed for weight loss. A longstanding federal law (Social Security Act §1927) prohibits Medicare Part D from covering drugs used for weight loss, weight gain, or anorexia. Wegovy (semaglutide 2.4 mg) is FDA-approved for chronic weight management, which places it in this excluded category.",
+          "However, in 2024 the FDA approved Wegovy for a second indication: reducing the risk of serious cardiovascular events (heart attack, stroke, cardiovascular death) in adults with established cardiovascular disease and obesity or overweight. CMS issued guidance in 2024 allowing Medicare Part D plans to cover Wegovy for this cardiovascular indication. If your doctor prescribes Wegovy specifically for cardiovascular risk reduction — not weight loss — your Part D plan may cover it.",
+          "Ozempic (semaglutide 0.5–2 mg) is a different formulation of the same drug (semaglutide) approved for type 2 diabetes. Medicare Part D covers Ozempic when prescribed for diabetes. If you have both obesity and type 2 diabetes, your doctor may prescribe Ozempic for diabetes management, which would be covered by Part D.",
+        ],
+        whatItCovers: [
+          "Wegovy for cardiovascular risk reduction (2024 CMS guidance)",
+          "Ozempic (semaglutide) when prescribed for type 2 diabetes",
+          "Other GLP-1 medications approved for diabetes (Ozempic, Trulicity, Victoza)",
+        ],
+        whatItDoesntCover: [
+          "Wegovy prescribed solely for weight loss",
+          "Other weight-loss drugs (Qsymia, Contrave, Saxenda for weight loss only)",
+          "Over-the-counter weight-loss supplements",
+        ],
+        costNote: "Wegovy costs approximately $1,350/month without coverage. With Part D coverage for cardiovascular indication, your cost depends on your plan's formulary tier and cost-sharing. The IRA's $2,000 annual out-of-pocket cap (2025) applies to all Part D drugs.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Not Covered for Weight Loss",
+        coverageType: "not-covered",
+        statusBadge: "Same restrictions as Part D apply",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) with prescription drug coverage (MA-PD plans) follow the same federal rules as standalone Part D plans. Wegovy is not covered for weight loss under Medicare Advantage drug benefits.",
+          "For the cardiovascular risk reduction indication, some Medicare Advantage plans may cover Wegovy following the 2024 CMS guidance. Check your plan's formulary or call your plan to confirm whether Wegovy is covered for your specific diagnosis.",
+        ],
+        whatItCovers: [
+          "Wegovy for cardiovascular risk reduction (if plan covers it)",
+          "Ozempic for type 2 diabetes",
+        ],
+        whatItDoesntCover: [
+          "Wegovy for weight loss",
+          "Weight-loss drugs as a general category",
+        ],
+        callout: {
+          type: "info",
+          title: "Ask your doctor about the cardiovascular indication",
+          text: "If you have established cardiovascular disease and are overweight or obese, ask your doctor whether Wegovy's cardiovascular risk reduction indication applies to you. This may allow Medicare Part D to cover the drug.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Medigap does not cover prescription drugs",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) do not cover prescription drugs. Medigap supplements Original Medicare (Part A and Part B) — it does not add drug coverage. For prescription drug coverage, you need a separate Medicare Part D plan.",
+          "Medigap also does not cover drugs that are excluded from Medicare coverage, such as Wegovy for weight loss. If Wegovy becomes covered under Part D for a specific indication, Medigap would not apply — Part D has its own cost-sharing structure.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance for covered medical services",
+          "Hospital costs under Part A",
+        ],
+        whatItDoesntCover: [
+          "Prescription drugs (including Wegovy)",
+          "Drugs excluded from Medicare coverage",
+        ],
+        costNote: "Medigap does not cover Wegovy or any other prescription drug. You need a separate Medicare Part D plan for drug coverage.",
+      },
+    ],
+    legislativeUpdate: {
+      title: "Legislative & Regulatory Updates on Wegovy Coverage",
+      items: [
+        {
+          title: "2024 CMS Guidance: Cardiovascular Indication",
+          status: "Passed",
+          description: "CMS issued guidance in 2024 allowing Medicare Part D plans to cover Wegovy for cardiovascular risk reduction in adults with established cardiovascular disease and obesity or overweight. This followed FDA approval of this new indication.",
+        },
+        {
+          title: "Treat and Reduce Obesity Act (TROA)",
+          status: "Pending",
+          description: "The Treat and Reduce Obesity Act would remove the federal prohibition on Medicare Part D coverage for FDA-approved weight-loss drugs. The bill has been introduced in multiple congressional sessions but has not yet passed.",
+        },
+        {
+          title: "IRA $2,000 Out-of-Pocket Cap",
+          status: "Passed",
+          description: "The Inflation Reduction Act established a $2,000 annual out-of-pocket cap for Medicare Part D beneficiaries starting in 2025. If Wegovy becomes covered, this cap would limit your annual drug costs.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Alternatives and Cost-Saving Options",
+      paragraphs: [
+        "If Medicare does not cover Wegovy for your situation, there are several ways to reduce your costs or access alternative treatments.",
+      ],
+      checklist: {
+        title: "Options to consider:",
+        type: "tip",
+        items: [
+          "Ask your doctor about Ozempic (semaglutide for diabetes) if you have type 2 diabetes — it is covered by Part D",
+          "Ask about the cardiovascular indication for Wegovy if you have heart disease",
+          "Check Novo Nordisk's patient assistance program (NovoCare) for income-based discounts",
+          "Ask your doctor about other GLP-1 medications covered by your Part D plan",
+          "Consider Medicare's covered obesity counseling (22 sessions/year under Part B)",
+          "Check if your state Medicaid program covers Wegovy (rules vary by state)",
+          "Ask your pharmacist about manufacturer coupons or discount programs",
+          "Compare Part D plans during open enrollment to find the best formulary for your medications",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare Part D cover Wegovy?",
+        answer: "Medicare Part D does not cover Wegovy for weight loss. Federal law prohibits Part D from covering weight-loss drugs. However, Medicare Part D may cover Wegovy for cardiovascular risk reduction (2024 CMS guidance) if you have established cardiovascular disease and are overweight or obese.",
+      },
+      {
+        question: "Does Medicare cover Ozempic?",
+        answer: "Yes — Medicare Part D covers Ozempic (semaglutide) when prescribed for type 2 diabetes. Ozempic and Wegovy contain the same active ingredient (semaglutide) but are different formulations approved for different indications. Ozempic is covered for diabetes; Wegovy is not covered for weight loss.",
+      },
+      {
+        question: "Will Medicare ever cover Wegovy for weight loss?",
+        answer: "Possibly — the Treat and Reduce Obesity Act (TROA) would remove the federal prohibition on Medicare coverage for weight-loss drugs. The bill has been introduced multiple times but has not yet passed. CMS has already allowed coverage for Wegovy's cardiovascular indication, which may signal broader coverage in the future.",
+      },
+      {
+        question: "How much does Wegovy cost without Medicare coverage?",
+        answer: "Wegovy costs approximately $1,349 per month without insurance coverage. Novo Nordisk offers a savings card for commercially insured patients, but this is not available to Medicare beneficiaries. The NovoCare patient assistance program may provide Wegovy at reduced or no cost for qualifying low-income patients.",
+      },
+      {
+        question: "Does Medicare cover weight loss programs?",
+        answer: "Yes — Medicare Part B covers intensive behavioral therapy for obesity: up to 22 sessions per year with a primary care doctor. This includes counseling on diet, physical activity, and behavior change. Medicare does not cover commercial weight-loss programs like Weight Watchers.",
+      },
+      {
+        question: "Does Medicare cover Mounjaro for weight loss?",
+        answer: "No — Medicare Part D does not cover Mounjaro (tirzepatide) for weight loss. Like Wegovy, Mounjaro is excluded from Part D coverage when prescribed for weight management. However, Mounjaro is covered by Part D when prescribed for type 2 diabetes.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Wegovy for weight loss</strong> is NOT covered by Medicare Part D" },
+      { icon: "check", text: "<strong>Wegovy for cardiovascular risk reduction</strong> may be covered (2024 CMS guidance)" },
+      { icon: "check", text: "<strong>Ozempic for diabetes</strong> is covered by Medicare Part D" },
+      { icon: "info", text: "The <strong>Treat and Reduce Obesity Act</strong> could change coverage in the future" },
+      { icon: "dollar", text: "Wegovy costs approximately <strong>$1,349/month</strong> without coverage" },
+      { icon: "info", text: "Medicare covers <strong>22 obesity counseling sessions/year</strong> under Part B" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Ozempic?", description: "Learn how Medicare covers Ozempic for type 2 diabetes and what it costs.", slug: "does-medicare-cover-ozempic" },
+      { title: "What Is Medicare Part D?", description: "Understand how Medicare prescription drug coverage works.", slug: "what-is-medicare-part-d" },
+      { title: "Medicare Coverage for Bariatric Surgery", description: "Learn when Medicare covers weight-loss surgery and what you pay.", slug: "medicare-coverage-for-bariatric-surgery" },
+      { title: "Does Medicare Cover Hormone Therapy for Menopause?", description: "Learn about Medicare coverage for hormone replacement therapy.", slug: "does-medicare-cover-hormone-therapy-for-menopause" },
+    ],
+    sidebarRelatedLinks: [
+      "does-medicare-cover-ozempic",
+      "what-is-medicare-part-d",
+      "medicare-coverage-for-bariatric-surgery",
+      "does-medicare-cover-hormone-therapy-for-menopause",
+    ],
+    ctaBanner: {
+      title: "Paying Out of Pocket for Wegovy?",
+      text: "Compare Medicare Part D plans to find the best formulary for your medications. A plan with better drug coverage could save you thousands per year.",
+    },
+    relatedSlugs: ["does-medicare-cover-ozempic", "what-is-medicare-part-d", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-hormone-therapy-for-menopause"],
+  },
+
 ];

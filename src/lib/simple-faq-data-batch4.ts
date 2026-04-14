@@ -134,89 +134,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-initial-enrollment-period", "when-does-medicare-start", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines"],
-  },
-  {
-    slug: 'does-medicare-cover-second-opinions-and-when-should-you-get-one',
-    seo: {
-      title: 'Does Medicare Cover Second Opinions? And When Should You Get One?',
-      description: 'Learn when and why to get a second medical opinion, how Medicare covers it, and how to find approved doctors. Get informed and compare plans.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-second-opinions-and-when-should-you-get-one/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Second-Opinions-And-When-Should-You-Get-One.jpg',
-    },
-    title: 'Does Medicare Cover Second Opinions? And When Should You Get One?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-      },
-      {
-        heading: 'What Is a Second Opinion and Why Might You Need One?',
-        paragraphs: [
-        ],
-        listItems: [
-          'You’re diagnosed with a serious illness like cancer or heart disease.',
-          'A surgery is recommended, particularly one that’s major or life-altering.',
-          'You want to explore alternative treatments.',
-          'You feel uncertain about the initial diagnosis or treatment.',
-        ],
-      },
-      {
-        heading: 'Does Medicare Cover Second Opinions?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-        listItems: [
-          'Referrals from your primary care doctor before seeing a specialist.',
-          'Use of in-network providers, meaning you may need to choose a doctor or facility that is part of your plan’s approved provider list.',
-          'Prior authorization, where your plan must approve the second opinion visit in advance for it to be covered.',
-        ],
-      },
-      {
-        heading: 'How to Ask Your Doctor for a Second Opinion',
-        paragraphs: [
-        ],
-        listItems: [
-          'Be honest and direct. Say something like, “I appreciate your diagnosis and treatment plan, but I’d feel more comfortable getting a second opinion to be sure we’re on the right path.”',
-          'Ask for help: Your doctor can often recommend another qualified specialist.',
-          'Be sure to ask for all your medical records. Even if they are not directly tied to this diagnosis. You’ll need these for the second opinion consultation.',
-        ],
-      },
-      {
-        heading: 'The Insurance Process for a Second Opinion',
-        paragraphs: [
-        ],
-        listItems: [
-          'Choose a doctor who accepts Medicare for the second opinion.',
-          'Schedule the appointment and bring your medical records.',
-          'Medicare Part B typically covers 80% of the approved cost after you meet your deductible. You’re responsible for the remaining 20%.',
-        ],
-      },
-      {
-        heading: 'Finding Medicare-Approved Doctors for a Second Opinion',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'Additionally, it’s wise to bring a list of questions to the second opinion appointment. Ask about the risks and benefits of the recommended treatment, possible alternatives, and what could happen if you delay or skip the procedure. This helps ensure that the second opinion gives you a well-rounded view of your healthcare options.Was this article helpful ?Yes (0)No',
-        ],
-        listItems: [
-          'Accepts Medicare',
-          'Is in-network (if applicable)',
-          'Has experience in the condition or procedure being reviewed.',
-          'Was this article helpful ?',
-          'Yes (0)No',
-        ],
-      },
-    ],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-an-echocardiogram", "finding-local-doctors-who-accept-medicare", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor"],
-  },
-  {
+  },  {
     slug: 'original-medicare-vs-medicare-advantage',
     seo: {
       title: 'Medicare Advantage vs. Medicare',
@@ -497,82 +415,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["medicare-costs-2025", "medicare-part-b-annual-deductible-explained-what-youll-pay", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "what-is-medicare-cost-sharing"],
-  },
-  {
-    slug: 'does-medicare-cover-wegovy',
-    seo: {
-      title: 'Does Medicare Cover Wegovy?',
-      description: 'Many want Wegovy covered by Medicare, but coverage for the weight loss drug is complicated. Does Medicare cover Wegovy? Discover the truth.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-wegovy/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-wegovy.jpg',
-    },
-    title: 'Does Medicare Cover Wegovy?',
-    summary: 'Wegovy is a popular weight loss drug that continues to grow in popularity as a viable option for fighting obesity. Recently, for the first time ever, Medicare will cover the drug as a weight loss solution for Medicare Part D enrollees.',
-    category: 'Prescription Drugs',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-        listItems: [
-          'Is Wegovy Covered by Medicare?',
-          'Does Medicare Cover Wegovy for Weight Loss?',
-          'Does Medicare Part D Cover Wegovy?',
-          'Wegovy Coupon for Medicare',
-          'Does Medicare Cover Wegovy for Diabetes?',
-          'Wegovy Covered by Medicare Supplement Plans',
-          'How To Get Medicare To Pay For Wegovy',
-        ],
-      },
-      {
-        heading: 'Is Wegovy Covered by Medicare?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-      },
-      {
-        heading: 'Does Medicare Cover Wegovy for Weight Loss?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Does Medicare Part D Cover Wegovy?',
-        paragraphs: [
-        ],
-        listItems: [
-          'Medicare Part D plans are provided by private carriers and operate with formularies. Each plan has a differentformulary, and these lists will differ depending on where you live, the carrier you enroll with, etc. You’ll need to check the formulary before to be sure your medications are covered.',
-          'For Medicare to cover Wegovy, it must be deemed medically necessary by your healthcare provider.',
-        ],
-      },
-      {
-        heading: 'Wegovy Coupon for Medicare',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Does Medicare Cover Wegovy for Diabetes?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Wegovy Covered by Medicare Supplement Plans',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (3)No',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-ozempic", "medicare-coverage-for-cardiovascular-disease", "does-medicare-cover-pre-existing-conditions", "medicare-preventive-services"],
-  },
-  {
+  },  {
     slug: 'will-medicare-cover-naturopathy',
     seo: {
       title: 'Will Medicare Cover Naturopathy',
@@ -1174,32 +1017,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period"],
-  },
-  // does-medicare-cover-end-stage-renal-disease moved to coverage-data.ts
-  {
-    slug: 'does-medicare-cover-robotic-surgery',
-    seo: {
-      title: 'Does Medicare Cover Robotic Surgery',
-      description: 'Medicare covers medically necessary services; robotic surgery is no exception. Learn how much Medicare will pay for robotic surgeries here.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-robotic-surgery/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-robotic-surgery.jpg',
-    },
-    title: 'Does Medicare Cover Robotic Surgery',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'my surgeons want to be paid extra for using the [robotic assist](/faqs/does-medicare-cover-cataract-surgery) in hernias, gallgladders, appendix. they asked me to use code S2900 but those [claims are being denied](/blog/medicare-advantage-denied-claims-crisis). Now what?',
-        ],
-      },
-    ],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-coverage-for-bariatric-surgery", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill"],
   },
   {
     slug: 'medicare-coverage-for-colonoscopy-screenings',

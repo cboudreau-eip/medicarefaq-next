@@ -291,32 +291,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["medicare-easy-pay", "5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "medicare-enrollment-checklist"],
   },
-  {
-    slug: 'does-medicare-cover-atrial-fibrillation-afib',
-    seo: {
-      title: 'Does Medicare Cover Atrial Fibrillation (AFib)',
-      description: 'Medicare covers certain care that those with atrial fibrillation require. Beneficiaries with AFib almost must know when to get Medigap.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-atrial-fibrillation-afib/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-atrial-fibrillation-afib.jpg',
-    },
-    title: 'Does Medicare Cover Atrial Fibrillation (AFib)',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'May 23, 2023',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Finding a Medicare Cardiologist',
-        paragraphs: [
-          'Updated on May 23, 2023',
-          '[Medicare covers medically necessary](/faqs/what-does-medically-necessary-mean) inpatient and outpatient services provided by a [cardiologist](/faqs/medicare-coverage-for-cardiovascular-disease). [Medicare coverage](/blog/medicare-parts-a-b-c-and-d-explained-simply) to...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "will-medicare-cover-my-surgery", "medicare-preventive-services"],
-  },
+  // does-medicare-cover-atrial-fibrillation-afib moved to coverage-data.ts
   {
     slug: 'applying-for-medicare',
     seo: {
@@ -1166,34 +1141,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["what-dental-expenses-does-medicare-cover", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors", "does-medicare-cover-dental-implants"],
-  },
-  {
-    slug: 'ambulance-and-medicare-coverage',
-    seo: {
-      title: 'Does Medicare Cover Ambulance Transportation',
-      description: 'If medically necessary, Medicare will cover both emergency and non-emergency ambulance services. Coverage will fall under Part B.',
-      canonical: 'https://www.medicarefaq.com/faqs/ambulance-and-medicare-coverage/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-ambulance-coverage.jpg',
-    },
-    title: 'Does Medicare Cover Ambulance Transportation',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'September 28, 2021',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Emergency Room Visits',
-        paragraphs: [
-          'Updated on September 28, 2021',
-          '[Emergencies](/faqs/does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another) can happen at any time, that’s why it’s important to know [what parts of](/blog/medicare-parts-a-b-c-and-d-explained-simply)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "medicare-coverage-for-in-home-caregivers", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-inpatient-vs-outpatient-vs-under-observation"],
-  },
-  {
+  },  {
     slug: 'medicare-history',
     seo: {
       title: 'Medicare History: When Did Medicare Start in the U.S.?',
@@ -1499,33 +1447,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["medicare-preventive-services", "what-is-medicare", "does-medicare-cover-mental-health", "medicare-coverage-for-in-home-caregivers", "5-government-benefits-for-seniors"],
-  },
-  {
-    slug: 'does-medicare-cover-varicose-veins',
-    seo: {
-      title: 'Does Medicare Cover Varicose Vein Treatments',
-      description: 'Medicare only covers varicose vein treatments when medically necessary. Find out how much Medicare will pay for these treatments here.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-varicose-veins/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-varicose-vein-treatments.jpg',
-    },
-    title: 'Does Medicare Cover Varicose Vein Treatments',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'My vascular surgeon states that I have Venous Insufficiency and have had spider vein bleeds too – once a gushing artery major bleed. He mentions that I need sclerotheraphy and asked me to confirm of my documentation if this is covered by my [Medicare](/faqs/what-is-medicare) A & o rB & also my Medigap insurance? What specific coding should he use for Medicare billing purposes? Will Medicare cover this 80% coverage with documentations from surgeon?',
-        ],
-      },
-    ],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "what-does-medically-necessary-mean", "durable-medical-equipment", "medicare-coverage-for-cardiovascular-disease"],
-  },
-  {
+  },  {
     slug: 'medicare-managed-care-plans',
     seo: {
       title: 'Understanding Medicare Managed Care Plans',

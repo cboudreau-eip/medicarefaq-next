@@ -1096,33 +1096,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-vs-medicaid", "qualified-health-plans-medicare"],
-  },
-  {
-    slug: 'does-medicare-cover-urinary-catheters',
-    seo: {
-      title: 'Does Medicare Cover Catheters',
-      description: 'Medicare covers catheters and related medical supplies that a doctor finds medically necessary. Find out which types Medicare will cover here.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-urinary-catheters/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-catheters.jpg',
-    },
-    title: 'Does Medicare Cover Catheters',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Does Medicare cover Supra public catheters? What is billing code',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-ostomy-supplies", "medicare-coverage-for-incontinence-supplies", "what-does-medically-necessary-mean"],
-  },
-  {
+  },  {
     slug: 'does-medicare-cover-ostomy-supplies',
     seo: {
       title: 'Does Medicare Cover Ostomy Supplies',
