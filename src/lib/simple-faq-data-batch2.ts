@@ -145,32 +145,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["scope-of-appointment", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "advance-beneficiary-notice"],
   },
   {
-    slug: 'medicare-coverage-for-compression-socks',
-    seo: {
-      title: 'Does Medicare Cover Compression Stockings',
-      description: 'Some medical conditions may require the use of special compression stockings. In these cases, Medicare will provide coverage.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-compression-socks/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-compression-stockings.jpg',
-    },
-    title: 'Does Medicare Cover Compression Stockings',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'September 9, 2021',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Are There Alternatives to Medicare?',
-        paragraphs: [
-          'Updated on September 9, 2021',
-          '[Being Medicare-eligible](/faqs/when-should-you-enroll-in-medicare-if-still-working) doesn’t mean it’s necessary to enroll immediately. There are [alternatives to Medicare](/faqs/alternative-to-medicare). These...',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-prosthetic-devices"],
-  },
-  {
     slug: 'medicare-supplement-plans-and-pre-existing-conditions',
     seo: {
       title: 'Medicare Supplement Plans and Pre-Existing Conditions',

@@ -8791,4 +8791,777 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["does-medicare-cover-meals-on-wheels", "does-medicare-cover-diabetic-supplies", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-telehealth"],
   },
+  {
+    slug: "what-dental-expenses-does-medicare-cover",
+    seo: {
+      title: "What Dental Services Are Covered by Medicare | MedicareFAQ",
+      description: "Original Medicare does not cover routine dental care, but you have options. Learn what dental expenses Medicare covers and how to get dental coverage.",
+      canonical: "https://www.medicarefaq.com/faqs/what-dental-expenses-does-medicare-cover/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-dental-implants.jpg",
+    },
+    title: "What Dental Services Are Covered by Medicare?",
+    subtitle: "Original Medicare does not cover routine dental care, but there are exceptions — and several options to get dental coverage as a Medicare beneficiary.",
+    category: "Medicare Coverage",
+    dateUpdated: "May 23, 2023",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Original Medicare (Parts A and B) does not cover routine dental care such as cleanings, fillings, extractions, or dentures. However, Medicare will cover dental services that are medically necessary for another covered procedure, such as jaw reconstruction after an accident. Medicare Advantage plans frequently include dental benefits.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Parts A & B)", coverage: "Not Covered (routine)", icon: "shield", notes: "Only covers dental when medically necessary for another procedure" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Varies by Plan", icon: "heart", notes: "Many plans include dental benefits; check your plan's Summary of Benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "users", notes: "Medigap only supplements Original Medicare — no dental coverage" },
+      { planType: "Stand-Alone Dental Plan", coverage: "Covered", icon: "filetext", notes: "Available separately from carriers like Cigna, Aetna, and Manhattan Life" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered (Routine)",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Original Medicare does not cover routine dental care. [Medicare Part A](/faqs/what-does-medicare-part-a-cover) and Part B will only cover dental services if they are required for another medical procedure and a physician deems them medically necessary. For example, Medicare would cover tooth extractions as part of reconstructive jaw surgery after an accident, or dental work required before a covered cardiac or organ transplant procedure.",
+          "According to KFF.org, more than half of Medicare beneficiaries nationwide lack dental coverage. The services Original Medicare does not cover include: oral surgery, dentures, dental implants, wisdom tooth removal, oral exams, teeth cleaning, orthodontics, invisible aligners, root canal treatment, and abscess tooth treatment.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        paragraphs: [
+          "Some [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) include dental insurance, and others don't. Dental benefits vary from plan to plan — some cover only standard preventive services like cleanings and X-rays, while others cover a wider range of procedures including fillings, extractions, and even dentures.",
+          "Every Medicare Advantage plan offers an outline of coverage on Medicare.gov. Review your plan's Summary of Benefits before scheduling dental care to confirm what's covered and where those benefits are accepted.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) only pay secondary to Original Medicare. Because Original Medicare does not cover routine dental services, neither does your Medigap plan. However, if you have a Medigap plan, you can purchase a stand-alone dental plan alongside it.",
+          "Popular carriers for stand-alone dental plans include Cigna, Manhattan Life, Aetna, and National General. These plans often bundle with vision and hearing coverage as well, since [Original Medicare also does not cover hearing aids](/faqs/does-medicare-cover-hearing-aids) or routine vision care.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Dental Services: Medicare Coverage & Your Costs",
+      headers: ["Service", "Original Medicare", "Medicare Advantage", "Stand-Alone Dental Plan"],
+      rows: [
+        { "Service": "Routine Cleaning", "Original Medicare": "Not covered", "Medicare Advantage": "Often $0 (preventive)", "Stand-Alone Dental Plan": "Often $0–$20 copay" },
+        { "Service": "Dental X-Rays", "Original Medicare": "Not covered", "Medicare Advantage": "Often covered", "Stand-Alone Dental Plan": "Usually covered" },
+        { "Service": "Fillings", "Original Medicare": "Not covered", "Medicare Advantage": "Varies by plan", "Stand-Alone Dental Plan": "Typically 50–80% covered" },
+        { "Service": "Tooth Extraction (routine)", "Original Medicare": "Not covered", "Medicare Advantage": "Varies by plan", "Stand-Alone Dental Plan": "Typically 50–80% covered" },
+        { "Service": "Dentures", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Stand-Alone Dental Plan": "Varies by plan" },
+        { "Service": "Dental Implants", "Original Medicare": "Not covered", "Medicare Advantage": "Rarely covered", "Stand-Alone Dental Plan": "Rarely covered" },
+        { "Service": "Medically Necessary Dental (e.g., jaw surgery)", "Original Medicare": "Covered under Part A/B", "Medicare Advantage": "Covered", "Stand-Alone Dental Plan": "N/A" },
+      ],
+      footnote: "Costs vary significantly by plan and geographic area. Always verify coverage with your specific plan before scheduling dental care.",
+    },
+    exceptionsSection: {
+      title: "When Does Medicare Cover Dental Services?",
+      items: [
+        {
+          title: "Medically Necessary Dental Before a Covered Procedure",
+          text: "Medicare may cover dental work required before a covered procedure, such as tooth extractions before cardiac surgery or organ transplantation, when a physician determines it is medically necessary.",
+        },
+        {
+          title: "Dental Care Related to an Emergency or Accident",
+          text: "Medicare Part A covers dental treatment related to an emergency, such as jaw reconstruction after an accident or treatment for jaw cancer. The dental work must be directly connected to the covered medical condition.",
+        },
+        {
+          title: "Inpatient Dental Care",
+          text: "If you require hospitalization for a dental procedure due to a serious underlying health condition, Medicare Part A may cover the hospital stay, though not the dental procedure itself.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare pay for dental surgery?",
+        answer: "Medicare only pays for dental surgery in specific situations, such as jaw cancer or reconstructive surgery after an accident. Most oral surgery does not receive coverage under Original Medicare. If you have a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) with dental benefits or a stand-alone dental plan, your plan may cover part of the cost.",
+      },
+      {
+        question: "Does Medicare cover tooth extraction?",
+        answer: "Medicare covers tooth extractions only to prepare you for radiation treatment for jaw cancer, or as part of medically necessary reconstructive surgery. Routine tooth extractions are not covered. If you have dental insurance or a Medicare Advantage plan with dental coverage, your plan may cover extractions.",
+      },
+      {
+        question: "Do Medicare Supplement plans cover dental?",
+        answer: "No. [Medicare Supplement (Medigap) plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) cover the same procedures as Original Medicare. Because Original Medicare doesn't cover routine dental services, Medigap doesn't either. You can purchase a stand-alone dental plan separately.",
+      },
+      {
+        question: "Does Medicare cover dentures?",
+        answer: "Original Medicare does not cover dentures. Some Medicare Advantage plans include denture coverage, and stand-alone dental plans may also cover them. Check your specific plan's Summary of Benefits for details.",
+      },
+      {
+        question: "Does Medicare cover dental implants?",
+        answer: "Original Medicare does not cover [dental implants](/faqs/does-medicare-cover-dental-implants). Some Medicare Advantage plans may offer partial coverage. Stand-alone dental plans rarely cover implants, though some premium plans do. Dental discount plans can help reduce costs.",
+      },
+      {
+        question: "Can I get dental coverage with Medicare?",
+        answer: "Yes. You have several options: (1) enroll in a Medicare Advantage plan that includes dental benefits, (2) purchase a stand-alone dental plan, (3) use a dental discount plan for reduced rates, or (4) look into dental schools in your area for reduced-cost care.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare</strong> does not cover routine dental care" },
+      { icon: "check", text: "Medicare covers dental services that are <strong>medically necessary</strong> for another covered procedure" },
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> plans often include dental benefits — check your plan" },
+      { icon: "x", text: "<strong>Medigap</strong> does not add dental coverage" },
+      { icon: "dollar", text: "Stand-alone dental plans are available from Cigna, Aetna, Manhattan Life, and National General" },
+      { icon: "info", text: "More than half of Medicare beneficiaries lack dental coverage — explore your options" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Dental Implants?", description: "Original Medicare doesn't cover implants, but you have options. Learn more.", slug: "does-medicare-cover-dental-implants" },
+      { title: "Does Medicare Cover Root Canals?", description: "Find out about root canal coverage and dental plan alternatives.", slug: "does-medicare-cover-root-canals" },
+      { title: "Does Medicare Cover Hearing Aids?", description: "Like dental, hearing aids aren't covered by Original Medicare. Explore your options.", slug: "does-medicare-cover-hearing-aids" },
+      { title: "Does Medicare Cover Glasses?", description: "Learn about vision coverage options under Medicare.", slug: "does-medicare-cover-glasses" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Dental Implants",
+      "Does Medicare Cover Root Canals",
+      "Does Medicare Cover Hearing Aids",
+      "Does Medicare Cover Glasses",
+    ],
+    ctaBanner: {
+      title: "Need Dental Coverage with Medicare?",
+      text: "Our licensed agents can help you find a Medicare Advantage plan with dental benefits or a stand-alone dental plan that fits your needs and budget.",
+    },
+    relatedSlugs: ["does-medicare-cover-dental-implants", "does-medicare-cover-root-canals", "does-medicare-cover-hearing-aids", "does-medicare-cover-glasses"],
+  },
+  {
+    slug: "medicare-coverage-for-incontinence-supplies",
+    seo: {
+      title: "Are Incontinence Supplies Covered by Medicare? | MedicareFAQ",
+      description: "Original Medicare does not cover incontinence supplies or adult diapers. Learn what options are available and how to save on these costs.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-incontinence-supplies/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Are Incontinence Supplies Covered by Medicare?",
+    subtitle: "Original Medicare does not cover incontinence supplies or adult diapers, but some Medicare Advantage plans and state Medicaid programs may provide benefits.",
+    category: "Medicare Coverage",
+    dateUpdated: "October 24, 2023",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "4 min read",
+    quickAnswer: {
+      text: "Original Medicare does not cover incontinence supplies, adult diapers, or Depends undergarments. These are not considered medically necessary durable medical equipment. Some Medicare Advantage plans offer incontinence supply benefits, and some state Medicaid programs may cover these costs.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Parts A & B)", coverage: "Not Covered", icon: "shield", notes: "Incontinence supplies are not considered medically necessary DME" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Some Plans", icon: "heart", notes: "Select plans offer incontinence supply benefits — check your Summary of Benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "users", notes: "Medigap only supplements Original Medicare — no incontinence coverage" },
+      { planType: "Medicaid", coverage: "Varies by State", icon: "filetext", notes: "Some state Medicaid programs cover incontinence supplies for eligible beneficiaries" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will only cover medically necessary items. Adult pads, diapers, and other incontinence supplies are not considered medically necessary under Medicare's definition. However, Medicare does cover appointments, diagnostic tests, and procedures related to the diagnosis and treatment of incontinence itself — just not the supplies.",
+          "Medicare Part B covers [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) that is medically necessary, but incontinence supplies do not qualify as DME under Medicare's rules. This is the same reason Medicare won't cover bandages or gauze for home use.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Some Plans",
+        coverageType: "partial",
+        paragraphs: [
+          "Some [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) available throughout the country offer benefits for incontinence products like adult diapers. However, these plans are only available in specific service areas, and not all plans include this benefit.",
+          "If you have a Medicare Advantage plan that covers incontinence supplies, review the Summary of Benefits carefully. There are typically quantity limits and annual cost caps — meaning only some of your supplies for the year may be covered, not all costs. Contact your plan directly to understand exactly what's included.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "[Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) are secondary to Original Medicare — they only cover costs that Original Medicare leaves behind. Because Original Medicare does not cover incontinence supplies, neither does any Medigap plan.",
+          "If you have both Medicare and Medicaid (dual-eligible), you may be able to select a Dual-Eligible Special Needs Plan (D-SNP) that provides enhanced benefits, potentially including incontinence supplies. Contact your state Medicaid office for details.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Incontinence Supplies: Coverage & Cost Overview",
+      headers: ["Supply Type", "Original Medicare", "Medicare Advantage", "Out-of-Pocket Cost"],
+      rows: [
+        { "Supply Type": "Adult Diapers / Briefs", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Out-of-Pocket Cost": "$20–$60/month" },
+        { "Supply Type": "Depends Undergarments", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Out-of-Pocket Cost": "$20–$50/month" },
+        { "Supply Type": "Bladder Control Pads", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Out-of-Pocket Cost": "$10–$30/month" },
+        { "Supply Type": "Bed Pads / Underpads", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Out-of-Pocket Cost": "$15–$40/month" },
+        { "Supply Type": "Incontinence Diagnosis & Treatment", "Original Medicare": "Covered (Part B)", "Medicare Advantage": "Covered", "Out-of-Pocket Cost": "20% coinsurance after deductible" },
+      ],
+      footnote: "Costs vary by brand, quantity, and retailer. Buying in bulk online can significantly reduce monthly costs.",
+    },
+    exceptionsSection: {
+      title: "When Does Medicare Help with Incontinence?",
+      items: [
+        {
+          title: "Diagnosis and Treatment",
+          text: "Medicare Part B covers medically necessary appointments, diagnostic tests, and procedures to diagnose and treat the underlying cause of incontinence, such as bladder infections, pelvic floor disorders, or prostate issues.",
+        },
+        {
+          title: "Medicaid Dual-Eligible Coverage",
+          text: "In some states, Medicaid covers incontinence supplies for eligible beneficiaries. If you qualify for both Medicare and Medicaid, contact your state Medicaid office to determine what's available in your area.",
+        },
+        {
+          title: "Catheter Coverage",
+          text: "Medicare Part B does cover urinary catheters and related supplies when medically necessary and prescribed by a physician. This is distinct from incontinence pads and diapers, which are not covered.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover adult diapers?",
+        answer: "No. Original Medicare does not cover adult diapers or any disposable incontinence supplies. Some Medicare Advantage plans may offer this benefit — check your plan's Summary of Benefits. Some state Medicaid programs also cover adult diapers for eligible beneficiaries.",
+      },
+      {
+        question: "Does Medicare cover Depends undergarments?",
+        answer: "Medicare does not cover Depends or any brand-name incontinence products. You will pay the full cost unless you have a Medicare Advantage plan that covers this benefit or qualify for state Medicaid coverage.",
+      },
+      {
+        question: "Does Medicare cover urinary catheters?",
+        answer: "Yes. Medicare Part B covers urinary catheters and related supplies when they are medically necessary and prescribed by a physician. This is different from incontinence pads and diapers, which are not covered.",
+      },
+      {
+        question: "How can I save money on incontinence supplies?",
+        answer: "Several strategies can help: buy in bulk online for significant discounts, use manufacturer coupons and free samples, check with local nonprofit organizations that assist with supply costs, and ask your doctor about prescription-grade products that may qualify for coverage under some plans.",
+      },
+      {
+        question: "Will Medicaid cover incontinence supplies?",
+        answer: "Medicaid coverage for incontinence supplies varies by state. Most states do offer some coverage, but there are typically brand restrictions and quantity limits. Contact your state Medicaid office to find out what's available in your area.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare</strong> does not cover incontinence supplies or adult diapers" },
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> — some plans offer incontinence supply benefits" },
+      { icon: "x", text: "<strong>Medigap</strong> does not cover incontinence supplies" },
+      { icon: "check", text: "Medicare <strong>does</strong> cover diagnosis and treatment of incontinence conditions" },
+      { icon: "check", text: "Medicare Part B covers <strong>urinary catheters</strong> when medically necessary" },
+      { icon: "info", text: "Some state <strong>Medicaid programs</strong> cover incontinence supplies — check your state" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Ostomy Supplies?", description: "Find out about ostomy supply coverage under Medicare Part B.", slug: "does-medicare-cover-ostomy-supplies" },
+      { title: "Does Medicare Cover Medical Alert Systems?", description: "Learn about personal emergency response system coverage under Medicare.", slug: "does-medicare-cover-medical-alert-systems" },
+      { title: "What Is Durable Medical Equipment (DME)?", description: "Understand what qualifies as DME under Medicare and how coverage works.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "Medicare Coverage for Wheelchairs and Scooters", description: "Find out what mobility equipment Medicare covers.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Ostomy Supplies",
+      "Does Medicare Cover Medical Alert Systems",
+      "What Is Durable Medical Equipment",
+      "Medicare Coverage for Wheelchairs and Scooters",
+    ],
+    ctaBanner: {
+      title: "Looking for a Plan That Covers More?",
+      text: "Some Medicare Advantage plans offer incontinence supply benefits and other extras not covered by Original Medicare. Our licensed agents can help you compare plans in your area.",
+    },
+    relatedSlugs: ["does-medicare-cover-ostomy-supplies", "does-medicare-cover-medical-alert-systems", "what-is-durable-medical-equipment-dme", "medicare-coverage-for-wheelchairs-and-scooters"],
+  },
+  {
+    slug: "medicare-coverage-for-my-children",
+    seo: {
+      title: "Medicare Coverage for Disabled Dependents | MedicareFAQ",
+      description: "You cannot add dependents to Medicare, but children may qualify individually in certain situations. Learn when children can get Medicare coverage.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-my-children/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Medicare Coverage for My Children and Dependents",
+    subtitle: "Medicare is an individual program — you cannot add dependents to your coverage. However, children may qualify for Medicare in certain situations involving disability, ESRD, or ALS.",
+    category: "Medicare Coverage",
+    dateUpdated: "March 26, 2024",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "You cannot add dependents or children to your Medicare coverage. Medicare is an individual program — each person must qualify on their own. However, children may qualify for Medicare individually if they have End-Stage Renal Disease (ESRD), ALS, or a qualifying disability (once they turn 18 and receive SSDI for 24 months).",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Dependents on Your Medicare", coverage: "Not Allowed", icon: "shield", notes: "Medicare is individual — dependents cannot be added to your plan" },
+      { planType: "Child with ESRD (any age)", coverage: "May Qualify", icon: "heart", notes: "Child may qualify if parent has sufficient Social Security work credits" },
+      { planType: "Child with ALS (age 18+)", coverage: "May Qualify", icon: "heart", notes: "Must first qualify for SSDI, which requires age 18+" },
+      { planType: "Disabled Adult Child (DAC)", coverage: "May Qualify After 24 Months SSDI", icon: "filetext", notes: "Disability must have begun before age 22; qualifies for Medicare after 24 months of SSDI" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Can You Add Dependents to Medicare?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Allowed",
+        coverageType: "not-covered",
+        paragraphs: [
+          "You cannot add dependents — such as your children or spouse — to your Medicare coverage. Medicare is a federal health insurance program for individuals, not families. For your dependents to receive Medicare, they must be individually eligible based on their own age, disability status, or qualifying condition.",
+          "If you have dependents covered under your employer group health plan and you are switching to Medicare, your dependents will need to find other healthcare coverage. Options include CHIP (Children's Health Insurance Program), Medicaid, or a marketplace plan through Healthcare.gov.",
+        ],
+      },
+      {
+        planName: "When Can a Child Qualify for Medicare?",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Specific Conditions Only",
+        coverageType: "partial",
+        paragraphs: [
+          "Though Medicare is generally a program for people 65 and older, children can qualify in specific situations. A child of any age can qualify for Medicare if they are diagnosed with [End-Stage Renal Disease (ESRD)](/faqs/does-medicare-cover-end-stage-renal-disease), provided the parent has earned at least 6 Social Security credits in the last 3 years and the child needs regular dialysis or has had a kidney transplant.",
+          "Children with ALS can qualify for Medicare, but only once they turn 18 — because they must first qualify for SSDI, which is only available to adults. If your child has a disability and your household has limited income, they may qualify for Supplemental Security Income (SSI) now, and potentially SSDI and Medicare once they turn 18.",
+        ],
+      },
+      {
+        planName: "Disabled Adult Children (DAC)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Eligible After 24 Months of SSDI",
+        coverageType: "partial",
+        paragraphs: [
+          "A Disabled Adult Child (DAC) is someone 18 or older whose qualifying disability began before age 22. These individuals can qualify for SSDI benefits based on a parent's Social Security earnings record — meaning the child doesn't need to have worked to receive benefits. A DAC can be a biological child, adopted child, stepchild, grandchild, or step-grandchild.",
+          "Once a DAC receives SSDI benefits for 24 months, they qualify for Medicare coverage. The exception is ALS — individuals with ALS qualify for Medicare immediately upon receiving SSDI. Note that DAC benefits typically end if the individual gets married; contact the Social Security Administration at 1-800-772-1213 for specific questions.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medicare Eligibility for Children: Quick Reference",
+      headers: ["Situation", "Eligible?", "Age Requirement", "Key Condition"],
+      rows: [
+        { "Situation": "Child as dependent on parent's Medicare", "Eligible?": "No", "Age Requirement": "Any age", "Key Condition": "Not permitted — Medicare is individual" },
+        { "Situation": "Child with ESRD", "Eligible?": "Yes", "Age Requirement": "Any age", "Key Condition": "Parent must have sufficient SS work credits" },
+        { "Situation": "Child with ALS", "Eligible?": "Yes (at 18+)", "Age Requirement": "Must be 18+", "Key Condition": "Must qualify for SSDI first" },
+        { "Situation": "Disabled Adult Child (DAC)", "Eligible?": "Yes (after 24 months SSDI)", "Age Requirement": "Must be 18+", "Key Condition": "Disability began before age 22" },
+        { "Situation": "Child receiving auxiliary SSDI benefits", "Eligible?": "No", "Age Requirement": "Any age", "Key Condition": "Auxiliary benefits don't count as SSDI" },
+      ],
+      footnote: "ESRD coverage ends 12 months after the last month of dialysis, or 36 months after a kidney transplant, unless the child qualifies for Medicare for another reason.",
+    },
+    exceptionsSection: {
+      title: "Alternative Coverage Options for Children",
+      items: [
+        {
+          title: "CHIP (Children's Health Insurance Program)",
+          text: "CHIP provides low-cost health coverage to children in families that earn too much to qualify for Medicaid but can't afford private insurance. Coverage varies by state. Visit Healthcare.gov to learn about CHIP options in your area.",
+        },
+        {
+          title: "Medicaid",
+          text: "If your household has limited income, your children may qualify for Medicaid coverage. Medicaid eligibility and benefits vary by state. If you are qualifying for Medicare due to a disability, your dependents may be able to get Medicaid coverage.",
+        },
+        {
+          title: "Medicare Advantage Special Needs Plans (SNP)",
+          text: "If your child qualifies for Medicare due to ESRD or disability, they may be eligible for a Medicare Advantage Special Needs Plan designed for individuals with specific chronic conditions, which can provide enhanced benefits.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Can I add my child to my Medicare plan?",
+        answer: "No. Medicare is an individual program — you cannot add dependents to your coverage. Your child must qualify for Medicare on their own based on age, disability, ESRD, or ALS.",
+      },
+      {
+        question: "Can a child get Medicare due to a disability?",
+        answer: "Children under 18 cannot qualify for Medicare based on disability alone. However, once they turn 18, they may qualify for SSDI based on their own disability or as a Disabled Adult Child (DAC) based on a parent's work record. After 24 months of SSDI, they qualify for Medicare.",
+      },
+      {
+        question: "What is a Disabled Adult Child (DAC)?",
+        answer: "A Disabled Adult Child is someone 18 or older whose qualifying disability began before age 22. They can receive SSDI benefits based on a parent's Social Security record, and after 24 months of SSDI, they qualify for Medicare. The parent must be receiving Social Security retirement or disability benefits, or have died with sufficient work credits.",
+      },
+      {
+        question: "Does my child lose Medicare if they get a job?",
+        answer: "Not immediately. Your child will have a 9-month trial work period during which they receive full SSDI benefits regardless of earnings. If they continue working after the trial period, Medicare coverage continues for 93 months (over 7 years). After that, they may need to purchase Medicare Part A by paying a monthly premium.",
+      },
+      {
+        question: "What happens to my child's ESRD Medicare coverage if they recover?",
+        answer: "ESRD-based Medicare coverage ends 12 months after the last month of dialysis treatment, or 36 months after a kidney transplant, unless the child qualifies for Medicare for another reason (such as disability or age).",
+      },
+      {
+        question: "What coverage options exist for children who don't qualify for Medicare?",
+        answer: "Children who don't qualify for Medicare may be eligible for CHIP (Children's Health Insurance Program), Medicaid, or coverage through a parent's employer group health plan. Visit Healthcare.gov to explore options in your state.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "You <strong>cannot add dependents</strong> to your Medicare coverage" },
+      { icon: "check", text: "Children with <strong>ESRD</strong> may qualify for Medicare at any age" },
+      { icon: "check", text: "Children with <strong>ALS</strong> may qualify for Medicare at age 18+ after receiving SSDI" },
+      { icon: "check", text: "<strong>Disabled Adult Children</strong> (DAC) qualify for Medicare after 24 months of SSDI" },
+      { icon: "info", text: "Auxiliary SSDI benefits paid to your child <strong>do not</strong> qualify them for Medicare" },
+      { icon: "info", text: "<strong>CHIP and Medicaid</strong> are the primary coverage options for children who don't qualify for Medicare" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover End-Stage Renal Disease?", description: "Learn about Medicare's comprehensive ESRD coverage, including dialysis and kidney transplants.", slug: "does-medicare-cover-end-stage-renal-disease" },
+      { title: "Medicare Coverage for In-Home Caregivers", description: "Find out what home care services Medicare covers for beneficiaries.", slug: "medicare-coverage-for-in-home-caregivers" },
+      { title: "Does Medicare Cover Amyotrophic Lateral Sclerosis (ALS)?", description: "Learn about Medicare's special rules for ALS patients.", slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als" },
+      { title: "What Dental Services Are Covered by Medicare?", description: "Learn what dental expenses Medicare covers and how to get dental coverage.", slug: "what-dental-expenses-does-medicare-cover" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover End-Stage Renal Disease",
+      "Medicare Coverage for In-Home Caregivers",
+      "Medicare Coverage for ALS",
+      "What Dental Services Are Covered by Medicare",
+    ],
+    ctaBanner: {
+      title: "Questions About Medicare Eligibility?",
+      text: "Our licensed Medicare agents can help you understand eligibility rules for yourself and your family members, and find the right coverage options for your situation.",
+    },
+    relatedSlugs: ["does-medicare-cover-end-stage-renal-disease", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "what-dental-expenses-does-medicare-cover"],
+  },
+  {
+    slug: "medicare-coverage-for-mammograms",
+    seo: {
+      title: "Does Medicare Cover Mammograms? | MedicareFAQ",
+      description: "Medicare covers annual screening mammograms for women 40 and older at no cost. Learn about 3D mammograms, diagnostic mammograms, and your costs.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-mammograms/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Mammograms?",
+    subtitle: "Medicare Part B covers annual screening mammograms for women 40 and older at no cost. Diagnostic mammograms are also covered, with 20% coinsurance after the Part B deductible.",
+    category: "Medicare Coverage",
+    dateUpdated: "May 3, 2023",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers annual screening mammograms for women age 40 and older at no cost (100% covered as a preventive service). Diagnostic mammograms are covered at 80%, with the beneficiary responsible for 20% coinsurance after the Part B deductible. Medicare also covers 3D mammograms and breast ultrasounds when medically necessary.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare Part B", coverage: "Covered (Screening: $0 / Diagnostic: 20%)", icon: "shield", notes: "Annual screening mammogram at no cost; diagnostic mammogram with 20% coinsurance" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover all Original Medicare benefits; many plans offer $0 cost for both types" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covers Your 20%", icon: "users", notes: "Medigap plans cover the 20% coinsurance for diagnostic mammograms" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Part D covers prescription drugs, not diagnostic imaging" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare Part B",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers screening mammograms as a preventive service for women age 40 and older — once every 12 months at no cost to you (no deductible, no coinsurance) when your provider accepts Medicare Assignment. For women under 65 enrolled in Medicare, Part B also covers one baseline mammogram between ages 35 and 39.",
+          "Diagnostic mammograms are covered when ordered by a healthcare provider as medically necessary — for example, when a lump is detected or other symptoms are present. For diagnostic mammograms, you pay 20% of the Medicare-approved amount after meeting your [Part B deductible](/faqs/what-is-the-medicare-part-b-deductible). If your screening mammogram detects an abnormality, it is automatically reclassified and billed as a diagnostic mammogram.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) must cover all Original Medicare benefits, including mammograms. Many Medicare Advantage plans cover both screening and diagnostic mammograms at $0 cost to you, with no deductible or coinsurance. Check your plan's Summary of Benefits for specific cost-sharing details.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Your 20%",
+        coverageType: "partial",
+        paragraphs: [
+          "If you have a [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it will cover your 20% coinsurance for diagnostic mammograms after Medicare pays its 80% share. For screening mammograms, there is no cost-sharing to supplement since Medicare covers them at 100%.",
+          "Comprehensive Medigap plans like [Plan G](/faqs/medicare-supplement-plan-g) cover the Part B coinsurance, meaning your diagnostic mammogram would be covered at no additional cost to you after Medicare pays.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Mammogram Costs Under Medicare",
+      headers: ["Mammogram Type", "Medicare Covers", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        { "Mammogram Type": "Annual Screening Mammogram (2D)", "Medicare Covers": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Plan G)": "$0" },
+        { "Mammogram Type": "Annual Screening Mammogram (3D/Tomosynthesis)", "Medicare Covers": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Plan G)": "$0" },
+        { "Mammogram Type": "Diagnostic Mammogram", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "~$34–$50 (20%)", "Your Cost (With Plan G)": "$0" },
+        { "Mammogram Type": "Breast Ultrasound (medically necessary)", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "20% of approved amount", "Your Cost (With Plan G)": "$0" },
+        { "Mammogram Type": "Breast MRI (medically necessary)", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "20% of approved amount", "Your Cost (With Plan G)": "$0" },
+      ],
+      footnote: "The average cost of a diagnostic mammogram with Medicare is approximately $170 total; you pay about $34 (20%) without supplemental coverage. Costs vary by location and provider.",
+    },
+    exceptionsSection: {
+      title: "Special Mammogram Coverage Rules",
+      items: [
+        {
+          title: "Baseline Mammogram (Ages 35–39)",
+          text: "Medicare covers one baseline screening mammogram for women between ages 35 and 39 who are enrolled in Medicare. This is a one-time benefit.",
+        },
+        {
+          title: "Annual Screening (Age 40+)",
+          text: "Once you turn 40, Medicare covers one screening mammogram every 12 months at no cost. There is no upper age limit — Medicare covers annual mammograms for women in their 70s, 80s, 90s, and beyond.",
+        },
+        {
+          title: "Screening Reclassified as Diagnostic",
+          text: "If your screening mammogram detects an abnormality (such as a lump), it is automatically reclassified and billed as a diagnostic mammogram. This means you will be responsible for 20% coinsurance, even though the visit started as a routine screening.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover mammograms after age 70?",
+        answer: "Yes. Medicare covers annual screening mammograms for women 70 and older at the same rates as younger beneficiaries — 100% covered for screening, 80% for diagnostic. There is no upper age limit for mammogram coverage under Medicare.",
+      },
+      {
+        question: "Does Medicare cover 3D mammograms?",
+        answer: "Yes. Medicare has covered 3D mammograms (digital breast tomosynthesis) since 2015. Screening 3D mammograms are covered at 100% with no cost to you. Diagnostic 3D mammograms are covered at 80%, with 20% coinsurance.",
+      },
+      {
+        question: "Does Medicare cover breast ultrasounds?",
+        answer: "Yes. Medicare Part B covers breast ultrasounds when ordered by a healthcare provider as medically necessary — for example, when a mammogram shows an abnormality or when a woman has dense breast tissue. You pay 20% coinsurance after the Part B deductible.",
+      },
+      {
+        question: "What is the cost of a mammogram with Medicare?",
+        answer: "Annual screening mammograms are covered at 100% — no cost to you. For diagnostic mammograms, Medicare pays 80% and you pay 20% after the Part B deductible. The average total cost of a diagnostic mammogram is approximately $170, so your share would be about $34. With a [Medigap plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), your 20% is covered.",
+      },
+      {
+        question: "At what age does Medicare stop paying for mammograms?",
+        answer: "There is no cutoff age. Medicare covers annual screening mammograms for as long as you are enrolled, regardless of age. About 6% of breast cancers are diagnosed in women aged 85 and older.",
+      },
+      {
+        question: "Does Medicare cover mammograms for men?",
+        answer: "Medicare does not routinely cover screening mammograms for men. However, if a man has symptoms such as a breast lump, Medicare Part B may cover a diagnostic mammogram as a medically necessary service.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Annual screening mammograms</strong> are covered at 100% for women age 40+" },
+      { icon: "check", text: "<strong>3D mammograms</strong> are covered at the same rates as 2D mammograms" },
+      { icon: "dollar", text: "<strong>Diagnostic mammograms</strong> cost you 20% coinsurance (~$34 average)" },
+      { icon: "alert", text: "A screening mammogram <strong>reclassified as diagnostic</strong> will have cost-sharing" },
+      { icon: "info", text: "There is <strong>no upper age limit</strong> — Medicare covers mammograms at any age" },
+      { icon: "check", text: "<strong>Medigap plans</strong> cover your 20% coinsurance for diagnostic mammograms" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Cancer", description: "Learn about Medicare's comprehensive coverage for cancer diagnosis and treatment.", slug: "medicare-coverage-for-cancer" },
+      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and how it works.", slug: "what-is-medicare-part-b" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G covers your 20% coinsurance for diagnostic tests.", slug: "medicare-supplement-plan-g" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare's coverage for biopsies and related procedures.", slug: "does-medicare-cover-a-biopsy" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Cancer",
+      "What Is Medicare Part B",
+      "Medicare Supplement Plan G",
+      "Does Medicare Cover a Biopsy",
+    ],
+    ctaBanner: {
+      title: "Want $0 Cost for All Your Preventive Care?",
+      text: "A Medicare Supplement or Medicare Advantage plan can eliminate or reduce your out-of-pocket costs for diagnostic mammograms and other medical services. Our licensed agents can help you compare options.",
+    },
+    relatedSlugs: ["medicare-coverage-for-cancer", "what-is-medicare-part-b", "medicare-supplement-plan-g", "does-medicare-cover-a-biopsy"],
+  },
+  {
+    slug: "medicare-coverage-for-compression-socks",
+    seo: {
+      title: "Does Medicare Cover Compression Stockings? | MedicareFAQ",
+      description: "Medicare only covers compression stockings in specific situations. Learn when Medicare pays for compression socks and what conditions qualify.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-compression-socks/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Compression Stockings?",
+    subtitle: "Medicare generally does not cover compression stockings, but will pay for them in specific situations — primarily when prescribed to treat a venous stasis ulcer.",
+    category: "Medicare Coverage",
+    dateUpdated: "November 18, 2024",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "4 min read",
+    quickAnswer: {
+      text: "Original Medicare does not cover compression stockings or socks in most cases. Medicare Part B will cover graduated compression stockings when prescribed by a doctor to treat a venous stasis ulcer (open wound). Medicare does not cover compression garments for varicose veins, general circulation issues, or ulcer prevention. Some Medicare Advantage plans may offer additional coverage.",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare Part B", coverage: "Limited (Venous Stasis Ulcer Only)", icon: "shield", notes: "Covers graduated compression stockings for active venous stasis ulcers with a prescription" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Some Plans", icon: "heart", notes: "Some plans offer additional compression garment benefits beyond Original Medicare" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "users", notes: "Medigap only supplements Original Medicare — no additional compression coverage" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Part D covers prescription drugs, not medical supplies" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare Part B",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Limited Coverage",
+        coverageType: "partial",
+        paragraphs: [
+          "In most cases, [Original Medicare](/faqs/original-medicare-vs-medicare-advantage) won't cover compression stockings since they aren't classified as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme). However, Medicare Part B will cover graduated compression stockings when your doctor writes a prescription to treat an active venous stasis ulcer (an open wound caused by poor vein function).",
+          "Medicare only covers graduated compression stockings designed to help issues below the knee, such as an open venous stasis ulcer. The stockings must be medically necessary and prescribed by your physician. Medicare does not cover compression garments for varicose veins, general circulation problems, or for the prevention of ulcers.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Some Plans",
+        coverageType: "partial",
+        paragraphs: [
+          "Some [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) offer additional benefits for compression stockings and garments beyond what Original Medicare covers. Coverage varies significantly by plan and geographic area.",
+          "If you have a Medicare Advantage plan, review your Summary of Benefits to see if compression garments are included. Contact your plan directly to understand quantity limits, cost-sharing, and which types of stockings are covered.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) only cover costs that Original Medicare leaves behind. Because Original Medicare does not cover most compression stockings, Medigap plans do not add coverage for them either.",
+          "If you need compression stockings for a condition not covered by Medicare, you will pay out-of-pocket. Compression stockings typically range from $10 to $100 per pair, with custom-fitted pairs costing several hundred dollars.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Compression Stocking Types and Medicare Coverage",
+      headers: ["Type", "Medicare Covers?", "Condition Required", "Avg. Out-of-Pocket Cost"],
+      rows: [
+        { "Type": "Graduated Compression Stockings (below knee)", "Medicare Covers?": "Yes (with prescription)", "Condition Required": "Active venous stasis ulcer", "Avg. Out-of-Pocket Cost": "20% coinsurance after deductible" },
+        { "Type": "Graduated Compression Stockings (above knee/thigh)", "Medicare Covers?": "No", "Condition Required": "N/A", "Avg. Out-of-Pocket Cost": "$30–$100+ per pair" },
+        { "Type": "Anti-Embolism Stockings", "Medicare Covers?": "No (routine)", "Condition Required": "N/A", "Avg. Out-of-Pocket Cost": "$15–$50 per pair" },
+        { "Type": "Nonmedical Support Hosiery", "Medicare Covers?": "No", "Condition Required": "N/A", "Avg. Out-of-Pocket Cost": "$10–$40 per pair" },
+        { "Type": "Leg Compression Pumps (pneumatic)", "Medicare Covers?": "Yes (Part B)", "Condition Required": "Lymphedema diagnosis", "Avg. Out-of-Pocket Cost": "20% coinsurance after deductible" },
+      ],
+      footnote: "Prescription compression stockings covered by Medicare require a physician's order and must be obtained from a Medicare-enrolled supplier.",
+    },
+    exceptionsSection: {
+      title: "When Does Medicare Cover Compression Garments?",
+      items: [
+        {
+          title: "Venous Stasis Ulcer Treatment",
+          text: "Medicare Part B covers graduated compression stockings (below the knee) when prescribed by a physician to treat an active venous stasis ulcer. You need a prescription and must obtain them from a Medicare-enrolled supplier.",
+        },
+        {
+          title: "Leg Compression Pumps (Lymphedema)",
+          text: "Medicare Part B covers pneumatic compression devices (leg compression pumps) when you have a diagnosis of Lymphedema. These are different from compression stockings and are covered as durable medical equipment.",
+        },
+        {
+          title: "Venous Insufficiency with Ulcers",
+          text: "If your symptoms of venous insufficiency include active venous stasis ulcers, Medicare will provide coverage for compression stockings. Medicare also covers other treatments for venous insufficiency, such as sclerotherapy and ablation procedures, when medically necessary.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover compression stockings for varicose veins?",
+        answer: "No. Medicare does not cover compression stockings for varicose veins, general circulation problems, or for the prevention of ulcers. Coverage is limited to active venous stasis ulcers with a physician's prescription.",
+      },
+      {
+        question: "Does Medicare Part B cover compression stockings?",
+        answer: "Medicare Part B covers graduated compression stockings (below the knee) only when prescribed to treat an active venous stasis ulcer. You pay 20% coinsurance after meeting your Part B deductible.",
+      },
+      {
+        question: "Does Medicare Advantage cover compression stockings?",
+        answer: "Some [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) offer additional coverage for compression stockings beyond what Original Medicare covers. Check your plan's Summary of Benefits or call your plan to confirm.",
+      },
+      {
+        question: "Does Medicare cover compression stockings for venous insufficiency?",
+        answer: "Medicare covers compression stockings for venous insufficiency only when the condition has progressed to active venous stasis ulcers. Medicare also covers other treatments for venous insufficiency, such as ablation procedures, when medically necessary.",
+      },
+      {
+        question: "Does Medicare pay for leg compression pumps?",
+        answer: "Yes. Medicare Part B covers pneumatic compression devices (leg compression pumps) as durable medical equipment when you have a diagnosis of Lymphedema. This is separate from compression stockings.",
+      },
+      {
+        question: "What is the out-of-pocket cost for compression stockings?",
+        answer: "Standard compression stockings cost between $10 and $100 per pair. Custom-fitted compression stockings can cost several hundred dollars. If Medicare covers your stockings (venous stasis ulcer), you pay 20% coinsurance after the Part B deductible.",
+      },
+    ],
+    quickReference: [
+      { icon: "alert", text: "<strong>Original Medicare</strong> covers compression stockings only for active venous stasis ulcers" },
+      { icon: "x", text: "Medicare does <strong>not</strong> cover compression socks for varicose veins or circulation issues" },
+      { icon: "check", text: "A <strong>doctor's prescription</strong> is required for Medicare-covered compression stockings" },
+      { icon: "check", text: "Medicare covers <strong>leg compression pumps</strong> for Lymphedema as DME" },
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> plans may offer broader compression garment coverage" },
+      { icon: "dollar", text: "Standard compression stockings cost <strong>$10–$100</strong> per pair out-of-pocket" },
+    ],
+    relatedTopics: [
+      { title: "What Is Durable Medical Equipment (DME)?", description: "Understand what qualifies as DME under Medicare and how coverage works.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "Medicare Coverage for Wheelchairs and Scooters", description: "Learn about Medicare's coverage for mobility equipment.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
+      { title: "Does Medicare Cover Ostomy Supplies?", description: "Find out about ostomy supply coverage under Medicare Part B.", slug: "does-medicare-cover-ostomy-supplies" },
+      { title: "Are Incontinence Supplies Covered by Medicare?", description: "Learn what incontinence products Medicare covers and what alternatives exist.", slug: "medicare-coverage-for-incontinence-supplies" },
+    ],
+    sidebarRelatedLinks: [
+      "What Is Durable Medical Equipment",
+      "Medicare Coverage for Wheelchairs and Scooters",
+      "Does Medicare Cover Ostomy Supplies",
+      "Are Incontinence Supplies Covered by Medicare",
+    ],
+    ctaBanner: {
+      title: "Need Coverage for More Medical Supplies?",
+      text: "Some Medicare Advantage plans offer enhanced benefits for medical supplies and equipment. Our licensed agents can help you compare plans in your area.",
+    },
+    relatedSlugs: ["what-is-durable-medical-equipment-dme", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-ostomy-supplies", "medicare-coverage-for-incontinence-supplies"],
+  },
+
 ];

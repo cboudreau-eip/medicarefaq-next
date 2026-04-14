@@ -137,32 +137,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary", "new-in-2025-medicares-part-d-payment-plan-explained"],
   },
   {
-    slug: 'what-dental-expenses-does-medicare-cover',
-    seo: {
-      title: 'What Dental Services Are Covered by Medicare',
-      description: 'Find what you need to know about Medicare dental coverage. We\'ll cover guidelines for dentures, oral surgery, and more.',
-      canonical: 'https://www.medicarefaq.com/faqs/what-dental-expenses-does-medicare-cover/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-dental-services-are-covered-by-medicare.jpg',
-    },
-    title: 'What Dental Services Are Covered by Medicare',
-    summary: '',
-    category: 'Dental, Vision & Hearing',
-    dateUpdated: 'April 25, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Vision',
-        paragraphs: [
-          'Updated on April 25, 2023',
-          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) routine vision coverage is not comprehensive. However, you have [options](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) when it comes...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-dental-implants", "does-medicare-cover-glasses", "medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-root-canals"],
-  },
-  {
     slug: 'top-10-medicare-supplement-insurance-companies',
     seo: {
       title: 'Top 10 Medicare Supplement Insurance Companies in 2026',
@@ -239,32 +213,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["medicare-preventive-services", "silver-sneakers-program", "medicare-annual-wellness-visit", "medicare-and-alternative-therapies-whats-covered-and-whats-not"],
-  },
-  {
-    slug: 'medicare-coverage-for-incontinence-supplies',
-    seo: {
-      title: 'Are Incontinence Supplies Covered by Medicare?',
-      description: 'Does Medicare cover incontinence supplies? Learn more about incontinence supply coverage through Medicare here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-incontinence-supplies/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/incontinence-supplies.jpg',
-    },
-    title: 'Are Incontinence Supplies Covered by Medicare?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'February 19, 2026',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) [running through your mind](/blog/medicare-starter-guide-what-to-do-in-your-first-90-days) at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-ostomy-supplies", "medicare-coverage-for-bathroom-safety-devices", "does-medicare-cover-a-shower-transfer-bench"],
   },
   {
     slug: 'what-is-medicare-creditable-coverage',
@@ -1136,32 +1084,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["finding-local-doctors-who-accept-medicare", "understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-whats-covered-app", "care-compare-tool"],
   },
   {
-    slug: 'medicare-coverage-for-my-children',
-    seo: {
-      title: 'Medicare for Dependents',
-      description: 'Children of Medicare recipients are eligible for Medicare in certain situations. Learn what the requirements are to see if your dependents are eligible.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-my-children/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-for-dependents.jpg',
-    },
-    title: 'Medicare for Dependents',
-    summary: 'If you have children or dependents, you may wonder what happens when you sign up for Medicare. Though Medicare is health coverage for individuals, there are instances where your child or other dependents may qualify for Medicare coverage based on your work record. In this article, we’ll discuss how children can qualify for Medicare.',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Hello, I am on [SSDI](/faqs/[Medicare](/faqs/what-is-medicare)-for-disabled-individuals) and have had Medicare since November of 2020. We have a son with the same medical condition that has disabled me and he is also autistic, homebound, etc. However, my husband makes too much for us to qualify for [medicaid](/faqs/medicare-vs-medicaid), and the waiver list for our state is 7 years. Is there a way to have MY medicare as a secondary insurance for my son to pay the regular $250 ER copays and deductibles? We have insurance through my husband’s job but all of our extra money goes to medical bills, supplies, equipment, etc.',
-          'Thank you for your time!',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "when-should-you-enroll-in-medicare-if-still-working", "can-you-get-medicare-without-receiving-social-security-benefits", "medicare-for-disabled-individuals"],
-  },
-  {
     slug: 'medicare-part-b-give-back-plan',
     seo: {
       title: 'Medicare Give Back Benefit',
@@ -1238,31 +1160,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["medicare-preventive-services", "medicare-annual-wellness-visit", "5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
-  },
-  {
-    slug: 'medicare-coverage-for-mammograms',
-    seo: {
-      title: 'Does Medicare Cover Mammograms',
-      description: 'If you\'re a Medicare beneficiary, it\'s important to know if Medicare covers mammograms. Find out how often Medicare pays for mammograms here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-mammograms/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-mammograms.jpg',
-    },
-    title: 'Does Medicare Cover Mammograms',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Hello medicarefaq.com owner, Thanks for the great post!',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "medicare-coverage-for-cancer", "medicare-annual-wellness-visit", "does-medicare-cover-cologuard"],
   },
   {
     slug: 'medicare-supplement-open-enrollment',
