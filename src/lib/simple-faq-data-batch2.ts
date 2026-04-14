@@ -1144,32 +1144,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
-  {
-    slug: 'does-medicare-cover-a-biopsy',
-    seo: {
-      title: 'What Biopsies Will Medicare Cover',
-      description: 'Medicare will likely cover a biopsy that is medically necessary. If you need a biopsy and have Medicare, you could still pay out of pocket.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-a-biopsy/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-a-biopsy.jpg',
-    },
-    title: 'What Biopsies Will Medicare Cover',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'May 3, 2023',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Mammograms',
-        paragraphs: [
-          'Updated on May 3, 2023',
-          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) pays for an [annual mammogram screening](/faqs/medicare-coverage-for-mammograms) for beneficiaries ages 40 and up. Medicare...',
-        ],
-      },
-    ],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-coverage-for-cancer", "what-does-medically-necessary-mean"],
-  },
+  // does-medicare-cover-a-biopsy moved to coverage-data.ts (CoverageArticleContent format)
   {
     slug: 'best-medicare-advantage-plans',
     seo: {

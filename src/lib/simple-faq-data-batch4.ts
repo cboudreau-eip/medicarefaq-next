@@ -7,32 +7,7 @@
 import type { SimpleFAQArticleData } from "@/lib/article-types";
 
 export const simpleFAQBatch4: SimpleFAQArticleData[] = [
-  {
-    slug: 'does-medicare-cover-an-echocardiogram',
-    seo: {
-      title: 'Does Medicare Cover an Echocardiogram',
-      description: 'Medicare covers echocardiogram services when a test is medically necessary. Learn more about echocardiogram costs on Medicare here.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-an-echocardiogram/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-an-echocardiogram.jpg',
-    },
-    title: 'Does Medicare Cover an Echocardiogram',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'November 13, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Atrial Fibrillation (AFib)',
-        paragraphs: [
-          'Updated on November 13, 2024',
-          'Atrial fibrillation, also known as [AFib](/faqs/medicare-coverage-for-cardiovascular-disease), is a serious [heart condition](/faqs/does-medicare-cover-atrial-fibrillation-afib) that affects an estimated...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "will-medicare-cover-my-surgery", "does-medicare-cover-second-opinions-and-when-should-you-get-one"],
-  },
+  // does-medicare-cover-an-echocardiogram moved to coverage-data.ts (CoverageArticleContent format)
   {
     slug: 'will-medicare-cover-my-surgery',
     seo: {

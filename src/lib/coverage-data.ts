@@ -5585,4 +5585,465 @@ export const coverageArticles: CoverageArticleData[] = [
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage"],
-  },];
+  },
+
+  // ─── Does Medicare Cover a Biopsy ───────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-a-biopsy",
+    seo: {
+      title: "Does Medicare Cover a Biopsy? | MedicareFAQ",
+      description: "Medicare covers medically necessary biopsies under Part A or Part B depending on the setting. Learn about costs, biopsy types, and how Medigap can reduce your out-of-pocket expenses.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-a-biopsy/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-a-biopsy.jpg",
+    },
+    title: "Does Medicare Cover a Biopsy?",
+    subtitle: "Yes — Medicare covers medically necessary biopsies. Whether your biopsy is performed in a doctor's office, outpatient center, or hospital, Part A or Part B will apply. Learn what you'll pay and how supplemental coverage can help.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers biopsies that are medically necessary to diagnose or treat a health condition. Outpatient biopsies fall under Medicare Part B (you pay 20% coinsurance after the $257 deductible). Hospital inpatient biopsies fall under Medicare Part A (you pay nothing after the $1,676 deductible). Medicare Advantage plans cover biopsies at the same level as Original Medicare, though your cost-sharing depends on your specific plan.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers 100% after $1,676 Part A deductible for the benefit period" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers biopsies that are [medically necessary](/faqs/what-does-medically-necessary-mean) — meaning your doctor has ordered the procedure to diagnose or treat a specific health condition. Biopsies are commonly associated with cancer screening, but they can also identify infections, inflammation, and other conditions.",
+          "The part of Medicare that applies depends on where you receive the biopsy. Most biopsies are performed on an outpatient basis at a doctor's office, clinic, or ambulatory surgery center — these fall under **Medicare Part B**. If you are admitted as a hospital inpatient and receive a biopsy during that stay, **Medicare Part A** applies instead.",
+          "Medicare also covers related services that may be part of the biopsy procedure, including anesthesia, imaging guidance (such as CT scans or ultrasound), and laboratory analysis of the tissue sample.",
+        ],
+        whatItCovers: [
+          "Needle biopsies (fine needle aspiration and core needle biopsy)",
+          "Surgical biopsies performed in outpatient settings",
+          "Endoscopic biopsies (lung, bladder, colon, and other internal tissue)",
+          "Skin biopsies for suspected cancer or abnormal growths",
+          "Prostate biopsies when medically necessary",
+          "Oral biopsies to diagnose mouth or oropharyngeal cancers",
+          "Bone marrow biopsies for blood cancer diagnosis",
+          "Breast biopsies following abnormal mammogram or exam",
+          "Anesthesia and imaging guidance used during the biopsy",
+          "Lab analysis of the tissue sample",
+        ],
+        whatItDoesntCover: [
+          "Biopsies not ordered by a Medicare-participating provider",
+          "Biopsies performed at a dentist's office (dental services are excluded)",
+          "Elective biopsies with no documented medical necessity",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Part A: You pay $0 after the $1,676 per-benefit-period deductible for days 1\u201360 of a hospital stay.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered \u2014 cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover everything that Original Medicare covers, including medically necessary biopsies. However, private insurers set their own deductibles, copayments, and coinsurance rates \u2014 so your actual out-of-pocket costs may differ from Original Medicare.",
+          "One important difference: Medicare Advantage plans use provider networks. To keep your costs at the in-network rate, confirm that the doctor performing your biopsy and the facility where it is done are both in your plan's network before your procedure.",
+        ],
+        whatItCovers: [
+          "All biopsy types covered by Original Medicare",
+          "Anesthesia and imaging guidance during the procedure",
+          "Lab processing of the tissue sample",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers (unless your plan has out-of-network benefits)",
+          "Services not deemed medically necessary by your plan's criteria",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check your network before scheduling",
+          text: "Call your Medicare Advantage plan before your biopsy to confirm the performing physician, facility, and lab are all in-network. Out-of-network services can result in significantly higher cost-sharing or no coverage at all.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to pay the out-of-pocket costs that Original Medicare leaves behind \u2014 including the 20% Part B coinsurance and the Part A deductible. Because Medicare covers biopsies, Medigap can significantly reduce or eliminate what you owe.",
+          "For example, [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $257 deductible for the year, Plan G would cover the remaining 20% of your biopsy costs. Unlike Medicare Advantage, Medigap plans have no provider networks \u2014 any doctor who accepts Medicare will also accept your Medigap plan.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) \u2014 covered by most Medigap plans",
+          "Part A deductible \u2014 covered by Plans D, G, and others",
+          "Part B deductible \u2014 covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
+          "Excess charges \u2014 covered by Plans F and G",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Original Medicare",
+          "Dental biopsies performed at a dentist's office",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for a biopsy is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
+      },
+    ],
+    costTable: {
+      title: "Estimated Biopsy Costs Under Medicare (2026)",
+      headers: ["Biopsy Setting", "Medicare Part", "What Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Biopsy Setting": "Doctor's office / outpatient clinic",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+        },
+        {
+          "Biopsy Setting": "Ambulatory surgery center",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+        },
+        {
+          "Biopsy Setting": "Hospital inpatient (days 1\u201360)",
+          "Medicare Part": "Part A",
+          "What Medicare Pays": "100% after deductible",
+          "Your Cost (No Supplement)": "$1,676 per benefit period",
+          "Your Cost (With Plan G)": "$0 (Plan G covers Part A deductible)",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Part A deductible: $1,676 per benefit period. Actual costs vary by provider and location.",
+    },
+    exceptionsSection: {
+      title: "Important: Biopsies Must Be Medically Necessary",
+      items: [
+        {
+          title: "What 'Medically Necessary' Means for Biopsies",
+          text: "Medicare will only cover a biopsy if your doctor determines it is medically necessary \u2014 meaning it is needed to diagnose, treat, or manage a health condition. Your doctor must document the clinical reason for ordering the biopsy. Routine or elective biopsies without a documented medical indication are not covered.",
+          highlight: "If Medicare denies your biopsy claim as not medically necessary, you have the right to appeal. Ask your doctor to provide supporting documentation explaining why the biopsy was required.",
+        },
+        {
+          title: "Dental Biopsies: A Special Case",
+          text: "Medicare does not cover dental services, but it does cover biopsies to diagnose oral cancer. If your doctor or specialist orders an oral biopsy to investigate a suspicious lesion in your mouth or throat, Medicare Part B will cover it \u2014 even though routine dental care is excluded. The key distinction is that the biopsy must be ordered by a Medicare-participating physician or specialist, not a dentist.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover a prostate biopsy?",
+        answer: "Yes. Medicare covers prostate biopsies when they are medically necessary. If you are 50 or older, Medicare Part B covers an annual prostate-specific antigen (PSA) screening test. If your PSA levels are elevated, your doctor may order a biopsy to check for cancer. That biopsy is covered under Part B as an outpatient service, and you pay 20% coinsurance after your Part B deductible.",
+      },
+      {
+        question: "Does Medicare cover a breast biopsy?",
+        answer: "Yes. Medicare covers breast biopsies when medically necessary. Medicare Part B covers annual screening mammograms for women 40 and older. If a mammogram or manual breast exam reveals an abnormality, your doctor may order a biopsy. The biopsy is covered under Part B, and you pay 20% coinsurance after your deductible. With a Medigap plan, your out-of-pocket cost may be reduced to just the annual Part B deductible.",
+      },
+      {
+        question: "Does Medicare cover a bone marrow biopsy?",
+        answer: "Yes. Bone marrow biopsies are used to diagnose blood cancers such as leukemia, lymphoma, and multiple myeloma. Medicare covers bone marrow biopsies as long as they are medically necessary. Coverage follows the same rules as other biopsies \u2014 Part B for outpatient procedures, Part A for inpatient hospital stays.",
+      },
+      {
+        question: "Does Medicare cover a skin biopsy?",
+        answer: "Yes. Medicare covers skin biopsies when your doctor orders them to investigate abnormal growths or lesions that may indicate skin cancer. Coverage falls under Medicare Part B for outpatient procedures. Medicare also covers treatment for skin cancer once diagnosed.",
+      },
+      {
+        question: "Does Medicare cover an endoscopic biopsy?",
+        answer: "Yes. Endoscopic biopsies \u2014 where a thin tube is inserted through an incision or body opening to collect tissue from internal organs \u2014 are covered by Medicare. This includes biopsies of the lung, bladder, colon, and other internal tissue. Coverage applies whether the procedure is performed as an outpatient (Part B) or during a hospital inpatient stay (Part A).",
+      },
+      {
+        question: "Does Medicare cover needle biopsies?",
+        answer: "Yes. Medicare covers both types of needle biopsies: fine needle aspiration (FNA) and core needle biopsy. These procedures involve inserting a needle to collect cells or tissue from muscles, bones, or organs. Coverage is the same as for other biopsy types, and Medicare also covers imaging guidance (such as CT or ultrasound) used during the procedure.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare</strong> covers medically necessary biopsies under Part A or Part B" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> must cover the same biopsies as Original Medicare" },
+      { icon: "alert", text: "<strong>Medigap</strong> can cover the 20% coinsurance \u2014 Plan G is a popular choice" },
+      { icon: "dollar", text: "Part B cost: 20% coinsurance after <strong>$257 deductible</strong> (2026)" },
+      { icon: "dollar", text: "Part A cost: <strong>$0</strong> after $1,676 per-benefit-period deductible (days 1\u201360)" },
+      { icon: "info", text: "Biopsy must be ordered by a Medicare-participating provider to be covered" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Cancer Treatment?", description: "Learn about Medicare's coverage for chemotherapy, radiation, and other cancer treatments.", slug: "medicare-coverage-for-cancer" },
+      { title: "What Does 'Medically Necessary' Mean?", description: "Understand how Medicare determines whether a service is medically necessary.", slug: "what-does-medically-necessary-mean" },
+      { title: "Does Medicare Cover Surgery?", description: "Find out which surgeries Medicare covers and what you can expect to pay.", slug: "will-medicare-cover-my-surgery" },
+      { title: "Medicare Preventive Services", description: "Explore the free preventive screenings and services available under Medicare Part B.", slug: "medicare-preventive-services" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Cancer Treatment",
+      "What Does Medically Necessary Mean",
+      "Does Medicare Cover Surgery",
+      "Medicare Preventive Services",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Biopsy Coverage?",
+      text: "Our licensed Medicare agents can help you find a plan that minimizes your out-of-pocket costs for biopsies and other medical procedures. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-cancer", "what-does-medically-necessary-mean", "will-medicare-cover-my-surgery", "medicare-preventive-services"],
+  },
+
+  // ─── Does Medicare Cover an Echocardiogram ──────────────────────────────────
+  {
+    slug: "does-medicare-cover-an-echocardiogram",
+    seo: {
+      title: "Does Medicare Cover an Echocardiogram? | MedicareFAQ",
+      description: "Medicare Part B covers echocardiograms and EKGs when medically necessary. Learn about coverage rules, costs, the difference between an echo and EKG, and how Medigap can help.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-an-echocardiogram/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-an-echocardiogram.jpg",
+    },
+    title: "Does Medicare Cover an Echocardiogram?",
+    subtitle: "Yes — Medicare Part B covers echocardiograms when your doctor deems them medically necessary. Learn about coverage rules, what you'll pay, how echocardiograms differ from EKGs, and which other heart tests Medicare covers.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers echocardiograms when a doctor orders them as medically necessary. Echocardiograms are not a routine preventive service under Medicare, so your doctor must document a clinical reason for the test. Once you meet your $257 Part B deductible, you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%, leaving you with little or no out-of-pocket cost.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covered when performed during a qualifying hospital inpatient stay" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Part B" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers echocardiograms when a physician orders the test because it is [medically necessary](/faqs/what-does-medically-necessary-mean) \u2014 for example, to investigate chest pain, diagnose heart disease, or monitor a known cardiac condition. Echocardiograms are not included in the annual wellness visit and are not a preventive screening benefit.",
+          "**Medicare Part B** covers outpatient echocardiograms performed at a doctor's office, outpatient hospital department, or cardiac imaging center. After you meet the annual Part B deductible ($257 in 2026), Medicare pays 80% of the Medicare-approved amount and you pay the remaining 20%. If you are a hospital inpatient and receive an echocardiogram during that stay, **Medicare Part A** applies instead.",
+          "Medicare also covers one screening **EKG (electrocardiogram)** in your lifetime \u2014 but only when ordered as part of your [Welcome to Medicare preventive visit](/faqs/medicare-preventive-services) within the first 12 months of enrollment. Any additional EKGs must be medically necessary to receive Part B coverage.",
+        ],
+        whatItCovers: [
+          "Transthoracic echocardiogram (TTE) \u2014 most common type",
+          "Transesophageal echocardiogram (TEE) \u2014 used when TTE images are insufficient",
+          "Stress echocardiogram \u2014 performed during or after exercise or medication-induced stress",
+          "Diagnostic EKGs ordered for a medical reason",
+          "One-time screening EKG during Welcome to Medicare visit",
+          "Holter monitors and cardiac event monitors (when medically necessary)",
+          "Other heart tests: stress tests, chest X-rays, cardiac CT scans, coronary angiography",
+        ],
+        whatItDoesntCover: [
+          "Routine echocardiograms without a documented medical reason",
+          "Echocardiograms ordered by a provider who does not accept Medicare",
+          "Repeated EKGs without medical necessity documentation",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). The average cost of an EKG is approximately $205; Medicare pays 80% after your deductible.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered \u2014 cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover all services that Original Medicare covers, including medically necessary echocardiograms and EKGs. However, the cost-sharing structure \u2014 deductibles, copayments, and coinsurance \u2014 is set by the private insurer and may differ from Original Medicare.",
+          "Unlike Medicare Supplement plans, Medicare Advantage plans use provider networks. Before scheduling your echocardiogram, confirm that your cardiologist and the imaging facility are both in your plan's network. Out-of-network services may result in higher costs or may not be covered at all, depending on your plan type (HMO vs. PPO).",
+        ],
+        whatItCovers: [
+          "All echocardiogram types covered by Original Medicare",
+          "EKGs and other cardiac diagnostic tests",
+          "Cardiac monitoring devices (Holter monitors, event monitors)",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers (for HMO plans without out-of-network benefits)",
+          "Tests not deemed medically necessary by your plan's criteria",
+        ],
+        callout: {
+          type: "tip",
+          title: "Verify network status before your appointment",
+          text: "Call your Medicare Advantage plan before scheduling your echocardiogram. Confirm the cardiologist, the imaging facility, and any interpreting physicians are all in-network to avoid unexpected bills.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind. Because Medicare Part B covers echocardiograms, a Medigap plan can cover the 20% coinsurance \u2014 and in some cases the Part B deductible as well \u2014 significantly reducing what you owe.",
+          "With [Medigap Plan G](/faqs/medicare-supplement-plan-g), for example, you pay only the $257 annual Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all Medicare-approved services, including echocardiograms, EKGs, and other cardiac tests. Medigap plans have no provider networks, so any cardiologist who accepts Medicare will also accept your Medigap plan.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) \u2014 covered by most Medigap plans",
+          "Part A deductible \u2014 covered by Plans D, G, and others",
+          "Part B deductible \u2014 covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
+          "Excess charges \u2014 covered by Plans F and G",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for an echocardiogram is the $257 Part B deductible per year (2026). After that, Plan G covers the 20% coinsurance.",
+      },
+    ],
+    costTable: {
+      title: "Echocardiogram vs. EKG: Key Differences",
+      headers: ["Feature", "Echocardiogram", "EKG (Electrocardiogram)"],
+      rows: [
+        {
+          "Feature": "How it works",
+          "Echocardiogram": "Uses sound waves (ultrasound) to create images of the heart's structure and function",
+          "EKG (Electrocardiogram)": "Uses electrodes placed on the chest to record the heart's electrical activity",
+        },
+        {
+          "Feature": "Test duration",
+          "Echocardiogram": "20\u201345 minutes on average",
+          "EKG (Electrocardiogram)": "5\u201310 minutes on average",
+        },
+        {
+          "Feature": "What it shows",
+          "Echocardiogram": "Heart chamber size, pumping function, valve health, blood flow patterns",
+          "EKG (Electrocardiogram)": "Heart rate, rhythm, electrical conduction, signs of prior heart attack",
+        },
+        {
+          "Feature": "Common diagnoses",
+          "Echocardiogram": "Heart failure, valve disease, cardiomyopathy, pericarditis, congenital defects",
+          "EKG (Electrocardiogram)": "Arrhythmias, atrial fibrillation, heart block, ischemia",
+        },
+        {
+          "Feature": "Medicare coverage",
+          "Echocardiogram": "Part B covers unlimited tests when medically necessary",
+          "EKG (Electrocardiogram)": "One free screening at Welcome to Medicare visit; unlimited diagnostic EKGs when medically necessary",
+        },
+        {
+          "Feature": "Typical Medicare cost (2026)",
+          "Echocardiogram": "20% coinsurance after $257 Part B deductible",
+          "EKG (Electrocardiogram)": "20% coinsurance after $257 Part B deductible (for diagnostic EKGs)",
+        },
+      ],
+      footnote: "Both tests are considered non-invasive cardiac testing. Your doctor may order one or both depending on your symptoms and clinical history.",
+    },
+    exceptionsSection: {
+      title: "When Medicare Covers a Routine EKG",
+      items: [
+        {
+          title: "One-Time Screening EKG at Your Welcome to Medicare Visit",
+          text: "Medicare Part B covers one screening EKG in your lifetime \u2014 but only when it is ordered as part of your Initial Preventive Physical Examination (IPPE), also known as the 'Welcome to Medicare' visit. You must attend this visit within the first 12 months of enrolling in Part B.",
+          highlight: "If you miss the Welcome to Medicare window, you will not receive a free routine EKG. Any future EKG must be medically necessary to receive Medicare coverage.",
+        },
+        {
+          title: "Unlimited Diagnostic EKGs When Medically Necessary",
+          text: "Outside of the one-time screening benefit, Medicare Part B covers unlimited EKGs as long as your physician documents a medical reason for each test. Common reasons include chest pain, shortness of breath, suspected arrhythmia, pre-operative evaluation, or monitoring of a known heart condition.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Other Heart Tests Medicare Covers",
+      paragraphs: [
+        "In addition to echocardiograms and EKGs, Medicare Part B covers a range of cardiac diagnostic tests when medically necessary. If your doctor determines any of the following tests are needed to diagnose or monitor a heart condition, Medicare will cover its share of the cost.",
+      ],
+      checklist: {
+        title: "Cardiac Tests Covered by Medicare Part B",
+        type: "info",
+        items: [
+          "Holter monitor (24\u201348 hour continuous heart rhythm recording)",
+          "Cardiac event monitor (worn for weeks to capture intermittent arrhythmias)",
+          "Stress test (exercise or pharmacologic)",
+          "Stress echocardiogram",
+          "Chest X-ray",
+          "Cardiac CT scan",
+          "Coronary angiography (cardiac catheterization)",
+          "Nuclear cardiac imaging (myocardial perfusion imaging)",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover a routine echocardiogram?",
+        answer: "No \u2014 Medicare does not cover routine echocardiograms. An echocardiogram is not a preventive screening benefit under Medicare Part B. Your doctor must document a medical reason for the test (such as chest pain, heart failure monitoring, or suspected valve disease) for Medicare to cover it. If the test is ordered without a documented clinical indication, Medicare may deny the claim.",
+      },
+      {
+        question: "How much does an echocardiogram cost with Medicare?",
+        answer: "After you meet your $257 Part B deductible (2026), Medicare pays 80% of the Medicare-approved amount for the echocardiogram, and you pay the remaining 20%. The actual dollar amount depends on the type of echocardiogram and where it is performed. A Medigap plan (such as Plan G) can cover that 20%, leaving you responsible only for the annual deductible.",
+      },
+      {
+        question: "How much does an EKG cost with Medicare?",
+        answer: "The average cost of an EKG is approximately $205. After meeting your $257 Part B deductible, Medicare covers 80% of the approved amount and you pay 20%. For the one-time screening EKG at your Welcome to Medicare visit, there is no cost to you \u2014 Medicare covers it in full.",
+      },
+      {
+        question: "Does Medicare cover heart scans?",
+        answer: "Yes. Medicare Part B covers tests used to diagnose and monitor heart disease, including cardiac CT scans and coronary calcium scoring when medically necessary. Coverage follows the same rules as other diagnostic tests \u2014 your doctor must document the medical reason for ordering the scan.",
+      },
+      {
+        question: "Does Medicare cover a pre-op EKG?",
+        answer: "Yes. Medicare covers pre-operative EKGs when they are medically necessary. Part B covers the EKG if you are an outpatient, while Part A covers it if you are admitted as a hospital inpatient. Your surgeon or anesthesiologist typically orders pre-op cardiac testing as part of your surgical clearance.",
+      },
+      {
+        question: "Does Medicare cover a Holter monitor?",
+        answer: "Yes. A Holter monitor is a wearable device that continuously records your heart rhythm for 24 to 48 hours (or longer for extended monitors). Medicare Part B covers Holter monitors and cardiac event monitors when your doctor orders them to diagnose or monitor arrhythmias or other heart rhythm disorders.",
+      },
+      {
+        question: "Does Medicare cover atrial fibrillation treatment?",
+        answer: "Yes. Medicare covers diagnosis and treatment for atrial fibrillation (AFib), including echocardiograms, EKGs, Holter monitors, medications, cardioversion, and catheter ablation when medically necessary. See our full guide on Medicare coverage for AFib for details.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare Part B</strong> covers echocardiograms when medically necessary" },
+      { icon: "check", text: "One free <strong>screening EKG</strong> at your Welcome to Medicare visit" },
+      { icon: "alert", text: "Routine echocardiograms <strong>without medical necessity</strong> are not covered" },
+      { icon: "dollar", text: "Your cost: 20% coinsurance after <strong>$257 Part B deductible</strong> (2026)" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance \u2014 you pay only the deductible" },
+      { icon: "info", text: "Medicare Advantage must cover the same cardiac tests as Original Medicare" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Atrial Fibrillation?", description: "Learn about Medicare's coverage for AFib diagnosis, monitoring, and treatment.", slug: "does-medicare-cover-atrial-fibrillation-afib" },
+      { title: "Medicare Coverage for Cardiovascular Disease", description: "Explore what Medicare covers for heart disease prevention, diagnosis, and treatment.", slug: "medicare-coverage-for-cardiovascular-disease" },
+      { title: "Medicare Preventive Services", description: "Discover the free preventive screenings and services available under Medicare Part B.", slug: "medicare-preventive-services" },
+      { title: "What Is a Medicare Supplement Plan?", description: "Learn how Medigap plans can reduce your out-of-pocket costs for covered services.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Atrial Fibrillation",
+      "Medicare Coverage for Cardiovascular Disease",
+      "Medicare Preventive Services",
+      "What Is a Medicare Supplement Plan",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Your Cardiac Care Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for echocardiograms and other heart tests. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
+  },
+];
