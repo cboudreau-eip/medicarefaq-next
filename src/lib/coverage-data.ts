@@ -6046,4 +6046,521 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
+
+  // ─── Does Medicare Cover Anesthesia ──────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-anesthesia",
+    seo: {
+      title: "Does Medicare Cover Anesthesia? | MedicareFAQ",
+      description: "Medicare covers anesthesia for medically necessary surgeries and procedures under Part A and Part B. Learn about costs, coverage rules, and how Medigap can help.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-anesthesia/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-anesthesia.jpg",
+    },
+    title: "Does Medicare Cover Anesthesia?",
+    subtitle: "Yes \u2014 Medicare covers anesthesia for medically necessary surgeries, diagnostic tests, and screening procedures. Part A covers anesthesia during inpatient hospital stays, while Part B covers outpatient anesthesia services. Learn what you'll pay and when supplemental coverage can help.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers anesthesia for medically necessary procedures. Medicare Part B covers most anesthesia services, including general anesthesia, local anesthetics, and sedation for outpatient procedures (you pay 20% coinsurance after the $257 deductible). Medicare Part A covers anesthesia during inpatient hospital stays (you pay nothing after the $1,676 deductible for days 1\u201360). Medicare pays 100% for anesthesia during preventive screening colonoscopies with no cost to you.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% of anesthesia costs after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers anesthesia during hospital stays after $1,676 Part A deductible for the benefit period" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same anesthesia services as Original Medicare; cost-sharing varies by plan and network" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers anesthesia for [medically necessary](/faqs/what-does-medically-necessary-mean) procedures, including surgeries, diagnostic tests, and screening procedures. This includes general anesthesia, local anesthetics, regional anesthesia (such as nerve blocks), and sedation depending on what is required for your procedure.",
+          "The part of Medicare that applies depends on where you receive the procedure. Most anesthesia services are provided on an outpatient basis and fall under **Medicare Part B**. This includes anesthesia for [colonoscopies](/faqs/medicare-coverage-for-colonoscopy-screenings), [cataract surgery](/faqs/does-medicare-cover-cataract-surgery), endoscopies, and outpatient surgeries. If you are admitted as a hospital inpatient, **Medicare Part A** covers the anesthesia as part of your hospital stay.",
+          "For preventive screening colonoscopies, Medicare pays 100% of the anesthesia cost with no deductible or coinsurance. For other outpatient procedures, Part B covers 80% after your annual deductible, and you pay the remaining 20% coinsurance.",
+        ],
+        whatItCovers: [
+          "General anesthesia for medically necessary surgeries",
+          "Local anesthetics for outpatient procedures",
+          "Regional anesthesia and nerve blocks",
+          "Sedation for diagnostic and screening tests",
+          "Anesthesia for [colonoscopies](/faqs/medicare-coverage-for-colonoscopy-screenings) (100% covered for screening)",
+          "Anesthesia for [cataract surgery](/faqs/does-medicare-cover-cataract-surgery)",
+          "Anesthesia for endoscopy procedures",
+          "Anesthesia for [biopsies](/faqs/does-medicare-cover-a-biopsy)",
+          "Anesthesia for pain management when connected to a Medicare-approved procedure",
+        ],
+        whatItDoesntCover: [
+          "Anesthesia for cosmetic or elective procedures",
+          "Anesthesia for epidural steroid injections for pain management (per CMS guidelines)",
+          "Anesthesia for procedures that are not medically necessary",
+          "Routine dental anesthesia (unless secondary to a Medicare-covered condition)",
+        ],
+        callout: {
+          type: "info",
+          title: "Screening Colonoscopy Anesthesia Is Free",
+          text: "Medicare pays 100% of anesthesia costs for preventive screening colonoscopies. There is no deductible or coinsurance for this service.",
+        },
+        costNote: "For most outpatient procedures, you pay 20% of the Medicare-approved amount for anesthesia after your $257 Part B deductible (2026). For inpatient procedures, anesthesia is included in your Part A hospital coverage.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#D97706",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered with network rules",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/original-medicare-vs-medicare-advantage) cover all anesthesia services that Original Medicare covers, as they are required to provide at least the same level of coverage. However, Medicare Advantage plans set their own cost-sharing amounts, which means your copay or coinsurance for anesthesia may differ from Original Medicare.",
+          "An important consideration with Medicare Advantage plans is provider networks. If your anesthesiologist is out-of-network, you could face significantly higher costs or even a surprise medical bill. Unlike Original Medicare, where you can see any Medicare-participating provider, Advantage plans typically require you to use in-network providers for the lowest costs.",
+        ],
+        whatItCovers: [
+          "All anesthesia services covered by Original Medicare",
+          "May include additional benefits not covered by Original Medicare",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network anesthesiologists may result in higher costs or no coverage",
+          "Anesthesia for procedures not covered by Original Medicare",
+        ],
+        callout: {
+          type: "warning",
+          title: "Watch for Surprise Bills",
+          text: "With Medicare Advantage, your surgeon may be in-network but the anesthesiologist may not be. Always verify that all providers involved in your procedure are in your plan's network to avoid unexpected costs.",
+        },
+        costNote: "Costs vary by plan. Check your plan's Summary of Benefits for specific copay or coinsurance amounts for anesthesia services.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers your share of anesthesia costs",
+        paragraphs: [
+          "A [Medicare Supplement (Medigap) plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) works alongside Original Medicare to cover some or all of your out-of-pocket costs for anesthesia. Since anesthesia billing can be complex and expensive, especially for lengthy surgeries, Medigap can provide significant financial protection.",
+          "For example, if your anesthesiologist bills $1,000 for a procedure, Medicare Part B pays 80% ($800). Without supplemental coverage, you owe the remaining $200. With a Medigap plan like Plan G, your plan covers that 20% coinsurance, so your only cost is the $257 annual Part B deductible.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for outpatient anesthesia",
+          "Part A deductible for inpatient hospital stays",
+          "Part B deductible (covered by Plan C and Plan F for those eligible before Jan 1, 2020)",
+          "Excess charges (covered by Plans F and G)",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Original Medicare",
+          "Anesthesia for cosmetic or elective procedures",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for anesthesia is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all Medicare-approved anesthesia services.",
+      },
+    ],
+    costTable: {
+      title: "Estimated Anesthesia Costs Under Medicare (2026)",
+      headers: ["Procedure Type", "Medicare Part", "What Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Procedure Type": "Screening colonoscopy",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "100% of approved amount",
+          "Your Cost (No Supplement)": "$0",
+          "Your Cost (With Plan G)": "$0",
+        },
+        {
+          "Procedure Type": "Outpatient surgery (e.g., cataract, biopsy)",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+        },
+        {
+          "Procedure Type": "Endoscopy / diagnostic procedure",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+        },
+        {
+          "Procedure Type": "Inpatient hospital surgery (days 1\u201360)",
+          "Medicare Part": "Part A",
+          "What Medicare Pays": "100% after deductible",
+          "Your Cost (No Supplement)": "$1,676 per benefit period",
+          "Your Cost (With Plan G)": "$0 (Plan G covers Part A deductible)",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Part A deductible: $1,676 per benefit period. Anesthesia billing uses a conversion factor formula based on procedure complexity, time, and location.",
+    },
+    exceptionsSection: {
+      title: "Important: When Medicare Does NOT Cover Anesthesia",
+      items: [
+        {
+          title: "Cosmetic and Elective Procedures",
+          text: "Medicare does not cover anesthesia for cosmetic or elective procedures. If a procedure is not medically necessary, the anesthesia associated with it is also not covered. This includes cosmetic surgery, elective dental procedures, and other non-essential treatments.",
+          highlight: "If you believe a procedure is medically necessary but Medicare denies coverage, you have the right to appeal. Ask your doctor to provide documentation explaining why the procedure was required.",
+        },
+        {
+          title: "Epidural Steroid Injections for Pain Management",
+          text: "According to the Centers for Medicare & Medicaid Services (CMS), Medicare does not cover anesthesia (including moderate or deep sedation, general anesthesia, and monitored anesthesia care) for epidural steroid injections for pain management. CMS considers the use of anesthesia for these procedures to be rarely necessary.",
+        },
+        {
+          title: "Dental Anesthesia: Limited Coverage",
+          text: "Medicare generally does not cover [dental care](/faqs/what-dental-expenses-does-medicare-cover), which means dental anesthesia is typically not covered. However, exceptions exist when dental treatment is secondary to another Medicare-covered health condition, such as jaw cancer treatment or a broken jaw. In these cases, Medicare Part A or Part B may cover the anesthesia.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How Anesthesia Billing Works Under Medicare",
+      paragraphs: [
+        "Medicare reimburses anesthesiologists using a specific formula rather than a flat fee. Understanding this formula can help you anticipate costs. The formula multiplies a conversion factor (which varies by geographic location) by the sum of three components: a base rate that reflects the complexity of the procedure, the time the anesthesiologist spends caring for you, and any modifying factors such as your overall health or emergency circumstances.",
+        "Because of this formula-based approach, anesthesia costs can vary significantly. A 30-minute procedure will cost less than a five-hour surgery. Costs may be lower in smaller cities compared to major metropolitan areas. And anesthesia for a complex operation with many potential complications will be more expensive than anesthesia for a routine procedure.",
+      ],
+      checklist: {
+        title: "Factors That Affect Your Anesthesia Cost",
+        type: "info",
+        items: [
+          "Type and complexity of the surgical procedure",
+          "Duration of the anesthesia (time-based billing)",
+          "Geographic location (conversion factor varies by region)",
+          "Your overall health and any complicating conditions",
+          "Whether the procedure is emergency or scheduled",
+          "Inpatient vs. outpatient setting",
+          "Whether your anesthesiologist accepts Medicare assignment",
+          "Your supplemental coverage (Medigap or Medicare Advantage)",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover anesthesia for colonoscopy?",
+        answer: "Yes. Medicare pays 100% of anesthesia costs for preventive screening [colonoscopies](/faqs/medicare-coverage-for-colonoscopy-screenings) with no deductible or coinsurance. For diagnostic colonoscopies (when you have symptoms or a history of polyps), standard Part B cost-sharing applies: Medicare pays 80% and you pay 20% after your $257 deductible.",
+      },
+      {
+        question: "Does Medicare cover anesthesia for cataract surgery?",
+        answer: "Yes. Medicare Part B covers [cataract surgery](/faqs/does-medicare-cover-cataract-surgery), including the local anesthetic used to numb the eye area before the procedure. Both traditional and laser cataract surgery anesthesia are covered. You pay 20% coinsurance after your Part B deductible unless you have supplemental coverage.",
+      },
+      {
+        question: "Does Medicare cover anesthesia for dental surgery?",
+        answer: "Only in limited circumstances. Medicare does not cover routine [dental care](/faqs/what-dental-expenses-does-medicare-cover), so dental anesthesia is generally not covered. However, if your dental procedure is secondary to another Medicare-covered condition (such as jaw cancer treatment or a broken jaw), Medicare may cover the anesthesia. Some Medicare Advantage plans with dental benefits may also cover dental anesthesia.",
+      },
+      {
+        question: "Does Medicare cover anesthesia for endoscopy?",
+        answer: "Yes. Medicare Part B covers anesthesia for medically necessary endoscopy procedures. You pay 20% coinsurance after your $257 Part B deductible. For further coverage, a Medigap plan can cover the remaining coinsurance.",
+      },
+      {
+        question: "Does Medicare cover anesthesia for pain management?",
+        answer: "It depends on the procedure. Medicare covers anesthesia for pain management when it is connected to a Medicare-approved procedure and is medically necessary. However, Medicare does not cover anesthesia for epidural steroid injections, as CMS considers it rarely necessary for those procedures.",
+      },
+      {
+        question: "Does Medicare pay for anesthesia for bone marrow biopsy?",
+        answer: "Yes. Medicare covers all types of [biopsies](/faqs/does-medicare-cover-a-biopsy), including bone marrow biopsies. These are usually performed in a doctor's office or clinic using local anesthesia, which is covered under Medicare Part B.",
+      },
+      {
+        question: "How much does general anesthesia cost with Medicare?",
+        answer: "Anesthesia costs vary based on the procedure's complexity, duration, and your location. With Original Medicare alone, you pay 20% of the Medicare-approved amount after your $257 Part B deductible. With a Medigap Plan G, your only cost is the annual deductible. For example, if anesthesia is billed at $1,000, Medicare pays $800 and Plan G covers the remaining $200.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare</strong> covers anesthesia for medically necessary procedures under Part A or Part B" },
+      { icon: "check", text: "<strong>Screening colonoscopy</strong> anesthesia is covered at 100% with no cost to you" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> must cover the same anesthesia services as Original Medicare" },
+      { icon: "alert", text: "<strong>Medigap</strong> can cover the 20% coinsurance for outpatient anesthesia" },
+      { icon: "x", text: "Medicare does <strong>not</strong> cover anesthesia for cosmetic, elective, or most dental procedures" },
+      { icon: "dollar", text: "Part B cost: 20% coinsurance after <strong>$257 deductible</strong> (2026)" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Surgery?", description: "Learn which surgeries Medicare covers and what you can expect to pay.", slug: "will-medicare-cover-my-surgery" },
+      { title: "Does Medicare Cover Cataract Surgery?", description: "Find out how Medicare covers cataract surgery, including anesthesia and lens replacement.", slug: "does-medicare-cover-cataract-surgery" },
+      { title: "Does Medicare Cover Colonoscopy Screenings?", description: "Understand Medicare's coverage for preventive and diagnostic colonoscopies.", slug: "medicare-coverage-for-colonoscopy-screenings" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Surgery",
+      "Does Medicare Cover Cataract Surgery",
+      "Does Medicare Cover Colonoscopy Screenings",
+      "Does Medicare Cover a Biopsy",
+    ],
+    ctaBanner: {
+      title: "Concerned About Anesthesia Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for anesthesia and surgical procedures. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-cataract-surgery", "medicare-coverage-for-colonoscopy-screenings", "does-medicare-cover-a-biopsy"],
+  },
+
+  // ─── Does Medicare Cover Asthma Inhalers ───────────────────────────────────────
+  {
+    slug: "does-medicare-cover-asthma-inhalers",
+    seo: {
+      title: "Does Medicare Cover Asthma Inhalers? | MedicareFAQ",
+      description: "Medicare Part D covers prescription asthma inhalers. Learn which inhalers are covered, what they cost, and how to save money on your asthma medications.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-asthma-inhalers/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-asthma-inhalers.jpg",
+    },
+    title: "Does Medicare Cover Asthma Inhalers?",
+    subtitle: "Yes \u2014 Medicare Part D covers prescription asthma inhalers when prescribed by your doctor. Part B covers outpatient asthma treatment and nebulizers as durable medical equipment. Learn which inhalers are covered, what they cost, and how to reduce your expenses.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers asthma inhalers through Medicare Part D prescription drug plans. Your doctor must provide a prescription, and coverage depends on your plan's formulary (drug list). Most Part D plans cover common inhalers like Albuterol and Flovent, though coverage and tier placement vary by plan. Medicare Part B covers nebulizers as durable medical equipment, and Part B also covers outpatient pulmonary rehabilitation for chronic conditions like asthma.",
+      badges: [
+        { plan: "Medicare Part D", status: "covered" },
+        { plan: "Medicare Part B", status: "partial" },
+        { plan: "Medicare Advantage", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part D (Prescription Drugs)", coverage: "Covered", icon: "shield", notes: "Covers prescription inhalers based on plan formulary; costs vary by drug tier" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Partial", icon: "shield", notes: "Covers nebulizers as DME and outpatient pulmonary rehab; does not cover inhalers" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers inhalers and breathing treatments administered during a hospital stay" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Most MA plans include Part D drug coverage; inhaler coverage follows plan formulary" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medicare Part D (Prescription Drug Plans)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers prescription inhalers",
+        paragraphs: [
+          "Medicare Part D is the primary source of coverage for prescription asthma inhalers. If your doctor prescribes an inhaler for asthma treatment, your [Part D plan](/faqs/part-d-formulary) will cover it based on the plan's formulary (list of covered drugs). Each Part D plan has its own formulary, so coverage and costs can vary significantly between plans.",
+          "Inhalers are placed on different drug tiers within your plan's formulary, with lower-tier drugs generally costing less. Generic inhalers like Albuterol are typically on lower tiers (Tier 2), while brand-name inhalers may be on higher tiers with greater cost-sharing. Talking to your doctor about generic alternatives can save you money.",
+          "It is important to have a stand-alone Part D plan even if you do not currently take medications. Without Part D coverage, you may face a [late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty) that permanently increases your premiums when you do eventually enroll.",
+        ],
+        whatItCovers: [
+          "Prescription rescue inhalers (e.g., Albuterol, Ventolin)",
+          "Maintenance inhalers (e.g., Flovent, Symbicort, Advair)",
+          "Combination inhalers for asthma and COPD",
+          "Generic and brand-name inhaler options based on formulary",
+          "Bronchodilators that assist in opening airways",
+        ],
+        whatItDoesntCover: [
+          "Inhalers not listed on your plan's formulary",
+          "Over-the-counter inhalers (no prescription required)",
+          "Nebulizers (covered under Part B as DME, not Part D)",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check Your Plan's Formulary",
+          text: "Before enrolling in a Part D plan, review the formulary to confirm your specific inhaler is covered and check which tier it falls on. You can also ask your pharmacist about pricing outside your insurance, as the elimination of the gag clause allows pharmacists to share this information.",
+        },
+        costNote: "Inhaler costs under Part D depend on the drug tier: Tier 1-2 generics may cost $0\u2013$15 per fill, while Tier 3-4 brand-name inhalers may cost $30\u2013$100+ per fill. Costs vary by plan.",
+      },
+      {
+        planName: "Medicare Part B (Outpatient & DME)",
+        icon: "shield",
+        iconColor: "#2563EB",
+        coverageLabel: "Partial",
+        coverageType: "partial",
+        statusBadge: "Covers nebulizers and pulmonary rehab",
+        paragraphs: [
+          "While Medicare Part B does not cover prescription inhalers (that falls under Part D), it does cover related respiratory equipment and treatment. Part B covers nebulizer machines as [durable medical equipment (DME)](/faqs/will-medicare-pay-for-a-nebulizer-machine) when prescribed by your doctor. Nebulizers deliver medication as a mist that you breathe in, and they are an alternative to inhalers for some patients.",
+          "Part B also covers outpatient pulmonary rehabilitation for chronic respiratory conditions, including asthma. Pulmonary rehab programs typically last 6 to 8 weeks and include exercise training, education, health management, [mental health counseling](/faqs/does-medicare-cover-mental-health), and group support. When recent tests show poor lung function, Part B covers therapy to restore lung function and improve quality of life.",
+        ],
+        whatItCovers: [
+          "Nebulizer machines as durable medical equipment",
+          "Nebulizer medications and supplies",
+          "Outpatient pulmonary rehabilitation programs",
+          "Pulmonary function testing",
+          "Hospital-administered breathing treatments (when inpatient under Part A)",
+        ],
+        whatItDoesntCover: [
+          "Prescription inhalers (covered under Part D)",
+          "Over-the-counter asthma medications",
+        ],
+        callout: {
+          type: "info",
+          title: "Pulmonary Rehab Coverage",
+          text: "Medicare Part B covers outpatient pulmonary rehabilitation for chronic conditions including asthma, COPD, cystic fibrosis, emphysema, pulmonary fibrosis, sarcoidosis, and post-lung resection recovery.",
+        },
+        costNote: "For nebulizers and pulmonary rehab, you pay 20% of the Medicare-approved amount after your $257 Part B deductible (2026).",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#D97706",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Most plans include drug coverage",
+        paragraphs: [
+          "Most [Medicare Advantage plans](/faqs/original-medicare-vs-medicare-advantage) include Part D prescription drug coverage, which means your inhaler coverage is built into your plan. Coverage follows the plan's formulary, similar to stand-alone Part D plans. Some Medicare Advantage plans may offer lower copays for certain inhalers or additional respiratory benefits.",
+          "Medicare Advantage plans also cover nebulizers and outpatient pulmonary rehabilitation, just like Original Medicare. However, you may need to use in-network providers and pharmacies to get the lowest costs.",
+        ],
+        whatItCovers: [
+          "Prescription inhalers based on plan formulary (when Part D is included)",
+          "Nebulizers and respiratory equipment",
+          "Outpatient pulmonary rehabilitation",
+          "May include additional respiratory or wellness benefits",
+        ],
+        whatItDoesntCover: [
+          "Inhalers not on the plan's formulary",
+          "Out-of-network pharmacy costs may be higher",
+        ],
+        costNote: "Costs vary by plan. Review your plan's formulary and Summary of Benefits to understand your specific inhaler costs.",
+      },
+    ],
+    costTable: {
+      title: "Common Inhaler Coverage Under Medicare Part D (2026)",
+      headers: ["Inhaler", "Generic Available?", "Typical Drug Tier", "Part D Plan Coverage Rate", "Estimated Cost Per Fill"],
+      rows: [
+        {
+          "Inhaler": "Albuterol (rescue inhaler)",
+          "Generic Available?": "Yes",
+          "Typical Drug Tier": "Tier 2 (Preferred Generic)",
+          "Part D Plan Coverage Rate": "~53% of plans",
+          "Estimated Cost Per Fill": "$0\u2013$15",
+        },
+        {
+          "Inhaler": "Ventolin (rescue inhaler)",
+          "Generic Available?": "Brand",
+          "Typical Drug Tier": "Tier 2",
+          "Part D Plan Coverage Rate": "~50% of plans",
+          "Estimated Cost Per Fill": "$15\u2013$40",
+        },
+        {
+          "Inhaler": "Flovent (maintenance inhaler)",
+          "Generic Available?": "Yes",
+          "Typical Drug Tier": "Tier 3 (Preferred Brand)",
+          "Part D Plan Coverage Rate": "~93% of plans",
+          "Estimated Cost Per Fill": "$30\u2013$75",
+        },
+        {
+          "Inhaler": "Symbicort (combination inhaler)",
+          "Generic Available?": "Limited",
+          "Typical Drug Tier": "Tier 3-4",
+          "Part D Plan Coverage Rate": "Limited coverage",
+          "Estimated Cost Per Fill": "$50\u2013$100+ (manufacturer coupons may be available)",
+        },
+        {
+          "Inhaler": "COPD inhalers / Bronchodilators",
+          "Generic Available?": "Varies",
+          "Typical Drug Tier": "Tier 2-4",
+          "Part D Plan Coverage Rate": "Widely covered",
+          "Estimated Cost Per Fill": "$0\u2013$75 depending on drug and tier",
+        },
+      ],
+      footnote: "Coverage rates and costs are approximate and vary by plan and region. Always check your specific plan's formulary for exact coverage and pricing. Costs may be lower during the catastrophic coverage phase.",
+    },
+    exceptionsSection: {
+      title: "Important: Formulary and Coverage Considerations",
+      items: [
+        {
+          title: "Your Inhaler Must Be on the Plan's Formulary",
+          text: "Each Medicare Part D plan maintains its own formulary (list of covered drugs). If your prescribed inhaler is not on your plan's formulary, you may need to pay the full retail price, request a formulary exception from your plan, or ask your doctor about a covered alternative. When choosing a Part D plan, always verify that your specific inhalers are listed.",
+          highlight: "If your plan denies coverage for a prescribed inhaler, you can request a coverage determination or exception. Your doctor can submit a letter explaining why the specific medication is medically necessary for you.",
+        },
+        {
+          title: "Part D Late Enrollment Penalty",
+          text: "If you do not enroll in a Part D plan when you are first eligible and go without creditable drug coverage for 63 or more consecutive days, you may face a [late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty). This penalty is added to your monthly Part D premium for as long as you have Part D coverage. Even if you do not currently use inhalers or other medications, enrolling in a Part D plan protects you from this penalty.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Ways to Save on Asthma Inhalers Under Medicare",
+      paragraphs: [
+        "Inhaler costs can add up quickly, especially if you use both a rescue inhaler and a maintenance inhaler. There are several strategies to reduce your out-of-pocket costs for asthma medications under Medicare.",
+        "Those with chronic asthma may also be eligible for [chronic care management](/faqs/chronic-care-management) services through Medicare, which provides ongoing coordination of your care and can help ensure you are getting the most cost-effective treatment plan.",
+      ],
+      checklist: {
+        title: "Tips to Reduce Your Inhaler Costs",
+        type: "tip",
+        items: [
+          "Ask your doctor about generic alternatives (e.g., generic Albuterol instead of brand-name Ventolin)",
+          "Compare Part D plans during Annual Enrollment to find the best formulary for your inhalers",
+          "Check manufacturer coupon programs for brand-name inhalers like Symbicort",
+          "Use your plan's preferred pharmacy for the lowest copays",
+          "Apply for Medicare Extra Help (Low Income Subsidy) if you have limited income",
+          "Ask your pharmacist about pricing outside your insurance (gag clause eliminated)",
+          "Consider a Medicare Advantage plan with built-in Part D that covers your specific inhalers",
+          "Talk to your doctor about nebulizer treatment as a Part B-covered alternative",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover Albuterol inhalers?",
+        answer: "Yes. About 53% of Medicare Part D plans cover Albuterol, which is a common rescue inhaler. Albuterol is typically placed on Tier 2 (Preferred Generic) of a plan's formulary, making it one of the more affordable inhaler options. Check your specific plan's formulary to confirm coverage and pricing.",
+      },
+      {
+        question: "Does Medicare cover Ventolin?",
+        answer: "About 50% of Medicare Part D plans cover Ventolin, which is a brand-name version of Albuterol. Ventolin is typically considered a Tier 2 drug. Since generic Albuterol is widely available and often cheaper, your doctor may recommend the generic version to save money.",
+      },
+      {
+        question: "Does Medicare cover Symbicort?",
+        answer: "Most Medicare Part D plans do not cover Symbicort. However, you should contact your carrier directly to check your specific plan. Manufacturer coupons for Symbicort may be available online to help reduce costs. Your doctor may also be able to prescribe a covered alternative.",
+      },
+      {
+        question: "Does Medicare cover Flovent?",
+        answer: "Yes. About 93% of Medicare Part D plans cover Flovent, making it one of the most widely covered maintenance inhalers. Flovent is typically classified as a Tier 3 (Preferred Brand) drug. Generic versions are now available, which may be placed on lower tiers with lower costs.",
+      },
+      {
+        question: "Does Medicare cover COPD inhalers?",
+        answer: "Yes. Medicare Part D covers both [COPD](/faqs/does-medicare-cover-copd) inhalers and bronchodilators. These medications help open airways and make breathing easier. Coverage and costs depend on your plan's formulary and the specific medication prescribed.",
+      },
+      {
+        question: "Does Medicare cover nebulizers for asthma?",
+        answer: "Yes. Medicare Part B covers [nebulizer machines](/faqs/will-medicare-pay-for-a-nebulizer-machine) as durable medical equipment (DME) when prescribed by your doctor. Part B also covers the medications used in the nebulizer. You pay 20% of the Medicare-approved amount after your $257 Part B deductible.",
+      },
+      {
+        question: "What pulmonary treatments does Medicare cover?",
+        answer: "Medicare Part B covers outpatient pulmonary rehabilitation for chronic conditions including asthma, COPD, cystic fibrosis, emphysema, pulmonary fibrosis, sarcoidosis, and post-lung resection recovery. Programs typically last 6\u20138 weeks and include exercise training, education, health management, mental health counseling, and group support.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare Part D</strong> covers prescription asthma inhalers based on your plan's formulary" },
+      { icon: "check", text: "<strong>Medicare Part B</strong> covers nebulizers as durable medical equipment" },
+      { icon: "check", text: "<strong>Flovent</strong> is covered by ~93% of Part D plans; <strong>Albuterol</strong> by ~53%" },
+      { icon: "alert", text: "<strong>Symbicort</strong> has limited Part D coverage; check manufacturer coupons" },
+      { icon: "dollar", text: "Generic inhalers on Tier 1-2 may cost <strong>$0\u2013$15</strong> per fill" },
+      { icon: "info", text: "Enroll in Part D when first eligible to avoid the <strong>late enrollment penalty</strong>" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover COPD?", description: "Learn about Medicare coverage for COPD treatment, inhalers, and pulmonary rehabilitation.", slug: "does-medicare-cover-copd" },
+      { title: "Does Medicare Cover Nebulizer Machines?", description: "Find out how Medicare Part B covers nebulizers as durable medical equipment.", slug: "will-medicare-pay-for-a-nebulizer-machine" },
+      { title: "Medicare Part D Formulary", description: "Understand how Part D formularies work and how to find your medications.", slug: "part-d-formulary" },
+      { title: "Medicare Part D Late Enrollment Penalty", description: "Learn about the penalty for not enrolling in Part D when first eligible.", slug: "medicare-part-d-late-enrollment-penalty" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover COPD",
+      "Does Medicare Cover Nebulizer Machines",
+      "Medicare Part D Formulary",
+      "Medicare Part D Late Enrollment Penalty",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding the Right Part D Plan for Your Inhalers?",
+      text: "Our licensed Medicare agents can help you compare Part D plans to find the best coverage and lowest costs for your asthma medications. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "part-d-formulary", "medicare-part-d-late-enrollment-penalty"],
+  },
 ];

@@ -499,31 +499,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-costs-2025", "medicare-part-b-annual-deductible-explained-what-youll-pay", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "what-is-medicare-cost-sharing"],
   },
   {
-    slug: 'does-medicare-cover-anesthesia',
-    seo: {
-      title: 'Does Medicare Cover Anesthesia?',
-      description: 'Does Medicare cover anesthesia? Learn how and when Medicare covers anesthesia during colonoscopies, pain management, cataracts, and other procedures.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-anesthesia/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-anesthesia.jpg',
-    },
-    title: 'Does Medicare Cover Anesthesia?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'My Pain mgt Doctor is doing [nerve burning procedure](/faqs/medicare-coverage-for-lower-back-pain-management) on my back he said [Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) and champ Bailey doesn’t cover being put to sleep and I will have to [pay out of pocket](/blog/medicare-costs-2025)',
-        ],
-      },
-    ],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-cataract-surgery", "medicare-coverage-for-bariatric-surgery"],
-  },
-  {
     slug: 'does-medicare-cover-wegovy',
     seo: {
       title: 'Does Medicare Cover Wegovy?',

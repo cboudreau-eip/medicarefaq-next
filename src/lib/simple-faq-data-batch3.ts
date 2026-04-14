@@ -1064,32 +1064,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-social-security-and-power-of-attorney", "how-can-i-get-medicare-for-my-mom-or-dad", "applying-for-medicare", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide"],
   },
   {
-    slug: 'does-medicare-cover-asthma-inhalers',
-    seo: {
-      title: 'Does Medicare Cover Asthma Inhalers',
-      description: 'One of the biggest questions we hear is if Medicare covers asthma inhalers. The answer is yes, Part D plans do cover some inhalers.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-asthma-inhalers/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-asthma-inhalers.jpg',
-    },
-    title: 'Does Medicare Cover Asthma Inhalers',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'February 13, 2025',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Best Medicare Part D Plans for 2026',
-        paragraphs: [
-          'Updated on February 13, 2025',
-          'Best Medicare Part D Plans are rated on a five-star scale based on an average...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary", "does-medicare-cover-copd", "six-protected-classes"],
-  },
-  {
     slug: 'medicaid-spend-down-program',
     seo: {
       title: 'Medicaid Spend-Down Program for Medicare Beneficiaries',
