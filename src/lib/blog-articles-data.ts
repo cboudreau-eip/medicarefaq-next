@@ -6664,7 +6664,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "Potential Impact of the Legislation", id: "impact" },
       { type: "paragraph", content: "If enacted, the Direct Care Opportunity Act could increase [wages and benefits](/faqs/reduce-medicare-premiums) for direct care workers, create training and certification programs, establish career ladders allowing workers to advance, and ultimately improve the quality and availability of home-based care for Medicare beneficiaries who want to age in place." },
       { type: "faq", faqs: [
-        { question: "Does Medicare cover home health aide services?", answer: "Yes. Medicare Part A and Part B cover medically necessary home health services, including skilled nursing care and home health aide services, when ordered by a physician for a homebound beneficiary." },
+        { question: "Does Medicare cover home health aide services?", answer: "Yes. [Medicare Part A and Part B](/original-medicare) cover medically necessary home health services, including skilled nursing care and home health aide services, when ordered by a physician for a homebound beneficiary." },
         { question: "How does the direct care worker shortage affect Medicare beneficiaries?", answer: "Shortages can mean longer wait times for home health services, reduced hours of care, and in some cases, premature nursing home placement when home care isn't available." },
         { question: "What can I do if I can't find a home health aide?", answer: "Contact your local Area Agency on Aging, your Medicare Advantage plan's care coordination team, or a home health agency. Your doctor can also help coordinate Medicare-covered home health services." },
       ]},
