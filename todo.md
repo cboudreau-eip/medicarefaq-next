@@ -85,4 +85,4 @@
 - [x] Add author/reviewer credentials trust bar to SimpleFAQ template
 - [x] Add published/last reviewed date split to SimpleFAQ article data and template
 - [x] Fix OG image for medigap pricing methods article (replace old WordPress URL)
-- [ ] Add Article/FAQ/Breadcrumb schema to CoverageArticleContent template (test: dental implants page)
+- [x] Add Article/FAQ/Breadcrumb schema to CoverageArticleContent template (test: dental implants page)
