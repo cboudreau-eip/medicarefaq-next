@@ -6563,4 +6563,1141 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "part-d-formulary", "medicare-part-d-late-enrollment-penalty"],
   },
+  {
+    slug: "does-medicare-cover-atrial-fibrillation-afib",
+    seo: {
+      title: "Does Medicare Cover Atrial Fibrillation (AFib)? | MedicareFAQ",
+      description:
+        "Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and prescription drugs like Eliquis. Learn what Original Medicare, Advantage, and Medigap cover.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-atrial-fibrillation-afib/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-atrial-fibrillation-afib.jpg",
+    },
+    title: "Does Medicare Cover Atrial Fibrillation (AFib)?",
+    subtitle:
+      "Yes — Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and heart monitors when medically necessary. Learn what each part of Medicare covers and how to reduce your out-of-pocket costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and heart monitors when medically necessary. Part A covers inpatient hospital stays for AFib procedures. Part B covers outpatient services including cardiologist visits, EKGs, and catheter ablation. Prescription drugs like Eliquis are covered under Part D.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers inpatient hospital stays for cardioversion, surgical ablation, and cardiac procedures" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers cardiologist visits, EKGs, heart monitors, outpatient cardioversion, catheter ablation" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; usually includes Part D drug coverage for Eliquis" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Fills gaps in Original Medicare — covers Part A deductible, Part B coinsurance, and excess charges" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers a wide range of AFib treatments when [medically necessary](/faqs/what-does-medically-necessary-mean). Atrial fibrillation affects an estimated 2.7 million U.S. adults and can lead to stroke or blood clots, making prompt diagnosis and treatment essential.",
+          "**Medicare Part A** covers inpatient hospital stays for AFib procedures including cardioversion, surgical ablation, and the Maze procedure. **Medicare Part B** covers outpatient services including cardiologist visits, EKGs, Holter monitors, event monitors, and catheter ablation performed in an outpatient setting.",
+          "Prescription blood thinners like Eliquis, Xarelto, and Warfarin are not covered under Part A or Part B — these require a separate [Medicare Part D](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not) prescription drug plan.",
+        ],
+        whatItCovers: [
+          "Inpatient hospital stays for AFib procedures (Part A)",
+          "Cardioversion — both electrical and chemical",
+          "Catheter ablation (outpatient or inpatient)",
+          "EKGs and cardiac diagnostic tests",
+          "Heart monitors (Holter monitors, event monitors)",
+          "Cardiologist visits and specialist consultations",
+          "Cardiac rehabilitation programs",
+        ],
+        whatItDoesntCover: [
+          "Prescription drugs like Eliquis (covered under Part D)",
+          "Routine checkups not related to AFib diagnosis",
+          "Experimental or non-FDA-approved AFib treatments",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Part A: You pay $0 after the $1,676 per-benefit-period deductible for days 1–60 of a hospital stay.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover everything that Original Medicare covers, including all AFib treatments. Many Advantage plans also include Part D drug coverage, which is critical for AFib patients who take daily blood thinners like Eliquis.",
+          "Without insurance, one month of Eliquis can cost $499. Most Medicare Advantage plans that include drug coverage (MAPD) cover Eliquis at a significantly lower cost. However, Advantage plans use provider networks — confirm your cardiologist and ablation specialist are in-network before scheduling procedures.",
+        ],
+        whatItCovers: [
+          "All Original Medicare AFib benefits (Parts A & B)",
+          "Usually includes prescription drug coverage for Eliquis, Xarelto, and other blood thinners",
+          "May include additional cardiac wellness benefits",
+          "Special Needs Plans (SNPs) available for chronic conditions",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers unless your plan allows it",
+          "Services requiring prior authorization that was denied",
+        ],
+        callout: {
+          type: "warning",
+          title: "Verify your cardiologist is in-network",
+          text: "Medicare Advantage plans require you to use in-network providers for the lowest costs. If your cardiologist or ablation specialist is out-of-network, your costs could be significantly higher. Always verify before scheduling.",
+        },
+        costNote: "Costs vary by plan. Most Advantage plans have lower premiums but higher out-of-pocket costs for specialist visits and procedures compared to Medigap.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance and the Part A deductible. For AFib patients who may need multiple procedures and frequent specialist visits, Medigap can provide significant financial protection.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) is the most popular option for AFib patients. It covers all Medicare-approved costs except the Part B deductible ($257 in 2026). Unlike Medicare Advantage, Medigap has no provider networks — any doctor who accepts Medicare will also accept your Medigap plan.",
+          "**Important:** If you are diagnosed with AFib before enrolling in Medicare, you can still get a Medigap plan — but only during your Open Enrollment Period or when you have a guaranteed issue right. Outside these windows, insurers can deny coverage or charge higher premiums due to your pre-existing condition.",
+        ],
+        whatItCovers: [
+          "Part A hospital deductible and coinsurance",
+          "Part B coinsurance (20%) for all AFib outpatient services",
+          "Part B excess charges (Plan F and Plan G)",
+          "Foreign travel emergency coverage (Plans C, D, F, G, M, N)",
+        ],
+        whatItDoesntCover: [
+          "Prescription drugs — you need a separate Part D plan",
+          "Dental, vision, or hearing benefits",
+        ],
+        costNote: "Plan G covers all Medicare-approved costs except the Part B deductible ($257 in 2026). Monthly premiums vary by age, location, and insurer.",
+      },
+    ],
+    costTable: {
+      title: "Estimated AFib Treatment Costs with Medicare",
+      headers: ["Procedure", "Medicare Part", "Without Supplement", "With Plan G"],
+      rows: [
+        { "Procedure": "EKG (outpatient)", "Medicare Part": "Part B", "Without Supplement": "~$20–$40 (20% of approved amount)", "With Plan G": "$0 after Part B deductible" },
+        { "Procedure": "Cardioversion (outpatient)", "Medicare Part": "Part B", "Without Supplement": "~$200–$400 (20% of approved amount)", "With Plan G": "$0 after Part B deductible" },
+        { "Procedure": "Catheter ablation", "Medicare Part": "Part A or B", "Without Supplement": "$3,200–$4,400 (20% of $16K–$22K)", "With Plan G": "$0 after Part B deductible" },
+        { "Procedure": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,676 deductible per benefit period", "With Plan G": "$0" },
+        { "Procedure": "Eliquis (monthly)", "Medicare Part": "Part D", "Without Supplement": "$0–$47 (varies by plan tier)", "With Plan G": "Part D plan required (separate)" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Coverage Rules for AFib",
+      items: [
+        {
+          title: "Medical Necessity Requirement",
+          text: "All AFib treatments must be deemed medically necessary by your doctor. Medicare will not cover procedures ordered purely for preventive or elective reasons without a documented diagnosis.",
+        },
+        {
+          title: "Medigap Enrollment Timing",
+          text: "If you are diagnosed with AFib before enrolling in Medicare, you can still get a Medigap plan — but only during your Open Enrollment Period or when you have a guaranteed issue right. Outside these windows, insurers can deny coverage or charge higher premiums due to your pre-existing condition.",
+        },
+        {
+          title: "Medicare Advantage Network Restrictions",
+          text: "Medicare Advantage plans require you to use in-network providers for the lowest costs. If your cardiologist or ablation specialist is out-of-network, your costs could be significantly higher.",
+        },
+        {
+          title: "Part D Drug Formularies",
+          text: "Not all Part D plans cover every AFib medication at the same tier. Eliquis, Xarelto, and Warfarin may be covered at different cost levels. Always check your plan's formulary before enrolling.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "AFib Treatments Medicare Covers",
+      paragraphs: [
+        "Medicare covers a broad range of treatments for atrial fibrillation. Here is a checklist of procedures and services that are typically covered when medically necessary:",
+      ],
+      checklist: {
+        title: "Covered AFib Treatments",
+        type: "info",
+        items: [
+          "Electrical cardioversion (low-voltage shock to restore rhythm)",
+          "Chemical cardioversion (IV medications in a hospital setting)",
+          "Catheter ablation (minimally invasive, blocks abnormal electrical signals)",
+          "Surgical ablation / Maze procedure (open-heart surgery for complex cases)",
+          "Cox-Maze and Mini-Maze surgeries",
+          "Hybrid ablation surgery",
+          "EKGs and cardiac monitoring (Holter monitors, event monitors)",
+          "Cardiologist visits and specialist consultations",
+          "Cardiac rehabilitation programs",
+          "Prescription blood thinners (Eliquis, Xarelto, Warfarin) via Part D",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover cardiac ablation for AFib?",
+        answer:
+          "Yes. Catheter ablation is covered under Part A for inpatient procedures and Part B for outpatient procedures. It is a minimally invasive procedure that blocks the abnormal electrical signals causing irregular heart rhythms. Costs can range from $16,000–$22,000, with Medicare covering 80% of the approved amount after your deductible.",
+      },
+      {
+        question: "Does Medicare cover cardioversion?",
+        answer:
+          "Yes. Medicare Part A covers cardioversion when performed as an inpatient procedure. Both electrical cardioversion (low-voltage shock) and chemical cardioversion (IV medications) are covered when medically necessary.",
+      },
+      {
+        question: "Does Medicare cover heart monitors for AFib?",
+        answer:
+          "Yes. Medicare Part B covers heart monitoring devices including Holter monitors and event monitors. Your doctor must document that you are high-risk to qualify for a heart monitor. Cardiac screenings are also covered as part of your health visits.",
+      },
+      {
+        question: "Does Medicare cover Eliquis for AFib?",
+        answer:
+          "Eliquis is not covered under Part A or Part B. It is covered under Medicare Part D prescription drug plans and Medicare Advantage plans that include drug coverage. Without insurance, a one-month supply of Eliquis can cost $499. Most Part D plans cover Eliquis, though your cost-sharing depends on the plan's formulary tier.",
+      },
+      {
+        question: "Can I get a Medigap plan if I have AFib?",
+        answer:
+          "Yes, but timing matters. During your Medigap Open Enrollment Period (the 6 months starting when you turn 65 and enroll in Part B), you have guaranteed issue rights — insurers cannot deny you or charge higher premiums due to AFib. Outside this window, insurers in most states can use medical underwriting and may deny coverage or charge more.",
+      },
+      {
+        question: "Does Medicare Advantage cover AFib treatments?",
+        answer:
+          "Yes. By law, Medicare Advantage plans must cover all AFib treatments that Original Medicare covers. Many Advantage plans also include Part D drug coverage for Eliquis and other blood thinners. However, you must use in-network providers and may need prior authorization for procedures like catheter ablation.",
+      },
+      {
+        question: "Does Medicare cover the Watchman device for AFib?",
+        answer:
+          "Yes. Medicare covers the Watchman left atrial appendage closure (LAAC) device for AFib patients who are at high risk for stroke and cannot tolerate long-term blood thinners. Coverage is subject to specific criteria established by CMS, including a multidisciplinary team evaluation.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Catheter ablation covered under Part A (inpatient) or Part B (outpatient)" },
+      { icon: "check", text: "Cardioversion, EKGs, and heart monitors covered by Original Medicare" },
+      { icon: "alert", text: "Eliquis and other blood thinners require a separate Part D plan" },
+      { icon: "alert", text: "Medigap enrollment timing is critical if you have a pre-existing AFib diagnosis" },
+      { icon: "check", text: "Medicare Advantage plans must cover all AFib treatments Original Medicare covers" },
+      { icon: "info", text: "Watchman LAAC device covered by Medicare for eligible high-risk patients" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover an Echocardiogram?", description: "Learn about Medicare coverage for echocardiograms and cardiac diagnostic tests.", slug: "does-medicare-cover-an-echocardiogram" },
+      { title: "Medicare Coverage for Cardiovascular Disease", description: "Explore Medicare's coverage for heart disease, cardiologist visits, and cardiac procedures.", slug: "medicare-coverage-for-cardiovascular-disease" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
+      { title: "What Is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover an Echocardiogram?",
+      "Medicare Coverage for Cardiovascular Disease",
+      "Does Medicare Cover a Biopsy?",
+      "What Is a Medicare Supplement Plan?",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding Medicare Coverage for AFib?",
+      text: "Managing atrial fibrillation is challenging enough without worrying about coverage gaps. Our licensed Medicare agents can help you find the right plan — whether Original Medicare with Medigap or a Medicare Advantage plan with drug coverage. Compare options in your area for free.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-an-echocardiogram",
+      "medicare-coverage-for-cardiovascular-disease",
+      "medicare-preventive-services",
+      "what-is-a-medicare-supplement-plan-and-who-needs-one",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-cologuard",
+    seo: {
+      title: "Does Medicare Cover Cologuard? | MedicareFAQ",
+      description:
+        "Medicare covers Cologuard for eligible beneficiaries as a colorectal cancer screening test. Learn about coverage criteria, frequency limits, costs, and how it compares to a colonoscopy.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-cologuard/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-cologuard.jpg",
+    },
+    title: "Does Medicare Cover Cologuard?",
+    subtitle:
+      "Yes — Medicare covers Cologuard as a colorectal cancer screening test for eligible beneficiaries. Learn who qualifies, how often it's covered, and what you'll pay.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers Cologuard as a colorectal cancer screening test for eligible beneficiaries age 45–75 who are at average risk for colorectal cancer. Cologuard is covered at $0 cost under Medicare's preventive services benefit — once every 3 years. If you are at high risk or have symptoms, a colonoscopy is typically recommended instead.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Preventive)", coverage: "Covered at $0", icon: "shield", notes: "Covered as a preventive screening for average-risk beneficiaries ages 45–75; once every 3 years" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same preventive services as Original Medicare; $0 cost for in-network preventive care" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Needed", icon: "users", notes: "Cologuard is $0 under Medicare preventive benefits; Medigap not needed for this service" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Cologuard is a lab test, not a prescription drug; not covered under Part D" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered at $0",
+        coverageType: "covered",
+        statusBadge: "Covered — $0 for eligible beneficiaries",
+        paragraphs: [
+          "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) covers Cologuard as a preventive colorectal cancer screening test. Cologuard is a multitarget stool DNA (mt-sDNA) test that can be completed at home — you collect a stool sample and mail it to a lab for analysis. No bowel prep or sedation is required.",
+          "Medicare covers Cologuard at **$0 cost** (no deductible, no coinsurance) for beneficiaries who meet the eligibility criteria. The test is covered once every 3 years. If your Cologuard result is positive, Medicare will cover a follow-up [colonoscopy](/faqs/medicare-coverage-for-colonoscopy-screenings) at $0 as well — because the colonoscopy is considered a continuation of the screening process.",
+          "**Important:** If you have symptoms of colorectal cancer (rectal bleeding, unexplained weight loss, changes in bowel habits), Medicare will not cover Cologuard as a preventive screening. Instead, your doctor will order a diagnostic colonoscopy, which is covered under different rules.",
+        ],
+        whatItCovers: [
+          "Cologuard test kit and lab analysis (at $0 for eligible beneficiaries)",
+          "Follow-up colonoscopy after a positive Cologuard result (at $0)",
+          "One test every 3 years for average-risk beneficiaries ages 45–75",
+        ],
+        whatItDoesntCover: [
+          "Cologuard for high-risk beneficiaries (colonoscopy is recommended instead)",
+          "Cologuard when ordered for diagnostic (not screening) purposes",
+          "More frequent testing than once every 3 years under the preventive benefit",
+        ],
+        costNote: "Cologuard is covered at $0 under Medicare's preventive services benefit. No deductible or coinsurance applies when ordered as a preventive screening.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — $0 for in-network preventive care",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all Medicare preventive services at $0 cost when you use in-network providers. Cologuard is a Medicare-covered preventive service, so it is covered at $0 by all Medicare Advantage plans for eligible beneficiaries.",
+          "Some Medicare Advantage plans may have additional colorectal cancer screening benefits beyond what Original Medicare requires. Check your plan's Evidence of Coverage for details.",
+        ],
+        whatItCovers: [
+          "Cologuard at $0 for eligible beneficiaries (in-network)",
+          "Follow-up colonoscopy after a positive Cologuard result",
+          "All Medicare preventive colorectal cancer screenings",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network Cologuard orders (may result in cost-sharing)",
+          "Cologuard ordered for diagnostic purposes (different cost-sharing applies)",
+        ],
+        callout: {
+          type: "tip",
+          title: "Confirm your ordering provider is in-network",
+          text: "To ensure $0 cost for Cologuard under Medicare Advantage, confirm that the doctor ordering the test is in your plan's network. Out-of-network orders may result in cost-sharing.",
+        },
+        costNote: "Covered at $0 for in-network preventive care. Costs may apply if ordered out-of-network or for diagnostic purposes.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Needed",
+        coverageType: "covered",
+        statusBadge: "Cologuard is already $0 under Medicare",
+        paragraphs: [
+          "Because Cologuard is covered at $0 under Medicare's preventive services benefit, [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are not needed for this specific service. There is no coinsurance or deductible for Medigap to cover.",
+          "However, if your Cologuard result is positive and you need a follow-up colonoscopy, Medigap can help cover any cost-sharing that applies to that procedure. And if you need a diagnostic colonoscopy (due to symptoms), Medigap would cover the 20% Part B coinsurance.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance for diagnostic colonoscopy following a positive Cologuard result",
+          "Any cost-sharing for related follow-up procedures",
+        ],
+        whatItDoesntCover: [
+          "Cologuard itself — it's already $0 under Medicare preventive benefits",
+        ],
+        costNote: "No Medigap cost-sharing applies to preventive Cologuard. Medigap is valuable for follow-up diagnostic procedures if your Cologuard result is positive.",
+      },
+    ],
+    costTable: {
+      title: "Cologuard vs. Colonoscopy: Medicare Coverage Comparison",
+      headers: ["Test", "Frequency", "Preparation", "Medicare Coverage", "Your Cost"],
+      rows: [
+        { "Test": "Cologuard (mt-sDNA)", "Frequency": "Every 3 years", "Preparation": "No prep required — at-home stool sample", "Medicare Coverage": "Part B preventive benefit", "Your Cost": "$0" },
+        { "Test": "Colonoscopy (screening)", "Frequency": "Every 10 years (average risk)", "Preparation": "Bowel prep + sedation required", "Medicare Coverage": "Part B preventive benefit", "Your Cost": "$0" },
+        { "Test": "Colonoscopy (high risk)", "Frequency": "Every 2 years", "Preparation": "Bowel prep + sedation required", "Medicare Coverage": "Part B preventive benefit", "Your Cost": "$0" },
+        { "Test": "Colonoscopy (diagnostic)", "Frequency": "As needed", "Preparation": "Bowel prep + sedation required", "Medicare Coverage": "Part B (not preventive)", "Your Cost": "20% coinsurance after deductible" },
+        { "Test": "Follow-up colonoscopy (after positive Cologuard)", "Frequency": "As needed", "Preparation": "Bowel prep + sedation required", "Medicare Coverage": "Part B preventive benefit", "Your Cost": "$0" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Cologuard Coverage Rules and Exceptions",
+      items: [
+        {
+          title: "Age and Risk Eligibility",
+          text: "Medicare covers Cologuard for beneficiaries ages 45–75 who are at average risk for colorectal cancer. 'Average risk' means no personal or family history of colorectal cancer or polyps, no inflammatory bowel disease, and no symptoms of colorectal cancer.",
+        },
+        {
+          title: "Frequency Limit",
+          text: "Medicare covers Cologuard once every 3 years. If you order Cologuard more frequently, you may be responsible for the full cost. A colonoscopy is covered more frequently for high-risk beneficiaries.",
+        },
+        {
+          title: "Positive Result Follow-Up",
+          text: "If your Cologuard result is positive, Medicare covers a follow-up colonoscopy at $0 — because CMS considers the colonoscopy a continuation of the colorectal cancer screening process, not a separate diagnostic procedure.",
+        },
+        {
+          title: "Symptoms Change Coverage",
+          text: "If you have symptoms of colorectal cancer (rectal bleeding, unexplained weight loss, changes in bowel habits), Cologuard is not appropriate as a screening test. Your doctor will order a diagnostic colonoscopy, which is covered under different rules with standard Part B cost-sharing.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Is Cologuard covered by Medicare at $0?",
+        answer:
+          "Yes. Medicare covers Cologuard at $0 for eligible beneficiaries ages 45–75 who are at average risk for colorectal cancer. No deductible or coinsurance applies when it is ordered as a preventive screening. The test is covered once every 3 years.",
+      },
+      {
+        question: "How often does Medicare cover Cologuard?",
+        answer:
+          "Medicare covers Cologuard once every 3 years for average-risk beneficiaries. If you need more frequent colorectal cancer screening due to high risk factors, Medicare covers a colonoscopy every 2 years for high-risk beneficiaries.",
+      },
+      {
+        question: "Does Medicare cover a colonoscopy after a positive Cologuard?",
+        answer:
+          "Yes. If your Cologuard result is positive, Medicare covers a follow-up colonoscopy at $0. CMS considers the follow-up colonoscopy a continuation of the colorectal cancer screening process, so standard diagnostic cost-sharing does not apply.",
+      },
+      {
+        question: "Is Cologuard better than a colonoscopy?",
+        answer:
+          "Cologuard and colonoscopy serve different purposes. Cologuard is a non-invasive at-home test that detects DNA changes and blood in stool — it requires no prep or sedation. A colonoscopy is more thorough and can both detect and remove polyps in the same procedure. For average-risk beneficiaries, both are valid options. For high-risk beneficiaries, a colonoscopy is generally recommended.",
+      },
+      {
+        question: "Does Medicare Advantage cover Cologuard?",
+        answer:
+          "Yes. Medicare Advantage plans are required to cover all Medicare preventive services at $0 cost when you use in-network providers. Cologuard is a Medicare-covered preventive service, so it is covered at $0 by all Medicare Advantage plans for eligible beneficiaries.",
+      },
+      {
+        question: "What if I have symptoms — will Medicare cover Cologuard?",
+        answer:
+          "No. If you have symptoms of colorectal cancer such as rectal bleeding, unexplained weight loss, or changes in bowel habits, Cologuard is not appropriate as a screening test. Your doctor will order a diagnostic colonoscopy instead, which is covered under Part B with standard cost-sharing (20% coinsurance after your deductible).",
+      },
+      {
+        question: "Does Medigap cover Cologuard?",
+        answer:
+          "Cologuard is already covered at $0 under Medicare's preventive services benefit, so Medigap is not needed for the test itself. However, if your Cologuard result is positive and you need a follow-up colonoscopy, Medigap can help cover any cost-sharing that applies to that procedure.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Cologuard covered at $0 for average-risk beneficiaries ages 45–75" },
+      { icon: "check", text: "Follow-up colonoscopy after positive Cologuard result also covered at $0" },
+      { icon: "info", text: "Covered once every 3 years under Medicare's preventive benefit" },
+      { icon: "alert", text: "Not covered if you have symptoms — diagnostic colonoscopy ordered instead" },
+      { icon: "check", text: "Medicare Advantage plans must cover Cologuard at $0 for eligible beneficiaries" },
+      { icon: "info", text: "High-risk beneficiaries should discuss colonoscopy vs. Cologuard with their doctor" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Colonoscopy Screenings", description: "Learn about Medicare's coverage for colonoscopy screenings and what you'll pay.", slug: "medicare-coverage-for-colonoscopy-screenings" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
+      { title: "Medicare Preventive Services Guide", description: "Explore the full list of preventive services covered by Medicare at $0.", slug: "medicare-preventive-services" },
+      { title: "What Does Medically Necessary Mean?", description: "Understand what Medicare means by 'medically necessary' and how it affects coverage.", slug: "what-does-medically-necessary-mean" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Colonoscopy Screenings",
+      "Does Medicare Cover a Biopsy?",
+      "Medicare Preventive Services Guide",
+      "What Does Medically Necessary Mean?",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Medicare Preventive Benefits?",
+      text: "Our licensed Medicare agents can help you understand what preventive services are covered at $0 and find the right Medicare plan for your needs. Compare options in your area for free.",
+    },
+    relatedSlugs: [
+      "medicare-coverage-for-colonoscopy-screenings",
+      "medicare-preventive-services",
+      "does-medicare-cover-a-biopsy",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-end-stage-renal-disease",
+    seo: {
+      title: "Does Medicare Cover End-Stage Renal Disease (ESRD)? | MedicareFAQ",
+      description:
+        "Medicare covers ESRD patients of any age — not just those 65 and older. Learn about dialysis, kidney transplants, waiting periods, and how to minimize your out-of-pocket costs.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-end-stage-renal-disease/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-end-stage-renal-disease.jpg",
+    },
+    title: "Does Medicare Cover End-Stage Renal Disease (ESRD)?",
+    subtitle:
+      "Yes — Medicare covers ESRD patients of any age, not just those 65 and older. Coverage includes dialysis, kidney transplants, and immunosuppressive drugs. Learn about waiting periods, cost-sharing, and your plan options.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers end-stage renal disease (ESRD) patients of any age — not just those 65 and older. Coverage includes outpatient dialysis (Part B), inpatient hospital stays and kidney transplants (Part A), home dialysis equipment and training, and immunosuppressive drugs post-transplant. A 3-month waiting period typically applies before coverage begins.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers inpatient hospital stays, kidney transplant surgery, and related hospital care" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers outpatient dialysis, home dialysis equipment, immunosuppressive drugs post-transplant" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "ESRD Special Needs Plans (SNPs) available; all Original Medicare ESRD benefits covered" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers Part A deductible, Part B coinsurance; availability under 65 varies by state" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — available at any age with ESRD",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers end-stage renal disease regardless of age. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security — or be the child or spouse of someone who qualifies.",
+          "**Medicare Part A** covers inpatient hospital stays related to ESRD, kidney transplant surgery, and related hospital care. **Medicare Part B** covers outpatient dialysis at a certified dialysis facility, home dialysis training and equipment, dialysis supplies, and immunosuppressive drugs after a kidney transplant.",
+          "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The 3-month waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
+        ],
+        whatItCovers: [
+          "Inpatient hospital stays related to ESRD (Part A)",
+          "Kidney transplant surgery and related hospital care (Part A)",
+          "Outpatient dialysis at a certified dialysis facility (Part B)",
+          "Home dialysis training and equipment (Part B)",
+          "Dialysis supplies and equipment for home use",
+          "Doctor visits and specialist consultations",
+          "Immunosuppressive drugs post-transplant (Part B)",
+          "Lab tests and diagnostic services related to ESRD",
+        ],
+        whatItDoesntCover: [
+          "Prescription drugs not related to immunosuppression (covered under Part D)",
+          "Custodial care or long-term care",
+          "Dental, vision, or hearing services",
+        ],
+        costNote: "For outpatient dialysis, you pay 20% coinsurance after your Part B deductible. For inpatient stays, the $1,676 Part A deductible applies per benefit period. Without supplemental coverage, dialysis costs can be substantial.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "ESRD Special Needs Plans (SNPs) available",
+        paragraphs: [
+          "Since 2021, [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
+          "ESRD SNPs often include Part D drug coverage, transportation to dialysis, and care coordination services. Compare plans carefully to find one that covers your dialysis facility and nephrologist.",
+        ],
+        whatItCovers: [
+          "All Original Medicare ESRD benefits (Parts A & B)",
+          "Special Needs Plans (SNPs) specifically designed for ESRD patients",
+          "Usually includes Part D prescription drug coverage",
+          "May include additional benefits like transportation to dialysis",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers unless your plan allows it",
+          "Services requiring prior authorization that was denied",
+        ],
+        callout: {
+          type: "info",
+          title: "ESRD Special Needs Plans (SNPs)",
+          text: "ESRD SNPs are Medicare Advantage plans specifically designed for people with end-stage renal disease. They often have lower cost-sharing for dialysis and kidney-related services, plus care coordination benefits. Ask your Medicare agent about SNPs available in your area.",
+        },
+        costNote: "ESRD SNPs often have lower cost-sharing for dialysis and kidney-related services. Compare plans carefully to find one that covers your dialysis facility and nephrologist.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Availability under 65 varies by state",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance for dialysis and the Part A deductible for hospital stays. For ESRD patients with frequent outpatient dialysis visits, Medigap can provide significant financial protection.",
+          "**Important:** Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap is available but expensive. If you are 65 or older with ESRD, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights.",
+        ],
+        whatItCovers: [
+          "Part A hospital deductible and coinsurance",
+          "Part B coinsurance (20%) for all outpatient dialysis and ESRD services",
+          "Part B excess charges (Plan F and Plan G)",
+          "Skilled nursing facility coinsurance",
+        ],
+        whatItDoesntCover: [
+          "Prescription drugs — you need a separate Part D plan",
+          "Dental, vision, or hearing benefits",
+        ],
+        costNote: "If you qualify for Medigap, Plan G is typically the most comprehensive option. It covers all Medicare-approved costs except the Part B deductible, which is especially valuable for ESRD patients with frequent outpatient dialysis visits.",
+      },
+    ],
+    costTable: {
+      title: "ESRD Medicare Coverage: Key Cost Scenarios",
+      headers: ["Service", "Medicare Part", "Without Supplement", "With Plan G"],
+      rows: [
+        { "Service": "Outpatient dialysis (per session)", "Medicare Part": "Part B", "Without Supplement": "~$60–$80 (20% of bundled rate)", "With Plan G": "$0 after Part B deductible" },
+        { "Service": "Kidney transplant (inpatient)", "Medicare Part": "Part A", "Without Supplement": "$1,676 deductible per benefit period", "With Plan G": "$0" },
+        { "Service": "Home dialysis equipment", "Medicare Part": "Part B", "Without Supplement": "20% coinsurance", "With Plan G": "$0 after Part B deductible" },
+        { "Service": "Immunosuppressive drugs (post-transplant)", "Medicare Part": "Part B", "Without Supplement": "20% after Part B deductible", "With Plan G": "$0 after Part B deductible" },
+        { "Service": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,676 deductible + $419/day (days 61–90)", "With Plan G": "$0" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Key ESRD Medicare Rules and Exceptions",
+      items: [
+        {
+          title: "The 3-Month Waiting Period",
+          text: "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. This waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
+        },
+        {
+          title: "The 30-Month Coordination Period",
+          text: "If you have employer group health coverage when you are diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare becomes primary. This coordination period begins on the first date you become entitled to enroll in Medicare due to ESRD.",
+        },
+        {
+          title: "Medicare Advantage ESRD Enrollment",
+          text: "Since 2021 (under the Consolidated Appropriations Act), Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are available and specifically designed for people with end-stage renal disease.",
+        },
+        {
+          title: "Part B Immunosuppressive Drug Benefit",
+          text: "Under Section 402 of the Consolidated Appropriations Act of 2021, Medicare Part B now covers immunosuppressive drugs for certain ESRD patients even after their standard Medicare coverage ends 36 months post-transplant. This Part B-ID benefit allows eligible beneficiaries to enroll at any time with a lower monthly premium and no late enrollment penalty.",
+        },
+        {
+          title: "Medigap Under 65 Rules",
+          text: "Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap costs the same for everyone regardless of age. Check your state's specific rules before applying.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Can I get Medicare if I have ESRD and I'm under 65?",
+        answer:
+          "Yes. Medicare covers ESRD patients of any age, not just those 65 and older. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security Disability Insurance (SSDI) — or be the child or spouse of someone who qualifies.",
+      },
+      {
+        question: "When does Medicare coverage start for ESRD?",
+        answer:
+          "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
+      },
+      {
+        question: "What is the 30-month coordination period for ESRD?",
+        answer:
+          "If you have employer group health coverage when diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare automatically becomes your primary insurance. For ESRD patients without other insurance, Medicare is primary from the start.",
+      },
+      {
+        question: "Can I enroll in a Medicare Advantage plan if I have ESRD?",
+        answer:
+          "Yes. Since 2021, Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
+      },
+      {
+        question: "Can I get a Medigap plan if I have ESRD?",
+        answer:
+          "It depends on your state and age. If you are under 65 with ESRD, many states do not require insurers to sell Medigap to you. In some states, Medigap is available but expensive. If you are 65 or older, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights. Check your state's specific rules.",
+      },
+      {
+        question: "Does Medicare cover kidney transplants for ESRD?",
+        answer:
+          "Yes. Medicare Part A covers kidney transplant surgery and the related inpatient hospital stay. Medicare Part B covers immunosuppressive drugs after the transplant. Under the Part B-ID benefit, immunosuppressive drug coverage can continue even after your standard Medicare coverage ends 36 months post-transplant.",
+      },
+      {
+        question: "Does Medicare cover home dialysis for ESRD?",
+        answer:
+          "Yes. Medicare Part B covers home dialysis training, equipment, and supplies. Home dialysis allows you to perform dialysis in the comfort of your own home, either peritoneal dialysis or home hemodialysis. Your nephrologist must certify that home dialysis is appropriate for your condition.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "ESRD covered at any age — not just 65+" },
+      { icon: "check", text: "Dialysis and kidney transplants covered under Parts A & B" },
+      { icon: "alert", text: "3-month waiting period before coverage begins (may be waived)" },
+      { icon: "alert", text: "30-month coordination period if you have employer coverage" },
+      { icon: "check", text: "Medicare Advantage SNPs available for ESRD patients since 2021" },
+      { icon: "info", text: "Medigap availability under 65 varies by state" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Dialysis Treatments?", description: "Learn about Medicare's coverage for dialysis treatments and what you'll pay.", slug: "medicare-cover-dialysis-treatments" },
+      { title: "Medicare Coverage for the Disabled Under 65", description: "Understand how Medicare works for beneficiaries under 65 with disabilities.", slug: "medicare-coverage-for-disabled-under-65" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
+      { title: "What Is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Dialysis Treatments?",
+      "Medicare Coverage for the Disabled Under 65",
+      "Does Medicare Cover a Biopsy?",
+      "What Is a Medicare Supplement Plan?",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding Medicare Coverage for ESRD?",
+      text: "Managing end-stage renal disease is challenging enough without worrying about coverage gaps. Our licensed Medicare agents can help you find the right plan — whether Original Medicare with Medigap or a Medicare Advantage SNP. Compare options in your area for free.",
+    },
+    relatedSlugs: [
+      "medicare-cover-dialysis-treatments",
+      "medicare-coverage-for-disabled-under-65",
+      "does-medicare-cover-a-biopsy",
+      "medicare-supplement-plans-medigap-pricing-methods",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-gender-reassignment-surgery",
+    seo: {
+      title: "Does Medicare Cover Gender Reassignment Surgery? | MedicareFAQ",
+      description:
+        "Medicare covers gender reassignment surgery when medically necessary. Learn what Original Medicare, Medicare Advantage, and Medigap cover for gender-affirming care, hormone therapy, and related procedures.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-gender-reassignment-surgery/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-gender-reassignment-surgery.jpg",
+    },
+    title: "Does Medicare Cover Gender Reassignment Surgery?",
+    subtitle:
+      "Since 2014, Medicare covers gender reassignment surgery on a case-by-case basis when deemed medically necessary. Learn what is covered, what is not, and how to navigate the Medicare appeals process.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Yes — since 2014, Medicare covers gender reassignment surgery (also called gender confirmation or gender affirmation surgery) on a case-by-case basis when deemed medically necessary. Coverage includes inpatient hospital stays (Part A), outpatient procedures (Part B), and hormone therapy medications (Part D). Cosmetic procedures are not covered.",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered (when medically necessary)", icon: "shield", notes: "Covers inpatient hospital stay for gender-affirming surgery when medically necessary" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered (when medically necessary)", icon: "shield", notes: "Covers outpatient gender-affirming procedures, doctor visits, follow-up care" },
+      { planType: "Medicare Part D", coverage: "Covered", icon: "filetext", notes: "Covers hormone therapy medications (estrogen, progesterone, testosterone) when medically necessary" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered (when medically necessary)", icon: "heart", notes: "Must cover same services as Original Medicare; may require prior authorization and in-network providers" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A, B & D)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered When Medically Necessary",
+        coverageType: "partial",
+        statusBadge: "Case-by-case determination",
+        paragraphs: [
+          "Since 2014, [Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers gender reassignment surgery on a case-by-case basis when deemed [medically necessary](/faqs/what-does-medically-necessary-mean). CMS does not have a national standard for approving or denying gender affirmation surgery — coverage is determined based on your state and local precedents.",
+          "**Medicare Part A** covers inpatient hospital stays for gender-affirming surgery. **Medicare Part B** covers outpatient gender-affirming procedures, doctor visits, and follow-up care. **Medicare Part D** covers hormone therapy medications (estrogen, progesterone, testosterone) when medically necessary.",
+          "To be considered a good candidate for Medicare coverage, you should have a diagnosis of gender dysphoria, proof of counseling, and evidence of hormone therapy. If Medicare denies coverage, you have the right to file an appeal through the Medicare appeals process.",
+        ],
+        whatItCovers: [
+          "Inpatient hospital stay for gender-affirming surgery (Part A)",
+          "Outpatient gender-affirming procedures (Part B)",
+          "Doctor visits and follow-up care (Part B)",
+          "Hormone therapy medications when medically necessary (Part D)",
+          "Preventive care regardless of gender markers (mammograms, prostate exams, colonoscopies)",
+          "Mental health services related to gender dysphoria",
+        ],
+        whatItDoesntCover: [
+          "Cosmetic procedures not deemed medically necessary",
+          "Facial feminization surgery (nose, chin reduction)",
+          "Vocal cord surgeries for voice feminization",
+          "Body contouring procedures",
+          "Hair removal procedures",
+          "Breast augmentation for cosmetic reasons (male-to-female transition)",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Part A: You pay $0 after the $1,676 per-benefit-period deductible for days 1–60 of a hospital stay.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered When Medically Necessary",
+        coverageType: "partial",
+        statusBadge: "Prior authorization typically required",
+        paragraphs: [
+          "By law, [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover everything Original Medicare covers, including gender-affirming surgery when medically necessary. However, private companies manage these plans and may have additional guidelines — including referrals, network restrictions, and prior authorization requirements for gender-affirming surgeries.",
+          "Always pre-authorize your procedure with your Advantage plan before scheduling. If you cannot find a surgeon within your Medicare Advantage network who performs gender-affirming surgery, your out-of-pocket costs could be significantly higher.",
+        ],
+        whatItCovers: [
+          "All Original Medicare gender-affirming care benefits",
+          "Usually includes Part D drug coverage for hormone therapy",
+          "May include additional mental health or behavioral health benefits",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers unless your plan allows it",
+          "Procedures requiring prior authorization that was denied",
+          "Cosmetic procedures not deemed medically necessary",
+        ],
+        callout: {
+          type: "warning",
+          title: "Always pre-authorize gender-affirming surgery",
+          text: "Medicare Advantage plans may require prior authorization for gender-affirming surgeries. Always contact your plan before scheduling to confirm coverage, obtain prior authorization, and verify that your surgeon and facility are in-network.",
+        },
+        costNote: "Costs vary by plan. If you cannot find a surgeon within your Medicare Advantage network, your out-of-pocket costs could be significantly higher. Verify your plan's network before scheduling.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers Original Medicare cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance and the Part A deductible. For gender-affirming surgery, Medigap can significantly reduce or eliminate what you owe.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers all Medicare-approved costs except the Part B deductible ($257 in 2026). Unlike Medicare Advantage, Medigap plans have no provider networks — any doctor who accepts Medicare will also accept your Medigap plan.",
+        ],
+        whatItCovers: [
+          "Part A hospital deductible and coinsurance for inpatient gender-affirming surgery",
+          "Part B coinsurance (20%) for outpatient procedures and follow-up care",
+          "Part B excess charges (Plan F and Plan G)",
+        ],
+        whatItDoesntCover: [
+          "Prescription drugs including hormone therapy — you need a separate Part D plan",
+          "Procedures not covered by Original Medicare (cosmetic)",
+        ],
+        costNote: "Plan G covers all Medicare-approved costs except the Part B deductible ($257 in 2026). Monthly premiums vary by age, location, and insurer.",
+      },
+    ],
+    costTable: {
+      title: "Gender-Affirming Care: Medicare Coverage Overview",
+      headers: ["Service", "Medicare Part", "Coverage Status", "Your Cost (with Plan G)"],
+      rows: [
+        { "Service": "Gender-affirming surgery (inpatient)", "Medicare Part": "Part A", "Coverage Status": "Covered when medically necessary", "Your Cost (with Plan G)": "$0 (Plan G covers Part A deductible)" },
+        { "Service": "Outpatient gender-affirming procedures", "Medicare Part": "Part B", "Coverage Status": "80% covered — you owe 20%", "Your Cost (with Plan G)": "$0 after Part B deductible" },
+        { "Service": "Hormone therapy medications", "Medicare Part": "Part D", "Coverage Status": "Covered by Part D formulary", "Your Cost (with Plan G)": "Part D plan required (separate)" },
+        { "Service": "Facial feminization surgery", "Medicare Part": "N/A", "Coverage Status": "Not covered (cosmetic)", "Your Cost (with Plan G)": "Not covered" },
+        { "Service": "Breast augmentation (cosmetic)", "Medicare Part": "N/A", "Coverage Status": "Not covered (cosmetic)", "Your Cost (with Plan G)": "Not covered" },
+        { "Service": "Preventive care (mammograms, colonoscopies)", "Medicare Part": "Part B", "Coverage Status": "$0 (preventive)", "Your Cost (with Plan G)": "$0" },
+      ],
+    },
+    exceptionsSection: {
+      title: "What Medicare Does and Does Not Cover for Gender-Affirming Care",
+      items: [
+        {
+          title: "Medical Necessity Requirement",
+          text: "All gender-affirming procedures must be deemed medically necessary by your doctor. CMS does not have a national standard — coverage is determined based on your state and local precedents. To be considered a good candidate, you should have a diagnosis of gender dysphoria, proof of counseling, and evidence of hormone therapy.",
+        },
+        {
+          title: "Top Surgery Coverage",
+          text: "For female-to-male or female-to-nonbinary transitions, Medicare covers breast removal and chest reconstruction. For male-to-female or male-to-nonbinary transitions, Medicare covers medically necessary top surgeries but does not cover breast augmentation for cosmetic reasons.",
+        },
+        {
+          title: "Cosmetic Procedures Not Covered",
+          text: "Medicare does not cover facial feminization surgery (nose, chin reduction), vocal cord surgeries for voice feminization, body contouring, or hair removal procedures. These are considered cosmetic with no medical benefit.",
+        },
+        {
+          title: "Appeals Process",
+          text: "If Medicare denies coverage for a procedure you believe is medically necessary, you have the right to file an appeal through the Medicare appeals process. Many denials are overturned on appeal with proper documentation from your healthcare provider.",
+        },
+        {
+          title: "Preventive Care Regardless of Gender Markers",
+          text: "Medicare covers preventive care regardless of gender markers. Transgender beneficiaries are entitled to screenings appropriate to their anatomy — prostate exams, mammograms, colonoscopies, and other preventive services — regardless of how their gender is recorded.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover gender reassignment surgery?",
+        answer:
+          "Yes. Since 2014, Medicare covers gender reassignment surgery on a case-by-case basis when deemed medically necessary. Coverage includes inpatient hospital stays (Part A), outpatient procedures (Part B), and hormone therapy (Part D). Cosmetic procedures are not covered.",
+      },
+      {
+        question: "Does Medicare cover top surgery?",
+        answer:
+          "Yes, when medically necessary. For female-to-male transitions, Medicare covers breast removal and chest reconstruction. For male-to-female transitions, Medicare covers medically necessary top surgeries but does not cover breast augmentation for cosmetic reasons. Coverage depends on whether the procedure is related to medical needs rather than aesthetics.",
+      },
+      {
+        question: "Does Medicare cover hormone therapy for transgender beneficiaries?",
+        answer:
+          "Yes. Medicare covers hormone therapy for transgender beneficiaries the same way it would for any other beneficiary when it is medically necessary. Hormone therapy medications (estrogen, progesterone, testosterone) are covered under Medicare Part D prescription drug plans and Medicare Advantage plans with drug coverage.",
+      },
+      {
+        question: "Does Medicare cover facial feminization surgery?",
+        answer:
+          "No. Medicare does not cover facial feminization surgery (nose or chin reduction) because these procedures are considered cosmetic with no medical benefit. Similarly, vocal cord surgeries for voice feminization, body contouring, and hair removal are not covered.",
+      },
+      {
+        question: "Does Medicare Advantage cover gender-affirming surgery?",
+        answer:
+          "Yes. By law, Medicare Advantage plans must cover everything Original Medicare covers, including gender-affirming surgery when medically necessary. However, private companies manage these plans and may require prior authorization, referrals, and in-network providers. Always pre-authorize your procedure with your Advantage plan before scheduling.",
+      },
+      {
+        question: "What if Medicare denies my gender-affirming surgery?",
+        answer:
+          "If Medicare denies coverage for a procedure you believe is medically necessary, you have the right to file an appeal through the Medicare appeals process. Many denials are overturned on appeal with proper documentation from your healthcare provider, including a diagnosis of gender dysphoria, proof of counseling, and evidence of hormone therapy.",
+      },
+      {
+        question: "Can I get preventive care as a transgender Medicare beneficiary?",
+        answer:
+          "Yes. Medicare covers preventive care regardless of gender markers. Transgender beneficiaries are entitled to screenings appropriate to their anatomy — prostate exams, mammograms, colonoscopies, and other preventive services — regardless of how their gender is recorded in Medicare's system.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Gender-affirming surgery covered when medically necessary (since 2014)" },
+      { icon: "check", text: "Hormone therapy covered under Part D" },
+      { icon: "check", text: "Preventive care covered regardless of gender markers" },
+      { icon: "x", text: "Cosmetic procedures (facial feminization, body contouring) not covered" },
+      { icon: "alert", text: "Medicare Advantage requires prior authorization and in-network providers" },
+      { icon: "info", text: "Denials can be appealed through the Medicare appeals process" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Hormone Therapy for Menopause?", description: "Learn about Medicare's coverage for hormone replacement therapy.", slug: "does-medicare-cover-hormone-therapy-for-menopause" },
+      { title: "Medicare Coverage for Plastic Surgery", description: "Understand Medicare's limited plastic surgery coverage and alternatives.", slug: "medicare-coverage-for-plastic-surgery" },
+      { title: "Will Medicare Cover My Surgery?", description: "Learn about Medicare's coverage for surgical procedures.", slug: "will-medicare-cover-my-surgery" },
+      { title: "What Is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Hormone Therapy for Menopause?",
+      "Medicare Coverage for Plastic Surgery",
+      "Will Medicare Cover My Surgery?",
+      "What Is a Medicare Supplement Plan?",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding Medicare Coverage for Gender-Affirming Care?",
+      text: "Our licensed Medicare agents can help you understand your coverage options and find a plan that best meets your needs for gender-affirming care. Compare Medigap and Medicare Advantage plans in your area for free.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-hormone-therapy-for-menopause",
+      "medicare-coverage-for-plastic-surgery",
+      "will-medicare-cover-my-surgery",
+      "medicare-supplement-plans-medigap-pricing-methods",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-hormone-therapy-for-menopause",
+    seo: {
+      title: "Does Medicare Cover Hormone Therapy for Menopause? | MedicareFAQ",
+      description:
+        "Medicare Part A and Part B do not cover hormone replacement therapy (HRT) for menopause. However, Medicare Part D and Medicare Advantage plans with drug coverage may cover HRT medications. Learn what's covered and how to find the right plan.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-hormone-therapy-for-menopause/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hormone-therapy-for-menopause.jpg",
+    },
+    title: "Does Medicare Cover Hormone Therapy for Menopause?",
+    subtitle:
+      "Medicare Part A and Part B do not cover hormone replacement therapy (HRT) medications for menopause. However, Medicare Part D and Medicare Advantage plans with drug coverage may cover HRT. Learn which medications are covered and how to find the right plan.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Partially. Medicare Part A and Part B do not cover hormone replacement therapy (HRT) medications for menopause. However, Medicare Part D prescription drug plans and Medicare Advantage plans with drug coverage (MAPD) may cover HRT medications depending on the plan's formulary. Always verify your specific medications are covered before enrolling.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Part D", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A & B", coverage: "Not Covered", icon: "shield", notes: "Part A and Part B do not cover outpatient prescription drugs including HRT medications" },
+      { planType: "Medicare Part D", coverage: "May Be Covered", icon: "filetext", notes: "HRT medications covered if on plan formulary; coverage varies by plan and medication" },
+      { planType: "Medicare Advantage (MAPD)", coverage: "May Be Covered", icon: "heart", notes: "HRT medications covered when included in plan's drug formulary; same as Part D coverage" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Applicable", icon: "users", notes: "Medigap supplements Original Medicare; since Part A/B don't cover HRT, Medigap doesn't either" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medicare Part D (Prescription Drug Coverage)",
+        icon: "filetext",
+        iconColor: "#0284C7",
+        coverageLabel: "May Be Covered",
+        coverageType: "partial",
+        statusBadge: "Coverage depends on plan formulary",
+        paragraphs: [
+          "[Medicare Part D](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not) prescription drug plans may cover HRT medications for menopause when they are on the plan's formulary. Formularies vary significantly between plans — some plans cover a wide range of HRT medications, while others may cover only generics or exclude certain brand-name drugs.",
+          "Not all Part D plans cover every HRT medication. Estradiol patches, in particular, may be covered by some plans but not others — even if the plan's published formulary suggests they are. Always verify your specific medication is covered before enrolling in a Part D plan.",
+          "HRT drug costs vary significantly by plan tier. Generic estrogen and progesterone are typically Tier 1 or Tier 2 (lowest cost). Brand-name HRT medications may be Tier 3 or higher, resulting in higher copays.",
+        ],
+        whatItCovers: [
+          "Estrogen therapy (ET) medications when on plan formulary",
+          "Estrogen plus progesterone therapy (EPT) medications",
+          "Bioidentical hormones (estrogen, progesterone, testosterone) when on formulary",
+          "Estrace (estradiol) — covered by some plans",
+          "Estradiol patches, gels, and oral tablets when on formulary",
+          "Localized (non-systemic) HRT creams and rings when on formulary",
+        ],
+        whatItDoesntCover: [
+          "HRT medications not on your plan's formulary",
+          "Compounded bioidentical hormones not FDA-approved",
+          "Over-the-counter hormone supplements",
+        ],
+        costNote: "Generic estrogen and progesterone are typically Tier 1 or Tier 2, costing $0–$15/month. Brand-name HRT medications may be Tier 3 or higher, costing $47–$100+/month.",
+      },
+      {
+        planName: "Medicare Advantage (MAPD) with Drug Coverage",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "May Be Covered",
+        coverageType: "partial",
+        statusBadge: "Coverage depends on plan formulary",
+        paragraphs: [
+          "[Medicare Advantage plans with drug coverage (MAPD)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are the most common way Medicare beneficiaries get HRT coverage. These plans combine Parts A, B, and D into a single plan, so HRT medications are covered when they are on the plan's formulary.",
+          "Some MAPD plans leave you with zero out-of-pocket costs for HRT, while others may require copays or coinsurance. Compare plans during Annual Enrollment (October 15 – December 7) to find the best coverage for your HRT medications.",
+        ],
+        whatItCovers: [
+          "All HRT medications included in the plan's drug formulary",
+          "Bioidentical hormones (estrogen, progesterone, testosterone) when on formulary",
+          "Estrace and estradiol products when on formulary",
+          "May include additional women's health benefits not in Original Medicare",
+        ],
+        whatItDoesntCover: [
+          "HRT medications not on your plan's formulary",
+          "Compounded bioidentical hormones not FDA-approved",
+          "Cosmetic hormone treatments",
+        ],
+        callout: {
+          type: "tip",
+          title: "Compare plans during Annual Enrollment",
+          text: "If your current plan does not cover your HRT medications or the costs are too high, you can switch to a plan with better formulary coverage during the Annual Enrollment Period (October 15 – December 7) each year.",
+        },
+        costNote: "Some MAPD plans cover HRT at $0 out of pocket, while others require copays or coinsurance. Compare plans carefully to find the best coverage for your specific medications.",
+      },
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "HRT medications not covered under Part A or Part B",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) does not cover outpatient prescription drugs, including HRT medications for menopause. Part A covers inpatient hospital care, and Part B covers outpatient medical services — neither covers self-administered prescription drugs.",
+          "While Original Medicare does not cover HRT medications, it does cover the doctor visits and lab tests needed to diagnose and monitor menopause-related conditions. You need a separate [Part D plan](/faqs/part-d-formulary) or a Medicare Advantage plan with drug coverage for HRT medications.",
+        ],
+        whatItCovers: [
+          "Doctor visits to discuss menopause symptoms and HRT options",
+          "Lab tests to evaluate hormone levels",
+          "Bone density screenings (osteoporosis is a risk factor with menopause)",
+          "Mental health services for depression related to menopause",
+        ],
+        whatItDoesntCover: [
+          "HRT medications — not covered under Part A or Part B",
+          "Outpatient prescription drugs of any kind",
+        ],
+        costNote: "Doctor visits for menopause-related care are covered under Part B at 20% coinsurance after your deductible. Annual wellness visits are covered at $0.",
+      },
+    ],
+    costTable: {
+      title: "Common HRT Medications and Medicare Part D Coverage",
+      headers: ["Medication", "Type", "Generic Available", "Typical Part D Tier", "Estimated Monthly Cost"],
+      rows: [
+        { "Medication": "Estradiol (oral tablet)", "Type": "Estrogen therapy", "Generic Available": "Yes", "Typical Part D Tier": "Tier 1–2", "Estimated Monthly Cost": "$0–$15/month" },
+        { "Medication": "Estradiol patch (Vivelle-Dot)", "Type": "Estrogen therapy", "Generic Available": "Yes (generic available)", "Typical Part D Tier": "Tier 2–3", "Estimated Monthly Cost": "$15–$47/month" },
+        { "Medication": "Progesterone (oral)", "Type": "Estrogen + progesterone", "Generic Available": "Yes", "Typical Part D Tier": "Tier 1–2", "Estimated Monthly Cost": "$0–$15/month" },
+        { "Medication": "Estrace (brand estradiol)", "Type": "Estrogen therapy", "Generic Available": "Generic available", "Typical Part D Tier": "Tier 2–3", "Estimated Monthly Cost": "$15–$47/month" },
+        { "Medication": "Premarin (conjugated estrogens)", "Type": "Estrogen therapy", "Generic Available": "No generic", "Typical Part D Tier": "Tier 3–4", "Estimated Monthly Cost": "$47–$100+/month" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Rules for HRT Coverage Under Medicare",
+      items: [
+        {
+          title: "Formulary Verification Required",
+          text: "Not all Part D or Medicare Advantage plans cover every HRT medication. Before enrolling in a plan, verify that your specific HRT medications are on the plan's formulary. Formularies can change annually, so review your plan's formulary each year during Annual Enrollment (October 15 – December 7).",
+        },
+        {
+          title: "Compounded Bioidentical Hormones",
+          text: "Medicare Part D does not cover compounded bioidentical hormones that are not FDA-approved. If your doctor prescribes a compounded HRT formulation, it is unlikely to be covered by Medicare. FDA-approved bioidentical hormones (like estradiol and progesterone) may be covered if they are on your plan's formulary.",
+        },
+        {
+          title: "Annual Enrollment Period",
+          text: "You can change your Part D or Medicare Advantage plan during the Annual Enrollment Period (October 15 – December 7) each year. If your current plan does not cover your HRT medications, this is the time to switch to a plan that does.",
+        },
+        {
+          title: "Transgender HRT Coverage",
+          text: "Medicare covers hormone therapy for transgender beneficiaries the same way it would for any other beneficiary when it is medically necessary. Hormone therapy medications are covered under Part D and Medicare Advantage plans with drug coverage.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover hormone replacement therapy for menopause?",
+        answer:
+          "Medicare Part A and Part B do not cover HRT medications for menopause. However, Medicare Part D prescription drug plans and Medicare Advantage plans with drug coverage may cover HRT medications depending on the plan's formulary. Always verify your specific medications are covered before enrolling.",
+      },
+      {
+        question: "Does Medicare cover Estrace?",
+        answer:
+          "Some Medicare Part D and Medicare Advantage plans cover Estrace (estradiol). Coverage depends on your plan's formulary. A generic version of estradiol is available and is more likely to be covered at a lower cost tier. Check your plan's formulary or call your plan to confirm coverage.",
+      },
+      {
+        question: "Does Medicare cover estradiol patches?",
+        answer:
+          "Some Part D and Medicare Advantage plans cover estradiol patches. However, coverage can be inconsistent — some plans may list patches in their formulary but apply restrictions that limit coverage. If you rely on estradiol patches, verify coverage with your specific plan before enrolling and again at each Annual Enrollment Period.",
+      },
+      {
+        question: "How much does HRT cost under Medicare?",
+        answer:
+          "HRT costs under Medicare depend on your plan and the specific medication. Generic estradiol and progesterone are typically Tier 1 or Tier 2 drugs, costing $0–$15 per month. Brand-name HRT medications like Premarin may be Tier 3 or higher, costing $47–$100+ per month. Some plans may cover HRT at $0 out of pocket.",
+      },
+      {
+        question: "Does Medicare cover bioidentical hormones?",
+        answer:
+          "Medicare Part D may cover FDA-approved bioidentical hormones such as estradiol and progesterone if they are on your plan's formulary. Compounded bioidentical hormones that are not FDA-approved are generally not covered by Medicare Part D.",
+      },
+      {
+        question: "Does Medicare cover hormone therapy for transgender beneficiaries?",
+        answer:
+          "Yes. Medicare covers hormone therapy for transgender beneficiaries the same way it would for any other beneficiary when it is medically necessary. Hormone therapy medications (estrogen, progesterone, testosterone) are covered under Medicare Part D and Medicare Advantage plans with drug coverage.",
+      },
+      {
+        question: "When can I change my Part D plan to get better HRT coverage?",
+        answer:
+          "You can change your Part D or Medicare Advantage plan during the Annual Enrollment Period (October 15 – December 7) each year. If your current plan does not cover your HRT medications or the costs are too high, this is the time to switch to a plan with better formulary coverage for your specific medications.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "Part A and Part B do NOT cover HRT medications" },
+      { icon: "check", text: "Part D and Medicare Advantage (MAPD) may cover HRT" },
+      { icon: "check", text: "FDA-approved bioidentical hormones may be covered" },
+      { icon: "alert", text: "Compounded bioidentical hormones generally not covered" },
+      { icon: "info", text: "Verify your specific HRT medications on your plan's formulary" },
+      { icon: "info", text: "Switch plans during Annual Enrollment (Oct 15 – Dec 7) for better HRT coverage" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Gender Reassignment Surgery?", description: "Learn about Medicare's coverage for gender-affirming care and procedures.", slug: "does-medicare-cover-gender-reassignment-surgery" },
+      { title: "Medicare Part D Formulary", description: "Understand how Medicare Part D formularies work and how to find the right plan.", slug: "part-d-formulary" },
+      { title: "Medicare Part D Late Enrollment Penalty", description: "Learn about the Part D late enrollment penalty and how to avoid it.", slug: "medicare-part-d-late-enrollment-penalty" },
+      { title: "Medicare and Prescription Drugs: What's Covered?", description: "Explore what prescription drugs are covered under Medicare Part D.", slug: "medicare-and-prescription-drugs-whats-covered-and-whats-not" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Gender Reassignment Surgery?",
+      "Medicare Part D Formulary",
+      "Medicare Part D Late Enrollment Penalty",
+      "Medicare and Prescription Drugs: What's Covered?",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding a Medicare Plan That Covers Your HRT Medications?",
+      text: "Our licensed Medicare agents can help you compare Part D and Medicare Advantage plans to find the best coverage for your hormone replacement therapy medications. Compare plans in your area for free.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-gender-reassignment-surgery",
+      "part-d-formulary",
+      "medicare-part-d-late-enrollment-penalty",
+      "medicare-and-prescription-drugs-whats-covered-and-whats-not",
+    ],
+  },
+
 ];
