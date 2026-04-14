@@ -19,6 +19,10 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import type { SimpleFAQArticleData } from "@/lib/article-types";
+import { blogArticles } from "@/lib/blog-articles-data";
+
+/* ─── Set of all blog slugs for cross-reference routing ─── */
+const blogSlugs = new Set(blogArticles.map((a) => a.slug));
 
 /* ─── Render markdown-style [text](url) links within paragraph text ─── */
 function renderInlineLinks(text: string, key: number | string): React.ReactNode {
@@ -238,7 +242,7 @@ export default function SimpleFAQContent({ article }: { article: SimpleFAQArticl
                     {article.relatedSlugs.map((slug, i) => (
                       <Link
                         key={i}
-                        href={`/faqs/${slug}`}
+                        href={blogSlugs.has(slug) ? `/blog/${slug}` : `/faqs/${slug}`}
                         className="flex items-center gap-3 p-4 bg-white border border-[#E5E7EB] rounded-lg hover:border-[#C41230]/30 hover:shadow-sm transition-all group"
                       >
                         <ArrowRight className="w-4 h-4 text-[#C41230] shrink-0 group-hover:translate-x-1 transition-transform" />
