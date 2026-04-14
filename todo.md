@@ -74,3 +74,6 @@
 - [ ] Consolidate 18 FAQ categories into 6-7 parent groups for cleaner filter pills
 - [x] Rewrite /faqs/applying-for-medicare with comprehensive content and 5+ internal links
 - [x] Fix broken relatedSlugs cross-references: observation-vs-inpatient and skilled-nursing-vs-custodial-care are blog posts linked as /faqs/
+- [x] Upgrade SimpleFAQ template to support rich section types (tables, callouts, lists, FAQs)
+- [x] Rewrite /faqs/medicare-supplement-plans-medigap-pricing-methods with rich formatting and 5+ internal links
+- [x] Upgrade /faqs/applying-for-medicare to use rich formatting too

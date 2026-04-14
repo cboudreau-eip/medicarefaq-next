@@ -332,97 +332,106 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '12 min',
-    sections: [
-      {
-        heading: 'Is Medicare Mandatory?',
-        paragraphs: [
-          'Medicare is not mandatory for most Americans, but understanding when and how to enroll is critical to avoiding costly mistakes. If you are receiving Social Security benefits when you turn 65, you will be automatically enrolled in [Medicare Part A and Part B](/original-medicare). However, if you are not yet collecting Social Security, you will need to actively sign up for Medicare yourself.',
-          'Even though enrollment is technically optional, delaying Medicare without qualifying coverage from an employer can result in [late enrollment penalties](/enrollment/late-penalties) that permanently increase your premiums. For most people turning 65, enrolling in Medicare on time is one of the most important financial decisions they will make.',
-        ],
-      },
-      {
-        heading: 'Three Ways to Apply for Medicare',
-        paragraphs: [
-          'The Social Security Administration (SSA) handles Medicare enrollment. You can apply through any of the following three methods.',
-        ],
-        listItems: [
-          'Online at ssa.gov: Visit ssa.gov/medicare and click "Apply for Medicare Only." Create or log into your my Social Security account, complete the application (about 10 to 30 minutes), and submit it. This is the fastest and most convenient option, available 24 hours a day, 7 days a week.',
-          'By phone: Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778). Representatives are available Monday through Friday, 8 AM to 7 PM local time. Have your Social Security number and personal information ready before calling.',
-          'In person at your local SSA office: Find your nearest office at ssa.gov/locator. Scheduling an appointment in advance is recommended to reduce wait times. Bring all required documents (listed below) and complete Form CMS-40B with a representative.',
-        ],
-      },
-      {
-        heading: 'Medicare Enrollment Periods and Deadlines',
-        paragraphs: [
-          'When you can enroll in Medicare depends on your specific situation. There are three main [enrollment periods](/enrollment/initial-enrollment-period) you should know about.',
-          'Initial Enrollment Period (IEP): This is a 7-month window centered around your 65th birthday. It begins 3 months before your birthday month, includes your birthday month, and extends 3 months after. This is your best opportunity to enroll without penalties or delays. For the earliest possible coverage start date, apply during the 3 months before your birthday month.',
-          'Special Enrollment Period (SEP): If you delayed Medicare because you had health coverage through an employer or union, you qualify for a [Special Enrollment Period](/enrollment/special-enrollment-period). You have 8 months after losing your employer coverage (or stopping work, whichever comes first) to sign up for Part B without a penalty. This is the most common scenario for people who [work past 65](/enrollment/working-past-65).',
-          'General Enrollment Period (GEP): If you missed both your IEP and any applicable SEP, you can enroll during the General Enrollment Period, which runs from January 1 through March 31 each year. However, coverage will not start until July 1, and you may face a permanent late enrollment penalty of 10% for each full 12-month period you could have had Part B but did not sign up.',
-        ],
-      },
-      {
-        heading: 'How to Apply for Part B When You Already Have Part A',
-        paragraphs: [
-          'This is one of the most common Medicare enrollment scenarios. Many people receive Part A automatically at age 65 (especially if they are already collecting Social Security) but delay Part B because they have employer-sponsored health insurance. When that employer coverage ends, they need to actively enroll in Part B.',
-          'To add Part B when you already have Part A, you will need to apply through Social Security using one of the three methods described above. The most important step is to also submit Form CMS-L564, which your employer or former employer must complete. This form verifies that you had creditable employer coverage and qualifies you for a Special Enrollment Period so you can avoid the late penalty.',
-          'You have 8 months from the date your employer coverage ends (or the date you stop working, whichever happens first) to enroll in Part B. Do not wait until the last minute. Processing times can vary, and a gap in coverage could leave you responsible for significant out-of-pocket costs. The 2026 [Part B premium is $185 per month](/original-medicare/medicare-parts/medicare-part-b), and the Part A deductible is $1,676 per benefit period.',
-        ],
-      },
-      {
-        heading: 'Documents You Will Need',
-        paragraphs: [
-          'Before applying, gather the following documents to ensure a smooth enrollment process.',
-        ],
-        listItems: [
-          'Your Social Security number',
-          'Your Medicare card (if you already have Part A)',
-          'Proof of U.S. citizenship or lawful permanent resident status',
-          'If applying due to loss of employer coverage: Form CMS-L564 (Request for Employment Information), completed and signed by your employer or former employer',
-          'If you have COBRA coverage: documentation showing your COBRA coverage dates and when it will end',
-          'Your birth certificate or passport (if applying for the first time)',
-        ],
-      },
-      {
-        heading: 'When Does Coverage Start?',
-        paragraphs: [
-          'Your Medicare coverage start date depends on when you enroll and which enrollment period you use.',
-          'If you enroll during the 3 months before your 65th birthday month, coverage typically starts on the first day of your birthday month. If you enroll during your birthday month or the 3 months after, there will be a 1 to 3 month delay before coverage begins.',
-          'If you enroll during a Special Enrollment Period, coverage can start as early as the first day of the month after you enroll. If you enroll during the General Enrollment Period (January through March), coverage does not begin until July 1 of that year.',
-        ],
-      },
-      {
-        heading: 'Understanding Part A vs. Part B Enrollment',
-        paragraphs: [
-          '[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers hospital stays, skilled nursing facility care, hospice, and some home health services. Most people qualify for premium-free Part A at age 65 if they or their spouse paid Medicare taxes for at least 10 years (40 quarters). Because Part A is free for most people, there is generally no reason to delay it.',
-          '[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers doctor visits, outpatient care, preventive services, durable medical equipment, and some home health services. Part B has a monthly premium ($185 per month in 2026 for most beneficiaries), which is why some people choose to delay it if they have employer coverage.',
-          'It is important to understand that Part A and Part B together make up [Original Medicare](/original-medicare). Once you have both parts, you can choose to add a [Medicare Supplement (Medigap) plan](/medicare-supplements) to help cover out-of-pocket costs, or you can switch to a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) as an alternative way to receive your Medicare benefits.',
-        ],
-      },
-      {
-        heading: 'Avoiding Late Enrollment Penalties',
-        paragraphs: [
-          'One of the biggest mistakes new Medicare beneficiaries make is missing their enrollment window. If you do not sign up for Part B when you are first eligible and you do not have qualifying employer coverage, you will face a [late enrollment penalty](/enrollment/late-penalties) that lasts for as long as you have Part B.',
-          'The Part B late penalty is an additional 10% of the standard premium for each full 12-month period you could have had Part B but did not enroll. For example, if you delayed Part B for 3 years without creditable coverage, your monthly premium would be 30% higher than the standard rate, permanently. At 2026 rates, that means paying $240.50 per month instead of $185.',
-          'Part D (prescription drug coverage) also carries a late penalty of 1% of the national base beneficiary premium for each month you went without creditable drug coverage. These penalties add up over time and cannot be reversed.',
-        ],
-      },
-      {
-        heading: 'What to Do After You Enroll',
-        paragraphs: [
-          'Once your Medicare enrollment is confirmed, there are several important next steps to consider. You will receive your red, white, and blue Medicare card in the mail, typically within a few weeks of enrollment. Keep this card in a safe place and carry it with you to medical appointments.',
-          'After enrolling in Original Medicare, you should evaluate whether you need additional coverage. Many beneficiaries choose to add a [Medicare Supplement plan](/medicare-supplements) to help cover deductibles, coinsurance, and copayments that Original Medicare does not pay. Others prefer a Medicare Advantage plan, which bundles Part A, Part B, and often Part D into a single plan with additional benefits like dental and vision.',
-          'You should also consider enrolling in a [Part D prescription drug plan](/original-medicare/medicare-parts/medicare-part-d) if you are staying with Original Medicare. Even if you do not take many medications now, having drug coverage protects you from the Part D late penalty and ensures you are covered if your prescription needs change.',
-        ],
-      },
-      {
-        heading: 'Frequently Asked Questions',
-        paragraphs: [
-          'Can I apply for Medicare before I turn 65? You can apply for Medicare up to 3 months before your 65th birthday. This is the recommended approach to ensure coverage starts as early as possible.',
-          'Do I need to sign up for Medicare if I am still working? If you have employer coverage through your own job (or your spouse\'s job) at a company with 20 or more employees, you can delay Medicare Part B without penalty. However, you should still sign up for Part A since it is free for most people.',
-          'What if I missed my enrollment period? If you missed your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 through March 31). Coverage will start July 1, and you may owe a late penalty.',
-          'How long does it take to get my Medicare card? After enrolling, most people receive their Medicare card within 2 to 4 weeks. You can also log into your Medicare.gov account to access a digital copy of your card.',
-        ],
-      },
+    sections: [],
+    richSections: [
+      { type: "heading", level: 2, text: "Is Medicare Mandatory?", id: "is-mandatory" },
+      { type: "paragraph", content: "Medicare is not mandatory for most Americans, but understanding when and how to enroll is critical to avoiding costly mistakes. If you are receiving Social Security benefits when you turn 65, you will be automatically enrolled in [Medicare Part A and Part B](/original-medicare). However, if you are not yet collecting Social Security, you will need to actively sign up for Medicare yourself." },
+      { type: "paragraph", content: "Even though enrollment is technically optional, delaying Medicare without qualifying coverage from an employer can result in [late enrollment penalties](/enrollment/late-penalties) that permanently increase your premiums. For most people turning 65, enrolling in Medicare on time is one of the most important financial decisions they will make." },
+      { type: "callout", calloutType: "warning", calloutTitle: "Do Not Miss Your Window", calloutText: "If you miss your Initial Enrollment Period and do not have employer coverage, you could face a permanent 10% penalty on your Part B premium for every 12 months you were eligible but did not enroll. At 2026 rates, a 3-year delay means paying $240.50/month instead of $185 \u2014 for life." },
+
+      { type: "heading", level: 2, text: "Three Ways to Apply for Medicare", id: "three-ways" },
+      { type: "paragraph", content: "The Social Security Administration (SSA) handles Medicare enrollment. You can apply through any of the following three methods:" },
+      { type: "table", headers: ["Method", "How It Works", "Best For"], rows: [
+        ["Online at ssa.gov", "Visit ssa.gov/medicare, click 'Apply for Medicare Only,' create or log into your my Social Security account, and complete the application (10\u201330 minutes).", "Fastest option \u2014 available 24/7"],
+        ["By phone", "Call 1-800-772-1213 (TTY: 1-800-325-0778). Representatives available Mon\u2013Fri, 8 AM\u20137 PM local time.", "If you have questions during the process"],
+        ["In person at SSA office", "Find your nearest office at ssa.gov/locator. Schedule an appointment and bring all required documents.", "If you need hands-on help"]
+      ]},
+      { type: "callout", calloutType: "tip", calloutTitle: "Pro Tip", calloutText: "Applying online is the fastest method and gives you a confirmation number immediately. If you need to submit Form CMS-L564 for employer coverage, you can upload it during the online application." },
+
+      { type: "heading", level: 2, text: "Medicare Enrollment Periods and Deadlines", id: "enrollment-periods" },
+      { type: "paragraph", content: "When you can enroll in Medicare depends on your specific situation. There are three main [enrollment periods](/enrollment/initial-enrollment-period) you should know about:" },
+      { type: "table", headers: ["Enrollment Period", "When It Happens", "Coverage Starts", "Penalty Risk"], rows: [
+        ["Initial Enrollment Period (IEP)", "7-month window: 3 months before your 65th birthday, your birthday month, and 3 months after", "As early as the 1st of your birthday month (if you enroll in the 3 months before)", "None \u2014 this is your best window"],
+        ["Special Enrollment Period (SEP)", "8 months after losing employer coverage or stopping work", "As early as the 1st of the month after enrollment", "None if you enroll within the 8-month window"],
+        ["General Enrollment Period (GEP)", "January 1 through March 31 each year", "July 1 of that year", "Yes \u2014 permanent 10% penalty per 12-month gap"]
+      ]},
+      { type: "callout", calloutType: "info", calloutTitle: "Special Enrollment Period Details", calloutText: "If you delayed Medicare because you had health coverage through an employer or union, you qualify for a [Special Enrollment Period](/enrollment/special-enrollment-period). You have 8 months after losing your employer coverage (or stopping work, whichever comes first) to sign up for Part B without a penalty. This is the most common scenario for people who [work past 65](/enrollment/working-past-65)." },
+
+      { type: "heading", level: 2, text: "How to Apply for Part B When You Already Have Part A", id: "add-part-b" },
+      { type: "paragraph", content: "This is one of the most common Medicare enrollment scenarios. Many people receive Part A automatically at age 65 (especially if they are already collecting Social Security) but delay Part B because they have employer-sponsored health insurance. When that employer coverage ends, they need to actively enroll in Part B." },
+      { type: "paragraph", content: "To add Part B when you already have Part A, apply through Social Security using one of the three methods above. The most important step is to also submit Form CMS-L564, which your employer or former employer must complete. This form verifies that you had creditable employer coverage and qualifies you for a Special Enrollment Period." },
+      { type: "callout", calloutType: "warning", calloutTitle: "8-Month Deadline", calloutText: "You have 8 months from the date your employer coverage ends (or the date you stop working, whichever happens first) to enroll in Part B. Do not wait until the last minute. Processing times can vary, and a gap in coverage could leave you responsible for significant out-of-pocket costs." },
+      { type: "list", ordered: true, items: [
+        "Notify your employer that you are enrolling in Medicare Part B",
+        "Ask your employer (or former employer) to complete Form CMS-L564",
+        "Apply for Part B online at ssa.gov, by phone, or in person",
+        "Submit Form CMS-L564 along with your Part B application",
+        "Keep copies of all documents for your records"
+      ]},
+
+      { type: "heading", level: 2, text: "Documents You Will Need", id: "documents" },
+      { type: "paragraph", content: "Before applying, gather the following documents to ensure a smooth enrollment process:" },
+      { type: "list", ordered: false, items: [
+        "Your Social Security number",
+        "Your Medicare card (if you already have Part A)",
+        "Proof of U.S. citizenship or lawful permanent resident status",
+        "If applying due to loss of employer coverage: Form CMS-L564 (Request for Employment Information), completed and signed by your employer or former employer",
+        "If you have COBRA coverage: documentation showing your COBRA coverage dates and when it will end",
+        "Your birth certificate or passport (if applying for the first time)"
+      ]},
+      { type: "callout", calloutType: "info", calloutTitle: "About COBRA Coverage", calloutText: "COBRA coverage does NOT count as employer coverage for Medicare purposes. If you are on COBRA and turn 65, you should enroll in Medicare during your Initial Enrollment Period. Relying on COBRA alone can trigger late enrollment penalties." },
+
+      { type: "heading", level: 2, text: "When Does Coverage Start?", id: "coverage-start" },
+      { type: "paragraph", content: "Your Medicare coverage start date depends on when you enroll and which enrollment period you use:" },
+      { type: "table", headers: ["When You Enroll", "Coverage Start Date"], rows: [
+        ["3 months before your 65th birthday month", "1st day of your birthday month"],
+        ["During your birthday month", "1st day of the following month"],
+        ["1 month after your birthday month", "1st day of the 2nd month after enrollment"],
+        ["2\u20133 months after your birthday month", "1st day of the 3rd month after enrollment"],
+        ["During a Special Enrollment Period", "1st day of the month after enrollment"],
+        ["During General Enrollment Period (Jan\u2013Mar)", "July 1 of that year"]
+      ], footnote: "*Enrolling early in your IEP ensures the fastest coverage start date." },
+
+      { type: "heading", level: 2, text: "Understanding Part A vs. Part B", id: "part-a-vs-b" },
+      { type: "paragraph", content: "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) and [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) together make up [Original Medicare](/original-medicare). Here is what each part covers and costs in 2026:" },
+      { type: "table", headers: ["Feature", "Part A (Hospital Insurance)", "Part B (Medical Insurance)"], rows: [
+        ["Covers", "Hospital stays, skilled nursing, hospice, home health", "Doctor visits, outpatient care, preventive services, equipment"],
+        ["2026 Premium", "$0 for most people (free if you/spouse paid Medicare taxes 10+ years)", "$185/month (standard; higher for high earners)"],
+        ["2026 Deductible", "$1,676 per benefit period", "$257 per year"],
+        ["Automatic enrollment?", "Yes, if collecting Social Security at 65", "Yes, but you can opt out if you have employer coverage"],
+        ["Should you delay?", "Rarely \u2014 it is free for most people", "Only if you have creditable employer coverage"]
+      ]},
+      { type: "paragraph", content: "Once you have both parts, you can choose to add a [Medicare Supplement (Medigap) plan](/medicare-supplements) to help cover out-of-pocket costs, or you can switch to a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) as an alternative way to receive your Medicare benefits." },
+
+      { type: "heading", level: 2, text: "Avoiding Late Enrollment Penalties", id: "penalties" },
+      { type: "paragraph", content: "One of the biggest mistakes new Medicare beneficiaries make is missing their enrollment window. If you do not sign up for Part B when you are first eligible and you do not have qualifying employer coverage, you will face a [late enrollment penalty](/enrollment/late-penalties) that lasts for as long as you have Part B." },
+      { type: "table", headers: ["Penalty Type", "How It Is Calculated", "Example (2026 Rates)"], rows: [
+        ["Part B Late Penalty", "10% of standard premium for each full 12-month period you delayed", "3-year delay = 30% penalty = $240.50/month instead of $185"],
+        ["Part D Late Penalty", "1% of national base beneficiary premium per month without creditable drug coverage", "24-month gap = ~$8.44/month added permanently"]
+      ], footnote: "*These penalties are permanent and cannot be reversed. They are added to your premium for as long as you have the coverage." },
+      { type: "callout", calloutType: "warning", calloutTitle: "Penalties Are Permanent", calloutText: "Unlike most financial penalties, Medicare late enrollment penalties never go away. They are recalculated each year as the standard premium changes, meaning the dollar amount you pay in penalties increases over time even though the percentage stays the same." },
+
+      { type: "heading", level: 2, text: "What to Do After You Enroll", id: "after-enrollment" },
+      { type: "paragraph", content: "Once your Medicare enrollment is confirmed, there are several important next steps to consider:" },
+      { type: "list", ordered: true, items: [
+        "Watch for your red, white, and blue Medicare card in the mail (typically arrives within 2\u20134 weeks)",
+        "Set up your Medicare.gov account to view your coverage, claims, and digital Medicare card",
+        "Evaluate whether you need a [Medicare Supplement (Medigap) plan](/medicare-supplements) to cover deductibles and coinsurance",
+        "Consider enrolling in a [Part D prescription drug plan](/original-medicare/medicare-parts/medicare-part-d) if staying with Original Medicare",
+        "Alternatively, explore [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) that bundle Part A, Part B, and often Part D with extra benefits",
+        "Schedule your free Welcome to Medicare preventive visit within the first 12 months of Part B coverage"
+      ]},
+      { type: "callout", calloutType: "success", calloutTitle: "Medigap Open Enrollment Tip", calloutText: "Your Medigap Open Enrollment Period starts when you are 65 or older AND enrolled in Part B. During this 6-month window, insurers must accept you regardless of health conditions and cannot charge more for pre-existing conditions. This is your best opportunity to lock in a Medigap plan." },
+
+      { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faqs" },
+      { type: "faq", faqs: [
+        { question: "Can I apply for Medicare before I turn 65?", answer: "Yes. You can apply for Medicare up to 3 months before your 65th birthday. This is the recommended approach to ensure coverage starts as early as possible \u2014 ideally on the first day of your birthday month." },
+        { question: "Do I need to sign up for Medicare if I am still working?", answer: "If you have employer coverage through your own job (or your spouse's job) at a company with 20 or more employees, you can delay Medicare Part B without penalty. However, you should still sign up for Part A since it is free for most people. When your employer coverage ends, you will have an 8-month [Special Enrollment Period](/enrollment/special-enrollment-period) to add Part B." },
+        { question: "What if I missed my enrollment period?", answer: "If you missed your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 through March 31). Coverage will start July 1, and you may owe a permanent [late enrollment penalty](/enrollment/late-penalties)." },
+        { question: "How long does it take to get my Medicare card?", answer: "After enrolling, most people receive their Medicare card within 2 to 4 weeks. You can also log into your Medicare.gov account to access a digital copy of your card immediately." },
+        { question: "Does COBRA count as employer coverage for Medicare purposes?", answer: "No. COBRA is a continuation of your former employer's plan, but it does not count as current employer coverage for Medicare enrollment purposes. If you are on COBRA when you turn 65, you should enroll in Medicare during your Initial Enrollment Period to avoid late penalties." },
+        { question: "Can I have both employer coverage and Medicare at the same time?", answer: "Yes. If you [work past 65](/enrollment/working-past-65) at a company with 20+ employees, your employer plan is typically primary and Medicare is secondary. Many people enroll in premium-free Part A while keeping their employer plan, then add Part B when they retire." }
+      ]}
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-does-medicare-start", "medicare-enrollment-checklist", "turning-65-these-are-the-most-common-medicare-questions-answered"],
   },
@@ -539,26 +548,123 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-supplement-plans-medigap-pricing-methods',
     seo: {
-      title: 'Medicare Supplement Plans (Medigap) Pricing Methods',
-      description: 'There are three types of Medicare Supplement Plans (Medigap) Pricing Methods. Know the difference between community-rated, issue-age-rated, and attained-age-rated.',
+      title: 'Medigap Pricing Methods Explained: Community-Rated vs Issue-Age vs Attained-Age (2026)',
+      description: 'Learn the three Medigap pricing methods — community-rated, issue-age-rated, and attained-age-rated — and how each affects your Medicare Supplement premiums over time.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-supplement-plans-medigap-pricing-methods/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/types-of-medigap-pricing-methods.jpg',
     },
-    title: 'Medicare Supplement Plans (Medigap) Pricing Methods',
-    summary: '',
+    title: 'Medicare Supplement Plans (Medigap) Pricing Methods Explained',
+    summary: 'Not all Medigap premiums are calculated the same way. Understanding the three pricing methods — community-rated, issue-age-rated, and attained-age-rated — can save you thousands of dollars over the life of your policy.',
     category: 'Medicare Supplements',
-    dateUpdated: 'July 13, 2023',
+    dateUpdated: 'April 14, 2026',
     author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Average Cost of Medicare Supplement Plans',
-        paragraphs: [
-          'Updated on July 13, 2023',
-          'The average cost of [Medicare Supplement plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can be hard to pinpoint because [monthly premiums](/blog/medicare-costs-2025)...',
-        ],
-      },
+    reviewer: 'Ashlee Zareczny',
+    readTime: '8 min read',
+    sections: [],
+    richSections: [
+      { type: "heading", level: 2, text: "What Are Medigap Pricing Methods?", id: "what-are" },
+      { type: "paragraph", content: "When you shop for a [Medicare Supplement (Medigap) plan](/medicare-supplements), you will notice that premiums for the exact same plan letter can vary significantly from one insurance company to another. One of the biggest reasons for this difference is the pricing method the insurer uses to calculate your premium. There are three pricing methods, and the one your insurer uses determines how your premium changes — or does not change — as you age." },
+      { type: "callout", calloutType: "info", calloutTitle: "Why This Matters", calloutText: "Two people with the same Medigap Plan G in the same ZIP code can pay very different premiums depending on the pricing method their insurer uses. Over 10 to 20 years, the difference can add up to thousands of dollars." },
+
+      { type: "heading", level: 2, text: "The Three Medigap Pricing Methods", id: "three-methods" },
+      { type: "paragraph", content: "Every Medigap insurer in the United States uses one of the following three methods to set your premium. The coverage is identical regardless of pricing method — only the way your premium is calculated differs." },
+
+      { type: "heading", level: 3, text: "1. Community-Rated (No-Age-Rated)" },
+      { type: "paragraph", content: "With community-rated pricing, every policyholder pays the same base premium regardless of age. A 65-year-old and an 80-year-old with the same plan pay the same amount. Premiums may still increase due to inflation or rising healthcare costs, but your age is never a factor in the calculation." },
+      { type: "list", ordered: false, items: [
+        "Your premium does not increase because you get older",
+        "Premiums may still rise due to inflation, medical cost trends, or insurer rate adjustments",
+        "Tends to start higher than other methods but grows more slowly over time",
+        "Best for beneficiaries who plan to keep their policy long-term"
+      ]},
+      { type: "callout", calloutType: "success", calloutTitle: "Best For", calloutText: "Beneficiaries who want predictable, stable premiums over the long term. If you plan to keep your Medigap policy for 15+ years, community-rated pricing often delivers the lowest total cost." },
+
+      { type: "heading", level: 3, text: "2. Issue-Age-Rated" },
+      { type: "paragraph", content: "Issue-age-rated pricing bases your premium on the age you were when you first purchased (were \"issued\") the policy. The younger you are when you buy, the lower your starting premium — and your age at purchase is locked in. Your premium will not increase simply because you get older, though it may still rise due to inflation or other non-age factors." },
+      { type: "list", ordered: false, items: [
+        "Premium is based on your age at the time of purchase",
+        "Enrolling at 65 locks in a lower rate than enrolling at 70",
+        "Premiums may still increase for inflation or medical cost trends, but not for aging",
+        "Rewards early enrollment — the younger you buy, the more you save"
+      ]},
+      { type: "callout", calloutType: "tip", calloutTitle: "Pro Tip", calloutText: "If you are considering an issue-age-rated plan, enroll during your [Medigap Open Enrollment Period](/enrollment/initial-enrollment-period) (the 6 months starting when you turn 65 and have Part B). This locks in the lowest possible issue-age rate and guarantees acceptance regardless of health." },
+
+      { type: "heading", level: 3, text: "3. Attained-Age-Rated" },
+      { type: "paragraph", content: "Attained-age-rated pricing bases your premium on your current age. Your premium automatically increases as you get older, in addition to any increases from inflation or rising healthcare costs. These plans typically start with the lowest premiums of the three methods but become the most expensive over time." },
+      { type: "list", ordered: false, items: [
+        "Premium increases every year as you age",
+        "Starts with the lowest premium of all three methods",
+        "Can become very expensive by age 75–80+",
+        "Additional increases for inflation and medical costs stack on top of age-based increases"
+      ]},
+      { type: "callout", calloutType: "warning", calloutTitle: "Watch Out", calloutText: "Attained-age plans may look like the cheapest option at 65, but by age 80 they are often the most expensive. Always compare the projected 10-year and 20-year total cost, not just the starting premium." },
+
+      { type: "heading", level: 2, text: "Side-by-Side Comparison", id: "comparison" },
+      { type: "table", headers: ["Feature", "Community-Rated", "Issue-Age-Rated", "Attained-Age-Rated"], rows: [
+        ["Premium based on", "Same for everyone", "Age when you bought", "Your current age"],
+        ["Increases with age?", "No", "No", "Yes, every year"],
+        ["Inflation increases?", "Yes", "Yes", "Yes (on top of age)"],
+        ["Starting premium at 65", "Highest", "Medium", "Lowest"],
+        ["Premium at age 80", "Lowest", "Medium", "Highest"],
+        ["Best for", "Long-term policyholders", "Early enrollees", "Short-term coverage"]
+      ]},
+
+      { type: "heading", level: 2, text: "How Pricing Methods Affect Your Costs Over Time", id: "cost-over-time" },
+      { type: "paragraph", content: "The following example illustrates how the three pricing methods can play out over 15 years for a [Medigap Plan G](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n) policyholder. These are illustrative figures based on typical market rates — your actual premiums will vary by insurer and location." },
+      { type: "table", headers: ["Your Age", "Community-Rated", "Issue-Age-Rated", "Attained-Age-Rated"], rows: [
+        ["65", "$175/mo", "$140/mo", "$110/mo"],
+        ["70", "$195/mo", "$160/mo", "$165/mo"],
+        ["75", "$215/mo", "$180/mo", "$230/mo"],
+        ["80", "$240/mo", "$200/mo", "$310/mo"]
+      ], footnote: "*Illustrative example only. Actual premiums vary by insurer, state, and health factors. All figures include estimated 2–3% annual inflation adjustments." },
+      { type: "paragraph", content: "As the table shows, the attained-age plan starts $65/month cheaper than community-rated at age 65 — but by age 80, it costs $70/month more. Over 15 years, the attained-age policyholder pays significantly more in total premiums despite the lower starting price." },
+
+      { type: "heading", level: 2, text: "How to Find Out Which Pricing Method a Plan Uses", id: "how-to-find" },
+      { type: "paragraph", content: "Insurance companies are not always upfront about their pricing method, so you may need to ask directly. Here is how to find out:" },
+      { type: "list", ordered: true, items: [
+        "Call the insurance company and ask: 'Is this plan community-rated, issue-age-rated, or attained-age-rated?'",
+        "Check the plan's outline of coverage document — some insurers disclose the pricing method there",
+        "Ask a licensed [Medicare insurance agent](/faqs/choosing-a-medigap-policy) who can compare pricing methods across multiple carriers in your area",
+        "Contact your [State Health Insurance Assistance Program (SHIP)](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) for free, unbiased counseling"
+      ]},
+
+      { type: "heading", level: 2, text: "2026 Average Medigap Premiums by Plan", id: "2026-costs" },
+      { type: "paragraph", content: "While premiums vary widely by pricing method, insurer, and location, here are the typical monthly premium ranges for the most popular [Medigap plans](/faqs/average-cost-of-medicare-supplement-plans) in 2026:" },
+      { type: "table", headers: ["Plan", "Monthly Premium Range", "What It Covers"], rows: [
+        ["Plan G", "$120–$280/mo", "Most comprehensive plan available to new enrollees. Covers everything except the Part B deductible ($257 in 2026)."],
+        ["Plan N", "$90–$200/mo", "Lower premiums than Plan G, but you pay up to $20 copay for office visits and up to $50 for ER visits not resulting in admission."],
+        ["High-Deductible Plan G", "$30–$70/mo", "Same coverage as Plan G after you meet the $2,870 annual deductible (2026)."]
+      ], footnote: "*Premiums based on a 65-year-old female non-smoker. Your rate may differ based on age, gender, location, tobacco use, and pricing method." },
+
+      { type: "heading", level: 2, text: "Which Pricing Method Should You Choose?", id: "which-to-choose" },
+      { type: "paragraph", content: "The right pricing method depends on your age, budget, and how long you plan to keep the policy. Here are some general guidelines:" },
+      { type: "list", ordered: false, items: [
+        "If you are enrolling at 65 and plan to keep the policy for 15+ years, community-rated or issue-age-rated plans typically offer the best long-term value",
+        "If you need the lowest possible premium right now and may switch plans later, an attained-age plan could work — but understand the long-term cost trajectory",
+        "If you are enrolling after 65 (for example, after leaving [employer coverage](/enrollment/working-past-65)), issue-age-rated plans are especially attractive because your rate is locked at your enrollment age",
+        "Always compare the projected total cost over 10–15 years, not just the monthly premium at sign-up"
+      ]},
+      { type: "callout", calloutType: "info", calloutTitle: "Remember: Coverage Is Identical", calloutText: "All three pricing methods deliver the exact same coverage for a given plan letter. A Plan G is a Plan G regardless of whether it is community-rated or attained-age-rated. The only difference is how your premium is calculated over time." },
+
+      { type: "heading", level: 2, text: "Other Factors That Affect Your Medigap Premium", id: "other-factors" },
+      { type: "paragraph", content: "Beyond the pricing method, several other factors influence your [Medigap premium](/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage):" },
+      { type: "list", ordered: false, items: [
+        "Tobacco use — smokers typically pay 10–25% more",
+        "Gender — in most states, women pay slightly less than men",
+        "Location — premiums vary significantly by ZIP code and state",
+        "Household discounts — some insurers offer 5–10% discounts for married couples or household members",
+        "Payment method — paying annually or via electronic funds transfer (EFT) can save 2–5%",
+        "Health status — during your [Medigap Open Enrollment Period](/enrollment/initial-enrollment-period), insurers cannot charge more for pre-existing conditions. Outside that window, medical underwriting may apply."
+      ]},
+
+      { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faqs" },
+      { type: "faq", faqs: [
+        { question: "Can I switch from an attained-age plan to a community-rated plan later?", answer: "You can apply to switch, but outside of your Medigap Open Enrollment Period you will likely need to pass medical underwriting. If you have developed health conditions since your original enrollment, you may be denied or charged a higher rate. This is why choosing the right pricing method from the start is so important." },
+        { question: "Do all states offer all three pricing methods?", answer: "No. Some states regulate which pricing methods insurers can use. For example, several states require all Medigap plans to be community-rated. Check with your state insurance department or a licensed agent to see which methods are available in your area." },
+        { question: "Does the pricing method affect what my plan covers?", answer: "No. The pricing method only affects how your premium is calculated. A Plan G with community-rated pricing covers the exact same benefits as a Plan G with attained-age pricing. Medigap plan benefits are standardized by the federal government." },
+        { question: "What is the best time to buy a Medigap plan to get the lowest rate?", answer: "The best time is during your Medigap Open Enrollment Period — the 6-month window that starts when you are 65 or older and enrolled in Medicare Part B. During this period, insurers must accept you regardless of health and cannot charge more for pre-existing conditions. If you choose an issue-age-rated plan, enrolling at 65 locks in the lowest possible rate." },
+        { question: "Will my Medigap premium ever go down?", answer: "It is rare for Medigap premiums to decrease. However, you can lower your costs by shopping for a different insurer offering the same plan letter at a lower rate, taking advantage of household or EFT discounts, or switching to a plan with lower coverage (such as Plan N instead of Plan G)." }
+      ]}
     ],
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "average-cost-of-medicare-supplement-plans", "how-medigap-plans-affect-your-overall-medicare-costs", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
   },

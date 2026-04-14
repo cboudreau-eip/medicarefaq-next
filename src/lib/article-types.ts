@@ -189,6 +189,8 @@ export interface SimpleFAQArticleData {
   reviewer: string;
   readTime: string;
   sections: SimpleFAQSection[];
+  /** Rich blog-style sections with tables, callouts, lists, FAQs. If present, rendered instead of sections. */
+  richSections?: BlogSectionContent[];
   relatedSlugs?: string[];
 }
 

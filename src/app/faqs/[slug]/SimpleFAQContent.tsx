@@ -3,6 +3,7 @@
 /**
  * Simple FAQ Article Content
  * Renders FAQ articles with headings + paragraphs, TOC sidebar, helpful vote, CTA banner.
+ * Supports rich sections (tables, callouts, lists, FAQs) via the richSections field.
  */
 
 import React, { useState, useEffect } from "react";
@@ -16,15 +17,21 @@ import {
   ThumbsDown,
   Phone,
   ArrowRight,
+  Info,
+  AlertTriangle,
+  CheckCircle,
+  Lightbulb,
+  ChevronDown,
+  ChevronUp,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import type { SimpleFAQArticleData } from "@/lib/article-types";
+import type { SimpleFAQArticleData, BlogSectionContent } from "@/lib/article-types";
 import { blogArticles } from "@/lib/blog-articles-data";
 
 /* ─── Set of all blog slugs for cross-reference routing ─── */
 const blogSlugs = new Set(blogArticles.map((a) => a.slug));
 
-/* ─── Render markdown-style [text](url) links within paragraph text ─── */
+/* ─── Render markdown-style [text](url) links within text ─── */
 function renderInlineLinks(text: string, key: number | string): React.ReactNode {
   const parts: React.ReactNode[] = [];
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
@@ -55,6 +62,213 @@ function renderInlineLinks(text: string, key: number | string): React.ReactNode 
   return parts.length > 0 ? parts : text;
 }
 
+/* ─── Render paragraph with markdown links ─── */
+function renderParagraph(text: string, key: number | string, className?: string) {
+  const parts: React.ReactNode[] = [];
+  const linkRegex = /\[([^\]]+)\]\(([^)]*)\)/g;
+  let lastIndex = 0;
+  let match;
+  while ((match = linkRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    const [, linkText, href] = match;
+    if (!href || href.trim() === "") {
+      parts.push(<strong key={`bold-${match.index}`}>{linkText}</strong>);
+    } else {
+      const isInternal = href.startsWith("/");
+      parts.push(
+        isInternal ? (
+          <Link key={`link-${match.index}`} href={href} className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors">
+            {linkText}
+          </Link>
+        ) : (
+          <a key={`link-${match.index}`} href={href} target="_blank" rel="noopener noreferrer" className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors">
+            {linkText}
+          </a>
+        )
+      );
+    }
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return (
+    <p key={key} className={className || "text-[#4B5563] text-[15px] leading-relaxed mb-3"}>
+      {parts}
+    </p>
+  );
+}
+
+/* ─── FAQ Accordion Item ─── */
+function FAQItem({ question, answer }: { question: string; answer: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border border-[#E5E7EB] rounded-lg overflow-hidden">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between p-4 text-left hover:bg-[#F5F7FA] transition-colors"
+      >
+        <span className="font-semibold text-[#1B2A4A] text-[15px] pr-4">{question}</span>
+        {open ? (
+          <ChevronUp className="w-5 h-5 text-[#6B7280] shrink-0" />
+        ) : (
+          <ChevronDown className="w-5 h-5 text-[#6B7280] shrink-0" />
+        )}
+      </button>
+      {open && (
+        <div className="px-4 pb-4 text-[#4B5563] text-[15px] leading-relaxed border-t border-[#E5E7EB] pt-3">
+          {renderInlineLinks(answer, "faq-answer")}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ─── Rich Section Renderer (tables, callouts, lists, FAQs) ─── */
+function renderRichSection(section: BlogSectionContent, idx: number) {
+  switch (section.type) {
+    case "heading": {
+      const Tag = section.level === 3 ? "h3" : "h2";
+      const cls =
+        section.level === 3
+          ? "text-xl font-bold text-[#1B2A4A] mt-8 mb-3"
+          : "text-2xl font-bold text-[#1B2A4A] mt-10 mb-4 pb-2 border-b border-[#E5E7EB]";
+      return (
+        <Tag key={idx} id={section.id} className={cls}>
+          {section.text}
+        </Tag>
+      );
+    }
+    case "paragraph":
+      return renderParagraph(
+        section.content || "",
+        idx,
+        "text-[#374151] text-[16px] leading-relaxed mb-4"
+      );
+    case "list":
+      return section.ordered ? (
+        <ol key={idx} className="list-decimal list-outside ml-6 space-y-2 mb-4">
+          {(section.items || []).map((item, i) => (
+            <li key={i} className="text-[#374151] text-[16px] leading-relaxed">
+              {renderInlineLinks(item, i)}
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <ul key={idx} className="list-disc list-outside ml-6 space-y-2 mb-4">
+          {(section.items || []).map((item, i) => (
+            <li key={i} className="text-[#374151] text-[16px] leading-relaxed">
+              {renderInlineLinks(item, i)}
+            </li>
+          ))}
+        </ul>
+      );
+    case "table":
+      return (
+        <div key={idx} className="overflow-x-auto mb-6 rounded-lg border border-[#E5E7EB]">
+          <table className="w-full text-sm">
+            {section.headers && (
+              <thead className="bg-[#1B2A4A] text-white">
+                <tr>
+                  {section.headers.map((h, i) => (
+                    <th key={i} className="px-4 py-3 text-left font-semibold">
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+            )}
+            <tbody>
+              {(section.rows || []).map((row, ri) => (
+                <tr
+                  key={ri}
+                  className={ri % 2 === 0 ? "bg-white" : "bg-[#F9FAFB]"}
+                >
+                  {row.map((cell, ci) => (
+                    <td key={ci} className="px-4 py-3 text-[#374151] border-t border-[#E5E7EB]">
+                      {renderInlineLinks(cell, `${ri}-${ci}`)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {section.footnote && (
+            <p className="text-xs text-[#6B7280] px-4 py-2 bg-[#F9FAFB] border-t border-[#E5E7EB]">
+              {section.footnote}
+            </p>
+          )}
+        </div>
+      );
+    case "callout": {
+      const calloutStyles = {
+        warning: {
+          bg: "bg-[#FEF3C7]",
+          border: "border-[#FDE68A]",
+          title: "text-[#92400E]",
+          icon: AlertTriangle,
+          iconColor: "text-[#D97706]",
+        },
+        info: {
+          bg: "bg-[#EFF6FF]",
+          border: "border-[#BFDBFE]",
+          title: "text-[#1E40AF]",
+          icon: Info,
+          iconColor: "text-[#3B82F6]",
+        },
+        success: {
+          bg: "bg-[#F0FDF4]",
+          border: "border-[#BBF7D0]",
+          title: "text-[#166534]",
+          icon: CheckCircle,
+          iconColor: "text-[#22C55E]",
+        },
+        tip: {
+          bg: "bg-[#F5F3FF]",
+          border: "border-[#DDD6FE]",
+          title: "text-[#5B21B6]",
+          icon: Lightbulb,
+          iconColor: "text-[#7C3AED]",
+        },
+      };
+      const style = calloutStyles[section.calloutType || "info"] || calloutStyles.info;
+      const Icon = style.icon;
+      return (
+        <div
+          key={idx}
+          className={`${style.bg} ${style.border} border rounded-xl p-5 mb-6`}
+        >
+          <div className="flex items-start gap-3">
+            <Icon className={`w-5 h-5 ${style.iconColor} shrink-0 mt-0.5`} />
+            <div>
+              {section.calloutTitle && (
+                <p className={`font-bold text-sm mb-1 ${style.title}`}>
+                  {section.calloutTitle}
+                </p>
+              )}
+              <p className="text-[#374151] text-[15px] leading-relaxed">
+                {renderInlineLinks(section.calloutText || "", idx)}
+              </p>
+            </div>
+          </div>
+        </div>
+      );
+    }
+    case "faq":
+      return (
+        <div key={idx} className="space-y-3 mb-6">
+          {(section.faqs || []).map((faq, i) => (
+            <FAQItem key={i} question={faq.question} answer={faq.answer} />
+          ))}
+        </div>
+      );
+    default:
+      return null;
+  }
+}
+
 export default function SimpleFAQContent({ article }: { article: SimpleFAQArticleData }) {
   const [helpfulVote, setHelpfulVote] = useState<"yes" | "no" | null>(null);
   const [activeSection, setActiveSection] = useState("");
@@ -63,16 +277,21 @@ export default function SimpleFAQContent({ article }: { article: SimpleFAQArticl
     window.scrollTo(0, 0);
   }, [article.slug]);
 
+  // Determine if using rich sections
+  const useRich = article.richSections && article.richSections.length > 0;
+
   // Build TOC from sections
-  const toc = article.sections
-    .filter((s) => s.heading)
-    .map((s, i) => ({
-      id: `section-${i}`,
-      label: s.heading,
-    }));
+  const toc = useRich
+    ? article.richSections!
+        .filter((s) => s.type === "heading" && s.level === 2)
+        .map((s) => ({ id: s.id || "", label: s.text || "" }))
+    : article.sections
+        .filter((s) => s.heading)
+        .map((s, i) => ({ id: `section-${i}`, label: s.heading }));
 
   // Scroll spy
   useEffect(() => {
+    if (!toc.length) return;
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
@@ -148,27 +367,33 @@ export default function SimpleFAQContent({ article }: { article: SimpleFAQArticl
             {/* ─── Main Article Content ─── */}
             <article className="flex-1 min-w-0">
               <div className="prose prose-lg max-w-none">
-                {article.sections.map((section, i) => (
-                  <div key={i} id={`section-${i}`} className="mb-8">
-                    {section.heading && (
-                      <h2 className="text-xl md:text-2xl font-bold text-[#1B2A4A] mb-3">
-                        {section.heading}
-                      </h2>
-                    )}
-                    {section.paragraphs.map((p, j) => (
-                      <p key={j} className="text-[#4B5563] text-[15px] leading-relaxed mb-3">
-                        {renderInlineLinks(p, j)}
-                      </p>
-                    ))}
-                    {section.listItems && section.listItems.length > 0 && (
-                      <ul className="list-disc pl-6 space-y-1.5 text-[#4B5563] text-[15px] mb-3">
-                        {section.listItems.map((item, k) => (
-                          <li key={k}>{renderInlineLinks(item, k)}</li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                ))}
+                {useRich ? (
+                  /* ─── Rich Sections (tables, callouts, lists, FAQs) ─── */
+                  article.richSections!.map((section, i) => renderRichSection(section, i))
+                ) : (
+                  /* ─── Legacy Simple Sections (heading + paragraphs) ─── */
+                  article.sections.map((section, i) => (
+                    <div key={i} id={`section-${i}`} className="mb-8">
+                      {section.heading && (
+                        <h2 className="text-xl md:text-2xl font-bold text-[#1B2A4A] mb-3">
+                          {section.heading}
+                        </h2>
+                      )}
+                      {section.paragraphs.map((p, j) => (
+                        <p key={j} className="text-[#4B5563] text-[15px] leading-relaxed mb-3">
+                          {renderInlineLinks(p, j)}
+                        </p>
+                      ))}
+                      {section.listItems && section.listItems.length > 0 && (
+                        <ul className="list-disc pl-6 space-y-1.5 text-[#4B5563] text-[15px] mb-3">
+                          {section.listItems.map((item, k) => (
+                            <li key={k}>{renderInlineLinks(item, k)}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  ))
+                )}
               </div>
 
               {/* ─── Helpful Vote ─── */}
