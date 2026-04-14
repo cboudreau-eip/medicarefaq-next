@@ -5995,7 +5995,7 @@ export const blogArticles: BlogArticleData[] = [
         "Foreign travel emergency coverage (Plans C, D, F, G, M, N)",
       ]},
       { type: "heading", level: 2, text: "Comparing Premium Cost to Potential Out-of-Pocket Savings", id: "comparison" },
-      { type: "paragraph", content: "A Plan G premium of $150/month ($1,800/year) may seem significant. But a single hospital stay under Original Medicare alone could cost $1,676 in Part A deductible plus 20% of all physician fees. For anyone with two or more hospitalizations per year, or ongoing specialist care, Medigap typically pays for itself." },
+      { type: "paragraph", content: "A Plan G premium of $150/month ($1,800/year) may seem significant. But a single hospital stay under Original Medicare alone could cost $1,676 in [Part A deductible](/original-medicare/medicare-parts/medicare-part-a) plus 20% of all physician fees. For anyone with two or more hospitalizations per year, or ongoing specialist care, Medigap typically pays for itself." },
       { type: "heading", level: 2, text: "Understanding Plan Options and Coverage Levels", id: "options" },
       { type: "paragraph", content: "Plan G is the most comprehensive plan available to new Medicare enrollees (those who turned 65 after January 1, 2020). [Plan N](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n) offers lower premiums with small copays for office visits and emergency room visits. High-deductible Plan G provides very low premiums with a $2,870 deductible in 2026." },
       { type: "heading", level: 2, text: "Long-Term Financial Value of Medigap Coverage", id: "long-term" },
@@ -6125,7 +6125,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "How Would Medicare for All Work?", id: "how-it-works" },
       { type: "paragraph", content: "Under most proposals, all Americans would be enrolled in a single government health plan. [private insurance](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) for covered services would be eliminated or severely restricted. Hospitals, doctors, and other providers would be paid by the government at negotiated rates. Patients would have no premiums, deductibles, or copays for covered services." },
       { type: "heading", level: 2, text: "Medicare For All Costs", id: "costs" },
-      { type: "paragraph", content: "Estimates of the cost of Medicare for All vary widely. The Congressional Budget Office and various think tanks have estimated the federal cost at $30–$40 trillion over 10 years. Proponents argue this would be offset by eliminating private insurance premiums and reducing administrative overhead. Critics argue the tax increases required would be substantial." },
+      { type: "paragraph", content: "Estimates of the cost of Medicare for All vary widely. The Congressional Budget Office and various think tanks have estimated the federal cost at $30–$40 trillion over 10 years, dwarfing the [current costs of Medicare](/blog/medicare-costs-2026). Proponents argue this would be offset by eliminating private insurance premiums and reducing administrative overhead. Critics argue the tax increases required would be substantial." },
       { type: "heading", level: 2, text: "Will Medicare for All Replace Medicare Advantage and Private Insurance?", id: "private-insurance" },
       { type: "paragraph", content: "Under most Medicare for All proposals, [Medicare Advantage](/faqs/medicare-advantage-vs-medicare-supplement) and private health insurance would be eliminated for services covered by the national plan. Some proposals allow supplemental private insurance for non-covered services. Current Medicare beneficiaries would transition to the new system." },
       { type: "faq", faqs: [
@@ -6237,7 +6237,7 @@ export const blogArticles: BlogArticleData[] = [
     ],
     sections: [
       { type: "heading", level: 2, text: "What is the Medicare Blue Button?", id: "what-is" },
-      { type: "paragraph", content: "The Medicare Blue Button 2.0 is a feature on MyMedicare.gov that allows Medicare beneficiaries to download their personal health and claims data. The data includes up to 3 years of [Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply), Part B, and Part D claims, along with prescription drug information, provider details, and cost information." },
+      { type: "paragraph", content: "The Medicare Blue Button 2.0 is a feature on MyMedicare.gov that allows Medicare beneficiaries to download their personal health and claims data. The data includes up to 3 years of [Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply), [Part B](/original-medicare/medicare-parts/medicare-part-b), and [Part D](/original-medicare/medicare-parts/medicare-part-d) claims, along with prescription drug information, provider details, and cost information." },
       { type: "paragraph", content: "Blue Button 2.0 uses the FHIR (Fast Healthcare Interoperability Resources) standard, allowing third-party health apps and providers to securely access your Medicare data with your permission. This enables better care coordination and personalized health management." },
       { type: "heading", level: 2, text: "How to Use the Medicare Blue Button?", id: "how-to-use" },
       { type: "list", ordered: true, items: [
@@ -6380,7 +6380,7 @@ export const blogArticles: BlogArticleData[] = [
         "Opportunities for social interaction with other pet owners",
       ]},
       { type: "heading", level: 2, text: "What are the Best Pets for Seniors", id: "best-pets" },
-      { type: "paragraph", content: "The best pet for a senior depends on lifestyle, living situation, mobility, and budget. [Dogs offer the most interaction and encourage exercise](/blog/medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job). Cats are more independent and lower maintenance. Birds provide companionship and mental stimulation. Fish are calming and require minimal care." },
+      { type: "paragraph", content: "The best pet for a senior depends on lifestyle, living situation, mobility, and budget. Dogs offer the most interaction and encourage [physical activity](/blog/guide-to-retirement-planning). Cats are more independent and lower maintenance. Birds provide companionship and mental stimulation. Fish are calming and require minimal care." },
       { type: "heading", level: 2, text: "Top 10 Best Dog Breeds for Seniors", id: "dog-breeds" },
       { type: "list", ordered: false, items: [
         "Cavalier King Charles Spaniel — gentle, affectionate, low exercise needs",
@@ -6404,7 +6404,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "Good Apartment Pets That Are Cuddly", id: "apartment-pets" },
       { type: "paragraph", content: "For seniors in apartments or assisted living, smaller pets are ideal. Cats, small dogs, and birds are generally allowed in [senior living communities](/blog/senior-loneliness-statistics). Always check your community's [pet policy](/blog/5-government-benefits-for-seniors) before adopting." },
       { type: "faq", faqs: [
-        { question: "Does Medicare cover pet therapy?", answer: "Original Medicare does not cover pet therapy. However, some Medicare Advantage plans include wellness benefits that may cover pet therapy programs. Check your plan's Evidence of Coverage." },
+        { question: "Does Medicare cover pet therapy?", answer: "Original Medicare does not cover pet therapy. However, some [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) include wellness benefits that may cover pet therapy programs. Check your plan's Evidence of Coverage." },
         { question: "What is the easiest pet for a senior to care for?", answer: "Cats are widely considered the easiest pets for seniors — they're independent, clean, affectionate, and don't require walks." },
         { question: "Are pets allowed in assisted living facilities?", answer: "Policies vary by facility. Many assisted living communities allow small pets, and some have community pets. Ask about the pet policy before choosing a facility." },
       ]},
@@ -6469,7 +6469,7 @@ export const blogArticles: BlogArticleData[] = [
         "North Carolina — four seasons, mild winters in coastal areas",
       ]},
       { type: "heading", level: 2, text: "Best States To Retire for Healthcare", id: "healthcare" },
-      { type: "paragraph", content: "[Healthcare quality and [Medicare plan availability](/blog/what-happens-to-your-medicare-when-you-move-states)](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) vary significantly by state. Minnesota, Massachusetts, and Hawaii consistently rank highest for healthcare quality. Florida and Arizona offer extensive Medicare Advantage plan options due to their large senior populations. Rural states often have fewer Medicare Advantage plan choices, making Original Medicare with a Medigap supplement a better option." },
+      { type: "paragraph", content: "Healthcare quality and [Medicare plan availability](/blog/what-happens-to-your-medicare-when-you-move-states) vary significantly by state. Minnesota, Massachusetts, and Hawaii consistently rank highest for healthcare quality. Florida and Arizona offer extensive Medicare Advantage plan options due to their large senior populations. Rural states often have fewer Medicare Advantage plan choices, making [Original Medicare with a Medigap supplement](/medicare-supplements) a better option." },
       { type: "faq", faqs: [
         { question: "Does moving to a new state affect my Medicare coverage?", answer: "Original Medicare works nationwide. If you have Medicare Advantage, you may need to switch plans if your new state is outside your plan's service area. Medigap plans are portable — your coverage follows you." },
         { question: "Which state has the most Medicare Advantage plan options?", answer: "Florida, California, and Texas typically have the most Medicare Advantage plan options due to their large senior populations and competitive insurance markets." },
@@ -6614,7 +6614,7 @@ export const blogArticles: BlogArticleData[] = [
     ],
     faqs: [
       { question: "What is the Part D out-of-pocket maximum for 2026?", answer: "The Part D out-of-pocket maximum is $2,000 in 2026. After you reach this amount, your covered drugs cost $0 for the rest of the year." },
-      { question: "Can I switch Part D plans if my drug costs are too high?", answer: "You can switch Part D plans during the Annual Enrollment Period (October 15–December 7) each year. If your circumstances change significantly, you may qualify for a Special Enrollment Period." },
+      { question: "Can I switch Part D plans if my drug costs are too high?", answer: "You can switch Part D plans during the [Annual Enrollment Period](/enrollment/annual-enrollment-period) (October 15–December 7) each year. If your circumstances change significantly, you may qualify for a Special Enrollment Period." },
     ],
     relatedSlugs: ["medicare-starter-guide-what-to-do-in-your-first-90-days", "chronic-care-management", "will-medicare-pay-for-a-nebulizer-machine"],
   },

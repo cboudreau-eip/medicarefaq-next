@@ -73,4 +73,4 @@
 - [ ] Update relatedSlugs to point more links at 72 orphaned FAQ articles
 - [ ] Consolidate 18 FAQ categories into 6-7 parent groups for cleaner filter pills
 - [x] Rewrite /faqs/applying-for-medicare with comprehensive content and 5+ internal links
-- [ ] Fix broken relatedSlugs cross-references: observation-vs-inpatient and skilled-nursing-vs-custodial-care are blog posts linked as /faqs/
+- [x] Fix broken relatedSlugs cross-references: observation-vs-inpatient and skilled-nursing-vs-custodial-care are blog posts linked as /faqs/
