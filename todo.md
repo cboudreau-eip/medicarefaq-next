@@ -77,11 +77,12 @@
 - [x] Upgrade SimpleFAQ template to support rich section types (tables, callouts, lists, FAQs)
 - [x] Rewrite /faqs/medicare-supplement-plans-medigap-pricing-methods with rich formatting and 5+ internal links
 - [x] Upgrade /faqs/applying-for-medicare to use rich formatting too
-- [ ] Add FAQ schema markup to SimpleFAQ template
-- [ ] Add Article/BreadcrumbList schema to SimpleFAQ template
-- [ ] Name community-rated states in medigap pricing methods article
-- [ ] Add external citations (CMS.gov, Medicare.gov, NAIC) to medigap pricing methods article
-- [ ] Fix SHIP link to shiphelp.org in medigap pricing methods article
-- [ ] Add author credentials/bio links to SimpleFAQ template
-- [ ] Add published/last reviewed date split to SimpleFAQ article data and template
-- [ ] Fix OG image for medigap pricing methods article (replace old WordPress URL)
+- [x] Add FAQ schema markup to SimpleFAQ template
+- [x] Add Article/BreadcrumbList schema to SimpleFAQ template
+- [x] Name community-rated states in medigap pricing methods article
+- [x] Add external citations (CMS.gov, Medicare.gov, NAIC) to medigap pricing methods article
+- [x] Fix SHIP link to shiphelp.org in medigap pricing methods article
+- [x] Add author/reviewer credentials trust bar to SimpleFAQ template
+- [x] Add published/last reviewed date split to SimpleFAQ article data and template
+- [x] Fix OG image for medigap pricing methods article (replace old WordPress URL)
+- [ ] Add Article/FAQ/Breadcrumb schema to CoverageArticleContent template (test: dental implants page)
