@@ -890,32 +890,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medigap-vs-medicare-advantage", "why-medicare-supplements-offer-peace-of-mind"],
   },
-  {
-    slug: 'does-medicare-cover-gender-reassignment-surgery',
-    seo: {
-      title: 'Does Medicare Cover Gender Reassignment Surgery?',
-      description: 'Does Medicare cover your gender confirmation surgery? Explore your options and learn more about coverage for LGBT healthcare.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-gender-reassignment-surgery/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-gender-reassignment-surgery.jpg',
-    },
-    title: 'Does Medicare Cover Gender Reassignment Surgery?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'January 4, 2023',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'How Do I Find Medicare Doctors Near Me?',
-        paragraphs: [
-          'Updated on January 4, 2023',
-          'Not all [doctors accept [Medicare](/faqs/what-is-medicare)](/faqs/finding-local-doctors-who-accept-medicare). However, over 98% of doctors nationwide do accept Medicare. So,...',
-        ],
-      },
-    ],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-robotic-surgery", "medicare-coverage-for-plastic-surgery", "advance-beneficiary-notice"],
-  },
+  // does-medicare-cover-gender-reassignment-surgery moved to coverage-data.ts
   {
     slug: 'when-can-i-change-my-medicare-supplement-plan',
     seo: {
@@ -1092,32 +1067,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "does-medicare-cover-macular-degeneration", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
   },
-  {
-    slug: 'does-medicare-cover-leqembi',
-    seo: {
-      title: 'Does Medicare Cover Leqembi?',
-      description: 'Leqembi is a new Alzheimer’s drug recently approved by the FDA. Learn about Medicare coverage for Leqembi and your costs here.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-leqembi.jpg',
-    },
-    title: 'Does Medicare Cover Leqembi?',
-    summary: 'Leqembi was approved by the FDA to treat the early stages of Alzheimer’s disease. It was granted full approval on July 6, 2023. After much-anticipated debate, Medicare is providing coverage for Leqembi through Medicare Part B. Find out about Leqembi and how to get Medicare coverage for the drug below.',
-    category: 'Coverage',
-    dateUpdated: 'November 14, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '4 min',
-    sections: [
-      {
-        heading: 'Do I Really Need Supplemental Insurance with Medicare?',
-        paragraphs: [
-          'Updated on November 14, 2023',
-          'If you have [Original Medicare](/faqs/original-medicare-vs-medicare-advantage), a [Medicare Supplement plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) may help you cover the costs...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-cancer", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "medicare-preventive-services", "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know"],
-  },
+
   {
     slug: 'does-medicare-cover-root-canals',
     seo: {
@@ -1225,32 +1175,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period"],
   },
-  {
-    slug: 'does-medicare-cover-end-stage-renal-disease',
-    seo: {
-      title: 'End-Stage Renal Disease (ESRD) Medicare',
-      description: 'ESRD Medicare coverage provides benefits for patients in the U.S., and Medicare Advantage plans now cover patients without restrictions.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-end-stage-renal-disease/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-end-stage-renal-disease.jpg',
-    },
-    title: 'End-Stage Renal Disease (ESRD) Medicare',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'February 11, 2022',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Coverage for Dialysis Treatments',
-        paragraphs: [
-          'Updated on February 11, 2022',
-          '[Medicare covers](/blog/medicare-parts-a-b-c-and-d-explained-simply) most forms of [dialysis treatment](/faqs/medicare-cover-dialysis-treatments). Medicare will cover a range of treatments, including...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-advantage-for-chronic-conditions-what-you-need-to-know", "medicare-coverage-for-in-home-caregivers", "medicare-preventive-services"],
-  },
+  // does-medicare-cover-end-stage-renal-disease moved to coverage-data.ts
   {
     slug: 'does-medicare-cover-robotic-surgery',
     seo: {
@@ -1511,32 +1436,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["does-medicare-cover-mental-health", "medicare-preventive-services", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-smoking-cessation-treatments"],
   },
-  {
-    slug: 'does-medicare-cover-macular-degeneration',
-    seo: {
-      title: 'Does Medicare Cover Macular Degeneration',
-      description: 'Medicare does cover many of the diagnostic tests and treatments for macular degeneration. Read here to learn more about your coverage!',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-macular-degeneration/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-macular-degeneration.jpg',
-    },
-    title: 'Does Medicare Cover Macular Degeneration',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'April 25, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Vision',
-        paragraphs: [
-          'Updated on April 25, 2023',
-          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) [routine vision coverage](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) is not comprehensive. However, you have options when it comes...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "medicare-and-vision-dental-and-hearing-what-are-your-options", "medicare-vision-care-coverage"],
-  },
+
   {
     slug: 'does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another',
     seo: {

@@ -1290,32 +1290,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "how-the-medigap-free-look-period-protects-you"],
   },
-  {
-    slug: 'does-medicare-cover-meals-on-wheels',
-    seo: {
-      title: 'Medicare Coverage of Meal Delivery Programs for Seniors',
-      description: 'Many beneficiaries who have trouble getting around to the grocery store ask if Medicare covers meal delivery programs. Find out here!',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-meals-on-wheels/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Medicare-Coverage-of-Meal-Delivery-Programs-for-Seniors.jpg',
-    },
-    title: 'Medicare Coverage of Meal Delivery Programs for Seniors',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'February 19, 2026',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-and-alternative-therapies-whats-covered-and-whats-not", "does-medicare-offer-a-grocery-allowance", "5-government-benefits-for-seniors", "discounts-for-seniors"],
-  },
+
   {
     slug: 'medicare-initial-enrollment-period',
     seo: {

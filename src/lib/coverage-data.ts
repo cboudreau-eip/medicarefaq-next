@@ -7700,4 +7700,1095 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
   },
 
+// ─── Does Medicare Cover Leqembi ────────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-leqembi",
+    seo: {
+      title: "Does Medicare Cover Leqembi? 2026 Coverage & Cost Guide | MedicareFAQ",
+      description: "Medicare covers Leqembi (lecanemab) for early Alzheimer's disease under Part B with a doctor-supervised infusion. Learn about eligibility, costs, and what Medigap covers.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-leqembi.jpg",
+    },
+    title: "Does Medicare Cover Leqembi?",
+    subtitle: "Yes — Medicare Part B covers Leqembi (lecanemab) for early-stage Alzheimer's disease when specific eligibility criteria are met. Learn what you need to qualify, what you'll pay, and how supplemental coverage can reduce your costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers Leqembi (lecanemab) for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria. Coverage requires a confirmed Alzheimer's diagnosis, evidence of amyloid plaques, and treatment through a provider enrolled in a qualifying registry or clinical study. You pay 20% coinsurance after your Part B deductible. A Medigap plan can cover that 20%, significantly reducing your out-of-pocket costs for this expensive treatment.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% of infusion cost after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Not Covered", icon: "x", notes: "Leqembi is an outpatient infusion — Part A does not apply" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Part B" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered with eligibility requirements",
+        paragraphs: [
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers Leqembi as a physician-administered drug under its outpatient drug benefit. Because Leqembi is given as an intravenous infusion in a clinical setting, it falls under Part B rather than [Part D](/faqs/what-is-medicare-part-d) (which covers self-administered drugs).",
+          "CMS expanded coverage for Leqembi in 2023 following its traditional FDA approval, requiring that treatment occur through a provider participating in a qualifying registry. Patients must have a confirmed diagnosis of mild cognitive impairment or mild dementia due to Alzheimer's disease, along with confirmed amyloid pathology (typically via PET scan or cerebrospinal fluid test).",
+          "Leqembi is administered as an IV infusion every two weeks. The drug's list price is approximately $26,500 per year, making the 20% Part B coinsurance a significant expense without supplemental coverage.",
+        ],
+        whatItCovers: [
+          "Leqembi (lecanemab) infusions every two weeks",
+          "Amyloid PET scan or CSF test to confirm diagnosis (when medically necessary)",
+          "MRI monitoring scans required during treatment",
+          "Physician supervision and administration fees",
+          "Related infusion center facility fees",
+        ],
+        whatItDoesntCover: [
+          "Treatment for moderate or severe Alzheimer's disease",
+          "Leqembi for patients without confirmed amyloid pathology",
+          "Treatment outside of a qualifying registry or clinical study (prior to full CMS approval)",
+          "Self-administered Alzheimer's medications (covered under Part D instead)",
+        ],
+        costNote: "Leqembi costs approximately $26,500/year. With Part B, you pay 20% coinsurance (~$5,300/year) after the $257 annual deductible. Medigap Plan G would cover the 20%, leaving only the $257 deductible.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover Leqembi under the same rules as Original Medicare. However, your actual out-of-pocket costs depend on your specific plan's cost-sharing structure, and you must use in-network providers and infusion centers.",
+          "Some Medicare Advantage plans may require prior authorization before approving Leqembi treatment. Contact your plan before beginning treatment to understand the approval process and confirm that your neurologist and infusion center are in-network.",
+        ],
+        whatItCovers: [
+          "Leqembi infusions at in-network facilities",
+          "Required monitoring scans and physician visits",
+          "Infusion administration fees",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network infusion centers (unless plan has out-of-network benefits)",
+          "Treatment not pre-authorized by the plan",
+        ],
+        callout: {
+          type: "warning",
+          title: "Prior authorization may be required",
+          text: "Many Medicare Advantage plans require prior authorization for Leqembi. Contact your plan before scheduling your first infusion to avoid unexpected denials or costs.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can dramatically reduce the out-of-pocket cost of Leqembi treatment. Because Leqembi is covered by Part B, Medigap plans that cover Part B coinsurance will pay the 20% that Original Medicare leaves behind.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) is the most comprehensive plan available to new Medicare enrollees. After you pay the $257 annual Part B deductible, Plan G covers 100% of the Part B coinsurance — meaning your annual Leqembi cost could be as low as $257 instead of over $5,000.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) — covered by most Medigap plans",
+          "Part B deductible — covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
+          "Excess charges — covered by Plans F and G",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Original Medicare",
+          "Part D prescription drugs (Medigap does not cover Part D)",
+        ],
+        costNote: "With Medigap Plan G, your annual out-of-pocket cost for Leqembi infusions is just the $257 Part B deductible. Without a supplement, you could owe over $5,000 per year in coinsurance.",
+      },
+    ],
+    costTable: {
+      title: "Estimated Leqembi Costs Under Medicare (2026)",
+      headers: ["Cost Item", "Annual Amount", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Cost Item": "Leqembi drug cost (list price)",
+          "Annual Amount": "~$26,500/year",
+          "Your Cost (No Supplement)": "20% coinsurance = ~$5,300/year",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Cost Item": "Amyloid PET scan (initial diagnosis)",
+          "Annual Amount": "~$3,000–$5,000",
+          "Your Cost (No Supplement)": "20% coinsurance after deductible",
+          "Your Cost (With Plan G)": "$0 after deductible",
+        },
+        {
+          "Cost Item": "MRI monitoring scans (required during treatment)",
+          "Annual Amount": "~$500–$1,500/year",
+          "Your Cost (No Supplement)": "20% coinsurance after deductible",
+          "Your Cost (With Plan G)": "$0 after deductible",
+        },
+        {
+          "Cost Item": "Infusion administration fees",
+          "Annual Amount": "Varies by facility",
+          "Your Cost (No Supplement)": "20% coinsurance after deductible",
+          "Your Cost (With Plan G)": "$0 after deductible",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Leqembi list price is approximately $26,500/year as of 2026. Part B deductible: $257/year. Actual costs vary by provider and location.",
+    },
+    exceptionsSection: {
+      title: "Eligibility Requirements for Medicare Coverage of Leqembi",
+      items: [
+        {
+          title: "Who Qualifies for Medicare Coverage",
+          text: "To receive Medicare coverage for Leqembi, you must have a confirmed diagnosis of mild cognitive impairment (MCI) or mild dementia due to Alzheimer's disease, confirmed amyloid pathology (via PET scan or cerebrospinal fluid test), and treatment must be provided through a qualifying registry or CMS-approved clinical study. Patients with moderate or severe Alzheimer's disease do not currently qualify.",
+          highlight: "CMS coverage requirements for Leqembi may change as more clinical data becomes available. Always confirm current eligibility criteria with your neurologist and Medicare plan before beginning treatment.",
+        },
+        {
+          title: "ARIA: A Key Safety Consideration",
+          text: "Leqembi carries a risk of amyloid-related imaging abnormalities (ARIA), which are brain swelling or microbleeds that can occur during treatment. Medicare covers the MRI monitoring scans required to detect ARIA. Patients with certain genetic profiles (APOE4 carriers) have a higher risk of ARIA and should discuss this with their neurologist before starting treatment.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover Leqembi?",
+        answer: "Yes. Medicare Part B covers Leqembi for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria, including confirmed amyloid pathology and treatment through a qualifying registry. You pay 20% coinsurance after the $257 Part B deductible.",
+      },
+      {
+        question: "How much does Leqembi cost with Medicare?",
+        answer: "Leqembi's list price is approximately $26,500 per year. With Medicare Part B, you pay 20% coinsurance, which is about $5,300 per year, plus the $257 annual Part B deductible. With a Medigap Plan G, your cost drops to just the $257 deductible per year.",
+      },
+      {
+        question: "Does Medicare cover the amyloid PET scan needed to qualify for Leqembi?",
+        answer: "Medicare Part B covers amyloid PET scans when they are medically necessary to confirm an Alzheimer's diagnosis for Leqembi eligibility. Coverage is limited to one scan per patient. You pay 20% coinsurance after the Part B deductible.",
+      },
+      {
+        question: "Does Medicare Advantage cover Leqembi?",
+        answer: "Yes. Medicare Advantage plans are required to cover Leqembi under the same rules as Original Medicare. However, your plan may require prior authorization, and you must use in-network providers. Contact your plan before scheduling treatment.",
+      },
+      {
+        question: "Does Medicare cover other Alzheimer's drugs like Aduhelm?",
+        answer: "Medicare Part B previously covered Aduhelm (aducanumab) under the same registry requirement. However, Biogen withdrew Aduhelm from the market in 2024. Leqembi is currently the primary FDA-approved amyloid-targeting therapy with Medicare coverage. Other Alzheimer's medications (such as Aricept or Namenda) are covered under Medicare Part D.",
+      },
+      {
+        question: "What is the difference between Leqembi and Kisunla?",
+        answer: "Both Leqembi (lecanemab) and Kisunla (donanemab) are FDA-approved amyloid-targeting therapies for early Alzheimer's disease. As of 2026, Medicare covers Leqembi under Part B. Coverage for Kisunla may vary — check with your Medicare plan for the latest coverage status.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare Part B</strong> covers Leqembi infusions for eligible early-stage Alzheimer's patients" },
+      { icon: "check", text: "Confirmed <strong>amyloid pathology</strong> (PET scan or CSF test) is required to qualify" },
+      { icon: "alert", text: "Treatment must occur through a <strong>qualifying registry</strong> or CMS-approved study" },
+      { icon: "dollar", text: "Drug costs ~$26,500/year; your 20% coinsurance = <strong>~$5,300/year</strong> without a supplement" },
+      { icon: "dollar", text: "With <strong>Medigap Plan G</strong>, your cost drops to just the $257 Part B deductible" },
+      { icon: "info", text: "Medicare Advantage plans must cover Leqembi — <strong>prior authorization</strong> may be required" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Alzheimer's Care?", description: "Learn how Medicare covers memory care, cognitive assessments, and Alzheimer's-related services.", slug: "does-medicare-cover-alzheimers-care" },
+      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers, including outpatient services and physician-administered drugs.", slug: "what-is-medicare-part-b" },
+      { title: "Medicare Supplement Plan G", description: "See how Medigap Plan G can cover the 20% coinsurance that Part B leaves behind.", slug: "medicare-supplement-plan-g" },
+      { title: "Does Medicare Cover Memory Care?", description: "Find out what Medicare covers for memory care facilities and cognitive decline.", slug: "does-medicare-cover-memory-care" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Alzheimers Care",
+      "What Is Medicare Part B",
+      "Medicare Supplement Plan G",
+      "Does Medicare Cover Memory Care",
+    ],
+    ctaBanner: {
+      title: "Worried About Leqembi Costs?",
+      text: "A Medigap plan can cover the 20% Part B coinsurance for Leqembi, potentially saving you thousands per year. Our licensed agents can help you compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-alzheimers-care", "what-is-medicare-part-b", "medicare-supplement-plan-g", "does-medicare-cover-memory-care"],
+  },
+
+  // ─── Does Medicare Cover Macular Degeneration ───────────────────────────────
+  {
+    slug: "does-medicare-cover-macular-degeneration",
+    seo: {
+      title: "Does Medicare Cover Macular Degeneration? 2026 Guide | MedicareFAQ",
+      description: "Medicare Part B covers macular degeneration treatments including anti-VEGF injections (Eylea, Lucentis, Avastin), laser therapy, and photodynamic therapy. Learn about costs and coverage.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-macular-degeneration/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-macular-degeneration.jpg",
+    },
+    title: "Does Medicare Cover Macular Degeneration?",
+    subtitle: "Yes — Medicare Part B covers medically necessary macular degeneration treatments, including anti-VEGF injections, laser therapy, and photodynamic therapy. Learn what you'll pay and how supplemental coverage can help.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers medically necessary macular degeneration treatments. This includes anti-VEGF injections (such as Eylea, Lucentis, and Avastin), laser photocoagulation, and photodynamic therapy (PDT). Routine eye exams and eyeglasses are not covered by Original Medicare, but treatments for diagnosed eye diseases are. You pay 20% coinsurance after the $257 Part B deductible.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers anti-VEGF injections, laser therapy, PDT — 80% after $257 deductible" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Limited", icon: "shield", notes: "Covers treatment if performed during a qualifying hospital inpatient stay" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; may include extra vision benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Part B" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers treatments for macular degeneration because they are medically necessary to prevent or slow vision loss — a diagnosed medical condition. This is an important distinction: Medicare does not cover routine eye exams or eyeglasses, but it does cover treatment for eye diseases like macular degeneration, glaucoma, and diabetic retinopathy.",
+          "The most common treatment for wet age-related macular degeneration (AMD) is anti-VEGF (vascular endothelial growth factor) injections. These drugs — including Eylea (aflibercept), Lucentis (ranibizumab), and Avastin (bevacizumab, used off-label) — are injected directly into the eye by a retinal specialist. Because they are physician-administered drugs, they are covered under Part B rather than Part D.",
+          "Medicare also covers laser photocoagulation (for certain types of AMD) and photodynamic therapy (PDT) with Visudyne for wet AMD. Diagnostic imaging such as optical coherence tomography (OCT) and fluorescein angiography used to monitor the condition are also covered.",
+        ],
+        whatItCovers: [
+          "Anti-VEGF injections: Eylea, Lucentis, Avastin (off-label), Beovu, Vabysmo",
+          "Laser photocoagulation for certain AMD types",
+          "Photodynamic therapy (PDT) with Visudyne",
+          "Optical coherence tomography (OCT) scans",
+          "Fluorescein angiography for diagnosis and monitoring",
+          "Retinal specialist office visits",
+          "Low vision aids (in limited circumstances)",
+        ],
+        whatItDoesntCover: [
+          "Routine eye exams (not related to a diagnosed eye disease)",
+          "Eyeglasses or contact lenses (except after cataract surgery)",
+          "Dry AMD treatments (no FDA-approved treatment currently exists)",
+          "Vitamins or supplements (such as AREDS2 formula)",
+        ],
+        costNote: "Part B covers 80% of the Medicare-approved amount for anti-VEGF injections. You pay 20% coinsurance after the $257 annual deductible. Anti-VEGF injections can cost $1,000–$2,000 per injection, meaning your 20% share could be $200–$400 per injection without a supplement.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — may include extra vision benefits",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all macular degeneration treatments covered by Original Medicare. Many plans also offer supplemental vision benefits that go beyond Original Medicare, such as coverage for routine eye exams and eyeglasses — benefits that Original Medicare does not include.",
+          "If you have macular degeneration and are considering a Medicare Advantage plan, check both the medical coverage (for treatments) and the supplemental vision benefits (for exams and glasses). Make sure your retinal specialist is in the plan's network.",
+        ],
+        whatItCovers: [
+          "All anti-VEGF injections and other AMD treatments covered by Original Medicare",
+          "Routine eye exams (as a supplemental benefit on many plans)",
+          "Eyeglasses or contact lens allowance (as a supplemental benefit on many plans)",
+          "Retinal specialist visits",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network retinal specialists (unless plan has out-of-network benefits)",
+          "Treatments not pre-authorized by the plan",
+        ],
+        callout: {
+          type: "tip",
+          title: "Look for vision supplemental benefits",
+          text: "Many Medicare Advantage plans include routine vision coverage (exams + eyeglasses) as a supplemental benefit. If you have macular degeneration, compare plans that offer both strong medical coverage and vision benefits.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can significantly reduce the cost of ongoing macular degeneration treatment. Because anti-VEGF injections can be needed every 4–8 weeks, the 20% Part B coinsurance adds up quickly over the course of a year.",
+          "With [Medigap Plan G](/faqs/medicare-supplement-plan-g), after paying the $257 annual Part B deductible, you pay nothing for covered macular degeneration treatments. This can save hundreds or even thousands of dollars per year for patients receiving regular injections.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) — covered by most Medigap plans",
+          "Part B deductible — covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
+          "Part A deductible — covered by Plans D, G, and others",
+        ],
+        whatItDoesntCover: [
+          "Routine eye exams (not covered by Original Medicare, so not covered by Medigap)",
+          "Eyeglasses or contact lenses",
+          "Dry AMD supplements (AREDS2 vitamins)",
+        ],
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for anti-VEGF injections is the $257 annual Part B deductible. Without a supplement, you could pay $200–$400 per injection in coinsurance.",
+      },
+    ],
+    costTable: {
+      title: "Estimated Macular Degeneration Treatment Costs Under Medicare (2026)",
+      headers: ["Treatment", "Frequency", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Treatment": "Anti-VEGF injection (Eylea, Lucentis)",
+          "Frequency": "Every 4–8 weeks",
+          "Your Cost (No Supplement)": "~$200–$400 per injection (20% coinsurance)",
+          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+        },
+        {
+          "Treatment": "Anti-VEGF injection (Avastin, off-label)",
+          "Frequency": "Every 4–8 weeks",
+          "Your Cost (No Supplement)": "~$10–$30 per injection (20% coinsurance)",
+          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+        },
+        {
+          "Treatment": "OCT scan (monitoring)",
+          "Frequency": "Every 1–3 months",
+          "Your Cost (No Supplement)": "20% coinsurance after deductible",
+          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+        },
+        {
+          "Treatment": "Photodynamic therapy (PDT)",
+          "Frequency": "As needed",
+          "Your Cost (No Supplement)": "20% coinsurance after deductible",
+          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Anti-VEGF injection costs vary significantly by drug. Avastin is used off-label and costs significantly less than Eylea or Lucentis.",
+    },
+    exceptionsSection: {
+      title: "What Medicare Does Not Cover for Eye Conditions",
+      items: [
+        {
+          title: "Routine Eye Exams and Eyeglasses",
+          text: "Original Medicare does not cover routine eye exams, eyeglasses, or contact lenses. These are only covered by Medicare Advantage plans that include supplemental vision benefits. If you need glasses or contacts in addition to macular degeneration treatment, a Medicare Advantage plan with vision benefits may be worth considering.",
+          highlight: "Medicare does cover one pair of eyeglasses or contact lenses after cataract surgery — but this is the only vision correction benefit under Original Medicare.",
+        },
+        {
+          title: "Dry AMD: No FDA-Approved Treatment Covered",
+          text: "Dry age-related macular degeneration (dry AMD) accounts for about 85–90% of all AMD cases. As of 2026, there is one FDA-approved treatment for geographic atrophy (an advanced form of dry AMD): Syfovre (pegcetacoplan) and Izervay (avacincaptad pegol). Medicare Part B covers these injections when medically necessary. AREDS2 vitamins, which may slow dry AMD progression, are not covered by Medicare.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover eye injections for macular degeneration?",
+        answer: "Yes. Medicare Part B covers anti-VEGF eye injections for wet macular degeneration, including Eylea, Lucentis, Avastin (off-label), Beovu, and Vabysmo. These are physician-administered drugs covered under Part B, not Part D. You pay 20% coinsurance after the $257 annual deductible.",
+      },
+      {
+        question: "Does Medicare cover Eylea injections?",
+        answer: "Yes. Eylea (aflibercept) is one of the most commonly used anti-VEGF drugs for wet AMD and is covered by Medicare Part B when medically necessary. You pay 20% of the Medicare-approved amount after your Part B deductible. Eylea is one of the more expensive anti-VEGF drugs — a Medigap plan can significantly reduce your costs.",
+      },
+      {
+        question: "Does Medicare cover routine eye exams?",
+        answer: "No. Original Medicare does not cover routine eye exams for eyeglasses or contact lenses. However, Medicare does cover eye exams related to diagnosed eye diseases such as macular degeneration, glaucoma, and diabetic retinopathy. Many Medicare Advantage plans include routine vision benefits as a supplemental offering.",
+      },
+      {
+        question: "Does Medicare cover treatment for dry macular degeneration?",
+        answer: "Medicare Part B covers FDA-approved treatments for geographic atrophy (advanced dry AMD), including Syfovre and Izervay injections. AREDS2 vitamins, which may slow dry AMD progression, are not covered by Medicare. There is currently no Medicare coverage for supplements or vitamins for dry AMD.",
+      },
+      {
+        question: "Does Medicare cover cataract surgery for patients with macular degeneration?",
+        answer: "Yes. Medicare Part B covers cataract surgery regardless of whether you also have macular degeneration. However, patients with macular degeneration may have different visual outcomes from cataract surgery. Your ophthalmologist can advise on the best approach for your specific situation.",
+      },
+      {
+        question: "Does Medicare cover low vision aids?",
+        answer: "Medicare covers low vision aids in limited circumstances — specifically when prescribed by a physician for a diagnosed eye condition. However, routine eyeglasses and magnifiers are generally not covered. Some Medicare Advantage plans may offer additional low vision benefits.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare Part B</strong> covers anti-VEGF injections, laser therapy, and PDT for macular degeneration" },
+      { icon: "check", text: "Diagnostic imaging (OCT scans, fluorescein angiography) is <strong>covered</strong> when medically necessary" },
+      { icon: "x", text: "<strong>Routine eye exams</strong> and eyeglasses are NOT covered by Original Medicare" },
+      { icon: "dollar", text: "Anti-VEGF injections: you pay <strong>20% coinsurance</strong> after the $257 annual deductible" },
+      { icon: "dollar", text: "With <strong>Medigap Plan G</strong>, your cost is just the $257 deductible per year" },
+      { icon: "info", text: "Medicare Advantage plans may include <strong>supplemental vision benefits</strong> for routine exams and glasses" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Cataract Surgery?", description: "Learn how Medicare covers cataract surgery, including lens implants and post-surgery eyeglasses.", slug: "does-medicare-cover-cataract-surgery" },
+      { title: "Does Medicare Cover Glaucoma?", description: "Find out what Medicare covers for glaucoma screenings and treatment.", slug: "does-medicare-cover-glaucoma" },
+      { title: "Medicare Supplement Plan G", description: "See how Medigap Plan G can cover the 20% coinsurance that Part B leaves behind.", slug: "medicare-supplement-plan-g" },
+      { title: "Medicare Advantage Extra Benefits", description: "Explore the supplemental benefits Medicare Advantage plans offer, including vision coverage.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Cataract Surgery",
+      "Does Medicare Cover Glaucoma",
+      "Medicare Supplement Plan G",
+      "Medicare Advantage Extra Benefits",
+    ],
+    ctaBanner: {
+      title: "Need Help Managing Macular Degeneration Treatment Costs?",
+      text: "Anti-VEGF injections can add up quickly. A Medigap plan can cover the 20% Part B coinsurance, potentially saving you hundreds per injection. Our licensed agents can help you compare plans for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-cataract-surgery", "does-medicare-cover-glaucoma", "medicare-supplement-plan-g", "medicare-advantage-extra-benefits-explained-whats-really-included"],
+  },
+
+  // ─── Does Medicare Cover Meals on Wheels ────────────────────────────────────
+  {
+    slug: "does-medicare-cover-meals-on-wheels",
+    seo: {
+      title: "Does Medicare Cover Meals on Wheels? 2026 Guide | MedicareFAQ",
+      description: "Original Medicare does not cover Meals on Wheels, but Medicare Advantage plans may cover temporary meal delivery. Learn about alternatives and how to get meal assistance.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-meals-on-wheels/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-meals-on-wheels.jpg",
+    },
+    title: "Does Medicare Cover Meals on Wheels?",
+    subtitle: "Original Medicare does not cover Meals on Wheels or ongoing meal delivery. However, Medicare Advantage plans may cover temporary meal delivery after a hospital stay, and other programs can help. Learn what's available and how to access it.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "No, Original Medicare does not cover Meals on Wheels or ongoing home meal delivery programs. Medicare Part A covers meals during a hospital or skilled nursing facility stay. Some Medicare Advantage plans offer temporary meal delivery as a supplemental benefit — typically for a limited period after a hospital discharge. The Meals on Wheels program itself is funded separately and operates on a sliding-scale payment basis, meaning no one is denied meals due to inability to pay.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medicaid", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Inpatient)", coverage: "Limited", icon: "shield", notes: "Covers meals during hospital or skilled nursing facility stays only" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Not Covered", icon: "x", notes: "Does not cover home meal delivery programs" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Sometimes", icon: "heart", notes: "Some plans cover temporary meal delivery after hospital discharge (varies by plan)" },
+      { planType: "Medicaid", coverage: "Sometimes", icon: "users", notes: "May cover home-delivered meals through state waiver programs" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Meals at home are not covered",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers meals only when you are an inpatient at a hospital or [skilled nursing facility](/faqs/medicare-coverage-for-skilled-nursing-facilities). Meals are included as part of the inpatient stay and are not billed separately. Once you are discharged and return home, Medicare does not cover meal delivery.",
+          "Medicare Part B covers some nutrition-related services — specifically, [medical nutrition therapy (MNT)](/faqs/does-medicare-cover-medical-nutritional-therapy) for beneficiaries with diabetes or kidney disease. However, MNT covers counseling sessions with a registered dietitian, not meal delivery.",
+          "The distinction is important: Medicare covers medical services and treatments, not food or meal delivery programs. Meals on Wheels and similar programs are considered social services rather than medical services.",
+        ],
+        whatItCovers: [
+          "Meals during a hospital inpatient stay (Part A)",
+          "Meals during a skilled nursing facility stay (Part A)",
+          "Medical nutrition therapy counseling for diabetes and kidney disease (Part B)",
+        ],
+        whatItDoesntCover: [
+          "Home meal delivery programs (Meals on Wheels or similar)",
+          "Grocery delivery or food assistance",
+          "Nutritional supplements like Ensure or Boost",
+          "Meal preparation assistance at home",
+        ],
+        costNote: "Meals during a hospital stay are included in the Part A benefit — you pay the $1,676 per-benefit-period deductible for days 1–60, then $0 for meals specifically. Home meal delivery has no Medicare coverage.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Sometimes Covered",
+        coverageType: "partial",
+        statusBadge: "Temporary meal delivery on some plans",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) have the flexibility to offer supplemental benefits beyond what Original Medicare covers. Some plans include a temporary meal delivery benefit — typically 14 to 28 meals delivered to your home following a hospital discharge or for beneficiaries with chronic conditions that limit their ability to prepare food.",
+          "This benefit is not available on all Medicare Advantage plans, and the number of meals covered, duration, and eligibility requirements vary significantly by plan and location. To find out if your plan includes a meal delivery benefit, review your plan's Summary of Benefits or call the member services number on your insurance card.",
+        ],
+        whatItCovers: [
+          "Temporary meal delivery after hospital discharge (on qualifying plans)",
+          "Meals for beneficiaries with chronic conditions limiting food preparation (on qualifying plans)",
+          "Some plans partner with meal delivery services like Mom's Meals or Freshly",
+        ],
+        whatItDoesntCover: [
+          "Ongoing indefinite meal delivery (not covered by any Medicare plan)",
+          "Grocery delivery or food assistance programs",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check your plan's supplemental benefits",
+          text: "If meal delivery is important to you, look for Medicare Advantage plans that include it as a supplemental benefit during the Annual Enrollment Period (October 15 – December 7). Benefits vary significantly by plan and location.",
+        },
+      },
+      {
+        planName: "Medicaid & Other Programs",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Sometimes Covered",
+        coverageType: "partial",
+        statusBadge: "Available through state programs for qualifying individuals",
+        paragraphs: [
+          "Medicaid may cover home-delivered meals through state waiver programs for qualifying low-income beneficiaries. Eligibility and coverage vary by state. If you have both Medicare and Medicaid (dual eligible), your Medicaid case manager can help determine if you qualify for home-delivered meals.",
+          "The Meals on Wheels program itself is funded through the Older Americans Act and operates independently of Medicare. It serves adults 60 and older, with priority given to those in greatest social and economic need. No one is denied service due to inability to pay — the program operates on a sliding-scale or voluntary contribution basis.",
+        ],
+        whatItCovers: [
+          "Home-delivered meals for qualifying Medicaid beneficiaries (varies by state)",
+          "Meals on Wheels for adults 60+ (funded by Older Americans Act, not Medicare)",
+          "Community meal programs at senior centers",
+        ],
+        whatItDoesntCover: [
+          "Meals for individuals who do not meet income or functional eligibility criteria",
+          "Ongoing meal delivery through Medicare (no Medicare benefit exists)",
+        ],
+        costNote: "Meals on Wheels operates on a sliding-scale payment basis. No one is denied meals due to inability to pay. Contact your local Meals on Wheels program to learn about costs and eligibility in your area.",
+      },
+    ],
+    costTable: {
+      title: "Meal Assistance Options for Medicare Beneficiaries (2026)",
+      headers: ["Program", "Who It Covers", "Cost to You", "How to Access"],
+      rows: [
+        {
+          "Program": "Meals on Wheels",
+          "Who It Covers": "Adults 60+, homebound or unable to prepare meals",
+          "Cost to You": "Sliding scale / voluntary contribution",
+          "How to Access": "Visit mealsonwheelsamerica.org or call 1-888-998-6325",
+        },
+        {
+          "Program": "Medicare Advantage meal benefit",
+          "Who It Covers": "Plan members after hospital discharge or with chronic conditions",
+          "Cost to You": "$0 (covered as supplemental benefit)",
+          "How to Access": "Contact your Medicare Advantage plan",
+        },
+        {
+          "Program": "Medicaid home-delivered meals",
+          "Who It Covers": "Low-income beneficiaries meeting state criteria",
+          "Cost to You": "Varies by state (often $0)",
+          "How to Access": "Contact your state Medicaid office or case manager",
+        },
+        {
+          "Program": "SNAP (food stamps)",
+          "Who It Covers": "Low-income individuals meeting income requirements",
+          "Cost to You": "$0 (monthly benefit for food purchases)",
+          "How to Access": "Apply at benefits.gov or your local SNAP office",
+        },
+      ],
+      footnote: "Medicare does not cover Meals on Wheels or ongoing meal delivery. The programs listed above are alternatives that may be available depending on your income, health status, and location.",
+    },
+    exceptionsSection: {
+      title: "When Medicare Does Cover Meals",
+      items: [
+        {
+          title: "Meals During a Hospital or SNF Stay",
+          text: "Medicare Part A covers meals as part of an inpatient hospital stay or skilled nursing facility (SNF) stay. These meals are included in the facility's daily rate and are not billed separately. Coverage for SNF stays requires a qualifying 3-day hospital stay and a skilled care need.",
+          highlight: "If you are being discharged from a hospital and need help with meals at home, ask your discharge planner about whether your Medicare Advantage plan offers a post-discharge meal benefit.",
+        },
+        {
+          title: "Temporary Post-Discharge Meal Delivery",
+          text: "Some Medicare Advantage plans cover a limited number of meals delivered to your home after a hospital discharge — typically 14 to 28 meals. This benefit is designed to support recovery and reduce hospital readmissions. Availability varies by plan and location. Contact your plan's member services to find out if this benefit applies to you.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover Meals on Wheels?",
+        answer: "No. Original Medicare does not cover Meals on Wheels or any ongoing home meal delivery program. Some Medicare Advantage plans offer a temporary meal delivery benefit after a hospital discharge, but this is not available on all plans. The Meals on Wheels program is funded separately through the Older Americans Act and accepts participants on a sliding-scale payment basis.",
+      },
+      {
+        question: "Does Medicare Advantage cover meal delivery?",
+        answer: "Some Medicare Advantage plans offer temporary meal delivery as a supplemental benefit — typically 14 to 28 meals after a hospital discharge or for members with chronic conditions. This benefit varies significantly by plan and location. Review your plan's Summary of Benefits or call member services to find out if your plan includes this benefit.",
+      },
+      {
+        question: "How do I apply for Meals on Wheels?",
+        answer: "To apply for Meals on Wheels, visit mealsonwheelsamerica.org or call 1-888-998-6325 to find your local program. Most programs serve adults 60 and older who are homebound or have difficulty preparing meals. No one is denied service due to inability to pay — the program operates on a sliding-scale or voluntary contribution basis.",
+      },
+      {
+        question: "Does Medicaid cover home-delivered meals?",
+        answer: "Medicaid may cover home-delivered meals through state waiver programs for qualifying low-income beneficiaries. Eligibility and coverage vary by state. If you have both Medicare and Medicaid (dual eligible), contact your Medicaid case manager to find out if you qualify for home-delivered meals in your state.",
+      },
+      {
+        question: "Does Medicare cover nutritional supplements like Ensure?",
+        answer: "No. Medicare does not cover nutritional supplements like Ensure or Boost, even when they are the patient's primary source of nutrition. Medicare Part D prescription drug plans also do not cover these products. You will need to purchase them out of pocket.",
+      },
+      {
+        question: "Does Medicare cover a home health aide who can help with meals?",
+        answer: "Medicare Part A and Part B cover home health aide services when you are homebound and need skilled nursing care or therapy. A home health aide can assist with personal care and some meal preparation as part of a covered home health plan of care. However, Medicare does not cover home health aides for meal preparation alone — skilled care must be the primary reason for the home health visit.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare</strong> does NOT cover Meals on Wheels or home meal delivery" },
+      { icon: "check", text: "Medicare Part A covers meals during <strong>hospital and SNF stays</strong>" },
+      { icon: "alert", text: "Some <strong>Medicare Advantage plans</strong> offer temporary meal delivery after hospital discharge" },
+      { icon: "info", text: "<strong>Meals on Wheels</strong> is available to adults 60+ on a sliding-scale basis — no one is denied due to cost" },
+      { icon: "info", text: "<strong>Medicaid</strong> may cover home-delivered meals through state waiver programs" },
+      { icon: "info", text: "Ask your discharge planner about <strong>post-discharge meal benefits</strong> before leaving the hospital" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Learn how Medicare covers nutrition counseling for diabetes and kidney disease.", slug: "does-medicare-cover-medical-nutritional-therapy" },
+      { title: "Medicare Coverage for Skilled Nursing Facilities", description: "Find out when Medicare covers skilled nursing facility stays and what's included.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
+      { title: "Medicare Advantage Extra Benefits", description: "Explore the supplemental benefits Medicare Advantage plans offer, including meal delivery.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+      { title: "Does Medicare Cover Home Health Care?", description: "Learn about Medicare's coverage for home health aide services and skilled nursing at home.", slug: "does-medicare-cover-home-health-care" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Medical Nutrition Therapy",
+      "Medicare Coverage for Skilled Nursing Facilities",
+      "Medicare Advantage Extra Benefits",
+      "Does Medicare Cover Home Health Care",
+    ],
+    ctaBanner: {
+      title: "Looking for More Benefits Beyond Original Medicare?",
+      text: "Medicare Advantage plans can offer meal delivery, dental, vision, and other benefits that Original Medicare doesn't cover. Our licensed agents can help you compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-skilled-nursing-facilities", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care"],
+  },
+
+  // ─── Does Medicare Cover Medical Alert Systems ──────────────────────────────
+  {
+    slug: "does-medicare-cover-medical-alert-systems",
+    seo: {
+      title: "Does Medicare Cover Medical Alert Systems? Life Alert & More | MedicareFAQ",
+      description: "Original Medicare does not cover Life Alert or medical alert systems. Some Medicare Advantage plans may include them as supplemental benefits. Learn about costs and alternatives.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-medical-alert-systems.jpg",
+    },
+    title: "Does Medicare Cover Medical Alert Systems?",
+    subtitle: "Original Medicare does not cover Life Alert or personal emergency response systems. Some Medicare Advantage plans may include them as supplemental benefits. Learn about costs, alternatives, and how to find coverage.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "No, Original Medicare does not cover Life Alert or personal emergency response systems (PERS). Medicare classifies these devices as convenience items rather than medically necessary durable medical equipment. Some Medicare Advantage plans offer medical alert systems as supplemental benefits, either providing a device at no cost or offering a monthly allowance. If your plan doesn't include this benefit, you will pay the full cost out of pocket — typically $25–$100 per month.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Not Covered", icon: "x", notes: "Classified as a convenience item, not medically necessary DME" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Not Covered", icon: "x", notes: "Not applicable — medical alert systems are for home use" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Sometimes", icon: "heart", notes: "Some plans include medical alert devices as supplemental benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "x", notes: "Medigap only covers what Original Medicare covers — not medical alert systems" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Not covered — classified as a convenience item",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers durable medical equipment (DME) under Part B when a doctor prescribes it for a medical condition. However, personal emergency response systems like Life Alert do not qualify as DME because Medicare classifies them as convenience items rather than medically necessary equipment.",
+          "The key distinction is that Medicare focuses on treating medical conditions. A medical alert button can summon help in an emergency, but it does not treat a medical condition — so it falls outside Medicare's coverage criteria. This applies to all types of personal emergency response systems, regardless of brand or features.",
+          "Since [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) only cover what Original Medicare covers, they also do not cover medical alert systems. If you have a Medigap plan, you will still pay the full cost of a medical alert device out of pocket.",
+        ],
+        whatItCovers: [
+          "Durable medical equipment prescribed for medical conditions (walkers, wheelchairs, etc.)",
+          "Fall-related emergency services (ambulance, ER visit) — but not the alert device itself",
+          "Home health care following a fall or injury",
+        ],
+        whatItDoesntCover: [
+          "Life Alert and all personal emergency response systems",
+          "Medical alert buttons, pendants, or wristbands",
+          "GPS tracking devices for seniors",
+          "Smartphone-based medical alert apps",
+          "Fall detection devices",
+        ],
+        costNote: "Medical alert systems are not covered by Original Medicare. You pay 100% of the cost out of pocket. Monthly fees typically range from $25 to $100 depending on the provider and features.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Sometimes Covered",
+        coverageType: "partial",
+        statusBadge: "Available as a supplemental benefit on some plans",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) can offer supplemental benefits beyond what Original Medicare covers, and some include medical alert systems as part of their wellness or safety programs. This benefit typically works in one of two ways: the plan provides a specific device at no extra cost, or it offers a monthly allowance you can apply toward a device of your choice.",
+          "Coverage varies significantly between plans and geographic areas. A plan in one state may offer comprehensive medical alert benefits, while a similar plan in another state may not include this benefit at all. You need to review each plan's Summary of Benefits to understand what supplemental services are offered.",
+        ],
+        whatItCovers: [
+          "Medical alert device provided by the plan (on qualifying plans)",
+          "Monthly monitoring fee allowance (on qualifying plans)",
+          "GPS-enabled devices (on some plans)",
+          "Fall detection features (on some plans)",
+        ],
+        whatItDoesntCover: [
+          "Medical alert systems on plans that don't include this supplemental benefit",
+          "Upgrades beyond the plan's allowance",
+        ],
+        callout: {
+          type: "tip",
+          title: "Shop for plans with medical alert benefits during enrollment",
+          text: "If a medical alert system is important to you, look for Medicare Advantage plans that include it as a supplemental benefit during the Annual Enrollment Period (October 15 – December 7). Use the Medicare Plan Finder at medicare.gov to filter for plans with this benefit.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Not covered — Medigap follows Original Medicare",
+        paragraphs: [
+          "Medigap plans are designed to cover the out-of-pocket costs that Original Medicare leaves behind — such as deductibles and coinsurance. Because Original Medicare does not cover medical alert systems, Medigap plans do not cover them either.",
+          "If you have a Medigap plan and want a medical alert system, you will need to pay for it out of pocket or look into other assistance programs such as veterans' benefits or state assistance programs.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance for covered services (not medical alert systems)",
+          "Part A deductible and coinsurance",
+          "Emergency care costs after a fall (ER visit, ambulance) — but not the alert device",
+        ],
+        whatItDoesntCover: [
+          "Medical alert devices or monitoring fees",
+          "Any service not covered by Original Medicare",
+        ],
+        costNote: "Medigap does not cover medical alert systems. However, if you fall and need emergency care, Medigap can cover the resulting ER visit, ambulance, or hospital costs that Original Medicare doesn't fully pay.",
+      },
+    ],
+    costTable: {
+      title: "Medical Alert System Costs Without Medicare Coverage (2026)",
+      headers: ["Provider", "Monthly Fee", "Setup/Activation Fee", "Key Features"],
+      rows: [
+        {
+          "Provider": "Life Alert",
+          "Monthly Fee": "$50–$100",
+          "Setup/Activation Fee": "$100–$200",
+          "Key Features": "24/7 monitoring, GPS, medication reminders",
+        },
+        {
+          "Provider": "Medical Guardian",
+          "Monthly Fee": "$30–$50",
+          "Setup/Activation Fee": "$0–$100",
+          "Key Features": "Fall detection, mobile options, caregiver app",
+        },
+        {
+          "Provider": "Lively (GreatCall)",
+          "Monthly Fee": "$25–$40",
+          "Setup/Activation Fee": "$0–$50",
+          "Key Features": "Mobile devices, health monitoring, GPS",
+        },
+        {
+          "Provider": "Philips Lifeline",
+          "Monthly Fee": "$30–$60",
+          "Setup/Activation Fee": "$50–$100",
+          "Key Features": "Home and mobile systems, auto alert",
+        },
+        {
+          "Provider": "Smartphone App",
+          "Monthly Fee": "$0–$10",
+          "Setup/Activation Fee": "$0",
+          "Key Features": "Fall detection, emergency contacts, app-based",
+        },
+      ],
+      footnote: "Costs are approximate and may vary. Medicare does not cover any of these costs. Some Medicare Advantage plans may cover part or all of the monthly fee as a supplemental benefit.",
+    },
+    exceptionsSection: {
+      title: "Alternatives to Medicare Coverage for Medical Alert Systems",
+      items: [
+        {
+          title: "Veterans' Benefits (VA)",
+          text: "If you are a veteran, the U.S. Department of Veterans Affairs (VA) may provide medical alert systems or personal emergency response devices as part of your VA benefits. Contact your VA healthcare provider or local VA office to find out what assistive technology benefits are available to you.",
+          highlight: "Veterans may be eligible for medical alert devices through the VA at no cost. This is separate from Medicare and does not require Medicare coverage.",
+        },
+        {
+          title: "State and Local Assistance Programs",
+          text: "Many states and local Area Agencies on Aging offer subsidized or free medical alert systems for low-income seniors. Contact your local Area Agency on Aging (find yours at eldercare.acl.gov) to ask about available programs in your area. Some Medicaid programs also cover personal emergency response systems for qualifying beneficiaries.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover Life Alert?",
+        answer: "No. Original Medicare does not cover Life Alert or any personal emergency response system. Medicare classifies these devices as convenience items rather than medically necessary durable medical equipment. Some Medicare Advantage plans may include Life Alert or similar devices as a supplemental benefit — check your plan's Summary of Benefits.",
+      },
+      {
+        question: "Does Medicare Advantage cover medical alert systems?",
+        answer: "Some Medicare Advantage plans include medical alert systems as a supplemental benefit, either providing a device at no cost or offering a monthly allowance. Coverage varies significantly by plan and location. Review your plan's Summary of Benefits or call member services to find out if your plan includes this benefit.",
+      },
+      {
+        question: "How much does Life Alert cost without Medicare?",
+        answer: "Life Alert typically costs $50 to $100 per month for monitoring, plus a $100 to $200 activation fee. Costs vary based on the features you choose, such as GPS tracking or medication reminders. Other medical alert providers like Medical Guardian and Philips Lifeline offer similar services at lower price points.",
+      },
+      {
+        question: "Does Medicare cover fall detection devices?",
+        answer: "No. Original Medicare does not cover fall detection devices. These are classified as convenience items, not medically necessary equipment. Some Medicare Advantage plans may include fall detection as part of a medical alert system benefit.",
+      },
+      {
+        question: "Can veterans get a free medical alert system?",
+        answer: "Yes. The U.S. Department of Veterans Affairs (VA) may provide medical alert systems or personal emergency response devices as part of VA benefits for eligible veterans. Contact your VA healthcare provider or local VA office to find out what assistive technology benefits are available to you.",
+      },
+      {
+        question: "Does Medicaid cover medical alert systems?",
+        answer: "Medicaid may cover personal emergency response systems for qualifying low-income beneficiaries through state waiver programs. Coverage varies by state. Contact your state Medicaid office or case manager to find out if this benefit is available in your area.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare</strong> does NOT cover Life Alert or medical alert systems" },
+      { icon: "x", text: "<strong>Medigap</strong> does not cover medical alert systems (follows Original Medicare)" },
+      { icon: "alert", text: "Some <strong>Medicare Advantage plans</strong> include medical alert devices as supplemental benefits" },
+      { icon: "dollar", text: "Out-of-pocket cost: typically <strong>$25–$100/month</strong> plus setup fees" },
+      { icon: "info", text: "<strong>Veterans</strong> may be eligible for free medical alert devices through VA benefits" },
+      { icon: "info", text: "State programs and <strong>Area Agencies on Aging</strong> may offer subsidized devices for low-income seniors" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Durable Medical Equipment?", description: "Learn what types of durable medical equipment Medicare covers and how to qualify.", slug: "does-medicare-cover-durable-medical-equipment" },
+      { title: "Medicare Advantage Extra Benefits", description: "Explore the supplemental benefits Medicare Advantage plans offer beyond Original Medicare.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+      { title: "Does Medicare Cover Home Health Care?", description: "Find out what Medicare covers for home health aide services and skilled nursing at home.", slug: "does-medicare-cover-home-health-care" },
+      { title: "Does Medicare Cover Wheelchairs and Scooters?", description: "Learn how Medicare covers power wheelchairs, manual wheelchairs, and mobility scooters.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Durable Medical Equipment",
+      "Medicare Advantage Extra Benefits",
+      "Does Medicare Cover Home Health Care",
+      "Does Medicare Cover Wheelchairs and Scooters",
+    ],
+    ctaBanner: {
+      title: "Want a Medicare Plan That Covers More?",
+      text: "Some Medicare Advantage plans include medical alert systems, dental, vision, and other benefits that Original Medicare doesn't cover. Our licensed agents can help you compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-durable-medical-equipment", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care", "medicare-coverage-for-wheelchairs-and-scooters"],
+  },
+
+  // ─── Does Medicare Cover Medical Nutritional Therapy ────────────────────────
+  {
+    slug: "does-medicare-cover-medical-nutritional-therapy",
+    seo: {
+      title: "Does Medicare Cover Medical Nutrition Therapy? | MedicareFAQ",
+      description: "Medicare Part B covers medical nutrition therapy (MNT) at 100% for beneficiaries with diabetes or kidney disease. Learn about eligibility, covered services, and how to access this benefit.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-nutritional-therapy/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-medical-nutritional-therapy.jpg",
+    },
+    title: "Does Medicare Cover Medical Nutrition Therapy?",
+    subtitle: "Yes — Medicare Part B covers medical nutrition therapy (MNT) at 100% for beneficiaries with diabetes or kidney disease. Learn who qualifies, what's covered, and how to access this benefit.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers medical nutrition therapy (MNT) at 100% — with no coinsurance and no deductible — for beneficiaries who have diabetes, kidney disease (non-dialysis), or have had a kidney transplant within the past 36 months. Coverage requires a referral from your doctor and must be provided by a registered dietitian or nutrition professional. In the first year, Medicare covers 3 hours of MNT; in subsequent years, 2 hours per year.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered at 100%", icon: "shield", notes: "No coinsurance, no deductible — 3 hours in year 1, 2 hours/year after" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Included", icon: "shield", notes: "Nutrition services included as part of inpatient care" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same MNT services as Original Medicare; may offer additional nutrition benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Applicable", icon: "info", notes: "MNT is already covered at 100% by Part B — no coinsurance for Medigap to cover" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered at 100%",
+        coverageType: "covered",
+        statusBadge: "Fully covered — no cost-sharing for eligible beneficiaries",
+        paragraphs: [
+          "[Medicare Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers medical nutrition therapy (MNT) at 100% for beneficiaries with specific health conditions. Unlike most Part B services where you pay 20% coinsurance after the deductible, MNT is one of the few services Medicare covers with no cost-sharing at all — meaning you pay $0 for covered sessions.",
+          "MNT is a therapeutic approach to managing chronic disease through individualized nutrition assessment and counseling. Sessions are conducted by a registered dietitian (RD) or nutrition professional who accepts Medicare assignment. Your doctor must provide a referral for MNT — you cannot self-refer.",
+          "In the first year of coverage, Medicare covers up to **3 hours** of MNT. In subsequent years, Medicare covers up to **2 hours** per year. Additional hours may be covered if your doctor determines they are medically necessary. Sessions can be conducted in person or via [telehealth](/faqs/does-medicare-cover-telehealth).",
+        ],
+        whatItCovers: [
+          "Initial nutrition assessment and individualized meal planning",
+          "Follow-up counseling sessions with a registered dietitian",
+          "Group MNT sessions (in addition to individual sessions)",
+          "Telehealth MNT sessions",
+          "Reassessment and progress monitoring",
+          "3 hours in the first year of coverage",
+          "2 hours per year in subsequent years",
+          "Additional hours when medically necessary (with doctor referral)",
+        ],
+        whatItDoesntCover: [
+          "MNT for conditions other than diabetes or kidney disease",
+          "Nutritional supplements like Ensure or Boost",
+          "Meal delivery or food assistance programs",
+          "Weight loss programs (unless you have diabetes or kidney disease)",
+          "MNT provided by a provider who does not accept Medicare assignment",
+        ],
+        costNote: "MNT is covered at 100% — you pay $0 for covered sessions. The Part B deductible ($257 in 2026) does not apply to MNT. This is one of the most generous Medicare benefits available.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — may include additional nutrition benefits",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover MNT under the same rules as Original Medicare. Because Part B covers MNT at 100%, Medicare Advantage plans must also cover it at 100% for eligible beneficiaries.",
+          "Many Medicare Advantage plans offer additional nutrition-related benefits beyond MNT — such as coverage for weight management programs, nutrition counseling for conditions beyond diabetes and kidney disease, or meal delivery after hospital discharge. Check your plan's Summary of Benefits for details.",
+        ],
+        whatItCovers: [
+          "All MNT services covered by Original Medicare",
+          "Additional nutrition counseling (on some plans, as supplemental benefit)",
+          "Weight management programs (on some plans)",
+        ],
+        whatItDoesntCover: [
+          "MNT for conditions not covered by Original Medicare (unless as supplemental benefit)",
+          "Nutritional supplements",
+        ],
+        callout: {
+          type: "tip",
+          title: "Ask about additional nutrition benefits",
+          text: "Some Medicare Advantage plans offer nutrition counseling for a broader range of conditions than Original Medicare covers. If you have conditions like heart disease, obesity, or cancer, ask your plan about supplemental nutrition benefits.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Applicable",
+        coverageType: "partial",
+        statusBadge: "No cost-sharing to supplement — MNT is already free",
+        paragraphs: [
+          "Medigap plans are designed to cover the out-of-pocket costs that Original Medicare leaves behind — such as deductibles and coinsurance. Because MNT is already covered at 100% by Medicare Part B with no cost-sharing, there is nothing for Medigap to cover.",
+          "If you have a Medigap plan, you still benefit from MNT coverage — you simply won't need to use your Medigap plan for these sessions since they are already free under Part B.",
+        ],
+        whatItCovers: [
+          "No cost-sharing to cover (MNT is already 100% covered by Part B)",
+          "Other Part B services with coinsurance (not MNT specifically)",
+        ],
+        whatItDoesntCover: [
+          "Nutritional supplements or meal delivery",
+          "MNT for conditions not covered by Original Medicare",
+        ],
+        costNote: "MNT is free under Medicare Part B for eligible beneficiaries. Medigap is not needed for MNT coverage — your cost is $0 regardless of whether you have a supplement.",
+      },
+    ],
+    costTable: {
+      title: "Medical Nutrition Therapy Coverage Under Medicare (2026)",
+      headers: ["Service", "Coverage", "Your Cost", "Hours Covered"],
+      rows: [
+        {
+          "Service": "Initial MNT assessment (year 1)",
+          "Coverage": "Medicare Part B — 100%",
+          "Your Cost": "$0",
+          "Hours Covered": "Up to 3 hours in year 1",
+        },
+        {
+          "Service": "Follow-up MNT sessions (year 2+)",
+          "Coverage": "Medicare Part B — 100%",
+          "Your Cost": "$0",
+          "Hours Covered": "Up to 2 hours per year",
+        },
+        {
+          "Service": "Additional MNT hours (medically necessary)",
+          "Coverage": "Medicare Part B — 100%",
+          "Your Cost": "$0",
+          "Hours Covered": "As ordered by your doctor",
+        },
+        {
+          "Service": "Telehealth MNT sessions",
+          "Coverage": "Medicare Part B — 100%",
+          "Your Cost": "$0",
+          "Hours Covered": "Counts toward annual hour limit",
+        },
+        {
+          "Service": "Obesity counseling (BMI ≥ 30)",
+          "Coverage": "Medicare Part B — 100%",
+          "Your Cost": "$0",
+          "Hours Covered": "Up to 22 visits per year",
+        },
+      ],
+      footnote: "MNT is covered at 100% with no deductible or coinsurance for eligible beneficiaries. Obesity counseling is a separate benefit available to beneficiaries with a BMI of 30 or higher, regardless of diabetes or kidney disease status.",
+    },
+    exceptionsSection: {
+      title: "Who Qualifies for Medicare MNT Coverage",
+      items: [
+        {
+          title: "Qualifying Conditions for MNT",
+          text: "Medicare covers MNT only for beneficiaries with diabetes, non-dialysis kidney disease (chronic kidney disease), or those who have had a kidney transplant within the past 36 months. Beneficiaries with kidney disease who receive dialysis at a dialysis facility receive MNT as part of their overall dialysis care. MNT is not covered for other conditions such as heart disease, obesity alone, or cancer — though some Medicare Advantage plans may offer additional nutrition benefits for these conditions.",
+          highlight: "You must have a referral from your doctor to receive MNT under Medicare. Self-referrals are not covered. The provider must be a registered dietitian or nutrition professional who accepts Medicare assignment.",
+        },
+        {
+          title: "Obesity Counseling: A Related Benefit",
+          text: "Medicare Part B covers intensive behavioral therapy for obesity for beneficiaries with a BMI of 30 or higher. This is a separate benefit from MNT and does not require a diabetes or kidney disease diagnosis. Coverage includes up to 22 counseling visits per year in the first year, and up to 8 visits per year thereafter if you meet weight loss goals. This benefit is also covered at 100% with no cost-sharing.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover a nutritionist?",
+        answer: "Medicare Part B covers medical nutrition therapy (MNT) provided by a registered dietitian at 100% for beneficiaries with diabetes or kidney disease. You must have a referral from your doctor. Medicare does not cover general nutritionist visits for conditions other than diabetes or kidney disease.",
+      },
+      {
+        question: "How much does Medicare pay for nutrition therapy?",
+        answer: "Medicare Part B covers MNT at 100% — you pay $0 for covered sessions. There is no coinsurance and the Part B deductible does not apply. In the first year, Medicare covers up to 3 hours of MNT; in subsequent years, up to 2 hours per year.",
+      },
+      {
+        question: "Does Medicare cover a dietician?",
+        answer: "Yes. Medicare covers visits with a registered dietitian (RD) for medical nutrition therapy at 100% for beneficiaries with diabetes or kidney disease. The dietitian must accept Medicare assignment. You need a referral from your doctor to access this benefit.",
+      },
+      {
+        question: "Does Medicare cover a nutritionist for weight loss?",
+        answer: "Medicare does not cover a nutritionist solely for weight loss. However, if you have diabetes and get a referral from your doctor, you can see a registered dietitian for MNT that may also help with weight management. Additionally, Medicare covers intensive behavioral therapy for obesity (BMI ≥ 30) at 100% — up to 22 visits per year.",
+      },
+      {
+        question: "Does Medicare cover a nutritionist for prediabetes?",
+        answer: "Medicare does not cover MNT for prediabetes — you must have a confirmed diabetes diagnosis. However, Medicare does cover the Diabetes Prevention Program (DPP) for beneficiaries with prediabetes. The DPP is a structured lifestyle change program that includes nutrition education and is covered at no cost.",
+      },
+      {
+        question: "Does Medicare cover Ensure or nutritional supplements?",
+        answer: "No. Medicare does not cover Ensure, Boost, or other nutritional supplements, even when they are the patient's primary source of nutrition. Medicare Part D prescription drug plans also do not cover these products. You will need to purchase them out of pocket.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare Part B</strong> covers MNT at 100% — no deductible, no coinsurance" },
+      { icon: "check", text: "Qualifying conditions: <strong>diabetes, kidney disease</strong>, or kidney transplant within 36 months" },
+      { icon: "info", text: "Year 1: up to <strong>3 hours</strong> of MNT covered; Year 2+: up to <strong>2 hours/year</strong>" },
+      { icon: "info", text: "Requires a <strong>doctor referral</strong> — self-referrals are not covered" },
+      { icon: "check", text: "MNT is available via <strong>telehealth</strong> and counts toward the annual hour limit" },
+      { icon: "alert", text: "Obesity counseling (BMI ≥ 30) is a <strong>separate benefit</strong> — up to 22 visits/year at no cost" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Meals on Wheels?", description: "Learn about meal delivery programs and what Medicare covers for home-delivered meals.", slug: "does-medicare-cover-meals-on-wheels" },
+      { title: "Does Medicare Cover Diabetes Supplies?", description: "Find out what Medicare covers for diabetes testing supplies, insulin, and related equipment.", slug: "does-medicare-cover-diabetic-supplies" },
+      { title: "Does Medicare Cover End-Stage Renal Disease?", description: "Learn how Medicare covers dialysis, kidney transplants, and ESRD-related care.", slug: "does-medicare-cover-end-stage-renal-disease" },
+      { title: "Does Medicare Cover Telehealth?", description: "Find out how Medicare covers telehealth visits, including nutrition therapy sessions.", slug: "does-medicare-cover-telehealth" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Meals on Wheels",
+      "Does Medicare Cover Diabetes Supplies",
+      "Does Medicare Cover End-Stage Renal Disease",
+      "Does Medicare Cover Telehealth",
+    ],
+    ctaBanner: {
+      title: "Have Diabetes or Kidney Disease?",
+      text: "You may qualify for free medical nutrition therapy under Medicare Part B. Our licensed agents can help you understand your benefits and find plans that maximize your coverage.",
+    },
+    relatedSlugs: ["does-medicare-cover-meals-on-wheels", "does-medicare-cover-diabetic-supplies", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-telehealth"],
+  },
 ];

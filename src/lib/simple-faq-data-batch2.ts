@@ -373,32 +373,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
   },
-  {
-    slug: 'does-medicare-cover-cologuard',
-    seo: {
-      title: 'Does Medicare Cover Cologuard',
-      description: 'Medicare covers Cologuard if certain criteria are met. Cologuard is a multitarget stool DNA test that can be completed at home.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-cologuard/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-cologuard.jpg',
-    },
-    title: 'Does Medicare Cover Cologuard',
-    summary: 'Cologuard is an important screening tool to help prevent colorectal cancer. Seniors are at higher risk for this disease and may be wondering if Medicare covers Cologuard. Find out what you need to know here.',
-    category: 'Coverage',
-    dateUpdated: 'October 24, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
-    sections: [
-      {
-        heading: 'Are Incontinence Supplies Covered by Medicare?',
-        paragraphs: [
-          'Updated on October 24, 2023',
-          '[Incontinence supplies](/faqs/medicare-coverage-for-incontinence-supplies) help manage [bowel and urinary output](/faqs/does-medicare-cover-ostomy-supplies) from the body. These supplies are most...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-colonoscopy-screenings", "medicare-preventive-services", "does-medicare-cover-a-biopsy", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "what-does-medically-necessary-mean"],
-  },
+  // does-medicare-cover-cologuard moved to coverage-data.ts
   {
     slug: 'medicare-and-retiree-insurance',
     seo: {
@@ -1197,31 +1172,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n"],
   },
-  {
-    slug: 'does-medicare-cover-medical-alert-systems',
-    seo: {
-      title: 'Does Medicare Cover Life Alert? (2026 Cost & Coverage Guide)',
-      description: 'Is Life Alert cost covered by Medicare? Learn what Medicare pays for, what it does not cover, and typical medical alert system costs in 2026',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-wearable-alert-devices.jpg',
-    },
-    title: 'Does Medicare Cover Life Alert? (2026 Cost & Coverage Guide)',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'My mother has [Humana Medicare](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) -do they pay for any of these alert devices She doesn’t drive so only needs one at home  Thanks',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-bathroom-safety-devices", "home-safety-assessment-for-the-elderly", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
-  },
+
   {
     slug: 'rheumatoid-arthritis-treatment-and-medicare-coverage',
     seo: {
@@ -1350,32 +1301,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
   },
-  {
-    slug: 'does-medicare-cover-medical-nutritional-therapy',
-    seo: {
-      title: 'Does Medicare Cover a Nutritionist',
-      description: 'For beneficiaries with certain health conditions such as diabetes and kidney disease, Medicare fully covers medical nutritional therapy.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-medical-nutritional-therapy/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-a-Nutritionist.jpg',
-    },
-    title: 'Does Medicare Cover a Nutritionist',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'March 27, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Diabetic Supplies?',
-        paragraphs: [
-          'Updated on March 27, 2023',
-          '[Medicare covers diabetic supplies](/faqs/medicare-diabetes) and services for those diagnosed with the [chronic health condition](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know). Diabetes...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "does-medicare-cover-speech-therapy", "medicare-coverage-for-in-home-caregivers"],
-  },
+
   {
     slug: 'medicare-secondary-insurance',
     seo: {
