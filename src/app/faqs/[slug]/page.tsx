@@ -32,7 +32,7 @@ export async function generateMetadata({
   const coverageArticle = coverageArticles.find((a) => a.slug === slug);
   if (coverageArticle) {
     return {
-      title: `${coverageArticle.seo?.title || coverageArticle.title} | MedicareFAQ`,
+      title: coverageArticle.seo?.title || coverageArticle.title,
       description: coverageArticle.seo?.description || coverageArticle.subtitle,
       alternates: {
         canonical: `${BASE_URL}/faqs/${slug}/`,
@@ -51,7 +51,7 @@ export async function generateMetadata({
   const simpleFAQ = simpleFAQArticles.find((a) => a.slug === slug);
   if (simpleFAQ) {
     return {
-      title: `${simpleFAQ.seo?.title || simpleFAQ.title} | MedicareFAQ`,
+      title: simpleFAQ.seo?.title || simpleFAQ.title,
       description: simpleFAQ.seo?.description || simpleFAQ.summary,
       alternates: {
         canonical: `${BASE_URL}/faqs/${slug}/`,
