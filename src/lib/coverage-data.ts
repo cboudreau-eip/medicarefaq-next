@@ -16797,4 +16797,750 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["medicare-coverage-for-lift-chairs", "medicare-coverage-for-stroke-victims", "medicare-coverage-for-oxygen-therapy", "medicare-coverage-for-in-home-caregivers"],
   },
 
+  // ── BATCH 13 ──────────────────────────────────────────────────────────
+  {
+    slug: "what-std-treatments-and-services-does-medicare-cover",
+    seo: {
+      title: "Does Medicare Cover STD Testing & Treatment? | MedicareFAQ",
+      description: "Medicare Part B covers STD/STI screenings for gonorrhea, syphilis, chlamydia, hepatitis B, and HIV at no cost. Learn about coverage, treatments, and Part D medications.",
+      canonical: "https://www.medicarefaq.com/faqs/what-std-treatments-and-services-does-medicare-cover/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-std-testing.jpg",
+    },
+    title: "Does Medicare Cover STD/STI Testing, Screening, and Treatment?",
+    subtitle: "Medicare Part B covers annual screenings for sexually transmitted infections including HIV, gonorrhea, syphilis, chlamydia, and hepatitis B at no cost. Learn about coverage for STD testing, counseling, treatments, and prescription medications.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Yes. <strong>Medicare covers STD/STI screenings</strong> for gonorrhea, syphilis, chlamydia, hepatitis B, and HIV as preventive services at no cost. Medicare also covers <strong>two counseling sessions per year</strong> and treatments when medically necessary. Part D covers antibiotics, antivirals, and antiretrovirals.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part B)", coverage: "Covered (Preventive)", icon: "shield", notes: "Annual STI screenings and counseling at no cost" },
+      { planType: "Original Medicare (Part B)", coverage: "Covered (80%)", icon: "shield", notes: "Diagnostic testing and treatment at 80% after deductible" },
+      { planType: "Medicare Advantage", coverage: "Covered", icon: "heart", notes: "Must cover same preventive screenings; may add extras" },
+      { planType: "Medigap", coverage: "Covers Cost-Sharing", icon: "plus", notes: "Covers the 20% coinsurance for treatment costs" },
+      { planType: "Medicare Part D", coverage: "Rx Coverage", icon: "pill", notes: "Covers antibiotics, antivirals, and antiretrovirals" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B covers annual screenings for sexually transmitted infections as preventive services at no cost to you, provided your doctor accepts Medicare assignment. Covered screenings include tests for gonorrhea, syphilis, chlamydia, hepatitis B, and HIV.",
+          "To qualify for free STI screenings, you must be pregnant or at increased risk for an STI. Risk factors include having multiple sexual partners, a history of STIs, or engaging in unprotected sex. Medicare also covers up to two 20-to-30-minute face-to-face STD counseling sessions per year.",
+          "For HIV screening specifically, Medicare covers an annual test for individuals aged 15 to 65. Those outside this age range who are at increased risk can also receive annual screening. Pregnant beneficiaries can receive up to three HIV tests during pregnancy.",
+          "When STD/STI treatment is medically necessary, Part B covers doctor visits, diagnostic tests, and therapies at 80% after the annual deductible. You are responsible for the remaining 20% coinsurance.",
+        ],
+        whatItCovers: [
+          "Annual screenings for gonorrhea, syphilis, chlamydia, and hepatitis B",
+          "Annual HIV screening (ages 15-65; at-risk individuals of any age)",
+          "Up to two STD counseling sessions per year",
+          "Chlamydia and gonorrhea screening for pregnant women under 24 or at risk",
+          "Up to three HIV tests during pregnancy",
+          "Medically necessary diagnostic testing and treatment",
+        ],
+        whatItDoesntCover: [
+          "Online STD testing kits purchased from third-party companies",
+          "Testing not ordered by a Medicare-enrolled provider",
+          "Screenings at facilities not enrolled in Medicare",
+        ],
+        costNote: "Preventive screenings: $0 with Medicare assignment. Treatment: 20% coinsurance after $257 annual deductible (2025).",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Advantage plans must cover the same preventive STI screenings as Original Medicare at no cost. Many plans also include prescription drug coverage (Part D) for STD medications, making it convenient to manage both testing and treatment under one plan.",
+          "Some Medicare Advantage plans may offer additional benefits such as expanded STI screening or telehealth consultations. Always verify that your providers are in-network to avoid higher out-of-pocket costs.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "plus",
+        iconColor: "#2563EB",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "Medigap plans help cover the out-of-pocket costs left after Original Medicare pays its share. For STD/STI treatment, a Medigap plan can cover the 20% Part B coinsurance, potentially reducing your treatment costs to zero beyond your monthly premium.",
+          "Since preventive STI screenings are already free under Part B, Medigap primarily helps with the cost of diagnostic testing and treatment when medically necessary.",
+        ],
+      },
+      {
+        planName: "Medicare Part D",
+        icon: "pill",
+        iconColor: "#7C3AED",
+        coverageLabel: "Prescription Coverage",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part D covers antibiotics for bacterial STIs like chlamydia, gonorrhea, and syphilis. It also covers antiviral medications for herpes and other viral infections. Many of these drugs are available in lower-cost generic forms.",
+          "Antiretroviral therapy (ART) for HIV is in one of Medicare's six protected drug classes, meaning all Part D plans must cover these medications. This ensures HIV patients always have access to lifesaving treatments.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "STD/STI Testing and Treatment Costs with Medicare",
+      headers: ["Service", "Estimated Cost", "Medicare Coverage"],
+      rows: [
+        { "Service": "Annual STI screening (preventive)", "Estimated Cost": "$0", "Medicare Coverage": "Covered at 100% (Part B)" },
+        { "Service": "HIV screening (annual)", "Estimated Cost": "$0", "Medicare Coverage": "Covered at 100% (Part B)" },
+        { "Service": "STD counseling sessions (2/year)", "Estimated Cost": "$0", "Medicare Coverage": "Covered at 100% (Part B)" },
+        { "Service": "Diagnostic STD testing", "Estimated Cost": "$50 - $300", "Medicare Coverage": "Covered at 80% (Part B)" },
+        { "Service": "Antibiotics (chlamydia, gonorrhea)", "Estimated Cost": "$4 - $50", "Medicare Coverage": "Covered (Part D)" },
+        { "Service": "Antiretroviral therapy (HIV)", "Estimated Cost": "$1,000 - $3,000/month", "Medicare Coverage": "Covered (Part D, protected class)" },
+        { "Service": "Online STD testing kits", "Estimated Cost": "$50 - $200", "Medicare Coverage": "Not covered" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Exceptions and Limitations",
+      items: [
+        {
+          title: "Online STD Testing Kits",
+          text: "Medicare does not cover STD testing kits purchased online from third-party companies. Testing must be ordered by a doctor and conducted at a Medicare-enrolled facility.",
+        },
+        {
+          title: "Age Restrictions for HIV Screening",
+          text: "Free annual HIV screening is available for ages 15 to 65. Those outside this range must demonstrate increased risk to qualify for coverage.",
+        },
+        {
+          title: "Chlamydia and Gonorrhea Screening Limits",
+          text: "Medicare covers chlamydia and gonorrhea screening specifically for women who are pregnant and under age 24, or women of any age at increased risk for STIs.",
+        },
+        {
+          title: "Provider Requirements",
+          text: "Your doctor must accept Medicare assignment and testing must be performed at a Medicare-enrolled facility for coverage to apply.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover STD testing?",
+        answer: "Yes. Medicare Part B covers annual screenings for gonorrhea, syphilis, chlamydia, hepatitis B, and HIV as preventive services at no cost when your doctor accepts Medicare assignment.",
+      },
+      {
+        question: "Does Medicare cover HIV testing?",
+        answer: "Yes. Medicare covers annual HIV screening for individuals aged 15 to 65. Those outside this age range who are at increased risk also qualify. Pregnant beneficiaries can receive up to three HIV tests during pregnancy.",
+      },
+      {
+        question: "Does Medicare cover STD treatment?",
+        answer: "Yes. Medicare covers STD and STI treatments when medically necessary. Part B covers doctor visits and therapies at 80% after the deductible. Part D covers prescription medications including antibiotics and antivirals.",
+      },
+      {
+        question: "Does Medicare cover online STD testing?",
+        answer: "No. Medicare does not cover STD testing kits purchased online. Testing must be ordered by a doctor and conducted at a Medicare-enrolled facility to qualify for coverage.",
+      },
+      {
+        question: "Does Medicare Part D cover STD medications?",
+        answer: "Yes. Part D covers antibiotics for bacterial STIs and antivirals for viral infections. Antiretroviral therapy for HIV is in a protected drug class, meaning all Part D plans must cover these medications.",
+      },
+      {
+        question: "How often does Medicare cover STD testing?",
+        answer: "Medicare covers STD screening once per year for most beneficiaries. Pregnant women can receive chlamydia and gonorrhea testing upon learning of pregnancy and again later, plus up to three HIV tests during pregnancy.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare covers <strong>annual STI screenings</strong> at no cost" },
+      { icon: "check", text: "<strong>HIV screening</strong> covered annually for ages 15-65 and at-risk individuals" },
+      { icon: "check", text: "<strong>Two counseling sessions</strong> per year covered at no cost" },
+      { icon: "x", text: "<strong>Online STD testing kits</strong> are not covered" },
+      { icon: "dollar", text: "Treatment costs: <strong>20% coinsurance</strong> after Part B deductible" },
+      { icon: "info", text: "<strong>Part D</strong> covers antibiotics, antivirals, and antiretrovirals" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Preventive Services Guide", description: "Learn about all preventive services covered by Medicare.", slug: "medicare-preventive-services" },
+      { title: "Medicare Coverage for Hepatitis Screenings", description: "Learn about Medicare's coverage for hepatitis testing and vaccines.", slug: "does-medicare-cover-hepatitis-c-screening" },
+      { title: "Medicare Part D's Six Protected Classes", description: "Learn about the drug classes all Part D plans must cover.", slug: "medicare-part-d-six-protected-classes" },
+      { title: "Medicare Coverage for Cardiovascular Disease", description: "Learn about Medicare's coverage for heart-related conditions.", slug: "medicare-coverage-for-cardiovascular-disease" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Preventive Services Guide",
+      "Medicare Coverage for Hepatitis Screenings",
+      "Medicare Part D's Six Protected Classes",
+      "Medicare Coverage for Cardiovascular Disease",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Medicare STD Coverage?",
+      text: "Our licensed agents can help you understand your Medicare benefits for STD/STI testing and treatment. We can also help you find a Medigap or Part D plan that minimizes your out-of-pocket costs.",
+    },
+    relatedSlugs: ["medicare-preventive-services", "does-medicare-cover-hepatitis-c-screening", "medicare-part-d-six-protected-classes", "medicare-coverage-for-cardiovascular-disease"],
+  },
+  {
+    slug: "will-medicare-cover-my-surgery",
+    seo: {
+      title: "Will Medicare Cover My Surgery? | MedicareFAQ",
+      description: "Medicare covers medically necessary surgery. Part A covers inpatient surgery and Part B covers outpatient procedures at 80%. Learn about coverage, costs, and exceptions.",
+      canonical: "https://www.medicarefaq.com/faqs/will-medicare-cover-my-surgery/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/will-medicare-cover-my-surgery.jpg",
+    },
+    title: "Will Medicare Cover My Upcoming Surgery?",
+    subtitle: "Medicare covers medically necessary surgical procedures. Part A covers inpatient hospital surgery, while Part B covers outpatient surgery at 80%. Learn about coverage for specific procedures, costs, and how a Medigap plan can help.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Yes. <strong>Medicare covers medically necessary surgery</strong>. Part A covers inpatient hospital surgery, and Part B covers outpatient surgical procedures at 80% after the deductible. Elective cosmetic surgery is <strong>not covered</strong>. A Medigap plan can cover the remaining 20% coinsurance.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A)", coverage: "Covered", icon: "shield", notes: "Inpatient hospital surgery when medically necessary" },
+      { planType: "Original Medicare (Part B)", coverage: "Covered (80%)", icon: "shield", notes: "Outpatient surgery at 80% after deductible" },
+      { planType: "Medicare Advantage", coverage: "Covered", icon: "heart", notes: "Must cover same as Original Medicare; network rules apply" },
+      { planType: "Medigap", coverage: "Covers Cost-Sharing", icon: "plus", notes: "Covers Part A deductible and Part B 20% coinsurance" },
+      { planType: "Medicare Part D", coverage: "Rx Coverage", icon: "pill", notes: "Covers post-surgical prescription medications" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part A covers inpatient surgical procedures when they are medically necessary. This includes the hospital stay, operating room, anesthesia, nursing care, and other hospital services. You pay the Part A deductible per benefit period.",
+          "Medicare Part B covers outpatient surgical procedures at 80% after the annual deductible. This includes same-day surgeries performed at ambulatory surgical centers or hospital outpatient departments. You are responsible for the remaining 20% coinsurance.",
+          "Medicare covers a wide range of surgeries including heart surgery, joint replacements, weight loss surgery (case-by-case), and reconstructive procedures. Elective cosmetic surgery is not covered. Some procedures require prior authorization.",
+        ],
+        whatItCovers: [
+          "Heart surgery (open-heart, angioplasty, stents, robotic cardiac surgery)",
+          "Joint replacement surgery (knee, hip) when medically necessary",
+          "Reconstructive plastic surgery after injury, mastectomy, or disease",
+          "Weight loss surgery (bariatric) for morbid obesity (case-by-case)",
+          "Anesthesia for covered surgical procedures",
+          "Same-day outpatient surgery",
+          "Pre-operative visits when surgery is medically necessary",
+        ],
+        whatItDoesntCover: [
+          "Elective cosmetic surgery (facelift, body contouring)",
+          "Procedures not deemed medically necessary",
+          "Most dental surgery (except jaw-related conditions)",
+        ],
+        costNote: "Part A: $1,676 deductible per benefit period (2025). Part B: 20% coinsurance after $257 annual deductible.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Advantage plans must cover all medically necessary surgeries that Original Medicare covers. However, plans may have different cost-sharing structures, require you to use in-network surgeons, and may need referrals or prior authorization.",
+          "Some Medicare Advantage plans offer lower out-of-pocket maximums for surgical procedures, which can provide cost savings compared to Original Medicare without a Medigap plan.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "plus",
+        iconColor: "#2563EB",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "Medigap plans cover the same services as Original Medicare and pay for the remaining cost-sharing. For surgery, this means covering the Part A deductible, Part B coinsurance (20%), and potentially excess charges.",
+          "With a comprehensive Medigap plan like Plan G, your out-of-pocket costs for a covered surgery could be limited to just the Part B deductible and your monthly premium.",
+        ],
+      },
+      {
+        planName: "Medicare Part D",
+        icon: "pill",
+        iconColor: "#7C3AED",
+        coverageLabel: "Prescription Coverage",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part D covers prescription medications you may need before or after surgery, including pain medications, antibiotics, blood thinners, and anti-inflammatory drugs. Your costs depend on your plan's formulary and tier structure.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Common Surgery Costs with Medicare",
+      headers: ["Surgery Type", "Typical Cost Range", "Medicare Coverage"],
+      rows: [
+        { "Surgery Type": "Heart surgery (open-heart)", "Typical Cost Range": "$70,000 - $200,000+", "Medicare Coverage": "Covered (Part A/B)" },
+        { "Surgery Type": "Knee replacement", "Typical Cost Range": "$30,000 - $70,000", "Medicare Coverage": "Covered (Part A/B)" },
+        { "Surgery Type": "Hip replacement", "Typical Cost Range": "$30,000 - $65,000", "Medicare Coverage": "Covered (Part A/B)" },
+        { "Surgery Type": "Bariatric surgery", "Typical Cost Range": "$15,000 - $35,000", "Medicare Coverage": "Case-by-case (Part A/B)" },
+        { "Surgery Type": "Cataract surgery (outpatient)", "Typical Cost Range": "$3,000 - $7,000", "Medicare Coverage": "Covered (Part B)" },
+        { "Surgery Type": "Rotator cuff surgery", "Typical Cost Range": "$6,000 - $15,000", "Medicare Coverage": "Covered (Part A/B)" },
+        { "Surgery Type": "Cosmetic surgery", "Typical Cost Range": "Varies", "Medicare Coverage": "Not covered" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Exceptions and Limitations",
+      items: [
+        {
+          title: "Elective Cosmetic Surgery",
+          text: "Medicare does not cover cosmetic surgery performed solely to improve appearance. However, reconstructive surgery after an accident, injury, or mastectomy is covered when medically necessary.",
+        },
+        {
+          title: "Prior Authorization Requirements",
+          text: "Some elective surgeries require prior authorization from Medicare before the procedure. Your surgeon's office should handle this process, but it can take additional time.",
+        },
+        {
+          title: "Dental Surgery Limitations",
+          text: "Medicare Parts A and B do not cover most dental surgery. Exceptions include jaw-related conditions such as jaw cancer or a broken jaw. A separate dental plan may be needed.",
+        },
+        {
+          title: "Weight Loss Surgery Criteria",
+          text: "Bariatric surgery is approved on a case-by-case basis. You must have a BMI of 35 or higher with at least one obesity-related condition, and the procedure must be FDA-approved.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover same-day surgery?",
+        answer: "Yes. Part B covers same-day outpatient surgery when it is medically necessary. This includes procedures performed at ambulatory surgical centers and hospital outpatient departments.",
+      },
+      {
+        question: "Does Medicare require preauthorization for surgery?",
+        answer: "For some elective surgeries, Medicare requires prior authorization before the procedure. Your surgeon's office typically handles this process. Emergency surgeries do not require preauthorization.",
+      },
+      {
+        question: "Will Medicare pay for my pre-operative visit?",
+        answer: "Yes. If the purpose of the visit and the surgery are medically necessary, Medicare will cover the pre-operative visit. Contact your surgeon before making an appointment to confirm.",
+      },
+      {
+        question: "Does Medicare cover back surgery?",
+        answer: "Yes. If your back surgery is medically necessary, Medicare will cover it. Part A covers inpatient procedures, and Part B covers outpatient procedures at 80% after the deductible.",
+      },
+      {
+        question: "Does Medicare cover rotator cuff surgery?",
+        answer: "Yes. Part B covers rotator cuff surgery when medically necessary. Part A can also cover skilled nursing facility services you may need after shoulder surgery.",
+      },
+      {
+        question: "Will my Medigap plan cover my surgery?",
+        answer: "Yes. Medigap plans cover the same services as Original Medicare. If Medicare covers your surgery, your Medigap plan will pay the remaining 20% coinsurance that Medicare does not cover.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare covers <strong>medically necessary</strong> surgery" },
+      { icon: "check", text: "Part A covers <strong>inpatient</strong> surgery; Part B covers <strong>outpatient</strong> surgery" },
+      { icon: "x", text: "<strong>Elective cosmetic surgery</strong> is not covered" },
+      { icon: "info", text: "Some surgeries require <strong>prior authorization</strong>" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> for outpatient surgery after Part B deductible" },
+      { icon: "info", text: "<strong>Medigap</strong> covers the 20% coinsurance for approved surgeries" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Plastic Surgery", description: "Learn when Medicare covers reconstructive vs. cosmetic procedures.", slug: "medicare-coverage-for-plastic-surgery" },
+      { title: "Medicare Coverage for Cardiovascular Disease", description: "Learn about Medicare's coverage for heart surgery and treatments.", slug: "medicare-coverage-for-cardiovascular-disease" },
+      { title: "Medicare Coverage for Physical Therapy", description: "Learn about post-surgical rehabilitation coverage.", slug: "medicare-coverage-for-physical-therapy" },
+      { title: "Medicare Coverage for Pacemakers", description: "Learn about Medicare's coverage for pacemaker implant surgery.", slug: "medicare-coverage-for-pacemakers" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Plastic Surgery",
+      "Medicare Coverage for Cardiovascular Disease",
+      "Medicare Coverage for Physical Therapy",
+      "Medicare Coverage for Pacemakers",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Surgery Coverage?",
+      text: "Our licensed Medicare agents can help you understand your benefits for upcoming surgery and find a Medigap plan that covers your out-of-pocket costs. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-plastic-surgery", "medicare-coverage-for-cardiovascular-disease", "medicare-coverage-for-physical-therapy", "medicare-coverage-for-pacemakers"],
+  },
+  {
+    slug: "will-medicare-cover-naturopathy",
+    seo: {
+      title: "Will Medicare Cover Naturopathy? | MedicareFAQ",
+      description: "Medicare does not cover naturopathic medicine or visits to naturopathic doctors. Learn which alternative therapies have limited coverage and your options.",
+      canonical: "https://www.medicarefaq.com/faqs/will-medicare-cover-naturopathy/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/will-medicare-cover-naturopathy.jpg",
+    },
+    title: "Will Medicare Cover Naturopathy?",
+    subtitle: "Medicare does not cover naturopathic medicine or visits to naturopathic doctors (NDs). However, some services that fall under naturopathy, such as acupuncture for chronic lower back pain and chiropractic care, have limited Medicare coverage.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "No. <strong>Medicare does not cover naturopathic medicine</strong> or visits to naturopathic doctors (NDs). However, Medicare provides <strong>limited coverage</strong> for some services associated with naturopathy: acupuncture for chronic lower back pain, chiropractic care for spinal misalignment, and nutrition counseling for certain conditions.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part B)", coverage: "Not Covered", icon: "shield", notes: "Does not cover naturopathic doctors or naturopathic medicine" },
+      { planType: "Original Medicare (Part B)", coverage: "Limited", icon: "shield", notes: "Covers acupuncture (back pain only) and chiropractic (spine only)" },
+      { planType: "Medicare Advantage", coverage: "Varies", icon: "heart", notes: "Some plans offer additional alternative medicine benefits" },
+      { planType: "Medigap", coverage: "Not Covered", icon: "plus", notes: "Only covers services that Original Medicare approves" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "pill", notes: "Does not cover naturopathic remedies or supplements" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Medicare does not cover naturopathic medicine, visits to naturopathic doctors (NDs), or alternative medicine treatments. While some services that fall under naturopathy have limited Medicare coverage, they must be performed by specific licensed practitioners, not NDs.",
+          "Acupuncture is covered only for chronic lower back pain, and it must be performed by a licensed acupuncturist or physician. Chiropractic services are covered only for manual manipulation to correct a misaligned spine. Nutrition counseling is covered only for diabetes or kidney disease.",
+          "Osteopathic medicine (DOs) is fully covered by Medicare because doctors of osteopathic medicine complete the same training as MDs, including medical residencies. Medicare covers visits to a DO the same way it covers visits to an MD.",
+        ],
+        whatItCovers: [
+          "Acupuncture for chronic lower back pain (up to 12 sessions in 90 days)",
+          "Chiropractic care to correct spinal misalignment (manual manipulation only)",
+          "Nutrition counseling for diabetes or kidney disease",
+          "Visits to doctors of osteopathic medicine (DOs)",
+        ],
+        whatItDoesntCover: [
+          "Visits to naturopathic doctors (NDs)",
+          "Naturopathic medicine, remedies, or supplements",
+          "Acupuncture for conditions other than chronic lower back pain",
+          "Chiropractic care for conditions other than spinal misalignment",
+          "Homeopathic medicine or functional medicine",
+          "Medical marijuana or CBD products",
+        ],
+        costNote: "Covered services: 20% coinsurance after $257 annual deductible (2025). Naturopathic services: 100% out-of-pocket.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Advantage plans must cover at least the same services as Original Medicare. Some plans go further by offering additional alternative medicine benefits, such as expanded acupuncture coverage, additional chiropractic visits, or wellness programs.",
+          "While most Medicare Advantage plans do not cover naturopathic doctors, some plans in certain states may offer limited coverage for alternative therapies. Check the plans available in your area for specific benefits.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "plus",
+        iconColor: "#2563EB",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Medigap plans only cover services that Original Medicare approves. Since Medicare does not cover naturopathic medicine, your Medigap plan will not cover it either. You will pay 100% out-of-pocket for naturopathic services.",
+          "However, Medigap does cover the cost-sharing for the limited alternative therapies that Medicare approves, such as the 20% coinsurance for covered acupuncture or chiropractic visits.",
+        ],
+      },
+      {
+        planName: "Medicare Part D",
+        icon: "pill",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Applicable",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Medicare Part D does not cover naturopathic remedies, herbal supplements, or homeopathic medications. Part D only covers FDA-approved prescription drugs. Any naturopathic supplements or remedies must be paid for out-of-pocket.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Naturopathy and Alternative Medicine Costs with Medicare",
+      headers: ["Service", "Typical Cost", "Medicare Coverage"],
+      rows: [
+        { "Service": "Naturopathic doctor visit", "Typical Cost": "$100 - $300", "Medicare Coverage": "Not covered" },
+        { "Service": "Acupuncture (chronic back pain)", "Typical Cost": "$75 - $150/session", "Medicare Coverage": "Covered at 80% (Part B)" },
+        { "Service": "Acupuncture (other conditions)", "Typical Cost": "$75 - $150/session", "Medicare Coverage": "Not covered" },
+        { "Service": "Chiropractic (spinal manipulation)", "Typical Cost": "$30 - $200/visit", "Medicare Coverage": "Covered at 80% (Part B)" },
+        { "Service": "Chiropractic (other services)", "Typical Cost": "$30 - $200/visit", "Medicare Coverage": "Not covered" },
+        { "Service": "Nutrition counseling (diabetes/kidney)", "Typical Cost": "$100 - $200/session", "Medicare Coverage": "Covered at 80% (Part B)" },
+        { "Service": "Herbal supplements/remedies", "Typical Cost": "Varies", "Medicare Coverage": "Not covered" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Exceptions and Limitations",
+      items: [
+        {
+          title: "Acupuncture Coverage Is Limited",
+          text: "Medicare only covers acupuncture for chronic lower back pain. Up to 12 sessions in 90 days are covered, with 8 additional sessions if improvement is demonstrated. Acupuncture for any other condition is not covered.",
+        },
+        {
+          title: "Chiropractic Coverage Is Limited",
+          text: "Medicare only covers manual manipulation of the spine to correct a misalignment. Other chiropractic services such as X-rays, massage, or physical therapy performed by a chiropractor are not covered.",
+        },
+        {
+          title: "Osteopathy vs. Naturopathy",
+          text: "Doctors of osteopathic medicine (DOs) are fully covered by Medicare because they complete the same training as MDs. Naturopathic doctors (NDs) do not complete medical residencies and are not recognized by Medicare.",
+        },
+        {
+          title: "Medicare Advantage May Offer More",
+          text: "Some Medicare Advantage plans in certain states offer additional alternative medicine benefits beyond what Original Medicare covers. Check plans in your area for specific coverage details.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover naturopathic doctors?",
+        answer: "No. Medicare does not cover visits to naturopathic doctors (NDs). While some services associated with naturopathy have limited coverage, they must be performed by specific licensed practitioners, not NDs.",
+      },
+      {
+        question: "Does Medicare cover alternative medicine?",
+        answer: "Medicare does not cover most alternative therapies or natural medicines. However, it provides limited coverage for acupuncture (chronic back pain only), chiropractic care (spinal manipulation only), and nutrition counseling (diabetes/kidney disease only).",
+      },
+      {
+        question: "Does Medicare cover homeopathic medicine?",
+        answer: "No. Medicare does not cover homeopathic medicine or remedies. You will pay 100% out-of-pocket for homeopathic treatments and supplements.",
+      },
+      {
+        question: "Does Medicare pay for functional medicine doctors?",
+        answer: "For the most part, no. Doctors who practice a functional model of care typically do not accept insurance, including Medicare. You would likely pay out-of-pocket for these services.",
+      },
+      {
+        question: "Does Medicare cover osteopathic medicine?",
+        answer: "Yes. Medicare covers visits to doctors of osteopathic medicine (DOs) the same way it covers visits to medical doctors (MDs). DOs complete the same training and residencies as MDs and are recognized nationwide.",
+      },
+      {
+        question: "Does Medicare Advantage cover naturopathy?",
+        answer: "Most Medicare Advantage plans follow Medicare standards and do not cover naturopathy. However, some plans in certain states may offer additional alternative medicine benefits. Check plans in your area for details.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "Medicare does <strong>not</strong> cover naturopathic doctors or naturopathic medicine" },
+      { icon: "check", text: "<strong>Acupuncture</strong> covered only for chronic lower back pain" },
+      { icon: "check", text: "<strong>Chiropractic</strong> covered only for spinal misalignment" },
+      { icon: "check", text: "<strong>Osteopathic medicine</strong> (DOs) is fully covered" },
+      { icon: "x", text: "<strong>Homeopathic medicine</strong> and supplements are not covered" },
+      { icon: "info", text: "Some <strong>Medicare Advantage</strong> plans may offer additional alternative therapy benefits" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Acupuncture?", description: "Learn about Medicare's limited acupuncture coverage.", slug: "does-medicare-cover-acupuncture" },
+      { title: "Does Medicare Cover Chiropractic Care?", description: "Learn about Medicare's coverage for chiropractic services.", slug: "does-medicare-cover-chiropractic-care" },
+      { title: "Does Medicare Cover a Nutritionist?", description: "Learn about Medicare's coverage for nutrition counseling.", slug: "does-medicare-cover-a-nutritionist" },
+      { title: "Medicare Coverage for Lower Back Pain", description: "Learn about Medicare's coverage for back pain treatments.", slug: "medicare-coverage-for-lower-back-pain-management" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Acupuncture",
+      "Does Medicare Cover Chiropractic Care",
+      "Does Medicare Cover a Nutritionist",
+      "Medicare Coverage for Lower Back Pain Management",
+    ],
+    ctaBanner: {
+      title: "Looking for Alternative Medicine Coverage?",
+      text: "While Medicare doesn't cover naturopathy, our licensed agents can help you find a Medicare Advantage plan that may offer additional alternative medicine benefits in your area.",
+    },
+    relatedSlugs: ["does-medicare-cover-acupuncture", "does-medicare-cover-chiropractic-care", "does-medicare-cover-a-nutritionist", "medicare-coverage-for-lower-back-pain-management"],
+  },
+  {
+    slug: "will-medicare-pay-for-a-nebulizer-machine",
+    seo: {
+      title: "Does Medicare Cover Nebulizer Machines? | MedicareFAQ",
+      description: "Medicare Part B covers nebulizer machines as durable medical equipment when medically necessary. Learn about coverage, costs, medications, and replacement rules.",
+      canonical: "https://www.medicarefaq.com/faqs/will-medicare-pay-for-a-nebulizer-machine/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-nebulizer-machines.jpg",
+    },
+    title: "Does Medicare Cover Nebulizer Machines?",
+    subtitle: "Medicare Part B covers nebulizer machines as durable medical equipment (DME) when prescribed by a doctor for conditions like COPD or asthma. Learn about coverage, costs, medications, replacement rules, and how Medigap can help.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Yes. <strong>Medicare Part B covers nebulizer machines</strong> as durable medical equipment (DME) when prescribed by a doctor for conditions like COPD or asthma. You pay <strong>20% coinsurance</strong> after the Part B deductible. Medicare Part D covers nebulizer medications like albuterol.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part B)", coverage: "Covered (DME)", icon: "shield", notes: "Covers nebulizer machines at 80% as durable medical equipment" },
+      { planType: "Medicare Advantage", coverage: "Covered", icon: "heart", notes: "Must cover same DME benefits; network supplier rules apply" },
+      { planType: "Medigap", coverage: "Covers Cost-Sharing", icon: "plus", notes: "Covers the 20% coinsurance for nebulizer equipment" },
+      { planType: "Medicare Part D", coverage: "Rx Coverage", icon: "pill", notes: "Covers nebulizer medications (albuterol, steroids, antibiotics)" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B covers nebulizer machines as durable medical equipment (DME) when a doctor prescribes one for a medical condition such as COPD, asthma, or other respiratory ailments. Your doctor must accept Medicare assignment and the equipment must be obtained from a Medicare-enrolled supplier.",
+          "You pay 20% of the Medicare-approved amount after meeting the annual Part B deductible. Medicare may cover the nebulizer as a rental or purchase, depending on the equipment's expected lifespan. For rentals, you pay 20% of the rental fee each month.",
+          "Medicare also covers nebulizer supplies and accessories included in your doctor's prescription. Nebulizer medications such as antibiotics and steroids administered through the device may be covered under Part B or Part D depending on the specific medication.",
+        ],
+        whatItCovers: [
+          "Nebulizer machines when prescribed for COPD, asthma, or respiratory conditions",
+          "Nebulizer supplies and accessories included in the prescription",
+          "Equipment rental or purchase from Medicare-enrolled suppliers",
+          "Replacement equipment after 5 years of use (or sooner if lost/stolen/damaged)",
+        ],
+        whatItDoesntCover: [
+          "Nebulizers not prescribed by a Medicare-enrolled doctor",
+          "Equipment from suppliers who do not accept Medicare",
+          "Nebulizers purchased without a medical necessity determination",
+        ],
+        costNote: "20% coinsurance after $257 annual Part B deductible (2025). Medigap covers the 20% coinsurance.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Advantage plans must cover nebulizer machines and DME at least as well as Original Medicare. Many plans include prescription drug coverage for nebulizer medications. You may need to use in-network DME suppliers to receive the best coverage.",
+          "Some Medicare Advantage plans may have different cost-sharing structures or lower out-of-pocket maximums for DME, which can provide savings compared to Original Medicare alone.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "plus",
+        iconColor: "#2563EB",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "Medigap plans cover the 20% coinsurance that Medicare Part B does not pay for nebulizer equipment. With a Medigap plan, your out-of-pocket cost for a nebulizer could be reduced to zero beyond your monthly premium and Part B deductible.",
+          "Medigap also covers coinsurance for nebulizer supplies and any medications administered through the device that are covered under Part B. However, Medigap does not cover Part D prescription medications.",
+        ],
+      },
+      {
+        planName: "Medicare Part D",
+        icon: "pill",
+        iconColor: "#7C3AED",
+        coverageLabel: "Prescription Coverage",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part D covers nebulizer medications including albuterol, steroids, and antibiotics used in the device. Most Part D plans include albuterol on their formulary. Your costs depend on your plan's tier structure and whether generic options are available.",
+          "Part D also covers nebulizer solutions when administered through a metered-dose inhaler or similar device. Check your plan's formulary to confirm coverage for your specific medications.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Nebulizer Machine Costs with Medicare",
+      headers: ["Item", "Typical Cost", "Medicare Coverage"],
+      rows: [
+        { "Item": "Nebulizer machine (purchase)", "Typical Cost": "$50 - $300", "Medicare Coverage": "Covered at 80% (Part B DME)" },
+        { "Item": "Nebulizer machine (monthly rental)", "Typical Cost": "$20 - $50/month", "Medicare Coverage": "Covered at 80% (Part B DME)" },
+        { "Item": "Nebulizer supplies/accessories", "Typical Cost": "$10 - $50", "Medicare Coverage": "Covered at 80% (Part B)" },
+        { "Item": "Albuterol solution", "Typical Cost": "$10 - $50", "Medicare Coverage": "Covered (Part D)" },
+        { "Item": "Nebulizer steroids", "Typical Cost": "$20 - $100", "Medicare Coverage": "Covered (Part D)" },
+        { "Item": "Replacement nebulizer (after 5 years)", "Typical Cost": "$50 - $300", "Medicare Coverage": "Covered at 80% (Part B DME)" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Exceptions and Limitations",
+      items: [
+        {
+          title: "Supplier Requirements",
+          text: "Your nebulizer must be obtained from a Medicare-enrolled DME supplier who accepts Medicare assignment. Equipment from non-participating suppliers may not be covered.",
+        },
+        {
+          title: "Replacement Rules",
+          text: "Medicare only replaces nebulizer equipment after 5 years of use. Earlier replacement is covered only if the equipment is lost, stolen, or damaged beyond repair due to a natural disaster or accident.",
+        },
+        {
+          title: "Prescription Requirement",
+          text: "A doctor must prescribe the nebulizer and determine it is medically necessary. Medicare will not cover a nebulizer purchased without a valid prescription from a Medicare-enrolled provider.",
+        },
+        {
+          title: "Rental vs. Purchase",
+          text: "Medicare may cover your nebulizer as a rental or purchase depending on the equipment's expected lifespan. For equipment with a life expectancy of 3 years or more, Medicare typically covers it as a purchase after a rental period.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover nebulizers for asthma?",
+        answer: "Yes. When a doctor who accepts Medicare prescribes a nebulizer for asthma treatment, Medicare Part B covers the equipment as durable medical equipment at 80% after the deductible.",
+      },
+      {
+        question: "Does Medicare Part D cover albuterol for a nebulizer?",
+        answer: "Yes. Most Medicare Part D plans cover albuterol. Check your plan's formulary to confirm coverage and determine your copay or coinsurance amount.",
+      },
+      {
+        question: "Does a Medigap plan pay for a nebulizer?",
+        answer: "Yes. If Medicare covers the nebulizer, your Medigap plan will cover the remaining 20% coinsurance. Medigap also covers coinsurance for nebulizer supplies covered under Part B.",
+      },
+      {
+        question: "How often will Medicare replace a nebulizer?",
+        answer: "Medicare replaces nebulizer equipment after 5 years of use. Earlier replacement is covered only if the equipment is lost, stolen, or damaged beyond repair due to a natural disaster or accident.",
+      },
+      {
+        question: "Does Medicare cover nebulizer supplies?",
+        answer: "Yes. Medicare covers nebulizer supplies and accessories that your doctor includes in your prescription. This includes tubing, masks, and mouthpieces from Medicare-enrolled suppliers.",
+      },
+      {
+        question: "When does Medicare Part D cover nebulizer solution?",
+        answer: "Part D covers nebulizer solutions when administered through a device such as a metered-dose inhaler. The equipment must have a life expectancy of 3 years or more and be sold or rented by an approved supplier.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare Part B covers <strong>nebulizer machines</strong> as DME" },
+      { icon: "check", text: "<strong>Nebulizer supplies</strong> and accessories are covered" },
+      { icon: "check", text: "<strong>Part D</strong> covers nebulizer medications like albuterol" },
+      { icon: "info", text: "Must use a <strong>Medicare-enrolled DME supplier</strong>" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after Part B deductible" },
+      { icon: "info", text: "Replacement covered after <strong>5 years</strong> (or sooner if lost/stolen/damaged)" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Oxygen Therapy", description: "Learn about Medicare's coverage for oxygen equipment.", slug: "medicare-coverage-for-oxygen-therapy" },
+      { title: "Medicare Coverage for Asthma Inhalers", description: "Learn about Medicare's coverage for asthma medications.", slug: "does-medicare-cover-asthma-inhalers" },
+      { title: "Durable Medical Equipment Covered by Medicare", description: "Learn about all DME covered by Medicare Part B.", slug: "durable-medical-equipment-covered-by-medicare" },
+      { title: "Medicare Coverage for COPD", description: "Learn about Medicare's coverage for COPD treatment.", slug: "does-medicare-cover-copd" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Oxygen Therapy",
+      "Does Medicare Cover Asthma Inhalers",
+      "Durable Medical Equipment Covered by Medicare",
+      "Medicare Coverage for COPD",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Nebulizer Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part B coinsurance for nebulizer equipment and a Part D plan for your medications. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-oxygen-therapy", "does-medicare-cover-asthma-inhalers", "durable-medical-equipment-covered-by-medicare", "does-medicare-cover-copd"],
+  },
 ];

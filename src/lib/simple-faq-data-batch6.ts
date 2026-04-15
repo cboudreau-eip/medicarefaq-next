@@ -112,41 +112,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ['medicare-supplement-open-enrollment', 'medicare-supplement-underwriting-questions', 'medicare-plan-g-reviews'],
   },
-  {
-    slug: 'does-medicare-cover-hormone-therapy-for-menopause',
-    seo: {
-      title: 'Does Medicare Cover Hormone Replacement Therapy (HRT)? | MedicareFAQ',
-      description: 'Many women wonder how Medicare covers hormone replacement therapy. Discover Medicare guidelines for hormone therapy and your coverage options.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-hormone-therapy-for-menopause/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
-    },
-    title: 'Does Medicare Cover Hormone Replacement Therapy for Menopause?',
-    summary: 'Medicare does cover some forms of hormone replacement therapy (HRT) for menopause, but coverage depends on the type of therapy and how it is administered. Prescription HRT drugs are typically covered under Medicare Part D, while injections administered in a doctor\'s office may be covered under Part B.',
-    category: 'Medicare FAQ',
-    dateUpdated: 'January 10, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '4 min read',
-    sections: [
-      {
-        heading: 'Does Medicare Cover HRT?',
-        paragraphs: [
-          'Yes, Medicare covers hormone replacement therapy in certain circumstances. The type of coverage depends on how the HRT is administered:',
-          '[Medicare Part D (prescription drug coverage)](/faqs/part-d-formulary) covers oral HRT medications (pills), transdermal patches, topical gels and creams, and vaginal rings — when prescribed by your doctor and listed on your plan\'s formulary.',
-          '[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) may cover hormone injections administered in a doctor\'s office or clinic as a medical service.',
-        ],
-      },
-      {
-        heading: 'Learn More About How Medicare Will Cover Hormone Therapy for Menopause',
-        paragraphs: [
-          'To get Medicare coverage for HRT, you need a prescription from your doctor. For Part D coverage, check your plan\'s formulary to confirm your specific medication is covered. If it\'s not on the formulary, your doctor can request a [formulary exception](/blog/why-some-drugs-are-covered-under-part-b-instead-of-part-d).',
-          'If you don\'t have Part D coverage, you can enroll during the [Annual Enrollment Period](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) (October 15 – December 7) or during a Special Enrollment Period if you qualify. Keep in mind that delaying Part D enrollment without creditable coverage can result in a permanent late enrollment penalty.',
-          'A [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can help cover your Part B cost-sharing (20% coinsurance) for hormone injections administered in a medical setting, reducing your out-of-pocket costs.',
-        ],
-      },
-    ],
-    relatedSlugs: ['medicare-for-dummies', 'medicare-part-d-formulary', 'does-medicare-cover-home-health-care'],
-  },
+  // does-medicare-cover-hormone-therapy-for-menopause moved to coverage-data.ts
   {
     slug: 'medicare-cover-dialysis-treatments',
     seo: {
@@ -317,55 +283,5 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ['medicare-advantage-vs-medicare-supplement', 'medicare-for-dummies', 'medicare-advantage-plan-hmo'],
-  },
-  {
-    slug: 'will-medicare-pay-for-a-nebulizer-machine',
-    seo: {
-      title: 'Does Medicare Cover Nebulizer Machines? | Durable Medical Equipment',
-      description: 'Does Medicare cover nebulizer machines for your needs? Learn about Medicare Part B coverage for nebulizers, medications, and portable units.',
-      canonical: 'https://www.medicarefaq.com/faqs/will-medicare-pay-for-a-nebulizer-machine/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
-    },
-    title: 'Does Medicare Cover Nebulizer Machines?',
-    summary: 'Yes, Medicare Part B covers nebulizer machines as durable medical equipment (DME) when they are medically necessary and prescribed by your doctor. Medicare also covers the medications used in the nebulizer under Part B (not Part D) when administered through the device.',
-    category: 'Medicare FAQ',
-    dateUpdated: 'January 10, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '5 min read',
-    sections: [
-      {
-        heading: 'Will Medicare Pay for a Nebulizer Machine?',
-        paragraphs: [
-          'Yes. Medicare Part B covers nebulizer machines as [durable medical equipment (DME)](/faqs/durable-medical-equipment) when medically necessary. To qualify for coverage, your doctor must prescribe the nebulizer, it must be for use in your home, and you must purchase it from a Medicare-enrolled DME supplier.',
-          'After meeting your Part B deductible ($257 in 2026), Medicare pays 80% of the approved amount for the nebulizer and you pay 20% coinsurance. If you have a [Medigap plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it may cover your 20% coinsurance.',
-        ],
-      },
-      {
-        heading: 'Medicare Guidelines for Nebulizer Medications',
-        paragraphs: [
-          '[Medicare Part B (not Part D) covers medications](/blog/why-some-drugs-are-covered-under-part-b-instead-of-part-d) administered through a nebulizer when they are medically necessary. This includes drugs like albuterol, ipratropium (Atrovent), and budesonide (Pulmicort) when used in a nebulizer. The medication must be prescribed by your doctor and obtained from a Medicare-enrolled pharmacy or DME supplier.',
-        ],
-      },
-      {
-        heading: 'Does Medicare Cover Nebulizers for Asthma?',
-        paragraphs: [
-          'Yes, Medicare covers nebulizers for asthma when medically necessary. Your doctor must document that a nebulizer is medically necessary for your condition — typically when an inhaler is not effective or you have difficulty using one properly.',
-        ],
-      },
-      {
-        heading: 'Does Medicare Cover Portable Nebulizers?',
-        paragraphs: [
-          'Medicare Part B may cover portable nebulizers as DME if they are medically necessary and prescribed by your doctor. Coverage depends on whether the portable nebulizer meets Medicare\'s DME criteria and whether your supplier is Medicare-enrolled.',
-        ],
-      },
-      {
-        heading: 'Does a Medicare Supplement Pay for a Nebulizer?',
-        paragraphs: [
-          'A [Medicare Supplement (Medigap) plan](/blog/how-medigap-plans-affect-your-overall-medicare-costs) can help cover your out-of-pocket costs for a nebulizer. Most Medigap plans cover the 20% Part B coinsurance after Medicare pays its 80%, which can significantly reduce your costs for both the nebulizer machine and the medications used in it.',
-        ],
-      },
-    ],
-    relatedSlugs: ['medicare-for-dummies', 'does-medicare-cover-home-health-care', 'chronic-care-management'],
   },
 ];

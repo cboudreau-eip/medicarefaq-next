@@ -9,31 +9,6 @@ import type { SimpleFAQArticleData } from "@/lib/article-types";
 export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   // does-medicare-cover-an-echocardiogram moved to coverage-data.ts (CoverageArticleContent format)
   {
-    slug: 'will-medicare-cover-my-surgery',
-    seo: {
-      title: 'Will Medicare Cover My Upcoming Surgery',
-      description: 'Medicare will cover your upcoming surgery if it\'s medically necessary and meets FDA guidelines. Learn more about surgery coverage here!',
-      canonical: 'https://www.medicarefaq.com/faqs/will-medicare-cover-my-surgery/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/will-medicare-cover-my-upcoming-surgery.jpg',
-    },
-    title: 'Will Medicare Cover My Upcoming Surgery',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Does Original Medicare cover cateract surgery for the eyes?',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-an-echocardiogram", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-robotic-surgery", "does-medicare-cover-second-opinions-and-when-should-you-get-one"],
-  },
-  {
     slug: 'medicare-changes',
     seo: {
       title: 'New Medicare Changes for 2026',
@@ -365,31 +340,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["medicare-costs-2025", "medicare-part-b-annual-deductible-explained-what-youll-pay", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "what-is-medicare-cost-sharing"],
-  },  {
-    slug: 'will-medicare-cover-naturopathy',
-    seo: {
-      title: 'Will Medicare Cover Naturopathy',
-      description: 'Medicare doesn\'t cover naturopathy but it does pay for some alternative and holistic services under specific circumstances.',
-      canonical: 'https://www.medicarefaq.com/faqs/will-medicare-cover-naturopathy/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/will-medicare-cover-naturopathy.jpg',
-    },
-    title: 'Will Medicare Cover Naturopathy',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'September 30, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover a Nutritionist',
-        paragraphs: [
-          'Updated on September 30, 2021',
-          'For beneficiaries with certain health conditions, [Medicare fully covers](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) [medical nutrition therapy (MNT)](/faqs/does-medicare-cover-medical-nutritional-therapy) services. However,...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-and-alternative-therapies-whats-covered-and-whats-not", "does-medicare-cover-acupuncture", "does-medicare-cover-chiropractic-care", "medicare-preventive-services"],
   },
   {
     slug: 'medicare-agents-near-me',
@@ -961,32 +911,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["care-compare-tool", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling", "why-medicare-supplements-offer-network-free-healthcare", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],
-  },
-  {
-    slug: 'what-std-treatments-and-services-does-medicare-cover',
-    seo: {
-      title: 'Does Medicare Cover STD Testing?',
-      description: 'Does Medicare cover STD testing? Learn more about how Medicare helps cover the sexual health of eligible beneficiaries.',
-      canonical: 'https://www.medicarefaq.com/faqs/what-std-treatments-and-services-does-medicare-cover/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/std-testing.jpg',
-    },
-    title: 'Does Medicare Cover STD Testing?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'February 8, 2023',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Coverage for Hepatitis Screenings, Vaccines, and Treatments',
-        paragraphs: [
-          'Updated on February 8, 2023',
-          'Fortunately, [Medicare helps to protect seniors](/faqs/medicare-preventive-services) from hepatitis by covering necessary vaccines and treatments. When...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-mental-health", "medicare-preventive-services", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-smoking-cessation-treatments"],
   },
 
   {
