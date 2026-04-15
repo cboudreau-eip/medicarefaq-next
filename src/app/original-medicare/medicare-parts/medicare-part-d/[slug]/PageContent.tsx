@@ -130,7 +130,9 @@ export default function PageContent({ slug }: { slug: string }) {
             {page.sections.map((section) => (
               <section key={section.id} id={section.id}>
                 <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">{section.heading}</h2>
-                <p className="text-gray-700 leading-relaxed mb-4">{section.content}</p>
+                {section.content.split('\n\n').map((para, i) => (
+                  <p key={i} className="text-gray-700 leading-relaxed mb-4">{para}</p>
+                ))}
 
                 {section.bullets && (
                   <ul className="space-y-2 mb-4">
