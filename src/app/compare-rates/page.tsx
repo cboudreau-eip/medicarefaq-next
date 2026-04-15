@@ -3,10 +3,10 @@ import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "You want maximum freedom",
+  title: "Compare Medicare Plan Types: Original Medicare, Advantage, Medigap & Part D",
   description: "Compare Medicare Supplement and Medicare Advantage plans side by side. Find out which type of coverage is right for your health needs and budget.",
   openGraph: {
-    title: "You want maximum freedom",
+    title: "Compare Medicare Plan Types: Original Medicare, Advantage, Medigap & Part D",
     description: "Compare Medicare Supplement and Medicare Advantage plans side by side. Find out which type of coverage is right for your health needs and budget.",
     url: "https://www.medicarefaq.com/compare-rates/",
     type: "website",
