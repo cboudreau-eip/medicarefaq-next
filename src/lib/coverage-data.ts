@@ -17543,4 +17543,202 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["medicare-coverage-for-oxygen-therapy", "does-medicare-cover-asthma-inhalers", "durable-medical-equipment-covered-by-medicare", "does-medicare-cover-copd"],
   },
+  {
+    slug: "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another",
+    seo: {
+      title: "Does Medicare Pay for Emergency Medical Transport from One Hospital to Another?",
+      description: "Medicare Part B covers 80% of emergency inter-hospital transport costs when medically necessary. Learn what qualifies, how appeals work, and how Medigap can eliminate your 20% coinsurance.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Pay-for-Emergency-Medical-Transport-from-One-Hospital-to-Another.jpg",
+    },
+    title: "Does Medicare Pay for Emergency Medical Transport from One Hospital to Another?",
+    subtitle: "Medicare Part B covers 80% of eligible emergency inter-hospital transport costs when medically necessary. Learn what qualifies, how your plan type affects costs, and how to appeal a denied claim.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Yes. <strong>Medicare Part B covers 80% of eligible emergency medical transport costs</strong> between hospitals when the transfer is deemed medically necessary, after your annual Part B deductible is met. You are responsible for the remaining <strong>20% coinsurance</strong>. A Medigap plan like Plan G can eliminate that coinsurance entirely.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part B)", coverage: "Covered (80%)", icon: "shield", notes: "Covers 80% of approved amount after Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Advantage", coverage: "Covered", icon: "heart", notes: "Must cover emergency transport; prior auth may apply for non-emergency transfers" },
+      { planType: "Medigap (Plan G)", coverage: "Covers Coinsurance", icon: "plus", notes: "Covers the 20% Part B coinsurance — $0 out of pocket after deductible" },
+      { planType: "Medigap (Plan F)", coverage: "Full Coverage", icon: "plus", notes: "Covers deductible and coinsurance; only available to pre-2020 Medicare enrollees" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B handles medical services including ambulance transport, while Medicare Part A focuses on inpatient hospital stays. When you are transferred from one hospital to another, the ambulance service itself falls under Part B, even if both facilities are billing Part A for your inpatient care.",
+          "Once you meet your 2026 annual Part B deductible ($283), Medicare pays 80% of the Medicare-approved amount for the transport. You are responsible for the remaining 20% coinsurance. There is no cap on that 20% under Original Medicare alone.",
+          "Medicare requires that the transport be to the nearest appropriate facility that can provide the care you need. If a closer facility offers the same level of specialty care, Medicare may not cover transport to a more distant hospital, even if you or your family prefer it.",
+        ],
+        whatItCovers: [
+          "Emergency inter-hospital transport when medically necessary",
+          "Ground ambulance transport (standard level of care)",
+          "Air ambulance when ground transport would endanger health or terrain/distance makes it impractical",
+          "Transport to the nearest appropriate facility with required capabilities",
+        ],
+        whatItDoesntCover: [
+          "Transport to a more distant hospital when a closer facility offers equivalent care",
+          "Air ambulance for stable, routine transfers",
+          "Transport to a doctor's office or outpatient clinic (only hospitals, critical access hospitals, or SNFs)",
+          "Transfers not ordered by a physician with proper documentation",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#2563EB",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Advantage plans are required by law to cover at least the same services as Original Medicare, including emergency ambulance transport. For emergency transfers, network restrictions generally do not apply.",
+          "The practical details can differ significantly between plans. Cost-sharing structures, copayments, coinsurance, and deductibles vary by plan. Some Medicare Advantage plans may require you to use preferred ambulance providers within their network for non-emergency transports.",
+          "Prior authorization is a common requirement in Medicare Advantage plans for planned or non-emergency inter-hospital transfers. Even if a transfer is medically necessary, your plan may require approval before the transport takes place. Always review your specific plan's Evidence of Coverage document to understand how inter-hospital transfers are handled.",
+        ],
+        whatItCovers: [
+          "Emergency inter-hospital transport (same as Original Medicare)",
+          "Non-emergency transport when medically necessary (may require prior auth)",
+          "Out-of-network ambulance services in genuine emergencies",
+        ],
+        whatItDoesntCover: [
+          "Non-emergency transport without prior authorization (if required by your plan)",
+          "Out-of-network non-emergency transport (may result in higher cost-sharing)",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "plus",
+        iconColor: "#059669",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "For those with Original Medicare, the 20% coinsurance after the Part B deductible can add up quickly, especially for air ambulance transports which can cost tens of thousands of dollars. A Medigap plan is designed to pick up exactly those kinds of gaps.",
+          "Plan G covers 100% of Part B coinsurance after you pay the annual deductible, making it the most popular comprehensive option for new enrollees in 2026. With Plan G, your out-of-pocket cost for a covered emergency inter-hospital transport after meeting your deductible would be $0.",
+          "Plan F covers both the Part B deductible and coinsurance but is only available to beneficiaries who were eligible for Medicare before January 1, 2020. Plan N covers Part B coinsurance with some copayments, offering lower premiums at the cost of slightly higher point-of-service costs.",
+        ],
+        whatItCovers: [
+          "Plan G: 100% of Part B coinsurance after annual deductible",
+          "Plan F: Part B deductible and coinsurance (pre-2020 enrollees only)",
+          "Plan N: Part B coinsurance (with some copayments)",
+          "Part B excess charges (Plans F and G) when provider doesn't accept Medicare assignment",
+        ],
+        whatItDoesntCover: [
+          "Medigap does not provide standalone coverage — it supplements Original Medicare",
+          "Services not covered by Original Medicare",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 Cost Breakdown: Emergency Inter-Hospital Transport",
+      headers: ["Scenario", "Medicare Pays", "You Pay"],
+      rows: [
+        { "Scenario": "Ground ambulance (Original Medicare, after deductible)", "Medicare Pays": "80% of approved amount", "You Pay": "20% coinsurance (no cap)" },
+        { "Scenario": "Air ambulance (Original Medicare, after deductible)", "Medicare Pays": "80% of approved amount", "You Pay": "20% coinsurance (can exceed $6,000)" },
+        { "Scenario": "Ground ambulance (Medigap Plan G, after deductible)", "Medicare Pays": "80% of approved amount", "You Pay": "$0 coinsurance" },
+        { "Scenario": "Air ambulance (Medigap Plan G, after deductible)", "Medicare Pays": "80% of approved amount", "You Pay": "$0 coinsurance" },
+        { "Scenario": "Medicare Advantage (emergency)", "Medicare Pays": "Varies by plan", "You Pay": "Plan copay/coinsurance" },
+        { "Scenario": "Non-assignment provider (excess charge)", "Medicare Pays": "80% of approved amount", "You Pay": "20% coinsurance + up to 15% excess charge" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Exceptions and Limitations",
+      items: [
+        {
+          title: "Nearest Appropriate Facility Rule",
+          text: "Medicare only covers transport to the nearest facility that can provide the required care. Choosing a more distant hospital — even for personal preference — may result in denied coverage for the extra mileage or the entire transport.",
+        },
+        {
+          title: "Air Ambulance Restrictions",
+          text: "Air ambulance is only covered when your medical condition is so serious that ground transport would endanger your health, or when terrain or distance makes ground transport impractical. Routine stable transfers between facilities typically do not qualify for air transport coverage.",
+        },
+        {
+          title: "Provider Assignment Requirement",
+          text: "For the Part B benefit to apply fully, the ambulance provider must accept Medicare assignment. Non-participating providers can charge up to 15% above the Medicare-approved amount, which becomes your responsibility on top of the standard 20% coinsurance.",
+        },
+        {
+          title: "Documentation Requirement",
+          text: "The treating physician must provide a written order explaining why the transfer is necessary and why the current facility cannot meet the patient's needs. Without thorough documentation, Medicare may deny the claim during review.",
+        },
+        {
+          title: "Medicare Advantage Prior Authorization",
+          text: "Medicare Advantage plans may require prior authorization for non-emergency inter-hospital transfers. Failing to obtain prior authorization in non-emergency situations can result in denied claims or reduced benefits.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover non-emergency transfers between hospitals?",
+        answer: "Non-emergency inter-hospital transfers are evaluated more strictly. Medicare Part B may cover them if a physician documents medical necessity, but coverage is less consistent than for emergency transfers. Medicare Advantage plans may also require prior authorization for non-emergency transport even when medically justified.",
+      },
+      {
+        question: "What if the ambulance company does not accept Medicare assignment?",
+        answer: "If the provider does not accept Medicare assignment, they can charge up to 15% above the Medicare-approved amount. That additional charge, called an excess charge, becomes your responsibility on top of the standard 20% coinsurance. Some Medigap plans (F and G) cover these Part B excess charges.",
+      },
+      {
+        question: "Are there any limits on the number of emergency transports Medicare will cover?",
+        answer: "Medicare does not cap the number of covered emergency transports per year. Each medically necessary transport is evaluated individually. As long as the transfer meets Medicare's medical necessity criteria, coverage applies, though your cost-sharing obligation applies to each transport separately.",
+      },
+      {
+        question: "How do I find out if my specific Medicare Advantage plan covers inter-hospital transfers?",
+        answer: "Review your plan's Evidence of Coverage (EOC) document, which outlines all covered services and cost-sharing details. You can also call the member services number on your insurance card. For emergency transfers specifically, federal rules require Advantage plans to cover them regardless of network, so denial for emergency situations is rare.",
+      },
+      {
+        question: "What is the average out-of-pocket cost for an emergency inter-hospital transfer with Original Medicare?",
+        answer: "Ground ambulance transfers often run between $400 and $1,200 in total billed charges, with your 20% coinsurance responsibility typically falling between $80 and $240 after the deductible. Air ambulance transports are far more expensive — average billed charges can exceed $30,000, making the 20% coinsurance potentially $6,000 or more without Medigap coverage. A Medigap plan like Plan G eliminates that coinsurance entirely after your deductible.",
+      },
+      {
+        question: "Does Medicare cover ambulance services to a doctor's office or clinic?",
+        answer: "Generally, no. Medicare Part B covers ambulance transport to a hospital, critical access hospital, or skilled nursing facility. Transport to a physician's office or outpatient clinic is typically not covered unless the destination is later changed to an inpatient facility due to the patient's condition.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare Part B</strong> covers emergency inter-hospital transport" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible ($283 in 2026)" },
+      { icon: "check", text: "Transfer must be to the <strong>nearest appropriate facility</strong>" },
+      { icon: "info", text: "<strong>Air ambulance</strong> only covered when ground transport would endanger health" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> eliminates the 20% coinsurance entirely" },
+      { icon: "info", text: "Medicare Advantage may require <strong>prior authorization</strong> for non-emergency transfers" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Ambulance Services", description: "Learn about Medicare's full coverage rules for ambulance transport.", slug: "ambulance-and-medicare-coverage" },
+      { title: "Medicare Coverage for Stroke Victims", description: "Learn how Medicare covers stroke treatment and rehabilitation.", slug: "medicare-coverage-for-stroke-victims" },
+      { title: "Observation vs. Inpatient: Why It Affects Your Medicare Bill", description: "Understand how Medicare classifies hospital stays and what it means for your costs.", slug: "observation-vs-inpatient-why-it-can-affect-your-medicare-bill" },
+      { title: "Medicare Rights and Protections", description: "Learn about your rights as a Medicare beneficiary, including appeal rights.", slug: "your-medicare-rights-and-protections" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Ambulance Services",
+      "Medicare Coverage for Stroke Victims",
+      "Observation vs. Inpatient: Why It Affects Your Medicare Bill",
+      "Medicare Rights and Protections",
+    ],
+    ctaBanner: {
+      title: "Worried About Ambulance Cost Exposure?",
+      text: "A Medigap plan like Plan G can eliminate your 20% coinsurance for emergency transport — including air ambulance. Our licensed Medicare agents can help you compare plans in your area at no cost.",
+    },
+    relatedSlugs: ["ambulance-and-medicare-coverage", "medicare-coverage-for-stroke-victims", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections"],
+  },
+
 ];

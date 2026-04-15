@@ -914,38 +914,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   },
 
   {
-    slug: 'does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another',
-    seo: {
-      title: 'Does Medicare Pay for Emergency Medical Transport from One Hospital to Another?',
-      description: '',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Pay-for-Emergency-Medical-Transport-from-One-Hospital-to-Another.jpg',
-    },
-    title: 'Does Medicare Pay for Emergency Medical Transport from One Hospital to Another?',
-    summary: '',
-    category: 'Medicare Part A',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Medicare may cover the costs associated withtransferring a patient from one hospital to another, but there is specific criteria that must be met for coverage to become available. The key factor is that the transfer must be deemed medically necessary, meaning that the initial hospital is unable to provide the appropriate care required for the patient’s condition.',
-          'If covered, Medicare Part B, will typically cover 80 percent of the eligible costs for this emergency medical transport after you meet the [Medicare Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) for the year. This leaves the patient responsible for the remaining 20 percent. This coverage is designed to ensure that patients receive the critical care they need without incurring extreme financial burden.',
-          'For those enrolled in [Medicare Advantage plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans), the situation can vary. Medicare Advantage plans, offered by private insurers, often have their own networks and coverage rules, so it’s essential to consult with the plan provider to understand how they handle emergency medical transport between hospitals.',
-          'Additionally, if you have a [Medicare Supplement plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it may provide additional coverage for the costs not covered by Medicare Part B, such the remaining 20% of the total cost. This can help alleviate some of the out-of-pocket expenses you might face, offering further financial protection in cases of medically necessary transfers. It’s crucial to review your specific plan details to determine the exact extent of coverage available to you.',
-        ],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (13)No',
-        ],
-      },
-    ],
-    relatedSlugs: ["ambulance-and-medicare-coverage", "medicare-coverage-for-stroke-victims", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "how-medicare-handles-skilled-nursing-vs-custodial-care"],
-  },
-  {
     slug: 'medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f',
     seo: {
       title: 'Medigap Plan Popularity: Why Plan G Dominates and What’s Happening to Plan F',
