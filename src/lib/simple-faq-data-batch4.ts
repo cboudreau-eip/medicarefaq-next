@@ -411,32 +411,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["finding-local-doctors-who-accept-medicare", "medicare-enrollment-checklist", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
-    slug: 'medicare-coverage-for-wheelchairs-and-scooters',
-    seo: {
-      title: 'Does Medicare Cover Wheelchairs and Scooters?',
-      description: 'Will Medicare pay for a wheelchair? Learn how to cut costs, about eligibility, and the different types of wheelchairs and scooters available for enrollees.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-wheelchairs-and-scooters/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Medicare-Coverage-for-Wheelchairs-and-Scooters-1.jpg',
-    },
-    title: 'Does Medicare Cover Wheelchairs and Scooters?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'February 22, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Dental, Vision, and Hearing Insurance for Seniors with Medicare',
-        paragraphs: [
-          'Updated on February 22, 2024',
-          '[Oral and optical health](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) are of paramount importance for [seniors on Medicare](/faqs/what-is-medicare). Proper care is...',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-bathroom-safety-devices", "does-medicare-cover-prosthetic-devices", "will-medicare-pay-for-a-nebulizer-machine"],
-  },
-  {
     slug: 'canadian-vs-american-medicare',
     seo: {
       title: 'Differences Between Canadian Medicare vs. U.S. Medicare',

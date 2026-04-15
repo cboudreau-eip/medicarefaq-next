@@ -85,31 +85,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage"],
   },
   {
-    slug: 'medicare-coverage-for-plastic-surgery',
-    seo: {
-      title: 'Medicare Coverage for Plastic Surgery',
-      description: 'Have you ever wondered; does Medicare cover plastic surgery? Only when your doctor deems it medically necessary. Learn more here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-plastic-surgery/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-plastic-surgery.jpg',
-    },
-    title: 'Medicare Coverage for Plastic Surgery',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'I just recently had baractric sleeve surgery and [medicare covered](/faqs/medicare-coverage-for-bariatric-surgery).  Does medicare cover [saggy skin removal after the weight loss](/faqs/does-medicare-cover-prosthetic-devices)?',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "will-medicare-cover-my-surgery", "what-does-medically-necessary-mean", "does-medicare-cover-cataract-surgery"],
-  },
-  {
     slug: 'medicare-and-wound-care-coverage',
     seo: {
       title: 'Medicare Coverage for Wound Care and Supplies',
@@ -356,90 +331,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       ]}
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-does-medicare-start", "medicare-enrollment-checklist", "turning-65-these-are-the-most-common-medicare-questions-answered"],
-  },
-  {
-    slug: 'medicare-coverage-for-smoking-cessation-treatments',
-    seo: {
-      title: 'Medicare Coverage for Smoking Cessation Treatments',
-      description: 'We all know quitting smoking is one of the hardest things in life, but we have good news! Medicare coverage for smoking cessation is available.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-smoking-cessation-treatments/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-smoking-cessation-treatments.jpg',
-    },
-    title: 'Medicare Coverage for Smoking Cessation Treatments',
-    summary: 'Medicare covers smoking cessation treatments when deemed medically necessary. These treatments help individuals addicted to smoking quit the bad habit to live longer and healthier lives.',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '6 min',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-      },
-      {
-        heading: 'Medicare Coverage for Smoking Cessation',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Does Medicare Cover Smoking Cessation?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-      },
-      {
-        heading: 'What is Smoking Cessation Counseling?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Does Medicare Cover Smoking Cessation Prescriptions?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-        listItems: [
-          'NRT inhaler',
-          'NRT nasal spray',
-          'Bupropion or Zyban',
-          'Varenicline, also known as Chantix',
-        ],
-      },
-      {
-        heading: 'How Much Will Medicare Cover Smoking Cessation?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Does Medicare Advantage Cover Smoking Cessation?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Does Medicare Cover Chantix?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'How Often Does Medicare Pay for Smoking Cessation?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'How to Get Medicare Coverage for Smoking Cessation',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'We can compare all your supplemental Medicare options, includingMedigap, Medicare Advantage, and Part D. Give us a call, or fill out anonline rate formand see all the options available in your area to cover Medicare smoking cessation programs.Was this article helpful ?Yes (6)No',
-        ],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (6)No',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "medicare-annual-wellness-visit", "does-medicare-cover-mental-health", "retirement-regrets-of-seniors"],
   },
   {
     slug: 'six-protected-classes',
@@ -883,31 +774,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["delay-medicare", "can-you-be-denied-a-medicare-supplement-plan", "is-medicare-mandatory", "when-does-medicare-start"],
   },
   {
-    slug: 'medicare-coverage-for-prostate-specific-antigen-psa-test',
-    seo: {
-      title: 'Does Medicare Cover a PSA Test?',
-      description: 'Does Medicare cover a PSA test? Learn about Medicare PSA coverage, benefits for prostate surgery, covering digital rectal exams, and more.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-prostate-specific-antigen-psa-test/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-prostate-specific-antigen-psa-test.jpg',
-    },
-    title: 'Does Medicare Cover a PSA Test?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Specifically, how is it communicated that a test is [medically necessary](/faqs/what-does-medically-necessary-mean)? It really is not as simple as your doctor “deeming” something medically necessary. Something is medically necessary when it is ordered by a doctor evaluating, managing and treating a medical condition, is it not? For males on testosterone, it is medically necessary to monitor PSA every 6 months. This has been communicated to Medicare by ordering CPT 84153 and including ICD-10 E29.1. Yet the lab claim was denied. What additional information is to be provided?',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-coverage-for-colonoscopy-screenings", "what-to-know-about-medicare-at-64"],
-  },
-  {
     slug: 'who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules',
     seo: {
       title: 'Who Can Speak on Your Behalf? Medicare and Power of Attorney Rules',
@@ -1188,31 +1054,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       },
     ],
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "how-dual-residency-and-medicare-works", "state-specific-medicare-rules", "moving-to-another-state-with-medicare"],
-  },
-  {
-    slug: 'medicare-coverage-for-stroke-victims',
-    seo: {
-      title: 'Medicare Coverage for Stroke Victims & Rehabilitation',
-      description: 'Medicare coverage is available for stroke victims in the hospital or rehab. Other benefits may have coverage, learn more here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-stroke-victims/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-stroke-victims-rehabilitation.jpg',
-    },
-    title: 'Medicare Coverage for Stroke Victims & Rehabilitation',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'To the medicarefaq.com administrator, Thanks for the well-organized post!',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-physical-therapy", "medicare-coverage-for-in-home-caregivers", "will-medicare-cover-my-surgery", "medicare-preventive-services", "does-medicare-cover-speech-therapy"],
   },
   {
     slug: 'can-you-be-denied-a-medicare-supplement-plan',
