@@ -85,31 +85,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "applying-for-medicare", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
   },
   {
-    slug: 'medicare-coverage-for-lift-chairs',
-    seo: {
-      title: 'Will Medicare Pay for a Lift Chair',
-      description: 'There\'s Medicare coverage for lift chairs, but the chair itself is not covered. Medicare only covers 80% of the lift mechanism.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-lift-chairs/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/will-medicare-pay-for-a-lifting-chair.jpg',
-    },
-    title: 'Will Medicare Pay for a Lift Chair',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'i have medicare advantage does this cover alift chair',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-a-shower-transfer-bench"],
-  },
-  {
     slug: 'delay-medicare',
     seo: {
       title: 'The Consequences of Delaying Medicare',
@@ -432,40 +407,8 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     reviewer: '',
     readTime: '8 min',
     sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [[Medicare](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
     ],
     relatedSlugs: ["finding-local-doctors-who-accept-medicare", "medicare-enrollment-checklist", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
-  },  {
-    slug: 'medicare-coverage-for-in-home-caregivers',
-    seo: {
-      title: 'Medicare Home Health Care',
-      description: 'Medicare home health care benefits can help you cut costs for services such as skilled nursing care or therapy, but restrictions apply. Learn more.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-in-home-caregivers/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-home-health-care.jpg',
-    },
-    title: 'Medicare Home Health Care',
-    summary: 'Medicare home health care benefits are available to help you cover associated costs, but there are guidelines that you’ll need to be aware of. There are also different types of care, and you’ll need to know when and how you qualify for these services to avoid paying out of your own pockets.',
-    category: 'Coverage',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'What Does Medicare Cover for ALS Patients',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          '[Medicare coverage](/blog/medicare-parts-a-b-c-and-d-explained-simply) is available for [amyotrophic lateral sclerosis (ALS)](/faqs/medicare-coverage-for-amyotrophic-lateral-sclerosis-als), also known as Lou Gehrig’s disease....',
-        ],
-      },
-    ],
-    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-hospice", "medicare-coverage-for-physical-therapy"],
   },
   {
     slug: 'medicare-coverage-for-physical-therapy',
@@ -492,58 +435,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["does-medicare-cover-speech-therapy", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-stroke-victims"],
-  },
-  {
-    slug: 'medicare-coverage-for-hip-injections',
-    seo: {
-      title: 'Does Medicare Cover Hip Replacement?',
-      description: 'Does Medicare cover hip replacement? Discover the cost of hip replacement surgery with Medicare and how your benefits help you.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-hip-injections/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hip-replacements.jpg',
-    },
-    title: 'Does Medicare Cover Hip Replacement?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Hello,',
-          'I’ve had a cortisone injection that was unsuccessful. My Dr. said due to severe degeneration of the joint, I need a [hip replacement](/faqs/medicare-covered-alternatives-to-knee-replacement). My [supplemental insurance](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) is denying [preauthorization](/blog/step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know) because I did not pursue PT first. At this point, I can barely walk. I suppose an appeal is in order?',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-lower-back-pain-management", "rheumatoid-arthritis-treatment-and-medicare-coverage", "medicare-coverage-for-physical-therapy", "will-medicare-cover-my-surgery"],
-  },
-  {
-    slug: 'medicare-coverage-for-hearing-aids',
-    seo: {
-      title: 'Does Medicare Cover Hearing Aids',
-      description: 'Medicare alone does not cover hearing aids. Find out if your supplemental Medicare benefits include coverage for hearing aids here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-hearing-aids/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hearing-aids.jpg',
-    },
-    title: 'Does Medicare Cover Hearing Aids',
-    summary: 'As we age, it’s common to lose at least some hearing ability. Many beneficiaries wonder if Medicare covers hearing aids. Here, we will answer that question and more about what Medicare can offer you for hearing aid coverage.',
-    category: 'Dental, Vision & Hearing',
-    dateUpdated: 'April 25, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Vision',
-        paragraphs: [
-          'Updated on April 25, 2023',
-          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) routine vision coverage is not comprehensive. However, [you have options](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) when it comes...',
-        ],
-      },
-    ],
-  relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medicare-costs-2025", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained"],
   },
   {
     slug: 'medicare-coverage-for-wheelchairs-and-scooters',

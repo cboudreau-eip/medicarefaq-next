@@ -13975,4 +13975,1103 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["medicare-coverage-for-cancer", "does-medicare-cover-a-biopsy", "does-medicare-cover-botox", "medicare-supplement-plan-g"],
   },
 
+
+  // ─── Medicare Coverage for Diabetic Shoes ──────────────────────────────────
+  {
+    slug: "medicare-coverage-for-diabetic-shoes",
+    seo: {
+      title: "Does Medicare Cover Diabetic Shoes? | MedicareFAQ",
+      description: "Medicare Part B covers diabetic shoes and inserts when medically necessary. Learn about eligibility requirements, the Therapeutic Shoe Bill, costs, and how to get your shoes covered.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-diabetic-shoes/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-diabetic-shoes.jpg",
+    },
+    title: "Does Medicare Cover Diabetic Shoes?",
+    subtitle: "Medicare Part B covers therapeutic shoes and inserts for beneficiaries with diabetes who meet specific eligibility requirements. Learn what's covered, how much you'll pay, and where to buy Medicare-approved diabetic shoes.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers therapeutic shoes and inserts for beneficiaries with diabetes who meet specific eligibility requirements. Medicare covers one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year, plus additional inserts. Your doctor must verify the shoes are medically necessary, and you must use a Medicare-enrolled supplier. You pay 20% coinsurance after your Part B deductible.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B", coverage: "Covered", icon: "shield", notes: "Covers therapeutic shoes, inserts, and modifications when medically necessary for diabetes" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same benefits as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Partial", icon: "users", notes: "Covers Part B coinsurance (20%) for diabetic shoes, reducing out-of-pocket costs" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Part D covers prescription drugs; shoes are covered under Part B" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers therapeutic shoes and inserts for diabetic patients",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers both the fitting and the footwear for therapeutic diabetic shoes. The Therapeutic Shoe Bill (TSB) provides Part B reimbursement for therapeutic shoes, inserts, and modifications for beneficiaries with diabetes who meet specific eligibility requirements. Coverage includes one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year.",
+          "Medicare also covers inserts separately: two extra pairs of inserts per calendar year for custom-molded shoes, or three pairs of inserts per calendar year for extra-depth shoes — for a total of up to five pairs of inserts per year. Medicare can also cover modifications to your shoes in place of inserts.",
+          "To qualify, your doctor must verify that the shoes are [medically necessary](/faqs/what-does-medically-necessary-mean-for-medicare). You must have diabetes and meet at least one additional condition: foot deformity, nerve damage caused by diabetes, [foot ulcers](/faqs/does-medicare-cover-wound-care), amputation of part or all of the foot, poor blood circulation, or a history of pre-ulcerative calluses. The doctor who treats your diabetes must certify your need, and a podiatrist or other qualified provider must prescribe the shoes.",
+        ],
+        whatItCovers: [
+          "One pair of custom-molded shoes with inserts per calendar year",
+          "One pair of extra-depth shoes per calendar year",
+          "Two extra pairs of inserts per year (custom-molded shoes)",
+          "Three pairs of inserts per year (extra-depth shoes)",
+          "Shoe modifications in place of inserts",
+          "Professional fitting by a podiatrist or qualified provider",
+        ],
+        whatItDoesntCover: [
+          "Regular shoes or non-therapeutic footwear",
+          "Shoes from suppliers who do not accept Medicare assignment",
+          "More than one pair of therapeutic shoes per calendar year",
+          "Shoes for patients who do not meet the eligibility requirements",
+        ],
+        costNote: "You pay 20% coinsurance after the $257 annual Part B deductible (2026). Diabetic shoes typically cost $50–$200 per pair before Medicare's share.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — same benefits as Original Medicare",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all services that Original Medicare covers, including therapeutic diabetic shoes and inserts. Since Medicare Part B covers diabetic shoes, Medicare Advantage plans will also cover them as long as you meet the same eligibility requirements.",
+          "However, Medicare Advantage plans use provider networks. You must verify that your podiatrist and shoe supplier are in-network before purchasing diabetic shoes. If your plan's network doesn't include your provider, you may not have coverage for the shoes or the fitting visit.",
+        ],
+        whatItCovers: [
+          "All diabetic shoe benefits covered by Original Medicare",
+          "Some plans may offer additional foot care benefits",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers or suppliers (unless your plan allows out-of-network benefits)",
+          "Shoes purchased without meeting eligibility requirements",
+        ],
+        callout: {
+          type: "warning",
+          title: "Verify your supplier is in-network",
+          text: "Medicare Advantage plans require you to use in-network providers and suppliers. Before purchasing diabetic shoes, confirm that both your podiatrist and the shoe supplier are in your plan's network to avoid paying the full cost out of pocket.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "partial",
+        statusBadge: "Covers Part B coinsurance for diabetic shoes",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. For diabetic shoes covered under Part B, Medigap can cover the 20% coinsurance. With Medigap Plan G, your only cost for diabetic shoes is the annual $257 Part B deductible.",
+          "Medigap plans are a valuable asset for covering the extra costs of diabetic shoes and other diabetes-related supplies. Because Medigap covers the balance of what Medicare pays, your out-of-pocket expenses for therapeutic footwear can be minimal.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for covered diabetic shoes and inserts",
+          "Part B coinsurance for podiatrist fitting visits",
+        ],
+        whatItDoesntCover: [
+          "Shoes or inserts not covered by Original Medicare",
+          "Non-therapeutic footwear",
+        ],
+        costNote: "With Medigap Plan G, your only cost for diabetic shoes is the $257 annual Part B deductible.",
+      },
+    ],
+    costTable: {
+      title: "Diabetic Shoe Costs Under Medicare (2026)",
+      headers: ["Item", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Item": "Custom-molded shoes with inserts (1 pair/year)",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Item": "Extra-depth shoes (1 pair/year)",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Item": "Inserts (up to 5 pairs/year)",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Item": "Shoe modifications (in place of inserts)",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Item": "Podiatrist fitting visit",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Diabetic shoes typically cost $50–$200 per pair retail. Part B deductible: $257/year.",
+    },
+    exceptionsSection: {
+      title: "Eligibility Requirements for Diabetic Shoe Coverage",
+      items: [
+        {
+          title: "The Therapeutic Shoe Bill (TSB) Requirements",
+          text: "Congress passed the Therapeutic Shoe Bill to provide Part B reimbursement for therapeutic shoes, inserts, and modifications for Medicare beneficiaries with diabetes. To qualify under the TSB, you must have diabetes, documentation from a qualified physician, and at least one of the following conditions: amputation of all or part of either foot, foot deformity, poor blood circulation, history of ulcers, history of pre-ulcerative calluses, or diabetic neuropathy with evidence of callus formation.",
+          highlight: "Your diabetes doctor must certify your need for therapeutic shoes, and a podiatrist or other qualified provider must prescribe them. The supplier must accept Medicare assignment.",
+        },
+        {
+          title: "Where to Buy Medicare-Approved Diabetic Shoes",
+          text: "You can purchase diabetic shoes from your podiatrist, medical supply carriers, or online suppliers — but the supplier must accept Medicare assignment. If you purchase from a supplier who does not accept Medicare, Medicare will not cover any of the cost. Your healthcare provider can give you a list of local approved suppliers, or you can search for Medicare-enrolled suppliers on Medicare.gov.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover shoes for diabetic neuropathy?",
+        answer: "Yes. Medicare can cover extra-depth shoes for diabetic neuropathy. You can get one pair of extra-depth shoes and three pairs of inserts per calendar year. You must meet the eligibility requirements and use a Medicare-enrolled supplier.",
+      },
+      {
+        question: "Can nurse practitioners prescribe diabetic shoes?",
+        answer: "Yes. Nurse practitioners, physician assistants, nurse specialists, and podiatrists can prescribe diabetic shoes. The prescribing provider must provide proper documentation that the patient's feet have been thoroughly examined.",
+      },
+      {
+        question: "Are diabetic shoes considered durable medical equipment?",
+        answer: "Diabetic shoes fall under Medicare Part B benefits, similar to most durable medical equipment. They are covered as therapeutic shoes under the Therapeutic Shoe Bill, which provides Part B reimbursement for qualifying beneficiaries with diabetes.",
+      },
+      {
+        question: "How much do diabetic shoes cost with Medicare?",
+        answer: "Diabetic shoes typically cost $50–$200 per pair retail. With Medicare Part B, you pay 20% coinsurance after your annual $257 deductible (2026). With Medigap Plan G, your only cost is the $257 annual deductible. The exact amount depends on the type of shoe and your supplier's charges.",
+      },
+      {
+        question: "How many pairs of diabetic shoes does Medicare cover per year?",
+        answer: "Medicare covers one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year. Medicare also covers up to five pairs of inserts per year (two extra pairs for custom-molded shoes, three pairs for extra-depth shoes). Shoe modifications may be covered in place of inserts.",
+      },
+      {
+        question: "Does Medicare Advantage cover diabetic shoes?",
+        answer: "Yes. Medicare Advantage plans must cover all services that Original Medicare covers, including therapeutic diabetic shoes and inserts. You must meet the same eligibility requirements and use an in-network supplier. Cost-sharing may vary by plan.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Therapeutic diabetic shoes</strong> covered under Part B when medically necessary" },
+      { icon: "check", text: "<strong>One pair</strong> of custom-molded or extra-depth shoes per calendar year" },
+      { icon: "check", text: "<strong>Up to 5 pairs of inserts</strong> per calendar year" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after $257 Part B deductible (2026)" },
+      { icon: "info", text: "<strong>Supplier must accept Medicare</strong> — non-participating suppliers will not be reimbursed" },
+      { icon: "info", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance for diabetic shoes" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Diabetes Supplies?", description: "Learn about Medicare's coverage for glucose monitors, test strips, and insulin.", slug: "does-medicare-cover-diabetes-supplies" },
+      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "Does Medicare Cover Podiatry?", description: "Learn about Medicare's coverage for podiatrist visits and foot care.", slug: "does-medicare-cover-podiatry" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for diabetic shoes.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Diabetes Supplies",
+      "What Is Durable Medical Equipment",
+      "Does Medicare Cover Podiatry",
+      "Medicare Supplement Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Your Diabetic Shoe Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for diabetic shoes and other diabetes supplies. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-diabetes-supplies", "what-is-durable-medical-equipment-dme", "does-medicare-cover-podiatry", "medicare-supplement-plan-g"],
+  },
+
+  // ─── Medicare Coverage for Hearing Aids ──────────────────────────────────────
+  {
+    slug: "medicare-coverage-for-hearing-aids",
+    seo: {
+      title: "Does Medicare Cover Hearing Aids? | MedicareFAQ",
+      description: "Original Medicare does not cover hearing aids. Learn about your options through Medicare Advantage, OTC hearing aids, and how to reduce hearing aid costs.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-hearing-aids/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hearing-aids.jpg",
+    },
+    title: "Does Medicare Cover Hearing Aids?",
+    subtitle: "Original Medicare does not cover hearing aids or hearing aid fitting exams. However, Medicare Advantage plans may offer hearing benefits, and over-the-counter hearing aids are now available. Learn about your options and how to reduce hearing aid costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "No, Original Medicare (Part A and Part B) does not cover hearing aids or exams for fitting hearing aids. Medicare does not consider hearing aids medically necessary. However, Medicare Part B does cover diagnostic hearing exams when ordered by a doctor for a medical reason. Medicare Advantage plans may offer hearing aid benefits that vary by plan. Over-the-counter (OTC) hearing aids are available without a prescription for $250–$3,000 per pair, but Medicare does not cover them.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Diagnostic Hearing Exams", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Not Covered", icon: "x", notes: "Does not cover hearing aids or hearing aid fitting exams" },
+      { planType: "Medicare Part B (diagnostic exams)", coverage: "Covered", icon: "shield", notes: "Covers diagnostic hearing exams when ordered by a doctor for a medical reason" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Varies", icon: "heart", notes: "Some plans offer hearing aid benefits; coverage varies by plan and location" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "x", notes: "Does not cover hearing aids; only supplements what Original Medicare covers" },
+      { planType: "Cochlear implants", coverage: "Covered", icon: "shield", notes: "Covered by Medicare Part B when medically necessary" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Does not cover hearing aids or hearing aid fitting exams",
+        paragraphs: [
+          "[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) (Medicare Part A and Part B) does not provide coverage for hearing aids or exams for fitting hearing aids. When Medicare was established in 1965, hearing aids were specifically excluded from benefits in the Social Security Act. CMS still does not consider hearing aids medically necessary, so beneficiaries are responsible for 100% of hearing aid costs under Original Medicare.",
+          "However, [Medicare Part B](/faqs/what-is-medicare-part-b) does cover diagnostic hearing and balance exams when a doctor orders them for a medical reason — for example, if you have a history of falling regularly or your provider suspects a medical condition affecting your hearing. If a diagnostic exam reveals hearing loss, Medicare will not pay for hearing aids to treat it.",
+          "Medicare Part B also covers cochlear implants when medically necessary. Cochlear implants are surgically implanted devices for severe hearing loss and are classified differently from hearing aids under Medicare's coverage rules.",
+        ],
+        whatItCovers: [
+          "Diagnostic hearing and balance exams (when ordered by a doctor for a medical reason)",
+          "Cochlear implants (when medically necessary)",
+          "Treatment of medical conditions affecting hearing (ear infections, etc.)",
+        ],
+        whatItDoesntCover: [
+          "Hearing aids (any type, including prescription and OTC)",
+          "Hearing aid fitting exams",
+          "Hearing aid batteries or repairs",
+          "Routine hearing screenings without a medical reason",
+        ],
+        costNote: "Diagnostic hearing exams: 20% coinsurance after $257 Part B deductible (2026). Hearing aids: 100% out of pocket ($250–$8,000+ per pair).",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Some plans offer hearing aid benefits — coverage varies",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) (Medicare Part C) may offer hearing benefits that include hearing aid coverage. However, not all plans have this benefit, and the coverage varies by plan and location. Some plans may cover a portion of hearing aid costs, while others may offer a fixed annual hearing benefit allowance.",
+          "Before signing up for a Medicare Advantage plan for hearing aid coverage, verify that the plan is available in your area, that it includes hearing aid benefits, and that the network includes a reputable audiologist. Also check the plan's maximum hearing benefit amount, as it may not cover the full cost of premium hearing aids.",
+          "When you enroll in a Medicare Advantage plan with hearing benefits, budget for out-of-pocket costs such as copayments, coinsurance, and the plan's deductible. If you purchase hearing aids, keep the plan's maximum hearing benefit in mind.",
+        ],
+        whatItCovers: [
+          "Hearing aids — if your plan includes hearing benefits (varies by plan)",
+          "Hearing exams and audiologist visits (varies by plan)",
+          "All diagnostic hearing exams covered by Original Medicare",
+        ],
+        whatItDoesntCover: [
+          "Hearing aids if your plan does not include hearing benefits",
+          "Out-of-network audiologists (unless your plan allows out-of-network benefits)",
+          "Costs exceeding your plan's maximum hearing benefit allowance",
+        ],
+        callout: {
+          type: "tip",
+          title: "Compare Medicare Advantage hearing benefits",
+          text: "Medicare Advantage hearing benefits vary widely by plan. Some plans offer $0 copay hearing exams and up to $2,500 in hearing aid benefits per year. Compare plans in your area to find the best hearing coverage for your needs.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Does not cover hearing aids",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) only cover the out-of-pocket balance of what Original Medicare covers. Because Original Medicare does not cover hearing aids, Medigap plans do not cover them either.",
+          "However, Medigap does cover the 20% Part B coinsurance for diagnostic hearing exams that Medicare covers. If your doctor orders a medically necessary hearing exam, Medigap Plan G will cover the coinsurance after your $257 annual deductible.",
+          "You can enroll in a separate insurance policy that includes [hearing, vision, and dental coverage](/faqs/medicare-and-vision-dental-and-hearing-what-are-your-options) to supplement your Medigap plan. These standalone policies are available from various carriers and can help cover hearing aids and other services that Medicare excludes.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for covered diagnostic hearing exams",
+          "Part B coinsurance for cochlear implant procedures",
+        ],
+        whatItDoesntCover: [
+          "Hearing aids (not covered by Original Medicare)",
+          "Hearing aid fitting exams",
+          "Routine hearing screenings",
+        ],
+        costNote: "Medigap covers coinsurance for covered hearing services only. Hearing aids are 100% out of pocket unless you have a separate hearing insurance policy.",
+      },
+    ],
+    costTable: {
+      title: "Hearing Aid Costs and Medicare Coverage (2026)",
+      headers: ["Item", "Medicare Coverage", "Estimated Cost", "Notes"],
+      rows: [
+        {
+          "Item": "Prescription hearing aids (per pair)",
+          "Medicare Coverage": "Not covered",
+          "Estimated Cost": "$1,000–$8,000",
+          "Notes": "Average $4,600/pair; includes fitting, adjustments, warranty",
+        },
+        {
+          "Item": "OTC hearing aids (per pair)",
+          "Medicare Coverage": "Not covered",
+          "Estimated Cost": "$250–$3,000",
+          "Notes": "Average $1,600/pair; available without prescription since Oct 2022",
+        },
+        {
+          "Item": "Diagnostic hearing exam (medically necessary)",
+          "Medicare Coverage": "80% after deductible",
+          "Estimated Cost": "20% coinsurance + $257 deductible",
+          "Notes": "Covered under Part B when ordered by a doctor",
+        },
+        {
+          "Item": "Hearing aid fitting exam",
+          "Medicare Coverage": "Not covered",
+          "Estimated Cost": "$50–$250 (full cost)",
+          "Notes": "Not covered by Original Medicare or Medigap",
+        },
+        {
+          "Item": "Cochlear implant (surgery + device)",
+          "Medicare Coverage": "80% after deductible",
+          "Estimated Cost": "20% coinsurance + $257 deductible",
+          "Notes": "Covered under Part B when medically necessary",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures and industry averages. Actual hearing aid prices vary by brand, technology level, and provider.",
+    },
+    exceptionsSection: {
+      title: "Alternatives for Hearing Aid Coverage",
+      items: [
+        {
+          title: "Over-the-Counter (OTC) Hearing Aids",
+          text: "Since October 2022, the FDA has approved over-the-counter hearing aids for adults with mild to moderate hearing loss. OTC hearing aids are available in stores and online without a medical exam or prescription, and they typically cost $250–$3,000 per pair — significantly less than prescription hearing aids. However, Original Medicare does not cover OTC hearing aids. If you have more significant hearing loss, you may still need prescription hearing aids from an audiologist.",
+          highlight: "OTC hearing aids are designed for mild to moderate hearing loss only. If you have trouble hearing louder sounds or conversations in quiet rooms, consult an audiologist for a proper evaluation.",
+        },
+        {
+          title: "Standalone Hearing Insurance and Assistance Programs",
+          text: "If you need hearing aid coverage, you can enroll in a standalone hearing, vision, and dental insurance policy. These policies are available from various carriers and can help cover hearing aids, hearing exams, and other services that Medicare excludes. Additionally, some state Medicaid programs cover hearing aids for low-income beneficiaries. If you have both Medicare and Medicaid (dual eligible), Medicaid may cover hearing aids that Medicare does not.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover hearing aids?",
+        answer: "No. Original Medicare (Part A and Part B) does not cover hearing aids or hearing aid fitting exams. Medicare does not consider hearing aids medically necessary. Some Medicare Advantage plans may offer hearing aid benefits that vary by plan and location.",
+      },
+      {
+        question: "Does Medicare Part B cover hearing aids?",
+        answer: "No. Medicare Part B does not cover hearing aids. However, Part B does cover diagnostic hearing and balance exams when ordered by a doctor for a medical reason. If a diagnostic exam reveals hearing loss, Medicare will not pay for hearing aids.",
+      },
+      {
+        question: "Does Medicare Part D cover hearing aids?",
+        answer: "No. Medicare Part D covers prescription drugs only. Hearing aids are medical devices, not prescription drugs, and are not covered under Part D.",
+      },
+      {
+        question: "How much do hearing aids cost without Medicare coverage?",
+        answer: "Prescription hearing aids typically cost $1,000–$8,000 per pair, with an average of $4,600. This often includes consultation, hearing test, fitting, adjustments, and warranty. Over-the-counter hearing aids cost $250–$3,000 per pair, with an average of $1,600.",
+      },
+      {
+        question: "Does Medicare cover cochlear implants?",
+        answer: "Yes. Medicare Part B covers cochlear implants when medically necessary. Cochlear implants are surgically implanted devices for severe hearing loss and are classified differently from hearing aids. You pay 20% coinsurance after your Part B deductible.",
+      },
+      {
+        question: "Does TRICARE for Life cover hearing aids?",
+        answer: "Yes. TRICARE for Life covers hearing aids for eligible military retirees. TRICARE provides coverage for one hearing aid per ear every three years. If you have both Medicare and TRICARE for Life, TRICARE may cover hearing aids that Medicare does not.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare does NOT cover</strong> hearing aids or hearing aid fitting exams" },
+      { icon: "check", text: "<strong>Diagnostic hearing exams</strong> covered under Part B when ordered by a doctor" },
+      { icon: "check", text: "Some <strong>Medicare Advantage plans</strong> offer hearing aid benefits (varies by plan)" },
+      { icon: "check", text: "<strong>Cochlear implants</strong> covered under Part B when medically necessary" },
+      { icon: "info", text: "<strong>OTC hearing aids</strong> available without prescription for $250–$3,000/pair (not covered by Medicare)" },
+      { icon: "info", text: "<strong>Standalone hearing insurance</strong> available to supplement Medicare coverage" },
+    ],
+    relatedTopics: [
+      { title: "Medicare and Vision, Dental, and Hearing Options", description: "Explore your options for hearing, vision, and dental coverage with Medicare.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
+      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including hearing coverage.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+      { title: "Does Medicare Cover Glasses?", description: "Learn about Medicare's coverage for vision care and eyeglasses.", slug: "does-medicare-cover-glasses" },
+      { title: "Original Medicare vs. Medicare Advantage", description: "Compare Original Medicare and Medicare Advantage to find the best fit for your hearing needs.", slug: "original-medicare-vs-medicare-advantage" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare and Vision, Dental, and Hearing Options",
+      "Medicare Advantage Extra Benefits Explained",
+      "Does Medicare Cover Glasses",
+      "Original Medicare vs. Medicare Advantage",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding Hearing Aid Coverage?",
+      text: "Our licensed Medicare agents can help you find a Medicare Advantage plan with hearing benefits or a standalone hearing insurance policy. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-glasses", "original-medicare-vs-medicare-advantage"],
+  },
+
+  // ─── Medicare Coverage for Hip Injections ──────────────────────────────────
+  {
+    slug: "medicare-coverage-for-hip-injections",
+    seo: {
+      title: "Does Medicare Cover Hip Injections and Hip Replacement? | MedicareFAQ",
+      description: "Medicare covers hip injections and hip replacement surgery when medically necessary. Learn about cortisone shots, PRP injections, hip replacement costs, and what you'll pay.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-hip-injections/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-hip-injections.jpg",
+    },
+    title: "Does Medicare Cover Hip Injections and Hip Replacement?",
+    subtitle: "Medicare covers hip injections and hip replacement surgery when medically necessary. Learn about cortisone shots, PRP injections, hip replacement costs, and how Medigap can help reduce your out-of-pocket expenses.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers hip injections and hip replacement surgery when they are medically necessary. Medicare Part B covers outpatient hip injections including cortisone shots and Platelet Rich Plasma (PRP) injections. Medicare Part A covers inpatient hip replacement surgery. Stem cell injections are not FDA-approved and are not covered. There is no limit on the number of hip replacements Medicare will cover, but cortisone injections are typically limited to three per year.",
+      badges: [
+        { plan: "Hip Injections (Part B)", status: "covered" },
+        { plan: "Hip Replacement (Part A)", status: "covered" },
+        { plan: "Stem Cell Injections", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Cortisone injections", coverage: "Covered", icon: "shield", notes: "Covered under Part B; typically up to 3 per year per joint" },
+      { planType: "PRP injections", coverage: "Covered", icon: "shield", notes: "Covered under Part B when medically necessary" },
+      { planType: "Stem cell injections", coverage: "Not Covered", icon: "x", notes: "Not FDA-approved for orthopedic use; not covered by Medicare" },
+      { planType: "Hip replacement surgery (inpatient)", coverage: "Covered", icon: "shield", notes: "Covered under Part A; $1,676 deductible per benefit period (2026)" },
+      { planType: "Hip replacement surgery (outpatient)", coverage: "Covered", icon: "shield", notes: "Covered under Part B; 20% coinsurance after deductible" },
+      { planType: "Viscosupplementation injections", coverage: "Varies", icon: "shield", notes: "Coverage varies; may be covered when medically necessary" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B — Hip Injections)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers cortisone shots and PRP injections",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers hip injections when they are medically necessary. Hip injections are often a middle-of-the-road treatment — after medications and physical therapy but before surgery. The two most common types of hip injections are cortisone injections and Platelet Rich Plasma (PRP) injections.",
+          "Cortisone injections are covered under Original Medicare and are typically limited to three per year per joint. Medicare Part B pays for the administration of cortisone injections when a healthcare provider administers the drug. Unlike prescription drugs covered under Part D, cortisone injections are administered by a medical professional and fall under Part B.",
+          "PRP injections use the patient's own blood platelets to stimulate healing in the affected joint. Medicare covers PRP injections when medically necessary. Viscosupplementation injections (hyaluronic acid) may also be covered in some cases. However, stem cell injections do not have FDA approval for orthopedic use and are not covered by Medicare.",
+        ],
+        whatItCovers: [
+          "Cortisone injections (typically up to 3 per year per joint)",
+          "Platelet Rich Plasma (PRP) injections",
+          "Viscosupplementation injections (when medically necessary)",
+          "Doctor visits for hip pain evaluation and treatment",
+          "Physical therapy for hip conditions",
+        ],
+        whatItDoesntCover: [
+          "Stem cell injections (not FDA-approved for orthopedic use)",
+          "Experimental or investigational treatments",
+          "Injections from providers who do not accept Medicare",
+        ],
+        costNote: "You pay 20% coinsurance after the $257 annual Part B deductible (2026) for covered hip injections.",
+      },
+      {
+        planName: "Original Medicare (Part A — Hip Replacement)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers inpatient hip replacement surgery",
+        paragraphs: [
+          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hip replacement surgery when it is medically necessary. Hip replacement surgery involves replacing the hip joint with an artificial joint made of ceramics, hard plastic, and metal. There is no limit on the number of hip replacements Medicare will cover — if your doctor determines another replacement is medically necessary, Medicare will cover it.",
+          "The average cost of a hip replacement is $32,000–$44,000, but Medicare covers the majority of this cost. Under Part A, you pay the $1,676 deductible per benefit period (2026), with $0 coinsurance for days 1–60. After a qualifying hospital stay, Medicare also covers skilled nursing facility care and inpatient rehabilitation.",
+          "Hip replacement surgery may also be performed as an outpatient procedure. When performed outpatient, the surgery is covered under [Medicare Part B](/faqs/what-is-medicare-part-b) at 80%, and you pay 20% coinsurance after your Part B deductible.",
+        ],
+        whatItCovers: [
+          "Inpatient hip replacement surgery (no limit on number of replacements)",
+          "Hospital stay for hip replacement (semi-private room, meals, nursing care)",
+          "Skilled nursing facility care following a qualifying hospital stay",
+          "Inpatient rehabilitation following hip replacement",
+          "Outpatient hip replacement (covered under Part B)",
+        ],
+        whatItDoesntCover: [
+          "Private hospital room (unless medically necessary)",
+          "Long-term custodial care after recovery",
+          "Treatment at non-Medicare-approved facilities",
+        ],
+        costNote: "Part A: $1,676 deductible per benefit period; $0 coinsurance for days 1–60 (2026). Outpatient: 20% coinsurance after $257 Part B deductible.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "partial",
+        statusBadge: "Covers Part A deductible and Part B coinsurance",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can significantly reduce your out-of-pocket costs for hip injections and hip replacement surgery. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the $1,676 Part A deductible for inpatient hip replacement surgery, leaving you with $0 out of pocket for the hospital stay. Plan G also covers the 20% Part B coinsurance for outpatient hip injections and outpatient hip replacement.",
+          "With Medigap Plan G, your only annual cost for covered hip services is the $257 Part B deductible. After that, Plan G covers all remaining cost-sharing for the rest of the year.",
+        ],
+        whatItCovers: [
+          "Part A deductible ($1,676) for inpatient hip replacement surgery",
+          "Part B coinsurance (20%) for hip injections and outpatient procedures",
+          "Part A coinsurance for extended hospital stays (days 61–90)",
+        ],
+        whatItDoesntCover: [
+          "Stem cell injections (not covered by Original Medicare)",
+          "Services not covered by Original Medicare",
+        ],
+        costNote: "With Medigap Plan G, inpatient hip replacement: $0 out of pocket. Outpatient hip injections: $257 annual deductible only.",
+      },
+    ],
+    costTable: {
+      title: "Hip Injection and Hip Replacement Costs Under Medicare (2026)",
+      headers: ["Service", "Medicare Part", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Service": "Cortisone injection (up to 3/year)",
+          "Medicare Part": "Part B",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "PRP injection",
+          "Medicare Part": "Part B",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "Hip replacement (inpatient, days 1–60)",
+          "Medicare Part": "Part A",
+          "Your Cost (No Supplement)": "$1,676 deductible per benefit period",
+          "Your Cost (With Plan G)": "$0 (Plan G covers Part A deductible)",
+        },
+        {
+          "Service": "Hip replacement (outpatient)",
+          "Medicare Part": "Part B",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "Stem cell injection",
+          "Medicare Part": "Not covered",
+          "Your Cost (No Supplement)": "Full cost ($5,000–$10,000+)",
+          "Your Cost (With Plan G)": "Full cost (not covered)",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Average hip replacement cost: $32,000–$44,000 (Medicare pays the majority). Part B deductible: $257/year. Part A deductible: $1,676 per benefit period.",
+    },
+    exceptionsSection: {
+      title: "Important Rules for Hip Treatment Coverage",
+      items: [
+        {
+          title: "No Limit on Hip Replacements",
+          text: "Medicare does not limit the number of hip replacements you can receive. If your doctor determines that another hip replacement is medically necessary — whether it's a revision of a previous replacement or a replacement of the other hip — Medicare will cover it. Each hip replacement is subject to the Part A deductible per benefit period.",
+          highlight: "There is no lifetime limit on hip replacements under Medicare. Each replacement requires a new benefit period and the associated Part A deductible.",
+        },
+        {
+          title: "Outpatient vs. Inpatient Hip Replacement",
+          text: "Hip replacement surgery can be performed as either an inpatient or outpatient procedure. Inpatient surgery is covered under Part A with the $1,676 deductible. Outpatient surgery is covered under Part B with 20% coinsurance. Your surgeon will determine whether inpatient or outpatient is appropriate based on your health status and the complexity of the procedure.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover cortisone shots for hip pain?",
+        answer: "Yes. Medicare Part B covers cortisone injections for hip pain when medically necessary. Coverage is typically limited to three cortisone shots per year per joint. You pay 20% coinsurance after your annual $257 Part B deductible (2026).",
+      },
+      {
+        question: "Does Medicare cover hip replacement surgery?",
+        answer: "Yes. Medicare covers hip replacement surgery when medically necessary. Inpatient hip replacement is covered under Part A with a $1,676 deductible per benefit period (2026). Outpatient hip replacement is covered under Part B at 80%. There is no limit on the number of hip replacements Medicare will cover.",
+      },
+      {
+        question: "Does Medicare cover stem cell injections for hips?",
+        answer: "No. Stem cell injections for orthopedic use do not have FDA approval. Because they are not FDA-approved, Medicare does not cover stem cell injections for hip conditions. You would pay the full cost out of pocket, which can range from $5,000 to $10,000 or more.",
+      },
+      {
+        question: "How much does a hip replacement cost with Medicare?",
+        answer: "The average cost of a hip replacement is $32,000–$44,000, but Medicare covers the majority. Under Part A, you pay the $1,676 deductible per benefit period with $0 coinsurance for days 1–60. With Medigap Plan G, you pay $0 out of pocket for inpatient hip replacement.",
+      },
+      {
+        question: "Is there a limit on how many hip replacements Medicare will cover?",
+        answer: "No. There is no limit on the number of hip replacements Medicare will cover. If your doctor determines that another hip replacement is medically necessary, Medicare will cover it. Each replacement is subject to the Part A deductible per benefit period.",
+      },
+      {
+        question: "Does Medicare cover physical therapy after hip replacement?",
+        answer: "Yes. Medicare Part B covers physical therapy after hip replacement when medically necessary. You pay 20% coinsurance after your Part B deductible. Medicare also covers inpatient rehabilitation at a skilled nursing facility following a qualifying hospital stay under Part A.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Cortisone injections</strong> covered under Part B (up to 3/year per joint)" },
+      { icon: "check", text: "<strong>Hip replacement surgery</strong> covered under Part A (inpatient) or Part B (outpatient)" },
+      { icon: "x", text: "<strong>Stem cell injections</strong> are NOT covered (not FDA-approved)" },
+      { icon: "info", text: "<strong>No limit</strong> on the number of hip replacements Medicare will cover" },
+      { icon: "dollar", text: "Inpatient hip replacement: <strong>$1,676 Part A deductible</strong> per benefit period (2026)" },
+      { icon: "info", text: "<strong>Medigap Plan G</strong> covers Part A deductible and Part B coinsurance for hip procedures" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Physical Therapy?", description: "Learn about Medicare's coverage for physical therapy after hip surgery.", slug: "medicare-coverage-for-physical-therapy" },
+      { title: "Will Medicare Cover My Surgery?", description: "Learn about Medicare's coverage for medically necessary surgeries.", slug: "will-medicare-cover-my-surgery" },
+      { title: "Does Medicare Cover Knee Replacement?", description: "Learn about Medicare's coverage for knee replacement surgery.", slug: "does-medicare-cover-knee-replacement" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your hip replacement and injection costs.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Physical Therapy",
+      "Will Medicare Cover My Surgery",
+      "Does Medicare Cover Knee Replacement",
+      "Medicare Supplement Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Your Hip Treatment Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part A deductible and Part B coinsurance for hip injections and hip replacement surgery. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-physical-therapy", "will-medicare-cover-my-surgery", "does-medicare-cover-knee-replacement", "medicare-supplement-plan-g"],
+  },
+
+  // ─── Medicare Coverage for In-Home Caregivers ──────────────────────────────
+  {
+    slug: "medicare-coverage-for-in-home-caregivers",
+    seo: {
+      title: "Does Medicare Cover Home Health Care and In-Home Caregivers? | MedicareFAQ",
+      description: "Medicare covers home health care services when you are homebound and need skilled care. Learn about eligibility, what's covered, how long coverage lasts, and your options.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-in-home-caregivers/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-in-home-caregivers.jpg",
+    },
+    title: "Does Medicare Cover Home Health Care and In-Home Caregivers?",
+    subtitle: "Medicare covers home health care services when you are homebound and need skilled nursing care or therapy. Learn about eligibility requirements, what's covered, how long coverage lasts, and how to maximize your benefits.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers home health care services when you are homebound and need skilled nursing care, physical therapy, speech therapy, or occupational therapy. You must use a Medicare-certified home health agency, and your doctor must order and regularly review your treatment plan. Medicare covers these services at $0 — no deductible and no coinsurance for home health services. However, Medicare does not cover 24-hour home care, homemaker services, meal delivery, or personal care when it is the only care you need.",
+      badges: [
+        { plan: "Home Health Care", status: "covered" },
+        { plan: "24-Hour Home Care", status: "not-covered" },
+        { plan: "Homemaker Services", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Skilled nursing care (intermittent)", coverage: "Covered", icon: "shield", notes: "Covered at $0 when homebound and medically necessary; up to 21 days" },
+      { planType: "Physical, speech, and occupational therapy", coverage: "Covered", icon: "shield", notes: "Covered at $0 when homebound and ordered by a doctor" },
+      { planType: "Medical social services", coverage: "Covered", icon: "shield", notes: "Covered at $0 as part of a home health care plan" },
+      { planType: "Home health aide services", coverage: "Covered", icon: "shield", notes: "Covered at $0 when you also need skilled care" },
+      { planType: "24-hour home care", coverage: "Not Covered", icon: "x", notes: "Medicare does not cover around-the-clock home care" },
+      { planType: "Homemaker services / meal delivery", coverage: "Not Covered", icon: "x", notes: "Not covered by Original Medicare; some MA plans may offer" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & Part B — Home Health)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered at $0",
+        coverageType: "covered",
+        statusBadge: "Covers home health care at $0 when you qualify",
+        paragraphs: [
+          "Both [Medicare Part A](/faqs/what-is-medicare-part-a) and [Part B](/faqs/what-is-medicare-part-b) provide coverage for home health care services. When you qualify, Medicare covers home health care at $0 — there is no deductible and no coinsurance for covered home health services. This is one of the few Medicare benefits with no cost-sharing.",
+          "To qualify for Medicare home health care, you must meet all of the following requirements: (1) you must be homebound, meaning you cannot leave your home without assistance or it is not recommended due to your health; (2) you must need skilled nursing care, physical therapy, speech therapy, or occupational therapy; (3) your doctor must order the care and regularly review your treatment plan; and (4) you must use a Medicare-certified home health agency.",
+          "Medicare covers intermittent skilled nursing care — meaning less than 7 days per week and less than 8 hours per day, for up to 21 days. A 3-week extension may be available in exceptional circumstances. Medicare also covers home health aide services (such as help with bathing and dressing) when you also need skilled care. However, Medicare does not cover 24-hour home care, homemaker services, or meal delivery.",
+        ],
+        whatItCovers: [
+          "Intermittent skilled nursing care (up to 21 days)",
+          "Physical therapy, speech therapy, and occupational therapy",
+          "Medical social services",
+          "Home health aide services (when you also need skilled care)",
+          "Medical supplies and durable medical equipment (DME) — 20% coinsurance for DME",
+        ],
+        whatItDoesntCover: [
+          "24-hour home care or around-the-clock nursing",
+          "Homemaker services (cooking, cleaning, laundry)",
+          "Meal delivery services",
+          "Personal care when it is the only care you need (no skilled care required)",
+          "Home health care from a non-Medicare-certified agency",
+        ],
+        costNote: "Home health services: $0 (no deductible, no coinsurance). DME provided through home health: 20% coinsurance after $257 Part B deductible.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — some plans offer additional home care benefits",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all home health care services that Original Medicare covers. Some Medicare Advantage plans go further by offering additional home care benefits such as meal delivery, transportation to medical appointments, and expanded in-home support services.",
+          "If you have a Medicare Advantage plan, you must use a Medicare-certified home health agency that is in your plan's network. Verify that the home health agency is in-network before receiving services to avoid unexpected costs.",
+        ],
+        whatItCovers: [
+          "All home health care services covered by Original Medicare",
+          "Meal delivery (some plans)",
+          "Transportation to medical appointments (some plans)",
+          "Expanded in-home support services (varies by plan)",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network home health agencies (unless your plan allows out-of-network benefits)",
+          "24-hour home care (same exclusion as Original Medicare)",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check your MA plan for extra home care benefits",
+          text: "Some Medicare Advantage plans offer supplemental home care benefits including meal delivery, personal care assistance, and transportation. These benefits vary by plan and location. Review your plan's Evidence of Coverage or call your plan to see what's included.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Cost-Sharing for DME",
+        coverageType: "partial",
+        statusBadge: "Covers Part B coinsurance for DME provided through home health",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. Since Medicare covers home health services at $0, there is typically no cost-sharing for Medigap to cover. However, if you receive durable medical equipment (DME) through your home health care, Medigap covers the 20% Part B coinsurance for that equipment.",
+          "Medigap is especially valuable if your home health care needs extend beyond what Medicare covers. While Medigap cannot cover services that Original Medicare excludes (such as 24-hour care), it ensures you pay minimal out-of-pocket costs for all covered services.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for DME provided through home health",
+          "Part B coinsurance for other covered outpatient services",
+        ],
+        whatItDoesntCover: [
+          "24-hour home care (not covered by Original Medicare)",
+          "Homemaker services or meal delivery",
+        ],
+        costNote: "Home health services are already $0 under Original Medicare. Medigap covers the 20% coinsurance for DME provided through home health.",
+      },
+    ],
+    costTable: {
+      title: "Home Health Care Costs Under Medicare (2026)",
+      headers: ["Service", "Medicare Coverage", "Your Cost", "Notes"],
+      rows: [
+        {
+          "Service": "Skilled nursing care (intermittent)",
+          "Medicare Coverage": "100%",
+          "Your Cost": "$0",
+          "Notes": "Up to 21 days; must be homebound and need skilled care",
+        },
+        {
+          "Service": "Physical / speech / occupational therapy",
+          "Medicare Coverage": "100%",
+          "Your Cost": "$0",
+          "Notes": "Must be ordered by a doctor and medically necessary",
+        },
+        {
+          "Service": "Home health aide services",
+          "Medicare Coverage": "100%",
+          "Your Cost": "$0",
+          "Notes": "Only covered when you also need skilled care",
+        },
+        {
+          "Service": "DME through home health",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost": "20% + $257 deductible",
+          "Notes": "Medigap Plan G covers the 20% coinsurance",
+        },
+        {
+          "Service": "24-hour home care",
+          "Medicare Coverage": "Not covered",
+          "Your Cost": "$15–$30/hour (full cost)",
+          "Notes": "Medicare does not cover around-the-clock care",
+        },
+        {
+          "Service": "Homemaker services",
+          "Medicare Coverage": "Not covered",
+          "Your Cost": "$15–$25/hour (full cost)",
+          "Notes": "Some MA plans may offer as supplemental benefit",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Home health care services are covered at $0 when you meet eligibility requirements. Private pay rates vary by location.",
+    },
+    exceptionsSection: {
+      title: "Special Situations for Home Health Coverage",
+      items: [
+        {
+          title: "Home Health Care for Dementia Patients",
+          text: "Medicare covers home health care for dementia patients who are determined to be homebound because of their condition. If your doctor designates you as homebound due to dementia, you can receive up to 35 hours per week of home health services. The same eligibility requirements apply — you must need skilled nursing care or therapy, and you must use a Medicare-certified home health agency.",
+          highlight: "Dementia patients who are homebound may qualify for up to 35 hours per week of home health services under Medicare.",
+        },
+        {
+          title: "Hospice Care at Home",
+          text: "Medicare Part A provides hospice care benefits for terminally ill patients, including in-home hospice care. Hospice care at home is different from home health care — it focuses on comfort and quality of life rather than treatment. Medicare covers hospice care at $0 for most services, including nursing care, medications for symptom management, and medical equipment. Your doctor must certify that you have a terminal illness with a life expectancy of 6 months or less.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover home health care?",
+        answer: "Yes. Medicare covers home health care at $0 when you are homebound, need skilled nursing care or therapy, your doctor orders the care, and you use a Medicare-certified home health agency. There is no deductible or coinsurance for covered home health services.",
+      },
+      {
+        question: "How long does Medicare pay for home health care?",
+        answer: "Medicare covers intermittent skilled nursing care for up to 21 days (less than 7 days/week, less than 8 hours/day). A 3-week extension may be available in exceptional circumstances. Medicare will continue to cover home health care as long as it is medically necessary and your doctor continues to order it.",
+      },
+      {
+        question: "Does Medicare cover 24-hour home care?",
+        answer: "No. Medicare does not cover 24-hour home care or around-the-clock nursing at home. Medicare covers intermittent skilled care only. If you need 24-hour care, you would need to pay privately or explore long-term care insurance options.",
+      },
+      {
+        question: "Does Medicare cover home health care for dementia?",
+        answer: "Yes. Medicare covers home health care for dementia patients who are homebound. If your doctor determines you are homebound due to dementia, you can receive up to 35 hours per week of home health services, including skilled nursing care and therapy.",
+      },
+      {
+        question: "Can a family member be a paid caregiver under Medicare?",
+        answer: "In some cases, family members can provide Medicare-covered home health care services if they are qualified and the care is ordered by a doctor through a Medicare-certified home health agency. The family member must provide skilled services — not just personal care or homemaker services.",
+      },
+      {
+        question: "Does Medicare cover meal delivery for homebound patients?",
+        answer: "No. Original Medicare does not cover meal delivery services. However, some Medicare Advantage plans offer meal delivery as a supplemental benefit. If you need meal delivery, check whether your Medicare Advantage plan includes this benefit.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Home health care</strong> covered at $0 when homebound and needing skilled care" },
+      { icon: "check", text: "<strong>Skilled nursing, PT, OT, speech therapy</strong> covered at $0" },
+      { icon: "x", text: "<strong>24-hour home care</strong> is NOT covered by Medicare" },
+      { icon: "x", text: "<strong>Homemaker services and meal delivery</strong> are NOT covered by Original Medicare" },
+      { icon: "info", text: "<strong>Must be homebound</strong> and use a Medicare-certified home health agency" },
+      { icon: "info", text: "Some <strong>Medicare Advantage plans</strong> offer additional home care benefits" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Skilled Nursing Facilities", description: "Learn about Medicare's coverage for skilled nursing facility care.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
+      { title: "Does Medicare Cover Hospice Care?", description: "Learn about Medicare's hospice care benefits for terminally ill patients.", slug: "does-medicare-cover-hospice" },
+      { title: "Medicare Coverage for ALS Patients", description: "Learn about Medicare's coverage for ALS patients, including home health care.", slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als" },
+      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Skilled Nursing Facilities",
+      "Does Medicare Cover Hospice Care",
+      "Medicare Coverage for ALS Patients",
+      "Medicare Advantage Extra Benefits Explained",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Home Health Care Benefits?",
+      text: "Our licensed Medicare agents can help you understand your home health care benefits and find a plan that provides the coverage you need. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-hospice", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "medicare-advantage-extra-benefits-explained-whats-really-included"],
+  },
+
+  // ─── Medicare Coverage for Lift Chairs ──────────────────────────────────────
+  {
+    slug: "medicare-coverage-for-lift-chairs",
+    seo: {
+      title: "Does Medicare Cover Lift Chairs? | MedicareFAQ",
+      description: "Medicare Part B covers the lifting mechanism of a lift chair when medically necessary, but not the chair itself. Learn about coverage, costs, and how to get approved.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-lift-chairs/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-lift-chairs.jpg",
+    },
+    title: "Does Medicare Cover Lift Chairs?",
+    subtitle: "Medicare Part B covers the lifting mechanism of a lift chair when medically necessary — but not the chair itself. Learn about coverage rules, costs, types of lift chairs, and how Medigap can help cover the remaining costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers the lifting mechanism of a lift chair when it is medically necessary — but Medicare does not cover the chair itself. Your doctor must prescribe the lift chair and complete Form CMS-849 (Certification of Medical Necessity). Medicare covers 80% of the lifting mechanism, and you pay the remaining 20% plus the cost of the seat portion. You must purchase from a Medicare-approved supplier.",
+      badges: [
+        { plan: "Lifting Mechanism (Part B)", status: "covered" },
+        { plan: "Chair / Seat Portion", status: "not-covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Lifting mechanism", coverage: "Covered", icon: "shield", notes: "Covered at 80% under Part B when medically necessary; doctor must prescribe" },
+      { planType: "Chair / seat portion", coverage: "Not Covered", icon: "x", notes: "You pay the full cost of the chair itself; only the lift mechanism is covered" },
+      { planType: "Reclining features", coverage: "Not Covered", icon: "x", notes: "Reclining and other chair features are not covered by Medicare" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same lifting mechanism benefit as Original Medicare" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Partial", icon: "users", notes: "Covers the 20% Part B coinsurance for the lifting mechanism" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Partial — Lifting Mechanism Only",
+        coverageType: "partial",
+        statusBadge: "Covers 80% of the lifting mechanism; not the chair itself",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers the seat-lift mechanism of a lift chair when it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean-for-medicare). To qualify, your doctor must indicate the lift chair for your specific health condition and complete Form CMS-849 (Certification of Medical Necessity for Seat Lift Mechanisms). Once approved, Medicare covers 80% of the lifting mechanism, and you pay the remaining 20% plus the full cost of the seat portion of the chair.",
+          "To be considered medically necessary, you must meet specific criteria: you cannot stand on your own from a regular chair, you can operate the lift chair independently, you can walk independently or with a walker, you suffer from severe arthritis or a similar condition, or without the chair you would be confined to a bed. If you can transfer directly from the lift chair to a wheelchair, Medicare may not approve the lifting mechanism.",
+          "The lift chair mechanism is not covered if you reside in a skilled nursing facility, hospice, or nursing home. You must purchase the lift chair from a Medicare-approved supplier. If you purchase from a non-approved supplier, Medicare will not cover any portion of the cost.",
+        ],
+        whatItCovers: [
+          "Seat-lift mechanism (80% of approved amount)",
+          "Doctor visit for lift chair prescription",
+        ],
+        whatItDoesntCover: [
+          "The chair / seat portion itself",
+          "Reclining mechanism or other chair features",
+          "Lift chairs purchased from non-Medicare-approved suppliers",
+          "Lift chairs for patients in SNFs, hospice, or nursing homes",
+        ],
+        costNote: "Lifting mechanism: you pay 20% coinsurance after $257 Part B deductible (2026). Typical out-of-pocket for the mechanism: ~$350. Chair/seat portion: full cost out of pocket.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers same lifting mechanism benefit as Original Medicare",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all services that Original Medicare covers, including the lifting mechanism of a lift chair when medically necessary. Cost-sharing may vary by plan. You must use an in-network Medicare-approved supplier.",
+        ],
+        whatItCovers: [
+          "Seat-lift mechanism (same coverage as Original Medicare)",
+        ],
+        whatItDoesntCover: [
+          "The chair / seat portion itself",
+          "Out-of-network suppliers",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "partial",
+        statusBadge: "Covers the 20% Part B coinsurance for the lifting mechanism",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for the lifting mechanism, potentially leaving you with zero out-of-pocket costs for the mechanism itself. With Medigap Plan G, your only cost for the lifting mechanism is the $257 annual Part B deductible.",
+          "Medigap cannot cover the chair/seat portion of the lift chair, as Original Medicare does not cover it. You will still pay the full cost of the chair itself out of pocket.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for the lifting mechanism",
+        ],
+        whatItDoesntCover: [
+          "The chair / seat portion (not covered by Original Medicare)",
+          "Reclining features",
+        ],
+        costNote: "With Medigap Plan G, your cost for the lifting mechanism is the $257 annual Part B deductible only. The chair/seat portion is full cost out of pocket.",
+      },
+    ],
+    costTable: {
+      title: "Lift Chair Costs Under Medicare (2026)",
+      headers: ["Component", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Component": "Lifting mechanism",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "~$350 (20% + $257 deductible)",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Component": "Chair / seat portion",
+          "Medicare Coverage": "Not covered",
+          "Your Cost (No Supplement)": "$400–$2,000+ (full cost)",
+          "Your Cost (With Plan G)": "$400–$2,000+ (full cost — not covered)",
+        },
+        {
+          "Component": "Reclining features",
+          "Medicare Coverage": "Not covered",
+          "Your Cost (No Supplement)": "Included in chair cost",
+          "Your Cost (With Plan G)": "Included in chair cost",
+        },
+        {
+          "Component": "Total lift chair (mechanism + chair)",
+          "Medicare Coverage": "Partial",
+          "Your Cost (No Supplement)": "$750–$2,350+",
+          "Your Cost (With Plan G)": "$657–$2,257+",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures and industry estimates. Actual costs vary by chair type, brand, and supplier. Part B deductible: $257/year.",
+    },
+    exceptionsSection: {
+      title: "Types of Lift Chairs and How to Get Approved",
+      items: [
+        {
+          title: "Three Types of Lift Chairs",
+          text: "Lift chairs come in three types: (1) Two-position lift chairs recline to a 45-degree angle with legs elevated — the simplest and most affordable option. (2) Three-position lift chairs add a nearly flat reclining position for back pressure relief. (3) Infinite-position lift chairs (zero-gravity chairs) offer the most adjustability with two motors for independent back and leg positioning — the most expensive option. Medicare covers the lifting mechanism regardless of which type you choose.",
+          highlight: "Medicare covers the lifting mechanism for all three types of lift chairs. You choose and pay for the chair/seat features you prefer.",
+        },
+        {
+          title: "How to Get Your Lift Chair Approved by Medicare",
+          text: "To get Medicare approval for a lift chair: (1) Your primary care physician must provide a prescription for the lift chair. (2) Your doctor must complete Form CMS-849 (Certification of Medical Necessity for Seat Lift Mechanisms) and submit it to CMS. (3) You must purchase the lift chair from a Medicare-approved supplier. You can find approved suppliers through your healthcare provider, your local Social Security office, or the Medicare.gov supplier directory.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare pay for the entire lift chair?",
+        answer: "No. Medicare Part B covers only the lifting mechanism of the lift chair — not the chair itself. You pay the full cost of the seat/chair portion out of pocket. Medicare covers 80% of the lifting mechanism after your Part B deductible.",
+      },
+      {
+        question: "How much does a lift chair cost after Medicare pays?",
+        answer: "After Medicare pays its share of the lifting mechanism, you typically pay around $350 for the mechanism (20% coinsurance + deductible) plus the full cost of the chair portion ($400–$2,000+). With Medigap Plan G, your mechanism cost drops to the $257 annual deductible only.",
+      },
+      {
+        question: "Does Medicare cover sleep chairs?",
+        answer: "Medicare covers the lifting mechanism for lift chairs that can recline flat (sometimes called sleep chairs). Most lift chair models can recline to a flat position. Medicare covers the lift mechanism regardless of the chair's reclining capabilities.",
+      },
+      {
+        question: "Does Medicare cover lift chair recliners?",
+        answer: "Medicare covers only the lifting mechanism, not the reclining device or other chair features. You are responsible for the cost of the reclining features and the chair itself.",
+      },
+      {
+        question: "Does Medicare cover Lazy Boy lift chairs?",
+        answer: "Medicare covers the lifting mechanism regardless of brand. You can choose any brand — including La-Z-Boy — and pay for the chair/seat portion out of pocket. The lifting mechanism must be purchased from a Medicare-approved supplier.",
+      },
+      {
+        question: "Can I get a lift chair if I'm in a nursing home?",
+        answer: "No. The lift chair mechanism is not covered by Medicare if you reside in a skilled nursing facility, hospice, or nursing home. Coverage is only available for beneficiaries living at home.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare covers <strong>80% of the lifting mechanism</strong> when medically necessary" },
+      { icon: "x", text: "Medicare does <strong>NOT cover the chair/seat</strong> itself" },
+      { icon: "info", text: "Doctor must complete <strong>Form CMS-849</strong> for medical necessity certification" },
+      { icon: "info", text: "Must purchase from a <strong>Medicare-approved supplier</strong>" },
+      { icon: "dollar", text: "Typical out-of-pocket for mechanism: <strong>~$350</strong> (without Medigap)" },
+      { icon: "info", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance for the lifting mechanism" },
+    ],
+    relatedTopics: [
+      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "Does Medicare Cover Wheelchairs and Scooters?", description: "Learn about Medicare's coverage for wheelchairs and power scooters.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
+      { title: "Medicare Coverage for Bathroom Safety Devices", description: "Learn about Medicare's coverage for commode chairs and bathroom safety equipment.", slug: "medicare-coverage-for-bathroom-safety-devices" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for lift chairs.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "What Is Durable Medical Equipment",
+      "Does Medicare Cover Wheelchairs and Scooters",
+      "Medicare Coverage for Bathroom Safety Devices",
+      "Medicare Supplement Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Your Lift Chair Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part B coinsurance for lift chairs and other durable medical equipment. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["what-is-durable-medical-equipment-dme", "medicare-coverage-for-wheelchairs-and-scooters", "medicare-coverage-for-bathroom-safety-devices", "medicare-supplement-plan-g"],
+  },
+
 ];

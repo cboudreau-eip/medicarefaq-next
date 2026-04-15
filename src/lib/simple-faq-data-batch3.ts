@@ -1164,32 +1164,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["medicare-at-60", "when-should-you-enroll-in-medicare-if-still-working", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
-    slug: 'medicare-coverage-for-diabetic-shoes',
-    seo: {
-      title: 'Medicare Coverage for Diabetic Shoes',
-      description: 'If you\'re one of many Medicare beneficiaries diagnosed with diabetes, it\'s important to know what coverage for diabetic shoes is available.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-diabetic-shoes/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-diabetic-shoes.jpg',
-    },
-    title: 'Medicare Coverage for Diabetic Shoes',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'March 22, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Durable Medical Equipment Covered by Medicare',
-        paragraphs: [
-          'Updated on March 22, 2023',
-          '[Durable medical equipment](/faqs/durable-medical-equipment) is essential for so many [Medicare beneficiaries](/faqs/what-is-medicare) because it can help with...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-diabetes", "durable-medical-equipment", "medicare-preventive-services", "does-medicare-cover-medical-alert-systems"],
-  },
-  {
     slug: 'can-you-get-medicare-in-puerto-rico',
     seo: {
       title: 'Medicare in Puerto Rico',
