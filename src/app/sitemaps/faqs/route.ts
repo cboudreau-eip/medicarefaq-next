@@ -5,6 +5,7 @@ import { simpleFAQBatch2 } from "@/lib/simple-faq-data-batch2";
 import { simpleFAQBatch3 } from "@/lib/simple-faq-data-batch3";
 import { simpleFAQBatch4 } from "@/lib/simple-faq-data-batch4";
 import { simpleFAQBatch5 } from "@/lib/simple-faq-data-batch5";
+import { simpleFAQBatch6 } from "@/lib/simple-faq-data-batch6";
 
 const BASE_URL = "https://www.medicarefaq.com";
 const lastModified = new Date("2026-04-09").toISOString();
@@ -46,13 +47,14 @@ export function GET() {
     });
   }
 
-  // Simple FAQ articles (all 5 batches)
+  // Simple FAQ articles (all 6 batches)
   const allSimpleFAQs = [
     ...simpleFAQBatch1,
     ...simpleFAQBatch2,
     ...simpleFAQBatch3,
     ...simpleFAQBatch4,
     ...simpleFAQBatch5,
+    ...simpleFAQBatch6,
   ];
   for (const article of allSimpleFAQs) {
     entries.push({
