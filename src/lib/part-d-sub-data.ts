@@ -825,8 +825,8 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Prior Authorization", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization" },
       { label: "Part D Step Therapy", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy" },
       { label: "Part D Formulary", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" },
-      { label: "Medicare Appeals Process", href: "/faqs/medicare-appeals-process/" },
-      { label: "Your Medicare Rights and Protections", href: "/faqs/your-medicare-rights-and-protections/" },
+      { label: "Part D Coverage Gap", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap" },
+      { label: "Part D Late Enrollment Penalty", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty" },
     ],
   },
   {
