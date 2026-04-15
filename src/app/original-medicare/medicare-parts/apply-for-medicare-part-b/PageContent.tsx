@@ -134,6 +134,40 @@ export default function PageContent() {
             </div>
           </section>
 
+          {/* How to Apply for Part B When You Already Have Part A */}
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">How to Apply for Medicare Part B When You Already Have Part A</h2>
+            <p className="text-gray-700 text-sm leading-relaxed mb-4">
+              Many people receive Medicare Part A automatically when they turn 65 — especially if they are already collecting Social Security benefits — but are not automatically enrolled in Part B. If you have Part A and need to add Part B, the process depends on <strong>when</strong> you are enrolling and <strong>why</strong> you did not sign up initially.
+            </p>
+            <div className="space-y-4 mb-4">
+              <div className="border border-gray-200 rounded-xl p-5">
+                <h3 className="font-bold text-gray-800 mb-2">If You Declined Part B During Your Initial Enrollment Period</h3>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  If you turned down Part B when you first became eligible (for example, because you had employer coverage), you can sign up during the <strong>General Enrollment Period (GEP)</strong> from January 1 through March 31 each year. Coverage begins July 1. However, if you did not have creditable employer coverage during the gap, you may face a <strong>late enrollment penalty</strong> — a permanent 10% premium increase for each full 12-month period you could have had Part B but did not.
+                </p>
+              </div>
+              <div className="border border-gray-200 rounded-xl p-5">
+                <h3 className="font-bold text-gray-800 mb-2">If You Had Employer or Union Coverage</h3>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  If you delayed Part B because you (or your spouse) had group health coverage through a current employer, you qualify for a <strong>Special Enrollment Period (SEP)</strong>. You have <strong>8 months</strong> after the employment ends or the coverage stops (whichever comes first) to enroll in Part B <strong>without a penalty</strong>. You will need your employer to complete <strong>Form CMS-L564</strong> to verify your coverage dates.
+                </p>
+              </div>
+              <div className="border border-gray-200 rounded-xl p-5">
+                <h3 className="font-bold text-gray-800 mb-2">If You Have COBRA or Retiree Coverage</h3>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  <strong>COBRA and retiree health plans do not count as creditable employer coverage</strong> for the purpose of avoiding the Part B late enrollment penalty. If you are relying on COBRA or retiree coverage instead of Part B, you should enroll in Part B as soon as possible — either during your SEP (if you are still within 8 months of your employment ending) or during the next General Enrollment Period.
+                </p>
+              </div>
+            </div>
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <h3 className="font-bold text-gray-800 mb-2">How to Add Part B to Your Existing Part A</h3>
+              <p className="text-gray-700 text-sm leading-relaxed">
+                The application process is the same whether you are signing up for Part B for the first time or adding it to existing Part A coverage. You can apply online at <strong>ssa.gov</strong>, by calling Social Security at <strong>1-800-772-1213</strong>, or by visiting your local Social Security office. If you are enrolling through a Special Enrollment Period, be sure to have your employer&apos;s completed <strong>Form CMS-L564</strong> and any proof of prior coverage ready when you apply.
+              </p>
+            </div>
+          </section>
+
           {/* Application Methods */}
           <section className="mb-10">
             <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">How to Apply for Medicare Part B</h2>
