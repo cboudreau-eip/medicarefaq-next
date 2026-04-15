@@ -17,7 +17,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const page = MEDICARE_ADVANTAGE_PAGES.find((p) => p.slug === slug);
   return {
-    title: page ? `${page.title} | MedicareFAQ` : "Medicare Advantage | MedicareFAQ",
+    title: page ? page.title : "Medicare Advantage",
     description: page?.heroDescription ?? "",
     alternates: {
       canonical: `https://www.medicarefaq.com/medicare-part-c/${slug}`,

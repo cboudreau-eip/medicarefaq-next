@@ -17,7 +17,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const page = partDSubPages.find((p) => p.slug === slug);
   return {
-    title: page?.metaTitle ?? "Medicare Part D | MedicareFAQ",
+    title: page?.metaTitle ?? "Medicare Part D",
     description:
       page?.metaDescription ??
       "Learn about Medicare Part D prescription drug coverage.",

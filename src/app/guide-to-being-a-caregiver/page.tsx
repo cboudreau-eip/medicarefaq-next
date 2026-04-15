@@ -4,7 +4,7 @@ import CaregiverPageContent from "./CaregiverPageContent";
 import { CAREGIVER_PAGES } from "@/lib/caregiver-guide-data";
 
 export const metadata: Metadata = {
-  title: "Guide to Being a Caregiver | MedicareFAQ",
+  title: "Guide to Being a Caregiver",
   description:
     "A comprehensive resource for family caregivers navigating Medicare, home health benefits, and the practical realities of caring for an aging loved one.",
   alternates: {

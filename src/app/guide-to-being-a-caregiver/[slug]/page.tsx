@@ -17,7 +17,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const page = CAREGIVER_PAGES.find((p) => p.slug === slug);
   return {
-    title: page ? `${page.title} | MedicareFAQ` : "Caregiver Guide | MedicareFAQ",
+    title: page ? page.title : "Caregiver Guide",
     description: page?.heroDescription ?? "",
     alternates: {
       canonical: `https://www.medicarefaq.com/guide-to-being-a-caregiver/${slug}`,

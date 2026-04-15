@@ -3,11 +3,11 @@ import SiteLayout from "@/components/SiteLayout";
 import About from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "About Us | MedicareFAQ",
+  title: "About Us",
   description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
   alternates: { canonical: "https://www.medicarefaq.com/about-us/" },
   openGraph: {
-    title: "About Us | MedicareFAQ",
+    title: "About Us",
     description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
     url: "https://www.medicarefaq.com/about-us/",
     type: "article",

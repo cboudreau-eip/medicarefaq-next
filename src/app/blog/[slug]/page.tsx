@@ -22,10 +22,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const article = blogArticles.find((a) => a.slug === slug);
-  if (!article) return { title: "Not Found | MedicareFAQ" };
+  if (!article) return { title: "Not Found" };
 
   return {
-    title: article.seo?.title || `${article.title} | MedicareFAQ`,
+    title: article.seo?.title || article.title,
     description: article.seo?.description || article.excerpt,
     alternates: {
       canonical: article.seo?.canonical || `https://www.medicarefaq.com/blog/${slug}/`,

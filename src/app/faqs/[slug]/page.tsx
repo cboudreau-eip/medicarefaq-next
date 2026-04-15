@@ -67,7 +67,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: "Article Not Found | MedicareFAQ",
+    title: "Article Not Found",
   };
 }
 

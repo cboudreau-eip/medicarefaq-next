@@ -86,3 +86,38 @@
 - [x] Add published/last reviewed date split to SimpleFAQ article data and template
 - [x] Fix OG image for medigap pricing methods article (replace old WordPress URL)
 - [x] Add Article/FAQ/Breadcrumb schema to CoverageArticleContent template (test: dental implants page)
+- [x] Rewrite does-medicare-cover-a-biopsy as CoverageArticle format (test run)
+- [x] Rewrite does-medicare-cover-an-echocardiogram as CoverageArticle format (test run)
+- [x] Rewrite does-medicare-cover-anesthesia as CoverageArticle format
+- [x] Rewrite does-medicare-cover-asthma-inhalers as CoverageArticle format
+- [x] Rewrite does-medicare-cover-atrial-fibrillation-afib as CoverageArticle format
+- [x] Rewrite does-medicare-cover-cologuard as CoverageArticle format
+- [x] Rewrite does-medicare-cover-end-stage-renal-disease as CoverageArticle format
+- [x] Rewrite does-medicare-cover-gender-reassignment-surgery as CoverageArticle format
+- [x] Rewrite does-medicare-cover-hormone-therapy-for-menopause as CoverageArticle format
+- [x] Rewrite does-medicare-cover-leqembi as CoverageArticle format
+- [x] Rewrite does-medicare-cover-macular-degeneration as CoverageArticle format
+- [x] Rewrite does-medicare-cover-meals-on-wheels as CoverageArticle format
+- [x] Rewrite does-medicare-cover-medical-alert-systems as CoverageArticle format
+- [x] Rewrite does-medicare-cover-medical-nutritional-therapy as CoverageArticle format
+- [x] Rewrite what-dental-expenses-does-medicare-cover as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-incontinence-supplies as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-my-children as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-mammograms as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-compression-socks as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-skilled-nursing-facilities as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-stem-cell-treatments as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-botox-treatments as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-cancer as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-bariatric-surgery as CoverageArticle format
+- [x] Rewrite ambulance-and-medicare-coverage as CoverageArticle format
+- [x] Rewrite does-medicare-cover-robotic-surgery as CoverageArticle format
+- [x] Rewrite does-medicare-cover-second-opinions-and-when-should-you-get-one as CoverageArticle format
+- [x] Rewrite does-medicare-cover-urinary-catheters as CoverageArticle format
+- [x] Rewrite does-medicare-cover-varicose-veins as CoverageArticle format
+- [x] Rewrite does-medicare-cover-wegovy as CoverageArticle format
+- [ ] Rewrite does-medicare-cover-ostomy-supplies as CoverageArticle format
+- [ ] Rewrite does-medicare-cover-root-canals as CoverageArticle format
+- [ ] Rewrite medicare-coverage-erectile-dysfunction as CoverageArticle format
+- [ ] Rewrite medicare-coverage-for-alcohol-misuse as CoverageArticle format
+- [ ] Rewrite medicare-coverage-for-amyotrophic-lateral-sclerosis-als as CoverageArticle format

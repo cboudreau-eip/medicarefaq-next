@@ -4,11 +4,11 @@ import SiteLayout from "@/components/SiteLayout";
 import SearchResults from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Search Medicare Topics | MedicareFAQ",
+  title: "Search Medicare Topics",
   description: "Search MedicareFAQ for answers to your Medicare questions. Find articles, guides, and FAQs on Medicare plans, enrollment, costs, and more.",
   alternates: { canonical: "https://www.medicarefaq.com/search/" },
   openGraph: {
-    title: "Search Medicare Topics | MedicareFAQ",
+    title: "Search Medicare Topics",
     description: "Search MedicareFAQ for answers to your Medicare questions. Find articles, guides, and FAQs on Medicare plans, enrollment, costs, and more.",
     url: "https://www.medicarefaq.com/search/",
     type: "website",
