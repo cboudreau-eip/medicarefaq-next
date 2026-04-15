@@ -131,7 +131,7 @@ export default function PageContent({ slug }: { slug: string }) {
               <section key={section.id} id={section.id}>
                 <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">{section.heading}</h2>
                 {section.content.split('\n\n').map((para, i) => (
-                  <p key={i} className="text-gray-700 leading-relaxed mb-4">{para}</p>
+                  <p key={i} className="text-gray-700 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: para }} />
                 ))}
 
                 {section.bullets && (

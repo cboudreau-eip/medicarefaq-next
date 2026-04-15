@@ -704,25 +704,25 @@ export const partDSubPages: PartDSubPage[] = [
     title: "Medicare Part D Exceptions and Appeals",
     metaTitle: "Medicare Part D Exceptions & Appeals 2026 | How to Fight a Denial",
     metaDescription: "Learn how to request a Medicare Part D exception or appeal a coverage denial in 2026. Understand the 5-level appeals process, expedited timelines, and how to get your medications covered.",
-    heroSubtitle: "If your Medicare Part D plan denies coverage for a drug you need, you have the right to request an exception or file an appeal. The five-level process gives you real opportunities to overturn a denial — if you know how to use it.",
+    heroSubtitle: "If your Medicare Part D plan denies coverage for a drug you need, you have the right to request an exception or file an appeal. The five-level process gives you real opportunities to overturn a denial, if you know how to use it.",
     heroIcon: "Scale",
     keyTakeaways: [
       "The Medicare Part D appeals process has five distinct levels, each offering a real opportunity to overturn a denial for prescription drug coverage.",
-      "Expedited appeals must be decided within 72 hours when a delay could seriously harm your health — your doctor's statement of urgency is essential.",
+      "Expedited appeals must be decided within 72 hours when a delay could seriously harm your health. Your doctor's statement of urgency is essential.",
       "Strong medical documentation from your prescribing doctor is the single most important factor in a successful Part D exception or appeal.",
     ],
     sections: [
       {
         id: "understanding-the-process",
         heading: "Understanding the Medicare Part D Exception and Appeals Process in 2026",
-        content: "Getting a denial letter from your Medicare Part D plan can feel like a dead end, but it isn't. Federal law gives you the right to challenge any coverage decision your plan makes about your prescription drugs. That formal pathway is known as the Medicare Part D Exception and Appeals Process.\n\nAt its core, this process lets you push back when your plan refuses to cover a medication, limits the quantity it will pay for, or requires you to try a different drug first. Exceptions are the first tool you use, asking your plan to make a one-time accommodation. Appeals are what happens when that request, or an original coverage decision, gets denied.\n\nThe process is structured across five levels, each escalating in authority. Understanding how each level works, and when to act, is the key to protecting your access to the medications your doctor has prescribed.",
+        content: "Getting a denial letter from your Medicare Part D plan can feel like a dead end, but it isn't. Federal law gives you the right to challenge any coverage decision your <a href=\"/original-medicare/medicare-parts/medicare-part-d\" class=\"text-blue-600 underline hover:text-blue-800\">Medicare Part D</a> plan makes about your prescription drugs. That formal pathway is known as the Medicare Part D Exception and Appeals Process.\n\nAt its core, this process lets you push back when your plan refuses to cover a medication, limits the quantity it will pay for, or requires you to try a different drug first. Exceptions are the first tool you use, asking your plan to make a one-time accommodation. Appeals are what happens when that request, or an original coverage decision, gets denied.\n\nThe process is structured across five levels, each escalating in authority. Understanding how each level works, and when to act, is the key to protecting your access to the medications your doctor has prescribed.",
       },
       {
         id: "requesting-an-exception",
         heading: "Requesting a Medicare Part D Exception: Initial Steps",
-        content: "Before you reach the formal appeals process, you have the option to request an exception. An exception is a formal request asking your Part D plan to cover a drug that isn't on its formulary, to waive quantity limits, or to skip a step therapy requirement.\n\nThere are two primary types of exceptions. A Formulary Exception asks your plan to cover a drug it doesn't normally include on its list of covered medications. A Coverage Determination Exception asks your plan to waive a restriction like a quantity limit or step therapy protocol.\n\nMedical necessity is the foundation of any successful exception request. Your prescribing doctor must provide documentation explaining why the requested drug is medically necessary and why alternatives on the formulary would be ineffective or harmful for your condition.",
+        content: "Before you reach the formal appeals process, you have the option to request an exception. An exception is a formal request asking your Part D plan to cover a drug that isn't on its <a href=\"/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary\" class=\"text-blue-600 underline hover:text-blue-800\">formulary</a>, to waive quantity limits, or to skip a step therapy requirement.\n\nThere are two primary types of exceptions. A Formulary Exception asks your plan to cover a drug it doesn't normally include on its list of covered medications. A Coverage Determination Exception asks your plan to waive a restriction like a quantity limit or <a href=\"/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-step-therapy\" class=\"text-blue-600 underline hover:text-blue-800\">step therapy</a> protocol.\n\nMedical necessity is the foundation of any successful exception request. Your prescribing doctor must provide documentation explaining why the requested drug is medically necessary and why alternatives on the formulary would be ineffective or harmful for your condition.",
         bullets: [
-          "Prior Authorization: Requires your plan's approval before it will cover certain drugs. If denied, your doctor can submit clinical documentation showing the drug is medically necessary.",
+          "<a href=\"/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization\" class=\"text-blue-600 underline hover:text-blue-800\">Prior Authorization</a>: Requires your plan's approval before it will cover certain drugs. If denied, your doctor can submit clinical documentation showing the drug is medically necessary.",
           "Step Therapy: Your plan requires you to try a lower-cost drug first. If that drug is ineffective or causes adverse effects, your doctor can document this to support an exception.",
           "Quantity Limits: Cap how much of a drug your plan will cover per month. A written statement explaining the clinical rationale can support a quantity limit exception.",
         ],
@@ -734,7 +734,7 @@ export const partDSubPages: PartDSubPage[] = [
         table: {
           headers: ["Appeal Level", "Who Reviews", "Standard Timeframe", "Expedited Timeframe"],
           rows: [
-            ["Level 1: Redetermination", "Your Part D plan", "7–14 days", "72 hours"],
+            ["Level 1: Redetermination", "Your Part D plan", "7-14 days", "72 hours"],
             ["Level 2: IRE Review", "Independent Review Entity", "30 days", "72 hours"],
             ["Level 3: ALJ Hearing", "Administrative Law Judge", "90 days (target)", "Not typically available"],
             ["Level 4: MAC Review", "Medicare Appeals Council", "90 days (target)", "Not typically available"],
@@ -755,7 +755,7 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "level-3",
         heading: "Level 3: Hearing by an Administrative Law Judge (ALJ)",
-        content: "If the IRE still upholds the denial, you can request a hearing with an Administrative Law Judge (ALJ) through the Office of Medicare Hearings and Appeals (OMHA). This is a formal hearing where you can present your case in person, by phone, or in writing — often with the help of an attorney or patient advocate.\n\nTo advance to this level, your claim must meet a minimum dollar threshold, approximately $190 in 2026. The ALJ reviews the entire record and applies Medicare law impartially, which can make this level particularly effective if earlier reviewers misapplied coverage rules.",
+        content: "If the IRE still upholds the denial, you can request a hearing with an Administrative Law Judge (ALJ) through the Office of Medicare Hearings and Appeals (OMHA). This is a formal hearing where you can present your case in person, by phone, or in writing, often with the help of an attorney or patient advocate.\n\nTo advance to this level, your claim must meet a minimum dollar threshold, approximately $190 in 2026. The ALJ reviews the entire record and applies Medicare law impartially, which can make this level particularly effective if earlier reviewers misapplied coverage rules.",
       },
       {
         id: "level-4",
@@ -770,13 +770,13 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "expedited-appeals",
         heading: "Expedited Appeals: When Time is Critical",
-        content: "An expedited appeal is designed for situations where the standard timeline would seriously jeopardize your life, health, or ability to regain maximum function. At both the Part D plan level and the IRE level, expedited decisions must be made within 72 hours of receiving the request.\n\nYour prescribing doctor plays a central role in triggering this process. A written statement from your doctor explaining the medical urgency — specifically that waiting for a standard decision could harm your health — is typically what qualifies a request for expedited review. Without that statement, plans may default to the standard timeline.",
+        content: "An expedited appeal is designed for situations where the standard timeline would seriously jeopardize your life, health, or ability to regain maximum function. At both the Part D plan level and the IRE level, expedited decisions must be made within 72 hours of receiving the request.\n\nYour prescribing doctor plays a central role in triggering this process. A written statement from your doctor explaining the medical urgency, specifically that waiting for a standard decision could harm your health, is typically what qualifies a request for expedited review. Without that statement, plans may default to the standard timeline.",
         bullets: [
           "Immediate need for a life-sustaining medication",
           "Recent hospital discharge where a specific drug is part of the discharge plan",
           "A condition that deteriorates rapidly without a specific treatment",
         ],
-        callout: { type: "tip", text: "Request an expedited appeal at the same time you ask your doctor to submit a medical necessity letter — don't wait for one to be completed before starting the other. Parallel action saves critical days when your health is on the line." },
+        callout: { type: "tip", text: "Request an expedited appeal at the same time you ask your doctor to submit a medical necessity letter. Don't wait for one to be completed before starting the other. Parallel action saves critical days when your health is on the line." },
       },
       {
         id: "tips-for-success",
@@ -784,15 +784,15 @@ export const partDSubPages: PartDSubPage[] = [
         content: "Documentation is everything in this process. Keep copies of every denial letter, every form you submit, every phone call you make (with dates and representative names), and every piece of medical evidence you gather.",
         bullets: [
           "Your prescribing doctor's letter should explain why the denied drug is medically necessary, why formulary alternatives are insufficient, and what clinical evidence supports the request",
-          "Take advantage of free, personalized help through your State Health Insurance Assistance Program (SHIP) — counselors can help you prepare your appeal and meet deadlines at no cost",
+          "Take advantage of free, personalized help through your State Health Insurance Assistance Program (SHIP). Counselors can help you prepare your appeal and meet deadlines at no cost",
           "If you're enrolled in a Medicare Advantage plan with drug coverage (MAPD), your appeals follow essentially the same five-level structure as standalone Part D plans",
-          "File promptly — you have 60 days from the denial notice to request a redetermination at Level 1",
+          "File promptly. You have 60 days from the denial notice to request a redetermination at Level 1",
         ],
       },
       {
         id: "your-rights",
         heading: "Understanding Your Rights as a Medicare Beneficiary",
-        content: "Federal law is clear: every Medicare beneficiary has the right to appeal any decision about their Part D coverage. That right doesn't expire after the first denial. You can pursue all five levels if necessary, and your plan cannot penalize you for doing so.\n\nEvery fall, your plan is required to send you an Annual Notice of Change (ANOC) and an Evidence of Coverage (EOC) document. These outline any changes to your plan's drug coverage, costs, and rules for the coming year. Reading these documents carefully can alert you to formulary shifts that affect your medications.",
+        content: "Federal law is clear: every Medicare beneficiary has the right to appeal any decision about their <a href=\"/original-medicare/medicare-parts/medicare-part-d\" class=\"text-blue-600 underline hover:text-blue-800\">Part D coverage</a>. That right doesn't expire after the first denial. You can pursue all five levels if necessary, and your plan cannot penalize you for doing so.\n\nEvery fall, your plan is required to send you an Annual Notice of Change (ANOC) and an Evidence of Coverage (EOC) document. These outline any changes to your plan's drug coverage, costs, and rules for the coming year. Reading these documents carefully can alert you to formulary shifts that affect your medications.",
       },
     ],
     faqs: [
@@ -802,7 +802,7 @@ export const partDSubPages: PartDSubPage[] = [
       },
       {
         q: "How long does a Medicare Part D appeal take at each level?",
-        a: "Level 1 (Redetermination): 7–14 days standard, 72 hours expedited. Level 2 (IRE Review): 30 days standard, 72 hours expedited. Level 3 (ALJ Hearing): 90 days target. Level 4 (MAC Review): 90 days target. Level 5 (Federal Court): Varies from months to years.",
+        a: "Level 1 (Redetermination): 7-14 days standard, 72 hours expedited. Level 2 (IRE Review): 30 days standard, 72 hours expedited. Level 3 (ALJ Hearing): 90 days target. Level 4 (MAC Review): 90 days target. Level 5 (Federal Court): Varies from months to years.",
       },
       {
         q: "Can I get an expedited appeal for any denial, or are there specific criteria?",
@@ -810,7 +810,7 @@ export const partDSubPages: PartDSubPage[] = [
       },
       {
         q: "What happens if my Part D plan denies my exception request but I need the medication immediately?",
-        a: "Request an expedited appeal immediately and ask your doctor to submit a written statement of urgency in parallel. You may also ask your pharmacist about a temporary supply — some plans will provide a limited emergency fill while the appeal is under review. Contact your plan directly to ask about bridge options.",
+        a: "Request an expedited appeal immediately and ask your doctor to submit a written statement of urgency in parallel. You may also ask your pharmacist about a temporary supply. Some plans will provide a limited emergency fill while the appeal is under review. Contact your plan directly to ask about bridge options.",
       },
       {
         q: "Where can I find free help with my Medicare Part D appeal?",
@@ -818,7 +818,7 @@ export const partDSubPages: PartDSubPage[] = [
       },
       {
         q: "What is the difference between a Part D exception and a Part D appeal?",
-        a: "An exception is a proactive request asking your plan to make an accommodation — such as covering a non-formulary drug or waiving a step therapy requirement — before a formal denial is issued or as a first response to one. An appeal is a formal challenge to a decision your plan has already made. Exceptions are often the first step; appeals follow when exceptions are denied.",
+        a: "An exception is a proactive request asking your plan to make an accommodation (such as covering a non-formulary drug or waiving a step therapy requirement) before a formal denial is issued or as a first response to one. An appeal is a formal challenge to a decision your plan has already made. Exceptions are often the first step; appeals follow when exceptions are denied.",
       },
     ],
     relatedLinks: [
