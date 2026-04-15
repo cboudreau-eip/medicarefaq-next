@@ -411,32 +411,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["finding-local-doctors-who-accept-medicare", "medicare-enrollment-checklist", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
-    slug: 'medicare-coverage-for-physical-therapy',
-    seo: {
-      title: 'Does Medicare Cover Physical Therapy?',
-      description: 'Medicare coverage for physical therapy is available when medically necessary. Learn more about when and how Medicare covers physical therapy.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-physical-therapy/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-physical-therapy.jpg',
-    },
-    title: 'Does Medicare Cover Physical Therapy?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'November 15, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Speech Therapy',
-        paragraphs: [
-          'Updated on November 15, 2024',
-          'Medicare will cover [speech therapy services](/faqs/does-medicare-cover-speech-therapy) if you meet specific requirements set by the [Center](/blog/medicare-parts-a-b-c-and-d-explained-simply)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-speech-therapy", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-stroke-victims"],
-  },
-  {
     slug: 'medicare-coverage-for-wheelchairs-and-scooters',
     seo: {
       title: 'Does Medicare Cover Wheelchairs and Scooters?',

@@ -15074,4 +15074,868 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["what-is-durable-medical-equipment-dme", "medicare-coverage-for-wheelchairs-and-scooters", "medicare-coverage-for-bathroom-safety-devices", "medicare-supplement-plan-g"],
   },
 
+
+  {
+    slug: "medicare-coverage-for-lower-back-pain-management",
+    seo: {
+      title: "Find Pain Management Doctors That Accept Medicare | MedicareFAQ",
+      description: "Original Medicare covers pain management services when medically necessary. Learn about treatment options, costs, and how to find doctors that accept Medicare.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-lower-back-pain-management/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-lower-back-pain-management.jpg",
+    },
+    title: "Medicare Coverage for Lower Back Pain Management",
+    subtitle: "Original Medicare covers pain management services when medically necessary, including physical therapy, injections, chiropractic care, and surgery. Learn about treatment options, costs, and how to find pain management doctors that accept Medicare.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Original Medicare covers pain management services when medically necessary. Part B covers outpatient treatments like physical therapy, chiropractic care, and injections (you pay the Part B deductible plus 20% coinsurance). Part A covers inpatient pain management during a hospital stay. Medicare Advantage and Medigap plans provide additional coverage per their policy guidelines.",
+      badges: [
+        { plan: "Part A (Inpatient)", status: "covered" },
+        { plan: "Part B (Outpatient)", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Physical therapy", coverage: "Covered", icon: "shield", notes: "Covered under Part B when medically necessary; no annual session cap" },
+      { planType: "Chiropractic care", coverage: "Partial", icon: "users", notes: "Part B covers manual spinal manipulation only; not X-rays or other services" },
+      { planType: "Cortisone injections", coverage: "Covered", icon: "shield", notes: "Covered under Part B usually without prior authorization" },
+      { planType: "Epidural steroid injections", coverage: "Covered", icon: "shield", notes: "Covered after proving alternative treatments were unsuccessful" },
+      { planType: "Radiofrequency ablation (RFA)", coverage: "Covered", icon: "shield", notes: "Covered when medically necessary and other methods have failed" },
+      { planType: "Spinal decompression", coverage: "Rarely Covered", icon: "x", notes: "Generally not considered medically necessary; rarely covered" },
+      { planType: "Pain medications", coverage: "Covered", icon: "heart", notes: "Covered under Part D or Medicare Advantage Prescription Drug Plan" },
+      { planType: "Surgical intervention", coverage: "Covered", icon: "shield", notes: "Covered under Part A (inpatient) or Part B (outpatient) when medically necessary" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — Inpatient Pain Management",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers inpatient hospital stays for pain management treatments and surgery",
+          "You pay the Part A deductible ($1,676 in 2025) for the first 60 days",
+          "Covers skilled nursing facility stays for rehabilitation after surgery",
+          "Includes hospital services, anesthesia, and surgical procedures",
+        ],
+      },
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#2563EB",
+        coverageLabel: "Covered — Outpatient Pain Management",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers outpatient pain management services when medically necessary",
+          "You pay the Part B deductible ($257 in 2025) then 20% coinsurance",
+          "Covers physical therapy, chiropractic manipulation, and injections",
+          "Cortisone injections typically covered without prior authorization",
+          "Epidural steroid injections covered after failed alternative treatments",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#DC2626",
+        coverageLabel: "Covered — Per Plan Guidelines",
+
+        coverageType: "partial",        paragraphs: [
+          "Must cover at least the same pain management benefits as Original Medicare",
+          "May require referrals to see a pain management specialist",
+          "Some plans offer additional pain management benefits like acupuncture",
+          "Copayments and coinsurance vary by plan; contact your carrier for details",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#059669",
+        coverageLabel: "Covered — Fills Cost Gaps",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers the 20% Part B coinsurance for outpatient pain management",
+          "Depending on plan, may cover Part A and Part B deductibles",
+          "Provides financial protection for expensive treatments like surgery",
+          "No referral requirements or network restrictions",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Pain Management Cost Estimates",
+      headers: ["Item", "Estimated Cost"],
+      rows: [
+        { "Item": "Cortisone injection (Part B)", "Estimated Cost": "20% coinsurance after deductible" },
+        { "Item": "Epidural steroid injection", "Estimated Cost": "20% coinsurance after deductible" },
+        { "Item": "Radiofrequency ablation (RFA)", "Estimated Cost": "20% coinsurance after deductible" },
+        { "Item": "Physical therapy session", "Estimated Cost": "20% coinsurance after deductible" },
+        { "Item": "Inpatient surgery (Part A)", "Estimated Cost": "$1,676 deductible (2025)" },
+        { "Item": "Pain medications (Part D)", "Estimated Cost": "Varies by formulary tier and plan" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Limitations",
+      items: [
+        { title: "Spinal decompression therapy is generally...", text: "Spinal decompression therapy is generally not considered medically necessary by Medicare" },
+        { title: "You must prove alternative treatments...", text: "You must prove alternative treatments were unsuccessful before Medicare covers epidural injections or RFA" },
+        { title: "Chiropractic coverage is limited to...", text: "Chiropractic coverage is limited to manual spinal manipulation — X-rays and other services are not covered" },
+        { title: "Pain management must be ordered...", text: "Pain management must be ordered by a physician to receive Medicare coverage" },
+        { title: "Medicare Advantage plans may require...", text: "Medicare Advantage plans may require prior authorization or referrals for specialist visits" },
+        { title: "Experimental or investigational pain treatments...", text: "Experimental or investigational pain treatments are not covered by Medicare" },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover cortisone injections for back pain?",
+        answer: "Yes. Medicare Part B covers cortisone injections for lower back pain usually without prior authorization. You pay the Part B deductible plus 20% coinsurance. Different doses have different costs, so ask your doctor about the Medicare-allowable amount for each procedure.",
+      },
+      {
+        question: "How much does radiofrequency ablation cost with Medicare?",
+        answer: "When medically necessary, Medicare covers radiofrequency ablation (RFA). You are responsible for the Part B deductible and 20% coinsurance. To qualify, your pain must be extreme and other methods must have failed. Costs may vary on Medicare Advantage plans.",
+      },
+      {
+        question: "Does Medicare cover epidural steroid injections?",
+        answer: "Yes, Medicare Part B covers epidural steroid injections when your doctor determines they are medically necessary after alternative treatments have been unsuccessful. You pay the Part B deductible and 20% coinsurance.",
+      },
+      {
+        question: "Is spinal decompression covered by Medicare?",
+        answer: "Medicare generally does not consider spinal decompression therapy medically necessary, even if it provides pain relief. In rare circumstances where a physician deems it medically necessary, standard Part B coverage may apply.",
+      },
+      {
+        question: "Does Medicare cover physical therapy for back pain?",
+        answer: "Yes. Medicare Part B covers physical therapy for back pain when prescribed by a doctor. There is no annual cap on sessions, though a $2,480 threshold triggers a medical necessity review. You pay the Part B deductible and 20% coinsurance.",
+      },
+      {
+        question: "Do I need a referral to see a pain management doctor with Medicare?",
+        answer: "With Original Medicare, you do not need a referral to see a pain management specialist. However, Medicare Advantage plans may require a referral from your primary care physician before seeing a specialist.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare covers pain management when <strong>medically necessary</strong>" },
+      { icon: "check", text: "Part B covers outpatient treatments: <strong>PT, injections, chiropractic</strong>" },
+      { icon: "check", text: "Cortisone injections usually covered <strong>without prior authorization</strong>" },
+      { icon: "x", text: "Spinal decompression is <strong>generally not covered</strong>" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible" },
+      { icon: "info", text: "Medigap covers the <strong>20% Part B coinsurance</strong> for pain management" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Physical Therapy?", description: "Learn about Medicare's coverage for physical therapy services.", slug: "medicare-coverage-for-physical-therapy" },
+      { title: "Does Medicare Cover Chiropractic Care?", description: "Learn about Medicare's limited coverage for chiropractic services.", slug: "does-medicare-cover-chiropractic-care" },
+      { title: "Medicare Coverage for Hip Injections", description: "Learn about Medicare's coverage for hip injections and joint treatments.", slug: "medicare-coverage-for-hip-injections" },
+      { title: "Will Medicare Cover My Surgery?", description: "Learn when and how Medicare covers surgical procedures.", slug: "will-medicare-cover-my-surgery" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Physical Therapy",
+      "Does Medicare Cover Chiropractic Care",
+      "Medicare Coverage for Hip Injections",
+      "Will Medicare Cover My Surgery",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding Pain Management Coverage?",
+      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that covers your pain management treatments. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-physical-therapy", "does-medicare-cover-chiropractic-care", "medicare-coverage-for-hip-injections", "will-medicare-cover-my-surgery"],
+  },
+  {
+    slug: "medicare-coverage-for-lung-transplants",
+    seo: {
+      title: "Medicare Coverage for Lung Transplants | MedicareFAQ",
+      description: "Medicare provides coverage for lung transplants when medically necessary. Learn about eligibility, costs, Part A and Part B coverage, and anti-rejection drugs.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-lung-transplants/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-lung-transplants.jpg",
+    },
+    title: "Medicare Coverage for Lung Transplants",
+    subtitle: "Medicare partially covers lung transplants when medically necessary for progressive end-stage pulmonary disease. Learn about eligibility requirements, what Parts A and B cover, anti-rejection drug coverage, and how to get on the transplant list.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare partially covers lung transplants when medically necessary. You must have a progressive end-stage cardiopulmonary or pulmonary diagnosis, all other options must be exhausted, and care must take place at a certified Medicare transplant facility. Part A covers hospital services, Part B covers doctors' services, and both may cover immunosuppressive drugs. A lung transplant can cost up to $1 million, making supplemental coverage critical.",
+      badges: [
+        { plan: "Part A (Hospital)", status: "covered" },
+        { plan: "Part B (Doctors)", status: "covered" },
+        { plan: "Anti-Rejection Drugs", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Transplant surgery (inpatient)", coverage: "Covered", icon: "shield", notes: "Part A covers hospital services, exams, tests, labs, and the transplant procedure" },
+      { planType: "Doctors' services", coverage: "Covered", icon: "shield", notes: "Part B covers surgeons and physicians in outpatient settings" },
+      { planType: "Anti-rejection drugs", coverage: "Covered", icon: "shield", notes: "Parts A, B, and D may cover immunosuppressive medications" },
+      { planType: "Skilled nursing facility", coverage: "Covered", icon: "shield", notes: "Part A covers SNF stays following the hospital visit" },
+      { planType: "Lung cancer screening", coverage: "Covered", icon: "heart", notes: "Part B covers annual screening for eligible beneficiaries at 100%" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Coverage varies by plan; contact carrier before transplant" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covered", icon: "users", notes: "Covers deductibles, coinsurance, and copayments left by Parts A and B" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — Hospital & Transplant Services",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers hospital services including exams, tests, and labs for the transplant",
+          "Covers the transplant surgery and inpatient hospital stay",
+          "May cover inpatient stays at a skilled nursing facility after discharge",
+          "May cover home health care directly following the hospital visit",
+          "Covers blood transfusions and donor organ procurement",
+        ],
+      },
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#2563EB",
+        coverageLabel: "Covered — Doctors' Services",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers doctors' services for the transplant in outpatient settings",
+          "May cover immunosuppressive (anti-rejection) drugs in some circumstances",
+          "Covers annual lung cancer screenings at 100% for eligible beneficiaries",
+          "You pay the Part B deductible ($257 in 2025) then 20% coinsurance",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#DC2626",
+        coverageLabel: "Covered — Per Plan Rules",
+
+        coverageType: "partial",        paragraphs: [
+          "Each Advantage plan has its own rules for lung transplant coverage",
+          "Premiums tend to be lower, but you pay copayments for services rendered",
+          "You must contact your carrier directly to discuss coverage before the transplant",
+          "Must cover at least the same benefits as Original Medicare",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#059669",
+        coverageLabel: "Covered — Fills Cost Gaps",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers deductibles, coinsurance, and copayments left by Original Medicare",
+          "Critical for a procedure that can cost up to $1 million",
+          "No network restrictions or prior authorization requirements",
+          "Provides financial protection for unexpected surgical complications",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Lung Transplant Cost Estimates",
+      headers: ["Item", "Estimated Cost"],
+      rows: [
+        { "Item": "Bilateral lung transplant (total cost)", "Estimated Cost": "Up to $1,000,000" },
+        { "Item": "Part A deductible (2025)", "Estimated Cost": "$1,676 per benefit period" },
+        { "Item": "Part B deductible (2025)", "Estimated Cost": "$257 annually" },
+        { "Item": "Part B coinsurance", "Estimated Cost": "20% of Medicare-approved amount" },
+        { "Item": "Anti-rejection drugs (Part D)", "Estimated Cost": "Varies by formulary tier" },
+        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($257)" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Limitations",
+      items: [
+        { title: "You must have a progressive...", text: "You must have a progressive end-stage cardiopulmonary or pulmonary diagnosis to qualify" },
+        { title: "All other treatment options must...", text: "All other treatment options must be exhausted before Medicare approves the transplant" },
+        { title: "Care must take place at...", text: "Care must take place at a certified facility participating in Medicare's transplant program" },
+        { title: "Doctors must document the medical...", text: "Doctors must document the medical necessity of the transplant" },
+        { title: "Part D drug formularies are...", text: "Part D drug formularies are subject to change — verify your medications are covered" },
+        { title: "Medicare Advantage plans may have...", text: "Medicare Advantage plans may have different rules; contact your carrier before the procedure" },
+      ],
+    },
+    faqs: [
+      {
+        question: "What are the qualifications for Medicare to cover a lung transplant?",
+        answer: "You must have a diagnosis of progressive end-stage cardiopulmonary or pulmonary disease. All other treatment options must be exhausted, and doctors must document the medical necessity. Care must take place at a certified Medicare transplant facility.",
+      },
+      {
+        question: "How much does a lung transplant cost with Medicare?",
+        answer: "A bilateral lung transplant can cost up to $1 million. With Original Medicare, you pay the Part A deductible ($1,676 in 2025) for the hospital stay and 20% coinsurance for Part B services. A Medigap plan can significantly reduce your out-of-pocket costs.",
+      },
+      {
+        question: "Does Medicare pay for anti-rejection drugs?",
+        answer: "Yes. Medicare pays for anti-rejection (immunosuppressive) drugs if it covers your transplant. If Medicare doesn't pay for your transplant, a Part D plan may still cover anti-rejection drugs. These drugs prevent the body from rejecting the transplanted organ.",
+      },
+      {
+        question: "How much does Medicare pay for lung cancer screenings?",
+        answer: "If you qualify, Medicare pays 100% for an annual lung cancer screening. Eligible beneficiaries include those ages 55–77 who currently smoke or quit within the last 15 years and have a 30-pack-year smoking history.",
+      },
+      {
+        question: "How do I get on the lung transplant list?",
+        answer: "First, get a referral from your doctor. Then contact a transplant facility (there are more than 200 nationwide) and schedule an evaluation. Once the hospital's transplant team deems you a suitable candidate, they will add you to the national waiting list.",
+      },
+      {
+        question: "Do Medicare Supplement plans cover lung transplants?",
+        answer: "Yes. When Medicare approves a lung transplant, Medigap covers the remaining deductibles, coinsurance, and copayments. This is critical given the high cost of transplant surgery, which can reach $1 million.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare covers lung transplants when <strong>medically necessary</strong>" },
+      { icon: "check", text: "Part A covers <strong>hospital services, exams, and the transplant</strong>" },
+      { icon: "check", text: "Part B covers <strong>doctors' services</strong> in outpatient settings" },
+      { icon: "check", text: "Anti-rejection drugs covered by <strong>Parts A, B, and D</strong>" },
+      { icon: "dollar", text: "Total cost can reach <strong>up to $1 million</strong> for both lungs" },
+      { icon: "info", text: "Must be at a <strong>certified Medicare transplant facility</strong>" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Cardiovascular Disease", description: "Learn about Medicare's coverage for heart-related conditions and treatments.", slug: "medicare-coverage-for-cardiovascular-disease" },
+      { title: "Medicare Coverage for Pacemakers", description: "Learn about Medicare's coverage for pacemaker devices and surgery.", slug: "medicare-coverage-for-pacemakers" },
+      { title: "Does Medicare Cover COPD?", description: "Learn about Medicare's coverage for chronic obstructive pulmonary disease.", slug: "does-medicare-cover-copd" },
+      { title: "Medicare Coverage for Stroke Victims", description: "Learn about Medicare's coverage for stroke treatment and rehabilitation.", slug: "medicare-coverage-for-stroke-victims" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Cardiovascular Disease",
+      "Medicare Coverage for Pacemakers",
+      "Does Medicare Cover COPD",
+      "Medicare Coverage for Stroke Victims",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Lung Transplant Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap plan that covers your deductibles and coinsurance for transplant surgery. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "medicare-coverage-for-pacemakers", "does-medicare-cover-copd", "medicare-coverage-for-stroke-victims"],
+  },
+  {
+    slug: "medicare-coverage-for-oxygen-therapy",
+    seo: {
+      title: "Medicare Oxygen Therapy Guidelines | MedicareFAQ",
+      description: "Medicare covers portable oxygen concentrators and oxygen therapy when medically necessary. Learn about eligibility, rental guidelines, costs, and coverage rules.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-oxygen-therapy/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-oxygen-therapy.jpg",
+    },
+    title: "Medicare Coverage for Oxygen Therapy",
+    subtitle: "Medicare Part B covers oxygen therapy equipment and supplies when medically necessary for lung or respiratory conditions. Learn about eligibility requirements, rental guidelines, costs, and how portable oxygen concentrators are covered.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers oxygen therapy equipment and supplies as Durable Medical Equipment (DME) when medically necessary. You must have a doctor's prescription, documented lung disorder, and blood oxygen saturation below 88% at rest (or below 90% during activity). Medicare covers 80% of the rental cost after your Part B deductible. Equipment is rented for 36 months, and the supplier must continue providing oxygen for up to 5 years total.",
+      badges: [
+        { plan: "Part B (DME)", status: "covered" },
+        { plan: "Portable Concentrators", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Stationary oxygen equipment", coverage: "Covered", icon: "shield", notes: "Covered as DME under Part B; rented for 36 months from approved supplier" },
+      { planType: "Portable oxygen concentrators", coverage: "Covered", icon: "shield", notes: "Covered when doctor states you need constant oxygen therapy outside the home" },
+      { planType: "Oxygen supplies & accessories", coverage: "Covered", icon: "shield", notes: "Tubing, storage containers, and accessories included in rental" },
+      { planType: "Equipment servicing", coverage: "Covered", icon: "shield", notes: "Part B covers servicing every 6 months after the 36-month rental period" },
+      { planType: "Humidifier (with oxygen machine)", coverage: "Covered", icon: "shield", notes: "Covered if the oxygen machine works with a humidifier" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover at least the same oxygen therapy benefits as Original Medicare" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covered", icon: "users", notes: "Covers the 20% Part B coinsurance for oxygen equipment and supplies" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#2563EB",
+        coverageLabel: "Covered — Oxygen Equipment as DME",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers 80% of the rental cost for oxygen equipment after Part B deductible",
+          "Equipment is rented for 36 months from a Medicare-approved supplier",
+          "After 36 months, supplier must continue providing oxygen for 24 more months",
+          "After 5 years total, you can renew your contract or choose a new supplier",
+          "Covers servicing of oxygen concentrators every 6 months after rental period",
+        ],
+      },
+      {
+        planName: "Original Medicare (Part A)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — Inpatient Oxygen Therapy",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers oxygen therapy during inpatient hospital stays",
+          "Covers oxygen therapy in skilled nursing facilities",
+          "Part A deductible applies ($1,676 in 2025)",
+          "Inpatient oxygen is included in the hospital stay cost",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#DC2626",
+        coverageLabel: "Covered — Per Plan Guidelines",
+
+        coverageType: "partial",        paragraphs: [
+          "Must cover at least the same oxygen therapy benefits as Original Medicare",
+          "May have different copayment or coinsurance amounts",
+          "May require use of specific DME suppliers within the plan's network",
+          "Some plans may offer additional respiratory therapy benefits",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#059669",
+        coverageLabel: "Covered — Fills Cost Gaps",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers the 20% Part B coinsurance for oxygen equipment and supplies",
+          "Depending on plan, may cover the Part B deductible",
+          "No network restrictions — use any Medicare-approved DME supplier",
+          "Provides consistent monthly cost protection for ongoing oxygen therapy",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Oxygen Therapy Cost Estimates",
+      headers: ["Item", "Estimated Cost"],
+      rows: [
+        { "Item": "Part B deductible (2025)", "Estimated Cost": "$257 annually" },
+        { "Item": "Oxygen equipment rental (your share)", "Estimated Cost": "20% of Medicare-approved amount" },
+        { "Item": "Monthly oxygen supplies", "Estimated Cost": "20% coinsurance (included in rental)" },
+        { "Item": "Equipment servicing (after 36 months)", "Estimated Cost": "20% coinsurance every 6 months" },
+        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($257/year)" },
+        { "Item": "Purchased equipment (not recommended)", "Estimated Cost": "Higher out-of-pocket; rental is more cost-effective" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Limitations",
+      items: [
+        { title: "Oxygen saturation must be below...", text: "Oxygen saturation must be below 88% at rest or below 90% during activity to qualify" },
+        { title: "You must have a written...", text: "You must have a written prescription from your doctor for oxygen therapy" },
+        { title: "Equipment must be rented —...", text: "Equipment must be rented — not purchased — from a Medicare-approved supplier" },
+        { title: "Portable oxygen concentrators require proof...", text: "Portable oxygen concentrators require proof that you need constant oxygen therapy outside the home" },
+        { title: "After 5 years, your need...", text: "After 5 years, your need for oxygen must be reevaluated before renewing" },
+        { title: "Medicare does not cover oxygen...", text: "Medicare does not cover oxygen equipment from non-approved suppliers" },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover portable oxygen concentrators?",
+        answer: "Yes. Medicare Part B covers portable oxygen concentrators when your doctor states you need constant oxygen therapy outside your home. You must meet the same eligibility criteria as stationary oxygen equipment, including oxygen saturation levels below 88% at rest.",
+      },
+      {
+        question: "How long does Medicare cover oxygen equipment?",
+        answer: "Medicare covers oxygen equipment rental for 36 months. After that, the supplier must continue providing oxygen for an additional 24 months (5 years total). After 5 years, your need is reevaluated and you can renew or choose a new supplier.",
+      },
+      {
+        question: "How much does oxygen therapy cost with Medicare?",
+        answer: "After meeting the Part B deductible ($257 in 2025), you pay 20% of the Medicare-approved rental amount. Your exact cost depends on the equipment type and supplier. A Medigap plan can cover the 20% coinsurance.",
+      },
+      {
+        question: "What oxygen saturation level qualifies for Medicare coverage?",
+        answer: "Your oxygen saturation must be below 88% while at rest, or below 90% while engaging in activity. This is measured using a pulse oximeter. Your doctor must document these levels for Medicare to approve coverage.",
+      },
+      {
+        question: "Does Medicare cover oxygen concentrator servicing?",
+        answer: "Yes. After the 36-month rental period ends, Medicare Part B covers the cost of servicing your oxygen concentrator every six months. This ensures your equipment continues to function properly.",
+      },
+      {
+        question: "Can I buy my own oxygen equipment with Medicare?",
+        answer: "While you can purchase oxygen equipment, it is more cost-effective to rent through Medicare. Rental payments are covered for up to 36 months, and the supplier must continue providing oxygen for up to 5 years total.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare Part B covers oxygen therapy as <strong>Durable Medical Equipment</strong>" },
+      { icon: "check", text: "Covers stationary and <strong>portable oxygen concentrators</strong>" },
+      { icon: "info", text: "Oxygen saturation must be <strong>below 88% at rest</strong> to qualify" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible" },
+      { icon: "info", text: "Equipment rented for <strong>36 months</strong>; supplier continues for 5 years total" },
+      { icon: "info", text: "Must rent from a <strong>Medicare-approved supplier</strong>" },
+    ],
+    relatedTopics: [
+      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "Does Medicare Cover COPD?", description: "Learn about Medicare's coverage for chronic obstructive pulmonary disease.", slug: "does-medicare-cover-copd" },
+      { title: "Will Medicare Pay for a Nebulizer Machine?", description: "Learn about Medicare's coverage for nebulizer machines and respiratory equipment.", slug: "will-medicare-pay-for-a-nebulizer-machine" },
+      { title: "Medicare Coverage for Lung Transplants", description: "Learn about Medicare's coverage for lung transplant surgery.", slug: "medicare-coverage-for-lung-transplants" },
+    ],
+    sidebarRelatedLinks: [
+      "What Is Durable Medical Equipment",
+      "Does Medicare Cover COPD",
+      "Will Medicare Pay for a Nebulizer Machine",
+      "Medicare Coverage for Lung Transplants",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Oxygen Therapy Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part B coinsurance for oxygen equipment and supplies. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["what-is-durable-medical-equipment-dme", "does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "medicare-coverage-for-lung-transplants"],
+  },
+  {
+    slug: "medicare-coverage-for-pacemakers",
+    seo: {
+      title: "Medicare Coverage for Pacemakers | MedicareFAQ",
+      description: "Medicare covers pacemakers when medically necessary for cardiac irregularities or atrial fibrillation. Learn about coverage, costs, battery replacements, and monitoring.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-pacemakers/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-pacemakers.jpg",
+    },
+    title: "Medicare Coverage for Pacemakers",
+    subtitle: "Medicare covers pacemakers when medically necessary for cardiac irregularities or atrial fibrillation. Learn about coverage for the device, surgery, battery replacements, monitoring, and how Medigap can protect you from high out-of-pocket costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers pacemakers when a doctor determines it is medically necessary for cardiac irregularities or atrial fibrillation. Coverage includes the pacemaker device, surgical insertion, battery replacements, and ongoing monitoring. Without a Medigap policy, you could be responsible for 20% of a $90,000+ procedure. Pacemaker checks should occur 6 weeks post-surgery, then every 3–6 months.",
+      badges: [
+        { plan: "Pacemaker Device", status: "covered" },
+        { plan: "Surgery", status: "covered" },
+        { plan: "Battery Replacement", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Pacemaker device", coverage: "Covered", icon: "shield", notes: "Covered when medically necessary for cardiac irregularities or atrial fibrillation" },
+      { planType: "Surgical insertion", coverage: "Covered", icon: "shield", notes: "Part A covers inpatient surgery; Part B covers outpatient procedures" },
+      { planType: "Battery replacement", coverage: "Covered", icon: "shield", notes: "Covered for single and dual chamber pacemakers; batteries last 7–8 years" },
+      { planType: "Pacemaker monitoring", coverage: "Covered", icon: "shield", notes: "Covers regular checks and transtelephonic monitoring" },
+      { planType: "Medtronic pacemaker", coverage: "Covered", icon: "shield", notes: "Covered when physician recommends based on your specific heart conditions" },
+      { planType: "Biventricular pacemaker", coverage: "Covered", icon: "shield", notes: "Covered with required regular monitoring schedule" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover at least the same pacemaker benefits as Original Medicare" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covered", icon: "users", notes: "Covers deductibles, coinsurance, and copayments — critical for high-cost procedures" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — Inpatient Pacemaker Surgery",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers inpatient hospital stay for pacemaker insertion surgery",
+          "Covers complications that may arise during surgery",
+          "You pay the Part A deductible ($1,676 in 2025) for the hospital stay",
+          "Covers skilled nursing facility care if needed after surgery",
+        ],
+      },
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#2563EB",
+        coverageLabel: "Covered — Outpatient Services & Monitoring",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers outpatient pacemaker procedures and doctors' services",
+          "Covers regular pacemaker checks (6 weeks post-op, then every 3–6 months)",
+          "Covers transtelephonic pacemaker monitoring",
+          "You pay the Part B deductible ($257 in 2025) then 20% coinsurance",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#DC2626",
+        coverageLabel: "Covered — At Minimum Same as Original Medicare",
+
+        coverageType: "covered",        paragraphs: [
+          "Must cover pacemakers to at least the same extent as Original Medicare",
+          "Premiums tend to be lower, but you pay copayments for services rendered",
+          "May have network restrictions for cardiologists and hospitals",
+          "Contact your plan directly for specific pacemaker coverage details",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#059669",
+        coverageLabel: "Covered — Critical Cost Protection",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers the 20% Part B coinsurance — critical for a $90,000+ procedure",
+          "Covers Part A deductible for the hospital stay",
+          "Monthly premiums vary by plan, location, and insurance company",
+          "No network restrictions — see any Medicare-accepting cardiologist",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Pacemaker Cost Estimates",
+      headers: ["Item", "Estimated Cost"],
+      rows: [
+        { "Item": "Pacemaker surgery (total cost)", "Estimated Cost": "$50,000–$100,000+" },
+        { "Item": "Part A deductible (2025)", "Estimated Cost": "$1,676 per benefit period" },
+        { "Item": "Part B coinsurance (without Medigap)", "Estimated Cost": "20% of Medicare-approved amount" },
+        { "Item": "Your cost without Medigap (example)", "Estimated Cost": "~$18,000+ for a $90,000 procedure" },
+        { "Item": "Your cost with Medigap Plan G", "Estimated Cost": "Part B deductible only ($257)" },
+        { "Item": "Battery replacement", "Estimated Cost": "Covered; same cost-sharing as original surgery" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Limitations",
+      items: [
+        { title: "A doctor must determine the...", text: "A doctor must determine the pacemaker is medically necessary for your cardiac condition" },
+        { title: "You must have cardiac irregularities...", text: "You must have cardiac irregularities or atrial fibrillation that requires a pacemaker" },
+        { title: "Pacemaker batteries typically last 7–8...", text: "Pacemaker batteries typically last 7–8 years before replacement is needed" },
+        { title: "Biventricular pacemakers require a specific...", text: "Biventricular pacemakers require a specific monitoring schedule post-surgery" },
+        { title: "Transtelephonic monitoring records must be...", text: "Transtelephonic monitoring records must be at least 30 seconds and viewable on an ECG strip" },
+        { title: "Medicare Advantage plans may have...", text: "Medicare Advantage plans may have network restrictions for cardiologists and hospitals" },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover pacemaker battery replacements?",
+        answer: "Yes. Medicare covers battery replacements for single and dual chamber pacemakers. Pacemaker batteries typically last 7–8 years. When the battery wears down, a new pacemaker must be implanted, and Medicare covers the procedure.",
+      },
+      {
+        question: "How much does a pacemaker cost with Medicare?",
+        answer: "Pacemaker surgery can cost $50,000–$100,000+. With Original Medicare alone, you could pay 20% coinsurance (potentially $18,000+ for a $90,000 procedure). With a Medigap plan, your cost may be reduced to just the Part B deductible ($257 in 2025).",
+      },
+      {
+        question: "How often should pacemaker checks be done?",
+        answer: "Pacemaker checks should occur 6 weeks after surgery, then every 3–6 months. During these checks, physicians verify the device has treated abnormal heart rhythms and confirm the battery life is still good.",
+      },
+      {
+        question: "Does Medicare cover Medtronic pacemakers?",
+        answer: "Yes. Medicare covers Medtronic Surescan technology pacemakers when your physician recommends them based on your specific heart conditions and health issues. The deciding factors are your individual cardiac needs.",
+      },
+      {
+        question: "Does Medicare cover biventricular pacemakers?",
+        answer: "Yes. Medicare covers biventricular pacemakers, which work both lower chambers of the heart. These devices require regular monitoring: every 2 weeks for the first month, every 4 weeks through month 7, and every 8 weeks from 7 months to 3 years post-surgery.",
+      },
+      {
+        question: "Does Medicare cover transtelephonic pacemaker monitoring?",
+        answer: "Yes. Medicare covers transtelephonic monitoring devices that transfer heart rhythm recordings to doctors via phone or internet. The recording must be at least 30 seconds long and viewable on an ECG strip.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare covers pacemakers when <strong>medically necessary</strong>" },
+      { icon: "check", text: "Covers the <strong>device, surgery, battery replacements, and monitoring</strong>" },
+      { icon: "info", text: "Pacemaker checks: <strong>6 weeks post-op, then every 3–6 months</strong>" },
+      { icon: "dollar", text: "Surgery can cost <strong>$50,000–$100,000+</strong> without supplemental coverage" },
+      { icon: "info", text: "Batteries typically last <strong>7–8 years</strong> before replacement" },
+      { icon: "info", text: "<strong>Medigap</strong> covers the 20% coinsurance — critical for high-cost procedures" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Cardiovascular Disease", description: "Learn about Medicare's coverage for heart-related conditions and treatments.", slug: "medicare-coverage-for-cardiovascular-disease" },
+      { title: "Medicare Coverage for Stroke Victims", description: "Learn about Medicare's coverage for stroke treatment and rehabilitation.", slug: "medicare-coverage-for-stroke-victims" },
+      { title: "Will Medicare Cover My Surgery?", description: "Learn when and how Medicare covers surgical procedures.", slug: "will-medicare-cover-my-surgery" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G provides comprehensive cost protection.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Cardiovascular Disease",
+      "Medicare Coverage for Stroke Victims",
+      "Will Medicare Cover My Surgery",
+      "Medicare Supplement Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Pacemaker Costs?",
+      text: "A pacemaker procedure can cost $90,000+. Our licensed Medicare agents can help you find a Medigap plan that covers your deductibles and coinsurance. Compare plans for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "medicare-coverage-for-stroke-victims", "will-medicare-cover-my-surgery", "medicare-supplement-plan-g"],
+  },
+  {
+    slug: "medicare-coverage-for-physical-therapy",
+    seo: {
+      title: "Does Medicare Cover Physical Therapy? | MedicareFAQ",
+      description: "Medicare covers physical therapy when medically necessary. Learn about Part A and Part B coverage, costs, the therapy cap, and what types of PT Medicare covers.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-physical-therapy/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-physical-therapy.jpg",
+    },
+    title: "Does Medicare Cover Physical Therapy?",
+    subtitle: "Medicare covers physical therapy when a physician deems it medically necessary. Part A covers inpatient PT, while Part B covers outpatient and at-home therapy. There is no longer an annual cap on sessions. Learn about coverage, costs, and what types of physical therapy Medicare covers.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers physical therapy when a physician deems it medically necessary. Part A covers inpatient PT during a hospital stay or skilled nursing facility. Part B covers outpatient and at-home physical therapy. There is no longer an annual cap on sessions, though a $2,480 threshold triggers a medical necessity review. You pay the Part B deductible plus 20% coinsurance for outpatient PT.",
+      badges: [
+        { plan: "Part A (Inpatient)", status: "covered" },
+        { plan: "Part B (Outpatient)", status: "covered" },
+        { plan: "No Annual Cap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Inpatient physical therapy", coverage: "Covered", icon: "shield", notes: "Part A covers PT during hospital stays and skilled nursing facility care" },
+      { planType: "Outpatient physical therapy", coverage: "Covered", icon: "shield", notes: "Part B covers outpatient PT; you pay deductible + 20% coinsurance" },
+      { planType: "At-home physical therapy", coverage: "Covered", icon: "shield", notes: "Part B covers PT at home when prescribed by a doctor" },
+      { planType: "Aquatic physical therapy", coverage: "Covered", icon: "shield", notes: "Covered when your doctor states you would benefit from aquatic PT" },
+      { planType: "Occupational therapy", coverage: "Covered", icon: "shield", notes: "Covered in the same way as physical therapy" },
+      { planType: "CORF services", coverage: "Covered", icon: "shield", notes: "Comprehensive Outpatient Rehabilitation Facilities services covered" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover at least the same PT benefits as Original Medicare" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covered", icon: "users", notes: "Covers the 20% Part B coinsurance for outpatient physical therapy" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — Inpatient Physical Therapy",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers physical therapy during inpatient hospital stays",
+          "Covers PT in a skilled nursing facility after a 3-day hospital stay",
+          "You pay the Part A deductible ($1,676 in 2025)",
+          "Includes PT as part of your overall inpatient care",
+        ],
+      },
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#2563EB",
+        coverageLabel: "Covered — Outpatient & At-Home PT",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers outpatient physical therapy when prescribed by a doctor",
+          "Covers at-home physical therapy services",
+          "No annual cap on the number of PT sessions",
+          "$2,480 threshold for PT + speech therapy combined triggers medical necessity review",
+          "You pay the Part B deductible ($257 in 2025) then 20% coinsurance",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#DC2626",
+        coverageLabel: "Covered — Per Plan Guidelines",
+
+        coverageType: "partial",        paragraphs: [
+          "Must cover at least the same physical therapy benefits as Original Medicare",
+          "Some plans may offer additional therapy benefits or lower copayments",
+          "May require use of in-network physical therapists",
+          "May require prior authorization for extended therapy sessions",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#059669",
+        coverageLabel: "Covered — Fills Cost Gaps",
+
+        coverageType: "covered",        paragraphs: [
+          "Covers the 20% Part B coinsurance for outpatient physical therapy",
+          "Depending on plan, may cover the Part B deductible",
+          "No network restrictions — see any Medicare-accepting physical therapist",
+          "Provides consistent cost protection for ongoing therapy sessions",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Physical Therapy Cost Estimates",
+      headers: ["Item", "Estimated Cost"],
+      rows: [
+        { "Item": "Part B deductible (2025)", "Estimated Cost": "$257 annually" },
+        { "Item": "Outpatient PT session (your share)", "Estimated Cost": "20% of Medicare-approved amount" },
+        { "Item": "Inpatient PT (Part A)", "Estimated Cost": "Included in hospital stay; $1,676 deductible" },
+        { "Item": "SNF physical therapy", "Estimated Cost": "Covered after 3-day hospital stay" },
+        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($257/year)" },
+        { "Item": "Medical necessity review threshold", "Estimated Cost": "$2,480 (PT + speech therapy combined)" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Limitations",
+      items: [
+        { title: "Physical therapy must be prescribed...", text: "Physical therapy must be prescribed by a doctor and deemed medically necessary" },
+        { title: "A $2,480 threshold for PT...", text: "A $2,480 threshold for PT and speech therapy combined triggers a medical necessity review" },
+        { title: "After the threshold, PT must...", text: "After the threshold, PT must be billed with unique codes to prove medical necessity" },
+        { title: "Medicare does not cover PT...", text: "Medicare does not cover PT if you are not under a doctor's care" },
+        { title: "SNF physical therapy requires a...", text: "SNF physical therapy requires a qualifying 3-day inpatient hospital stay" },
+        { title: "Medicare Advantage plans may require...", text: "Medicare Advantage plans may require prior authorization or in-network providers" },
+      ],
+    },
+    faqs: [
+      {
+        question: "Is there a limit on physical therapy sessions with Medicare?",
+        answer: "No. Medicare no longer enforces an annual cap on physical therapy sessions. You can have as much PT as is medically necessary each year. However, a $2,480 threshold for PT and speech therapy combined triggers a medical necessity review.",
+      },
+      {
+        question: "Do I need a referral for physical therapy under Medicare?",
+        answer: "Medicare requires that physical therapy be prescribed by a doctor. While you don't technically need a formal referral, Medicare will not cover PT if you are not under a doctor's care and the therapy has not been ordered.",
+      },
+      {
+        question: "Does Medicare cover physical therapy for back pain?",
+        answer: "Yes. Medicare covers physical therapy to help manage back pain when prescribed by a doctor. Part B covers outpatient PT, and Part A covers inpatient PT if you were recently hospitalized.",
+      },
+      {
+        question: "Does Medicare cover aquatic physical therapy?",
+        answer: "Yes. If your doctor states you would benefit from aquatic physical therapy, Medicare covers it. The same cost-sharing rules apply — you pay the Part B deductible and 20% coinsurance.",
+      },
+      {
+        question: "Does Medicare cover occupational therapy?",
+        answer: "Yes. Medicare covers occupational therapy in the same way it covers physical therapy. Additionally, Medicare offers coverage for speech therapy. The $2,480 threshold applies to PT and speech therapy combined.",
+      },
+      {
+        question: "Does Medicare cover CORF services?",
+        answer: "Yes. Medicare covers Comprehensive Outpatient Rehabilitation Facilities (CORF) services, including physical therapy, occupational therapy, and speech-language pathology services.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare covers physical therapy when <strong>medically necessary</strong>" },
+      { icon: "check", text: "<strong>No annual cap</strong> on the number of PT sessions" },
+      { icon: "info", text: "<strong>$2,480 threshold</strong> triggers medical necessity review (PT + speech therapy)" },
+      { icon: "check", text: "Covers <strong>outpatient, inpatient, at-home, and aquatic</strong> PT" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible" },
+      { icon: "info", text: "<strong>Medigap</strong> covers the 20% Part B coinsurance for PT sessions" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Lower Back Pain Management", description: "Learn about Medicare's coverage for pain management treatments.", slug: "medicare-coverage-for-lower-back-pain-management" },
+      { title: "Does Medicare Cover Speech Therapy?", description: "Learn about Medicare's coverage for speech therapy services.", slug: "does-medicare-cover-speech-therapy" },
+      { title: "Medicare Coverage for Stroke Victims", description: "Learn about Medicare's coverage for stroke rehabilitation.", slug: "medicare-coverage-for-stroke-victims" },
+      { title: "Medicare Coverage for Hip Injections", description: "Learn about Medicare's coverage for hip injection treatments.", slug: "medicare-coverage-for-hip-injections" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Lower Back Pain Management",
+      "Does Medicare Cover Speech Therapy",
+      "Medicare Coverage for Stroke Victims",
+      "Medicare Coverage for Hip Injections",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Physical Therapy Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part B coinsurance for physical therapy sessions. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-speech-therapy", "medicare-coverage-for-stroke-victims", "medicare-coverage-for-hip-injections"],
+  },
+
 ];

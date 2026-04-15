@@ -1227,57 +1227,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-parts-a-b-c-and-d-explained-simply", "part-d-formulary"],
   },
   {
-    slug: 'medicare-coverage-for-oxygen-therapy',
-    seo: {
-      title: 'How Much Does Medicare Pay for Portable Oxygen Concentrators?',
-      description: 'If you use Oxygen and are on Medicare, you may be eligible for coverage through your health insurance. Learn more here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-oxygen-therapy/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-oxygen-therapy.jpg',
-    },
-    title: 'How Much Does Medicare Pay for Portable Oxygen Concentrators?',
-    summary: 'Medicare covers portable oxygen concentrators when they are deemed medically necessary to treat lung or respiratory conditions once specific criteria is met. However, you may be responsible for out-of-pocket costs up to 20% if you do not have secondary coverage to Original Medicare.',
-    category: 'Coverage',
-    dateUpdated: 'March 22, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '4 min',
-    sections: [
-      {
-        heading: 'Durable Medical Equipment Covered by Medicare',
-        paragraphs: [
-          'Updated on March 22, 2023',
-          '[Durable medical equipment](/faqs/durable-medical-equipment) is essential for so many [Medicare beneficiaries](/faqs/25-medicare-qas-you-should-know) because it can help with...',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-copd", "medicare-coverage-for-cardiovascular-disease", "will-medicare-pay-for-a-nebulizer-machine"],
-  },  {
-    slug: 'part-b-excess-charges-medicare-overcharge-measure',
-    seo: {
-      title: 'What Are Medicare Part B Excess Charges',
-      description: 'Medicare Part B excess charges are when a doctor charges more than the Medicare-approved amount. Learn how this may be affecting you.',
-      canonical: 'https://www.medicarefaq.com/faqs/part-b-excess-charges-medicare-overcharge-measure/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-are-medicare-part-b-excess-charges.jpg',
-    },
-    title: 'What Are Medicare Part B Excess Charges',
-    summary: '',
-    category: 'Medicare Part B',
-    dateUpdated: 'January 4, 2023',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'How Do I Find Medicare Doctors Near Me?',
-        paragraphs: [
-          'Updated on January 4, 2023',
-          'Not all [doctors accept Medicare](/blog/understanding-medicare-assignment-what-it-means-and-why-it-matters). However, over 98% of doctors nationwide do accept Medicare. So,...',
-        ],
-      },
-    ],
-    relatedSlugs: ["understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-part-b-annual-deductible-explained-what-youll-pay", "how-to-file-a-medicare-claim", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "finding-local-doctors-who-accept-medicare"],
-  },
-  {
     slug: 'medicare-forms',
     seo: {
       title: 'Medicare Forms You Should Bookmark',

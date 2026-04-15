@@ -1190,57 +1190,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "how-dual-residency-and-medicare-works", "state-specific-medicare-rules", "moving-to-another-state-with-medicare"],
   },
   {
-    slug: 'medicare-coverage-for-lower-back-pain-management',
-    seo: {
-      title: 'How Do I Find Pain Management Doctors Near Me That Accept Medicare?',
-      description: 'When your doctor deems pain management services necessary, you may receive coverage through Medicare. Learn more here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-lower-back-pain-management/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-pain-management-doctors-near-me.jpg',
-    },
-    title: 'How Do I Find Pain Management Doctors Near Me That Accept Medicare?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Acupuncture',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          '[Medicare does cover some acupuncture treatments](/faqs/does-medicare-cover-acupuncture). But, Acupuncture is only covered if it treats [chronic](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-physical-therapy", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "does-medicare-cover-acupuncture", "finding-local-doctors-who-accept-medicare"],
-  },
-  {
-    slug: 'medicare-coverage-for-pacemakers',
-    seo: {
-      title: 'Medicare Coverage for Pacemakers',
-      description: 'Medicare coverage for pacemakers includes the surgery to insert them, as long as the pacemaker is medically necessary. Learn more here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-pacemakers/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-pacemakers.jpg',
-    },
-    title: 'Medicare Coverage for Pacemakers',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'My uncle is waiting for his second pacemaker. He is waiting for Medicare to approve for coverage and surgery. He has been put on hold for days and possibly weeks. He was told that if he didn’t get this soon he could die in 30 days. What is the hold up?',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "will-medicare-cover-my-surgery", "medicare-coverage-for-stroke-victims", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill"],
-  },
-  {
     slug: 'medicare-coverage-for-stroke-victims',
     seo: {
       title: 'Medicare Coverage for Stroke Victims & Rehabilitation',
