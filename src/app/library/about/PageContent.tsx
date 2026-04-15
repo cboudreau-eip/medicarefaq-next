@@ -40,10 +40,10 @@ const leadership = [
     credentials: ["Licensed in All 50 States", "Director of Operations", "Medicare Education Specialist"],
   },
   {
-    name: "Lindsay Engle",
-    role: "Licensed Medicare Agent",
-    bio: "Lindsay Engle is a licensed Medicare agent dedicated to helping beneficiaries navigate their coverage options. With years of experience in the Medicare space, she provides clear, unbiased guidance to clients nationwide.",
-    credentials: ["Licensed Medicare Agent", "Client Advocate", "Coverage Specialist"],
+    name: "Jagger Esch",
+    role: "President & CEO",
+    bio: "Jagger Esch is the President & CEO of MedicareFAQ and a Medicare educator with over a decade of experience in the Medicare insurance industry. From starting his first company at age 24 to becoming one of the most well-known names in the industry, Jagger's personal philosophy of always putting the client first has allowed him to grow the company at unprecedented rates.",
+    credentials: ["President & CEO, MedicareFAQ", "Co-Founder, Elite Insurance Partners", "Medicare Educator, 10+ Years Experience"],
   },
 ];
 
