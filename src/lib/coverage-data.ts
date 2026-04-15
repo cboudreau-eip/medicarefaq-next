@@ -11750,4 +11750,1108 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["does-medicare-cover-ozempic", "what-is-medicare-part-d", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-hormone-therapy-for-menopause"],
   },
 
+// ─── Does Medicare Cover Ostomy Supplies ────────────────────────────────────
+  {
+    slug: "does-medicare-cover-ostomy-supplies",
+    seo: {
+      title: "Does Medicare Cover Ostomy Supplies? | MedicareFAQ",
+      description: "Medicare Part B covers ostomy supplies as durable medical equipment. Learn what's covered, what you'll pay, and how Medigap can reduce your out-of-pocket costs.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-ostomy-supplies/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-ostomy-supplies.jpg",
+    },
+    title: "Does Medicare Cover Ostomy Supplies?",
+    subtitle: "Yes — Medicare Part B covers ostomy supplies as durable medical equipment when medically necessary. Learn what supplies are covered, what you'll pay, and how to reduce your costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the founder and CEO of Elite Insurance Partners and MedicareFAQ.com. He is a licensed Medicare agent and member of the Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers ostomy supplies as durable medical equipment (DME) when they are medically necessary following a colostomy, ileostomy, or urostomy. You pay 20% coinsurance after the $257 Part B deductible. Medicare Advantage plans must cover the same supplies, though cost-sharing varies. Medigap can significantly reduce or eliminate your out-of-pocket costs.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient DME)", coverage: "Covered", icon: "shield", notes: "Covers 80% of approved amount after $257 Part B deductible; you pay 20%" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers ostomy supplies provided during a covered inpatient hospital stay" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same DME as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered as DME when medically necessary",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers ostomy supplies as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) when they are medically necessary. To qualify, your doctor must certify that you need the supplies due to a colostomy, ileostomy, or urostomy procedure. The supplies must be obtained from a Medicare-enrolled DME supplier.",
+          "Ostomy supplies are considered a recurring DME benefit, meaning Medicare will continue to cover replacement supplies on an ongoing basis as long as they remain medically necessary. Your doctor must document the medical need, and you must use a Medicare-enrolled supplier.",
+          "The standard cost-sharing for Part B DME applies: Medicare pays 80% of the approved amount, and you are responsible for the remaining 20% after meeting your annual Part B deductible of $257 (2026).",
+        ],
+        whatItCovers: [
+          "Colostomy pouches and bags",
+          "Ileostomy pouches and bags",
+          "Urostomy pouches and bags",
+          "Ostomy wafers, flanges, and skin barriers",
+          "Ostomy belts and accessories",
+          "Irrigation systems for colostomy care",
+          "Skin care products specifically designed for ostomy use",
+          "Replacement supplies on an ongoing basis",
+        ],
+        whatItDoesntCover: [
+          "Supplies purchased from non-Medicare-enrolled suppliers",
+          "Supplies not certified as medically necessary by your doctor",
+          "Cosmetic or non-medical accessories",
+        ],
+        costNote: "You pay 20% coinsurance after the $257 annual Part B deductible (2026). Costs vary depending on the type and quantity of supplies needed.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required by law to cover all DME that Original Medicare covers, including ostomy supplies. However, private insurers set their own cost-sharing rules, so your copayments or coinsurance may differ from Original Medicare.",
+          "Some Medicare Advantage plans may require you to use specific DME suppliers within their network. Always verify that your supplier is in-network before placing an order to avoid higher out-of-pocket costs.",
+        ],
+        whatItCovers: [
+          "All ostomy supplies covered by Original Medicare",
+          "Replacement supplies on an ongoing basis",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network DME suppliers (unless your plan allows out-of-network benefits)",
+          "Supplies not deemed medically necessary by your plan",
+        ],
+        callout: {
+          type: "tip",
+          title: "Verify your DME supplier is in-network",
+          text: "Before ordering ostomy supplies, call your Medicare Advantage plan to confirm your supplier is in-network. Using an out-of-network supplier can result in significantly higher costs or no coverage.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers some or all of Original Medicare's cost-sharing",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance for DME such as ostomy supplies. Because ostomy supplies are an ongoing need, Medigap can provide significant long-term savings.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual $257 Part B deductible. That means once you've paid your deductible for the year, Plan G covers the remaining 20% of your ostomy supply costs for the rest of the year. Unlike Medicare Advantage, Medigap plans have no provider networks.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) — covered by most Medigap plans",
+          "Part A deductible — covered by Plans D, G, and others",
+          "Excess charges — covered by Plans F and G",
+        ],
+        whatItDoesntCover: [
+          "Supplies not covered by Original Medicare",
+          "Supplies from non-Medicare-enrolled suppliers",
+        ],
+        costNote: "With Medigap Plan G, your only annual out-of-pocket cost for ostomy supplies is the $257 Part B deductible. After that, Plan G covers the 20% coinsurance for the rest of the year.",
+      },
+    ],
+    costTable: {
+      title: "Estimated Ostomy Supply Costs Under Medicare (2026)",
+      headers: ["Supply Type", "Medicare Part", "What Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Supply Type": "Colostomy/ileostomy pouches",
+          "Medicare Part": "Part B (DME)",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+        },
+        {
+          "Supply Type": "Urostomy pouches",
+          "Medicare Part": "Part B (DME)",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+        },
+        {
+          "Supply Type": "Wafers, skin barriers, accessories",
+          "Medicare Part": "Part B (DME)",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+        },
+        {
+          "Supply Type": "Irrigation systems",
+          "Medicare Part": "Part B (DME)",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Actual costs vary by supplier and quantity of supplies needed.",
+    },
+    exceptionsSection: {
+      title: "Important Rules for Ostomy Supply Coverage",
+      items: [
+        {
+          title: "You Must Use a Medicare-Enrolled DME Supplier",
+          text: "Medicare will only cover ostomy supplies purchased from a supplier that is enrolled in Medicare and accepts assignment. If you purchase supplies from a non-enrolled supplier, Medicare will not pay, and you will be responsible for the full cost. Ask your supplier to confirm they are Medicare-enrolled before placing your first order.",
+          highlight: "You can find Medicare-enrolled DME suppliers in your area using the Medicare Supplier Directory at medicare.gov.",
+        },
+        {
+          title: "Doctor Certification Is Required",
+          text: "Your doctor must certify that ostomy supplies are medically necessary for your care. This certification is typically provided after a colostomy, ileostomy, or urostomy procedure. Without a valid doctor's order, Medicare will deny coverage. Make sure your doctor documents the medical necessity in your records.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover colostomy bags?",
+        answer: "Yes. Medicare Part B covers colostomy bags as durable medical equipment (DME) when they are medically necessary. You must obtain them from a Medicare-enrolled DME supplier, and your doctor must certify the medical need. You pay 20% coinsurance after your annual Part B deductible of $257 (2026).",
+      },
+      {
+        question: "Does Medicare cover ileostomy supplies?",
+        answer: "Yes. Medicare Part B covers ileostomy pouches, wafers, skin barriers, and related accessories as DME. Coverage rules are the same as for colostomy supplies — you need a doctor's order and must use a Medicare-enrolled supplier.",
+      },
+      {
+        question: "Does Medicare cover urostomy supplies?",
+        answer: "Yes. Medicare Part B covers urostomy pouches and related accessories as DME when medically necessary. The same coverage rules apply as for colostomy and ileostomy supplies.",
+      },
+      {
+        question: "How often will Medicare pay for ostomy supplies?",
+        answer: "Medicare covers ostomy supplies on an ongoing basis as long as they remain medically necessary. There is no fixed limit on the number of supplies covered per year, but Medicare will only pay for a reasonable quantity based on your documented medical needs. Your doctor must periodically recertify the ongoing medical necessity.",
+      },
+      {
+        question: "Can I get ostomy supplies by mail through Medicare?",
+        answer: "Yes. Many Medicare-enrolled DME suppliers offer mail-order delivery of ostomy supplies. Mail-order can be a convenient way to receive your supplies regularly. Make sure the mail-order supplier is enrolled in Medicare and accepts assignment before placing your order.",
+      },
+      {
+        question: "Does Medigap cover ostomy supply costs?",
+        answer: "Yes. Medigap plans cover some or all of the 20% coinsurance that Medicare Part B leaves behind for DME, including ostomy supplies. Medigap Plan G is one of the most popular options — it covers the Part B coinsurance in full after you meet the $257 annual deductible. This can result in significant savings for beneficiaries who need ongoing ostomy supplies.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare Part B</strong> covers ostomy supplies as durable medical equipment (DME)" },
+      { icon: "check", text: "Covers colostomy, ileostomy, and urostomy pouches, wafers, and accessories" },
+      { icon: "alert", text: "Must use a <strong>Medicare-enrolled DME supplier</strong> to receive coverage" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 annual Part B deductible (2026)" },
+      { icon: "info", text: "Doctor must certify medical necessity for ongoing coverage" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> can cover the 20% coinsurance after your deductible" },
+    ],
+    relatedTopics: [
+      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "Does Medicare Cover Urinary Catheters?", description: "Find out how Medicare covers catheters and related urological supplies.", slug: "does-medicare-cover-urinary-catheters" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for DME and other services.", slug: "medicare-supplement-plan-g" },
+      { title: "Will Medicare Cover My Surgery?", description: "Understand how Medicare covers surgical procedures and related care.", slug: "will-medicare-cover-my-surgery" },
+    ],
+    sidebarRelatedLinks: [
+      "What Is Durable Medical Equipment",
+      "Does Medicare Cover Urinary Catheters",
+      "Medicare Supplement Plan G",
+      "Will Medicare Cover My Surgery",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Ostomy Supply Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that reduces your out-of-pocket costs for ostomy supplies and other ongoing DME needs. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["what-is-durable-medical-equipment-dme", "does-medicare-cover-urinary-catheters", "medicare-supplement-plan-g", "will-medicare-cover-my-surgery"],
+  },
+
+  // ─── Does Medicare Cover Root Canals ────────────────────────────────────────
+  {
+    slug: "does-medicare-cover-root-canals",
+    seo: {
+      title: "Does Medicare Cover Root Canals? | MedicareFAQ",
+      description: "Original Medicare does not cover root canals or most dental services. Learn about your options for dental coverage under Medicare Advantage and standalone dental plans.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-root-canals/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-root-canals.jpg",
+    },
+    title: "Does Medicare Cover Root Canals?",
+    subtitle: "No — Original Medicare does not cover root canals or most routine dental services. However, Medicare Advantage plans may offer dental benefits. Learn about your options for dental coverage.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the founder and CEO of Elite Insurance Partners and MedicareFAQ.com. He is a licensed Medicare agent and member of the Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "No, Original Medicare (Part A and Part B) does not cover root canals or most dental services. Medicare was designed to cover medically necessary health care, and routine dental care has historically been excluded. However, some Medicare Advantage plans include dental benefits that may cover root canals. Standalone dental insurance is also available to Medicare beneficiaries.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Standalone Dental", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Inpatient)", coverage: "Not Covered", icon: "x", notes: "Does not cover routine dental services including root canals" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Not Covered", icon: "x", notes: "Excludes routine dental care; limited exception for dental services needed before certain medical procedures" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Varies by Plan", icon: "heart", notes: "Many MA plans include dental benefits; coverage for root canals varies by plan" },
+      { planType: "Standalone Dental Insurance", coverage: "Covered", icon: "shield", notes: "Dental plans specifically designed for Medicare beneficiaries can cover root canals" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "x",
+        iconColor: "#DC2626",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Root canals are excluded from Original Medicare",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) does not cover root canals or most routine dental services. This exclusion has been in place since Medicare was established in 1965. Medicare Part A covers inpatient hospital care, and Medicare Part B covers outpatient medical services — but neither covers routine dental care such as root canals, fillings, extractions, or dentures.",
+          "There is a limited exception: Medicare Part A may cover certain dental services if they are an integral part of a covered medical procedure. For example, if you need a tooth extraction before heart valve surgery or jaw reconstruction following an accident, Medicare may cover the dental work as part of the overall medical treatment. However, this exception does not apply to routine root canals.",
+          "If you have [what dental expenses does Medicare cover](/faqs/what-dental-expenses-does-medicare-cover) questions, it's worth reviewing the limited situations where Medicare does step in for dental-related care.",
+        ],
+        whatItCovers: [
+          "Dental services that are an integral part of a covered medical procedure (e.g., tooth extraction before heart valve surgery)",
+          "Oral cancer biopsies ordered by a Medicare-participating physician",
+          "Treatment of jaw injuries or fractures",
+        ],
+        whatItDoesntCover: [
+          "Root canals",
+          "Routine dental exams and cleanings",
+          "Fillings and crowns",
+          "Tooth extractions (unless medically necessary as part of another covered procedure)",
+          "Dentures and dental implants",
+          "Orthodontic treatment",
+        ],
+        costNote: "Original Medicare pays $0 for root canals. You are responsible for the full cost out of pocket unless you have a Medicare Advantage plan with dental benefits or a standalone dental plan.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Dental benefits vary — check your specific plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are offered by private insurers and may include dental benefits beyond what Original Medicare covers. Many Medicare Advantage plans offer preventive dental coverage (exams, cleanings, X-rays), and some include more comprehensive dental benefits that may cover root canals, crowns, and other restorative procedures.",
+          "However, dental coverage under Medicare Advantage varies widely by plan and location. Some plans only cover preventive dental care, while others offer comprehensive dental benefits with annual maximums ranging from $1,000 to $3,000 or more. You may also need to use in-network dentists to receive covered benefits.",
+        ],
+        whatItCovers: [
+          "Preventive dental care (exams, cleanings, X-rays) — most plans",
+          "Root canals — some plans with comprehensive dental benefits",
+          "Crowns and fillings — some plans",
+          "Tooth extractions — some plans",
+        ],
+        whatItDoesntCover: [
+          "Services that exceed your plan's annual dental maximum",
+          "Out-of-network dentists (unless your plan allows out-of-network benefits)",
+          "Cosmetic dental procedures",
+        ],
+        callout: {
+          type: "info",
+          title: "Check your plan's dental benefits carefully",
+          text: "Not all Medicare Advantage plans include root canal coverage. Review your plan's Evidence of Coverage (EOC) or call your plan to confirm whether root canals are covered and what your cost-sharing will be.",
+        },
+      },
+      {
+        planName: "Standalone Dental Insurance",
+        icon: "shield",
+        iconColor: "#7C3AED",
+        coverageLabel: "Available",
+        coverageType: "covered",
+        statusBadge: "Standalone dental plans can cover root canals",
+        paragraphs: [
+          "Medicare beneficiaries can purchase standalone dental insurance plans that are separate from Medicare. These plans are designed specifically to cover dental services including root canals, crowns, fillings, and extractions. Premiums typically range from $20 to $50 per month depending on the level of coverage.",
+          "Most standalone dental plans have a waiting period of 6 to 12 months before major services like root canals are covered. They also typically have annual maximums (often $1,000 to $2,000) and may require cost-sharing such as deductibles and coinsurance. If you anticipate needing dental work, enrolling in a dental plan before you need it is advisable.",
+        ],
+        whatItCovers: [
+          "Root canals and endodontic treatment",
+          "Crowns and restorations",
+          "Tooth extractions",
+          "Routine exams and cleanings",
+          "Dental X-rays",
+          "Dentures and dental implants (some plans)",
+        ],
+        whatItDoesntCover: [
+          "Cosmetic dental procedures",
+          "Services during waiting periods",
+          "Services exceeding the annual maximum",
+        ],
+        costNote: "Standalone dental plan premiums range from $20–$50/month. Most plans cover 50–80% of major services like root canals after a deductible, subject to annual maximums.",
+      },
+    ],
+    costTable: {
+      title: "Root Canal Cost Comparison: Medicare vs. Dental Plans (2026)",
+      headers: ["Coverage Type", "Root Canal Coverage", "Estimated Out-of-Pocket Cost", "Annual Maximum"],
+      rows: [
+        {
+          "Coverage Type": "Original Medicare (Part A & B)",
+          "Root Canal Coverage": "Not covered",
+          "Estimated Out-of-Pocket Cost": "Full cost ($700–$1,500+)",
+          "Annual Maximum": "N/A",
+        },
+        {
+          "Coverage Type": "Medicare Advantage (preventive dental only)",
+          "Root Canal Coverage": "Not covered",
+          "Estimated Out-of-Pocket Cost": "Full cost ($700–$1,500+)",
+          "Annual Maximum": "$0–$1,000 (preventive only)",
+        },
+        {
+          "Coverage Type": "Medicare Advantage (comprehensive dental)",
+          "Root Canal Coverage": "Partially covered",
+          "Estimated Out-of-Pocket Cost": "$200–$600 after plan pays",
+          "Annual Maximum": "$1,000–$3,000+",
+        },
+        {
+          "Coverage Type": "Standalone Dental Insurance",
+          "Root Canal Coverage": "Covered (after waiting period)",
+          "Estimated Out-of-Pocket Cost": "$150–$500 after plan pays",
+          "Annual Maximum": "$1,000–$2,000",
+        },
+      ],
+      footnote: "Root canal costs vary by tooth type (front vs. molar), location, and provider. Costs shown are estimates. Actual costs depend on your specific plan and provider.",
+    },
+    exceptionsSection: {
+      title: "When Medicare May Cover Dental-Related Services",
+      items: [
+        {
+          title: "Dental Services as Part of a Covered Medical Procedure",
+          text: "Medicare Part A may cover certain dental services if they are directly related to a covered medical procedure. For example, if you need a tooth extraction before receiving a heart valve replacement or organ transplant, Medicare may cover the extraction as part of the overall medical treatment. This exception is narrow and does not apply to routine root canals.",
+          highlight: "Always ask your doctor or hospital billing department whether dental services performed in connection with a medical procedure may be covered by Medicare.",
+        },
+        {
+          title: "Oral Cancer Biopsies",
+          text: "Medicare Part B covers biopsies to diagnose oral cancer when ordered by a Medicare-participating physician. This is distinct from routine dental care — the biopsy is covered as a medical diagnostic service, not as dental treatment. If you have a suspicious lesion in your mouth, ask your doctor (not your dentist) to order the biopsy to ensure Medicare coverage.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover root canals for seniors?",
+        answer: "No. Original Medicare does not cover root canals for seniors or anyone else. Medicare Part A and Part B exclude routine dental care. Your options are a Medicare Advantage plan with dental benefits or a standalone dental insurance plan.",
+      },
+      {
+        question: "Does Medicare Advantage cover root canals?",
+        answer: "Some Medicare Advantage plans include dental benefits that cover root canals. Coverage varies widely by plan — some only cover preventive dental care, while others offer comprehensive dental benefits. Review your plan's Evidence of Coverage or call your plan to confirm whether root canals are covered.",
+      },
+      {
+        question: "How much does a root canal cost without insurance?",
+        answer: "Without insurance, a root canal typically costs between $700 and $1,500 depending on which tooth is treated (front teeth are less expensive than molars) and your geographic location. Additional costs for a crown placed after the root canal can add $1,000 or more.",
+      },
+      {
+        question: "Can I get dental insurance with Medicare?",
+        answer: "Yes. Medicare beneficiaries can purchase standalone dental insurance plans that are separate from Medicare. These plans typically cost $20–$50 per month and can cover root canals, crowns, and other dental services. Many Medicare Advantage plans also include dental benefits.",
+      },
+      {
+        question: "Does Medicare cover tooth extractions?",
+        answer: "Original Medicare does not cover routine tooth extractions. However, Medicare Part A may cover a tooth extraction if it is medically necessary as part of a covered medical procedure (such as before heart valve surgery). Medicare Advantage plans with dental benefits may also cover extractions.",
+      },
+      {
+        question: "Does Medicare cover dental implants?",
+        answer: "Original Medicare does not cover dental implants. Some Medicare Advantage plans with comprehensive dental benefits may cover implants, but this is less common than coverage for root canals or crowns. Standalone dental plans may also offer implant coverage, often with waiting periods and annual maximums.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare</strong> does not cover root canals or routine dental care" },
+      { icon: "check", text: "Some <strong>Medicare Advantage</strong> plans include dental benefits that may cover root canals" },
+      { icon: "info", text: "Standalone dental insurance is available to Medicare beneficiaries for $20–$50/month" },
+      { icon: "dollar", text: "Without coverage, a root canal costs <strong>$700–$1,500+</strong> out of pocket" },
+      { icon: "alert", text: "Limited exception: Medicare may cover dental work that is part of a covered medical procedure" },
+      { icon: "check", text: "Medicare covers oral cancer biopsies ordered by a Medicare-participating physician" },
+    ],
+    relatedTopics: [
+      { title: "What Dental Services Does Medicare Cover?", description: "Learn about the limited dental services that Medicare does cover.", slug: "what-dental-expenses-does-medicare-cover" },
+      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including dental.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+      { title: "Does Medicare Cover Hearing Aids?", description: "Learn about Medicare's coverage for hearing aids and audiology services.", slug: "medicare-coverage-for-hearing-aids" },
+      { title: "What Is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and what they cover.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+    ],
+    sidebarRelatedLinks: [
+      "What Dental Services Does Medicare Cover",
+      "Medicare Advantage Extra Benefits Explained",
+      "Does Medicare Cover Hearing Aids",
+      "What Is a Medicare Supplement Plan",
+    ],
+    ctaBanner: {
+      title: "Need Dental Coverage with Medicare?",
+      text: "Our licensed Medicare agents can help you find a Medicare Advantage plan with dental benefits or a standalone dental plan that fits your needs. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-hearing-aids", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
+  },
+
+  // ─── Medicare Coverage for Erectile Dysfunction ──────────────────────────────
+  {
+    slug: "medicare-coverage-erectile-dysfunction",
+    seo: {
+      title: "Does Medicare Cover Erectile Dysfunction Medication? | MedicareFAQ",
+      description: "Medicare does not cover brand-name ED drugs like Viagra or Cialis, but some generic versions may be covered by Part D. Learn about your options for ED medication coverage.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-erectile-dysfunction.jpg",
+    },
+    title: "Does Medicare Cover Erectile Dysfunction Medication?",
+    subtitle: "Medicare does not cover brand-name ED drugs like Viagra or Cialis, but some generic versions may be covered by Medicare Part D. Learn what's covered, what you'll pay, and your options.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the founder and CEO of Elite Insurance Partners and MedicareFAQ.com. He is a licensed Medicare agent and member of the Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare does not cover brand-name erectile dysfunction medications such as Viagra (sildenafil), Cialis (tadalafil), or Levitra (vardenafil) under Part D. However, some generic versions of these drugs may be covered by certain Medicare Part D plans. Medicare Advantage Prescription Drug (MAPD) plans may also offer coverage for generic ED medications. Coverage varies by plan and state.",
+      badges: [
+        { plan: "Medicare Part D", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Original Medicare", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part D (Prescription Drug)", coverage: "Partial", icon: "shield", notes: "Brand-name ED drugs excluded by law; some generic versions may be covered depending on plan formulary" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Not Covered", icon: "x", notes: "Part B does not cover outpatient prescription drugs including ED medications" },
+      { planType: "Medicare Advantage + Drug Plan (MAPD)", coverage: "Partial", icon: "heart", notes: "Some MAPD plans may cover generic ED medications; coverage varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "users", notes: "Medigap does not cover prescription drugs; you need Part D for drug coverage" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medicare Part D (Prescription Drug Plans)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Partial — Generics Only",
+        coverageType: "partial",
+        statusBadge: "Brand-name ED drugs excluded; generics may be covered",
+        paragraphs: [
+          "[Medicare Part D](/faqs/what-is-medicare-part-d) prescription drug plans are prohibited by law from covering brand-name erectile dysfunction medications such as Viagra, Cialis, and Levitra. This ban was established by Congress and applies to all Medicare Part D plans. However, the ban does not extend to generic versions of these drugs.",
+          "Generic versions — such as sildenafil (generic Viagra), tadalafil (generic Cialis), and vardenafil (generic Levitra) — may be covered by some Medicare Part D plans depending on the plan's [formulary](/faqs/what-is-a-medicare-part-d-formulary). Each plan has its own formulary, and coverage for generic ED medications varies by plan and by state. You'll need to check your specific plan's formulary to determine if your medication is covered.",
+          "There are over 800 Medicare Part D stand-alone prescription drug plans available nationally, and formularies change each year. If your current plan doesn't cover your generic ED medication, you may be able to switch plans during the Annual Enrollment Period (October 15 – December 7).",
+        ],
+        whatItCovers: [
+          "Sildenafil (generic Viagra) — covered by some Part D plans",
+          "Tadalafil (generic Cialis) — covered by some Part D plans",
+          "Vardenafil (generic Levitra) — covered by some Part D plans",
+          "Tadalafil for BPH (benign prostatic hyperplasia) — covered by most Part D plans",
+        ],
+        whatItDoesntCover: [
+          "Brand-name Viagra (sildenafil brand)",
+          "Brand-name Cialis (tadalafil brand)",
+          "Brand-name Levitra (vardenafil brand — discontinued in the US)",
+          "Any ED medication not on your plan's formulary",
+        ],
+        costNote: "Generic ED medications covered by Part D are typically placed on Tier 1 or Tier 2 of the formulary, with copays ranging from $0 to $47 per month depending on your plan. Brand-name versions are not covered and can cost $400–$700 per month without insurance.",
+      },
+      {
+        planName: "Medicare Advantage (MAPD Plans)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Partial — Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Some MAPD plans cover generic ED medications",
+        paragraphs: [
+          "[Medicare Advantage Prescription Drug (MAPD) plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) combine Medicare Advantage health coverage with Part D prescription drug coverage. Like standalone Part D plans, MAPD plans cannot cover brand-name ED medications, but some may cover generic versions.",
+          "Coverage for generic ED medications under MAPD plans varies by plan and location. The best way to determine whether your MAPD plan covers your specific medication is to review the plan's formulary or call the plan directly. If your current plan doesn't cover your medication, you can compare plans during the Annual Enrollment Period.",
+        ],
+        whatItCovers: [
+          "Generic ED medications that appear on the plan's formulary",
+          "Tadalafil when prescribed for BPH — most MAPD plans",
+        ],
+        whatItDoesntCover: [
+          "Brand-name Viagra, Cialis, or Levitra",
+          "Generic ED medications not on the plan's formulary",
+        ],
+        callout: {
+          type: "info",
+          title: "Tadalafil for BPH may have broader coverage",
+          text: "Tadalafil (generic Cialis) is FDA-approved for both erectile dysfunction and benign prostatic hyperplasia (BPH). When prescribed specifically for BPH, it is covered by the majority of Medicare Part D and MAPD plans. If you have both ED and BPH, ask your doctor about prescribing tadalafil for BPH.",
+        },
+      },
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "x",
+        iconColor: "#DC2626",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Original Medicare does not cover ED medications",
+        paragraphs: [
+          "Original Medicare (Part A and Part B) does not cover outpatient prescription drugs, including erectile dysfunction medications. Part A covers inpatient hospital care, and Part B covers outpatient medical services and a limited set of drugs administered in a clinical setting — but ED medications are not among them.",
+          "To get prescription drug coverage, you need to enroll in a [Medicare Part D plan](/faqs/what-is-medicare-part-d) or a Medicare Advantage plan that includes drug coverage (MAPD). If you have Original Medicare and no drug coverage, you will pay the full retail cost for any ED medications.",
+        ],
+        whatItCovers: [
+          "No ED medications under Original Medicare",
+        ],
+        whatItDoesntCover: [
+          "All brand-name and generic ED medications",
+          "Any outpatient prescription drugs",
+        ],
+        costNote: "Without Part D coverage, brand-name Viagra can cost $400–$700 per month. Generic sildenafil may be available for as little as $10–$30 per month at pharmacies with discount programs like GoodRx.",
+      },
+    ],
+    costTable: {
+      title: "ED Medication Costs Under Medicare (2026)",
+      headers: ["Medication", "Brand Name", "Generic Available", "Part D Coverage", "Estimated Monthly Cost (with Part D)"],
+      rows: [
+        {
+          "Medication": "Sildenafil",
+          "Brand Name": "Viagra",
+          "Generic Available": "Yes",
+          "Part D Coverage": "Generic may be covered",
+          "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
+        },
+        {
+          "Medication": "Tadalafil",
+          "Brand Name": "Cialis",
+          "Generic Available": "Yes",
+          "Part D Coverage": "Generic may be covered; BPH use more widely covered",
+          "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
+        },
+        {
+          "Medication": "Vardenafil",
+          "Brand Name": "Levitra (discontinued)",
+          "Generic Available": "Yes",
+          "Part D Coverage": "Generic may be covered",
+          "Estimated Monthly Cost (with Part D)": "$0–$47 (generic, if covered)",
+        },
+        {
+          "Medication": "Brand-name Viagra/Cialis",
+          "Brand Name": "N/A",
+          "Generic Available": "N/A",
+          "Part D Coverage": "Not covered (banned by law)",
+          "Estimated Monthly Cost (with Part D)": "$400–$700 (full retail cost)",
+        },
+      ],
+      footnote: "Costs are estimates. Actual Part D copays depend on your specific plan's formulary and tier placement. Generic prices without insurance may be lower through discount programs like GoodRx.",
+    },
+    exceptionsSection: {
+      title: "Special Cases: When Medicare May Cover ED Medications",
+      items: [
+        {
+          title: "Tadalafil for Benign Prostatic Hyperplasia (BPH)",
+          text: "Tadalafil (generic Cialis) is FDA-approved for both erectile dysfunction and benign prostatic hyperplasia (BPH). When prescribed specifically for BPH, tadalafil is not subject to the same formulary exclusion as ED medications and is covered by the majority of Medicare Part D and MAPD plans. If your doctor determines tadalafil is appropriate for your BPH, coverage is more likely than for ED alone.",
+          highlight: "Ask your doctor whether tadalafil is appropriate for your BPH diagnosis. When prescribed for BPH, it is covered by most Part D plans.",
+        },
+        {
+          title: "Sildenafil for Pulmonary Arterial Hypertension (PAH)",
+          text: "Sildenafil (sold as Revatio for PAH) is FDA-approved to treat pulmonary arterial hypertension (PAH), a serious lung condition. When prescribed for PAH, sildenafil is covered by most Medicare Part D plans as a medically necessary treatment — even though the same drug (Viagra) is not covered for ED. Coverage depends on the indication documented by your doctor.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover Viagra?",
+        answer: "No. Medicare Part D plans are prohibited by law from covering brand-name Viagra. However, some Part D plans may cover sildenafil, the generic version of Viagra. Check your plan's formulary to see if sildenafil is covered and what your copay would be.",
+      },
+      {
+        question: "Does Medicare cover Cialis?",
+        answer: "Medicare Part D plans do not cover brand-name Cialis. However, generic tadalafil may be covered by some Part D plans. Additionally, tadalafil is more widely covered when prescribed for benign prostatic hyperplasia (BPH) rather than erectile dysfunction.",
+      },
+      {
+        question: "Does Medicare cover generic Viagra (sildenafil)?",
+        answer: "Some Medicare Part D plans cover sildenafil (generic Viagra), but not all. Coverage depends on your specific plan's formulary. Check your plan's drug list or use Medicare's Plan Finder tool at medicare.gov to compare plans that cover sildenafil.",
+      },
+      {
+        question: "Why doesn't Medicare cover ED medications?",
+        answer: "Congress explicitly prohibited Medicare Part D from covering drugs used for sexual or erectile dysfunction when the Part D program was created. This ban applies to brand-name ED drugs. Generic versions are not explicitly banned but must be included in a plan's formulary to be covered.",
+      },
+      {
+        question: "How can I save money on ED medications with Medicare?",
+        answer: "If your Part D plan doesn't cover your ED medication, consider: (1) asking your doctor about generic alternatives, (2) using discount programs like GoodRx which can reduce generic sildenafil to $10–$30/month, (3) comparing Part D plans during the Annual Enrollment Period to find one that covers your medication, or (4) asking your doctor about prescribing tadalafil for BPH if applicable.",
+      },
+      {
+        question: "Does Medicare cover ED medications for mental health-related ED?",
+        answer: "Medicare covers mental health services including therapy and counseling for psychological causes of erectile dysfunction. However, the ED medications themselves (Viagra, Cialis, etc.) are still subject to the same coverage rules — brand-name drugs are excluded, and generic versions depend on your plan's formulary.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Brand-name Viagra and Cialis</strong> are excluded from Medicare Part D by law" },
+      { icon: "check", text: "Some Part D plans cover <strong>generic sildenafil and tadalafil</strong> — check your formulary" },
+      { icon: "info", text: "Tadalafil for <strong>BPH</strong> is covered by most Part D plans" },
+      { icon: "dollar", text: "Generic ED medications can cost as little as <strong>$10–$30/month</strong> with GoodRx" },
+      { icon: "alert", text: "Coverage varies by plan and state — compare plans during Annual Enrollment (Oct 15 – Dec 7)" },
+      { icon: "check", text: "Sildenafil for <strong>pulmonary arterial hypertension</strong> is covered by most Part D plans" },
+    ],
+    relatedTopics: [
+      { title: "What Is Medicare Part D?", description: "Learn how Medicare prescription drug coverage works and how to enroll.", slug: "what-is-medicare-part-d" },
+      { title: "What Is a Medicare Part D Formulary?", description: "Understand how drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
+      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+      { title: "Does Medicare Cover a PSA Test?", description: "Learn about Medicare coverage for prostate-specific antigen (PSA) screening tests.", slug: "medicare-coverage-for-prostate-specific-antigen-psa-test" },
+    ],
+    sidebarRelatedLinks: [
+      "What Is Medicare Part D",
+      "What Is a Medicare Part D Formulary",
+      "Medicare Advantage Extra Benefits Explained",
+      "Does Medicare Cover a PSA Test",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding a Part D Plan That Covers Your Medications?",
+      text: "Our licensed Medicare agents can help you compare Part D plans to find one that covers your prescriptions at the lowest cost. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["what-is-medicare-part-d", "what-is-a-medicare-part-d-formulary", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-prostate-specific-antigen-psa-test"],
+  },
+
+  // ─── Medicare Coverage for Alcohol Misuse ────────────────────────────────────
+  {
+    slug: "medicare-coverage-for-alcohol-misuse",
+    seo: {
+      title: "Does Medicare Cover Alcohol Rehab and Misuse Screenings? | MedicareFAQ",
+      description: "Medicare covers annual alcohol misuse screenings and counseling under Part B. Learn about coverage for alcohol rehab, detox, and what you'll pay.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-alcohol-misuse/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-alcohol-misuse.jpg",
+    },
+    title: "Does Medicare Cover Alcohol Rehab and Misuse Screenings?",
+    subtitle: "Yes — Medicare Part B covers annual alcohol misuse screenings and up to four counseling sessions per year at no cost to you. Inpatient rehab is covered under Part A when medically necessary. Learn what's covered and what you'll pay.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the founder and CEO of Elite Insurance Partners and MedicareFAQ.com. He is a licensed Medicare agent and member of the Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers alcohol misuse screening and counseling. Medicare Part B covers one annual alcohol misuse screening and up to four brief counseling sessions per year at no cost to you (no deductible or coinsurance). Inpatient alcohol rehab and detox are covered under Medicare Part A when medically necessary, subject to the Part A deductible and coinsurance. Medicare Advantage plans must cover the same services, and Medigap can help cover inpatient rehab costs.",
+      badges: [
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Part A", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Annual screening + up to 4 counseling sessions/year at $0 cost; additional outpatient therapy covered at 80%" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers inpatient rehab and detox when medically necessary; subject to Part A deductible" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Partial", icon: "users", notes: "Can cover Part A deductible and Part B coinsurance for additional therapy sessions" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B — Outpatient)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Annual screening + counseling covered at $0",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers alcohol misuse screening and counseling as [preventive services](/faqs/medicare-preventive-services), which means there is no deductible or coinsurance when you receive these services from a Medicare-participating provider. Once per year, Medicare covers a screening for alcohol misuse, typically as part of your [Annual Wellness Visit](/faqs/what-is-the-medicare-annual-wellness-visit).",
+          "If the screening indicates you are misusing alcohol but do not meet the criteria for alcohol dependence, Medicare Part B covers up to four brief counseling sessions per year at no cost to you. These sessions are typically 15 minutes each and can be provided by your primary care doctor.",
+          "If you need additional counseling beyond the four free sessions, Medicare Part B covers individual and group psychotherapy at 80% of the approved amount after your $257 Part B deductible. Outpatient substance abuse treatment programs are also covered under Part B.",
+        ],
+        whatItCovers: [
+          "One annual alcohol misuse screening (free preventive service)",
+          "Up to four brief counseling sessions per year at $0 cost",
+          "Additional individual psychotherapy (80% covered after deductible)",
+          "Group therapy for substance abuse",
+          "Partial hospitalization programs for intensive outpatient treatment",
+          "Outpatient substance abuse treatment at Medicare-approved facilities",
+        ],
+        whatItDoesntCover: [
+          "Services from providers who do not accept Medicare",
+          "Treatment at non-Medicare-approved facilities",
+          "Counseling beyond four free sessions without cost-sharing",
+        ],
+        costNote: "Annual screening and up to four counseling sessions: $0. Additional outpatient therapy: 20% coinsurance after the $257 Part B deductible (2026).",
+      },
+      {
+        planName: "Original Medicare (Part A — Inpatient)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Inpatient rehab and detox covered when medically necessary",
+        paragraphs: [
+          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient alcohol rehab and detox when your physician determines it is medically necessary. You must receive treatment at a Medicare-approved facility — not all rehab centers accept Medicare, so it is important to verify before admission.",
+          "Inpatient alcohol rehab typically lasts one to three months depending on the severity of your dependency. Alcohol detox is typically a seven-day inpatient program. Both are covered under Part A subject to the same cost-sharing as any other inpatient hospital stay.",
+          "If you receive inpatient treatment at a specialty psychiatric hospital, Medicare will only pay for 190 days of treatment at a psychiatric hospital in your lifetime. This lifetime limit does not apply to treatment received at a general hospital.",
+        ],
+        whatItCovers: [
+          "Inpatient alcohol rehab at Medicare-approved facilities",
+          "Alcohol detox programs (typically 7 days)",
+          "Inpatient psychiatric treatment for alcohol dependence",
+          "Medications administered during inpatient treatment",
+        ],
+        whatItDoesntCover: [
+          "Treatment at facilities that do not accept Medicare",
+          "Rehab that is not deemed medically necessary by your doctor",
+          "Treatment beyond 190 lifetime days at a psychiatric hospital",
+        ],
+        costNote: "Part A inpatient: $1,676 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026).",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover all alcohol misuse screening, counseling, and treatment services that Original Medicare covers. Some Medicare Advantage plans may also offer additional mental health and substance abuse benefits beyond what Original Medicare provides.",
+          "Cost-sharing under Medicare Advantage varies by plan. Some plans may have lower copays for mental health services, while others may require prior authorization for inpatient rehab. Always verify your plan's network and coverage rules before seeking treatment.",
+        ],
+        whatItCovers: [
+          "Annual alcohol misuse screening (free preventive service)",
+          "Counseling sessions for alcohol misuse",
+          "Inpatient rehab and detox when medically necessary",
+          "Additional mental health benefits (varies by plan)",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers (unless your plan allows out-of-network benefits)",
+          "Services requiring prior authorization that was not obtained",
+        ],
+        callout: {
+          type: "warning",
+          title: "Verify your rehab facility is in-network",
+          text: "Not all alcohol rehab facilities accept Medicare Advantage plans. Before admission, call your plan to confirm the facility is in-network and whether prior authorization is required. Failure to get prior authorization can result in denied claims.",
+        },
+      },
+    ],
+    costTable: {
+      title: "Alcohol Misuse Treatment Costs Under Medicare (2026)",
+      headers: ["Service", "Medicare Part", "What Medicare Pays", "Your Cost"],
+      rows: [
+        {
+          "Service": "Annual alcohol misuse screening",
+          "Medicare Part": "Part B (preventive)",
+          "What Medicare Pays": "100%",
+          "Your Cost": "$0",
+        },
+        {
+          "Service": "Up to 4 brief counseling sessions/year",
+          "Medicare Part": "Part B (preventive)",
+          "What Medicare Pays": "100%",
+          "Your Cost": "$0",
+        },
+        {
+          "Service": "Additional outpatient therapy sessions",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% after deductible",
+          "Your Cost": "20% coinsurance + $257 deductible",
+        },
+        {
+          "Service": "Inpatient rehab (days 1–60)",
+          "Medicare Part": "Part A",
+          "What Medicare Pays": "100% after deductible",
+          "Your Cost": "$1,676 per benefit period",
+        },
+        {
+          "Service": "Inpatient rehab (days 61–90)",
+          "Medicare Part": "Part A",
+          "What Medicare Pays": "All but $419/day",
+          "Your Cost": "$419/day coinsurance",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Medigap plans can cover the Part A deductible and Part B coinsurance, reducing your out-of-pocket costs significantly.",
+    },
+    exceptionsSection: {
+      title: "Important Rules for Alcohol Misuse Coverage",
+      items: [
+        {
+          title: "You Must Use a Medicare-Approved Facility for Rehab",
+          text: "Medicare will only cover inpatient alcohol rehab at facilities that are Medicare-approved. Many detox and rehab centers do not accept Medicare and operate on a self-pay basis. Before seeking inpatient treatment, verify that the facility accepts Medicare. You can use the Medicare Care Compare tool at medicare.gov to find Medicare-approved facilities.",
+          highlight: "Call the facility directly and ask: 'Do you accept Original Medicare?' before admission to avoid unexpected bills.",
+        },
+        {
+          title: "190-Day Lifetime Limit for Psychiatric Hospitals",
+          text: "If you receive inpatient alcohol treatment at a specialty psychiatric hospital (as opposed to a general hospital), Medicare Part A will only cover up to 190 days of treatment in your lifetime. This lifetime limit does not apply to treatment received at a general hospital or a psychiatric unit within a general hospital. If you have already used some of your 190 days for other psychiatric treatment, those days count toward this limit.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover alcohol rehab?",
+        answer: "Yes. Medicare Part A covers inpatient alcohol rehab when medically necessary at a Medicare-approved facility. Medicare Part B covers outpatient alcohol counseling and substance abuse treatment. You must use a Medicare-approved facility and have a doctor's referral for inpatient treatment.",
+      },
+      {
+        question: "Does Medicare cover alcohol detox?",
+        answer: "Yes. Medicare Part A covers alcohol detox when medically necessary. Detox is typically a 7-day inpatient program. You must receive treatment at a Medicare-approved facility. The same Part A cost-sharing applies as for other inpatient stays — $1,676 deductible per benefit period (2026).",
+      },
+      {
+        question: "How many alcohol counseling sessions does Medicare cover for free?",
+        answer: "Medicare Part B covers one annual alcohol misuse screening and up to four brief counseling sessions per year at no cost to you (no deductible or coinsurance). These are covered as preventive services. Additional counseling sessions beyond the four free ones are covered at 80% after your Part B deductible.",
+      },
+      {
+        question: "Does Medicare cover outpatient alcohol treatment?",
+        answer: "Yes. Medicare Part B covers outpatient alcohol treatment including individual and group psychotherapy, partial hospitalization programs, and intensive outpatient programs at Medicare-approved facilities. You pay 20% coinsurance after your $257 Part B deductible.",
+      },
+      {
+        question: "Why did Medicare deny my alcohol rehab claim?",
+        answer: "Medicare may deny an alcohol rehab claim if: (1) the treatment was not deemed medically necessary, (2) you went to a facility that does not accept Medicare, (3) you did not have a doctor's referral, or (4) you exceeded the 190-day lifetime limit at a psychiatric hospital. If your claim is denied, you have the right to appeal.",
+      },
+      {
+        question: "Does Medigap cover alcohol rehab costs?",
+        answer: "Yes. Medigap plans can cover the Part A deductible ($1,676 per benefit period) and Part B coinsurance (20%) for alcohol treatment services. Medigap Plan G is a popular choice — it covers the Part A deductible and Part B coinsurance, leaving you responsible only for the annual $257 Part B deductible.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Annual screening</strong> and up to 4 counseling sessions covered at <strong>$0</strong> under Part B" },
+      { icon: "check", text: "<strong>Inpatient rehab and detox</strong> covered under Part A when medically necessary" },
+      { icon: "alert", text: "Must use a <strong>Medicare-approved facility</strong> for inpatient rehab coverage" },
+      { icon: "dollar", text: "Inpatient rehab: <strong>$1,676 deductible</strong> per benefit period (2026)" },
+      { icon: "info", text: "<strong>190-day lifetime limit</strong> for inpatient treatment at specialty psychiatric hospitals" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> can cover the Part A deductible and Part B coinsurance" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Preventive Services", description: "Explore the free preventive screenings and services available under Medicare Part B.", slug: "medicare-preventive-services" },
+      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what's included in your free annual wellness visit under Medicare Part B.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "Medicare Coverage for Mental Health", description: "Learn about Medicare's coverage for mental health services including therapy and inpatient psychiatric care.", slug: "medicare-coverage-for-mental-health" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part A deductible and Part B coinsurance.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Preventive Services",
+      "What Is the Medicare Annual Wellness Visit",
+      "Medicare Coverage for Mental Health",
+      "Medicare Supplement Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Medicare Coverage for Alcohol Treatment?",
+      text: "Our licensed Medicare agents can help you find a plan that covers alcohol rehab and reduces your out-of-pocket costs. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-preventive-services", "what-is-the-medicare-annual-wellness-visit", "medicare-coverage-for-mental-health", "medicare-supplement-plan-g"],
+  },
+
+  // ─── Medicare Coverage for ALS ───────────────────────────────────────────────
+  {
+    slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
+    seo: {
+      title: "What Does Medicare Cover for ALS Patients? | MedicareFAQ",
+      description: "Medicare covers a wide range of services for ALS (Lou Gehrig's disease) patients with no waiting period. Learn about home health care, DME, Part D, and more.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-amyotrophic-lateral-sclerosis-als/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-amyotrophic-lateral-sclerosis-als.jpg",
+    },
+    title: "What Does Medicare Cover for ALS Patients?",
+    subtitle: "ALS patients qualify for Medicare immediately upon receiving SSDI benefits — no 24-month waiting period. Medicare covers a wide range of services including home health care, DME, physical therapy, and prescription drugs. Learn what's covered and what you'll pay.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "ALS (amyotrophic lateral sclerosis, also known as Lou Gehrig's disease) is one of only two conditions — along with End Stage Renal Disease (ESRD) — that qualifies for Medicare without the standard 24-month waiting period. As soon as you are entitled to Social Security Disability Insurance (SSDI) benefits for ALS, you can enroll in Medicare. Medicare Part A covers inpatient hospital care, Part B covers outpatient services and home health care, and Part D covers prescription drugs.",
+      badges: [
+        { plan: "Medicare Part A", status: "covered" },
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Part D", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers inpatient hospital stays, skilled nursing facility care, and hospice" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers outpatient services, home health care, DME, physical therapy, speech therapy" },
+      { planType: "Medicare Part D (Drugs)", coverage: "Covered", icon: "shield", notes: "Covers prescription drugs including ALS medications; formulary varies by plan" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; may offer additional benefits" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medicare Part B — Outpatient & Home Health",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers home health care, DME, and therapy services",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) is particularly important for ALS patients because it covers home health care services, which are critical as the disease progresses. To qualify for home health care, you must be under the care of a physician who creates and regularly reviews a care plan, and you must be certified as homebound — meaning you cannot leave home without considerable effort.",
+          "Part B also covers durable medical equipment (DME) that is medically necessary for ALS patients, including wheelchairs, communication devices, ventilators, and other equipment. Physical therapy, occupational therapy, and speech-language pathology services are also covered under Part B, which are essential for maintaining quality of life as ALS progresses.",
+          "ALS patients often need a wide range of DME and therapy services. Medicare Part B covers these as long as they are medically necessary and ordered by a Medicare-participating physician.",
+        ],
+        whatItCovers: [
+          "Home health care services (skilled nursing, physical therapy, occupational therapy, speech therapy)",
+          "Durable medical equipment (wheelchairs, power wheelchairs, communication devices)",
+          "Ventilators and respiratory equipment",
+          "Ankle-foot orthosis (AFO) braces — covered every 5 years for the same body part",
+          "Outpatient physical, occupational, and speech-language pathology therapy",
+          "Doctor visits and specialist consultations",
+          "Diagnostic tests and lab work",
+        ],
+        whatItDoesntCover: [
+          "Personal care services (bathing, dressing) when that is the only care needed",
+          "24-hour home care",
+          "Meals delivered to your home",
+          "Homemaker services",
+        ],
+        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Home health care covered by Medicare is $0 for approved services.",
+      },
+      {
+        planName: "Medicare Part A — Inpatient & Hospice",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers inpatient hospital care and hospice",
+        paragraphs: [
+          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hospital stays for ALS patients, including any hospitalizations related to ALS complications such as respiratory failure, pneumonia, or surgical procedures. The standard Part A cost-sharing applies: $1,676 deductible per benefit period, with $0 coinsurance for days 1–60.",
+          "Hospice care is an important benefit for ALS patients. Medicare Part A covers hospice care when a doctor certifies that a patient has a terminal illness with a life expectancy of six months or less if the illness runs its normal course. ALS patients who choose hospice receive comfort-focused care rather than curative treatment, and Medicare covers nearly all hospice services.",
+        ],
+        whatItCovers: [
+          "Inpatient hospital stays for ALS-related complications",
+          "Skilled nursing facility care following a qualifying hospital stay",
+          "Hospice care (comfort-focused care for terminal illness)",
+          "Inpatient rehabilitation following hospitalization",
+        ],
+        whatItDoesntCover: [
+          "Long-term custodial care (personal care without skilled nursing needs)",
+          "Room and board at a nursing home (unless receiving skilled nursing care)",
+        ],
+        costNote: "Part A: $1,676 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026). Hospice care: $0 for most services.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — may offer additional benefits for ALS patients",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all services that Original Medicare covers, including all ALS-related care. Some Medicare Advantage plans may offer additional benefits that could be valuable for ALS patients, such as transportation to medical appointments, meal delivery, or expanded home health benefits.",
+          "However, Medicare Advantage plans use provider networks, which can be a significant consideration for ALS patients who may need specialized neurologists, ALS clinics, or specific DME suppliers. Before enrolling in a Medicare Advantage plan, verify that your ALS care team and preferred facilities are in-network.",
+        ],
+        whatItCovers: [
+          "All ALS-related services covered by Original Medicare",
+          "Additional benefits that may include transportation, meals, or expanded home health",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers (unless your plan allows out-of-network benefits)",
+          "Services requiring prior authorization that was not obtained",
+        ],
+        callout: {
+          type: "warning",
+          title: "Network restrictions are a key consideration for ALS patients",
+          text: "ALS patients often need specialized care from neurologists, ALS clinics, and specific DME suppliers. Before enrolling in a Medicare Advantage plan, verify that your entire care team is in-network. Switching to Original Medicare with a Medigap plan may provide more flexibility for ALS patients who need specialized care.",
+        },
+      },
+    ],
+    costTable: {
+      title: "Key Medicare Costs for ALS Patients (2026)",
+      headers: ["Service", "Medicare Part", "What Medicare Pays", "Your Cost"],
+      rows: [
+        {
+          "Service": "Home health care (skilled nursing, therapy)",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "100% for approved services",
+          "Your Cost": "$0",
+        },
+        {
+          "Service": "Durable medical equipment (wheelchair, ventilator)",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% of approved amount",
+          "Your Cost": "20% coinsurance + $257 deductible",
+        },
+        {
+          "Service": "Outpatient therapy (PT, OT, speech)",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% after deductible",
+          "Your Cost": "20% coinsurance + $257 deductible",
+        },
+        {
+          "Service": "Inpatient hospital stay (days 1–60)",
+          "Medicare Part": "Part A",
+          "What Medicare Pays": "100% after deductible",
+          "Your Cost": "$1,676 per benefit period",
+        },
+        {
+          "Service": "Hospice care",
+          "Medicare Part": "Part A",
+          "What Medicare Pays": "Nearly 100%",
+          "Your Cost": "$0 for most services",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Medigap plans can cover the Part A deductible and Part B coinsurance, significantly reducing out-of-pocket costs for ALS patients.",
+    },
+    exceptionsSection: {
+      title: "ALS and Medicare: Special Eligibility Rules",
+      items: [
+        {
+          title: "No Waiting Period for ALS Patients",
+          text: "ALS is one of only two conditions (along with ESRD) that qualifies for Medicare without the standard 24-month waiting period. For most people under 65 who receive Social Security Disability Insurance (SSDI), Medicare coverage begins 24 months after their first SSDI payment. For ALS patients, Medicare coverage begins as soon as they are entitled to SSDI — there is no waiting period. Apply for Medicare as soon as you receive your ALS diagnosis and SSDI approval.",
+          highlight: "Apply for Medicare immediately after receiving your ALS diagnosis and SSDI approval. Do not wait — there is no 24-month waiting period for ALS patients.",
+        },
+        {
+          title: "Medigap Enrollment Rights for ALS Patients",
+          text: "ALS patients who are under 65 have the right to purchase a Medicare Supplement (Medigap) plan in states that require insurers to offer Medigap to Medicare beneficiaries under 65. Federal law only requires Medigap open enrollment for people 65 and older. However, some states have passed laws extending Medigap access to younger Medicare beneficiaries. Check your state's rules to understand your Medigap enrollment rights.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "When do ALS patients become eligible for Medicare?",
+        answer: "ALS patients become eligible for Medicare as soon as they are entitled to Social Security Disability Insurance (SSDI) benefits. Unlike other disabilities, there is no 24-month waiting period for ALS. You should apply for Medicare immediately after receiving your ALS diagnosis and SSDI approval.",
+      },
+      {
+        question: "Does Medicare cover wheelchairs for ALS patients?",
+        answer: "Yes. Medicare Part B covers wheelchairs, including power wheelchairs, as durable medical equipment (DME) when medically necessary for home use. The wheelchair must be ordered by your doctor and obtained from a Medicare-enrolled DME supplier. You pay 20% coinsurance after your Part B deductible.",
+      },
+      {
+        question: "Does Medicare cover communication devices for ALS patients?",
+        answer: "Yes. Medicare Part B covers speech-generating devices (SGDs) and augmentative and alternative communication (AAC) devices as DME when medically necessary for ALS patients who have lost the ability to speak. Your doctor must document the medical necessity, and you must use a Medicare-enrolled DME supplier.",
+      },
+      {
+        question: "Does Medicare cover home health care for ALS patients?",
+        answer: "Yes. Medicare Part B covers home health care services for ALS patients who are homebound and under the care of a physician. Covered services include skilled nursing care, physical therapy, occupational therapy, and speech-language pathology. Medicare pays 100% for approved home health services — there is no coinsurance for home health care.",
+      },
+      {
+        question: "Does Medicare cover ALS medications?",
+        answer: "Medicare Part D covers prescription drugs for ALS patients, including riluzole (Rilutek) and edaravone (Radicava), which are FDA-approved ALS treatments. Coverage depends on your specific Part D plan's formulary. Some ALS medications are very expensive, so it's important to compare Part D plans to find one that covers your medications at the lowest cost.",
+      },
+      {
+        question: "Does Medicare cover hospice care for ALS patients?",
+        answer: "Yes. Medicare Part A covers hospice care for ALS patients when a doctor certifies a life expectancy of six months or less. Hospice provides comfort-focused care and covers nearly all services including nursing care, medications for symptom management, and counseling. There is no cost for most hospice services under Medicare.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>No waiting period</strong> — ALS patients qualify for Medicare immediately upon SSDI eligibility" },
+      { icon: "check", text: "<strong>Home health care</strong> covered at $0 for approved services under Part B" },
+      { icon: "check", text: "<strong>Wheelchairs, ventilators, and communication devices</strong> covered as DME under Part B" },
+      { icon: "check", text: "<strong>Hospice care</strong> covered at $0 for most services under Part A" },
+      { icon: "dollar", text: "DME and outpatient therapy: <strong>20% coinsurance</strong> after $257 Part B deductible (2026)" },
+      { icon: "info", text: "<strong>Medigap</strong> can cover Part A deductible and Part B coinsurance for ALS patients" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover End Stage Renal Disease?", description: "Learn about Medicare's special eligibility rules for ESRD patients, similar to ALS.", slug: "does-medicare-cover-end-stage-renal-disease" },
+      { title: "Medicare Coverage for Skilled Nursing Facilities", description: "Understand how Medicare covers skilled nursing facility care following a hospital stay.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
+      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "Medicare Coverage for Physical Therapy", description: "Learn about Medicare's coverage for physical therapy services.", slug: "medicare-coverage-for-physical-therapy" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover End Stage Renal Disease",
+      "Medicare Coverage for Skilled Nursing Facilities",
+      "What Is Durable Medical Equipment",
+      "Medicare Coverage for Physical Therapy",
+    ],
+    ctaBanner: {
+      title: "Need Help Navigating Medicare Coverage for ALS?",
+      text: "Our licensed Medicare agents specialize in helping ALS patients and their families understand their Medicare benefits and find plans that minimize out-of-pocket costs. Call us or compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-end-stage-renal-disease", "medicare-coverage-for-skilled-nursing-facilities", "what-is-durable-medical-equipment-dme", "medicare-coverage-for-physical-therapy"],
+  },
+
 ];

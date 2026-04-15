@@ -466,34 +466,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["finding-local-doctors-who-accept-medicare", "medicare-enrollment-checklist", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
-  },
-  {
-    slug: 'medicare-coverage-for-amyotrophic-lateral-sclerosis-als',
-    seo: {
-      title: 'What Does Medicare Cover for ALS Patients',
-      description: 'Medicare Coverage for Amyotrophic Lateral Sclerosis (ALS) available for beneficiaries of all ages diagnosed with the disease.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-amyotrophic-lateral-sclerosis-als/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-does-medicare-cover-for-als-patients.jpg',
-    },
-    title: 'What Does Medicare Cover for ALS Patients',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'March 28, 2022',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Coverage for Disabled Under 65',
-        paragraphs: [
-          'Updated on March 28, 2022',
-          'If you\'re under 65 and [disabled](/faqs/medicare-for-disabled-individuals), once you\'ve collected [Social Security benefits](/faqs/differences-between-medicare-and-social-security) for 24 months,...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-physical-therapy", "does-medicare-cover-speech-therapy", "how-medicare-handles-skilled-nursing-vs-custodial-care"],
-  },
-  {
+  },  {
     slug: 'medicare-coverage-for-in-home-caregivers',
     seo: {
       title: 'Medicare Home Health Care',
@@ -909,33 +882,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "does-medicare-cover-macular-degeneration", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
-  },
-
-  {
-    slug: 'does-medicare-cover-root-canals',
-    seo: {
-      title: 'Does Medicare Cover Root Canals',
-      description: 'Although Original Medicare does not cover root canals, you can obtain coverage. We review available dental coverage options to save money.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-root-canals/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-root-canals.jpg',
-    },
-    title: 'Does Medicare Cover Root Canals',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'May 22, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'All-In-One Medicare Plan',
-        paragraphs: [
-          'Updated on May 22, 2023',
-          'An [all-in-one Medicare insurance plan](/faqs/all-in-one-medicare-plan) can mean several different things. There are [Medicare Advantage plans](/faqs/medicare-advantage-vs-medicare-supplement),...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-dental-implants", "does-medicare-cover-dentures", "medicare-and-vision-dental-and-hearing-what-are-your-options", "what-dental-expenses-does-medicare-cover"],
   },
   {
     slug: 'checklist-preparing-for-medicare-enrollment-in-2026',

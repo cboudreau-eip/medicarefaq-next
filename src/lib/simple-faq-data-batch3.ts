@@ -6,34 +6,7 @@
 
 import type { SimpleFAQArticleData } from "@/lib/article-types";
 
-export const simpleFAQBatch3: SimpleFAQArticleData[] = [
-  {
-    slug: 'medicare-coverage-erectile-dysfunction',
-    seo: {
-      title: 'Does Medicare Cover Viagra and Cialis Erectile Dysfunction Medication?',
-      description: 'Does Medicare cover Viagra? Learn what Medicare covers for popular brand-name ED medications and their generic counterparts.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-erectile-dysfunction-drugs-are-covered-by-medicare.jpg',
-    },
-    title: 'Does Medicare Cover Viagra and Cialis Erectile Dysfunction Medication?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'November 15, 2024',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'MAPD vs. PDP Through Medicare Part D',
-        paragraphs: [
-          'Updated on November 15, 2024',
-          '[Medicare Part D Prescription Drug Plans](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not) and [Medicare Advantage Prescription Drug Plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) both provide drug...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "does-medicare-cover-mental-health", "medicare-coverage-for-cardiovascular-disease", "will-medicare-cover-my-surgery"],
-  },
-  {
+export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     slug: 'medicare-coverage-for-cardiovascular-disease',
     seo: {
       title: 'Finding a Medicare Cardiologist',

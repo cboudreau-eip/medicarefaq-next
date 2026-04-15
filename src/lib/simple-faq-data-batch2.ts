@@ -1097,32 +1097,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-vs-medicaid", "qualified-health-plans-medicare"],
   },  {
-    slug: 'does-medicare-cover-ostomy-supplies',
-    seo: {
-      title: 'Does Medicare Cover Ostomy Supplies',
-      description: 'Millions rely on Medicare coverage of ostomy supplies. Learn how Medicare covers ostomy supplies and your out-of-pocket costs.',
-      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-ostomy-supplies/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-ostomy-supplies.jpg',
-    },
-    title: 'Does Medicare Cover Ostomy Supplies',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'June 10, 2022',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Catheters',
-        paragraphs: [
-          'Updated on June 10, 2022',
-          'Medicare covers [catheters](/faqs/does-medicare-cover-urinary-catheters) and related medical supplies that a doctor says is [medically necessary](/faqs/what-does-medically-necessary-mean). Coverage...',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-urinary-catheters", "medicare-coverage-for-incontinence-supplies", "what-does-medically-necessary-mean"],
-  },
-  {
     slug: 'medicare-and-workers-comp',
     seo: {
       title: 'Medicare and Workers’ Compensation',
@@ -1277,34 +1251,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-copd", "medicare-coverage-for-cardiovascular-disease", "will-medicare-pay-for-a-nebulizer-machine"],
-  },
-  {
-    slug: 'medicare-coverage-for-alcohol-misuse',
-    seo: {
-      title: 'Does Medicare Cover Alcohol Rehab?',
-      description: 'Does Medicare cover alcohol rehab? Yes, Medicare will cover alcoholism and substance abuse rehab as well as screenings and counseling.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-alcohol-misuse/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Alcohol-Rehab.jpg',
-    },
-    title: 'Does Medicare Cover Alcohol Rehab?',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'February 19, 2026',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-mental-health", "medicare-preventive-services", "medicare-and-alternative-therapies-whats-covered-and-whats-not", "medicare-coverage-for-smoking-cessation-treatments"],
-  },
-  {
+  },  {
     slug: 'part-b-excess-charges-medicare-overcharge-measure',
     seo: {
       title: 'What Are Medicare Part B Excess Charges',
