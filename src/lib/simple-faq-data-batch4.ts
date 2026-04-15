@@ -366,31 +366,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-parts-a-b-c-and-d-explained-simply", "what-is-medicare", "medicare-for-all"],
   },
   {
-    slug: 'medicare-coverage-for-bathroom-safety-devices',
-    seo: {
-      title: 'Does Medicare Cover Bathroom Equipment',
-      description: 'Medicare Covers Bathroom Equipment when it\'s medically necessary and falls under the Durable Medical Equipment categorey. Learn more here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-bathroom-safety-devices/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-bathroom-equipment.jpg',
-    },
-    title: 'Does Medicare Cover Bathroom Equipment',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Medicare does not cover commodes as a general rule unless there is no [bathroom](/faqs/durable-medical-equipment), a two level house with one bathroom and do not cover if patient gets a walker- assumption they can get to bathroom',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "does-medicare-cover-a-shower-transfer-bench", "how-medicare-handles-skilled-nursing-vs-custodial-care"],
-  },
-  {
     slug: 'deductible-copay-coinsurance-premium',
     seo: {
       title: 'Deductible vs. Copay vs. Coinsurance vs. Premium',
@@ -963,31 +938,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period"],
-  },
-  {
-    slug: 'medicare-coverage-for-colonoscopy-screenings',
-    seo: {
-      title: 'Medicare Coverage for Colonoscopy Screenings',
-      description: 'Colonoscopies are a crucial part of preventive health care. Does Medicare cover colonoscopy? Learn more here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-colonoscopy-screenings/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-colonoscopy-screenings.jpg',
-    },
-    title: 'Medicare Coverage for Colonoscopy Screenings',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'I live on only $1511 per month after my [Medicare A payment](/blog/medicare-parts-a-b-c-and-d-explained-simply) is deducted from my SS.  My new doc ordered a bunch of tests, colonoscopy being one of them.  I discovered the prep was going to cost me $180, and the [copay](/faqs/deductible-copay-coinsurance-premium) $360, as I’ve previously had a polyp removed four years ago.  I had to cancel.  This is not what your article states.  I have Humana Gold.',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "does-medicare-cover-cologuard", "welcome-to-medicare-preventative-visit"],
   },
   {
     slug: 'medicare-inpatient-vs-outpatient-vs-under-observation',

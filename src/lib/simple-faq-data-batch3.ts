@@ -7,32 +7,6 @@
 import type { SimpleFAQArticleData } from "@/lib/article-types";
 
 export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
-    slug: 'medicare-coverage-for-cardiovascular-disease',
-    seo: {
-      title: 'Finding a Medicare Cardiologist',
-      description: 'Medicare coverage to prevent and treat cardiovascular disease is possible. Some services are Part A and others Part B. Learn More Here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-cardiovascular-disease/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Finding-a-Medicare-Cardiologist.jpg',
-    },
-    title: 'Finding a Medicare Cardiologist',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'November 13, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Atrial Fibrillation (AFib)',
-        paragraphs: [
-          'Updated on November 13, 2024',
-          '[Atrial fibrillation, also known as AFib](/faqs/does-medicare-cover-atrial-fibrillation-afib), is a [serious heart condition](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know) that affects an estimated...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "medicare-coverage-for-blood-pressure-monitors", "does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-lower-back-pain-management"],
-  },
-  {
     slug: 'medicare-preventive-services',
     seo: {
       title: 'Medicare Preventive Services Guide',
@@ -883,32 +857,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplements-cost-vs-value-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
-    slug: 'medicare-coverage-for-dermatology',
-    seo: {
-      title: 'Does Medicare Cover Dermatology',
-      description: 'Medicare will cover many dermatology services, including acne treatments, skin tag removal, allergy testing, and more.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-dermatology/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-dermatology.jpg',
-    },
-    title: 'Does Medicare Cover Dermatology',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'February 19, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [[Medicare](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "what-does-medically-necessary-mean", "will-medicare-cover-my-surgery", "medicare-coverage-for-plastic-surgery"],
-  },
-  {
     slug: 'medicare-benefits',
     seo: {
       title: 'Can You Lose Your Medicare Benefits?',
@@ -1368,32 +1316,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       },
     ],
     relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter"],
-  },
-  {
-    slug: 'medicare-coverage-for-blood-pressure-monitors',
-    seo: {
-      title: 'Medicare Coverage for Blood Pressure Monitors',
-      description: 'Many Medicare patients look for coverage on blood pressure monitors. Learn how Medicare covers Blood Pressure Monitors here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-coverage-for-blood-pressure-monitors/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-blood-pressure-monitors.jpg',
-    },
-    title: 'Medicare Coverage for Blood Pressure Monitors',
-    summary: '',
-    category: 'Coverage',
-    dateUpdated: 'November 13, 2024',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Atrial Fibrillation (AFib)',
-        paragraphs: [
-          'Updated on November 13, 2024',
-          '[Atrial fibrillation](/faqs/medicare-coverage-for-cardiovascular-disease), also known as AFib, is a serious [heart condition](/faqs/does-medicare-cover-atrial-fibrillation-afib) that affects an estimated...',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "medicare-preventive-services", "does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-cardiovascular-disease", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
   {
     slug: 'native-american-health-and-medicare',

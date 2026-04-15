@@ -12854,4 +12854,1125 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["does-medicare-cover-end-stage-renal-disease", "medicare-coverage-for-skilled-nursing-facilities", "what-is-durable-medical-equipment-dme", "medicare-coverage-for-physical-therapy"],
   },
 
+// ─── Medicare Coverage for Bathroom Safety Devices ──────────────────────────
+  {
+    slug: "medicare-coverage-for-bathroom-safety-devices",
+    seo: {
+      title: "Does Medicare Cover Bathroom Safety Devices? | MedicareFAQ",
+      description: "Medicare covers commode chairs and some bathroom safety equipment as DME. Learn what's covered, what isn't, and how Medicare Advantage may help with grab bars and shower chairs.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-bathroom-safety-devices/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-bathroom-safety-devices.jpg",
+    },
+    title: "Does Medicare Cover Bathroom Safety Devices?",
+    subtitle: "Medicare covers commode chairs and certain medically necessary bathroom equipment as durable medical equipment. Grab bars, shower chairs, and walk-in tubs are generally not covered — but some Medicare Advantage plans may help. Learn what's covered and what you'll pay.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Original Medicare covers bathroom safety devices that qualify as durable medical equipment (DME) and are medically necessary — primarily commode chairs when your doctor orders them because you cannot use a regular toilet. Most other bathroom safety items such as grab bars, shower chairs, raised toilet seats, walk-in tubs, and transfer benches are not covered by Original Medicare because they are considered convenience or comfort items. Some Medicare Advantage plans offer over-the-counter benefits that may cover these items.",
+      badges: [
+        { plan: "Commode Chairs (DME)", status: "covered" },
+        { plan: "Grab Bars / Shower Chairs", status: "not-covered" },
+        { plan: "Medicare Advantage OTC", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Commode chairs (DME)", coverage: "Covered", icon: "shield", notes: "Covered under Part B when doctor orders for home use because patient cannot use regular toilet" },
+      { planType: "Grab bars", coverage: "Not Covered", icon: "x", notes: "Not covered by Original Medicare; considered a home modification, not DME" },
+      { planType: "Shower chairs / bath seats", coverage: "Not Covered", icon: "x", notes: "Not covered by Original Medicare; not considered medically necessary DME" },
+      { planType: "Raised toilet seats", coverage: "Not Covered", icon: "x", notes: "Considered a convenience item; not covered by Original Medicare" },
+      { planType: "Walk-in tubs", coverage: "Not Covered", icon: "x", notes: "Not covered; considered a home modification" },
+      { planType: "Medicare Advantage OTC benefit", coverage: "Partial", icon: "heart", notes: "Some MA plans include OTC benefits that may cover shower chairs, grab bars, and other safety items" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B — DME)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Limited Coverage",
+        coverageType: "partial",
+        statusBadge: "Covers commode chairs; most other bathroom safety items excluded",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers bathroom safety devices that qualify as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) and are medically necessary. The primary bathroom safety item covered by Medicare is the commode chair — a portable toilet that can be used at the bedside or in the bathroom. Medicare will cover a commode chair when your doctor orders it for home use because you cannot use a regular toilet.",
+          "Medicare also covers crutches, walkers, and other mobility aids that help reduce the risk of falls — but the standard bathroom accessories such as grab bars, shower chairs, and raised toilet seats are not covered. Medicare classifies these items as comfort or convenience items rather than medically necessary DME.",
+          "For items Medicare does cover, you pay 20% coinsurance after your annual $257 Part B deductible (2026), and you must use a Medicare-enrolled DME supplier.",
+        ],
+        whatItCovers: [
+          "Commode chairs (when medically necessary and ordered by a doctor)",
+          "Crutches, walkers, and rollators (fall prevention)",
+          "Wheelchairs and power wheelchairs",
+          "Hospital beds for home use (when medically necessary)",
+        ],
+        whatItDoesntCover: [
+          "Grab bars",
+          "Shower chairs and bath seats",
+          "Raised toilet seats / toilet seat risers",
+          "Walk-in tubs",
+          "Transfer benches",
+          "Handheld showerheads",
+          "Bathroom home modifications",
+        ],
+        costNote: "Covered DME (e.g., commode chairs): 20% coinsurance after $257 Part B deductible (2026). Non-covered items: full cost out of pocket.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Some plans include OTC benefits covering bathroom safety items",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all DME that Original Medicare covers, including commode chairs. But many Medicare Advantage plans go further by offering over-the-counter (OTC) benefits or home safety benefits that may cover bathroom safety items not covered by Original Medicare.",
+          "Some Medicare Advantage plans include an annual OTC allowance — typically $100 to $500 per year — that can be used to purchase items like shower chairs, grab bars, raised toilet seats, and other safety equipment. These benefits vary widely by plan and location. Check your plan's Evidence of Coverage or call your plan to see if bathroom safety items are included.",
+        ],
+        whatItCovers: [
+          "All DME covered by Original Medicare (commode chairs, walkers, etc.)",
+          "Shower chairs, grab bars, raised toilet seats — if your plan includes OTC or home safety benefits",
+          "Some plans may cover bathroom modifications through supplemental benefits",
+        ],
+        whatItDoesntCover: [
+          "Items not included in your plan's OTC or supplemental benefit catalog",
+          "Out-of-network DME suppliers (unless your plan allows out-of-network benefits)",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check your Medicare Advantage OTC benefit",
+          text: "Many Medicare Advantage plans include an annual over-the-counter (OTC) allowance that can be used for bathroom safety items. Log in to your plan's member portal or call the plan to see what's included in your OTC benefit catalog.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Cost-Sharing for Covered DME",
+        coverageType: "partial",
+        statusBadge: "Covers Part B coinsurance for covered DME items",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance for covered DME such as commode chairs. However, Medigap only covers items that Original Medicare covers. It cannot cover grab bars, shower chairs, or other items that Original Medicare excludes.",
+          "If your doctor orders a commode chair or another covered DME item, Medigap Plan G will cover the 20% coinsurance after you meet the annual $257 Part B deductible.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for covered DME items",
+          "Part A deductible for inpatient stays",
+        ],
+        whatItDoesntCover: [
+          "Grab bars, shower chairs, or other items not covered by Original Medicare",
+          "Home modifications",
+        ],
+        costNote: "With Medigap Plan G, your only cost for covered DME is the $257 annual Part B deductible. Medigap cannot cover non-covered items like grab bars.",
+      },
+    ],
+    costTable: {
+      title: "Bathroom Safety Device Coverage Under Medicare (2026)",
+      headers: ["Device", "Original Medicare", "Medicare Advantage OTC", "Estimated Out-of-Pocket Cost"],
+      rows: [
+        {
+          "Device": "Commode chair",
+          "Original Medicare": "Covered (DME)",
+          "Medicare Advantage OTC": "Covered",
+          "Estimated Out-of-Pocket Cost": "20% coinsurance after $257 deductible",
+        },
+        {
+          "Device": "Grab bars",
+          "Original Medicare": "Not covered",
+          "Medicare Advantage OTC": "Some plans cover",
+          "Estimated Out-of-Pocket Cost": "$75–$200+ (full cost)",
+        },
+        {
+          "Device": "Shower chair / bath seat",
+          "Original Medicare": "Not covered",
+          "Medicare Advantage OTC": "Some plans cover",
+          "Estimated Out-of-Pocket Cost": "$15–$300 (full cost)",
+        },
+        {
+          "Device": "Raised toilet seat",
+          "Original Medicare": "Not covered",
+          "Medicare Advantage OTC": "Some plans cover",
+          "Estimated Out-of-Pocket Cost": "$20–$80 (full cost)",
+        },
+        {
+          "Device": "Walk-in tub",
+          "Original Medicare": "Not covered",
+          "Medicare Advantage OTC": "Rarely covered",
+          "Estimated Out-of-Pocket Cost": "$2,000–$10,000+ (full cost)",
+        },
+        {
+          "Device": "Transfer bench",
+          "Original Medicare": "Not covered",
+          "Medicare Advantage OTC": "Some plans cover",
+          "Estimated Out-of-Pocket Cost": "$30–$150 (full cost)",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. OTC benefit coverage varies by Medicare Advantage plan and location.",
+    },
+    exceptionsSection: {
+      title: "Other Programs That May Help with Bathroom Safety Costs",
+      items: [
+        {
+          title: "Veterans Affairs (VA) Grants for Home Modifications",
+          text: "Veterans with a service-connected disability or who meet certain criteria may qualify for VA grants to make their homes safer. The VA offers three grants: the Home Improvements and Structural Alterations (HISA) grant, the Specially Adapted Housing (SAH) grant, and the Special Home Adaptation (SHA) grant. These grants can cover the cost of grab bars, walk-in tubs, and other bathroom modifications.",
+          highlight: "If you are a veteran, contact your local VA office to learn about home modification grants that may cover bathroom safety equipment.",
+        },
+        {
+          title: "Medicaid May Cover Bathroom Safety Equipment",
+          text: "Medicaid is more likely than Medicare to cover bathroom safety equipment and home modifications for low-income beneficiaries. Medicaid programs vary by state, so contact your state Medicaid office to learn about coverage for bathroom safety devices and home modifications in your state. If you have both Medicare and Medicaid (dual eligible), Medicaid may cover items that Medicare does not.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover commode chairs?",
+        answer: "Yes. Medicare Part B covers commode chairs as durable medical equipment (DME) when your doctor orders them for home use because you cannot use a regular toilet. You pay 20% coinsurance after your annual $257 Part B deductible (2026). You must use a Medicare-enrolled DME supplier.",
+      },
+      {
+        question: "Does Medicare cover grab bars?",
+        answer: "No. Original Medicare does not cover grab bars. Medicare considers grab bars a home modification or convenience item, not medically necessary DME. Some Medicare Advantage plans with OTC or home safety benefits may cover grab bars. Veterans may qualify for VA grants to cover the cost.",
+      },
+      {
+        question: "Does Medicare cover shower chairs?",
+        answer: "No. Original Medicare does not cover shower chairs or bath seats because they are not considered medically necessary DME. Some Medicare Advantage plans include over-the-counter (OTC) benefits that may cover shower chairs. You can also purchase a basic shower chair online for $15–$50.",
+      },
+      {
+        question: "Does Medicare cover walk-in tubs?",
+        answer: "No. Medicare does not cover walk-in tubs. Walk-in tubs are considered home modifications, not DME. Medicare may deny reimbursement requests for walk-in tubs. Some Medicare Advantage plans may offer partial coverage through supplemental home safety benefits, but this is rare.",
+      },
+      {
+        question: "Does Medicare cover raised toilet seats?",
+        answer: "No. Original Medicare considers raised toilet seats a convenience item and does not cover them. Some Medicare Advantage plans with OTC benefits may cover raised toilet seats. They are generally affordable to purchase out of pocket, ranging from $20 to $80.",
+      },
+      {
+        question: "Do Medigap plans cover bathroom safety equipment?",
+        answer: "Medigap plans only cover services and items that Original Medicare covers. Since Original Medicare does not cover most bathroom safety equipment (except commode chairs), Medigap cannot cover those items either. Medigap will cover the 20% coinsurance for commode chairs and other covered DME items.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Commode chairs</strong> are covered as DME under Part B when medically necessary" },
+      { icon: "x", text: "<strong>Grab bars, shower chairs, raised toilet seats</strong> are NOT covered by Original Medicare" },
+      { icon: "x", text: "<strong>Walk-in tubs and transfer benches</strong> are NOT covered by Original Medicare" },
+      { icon: "check", text: "Some <strong>Medicare Advantage plans</strong> offer OTC benefits that may cover bathroom safety items" },
+      { icon: "info", text: "<strong>Veterans</strong> may qualify for VA grants to cover bathroom modifications" },
+      { icon: "info", text: "<strong>Medicaid</strong> may cover bathroom safety equipment for low-income beneficiaries" },
+    ],
+    relatedTopics: [
+      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including OTC allowances.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+      { title: "Does Medicare Cover Lift Chairs?", description: "Learn about Medicare's coverage for lift chairs and power-operated vehicles.", slug: "medicare-coverage-for-lift-chairs" },
+      { title: "Does Medicare Cover Wheelchairs and Scooters?", description: "Find out how Medicare covers wheelchairs and power scooters as DME.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
+    ],
+    sidebarRelatedLinks: [
+      "What Is Durable Medical Equipment",
+      "Medicare Advantage Extra Benefits Explained",
+      "Does Medicare Cover Lift Chairs",
+      "Does Medicare Cover Wheelchairs and Scooters",
+    ],
+    ctaBanner: {
+      title: "Need Help Finding Medicare Coverage for Home Safety Equipment?",
+      text: "Our licensed Medicare agents can help you find a Medicare Advantage plan with OTC or home safety benefits that may cover bathroom safety devices. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["what-is-durable-medical-equipment-dme", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-lift-chairs", "medicare-coverage-for-wheelchairs-and-scooters"],
+  },
+
+  // ─── Medicare Coverage for Blood Pressure Monitors ──────────────────────────
+  {
+    slug: "medicare-coverage-for-blood-pressure-monitors",
+    seo: {
+      title: "Does Medicare Cover Blood Pressure Monitors? | MedicareFAQ",
+      description: "Medicare covers ambulatory blood pressure monitors and home monitors for dialysis patients. Learn what's covered, costs, and how to manage hypertension with Medicare.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-blood-pressure-monitors/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-blood-pressure-monitors.jpg",
+    },
+    title: "Does Medicare Cover Blood Pressure Monitors?",
+    subtitle: "Medicare covers ambulatory blood pressure monitors once per year and home monitors for dialysis patients. Standard home blood pressure monitors are not covered. Learn what's covered, what you'll pay, and your options.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare does not cover standard home blood pressure monitors for most beneficiaries. However, Medicare Part B covers two specific types: (1) ambulatory blood pressure monitors, which are worn for 24 hours to diagnose white coat or masked hypertension — covered once per year; and (2) home blood pressure monitors for patients receiving home kidney dialysis. If you need a blood pressure monitor for general home use, you will pay the full cost out of pocket.",
+      badges: [
+        { plan: "Ambulatory Monitor (once/year)", status: "covered" },
+        { plan: "Home Dialysis Monitor", status: "covered" },
+        { plan: "Standard Home Monitor", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Ambulatory blood pressure monitor (24-hour)", coverage: "Covered", icon: "shield", notes: "Covered once per year under Part B when doctor suspects white coat or masked hypertension" },
+      { planType: "Home monitor for dialysis patients", coverage: "Covered", icon: "shield", notes: "Covered under Part B as part of home dialysis equipment and supplies" },
+      { planType: "Standard home blood pressure monitor", coverage: "Not Covered", icon: "x", notes: "Not covered by Original Medicare or Medigap; not classified as DME" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Varies", icon: "heart", notes: "Must cover same services as Original Medicare; some plans may offer OTC benefits for home monitors" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Limited Coverage",
+        coverageType: "partial",
+        statusBadge: "Covers ambulatory monitors and dialysis home monitors only",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers blood pressure monitoring in two specific situations. First, if your doctor suspects you have white coat hypertension (elevated readings only in a clinical setting) or masked hypertension (normal readings in a clinical setting but elevated at home), Medicare will cover an ambulatory blood pressure monitor once per year. You wear this device for 24 hours while it takes automatic readings throughout the day and night.",
+          "Second, if you have [end-stage renal disease (ESRD)](/faqs/does-medicare-cover-end-stage-renal-disease) and are receiving home kidney dialysis, Medicare Part B covers your home dialysis equipment and supplies, which includes a blood pressure monitor. This coverage is part of the broader home dialysis benefit.",
+          "Standard home blood pressure monitors purchased for general hypertension management are not covered by Medicare. Blood pressure cuffs are not classified as durable medical equipment (DME) under Medicare's coverage rules, and because they are sold over the counter, Medicare Part D prescription drug plans do not cover them either.",
+        ],
+        whatItCovers: [
+          "Ambulatory blood pressure monitor (24-hour rental) — once per year",
+          "Home blood pressure monitor for home dialysis patients",
+          "Doctor visits to review blood pressure readings and adjust treatment",
+          "Prescription medications for hypertension (covered under Part D)",
+        ],
+        whatItDoesntCover: [
+          "Standard home blood pressure monitors for general use",
+          "Blood pressure cuffs purchased at a pharmacy",
+          "Wrist or finger blood pressure monitors",
+          "Smart blood pressure monitors that sync with phones",
+        ],
+        costNote: "Ambulatory monitor: covered under Part B; you pay 20% coinsurance after the $257 deductible (2026). Standard home monitors: full cost out of pocket ($25–$100).",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers same services as Original Medicare; OTC benefits may help",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) cover all services that Original Medicare covers, including ambulatory blood pressure monitors and home dialysis monitors. Your cost-sharing may differ from Original Medicare depending on your plan.",
+          "Some Medicare Advantage plans include an over-the-counter (OTC) benefit that provides an annual allowance for health-related purchases. If your plan includes an OTC benefit, a standard home blood pressure monitor may be eligible for purchase using your OTC allowance. Check your plan's OTC catalog or call your plan to confirm.",
+        ],
+        whatItCovers: [
+          "Ambulatory blood pressure monitors (same as Original Medicare)",
+          "Home dialysis blood pressure monitors (same as Original Medicare)",
+          "Standard home monitors — if your plan includes an OTC benefit",
+        ],
+        whatItDoesntCover: [
+          "Standard home monitors without an OTC benefit",
+          "Out-of-network providers (unless your plan allows out-of-network benefits)",
+        ],
+        callout: {
+          type: "tip",
+          title: "Use your OTC benefit for a home blood pressure monitor",
+          text: "Many Medicare Advantage plans include an annual OTC allowance of $100–$500. A quality home blood pressure monitor costs $25–$100 and may be eligible for purchase using your OTC benefit. Check your plan's OTC catalog or member portal.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Cost-Sharing Only",
+        coverageType: "partial",
+        statusBadge: "Covers Part B coinsurance for covered blood pressure monitoring",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. For covered blood pressure monitoring services (ambulatory monitors and dialysis home monitors), Medigap can cover the 20% Part B coinsurance. Medigap cannot cover standard home blood pressure monitors because Original Medicare does not cover them.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for ambulatory blood pressure monitors",
+          "Part B coinsurance (20%) for home dialysis blood pressure monitors",
+        ],
+        whatItDoesntCover: [
+          "Standard home blood pressure monitors (not covered by Original Medicare)",
+        ],
+        costNote: "With Medigap Plan G, your only cost for covered blood pressure monitoring is the $257 annual Part B deductible.",
+      },
+    ],
+    costTable: {
+      title: "Blood Pressure Monitor Costs Under Medicare (2026)",
+      headers: ["Monitor Type", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Monitor Type": "Ambulatory monitor (24-hour, once/year)",
+          "Medicare Coverage": "Covered (Part B)",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Monitor Type": "Home monitor for dialysis patients",
+          "Medicare Coverage": "Covered (Part B)",
+          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Monitor Type": "Standard home monitor (arm cuff)",
+          "Medicare Coverage": "Not covered",
+          "Your Cost (No Supplement)": "$25–$35 (full cost)",
+          "Your Cost (With Plan G)": "$25–$35 (full cost — not covered)",
+        },
+        {
+          "Monitor Type": "Smart home monitor (phone sync)",
+          "Medicare Coverage": "Not covered",
+          "Your Cost (No Supplement)": "$80–$100 (full cost)",
+          "Your Cost (With Plan G)": "$80–$100 (full cost — not covered)",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Standard home monitors are not covered by Medicare or Medigap. Retail prices are approximate.",
+    },
+    exceptionsSection: {
+      title: "Free Ways to Monitor Your Blood Pressure",
+      items: [
+        {
+          title: "Free Blood Pressure Checks at Pharmacies",
+          text: "Many pharmacies — including CVS, Walgreens, and Walmart — have free blood pressure machines available for public use. While these machines may not always be as accurate as a properly fitted arm cuff, they can provide a useful reference point. If you use a pharmacy machine, make sure the cuff fits your arm properly for the most accurate reading.",
+          highlight: "Many pharmacies offer free blood pressure checks. Ask your pharmacist about the accuracy of their machine and whether it is regularly calibrated.",
+        },
+        {
+          title: "Blood Pressure Monitoring at Your Annual Wellness Visit",
+          text: "Medicare Part B covers an Annual Wellness Visit (AWV) at no cost to you. During your AWV, your doctor will check your blood pressure and review your cardiovascular risk factors. If your doctor identifies hypertension or suspects white coat hypertension, they can order an ambulatory blood pressure monitor — which Medicare will cover once per year.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover home blood pressure monitors?",
+        answer: "Medicare does not cover standard home blood pressure monitors for general use. Medicare only covers blood pressure monitors in two situations: (1) ambulatory monitors worn for 24 hours to diagnose white coat or masked hypertension, covered once per year under Part B; and (2) home monitors for patients receiving home kidney dialysis.",
+      },
+      {
+        question: "Does Medicare cover blood pressure cuffs?",
+        answer: "No. Blood pressure cuffs are not classified as durable medical equipment under Medicare's coverage rules. They are sold over the counter and are not covered by Medicare Part B or Part D.",
+      },
+      {
+        question: "How much does a home blood pressure monitor cost?",
+        answer: "A basic home blood pressure monitor with an arm cuff and digital display typically costs $25–$35. Smart monitors that store data or sync with smartphones cost $80–$100. You can purchase them at pharmacies, big box stores, or online without a prescription.",
+      },
+      {
+        question: "Can I get a blood pressure monitor through Medicare Advantage?",
+        answer: "Some Medicare Advantage plans include an over-the-counter (OTC) benefit that may cover home blood pressure monitors. Check your plan's OTC catalog or call your plan to see if a home blood pressure monitor is eligible for purchase using your OTC allowance.",
+      },
+      {
+        question: "Does Medicare cover ambulatory blood pressure monitoring?",
+        answer: "Yes. Medicare Part B covers ambulatory blood pressure monitoring once per year when your doctor suspects white coat hypertension or masked hypertension. You wear the monitor for 24 hours, and it takes automatic readings throughout the day. You pay 20% coinsurance after your Part B deductible.",
+      },
+      {
+        question: "Does Medicare cover blood pressure medication?",
+        answer: "Yes. Medicare Part D covers prescription medications for high blood pressure (hypertension). Coverage depends on your specific Part D plan's formulary. Many common blood pressure medications — including generic versions of lisinopril, amlodipine, and metoprolol — are available at low or no cost on most Part D formularies.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Ambulatory blood pressure monitors</strong> covered once per year under Part B" },
+      { icon: "check", text: "<strong>Home dialysis monitors</strong> covered under Part B for ESRD patients" },
+      { icon: "x", text: "<strong>Standard home blood pressure monitors</strong> are NOT covered by Original Medicare" },
+      { icon: "info", text: "Many pharmacies offer <strong>free blood pressure checks</strong> using public machines" },
+      { icon: "check", text: "Some <strong>Medicare Advantage OTC benefits</strong> may cover home monitors ($25–$100)" },
+      { icon: "check", text: "<strong>Blood pressure medications</strong> are covered by Medicare Part D" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Cardiovascular Disease?", description: "Learn about Medicare's coverage for heart disease, cardiac tests, and cardiac rehabilitation.", slug: "medicare-coverage-for-cardiovascular-disease" },
+      { title: "Does Medicare Cover Atrial Fibrillation (AFib)?", description: "Learn about Medicare's coverage for AFib diagnosis and treatment.", slug: "does-medicare-cover-atrial-fibrillation" },
+      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what's included in your free annual wellness visit under Medicare Part B.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including OTC allowances.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Cardiovascular Disease",
+      "Does Medicare Cover Atrial Fibrillation",
+      "What Is the Medicare Annual Wellness Visit",
+      "Medicare Advantage Extra Benefits Explained",
+    ],
+    ctaBanner: {
+      title: "Need Help Managing Hypertension Costs with Medicare?",
+      text: "Our licensed Medicare agents can help you find a Medicare Advantage or Part D plan that covers your blood pressure medications and provides OTC benefits for home monitoring. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "does-medicare-cover-atrial-fibrillation", "what-is-the-medicare-annual-wellness-visit", "medicare-advantage-extra-benefits-explained-whats-really-included"],
+  },
+
+  // ─── Medicare Coverage for Cardiovascular Disease ───────────────────────────
+  {
+    slug: "medicare-coverage-for-cardiovascular-disease",
+    seo: {
+      title: "Does Medicare Cover Cardiovascular Disease Treatment? | MedicareFAQ",
+      description: "Medicare covers a wide range of cardiovascular disease services including cardiologist visits, cardiac tests, heart surgery, and cardiac rehabilitation. Learn what's covered and what you'll pay.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-cardiovascular-disease/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-cardiovascular-disease.jpg",
+    },
+    title: "Does Medicare Cover Cardiovascular Disease Treatment?",
+    subtitle: "Yes — Medicare covers a wide range of cardiovascular disease services including cardiologist visits, cardiac tests, heart surgery, and cardiac rehabilitation. Learn what's covered under Part A and Part B, what you'll pay, and how Medigap can help.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers medically necessary inpatient and outpatient services for cardiovascular disease. Medicare Part A covers hospitalization for heart attacks, strokes, and heart surgery. Medicare Part B covers cardiologist visits, cardiac tests (ECGs, echocardiograms, stress tests), and preventive cardiovascular screenings at no cost. Medicare also covers cardiac rehabilitation programs. You pay 20% coinsurance for most outpatient services after your Part B deductible.",
+      badges: [
+        { plan: "Medicare Part A", status: "covered" },
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers hospitalization for heart attacks, strokes, heart surgery, and cardiac rehabilitation" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers cardiologist visits, ECGs, echocardiograms, stress tests, and preventive screenings" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; may offer additional cardiac benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Partial", icon: "users", notes: "Covers Part A deductible and Part B coinsurance, reducing out-of-pocket costs significantly" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B — Outpatient)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers cardiologist visits, cardiac tests, and preventive screenings",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient cardiovascular services when they are medically necessary. This includes visits to a cardiologist for diagnosis, treatment, and management of heart conditions. Medicare also covers a range of cardiac diagnostic tests including electrocardiograms (ECGs), [echocardiograms](/faqs/does-medicare-cover-an-echocardiogram), stress tests, nuclear stress tests, and cardiac catheterization.",
+          "Medicare Part B also covers several cardiovascular preventive services at no cost to you. These include cardiovascular disease screenings (cholesterol, lipid, and triglyceride tests) once every five years, and cardiovascular behavioral therapy — a once-per-year visit with your doctor to discuss aspirin use, blood pressure management, and diet.",
+          "For most outpatient cardiovascular services, you pay 20% coinsurance after your annual $257 Part B deductible (2026). Preventive services are covered at 100% with no deductible or coinsurance.",
+        ],
+        whatItCovers: [
+          "Cardiologist visits (diagnosis, treatment, and management)",
+          "Electrocardiograms (ECGs/EKGs)",
+          "Echocardiograms",
+          "Cardiac stress tests and nuclear stress tests",
+          "Cardiac catheterization",
+          "Cardiovascular disease screenings (cholesterol, lipid panel) — once every 5 years at $0",
+          "Cardiovascular behavioral therapy — once per year at $0",
+          "Cardiac rehabilitation programs",
+          "Outpatient heart procedures",
+        ],
+        whatItDoesntCover: [
+          "Routine physical exams (unless combined with a covered service)",
+          "Services from providers who do not accept Medicare",
+        ],
+        costNote: "Preventive cardiovascular services: $0. Outpatient diagnostic services and cardiologist visits: 20% coinsurance after $257 Part B deductible (2026).",
+      },
+      {
+        planName: "Original Medicare (Part A — Inpatient)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers hospitalization for heart attacks, strokes, and heart surgery",
+        paragraphs: [
+          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hospital stays for cardiovascular conditions including heart attacks, strokes, heart failure, and heart surgery. This includes open-heart surgery, bypass surgery, triple bypass surgery, valve replacement, and other cardiac surgical procedures. Medicare covers these as medically necessary inpatient procedures.",
+          "After a qualifying hospital stay, Medicare Part A also covers inpatient cardiac rehabilitation at a skilled nursing facility. If your doctor recommends inpatient cardiac rehab following a heart attack or heart surgery, Medicare covers up to 100 days per benefit period, with $0 coinsurance for days 1–20 and $209.50/day for days 21–100 (2026).",
+        ],
+        whatItCovers: [
+          "Inpatient hospitalization for heart attacks and strokes",
+          "Open-heart surgery, bypass surgery, and valve replacement",
+          "Inpatient cardiac rehabilitation following a qualifying hospital stay",
+          "Skilled nursing facility care following a qualifying hospital stay",
+        ],
+        whatItDoesntCover: [
+          "Long-term custodial care (personal care without skilled nursing needs)",
+          "Treatment at non-Medicare-approved facilities",
+        ],
+        costNote: "Part A: $1,676 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026).",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — may offer additional cardiac benefits",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all cardiovascular services that Original Medicare covers. Some Medicare Advantage plans may also offer additional benefits for cardiovascular disease management, such as disease management programs, telehealth services, or transportation to cardiac appointments.",
+          "Cost-sharing under Medicare Advantage varies by plan. Some plans may have lower copays for specialist visits and cardiac tests. However, Medicare Advantage plans use provider networks, so verify that your cardiologist and preferred hospital are in-network before receiving care.",
+        ],
+        whatItCovers: [
+          "All cardiovascular services covered by Original Medicare",
+          "Additional cardiac disease management programs (varies by plan)",
+          "Telehealth services for cardiac monitoring (varies by plan)",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers (unless your plan allows out-of-network benefits)",
+          "Services requiring prior authorization that was not obtained",
+        ],
+        callout: {
+          type: "warning",
+          title: "Verify your cardiologist is in-network",
+          text: "Medicare Advantage plans use provider networks. Before scheduling a cardiology appointment, verify that your cardiologist and preferred hospital are in-network. Receiving care from an out-of-network provider can result in significantly higher costs.",
+        },
+      },
+    ],
+    costTable: {
+      title: "Cardiovascular Disease Treatment Costs Under Medicare (2026)",
+      headers: ["Service", "Medicare Part", "What Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Service": "Cardiovascular disease screening (cholesterol/lipid panel)",
+          "Medicare Part": "Part B (preventive)",
+          "What Medicare Pays": "100%",
+          "Your Cost (No Supplement)": "$0",
+          "Your Cost (With Plan G)": "$0",
+        },
+        {
+          "Service": "Cardiologist visit (outpatient)",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "Echocardiogram or stress test",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "Heart surgery (inpatient, days 1–60)",
+          "Medicare Part": "Part A",
+          "What Medicare Pays": "100% after deductible",
+          "Your Cost (No Supplement)": "$1,676 per benefit period",
+          "Your Cost (With Plan G)": "$0 (Plan G covers Part A deductible)",
+        },
+        {
+          "Service": "Cardiac rehabilitation (outpatient)",
+          "Medicare Part": "Part B",
+          "What Medicare Pays": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Part A deductible: $1,676 per benefit period. Actual costs vary by provider and location.",
+    },
+    exceptionsSection: {
+      title: "Key Rules for Cardiovascular Disease Coverage",
+      items: [
+        {
+          title: "Preventive Cardiovascular Services Are Free",
+          text: "Medicare Part B covers cardiovascular disease screenings (cholesterol, lipid, and triglyceride tests) once every five years at no cost to you — no deductible or coinsurance. Medicare also covers cardiovascular behavioral therapy once per year at no cost. These are preventive services, so you must receive them from a Medicare-participating provider and the visit must be billed as a preventive service.",
+          highlight: "Ask your doctor to bill cardiovascular screenings as preventive services to ensure $0 cost. If the visit includes diagnostic services, cost-sharing may apply.",
+        },
+        {
+          title: "Cardiac Rehabilitation Coverage Rules",
+          text: "Medicare Part B covers outpatient cardiac rehabilitation programs for patients who have had a heart attack, coronary artery bypass surgery, stable angina, heart valve repair or replacement, coronary angioplasty, or a heart or heart-lung transplant. Medicare covers up to 36 sessions of cardiac rehabilitation, with the option to extend to 72 sessions if medically necessary. Each session is covered at 80% after your Part B deductible.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover cardiologist visits?",
+        answer: "Yes. Medicare Part B covers cardiologist visits when they are medically necessary for the diagnosis, treatment, or management of a heart condition. You pay 20% coinsurance after your annual $257 Part B deductible (2026). The cardiologist must accept Medicare assignment.",
+      },
+      {
+        question: "Does Medicare cover open-heart surgery?",
+        answer: "Yes. Medicare covers open-heart surgery as a medically necessary inpatient procedure under Part A. You pay the $1,676 Part A deductible per benefit period (2026), with $0 coinsurance for days 1–60. Medigap Plan G covers the Part A deductible, leaving you with $0 out of pocket.",
+      },
+      {
+        question: "Does Medicare cover heart bypass surgery?",
+        answer: "Yes. Medicare covers heart bypass surgery (including triple bypass surgery) as medically necessary inpatient procedures under Part A. The same cost-sharing rules apply as for other inpatient hospital stays.",
+      },
+      {
+        question: "Does Medicare cover cardiac rehabilitation?",
+        answer: "Yes. Medicare Part B covers outpatient cardiac rehabilitation for patients who have had a heart attack, bypass surgery, or other qualifying cardiac events. Medicare covers up to 36 sessions (extendable to 72 if medically necessary). You pay 20% coinsurance after your Part B deductible.",
+      },
+      {
+        question: "Does Medicare cover a stress test?",
+        answer: "Yes. Medicare covers cardiac stress tests and nuclear stress tests when ordered by a doctor to diagnose or rule out heart disease. Coverage is under Part B, and you pay 20% coinsurance after your annual Part B deductible.",
+      },
+      {
+        question: "Does Medicare pay for a lipid panel?",
+        answer: "Yes. Medicare Part B covers a lipid panel (cholesterol, LDL, HDL, and triglycerides) as a cardiovascular disease screening once every five years at no cost to you. If your doctor orders a lipid panel more frequently for diagnostic or monitoring purposes, you pay 20% coinsurance after your Part B deductible.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Cardiovascular disease screenings</strong> (cholesterol/lipid panel) covered at $0 once every 5 years" },
+      { icon: "check", text: "<strong>Cardiologist visits</strong> and cardiac tests covered under Part B (20% coinsurance)" },
+      { icon: "check", text: "<strong>Heart surgery</strong> covered under Part A ($1,676 deductible per benefit period)" },
+      { icon: "check", text: "<strong>Cardiac rehabilitation</strong> covered under Part B (up to 36–72 sessions)" },
+      { icon: "dollar", text: "Outpatient services: <strong>20% coinsurance</strong> after $257 Part B deductible (2026)" },
+      { icon: "info", text: "<strong>Medigap Plan G</strong> covers Part A deductible and Part B coinsurance for cardiac care" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover an Echocardiogram?", description: "Learn about Medicare's coverage for echocardiograms and EKGs.", slug: "does-medicare-cover-an-echocardiogram" },
+      { title: "Does Medicare Cover Atrial Fibrillation (AFib)?", description: "Learn about Medicare's coverage for AFib diagnosis and treatment.", slug: "does-medicare-cover-atrial-fibrillation" },
+      { title: "Does Medicare Cover Stroke Victims?", description: "Learn about Medicare's coverage for stroke treatment and rehabilitation.", slug: "medicare-coverage-for-stroke-victims" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part A deductible and Part B coinsurance for cardiac care.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover an Echocardiogram",
+      "Does Medicare Cover Atrial Fibrillation",
+      "Does Medicare Cover Stroke Victims",
+      "Medicare Supplement Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Reducing Your Cardiovascular Care Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for cardiac care. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-an-echocardiogram", "does-medicare-cover-atrial-fibrillation", "medicare-coverage-for-stroke-victims", "medicare-supplement-plan-g"],
+  },
+
+  // ─── Medicare Coverage for Colonoscopy Screenings ───────────────────────────
+  {
+    slug: "medicare-coverage-for-colonoscopy-screenings",
+    seo: {
+      title: "Does Medicare Cover Colonoscopy Screenings? | MedicareFAQ",
+      description: "Medicare covers colonoscopy screenings at 100% — no deductible or coinsurance. Learn about screening frequency, what happens when a polyp is found, and what you'll pay.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-colonoscopy-screenings/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-colonoscopy-screenings.jpg",
+    },
+    title: "Does Medicare Cover Colonoscopy Screenings?",
+    subtitle: "Yes — Medicare covers colonoscopy screenings at 100% with no deductible or coinsurance. Learn about coverage frequency, what happens when a polyp is found, and what you'll pay for diagnostic colonoscopies.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers colonoscopy screenings at 100% — no deductible and no coinsurance — when performed within the approved frequency. If your doctor finds a polyp during a screening colonoscopy and removes it, the procedure changes from screening to diagnostic, and you may owe 20% coinsurance. Medicare Advantage plans must cover the same colonoscopy benefits as Original Medicare.",
+      badges: [
+        { plan: "Screening Colonoscopy", status: "covered" },
+        { plan: "Diagnostic Colonoscopy", status: "partial" },
+        { plan: "Polyp Removal", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Screening colonoscopy (average risk)", coverage: "Covered at 100%", icon: "shield", notes: "Covered once every 10 years (120 months) for average-risk patients; no deductible or coinsurance" },
+      { planType: "Screening colonoscopy (high risk)", coverage: "Covered at 100%", icon: "shield", notes: "Covered once every 2 years (24 months) for high-risk patients; no deductible or coinsurance" },
+      { planType: "Diagnostic colonoscopy", coverage: "Partial", icon: "shield", notes: "Covered at 80%; you pay 20% coinsurance; Part B deductible does not apply" },
+      { planType: "Polyp removal during colonoscopy", coverage: "Partial", icon: "shield", notes: "Covered but changes procedure to diagnostic; 20% coinsurance applies" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same colonoscopy benefits as Original Medicare; cost-sharing varies" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B) — Screening Colonoscopies",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered at 100%",
+        coverageType: "covered",
+        statusBadge: "Screening colonoscopies covered at $0 — no deductible or coinsurance",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers colonoscopy screenings as [preventive services](/faqs/medicare-preventive-services), which means there is no deductible and no coinsurance when you receive a screening colonoscopy from a Medicare-participating provider. Medicare also covers the cost of anesthesia for a colonoscopy.",
+          "The frequency of coverage depends on your risk level. For average-risk patients, Medicare covers a screening colonoscopy once every 10 years (120 months). For high-risk patients — those with a personal or family history of colorectal cancer, or who have had polyps previously — Medicare covers a colonoscopy once every 2 years (24 months). Medicare also covers a colonoscopy once every 4 years (48 months) following a flexible sigmoidoscopy.",
+          "There is no age limit for Medicare coverage of colonoscopies. Medicare will cover a colonoscopy at any age as long as it falls within the approved frequency.",
+        ],
+        whatItCovers: [
+          "Screening colonoscopy for average-risk patients — once every 10 years at $0",
+          "Screening colonoscopy for high-risk patients — once every 2 years at $0",
+          "Anesthesia for colonoscopy — covered at $0 for screening procedures",
+          "Colonoscopy following flexible sigmoidoscopy — once every 4 years at $0",
+        ],
+        whatItDoesntCover: [
+          "Colonoscopies performed more frequently than the approved schedule",
+          "Colonoscopies performed by providers who do not accept Medicare",
+        ],
+        costNote: "Screening colonoscopy: $0 (no deductible, no coinsurance). Anesthesia for screening colonoscopy: $0.",
+      },
+      {
+        planName: "Original Medicare (Part B) — Diagnostic Colonoscopies",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Partial — 80% Covered",
+        coverageType: "partial",
+        statusBadge: "Diagnostic colonoscopies covered at 80%; you pay 20% coinsurance",
+        paragraphs: [
+          "If your doctor finds a polyp or other abnormality during a screening colonoscopy and removes it, the procedure changes from screening to diagnostic. When this happens, different coverage rules apply: Medicare covers 80% of the approved amount, and you are responsible for the remaining 20% coinsurance. The Part B deductible does not apply to colonoscopies.",
+          "A diagnostic colonoscopy may also be ordered when you have symptoms such as rectal bleeding, abdominal pain, or changes in bowel habits. In these cases, the colonoscopy is diagnostic from the start, and the 20% coinsurance applies.",
+          "If your screening colonoscopy becomes diagnostic, your doctor may ask you to return for another colonoscopy before your standard 10-year interval. That follow-up colonoscopy is also diagnostic, and the 20% coinsurance applies.",
+        ],
+        whatItCovers: [
+          "Diagnostic colonoscopy — 80% of approved amount",
+          "Polyp removal during colonoscopy — 80% of approved amount",
+          "Laboratory testing of removed polyps — 80% of approved amount",
+          "Anesthesia for diagnostic colonoscopy — 80% of approved amount",
+        ],
+        whatItDoesntCover: [
+          "The remaining 20% coinsurance (unless you have Medigap)",
+        ],
+        costNote: "Diagnostic colonoscopy: 20% coinsurance; Part B deductible does not apply. With Medigap Plan G, the 20% coinsurance is covered after your annual $257 deductible.",
+        callout: {
+          type: "warning",
+          title: "Screening to diagnostic conversion",
+          text: "If your doctor removes a polyp during what started as a screening colonoscopy, the procedure is reclassified as diagnostic. This means you will owe 20% coinsurance even though the procedure started as a free screening. Ask your doctor about this possibility before your procedure.",
+        },
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover all colonoscopy screenings that Original Medicare covers, at the same frequency. However, cost-sharing for diagnostic colonoscopies may differ from Original Medicare. Some Medicare Advantage plans may have lower copays for colonoscopies, while others may require prior authorization.",
+          "Always verify that your gastroenterologist and the facility where the colonoscopy will be performed are in-network before scheduling the procedure.",
+        ],
+        whatItCovers: [
+          "Screening colonoscopies at the same frequency as Original Medicare",
+          "Diagnostic colonoscopies — cost-sharing varies by plan",
+          "Polyp removal — cost-sharing varies by plan",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network providers (unless your plan allows out-of-network benefits)",
+          "Services requiring prior authorization that was not obtained",
+        ],
+        callout: {
+          type: "info",
+          title: "Check your plan's colonoscopy cost-sharing",
+          text: "Medicare Advantage plans may have different cost-sharing for diagnostic colonoscopies than Original Medicare. Some plans have $0 copays for colonoscopies; others may charge a copay. Review your plan's Summary of Benefits before scheduling.",
+        },
+      },
+    ],
+    costTable: {
+      title: "Colonoscopy Costs Under Medicare (2026)",
+      headers: ["Colonoscopy Type", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Colonoscopy Type": "Screening (average risk, once/10 years)",
+          "Medicare Coverage": "100% — no deductible or coinsurance",
+          "Your Cost (No Supplement)": "$0",
+          "Your Cost (With Plan G)": "$0",
+        },
+        {
+          "Colonoscopy Type": "Screening (high risk, once/2 years)",
+          "Medicare Coverage": "100% — no deductible or coinsurance",
+          "Your Cost (No Supplement)": "$0",
+          "Your Cost (With Plan G)": "$0",
+        },
+        {
+          "Colonoscopy Type": "Screening converted to diagnostic (polyp found)",
+          "Medicare Coverage": "80% — no Part B deductible",
+          "Your Cost (No Supplement)": "20% coinsurance (no deductible)",
+          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+        },
+        {
+          "Colonoscopy Type": "Diagnostic colonoscopy (ordered for symptoms)",
+          "Medicare Coverage": "80% — no Part B deductible",
+          "Your Cost (No Supplement)": "20% coinsurance (no deductible)",
+          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+        },
+        {
+          "Colonoscopy Type": "Anesthesia (screening)",
+          "Medicare Coverage": "100%",
+          "Your Cost (No Supplement)": "$0",
+          "Your Cost (With Plan G)": "$0",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. The Part B deductible does not apply to colonoscopies. Actual costs vary by provider and location.",
+    },
+    exceptionsSection: {
+      title: "Important Rules for Colonoscopy Coverage",
+      items: [
+        {
+          title: "The Part B Deductible Does Not Apply to Colonoscopies",
+          text: "Unlike most Part B services, the annual Part B deductible ($257 in 2026) does not apply to colonoscopies — whether screening or diagnostic. For screening colonoscopies, you pay $0. For diagnostic colonoscopies, you pay only the 20% coinsurance, not the deductible. This is an important distinction that can save you money.",
+          highlight: "The Part B deductible does not apply to colonoscopies. For diagnostic colonoscopies, you owe only the 20% coinsurance — not the $257 deductible.",
+        },
+        {
+          title: "Cologuard as an Alternative to Colonoscopy",
+          text: "If you prefer a non-invasive colorectal cancer screening, Medicare covers Cologuard — a stool DNA test — once every three years for average-risk patients aged 45–85. Cologuard is covered at 100% as a preventive screening. However, if your Cologuard test is positive, you will need a diagnostic colonoscopy, and the 20% coinsurance will apply to that follow-up procedure.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "How often does Medicare cover a colonoscopy?",
+        answer: "Medicare covers a screening colonoscopy once every 10 years (120 months) for average-risk patients. For high-risk patients with a personal or family history of colorectal cancer, Medicare covers a colonoscopy once every 2 years (24 months). There is no age limit.",
+      },
+      {
+        question: "Does Medicare cover colonoscopy anesthesia?",
+        answer: "Yes. Medicare covers the cost of anesthesia for a colonoscopy. For screening colonoscopies, anesthesia is covered at 100% with no cost to you. For diagnostic colonoscopies, anesthesia is covered at 80%, and you pay 20% coinsurance.",
+      },
+      {
+        question: "Does Medicare cover a colonoscopy after age 75?",
+        answer: "Yes. There is no age limit for Medicare coverage of colonoscopies. Medicare will cover a colonoscopy at any age as long as it falls within the approved frequency.",
+      },
+      {
+        question: "How much does a colonoscopy cost with Medicare?",
+        answer: "A screening colonoscopy is fully covered by Medicare at $0 — no deductible or coinsurance. If the colonoscopy becomes diagnostic (e.g., a polyp is found and removed), you pay 20% coinsurance with no deductible. With Medigap Plan G, the 20% coinsurance is covered after your annual $257 deductible.",
+      },
+      {
+        question: "Does Medicare cover colon polyp removal?",
+        answer: "Yes. Medicare covers the removal of polyps found during a colonoscopy. However, when a polyp is removed, the procedure changes from screening to diagnostic, and you owe 20% coinsurance. The Part B deductible does not apply.",
+      },
+      {
+        question: "Does Medicare cover Cologuard?",
+        answer: "Yes. Medicare covers Cologuard (stool DNA test) as a colorectal cancer screening once every three years for average-risk patients aged 45–85. It is covered at 100% with no cost to you. If your Cologuard test is positive, a follow-up diagnostic colonoscopy is required, and the 20% coinsurance applies to that procedure.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Screening colonoscopy</strong> covered at $0 — no deductible or coinsurance" },
+      { icon: "check", text: "Average-risk patients: covered <strong>once every 10 years</strong>; high-risk: once every 2 years" },
+      { icon: "alert", text: "If a polyp is found and removed, procedure becomes <strong>diagnostic</strong> — 20% coinsurance applies" },
+      { icon: "info", text: "The <strong>Part B deductible does not apply</strong> to colonoscopies (screening or diagnostic)" },
+      { icon: "check", text: "<strong>Anesthesia</strong> for screening colonoscopy covered at $0" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance for diagnostic colonoscopies" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Preventive Services", description: "Explore the free preventive screenings and services available under Medicare Part B.", slug: "medicare-preventive-services" },
+      { title: "Does Medicare Cover Cologuard?", description: "Learn about Medicare's coverage for the Cologuard stool DNA colorectal cancer screening test.", slug: "does-medicare-cover-cologuard" },
+      { title: "Does Medicare Cover Cancer Treatment?", description: "Learn about Medicare's coverage for chemotherapy, radiation, and other cancer treatments.", slug: "medicare-coverage-for-cancer" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your colonoscopy coinsurance and other out-of-pocket costs.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Preventive Services",
+      "Does Medicare Cover Cologuard",
+      "Does Medicare Cover Cancer Treatment",
+      "Medicare Supplement Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Medicare Colonoscopy Coverage?",
+      text: "Our licensed Medicare agents can help you find a plan that minimizes your out-of-pocket costs for colonoscopies and other preventive screenings. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-preventive-services", "does-medicare-cover-cologuard", "medicare-coverage-for-cancer", "medicare-supplement-plan-g"],
+  },
+
+  // ─── Medicare Coverage for Dermatology ──────────────────────────────────────
+  {
+    slug: "medicare-coverage-for-dermatology",
+    seo: {
+      title: "Does Medicare Cover Dermatology Services? | MedicareFAQ",
+      description: "Medicare covers medically necessary dermatology services including skin cancer screenings, mole removal, and biopsies. Learn what's covered, what isn't, and what you'll pay.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-dermatology/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-dermatology.jpg",
+    },
+    title: "Does Medicare Cover Dermatology Services?",
+    subtitle: "Medicare covers medically necessary dermatology services including skin cancer screenings, mole removal, biopsies, and treatment of skin conditions. Cosmetic procedures and routine skin exams are not covered. Learn what's covered and what you'll pay.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 15, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers medically necessary dermatology services including visits to a dermatologist for diagnosis and treatment of skin conditions, skin cancer screenings when there is a clinical reason, mole removal for cancerous or suspicious growths, skin biopsies, and treatment of skin cancer. Cosmetic dermatology procedures (Botox for wrinkles, cosmetic mole removal, etc.) and routine full-body skin exams without a clinical reason are not covered.",
+      badges: [
+        { plan: "Medically Necessary Dermatology", status: "covered" },
+        { plan: "Skin Cancer Screening/Treatment", status: "covered" },
+        { plan: "Cosmetic Procedures", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Dermatologist visits (medically necessary)", coverage: "Covered", icon: "shield", notes: "Covered under Part B at 80%; you pay 20% coinsurance after Part B deductible" },
+      { planType: "Skin cancer screenings (with clinical reason)", coverage: "Covered", icon: "shield", notes: "Covered when there is a clinical reason (suspicious mole, lesion, etc.)" },
+      { planType: "Mole removal (cancerous or suspicious)", coverage: "Covered", icon: "shield", notes: "Covered when medically necessary; cosmetic mole removal is not covered" },
+      { planType: "Skin biopsies", coverage: "Covered", icon: "shield", notes: "Covered under Part B when medically necessary to diagnose a condition" },
+      { planType: "Cosmetic dermatology (Botox, wrinkle treatment)", coverage: "Not Covered", icon: "x", notes: "Not covered; considered cosmetic, not medically necessary" },
+      { planType: "Routine full-body skin exam (no symptoms)", coverage: "Not Covered", icon: "x", notes: "Not covered without a clinical reason or symptoms" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers medically necessary dermatology services",
+        paragraphs: [
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers medically necessary dermatology services when provided by a Medicare-participating dermatologist. This includes visits to a dermatologist for the diagnosis and treatment of skin conditions such as skin cancer, psoriasis, eczema, atopic dermatitis, rosacea, and other medical skin conditions.",
+          "Medicare covers skin cancer screenings when there is a clinical reason — such as a suspicious mole, unusual growth, or lesion that may indicate cancer. Medicare Part B covers the cost of a referral to a dermatologist for further evaluation of a potentially cancerous skin growth. Skin biopsies ordered to investigate suspicious lesions are also covered under Part B.",
+          "Mole removal is covered when the mole is cancerous or medically necessary to remove. Wart removal and seborrheic keratosis removal are covered if they are causing pain or continuously bleeding. Cosmetic mole removal — removing a mole for appearance reasons only — is not covered.",
+        ],
+        whatItCovers: [
+          "Dermatologist visits for diagnosis and treatment of skin conditions",
+          "Skin cancer screenings when there is a clinical reason",
+          "Skin biopsies to diagnose suspicious lesions",
+          "Mole removal (cancerous or medically necessary)",
+          "Wart removal (when causing pain or bleeding)",
+          "Seborrheic keratosis removal (when causing pain or bleeding)",
+          "Skin tag removal (when medically necessary)",
+          "Treatment of skin cancer (surgery, topical treatments, etc.)",
+          "Treatment of psoriasis, eczema, atopic dermatitis, and other skin conditions",
+          "Allergy testing related to skin conditions",
+        ],
+        whatItDoesntCover: [
+          "Cosmetic procedures (Botox for wrinkles, cosmetic mole removal, chemical peels for cosmetic purposes)",
+          "Routine full-body skin exams without a clinical reason or symptoms",
+          "Hair loss treatment (unless related to a covered medical condition)",
+          "Cosmetic scar treatment",
+        ],
+        costNote: "You pay 20% coinsurance after the $257 annual Part B deductible (2026). Preventive services (if applicable) are covered at $0.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered — cost-sharing varies by plan",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover all medically necessary dermatology services that Original Medicare covers. Cost-sharing varies by plan — some plans may have lower copays for specialist visits, while others may require referrals or prior authorization for dermatology services.",
+          "Some Medicare Advantage plans may also offer additional benefits such as coverage for over-the-counter skin care products or expanded coverage for certain skin conditions. Check your plan's Evidence of Coverage for details.",
+        ],
+        whatItCovers: [
+          "All medically necessary dermatology services covered by Original Medicare",
+          "Additional skin care benefits (varies by plan)",
+        ],
+        whatItDoesntCover: [
+          "Cosmetic dermatology procedures",
+          "Out-of-network dermatologists (unless your plan allows out-of-network benefits)",
+        ],
+        callout: {
+          type: "info",
+          title: "Referrals may be required for dermatology",
+          text: "Some Medicare Advantage HMO plans require a referral from your primary care doctor before seeing a dermatologist. Check your plan's requirements before scheduling a dermatology appointment to avoid unexpected costs.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "partial",
+        statusBadge: "Covers Part B coinsurance for covered dermatology services",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary dermatology services. With Medigap Plan G, your only cost for covered dermatology services is the annual $257 Part B deductible. After that, Plan G covers the 20% coinsurance for the rest of the year.",
+          "Medigap cannot cover cosmetic dermatology procedures or other services that Original Medicare excludes.",
+        ],
+        whatItCovers: [
+          "Part B coinsurance (20%) for covered dermatology services",
+          "Part A deductible for inpatient dermatology procedures",
+        ],
+        whatItDoesntCover: [
+          "Cosmetic dermatology procedures (not covered by Original Medicare)",
+          "Routine skin exams without a clinical reason",
+        ],
+        costNote: "With Medigap Plan G, your only annual cost for covered dermatology services is the $257 Part B deductible.",
+      },
+    ],
+    costTable: {
+      title: "Dermatology Service Costs Under Medicare (2026)",
+      headers: ["Service", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      rows: [
+        {
+          "Service": "Dermatologist visit (medically necessary)",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "Skin biopsy",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "Mole removal (cancerous)",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "Skin cancer treatment",
+          "Medicare Coverage": "80% after deductible",
+          "Your Cost (No Supplement)": "20% + $257 deductible",
+          "Your Cost (With Plan G)": "$257 deductible only",
+        },
+        {
+          "Service": "Cosmetic Botox or wrinkle treatment",
+          "Medicare Coverage": "Not covered",
+          "Your Cost (No Supplement)": "Full cost ($200–$600+)",
+          "Your Cost (With Plan G)": "Full cost (not covered)",
+        },
+      ],
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Actual costs vary by provider and location.",
+    },
+    exceptionsSection: {
+      title: "When Cosmetic Procedures May Be Covered",
+      items: [
+        {
+          title: "Medically Necessary vs. Cosmetic: The Key Distinction",
+          text: "Medicare covers dermatology procedures that are medically necessary — meaning they are needed to diagnose, treat, or manage a health condition. Cosmetic procedures performed solely to improve appearance are not covered. However, some procedures that appear cosmetic may be covered if they serve a medical purpose. For example, scar revision may be covered if the scar impairs function (such as restricting movement). Botox may be covered for certain medical conditions (such as hyperhidrosis or blepharospasm) but not for cosmetic wrinkle treatment.",
+          highlight: "If you believe a dermatology procedure is medically necessary, ask your doctor to document the medical reason in your records. This documentation is essential for Medicare coverage.",
+        },
+        {
+          title: "Hair Loss: When Is It Covered?",
+          text: "Medicare does not cover treatment for cosmetic hair loss (androgenetic alopecia). However, Medicare may cover evaluation and treatment of hair loss caused by a medical condition such as alopecia areata, thyroid disease, or lupus. If your hair loss is related to a covered medical condition, the dermatology visit and treatment may be covered under Part B.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover dermatologist visits?",
+        answer: "Yes. Medicare Part B covers visits to a dermatologist when they are medically necessary for the diagnosis or treatment of a skin condition. You pay 20% coinsurance after your annual $257 Part B deductible (2026). The dermatologist must accept Medicare assignment.",
+      },
+      {
+        question: "Does Medicare cover skin cancer screenings?",
+        answer: "Medicare covers skin cancer screenings when there is a clinical reason — such as a suspicious mole, unusual growth, or lesion. Medicare does not cover routine full-body skin exams without a clinical reason. If your doctor refers you to a dermatologist for evaluation of a potentially cancerous growth, that visit is covered under Part B.",
+      },
+      {
+        question: "Does Medicare cover mole removal?",
+        answer: "Medicare covers mole removal when it is medically necessary — for example, when the mole is cancerous or suspected to be cancerous. Cosmetic mole removal (removing a mole for appearance reasons only) is not covered. You pay 20% coinsurance after your Part B deductible for covered mole removal.",
+      },
+      {
+        question: "Does Medicare cover dermatology for hair loss?",
+        answer: "Medicare does not cover treatment for cosmetic hair loss. However, if your hair loss is caused by a medical condition such as alopecia areata, thyroid disease, or lupus, Medicare may cover the dermatology visit and treatment related to that underlying condition.",
+      },
+      {
+        question: "Is sebaceous cyst removal covered by Medicare?",
+        answer: "Medicare may cover sebaceous cyst removal if it is medically necessary — for example, if the cyst is infected, causing pain, or affecting function. Cosmetic removal of a sebaceous cyst is not covered. Your doctor must document the medical necessity for Medicare to cover the procedure.",
+      },
+      {
+        question: "Does Medicare cover atopic dermatitis?",
+        answer: "Yes. Medicare Part B covers the diagnosis and treatment of atopic dermatitis (eczema) as a medically necessary service. This includes dermatologist visits, prescription medications, and other treatments. Medicare Part D covers prescription drugs for atopic dermatitis, including newer biologic medications such as dupilumab (Dupixent).",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medically necessary dermatology visits</strong> covered under Part B (20% coinsurance)" },
+      { icon: "check", text: "<strong>Skin cancer screenings</strong> covered when there is a clinical reason" },
+      { icon: "check", text: "<strong>Mole removal, biopsies, and skin cancer treatment</strong> covered when medically necessary" },
+      { icon: "x", text: "<strong>Cosmetic procedures</strong> (Botox for wrinkles, cosmetic mole removal) are NOT covered" },
+      { icon: "x", text: "<strong>Routine full-body skin exams</strong> without symptoms are NOT covered" },
+      { icon: "info", text: "<strong>Medigap Plan G</strong> covers the 20% Part B coinsurance for covered dermatology services" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Cancer Treatment?", description: "Learn about Medicare's coverage for skin cancer and other cancer treatments.", slug: "medicare-coverage-for-cancer" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare's coverage for biopsies including skin biopsies.", slug: "does-medicare-cover-a-biopsy" },
+      { title: "Does Medicare Cover Botox?", description: "Learn when Medicare covers Botox for medical conditions versus cosmetic use.", slug: "does-medicare-cover-botox" },
+      { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for dermatology services.", slug: "medicare-supplement-plan-g" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Cancer Treatment",
+      "Does Medicare Cover a Biopsy",
+      "Does Medicare Cover Botox",
+      "Medicare Supplement Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Covering Your Dermatology Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for dermatology and other specialist services. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["medicare-coverage-for-cancer", "does-medicare-cover-a-biopsy", "does-medicare-cover-botox", "medicare-supplement-plan-g"],
+  },
+
 ];
