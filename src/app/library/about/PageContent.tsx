@@ -28,6 +28,12 @@ import {
 
 const leadership = [
   {
+    name: "Jagger Esch",
+    role: "President & CEO",
+    bio: "Jagger Esch is the President & CEO of MedicareFAQ and a Medicare educator with over a decade of experience in the Medicare insurance industry. From starting his first company at age 24 to becoming one of the most well-known names in the industry, Jagger's personal philosophy of always putting the client first has allowed him to grow the company at unprecedented rates.",
+    credentials: ["President & CEO, MedicareFAQ", "Co-Founder, Elite Insurance Partners", "Medicare Educator, 10+ Years Experience"],
+  },
+  {
     name: "David Haass",
     role: "Co-Founder & CTO",
     bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council, bringing deep expertise in Medicare technology and education.",
@@ -38,12 +44,6 @@ const leadership = [
     role: "Director of Operations",
     bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare and ensuring every client receives personalized, expert guidance.",
     credentials: ["Licensed in All 50 States", "Director of Operations", "Medicare Education Specialist"],
-  },
-  {
-    name: "Jagger Esch",
-    role: "President & CEO",
-    bio: "Jagger Esch is the President & CEO of MedicareFAQ and a Medicare educator with over a decade of experience in the Medicare insurance industry. From starting his first company at age 24 to becoming one of the most well-known names in the industry, Jagger's personal philosophy of always putting the client first has allowed him to grow the company at unprecedented rates.",
-    credentials: ["President & CEO, MedicareFAQ", "Co-Founder, Elite Insurance Partners", "Medicare Educator, 10+ Years Experience"],
   },
 ];
 
