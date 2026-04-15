@@ -462,7 +462,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                     <CoverageBadge key={i} badge={b} />
                   ))}
                 </div>
-                <p className="text-[#4B5563] text-[15px] leading-relaxed">{article.quickAnswer.text}</p>
+                <p className="text-[#4B5563] text-[15px] leading-relaxed" dangerouslySetInnerHTML={{ __html: article.quickAnswer.text }} />
               </div>
 
               {/* Coverage Comparison Table */}
