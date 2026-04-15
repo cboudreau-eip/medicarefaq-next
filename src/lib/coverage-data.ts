@@ -11754,7 +11754,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-ostomy-supplies",
     seo: {
-      title: "Does Medicare Cover Ostomy Supplies? | MedicareFAQ",
+      title: "Does Medicare Cover Ostomy Supplies?",
       description: "Medicare Part B covers ostomy supplies as durable medical equipment. Learn what's covered, what you'll pay, and how Medigap can reduce your out-of-pocket costs.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-ostomy-supplies/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-ostomy-supplies.jpg",
@@ -11974,7 +11974,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-root-canals",
     seo: {
-      title: "Does Medicare Cover Root Canals? | MedicareFAQ",
+      title: "Does Medicare Cover Root Canals?",
       description: "Original Medicare does not cover root canals or most dental services. Learn about your options for dental coverage under Medicare Advantage and standalone dental plans.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-root-canals/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-root-canals.jpg",
@@ -12195,7 +12195,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-erectile-dysfunction",
     seo: {
-      title: "Does Medicare Cover Erectile Dysfunction Medication? | MedicareFAQ",
+      title: "Does Medicare Cover Erectile Dysfunction Medication?",
       description: "Medicare does not cover brand-name ED drugs like Viagra or Cialis, but some generic versions may be covered by Part D. Learn about your options for ED medication coverage.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-erectile-dysfunction/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-erectile-dysfunction.jpg",
@@ -12410,7 +12410,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-alcohol-misuse",
     seo: {
-      title: "Does Medicare Cover Alcohol Rehab and Misuse Screenings? | MedicareFAQ",
+      title: "Does Medicare Cover Alcohol Rehab and Misuse Screenings?",
       description: "Medicare covers annual alcohol misuse screenings and counseling under Part B. Learn about coverage for alcohol rehab, detox, and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-alcohol-misuse/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-alcohol-misuse.jpg",
@@ -12635,7 +12635,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
     seo: {
-      title: "What Does Medicare Cover for ALS Patients? | MedicareFAQ",
+      title: "What Does Medicare Cover for ALS Patients?",
       description: "Medicare covers a wide range of services for ALS (Lou Gehrig's disease) patients with no waiting period. Learn about home health care, DME, Part D, and more.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-amyotrophic-lateral-sclerosis-als/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-amyotrophic-lateral-sclerosis-als.jpg",
@@ -12858,7 +12858,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-bathroom-safety-devices",
     seo: {
-      title: "Does Medicare Cover Bathroom Safety Devices? | MedicareFAQ",
+      title: "Does Medicare Cover Bathroom Safety Devices?",
       description: "Medicare covers commode chairs and some bathroom safety equipment as DME. Learn what's covered, what isn't, and how Medicare Advantage may help with grab bars and shower chairs.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-bathroom-safety-devices/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-bathroom-safety-devices.jpg",
@@ -13088,7 +13088,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-blood-pressure-monitors",
     seo: {
-      title: "Does Medicare Cover Blood Pressure Monitors? | MedicareFAQ",
+      title: "Does Medicare Cover Blood Pressure Monitors?",
       description: "Medicare covers ambulatory blood pressure monitors and home monitors for dialysis patients. Learn what's covered, costs, and how to manage hypertension with Medicare.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-blood-pressure-monitors/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-blood-pressure-monitors.jpg",
@@ -13299,7 +13299,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-cardiovascular-disease",
     seo: {
-      title: "Does Medicare Cover Cardiovascular Disease Treatment? | MedicareFAQ",
+      title: "Does Medicare Cover Cardiovascular Disease Treatment?",
       description: "Medicare covers a wide range of cardiovascular disease services including cardiologist visits, cardiac tests, heart surgery, and cardiac rehabilitation. Learn what's covered and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-cardiovascular-disease/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-cardiovascular-disease.jpg",
@@ -13528,7 +13528,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-colonoscopy-screenings",
     seo: {
-      title: "Does Medicare Cover Colonoscopy Screenings? | MedicareFAQ",
+      title: "Does Medicare Cover Colonoscopy Screenings?",
       description: "Medicare covers colonoscopy screenings at 100% — no deductible or coinsurance. Learn about screening frequency, what happens when a polyp is found, and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-colonoscopy-screenings/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-colonoscopy-screenings.jpg",
@@ -13753,7 +13753,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-dermatology",
     seo: {
-      title: "Does Medicare Cover Dermatology Services? | MedicareFAQ",
+      title: "Does Medicare Cover Dermatology Services?",
       description: "Medicare covers medically necessary dermatology services including skin cancer screenings, mole removal, and biopsies. Learn what's covered, what isn't, and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-dermatology/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-dermatology.jpg",
@@ -13980,7 +13980,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-diabetic-shoes",
     seo: {
-      title: "Does Medicare Cover Diabetic Shoes? | MedicareFAQ",
+      title: "Does Medicare Cover Diabetic Shoes?",
       description: "Medicare Part B covers diabetic shoes and inserts when medically necessary. Learn about eligibility requirements, the Therapeutic Shoe Bill, costs, and how to get your shoes covered.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-diabetic-shoes/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-diabetic-shoes.jpg",
@@ -14200,7 +14200,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-hearing-aids",
     seo: {
-      title: "Does Medicare Cover Hearing Aids? | MedicareFAQ",
+      title: "Does Medicare Cover Hearing Aids?",
       description: "Original Medicare does not cover hearing aids. Learn about your options through Medicare Advantage, OTC hearing aids, and how to reduce hearing aid costs.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-hearing-aids/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hearing-aids.jpg",
@@ -14423,7 +14423,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-hip-injections",
     seo: {
-      title: "Does Medicare Cover Hip Injections and Hip Replacement? | MedicareFAQ",
+      title: "Does Medicare Cover Hip Injections and Hip Replacement?",
       description: "Medicare covers hip injections and hip replacement surgery when medically necessary. Learn about cortisone shots, PRP injections, hip replacement costs, and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-hip-injections/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-hip-injections.jpg",
@@ -14645,7 +14645,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-in-home-caregivers",
     seo: {
-      title: "Does Medicare Cover Home Health Care and In-Home Caregivers? | MedicareFAQ",
+      title: "Does Medicare Cover Home Health Care and In-Home Caregivers?",
       description: "Medicare covers home health care services when you are homebound and need skilled care. Learn about eligibility, what's covered, how long coverage lasts, and your options.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-in-home-caregivers/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-in-home-caregivers.jpg",
@@ -14875,7 +14875,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-lift-chairs",
     seo: {
-      title: "Does Medicare Cover Lift Chairs? | MedicareFAQ",
+      title: "Does Medicare Cover Lift Chairs?",
       description: "Medicare Part B covers the lifting mechanism of a lift chair when medically necessary, but not the chair itself. Learn about coverage, costs, and how to get approved.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-lift-chairs/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-lift-chairs.jpg",
@@ -15078,7 +15078,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-lower-back-pain-management",
     seo: {
-      title: "Find Pain Management Doctors That Accept Medicare | MedicareFAQ",
+      title: "Find Pain Management Doctors That Accept Medicare",
       description: "Original Medicare covers pain management services when medically necessary. Learn about treatment options, costs, and how to find doctors that accept Medicare.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-lower-back-pain-management/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-lower-back-pain-management.jpg",
@@ -15251,7 +15251,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-lung-transplants",
     seo: {
-      title: "Medicare Coverage for Lung Transplants | MedicareFAQ",
+      title: "Medicare Coverage for Lung Transplants",
       description: "Medicare provides coverage for lung transplants when medically necessary. Learn about eligibility, costs, Part A and Part B coverage, and anti-rejection drugs.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-lung-transplants/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-lung-transplants.jpg",
@@ -15423,7 +15423,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-oxygen-therapy",
     seo: {
-      title: "Medicare Oxygen Therapy Guidelines | MedicareFAQ",
+      title: "Medicare Oxygen Therapy Guidelines",
       description: "Medicare covers portable oxygen concentrators and oxygen therapy when medically necessary. Learn about eligibility, rental guidelines, costs, and coverage rules.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-oxygen-therapy/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-oxygen-therapy.jpg",
@@ -15595,7 +15595,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-pacemakers",
     seo: {
-      title: "Medicare Coverage for Pacemakers | MedicareFAQ",
+      title: "Medicare Coverage for Pacemakers",
       description: "Medicare covers pacemakers when medically necessary for cardiac irregularities or atrial fibrillation. Learn about coverage, costs, battery replacements, and monitoring.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-pacemakers/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-pacemakers.jpg",
@@ -15767,7 +15767,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-physical-therapy",
     seo: {
-      title: "Does Medicare Cover Physical Therapy? | MedicareFAQ",
+      title: "Does Medicare Cover Physical Therapy?",
       description: "Medicare covers physical therapy when medically necessary. Learn about Part A and Part B coverage, costs, the therapy cap, and what types of PT Medicare covers.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-physical-therapy/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-physical-therapy.jpg",
@@ -15942,7 +15942,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-plastic-surgery",
     seo: {
-      title: "Medicare Coverage for Plastic Surgery | MedicareFAQ",
+      title: "Medicare Coverage for Plastic Surgery",
       description: "Medicare may cover medically necessary plastic surgery but will not cover elective cosmetic procedures. Learn what's covered, costs, and the prior authorization process.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-plastic-surgery/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-plastic-surgery.jpg",
@@ -16118,7 +16118,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-prostate-specific-antigen-psa-test",
     seo: {
-      title: "Does Medicare Cover PSA Test? - PSA Medicare Coverage | MedicareFAQ",
+      title: "Does Medicare Cover PSA Test? - PSA Medicare Coverage",
       description: "Medicare Part B covers annual PSA tests for men 50 and older at no cost. Learn about coverage for prostate screening, surgery, and how to manage costs.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-prostate-specific-antigen-psa-test/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-psa-test.jpg",
@@ -16290,7 +16290,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-smoking-cessation-treatments",
     seo: {
-      title: "Medicare Coverage for Smoking Cessation Treatments | MedicareFAQ",
+      title: "Medicare Coverage for Smoking Cessation Treatments",
       description: "Medicare covers smoking cessation counseling at 100% and prescription stop-smoking medications through Part D. Learn about coverage, sessions, and medications.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-smoking-cessation-treatments/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-smoking-cessation-treatments.jpg",
@@ -16461,7 +16461,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-stroke-victims",
     seo: {
-      title: "Medicare Coverage for Stroke Victims & Rehabilitation | MedicareFAQ",
+      title: "Medicare Coverage for Stroke Victims & Rehabilitation",
       description: "Medicare covers stroke treatment, rehabilitation, skilled nursing, and DME. Learn about inpatient and outpatient coverage, costs, and supplemental options.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-stroke-victims/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-stroke-victims.jpg",
@@ -16635,7 +16635,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-wheelchairs-and-scooters",
     seo: {
-      title: "Does Medicare Cover Wheelchairs and Scooters? | MedicareFAQ",
+      title: "Does Medicare Cover Wheelchairs and Scooters?",
       description: "Medicare Part B covers wheelchairs and scooters as DME when medically necessary. Learn about eligibility, types covered, prior authorization, and costs.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-wheelchairs-and-scooters/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-wheelchairs.jpg",
@@ -16801,7 +16801,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-std-treatments-and-services-does-medicare-cover",
     seo: {
-      title: "Does Medicare Cover STD Testing & Treatment? | MedicareFAQ",
+      title: "Does Medicare Cover STD Testing & Treatment?",
       description: "Medicare Part B covers STD/STI screenings for gonorrhea, syphilis, chlamydia, hepatitis B, and HIV at no cost. Learn about coverage, treatments, and Part D medications.",
       canonical: "https://www.medicarefaq.com/faqs/what-std-treatments-and-services-does-medicare-cover/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-std-testing.jpg",
@@ -16989,7 +16989,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "will-medicare-cover-my-surgery",
     seo: {
-      title: "Will Medicare Cover My Surgery? | MedicareFAQ",
+      title: "Will Medicare Cover My Surgery?",
       description: "Medicare covers medically necessary surgery. Part A covers inpatient surgery and Part B covers outpatient procedures at 80%. Learn about coverage, costs, and exceptions.",
       canonical: "https://www.medicarefaq.com/faqs/will-medicare-cover-my-surgery/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/will-medicare-cover-my-surgery.jpg",
@@ -17176,7 +17176,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "will-medicare-cover-naturopathy",
     seo: {
-      title: "Will Medicare Cover Naturopathy? | MedicareFAQ",
+      title: "Will Medicare Cover Naturopathy?",
       description: "Medicare does not cover naturopathic medicine or visits to naturopathic doctors. Learn which alternative therapies have limited coverage and your options.",
       canonical: "https://www.medicarefaq.com/faqs/will-medicare-cover-naturopathy/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/will-medicare-cover-naturopathy.jpg",
@@ -17363,7 +17363,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "will-medicare-pay-for-a-nebulizer-machine",
     seo: {
-      title: "Does Medicare Cover Nebulizer Machines? | MedicareFAQ",
+      title: "Does Medicare Cover Nebulizer Machines?",
       description: "Medicare Part B covers nebulizer machines as durable medical equipment when medically necessary. Learn about coverage, costs, medications, and replacement rules.",
       canonical: "https://www.medicarefaq.com/faqs/will-medicare-pay-for-a-nebulizer-machine/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-nebulizer-machines.jpg",
