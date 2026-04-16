@@ -125,7 +125,7 @@ export default function PageContent() {
               Mutual of Omaha is one of the top-rated Medicare Supplement insurance companies in the country. Many beneficiaries choose to pair a Mutual of Omaha Medigap plan (such as Plan G or Plan N) with a Part D drug plan for comprehensive coverage.
             </p>
             <Link
-              href="/medicare-supplements/medicare-supplement-carriers/mutual-of-omaha"
+              href="/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans"
               className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm"
             >
               View Mutual of Omaha Medigap Plans <ArrowRight size={16} />
@@ -165,7 +165,7 @@ export default function PageContent() {
               {[
                 { label: "Medicare Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
                 { label: "Part D Costs 2026", href: "/original-medicare/medicare-parts/medicare-part-d/part-d-costs" },
-                { label: "Mutual of Omaha Medigap", href: "/medicare-supplements/medicare-supplement-carriers/mutual-of-omaha" },
+                { label: "Mutual of Omaha Medigap", href: "/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans" },
                 { label: "Compare Part D Plans", href: "/compare-rates" },
               ].map((link, i) => (
                 <Link

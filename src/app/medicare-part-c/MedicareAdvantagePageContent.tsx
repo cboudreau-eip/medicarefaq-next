@@ -11,7 +11,7 @@ export default function MedicareAdvantagePageContent({ page, slug }: { page: Med
       <main className="flex-1 flex items-center justify-center">
         <div className="text-center py-20">
           <h1 className="text-2xl font-bold text-gray-800 mb-4">Page Not Found</h1>
-          <Link href="/medicare-part-c" className="text-teal-600 underline">
+          <Link href="/medicare-part-c/medicare-advantage-plans" className="text-teal-600 underline">
             Back to Medicare Advantage
           </Link>
         </div>
