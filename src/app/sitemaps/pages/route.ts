@@ -30,6 +30,7 @@ const pages = [
   { url: `${BASE_URL}/medicare-supplements/medigap-by-carrier`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-supplements/medigap-by-state`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/compare-rates`, priority: "0.8", changefreq: "monthly" },
+  { url: `${BASE_URL}/medicare-plans`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans/costs`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans/supplement-vs-advantage`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans/best-supplement-plans`, priority: "0.8", changefreq: "monthly" },
@@ -39,6 +40,7 @@ const pages = [
   // Library / Resources
   { url: `${BASE_URL}/faqs`, priority: "0.8", changefreq: "weekly" },
   { url: `${BASE_URL}/blog`, priority: "0.7", changefreq: "weekly" },
+  { url: `${BASE_URL}/library`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/library/guides`, priority: "0.6", changefreq: "monthly" },
   { url: `${BASE_URL}/library/about`, priority: "0.5", changefreq: "monthly" },
   { url: `${BASE_URL}/podcasts`, priority: "0.6", changefreq: "monthly" },

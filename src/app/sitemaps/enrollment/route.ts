@@ -29,6 +29,7 @@ ${urls}
 
 export function GET() {
   const entries: SitemapEntry[] = [
+    { url: `${BASE_URL}/enrollment`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/enrollment/turning-65`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/enrollment/working-past-65`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/enrollment/annual-changes`, priority: "0.7", changefreq: "monthly" },
