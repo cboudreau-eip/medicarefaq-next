@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { partDSubPages } from "@/lib/part-d-sub-data";
 
-const BASE_URL = "https://www.medicarefaq.com";
+const BASE_URL = "https://medicarefaq-next-nine.vercel.app";
 const lastModified = new Date("2026-04-09").toISOString();
 
 type SitemapEntry = {
