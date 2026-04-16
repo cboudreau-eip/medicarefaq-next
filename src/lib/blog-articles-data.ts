@@ -112,7 +112,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "The Medicare Annual Enrollment Period for coverage beginning January 1, 2026, is scheduled from October 15 to December 7, 2026. Be sure to research your plan options and compare your coverage to ensure you make the most informed decision possible regarding your 2024 Medicare Part D coverage." },
       { type: "paragraph", content: "During the Annual Enrollment Period, our agents can help educate you on the plans in your area to fit your healthcare and financial needs. Complete our online rate form to work one on one with a licensed agent in your area." },
     ],
-    relatedSlugs: ["new-in-2025-medicares-part-d-payment-plan-explained", "coverage-gap-discount-program", "how-can-seniors-save-on-prescription-drug-costs", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary"],
+    relatedSlugs: ["new-in-2025-medicares-part-d-payment-plan-explained", "coverage-gap-discount-program", "how-can-seniors-save-on-prescription-drug-costs", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary", "amazon-rx-pass"],
   },
 {
     slug: "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
@@ -177,7 +177,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "Making the Right Choice for You", id: "making-the-right-choice-for-you" },
       { type: "paragraph", content: "Choosing between a Medicare Supplement and a Medicare Advantage plan depends entirely on your personal priorities. If you value the freedom to choose your providers, the stability of predictable costs, and comprehensive coverage wherever you travel in the U.S., a Medigap plan is often an excellent choice." },
     ],
-    relatedSlugs: ["key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage"],
+    relatedSlugs: ["key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage", "medicare-flex-card", "understanding-medigaps-foreign-travel-benefits-whats-really-covered"],
   },
 {
     slug: "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
@@ -239,7 +239,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "Enrolling on time is not just about starting your coverage; it is also about avoiding costly, lifelong penalties." },
       { type: "paragraph", content: "These penalties can add up significantly over time, making it essential to enroll in Medicare when you first become eligible." },
     ],
-    relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage"],
+    relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage", "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained", "inpatient-only-list"],
   },
 {
     slug: "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
@@ -317,7 +317,7 @@ export const blogArticles: BlogArticleData[] = [
     canonical: "https://www.medicarefaq.com/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Key-Questions-to-Ask-When-Comparing-Medicare-Advantage-Plans.jpg",
   },
-  relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-the-medigap-free-look-period-protects-you", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
+  relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-the-medigap-free-look-period-protects-you", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "what-is-a-medicare-supplement-plan-and-who-needs-one", "understanding-medigaps-foreign-travel-benefits-whats-really-covered"],
   slug: "key-questions-to-ask-when-comparing-medicare-advantage-plans",
     title: "Key Questions to Ask When Comparing Medicare Advantage Plans",
     excerpt: "If you\'ve decided to enroll in a Medicare Advantage plan, then choosing the right Advantage Plan is one of the most important decisions you\'ll make about your healthcare.",
@@ -396,7 +396,7 @@ export const blogArticles: BlogArticleData[] = [
     canonical: "https://www.medicarefaq.com/blog/the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/The-Top-5-Mistakes-People-Make-During-Medicare-Annual-Enrollment-and-How-to-Avoid-Them.jpg",
   },
-  relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "medicare-advantage-extra-benefits-explained-whats-really-included", "best-medicare-advantage-plans"],
+  relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "medicare-advantage-extra-benefits-explained-whats-really-included", "best-medicare-advantage-plans", "medicare-flex-card"],
   slug: "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them",
     title: "The Top 5 Mistakes People Make During Medicare Annual Enrollment and How to Avoid Them",
     excerpt: "The Medicare Annual Enrollment Period, from October 15 through December 7, is the one time each year when most Medicare beneficiaries can review and make changes to their coverage. Despite its importa",
@@ -518,7 +518,7 @@ export const blogArticles: BlogArticleData[] = [
     canonical: "https://www.medicarefaq.com/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-Medigap-Premiums-Does-a-Higher-Price-Mean-Better-Coverage.jpg",
   },
-  relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "coverage-gap-discount-program", "how-can-seniors-save-on-prescription-drug-costs", "part-d-formulary", "medicare-part-d-penalty"],
+  relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "coverage-gap-discount-program", "how-can-seniors-save-on-prescription-drug-costs", "part-d-formulary", "medicare-part-d-penalty", "amazon-rx-pass"],
   slug: "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage",
     title: "Understanding Medigap Premiums: Does a Higher Price Mean Better Coverage?",
     excerpt: "When you begin shopping for a Medicare Supplement (Medigap) plan, you will quickly notice something interesting: the prices for the very same plan can vary significantly from one insurance company to",
@@ -573,7 +573,7 @@ export const blogArticles: BlogArticleData[] = [
     canonical: "https://www.medicarefaq.com/blog/how-medigap-plans-affect-your-overall-medicare-costs/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-Medigap-Plans-Affect-Your-Overall-Costs.jpg",
   },
-  relatedSlugs: ["how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplements-cost-vs-value-explained", "average-cost-of-medicare-supplement-plans"],
+  relatedSlugs: ["how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplements-cost-vs-value-explained", "average-cost-of-medicare-supplement-plans", "medicare-costs-2026"],
   slug: "how-medigap-plans-affect-your-overall-medicare-costs",
     title: "How Medigap Plans Affect Your Overall Medicare Costs",
     excerpt: "When you first enroll in Original Medicare, it provides a great sense of security. Knowing you have reliable health coverage is a cornerstone of a comfortable retirement.",
@@ -1017,6 +1017,7 @@ export const blogArticles: BlogArticleData[] = [
     relatedSlugs: [
       "medicare-costs-2026",
       "how-is-medicare-part-d-changing-in-2026",
+      "inpatient-only-list",
     ],
   },
 {
@@ -1189,6 +1190,7 @@ export const blogArticles: BlogArticleData[] = [
       "key-questions-to-ask-when-comparing-medicare-advantage-plans",
       "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
     ],
+      "medicare-flex-card",
   },
 {
     seo: {
@@ -1304,6 +1306,7 @@ export const blogArticles: BlogArticleData[] = [
       "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
       "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
     ],
+      "understanding-medigaps-foreign-travel-benefits-whats-really-covered",
   },
 {
     seo: {
@@ -4358,7 +4361,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "How can I appeal if I disagree with observation status?", answer: "You can request a detailed written explanation from the hospital. If you disagree, contact your Medicare Advantage plan or file an appeal with Original Medicare. You have the right to request an expedited review if you are still in the hospital or recently discharged." },
       { question: "What is the Part B premium for 2026?", answer: "The 2026 Medicare Part B premium is $185 per month for most beneficiaries. This standard premium covers Part B services when you are on observation status. Income-related premiums may apply if your modified adjusted gross income exceeds certain thresholds." },
     ],
-    relatedSlugs: ["how-medigap-plans-affect-your-overall-medicare-costs", "medicare-inpatient-vs-outpatient-vs-under-observation", "medicare-parts-a-b-c-and-d-explained-simply", "how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained"],
+    relatedSlugs: ["how-medigap-plans-affect-your-overall-medicare-costs", "medicare-inpatient-vs-outpatient-vs-under-observation", "medicare-parts-a-b-c-and-d-explained-simply", "how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "inpatient-only-list"],
   },
 {
     slug: "kentucky-birthday-rule",
@@ -4414,7 +4417,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Can I use the Birthday Rule to switch to a different type of Medicare coverage?", answer: "No, the Birthday Rule specifically applies to switching between Medigap plans only. You cannot use it to switch to Medicare Advantage or other coverage types. Plan changes outside Medigap follow different rules and enrollment periods." },
       { question: "Do I need to drop my current Medigap plan before enrolling in a new one?", answer: "No, but you should coordinate the timing carefully. Contact your current insurer to understand their cancellation procedures. Your new plan should start as your old plan ends to avoid coverage gaps or paying for overlapping policies." },
     ],
-    relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "maryland-medicare-supplement-birthday-rule", "nevada-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],
+    relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "maryland-medicare-supplement-birthday-rule", "nevada-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know", "oklahoma-birthday-rule"],
   },
 {
     slug: "senior-loneliness-statistics",
@@ -4470,7 +4473,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Are there free programs for seniors experiencing isolation?", answer: "Yes. Many communities offer free senior centers, meal programs, volunteer opportunities, and support groups. Contact your local Area Agency on Aging for resources. Libraries, community colleges, and faith organizations also provide free social activities and classes for older adults." },
       { question: "How can family members help reduce senior loneliness?", answer: "Schedule regular visits and phone calls. Help your senior parent use video calling technology. Encourage participation in community activities and hobbies. Involve them in family decisions and activities. Consider discussing transportation assistance or suggesting volunteer opportunities that match their interests and abilities." },
     ],
-    relatedSlugs: ["retirement-regrets-of-seniors", "senior-dating-and-relationships", "companion-pets-for-seniors", "guide-to-retirement-planning", "5-government-benefits-for-seniors"],
+    relatedSlugs: ["retirement-regrets-of-seniors", "senior-dating-and-relationships", "companion-pets-for-seniors", "guide-to-retirement-planning", "5-government-benefits-for-seniors", "top-free-computer-classes-for-seniors"],
   },
 {
     slug: "protect-yourself-from-medicare-penalties-key-tips-and-deadlines",
@@ -4523,7 +4526,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "How much is the Part D late enrollment penalty for 2026?", answer: "The Part D penalty is calculated as 1 percent of the average national Part D premium multiplied by the number of months you did not have creditable coverage. This penalty increases annually and applies indefinitely." },
       { question: "What qualifies as creditable coverage to avoid penalties?", answer: "Creditable coverage includes employer group health plans, TRICARE, VA coverage, and other health insurance deemed as creditable by Medicare. Document this coverage to prove continuous protection when enrolling later." },
     ],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-part-d-late-enrollment-penalty", "medicare-part-b-late-enrollment-penalty", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-part-d-late-enrollment-penalty", "medicare-part-b-late-enrollment-penalty", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained", "medicare-blue-button", "direct-care-opportunity-act"],
   },
 {
     slug: "coverage-gap-discount-program",
@@ -4580,7 +4583,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Are generic medications covered by the discount program?", answer: "Generic medications are not covered under the Coverage Gap Discount Program. The program only applies to brand-name drugs. However, generic versions often cost significantly less and may help you reach catastrophic coverage more quickly." },
       { question: "How do I know when I have entered the coverage gap?", answer: "Your Part D plan will notify you when you enter the coverage gap through a statement or letter. You can also track your spending online through your plan account or contact your plan directly to confirm your coverage phase status." },
     ],
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "part-d-formulary", "how-can-seniors-save-on-prescription-drug-costs", "medicare-extra-help-program"],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "part-d-formulary", "how-can-seniors-save-on-prescription-drug-costs", "medicare-extra-help-program", "amazon-rx-pass"],
   },
 {
     slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job",
@@ -4912,7 +4915,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Do all Maryland Medicare Supplement insurers participate in the Birthday Rule?", answer: "Not all insurers participate in Maryland Birthday Rule. Contact carriers directly to confirm they honor this protection. Ask specifically about guarantee issue rights before applying during your birthday month." },
       { question: "Can I switch to any Medigap plan under the Birthday Rule?", answer: "Yes, you can switch to any Medigap plan offered by participating insurers in Oklahoma, including different plan types like [Plan G](/medicare-supplements/plan-g), [Plan N](/medicare-supplements/plan-n), or Plan F if available. Compare all options before deciding." },
     ],
-    relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],
+    relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know", "oklahoma-birthday-rule"],
   },
 {
     slug: "joe-namath-medicare-commericals",
@@ -5186,7 +5189,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Can the app help me understand my out-of-pocket costs for a specific procedure?", answer: "Absolutely. Enter the procedure name and your provider information, and the app will estimate your deductible amount, copayment, or coinsurance based on your specific plan enrollment and the procedure type." },
       { question: "What should I do if I find incorrect information in the app?", answer: "Report any discrepancies directly through the app using the feedback feature. You can also contact Medicare at 1-800-MEDICARE or visit Medicare.gov to verify coverage details and file corrections." },
     ],
-    relatedSlugs: ["care-compare-tool", "5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-preventive-services"],
+    relatedSlugs: ["care-compare-tool", "5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-preventive-services", "medicare-blue-button"],
   },
 {
     slug: "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g",
@@ -5356,7 +5359,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Are there new benefits being added to Medicare in 2026?", answer: "Yes, 2026 includes expanded telehealth services and enhanced chronic care management benefits. These additions aim to improve access to healthcare and reduce hospitalizations." },
       { question: "How do the 2026 deductibles compare to previous years?", answer: "The Part A deductible increases to $1,676 and the Part B deductible reaches $257 in 2026. These increases reflect healthcare cost adjustments made annually." },
     ],
-    relatedSlugs: ["medicare-costs-2026", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-changes", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
+    relatedSlugs: ["medicare-costs-2026", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-changes", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-blue-button", "direct-care-opportunity-act"],
   },
 {
     slug: "virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice",
@@ -5875,7 +5878,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "When does my Nevada birthday rule window open?", answer: "Your 60-day window opens on your birthday each year. For example, if your birthday is June 15, your window runs from June 15 to August 13." },
       { question: "Do I need to notify my current insurer before switching?", answer: "You should apply with the new insurer first. Once approved, they will coordinate the transition. Your old policy will be cancelled when the new one begins." },
     ],
-    relatedSlugs: ["when-to-switch-medigap-plans-what-you-need-to-know", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "nevada-medigap-plans"],
+    relatedSlugs: ["when-to-switch-medigap-plans-what-you-need-to-know", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "nevada-medigap-plans", "oklahoma-birthday-rule"],
   },
   {
     slug: "when-to-switch-medigap-plans-what-you-need-to-know",
@@ -6138,7 +6141,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Would Medicare for All cover prescription drugs?", answer: "Most Medicare for All proposals include comprehensive prescription drug coverage with the government negotiating prices directly with manufacturers." },
       { question: "How would doctors be paid under Medicare for All?", answer: "Doctors would be paid by the government at negotiated rates, similar to how they're currently paid under Medicare, but extended to all patients." },
     ],
-    relatedSlugs: ["step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know", "medicare-hmo-vs-ppo", "chronic-care-management"],
+    relatedSlugs: ["step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know", "medicare-hmo-vs-ppo", "chronic-care-management", "direct-care-opportunity-act"],
   },
   {
     slug: "understanding-medigaps-foreign-travel-benefits-whats-really-covered",

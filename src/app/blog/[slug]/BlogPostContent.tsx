@@ -29,6 +29,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import type { BlogArticleData, BlogSectionContent } from "@/lib/article-types";
+import { blogArticles } from "@/lib/blog-articles-data";
 
 /* ─── Markdown Link Parser ─── */
 function renderParagraph(text: string, key: number | string, className?: string) {
@@ -428,6 +429,35 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   </p>
                 )}
               </div>
+
+              {/* Related Articles */}
+              {article.relatedSlugs && article.relatedSlugs.length > 0 && (
+                <div className="mb-8">
+                  <h3 className="text-lg font-bold text-[#1B2A4A] mb-4 flex items-center gap-2">
+                    <BookOpen className="w-5 h-5 text-[#C41230]" />
+                    Related Articles
+                  </h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {article.relatedSlugs.slice(0, 4).map((relSlug) => {
+                      const rel = blogArticles.find(a => a.slug === relSlug);
+                      if (!rel) return null;
+                      return (
+                        <Link
+                          key={relSlug}
+                          href={`/blog/${relSlug}`}
+                          className="flex items-start gap-3 p-4 border border-[#E5E7EB] rounded-xl hover:border-[#C41230] hover:bg-[#FFF5F7] transition-colors group"
+                        >
+                          <div className="flex-1 min-w-0">
+                            <p className="font-semibold text-[#1B2A4A] text-sm leading-snug group-hover:text-[#C41230] transition-colors line-clamp-2">{rel.title}</p>
+                            <p className="text-xs text-[#6B7280] mt-1">{rel.readTime}</p>
+                          </div>
+                          <ArrowRight className="w-4 h-4 text-[#9CA3AF] group-hover:text-[#C41230] shrink-0 mt-0.5 transition-colors" />
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
 
               {/* CTA Banner */}
               <div className="bg-[#1B2A4A] rounded-xl p-6 md:p-8 text-white text-center">
