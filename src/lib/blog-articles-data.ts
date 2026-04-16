@@ -767,7 +767,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "15 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=500&fit=crop",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medigap-free-look-period-26gTzHKZVASvbTToGfDP6m.webp",
     keyTakeaways: [
       "The Medigap free look period gives you 30 days to evaluate a new Medicare Supplement policy without commitment",
       "During this period, you can compare your new policy with your current one to ensure it meets your healthcare and financial needs",
