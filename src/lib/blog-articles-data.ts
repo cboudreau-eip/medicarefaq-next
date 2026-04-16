@@ -1189,8 +1189,8 @@ export const blogArticles: BlogArticleData[] = [
     relatedSlugs: [
       "key-questions-to-ask-when-comparing-medicare-advantage-plans",
       "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
-    ],
       "medicare-flex-card",
+    ],
   },
 {
     seo: {
@@ -1305,8 +1305,8 @@ export const blogArticles: BlogArticleData[] = [
     relatedSlugs: [
       "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
       "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
-    ],
       "understanding-medigaps-foreign-travel-benefits-whats-really-covered",
+    ],
   },
 {
     seo: {
