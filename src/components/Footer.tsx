@@ -48,7 +48,7 @@ const footerColumns = [
       { label: "Dental, Vision & Hearing", href: "/faqs/does-medicare-cover-dental-implants" },
       { label: "Specialized Care", href: "/faqs/does-medicare-cover-chiropractic-care" },
       { label: "Prescription Drugs", href: "/original-medicare/medicare-parts/medicare-part-d" },
-      { label: "Search All Coverage", href: "/faqs" },
+      { label: "Search All Coverage", href: "/search" },
     ],
   },
   {
