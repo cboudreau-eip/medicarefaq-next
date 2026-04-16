@@ -105,7 +105,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers dental implants and more.",
     },
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management"],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma"],
   },
   {
     slug: "does-medicare-cover-glasses",
@@ -804,7 +804,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
       { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    ],
+    
+      { title: "Does Medicare Cover Glaucoma Treatment?", description: "Find out if Medicare covers glaucoma screenings, eye drops, and surgical procedures.", slug: "does-medicare-cover-glaucoma" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -903,7 +904,9 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
     
       { title: "Does Medicare Cover Life Alert and Medical Alert Systems?", description: "Learn whether Medicare covers Life Alert and other personal emergency response systems.", slug: "does-medicare-cover-life-alert" },
-      { title: "Do Adult Diaper Manufacturers Have Assistance Programs?", description: "Explore assistance programs for free or reduced-cost adult diapers and incontinence supplies.", slug: "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends" },],
+      { title: "Do Adult Diaper Manufacturers Have Assistance Programs?", description: "Explore assistance programs for free or reduced-cost adult diapers and incontinence supplies.", slug: "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends" },
+      { title: "Does Medicare Cover Alzheimer's Care?", description: "Understand what Medicare covers for Alzheimer's disease treatment and long-term care.", slug: "does-medicare-cover-alzheimers-care" },
+      { title: "Does Medicare Cover Memory Care?", description: "Learn whether Medicare covers memory care facilities and services for dementia patients.", slug: "does-medicare-cover-memory-care" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -914,7 +917,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers hospice and palliative care and more.",
     },
-    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one"],
+    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-memory-care"],
   },
   {
     slug: "does-medicare-cover-dentures",
@@ -1098,7 +1101,9 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
       { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    ],
+    
+      { title: "Does Medicare Cover Leqembi? 2026 Coverage & Cost Guide", description: "Learn about Medicare coverage for Leqembi, the FDA-approved Alzheimer's treatment.", slug: "does-medicare-cover-leqembi" },
+      { title: "Does Medicare Cover Telehealth Services?", description: "Learn about Medicare's telehealth coverage, including virtual doctor visits and remote monitoring.", slug: "does-medicare-cover-telehealth" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -1109,7 +1114,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers medicare mental health coverage: what you need to know in 2026 and more.",
     },
-    relatedSlugs: ["medicare-coverage-for-alcohol-misuse", "medicare-preventive-services", "will-medicare-cover-my-surgery", "what-is-medicare"],
+    relatedSlugs: ["medicare-coverage-for-alcohol-misuse", "medicare-preventive-services", "will-medicare-cover-my-surgery", "what-is-medicare", "does-medicare-cover-alzheimers-care", "does-medicare-cover-memory-care"],
   },
   {
     slug: "does-medicare-cover-ozempic",
@@ -1201,7 +1206,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
       { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    ],
+    
+      { title: "Does Medicare Cover Diabetic Supplies?", description: "Find out which diabetic testing supplies, insulin, and equipment Medicare covers.", slug: "does-medicare-cover-diabetic-supplies" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -1498,7 +1504,9 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
     
       { title: "Is Medicare Free? Free Parts of Medicare Explained", description: "Understand which parts of Medicare are free and what costs to expect.", slug: "is-medicare-free" },
-      { title: "Medicare SilverSneakers Program: Fitness Benefits Explained", description: "Learn about the SilverSneakers fitness program available through many Medicare Advantage plans.", slug: "medicare-silversneakers-program" },],
+      { title: "Medicare SilverSneakers Program: Fitness Benefits Explained", description: "Learn about the SilverSneakers fitness program available through many Medicare Advantage plans.", slug: "medicare-silversneakers-program" },
+      { title: "Medicare Cost-Sharing Plans Explained", description: "Understand how Medicare cost-sharing works and which plans reduce your out-of-pocket costs.", slug: "medicare-cost-sharing-plans" },
+      { title: "Medicare Coverage for Disabled Individuals Under 65", description: "Find out how people under 65 with disabilities can qualify for Medicare coverage.", slug: "medicare-coverage-for-disabled-under-65" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -1599,7 +1607,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
       { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    ],
+    
+      { title: "Does Medicare Cover Durable Medical Equipment (DME)?", description: "Learn which durable medical equipment Medicare Part B covers and what you'll pay.", slug: "does-medicare-cover-durable-medical-equipment" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -1610,7 +1619,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers prosthetics and more.",
     },
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "medicare-braces-devices", "medicare-coverage-for-diabetic-shoes"],
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "medicare-braces-devices", "medicare-coverage-for-diabetic-shoes", "does-medicare-cover-diabetic-supplies"],
   },
   {
     slug: "when-should-you-enroll-in-medicare-if-still-working",
@@ -1771,7 +1780,9 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare Advantage Extra Benefits", description: "What's really included in Medicare Advantage supplemental benefits.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
     
       { title: "Is Medicare Free? Free Parts of Medicare Explained", description: "Understand which parts of Medicare are free and what costs to expect.", slug: "is-medicare-free" },
-      { title: "Medicare Annual Notice of Change (ANOC) Letter", description: "Understand what the ANOC letter means and how to use it to review your Medicare plan each year.", slug: "medicare-annual-notice-of-change-letter" },],
+      { title: "Medicare Annual Notice of Change (ANOC) Letter", description: "Understand what the ANOC letter means and how to use it to review your Medicare plan each year.", slug: "medicare-annual-notice-of-change-letter" },
+      { title: "Medicare Coverage for Disabled Individuals Under 65", description: "Find out how people under 65 with disabilities can qualify for Medicare coverage.", slug: "medicare-coverage-for-disabled-under-65" },
+      { title: "Does Medicare Cover Telehealth Services?", description: "Learn about Medicare's telehealth coverage, including virtual doctor visits and remote monitoring.", slug: "does-medicare-cover-telehealth" },],
     sidebarRelatedLinks: [
       "Medicare Costs in 2026",
       "Medicare Supplement vs Advantage",
@@ -1782,7 +1793,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Ready to Explore Your Medicare Options?",
       text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
     },
-    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad"],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth"],
   },
   {
     slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
@@ -7254,7 +7265,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "medicare-coverage-for-disabled-under-65",
       "does-medicare-cover-a-biopsy",
       "medicare-supplement-plans-medigap-pricing-methods",
-    ],
+      "medicare-part-d-penalty"],
   },
   {
     slug: "does-medicare-cover-gender-reassignment-surgery",
@@ -7919,7 +7930,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Worried About Leqembi Costs?",
       text: "A Medigap plan can cover the 20% Part B coinsurance for Leqembi, potentially saving you thousands per year. Our licensed agents can help you compare plans in your area for free.",
     },
-    relatedSlugs: ["does-medicare-cover-alzheimers-care", "what-is-medicare-part-b", "medicare-supplement-plan-g", "does-medicare-cover-memory-care"],
+    relatedSlugs: ["does-medicare-cover-alzheimers-care", "what-is-medicare-part-b", "medicare-supplement-plan-g", "does-medicare-cover-memory-care", "does-medicare-cover-leqembi"],
   },
 
   // ─── Does Medicare Cover Macular Degeneration ───────────────────────────────
@@ -8798,7 +8809,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Have Diabetes or Kidney Disease?",
       text: "You may qualify for free medical nutrition therapy under Medicare Part B. Our licensed agents can help you understand your benefits and find plans that maximize your coverage.",
     },
-    relatedSlugs: ["does-medicare-cover-meals-on-wheels", "does-medicare-cover-diabetic-supplies", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-telehealth"],
+    relatedSlugs: ["does-medicare-cover-meals-on-wheels", "does-medicare-cover-diabetic-supplies", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-telehealth", "medicare-part-d-penalty"],
   },
   {
     slug: "what-dental-expenses-does-medicare-cover",
@@ -9108,7 +9119,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Looking for a Plan That Covers More?",
       text: "Some Medicare Advantage plans offer incontinence supply benefits and other extras not covered by Original Medicare. Our licensed agents can help you compare plans in your area.",
     },
-    relatedSlugs: ["does-medicare-cover-ostomy-supplies", "does-medicare-cover-medical-alert-systems", "what-is-durable-medical-equipment-dme", "medicare-coverage-for-wheelchairs-and-scooters"],
+    relatedSlugs: ["does-medicare-cover-ostomy-supplies", "does-medicare-cover-medical-alert-systems", "what-is-durable-medical-equipment-dme", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-durable-medical-equipment"],
   },
   {
     slug: "medicare-coverage-for-my-children",
@@ -14193,7 +14204,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "what-is-durable-medical-equipment-dme" },
       { title: "Does Medicare Cover Podiatry?", description: "Learn about Medicare's coverage for podiatrist visits and foot care.", slug: "does-medicare-cover-podiatry" },
       { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for diabetic shoes.", slug: "medicare-supplement-plan-g" },
-    ],
+    
+      { title: "Does Medicare Cover Diabetic Supplies?", description: "Find out which diabetic testing supplies, insulin, and equipment Medicare covers.", slug: "does-medicare-cover-diabetic-supplies" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Diabetes Supplies",
       "What Is Durable Medical Equipment",
