@@ -154,6 +154,8 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage HMO Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo" },
+      { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
@@ -528,6 +530,8 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
+      { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
+      { label: "Medicare Advantage HMO Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo" },
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
@@ -759,6 +763,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage HMO-POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
+      { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare HMO vs. PPO", path: "/faqs/medicare-hmo-vs-ppo" },
       { label: "Compare Medicare Plans", path: "/compare-rates" },

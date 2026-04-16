@@ -969,7 +969,7 @@ export const partDSubPages: PartDSubPage[] = [
       { q: "Did the donut hole affect generic drugs?", a: "Yes. Before 2025, beneficiaries in the coverage gap paid 25% of the cost for both brand-name and generic drugs. The $2,000 cap now applies to all covered drugs regardless of type." },
     ],
     relatedLinks: [
-      { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/part-d-costs" },
+      { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost" },
       { label: "Part D Coverage Gap", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap" },
       { label: "Part D Deductible", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-deductible" },
     ],
@@ -1023,7 +1023,7 @@ export const partDSubPages: PartDSubPage[] = [
     ],
     relatedLinks: [
       { label: "Mutual of Omaha Medigap Plans", href: "/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans" },
-      { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/part-d-costs" },
+      { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost" },
       { label: "Part D Enrollment Periods", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods" },
     ],
   },

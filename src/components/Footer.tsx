@@ -20,6 +20,7 @@ const footerColumns = [
     title: "MEDICARE PLANS",
     color: "#1B2A4A",
     links: [
+      { label: "Compare Medicare Plans", href: "/medicare-plans" },
       { label: "Original Medicare", href: "/original-medicare" },
       { label: "Medicare Supplement", href: "/medicare-supplements" },
       { label: "Medicare Advantage", href: "/medicare-part-c/medicare-advantage-plans" },
@@ -54,12 +55,14 @@ const footerColumns = [
     title: "RESOURCES",
     color: "#4F46E5",
     links: [
+      { label: "Medicare Library", href: "/library" },
       { label: "Blog", href: "/blog" },
       { label: "Guides", href: "/library/guides" },
       { label: "Podcast", href: "/podcasts" },
       { label: "Videos", href: "/videos" },
       { label: "FAQs", href: "/faqs" },
       { label: "About Team", href: "/library/about" },
+      { label: "Senior's Guide to Medicare", href: "/seniors-guide-to-medicare-gov/tools-and-resources" },
     ],
   },
 ];
