@@ -495,7 +495,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["when-to-switch-medigap-plans-what-you-need-to-know", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-supplement-open-enrollment", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
+    relatedSlugs: ["when-to-switch-medigap-plans-what-you-need-to-know", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-supplement-open-enrollment", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f"],
   },
   {
     slug: 'all-in-one-medicare-plan',

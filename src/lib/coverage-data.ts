@@ -95,7 +95,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
       { title: "Does Medicare Cover Acupuncture?", description: "Learn about Medicare's acupuncture coverage for chronic pain.", slug: "does-medicare-cover-acupuncture" },
     
-      { title: "Medicare and Vision, Dental, and Hearing: Your Options", description: "Explore your coverage options for vision, dental, and hearing under Medicare.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },],
+      { title: "Medicare and Vision, Dental, and Hearing: Your Options", description: "Explore your coverage options for vision, dental, and hearing under Medicare.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
+      { title: "Top 5 Dental Insurance Plans for Seniors", description: "Compare the best dental insurance options for Medicare beneficiaries who need dental coverage.", slug: "top-5-dental-insurance-for-seniors" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Glasses",
       "Does Medicare Cover Hearing Aids",
@@ -106,7 +107,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers dental implants and more.",
     },
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-podiatry", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture"],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-podiatry", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors"],
   },
   {
     slug: "does-medicare-cover-glasses",
@@ -1010,7 +1011,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
       { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    ],
+    
+      { title: "Top 5 Dental Insurance Plans for Seniors", description: "Compare the best dental insurance options for Medicare beneficiaries who need dental coverage.", slug: "top-5-dental-insurance-for-seniors" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -1529,7 +1531,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare Cost-Sharing Plans Explained", description: "Understand how Medicare cost-sharing works and which plans reduce your out-of-pocket costs.", slug: "medicare-cost-sharing-plans" },
       { title: "Medicare Coverage for Disabled Individuals Under 65", description: "Find out how people under 65 with disabilities can qualify for Medicare coverage.", slug: "medicare-coverage-for-disabled-under-65" },
       { title: "Medicare Coverage for Disabled Dependents", description: "Learn whether Medicare can cover your children or dependents with disabilities.", slug: "medicare-coverage-for-my-children" },
-      { title: "Your Medicare Rights and Protections", description: "Know your rights as a Medicare beneficiary, including appeal rights and coverage protections.", slug: "your-medicare-rights-and-protections" },],
+      { title: "Your Medicare Rights and Protections", description: "Know your rights as a Medicare beneficiary, including appeal rights and coverage protections.", slug: "your-medicare-rights-and-protections" },
+      { title: "Native American Health and Medicare", description: "Learn how Medicare works for Native Americans and what special programs are available.", slug: "native-american-health-and-medicare" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -1540,7 +1543,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers pre-existing health conditions and more.",
     },
-    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan", "medicare-coverage-for-my-children", "medicare-gym-membership", "get-on-the-medicare-do-not-call-list", "medicare-physician-fee-schedule-lookup-tool", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-pre-existing-conditions"],
+    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan", "medicare-coverage-for-my-children", "medicare-gym-membership", "get-on-the-medicare-do-not-call-list", "medicare-physician-fee-schedule-lookup-tool", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-pre-existing-conditions", "native-american-health-and-medicare"],
   },
   {
     slug: "does-medicare-cover-prosthetic-devices",
@@ -1814,7 +1817,10 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare and Employer Coverage: How They Work Together", description: "Learn how Medicare coordinates with employer health insurance and when to enroll.", slug: "medicare-and-employer-coverage" },
       { title: "Can My Employer Pay My Medicare Premiums?", description: "Find out if your employer can reimburse your Medicare Part B or Part D premiums.", slug: "can-my-employer-pay-my-medicare-premiums" },
       { title: "IRMAA: Why Your Medicare Premiums May Be Higher", description: "Learn about IRMAA surcharges that increase Medicare Part B and D premiums for higher earners.", slug: "surprised-by-higher-medicare-premiums-it-could-be-irmaa" },
-      { title: "Medicare and COBRA: How They Interact", description: "Understand how Medicare and COBRA coverage work together and which should be primary.", slug: "medicare-cobra" },],
+      { title: "Medicare and COBRA: How They Interact", description: "Understand how Medicare and COBRA coverage work together and which should be primary.", slug: "medicare-cobra" },
+      { title: "Native American Health and Medicare", description: "Learn how Medicare works for Native Americans and what special programs are available.", slug: "native-american-health-and-medicare" },
+      { title: "New Medicare Changes: What to Know", description: "Stay up to date on the latest Medicare changes affecting benefits, costs, and enrollment.", slug: "new-medicare-changes" },
+      { title: "What to Know About Medicare at 64", description: "Get ready for Medicare at 65 by learning what you need to do at age 64.", slug: "what-to-know-about-medicare-at-64" },],
     sidebarRelatedLinks: [
       "Medicare Costs in 2026",
       "Medicare Supplement vs Advantage",
@@ -1825,7 +1831,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Ready to Explore Your Medicare Options?",
       text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
     },
-    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "get-on-the-medicare-do-not-call-list", "medicare-calendar-year-and-benefit-periods", "can-my-employer-pay-my-medicare-premiums", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible", "medicare-part-b-excess-charges"],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "get-on-the-medicare-do-not-call-list", "medicare-calendar-year-and-benefit-periods", "can-my-employer-pay-my-medicare-premiums", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible", "medicare-part-b-excess-charges", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f", "what-to-know-about-medicare-at-64", "part-b-excess-charges-medicare-overcharge-measure"],
   },
   {
     slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
@@ -15319,7 +15325,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Finding Pain Management Coverage?",
       text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that covers your pain management treatments. Compare plans in your area for free.",
     },
-    relatedSlugs: ["medicare-coverage-for-physical-therapy", "does-medicare-cover-chiropractic-care", "medicare-coverage-for-hip-injections", "will-medicare-cover-my-surgery", "medicare-coverage-for-botox-treatments", "does-medicare-cover-acupuncture"],
+    relatedSlugs: ["medicare-coverage-for-physical-therapy", "does-medicare-cover-chiropractic-care", "medicare-coverage-for-hip-injections", "will-medicare-cover-my-surgery", "medicare-coverage-for-botox-treatments", "does-medicare-cover-acupuncture", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management"],
   },
   {
     slug: "medicare-coverage-for-lung-transplants",
