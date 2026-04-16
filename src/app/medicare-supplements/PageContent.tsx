@@ -328,6 +328,9 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   <Link href="/medicare-supplements/medigap-eligibility" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
                     Check your eligibility <ArrowRight className="w-3.5 h-3.5" />
                   </Link>
+                  <Link href="/medicare-supplements/medicare-supplement-plans-2026" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
+                    2026 plan changes <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
                 </div>
               </section>
 

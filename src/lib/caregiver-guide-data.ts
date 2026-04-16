@@ -164,6 +164,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       { label: "Who Qualifies as a Caregiver Under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
       { label: "Medicare Home Health Coverage", path: "/faqs/does-medicare-cover-home-health-care" },
       { label: "Medicare Hospice Coverage", path: "/faqs/does-medicare-cover-hospice" },
+      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
     ],
   },
   {
@@ -452,6 +453,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       { label: "What Are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
       { label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver" },
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
+      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
     ],
   },
   {

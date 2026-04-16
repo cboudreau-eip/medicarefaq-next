@@ -265,6 +265,9 @@ export default function PageContent() {
               <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
                 Compare Plans <ArrowRight className="w-4 h-4" />
               </Link>
+              <Link href="/medicare-supplements/medicare-supplement-plans-2026" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+                2026 Plan Changes <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
           </div>
         </div>
