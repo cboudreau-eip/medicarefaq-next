@@ -922,7 +922,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers hospice and palliative care and more.",
     },
-    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-calendar-year-and-benefit-periods", "medicare-8-minute-rule"],
+    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-calendar-year-and-benefit-periods", "medicare-8-minute-rule", "medicare-visiting-angels"],
   },
   {
     slug: "does-medicare-cover-dentures",
@@ -1225,7 +1225,9 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "What Is a Medicare Part D Formulary?", description: "Understand how Medicare Part D drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
       { title: "Does Medicare Cover Diabetes Supplies?", description: "Find out what diabetes testing supplies and equipment Medicare covers.", slug: "does-medicare-cover-diabetes-supplies" },
       { title: "Does Medicare Cover a Nutritionist?", description: "Learn if Medicare covers nutrition counseling and dietitian services.", slug: "does-medicare-cover-a-nutritionist" },
-      { title: "Eliquis Cost With Medicare: What You'll Pay in 2026", description: "Find out how much Eliquis costs under Medicare Part D and how to reduce your copay.", slug: "eliquis-cost-with-medicare" },],
+      { title: "Eliquis Cost With Medicare: What You'll Pay in 2026", description: "Find out how much Eliquis costs under Medicare Part D and how to reduce your copay.", slug: "eliquis-cost-with-medicare" },
+      { title: "Can You Use Manufacturer Coupons With Medicare?", description: "Find out if Medicare beneficiaries can use drug manufacturer coupons and savings cards.", slug: "manufacturers-coupons-and-medicare" },
+      { title: "Medicare and Mail Order Prescriptions", description: "Find out how Medicare Part D mail-order pharmacy programs work and how to save money.", slug: "medicare-and-mail-order-prescriptions" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
@@ -1236,7 +1238,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers ozempic 2026 guide to costs, coverage, and savings and more.",
     },
-    relatedSlugs: ["medicare-diabetes", "does-medicare-cover-wegovy", "part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "what-is-a-medicare-part-d-formulary", "medicare-coverage-for-blood-pressure-monitors", "does-medicare-cover-diabetes-supplies", "does-medicare-cover-podiatry", "medicare-part-d-six-protected-classes", "does-medicare-cover-a-nutritionist", "durable-medical-equipment-covered-by-medicare", "eliquis-cost-with-medicare", "medicare-part-d-part-b-vaccines"],
+    relatedSlugs: ["medicare-diabetes", "does-medicare-cover-wegovy", "part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "what-is-a-medicare-part-d-formulary", "medicare-coverage-for-blood-pressure-monitors", "does-medicare-cover-diabetes-supplies", "does-medicare-cover-podiatry", "medicare-part-d-six-protected-classes", "does-medicare-cover-a-nutritionist", "durable-medical-equipment-covered-by-medicare", "eliquis-cost-with-medicare", "medicare-part-d-part-b-vaccines", "manufacturers-coupons-and-medicare", "medicare-and-mail-order-prescriptions"],
   },
   {
     slug: "does-medicare-cover-speech-therapy",
@@ -1537,7 +1539,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers pre-existing health conditions and more.",
     },
-    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan", "medicare-coverage-for-my-children", "medicare-gym-membership", "get-on-the-medicare-do-not-call-list"],
+    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan", "medicare-coverage-for-my-children", "medicare-gym-membership", "get-on-the-medicare-do-not-call-list", "medicare-physician-fee-schedule-lookup-tool"],
   },
   {
     slug: "does-medicare-cover-prosthetic-devices",
@@ -1809,7 +1811,9 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "HSA and Medicare: What You Need to Know", description: "Learn how having an HSA affects your Medicare enrollment and what rules apply.", slug: "hsa-and-medicare" },
       { title: "How to Get on the Medicare Do Not Call List", description: "Stop unwanted Medicare sales calls by registering on the Do Not Call list.", slug: "get-on-the-medicare-do-not-call-list" },
       { title: "Medicare and Employer Coverage: How They Work Together", description: "Learn how Medicare coordinates with employer health insurance and when to enroll.", slug: "medicare-and-employer-coverage" },
-      { title: "Can My Employer Pay My Medicare Premiums?", description: "Find out if your employer can reimburse your Medicare Part B or Part D premiums.", slug: "can-my-employer-pay-my-medicare-premiums" },],
+      { title: "Can My Employer Pay My Medicare Premiums?", description: "Find out if your employer can reimburse your Medicare Part B or Part D premiums.", slug: "can-my-employer-pay-my-medicare-premiums" },
+      { title: "IRMAA: Why Your Medicare Premiums May Be Higher", description: "Learn about IRMAA surcharges that increase Medicare Part B and D premiums for higher earners.", slug: "surprised-by-higher-medicare-premiums-it-could-be-irmaa" },
+      { title: "Medicare and COBRA: How They Interact", description: "Understand how Medicare and COBRA coverage work together and which should be primary.", slug: "medicare-cobra" },],
     sidebarRelatedLinks: [
       "Medicare Costs in 2026",
       "Medicare Supplement vs Advantage",
@@ -1820,7 +1824,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Ready to Explore Your Medicare Options?",
       text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
     },
-    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "get-on-the-medicare-do-not-call-list", "medicare-calendar-year-and-benefit-periods", "can-my-employer-pay-my-medicare-premiums"],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "get-on-the-medicare-do-not-call-list", "medicare-calendar-year-and-benefit-periods", "can-my-employer-pay-my-medicare-premiums", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible"],
   },
   {
     slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
@@ -3911,7 +3915,8 @@ export const coverageArticles: CoverageArticleData[] = [
         description: "Learn more about sleep apnea",
         slug: "does-medicare-cover-sleep-apnea",
       },
-    ],
+    
+      { title: "Medicare Part B Give Back Plan: How to Get Your Premium Reduced", description: "Learn how certain Medicare Advantage plans offer a Part B premium give-back benefit.", slug: "medicare-part-b-give-back-plan" },],
     sidebarRelatedLinks: [
       "Dental Implants",
       "Glasses",
@@ -8396,7 +8401,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Looking for More Benefits Beyond Original Medicare?",
       text: "Medicare Advantage plans can offer meal delivery, dental, vision, and other benefits that Original Medicare doesn't cover. Our licensed agents can help you compare plans in your area for free.",
     },
-    relatedSlugs: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-skilled-nursing-facilities", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care", "does-medicare-cover-skilled-nursing", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medical-rides", "medicare-8-minute-rule"],
+    relatedSlugs: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-skilled-nursing-facilities", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care", "does-medicare-cover-skilled-nursing", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medical-rides", "medicare-8-minute-rule", "medicare-visiting-angels"],
   },
 
   // ─── Does Medicare Cover Medical Alert Systems ──────────────────────────────
@@ -11205,7 +11210,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare Coverage for Cancer", description: "Learn how Medicare covers cancer diagnosis, treatment, and follow-up care.", slug: "medicare-coverage-for-cancer" },
       { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
       { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "medicare-supplement-plan-g" },
-    ],
+    
+      { title: "Medicare Physician Fee Schedule Lookup Tool", description: "Use the Medicare physician fee schedule to look up what Medicare pays for specific procedures.", slug: "medicare-physician-fee-schedule-lookup-tool" },],
     sidebarRelatedLinks: [
       "will-medicare-cover-my-surgery",
       "medicare-coverage-for-cancer",
@@ -17804,7 +17810,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Worried About Ambulance Cost Exposure?",
       text: "A Medigap plan like Plan G can eliminate your 20% coinsurance for emergency transport — including air ambulance. Our licensed Medicare agents can help you compare plans in your area at no cost.",
     },
-    relatedSlugs: ["ambulance-and-medicare-coverage", "medicare-coverage-for-stroke-victims", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medicare-calendar-year-and-benefit-periods"],
+    relatedSlugs: ["ambulance-and-medicare-coverage", "medicare-coverage-for-stroke-victims", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medicare-calendar-year-and-benefit-periods", "medicare-visiting-angels"],
   },
 
 ];
