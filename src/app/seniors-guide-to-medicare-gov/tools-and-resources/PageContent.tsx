@@ -92,7 +92,7 @@ return (
             <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
               <Link href="/" className="hover:text-white">Home</Link>
               <span>/</span>
-              <Link href="/seniors-guide-to-medicare-gov" className="hover:text-white">Seniors Guide to Medicare.gov</Link>
+              <Link href="/seniors-guide-to-medicare-gov/tools-and-resources" className="hover:text-white">Seniors Guide to Medicare.gov</Link>
               <span>/</span>
               <span className="text-white">Tools &amp; Resources</span>
             </nav>
