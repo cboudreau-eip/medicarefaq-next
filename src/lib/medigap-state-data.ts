@@ -20,6 +20,7 @@ export interface StateData {
   canonical: string;
   metaTitle: string;
   metaDescription: string;
+  nearbyStates?: string[];
 }
 
 export const STATE_DATA: StateData[] = [
@@ -50,6 +51,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/massachusetts-medigap-plans/",
     metaTitle: "Massachusetts Medigap Plans 2026: Medicare Supplement in MA",
     metaDescription: "Compare Medicare Supplement plans in Massachusetts. MA has unique state-specific Medigap rules with continuous open enrollment. Find the best plan for 2026.",
+  nearbyStates: ["connecticut-medigap-plans", "new-york-medigap-plans", "vermont-medigap-plans"],
   },
   {
     slug: "wisconsin-medigap-plans",
@@ -78,6 +80,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/wisconsin-medigap-plans/",
     metaTitle: "Wisconsin Medigap Plans 2026: Medicare Supplement in WI",
     metaDescription: "Compare Medicare Supplement plans in Wisconsin. WI has unique state-specific Medigap rules with Basic plan and optional riders. Find the best plan for 2026.",
+  nearbyStates: ["minnesota-medigap-plans", "michigan-medigap-plans", "ohio-medigap-plans"],
   },
   {
     slug: "minnesota-medigap-plans",
@@ -106,6 +109,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/minnesota-medigap-plans/",
     metaTitle: "Minnesota Medigap Plans 2026: Medicare Supplement in MN",
     metaDescription: "Compare Medicare Supplement plans in Minnesota. MN has unique state-specific Medigap rules. Find the best Medicare Supplement plan for 2026.",
+  nearbyStates: ["wisconsin-medigap-plans", "michigan-medigap-plans", "nebraska-medigap-plans"],
   },
   {
     slug: "florida-medigap-plans",
@@ -133,6 +137,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/florida-medigap-plans/",
     metaTitle: "Florida Medigap Plans 2026: Best Medicare Supplement Plans in FL",
     metaDescription: "Compare Medicare Supplement plans in Florida. FL has a Birthday Rule for switching plans. Find the best Medigap plan and rates for 2026.",
+  nearbyStates: ["georgia-medigap-plans", "alabama-medigap-plans", "tennessee-medigap-plans"],
   },
   {
     slug: "new-jersey-medigap-plans",
@@ -160,6 +165,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/new-jersey-medigap-plans/",
     metaTitle: "New Jersey Medigap Plans 2026: Medicare Supplement in NJ",
     metaDescription: "Compare Medicare Supplement plans in New Jersey. NJ has guaranteed issue rights and community rating. Find the best Medigap plan and rates for 2026.",
+  nearbyStates: ["new-york-medigap-plans", "pennsylvania-medigap-plans", "connecticut-medigap-plans"],
   },
   {
     slug: "texas-medigap-plans",
@@ -187,6 +193,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/texas-medigap-plans/",
     metaTitle: "Texas Medigap Plans 2026: Best Medicare Supplement Plans in TX",
     metaDescription: "Compare Medicare Supplement plans in Texas. Find the best Medigap plan and rates for 2026. TX has a large, competitive Medicare market.",
+  nearbyStates: ["oklahoma-medigap-plans", "louisiana-medigap-plans", "new-mexico-medigap-plans"],
   },
   {
     slug: "california-medigap-plans",
@@ -214,6 +221,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/california-medigap-plans/",
     metaTitle: "California Medigap Plans 2026: Best Medicare Supplement Plans in CA",
     metaDescription: "Compare Medicare Supplement plans in California. CA has a Birthday Rule for switching plans. Find the best Medigap plan and rates for 2026.",
+  nearbyStates: ["arizona-medigap-plans", "oregon-medigap-plans"],
   },
   {
     slug: "connecticut-medigap-plans",
@@ -241,6 +249,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/connecticut-medigap-plans/",
     metaTitle: "Connecticut Medigap Plans 2026: Medicare Supplement in CT",
     metaDescription: "Compare Medicare Supplement plans in Connecticut. CT has guaranteed issue rights and community rating. Find the best Medigap plan and rates for 2026.",
+  nearbyStates: ["new-york-medigap-plans", "massachusetts-medigap-plans", "new-jersey-medigap-plans"],
   },
   {
     slug: "arizona-medigap-plans",
@@ -268,6 +277,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/arizona-medigap-plans/",
     metaTitle: "Arizona Medigap Plans 2026: Best Medicare Supplement Plans in AZ",
     metaDescription: "Compare Medicare Supplement plans in Arizona. Find the best Medigap plan and rates for 2026. AZ has competitive pricing and many carrier options.",
+  nearbyStates: ["california-medigap-plans", "new-mexico-medigap-plans"],
   },
   {
     slug: "georgia-medigap-plans",
@@ -295,6 +305,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/georgia-medigap-plans/",
     metaTitle: "Georgia Medigap Plans 2026: Best Medicare Supplement Plans in GA",
     metaDescription: "Compare Medicare Supplement plans in Georgia. Find the best Medigap plan and rates for 2026. GA has competitive pricing and both national and regional carriers.",
+  nearbyStates: ["florida-medigap-plans", "tennessee-medigap-plans", "alabama-medigap-plans"],
   },
   {
     slug: "pennsylvania-medigap-plans",
@@ -322,6 +333,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/pennsylvania-medigap-plans/",
     metaTitle: "Pennsylvania Medigap Plans 2026: Best Medicare Supplement Plans in PA",
     metaDescription: "Compare Medicare Supplement plans in Pennsylvania. Find the best Medigap plan and rates for 2026. PA has a large Medicare market with Highmark and national carriers.",
+  nearbyStates: ["new-jersey-medigap-plans", "new-york-medigap-plans", "ohio-medigap-plans"],
   },
   {
     slug: "oklahoma-medigap-plans",
@@ -348,6 +360,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/oklahoma-medigap-plans/",
     metaTitle: "Oklahoma Medigap Plans 2026: Best Medicare Supplement Plans in OK",
     metaDescription: "Compare Medicare Supplement plans in Oklahoma. Find the best Medigap plan and rates for 2026. OK has affordable premiums and a competitive market.",
+  nearbyStates: ["texas-medigap-plans", "missouri-medigap-plans"],
   },
   {
     slug: "vermont-medigap-plans",
@@ -375,6 +388,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/vermont-medigap-plans/",
     metaTitle: "Vermont Medigap Plans 2026: Medicare Supplement in VT",
     metaDescription: "Compare Medicare Supplement plans in Vermont. VT has guaranteed issue rights and community rating. Find the best Medigap plan and rates for 2026.",
+  nearbyStates: ["massachusetts-medigap-plans", "new-york-medigap-plans", "connecticut-medigap-plans"],
   },
   {
     slug: "new-york-medigap-plans",
@@ -402,6 +416,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/new-york-medigap-plans/",
     metaTitle: "New York Medigap Plans 2026: Medicare Supplement in NY",
     metaDescription: "Compare Medicare Supplement plans in New York. NY has guaranteed issue rights year-round and community rating. Find the best Medigap plan and rates for 2026.",
+  nearbyStates: ["new-jersey-medigap-plans", "connecticut-medigap-plans", "pennsylvania-medigap-plans"],
   },
   {
     slug: "louisiana-medigap-plans",
@@ -428,6 +443,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/louisiana-medigap-plans/",
     metaTitle: "Louisiana Medigap Plans 2026: Best Medicare Supplement Plans in LA",
     metaDescription: "Compare Medicare Supplement plans in Louisiana. Find the best Medigap plan and rates for 2026. LA has affordable premiums and a competitive market.",
+  nearbyStates: ["texas-medigap-plans", "mississippi-medigap-plans", "tennessee-medigap-plans"],
   },
   {
     slug: "kentucky-medigap-plans",
@@ -454,6 +470,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/kentucky-medigap-plans/",
     metaTitle: "Kentucky Medigap Plans 2026: Best Medicare Supplement Plans in KY",
     metaDescription: "Compare Medicare Supplement plans in Kentucky. Find the best Medigap plan and rates for 2026. KY has affordable premiums and Humana's home market.",
+  nearbyStates: ["tennessee-medigap-plans", "ohio-medigap-plans", "virginia-medigap-plans"],
   },
   {
     slug: "michigan-medigap-plans",
@@ -480,6 +497,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/michigan-medigap-plans/",
     metaTitle: "Michigan Medigap Plans 2026: Best Medicare Supplement Plans in MI",
     metaDescription: "Compare Medicare Supplement plans in Michigan. Find the best Medigap plan and rates for 2026. MI has a large Medicare market with BCBS and national carriers.",
+  nearbyStates: ["ohio-medigap-plans", "wisconsin-medigap-plans", "minnesota-medigap-plans"],
   },
   {
     slug: "mississippi-medigap-plans",
@@ -506,6 +524,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/mississippi-medigap-plans/",
     metaTitle: "Mississippi Medigap Plans 2026: Best Medicare Supplement Plans in MS",
     metaDescription: "Compare Medicare Supplement plans in Mississippi. Find the best Medigap plan and rates for 2026. MS has some of the most affordable Medigap premiums in the country.",
+  nearbyStates: ["louisiana-medigap-plans", "tennessee-medigap-plans", "alabama-medigap-plans"],
   },
   {
     slug: "oregon-medigap-plans",
@@ -532,6 +551,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/oregon-medigap-plans/",
     metaTitle: "Oregon Medigap Plans 2026: Best Medicare Supplement Plans in OR",
     metaDescription: "Compare Medicare Supplement plans in Oregon. Find the best Medigap plan and rates for 2026. OR has a competitive market with Regence BCBS and national carriers.",
+  nearbyStates: ["california-medigap-plans"],
   },
   {
     slug: "tennessee-medigap-plans",
@@ -558,6 +578,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/tennessee-medigap-plans/",
     metaTitle: "Tennessee Medigap Plans 2026: Best Medicare Supplement Plans in TN",
     metaDescription: "Compare Medicare Supplement plans in Tennessee. Find the best Medigap plan and rates for 2026. TN has affordable premiums and a competitive market.",
+  nearbyStates: ["georgia-medigap-plans", "kentucky-medigap-plans", "alabama-medigap-plans"],
   },
   {
     slug: "ohio-medigap-plans",
@@ -584,6 +605,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/ohio-medigap-plans/",
     metaTitle: "Ohio Medigap Plans 2026: Best Medicare Supplement Plans in OH",
     metaDescription: "Compare Medicare Supplement plans in Ohio. Find the best Medigap plan and rates for 2026. OH has a large Medicare market with Medical Mutual and national carriers.",
+  nearbyStates: ["pennsylvania-medigap-plans", "michigan-medigap-plans", "kentucky-medigap-plans"],
   },
   {
     slug: "virginia-medigap-plans",
@@ -610,6 +632,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/virginia-medigap-plans/",
     metaTitle: "Virginia Medigap Plans 2026: Best Medicare Supplement Plans in VA",
     metaDescription: "Compare Medicare Supplement plans in Virginia. Find the best Medigap plan and rates for 2026. VA has a competitive market with Anthem BCBS and national carriers.",
+  nearbyStates: ["maryland-medigap-plans", "kentucky-medigap-plans", "tennessee-medigap-plans"],
   },
   {
     slug: "new-mexico-medigap-plans",
@@ -636,6 +659,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/new-mexico-medigap-plans/",
     metaTitle: "New Mexico Medigap Plans 2026: Medicare Supplement in NM",
     metaDescription: "Compare Medicare Supplement plans in New Mexico. Find the best Medigap plan and rates for 2026. NM has affordable premiums and national carrier options.",
+  nearbyStates: ["texas-medigap-plans", "arizona-medigap-plans", "oklahoma-medigap-plans"],
   },
   {
     slug: "alabama-medigap-plans",
@@ -663,6 +687,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/alabama-medigap-plans/",
     metaTitle: "Alabama Medigap Plans 2026: Best Medicare Supplement Plans in AL",
     metaDescription: "Compare Medicare Supplement plans in Alabama. Find the best Medigap plan and rates for 2026. AL has affordable premiums and a competitive market with national and regional carriers.",
+  nearbyStates: ["georgia-medigap-plans", "florida-medigap-plans", "tennessee-medigap-plans"],
   },
   {
     slug: "missouri-medigap-plans",
@@ -690,6 +715,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/missouri-medigap-plans/",
     metaTitle: "Missouri Medigap Plans 2026: Best Medicare Supplement Plans in MO",
     metaDescription: "Compare Medicare Supplement plans in Missouri. Find the best Medigap plan and rates for 2026. MO has a competitive market with national carriers and near-average premiums.",
+  nearbyStates: ["tennessee-medigap-plans", "oklahoma-medigap-plans", "nebraska-medigap-plans"],
   },
   {
     slug: "maryland-medigap-plans",
@@ -717,6 +743,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/maryland-medigap-plans/",
     metaTitle: "Maryland Medigap Plans 2026: Medicare Supplement Plans in MD",
     metaDescription: "Compare Medicare Supplement plans in Maryland. Maryland has a Birthday Rule allowing annual plan switches. Find the best Medigap rates for 2026.",
+  nearbyStates: ["virginia-medigap-plans", "pennsylvania-medigap-plans", "new-jersey-medigap-plans"],
   },
   {
     slug: "wyoming-medigap-plans",
@@ -744,6 +771,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/wyoming-medigap-plans/",
     metaTitle: "Wyoming Medigap Plans 2026: Medicare Supplement Plans in WY",
     metaDescription: "Compare Medicare Supplement plans in Wyoming. Find the best Medigap plan and rates for 2026. WY has a small market with national and regional carrier options.",
+  nearbyStates: ["nebraska-medigap-plans"],
   },
   {
     slug: "nebraska-medigap-plans",
@@ -771,6 +799,7 @@ export const STATE_DATA: StateData[] = [
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/nebraska-medigap-plans/",
     metaTitle: "Nebraska Medigap Plans 2026: Medicare Supplement Plans in NE",
     metaDescription: "Compare Medicare Supplement plans in Nebraska. Mutual of Omaha is headquartered in Omaha. Find the best Medigap plan and rates for 2026 in NE.",
+  nearbyStates: ["missouri-medigap-plans", "wyoming-medigap-plans", "minnesota-medigap-plans"],
   },
 ];
 

@@ -11,7 +11,7 @@ import {
   MapPin, ChevronDown, Phone, ArrowRight, CheckCircle2,
   AlertTriangle, Info, Building2, Users, Star
 } from "lucide-react";
-import { getStateBySlug } from "@/lib/medigap-state-data";
+import { getStateBySlug, STATE_DATA } from "@/lib/medigap-state-data";
 
 export default function PageContent({ stateSlug }: { stateSlug: string }) {
   const state = getStateBySlug(stateSlug);
@@ -168,6 +168,39 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 ))}
+              </div>
+            </div>
+          )}
+
+          {/* Nearby States */}
+          {state.nearbyStates && state.nearbyStates.length > 0 && (
+            <div className="mb-12">
+              <h2 className="text-2xl font-bold text-slate-900 mb-4" style={{ fontFamily: "'Merriweather', serif" }}>
+                Explore Medigap Plans in Nearby States
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {state.nearbyStates.map((nearbySlug) => {
+                  const nearby = STATE_DATA.find(s => s.slug === nearbySlug);
+                  if (!nearby) return null;
+                  return (
+                    <Link
+                      key={nearbySlug}
+                      href={`/medicare-supplements/medigap-by-state/${nearbySlug}`}
+                      className="flex items-center justify-between p-4 border border-slate-200 rounded-xl hover:border-blue-400 hover:bg-blue-50 transition-colors group"
+                    >
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-200 transition-colors">
+                          <span className="text-sm font-black text-blue-900">{nearby.abbreviation}</span>
+                        </div>
+                        <div>
+                          <p className="font-semibold text-slate-900 text-sm">{nearby.name}</p>
+                          <p className="text-xs text-slate-500">Medigap Plans</p>
+                        </div>
+                      </div>
+                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-colors" />
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           )}
