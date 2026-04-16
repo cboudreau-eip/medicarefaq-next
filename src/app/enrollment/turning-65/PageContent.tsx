@@ -594,7 +594,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
               </section>
 
               {/* Related Pages */}
-              <div className="grid sm:grid-cols-3 gap-4">
+              <div className="grid sm:grid-cols-4 gap-4">
                 <Link href="/enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <Briefcase className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Working Past 65</h3>
@@ -609,6 +609,11 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <Shield className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Compare Plans</h3>
                   <p className="text-xs text-slate-500">Side-by-side plan comparison</p>
+                </Link>
+                <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                  <FileText className="w-5 h-5 text-amber-600 mb-2" />
+                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Apply for Part B</h3>
+                  <p className="text-xs text-slate-500">Step-by-step Part B application</p>
                 </Link>
               </div>
             </div>

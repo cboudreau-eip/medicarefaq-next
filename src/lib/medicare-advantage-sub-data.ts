@@ -87,6 +87,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Medicare Advantage Enrollment Periods", path: "/medicare-part-c/medicare-advantage-enrollment-periods" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
+      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" },
     ],
   },
   {
@@ -159,6 +160,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
+      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" },
     ],
   },
   {
@@ -305,6 +307,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
+      { label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp" },
     ],
   },
   {
@@ -459,6 +462,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
+      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" },
     ],
   },
   {
@@ -535,6 +539,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
+      { label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp" },
     ],
   },
   {

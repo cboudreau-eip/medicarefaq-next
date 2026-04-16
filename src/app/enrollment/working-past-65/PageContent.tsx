@@ -24,6 +24,7 @@ import {
   Users,
   Calendar,
   DollarSign,
+  FileText,
 } from "lucide-react";
 
 const tableOfContents = [
@@ -565,7 +566,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
               </section>
 
               {/* Related Pages */}
-              <div className="grid sm:grid-cols-3 gap-4">
+              <div className="grid sm:grid-cols-4 gap-4">
                 <Link href="/enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <Calendar className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Turning 65 Enrollment</h3>
@@ -580,6 +581,11 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   <Shield className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">How to Enroll</h3>
                   <p className="text-xs text-slate-500">Step-by-step enrollment guide</p>
+                </Link>
+                <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                  <FileText className="w-5 h-5 text-amber-600 mb-2" />
+                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Apply for Part B</h3>
+                  <p className="text-xs text-slate-500">Step-by-step Part B application</p>
                 </Link>
               </div>
             </div>

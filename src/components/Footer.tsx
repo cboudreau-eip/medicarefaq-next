@@ -27,6 +27,7 @@ const footerColumns = [
       { label: "Part D (Rx Plans)", href: "/original-medicare/medicare-parts/medicare-part-d" },
       { label: "Compare All Plans", href: "/compare-rates" },
       { label: "Medicare Costs", href: "/medicare-plans/costs" },
+      { label: "Supplement Plans 2026", href: "/medicare-supplements/medicare-supplement-plans-2026" },
     ],
   },
   {
@@ -38,6 +39,8 @@ const footerColumns = [
       { label: "Annual Changes", href: "/enrollment/annual-changes" },
       { label: "Late Penalties", href: "/enrollment/late-penalties" },
       { label: "How to Enroll", href: "/enrollment/how-to-enroll" },
+      { label: "Enrollment Overview", href: "/enrollment" },
+      { label: "Enrollment Timeline", href: "/tools/enrollment-timeline" },
     ],
   },
   {
@@ -63,6 +66,11 @@ const footerColumns = [
       { label: "FAQs", href: "/faqs" },
       { label: "About Team", href: "/library/about" },
       { label: "Senior's Guide to Medicare", href: "/seniors-guide-to-medicare-gov/tools-and-resources" },
+      { label: "Client Care Team", href: "/client-care-team" },
+      { label: "Testimonials", href: "/testimonials" },
+      { label: "Scholarship", href: "/scholarship-opportunities" },
+      { label: "Partners", href: "/third-party-partners" },
+      { label: "Caregiver Guide", href: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
     ],
   },
 ];

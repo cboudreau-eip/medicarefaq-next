@@ -213,6 +213,7 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
       { label: "Part D Late Enrollment Penalty", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty" },
       { label: "Part D Eligibility", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility" },
+      { href: "/original-medicare/medicare-parts/medicare-part-d/silverscript", label: "SilverScript Part D Plans" },
     ],
   },
   {
@@ -260,6 +261,7 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Enrollment Periods", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods" },
       { label: "Part D Late Enrollment Penalty", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-late-enrollment-penalty" },
       { label: "Extra Help Program", href: "/faqs/medicare-extra-help-program" },
+      { href: "/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha", label: "Mutual of Omaha Part D Plans" },
     ],
   },
   {
@@ -310,6 +312,7 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
       { label: "Part D Plans 2026", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026" },
       { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost" },
+      { href: "/original-medicare/medicare-parts/medicare-part-d/medicare-donut-hole", label: "Medicare Donut Hole" },
     ],
   },
   {
@@ -373,6 +376,7 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Drug Tiers", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-drug-tiers" },
       { label: "Part D Prior Authorization", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-prior-authorization" },
       { label: "Part D Exceptions and Appeals", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-exceptions-and-appeals" },
+      { href: "/original-medicare/medicare-parts/medicare-part-d/silverscript", label: "SilverScript Part D Plans" },
     ],
   },
   {
@@ -424,6 +428,7 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Enrollment Periods", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods" },
       { label: "Part D Eligibility", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility" },
       { label: "Part D Plans 2026", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026" },
+      { href: "/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha", label: "Mutual of Omaha Part D Plans" },
     ],
   },
   {
@@ -470,6 +475,7 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Costs Overview", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost" },
       { label: "Part D Coverage Gap", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap" },
       { label: "Part D Plans 2026", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-plans-2026" },
+      { href: "/original-medicare/medicare-parts/medicare-part-d/medicare-donut-hole", label: "Medicare Donut Hole" },
     ],
   },
   {
@@ -533,6 +539,7 @@ export const partDSubPages: PartDSubPage[] = [
       { label: "Part D Coverage Gap", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap" },
       { label: "Part D Deductible", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-deductible" },
       { label: "Extra Help Program", href: "/faqs/medicare-extra-help-program" },
+      { href: "/original-medicare/medicare-parts/medicare-part-d/medicare-donut-hole", label: "Medicare Donut Hole" },
     ],
   },
   {
