@@ -11,7 +11,7 @@ import {
   Shield, ChevronDown, Phone, ArrowRight, CheckCircle2, XCircle,
   Star, Building2, MapPin, Globe, AlertTriangle
 } from "lucide-react";
-import { getCarrierBySlug } from "@/lib/medigap-carrier-data";
+import { getCarrierBySlug, CARRIER_DATA } from "@/lib/medigap-carrier-data";
 
 const PLAN_LETTERS = ["A", "B", "C", "D", "F", "G", "HD-F", "HD-G", "K", "L", "M", "N"];
 
@@ -199,6 +199,34 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
             <p className="text-xs font-bold text-blue-700 uppercase tracking-wider mb-2">Pricing Overview</p>
             <p className="text-blue-900 text-sm leading-relaxed">{carrier.pricingNote}</p>
           </div>
+
+          {/* Related Carriers */}
+          {carrier.relatedCarriers && carrier.relatedCarriers.length > 0 && (
+            <div className="mb-14">
+              <h2 className="text-2xl font-bold text-slate-900 mb-4" style={{ fontFamily: "'Merriweather', serif" }}>
+                Compare Other Top Medigap Carriers
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {carrier.relatedCarriers.map((relSlug) => {
+                  const rel = CARRIER_DATA.find(c => c.slug === relSlug);
+                  if (!rel) return null;
+                  return (
+                    <Link
+                      key={relSlug}
+                      href={`/medicare-supplements/medigap-by-carrier/${relSlug}`}
+                      className="flex items-center justify-between p-4 border border-slate-200 rounded-xl hover:border-blue-400 hover:bg-blue-50 transition-colors group"
+                    >
+                      <div>
+                        <p className="font-semibold text-slate-900 text-sm">{rel.shortName}</p>
+                        <p className="text-xs text-slate-500 mt-0.5">AM Best: {rel.amBestRating}</p>
+                      </div>
+                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-colors" />
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           {/* CTA */}
           <div className="p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">

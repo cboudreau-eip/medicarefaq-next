@@ -32,6 +32,7 @@ export interface CarrierData {
   ogImage: string;
   metaTitle: string;
   metaDescription: string;
+  relatedCarriers?: string[];
 }
 
 const ALL_PLANS: string[] = ["A", "B", "C", "D", "F", "G", "HD-F", "HD-G", "K", "L", "M", "N"];
@@ -78,6 +79,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Accendo Medicare Supplement Plans 2026: Rates, Reviews & Coverage",
     metaDescription: "Compare Accendo Medicare Supplement plans, rates, and reviews. See which Medigap plans Accendo offers and whether they're right for you in 2026.",
+  relatedCarriers: ["aetna-medicare-supplement-plans", "cigna-medigap-plans", "humana-medigap-plans"],
   },
   {
     slug: "medico-medigap-plans",
@@ -112,6 +114,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Medico Medicare Supplement Plans 2026: Rates, Reviews & Coverage",
     metaDescription: "Compare Medico Medicare Supplement plans, rates, and reviews. See which Medigap plans Medico offers and whether they're right for you in 2026.",
+  relatedCarriers: ["bankers-fidelity-medigap-plans", "gpm-medigap-plans", "oxford-life-medigap-plans"],
   },
   {
     slug: "bankers-fidelity-medigap-plans",
@@ -145,6 +148,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Bankers Fidelity Medicare Supplement Plans 2026: Rates & Reviews",
     metaDescription: "Compare Bankers Fidelity Medicare Supplement plans, rates, and reviews. See which Medigap plans they offer and whether they're right for you in 2026.",
+  relatedCarriers: ["medico-medigap-plans", "gpm-medigap-plans", "national-general"],
   },
   {
     slug: "united-american-medigap-plans",
@@ -179,6 +183,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "United American Medicare Supplement Plans 2026: Rates & Reviews",
     metaDescription: "Compare United American Medicare Supplement plans, rates, and reviews. Available in all 50 states. See which Medigap plans are right for you in 2026.",
+  relatedCarriers: ["mutual-of-omaha-medigap-plans", "aetna-medicare-supplement-plans", "humana-medigap-plans"],
   },
   {
     slug: "united-healthcare-medigap-plans",
@@ -215,6 +220,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "UnitedHealthcare Medicare Supplement Plans 2026: AARP Medigap Rates",
     metaDescription: "Compare UnitedHealthcare (AARP) Medicare Supplement plans, rates, and reviews. See all Medigap plan options and 2026 pricing from UnitedHealthcare.",
+  relatedCarriers: ["aetna-medicare-supplement-plans", "humana-medigap-plans", "mutual-of-omaha-medigap-plans"],
   },
   {
     slug: "blue-cross-blue-shield-medigap-plans",
@@ -250,6 +256,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Blue Cross Blue Shield Medicare Supplement Plans 2026: Rates & Reviews",
     metaDescription: "Compare Blue Cross Blue Shield Medicare Supplement plans, rates, and reviews. See BCBS Medigap plan options and 2026 pricing in your state.",
+  relatedCarriers: ["aetna-medicare-supplement-plans", "united-healthcare-medigap-plans", "cigna-medigap-plans"],
   },
   {
     slug: "cigna-medigap-plans",
@@ -284,6 +291,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Cigna Medicare Supplement Plans 2026: Medigap Rates & Reviews",
     metaDescription: "Compare Cigna Medicare Supplement plans, rates, and reviews. See which Medigap plans Cigna offers and whether they're right for you in 2026.",
+  relatedCarriers: ["aetna-medicare-supplement-plans", "humana-medigap-plans", "blue-cross-blue-shield-medigap-plans"],
   },
   {
     slug: "aetna-medicare-supplement-plans",
@@ -319,6 +327,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Aetna Medicare Supplement Plans 2026: Medigap Rates & Reviews",
     metaDescription: "Compare Aetna Medicare Supplement plans, rates, and reviews. See which Medigap plans Aetna offers and whether they're right for you in 2026.",
+  relatedCarriers: ["cigna-medigap-plans", "humana-medigap-plans", "united-healthcare-medigap-plans"],
   },
   {
     slug: "humana-medigap-plans",
@@ -354,6 +363,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Humana Medicare Supplement Plans 2026: Medigap Rates & Reviews",
     metaDescription: "Compare Humana Medicare Supplement plans, rates, and reviews. See which Medigap plans Humana offers and whether they're right for you in 2026.",
+  relatedCarriers: ["aetna-medicare-supplement-plans", "cigna-medigap-plans", "mutual-of-omaha-medigap-plans"],
   },
   {
     slug: "mutual-of-omaha-medigap-plans",
@@ -389,6 +399,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Mutual of Omaha Medicare Supplement Plans 2026: Rates & Reviews",
     metaDescription: "Compare Mutual of Omaha Medicare Supplement plans, rates, and reviews. A+ rated Medigap carrier. See 2026 pricing and plan options.",
+  relatedCarriers: ["aetna-medicare-supplement-plans", "humana-medigap-plans", "united-healthcare-medigap-plans"],
   },
   {
     slug: "gpm-medigap-plans",
@@ -423,6 +434,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "GPM Life Medicare Supplement Plans 2026: Medigap Rates & Reviews",
     metaDescription: "Compare GPM Life Medicare Supplement plans, rates, and reviews. See which Medigap plans GPM Life offers and whether they're right for you in 2026.",
+  relatedCarriers: ["medico-medigap-plans", "bankers-fidelity-medigap-plans", "oxford-life-medigap-plans"],
   },
   {
     slug: "gerber-life-medigap-plans",
@@ -457,6 +469,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Gerber Life Medicare Supplement Plans 2026: Medigap Rates & Reviews",
     metaDescription: "Compare Gerber Life Medicare Supplement plans, rates, and reviews. See which Medigap plans Gerber Life offers and whether they're right for you in 2026.",
+  relatedCarriers: ["manhattan-life-medigap-plans", "oxford-life-medigap-plans", "national-general"],
   },
   {
     slug: "national-general",
@@ -491,6 +504,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "National General Medicare Supplement Plans 2026: Medigap Rates & Reviews",
     metaDescription: "Compare National General Medicare Supplement plans, rates, and reviews. See which Medigap plans they offer and whether they're right for you in 2026.",
+  relatedCarriers: ["gerber-life-medigap-plans", "bankers-fidelity-medigap-plans", "gpm-medigap-plans"],
   },
   {
     slug: "manhattan-life-medigap-plans",
@@ -525,6 +539,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Manhattan Life Medicare Supplement Plans 2026: Medigap Rates & Reviews",
     metaDescription: "Compare Manhattan Life Medicare Supplement plans, rates, and reviews. See which Medigap plans they offer and whether they're right for you in 2026.",
+  relatedCarriers: ["gerber-life-medigap-plans", "oxford-life-medigap-plans", "medico-medigap-plans"],
   },
   {
     slug: "oxford-life-medigap-plans",
@@ -558,6 +573,7 @@ export const CARRIER_DATA: CarrierData[] = [
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
     metaTitle: "Oxford Life Medicare Supplement Plans 2026: Medigap Rates & Reviews",
     metaDescription: "Compare Oxford Life Medicare Supplement plans, rates, and reviews. See which Medigap plans Oxford Life offers and whether they're right for you in 2026.",
+  relatedCarriers: ["manhattan-life-medigap-plans", "gerber-life-medigap-plans", "gpm-medigap-plans"],
   },
 ];
 
