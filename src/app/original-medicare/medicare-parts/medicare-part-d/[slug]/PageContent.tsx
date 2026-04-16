@@ -22,7 +22,7 @@ import {
   Layers,
   Scale,
 } from "lucide-react";
-import { partDSubPages } from "@/lib/part-d-sub-data";
+import type { PartDSubPage } from "@/lib/part-d-sub-data";
 
 const iconMap: Record<string, React.ReactNode> = {
   Pill: <Pill className="w-8 h-8 text-blue-200" />,
@@ -37,10 +37,8 @@ const iconMap: Record<string, React.ReactNode> = {
   ArrowRight: <ArrowRight className="w-8 h-8 text-blue-200" />,
 };
 
-export default function PageContent({ slug }: { slug: string }) {
+export default function PageContent({ page }: { page: PartDSubPage }) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-
-  const page = partDSubPages.find((p) => p.slug === slug);
 
   if (!page) {
     return (

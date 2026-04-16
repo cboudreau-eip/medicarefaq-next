@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 import { partDSubPages } from "@/lib/part-d-sub-data";
@@ -33,9 +34,13 @@ export default async function Page({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const page = partDSubPages.find((p) => p.slug === slug);
+  if (!page) {
+    notFound();
+  }
   return (
     <SiteLayout>
-      <PageContent slug={slug} />
+      <PageContent page={page} />
     </SiteLayout>
   );
 }

@@ -5,6 +5,10 @@ import CoverageArticleContent from "./CoverageArticleContent";
 import SimpleFAQContent from "./SimpleFAQContent";
 import { coverageArticles } from "@/lib/coverage-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
+import { blogArticles } from "@/lib/blog-articles-data";
+
+/* Blog slug set computed server-side at build time — zero client bundle cost */
+const blogSlugs = new Set(blogArticles.map((a) => a.slug));
 
 const BASE_URL = "https://www.medicarefaq.com";
 
@@ -244,7 +248,7 @@ export default async function FAQArticlePage({
             dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
           />
         ))}
-        <SimpleFAQContent article={simpleFAQ} />
+        <SimpleFAQContent article={simpleFAQ} blogSlugs={blogSlugs} />
       </SiteLayout>
     );
   }

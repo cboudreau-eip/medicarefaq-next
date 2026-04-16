@@ -28,13 +28,9 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import type { SimpleFAQArticleData, BlogSectionContent } from "@/lib/article-types";
-import { blogArticles } from "@/lib/blog-articles-data";
 import FAQSchema from "@/components/schema/FAQSchema";
 import ArticleSchema from "@/components/schema/ArticleSchema";
 import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
-
-/* ─── Set of all blog slugs for cross-reference routing ─── */
-const blogSlugs = new Set(blogArticles.map((a) => a.slug));
 
 const BASE_URL = "https://www.medicarefaq.com";
 
@@ -276,7 +272,7 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
   }
 }
 
-export default function SimpleFAQContent({ article }: { article: SimpleFAQArticleData }) {
+export default function SimpleFAQContent({ article, blogSlugs }: { article: SimpleFAQArticleData; blogSlugs: Set<string> }) {
   const [helpfulVote, setHelpfulVote] = useState<"yes" | "no" | null>(null);
   const [activeSection, setActiveSection] = useState("");
 
