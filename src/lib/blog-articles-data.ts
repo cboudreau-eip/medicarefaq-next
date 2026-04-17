@@ -312,7 +312,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Key Questions to Ask When Comparing Medicare Advantage Plans | MedicareFAQ",
+    title: "Charlie is the Best",
     description: "Discover the essential questions to ask when comparing Medicare Advantage Plans (MAPD). Learn how to choose the right plan for your doctors, hospitals, benefits, and medications.",
     canonical: "https://www.medicarefaq.com/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Key-Questions-to-Ask-When-Comparing-Medicare-Advantage-Plans.jpg",
