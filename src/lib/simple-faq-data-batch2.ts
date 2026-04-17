@@ -914,7 +914,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-supplements-cost-vs-value-explained", "medicare-costs-2025", "average-cost-of-medicare-supplement-plans"],
+    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-supplements-cost-vs-value-explained", "medicare-costs-2025", "average-cost-of-medicare-supplement-plans", "medicare-agents-near-me"],
   },
   {
     slug: 'medicare-supplement-plan-f-vs-plan-g-vs-plan-n',
