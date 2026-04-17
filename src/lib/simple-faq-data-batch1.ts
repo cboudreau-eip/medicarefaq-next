@@ -186,7 +186,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-starter-guide-what-to-do-in-your-first-90-days", "what-is-medicare", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-starter-guide-what-to-do-in-your-first-90-days", "what-is-medicare", "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
     "medicare-questions",],
   },
   {
@@ -797,7 +797,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["when-should-you-enroll-in-medicare-if-still-working", "can-you-get-medicare-without-receiving-social-security-benefits", "applying-for-medicare", "medicare-at-60"
+    relatedSlugs: ["when-should-you-enroll-in-medicare-if-still-working", "can-you-get-medicare-without-receiving-social-security-benefits", "applying-for-medicare", "medicare-at-60",
     "medicare-and-va-benefits",
     "medicare-for-green-card-holders",],
   },
@@ -902,7 +902,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["can-you-get-medicare-without-receiving-social-security-benefits", "medicare-parts-a-b-c-and-d-explained-simply", "5-things-to-do-after-you-receive-your-medicare-card", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"
+    relatedSlugs: ["can-you-get-medicare-without-receiving-social-security-benefits", "medicare-parts-a-b-c-and-d-explained-simply", "5-things-to-do-after-you-receive-your-medicare-card", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide",
     "medicare-for-disabled-individuals",],
   },
   {
@@ -929,7 +929,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "how-the-medigap-free-look-period-protects-you", "medigap-underwriting-how-preexisting-conditions-still-matter"
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "how-the-medigap-free-look-period-protects-you", "medigap-underwriting-how-preexisting-conditions-still-matter",
     "medicare-supplement-plans-and-pre-existing-conditions",],
   },
   {
@@ -1034,7 +1034,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medigap-underwriting-how-preexisting-conditions-still-matter", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "how-the-medigap-free-look-period-protects-you"
+    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medigap-underwriting-how-preexisting-conditions-still-matter", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "how-the-medigap-free-look-period-protects-you",
     "medicare-guaranteed-issue",
     "medicare-supplement-plans-and-pre-existing-conditions",],
   },
@@ -1166,7 +1166,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "how-the-medigap-free-look-period-protects-you"
+    relatedSlugs: ["the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "how-the-medigap-free-look-period-protects-you",
     "medicare-questions",
     "medicare-for-disabled-individuals",
     "medicare-for-green-card-holders",
