@@ -1831,7 +1831,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Ready to Explore Your Medicare Options?",
       text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
     },
-    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "get-on-the-medicare-do-not-call-list", "medicare-calendar-year-and-benefit-periods", "can-my-employer-pay-my-medicare-premiums", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible", "medicare-part-b-excess-charges", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f", "what-to-know-about-medicare-at-64", "part-b-excess-charges-medicare-overcharge-measure"],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "get-on-the-medicare-do-not-call-list", "medicare-calendar-year-and-benefit-periods", "can-my-employer-pay-my-medicare-premiums", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible", "medicare-part-b-excess-charges", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f", "what-to-know-about-medicare-at-64", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-creditable-coverage", "medicare-and-va-benefits"],
   },
   {
     slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
@@ -2009,7 +2009,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Compare Medicare Advantage Plans in Your Area",
       text: "Our licensed agents can help you evaluate extra benefits and find the right Medicare Advantage plan for your needs.",
     },
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-vs-medicare-supplement"],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-vs-medicare-supplement", "medicare-advantage-over-the-counter-cards", "silver-sneakers-program"],
   },
   {
     slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling",
@@ -2787,7 +2787,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-part-b-annual-deductible-explained-what-youll-pay", "what-is-medicare"],
+    relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-part-b-annual-deductible-explained-what-youll-pay", "what-is-medicare", "medicare-for-disabled-individuals", "medicare-for-green-card-holders"],
   },
   {
     slug: "25-medicare-qas-you-should-know",
@@ -3642,7 +3642,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["top-free-computer-classes-for-seniors", "5-government-benefits-for-seniors", "discounts-for-seniors"],
+    relatedSlugs: ["top-free-computer-classes-for-seniors", "5-government-benefits-for-seniors", "discounts-for-seniors", "silver-sneakers-program"],
   },
   {
     slug: "medicare-annual-notice-of-change-letter",
@@ -4108,7 +4108,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-advantage-denied-claims-crisis"],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-advantage-denied-claims-crisis", "medicare-advantage-over-the-counter-cards"],
   },
   {
     slug: "medigap-vs-medicare-advantage",
@@ -4277,7 +4277,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan"],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-advantage-over-the-counter-cards"],
   },
   {
     slug: "medicare-special-enrollment-period",
@@ -4452,7 +4452,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "what-is-medicare-creditable-coverage", "medicare-part-b-late-enrollment-penalty"],
   },
   {
     slug: "medicare-advantage-open-enrollment-period",
@@ -4801,7 +4801,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["medicare-and-employer-coverage", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
+    relatedSlugs: ["medicare-and-employer-coverage", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working", "medicare-and-va-benefits"],
   },
   {
     slug: "medicare-creditable-coverage",
@@ -5162,7 +5162,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["medicare-part-b-late-enrollment-penalty", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "how-is-medicare-part-d-changing-in-2026"],
+    relatedSlugs: ["medicare-part-b-late-enrollment-penalty", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "how-is-medicare-part-d-changing-in-2026", "what-is-medicare-creditable-coverage"],
   },
   {
     slug: "medicare-cost-sharing-plans",
@@ -5644,7 +5644,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage", "medicare-part-b-late-enrollment-penalty"],
   },
 
   // ─── Does Medicare Cover a Biopsy ───────────────────────────────────────────
