@@ -57,7 +57,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "applying-for-medicare", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
+    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "applying-for-medicare", "medicare-starter-guide-what-to-do-in-your-first-90-days", "report-medicare-fraud"],
   },
   {
     slug: 'delay-medicare',
