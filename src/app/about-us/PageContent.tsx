@@ -625,6 +625,11 @@ export default function About() {  return (
       </main>
 
       
-    </div>
+    
+      <div className="mt-8 p-6 bg-slate-50 rounded-xl border border-slate-100">
+        <h3 className="font-semibold text-slate-900 mb-2">Meet Our Founder</h3>
+        <a href="/about-us/jagger-esch" className="text-teal-600 hover:underline font-medium">Jagger Esch — Founder &amp; CEO</a>
+      </div>
+</div>
   );
 }

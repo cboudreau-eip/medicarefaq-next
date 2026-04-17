@@ -235,6 +235,19 @@ export default function MedicareEligibility() {
             </div>
           </section>
 
+          <section className="mt-10 mb-8">
+            <h2 className="text-xl font-bold text-[#1B2A4A] mb-4">Related Medicare Topics</h2>
+            <div className="grid sm:grid-cols-2 gap-4">
+              <a href="/original-medicare/medicare-coverage" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+                <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Coverage</h3>
+                <p className="text-xs text-slate-500">What Original Medicare covers</p>
+              </a>
+              <a href="/original-medicare/medicare-costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+                <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Costs</h3>
+                <p className="text-xs text-slate-500">Premiums, deductibles, and copays</p>
+              </a>
+            </div>
+          </section>
           {/* CTA */}
           <section className="mt-10 bg-[#1B2A4A] text-white rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-bold mb-3">Ready to Enroll in Medicare?</h2>

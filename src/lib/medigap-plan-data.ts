@@ -419,7 +419,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
         a: "Plan D can be a good choice if you want solid hospital and SNF coverage at a lower premium than Plan G, and you primarily see doctors who accept Medicare assignment. However, Plan N is often a better value since it's more widely offered and competitively priced.",
       },
     ],
-    relatedPlans: ["plan-g", "plan-n", "plan-b"],
+    relatedPlans: ["plan-g", "plan-n", "plan-b", "plan-c"],
     intro: "Medicare Supplement Plan D provides solid coverage for hospital and skilled nursing facility costs, along with foreign travel emergency benefits. It covers the Part A deductible in full but does not cover the Part B deductible or Part B excess charges.",
     detailParagraphs: [
       "Plan D is a mid-tier Medigap option that covers most major Medicare cost-sharing except the Part B deductible and excess charges. It's available to all new Medicare enrollees and offers lower premiums than Plan G.",
@@ -546,7 +546,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
         a: "Plan A is rarely the best choice. It's primarily useful for people on very tight budgets who want some protection against extended hospital stays. For most people, Plan N offers substantially better coverage for a modest premium increase.",
       },
     ],
-    relatedPlans: ["plan-b", "plan-n", "plan-g"],
+    relatedPlans: ["plan-b", "plan-n", "plan-g", "plan-c"],
     intro: "Medicare Supplement Plan A is the most basic Medigap plan, covering only the core Medicare cost-sharing benefits. It has the lowest premium of any Medigap plan but leaves significant gaps — including the Part A deductible and skilled nursing facility costs.",
     detailParagraphs: [
       "Plan A is the baseline Medigap plan that all insurers are required to offer. It covers Part A hospital coinsurance (including extended stays beyond Medicare's 60-day limit) and Part B coinsurance, but nothing else.",
@@ -740,7 +740,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
         a: `Plan M covers 50% of the Part A deductible (you pay $838 in 2026) while Plan G covers 100%. Plan M does not cover Part B excess charges while Plan G does. Plan M premiums are typically lower than Plan G. If you rarely need hospital care, Plan M's savings may outweigh the partial deductible exposure.`,
       },
     ],
-    relatedPlans: ["plan-g", "plan-n", "plan-d"],
+    relatedPlans: ["plan-g", "plan-n", "plan-d", "plan-c"],
     intro: "Medicare Supplement Plan M offers broad coverage similar to Plan G but with one key difference: it only covers 50% of the Part A deductible. In exchange, Plan M premiums are lower than Plan G.",
     detailParagraphs: [
       `Plan M is a middle-ground option that covers most Medicare cost-sharing comprehensively, with the exception of the Part A deductible. You're responsible for 50% of the Part A deductible (${PART_A_DEDUCTIBLE} in 2026), meaning you'd pay $838 per hospital admission. Plan M also does not cover Part B excess charges.`,
