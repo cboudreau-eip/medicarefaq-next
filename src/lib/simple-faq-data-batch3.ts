@@ -356,7 +356,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         ],
       },
     ],
-    relatedSlugs: ["part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know", "new-in-2025-medicares-part-d-payment-plan-explained"],
+    relatedSlugs: ["part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know", "new-in-2025-medicares-part-d-payment-plan-explained", "top-5-medicare-prescription-drug-plans"],
   },
   {
     slug: 'medicare-supplement-plans-medigap-pricing-methods',
@@ -927,7 +927,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         ],
       },
     ],
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors", "does-medicare-cover-dental-implants"],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors", "does-medicare-cover-dental-implants", "six-protected-classes"],
   },  {
     slug: 'medicare-history',
     seo: {

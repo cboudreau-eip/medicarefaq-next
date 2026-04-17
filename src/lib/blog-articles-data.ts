@@ -55,7 +55,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "Understanding your Medicare costs", id: "understanding-your-medicare-costs" },
       { type: "paragraph", content: "Figuring out what you'll spend on Medicare in 2026 can be confusing. Make a list of your premiums and deductibles as a starting point and read up on the additional costs you may be subject to based on your plan. If you need further guidance, contact one of our licensed Medicare agents to see how we can help you navigate your 2026 Medicare spending." },
     ],
-    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "how-medigap-plans-affect-your-overall-medicare-costs", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage"],
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "how-medigap-plans-affect-your-overall-medicare-costs", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "rheumatoid-arthritis-treatment-and-medicare-coverage", "medicare-paperless-billing", "medicare-supplement-plans-medigap-pricing-methods", ],
   },
 {
     slug: "how-is-medicare-part-d-changing-in-2026",
@@ -112,7 +112,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "The Medicare Annual Enrollment Period for coverage beginning January 1, 2026, is scheduled from October 15 to December 7, 2026. Be sure to research your plan options and compare your coverage to ensure you make the most informed decision possible regarding your 2024 Medicare Part D coverage." },
       { type: "paragraph", content: "During the Annual Enrollment Period, our agents can help educate you on the plans in your area to fit your healthcare and financial needs. Complete our online rate form to work one on one with a licensed agent in your area." },
     ],
-    relatedSlugs: ["new-in-2025-medicares-part-d-payment-plan-explained", "coverage-gap-discount-program", "how-can-seniors-save-on-prescription-drug-costs", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary", "amazon-rx-pass"],
+    relatedSlugs: ["new-in-2025-medicares-part-d-payment-plan-explained", "coverage-gap-discount-program", "how-can-seniors-save-on-prescription-drug-costs", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary", "amazon-rx-pass", "top-5-medicare-prescription-drug-plans"],
   },
 {
     slug: "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
@@ -518,7 +518,7 @@ export const blogArticles: BlogArticleData[] = [
     canonical: "https://www.medicarefaq.com/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-Medigap-Premiums-Does-a-Higher-Price-Mean-Better-Coverage.jpg",
   },
-  relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "coverage-gap-discount-program", "how-can-seniors-save-on-prescription-drug-costs", "part-d-formulary", "medicare-part-d-penalty", "amazon-rx-pass"],
+  relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "coverage-gap-discount-program", "how-can-seniors-save-on-prescription-drug-costs", "part-d-formulary", "medicare-part-d-penalty", "amazon-rx-pass", "medicare-paperless-billing"],
   slug: "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage",
     title: "Understanding Medigap Premiums: Does a Higher Price Mean Better Coverage?",
     excerpt: "When you begin shopping for a Medicare Supplement (Medigap) plan, you will quickly notice something interesting: the prices for the very same plan can vary significantly from one insurance company to",
@@ -573,7 +573,7 @@ export const blogArticles: BlogArticleData[] = [
     canonical: "https://www.medicarefaq.com/blog/how-medigap-plans-affect-your-overall-medicare-costs/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-Medigap-Plans-Affect-Your-Overall-Costs.jpg",
   },
-  relatedSlugs: ["how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplements-cost-vs-value-explained", "average-cost-of-medicare-supplement-plans", "medicare-costs-2026"],
+  relatedSlugs: ["how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplements-cost-vs-value-explained", "average-cost-of-medicare-supplement-plans", "medicare-costs-2026", "travel-insurance-for-seniors-with-medicare", "medicare-supplement-plans-medigap-pricing-methods"],
   slug: "how-medigap-plans-affect-your-overall-medicare-costs",
     title: "How Medigap Plans Affect Your Overall Medicare Costs",
     excerpt: "When you first enroll in Original Medicare, it provides a great sense of security. Knowing you have reliable health coverage is a cornerstone of a comfortable retirement.",
@@ -632,7 +632,7 @@ export const blogArticles: BlogArticleData[] = [
     canonical: "",
     ogImage: "",
   },
-  relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-costs-2026", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "average-cost-of-medicare-supplement-plans"],
+  relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-costs-2026", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "average-cost-of-medicare-supplement-plans", "rheumatoid-arthritis-treatment-and-medicare-coverage", "medicare-supplement-plans-medigap-pricing-methods"],
   slug: "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained",
     title: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained",
     excerpt: "Learn the key differences between automatic and manual Medicare enrollment, and find out which path applies to your situation.",
@@ -748,7 +748,7 @@ export const blogArticles: BlogArticleData[] = [
       "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained",
       "how-the-medigap-free-look-period-protects-you",
       "medicare-part-b-annual-deductible-explained-what-youll-pay",
-    ],
+      "qualified-health-plans-medicare", "is-medicare-mandatory"],
   },
 {
     seo: {
@@ -1190,7 +1190,7 @@ export const blogArticles: BlogArticleData[] = [
       "key-questions-to-ask-when-comparing-medicare-advantage-plans",
       "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
       "medicare-flex-card",
-    ],
+    "travel-insurance-for-seniors-with-medicare", "rheumatoid-arthritis-treatment-and-medicare-coverage", ],
   },
 {
     seo: {
@@ -1246,7 +1246,7 @@ export const blogArticles: BlogArticleData[] = [
     relatedSlugs: [
       "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
       "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained",
-    ],
+    "medicare-and-retiree-insurance", "is-medicare-mandatory", ],
   },
 {
     seo: {
@@ -2066,7 +2066,7 @@ export const blogArticles: BlogArticleData[] = [
         { question: "What if I miss my 60-day Special Enrollment Period deadline?", answer: "Missing your deadline creates serious consequences. You'll owe a late enrollment penalty on Part B of 10% per year for every year you delayed, indefinitely. For Part D, you\'ll owe 1% of the national average premium for every month you were uninsured. You\'ll also have a gap in coverage during the time you weren\'t enrolled, leaving you vulnerable to medical bills. This is why meeting your deadline is critical. If you\'re close to the deadline and unsure, contact Medicare immediately." },
         { question: "Should I choose Original Medicare or Medicare Advantage?", answer: "This depends on your health, doctors, and preferences. Original Medicare with Medigap offers the most provider flexibility and predictable costs, but higher monthly premiums. Medicare Advantage plans cost less monthly but restrict you to in-network providers and may have higher out-of-pocket costs if you need extensive care. Review your current doctors' participation in each plan option. If you have chronic conditions requiring specialty care, check whether your specialists participate in Advantage plans before deciding." },
       ],
-      relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-should-you-enroll-in-medicare-if-still-working", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job"],
+      relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-should-you-enroll-in-medicare-if-still-working", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-retiree-insurance"],
     },
 {
       slug: "what-happens-to-your-medicare-when-you-move-states",
@@ -5472,6 +5472,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "What happens when COBRA coverage ends?", answer: "When COBRA expires, your coverage terminates completely. If you are 65+, you should have enrolled in Medicare before COBRA ends. If under 65, explore ACA marketplace plans, employer coverage, or other options. Missing enrollment deadlines triggers penalties and coverage gaps." },
       { question: "Are COBRA premiums tax deductible?", answer: "Generally, COBRA premiums are not tax deductible for individuals unless you are self-employed. However, some employers offer COBRA premium subsidies or payment assistance programs. Check with your employer or tax advisor regarding your specific situation." },
     ],
+  relatedSlugs: ["medicare-and-retiree-insurance"],
   }
 ,
   {
@@ -6207,7 +6208,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Does Medigap cover medical evacuation from a foreign country?", answer: "No. Medigap does not cover medical evacuation (repatriation). You need a separate travel insurance policy for this coverage." },
       { question: "What should I do if I have a medical emergency abroad?", answer: "Seek emergency care immediately. Keep all receipts and documentation. File a claim with your Medigap insurer when you return. Most plans require you to pay upfront and seek reimbursement." },
     ],
-    relatedSlugs: ["medicare-supplements-cost-vs-value-explained", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "when-to-switch-medigap-plans-what-you-need-to-know"],
+    relatedSlugs: ["medicare-supplements-cost-vs-value-explained", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "when-to-switch-medigap-plans-what-you-need-to-know", "travel-insurance-for-seniors-with-medicare", ],
   },
   {
     slug: "medicare-blue-button",
@@ -6619,7 +6620,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "What is the Part D out-of-pocket maximum for 2026?", answer: "The Part D out-of-pocket maximum is $2,000 in 2026. After you reach this amount, your covered drugs cost $0 for the rest of the year." },
       { question: "Can I switch Part D plans if my drug costs are too high?", answer: "You can switch Part D plans during the [Annual Enrollment Period](/enrollment/annual-enrollment-period) (October 15–December 7) each year. If your circumstances change significantly, you may qualify for a Special Enrollment Period." },
     ],
-    relatedSlugs: ["medicare-starter-guide-what-to-do-in-your-first-90-days", "chronic-care-management", "will-medicare-pay-for-a-nebulizer-machine"],
+    relatedSlugs: ["medicare-starter-guide-what-to-do-in-your-first-90-days", "chronic-care-management", "will-medicare-pay-for-a-nebulizer-machine", "top-5-medicare-prescription-drug-plans", ],
   },
   {
     slug: "direct-care-opportunity-act",

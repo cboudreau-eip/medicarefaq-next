@@ -57,7 +57,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program"],
+    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program", "qualified-health-plans-medicare", ],
   },
   {
     slug: 'medicare-extra-help-program',

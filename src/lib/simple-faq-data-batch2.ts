@@ -373,7 +373,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "top-5-medicare-prescription-drug-plans", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "new-in-2025-medicares-part-d-payment-plan-explained"],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "top-5-medicare-prescription-drug-plans", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "new-in-2025-medicares-part-d-payment-plan-explained", "six-protected-classes"],
   },
   {
     slug: 'top-5-medicare-prescription-drug-plans',

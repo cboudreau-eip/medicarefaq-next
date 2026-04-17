@@ -645,7 +645,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "does-medicare-cover-macular-degeneration", "medicare-and-vision-dental-and-hearing-what-are-your-options"],
+    relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "does-medicare-cover-macular-degeneration", "medicare-and-vision-dental-and-hearing-what-are-your-options", "six-protected-classes"],
   },
   {
     slug: 'checklist-preparing-for-medicare-enrollment-in-2026',

@@ -107,7 +107,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers dental implants and more.",
     },
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-chiropractic-care", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors"],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-chiropractic-care", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors", "dental-and-vision-insurance-for-seniors", "medicare-paperless-billing"],
   },
   {
     slug: "does-medicare-cover-glasses",
@@ -1831,7 +1831,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Ready to Explore Your Medicare Options?",
       text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
     },
-    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "get-on-the-medicare-do-not-call-list", "medicare-calendar-year-and-benefit-periods", "can-my-employer-pay-my-medicare-premiums", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible", "medicare-part-b-excess-charges", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f", "what-to-know-about-medicare-at-64", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-creditable-coverage", "medicare-and-va-benefits"],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "get-on-the-medicare-do-not-call-list", "medicare-calendar-year-and-benefit-periods", "can-my-employer-pay-my-medicare-premiums", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible", "medicare-part-b-excess-charges", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f", "what-to-know-about-medicare-at-64", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-creditable-coverage", "medicare-and-va-benefits", "is-medicare-mandatory"],
   },
   {
     slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
@@ -4801,7 +4801,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["medicare-and-employer-coverage", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working", "medicare-and-va-benefits"],
+    relatedSlugs: ["medicare-and-employer-coverage", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working", "medicare-and-va-benefits", "medicare-and-retiree-insurance", "qualified-health-plans-medicare", "is-medicare-mandatory", "medicare-supplement-plans-medigap-pricing-methods"],
   },
   {
     slug: "medicare-creditable-coverage",
@@ -9012,7 +9012,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Dental Coverage with Medicare?",
       text: "Our licensed agents can help you find a Medicare Advantage plan with dental benefits or a stand-alone dental plan that fits your needs and budget.",
     },
-    relatedSlugs: ["does-medicare-cover-dental-implants", "does-medicare-cover-root-canals", "does-medicare-cover-hearing-aids", "does-medicare-cover-glasses", "does-medicare-cover-dentures"],
+    relatedSlugs: ["does-medicare-cover-dental-implants", "does-medicare-cover-root-canals", "does-medicare-cover-hearing-aids", "does-medicare-cover-glasses", "does-medicare-cover-dentures", "dental-and-vision-insurance-for-seniors"],
   },
   {
     slug: "medicare-coverage-for-incontinence-supplies",
