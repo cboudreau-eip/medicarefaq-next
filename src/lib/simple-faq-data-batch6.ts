@@ -56,7 +56,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ['medicare-for-dummies', 'does-medicare-cover-home-health-care', 'medicare-advantage-vs-medicare-supplement'],
+    relatedSlugs: ['medicare-for-dummies', 'does-medicare-cover-home-health-care', 'medicare-advantage-vs-medicare-supplement', "medicare-cover-dialysis-treatments"],
   },
   {
     slug: 'five-surprising-facts-about-medigap-you-didnt-know',
