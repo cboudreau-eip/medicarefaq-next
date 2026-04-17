@@ -382,7 +382,46 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
 
               {/* Article sections */}
               <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 mb-8">
-                {article.sections.map((section, idx) => renderSection(section, idx))}
+                {(() => {
+                  const elements: React.ReactNode[] = [];
+                  let i = 0;
+                  while (i < article.sections.length) {
+                    const section = article.sections[i];
+                    // Detect h3 heading followed by numbered paragraphs → wrap in soft-gray box
+                    if (
+                      section.type === "heading" &&
+                      section.level === 3
+                    ) {
+                      const groupStart = i;
+                      const groupItems: typeof article.sections = [section];
+                      let j = i + 1;
+                      while (
+                        j < article.sections.length &&
+                        article.sections[j].type === "paragraph" &&
+                        /^\d+\.\s/.test(article.sections[j].content || "")
+                      ) {
+                        groupItems.push(article.sections[j]);
+                        j++;
+                      }
+                      if (groupItems.length > 1) {
+                        // Render as a soft-gray highlighted box
+                        elements.push(
+                          <div
+                            key={`group-${groupStart}`}
+                            className="bg-[#F3F4F6] rounded-xl p-5 md:p-6 my-6 border border-[#E5E7EB]"
+                          >
+                            {groupItems.map((s, gi) => renderSection(s, groupStart + gi))}
+                          </div>
+                        );
+                        i = j;
+                        continue;
+                      }
+                    }
+                    elements.push(renderSection(section, i));
+                    i++;
+                  }
+                  return elements;
+                })()}
               </div>
 
               {/* Bottom FAQs */}
