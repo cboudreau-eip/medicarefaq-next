@@ -29,6 +29,7 @@ export default function Blog() {
       readTime: a.readTime,
       featured: a.featured,
       image: a.image,
+      imageAlt: a.imageAlt,
     })),
   ];
 
@@ -99,7 +100,7 @@ export default function Blog() {
                       <div className="relative h-52 overflow-hidden">
                         <img
                           src={post.image}
-                          alt={post.title}
+                          alt={(post as any).imageAlt || post.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                         <div className="absolute top-4 left-4">
@@ -163,7 +164,7 @@ export default function Blog() {
                       <div className="relative h-44 overflow-hidden">
                         <img
                           src={post.image}
-                          alt={post.title}
+                          alt={(post as any).imageAlt || post.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                         <div className="absolute top-3 left-3">

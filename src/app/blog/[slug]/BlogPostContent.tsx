@@ -356,7 +356,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
                   <img
                     src={article.image}
-                    alt={article.title}
+                    alt={article.imageAlt || article.title}
                     className="w-full h-64 md:h-80 object-cover"
                   />
                 </div>

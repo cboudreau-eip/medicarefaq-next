@@ -329,6 +329,7 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "7 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=500&fit=crop",
+    imageAlt: "Two people shaking hands, representing comparing Medicare Advantage plans",
     keyTakeaways: [
       "What is a Medicare Advantage Plan?",
       "When should I compare Medicare Advantage plans?",

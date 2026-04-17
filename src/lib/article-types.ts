@@ -237,6 +237,7 @@ export interface BlogArticleData {
   readTime: string;
   featured?: boolean;
   image: string;
+  imageAlt?: string;
   youtubeVideoId?: string;
   youtubeVideoTitle?: string;
 
