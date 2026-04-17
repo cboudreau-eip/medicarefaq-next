@@ -328,7 +328,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=500&fit=crop",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/cms-images/1776443130009-1jsv4b.png",
     imageAlt: "Two people shaking hands, representing comparing Medicare Advantage plans",
     keyTakeaways: [
       "What is a Medicare Advantage Plan?",
