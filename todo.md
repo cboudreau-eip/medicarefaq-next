@@ -131,3 +131,7 @@
 ## ZIP Modal Rollout — Additional Pages
 - [x] Add ZipFormModal to /compare-rates page (coverageType: ms)
 - [x] Add ZipFormModal to /medicare-advantage page (coverageType: ma)
+
+## ZIP Modal Rollout — Production Switch & Medigap Plan Pages
+- [x] Switch DEMOGRAPHICS_BASE_URL from QA to production
+- [x] Add ZipFormModal to individual Medigap plan pages (Plan A, B, C, D, F, G, K, L, M, N, High-Deductible G)

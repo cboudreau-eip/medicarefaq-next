@@ -18,7 +18,7 @@
  */
 
 // ─── CONFIG ──────────────────────────────────────────────────────────────────
-const DEMOGRAPHICS_BASE_URL = "https://demographicsqa.medicarecompared.com"; // QA for testing
+const DEMOGRAPHICS_BASE_URL = "https://demographics.medicarecompared.com"; // Production
 const YOUR_BRAND = "medicarefaq";
 const YOUR_PAGE_ID = ""; // optional campaign/page identifier
 

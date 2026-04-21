@@ -8,6 +8,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import ZipFormModal from "@/components/ZipFormModal";
 import {
   Shield,
   CheckCircle2,
@@ -93,12 +94,20 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              <Phone className="w-4 h-4" /> Get a Free Quote
+            <ZipFormModal
+              coverageType="ms"
+              title={`Compare ${plan.displayName} Quotes`}
+              subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
+              buttonLabel="Compare Plans"
+              trigger={
+                <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  Get a Free Quote <ArrowRight className="w-4 h-4" />
+                </button>
+              }
+            />
+            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+              <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
-            <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              Compare All Plans <ArrowRight className="w-4 h-4" />
-            </Link>
           </div>
         </div>
       </section>
@@ -156,7 +165,18 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
                   <p className="text-sm font-semibold text-blue-900 mb-1">Ready to Enroll?</p>
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent — free, no obligation</p>
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-blue-700">
+                  <ZipFormModal
+                    coverageType="ms"
+                    title={`Compare ${plan.displayName} Quotes`}
+                    subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers."
+                    buttonLabel="Compare Plans"
+                    trigger={
+                      <button className="flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-600 transition-colors">
+                        <ArrowRight className="w-4 h-4" /> Compare Rates Online
+                      </button>
+                    }
+                  />
+                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>
@@ -317,12 +337,20 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                       Our licensed Medicare agents compare rates from multiple carriers at no cost to you. Get your personalized quote in minutes.
                     </p>
                     <div className="flex flex-wrap gap-3">
-                      <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
+                      <ZipFormModal
+                        coverageType="ms"
+                        title={`Compare ${plan.displayName} Quotes`}
+                        subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers — free, no obligation."
+                        buttonLabel="Compare Plans"
+                        trigger={
+                          <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
+                            Compare Rates Online <ArrowRight className="w-4 h-4" />
+                          </button>
+                        }
+                      />
+                      <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20 text-sm">
                         <Phone className="w-4 h-4" /> Call (888) 335-8996
                       </a>
-                      <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20 text-sm">
-                        Compare Rates Online <ArrowRight className="w-4 h-4" />
-                      </Link>
                     </div>
                   </div>
                 </div>
