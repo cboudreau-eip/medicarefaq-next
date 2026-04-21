@@ -31,16 +31,20 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
-      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+      // GTM and Google Analytics script loading
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://tagmanager.google.com",
       "font-src 'self' https://fonts.gstatic.com",
-      "img-src 'self' data: https: blob:",
-      "frame-src https://www.youtube.com https://www.youtube-nocookie.com",
-      "connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com",
+      // Allow GTM and GA images (pixel tracking)
+      "img-src 'self' data: https: blob: https://www.googletagmanager.com https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com",
+      // Allow GTM iframe and YouTube embeds
+      "frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com",
+      // Allow GA/GTM beacons and demographics redirect domains
+      "connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://demographics.medicarecompared.com https://demographicsqa.medicarecompared.com",
       "media-src 'self' https:",
       "object-src 'none'",
       "base-uri 'self'",
-      "form-action 'self'",
+      "form-action 'self' https://demographics.medicarecompared.com https://demographicsqa.medicarecompared.com",
       "frame-ancestors 'self'",
     ].join("; "),
   },
