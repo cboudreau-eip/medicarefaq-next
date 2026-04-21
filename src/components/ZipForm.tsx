@@ -9,13 +9,13 @@
  * demographics.medicarecompared.com/{coverageType}.
  *
  * Usage:
- *   <ZipForm coverageType="ms" />           ← Medicare Supplement
- *   <ZipForm coverageType="ma" />           ← Medicare Advantage
- *   <ZipForm coverageType="ms" variant="hero" />  ← large hero style
+ *   <ZipForm coverageType="ms" />                        ← default (dark bg)
+ *   <ZipForm coverageType="ma" variant="hero" />         ← hero (compact row with phone)
+ *   <ZipForm coverageType="ms" variant="inline" />       ← inline (small, light bg)
  */
 
 import { useState, type FormEvent } from "react";
-import { ArrowRight, Loader2 } from "lucide-react";
+import { ArrowRight, Loader2, Phone } from "lucide-react";
 import {
   redirectToDemographics,
   type CoverageType,
@@ -32,14 +32,23 @@ interface ZipFormProps {
   className?: string;
   /** Visual variant */
   variant?: "default" | "hero" | "inline";
+  /** Optional micro-label above the form */
+  label?: string;
+  /** Show inline phone CTA (hero variant only) */
+  showPhone?: boolean;
+  /** Phone number for inline CTA */
+  phoneNumber?: string;
 }
 
 export default function ZipForm({
   coverageType,
-  placeholder = "Enter ZIP Code",
+  placeholder = "ZIP Code",
   buttonLabel = "Compare Plans",
   className = "",
   variant = "default",
+  label,
+  showPhone = false,
+  phoneNumber = "(888) 335-8996",
 }: ZipFormProps) {
   const [zip, setZip] = useState("");
   const [error, setError] = useState("");
@@ -56,104 +65,131 @@ export default function ZipForm({
     redirectToDemographics(zip, coverageType);
   }
 
-  // ── Hero variant ──────────────────────────────────────────────────────────
+  // ── Hero variant — compact row with optional inline phone ─────────────────
 
   if (variant === "hero") {
     return (
-      <form
-        onSubmit={handleSubmit}
-        className={`flex flex-col sm:flex-row gap-3 ${className}`}
-      >
-        <div className="flex-1">
+      <div className={className}>
+        {label && (
+          <p className="text-sm text-white/70 mb-2.5 font-medium">{label}</p>
+        )}
+        <div className="flex items-center flex-wrap gap-3">
+          <form
+            onSubmit={handleSubmit}
+            className="inline-flex items-center bg-white rounded-lg shadow-lg overflow-hidden"
+          >
+            <input
+              type="text"
+              inputMode="numeric"
+              pattern="[0-9]{5}"
+              maxLength={5}
+              autoComplete="off"
+              value={zip}
+              onChange={(e) => {
+                setZip(e.target.value.replace(/\D/g, ""));
+                setError("");
+              }}
+              placeholder={placeholder}
+              className="w-[130px] px-4 py-3 text-[15px] font-medium text-slate-900 placeholder:text-slate-400 border-none outline-none bg-transparent"
+              required
+            />
+            <button
+              type="submit"
+              disabled={submitting}
+              className="inline-flex items-center gap-1.5 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-60 text-white font-semibold px-5 py-3 text-[15px] transition-colors whitespace-nowrap"
+            >
+              {submitting ? (
+                <Loader2 className="w-4 h-4 animate-spin" />
+              ) : (
+                <ArrowRight className="w-4 h-4" />
+              )}
+              {buttonLabel}
+            </button>
+          </form>
+
+          {showPhone && (
+            <>
+              <span className="text-white/40 text-sm font-medium">or</span>
+              <a
+                href={`tel:${phoneNumber.replace(/\D/g, "")}`}
+                className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium transition-colors"
+              >
+                <Phone className="w-3.5 h-3.5" />
+                {phoneNumber}
+              </a>
+            </>
+          )}
+        </div>
+        {error && <p className="mt-2 text-sm text-red-300">{error}</p>}
+      </div>
+    );
+  }
+
+  // ── Inline variant — small, for light backgrounds ─────────────────────────
+
+  if (variant === "inline") {
+    return (
+      <div className={className}>
+        {label && (
+          <p className="text-sm text-slate-500 mb-2 font-medium">{label}</p>
+        )}
+        <form onSubmit={handleSubmit} className="inline-flex items-center bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
           <input
             type="text"
             inputMode="numeric"
             pattern="[0-9]{5}"
             maxLength={5}
+            autoComplete="off"
             value={zip}
             onChange={(e) => {
               setZip(e.target.value.replace(/\D/g, ""));
               setError("");
             }}
             placeholder={placeholder}
-            className="w-full px-5 py-4 rounded-xl text-slate-900 text-lg font-medium placeholder:text-slate-400 border-2 border-transparent focus:border-teal-400 focus:outline-none shadow-lg"
+            className="w-[120px] px-3.5 py-2.5 text-sm font-medium text-slate-900 placeholder:text-slate-400 border-none outline-none bg-transparent"
             required
           />
-          {error && <p className="mt-1.5 text-sm text-red-300">{error}</p>}
-        </div>
-        <button
-          type="submit"
-          disabled={submitting}
-          className="inline-flex items-center justify-center gap-2 bg-teal-500 hover:bg-teal-400 disabled:opacity-60 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors shadow-lg whitespace-nowrap"
-        >
-          {submitting ? (
-            <Loader2 className="w-5 h-5 animate-spin" />
-          ) : (
-            <ArrowRight className="w-5 h-5" />
-          )}
-          {buttonLabel}
-        </button>
-      </form>
+          <button
+            type="submit"
+            disabled={submitting}
+            className="inline-flex items-center gap-1.5 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-60 text-white font-semibold px-4 py-2.5 text-sm transition-colors whitespace-nowrap"
+          >
+            {submitting ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : null}
+            {buttonLabel}
+          </button>
+        </form>
+        {error && <p className="mt-1.5 text-xs text-red-500">{error}</p>}
+      </div>
     );
   }
 
-  // ── Inline variant ────────────────────────────────────────────────────────
-
-  if (variant === "inline") {
-    return (
-      <form onSubmit={handleSubmit} className={`flex gap-2 ${className}`}>
-        <input
-          type="text"
-          inputMode="numeric"
-          pattern="[0-9]{5}"
-          maxLength={5}
-          value={zip}
-          onChange={(e) => {
-            setZip(e.target.value.replace(/\D/g, ""));
-            setError("");
-          }}
-          placeholder={placeholder}
-          className="flex-1 px-4 py-2.5 rounded-lg text-slate-900 border border-slate-300 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 text-sm"
-          required
-        />
-        <button
-          type="submit"
-          disabled={submitting}
-          className="inline-flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 disabled:opacity-60 text-white font-semibold px-4 py-2.5 rounded-lg text-sm transition-colors whitespace-nowrap"
-        >
-          {submitting ? <Loader2 className="w-4 h-4 animate-spin" /> : null}
-          {buttonLabel}
-        </button>
-        {error && (
-          <p className="absolute mt-10 text-xs text-red-500">{error}</p>
-        )}
-      </form>
-    );
-  }
-
-  // ── Default variant ───────────────────────────────────────────────────────
+  // ── Default variant — for dark CTA cards ──────────────────────────────────
 
   return (
-    <form onSubmit={handleSubmit} className={className}>
-      <div className="flex flex-col sm:flex-row gap-3">
+    <div className={className}>
+      {label && (
+        <p className="text-sm text-white/70 mb-2.5 font-medium">{label}</p>
+      )}
+      <form onSubmit={handleSubmit} className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 overflow-hidden">
         <input
           type="text"
           inputMode="numeric"
           pattern="[0-9]{5}"
           maxLength={5}
+          autoComplete="off"
           value={zip}
           onChange={(e) => {
             setZip(e.target.value.replace(/\D/g, ""));
             setError("");
           }}
           placeholder={placeholder}
-          className="flex-1 px-5 py-3 rounded-lg text-slate-900 border-2 border-white/30 bg-white/10 text-white placeholder:text-white/60 focus:border-white/60 focus:outline-none backdrop-blur-sm"
+          className="w-[130px] px-4 py-3 text-[15px] font-medium text-white placeholder:text-white/50 border-none outline-none bg-transparent"
           required
         />
         <button
           type="submit"
           disabled={submitting}
-          className="inline-flex items-center justify-center gap-2 bg-teal-500 hover:bg-teal-400 disabled:opacity-60 text-white font-bold px-6 py-3 rounded-lg transition-colors whitespace-nowrap"
+          className="inline-flex items-center gap-1.5 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-60 text-white font-semibold px-5 py-3 text-[15px] transition-colors whitespace-nowrap"
         >
           {submitting ? (
             <Loader2 className="w-4 h-4 animate-spin" />
@@ -162,8 +198,8 @@ export default function ZipForm({
           )}
           {buttonLabel}
         </button>
-      </div>
+      </form>
       {error && <p className="mt-2 text-sm text-red-300">{error}</p>}
-    </form>
+    </div>
   );
 }

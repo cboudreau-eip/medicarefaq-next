@@ -128,14 +128,14 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
             Fill the gaps in Original Medicare with standardized supplemental coverage. No networks, predictable costs, and nationwide acceptance.
           </p>
-          <div className="mt-2 max-w-xl">
-            <ZipForm coverageType="ms" variant="hero" buttonLabel="Compare Plans" />
-          </div>
-          <div className="flex flex-wrap gap-4 mt-4">
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
-            </a>
-          </div>
+          <ZipForm
+            coverageType="ms"
+            variant="hero"
+            buttonLabel="Compare Plans"
+            label="Enter your ZIP to compare Medigap rates in your area"
+            showPhone
+            phoneNumber="(888) 335-8996"
+          />
         </div>
       </section>
 
@@ -534,12 +534,13 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   <p className="text-blue-100 mb-6 max-w-xl">
                     Our licensed agents can compare rates from top Medigap carriers in your area — at no cost to you. Find the best plan and price for your specific needs.
                   </p>
-                  <ZipForm coverageType="ms" buttonLabel="Compare Medigap Plans" className="mb-4" />
-                  <div className="flex flex-wrap gap-4">
-                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
-                    </a>
-                  </div>
+                  <ZipForm
+                    coverageType="ms"
+                    buttonLabel="Compare Medigap Plans"
+                    label="Enter your ZIP code to get started"
+                    showPhone
+                    phoneNumber="(888) 335-8996"
+                  />
                 </div>
               </section>
             </div>
