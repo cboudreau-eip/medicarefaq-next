@@ -1,3 +1,5 @@
+"use client";
+
 /**
  * Medicare Compared — Demographics App Redirect
  *
@@ -202,28 +204,16 @@ function submitForm(
   targetURL: string,
   payload: Record<string, string | number>
 ) {
-  let form = document.getElementById(
-    "mc-demographics-form"
-  ) as HTMLFormElement | null;
-  if (!form) {
-    form = document.createElement("form");
-    form.id = "mc-demographics-form";
-    form.style.display = "none";
-    document.body.appendChild(form);
-  }
-  form.method = "GET";
-  form.action = targetURL;
-  while (form.firstChild) form.firstChild.remove();
-
+  // Build the URL with query params
+  const params = new URLSearchParams();
   Object.keys(payload).forEach((key) => {
-    const input = document.createElement("input");
-    input.type = "hidden";
-    input.name = key;
-    input.value = payload[key] != null ? String(payload[key]) : "";
-    form!.appendChild(input);
+    const val = payload[key] != null ? String(payload[key]) : "";
+    if (val) params.set(key, val);
   });
+  const fullURL = targetURL + "?" + params.toString();
 
-  form.submit();
+  // Primary: navigate directly via window.location
+  window.location.href = fullURL;
 }
 
 // ─── Public API ──────────────────────────────────────────────────────────────
