@@ -182,7 +182,7 @@ export default function ZipFormModal({
                   <button
                     type="submit"
                     disabled={submitting}
-                    className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-60 text-white font-semibold px-6 py-3.5 text-[15px] transition-colors whitespace-nowrap mr-1 rounded-lg"
+                    className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-60 text-white font-semibold px-4 py-3.5 text-[14px] transition-colors whitespace-nowrap mr-1 rounded-lg"
                   >
                     {submitting ? (
                       <Loader2 className="w-4 h-4 animate-spin" />
