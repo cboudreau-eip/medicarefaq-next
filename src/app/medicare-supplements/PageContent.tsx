@@ -22,7 +22,7 @@ import {
   Users,
   FileText,
 } from "lucide-react";
-import ZipForm from "@/components/ZipForm";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const tableOfContents = [
   { id: "overview", label: "What Is Medigap?" },
@@ -128,14 +128,27 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
             Fill the gaps in Original Medicare with standardized supplemental coverage. No networks, predictable costs, and nationwide acceptance.
           </p>
-          <ZipForm
-            coverageType="ms"
-            variant="hero"
-            buttonLabel="Compare Plans"
-            label="Enter your ZIP to compare Medigap rates in your area"
-            showPhone
-            phoneNumber="(888) 335-8996"
-          />
+          <div className="flex flex-wrap items-center gap-4">
+            <ZipFormModal
+              coverageType="ms"
+              title="Compare Medigap Plans"
+              subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
+              buttonLabel="Compare Plans"
+              trigger={
+                <button className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] text-white font-bold px-7 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#0D9488]/25 text-base">
+                  <ArrowRight className="w-4 h-4" />
+                  Compare Plans in Your Area
+                </button>
+              }
+            />
+            <a
+              href="tel:8883358996"
+              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/20 text-base"
+            >
+              <Phone className="w-4 h-4" />
+              (888) 335-8996
+            </a>
+          </div>
         </div>
       </section>
 
@@ -534,13 +547,27 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   <p className="text-blue-100 mb-6 max-w-xl">
                     Our licensed agents can compare rates from top Medigap carriers in your area — at no cost to you. Find the best plan and price for your specific needs.
                   </p>
-                  <ZipForm
-                    coverageType="ms"
-                    buttonLabel="Compare Medigap Plans"
-                    label="Enter your ZIP code to get started"
-                    showPhone
-                    phoneNumber="(888) 335-8996"
-                  />
+                  <div className="flex flex-wrap items-center gap-4">
+                    <ZipFormModal
+                      coverageType="ms"
+                      title="Compare Medigap Plans"
+                      subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
+                      buttonLabel="Compare Plans"
+                      trigger={
+                        <button className="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-7 py-3.5 rounded-lg hover:bg-blue-50 transition-colors text-base shadow-lg">
+                          <ArrowRight className="w-4 h-4" />
+                          Get Started
+                        </button>
+                      }
+                    />
+                    <a
+                      href="tel:8883358996"
+                      className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/30 text-base"
+                    >
+                      <Phone className="w-4 h-4" />
+                      Call (888) 335-8996
+                    </a>
+                  </div>
                 </div>
               </section>
             </div>
