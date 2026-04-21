@@ -3,6 +3,7 @@
 import { ArrowRight, CheckCircle, Compass, Briefcase } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const JOURNEY_NEW =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/journey-new-YLAZRxoSj2yuXGqtyALKVr.webp";
@@ -14,6 +15,8 @@ const JOURNEY_ENROLLED =
 interface JourneyLink {
   label: string;
   href: string;
+  /** If true, this link opens the ZipFormModal instead of navigating */
+  isZipModal?: boolean;
 }
 
 const journeyPaths = [
@@ -31,6 +34,7 @@ const journeyPaths = [
       { label: "Getting Started Checklist", href: "/new-to-medicare/checklist" },
     ] as JourneyLink[],
     href: "/medicare-101",
+    isZipModalCard: false,
   },
   {
     title: "Working Past 65",
@@ -46,6 +50,7 @@ const journeyPaths = [
       { label: "Retirement Planning Guide", href: "/new-to-medicare/costs" },
     ] as JourneyLink[],
     href: "/enrollment/working-past-65",
+    isZipModalCard: false,
   },
   {
     title: "Already Enrolled",
@@ -54,13 +59,14 @@ const journeyPaths = [
     color: "#4F46E5",
     image: JOURNEY_ENROLLED,
     links: [
-      { label: "Compare Your Plan Options", href: "/compare-rates" },
+      { label: "Compare Your Plan Options", href: "/compare-rates", isZipModal: true },
       { label: "Annual Enrollment Guide", href: "/enrollment/annual-changes" },
       { label: "Switch Plans: When & How", href: "/enrollment/how-to-enroll" },
       { label: "Lower Your Costs", href: "/medicare-plans/costs" },
       { label: "Coverage Gaps to Watch", href: "/faqs" },
     ] as JourneyLink[],
     href: "/compare-rates",
+    isZipModalCard: true,
   },
 ];
 
@@ -130,23 +136,55 @@ export default function JourneySection() {
                           className="w-1 h-1 rounded-full shrink-0"
                           style={{ backgroundColor: path.color }}
                         />
-                        <Link
-                          href={link.href}
-                          className="text-sm text-[#4B5563] hover:text-[#1B2A4A] transition-colors"
-                        >
-                          {link.label}
-                        </Link>
+                        {link.isZipModal ? (
+                          <ZipFormModal
+                            coverageType="ms"
+                            title="Compare Medicare Plans"
+                            subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
+                            buttonLabel="Compare Plans"
+                            trigger={
+                              <span className="text-sm text-[#4B5563] hover:text-[#1B2A4A] transition-colors cursor-pointer">
+                                {link.label}
+                              </span>
+                            }
+                          />
+                        ) : (
+                          <Link
+                            href={link.href}
+                            className="text-sm text-[#4B5563] hover:text-[#1B2A4A] transition-colors"
+                          >
+                            {link.label}
+                          </Link>
+                        )}
                       </li>
                     ))}
                   </ul>
-                  <Link
-                    href={path.href}
-                    className="inline-flex items-center gap-1.5 font-semibold text-sm group-hover:gap-2.5 transition-all duration-150"
-                    style={{ color: path.color }}
-                  >
-                    Explore This Path
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
+                  {path.isZipModalCard ? (
+                    <ZipFormModal
+                      coverageType="ms"
+                      title="Compare Medicare Plans"
+                      subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
+                      buttonLabel="Compare Plans"
+                      trigger={
+                        <span
+                          className="inline-flex items-center gap-1.5 font-semibold text-sm cursor-pointer group-hover:gap-2.5 transition-all duration-150"
+                          style={{ color: path.color }}
+                        >
+                          Compare Plans Now
+                          <ArrowRight className="w-4 h-4" />
+                        </span>
+                      }
+                    />
+                  ) : (
+                    <Link
+                      href={path.href}
+                      className="inline-flex items-center gap-1.5 font-semibold text-sm group-hover:gap-2.5 transition-all duration-150"
+                      style={{ color: path.color }}
+                    >
+                      Explore This Path
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  )}
                 </div>
               </motion.div>
             );

@@ -3,6 +3,7 @@
 import { ArrowRight, Star, MapPin, Users, FileCheck } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const trustItems = [
   { icon: Star, label: "BBB A+ Rated", sublabel: "Since 2015" },
@@ -88,17 +89,22 @@ export default function HeroSection() {
               </div>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
             </Link>
-            <Link
-              href="/compare-rates"
-              className="group inline-flex items-center justify-between gap-3 bg-white/15 hover:bg-white/25 backdrop-blur-sm text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 border border-white/20 text-sm flex-1"
-            >
-              <div className="flex flex-col">
-                <span className="font-bold text-white text-[15px] leading-tight">Already Enrolled</span>
-                <span className="hidden md:block w-full h-px bg-white/30 my-1" />
-                <span className="hidden md:block text-xs text-white font-normal leading-tight">Want to compare or switch</span>
-              </div>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
-            </Link>
+            <ZipFormModal
+              coverageType="ms"
+              title="Compare Medicare Plans"
+              subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
+              buttonLabel="Compare Plans"
+              trigger={
+                <button className="group inline-flex items-center justify-between gap-3 bg-white/15 hover:bg-white/25 backdrop-blur-sm text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 border border-white/20 text-sm flex-1 w-full">
+                  <div className="flex flex-col text-left">
+                    <span className="font-bold text-white text-[15px] leading-tight">Already Enrolled</span>
+                    <span className="hidden md:block w-full h-px bg-white/30 my-1" />
+                    <span className="hidden md:block text-xs text-white font-normal leading-tight">Want to compare or switch</span>
+                  </div>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
+                </button>
+              }
+            />
           </motion.div>
         </div>
       </div>

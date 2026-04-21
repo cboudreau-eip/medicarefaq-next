@@ -121,3 +121,9 @@
 - [ ] Rewrite medicare-coverage-erectile-dysfunction as CoverageArticle format
 - [ ] Rewrite medicare-coverage-for-alcohol-misuse as CoverageArticle format
 - [ ] Rewrite medicare-coverage-for-amyotrophic-lateral-sclerosis-als as CoverageArticle format
+
+## Homepage CTA — Unified ZIP Redirect
+- [x] Add ZipFormModal to ZipFinderSection (replace bespoke buildMedicareComparedUrl)
+- [x] Update HeroSection "Already Enrolled" button to trigger ZipFormModal
+- [x] Update JourneySection "Compare Your Plan Options" link to trigger ZipFormModal
+- [x] Update CTABanner "Get Started Online" button to trigger ZipFormModal

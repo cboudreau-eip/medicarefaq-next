@@ -1,8 +1,8 @@
 "use client";
 
 import { Phone, ArrowRight } from "lucide-react";
-import Link from "next/link";
 import { motion } from "framer-motion";
+import ZipFormModal from "@/components/ZipFormModal";
 
 export default function CTABanner() {
   return (
@@ -32,13 +32,18 @@ export default function CTABanner() {
               <Phone className="w-4 h-4" />
               Call Us Now
             </a>
-            <Link
-              href="/compare-rates"
-              className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 border border-white/30"
-            >
-              Get Started Online
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+            <ZipFormModal
+              coverageType="ms"
+              title="Get Started Online"
+              subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
+              buttonLabel="Compare Plans"
+              trigger={
+                <button className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 border border-white/30">
+                  Get Started Online
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              }
+            />
           </div>
         </motion.div>
       </div>
