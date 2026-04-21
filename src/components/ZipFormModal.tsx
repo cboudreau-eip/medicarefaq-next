@@ -20,6 +20,7 @@ import {
   type FormEvent,
   type ReactNode,
 } from "react";
+import { createPortal } from "react-dom";
 import { ArrowRight, Loader2, Phone, X, Shield, Star } from "lucide-react";
 import {
   redirectToDemographics,
@@ -109,10 +110,10 @@ export default function ZipFormModal({
         {trigger}
       </span>
 
-      {/* Modal overlay + dialog */}
-      {open && (
+      {/* Modal overlay + dialog — rendered via portal to escape stacking contexts */}
+      {open && createPortal(
         <div
-          className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
+          className="fixed inset-0 z-[99999] flex items-center justify-center p-4"
           onClick={(e) => {
             if (e.target === e.currentTarget) handleClose();
           }}
@@ -166,7 +167,9 @@ export default function ZipFormModal({
                     inputMode="numeric"
                     pattern="[0-9]{5}"
                     maxLength={5}
-                    autoComplete="off"
+                    autoComplete="one-time-code"
+                    data-lpignore="true"
+                    data-1p-ignore="true"
                     value={zip}
                     onChange={(e) => {
                       setZip(e.target.value.replace(/\D/g, ""));
@@ -229,7 +232,7 @@ export default function ZipFormModal({
             </div>
           </div>
         </div>
-      )}
+      , document.body)}
     </>
   );
 }
