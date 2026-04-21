@@ -11,6 +11,7 @@ import {
   MapPin, ChevronDown, Phone, ArrowRight, CheckCircle2,
   AlertTriangle, Info, Building2, Users, Star
 } from "lucide-react";
+import ZipFormModal from "@/components/ZipFormModal";
 import { getStateBySlug, STATE_DATA } from "@/lib/medigap-state-data";
 
 export default function PageContent({ stateSlug }: { stateSlug: string }) {
@@ -70,12 +71,20 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
             )}
           </div>
           <div className="flex flex-wrap gap-3">
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              <Phone className="w-4 h-4" /> Compare {state.name} Rates
+            <ZipFormModal
+              coverageType="ms"
+              title={`Compare Medigap Rates in ${state.name}`}
+              subtitle={`Enter your ZIP code to see rates from top Medigap carriers available in ${state.name} — free, no obligation.`}
+              buttonLabel="Compare Plans"
+              trigger={
+                <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  Compare {state.name} Rates <ArrowRight className="w-4 h-4" />
+                </button>
+              }
+            />
+            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+              <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
-            <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              Compare All Plans <ArrowRight className="w-4 h-4" />
-            </Link>
           </div>
         </div>
       </section>
@@ -212,12 +221,20 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
               Our licensed Medicare agents specialize in {state.name} Medigap plans and can compare rates from all available carriers at no cost to you.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+              <ZipFormModal
+                coverageType="ms"
+                title={`Compare Medigap Rates in ${state.name}`}
+                subtitle={`Enter your ZIP code to get personalized Medigap rates from top carriers in ${state.name} — free, no obligation.`}
+                buttonLabel="Compare Plans"
+                trigger={
+                  <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                    Compare {state.name} Rates <ArrowRight className="w-4 h-4" />
+                  </button>
+                }
+              />
+              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
-              <Link href="/medicare-supplements/medigap-by-carrier" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-                Compare Carriers <ArrowRight className="w-4 h-4" />
-              </Link>
             </div>
           </div>
         </div>

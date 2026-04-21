@@ -8,6 +8,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import ZipFormModal from "@/components/ZipFormModal";
 import {
   Pill,
   CheckCircle2,
@@ -164,7 +165,18 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                 <div className="mt-4 p-4 bg-blue-50 rounded-xl border border-blue-100">
                   <p className="text-sm font-semibold text-blue-900 mb-1">Need Help?</p>
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-blue-700">
+                  <ZipFormModal
+                    coverageType="pdp"
+                    title="Find a Part D Plan"
+                    subtitle="Enter your ZIP code to compare Medicare Part D prescription drug plans in your area — free, no obligation."
+                    buttonLabel="Compare Plans"
+                    trigger={
+                      <button className="flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-600 transition-colors w-full">
+                        <ArrowRight className="w-4 h-4" /> Compare Part D Plans
+                      </button>
+                    }
+                  />
+                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>
@@ -368,12 +380,20 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                     Part D plans vary significantly in formularies, pharmacy networks, and costs. Our licensed agents can help you find the plan that covers your specific medications at the lowest cost.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-purple-700 font-semibold px-6 py-3 rounded-lg hover:bg-purple-50 transition-colors">
+                    <ZipFormModal
+                      coverageType="pdp"
+                      title="Find the Right Part D Plan"
+                      subtitle="Enter your ZIP code to compare Medicare Part D prescription drug plans that cover your medications — free, no obligation."
+                      buttonLabel="Compare Plans"
+                      trigger={
+                        <button className="inline-flex items-center gap-2 bg-white text-purple-700 font-semibold px-6 py-3 rounded-lg hover:bg-purple-50 transition-colors">
+                          Compare Part D Plans <ArrowRight className="w-4 h-4" />
+                        </button>
+                      }
+                    />
+                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
-                    <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                      Compare All Plan Types <ArrowRight className="w-4 h-4" />
-                    </Link>
                   </div>
                 </div>
               </section>

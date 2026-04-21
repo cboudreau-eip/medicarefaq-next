@@ -135,3 +135,9 @@
 ## ZIP Modal Rollout — Production Switch & Medigap Plan Pages
 - [x] Switch DEMOGRAPHICS_BASE_URL from QA to production
 - [x] Add ZipFormModal to individual Medigap plan pages (Plan A, B, C, D, F, G, K, L, M, N, High-Deductible G)
+
+## ZIP Modal Rollout — State Pages & Part D
+- [x] Add ZipFormModal to medigap-by-state index page
+- [x] Add ZipFormModal to [stateSlug] dynamic state page
+- [x] Add ZipFormModal to medicare-part-d main page (coverageType: pdp)
+- [x] Add ZipFormModal to medicare-part-d/[slug] dynamic page (coverageType: pdp)

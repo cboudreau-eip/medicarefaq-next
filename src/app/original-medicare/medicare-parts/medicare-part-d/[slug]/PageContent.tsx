@@ -7,6 +7,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import ZipFormModal from "@/components/ZipFormModal";
 import {
   Pill,
   Calendar,
@@ -264,13 +265,27 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
               Our licensed Medicare agents can help you compare Part D plans, check your drug formulary, and find the
               best coverage for your medications — at no cost to you.
             </p>
-            <a
-              href="tel:8883358996"
-              className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors"
-            >
-              <Phone className="w-5 h-5" />
-              Call (888) 335-8996
-            </a>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <ZipFormModal
+                coverageType="pdp"
+                title="Find the Right Part D Plan"
+                subtitle="Enter your ZIP code to compare Medicare Part D plans that cover your medications — free, no obligation."
+                buttonLabel="Compare Plans"
+                trigger={
+                  <button className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
+                    <ArrowRight className="w-5 h-5" />
+                    Compare Part D Plans
+                  </button>
+                }
+              />
+              <a
+                href="tel:8883358996"
+                className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors border border-white/30"
+              >
+                <Phone className="w-5 h-5" />
+                Call (888) 335-8996
+              </a>
+            </div>
           </div>
         </section>
       </main>
