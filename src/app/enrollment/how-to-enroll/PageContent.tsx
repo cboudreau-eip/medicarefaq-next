@@ -8,6 +8,7 @@
  */
 
 import { useState, useEffect, type ReactNode } from "react";
+import ZipFormModal from "@/components/ZipFormModal";
 import Link from "next/link";
 import {
   FileText,
@@ -540,9 +541,11 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
-                    <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                      Compare Plans First <ArrowRight className="w-4 h-4" />
-                    </Link>
+                    <ZipFormModal
+                      coverageType="ms"
+                      triggerLabel="Compare Plans First"
+                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
+                    />
                   </div>
                 </div>
               </section>
@@ -559,7 +562,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly penalties</p>
                 </Link>
-                <Link href="/compare-rates" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
+                <Link href="/medicare-supplements" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
                   <Shield className="w-5 h-5 text-teal-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Compare Plans</h3>
                   <p className="text-xs text-slate-500">Side-by-side plan comparison</p>

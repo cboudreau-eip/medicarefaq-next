@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import ZipFormModal from "@/components/ZipFormModal";
 /**
  * Medicare Advantage Plan Types Overview — /medicare-part-c/medicare-advantage-plan-types
  */
@@ -248,12 +249,11 @@ const faqs = [
             <p className="text-blue-200 mb-6">
               Compare HMO, PPO, and other Medicare Advantage plans available in your area with help from our licensed specialists.
             </p>
-            <Link
-              href="/compare-rates"
-              className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-            >
-              Compare Plans <ArrowRight size={18} />
-            </Link>
+            <ZipFormModal
+              coverageType="ma"
+              triggerLabel="Compare Plans"
+              triggerClassName="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+            />
           </div>
         </div>
       </main>

@@ -11,6 +11,7 @@
  * - Helpful vote widget
  */
 import { useState, useEffect } from "react";
+import ZipFormModal from "@/components/ZipFormModal";
 import Link from "next/link";
 import {
   Clock,
@@ -514,13 +515,11 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                     <Phone className="w-4 h-4" />
                     Call 1-888-441-0465
                   </a>
-                  <Link
-                    href="/compare-rates"
-                    className="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
-                  >
-                    Compare Rates
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
+                  <ZipFormModal
+                    coverageType="ms"
+                    triggerLabel="Compare Rates"
+                    triggerClassName="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
+                  />
                 </div>
               </div>
             </article>
