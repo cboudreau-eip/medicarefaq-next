@@ -26,6 +26,7 @@ import {
   Eye,
   Activity,
 } from "lucide-react";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const tableOfContents = [
   { id: "overview", label: "What Is Medicare Advantage?" },
@@ -128,9 +129,17 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
             An all-in-one alternative to Original Medicare offered by private insurers. Includes hospital, medical, usually drug coverage, and often dental, vision, and hearing benefits.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="#plan-types" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              Explore Plan Types <ArrowRight className="w-4 h-4" />
-            </a>
+            <ZipFormModal
+              coverageType="ma"
+              title="Find Medicare Advantage Plans"
+              subtitle="Enter your ZIP code to compare Medicare Advantage plans available in your area — free, no obligation."
+              buttonLabel="Compare MA Plans"
+              trigger={
+                <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  Find Plans in Your Area <ArrowRight className="w-4 h-4" />
+                </button>
+              }
+            />
             <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
@@ -391,12 +400,20 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                     Plans, benefits, and costs vary by ZIP code. Our licensed agents can help you compare Medicare Advantage plans available in your area — at no cost to you.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
+                    <ZipFormModal
+                      coverageType="ma"
+                      title="Find Medicare Advantage Plans in Your Area"
+                      subtitle="Plans, benefits, and costs vary by ZIP code. Enter yours to compare MA plans available near you — free, no obligation."
+                      buttonLabel="Compare MA Plans"
+                      trigger={
+                        <button className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
+                          <Heart className="w-4 h-4" /> Find Plans in Your Area
+                        </button>
+                      }
+                    />
+                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
-                    <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                      Compare All Plan Types <ArrowRight className="w-4 h-4" />
-                    </Link>
                   </div>
                 </div>
               </section>

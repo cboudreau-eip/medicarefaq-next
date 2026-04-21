@@ -127,3 +127,7 @@
 - [x] Update HeroSection "Already Enrolled" button to trigger ZipFormModal
 - [x] Update JourneySection "Compare Your Plan Options" link to trigger ZipFormModal
 - [x] Update CTABanner "Get Started Online" button to trigger ZipFormModal
+
+## ZIP Modal Rollout — Additional Pages
+- [x] Add ZipFormModal to /compare-rates page (coverageType: ms)
+- [x] Add ZipFormModal to /medicare-advantage page (coverageType: ma)

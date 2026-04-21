@@ -21,6 +21,7 @@ import {
   DollarSign,
   Star,
 } from "lucide-react";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const comparisonData = [
   { feature: "Administered By", om: "Federal Government", ma: "Private Insurance Companies", medigap: "Private Insurance Companies", partd: "Private Insurance Companies" },
@@ -124,9 +125,25 @@ export default function PageContent() {
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
             Compare Medicare Plan Types
           </h1>
-          <p className="text-lg text-slate-300 max-w-2xl mb-8">
+          <p className="text-lg text-slate-300 max-w-2xl mb-6">
             Side-by-side comparison of Original Medicare, Medicare Advantage, Medigap, and Part D. Find the right combination for your needs, budget, and lifestyle.
           </p>
+          <div className="flex flex-wrap gap-4">
+            <ZipFormModal
+              coverageType="ms"
+              title="Compare Medicare Plans"
+              subtitle="Enter your ZIP code to see Medigap and Medicare Advantage plans available in your area — free, no obligation."
+              buttonLabel="Compare Plans"
+              trigger={
+                <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  Compare Plans in Your Area <ArrowRight className="w-4 h-4" />
+                </button>
+              }
+            />
+            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+              <Phone className="w-4 h-4" /> Talk to an Agent
+            </a>
+          </div>
         </div>
       </section>
 
@@ -250,7 +267,18 @@ export default function PageContent() {
               Our licensed Medicare agents can analyze your specific situation — doctors, medications, budget, and preferences — and recommend the best plan combination at no cost to you.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+              <ZipFormModal
+                coverageType="ms"
+                title="Get Personalized Plan Recommendations"
+                subtitle="Enter your ZIP code and our licensed agents will help you find the right Medicare plan combination for your needs."
+                buttonLabel="Compare Plans"
+                trigger={
+                  <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                    <Shield className="w-4 h-4" /> Compare Plans in Your Area
+                  </button>
+                }
+              />
+              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
             </div>
