@@ -26,6 +26,7 @@ import {
   Briefcase,
   ArrowRight,
 } from "lucide-react";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const coreValues = [
   {
@@ -615,14 +616,12 @@ export default function About() {  return (
                 <Phone className="w-4 h-4" />
                 Call (888) 335-8996
               </a>
-              <Link
-                href="/compare-rates"
-                  onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "about_us" })}
-                className="inline-flex items-center justify-center gap-2 bg-white/10 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-lg hover:bg-white/20 transition-colors"
-              >
-                Get Started Free
-                <ArrowRight className="w-4 h-4" />
-              </Link>
+              <ZipFormModal
+                coverageType="ms"
+                triggerLabel="Get Started Free"
+                triggerClassName="inline-flex items-center justify-center gap-2 bg-white/10 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-lg hover:bg-white/20 transition-colors"
+                pageSection="about_us"
+              />
             </div>
           </div>
         </section>

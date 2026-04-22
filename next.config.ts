@@ -55,6 +55,15 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: false,
+  async redirects() {
+    return [
+      {
+        source: "/compare-rates",
+        destination: "/medicare-supplements",
+        permanent: true, // 301 redirect
+      },
+    ];
+  },
   async headers() {
     return [
       {

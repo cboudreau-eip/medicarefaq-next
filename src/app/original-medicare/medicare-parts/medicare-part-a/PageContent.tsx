@@ -278,7 +278,7 @@ export default function PageContent() {
               {[
                 { title: "Learn About Part B", desc: "Understand outpatient medical coverage and the Part B premium.", href: "/original-medicare/medicare-parts/medicare-part-b", icon: FileText },
                 { title: "Add a Supplement Plan", desc: "Cover Part A deductibles and coinsurance with a Medigap plan.", href: "/medicare-supplements", icon: Shield },
-                { title: "Compare All Plans", desc: "See how Original Medicare compares to Medicare Advantage.", href: "/compare-rates", icon: ArrowRight },
+                { title: "Compare All Plans", desc: "See how Original Medicare compares to Medicare Advantage.", href: "/medicare-supplements", icon: ArrowRight },
               ].map((item, i) => (
                 <Link key={i} href={item.href} className="block bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-[#1B3A6B]/30 transition-all group">
                   <div className="bg-[#1B3A6B]/10 rounded-lg p-2 w-fit mb-3 group-hover:bg-[#1B3A6B]/20 transition-colors"><item.icon className="w-5 h-5 text-[#1B3A6B]" /></div>

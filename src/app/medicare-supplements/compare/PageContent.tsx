@@ -10,6 +10,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { Shield, ChevronDown, Phone, ArrowRight, CheckCircle2, XCircle, MinusCircle, Info } from "lucide-react";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const PLANS = ["A", "B", "C", "D", "F", "G", "K", "L", "M", "N"];
 const HD_PLANS = ["HD-F", "HD-G"];
@@ -273,10 +274,12 @@ export default function PageContent() {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
-              <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
-                onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "compare" })}>
-                Compare Rates Online <ArrowRight className="w-4 h-4" />
-              </Link>
+              <ZipFormModal
+                coverageType="ms"
+                triggerLabel="Compare Rates Online"
+                triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
+                pageSection="compare"
+              />
             </div>
           </div>
         </div>

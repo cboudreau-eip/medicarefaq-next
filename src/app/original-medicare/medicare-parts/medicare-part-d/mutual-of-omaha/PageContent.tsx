@@ -8,6 +8,7 @@ import Link from "next/link";
 import { Pill, ArrowRight, CheckCircle2, Star, Phone, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const planHighlights = [
   "Multiple Part D plan options to fit different budgets and drug needs",
@@ -167,7 +168,7 @@ export default function PageContent() {
                 { label: "Medicare Part D Overview", href: "/original-medicare/medicare-parts/medicare-part-d" },
                 { label: "Part D Costs 2026", href: "/original-medicare/medicare-parts/medicare-part-d/part-d-costs" },
                 { label: "Mutual of Omaha Medigap", href: "/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans" },
-                { label: "Compare Part D Plans", href: "/compare-rates" },
+                { label: "Compare Part D Plans", href: "/medicare-supplements" },
               ].map((link, i) => (
                 <Link
                   key={i}
@@ -196,13 +197,12 @@ export default function PageContent() {
                 <Phone size={18} />
                 Speak with a Specialist
               </a>
-              <Link
-                href="/compare-rates"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "mutual_of_omaha" })}
-                className="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
-              >
-                Compare Plans <ArrowRight size={18} />
-              </Link>
+              <ZipFormModal
+                coverageType="ms"
+                triggerLabel="Compare Plans"
+                triggerClassName="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
+                pageSection="mutual_of_omaha"
+              />
             </div>
           </div>
         </div>

@@ -32,6 +32,7 @@ import FAQSchema from "@/components/schema/FAQSchema";
 import ArticleSchema from "@/components/schema/ArticleSchema";
 import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const BASE_URL = "https://www.medicarefaq.com";
 
@@ -539,14 +540,12 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                     <Phone className="w-5 h-5" />
                     Call (888) 441-0465
                   </a>
-                  <Link
-                    href="/compare-rates"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "faq_simple" })}
-                    className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-lg border border-white/20"
-                  >
-                    Compare Plans
-                    <ArrowRight className="w-5 h-5" />
-                  </Link>
+                  <ZipFormModal
+                    coverageType="ms"
+                    triggerLabel="Compare Plans"
+                    triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-lg border border-white/20"
+                    pageSection="faq_simple"
+                  />
                 </div>
               </div>
 

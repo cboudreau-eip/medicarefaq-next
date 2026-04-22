@@ -21,6 +21,7 @@ import {
   Stethoscope,
   AlertTriangle,
 } from "lucide-react";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const comparisonRows = [
   { feature: "Monthly Premium", supplement: "Higher ($75 – $300+/mo)", advantage: "Lower ($0 – $150+/mo)" },
@@ -298,10 +299,12 @@ export default function PageContent() {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_vs_advantage" })} className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
-              <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
-                onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "supplement_vs_advantage" })}>
-                Compare All Plan Types <ArrowRight className="w-4 h-4" />
-              </Link>
+              <ZipFormModal
+                coverageType="ms"
+                triggerLabel="Compare All Plan Types"
+                triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
+                pageSection="supplement_vs_advantage"
+              />
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://medicarefaq-next-nine.vercel.app";
+const BASE_URL = "https://www.medicarefaq.com";
 const lastModified = new Date("2026-04-09");
 
 /**

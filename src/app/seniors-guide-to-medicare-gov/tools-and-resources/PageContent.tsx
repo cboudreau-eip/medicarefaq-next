@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import { Monitor, Search, FileText, Phone, Shield, ArrowRight, CheckCircle2, ExternalLink, Star } from "lucide-react";
 import { trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const tools = [
   {
@@ -186,7 +187,7 @@ return (
                 { label: "Medicare Enrollment Periods", href: "/original-medicare/medicare-enrollment-periods" },
                 { label: "Medicare Coverage Guide", href: "/original-medicare/medicare-coverage" },
                 { label: "Medicare Costs 2026", href: "/original-medicare/medicare-costs" },
-                { label: "Compare Medicare Plans", href: "/compare-rates" },
+                { label: "Compare Medicare Plans", href: "/medicare-supplements" },
               ].map((link, i) => (
                 <Link
                   key={i}
@@ -206,13 +207,12 @@ return (
             <p className="text-blue-200 mb-6">
               Our licensed Medicare specialists can help you use these tools and find the right plan for your needs.
             </p>
-            <Link
-              href="/compare-rates"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "tools_and_resources" })}
-              className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-            >
-              Compare Plans <ArrowRight size={18} />
-            </Link>
+            <ZipFormModal
+              coverageType="ms"
+              triggerLabel="Compare Plans"
+              triggerClassName="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+              pageSection="tools_and_resources"
+            />
           </div>
         </div>
       </main>

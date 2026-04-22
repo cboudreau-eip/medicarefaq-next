@@ -13,7 +13,7 @@ const sitemapSections = [
     title: "Main Pages",
     links: [
       { label: "Home", href: "/" },
-      { label: "Compare Rates", href: "/compare-rates" },
+      { label: "Compare Rates", href: "/medicare-supplements" },
       { label: "Contact Us", href: "/contact" },
       { label: "About Us", href: "/about-us" },
       { label: "Testimonials", href: "/testimonials" },

@@ -9,6 +9,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { Shield, ChevronDown, Phone, ArrowRight, TrendingUp, DollarSign, AlertTriangle, CheckCircle2, Info } from "lucide-react";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const COST_CHANGES_2026 = [
   { item: "Part A Deductible", value2025: "$1,632", value2026: "$1,676", change: "+$44 (+2.7%)", impact: "Plans that cover Part A deductible (B, C, D, F, G, M, N, HD-F, HD-G) now cover $44 more per hospital admission." },
@@ -225,10 +226,12 @@ export default function PageContent() {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplement_plans_2026" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
-              <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
-                onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "medicare_supplement_plans_2026" })}>
-                Compare Rates Online <ArrowRight className="w-4 h-4" />
-              </Link>
+              <ZipFormModal
+                coverageType="ms"
+                triggerLabel="Compare Rates Online"
+                triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
+                pageSection="medicare_supplement_plans_2026"
+              />
             </div>
           </div>
         </div>

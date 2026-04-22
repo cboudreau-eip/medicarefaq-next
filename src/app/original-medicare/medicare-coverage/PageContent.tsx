@@ -9,6 +9,7 @@ import Link from "next/link";
 import { CheckCircle2, XCircle, ChevronDown, Phone, AlertTriangle } from "lucide-react";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/schema";
 import { trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const faqs = [
   {
@@ -191,10 +192,12 @@ export default function MedicareCoverage() {
             <p className="text-blue-100 mb-4">
               Original Medicare has no out-of-pocket maximum, meaning your costs could be unlimited in a serious illness. A <Link href="/medicare-supplements" className="text-teal-300 hover:text-white underline">Medicare Supplement (Medigap) plan</Link> can cover most or all of Medicare's cost-sharing — deductibles, coinsurance, and copays — for a predictable monthly premium.
             </p>
-            <Link href="/compare-rates"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "medicare_coverage" })} className="inline-block bg-[#0D9488] hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-full transition-colors text-sm">
-              Compare Medigap Rates
-            </Link>
+            <ZipFormModal
+              coverageType="ms"
+              triggerLabel="Compare Medigap Rates"
+              triggerClassName="inline-block bg-[#0D9488] hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-full transition-colors text-sm"
+              pageSection="medicare_coverage"
+            />
           </div>
         </section>
 

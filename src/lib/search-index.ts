@@ -148,7 +148,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#4F46E5",
     type: "guide",
     typeLabel: "Guide",
-    href: "/compare-rates",
+    href: "/medicare-supplements",
   },
   {
     id: "guide-late-penalties",

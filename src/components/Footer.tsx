@@ -28,7 +28,7 @@ const footerColumns = [
       { label: "Medicare Supplement", href: "/medicare-supplements" },
       { label: "Medicare Advantage", href: "/medicare-part-c/medicare-advantage-plans" },
       { label: "Part D (Rx Plans)", href: "/original-medicare/medicare-parts/medicare-part-d" },
-      { label: "Compare All Plans", href: "/compare-rates" },
+      { label: "Compare All Plans", href: "/medicare-supplements" },
       { label: "Medicare Costs", href: "/medicare-plans/costs" },
       { label: "Supplement Plans 2026", href: "/medicare-supplements/medicare-supplement-plans-2026" },
     ],

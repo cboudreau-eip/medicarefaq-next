@@ -5,6 +5,7 @@
 import Link from "next/link";
 import { FileText, ArrowRight, CheckCircle2, AlertTriangle, Clock, Phone, Monitor } from "lucide-react";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 const applicationMethods = [
   {
     icon: Monitor,
@@ -266,13 +267,12 @@ export default function PageContent() {
                 <Phone size={18} />
                 Call a Specialist
               </a>
-              <Link
-                href="/compare-rates"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "apply_for_medicare_part_b" })}
-                className="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
-              >
-                Compare Plans <ArrowRight size={18} />
-              </Link>
+              <ZipFormModal
+                coverageType="ms"
+                triggerLabel="Compare Plans"
+                triggerClassName="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
+                pageSection="apply_for_medicare_part_b"
+              />
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@
 import Link from "next/link";
 import { Star, Quote, ArrowRight, Users, Shield, ThumbsUp } from "lucide-react";
 import { trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 const testimonials = [
   {
     name: "Margaret T.",
@@ -151,13 +152,12 @@ export default function PageContent() {
               Join thousands of satisfied clients who found the right Medicare coverage with help from our licensed specialists.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link
-                href="/compare-rates"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "testimonials" })}
-                className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-              >
-                Compare Plans <ArrowRight size={18} />
-              </Link>
+              <ZipFormModal
+                coverageType="ms"
+                triggerLabel="Compare Plans"
+                triggerClassName="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+                pageSection="testimonials"
+              />
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"

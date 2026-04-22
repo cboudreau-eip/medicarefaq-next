@@ -20,6 +20,7 @@ import {
   TrendingDown,
   AlertTriangle,
 } from "lucide-react";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const costScenarios = [
   {
@@ -302,10 +303,12 @@ export default function PageContent() {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "costs" })} className="inline-flex items-center gap-2 bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-green-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
-              <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
-                onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "costs" })}>
-                Compare All Plans <ArrowRight className="w-4 h-4" />
-              </Link>
+              <ZipFormModal
+                coverageType="ms"
+                triggerLabel="Compare All Plans"
+                triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
+                pageSection="costs"
+              />
             </div>
           </div>
         </div>

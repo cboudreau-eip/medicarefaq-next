@@ -129,7 +129,7 @@ export const navigationData: NavCategory[] = [
         title: "Compare Medicare Plans",
         description: "Side-by-side comparison of every plan type",
         icon: BarChart3,
-        href: "/compare-rates",
+        href: "/medicare-supplements",
       },
       {
         title: "Medicare Costs",

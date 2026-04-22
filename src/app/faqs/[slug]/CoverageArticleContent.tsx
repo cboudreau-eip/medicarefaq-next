@@ -50,6 +50,7 @@ import type {
 } from "@/lib/article-types";
 import PodcastPlayer from "@/components/PodcastPlayer";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 /* ─── Icon Map ─── */
 const iconMap: Record<string, React.ElementType> = {
@@ -874,10 +875,12 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "faq_coverage_article" })} className="flex items-center gap-2 bg-white text-[#C41230] font-bold px-6 py-3 rounded-lg hover:bg-white/90 transition-colors">
               <Phone className="w-5 h-5" /> Call (888) 335-8996
             </a>
-            <Link href="/compare-rates" className="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "faq_coverage_article" })}>
-              Compare Plans <ArrowRight className="w-5 h-5" />
-            </Link>
+            <ZipFormModal
+              coverageType="ms"
+              triggerLabel="Compare Plans"
+              triggerClassName="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors"
+              pageSection="faq_coverage_article"
+            />
           </div>
         </div>
       </section>

@@ -9,6 +9,7 @@ import Link from "next/link";
 import { ChevronDown, Phone, DollarSign, AlertTriangle } from "lucide-react";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/schema";
 import { trackCtaClick } from "@/lib/analytics";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const faqs = [
   {
@@ -162,10 +163,12 @@ export default function MedicareCosts() {
             <p className="text-blue-100 mb-4">
               A <Link href="/medicare-supplements" className="text-teal-300 hover:text-white underline">Medicare Supplement (Medigap) plan</Link> can cover most or all of Medicare's cost-sharing, giving you predictable costs for a monthly premium. <Link href="/medicare-supplements/plan-g" className="text-teal-300 hover:text-white underline">Plan G</Link> is the most popular choice in 2026.
             </p>
-            <Link href="/compare-rates"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "medicare_costs" })} className="inline-block bg-[#0D9488] hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-full transition-colors text-sm">
-              Compare Medigap Rates
-            </Link>
+            <ZipFormModal
+              coverageType="ms"
+              triggerLabel="Compare Medigap Rates"
+              triggerClassName="inline-block bg-[#0D9488] hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-full transition-colors text-sm"
+              pageSection="medicare_costs"
+            />
           </div>
         </section>
 

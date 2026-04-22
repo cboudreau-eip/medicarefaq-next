@@ -21,7 +21,7 @@ const topics = [
     icon: BarChart3,
     color: "#1B2A4A",
     articles: "12 articles",
-    href: "/compare-rates",
+    href: "/medicare-supplements",
   },
   {
     title: "Coverage & Benefits",

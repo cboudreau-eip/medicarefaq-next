@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const BASE_URL = "https://medicarefaq-next-nine.vercel.app";
+const BASE_URL = "https://www.medicarefaq.com";
 const lastModified = new Date("2026-04-09").toISOString();
 
 const pages = [
@@ -29,7 +29,6 @@ const pages = [
   { url: `${BASE_URL}/medicare-supplements/medicare-supplement-plans-2026`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-supplements/medigap-by-carrier`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-supplements/medigap-by-state`, priority: "0.8", changefreq: "monthly" },
-  { url: `${BASE_URL}/compare-rates`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans/costs`, priority: "0.8", changefreq: "monthly" },
   { url: `${BASE_URL}/medicare-plans/supplement-vs-advantage`, priority: "0.8", changefreq: "monthly" },

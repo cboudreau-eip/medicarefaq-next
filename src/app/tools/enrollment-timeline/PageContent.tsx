@@ -35,6 +35,7 @@ import {
   type EmploymentStatus,
   type TimelineEvent,
 } from "@/lib/enrollment-calculator";
+import ZipFormModal from "@/components/ZipFormModal";
 
 const ICON_MAP: Record<string, React.ElementType> = {
   "calendar-check": CalendarCheck,
@@ -269,14 +270,12 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
             <Phone className="w-4 h-4" />
             Call (888) 335-8996
           </a>
-            <Link
-            href="/compare-rates"
-              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "enrollment_timeline" })}
-            className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-colors border border-white/20"
-          >
-            Get Started Online
-            <ArrowRight className="w-4 h-4" />
-          </Link>
+            <ZipFormModal
+            coverageType="ms"
+            triggerLabel="Get Started Online"
+            triggerClassName="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-colors border border-white/20"
+            pageSection="enrollment_timeline"
+          />
         </div>
       </div>
 

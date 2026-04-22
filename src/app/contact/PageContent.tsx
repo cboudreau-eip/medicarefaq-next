@@ -48,7 +48,7 @@ const hours = [
 const quickLinks = [
   { label: "Medicare 101 Guide", href: "/medicare-101", icon: "📘" },
   { label: "Am I Eligible?", href: "/new-to-medicare/eligibility", icon: "✅" },
-  { label: "Compare Plans", href: "/compare-rates", icon: "📊" },
+  { label: "Compare Plans", href: "/medicare-supplements", icon: "📊" },
   { label: "Coverage FAQs", href: "/faqs", icon: "❓" },
 ];
 
