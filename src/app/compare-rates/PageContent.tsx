@@ -22,6 +22,7 @@ import {
   Star,
 } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
+import { trackPhoneClick } from "@/lib/analytics";
 
 const comparisonData = [
   { feature: "Administered By", om: "Federal Government", ma: "Private Insurance Companies", medigap: "Private Insurance Companies", partd: "Private Insurance Companies" },
@@ -130,6 +131,7 @@ export default function PageContent() {
           </p>
           <div className="flex flex-wrap gap-4">
             <ZipFormModal
+              pageSection="compare_rates"
               coverageType="ms"
               title="Compare Medicare Plans"
               subtitle="Enter your ZIP code to see Medigap and Medicare Advantage plans available in your area — free, no obligation."
@@ -140,7 +142,8 @@ export default function PageContent() {
                 </button>
               }
             />
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare_rates" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -268,6 +271,7 @@ export default function PageContent() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <ZipFormModal
+                pageSection="compare_rates"
                 coverageType="ms"
                 title="Get Personalized Plan Recommendations"
                 subtitle="Enter your ZIP code and our licensed agents will help you find the right Medicare plan combination for your needs."
@@ -278,7 +282,8 @@ export default function PageContent() {
                   </button>
                 }
               />
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare_rates" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
             </div>

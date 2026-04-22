@@ -11,6 +11,7 @@ import { useState, useEffect, type ReactNode } from "react";
 import ZipFormModal from "@/components/ZipFormModal";
 import Link from "next/link";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/schema";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   ArrowRightLeft,
   ChevronDown,
@@ -173,7 +174,8 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
             <a href="#2026-costs" className="inline-flex items-center gap-2 bg-white text-amber-800 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
               See 2026 Changes <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "annual_changes" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -206,7 +208,8 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                 <div className="mt-8 p-4 bg-amber-50 rounded-xl border border-amber-100">
                   <p className="text-sm font-semibold text-amber-900 mb-1">Review Your Plan</p>
                   <p className="text-xs text-amber-700 mb-3">We'll help you compare options for 2026</p>
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-amber-700">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "annual_changes" })} className="flex items-center gap-2 text-sm font-bold text-amber-700">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>
@@ -523,14 +526,14 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     Our licensed agents can review your current coverage, compare plans available in your area for 2026, and help you make the best decision during the Annual Enrollment Period.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
+                    <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "annual_changes" })} className="inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal
                       coverageType="ms"
                       triggerLabel="Compare Plans"
-                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
-                    />
+                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"              pageSection="annual_changes" />
                   </div>
                 </div>
               </section>

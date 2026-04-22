@@ -27,6 +27,7 @@ import {
   Activity,
 } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
+import { trackPhoneClick } from "@/lib/analytics";
 
 const tableOfContents = [
   { id: "overview", label: "What Is Medicare Advantage?" },
@@ -130,6 +131,7 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
           </p>
           <div className="flex flex-wrap gap-4">
             <ZipFormModal
+              pageSection="medicare_advantage_plans"
               coverageType="ma"
               title="Find Medicare Advantage Plans"
               subtitle="Enter your ZIP code to compare Medicare Advantage plans available in your area — free, no obligation."
@@ -140,7 +142,8 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                 </button>
               }
             />
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_advantage_plans" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -167,7 +170,8 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                 <div className="mt-8 p-4 bg-blue-50 rounded-xl border border-blue-100">
                   <p className="text-sm font-semibold text-blue-900 mb-1">Need Help?</p>
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-blue-700">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_advantage_plans" })} className="flex items-center gap-2 text-sm font-bold text-blue-700">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>
@@ -401,6 +405,7 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <ZipFormModal
+                      pageSection="medicare_advantage_plans"
                       coverageType="ma"
                       title="Find Medicare Advantage Plans in Your Area"
                       subtitle="Plans, benefits, and costs vary by ZIP code. Enter yours to compare MA plans available near you — free, no obligation."
@@ -411,7 +416,8 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                         </button>
                       }
                     />
-                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+                    <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_advantage_plans" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
                   </div>

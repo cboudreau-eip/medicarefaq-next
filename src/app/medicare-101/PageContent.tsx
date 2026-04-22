@@ -10,6 +10,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   Shield,
   Heart,
@@ -335,6 +336,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
               </a>
               <a
                 href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101" })}
                 className="inline-flex items-center gap-2 border border-white/20 hover:bg-white/10 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 <Phone className="w-4 h-4" />
@@ -379,6 +381,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                   </p>
                   <a
                     href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101" })}
                     className="inline-flex items-center gap-2 text-sm font-semibold text-teal-600 hover:text-teal-700"
                   >
                     <Phone className="w-4 h-4" />
@@ -969,6 +972,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                   <div className="flex flex-wrap gap-4">
                     <a
                       href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101" })}
                       className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
                     >
                       <Phone className="w-4 h-4" />

@@ -7,6 +7,7 @@ import Link from "next/link";
  */
 
 import { useState, useEffect } from "react";
+import { trackCtaClick, trackPhoneClick } from "@/lib/analytics";
 import {
   CheckCircle2,
   XCircle,
@@ -128,7 +129,8 @@ export default function PageContent() {
             <a href="#comparison" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               See Full Comparison <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_vs_advantage" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -292,10 +294,12 @@ export default function PageContent() {
               Our licensed agents specialize in helping people choose between Medigap and Medicare Advantage. We'll analyze your doctors, medications, and budget to give you a personalized recommendation — at no cost.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_vs_advantage" })} className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
-              <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+              <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
+                onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "supplement_vs_advantage" })}>
                 Compare All Plan Types <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

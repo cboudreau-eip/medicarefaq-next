@@ -12,6 +12,7 @@ import {
   Star, Building2, MapPin, Globe, AlertTriangle
 } from "lucide-react";
 import { getCarrierBySlug, CARRIER_DATA } from "@/lib/medigap-carrier-data";
+import { trackPhoneClick } from "@/lib/analytics";
 
 const PLAN_LETTERS = ["A", "B", "C", "D", "F", "G", "HD-F", "HD-G", "K", "L", "M", "N"];
 
@@ -235,7 +236,8 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
               Our licensed Medicare agents compare {carrier.shortName} rates against other top carriers at no cost to you. Get your personalized quote in minutes.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_carrier_detail" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
               <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">

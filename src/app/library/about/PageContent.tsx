@@ -8,6 +8,7 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   UserCheck,
   ChevronDown,
@@ -229,7 +230,8 @@ export default function AboutTeam() {  useEffect(() => {
                 </div>
               </div>
               <div className="flex flex-col gap-3">
-                <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
+                <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "about" })} className="inline-flex items-center gap-2 bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
                   <Phone className="w-4 h-4" /> (888) 335-8996
                 </a>
                 <a href="mailto:info@medicarefaq.com" className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors border border-indigo-200">
@@ -252,7 +254,8 @@ export default function AboutTeam() {  useEffect(() => {
               Our licensed agents are standing by to answer your questions and help you find the right Medicare plan — at no cost to you.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "about" })} className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
               <Link href="/about-us" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">

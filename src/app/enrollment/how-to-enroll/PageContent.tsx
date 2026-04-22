@@ -10,6 +10,7 @@
 import { useState, useEffect, type ReactNode } from "react";
 import ZipFormModal from "@/components/ZipFormModal";
 import Link from "next/link";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   FileText,
   ChevronDown,
@@ -128,7 +129,8 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
             <a href="#original-medicare" className="inline-flex items-center gap-2 bg-white text-teal-800 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
               Start Enrolling <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Get Free Help
             </a>
           </div>
@@ -161,7 +163,8 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                 <div className="mt-8 p-4 bg-teal-50 rounded-xl border border-teal-100">
                   <p className="text-sm font-semibold text-teal-900 mb-1">Need Enrollment Help?</p>
                   <p className="text-xs text-teal-700 mb-3">We'll guide you through every step</p>
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-teal-700">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="flex items-center gap-2 text-sm font-bold text-teal-700">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>
@@ -538,14 +541,14 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     Our licensed Medicare agents can compare plans in your area, walk you through the enrollment process, and handle the paperwork — all at no cost to you. We work with multiple carriers to find the best fit for your needs.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
+                    <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal
                       coverageType="ms"
                       triggerLabel="Compare Plans First"
-                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
-                    />
+                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"              pageSection="how_to_enroll" />
                   </div>
                 </div>
               </section>

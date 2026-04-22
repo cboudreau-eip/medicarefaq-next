@@ -9,6 +9,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import ZipFormModal from "@/components/ZipFormModal";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   Pill,
   CheckCircle2,
@@ -133,7 +134,8 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
             <a href="#coverage-phases" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               How Coverage Works <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -166,6 +168,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                   <p className="text-sm font-semibold text-blue-900 mb-1">Need Help?</p>
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
                   <ZipFormModal
+                    pageSection="medicare_part_d"
                     coverageType="pdp"
                     title="Find a Part D Plan"
                     subtitle="Enter your ZIP code to compare Medicare Part D prescription drug plans in your area — free, no obligation."
@@ -176,7 +179,8 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                       </button>
                     }
                   />
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>
@@ -381,6 +385,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <ZipFormModal
+                      pageSection="medicare_part_d"
                       coverageType="pdp"
                       title="Find the Right Part D Plan"
                       subtitle="Enter your ZIP code to compare Medicare Part D prescription drug plans that cover your medications — free, no obligation."
@@ -391,7 +396,8 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                         </button>
                       }
                     />
-                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+                    <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
                   </div>

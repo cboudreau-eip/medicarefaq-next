@@ -4,6 +4,7 @@ import Link from "next/link";
  */
 
 import { Monitor, Search, FileText, Phone, Shield, ArrowRight, CheckCircle2, ExternalLink, Star } from "lucide-react";
+import { trackCtaClick } from "@/lib/analytics";
 
 const tools = [
   {
@@ -207,6 +208,7 @@ return (
             </p>
             <Link
               href="/compare-rates"
+              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "tools_and_resources" })}
               className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
             >
               Compare Plans <ArrowRight size={18} />

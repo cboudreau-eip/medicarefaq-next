@@ -7,6 +7,7 @@ import Link from "next/link";
 import { MapPin, ChevronDown, Phone, ArrowRight, AlertTriangle } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
 import { STATE_DATA } from "@/lib/medigap-state-data";
+import { trackPhoneClick } from "@/lib/analytics";
 
 export default function PageContent() {
 
@@ -39,6 +40,7 @@ export default function PageContent() {
           </p>
           <div className="flex flex-wrap gap-3">
             <ZipFormModal
+              pageSection="medigap_by_state"
               coverageType="ms"
               title="Compare Medigap Plans in Your State"
               subtitle="Enter your ZIP code to see rates from top Medigap carriers available in your area — free, no obligation."
@@ -49,7 +51,8 @@ export default function PageContent() {
                 </button>
               }
             />
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_by_state" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -133,6 +136,7 @@ export default function PageContent() {
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
               <ZipFormModal
+                pageSection="medigap_by_state"
                 coverageType="ms"
                 title="Compare Medigap Plans in Your State"
                 subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
@@ -143,7 +147,8 @@ export default function PageContent() {
                   </button>
                 }
               />
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-3 rounded-lg transition-colors border border-white/20">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_by_state" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-3 rounded-lg transition-colors border border-white/20">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
             </div>

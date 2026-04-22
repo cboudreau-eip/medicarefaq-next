@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { trackNavClick } from "@/lib/analytics";
 /**
  * HTML Sitemap Page — /sitemap
  */
@@ -164,6 +167,7 @@ return (
                     <li key={li}>
                       <Link
                         href={link.href}
+                        onClick={() => trackNavClick({ link_text: link.label, destination: link.href, nav_section: "sitemap" })}
                         className="flex items-center gap-1.5 text-gray-600 hover:text-teal-600 text-sm group"
                       >
                         <ArrowRight className="text-gray-300 group-hover:text-teal-400 shrink-0 transition-colors" size={12} />

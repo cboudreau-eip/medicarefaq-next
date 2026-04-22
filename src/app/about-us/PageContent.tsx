@@ -8,6 +8,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { trackCtaClick, trackPhoneClick } from "@/lib/analytics";
 import {
   Shield,
   Eye,
@@ -559,6 +560,7 @@ export default function About() {  return (
                 <p className="text-sm text-slate-500">
                   <a
                     href="tel:8889068097"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 906-8097", page_section: "about_us" })}
                     className="hover:text-teal-600 transition-colors"
                   >
                     (888) 906-8097
@@ -607,6 +609,7 @@ export default function About() {  return (
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "about_us" })}
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#C41230] font-semibold px-8 py-3.5 rounded-lg hover:bg-slate-100 transition-colors"
               >
                 <Phone className="w-4 h-4" />
@@ -614,6 +617,7 @@ export default function About() {  return (
               </a>
               <Link
                 href="/compare-rates"
+                  onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "about_us" })}
                 className="inline-flex items-center justify-center gap-2 bg-white/10 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-lg hover:bg-white/20 transition-colors"
               >
                 Get Started Free

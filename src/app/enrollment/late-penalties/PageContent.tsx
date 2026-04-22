@@ -9,6 +9,7 @@
 
 import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   AlertCircle,
   ChevronDown,
@@ -123,7 +124,8 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
             <a href="#how-to-avoid" className="inline-flex items-center gap-2 bg-white text-red-800 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
               How to Avoid Penalties <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -156,7 +158,8 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                 <div className="mt-8 p-4 bg-red-50 rounded-xl border border-red-100">
                   <p className="text-sm font-semibold text-red-900 mb-1">Worried About Penalties?</p>
                   <p className="text-xs text-red-700 mb-3">We'll help you understand your situation</p>
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-red-700">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="flex items-center gap-2 text-sm font-bold text-red-700">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>
@@ -476,7 +479,8 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     Our licensed Medicare agents can review your enrollment timeline, confirm whether you have creditable coverage, and help you enroll before any penalty windows close — all at no cost to you.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
+                    <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
                     <Link href="/enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">

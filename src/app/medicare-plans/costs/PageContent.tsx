@@ -8,6 +8,7 @@ import Link from "next/link";
  */
 
 import { useState, useEffect } from "react";
+import { trackCtaClick, trackPhoneClick } from "@/lib/analytics";
 import {
   ChevronDown,
   Phone,
@@ -297,10 +298,12 @@ export default function PageContent() {
               Your actual Medicare costs depend on your location, health, medications, and income. Our licensed agents can give you a personalized cost breakdown at no charge.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-green-50 transition-colors">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "costs" })} className="inline-flex items-center gap-2 bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-green-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
-              <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+              <Link href="/compare-rates" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
+                onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "costs" })}>
                 Compare All Plans <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

@@ -27,6 +27,7 @@ import {
 import { motion } from "framer-motion";
 import { coverageArticles } from "@/lib/coverage-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
+import { trackPhoneClick } from "@/lib/analytics";
 
 /* ─── Unified article type for display ─── */
 interface FAQCard {
@@ -426,6 +427,7 @@ export default function FAQIndex() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="tel:+18889191484"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 919-1484", page_section: "faqs" })}
                 className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-sm"
               >
                 Call (888) 919-1484

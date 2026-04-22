@@ -9,6 +9,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { Shield, ChevronDown, Phone, ArrowRight, Star, Globe, Building2 } from "lucide-react";
 import { CARRIER_DATA } from "@/lib/medigap-carrier-data";
+import { trackPhoneClick } from "@/lib/analytics";
 
 const PRICING_BADGE: Record<string, { label: string; color: string }> = {
   budget: { label: "Budget-Friendly", color: "bg-green-100 text-green-700 border-green-200" },
@@ -51,7 +52,8 @@ export default function PageContent() {
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
             Compare Medicare Supplement plans from {CARRIER_DATA.length} top-rated insurance carriers. All plans are federally standardized — the only difference is the price.
           </p>
-          <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+          <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_by_carrier" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
             <Phone className="w-4 h-4" /> Compare Rates Free
           </a>
         </div>
@@ -146,7 +148,8 @@ export default function PageContent() {
               Our licensed Medicare agents compare rates from all major carriers at no cost to you. We'll help you find the best plan and price for your specific situation.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_by_carrier" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
               <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">

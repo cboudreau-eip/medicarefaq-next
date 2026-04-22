@@ -8,6 +8,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { CheckCircle2, ChevronDown, Phone, AlertTriangle, Users, Clock, Heart } from "lucide-react";
 import { FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/schema";
+import { trackPhoneClick } from "@/lib/analytics";
 
 const tableOfContents = [
   { id: "overview", label: "Who Qualifies for Medicare?" },
@@ -254,7 +255,8 @@ export default function MedicareEligibility() {
             <p className="text-blue-100 mb-6 max-w-xl mx-auto">
               Our licensed Medicare agents can help you understand your options and find the right plan for your needs and budget.
             </p>
-            <a href="tel:+18005551234" className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-teal-600 text-white font-semibold px-8 py-3 rounded-full transition-colors">
+            <a href="tel:+18005551234"
+              onClick={() => trackPhoneClick({ phone_number: "(800) 555-1234", page_section: "medicare_eligibility" })} className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-teal-600 text-white font-semibold px-8 py-3 rounded-full transition-colors">
               <Phone className="w-5 h-5" />
               Speak with a Licensed Agent
             </a>

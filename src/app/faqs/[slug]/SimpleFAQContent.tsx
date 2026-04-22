@@ -31,6 +31,7 @@ import type { SimpleFAQArticleData, BlogSectionContent } from "@/lib/article-typ
 import FAQSchema from "@/components/schema/FAQSchema";
 import ArticleSchema from "@/components/schema/ArticleSchema";
 import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
+import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 
 const BASE_URL = "https://www.medicarefaq.com";
 
@@ -532,6 +533,7 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <a
                     href="tel:+18884410465"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "faq_simple" })}
                     className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-lg"
                   >
                     <Phone className="w-5 h-5" />
@@ -539,6 +541,7 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                   </a>
                   <Link
                     href="/compare-rates"
+              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "faq_simple" })}
                     className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-lg border border-white/20"
                   >
                     Compare Plans
@@ -608,6 +611,7 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                   </p>
                   <a
                     href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "faq_simple" })}
                     className="flex items-center justify-center gap-2 bg-[#C41230] text-white text-sm font-bold py-2.5 rounded-lg hover:bg-[#A50F28] transition-colors w-full mb-2"
                   >
                     <Phone className="w-4 h-4" /> (888) 335-8996

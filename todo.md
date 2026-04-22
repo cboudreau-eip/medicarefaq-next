@@ -141,3 +141,8 @@
 - [x] Add ZipFormModal to [stateSlug] dynamic state page
 - [x] Add ZipFormModal to medicare-part-d main page (coverageType: pdp)
 - [x] Add ZipFormModal to medicare-part-d/[slug] dynamic page (coverageType: pdp)
+
+## ZIP Modal Rollout — Remaining Pages
+- [ ] Add ZipFormModal to /medicare-part-c/[slug] MA sub-pages (coverageType: ma)
+- [ ] Add ZipFormModal to /enrollment/ pages
+- [ ] Add ZipFormModal to blog/article page bottom CTAs

@@ -24,6 +24,7 @@ import {
   Info,
 } from "lucide-react";
 import { MEDIGAP_PLANS, type MedigapPlanData } from "@/lib/medigap-plan-data";
+import { trackPhoneClick } from "@/lib/analytics";
 
 function BenefitIcon({ covered }: { covered: "full" | "partial" | "none" }) {
   if (covered === "full") return <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0" />;
@@ -95,6 +96,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
 
           <div className="flex flex-wrap gap-4">
             <ZipFormModal
+              pageSection="supplement_plan_detail"
               coverageType="ms"
               title={`Compare ${plan.displayName} Quotes`}
               subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
@@ -105,7 +107,8 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 </button>
               }
             />
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_plan_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -166,6 +169,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                   <p className="text-sm font-semibold text-blue-900 mb-1">Ready to Enroll?</p>
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent — free, no obligation</p>
                   <ZipFormModal
+                    pageSection="supplement_plan_detail"
                     coverageType="ms"
                     title={`Compare ${plan.displayName} Quotes`}
                     subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers."
@@ -176,7 +180,8 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                       </button>
                     }
                   />
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_plan_detail" })} className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>
@@ -338,6 +343,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                     </p>
                     <div className="flex flex-wrap gap-3">
                       <ZipFormModal
+                        pageSection="supplement_plan_detail"
                         coverageType="ms"
                         title={`Compare ${plan.displayName} Quotes`}
                         subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers — free, no obligation."
@@ -348,7 +354,8 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                           </button>
                         }
                       />
-                      <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20 text-sm">
+                      <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_plan_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20 text-sm">
                         <Phone className="w-4 h-4" /> Call (888) 335-8996
                       </a>
                     </div>

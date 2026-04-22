@@ -4,6 +4,7 @@
 
 import Link from "next/link";
 import { Phone, Mail, Clock, Users, Shield, Star, ArrowRight, CheckCircle2 } from "lucide-react";
+import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 const services = [
   {
     icon: Phone,
@@ -168,6 +169,7 @@ export default function PageContent() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href="tel:+18005551234"
+              onClick={() => trackPhoneClick({ phone_number: "(800) 555-1234", page_section: "client_care_team" })}
                 className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 <Phone size={18} />
@@ -175,6 +177,7 @@ export default function PageContent() {
               </a>
               <Link
                 href="/compare-rates"
+              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "client_care_team" })}
                 className="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 Compare Plans Online <ArrowRight size={18} />

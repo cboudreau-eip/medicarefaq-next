@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
 import { getStateBySlug, STATE_DATA } from "@/lib/medigap-state-data";
+import { trackPhoneClick } from "@/lib/analytics";
 
 export default function PageContent({ stateSlug }: { stateSlug: string }) {
   const state = getStateBySlug(stateSlug);
@@ -72,6 +73,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
           </div>
           <div className="flex flex-wrap gap-3">
             <ZipFormModal
+              pageSection="medigap_state_detail"
               coverageType="ms"
               title={`Compare Medigap Rates in ${state.name}`}
               subtitle={`Enter your ZIP code to see rates from top Medigap carriers available in ${state.name} — free, no obligation.`}
@@ -82,7 +84,8 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                 </button>
               }
             />
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_state_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -222,6 +225,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
             </p>
             <div className="flex flex-wrap gap-3">
               <ZipFormModal
+                pageSection="medigap_state_detail"
                 coverageType="ms"
                 title={`Compare Medigap Rates in ${state.name}`}
                 subtitle={`Enter your ZIP code to get personalized Medigap rates from top carriers in ${state.name} — free, no obligation.`}
@@ -232,7 +236,8 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                   </button>
                 }
               />
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_state_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
             </div>

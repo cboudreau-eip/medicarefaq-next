@@ -9,6 +9,7 @@ import Link from "next/link";
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   ChevronRight,
   ChevronDown,
@@ -245,7 +246,8 @@ export default function PageContent() {
               <div className="mt-8 p-4 bg-emerald-50 rounded-xl border border-emerald-100">
                 <p className="text-sm font-semibold text-emerald-800 mb-2">Need Help?</p>
                 <p className="text-xs text-emerald-700 mb-3">Our agents can help you find the most affordable coverage.</p>
-                <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-semibold text-emerald-700 hover:text-emerald-900">
+                <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "costs" })} className="flex items-center gap-2 text-sm font-semibold text-emerald-700 hover:text-emerald-900">
                   <Phone className="w-4 h-4" /> (888) 335-8996
                 </a>
               </div>
@@ -629,7 +631,8 @@ export default function PageContent() {
                   Our licensed agents can compare plans in your area and help you find the most affordable Medicare coverage for your specific situation — at no cost to you.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "costs" })} className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                     Call (888) 335-8996
                   </a>
                   <Link href="/new-to-medicare/checklist" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">

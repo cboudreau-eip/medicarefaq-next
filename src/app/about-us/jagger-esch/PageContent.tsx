@@ -4,6 +4,7 @@
 
 import Link from "next/link";
 import { Award, Briefcase, BookOpen, ArrowRight, CheckCircle2, MapPin } from "lucide-react";
+import { trackCtaClick } from "@/lib/analytics";
 export default function PageContent() {
   return (
     <main className="flex-1">
@@ -150,6 +151,7 @@ export default function PageContent() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
                 href="/compare-rates"
+              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "jagger_esch" })}
                 className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 Compare Plans <ArrowRight size={18} />

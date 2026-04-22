@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Heart, ChevronRight, Phone, BookOpen } from "lucide-react";
 import CTABanner from "@/components/CTABanner";
 import type { CaregiverPageData } from "@/lib/caregiver-guide-data";
+import { trackPhoneClick } from "@/lib/analytics";
 
 export default function CaregiverPageContent({ page, slug }: { page: CaregiverPageData; slug: string }) {
   if (!page) {
@@ -57,6 +58,7 @@ export default function CaregiverPageContent({ page, slug }: { page: CaregiverPa
           <div className="flex flex-wrap gap-3">
             <a
               href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "guide_to_being_a_caregiver" })}
               className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#a30f28] text-white font-semibold px-5 py-3 rounded-lg transition-colors"
             >
               <Phone className="w-4 h-4" />

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   Building2, CheckCircle2, XCircle, ChevronDown, Phone, ArrowRight,
   AlertTriangle, DollarSign, Clock, Shield, Heart, FileText,
@@ -80,7 +81,8 @@ export default function PageContent() {
             Hospital insurance that covers inpatient care, skilled nursing facilities, hospice, and some home health services. Most people get Part A at no premium cost.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_a" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               <Phone className="w-4 h-4" /> Get Free Guidance
             </a>
             <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors">
@@ -294,7 +296,8 @@ export default function PageContent() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-3">Questions About Your Part A Coverage?</h2>
           <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand your costs, and find the right supplement plan to cover Part A gaps — at no cost to you.</p>
-          <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
+          <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_a" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
             <Phone className="w-5 h-5" /> Call (888) 335-8996
           </a>
         </div>

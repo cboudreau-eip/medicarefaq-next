@@ -7,6 +7,7 @@
 import Link from "next/link";
 import { Pill, ArrowRight, CheckCircle2, Star, Phone, ChevronDown } from "lucide-react";
 import { useState } from "react";
+import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 
 const planHighlights = [
   "Multiple Part D plan options to fit different budgets and drug needs",
@@ -189,6 +190,7 @@ export default function PageContent() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href="tel:+18005551234"
+              onClick={() => trackPhoneClick({ phone_number: "(800) 555-1234", page_section: "mutual_of_omaha" })}
                 className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 <Phone size={18} />
@@ -196,6 +198,7 @@ export default function PageContent() {
               </a>
               <Link
                 href="/compare-rates"
+              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "mutual_of_omaha" })}
                 className="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 Compare Plans <ArrowRight size={18} />

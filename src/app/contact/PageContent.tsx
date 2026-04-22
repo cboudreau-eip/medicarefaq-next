@@ -8,6 +8,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   Phone,
   Mail,
@@ -121,6 +122,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
           <div className="grid sm:grid-cols-3 gap-4">
             <a
               href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "contact" })}
               className="bg-white rounded-xl border border-slate-200 p-5 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-teal-200 transition-all group"
             >
               <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center group-hover:bg-teal-100 transition-colors">
@@ -392,6 +394,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
                 </p>
                 <a
                   href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "contact" })}
                   className="flex items-center justify-center gap-2 bg-white text-teal-700 font-bold px-5 py-3 rounded-lg hover:bg-teal-50 transition-colors w-full"
                 >
                   <Phone className="w-4 h-4" /> (888) 335-8996
@@ -513,6 +516,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
             <div className="flex flex-wrap justify-center gap-4">
               <a
                 href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "contact" })}
                 className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 <Phone className="w-4 h-4" /> Call (888) 335-8996

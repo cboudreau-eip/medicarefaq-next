@@ -7,6 +7,7 @@ import Link from "next/link";
  */
 
 import { useState, useEffect } from "react";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   CheckCircle2,
   XCircle,
@@ -274,7 +275,8 @@ export default function PageContent() {
               Medigap rates vary by company, age, location, and gender. Our licensed agents compare rates from top carriers to find you the best price for the same standardized benefits.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "best_supplement_plans" })} className="inline-flex items-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
               <Link href="/medicare-plans/supplement-vs-advantage" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">

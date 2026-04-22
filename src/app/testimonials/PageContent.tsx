@@ -4,6 +4,7 @@
 
 import Link from "next/link";
 import { Star, Quote, ArrowRight, Users, Shield, ThumbsUp } from "lucide-react";
+import { trackCtaClick } from "@/lib/analytics";
 const testimonials = [
   {
     name: "Margaret T.",
@@ -152,6 +153,7 @@ export default function PageContent() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
                 href="/compare-rates"
+              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "testimonials" })}
                 className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 Compare Plans <ArrowRight size={18} />

@@ -8,6 +8,7 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   FileText,
   ChevronDown,
@@ -285,7 +286,8 @@ export default function Guides() {  useEffect(() => {
               Our licensed Medicare agents can walk you through your options, answer your questions, and help you find the right plan — all at no cost to you.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
+              <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "guides" })} className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
               <Link href="/enrollment/how-to-enroll" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">

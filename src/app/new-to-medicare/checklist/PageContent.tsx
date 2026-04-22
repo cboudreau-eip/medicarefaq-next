@@ -9,6 +9,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   CheckCircle2,
   Circle,
@@ -405,7 +406,8 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
               <div className="mt-8 p-4 bg-purple-50 rounded-xl border border-purple-100">
                 <p className="text-sm font-semibold text-purple-800 mb-2">Need Help?</p>
                 <p className="text-xs text-purple-700 mb-3">Our licensed agents can walk you through every step.</p>
-                <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-semibold text-purple-700 hover:text-purple-900">
+                <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })} className="flex items-center gap-2 text-sm font-semibold text-purple-700 hover:text-purple-900">
                   <Phone className="w-4 h-4" /> (888) 335-8996
                 </a>
               </div>
@@ -541,7 +543,8 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                   Our licensed Medicare agents can help you work through this checklist, compare plans in your area, and find the best coverage for your needs — at no cost to you.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-purple-500 hover:bg-purple-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })} className="inline-flex items-center gap-2 bg-purple-500 hover:bg-purple-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                     Call (888) 335-8996
                   </a>
                   <Link href="/medicare-101" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">

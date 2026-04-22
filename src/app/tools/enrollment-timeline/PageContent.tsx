@@ -27,6 +27,7 @@ import {
   Lightbulb,
   HelpCircle,
 } from "lucide-react";
+import { trackCtaClick, trackPhoneClick } from "@/lib/analytics";
 import {
   calculateTimeline,
   type CalculatorInput,
@@ -262,6 +263,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
             href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "enrollment_timeline" })}
             className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-6 py-3.5 rounded-lg transition-colors shadow-lg"
           >
             <Phone className="w-4 h-4" />
@@ -269,6 +271,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
           </a>
             <Link
             href="/compare-rates"
+              onClick={() => trackCtaClick({ button_label: "Compare Rates", destination: "/compare-rates", page_section: "enrollment_timeline" })}
             className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-colors border border-white/20"
           >
             Get Started Online

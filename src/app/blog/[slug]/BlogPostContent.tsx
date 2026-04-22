@@ -31,7 +31,7 @@ import {
 import { motion } from "framer-motion";
 import type { BlogArticleData, BlogSectionContent } from "@/lib/article-types";
 import { blogArticles } from "@/lib/blog-articles-data";
-
+import { trackPhoneClick } from "@/lib/analytics";
 /* ─── Markdown Link Parser ─── */
 function renderParagraph(text: string, key: number | string, className?: string) {
   const parts: React.ReactNode[] = [];
@@ -510,6 +510,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a
                     href="tel:+18884410465"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "blog_post" })}
                     className="flex items-center justify-center gap-2 bg-[#C41230] hover:bg-[#A50E28] text-white font-semibold px-6 py-3 rounded-lg transition-colors"
                   >
                     <Phone className="w-4 h-4" />
@@ -518,8 +519,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   <ZipFormModal
                     coverageType="ms"
                     triggerLabel="Compare Rates"
-                    triggerClassName="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
-                  />
+                    triggerClassName="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"              pageSection="blog_post" />
                 </div>
               </div>
             </article>
@@ -556,6 +556,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   </p>
                   <a
                     href="tel:+18884410465"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "blog_post" })}
                     className="block bg-white text-[#C41230] font-bold text-sm py-2 rounded-lg hover:bg-white/90 transition-colors"
                   >
                     1-888-441-0465

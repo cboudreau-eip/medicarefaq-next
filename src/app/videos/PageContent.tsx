@@ -8,6 +8,7 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   Video,
   ChevronDown,
@@ -326,7 +327,8 @@ export default function Videos() {  useEffect(() => {
                 <div className="bg-indigo-600 rounded-xl p-5 text-white">
                   <p className="text-sm font-semibold mb-1">Need Help With Medicare?</p>
                   <p className="text-xs text-indigo-200 mb-3">Our licensed agents are ready to help</p>
-                  <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-bold text-white">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "videos" })} className="flex items-center gap-2 text-sm font-bold text-white">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
                 </div>

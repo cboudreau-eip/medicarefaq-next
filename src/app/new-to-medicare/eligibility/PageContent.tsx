@@ -9,6 +9,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { trackPhoneClick } from "@/lib/analytics";
 import {
   CheckCircle2,
   XCircle,
@@ -244,7 +245,8 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
             <a href="#overview" className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               Check Eligibility <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="tel:8883358996" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+            <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "eligibility" })} className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
           </div>
@@ -277,7 +279,8 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
               <div className="mt-8 p-4 bg-teal-50 rounded-xl border border-teal-100">
                 <p className="text-sm font-semibold text-teal-800 mb-2">Need Help?</p>
                 <p className="text-xs text-teal-700 mb-3">Our licensed agents can help determine your eligibility.</p>
-                <a href="tel:8883358996" className="flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900">
+                <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "eligibility" })} className="flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900">
                   <Phone className="w-4 h-4" /> (888) 335-8996
                 </a>
               </div>
@@ -558,7 +561,8 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                   Now that you know you're eligible, the next step is understanding when and how to enroll. Our licensed agents can walk you through the entire process.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:8883358996" className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "eligibility" })} className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                     Call (888) 335-8996
                   </a>
                   <Link href="/new-to-medicare/turning-65" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">

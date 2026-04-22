@@ -1,3 +1,4 @@
+import { trackPhoneClick } from "@/lib/analytics";
 
 export default function TermsOfUse() {
   return (
@@ -115,7 +116,8 @@ export default function TermsOfUse() {
               <address className="not-italic">
                 <strong>MedicareFAQ.com / Elite Insurance Partners</strong><br />
                 Email: <a href="mailto:info@medicarefaq.com">info@medicarefaq.com</a><br />
-                Phone: <a href="tel:8883358996">(888) 335-8996</a>
+                Phone: <a href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "terms_of_use" })}>(888) 335-8996</a>
               </address>
 
             </div>
