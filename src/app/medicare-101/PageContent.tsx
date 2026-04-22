@@ -11,6 +11,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { trackPhoneClick } from "@/lib/analytics";
+import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import {
   Shield,
   Heart,
@@ -71,7 +72,7 @@ const medicareParts = [
       "Most dental, vision, and hearing",
       "Private-duty nursing",
     ],
-    cost: "Most people pay $0 in premiums (if you or your spouse paid Medicare taxes for 10+ years). The 2026 deductible is $1,676 per benefit period.",
+    cost: `Most people pay $0 in premiums (if you or your spouse paid Medicare taxes for 10+ years). The 2026 deductible is ${MEDICARE_COSTS.partA.inpatientDeductible} per benefit period.`,
   },
   {
     part: "Part B",
@@ -96,7 +97,7 @@ const medicareParts = [
       "Routine foot care",
       "Care outside the U.S. (with limited exceptions)",
     ],
-    cost: "The standard 2026 monthly premium is $185.00. After the $257 annual deductible, Medicare covers 80% and you pay 20%.",
+    cost: `The standard 2026 monthly premium is ${MEDICARE_COSTS.partB.monthlyPremium}. After the ${MEDICARE_COSTS.partB.annualDeductible} annual deductible, Medicare covers 80% and you pay 20%.`,
   },
   {
     part: "Part C",
@@ -189,7 +190,7 @@ const faqs = [
   {
     question: "Is Medicare free?",
     answer:
-      "Part A is premium-free for most people who paid Medicare taxes for at least 10 years. However, Part B has a monthly premium ($185.00 in 2026), and you'll still have deductibles, copays, and coinsurance. Medicare Supplement plans and Part D plans have additional premiums.",
+      `Part A is premium-free for most people who paid Medicare taxes for at least 10 years. However, Part B has a monthly premium (${MEDICARE_COSTS.partB.monthlyPremium} in 2026), and you'll still have deductibles, copays, and coinsurance. Medicare Supplement plans and Part D plans have additional premiums.`,
   },
   {
     question: "When should I sign up for Medicare?",
@@ -731,8 +732,8 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                       </thead>
                       <tbody>
                         {[
-                          ["Monthly Premium", "$0 for most*", "$185.00"],
-                          ["Annual Deductible", "$1,676 per benefit period", "$257"],
+                          ["Monthly Premium", "$0 for most*", MEDICARE_COSTS.partB.monthlyPremium],
+                          ["Annual Deductible", `${MEDICARE_COSTS.partA.inpatientDeductible} per benefit period`, MEDICARE_COSTS.partB.annualDeductible],
                           ["Coinsurance", "$0 for first 60 days", "20% of approved amount"],
                           ["Out-of-Pocket Max", "No limit", "No limit"],
                         ].map(([type, partA, partB], i) => (
