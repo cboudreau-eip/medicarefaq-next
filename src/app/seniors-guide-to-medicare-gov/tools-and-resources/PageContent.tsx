@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 /**
  * Seniors Guide to Medicare.gov Tools & Resources — /seniors-guide-to-medicare-gov/tools-and-resources

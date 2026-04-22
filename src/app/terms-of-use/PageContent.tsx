@@ -1,3 +1,4 @@
+"use client";
 import { trackPhoneClick } from "@/lib/analytics";
 
 export default function TermsOfUse() {

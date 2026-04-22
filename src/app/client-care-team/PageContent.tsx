@@ -1,3 +1,4 @@
+"use client";
 /**
  * Client Care Team Page — /client-care-team
  */

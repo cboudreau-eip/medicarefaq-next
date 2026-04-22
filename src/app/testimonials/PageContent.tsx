@@ -1,3 +1,4 @@
+"use client";
 /**
  * Testimonials Page — /testimonials
  */

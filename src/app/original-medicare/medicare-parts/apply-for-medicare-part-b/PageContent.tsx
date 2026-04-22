@@ -1,3 +1,4 @@
+"use client";
 /**
  * Apply for Medicare Part B — /original-medicare/medicare-parts/apply-for-medicare-part-b
  */

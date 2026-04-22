@@ -1,3 +1,4 @@
+"use client";
 /**
  * Jagger Esch Bio Page — /about-us/jagger-esch
  */
