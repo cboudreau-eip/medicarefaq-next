@@ -2322,7 +2322,7 @@ export const coverageArticles: CoverageArticleData[] = [
     youtubeVideoId: "OBMO7kj8sCg",
     youtubeVideoTitle: "Medicare 2026 | New Premiums, Deductibles & Out of Pocket Costs Just Released!!",
     quickAnswer: {
-      text: "For 2026, the standard Part B premium is $202.90/month (up from $185), the Part B deductible is $283 (up from $257), and the Part A hospital deductible is $1,736 (up from $1,676). A Medicare Supplement plan can help cover these increased costs.",
+      text: "For 2026, the standard Part B premium is $202.90/month (up from $174.70), the Part B deductible is $283 (up from $257), and the Part A hospital deductible is $1,736 (up from $1,676). A Medicare Supplement plan can help cover these increased costs.",
       badges: [
         { plan: "Part B Premium", status: "partial" },
         { plan: "Part A Deductible", status: "partial" },
@@ -2331,9 +2331,9 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     comparisonTable: [
       { planType: "Part A Premium", coverage: "$0 (most people)", icon: "shield", notes: "Free if you or spouse paid Medicare taxes for 40+ quarters" },
-      { planType: "Part B Premium", coverage: "$202.90/month", icon: "dollarsign", notes: "Up from $185 in 2025; IRMAA surcharge may apply" },
-      { planType: "Part A Deductible", coverage: "$1,736/period", icon: "dollarsign", notes: "Up from $1,676 in 2025; per benefit period" },
-      { planType: "Part B Deductible", coverage: "$283/year", icon: "dollarsign", notes: "Up from $257 in 2025; annual deductible" },
+      { planType: "Part B Premium", coverage: "$202.90/month", icon: "dollarsign", notes: "Up from $202.90 in 2025; IRMAA surcharge may apply" },
+      { planType: "Part A Deductible", coverage: "$1,736/period", icon: "dollarsign", notes: "Up from $1,736 in 2025; per benefit period" },
+      { planType: "Part B Deductible", coverage: "$283/year", icon: "dollarsign", notes: "Up from $283 in 2025; annual deductible" },
       { planType: "Part B Coinsurance", coverage: "20% (no cap)", icon: "dollarsign", notes: "No annual limit on out-of-pocket costs" },
     ],
     planBreakdowns: [
@@ -2345,7 +2345,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "[Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers inpatient hospital stays, skilled nursing facility care, and hospice. Most people do not pay a monthly premium for Part A if they or their spouse paid Medicare taxes for at least 10 years.",
-          "The [Part A deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) for each hospital benefit period is $1,736 in 2026, an increase of $60 from $1,676 in 2025. After your deductible is met, you pay $0 for the first 60 days.",
+          "The [Part A deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) for each hospital benefit period is $1,736 in 2026, an increase of $60 from $1,736 in 2025. After your deductible is met, you pay $0 for the first 60 days.",
           "For days 61-90, you pay $434 per day. For Lifetime Reserve Days (91+), you pay $868 per day. Skilled nursing facility coinsurance for days 21-100 is $217 per day.",
         ],
       },
@@ -2357,7 +2357,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) covers doctor visits, outpatient services, preventive care, and durable medical equipment.",
-          "The 2026 standard [Part B premium](/faqs/medicare-part-b-premiums) is $202.90 per month, a significant increase from $185 in 2025. The annual Part B deductible increased from $257 to $283.",
+          "The 2026 standard [Part B premium](/faqs/medicare-part-b-premiums) is $202.90 per month, a significant increase from $202.90 in 2025. The annual Part B deductible increased from $283 to $283.",
           "After you meet the $283 deductible, you are typically responsible for 20% of the Medicare-approved amount for most services. This [20% coinsurance](/faqs/deductible-copay-coinsurance-premium) has no annual limit.",
         ],
         callout: {
@@ -2388,13 +2388,13 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "2026 Medicare Costs at a Glance",
       headers: ["Cost Category", "2025 Amount", "2026 Amount", "Change"],
       rows: [
-        { "Cost Category": "Part B Monthly Premium", "2025 Amount": "$185.00", "2026 Amount": "$202.90", "Change": "+$17.90" },
-        { "Cost Category": "Part B Annual Deductible", "2025 Amount": "$257.00", "2026 Amount": "$283.00", "Change": "+$26.00" },
-        { "Cost Category": "Part A Hospital Deductible", "2025 Amount": "$1,676.00", "2026 Amount": "$1,736.00", "Change": "+$60.00" },
+        { "Cost Category": "Part B Monthly Premium", "2025 Amount": "$202.90", "2026 Amount": "$202.90", "Change": "+$17.90" },
+        { "Cost Category": "Part B Annual Deductible", "2025 Amount": "$283.00", "2026 Amount": "$283.00", "Change": "+$26.00" },
+        { "Cost Category": "Part A Hospital Deductible", "2025 Amount": "$1,736.00", "2026 Amount": "$1,736.00", "Change": "+$60.00" },
         { "Cost Category": "Part A Days 61-90 Coinsurance", "2025 Amount": "$419/day", "2026 Amount": "$434/day", "Change": "+$15/day" },
         { "Cost Category": "Part A Lifetime Reserve Days", "2025 Amount": "$838/day", "2026 Amount": "$868/day", "Change": "+$30/day" },
         { "Cost Category": "SNF Days 21-100", "2025 Amount": "$209.50/day", "2026 Amount": "$217.00/day", "Change": "+$7.50/day" },
-        { "Cost Category": "Part C Max OOP", "2025 Amount": "$8,850", "2026 Amount": "$9,250", "Change": "+$400" },
+        { "Cost Category": "Part C Max OOP", "2025 Amount": "$9,250", "2026 Amount": "$9,250", "Change": "+$400" },
       ],
       footnote: "Source: Centers for Medicare & Medicaid Services (CMS). IRMAA surcharges apply to higher-income beneficiaries.",
     },
@@ -2444,11 +2444,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "What is the maximum out-of-pocket for Medicare Advantage in 2026?",
-        answer: "The maximum out-of-pocket limit for Medicare Advantage (Part C) plans in 2026 is $9,250, up from $8,850 in 2025.",
+        answer: "The maximum out-of-pocket limit for Medicare Advantage (Part C) plans in 2026 is $9,250, up from $9,250 in 2025.",
       },
     ],
     quickReference: [
-      { icon: "dollar", text: "<strong>Part B Premium</strong>: $202.90/month in 2026 (up from $185)" },
+      { icon: "dollar", text: "<strong>Part B Premium</strong>: $202.90/month in 2026 (up from $174.70)" },
       { icon: "dollar", text: "<strong>Part A Deductible</strong>: $1,736 per benefit period (up from $1,676)" },
       { icon: "dollar", text: "<strong>Part B Deductible</strong>: $283/year (up from $257)" },
       { icon: "alert", text: "<strong>No cap</strong> on Part B 20% coinsurance; Medigap recommended" },
@@ -2723,7 +2723,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) is not free. Most Medicare Part B enrollees have a standard monthly premium that can change from year to year. For 2026, the standard monthly premium is $202.90, up from $185 in 2025.",
+          "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) is not free. Most Medicare Part B enrollees have a standard monthly premium that can change from year to year. For 2026, the standard monthly premium is $202.90, up from $202.90 in 2025.",
           "Premiums reflect income. Therefore, if you’re in a higher income bracket, you will pay more for coverage, this is known as [IRMAA](/faqs/irmaa).",
           "In addition to your premium, Medicare Part B also requires you to pay a deductible, copayments, and coinsurance each time you use your benefits.",
         ],
@@ -5674,7 +5674,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "Yes, Medicare covers biopsies that are medically necessary to diagnose or treat a health condition. Outpatient biopsies fall under Medicare Part B (you pay 20% coinsurance after the $257 deductible). Hospital inpatient biopsies fall under Medicare Part A (you pay nothing after the $1,676 deductible). Medicare Advantage plans cover biopsies at the same level as Original Medicare, though your cost-sharing depends on your specific plan.",
+      text: "Yes, Medicare covers biopsies that are medically necessary to diagnose or treat a health condition. Outpatient biopsies fall under Medicare Part B (you pay 20% coinsurance after the $283 deductible). Hospital inpatient biopsies fall under Medicare Part A (you pay nothing after the $1,736 deductible). Medicare Advantage plans cover biopsies at the same level as Original Medicare, though your cost-sharing depends on your specific plan.",
       badges: [
         { plan: "Original Medicare", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
@@ -5682,8 +5682,8 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% after $257 Part B deductible; you pay 20% coinsurance" },
-      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers 100% after $1,676 Part A deductible for the benefit period" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% after $283 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers 100% after $1,736 Part A deductible for the benefit period" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
     ],
@@ -5717,7 +5717,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Biopsies performed at a dentist's office (dental services are excluded)",
           "Elective biopsies with no documented medical necessity",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Part A: You pay $0 after the $1,676 per-benefit-period deductible for days 1\u201360 of a hospital stay.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Part A: You pay $0 after the $1,736 per-benefit-period deductible for days 1\u201360 of a hospital stay.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -5754,7 +5754,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to pay the out-of-pocket costs that Original Medicare leaves behind \u2014 including the 20% Part B coinsurance and the Part A deductible. Because Medicare covers biopsies, Medigap can significantly reduce or eliminate what you owe.",
-          "For example, [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $257 deductible for the year, Plan G would cover the remaining 20% of your biopsy costs. Unlike Medicare Advantage, Medigap plans have no provider networks \u2014 any doctor who accepts Medicare will also accept your Medigap plan.",
+          "For example, [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G would cover the remaining 20% of your biopsy costs. Unlike Medicare Advantage, Medigap plans have no provider networks \u2014 any doctor who accepts Medicare will also accept your Medigap plan.",
         ],
         whatItCovers: [
           "Part B coinsurance (20%) \u2014 covered by most Medigap plans",
@@ -5766,7 +5766,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Services not covered by Original Medicare",
           "Dental biopsies performed at a dentist's office",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for a biopsy is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for a biopsy is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
       },
     ],
     costTable: {
@@ -5777,25 +5777,25 @@ export const coverageArticles: CoverageArticleData[] = [
           "Biopsy Setting": "Doctor's office / outpatient clinic",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only (first time per year)",
         },
         {
           "Biopsy Setting": "Ambulatory surgery center",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only (first time per year)",
         },
         {
           "Biopsy Setting": "Hospital inpatient (days 1\u201360)",
           "Medicare Part": "Part A",
           "What Medicare Pays": "100% after deductible",
-          "Your Cost (No Supplement)": "$1,676 per benefit period",
+          "Your Cost (No Supplement)": "$1,736 per benefit period",
           "Your Cost (With Plan G)": "$0 (Plan G covers Part A deductible)",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Part A deductible: $1,676 per benefit period. Actual costs vary by provider and location.",
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Part A deductible: $1,736 per benefit period. Actual costs vary by provider and location.",
     },
     exceptionsSection: {
       title: "Important: Biopsies Must Be Medically Necessary",
@@ -5841,8 +5841,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Original Medicare</strong> covers medically necessary biopsies under Part A or Part B" },
       { icon: "check", text: "<strong>Medicare Advantage</strong> must cover the same biopsies as Original Medicare" },
       { icon: "alert", text: "<strong>Medigap</strong> can cover the 20% coinsurance \u2014 Plan G is a popular choice" },
-      { icon: "dollar", text: "Part B cost: 20% coinsurance after <strong>$257 deductible</strong> (2026)" },
-      { icon: "dollar", text: "Part A cost: <strong>$0</strong> after $1,676 per-benefit-period deductible (days 1\u201360)" },
+      { icon: "dollar", text: "Part B cost: 20% coinsurance after <strong>$283 deductible</strong> (2026)" },
+      { icon: "dollar", text: "Part A cost: <strong>$0</strong> after $1,736 per-benefit-period deductible (days 1\u201360)" },
       { icon: "info", text: "Biopsy must be ordered by a Medicare-participating provider to be covered" },
     ],
     relatedTopics: [
@@ -5891,7 +5891,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "7 min read",
     quickAnswer: {
-      text: "Yes, Medicare Part B covers echocardiograms when a doctor orders them as medically necessary. Echocardiograms are not a routine preventive service under Medicare, so your doctor must document a clinical reason for the test. Once you meet your $257 Part B deductible, you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%, leaving you with little or no out-of-pocket cost.",
+      text: "Yes, Medicare Part B covers echocardiograms when a doctor orders them as medically necessary. Echocardiograms are not a routine preventive service under Medicare, so your doctor must document a clinical reason for the test. Once you meet your $283 Part B deductible, you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%, leaving you with little or no out-of-pocket cost.",
       badges: [
         { plan: "Original Medicare", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
@@ -5899,7 +5899,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% after $283 Part B deductible; you pay 20% coinsurance" },
       { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covered when performed during a qualifying hospital inpatient stay" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Part B" },
@@ -5914,7 +5914,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covered when medically necessary",
         paragraphs: [
           "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers echocardiograms when a physician orders the test because it is [medically necessary](/faqs/what-does-medically-necessary-mean) \u2014 for example, to investigate chest pain, diagnose heart disease, or monitor a known cardiac condition. Echocardiograms are not included in the annual wellness visit and are not a preventive screening benefit.",
-          "**Medicare Part B** covers outpatient echocardiograms performed at a doctor's office, outpatient hospital department, or cardiac imaging center. After you meet the annual Part B deductible ($257 in 2026), Medicare pays 80% of the Medicare-approved amount and you pay the remaining 20%. If you are a hospital inpatient and receive an echocardiogram during that stay, **Medicare Part A** applies instead.",
+          "**Medicare Part B** covers outpatient echocardiograms performed at a doctor's office, outpatient hospital department, or cardiac imaging center. After you meet the annual Part B deductible ($283 in 2026), Medicare pays 80% of the Medicare-approved amount and you pay the remaining 20%. If you are a hospital inpatient and receive an echocardiogram during that stay, **Medicare Part A** applies instead.",
           "Medicare also covers one screening **EKG (electrocardiogram)** in your lifetime \u2014 but only when ordered as part of your [Welcome to Medicare preventive visit](/faqs/medicare-preventive-services) within the first 12 months of enrollment. Any additional EKGs must be medically necessary to receive Part B coverage.",
         ],
         whatItCovers: [
@@ -5931,7 +5931,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Echocardiograms ordered by a provider who does not accept Medicare",
           "Repeated EKGs without medical necessity documentation",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). The average cost of an EKG is approximately $205; Medicare pays 80% after your deductible.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). The average cost of an EKG is approximately $205; Medicare pays 80% after your deductible.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -5968,7 +5968,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind. Because Medicare Part B covers echocardiograms, a Medigap plan can cover the 20% coinsurance \u2014 and in some cases the Part B deductible as well \u2014 significantly reducing what you owe.",
-          "With [Medigap Plan G](/faqs/medicare-supplement-plan-g), for example, you pay only the $257 annual Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all Medicare-approved services, including echocardiograms, EKGs, and other cardiac tests. Medigap plans have no provider networks, so any cardiologist who accepts Medicare will also accept your Medigap plan.",
+          "With [Medigap Plan G](/faqs/medicare-supplement-plan-g), for example, you pay only the $283 annual Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all Medicare-approved services, including echocardiograms, EKGs, and other cardiac tests. Medigap plans have no provider networks, so any cardiologist who accepts Medicare will also accept your Medigap plan.",
         ],
         whatItCovers: [
           "Part B coinsurance (20%) \u2014 covered by most Medigap plans",
@@ -5976,7 +5976,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Part B deductible \u2014 covered by Plan C and Plan F (for those eligible before Jan 1, 2020)",
           "Excess charges \u2014 covered by Plans F and G",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for an echocardiogram is the $257 Part B deductible per year (2026). After that, Plan G covers the 20% coinsurance.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for an echocardiogram is the $283 Part B deductible per year (2026). After that, Plan G covers the 20% coinsurance.",
       },
     ],
     costTable: {
@@ -6010,8 +6010,8 @@ export const coverageArticles: CoverageArticleData[] = [
         },
         {
           "Feature": "Typical Medicare cost (2026)",
-          "Echocardiogram": "20% coinsurance after $257 Part B deductible",
-          "EKG (Electrocardiogram)": "20% coinsurance after $257 Part B deductible (for diagnostic EKGs)",
+          "Echocardiogram": "20% coinsurance after $283 Part B deductible",
+          "EKG (Electrocardiogram)": "20% coinsurance after $283 Part B deductible (for diagnostic EKGs)",
         },
       ],
       footnote: "Both tests are considered non-invasive cardiac testing. Your doctor may order one or both depending on your symptoms and clinical history.",
@@ -6057,11 +6057,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does an echocardiogram cost with Medicare?",
-        answer: "After you meet your $257 Part B deductible (2026), Medicare pays 80% of the Medicare-approved amount for the echocardiogram, and you pay the remaining 20%. The actual dollar amount depends on the type of echocardiogram and where it is performed. A Medigap plan (such as Plan G) can cover that 20%, leaving you responsible only for the annual deductible.",
+        answer: "After you meet your $283 Part B deductible (2026), Medicare pays 80% of the Medicare-approved amount for the echocardiogram, and you pay the remaining 20%. The actual dollar amount depends on the type of echocardiogram and where it is performed. A Medigap plan (such as Plan G) can cover that 20%, leaving you responsible only for the annual deductible.",
       },
       {
         question: "How much does an EKG cost with Medicare?",
-        answer: "The average cost of an EKG is approximately $205. After meeting your $257 Part B deductible, Medicare covers 80% of the approved amount and you pay 20%. For the one-time screening EKG at your Welcome to Medicare visit, there is no cost to you \u2014 Medicare covers it in full.",
+        answer: "The average cost of an EKG is approximately $205. After meeting your $283 Part B deductible, Medicare covers 80% of the approved amount and you pay 20%. For the one-time screening EKG at your Welcome to Medicare visit, there is no cost to you \u2014 Medicare covers it in full.",
       },
       {
         question: "Does Medicare cover heart scans?",
@@ -6084,7 +6084,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Original Medicare Part B</strong> covers echocardiograms when medically necessary" },
       { icon: "check", text: "One free <strong>screening EKG</strong> at your Welcome to Medicare visit" },
       { icon: "alert", text: "Routine echocardiograms <strong>without medical necessity</strong> are not covered" },
-      { icon: "dollar", text: "Your cost: 20% coinsurance after <strong>$257 Part B deductible</strong> (2026)" },
+      { icon: "dollar", text: "Your cost: 20% coinsurance after <strong>$283 Part B deductible</strong> (2026)" },
       { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance \u2014 you pay only the deductible" },
       { icon: "info", text: "Medicare Advantage must cover the same cardiac tests as Original Medicare" },
     ],
@@ -6134,7 +6134,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "8 min read",
     quickAnswer: {
-      text: "Yes, Medicare covers anesthesia for medically necessary procedures. Medicare Part B covers most anesthesia services, including general anesthesia, local anesthetics, and sedation for outpatient procedures (you pay 20% coinsurance after the $257 deductible). Medicare Part A covers anesthesia during inpatient hospital stays (you pay nothing after the $1,676 deductible for days 1\u201360). Medicare pays 100% for anesthesia during preventive screening colonoscopies with no cost to you.",
+      text: "Yes, Medicare covers anesthesia for medically necessary procedures. Medicare Part B covers most anesthesia services, including general anesthesia, local anesthetics, and sedation for outpatient procedures (you pay 20% coinsurance after the $283 deductible). Medicare Part A covers anesthesia during inpatient hospital stays (you pay nothing after the $1,736 deductible for days 1\u201360). Medicare pays 100% for anesthesia during preventive screening colonoscopies with no cost to you.",
       badges: [
         { plan: "Original Medicare", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
@@ -6142,8 +6142,8 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% of anesthesia costs after $257 Part B deductible; you pay 20% coinsurance" },
-      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers anesthesia during hospital stays after $1,676 Part A deductible for the benefit period" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% of anesthesia costs after $283 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers anesthesia during hospital stays after $1,736 Part A deductible for the benefit period" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same anesthesia services as Original Medicare; cost-sharing varies by plan and network" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
     ],
@@ -6182,7 +6182,7 @@ export const coverageArticles: CoverageArticleData[] = [
           title: "Screening Colonoscopy Anesthesia Is Free",
           text: "Medicare pays 100% of anesthesia costs for preventive screening colonoscopies. There is no deductible or coinsurance for this service.",
         },
-        costNote: "For most outpatient procedures, you pay 20% of the Medicare-approved amount for anesthesia after your $257 Part B deductible (2026). For inpatient procedures, anesthesia is included in your Part A hospital coverage.",
+        costNote: "For most outpatient procedures, you pay 20% of the Medicare-approved amount for anesthesia after your $283 Part B deductible (2026). For inpatient procedures, anesthesia is included in your Part A hospital coverage.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -6219,7 +6219,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers your share of anesthesia costs",
         paragraphs: [
           "A [Medicare Supplement (Medigap) plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) works alongside Original Medicare to cover some or all of your out-of-pocket costs for anesthesia. Since anesthesia billing can be complex and expensive, especially for lengthy surgeries, Medigap can provide significant financial protection.",
-          "For example, if your anesthesiologist bills $1,000 for a procedure, Medicare Part B pays 80% ($800). Without supplemental coverage, you owe the remaining $200. With a Medigap plan like Plan G, your plan covers that 20% coinsurance, so your only cost is the $257 annual Part B deductible.",
+          "For example, if your anesthesiologist bills $1,000 for a procedure, Medicare Part B pays 80% ($800). Without supplemental coverage, you owe the remaining $200. With a Medigap plan like Plan G, your plan covers that 20% coinsurance, so your only cost is the $283 annual Part B deductible.",
         ],
         whatItCovers: [
           "Part B coinsurance (20%) for outpatient anesthesia",
@@ -6231,7 +6231,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Services not covered by Original Medicare",
           "Anesthesia for cosmetic or elective procedures",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for anesthesia is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all Medicare-approved anesthesia services.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for anesthesia is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all Medicare-approved anesthesia services.",
       },
     ],
     costTable: {
@@ -6249,25 +6249,25 @@ export const coverageArticles: CoverageArticleData[] = [
           "Procedure Type": "Outpatient surgery (e.g., cataract, biopsy)",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only (first time per year)",
         },
         {
           "Procedure Type": "Endoscopy / diagnostic procedure",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only (first time per year)",
         },
         {
           "Procedure Type": "Inpatient hospital surgery (days 1\u201360)",
           "Medicare Part": "Part A",
           "What Medicare Pays": "100% after deductible",
-          "Your Cost (No Supplement)": "$1,676 per benefit period",
+          "Your Cost (No Supplement)": "$1,736 per benefit period",
           "Your Cost (With Plan G)": "$0 (Plan G covers Part A deductible)",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Part A deductible: $1,676 per benefit period. Anesthesia billing uses a conversion factor formula based on procedure complexity, time, and location.",
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Part A deductible: $1,736 per benefit period. Anesthesia billing uses a conversion factor formula based on procedure complexity, time, and location.",
     },
     exceptionsSection: {
       title: "Important: When Medicare Does NOT Cover Anesthesia",
@@ -6311,7 +6311,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare cover anesthesia for colonoscopy?",
-        answer: "Yes. Medicare pays 100% of anesthesia costs for preventive screening [colonoscopies](/faqs/medicare-coverage-for-colonoscopy-screenings) with no deductible or coinsurance. For diagnostic colonoscopies (when you have symptoms or a history of polyps), standard Part B cost-sharing applies: Medicare pays 80% and you pay 20% after your $257 deductible.",
+        answer: "Yes. Medicare pays 100% of anesthesia costs for preventive screening [colonoscopies](/faqs/medicare-coverage-for-colonoscopy-screenings) with no deductible or coinsurance. For diagnostic colonoscopies (when you have symptoms or a history of polyps), standard Part B cost-sharing applies: Medicare pays 80% and you pay 20% after your $283 deductible.",
       },
       {
         question: "Does Medicare cover anesthesia for cataract surgery?",
@@ -6323,7 +6323,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare cover anesthesia for endoscopy?",
-        answer: "Yes. Medicare Part B covers anesthesia for medically necessary endoscopy procedures. You pay 20% coinsurance after your $257 Part B deductible. For further coverage, a Medigap plan can cover the remaining coinsurance.",
+        answer: "Yes. Medicare Part B covers anesthesia for medically necessary endoscopy procedures. You pay 20% coinsurance after your $283 Part B deductible. For further coverage, a Medigap plan can cover the remaining coinsurance.",
       },
       {
         question: "Does Medicare cover anesthesia for pain management?",
@@ -6335,7 +6335,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does general anesthesia cost with Medicare?",
-        answer: "Anesthesia costs vary based on the procedure's complexity, duration, and your location. With Original Medicare alone, you pay 20% of the Medicare-approved amount after your $257 Part B deductible. With a Medigap Plan G, your only cost is the annual deductible. For example, if anesthesia is billed at $1,000, Medicare pays $800 and Plan G covers the remaining $200.",
+        answer: "Anesthesia costs vary based on the procedure's complexity, duration, and your location. With Original Medicare alone, you pay 20% of the Medicare-approved amount after your $283 Part B deductible. With a Medigap Plan G, your only cost is the annual deductible. For example, if anesthesia is billed at $1,000, Medicare pays $800 and Plan G covers the remaining $200.",
       },
     ],
     quickReference: [
@@ -6344,7 +6344,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Medicare Advantage</strong> must cover the same anesthesia services as Original Medicare" },
       { icon: "alert", text: "<strong>Medigap</strong> can cover the 20% coinsurance for outpatient anesthesia" },
       { icon: "x", text: "Medicare does <strong>not</strong> cover anesthesia for cosmetic, elective, or most dental procedures" },
-      { icon: "dollar", text: "Part B cost: 20% coinsurance after <strong>$257 deductible</strong> (2026)" },
+      { icon: "dollar", text: "Part B cost: 20% coinsurance after <strong>$283 deductible</strong> (2026)" },
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Surgery?", description: "Learn which surgeries Medicare covers and what you can expect to pay.", slug: "will-medicare-cover-my-surgery" },
@@ -6466,7 +6466,7 @@ export const coverageArticles: CoverageArticleData[] = [
           title: "Pulmonary Rehab Coverage",
           text: "Medicare Part B covers outpatient pulmonary rehabilitation for chronic conditions including asthma, COPD, cystic fibrosis, emphysema, pulmonary fibrosis, sarcoidosis, and post-lung resection recovery.",
         },
-        costNote: "For nebulizers and pulmonary rehab, you pay 20% of the Medicare-approved amount after your $257 Part B deductible (2026).",
+        costNote: "For nebulizers and pulmonary rehab, you pay 20% of the Medicare-approved amount after your $283 Part B deductible (2026).",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -6592,7 +6592,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare cover nebulizers for asthma?",
-        answer: "Yes. Medicare Part B covers [nebulizer machines](/faqs/will-medicare-pay-for-a-nebulizer-machine) as durable medical equipment (DME) when prescribed by your doctor. Part B also covers the medications used in the nebulizer. You pay 20% of the Medicare-approved amount after your $257 Part B deductible.",
+        answer: "Yes. Medicare Part B covers [nebulizer machines](/faqs/will-medicare-pay-for-a-nebulizer-machine) as durable medical equipment (DME) when prescribed by your doctor. Part B also covers the medications used in the nebulizer. You pay 20% of the Medicare-approved amount after your $283 Part B deductible.",
       },
       {
         question: "What pulmonary treatments does Medicare cover?",
@@ -6693,7 +6693,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Routine checkups not related to AFib diagnosis",
           "Experimental or non-FDA-approved AFib treatments",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Part A: You pay $0 after the $1,676 per-benefit-period deductible for days 1–60 of a hospital stay.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Part A: You pay $0 after the $1,736 per-benefit-period deductible for days 1–60 of a hospital stay.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -6732,7 +6732,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance and the Part A deductible. For AFib patients who may need multiple procedures and frequent specialist visits, Medigap can provide significant financial protection.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) is the most popular option for AFib patients. It covers all Medicare-approved costs except the Part B deductible ($257 in 2026). Unlike Medicare Advantage, Medigap has no provider networks — any doctor who accepts Medicare will also accept your Medigap plan.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) is the most popular option for AFib patients. It covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Unlike Medicare Advantage, Medigap has no provider networks — any doctor who accepts Medicare will also accept your Medigap plan.",
           "**Important:** If you are diagnosed with AFib before enrolling in Medicare, you can still get a Medigap plan — but only during your Open Enrollment Period or when you have a guaranteed issue right. Outside these windows, insurers can deny coverage or charge higher premiums due to your pre-existing condition.",
         ],
         whatItCovers: [
@@ -6745,7 +6745,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Prescription drugs — you need a separate Part D plan",
           "Dental, vision, or hearing benefits",
         ],
-        costNote: "Plan G covers all Medicare-approved costs except the Part B deductible ($257 in 2026). Monthly premiums vary by age, location, and insurer.",
+        costNote: "Plan G covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Monthly premiums vary by age, location, and insurer.",
       },
     ],
     costTable: {
@@ -6755,7 +6755,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Procedure": "EKG (outpatient)", "Medicare Part": "Part B", "Without Supplement": "~$20–$40 (20% of approved amount)", "With Plan G": "$0 after Part B deductible" },
         { "Procedure": "Cardioversion (outpatient)", "Medicare Part": "Part B", "Without Supplement": "~$200–$400 (20% of approved amount)", "With Plan G": "$0 after Part B deductible" },
         { "Procedure": "Catheter ablation", "Medicare Part": "Part A or B", "Without Supplement": "$3,200–$4,400 (20% of $16K–$22K)", "With Plan G": "$0 after Part B deductible" },
-        { "Procedure": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,676 deductible per benefit period", "With Plan G": "$0" },
+        { "Procedure": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible per benefit period", "With Plan G": "$0" },
         { "Procedure": "Eliquis (monthly)", "Medicare Part": "Part D", "Without Supplement": "$0–$47 (varies by plan tier)", "With Plan G": "Part D plan required (separate)" },
       ],
     },
@@ -7153,7 +7153,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Custodial care or long-term care",
           "Dental, vision, or hearing services",
         ],
-        costNote: "For outpatient dialysis, you pay 20% coinsurance after your Part B deductible. For inpatient stays, the $1,676 Part A deductible applies per benefit period. Without supplemental coverage, dialysis costs can be substantial.",
+        costNote: "For outpatient dialysis, you pay 20% coinsurance after your Part B deductible. For inpatient stays, the $1,736 Part A deductible applies per benefit period. Without supplemental coverage, dialysis costs can be substantial.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -7212,10 +7212,10 @@ export const coverageArticles: CoverageArticleData[] = [
       headers: ["Service", "Medicare Part", "Without Supplement", "With Plan G"],
       rows: [
         { "Service": "Outpatient dialysis (per session)", "Medicare Part": "Part B", "Without Supplement": "~$60–$80 (20% of bundled rate)", "With Plan G": "$0 after Part B deductible" },
-        { "Service": "Kidney transplant (inpatient)", "Medicare Part": "Part A", "Without Supplement": "$1,676 deductible per benefit period", "With Plan G": "$0" },
+        { "Service": "Kidney transplant (inpatient)", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible per benefit period", "With Plan G": "$0" },
         { "Service": "Home dialysis equipment", "Medicare Part": "Part B", "Without Supplement": "20% coinsurance", "With Plan G": "$0 after Part B deductible" },
         { "Service": "Immunosuppressive drugs (post-transplant)", "Medicare Part": "Part B", "Without Supplement": "20% after Part B deductible", "With Plan G": "$0 after Part B deductible" },
-        { "Service": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,676 deductible + $419/day (days 61–90)", "With Plan G": "$0" },
+        { "Service": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible + $419/day (days 61–90)", "With Plan G": "$0" },
       ],
     },
     exceptionsSection: {
@@ -7382,7 +7382,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Hair removal procedures",
           "Breast augmentation for cosmetic reasons (male-to-female transition)",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Part A: You pay $0 after the $1,676 per-benefit-period deductible for days 1–60 of a hospital stay.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Part A: You pay $0 after the $1,736 per-benefit-period deductible for days 1–60 of a hospital stay.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -7421,7 +7421,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers Original Medicare cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance and the Part A deductible. For gender-affirming surgery, Medigap can significantly reduce or eliminate what you owe.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers all Medicare-approved costs except the Part B deductible ($257 in 2026). Unlike Medicare Advantage, Medigap plans have no provider networks — any doctor who accepts Medicare will also accept your Medigap plan.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Unlike Medicare Advantage, Medigap plans have no provider networks — any doctor who accepts Medicare will also accept your Medigap plan.",
         ],
         whatItCovers: [
           "Part A hospital deductible and coinsurance for inpatient gender-affirming surgery",
@@ -7432,7 +7432,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Prescription drugs including hormone therapy — you need a separate Part D plan",
           "Procedures not covered by Original Medicare (cosmetic)",
         ],
-        costNote: "Plan G covers all Medicare-approved costs except the Part B deductible ($257 in 2026). Monthly premiums vary by age, location, and insurer.",
+        costNote: "Plan G covers all Medicare-approved costs except the Part B deductible ($283 in 2026). Monthly premiums vary by age, location, and insurer.",
       },
     ],
     costTable: {
@@ -7798,7 +7798,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% of infusion cost after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% of infusion cost after $283 Part B deductible; you pay 20% coinsurance" },
       { planType: "Medicare Part A (Inpatient)", coverage: "Not Covered", icon: "x", notes: "Leqembi is an outpatient infusion — Part A does not apply" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Part B" },
@@ -7829,7 +7829,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Treatment outside of a qualifying registry or clinical study (prior to full CMS approval)",
           "Self-administered Alzheimer's medications (covered under Part D instead)",
         ],
-        costNote: "Leqembi costs approximately $26,500/year. With Part B, you pay 20% coinsurance (~$5,300/year) after the $257 annual deductible. Medigap Plan G would cover the 20%, leaving only the $257 deductible.",
+        costNote: "Leqembi costs approximately $26,500/year. With Part B, you pay 20% coinsurance (~$5,300/year) after the $283 annual deductible. Medigap Plan G would cover the 20%, leaving only the $283 deductible.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -7866,7 +7866,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can dramatically reduce the out-of-pocket cost of Leqembi treatment. Because Leqembi is covered by Part B, Medigap plans that cover Part B coinsurance will pay the 20% that Original Medicare leaves behind.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) is the most comprehensive plan available to new Medicare enrollees. After you pay the $257 annual Part B deductible, Plan G covers 100% of the Part B coinsurance — meaning your annual Leqembi cost could be as low as $257 instead of over $5,000.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) is the most comprehensive plan available to new Medicare enrollees. After you pay the $283 annual Part B deductible, Plan G covers 100% of the Part B coinsurance — meaning your annual Leqembi cost could be as low as $283 instead of over $5,000.",
         ],
         whatItCovers: [
           "Part B coinsurance (20%) — covered by most Medigap plans",
@@ -7877,7 +7877,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Services not covered by Original Medicare",
           "Part D prescription drugs (Medigap does not cover Part D)",
         ],
-        costNote: "With Medigap Plan G, your annual out-of-pocket cost for Leqembi infusions is just the $257 Part B deductible. Without a supplement, you could owe over $5,000 per year in coinsurance.",
+        costNote: "With Medigap Plan G, your annual out-of-pocket cost for Leqembi infusions is just the $283 Part B deductible. Without a supplement, you could owe over $5,000 per year in coinsurance.",
       },
     ],
     costTable: {
@@ -7888,7 +7888,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Cost Item": "Leqembi drug cost (list price)",
           "Annual Amount": "~$26,500/year",
           "Your Cost (No Supplement)": "20% coinsurance = ~$5,300/year",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Cost Item": "Amyloid PET scan (initial diagnosis)",
@@ -7909,7 +7909,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Your Cost (With Plan G)": "$0 after deductible",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Leqembi list price is approximately $26,500/year as of 2026. Part B deductible: $257/year. Actual costs vary by provider and location.",
+      footnote: "Costs based on 2026 Medicare figures. Leqembi list price is approximately $26,500/year as of 2026. Part B deductible: $283/year. Actual costs vary by provider and location.",
     },
     exceptionsSection: {
       title: "Eligibility Requirements for Medicare Coverage of Leqembi",
@@ -7928,11 +7928,11 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare cover Leqembi?",
-        answer: "Yes. Medicare Part B covers Leqembi for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria, including confirmed amyloid pathology and treatment through a qualifying registry. You pay 20% coinsurance after the $257 Part B deductible.",
+        answer: "Yes. Medicare Part B covers Leqembi for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria, including confirmed amyloid pathology and treatment through a qualifying registry. You pay 20% coinsurance after the $283 Part B deductible.",
       },
       {
         question: "How much does Leqembi cost with Medicare?",
-        answer: "Leqembi's list price is approximately $26,500 per year. With Medicare Part B, you pay 20% coinsurance, which is about $5,300 per year, plus the $257 annual Part B deductible. With a Medigap Plan G, your cost drops to just the $257 deductible per year.",
+        answer: "Leqembi's list price is approximately $26,500 per year. With Medicare Part B, you pay 20% coinsurance, which is about $5,300 per year, plus the $283 annual Part B deductible. With a Medigap Plan G, your cost drops to just the $283 deductible per year.",
       },
       {
         question: "Does Medicare cover the amyloid PET scan needed to qualify for Leqembi?",
@@ -7956,7 +7956,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "Confirmed <strong>amyloid pathology</strong> (PET scan or CSF test) is required to qualify" },
       { icon: "alert", text: "Treatment must occur through a <strong>qualifying registry</strong> or CMS-approved study" },
       { icon: "dollar", text: "Drug costs ~$26,500/year; your 20% coinsurance = <strong>~$5,300/year</strong> without a supplement" },
-      { icon: "dollar", text: "With <strong>Medigap Plan G</strong>, your cost drops to just the $257 Part B deductible" },
+      { icon: "dollar", text: "With <strong>Medigap Plan G</strong>, your cost drops to just the $283 Part B deductible" },
       { icon: "info", text: "Medicare Advantage plans must cover Leqembi — <strong>prior authorization</strong> may be required" },
     ],
     relatedTopics: [
@@ -8005,7 +8005,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "Yes, Medicare Part B covers medically necessary macular degeneration treatments. This includes anti-VEGF injections (such as Eylea, Lucentis, and Avastin), laser photocoagulation, and photodynamic therapy (PDT). Routine eye exams and eyeglasses are not covered by Original Medicare, but treatments for diagnosed eye diseases are. You pay 20% coinsurance after the $257 Part B deductible.",
+      text: "Yes, Medicare Part B covers medically necessary macular degeneration treatments. This includes anti-VEGF injections (such as Eylea, Lucentis, and Avastin), laser photocoagulation, and photodynamic therapy (PDT). Routine eye exams and eyeglasses are not covered by Original Medicare, but treatments for diagnosed eye diseases are. You pay 20% coinsurance after the $283 Part B deductible.",
       badges: [
         { plan: "Medicare Part B", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
@@ -8013,7 +8013,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers anti-VEGF injections, laser therapy, PDT — 80% after $257 deductible" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers anti-VEGF injections, laser therapy, PDT — 80% after $283 deductible" },
       { planType: "Medicare Part A (Inpatient)", coverage: "Limited", icon: "shield", notes: "Covers treatment if performed during a qualifying hospital inpatient stay" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; may include extra vision benefits" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Part B" },
@@ -8046,7 +8046,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Dry AMD treatments (no FDA-approved treatment currently exists)",
           "Vitamins or supplements (such as AREDS2 formula)",
         ],
-        costNote: "Part B covers 80% of the Medicare-approved amount for anti-VEGF injections. You pay 20% coinsurance after the $257 annual deductible. Anti-VEGF injections can cost $1,000–$2,000 per injection, meaning your 20% share could be $200–$400 per injection without a supplement.",
+        costNote: "Part B covers 80% of the Medicare-approved amount for anti-VEGF injections. You pay 20% coinsurance after the $283 annual deductible. Anti-VEGF injections can cost $1,000–$2,000 per injection, meaning your 20% share could be $200–$400 per injection without a supplement.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -8084,7 +8084,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can significantly reduce the cost of ongoing macular degeneration treatment. Because anti-VEGF injections can be needed every 4–8 weeks, the 20% Part B coinsurance adds up quickly over the course of a year.",
-          "With [Medigap Plan G](/faqs/medicare-supplement-plan-g), after paying the $257 annual Part B deductible, you pay nothing for covered macular degeneration treatments. This can save hundreds or even thousands of dollars per year for patients receiving regular injections.",
+          "With [Medigap Plan G](/faqs/medicare-supplement-plan-g), after paying the $283 annual Part B deductible, you pay nothing for covered macular degeneration treatments. This can save hundreds or even thousands of dollars per year for patients receiving regular injections.",
         ],
         whatItCovers: [
           "Part B coinsurance (20%) — covered by most Medigap plans",
@@ -8096,7 +8096,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Eyeglasses or contact lenses",
           "Dry AMD supplements (AREDS2 vitamins)",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for anti-VEGF injections is the $257 annual Part B deductible. Without a supplement, you could pay $200–$400 per injection in coinsurance.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for anti-VEGF injections is the $283 annual Part B deductible. Without a supplement, you could pay $200–$400 per injection in coinsurance.",
       },
     ],
     costTable: {
@@ -8107,28 +8107,28 @@ export const coverageArticles: CoverageArticleData[] = [
           "Treatment": "Anti-VEGF injection (Eylea, Lucentis)",
           "Frequency": "Every 4–8 weeks",
           "Your Cost (No Supplement)": "~$200–$400 per injection (20% coinsurance)",
-          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+          "Your Cost (With Plan G)": "$0 after $283 annual deductible",
         },
         {
           "Treatment": "Anti-VEGF injection (Avastin, off-label)",
           "Frequency": "Every 4–8 weeks",
           "Your Cost (No Supplement)": "~$10–$30 per injection (20% coinsurance)",
-          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+          "Your Cost (With Plan G)": "$0 after $283 annual deductible",
         },
         {
           "Treatment": "OCT scan (monitoring)",
           "Frequency": "Every 1–3 months",
           "Your Cost (No Supplement)": "20% coinsurance after deductible",
-          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+          "Your Cost (With Plan G)": "$0 after $283 annual deductible",
         },
         {
           "Treatment": "Photodynamic therapy (PDT)",
           "Frequency": "As needed",
           "Your Cost (No Supplement)": "20% coinsurance after deductible",
-          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+          "Your Cost (With Plan G)": "$0 after $283 annual deductible",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Anti-VEGF injection costs vary significantly by drug. Avastin is used off-label and costs significantly less than Eylea or Lucentis.",
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Anti-VEGF injection costs vary significantly by drug. Avastin is used off-label and costs significantly less than Eylea or Lucentis.",
     },
     exceptionsSection: {
       title: "What Medicare Does Not Cover for Eye Conditions",
@@ -8147,7 +8147,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare cover eye injections for macular degeneration?",
-        answer: "Yes. Medicare Part B covers anti-VEGF eye injections for wet macular degeneration, including Eylea, Lucentis, Avastin (off-label), Beovu, and Vabysmo. These are physician-administered drugs covered under Part B, not Part D. You pay 20% coinsurance after the $257 annual deductible.",
+        answer: "Yes. Medicare Part B covers anti-VEGF eye injections for wet macular degeneration, including Eylea, Lucentis, Avastin (off-label), Beovu, and Vabysmo. These are physician-administered drugs covered under Part B, not Part D. You pay 20% coinsurance after the $283 annual deductible.",
       },
       {
         question: "Does Medicare cover Eylea injections?",
@@ -8174,8 +8174,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Medicare Part B</strong> covers anti-VEGF injections, laser therapy, and PDT for macular degeneration" },
       { icon: "check", text: "Diagnostic imaging (OCT scans, fluorescein angiography) is <strong>covered</strong> when medically necessary" },
       { icon: "x", text: "<strong>Routine eye exams</strong> and eyeglasses are NOT covered by Original Medicare" },
-      { icon: "dollar", text: "Anti-VEGF injections: you pay <strong>20% coinsurance</strong> after the $257 annual deductible" },
-      { icon: "dollar", text: "With <strong>Medigap Plan G</strong>, your cost is just the $257 deductible per year" },
+      { icon: "dollar", text: "Anti-VEGF injections: you pay <strong>20% coinsurance</strong> after the $283 annual deductible" },
+      { icon: "dollar", text: "With <strong>Medigap Plan G</strong>, your cost is just the $283 deductible per year" },
       { icon: "info", text: "Medicare Advantage plans may include <strong>supplemental vision benefits</strong> for routine exams and glasses" },
     ],
     relatedTopics: [
@@ -8261,7 +8261,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Nutritional supplements like Ensure or Boost",
           "Meal preparation assistance at home",
         ],
-        costNote: "Meals during a hospital stay are included in the Part A benefit — you pay the $1,676 per-benefit-period deductible for days 1–60, then $0 for meals specifically. Home meal delivery has no Medicare coverage.",
+        costNote: "Meals during a hospital stay are included in the Part A benefit — you pay the $1,736 per-benefit-period deductible for days 1–60, then $0 for meals specifically. Home meal delivery has no Medicare coverage.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -8703,7 +8703,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Weight loss programs (unless you have diabetes or kidney disease)",
           "MNT provided by a provider who does not accept Medicare assignment",
         ],
-        costNote: "MNT is covered at 100% — you pay $0 for covered sessions. The Part B deductible ($257 in 2026) does not apply to MNT. This is one of the most generous Medicare benefits available.",
+        costNote: "MNT is covered at 100% — you pay $0 for covered sessions. The Part B deductible ($283 in 2026) does not apply to MNT. This is one of the most generous Medicare benefits available.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -10683,7 +10683,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Emergency)", coverage: "Covered", icon: "shield", notes: "80% after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part B (Emergency)", coverage: "Covered", icon: "shield", notes: "80% after $283 Part B deductible; you pay 20% coinsurance" },
       { planType: "Medicare Part B (Non-Emergency)", coverage: "Covered with Conditions", icon: "shield", notes: "Requires physician certification that other transport would endanger health" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
@@ -10714,7 +10714,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Transport that is not to a Medicare-approved facility",
           "Ambulance services from a non-participating provider (unless emergency)",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Average ground ambulance cost is $400–$1,200; air ambulance can exceed $30,000 — making Medigap coverage especially valuable.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Average ground ambulance cost is $400–$1,200; air ambulance can exceed $30,000 — making Medigap coverage especially valuable.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -10751,7 +10751,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to cover the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance for ambulance services. Given that air ambulance bills can exceed $30,000, Medigap coverage can be particularly valuable.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $257 deductible for the year, Plan G covers your 20% share of any covered ambulance bill — whether it's a $500 ground transport or a $25,000 air ambulance.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual Part B deductible. That means once you've paid your $283 deductible for the year, Plan G covers your 20% share of any covered ambulance bill — whether it's a $500 ground transport or a $25,000 air ambulance.",
         ],
         whatItCovers: [
           "Part B coinsurance (20%) — covered by most Medigap plans",
@@ -10762,7 +10762,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Services not covered by Original Medicare",
           "Non-emergency transport without physician certification",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for ambulance is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance — even for expensive air ambulance transport.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for ambulance is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance — even for expensive air ambulance transport.",
       },
     ],
     costTable: {
@@ -10773,25 +10773,25 @@ export const coverageArticles: CoverageArticleData[] = [
           "Transport Type": "Ground ambulance (emergency)",
           "Typical Bill": "$400 – $1,200",
           "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Transport Type": "Ground ambulance (non-emergency)",
           "Typical Bill": "$300 – $800",
           "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Transport Type": "Air ambulance (helicopter)",
           "Typical Bill": "$10,000 – $40,000+",
           "Medicare Pays": "80% of approved amount",
           "Your Cost (No Supplement)": "20% (potentially $2,000–$8,000+)",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Actual ambulance bills vary significantly by location, provider, and distance traveled.",
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual ambulance bills vary significantly by location, provider, and distance traveled.",
     },
     exceptionsSection: {
       title: "When Medicare May Not Cover Ambulance Transport",
@@ -10826,7 +10826,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does an ambulance cost with Medicare?",
-        answer: "With Original Medicare, you pay 20% coinsurance after the $257 Part B deductible. Ground ambulance bills typically range from $400–$1,200, so your share could be $80–$240 after the deductible. Air ambulance bills can exceed $30,000, making your 20% share potentially $6,000 or more. Medigap Plan G covers the 20% coinsurance after the deductible.",
+        answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Ground ambulance bills typically range from $400–$1,200, so your share could be $80–$240 after the deductible. Air ambulance bills can exceed $30,000, making your 20% share potentially $6,000 or more. Medigap Plan G covers the 20% coinsurance after the deductible.",
       },
       {
         question: "Does Medicare cover ambulance transport to dialysis?",
@@ -10838,13 +10838,13 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medigap cover ambulance costs?",
-        answer: "Yes — most Medigap plans cover the 20% Part B coinsurance for ambulance services. Medigap Plan G covers the coinsurance in full after you pay the $257 Part B deductible. This is especially valuable for air ambulance transport, where 20% of a $30,000 bill could be $6,000.",
+        answer: "Yes — most Medigap plans cover the 20% Part B coinsurance for ambulance services. Medigap Plan G covers the coinsurance in full after you pay the $283 Part B deductible. This is especially valuable for air ambulance transport, where 20% of a $30,000 bill could be $6,000.",
       },
     ],
     quickReference: [
       { icon: "check", text: "<strong>Emergency ambulance</strong> is covered by Medicare Part B" },
       { icon: "check", text: "<strong>Non-emergency transport</strong> requires a physician's written order" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 Part B deductible" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible" },
       { icon: "alert", text: "<strong>Air ambulance</strong> can result in large balance bills from non-participating providers" },
       { icon: "info", text: "Medicare only covers transport to the <strong>nearest appropriate facility</strong>" },
       { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
@@ -10903,8 +10903,8 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "80% of approved amount after $257 deductible; you pay 20% coinsurance" },
-      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers 100% after $1,676 per-benefit-period deductible for days 1–60" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "80% of approved amount after $283 deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers 100% after $1,736 per-benefit-period deductible for days 1–60" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
     ],
@@ -10935,7 +10935,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Cosmetic surgery using robotic techniques",
           "Procedures performed by non-Medicare-participating providers",
         ],
-        costNote: "Part B (outpatient): 20% coinsurance after $257 deductible. Part A (inpatient): $0 after $1,676 per-benefit-period deductible for days 1–60.",
+        costNote: "Part B (outpatient): 20% coinsurance after $283 deductible. Part A (inpatient): $0 after $1,736 per-benefit-period deductible for days 1–60.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -10976,14 +10976,14 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         whatItCovers: [
           "Part B coinsurance (20%) — covered by most Medigap plans",
-          "Part A deductible ($1,676) — covered by Plans D, G, and others",
+          "Part A deductible ($1,736) — covered by Plans D, G, and others",
           "Excess charges — covered by Plans F and G",
         ],
         whatItDoesntCover: [
           "Services not covered by Original Medicare",
           "Elective or cosmetic procedures",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for outpatient robotic surgery is the $257 Part B deductible. For inpatient procedures, Plan G covers the $1,676 Part A deductible as well.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for outpatient robotic surgery is the $283 Part B deductible. For inpatient procedures, Plan G covers the $1,736 Part A deductible as well.",
       },
     ],
     exceptionsSection: {
@@ -11014,7 +11014,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does robotic surgery cost with Medicare?",
-        answer: "With Original Medicare, you pay 20% coinsurance after the $257 Part B deductible for outpatient robotic surgery. For inpatient procedures, you pay the $1,676 Part A deductible. Medigap Plan G covers the 20% coinsurance after the deductible, significantly reducing your out-of-pocket cost.",
+        answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible for outpatient robotic surgery. For inpatient procedures, you pay the $1,736 Part A deductible. Medigap Plan G covers the 20% coinsurance after the deductible, significantly reducing your out-of-pocket cost.",
       },
       {
         question: "Does Medicare Advantage cover robotic surgery?",
@@ -11024,8 +11024,8 @@ export const coverageArticles: CoverageArticleData[] = [
     quickReference: [
       { icon: "check", text: "<strong>Robotic surgery</strong> is covered the same as traditional surgery under Medicare" },
       { icon: "check", text: "Medicare covers <strong>da Vinci, robotic knee, and robotic prostate surgery</strong>" },
-      { icon: "dollar", text: "Outpatient: <strong>20% coinsurance</strong> after $257 Part B deductible" },
-      { icon: "dollar", text: "Inpatient: <strong>$1,676 deductible</strong> per benefit period (Part A)" },
+      { icon: "dollar", text: "Outpatient: <strong>20% coinsurance</strong> after $283 Part B deductible" },
+      { icon: "dollar", text: "Inpatient: <strong>$1,736 deductible</strong> per benefit period (Part A)" },
       { icon: "info", text: "The <strong>surgical technique</strong> does not change Medicare coverage" },
       { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
     ],
@@ -11083,7 +11083,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Second Opinion)", coverage: "Covered", icon: "shield", notes: "80% after $257 Part B deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part B (Second Opinion)", coverage: "Covered", icon: "shield", notes: "80% after $283 Part B deductible; you pay 20% coinsurance" },
       { planType: "Medicare Part B (Third Opinion)", coverage: "Covered if Opinions Differ", icon: "shield", notes: "Covered when first and second opinions conflict" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies by plan" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
@@ -11113,7 +11113,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Second opinions from non-Medicare-participating providers",
           "Opinions sought purely for personal reassurance without a clinical basis",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). A specialist consultation typically costs $150–$400, so your 20% share is $30–$80 after the deductible.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). A specialist consultation typically costs $150–$400, so your 20% share is $30–$80 after the deductible.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -11159,7 +11159,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Services not covered by Original Medicare",
           "Non-Medicare-participating specialists",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for a second opinion is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for a second opinion is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
       },
     ],
     alternativesSection: {
@@ -11189,7 +11189,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare cover a third opinion?",
-        answer: "Yes — if your first and second opinions conflict, Medicare Part B will cover a third opinion. The same cost-sharing applies: 20% coinsurance after the $257 Part B deductible.",
+        answer: "Yes — if your first and second opinions conflict, Medicare Part B will cover a third opinion. The same cost-sharing applies: 20% coinsurance after the $283 Part B deductible.",
       },
       {
         question: "Can I see any doctor for a second opinion with Medicare?",
@@ -11197,7 +11197,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does a second opinion cost with Medicare?",
-        answer: "With Original Medicare, you pay 20% coinsurance after the $257 Part B deductible. A specialist consultation typically costs $150–$400, so your 20% share is $30–$80 after the deductible. Medigap Plan G covers the 20% coinsurance after the deductible.",
+        answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. A specialist consultation typically costs $150–$400, so your 20% share is $30–$80 after the deductible. Medigap Plan G covers the 20% coinsurance after the deductible.",
       },
       {
         question: "Does Medicare Advantage cover second opinions?",
@@ -11207,7 +11207,7 @@ export const coverageArticles: CoverageArticleData[] = [
     quickReference: [
       { icon: "check", text: "<strong>Second opinions</strong> are covered by Medicare Part B" },
       { icon: "check", text: "<strong>Third opinions</strong> are covered when first and second opinions conflict" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 Part B deductible" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible" },
       { icon: "info", text: "You can see <strong>any Medicare-participating specialist</strong> — no network restrictions with Original Medicare" },
       { icon: "alert", text: "Medicare Advantage may require a <strong>referral</strong> before seeing a specialist" },
       { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
@@ -11267,7 +11267,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (DME)", coverage: "Covered", icon: "shield", notes: "80% of approved amount after $257 deductible; up to 200 intermittent catheters/month" },
+      { planType: "Medicare Part B (DME)", coverage: "Covered", icon: "shield", notes: "80% of approved amount after $283 deductible; up to 200 intermittent catheters/month" },
       { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Catheters used during a hospital stay are covered under Part A" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same DME as Original Medicare; cost-sharing varies by plan" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
@@ -11297,7 +11297,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Catheters in excess of Medicare's monthly allowance without medical justification",
           "Catheters for conditions not certified as medically necessary",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Medicare sets a fee schedule for DME, so costs are standardized across enrolled suppliers.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Medicare sets a fee schedule for DME, so costs are standardized across enrolled suppliers.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -11343,7 +11343,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Supplies not covered by Original Medicare",
           "Non-Medicare-enrolled suppliers",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for catheters is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all covered catheter supplies.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for catheters is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance for all covered catheter supplies.",
       },
     ],
     costTable: {
@@ -11354,25 +11354,25 @@ export const coverageArticles: CoverageArticleData[] = [
           "Catheter Type": "Intermittent catheter",
           "Monthly Allowance": "Up to 200/month",
           "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Catheter Type": "Closed system catheter",
           "Monthly Allowance": "Up to 200/month",
           "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Catheter Type": "Foley (indwelling) catheter",
           "Monthly Allowance": "As medically necessary",
           "Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Actual costs vary by supplier and catheter type.",
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual costs vary by supplier and catheter type.",
     },
     exceptionsSection: {
       title: "Requirements for Medicare Catheter Coverage",
@@ -11412,7 +11412,7 @@ export const coverageArticles: CoverageArticleData[] = [
     quickReference: [
       { icon: "check", text: "<strong>Urinary catheters</strong> are covered by Medicare Part B as DME" },
       { icon: "check", text: "Up to <strong>200 intermittent catheters</strong> per month are covered" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 Part B deductible" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible" },
       { icon: "info", text: "Must use a <strong>Medicare-enrolled DME supplier</strong>" },
       { icon: "info", text: "Doctor must certify <strong>medical necessity</strong> in writing" },
       { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
@@ -11463,7 +11463,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "5 min read",
     quickAnswer: {
-      text: "Medicare covers varicose vein treatment when it is medically necessary — meaning your veins are causing symptoms such as pain, swelling, skin ulcers, or blood clots. Cosmetic treatment of varicose veins (to improve appearance only) is not covered. When medically necessary, treatment falls under Medicare Part B: Medicare pays 80% after your $257 deductible, and you pay 20% coinsurance.",
+      text: "Medicare covers varicose vein treatment when it is medically necessary — meaning your veins are causing symptoms such as pain, swelling, skin ulcers, or blood clots. Cosmetic treatment of varicose veins (to improve appearance only) is not covered. When medically necessary, treatment falls under Medicare Part B: Medicare pays 80% after your $283 deductible, and you pay 20% coinsurance.",
       badges: [
         { plan: "Medicare Part B", status: "partial" },
         { plan: "Medicare Advantage", status: "partial" },
@@ -11471,7 +11471,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Medically Necessary)", coverage: "Covered", icon: "shield", notes: "80% after $257 deductible; symptoms like pain, ulcers, or clots required" },
+      { planType: "Medicare Part B (Medically Necessary)", coverage: "Covered", icon: "shield", notes: "80% after $283 deductible; symptoms like pain, ulcers, or clots required" },
       { planType: "Medicare Part B (Cosmetic)", coverage: "Not Covered", icon: "shield", notes: "Treatment for appearance only is explicitly excluded from Medicare" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered (Medically Necessary)", icon: "heart", notes: "Must cover same services as Original Medicare; cost-sharing varies" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance when treatment is covered" },
@@ -11503,7 +11503,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Treatment without documented symptoms or failed conservative therapy",
           "Procedures by non-Medicare-participating providers",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -11550,7 +11550,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Cosmetic treatment not covered by Original Medicare",
           "Treatment without documented medical necessity",
         ],
-        costNote: "With Medigap Plan G, your only out-of-pocket cost for covered varicose vein treatment is the $257 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
+        costNote: "With Medigap Plan G, your only out-of-pocket cost for covered varicose vein treatment is the $283 Part B deductible (2026). After that, Plan G covers the 20% coinsurance.",
       },
     ],
     exceptionsSection: {
@@ -11582,7 +11582,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does varicose vein treatment cost with Medicare?",
-        answer: "With Original Medicare, you pay 20% coinsurance after the $257 Part B deductible. Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000. Medigap Plan G covers the 20% coinsurance after the deductible.",
+        answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000. Medigap Plan G covers the 20% coinsurance after the deductible.",
       },
       {
         question: "Will Medicare pay for laser vein treatment?",
@@ -11592,7 +11592,7 @@ export const coverageArticles: CoverageArticleData[] = [
     quickReference: [
       { icon: "check", text: "<strong>Medically necessary</strong> varicose vein treatment is covered by Medicare Part B" },
       { icon: "x", text: "<strong>Cosmetic treatment</strong> for appearance only is NOT covered" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 Part B deductible" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $283 Part B deductible" },
       { icon: "info", text: "Document <strong>symptoms and failed conservative therapy</strong> to support your claim" },
       { icon: "alert", text: "Medicare Advantage may require <strong>prior authorization</strong>" },
       { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance after the deductible" },
@@ -11848,7 +11848,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "5 min read",
     quickAnswer: {
-      text: "Yes, Medicare Part B covers ostomy supplies as durable medical equipment (DME) when they are medically necessary following a colostomy, ileostomy, or urostomy. You pay 20% coinsurance after the $257 Part B deductible. Medicare Advantage plans must cover the same supplies, though cost-sharing varies. Medigap can significantly reduce or eliminate your out-of-pocket costs.",
+      text: "Yes, Medicare Part B covers ostomy supplies as durable medical equipment (DME) when they are medically necessary following a colostomy, ileostomy, or urostomy. You pay 20% coinsurance after the $283 Part B deductible. Medicare Advantage plans must cover the same supplies, though cost-sharing varies. Medigap can significantly reduce or eliminate your out-of-pocket costs.",
       badges: [
         { plan: "Medicare Part B", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
@@ -11856,7 +11856,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Medicare Part B (Outpatient DME)", coverage: "Covered", icon: "shield", notes: "Covers 80% of approved amount after $257 Part B deductible; you pay 20%" },
+      { planType: "Medicare Part B (Outpatient DME)", coverage: "Covered", icon: "shield", notes: "Covers 80% of approved amount after $283 Part B deductible; you pay 20%" },
       { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers ostomy supplies provided during a covered inpatient hospital stay" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same DME as Original Medicare; cost-sharing varies by plan" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Original Medicare" },
@@ -11872,7 +11872,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "[Medicare Part B](/faqs/what-is-medicare-part-b) covers ostomy supplies as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) when they are medically necessary. To qualify, your doctor must certify that you need the supplies due to a colostomy, ileostomy, or urostomy procedure. The supplies must be obtained from a Medicare-enrolled DME supplier.",
           "Ostomy supplies are considered a recurring DME benefit, meaning Medicare will continue to cover replacement supplies on an ongoing basis as long as they remain medically necessary. Your doctor must document the medical need, and you must use a Medicare-enrolled supplier.",
-          "The standard cost-sharing for Part B DME applies: Medicare pays 80% of the approved amount, and you are responsible for the remaining 20% after meeting your annual Part B deductible of $257 (2026).",
+          "The standard cost-sharing for Part B DME applies: Medicare pays 80% of the approved amount, and you are responsible for the remaining 20% after meeting your annual Part B deductible of $283 (2026).",
         ],
         whatItCovers: [
           "Colostomy pouches and bags",
@@ -11889,7 +11889,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Supplies not certified as medically necessary by your doctor",
           "Cosmetic or non-medical accessories",
         ],
-        costNote: "You pay 20% coinsurance after the $257 annual Part B deductible (2026). Costs vary depending on the type and quantity of supplies needed.",
+        costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026). Costs vary depending on the type and quantity of supplies needed.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -11925,7 +11925,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers some or all of Original Medicare's cost-sharing",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance for DME such as ostomy supplies. Because ostomy supplies are an ongoing need, Medigap can provide significant long-term savings.",
-          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual $257 Part B deductible. That means once you've paid your deductible for the year, Plan G covers the remaining 20% of your ostomy supply costs for the rest of the year. Unlike Medicare Advantage, Medigap plans have no provider networks.",
+          "[Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part B coinsurance in full after you meet the annual $283 Part B deductible. That means once you've paid your deductible for the year, Plan G covers the remaining 20% of your ostomy supply costs for the rest of the year. Unlike Medicare Advantage, Medigap plans have no provider networks.",
         ],
         whatItCovers: [
           "Part B coinsurance (20%) — covered by most Medigap plans",
@@ -11936,7 +11936,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Supplies not covered by Original Medicare",
           "Supplies from non-Medicare-enrolled suppliers",
         ],
-        costNote: "With Medigap Plan G, your only annual out-of-pocket cost for ostomy supplies is the $257 Part B deductible. After that, Plan G covers the 20% coinsurance for the rest of the year.",
+        costNote: "With Medigap Plan G, your only annual out-of-pocket cost for ostomy supplies is the $283 Part B deductible. After that, Plan G covers the 20% coinsurance for the rest of the year.",
       },
     ],
     costTable: {
@@ -11947,32 +11947,32 @@ export const coverageArticles: CoverageArticleData[] = [
           "Supply Type": "Colostomy/ileostomy pouches",
           "Medicare Part": "Part B (DME)",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only (first time per year)",
         },
         {
           "Supply Type": "Urostomy pouches",
           "Medicare Part": "Part B (DME)",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only (first time per year)",
         },
         {
           "Supply Type": "Wafers, skin barriers, accessories",
           "Medicare Part": "Part B (DME)",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only (first time per year)",
         },
         {
           "Supply Type": "Irrigation systems",
           "Medicare Part": "Part B (DME)",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only (first time per year)",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only (first time per year)",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Actual costs vary by supplier and quantity of supplies needed.",
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual costs vary by supplier and quantity of supplies needed.",
     },
     exceptionsSection: {
       title: "Important Rules for Ostomy Supply Coverage",
@@ -11991,7 +11991,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare cover colostomy bags?",
-        answer: "Yes. Medicare Part B covers colostomy bags as durable medical equipment (DME) when they are medically necessary. You must obtain them from a Medicare-enrolled DME supplier, and your doctor must certify the medical need. You pay 20% coinsurance after your annual Part B deductible of $257 (2026).",
+        answer: "Yes. Medicare Part B covers colostomy bags as durable medical equipment (DME) when they are medically necessary. You must obtain them from a Medicare-enrolled DME supplier, and your doctor must certify the medical need. You pay 20% coinsurance after your annual Part B deductible of $283 (2026).",
       },
       {
         question: "Does Medicare cover ileostomy supplies?",
@@ -12011,14 +12011,14 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medigap cover ostomy supply costs?",
-        answer: "Yes. Medigap plans cover some or all of the 20% coinsurance that Medicare Part B leaves behind for DME, including ostomy supplies. Medigap Plan G is one of the most popular options — it covers the Part B coinsurance in full after you meet the $257 annual deductible. This can result in significant savings for beneficiaries who need ongoing ostomy supplies.",
+        answer: "Yes. Medigap plans cover some or all of the 20% coinsurance that Medicare Part B leaves behind for DME, including ostomy supplies. Medigap Plan G is one of the most popular options — it covers the Part B coinsurance in full after you meet the $283 annual deductible. This can result in significant savings for beneficiaries who need ongoing ostomy supplies.",
       },
     ],
     quickReference: [
       { icon: "check", text: "<strong>Medicare Part B</strong> covers ostomy supplies as durable medical equipment (DME)" },
       { icon: "check", text: "Covers colostomy, ileostomy, and urostomy pouches, wafers, and accessories" },
       { icon: "alert", text: "Must use a <strong>Medicare-enrolled DME supplier</strong> to receive coverage" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $257 annual Part B deductible (2026)" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the $283 annual Part B deductible (2026)" },
       { icon: "info", text: "Doctor must certify medical necessity for ongoing coverage" },
       { icon: "check", text: "<strong>Medigap Plan G</strong> can cover the 20% coinsurance after your deductible" },
     ],
@@ -12528,7 +12528,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "[Medicare Part B](/faqs/what-is-medicare-part-b) covers alcohol misuse screening and counseling as [preventive services](/faqs/medicare-preventive-services), which means there is no deductible or coinsurance when you receive these services from a Medicare-participating provider. Once per year, Medicare covers a screening for alcohol misuse, typically as part of your [Annual Wellness Visit](/faqs/what-is-the-medicare-annual-wellness-visit).",
           "If the screening indicates you are misusing alcohol but do not meet the criteria for alcohol dependence, Medicare Part B covers up to four brief counseling sessions per year at no cost to you. These sessions are typically 15 minutes each and can be provided by your primary care doctor.",
-          "If you need additional counseling beyond the four free sessions, Medicare Part B covers individual and group psychotherapy at 80% of the approved amount after your $257 Part B deductible. Outpatient substance abuse treatment programs are also covered under Part B.",
+          "If you need additional counseling beyond the four free sessions, Medicare Part B covers individual and group psychotherapy at 80% of the approved amount after your $283 Part B deductible. Outpatient substance abuse treatment programs are also covered under Part B.",
         ],
         whatItCovers: [
           "One annual alcohol misuse screening (free preventive service)",
@@ -12543,7 +12543,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Treatment at non-Medicare-approved facilities",
           "Counseling beyond four free sessions without cost-sharing",
         ],
-        costNote: "Annual screening and up to four counseling sessions: $0. Additional outpatient therapy: 20% coinsurance after the $257 Part B deductible (2026).",
+        costNote: "Annual screening and up to four counseling sessions: $0. Additional outpatient therapy: 20% coinsurance after the $283 Part B deductible (2026).",
       },
       {
         planName: "Original Medicare (Part A — Inpatient)",
@@ -12568,7 +12568,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Rehab that is not deemed medically necessary by your doctor",
           "Treatment beyond 190 lifetime days at a psychiatric hospital",
         ],
-        costNote: "Part A inpatient: $1,676 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026).",
+        costNote: "Part A inpatient: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026).",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -12618,13 +12618,13 @@ export const coverageArticles: CoverageArticleData[] = [
           "Service": "Additional outpatient therapy sessions",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% after deductible",
-          "Your Cost": "20% coinsurance + $257 deductible",
+          "Your Cost": "20% coinsurance + $283 deductible",
         },
         {
           "Service": "Inpatient rehab (days 1–60)",
           "Medicare Part": "Part A",
           "What Medicare Pays": "100% after deductible",
-          "Your Cost": "$1,676 per benefit period",
+          "Your Cost": "$1,736 per benefit period",
         },
         {
           "Service": "Inpatient rehab (days 61–90)",
@@ -12656,7 +12656,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare cover alcohol detox?",
-        answer: "Yes. Medicare Part A covers alcohol detox when medically necessary. Detox is typically a 7-day inpatient program. You must receive treatment at a Medicare-approved facility. The same Part A cost-sharing applies as for other inpatient stays — $1,676 deductible per benefit period (2026).",
+        answer: "Yes. Medicare Part A covers alcohol detox when medically necessary. Detox is typically a 7-day inpatient program. You must receive treatment at a Medicare-approved facility. The same Part A cost-sharing applies as for other inpatient stays — $1,736 deductible per benefit period (2026).",
       },
       {
         question: "How many alcohol counseling sessions does Medicare cover for free?",
@@ -12664,7 +12664,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medicare cover outpatient alcohol treatment?",
-        answer: "Yes. Medicare Part B covers outpatient alcohol treatment including individual and group psychotherapy, partial hospitalization programs, and intensive outpatient programs at Medicare-approved facilities. You pay 20% coinsurance after your $257 Part B deductible.",
+        answer: "Yes. Medicare Part B covers outpatient alcohol treatment including individual and group psychotherapy, partial hospitalization programs, and intensive outpatient programs at Medicare-approved facilities. You pay 20% coinsurance after your $283 Part B deductible.",
       },
       {
         question: "Why did Medicare deny my alcohol rehab claim?",
@@ -12672,14 +12672,14 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medigap cover alcohol rehab costs?",
-        answer: "Yes. Medigap plans can cover the Part A deductible ($1,676 per benefit period) and Part B coinsurance (20%) for alcohol treatment services. Medigap Plan G is a popular choice — it covers the Part A deductible and Part B coinsurance, leaving you responsible only for the annual $257 Part B deductible.",
+        answer: "Yes. Medigap plans can cover the Part A deductible ($1,736 per benefit period) and Part B coinsurance (20%) for alcohol treatment services. Medigap Plan G is a popular choice — it covers the Part A deductible and Part B coinsurance, leaving you responsible only for the annual $283 Part B deductible.",
       },
     ],
     quickReference: [
       { icon: "check", text: "<strong>Annual screening</strong> and up to 4 counseling sessions covered at <strong>$0</strong> under Part B" },
       { icon: "check", text: "<strong>Inpatient rehab and detox</strong> covered under Part A when medically necessary" },
       { icon: "alert", text: "Must use a <strong>Medicare-approved facility</strong> for inpatient rehab coverage" },
-      { icon: "dollar", text: "Inpatient rehab: <strong>$1,676 deductible</strong> per benefit period (2026)" },
+      { icon: "dollar", text: "Inpatient rehab: <strong>$1,736 deductible</strong> per benefit period (2026)" },
       { icon: "info", text: "<strong>190-day lifetime limit</strong> for inpatient treatment at specialty psychiatric hospitals" },
       { icon: "check", text: "<strong>Medigap Plan G</strong> can cover the Part A deductible and Part B coinsurance" },
     ],
@@ -12770,7 +12770,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Meals delivered to your home",
           "Homemaker services",
         ],
-        costNote: "Part B: You pay 20% coinsurance after the $257 annual deductible (2026). Home health care covered by Medicare is $0 for approved services.",
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Home health care covered by Medicare is $0 for approved services.",
       },
       {
         planName: "Medicare Part A — Inpatient & Hospice",
@@ -12780,7 +12780,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers inpatient hospital care and hospice",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hospital stays for ALS patients, including any hospitalizations related to ALS complications such as respiratory failure, pneumonia, or surgical procedures. The standard Part A cost-sharing applies: $1,676 deductible per benefit period, with $0 coinsurance for days 1–60.",
+          "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hospital stays for ALS patients, including any hospitalizations related to ALS complications such as respiratory failure, pneumonia, or surgical procedures. The standard Part A cost-sharing applies: $1,736 deductible per benefit period, with $0 coinsurance for days 1–60.",
           "Hospice care is an important benefit for ALS patients. Medicare Part A covers hospice care when a doctor certifies that a patient has a terminal illness with a life expectancy of six months or less if the illness runs its normal course. ALS patients who choose hospice receive comfort-focused care rather than curative treatment, and Medicare covers nearly all hospice services.",
         ],
         whatItCovers: [
@@ -12793,7 +12793,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Long-term custodial care (personal care without skilled nursing needs)",
           "Room and board at a nursing home (unless receiving skilled nursing care)",
         ],
-        costNote: "Part A: $1,676 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026). Hospice care: $0 for most services.",
+        costNote: "Part A: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026). Hospice care: $0 for most services.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -12835,19 +12835,19 @@ export const coverageArticles: CoverageArticleData[] = [
           "Service": "Durable medical equipment (wheelchair, ventilator)",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% of approved amount",
-          "Your Cost": "20% coinsurance + $257 deductible",
+          "Your Cost": "20% coinsurance + $283 deductible",
         },
         {
           "Service": "Outpatient therapy (PT, OT, speech)",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% after deductible",
-          "Your Cost": "20% coinsurance + $257 deductible",
+          "Your Cost": "20% coinsurance + $283 deductible",
         },
         {
           "Service": "Inpatient hospital stay (days 1–60)",
           "Medicare Part": "Part A",
           "What Medicare Pays": "100% after deductible",
-          "Your Cost": "$1,676 per benefit period",
+          "Your Cost": "$1,736 per benefit period",
         },
         {
           "Service": "Hospice care",
@@ -12903,7 +12903,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Home health care</strong> covered at $0 for approved services under Part B" },
       { icon: "check", text: "<strong>Wheelchairs, ventilators, and communication devices</strong> covered as DME under Part B" },
       { icon: "check", text: "<strong>Hospice care</strong> covered at $0 for most services under Part A" },
-      { icon: "dollar", text: "DME and outpatient therapy: <strong>20% coinsurance</strong> after $257 Part B deductible (2026)" },
+      { icon: "dollar", text: "DME and outpatient therapy: <strong>20% coinsurance</strong> after $283 Part B deductible (2026)" },
       { icon: "info", text: "<strong>Medigap</strong> can cover Part A deductible and Part B coinsurance for ALS patients" },
     ],
     relatedTopics: [
@@ -12978,7 +12978,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "[Medicare Part B](/faqs/what-is-medicare-part-b) covers bathroom safety devices that qualify as [durable medical equipment (DME)](/faqs/what-is-durable-medical-equipment-dme) and are medically necessary. The primary bathroom safety item covered by Medicare is the commode chair — a portable toilet that can be used at the bedside or in the bathroom. Medicare will cover a commode chair when your doctor orders it for home use because you cannot use a regular toilet.",
           "Medicare also covers crutches, walkers, and other mobility aids that help reduce the risk of falls — but the standard bathroom accessories such as grab bars, shower chairs, and raised toilet seats are not covered. Medicare classifies these items as comfort or convenience items rather than medically necessary DME.",
-          "For items Medicare does cover, you pay 20% coinsurance after your annual $257 Part B deductible (2026), and you must use a Medicare-enrolled DME supplier.",
+          "For items Medicare does cover, you pay 20% coinsurance after your annual $283 Part B deductible (2026), and you must use a Medicare-enrolled DME supplier.",
         ],
         whatItCovers: [
           "Commode chairs (when medically necessary and ordered by a doctor)",
@@ -12995,7 +12995,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Handheld showerheads",
           "Bathroom home modifications",
         ],
-        costNote: "Covered DME (e.g., commode chairs): 20% coinsurance after $257 Part B deductible (2026). Non-covered items: full cost out of pocket.",
+        costNote: "Covered DME (e.g., commode chairs): 20% coinsurance after $283 Part B deductible (2026). Non-covered items: full cost out of pocket.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -13032,7 +13032,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers Part B coinsurance for covered DME items",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind — including the 20% Part B coinsurance for covered DME such as commode chairs. However, Medigap only covers items that Original Medicare covers. It cannot cover grab bars, shower chairs, or other items that Original Medicare excludes.",
-          "If your doctor orders a commode chair or another covered DME item, Medigap Plan G will cover the 20% coinsurance after you meet the annual $257 Part B deductible.",
+          "If your doctor orders a commode chair or another covered DME item, Medigap Plan G will cover the 20% coinsurance after you meet the annual $283 Part B deductible.",
         ],
         whatItCovers: [
           "Part B coinsurance (20%) for covered DME items",
@@ -13042,7 +13042,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Grab bars, shower chairs, or other items not covered by Original Medicare",
           "Home modifications",
         ],
-        costNote: "With Medigap Plan G, your only cost for covered DME is the $257 annual Part B deductible. Medigap cannot cover non-covered items like grab bars.",
+        costNote: "With Medigap Plan G, your only cost for covered DME is the $283 annual Part B deductible. Medigap cannot cover non-covered items like grab bars.",
       },
     ],
     costTable: {
@@ -13053,7 +13053,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Device": "Commode chair",
           "Original Medicare": "Covered (DME)",
           "Medicare Advantage OTC": "Covered",
-          "Estimated Out-of-Pocket Cost": "20% coinsurance after $257 deductible",
+          "Estimated Out-of-Pocket Cost": "20% coinsurance after $283 deductible",
         },
         {
           "Device": "Grab bars",
@@ -13105,7 +13105,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare cover commode chairs?",
-        answer: "Yes. Medicare Part B covers commode chairs as durable medical equipment (DME) when your doctor orders them for home use because you cannot use a regular toilet. You pay 20% coinsurance after your annual $257 Part B deductible (2026). You must use a Medicare-enrolled DME supplier.",
+        answer: "Yes. Medicare Part B covers commode chairs as durable medical equipment (DME) when your doctor orders them for home use because you cannot use a regular toilet. You pay 20% coinsurance after your annual $283 Part B deductible (2026). You must use a Medicare-enrolled DME supplier.",
       },
       {
         question: "Does Medicare cover grab bars?",
@@ -13220,7 +13220,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Wrist or finger blood pressure monitors",
           "Smart blood pressure monitors that sync with phones",
         ],
-        costNote: "Ambulatory monitor: covered under Part B; you pay 20% coinsurance after the $257 deductible (2026). Standard home monitors: full cost out of pocket ($25–$100).",
+        costNote: "Ambulatory monitor: covered under Part B; you pay 20% coinsurance after the $283 deductible (2026). Standard home monitors: full cost out of pocket ($25–$100).",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -13265,7 +13265,7 @@ export const coverageArticles: CoverageArticleData[] = [
         whatItDoesntCover: [
           "Standard home blood pressure monitors (not covered by Original Medicare)",
         ],
-        costNote: "With Medigap Plan G, your only cost for covered blood pressure monitoring is the $257 annual Part B deductible.",
+        costNote: "With Medigap Plan G, your only cost for covered blood pressure monitoring is the $283 annual Part B deductible.",
       },
     ],
     costTable: {
@@ -13275,14 +13275,14 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Monitor Type": "Ambulatory monitor (24-hour, once/year)",
           "Medicare Coverage": "Covered (Part B)",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Monitor Type": "Home monitor for dialysis patients",
           "Medicare Coverage": "Covered (Part B)",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Monitor Type": "Standard home monitor (arm cuff)",
@@ -13417,7 +13417,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient cardiovascular services when they are medically necessary. This includes visits to a cardiologist for diagnosis, treatment, and management of heart conditions. Medicare also covers a range of cardiac diagnostic tests including electrocardiograms (ECGs), [echocardiograms](/faqs/does-medicare-cover-an-echocardiogram), stress tests, nuclear stress tests, and cardiac catheterization.",
           "Medicare Part B also covers several cardiovascular preventive services at no cost to you. These include cardiovascular disease screenings (cholesterol, lipid, and triglyceride tests) once every five years, and cardiovascular behavioral therapy — a once-per-year visit with your doctor to discuss aspirin use, blood pressure management, and diet.",
-          "For most outpatient cardiovascular services, you pay 20% coinsurance after your annual $257 Part B deductible (2026). Preventive services are covered at 100% with no deductible or coinsurance.",
+          "For most outpatient cardiovascular services, you pay 20% coinsurance after your annual $283 Part B deductible (2026). Preventive services are covered at 100% with no deductible or coinsurance.",
         ],
         whatItCovers: [
           "Cardiologist visits (diagnosis, treatment, and management)",
@@ -13434,7 +13434,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Routine physical exams (unless combined with a covered service)",
           "Services from providers who do not accept Medicare",
         ],
-        costNote: "Preventive cardiovascular services: $0. Outpatient diagnostic services and cardiologist visits: 20% coinsurance after $257 Part B deductible (2026).",
+        costNote: "Preventive cardiovascular services: $0. Outpatient diagnostic services and cardiologist visits: 20% coinsurance after $283 Part B deductible (2026).",
       },
       {
         planName: "Original Medicare (Part A — Inpatient)",
@@ -13457,7 +13457,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Long-term custodial care (personal care without skilled nursing needs)",
           "Treatment at non-Medicare-approved facilities",
         ],
-        costNote: "Part A: $1,676 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026).",
+        costNote: "Part A: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026).",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -13501,32 +13501,32 @@ export const coverageArticles: CoverageArticleData[] = [
           "Service": "Cardiologist visit (outpatient)",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "Echocardiogram or stress test",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "Heart surgery (inpatient, days 1–60)",
           "Medicare Part": "Part A",
           "What Medicare Pays": "100% after deductible",
-          "Your Cost (No Supplement)": "$1,676 per benefit period",
+          "Your Cost (No Supplement)": "$1,736 per benefit period",
           "Your Cost (With Plan G)": "$0 (Plan G covers Part A deductible)",
         },
         {
           "Service": "Cardiac rehabilitation (outpatient)",
           "Medicare Part": "Part B",
           "What Medicare Pays": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Part A deductible: $1,676 per benefit period. Actual costs vary by provider and location.",
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Part A deductible: $1,736 per benefit period. Actual costs vary by provider and location.",
     },
     exceptionsSection: {
       title: "Key Rules for Cardiovascular Disease Coverage",
@@ -13545,11 +13545,11 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare cover cardiologist visits?",
-        answer: "Yes. Medicare Part B covers cardiologist visits when they are medically necessary for the diagnosis, treatment, or management of a heart condition. You pay 20% coinsurance after your annual $257 Part B deductible (2026). The cardiologist must accept Medicare assignment.",
+        answer: "Yes. Medicare Part B covers cardiologist visits when they are medically necessary for the diagnosis, treatment, or management of a heart condition. You pay 20% coinsurance after your annual $283 Part B deductible (2026). The cardiologist must accept Medicare assignment.",
       },
       {
         question: "Does Medicare cover open-heart surgery?",
-        answer: "Yes. Medicare covers open-heart surgery as a medically necessary inpatient procedure under Part A. You pay the $1,676 Part A deductible per benefit period (2026), with $0 coinsurance for days 1–60. Medigap Plan G covers the Part A deductible, leaving you with $0 out of pocket.",
+        answer: "Yes. Medicare covers open-heart surgery as a medically necessary inpatient procedure under Part A. You pay the $1,736 Part A deductible per benefit period (2026), with $0 coinsurance for days 1–60. Medigap Plan G covers the Part A deductible, leaving you with $0 out of pocket.",
       },
       {
         question: "Does Medicare cover heart bypass surgery?",
@@ -13571,9 +13571,9 @@ export const coverageArticles: CoverageArticleData[] = [
     quickReference: [
       { icon: "check", text: "<strong>Cardiovascular disease screenings</strong> (cholesterol/lipid panel) covered at $0 once every 5 years" },
       { icon: "check", text: "<strong>Cardiologist visits</strong> and cardiac tests covered under Part B (20% coinsurance)" },
-      { icon: "check", text: "<strong>Heart surgery</strong> covered under Part A ($1,676 deductible per benefit period)" },
+      { icon: "check", text: "<strong>Heart surgery</strong> covered under Part A ($1,736 deductible per benefit period)" },
       { icon: "check", text: "<strong>Cardiac rehabilitation</strong> covered under Part B (up to 36–72 sessions)" },
-      { icon: "dollar", text: "Outpatient services: <strong>20% coinsurance</strong> after $257 Part B deductible (2026)" },
+      { icon: "dollar", text: "Outpatient services: <strong>20% coinsurance</strong> after $283 Part B deductible (2026)" },
       { icon: "info", text: "<strong>Medigap Plan G</strong> covers Part A deductible and Part B coinsurance for cardiac care" },
     ],
     relatedTopics: [
@@ -13682,7 +13682,7 @@ export const coverageArticles: CoverageArticleData[] = [
         whatItDoesntCover: [
           "The remaining 20% coinsurance (unless you have Medigap)",
         ],
-        costNote: "Diagnostic colonoscopy: 20% coinsurance; Part B deductible does not apply. With Medigap Plan G, the 20% coinsurance is covered after your annual $257 deductible.",
+        costNote: "Diagnostic colonoscopy: 20% coinsurance; Part B deductible does not apply. With Medigap Plan G, the 20% coinsurance is covered after your annual $283 deductible.",
         callout: {
           type: "warning",
           title: "Screening to diagnostic conversion",
@@ -13736,13 +13736,13 @@ export const coverageArticles: CoverageArticleData[] = [
           "Colonoscopy Type": "Screening converted to diagnostic (polyp found)",
           "Medicare Coverage": "80% — no Part B deductible",
           "Your Cost (No Supplement)": "20% coinsurance (no deductible)",
-          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+          "Your Cost (With Plan G)": "$0 after $283 annual deductible",
         },
         {
           "Colonoscopy Type": "Diagnostic colonoscopy (ordered for symptoms)",
           "Medicare Coverage": "80% — no Part B deductible",
           "Your Cost (No Supplement)": "20% coinsurance (no deductible)",
-          "Your Cost (With Plan G)": "$0 after $257 annual deductible",
+          "Your Cost (With Plan G)": "$0 after $283 annual deductible",
         },
         {
           "Colonoscopy Type": "Anesthesia (screening)",
@@ -13758,8 +13758,8 @@ export const coverageArticles: CoverageArticleData[] = [
       items: [
         {
           title: "The Part B Deductible Does Not Apply to Colonoscopies",
-          text: "Unlike most Part B services, the annual Part B deductible ($257 in 2026) does not apply to colonoscopies — whether screening or diagnostic. For screening colonoscopies, you pay $0. For diagnostic colonoscopies, you pay only the 20% coinsurance, not the deductible. This is an important distinction that can save you money.",
-          highlight: "The Part B deductible does not apply to colonoscopies. For diagnostic colonoscopies, you owe only the 20% coinsurance — not the $257 deductible.",
+          text: "Unlike most Part B services, the annual Part B deductible ($283 in 2026) does not apply to colonoscopies — whether screening or diagnostic. For screening colonoscopies, you pay $0. For diagnostic colonoscopies, you pay only the 20% coinsurance, not the deductible. This is an important distinction that can save you money.",
+          highlight: "The Part B deductible does not apply to colonoscopies. For diagnostic colonoscopies, you owe only the 20% coinsurance — not the $283 deductible.",
         },
         {
           title: "Cologuard as an Alternative to Colonoscopy",
@@ -13782,7 +13782,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does a colonoscopy cost with Medicare?",
-        answer: "A screening colonoscopy is fully covered by Medicare at $0 — no deductible or coinsurance. If the colonoscopy becomes diagnostic (e.g., a polyp is found and removed), you pay 20% coinsurance with no deductible. With Medigap Plan G, the 20% coinsurance is covered after your annual $257 deductible.",
+        answer: "A screening colonoscopy is fully covered by Medicare at $0 — no deductible or coinsurance. If the colonoscopy becomes diagnostic (e.g., a polyp is found and removed), you pay 20% coinsurance with no deductible. With Medigap Plan G, the 20% coinsurance is covered after your annual $283 deductible.",
       },
       {
         question: "Does Medicare cover colon polyp removal?",
@@ -13893,7 +13893,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Hair loss treatment (unless related to a covered medical condition)",
           "Cosmetic scar treatment",
         ],
-        costNote: "You pay 20% coinsurance after the $257 annual Part B deductible (2026). Preventive services (if applicable) are covered at $0.",
+        costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026). Preventive services (if applicable) are covered at $0.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -13928,7 +13928,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers Part B coinsurance for covered dermatology services",
         paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary dermatology services. With Medigap Plan G, your only cost for covered dermatology services is the annual $257 Part B deductible. After that, Plan G covers the 20% coinsurance for the rest of the year.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for medically necessary dermatology services. With Medigap Plan G, your only cost for covered dermatology services is the annual $283 Part B deductible. After that, Plan G covers the 20% coinsurance for the rest of the year.",
           "Medigap cannot cover cosmetic dermatology procedures or other services that Original Medicare excludes.",
         ],
         whatItCovers: [
@@ -13939,7 +13939,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Cosmetic dermatology procedures (not covered by Original Medicare)",
           "Routine skin exams without a clinical reason",
         ],
-        costNote: "With Medigap Plan G, your only annual cost for covered dermatology services is the $257 Part B deductible.",
+        costNote: "With Medigap Plan G, your only annual cost for covered dermatology services is the $283 Part B deductible.",
       },
     ],
     costTable: {
@@ -13949,26 +13949,26 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Service": "Dermatologist visit (medically necessary)",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "Skin biopsy",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "Mole removal (cancerous)",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "Skin cancer treatment",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "Cosmetic Botox or wrinkle treatment",
@@ -13977,7 +13977,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Your Cost (With Plan G)": "Full cost (not covered)",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $257/year. Actual costs vary by provider and location.",
+      footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual costs vary by provider and location.",
     },
     exceptionsSection: {
       title: "When Cosmetic Procedures May Be Covered",
@@ -13996,7 +13996,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare cover dermatologist visits?",
-        answer: "Yes. Medicare Part B covers visits to a dermatologist when they are medically necessary for the diagnosis or treatment of a skin condition. You pay 20% coinsurance after your annual $257 Part B deductible (2026). The dermatologist must accept Medicare assignment.",
+        answer: "Yes. Medicare Part B covers visits to a dermatologist when they are medically necessary for the diagnosis or treatment of a skin condition. You pay 20% coinsurance after your annual $283 Part B deductible (2026). The dermatologist must accept Medicare assignment.",
       },
       {
         question: "Does Medicare cover skin cancer screenings?",
@@ -14114,7 +14114,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "More than one pair of therapeutic shoes per calendar year",
           "Shoes for patients who do not meet the eligibility requirements",
         ],
-        costNote: "You pay 20% coinsurance after the $257 annual Part B deductible (2026). Diabetic shoes typically cost $50–$200 per pair before Medicare's share.",
+        costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026). Diabetic shoes typically cost $50–$200 per pair before Medicare's share.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -14149,7 +14149,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers Part B coinsurance for diabetic shoes",
         paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. For diabetic shoes covered under Part B, Medigap can cover the 20% coinsurance. With Medigap Plan G, your only cost for diabetic shoes is the annual $257 Part B deductible.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the out-of-pocket costs that Original Medicare leaves behind. For diabetic shoes covered under Part B, Medigap can cover the 20% coinsurance. With Medigap Plan G, your only cost for diabetic shoes is the annual $283 Part B deductible.",
           "Medigap plans are a valuable asset for covering the extra costs of diabetic shoes and other diabetes-related supplies. Because Medigap covers the balance of what Medicare pays, your out-of-pocket expenses for therapeutic footwear can be minimal.",
         ],
         whatItCovers: [
@@ -14160,7 +14160,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Shoes or inserts not covered by Original Medicare",
           "Non-therapeutic footwear",
         ],
-        costNote: "With Medigap Plan G, your only cost for diabetic shoes is the $257 annual Part B deductible.",
+        costNote: "With Medigap Plan G, your only cost for diabetic shoes is the $283 annual Part B deductible.",
       },
     ],
     costTable: {
@@ -14170,35 +14170,35 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Item": "Custom-molded shoes with inserts (1 pair/year)",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Item": "Extra-depth shoes (1 pair/year)",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Item": "Inserts (up to 5 pairs/year)",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Item": "Shoe modifications (in place of inserts)",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Item": "Podiatrist fitting visit",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "20% + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Diabetic shoes typically cost $50–$200 per pair retail. Part B deductible: $257/year.",
+      footnote: "Costs based on 2026 Medicare figures. Diabetic shoes typically cost $50–$200 per pair retail. Part B deductible: $283/year.",
     },
     exceptionsSection: {
       title: "Eligibility Requirements for Diabetic Shoe Coverage",
@@ -14229,7 +14229,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much do diabetic shoes cost with Medicare?",
-        answer: "Diabetic shoes typically cost $50–$200 per pair retail. With Medicare Part B, you pay 20% coinsurance after your annual $257 deductible (2026). With Medigap Plan G, your only cost is the $257 annual deductible. The exact amount depends on the type of shoe and your supplier's charges.",
+        answer: "Diabetic shoes typically cost $50–$200 per pair retail. With Medicare Part B, you pay 20% coinsurance after your annual $283 deductible (2026). With Medigap Plan G, your only cost is the $283 annual deductible. The exact amount depends on the type of shoe and your supplier's charges.",
       },
       {
         question: "How many pairs of diabetic shoes does Medicare cover per year?",
@@ -14244,7 +14244,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Therapeutic diabetic shoes</strong> covered under Part B when medically necessary" },
       { icon: "check", text: "<strong>One pair</strong> of custom-molded or extra-depth shoes per calendar year" },
       { icon: "check", text: "<strong>Up to 5 pairs of inserts</strong> per calendar year" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after $257 Part B deductible (2026)" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after $283 Part B deductible (2026)" },
       { icon: "info", text: "<strong>Supplier must accept Medicare</strong> — non-participating suppliers will not be reimbursed" },
       { icon: "info", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance for diabetic shoes" },
     ],
@@ -14333,7 +14333,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Hearing aid batteries or repairs",
           "Routine hearing screenings without a medical reason",
         ],
-        costNote: "Diagnostic hearing exams: 20% coinsurance after $257 Part B deductible (2026). Hearing aids: 100% out of pocket ($250–$8,000+ per pair).",
+        costNote: "Diagnostic hearing exams: 20% coinsurance after $283 Part B deductible (2026). Hearing aids: 100% out of pocket ($250–$8,000+ per pair).",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -14372,7 +14372,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Does not cover hearing aids",
         paragraphs: [
           "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) only cover the out-of-pocket balance of what Original Medicare covers. Because Original Medicare does not cover hearing aids, Medigap plans do not cover them either.",
-          "However, Medigap does cover the 20% Part B coinsurance for diagnostic hearing exams that Medicare covers. If your doctor orders a medically necessary hearing exam, Medigap Plan G will cover the coinsurance after your $257 annual deductible.",
+          "However, Medigap does cover the 20% Part B coinsurance for diagnostic hearing exams that Medicare covers. If your doctor orders a medically necessary hearing exam, Medigap Plan G will cover the coinsurance after your $283 annual deductible.",
           "You can enroll in a separate insurance policy that includes [hearing, vision, and dental coverage](/faqs/medicare-and-vision-dental-and-hearing-what-are-your-options) to supplement your Medigap plan. These standalone policies are available from various carriers and can help cover hearing aids and other services that Medicare excludes.",
         ],
         whatItCovers: [
@@ -14406,7 +14406,7 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Item": "Diagnostic hearing exam (medically necessary)",
           "Medicare Coverage": "80% after deductible",
-          "Estimated Cost": "20% coinsurance + $257 deductible",
+          "Estimated Cost": "20% coinsurance + $283 deductible",
           "Notes": "Covered under Part B when ordered by a doctor",
         },
         {
@@ -14418,7 +14418,7 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Item": "Cochlear implant (surgery + device)",
           "Medicare Coverage": "80% after deductible",
-          "Estimated Cost": "20% coinsurance + $257 deductible",
+          "Estimated Cost": "20% coinsurance + $283 deductible",
           "Notes": "Covered under Part B when medically necessary",
         },
       ],
@@ -14529,7 +14529,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { planType: "Cortisone injections", coverage: "Covered", icon: "shield", notes: "Covered under Part B; typically up to 3 per year per joint" },
       { planType: "PRP injections", coverage: "Covered", icon: "shield", notes: "Covered under Part B when medically necessary" },
       { planType: "Stem cell injections", coverage: "Not Covered", icon: "x", notes: "Not FDA-approved for orthopedic use; not covered by Medicare" },
-      { planType: "Hip replacement surgery (inpatient)", coverage: "Covered", icon: "shield", notes: "Covered under Part A; $1,676 deductible per benefit period (2026)" },
+      { planType: "Hip replacement surgery (inpatient)", coverage: "Covered", icon: "shield", notes: "Covered under Part A; $1,736 deductible per benefit period (2026)" },
       { planType: "Hip replacement surgery (outpatient)", coverage: "Covered", icon: "shield", notes: "Covered under Part B; 20% coinsurance after deductible" },
       { planType: "Viscosupplementation injections", coverage: "Varies", icon: "shield", notes: "Coverage varies; may be covered when medically necessary" },
     ],
@@ -14558,7 +14558,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Experimental or investigational treatments",
           "Injections from providers who do not accept Medicare",
         ],
-        costNote: "You pay 20% coinsurance after the $257 annual Part B deductible (2026) for covered hip injections.",
+        costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026) for covered hip injections.",
       },
       {
         planName: "Original Medicare (Part A — Hip Replacement)",
@@ -14569,7 +14569,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers inpatient hip replacement surgery",
         paragraphs: [
           "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hip replacement surgery when it is medically necessary. Hip replacement surgery involves replacing the hip joint with an artificial joint made of ceramics, hard plastic, and metal. There is no limit on the number of hip replacements Medicare will cover — if your doctor determines another replacement is medically necessary, Medicare will cover it.",
-          "The average cost of a hip replacement is $32,000–$44,000, but Medicare covers the majority of this cost. Under Part A, you pay the $1,676 deductible per benefit period (2026), with $0 coinsurance for days 1–60. After a qualifying hospital stay, Medicare also covers skilled nursing facility care and inpatient rehabilitation.",
+          "The average cost of a hip replacement is $32,000–$44,000, but Medicare covers the majority of this cost. Under Part A, you pay the $1,736 deductible per benefit period (2026), with $0 coinsurance for days 1–60. After a qualifying hospital stay, Medicare also covers skilled nursing facility care and inpatient rehabilitation.",
           "Hip replacement surgery may also be performed as an outpatient procedure. When performed outpatient, the surgery is covered under [Medicare Part B](/faqs/what-is-medicare-part-b) at 80%, and you pay 20% coinsurance after your Part B deductible.",
         ],
         whatItCovers: [
@@ -14584,7 +14584,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Long-term custodial care after recovery",
           "Treatment at non-Medicare-approved facilities",
         ],
-        costNote: "Part A: $1,676 deductible per benefit period; $0 coinsurance for days 1–60 (2026). Outpatient: 20% coinsurance after $257 Part B deductible.",
+        costNote: "Part A: $1,736 deductible per benefit period; $0 coinsurance for days 1–60 (2026). Outpatient: 20% coinsurance after $283 Part B deductible.",
       },
       {
         planName: "Medicare Supplement (Medigap)",
@@ -14594,11 +14594,11 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers Part A deductible and Part B coinsurance",
         paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can significantly reduce your out-of-pocket costs for hip injections and hip replacement surgery. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the $1,676 Part A deductible for inpatient hip replacement surgery, leaving you with $0 out of pocket for the hospital stay. Plan G also covers the 20% Part B coinsurance for outpatient hip injections and outpatient hip replacement.",
-          "With Medigap Plan G, your only annual cost for covered hip services is the $257 Part B deductible. After that, Plan G covers all remaining cost-sharing for the rest of the year.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can significantly reduce your out-of-pocket costs for hip injections and hip replacement surgery. [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the $1,736 Part A deductible for inpatient hip replacement surgery, leaving you with $0 out of pocket for the hospital stay. Plan G also covers the 20% Part B coinsurance for outpatient hip injections and outpatient hip replacement.",
+          "With Medigap Plan G, your only annual cost for covered hip services is the $283 Part B deductible. After that, Plan G covers all remaining cost-sharing for the rest of the year.",
         ],
         whatItCovers: [
-          "Part A deductible ($1,676) for inpatient hip replacement surgery",
+          "Part A deductible ($1,736) for inpatient hip replacement surgery",
           "Part B coinsurance (20%) for hip injections and outpatient procedures",
           "Part A coinsurance for extended hospital stays (days 61–90)",
         ],
@@ -14606,7 +14606,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Stem cell injections (not covered by Original Medicare)",
           "Services not covered by Original Medicare",
         ],
-        costNote: "With Medigap Plan G, inpatient hip replacement: $0 out of pocket. Outpatient hip injections: $257 annual deductible only.",
+        costNote: "With Medigap Plan G, inpatient hip replacement: $0 out of pocket. Outpatient hip injections: $283 annual deductible only.",
       },
     ],
     costTable: {
@@ -14616,26 +14616,26 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Service": "Cortisone injection (up to 3/year)",
           "Medicare Part": "Part B",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "PRP injection",
           "Medicare Part": "Part B",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "Hip replacement (inpatient, days 1–60)",
           "Medicare Part": "Part A",
-          "Your Cost (No Supplement)": "$1,676 deductible per benefit period",
+          "Your Cost (No Supplement)": "$1,736 deductible per benefit period",
           "Your Cost (With Plan G)": "$0 (Plan G covers Part A deductible)",
         },
         {
           "Service": "Hip replacement (outpatient)",
           "Medicare Part": "Part B",
-          "Your Cost (No Supplement)": "20% coinsurance + $257 deductible",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "20% coinsurance + $283 deductible",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Service": "Stem cell injection",
@@ -14644,7 +14644,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Your Cost (With Plan G)": "Full cost (not covered)",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures. Average hip replacement cost: $32,000–$44,000 (Medicare pays the majority). Part B deductible: $257/year. Part A deductible: $1,676 per benefit period.",
+      footnote: "Costs based on 2026 Medicare figures. Average hip replacement cost: $32,000–$44,000 (Medicare pays the majority). Part B deductible: $283/year. Part A deductible: $1,736 per benefit period.",
     },
     exceptionsSection: {
       title: "Important Rules for Hip Treatment Coverage",
@@ -14656,18 +14656,18 @@ export const coverageArticles: CoverageArticleData[] = [
         },
         {
           title: "Outpatient vs. Inpatient Hip Replacement",
-          text: "Hip replacement surgery can be performed as either an inpatient or outpatient procedure. Inpatient surgery is covered under Part A with the $1,676 deductible. Outpatient surgery is covered under Part B with 20% coinsurance. Your surgeon will determine whether inpatient or outpatient is appropriate based on your health status and the complexity of the procedure.",
+          text: "Hip replacement surgery can be performed as either an inpatient or outpatient procedure. Inpatient surgery is covered under Part A with the $1,736 deductible. Outpatient surgery is covered under Part B with 20% coinsurance. Your surgeon will determine whether inpatient or outpatient is appropriate based on your health status and the complexity of the procedure.",
         },
       ],
     },
     faqs: [
       {
         question: "Does Medicare cover cortisone shots for hip pain?",
-        answer: "Yes. Medicare Part B covers cortisone injections for hip pain when medically necessary. Coverage is typically limited to three cortisone shots per year per joint. You pay 20% coinsurance after your annual $257 Part B deductible (2026).",
+        answer: "Yes. Medicare Part B covers cortisone injections for hip pain when medically necessary. Coverage is typically limited to three cortisone shots per year per joint. You pay 20% coinsurance after your annual $283 Part B deductible (2026).",
       },
       {
         question: "Does Medicare cover hip replacement surgery?",
-        answer: "Yes. Medicare covers hip replacement surgery when medically necessary. Inpatient hip replacement is covered under Part A with a $1,676 deductible per benefit period (2026). Outpatient hip replacement is covered under Part B at 80%. There is no limit on the number of hip replacements Medicare will cover.",
+        answer: "Yes. Medicare covers hip replacement surgery when medically necessary. Inpatient hip replacement is covered under Part A with a $1,736 deductible per benefit period (2026). Outpatient hip replacement is covered under Part B at 80%. There is no limit on the number of hip replacements Medicare will cover.",
       },
       {
         question: "Does Medicare cover stem cell injections for hips?",
@@ -14675,7 +14675,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does a hip replacement cost with Medicare?",
-        answer: "The average cost of a hip replacement is $32,000–$44,000, but Medicare covers the majority. Under Part A, you pay the $1,676 deductible per benefit period with $0 coinsurance for days 1–60. With Medigap Plan G, you pay $0 out of pocket for inpatient hip replacement.",
+        answer: "The average cost of a hip replacement is $32,000–$44,000, but Medicare covers the majority. Under Part A, you pay the $1,736 deductible per benefit period with $0 coinsurance for days 1–60. With Medigap Plan G, you pay $0 out of pocket for inpatient hip replacement.",
       },
       {
         question: "Is there a limit on how many hip replacements Medicare will cover?",
@@ -14691,7 +14691,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Hip replacement surgery</strong> covered under Part A (inpatient) or Part B (outpatient)" },
       { icon: "x", text: "<strong>Stem cell injections</strong> are NOT covered (not FDA-approved)" },
       { icon: "info", text: "<strong>No limit</strong> on the number of hip replacements Medicare will cover" },
-      { icon: "dollar", text: "Inpatient hip replacement: <strong>$1,676 Part A deductible</strong> per benefit period (2026)" },
+      { icon: "dollar", text: "Inpatient hip replacement: <strong>$1,736 Part A deductible</strong> per benefit period (2026)" },
       { icon: "info", text: "<strong>Medigap Plan G</strong> covers Part A deductible and Part B coinsurance for hip procedures" },
     ],
     relatedTopics: [
@@ -14783,7 +14783,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Personal care when it is the only care you need (no skilled care required)",
           "Home health care from a non-Medicare-certified agency",
         ],
-        costNote: "Home health services: $0 (no deductible, no coinsurance). DME provided through home health: 20% coinsurance after $257 Part B deductible.",
+        costNote: "Home health services: $0 (no deductible, no coinsurance). DME provided through home health: 20% coinsurance after $283 Part B deductible.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -14859,7 +14859,7 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Service": "DME through home health",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost": "20% + $257 deductible",
+          "Your Cost": "20% + $283 deductible",
           "Notes": "Medigap Plan G covers the 20% coinsurance",
         },
         {
@@ -15008,7 +15008,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Lift chairs purchased from non-Medicare-approved suppliers",
           "Lift chairs for patients in SNFs, hospice, or nursing homes",
         ],
-        costNote: "Lifting mechanism: you pay 20% coinsurance after $257 Part B deductible (2026). Typical out-of-pocket for the mechanism: ~$350. Chair/seat portion: full cost out of pocket.",
+        costNote: "Lifting mechanism: you pay 20% coinsurance after $283 Part B deductible (2026). Typical out-of-pocket for the mechanism: ~$350. Chair/seat portion: full cost out of pocket.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -15036,7 +15036,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers the 20% Part B coinsurance for the lifting mechanism",
         paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for the lifting mechanism, potentially leaving you with zero out-of-pocket costs for the mechanism itself. With Medigap Plan G, your only cost for the lifting mechanism is the $257 annual Part B deductible.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) cover the 20% Part B coinsurance for the lifting mechanism, potentially leaving you with zero out-of-pocket costs for the mechanism itself. With Medigap Plan G, your only cost for the lifting mechanism is the $283 annual Part B deductible.",
           "Medigap cannot cover the chair/seat portion of the lift chair, as Original Medicare does not cover it. You will still pay the full cost of the chair itself out of pocket.",
         ],
         whatItCovers: [
@@ -15046,7 +15046,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "The chair / seat portion (not covered by Original Medicare)",
           "Reclining features",
         ],
-        costNote: "With Medigap Plan G, your cost for the lifting mechanism is the $257 annual Part B deductible only. The chair/seat portion is full cost out of pocket.",
+        costNote: "With Medigap Plan G, your cost for the lifting mechanism is the $283 annual Part B deductible only. The chair/seat portion is full cost out of pocket.",
       },
     ],
     costTable: {
@@ -15056,8 +15056,8 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Component": "Lifting mechanism",
           "Medicare Coverage": "80% after deductible",
-          "Your Cost (No Supplement)": "~$350 (20% + $257 deductible)",
-          "Your Cost (With Plan G)": "$257 deductible only",
+          "Your Cost (No Supplement)": "~$350 (20% + $283 deductible)",
+          "Your Cost (With Plan G)": "$283 deductible only",
         },
         {
           "Component": "Chair / seat portion",
@@ -15078,7 +15078,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Your Cost (With Plan G)": "$657–$2,257+",
         },
       ],
-      footnote: "Costs based on 2026 Medicare figures and industry estimates. Actual costs vary by chair type, brand, and supplier. Part B deductible: $257/year.",
+      footnote: "Costs based on 2026 Medicare figures and industry estimates. Actual costs vary by chair type, brand, and supplier. Part B deductible: $283/year.",
     },
     exceptionsSection: {
       title: "Types of Lift Chairs and How to Get Approved",
@@ -15101,7 +15101,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does a lift chair cost after Medicare pays?",
-        answer: "After Medicare pays its share of the lifting mechanism, you typically pay around $350 for the mechanism (20% coinsurance + deductible) plus the full cost of the chair portion ($400–$2,000+). With Medigap Plan G, your mechanism cost drops to the $257 annual deductible only.",
+        answer: "After Medicare pays its share of the lifting mechanism, you typically pay around $350 for the mechanism (20% coinsurance + deductible) plus the full cost of the chair portion ($400–$2,000+). With Medigap Plan G, your mechanism cost drops to the $283 annual deductible only.",
       },
       {
         question: "Does Medicare cover sleep chairs?",
@@ -15200,7 +15200,7 @@ export const coverageArticles: CoverageArticleData[] = [
 
         coverageType: "covered",        paragraphs: [
           "Covers inpatient hospital stays for pain management treatments and surgery",
-          "You pay the Part A deductible ($1,676 in 2025) for the first 60 days",
+          "You pay the Part A deductible ($1,736 in 2025) for the first 60 days",
           "Covers skilled nursing facility stays for rehabilitation after surgery",
           "Includes hospital services, anesthesia, and surgical procedures",
         ],
@@ -15213,7 +15213,7 @@ export const coverageArticles: CoverageArticleData[] = [
 
         coverageType: "covered",        paragraphs: [
           "Covers outpatient pain management services when medically necessary",
-          "You pay the Part B deductible ($257 in 2025) then 20% coinsurance",
+          "You pay the Part B deductible ($283 in 2025) then 20% coinsurance",
           "Covers physical therapy, chiropractic manipulation, and injections",
           "Cortisone injections typically covered without prior authorization",
           "Epidural steroid injections covered after failed alternative treatments",
@@ -15254,7 +15254,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Item": "Epidural steroid injection", "Estimated Cost": "20% coinsurance after deductible" },
         { "Item": "Radiofrequency ablation (RFA)", "Estimated Cost": "20% coinsurance after deductible" },
         { "Item": "Physical therapy session", "Estimated Cost": "20% coinsurance after deductible" },
-        { "Item": "Inpatient surgery (Part A)", "Estimated Cost": "$1,676 deductible (2025)" },
+        { "Item": "Inpatient surgery (Part A)", "Estimated Cost": "$1,736 deductible (2025)" },
         { "Item": "Pain medications (Part D)", "Estimated Cost": "Varies by formulary tier and plan" },
       ],
     },
@@ -15394,7 +15394,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Covers doctors' services for the transplant in outpatient settings",
           "May cover immunosuppressive (anti-rejection) drugs in some circumstances",
           "Covers annual lung cancer screenings at 100% for eligible beneficiaries",
-          "You pay the Part B deductible ($257 in 2025) then 20% coinsurance",
+          "You pay the Part B deductible ($283 in 2025) then 20% coinsurance",
         ],
       },
       {
@@ -15429,11 +15429,11 @@ export const coverageArticles: CoverageArticleData[] = [
       headers: ["Item", "Estimated Cost"],
       rows: [
         { "Item": "Bilateral lung transplant (total cost)", "Estimated Cost": "Up to $1,000,000" },
-        { "Item": "Part A deductible (2025)", "Estimated Cost": "$1,676 per benefit period" },
-        { "Item": "Part B deductible (2025)", "Estimated Cost": "$257 annually" },
+        { "Item": "Part A deductible (2025)", "Estimated Cost": "$1,736 per benefit period" },
+        { "Item": "Part B deductible (2025)", "Estimated Cost": "$283 annually" },
         { "Item": "Part B coinsurance", "Estimated Cost": "20% of Medicare-approved amount" },
         { "Item": "Anti-rejection drugs (Part D)", "Estimated Cost": "Varies by formulary tier" },
-        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($257)" },
+        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($283)" },
       ],
     },
     exceptionsSection: {
@@ -15454,7 +15454,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does a lung transplant cost with Medicare?",
-        answer: "A bilateral lung transplant can cost up to $1 million. With Original Medicare, you pay the Part A deductible ($1,676 in 2025) for the hospital stay and 20% coinsurance for Part B services. A Medigap plan can significantly reduce your out-of-pocket costs.",
+        answer: "A bilateral lung transplant can cost up to $1 million. With Original Medicare, you pay the Part A deductible ($1,736 in 2025) for the hospital stay and 20% coinsurance for Part B services. A Medigap plan can significantly reduce your out-of-pocket costs.",
       },
       {
         question: "Does Medicare pay for anti-rejection drugs?",
@@ -15565,7 +15565,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",        paragraphs: [
           "Covers oxygen therapy during inpatient hospital stays",
           "Covers oxygen therapy in skilled nursing facilities",
-          "Part A deductible applies ($1,676 in 2025)",
+          "Part A deductible applies ($1,736 in 2025)",
           "Inpatient oxygen is included in the hospital stay cost",
         ],
       },
@@ -15600,11 +15600,11 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Oxygen Therapy Cost Estimates",
       headers: ["Item", "Estimated Cost"],
       rows: [
-        { "Item": "Part B deductible (2025)", "Estimated Cost": "$257 annually" },
+        { "Item": "Part B deductible (2025)", "Estimated Cost": "$283 annually" },
         { "Item": "Oxygen equipment rental (your share)", "Estimated Cost": "20% of Medicare-approved amount" },
         { "Item": "Monthly oxygen supplies", "Estimated Cost": "20% coinsurance (included in rental)" },
         { "Item": "Equipment servicing (after 36 months)", "Estimated Cost": "20% coinsurance every 6 months" },
-        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($257/year)" },
+        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($283/year)" },
         { "Item": "Purchased equipment (not recommended)", "Estimated Cost": "Higher out-of-pocket; rental is more cost-effective" },
       ],
     },
@@ -15630,7 +15630,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does oxygen therapy cost with Medicare?",
-        answer: "After meeting the Part B deductible ($257 in 2025), you pay 20% of the Medicare-approved rental amount. Your exact cost depends on the equipment type and supplier. A Medigap plan can cover the 20% coinsurance.",
+        answer: "After meeting the Part B deductible ($283 in 2025), you pay 20% of the Medicare-approved rental amount. Your exact cost depends on the equipment type and supplier. A Medigap plan can cover the 20% coinsurance.",
       },
       {
         question: "What oxygen saturation level qualifies for Medicare coverage?",
@@ -15724,7 +15724,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",        paragraphs: [
           "Covers inpatient hospital stay for pacemaker insertion surgery",
           "Covers complications that may arise during surgery",
-          "You pay the Part A deductible ($1,676 in 2025) for the hospital stay",
+          "You pay the Part A deductible ($1,736 in 2025) for the hospital stay",
           "Covers skilled nursing facility care if needed after surgery",
         ],
       },
@@ -15738,7 +15738,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Covers outpatient pacemaker procedures and doctors' services",
           "Covers regular pacemaker checks (6 weeks post-op, then every 3–6 months)",
           "Covers transtelephonic pacemaker monitoring",
-          "You pay the Part B deductible ($257 in 2025) then 20% coinsurance",
+          "You pay the Part B deductible ($283 in 2025) then 20% coinsurance",
         ],
       },
       {
@@ -15773,10 +15773,10 @@ export const coverageArticles: CoverageArticleData[] = [
       headers: ["Item", "Estimated Cost"],
       rows: [
         { "Item": "Pacemaker surgery (total cost)", "Estimated Cost": "$50,000–$100,000+" },
-        { "Item": "Part A deductible (2025)", "Estimated Cost": "$1,676 per benefit period" },
+        { "Item": "Part A deductible (2025)", "Estimated Cost": "$1,736 per benefit period" },
         { "Item": "Part B coinsurance (without Medigap)", "Estimated Cost": "20% of Medicare-approved amount" },
         { "Item": "Your cost without Medigap (example)", "Estimated Cost": "~$18,000+ for a $90,000 procedure" },
-        { "Item": "Your cost with Medigap Plan G", "Estimated Cost": "Part B deductible only ($257)" },
+        { "Item": "Your cost with Medigap Plan G", "Estimated Cost": "Part B deductible only ($283)" },
         { "Item": "Battery replacement", "Estimated Cost": "Covered; same cost-sharing as original surgery" },
       ],
     },
@@ -15798,7 +15798,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How much does a pacemaker cost with Medicare?",
-        answer: "Pacemaker surgery can cost $50,000–$100,000+. With Original Medicare alone, you could pay 20% coinsurance (potentially $18,000+ for a $90,000 procedure). With a Medigap plan, your cost may be reduced to just the Part B deductible ($257 in 2025).",
+        answer: "Pacemaker surgery can cost $50,000–$100,000+. With Original Medicare alone, you could pay 20% coinsurance (potentially $18,000+ for a $90,000 procedure). With a Medigap plan, your cost may be reduced to just the Part B deductible ($283 in 2025).",
       },
       {
         question: "How often should pacemaker checks be done?",
@@ -15896,7 +15896,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",        paragraphs: [
           "Covers physical therapy during inpatient hospital stays",
           "Covers PT in a skilled nursing facility after a 3-day hospital stay",
-          "You pay the Part A deductible ($1,676 in 2025)",
+          "You pay the Part A deductible ($1,736 in 2025)",
           "Includes PT as part of your overall inpatient care",
         ],
       },
@@ -15911,7 +15911,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Covers at-home physical therapy services",
           "No annual cap on the number of PT sessions",
           "$2,480 threshold for PT + speech therapy combined triggers medical necessity review",
-          "You pay the Part B deductible ($257 in 2025) then 20% coinsurance",
+          "You pay the Part B deductible ($283 in 2025) then 20% coinsurance",
         ],
       },
       {
@@ -15945,11 +15945,11 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Physical Therapy Cost Estimates",
       headers: ["Item", "Estimated Cost"],
       rows: [
-        { "Item": "Part B deductible (2025)", "Estimated Cost": "$257 annually" },
+        { "Item": "Part B deductible (2025)", "Estimated Cost": "$283 annually" },
         { "Item": "Outpatient PT session (your share)", "Estimated Cost": "20% of Medicare-approved amount" },
-        { "Item": "Inpatient PT (Part A)", "Estimated Cost": "Included in hospital stay; $1,676 deductible" },
+        { "Item": "Inpatient PT (Part A)", "Estimated Cost": "Included in hospital stay; $1,736 deductible" },
         { "Item": "SNF physical therapy", "Estimated Cost": "Covered after 3-day hospital stay" },
-        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($257/year)" },
+        { "Item": "With Medigap Plan G", "Estimated Cost": "Part B deductible only ($283/year)" },
         { "Item": "Medical necessity review threshold", "Estimated Cost": "$2,480 (PT + speech therapy combined)" },
       ],
     },
@@ -16083,7 +16083,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Procedures solely to alter appearance",
           "Plastic surgery after Mohs surgery (in most cases)",
         ],
-        costNote: "Part A: $1,676 deductible per benefit period (2025). Part B: 20% coinsurance after $257 annual deductible.",
+        costNote: "Part A: $1,736 deductible per benefit period (2025). Part B: 20% coinsurance after $283 annual deductible.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -16257,7 +16257,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "PSA tests before age 50 (unless medically necessary)",
           "Elective or non-medically necessary repeat screenings",
         ],
-        costNote: "Annual PSA screening: $0. Treatment costs: Part A deductible $1,676 (2025); Part B 20% coinsurance after $257 deductible.",
+        costNote: "Annual PSA screening: $0. Treatment costs: Part A deductible $1,736 (2025); Part B 20% coinsurance after $283 deductible.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -16600,7 +16600,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Long-term custodial care (bathing, feeding, toileting)",
           "24-hour home care or personal care aides",
         ],
-        costNote: "Part A: $1,676 deductible; days 1-60 $0 coinsurance; days 61-90 $419/day. Part B: 20% coinsurance after $257 deductible. SNF: days 1-20 $0; days 21-100 $204.50/day.",
+        costNote: "Part A: $1,736 deductible; days 1-60 $0 coinsurance; days 61-90 $419/day. Part B: 20% coinsurance after $283 deductible. SNF: days 1-20 $0; days 21-100 $204.50/day.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -16640,7 +16640,7 @@ export const coverageArticles: CoverageArticleData[] = [
       headers: ["Service", "Average Cost", "Medicare Coverage"],
       rows: [
         { "Service": "First-year stroke rehabilitation (total)", "Average Cost": "$17,000+", "Medicare Coverage": "Covered (cost-sharing applies)" },
-        { "Service": "Inpatient hospital stay (Part A)", "Average Cost": "Varies", "Medicare Coverage": "$1,676 deductible; $0/day (days 1-60)" },
+        { "Service": "Inpatient hospital stay (Part A)", "Average Cost": "Varies", "Medicare Coverage": "$1,736 deductible; $0/day (days 1-60)" },
         { "Service": "Skilled nursing facility (days 21-100)", "Average Cost": "$204.50/day coinsurance", "Medicare Coverage": "Covered with coinsurance" },
         { "Service": "Outpatient therapy (per session)", "Average Cost": "$100 – $300", "Medicare Coverage": "80% after Part B deductible" },
         { "Service": "DME (walker/wheelchair)", "Average Cost": "$100 – $3,000+", "Medicare Coverage": "80% after Part B deductible" },
@@ -16774,7 +16774,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Devices from suppliers who don't accept Medicare",
           "Upgrades or features beyond medical necessity",
         ],
-        costNote: "You pay 20% of the Medicare-approved amount after the Part B deductible ($257 in 2025). Medicare pays the remaining 80%.",
+        costNote: "You pay 20% of the Medicare-approved amount after the Part B deductible ($283 in 2025). Medicare pays the remaining 80%.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -16943,7 +16943,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Testing not ordered by a Medicare-enrolled provider",
           "Screenings at facilities not enrolled in Medicare",
         ],
-        costNote: "Preventive screenings: $0 with Medicare assignment. Treatment: 20% coinsurance after $257 annual deductible (2025).",
+        costNote: "Preventive screenings: $0 with Medicare assignment. Treatment: 20% coinsurance after $283 annual deductible (2025).",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -17131,7 +17131,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Procedures not deemed medically necessary",
           "Most dental surgery (except jaw-related conditions)",
         ],
-        costNote: "Part A: $1,676 deductible per benefit period (2025). Part B: 20% coinsurance after $257 annual deductible.",
+        costNote: "Part A: $1,736 deductible per benefit period (2025). Part B: 20% coinsurance after $283 annual deductible.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -17318,7 +17318,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Homeopathic medicine or functional medicine",
           "Medical marijuana or CBD products",
         ],
-        costNote: "Covered services: 20% coinsurance after $257 annual deductible (2025). Naturopathic services: 100% out-of-pocket.",
+        costNote: "Covered services: 20% coinsurance after $283 annual deductible (2025). Naturopathic services: 100% out-of-pocket.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -17501,7 +17501,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Equipment from suppliers who do not accept Medicare",
           "Nebulizers purchased without a medical necessity determination",
         ],
-        costNote: "20% coinsurance after $257 annual Part B deductible (2025). Medigap covers the 20% coinsurance.",
+        costNote: "20% coinsurance after $283 annual Part B deductible (2025). Medigap covers the 20% coinsurance.",
       },
       {
         planName: "Medicare Advantage (Part C)",

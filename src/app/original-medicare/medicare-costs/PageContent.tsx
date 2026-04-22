@@ -14,15 +14,15 @@ import ZipFormModal from "@/components/ZipFormModal";
 const faqs = [
   {
     q: "How much does Medicare cost per month in 2026?",
-    a: "The standard Medicare Part B premium in 2026 is $185.00/month. Most people pay $0 for Part A if they or their spouse worked at least 10 years. Medicare Advantage (Part C) plans have varying premiums — some are $0/month beyond Part B. Part D drug plan premiums average around $35–$55/month depending on the plan.",
+    a: "The standard Medicare Part B premium in 2026 is $202.90/month. Most people pay $0 for Part A if they or their spouse worked at least 10 years. Medicare Advantage (Part C) plans have varying premiums — some are $0/month beyond Part B. Part D drug plan premiums average around $35–$55/month depending on the plan.",
   },
   {
     q: "What is the Medicare Part B deductible for 2026?",
-    a: "The Medicare Part B deductible for 2026 is $257/year. After meeting this deductible, Medicare typically pays 80% of covered services and you pay the remaining 20% coinsurance — with no out-of-pocket maximum under Original Medicare.",
+    a: "The Medicare Part B deductible for 2026 is $283/year. After meeting this deductible, Medicare typically pays 80% of covered services and you pay the remaining 20% coinsurance — with no out-of-pocket maximum under Original Medicare.",
   },
   {
     q: "What is the Medicare Part A deductible for 2026?",
-    a: "The Medicare Part A deductible for 2026 is $1,676 per benefit period. This is not an annual deductible — it applies per benefit period (a hospital stay plus 60 days after discharge). If you are hospitalized more than once in a year and each stay begins a new benefit period, you could pay the deductible multiple times.",
+    a: "The Medicare Part A deductible for 2026 is $1,736 per benefit period. This is not an annual deductible — it applies per benefit period (a hospital stay plus 60 days after discharge). If you are hospitalized more than once in a year and each stay begins a new benefit period, you could pay the deductible multiple times.",
   },
   {
     q: "Do higher-income people pay more for Medicare?",
@@ -94,13 +94,13 @@ export default function MedicareCosts() {
                 <tr className="border-b border-gray-200">
                   <td className="p-3 font-semibold"><Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-[#0D9488] hover:underline">Part A (Hospital)</Link></td>
                   <td className="p-3">$0 (most people)</td>
-                  <td className="p-3">$1,676/benefit period</td>
+                  <td className="p-3">$1,736/benefit period</td>
                   <td className="p-3">Days 61–90: $419/day; Days 91+: $838/day</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-gray-50">
                   <td className="p-3 font-semibold"><Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-[#0D9488] hover:underline">Part B (Medical)</Link></td>
-                  <td className="p-3">$185.00/month</td>
-                  <td className="p-3">$257/year</td>
+                  <td className="p-3">$202.90/month</td>
+                  <td className="p-3">$283/year</td>
                   <td className="p-3">20% of Medicare-approved amount</td>
                 </tr>
                 <tr className="border-b border-gray-200">
@@ -112,7 +112,7 @@ export default function MedicareCosts() {
                 <tr className="bg-gray-50">
                   <td className="p-3 font-semibold"><Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-[#0D9488] hover:underline">Part D (Drugs)</Link></td>
                   <td className="p-3">Avg ~$35–$55/month</td>
-                  <td className="p-3">Up to $590/year</td>
+                  <td className="p-3">Up to $615/year</td>
                   <td className="p-3">$2,000 OOP cap (2025+)</td>
                 </tr>
               </tbody>
@@ -129,7 +129,7 @@ export default function MedicareCosts() {
             Most people pay <strong>$0/month for Part A</strong> if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). If you don't meet the work requirement, you can still enroll but will pay up to <strong>$518/month</strong> in 2026.
           </p>
           <p className="text-gray-700">
-            The Part A deductible is <strong>$1,676 per benefit period</strong> — not per year. A benefit period begins when you're admitted to a hospital and ends 60 days after discharge. If you're readmitted after 60 days, a new benefit period begins and you owe the deductible again.
+            The Part A deductible is <strong>$1,736 per benefit period</strong> — not per year. A benefit period begins when you're admitted to a hospital and ends 60 days after discharge. If you're readmitted after 60 days, a new benefit period begins and you owe the deductible again.
           </p>
         </section>
 
@@ -139,7 +139,7 @@ export default function MedicareCosts() {
             <Link href="/original-medicare/medicare-parts/medicare-part-b" className="hover:underline">Medicare Part B Cost</Link>
           </h2>
           <p className="text-gray-700 mb-4">
-            The standard 2026 Part B premium is <strong>$185.00/month</strong>. After meeting the <strong>$257 annual deductible</strong>, Medicare pays 80% of covered services and you pay 20% — with no out-of-pocket cap. This 20% coinsurance is unlimited, which is why many beneficiaries add a <Link href="/medicare-supplements" className="text-[#0D9488] hover:underline">Medigap supplement plan</Link>.
+            The standard 2026 Part B premium is <strong>$202.90/month</strong>. After meeting the <strong>$283 annual deductible</strong>, Medicare pays 80% of covered services and you pay 20% — with no out-of-pocket cap. This 20% coinsurance is unlimited, which is why many beneficiaries add a <Link href="/medicare-supplements" className="text-[#0D9488] hover:underline">Medigap supplement plan</Link>.
           </p>
         </section>
 

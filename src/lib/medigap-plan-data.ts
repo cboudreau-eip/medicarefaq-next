@@ -38,8 +38,8 @@ export interface MedigapPlanData {
 }
 
 // 2026 Medicare cost constants
-const PART_A_DEDUCTIBLE = "$1,676";
-const PART_B_DEDUCTIBLE = "$257";
+const PART_A_DEDUCTIBLE = "$1,736";
+const PART_B_DEDUCTIBLE = "$283";
 const PART_B_EXCESS = "Part B excess charges";
 const SNF_COINSURANCE = "Skilled nursing facility coinsurance";
 
@@ -188,7 +188,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       },
       {
         q: "What is High Deductible Plan F?",
-        a: `High Deductible Plan F (HD-F) works the same as Plan F but requires you to pay a deductible ($2,870 in 2026) before the plan pays anything. In exchange, premiums are significantly lower — often $30–$80/month. HD-F is also only available to those eligible for Medicare before January 1, 2020.`,
+        a: `High Deductible Plan F (HD-F) works the same as Plan F but requires you to pay a deductible ($2,950 in 2026) before the plan pays anything. In exchange, premiums are significantly lower — often $30–$80/month. HD-F is also only available to those eligible for Medicare before January 1, 2020.`,
       },
       {
         q: "Will Plan F be discontinued?",
@@ -244,7 +244,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     proscons: {
       pros: [
         "Significantly lower premiums than Plan G — often $50–$100/month less",
-        "Covers the large Part A deductible ($1,676) in full",
+        "Covers the large Part A deductible ($1,736) in full",
         "No network restrictions — any Medicare-accepting provider",
         "Includes foreign travel emergency coverage",
         "Good option if you're healthy and rarely need medical care",
@@ -396,7 +396,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     ],
     proscons: {
       pros: [
-        "Covers the significant Part A deductible ($1,676)",
+        "Covers the significant Part A deductible ($1,736)",
         "Full skilled nursing facility coinsurance coverage",
         "Foreign travel emergency included",
         "Lower premiums than Plan G",
@@ -457,7 +457,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: "Foreign travel emergency", covered: "none" },
     ],
     highlights: [
-      "Covers the Part A deductible ($1,676 in 2026)",
+      "Covers the Part A deductible ($1,736 in 2026)",
       "Covers Part A hospital coinsurance and Part B coinsurance",
       "Does NOT cover skilled nursing facility coinsurance",
       "Does NOT cover foreign travel emergency",
@@ -534,7 +534,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
         "Available from all Medigap insurers",
       ],
       cons: [
-        "Does not cover the Part A deductible ($1,676) — significant exposure for hospital stays",
+        "Does not cover the Part A deductible ($1,736) — significant exposure for hospital stays",
         "No skilled nursing facility coverage",
         "No foreign travel emergency coverage",
         "Most people get better value from Plan G or Plan N",
@@ -550,7 +550,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     intro: "Medicare Supplement Plan A is the most basic Medigap plan, covering only the core Medicare cost-sharing benefits. It has the lowest premium of any Medigap plan but leaves significant gaps — including the Part A deductible and skilled nursing facility costs.",
     detailParagraphs: [
       "Plan A is the baseline Medigap plan that all insurers are required to offer. It covers Part A hospital coinsurance (including extended stays beyond Medicare's 60-day limit) and Part B coinsurance, but nothing else.",
-      "The most significant gap in Plan A is the Part A deductible ($1,676 in 2026). A single hospital admission triggers this deductible, and Plan A provides no protection against it. For most people, the premium difference between Plan A and Plan N is modest enough that Plan N is the clearly better choice.",
+      "The most significant gap in Plan A is the Part A deductible ($1,736 in 2026). A single hospital admission triggers this deductible, and Plan A provides no protection against it. For most people, the premium difference between Plan A and Plan N is modest enough that Plan N is the clearly better choice.",
     ],
   },
 
@@ -761,7 +761,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     badge: "Low Premium",
     badgeColor: "bg-emerald-600",
     monthlyPremiumRange: "$30–$80/mo",
-    outOfPocketMax: "$2,870 (2026 deductible)",
+    outOfPocketMax: "$2,950 (2026 deductible)",
     bestFor: "Healthy enrollees who want Plan G's comprehensive coverage at a much lower premium",
     notFor: "People with frequent medical needs who would regularly hit the deductible",
     availableToNewEnrollees: true,
@@ -780,7 +780,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     highlights: [
       "Premiums typically 60–75% lower than standard Plan G",
       "Same comprehensive coverage as Plan G — after the deductible",
-      "Annual deductible: $2,870 in 2026",
+      "Annual deductible: $2,950 in 2026",
       "Covers Part B excess charges (unlike Plan N)",
       "Ideal for healthy enrollees who rarely need care",
     ],
@@ -793,7 +793,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
         "Includes foreign travel emergency",
       ],
       cons: [
-        "You pay all Medicare costs until you reach the $2,870 deductible",
+        "You pay all Medicare costs until you reach the $2,950 deductible",
         "Can be expensive in years with significant medical needs",
         "Requires financial discipline — must be able to cover deductible if needed",
         "Less predictable costs than standard Plan G",
@@ -802,11 +802,11 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     faqs: [
       {
         q: "What is the deductible for High Deductible Plan G in 2026?",
-        a: "The High Deductible Plan G deductible is $2,870 in 2026. This amount is adjusted annually by CMS. You must pay this deductible before Plan G begins covering your Medicare cost-sharing.",
+        a: "The High Deductible Plan G deductible is $2,950 in 2026. This amount is adjusted annually by CMS. You must pay this deductible before Plan G begins covering your Medicare cost-sharing.",
       },
       {
         q: "Is High Deductible Plan G worth it?",
-        a: "HD-G makes financial sense if your annual premium savings exceed your expected out-of-pocket costs. For example, if HD-G saves you $150/month ($1,800/year) compared to standard Plan G, and your typical annual medical costs are under $2,870, you'll likely come out ahead. It's best for healthy people who rarely need care.",
+        a: "HD-G makes financial sense if your annual premium savings exceed your expected out-of-pocket costs. For example, if HD-G saves you $150/month ($1,800/year) compared to standard Plan G, and your typical annual medical costs are under $2,950, you'll likely come out ahead. It's best for healthy people who rarely need care.",
       },
       {
         q: "How does HD-G compare to a Medicare Advantage plan?",
@@ -814,10 +814,10 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       },
     ],
     relatedPlans: ["plan-g", "high-deductible-plan-f", "plan-n"],
-    intro: "High Deductible Plan G (HD-G) offers the same comprehensive coverage as standard Plan G but requires you to pay a deductible ($2,870 in 2026) before the plan begins covering your Medicare costs. In exchange, premiums are dramatically lower — often $30–$80/month compared to $100–$300 for standard Plan G.",
+    intro: "High Deductible Plan G (HD-G) offers the same comprehensive coverage as standard Plan G but requires you to pay a deductible ($2,950 in 2026) before the plan begins covering your Medicare costs. In exchange, premiums are dramatically lower — often $30–$80/month compared to $100–$300 for standard Plan G.",
     detailParagraphs: [
       "HD-G was introduced in 2020 as an alternative to High Deductible Plan F (which became unavailable to new enrollees). It functions identically to standard Plan G once the deductible is met — covering 100% of Medicare-approved costs including Part B excess charges and foreign travel emergency.",
-      "The financial math for HD-G is straightforward: compare your annual premium savings to your expected out-of-pocket costs. If you save $1,800/year in premiums and typically spend less than $2,870 in Medicare cost-sharing, HD-G comes out ahead. Many healthy Medicare beneficiaries find that they never come close to hitting the deductible.",
+      "The financial math for HD-G is straightforward: compare your annual premium savings to your expected out-of-pocket costs. If you save $1,800/year in premiums and typically spend less than $2,950 in Medicare cost-sharing, HD-G comes out ahead. Many healthy Medicare beneficiaries find that they never come close to hitting the deductible.",
       "HD-G is particularly attractive for people who are newly eligible for Medicare and in good health. The premium savings can be invested or used to build a health savings buffer. As you age and healthcare needs increase, you can always switch to standard Plan G (subject to medical underwriting outside your initial enrollment period).",
     ],
   },
@@ -835,7 +835,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     badge: "Pre-2020 Only",
     badgeColor: "bg-violet-500",
     monthlyPremiumRange: "$30–$80/mo",
-    outOfPocketMax: "$2,870 (2026 deductible)",
+    outOfPocketMax: "$2,950 (2026 deductible)",
     bestFor: "Pre-2020 Medicare enrollees who want Plan F coverage at a lower premium",
     notFor: "Anyone newly eligible for Medicare after January 1, 2020",
     availableToNewEnrollees: false,
@@ -853,7 +853,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     ],
     highlights: [
       "Same coverage as Plan F — including Part B deductible — after plan deductible",
-      "Annual deductible: $2,870 in 2026",
+      "Annual deductible: $2,950 in 2026",
       "Premiums typically 60–75% lower than standard Plan F",
       "Only available to those eligible for Medicare before January 1, 2020",
       "Covers Part B excess charges (after deductible)",
@@ -867,7 +867,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       ],
       cons: [
         "Not available to new Medicare enrollees",
-        "You pay all Medicare costs until the $2,870 deductible is reached",
+        "You pay all Medicare costs until the $2,950 deductible is reached",
         "Shrinking risk pool may cause faster premium increases",
         "HD-G is available to all enrollees and offers similar savings",
       ],
@@ -875,13 +875,13 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     faqs: [
       {
         q: "What is the difference between HD-F and HD-G?",
-        a: "HD-F covers the Part B deductible (after the plan deductible) while HD-G does not. HD-F is only available to those eligible for Medicare before January 1, 2020. HD-G is available to all new enrollees. For most people, HD-G is the better choice since the Part B deductible is only $257 and HD-G is available to everyone.",
+        a: "HD-F covers the Part B deductible (after the plan deductible) while HD-G does not. HD-F is only available to those eligible for Medicare before January 1, 2020. HD-G is available to all new enrollees. For most people, HD-G is the better choice since the Part B deductible is only $283 and HD-G is available to everyone.",
       },
     ],
     relatedPlans: ["plan-f", "high-deductible-plan-g", "plan-g"],
-    intro: "High Deductible Plan F (HD-F) offers the same comprehensive coverage as standard Plan F — including the Part B deductible — but requires you to pay a deductible ($2,870 in 2026) before coverage begins. Like Plan F, HD-F is only available to people who were eligible for Medicare before January 1, 2020.",
+    intro: "High Deductible Plan F (HD-F) offers the same comprehensive coverage as standard Plan F — including the Part B deductible — but requires you to pay a deductible ($2,950 in 2026) before coverage begins. Like Plan F, HD-F is only available to people who were eligible for Medicare before January 1, 2020.",
     detailParagraphs: [
-      "HD-F is essentially Plan F with a high deductible in exchange for lower premiums. Once you've paid the $2,870 deductible, HD-F covers 100% of Medicare-approved costs — including the Part B deductible and excess charges.",
+      "HD-F is essentially Plan F with a high deductible in exchange for lower premiums. Once you've paid the $2,950 deductible, HD-F covers 100% of Medicare-approved costs — including the Part B deductible and excess charges.",
       "For people currently on standard Plan F with high premiums, HD-F can offer significant savings. The premium difference between standard Plan F and HD-F is often $100–$150/month, which can easily exceed the deductible in years with minimal healthcare use.",
     ],
   },

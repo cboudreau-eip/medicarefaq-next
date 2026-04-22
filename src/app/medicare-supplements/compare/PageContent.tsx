@@ -33,7 +33,7 @@ const BENEFIT_ROWS: BenefitRow[] = [
     coverage: { A: "✓", B: "✓", C: "✓", D: "✓", F: "✓", G: "✓", K: "50%", L: "75%", M: "✓", N: "✓", "HD-F": "✓", "HD-G": "✓" },
   },
   {
-    benefit: `Part A Deductible ($1,676)`,
+    benefit: `Part A Deductible ($1,736)`,
     coverage: { A: "✗", B: "✓", C: "✓", D: "✓", F: "✓", G: "✓", K: "50%", L: "75%", M: "50%", N: "✓", "HD-F": "✓", "HD-G": "✓" },
   },
   {
@@ -42,7 +42,7 @@ const BENEFIT_ROWS: BenefitRow[] = [
     note: "† Plan N: up to $20 office visit copay, up to $50 ER copay",
   },
   {
-    benefit: `Part B Deductible ($257)`,
+    benefit: `Part B Deductible ($283)`,
     coverage: { A: "✗", B: "✗", C: "✓", D: "✗", F: "✓", G: "✗", K: "✗", L: "✗", M: "✗", N: "✗", "HD-F": "✓", "HD-G": "✗" },
   },
   {
@@ -197,7 +197,7 @@ export default function PageContent() {
             High Deductible Plans
           </h2>
           <p className="text-slate-500 text-sm mb-6">
-            High Deductible plans offer the same coverage as their standard counterparts after you meet the annual deductible ($2,870 in 2026).
+            High Deductible plans offer the same coverage as their standard counterparts after you meet the annual deductible ($2,950 in 2026).
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -206,7 +206,7 @@ export default function PageContent() {
                 letter: "HD-G",
                 available: true,
                 premium: "$30–$80/mo",
-                deductible: "$2,870 (2026)",
+                deductible: "$2,950 (2026)",
                 desc: "Same comprehensive coverage as Plan G after the deductible. Available to all new enrollees. Best for healthy people who want very low premiums.",
               },
               {
@@ -214,7 +214,7 @@ export default function PageContent() {
                 letter: "HD-F",
                 available: false,
                 premium: "$30–$80/mo",
-                deductible: "$2,870 (2026)",
+                deductible: "$2,950 (2026)",
                 desc: "Same comprehensive coverage as Plan F (including Part B deductible) after the plan deductible. Only available to those eligible before January 1, 2020.",
               },
             ].map((p) => (

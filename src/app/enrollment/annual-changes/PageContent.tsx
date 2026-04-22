@@ -267,9 +267,9 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     </thead>
                     <tbody>
                       {[
-                        { item: "Part B Monthly Premium", y2025: "$185.00", y2026: "$185.00", change: "No change", color: "text-green-700" },
-                        { item: "Part B Annual Deductible", y2025: "$257", y2026: "$257", change: "No change", color: "text-green-700" },
-                        { item: "Part A Hospital Deductible", y2025: "$1,676", y2026: "$1,676", change: "No change", color: "text-green-700" },
+                        { item: "Part B Monthly Premium", y2025: "$202.90", y2026: "$202.90", change: "No change", color: "text-green-700" },
+                        { item: "Part B Annual Deductible", y2025: "$283", y2026: "$283", change: "No change", color: "text-green-700" },
+                        { item: "Part A Hospital Deductible", y2025: "$1,736", y2026: "$1,736", change: "No change", color: "text-green-700" },
                         { item: "Part A Coinsurance (Days 61–90)", y2025: "$419/day", y2026: "$419/day", change: "No change", color: "text-green-700" },
                         { item: "Part D Out-of-Pocket Cap", y2025: "$2,000", y2026: "$2,000", change: "New cap", color: "text-blue-700" },
                         { item: "Part A Premium (if applicable)", y2025: "$518/mo", y2026: "$518/mo", change: "No change", color: "text-green-700" },

@@ -47,7 +47,7 @@ const tableOfContents = [
 const partACosts = [
   { item: "Part A Premium", amount: "$0", note: "For most people (40+ quarters of work)" },
   { item: "Part A Premium (no work history)", amount: "$518/mo", note: "If you don't qualify for premium-free Part A" },
-  { item: "Hospital Deductible", amount: "$1,676", note: "Per benefit period (not per year)" },
+  { item: "Hospital Deductible", amount: "$1,736", note: "Per benefit period (not per year)" },
   { item: "Days 1–60 Coinsurance", amount: "$0/day", note: "After meeting the deductible" },
   { item: "Days 61–90 Coinsurance", amount: "$419/day", note: "For each day of inpatient hospital stay" },
   { item: "Lifetime Reserve Days (91+)", amount: "$838/day", note: "60 lifetime reserve days total" },
@@ -55,8 +55,8 @@ const partACosts = [
 ];
 
 const partBCosts = [
-  { item: "Standard Monthly Premium", amount: "$185/mo", note: "Most beneficiaries pay this amount" },
-  { item: "Annual Deductible", amount: "$257", note: "Must be met before Medicare pays" },
+  { item: "Standard Monthly Premium", amount: "$202.90/mo", note: "Most beneficiaries pay this amount" },
+  { item: "Annual Deductible", amount: "$283", note: "Must be met before Medicare pays" },
   { item: "Coinsurance", amount: "20%", note: "You pay 20% of Medicare-approved amount after deductible" },
   { item: "Outpatient Surgery", amount: "20%", note: "After deductible, in Medicare-approved facilities" },
   { item: "Doctor Visits", amount: "20%", note: "After deductible for office and specialist visits" },
@@ -65,14 +65,14 @@ const partBCosts = [
 
 const partDCosts = [
   { item: "Average Monthly Premium", amount: "~$36.78/mo", note: "Varies by plan and location" },
-  { item: "Annual Deductible", amount: "Up to $590", note: "Some plans have $0 deductible" },
+  { item: "Annual Deductible", amount: "Up to $615", note: "Some plans have $0 deductible" },
   { item: "Initial Coverage Phase", amount: "25% coinsurance", note: "Until drug costs reach $5,030" },
   { item: "Coverage Gap (Donut Hole)", amount: "$0 for generics", note: "Eliminated for brand-name drugs in 2025; $2,000 OOP cap in 2026" },
   { item: "Out-of-Pocket Cap", amount: "$2,000", note: "New for 2025 — maximum you pay annually for Part D drugs" },
 ];
 
 const irmaaBrackets = [
-  { income: "$106,000 or less (single) / $212,000 or less (joint)", partB: "$185.00", partD: "$0.00" },
+  { income: "$106,000 or less (single) / $212,000 or less (joint)", partB: "$202.90", partD: "$0.00" },
   { income: "$106,001–$133,000 / $212,001–$266,000", partB: "$259.00", partD: "$13.70" },
   { income: "$133,001–$167,000 / $266,001–$334,000", partB: "$370.00", partD: "$35.30" },
   { income: "$167,001–$200,000 / $334,001–$400,000", partB: "$480.90", partD: "$57.00" },
@@ -88,35 +88,35 @@ const totalCostScenarios = [
     maxOOP: "Predictable — very low out-of-pocket after premiums",
     color: "bg-blue-600",
     items: [
-      "Part B Premium: $185/mo",
+      "Part B Premium: $202.90/mo",
       "Medigap Plan G: $100–$300/mo (varies by age/state)",
       "Part D Premium: ~$37/mo",
-      "Part B Deductible: $257/yr (only out-of-pocket cost with Plan G)",
+      "Part B Deductible: $283/yr (only out-of-pocket cost with Plan G)",
     ],
   },
   {
     name: "Medicare Advantage (Part C)",
     monthly: "$0–$150/mo",
     annual: "$0–$1,800/yr (premiums only)",
-    maxOOP: "Up to $8,850 in-network MOOP in 2026",
+    maxOOP: "Up to $9,250 in-network MOOP in 2026",
     color: "bg-teal-600",
     items: [
-      "Part B Premium: $185/mo (still required)",
+      "Part B Premium: $202.90/mo (still required)",
       "Plan Premium: Many plans are $0/mo",
       "Copays per visit: $10–$50 depending on service",
-      "Maximum Out-of-Pocket: Up to $8,850/yr in-network",
+      "Maximum Out-of-Pocket: Up to $9,250/yr in-network",
     ],
   },
   {
     name: "Original Medicare Only (No Supplement)",
-    monthly: "$185/mo",
+    monthly: "$202.90/mo",
     annual: "$2,220/yr (premiums only)",
     maxOOP: "Unlimited — no cap on out-of-pocket costs",
     color: "bg-amber-600",
     items: [
-      "Part B Premium: $185/mo",
+      "Part B Premium: $202.90/mo",
       "20% coinsurance on all Part B services",
-      "Hospital deductible: $1,676 per benefit period",
+      "Hospital deductible: $1,736 per benefit period",
       "No maximum out-of-pocket limit",
     ],
   },
@@ -125,15 +125,15 @@ const totalCostScenarios = [
 const faqs = [
   {
     question: "Is Medicare free?",
-    answer: "Part A is premium-free for most people who worked and paid Medicare taxes for 10+ years (40 quarters). However, Part B has a monthly premium ($185 in 2026), and you'll also pay deductibles, coinsurance, and copays. Most people also add supplemental coverage (Medigap or Medicare Advantage) which may have additional premiums.",
+    answer: "Part A is premium-free for most people who worked and paid Medicare taxes for 10+ years (40 quarters). However, Part B has a monthly premium ($202.90 in 2026), and you'll also pay deductibles, coinsurance, and copays. Most people also add supplemental coverage (Medigap or Medicare Advantage) which may have additional premiums.",
   },
   {
     question: "What's the most I could pay out-of-pocket in a year?",
-    answer: "With Original Medicare alone, there is NO maximum out-of-pocket limit — your costs are theoretically unlimited. With a Medigap Plan G, your only out-of-pocket cost is the $257 Part B deductible. With Medicare Advantage, the maximum out-of-pocket is capped at $8,850 in-network for 2026.",
+    answer: "With Original Medicare alone, there is NO maximum out-of-pocket limit — your costs are theoretically unlimited. With a Medigap Plan G, your only out-of-pocket cost is the $283 Part B deductible. With Medicare Advantage, the maximum out-of-pocket is capped at $9,250 in-network for 2026.",
   },
   {
     question: "Do I have to pay the Part B premium even with Medicare Advantage?",
-    answer: "Yes. You must continue paying your Part B premium ($185/mo in 2026) regardless of whether you choose Original Medicare or Medicare Advantage. The Medicare Advantage plan premium is in addition to your Part B premium, though many MA plans have $0 additional premiums.",
+    answer: "Yes. You must continue paying your Part B premium ($202.90/mo in 2026) regardless of whether you choose Original Medicare or Medicare Advantage. The Medicare Advantage plan premium is in addition to your Part B premium, though many MA plans have $0 additional premiums.",
   },
   {
     question: "What is IRMAA and will it affect me?",
@@ -206,9 +206,9 @@ export default function PageContent() {
           {/* Quick cost stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { label: "Part B Premium", value: "$185/mo" },
-              { label: "Part B Deductible", value: "$257/yr" },
-              { label: "Hospital Deductible", value: "$1,676" },
+              { label: "Part B Premium", value: "$202.90/mo" },
+              { label: "Part B Deductible", value: "$283/yr" },
+              { label: "Hospital Deductible", value: "$1,736" },
               { label: "Part D OOP Cap", value: "$2,000" },
             ].map((stat) => (
               <div key={stat.label} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/10">
@@ -411,7 +411,7 @@ export default function PageContent() {
                     plan: "Plan G",
                     label: "Most Popular",
                     premium: "$100–$300/mo",
-                    covers: "Everything except Part B deductible ($257/yr)",
+                    covers: "Everything except Part B deductible ($283/yr)",
                     color: "border-indigo-300 bg-indigo-50",
                   },
                   {
@@ -456,7 +456,7 @@ export default function PageContent() {
                     { label: "Avg. Monthly Premium", value: "$0–$50" },
                     { label: "PCP Copay", value: "$0–$20" },
                     { label: "Specialist Copay", value: "$20–$50" },
-                    { label: "Max OOP (In-Network)", value: "$8,850" },
+                    { label: "Max OOP (In-Network)", value: "$9,250" },
                   ].map((stat) => (
                     <div key={stat.label}>
                       <p className="text-xs text-orange-700 mb-1">{stat.label}</p>
@@ -470,7 +470,7 @@ export default function PageContent() {
                 <div className="flex items-start gap-3">
                   <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
                   <p className="text-sm text-amber-800">
-                    <strong>Remember:</strong> You still pay the Part B premium ($185/mo) even with a $0-premium Medicare Advantage plan. And while premiums are lower, you'll pay copays and coinsurance each time you use services, up to the plan's maximum out-of-pocket limit.
+                    <strong>Remember:</strong> You still pay the Part B premium ($202.90/mo) even with a $0-premium Medicare Advantage plan. And while premiums are lower, you'll pay copays and coinsurance each time you use services, up to the plan's maximum out-of-pocket limit.
                   </p>
                 </div>
               </div>

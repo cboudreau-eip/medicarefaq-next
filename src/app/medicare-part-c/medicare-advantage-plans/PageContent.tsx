@@ -195,7 +195,7 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                   {[
                     { value: "51%", label: "of Medicare beneficiaries now choose MA" },
                     { value: "$0", label: "premium for many MA plans" },
-                    { value: "$8,850", label: "max out-of-pocket (in-network) 2026" },
+                    { value: "$9,250", label: "max out-of-pocket (in-network) 2026" },
                     { value: "4,000+", label: "MA plans available nationwide" },
                   ].map((stat, i) => (
                     <div key={i} className="bg-slate-50 rounded-xl p-5 border border-slate-100 text-center">
@@ -258,7 +258,7 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                 <div className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl">
                   <p className="font-semibold text-teal-900 mb-1">Give Back Benefit</p>
                   <p className="text-sm text-teal-800">
-                    Some Medicare Advantage plans offer a <strong>Part B premium reduction</strong> (also called the "Give Back Benefit"), which can reduce your monthly Part B premium by up to $185/month. Not all plans offer this, and availability varies by area.
+                    Some Medicare Advantage plans offer a <strong>Part B premium reduction</strong> (also called the "Give Back Benefit"), which can reduce your monthly Part B premium by up to $202.90/month. Not all plans offer this, and availability varies by area.
                   </p>
                 </div>
               </section>
@@ -284,7 +284,7 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                         ["Specialist Visit", "$20 – $50", "Copay per visit; may need referral (HMO)"],
                         ["Emergency Room", "$50 – $120", "Waived if admitted"],
                         ["Inpatient Hospital", "$200 – $400/day", "Per day for first few days; varies by plan"],
-                        ["Max Out-of-Pocket (In-Network)", "Up to $8,850", "2026 federal limit; many plans set lower"],
+                        ["Max Out-of-Pocket (In-Network)", "Up to $9,250", "2026 federal limit; many plans set lower"],
                         ["Prescription Drugs", "Varies by tier", "Most plans include Part D coverage"],
                       ].map(([item, range, note], i) => (
                         <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50/50"}>

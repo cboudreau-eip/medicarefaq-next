@@ -552,7 +552,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       {
         id: "cost-overview",
         heading: "Overview of Medicare Advantage Costs",
-        body: `<p>Medicare Advantage plans have a different cost structure than Original Medicare. While many plans advertise $0 monthly premiums, you still pay your Medicare Part B premium ($185/month in 2025 for most people). Total costs depend on the plan type, your health needs, and how often you use healthcare services.</p>`,
+        body: `<p>Medicare Advantage plans have a different cost structure than Original Medicare. While many plans advertise $0 monthly premiums, you still pay your Medicare Part B premium ($202.90/month in 2026 for most people). Total costs depend on the plan type, your health needs, and how often you use healthcare services.</p>`,
       },
       {
         id: "cost-components",
@@ -593,7 +593,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       {
         question: "Do I still pay my Part B premium with Medicare Advantage?",
         answer:
-          "Yes. You continue to pay your Medicare Part B premium ($185/month in 2025 for most people) even when enrolled in a Medicare Advantage plan. Some plans offer a Part B premium reduction benefit that offsets part of this cost.",
+          "Yes. You continue to pay your Medicare Part B premium ($202.90/month in 2026 for most people) even when enrolled in a Medicare Advantage plan. Some plans offer a Part B premium reduction benefit that offsets part of this cost.",
       },
       {
         question: "What is the Medicare Advantage out-of-pocket maximum for 2025?",
@@ -626,7 +626,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         body: `<table>
 <thead><tr><th>Feature</th><th>Original Medicare</th><th>Medicare Advantage</th></tr></thead>
 <tbody>
-<tr><td>Monthly premium</td><td>Part B: $185/mo (2025)</td><td>$0 – $200+ (plus Part B)</td></tr>
+<tr><td>Monthly premium</td><td>Part B: $202.90/mo (2026)</td><td>$0 – $200+ (plus Part B)</td></tr>
 <tr><td>Out-of-pocket maximum</td><td>None (without Medigap)</td><td>Up to $9,350/year (2025)</td></tr>
 <tr><td>Provider choice</td><td>Any Medicare-accepting provider</td><td>Usually limited to network</td></tr>
 <tr><td>Referrals needed</td><td>No</td><td>Often yes (HMO plans)</td></tr>

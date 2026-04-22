@@ -34,7 +34,7 @@ const coverageItems = [
 ];
 
 const benefitPeriods = [
-  { days: "Days 1–60", cost: "$0 (after $1,676 deductible)", label: "Full Coverage" },
+  { days: "Days 1–60", cost: "$0 (after $1,736 deductible)", label: "Full Coverage" },
   { days: "Days 61–90", cost: "$419/day coinsurance", label: "Coinsurance Applies" },
   { days: "Days 91–150", cost: "$838/day (lifetime reserve days)", label: "Reserve Days" },
   { days: "Beyond 150 days", cost: "You pay all costs", label: "No Coverage" },
@@ -96,7 +96,7 @@ export default function PageContent() {
       <section className="bg-blue-50 border-b border-blue-100 py-6 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
-            { label: "2026 Deductible", value: "$1,676", sub: "per benefit period" },
+            { label: "2026 Deductible", value: "$1,736", sub: "per benefit period" },
             { label: "Premium-Free If", value: "40 Quarters", sub: "of Medicare taxes paid" },
             { label: "SNF Coverage", value: "Up to 100 Days", sub: "after 3-day hospital stay" },
             { label: "Hospice Coverage", value: "Unlimited", sub: "with terminal diagnosis" },

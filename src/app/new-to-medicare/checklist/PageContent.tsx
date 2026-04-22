@@ -85,7 +85,7 @@ const phases: ChecklistPhase[] = [
         id: "learn-medigap",
         title: "Learn about Medigap (Medicare Supplement) plans",
         description: "If you choose Original Medicare, Medigap fills the coverage gaps. Plans are standardized by letter.",
-        details: "Plan G is the most popular Medigap plan. It covers nearly all out-of-pocket costs except the Part B annual deductible ($257 in 2026). Plan N is a lower-premium alternative with small copays.",
+        details: "Plan G is the most popular Medigap plan. It covers nearly all out-of-pocket costs except the Part B annual deductible ($283 in 2026). Plan N is a lower-premium alternative with small copays.",
         priority: "essential",
       },
       {

@@ -196,7 +196,7 @@ export default function MedicareEligibility() {
           <section id="part-b-eligibility" className="mt-8">
             <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">Medicare Part B Eligibility Requirements</h2>
             <p className="text-gray-700 mb-4">
-              Anyone who is eligible for <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-[#0D9488] hover:underline">Medicare Part A</Link> is also eligible for <Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-[#0D9488] hover:underline">Part B</Link>. Unlike Part A, Part B always requires a monthly premium. The standard 2026 Part B premium is <strong>$185.00/month</strong>, though higher-income beneficiaries pay more through IRMAA surcharges.
+              Anyone who is eligible for <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-[#0D9488] hover:underline">Medicare Part A</Link> is also eligible for <Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-[#0D9488] hover:underline">Part B</Link>. Unlike Part A, Part B always requires a monthly premium. The standard 2026 Part B premium is <strong>$202.90/month</strong>, though higher-income beneficiaries pay more through IRMAA surcharges.
             </p>
             <p className="text-gray-700">
               If you are still working and have employer coverage, you may be able to <Link href="/enrollment/working-past-65" className="text-[#0D9488] hover:underline">delay Part B enrollment</Link> without penalty. Once your employer coverage ends, you have an 8-month Special Enrollment Period to sign up.

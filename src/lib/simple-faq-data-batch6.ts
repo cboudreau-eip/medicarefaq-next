@@ -33,7 +33,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'Does Medicare Pay for Chronic Care Management?',
         paragraphs: [
-          'Yes. Medicare Part B covers Chronic Care Management services. After meeting your Part B deductible ($257 in 2026), Medicare pays 80% of the approved amount and you pay 20% coinsurance. If you have a [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it may cover your 20% coinsurance.',
+          'Yes. Medicare Part B covers Chronic Care Management services. After meeting your Part B deductible ($283 in 2026), Medicare pays 80% of the approved amount and you pay 20% coinsurance. If you have a [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it may cover your 20% coinsurance.',
           'The monthly cost to you for CCM services is typically around $8–$12 after Medicare pays its share, making it a very affordable benefit for eligible beneficiaries.',
         ],
       },
@@ -140,7 +140,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'How to Get Help with Your Dialysis Out-of-Pocket Costs Under Medicare',
         paragraphs: [
-          'After meeting your [Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) ($257 in 2026), Medicare pays 80% of dialysis costs and you pay 20% coinsurance. Because dialysis is typically required three times per week, these costs can add up significantly.',
+          'After meeting your [Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) ($283 in 2026), Medicare pays 80% of dialysis costs and you pay 20% coinsurance. Because dialysis is typically required three times per week, these costs can add up significantly.',
           'A [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can cover your 20% coinsurance, dramatically reducing your out-of-pocket dialysis costs. If you have ESRD and are under 65, federal law requires insurers in some states to sell you Medigap — check your state\'s rules.',
           'If you have limited income, you may qualify for [Medicare Savings Programs](/faqs/medicare-savings-programs) that help pay your Part B premium and cost-sharing, or for Extra Help with Part D drug costs.',
         ],
@@ -157,7 +157,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
     },
     title: 'Medicare Supplement Plan G Reviews',
-    summary: 'Medicare Supplement Plan G is the most popular Medigap plan in 2026, covering nearly all Medicare cost-sharing except the Part B deductible ($257 in 2026). When reviewing Plan G carriers, focus on price, financial strength ratings, and customer service — the benefits are identical across all carriers.',
+    summary: 'Medicare Supplement Plan G is the most popular Medigap plan in 2026, covering nearly all Medicare cost-sharing except the Part B deductible ($283 in 2026). When reviewing Plan G carriers, focus on price, financial strength ratings, and customer service — the benefits are identical across all carriers.',
     category: 'Medicare FAQ',
     dateUpdated: 'January 10, 2026',
     author: 'David Haass',
@@ -167,8 +167,8 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       {
         heading: 'Best Medicare Supplement Plan G Reviews in 2026',
         paragraphs: [
-          '[Medicare Supplement Plan G](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) offers comprehensive coverage, paying for the Part A deductible ($1,676 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (20%), Part B excess charges, skilled nursing facility coinsurance, and foreign travel emergency care.',
-          'The only cost Plan G does not cover is the [Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) ($257 in 2026). After paying that once per year, Plan G covers virtually everything else Medicare doesn\'t pay.',
+          '[Medicare Supplement Plan G](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) offers comprehensive coverage, paying for the Part A deductible ($1,736 in 2026), Part A coinsurance and hospital costs, Part B coinsurance (20%), Part B excess charges, skilled nursing facility coinsurance, and foreign travel emergency care.',
+          'The only cost Plan G does not cover is the [Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) ($283 in 2026). After paying that once per year, Plan G covers virtually everything else Medicare doesn\'t pay.',
         ],
       },
       {

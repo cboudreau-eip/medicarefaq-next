@@ -26,11 +26,11 @@ import { trackPhoneClick } from "@/lib/analytics";
 
 const comparisonData = [
   { feature: "Administered By", om: "Federal Government", ma: "Private Insurance Companies", medigap: "Private Insurance Companies", partd: "Private Insurance Companies" },
-  { feature: "Monthly Premium", om: "Part B: $185/mo", ma: "$0 – $150+/mo (plus Part B)", medigap: "$75 – $300+/mo (plus Part B)", partd: "~$46/mo average" },
-  { feature: "Annual Deductible", om: "Part A: $1,676 / Part B: $257", ma: "Varies by plan ($0 – $500+)", medigap: "Plan G: $257 (Part B only)", partd: "Up to $590" },
+  { feature: "Monthly Premium", om: "Part B: $202.90/mo", ma: "$0 – $150+/mo (plus Part B)", medigap: "$75 – $300+/mo (plus Part B)", partd: "~$46/mo average" },
+  { feature: "Annual Deductible", om: "Part A: $1,736 / Part B: $283", ma: "Varies by plan ($0 – $500+)", medigap: "Plan G: $283 (Part B only)", partd: "Up to $615" },
   { feature: "Doctor Choice", om: "Any Medicare-accepting doctor", ma: "In-network preferred (HMO/PPO)", medigap: "Any Medicare-accepting doctor", partd: "Plan pharmacy network" },
   { feature: "Referrals Needed?", om: "No", ma: "HMO: Yes / PPO: No", medigap: "No", partd: "N/A" },
-  { feature: "Out-of-Pocket Maximum", om: "No limit", ma: "$8,850 max (in-network)", medigap: "Near $0 with Plan G", partd: "$2,000/year" },
+  { feature: "Out-of-Pocket Maximum", om: "No limit", ma: "$9,250 max (in-network)", medigap: "Near $0 with Plan G", partd: "$2,000/year" },
   { feature: "Prescription Drugs", om: "Not included", ma: "Usually included", medigap: "Not included", partd: "Yes — standalone" },
   { feature: "Dental/Vision/Hearing", om: "Not included", ma: "Often included", medigap: "Not included", partd: "Not included" },
   { feature: "Works Nationwide?", om: "Yes", ma: "Usually local/regional", medigap: "Yes", partd: "Varies by plan" },

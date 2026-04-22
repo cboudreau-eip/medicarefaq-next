@@ -107,7 +107,7 @@ export default function PageContent() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                { label: "Maximum Deductible", value: "$590" },
+                { label: "Maximum Deductible", value: "$615" },
                 { label: "Annual Out-of-Pocket Cap", value: "$2,000" },
                 { label: "Catastrophic Coverage", value: "$0 after cap" },
                 { label: "Average National Premium", value: "~$46/month" },

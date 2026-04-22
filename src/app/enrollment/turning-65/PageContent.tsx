@@ -436,7 +436,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-b" className="hover:text-amber-700 transition-colors">Medicare Part B (Medical Insurance)</Link></h3>
                         <p className="text-sm text-slate-600 mb-2">
-                          Covers doctor visits, outpatient care, preventive services, durable medical equipment, and more. Standard 2026 premium is <strong>$185/month</strong>. Can be delayed if you have creditable employer coverage.
+                          Covers doctor visits, outpatient care, preventive services, durable medical equipment, and more. Standard 2026 premium is <strong>$202.90/month</strong>. Can be delayed if you have creditable employer coverage.
                         </p>
                         <span className="text-xs font-semibold text-amber-700 bg-amber-50 px-2 py-1 rounded">Enroll at 65 unless you have employer coverage</span>
                       </div>

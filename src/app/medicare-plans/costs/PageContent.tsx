@@ -26,16 +26,16 @@ const costScenarios = [
   {
     title: "Original Medicare Only",
     subtitle: "No supplemental coverage",
-    monthly: "$185",
+    monthly: "$202.90",
     monthlyLabel: "Part B premium only",
     annual: "No limit",
     annualLabel: "Out-of-pocket maximum",
     risk: "high",
     items: [
       { label: "Part A Premium", value: "$0 (most people)" },
-      { label: "Part B Premium", value: "$185/month" },
-      { label: "Part A Deductible", value: "$1,676/benefit period" },
-      { label: "Part B Deductible", value: "$257/year" },
+      { label: "Part B Premium", value: "$202.90/month" },
+      { label: "Part A Deductible", value: "$1,736/benefit period" },
+      { label: "Part B Deductible", value: "$283/year" },
       { label: "Part B Coinsurance", value: "20% with no limit" },
       { label: "Hospital Days 61-90", value: "$419/day" },
       { label: "Prescription Drugs", value: "Not covered" },
@@ -47,14 +47,14 @@ const costScenarios = [
     subtitle: "Most comprehensive option",
     monthly: "$361 – $481",
     monthlyLabel: "Part B + Medigap + Part D",
-    annual: "~$257",
+    annual: "~$283",
     annualLabel: "Part B deductible only",
     risk: "low",
     items: [
-      { label: "Part B Premium", value: "$185/month" },
+      { label: "Part B Premium", value: "$202.90/month" },
       { label: "Medigap Plan G Premium", value: "$130 – $250/month" },
       { label: "Part D Premium", value: "~$46/month" },
-      { label: "Part B Deductible", value: "$257/year" },
+      { label: "Part B Deductible", value: "$283/year" },
       { label: "Everything Else", value: "$0 (covered by Medigap)" },
       { label: "Drug Out-of-Pocket Cap", value: "$2,000/year" },
     ],
@@ -63,13 +63,13 @@ const costScenarios = [
   {
     title: "Medicare Advantage (Part C)",
     subtitle: "All-in-one alternative",
-    monthly: "$185 – $335",
+    monthly: "$202.90 – $335",
     monthlyLabel: "Part B + MA premium",
-    annual: "$8,850",
+    annual: "$9,250",
     annualLabel: "In-network OOP max",
     risk: "medium",
     items: [
-      { label: "Part B Premium", value: "$185/month" },
+      { label: "Part B Premium", value: "$202.90/month" },
       { label: "MA Plan Premium", value: "$0 – $150+/month" },
       { label: "PCP Copay", value: "$0 – $30/visit" },
       { label: "Specialist Copay", value: "$20 – $50/visit" },
@@ -109,7 +109,7 @@ const savingsTips = [
   },
   {
     title: "Consider High-Deductible Plan G",
-    desc: "If you're healthy, HD Plan G costs $40-80/month vs. $130-250 for regular Plan G. You'll pay a $2,870 deductible, but the premium savings often exceed the deductible risk.",
+    desc: "If you're healthy, HD Plan G costs $40-80/month vs. $130-250 for regular Plan G. You'll pay a $2,950 deductible, but the premium savings often exceed the deductible risk.",
     icon: Heart,
   },
 ];
@@ -117,15 +117,15 @@ const savingsTips = [
 const faqs = [
   {
     q: "What is the total cost of Medicare per month?",
-    a: "It depends on your coverage choice. Original Medicare alone is $185/month (Part B). With Medigap Plan G + Part D, expect $361-481/month total. With Medicare Advantage, expect $185-335/month total. These are 2026 figures and don't include IRMAA surcharges for higher-income beneficiaries.",
+    a: "It depends on your coverage choice. Original Medicare alone is $202.90/month (Part B). With Medigap Plan G + Part D, expect $361-481/month total. With Medicare Advantage, expect $185-335/month total. These are 2026 figures and don't include IRMAA surcharges for higher-income beneficiaries.",
   },
   {
     q: "Is Medicare Advantage really free?",
-    a: "No. Even $0-premium MA plans require you to pay the Part B premium ($185/month). The '$0 premium' means no additional premium beyond Part B. You'll also pay copays, coinsurance, and deductibles when you use services — which can add up to $8,850/year in-network.",
+    a: "No. Even $0-premium MA plans require you to pay the Part B premium ($202.90/month). The '$0 premium' means no additional premium beyond Part B. You'll also pay copays, coinsurance, and deductibles when you use services — which can add up to $9,250/year in-network.",
   },
   {
     q: "Which option costs less if I'm sick?",
-    a: "Medigap (especially Plan G) almost always costs less if you have significant medical needs. Your out-of-pocket is capped at ~$257/year regardless of how much care you need. With Medicare Advantage, a major illness or surgery could cost you thousands in copays up to the $8,850 max.",
+    a: "Medigap (especially Plan G) almost always costs less if you have significant medical needs. Your out-of-pocket is capped at ~$283/year regardless of how much care you need. With Medicare Advantage, a major illness or surgery could cost you thousands in copays up to the $9,250 max.",
   },
   {
     q: "What is IRMAA and will it affect me?",
@@ -252,7 +252,7 @@ export default function PageContent() {
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {[
-                  ["≤ $106,000 / $212,000", "$185.00", "$0.00"],
+                  ["≤ $106,000 / $212,000", "$202.90", "$0.00"],
                   ["$106,001 – $133,500 / $212,001 – $267,000", "$259.00", "$13.70"],
                   ["$133,501 – $167,000 / $267,001 – $334,000", "$370.00", "$35.30"],
                   ["$167,001 – $200,000 / $334,001 – $400,000", "$480.90", "$57.00"],

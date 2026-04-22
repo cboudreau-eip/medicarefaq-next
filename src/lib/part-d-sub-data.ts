@@ -58,8 +58,8 @@ export const partDSubPages: PartDSubPage[] = [
         table: {
           headers: ["Plan", "Est. Monthly Premium", "Deductible", "Tier 1 Copay"],
           rows: [
-            ["SmartSaver", "$0 – $15/mo", "Up to $590", "$0 – $5"],
-            ["Choice", "$20 – $45/mo", "$0 – $590", "$0 – $5"],
+            ["SmartSaver", "$0 – $15/mo", "Up to $615", "$0 – $5"],
+            ["Choice", "$20 – $45/mo", "$0 – $615", "$0 – $5"],
             ["Plus", "$50 – $90/mo", "$0", "$0 – $5"],
           ],
         },
@@ -115,7 +115,7 @@ export const partDSubPages: PartDSubPage[] = [
           headers: ["Cost Type", "2026 Amount", "Notes"],
           rows: [
             ["Average Monthly Premium", "~$46/month", "Varies widely by plan and region"],
-            ["Maximum Deductible", "$590", "Some plans have $0 deductible"],
+            ["Maximum Deductible", "$615", "Some plans have $0 deductible"],
             ["Out-of-Pocket Cap", "$2,000", "New for 2025, continuing in 2026"],
             ["Insulin Cap", "$35/month", "Per covered insulin product"],
           ],
@@ -285,7 +285,7 @@ export const partDSubPages: PartDSubPage[] = [
         table: {
           headers: ["Phase", "Your Spending Threshold", "What You Pay"],
           rows: [
-            ["Deductible Phase", "First $590 (if plan has deductible)", "100% of drug costs"],
+            ["Deductible Phase", "First $615 (if plan has deductible)", "100% of drug costs"],
             ["Initial Coverage Phase", "Up to $2,000 total OOP", "Copays/coinsurance per tier"],
             ["Catastrophic Coverage", "After $2,000 OOP", "$0 for covered drugs"],
           ],
@@ -437,9 +437,9 @@ export const partDSubPages: PartDSubPage[] = [
   {
     slug: "medicare-part-d-deductible",
     title: "Medicare Part D Deductible 2026",
-    metaTitle: "Medicare Part D Deductible 2026 | $590 Maximum & How It Works",
-    metaDescription: "The maximum Medicare Part D deductible in 2026 is $590. Learn how the deductible works, which plans have $0 deductibles, and how it affects your drug costs.",
-    heroSubtitle: "The Medicare Part D deductible is the amount you pay out-of-pocket for covered drugs before your plan starts sharing costs. In 2026, the maximum deductible is $590, though many plans have lower or $0 deductibles.",
+    metaTitle: "Medicare Part D Deductible 2026 | $615 Maximum & How It Works",
+    metaDescription: "The maximum Medicare Part D deductible in 2026 is $615. Learn how the deductible works, which plans have $0 deductibles, and how it affects your drug costs.",
+    heroSubtitle: "The Medicare Part D deductible is the amount you pay out-of-pocket for covered drugs before your plan starts sharing costs. In 2026, the maximum deductible is $615, though many plans have lower or $0 deductibles.",
     heroIcon: "DollarSign",
     sections: [
       {
@@ -455,7 +455,7 @@ export const partDSubPages: PartDSubPage[] = [
         table: {
           headers: ["Item", "Amount"],
           rows: [
-            ["Maximum Allowable Deductible", "$590"],
+            ["Maximum Allowable Deductible", "$615"],
             ["Average Deductible (plans with deductible)", "~$400 – $500"],
             ["Plans with $0 Deductible", "Available in most regions"],
             ["Deductible for Tier 1 Generics (many plans)", "$0"],
@@ -466,7 +466,7 @@ export const partDSubPages: PartDSubPage[] = [
         id: "zero-deductible",
         heading: "Plans with $0 Deductible",
         content: "Many Part D plans offer $0 deductibles, particularly for generic drugs. However, these plans typically have higher monthly premiums to offset the lower cost-sharing. When comparing plans, look at the total annual cost (premium + deductible + copays) rather than just the deductible amount.",
-        callout: { type: "tip", text: "A plan with a $0 deductible and $50/month premium may cost more annually than a plan with a $590 deductible and $15/month premium — especially if you only take generics. Always compare total estimated annual costs." },
+        callout: { type: "tip", text: "A plan with a $0 deductible and $50/month premium may cost more annually than a plan with a $615 deductible and $15/month premium — especially if you only take generics. Always compare total estimated annual costs." },
       },
     ],
     faqs: [
@@ -487,7 +487,7 @@ export const partDSubPages: PartDSubPage[] = [
     slug: "medicare-part-d-cost",
     title: "Medicare Part D Costs 2026",
     metaTitle: "Medicare Part D Costs 2026 | Premiums, Deductibles & Out-of-Pocket",
-    metaDescription: "Complete breakdown of Medicare Part D costs in 2026: average premiums, $590 maximum deductible, drug tier copays, $2,000 out-of-pocket cap, and IRMAA surcharges.",
+    metaDescription: "Complete breakdown of Medicare Part D costs in 2026: average premiums, $615 maximum deductible, drug tier copays, $2,000 out-of-pocket cap, and IRMAA surcharges.",
     heroSubtitle: "Understanding all the cost components of Medicare Part D helps you budget accurately and choose the plan that minimizes your total annual drug spending.",
     heroIcon: "DollarSign",
     sections: [
@@ -499,7 +499,7 @@ export const partDSubPages: PartDSubPage[] = [
           headers: ["Cost Type", "2026 Amount", "Notes"],
           rows: [
             ["Monthly Premium", "~$0 – $100+", "Average ~$46/month; varies by plan"],
-            ["Annual Deductible", "Up to $590", "Some plans have $0 deductible"],
+            ["Annual Deductible", "Up to $615", "Some plans have $0 deductible"],
             ["Copays/Coinsurance", "Varies by tier", "$0–$15 for generics; 25–33% for specialty"],
             ["Out-of-Pocket Cap", "$2,000", "After $2,000 OOP, you pay $0"],
           ],
@@ -858,7 +858,7 @@ export const partDSubPages: PartDSubPage[] = [
         content: "Medicare Part D costs consist of four main components that work together to determine your total annual spending on prescription drugs:",
         bullets: [
           "Monthly premium — paid to your plan every month regardless of drug use",
-          "Annual deductible — amount you pay before the plan starts covering drugs (up to $590 in 2026)",
+          "Annual deductible — amount you pay before the plan starts covering drugs (up to $615 in 2026)",
           "Copays and coinsurance — your share of each prescription based on the drug's tier",
           "IRMAA surcharge — additional amount for higher-income beneficiaries",
         ],
@@ -880,8 +880,8 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "deductible",
         heading: "2026 Part D Deductible",
-        content: "The maximum Part D deductible in 2026 is $590. Many plans charge less than the maximum, and some waive the deductible entirely for Tier 1 and Tier 2 (generic) drugs. You pay the full cost of your medications until you meet your deductible.",
-        callout: { type: "info", text: "Plans cannot charge more than $590 for the 2026 deductible, but they can charge less. Always check whether your specific medications are subject to the deductible before choosing a plan." },
+        content: "The maximum Part D deductible in 2026 is $615. Many plans charge less than the maximum, and some waive the deductible entirely for Tier 1 and Tier 2 (generic) drugs. You pay the full cost of your medications until you meet your deductible.",
+        callout: { type: "info", text: "Plans cannot charge more than $615 for the 2026 deductible, but they can charge less. Always check whether your specific medications are subject to the deductible before choosing a plan." },
       },
       {
         id: "copays",
@@ -965,7 +965,7 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "The New 2025-2026 Part D Structure",
         content: "Starting in 2025, Medicare Part D has a simpler two-phase structure:",
         bullets: [
-          "Phase 1: Deductible phase — You pay 100% of drug costs until you meet your deductible (up to $590 in 2026)",
+          "Phase 1: Deductible phase — You pay 100% of drug costs until you meet your deductible (up to $615 in 2026)",
           "Phase 2: Coverage phase — You pay your plan's copays/coinsurance until you reach $2,000 in out-of-pocket costs",
           "Phase 3: Catastrophic phase — After $2,000 OOP, you pay $0 for covered drugs for the rest of the year",
         ],
@@ -1009,7 +1009,7 @@ export const partDSubPages: PartDSubPage[] = [
         content: "Mutual of Omaha typically offers one or two Part D plan options per region, focusing on straightforward coverage rather than a wide variety of tiers. Their plans generally include:",
         bullets: [
           "Coverage for all five drug tiers (preferred generics through specialty drugs)",
-          "Standard deductible up to the Medicare maximum ($590 in 2026)",
+          "Standard deductible up to the Medicare maximum ($615 in 2026)",
           "Mail-order pharmacy option for 90-day supplies at reduced cost",
           "Access to a broad pharmacy network including major chains",
         ],

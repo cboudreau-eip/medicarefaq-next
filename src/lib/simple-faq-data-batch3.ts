@@ -234,7 +234,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "heading", level: 2, text: "Is Medicare Mandatory?", id: "is-mandatory" },
       { type: "paragraph", content: "Medicare is not mandatory for most Americans, but understanding when and how to enroll is critical to avoiding costly mistakes. If you are receiving Social Security benefits when you turn 65, you will be automatically enrolled in [Medicare Part A and Part B](/original-medicare). However, if you are not yet collecting Social Security, you will need to actively sign up for Medicare yourself." },
       { type: "paragraph", content: "Even though enrollment is technically optional, delaying Medicare without qualifying coverage from an employer can result in [late enrollment penalties](/enrollment/late-penalties) that permanently increase your premiums. For most people turning 65, enrolling in Medicare on time is one of the most important financial decisions they will make." },
-      { type: "callout", calloutType: "warning", calloutTitle: "Do Not Miss Your Window", calloutText: "If you miss your Initial Enrollment Period and do not have employer coverage, you could face a permanent 10% penalty on your Part B premium for every 12 months you were eligible but did not enroll. At 2026 rates, a 3-year delay means paying $240.50/month instead of $185 \u2014 for life." },
+      { type: "callout", calloutType: "warning", calloutTitle: "Do Not Miss Your Window", calloutText: "If you miss your Initial Enrollment Period and do not have employer coverage, you could face a permanent 10% penalty on your Part B premium for every 12 months you were eligible but did not enroll. At 2026 rates, a 3-year delay means paying $240.50/month instead of $202.90 \u2014 for life." },
 
       { type: "heading", level: 2, text: "Three Ways to Apply for Medicare", id: "three-ways" },
       { type: "paragraph", content: "The Social Security Administration (SSA) handles Medicare enrollment. You can apply through any of the following three methods:" },
@@ -293,8 +293,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "paragraph", content: "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) and [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) together make up [Original Medicare](/original-medicare). Here is what each part covers and costs in 2026:" },
       { type: "table", headers: ["Feature", "Part A (Hospital Insurance)", "Part B (Medical Insurance)"], rows: [
         ["Covers", "Hospital stays, skilled nursing, hospice, home health", "Doctor visits, outpatient care, preventive services, equipment"],
-        ["2026 Premium", "$0 for most people (free if you/spouse paid Medicare taxes 10+ years)", "$185/month (standard; higher for high earners)"],
-        ["2026 Deductible", "$1,676 per benefit period", "$257 per year"],
+        ["2026 Premium", "$0 for most people (free if you/spouse paid Medicare taxes 10+ years)", "$202.90/month (standard; higher for high earners)"],
+        ["2026 Deductible", "$1,736 per benefit period", "$283 per year"],
         ["Automatic enrollment?", "Yes, if collecting Social Security at 65", "Yes, but you can opt out if you have employer coverage"],
         ["Should you delay?", "Rarely \u2014 it is free for most people", "Only if you have creditable employer coverage"]
       ]},
@@ -303,7 +303,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "heading", level: 2, text: "Avoiding Late Enrollment Penalties", id: "penalties" },
       { type: "paragraph", content: "One of the biggest mistakes new Medicare beneficiaries make is missing their enrollment window. If you do not sign up for Part B when you are first eligible and you do not have qualifying employer coverage, you will face a [late enrollment penalty](/enrollment/late-penalties) that lasts for as long as you have Part B." },
       { type: "table", headers: ["Penalty Type", "How It Is Calculated", "Example (2026 Rates)"], rows: [
-        ["Part B Late Penalty", "10% of standard premium for each full 12-month period you delayed", "3-year delay = 30% penalty = $240.50/month instead of $185"],
+        ["Part B Late Penalty", "10% of standard premium for each full 12-month period you delayed", "3-year delay = 30% penalty = $240.50/month instead of $202.90"],
         ["Part D Late Penalty", "1% of national base beneficiary premium per month without creditable drug coverage", "24-month gap = ~$8.44/month added permanently"]
       ], footnote: "*These penalties are permanent and cannot be reversed. They are added to your premium for as long as you have the coverage." },
       { type: "callout", calloutType: "warning", calloutTitle: "Penalties Are Permanent", calloutText: "Unlike most financial penalties, Medicare late enrollment penalties never go away. They are recalculated each year as the standard premium changes, meaning the dollar amount you pay in penalties increases over time even though the percentage stays the same." },
@@ -444,9 +444,9 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "heading", level: 2, text: "2026 Average Medigap Premiums by Plan", id: "2026-costs" },
       { type: "paragraph", content: "While premiums vary widely by pricing method, insurer, and location, here are the typical monthly premium ranges for the most popular [Medigap plans](/faqs/average-cost-of-medicare-supplement-plans) in 2026:" },
       { type: "table", headers: ["Plan", "Monthly Premium Range", "What It Covers"], rows: [
-        ["Plan G", "$120–$280/mo", "Most comprehensive plan available to new enrollees. Covers everything except the Part B deductible ($257 in 2026)."],
+        ["Plan G", "$120–$280/mo", "Most comprehensive plan available to new enrollees. Covers everything except the Part B deductible ($283 in 2026)."],
         ["Plan N", "$90–$200/mo", "Lower premiums than Plan G, but you pay up to $20 copay for office visits and up to $50 for ER visits not resulting in admission."],
-        ["High-Deductible Plan G", "$30–$70/mo", "Same coverage as Plan G after you meet the $2,870 annual deductible (2026)."]
+        ["High-Deductible Plan G", "$30–$70/mo", "Same coverage as Plan G after you meet the $2,950 annual deductible (2026)."]
       ], footnote: "*Premiums based on a 65-year-old female non-smoker. Your rate may differ based on age, gender, location, tobacco use, and pricing method." },
 
       { type: "heading", level: 2, text: "Which Pricing Method Should You Choose?", id: "which-to-choose" },

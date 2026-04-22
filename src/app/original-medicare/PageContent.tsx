@@ -277,7 +277,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                       {[
                         ["Premium", "$0 for most people", "Free if you/spouse paid Medicare taxes 10+ years"],
                         ["Premium (no work history)", "$518/month", "If you don't qualify for premium-free Part A"],
-                        ["Hospital Deductible", "$1,676", "Per benefit period (not per calendar year)"],
+                        ["Hospital Deductible", "$1,736", "Per benefit period (not per calendar year)"],
                         ["Days 1–60 Coinsurance", "$0/day", "After meeting the deductible"],
                         ["Days 61–90 Coinsurance", "$419/day", "For each day of inpatient hospital stay"],
                         ["Lifetime Reserve Days (91+)", "$838/day", "60 lifetime reserve days total"],
@@ -364,8 +364,8 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                     </thead>
                     <tbody className="divide-y divide-slate-100">
                       {[
-                        ["Standard Monthly Premium", "$185/month", "Most beneficiaries pay this amount"],
-                        ["Annual Deductible", "$257", "Must be met before Medicare pays"],
+                        ["Standard Monthly Premium", "$202.90/month", "Most beneficiaries pay this amount"],
+                        ["Annual Deductible", "$283", "Must be met before Medicare pays"],
                         ["Coinsurance", "20%", "You pay 20% of Medicare-approved amount — no cap"],
                         ["Outpatient Surgery", "20%", "After deductible, in Medicare-approved facilities"],
                         ["Doctor Visits", "20%", "After deductible for office and specialist visits"],
@@ -397,9 +397,9 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
                   {[
                     { label: "Part A Premium", value: "$0", sub: "for most people" },
-                    { label: "Part B Premium", value: "$185/mo", sub: "standard amount" },
-                    { label: "Hospital Deductible", value: "$1,676", sub: "per benefit period" },
-                    { label: "Part B Deductible", value: "$257/yr", sub: "annual deductible" },
+                    { label: "Part B Premium", value: "$202.90/mo", sub: "standard amount" },
+                    { label: "Hospital Deductible", value: "$1,736", sub: "per benefit period" },
+                    { label: "Part B Deductible", value: "$283/yr", sub: "annual deductible" },
                   ].map((stat, i) => (
                     <div key={i} className="bg-gradient-to-br from-slate-50 to-white rounded-xl p-5 border border-slate-200">
                       <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">{stat.label}</p>

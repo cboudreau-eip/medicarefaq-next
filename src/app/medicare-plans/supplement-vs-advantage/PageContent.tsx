@@ -26,7 +26,7 @@ import ZipFormModal from "@/components/ZipFormModal";
 const comparisonRows = [
   { feature: "Monthly Premium", supplement: "Higher ($75 – $300+/mo)", advantage: "Lower ($0 – $150+/mo)" },
   { feature: "Out-of-Pocket When You Use Care", supplement: "Very low (near $0 with Plan G)", advantage: "Higher (copays + coinsurance)" },
-  { feature: "Annual Out-of-Pocket Max", supplement: "Effectively near $0", advantage: "$8,850 in-network (2026)" },
+  { feature: "Annual Out-of-Pocket Max", supplement: "Effectively near $0", advantage: "$9,250 in-network (2026)" },
   { feature: "Doctor Freedom", supplement: "Any Medicare-accepting doctor nationwide", advantage: "Network-based (HMO/PPO)" },
   { feature: "Referrals Required?", supplement: "Never", advantage: "HMO: Yes / PPO: No" },
   { feature: "Prescription Drug Coverage", supplement: "No — need separate Part D", advantage: "Usually included (MA-PD)" },

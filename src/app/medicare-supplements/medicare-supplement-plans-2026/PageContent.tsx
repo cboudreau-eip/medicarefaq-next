@@ -12,9 +12,9 @@ import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import ZipFormModal from "@/components/ZipFormModal";
 
 const COST_CHANGES_2026 = [
-  { item: "Part A Deductible", value2025: "$1,632", value2026: "$1,676", change: "+$44 (+2.7%)", impact: "Plans that cover Part A deductible (B, C, D, F, G, M, N, HD-F, HD-G) now cover $44 more per hospital admission." },
-  { item: "Part B Deductible", value2025: "$240", value2026: "$257", change: "+$17 (+7.1%)", impact: "Plans C and F cover this. All others require you to pay $257 before Part B coverage begins." },
-  { item: "HD Plan Deductible", value2025: "$2,800", value2026: "$2,870", change: "+$70 (+2.5%)", impact: "HD-G and HD-F enrollees must pay $2,870 before plan coverage begins." },
+  { item: "Part A Deductible", value2025: "$1,632", value2026: "$1,736", change: "+$44 (+2.7%)", impact: "Plans that cover Part A deductible (B, C, D, F, G, M, N, HD-F, HD-G) now cover $44 more per hospital admission." },
+  { item: "Part B Deductible", value2025: "$240", value2026: "$283", change: "+$17 (+7.1%)", impact: "Plans C and F cover this. All others require you to pay $283 before Part B coverage begins." },
+  { item: "HD Plan Deductible", value2025: "$2,800", value2026: "$2,950", change: "+$70 (+2.5%)", impact: "HD-G and HD-F enrollees must pay $2,950 before plan coverage begins." },
   { item: "Plan K Out-of-Pocket Max", value2025: "$6,940", value2026: "$7,060", change: "+$120 (+1.7%)", impact: "Plan K enrollees have a higher cap before 100% coverage kicks in." },
   { item: "Plan L Out-of-Pocket Max", value2025: "$3,470", value2026: "$3,530", change: "+$60 (+1.7%)", impact: "Plan L enrollees have a slightly higher OOP cap in 2026." },
   { item: "SNF Coinsurance (Days 21–100)", value2025: "$204/day", value2026: "$209.50/day", change: "+$5.50/day", impact: "Plans that cover SNF coinsurance (C, D, F, G, M, N, HD-F, HD-G) cover this increased daily rate." },
@@ -43,7 +43,7 @@ const POPULAR_PLANS_2026 = [
     label: "Lowest Premium",
     labelColor: "bg-emerald-600",
     premium: "$30–$80/mo",
-    summary: "Same coverage as Plan G after a $2,870 deductible. Dramatically lower premiums for healthy enrollees.",
+    summary: "Same coverage as Plan G after a $2,950 deductible. Dramatically lower premiums for healthy enrollees.",
   },
 ];
 
@@ -58,7 +58,7 @@ const WHAT_CHANGED = [
   },
   {
     title: "High Deductible Plans Growing in Popularity",
-    desc: "HD-G has seen increased enrollment as premiums for standard Plan G have risen. The $2,870 deductible is manageable for healthy enrollees who save significantly on monthly premiums.",
+    desc: "HD-G has seen increased enrollment as premiums for standard Plan G have risen. The $2,950 deductible is manageable for healthy enrollees who save significantly on monthly premiums.",
   },
   {
     title: "Premium Increases Vary by Insurer",

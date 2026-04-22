@@ -42,8 +42,8 @@ const planChart = [
   { benefit: "Blood (First 3 Pints)", A: "✓", B: "✓", C: "✓", D: "✓", F: "✓", G: "✓", K: "50%", L: "75%", M: "✓", N: "✓" },
   { benefit: "Part A Hospice Coinsurance", A: "✓", B: "✓", C: "✓", D: "✓", F: "✓", G: "✓", K: "50%", L: "75%", M: "✓", N: "✓" },
   { benefit: "Skilled Nursing Facility", A: "✗", B: "✗", C: "✓", D: "✓", F: "✓", G: "✓", K: "50%", L: "75%", M: "✓", N: "✓" },
-  { benefit: "Part A Deductible ($1,676)", A: "✗", B: "✓", C: "✓", D: "✓", F: "✓", G: "✓", K: "50%", L: "75%", M: "50%", N: "✓" },
-  { benefit: "Part B Deductible ($257)", A: "✗", B: "✗", C: "✓", D: "✗", F: "✓", G: "✗", K: "✗", L: "✗", M: "✗", N: "✗" },
+  { benefit: "Part A Deductible ($1,736)", A: "✗", B: "✓", C: "✓", D: "✓", F: "✓", G: "✓", K: "50%", L: "75%", M: "50%", N: "✓" },
+  { benefit: "Part B Deductible ($283)", A: "✗", B: "✗", C: "✓", D: "✗", F: "✓", G: "✗", K: "✗", L: "✗", M: "✗", N: "✗" },
   { benefit: "Part B Excess Charges", A: "✗", B: "✗", C: "✗", D: "✗", F: "✓", G: "✓", K: "✗", L: "✗", M: "✗", N: "✗" },
   { benefit: "Foreign Travel Emergency", A: "✗", B: "✗", C: "✓", D: "✓", F: "✓", G: "✓", K: "✗", L: "✗", M: "✓", N: "✓" },
 ];
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     q: "Which Medigap plan is the best?",
-    a: "Plan G is widely considered the best overall value. It covers everything except the Part B annual deductible ($257 in 2026), and its premiums are significantly lower than Plan F. Plan N is a good budget alternative with slightly lower premiums but includes small copays for some visits.",
+    a: "Plan G is widely considered the best overall value. It covers everything except the Part B annual deductible ($283 in 2026), and its premiums are significantly lower than Plan F. Plan N is a good budget alternative with slightly lower premiums but includes small copays for some visits.",
   },
   {
     q: "Can I switch Medigap plans later?",
@@ -365,13 +365,13 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     </div>
                     <h3 className="text-2xl font-bold text-slate-900 mb-2">Plan G</h3>
                     <p className="text-slate-600 mb-4">
-                      The gold standard of Medigap coverage. Plan G covers <strong>everything except the Part B annual deductible</strong> ($257 in 2026). For most people, Plan G offers the best balance of comprehensive coverage and reasonable premiums.
+                      The gold standard of Medigap coverage. Plan G covers <strong>everything except the Part B annual deductible</strong> ($283 in 2026). For most people, Plan G offers the best balance of comprehensive coverage and reasonable premiums.
                     </p>
                     <div className="grid sm:grid-cols-2 gap-4 mb-4">
                       <div className="bg-green-50 rounded-lg p-4">
                         <h4 className="font-semibold text-green-800 text-sm mb-2">What Plan G Covers</h4>
                         <ul className="space-y-1.5">
-                          {["Part A hospital deductible ($1,676)", "Part B coinsurance (20%)", "Part B excess charges", "Skilled nursing facility coinsurance", "Foreign travel emergency", "Blood (first 3 pints)", "Hospice coinsurance"].map((item, i) => (
+                          {["Part A hospital deductible ($1,736)", "Part B coinsurance (20%)", "Part B excess charges", "Skilled nursing facility coinsurance", "Foreign travel emergency", "Blood (first 3 pints)", "Hospice coinsurance"].map((item, i) => (
                             <li key={i} className="flex items-start gap-1.5 text-xs text-green-800">
                               <CheckCircle2 className="w-3.5 h-3.5 mt-0.5 shrink-0 text-green-600" /> {item}
                             </li>
@@ -386,7 +386,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                         </div>
                         <div className="bg-amber-50 rounded-lg p-4">
                           <p className="text-xs text-amber-700 font-semibold mb-1">Your Only Out-of-Pocket Cost</p>
-                          <p className="text-lg font-bold text-amber-900">$257/year</p>
+                          <p className="text-lg font-bold text-amber-900">$283/year</p>
                           <p className="text-xs text-amber-700">Part B deductible (the only thing not covered)</p>
                         </div>
                       </div>
@@ -427,7 +427,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     </p>
                     <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg">
                       <p className="text-sm text-amber-800">
-                        <strong>Note:</strong> Even if you're eligible for Plan F, Plan G is often a better value. You'd pay $257/year for the Part B deductible but typically save $300–$600/year in lower premiums.
+                        <strong>Note:</strong> Even if you're eligible for Plan F, Plan G is often a better value. You'd pay $283/year for the Part B deductible but typically save $300–$600/year in lower premiums.
                       </p>
                     </div>
                   </div>

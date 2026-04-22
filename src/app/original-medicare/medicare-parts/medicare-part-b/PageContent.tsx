@@ -53,9 +53,9 @@ const coverageItems = [
 ];
 
 const irmaaBrackets = [
-  { income: "$106,000 or less", mfj: "$212,000 or less", premium: "$185.00", surcharge: "$0" },
+  { income: "$106,000 or less", mfj: "$212,000 or less", premium: "$202.90", surcharge: "$0" },
   { income: "$106,001 – $133,000", mfj: "$212,001 – $266,000", premium: "$259.00", surcharge: "$74.00" },
-  { income: "$133,001 – $167,000", mfj: "$266,001 – $334,000", premium: "$370.00", surcharge: "$185.00" },
+  { income: "$133,001 – $167,000", mfj: "$266,001 – $334,000", premium: "$370.00", surcharge: "$202.90" },
   { income: "$167,001 – $200,000", mfj: "$334,001 – $400,000", premium: "$480.90", surcharge: "$295.90" },
   { income: "$200,001 – $500,000", mfj: "$400,001 – $750,000", premium: "$591.90", surcharge: "$406.90" },
   { income: "Above $500,000", mfj: "Above $750,000", premium: "$628.90", surcharge: "$443.90" },
@@ -64,11 +64,11 @@ const irmaaBrackets = [
 const faqs = [
   {
     q: "What is the Medicare Part B premium in 2026?",
-    a: "The standard Medicare Part B premium in 2026 is $185.00 per month. Higher-income beneficiaries pay more through IRMAA surcharges, which are based on income reported two years prior (2024 income for 2026 premiums).",
+    a: "The standard Medicare Part B premium in 2026 is $202.90 per month. Higher-income beneficiaries pay more through IRMAA surcharges, which are based on income reported two years prior (2024 income for 2026 premiums).",
   },
   {
     q: "What is the Part B deductible in 2026?",
-    a: "The Medicare Part B deductible in 2026 is $257. After you meet the deductible, Medicare typically pays 80% of approved costs and you pay the remaining 20% coinsurance — with no out-of-pocket cap.",
+    a: "The Medicare Part B deductible in 2026 is $283. After you meet the deductible, Medicare typically pays 80% of approved costs and you pay the remaining 20% coinsurance — with no out-of-pocket cap.",
   },
   {
     q: "Can I delay Part B enrollment if I have employer coverage?",
@@ -84,7 +84,7 @@ const faqs = [
   },
   {
     q: "What is the Part B 20% coinsurance?",
-    a: "After you meet the $257 deductible, Medicare Part B pays 80% of approved charges for covered services. You're responsible for the remaining 20%. There is no out-of-pocket maximum, so a serious illness can result in significant costs. A Medigap plan can cover this 20% coinsurance.",
+    a: "After you meet the $283 deductible, Medicare Part B pays 80% of approved charges for covered services. You're responsible for the remaining 20%. There is no out-of-pocket maximum, so a serious illness can result in significant costs. A Medigap plan can cover this 20% coinsurance.",
   },
 ];
 
@@ -112,7 +112,7 @@ export default function PageContent() {
             </div>
             <h1 className="text-4xl font-bold mb-4">Medicare Part B</h1>
             <p className="text-xl text-blue-100 max-w-2xl mb-6">
-              Outpatient medical insurance covering doctor visits, preventive care, lab tests, and durable medical equipment. The standard 2026 premium is $185/month.
+              Outpatient medical insurance covering doctor visits, preventive care, lab tests, and durable medical equipment. The standard 2026 premium is $202.90/month.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="tel:8883358996"
@@ -131,8 +131,8 @@ export default function PageContent() {
         <section className="bg-blue-50 border-b border-blue-100 py-6 px-4">
           <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { label: "2026 Monthly Premium", value: "$185.00", sub: "standard amount" },
-              { label: "2026 Deductible", value: "$257", sub: "annual" },
+              { label: "2026 Monthly Premium", value: "$202.90", sub: "standard amount" },
+              { label: "2026 Deductible", value: "$283", sub: "annual" },
               { label: "Your Coinsurance", value: "20%", sub: "after deductible" },
               { label: "Late Penalty", value: "10%/year", sub: "permanent surcharge" },
             ].map((stat) => (
@@ -171,14 +171,14 @@ export default function PageContent() {
                 Medicare Part B is the medical insurance component of Original Medicare. While Part A covers inpatient hospital care, Part B covers outpatient services — everything from routine doctor visits and lab tests to preventive screenings and durable medical equipment. Part B is optional, but most people enroll because the late enrollment penalty is permanent and the coverage is essential.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Unlike Part A, Part B always has a monthly premium. The standard premium in 2026 is $185.00/month, though higher-income beneficiaries pay more through IRMAA (Income-Related Monthly Adjustment Amount) surcharges.
+                Unlike Part A, Part B always has a monthly premium. The standard premium in 2026 is $202.90/month, though higher-income beneficiaries pay more through IRMAA (Income-Related Monthly Adjustment Amount) surcharges.
               </p>
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
                   <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
                   <div>
                     <p className="font-semibold text-blue-900 mb-1">The 20% Gap</p>
-                    <p className="text-sm text-blue-800">After meeting the $257 deductible, Medicare pays 80% of approved costs. You pay the remaining 20% with no annual cap. A Medigap supplement plan can cover this 20% coinsurance entirely.</p>
+                    <p className="text-sm text-blue-800">After meeting the $283 deductible, Medicare pays 80% of approved costs. You pay the remaining 20% with no annual cap. A Medigap supplement plan can cover this 20% coinsurance entirely.</p>
                   </div>
                 </div>
               </div>
@@ -206,8 +206,8 @@ export default function PageContent() {
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">2026 Medicare Part B Costs</h2>
               <div className="grid md:grid-cols-3 gap-4 mb-6">
                 {[
-                  { label: "Monthly Premium", value: "$185.00", note: "Standard amount; higher for high earners" },
-                  { label: "Annual Deductible", value: "$257", note: "You pay 100% of costs until this is met" },
+                  { label: "Monthly Premium", value: "$202.90", note: "Standard amount; higher for high earners" },
+                  { label: "Annual Deductible", value: "$283", note: "You pay 100% of costs until this is met" },
                   { label: "Coinsurance", value: "20%", note: "Your share after the deductible; no cap" },
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-5 text-center">
@@ -307,7 +307,7 @@ export default function PageContent() {
                       For every 12-month period you were eligible for Part B but didn't enroll (without creditable coverage), your premium increases by 10%. This penalty is added to your monthly premium for as long as you have Part B.
                     </p>
                     <p className="text-sm text-red-800">
-                      <strong>Example:</strong> If you delayed Part B for 2 years without creditable coverage, your premium would be $185 × 1.20 = $222/month in 2026 — and this higher rate stays with you permanently.
+                      <strong>Example:</strong> If you delayed Part B for 2 years without creditable coverage, your premium would be $202.90 × 1.20 = $222/month in 2026 — and this higher rate stays with you permanently.
                     </p>
                   </div>
                 </div>

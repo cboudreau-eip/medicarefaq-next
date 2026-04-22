@@ -215,7 +215,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       <strong>Formula:</strong> 10% × (number of full 12-month periods you delayed) × standard Part B premium
                     </p>
                     <p className="text-sm text-slate-700">
-                      <strong>2026 Standard Premium:</strong> $185.00/month
+                      <strong>2026 Standard Premium:</strong> $202.90/month
                     </p>
                   </div>
 
@@ -223,15 +223,15 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   <div className="space-y-3">
                     <div className="bg-white rounded-lg p-4 border border-red-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 2 years (24 months)</p>
-                      <p className="text-sm text-slate-600">Penalty: 20% of $185 = <strong className="text-red-700">$37.00/month extra — permanently</strong></p>
+                      <p className="text-sm text-slate-600">Penalty: 20% of $202.90 = <strong className="text-red-700">$37.00/month extra — permanently</strong></p>
                     </div>
                     <div className="bg-white rounded-lg p-4 border border-red-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 5 years (60 months)</p>
-                      <p className="text-sm text-slate-600">Penalty: 50% of $185 = <strong className="text-red-700">$92.50/month extra — permanently</strong></p>
+                      <p className="text-sm text-slate-600">Penalty: 50% of $202.90 = <strong className="text-red-700">$92.50/month extra — permanently</strong></p>
                     </div>
                     <div className="bg-white rounded-lg p-4 border border-red-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 10 years (120 months)</p>
-                      <p className="text-sm text-slate-600">Penalty: 100% of $185 = <strong className="text-red-700">$185.00/month extra — permanently</strong></p>
+                      <p className="text-sm text-slate-600">Penalty: 100% of $202.90 = <strong className="text-red-700">$202.90/month extra — permanently</strong></p>
                     </div>
                   </div>
                 </div>
@@ -352,7 +352,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     </thead>
                     <tbody>
                       {[
-                        { single: "$106,000 or less", married: "$212,000 or less", premium: "$185.00 (standard)" },
+                        { single: "$106,000 or less", married: "$212,000 or less", premium: "$202.90 (standard)" },
                         { single: "$106,001 – $133,500", married: "$212,001 – $267,000", premium: "$259.00" },
                         { single: "$133,501 – $167,000", married: "$267,001 – $334,000", premium: "$370.00" },
                         { single: "$167,001 – $200,000", married: "$334,001 – $400,000", premium: "$480.90" },

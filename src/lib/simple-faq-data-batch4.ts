@@ -823,7 +823,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         paragraphs: [
         ],
         listItems: [
-          'Plan Gis known for its comprehensive coverage. Once you pay the annual Medicare Part B deductible ($257 in 2025), Plan G covers 100% of the gaps in Medicare for approved services. This is a great choice for individuals who want maximum predictability and minimal out-of-pocket costs.',
+          'Plan Gis known for its comprehensive coverage. Once you pay the annual Medicare Part B deductible ($283 in 2025), Plan G covers 100% of the gaps in Medicare for approved services. This is a great choice for individuals who want maximum predictability and minimal out-of-pocket costs.',
           'Plan Ntypically has a lower monthly premium than Plan G. In exchange, you agree to share some costs. You may have a copayment of up to $20 for some office visits and up to $50 for emergency room visits that do not result in a hospital admission. It is a fantastic, budget-friendly option if you are comfortable with these small, predictable copayments.',
         ],
       },

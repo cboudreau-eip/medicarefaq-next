@@ -43,8 +43,8 @@ const drugTiers = [
 ];
 
 const coveragePhases = [
-  { phase: "1", name: "Deductible Phase", threshold: "First $590", desc: "You pay 100% of drug costs until you reach the annual deductible. Some plans cover certain generics before you meet the deductible.", color: "bg-slate-100" },
-  { phase: "2", name: "Initial Coverage", threshold: "$590 – $2,000 total drug costs", desc: "You pay copays or coinsurance based on drug tier. The plan pays the rest. This is where most people spend most of the year.", color: "bg-blue-100" },
+  { phase: "1", name: "Deductible Phase", threshold: "First $615", desc: "You pay 100% of drug costs until you reach the annual deductible. Some plans cover certain generics before you meet the deductible.", color: "bg-slate-100" },
+  { phase: "2", name: "Initial Coverage", threshold: "$615 – $2,000 total drug costs", desc: "You pay copays or coinsurance based on drug tier. The plan pays the rest. This is where most people spend most of the year.", color: "bg-blue-100" },
   { phase: "3", name: "Coverage Gap (Donut Hole)", threshold: "$2,000 – $2,000 (eliminated in 2025)", desc: "Starting in 2025, the coverage gap has been eliminated. You continue paying no more than 25% for brand-name drugs in this phase thanks to the Inflation Reduction Act.", color: "bg-teal-100" },
   { phase: "4", name: "Catastrophic Coverage", threshold: "After $2,000 out-of-pocket", desc: "Starting in 2025, there is a $2,000 annual out-of-pocket cap. Once reached, you pay $0 for covered drugs for the rest of the year.", color: "bg-green-100" },
 ];
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "How much does Part D cost?",
-    a: "The national average Part D premium is about $46/month in 2026. Premiums vary widely by plan ($0 to $100+). You also pay a deductible (up to $590), copays/coinsurance for each prescription, and your total out-of-pocket is capped at $2,000/year.",
+    a: "The national average Part D premium is about $46/month in 2026. Premiums vary widely by plan ($0 to $100+). You also pay a deductible (up to $615), copays/coinsurance for each prescription, and your total out-of-pocket is capped at $2,000/year.",
   },
   {
     q: "What is the Extra Help / Low-Income Subsidy program?",
@@ -272,9 +272,9 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                     <tbody className="divide-y divide-slate-100">
                       {[
                         ["Monthly Premium (national average)", "~$46/month"],
-                        ["Annual Deductible (maximum)", "$590"],
+                        ["Annual Deductible (maximum)", "$615"],
                         ["Annual Out-of-Pocket Cap", "$2,000"],
-                        ["Part B Premium (standard)", "$185/month"],
+                        ["Part B Premium (standard)", "$202.90/month"],
                         ["IRMAA Surcharge (income > $106K)", "$13 – $81/month extra"],
                       ].map(([item, amount], i) => (
                         <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50/50"}>
