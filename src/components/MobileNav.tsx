@@ -6,6 +6,8 @@ import { useRouter } from "next/navigation";
 import { Menu, X, ChevronDown, Search, Phone } from "lucide-react";
 import { navigationData, utilityLinks } from "@/lib/navigation-data";
 import { motion, AnimatePresence } from "framer-motion";
+import ZipFormModal from "@/components/ZipFormModal";
+import { trackNavClick, trackPhoneClick } from "@/lib/analytics";
 
 const LOGO_URL =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
@@ -34,12 +36,12 @@ export default function MobileNav() {
           <img src={LOGO_URL} alt="MedicareFAQ" className="h-9 w-auto" />
         </Link>
         <div className="flex items-center gap-3">
-          <Link
-            href="/compare-rates"
-            className="bg-[#C41230] text-white font-bold px-3 py-1.5 rounded-md text-xs"
-          >
-            Get Started
-          </Link>
+          <ZipFormModal
+            coverageType="ms"
+            triggerLabel="Get Started"
+            triggerClassName="bg-[#C41230] text-white font-bold px-3 py-1.5 rounded-md text-xs"
+            pageSection="mobile_nav"
+          />
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="p-1.5 text-[#1B2A4A]"
@@ -125,7 +127,14 @@ export default function MobileNav() {
                                 <Link
                                   key={item.title}
                                   href={item.href}
-                                  onClick={() => setIsOpen(false)}
+                                  onClick={() => {
+                                    setIsOpen(false);
+                                    trackNavClick({
+                                      link_text: item.title,
+                                      destination: item.href,
+                                      nav_section: `mobile_nav_${category.title.toLowerCase().replace(/\s+/g, "_")}`,
+                                    });
+                                  }}
                                   className="flex items-center gap-3 py-2.5 pl-4"
                                 >
                                   <Icon
@@ -150,7 +159,14 @@ export default function MobileNav() {
                     <Link
                       key={link.title}
                       href={link.href}
-                      onClick={() => setIsOpen(false)}
+                      onClick={() => {
+                        setIsOpen(false);
+                        trackNavClick({
+                          link_text: link.title,
+                          destination: link.href,
+                          nav_section: "mobile_nav_utility",
+                        });
+                      }}
                       className="block text-sm text-[#6B7280] font-medium"
                     >
                       {link.title}
@@ -160,6 +176,12 @@ export default function MobileNav() {
                 <div className="px-4 pt-6 pb-4">
                   <a
                     href="tel:8883358996"
+                    onClick={() =>
+                      trackPhoneClick({
+                        phone_number: "(888) 335-8996",
+                        page_section: "mobile_nav",
+                      })
+                    }
                     className="flex items-center gap-2 text-[#1B2A4A] font-bold"
                   >
                     <Phone className="w-4 h-4" />

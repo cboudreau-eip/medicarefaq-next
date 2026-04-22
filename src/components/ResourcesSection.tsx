@@ -2,6 +2,7 @@
 
 import { ArrowRight, Clock } from "lucide-react";
 import { motion } from "framer-motion";
+import { trackCtaClick } from "@/lib/analytics";
 
 const resources = [
   {
@@ -63,7 +64,7 @@ export default function ResourcesSection() {
             <motion.a
               key={resource.title}
               href={resource.href}
-
+              onClick={() => trackCtaClick({ button_label: resource.title, destination: resource.href, page_section: "resources_section" })}
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

@@ -4,6 +4,7 @@ import { ArrowRight, CheckCircle, Compass, Briefcase } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import ZipFormModal from "@/components/ZipFormModal";
+import { trackCtaClick } from "@/lib/analytics";
 
 const JOURNEY_NEW =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/journey-new-YLAZRxoSj2yuXGqtyALKVr.webp";
@@ -142,6 +143,7 @@ export default function JourneySection() {
                             title="Compare Medicare Plans"
                             subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
                             buttonLabel="Compare Plans"
+                            pageSection="journey_section"
                             trigger={
                               <span className="text-sm text-[#4B5563] hover:text-[#1B2A4A] transition-colors cursor-pointer">
                                 {link.label}
@@ -151,6 +153,7 @@ export default function JourneySection() {
                         ) : (
                           <Link
                             href={link.href}
+                            onClick={() => trackCtaClick({ button_label: link.label, destination: link.href, page_section: "journey_section" })}
                             className="text-sm text-[#4B5563] hover:text-[#1B2A4A] transition-colors"
                           >
                             {link.label}
@@ -165,6 +168,7 @@ export default function JourneySection() {
                       title="Compare Medicare Plans"
                       subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
                       buttonLabel="Compare Plans"
+                      pageSection="journey_section"
                       trigger={
                         <span
                           className="inline-flex items-center gap-1.5 font-semibold text-sm cursor-pointer group-hover:gap-2.5 transition-all duration-150"
@@ -178,6 +182,7 @@ export default function JourneySection() {
                   ) : (
                     <Link
                       href={path.href}
+                      onClick={() => trackCtaClick({ button_label: "Explore This Path", destination: path.href, page_section: "journey_section" })}
                       className="inline-flex items-center gap-1.5 font-semibold text-sm group-hover:gap-2.5 transition-all duration-150"
                       style={{ color: path.color }}
                     >

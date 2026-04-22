@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { trackNavClick } from "@/lib/analytics";
 
 const topics = [
   {
@@ -107,6 +108,7 @@ export default function TopicSection() {
               >
                 <Link
                   href={topic.href}
+                  onClick={() => trackNavClick({ link_text: topic.title, destination: topic.href, nav_section: "topic_section" })}
                   className="group bg-white rounded-xl p-6 border border-[#E5E7EB] hover:shadow-md hover:shadow-black/5 transition-all duration-200 flex items-start gap-4 h-full"
                 >
                   <div

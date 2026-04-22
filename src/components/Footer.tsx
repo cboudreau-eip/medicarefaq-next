@@ -1,5 +1,8 @@
+"use client";
+
 import { Phone, Mail } from "lucide-react";
 import Link from "next/link";
+import { trackFooterClick, trackPhoneClick } from "@/lib/analytics";
 
 const LOGO_URL =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
@@ -94,6 +97,13 @@ export default function Footer() {
                   <li key={link.label}>
                     <Link
                       href={link.href}
+                      onClick={() =>
+                        trackFooterClick({
+                          link_text: link.label,
+                          destination: link.href,
+                          footer_section: column.title.toLowerCase().replace(/\s+/g, "_"),
+                        })
+                      }
                       className="text-sm text-white/60 hover:text-white transition-colors duration-150"
                     >
                       {link.label}
@@ -114,7 +124,16 @@ export default function Footer() {
                 className="h-10 w-auto brightness-0 invert opacity-70"
               />
               <div className="flex flex-col sm:flex-row gap-4 text-sm text-white/50">
-                <a href="tel:8883358996" className="flex items-center gap-1.5 hover:text-white/80 transition-colors">
+                <a
+                  href="tel:8883358996"
+                  onClick={() =>
+                    trackPhoneClick({
+                      phone_number: "(888) 335-8996",
+                      page_section: "footer",
+                    })
+                  }
+                  className="flex items-center gap-1.5 hover:text-white/80 transition-colors"
+                >
                   <Phone className="w-3.5 h-3.5" />
                   (888) 335-8996
                 </a>
@@ -135,13 +154,31 @@ export default function Footer() {
             affiliated entity not endorsed by any government agency.
           </p>
           <div className="flex items-center gap-4">
-            <Link href="/privacy-policy" className="hover:text-white/70 transition-colors">
+            <Link
+              href="/privacy-policy"
+              onClick={() =>
+                trackFooterClick({ link_text: "Privacy Policy", destination: "/privacy-policy", footer_section: "bottom_bar" })
+              }
+              className="hover:text-white/70 transition-colors"
+            >
               Privacy Policy
             </Link>
-            <Link href="/terms-of-use" className="hover:text-white/70 transition-colors">
+            <Link
+              href="/terms-of-use"
+              onClick={() =>
+                trackFooterClick({ link_text: "Terms of Use", destination: "/terms-of-use", footer_section: "bottom_bar" })
+              }
+              className="hover:text-white/70 transition-colors"
+            >
               Terms of Use
             </Link>
-            <Link href="/sitemap-page" className="hover:text-white/70 transition-colors">
+            <Link
+              href="/sitemap-page"
+              onClick={() =>
+                trackFooterClick({ link_text: "Sitemap", destination: "/sitemap-page", footer_section: "bottom_bar" })
+              }
+              className="hover:text-white/70 transition-colors"
+            >
               Sitemap
             </Link>
           </div>

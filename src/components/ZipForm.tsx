@@ -20,6 +20,7 @@ import {
   redirectToDemographics,
   type CoverageType,
 } from "@/lib/demographics-redirect";
+import { trackZipSubmitted, trackPhoneClick } from "@/lib/analytics";
 
 interface ZipFormProps {
   /** Coverage type: 'ma' | 'ms' | 'pdp' | 'me' */
@@ -62,6 +63,7 @@ export default function ZipForm({
     }
     setError("");
     setSubmitting(true);
+    trackZipSubmitted({ coverage_type: coverageType, zip_code: zip, page_section: "zip_form" });
     redirectToDemographics(zip, coverageType);
   }
 
@@ -112,6 +114,7 @@ export default function ZipForm({
               <span className="text-white/40 text-sm font-medium">or</span>
               <a
                 href={`tel:${phoneNumber.replace(/\D/g, "")}`}
+                onClick={() => trackPhoneClick({ phone_number: phoneNumber, page_section: "zip_form" })}
                 className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium transition-colors"
               >
                 <Phone className="w-3.5 h-3.5" />

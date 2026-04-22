@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronDown, ArrowRight } from "lucide-react";
 import { navigationData, type NavCategory } from "@/lib/navigation-data";
 import { motion, AnimatePresence } from "framer-motion";
+import { trackNavClick } from "@/lib/analytics";
 
 function MegaMenuPanel({
   category,
@@ -38,7 +39,14 @@ function MegaMenuPanel({
                   <Link
                     key={item.title}
                     href={item.href}
-                    onClick={() => onClose()}
+                    onClick={() => {
+                      onClose();
+                      trackNavClick({
+                        link_text: item.title,
+                        destination: item.href,
+                        nav_section: `mega_menu_${category.title.toLowerCase().replace(/\s+/g, "_")}`,
+                      });
+                    }}
                     className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#F5F7FA] transition-colors duration-150"
                   >
                     <div
@@ -74,7 +82,14 @@ function MegaMenuPanel({
                   <Link
                     key={item.title}
                     href={item.href}
-                    onClick={() => onClose()}
+                    onClick={() => {
+                      onClose();
+                      trackNavClick({
+                        link_text: item.title,
+                        destination: item.href,
+                        nav_section: `mega_menu_sidebar_${category.title.toLowerCase().replace(/\s+/g, "_")}`,
+                      });
+                    }}
                     className="block p-3 bg-[#F9FAFB] rounded-lg hover:bg-[#F0F4F8] transition-colors duration-150 group"
                   >
                     <span className="font-semibold text-[#1B2A4A] text-sm block leading-tight">

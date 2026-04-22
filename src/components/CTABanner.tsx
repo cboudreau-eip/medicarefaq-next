@@ -3,6 +3,7 @@
 import { Phone, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import ZipFormModal from "@/components/ZipFormModal";
+import { trackPhoneClick } from "@/lib/analytics";
 
 export default function CTABanner() {
   return (
@@ -27,6 +28,12 @@ export default function CTABanner() {
           <div className="flex items-center gap-4">
             <a
               href="tel:8883358996"
+              onClick={() =>
+                trackPhoneClick({
+                  phone_number: "(888) 335-8996",
+                  page_section: "cta_banner",
+                })
+              }
               className="inline-flex items-center gap-2 bg-white text-[#C41230] font-bold px-6 py-3.5 rounded-lg transition-all duration-150 hover:bg-white/90 shadow-lg"
             >
               <Phone className="w-4 h-4" />
@@ -37,6 +44,7 @@ export default function CTABanner() {
               title="Get Started Online"
               subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
               buttonLabel="Compare Plans"
+              pageSection="cta_banner"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 border border-white/30">
                   Get Started Online

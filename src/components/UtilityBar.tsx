@@ -1,6 +1,9 @@
+"use client";
+
 import { utilityLinks } from "@/lib/navigation-data";
 import { Star, ShieldCheck } from "lucide-react";
 import Link from "next/link";
+import { trackNavClick } from "@/lib/analytics";
 
 export default function UtilityBar() {
   return (
@@ -11,6 +14,13 @@ export default function UtilityBar() {
             <Link
               key={link.title}
               href={link.href}
+              onClick={() =>
+                trackNavClick({
+                  link_text: link.title,
+                  destination: link.href,
+                  nav_section: "utility_bar",
+                })
+              }
               className="text-[#4B5563] hover:text-[#1B2A4A] transition-colors duration-150 font-medium"
             >
               {link.title}

@@ -3,6 +3,7 @@
 import { MapPin, ArrowRight, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import ZipFormModal from "@/components/ZipFormModal";
+import { trackPhoneClick } from "@/lib/analytics";
 
 const ZIP_BG =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/zip-finder-bg-gNTJcKEjmhG5w7ALCC56EK.webp";
@@ -42,6 +43,7 @@ export default function ZipFinderSection() {
               title="Find Plans in Your Area"
               subtitle="Enter your ZIP code to see Medicare plans, costs, and coverage options specific to where you live."
               buttonLabel="Find Plans"
+              pageSection="zip_finder_section"
               trigger={
                 <button className="inline-flex items-center gap-2.5 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-8 py-4 rounded-lg transition-all duration-150 shadow-lg shadow-[#C41230]/25 text-base">
                   <MapPin className="w-5 h-5" />
@@ -52,6 +54,7 @@ export default function ZipFinderSection() {
             />
             <a
               href="tel:8883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "zip_finder_section" })}
               className="inline-flex items-center gap-2 text-white/70 hover:text-white font-semibold text-sm transition-colors"
             >
               <Phone className="w-4 h-4" />

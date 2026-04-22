@@ -4,6 +4,7 @@ import { ArrowRight, Star, MapPin, Users, FileCheck } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import ZipFormModal from "@/components/ZipFormModal";
+import { trackCtaClick } from "@/lib/analytics";
 
 const trustItems = [
   { icon: Star, label: "BBB A+ Rated", sublabel: "Since 2015" },
@@ -69,6 +70,7 @@ export default function HeroSection() {
           >
             <Link
               href="/medicare-101"
+              onClick={() => trackCtaClick({ button_label: "I'm New to Medicare", destination: "/medicare-101", page_section: "hero" })}
               className="group inline-flex items-center justify-between gap-3 bg-[#0D9488] hover:bg-[#0B7C72] text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#0D9488]/25 text-sm flex-1"
             >
               <div className="flex flex-col">
@@ -80,6 +82,7 @@ export default function HeroSection() {
             </Link>
             <Link
               href="/enrollment/working-past-65"
+              onClick={() => trackCtaClick({ button_label: "Working Past 65", destination: "/enrollment/working-past-65", page_section: "hero" })}
               className="group inline-flex items-center justify-between gap-3 bg-[#D97706] hover:bg-[#B45309] text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#D97706]/25 text-sm flex-1"
             >
               <div className="flex flex-col">
@@ -94,6 +97,7 @@ export default function HeroSection() {
               title="Compare Medicare Plans"
               subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
               buttonLabel="Compare Plans"
+              pageSection="hero"
               trigger={
                 <button className="group inline-flex items-center justify-between gap-3 bg-white/15 hover:bg-white/25 backdrop-blur-sm text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 border border-white/20 text-sm flex-1 w-full">
                   <div className="flex flex-col text-left">

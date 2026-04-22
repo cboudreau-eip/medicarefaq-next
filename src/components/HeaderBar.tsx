@@ -4,6 +4,8 @@ import { Search, Phone } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import ZipFormModal from "@/components/ZipFormModal";
+import { trackPhoneClick } from "@/lib/analytics";
 
 const LOGO_URL =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
@@ -52,17 +54,20 @@ export default function HeaderBar() {
         <div className="flex items-center gap-4">
           <a
             href="tel:8883358996"
+            onClick={() =>
+              trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "header" })
+            }
             className="hidden lg:flex items-center gap-2 text-[#1B2A4A] font-bold text-lg hover:text-[#0D9488] transition-colors duration-150"
           >
             <Phone className="w-5 h-5" />
             (888) 335-8996
           </a>
-          <Link
-            href="/compare-rates"
-            className="bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all duration-150 shadow-sm hover:shadow-md whitespace-nowrap"
-          >
-            Get Started Free
-          </Link>
+          <ZipFormModal
+            coverageType="ms"
+            triggerLabel="Get Started Free"
+            triggerClassName="bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all duration-150 shadow-sm hover:shadow-md whitespace-nowrap"
+            pageSection="header"
+          />
         </div>
       </div>
     </div>
