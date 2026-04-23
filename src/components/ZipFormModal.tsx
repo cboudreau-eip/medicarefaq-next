@@ -55,6 +55,11 @@ interface ZipFormModalProps {
    * Convenience: className string for the auto-rendered <button> trigger.
    */
   triggerClassName?: string;
+  /**
+   * Optional id attribute for the auto-rendered <button> trigger (e.g. "get-started-nav").
+   * Useful for GTM click tracking.
+   */
+  triggerId?: string;
   /** Modal headline */
   title?: string;
   /** Modal subtitle / context line */
@@ -75,6 +80,7 @@ export default function ZipFormModal({
   trigger,
   triggerLabel,
   triggerClassName,
+  triggerId,
   title = "Compare Medicare Plans",
   subtitle = "Enter your ZIP code to see rates from top carriers in your area — free, no obligation.",
   buttonLabel = "Compare Plans",
@@ -155,7 +161,7 @@ export default function ZipFormModal({
     trigger != null ? (
       trigger
     ) : (
-      <button type="button" className={triggerClassName ?? ""}>
+      <button type="button" id={triggerId} className={triggerClassName ?? ""}>
         {triggerLabel}
       </button>
     );
