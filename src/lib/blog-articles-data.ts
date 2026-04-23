@@ -10,10 +10,10 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "how-to-sign-up-for-medicare",
     seo: {
-      title: "How to Sign Up for Medicare in 2026 | MedicareFAQ",
+      title: "How to Sign Up for Medicare | MedicareFAQ",
       description: "Learn how to sign up for Medicare online, by phone, or in person. Understand enrollment periods, avoid late penalties, and choose the right coverage path for 2026.",
       canonical: "https://www.medicarefaq.com/blog/how-to-sign-up-for-medicare/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+      ogImage: "https://images.unsplash.com/photo-1664382950513-939431ef4e5c?auto=format&fit=crop&w=1200&q=80",
     },
     title: "How to Sign Up for Medicare",
     excerpt: "Most people spend more time researching a new appliance than they do planning their Medicare enrollment — and that gap can cost them hundreds of dollars a year. Here's everything you need to sign up correctly in 2026.",
@@ -24,8 +24,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
-    imageAlt: "Person signing up for Medicare online",
+    image: "https://images.unsplash.com/photo-1664382950513-939431ef4e5c?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Senior woman using a laptop and phone outdoors to sign up for Medicare",
     keyTakeaways: [
       "Most people apply through the Social Security Administration (SSA) online at SSA.gov, by phone at 1-800-772-1213, or in person at a local SSA office.",
       "Your Initial Enrollment Period (IEP) is a 7-month window centered on your 65th birthday — missing it can trigger permanent late enrollment penalties.",
