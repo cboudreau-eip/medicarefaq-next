@@ -144,6 +144,7 @@ export default function JourneySection() {
                             subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
                             buttonLabel="Compare Plans"
                             pageSection="journey_section"
+                            triggerId="compare-plans-journey-1"
                             trigger={
                               <span className="text-sm text-[#4B5563] hover:text-[#1B2A4A] transition-colors cursor-pointer">
                                 {link.label}
@@ -169,6 +170,7 @@ export default function JourneySection() {
                       subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
                       buttonLabel="Compare Plans"
                       pageSection="journey_section"
+                      triggerId="compare-plans-journey-2"
                       trigger={
                         <span
                           className="inline-flex items-center gap-1.5 font-semibold text-sm cursor-pointer group-hover:gap-2.5 transition-all duration-150"

@@ -202,6 +202,7 @@ export default function PageContent() {
                 triggerLabel="Compare Plans"
                 triggerClassName="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
                 pageSection="mutual_of_omaha"
+                triggerId="compare-plans-mutual-omaha"
               />
             </div>
           </div>

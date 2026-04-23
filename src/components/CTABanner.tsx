@@ -45,6 +45,7 @@ export default function CTABanner() {
               subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
               buttonLabel="Compare Plans"
               pageSection="cta_banner"
+              triggerId="compare-plans-cta-banner"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 border border-white/30">
                   Get Started Online

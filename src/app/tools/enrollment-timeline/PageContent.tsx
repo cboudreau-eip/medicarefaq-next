@@ -275,6 +275,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
             triggerLabel="Get Started Online"
             triggerClassName="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-colors border border-white/20"
             pageSection="enrollment_timeline"
+            triggerId="get-started-online-enrollment-timeline"
           />
         </div>
       </div>

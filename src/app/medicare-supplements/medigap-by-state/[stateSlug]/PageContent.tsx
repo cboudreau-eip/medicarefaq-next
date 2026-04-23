@@ -74,6 +74,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
           <div className="flex flex-wrap gap-3">
             <ZipFormModal
               pageSection="medigap_state_detail"
+              triggerId="compare-plans-medigap-state-detail-1"
               coverageType="ms"
               title={`Compare Medigap Rates in ${state.name}`}
               subtitle={`Enter your ZIP code to see rates from top Medigap carriers available in ${state.name} — free, no obligation.`}
@@ -226,6 +227,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
             <div className="flex flex-wrap gap-3">
               <ZipFormModal
                 pageSection="medigap_state_detail"
+                triggerId="compare-plans-medigap-state-detail-2"
                 coverageType="ms"
                 title={`Compare Medigap Rates in ${state.name}`}
                 subtitle={`Enter your ZIP code to get personalized Medigap rates from top carriers in ${state.name} — free, no obligation.`}

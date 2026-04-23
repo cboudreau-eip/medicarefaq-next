@@ -98,6 +98,7 @@ export default function HeroSection() {
               subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
               buttonLabel="Compare Plans"
               pageSection="hero"
+              triggerId="get-started-free-hero"
               trigger={
                 <button className="group inline-flex items-center justify-between gap-3 bg-white/15 hover:bg-white/25 backdrop-blur-sm text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 border border-white/20 text-sm flex-1 w-full">
                   <div className="flex flex-col text-left">

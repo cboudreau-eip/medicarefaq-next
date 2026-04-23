@@ -132,6 +132,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
           <div className="flex flex-wrap items-center gap-4">
             <ZipFormModal
               pageSection="medicare_supplements"
+              triggerId="compare-plans-supplements-1"
               coverageType="ms"
               title="Compare Medigap Plans"
               subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
@@ -554,6 +555,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   <div className="flex flex-wrap items-center gap-4">
                     <ZipFormModal
                       pageSection="medicare_supplements"
+                      triggerId="compare-plans-supplements-2"
                       coverageType="ms"
                       title="Compare Medigap Plans"
                       subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."

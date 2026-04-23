@@ -273,6 +273,7 @@ export default function PageContent() {
                 triggerLabel="Compare Plans"
                 triggerClassName="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
                 pageSection="apply_for_medicare_part_b"
+                triggerId="compare-plans-apply-part-b"
               />
             </div>
           </div>

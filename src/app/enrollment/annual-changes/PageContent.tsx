@@ -533,7 +533,8 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     <ZipFormModal
                       coverageType="ms"
                       triggerLabel="Compare Plans"
-                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"              pageSection="annual_changes" />
+                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"              pageSection="annual_changes"
+                triggerId="compare-plans-annual-changes" />
                   </div>
                 </div>
               </section>

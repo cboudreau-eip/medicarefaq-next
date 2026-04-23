@@ -97,6 +97,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
           <div className="flex flex-wrap gap-4">
             <ZipFormModal
               pageSection="supplement_plan_detail"
+              triggerId="compare-plans-supp-detail-1"
               coverageType="ms"
               title={`Compare ${plan.displayName} Quotes`}
               subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
@@ -170,6 +171,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent — free, no obligation</p>
                   <ZipFormModal
                     pageSection="supplement_plan_detail"
+                    triggerId="compare-plans-supp-detail-2"
                     coverageType="ms"
                     title={`Compare ${plan.displayName} Quotes`}
                     subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers."
@@ -344,6 +346,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                     <div className="flex flex-wrap gap-3">
                       <ZipFormModal
                         pageSection="supplement_plan_detail"
+                        triggerId="compare-plans-supp-detail-3"
                         coverageType="ms"
                         title={`Compare ${plan.displayName} Quotes`}
                         subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers — free, no obligation."

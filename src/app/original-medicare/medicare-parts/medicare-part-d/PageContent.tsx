@@ -169,6 +169,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
                   <ZipFormModal
                     pageSection="medicare_part_d"
+                    triggerId="compare-plans-part-d-1"
                     coverageType="pdp"
                     title="Find a Part D Plan"
                     subtitle="Enter your ZIP code to compare Medicare Part D prescription drug plans in your area — free, no obligation."
@@ -386,6 +387,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                   <div className="flex flex-wrap gap-4">
                     <ZipFormModal
                       pageSection="medicare_part_d"
+                      triggerId="compare-plans-part-d-2"
                       coverageType="pdp"
                       title="Find the Right Part D Plan"
                       subtitle="Enter your ZIP code to compare Medicare Part D prescription drug plans that cover your medications — free, no obligation."

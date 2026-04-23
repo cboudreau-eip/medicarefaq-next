@@ -545,6 +545,7 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                     triggerLabel="Compare Plans"
                     triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-lg border border-white/20"
                     pageSection="faq_simple"
+                triggerId="compare-plans-faq-simple"
                   />
                 </div>
               </div>

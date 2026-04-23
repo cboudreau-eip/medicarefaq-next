@@ -66,7 +66,7 @@ export default function HeaderBar() {
             coverageType="ms"
             triggerLabel="Get Started Free"
             triggerClassName="bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-all duration-150 shadow-sm hover:shadow-md whitespace-nowrap"
-            triggerId="get-started-nav"
+            triggerId="get-started-free-header"
             pageSection="header"
           />
         </div>

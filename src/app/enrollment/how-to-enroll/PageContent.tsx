@@ -548,7 +548,8 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     <ZipFormModal
                       coverageType="ms"
                       triggerLabel="Compare Plans First"
-                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"              pageSection="how_to_enroll" />
+                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"              pageSection="how_to_enroll"
+                triggerId="compare-plans-how-to-enroll" />
                   </div>
                 </div>
               </section>

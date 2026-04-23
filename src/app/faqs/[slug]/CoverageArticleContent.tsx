@@ -880,6 +880,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               triggerLabel="Compare Plans"
               triggerClassName="flex items-center gap-2 border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors"
               pageSection="faq_coverage_article"
+                triggerId="compare-plans-faq-coverage"
             />
           </div>
         </div>

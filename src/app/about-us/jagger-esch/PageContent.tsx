@@ -156,6 +156,7 @@ export default function PageContent() {
                 triggerLabel="Compare Plans"
                 triggerClassName="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
                 pageSection="jagger_esch"
+                triggerId="compare-plans-jagger-esch"
               />
               <Link
                 href="/contact"

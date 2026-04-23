@@ -168,6 +168,7 @@ export default function MedicareCosts() {
               triggerLabel="Compare Medigap Rates"
               triggerClassName="inline-block bg-[#0D9488] hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-full transition-colors text-sm"
               pageSection="medicare_costs"
+              triggerId="compare-medigap-rates-costs"
             />
           </div>
         </section>

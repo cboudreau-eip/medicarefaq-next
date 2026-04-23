@@ -252,7 +252,8 @@ const faqs = [
             <ZipFormModal
               coverageType="ma"
               triggerLabel="Compare Plans"
-              triggerClassName="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"              pageSection="medicare_advantage_plan_types" />
+              triggerClassName="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"              pageSection="medicare_advantage_plan_types"
+                triggerId="compare-plans-ma-plan-types" />
           </div>
         </div>
       </main>

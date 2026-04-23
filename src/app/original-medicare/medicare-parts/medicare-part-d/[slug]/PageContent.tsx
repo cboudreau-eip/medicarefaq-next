@@ -270,6 +270,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
             <div className="flex flex-wrap gap-4 justify-center">
               <ZipFormModal
                 pageSection="part_d_detail"
+                triggerId="compare-plans-part-d-detail"
                 coverageType="pdp"
                 title="Find the Right Part D Plan"
                 subtitle="Enter your ZIP code to compare Medicare Part D plans that cover your medications — free, no obligation."

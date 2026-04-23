@@ -44,6 +44,7 @@ export default function ZipFinderSection() {
               subtitle="Enter your ZIP code to see Medicare plans, costs, and coverage options specific to where you live."
               buttonLabel="Find Plans"
               pageSection="zip_finder_section"
+              triggerId="compare-plans-zip-finder"
               trigger={
                 <button className="inline-flex items-center gap-2.5 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-8 py-4 rounded-lg transition-all duration-150 shadow-lg shadow-[#C41230]/25 text-base">
                   <MapPin className="w-5 h-5" />

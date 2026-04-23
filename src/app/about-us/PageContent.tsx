@@ -621,6 +621,7 @@ export default function About() {  return (
                 triggerLabel="Get Started Free"
                 triggerClassName="inline-flex items-center justify-center gap-2 bg-white/10 border border-white/30 text-white font-semibold px-8 py-3.5 rounded-lg hover:bg-white/20 transition-colors"
                 pageSection="about_us"
+                triggerId="compare-plans-about-us"
               />
             </div>
           </div>

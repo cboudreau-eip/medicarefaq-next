@@ -177,4 +177,5 @@
 - [x] Build does-medicare-cover-glaucoma as CoverageArticle
 - [x] Build does-medicare-cover-home-health-care as CoverageArticle
 - [x] Build does-medicare-cover-durable-medical-equipment as CoverageArticle
-- [ ] Create blog post: how-to-sign-up-for-medicare
+- [x] Create blog post: how-to-sign-up-for-medicare
+- [ ] Add unique triggerId to all ZipFormModal instances for GTM click tracking

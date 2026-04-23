@@ -519,7 +519,8 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   <ZipFormModal
                     coverageType="ms"
                     triggerLabel="Compare Rates"
-                    triggerClassName="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"              pageSection="blog_post" />
+                    triggerClassName="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"              pageSection="blog_post"
+                triggerId="compare-plans-blog-post" />
                 </div>
               </div>
             </article>

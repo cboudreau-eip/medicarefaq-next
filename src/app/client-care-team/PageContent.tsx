@@ -182,6 +182,7 @@ export default function PageContent() {
                 triggerLabel="Compare Plans Online"
                 triggerClassName="inline-flex items-center gap-2 border border-white text-white hover:bg-white hover:text-[#1B3A6B] font-semibold px-6 py-3 rounded-lg transition-colors"
                 pageSection="client_care_team"
+                triggerId="compare-plans-client-care-team"
               />
             </div>
           </div>

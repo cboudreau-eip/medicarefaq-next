@@ -42,6 +42,7 @@ export default function PageContent() {
           <div className="flex flex-wrap gap-3">
             <ZipFormModal
               pageSection="medigap_by_state"
+              triggerId="compare-plans-medigap-state-1"
               coverageType="ms"
               title="Compare Medigap Plans in Your State"
               subtitle="Enter your ZIP code to see rates from top Medigap carriers available in your area — free, no obligation."
@@ -138,6 +139,7 @@ export default function PageContent() {
             <div className="flex flex-wrap gap-3 justify-center">
               <ZipFormModal
                 pageSection="medigap_by_state"
+                triggerId="compare-plans-medigap-state-2"
                 coverageType="ms"
                 title="Compare Medigap Plans in Your State"
                 subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
