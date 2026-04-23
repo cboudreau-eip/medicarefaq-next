@@ -172,4 +172,8 @@
 - [x] Migrate blog/medicare-costs-2025 (blog post)
 
 ## Build Missing Pages — From Thin Content Report
-- [ ] Build does-medicare-cover-alzheimers-care as SimpleFAQ article
+- [x] Build does-medicare-cover-alzheimers-care as CoverageArticle
+- [ ] Build does-medicare-cover-memory-care as CoverageArticle
+- [ ] Build does-medicare-cover-glaucoma as CoverageArticle
+- [ ] Build does-medicare-cover-home-health-care as CoverageArticle
+- [ ] Build does-medicare-cover-durable-medical-equipment as CoverageArticle
