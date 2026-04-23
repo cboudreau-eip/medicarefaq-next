@@ -164,3 +164,9 @@
 - [x] Fix $36.78→$38.99 (Part D LEP Base Premium) in turning-65 and part-d-sub-data
 - [x] Fix $838→$868 in medigap-plan-data.ts (Plan K/M 50% of deductible)
 - [x] Add missing values to medicare-costs.ts constants (already complete)
+
+## Migrate 4 Existing Pages from medicarefaq.com
+- [ ] Migrate your-medicare-rights-and-protections (exact slug match)
+- [ ] Migrate part-b-excess-charges-medicare-overcharge-measure (exact slug match)
+- [ ] Migrate does-medicare-cover-atrial-fibrillation (original has -afib suffix, use new slug)
+- [ ] Migrate blog/medicare-costs-2025 (blog post)
