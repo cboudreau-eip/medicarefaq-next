@@ -53,12 +53,12 @@ const coverageItems = [
 ];
 
 const irmaaBrackets = [
-  { income: "$106,000 or less", mfj: "$212,000 or less", premium: "$202.90", surcharge: "$0" },
-  { income: "$106,001 – $133,000", mfj: "$212,001 – $266,000", premium: "$259.00", surcharge: "$74.00" },
-  { income: "$133,001 – $167,000", mfj: "$266,001 – $334,000", premium: "$370.00", surcharge: "$202.90" },
-  { income: "$167,001 – $200,000", mfj: "$334,001 – $400,000", premium: "$480.90", surcharge: "$295.90" },
-  { income: "$200,001 – $500,000", mfj: "$400,001 – $750,000", premium: "$591.90", surcharge: "$406.90" },
-  { income: "Above $500,000", mfj: "Above $750,000", premium: "$628.90", surcharge: "$443.90" },
+  { income: "$109,000 or less", mfj: "$218,000 or less", premium: "$202.90", surcharge: "$0" },
+  { income: "$109,001 – $137,000", mfj: "$218,001 – $274,000", premium: "$284.10", surcharge: "$81.20" },
+  { income: "$137,001 – $171,000", mfj: "$274,001 – $342,000", premium: "$405.80", surcharge: "$202.90" },
+  { income: "$171,001 – $205,000", mfj: "$342,001 – $410,000", premium: "$527.50", surcharge: "$324.60" },
+  { income: "$205,001 – $500,000", mfj: "$410,001 – $750,000", premium: "$649.20", surcharge: "$446.30" },
+  { income: "Above $500,000", mfj: "Above $750,000", premium: "$689.90", surcharge: "$487.00" },
 ];
 
 const faqs = [
@@ -307,7 +307,7 @@ export default function PageContent() {
                       For every 12-month period you were eligible for Part B but didn't enroll (without creditable coverage), your premium increases by 10%. This penalty is added to your monthly premium for as long as you have Part B.
                     </p>
                     <p className="text-sm text-red-800">
-                      <strong>Example:</strong> If you delayed Part B for 2 years without creditable coverage, your premium would be $202.90 × 1.20 = $222/month in 2026 — and this higher rate stays with you permanently.
+                      <strong>Example:</strong> If you delayed Part B for 2 years without creditable coverage, your premium would be $202.90 × 1.20 = $243.48/month in 2026 — and this higher rate stays with you permanently.
                     </p>
                   </div>
                 </div>
