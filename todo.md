@@ -166,7 +166,10 @@
 - [x] Add missing values to medicare-costs.ts constants (already complete)
 
 ## Migrate 4 Existing Pages from medicarefaq.com
-- [ ] Migrate your-medicare-rights-and-protections (exact slug match)
-- [ ] Migrate part-b-excess-charges-medicare-overcharge-measure (exact slug match)
-- [ ] Migrate does-medicare-cover-atrial-fibrillation (original has -afib suffix, use new slug)
-- [ ] Migrate blog/medicare-costs-2025 (blog post)
+- [x] Migrate your-medicare-rights-and-protections (exact slug match)
+- [x] Migrate part-b-excess-charges-medicare-overcharge-measure (exact slug match)
+- [x] Migrate does-medicare-cover-atrial-fibrillation (original has -afib suffix, use new slug)
+- [x] Migrate blog/medicare-costs-2025 (blog post)
+
+## Build Missing Pages — From Thin Content Report
+- [ ] Build does-medicare-cover-alzheimers-care as SimpleFAQ article
