@@ -17,7 +17,7 @@ const COST_CHANGES_2026 = [
   { item: "HD Plan Deductible", value2025: "$2,800", value2026: "$2,950", change: "+$70 (+2.5%)", impact: "HD-G and HD-F enrollees must pay $2,950 before plan coverage begins." },
   { item: "Plan K Out-of-Pocket Max", value2025: "$6,940", value2026: "$7,060", change: "+$120 (+1.7%)", impact: "Plan K enrollees have a higher cap before 100% coverage kicks in." },
   { item: "Plan L Out-of-Pocket Max", value2025: "$3,470", value2026: "$3,530", change: "+$60 (+1.7%)", impact: "Plan L enrollees have a slightly higher OOP cap in 2026." },
-  { item: "SNF Coinsurance (Days 21–100)", value2025: "$204/day", value2026: "$209.50/day", change: "+$5.50/day", impact: "Plans that cover SNF coinsurance (C, D, F, G, M, N, HD-F, HD-G) cover this increased daily rate." },
+  { item: "SNF Coinsurance (Days 21–100)", value2025: "$209.50/day", value2026: "$217/day", change: "+$7.50/day", impact: "Plans that cover SNF coinsurance (C, D, F, G, M, N, HD-F, HD-G) cover this increased daily rate." },
 ];
 
 const POPULAR_PLANS_2026 = [

@@ -276,12 +276,12 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                     <tbody className="divide-y divide-slate-100">
                       {[
                         ["Premium", "$0 for most people", "Free if you/spouse paid Medicare taxes 10+ years"],
-                        ["Premium (no work history)", "$518/month", "If you don't qualify for premium-free Part A"],
+                        ["Premium (no work history)", "$565/month", "If you don't qualify for premium-free Part A"],
                         ["Hospital Deductible", "$1,736", "Per benefit period (not per calendar year)"],
                         ["Days 1–60 Coinsurance", "$0/day", "After meeting the deductible"],
-                        ["Days 61–90 Coinsurance", "$419/day", "For each day of inpatient hospital stay"],
-                        ["Lifetime Reserve Days (91+)", "$838/day", "60 lifetime reserve days total"],
-                        ["Skilled Nursing (Days 21–100)", "$209.50/day", "After first 20 days covered in full"],
+                        ["Days 61–90 Coinsurance", "$434/day", "For each day of inpatient hospital stay"],
+                        ["Lifetime Reserve Days (91+)", "$868/day", "60 lifetime reserve days total"],
+                        ["Skilled Nursing (Days 21–100)", "$217/day", "After first 20 days covered in full"],
                       ].map(([item, amount, note], i) => (
                         <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50/50"}>
                           <td className="py-3 px-4 text-slate-700 font-medium">{item}</td>

@@ -266,7 +266,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       <strong>Formula:</strong> 1% × national base beneficiary premium × number of months without coverage
                     </p>
                     <p className="text-sm text-slate-700">
-                      <strong>2026 National Base Premium:</strong> ~$34.70/month
+                      <strong>2026 National Base Premium:</strong> ~$38.99/month
                     </p>
                   </div>
 
@@ -274,11 +274,11 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   <div className="space-y-3">
                     <div className="bg-white rounded-lg p-4 border border-amber-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 12 months</p>
-                      <p className="text-sm text-slate-600">Penalty: 12% of $34.70 = <strong className="text-amber-700">~$4.16/month extra — permanently</strong></p>
+                      <p className="text-sm text-slate-600">Penalty: 12% of $38.99 = <strong className="text-amber-700">~$4.68/month extra — permanently</strong></p>
                     </div>
                     <div className="bg-white rounded-lg p-4 border border-amber-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 36 months (3 years)</p>
-                      <p className="text-sm text-slate-600">Penalty: 36% of $34.70 = <strong className="text-amber-700">~$12.49/month extra — permanently</strong></p>
+                      <p className="text-sm text-slate-600">Penalty: 36% of $38.99 = <strong className="text-amber-700">~$14.04/month extra — permanently</strong></p>
                     </div>
                   </div>
                 </div>
@@ -325,7 +325,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     <div className="flex items-start gap-3">
                       <HelpCircle className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" />
                       <div>
-                        <p className="text-sm font-semibold text-slate-900">2026 Part A Premium: Up to $518/month</p>
+                        <p className="text-sm font-semibold text-slate-900">2026 Part A Premium: Up to $565/month</p>
                         <p className="text-xs text-slate-500">Only applies to those who didn't work 40+ quarters paying Medicare taxes</p>
                       </div>
                     </div>

@@ -169,7 +169,7 @@ const penalties = [
   {
     part: "Part D Late Enrollment Penalty",
     description: "If you go 63+ consecutive days without creditable prescription drug coverage, you'll pay a penalty when you eventually enroll in Part D.",
-    example: "The penalty is 1% of the national base beneficiary premium ($36.78 in 2026) multiplied by the number of months you went without coverage.",
+    example: "The penalty is 1% of the national base beneficiary premium ($38.99 in 2026) multiplied by the number of months you went without coverage.",
     permanent: true,
   },
 ];

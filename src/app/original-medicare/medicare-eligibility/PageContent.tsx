@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: "Do you have to have worked to qualify for Medicare?",
-    a: "Not necessarily. You qualify for premium-free Medicare Part A if you or your spouse worked and paid Medicare taxes for at least 10 years (40 quarters). If you haven't, you can still enroll in Medicare Part A by paying a monthly premium (up to $518/month in 2026). Part B is available to anyone who is eligible for Part A.",
+    a: "Not necessarily. You qualify for premium-free Medicare Part A if you or your spouse worked and paid Medicare taxes for at least 10 years (40 quarters). If you haven't, you can still enroll in Medicare Part A by paying a monthly premium (up to $565/month in 2026). Part B is available to anyone who is eligible for Part A.",
   },
   {
     q: "Can a non-citizen get Medicare?",
@@ -182,11 +182,11 @@ export default function MedicareEligibility() {
                   </tr>
                   <tr className="border-b border-gray-200 bg-gray-50">
                     <td className="p-3">30–39 quarters</td>
-                    <td className="p-3">$285/month</td>
+                    <td className="p-3">$311/month</td>
                   </tr>
                   <tr>
                     <td className="p-3">Fewer than 30 quarters</td>
-                    <td className="p-3">$518/month</td>
+                    <td className="p-3">$565/month</td>
                   </tr>
                 </tbody>
               </table>

@@ -146,3 +146,21 @@
 - [ ] Add ZipFormModal to /medicare-part-c/[slug] MA sub-pages (coverageType: ma)
 - [ ] Add ZipFormModal to /enrollment/ pages
 - [ ] Add ZipFormModal to blog/article page bottom CTAs
+
+## IRMAA Values — Refactor to MEDICARE_COSTS Constants
+- [x] Refactor /enrollment/late-penalties/PageContent.tsx to import IRMAA values from MEDICARE_COSTS
+- [x] Refactor /medicare-plans/costs/PageContent.tsx to import IRMAA values from MEDICARE_COSTS
+- [x] Refactor /new-to-medicare/costs/PageContent.tsx to import IRMAA values from MEDICARE_COSTS
+- [x] Refactor part-d-sub-data.ts IRMAA tables to import from MEDICARE_COSTS
+- [x] Refactor simple-faq-data-batch2.ts IRMAA values to import from MEDICARE_COSTS
+
+## Missed Cost Values — Fix Wrong 2025 Values to 2026
+- [ ] Fix $518→$565 (Full Part A Premium) across 8 files
+- [ ] Fix $285→$311 (Half Part A Premium) across 4 files
+- [ ] Fix $419→$434 (Part A Coinsurance Days 61-90) across ~10 occurrences
+- [ ] Fix $838→$868 (Part A Lifetime Reserve Days) across ~10 occurrences
+- [ ] Fix $209.50→$217 (Part A SNF Coinsurance) across ~12 occurrences
+- [ ] Fix $36.78→$34.50 (Avg Part D Premium) in new-to-medicare/costs
+- [ ] Fix $36.78→$38.99 (Part D LEP Base Premium) in turning-65 and part-d-sub-data
+- [ ] Fix $838→$868 in medigap-plan-data.ts (Plan K/M 50% of deductible)
+- [ ] Add missing values to medicare-costs.ts constants

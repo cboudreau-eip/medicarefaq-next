@@ -35,24 +35,24 @@ const coverageItems = [
 
 const benefitPeriods = [
   { days: "Days 1–60", cost: "$0 (after $1,736 deductible)", label: "Full Coverage" },
-  { days: "Days 61–90", cost: "$419/day coinsurance", label: "Coinsurance Applies" },
-  { days: "Days 91–150", cost: "$838/day (lifetime reserve days)", label: "Reserve Days" },
+  { days: "Days 61–90", cost: "$434/day coinsurance", label: "Coinsurance Applies" },
+  { days: "Days 91–150", cost: "$868/day (lifetime reserve days)", label: "Reserve Days" },
   { days: "Beyond 150 days", cost: "You pay all costs", label: "No Coverage" },
 ];
 
 const snfBenefits = [
   { days: "Days 1–20", cost: "$0", label: "Full Coverage" },
-  { days: "Days 21–100", cost: "$209.50/day coinsurance", label: "Coinsurance Applies" },
+  { days: "Days 21–100", cost: "$217/day coinsurance", label: "Coinsurance Applies" },
   { days: "Beyond 100 days", cost: "You pay all costs", label: "No Coverage" },
 ];
 
 const faqs = [
-  { q: "Is Medicare Part A free?", a: "Most people get Part A premium-free if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). If you have fewer than 30 quarters of work history, you pay $285/month in 2026. With 30–39 quarters, you pay $522/month." },
+  { q: "Is Medicare Part A free?", a: "Most people get Part A premium-free if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). If you have fewer than 30 quarters of work history, you pay $565/month in 2026. With 30–39 quarters, you pay $311/month." },
   { q: "What is a benefit period under Part A?", a: "A benefit period begins the day you're admitted as an inpatient and ends when you've been out of the hospital or SNF for 60 consecutive days. There's no limit to the number of benefit periods you can have, but you pay a new deductible for each one." },
-  { q: "Does Part A cover skilled nursing facility care?", a: "Yes, but only after a qualifying inpatient hospital stay of at least 3 days. Part A covers SNF care for up to 100 days per benefit period — the first 20 days at no cost, then $209.50/day for days 21–100 in 2026." },
+  { q: "Does Part A cover skilled nursing facility care?", a: "Yes, but only after a qualifying inpatient hospital stay of at least 3 days. Part A covers SNF care for up to 100 days per benefit period — the first 20 days at no cost, then $217/day for days 21–100 in 2026." },
   { q: "What's the difference between inpatient and observation status?", a: "Inpatient status means you've been formally admitted to the hospital, which counts toward the 3-day qualifying stay for SNF coverage. Observation status means you're under outpatient care, even if you sleep in a hospital bed — and it does not count toward the SNF qualifying stay." },
   { q: "Can I get Part A if I'm under 65?", a: "Yes. You automatically qualify for Part A if you've received Social Security disability benefits for 24 months, or if you have End-Stage Renal Disease (ESRD) or ALS (Lou Gehrig's disease) at any age." },
-  { q: "What are lifetime reserve days?", a: "Lifetime reserve days are 60 additional hospital days beyond the standard 90-day benefit period. You can use them only once in your lifetime. In 2026, you pay $838/day for each reserve day used." },
+  { q: "What are lifetime reserve days?", a: "Lifetime reserve days are 60 additional hospital days beyond the standard 90-day benefit period. You can use them only once in your lifetime. In 2026, you pay $868/day for each reserve day used." },
 ];
 
 export default function PageContent() {
@@ -209,7 +209,7 @@ export default function PageContent() {
                 { icon: Clock, title: "Age 65 with Work History", desc: "You or your spouse worked and paid Medicare taxes for at least 10 years (40 quarters). You receive premium-free Part A." },
                 { icon: Heart, title: "Disability (Under 65)", desc: "You've received Social Security Disability Insurance (SSDI) benefits for 24 consecutive months. Enrollment is automatic." },
                 { icon: Shield, title: "ESRD or ALS", desc: "You have End-Stage Renal Disease (permanent kidney failure requiring dialysis or transplant) or ALS (Lou Gehrig's disease) at any age." },
-                { icon: DollarSign, title: "Premium Part A (No Work History)", desc: "If you don't meet the work history requirement, you can buy Part A. In 2026: $285/month (30–39 quarters) or $522/month (fewer than 30 quarters)." },
+                { icon: DollarSign, title: "Premium Part A (No Work History)", desc: "If you don't meet the work history requirement, you can buy Part A. In 2026: $311/month (30–39 quarters) or $565/month (fewer than 30 quarters)." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-200">
                   <div className="bg-[#1B3A6B]/10 rounded-lg p-2 shrink-0"><item.icon className="w-5 h-5 text-[#1B3A6B]" /></div>

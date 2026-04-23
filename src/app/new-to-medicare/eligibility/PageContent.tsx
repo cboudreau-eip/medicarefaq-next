@@ -121,13 +121,13 @@ const workHistoryTiers = [
   },
   {
     quarters: "30–39 quarters (7.5–9.75 years)",
-    partAPremium: "$285/month (2026)",
+    partAPremium: "$311/month (2026)",
     description: "Reduced premium — close to the 40-quarter threshold",
     highlight: false,
   },
   {
     quarters: "Under 30 quarters",
-    partAPremium: "$518/month (2026)",
+    partAPremium: "$565/month (2026)",
     description: "Full premium required — fewer than 30 quarters of Medicare tax payments",
     highlight: false,
   },

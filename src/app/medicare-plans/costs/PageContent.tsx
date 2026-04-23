@@ -38,7 +38,7 @@ const costScenarios = [
       { label: "Part A Deductible", value: "$1,736/benefit period" },
       { label: "Part B Deductible", value: "$283/year" },
       { label: "Part B Coinsurance", value: "20% with no limit" },
-      { label: "Hospital Days 61-90", value: "$419/day" },
+      { label: "Hospital Days 61-90", value: "$434/day" },
       { label: "Prescription Drugs", value: "Not covered" },
     ],
     color: "border-red-200 bg-red-50",

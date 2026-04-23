@@ -643,7 +643,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     benefits: [
       { benefit: "Part A hospital coinsurance & costs (up to 365 days after Medicare benefits)", covered: "full" },
       { benefit: "Part A hospice care coinsurance or copayment", covered: "partial", detail: "50% covered" },
-      { benefit: `Part A deductible (${PART_A_DEDUCTIBLE} in 2026)`, covered: "partial", detail: "50% covered ($838)" },
+      { benefit: `Part A deductible (${PART_A_DEDUCTIBLE} in 2026)`, covered: "partial", detail: "50% covered ($868)" },
       { benefit: "Part B coinsurance or copayment", covered: "partial", detail: "50% covered" },
       { benefit: `Part B excess charges`, covered: "none" },
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none" },
@@ -706,7 +706,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     benefits: [
       { benefit: "Part A hospital coinsurance & costs (up to 365 days after Medicare benefits)", covered: "full" },
       { benefit: "Part A hospice care coinsurance or copayment", covered: "full" },
-      { benefit: `Part A deductible (${PART_A_DEDUCTIBLE} in 2026)`, covered: "partial", detail: "50% covered ($838) — you pay $838" },
+      { benefit: `Part A deductible (${PART_A_DEDUCTIBLE} in 2026)`, covered: "partial", detail: "50% covered ($868) — you pay $868" },
       { benefit: "Part B coinsurance or copayment", covered: "full" },
       { benefit: `Part B excess charges`, covered: "none" },
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none" },
@@ -729,7 +729,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
         "Good balance of coverage and cost",
       ],
       cons: [
-        "Only covers 50% of Part A deductible — you pay $838 per hospital admission",
+        "Only covers 50% of Part A deductible — you pay $868 per hospital admission",
         "Does not cover Part B excess charges",
         "Less widely offered than Plan G or Plan N",
       ],
@@ -737,13 +737,13 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     faqs: [
       {
         q: "How does Plan M compare to Plan G?",
-        a: `Plan M covers 50% of the Part A deductible (you pay $838 in 2026) while Plan G covers 100%. Plan M does not cover Part B excess charges while Plan G does. Plan M premiums are typically lower than Plan G. If you rarely need hospital care, Plan M's savings may outweigh the partial deductible exposure.`,
+        a: `Plan M covers 50% of the Part A deductible (you pay $868 in 2026) while Plan G covers 100%. Plan M does not cover Part B excess charges while Plan G does. Plan M premiums are typically lower than Plan G. If you rarely need hospital care, Plan M's savings may outweigh the partial deductible exposure.`,
       },
     ],
     relatedPlans: ["plan-g", "plan-n", "plan-d", "plan-c"],
     intro: "Medicare Supplement Plan M offers broad coverage similar to Plan G but with one key difference: it only covers 50% of the Part A deductible. In exchange, Plan M premiums are lower than Plan G.",
     detailParagraphs: [
-      `Plan M is a middle-ground option that covers most Medicare cost-sharing comprehensively, with the exception of the Part A deductible. You're responsible for 50% of the Part A deductible (${PART_A_DEDUCTIBLE} in 2026), meaning you'd pay $838 per hospital admission. Plan M also does not cover Part B excess charges.`,
+      `Plan M is a middle-ground option that covers most Medicare cost-sharing comprehensively, with the exception of the Part A deductible. You're responsible for 50% of the Part A deductible (${PART_A_DEDUCTIBLE} in 2026), meaning you'd pay $868 per hospital admission. Plan M also does not cover Part B excess charges.`,
       "Plan M is less commonly offered than Plan G or Plan N, so you may have fewer carrier options. Before choosing Plan M, compare it carefully to Plan N — which has similar premium savings but different cost-sharing trade-offs.",
     ],
   },

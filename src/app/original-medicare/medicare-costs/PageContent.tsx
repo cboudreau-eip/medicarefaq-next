@@ -95,7 +95,7 @@ export default function MedicareCosts() {
                   <td className="p-3 font-semibold"><Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-[#0D9488] hover:underline">Part A (Hospital)</Link></td>
                   <td className="p-3">$0 (most people)</td>
                   <td className="p-3">$1,736/benefit period</td>
-                  <td className="p-3">Days 61–90: $419/day; Days 91+: $838/day</td>
+                  <td className="p-3">Days 61–90: $434/day; Days 91+: $868/day</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-gray-50">
                   <td className="p-3 font-semibold"><Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-[#0D9488] hover:underline">Part B (Medical)</Link></td>
@@ -126,7 +126,7 @@ export default function MedicareCosts() {
             <Link href="/original-medicare/medicare-parts/medicare-part-a" className="hover:underline">Medicare Part A Cost</Link>
           </h2>
           <p className="text-gray-700 mb-4">
-            Most people pay <strong>$0/month for Part A</strong> if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). If you don't meet the work requirement, you can still enroll but will pay up to <strong>$518/month</strong> in 2026.
+            Most people pay <strong>$0/month for Part A</strong> if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). If you don't meet the work requirement, you can still enroll but will pay up to <strong>$565/month</strong> in 2026.
           </p>
           <p className="text-gray-700">
             The Part A deductible is <strong>$1,736 per benefit period</strong> — not per year. A benefit period begins when you're admitted to a hospital and ends 60 days after discharge. If you're readmitted after 60 days, a new benefit period begins and you owe the deductible again.

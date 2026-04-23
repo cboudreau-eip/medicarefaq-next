@@ -272,7 +272,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                         { item: "Part A Hospital Deductible", y2025: "$1,736", y2026: "$1,736", change: "No change", color: "text-green-700" },
                         { item: "Part A Coinsurance (Days 61–90)", y2025: "$419/day", y2026: "$419/day", change: "No change", color: "text-green-700" },
                         { item: "Part D Out-of-Pocket Cap", y2025: "$2,000", y2026: "$2,000", change: "New cap", color: "text-blue-700" },
-                        { item: "Part A Premium (if applicable)", y2025: "$518/mo", y2026: "$518/mo", change: "No change", color: "text-green-700" },
+                        { item: "Part A Premium (if applicable)", y2025: "$565/mo", y2026: "$565/mo", change: "No change", color: "text-green-700" },
                       ].map((row, i) => (
                         <tr key={i} className={`border-b border-slate-100 ${i % 2 === 1 ? "bg-slate-50/50" : ""}`}>
                           <td className="p-4 text-sm font-semibold text-slate-700">{row.item}</td>

@@ -328,7 +328,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                       <div className="bg-white rounded-lg p-4 mb-4">
                         <p className="text-sm text-red-900 font-semibold mb-2">How the Penalty Is Calculated:</p>
                         <p className="text-sm text-red-800">
-                          1% of the national base premium ($34.70 in 2026) × number of months without coverage.<br />
+                          1% of the national base premium ($38.99 in 2026) × number of months without coverage.<br />
                           <strong>Example:</strong> 24 months without coverage = $0.35 × 24 = <strong>$8.33/month penalty forever</strong>.
                         </p>
                       </div>

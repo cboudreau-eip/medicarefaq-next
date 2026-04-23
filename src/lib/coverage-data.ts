@@ -2391,9 +2391,9 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Cost Category": "Part B Monthly Premium", "2025 Amount": "$202.90", "2026 Amount": "$202.90", "Change": "+$17.90" },
         { "Cost Category": "Part B Annual Deductible", "2025 Amount": "$283.00", "2026 Amount": "$283.00", "Change": "+$26.00" },
         { "Cost Category": "Part A Hospital Deductible", "2025 Amount": "$1,736.00", "2026 Amount": "$1,736.00", "Change": "+$60.00" },
-        { "Cost Category": "Part A Days 61-90 Coinsurance", "2025 Amount": "$419/day", "2026 Amount": "$434/day", "Change": "+$15/day" },
+        { "Cost Category": "Part A Days 61-90 Coinsurance", "2025 Amount": "$434/day", "2026 Amount": "$434/day", "Change": "+$15/day" },
         { "Cost Category": "Part A Lifetime Reserve Days", "2025 Amount": "$838/day", "2026 Amount": "$868/day", "Change": "+$30/day" },
-        { "Cost Category": "SNF Days 21-100", "2025 Amount": "$209.50/day", "2026 Amount": "$217.00/day", "Change": "+$7.50/day" },
+        { "Cost Category": "SNF Days 21-100", "2025 Amount": "$217/day", "2026 Amount": "$217.00/day", "Change": "+$7.50/day" },
         { "Cost Category": "Part C Max OOP", "2025 Amount": "$9,250", "2026 Amount": "$9,250", "Change": "+$400" },
       ],
       footnote: "Source: Centers for Medicare & Medicaid Services (CMS). IRMAA surcharges apply to higher-income beneficiaries.",
@@ -7215,7 +7215,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Service": "Kidney transplant (inpatient)", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible per benefit period", "With Plan G": "$0" },
         { "Service": "Home dialysis equipment", "Medicare Part": "Part B", "Without Supplement": "20% coinsurance", "With Plan G": "$0 after Part B deductible" },
         { "Service": "Immunosuppressive drugs (post-transplant)", "Medicare Part": "Part B", "Without Supplement": "20% after Part B deductible", "With Plan G": "$0 after Part B deductible" },
-        { "Service": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible + $419/day (days 61–90)", "With Plan G": "$0" },
+        { "Service": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible + $434/day (days 61–90)", "With Plan G": "$0" },
       ],
     },
     exceptionsSection: {
@@ -9661,7 +9661,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "7 min read",
     quickAnswer: {
-      text: "Medicare Part A covers up to 100 days in a skilled nursing facility (SNF) per benefit period — but only after a qualifying 3-day inpatient hospital stay. Days 1–20 are fully covered. Days 21–100 require a daily coinsurance payment ($209.50 in 2024). After day 100, Medicare pays nothing. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can cover the daily coinsurance and extend your financial protection.",
+      text: "Medicare Part A covers up to 100 days in a skilled nursing facility (SNF) per benefit period — but only after a qualifying 3-day inpatient hospital stay. Days 1–20 are fully covered. Days 21–100 require a daily coinsurance payment ($217 in 2026). After day 100, Medicare pays nothing. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can cover the daily coinsurance and extend your financial protection.",
       badges: [
         { plan: "Part A", status: "covered" },
         { plan: "Part B", status: "partial" },
@@ -9670,7 +9670,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     comparisonTable: [
-      { planType: "Original Medicare (Part A)", coverage: "Covered — up to 100 days/benefit period", icon: "shield", notes: "Days 1–20 free; days 21–100 cost $209.50/day (2024); nothing after day 100" },
+      { planType: "Original Medicare (Part A)", coverage: "Covered — up to 100 days/benefit period", icon: "shield", notes: "Days 1–20 free; days 21–100 cost $217/day (2024); nothing after day 100" },
       { planType: "Medicare Part B", coverage: "Partial — outpatient therapy only", icon: "activity", notes: "Covers outpatient physical, occupational, and speech therapy after SNF discharge" },
       { planType: "Medicare Advantage", coverage: "Covered — varies by plan", icon: "heart", notes: "Must match Original Medicare minimum; prior authorization almost always required" },
       { planType: "Medigap (Plan G/N)", coverage: "Covered — cost-sharing", icon: "users", notes: "Covers Part A coinsurance for days 21–100; reduces your cost to $0 with Plan G" },
@@ -9685,7 +9685,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covered — up to 100 days per benefit period",
         paragraphs: [
           "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) is the primary payer for skilled nursing facility care. To qualify, you must have had a qualifying inpatient hospital stay of at least 3 consecutive days (not counting the discharge day). The SNF admission must occur within 30 days of your hospital discharge.",
-          "Days 1–20 are covered at 100% — you pay nothing. Days 21–100 require a daily coinsurance of $209.50 in 2024. After day 100, Medicare pays nothing and you are responsible for the full daily rate, which can exceed $300–$500 per day at many facilities.",
+          "Days 1–20 are covered at 100% — you pay nothing. Days 21–100 require a daily coinsurance of $217 in 2026. After day 100, Medicare pays nothing and you are responsible for the full daily rate, which can exceed $300–$500 per day at many facilities.",
           "Each benefit period resets when you have been out of a hospital or SNF for 60 consecutive days, meaning you can receive another 100-day benefit if you are re-hospitalized.",
         ],
         whatItCovers: [
@@ -9707,7 +9707,7 @@ export const coverageArticles: CoverageArticleData[] = [
           title: "Observation Status Does Not Count",
           text: "The 3-day hospital stay rule is strict — observation status does not count. Always confirm with your hospital that you are admitted as an inpatient, not under observation.",
         },
-        costNote: "2024 SNF coinsurance: $0/day (Days 1–20), $209.50/day (Days 21–100), 100% out-of-pocket (Day 101+).",
+        costNote: "2024 SNF coinsurance: $0/day (Days 1–20), $217/day (Days 21–100), 100% out-of-pocket (Day 101+).",
       },
       {
         planName: "Medicare Advantage",
@@ -9757,7 +9757,7 @@ export const coverageArticles: CoverageArticleData[] = [
       headers: ["Days in SNF", "Medicare Pays", "You Pay (No Supplement)", "You Pay (With Plan G)"],
       rows: [
         { "Days in SNF": "Days 1–20", "Medicare Pays": "100%", "You Pay (No Supplement)": "$0", "You Pay (With Plan G)": "$0" },
-        { "Days in SNF": "Days 21–100", "Medicare Pays": "All but $209.50/day", "You Pay (No Supplement)": "$209.50/day", "You Pay (With Plan G)": "$0" },
+        { "Days in SNF": "Days 21–100", "Medicare Pays": "All but $217/day", "You Pay (No Supplement)": "$217/day", "You Pay (With Plan G)": "$0" },
         { "Days in SNF": "Day 101+", "Medicare Pays": "$0", "You Pay (No Supplement)": "Full daily rate", "You Pay (With Plan G)": "Full daily rate" },
         { "Days in SNF": "Max 80-day coinsurance exposure", "Medicare Pays": "—", "You Pay (No Supplement)": "Up to $16,760", "You Pay (With Plan G)": "$0" },
       ],
@@ -9787,7 +9787,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Does Medicare cover 100% of skilled nursing facility costs?",
-        answer: "Medicare covers 100% of SNF costs for the first 20 days. Days 21–100 require a daily coinsurance ($209.50 in 2024). After day 100, Medicare pays nothing. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can cover the daily coinsurance for days 21–100.",
+        answer: "Medicare covers 100% of SNF costs for the first 20 days. Days 21–100 require a daily coinsurance ($217 in 2026). After day 100, Medicare pays nothing. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can cover the daily coinsurance for days 21–100.",
       },
       {
         question: "What is the 3-day hospital stay rule for SNF coverage?",
@@ -9816,7 +9816,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     quickReference: [
       { icon: "check", text: "<strong>Part A</strong> covers SNF days 1–20 at 100% after a qualifying 3-day hospital stay" },
-      { icon: "dollar", text: "Days 21–100: <strong>$209.50/day</strong> coinsurance in 2024" },
+      { icon: "dollar", text: "Days 21–100: <strong>$217/day</strong> coinsurance in 2024" },
       { icon: "x", text: "No Medicare coverage after day 100" },
       { icon: "alert", text: "Observation status does <strong>not</strong> count toward the 3-day hospital requirement" },
       { icon: "check", text: "Medigap Plan G covers the full days 21–100 coinsurance" },
@@ -12568,7 +12568,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Rehab that is not deemed medically necessary by your doctor",
           "Treatment beyond 190 lifetime days at a psychiatric hospital",
         ],
-        costNote: "Part A inpatient: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026).",
+        costNote: "Part A inpatient: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $434/day for days 61–90 (2026).",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -12629,8 +12629,8 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           "Service": "Inpatient rehab (days 61–90)",
           "Medicare Part": "Part A",
-          "What Medicare Pays": "All but $419/day",
-          "Your Cost": "$419/day coinsurance",
+          "What Medicare Pays": "All but $434/day",
+          "Your Cost": "$434/day coinsurance",
         },
       ],
       footnote: "Costs based on 2026 Medicare figures. Medigap plans can cover the Part A deductible and Part B coinsurance, reducing your out-of-pocket costs significantly.",
@@ -12793,7 +12793,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Long-term custodial care (personal care without skilled nursing needs)",
           "Room and board at a nursing home (unless receiving skilled nursing care)",
         ],
-        costNote: "Part A: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026). Hospice care: $0 for most services.",
+        costNote: "Part A: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $434/day for days 61–90 (2026). Hospice care: $0 for most services.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -13445,7 +13445,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers hospitalization for heart attacks, strokes, and heart surgery",
         paragraphs: [
           "[Medicare Part A](/faqs/what-is-medicare-part-a) covers inpatient hospital stays for cardiovascular conditions including heart attacks, strokes, heart failure, and heart surgery. This includes open-heart surgery, bypass surgery, triple bypass surgery, valve replacement, and other cardiac surgical procedures. Medicare covers these as medically necessary inpatient procedures.",
-          "After a qualifying hospital stay, Medicare Part A also covers inpatient cardiac rehabilitation at a skilled nursing facility. If your doctor recommends inpatient cardiac rehab following a heart attack or heart surgery, Medicare covers up to 100 days per benefit period, with $0 coinsurance for days 1–20 and $209.50/day for days 21–100 (2026).",
+          "After a qualifying hospital stay, Medicare Part A also covers inpatient cardiac rehabilitation at a skilled nursing facility. If your doctor recommends inpatient cardiac rehab following a heart attack or heart surgery, Medicare covers up to 100 days per benefit period, with $0 coinsurance for days 1–20 and $217/day for days 21–100 (2026).",
         ],
         whatItCovers: [
           "Inpatient hospitalization for heart attacks and strokes",
@@ -13457,7 +13457,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Long-term custodial care (personal care without skilled nursing needs)",
           "Treatment at non-Medicare-approved facilities",
         ],
-        costNote: "Part A: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $419/day for days 61–90 (2026).",
+        costNote: "Part A: $1,736 deductible per benefit period; $0 coinsurance for days 1–60; $434/day for days 61–90 (2026).",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -16600,7 +16600,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Long-term custodial care (bathing, feeding, toileting)",
           "24-hour home care or personal care aides",
         ],
-        costNote: "Part A: $1,736 deductible; days 1-60 $0 coinsurance; days 61-90 $419/day. Part B: 20% coinsurance after $283 deductible. SNF: days 1-20 $0; days 21-100 $204.50/day.",
+        costNote: "Part A: $1,736 deductible; days 1-60 $0 coinsurance; days 61-90 $434/day. Part B: 20% coinsurance after $283 deductible. SNF: days 1-20 $0; days 21-100 $217/day.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -16641,7 +16641,7 @@ export const coverageArticles: CoverageArticleData[] = [
       rows: [
         { "Service": "First-year stroke rehabilitation (total)", "Average Cost": "$17,000+", "Medicare Coverage": "Covered (cost-sharing applies)" },
         { "Service": "Inpatient hospital stay (Part A)", "Average Cost": "Varies", "Medicare Coverage": "$1,736 deductible; $0/day (days 1-60)" },
-        { "Service": "Skilled nursing facility (days 21-100)", "Average Cost": "$204.50/day coinsurance", "Medicare Coverage": "Covered with coinsurance" },
+        { "Service": "Skilled nursing facility (days 21-100)", "Average Cost": "$217/day coinsurance", "Medicare Coverage": "Covered with coinsurance" },
         { "Service": "Outpatient therapy (per session)", "Average Cost": "$100 – $300", "Medicare Coverage": "80% after Part B deductible" },
         { "Service": "DME (walker/wheelchair)", "Average Cost": "$100 – $3,000+", "Medicare Coverage": "80% after Part B deductible" },
         { "Service": "Stroke medications (annual)", "Average Cost": "$5,000+", "Medicare Coverage": "Part D copays (varies)" },
@@ -16678,7 +16678,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Will Medicare cover skilled nursing after a stroke?",
-        answer: "Yes. Medicare covers skilled nursing facility (SNF) care after a qualifying 3-day inpatient hospital stay. Days 1-20 are covered at $0, and days 21-100 require a $204.50/day coinsurance (2025). Medigap can cover this coinsurance.",
+        answer: "Yes. Medicare covers skilled nursing facility (SNF) care after a qualifying 3-day inpatient hospital stay. Days 1-20 are covered at $0, and days 21-100 require a $217/day coinsurance (2025). Medigap can cover this coinsurance.",
       },
       {
         question: "Does Medicare cover long-term care after a stroke?",

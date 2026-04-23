@@ -291,7 +291,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         paragraphs: [
         ],
         listItems: [
-          'Part B IRMAA:Can increase your monthly premium by about $69 to over $419, depending on your income tier.',
+          'Part B IRMAA:Can increase your monthly premium by about $81 to over $487, depending on your income tier.',
           'Part D IRMAA:Adds roughly $12 to $81 to your Part D monthly premium.',
         ],
       },

@@ -394,8 +394,8 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "how-calculated",
         heading: "How the Penalty Is Calculated",
-        content: "The late enrollment penalty is 1% of the national base beneficiary premium for each full month you went without creditable drug coverage. In 2026, the national base beneficiary premium is approximately $36.78/month.",
-        callout: { type: "warning", text: "Example: If you went 24 months without creditable coverage, your penalty would be 24% × $36.78 = ~$8.83/month added permanently to your Part D premium. This amount adjusts slightly each year as the base premium changes." },
+        content: "The late enrollment penalty is 1% of the national base beneficiary premium for each full month you went without creditable drug coverage. In 2026, the national base beneficiary premium is approximately $38.99/month.",
+        callout: { type: "warning", text: "Example: If you went 24 months without creditable coverage, your penalty would be 24% × $38.99 = ~$9.36/month added permanently to your Part D premium. This amount adjusts slightly each year as the base premium changes." },
       },
       {
         id: "who-is-exempt",

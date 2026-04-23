@@ -47,12 +47,12 @@ const tableOfContents = [
 
 const partACosts = [
   { item: "Part A Premium", amount: "$0", note: "For most people (40+ quarters of work)" },
-  { item: "Part A Premium (no work history)", amount: "$518/mo", note: "If you don't qualify for premium-free Part A" },
+  { item: "Part A Premium (no work history)", amount: "$565/mo", note: "If you don't qualify for premium-free Part A" },
   { item: "Hospital Deductible", amount: "$1,736", note: "Per benefit period (not per year)" },
   { item: "Days 1–60 Coinsurance", amount: "$0/day", note: "After meeting the deductible" },
-  { item: "Days 61–90 Coinsurance", amount: "$419/day", note: "For each day of inpatient hospital stay" },
-  { item: "Lifetime Reserve Days (91+)", amount: "$838/day", note: "60 lifetime reserve days total" },
-  { item: "Skilled Nursing Facility (Days 21–100)", amount: "$209.50/day", note: "After first 20 days covered in full" },
+  { item: "Days 61–90 Coinsurance", amount: "$434/day", note: "For each day of inpatient hospital stay" },
+  { item: "Lifetime Reserve Days (91+)", amount: "$868/day", note: "60 lifetime reserve days total" },
+  { item: "Skilled Nursing Facility (Days 21–100)", amount: "$217/day", note: "After first 20 days covered in full" },
 ];
 
 const partBCosts = [
@@ -65,7 +65,7 @@ const partBCosts = [
 ];
 
 const partDCosts = [
-  { item: "Average Monthly Premium", amount: "~$36.78/mo", note: "Varies by plan and location" },
+  { item: "Average Monthly Premium", amount: "~$34.50/mo", note: "Varies by plan and location" },
   { item: "Annual Deductible", amount: "Up to $615", note: "Some plans have $0 deductible" },
   { item: "Initial Coverage Phase", amount: "25% coinsurance", note: "Until drug costs reach $5,030" },
   { item: "Coverage Gap (Donut Hole)", amount: "$0 for generics", note: "Eliminated for brand-name drugs in 2025; $2,000 OOP cap in 2026" },
@@ -91,7 +91,7 @@ const totalCostScenarios = [
     items: [
       "Part B Premium: $202.90/mo",
       "Medigap Plan G: $100–$300/mo (varies by age/state)",
-      "Part D Premium: ~$37/mo",
+      "Part D Premium: ~$35/mo",
       "Part B Deductible: $283/yr (only out-of-pocket cost with Plan G)",
     ],
   },
