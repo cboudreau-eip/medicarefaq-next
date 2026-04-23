@@ -6729,4 +6729,225 @@ export const blogArticles: BlogArticleData[] = [
     ],
     relatedSlugs: ["medicare-costs-2026", "medicare-parts-a-b-c-and-d-explained-simply", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-supplement-plans-medigap-pricing-methods"],
   },
+  {
+    slug: "how-to-sign-up-for-medicare",
+    seo: {
+      title: "How to Sign Up for Medicare in 2026 | MedicareFAQ",
+      description: "Learn how to sign up for Medicare online, by phone, or in person. Understand enrollment periods, avoid late penalties, and choose the right coverage path for 2026.",
+      canonical: "https://www.medicarefaq.com/blog/how-to-sign-up-for-medicare/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "How to Sign Up for Medicare",
+    excerpt: "Most people spend more time researching a new appliance than they do planning their Medicare enrollment — and that gap can cost them hundreds of dollars a year. Here's everything you need to sign up correctly in 2026.",
+    category: "Enrollment",
+    categoryColor: "#F59E0B",
+    date: "April 23, 2026",
+    author: "Jagger Esch",
+    reviewer: "Ashlee Zareczny",
+    readTime: "10 min read",
+    featured: false,
+    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    imageAlt: "Person signing up for Medicare online",
+    keyTakeaways: [
+      "Most people apply through the Social Security Administration (SSA) online at SSA.gov, by phone at 1-800-772-1213, or in person at a local SSA office.",
+      "Your Initial Enrollment Period (IEP) is a 7-month window centered on your 65th birthday — missing it can trigger permanent late enrollment penalties.",
+      "Automatic enrollment only applies if you are already receiving Social Security or Railroad Retirement Board benefits before turning 65.",
+      "COBRA and retiree insurance do not protect you from Part B late enrollment penalties — only active employer coverage does.",
+      "Your 6-month Medigap Open Enrollment Period begins when Part B starts — missing it means insurers can use medical underwriting.",
+    ],
+    tableOfContents: [
+      { id: "eligibility-when-to-sign-up", title: "Eligibility and When to Sign Up" },
+      { id: "special-enrollment-periods", title: "Special Enrollment Periods" },
+      { id: "ssdi-enrollment", title: "Signing Up with SSDI" },
+      { id: "how-to-apply", title: "How to Apply: Online, Phone, or In Person" },
+      { id: "step-by-step-online", title: "Step-by-Step: Online Application" },
+      { id: "common-mistakes", title: "Common Mistakes to Avoid" },
+      { id: "coverage-options", title: "Coverage Options Beyond Part A and B" },
+      { id: "part-d-enrollment", title: "How to Enroll in Part D" },
+      { id: "medigap-enrollment", title: "Medigap Enrollment Timeline" },
+      { id: "after-you-sign-up", title: "What Happens After You Sign Up" },
+      { id: "late-penalties", title: "Avoiding Late Enrollment Penalties" },
+      { id: "faqs", title: "Frequently Asked Questions" },
+    ],
+    sections: [
+      {
+        id: "intro",
+        title: "How to Sign Up for Medicare",
+        content: [
+          { type: "paragraph", content: "Most people spend more time researching a new appliance than they do planning their Medicare enrollment, and that gap can cost them hundreds of dollars a year in avoidable penalties. Signing up for Medicare at the right time, through the right method, and with the right information makes an enormous difference in both your coverage and your monthly costs." },
+          { type: "paragraph", content: "The good news: the actual application process is straightforward. Most people apply through the **Social Security Administration (SSA)** online, by phone, or in person. The online process takes as little as 10 minutes for those who already receive Social Security benefits and are enrolled automatically." },
+          { type: "paragraph", content: "But knowing *how* to apply is only part of the picture. You also need to know *when* to apply, which parts to sign up for, and how your choices today affect your coverage options later. This guide walks you through every step of the sign up for Medicare process in 2026, so you can move forward with clarity and confidence." },
+          { type: "list", ordered: false, items: [
+            "Understand the difference between automatic and manual Medicare enrollment",
+            "Know your enrollment windows to avoid costly late penalties",
+            "Prepare the right documents before you apply",
+            "Explore your coverage options beyond just Part A and Part B",
+          ]},
+        ],
+      },
+      {
+        id: "eligibility-when-to-sign-up",
+        title: "Eligibility and When to Sign Up for Medicare",
+        content: [
+          { type: "paragraph", content: "Medicare eligibility is primarily based on age. You become eligible for **Medicare Part A and Part B** at age 65 if you are a U.S. citizen or permanent legal resident who has lived in the country for at least five continuous years. You may also qualify under age 65 if you have received Social Security Disability Insurance (SSDI) for 24 months, or if you have been diagnosed with End-Stage Renal Disease (ESRD) or Amyotrophic Lateral Sclerosis (ALS)." },
+          { type: "paragraph", content: "Your primary enrollment window is the **Initial Enrollment Period (IEP)** — a 7-month window that begins three months before the month you turn 65, includes your birthday month, and extends three months after. Enrolling during the first three months of your IEP generally means your coverage starts on the first day of your birthday month, giving you the earliest possible start date." },
+          { type: "paragraph", content: "If you miss your IEP, you still have options. The **General Enrollment Period (GEP)** runs from January 1 through March 31 each year. Coverage from a GEP enrollment begins July 1 of that year. However, waiting for the GEP can trigger late enrollment penalties — more on that in a later section." },
+          { type: "paragraph", content: "Some people are **automatically enrolled** in Medicare Parts A and B. This happens when you are already receiving Social Security or Railroad Retirement Board (RRB) benefits before your 65th birthday. In this case, you do not need to apply — your Medicare card arrives in the mail roughly three months before your coverage begins. You will, however, need to take action if you want to decline Part B." },
+        ],
+      },
+      {
+        id: "special-enrollment-periods",
+        title: "Special Enrollment Periods (SEPs) and Unique Situations",
+        content: [
+          { type: "paragraph", content: "A Special Enrollment Period allows you to sign up for Medicare outside your IEP without incurring a penalty, but only if you qualify based on specific life circumstances. The most common SEP trigger is **losing employer-sponsored health coverage**. If you or your spouse have been covered through active employment (not COBRA or retiree insurance), you generally have an 8-month window to enroll in Medicare after that coverage ends or the employment ends, whichever comes first." },
+          { type: "paragraph", content: "This matters for people who delayed Medicare because they were still working. Many assume that having any employer insurance qualifies them to delay without penalty, but the employer must have *20 or more employees* for that protection to apply. Smaller employer plans don't carry the same exemption." },
+          { type: "paragraph", content: "For individuals with **End-Stage Renal Disease**, Medicare eligibility begins regardless of age, but the enrollment timeline differs. Coverage typically starts the first day of the fourth month of dialysis, though transplant patients may begin earlier. For individuals diagnosed with **ALS**, Medicare coverage begins automatically the same month disability benefits start — there is no 24-month waiting period required." },
+        ],
+      },
+      {
+        id: "ssdi-enrollment",
+        title: "Signing Up with Social Security Disability Insurance (SSDI)",
+        content: [
+          { type: "paragraph", content: "SSDI recipients do not need to manually apply for Medicare. After receiving SSDI benefits for **24 consecutive months**, Medicare enrollment is automatic. Your Medicare card will arrive in the mail before your coverage start date." },
+          { type: "paragraph", content: "Coverage for SSDI recipients begins on the **25th month** of receiving disability benefits. The 24-month clock starts from the first month you were entitled to SSDI payments, not necessarily the month you were approved. If your approval was retroactive, your Medicare start date may be sooner than you expect." },
+          { type: "paragraph", content: "One important note: SSDI recipients who have ALS skip the 24-month waiting period entirely. If you have ALS and receive SSDI, Medicare begins the same month your SSDI benefits begin." },
+          { type: "callout", calloutType: "tip", calloutTitle: "Pro Tip", calloutText: "Set a reminder the moment you turn 64 so you have a full year to research your Part D and Medigap options before your IEP opens. Having your documents ready in advance means you can submit your application on the first day of your window and lock in the earliest possible coverage start date." },
+        ],
+      },
+      {
+        id: "how-to-apply",
+        title: "How to Sign Up for Medicare Online, by Phone, or In Person",
+        content: [
+          { type: "paragraph", content: "There are three ways to sign up for Medicare: **online through SSA.gov**, by calling 1-800-772-1213, or by visiting your local Social Security office in person. Each method works — your choice depends on your comfort level with technology and how much support you want during the process." },
+          { type: "table", headers: ["Method", "Best For", "Estimated Time", "Key Consideration"], rows: [
+            ["Online (SSA.gov)", "Those comfortable with technology", "10–30 minutes", "Must create or log into a my Social Security account"],
+            ["By Phone", "Those who prefer guided help", "Varies; may involve hold time", "Can schedule a callback to avoid waiting"],
+            ["In Person (SSA Office)", "Those with complex situations", "Appointment recommended", "Bring original documents; offices may have limited hours"],
+          ]},
+          { type: "paragraph", content: "Regardless of the method you choose, have the following ready before you start your application:" },
+          { type: "list", ordered: false, items: [
+            "Your Social Security number",
+            "Date and place of birth",
+            "Citizenship or lawful alien status documentation",
+            "Information about any current health coverage (employer plan details if applicable)",
+            "Employment history (W-2 or self-employment tax return from the prior year)",
+            "Bank account information if you want to set up automatic premium payments",
+          ]},
+          { type: "paragraph", content: "To apply **in person**, visit SSA.gov and use the office locator tool to find the nearest location. Scheduling an appointment is strongly recommended — walk-ins are accepted, but wait times can be long, especially near the beginning of the year." },
+        ],
+      },
+      {
+        id: "step-by-step-online",
+        title: "Step-by-Step: How to Sign Up for Medicare Online",
+        content: [
+          { type: "paragraph", content: "The online application is available at SSA.gov and takes most applicants under 30 minutes. Here is how to complete it:" },
+          { type: "list", ordered: true, items: [
+            "**Create or log into your my Social Security account.** Go to SSA.gov and select \"Sign In\" or \"Create Account.\" You will verify your identity through the SSA's identification process.",
+            "**Select \"Apply for Medicare.\"** From your dashboard, choose this option even if you are not yet applying for Social Security retirement benefits. You can apply for Medicare only, without triggering early retirement benefits.",
+            "**Complete the application sections.** You will be asked about your citizenship, current health coverage, whether you want Part B, and your contact information. Answer each section carefully, especially questions about existing employer coverage, which affect your enrollment period eligibility.",
+            "**Review and submit.** Before submitting, review every field for accuracy. Errors in your name, Social Security number, or coverage dates can delay processing.",
+            "**Save your confirmation number.** After submission, print or screenshot your confirmation. SSA will mail a formal acknowledgment within a few days, followed by your Medicare card approximately 3 months before your effective date.",
+          ]},
+          { type: "paragraph", content: "After submitting, SSA will process your application and may contact you if additional information is needed. You can check the status of your application by logging back into your my Social Security account or calling the SSA directly." },
+        ],
+      },
+      {
+        id: "common-mistakes",
+        title: "Common Mistakes to Avoid",
+        content: [
+          { type: "callout", calloutType: "warning", calloutTitle: "Avoid These Costly Errors", calloutText: "These are the errors that most often lead to coverage gaps, higher premiums, or denied applications. Knowing them ahead of time puts you in a much better position." },
+          { type: "list", ordered: true, items: [
+            "**Assuming you are automatically enrolled when you are not.** Automatic enrollment only applies if you are already receiving Social Security or RRB benefits before turning 65. If you are not yet collecting those benefits, you must apply manually — and the clock on your enrollment period still runs, whether you know it or not.",
+            "**Relying on COBRA or retiree insurance as a reason to delay.** COBRA and retiree health plans do not count as \"employer-sponsored coverage based on active employment.\" Delaying Medicare because you have COBRA can result in a Part B late enrollment penalty that follows you permanently.",
+            "**Skipping Part D enrollment because you don't take many prescriptions now.** The [Part D late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty) accrues for every month you go without creditable drug coverage. A penalty of 1% of the national base premium per uncovered month adds up fast — and it doesn't go away.",
+            "**Missing the Medigap Open Enrollment window.** Your 6-month Medigap Open Enrollment Period begins the month your Part B coverage starts. During this window, insurers cannot deny you coverage or charge higher premiums due to pre-existing conditions. Miss this window, and you may face medical underwriting.",
+            "**Enrolling in Part B late because of small employer coverage.** If your employer has fewer than 20 employees, Medicare pays first. Many people in this situation don't realize Medicare should have been their primary coverage, and end up with unexpected bills and penalties.",
+            "**Not reporting a life event that triggers a Special Enrollment Period.** If you lose employer coverage, move, or experience another qualifying event, you have a limited time to act. Failing to enroll within your SEP window can push you to the next General Enrollment Period and create a coverage gap of months, not weeks.",
+          ]},
+        ],
+      },
+      {
+        id: "coverage-options",
+        title: "Understanding Your Medicare Coverage Options Beyond Part A and B",
+        content: [
+          { type: "paragraph", content: "**Original Medicare** — Parts A and B — is your foundation. Part A covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health services. Part B covers outpatient services, doctor visits, preventive care, and medically necessary equipment. Together, they cover a wide range of services, but they don't cover everything, and they come with cost-sharing that can add up significantly without additional coverage." },
+          { type: "paragraph", content: "Once you have Part A and Part B, you have two main paths: stay with Original Medicare and add a Medigap policy and Part D plan, or replace Original Medicare with a **Medicare Advantage (Part C)** plan. These are meaningfully different approaches, not just variations on the same thing. You can explore the [Original Medicare vs. Medicare Advantage](/faqs/original-medicare-vs-medicare-advantage) comparison in more depth to understand which structure fits your situation." },
+          { type: "paragraph", content: "Medicare Advantage plans are offered by private insurers approved by Medicare. They bundle Parts A, B, and usually D into one plan, and often include extra benefits like dental and vision. However, they typically require you to use a network of providers. Enrollment in a Medicare Advantage plan is *separate* from your initial Part A and B signup — you must first have both parts, then choose an Advantage plan during a valid enrollment period." },
+        ],
+      },
+      {
+        id: "part-d-enrollment",
+        title: "How to Enroll in Medicare Part D (Prescription Drug Coverage)",
+        content: [
+          { type: "paragraph", content: "Part D covers outpatient prescription drugs. You enroll in Part D through a private insurer that contracts with Medicare. The right time to enroll is **during your Initial Enrollment Period** — the same 7-month window as Part A and B. Waiting beyond your IEP without having other creditable drug coverage triggers a permanent late enrollment penalty." },
+          { type: "paragraph", content: "If you are enrolling in a Medicare Advantage plan that includes drug coverage, you do not need a separate Part D plan. But if you are staying with Original Medicare, a standalone Part D plan is essential. [Medicare Part D enrollment](/faqs/medicare-part-d-enrollment) details the process clearly, including how to compare plans based on your specific prescriptions and preferred pharmacy." },
+          { type: "paragraph", content: "Delaying Part D enrollment without having other creditable drug coverage creates a penalty. That penalty equals 1% of the national base beneficiary premium for each full month you were eligible but not enrolled, and it is added to your Part D premium permanently." },
+        ],
+      },
+      {
+        id: "medigap-enrollment",
+        title: "Medigap (Medicare Supplement Insurance) Enrollment Timeline",
+        content: [
+          { type: "paragraph", content: "Medigap plans are sold by private insurance companies and help cover Original Medicare's out-of-pocket costs — things like deductibles, coinsurance, and copayments. The [Medigap Open Enrollment Period](/faqs/medicare-supplement-open-enrollment) is a 6-month window that begins the month your Part B coverage takes effect." },
+          { type: "paragraph", content: "During this window, insurers must sell you any Medigap plan they offer, regardless of your health history. Pre-existing conditions cannot be used to deny you coverage or raise your premium. This window does not repeat automatically. Once it passes, you may still be able to buy a Medigap plan, but insurers can use medical underwriting — which means your health could affect your eligibility and cost." },
+          { type: "paragraph", content: "Medigap is separate from Medicare Advantage — you cannot have both at the same time. If you choose Medigap, you stay with Original Medicare as your base coverage. If you choose Medicare Advantage, you do not use a Medigap plan." },
+        ],
+      },
+      {
+        id: "after-you-sign-up",
+        title: "What Happens After You Sign Up for Medicare?",
+        content: [
+          { type: "paragraph", content: "After submitting your Medicare application, SSA will process your enrollment and mail your official **Medicare card** to the address on file. Most applicants receive their card within three months of their coverage start date. Your card shows your Medicare number, the parts you are enrolled in, and your effective date." },
+          { type: "paragraph", content: "Your coverage start date is set at the time of enrollment, so confirm your effective date on your Medicare card when it arrives." },
+          { type: "paragraph", content: "Once your coverage is active, review your Medicare Summary Notice (MSN), which is sent every three months and details all claims processed on your behalf. If you notice an error, a charge for a service you didn't receive, or an incorrect enrollment date, contact Medicare directly at 1-800-MEDICARE. You also have the right to [appeal Medicare decisions](/faqs/medicare-appeals-process) if a claim is denied or you believe an error was made during enrollment." },
+        ],
+      },
+      {
+        id: "late-penalties",
+        title: "Avoiding Late Enrollment Penalties and Understanding Premiums",
+        content: [
+          { type: "heading", level: 3, text: "Medicare Late Enrollment Penalties at a Glance", id: "penalties-table" },
+          { type: "table", headers: ["Penalty Type", "How It's Calculated", "Impact"], rows: [
+            ["Part B", "10% of the standard Part B premium for each full 12-month period you were eligible but didn't enroll.", "Added permanently to your monthly Part B premium. A two-year delay adds a 20% surcharge."],
+            ["Part D", "1% of the national base beneficiary premium for each full month you were eligible but didn't enroll without creditable coverage.", "Added permanently to your monthly Part D premium. Six months of delay adds roughly 6% to your premium."],
+          ]},
+          { type: "paragraph", content: "You may be exempt from these penalties if you had **creditable coverage** — coverage from an employer, union, or other source that is at least as good as Medicare's standard coverage. Your employer or insurer should provide a notice of creditable coverage each year. Keep these notices as documentation in case your enrollment is ever questioned." },
+          { type: "paragraph", content: "Higher-income enrollees face an additional cost known as **IRMAA (Income-Related Monthly Adjustment Amount)**. If your modified adjusted gross income from two years prior exceeds certain thresholds, you pay higher premiums for both Part B and Part D. In 2026, IRMAA surcharges begin for individuals with MAGI above $109,000 (filing individually) and can significantly increase your monthly costs. If your income has recently decreased — due to retirement, for example — you can request a review using SSA Form SSA-44." },
+        ],
+      },
+      {
+        id: "conclusion",
+        title: "Your Path to Medicare Coverage in 2026",
+        content: [
+          { type: "paragraph", content: "The enrollment process itself is manageable, but the timing and decisions surrounding it carry real consequences. Knowing your enrollment period, choosing the right coverage path, and acting before your windows close are what separate a smooth Medicare experience from one filled with unexpected costs." },
+          { type: "paragraph", content: "To summarize: most people sign up through SSA.gov online, by phone at 1-800-772-1213, or at a local Social Security office. Your Initial Enrollment Period is the key window to watch. From there, decisions about Part D, Medigap, or Medicare Advantage all follow in sequence — and each has its own deadline that's worth respecting." },
+          { type: "paragraph", content: "If your situation involves employer coverage, SSDI, or other complexities, speaking with a licensed Medicare agent can save you time and help you avoid costly mistakes. You don't need to figure this out alone — the right information, at the right time, makes all the difference." },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Can I sign up for Medicare if I'm still working and have employer insurance?",
+        answer: "Yes, but your decision depends on your employer's size. If your employer has 20 or more employees, your group plan pays first and you can delay Medicare Part B without penalty. If your employer has fewer than 20 employees, Medicare becomes your primary payer and you should enroll to avoid gaps and penalties.",
+      },
+      {
+        question: "What if I miss my General Enrollment Period to sign up for Medicare?",
+        answer: "Missing the GEP means waiting until the next one, which runs January 1 through March 31 each year, with coverage starting July 1. You may also qualify for a Special Enrollment Period depending on your situation. Late enrollment penalties may still apply.",
+      },
+      {
+        question: "How long does it take for Medicare coverage to start after I sign up?",
+        answer: "Your start date depends on when you enroll during your IEP. Enrolling in the first three months means coverage begins on the first of your birthday month. Later enrollment within the IEP can push your effective date out by one to three months. GEP enrollees always start July 1.",
+      },
+      {
+        question: "What documents do you need to sign up for Medicare?",
+        answer: "You'll need your Social Security number, proof of age, proof of U.S. citizenship or lawful residency, and information about any current health coverage. If applying based on employment-related exemptions, you'll also need documentation of your employer plan.",
+      },
+      {
+        question: "Is there a cost to sign up for Medicare Part A and Part B?",
+        answer: "There is no application fee. Part A is premium-free for most people who have worked at least 40 quarters. Part B has a standard monthly premium of $202.90 in 2026, deducted from your Social Security benefit or billed directly if you are not yet collecting benefits.",
+      },
+    ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-costs-2026", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
+  },
+
 ];

@@ -173,7 +173,8 @@
 
 ## Build Missing Pages — From Thin Content Report
 - [x] Build does-medicare-cover-alzheimers-care as CoverageArticle
-- [ ] Build does-medicare-cover-memory-care as CoverageArticle
-- [ ] Build does-medicare-cover-glaucoma as CoverageArticle
-- [ ] Build does-medicare-cover-home-health-care as CoverageArticle
-- [ ] Build does-medicare-cover-durable-medical-equipment as CoverageArticle
+- [x] Build does-medicare-cover-memory-care as CoverageArticle
+- [x] Build does-medicare-cover-glaucoma as CoverageArticle
+- [x] Build does-medicare-cover-home-health-care as CoverageArticle
+- [x] Build does-medicare-cover-durable-medical-equipment as CoverageArticle
+- [ ] Create blog post: how-to-sign-up-for-medicare
