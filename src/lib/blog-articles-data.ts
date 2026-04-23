@@ -125,8 +125,8 @@ export const blogArticles: BlogArticleData[] = [
       },
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-costs-2026", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
-  },,
-{
+  },
+  {
     slug: "medicare-costs-2026",
   seo: {
     title: "Medicare Costs 2026 | MedicareFAQ",
