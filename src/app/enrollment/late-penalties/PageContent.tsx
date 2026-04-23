@@ -10,6 +10,7 @@
 import { useState, useEffect, type ReactNode } from "react";
 import Link from "next/link";
 import { trackPhoneClick } from "@/lib/analytics";
+import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import {
   AlertCircle,
   ChevronDown,
@@ -352,12 +353,12 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     </thead>
                     <tbody>
                       {[
-                        { single: "$106,000 or less", married: "$212,000 or less", premium: "$202.90 (standard)" },
-                        { single: "$106,001 – $133,500", married: "$212,001 – $267,000", premium: "$259.00" },
-                        { single: "$133,501 – $167,000", married: "$267,001 – $334,000", premium: "$370.00" },
-                        { single: "$167,001 – $200,000", married: "$334,001 – $400,000", premium: "$480.90" },
-                        { single: "$200,001 – $500,000", married: "$400,001 – $750,000", premium: "$591.90" },
-                        { single: "$500,001+", married: "$750,001+", premium: "$628.90" },
+                        { single: `${MEDICARE_COSTS.irmaa.individualLevel1} or less`, married: `${MEDICARE_COSTS.irmaa.jointLevel1} or less`, premium: `${MEDICARE_COSTS.partB.monthlyPremium} (standard)` },
+                        { single: `${MEDICARE_COSTS.irmaa.individualLevel2}`, married: `${MEDICARE_COSTS.irmaa.jointLevel2}`, premium: MEDICARE_COSTS.irmaa.partBWithLevel2 },
+                        { single: `${MEDICARE_COSTS.irmaa.individualLevel3}`, married: `${MEDICARE_COSTS.irmaa.jointLevel3}`, premium: MEDICARE_COSTS.irmaa.partBWithLevel3 },
+                        { single: `${MEDICARE_COSTS.irmaa.individualLevel4}`, married: `${MEDICARE_COSTS.irmaa.jointLevel4}`, premium: MEDICARE_COSTS.irmaa.partBWithLevel4 },
+                        { single: `${MEDICARE_COSTS.irmaa.individualLevel5}`, married: `${MEDICARE_COSTS.irmaa.jointLevel5}`, premium: MEDICARE_COSTS.irmaa.partBWithLevel5 },
+                        { single: `${MEDICARE_COSTS.irmaa.individualLevel6}`, married: `${MEDICARE_COSTS.irmaa.jointLevel6}`, premium: MEDICARE_COSTS.irmaa.partBWithLevel6 },
                       ].map((row, i) => (
                         <tr key={i} className={`border-b border-slate-100 ${i % 2 === 1 ? "bg-slate-50/50" : ""}`}>
                           <td className="p-4 text-sm text-slate-700">{row.single}</td>

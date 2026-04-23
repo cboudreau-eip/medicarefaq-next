@@ -10,6 +10,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { trackPhoneClick } from "@/lib/analytics";
+import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import {
   ChevronRight,
   ChevronDown,
@@ -72,12 +73,12 @@ const partDCosts = [
 ];
 
 const irmaaBrackets = [
-  { income: "$106,000 or less (single) / $212,000 or less (joint)", partB: "$202.90", partD: "$0.00" },
-  { income: "$106,001–$133,000 / $212,001–$266,000", partB: "$259.00", partD: "$13.70" },
-  { income: "$133,001–$167,000 / $266,001–$334,000", partB: "$370.00", partD: "$35.30" },
-  { income: "$167,001–$200,000 / $334,001–$400,000", partB: "$480.90", partD: "$57.00" },
-  { income: "$200,001–$500,000 / $400,001–$750,000", partB: "$591.90", partD: "$78.60" },
-  { income: "Above $500,000 / Above $750,000", partB: "$628.90", partD: "$85.80" },
+  { income: `${MEDICARE_COSTS.irmaa.individualLevel1} or less (single) / ${MEDICARE_COSTS.irmaa.jointLevel1} or less (joint)`, partB: MEDICARE_COSTS.partB.monthlyPremium, partD: "$0.00" },
+  { income: `${MEDICARE_COSTS.irmaa.individualLevel2} / ${MEDICARE_COSTS.irmaa.jointLevel2}`, partB: MEDICARE_COSTS.irmaa.partBWithLevel2, partD: MEDICARE_COSTS.irmaa.partDAdditionLevel2 },
+  { income: `${MEDICARE_COSTS.irmaa.individualLevel3} / ${MEDICARE_COSTS.irmaa.jointLevel3}`, partB: MEDICARE_COSTS.irmaa.partBWithLevel3, partD: MEDICARE_COSTS.irmaa.partDAdditionLevel3 },
+  { income: `${MEDICARE_COSTS.irmaa.individualLevel4} / ${MEDICARE_COSTS.irmaa.jointLevel4}`, partB: MEDICARE_COSTS.irmaa.partBWithLevel4, partD: MEDICARE_COSTS.irmaa.partDAdditionLevel4 },
+  { income: `${MEDICARE_COSTS.irmaa.individualLevel5} / ${MEDICARE_COSTS.irmaa.jointLevel5}`, partB: MEDICARE_COSTS.irmaa.partBWithLevel5, partD: MEDICARE_COSTS.irmaa.partDAdditionLevel5 },
+  { income: `${MEDICARE_COSTS.irmaa.individualLevel6} / ${MEDICARE_COSTS.irmaa.jointLevel6}`, partB: MEDICARE_COSTS.irmaa.partBWithLevel6, partD: MEDICARE_COSTS.irmaa.partDAdditionLevel6 },
 ];
 
 const totalCostScenarios = [
@@ -137,7 +138,7 @@ const faqs = [
   },
   {
     question: "What is IRMAA and will it affect me?",
-    answer: "IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge added to your Part B and Part D premiums if your modified adjusted gross income exceeds certain thresholds. It's based on your tax return from 2 years prior. In 2026, IRMAA kicks in for individuals earning above $106,000 or couples above $212,000.",
+    answer: `IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge added to your Part B and Part D premiums if your modified adjusted gross income exceeds certain thresholds. It's based on your tax return from 2 years prior. In ${MEDICARE_COSTS.currentYear}, IRMAA kicks in for individuals earning above ${MEDICARE_COSTS.irmaa.individualLevel1} or couples above ${MEDICARE_COSTS.irmaa.jointLevel1}.`,
   },
   {
     question: "Can I get help paying for Medicare?",

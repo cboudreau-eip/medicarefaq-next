@@ -9,6 +9,7 @@ import Link from "next/link";
 
 import { useState, useEffect } from "react";
 import { trackCtaClick, trackPhoneClick } from "@/lib/analytics";
+import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import {
   ChevronDown,
   Phone,
@@ -129,7 +130,7 @@ const faqs = [
   },
   {
     q: "What is IRMAA and will it affect me?",
-    a: "IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge on Part B and Part D premiums for higher-income beneficiaries. If your modified adjusted gross income exceeds $106,000 (single) or $212,000 (married), you'll pay $74-$419 extra per month for Part B and $13-$81 extra for Part D.",
+    a: `IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge on Part B and Part D premiums for higher-income beneficiaries. If your modified adjusted gross income exceeds ${MEDICARE_COSTS.irmaa.individualLevel1} (single) or ${MEDICARE_COSTS.irmaa.jointLevel1} (married), you'll pay extra per month for Part B (up to ${MEDICARE_COSTS.irmaa.maxLevel}) and Part D (up to ${MEDICARE_COSTS.irmaa.partDAdditionLevel6}).`,
   },
 ];
 
@@ -252,12 +253,12 @@ export default function PageContent() {
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {[
-                  ["≤ $106,000 / $212,000", "$202.90", "$0.00"],
-                  ["$106,001 – $133,500 / $212,001 – $267,000", "$259.00", "$13.70"],
-                  ["$133,501 – $167,000 / $267,001 – $334,000", "$370.00", "$35.30"],
-                  ["$167,001 – $200,000 / $334,001 – $400,000", "$480.90", "$57.00"],
-                  ["$200,001 – $500,000 / $400,001 – $750,000", "$591.90", "$78.60"],
-                  ["> $500,000 / > $750,000", "$628.90", "$85.80"],
+                  [`≤ ${MEDICARE_COSTS.irmaa.individualLevel1} / ${MEDICARE_COSTS.irmaa.jointLevel1}`, MEDICARE_COSTS.partB.monthlyPremium, "$0.00"],
+                  [`${MEDICARE_COSTS.irmaa.individualLevel2} / ${MEDICARE_COSTS.irmaa.jointLevel2}`, MEDICARE_COSTS.irmaa.partBWithLevel2, MEDICARE_COSTS.irmaa.partDAdditionLevel2],
+                  [`${MEDICARE_COSTS.irmaa.individualLevel3} / ${MEDICARE_COSTS.irmaa.jointLevel3}`, MEDICARE_COSTS.irmaa.partBWithLevel3, MEDICARE_COSTS.irmaa.partDAdditionLevel3],
+                  [`${MEDICARE_COSTS.irmaa.individualLevel4} / ${MEDICARE_COSTS.irmaa.jointLevel4}`, MEDICARE_COSTS.irmaa.partBWithLevel4, MEDICARE_COSTS.irmaa.partDAdditionLevel4],
+                  [`${MEDICARE_COSTS.irmaa.individualLevel5} / ${MEDICARE_COSTS.irmaa.jointLevel5}`, MEDICARE_COSTS.irmaa.partBWithLevel5, MEDICARE_COSTS.irmaa.partDAdditionLevel5],
+                  [`${MEDICARE_COSTS.irmaa.individualLevel6} / ${MEDICARE_COSTS.irmaa.jointLevel6}`, MEDICARE_COSTS.irmaa.partBWithLevel6, MEDICARE_COSTS.irmaa.partDAdditionLevel6],
                 ].map(([income, partB, partD], i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50/50"}>
                     <td className="py-3 px-4 text-slate-700 text-xs">{income}</td>

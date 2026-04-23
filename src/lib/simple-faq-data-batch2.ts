@@ -5,6 +5,7 @@
  */
 
 import type { SimpleFAQArticleData } from "@/lib/article-types";
+import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 
 export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
@@ -281,8 +282,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         paragraphs: [
         ],
         listItems: [
-          'You’re filing individually and your modified adjusted gross income (MAGI) is more than $106,000.',
-          'You’re married and filing jointly with a MAGI over $212,000.',
+          `You’re filing individually and your modified adjusted gross income (MAGI) is more than ${MEDICARE_COSTS.irmaa.individualLevel1}.`,
+          `You’re married and filing jointly with a MAGI over ${MEDICARE_COSTS.irmaa.jointLevel1}.`,
         ],
       },
       {

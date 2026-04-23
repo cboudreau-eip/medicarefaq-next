@@ -1,3 +1,5 @@
+import { MEDICARE_COSTS } from "@/lib/medicare-costs";
+
 /**
  * Part D Sub-Page Data
  * Data for all 11 Medicare Part D sub-pages under
@@ -512,12 +514,12 @@ export const partDSubPages: PartDSubPage[] = [
         table: {
           headers: ["Individual Income", "Monthly IRMAA Surcharge"],
           rows: [
-            ["$106,000 or less", "$0"],
-            ["$106,001 – $133,000", "$13.70"],
-            ["$133,001 – $167,000", "$35.30"],
-            ["$167,001 – $200,000", "$57.00"],
-            ["$200,001 – $500,000", "$78.60"],
-            ["Above $500,000", "$85.80"],
+            [`${MEDICARE_COSTS.irmaa.individualLevel1} or less`, "$0"],
+            [`${MEDICARE_COSTS.irmaa.individualLevel2}`, MEDICARE_COSTS.irmaa.partDAdditionLevel2],
+            [`${MEDICARE_COSTS.irmaa.individualLevel3}`, MEDICARE_COSTS.irmaa.partDAdditionLevel3],
+            [`${MEDICARE_COSTS.irmaa.individualLevel4}`, MEDICARE_COSTS.irmaa.partDAdditionLevel4],
+            [`${MEDICARE_COSTS.irmaa.individualLevel5}`, MEDICARE_COSTS.irmaa.partDAdditionLevel5],
+            [`${MEDICARE_COSTS.irmaa.individualLevel6}`, MEDICARE_COSTS.irmaa.partDAdditionLevel6],
           ],
         },
         callout: { type: "info", text: "IRMAA is paid directly to Medicare, not to your Part D plan. It's added to your Social Security benefit deduction or billed directly if you don't receive Social Security." },
@@ -911,12 +913,12 @@ export const partDSubPages: PartDSubPage[] = [
         table: {
           headers: ["Individual Income (2024)", "Monthly IRMAA Surcharge (2026)"],
           rows: [
-            ["$106,000 or less", "$0"],
-            ["$106,001 – $133,000", "$13.70"],
-            ["$133,001 – $167,000", "$35.30"],
-            ["$167,001 – $200,000", "$57.00"],
-            ["$200,001 – $500,000", "$78.60"],
-            ["Above $500,000", "$85.80"],
+            [`${MEDICARE_COSTS.irmaa.individualLevel1} or less`, "$0"],
+            [`${MEDICARE_COSTS.irmaa.individualLevel2}`, MEDICARE_COSTS.irmaa.partDAdditionLevel2],
+            [`${MEDICARE_COSTS.irmaa.individualLevel3}`, MEDICARE_COSTS.irmaa.partDAdditionLevel3],
+            [`${MEDICARE_COSTS.irmaa.individualLevel4}`, MEDICARE_COSTS.irmaa.partDAdditionLevel4],
+            [`${MEDICARE_COSTS.irmaa.individualLevel5}`, MEDICARE_COSTS.irmaa.partDAdditionLevel5],
+            [`${MEDICARE_COSTS.irmaa.individualLevel6}`, MEDICARE_COSTS.irmaa.partDAdditionLevel6],
           ],
         },
       },
