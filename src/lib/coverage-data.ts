@@ -2322,7 +2322,7 @@ export const coverageArticles: CoverageArticleData[] = [
     youtubeVideoId: "OBMO7kj8sCg",
     youtubeVideoTitle: "Medicare 2026 | New Premiums, Deductibles & Out of Pocket Costs Just Released!!",
     quickAnswer: {
-      text: "For 2026, the standard Part B premium is $202.90/month (up from $174.70), the Part B deductible is $283 (up from $257), and the Part A hospital deductible is $1,736 (up from $1,676). A Medicare Supplement plan can help cover these increased costs.",
+      text: "For 2026, the standard Part B premium is $202.90/month (up from $185), the Part B deductible is $283 (up from $257), and the Part A hospital deductible is $1,736 (up from $1,676). A Medicare Supplement plan can help cover these increased costs.",
       badges: [
         { plan: "Part B Premium", status: "partial" },
         { plan: "Part A Deductible", status: "partial" },
@@ -2331,9 +2331,9 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     comparisonTable: [
       { planType: "Part A Premium", coverage: "$0 (most people)", icon: "shield", notes: "Free if you or spouse paid Medicare taxes for 40+ quarters" },
-      { planType: "Part B Premium", coverage: "$202.90/month", icon: "dollarsign", notes: "Up from $202.90 in 2025; IRMAA surcharge may apply" },
-      { planType: "Part A Deductible", coverage: "$1,736/period", icon: "dollarsign", notes: "Up from $1,736 in 2025; per benefit period" },
-      { planType: "Part B Deductible", coverage: "$283/year", icon: "dollarsign", notes: "Up from $283 in 2025; annual deductible" },
+      { planType: "Part B Premium", coverage: "$202.90/month", icon: "dollarsign", notes: "Up from $185.00 in 2025; IRMAA surcharge may apply" },
+      { planType: "Part A Deductible", coverage: "$1,736/period", icon: "dollarsign", notes: "Up from $1,676 in 2025; per benefit period" },
+      { planType: "Part B Deductible", coverage: "$283/year", icon: "dollarsign", notes: "Up from $257 in 2025; annual deductible" },
       { planType: "Part B Coinsurance", coverage: "20% (no cap)", icon: "dollarsign", notes: "No annual limit on out-of-pocket costs" },
     ],
     planBreakdowns: [
@@ -2345,7 +2345,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "[Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers inpatient hospital stays, skilled nursing facility care, and hospice. Most people do not pay a monthly premium for Part A if they or their spouse paid Medicare taxes for at least 10 years.",
-          "The [Part A deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) for each hospital benefit period is $1,736 in 2026, an increase of $60 from $1,736 in 2025. After your deductible is met, you pay $0 for the first 60 days.",
+          "The [Part A deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) for each hospital benefit period is $1,736 in 2026, an increase of $60 from $1,676 in 2025. After your deductible is met, you pay $0 for the first 60 days.",
           "For days 61-90, you pay $434 per day. For Lifetime Reserve Days (91+), you pay $868 per day. Skilled nursing facility coinsurance for days 21-100 is $217 per day.",
         ],
       },
@@ -2357,7 +2357,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "[Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) covers doctor visits, outpatient services, preventive care, and durable medical equipment.",
-          "The 2026 standard [Part B premium](/faqs/medicare-part-b-premiums) is $202.90 per month, a significant increase from $202.90 in 2025. The annual Part B deductible increased from $283 to $283.",
+          "The 2026 standard [Part B premium](/faqs/medicare-part-b-premiums) is $202.90 per month, a significant increase from $185.00 in 2025. The annual Part B deductible increased from $257 to $283.",
           "After you meet the $283 deductible, you are typically responsible for 20% of the Medicare-approved amount for most services. This [20% coinsurance](/faqs/deductible-copay-coinsurance-premium) has no annual limit.",
         ],
         callout: {
@@ -2388,13 +2388,13 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "2026 Medicare Costs at a Glance",
       headers: ["Cost Category", "2025 Amount", "2026 Amount", "Change"],
       rows: [
-        { "Cost Category": "Part B Monthly Premium", "2025 Amount": "$202.90", "2026 Amount": "$202.90", "Change": "+$17.90" },
-        { "Cost Category": "Part B Annual Deductible", "2025 Amount": "$283.00", "2026 Amount": "$283.00", "Change": "+$26.00" },
-        { "Cost Category": "Part A Hospital Deductible", "2025 Amount": "$1,736.00", "2026 Amount": "$1,736.00", "Change": "+$60.00" },
-        { "Cost Category": "Part A Days 61-90 Coinsurance", "2025 Amount": "$434/day", "2026 Amount": "$434/day", "Change": "+$15/day" },
+        { "Cost Category": "Part B Monthly Premium", "2025 Amount": "$185.00", "2026 Amount": "$202.90", "Change": "+$17.90" },
+        { "Cost Category": "Part B Annual Deductible", "2025 Amount": "$257.00", "2026 Amount": "$283.00", "Change": "+$26.00" },
+        { "Cost Category": "Part A Hospital Deductible", "2025 Amount": "$1,676.00", "2026 Amount": "$1,736.00", "Change": "+$60.00" },
+        { "Cost Category": "Part A Days 61-90 Coinsurance", "2025 Amount": "$419/day", "2026 Amount": "$434/day", "Change": "+$15/day" },
         { "Cost Category": "Part A Lifetime Reserve Days", "2025 Amount": "$838/day", "2026 Amount": "$868/day", "Change": "+$30/day" },
-        { "Cost Category": "SNF Days 21-100", "2025 Amount": "$217/day", "2026 Amount": "$217.00/day", "Change": "+$7.50/day" },
-        { "Cost Category": "Part C Max OOP", "2025 Amount": "$9,250", "2026 Amount": "$9,250", "Change": "+$400" },
+        { "Cost Category": "SNF Days 21-100", "2025 Amount": "$209.50/day", "2026 Amount": "$217.00/day", "Change": "+$7.50/day" },
+        { "Cost Category": "Part C Max OOP", "2025 Amount": "$8,850", "2026 Amount": "$9,250", "Change": "+$400" },
       ],
       footnote: "Source: Centers for Medicare & Medicaid Services (CMS). IRMAA surcharges apply to higher-income beneficiaries.",
     },
@@ -2448,7 +2448,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     quickReference: [
-      { icon: "dollar", text: "<strong>Part B Premium</strong>: $202.90/month in 2026 (up from $174.70)" },
+      { icon: "dollar", text: "<strong>Part B Premium</strong>: $202.90/month in 2026 (up from $185)" },
       { icon: "dollar", text: "<strong>Part A Deductible</strong>: $1,736 per benefit period (up from $1,676)" },
       { icon: "dollar", text: "<strong>Part B Deductible</strong>: $283/year (up from $257)" },
       { icon: "alert", text: "<strong>No cap</strong> on Part B 20% coinsurance; Medigap recommended" },
