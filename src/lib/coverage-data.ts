@@ -254,6 +254,250 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
   },
   {
+    slug: "does-medicare-cover-podiatry",
+    seo: {
+      title: "Does Medicare Cover Podiatry?",
+      description: "Medicare covers podiatry visits when they are medically necessary, such as for diabetic foot care or treatment of injuries. Routine foot care is generally not covered. Learn more.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-podiatry/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Podiatry?",
+    subtitle: "Medicare covers podiatry visits when they are medically necessary, such as treatment for diabetic foot conditions, injuries, or infections. Routine foot care like nail trimming is generally not covered unless you have a qualifying condition.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers podiatry services that are medically necessary, including treatment for foot injuries, infections, and diabetic foot care. Routine foot care such as trimming of non-problematic toenails is generally not covered unless you have a qualifying systemic condition like diabetes or peripheral vascular disease. You pay 20% of the Medicare-approved amount after the Part B deductible.",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Partial", icon: "shield", notes: "Part B covers medically necessary podiatry; routine nail trimming generally not covered" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Varies by Plan", icon: "heart", notes: "Many plans cover additional foot care benefits; check your plan's Evidence of Coverage" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part B 20% coinsurance for any podiatry visit Original Medicare approves" },
+      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover medications prescribed for foot infections or diabetic foot conditions" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Partial",
+        coverageType: "partial",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers podiatry services that are medically necessary. This includes treatment for foot injuries, infections, plantar fasciitis, heel spurs, and diabetic foot care. If you have diabetes or a condition affecting circulation in your feet, Medicare also covers routine foot care such as nail trimming when performed by a podiatrist as part of your treatment plan.",
+          "Routine foot care that is not related to a medical condition is generally not covered. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($257 in 2026), you pay 20% of the Medicare-approved amount for covered podiatry visits.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        paragraphs: [
+          "Many [Medicare Advantage plans](/medicare-advantage) cover the same podiatry services as Original Medicare and may offer additional foot care benefits. Coverage and copays vary by plan. Review your plan's Evidence of Coverage or call your plan to confirm what podiatry services are included.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "A [Medigap plan](/medicare-supplements/plan-g) does not expand which podiatry services are covered, but it pays your cost-sharing for any visit that Original Medicare approves. [Plan G](/medicare-supplements/plan-g) covers the Part B 20% coinsurance, reducing your out-of-pocket cost to $0 after the deductible.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover routine foot care like nail trimming?",
+        answer: "Generally no, unless you have a qualifying condition such as diabetes or peripheral vascular disease that makes routine foot care medically necessary.",
+      },
+      {
+        question: "Does Medicare cover diabetic foot care?",
+        answer: "Yes. Medicare Part B covers therapeutic shoe inserts and foot exams for people with diabetes, as well as routine nail care when it is part of a diabetic foot treatment plan.",
+      },
+      {
+        question: "Does Medicare cover orthotics or custom shoe inserts?",
+        answer: "Yes. Medicare Part B covers one pair of therapeutic shoes or inserts per calendar year for beneficiaries with diabetes.",
+      },
+      {
+        question: "How much does a podiatry visit cost with Medicare?",
+        answer: "After the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%.",
+      },
+    ],
+    quickReference: [
+      { icon: "alert", text: "<strong>Original Medicare</strong> covers medically necessary podiatry; routine care generally not covered" },
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
+      { icon: "check", text: "<strong>Medigap</strong> covers your Part B 20% coinsurance" },
+      { icon: "info", text: "Diabetic foot care and therapeutic shoes are covered under Part B" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Knee Replacement Surgery?", description: "Learn how Medicare covers knee replacement and what you will pay.", slug: "does-medicare-cover-knee-replacement" },
+      { title: "Does Medicare Cover Durable Medical Equipment?", description: "Find out what durable medical equipment Medicare covers, including orthotics.", slug: "does-medicare-cover-durable-medical-equipment" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+      { title: "Does Medicare Cover Home Health Care?", description: "Find out when Medicare covers skilled nursing and therapy at home.", slug: "does-medicare-cover-home-health-care" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Knee Replacement Surgery",
+      "Does Medicare Cover Durable Medical Equipment",
+      "Does Medicare Cover Second Opinions",
+      "Does Medicare Cover Home Health Care",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers podiatry and more.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-knee-replacement",
+      "does-medicare-cover-durable-medical-equipment",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-telehealth",
+      "medicare-coverage-for-skilled-nursing-facilities",
+      "does-medicare-cover-anesthesia",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-hepatitis-c-screening",
+    seo: {
+      title: "Does Medicare Cover Hepatitis C Screening?",
+      description: "Yes — Medicare covers hepatitis C screening at no cost for adults born between 1945 and 1965 and others at increased risk. Learn who qualifies and what to expect.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-hepatitis-c-screening/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Hepatitis C Screening?",
+    subtitle: "Yes. Medicare covers hepatitis C screening at no cost to you if you are at increased risk or were born between 1945 and 1965. The screening is covered once per year for high-risk individuals and once in a lifetime for those in the birth cohort.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Yes. Medicare Part B covers hepatitis C screening at no cost to you when your doctor orders it as a preventive service. Adults born between 1945 and 1965 are covered once in a lifetime. Adults at increased risk — such as those with a history of injection drug use or certain blood transfusions before 1992 — are covered once per year. There is no copay or coinsurance when you see a participating provider.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "$0 cost for eligible beneficiaries when ordered as a preventive service by a participating provider" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover all Medicare-required preventive services at $0 cost-sharing" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "No Cost-Sharing Needed", icon: "users", notes: "No out-of-pocket cost for the screening itself; Medigap is not needed for this service" },
+      { planType: "Medicare Part D", coverage: "May Cover Treatment Rx", icon: "filetext", notes: "If hepatitis C is detected, antiviral medications may be covered under Part D" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers hepatitis C screening as a preventive service at no cost to you. You qualify if you were born between January 1, 1945 and December 31, 1965 (covered once in a lifetime), or if you are at increased risk due to a history of injection drug use, certain blood transfusions before 1992, or other risk factors your doctor identifies (covered once per year).",
+          "There is no deductible or coinsurance for this screening when your doctor orders it as a preventive service and you see a participating provider. If the screening leads to additional diagnostic testing, standard [Part B cost-sharing](/original-medicare/medicare-costs) may apply.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) are required to cover all Medicare-mandated preventive services, including hepatitis C screening, at $0 cost-sharing when you use an in-network provider. Some plans may offer additional screenings or follow-up support.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "No Cost-Sharing Needed",
+        coverageType: "covered",
+        paragraphs: [
+          "Because the hepatitis C screening itself has no cost-sharing under Original Medicare, a [Medigap plan](/medicare-supplements/plan-g) is not needed to cover the screening. However, if a positive result leads to follow-up diagnostic tests or treatment, Medigap can help cover the Part B coinsurance for those services.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Who qualifies for free hepatitis C screening under Medicare?",
+        answer: "Adults born between 1945 and 1965 qualify for one lifetime screening. Adults at increased risk, such as those with a history of injection drug use, qualify for annual screenings.",
+      },
+      {
+        question: "Is there a copay for the Medicare hepatitis C screening?",
+        answer: "No. When ordered as a preventive service by a participating provider, there is no deductible, copay, or coinsurance.",
+      },
+      {
+        question: "Does Medicare cover hepatitis C treatment if I test positive?",
+        answer: "Medicare Part D covers antiviral medications used to treat hepatitis C, such as direct-acting antivirals. Coverage and costs vary by plan.",
+      },
+      {
+        question: "Does Medicare cover hepatitis B screening as well?",
+        answer: "Yes. Medicare Part B also covers hepatitis B screening for adults at increased risk, at no cost when ordered as a preventive service.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare</strong> covers hepatitis C screening at $0 cost for eligible beneficiaries" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> covers all required preventive screenings at $0 in-network" },
+      { icon: "info", text: "Born 1945–1965? You qualify for a one-time free screening" },
+      { icon: "info", text: "High-risk individuals qualify for annual screenings at no cost" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including preventive care via telehealth.", slug: "does-medicare-cover-telehealth" },
+      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Telehealth",
+      "What Is the Medicare Annual Wellness Visit",
+      "Does Medicare Cover Medical Nutrition Therapy",
+      "Does Medicare Cover Second Opinions",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers preventive screenings and more.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-telehealth",
+      "what-is-the-medicare-annual-wellness-visit",
+      "does-medicare-cover-medical-nutritional-therapy",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-cologuard",
+      "medicare-coverage-for-cancer",
+    ],
+  },
+  {
     slug: "does-medicare-cover-dental-implants",
     seo: {
       title: "Does Medicare Cover Dental Implants?",
