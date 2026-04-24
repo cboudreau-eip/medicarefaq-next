@@ -131,6 +131,129 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
   },
   {
+    slug: "does-medicare-cover-knee-replacement",
+    seo: {
+      title: "Does Medicare Cover Knee Replacement Surgery?",
+      description: "Yes — Medicare covers knee replacement surgery when medically necessary. Part A covers the hospital stay and Part B covers surgeon fees. See what you'll pay in 2026.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-knee-replacement/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Knee Replacement Surgery?",
+    subtitle: "Yes. Medicare covers knee replacement surgery when it is medically necessary. Part A covers the hospital stay and Part B covers surgeon fees and follow-up care. Most patients pay 20% coinsurance after meeting their deductibles.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Yes. Medicare covers knee replacement surgery when it is medically necessary. Medicare Part A covers the inpatient hospital stay, including the operating room, anesthesia, and nursing care. Medicare Part B covers surgeon fees, pre-op visits, and outpatient follow-up care. You pay 20% coinsurance after meeting your deductibles.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Part A covers the hospital stay; Part B covers surgeon fees and outpatient follow-up" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must use in-network providers; copays and cost-sharing vary by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part A coinsurance and Part B 20% coinsurance, reducing your out-of-pocket costs" },
+      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "Covers pain medications and post-surgery prescriptions" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers the inpatient hospital stay for knee replacement surgery, including the operating room, anesthesia, nursing care, and any inpatient rehabilitation. You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers the surgeon's fees, pre-operative visits, and outpatient physical therapy after surgery. After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount for these services. As same-day outpatient knee replacements become more common, Part B also covers the procedure when performed in an approved outpatient setting.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) cover knee replacement surgery, but you must use in-network hospitals and surgeons. Copays and cost-sharing vary by plan. Always verify that your surgeon and facility are in-network before scheduling your procedure to avoid unexpected costs.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "A [Medigap plan](/medicare-supplements/plan-g) such as Plan G covers the Part A hospital coinsurance and the Part B 20% coinsurance, significantly reducing your out-of-pocket costs for both the surgery and your recovery. Because knee replacement involves both inpatient and outpatient costs, Medigap coverage can save you thousands of dollars.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover both knees if I need bilateral replacement?",
+        answer: "Yes, Medicare can cover bilateral knee replacement, though it may be performed as two separate procedures. Medical necessity must be documented for each knee.",
+      },
+      {
+        question: "Does Medicare cover outpatient knee replacement?",
+        answer: "Yes. As same-day outpatient knee replacements become more common, Medicare Part B covers the procedure when performed in an approved outpatient setting.",
+      },
+      {
+        question: "Does Medicare cover physical therapy after knee replacement?",
+        answer: "Yes. Medicare Part B covers medically necessary physical therapy following knee replacement surgery.",
+      },
+      {
+        question: "How much will I pay for knee replacement with Medicare?",
+        answer: "You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay, plus 20% of Part B-covered costs for surgeon fees and follow-up care. A Medigap plan can cover most of this.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare</strong> covers knee replacement when medically necessary" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> covers it; use in-network providers" },
+      { icon: "check", text: "<strong>Medigap</strong> covers your Part A and Part B cost-sharing" },
+      { icon: "info", text: "Part B also covers outpatient knee replacement and post-op physical therapy" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Anesthesia?", description: "Learn when Medicare covers anesthesia and what you can expect to pay.", slug: "does-medicare-cover-anesthesia" },
+      { title: "Does Medicare Cover Robotic Surgery?", description: "Find out if Medicare covers robotic-assisted surgical procedures.", slug: "does-medicare-cover-robotic-surgery" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+      { title: "Does Medicare Cover Home Health Care?", description: "Find out when Medicare covers skilled nursing and therapy at home after surgery.", slug: "does-medicare-cover-home-health-care" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Anesthesia",
+      "Does Medicare Cover Robotic Surgery",
+      "Does Medicare Cover Second Opinions",
+      "Does Medicare Cover Home Health Care",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers knee replacement surgery and more.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-anesthesia",
+      "does-medicare-cover-robotic-surgery",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-durable-medical-equipment",
+      "medicare-coverage-for-skilled-nursing-facilities",
+      "medicare-coverage-for-bariatric-surgery",
+      "does-medicare-cover-telehealth",
+    ],
+  },
+  {
     slug: "does-medicare-cover-dental-implants",
     seo: {
       title: "Does Medicare Cover Dental Implants?",
