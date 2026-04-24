@@ -31,8 +31,12 @@ export default function UtilityBar() {
                   nav_section: "utility_bar",
                 })
               }
-              className="text-[#4B5563] hover:text-[#1B2A4A] transition-colors duration-150 font-medium"
+              className="flex items-center gap-1.5 text-[#4B5563] hover:text-[#1B2A4A] transition-colors duration-150 font-medium"
             >
+              <span
+                className="w-1.5 h-1.5 rounded-full shrink-0"
+                style={{ backgroundColor: link.color }}
+              />
               {link.title}
             </Link>
           ))}

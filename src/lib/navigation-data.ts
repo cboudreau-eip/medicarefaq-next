@@ -329,10 +329,10 @@ export const navigationData: NavCategory[] = [
 ];
 
 export const utilityLinks = [
-  { title: "About Us", href: "/about-us" },
-  { title: "Blog", href: "/blog" },
-  { title: "Coverage FAQs", href: "/faqs" },
-  { title: "Contact", href: "/contact" },
+  { title: "About Us", href: "/about-us", color: "#1B2A4A" },
+  { title: "Blog", href: "/blog", color: "#4F46E5" },
+  { title: "Coverage FAQs", href: "/faqs", color: "#059669" },
+  { title: "Contact", href: "/contact", color: "#C41230" },
 ];
 
 export const trustBadges = [
