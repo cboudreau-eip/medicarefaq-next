@@ -8,6 +8,129 @@ import type { CoverageArticleData } from "./article-types";
 
 export const coverageArticles: CoverageArticleData[] = [
   {
+    slug: "does-medicare-cover-telehealth",
+    seo: {
+      title: "Does Medicare Cover Telehealth?",
+      description: "Yes — Medicare Part B covers telehealth visits including doctor visits, mental health therapy, and preventive screenings. Through Dec. 31, 2027, you can receive telehealth from home anywhere in the U.S.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-telehealth/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Telehealth?",
+    subtitle: "Yes. Medicare Part B covers telehealth visits including doctor visits, mental health therapy, and certain preventive screenings. Through December 31, 2027, you can receive telehealth from anywhere in the U.S., including your home.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Yes. Medicare Part B covers telehealth services — including office visits, mental health therapy, and preventive screenings. Through December 31, 2027, you can receive covered telehealth from your home or anywhere in the U.S. You pay 20% of the Medicare-approved amount after the Part B deductible, the same as an in-person visit.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Part B covers eligible telehealth services through Dec. 31, 2027; you pay 20% after the deductible" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered + Extras", icon: "heart", notes: "Often $0 copay; many plans add remote monitoring and expanded virtual benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Pays your Part B 20% coinsurance for any telehealth visit Original Medicare covers" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Telehealth is a service, not a drug; prescriptions ordered via telehealth still run through Part D" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-costs) covers a wide range of telehealth services, including office visits, mental health therapy, preventive screenings, chronic care management, and more. Through December 31, 2027, you can receive these visits from your home or any location in the U.S. under the flexibilities extended by the Consolidated Appropriations Act, 2026.",
+          "After you meet the [Part B deductible](/original-medicare/medicare-costs), you pay 20% of the Medicare-approved amount — the same cost-sharing as an in-person visit. Mental health and behavioral health telehealth from home is permanently covered with no geographic restrictions.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered + Extras",
+        coverageType: "covered",
+        paragraphs: [
+          "Most [Medicare Advantage plans](/medicare-advantage) cover telehealth, often with $0 or reduced copays. Many plans go beyond Original Medicare by adding benefits such as remote patient monitoring, virtual urgent care, and expanded behavioral health visits. Check your plan's Evidence of Coverage or call your plan to confirm your specific telehealth benefits.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "A [Medigap plan](/medicare-supplements/plan-g) does not add new telehealth services, but it pays your share of the cost for any telehealth visit that Original Medicare covers. For example, [Plan G](/medicare-supplements/plan-g) covers the Part B 20% coinsurance, so your out-of-pocket cost for a covered telehealth visit after the deductible is $0.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover telehealth from home?",
+        answer: "Yes. Through December 31, 2027, you can receive Medicare-covered telehealth from your home anywhere in the U.S. Mental health and behavioral health telehealth from home is permanently covered.",
+      },
+      {
+        question: "Does Medicare cover audio-only (phone) telehealth?",
+        answer: "Yes, for many services — especially mental and behavioral health — when video technology is not available or practical.",
+      },
+      {
+        question: "How much does a Medicare telehealth visit cost?",
+        answer: "After the Part B deductible, you pay 20% of the Medicare-approved amount, the same as an in-person visit. A Medigap plan can cover that 20%.",
+      },
+      {
+        question: "Will Medicare still cover telehealth after 2027?",
+        answer: "Behavioral and mental health telehealth from home is permanent. Other home-based telehealth is extended through December 31, 2027 and depends on future Congressional action.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare</strong> covers telehealth services through Dec. 31, 2027" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> often offers $0 telehealth visits" },
+      { icon: "check", text: "<strong>Medigap</strong> pays your 20% Part B coinsurance" },
+      { icon: "info", text: "Mental health telehealth from home is <strong>permanently</strong> covered" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including therapy, counseling, and inpatient care.", slug: "medicare-coverage-for-mental-health" },
+      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Mental Health Services",
+      "What Is the Medicare Annual Wellness Visit",
+      "Does Medicare Cover Medical Nutrition Therapy",
+      "Does Medicare Cover Second Opinions",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers telehealth and more.",
+    },
+    relatedSlugs: [
+      "medicare-coverage-for-mental-health",
+      "what-is-the-medicare-annual-wellness-visit",
+      "does-medicare-cover-medical-nutritional-therapy",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-alzheimers-care",
+      "report-medicare-fraud",
+      "medicare-and-vision-dental-and-hearing-what-are-your-options",
+    ],
+  },
+  {
     slug: "does-medicare-cover-dental-implants",
     seo: {
       title: "Does Medicare Cover Dental Implants?",
