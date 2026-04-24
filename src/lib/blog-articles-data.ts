@@ -692,7 +692,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     seo: {
     title: "How Medigap Plans Affect Your Overall Medicare Costs | MedicareFAQ",
-    description: "Learn how Medigap plans help control your Medicare costs by covering deductibles and coinsurance. Compare plans to reduce your financial risk.",
+    description: "Learn how Medigap plans help control your Medicare costs by covering deductibles and coinsurance. Compare plans to reduce your financial risk in 2026.",
     canonical: "https://www.medicarefaq.com/blog/how-medigap-plans-affect-your-overall-medicare-costs/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-Medigap-Plans-Affect-Your-Overall-Costs.jpg",
   },
