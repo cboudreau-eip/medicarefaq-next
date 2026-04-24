@@ -60,7 +60,55 @@ const nextConfig: NextConfig = {
       {
         source: "/compare-rates",
         destination: "/medicare-supplements",
-        permanent: true, // 301 redirect
+        permanent: true,
+      },
+
+      // ── Old /medicare-supplements/medicare-supplement-plans/:slug → /medicare-supplements/:slug ──
+      {
+        source: "/medicare-supplements/medicare-supplement-plans/:slug",
+        destination: "/medicare-supplements/:slug",
+        permanent: true,
+      },
+
+      // ── Old /medicare-supplements/medicare-supplement-carriers index ──
+      {
+        source: "/medicare-supplements/medicare-supplement-carriers",
+        destination: "/medicare-supplements/medigap-by-carrier",
+        permanent: true,
+      },
+
+      // ── Old /medicare-supplements/compare-medigap-plans ──
+      {
+        source: "/medicare-supplements/compare-medigap-plans",
+        destination: "/medicare-supplements/compare",
+        permanent: true,
+      },
+
+      // ── Old carrier slugs ──
+      {
+        source: "/medicare-supplements/medicare-supplement-carriers/aetna",
+        destination: "/medicare-supplements/medigap-by-carrier/aetna-medicare-supplement-plans",
+        permanent: true,
+      },
+      {
+        source: "/medicare-supplements/medicare-supplement-carriers/cigna",
+        destination: "/medicare-supplements/medigap-by-carrier/cigna-medigap-plans",
+        permanent: true,
+      },
+      {
+        source: "/medicare-supplements/medicare-supplement-carriers/humana",
+        destination: "/medicare-supplements/medigap-by-carrier/humana-medigap-plans",
+        permanent: true,
+      },
+      {
+        source: "/medicare-supplements/medicare-supplement-carriers/mutual-of-omaha",
+        destination: "/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans",
+        permanent: true,
+      },
+      {
+        source: "/medicare-supplements/medicare-supplement-carriers/unitedhealthcare",
+        destination: "/medicare-supplements/medigap-by-carrier/united-healthcare-medigap-plans",
+        permanent: true,
       },
     ];
   },
