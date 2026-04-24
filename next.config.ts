@@ -159,6 +159,15 @@ const nextConfig: NextConfig = {
       { source: "/original-medicare/medicare-parts/medicare-part-d/part-d-coverage-gap", destination: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-coverage-gap", permanent: true },
       { source: "/original-medicare/medicare-parts/medicare-part-d/part-d-eligibility", destination: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-eligibility", permanent: true },
       { source: "/original-medicare/medicare-parts/medicare-part-d/part-d-enrollment-periods", destination: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods", permanent: true },
+
+      // ── Blog 404s — old URLs never migrated to new site ──
+      { source: "/blog/best-medicare-supplement-companies", destination: "/faqs/top-10-medicare-supplement-insurance-companies", permanent: true },
+      { source: "/blog/costs-of-not-having-insurance", destination: "/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained", permanent: true },
+      { source: "/blog/medicare-supplement-plan-g-benefits", destination: "/medicare-supplements/plan-g", permanent: true },
+      { source: "/blog/medicare-supplement-plan-g-cost", destination: "/medicare-supplements/plan-g", permanent: true },
+      { source: "/blog/medicare-supplement-plan-g-reviews", destination: "/faqs/medicare-plan-g-reviews", permanent: true },
+      { source: "/blog/medicare-supplement-plan-g-vs-plan-f", destination: "/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n", permanent: true },
+      { source: "/blog/medicare-supplement-plan-g-vs-plan-n", destination: "/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n", permanent: true },
     ];
   },
   async headers() {
