@@ -19774,4 +19774,247 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-end-stage-renal-disease",
     ],
   },
+  {
+    slug: "what-is-a-medicare-part-d-formulary",
+    seo: {
+      title: "What Is a Medicare Part D Formulary?",
+      description: "A Medicare Part D formulary is the list of prescription drugs covered by your plan. Learn how formularies work, what tiers mean, and how to find your medications.",
+      canonical: "https://www.medicarefaq.com/faqs/what-is-a-medicare-part-d-formulary/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "What Is a Medicare Part D Formulary?",
+    subtitle: "A Medicare Part D formulary is the official list of prescription drugs covered by your plan. Every Part D plan — including standalone drug plans and Medicare Advantage plans with drug coverage — has its own formulary. Your cost for each drug depends on which tier it falls into.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "A Medicare Part D formulary is the list of covered prescription drugs for a specific plan. Drugs are grouped into tiers — typically 5 — with lower tiers costing less and higher tiers costing more. Every Part D plan must cover drugs in six protected classes, but plans can choose which other drugs to include. You should always check that your medications are on a plan's formulary before enrolling.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medicare Part D", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part D (Standalone)", coverage: "Covered", icon: "filetext", notes: "Each plan has its own formulary; tiers determine your copay or coinsurance" },
+      { planType: "Medicare Advantage with Part D (MAPD)", coverage: "Covered", icon: "heart", notes: "MA-PD plans have their own formulary; must meet same CMS requirements" },
+      { planType: "Original Medicare (Part A & B)", coverage: "Not Applicable", icon: "shield", notes: "Original Medicare does not cover most outpatient prescription drugs" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Applicable", icon: "users", notes: "Medigap does not cover drugs; you need a separate Part D plan" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "How Formulary Tiers Work",
+        icon: "filetext",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Tiered Coverage",
+        coverageType: "covered",
+        paragraphs: [
+          "Most Part D formularies use a 5-tier structure. Tier 1 covers preferred generic drugs at the lowest cost. Tier 2 covers non-preferred generics. Tier 3 covers preferred brand-name drugs. Tier 4 covers non-preferred brand-name drugs at a higher cost. Tier 5 covers specialty drugs — typically high-cost biologics and specialty medications — at the highest cost-sharing level.",
+          "Your copay or coinsurance for each drug depends on its tier and your plan's specific cost structure. Always check the plan's formulary before enrolling to confirm your medications are covered and at what tier.",
+        ],
+      },
+      {
+        planName: "Formulary Protections and Exceptions",
+        icon: "shield",
+        iconColor: "#059669",
+        coverageLabel: "Protected",
+        coverageType: "covered",
+        paragraphs: [
+          "All Part D plans must cover [all or substantially all drugs in six protected classes](/faqs/medicare-part-d-six-protected-classes): antidepressants, antipsychotics, anticonvulsants, antiretrovirals, immunosuppressants, and antineoplastics. For other drugs, plans have flexibility in what they include.",
+          "If your drug is not on a plan's formulary, you can request a formulary exception. Your doctor must provide documentation that the drug is medically necessary. Plans are required to respond to exception requests within 72 hours (or 24 hours for urgent requests).",
+        ],
+      },
+      {
+        planName: "Checking Your Formulary",
+        icon: "heart",
+        iconColor: "#D97706",
+        coverageLabel: "Action Required",
+        coverageType: "partial",
+        paragraphs: [
+          "You can find a plan's formulary on Medicare.gov's Plan Finder tool or directly on the plan's website. Enter your medications to see which plans cover them and at what cost. Plans can change their formularies each year, so it is important to review your coverage during the Annual Enrollment Period (October 15 – December 7) each year.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What happens if my drug is not on my Part D formulary?",
+        answer: "You can request a formulary exception with documentation from your doctor. You can also switch to a plan that covers your drug during the Annual Enrollment Period.",
+      },
+      {
+        question: "Can a Part D plan change its formulary mid-year?",
+        answer: "Plans can make certain formulary changes mid-year, but they must give you 60 days' notice before removing a drug or moving it to a higher tier. Drugs in the six protected classes have stronger mid-year stability protections.",
+      },
+      {
+        question: "What is a tier exception in Medicare Part D?",
+        answer: "A tier exception is a request to have your drug covered at a lower cost-sharing tier. Your doctor must show the lower-tier drug is not appropriate for your condition.",
+      },
+      {
+        question: "How do I find out if my drug is covered by a Part D plan?",
+        answer: "Use the Medicare Plan Finder at Medicare.gov, enter your medications, and compare which plans cover them and at what cost tier.",
+      },
+    ],
+    quickReference: [
+      { icon: "info", text: "Formularies are organized into <strong>5 tiers</strong> — lower tiers cost less" },
+      { icon: "check", text: "All plans must cover <strong>six protected drug classes</strong>" },
+      { icon: "alert", text: "<strong>Check your formulary</strong> before enrolling and each Annual Enrollment Period" },
+      { icon: "info", text: "You can request a <strong>formulary exception</strong> if your drug is not covered" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Part D Six Protected Classes", description: "Learn which drug classes every Part D plan must cover.", slug: "medicare-part-d-six-protected-classes" },
+      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including psychiatric medications.", slug: "medicare-coverage-for-mental-health" },
+      { title: "Does Medicare Cover Cancer?", description: "Learn what Medicare covers for cancer treatment, including chemotherapy.", slug: "medicare-coverage-for-cancer" },
+      { title: "Your Medicare Rights and Protections", description: "Learn about your rights as a Medicare beneficiary, including appeal rights.", slug: "your-medicare-rights-and-protections" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Part D Six Protected Classes",
+      "Does Medicare Cover Mental Health Services",
+      "Does Medicare Cover Cancer",
+      "Your Medicare Rights and Protections",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Part D Plan?",
+      text: "Our licensed agents can help you find a plan that covers your medications at the lowest cost.",
+    },
+    relatedSlugs: [
+      "medicare-part-d-six-protected-classes",
+      "medicare-coverage-for-mental-health",
+      "medicare-coverage-for-cancer",
+      "your-medicare-rights-and-protections",
+      "medicare-coverage-for-disabled-under-65",
+      "does-medicare-cover-end-stage-renal-disease",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-botox",
+    seo: {
+      title: "Does Medicare Cover Botox?",
+      description: "Medicare may cover Botox injections when medically necessary — such as for chronic migraines, muscle spasticity, or overactive bladder. Cosmetic Botox is not covered. Learn more.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-botox/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Botox?",
+    subtitle: "Medicare may cover Botox (onabotulinumtoxinA) injections when they are medically necessary to treat a covered condition. Medicare does not cover Botox for cosmetic purposes such as reducing wrinkles.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers Botox injections when they are medically necessary to treat chronic migraines (15 or more headache days per month), upper or lower limb spasticity, cervical dystonia, overactive bladder, or hyperhidrosis. Botox for cosmetic purposes — such as wrinkle reduction — is never covered. When covered, you pay 20% of the Medicare-approved amount after the Part B deductible.",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Partial", icon: "shield", notes: "Part B covers medically necessary Botox; cosmetic use is never covered" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Partial", icon: "heart", notes: "Must cover medically necessary Botox; check plan for in-network providers" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part B 20% coinsurance when Botox is covered by Original Medicare" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Botox is administered in a clinical setting under Part B, not Part D" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Partial",
+        coverageType: "partial",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers Botox injections when administered by a physician for a medically necessary condition. Covered conditions include: chronic migraines (defined as 15 or more headache days per month, with at least 8 being migraines), upper and lower limb spasticity, cervical dystonia (abnormal head position and neck pain), overactive bladder, and primary hyperhidrosis (excessive sweating).",
+          "Botox must be prescribed and administered by a Medicare-participating provider. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($257 in 2026), you pay 20% of the Medicare-approved amount. Botox for cosmetic purposes — including wrinkle reduction or facial aesthetics — is explicitly excluded from Medicare coverage.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Partial",
+        coverageType: "partial",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) are required to cover medically necessary Botox under the same conditions as Original Medicare. Your cost-sharing may differ from Original Medicare depending on your plan. Always verify that the administering provider is in-network to avoid higher out-of-pocket costs.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "A [Medigap plan](/medicare-supplements/plan-g) such as Plan G covers the Part B 20% coinsurance for Botox injections when they are covered by Original Medicare. If you receive Botox regularly for a chronic condition such as migraines, Medigap can meaningfully reduce your out-of-pocket costs over time.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover Botox for migraines?",
+        answer: "Yes. Medicare Part B covers Botox for chronic migraines when you have 15 or more headache days per month, with at least 8 qualifying as migraines, and other treatments have not been effective.",
+      },
+      {
+        question: "Does Medicare cover Botox for cosmetic use?",
+        answer: "No. Medicare never covers Botox for cosmetic purposes such as wrinkle reduction or facial aesthetics. Coverage is limited to medically necessary conditions.",
+      },
+      {
+        question: "Does Medicare cover Botox for overactive bladder?",
+        answer: "Yes. Medicare Part B covers Botox injections for overactive bladder when other treatments such as medications have not provided adequate relief.",
+      },
+      {
+        question: "How much does Botox cost with Medicare?",
+        answer: "After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20% coinsurance.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Covered</strong> for chronic migraines, spasticity, cervical dystonia, overactive bladder" },
+      { icon: "alert", text: "<strong>Not covered</strong> for cosmetic use — wrinkle reduction is always excluded" },
+      { icon: "info", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible when covered" },
+      { icon: "info", text: "A <strong>Medigap plan</strong> can cover the 20% coinsurance" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Anesthesia?", description: "Learn how Medicare covers anesthesia for procedures including Botox administration.", slug: "does-medicare-cover-anesthesia" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions for chronic conditions.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including related neurological conditions.", slug: "medicare-coverage-for-mental-health" },
+      { title: "Does Medicare Cover Robotic Surgery?", description: "Learn what Medicare covers for robotic and minimally invasive procedures.", slug: "does-medicare-cover-robotic-surgery" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Anesthesia",
+      "Does Medicare Cover Second Opinions",
+      "Does Medicare Cover Mental Health Services",
+      "Does Medicare Cover Robotic Surgery",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers your medical needs.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-anesthesia",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "medicare-coverage-for-mental-health",
+      "does-medicare-cover-robotic-surgery",
+      "does-medicare-cover-knee-replacement",
+      "does-medicare-cover-varicose-veins",
+    ],
+  },
 ];
