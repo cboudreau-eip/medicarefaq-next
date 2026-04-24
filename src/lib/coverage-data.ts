@@ -19166,4 +19166,248 @@ export const coverageArticles: CoverageArticleData[] = [
       "medicare-coverage-for-cancer",
     ],
   },
+  {
+    slug: "medicare-coverage-for-mental-health",
+    seo: {
+      title: "Does Medicare Cover Mental Health Services?",
+      description: "Yes — Medicare covers mental health services including therapy, counseling, psychiatric care, and inpatient treatment. Learn what's covered, who qualifies, and what you'll pay in 2026.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-mental-health/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Mental Health Services?",
+    subtitle: "Yes. Medicare covers a wide range of mental health services, including outpatient therapy, psychiatric evaluations, inpatient psychiatric care, and substance use disorder treatment. Coverage is split between Part A (inpatient) and Part B (outpatient).",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "4 min read",
+    quickAnswer: {
+      text: "Yes. Medicare covers mental health services under both Part A and Part B. Part B covers outpatient therapy, psychiatric evaluations, depression screenings, and substance use disorder treatment. Part A covers inpatient psychiatric hospital stays. Telehealth mental health visits from home are permanently covered with no geographic restrictions. You pay 20% of the Medicare-approved amount after the Part B deductible for outpatient services.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Part B covers outpatient therapy and psychiatric care; Part A covers inpatient psychiatric stays" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover all Medicare mental health benefits; many plans offer additional behavioral health services" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part B 20% coinsurance and Part A inpatient cost-sharing for mental health services" },
+      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "Covers psychiatric medications such as antidepressants, antipsychotics, and mood stabilizers" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers outpatient mental health services, including individual and group psychotherapy, psychiatric evaluations, depression screenings, alcohol misuse counseling, and substance use disorder treatment. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($257 in 2026), you pay 20% of the Medicare-approved amount for these services.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers inpatient psychiatric hospital stays, up to 190 days in a lifetime in a freestanding psychiatric facility. Telehealth mental health visits from home are permanently covered under Medicare with no geographic restrictions, making it easier to access care from anywhere in the U.S.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) are required to cover all Medicare mental health benefits and often provide additional behavioral health services. Many plans offer $0 or low-cost telehealth therapy visits, expanded substance use disorder programs, and care coordination for mental health conditions. Check your plan's Evidence of Coverage for details.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "A [Medigap plan](/medicare-supplements/plan-g) such as Plan G covers the Part B 20% coinsurance for outpatient mental health visits and the Part A inpatient cost-sharing for psychiatric stays. This can significantly reduce your out-of-pocket costs if you require ongoing therapy or an inpatient admission.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover therapy and counseling?",
+        answer: "Yes. Medicare Part B covers individual and group psychotherapy, psychiatric evaluations, and counseling when provided by a licensed mental health professional who accepts Medicare.",
+      },
+      {
+        question: "Does Medicare cover telehealth mental health visits?",
+        answer: "Yes, and this coverage is permanent. You can receive Medicare-covered mental health telehealth visits from your home with no geographic restrictions, including audio-only visits when video is not available.",
+      },
+      {
+        question: "Does Medicare cover inpatient psychiatric care?",
+        answer: "Yes. Medicare Part A covers inpatient stays in a psychiatric hospital, up to a lifetime limit of 190 days in a freestanding psychiatric facility. General hospital psychiatric units have no lifetime day limit.",
+      },
+      {
+        question: "Does Medicare cover substance use disorder treatment?",
+        answer: "Yes. Medicare Part B covers opioid treatment programs, alcohol misuse counseling, and other substance use disorder services. Part D covers related medications such as buprenorphine.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Part B</strong> covers outpatient therapy, psychiatric evaluations, and depression screenings" },
+      { icon: "check", text: "<strong>Part A</strong> covers inpatient psychiatric hospital stays" },
+      { icon: "check", text: "Mental health <strong>telehealth from home</strong> is permanently covered" },
+      { icon: "info", text: "<strong>Part D</strong> covers psychiatric medications including antidepressants and antipsychotics" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including mental health therapy via telehealth.", slug: "does-medicare-cover-telehealth" },
+      { title: "Does Medicare Cover Alzheimer's Care?", description: "Learn what Medicare covers for Alzheimer's disease and memory care.", slug: "does-medicare-cover-alzheimers-care" },
+      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Telehealth",
+      "Does Medicare Cover Alzheimer's Care",
+      "What Is the Medicare Annual Wellness Visit",
+      "Does Medicare Cover Second Opinions",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers mental health services and more.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-telehealth",
+      "does-medicare-cover-alzheimers-care",
+      "does-medicare-cover-memory-care",
+      "what-is-the-medicare-annual-wellness-visit",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "medicare-coverage-for-alcohol-misuse",
+      "does-medicare-cover-home-health-care",
+    ],
+  },
+  {
+    slug: "what-is-the-medicare-annual-wellness-visit",
+    seo: {
+      title: "What Is the Medicare Annual Wellness Visit?",
+      description: "The Medicare Annual Wellness Visit is a free yearly preventive visit to create or update your personalized prevention plan. Learn what's included and how to schedule one.",
+      canonical: "https://www.medicarefaq.com/faqs/what-is-the-medicare-annual-wellness-visit/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "What Is the Medicare Annual Wellness Visit?",
+    subtitle: "The Medicare Annual Wellness Visit (AWV) is a free yearly appointment covered by Medicare Part B. It is not a physical exam but a personalized prevention planning session to help you stay healthy and catch potential issues early.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "The Medicare Annual Wellness Visit is a free preventive appointment covered by Medicare Part B once every 12 months. It includes a health risk assessment, review of your medical and family history, a personalized prevention plan, and referrals for recommended screenings. There is no copay or coinsurance when you see a participating provider. It is not the same as a routine physical exam.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "$0 cost once every 12 months; no deductible or coinsurance when billed as a preventive visit" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Required to cover the AWV at $0; many plans offer additional wellness benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "No Cost-Sharing Needed", icon: "users", notes: "No out-of-pocket cost for the AWV itself; Medigap not needed for this visit" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "The AWV is a service, not a prescription; medications discussed may be covered under Part D" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers the Annual Wellness Visit once every 12 months at no cost to you. The visit includes a health risk assessment, review of your medical and family history, a current list of providers and medications, blood pressure and other routine measurements, personalized health advice, and a schedule of appropriate preventive screenings and referrals.",
+          "Note that the AWV is not a head-to-toe physical exam. If your doctor performs additional services during the same visit, you may be billed separately for those services and standard [Part B cost-sharing](/original-medicare/medicare-costs) will apply.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) are required to cover the Annual Wellness Visit at $0 cost-sharing. Many plans also offer additional wellness benefits such as fitness programs, nutrition counseling, and chronic disease management that go beyond the standard AWV.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "No Cost-Sharing Needed",
+        coverageType: "covered",
+        paragraphs: [
+          "Because the Annual Wellness Visit has no cost-sharing under Original Medicare, a [Medigap plan](/medicare-supplements/plan-g) is not needed to cover the visit itself. However, if additional services are performed during the same appointment, Medigap can help cover the Part B coinsurance for those services.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is the Annual Wellness Visit the same as a physical exam?",
+        answer: "No. The AWV is a preventive planning session, not a full physical. If you want a physical exam, ask your doctor to schedule it separately; standard Part B cost-sharing will apply.",
+      },
+      {
+        question: "How often can I get the Medicare Annual Wellness Visit?",
+        answer: "Once every 12 months. You must wait at least 12 months after your previous AWV or your Welcome to Medicare visit before Medicare will cover another one.",
+      },
+      {
+        question: "Is there a cost for the Annual Wellness Visit?",
+        answer: "No. The AWV is free when billed as a preventive visit by a participating provider. If additional services are performed at the same visit, you may owe cost-sharing for those.",
+      },
+      {
+        question: "What is the Welcome to Medicare visit?",
+        answer: "The Welcome to Medicare Preventive Visit is a one-time visit covered in your first 12 months of Part B enrollment. It is similar to the AWV and is also covered at no cost.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Free once every 12 months</strong> under Medicare Part B" },
+      { icon: "check", text: "No deductible, copay, or coinsurance when billed as a preventive visit" },
+      { icon: "info", text: "Not a physical exam — it is a <strong>personalized prevention planning</strong> session" },
+      { icon: "info", text: "Additional services performed at the same visit may have separate cost-sharing" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including wellness visits via telehealth.", slug: "does-medicare-cover-telehealth" },
+      { title: "Does Medicare Cover Hepatitis C Screening?", description: "Find out who qualifies for free hepatitis C screening under Medicare.", slug: "does-medicare-cover-hepatitis-c-screening" },
+      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
+      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including therapy and counseling.", slug: "medicare-coverage-for-mental-health" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Telehealth",
+      "Does Medicare Cover Hepatitis C Screening",
+      "Does Medicare Cover Medical Nutrition Therapy",
+      "Does Medicare Cover Mental Health Services",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you make the most of your Medicare preventive benefits.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-telehealth",
+      "does-medicare-cover-hepatitis-c-screening",
+      "does-medicare-cover-medical-nutritional-therapy",
+      "medicare-coverage-for-mental-health",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-cologuard",
+      "does-medicare-cover-glaucoma",
+    ],
+  },
 ];
