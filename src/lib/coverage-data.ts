@@ -8,496 +8,6 @@ import type { CoverageArticleData } from "./article-types";
 
 export const coverageArticles: CoverageArticleData[] = [
   {
-    slug: "does-medicare-cover-telehealth",
-    seo: {
-      title: "Does Medicare Cover Telehealth?",
-      description: "Yes — Medicare Part B covers telehealth visits including doctor visits, mental health therapy, and preventive screenings. Through Dec. 31, 2027, you can receive telehealth from home anywhere in the U.S.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-telehealth/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover Telehealth?",
-    subtitle: "Yes. Medicare Part B covers telehealth visits including doctor visits, mental health therapy, and certain preventive screenings. Through December 31, 2027, you can receive telehealth from anywhere in the U.S., including your home.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 24, 2026",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "3 min read",
-    quickAnswer: {
-      text: "Yes. Medicare Part B covers telehealth services — including office visits, mental health therapy, and preventive screenings. Through December 31, 2027, you can receive covered telehealth from your home or anywhere in the U.S. You pay 20% of the Medicare-approved amount after the Part B deductible, the same as an in-person visit.",
-      badges: [
-        { plan: "Original Medicare", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "covered" },
-      ],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Part B covers eligible telehealth services through Dec. 31, 2027; you pay 20% after the deductible" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered + Extras", icon: "heart", notes: "Often $0 copay; many plans add remote monitoring and expanded virtual benefits" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Pays your Part B 20% coinsurance for any telehealth visit Original Medicare covers" },
-      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Telehealth is a service, not a drug; prescriptions ordered via telehealth still run through Part D" },
-    ],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part A & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-costs) covers a wide range of telehealth services, including office visits, mental health therapy, preventive screenings, chronic care management, and more. Through December 31, 2027, you can receive these visits from your home or any location in the U.S. under the flexibilities extended by the Consolidated Appropriations Act, 2026.",
-          "After you meet the [Part B deductible](/original-medicare/medicare-costs), you pay 20% of the Medicare-approved amount — the same cost-sharing as an in-person visit. Mental health and behavioral health telehealth from home is permanently covered with no geographic restrictions.",
-        ],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered + Extras",
-        coverageType: "covered",
-        paragraphs: [
-          "Most [Medicare Advantage plans](/medicare-advantage) cover telehealth, often with $0 or reduced copays. Many plans go beyond Original Medicare by adding benefits such as remote patient monitoring, virtual urgent care, and expanded behavioral health visits. Check your plan's Evidence of Coverage or call your plan to confirm your specific telehealth benefits.",
-        ],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Helps with Cost-Sharing",
-        coverageType: "covered",
-        paragraphs: [
-          "A [Medigap plan](/medicare-supplements/plan-g) does not add new telehealth services, but it pays your share of the cost for any telehealth visit that Original Medicare covers. For example, [Plan G](/medicare-supplements/plan-g) covers the Part B 20% coinsurance, so your out-of-pocket cost for a covered telehealth visit after the deductible is $0.",
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: "Does Medicare cover telehealth from home?",
-        answer: "Yes. Through December 31, 2027, you can receive Medicare-covered telehealth from your home anywhere in the U.S. Mental health and behavioral health telehealth from home is permanently covered.",
-      },
-      {
-        question: "Does Medicare cover audio-only (phone) telehealth?",
-        answer: "Yes, for many services — especially mental and behavioral health — when video technology is not available or practical.",
-      },
-      {
-        question: "How much does a Medicare telehealth visit cost?",
-        answer: "After the Part B deductible, you pay 20% of the Medicare-approved amount, the same as an in-person visit. A Medigap plan can cover that 20%.",
-      },
-      {
-        question: "Will Medicare still cover telehealth after 2027?",
-        answer: "Behavioral and mental health telehealth from home is permanent. Other home-based telehealth is extended through December 31, 2027 and depends on future Congressional action.",
-      },
-    ],
-    quickReference: [
-      { icon: "check", text: "<strong>Original Medicare</strong> covers telehealth services through Dec. 31, 2027" },
-      { icon: "check", text: "<strong>Medicare Advantage</strong> often offers $0 telehealth visits" },
-      { icon: "check", text: "<strong>Medigap</strong> pays your 20% Part B coinsurance" },
-      { icon: "info", text: "Mental health telehealth from home is <strong>permanently</strong> covered" },
-    ],
-    relatedTopics: [
-      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including therapy, counseling, and inpatient care.", slug: "medicare-coverage-for-mental-health" },
-      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
-      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
-      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
-    ],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Mental Health Services",
-      "What Is the Medicare Annual Wellness Visit",
-      "Does Medicare Cover Medical Nutrition Therapy",
-      "Does Medicare Cover Second Opinions",
-    ],
-    ctaBanner: {
-      title: "Need Help Choosing the Right Medicare Plan?",
-      text: "Our licensed agents can help you find a plan that covers telehealth and more.",
-    },
-    relatedSlugs: [
-      "medicare-coverage-for-mental-health",
-      "what-is-the-medicare-annual-wellness-visit",
-      "does-medicare-cover-medical-nutritional-therapy",
-      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
-      "does-medicare-cover-home-health-care",
-      "does-medicare-cover-alzheimers-care",
-      "report-medicare-fraud",
-      "medicare-and-vision-dental-and-hearing-what-are-your-options",
-    ],
-  },
-  {
-    slug: "does-medicare-cover-knee-replacement",
-    seo: {
-      title: "Does Medicare Cover Knee Replacement Surgery?",
-      description: "Yes — Medicare covers knee replacement surgery when medically necessary. Part A covers the hospital stay and Part B covers surgeon fees. See what you'll pay in 2026.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-knee-replacement/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover Knee Replacement Surgery?",
-    subtitle: "Yes. Medicare covers knee replacement surgery when it is medically necessary. Part A covers the hospital stay and Part B covers surgeon fees and follow-up care. Most patients pay 20% coinsurance after meeting their deductibles.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 24, 2026",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "3 min read",
-    quickAnswer: {
-      text: "Yes. Medicare covers knee replacement surgery when it is medically necessary. Medicare Part A covers the inpatient hospital stay, including the operating room, anesthesia, and nursing care. Medicare Part B covers surgeon fees, pre-op visits, and outpatient follow-up care. You pay 20% coinsurance after meeting your deductibles.",
-      badges: [
-        { plan: "Original Medicare", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "covered" },
-      ],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Part A covers the hospital stay; Part B covers surgeon fees and outpatient follow-up" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must use in-network providers; copays and cost-sharing vary by plan" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part A coinsurance and Part B 20% coinsurance, reducing your out-of-pocket costs" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "Covers pain medications and post-surgery prescriptions" },
-    ],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part A & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers the inpatient hospital stay for knee replacement surgery, including the operating room, anesthesia, nursing care, and any inpatient rehabilitation. You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay.",
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers the surgeon's fees, pre-operative visits, and outpatient physical therapy after surgery. After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount for these services. As same-day outpatient knee replacements become more common, Part B also covers the procedure when performed in an approved outpatient setting.",
-        ],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) cover knee replacement surgery, but you must use in-network hospitals and surgeons. Copays and cost-sharing vary by plan. Always verify that your surgeon and facility are in-network before scheduling your procedure to avoid unexpected costs.",
-        ],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Helps with Cost-Sharing",
-        coverageType: "covered",
-        paragraphs: [
-          "A [Medigap plan](/medicare-supplements/plan-g) such as Plan G covers the Part A hospital coinsurance and the Part B 20% coinsurance, significantly reducing your out-of-pocket costs for both the surgery and your recovery. Because knee replacement involves both inpatient and outpatient costs, Medigap coverage can save you thousands of dollars.",
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: "Does Medicare cover both knees if I need bilateral replacement?",
-        answer: "Yes, Medicare can cover bilateral knee replacement, though it may be performed as two separate procedures. Medical necessity must be documented for each knee.",
-      },
-      {
-        question: "Does Medicare cover outpatient knee replacement?",
-        answer: "Yes. As same-day outpatient knee replacements become more common, Medicare Part B covers the procedure when performed in an approved outpatient setting.",
-      },
-      {
-        question: "Does Medicare cover physical therapy after knee replacement?",
-        answer: "Yes. Medicare Part B covers medically necessary physical therapy following knee replacement surgery.",
-      },
-      {
-        question: "How much will I pay for knee replacement with Medicare?",
-        answer: "You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay, plus 20% of Part B-covered costs for surgeon fees and follow-up care. A Medigap plan can cover most of this.",
-      },
-    ],
-    quickReference: [
-      { icon: "check", text: "<strong>Original Medicare</strong> covers knee replacement when medically necessary" },
-      { icon: "check", text: "<strong>Medicare Advantage</strong> covers it; use in-network providers" },
-      { icon: "check", text: "<strong>Medigap</strong> covers your Part A and Part B cost-sharing" },
-      { icon: "info", text: "Part B also covers outpatient knee replacement and post-op physical therapy" },
-    ],
-    relatedTopics: [
-      { title: "Does Medicare Cover Anesthesia?", description: "Learn when Medicare covers anesthesia and what you can expect to pay.", slug: "does-medicare-cover-anesthesia" },
-      { title: "Does Medicare Cover Robotic Surgery?", description: "Find out if Medicare covers robotic-assisted surgical procedures.", slug: "does-medicare-cover-robotic-surgery" },
-      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
-      { title: "Does Medicare Cover Home Health Care?", description: "Find out when Medicare covers skilled nursing and therapy at home after surgery.", slug: "does-medicare-cover-home-health-care" },
-    ],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Anesthesia",
-      "Does Medicare Cover Robotic Surgery",
-      "Does Medicare Cover Second Opinions",
-      "Does Medicare Cover Home Health Care",
-    ],
-    ctaBanner: {
-      title: "Need Help Choosing the Right Medicare Plan?",
-      text: "Our licensed agents can help you find a plan that covers knee replacement surgery and more.",
-    },
-    relatedSlugs: [
-      "does-medicare-cover-anesthesia",
-      "does-medicare-cover-robotic-surgery",
-      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
-      "does-medicare-cover-home-health-care",
-      "does-medicare-cover-durable-medical-equipment",
-      "medicare-coverage-for-skilled-nursing-facilities",
-      "medicare-coverage-for-bariatric-surgery",
-      "does-medicare-cover-telehealth",
-    ],
-  },
-  {
-    slug: "does-medicare-cover-podiatry",
-    seo: {
-      title: "Does Medicare Cover Podiatry?",
-      description: "Medicare covers podiatry visits when they are medically necessary, such as for diabetic foot care or treatment of injuries. Routine foot care is generally not covered. Learn more.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-podiatry/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover Podiatry?",
-    subtitle: "Medicare covers podiatry visits when they are medically necessary, such as treatment for diabetic foot conditions, injuries, or infections. Routine foot care like nail trimming is generally not covered unless you have a qualifying condition.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 24, 2026",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "3 min read",
-    quickAnswer: {
-      text: "Medicare Part B covers podiatry services that are medically necessary, including treatment for foot injuries, infections, and diabetic foot care. Routine foot care such as trimming of non-problematic toenails is generally not covered unless you have a qualifying systemic condition like diabetes or peripheral vascular disease. You pay 20% of the Medicare-approved amount after the Part B deductible.",
-      badges: [
-        { plan: "Original Medicare", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "covered" },
-      ],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Part A & B)", coverage: "Partial", icon: "shield", notes: "Part B covers medically necessary podiatry; routine nail trimming generally not covered" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Varies by Plan", icon: "heart", notes: "Many plans cover additional foot care benefits; check your plan's Evidence of Coverage" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part B 20% coinsurance for any podiatry visit Original Medicare approves" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover medications prescribed for foot infections or diabetic foot conditions" },
-    ],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part A & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Partial",
-        coverageType: "partial",
-        paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers podiatry services that are medically necessary. This includes treatment for foot injuries, infections, plantar fasciitis, heel spurs, and diabetic foot care. If you have diabetes or a condition affecting circulation in your feet, Medicare also covers routine foot care such as nail trimming when performed by a podiatrist as part of your treatment plan.",
-          "Routine foot care that is not related to a medical condition is generally not covered. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($257 in 2026), you pay 20% of the Medicare-approved amount for covered podiatry visits.",
-        ],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        paragraphs: [
-          "Many [Medicare Advantage plans](/medicare-advantage) cover the same podiatry services as Original Medicare and may offer additional foot care benefits. Coverage and copays vary by plan. Review your plan's Evidence of Coverage or call your plan to confirm what podiatry services are included.",
-        ],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Helps with Cost-Sharing",
-        coverageType: "covered",
-        paragraphs: [
-          "A [Medigap plan](/medicare-supplements/plan-g) does not expand which podiatry services are covered, but it pays your cost-sharing for any visit that Original Medicare approves. [Plan G](/medicare-supplements/plan-g) covers the Part B 20% coinsurance, reducing your out-of-pocket cost to $0 after the deductible.",
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: "Does Medicare cover routine foot care like nail trimming?",
-        answer: "Generally no, unless you have a qualifying condition such as diabetes or peripheral vascular disease that makes routine foot care medically necessary.",
-      },
-      {
-        question: "Does Medicare cover diabetic foot care?",
-        answer: "Yes. Medicare Part B covers therapeutic shoe inserts and foot exams for people with diabetes, as well as routine nail care when it is part of a diabetic foot treatment plan.",
-      },
-      {
-        question: "Does Medicare cover orthotics or custom shoe inserts?",
-        answer: "Yes. Medicare Part B covers one pair of therapeutic shoes or inserts per calendar year for beneficiaries with diabetes.",
-      },
-      {
-        question: "How much does a podiatry visit cost with Medicare?",
-        answer: "After the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%.",
-      },
-    ],
-    quickReference: [
-      { icon: "alert", text: "<strong>Original Medicare</strong> covers medically necessary podiatry; routine care generally not covered" },
-      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
-      { icon: "check", text: "<strong>Medigap</strong> covers your Part B 20% coinsurance" },
-      { icon: "info", text: "Diabetic foot care and therapeutic shoes are covered under Part B" },
-    ],
-    relatedTopics: [
-      { title: "Does Medicare Cover Knee Replacement Surgery?", description: "Learn how Medicare covers knee replacement and what you will pay.", slug: "does-medicare-cover-knee-replacement" },
-      { title: "Does Medicare Cover Durable Medical Equipment?", description: "Find out what durable medical equipment Medicare covers, including orthotics.", slug: "does-medicare-cover-durable-medical-equipment" },
-      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
-      { title: "Does Medicare Cover Home Health Care?", description: "Find out when Medicare covers skilled nursing and therapy at home.", slug: "does-medicare-cover-home-health-care" },
-    ],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Knee Replacement Surgery",
-      "Does Medicare Cover Durable Medical Equipment",
-      "Does Medicare Cover Second Opinions",
-      "Does Medicare Cover Home Health Care",
-    ],
-    ctaBanner: {
-      title: "Need Help Choosing the Right Medicare Plan?",
-      text: "Our licensed agents can help you find a plan that covers podiatry and more.",
-    },
-    relatedSlugs: [
-      "does-medicare-cover-knee-replacement",
-      "does-medicare-cover-durable-medical-equipment",
-      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
-      "does-medicare-cover-home-health-care",
-      "does-medicare-cover-telehealth",
-      "medicare-coverage-for-skilled-nursing-facilities",
-      "does-medicare-cover-anesthesia",
-    ],
-  },
-  {
-    slug: "does-medicare-cover-hepatitis-c-screening",
-    seo: {
-      title: "Does Medicare Cover Hepatitis C Screening?",
-      description: "Yes — Medicare covers hepatitis C screening at no cost for adults born between 1945 and 1965 and others at increased risk. Learn who qualifies and what to expect.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-hepatitis-c-screening/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover Hepatitis C Screening?",
-    subtitle: "Yes. Medicare covers hepatitis C screening at no cost to you if you are at increased risk or were born between 1945 and 1965. The screening is covered once per year for high-risk individuals and once in a lifetime for those in the birth cohort.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 24, 2026",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "3 min read",
-    quickAnswer: {
-      text: "Yes. Medicare Part B covers hepatitis C screening at no cost to you when your doctor orders it as a preventive service. Adults born between 1945 and 1965 are covered once in a lifetime. Adults at increased risk — such as those with a history of injection drug use or certain blood transfusions before 1992 — are covered once per year. There is no copay or coinsurance when you see a participating provider.",
-      badges: [
-        { plan: "Original Medicare", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "covered" },
-      ],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "$0 cost for eligible beneficiaries when ordered as a preventive service by a participating provider" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover all Medicare-required preventive services at $0 cost-sharing" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "No Cost-Sharing Needed", icon: "users", notes: "No out-of-pocket cost for the screening itself; Medigap is not needed for this service" },
-      { planType: "Medicare Part D", coverage: "May Cover Treatment Rx", icon: "filetext", notes: "If hepatitis C is detected, antiviral medications may be covered under Part D" },
-    ],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part A & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers hepatitis C screening as a preventive service at no cost to you. You qualify if you were born between January 1, 1945 and December 31, 1965 (covered once in a lifetime), or if you are at increased risk due to a history of injection drug use, certain blood transfusions before 1992, or other risk factors your doctor identifies (covered once per year).",
-          "There is no deductible or coinsurance for this screening when your doctor orders it as a preventive service and you see a participating provider. If the screening leads to additional diagnostic testing, standard [Part B cost-sharing](/original-medicare/medicare-costs) may apply.",
-        ],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Advantage plans](/medicare-advantage) are required to cover all Medicare-mandated preventive services, including hepatitis C screening, at $0 cost-sharing when you use an in-network provider. Some plans may offer additional screenings or follow-up support.",
-        ],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "No Cost-Sharing Needed",
-        coverageType: "covered",
-        paragraphs: [
-          "Because the hepatitis C screening itself has no cost-sharing under Original Medicare, a [Medigap plan](/medicare-supplements/plan-g) is not needed to cover the screening. However, if a positive result leads to follow-up diagnostic tests or treatment, Medigap can help cover the Part B coinsurance for those services.",
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: "Who qualifies for free hepatitis C screening under Medicare?",
-        answer: "Adults born between 1945 and 1965 qualify for one lifetime screening. Adults at increased risk, such as those with a history of injection drug use, qualify for annual screenings.",
-      },
-      {
-        question: "Is there a copay for the Medicare hepatitis C screening?",
-        answer: "No. When ordered as a preventive service by a participating provider, there is no deductible, copay, or coinsurance.",
-      },
-      {
-        question: "Does Medicare cover hepatitis C treatment if I test positive?",
-        answer: "Medicare Part D covers antiviral medications used to treat hepatitis C, such as direct-acting antivirals. Coverage and costs vary by plan.",
-      },
-      {
-        question: "Does Medicare cover hepatitis B screening as well?",
-        answer: "Yes. Medicare Part B also covers hepatitis B screening for adults at increased risk, at no cost when ordered as a preventive service.",
-      },
-    ],
-    quickReference: [
-      { icon: "check", text: "<strong>Original Medicare</strong> covers hepatitis C screening at $0 cost for eligible beneficiaries" },
-      { icon: "check", text: "<strong>Medicare Advantage</strong> covers all required preventive screenings at $0 in-network" },
-      { icon: "info", text: "Born 1945–1965? You qualify for a one-time free screening" },
-      { icon: "info", text: "High-risk individuals qualify for annual screenings at no cost" },
-    ],
-    relatedTopics: [
-      { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including preventive care via telehealth.", slug: "does-medicare-cover-telehealth" },
-      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
-      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
-      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
-    ],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Telehealth",
-      "What Is the Medicare Annual Wellness Visit",
-      "Does Medicare Cover Medical Nutrition Therapy",
-      "Does Medicare Cover Second Opinions",
-    ],
-    ctaBanner: {
-      title: "Need Help Choosing the Right Medicare Plan?",
-      text: "Our licensed agents can help you find a plan that covers preventive screenings and more.",
-    },
-    relatedSlugs: [
-      "does-medicare-cover-telehealth",
-      "what-is-the-medicare-annual-wellness-visit",
-      "does-medicare-cover-medical-nutritional-therapy",
-      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
-      "does-medicare-cover-home-health-care",
-      "does-medicare-cover-cologuard",
-      "medicare-coverage-for-cancer",
-    ],
-  },
-  {
     slug: "does-medicare-cover-dental-implants",
     seo: {
       title: "Does Medicare Cover Dental Implants?",
@@ -19166,4 +18676,494 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["does-medicare-cover-diabetic-supplies", "does-medicare-cover-home-health-care", "what-is-durable-medical-equipment-dme", "durable-medical-equipment-covered-by-medicare", "your-medicare-rights-and-protections"],
   },
 
+  {
+    slug: "does-medicare-cover-telehealth",
+    seo: {
+      title: "Does Medicare Cover Telehealth?",
+      description: "Yes — Medicare Part B covers telehealth visits including doctor visits, mental health therapy, and preventive screenings. Through Dec. 31, 2027, you can receive telehealth from home anywhere in the U.S.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-telehealth/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Telehealth?",
+    subtitle: "Yes. Medicare Part B covers telehealth visits including doctor visits, mental health therapy, and certain preventive screenings. Through December 31, 2027, you can receive telehealth from anywhere in the U.S., including your home.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Yes. Medicare Part B covers telehealth services — including office visits, mental health therapy, and preventive screenings. Through December 31, 2027, you can receive covered telehealth from your home or anywhere in the U.S. You pay 20% of the Medicare-approved amount after the Part B deductible, the same as an in-person visit.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Part B covers eligible telehealth services through Dec. 31, 2027; you pay 20% after the deductible" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered + Extras", icon: "heart", notes: "Often $0 copay; many plans add remote monitoring and expanded virtual benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Pays your Part B 20% coinsurance for any telehealth visit Original Medicare covers" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Telehealth is a service, not a drug; prescriptions ordered via telehealth still run through Part D" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-costs) covers a wide range of telehealth services, including office visits, mental health therapy, preventive screenings, chronic care management, and more. Through December 31, 2027, you can receive these visits from your home or any location in the U.S. under the flexibilities extended by the Consolidated Appropriations Act, 2026.",
+          "After you meet the [Part B deductible](/original-medicare/medicare-costs), you pay 20% of the Medicare-approved amount — the same cost-sharing as an in-person visit. Mental health and behavioral health telehealth from home is permanently covered with no geographic restrictions.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered + Extras",
+        coverageType: "covered",
+        paragraphs: [
+          "Most [Medicare Advantage plans](/medicare-advantage) cover telehealth, often with $0 or reduced copays. Many plans go beyond Original Medicare by adding benefits such as remote patient monitoring, virtual urgent care, and expanded behavioral health visits. Check your plan's Evidence of Coverage or call your plan to confirm your specific telehealth benefits.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "A [Medigap plan](/medicare-supplements/plan-g) does not add new telehealth services, but it pays your share of the cost for any telehealth visit that Original Medicare covers. For example, [Plan G](/medicare-supplements/plan-g) covers the Part B 20% coinsurance, so your out-of-pocket cost for a covered telehealth visit after the deductible is $0.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover telehealth from home?",
+        answer: "Yes. Through December 31, 2027, you can receive Medicare-covered telehealth from your home anywhere in the U.S. Mental health and behavioral health telehealth from home is permanently covered.",
+      },
+      {
+        question: "Does Medicare cover audio-only (phone) telehealth?",
+        answer: "Yes, for many services — especially mental and behavioral health — when video technology is not available or practical.",
+      },
+      {
+        question: "How much does a Medicare telehealth visit cost?",
+        answer: "After the Part B deductible, you pay 20% of the Medicare-approved amount, the same as an in-person visit. A Medigap plan can cover that 20%.",
+      },
+      {
+        question: "Will Medicare still cover telehealth after 2027?",
+        answer: "Behavioral and mental health telehealth from home is permanent. Other home-based telehealth is extended through December 31, 2027 and depends on future Congressional action.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare</strong> covers telehealth services through Dec. 31, 2027" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> often offers $0 telehealth visits" },
+      { icon: "check", text: "<strong>Medigap</strong> pays your 20% Part B coinsurance" },
+      { icon: "info", text: "Mental health telehealth from home is <strong>permanently</strong> covered" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including therapy, counseling, and inpatient care.", slug: "medicare-coverage-for-mental-health" },
+      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Mental Health Services",
+      "What Is the Medicare Annual Wellness Visit",
+      "Does Medicare Cover Medical Nutrition Therapy",
+      "Does Medicare Cover Second Opinions",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers telehealth and more.",
+    },
+    relatedSlugs: [
+      "medicare-coverage-for-mental-health",
+      "what-is-the-medicare-annual-wellness-visit",
+      "does-medicare-cover-medical-nutritional-therapy",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-alzheimers-care",
+      "report-medicare-fraud",
+      "medicare-and-vision-dental-and-hearing-what-are-your-options",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-knee-replacement",
+    seo: {
+      title: "Does Medicare Cover Knee Replacement Surgery?",
+      description: "Yes — Medicare covers knee replacement surgery when medically necessary. Part A covers the hospital stay and Part B covers surgeon fees. See what you'll pay in 2026.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-knee-replacement/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Knee Replacement Surgery?",
+    subtitle: "Yes. Medicare covers knee replacement surgery when it is medically necessary. Part A covers the hospital stay and Part B covers surgeon fees and follow-up care. Most patients pay 20% coinsurance after meeting their deductibles.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Yes. Medicare covers knee replacement surgery when it is medically necessary. Medicare Part A covers the inpatient hospital stay, including the operating room, anesthesia, and nursing care. Medicare Part B covers surgeon fees, pre-op visits, and outpatient follow-up care. You pay 20% coinsurance after meeting your deductibles.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Part A covers the hospital stay; Part B covers surgeon fees and outpatient follow-up" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must use in-network providers; copays and cost-sharing vary by plan" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part A coinsurance and Part B 20% coinsurance, reducing your out-of-pocket costs" },
+      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "Covers pain medications and post-surgery prescriptions" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers the inpatient hospital stay for knee replacement surgery, including the operating room, anesthesia, nursing care, and any inpatient rehabilitation. You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers the surgeon's fees, pre-operative visits, and outpatient physical therapy after surgery. After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount for these services. As same-day outpatient knee replacements become more common, Part B also covers the procedure when performed in an approved outpatient setting.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) cover knee replacement surgery, but you must use in-network hospitals and surgeons. Copays and cost-sharing vary by plan. Always verify that your surgeon and facility are in-network before scheduling your procedure to avoid unexpected costs.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "A [Medigap plan](/medicare-supplements/plan-g) such as Plan G covers the Part A hospital coinsurance and the Part B 20% coinsurance, significantly reducing your out-of-pocket costs for both the surgery and your recovery. Because knee replacement involves both inpatient and outpatient costs, Medigap coverage can save you thousands of dollars.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover both knees if I need bilateral replacement?",
+        answer: "Yes, Medicare can cover bilateral knee replacement, though it may be performed as two separate procedures. Medical necessity must be documented for each knee.",
+      },
+      {
+        question: "Does Medicare cover outpatient knee replacement?",
+        answer: "Yes. As same-day outpatient knee replacements become more common, Medicare Part B covers the procedure when performed in an approved outpatient setting.",
+      },
+      {
+        question: "Does Medicare cover physical therapy after knee replacement?",
+        answer: "Yes. Medicare Part B covers medically necessary physical therapy following knee replacement surgery.",
+      },
+      {
+        question: "How much will I pay for knee replacement with Medicare?",
+        answer: "You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay, plus 20% of Part B-covered costs for surgeon fees and follow-up care. A Medigap plan can cover most of this.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare</strong> covers knee replacement when medically necessary" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> covers it; use in-network providers" },
+      { icon: "check", text: "<strong>Medigap</strong> covers your Part A and Part B cost-sharing" },
+      { icon: "info", text: "Part B also covers outpatient knee replacement and post-op physical therapy" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Anesthesia?", description: "Learn when Medicare covers anesthesia and what you can expect to pay.", slug: "does-medicare-cover-anesthesia" },
+      { title: "Does Medicare Cover Robotic Surgery?", description: "Find out if Medicare covers robotic-assisted surgical procedures.", slug: "does-medicare-cover-robotic-surgery" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+      { title: "Does Medicare Cover Home Health Care?", description: "Find out when Medicare covers skilled nursing and therapy at home after surgery.", slug: "does-medicare-cover-home-health-care" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Anesthesia",
+      "Does Medicare Cover Robotic Surgery",
+      "Does Medicare Cover Second Opinions",
+      "Does Medicare Cover Home Health Care",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers knee replacement surgery and more.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-anesthesia",
+      "does-medicare-cover-robotic-surgery",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-durable-medical-equipment",
+      "medicare-coverage-for-skilled-nursing-facilities",
+      "medicare-coverage-for-bariatric-surgery",
+      "does-medicare-cover-telehealth",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-podiatry",
+    seo: {
+      title: "Does Medicare Cover Podiatry?",
+      description: "Medicare covers podiatry visits when they are medically necessary, such as for diabetic foot care or treatment of injuries. Routine foot care is generally not covered. Learn more.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-podiatry/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Podiatry?",
+    subtitle: "Medicare covers podiatry visits when they are medically necessary, such as treatment for diabetic foot conditions, injuries, or infections. Routine foot care like nail trimming is generally not covered unless you have a qualifying condition.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers podiatry services that are medically necessary, including treatment for foot injuries, infections, and diabetic foot care. Routine foot care such as trimming of non-problematic toenails is generally not covered unless you have a qualifying systemic condition like diabetes or peripheral vascular disease. You pay 20% of the Medicare-approved amount after the Part B deductible.",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Partial", icon: "shield", notes: "Part B covers medically necessary podiatry; routine nail trimming generally not covered" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Varies by Plan", icon: "heart", notes: "Many plans cover additional foot care benefits; check your plan's Evidence of Coverage" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part B 20% coinsurance for any podiatry visit Original Medicare approves" },
+      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover medications prescribed for foot infections or diabetic foot conditions" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Partial",
+        coverageType: "partial",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers podiatry services that are medically necessary. This includes treatment for foot injuries, infections, plantar fasciitis, heel spurs, and diabetic foot care. If you have diabetes or a condition affecting circulation in your feet, Medicare also covers routine foot care such as nail trimming when performed by a podiatrist as part of your treatment plan.",
+          "Routine foot care that is not related to a medical condition is generally not covered. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($257 in 2026), you pay 20% of the Medicare-approved amount for covered podiatry visits.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        paragraphs: [
+          "Many [Medicare Advantage plans](/medicare-advantage) cover the same podiatry services as Original Medicare and may offer additional foot care benefits. Coverage and copays vary by plan. Review your plan's Evidence of Coverage or call your plan to confirm what podiatry services are included.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "A [Medigap plan](/medicare-supplements/plan-g) does not expand which podiatry services are covered, but it pays your cost-sharing for any visit that Original Medicare approves. [Plan G](/medicare-supplements/plan-g) covers the Part B 20% coinsurance, reducing your out-of-pocket cost to $0 after the deductible.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover routine foot care like nail trimming?",
+        answer: "Generally no, unless you have a qualifying condition such as diabetes or peripheral vascular disease that makes routine foot care medically necessary.",
+      },
+      {
+        question: "Does Medicare cover diabetic foot care?",
+        answer: "Yes. Medicare Part B covers therapeutic shoe inserts and foot exams for people with diabetes, as well as routine nail care when it is part of a diabetic foot treatment plan.",
+      },
+      {
+        question: "Does Medicare cover orthotics or custom shoe inserts?",
+        answer: "Yes. Medicare Part B covers one pair of therapeutic shoes or inserts per calendar year for beneficiaries with diabetes.",
+      },
+      {
+        question: "How much does a podiatry visit cost with Medicare?",
+        answer: "After the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%.",
+      },
+    ],
+    quickReference: [
+      { icon: "alert", text: "<strong>Original Medicare</strong> covers medically necessary podiatry; routine care generally not covered" },
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
+      { icon: "check", text: "<strong>Medigap</strong> covers your Part B 20% coinsurance" },
+      { icon: "info", text: "Diabetic foot care and therapeutic shoes are covered under Part B" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Knee Replacement Surgery?", description: "Learn how Medicare covers knee replacement and what you will pay.", slug: "does-medicare-cover-knee-replacement" },
+      { title: "Does Medicare Cover Durable Medical Equipment?", description: "Find out what durable medical equipment Medicare covers, including orthotics.", slug: "does-medicare-cover-durable-medical-equipment" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+      { title: "Does Medicare Cover Home Health Care?", description: "Find out when Medicare covers skilled nursing and therapy at home.", slug: "does-medicare-cover-home-health-care" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Knee Replacement Surgery",
+      "Does Medicare Cover Durable Medical Equipment",
+      "Does Medicare Cover Second Opinions",
+      "Does Medicare Cover Home Health Care",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers podiatry and more.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-knee-replacement",
+      "does-medicare-cover-durable-medical-equipment",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-telehealth",
+      "medicare-coverage-for-skilled-nursing-facilities",
+      "does-medicare-cover-anesthesia",
+    ],
+  },
+  {
+    slug: "does-medicare-cover-hepatitis-c-screening",
+    seo: {
+      title: "Does Medicare Cover Hepatitis C Screening?",
+      description: "Yes — Medicare covers hepatitis C screening at no cost for adults born between 1945 and 1965 and others at increased risk. Learn who qualifies and what to expect.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-hepatitis-c-screening/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Hepatitis C Screening?",
+    subtitle: "Yes. Medicare covers hepatitis C screening at no cost to you if you are at increased risk or were born between 1945 and 1965. The screening is covered once per year for high-risk individuals and once in a lifetime for those in the birth cohort.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Yes. Medicare Part B covers hepatitis C screening at no cost to you when your doctor orders it as a preventive service. Adults born between 1945 and 1965 are covered once in a lifetime. Adults at increased risk — such as those with a history of injection drug use or certain blood transfusions before 1992 — are covered once per year. There is no copay or coinsurance when you see a participating provider.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "$0 cost for eligible beneficiaries when ordered as a preventive service by a participating provider" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover all Medicare-required preventive services at $0 cost-sharing" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "No Cost-Sharing Needed", icon: "users", notes: "No out-of-pocket cost for the screening itself; Medigap is not needed for this service" },
+      { planType: "Medicare Part D", coverage: "May Cover Treatment Rx", icon: "filetext", notes: "If hepatitis C is detected, antiviral medications may be covered under Part D" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers hepatitis C screening as a preventive service at no cost to you. You qualify if you were born between January 1, 1945 and December 31, 1965 (covered once in a lifetime), or if you are at increased risk due to a history of injection drug use, certain blood transfusions before 1992, or other risk factors your doctor identifies (covered once per year).",
+          "There is no deductible or coinsurance for this screening when your doctor orders it as a preventive service and you see a participating provider. If the screening leads to additional diagnostic testing, standard [Part B cost-sharing](/original-medicare/medicare-costs) may apply.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) are required to cover all Medicare-mandated preventive services, including hepatitis C screening, at $0 cost-sharing when you use an in-network provider. Some plans may offer additional screenings or follow-up support.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "No Cost-Sharing Needed",
+        coverageType: "covered",
+        paragraphs: [
+          "Because the hepatitis C screening itself has no cost-sharing under Original Medicare, a [Medigap plan](/medicare-supplements/plan-g) is not needed to cover the screening. However, if a positive result leads to follow-up diagnostic tests or treatment, Medigap can help cover the Part B coinsurance for those services.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Who qualifies for free hepatitis C screening under Medicare?",
+        answer: "Adults born between 1945 and 1965 qualify for one lifetime screening. Adults at increased risk, such as those with a history of injection drug use, qualify for annual screenings.",
+      },
+      {
+        question: "Is there a copay for the Medicare hepatitis C screening?",
+        answer: "No. When ordered as a preventive service by a participating provider, there is no deductible, copay, or coinsurance.",
+      },
+      {
+        question: "Does Medicare cover hepatitis C treatment if I test positive?",
+        answer: "Medicare Part D covers antiviral medications used to treat hepatitis C, such as direct-acting antivirals. Coverage and costs vary by plan.",
+      },
+      {
+        question: "Does Medicare cover hepatitis B screening as well?",
+        answer: "Yes. Medicare Part B also covers hepatitis B screening for adults at increased risk, at no cost when ordered as a preventive service.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare</strong> covers hepatitis C screening at $0 cost for eligible beneficiaries" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> covers all required preventive screenings at $0 in-network" },
+      { icon: "info", text: "Born 1945–1965? You qualify for a one-time free screening" },
+      { icon: "info", text: "High-risk individuals qualify for annual screenings at no cost" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including preventive care via telehealth.", slug: "does-medicare-cover-telehealth" },
+      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
+      { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Telehealth",
+      "What Is the Medicare Annual Wellness Visit",
+      "Does Medicare Cover Medical Nutrition Therapy",
+      "Does Medicare Cover Second Opinions",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers preventive screenings and more.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-telehealth",
+      "what-is-the-medicare-annual-wellness-visit",
+      "does-medicare-cover-medical-nutritional-therapy",
+      "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-cologuard",
+      "medicare-coverage-for-cancer",
+    ],
+  },
 ];
