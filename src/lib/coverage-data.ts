@@ -19410,4 +19410,368 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-glaucoma",
     ],
   },
+  {
+    slug: "does-medicare-cover-a-nutritionist",
+    seo: {
+      title: "Does Medicare Cover a Nutritionist?",
+      description: "Medicare covers nutrition services in limited circumstances, including Medical Nutrition Therapy for diabetes and kidney disease. Learn when Medicare covers a nutritionist or dietitian.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-a-nutritionist/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover a Nutritionist?",
+    subtitle: "Medicare covers nutrition counseling in specific circumstances. Medicare Part B covers Medical Nutrition Therapy (MNT) for beneficiaries with diabetes or kidney disease. General nutrition counseling or visits to a registered dietitian for weight loss or wellness are not covered under Original Medicare.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers Medical Nutrition Therapy (MNT) for beneficiaries with diabetes, chronic kidney disease (not on dialysis), or a kidney transplant within the past 36 months. MNT must be provided by a registered dietitian or nutrition professional. You pay nothing for MNT when your doctor refers you and you see a participating provider. General nutrition counseling for weight loss or wellness is not covered under Original Medicare.",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Partial", icon: "shield", notes: "Part B covers MNT for diabetes and kidney disease only; general nutrition counseling not covered" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Varies by Plan", icon: "heart", notes: "Must cover MNT; many plans offer additional nutrition or wellness benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Cost-Sharing", icon: "users", notes: "Covers Part B coinsurance for any MNT visit Original Medicare approves" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "MNT is a service, not a prescription; diabetes medications may be covered under Part D" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Partial",
+        coverageType: "partial",
+        paragraphs: [
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers [Medical Nutrition Therapy](/faqs/does-medicare-cover-medical-nutritional-therapy) when you have been diagnosed with diabetes, chronic kidney disease (not on dialysis), or have had a kidney transplant within the past 36 months. Coverage includes an initial assessment and follow-up sessions with a registered dietitian or nutrition professional. Your doctor must refer you for the service.",
+          "MNT is covered at $0 cost to you when provided by a participating provider and billed as a preventive service. General nutrition counseling, weight loss programs, or visits to a nutritionist for general wellness are not covered under Original Medicare.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) are required to cover MNT for qualifying conditions. Many plans go further and offer additional nutrition counseling, weight management programs, or dietitian visits as supplemental benefits. Check your plan's Evidence of Coverage to see what nutrition services are included.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "Because MNT is covered at $0 under Original Medicare for qualifying conditions, a [Medigap plan](/medicare-supplements/plan-g) is generally not needed for this service. If additional nutrition-related services are billed separately and subject to Part B cost-sharing, Medigap can cover the 20% coinsurance.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Medicare cover a registered dietitian?",
+        answer: "Yes, but only for Medical Nutrition Therapy for diabetes or kidney disease. General dietitian visits for wellness or weight loss are not covered under Original Medicare.",
+      },
+      {
+        question: "Does Medicare cover nutrition counseling for weight loss?",
+        answer: "Not directly. Original Medicare does not cover general weight loss nutrition counseling. However, Medicare does cover obesity screening and intensive behavioral therapy for obesity, which may include dietary guidance.",
+      },
+      {
+        question: "How many nutrition therapy sessions does Medicare cover?",
+        answer: "Medicare covers 3 hours of MNT in the first year and 2 hours per year in subsequent years. Additional hours may be covered if your doctor determines they are medically necessary.",
+      },
+      {
+        question: "Do I need a referral for Medicare to cover nutrition therapy?",
+        answer: "Yes. Your doctor must refer you for Medical Nutrition Therapy. Without a referral, Medicare will not cover the service.",
+      },
+    ],
+    quickReference: [
+      { icon: "alert", text: "<strong>Original Medicare</strong> covers MNT only for diabetes and kidney disease" },
+      { icon: "alert", text: "General nutrition counseling for weight loss or wellness is <strong>not covered</strong>" },
+      { icon: "check", text: "MNT is covered at <strong>$0 cost</strong> with a doctor referral" },
+      { icon: "info", text: "Medicare Advantage plans may offer <strong>additional nutrition benefits</strong>" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Learn more about Medicare's Medical Nutrition Therapy benefit for diabetes and kidney disease.", slug: "does-medicare-cover-medical-nutritional-therapy" },
+      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including telehealth nutrition therapy.", slug: "does-medicare-cover-telehealth" },
+      { title: "Does Medicare Cover End-Stage Renal Disease?", description: "Learn what Medicare covers for kidney failure and dialysis.", slug: "does-medicare-cover-end-stage-renal-disease" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Medical Nutrition Therapy",
+      "What Is the Medicare Annual Wellness Visit",
+      "Does Medicare Cover Telehealth",
+      "Does Medicare Cover End-Stage Renal Disease",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Medicare Plan?",
+      text: "Our licensed agents can help you find a plan that covers nutrition services and more.",
+    },
+    relatedSlugs: [
+      "does-medicare-cover-medical-nutritional-therapy",
+      "what-is-the-medicare-annual-wellness-visit",
+      "does-medicare-cover-telehealth",
+      "does-medicare-cover-end-stage-renal-disease",
+      "medicare-coverage-for-mental-health",
+      "does-medicare-cover-home-health-care",
+    ],
+  },
+  {
+    slug: "medicare-coverage-for-disabled-under-65",
+    seo: {
+      title: "Medicare Coverage for People Under 65 with a Disability",
+      description: "You can qualify for Medicare before age 65 if you have a disability and have received Social Security Disability Insurance for 24 months, or have ALS or ESRD. Learn how it works.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-disabled-under-65/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Medicare Coverage for People Under 65 with a Disability",
+    subtitle: "You do not have to be 65 to qualify for Medicare. If you have been receiving Social Security Disability Insurance (SSDI) for 24 months, you automatically become eligible for Medicare regardless of your age. People with ALS or End-Stage Renal Disease qualify immediately without the waiting period.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "4 min read",
+    quickAnswer: {
+      text: "Yes. People under 65 can qualify for Medicare if they have received Social Security Disability Insurance (SSDI) for 24 consecutive months, have been diagnosed with ALS (amyotrophic lateral sclerosis), or have End-Stage Renal Disease (ESRD). Once enrolled, you receive the same Medicare Parts A, B, C, and D coverage as beneficiaries age 65 and older.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Same benefits as age-65 enrollees; automatic enrollment after 24 months of SSDI" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Available to under-65 Medicare beneficiaries; plan availability varies by location" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Limited", icon: "users", notes: "Insurers are not required to sell Medigap to under-65 beneficiaries in most states; some states have protections" },
+      { planType: "Medicare Part D", coverage: "Covered", icon: "filetext", notes: "Same prescription drug coverage as age-65 enrollees" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "If you have been receiving [Social Security Disability Insurance (SSDI)](/faqs/your-medicare-rights-and-protections) for 24 consecutive months, you are automatically enrolled in [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) and [Part B](/original-medicare/medicare-parts/medicare-part-b) on the 25th month. People diagnosed with ALS are enrolled in Medicare the same month their SSDI benefits begin. People with End-Stage Renal Disease can enroll after a waiting period tied to the start of dialysis or a kidney transplant.",
+          "Under-65 Medicare beneficiaries receive the same coverage as those who enrolled at 65, including hospital insurance, outpatient care, preventive services, and durable medical equipment.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) are available to under-65 Medicare beneficiaries, though plan availability varies by location. Many MA plans offer additional benefits such as dental, vision, hearing, and fitness programs that can be especially valuable for people managing a disability.",
+        ],
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Limited",
+        coverageType: "partial",
+        paragraphs: [
+          "Federal law does not require insurers to sell [Medigap plans](/medicare-supplements/plan-g) to Medicare beneficiaries under age 65. However, some states — including California, Colorado, Connecticut, Florida, Georgia, Hawaii, Illinois, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, New Hampshire, New Jersey, New York, North Carolina, Oklahoma, Oregon, Pennsylvania, South Dakota, Texas, Virginia, and Wisconsin — require insurers to offer at least some Medigap plans to under-65 beneficiaries. Premiums are typically higher than for age-65 enrollees.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How do I get Medicare if I am under 65 with a disability?",
+        answer: "If you receive SSDI, you are automatically enrolled in Medicare after 24 months of benefits. You do not need to apply separately.",
+      },
+      {
+        question: "Can I get Medicare with ALS before the 24-month wait?",
+        answer: "Yes. People diagnosed with ALS are enrolled in Medicare the same month their SSDI benefits begin, with no waiting period.",
+      },
+      {
+        question: "Can I buy a Medigap plan if I am under 65?",
+        answer: "Federal law does not require it, but some states mandate that insurers offer Medigap to under-65 beneficiaries. Check your state's rules or speak with a licensed agent.",
+      },
+      {
+        question: "Does Medicare coverage for under-65 beneficiaries differ from age-65 coverage?",
+        answer: "No. The benefits are the same. The main difference is that Medigap access may be limited depending on your state.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Automatic Medicare enrollment after <strong>24 months of SSDI</strong>" },
+      { icon: "check", text: "<strong>ALS and ESRD</strong> qualify without the 24-month wait" },
+      { icon: "alert", text: "<strong>Medigap access is limited</strong> for under-65 beneficiaries in most states" },
+      { icon: "info", text: "Medicare Advantage is available and may offer valuable extra benefits" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover ALS?", description: "Learn what Medicare covers for amyotrophic lateral sclerosis.", slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als" },
+      { title: "Does Medicare Cover End-Stage Renal Disease?", description: "Learn what Medicare covers for kidney failure and dialysis.", slug: "does-medicare-cover-end-stage-renal-disease" },
+      { title: "Your Medicare Rights and Protections", description: "Learn about your rights as a Medicare beneficiary.", slug: "your-medicare-rights-and-protections" },
+      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including therapy and counseling.", slug: "medicare-coverage-for-mental-health" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover ALS",
+      "Does Medicare Cover End-Stage Renal Disease",
+      "Your Medicare Rights and Protections",
+      "Does Medicare Cover Mental Health Services",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Medicare Options?",
+      text: "Our licensed agents specialize in helping people under 65 navigate Medicare coverage.",
+    },
+    relatedSlugs: [
+      "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
+      "does-medicare-cover-end-stage-renal-disease",
+      "your-medicare-rights-and-protections",
+      "medicare-coverage-for-mental-health",
+      "does-medicare-cover-home-health-care",
+      "does-medicare-cover-durable-medical-equipment",
+    ],
+  },
+  {
+    slug: "medicare-part-d-six-protected-classes",
+    seo: {
+      title: "Medicare Part D Six Protected Drug Classes",
+      description: "Medicare Part D plans must cover all or substantially all drugs in six protected classes, including antidepressants, antipsychotics, anticonvulsants, and more. Learn what this means for you.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-part-d-six-protected-classes/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "Medicare Part D Six Protected Drug Classes",
+    subtitle: "Medicare Part D plans are required to cover all or substantially all drugs in six protected classes. This rule ensures that beneficiaries with complex conditions — such as mental illness, epilepsy, HIV/AIDS, cancer, and organ transplants — have access to the specific medications they need.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 24, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "3 min read",
+    quickAnswer: {
+      text: "Medicare Part D plans must cover all or substantially all drugs in six protected classes: antidepressants, antipsychotics, anticonvulsants, antiretrovirals (HIV/AIDS), immunosuppressants for organ transplants, and antineoplastics (cancer). This protection ensures that beneficiaries who rely on specific medications in these categories cannot be denied coverage by their Part D plan, even if the drug is not on the plan's standard formulary.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medicare Part D", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part D (Standalone)", coverage: "Covered", icon: "filetext", notes: "Must cover all or substantially all drugs in the six protected classes" },
+      { planType: "Medicare Advantage with Part D (MAPD)", coverage: "Covered", icon: "heart", notes: "Same protected class requirements apply to MA-PD plans" },
+      { planType: "Original Medicare (Part A & B)", coverage: "Not Applicable", icon: "shield", notes: "Part A and B do not cover outpatient prescription drugs; Part D applies" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Applicable", icon: "users", notes: "Medigap does not cover prescription drugs; you need a separate Part D plan" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "The Six Protected Classes",
+        icon: "filetext",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "All Medicare Part D plans — including standalone Prescription Drug Plans (PDPs) and Medicare Advantage plans with drug coverage (MA-PDs) — must cover all or substantially all drugs in these six categories: (1) antidepressants, (2) antipsychotics, (3) anticonvulsants, (4) antiretrovirals for HIV/AIDS, (5) immunosuppressants for organ and tissue transplants, and (6) antineoplastics for cancer treatment.",
+          "This protection means your plan cannot remove a drug in one of these classes from its formulary mid-year without CMS approval, and cannot require you to try a different drug first (step therapy) for these classes in most circumstances.",
+        ],
+      },
+      {
+        planName: "What This Means for You",
+        icon: "shield",
+        iconColor: "#059669",
+        coverageLabel: "Protected",
+        coverageType: "covered",
+        paragraphs: [
+          "If you take a medication in one of the six protected classes, your Part D plan is required to cover it. If your plan denies coverage, you have the right to appeal. You can also request a formulary exception if your specific drug is not listed, and your plan must give it serious consideration given the protected class rules.",
+          "When comparing [Part D plans](/faqs/what-is-a-medicare-part-d-formulary), always verify that your specific medication is on the plan's formulary and at what cost tier. Even within protected classes, cost-sharing (copays and coinsurance) can vary significantly between plans.",
+        ],
+      },
+      {
+        planName: "Medicare Advantage with Drug Coverage (MA-PD)",
+        icon: "heart",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/medicare-advantage) that include prescription drug coverage (MA-PD plans) must follow the same six protected class rules as standalone Part D plans. If you are enrolled in an MA-PD plan, your protected class drugs must be covered.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What are the six protected drug classes in Medicare Part D?",
+        answer: "Antidepressants, antipsychotics, anticonvulsants, antiretrovirals (HIV/AIDS), immunosuppressants (organ transplants), and antineoplastics (cancer).",
+      },
+      {
+        question: "Can my Part D plan remove a protected class drug from its formulary?",
+        answer: "Not mid-year without CMS approval. Protected class drugs have stronger formulary stability protections than other medications.",
+      },
+      {
+        question: "What can I do if my Part D plan denies a protected class drug?",
+        answer: "You can file a coverage determination request or appeal. Given the protected class rules, your plan must have a strong justification to deny coverage.",
+      },
+      {
+        question: "Does the protected class rule apply to Medicare Advantage drug plans?",
+        answer: "Yes. Medicare Advantage plans with prescription drug coverage (MA-PD) must follow the same six protected class requirements as standalone Part D plans.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Part D must cover <strong>all or substantially all</strong> drugs in the six protected classes" },
+      { icon: "check", text: "Protected classes: antidepressants, antipsychotics, anticonvulsants, antiretrovirals, immunosuppressants, antineoplastics" },
+      { icon: "info", text: "Plans <strong>cannot remove</strong> protected class drugs mid-year without CMS approval" },
+      { icon: "info", text: "You can <strong>appeal</strong> if your plan denies a protected class medication" },
+    ],
+    relatedTopics: [
+      { title: "What Is a Medicare Part D Formulary?", description: "Learn how Medicare Part D drug formularies work and how to compare plans.", slug: "what-is-a-medicare-part-d-formulary" },
+      { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including psychiatric medications.", slug: "medicare-coverage-for-mental-health" },
+      { title: "Does Medicare Cover Cancer?", description: "Learn what Medicare covers for cancer treatment, including chemotherapy.", slug: "medicare-coverage-for-cancer" },
+      { title: "Your Medicare Rights and Protections", description: "Learn about your rights as a Medicare beneficiary, including appeal rights.", slug: "your-medicare-rights-and-protections" },
+    ],
+    sidebarRelatedLinks: [
+      "What Is a Medicare Part D Formulary",
+      "Does Medicare Cover Mental Health Services",
+      "Does Medicare Cover Cancer",
+      "Your Medicare Rights and Protections",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing the Right Part D Plan?",
+      text: "Our licensed agents can help you find a plan that covers your medications, including protected class drugs.",
+    },
+    relatedSlugs: [
+      "what-is-a-medicare-part-d-formulary",
+      "medicare-coverage-for-mental-health",
+      "medicare-coverage-for-cancer",
+      "your-medicare-rights-and-protections",
+      "medicare-coverage-for-disabled-under-65",
+      "does-medicare-cover-end-stage-renal-disease",
+    ],
+  },
 ];
