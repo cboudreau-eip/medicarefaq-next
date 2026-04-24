@@ -155,7 +155,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         heading: 'Does Medicare Cover Diabetic Supplies?',
         paragraphs: [
           'Updated on March 27, 2023',
-          '[Medicare covers diabetic supplies](/faqs/medicare-[Diabetes](/faqs/does-medicare-cover-prosthetic-devices)) and services for those diagnosed with the chronic health condition. Diabetes...',
+          '[Medicare covers diabetic supplies](/faqs/medicare-diabetes) and services for those diagnosed with the chronic health condition. Diabetes...',
         ],
       },
     ],

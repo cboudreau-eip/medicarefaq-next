@@ -882,9 +882,9 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: [
-      '{\'title\': \'file an appeal\', \'slug\': \'medicare-appeals-process\'}',
-      '{\'title\': \'Medicare Summary Notice\', \'slug\': \'medicare-summary-notice\'}',
-      '{\'title\': \'skilled nursing facility\', \'slug\': \'medicare-coverage-for-skilled-nursing-facilities\'}',
+      'medicare-coverage-for-skilled-nursing-facilities',
+      'medicare-prior-authorization',
+      'medicare-benefits',
     ],
   },
   {

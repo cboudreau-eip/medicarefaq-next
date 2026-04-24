@@ -499,8 +499,8 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: [
-      '{\'title\': \'Medicare and Medicaid\', \'slug\': \'medicare-vs-medicaid\'}',
-      '{\'title\': \'Income Related Monthly Adjustment Amount\', \'slug\': \'irmaa\'}',
+      'medicare-vs-medicaid',
+      'irmaa',
     ],
   },
   {
