@@ -978,7 +978,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "13 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1758691462863-9e1b8a863140?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1758691461935-202e2ef6b69f?w=1200&h=675&fit=crop",
     tableOfContents: [
       { id: "how-the-part-b-deductible-works", title: "How the Part B Deductible Works" },
       { id: "services-that-count-toward-the-part-b-deductible", title: "Services That Count Toward the Part B Deductible" },

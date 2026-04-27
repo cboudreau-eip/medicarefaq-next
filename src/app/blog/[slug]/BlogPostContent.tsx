@@ -358,7 +358,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   <img
                     src={article.image}
                     alt={article.imageAlt || article.title}
-                    className="w-full h-64 md:h-80 object-cover"
+                    className="w-full aspect-video object-cover"
                   />
                 </div>
               )}
