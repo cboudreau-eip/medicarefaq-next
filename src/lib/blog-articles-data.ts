@@ -393,7 +393,7 @@ export const blogArticles: BlogArticleData[] = [
     title: "10 Questions to Ask Before Buying a Medicare Supplement Plan | MedicareFAQ",
     description: "Learn the key questions to ask before purchasing a Medicare Supplement Plan, including coverage details, costs, enrollment timing, and how to choose the best plan for your needs.",
     canonical: "https://www.medicarefaq.com/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan/",
-    ogImage: "https://medicarefaq.com/wp-content/uploads/2023/07/medicare-supplement-plans-1.png",
+    ogImage: "https://images.pexels.com/photos/8441812/pexels-photo-8441812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
   },
     title: "10 Questions to Ask Before Buying a Medicare Supplement Plan",
     excerpt: "Medicare Supplement (Medigap) plans are one of the most popular ways to cover the out-of-pocket costs left behind by Original Medicare. But with so many options, it\'s normal to feel unsure about which",
@@ -404,7 +404,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "7 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
+    image: "https://images.pexels.com/photos/8441812/pexels-photo-8441812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     tableOfContents: [
       { id: "are-medigap-plans-available-everywhere", title: "Are Medigap Plans Available Everywhere?" },
       { id: "what-does-each-plan-cover-and-not-cover", title: "What Does Each Plan Cover and Not Cover?" },
@@ -3845,7 +3845,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/7551617/pexels-photo-7551617.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'Medicare Part A covers skilled nursing care in certified facilities for up to 100 days following a qualifying hospital stay, with beneficiary costs increasing after day 20',
         'Custodial care--assistance with daily living activities--is never covered by Medicare and must be paid out-of-pocket or through Medicaid or private insurance',
@@ -3911,7 +3911,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '9 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'Federal and state laws provide comprehensive protections against elder fraud, abuse, and exploitation, with penalties including criminal charges and civil liability',
         'Medicare beneficiaries are frequent targets for scams involving fraudulent billing, fake prescriptions, and identity theft that can cost thousands annually',
@@ -3981,7 +3981,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '10 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1516589091380-5d8e87df6999?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/7328485/pexels-photo-7328485.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'Your marital status affects Medicare eligibility, spousal benefits, and premium assistance programs you may qualify for',
         'Divorced individuals can claim benefits on an ex-spouse\'s Social Security record after 10+ years of marriage, impacting Medicare timing',
@@ -4052,7 +4052,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '9 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/8815834/pexels-photo-8815834.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'Switching from Medicare Advantage to a Medigap plan is possible during Open Enrollment or qualifying life events, but timing is critical to avoid coverage gaps',
         'You may have guaranteed issue rights that protect you from pre-existing condition exclusions when switching, depending on your specific situation',
@@ -4121,7 +4121,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'Medicare Care Compare Tool allows you to search hospitals, dialysis facilities, and nursing homes using quality metrics and safety ratings to find the best providers in your area.',
         'Compare providers side-by-side using data on patient outcomes, staffing levels, infection rates, and readmission rates to make informed healthcare decisions.',
@@ -4191,7 +4191,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/7787410/pexels-photo-7787410.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'You cannot enroll in Medicare at age 60; eligibility begins at 65 unless you qualify due to disability or ESRD',
         'Starting at 60, research your future Medicare options and understand Part A, B, C, and D coverage to make informed decisions',
@@ -4260,7 +4260,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '9 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/8815888/pexels-photo-8815888.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'Plan F is no longer available to newly eligible Medicare beneficiaries as of January 1, 2020, but existing enrollees can keep it',
         'Plan G now offers nearly identical coverage to Plan F at substantially lower premiums for most beneficiaries',
@@ -4329,7 +4329,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '7 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1568454537842-d933259bb258?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/8815851/pexels-photo-8815851.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'Louisiana\'s Birthday Rule lets you change Medigap plans once per year during your birthday month without medical underwriting or waiting periods',
         'You can switch to any Medigap plan offered by any insurance company, regardless of health conditions or age',
@@ -4399,7 +4399,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: 'Ashlee Zareczny',
       readTime: '6 min read',
       featured: false,
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=500&fit=crop',
+      image: "https://images.pexels.com/photos/8439748/pexels-photo-8439748.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
       keyTakeaways: [
         'Medicare Advantage plans have hidden costs beyond premiums, including copays, coinsurance, and deductibles',
         'Out-of-pocket maximums vary significantly between plans, ranging from $4,500 to $12,700 in 2026',
