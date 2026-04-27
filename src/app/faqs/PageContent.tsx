@@ -23,7 +23,9 @@ import {
   ClipboardList,
   BookOpen,
   Accessibility,
+  ChevronDown,
 } from "lucide-react";
+import * as SelectPrimitive from "@radix-ui/react-select";
 import { motion } from "framer-motion";
 import { coverageArticles } from "@/lib/coverage-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
@@ -233,39 +235,53 @@ export default function FAQIndex() {
               )}
             </div>
 
-            {/* Category pills — horizontal scrollable */}
-            <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
-              {categories.map((cat) => {
-                const isActive = activeCategory === cat.name;
-                const color = getGroupColor(cat.name);
-                const IconComp = getGroupIcon(cat.name);
-                return (
-                  <button
-                    key={cat.name}
-                    onClick={() => setActiveCategory(cat.name)}
-                    className={`shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 border ${
-                      isActive
-                        ? "text-white shadow-sm"
-                        : "text-[#6B7280] bg-white border-[#E5E7EB] hover:border-[#D1D5DB] hover:bg-[#F9FAFB]"
-                    }`}
-                    style={
-                      isActive
-                        ? { backgroundColor: color, borderColor: color }
-                        : {}
-                    }
+            {/* Category filter — compact dropdown */}
+            <div className="flex items-center gap-3">
+              <span className="text-xs font-semibold text-[#9CA3AF] uppercase tracking-wider shrink-0">Filter by</span>
+              <SelectPrimitive.Root value={activeCategory} onValueChange={setActiveCategory}>
+                <SelectPrimitive.Trigger className="inline-flex items-center gap-2 w-[240px] h-9 px-3 text-sm border border-[#E5E7EB] rounded-lg bg-[#F8F9FB] hover:bg-white focus:outline-none focus:ring-1 focus:ring-[#1B2A4A] transition-colors">
+                  {(() => {
+                    const active = categories.find(c => c.name === activeCategory);
+                    const color = getGroupColor(activeCategory);
+                    const IconComp = getGroupIcon(activeCategory);
+                    return (
+                      <>
+                        <IconComp className="w-3.5 h-3.5 shrink-0" style={{ color: activeCategory === "All Topics" ? "#6B7280" : color }} />
+                        <span className="font-medium text-[#1B2A4A] flex-1 text-left">{activeCategory}</span>
+                        <span className="text-xs bg-[#1B2A4A] text-white px-1.5 py-0.5 rounded-full">{active?.count ?? 0}</span>
+                        <ChevronDown className="w-3.5 h-3.5 text-[#9CA3AF] shrink-0" />
+                      </>
+                    );
+                  })()}
+                </SelectPrimitive.Trigger>
+                <SelectPrimitive.Portal>
+                  <SelectPrimitive.Content
+                    position="popper"
+                    sideOffset={4}
+                    className="z-50 w-[240px] bg-white border border-[#E5E7EB] rounded-lg shadow-lg overflow-hidden"
                   >
-                    <IconComp className="w-3.5 h-3.5" />
-                    {cat.name}
-                    <span
-                      className={`text-xs ${
-                        isActive ? "text-white/70" : "text-[#9CA3AF]"
-                      }`}
-                    >
-                      ({cat.count})
-                    </span>
-                  </button>
-                );
-              })}
+                    <SelectPrimitive.Viewport className="p-1">
+                      {categories.map((cat) => {
+                        const color = getGroupColor(cat.name);
+                        const IconComp = getGroupIcon(cat.name);
+                        return (
+                          <SelectPrimitive.Item
+                            key={cat.name}
+                            value={cat.name}
+                            className="flex items-center gap-2.5 px-3 py-2 text-sm rounded-md cursor-pointer text-[#1B2A4A] hover:bg-[#F5F7FA] focus:bg-[#F5F7FA] focus:outline-none data-[state=checked]:bg-[#EEF2FF] select-none"
+                          >
+                            <IconComp className="w-3.5 h-3.5 shrink-0" style={{ color: cat.name === "All Topics" ? "#6B7280" : color }} />
+                            <SelectPrimitive.ItemText>
+                              <span className="flex-1">{cat.name}</span>
+                            </SelectPrimitive.ItemText>
+                            <span className="ml-auto text-xs text-[#9CA3AF] bg-[#F0F0F0] px-1.5 py-0.5 rounded-full">{cat.count}</span>
+                          </SelectPrimitive.Item>
+                        );
+                      })}
+                    </SelectPrimitive.Viewport>
+                  </SelectPrimitive.Content>
+                </SelectPrimitive.Portal>
+              </SelectPrimitive.Root>
             </div>
           </div>
         </div>
