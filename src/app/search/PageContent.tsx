@@ -21,7 +21,9 @@ import {
   User,
   X,
   SlidersHorizontal,
+  ChevronDown,
 } from "lucide-react";
+import * as SelectPrimitive from "@radix-ui/react-select";
 import { motion, AnimatePresence } from "framer-motion";
 import { trackPhoneClick } from "@/lib/analytics";
 import {
@@ -180,40 +182,57 @@ export default function SearchResults() {
           </div>
         </section>
 
-        {/* ─── Filter Tabs ─── */}
+        {/* ─── Filter Dropdown ─── */}
         {query && results.length > 0 && (
           <div className="bg-white border-b border-[#E5E7EB] sticky top-[140px] lg:top-[168px] z-30">
-            <div className="container max-w-4xl mx-auto">
-              <div className="flex items-center gap-1 overflow-x-auto py-2 -mx-1 px-1 scrollbar-hide">
-                {typeFilters.map((filter) => {
-                  const count = typeCounts[filter.key] || 0;
-                  const isActive = activeFilter === filter.key;
-                  const Icon = filter.icon;
-                  if (filter.key !== "all" && count === 0) return null;
-                  return (
-                    <button
-                      key={filter.key}
-                      onClick={() => setActiveFilter(filter.key)}
-                      className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-all duration-150 ${
-                        isActive
-                          ? "bg-[#1B2A4A] text-white shadow-sm"
-                          : "text-[#6B7280] hover:bg-[#F5F7FA] hover:text-[#1B2A4A]"
-                      }`}
+            <div className="container max-w-4xl mx-auto py-3">
+              <div className="flex items-center gap-3">
+                <span className="text-xs font-semibold text-[#9CA3AF] uppercase tracking-wider shrink-0">Filter by</span>
+                <SelectPrimitive.Root value={activeFilter} onValueChange={setActiveFilter}>
+                  <SelectPrimitive.Trigger className="inline-flex items-center gap-2 w-[220px] h-9 px-3 text-sm border border-[#E5E7EB] rounded-lg bg-[#F8F9FB] hover:bg-white focus:outline-none focus:ring-1 focus:ring-[#1B2A4A] transition-colors">
+                    {(() => {
+                      const active = typeFilters.find(f => f.key === activeFilter);
+                      const count = active ? (typeCounts[active.key as keyof typeof typeCounts] || 0) : results.length;
+                      const Icon = active?.icon || SlidersHorizontal;
+                      return (
+                        <>
+                          <Icon className="w-3.5 h-3.5 text-[#6B7280] shrink-0" />
+                          <span className="font-medium text-[#1B2A4A] flex-1 text-left">{active?.label || "All Results"}</span>
+                          <span className="text-xs bg-[#1B2A4A] text-white px-1.5 py-0.5 rounded-full">{count}</span>
+                          <ChevronDown className="w-3.5 h-3.5 text-[#9CA3AF] shrink-0" />
+                        </>
+                      );
+                    })()}
+                  </SelectPrimitive.Trigger>
+                  <SelectPrimitive.Portal>
+                    <SelectPrimitive.Content
+                      position="popper"
+                      sideOffset={4}
+                      className="z-50 w-[220px] bg-white border border-[#E5E7EB] rounded-lg shadow-lg overflow-hidden"
                     >
-                      <Icon className="w-3.5 h-3.5" />
-                      {filter.label}
-                      <span
-                        className={`text-xs px-1.5 py-0.5 rounded-full ${
-                          isActive
-                            ? "bg-white/20 text-white"
-                            : "bg-[#F0F0F0] text-[#9CA3AF]"
-                        }`}
-                      >
-                        {count}
-                      </span>
-                    </button>
-                  );
-                })}
+                      <SelectPrimitive.Viewport className="p-1">
+                        {typeFilters.map((filter) => {
+                          const count = typeCounts[filter.key as keyof typeof typeCounts] || 0;
+                          const Icon = filter.icon;
+                          if (filter.key !== "all" && count === 0) return null;
+                          return (
+                            <SelectPrimitive.Item
+                              key={filter.key}
+                              value={filter.key}
+                              className="flex items-center gap-2.5 px-3 py-2 text-sm rounded-md cursor-pointer text-[#1B2A4A] hover:bg-[#F5F7FA] focus:bg-[#F5F7FA] focus:outline-none data-[state=checked]:bg-[#EEF2FF] select-none"
+                            >
+                              <Icon className="w-3.5 h-3.5 text-[#6B7280] shrink-0" />
+                              <SelectPrimitive.ItemText>
+                                <span className="flex-1">{filter.label}</span>
+                              </SelectPrimitive.ItemText>
+                              <span className="ml-auto text-xs text-[#9CA3AF] bg-[#F0F0F0] px-1.5 py-0.5 rounded-full">{count}</span>
+                            </SelectPrimitive.Item>
+                          );
+                        })}
+                      </SelectPrimitive.Viewport>
+                    </SelectPrimitive.Content>
+                  </SelectPrimitive.Portal>
+                </SelectPrimitive.Root>
               </div>
             </div>
           </div>
