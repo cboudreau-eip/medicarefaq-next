@@ -332,6 +332,12 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "This is your first and most important window to sign up for Medicare. The Initial Enrollment Period (IEP) is a seven-month period unique to you. It begins three months before the month you turn 65, includes your birthday month, and ends three months after your birthday month." },
       { type: "paragraph", content: "For example, if your birthday is in May, your IEP runs from February 1 through August 31." },
       { type: "heading", level: 3, text: "During your IEP, you can sign up for:", id: "during-your-iep-you-can-sign-up-for" },
+      { type: "list", ordered: false, items: [
+        "Medicare Part A (hospital insurance)",
+        "Medicare Part B (medical insurance)",
+        "A Medicare Advantage (Part C) plan as an alternative to Original Medicare",
+        "A Medicare Part D prescription drug plan"
+      ] },
       { type: "paragraph", content: "Your IEP is also the ideal time to purchase a Medicare Supplement (Medigap) plan, which we will discuss more below. Enrolling as soon as you are eligible is the surest way to prevent any gaps in your health coverage. You can learn more about [Medicare enrollment periods](/enrollment/initial-enrollment-period) to understand your specific window." },
       { type: "heading", level: 2, text: "The General Enrollment Period (GEP)", id: "the-general-enrollment-period-gep" },
       { type: "paragraph", content: "What happens if you miss your Initial Enrollment Period and do not qualify for a Special Enrollment Period? The General Enrollment Period (GEP) is your next opportunity to sign up for Medicare Part A and Part B." },
@@ -340,14 +346,30 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "The Annual Enrollment Period (AEP)", id: "the-annual-enrollment-period-aep" },
       { type: "paragraph", content: "The [Annual Enrollment Period (AEP)](/enrollment/annual-changes), sometimes called the Fall Open Enrollment Period, is a crucial time for all Medicare beneficiaries. It runs from October 15 to December 7 every year." },
       { type: "paragraph", content: "During AEP, you can review your current coverage and make changes for the upcoming year. This is your chance to:" },
+      { type: "list", ordered: false, items: [
+        "Switch from Original Medicare to a Medicare Advantage plan, or vice versa",
+        "Change from one Medicare Advantage plan to another",
+        "Join, switch, or drop a Medicare Part D prescription drug plan"
+      ] },
       { type: "paragraph", content: "Any changes you make during AEP will take effect on January 1 of the following year. It is a great annual opportunity to ensure your plan still meets your health needs and budget." },
       { type: "heading", level: 2, text: "The Medicare Advantage Open Enrollment Period (MA OEP)", id: "the-medicare-advantage-open-enrollment-period-ma-oep" },
       { type: "paragraph", content: "This period is specifically for individuals who are already enrolled in a Medicare Advantage plan. The Medicare Advantage Open Enrollment Period (MA OEP) runs from January 1 to March 31 each year." },
       { type: "paragraph", content: "If you are in a Medicare Advantage plan and are unhappy with it, you can make a one-time change during the MA OEP. You can:" },
+      { type: "list", ordered: false, items: [
+        "Switch to a different Medicare Advantage plan",
+        "Drop your Medicare Advantage plan and return to Original Medicare (and join a Part D plan if needed)"
+      ] },
       { type: "paragraph", content: "You cannot, however, switch from Original Medicare to a Medicare Advantage plan during this time." },
       { type: "heading", level: 2, text: "Special Enrollment Periods (SEPs)", id: "special-enrollment-periods-seps" },
       { type: "paragraph", content: "Life is full of changes, and Medicare has provisions for that. Special Enrollment Periods (SEPs) allow you to make changes to your Medicare coverage outside of the standard enrollment periods when certain life events occur." },
       { type: "heading", level: 3, text: "Common events that may qualify you for an SEP include:", id: "common-events-that-may-qualify-you-for-an-sep" },
+      { type: "list", ordered: false, items: [
+        "Losing employer-sponsored health coverage",
+        "Moving to a new area that is outside your plan's service area",
+        "Becoming eligible for Medicaid or Extra Help",
+        "Your plan leaving Medicare or stopping coverage in your area",
+        "Moving into or out of a skilled nursing facility or long-term care facility"
+      ] },
       { type: "paragraph", content: "The rules for SEPs can be specific, so it is important to understand your options if you experience a qualifying life event." },
       { type: "heading", level: 2, text: "Medigap Enrollment: Your Key to Predictable Costs", id: "medigap-enrollment-your-key-to-predictable-costs" },
       { type: "paragraph", content: "While the periods above apply to Medicare Parts A, B, C, and D, Medicare Supplement plans, also known as Medigap, have their own special enrollment window. The best time to buy a Medigap policy is during your Medigap Open Enrollment Period." },
@@ -356,6 +378,11 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "If you apply for a Medigap plan after this period ends, insurance companies can generally require medical underwriting. This means they could review your health history, charge you a higher premium, or even deny your application altogether." },
       { type: "heading", level: 2, text: "Understanding Late Enrollment Penalties", id: "understanding-late-enrollment-penalties" },
       { type: "paragraph", content: "Enrolling on time is not just about starting your coverage; it is also about avoiding costly, lifelong penalties." },
+      { type: "list", ordered: false, items: [
+        "Part B late enrollment penalty: 10% added to your monthly premium for each full 12-month period you were eligible but did not enroll. This penalty lasts for as long as you have Part B.",
+        "Part D late enrollment penalty: 1% of the national base beneficiary premium multiplied by the number of months you went without creditable drug coverage. This penalty is also permanent.",
+        "Part A penalty (if applicable): If you are not automatically eligible for premium-free Part A, delaying enrollment can add 10% to your premium for twice the number of years you delayed."
+      ] },
       { type: "paragraph", content: "These penalties can add up significantly over time, making it essential to enroll in Medicare when you first become eligible." },
     ],
     relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage", "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained", "inpatient-only-list"],
