@@ -1109,7 +1109,7 @@ export const blogArticles: BlogArticleData[] = [
         "Individuals focused only on Medicare Part A details",
         "Those researching non-Medicare private insurance plans",
         "Anyone needing past-year (2023-2025) cost specifics"
-      ] },},
+      ] },
       { type: "heading", level: 2, text: "Final Thoughts", id: "final-thoughts" },
       { type: "paragraph", content: "Understanding the Medicare Part B deductible for 2026 is more than just learning a dollar amount. It\'s about seeing how that deductible, your monthly premium, and your 20% coinsurance all work together to shape your total healthcare spending." },
       { type: "paragraph", content: "By knowing that the deductible resets every January, which services count toward it, and what happens once you\'ve met it, you can take control of your Medicare experience instead of feeling lost in the fine print. Many seniors find that pairing Original Medicare with a carefully chosen Medigap plan or Medicare Advantage plan creates a clearer, more comfortable path through retirement healthcare." },
