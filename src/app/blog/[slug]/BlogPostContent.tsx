@@ -32,51 +32,67 @@ import { motion } from "framer-motion";
 import type { BlogArticleData, BlogSectionContent } from "@/lib/article-types";
 import { blogArticles } from "@/lib/blog-articles-data";
 import { trackPhoneClick } from "@/lib/analytics";
-/* ─── Markdown Link Parser ─── */
-function renderParagraph(text: string, key: number | string, className?: string) {
-  const parts: React.ReactNode[] = [];
-  const linkRegex = /\[([^\]]+)\]\(([^)]*)\)/g;
+/* ─── Markdown Inline Parser ─── */
+// Parses **bold**, *italic*, and [text](url) in a string and returns React nodes
+function parseInline(text: string, keyPrefix: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = [];
+  // Combined regex: **bold**, *italic*, [text](url)
+  const inlineRegex = /(\*\*([^*]+)\*\*|\*([^*]+)\*|\[([^\]]+)\]\(([^)]*)\))/g;
   let lastIndex = 0;
   let match;
-  while ((match = linkRegex.exec(text)) !== null) {
+  while ((match = inlineRegex.exec(text)) !== null) {
     if (match.index > lastIndex) {
-      parts.push(text.slice(lastIndex, match.index));
+      nodes.push(text.slice(lastIndex, match.index));
     }
-    const [, linkText, href] = match;
-    if (!href || href.trim() === "") {
-      parts.push(<strong key={`bold-${match.index}`}>{linkText}</strong>);
-    } else {
-      const isInternal = href.startsWith("/");
-      parts.push(
-        isInternal ? (
-          <Link
-            key={`link-${match.index}`}
-            href={href}
-            className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-          >
-            {linkText}
-          </Link>
-        ) : (
-          <a
-            key={`link-${match.index}`}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-          >
-            {linkText}
-          </a>
-        )
-      );
+    if (match[2] !== undefined) {
+      // **bold**
+      nodes.push(<strong key={`${keyPrefix}-b-${match.index}`}>{match[2]}</strong>);
+    } else if (match[3] !== undefined) {
+      // *italic*
+      nodes.push(<em key={`${keyPrefix}-i-${match.index}`}>{match[3]}</em>);
+    } else if (match[4] !== undefined) {
+      // [text](url)
+      const linkText = match[4];
+      const href = match[5];
+      if (!href || href.trim() === "") {
+        nodes.push(<strong key={`${keyPrefix}-l-${match.index}`}>{linkText}</strong>);
+      } else {
+        const isInternal = href.startsWith("/");
+        nodes.push(
+          isInternal ? (
+            <Link
+              key={`${keyPrefix}-l-${match.index}`}
+              href={href}
+              className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
+            >
+              {linkText}
+            </Link>
+          ) : (
+            <a
+              key={`${keyPrefix}-l-${match.index}`}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
+            >
+              {linkText}
+            </a>
+          )
+        );
+      }
     }
     lastIndex = match.index + match[0].length;
   }
   if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
+    nodes.push(text.slice(lastIndex));
   }
+  return nodes;
+}
+
+function renderParagraph(text: string, key: number | string, className?: string) {
   return (
     <p key={key} className={className}>
-      {parts}
+      {parseInline(text, String(key))}
     </p>
   );
 }
