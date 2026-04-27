@@ -143,7 +143,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "4 min read",
     featured: true,
-    image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1758691031749-607d43c14f63?w=1200&h=675&fit=crop",
     tableOfContents: [
       { id: "a-quick-note-on-medicare-costs", title: "A Quick Note on Medicare costs" },
       { id: "medicare-part-a", title: "Medicare Part A" },
@@ -250,7 +250,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1631217875019-8cb2649c3478?w=1200&h=675&fit=crop",
     tableOfContents: [
       { id: "how-a-medicare-supplement-plan-works", title: "How a Medicare Supplement Plan Works" },
       { id: "how-a-medicare-advantage-plan-works", title: "How a Medicare Advantage Plan Works" },
@@ -1273,7 +1273,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1758691031730-640885ad19e5?w=1200&h=675&fit=crop",
     tableOfContents: [
       { id: "understanding-medicare-part-b-premiums", title: "Understanding Medicare Part B Premiums" },
       { id: "how-the-part-b-giveback-works", title: "How the Part B Giveback Works" },
@@ -2600,7 +2600,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1758691031730-640885ad19e5?w=1200&h=675&fit=crop",
       keyTakeaways: ["$0 premium Medicare Advantage plans eliminate the Part B premium ($202.90/month in 2026), but this saving may be offset by higher out-of-pocket costs at the doctor's office and hospital", "Network restrictions mean you can only see in-network providers, and going out-of-network costs significantly more or may not be covered at all", "These plans often include dental, vision, and hearing coverage that Original Medicare doesn\'t offer, which can provide real value if you use those services", "Your total costs depend on your health status, where you live, and which providers and services you use most, so comparing your specific situation matters more than the $0 premium alone"],
       tableOfContents: [
         { id: "why-zero-premium-plans-exist", title: "Why Do $0 Premium Medicare Advantage Plans Exist?" },
@@ -2898,7 +2898,7 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=500&fit=crop",
+      image: "https://images.unsplash.com/photo-1758691462321-9b6c98c40f7e?w=1200&h=675&fit=crop",
       keyTakeaways: ["You must stop HSA contributions once you enroll in Medicare Part A", "Continuing contributions after Medicare enrollment triggers a 20% penalty plus income taxes", "You can use existing HSA funds tax-free for qualified medical expenses in retirement"],
       tableOfContents: [
         { id: "hsa-medicare-rules", title: "HSA Rules Change at 65" },
