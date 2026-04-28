@@ -20017,4 +20017,221 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-varicose-veins",
     ],
   },
+  // ─── Medicare Approved Braces and Devices ─────────────────────────────────
+  {
+    slug: "medicare-braces-devices",
+    seo: {
+      title: "Medicare Approved Braces and Devices | MedicareFAQ",
+      description: "Find out what Medicare-approved braces and devices are covered under Part B. This includes braces for arm, leg, back, and neck when medically necessary.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-braces-devices/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-approved-braces-and-devices.jpg",
+    },
+    title: "Does Medicare Cover Braces and Orthotic Devices?",
+    subtitle: "Yes, Medicare Part B covers medically necessary braces for the arm, leg, back, and neck when ordered by a doctor. Learn about coverage details, costs, and what types of braces qualify.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers arm, leg, back, and neck braces when they are medically necessary and ordered by a doctor or other qualified health care provider. Braces fall under the Durable Medical Equipment (DME) benefit. After meeting the Part B deductible, you pay 20% of the Medicare-approved amount. Medicare Advantage plans must cover at least the same braces, and Medigap plans can help cover the remaining 20% coinsurance.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    subNavLinks: [
+      { label: "Original Medicare", href: "/faqs/medicare-braces-devices" },
+      { label: "Medicare Supplement", href: "/faqs/medicare-braces-devices" },
+      { label: "Medicare Part C", href: "/faqs/medicare-braces-devices" },
+      { label: "FAQs", href: "/faqs/medicare-braces-devices" },
+    ],
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Covered", icon: "shield", notes: "Covers medically necessary braces for arm, leg, back, and neck under Part B" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover at least what Original Medicare covers; may have different cost-sharing" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Helps with Costs", icon: "users", notes: "Covers the 20% coinsurance left after Part B pays its share" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Part D covers prescription drugs, not medical devices" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers medically necessary braces",
+        paragraphs: [
+          "[Medicare Part B (Medical Insurance)](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers arm, leg, back, and neck braces when they are medically necessary and ordered by a doctor or other qualified health care provider. These braces fall under the Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS) benefit category.",
+          "To qualify for coverage, the brace must be a rigid or semi-rigid device used to support a weak or irregularly formed body part, or to restrict or eliminate motion in a diseased or injured part of the body. Soft elastic supports and similar items generally do not meet Medicare's definition of a brace.",
+          "You must obtain your brace from a Medicare-enrolled supplier. If the supplier accepts assignment, they can only charge you the coinsurance and Part B deductible for the Medicare-approved amount.",
+        ],
+        whatItCovers: [
+          "Arm braces (wrist, elbow, shoulder orthoses)",
+          "Leg braces (knee braces, ankle-foot orthoses, knee-ankle-foot orthoses)",
+          "Back braces (lumbar supports, thoracolumbar orthoses)",
+          "Neck braces (cervical collars, cervical orthoses)",
+          "Custom-molded and prefabricated orthotic devices when medically necessary",
+        ],
+        whatItDoesntCover: [
+          "Braces used solely for comfort or convenience",
+          "Soft elastic supports that do not meet the rigid/semi-rigid requirement",
+          "Braces from suppliers not enrolled in Medicare",
+          "Devices not ordered by a doctor or qualified provider",
+        ],
+        costNote: "After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount for your brace.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Must cover braces at minimum",
+        paragraphs: [
+          "[Medicare Advantage plans (Part C)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) are required to cover at least everything that Original Medicare covers, including medically necessary braces and orthotic devices. However, cost-sharing (copays, coinsurance, and deductibles) may differ from Original Medicare.",
+          "Some Medicare Advantage plans may offer additional DME benefits or lower cost-sharing for braces. However, you may be required to use in-network suppliers, and prior authorization may be needed for certain devices.",
+        ],
+        whatItCovers: [
+          "All braces covered by Original Medicare (arm, leg, back, neck)",
+          "Some plans may offer additional orthotic benefits",
+          "May include lower copays or coinsurance for DME",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network suppliers may not be covered",
+          "Prior authorization may be required",
+          "Coverage details vary by plan and ZIP code",
+        ],
+        callout: {
+          type: "tip",
+          title: "Before enrolling",
+          text: "Verify the plan is available in your area, confirm that your preferred DME supplier is in-network, and review the plan's cost-sharing for durable medical equipment and orthotics.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Helps with Costs",
+        coverageType: "covered",
+        statusBadge: "Covers remaining coinsurance",
+        paragraphs: [
+          "[Medicare Supplement plans (Medigap)](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) do not add additional brace coverage beyond what Original Medicare provides. However, they can significantly reduce your out-of-pocket costs by covering the 20% coinsurance that Part B does not pay.",
+          "For example, if Medicare approves a knee brace at $500, Part B pays 80% ($400) and you would owe 20% ($100). With a Medigap plan, your plan would cover most or all of that $100 coinsurance, depending on your specific plan type.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Common Brace Costs at a Glance",
+      headers: ["Brace Type", "Typical Cost Range", "Medicare Pays (80%)", "You Pay (20%)", "With Medigap"],
+      rows: [
+        { "Brace Type": "Knee Brace", "Typical Cost Range": "$100 \u2013 $800", "Medicare Pays (80%)": "$80 \u2013 $640", "You Pay (20%)": "$20 \u2013 $160", "With Medigap": "$0 \u2013 $0" },
+        { "Brace Type": "Back Brace (LSO)", "Typical Cost Range": "$200 \u2013 $1,000", "Medicare Pays (80%)": "$160 \u2013 $800", "You Pay (20%)": "$40 \u2013 $200", "With Medigap": "$0 \u2013 $0" },
+        { "Brace Type": "Ankle-Foot Orthosis (AFO)", "Typical Cost Range": "$200 \u2013 $2,000", "Medicare Pays (80%)": "$160 \u2013 $1,600", "You Pay (20%)": "$40 \u2013 $400", "With Medigap": "$0 \u2013 $0" },
+        { "Brace Type": "Neck Brace (Cervical)", "Typical Cost Range": "$50 \u2013 $500", "Medicare Pays (80%)": "$40 \u2013 $400", "You Pay (20%)": "$10 \u2013 $100", "With Medigap": "$0 \u2013 $0" },
+        { "Brace Type": "Wrist/Arm Brace", "Typical Cost Range": "$50 \u2013 $500", "Medicare Pays (80%)": "$40 \u2013 $400", "You Pay (20%)": "$10 \u2013 $100", "With Medigap": "$0 \u2013 $0" },
+      ],
+      footnote: "Costs shown are for the Medicare-approved amount after meeting the Part B deductible ($257 in 2026). Actual costs vary by supplier, location, and whether the supplier accepts assignment. Medigap coverage assumes a plan that covers Part B coinsurance (most plans do).",
+    },
+    exceptionsSection: {
+      title: "Important: Requirements for Medicare Coverage",
+      items: [
+        {
+          title: "Medical Necessity and Doctor's Order Required",
+          text: "Medicare will only cover a brace if it is medically necessary and ordered by a doctor or qualified health care provider. The brace must be a rigid or semi-rigid device designed to support a weak or deformed body part, or to restrict motion in a diseased or injured area. A face-to-face encounter with your doctor may be required before Medicare will approve certain orthotic devices.",
+          highlight: "Always get a written prescription from your doctor before purchasing a brace. Without a doctor's order, Medicare will not cover the cost.",
+        },
+        {
+          title: "Medicare-Enrolled Suppliers Only",
+          text: "You must obtain your brace from a supplier enrolled in the Medicare program. If you purchase a brace from a non-enrolled supplier, Medicare will not reimburse you. You can search for Medicare-enrolled DME suppliers in your area at Medicare.gov.",
+          highlight: "Ask your supplier if they accept Medicare assignment before purchasing. Suppliers who accept assignment can only charge you the Part B deductible and 20% coinsurance.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "2026 Coverage Update",
+      items: [
+        {
+          title: "Expanded Knee Brace Coverage for Osteoarthritis",
+          status: "Passed",
+          description: "Effective January 25, 2026, CMS issued a revised Local Coverage Determination (LCD) that expands Medicare coverage for knee braces used to treat osteoarthritis. The updated policy broadens the types of knee orthoses eligible for coverage, benefiting millions of seniors with knee osteoarthritis.",
+        },
+        {
+          title: "Streamlined DMEPOS Order Requirements",
+          status: "Passed",
+          description: "CMS has simplified the ordering requirements for Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS). The updated process reduces paperwork for both providers and beneficiaries while maintaining quality standards.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Tips for Getting the Most from Your Brace Coverage",
+      paragraphs: [
+        "Medicare covers a wide range of braces, but understanding the process can help you avoid unexpected costs and ensure your claim is approved.",
+        "Working with your doctor and a Medicare-enrolled supplier is the most important step. Your doctor must document the medical necessity for the brace, and the supplier must be enrolled in Medicare and ideally accept assignment.",
+      ],
+      checklist: {
+        title: "Steps to Follow",
+        type: "tip",
+        items: [
+          "Get a written prescription from your doctor specifying the type of brace needed",
+          "Confirm your supplier is enrolled in Medicare (search at Medicare.gov)",
+          "Ask if the supplier accepts Medicare assignment to limit your costs",
+          "Check if your Medicare Advantage plan requires prior authorization",
+          "Keep all receipts and documentation for your records",
+          "If denied, ask your doctor to submit an appeal with additional medical documentation",
+        ],
+      },
+    },
+    faqs: [
+      { question: "Does Medicare cover knee braces for osteoarthritis?", answer: "Yes. As of January 2026, CMS expanded coverage for knee braces used to treat osteoarthritis under a revised Local Coverage Determination. Your doctor must order the brace and document the medical necessity. You will pay 20% of the Medicare-approved amount after meeting your Part B deductible." },
+      { question: "Does Medicare cover back braces?", answer: "Yes, Medicare Part B covers back braces (lumbar-sacral orthoses and thoracolumbar orthoses) when medically necessary and ordered by a doctor. Common reasons include spinal fractures, post-surgical support, and chronic back conditions. You pay 20% coinsurance after the Part B deductible." },
+      { question: "Do I need a prescription to get a Medicare-covered brace?", answer: "Yes. Medicare requires a written order from a doctor or qualified health care provider before it will cover a brace. Without a prescription, Medicare will not pay for the device. A face-to-face encounter may also be required for certain orthotic devices." },
+      { question: "Can I buy a brace online and have Medicare pay for it?", answer: "Medicare will only cover braces from Medicare-enrolled suppliers. If you purchase a brace from an online retailer that is not enrolled in Medicare, you will be responsible for the full cost. Always verify the supplier's Medicare enrollment status before purchasing." },
+      { question: "Does Medicare cover finger splints?", answer: "Medicare may cover finger splints if they meet the definition of a rigid or semi-rigid orthotic device and are medically necessary. Your doctor must order the splint, and it must be obtained from a Medicare-enrolled supplier. Soft elastic finger supports typically do not qualify for coverage." },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare Part B</strong> covers arm, leg, back, and neck braces" },
+      { icon: "check", text: "Must be <strong>medically necessary</strong> and ordered by a doctor" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible ($257 in 2026)" },
+      { icon: "alert", text: "Must use a <strong>Medicare-enrolled supplier</strong>" },
+      { icon: "info", text: "A <strong>Medigap plan</strong> can cover the 20% coinsurance" },
+    ],
+    relatedTopics: [
+      { title: "Durable Medical Equipment (DME)", description: "Learn what qualifies as DME and how Medicare covers it.", slug: "durable-medical-equipment" },
+      { title: "Does Medicare Cover Wheelchairs and Scooters?", description: "Find out about Medicare coverage for mobility devices.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
+      { title: "Does Medicare Cover Prosthetic Devices?", description: "Learn about Medicare coverage for prosthetic limbs and devices.", slug: "does-medicare-cover-prosthetic-devices" },
+      { title: "Does Medicare Cover Knee Replacement?", description: "Understand Medicare coverage for knee replacement surgery.", slug: "does-medicare-cover-knee-replacement" },
+    ],
+    sidebarRelatedLinks: [
+      "Durable Medical Equipment",
+      "Wheelchairs and Scooters",
+      "Prosthetic Devices",
+      "Lower Back Pain Management",
+      "Medicare Costs in 2026",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Brace Coverage?",
+      text: "Medicare covers most medically necessary braces, but navigating the requirements can be confusing. Our licensed agents can help you understand your coverage and find the right plan \u2014 at no cost to you.",
+    },
+    relatedSlugs: [
+      "durable-medical-equipment",
+      "medicare-coverage-for-wheelchairs-and-scooters",
+      "does-medicare-cover-prosthetic-devices",
+      "does-medicare-cover-knee-replacement",
+      "medicare-coverage-for-lower-back-pain-management",
+      "does-medicare-cover-medical-alert-systems",
+    ],
+  },
+
+
 ];
