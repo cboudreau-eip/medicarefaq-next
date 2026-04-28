@@ -20234,4 +20234,227 @@ export const coverageArticles: CoverageArticleData[] = [
   },
 
 
+  {
+    slug: "medicare-qualified-government-wages",
+    seo: {
+      title: "Medicare Qualified Government Wages (MQGE) Explained",
+      description: "Learn what Medicare Qualified Government Employment (MQGE) means, who it applies to, and how it affects your Medicare eligibility and Part A premiums.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-qualified-government-wages/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-qualified-government-wages.jpg",
+    },
+    title: "Medicare Qualified Government Wages (MQGE) Explained",
+    subtitle: "Medicare Qualified Government Employment (MQGE) refers to wages earned by federal, state, and local government employees who pay Medicare taxes but not Social Security taxes. Understanding MQGE is critical because it directly affects your Medicare Part A eligibility and premium costs.",
+    category: "Medicare Eligibility",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Medicare Qualified Government Employment (MQGE) is a classification for government employees who pay Medicare taxes (1.45%) but not Social Security taxes. Your MQGE wages count toward the 40 quarters needed for premium-free Medicare Part A. Federal employees hired after December 31, 1982, and state/local employees hired after March 31, 1986, are subject to mandatory MQGE coverage.",
+      badges: [
+        { plan: "Part A Eligibility", status: "covered" },
+        { plan: "Social Security Credits", status: "not-covered" },
+        { plan: "FEHB Coordination", status: "partial" },
+      ],
+    },
+    subNavLinks: [
+      { label: "What Is MQGE", href: "/faqs/medicare-qualified-government-wages" },
+      { label: "Who Qualifies", href: "/faqs/medicare-qualified-government-wages" },
+      { label: "Part A Premiums", href: "/faqs/medicare-qualified-government-wages" },
+      { label: "FEHB & Medicare", href: "/faqs/medicare-qualified-government-wages" },
+      { label: "FAQs", href: "/faqs/medicare-qualified-government-wages" },
+    ],
+    comparisonTable: [
+      { planType: "Federal Employees (hired after 12/31/1982)", coverage: "MQGE", icon: "shield", notes: "Covered under FERS; pay 1.45% Medicare tax only" },
+      { planType: "State & Local Employees (hired after 3/31/1986)", coverage: "MQGE", icon: "building", notes: "Mandatorily covered for Medicare; may have Section 218 agreements" },
+      { planType: "Government Employees (hired before cutoff dates)", coverage: "May Not Qualify", icon: "alert-triangle", notes: "May not have MQGE coverage unless rehired after cutoff dates" },
+      { planType: "Private-Sector Employees", coverage: "Full FICA", icon: "briefcase", notes: "Pay both Social Security (6.2%) and Medicare (1.45%) taxes" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is MQGE?",
+        icon: "info",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Medicare Tax Only",
+        coverageType: "partial",
+        statusBadge: "Pays 1.45% Medicare tax — not Social Security",
+        paragraphs: [
+          "Medicare Qualified Government Employment (MQGE) is a classification used by the [Social Security Administration](https://www.ssa.gov/) for government employees whose wages are subject to Medicare taxes but not Social Security taxes. This distinction matters because it determines how you earn eligibility for [Medicare Part A](/faqs/original-medicare-vs-medicare-advantage) and whether you will owe a premium for it.",
+          "Most private-sector workers pay both Social Security tax (6.2%) and Medicare tax (1.45%) through FICA payroll deductions — a combined 7.65%. However, many government employees are exempt from Social Security taxes. The Social Security Amendments of 1983 changed this by requiring all newly hired federal employees to pay Medicare taxes, even if they were not covered by Social Security.",
+          "State and local government employees hired or rehired after March 31, 1986, are also subject to mandatory Medicare coverage. These employees earn MQGE wages, which count toward the 40 quarters (10 years) of work needed to qualify for premium-free Medicare Part A.",
+        ],
+        whatItCovers: [
+          "Counts toward Medicare Part A eligibility (40 quarters needed)",
+          "Federal employees under FERS (hired after 12/31/1982)",
+          "State and local employees hired or rehired after 3/31/1986",
+          "Employees covered through Section 218 agreements",
+        ],
+        whatItDoesntCover: [
+          "Does NOT count toward Social Security retirement benefits",
+          "Does NOT count toward Social Security disability benefits",
+          "Does NOT count toward Social Security survivor benefits",
+          "Does NOT apply to employees hired before cutoff dates (unless rehired)",
+        ],
+        callout: {
+          type: "info",
+          title: "How to check your quarters",
+          text: "You can verify your MQGE quarters by creating an account at SSA.gov or by calling the Social Security Administration at 1-800-772-1213. Your earnings record will show which quarters count toward Medicare eligibility.",
+        },
+      },
+      {
+        planName: "FEHB and Medicare Coordination",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Can Use Both",
+        coverageType: "covered",
+        statusBadge: "FEHB + Medicare provides comprehensive coverage",
+        paragraphs: [
+          "Many federal employees and retirees have coverage through the [Federal Employees Health Benefits (FEHB)](/faqs/fehb-and-medicare) program. You are not required to enroll in Medicare if you have FEHB, but doing so can provide significant benefits.",
+          "When you enroll in both Medicare and FEHB, Medicare becomes your primary insurance and FEHB becomes secondary. This coordination of benefits can substantially reduce your out-of-pocket costs, as FEHB may cover costs that Medicare does not — such as dental, vision, and prescription drugs.",
+        ],
+        whatItCovers: [
+          "FEHB counts as creditable drug coverage — no Part D late penalty",
+          "Medicare becomes primary; FEHB becomes secondary",
+          "Combined coverage reduces out-of-pocket costs significantly",
+          "You can suspend (not cancel) FEHB if desired",
+        ],
+        whatItDoesntCover: [
+          "FEHB alone does not replace Medicare Part A benefits",
+          "You still pay the Part B premium ($185/month in 2026) if you enroll",
+          "Not all FEHB plans coordinate the same way — check your plan details",
+        ],
+        callout: {
+          type: "tip",
+          title: "Best practice for federal retirees",
+          text: "If you qualify for premium-free Part A (40+ quarters), enroll in it — it costs nothing and adds hospital coverage that coordinates with FEHB. Then carefully compare whether adding Part B is worth the monthly premium based on your FEHB plan's benefits.",
+        },
+      },
+      {
+        planName: "Medicare Enrollment for Government Employees",
+        icon: "calendar",
+        iconColor: "#7C3AED",
+        coverageLabel: "Know Your Deadlines",
+        coverageType: "partial",
+        statusBadge: "Enrollment timing matters — avoid penalties",
+        paragraphs: [
+          "If you are a government employee approaching age 65, understanding your enrollment windows is essential to avoid [late enrollment penalties](/faqs/protect-yourself-from-medicare-penalties-and-deadlines) and gaps in coverage.",
+          "Your Initial Enrollment Period (IEP) begins three months before the month you turn 65 and ends three months after. If you are still actively working and covered by your employer's group health plan (including FEHB), you may qualify for a Special Enrollment Period (SEP) that allows you to delay Medicare enrollment without penalty.",
+        ],
+        whatItCovers: [
+          "Initial Enrollment Period: 7-month window around your 65th birthday",
+          "Special Enrollment Period: available while actively employed with group coverage",
+          "Premium-free Part A: enroll anytime — no penalty for late enrollment",
+          "Part B: enroll during IEP or SEP to avoid 10% penalty per year delayed",
+        ],
+        whatItDoesntCover: [
+          "Missing your IEP without qualifying for SEP triggers late penalties",
+          "Part B penalty: 10% surcharge for each full 12-month period you delayed",
+          "Part D penalty: 1% of base premium per month without creditable coverage",
+        ],
+        costNote: "If you qualify for premium-free Part A, there is no reason to delay enrollment. Part A has no monthly premium and provides hospital insurance that coordinates with your existing benefits.",
+      },
+    ],
+    costTable: {
+      title: "2026 Medicare Part A Premiums Based on Work Quarters",
+      headers: ["Work History", "Quarters", "Monthly Part A Premium", "Annual Cost"],
+      rows: [
+        { "Work History": "10+ years of MQGE or FICA employment", "Quarters": "40+", "Monthly Part A Premium": "$0", "Annual Cost": "$0" },
+        { "Work History": "7.5 to 10 years", "Quarters": "30–39", "Monthly Part A Premium": "~$283", "Annual Cost": "~$3,396" },
+        { "Work History": "Less than 7.5 years", "Quarters": "< 30", "Monthly Part A Premium": "~$518", "Annual Cost": "~$6,216" },
+      ],
+      footnote: "Premiums are for 2026. MQGE quarters and private-sector quarters are combined when calculating eligibility. Part B standard premium is $185/month regardless of work history.",
+    },
+    exceptionsSection: {
+      title: "Important: Combining MQGE and Private-Sector Quarters",
+      items: [
+        {
+          title: "All Medicare-Taxed Quarters Count Together",
+          text: "If you have worked in both government MQGE positions and private-sector jobs, all quarters in which you paid Medicare taxes are combined. For example, 25 quarters of state government MQGE work plus 15 quarters of private-sector employment equals 40 total quarters — qualifying you for premium-free Part A.",
+          highlight: "Check your full earnings history at SSA.gov to see your combined quarter count from all Medicare-taxed employment.",
+        },
+        {
+          title: "Self-Employment Quarters Also Count",
+          text: "If you have done freelance or independent contractor work, you paid into Medicare through the self-employment tax (2.9% combined employer/employee share). These quarters count toward your Medicare eligibility alongside your MQGE quarters.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Legislative Background",
+      items: [
+        {
+          title: "Social Security Amendments of 1983",
+          status: "Passed",
+          description: "This landmark legislation required all federal employees hired after December 31, 1982, to pay Medicare taxes. It created the MQGE classification for government workers who pay Medicare tax but not Social Security tax.",
+        },
+        {
+          title: "Consolidated Omnibus Budget Reconciliation Act of 1985 (COBRA)",
+          status: "Passed",
+          description: "Extended mandatory Medicare coverage to all state and local government employees hired or rehired after March 31, 1986. This ensured that nearly all new government employees contribute to the Medicare system.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Steps to Determine Your Medicare Eligibility as a Government Employee",
+      paragraphs: [
+        "If you are a current or former government employee, taking a few proactive steps can help you understand your Medicare eligibility and avoid costly surprises at age 65.",
+        "Many government employees are surprised to learn they may not qualify for premium-free Part A if they have fewer than 40 combined quarters. Planning ahead gives you time to earn additional quarters if needed.",
+      ],
+      checklist: {
+        title: "Action Items for Government Employees",
+        type: "tip",
+        items: [
+          "Create an account at SSA.gov and review your earnings record",
+          "Count your total Medicare-taxed quarters (MQGE + private sector + self-employment)",
+          "If you have fewer than 40 quarters, consider working in a Medicare-taxed position to earn more",
+          "Contact your HR department to confirm your MQGE classification",
+          "Compare your FEHB benefits with Medicare Parts A, B, and D",
+          "Mark your Initial Enrollment Period on your calendar (3 months before turning 65)",
+          "Speak with a licensed Medicare agent to review your full coverage options",
+        ],
+      },
+    },
+    faqs: [
+      { question: "Do MQGE wages count toward Social Security benefits?", answer: "No. MQGE wages are taxed only for Medicare purposes. They do not count toward your Social Security retirement, disability, or survivor benefits. If you need Social Security credits, they must come from employment covered by Social Security taxes." },
+      { question: "Can I combine MQGE quarters with private-sector quarters?", answer: "Yes. All quarters in which you paid Medicare taxes — whether through government MQGE employment, private-sector work, or self-employment — are combined to determine your Medicare Part A eligibility and premium." },
+      { question: "What if I was hired before the MQGE cutoff dates?", answer: "If you were a federal employee hired before January 1, 1983, or a state/local employee hired before April 1, 1986, your wages may not be classified as MQGE. However, if you were rehired after those dates, your new employment is subject to mandatory Medicare coverage." },
+      { question: "Is Medicare enrollment mandatory for government retirees?", answer: "No. Medicare enrollment is voluntary. However, if you qualify for premium-free Part A, most financial advisors recommend enrolling because it adds hospital coverage at no cost to you." },
+      { question: "Should I keep FEHB if I enroll in Medicare?", answer: "In most cases, yes. Keeping both FEHB and Medicare provides comprehensive coverage. Medicare becomes primary and FEHB secondary, which can significantly reduce your out-of-pocket costs. Plus, FEHB counts as creditable drug coverage, so you won't face a Part D late penalty." },
+    ],
+    quickReference: [
+      { icon: "info", text: "<strong>MQGE</strong> = government wages taxed for Medicare but not Social Security" },
+      { icon: "check", text: "<strong>40 quarters</strong> of MQGE/FICA work = premium-free Part A" },
+      { icon: "dollar", text: "Fewer than 30 quarters = <strong>~$518/month</strong> Part A premium in 2026" },
+      { icon: "alert", text: "<strong>FEHB</strong> counts as creditable coverage — no Part D late penalty" },
+      { icon: "check", text: "MQGE + private-sector + self-employment quarters <strong>all combine</strong>" },
+    ],
+    relatedTopics: [
+      { title: "FEHB and Medicare", description: "How Federal Employee Health Benefits work alongside Medicare coverage.", slug: "fehb-and-medicare" },
+      { title: "Medicare Costs in 2026", description: "Complete breakdown of Medicare premiums, deductibles, and costs for 2026.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
+      { title: "Medicare Penalties & Deadlines", description: "Avoid costly late enrollment penalties with this comprehensive guide.", slug: "protect-yourself-from-medicare-penalties-and-deadlines" },
+      { title: "Guide to Retirement Planning", description: "Plan your Medicare coverage as part of your overall retirement strategy.", slug: "guide-to-retirement-planning" },
+    ],
+    sidebarRelatedLinks: [
+      "FEHB and Medicare",
+      "Medicare Costs in 2026",
+      "Medicare Enrollment Periods",
+      "Medicare Penalties",
+      "Retirement Planning Guide",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Medicare Options?",
+      text: "Whether you're a federal retiree with FEHB or a state employee approaching 65, our licensed Medicare experts can help you navigate your coverage options — at no cost to you.",
+    },
+    relatedSlugs: ["fehb-and-medicare", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "protect-yourself-from-medicare-penalties-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "reduce-medicare-premiums", "guide-to-retirement-planning", "what-is-medicare", "applying-for-medicare"],
+  },
+
 ];
