@@ -136,31 +136,80 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "how-the-medigap-free-look-period-protects-you", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
-  {
+{
     slug: 'medicare-qualified-government-wages',
     seo: {
-      title: 'Medicare Qualified Government Wages',
-      description: 'Government employees who don\'t receive Social Security Benefits and must take Medicare receive Medicare Qualified Government Wages.',
+      title: 'Medicare Qualified Government Wages (MQGE) Explained',
+      description: 'Learn what Medicare Qualified Government Employment (MQGE) means, who it applies to, and how it affects your Medicare eligibility and Part A premiums.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-qualified-government-wages/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-qualified-government-wages.jpg',
     },
-    title: 'Medicare Qualified Government Wages',
-    summary: '',
+    title: 'Medicare Qualified Government Wages (MQGE) Explained',
+    summary: 'Medicare Qualified Government Employment (MQGE) refers to wages earned by federal, state, and local government employees who pay Medicare taxes but not Social Security taxes. Understanding MQGE is important because it directly affects your Medicare Part A eligibility and premium costs.',
     category: 'Medicare FAQ',
-    dateUpdated: 'February 16, 2026',
-    author: 'Jagger Esch',
-    reviewer: '',
-    readTime: '',
+    dateUpdated: 'April 28, 2026',
+    author: 'David Haass',
+    reviewer: 'Ashlee Zareczny',
+    readTime: '5 min read',
     sections: [
       {
-        heading: 'FEHB and Medicare',
+        heading: 'What Are Medicare Qualified Government Wages?',
         paragraphs: [
-          'Updated on February 16, 2026',
-          'If you have [Federal Employee Health Benefits ([FEHB](/blog/understanding-how-medicare-works-with-employer-health-plans))](/faqs/fehb-and-medicare), you may be wondering how your FEHB...',
+          'Medicare Qualified Government Employment (MQGE) is a classification used by the Social Security Administration (SSA) for government employees whose wages are subject to Medicare taxes but not Social Security taxes. This distinction matters because it determines how you earn eligibility for [Medicare Part A](/faqs/original-medicare-vs-medicare-advantage) and whether you will owe a premium for it.',
+          'Most private-sector workers pay both Social Security tax (6.2%) and Medicare tax (1.45%) through FICA payroll deductions. However, many government employees — particularly those hired before certain cutoff dates — were exempt from Social Security taxes. The Social Security Amendments of 1983 changed this by requiring all newly hired federal employees to pay Medicare taxes, even if they were not covered by Social Security.',
+          'State and local government employees hired or rehired after March 31, 1986, are also subject to mandatory Medicare coverage. These employees earn MQGE wages, which count toward the 40 quarters (10 years) of work needed to qualify for premium-free Medicare Part A.',
+        ],
+      },
+      {
+        heading: 'Who Is Considered an MQGE?',
+        paragraphs: [
+          'You are likely classified as a Medicare Qualified Government Employee if you fall into one of the following categories:',
+          '**Federal employees hired after December 31, 1982** — These workers are covered under the Federal Employees Retirement System (FERS) and pay Medicare taxes on their wages. They do not pay into Social Security through their federal employment, though they may have Social Security credits from prior private-sector work.',
+          '**State and local government employees hired or rehired after March 31, 1986** — Under federal law, these employees are mandatorily covered for Medicare. Their wages are subject to the 1.45% Medicare tax, and each quarter of employment counts toward Medicare eligibility.',
+          '**Certain government employees brought into Medicare coverage through Section 218 agreements** — Some state and local governments have voluntary agreements with the SSA that extend Medicare (and sometimes Social Security) coverage to their employees. If your employer has such an agreement, your wages may qualify as MQGE wages.',
+          'If you are unsure whether your government wages count as MQGE, you can check your earnings record by creating an account at [SSA.gov](https://www.ssa.gov/myaccount/) or by contacting the Social Security Administration directly.',
+        ],
+      },
+      {
+        heading: 'How MQGE Affects Your Medicare Part A Premium',
+        paragraphs: [
+          'The number of quarters you have worked in MQGE (or any Medicare-taxed employment) directly determines your [Medicare Part A premium](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes). Here is how it breaks down for 2026:',
+          '**40 or more quarters (10+ years):** You qualify for premium-free Part A. This is the goal for most beneficiaries, and your MQGE quarters count toward this threshold just like private-sector quarters.',
+          '**30 to 39 quarters:** You pay a reduced Part A premium. In 2026, the reduced premium is approximately $283 per month.',
+          '**Fewer than 30 quarters:** You pay the full Part A premium, which is approximately $518 per month in 2026.',
+          'If you have worked in both government and private-sector jobs, all of your Medicare-taxed quarters are combined. For example, if you worked 25 quarters in a state government MQGE position and 15 quarters in a private-sector job, you would have 40 total quarters and qualify for premium-free Part A.',
+        ],
+      },
+      {
+        heading: 'FEHB and Medicare: How They Work Together',
+        paragraphs: [
+          'Many federal employees and retirees have coverage through the [Federal Employees Health Benefits (FEHB)](/faqs/fehb-and-medicare) program. A common question is whether you need Medicare if you already have FEHB.',
+          'The short answer is that you are not required to enroll in Medicare if you have FEHB, but doing so can provide significant benefits. When you enroll in both Medicare and FEHB, Medicare becomes your primary insurance and FEHB becomes secondary. This coordination of benefits can substantially reduce your out-of-pocket costs.',
+          'Importantly, FEHB counts as creditable prescription drug coverage, which means you will not face a [late enrollment penalty](/faqs/protect-yourself-from-medicare-penalties-and-deadlines) if you decide to enroll in [Medicare Part D](/faqs/how-is-medicare-part-d-changing-in-2026) at a later date.',
+          'Federal retirees should carefully compare their FEHB benefits with Medicare to determine the best combination of coverage. Many retirees find that enrolling in Medicare Part A (which is free if you have 40 quarters) and keeping FEHB provides excellent coverage at minimal additional cost.',
+        ],
+      },
+      {
+        heading: 'Medicare Enrollment for Government Employees',
+        paragraphs: [
+          'If you are a government employee approaching age 65, you should be aware of the following enrollment considerations:',
+          '**Initial Enrollment Period (IEP):** Your IEP begins three months before the month you turn 65 and ends three months after. During this window, you can enroll in Medicare Parts A and B without penalty.',
+          '**Special Enrollment Period (SEP):** If you are still actively working and covered by your employer\'s group health plan (including FEHB), you may qualify for a Special Enrollment Period. This allows you to delay Medicare enrollment without facing late penalties, and enroll when you retire or lose employer coverage.',
+          '**Part A enrollment:** If you qualify for premium-free Part A, there is generally no reason to delay enrollment. Part A has no monthly premium and provides hospital insurance coverage that coordinates with your existing benefits.',
+          'You can enroll in Medicare through the [Social Security Administration](https://www.ssa.gov/) website, by calling 1-800-772-1213, or by visiting your local Social Security office.',
+        ],
+      },
+      {
+        heading: 'Frequently Asked Questions',
+        paragraphs: [
+          '**Do MQGE wages count toward Social Security benefits?** No. MQGE wages are taxed only for Medicare purposes. They do not count toward your Social Security retirement, disability, or survivor benefits. If you need Social Security credits, they must come from employment that is covered by Social Security taxes.',
+          '**Can I combine MQGE quarters with private-sector quarters?** Yes. All quarters in which you paid Medicare taxes — whether through government MQGE employment or private-sector work — are combined to determine your Medicare Part A eligibility and premium.',
+          '**What if I was a government employee hired before the cutoff dates?** If you were a federal employee hired before January 1, 1983, or a state/local employee hired before April 1, 1986, your wages may not be classified as MQGE. However, if you were rehired after those dates, your new employment would be subject to mandatory Medicare coverage.',
+          '**Is Medicare enrollment mandatory for government retirees?** No. Medicare enrollment is voluntary. However, if you qualify for premium-free Part A, most financial advisors recommend enrolling because it adds a layer of coverage at no cost to you.',
         ],
       },
     ],
-    relatedSlugs: ["medicare-costs-2025", "irmaa", "reduce-medicare-premiums", "guide-to-retirement-planning"],
+    relatedSlugs: ["fehb-and-medicare", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "protect-yourself-from-medicare-penalties-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "reduce-medicare-premiums", "guide-to-retirement-planning", "what-is-medicare", "applying-for-medicare"],
   },
   {
     slug: 'how-is-medicare-funded',
