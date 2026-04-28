@@ -1914,7 +1914,8 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/cms-images/1777386024582-v4urac.jpg",
+    imageAlt: "retirement, social security and medicare",
       keyTakeaways: ["Full Retirement Age (FRA) is when you can claim 100% of your Social Security benefit; it ranges from 66 to 67 depending on your birth year", "Your FRA does not change your Medicare eligibility at age 65, but it affects how much Social Security income you'll receive", "Claiming Social Security before your FRA results in permanently reduced benefits, while delaying past FRA increases your benefit by 8% per year", "Coordinating your Medicare enrollment with your Social Security claiming strategy can help maximize your retirement income and avoid costly penalties"],
       tableOfContents: [
         { id: "what-is-full-retirement-age", title: "What Is Full Retirement Age?" },
