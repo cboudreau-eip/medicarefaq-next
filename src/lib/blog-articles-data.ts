@@ -793,7 +793,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: true,
-    image: "https://images.pexels.com/photos/7551442/pexels-photo-7551442.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    image: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     tableOfContents: [
       { id: "what-is-automatic-enrollment", title: "What Is Automatic Enrollment?" },
       { id: "what-is-manual-voluntary-enrollment", title: "What Is Manual (Voluntary) Enrollment?" },
@@ -842,7 +842,7 @@ export const blogArticles: BlogArticleData[] = [
     title: "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained | MedicareFAQ",
     description: "Explore the differences between Medicare Supplement and Medicare Advantage plans, focusing on coverage transparency, costs, benefits, and provider access to help you make informed healthcare decisions.",
     canonical: "https://yourwebsite.com/medicare-advantage-vs-medigap",
-    ogImage: "https://images.pexels.com/photos/7551442/pexels-photo-7551442.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
+    ogImage: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
   },
   slug: "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained",
     title: "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained",
