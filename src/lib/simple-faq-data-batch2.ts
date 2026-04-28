@@ -944,31 +944,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g", "what-is-the-best-medicare-supplement-plan", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
-    slug: 'medicare-and-divorce',
-    seo: {
-      title: 'Medicare Eligibility for Spouses & Eligibility After a Divorce',
-      description: 'Find out what you need to know about Medicare eligibility for spouses as well as Medicare eligibility after a divorce here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-and-divorce/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-eligibility-for-spouses-eligibility-after-a-divorce.jpg',
-    },
-    title: 'Medicare Eligibility for Spouses & Eligibility After a Divorce',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'To the medicarefaq.com admin, Thanks for the [well-researched and well-written post](/blog/married-divorced-widowed-how-relationship-status-affects-medicare)!',
-        ],
-      },
-    ],
-    relatedSlugs: ["married-divorced-widowed-how-relationship-status-affects-medicare", "differences-between-medicare-and-social-security", "applying-for-medicare", "full-retirement-age", "when-does-medicare-start"],
-  },
-  {
     slug: 'travel-insurance-for-seniors-with-medicare',
     seo: {
       title: 'Does Medicare Cover International Travel?',

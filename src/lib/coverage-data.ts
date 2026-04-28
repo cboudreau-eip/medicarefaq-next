@@ -20457,4 +20457,236 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["fehb-and-medicare", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "protect-yourself-from-medicare-penalties-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "reduce-medicare-premiums", "guide-to-retirement-planning", "what-is-medicare", "applying-for-medicare"],
   },
 
+  {
+    slug: "medicare-and-divorce",
+    seo: {
+      title: "Medicare and Divorce: Eligibility, Benefits & What You Need to Know",
+      description: "Learn how divorce affects your Medicare eligibility, whether you can use your ex-spouse's work record for premium-free Part A, and what coverage options are available.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-and-divorce/",
+      ogImage: "https://images.pexels.com/photos/7551604/pexels-photo-7551604.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    title: "Medicare and Divorce: Eligibility, Benefits & What You Need to Know",
+    subtitle: "How divorce affects your Medicare eligibility and whether you can qualify for premium-free Part A through your ex-spouse's work record.",
+    category: "Coverage Q&A",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author" as const,
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer" as const,
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Divorce does not disqualify you from Medicare. If you were married for at least 10 years, are currently unmarried, and your ex-spouse has 40+ work credits, you can qualify for premium-free Part A using their work record — no permission needed.",
+      badges: [
+        { plan: "Part A via Ex-Spouse", status: "covered" as const },
+        { plan: "Part B", status: "covered" as const },
+        { plan: "Remarried", status: "not-covered" as const },
+      ],
+    },
+    comparisonTable: [
+      { planType: "You have 40+ own work credits", coverage: "Premium-Free Part A", icon: "check", notes: "Qualify on your own record regardless of marital status" },
+      { planType: "Divorced after 10+ year marriage, unmarried", coverage: "Premium-Free Part A", icon: "check", notes: "Can use ex-spouse's work record (40+ credits needed)" },
+      { planType: "Divorced after <10 year marriage", coverage: "Must Pay Premium", icon: "x", notes: "Must qualify on your own work record or pay a premium" },
+      { planType: "Divorced and remarried", coverage: "Cannot Use Ex-Spouse", icon: "x", notes: "Cannot use prior ex-spouse's record while currently married" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Qualifying Through Your Ex-Spouse's Work Record",
+        icon: "shield",
+        iconColor: "#059669",
+        coverageLabel: "Eligible",
+        coverageType: "covered" as const,
+        statusBadge: "10+ year marriage required",
+        paragraphs: [
+          "If you were married for at least 10 consecutive years and are currently unmarried, you may qualify for premium-free [Medicare Part A](/faqs/what-is-medicare) using your ex-spouse's work record. Your ex-spouse must have at least 40 work credits (10 years of Medicare-taxed employment) and be at least 62 years old.",
+          "You do not need your ex-spouse's permission, and they do not need to know you are using their record. Their benefits are not reduced in any way.",
+        ],
+        whatItCovers: [
+          "Marriage lasted at least 10 consecutive years",
+          "You are currently unmarried (not remarried)",
+          "Your ex-spouse has at least 40 work credits",
+          "You are age 65 or older and ex-spouse is at least 62",
+        ],
+        whatItDoesntCover: [
+          "Marriages lasting less than 10 years",
+          "Currently remarried individuals",
+          "Ex-spouse has fewer than 40 work credits",
+        ],
+        costNote: "No permission is needed from your ex-spouse. Their benefits are never reduced by your claim.",
+      },
+      {
+        planName: "If You Don't Qualify Through an Ex-Spouse",
+        icon: "dollar-sign",
+        iconColor: "#D97706",
+        coverageLabel: "Premium Required",
+        coverageType: "partial" as const,
+        statusBadge: "You can still enroll in Medicare",
+        paragraphs: [
+          "Even if you cannot use an ex-spouse's work record, you can still enroll in Medicare. You may need to pay a monthly premium for Part A if you have fewer than 40 work credits of your own.",
+          "Part B, Medicare Advantage, and Part D prescription drug coverage are available to everyone age 65 and older regardless of work history or marital status.",
+        ],
+        whatItCovers: [
+          "Part B available to everyone 65+ ($185/month in 2026)",
+          "Part A purchasable: ~$283/month (30–39 credits) or ~$518/month (<30 credits)",
+          "Medicare Advantage plans available with Parts A and B",
+          "Part D prescription drug coverage available to all",
+        ],
+        whatItDoesntCover: [
+          "Premium-free Part A without meeting work credit requirements",
+          "Retroactive coverage for gaps caused by late enrollment",
+        ],
+        costNote: "If you are close to 40 credits, consider working in a Medicare-taxed position to earn the remaining quarters.",
+      },
+      {
+        planName: "Remarriage and Multiple Divorces",
+        icon: "users",
+        iconColor: "#6366F1",
+        coverageLabel: "Conditional",
+        coverageType: "partial" as const,
+        statusBadge: "Remarriage affects eligibility",
+        paragraphs: [
+          "If you remarried and that marriage also ended (through divorce, death, or annulment), you may regain eligibility to use a prior ex-spouse's work record. If you were married 10+ years to multiple ex-spouses, you can use whichever record provides the best benefit.",
+        ],
+        whatItCovers: [
+          "Regain eligibility if current marriage ends",
+          "Use whichever ex-spouse's record gives the best benefit",
+          "Ex-spouse's benefits are never reduced by your claim",
+        ],
+        whatItDoesntCover: [
+          "Using an ex-spouse's record while currently married",
+          "Combining work credits from multiple ex-spouses",
+          "Marriages that each lasted less than 10 years",
+        ],
+        costNote: "Only one ex-spouse's record can be used at a time.",
+      },
+    ],
+    costTable: {
+      title: "2026 Medicare Costs for Divorced Individuals",
+      headers: ["Coverage", "Monthly Cost", "How to Qualify"],
+      rows: [
+        { "Coverage": "Part A (premium-free)", "Monthly Cost": "$0", "How to Qualify": "40+ own or ex-spouse credits" },
+        { "Coverage": "Part A (reduced)", "Monthly Cost": "~$283", "How to Qualify": "30–39 credits" },
+        { "Coverage": "Part A (full)", "Monthly Cost": "~$518", "How to Qualify": "<30 credits" },
+        { "Coverage": "Part B (standard)", "Monthly Cost": "$185", "How to Qualify": "Available to all 65+" },
+        { "Coverage": "Part D", "Monthly Cost": "Varies", "How to Qualify": "Available to all" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Rules to Remember",
+      items: [
+        {
+          title: "10-Year Marriage Requirement",
+          text: "The 10-year marriage requirement is a firm threshold set by the Social Security Administration. There are no exceptions for marriages lasting 9 years and 11 months.",
+        },
+        {
+          title: "No Permission Required",
+          text: "You can apply for Medicare using your ex-spouse's work record without their knowledge or consent. The SSA handles this independently, and your ex-spouse's benefits are not affected.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Enrollment Timing for Divorced Individuals",
+      items: [
+        {
+          title: "No Special Enrollment Period for Divorce",
+          status: "Passed" as const,
+          description: "Divorce does not trigger a Special Enrollment Period for Medicare. You must enroll during your Initial Enrollment Period (7 months around your 65th birthday) or a qualifying SEP tied to employer coverage.",
+        },
+        {
+          title: "Late Enrollment Penalties Apply",
+          status: "Passed" as const,
+          description: "Missing your enrollment windows can result in permanent late enrollment penalties — 10% per year for Part B and 1% per month for Part D — that last for the rest of your Medicare coverage.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Steps to Take After Divorce",
+      paragraphs: [
+        "If you are divorced and approaching Medicare eligibility, taking a few proactive steps can help you understand your options and avoid costly mistakes.",
+      ],
+      checklist: {
+        title: "Action Items for Divorced Individuals",
+        type: "tip" as const,
+        items: [
+          "Check your own work credits at SSA.gov — you may already have 40 quarters",
+          "Verify your marriage lasted at least 10 years (check your divorce decree)",
+          "Confirm your ex-spouse has at least 40 work credits",
+          "Mark your Initial Enrollment Period on your calendar (3 months before turning 65)",
+          "Contact Social Security at 1-800-772-1213 to confirm your eligibility",
+          "Speak with a licensed Medicare agent to compare your plan options",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Can I get Medicare through my ex-spouse if we were married less than 10 years?",
+        answer: "No. The 10-year marriage requirement is a firm rule with no exceptions. You would need to qualify based on your own work record or pay the Part A premium.",
+      },
+      {
+        question: "Does my ex-spouse need to approve my Medicare application?",
+        answer: "No. You can apply using their work record without their knowledge or permission. Their benefits are not reduced.",
+      },
+      {
+        question: "What if I remarried after my divorce?",
+        answer: "You cannot use a prior ex-spouse's work record while currently married. If your current marriage ends, you may regain eligibility.",
+      },
+      {
+        question: "Can I use my ex-spouse's record for Medicare but my own for Social Security?",
+        answer: "Yes. Medicare eligibility and Social Security benefits are determined separately. You can use whichever record is most advantageous for each.",
+      },
+      {
+        question: "Is there a Special Enrollment Period after divorce?",
+        answer: "No. Divorce does not create a Special Enrollment Period. You must enroll during your IEP around age 65 or a SEP tied to employer coverage.",
+      },
+    ],
+    quickReference: [
+      { icon: "check" as const, text: "Divorce does not disqualify you from Medicare" },
+      { icon: "info" as const, text: "10-year marriage required to use ex-spouse's record" },
+      { icon: "check" as const, text: "No permission needed from your ex-spouse" },
+      { icon: "dollar" as const, text: "Premium-free Part A available with 40+ credits (yours or ex-spouse's)" },
+      { icon: "alert" as const, text: "Enroll during your IEP — divorce does not create a special window" },
+    ],
+    relatedTopics: [
+      {
+        title: "Married, Divorced, or Widowed",
+        description: "How relationship status affects your Medicare coverage and eligibility.",
+        slug: "married-divorced-widowed-how-relationship-status-affects-medicare",
+      },
+      {
+        title: "Applying for Medicare",
+        description: "Step-by-step guide to enrolling in Medicare for the first time.",
+        slug: "applying-for-medicare",
+      },
+      {
+        title: "Medicare Costs in 2026",
+        description: "Complete breakdown of premiums, deductibles, and costs.",
+        slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
+      },
+      {
+        title: "Medicare Penalties & Deadlines",
+        description: "Avoid costly late enrollment penalties with this guide.",
+        slug: "protect-yourself-from-medicare-penalties-and-deadlines",
+      },
+    ],
+    sidebarRelatedLinks: [
+      "Married, Divorced, Widowed & Medicare",
+      "Differences Between Medicare & Social Security",
+      "Applying for Medicare",
+      "Full Retirement Age",
+      "When Does Medicare Start",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Medicare Options?",
+      text: "Our licensed Medicare experts can help you navigate your coverage options after divorce.",
+    },
+    relatedSlugs: ["married-divorced-widowed-how-relationship-status-affects-medicare", "differences-between-medicare-and-social-security", "applying-for-medicare", "full-retirement-age", "when-does-medicare-start"],
+  },
+
 ];
