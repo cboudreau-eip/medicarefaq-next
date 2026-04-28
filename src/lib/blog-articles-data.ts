@@ -1442,7 +1442,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "4 min read",
     featured: false,
-    image: "https://images.pexels.com/photos/7787429/pexels-photo-7787429.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    image: "https://images.unsplash.com/photo-1758686253677-d3af6c15186e?w=1200&h=675&fit=crop",
     tableOfContents: [
       { id: "what-peace-of-mind-means-in-healthcare", title: "What Peace of Mind Means in Healthcare" },
       { id: "predictable-costs-and-financial-security", title: "Predictable Costs and Financial Security" },
@@ -1490,7 +1490,7 @@ export const blogArticles: BlogArticleData[] = [
     title: "Why Medicare Supplements Offer Network-Free Healthcare | MedicareFAQ",
     description: "Discover the peace of mind that comes with network-free healthcare. Learn why Medicare Supplement plans offer ultimate freedom in choosing your doctors, specialists, and hospitals without restrictive networks.",
     canonical: "https://www.medicarefaq.com/blog/why-medicare-supplements-offer-network-free-healthcare/",
-    ogImage: "https://images.pexels.com/photos/7787429/pexels-photo-7787429.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
+    ogImage: "https://images.unsplash.com/photo-1758686253677-d3af6c15186e?w=1200&h=630&fit=crop",
   },
   slug: "why-medicare-supplements-offer-network-free-healthcare",
     title: "Why Medicare Supplements Offer Network-Free Healthcare",
