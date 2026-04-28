@@ -86,31 +86,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["qualified-medicare-beneficiary-program", "medicare-savings-programs", "irmaa", "how-can-seniors-save-on-prescription-drug-costs"],
   },
   {
-    slug: 'hsa-and-medicare',
-    seo: {
-      title: 'Medicare and Health Savings Accounts (HSA)',
-      description: 'Guidelines exist for Medicare and health savings accounts (HSA). Learn how Health Savings Accounts work with Medicare.',
-      canonical: 'https://www.medicarefaq.com/faqs/hsa-and-medicare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-and-health-savings-accounts-hsa.jpg',
-    },
-    title: 'Medicare and Health Savings Accounts (HSA)',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Hi medicarefaq.com owner, You always provide valuable information.',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-and-hsa-rules-what-happens-when-you-turn-65", "medicare-costs-2025", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
-  },
-  {
     slug: 'eliquis-cost-with-medicare',
     seo: {
       title: 'How Much Does Eliquis Cost with Medicare?',
@@ -343,32 +318,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-annual-enrollment-period", "medicare-initial-enrollment-period", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
-  },
-  {
-    slug: 'medicare-and-employer-coverage',
-    seo: {
-      title: 'Understanding Employer Insurance and Medicare',
-      description: 'If you\'re aging into Medicare and actively working, it\'s important to know how your Medicare and employer coverage work together.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-and-employer-coverage/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/understanding-employer-insurance-and-medicare.jpg',
-    },
-    title: 'Understanding Employer Insurance and Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'May 21, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Is Medicare Mandatory?',
-        paragraphs: [
-          'Updated on May 21, 2024',
-          'For most, Medicare isn’t mandatory, but there are [a lot of variables](/blog/understanding-how-medicare-works-with-employer-health-plans) you’ll want to...',
-        ],
-      },
-    ],
-    relatedSlugs: ["transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "when-should-you-enroll-in-medicare-if-still-working", "understanding-how-medicare-works-with-employer-health-plans"],
   },
   {
     slug: 'medicare-questions',

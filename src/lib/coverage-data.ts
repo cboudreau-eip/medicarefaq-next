@@ -20820,4 +20820,638 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["married-divorced-widowed-how-relationship-status-affects-medicare", "differences-between-medicare-and-social-security", "applying-for-medicare", "full-retirement-age", "when-does-medicare-start"],
   },
 
+  {
+    slug: "home-safety-assessment-for-the-elderly",
+    seo: {
+      title: "Does Medicare Cover Home Safety Assessments? (2026 Guide)",
+      description: "Learn when Medicare covers home safety assessments, what's included, who qualifies, and how to get a referral for a home safety evaluation.",
+      canonical: "https://www.medicarefaq.com/faqs/home-safety-assessment-for-the-elderly/",
+      ogImage: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    title: "Does Medicare Cover Home Safety Assessments?",
+    subtitle: "Falls are the leading cause of injury-related death among adults 65 and older. A Medicare-covered home safety assessment can identify hazards before they cause harm.",
+    category: "Coverage Q&A",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author" as const,
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer" as const,
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers home safety assessments when they are deemed medically necessary and ordered by a Medicare-approved physician. Coverage typically applies after a fall-related injury, during home health care, or when durable medical equipment installation requires an evaluation. You pay 20% coinsurance after meeting the Part B deductible.",
+      badges: [
+        { plan: "Original Medicare (Part B)", status: "covered" as const },
+        { plan: "Medicare Advantage", status: "covered" as const },
+        { plan: "Medigap", status: "partial" as const },
+        { plan: "Part D", status: "not-covered" as const },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part B)", coverage: "Covered when medically necessary", icon: "check", notes: "Must be ordered by a physician; 20% coinsurance applies after deductible" },
+      { planType: "Medicare Part A", coverage: "Covered as part of home health", icon: "check", notes: "Covered if assessment is part of post-hospital home health care" },
+      { planType: "Medicare Advantage", coverage: "Generally covered", icon: "check", notes: "Most MA plans cover home safety assessments; some offer expanded benefits" },
+      { planType: "Medigap", coverage: "Helps with cost-sharing", icon: "alert", notes: "Covers the 20% coinsurance Original Medicare leaves behind" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is a Home Safety Assessment?",
+        icon: "home",
+        iconColor: "#0D9488",
+        coverageLabel: "Overview",
+        coverageType: "covered" as const,
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "A home safety assessment is a professional evaluation of your living environment conducted by an occupational therapist or other qualified healthcare professional. The goal is to identify hazards that could lead to falls, injuries, or complications during recovery from illness or surgery.",
+          "During the assessment, the evaluator examines lighting, flooring, clutter, bathroom safety, stairways, smoke detectors, kitchen hazards, and accessibility throughout the home. They then provide recommendations for modifications, equipment, or behavioral changes to reduce risk.",
+        ],
+        whatItCovers: [
+          "Evaluation of fall risks and tripping hazards throughout the home",
+          "Assessment of bathroom safety (grab bars, shower accessibility, toilet height)",
+          "Review of lighting, stairway safety, and smoke/carbon monoxide alarms",
+          "Recommendations for home modifications and durable medical equipment",
+          "Assessment of kitchen safety and food storage conditions",
+        ],
+        whatItDoesntCover: [
+          "The actual home modifications or renovations recommended",
+          "Non-medical home inspections (pest control, structural, real estate)",
+          "Assessments requested without a physician's order",
+          "Routine home evaluations not tied to a medical condition",
+        ],
+        costNote: "The assessment itself is covered, but any recommended modifications (handrails, ramps, lighting upgrades) are generally your responsibility unless they qualify as DME.",
+      },
+      {
+        planName: "Medicare Part B Coverage",
+        icon: "shield",
+        iconColor: "#2563EB",
+        coverageLabel: "Covered",
+        coverageType: "covered" as const,
+        statusBadge: "20% coinsurance after Part B deductible",
+        paragraphs: [
+          "Medicare Part B covers home safety assessments when a physician determines the evaluation is medically necessary. Common triggers include a recent fall or fall-related injury, a new diagnosis affecting mobility or balance, discharge from a hospital or skilled nursing facility, or the need for durable medical equipment installation at home.",
+          "The assessment must be performed by an occupational therapist or other Medicare-approved healthcare professional. Medicare requires that the evaluation focus specifically on the beneficiary's risk of falls or injuries and how those risks can be prevented.",
+        ],
+        whatItCovers: [
+          "Occupational therapy evaluation in the home setting",
+          "Fall risk assessment and prevention planning",
+          "DME installation evaluation (bathroom safety devices, hospital beds)",
+          "Post-hospitalization home environment review",
+        ],
+        whatItDoesntCover: [
+          "Assessments without a physician's referral or order",
+          "Evaluations for non-medical purposes",
+          "Home modifications or construction work",
+        ],
+        costNote: "After meeting the $257 Part B deductible (2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover this coinsurance.",
+      },
+      {
+        planName: "Medicare Advantage Coverage",
+        icon: "star",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covered",
+        coverageType: "covered" as const,
+        statusBadge: "Most MA plans cover home safety assessments",
+        paragraphs: [
+          "Medicare Advantage plans must cover everything Original Medicare covers, including medically necessary home safety assessments. Many MA plans go further by offering expanded home safety benefits, including proactive in-home health assessments that evaluate both medical and environmental risks.",
+          "Some Medicare Advantage plans include supplemental benefits for home modifications such as grab bar installation, wheelchair ramps, or improved lighting — benefits not available under Original Medicare. Check your plan's Evidence of Coverage document for specifics.",
+        ],
+        whatItCovers: [
+          "All home safety assessments covered by Original Medicare",
+          "Some plans offer proactive in-home health risk assessments",
+          "Select plans cover home modification benefits (grab bars, ramps)",
+          "Care coordination following the assessment",
+        ],
+        whatItDoesntCover: [
+          "Benefits vary by plan — not all MA plans offer expanded home safety coverage",
+          "Out-of-network assessments may not be covered (HMO plans)",
+          "Major home renovations or structural modifications",
+        ],
+        costNote: "Cost-sharing varies by plan. Some MA plans offer $0 copays for home safety assessments; check your plan's schedule of benefits.",
+      },
+    ],
+    costTable: {
+      title: "Home Safety Assessment Costs (2026)",
+      headers: ["Cost Component", "Original Medicare", "Medicare Advantage", "Without Medicare"],
+      rows: [
+        { "Cost Component": "Assessment Cost", "Original Medicare": "20% coinsurance after deductible", "Medicare Advantage": "Varies by plan ($0–$50 copay typical)", "Without Medicare": "$150–$400 out of pocket" },
+        { "Cost Component": "Part B Deductible", "Original Medicare": "$257/year (2026)", "Medicare Advantage": "Varies by plan", "Without Medicare": "N/A" },
+        { "Cost Component": "Grab Bar Installation", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Without Medicare": "$100–$300 per bar" },
+        { "Cost Component": "Follow-up OT Visits", "Original Medicare": "20% coinsurance", "Medicare Advantage": "Copay varies", "Without Medicare": "$100–$200 per visit" },
+      ],
+    },
+    exceptionsSection: {
+      title: "When Medicare Will NOT Cover a Home Safety Assessment",
+      items: [
+        {
+          title: "No Physician Order",
+          text: "Medicare requires a physician's order or referral for the assessment to be covered. You cannot self-refer for a home safety evaluation and expect Medicare to pay.",
+        },
+        {
+          title: "Non-Medical Purpose",
+          text: "Assessments conducted for real estate transactions, insurance purposes, or general home improvement are not covered by Medicare.",
+        },
+        {
+          title: "No Documented Medical Necessity",
+          text: "If there is no documented medical condition, recent fall, or clinical reason for the assessment, Medicare will deny the claim.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Get a Medicare-Covered Home Safety Assessment",
+      paragraphs: [
+        "Getting a home safety assessment covered by Medicare is straightforward when you follow the proper steps. The key is ensuring the assessment is tied to a documented medical need and ordered by your physician.",
+      ],
+      checklist: {
+        title: "Steps to Get Your Assessment Covered",
+        type: "tip" as const,
+        items: [
+          "Talk to your doctor about fall risks or mobility concerns during your next visit",
+          "Request a referral for a home safety assessment from your physician",
+          "Ensure the assessment will be performed by a Medicare-approved occupational therapist",
+          "Confirm coverage with Medicare or your MA plan before the visit",
+          "Keep documentation of the physician's order and the assessment report",
+          "Follow through on recommended modifications to reduce fall risk",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "What does a home safety assessment include?",
+        answer: "A home safety assessment evaluates your living environment for fall risks and hazards. The assessor checks lighting, flooring, bathroom safety, stairways, kitchen hazards, smoke detectors, clutter, and accessibility. They provide a written report with recommendations for modifications or equipment to reduce injury risk.",
+      },
+      {
+        question: "Who performs a Medicare-covered home safety assessment?",
+        answer: "Medicare requires the assessment to be performed by an occupational therapist or other qualified healthcare professional approved by Medicare. The evaluator must be working under a physician's order.",
+      },
+      {
+        question: "Does Medicare pay for home modifications recommended by the assessment?",
+        answer: "Generally no. Medicare covers the assessment itself but not the recommended modifications such as handrails, ramps, or lighting upgrades. However, some Medicare Advantage plans offer supplemental benefits that cover certain home modifications like grab bar installation.",
+      },
+      {
+        question: "Can I get a home safety assessment during my Annual Wellness Visit?",
+        answer: "Your Annual Wellness Visit may include a Social Determinants of Health Risk Assessment that identifies home safety concerns. If risks are identified, your doctor can then order a separate, more comprehensive home safety assessment covered by Part B.",
+      },
+      {
+        question: "How often will Medicare cover a home safety assessment?",
+        answer: "Medicare does not set a specific frequency limit, but the assessment must be medically necessary each time. A new assessment would typically be covered after a significant change in health status, a fall, a new diagnosis affecting mobility, or discharge from a hospital.",
+      },
+    ],
+    quickReference: [
+      { icon: "check" as const, text: "Part B covers home safety assessments when ordered by a physician" },
+      { icon: "check" as const, text: "Must be performed by a Medicare-approved occupational therapist" },
+      { icon: "dollar" as const, text: "You pay 20% coinsurance after the $257 Part B deductible (2026)" },
+      { icon: "alert" as const, text: "The assessment is covered, but recommended home modifications generally are not" },
+      { icon: "info" as const, text: "Some MA plans offer expanded home safety and modification benefits" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for In-Home Caregivers", description: "Learn when Medicare covers in-home caregiver services.", slug: "medicare-coverage-for-in-home-caregivers" },
+      { title: "Durable Medical Equipment", description: "Understand what DME Medicare covers and how to qualify.", slug: "durable-medical-equipment" },
+      { title: "Medicare Coverage for Bathroom Safety Devices", description: "Find out which bathroom safety devices Medicare will pay for.", slug: "does-medicare-cover-bathroom-safety-devices" },
+      { title: "Skilled Nursing vs. Custodial Care", description: "Learn the difference and what Medicare covers.", slug: "how-medicare-handles-skilled-nursing-vs-custodial-care" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for In-Home Caregivers",
+      "Durable Medical Equipment",
+      "Bathroom Safety Devices",
+      "Skilled Nursing vs. Custodial Care",
+      "Home Health Services",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your Medicare Coverage?",
+      text: "Our licensed Medicare experts can help you understand what's covered and find the right plan for your needs.",
+    },
+    relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "durable-medical-equipment", "does-medicare-cover-bathroom-safety-devices", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-medical-alert-systems"],
+  },
+  {
+    slug: "medicare-and-employer-coverage",
+    seo: {
+      title: "Medicare and Employer Coverage: How They Work Together (2026)",
+      description: "Learn how Medicare coordinates with employer health insurance, when to enroll, and how to avoid late enrollment penalties if you're still working at 65.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-and-employer-coverage/",
+      ogImage: "https://images.pexels.com/photos/8815834/pexels-photo-8815834.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    title: "Understanding Employer Insurance and Medicare",
+    subtitle: "If you're turning 65 while still employed, understanding how Medicare coordinates with your employer coverage is critical to avoiding gaps, penalties, and unnecessary costs.",
+    category: "Coverage Q&A",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author" as const,
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer" as const,
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "If you have employer health insurance when you turn 65, how Medicare coordinates with your coverage depends primarily on your employer's size. With 20+ employees, your employer plan pays first and Medicare is secondary. With fewer than 20 employees, Medicare pays first. You can generally delay Part B without penalty as long as you have creditable employer coverage.",
+      badges: [
+        { plan: "Employer Primary (20+ employees)", status: "covered" as const },
+        { plan: "Medicare Primary (<20 employees)", status: "covered" as const },
+        { plan: "Part B Delay", status: "partial" as const },
+        { plan: "COBRA as Creditable", status: "not-covered" as const },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Large Employer (20+)", coverage: "Employer pays first, Medicare second", icon: "check", notes: "Can delay Part B without penalty while employer coverage is active" },
+      { planType: "Small Employer (<20)", coverage: "Medicare pays first, employer second", icon: "alert", notes: "Should enroll in Part B at 65 — employer plan becomes secondary" },
+      { planType: "Retiree Coverage", coverage: "Medicare pays first", icon: "alert", notes: "Retiree plans are designed to supplement Medicare, not replace it" },
+      { planType: "COBRA", coverage: "Not creditable for Part B delay", icon: "x", notes: "COBRA does NOT protect you from late enrollment penalties" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "How Employer Size Determines Coordination",
+        icon: "building",
+        iconColor: "#2563EB",
+        coverageLabel: "Key Rule",
+        coverageType: "covered" as const,
+        statusBadge: "Employer size is the deciding factor",
+        paragraphs: [
+          "The Medicare Secondary Payer (MSP) rules determine which insurance pays first when you have both Medicare and employer coverage. The primary factor is the size of your employer — specifically, whether the company has 20 or more employees.",
+          "If your employer has 20 or more employees, your employer group health plan is the primary payer and Medicare is secondary. This means your employer plan pays claims first, and Medicare may cover some remaining costs. In this scenario, you can safely delay enrolling in Part B without facing a late enrollment penalty.",
+          "If your employer has fewer than 20 employees, Medicare becomes the primary payer once you turn 65. Your employer plan pays second. In this case, you should enroll in both Part A and Part B when you first become eligible to ensure full coverage.",
+        ],
+        whatItCovers: [
+          "Employer plan pays first for companies with 20+ employees",
+          "Medicare pays first for companies with fewer than 20 employees",
+          "Part A is generally premium-free and should be enrolled at 65 regardless",
+          "Special Enrollment Period available when employer coverage ends",
+        ],
+        whatItDoesntCover: [
+          "COBRA coverage does not count as active employer coverage",
+          "Self-employed coverage through the individual marketplace is not group coverage",
+          "Spouse's employer coverage follows the same 20-employee rule",
+        ],
+        costNote: "Enrolling in Part A at 65 is generally recommended even if you keep employer coverage — it's premium-free for most people and provides additional hospital coverage.",
+      },
+      {
+        planName: "Delaying Part B: When It's Safe and When It's Not",
+        icon: "clock",
+        iconColor: "#D97706",
+        coverageLabel: "Critical Decision",
+        coverageType: "partial" as const,
+        statusBadge: "Delay only with creditable employer coverage",
+        paragraphs: [
+          "You can delay Part B enrollment without penalty only if you have creditable coverage through your own or your spouse's current employer with 20 or more employees. The key word is 'current' — the coverage must be based on active employment, not retiree benefits or COBRA.",
+          "When your employer coverage ends (either through retirement or job change), you have an 8-month Special Enrollment Period (SEP) to sign up for Part B without a late enrollment penalty. This window starts the month after your employment ends or your employer coverage ends, whichever comes first.",
+          "If you miss the 8-month SEP, you'll need to wait for the General Enrollment Period (January 1 – March 31) and may face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you could have had Part B but didn't.",
+        ],
+        whatItCovers: [
+          "Penalty-free delay while covered by active employer plan (20+ employees)",
+          "8-month Special Enrollment Period after employer coverage ends",
+          "Spouse's employer coverage qualifies if employer has 20+ employees",
+        ],
+        whatItDoesntCover: [
+          "COBRA — does NOT count as creditable coverage for delaying Part B",
+          "Retiree health benefits — Medicare becomes primary",
+          "Individual marketplace plans — not creditable for Part B delay",
+          "VA benefits — do not protect against Part B late penalties",
+        ],
+        callout: {
+          type: "warning" as const,
+          title: "COBRA Warning",
+          text: "COBRA continuation coverage is NOT considered creditable employer coverage. If you elect COBRA instead of enrolling in Part B, you may face permanent late enrollment penalties. Enroll in Part B before your COBRA period begins.",
+        },
+        costNote: "The Part B late enrollment penalty is 10% for each full 12-month period you delayed — and it lasts for as long as you have Part B.",
+      },
+      {
+        planName: "What to Do When You Retire or Lose Employer Coverage",
+        icon: "log-out",
+        iconColor: "#0D9488",
+        coverageLabel: "Action Required",
+        coverageType: "covered" as const,
+        statusBadge: "8-month Special Enrollment Period",
+        paragraphs: [
+          "When your employer coverage ends, you need to act within the 8-month Special Enrollment Period to enroll in Part B and secure supplemental coverage. This is also the time to evaluate whether a Medigap plan or Medicare Advantage plan best fits your needs.",
+          "Request a letter from your employer confirming your dates of employment and group health coverage. You'll need this documentation (CMS Form L564) when enrolling in Part B through Social Security to prove you qualify for the SEP and avoid penalties.",
+        ],
+        whatItCovers: [
+          "8-month window to enroll in Part B without penalty",
+          "Medigap open enrollment begins when Part B starts (if 65+)",
+          "Guaranteed issue rights for Medigap in most situations",
+          "Part D enrollment available during SEP",
+        ],
+        whatItDoesntCover: [
+          "Coverage gaps if you delay beyond the 8-month SEP",
+          "Retroactive Part B coverage — it starts the month after enrollment",
+          "Automatic enrollment — you must actively sign up",
+        ],
+        costNote: "Contact Social Security 2–3 months before your planned retirement date to begin the Part B enrollment process.",
+      },
+    ],
+    costTable: {
+      title: "Key Medicare Costs When Transitioning from Employer Coverage (2026)",
+      headers: ["Cost Component", "Amount", "Notes"],
+      rows: [
+        { "Cost Component": "Part A Premium", "Amount": "$0 (most people)", "Notes": "Free with 40+ quarters of Medicare-taxed work" },
+        { "Cost Component": "Part B Premium", "Amount": "$185/month (2026)", "Notes": "Standard premium; IRMAA surcharge may apply for higher incomes" },
+        { "Cost Component": "Part B Deductible", "Amount": "$257/year", "Notes": "Annual deductible before Medicare pays its share" },
+        { "Cost Component": "Part B Late Penalty", "Amount": "10% per 12-month delay", "Notes": "Permanent addition to your monthly premium" },
+        { "Cost Component": "Medigap Plan G", "Amount": "$100–$300/month", "Notes": "Varies by age, location, and carrier" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Special Situations to Watch For",
+      items: [
+        {
+          title: "Spouse's Employer Coverage",
+          text: "If your spouse is the one with employer coverage, the same 20-employee rule applies. You can delay Part B as long as your spouse's employer has 20+ employees and you're covered under their plan.",
+        },
+        {
+          title: "HSA Considerations",
+          text: "If you have a Health Savings Account through your employer, you must stop contributing to it once you enroll in any part of Medicare — including Part A. Since Part A can be retroactive up to 6 months, plan your HSA contributions carefully.",
+        },
+        {
+          title: "Federal Employees (FEHB)",
+          text: "FEHB coverage is considered creditable, and you can keep it alongside Medicare. However, once you enroll in Medicare, it typically becomes the primary payer with FEHB paying secondary.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Planning Your Transition from Employer Coverage to Medicare",
+      paragraphs: [
+        "The transition from employer coverage to Medicare is one of the most consequential healthcare decisions you'll make. Planning ahead — ideally 6 months before retirement — gives you time to compare options and avoid costly mistakes.",
+      ],
+      checklist: {
+        title: "Transition Checklist",
+        type: "tip" as const,
+        items: [
+          "Confirm your employer's size (20+ or fewer than 20 employees)",
+          "Enroll in Part A at 65 even if you keep employer coverage (it's free)",
+          "Determine whether your employer coverage is creditable for Part B delay",
+          "Contact Social Security 2–3 months before retirement to enroll in Part B",
+          "Request Form L564 from your employer documenting your coverage dates",
+          "Compare Medigap and Medicare Advantage options during your SEP",
+          "Stop HSA contributions before Medicare enrollment begins",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Should I enroll in Medicare Part A at 65 if I have employer coverage?",
+        answer: "In most cases, yes. Part A is premium-free for people with 40+ quarters of work history, and it provides additional hospital coverage alongside your employer plan. The only exception is if enrolling in Part A would affect your HSA contributions — since you cannot contribute to an HSA once enrolled in any part of Medicare.",
+      },
+      {
+        question: "What happens if I miss the 8-month Special Enrollment Period?",
+        answer: "If you miss the SEP, you'll need to wait for the General Enrollment Period (January 1 – March 31), with coverage starting July 1. You'll also face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you could have had Part B but didn't.",
+      },
+      {
+        question: "Does COBRA count as creditable coverage for delaying Part B?",
+        answer: "No. COBRA is not considered creditable employer coverage for the purpose of delaying Part B enrollment. If you elect COBRA after leaving your job, you should also enroll in Part B during your Special Enrollment Period to avoid penalties.",
+      },
+      {
+        question: "Can my employer force me to enroll in Medicare at 65?",
+        answer: "No. Your employer cannot require you to enroll in Medicare. However, if your employer has fewer than 20 employees, Medicare becomes primary at 65 and your employer plan becomes secondary — so enrolling in both Part A and Part B is strongly recommended.",
+      },
+      {
+        question: "What if my employer offers a Medicare Advantage plan for retirees?",
+        answer: "Some employers offer group Medicare Advantage plans as retiree benefits. These can be a good option, but compare them carefully with individual Medigap and MA plans available in your area. Group retiree plans may have different networks and benefits than individual plans.",
+      },
+    ],
+    quickReference: [
+      { icon: "check" as const, text: "Employer with 20+ employees: employer plan pays first, Medicare second" },
+      { icon: "alert" as const, text: "Employer with <20 employees: Medicare pays first — enroll in Part B at 65" },
+      { icon: "x" as const, text: "COBRA is NOT creditable coverage — do not rely on it to delay Part B" },
+      { icon: "info" as const, text: "8-month SEP to enroll in Part B after employer coverage ends" },
+      { icon: "dollar" as const, text: "Part B late penalty: 10% per year of delay — permanent" },
+    ],
+    relatedTopics: [
+      { title: "Transitioning to Medicare After Employer Coverage Ends", description: "Step-by-step guide for moving from employer insurance to Medicare.", slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide" },
+      { title: "Working Past 65 and Medicare", description: "How to navigate Medicare enrollment when you're still on the job.", slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job" },
+      { title: "HSA and Medicare", description: "Learn how Health Savings Accounts work with Medicare.", slug: "hsa-and-medicare" },
+      { title: "Medicare Late Enrollment Penalties", description: "Understand the penalties for delaying Medicare enrollment.", slug: "protect-yourself-from-medicare-penalties-key-tips-and-deadlines" },
+    ],
+    sidebarRelatedLinks: [
+      "Transitioning to Medicare After Employer Coverage",
+      "Working Past 65 and Medicare",
+      "HSA and Medicare Rules",
+      "Medicare Late Enrollment Penalties",
+      "FEHB and Medicare",
+    ],
+    ctaBanner: {
+      title: "Transitioning from Employer Coverage to Medicare?",
+      text: "Our licensed Medicare agents can help you navigate the transition and find the right coverage without gaps or penalties.",
+    },
+    relatedSlugs: ["transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "when-should-you-enroll-in-medicare-if-still-working", "understanding-how-medicare-works-with-employer-health-plans"],
+  },
+  {
+    slug: "hsa-and-medicare",
+    seo: {
+      title: "Medicare and Health Savings Accounts (HSA): Rules Explained (2026)",
+      description: "Learn how Medicare affects your HSA — when to stop contributing, how retroactive Part A enrollment impacts your account, and how to use HSA funds with Medicare.",
+      canonical: "https://www.medicarefaq.com/faqs/hsa-and-medicare/",
+      ogImage: "https://images.pexels.com/photos/8439748/pexels-photo-8439748.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    },
+    title: "Medicare and Health Savings Accounts (HSA)",
+    subtitle: "Once you enroll in any part of Medicare, you can no longer contribute to a Health Savings Account. Understanding the timing rules can save you from tax penalties and unexpected costs.",
+    category: "Coverage Q&A",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author" as const,
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer" as const,
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "You cannot contribute to a Health Savings Account (HSA) once you are enrolled in any part of Medicare, including Part A. However, you can continue to use existing HSA funds tax-free for qualified medical expenses, including Medicare premiums, copays, and deductibles. Because Part A enrollment can be retroactive up to 6 months, you should stop HSA contributions at least 6 months before enrolling in Medicare.",
+      badges: [
+        { plan: "HSA Contributions", status: "not-covered" as const },
+        { plan: "HSA Spending on Medicare Costs", status: "covered" as const },
+        { plan: "Part A Retroactive Impact", status: "partial" as const },
+      ],
+    },
+    comparisonTable: [
+      { planType: "HSA Contributions After Medicare", coverage: "Not allowed", icon: "x", notes: "Cannot contribute to an HSA once enrolled in any part of Medicare" },
+      { planType: "Using HSA Funds for Medicare Costs", coverage: "Allowed tax-free", icon: "check", notes: "Can use existing HSA balance for premiums, copays, deductibles" },
+      { planType: "HSA for Medigap Premiums", coverage: "Not allowed tax-free", icon: "x", notes: "Medigap/Medicare Supplement premiums are NOT qualified HSA expenses" },
+      { planType: "Part A Retroactive Enrollment", coverage: "Up to 6 months back", icon: "alert", notes: "Can create excess contribution issues if HSA contributions weren't stopped in time" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Why Medicare Enrollment Ends HSA Contributions",
+        icon: "ban",
+        iconColor: "#DC2626",
+        coverageLabel: "IRS Rule",
+        coverageType: "not-covered" as const,
+        statusBadge: "No contributions once enrolled in any Medicare part",
+        paragraphs: [
+          "The IRS requires that you be enrolled in a High Deductible Health Plan (HDHP) and have no other health coverage that is not an HDHP in order to contribute to an HSA. Medicare — including Part A alone — is not an HDHP, so enrolling in any part of Medicare disqualifies you from making HSA contributions.",
+          "This rule catches many people off guard, particularly those who planned to continue working past 65 and contributing to their HSA. Even if you only enroll in Part A (which is premium-free), you lose HSA contribution eligibility immediately.",
+        ],
+        whatItCovers: [
+          "Existing HSA funds remain yours — no expiration or forfeiture",
+          "You can continue to withdraw HSA funds for qualified medical expenses",
+          "HSA funds grow tax-free and withdrawals for medical expenses are tax-free",
+        ],
+        whatItDoesntCover: [
+          "New contributions to the HSA after Medicare enrollment",
+          "Employer HSA contributions after you enroll in Medicare",
+          "Catch-up contributions ($1,000 extra for 55+) after Medicare enrollment",
+        ],
+        costNote: "If you contribute to an HSA after enrolling in Medicare, you'll face a 6% excise tax on the excess contributions for each year they remain in the account.",
+      },
+      {
+        planName: "The Part A Retroactive Enrollment Trap",
+        icon: "alert-triangle",
+        iconColor: "#D97706",
+        coverageLabel: "Critical Warning",
+        coverageType: "partial" as const,
+        statusBadge: "Part A can be retroactive up to 6 months",
+        paragraphs: [
+          "When you apply for Medicare Part A, your coverage can be made retroactive up to 6 months from your application date (but not before the month you turned 65). This means if you apply for Part A in December, your coverage could be backdated to June — and any HSA contributions you made during those 6 months would become excess contributions subject to the 6% excise tax.",
+          "To avoid this trap, you should stop making HSA contributions at least 6 months before you plan to enroll in Medicare. If you're turning 65 and plan to enroll in Part A at that time, stop contributions 6 months before your 65th birthday.",
+        ],
+        whatItCovers: [
+          "Part A retroactive coverage provides hospital insurance from the backdated start date",
+          "You can request a specific Part A start date to limit retroactivity",
+        ],
+        whatItDoesntCover: [
+          "Protection from excess HSA contribution penalties during the retroactive period",
+          "Automatic adjustment of HSA contributions — you must manage this yourself",
+        ],
+        callout: {
+          type: "warning" as const,
+          title: "6-Month Rule",
+          text: "Stop HSA contributions at least 6 months before you enroll in Medicare Part A. If you're applying for Social Security benefits at 65, Part A enrollment is automatic — plan accordingly.",
+        },
+        costNote: "The 6% excise tax on excess contributions applies each year the excess remains in the account. Withdraw excess contributions promptly to minimize penalties.",
+      },
+      {
+        planName: "Using HSA Funds With Medicare",
+        icon: "wallet",
+        iconColor: "#0D9488",
+        coverageLabel: "Allowed",
+        coverageType: "covered" as const,
+        statusBadge: "Tax-free withdrawals for qualified Medicare expenses",
+        paragraphs: [
+          "While you can't contribute to an HSA after enrolling in Medicare, your existing HSA balance remains available for tax-free withdrawals to cover qualified medical expenses. This includes many Medicare-related costs, making your HSA a valuable supplement to your Medicare coverage.",
+          "Think of your HSA as a tax-free medical savings account in retirement. The funds never expire, and qualified withdrawals remain tax-free regardless of your age or Medicare status.",
+        ],
+        whatItCovers: [
+          "Medicare Part A and Part B premiums",
+          "Medicare Part D prescription drug premiums",
+          "Medicare Advantage (Part C) premiums",
+          "Medicare copayments, coinsurance, and deductibles",
+          "Dental, vision, and hearing expenses",
+          "Long-term care insurance premiums (age-based limits apply)",
+        ],
+        whatItDoesntCover: [
+          "Medigap (Medicare Supplement) premiums — NOT a qualified HSA expense",
+          "Non-medical expenses (subject to income tax if withdrawn after 65, but no 20% penalty)",
+        ],
+        costNote: "After age 65, HSA withdrawals for non-medical expenses are taxed as ordinary income but no longer subject to the 20% penalty that applies before 65.",
+      },
+    ],
+    costTable: {
+      title: "HSA Contribution Limits and Medicare Impact (2026)",
+      headers: ["Item", "2026 Amount", "Notes"],
+      rows: [
+        { "Item": "HSA Contribution Limit (Individual)", "2026 Amount": "$4,300", "Notes": "Cannot contribute if enrolled in any part of Medicare" },
+        { "Item": "HSA Contribution Limit (Family)", "2026 Amount": "$8,550", "Notes": "Cannot contribute if enrolled in any part of Medicare" },
+        { "Item": "Catch-Up Contribution (55+)", "2026 Amount": "$1,000", "Notes": "Not available after Medicare enrollment" },
+        { "Item": "Excess Contribution Penalty", "2026 Amount": "6% excise tax/year", "Notes": "Applies to contributions made after Medicare enrollment" },
+        { "Item": "Part B Premium (payable from HSA)", "2026 Amount": "$185/month", "Notes": "Qualified HSA expense — tax-free withdrawal" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Common HSA and Medicare Mistakes to Avoid",
+      items: [
+        {
+          title: "Automatic Part A With Social Security",
+          text: "If you claim Social Security benefits at or after 65, you are automatically enrolled in Part A. This immediately ends your HSA contribution eligibility — even if you didn't intend to enroll in Medicare yet.",
+        },
+        {
+          title: "Employer HSA Contributions Continue",
+          text: "If your employer automatically contributes to your HSA, you must notify them to stop once you enroll in Medicare. Employer contributions count toward the excess contribution limit and trigger the same 6% penalty.",
+        },
+        {
+          title: "Paying Medigap Premiums From HSA",
+          text: "Unlike Medicare Part A, B, C, and D premiums, Medigap (Medicare Supplement) premiums are NOT considered qualified medical expenses by the IRS. Using HSA funds for Medigap premiums will result in the withdrawal being taxed as ordinary income.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Strategic Planning for HSA and Medicare",
+      paragraphs: [
+        "With proper planning, you can maximize your HSA's value both before and after Medicare enrollment. The key is understanding the timeline and making deliberate decisions about when to stop contributions and when to enroll.",
+      ],
+      checklist: {
+        title: "HSA and Medicare Planning Checklist",
+        type: "tip" as const,
+        items: [
+          "Stop HSA contributions at least 6 months before your planned Medicare enrollment date",
+          "If claiming Social Security at 65, stop HSA contributions 6 months before your 65th birthday",
+          "Notify your employer to stop HSA contributions before Medicare enrollment",
+          "Keep your HSA open — you can continue using funds tax-free for qualified medical expenses",
+          "Use HSA funds for Medicare premiums (Part A, B, C, D) but NOT Medigap premiums",
+          "Consider maximizing HSA contributions in the years before Medicare to build a larger tax-free medical fund",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Can I contribute to an HSA if I only have Medicare Part A?",
+        answer: "No. Enrollment in any part of Medicare — including Part A alone — disqualifies you from making HSA contributions. This is an IRS rule, not a Medicare rule.",
+      },
+      {
+        question: "What happens to my HSA when I enroll in Medicare?",
+        answer: "Your HSA remains open and the funds are still yours. You simply can no longer make new contributions. You can continue to withdraw funds tax-free for qualified medical expenses, including most Medicare costs.",
+      },
+      {
+        question: "Can I use my HSA to pay for Medigap premiums?",
+        answer: "No. The IRS does not consider Medigap (Medicare Supplement) premiums a qualified medical expense. If you use HSA funds for Medigap premiums, the withdrawal will be taxed as ordinary income. However, Medicare Part A, B, C, and D premiums are all qualified expenses.",
+      },
+      {
+        question: "Should I delay Medicare to keep contributing to my HSA?",
+        answer: "This depends on your situation. If you have creditable employer coverage and want to maximize HSA contributions, you can delay Part A (and Part B) enrollment. However, weigh the tax savings from HSA contributions against the value of Medicare coverage and any potential penalties.",
+      },
+      {
+        question: "What if I accidentally contributed to my HSA after enrolling in Medicare?",
+        answer: "You'll need to withdraw the excess contributions (and any earnings on them) before your tax filing deadline to avoid the 6% excise tax. Contact your HSA administrator to process an excess contribution removal. If you don't remove them, the 6% penalty applies each year the excess remains.",
+      },
+    ],
+    quickReference: [
+      { icon: "x" as const, text: "Cannot contribute to HSA after enrolling in any part of Medicare" },
+      { icon: "check" as const, text: "Can use existing HSA funds tax-free for Medicare premiums and costs" },
+      { icon: "alert" as const, text: "Stop contributions 6 months before Medicare enrollment (retroactive Part A)" },
+      { icon: "x" as const, text: "Medigap premiums are NOT a qualified HSA expense" },
+      { icon: "dollar" as const, text: "6% excise tax penalty on excess contributions after Medicare enrollment" },
+    ],
+    relatedTopics: [
+      { title: "Medicare and HSA Rules at 65", description: "What happens to your HSA when you turn 65 and enroll in Medicare.", slug: "medicare-and-hsa-rules-what-happens-when-you-turn-65" },
+      { title: "Medicare and Employer Coverage", description: "How Medicare coordinates with employer health insurance.", slug: "medicare-and-employer-coverage" },
+      { title: "Medicare Costs 2026", description: "Current Medicare premiums, deductibles, and cost-sharing amounts.", slug: "medicare-costs-2026" },
+      { title: "Medicare Late Enrollment Penalties", description: "Understand the penalties for delaying Medicare enrollment.", slug: "protect-yourself-from-medicare-penalties-key-tips-and-deadlines" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare and HSA Rules at 65",
+      "Medicare and Employer Coverage",
+      "Medicare Costs 2026",
+      "Medicare Late Enrollment Penalties",
+      "Working Past 65 and Medicare",
+    ],
+    ctaBanner: {
+      title: "Need Help Coordinating Your HSA and Medicare?",
+      text: "Our licensed Medicare agents can help you plan the transition from employer coverage and HSA to Medicare without penalties or tax surprises.",
+    },
+    relatedSlugs: ["medicare-and-hsa-rules-what-happens-when-you-turn-65", "medicare-costs-2026", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "when-should-you-enroll-in-medicare-if-still-working"],
+  },
 ];

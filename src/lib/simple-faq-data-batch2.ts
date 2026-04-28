@@ -1153,31 +1153,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["what-is-medicare", "medicare-savings-programs", "qualified-medicare-beneficiary-program", "medicaid-spend-down-program"],
   },
   {
-    slug: 'home-safety-assessment-for-the-elderly',
-    seo: {
-      title: 'Does Medicare Cover Home Safety Assessments',
-      description: 'Medicare does cover a home safety assessment or evaluation under Medicare Part B. However, your primary care physician must order it. Learn more today.',
-      canonical: 'https://www.medicarefaq.com/faqs/home-safety-assessment-for-the-elderly/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Home-Safety-Assessments.jpg',
-    },
-    title: 'Does Medicare Cover Home Safety Assessments',
-    summary: 'Medicare will cover home safety assessments if they are considered medically necessary by a Medicare-approved physician due to a recent preventable injury at home or if it is required for durable medical equipment installation.',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '8 min',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Hi I don’t see anywhere on CMS that [Medicare covers](/faqs/medicare-preventive-services) a home safety assessment. I also don’t see a [CPT code](/faqs/does-medicare-cover-a-shower-transfer-bench) anywhere. Is this still a [covered benefit](/faqs/medicare-coverage-for-bathroom-safety-devices)?',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-bathroom-safety-devices", "durable-medical-equipment"],
-  },
-  {
     slug: 'mapd-vs-part-d',
     seo: {
       title: 'MAPD vs. PDP Through Medicare Part D',
