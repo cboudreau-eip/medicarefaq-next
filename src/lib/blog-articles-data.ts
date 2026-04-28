@@ -3297,7 +3297,8 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "7 min read",
       featured: false,
-      image: "https://images.pexels.com/photos/5858411/pexels-photo-5858411.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/cms-images/1777387841469-7b2bac.jpg",
+    imageAlt: "Understanding medicare assignment",
       keyTakeaways: ["Medicare assignment means your doctor accepts Medicare's approved amount as full payment", "Non-participating providers can charge up to 15% above Medicare\'s approved fee", "Opt-out doctors are entirely outside Medicare and can charge any amount"],
       tableOfContents: [
         { id: "what-is-assignment", title: "What Is Medicare Assignment?" },
