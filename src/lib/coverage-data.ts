@@ -22433,4 +22433,309 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["understanding-medicare-assignment-what-it-means-for-your-costs", "how-to-file-a-medicare-claim", "advance-beneficiary-notice", "what-is-medicare-cost-sharing"],
   },
+  /* ─── Medicare for Green Card Holders ─── */
+  {
+    slug: "medicare-for-green-card-holders",
+    seo: {
+      title: "Medicare for Green Card Holders (Medicare for Immigrants) | MedicareFAQ",
+      description: "Medicare for green card holders is possible when proper residency status has been established. Learn eligibility, enrollment, costs, and the 2025 law changes.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-for-green-card-holders/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-for-Green-Card-Holders-2.jpg",
+    },
+    title: "Medicare for Green Card Holders (Medicare for Immigrants)",
+    subtitle: "Green card holders can qualify for Medicare, but eligibility depends on residency length, work history, and immigration status. Here's what you need to know.",
+    category: "Medicare Eligibility",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "10 min read",
+    quickAnswer: {
+      text: "Green card holders (lawful permanent residents) can enroll in Medicare if they are 65 or older and have lived in the U.S. for at least 5 continuous years. Those with 40+ quarters of work history get premium-free Part A; others can purchase Part A at a monthly premium.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Green Card + 40 Quarters (10 years work)",
+        coverage: "Premium-free Part A + standard Part B enrollment",
+        icon: "shield-check",
+        notes: "Same eligibility as U.S. citizens; must meet 5-year residency",
+      },
+      {
+        planType: "Green Card + 30-39 Quarters",
+        coverage: "Reduced Part A premium ($311/month in 2026)",
+        icon: "info",
+        notes: "Must also enroll in Part B and pay Part B premium",
+      },
+      {
+        planType: "Green Card + Under 30 Quarters",
+        coverage: "Full Part A premium ($565/month in 2026)",
+        icon: "alert-triangle",
+        notes: "Must also enroll in Part B; may want to consider alternatives",
+      },
+      {
+        planType: "New Green Card (Under 5 Years Residency)",
+        coverage: "Not yet eligible for Medicare",
+        icon: "x-circle",
+        notes: "Must wait until 5 continuous years of U.S. residency",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Eligibility Requirements",
+        icon: "user-check",
+        iconColor: "text-blue-600",
+        coverageLabel: "Must Meet All Criteria",
+        coverageType: "partial",
+        paragraphs: [
+          "To qualify for Medicare as a green card holder, you must be a lawful permanent resident (LPR) of the United States. You must be at least 65 years old and have lived continuously in the U.S. for at least 5 years immediately before applying.",
+          "Under the 2025 law changes (H.R. 1), Medicare eligibility is now restricted to U.S. citizens, green card holders, Cuban-Haitian entrants, and people residing under the Compacts of Free Association. Green card holders remain fully eligible.",
+        ],
+        whatItCovers: [
+          "Lawful permanent residents (green card holders) age 65+",
+          "Must have 5 continuous years of U.S. residency",
+          "Cuban-Haitian entrants remain eligible",
+          "Compacts of Free Association (COFA) residents remain eligible",
+        ],
+        whatItDoesntCover: [
+          "Undocumented immigrants",
+          "Visa holders (tourist, student, work visas)",
+          "Refugees and asylees who haven't obtained green cards (after Jan 2027)",
+          "People with Temporary Protected Status (TPS) after Jan 2027",
+        ],
+        callout: {
+          type: "warning",
+          title: "2025 Law Change",
+          text: "Starting July 2025, only U.S. citizens, green card holders, Cuban-Haitian entrants, and COFA residents are eligible for Medicare. Other lawfully present immigrants will lose eligibility by January 2027.",
+        },
+      },
+      {
+        planName: "The 5-Year Residency Requirement",
+        icon: "calendar",
+        iconColor: "text-teal-600",
+        coverageLabel: "Mandatory Waiting Period",
+        coverageType: "partial",
+        paragraphs: [
+          "The 5-year continuous residency rule requires that you have lived in the United States as a lawful permanent resident for at least 5 years immediately prior to enrolling in Medicare.",
+          "This means if you received your green card at age 62, you would need to wait until age 67 to enroll in Medicare. The 5 years must be continuous \u2014 extended trips abroad may reset the clock.",
+        ],
+        whatItCovers: [
+          "Clock starts from the date your green card is issued",
+          "Short trips abroad (under 6 months) generally don't break continuity",
+          "Applies to both Part A and Part B enrollment",
+        ],
+        whatItDoesntCover: [
+          "Time spent in the U.S. on a visa before getting green card doesn't count",
+          "Absences over 12 months typically reset the 5-year clock",
+          "Conditional residency may not count toward the 5 years",
+        ],
+        callout: {
+          type: "info",
+          title: "Late Enrollment Penalty",
+          text: "If you don't enroll during your Initial Enrollment Period (which starts 3 months before you meet all eligibility criteria), you may face a Part B late enrollment penalty of 10% for each 12-month period you were eligible but didn't enroll.",
+        },
+      },
+      {
+        planName: "Premium-Free vs. Premium Part A",
+        icon: "dollar-sign",
+        iconColor: "text-green-600",
+        coverageLabel: "Based on Work History",
+        coverageType: "covered",
+        paragraphs: [
+          "Whether you pay a premium for Part A depends on how many quarters (3-month periods) you or your spouse worked in the U.S. and paid Medicare payroll taxes.",
+          "With 40 or more quarters (10 years), you qualify for premium-free Part A. With 30-39 quarters, you pay a reduced premium. With fewer than 30 quarters, you pay the full premium.",
+        ],
+        whatItCovers: [
+          "40+ quarters: $0/month (premium-free Part A)",
+          "30-39 quarters: $311/month (2026 reduced premium)",
+          "Under 30 quarters: $565/month (2026 full premium)",
+          "Spouse's work history counts toward your quarters",
+        ],
+        whatItDoesntCover: [
+          "Work performed outside the U.S. doesn't count toward quarters",
+          "Self-employment without paying Medicare taxes doesn't count",
+          "Under-the-table or cash work doesn't generate quarters",
+        ],
+      },
+      {
+        planName: "Part B, Part D, and Supplemental Coverage",
+        icon: "layers",
+        iconColor: "text-purple-600",
+        coverageLabel: "Available to All Eligible Green Card Holders",
+        coverageType: "covered",
+        paragraphs: [
+          "Once eligible for Medicare, green card holders have access to all the same plan options as U.S. citizens. This includes Part B (medical insurance), Part D (prescription drugs), Medicare Advantage, and Medigap supplemental plans.",
+          "Part B costs $185/month in 2025 (standard premium) regardless of work history. You can also enroll in Medicare Advantage or Medigap plans during your initial enrollment period without medical underwriting.",
+        ],
+        whatItCovers: [
+          "Part B: $185/month standard premium (2025), covers outpatient care",
+          "Part D: Prescription drug coverage through private plans",
+          "Medicare Advantage: All-in-one alternative to Original Medicare",
+          "Medigap: Supplemental insurance to cover out-of-pocket costs",
+        ],
+        whatItDoesntCover: [
+          "Part B doesn't cover long-term care or most dental/vision",
+          "Medigap plans don't cover prescription drugs",
+          "Coverage outside the U.S. is very limited",
+        ],
+      },
+      {
+        planName: "Alternatives While Waiting for Medicare",
+        icon: "clock",
+        iconColor: "text-amber-600",
+        coverageLabel: "Options During the 5-Year Wait",
+        coverageType: "partial",
+        paragraphs: [
+          "If you're a green card holder who hasn't yet met the 5-year residency requirement, you still have health insurance options available.",
+          "You may qualify for coverage through the Health Insurance Marketplace (HealthCare.gov), Medicaid (in some states after 5 years), or private health insurance plans.",
+        ],
+        whatItCovers: [
+          "ACA Marketplace plans (may qualify for subsidies based on income)",
+          "Employer-sponsored health insurance",
+          "Medicaid (varies by state; some have 5-year waiting period)",
+          "Private health insurance or short-term plans",
+        ],
+        whatItDoesntCover: [
+          "Marketplace plans don't provide Medicare-equivalent coverage",
+          "Short-term plans have limited benefits and exclusions",
+          "Medicaid eligibility varies significantly by state",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medicare Costs for Green Card Holders (2025-2026)",
+      headers: ["Coverage", "Monthly Cost", "Who Pays This"],
+      rows: [
+        { "Coverage": "Part A (40+ quarters)", "Monthly Cost": "$0", "Who Pays This": "Green card holders with 10+ years of U.S. work history" },
+        { "Coverage": "Part A (30-39 quarters)", "Monthly Cost": "$311 (2026)", "Who Pays This": "Green card holders with 7.5-10 years of work" },
+        { "Coverage": "Part A (under 30 quarters)", "Monthly Cost": "$565 (2026)", "Who Pays This": "Green card holders with less than 7.5 years of work" },
+        { "Coverage": "Part B (standard)", "Monthly Cost": "$185 (2025)", "Who Pays This": "All Medicare enrollees regardless of work history" },
+        { "Coverage": "Part D (drug plan)", "Monthly Cost": "$0-$100+ (varies)", "Who Pays This": "Optional; varies by plan chosen" },
+        { "Coverage": "Medigap Plan G", "Monthly Cost": "$100-$300+ (varies)", "Who Pays This": "Optional supplemental coverage" },
+      ],
+      footnote: "Part A premiums for those who must buy in are in addition to the Part B premium. If you must purchase Part A, you are also required to enroll in and pay for Part B.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Special Situations",
+      items: [
+        {
+          title: "Spouse's Work History Counts",
+          text: "If your spouse (current or former, if married 10+ years) has 40 quarters of U.S. work history, you can qualify for premium-free Part A based on their record \u2014 even if you never worked in the U.S.",
+          highlight: "This is one of the most common paths to premium-free Part A for green card holders.",
+        },
+        {
+          title: "Disability-Based Medicare",
+          text: "Green card holders under 65 may qualify for Medicare through Social Security Disability Insurance (SSDI) after receiving disability benefits for 24 months. The same work credit requirements apply as for U.S. citizens.",
+        },
+        {
+          title: "End-Stage Renal Disease (ESRD)",
+          text: "Green card holders with ESRD (permanent kidney failure requiring dialysis or transplant) may qualify for Medicare regardless of age, provided they meet the work history or family member requirements.",
+        },
+        {
+          title: "Totalization Agreements",
+          text: "The U.S. has Social Security agreements with over 25 countries. Work credits earned in those countries may count toward the 40-quarter requirement for premium-free Part A.",
+          highlight: "Check if your home country has a totalization agreement with the U.S.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "2025 Legislative Changes (H.R. 1)",
+      items: [
+        {
+          title: "Medicare Eligibility Restricted to Citizens & Green Card Holders",
+          status: "Passed",
+          description: "Starting July 2025, only U.S. citizens, lawful permanent residents (green card holders), Cuban-Haitian entrants, and COFA residents are eligible for Medicare. Refugees, asylees, and TPS holders who haven't obtained green cards will lose eligibility by January 2027.",
+        },
+        {
+          title: "Green Card Holders Remain Fully Eligible",
+          status: "Passed",
+          description: "The new law explicitly preserves Medicare eligibility for lawful permanent residents (green card holders) who meet the existing 5-year residency and age/disability requirements.",
+        },
+        {
+          title: "Transition Period for Current Enrollees",
+          status: "Passed",
+          description: "Immigrants who currently have Medicare but don't meet the new criteria will have their coverage terminated no later than January 2027, giving them time to find alternative coverage.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Steps to Enroll in Medicare as a Green Card Holder",
+      paragraphs: [
+        "If you're a green card holder approaching Medicare eligibility, planning ahead can help you avoid penalties and gaps in coverage.",
+      ],
+      checklist: {
+        title: "Enrollment Checklist",
+        items: [
+          "Confirm you've had your green card for at least 5 continuous years",
+          "Check your work history (or spouse's) at ssa.gov for quarter count",
+          "Identify your Initial Enrollment Period (3 months before to 3 months after your 65th birthday)",
+          "Decide between Original Medicare + Medigap or Medicare Advantage",
+          "Enroll in Part B during your IEP to avoid late enrollment penalties",
+          "Consider Part D prescription drug coverage to avoid that late penalty too",
+          "If you must buy Part A, budget for both Part A and Part B premiums",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "Can I get Medicare if I've never worked in the United States?",
+        answer: "Yes, but you'll need to purchase Part A at the full premium ($565/month in 2026). You must still meet the 5-year residency requirement and be 65 or older. Your spouse's work history may also qualify you for free or reduced-cost Part A.",
+      },
+      {
+        question: "Does time on a visa count toward the 5-year requirement?",
+        answer: "No. The 5-year continuous residency requirement only counts time as a lawful permanent resident (green card holder). Time spent on tourist, student, or work visas does not count.",
+      },
+      {
+        question: "What happens if I travel outside the U.S. for an extended period?",
+        answer: "Short trips (under 6 months) generally don't affect your residency. However, absences over 12 months may reset your 5-year clock. Trips between 6-12 months may also raise issues.",
+      },
+      {
+        question: "Are green card holders affected by the 2025 Medicare law changes?",
+        answer: "No. Green card holders (lawful permanent residents) remain fully eligible for Medicare under the new law. The changes primarily affect refugees, asylees, and TPS holders who haven't obtained green cards.",
+      },
+      {
+        question: "Can I get Medigap or Medicare Advantage as a green card holder?",
+        answer: "Yes. Once enrolled in Medicare, green card holders have access to all the same supplemental options as U.S. citizens, including Medigap plans, Medicare Advantage, and Part D drug plans.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Green card holders are eligible for Medicare with 5+ years of continuous U.S. residency" },
+      { icon: "info", text: "40 quarters of work history (yours or spouse's) = premium-free Part A" },
+      { icon: "dollar", text: "Without 40 quarters, Part A costs $311-$565/month (2026) plus Part B premium" },
+      { icon: "alert", text: "The 5-year clock starts when your green card is issued, not when you enter the U.S." },
+      { icon: "check", text: "2025 law changes do NOT affect green card holders \u2014 you remain fully eligible" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Without Social Security", description: "How to get Medicare if you haven't received Social Security benefits.", slug: "can-you-get-medicare-without-receiving-social-security-benefits" },
+      { title: "Medicare Parts Explained", description: "A simple breakdown of Medicare Parts A, B, C, and D.", slug: "medicare-parts-a-b-c-and-d-explained-simply" },
+      { title: "Medicare for Disabled Individuals", description: "How disability-based Medicare works for those under 65.", slug: "medicare-for-disabled-individuals" },
+      { title: "Transitioning from Employer Coverage", description: "Steps to take when moving from employer insurance to Medicare.", slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Without Social Security",
+      "Medicare Parts Explained",
+      "Medicare for Disabled",
+      "Employer to Medicare Transition",
+    ],
+    ctaBanner: {
+      title: "Questions About Medicare Eligibility?",
+      text: "Our licensed agents specialize in helping green card holders understand their Medicare options. Get free, personalized guidance on enrollment, costs, and coverage.",
+    },
+    relatedSlugs: ["can-you-get-medicare-without-receiving-social-security-benefits", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-for-disabled-individuals", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
+  },
 ];

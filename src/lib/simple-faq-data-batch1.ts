@@ -424,35 +424,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-secondary-insurance", "medicare-and-workers-comp"],
   },
   {
-    slug: 'medicare-part-b-premiums',
-    seo: {
-      title: 'Medicare Part B Premium for 2026',
-      description: 'Medicare Part B premium changes each year. In 2026 the standard premium is $202.90 per month. Learn more about Medicare Part B premium for 2026.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-part-b-premiums/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-is-the-medicare-part-b-premium.jpeg',
-    },
-    title: 'Medicare Part B Premium for 2026',
-    summary: '',
-    category: 'Medicare Part B',
-    dateUpdated: 'February 19, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [[Medicare](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: [
-      'medicare-vs-medicaid',
-      'irmaa',
-    ],
-  },
-  {
     slug: 'medicare-and-va-benefits',
     seo: {
       title: 'Medicare and VA Benefits',
@@ -827,32 +798,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "new-in-2025-medicares-part-d-payment-plan-explained"],
-  },
-  {
-    slug: 'medicare-for-green-card-holders',
-    seo: {
-      title: 'Medicare for Green Card Holders (Medicare for Immigrants)',
-      description: 'Medicare for green card holders is possible when proper residency status has been established. Learn eligibility, enrollment, and more here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-for-green-card-holders/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Medicare-for-Green-Card-Holders-2.jpg',
-    },
-    title: 'Medicare for Green Card Holders (Medicare for Immigrants)',
-    summary: 'While Medicare for green card holders is available, you may still have expenses when using your benefits. There are also differences in your costs depending on when you become eligible. Furthermore, immigrants will need to understand how their legal status affects eligibility. Learn more below.',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '10 min',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Hi,I am [76 years old](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) ,green card holder and more than 5 years here.[Never worked in US](/blog/can-you-get-medicare-without-receiving-social-security-benefits)How can I get [health insurance](/faqs/what-is-medicare)?',
-        ],
-      },
-    ],
-    relatedSlugs: ["can-you-get-medicare-without-receiving-social-security-benefits", "medicare-parts-a-b-c-and-d-explained-simply", "5-things-to-do-after-you-receive-your-medicare-card", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide",
-    "medicare-for-disabled-individuals",],
   },
   {
     slug: 'medicare-guaranteed-issue',
