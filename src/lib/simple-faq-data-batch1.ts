@@ -618,32 +618,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     "medicare-for-green-card-holders",],
   },
   {
-    slug: 'manufacturers-coupons-and-medicare',
-    seo: {
-      title: 'Prescription Discount Cards and Coupons for Medicare Beneficiaries',
-      description: 'Prescription discount cards & Rx coupons are a good alternative to lower Medicare drug costs. Learn more on how to lower Part D costs here.',
-      canonical: 'https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/prescription-discount-cards-and-coupons.jpg',
-    },
-    title: 'Prescription Discount Cards and Coupons for Medicare Beneficiaries',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'January 7, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Extra Help Program Income Limits',
-        paragraphs: [
-          'Updated on January 7, 2026',
-          'Medicare Extra Help is a [low-income subsidy](/faqs/medicare-extra-help-program) for individuals enrolled in [Medicare Part D](/blog/new-in-2025-medicares-part-d-payment-plan-explained). This...',
-        ],
-      },
-    ],
-    relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "coverage-gap-discount-program", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
-  },
-  {
     slug: 'can-i-cancel-medicare-advantage-plan',
     seo: {
       title: 'Can I Cancel My Medicare Advantage Plan?',

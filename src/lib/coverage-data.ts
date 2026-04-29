@@ -26122,4 +26122,548 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-and-va-benefits", "how-dual-residency-and-medicare-works", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage"],
   },
+  /* ─── MEDICARE VISION CARE COVERAGE ─── */
+  {
+    slug: "medicare-vision-care-coverage",
+    seo: {
+      title: "Does Medicare Cover Vision Care in 2026? | MedicareFAQ",
+      description: "Original Medicare does not cover routine eye exams or glasses. Learn what Medicare does cover for vision — including cataract surgery, glaucoma screenings, and diabetic eye exams — and how to get full vision coverage.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-vision-care-coverage/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-vision.jpg",
+    },
+    title: "Does Medicare Cover Vision Care?",
+    subtitle: "Original Medicare does not cover routine eye exams or eyeglasses, but it does cover medically necessary vision services. Medicare Advantage plans often include vision benefits that Original Medicare lacks.",
+    category: "Dental, Vision & Hearing",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Original Medicare (Parts A and B) does not cover routine eye exams for glasses or contacts, eyeglasses, or contact lenses. However, Medicare Part B does cover medically necessary vision services including: cataract surgery (and one pair of glasses or contacts afterward), glaucoma screenings for high-risk patients (annually), diabetic retinopathy exams (annually for diabetics), and treatment for macular degeneration and other eye diseases. Medicare Advantage plans often include routine vision benefits that Original Medicare does not.",
+      badges: [
+        { plan: "Routine Eye Exam", status: "not-covered" },
+        { plan: "Cataract Surgery", status: "covered" },
+        { plan: "Glaucoma Screening", status: "partial" },
+        { plan: "Medicare Advantage", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Original Medicare (Part B)",
+        coverage: "Medically necessary eye care only; no routine exams or glasses",
+        icon: "alert-triangle",
+        notes: "Covers cataract surgery, glaucoma screenings (high-risk), diabetic eye exams, treatment for eye diseases",
+      },
+      {
+        planType: "Medicare Advantage",
+        coverage: "Often includes routine vision benefits",
+        icon: "shield-check",
+        notes: "Many MA plans cover annual eye exams, glasses, contacts, and allowances for frames/lenses; varies by plan",
+      },
+      {
+        planType: "Medigap (Medicare Supplement)",
+        coverage: "Covers Part B cost-sharing for covered vision services",
+        icon: "info",
+        notes: "Does not add routine vision coverage; only covers your share of Medicare-approved vision services",
+      },
+      {
+        planType: "Standalone Vision Plan",
+        coverage: "Routine exams, glasses, contacts",
+        icon: "shield-check",
+        notes: "Available from VSP, EyeMed, and others; can be purchased separately to supplement Original Medicare",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Original Medicare Does NOT Cover for Vision",
+        icon: "eye-off",
+        iconColor: "text-red-600",
+        coverageLabel: "Not Covered by Original Medicare",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Original Medicare (Parts A and B) does not cover most routine vision care. This is one of the most significant gaps in Medicare coverage for seniors.",
+        ],
+        whatItCovers: [],
+        whatItDoesntCover: [
+          "Routine eye exams (refractions) for prescribing glasses or contacts",
+          "Eyeglasses (frames and lenses) — except after cataract surgery with IOL implant",
+          "Contact lenses — except after cataract surgery with IOL implant",
+          "Routine vision screenings not related to a medical condition",
+          "Low vision aids (magnifiers, telescopic lenses)",
+        ],
+        callout: {
+          type: "warning",
+          title: "Routine Vision Is Not Covered",
+          text: "If you need an eye exam for new glasses or contacts, Medicare will not pay for it. You will pay 100% out-of-pocket unless you have a Medicare Advantage plan or standalone vision plan.",
+        },
+      },
+      {
+        planName: "What Medicare Part B DOES Cover for Vision",
+        icon: "eye",
+        iconColor: "text-green-600",
+        coverageLabel: "Medically Necessary Vision Services",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B covers vision services that are medically necessary — meaning they are needed to diagnose or treat a medical condition, not simply to correct refractive errors.",
+        ],
+        whatItCovers: [
+          "Cataract surgery: Covered by Part B; includes the surgeon fee, facility fee, and anesthesia. One pair of standard eyeglasses or contacts is covered after each cataract surgery that implants an intraocular lens (IOL)",
+          "Glaucoma screenings: Covered annually for high-risk patients (diabetics, family history of glaucoma, African Americans age 50+, Hispanic Americans age 65+)",
+          "Diabetic retinopathy exams: Covered once per year for people with diabetes",
+          "Macular degeneration diagnosis and treatment: Covered when medically necessary",
+          "Treatment for eye injuries, infections, and diseases: Covered under Part B",
+          "Prosthetic eye (ocular prosthesis): Covered after eye removal surgery",
+        ],
+        whatItDoesntCover: [],
+        callout: {
+          type: "info",
+          title: "Part B Cost-Sharing for Vision",
+          text: "For covered vision services, you pay 20% of the Medicare-approved amount after meeting the Part B deductible ($257 in 2026). Medigap plans can cover this 20% cost-share.",
+        },
+      },
+      {
+        planName: "Medicare Advantage Vision Benefits",
+        icon: "shield-check",
+        iconColor: "text-teal-600",
+        coverageLabel: "Routine Vision Through MA Plans",
+        coverageType: "covered",
+        paragraphs: [
+          "Many Medicare Advantage plans include routine vision benefits as a supplemental benefit. These benefits vary significantly by plan and location.",
+        ],
+        whatItCovers: [
+          "Annual routine eye exam (refraction): Covered by most MA plans with vision benefits",
+          "Eyeglass frames and lenses: Many plans provide an annual allowance ($100–$300+)",
+          "Contact lenses: Covered by many MA plans in lieu of glasses",
+          "Prescription sunglasses: Covered by some plans",
+          "Medically necessary vision services: Also covered (same as Original Medicare)",
+        ],
+        whatItDoesntCover: [
+          "Vision benefits vary widely — some MA plans have reduced or eliminated vision benefits in 2026 due to funding cuts",
+          "Out-of-network providers may not be covered or may have higher cost-sharing",
+          "Cosmetic contact lenses or non-prescription eyewear",
+        ],
+        callout: {
+          type: "tip",
+          title: "Compare MA Plans for Vision",
+          text: "During Annual Enrollment Period (Oct 15 – Dec 7), compare Medicare Advantage plans in your area for vision benefits. Some plans offer $0 eye exams and $200+ annual eyewear allowances.",
+        },
+      },
+      {
+        planName: "Standalone Vision Plans for Medicare Beneficiaries",
+        icon: "plus-circle",
+        iconColor: "text-blue-600",
+        coverageLabel: "Supplemental Vision Coverage",
+        coverageType: "partial",
+        paragraphs: [
+          "If you have Original Medicare and want routine vision coverage, you can purchase a standalone vision insurance plan. These are separate from Medicare and are not regulated by CMS.",
+        ],
+        whatItCovers: [
+          "Annual eye exams (refraction)",
+          "Eyeglass frames and lenses (with annual allowance)",
+          "Contact lenses",
+          "Discounts at network providers (VSP, EyeMed, Davis Vision, Spectera)",
+          "Typical monthly premium: $10–$30/month for individuals",
+        ],
+        whatItDoesntCover: [
+          "Does not cover medically necessary eye care — that remains under Medicare Part B",
+          "Coverage limits and network restrictions apply",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medicare Vision Coverage Summary 2026",
+      headers: ["Service", "Original Medicare", "Medicare Advantage", "Your Cost (Original Medicare)"],
+      rows: [
+        { "Service": "Routine eye exam (refraction)", "Original Medicare": "Not covered", "Medicare Advantage": "Often covered", "Your Cost (Original Medicare)": "100% out-of-pocket" },
+        { "Service": "Eyeglasses / contacts (routine)", "Original Medicare": "Not covered", "Medicare Advantage": "Often covered ($100–$300 allowance)", "Your Cost (Original Medicare)": "100% out-of-pocket" },
+        { "Service": "Cataract surgery", "Original Medicare": "Covered (Part B)", "Medicare Advantage": "Covered", "Your Cost (Original Medicare)": "20% after $257 deductible" },
+        { "Service": "Glasses after cataract surgery", "Original Medicare": "1 pair covered", "Medicare Advantage": "Covered", "Your Cost (Original Medicare)": "20% of standard frames" },
+        { "Service": "Glaucoma screening (high-risk)", "Original Medicare": "Covered annually", "Medicare Advantage": "Covered", "Your Cost (Original Medicare)": "20% after deductible" },
+        { "Service": "Diabetic retinopathy exam", "Original Medicare": "Covered annually", "Medicare Advantage": "Covered", "Your Cost (Original Medicare)": "20% after deductible" },
+        { "Service": "Macular degeneration treatment", "Original Medicare": "Covered (Part B)", "Medicare Advantage": "Covered", "Your Cost (Original Medicare)": "20% after deductible" },
+      ],
+      footnote: "Part B deductible: $257 in 2026. Medigap plans can cover the 20% Part B cost-share for covered services. MA vision benefits vary by plan.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Notes",
+      items: [
+        {
+          title: "Glasses After Cataract Surgery",
+          text: "Medicare Part B covers one pair of standard eyeglasses (or contact lenses) after cataract surgery that implants an intraocular lens. This is the only situation where Original Medicare covers eyeglasses. You pay 20% of the Medicare-approved amount for standard frames; upgrades to premium frames are your responsibility.",
+          highlight: "One pair of glasses covered after each cataract surgery with IOL implant.",
+        },
+        {
+          title: "Glaucoma Screening High-Risk Criteria",
+          text: "Medicare covers annual glaucoma screenings only for patients at high risk: those with diabetes, a family history of glaucoma, African Americans age 50 or older, or Hispanic Americans age 65 or older. Low-risk patients are not covered.",
+        },
+        {
+          title: "Low Vision Aids",
+          text: "Medicare does not cover low vision aids such as magnifiers, telescopic lenses, or other devices used to maximize remaining vision. These are considered routine vision items. Some MA plans may cover them as supplemental benefits.",
+        },
+        {
+          title: "LASIK and Refractive Surgery",
+          text: "Medicare does not cover LASIK, PRK, or other refractive surgeries to correct nearsightedness, farsightedness, or astigmatism. These are considered elective procedures.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "2026 Vision Coverage Updates",
+      items: [
+        {
+          title: "Medicare Advantage Vision Benefit Reductions (2026)",
+          status: "Passed",
+          description: "Some Medicare Advantage plans reduced or eliminated vision benefits in 2026 due to CMS funding changes. Beneficiaries should review their plan's Evidence of Coverage during AEP.",
+        },
+        {
+          title: "Part B Deductible Increased to $257 in 2026",
+          status: "Passed",
+          description: "The Medicare Part B deductible increased to $257 in 2026 (from $240 in 2025), affecting cost-sharing for covered vision services like cataract surgery.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Get Vision Coverage with Medicare",
+      paragraphs: [
+        "If you need routine vision coverage, here are your options.",
+      ],
+      checklist: {
+        title: "Vision Coverage Options",
+        items: [
+          "Enroll in a Medicare Advantage plan with vision benefits during AEP (Oct 15 – Dec 7)",
+          "Purchase a standalone vision plan (VSP, EyeMed) to supplement Original Medicare",
+          "If you have diabetes, schedule your annual diabetic retinopathy exam — covered by Part B",
+          "If at high risk for glaucoma, schedule your annual glaucoma screening — covered by Part B",
+          "After cataract surgery, use your covered pair of standard glasses or contacts",
+          "Compare MA plan vision allowances at Medicare.gov Plan Finder during AEP",
+          "Ask your eye doctor if your visit qualifies as medically necessary (covered) vs. routine (not covered)",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover eye exams?",
+        answer: "Medicare does not cover routine eye exams for glasses or contacts. It does cover medically necessary eye exams, such as for diabetic retinopathy or glaucoma screening for high-risk patients.",
+      },
+      {
+        question: "Does Medicare cover glasses?",
+        answer: "No, except for one pair of standard glasses (or contacts) after cataract surgery with an IOL implant. Routine eyeglasses are not covered by Original Medicare.",
+      },
+      {
+        question: "Does Medicare cover cataract surgery?",
+        answer: "Yes. Medicare Part B covers cataract surgery, including the surgeon fee, facility, and anesthesia. One pair of standard glasses or contacts is covered afterward.",
+      },
+      {
+        question: "How can I get vision coverage with Medicare?",
+        answer: "Enroll in a Medicare Advantage plan with vision benefits, or purchase a standalone vision plan (VSP, EyeMed). Original Medicare does not cover routine vision.",
+      },
+      {
+        question: "Does Medicare cover LASIK surgery?",
+        answer: "No. Medicare does not cover LASIK or other elective refractive surgeries. These are considered cosmetic/elective procedures.",
+      },
+    ],
+    quickReference: [
+      { icon: "alert", text: "Routine eye exams and eyeglasses are NOT covered by Original Medicare" },
+      { icon: "check", text: "Cataract surgery IS covered by Part B (20% after deductible)" },
+      { icon: "check", text: "One pair of glasses covered after cataract surgery with IOL implant" },
+      { icon: "info", text: "Glaucoma screenings covered annually for high-risk patients only" },
+      { icon: "info", text: "Medicare Advantage plans often include routine vision benefits" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Glasses?", description: "Eyeglass coverage rules explained.", slug: "does-medicare-cover-glasses" },
+      { title: "Does Medicare Cover Cataract Surgery?", description: "Full cataract surgery coverage details.", slug: "does-medicare-cover-cataract-surgery" },
+      { title: "Macular Degeneration", description: "Medicare coverage for AMD treatment.", slug: "does-medicare-cover-macular-degeneration" },
+      { title: "Dental, Vision & Hearing", description: "Overview of all three coverage gaps.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
+    ],
+    sidebarRelatedLinks: ["Glasses", "Cataract Surgery", "Macular Degeneration", "Dental/Vision/Hearing"],
+    ctaBanner: {
+      title: "Need Vision Coverage with Medicare?",
+      text: "Our licensed agents can help you find Medicare Advantage plans with vision benefits or standalone vision plans in your area.",
+    },
+    relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "does-medicare-cover-macular-degeneration", "medicare-and-vision-dental-and-hearing-what-are-your-options", "six-protected-classes"],
+  },
+  /* ─── MANUFACTURERS COUPONS AND MEDICARE ─── */
+  {
+    slug: "manufacturers-coupons-and-medicare",
+    seo: {
+      title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries | MedicareFAQ",
+      description: "Can Medicare beneficiaries use GoodRx, manufacturer coupons, or prescription discount cards? Learn the rules, when to use them, and how to save on drug costs in 2026.",
+      canonical: "https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/prescription-discount-cards-and-coupons.jpg",
+    },
+    title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries",
+    subtitle: "Medicare beneficiaries can use GoodRx and other discount cards — but not at the same time as Medicare. Understanding when to use each option can lead to significant savings.",
+    category: "Medicare FAQ",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare beneficiaries CAN use prescription discount cards like GoodRx, RxSaver, and manufacturer coupons — but NOT at the same time as Medicare Part D. You must choose one or the other for each prescription fill. Using a discount card instead of Part D means that purchase does NOT count toward your Part D deductible or out-of-pocket maximum. In 2026, with the new $2,000 Part D out-of-pocket cap, it's often better to use Part D for expensive drugs and discount cards only for cheap generics not covered by your plan.",
+      badges: [
+        { plan: "Part D", status: "partial" },
+        { plan: "GoodRx", status: "covered" },
+        { plan: "Manufacturer Coupons", status: "partial" },
+        { plan: "Extra Help", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Medicare Part D",
+        coverage: "Covers formulary drugs; counts toward deductible and OOP max",
+        icon: "shield-check",
+        notes: "$2,000 OOP cap in 2026; best for expensive brand-name drugs and high-cost medications",
+      },
+      {
+        planType: "GoodRx / Discount Cards",
+        coverage: "Negotiated discounts at pharmacies; no insurance required",
+        icon: "info",
+        notes: "Cannot be combined with Part D; purchase does NOT count toward deductible or OOP max; best for cheap generics",
+      },
+      {
+        planType: "Manufacturer Coupons (Copay Cards)",
+        coverage: "Manufacturer pays part of your drug cost",
+        icon: "info",
+        notes: "Cannot be used with Medicare Part D (federal anti-kickback statute); may be used instead of Part D",
+      },
+      {
+        planType: "Extra Help (LIS)",
+        coverage: "Federal subsidy reducing Part D costs for low-income beneficiaries",
+        icon: "shield-check",
+        notes: "Copays capped at $4.90 (generic) / $12.15 (brand) in 2026; better than most discount cards for eligible beneficiaries",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Can Medicare Beneficiaries Use GoodRx?",
+        icon: "tag",
+        iconColor: "text-green-600",
+        coverageLabel: "GoodRx with Medicare",
+        coverageType: "partial",
+        paragraphs: [
+          "Yes — Medicare beneficiaries can use GoodRx and other prescription discount programs. However, you cannot use GoodRx and your Medicare Part D coverage for the same prescription at the same time.",
+          "When you use GoodRx, you are paying cash for your prescription using GoodRx's negotiated price. The transaction is not processed through Medicare at all.",
+        ],
+        whatItCovers: [
+          "GoodRx can be used at most major pharmacies (CVS, Walgreens, Walmart, Kroger, etc.)",
+          "GoodRx discounts can be up to 80% off retail price for some generic drugs",
+          "You can use GoodRx for drugs not on your Part D formulary",
+          "You can use GoodRx when the GoodRx price is lower than your Part D copay",
+          "Free to use — no membership fee required for basic GoodRx discounts",
+        ],
+        whatItDoesntCover: [
+          "GoodRx purchases do NOT count toward your Part D deductible or out-of-pocket maximum",
+          "You must ask the pharmacist to use GoodRx instead of your Medicare card — they cannot process both",
+          "GoodRx Gold (paid membership) offers additional savings for some drugs",
+        ],
+        callout: {
+          type: "warning",
+          title: "GoodRx vs. Part D: The $2,000 Cap Tradeoff",
+          text: "In 2026, Part D has a $2,000 out-of-pocket cap. If you use GoodRx for expensive drugs, those costs don't count toward the cap. For high-cost brand-name drugs, using Part D is usually better so you reach the cap faster. Use GoodRx only for cheap generics where Part D copays are higher.",
+        },
+      },
+      {
+        planName: "Manufacturer Coupons and Copay Cards",
+        icon: "scissors",
+        iconColor: "text-blue-600",
+        coverageLabel: "Manufacturer Discount Programs",
+        coverageType: "partial",
+        paragraphs: [
+          "Pharmaceutical manufacturers often offer copay cards or coupons that reduce the cost of brand-name drugs. However, these programs have strict rules for Medicare beneficiaries.",
+        ],
+        whatItCovers: [
+          "Manufacturer copay cards CAN be used if you pay cash (not using Part D) for the prescription",
+          "Some manufacturers offer patient assistance programs (PAPs) for low-income Medicare beneficiaries — these are separate from copay cards and may be used with Medicare",
+          "Medicare Drug Price Negotiation (IRA): 10 drugs have negotiated prices in 2026, reducing costs for Part D enrollees",
+        ],
+        whatItDoesntCover: [
+          "Manufacturer copay cards CANNOT be used with Medicare Part D — this violates the federal anti-kickback statute",
+          "Using a manufacturer coupon with Part D is illegal and can result in loss of Medicare benefits",
+          "Copay cards used instead of Part D do NOT count toward your deductible or OOP max",
+        ],
+        callout: {
+          type: "warning",
+          title: "Manufacturer Coupons + Part D = Illegal",
+          text: "Using a manufacturer copay card or coupon in combination with Medicare Part D violates the federal anti-kickback statute. You can use a coupon instead of Part D (paying cash), but never alongside it.",
+        },
+      },
+      {
+        planName: "When to Use a Discount Card vs. Part D",
+        icon: "git-compare",
+        iconColor: "text-teal-600",
+        coverageLabel: "Decision Framework",
+        coverageType: "partial",
+        paragraphs: [
+          "Choosing between a discount card and Part D depends on the drug cost, your plan's formulary, and how close you are to the $2,000 out-of-pocket cap.",
+        ],
+        whatItCovers: [
+          "Use Part D when: The drug is expensive (brand-name, specialty); you want the cost to count toward the $2,000 OOP cap; the drug is on your formulary with a reasonable copay",
+          "Use GoodRx/discount card when: The drug is a cheap generic; it's not on your Part D formulary; the GoodRx price is lower than your Part D copay; you have already hit your $2,000 OOP cap",
+          "Use Extra Help (LIS) when: You qualify (income below ~$2,015/month); LIS copays ($4.90 generic / $12.15 brand) are lower than GoodRx prices",
+          "Use Patient Assistance Programs (PAPs) when: You are low-income and the manufacturer offers free or reduced-cost drugs directly",
+        ],
+        whatItDoesntCover: [],
+      },
+      {
+        planName: "Other Ways to Save on Prescriptions with Medicare",
+        icon: "dollar-sign",
+        iconColor: "text-purple-600",
+        coverageLabel: "Additional Savings Strategies",
+        coverageType: "covered",
+        paragraphs: [
+          "Beyond discount cards and coupons, Medicare beneficiaries have several other tools to reduce prescription drug costs.",
+        ],
+        whatItCovers: [
+          "Extra Help (Low Income Subsidy): Caps copays at $4.90 (generic) / $12.15 (brand) in 2026 for eligible beneficiaries",
+          "Preferred pharmacy networks: Using your plan's preferred pharmacies can significantly reduce copays",
+          "Mail-order pharmacy: 90-day supplies through mail order are often cheaper than 30-day retail fills",
+          "Formulary tier exceptions: Ask your doctor to request a tier exception if a lower-tier alternative isn't appropriate",
+          "Medicare Drug Price Negotiation (IRA): 10 drugs have negotiated prices in 2026; more added each year",
+          "$35 insulin cap: Insulin is capped at $35/month for Part D enrollees in 2026",
+        ],
+        whatItDoesntCover: [],
+        callout: {
+          type: "tip",
+          title: "$35 Insulin Cap",
+          text: "Under the Inflation Reduction Act, insulin is capped at $35/month for Medicare Part D enrollees in 2026. If you use insulin, always use Part D rather than a discount card.",
+        },
+      },
+    ],
+    costTable: {
+      title: "Prescription Savings Options for Medicare Beneficiaries",
+      headers: ["Option", "Can Use with Medicare?", "Counts Toward OOP Cap?", "Best For"],
+      rows: [
+        { "Option": "Medicare Part D", "Can Use with Medicare?": "Yes (primary)", "Counts Toward OOP Cap?": "Yes ($2,000 cap in 2026)", "Best For": "Expensive brand-name and specialty drugs" },
+        { "Option": "GoodRx (instead of Part D)", "Can Use with Medicare?": "Yes (instead of Part D)", "Counts Toward OOP Cap?": "No", "Best For": "Cheap generics with high Part D copays" },
+        { "Option": "Manufacturer Copay Card (cash)", "Can Use with Medicare?": "Yes (instead of Part D only)", "Counts Toward OOP Cap?": "No", "Best For": "Brand-name drugs when paying cash" },
+        { "Option": "Manufacturer Copay Card (with Part D)", "Can Use with Medicare?": "No — illegal", "Counts Toward OOP Cap?": "N/A", "Best For": "Never — violates anti-kickback statute" },
+        { "Option": "Extra Help (LIS)", "Can Use with Medicare?": "Yes (with Part D)", "Counts Toward OOP Cap?": "Yes", "Best For": "Low-income beneficiaries (income ≤ ~$2,015/mo)" },
+        { "Option": "Patient Assistance Programs", "Can Use with Medicare?": "Yes (separate from Part D)", "Counts Toward OOP Cap?": "No", "Best For": "Very low-income; free drugs from manufacturer" },
+      ],
+      footnote: "Part D OOP cap: $2,000 in 2026. Extra Help copays: $4.90 generic / $12.15 brand in 2026. Insulin cap: $35/month.",
+    },
+    exceptionsSection: {
+      title: "Important Rules & Exceptions",
+      items: [
+        {
+          title: "The $2,000 Part D Cap Changes the Math",
+          text: "Starting in 2025, Part D has a $2,000 annual out-of-pocket cap. This makes using Part D more valuable for expensive drugs — once you hit the cap, Medicare pays 100%. Using GoodRx for expensive drugs means you never reach the cap and lose this protection.",
+          highlight: "Use Part D for expensive drugs to reach the $2,000 OOP cap faster.",
+        },
+        {
+          title: "Insulin Is Always Better Through Part D",
+          text: "Insulin is capped at $35/month for Part D enrollees under the Inflation Reduction Act. GoodRx prices for insulin are typically higher than $35. Always use Part D for insulin.",
+        },
+        {
+          title: "Negotiated Drug Prices (IRA)",
+          text: "The Inflation Reduction Act requires Medicare to negotiate prices for certain high-cost drugs. In 2026, 10 drugs have negotiated prices available through Part D. These negotiated prices are often lower than GoodRx prices for those specific drugs.",
+        },
+        {
+          title: "GoodRx Gold Membership",
+          text: "GoodRx Gold is a paid membership ($9.99/month individual, $19.99/month family) that offers lower prices than the free GoodRx card at some pharmacies. It may be worth it for beneficiaries who frequently use GoodRx for generics not covered by their Part D plan.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "2026 Prescription Drug Cost Updates",
+      items: [
+        {
+          title: "Part D $2,000 Out-of-Pocket Cap (IRA)",
+          status: "Passed",
+          description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000/year starting in 2025. This makes using Part D more valuable for expensive drugs.",
+        },
+        {
+          title: "Medicare Drug Price Negotiation — 10 Drugs in 2026",
+          status: "Passed",
+          description: "CMS negotiated prices for 10 high-cost drugs take effect in 2026, including Eliquis, Jardiance, Xarelto, and others. Part D enrollees pay these lower negotiated prices.",
+        },
+        {
+          title: "$35 Insulin Cap Continues in 2026",
+          status: "Passed",
+          description: "The $35/month insulin cap for Part D enrollees continues in 2026 under the Inflation Reduction Act. Always use Part D for insulin rather than discount cards.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Prescription Savings Decision Checklist",
+      paragraphs: [
+        "Use this checklist to decide whether to use Part D or a discount card for each prescription.",
+      ],
+      checklist: {
+        title: "Decision Steps",
+        items: [
+          "Check if the drug is on your Part D formulary and what tier it's on",
+          "Compare your Part D copay vs. the GoodRx price for the drug",
+          "For expensive brand-name drugs: use Part D to count toward the $2,000 OOP cap",
+          "For cheap generics with high copays: use GoodRx or another discount card",
+          "Never use a manufacturer copay card with your Part D plan — it's illegal",
+          "If you qualify for Extra Help: use Part D (LIS copays are usually lower than GoodRx)",
+          "For insulin: always use Part D ($35/month cap)",
+          "Apply for Extra Help at SSA.gov if your income is below ~$2,015/month",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "Can I use GoodRx if I have Medicare Part D?",
+        answer: "Yes, but not at the same time. You must choose either your Part D coverage or GoodRx for each fill. GoodRx purchases don't count toward your Part D deductible or $2,000 out-of-pocket cap.",
+      },
+      {
+        question: "Can I use manufacturer coupons with Medicare?",
+        answer: "Not with Part D. Using manufacturer copay cards with Part D violates the federal anti-kickback statute. You can use a coupon instead of Part D (paying cash), but never alongside it.",
+      },
+      {
+        question: "When should I use GoodRx instead of Part D?",
+        answer: "Use GoodRx for cheap generics where the GoodRx price is lower than your Part D copay, or for drugs not on your formulary. For expensive drugs, use Part D to count toward the $2,000 OOP cap.",
+      },
+      {
+        question: "Does GoodRx count toward my Medicare deductible?",
+        answer: "No. GoodRx purchases are not processed through Medicare and do not count toward your Part D deductible or out-of-pocket maximum.",
+      },
+      {
+        question: "What is the cheapest way to get prescriptions with Medicare?",
+        answer: "Apply for Extra Help if you qualify (income below ~$2,015/month). Otherwise, use Part D for expensive drugs (to hit the $2,000 cap) and GoodRx for cheap generics with high copays.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "GoodRx CAN be used with Medicare — but not at the same time as Part D" },
+      { icon: "alert", text: "Manufacturer copay cards CANNOT be used with Part D — it's illegal" },
+      { icon: "info", text: "GoodRx purchases don't count toward the $2,000 Part D OOP cap" },
+      { icon: "check", text: "Insulin is capped at $35/month through Part D — always use Part D for insulin" },
+      { icon: "info", text: "Extra Help caps copays at $4.90 (generic) / $12.15 (brand) for eligible beneficiaries" },
+    ],
+    relatedTopics: [
+      { title: "How to Save on Prescriptions", description: "All strategies for lowering drug costs.", slug: "how-can-seniors-save-on-prescription-drug-costs" },
+      { title: "Coverage Gap (Donut Hole)", description: "How the Part D coverage gap works.", slug: "coverage-gap-discount-program" },
+      { title: "Part D Formulary", description: "How drug formularies work.", slug: "part-d-formulary" },
+      { title: "Medicare and Prescription Drugs", description: "What Part D covers and what it doesn't.", slug: "medicare-and-prescription-drugs-whats-covered-and-whats-not" },
+    ],
+    sidebarRelatedLinks: ["Save on Prescriptions", "Coverage Gap", "Part D Formulary", "Prescription Drugs"],
+    ctaBanner: {
+      title: "Want to Lower Your Prescription Drug Costs?",
+      text: "Our licensed agents can help you find the right Part D plan and identify savings programs like Extra Help.",
+    },
+    relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "coverage-gap-discount-program", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
+  },
 ];

@@ -571,32 +571,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-diabetic-shoes", "medicare-preventive-services", "medicare-advantage-for-chronic-conditions-what-you-need-to-know"],
   },
   {
-    slug: 'medicare-vision-care-coverage',
-    seo: {
-      title: 'Does Medicare Cover Vision',
-      description: 'Medicare vision coverage doesn\'t include routine services. Yet, some vision surgeries receive coverage. Learn more here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-vision-care-coverage/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-vision.jpg',
-    },
-    title: 'Does Medicare Cover Vision',
-    summary: '',
-    category: 'Dental, Vision & Hearing',
-    dateUpdated: 'August 10, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Hearing Aids',
-        paragraphs: [
-          'Updated on August 10, 2023',
-          'As we age, it’s common to lose at least some hearing ability. [Many beneficiaries wonder](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "does-medicare-cover-macular-degeneration", "medicare-and-vision-dental-and-hearing-what-are-your-options", "six-protected-classes"],
-  },
-  {
     slug: 'checklist-preparing-for-medicare-enrollment-in-2026',
     seo: {
       title: 'Checklist: Preparing for Medicare Enrollment in 2026',
