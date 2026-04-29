@@ -23555,4 +23555,317 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "applying-for-medicare", "report-medicare-fraud"],
   },
+  /* ─── IRMAA ─── */
+  {
+    slug: "irmaa",
+    seo: {
+      title: "IRMAA: What Is IRMAA in Medicare? 2026 Brackets & How to Appeal | MedicareFAQ",
+      description: "IRMAA is the Income-Related Monthly Adjustment Amount added to Medicare Part B and Part D premiums for higher-income beneficiaries. See 2026 brackets, surcharges, and how to appeal.",
+      canonical: "https://www.medicarefaq.com/faqs/irmaa/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/income-related-monthly-adjustment-amount-irmaa.jpg",
+    },
+    title: "IRMAA: What Is IRMAA in Medicare?",
+    subtitle: "IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge added to your Medicare Part B and Part D premiums if your income exceeds certain thresholds. In 2026, it kicks in at $109,000 for single filers.",
+    category: "Medicare Costs",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "IRMAA stands for Income-Related Monthly Adjustment Amount. It is a surcharge added to your Medicare Part B and/or Part D premiums if your Modified Adjusted Gross Income (MAGI) from two years ago exceeded $109,000 (single) or $218,000 (married filing jointly) in 2026. The surcharge ranges from $81.20 to $487.00/month for Part B and $14.50 to $91.00/month for Part D.",
+      badges: [
+        { plan: "Part B", status: "partial" },
+        { plan: "Part D", status: "partial" },
+        { plan: "Part A", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "No IRMAA (Income \u2264 $109,000 single / $218,000 joint)",
+        coverage: "Standard Part B premium only: $202.90/month",
+        icon: "shield-check",
+        notes: "No surcharge; pay standard premium",
+      },
+      {
+        planType: "IRMAA Bracket 1 ($109,001\u2013$137,000 single)",
+        coverage: "$284.10/month Part B total (+$81.20 surcharge)",
+        icon: "info",
+        notes: "Part D surcharge: +$14.50/month",
+      },
+      {
+        planType: "IRMAA Bracket 3 ($137,001\u2013$171,000 single)",
+        coverage: "$405.80/month Part B total (+$202.90 surcharge)",
+        icon: "alert-triangle",
+        notes: "Part D surcharge: +$37.50/month",
+      },
+      {
+        planType: "IRMAA Bracket 5 (\u2265$500,000 single / \u2265$750,000 joint)",
+        coverage: "$689.90/month Part B total (+$487.00 surcharge)",
+        icon: "alert-triangle",
+        notes: "Part D surcharge: +$91.00/month; top bracket frozen until 2028",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "How IRMAA Works",
+        icon: "trending-up",
+        iconColor: "text-blue-600",
+        coverageLabel: "Income-Based Surcharge",
+        coverageType: "partial",
+        paragraphs: [
+          "IRMAA is a surcharge \u2014 not a separate plan \u2014 added on top of your standard Medicare Part B and Part D premiums. It is calculated by the Social Security Administration (SSA) based on your Modified Adjusted Gross Income (MAGI) from two years prior.",
+          "For 2026, the SSA uses your 2024 tax return to determine if you owe IRMAA. This two-year lookback is important: a high-income year two years ago can trigger IRMAA even if your income is now lower.",
+        ],
+        whatItCovers: [
+          "Applies to Medicare Part B (medical insurance) premiums",
+          "Applies to Medicare Part D (drug plan) premiums",
+          "Also applies to Medicare Advantage plans that include drug coverage (MA-PD)",
+          "Calculated on a sliding scale with 5 income brackets",
+        ],
+        whatItDoesntCover: [
+          "Does not apply to Medicare Part A",
+          "Does not apply to Medigap (Medicare Supplement) premiums",
+          "Does not apply to Medicare Advantage plan premiums directly (but Part B IRMAA still applies)",
+        ],
+        callout: {
+          type: "warning",
+          title: "The Cliff Effect",
+          text: "IRMAA uses cliff brackets: just $1 over a threshold triggers the full surcharge for that bracket. For example, earning $109,001 instead of $109,000 as a single filer adds $81.20/month to your Part B premium \u2014 $974.40 more per year.",
+        },
+      },
+      {
+        planName: "2026 IRMAA Brackets: Part B",
+        icon: "dollar-sign",
+        iconColor: "text-green-600",
+        coverageLabel: "Part B Surcharge by Income",
+        coverageType: "partial",
+        paragraphs: [
+          "The standard 2026 Part B premium is $202.90/month. If your 2024 MAGI exceeded the threshold, you pay the standard premium plus the IRMAA surcharge shown below.",
+          "The brackets are adjusted annually for inflation (except the top bracket, which is frozen until 2028). Your 2026 IRMAA is based on your 2024 income.",
+        ],
+        whatItCovers: [
+          "\u2264 $109,000 (single) / $218,000 (joint): $0 surcharge \u2014 pay $202.90/month",
+          "$109,001\u2013$137,000 / $218,001\u2013$274,000: +$81.20 \u2014 pay $284.10/month",
+          "$137,001\u2013$171,000 / $274,001\u2013$342,000: +$202.90 \u2014 pay $405.80/month",
+          "$171,001\u2013$205,000 / $342,001\u2013$410,000: +$324.60 \u2014 pay $527.50/month",
+          "$205,001\u2013$499,999 / $410,001\u2013$749,999: +$446.30 \u2014 pay $649.20/month",
+          "\u2265 $500,000 (single) / $750,000 (joint): +$487.00 \u2014 pay $689.90/month",
+        ],
+        whatItDoesntCover: [
+          "Married filing separately has narrower brackets \u2014 jumps directly from $0 to $446.30 surcharge at $109,001",
+        ],
+      },
+      {
+        planName: "2026 IRMAA Brackets: Part D",
+        icon: "pill",
+        iconColor: "text-purple-600",
+        coverageLabel: "Part D Surcharge by Income",
+        coverageType: "partial",
+        paragraphs: [
+          "If you have a Medicare Part D drug plan (or a Medicare Advantage plan with drug coverage), you also pay a Part D IRMAA surcharge on top of your plan's premium. The Part D IRMAA is paid directly to Medicare, not to your plan.",
+        ],
+        whatItCovers: [
+          "\u2264 $109,000 (single) / $218,000 (joint): $0 Part D surcharge",
+          "$109,001\u2013$137,000 / $218,001\u2013$274,000: +$14.50/month",
+          "$137,001\u2013$171,000 / $274,001\u2013$342,000: +$37.50/month",
+          "$171,001\u2013$205,000 / $342,001\u2013$410,000: +$60.40/month",
+          "$205,001\u2013$499,999 / $410,001\u2013$749,999: +$83.30/month",
+          "\u2265 $500,000 (single) / $750,000 (joint): +$91.00/month",
+        ],
+        whatItDoesntCover: [
+          "Part D IRMAA is in addition to your plan's monthly premium",
+          "If you don't have Part D, you don't owe Part D IRMAA",
+        ],
+        callout: {
+          type: "info",
+          title: "IRMAA Is Deducted from Social Security",
+          text: "If you receive Social Security benefits, your IRMAA surcharge is automatically deducted from your monthly Social Security payment. If you don't receive Social Security, you'll receive a bill from Medicare.",
+        },
+      },
+      {
+        planName: "What Income Counts Toward IRMAA (MAGI)",
+        icon: "file-text",
+        iconColor: "text-teal-600",
+        coverageLabel: "Modified Adjusted Gross Income",
+        coverageType: "partial",
+        paragraphs: [
+          "IRMAA is based on your Modified Adjusted Gross Income (MAGI), which is your Adjusted Gross Income (AGI) plus tax-exempt interest income. For most people, MAGI equals Line 11 of Form 1040 plus Line 2a (tax-exempt interest).",
+          "Many retirees are surprised to find that certain income sources push them into an IRMAA bracket, including Roth conversions, Required Minimum Distributions (RMDs), and the sale of a home or investments.",
+        ],
+        whatItCovers: [
+          "Wages and salaries",
+          "Taxable Social Security benefits",
+          "Traditional IRA/401(k) withdrawals and RMDs",
+          "Capital gains (including home sales)",
+          "Roth IRA conversions (in the year of conversion)",
+          "Pension and annuity income",
+          "Tax-exempt interest (municipal bonds, etc.)",
+        ],
+        whatItDoesntCover: [
+          "Qualified Roth IRA withdrawals do NOT count toward MAGI",
+          "Health Savings Account (HSA) distributions for qualified medical expenses",
+          "Life insurance proceeds",
+        ],
+      },
+      {
+        planName: "How to Appeal IRMAA",
+        icon: "scale",
+        iconColor: "text-amber-600",
+        coverageLabel: "Life-Changing Event Appeals",
+        coverageType: "covered",
+        paragraphs: [
+          "If your income has decreased due to a qualifying life-changing event, you can appeal your IRMAA determination and request a reduction. The SSA will use more recent income data instead of the two-year-old tax return.",
+          "To appeal, complete Form SSA-44 (Medicare Income-Related Monthly Adjustment Amount \u2014 Life-Changing Event) and submit it to your local Social Security office with supporting documentation.",
+        ],
+        whatItCovers: [
+          "Marriage, divorce, or death of spouse",
+          "Work stoppage or reduction (retirement)",
+          "Loss of income-producing property (disaster, fraud)",
+          "Loss of pension income",
+          "Employer settlement payment",
+        ],
+        whatItDoesntCover: [
+          "A one-time spike in income (e.g., selling a home) is not a qualifying event",
+          "Voluntary income reduction without a qualifying life event",
+          "Appeals must be submitted with documentation",
+        ],
+        callout: {
+          type: "tip",
+          title: "How to Appeal",
+          text: "Submit Form SSA-44 to your local Social Security office or call 1-800-772-1213. You can also request a reconsideration online at ssa.gov. Provide documentation of the life-changing event and your current income.",
+        },
+      },
+    ],
+    costTable: {
+      title: "2026 IRMAA Surcharges: Part B and Part D Combined",
+      headers: ["Income (Single Filer)", "Income (Joint Filer)", "Part B Total Premium", "Part D Surcharge"],
+      rows: [
+        { "Income (Single Filer)": "\u2264 $109,000", "Income (Joint Filer)": "\u2264 $218,000", "Part B Total Premium": "$202.90", "Part D Surcharge": "$0" },
+        { "Income (Single Filer)": "$109,001\u2013$137,000", "Income (Joint Filer)": "$218,001\u2013$274,000", "Part B Total Premium": "$284.10", "Part D Surcharge": "+$14.50" },
+        { "Income (Single Filer)": "$137,001\u2013$171,000", "Income (Joint Filer)": "$274,001\u2013$342,000", "Part B Total Premium": "$405.80", "Part D Surcharge": "+$37.50" },
+        { "Income (Single Filer)": "$171,001\u2013$205,000", "Income (Joint Filer)": "$342,001\u2013$410,000", "Part B Total Premium": "$527.50", "Part D Surcharge": "+$60.40" },
+        { "Income (Single Filer)": "$205,001\u2013$499,999", "Income (Joint Filer)": "$410,001\u2013$749,999", "Part B Total Premium": "$649.20", "Part D Surcharge": "+$83.30" },
+        { "Income (Single Filer)": "\u2265 $500,000", "Income (Joint Filer)": "\u2265 $750,000", "Part B Total Premium": "$689.90", "Part D Surcharge": "+$91.00" },
+      ],
+      footnote: "2026 IRMAA is based on 2024 MAGI. Part B standard premium is $202.90/month. Part D IRMAA is in addition to your plan's monthly premium. Married filing separately uses narrower brackets.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Special Situations",
+      items: [
+        {
+          title: "Married Filing Separately",
+          text: "Couples who file taxes separately face much harsher IRMAA brackets. Income above $109,000 jumps directly to the 4th bracket ($446.30/month Part B surcharge), skipping brackets 1-3. Only the top bracket ($500,000+) is different.",
+          highlight: "Filing separately can dramatically increase your IRMAA. Consider tax filing strategy carefully.",
+        },
+        {
+          title: "New Medicare Enrollees",
+          text: "If you're new to Medicare and your income has recently dropped (e.g., you just retired), you can proactively request that SSA use your current year's income instead of the two-year-old tax return by submitting Form SSA-44.",
+        },
+        {
+          title: "Roth Conversions and IRMAA",
+          text: "Converting a traditional IRA to a Roth IRA increases your MAGI in the year of conversion, potentially triggering or increasing IRMAA two years later. However, future Roth withdrawals won't count toward MAGI, reducing long-term IRMAA exposure.",
+        },
+        {
+          title: "Medicare Advantage and IRMAA",
+          text: "If you have Medicare Advantage, you still owe the Part B IRMAA surcharge in addition to any plan premium. If your MA plan includes drug coverage (MA-PD), you also owe the Part D IRMAA surcharge.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Policy Updates",
+      items: [
+        {
+          title: "2026 IRMAA Brackets Increased ~3%",
+          status: "Passed",
+          description: "CMS announced 2026 IRMAA income thresholds increased approximately 3% due to inflation adjustments. The lowest IRMAA bracket now starts at $109,000 for single filers (up from $106,000 in 2025).",
+        },
+        {
+          title: "Top IRMAA Bracket Frozen Until 2028",
+          status: "Passed",
+          description: "The 5th IRMAA bracket ($500,000+ single / $750,000+ joint) is currently frozen and cannot be indexed for inflation until 2028 under current law. All other brackets are inflation-adjusted annually.",
+        },
+        {
+          title: "Part B Premium Increased to $202.90 in 2026",
+          status: "Passed",
+          description: "The standard Medicare Part B premium increased to $202.90/month in 2026 (from $185.00 in 2025). IRMAA surcharges are added on top of this standard amount.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Strategies to Reduce or Avoid IRMAA",
+      paragraphs: [
+        "Because IRMAA uses a two-year lookback, the best time to manage it is before you reach Medicare age \u2014 ideally 2-3 years before you turn 65.",
+      ],
+      checklist: {
+        title: "IRMAA Planning Checklist",
+        items: [
+          "Understand your MAGI two years before Medicare enrollment",
+          "Consider Roth conversions in low-income years before Medicare to reduce future RMDs",
+          "Coordinate large one-time income events (home sales, Roth conversions) carefully",
+          "If income dropped due to a qualifying life event, file Form SSA-44 immediately",
+          "Use tax-advantaged accounts (HSA, QCDs for RMDs) to reduce MAGI",
+          "Work with a financial advisor on retirement income sequencing to stay below IRMAA thresholds",
+          "Review your IRMAA determination letter from SSA each fall for the upcoming year",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "What is IRMAA?",
+        answer: "IRMAA stands for Income-Related Monthly Adjustment Amount. It's a surcharge added to your Medicare Part B and Part D premiums if your income exceeds certain thresholds. In 2026, it applies to single filers with MAGI above $109,000.",
+      },
+      {
+        question: "How do I know if I owe IRMAA?",
+        answer: "The SSA will send you a letter (IRMAA determination) each fall for the upcoming year. If you owe IRMAA, it will show the surcharge amount and the income data used. You can also check your Social Security statement.",
+      },
+      {
+        question: "Can I appeal my IRMAA?",
+        answer: "Yes. If your income has decreased due to a qualifying life-changing event (retirement, divorce, death of spouse, etc.), you can appeal by submitting Form SSA-44 to Social Security with documentation of the event.",
+      },
+      {
+        question: "Does IRMAA apply to Medicare Advantage?",
+        answer: "Yes. If you have Medicare Advantage, you still pay the Part B IRMAA surcharge. If your MA plan includes drug coverage, you also pay the Part D IRMAA surcharge.",
+      },
+      {
+        question: "How is IRMAA calculated?",
+        answer: "IRMAA is based on your MAGI from two years ago. MAGI is your Adjusted Gross Income plus tax-exempt interest. The SSA uses your tax return to determine which bracket you fall into.",
+      },
+    ],
+    quickReference: [
+      { icon: "info", text: "IRMAA applies to single filers with 2024 MAGI above $109,000 and joint filers above $218,000" },
+      { icon: "dollar", text: "2026 Part B surcharges range from $81.20 to $487.00/month on top of the $202.90 standard premium" },
+      { icon: "dollar", text: "2026 Part D surcharges range from $14.50 to $91.00/month on top of your plan's premium" },
+      { icon: "alert", text: "IRMAA uses a 2-year lookback \u2014 your 2026 IRMAA is based on your 2024 tax return" },
+      { icon: "check", text: "You can appeal IRMAA if income dropped due to a qualifying life event using Form SSA-44" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Costs 2025", description: "Full breakdown of Medicare premiums, deductibles, and out-of-pocket costs.", slug: "medicare-costs-2025" },
+      { title: "Medicare Costs in 2026", description: "Updated 2026 Medicare cost figures including Part B and Part D.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
+      { title: "5 Ways to Reduce Your Medicare Premiums", description: "Strategies to lower your Medicare costs.", slug: "reduce-medicare-premiums" },
+      { title: "Medicare Extra Help Program", description: "Help with Part D costs for low-income beneficiaries.", slug: "medicare-extra-help-program" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Costs 2025",
+      "Medicare Costs 2026",
+      "Reduce Medicare Premiums",
+      "Medicare Extra Help",
+    ],
+    ctaBanner: {
+      title: "Concerned About IRMAA Surcharges?",
+      text: "Our licensed agents can help you understand how IRMAA affects your Medicare costs and explore plan options that minimize your out-of-pocket expenses.",
+    },
+    relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "reduce-medicare-premiums", "medicare-extra-help-program"],
+  },
 ];

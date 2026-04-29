@@ -642,32 +642,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-meals-on-wheels"],
   },
   {
-    slug: 'irmaa',
-    seo: {
-      title: 'IRMAA: What is IRMAA in Medicare?',
-      description: 'IRMAA refers to Income-Related Monthly Adjustment Amount added to your Medicare Part B and Part D premiums. Learn more about IRMAA here.',
-      canonical: 'https://www.medicarefaq.com/faqs/irmaa/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/income-related-monthly-adjustment-amount-irmaa.jpg',
-    },
-    title: 'IRMAA: What is IRMAA in Medicare?',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '5 Ways to Reduce Your Medicare Premiums',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "reduce-medicare-premiums", "irmaa"],
-  },
-  {
     slug: 'medicare-for-disabled-individuals',
     seo: {
       title: 'Medicare Coverage for Disabled Under 65',
