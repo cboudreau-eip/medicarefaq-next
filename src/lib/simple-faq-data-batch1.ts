@@ -397,6 +397,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-secondary-insurance", "medicare-and-workers-comp"],
   },
+  {
     slug: 'state-specific-medicare-rules',
     seo: {
       title: 'Can Medicare Be Used in Any State?',
