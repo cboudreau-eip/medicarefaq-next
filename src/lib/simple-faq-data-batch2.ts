@@ -6,34 +6,8 @@
 
 import type { SimpleFAQArticleData } from "@/lib/article-types";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
-
 export const simpleFAQBatch2: SimpleFAQArticleData[] = [
-  {
-    slug: 'medicare-savings-programs',
-    seo: {
-      title: 'Medicare Savings Program',
-      description: 'If your income and resources are below certain limits, you may be eligible for a Medicare Savings Program. This helps pay for your coverage.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-savings-programs/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-savings-programs.jpg',
-    },
-    title: 'Medicare Savings Program',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'January 18, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare and Medicaid: How to Qualify for Both',
-        paragraphs: [
-          'Updated on January 18, 2023',
-          'It is not uncommon to be [eligible for both Medicare and Medicaid](/faqs/medicare-vs-medicaid). [Learn how to](/faqs/qualified-medicare-beneficiary-program)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["qualified-medicare-beneficiary-program", "medicare-extra-help-program", "reduce-medicare-premiums", "irmaa", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
-  },
+
   {
     slug: 'what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide',
     seo: {

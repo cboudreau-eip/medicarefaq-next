@@ -580,32 +580,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["what-is-medicare-cost-sharing", "what-is-medicare-assignment", "average-cost-of-medicare-supplement-plans", "do-i-really-need-supplemental-insurance-with-medicare"],
   },
   {
-    slug: 'what-is-medicare-cost-sharing',
-    seo: {
-      title: 'Medicare Cost-Sharing Plans',
-      description: 'Medicare Cost Sharing Plans including Plan L, Plan K, & Plan M typically have a much lower premium. They are a great alternative to high premium Medigap plans.',
-      canonical: 'https://www.medicarefaq.com/faqs/what-is-medicare-cost-sharing/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/top-medicare-cost-sharing-plans.jpg',
-    },
-    title: 'Medicare Cost-Sharing Plans',
-    summary: '',
-    category: 'Costs & Savings',
-    dateUpdated: 'September 22, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Deductible vs. Copay vs. Coinsurance vs. Premium',
-        paragraphs: [
-          'Updated on September 22, 2021',
-          'If you’re [new to Medicare](/blog/medicare-starter-guide-what-to-do-in-your-first-90-days), [understanding the different terminology](/blog/medicare-parts-a-b-c-and-d-explained-simply) can be overwhelming. That’s why it’s...',
-        ],
-      },
-    ],
-    relatedSlugs: ["hospital-indemnity-insurance", "deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
-  },
-  {
     slug: 'special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage',
     seo: {
       title: 'Special Enrollment Periods Explained: What Triggers Them and How to Take Advantage',

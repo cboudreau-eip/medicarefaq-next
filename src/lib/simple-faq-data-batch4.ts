@@ -545,32 +545,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-special-enrollment-period", "medicare-advantage-open-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
   },
   {
-    slug: 'medicare-diabetes',
-    seo: {
-      title: 'Does Medicare Cover Diabetic Supplies?',
-      description: 'Medicare coverage for diabetes includes preventative care, diagnostics, and supplies like test strips, glucose monitors, and insulin pumps.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-diabetes/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-and-diabetes-coverage.jpg',
-    },
-    title: 'Does Medicare Cover Diabetic Supplies?',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'December 21, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Coverage for Diabetic Shoes',
-        paragraphs: [
-          'Updated on December 21, 2021',
-          'Medicare can provide [coverage for shoes](/faqs/medicare-coverage-for-diabetic-shoes) and inserts designed for people with diabetes. [Medicare beneficiaries](/faqs/what-is-medicare)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-diabetic-shoes", "medicare-preventive-services", "medicare-advantage-for-chronic-conditions-what-you-need-to-know"],
-  },
-  {
     slug: 'checklist-preparing-for-medicare-enrollment-in-2026',
     seo: {
       title: 'Checklist: Preparing for Medicare Enrollment in 2026',

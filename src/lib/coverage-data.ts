@@ -26894,4 +26894,664 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-costs-2025", "medicare-part-b-premiums", "reduce-medicare-premiums"],
   },
+  {
+    slug: "medicare-savings-programs",
+    seo: {
+      title: "Medicare Savings Programs: QMB, SLMB, QI, and QDWI Explained (2026)",
+      description: "Medicare Savings Programs help low-income beneficiaries pay Part A and Part B premiums, deductibles, and copays. Learn about QMB, SLMB, QI, and QDWI eligibility and how to apply.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-savings-programs/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-savings-programs.jpg",
+    },
+    title: "Medicare Savings Programs: QMB, SLMB, QI, and QDWI Explained (2026)",
+    subtitle: "Medicare Savings Programs (MSPs) are state-run programs that help people with limited income and resources pay for Medicare costs. There are four types: QMB, SLMB, QI, and QDWI.",
+    category: "Costs & Savings",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare Savings Programs (MSPs) are state-administered programs funded jointly by states and the federal government. They help people with limited income and resources pay Medicare premiums, deductibles, and copays. In 2026, the four MSP types cover different levels of costs: QMB pays the most (Part A & B premiums + cost-sharing), while QDWI covers only Part A premiums for a narrow group.",
+      badges: [
+        { plan: "QMB", status: "covered" },
+        { plan: "SLMB", status: "partial" },
+        { plan: "QI", status: "partial" },
+        { plan: "QDWI", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "QMB (Qualified Medicare Beneficiary)", coverage: "Most Comprehensive", icon: "shield", notes: "Pays Part A & B premiums + deductibles + copays" },
+      { planType: "SLMB (Specified Low-Income Medicare Beneficiary)", coverage: "Part B Premium Only", icon: "shield", notes: "Pays Part B premium only" },
+      { planType: "QI (Qualifying Individual)", coverage: "Part B Premium Only", icon: "shield", notes: "Pays Part B premium; limited slots, first-come basis" },
+      { planType: "QDWI (Qualified Disabled & Working Individual)", coverage: "Part A Premium Only", icon: "shield", notes: "For disabled workers who lost premium-free Part A" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "QMB — Qualified Medicare Beneficiary",
+        icon: "shield",
+        iconColor: "#059669",
+        coverageLabel: "Most Comprehensive",
+        coverageType: "covered",
+        paragraphs: [
+          "QMB is the most comprehensive Medicare Savings Program. It pays your Part A premium (if applicable), Part B premium ($202.90/month in 2026), Part A and Part B deductibles, and Part A and Part B copays and coinsurance. QMB enrollees are also automatically enrolled in Extra Help (Low Income Subsidy) for Part D.",
+          "Providers are prohibited by law from billing QMB enrollees for Medicare cost-sharing. If a provider bills you for copays or deductibles and you have QMB, you have the right to refuse payment and report the billing to your State Medical Assistance office.",
+        ],
+        whatItCovers: [
+          "2026 income limit: $1,255/month (individual), $1,704/month (couple)",
+          "Resource limit: $9,660 (individual), $14,470 (couple) — excludes home, one car, burial funds",
+          "Pays Part A & B premiums, deductibles, copays, and coinsurance",
+          "Providers cannot legally bill QMB enrollees for Medicare cost-sharing",
+          "Automatically qualifies you for Extra Help (Part D LIS)",
+        ],
+      },
+      {
+        planName: "SLMB — Specified Low-Income Medicare Beneficiary",
+        icon: "dollar-sign",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Part B Premium Only",
+        coverageType: "partial",
+        paragraphs: [
+          "SLMB pays your Part B premium ($202.90/month in 2026) only. It does not pay deductibles, copays, or coinsurance. Like QMB, SLMB automatically qualifies you for Extra Help for Part D.",
+        ],
+        whatItCovers: [
+          "2026 income limit: $1,506/month (individual), $2,044/month (couple)",
+          "Resource limit: $9,660 (individual), $14,470 (couple)",
+          "Pays Part B premium only ($202.90/month in 2026)",
+          "Does not cover deductibles, copays, or coinsurance",
+          "Automatically qualifies you for Extra Help (Part D LIS)",
+        ],
+      },
+      {
+        planName: "QI — Qualifying Individual",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Part B Premium Only",
+        coverageType: "partial",
+        paragraphs: [
+          "QI pays your Part B premium only, similar to SLMB, but has a slightly higher income limit. QI funding is limited — states receive a fixed annual allotment and enroll beneficiaries on a first-come, first-served basis. You must reapply each year, and prior QI enrollees get priority.",
+          "Unlike QMB and SLMB, QI does not automatically qualify you for Extra Help, but you can apply for Extra Help separately.",
+        ],
+        whatItCovers: [
+          "2026 income limit: $1,694/month (individual), $2,298/month (couple)",
+          "Resource limit: $9,660 (individual), $14,470 (couple)",
+          "Pays Part B premium only",
+          "Limited slots — first-come, first-served; reapply annually",
+          "Does NOT automatically qualify for Extra Help",
+        ],
+        callout: {
+          type: "warning",
+          title: "Apply Early for QI",
+          text: "QI funding is capped each year. Apply as early as possible — states stop accepting applications once the allotment is exhausted. Prior enrollees get priority.",
+        },
+      },
+      {
+        planName: "QDWI — Qualified Disabled and Working Individual",
+        icon: "activity",
+        iconColor: "#D97706",
+        coverageLabel: "Part A Premium Only",
+        coverageType: "partial",
+        paragraphs: [
+          "QDWI is a narrow program for disabled individuals under 65 who lost premium-free Part A because they returned to work. It pays the Part A premium ($505/month in 2026 for those with fewer than 30 quarters of work). QDWI has stricter income and resource limits than the other MSPs.",
+        ],
+        whatItCovers: [
+          "2026 income limit: $4,615/month (individual), $6,189/month (couple) — but must not qualify for Medicaid",
+          "Resource limit: $4,000 (individual), $6,000 (couple)",
+          "Pays Part A premium only ($505/month in 2026 for under 30 quarters)",
+          "For disabled workers under 65 who returned to work",
+          "Does NOT pay Part B premium or cost-sharing",
+        ],
+      },
+      {
+        planName: "How to Apply for a Medicare Savings Program",
+        icon: "file-text",
+        iconColor: "#0369A1",
+        coverageLabel: "Apply Through Your State",
+        coverageType: "covered",
+        paragraphs: [
+          "MSPs are administered by state Medicaid agencies, not Medicare directly. To apply, contact your state Medicaid office or call 1-800-MEDICARE (1-800-633-4227). You can also apply online in many states through Benefits.gov.",
+          "If you are already enrolled in Medicaid, you may automatically qualify for QMB. States are required to screen all Medicaid applicants for MSP eligibility.",
+        ],
+        whatItCovers: [
+          "Apply through your state Medicaid office or Benefits.gov",
+          "Call 1-800-MEDICARE for referral to your state office",
+          "Medicaid enrollees may be auto-enrolled in QMB",
+          "Benefits are retroactive to the month you apply in most states",
+          "Reapply annually — benefits do not automatically renew in all states",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 Medicare Savings Program Comparison",
+      headers: ["Program", "Income Limit (Individual)", "Income Limit (Couple)", "What It Pays", "Extra Help?"],
+      rows: [
+        { program: "QMB", individual: "$1,255/month", couple: "$1,704/month", pays: "Part A & B premiums + deductibles + copays", extraHelp: "Yes (automatic)" },
+        { program: "SLMB", individual: "$1,506/month", couple: "$2,044/month", pays: "Part B premium only", extraHelp: "Yes (automatic)" },
+        { program: "QI", individual: "$1,694/month", couple: "$2,298/month", pays: "Part B premium only (limited slots)", extraHelp: "No (apply separately)" },
+        { program: "QDWI", individual: "$4,615/month", couple: "$6,189/month", pays: "Part A premium only", extraHelp: "No" },
+      ],
+      footnote: "Income limits are approximate 2026 figures. Resource limits: $9,660 (individual) / $14,470 (couple) for QMB/SLMB/QI; $4,000/$6,000 for QDWI. Some states have higher limits.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions and Notes",
+      items: [
+        {
+          title: "Some States Have Higher Income Limits",
+          text: "Federal rules set minimum income limits, but states can choose to be more generous. Connecticut, Maine, and several other states have higher MSP income thresholds. Always check with your state Medicaid office for the most current limits.",
+        },
+        {
+          title: "QMB Billing Protections",
+          text: "Providers who accept Medicare are prohibited from billing QMB enrollees for Medicare cost-sharing. If you are billed, you can report the provider to your State Medical Assistance office or call 1-800-MEDICARE.",
+        },
+        {
+          title: "Resources That Don't Count",
+          text: "Your primary home, one vehicle, household goods, burial funds (up to $1,500), and life insurance with cash value under $1,500 are generally excluded from resource calculations.",
+        },
+        {
+          title: "MSP and Medigap",
+          text: "If you have QMB, you generally do not need a Medigap plan because QMB covers most cost-sharing. However, if you have SLMB or QI (which only pay Part B premium), a Medigap plan can still help with deductibles and copays.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Legislative and Regulatory Updates",
+      items: [
+        {
+          title: "2026 MSP Income Limits Updated",
+          status: "Passed",
+          description: "CMS updated MSP income limits for 2026 based on the Federal Poverty Level. QMB individual limit is approximately $1,255/month; SLMB $1,506/month; QI $1,694/month.",
+        },
+        {
+          title: "IRA Expanded Extra Help to 150% FPL",
+          status: "Passed",
+          description: "The Inflation Reduction Act expanded Extra Help eligibility to 150% of the Federal Poverty Level starting in 2024, making more beneficiaries eligible for Part D cost reductions.",
+        },
+        {
+          title: "H.R. 1 Medicaid Work Requirements",
+          status: "Proposed",
+          description: "Proposed legislation would add work requirements for certain Medicaid enrollees. If enacted, this could affect MSP eligibility for some beneficiaries who qualify through Medicaid.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "What is the difference between QMB and SLMB?",
+        answer: "QMB is more comprehensive — it pays Part A and B premiums plus deductibles and copays. SLMB only pays the Part B premium. Both automatically qualify you for Extra Help.",
+      },
+      {
+        question: "Can I have a Medicare Savings Program and Medigap at the same time?",
+        answer: "Yes, but if you have QMB, Medigap is usually unnecessary since QMB covers most cost-sharing. SLMB and QI enrollees may still benefit from Medigap for deductibles and copays.",
+      },
+      {
+        question: "How do I apply for a Medicare Savings Program?",
+        answer: "Contact your state Medicaid office, visit Benefits.gov, or call 1-800-MEDICARE. Applications are processed by your state, not by Medicare directly.",
+      },
+      {
+        question: "Do Medicare Savings Programs renew automatically?",
+        answer: "Not always. Most states require annual reapplication. QI enrollees must reapply each year, and prior enrollees get priority for limited slots.",
+      },
+      {
+        question: "Does having a Medicare Savings Program affect my Medicare coverage?",
+        answer: "No — your Medicare benefits remain the same. MSPs only help pay your costs; they do not change what Medicare covers.",
+      },
+    ],
+    quickReference: [
+      { icon: "dollar", text: "QMB pays the most: Part A & B premiums + deductibles + copays" },
+      { icon: "info", text: "SLMB and QI pay Part B premium only ($202.90/month in 2026)" },
+      { icon: "check", text: "QMB and SLMB automatically qualify you for Extra Help (Part D LIS)" },
+      { icon: "alert", text: "QI has limited slots — apply early each year" },
+      { icon: "info", text: "Apply through your state Medicaid office, not Medicare directly" },
+    ],
+    relatedTopics: [
+      { title: "Qualified Medicare Beneficiary Program", description: "Deep dive into QMB eligibility and billing protections.", slug: "qualified-medicare-beneficiary-program" },
+      { title: "Medicare Extra Help Program", description: "How Extra Help reduces Part D drug costs.", slug: "medicare-extra-help-program" },
+      { title: "Reduce Medicare Premiums", description: "5 strategies to lower your monthly Medicare costs.", slug: "reduce-medicare-premiums" },
+      { title: "Medicare vs. Medicaid", description: "Key differences between Medicare and Medicaid.", slug: "medicare-vs-medicaid" },
+    ],
+    sidebarRelatedLinks: ["qualified-medicare-beneficiary-program", "medicare-extra-help-program", "reduce-medicare-premiums"],
+    ctaBanner: {
+      title: "Think You May Qualify for a Medicare Savings Program?",
+      text: "Our licensed agents can help you determine eligibility and connect you with your state Medicaid office to apply.",
+    },
+    relatedSlugs: ["qualified-medicare-beneficiary-program", "medicare-extra-help-program", "reduce-medicare-premiums", "irmaa", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
+  },
+  {
+    slug: "what-is-medicare-cost-sharing",
+    seo: {
+      title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
+      description: "Medicare cost-sharing includes premiums, deductibles, copays, and coinsurance. Learn how each works, what you owe in 2026, and how Medigap cost-sharing plans (Plan K, L, M, N) reduce your out-of-pocket costs.",
+      canonical: "https://www.medicarefaq.com/faqs/what-is-medicare-cost-sharing/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/top-medicare-cost-sharing-plans.jpg",
+    },
+    title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
+    subtitle: "Medicare cost-sharing refers to the portion of healthcare costs you pay out of pocket — including premiums, deductibles, copays, and coinsurance. Medigap cost-sharing plans (Plan K, L, M, N) offer lower premiums in exchange for sharing some of these costs.",
+    category: "Costs & Savings",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Medicare cost-sharing is the amount you pay for covered services — including deductibles, copays, and coinsurance. In 2026, the Part B deductible is $257, the Part A deductible is $1,676/benefit period, and Part B coinsurance is 20% after the deductible. Medigap plans like Plan K, L, M, and N are designed to reduce these out-of-pocket costs.",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medigap Plan G", status: "covered" },
+        { plan: "Medigap Plan K/L", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare Only", coverage: "You Pay 20% + Deductibles", icon: "shield", notes: "No cap on out-of-pocket costs" },
+      { planType: "Medigap Plan G", coverage: "Covers Most Cost-Sharing", icon: "shield", notes: "You pay only Part B deductible ($257 in 2026)" },
+      { planType: "Medigap Plan K or L", coverage: "Partial Cost-Sharing", icon: "shield", notes: "Lower premium; you share costs up to OOP limit" },
+      { planType: "Medicare Advantage", coverage: "Fixed Copays", icon: "shield", notes: "Predictable copays but network restrictions apply" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "The Four Types of Medicare Cost-Sharing",
+        icon: "dollar-sign",
+        iconColor: "#1B2A4A",
+        coverageLabel: "You Pay These Costs",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare cost-sharing has four components: (1) **Premiums** — the monthly amount you pay for coverage regardless of whether you use services; (2) **Deductibles** — the amount you pay before Medicare starts covering costs; (3) **Copays** — a fixed dollar amount per service (common in Medicare Advantage); (4) **Coinsurance** — a percentage of the cost you pay after the deductible (Original Medicare typically charges 20%).",
+        ],
+        whatItCovers: [
+          "2026 Part B premium: $202.90/month (standard)",
+          "2026 Part B deductible: $257/year",
+          "2026 Part B coinsurance: 20% of Medicare-approved amount",
+          "2026 Part A deductible: $1,676/benefit period",
+          "Part A coinsurance: $0 days 1–60; $419/day days 61–90; $838/day days 91+",
+        ],
+      },
+      {
+        planName: "Medigap Cost-Sharing Plans: Plan K, L, M, N",
+        icon: "shield",
+        iconColor: "#059669",
+        coverageLabel: "Lower Premium, Shared Costs",
+        coverageType: "partial",
+        paragraphs: [
+          "Medigap cost-sharing plans offer lower monthly premiums in exchange for sharing some Medicare cost-sharing with you. They are a good option for beneficiaries who are generally healthy and want to reduce their premium while still having protection against catastrophic costs.",
+          "Plan K covers 50% of most cost-sharing (with a $7,220 OOP limit in 2026). Plan L covers 75% (with a $3,610 OOP limit). Plan M covers the Part B deductible and 50% of the Part A deductible. Plan N covers most costs but requires copays of up to $20 for office visits and $50 for ER visits.",
+        ],
+        whatItCovers: [
+          "Plan K: 50% cost-sharing; $7,220 OOP limit (2026)",
+          "Plan L: 75% cost-sharing; $3,610 OOP limit (2026)",
+          "Plan M: Covers Part B deductible; 50% of Part A deductible",
+          "Plan N: Covers most costs; $20 office visit copay; $50 ER copay",
+          "All four plans have lower premiums than Plan G or Plan F",
+        ],
+      },
+      {
+        planName: "Original Medicare Cost-Sharing Without Medigap",
+        icon: "alert-triangle",
+        iconColor: "#D97706",
+        coverageLabel: "No OOP Cap",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Original Medicare (Parts A and B) has no annual out-of-pocket maximum. If you have a serious illness or long hospital stay, your costs can be substantial. The 20% Part B coinsurance alone can add up quickly for expensive procedures or specialist visits.",
+          "For example, a $100,000 surgery would leave you with a $20,000 coinsurance bill under Original Medicare alone. This is why most beneficiaries choose either a Medigap plan or Medicare Advantage (which has an OOP cap).",
+        ],
+        callout: {
+          type: "warning",
+          title: "No Annual Out-of-Pocket Cap",
+          text: "Original Medicare has no annual out-of-pocket maximum. Without a Medigap plan or Medicare Advantage, you are exposed to unlimited cost-sharing for serious illnesses.",
+        },
+      },
+      {
+        planName: "Medicare Advantage Cost-Sharing",
+        icon: "heart",
+        iconColor: "#7C3AED",
+        coverageLabel: "Fixed Copays + OOP Cap",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Advantage plans replace Original Medicare and typically use fixed copays instead of percentage-based coinsurance. In 2026, the maximum out-of-pocket limit for MA plans is $9,350 for in-network services. Once you hit the OOP cap, the plan pays 100% of covered services for the rest of the year.",
+        ],
+        whatItCovers: [
+          "Fixed copays per service (e.g., $10 PCP visit, $40 specialist)",
+          "2026 MA OOP cap: $9,350 in-network",
+          "After OOP cap: plan pays 100% of covered services",
+          "Network restrictions apply — out-of-network costs may be higher",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 Medicare Cost-Sharing: Original Medicare vs. Medigap Plans",
+      headers: ["Cost Type", "Original Medicare", "Plan G", "Plan K", "Plan L", "Plan N"],
+      rows: [
+        { costType: "Part B Premium", originalMedicare: "$202.90/month", planG: "$202.90 + Medigap premium", planK: "$202.90 + Medigap premium", planL: "$202.90 + Medigap premium", planN: "$202.90 + Medigap premium" },
+        { costType: "Part B Deductible", originalMedicare: "$257/year", planG: "You pay $257", planK: "50% ($128.50)", planL: "75% ($64.25)", planN: "$0" },
+        { costType: "Part B Coinsurance", originalMedicare: "20%", planG: "$0", planK: "50%", planL: "25%", planN: "$0 (+ $20 copay)" },
+        { costType: "Part A Deductible", originalMedicare: "$1,676/benefit period", planG: "$0", planK: "50% ($838)", planL: "75% ($419)", planN: "$0" },
+        { costType: "Annual OOP Limit", originalMedicare: "None", planG: "None (low exposure)", planK: "$7,220", planL: "$3,610", planN: "None (low exposure)" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions and Notes",
+      items: [
+        {
+          title: "Plan F and Plan C Are No Longer Available to New Enrollees",
+          text: "Plans F and C (which covered the Part B deductible) are not available to beneficiaries who became eligible for Medicare on or after January 1, 2020. If you were eligible before that date, you may still enroll.",
+        },
+        {
+          title: "Medigap Cannot Be Used with Medicare Advantage",
+          text: "Medigap plans only supplement Original Medicare. If you are enrolled in Medicare Advantage, you cannot use a Medigap plan to cover your MA cost-sharing.",
+        },
+        {
+          title: "Part D Has Separate Cost-Sharing",
+          text: "Part D (prescription drug coverage) has its own deductible (up to $590 in 2026), copays, and coinsurance. The IRA capped Part D out-of-pocket costs at $2,000 starting in 2025.",
+        },
+        {
+          title: "Plan N Excess Charges",
+          text: "Plan N does not cover Part B excess charges. If you see a non-participating provider who charges above the Medicare-approved amount, you pay the difference (up to 15% above the approved amount).",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Legislative and Regulatory Updates",
+      items: [
+        {
+          title: "2026 Part B Deductible Increased to $257",
+          status: "Passed",
+          description: "The Part B annual deductible increased to $257 for 2026, up from $240 in 2025. Medigap Plan G enrollees pay this deductible before their plan covers the remaining 20% coinsurance.",
+        },
+        {
+          title: "2026 Part A Deductible Increased to $1,676",
+          status: "Passed",
+          description: "The Part A inpatient hospital deductible increased to $1,676 per benefit period for 2026, up from $1,632 in 2025.",
+        },
+        {
+          title: "Part D OOP Cap: $2,000 (IRA)",
+          status: "Passed",
+          description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000 starting in 2025, eliminating the coverage gap (donut hole) for most beneficiaries.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "What is Medicare cost-sharing?",
+        answer: "Cost-sharing is the portion of healthcare costs you pay — including premiums, deductibles, copays, and coinsurance. Original Medicare typically charges 20% coinsurance after the deductible.",
+      },
+      {
+        question: "What are Medigap cost-sharing plans?",
+        answer: "Plan K, L, M, and N are Medigap plans with lower premiums that require you to share some costs with Medicare. Plan K and L have annual out-of-pocket limits; Plan N has copays for office and ER visits.",
+      },
+      {
+        question: "Does Original Medicare have an out-of-pocket maximum?",
+        answer: "No. Original Medicare has no annual OOP cap. Medigap plans and Medicare Advantage both provide protection against unlimited cost-sharing.",
+      },
+      {
+        question: "Is Plan N a good cost-sharing plan?",
+        answer: "Plan N is popular for healthy beneficiaries who want lower premiums. You pay up to $20 for office visits and $50 for ER visits, but the plan covers most other cost-sharing.",
+      },
+      {
+        question: "What is the 2026 Part B deductible?",
+        answer: "The Part B deductible is $257 for 2026. After meeting the deductible, Medicare pays 80% of approved costs and you pay 20% (unless you have a Medigap plan).",
+      },
+    ],
+    quickReference: [
+      { icon: "dollar", text: "2026 Part B deductible: $257; coinsurance: 20% of approved amount" },
+      { icon: "dollar", text: "2026 Part A deductible: $1,676 per benefit period" },
+      { icon: "alert", text: "Original Medicare has no annual out-of-pocket maximum" },
+      { icon: "check", text: "Medigap Plan K/L have OOP caps: $7,220 and $3,610 in 2026" },
+      { icon: "info", text: "Medigap cannot be used with Medicare Advantage" },
+    ],
+    relatedTopics: [
+      { title: "Hospital Indemnity Insurance", description: "How hospital indemnity plans supplement Medicare.", slug: "hospital-indemnity-insurance" },
+      { title: "Deductible vs. Copay vs. Coinsurance vs. Premium", description: "Plain-English definitions of Medicare cost terms.", slug: "deductible-copay-coinsurance-premium" },
+      { title: "Medicare Maximum Out-of-Pocket", description: "How OOP limits work in Medicare Advantage.", slug: "medicare-maximum-out-of-pocket" },
+      { title: "What Is a Medicare Supplement Plan?", description: "Overview of Medigap plans and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+    ],
+    sidebarRelatedLinks: ["hospital-indemnity-insurance", "deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket"],
+    ctaBanner: {
+      title: "Want Help Choosing a Medicare Plan?",
+      text: "Our licensed agents can compare Medigap and Medicare Advantage plans in your area to find the right balance of premium and cost-sharing.",
+    },
+    relatedSlugs: ["hospital-indemnity-insurance", "deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
+  },
+  {
+    slug: "medicare-diabetes",
+    seo: {
+      title: "Does Medicare Cover Diabetic Supplies? (2026 Guide)",
+      description: "Medicare covers diabetic supplies including glucose monitors, test strips, lancets, and insulin pumps under Part B. Part D covers insulin and oral medications. Learn what's covered, what you pay, and how to get supplies.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-diabetes/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-and-diabetes-coverage.jpg",
+    },
+    title: "Does Medicare Cover Diabetic Supplies? (2026 Guide)",
+    subtitle: "Medicare covers a wide range of diabetes supplies and services — from glucose monitors and test strips to insulin pumps, preventive screenings, and diabetes self-management training. Part B covers durable medical equipment; Part D covers insulin and oral medications.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare covers most diabetes supplies under Part B (as durable medical equipment) and insulin under Part D. Part B covers glucose monitors, test strips, lancets, and insulin pumps. Part D covers insulin, oral medications, and non-insulin injectables. The $35/month insulin cap applies to Part D-covered insulin.",
+      badges: [
+        { plan: "Part B (DME)", status: "covered" },
+        { plan: "Part D", status: "covered" },
+        { plan: "Preventive Services", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Part B (DME)", coverage: "Glucose Monitors, Test Strips, Insulin Pumps", icon: "shield", notes: "80% after Part B deductible; must use Medicare-enrolled supplier" },
+      { planType: "Part D", coverage: "Insulin, Oral Meds, Non-Insulin Injectables", icon: "shield", notes: "$35/month insulin cap; $2,000 OOP cap (2025+)" },
+      { planType: "Preventive Services (Part B)", coverage: "Screenings, DSMT, MNT", icon: "shield", notes: "$0 copay for most preventive services" },
+      { planType: "Medicare Advantage", coverage: "All of the Above + Extra Benefits", icon: "shield", notes: "May include OTC supplies, gym membership, meal delivery" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Part B: Durable Medical Equipment for Diabetes",
+        icon: "activity",
+        iconColor: "#059669",
+        coverageLabel: "Covered — 80% After Deductible",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B covers diabetes-related durable medical equipment (DME) when prescribed by a doctor and obtained from a Medicare-enrolled supplier. You pay 20% coinsurance after the Part B deductible ($257 in 2026).",
+        ],
+        whatItCovers: [
+          "Blood glucose monitors (one every 5 years for most beneficiaries)",
+          "Test strips: up to 100/month (non-insulin users) or 300/month (insulin users)",
+          "Lancets and lancing devices",
+          "Insulin pumps and pump supplies (when medically necessary)",
+          "Continuous glucose monitors (CGMs) — covered since 2023",
+          "Therapeutic shoes and inserts for diabetic foot disease",
+        ],
+      },
+      {
+        planName: "Part D: Insulin and Oral Diabetes Medications",
+        icon: "pill",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered — $35/Month Insulin Cap",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part D covers insulin, oral diabetes medications (e.g., metformin, glipizide), and non-insulin injectables (e.g., GLP-1 agonists like semaglutide when prescribed for diabetes). The Inflation Reduction Act capped insulin costs at $35/month per covered insulin under Part D starting in 2023.",
+          "The Part D out-of-pocket cap of $2,000 (effective 2025) also benefits diabetic beneficiaries who take expensive medications.",
+        ],
+        whatItCovers: [
+          "Insulin: $35/month cap per covered insulin (IRA, 2023)",
+          "Oral medications: metformin, sulfonylureas, DPP-4 inhibitors, SGLT-2 inhibitors",
+          "Non-insulin injectables: GLP-1 agonists (when prescribed for diabetes)",
+          "2026 Part D OOP cap: $2,000/year",
+          "Coverage varies by plan formulary — check your plan's drug list",
+        ],
+      },
+      {
+        planName: "Preventive Services for Diabetes",
+        icon: "heart",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covered — $0 Copay",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B covers several diabetes preventive services at no cost to you (no deductible, no coinsurance) when provided by a Medicare-enrolled provider.",
+        ],
+        whatItCovers: [
+          "Diabetes screening tests: up to 2/year if at risk",
+          "Diabetes self-management training (DSMT): 10 hours initial + 2 hours/year follow-up",
+          "Medical nutrition therapy (MNT): 3 hours first year + 2 hours/year follow-up",
+          "Annual wellness visit: includes diabetes risk assessment",
+          "Glaucoma screening: annually for high-risk (diabetes is a risk factor)",
+        ],
+      },
+      {
+        planName: "Diabetic Shoes and Foot Care",
+        icon: "shield",
+        iconColor: "#D97706",
+        coverageLabel: "Covered Under Part B",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B covers one pair of therapeutic shoes (or one pair of depth-inlay shoes) plus up to three pairs of inserts per calendar year for beneficiaries with diabetic foot disease. A podiatrist or other qualified provider must certify medical necessity, and the shoes must be obtained from a Medicare-enrolled supplier.",
+        ],
+        whatItCovers: [
+          "1 pair of therapeutic/depth-inlay shoes per year",
+          "Up to 3 pairs of inserts per year",
+          "Requires doctor certification of diabetic foot disease",
+          "Must use Medicare-enrolled shoe supplier",
+          "You pay 20% coinsurance after Part B deductible",
+        ],
+      },
+      {
+        planName: "Medicare Advantage and Extra Diabetes Benefits",
+        icon: "star",
+        iconColor: "#0369A1",
+        coverageLabel: "Extra Benefits Available",
+        coverageType: "partial",
+        paragraphs: [
+          "Many Medicare Advantage plans offer extra benefits for diabetic beneficiaries beyond what Original Medicare covers. These may include over-the-counter (OTC) allowances for diabetes supplies, gym memberships (for weight management), meal delivery after hospitalization, and disease management programs.",
+          "Chronic Condition Special Needs Plans (C-SNPs) are designed specifically for beneficiaries with diabetes and may offer enhanced drug coverage and care coordination.",
+        ],
+        whatItCovers: [
+          "OTC allowance for diabetes supplies (e.g., test strips, lancets)",
+          "Disease management programs for diabetes",
+          "C-SNPs (Chronic Condition SNPs) for diabetic beneficiaries",
+          "Gym membership / fitness benefits for weight management",
+          "Meal delivery after hospitalization",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 Medicare Diabetes Coverage: What You Pay",
+      headers: ["Service/Supply", "Medicare Part", "Medicare Pays", "You Pay", "Notes"],
+      rows: [
+        { service: "Glucose monitor", part: "Part B (DME)", medicarePays: "80%", youPay: "20% after $257 deductible", notes: "1 every 5 years; must use enrolled supplier" },
+        { service: "Test strips (insulin user)", part: "Part B (DME)", medicarePays: "80%", youPay: "20% after deductible", notes: "Up to 300/month" },
+        { service: "Insulin pump", part: "Part B (DME)", medicarePays: "80%", youPay: "20% after deductible", notes: "Medically necessary; pump insulin also Part B" },
+        { service: "CGM (continuous glucose monitor)", part: "Part B (DME)", medicarePays: "80%", youPay: "20% after deductible", notes: "Covered since 2023" },
+        { service: "Insulin (vials/pens)", part: "Part D", medicarePays: "Varies by plan", youPay: "$35/month cap per insulin", notes: "IRA cap; check formulary" },
+        { service: "Oral diabetes meds", part: "Part D", medicarePays: "Varies by plan", youPay: "Copay/coinsurance per tier", notes: "$2,000 OOP cap (2025+)" },
+        { service: "Diabetes screening", part: "Part B (Preventive)", medicarePays: "100%", youPay: "$0", notes: "Up to 2/year if at risk" },
+        { service: "DSMT (self-management training)", part: "Part B (Preventive)", medicarePays: "100%", youPay: "$0", notes: "10 hrs initial + 2 hrs/year" },
+        { service: "Therapeutic shoes", part: "Part B (DME)", medicarePays: "80%", youPay: "20% after deductible", notes: "1 pair + 3 inserts/year" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions and Notes",
+      items: [
+        {
+          title: "CGM Coverage Expanded in 2023",
+          text: "CMS expanded coverage for continuous glucose monitors (CGMs) in 2023, removing the requirement that beneficiaries be insulin-dependent. All Medicare beneficiaries with diabetes who have a prescription for a CGM are now eligible.",
+        },
+        {
+          title: "Insulin Pump Insulin Is Covered Under Part B",
+          text: "If you use an insulin pump, the insulin used in the pump is covered under Part B (not Part D) as part of the DME benefit. This means the $35/month Part D cap does not apply — but Medicare pays 80% after the Part B deductible.",
+        },
+        {
+          title: "GLP-1 Agonists for Weight Loss Are Not Covered",
+          text: "GLP-1 agonists like semaglutide (Ozempic, Wegovy) are covered by Part D when prescribed for diabetes, but Medicare does not cover them when prescribed solely for weight loss.",
+        },
+        {
+          title: "Must Use Medicare-Enrolled Suppliers for DME",
+          text: "To receive Medicare coverage for glucose monitors, test strips, and other DME, you must obtain them from a Medicare-enrolled supplier. Purchasing from a retail pharmacy or non-enrolled supplier means Medicare will not pay.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Legislative and Regulatory Updates",
+      items: [
+        {
+          title: "$35/Month Insulin Cap (IRA, 2023)",
+          status: "Passed",
+          description: "The Inflation Reduction Act capped Part D insulin costs at $35/month per covered insulin starting in 2023. This applies to all Part D plans and Medicare Advantage plans with drug coverage.",
+        },
+        {
+          title: "CGM Coverage Expanded (2023)",
+          status: "Passed",
+          description: "CMS removed the insulin-dependency requirement for CGM coverage under Part B, making CGMs available to all Medicare beneficiaries with diabetes who have a prescription.",
+        },
+        {
+          title: "Part D OOP Cap: $2,000 (IRA, 2025)",
+          status: "Passed",
+          description: "The $2,000 annual Part D out-of-pocket cap (effective 2025) benefits diabetic beneficiaries who take expensive medications like SGLT-2 inhibitors or GLP-1 agonists.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover continuous glucose monitors (CGMs)?",
+        answer: "Yes. Since 2023, Medicare Part B covers CGMs for all beneficiaries with diabetes who have a prescription — not just insulin users. You pay 20% coinsurance after the Part B deductible.",
+      },
+      {
+        question: "What is the insulin cap under Medicare?",
+        answer: "The Inflation Reduction Act capped Part D insulin costs at $35/month per covered insulin starting in 2023. This applies to insulin vials and pens covered by Part D.",
+      },
+      {
+        question: "Does Medicare cover Ozempic or Wegovy?",
+        answer: "Medicare Part D covers semaglutide (Ozempic) when prescribed for type 2 diabetes. However, Medicare does not cover Wegovy or other GLP-1 drugs when prescribed solely for weight loss.",
+      },
+      {
+        question: "How do I get diabetic supplies through Medicare?",
+        answer: "You need a prescription from your doctor and must use a Medicare-enrolled supplier. Your doctor must certify medical necessity. For test strips, you can also use mail-order suppliers for convenience.",
+      },
+      {
+        question: "Does Medicare cover diabetes self-management training?",
+        answer: "Yes. Part B covers 10 hours of initial DSMT plus 2 hours per year of follow-up training at no cost to you. A doctor referral is required.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Part B covers glucose monitors, test strips, lancets, insulin pumps, and CGMs" },
+      { icon: "dollar", text: "Part D insulin cap: $35/month per covered insulin (IRA, 2023)" },
+      { icon: "check", text: "Diabetes screenings and DSMT are covered at $0 copay under Part B" },
+      { icon: "alert", text: "GLP-1 drugs covered for diabetes only — not for weight loss alone" },
+      { icon: "info", text: "Must use Medicare-enrolled DME supplier to receive coverage" },
+    ],
+    relatedTopics: [
+      { title: "Medical Nutritional Therapy", description: "Medicare coverage for nutrition counseling.", slug: "does-medicare-cover-medical-nutritional-therapy" },
+      { title: "Medicare Coverage for Diabetic Shoes", description: "Details on therapeutic shoe coverage.", slug: "medicare-coverage-for-diabetic-shoes" },
+      { title: "Medicare Preventive Services", description: "Full list of covered preventive services.", slug: "medicare-preventive-services" },
+      { title: "Medicare Advantage for Chronic Conditions", description: "How MA plans serve beneficiaries with chronic conditions.", slug: "medicare-advantage-for-chronic-conditions-what-you-need-to-know" },
+    ],
+    sidebarRelatedLinks: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-diabetic-shoes", "medicare-preventive-services"],
+    ctaBanner: {
+      title: "Need Help Finding the Right Medicare Plan for Diabetes?",
+      text: "Our licensed agents can help you compare Part D plans and Medicare Advantage options to maximize your diabetes coverage and minimize costs.",
+    },
+    relatedSlugs: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-diabetic-shoes", "medicare-preventive-services", "medicare-advantage-for-chronic-conditions-what-you-need-to-know"],
+  },
 ];
