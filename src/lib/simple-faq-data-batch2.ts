@@ -1100,32 +1100,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
   },
   {
-    slug: 'medicare-vs-medicaid',
-    seo: {
-      title: 'Medicare and Medicaid: How to Qualify for Both',
-      description: 'It is not uncommon to be eligible for both Medicare and Medicaid. Learn how to combine benefits and save on healthcare costs today.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-vs-medicaid/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-and-medicaid-how-to-qualify-for-both.jpg',
-    },
-    title: 'Medicare and Medicaid: How to Qualify for Both',
-    summary: '',
-    category: 'Medicaid & Assistance',
-    dateUpdated: 'January 7, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Extra Help Program Income Limits',
-        paragraphs: [
-          'Updated on January 7, 2026',
-          '[Medicare Extra Help](/faqs/medicare-extra-help-program) is a low-income subsidy for individuals enrolled in [Medicare Part D](/blog/how-is-medicare-part-d-changing-in-2026). This...',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-is-medicare", "medicare-savings-programs", "qualified-medicare-beneficiary-program", "medicaid-spend-down-program"],
-  },
-  {
     slug: 'mapd-vs-part-d',
     seo: {
       title: 'MAPD vs. PDP Through Medicare Part D',

@@ -800,32 +800,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["medicare-vs-medicaid", "qualified-medicare-beneficiary-program", "medicare-savings-programs", "medicare-low-income-subsidy"],
   },
   {
-    slug: 'medicare-easy-pay',
-    seo: {
-      title: 'Medicare Easy Pay',
-      description: 'Medicare easy pay is a free service that will automatically deduct your premium payments from your checking or savings account each month.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-easy-pay/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-easy-pay.jpeg',
-    },
-    title: 'Medicare Easy Pay',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'September 22, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Deductible vs. Copay vs. Coinsurance vs. Premium',
-        paragraphs: [
-          'Updated on September 22, 2021',
-          'If you’re [new to Medicare](/blog/medicare-starter-guide-what-to-do-in-your-first-90-days), [understanding the different terminology](/blog/medicare-parts-a-b-c-and-d-explained-simply) can be overwhelming. That’s why it’s...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-paperless-billing", "medicare-part-b-premiums", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
-  },
-  {
     slug: 'reduce-medicare-premiums',
     seo: {
       title: '5 Ways to Reduce Your Medicare Premiums',

@@ -23868,4 +23868,578 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "reduce-medicare-premiums", "medicare-extra-help-program"],
   },
+  /* ─── MEDICARE VS MEDICAID ─── */
+  {
+    slug: "medicare-vs-medicaid",
+    seo: {
+      title: "Medicare vs. Medicaid: Key Differences, Dual Eligibility & How to Qualify for Both | MedicareFAQ",
+      description: "Medicare and Medicaid are two separate government health programs. Learn the key differences, who qualifies, what each covers, and how to get both at the same time.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-vs-medicaid/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-and-medicaid-how-to-qualify-for-both.jpg",
+    },
+    title: "Medicare vs. Medicaid: How to Qualify for Both",
+    subtitle: "Medicare and Medicaid are both government health insurance programs, but they serve different populations and are funded differently. Some people qualify for both — known as \"dual eligibles.\"",
+    category: "Medicaid & Assistance",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare is a federal health insurance program primarily for people 65 and older (and certain disabled individuals), regardless of income. Medicaid is a joint federal-state program for people with low income and limited resources. Some people qualify for both programs simultaneously — these individuals are called \"dual eligibles\" and receive comprehensive coverage from both.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicaid", status: "covered" },
+        { plan: "Dual Eligible", status: "covered" },
+        { plan: "Medicare Savings Programs", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Medicare",
+        coverage: "Federal program for age 65+, disabled, or ESRD patients",
+        icon: "shield-check",
+        notes: "Eligibility not based on income; funded by payroll taxes and premiums",
+      },
+      {
+        planType: "Medicaid",
+        coverage: "Joint federal-state program for low-income individuals and families",
+        icon: "shield-check",
+        notes: "Eligibility based on income and resources; varies by state",
+      },
+      {
+        planType: "Dual Eligible (Both)",
+        coverage: "Qualifies for both Medicare and Medicaid simultaneously",
+        icon: "shield-check",
+        notes: "Medicaid helps pay Medicare premiums, deductibles, and copays",
+      },
+      {
+        planType: "Medicare Savings Programs",
+        coverage: "State programs that help pay Medicare costs for low-income beneficiaries",
+        icon: "info",
+        notes: "4 types: QMB, SLMB, QI, QDWI — each with different income limits",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medicare: Who Qualifies and What It Covers",
+        icon: "shield",
+        iconColor: "text-blue-600",
+        coverageLabel: "Federal Health Insurance",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare is a federal health insurance program administered by the Centers for Medicare & Medicaid Services (CMS). It is primarily for people 65 and older, but also covers younger individuals with certain disabilities or End-Stage Renal Disease (ESRD).",
+          "Medicare eligibility is not based on income or assets. You qualify based on age, disability status, or medical condition — not how much money you have.",
+        ],
+        whatItCovers: [
+          "Age 65 or older (U.S. citizen or legal resident for 5+ years)",
+          "Under 65 with a qualifying disability (after 24 months of SSDI)",
+          "Any age with End-Stage Renal Disease (ESRD) or ALS",
+          "Part A: Hospital stays, skilled nursing, hospice, home health",
+          "Part B: Doctor visits, outpatient care, preventive services, durable medical equipment",
+          "Part D: Prescription drug coverage (via standalone plan or Medicare Advantage)",
+        ],
+        whatItDoesntCover: [
+          "Long-term custodial care (nursing home stays beyond skilled care)",
+          "Most dental, vision, and hearing (unless via Medicare Advantage)",
+          "Coverage outside the U.S. (with limited exceptions)",
+        ],
+        callout: {
+          type: "info",
+          title: "Medicare Costs in 2026",
+          text: "Part B standard premium: $202.90/month. Part A deductible: $1,736/benefit period. Part B deductible: $257/year. Most people don't pay a Part A premium if they or their spouse worked 40+ quarters.",
+        },
+      },
+      {
+        planName: "Medicaid: Who Qualifies and What It Covers",
+        icon: "heart",
+        iconColor: "text-green-600",
+        coverageLabel: "State-Federal Assistance Program",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicaid is a joint federal and state program that provides health coverage to low-income individuals and families. Unlike Medicare, Medicaid eligibility is based primarily on income and resources, and the rules vary by state.",
+          "In states that expanded Medicaid under the Affordable Care Act (ACA), adults with income up to 138% of the Federal Poverty Level (FPL) generally qualify. In 2026, that is approximately $20,782/year for an individual.",
+        ],
+        whatItCovers: [
+          "Low-income adults, children, pregnant women, elderly, and disabled individuals",
+          "Income generally at or below 138% FPL in expansion states",
+          "Hospital and doctor services, often with $0 or very low copays",
+          "Long-term care and nursing home coverage (a key difference from Medicare)",
+          "Dental, vision, and hearing services (varies by state)",
+          "Mental health and substance use disorder services",
+        ],
+        whatItDoesntCover: [
+          "Not available to most non-citizens (5-year residency rule for most immigrants)",
+          "Coverage and benefits vary significantly by state",
+          "Some states have not expanded Medicaid — income limits may be much lower",
+        ],
+      },
+      {
+        planName: "Key Differences: Medicare vs. Medicaid",
+        icon: "git-compare",
+        iconColor: "text-purple-600",
+        coverageLabel: "Side-by-Side Comparison",
+        coverageType: "partial",
+        paragraphs: [
+          "The two programs are often confused because they have similar names and both provide health coverage. However, they serve different populations and work very differently.",
+        ],
+        whatItCovers: [
+          "Medicare: Federal program / Medicaid: Joint federal-state program",
+          "Medicare: Based on age or disability / Medicaid: Based on income and resources",
+          "Medicare: No income limits / Medicaid: Income and asset limits apply",
+          "Medicare: Premiums and cost-sharing required / Medicaid: Little to no cost-sharing",
+          "Medicare: Does not cover long-term custodial care / Medicaid: Covers nursing home care",
+          "Medicare: Same nationwide / Medicaid: Benefits vary by state",
+        ],
+        whatItDoesntCover: [
+          "Neither program covers all healthcare costs without supplemental coverage",
+        ],
+      },
+      {
+        planName: "Dual Eligibility: Qualifying for Both",
+        icon: "users",
+        iconColor: "text-teal-600",
+        coverageLabel: "Dual Eligible Beneficiaries",
+        coverageType: "covered",
+        paragraphs: [
+          "Some people qualify for both Medicare and Medicaid at the same time. These individuals are called \"dual eligibles\" or \"dual-eligible beneficiaries.\" In 2026, approximately 12 million Americans are dual eligible.",
+          "For dual eligibles, Medicaid typically acts as secondary insurance, helping to pay Medicare premiums, deductibles, and cost-sharing. This can result in very low or even $0 out-of-pocket costs.",
+        ],
+        whatItCovers: [
+          "Medicaid pays the Part B premium ($202.90/month in 2026) for qualifying dual eligibles",
+          "Medicaid covers Medicare deductibles and copays",
+          "Dual eligibles automatically qualify for Medicare Extra Help (LIS) for Part D",
+          "Special Needs Plans (SNPs) are designed specifically for dual-eligible beneficiaries",
+        ],
+        whatItDoesntCover: [
+          "Not all dual eligibles receive the same level of assistance — it depends on income level",
+          "Must still meet Medicare eligibility requirements (age 65+ or disability)",
+        ],
+        callout: {
+          type: "tip",
+          title: "Medicare Savings Programs",
+          text: "If you have Medicare and a limited income, you may qualify for a Medicare Savings Program (MSP) even if you don't qualify for full Medicaid. MSPs help pay Part A and Part B premiums, deductibles, and copays. There are 4 types: QMB, SLMB, QI, and QDWI.",
+        },
+      },
+      {
+        planName: "How to Apply for Medicaid and Medicare Savings Programs",
+        icon: "file-text",
+        iconColor: "text-amber-600",
+        coverageLabel: "Application Process",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare enrollment is handled through the Social Security Administration (SSA). Most people are automatically enrolled at 65 if they receive Social Security benefits. Others must apply during their Initial Enrollment Period.",
+          "Medicaid applications are handled by your state's Medicaid agency. You can apply online through your state's Medicaid portal, through Healthcare.gov, or in person at your local Medicaid office.",
+        ],
+        whatItCovers: [
+          "Apply for Medicare at ssa.gov or call 1-800-772-1213",
+          "Apply for Medicaid through your state's Medicaid agency or Healthcare.gov",
+          "Apply for Medicare Savings Programs through your state Medicaid office",
+          "Apply for Extra Help (LIS) at ssa.gov or call Social Security",
+          "Enrollment in both programs can happen simultaneously",
+        ],
+        whatItDoesntCover: [],
+      },
+    ],
+    costTable: {
+      title: "Medicare vs. Medicaid: Cost and Coverage Comparison",
+      headers: ["Feature", "Medicare", "Medicaid", "Dual Eligible"],
+      rows: [
+        { "Feature": "Eligibility basis", "Medicare": "Age 65+ or disability", "Medicaid": "Low income/resources", "Dual Eligible": "Meets both criteria" },
+        { "Feature": "Monthly premium", "Medicare": "$202.90 (Part B, 2026)", "Medicaid": "Usually $0", "Dual Eligible": "Medicaid may pay Part B premium" },
+        { "Feature": "Deductibles", "Medicare": "$1,736 (Part A) / $257 (Part B)", "Medicaid": "Usually $0", "Dual Eligible": "Medicaid covers most", },
+        { "Feature": "Copays", "Medicare": "20% coinsurance (Part B)", "Medicaid": "$0\u2013$4 typically", "Dual Eligible": "Very low or $0" },
+        { "Feature": "Long-term care", "Medicare": "Limited (skilled only)", "Medicaid": "Yes (nursing home)", "Dual Eligible": "Medicaid covers" },
+        { "Feature": "Dental/vision", "Medicare": "Limited (MA plans)", "Medicaid": "Yes (varies by state)", "Dual Eligible": "Medicaid covers" },
+      ],
+      footnote: "Medicaid benefits and income limits vary by state. Dual eligible beneficiaries may qualify for Medicare Savings Programs that cover Part B premiums and cost-sharing.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Special Situations",
+      items: [
+        {
+          title: "Medicare Savings Programs (MSPs)",
+          text: "Even if you don't qualify for full Medicaid, you may qualify for a Medicare Savings Program if you have Medicare and limited income. MSPs help pay Part B premiums and sometimes deductibles and copays. There are 4 types: QMB (Qualified Medicare Beneficiary), SLMB (Specified Low-Income Medicare Beneficiary), QI (Qualifying Individual), and QDWI.",
+          highlight: "MSPs can save you $2,000+ per year on Medicare costs.",
+        },
+        {
+          title: "Medicaid Spend-Down",
+          text: "Some states allow people with income above the Medicaid limit to qualify by \"spending down\" their income on medical expenses. Once your medical expenses reduce your income to the Medicaid threshold, you become eligible.",
+        },
+        {
+          title: "Dual Eligible Special Needs Plans (D-SNPs)",
+          text: "If you qualify for both Medicare and Medicaid, you may be eligible for a Dual Eligible Special Needs Plan (D-SNP), a type of Medicare Advantage plan designed specifically for dual eligibles. These plans coordinate both programs and often include extra benefits.",
+        },
+        {
+          title: "Medicaid and Immigration Status",
+          text: "Most lawful permanent residents (green card holders) must wait 5 years before qualifying for Medicaid. Undocumented immigrants generally do not qualify for Medicaid except for emergency services. Some states provide state-funded coverage regardless of immigration status.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Policy Updates",
+      items: [
+        {
+          title: "H.R. 1 (2025): Medicaid Work Requirements Proposed",
+          status: "Proposed",
+          description: "The House passed H.R. 1 in 2025, which included provisions for Medicaid work requirements for able-bodied adults. The Senate version is still being debated as of 2026.",
+        },
+        {
+          title: "ACA Medicaid Expansion Continues in 2026",
+          status: "Passed",
+          description: "40 states plus D.C. have expanded Medicaid under the ACA. Adults with income up to 138% FPL (~$20,782/year individual in 2026) qualify in expansion states.",
+        },
+        {
+          title: "Medicare Savings Program Auto-Enrollment Expansion",
+          status: "Passed",
+          description: "CMS expanded auto-enrollment in Medicare Savings Programs for low-income Medicare beneficiaries who are identified through data matching with Medicaid agencies.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Maximize Benefits When You Have Both",
+      paragraphs: [
+        "If you qualify for both Medicare and Medicaid, coordinating the two programs correctly can dramatically reduce your healthcare costs.",
+      ],
+      checklist: {
+        title: "Dual Eligible Action Checklist",
+        items: [
+          "Apply for Medicare during your Initial Enrollment Period (3 months before turning 65)",
+          "Apply for Medicaid through your state's Medicaid agency",
+          "Apply for Medicare Savings Programs even if you don't qualify for full Medicaid",
+          "Apply for Medicare Extra Help (LIS) to reduce Part D drug costs",
+          "Consider a Dual Eligible Special Needs Plan (D-SNP) for coordinated care",
+          "Review your Medicaid benefits annually — income limits and benefits change",
+          "Contact your State Health Insurance Assistance Program (SHIP) for free counseling",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "What is the main difference between Medicare and Medicaid?",
+        answer: "Medicare is a federal program for people 65+ or with disabilities, regardless of income. Medicaid is a state-federal program for low-income individuals. Medicare focuses on age/disability; Medicaid focuses on income.",
+      },
+      {
+        question: "Can you have both Medicare and Medicaid?",
+        answer: "Yes. People who qualify for both are called \"dual eligibles.\" Medicaid typically acts as secondary insurance, covering Medicare premiums, deductibles, and copays — often resulting in $0 out-of-pocket costs.",
+      },
+      {
+        question: "Does Medicaid cover nursing home care?",
+        answer: "Yes. Medicaid is the primary payer for long-term nursing home care in the U.S. Medicare only covers short-term skilled nursing facility stays (up to 100 days per benefit period).",
+      },
+      {
+        question: "What are Medicare Savings Programs?",
+        answer: "Medicare Savings Programs (MSPs) are state programs that help low-income Medicare beneficiaries pay Part A and/or Part B premiums, deductibles, and copays. There are 4 types: QMB, SLMB, QI, and QDWI.",
+      },
+      {
+        question: "How do I apply for Medicaid if I have Medicare?",
+        answer: "Apply through your state's Medicaid agency or at Healthcare.gov. You can also apply for Medicare Savings Programs through your state Medicaid office. Contact your local SHIP counselor for free help.",
+      },
+    ],
+    quickReference: [
+      { icon: "info", text: "Medicare is for age 65+ or disabled; Medicaid is for low-income individuals" },
+      { icon: "check", text: "Dual eligibles qualify for both — Medicaid covers most Medicare cost-sharing" },
+      { icon: "dollar", text: "Medicare Savings Programs can pay your $202.90/month Part B premium" },
+      { icon: "check", text: "Dual eligibles automatically qualify for Medicare Extra Help for Part D" },
+      { icon: "alert", text: "Medicaid covers long-term nursing home care; Medicare does not (beyond skilled care)" },
+    ],
+    relatedTopics: [
+      { title: "What Is Medicare", description: "A complete overview of Medicare and its parts.", slug: "what-is-medicare" },
+      { title: "Medicare Savings Programs", description: "State programs that help pay Medicare costs.", slug: "medicare-savings-programs" },
+      { title: "Qualified Medicare Beneficiary Program", description: "The QMB program helps pay Medicare costs for low-income beneficiaries.", slug: "qualified-medicare-beneficiary-program" },
+      { title: "Medicaid Spend-Down Program", description: "How to qualify for Medicaid by spending down excess income.", slug: "medicaid-spend-down-program" },
+    ],
+    sidebarRelatedLinks: [
+      "What Is Medicare",
+      "Medicare Savings Programs",
+      "QMB Program",
+      "Medicaid Spend-Down",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Medicare and Medicaid?",
+      text: "Our licensed agents can help you determine if you qualify for both programs and find the best coverage options to minimize your healthcare costs.",
+    },
+    relatedSlugs: ["what-is-medicare", "medicare-savings-programs", "qualified-medicare-beneficiary-program", "medicaid-spend-down-program"],
+  },
+  /* ─── MEDICARE EASY PAY ─── */
+  {
+    slug: "medicare-easy-pay",
+    seo: {
+      title: "Medicare Easy Pay: How to Set Up Automatic Premium Payments | MedicareFAQ",
+      description: "Medicare Easy Pay is a free service that automatically deducts your Medicare premiums from your bank account. Learn how to enroll, what it covers, and how it compares to other payment options.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-easy-pay/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-easy-pay.jpeg",
+    },
+    title: "Medicare Easy Pay",
+    subtitle: "Medicare Easy Pay is a free automatic payment service that deducts your Medicare premiums directly from your bank account each month, so you never miss a payment.",
+    category: "Medicare FAQ",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare Easy Pay is a free service offered by the Centers for Medicare & Medicaid Services (CMS) that automatically deducts your Medicare premium payments from your checking or savings account each month. It is available for Part A, Part B, and some Medicare Advantage and Part D premiums billed directly by Medicare. It takes 6\u20138 weeks to activate after enrollment.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Part D", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Medicare Easy Pay (Bank Auto-Debit)",
+        coverage: "Free automatic deduction from checking or savings account",
+        icon: "shield-check",
+        notes: "Best option if you don't receive Social Security; takes 6-8 weeks to activate",
+      },
+      {
+        planType: "Social Security Deduction",
+        coverage: "Automatic deduction from monthly Social Security benefit",
+        icon: "shield-check",
+        notes: "Automatic for most beneficiaries receiving SS; no enrollment needed",
+      },
+      {
+        planType: "Medicare.gov Online Bill Pay",
+        coverage: "One-time or recurring online payment via Medicare account",
+        icon: "info",
+        notes: "Requires Medicare.gov account; good for one-time payments",
+      },
+      {
+        planType: "Mail Check or Money Order",
+        coverage: "Paper check mailed to Medicare Premium Collection Center",
+        icon: "alert-triangle",
+        notes: "Slowest option; risk of missed payments; not recommended",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is Medicare Easy Pay?",
+        icon: "credit-card",
+        iconColor: "text-blue-600",
+        coverageLabel: "Automatic Bank Deduction",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Easy Pay is a free electronic funds transfer (EFT) service provided by CMS. Once enrolled, your Medicare premiums are automatically deducted from your checking or savings account on the same date each month.",
+          "It is the recommended payment method for Medicare beneficiaries who do not receive Social Security benefits (and therefore don't have premiums automatically deducted from their SS check).",
+        ],
+        whatItCovers: [
+          "Medicare Part A premiums (for those who pay a premium)",
+          "Medicare Part B premiums ($202.90/month standard in 2026)",
+          "Medicare Part D premiums billed directly by Medicare (not all plans)",
+          "Medicare Advantage premiums billed directly by Medicare (not all plans)",
+          "Works with checking or savings accounts at U.S. banks",
+        ],
+        whatItDoesntCover: [
+          "Does not cover premiums billed directly by your private plan (MA or Part D)",
+          "Does not work with credit cards or prepaid debit cards",
+          "Cannot be used for Medigap (Medicare Supplement) premiums",
+        ],
+        callout: {
+          type: "info",
+          title: "Who Needs Medicare Easy Pay?",
+          text: "If you receive Social Security benefits, your Part B premium is already automatically deducted from your SS check — you don't need Easy Pay. Easy Pay is most useful if you have Medicare but don't yet receive Social Security (e.g., you enrolled in Medicare at 65 but delayed Social Security).",
+        },
+      },
+      {
+        planName: "How to Enroll in Medicare Easy Pay",
+        icon: "file-text",
+        iconColor: "text-green-600",
+        coverageLabel: "Enrollment Process",
+        coverageType: "covered",
+        paragraphs: [
+          "Enrolling in Medicare Easy Pay is straightforward. You can sign up online through your Medicare.gov account or by completing a paper form.",
+          "After enrollment, it typically takes 6\u20138 weeks for automatic deductions to begin. During this time, you must continue paying your premiums by another method to avoid a lapse in coverage.",
+        ],
+        whatItCovers: [
+          "Option 1: Sign in to Medicare.gov and go to 'Pay My Premium' to set up Easy Pay online",
+          "Option 2: Complete Form CMS-10048 (Authorization Agreement for Preauthorized Payments) and mail it to the Medicare Premium Collection Center",
+          "You'll need your bank account number and routing number",
+          "Deductions occur on the same day each month (typically the 20th)",
+          "You'll receive a confirmation letter once enrollment is processed",
+        ],
+        whatItDoesntCover: [
+          "Cannot enroll by phone — must use Medicare.gov or paper form",
+          "Must continue paying manually for 6-8 weeks after enrollment",
+        ],
+        callout: {
+          type: "warning",
+          title: "Don't Miss Payments During the Waiting Period",
+          text: "After enrolling in Easy Pay, it takes 6\u20138 weeks to activate. Continue paying your premiums by check or online during this period. Missing payments can result in a 2-month grace period, after which your coverage may be terminated.",
+        },
+      },
+      {
+        planName: "How to Cancel or Change Medicare Easy Pay",
+        icon: "settings",
+        iconColor: "text-purple-600",
+        coverageLabel: "Managing Your Enrollment",
+        coverageType: "covered",
+        paragraphs: [
+          "You can cancel or change your Medicare Easy Pay enrollment at any time. Changes also take 6\u20138 weeks to process, so plan accordingly.",
+        ],
+        whatItCovers: [
+          "Cancel online at Medicare.gov or by calling 1-800-MEDICARE (1-800-633-4227)",
+          "To change bank accounts, complete a new Form CMS-10048 with the new account information",
+          "After cancellation, you must resume paying premiums by another method",
+          "If your bank account changes, update Easy Pay immediately to avoid missed payments",
+        ],
+        whatItDoesntCover: [],
+      },
+      {
+        planName: "Medicare Premium Payment Options Compared",
+        icon: "list",
+        iconColor: "text-teal-600",
+        coverageLabel: "All Payment Methods",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare offers several ways to pay your premiums. The best option depends on whether you receive Social Security and your personal preference for automation.",
+        ],
+        whatItCovers: [
+          "Social Security auto-deduction: Automatic if you receive SS benefits (most common)",
+          "Medicare Easy Pay: Free bank auto-debit; best for non-SS recipients",
+          "Medicare.gov online payment: One-time or recurring; requires account login",
+          "Mail check/money order: Payable to 'Medicare Premium Collection Center'",
+          "Railroad Retirement Board (RRB): Deducted from RRB benefits if applicable",
+        ],
+        whatItDoesntCover: [
+          "Credit card payments are not accepted by Medicare directly",
+          "Cash payments are not accepted",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medicare Premium Payment Methods: Comparison",
+      headers: ["Payment Method", "Cost", "Setup Required", "Processing Time", "Best For"],
+      rows: [
+        { "Payment Method": "Social Security Deduction", "Cost": "Free", "Setup Required": "None (automatic)", "Processing Time": "Immediate", "Best For": "SS recipients" },
+        { "Payment Method": "Medicare Easy Pay", "Cost": "Free", "Setup Required": "Online or paper form", "Processing Time": "6\u20138 weeks", "Best For": "Non-SS recipients" },
+        { "Payment Method": "Medicare.gov Online", "Cost": "Free", "Setup Required": "Medicare.gov account", "Processing Time": "1\u20133 business days", "Best For": "One-time payments" },
+        { "Payment Method": "Mail Check", "Cost": "Postage", "Setup Required": "None", "Processing Time": "7\u2013-10 days", "Best For": "Last resort only" },
+        { "Payment Method": "RRB Deduction", "Cost": "Free", "Setup Required": "None (automatic)", "Processing Time": "Immediate", "Best For": "Railroad retirees" },
+      ],
+      footnote: "Part B standard premium is $202.90/month in 2026. Easy Pay and Social Security deductions are the most reliable methods to avoid missed payments.",
+    },
+    exceptionsSection: {
+      title: "Important Notes & Exceptions",
+      items: [
+        {
+          title: "Part D and Medicare Advantage Premiums",
+          text: "Medicare Easy Pay only covers premiums billed directly by Medicare (CMS). If your Part D or Medicare Advantage plan bills you directly (most do), you must pay those premiums separately to your plan. Contact your plan to set up automatic payments with them.",
+          highlight: "Most MA and Part D plans bill you directly — Easy Pay does not cover these.",
+        },
+        {
+          title: "What Happens If You Miss a Payment?",
+          text: "If you miss a Medicare Part B premium payment, you have a 2-month grace period to pay. After the grace period, Medicare may disenroll you from Part B. Reinstatement may require waiting until the next General Enrollment Period (January 1 \u2013 March 31).",
+        },
+        {
+          title: "Medigap Premiums",
+          text: "Medicare Supplement (Medigap) premiums are paid directly to your private insurance company, not to Medicare. Easy Pay cannot be used for Medigap premiums. Contact your Medigap insurer to set up automatic payments.",
+        },
+        {
+          title: "IRMAA Surcharges",
+          text: "If you owe an IRMAA surcharge (income-related adjustment), it is included in your total Part B premium and will be automatically deducted via Easy Pay or Social Security deduction along with your standard premium.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Updates",
+      items: [
+        {
+          title: "Part B Premium Increased to $202.90 in 2026",
+          status: "Passed",
+          description: "The standard Medicare Part B premium increased to $202.90/month in 2026 (from $185.00 in 2025). This is the amount automatically deducted via Easy Pay or Social Security.",
+        },
+        {
+          title: "Medicare.gov Online Payment Improvements",
+          status: "Passed",
+          description: "CMS improved the Medicare.gov online payment portal in 2025, making it easier to set up and manage Easy Pay enrollment and view payment history.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Tips for Managing Medicare Premium Payments",
+      paragraphs: [
+        "Missing Medicare premium payments can result in loss of coverage. Setting up automatic payments is the best way to ensure continuous coverage.",
+      ],
+      checklist: {
+        title: "Premium Payment Checklist",
+        items: [
+          "Determine how your premiums are currently being paid (check your Medicare Summary Notice)",
+          "If you receive Social Security, your Part B premium is already auto-deducted",
+          "If you don't receive SS, enroll in Medicare Easy Pay at Medicare.gov",
+          "Set up separate automatic payments with your Part D or MA plan directly",
+          "Update Easy Pay immediately if you change bank accounts",
+          "Keep your Medicare.gov account login current to monitor payment status",
+          "Contact 1-800-MEDICARE if you have questions about your premium bill",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "What is Medicare Easy Pay?",
+        answer: "Medicare Easy Pay is a free service that automatically deducts your Medicare Part A and/or Part B premiums from your bank account each month. It is offered by CMS and is ideal for beneficiaries who don't receive Social Security.",
+      },
+      {
+        question: "How do I sign up for Medicare Easy Pay?",
+        answer: "Sign up online at Medicare.gov under 'Pay My Premium,' or complete Form CMS-10048 and mail it to the Medicare Premium Collection Center. You'll need your bank account and routing numbers.",
+      },
+      {
+        question: "How long does Medicare Easy Pay take to start?",
+        answer: "It takes 6\u20138 weeks after enrollment for automatic deductions to begin. Continue paying your premiums manually during this period.",
+      },
+      {
+        question: "Does Medicare Easy Pay cover Part D premiums?",
+        answer: "Only if your Part D plan is billed directly by Medicare. Most Part D and Medicare Advantage plans bill you directly, so you'd need to set up automatic payments with your plan separately.",
+      },
+      {
+        question: "What happens if I miss a Medicare premium payment?",
+        answer: "You have a 2-month grace period. After that, Medicare may disenroll you from Part B. Reinstatement may require waiting until the General Enrollment Period (January\u2013March).",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medicare Easy Pay is free and automatically deducts premiums from your bank account" },
+      { icon: "info", text: "Takes 6\u20138 weeks to activate \u2014 keep paying manually until then" },
+      { icon: "alert", text: "Does NOT cover most Part D or MA plan premiums billed directly by the plan" },
+      { icon: "check", text: "Enroll online at Medicare.gov or via Form CMS-10048" },
+      { icon: "dollar", text: "2026 Part B standard premium: $202.90/month" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Paperless Billing", description: "Go paperless with your Medicare statements.", slug: "medicare-paperless-billing" },
+      { title: "Medicare Part B Premiums", description: "Full breakdown of Part B costs in 2026.", slug: "medicare-part-b-premiums" },
+      { title: "5 Ways to Reduce Medicare Premiums", description: "Strategies to lower your Medicare costs.", slug: "reduce-medicare-premiums" },
+      { title: "Medicare Costs in 2026", description: "Updated 2026 Medicare cost figures.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Paperless Billing",
+      "Part B Premiums",
+      "Reduce Premiums",
+      "Medicare Costs 2026",
+    ],
+    ctaBanner: {
+      title: "Questions About Medicare Premium Payments?",
+      text: "Our licensed agents can help you understand your Medicare billing options and find the most cost-effective coverage for your needs.",
+    },
+    relatedSlugs: ["medicare-paperless-billing", "medicare-part-b-premiums", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
+  },
 ];
