@@ -173,32 +173,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-prior-authorization", "advance-beneficiary-notice", "what-does-medically-necessary-mean", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],
   },
   {
-    slug: 'medicare-and-mail-order-prescriptions',
-    seo: {
-      title: 'Medicare and Mail Order Prescriptions',
-      description: 'Medicare beneficaries can enjoy the convience of mail order prescriptions with a Medicare Part D plan. Learn more here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-and-mail-order-prescriptions/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-and-mail-order-prescriptions.jpg',
-    },
-    title: 'Medicare and Mail Order Prescriptions',
-    summary: '',
-    category: 'Prescription Drugs',
-    dateUpdated: 'January 7, 2026',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Extra Help Program Income Limits',
-        paragraphs: [
-          'Updated on January 7, 2026',
-          'Medicare Extra Help is a [low-income subsidy](/faqs/medicare-extra-help-program) for individuals enrolled in [Medicare Part D](/blog/how-is-medicare-part-d-changing-in-2026). This...',
-        ],
-      },
-    ],
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary"],
-  },
-  {
     slug: 'medicare-social-security-and-power-of-attorney',
     seo: {
       title: 'Medicare, Social Security, and Power of Attorney',

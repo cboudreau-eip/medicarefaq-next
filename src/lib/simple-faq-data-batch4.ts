@@ -35,31 +35,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
   },
   {
-    slug: 'delay-medicare',
-    seo: {
-      title: 'The Consequences of Delaying Medicare',
-      description: 'Delaying Medicare comes with potential penalties and enrollment window options. Learn more about the consequences here.',
-      canonical: 'https://www.medicarefaq.com/faqs/delay-medicare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/The-Consequences-of-Delaying-Medicare.jpg',
-    },
-    title: 'The Consequences of Delaying Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'September 8, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Initial Enrollment Period',
-        paragraphs: [
-          'Updated on September 8, 2023',
-          'Your [Medicare Initial Enrollment Period](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) is your first and best opportunity to [sign up for](/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-initial-enrollment-period", "when-does-medicare-start", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines"],
-  },  {
     slug: 'original-medicare-vs-medicare-advantage',
     seo: {
       title: 'Medicare Advantage vs. Medicare',
@@ -445,32 +420,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["when-to-switch-medigap-plans-what-you-need-to-know", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-supplement-open-enrollment", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f"],
-  },
-  {
-    slug: 'all-in-one-medicare-plan',
-    seo: {
-      title: 'All-In-One Medicare Plan',
-      description: 'Find out which all-in-one Medicare plan is right for you. Choose from an all-in-one Medicare Advantage plan, or build your own.',
-      canonical: 'https://www.medicarefaq.com/faqs/all-in-one-medicare-plan/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/all-in-one-medicare-plans.jpg',
-    },
-    title: 'All-In-One Medicare Plan',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'January 16, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Best Medicare Advantage Plans for 2026',
-        paragraphs: [
-          'Updated on January 16, 2024',
-          'When it comes to Medicare, there are [several plan options available](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) for [those eligible for](/faqs/what-is-medicare)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-vs-medicare-advantage", "original-medicare-vs-medicare-advantage", "key-questions-to-ask-when-comparing-medicare-advantage-plans"],
   },
   {
     slug: 'medicare-advantage-5-star-special-enrollment-period',
