@@ -25822,4 +25822,304 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-meals-on-wheels"],
   },
+  /* ─── HOW TRICARE WORKS WITH MEDICARE ─── */
+  {
+    slug: "how-tricare-works-with-medicare",
+    seo: {
+      title: "How TRICARE Works with Medicare in 2026 | MedicareFAQ",
+      description: "TRICARE For Life is Medicare-wraparound coverage for military retirees. Learn how TRICARE and Medicare coordinate benefits, what TFL covers, 2026 costs, and how to avoid gaps in coverage.",
+      canonical: "https://www.medicarefaq.com/faqs/how-tricare-works-with-medicare/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/how-tricare-for-life-works-with-medicare.jpg",
+    },
+    title: "How TRICARE Works with Medicare",
+    subtitle: "Military retirees eligible for both TRICARE and Medicare can use TRICARE For Life as wraparound coverage — often resulting in $0 out-of-pocket costs for covered services.",
+    category: "Medicare FAQ",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "TRICARE For Life (TFL) is Medicare-wraparound coverage for military retirees who have both Medicare Part A and Part B. Medicare pays first; TRICARE For Life pays second, covering most remaining costs. When both Medicare and TRICARE cover a service, you typically pay $0 out-of-pocket. TFL has no enrollment fee or premium — you only pay your Medicare Part B premium ($185.00/month in 2026). The TFL catastrophic cap is $3,000/year.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "TRICARE For Life", status: "covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "TRICARE For Life (TFL)",
+        coverage: "Medicare-wraparound; Medicare pays first, TFL pays second",
+        icon: "shield-check",
+        notes: "$0 out-of-pocket when both Medicare and TRICARE cover the service; $3,000 catastrophic cap; no TFL premium",
+      },
+      {
+        planType: "TRICARE Prime",
+        coverage: "Primary coverage for active duty and some retirees under 65",
+        icon: "info",
+        notes: "Not available to Medicare-eligible retirees; must switch to TFL at Medicare eligibility",
+      },
+      {
+        planType: "Medicare Advantage + TRICARE",
+        coverage: "MA is primary; TFL is secondary for TRICARE-covered services",
+        icon: "info",
+        notes: "MA claims don't automatically cross over to TFL; may require manual claim submission",
+      },
+      {
+        planType: "Medicare Only (No TFL)",
+        coverage: "Medicare pays 80%; you pay 20% + deductible",
+        icon: "alert-triangle",
+        notes: "Losing TRICARE eligibility means losing TFL; keep DEERS record current",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is TRICARE For Life?",
+        icon: "shield",
+        iconColor: "text-blue-600",
+        coverageLabel: "Medicare Wraparound Coverage",
+        coverageType: "covered",
+        paragraphs: [
+          "TRICARE For Life (TFL) is a Medicare-wraparound benefit available to TRICARE-eligible beneficiaries who have both Medicare Part A and Part B. It is available regardless of age or place of residence — including overseas.",
+          "TFL has no enrollment fee or monthly premium. You simply need to maintain your Medicare Part B enrollment and keep your Defense Enrollment Eligibility Reporting System (DEERS) record current.",
+        ],
+        whatItCovers: [
+          "All TRICARE-eligible military retirees, their dependents, and survivors who have Medicare Part A and Part B",
+          "Retired uniformed service members (Army, Navy, Air Force, Marine Corps, Coast Guard, Space Force, NOAA, PHS)",
+          "Medicare-eligible dependents of active duty and retired service members",
+          "Survivors of deceased service members who are Medicare-eligible",
+          "Available worldwide — including overseas where Medicare typically does not pay",
+        ],
+        whatItDoesntCover: [
+          "Active duty service members (covered by TRICARE Prime)",
+          "TRICARE-eligible individuals who have not enrolled in Medicare Part B",
+        ],
+        callout: {
+          type: "tip",
+          title: "Must Have Medicare Part B",
+          text: "You must enroll in Medicare Part B to keep TRICARE For Life. If you drop Part B, you lose TFL coverage. The $185.00/month Part B premium is the only cost to maintain TFL.",
+        },
+      },
+      {
+        planName: "How Medicare and TRICARE Coordinate Benefits",
+        icon: "refresh-cw",
+        iconColor: "text-teal-600",
+        coverageLabel: "Coordination of Benefits",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare is always the primary payer; TRICARE For Life is always the secondary payer. The coordination depends on what type of provider you see and what services are covered.",
+        ],
+        whatItCovers: [
+          "Both Medicare and TRICARE cover the service: Medicare pays its share first; TFL pays the remaining cost-share and deductible → $0 out-of-pocket for you",
+          "Only Medicare covers the service: Medicare pays; you pay the Medicare deductible and 20% cost-share; TFL pays nothing",
+          "Only TRICARE covers the service (e.g., overseas care): TRICARE processes as primary payer; you pay applicable TRICARE deductible and cost-share",
+          "Neither covers the service: You are responsible for the entire bill",
+          "Medicare opt-out providers: Medicare pays nothing; TRICARE pays up to 20% of the TRICARE-allowable charge; you pay the rest",
+        ],
+        whatItDoesntCover: [],
+        callout: {
+          type: "info",
+          title: "Claims Are Automatic",
+          text: "When you see a Medicare participating provider, claims automatically cross over from Medicare to TRICARE. You typically do not need to file a separate TRICARE claim.",
+        },
+      },
+      {
+        planName: "2026 TRICARE For Life Costs",
+        icon: "dollar-sign",
+        iconColor: "text-green-600",
+        coverageLabel: "2026 Cost Summary",
+        coverageType: "covered",
+        paragraphs: [
+          "TFL has no enrollment fee or premium beyond the Medicare Part B premium. Your out-of-pocket costs depend on the type of service and whether it is covered by Medicare, TRICARE, both, or neither.",
+        ],
+        whatItCovers: [
+          "TFL premium: $0 (no enrollment fee)",
+          "Medicare Part B premium: $185.00/month (2026 standard rate)",
+          "Services covered by both Medicare and TRICARE: $0 out-of-pocket",
+          "TFL catastrophic cap: $3,000/calendar year (after which TFL covers 100% of TRICARE-covered services)",
+          "Pharmacy: Covered through the TRICARE Pharmacy Program (generic $0 at military pharmacy, $14 at retail network)",
+          "TRICARE deductible (for TRICARE-only services): $150/individual, $300/family (E-4 and above)",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Medicare or TRICARE — you pay 100%",
+          "Medicare opt-out provider charges above TRICARE-allowable amount",
+        ],
+      },
+      {
+        planName: "TRICARE For Life vs. Medicare Advantage",
+        icon: "git-compare",
+        iconColor: "text-purple-600",
+        coverageLabel: "TFL vs. MA Plan Comparison",
+        coverageType: "partial",
+        paragraphs: [
+          "Military retirees with TFL can also enroll in a Medicare Advantage plan, but the interaction is more complex than with Original Medicare.",
+        ],
+        whatItCovers: [
+          "You can keep TFL if you enroll in a Medicare Advantage plan",
+          "The MA plan becomes your primary payer (instead of Original Medicare)",
+          "TFL is secondary for TRICARE-covered services",
+          "MA claims do not automatically cross over to TRICARE — you may need to submit claims manually",
+          "Some MA plans offer additional benefits (dental, vision, hearing) that TFL does not cover",
+        ],
+        whatItDoesntCover: [
+          "MA network restrictions may limit your provider choices compared to Original Medicare + TFL",
+          "Automatic claims crossover does not work with MA plans — extra administrative burden",
+          "Most TFL beneficiaries find Original Medicare + TFL simpler and more cost-effective than MA + TFL",
+        ],
+        callout: {
+          type: "warning",
+          title: "MA + TFL Is More Complex",
+          text: "Most military retirees are better served by Original Medicare + TRICARE For Life than by switching to a Medicare Advantage plan. MA claims don't automatically cross over to TFL, and MA network restrictions may reduce your provider access.",
+        },
+      },
+      {
+        planName: "Overseas Coverage with TRICARE For Life",
+        icon: "globe",
+        iconColor: "text-amber-600",
+        coverageLabel: "International Coverage",
+        coverageType: "partial",
+        paragraphs: [
+          "One of TFL's most valuable features is overseas coverage. Medicare generally does not pay for care outside the U.S. and its territories, but TRICARE For Life does.",
+        ],
+        whatItCovers: [
+          "When Medicare doesn't cover overseas care, TRICARE processes the claim as the primary payer",
+          "You pay the applicable TRICARE deductible and cost-share",
+          "TRICARE network providers overseas offer lower out-of-pocket costs",
+          "Overseas pharmacy coverage through TRICARE Pharmacy Program",
+        ],
+        whatItDoesntCover: [
+          "Care not covered by TRICARE overseas — you pay 100%",
+          "TRICARE-allowable charge limits apply; charges above the allowable amount are your responsibility",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 TRICARE For Life Cost Summary",
+      headers: ["Scenario", "Medicare Pays", "TRICARE For Life Pays", "Your Cost"],
+      rows: [
+        { "Scenario": "Both Medicare & TRICARE cover service (participating provider)", "Medicare Pays": "80% of approved amount", "TRICARE For Life Pays": "Remaining 20% + deductible", "Your Cost": "$0" },
+        { "Scenario": "Only Medicare covers service", "Medicare Pays": "80% of approved amount", "TRICARE For Life Pays": "$0", "Your Cost": "20% + Medicare deductible" },
+        { "Scenario": "Only TRICARE covers service (e.g., overseas)", "Medicare Pays": "$0", "TRICARE For Life Pays": "TRICARE-allowable charge", "Your Cost": "TRICARE deductible + cost-share" },
+        { "Scenario": "Medicare opt-out provider", "Medicare Pays": "$0", "TRICARE For Life Pays": "Up to 20% of TRICARE-allowable", "Your Cost": "Remaining balance" },
+        { "Scenario": "Neither Medicare nor TRICARE covers", "Medicare Pays": "$0", "TRICARE For Life Pays": "$0", "Your Cost": "100% of bill" },
+        { "Scenario": "After $3,000 catastrophic cap", "Medicare Pays": "Normal share", "TRICARE For Life Pays": "100% of TRICARE-covered services", "Your Cost": "$0 for TRICARE-covered services" },
+      ],
+      footnote: "Part B premium: $185.00/month (2026). TFL catastrophic cap: $3,000/year. TRICARE deductible (E-4+): $150/individual, $300/family.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Notes",
+      items: [
+        {
+          title: "DEERS Enrollment Is Required",
+          text: "You must be enrolled in the Defense Enrollment Eligibility Reporting System (DEERS) to use TRICARE For Life. Keep your DEERS record current — especially after marriage, divorce, or a dependent's change in status. Call 1-800-538-9552 to update DEERS.",
+          highlight: "Keep DEERS current or you may lose TFL access.",
+        },
+        {
+          title: "Losing TRICARE Eligibility Means Losing TFL",
+          text: "If you lose your TRICARE eligibility (e.g., divorce from a service member, certain criminal convictions), you also lose TRICARE For Life. You would then need to find alternative supplemental coverage such as a Medigap plan.",
+        },
+        {
+          title: "Part D and TRICARE Pharmacy",
+          text: "TRICARE's pharmacy benefit is considered creditable coverage for Medicare Part D. You do not need to enroll in a separate Part D plan if you have TFL — and you won't face a Part D late enrollment penalty as long as you maintain TRICARE coverage.",
+          highlight: "TRICARE pharmacy = creditable Part D coverage. No Part D penalty.",
+        },
+        {
+          title: "Medigap and TRICARE For Life",
+          text: "You generally do not need a Medigap (Medicare Supplement) plan if you have TRICARE For Life. TFL already acts as wraparound coverage similar to Medigap Plan F or G. Purchasing both would be redundant and wasteful.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "2026 TRICARE & Medicare Updates",
+      items: [
+        {
+          title: "TFL Catastrophic Cap Remains $3,000 in 2026",
+          status: "Passed",
+          description: "The TRICARE For Life catastrophic cap remains at $3,000/calendar year in 2026, providing a hard limit on out-of-pocket costs for TFL beneficiaries.",
+        },
+        {
+          title: "Medicare Part B Premium Increased to $185.00 in 2026",
+          status: "Passed",
+          description: "The standard Medicare Part B premium increased to $185.00/month in 2026 (from $174.70 in 2025). This is the only premium TFL beneficiaries must pay to maintain TFL coverage.",
+        },
+        {
+          title: "TRICARE Pharmacy Costs Updated for 2026–2027",
+          status: "Passed",
+          description: "TRICARE pharmacy costs were updated for 2026 and 2027. Generic drugs at military pharmacies remain $0; retail network generics are $14/fill.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "TRICARE For Life Enrollment Checklist",
+      paragraphs: [
+        "Use this checklist to ensure your TRICARE For Life coverage is active and properly coordinated with Medicare.",
+      ],
+      checklist: {
+        title: "Action Steps",
+        items: [
+          "Enroll in Medicare Part A and Part B at age 65 (or when you become Medicare-eligible) to activate TFL",
+          "Verify your DEERS record is current at milConnect.dmdc.osd.mil or call 1-800-538-9552",
+          "Do NOT drop Medicare Part B — losing Part B means losing TRICARE For Life",
+          "When seeing a provider, use your Medicare card first; TFL will automatically receive the crossover claim",
+          "For overseas care, use your TRICARE ID card; submit claims to WPS Government Services if needed",
+          "Do not enroll in a separate Part D plan — TRICARE pharmacy is creditable coverage",
+          "Consider whether a Medigap plan is needed — most TFL beneficiaries do not need one",
+          "If you enroll in Medicare Advantage, be aware that TFL claims will not automatically cross over",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "Do I need to pay a premium for TRICARE For Life?",
+        answer: "No. TFL has no enrollment fee or premium. You only pay the Medicare Part B premium ($185.00/month in 2026) to maintain TFL coverage.",
+      },
+      {
+        question: "Does TRICARE For Life cover what Medicare doesn't?",
+        answer: "When both Medicare and TRICARE cover a service, TFL pays the remaining cost-share so you pay $0. For services only TRICARE covers (like overseas care), TFL acts as the primary payer.",
+      },
+      {
+        question: "Do I need a Medigap plan if I have TRICARE For Life?",
+        answer: "No. TFL already acts as wraparound coverage similar to Medigap. Purchasing both would be redundant.",
+      },
+      {
+        question: "Do I need a Part D plan if I have TRICARE?",
+        answer: "No. TRICARE's pharmacy benefit is creditable coverage for Part D. You won't face a late enrollment penalty as long as you maintain TRICARE.",
+      },
+      {
+        question: "What happens to my TRICARE if I enroll in Medicare Advantage?",
+        answer: "You keep TFL, but the MA plan becomes primary. TFL claims won't automatically cross over — you may need to submit claims manually. Most TFL beneficiaries find Original Medicare + TFL simpler.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "TFL has no premium — only pay Medicare Part B ($185/month in 2026)" },
+      { icon: "check", text: "$0 out-of-pocket when both Medicare and TRICARE cover the service" },
+      { icon: "alert", text: "Must keep Medicare Part B — dropping it means losing TRICARE For Life" },
+      { icon: "info", text: "TFL catastrophic cap: $3,000/year" },
+      { icon: "check", text: "TRICARE pharmacy = creditable Part D coverage; no separate Part D plan needed" },
+    ],
+    relatedTopics: [
+      { title: "TRICARE, VA & Medicare", description: "How all three programs intersect.", slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare" },
+      { title: "Medicare and VA Benefits", description: "Using VA benefits alongside Medicare.", slug: "medicare-and-va-benefits" },
+      { title: "Medigap vs. MA for Veterans", description: "Choosing the right supplemental coverage.", slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage" },
+      { title: "Dual Residency and Medicare", description: "How dual residency affects Medicare.", slug: "how-dual-residency-and-medicare-works" },
+    ],
+    sidebarRelatedLinks: ["TRICARE & VA", "VA Benefits", "Medigap vs. MA for Veterans", "Dual Residency"],
+    ctaBanner: {
+      title: "Questions About TRICARE and Medicare?",
+      text: "Our licensed agents can help military retirees understand how TRICARE For Life coordinates with Medicare and find the right coverage options.",
+    },
+    relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-and-va-benefits", "how-dual-residency-and-medicare-works", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage"],
+  },
 ];

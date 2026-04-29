@@ -535,32 +535,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "25-medicare-qas-you-should-know", "full-retirement-age", "what-is-medicare"],
   },
   {
-    slug: 'how-tricare-works-with-medicare',
-    seo: {
-      title: 'How TRICARE Works with Medicare',
-      description: 'Beneficiaries eligible for both TRICARE For Life and Medicare should understand how the two work together.',
-      canonical: 'https://www.medicarefaq.com/faqs/how-tricare-works-with-medicare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/how-tricare-for-life-works-with-medicare.jpg',
-    },
-    title: 'How TRICARE Works with Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'December 4, 2023',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare and VA Benefits',
-        paragraphs: [
-          'Updated on December 4, 2023',
-          'Serving in the American armed forces provides our nation’s heroes with various [benefits](/blog/5-government-benefits-for-seniors) from the...',
-        ],
-      },
-    ],
-    relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-and-va-benefits", "how-dual-residency-and-medicare-works", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage"],
-  },
-  {
     slug: 'medicare-cobra',
     seo: {
       title: 'Is COBRA Creditable Coverage for Medicare',
