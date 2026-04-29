@@ -748,32 +748,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplements-cost-vs-value-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
-    slug: 'medicare-benefits',
-    seo: {
-      title: 'Can You Lose Your Medicare Benefits?',
-      description: 'Medicare may be easier to lose than you think. Here are a few scenarios that can cause you to lose your benefits or eligibility for Medicare.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-benefits/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/can-you-lose-your-medicare-benefits.jpg',
-    },
-    title: 'Can You Lose Your Medicare Benefits?',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'March 28, 2022',
-    author: 'Jagger Esch',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Coverage for Disabled Under 65',
-        paragraphs: [
-          'Updated on March 28, 2022',
-          'If you\'re under 65 and [disabled](/faqs/medicare-for-disabled-individuals), once you\'ve collected [Social Security benefits](/faqs/differences-between-medicare-and-social-security) for 24 months,...',
-        ],
-      },
-    ],
-    relatedSlugs: ["delay-medicare", "can-you-be-denied-a-medicare-supplement-plan", "is-medicare-mandatory", "when-does-medicare-start"],
-  },
-  {
     slug: 'who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules',
     seo: {
       title: 'Who Can Speak on Your Behalf? Medicare and Power of Attorney Rules',

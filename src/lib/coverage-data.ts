@@ -21868,4 +21868,296 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["medicare-prior-authorization", "medicare-coverage-for-skilled-nursing-facilities", "medicare-benefits", "understanding-medicare-assignment-what-it-means-for-your-costs"],
   },
+  /* ─── Can You Lose Your Medicare Benefits? ─── */
+  {
+    slug: "medicare-benefits",
+    seo: {
+      title: "Can You Lose Your Medicare Benefits? | MedicareFAQ",
+      description: "Learn the scenarios that can cause you to lose Medicare benefits, including non-payment, fraud, disability recovery, and moving. Plus how to protect your coverage.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-benefits/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/can-you-lose-your-medicare-benefits.jpg",
+    },
+    title: "Can You Lose Your Medicare Benefits?",
+    subtitle: "Understanding the scenarios that could put your Medicare coverage at risk — and how to prevent them.",
+    category: "Medicare Eligibility",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is a licensed insurance agent and founder of MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "While Medicare coverage is typically permanent once you turn 65, there are specific scenarios where you can lose benefits — including non-payment of premiums, fraud, disability recovery, and moving outside your plan area.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Part D", status: "partial" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Original Medicare (A & B)",
+        coverage: "Rarely lost if age-eligible; non-payment or fraud can terminate",
+        icon: "shield-check",
+        notes: "Age-based eligibility is permanent; disability-based can end",
+      },
+      {
+        planType: "Medicare Advantage (Part C)",
+        coverage: "Can be lost by moving, non-payment, fraud, or plan termination",
+        icon: "alert-triangle",
+        notes: "Plan service areas are geographically limited",
+      },
+      {
+        planType: "Part D (Prescription Drugs)",
+        coverage: "Can be lost by non-payment or plan non-renewal",
+        icon: "alert-triangle",
+        notes: "Late enrollment penalty applies if gap exceeds 63 days",
+      },
+      {
+        planType: "Medigap (Supplement)",
+        coverage: "Can be lost if underlying Medicare is terminated",
+        icon: "info",
+        notes: "Medigap requires active Part A and Part B",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Non-Payment of Premiums",
+        icon: "dollar-sign",
+        iconColor: "text-red-600",
+        coverageLabel: "Coverage at Risk",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Failing to pay your Medicare premiums is the most common way to lose coverage. Part B premiums ($185/month in 2025) are due on the 25th of each month. If you owe Part A premiums, those must also be paid on time.",
+          "After a missed payment, you'll receive a delinquent notice with a deadline. A third delinquent notice means your coverage will terminate if you don't pay the past-due amount.",
+        ],
+        whatItCovers: [
+          "90-day grace period before termination",
+          "Opportunity to pay past-due amounts to restore coverage",
+          "Automatic deduction from Social Security reduces risk",
+        ],
+        whatItDoesntCover: [
+          "No protection if balance exceeds $10 past due after third notice",
+          "Medigap and Part D also terminate if Medicare ends",
+          "Reinstatement may require waiting for enrollment periods",
+        ],
+        callout: {
+          type: "tip",
+          title: "Prevention Tip",
+          text: "Set up automatic premium deduction from your Social Security check to avoid missed payments.",
+        },
+      },
+      {
+        planName: "Medicare Fraud or Disruptive Behavior",
+        icon: "shield-alert",
+        iconColor: "text-red-700",
+        coverageLabel: "Coverage Terminated",
+        coverageType: "not-covered",
+        paragraphs: [
+          "Any form of Medicare fraud — including letting someone else use your Medicare card, participating in kickback schemes, or phantom billing — will result in coverage termination.",
+          "Medicare Advantage plans can also disenroll members for 'disruptive behavior' that substantially impairs the plan's ability to provide services. This requires three written notices before disenrollment.",
+        ],
+        whatItCovers: [
+          "Three written notices required before MA disenrollment",
+          "Right to appeal a disruptive behavior determination",
+          "Original Medicare fraud requires formal investigation",
+        ],
+        whatItDoesntCover: [
+          "No protection if fraud is proven",
+          "Criminal penalties may also apply",
+          "Cannot re-enroll after fraud-based termination",
+        ],
+      },
+      {
+        planName: "Disability Recovery or Return to Work",
+        icon: "heart-pulse",
+        iconColor: "text-amber-600",
+        coverageLabel: "May End After Extended Period",
+        coverageType: "partial",
+        paragraphs: [
+          "If you qualify for Medicare due to disability (under 65), your coverage can end if your condition improves. However, you keep Medicare for at least 93 months (about 8.5 years) after returning to work under the Ticket to Work program.",
+          "For ESRD (End-Stage Renal Disease) patients, Medicare coverage ends 12 months after dialysis stops or 36 months after a successful kidney transplant.",
+        ],
+        whatItCovers: [
+          "93 months of continued Medicare after returning to work",
+          "Trial work period (9 months) with full benefits",
+          "ESRD coverage continues during active treatment",
+        ],
+        whatItDoesntCover: [
+          "Coverage ends if disability determination is reversed",
+          "ESRD-only Medicare ends 12 months after stopping dialysis",
+          "No automatic reinstatement after termination",
+        ],
+        callout: {
+          type: "info",
+          title: "ESRD Note",
+          text: "If you have Medicare due to ESRD and turn 65, your coverage converts to age-based eligibility and becomes permanent.",
+        },
+      },
+      {
+        planName: "Moving Outside Your Plan Area",
+        icon: "map-pin",
+        iconColor: "text-blue-600",
+        coverageLabel: "Plan-Specific Risk",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Advantage and Part D plans have geographic service areas. Moving outside your plan's area means you must switch plans or return to Original Medicare.",
+          "You'll receive a Special Enrollment Period (SEP) that begins the month before your move and lasts two months after. If you don't act, your MA plan will eventually disenroll you.",
+        ],
+        whatItCovers: [
+          "Special Enrollment Period triggered by move",
+          "Can switch to new MA plan or Original Medicare",
+          "Original Medicare (Part A & B) is nationwide",
+        ],
+        whatItDoesntCover: [
+          "MA plan cannot follow you outside service area",
+          "Part D plan may not be available in new area",
+          "Medigap guaranteed issue rights may be limited",
+        ],
+      },
+      {
+        planName: "Plan Non-Renewal or Termination",
+        icon: "file-x",
+        iconColor: "text-gray-600",
+        coverageLabel: "Requires Action",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Advantage and Part D plans can be terminated by CMS or the insurer may choose not to renew their contract. If this happens, you must select a new plan or switch to Original Medicare.",
+          "You'll receive advance notice and a Special Enrollment Period to make changes. Your underlying Original Medicare eligibility is not affected.",
+        ],
+        whatItCovers: [
+          "Advance notice of plan termination",
+          "Special Enrollment Period to choose new coverage",
+          "Original Medicare eligibility remains intact",
+        ],
+        whatItDoesntCover: [
+          "No guarantee your new plan has same benefits",
+          "Network of doctors may change with new plan",
+          "Prescription formulary may differ",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Financial Consequences of Losing Medicare",
+      headers: ["Scenario", "Financial Impact", "Recovery Option"],
+      rows: [
+        { Scenario: "Non-payment termination", "Financial Impact": "No coverage for medical expenses", "Recovery Option": "Re-enroll during General Enrollment (Jan–Mar)" },
+        { Scenario: "Part B late penalty", "Financial Impact": "10% surcharge per year without coverage", "Recovery Option": "Penalty is permanent — lasts as long as you have Part B" },
+        { Scenario: "Part D coverage gap (63+ days)", "Financial Impact": "1% penalty per month without creditable coverage", "Recovery Option": "Penalty is permanent — added to monthly premium" },
+        { Scenario: "MA plan disenrollment", "Financial Impact": "Reverts to Original Medicare (no supplemental)", "Recovery Option": "Enroll in new MA plan during next enrollment period" },
+        { Scenario: "Medigap loss (after 6-month window)", "Financial Impact": "May be denied or charged more for new policy", "Recovery Option": "Limited guaranteed issue rights in certain situations" },
+      ],
+      footnote: "Late enrollment penalties for Part B and Part D are permanent surcharges added to your monthly premium for as long as you have coverage.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Protections",
+      items: [
+        {
+          title: "Age-Based Eligibility Is Permanent",
+          text: "If you qualify for Medicare at age 65 based on work history (40+ quarters of Medicare taxes), your Part A eligibility cannot be revoked. You can only lose coverage through non-payment or voluntary termination.",
+          highlight: "Once eligible by age, Part A eligibility is permanent.",
+        },
+        {
+          title: "Guaranteed Issue Rights After Plan Loss",
+          text: "If you lose Medicare Advantage or Medigap coverage through no fault of your own (plan termination, moving), you have guaranteed issue rights to purchase a new Medigap policy without medical underwriting.",
+        },
+        {
+          title: "Voluntary Termination Is Reversible",
+          text: "If you voluntarily drop Part B, you can re-enroll during the General Enrollment Period (January 1 – March 31), though a late enrollment penalty may apply.",
+        },
+        {
+          title: "Employer Coverage Coordination",
+          text: "Delaying Medicare enrollment while covered by an employer group health plan does not result in penalties, as long as you enroll within 8 months of leaving employer coverage.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Policy Updates",
+      items: [
+        {
+          title: "Medicare Advantage Stability Rule (2025)",
+          status: "Passed",
+          description: "CMS finalized rules requiring MA plans to give at least 90 days notice before exiting a service area, giving beneficiaries more time to find alternative coverage.",
+        },
+        {
+          title: "Disability Medicare Improvement Act",
+          status: "Proposed",
+          description: "Would extend the Medicare continuation period for disabled workers returning to employment from 93 months to 120 months.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Protect Your Medicare Benefits",
+      paragraphs: [
+        "Most scenarios that lead to losing Medicare are preventable. Taking proactive steps ensures your coverage remains intact and avoids costly penalties.",
+      ],
+      checklist: {
+        title: "Steps to Protect Your Coverage",
+        items: [
+          "Set up automatic premium payments through Social Security deduction",
+          "Never share your Medicare card or number with others",
+          "Notify your plan immediately if you move to a new address",
+          "Review your Annual Notice of Change (ANOC) letter each September",
+          "Keep employer coverage documentation if delaying Medicare enrollment",
+          "Contact 1-800-MEDICARE if you receive a termination notice you don't understand",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "Can I lose Medicare if I move to another state?",
+        answer: "Your Original Medicare (Part A and B) works nationwide, so moving states won't affect it. However, Medicare Advantage and Part D plans have service areas — you'll need to switch plans if you move outside yours.",
+      },
+      {
+        question: "What happens if I can't afford my Part B premium?",
+        answer: "Contact your State Health Insurance Assistance Program (SHIP) or apply for a Medicare Savings Program. These programs can pay your premiums if you meet income requirements.",
+      },
+      {
+        question: "Can Medicare be taken away once I turn 65?",
+        answer: "If you're eligible based on age (65+) and work history, your Part A eligibility is permanent. You can only lose active coverage through non-payment of premiums or voluntary termination.",
+      },
+      {
+        question: "What if my Medicare Advantage plan leaves my area?",
+        answer: "You'll receive advance notice and a Special Enrollment Period to join a new MA plan or switch to Original Medicare. You also get guaranteed issue rights for Medigap.",
+      },
+      {
+        question: "Does going back to work affect my Medicare?",
+        answer: "If you're under 65 with disability-based Medicare, you keep coverage for 93 months after returning to work. If you're 65+, working doesn't affect your Medicare eligibility.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Age-based Medicare eligibility (65+) is permanent and cannot be revoked" },
+      { icon: "alert", text: "Non-payment of premiums can terminate all Medicare coverage after 90 days" },
+      { icon: "x", text: "Medicare fraud results in immediate termination and potential criminal charges" },
+      { icon: "info", text: "Disability-based Medicare continues 93 months after returning to work" },
+      { icon: "dollar", text: "Late enrollment penalties are permanent surcharges on your monthly premium" },
+    ],
+    relatedTopics: [
+      { title: "Delaying Medicare Enrollment", description: "When it's safe to delay and when penalties apply.", slug: "delay-medicare" },
+      { title: "Medicare Enrollment Periods", description: "All the windows for enrolling in or changing Medicare coverage.", slug: "medicare-enrollment-periods" },
+      { title: "Medicare for Disabled Individuals", description: "How disability-based Medicare works and eligibility rules.", slug: "medicare-for-disabled-individuals" },
+      { title: "Is Medicare Mandatory?", description: "Whether you're required to enroll in Medicare at 65.", slug: "is-medicare-mandatory" },
+    ],
+    sidebarRelatedLinks: [
+      "Delaying Medicare",
+      "Medicare Enrollment Periods",
+      "Medicare for Disabled",
+      "Is Medicare Mandatory",
+    ],
+    ctaBanner: {
+      title: "Worried About Losing Medicare Coverage?",
+      text: "Our licensed agents can help you understand your options, avoid penalties, and ensure your coverage stays intact. Get personalized guidance at no cost.",
+    },
+    relatedSlugs: ["delay-medicare", "medicare-enrollment-periods", "medicare-for-disabled-individuals", "is-medicare-mandatory"],
+  },
 ];
