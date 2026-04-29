@@ -9,32 +9,6 @@ import type { SimpleFAQArticleData } from "@/lib/article-types";
 export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   // does-medicare-cover-an-echocardiogram moved to coverage-data.ts (CoverageArticleContent format)
   {
-    slug: 'medicare-changes',
-    seo: {
-      title: 'New Medicare Changes for 2026',
-      description: '2026 brings many changes to Medicare and not all are cost-related. Options are expanding for Advantage plans, telehealth, and more.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-changes/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/new-medicare-changes-for-2023.jpg',
-    },
-    title: 'New Medicare Changes for 2026',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '5 Ways to Reduce Your Medicare Premiums',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          'There are many ways you can [reduce your [Medicare premiums](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes)](/faqs/reduce-medicare-premiums). Almost everyone pays a premium...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
-  },
-  {
     slug: 'original-medicare-vs-medicare-advantage',
     seo: {
       title: 'Medicare Advantage vs. Medicare',

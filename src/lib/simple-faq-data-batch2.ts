@@ -535,32 +535,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period", "5-things-to-do-after-you-receive-your-medicare-card"],
   },
   {
-    slug: 'dental-and-vision-insurance-for-seniors',
-    seo: {
-      title: 'Dental, Vision, and Hearing Insurance for Seniors with Medicare',
-      description: 'Dental and vision insurance for seniors is essential, as Original Medicare does not cover these services. Learn about your options here.',
-      canonical: 'https://www.medicarefaq.com/faqs/dental-and-vision-insurance-for-seniors/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/dental-vision-and-hearing-insurance-for-seniors-with-medicare.jpg',
-    },
-    title: 'Dental, Vision, and Hearing Insurance for Seniors with Medicare',
-    summary: '',
-    category: 'Dental, Vision & Hearing',
-    dateUpdated: 'August 10, 2023',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Hearing Aids',
-        paragraphs: [
-          'Updated on August 10, 2023',
-          'As we age, it’s common to [lose at least some hearing ability](/faqs/does-medicare-cover-hearing-aids). [Many beneficiaries wonder](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-dental-implants", "does-medicare-cover-glasses", "does-medicare-cover-hearing-aids"],
-  },
-  {
     slug: 'what-to-do-with-medicare-if-youre-moving-medicare-change-of-address',
     seo: {
       title: 'What to Do With Medicare if You’re Moving: Medicare Change of Address',

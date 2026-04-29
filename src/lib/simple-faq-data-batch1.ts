@@ -397,33 +397,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-secondary-insurance", "medicare-and-workers-comp"],
   },
-  {
-    slug: 'medicare-and-va-benefits',
-    seo: {
-      title: 'Medicare and VA Benefits',
-      description: 'Medicare and Veterans (VA) benefits coverage are common questions. You can have both types of health insurance at the same time and benefit from doing so.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-and-va-benefits/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/do-i-need-medicare-if-i-have-va-benefits.jpg',
-    },
-    title: 'Medicare and VA Benefits',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 16, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'FEHB and Medicare',
-        paragraphs: [
-          'Updated on February 16, 2026',
-          'If you have [Federal Employee Health Benefits (FEHB)](/faqs/fehb-and-medicare), you may be wondering [how your FEHB](/blog/understanding-how-medicare-works-with-employer-health-plans)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage", "how-tricare-works-with-medicare", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
-  },
-  {
     slug: 'state-specific-medicare-rules',
     seo: {
       title: 'Can Medicare Be Used in Any State?',
