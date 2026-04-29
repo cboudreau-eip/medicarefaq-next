@@ -642,32 +642,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-meals-on-wheels"],
   },
   {
-    slug: 'medicare-low-income-subsidy',
-    seo: {
-      title: 'Low-Income Subsidies and Medicare',
-      description: 'Depending on your income, and Medicare eligibility, you may qualify for a low-income subsidy. Learn more about your options here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/low-income-subsidies-and-medicare.jpeg',
-    },
-    title: 'Low-Income Subsidies and Medicare',
-    summary: '',
-    category: 'Medicaid & Assistance',
-    dateUpdated: 'December 4, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare and VA Benefits',
-        paragraphs: [
-          'Updated on December 4, 2023',
-          'Serving in the American [armed forces](/blog/understanding-the-intersection-of-tricare-va-benefits-and-medicare) provides our nation’s heroes with [various benefits](/blog/5-government-benefits-for-seniors) from the...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-extra-help-program", "qualified-medicare-beneficiary-program", "how-can-seniors-save-on-prescription-drug-costs"],
-  },
-  {
     slug: 'irmaa',
     seo: {
       title: 'IRMAA: What is IRMAA in Medicare?',

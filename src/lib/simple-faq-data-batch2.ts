@@ -1099,33 +1099,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
   },
-
-  {
-    slug: 'medicare-secondary-insurance',
-    seo: {
-      title: 'Medicare Secondary Insurance',
-      description: 'Secondary insurance Medicare plans are beneficial for those who wish to be protected from unexpected medical costs when original Medicare doesn’t cover 100%.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-secondary-insurance/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-secondary-insurance.jpg',
-    },
-    title: 'Medicare Secondary Insurance',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'May 21, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Is Medicare Mandatory?',
-        paragraphs: [
-          'Updated on May 21, 2024',
-          'For most, Medicare isn’t mandatory, but there are a lot of [variables](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) you’ll want to...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-and-workers-comp", "understanding-how-medicare-works-with-employer-health-plans", "when-is-medicare-primary", "medicare-and-retiree-insurance"],
-  },
   {
     slug: 'medicare-vs-medicaid',
     seo: {

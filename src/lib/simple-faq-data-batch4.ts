@@ -35,31 +35,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
   },
   {
-    slug: 'medicare-beneficiary-identifiers',
-    seo: {
-      title: 'Medicare Cards & Medicare Beneficiary Identifiers',
-      description: 'Find out what you need to know about the Medicare Beneficiary Identifier, and find answers to common Medicare card questions here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-beneficiary-identifiers/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-cards-and-medicare-beneficiary-identifiers.jpg',
-    },
-    title: 'Medicare Cards & Medicare Beneficiary Identifiers',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'What is a Medicare beneficiary information?',
-        ],
-      },
-    ],
-    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "applying-for-medicare", "medicare-starter-guide-what-to-do-in-your-first-90-days", "report-medicare-fraud"],
-  },
-  {
     slug: 'delay-medicare',
     seo: {
       title: 'The Consequences of Delaying Medicare',
@@ -830,36 +805,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "average-cost-of-medicare-supplement-plans", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters"],
-  },
-  {
-    slug: 'advance-beneficiary-notice',
-    seo: {
-      title: 'Medicare Advance Beneficiary Notice of Noncoverage',
-      description: 'Medicare patients will receive an Advance Beneficiary Notice (ABN) if there is a chance Medicare won\'t cover their service.',
-      canonical: 'https://www.medicarefaq.com/faqs/advance-beneficiary-notice/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-advance-beneficiary-notice-of-noncoverage.jpg',
-    },
-    title: 'Medicare Advance Beneficiary Notice of Noncoverage',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'November 15, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'How to File a Fast Medicare Appeal',
-        paragraphs: [
-          'Updated on November 15, 2021',
-          'If [Medicare denies coverage](/blog/medicare-advantage-denied-claims-crisis) for a healthcare service, item, or medication, you have a right...',
-        ],
-      },
-    ],
-    relatedSlugs: [
-      'medicare-coverage-for-skilled-nursing-facilities',
-      'medicare-prior-authorization',
-      'medicare-benefits',
-    ],
   },
   {
     slug: 'finding-local-doctors-who-accept-medicare',

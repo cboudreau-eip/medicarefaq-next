@@ -22738,4 +22738,821 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["can-you-get-medicare-without-receiving-social-security-benefits", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-for-disabled-individuals", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
+  /* ─── Medicare Low Income Subsidy (Extra Help) ─── */
+  {
+    slug: "medicare-low-income-subsidy",
+    seo: {
+      title: "Medicare Low Income Subsidy (Extra Help): Eligibility & Benefits | MedicareFAQ",
+      description: "The Medicare Low Income Subsidy (LIS), also called Extra Help, reduces Part D drug costs for people with limited income. Learn eligibility, income limits, and how to apply.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/low-income-subsidies-and-medicare.jpeg",
+    },
+    title: "Medicare Low Income Subsidy (Extra Help)",
+    subtitle: "The Low Income Subsidy (LIS), also known as Extra Help, can save Medicare beneficiaries thousands of dollars per year on prescription drug costs.",
+    category: "Medicare Costs",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Extra Help (Low Income Subsidy) is a federal program that helps people with limited income and resources pay for Medicare Part D prescription drug costs, including premiums, deductibles, and copays. In 2026, individuals with monthly income up to $2,015 may qualify.",
+      badges: [
+        { plan: "Part D", status: "covered" },
+        { plan: "Part A", status: "not-covered" },
+        { plan: "Part B", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Full Extra Help (Level 1)",
+        coverage: "$0 premium, $0 deductible, minimal copays",
+        icon: "shield-check",
+        notes: "Auto-enrolled if you have Medicaid, SSI, or Medicare Savings Program",
+      },
+      {
+        planType: "Partial Extra Help (Level 2)",
+        coverage: "Reduced premium, $0 deductible, low copays",
+        icon: "info",
+        notes: "Income between 135%-150% of Federal Poverty Level",
+      },
+      {
+        planType: "Medicare Savings Programs (MSP)",
+        coverage: "Covers Part B premiums; may auto-qualify for Extra Help",
+        icon: "shield-check",
+        notes: "QMB, SLMB, QI programs also reduce Medicare costs",
+      },
+      {
+        planType: "No Extra Help",
+        coverage: "Standard Part D costs apply",
+        icon: "alert-triangle",
+        notes: "Income/resources above the LIS limits",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Extra Help Covers",
+        icon: "pill",
+        iconColor: "text-blue-600",
+        coverageLabel: "Part D Cost Reduction",
+        coverageType: "covered",
+        paragraphs: [
+          "Extra Help pays for most or all of your Medicare Part D prescription drug plan costs. This includes the monthly premium, annual deductible, and copayments or coinsurance for covered drugs.",
+          "Beneficiaries with full Extra Help pay no more than a small copay per prescription \u2014 typically $4.50 for generics and $11.20 for brand-name drugs in 2025.",
+        ],
+        whatItCovers: [
+          "Part D monthly premiums (up to the benchmark amount)",
+          "Part D annual deductible ($0 for full Extra Help)",
+          "Copays: $4.50 generics / $11.20 brand-name (2025, full LIS)",
+          "Coverage gap (donut hole) costs",
+        ],
+        whatItDoesntCover: [
+          "Part A or Part B premiums (covered by Medicare Savings Programs instead)",
+          "Drugs not covered by your Part D plan",
+          "Over-the-counter medications",
+          "Non-drug medical expenses",
+        ],
+        callout: {
+          type: "tip",
+          title: "Automatic Enrollment",
+          text: "If you receive Medicaid, Supplemental Security Income (SSI), or are enrolled in a Medicare Savings Program, you are automatically enrolled in Extra Help. No separate application needed.",
+        },
+      },
+      {
+        planName: "Eligibility: Income & Resource Limits",
+        icon: "dollar-sign",
+        iconColor: "text-green-600",
+        coverageLabel: "2025-2026 Thresholds",
+        coverageType: "partial",
+        paragraphs: [
+          "To qualify for Extra Help, your income and resources must fall below certain limits set by the Social Security Administration. These limits are updated annually.",
+          "For 2026, individuals with monthly income up to $2,015 (or $2,725 for married couples) may qualify. Resource limits are $17,220 for individuals and $34,360 for couples.",
+        ],
+        whatItCovers: [
+          "2026 income limit: $2,015/month individual ($24,180/year)",
+          "2026 income limit: $2,725/month married couple ($32,700/year)",
+          "2026 resource limit: $17,220 individual / $34,360 couple",
+          "Resources exclude: home, car, burial funds, life insurance",
+        ],
+        whatItDoesntCover: [
+          "Income above 150% of Federal Poverty Level generally disqualifies",
+          "Resources include: bank accounts, stocks, bonds, second homes",
+          "Employer pension income counts toward income limits",
+        ],
+      },
+      {
+        planName: "How to Apply for Extra Help",
+        icon: "clipboard-list",
+        iconColor: "text-teal-600",
+        coverageLabel: "Three Ways to Apply",
+        coverageType: "covered",
+        paragraphs: [
+          "You can apply for Extra Help at any time of year through Social Security. There is no open enrollment window \u2014 you can apply whenever you become eligible.",
+          "Once approved, you will receive a notice from Social Security and be able to enroll in or change your Part D plan during a Special Enrollment Period.",
+        ],
+        whatItCovers: [
+          "Online: Apply at ssa.gov/medicare/part-d-extra-help",
+          "Phone: Call Social Security at 1-800-772-1213",
+          "In person: Visit your local Social Security office",
+          "State Medicaid office may also process applications",
+        ],
+        whatItDoesntCover: [
+          "Applications are not processed through Medicare.gov",
+          "SHIP counselors can help but cannot submit on your behalf",
+        ],
+        callout: {
+          type: "info",
+          title: "Special Enrollment Period",
+          text: "When you qualify for Extra Help, you get a Special Enrollment Period to join, switch, or drop a Medicare drug plan once per quarter in the first 9 months of the year.",
+        },
+      },
+      {
+        planName: "Related Medicare Savings Programs",
+        icon: "layers",
+        iconColor: "text-purple-600",
+        coverageLabel: "Additional Cost Help",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Savings Programs (MSPs) are state programs that help pay Medicare Part A and Part B costs. Qualifying for an MSP often automatically qualifies you for Extra Help.",
+          "There are four MSP levels: Qualified Medicare Beneficiary (QMB), Specified Low-Income Medicare Beneficiary (SLMB), Qualifying Individual (QI), and Qualified Disabled and Working Individuals (QDWI).",
+        ],
+        whatItCovers: [
+          "QMB: Pays Part A & B premiums, deductibles, coinsurance",
+          "SLMB: Pays Part B premium only",
+          "QI: Pays Part B premium (limited slots available)",
+          "All MSPs automatically qualify you for Extra Help",
+        ],
+        whatItDoesntCover: [
+          "MSPs don't cover Part D costs directly (Extra Help does)",
+          "QI program has limited funding and may have waitlists",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Extra Help Cost Comparison (2025)",
+      headers: ["Cost Category", "Without Extra Help", "With Full Extra Help"],
+      rows: [
+        { "Cost Category": "Part D Monthly Premium", "Without Extra Help": "$0-$100+ (plan varies)", "With Full Extra Help": "$0 (up to benchmark)"},
+        { "Cost Category": "Annual Deductible", "Without Extra Help": "Up to $590 (2025)", "With Full Extra Help": "$0"},
+        { "Cost Category": "Generic Drug Copay", "Without Extra Help": "Varies by plan tier", "With Full Extra Help": "$4.50 per prescription"},
+        { "Cost Category": "Brand-Name Drug Copay", "Without Extra Help": "Varies by plan tier", "With Full Extra Help": "$11.20 per prescription"},
+        { "Cost Category": "Coverage Gap Costs", "Without Extra Help": "25% of drug cost", "With Full Extra Help": "$0"},
+      ],
+      footnote: "Copay amounts for full Extra Help are set by CMS and updated annually. Partial Extra Help has different copay levels based on income.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Special Situations",
+      items: [
+        {
+          title: "Automatic Qualification",
+          text: "You are automatically enrolled in Extra Help if you receive full Medicaid benefits, Supplemental Security Income (SSI), or are enrolled in a Medicare Savings Program. CMS will notify you by letter.",
+          highlight: "No application needed if you already receive Medicaid or SSI.",
+        },
+        {
+          title: "Deemed Eligible vs. Applied",
+          text: "Beneficiaries who are automatically enrolled ('deemed eligible') receive full Extra Help. Those who apply and qualify based on income/resources may receive full or partial Extra Help depending on their specific situation.",
+        },
+        {
+          title: "Annual Redetermination",
+          text: "SSA reviews your Extra Help eligibility each year. If your income or resources change, your level of assistance may change. You'll receive a notice if your status changes.",
+        },
+        {
+          title: "Benchmark Premium Plans",
+          text: "Extra Help pays your Part D premium up to the 'benchmark' amount for your region. If you choose a plan with a premium above the benchmark, you pay the difference.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Policy Updates",
+      items: [
+        {
+          title: "Inflation Reduction Act \u2014 Expanded Extra Help",
+          status: "Passed",
+          description: "The Inflation Reduction Act (2022) expanded Extra Help eligibility to 150% of the Federal Poverty Level (previously 135%), bringing more low-income beneficiaries into the program starting in 2024.",
+        },
+        {
+          title: "$2,000 Part D Out-of-Pocket Cap (2025)",
+          status: "Passed",
+          description: "Starting in 2025, Medicare Part D has a $2,000 annual out-of-pocket cap. Extra Help beneficiaries continue to pay only their small copays and are not subject to this cap.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Steps to Apply for Extra Help",
+      paragraphs: [
+        "Applying for Extra Help is free and can be done at any time of year. Here's how to get started:",
+      ],
+      checklist: {
+        title: "Application Checklist",
+        items: [
+          "Check your income against the current year's limits at ssa.gov",
+          "Gather documents: Social Security card, bank statements, proof of income",
+          "Apply online at ssa.gov/medicare/part-d-extra-help or call 1-800-772-1213",
+          "Also apply for Medicare Savings Programs through your state Medicaid office",
+          "Once approved, use your Special Enrollment Period to choose a Part D plan",
+          "Contact your State Health Insurance Assistance Program (SHIP) for free help",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "What is the difference between Extra Help and Medicare Savings Programs?",
+        answer: "Extra Help reduces Part D (drug) costs. Medicare Savings Programs reduce Part A and Part B costs like premiums and deductibles. They are separate programs, but qualifying for an MSP usually automatically qualifies you for Extra Help.",
+      },
+      {
+        question: "Can I apply for Extra Help if I'm not yet on Medicare?",
+        answer: "Yes. You can apply up to 3 months before your Medicare Part D coverage begins. SSA will hold your application and process it when your coverage starts.",
+      },
+      {
+        question: "How long does Extra Help last?",
+        answer: "Extra Help is renewed annually. SSA reviews your eligibility each year and sends a notice. As long as your income and resources remain within limits, you'll continue to receive the benefit.",
+      },
+      {
+        question: "Does Extra Help cover Medicare Advantage drug plans?",
+        answer: "Yes. Extra Help applies to Medicare Advantage plans that include drug coverage (MA-PD plans), not just standalone Part D plans.",
+      },
+      {
+        question: "What if my income is slightly above the limit?",
+        answer: "You may still qualify for partial Extra Help, which provides reduced premiums and copays. Also check if your state has a State Pharmaceutical Assistance Program (SPAP) for additional help.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Extra Help reduces Part D premiums, deductibles, and copays for low-income beneficiaries" },
+      { icon: "info", text: "2026 income limit: $2,015/month individual; $2,725/month married couple" },
+      { icon: "check", text: "Medicaid, SSI, and MSP recipients are automatically enrolled \u2014 no application needed" },
+      { icon: "dollar", text: "Full Extra Help copays: $4.50 generics / $11.20 brand-name (2025)" },
+      { icon: "alert", text: "Apply through Social Security at any time \u2014 there is no enrollment window" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Extra Help Program", description: "Detailed guide to the Extra Help program and how to apply.", slug: "medicare-extra-help-program" },
+      { title: "Qualified Medicare Beneficiary Program", description: "How the QMB program helps with Part A and Part B costs.", slug: "qualified-medicare-beneficiary-program" },
+      { title: "Saving on Prescription Drug Costs", description: "Ways seniors can reduce their prescription drug expenses.", slug: "how-can-seniors-save-on-prescription-drug-costs" },
+      { title: "Medicare and Medicaid", description: "How to qualify for and use both Medicare and Medicaid together.", slug: "medicare-vs-medicaid" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Extra Help",
+      "QMB Program",
+      "Saving on Drug Costs",
+      "Medicare and Medicaid",
+    ],
+    ctaBanner: {
+      title: "Could You Qualify for Extra Help?",
+      text: "Our licensed agents can help you determine if you qualify for the Low Income Subsidy and find a Part D plan that maximizes your savings.",
+    },
+    relatedSlugs: ["medicare-extra-help-program", "qualified-medicare-beneficiary-program", "how-can-seniors-save-on-prescription-drug-costs", "medicare-vs-medicaid"],
+  },
+  /* ─── Medicare Secondary Insurance ─── */
+  {
+    slug: "medicare-secondary-insurance",
+    seo: {
+      title: "Medicare Secondary Insurance: Options to Cover What Medicare Doesn't | MedicareFAQ",
+      description: "Medicare secondary insurance helps cover costs that Original Medicare doesn't pay. Learn about Medigap, retiree coverage, Medicaid, and other secondary options.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-secondary-insurance/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-secondary-insurance.jpg",
+    },
+    title: "Medicare Secondary Insurance",
+    subtitle: "Secondary insurance fills the gaps left by Original Medicare \u2014 covering deductibles, coinsurance, and other out-of-pocket costs.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare secondary insurance is any coverage that pays after Medicare has paid its share. The most common options are Medigap (Medicare Supplement), retiree insurance, Medicaid, and employer group health plans. Each works differently with Medicare.",
+      badges: [
+        { plan: "Medigap", status: "covered" },
+        { plan: "Part A", status: "partial" },
+        { plan: "Part B", status: "partial" },
+        { plan: "Medicare Advantage", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Medigap (Medicare Supplement)",
+        coverage: "Covers Part A/B deductibles, coinsurance, excess charges",
+        icon: "shield-check",
+        notes: "Most comprehensive secondary option; standardized plans A-N",
+      },
+      {
+        planType: "Retiree Insurance",
+        coverage: "Employer-sponsored coverage that wraps around Medicare",
+        icon: "info",
+        notes: "Coverage and costs vary by employer; may include drug coverage",
+      },
+      {
+        planType: "Medicaid",
+        coverage: "Covers costs for low-income Medicare beneficiaries (dual eligible)",
+        icon: "shield-check",
+        notes: "Income/asset limits apply; most comprehensive secondary coverage",
+      },
+      {
+        planType: "Medicare Secondary Payer (MSP)",
+        coverage: "Medicare pays second when another insurer is primary",
+        icon: "alert-triangle",
+        notes: "Applies with employer plans, workers' comp, auto insurance",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medigap (Medicare Supplement Insurance)",
+        icon: "shield",
+        iconColor: "text-blue-600",
+        coverageLabel: "Most Popular Secondary Option",
+        coverageType: "covered",
+        paragraphs: [
+          "Medigap plans are private insurance policies specifically designed to supplement Original Medicare. They pay after Medicare pays its share, covering costs like the Part A deductible, Part B coinsurance, and excess charges.",
+          "There are 10 standardized Medigap plans (A through N). Plan G is currently the most comprehensive plan available to new enrollees, covering nearly all out-of-pocket costs except the Part B deductible.",
+        ],
+        whatItCovers: [
+          "Part A deductible ($1,676 per benefit period in 2025)",
+          "Part B coinsurance (20% of Medicare-approved amount)",
+          "Part B excess charges (Plan G and Plan F)",
+          "Skilled nursing facility coinsurance",
+          "Foreign travel emergency (Plans C, D, G, M, N)",
+        ],
+        whatItDoesntCover: [
+          "Prescription drugs (need a separate Part D plan)",
+          "Vision, dental, or hearing",
+          "Long-term care",
+          "Cannot be used with Medicare Advantage",
+        ],
+        callout: {
+          type: "tip",
+          title: "Best Time to Enroll",
+          text: "The best time to enroll in Medigap is during your 6-month Medigap Open Enrollment Period, which starts when you're 65 and enrolled in Part B. During this window, insurers cannot deny you or charge more based on health conditions.",
+        },
+      },
+      {
+        planName: "Retiree Insurance",
+        icon: "building",
+        iconColor: "text-teal-600",
+        coverageLabel: "Employer-Sponsored Secondary",
+        coverageType: "partial",
+        paragraphs: [
+          "Some employers offer retiree health insurance that works alongside Medicare. Once you're on Medicare, your retiree plan typically becomes secondary, paying after Medicare pays its share.",
+          "Retiree coverage varies widely by employer. Some plans are very comprehensive and may eliminate the need for a Medigap policy. Others may have high deductibles or limited benefits.",
+        ],
+        whatItCovers: [
+          "Varies by employer plan \u2014 may cover deductibles and coinsurance",
+          "Often includes prescription drug coverage",
+          "May cover dental, vision, and hearing",
+          "Typically covers spouse and dependents",
+        ],
+        whatItDoesntCover: [
+          "Coverage details vary \u2014 review your plan's Summary of Benefits",
+          "Some retiree plans are less comprehensive than Medigap",
+          "May require you to stay enrolled in Medicare Part B",
+        ],
+      },
+      {
+        planName: "Medicaid as Secondary Insurance",
+        icon: "heart",
+        iconColor: "text-green-600",
+        coverageLabel: "Dual Eligible Beneficiaries",
+        coverageType: "covered",
+        paragraphs: [
+          "People who qualify for both Medicare and Medicaid are called 'dual eligible' beneficiaries. Medicaid acts as secondary insurance, paying costs that Medicare doesn't cover.",
+          "Dual eligible beneficiaries often pay little to nothing for healthcare. Medicaid can cover Medicare premiums, deductibles, coinsurance, and services Medicare doesn't cover like long-term care.",
+        ],
+        whatItCovers: [
+          "Medicare Part A and Part B premiums",
+          "Medicare deductibles and coinsurance",
+          "Long-term care (nursing home, home health)",
+          "Dental, vision, and hearing in many states",
+        ],
+        whatItDoesntCover: [
+          "Income and asset limits apply \u2014 not everyone qualifies",
+          "Coverage varies significantly by state",
+          "Must use Medicaid-accepting providers",
+        ],
+      },
+      {
+        planName: "Medicare Secondary Payer (MSP) Rules",
+        icon: "scale",
+        iconColor: "text-purple-600",
+        coverageLabel: "When Medicare Pays Second",
+        coverageType: "partial",
+        paragraphs: [
+          "In some situations, Medicare is not the primary payer \u2014 another insurer pays first, and Medicare pays second. This is called Medicare Secondary Payer (MSP).",
+          "MSP rules apply when you have employer group health insurance (if employer has 20+ employees), workers' compensation, auto insurance, or liability insurance. Understanding which payer is primary is critical to avoid claim denials.",
+        ],
+        whatItCovers: [
+          "Employer group health plan (20+ employees): employer plan pays first",
+          "Workers' compensation: workers' comp pays first for work injuries",
+          "Auto/liability insurance: pays first for accident-related care",
+          "Medicare pays remaining balance after primary insurer",
+        ],
+        whatItDoesntCover: [
+          "If primary insurer denies a claim, Medicare may not pay either",
+          "Employer plans with under 20 employees: Medicare pays first",
+          "COBRA coverage: Medicare pays first if you're eligible for Medicare",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Secondary Insurance Cost Comparison",
+      headers: ["Type", "Monthly Cost", "What It Covers"],
+      rows: [
+        { "Type": "Medigap Plan G", "Monthly Cost": "$100-$300+ (age/location)", "What It Covers": "Part A/B deductibles, coinsurance, excess charges"},
+        { "Type": "Medigap Plan N", "Monthly Cost": "$80-$200+ (age/location)", "What It Covers": "Most costs; copays up to $20 for office visits"},
+        { "Type": "Retiree Insurance", "Monthly Cost": "Varies (employer-subsidized)", "What It Covers": "Varies by employer plan"},
+        { "Type": "Medicaid (dual eligible)", "Monthly Cost": "$0 (income-based)", "What It Covers": "Premiums, deductibles, coinsurance, LTC"},
+        { "Type": "Medicare Advantage (alternative)", "Monthly Cost": "$0-$100+ (plan varies)", "What It Covers": "Replaces Original Medicare; all-in-one"},
+      ],
+      footnote: "Medigap premiums vary significantly by age, location, gender, and tobacco use. Compare plans at Medicare.gov or through a licensed agent.",
+    },
+    exceptionsSection: {
+      title: "Important Considerations",
+      items: [
+        {
+          title: "Medigap Cannot Be Used with Medicare Advantage",
+          text: "If you switch to a Medicare Advantage plan, your Medigap policy cannot be used to pay costs. You would be paying for a policy that provides no benefit. You should drop your Medigap policy if you enroll in Medicare Advantage.",
+          highlight: "Never pay for both Medigap and Medicare Advantage simultaneously.",
+        },
+        {
+          title: "Coordination of Benefits",
+          text: "When you have multiple insurance plans, they coordinate to determine who pays what. Medicare and your secondary insurer exchange information automatically through the Coordination of Benefits (COB) process \u2014 you don't need to file separate claims in most cases.",
+        },
+        {
+          title: "Medigap Medical Underwriting",
+          text: "Outside of your Medigap Open Enrollment Period, insurers can use medical underwriting to deny coverage or charge higher premiums based on your health history. Some states have additional protections.",
+        },
+        {
+          title: "Retiree Coverage May Require Medicare Enrollment",
+          text: "Many retiree plans require you to enroll in Medicare Part B as a condition of keeping your retiree coverage. Failing to enroll in Part B could cause you to lose your retiree benefits.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Policy Updates",
+      items: [
+        {
+          title: "Medigap Guaranteed Issue Protections",
+          status: "Passed",
+          description: "Federal law guarantees your right to buy certain Medigap plans without medical underwriting during specific periods, such as when you first enroll in Part B or lose other coverage.",
+        },
+        {
+          title: "Medicare Advantage vs. Medigap Comparison Tool",
+          status: "Passed",
+          description: "Medicare.gov updated its plan comparison tools to help beneficiaries better compare Medigap and Medicare Advantage plans side by side, improving transparency.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Choose the Right Secondary Coverage",
+      paragraphs: [
+        "The best secondary insurance depends on your health needs, budget, and whether you want the flexibility of Original Medicare or the simplicity of an all-in-one plan.",
+      ],
+      checklist: {
+        title: "Decision Checklist",
+        items: [
+          "If you want to see any doctor who accepts Medicare: choose Medigap + Part D",
+          "If you want lower premiums and don't mind a network: consider Medicare Advantage",
+          "If you have retiree coverage: review it carefully before buying Medigap",
+          "If you qualify for Medicaid: apply \u2014 it's the most comprehensive secondary option",
+          "If you have employer coverage: understand MSP rules before assuming Medicare pays first",
+          "Enroll in Medigap during your Open Enrollment Period to avoid medical underwriting",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "Do I need secondary insurance if I have Medicare?",
+        answer: "Original Medicare covers about 80% of approved costs, leaving you responsible for the rest. Without secondary insurance, a serious illness could result in significant out-of-pocket expenses. Most beneficiaries benefit from some form of secondary coverage.",
+      },
+      {
+        question: "What's the difference between Medigap and Medicare Advantage?",
+        answer: "Medigap supplements Original Medicare and lets you use any Medicare-accepting provider nationwide. Medicare Advantage replaces Original Medicare and typically uses a network. They serve different needs and cannot be used together.",
+      },
+      {
+        question: "Can I have both Medigap and retiree insurance?",
+        answer: "Technically yes, but it's usually not cost-effective. If your retiree plan provides comprehensive coverage, adding Medigap may result in duplicate coverage. Review both plans carefully.",
+      },
+      {
+        question: "When does Medicare pay second instead of first?",
+        answer: "Medicare pays second (is the secondary payer) when you have employer group health insurance through a large employer (20+ employees), workers' compensation, or auto/liability insurance related to an accident.",
+      },
+      {
+        question: "Is Medigap worth the cost?",
+        answer: "For many beneficiaries, yes. Medigap eliminates most unpredictable out-of-pocket costs, which is valuable if you have frequent medical needs or want financial predictability. Compare the premium cost against your expected healthcare usage.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Medigap is the most popular secondary option \u2014 standardized plans A through N" },
+      { icon: "info", text: "Retiree insurance, Medicaid, and employer plans can also serve as secondary coverage" },
+      { icon: "alert", text: "Medigap cannot be used with Medicare Advantage \u2014 never pay for both" },
+      { icon: "check", text: "Enroll in Medigap during your 6-month Open Enrollment Period to avoid underwriting" },
+      { icon: "dollar", text: "Dual eligible beneficiaries (Medicare + Medicaid) typically pay little to nothing" },
+    ],
+    relatedTopics: [
+      { title: "Medicare and Workers' Comp", description: "How Medicare coordinates with workers' compensation.", slug: "medicare-and-workers-comp" },
+      { title: "Medicare and Employer Plans", description: "How Medicare works with employer health insurance.", slug: "understanding-how-medicare-works-with-employer-health-plans" },
+      { title: "When Is Medicare Primary?", description: "Situations where Medicare pays first vs. second.", slug: "when-is-medicare-primary" },
+      { title: "Medicare and Retiree Insurance", description: "How retiree coverage coordinates with Medicare.", slug: "medicare-and-retiree-insurance" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare and Workers' Comp",
+      "Medicare and Employer Plans",
+      "When Is Medicare Primary",
+      "Medicare and Retiree Insurance",
+    ],
+    ctaBanner: {
+      title: "Need Help Choosing Secondary Coverage?",
+      text: "Our licensed agents can help you compare Medigap plans, Medicare Advantage, and other secondary options to find the best fit for your needs and budget.",
+    },
+    relatedSlugs: ["medicare-and-workers-comp", "understanding-how-medicare-works-with-employer-health-plans", "when-is-medicare-primary", "medicare-and-retiree-insurance"],
+  },
+  /* ─── Medicare Beneficiary Identifiers ─── */
+  {
+    slug: "medicare-beneficiary-identifiers",
+    seo: {
+      title: "Medicare Cards & Medicare Beneficiary Identifiers (MBI) | MedicareFAQ",
+      description: "Learn what a Medicare Beneficiary Identifier (MBI) is, how to find yours, what the format means, and how to protect your Medicare card from fraud.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-beneficiary-identifiers/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-cards-and-medicare-beneficiary-identifiers.jpg",
+    },
+    title: "Medicare Cards & Medicare Beneficiary Identifiers",
+    subtitle: "Your Medicare Beneficiary Identifier (MBI) is your unique Medicare ID number. It replaced Social Security Numbers on Medicare cards to protect against identity theft.",
+    category: "Medicare Basics",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "A Medicare Beneficiary Identifier (MBI) is an 11-character alphanumeric code that serves as your unique Medicare ID. It replaced Social Security Number-based Health Insurance Claim Numbers (HICNs) on all Medicare cards in 2019 to protect against identity theft.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Part D", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Medicare Beneficiary Identifier (MBI)",
+        coverage: "Current Medicare ID \u2014 used for all Medicare transactions since 2019",
+        icon: "shield-check",
+        notes: "11-character alphanumeric; no SSN embedded",
+      },
+      {
+        planType: "Health Insurance Claim Number (HICN)",
+        coverage: "Old Medicare ID \u2014 based on Social Security Number",
+        icon: "x-circle",
+        notes: "No longer accepted; replaced by MBI in 2019",
+      },
+      {
+        planType: "Medicare Card",
+        coverage: "Red, white, and blue card showing your MBI and coverage dates",
+        icon: "info",
+        notes: "Keep in a safe place; carry a copy when seeking care",
+      },
+      {
+        planType: "Medicare Advantage ID Card",
+        coverage: "Issued by your MA plan; use this card (not red/white/blue) for care",
+        icon: "info",
+        notes: "Your MBI is still on file but you use your plan's card",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is an MBI?",
+        icon: "id-card",
+        iconColor: "text-blue-600",
+        coverageLabel: "Your Medicare ID Number",
+        coverageType: "covered",
+        paragraphs: [
+          "The Medicare Beneficiary Identifier (MBI) is a randomly generated 11-character code consisting of numbers and uppercase letters. It is unique to each Medicare beneficiary and is used for all Medicare billing and transactions.",
+          "CMS replaced the old SSN-based Health Insurance Claim Number (HICN) with the MBI starting in April 2018. By December 2019, all Medicare cards had been replaced with new cards featuring the MBI.",
+        ],
+        whatItCovers: [
+          "Used for all Medicare Part A and Part B billing",
+          "Required for Medicare Advantage and Part D transactions",
+          "Used when filing Medicare claims",
+          "Needed when enrolling in Medicare or changing plans",
+        ],
+        whatItDoesntCover: [
+          "MBI is not the same as your Medicare Advantage plan ID",
+          "MBI does not contain any personal information (it's randomly generated)",
+          "MBI is not used for Social Security transactions",
+        ],
+      },
+      {
+        planName: "MBI Format Explained",
+        icon: "hash",
+        iconColor: "text-teal-600",
+        coverageLabel: "11-Character Structure",
+        coverageType: "covered",
+        paragraphs: [
+          "The MBI follows a specific 11-character format: 1C2AC2AC2AC3. Each position uses either a number (0-9) or an uppercase letter (A-Z), but the letters S, L, O, I, B, and Z are never used to avoid confusion with numbers.",
+          "The MBI is case-sensitive and must be entered exactly as shown on your Medicare card. There are no dashes or spaces in the MBI itself, though it may be displayed with dashes for readability.",
+        ],
+        whatItCovers: [
+          "Position 1: Always a number (1-9)",
+          "Positions 2, 5, 8: Always an uppercase letter (not S, L, O, I, B, Z)",
+          "Positions 3, 6, 9: Always a number or letter",
+          "Positions 4, 7, 10, 11: Always a number",
+        ],
+        whatItDoesntCover: [
+          "Letters S, L, O, I, B, Z are never used",
+          "The number 0 is used but the letter O is not",
+          "MBIs are randomly generated and carry no personal meaning",
+        ],
+        callout: {
+          type: "info",
+          title: "Example MBI Format",
+          text: "An MBI looks like: 1EG4-TE5-MK72. The dashes are for display only. When entering your MBI for billing, use all 11 characters without dashes.",
+        },
+      },
+      {
+        planName: "How to Find Your MBI",
+        icon: "search",
+        iconColor: "text-green-600",
+        coverageLabel: "Multiple Ways to Access",
+        coverageType: "covered",
+        paragraphs: [
+          "Your MBI is printed on your red, white, and blue Medicare card. If you've misplaced your card, there are several other ways to find your MBI.",
+        ],
+        whatItCovers: [
+          "Medicare card: Your MBI is printed on the front",
+          "Medicare.gov account: Log in and view your MBI online",
+          "Medicare Summary Notice (MSN): Your MBI appears on your MSN",
+          "Call 1-800-MEDICARE (1-800-633-4227) to get your MBI",
+        ],
+        whatItDoesntCover: [
+          "Social Security cannot provide your MBI (contact Medicare directly)",
+          "Your doctor's office may have it on file from previous visits",
+        ],
+        callout: {
+          type: "warning",
+          title: "Protect Your MBI",
+          text: "Treat your MBI like your Social Security Number. Never share it with anyone who contacts you unsolicited. Medicare will never call you to ask for your MBI.",
+        },
+      },
+      {
+        planName: "Lost or Stolen Medicare Card",
+        icon: "alert-triangle",
+        iconColor: "text-amber-600",
+        coverageLabel: "How to Replace Your Card",
+        coverageType: "covered",
+        paragraphs: [
+          "If your Medicare card is lost, stolen, or damaged, you can get a replacement card for free. Your MBI will remain the same unless you report fraud.",
+        ],
+        whatItCovers: [
+          "Request online at Medicare.gov (fastest method)",
+          "Call 1-800-MEDICARE to request a replacement",
+          "Visit your local Social Security office",
+          "Replacement cards arrive by mail within 30 days",
+        ],
+        whatItDoesntCover: [
+          "You cannot get a replacement card at a Medicare office (there are none)",
+          "If fraud occurred, report it and request a new MBI",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medicare Card & MBI Quick Reference",
+      headers: ["Item", "Details", "Where to Find"],
+      rows: [
+        { "Item": "Medicare Beneficiary Identifier (MBI)", "Details": "11-character alphanumeric ID", "Where to Find": "Medicare card, Medicare.gov, MSN"},
+        { "Item": "Medicare Card", "Details": "Red, white, and blue card", "Where to Find": "Mailed when you enroll; replace at Medicare.gov"},
+        { "Item": "Medicare Advantage Card", "Details": "Issued by your MA plan", "Where to Find": "Mailed by your plan after enrollment"},
+        { "Item": "Part D Card", "Details": "Issued by your drug plan", "Where to Find": "Mailed by your Part D plan after enrollment"},
+        { "Item": "Medicare Summary Notice", "Details": "Quarterly statement of claims", "Where to Find": "Mailed quarterly or view at Medicare.gov"},
+      ],
+      footnote: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red, white, and blue Medicare card is still needed for some transactions.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Special Situations",
+      items: [
+        {
+          title: "Medicare Advantage Members",
+          text: "If you have Medicare Advantage, you use your plan's ID card (not your red/white/blue Medicare card) when seeking care. However, your MBI is still on file and may be needed for certain transactions.",
+        },
+        {
+          title: "Reporting Medicare Fraud",
+          text: "If you believe someone has used your MBI fraudulently, report it to 1-800-MEDICARE or the Office of Inspector General at 1-800-HHS-TIPS. You can request a new MBI if your identity has been compromised.",
+          highlight: "Never share your MBI with anyone who contacts you unsolicited.",
+        },
+        {
+          title: "Railroad Retirement Board (RRB) Beneficiaries",
+          text: "If your Medicare coverage is through the Railroad Retirement Board, your Medicare card and ID number may look different. Contact the RRB at 1-877-772-5772 for assistance.",
+        },
+        {
+          title: "Providers Still Using Old HICN",
+          text: "Since the 2019 transition, all Medicare transactions must use the MBI. If a provider is still using your old HICN, remind them to update their records with your MBI to avoid claim rejections.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Background: The MACRA MBI Transition",
+      items: [
+        {
+          title: "Medicare Access and CHIP Reauthorization Act (MACRA) \u2014 MBI Mandate",
+          status: "Passed",
+          description: "MACRA (2015) required CMS to remove Social Security Numbers from Medicare cards and replace them with new Medicare Beneficiary Identifiers by April 2019. The transition was completed by December 2019.",
+        },
+        {
+          title: "New Medicare Card Mailing Completed",
+          status: "Passed",
+          description: "CMS mailed new Medicare cards to all 58 million beneficiaries between April 2018 and December 2019. The transition was completed on schedule, protecting beneficiaries from SSN-based identity theft.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Protecting Your Medicare Card & MBI",
+      paragraphs: [
+        "Your MBI is sensitive personal information. Follow these steps to protect it and respond quickly if it's compromised.",
+      ],
+      checklist: {
+        title: "Security Checklist",
+        items: [
+          "Keep your Medicare card in a safe place \u2014 don't carry it unless needed",
+          "Never share your MBI with unsolicited callers, even if they claim to be from Medicare",
+          "Review your Medicare Summary Notice (MSN) for unfamiliar claims",
+          "Create a Medicare.gov account to monitor your claims online",
+          "Report suspected fraud to 1-800-MEDICARE or 1-800-HHS-TIPS",
+          "If your card is lost or stolen, request a replacement at Medicare.gov immediately",
+        ],
+        type: "warning",
+      },
+    },
+    faqs: [
+      {
+        question: "What does MBI stand for?",
+        answer: "MBI stands for Medicare Beneficiary Identifier. It's the unique 11-character ID number on your Medicare card that replaced the old SSN-based Health Insurance Claim Number (HICN) in 2019.",
+      },
+      {
+        question: "How do I find my Medicare number?",
+        answer: "Your Medicare number (MBI) is on your red, white, and blue Medicare card. You can also find it by logging into your Medicare.gov account or by calling 1-800-MEDICARE.",
+      },
+      {
+        question: "Can I get a new MBI if mine is compromised?",
+        answer: "Yes. If you believe your MBI has been used fraudulently, contact 1-800-MEDICARE to report the fraud and request a new MBI. A new card will be mailed to you.",
+      },
+      {
+        question: "Do I use my Medicare card or my Medicare Advantage card?",
+        answer: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red/white/blue Medicare card is generally not needed for day-to-day care but keep it safe.",
+      },
+      {
+        question: "Why did Medicare stop using Social Security Numbers on cards?",
+        answer: "To protect beneficiaries from identity theft. The old HICN contained your SSN, making Medicare cards a target for fraud. The new MBI is randomly generated and contains no personal information.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Your MBI is an 11-character alphanumeric code on your red, white, and blue Medicare card" },
+      { icon: "info", text: "MBIs replaced SSN-based HICNs in 2019 under the MACRA law" },
+      { icon: "alert", text: "Never share your MBI with unsolicited callers \u2014 Medicare will never call to ask for it" },
+      { icon: "check", text: "Lost your card? Request a free replacement at Medicare.gov or call 1-800-MEDICARE" },
+      { icon: "info", text: "Medicare Advantage members: use your plan's card for care, not your red/white/blue card" },
+    ],
+    relatedTopics: [
+      { title: "5 Things to Do After Getting Your Medicare Card", description: "Important steps to take when you receive your Medicare card.", slug: "5-things-to-do-after-you-receive-your-medicare-card" },
+      { title: "What to Do If You Lose Your Medicare Card", description: "Step-by-step guide to replacing a lost Medicare card.", slug: "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide" },
+      { title: "Applying for Medicare", description: "How and when to apply for Medicare benefits.", slug: "applying-for-medicare" },
+      { title: "Report Medicare Fraud", description: "How to identify and report Medicare fraud and abuse.", slug: "report-medicare-fraud" },
+    ],
+    sidebarRelatedLinks: [
+      "After Getting Your Medicare Card",
+      "Lost Medicare Card",
+      "Applying for Medicare",
+      "Report Medicare Fraud",
+    ],
+    ctaBanner: {
+      title: "Questions About Your Medicare Coverage?",
+      text: "Our licensed agents can help you understand your Medicare card, coverage options, and how to protect yourself from Medicare fraud.",
+    },
+    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "applying-for-medicare", "report-medicare-fraud"],
+  },
 ];
