@@ -632,32 +632,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-reimbursement", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-cost-sharing"],
   },
   {
-    slug: 'medicare-reimbursement',
-    seo: {
-      title: 'Medicare Reimbursement',
-      description: 'Medicare reimbursement can be difficult to understand. Learn how it works and what forms you need to file a claim.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-reimbursement/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-reimbursement.jpg',
-    },
-    title: 'Medicare Reimbursement',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 19, 2026',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [[Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-is-medicare-assignment", "how-to-file-a-medicare-claim", "advance-beneficiary-notice", "what-is-medicare-cost-sharing"],
-  },
-  {
     slug: 'special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage',
     seo: {
       title: 'Special Enrollment Periods Explained: What Triggers Them and How to Take Advantage',

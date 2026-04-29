@@ -22160,4 +22160,277 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["delay-medicare", "medicare-enrollment-periods", "medicare-for-disabled-individuals", "is-medicare-mandatory"],
   },
+  /* ─── Medicare Reimbursement ─── */
+  {
+    slug: "medicare-reimbursement",
+    seo: {
+      title: "Medicare Reimbursement: How to File a Claim & Get Paid Back | MedicareFAQ",
+      description: "Learn how Medicare reimbursement works, when you need to file a claim yourself, what forms are required, and how assignment affects your out-of-pocket costs.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-reimbursement/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-reimbursement.jpg",
+    },
+    title: "Medicare Reimbursement",
+    subtitle: "How to get reimbursed by Medicare when you pay out of pocket — including when to file claims, required forms, and timelines.",
+    category: "Medicare Costs",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "In most cases, your doctor or provider files Medicare claims on your behalf. However, if a provider refuses to file or you paid out of pocket, you can submit Form CMS-1490S to request reimbursement within 12 months of service.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Part D", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Original Medicare (Part A & B)",
+        coverage: "Provider files claims; you file CMS-1490S if they refuse",
+        icon: "shield-check",
+        notes: "Claims must be filed within 12 months of service",
+      },
+      {
+        planType: "Medicare Advantage (Part C)",
+        coverage: "In-network providers file directly; out-of-network may require you to file",
+        icon: "alert-triangle",
+        notes: "Contact your plan for specific claim submission instructions",
+      },
+      {
+        planType: "Part D (Prescription Drugs)",
+        coverage: "Pharmacy files automatically; manual claims for out-of-network or new drugs",
+        icon: "info",
+        notes: "May need to file if drug not yet on formulary",
+      },
+      {
+        planType: "Medigap",
+        coverage: "Processes automatically after Medicare pays its share",
+        icon: "shield-check",
+        notes: "No separate claim needed — crossover claim is automatic",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "When You Need to File a Claim",
+        icon: "file-text",
+        iconColor: "text-blue-600",
+        coverageLabel: "Rare but Important",
+        coverageType: "partial",
+        paragraphs: [
+          "By law, Medicare-enrolled providers must file claims on your behalf. You should only need to file a claim yourself in rare situations.",
+          "You may need to file if your provider refuses to submit a claim, isn't enrolled in Medicare, or you received care outside the U.S. in limited qualifying situations.",
+        ],
+        whatItCovers: [
+          "Provider refuses or is unable to file the claim",
+          "Provider isn't enrolled in Medicare",
+          "You paid out of pocket and need reimbursement",
+          "Certain emergency services received abroad",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Medicare (cosmetic, routine dental, etc.)",
+          "Claims filed after the 12-month deadline",
+          "Services from providers who have opted out of Medicare",
+        ],
+        callout: {
+          type: "info",
+          title: "Important",
+          text: "If your provider hasn't filed a claim, contact them first. Only file yourself if they refuse or are unable to submit it.",
+        },
+      },
+      {
+        planName: "How to File Form CMS-1490S",
+        icon: "clipboard-list",
+        iconColor: "text-green-600",
+        coverageLabel: "Step-by-Step Process",
+        coverageType: "covered",
+        paragraphs: [
+          "The Patient's Request for Medical Payment (CMS-1490S) is the official form for beneficiaries to request reimbursement from Medicare.",
+          "Download the form from CMS.gov, complete all required fields, attach your itemized bill, and mail it to your state's Medicare Administrative Contractor (MAC) address listed on the form.",
+        ],
+        whatItCovers: [
+          "Completed CMS-1490S form (available in English and Spanish)",
+          "Itemized bill from your provider showing services and charges",
+          "Letter explaining why you're submitting the claim",
+          "Any supporting documents (doctor's notes, referrals)",
+        ],
+        whatItDoesntCover: [
+          "Claims without an itemized bill will not be processed",
+          "Incomplete forms will be returned",
+          "Electronic submission is not available for beneficiaries",
+        ],
+        callout: {
+          type: "tip",
+          title: "Pro Tip",
+          text: "Keep copies of everything you submit. Mail your claim via certified mail so you have proof of the submission date.",
+        },
+      },
+      {
+        planName: "Assignment vs. Non-Assignment",
+        icon: "scale",
+        iconColor: "text-purple-600",
+        coverageLabel: "Affects Your Costs",
+        coverageType: "partial",
+        paragraphs: [
+          "When a provider 'accepts assignment,' they agree to accept Medicare's approved amount as full payment. You only owe your deductible and 20% coinsurance.",
+          "Non-participating providers who don't accept assignment can charge up to 15% above the Medicare-approved amount (called excess charges). You pay the difference plus your coinsurance.",
+        ],
+        whatItCovers: [
+          "Participating providers always accept assignment",
+          "Non-participating providers may accept on a case-by-case basis",
+          "Limiting charge caps excess at 15% above approved amount",
+        ],
+        whatItDoesntCover: [
+          "Opt-out providers don't file Medicare claims at all",
+          "You pay full cost with opt-out providers (private contract)",
+          "Medicare won't reimburse for opt-out provider services",
+        ],
+      },
+      {
+        planName: "Medicare Advantage Reimbursement",
+        icon: "building",
+        iconColor: "text-teal-600",
+        coverageLabel: "Plan-Specific Rules",
+        coverageType: "partial",
+        paragraphs: [
+          "If you have a Medicare Advantage plan, in-network providers file claims directly with your plan. Out-of-network services may require you to pay upfront and request reimbursement from your plan.",
+          "Contact your MA plan directly for their specific claim forms and submission process. Each plan has its own procedures and timelines.",
+        ],
+        whatItCovers: [
+          "In-network providers file claims automatically",
+          "Emergency services covered regardless of network",
+          "Out-of-network reimbursement if plan allows",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network non-emergency services (HMO plans)",
+          "Services requiring prior authorization that wasn't obtained",
+          "Claims filed after plan-specific deadline",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medicare Reimbursement Amounts by Provider Type",
+      headers: ["Provider Type", "What Medicare Pays", "What You Pay"],
+      rows: [
+        { "Provider Type": "Participating (accepts assignment)", "What Medicare Pays": "80% of approved amount", "What You Pay": "20% coinsurance + deductible" },
+        { "Provider Type": "Non-participating (doesn't accept assignment)", "What Medicare Pays": "80% of approved amount (paid to you)", "What You Pay": "20% coinsurance + up to 15% excess charge" },
+        { "Provider Type": "Opt-out provider (private contract)", "What Medicare Pays": "$0 — Medicare does not pay", "What You Pay": "100% of provider's charges" },
+        { "Provider Type": "Foreign provider (qualifying emergency)", "What Medicare Pays": "80% of approved amount (limited situations)", "What You Pay": "20% coinsurance + deductible" },
+      ],
+      footnote: "The Part B deductible for 2025 is $257. After meeting the deductible, Medicare pays 80% of the approved amount for most Part B services.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Special Situations",
+      items: [
+        {
+          title: "12-Month Filing Deadline",
+          text: "Medicare claims must be filed within 12 months (one full calendar year) after the date of service. If the deadline passes, Medicare will not pay regardless of the reason.",
+          highlight: "No exceptions to the 12-month filing deadline for standard claims.",
+        },
+        {
+          title: "Foreign Emergency Care",
+          text: "Medicare generally doesn't cover care outside the U.S. However, it may cover emergency hospital care in limited situations: within the U.S. when a foreign hospital is closer, on a ship within 6 hours of a U.S. port, or traveling through Canada between Alaska and another state.",
+        },
+        {
+          title: "Retroactive Medicare Coverage",
+          text: "If you receive retroactive Medicare coverage, you can file claims for services received during the retroactive period even if the 12-month window from the service date has passed.",
+        },
+        {
+          title: "Medicare Secondary Payer",
+          text: "If another insurer (employer plan, auto insurance, workers' comp) is primary, Medicare may reimburse you for amounts it should have paid once the primary payer settles.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Policy Updates",
+      items: [
+        {
+          title: "2025 Physician Fee Schedule Update",
+          status: "Passed",
+          description: "CMS updated Medicare reimbursement rates with a 2.93% reduction in the conversion factor for 2025, affecting how much Medicare pays providers for services.",
+        },
+        {
+          title: "Electronic Claims Submission for Beneficiaries",
+          status: "Proposed",
+          description: "CMS is exploring options to allow beneficiaries to submit claims electronically rather than by mail, which would speed up reimbursement processing.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Tips for Getting Reimbursed Faster",
+      paragraphs: [
+        "While Medicare claims processing typically takes 30 days, you can take steps to avoid delays and ensure your reimbursement is processed smoothly.",
+      ],
+      checklist: {
+        title: "Reimbursement Checklist",
+        items: [
+          "Always ask if your provider accepts Medicare assignment before receiving services",
+          "Request an itemized bill immediately after paying out of pocket",
+          "Download Form CMS-1490S from CMS.gov and complete all fields",
+          "Include a clear explanation letter with your claim submission",
+          "Mail via certified mail and keep copies of everything",
+          "Check your Medicare Summary Notice (MSN) to confirm claim was processed",
+          "Contact 1-800-MEDICARE if your claim hasn't been processed within 60 days",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "How long does Medicare reimbursement take?",
+        answer: "Medicare typically processes claims within 30 days of receiving them. If you filed the claim yourself, allow additional time for mail delivery. Check your Medicare Summary Notice or online account for status updates.",
+      },
+      {
+        question: "Can I get reimbursed if I already paid my doctor?",
+        answer: "Yes. If you paid out of pocket because your provider refused to file a claim, submit Form CMS-1490S with your itemized bill. Medicare will reimburse you its share (80% of the approved amount after your deductible).",
+      },
+      {
+        question: "What if my claim is denied?",
+        answer: "You have the right to appeal any Medicare claim denial. The first level is a redetermination request, which must be filed within 120 days of receiving your Medicare Summary Notice.",
+      },
+      {
+        question: "Does Medicare reimburse for services received abroad?",
+        answer: "Generally no. Medicare covers very limited foreign emergency care — only when a foreign hospital is closer than a U.S. hospital, or in specific Canada transit situations.",
+      },
+      {
+        question: "What's the difference between assignment and reimbursement?",
+        answer: "With assignment, Medicare pays the provider directly and you pay only your share. Without assignment, you may pay the provider upfront and Medicare reimburses you — but you're also responsible for excess charges up to 15%.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Providers are legally required to file Medicare claims on your behalf" },
+      { icon: "info", text: "Use Form CMS-1490S to file your own claim when a provider refuses" },
+      { icon: "alert", text: "All claims must be filed within 12 months of the date of service" },
+      { icon: "dollar", text: "Medicare pays 80% of the approved amount after your Part B deductible" },
+      { icon: "check", text: "Medigap crossover claims are processed automatically — no action needed" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Assignment", description: "How assignment affects what you pay for Part B services.", slug: "understanding-medicare-assignment-what-it-means-for-your-costs" },
+      { title: "How to File a Medicare Claim", description: "Step-by-step guide to submitting claims to Medicare.", slug: "how-to-file-a-medicare-claim" },
+      { title: "Advance Beneficiary Notice", description: "What to do when Medicare may not cover a service.", slug: "advance-beneficiary-notice" },
+      { title: "Medicare Cost Sharing", description: "Understanding deductibles, coinsurance, and copays.", slug: "what-is-medicare-cost-sharing" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Assignment",
+      "Filing Medicare Claims",
+      "Advance Beneficiary Notice",
+      "Medicare Cost Sharing",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Medicare Costs?",
+      text: "Our licensed agents can help you understand how Medicare reimbursement works and find supplemental coverage that minimizes your out-of-pocket expenses.",
+    },
+    relatedSlugs: ["understanding-medicare-assignment-what-it-means-for-your-costs", "how-to-file-a-medicare-claim", "advance-beneficiary-notice", "what-is-medicare-cost-sharing"],
+  },
 ];
