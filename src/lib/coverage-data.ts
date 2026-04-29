@@ -27664,14 +27664,25 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/all-in-one-medicare-plans.jpg",
     },
     title: "All-In-One Medicare Plan",
+    subtitle: "Medicare Advantage (Part C) Explained",
     category: "Medicare Advantage",
     dateUpdated: "January 16, 2024",
-    author: { name: "David Haass", title: "Medicare Expert", credentials: "Licensed Insurance Agent" },
-    reviewer: { name: "Ashlee Zareczny", title: "Compliance Specialist", credentials: "Medicare Compliance" },
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
     readTime: "7 min read",
     quickAnswer: {
       text: "An all-in-one Medicare plan is a Medicare Advantage (Part C) plan that combines Original Medicare (Parts A and B) — and usually Part D prescription drug coverage — into a single plan from a private insurer. Most plans include extra benefits like dental, vision, and hearing not covered by Original Medicare.",
-      coverageBadges: [
+      badges: [
         { plan: "Medicare Advantage (MAPD)", status: "covered" },
         { plan: "Original Medicare", status: "not-covered" },
         { plan: "Medigap", status: "not-covered" },
@@ -27796,33 +27807,55 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
     ],
-    costTable: [
-      { costType: "Monthly Premium", mapd: "$0–$50/month (avg)", originalPlusMedigap: "$200–$400/month (Medigap G + Part D)", partDStandalone: "$40–$60/month", snp: "Often $0 (D-SNP)" },
-      { costType: "Part B Deductible", mapd: "Often waived", originalPlusMedigap: "$257/year (Plan G)", partDStandalone: "$257/year", snp: "Often waived" },
-      { costType: "Annual OOP Max", mapd: "$9,350 in-network (2026)", originalPlusMedigap: "No cap (Original Medicare alone)", partDStandalone: "N/A", snp: "$9,350 in-network" },
-      { costType: "Dental/Vision/Hearing", mapd: "Often included", originalPlusMedigap: "Not included", partDStandalone: "Not included", snp: "Often included" },
-      { costType: "Network Restriction", mapd: "Yes (HMO) / Partial (PPO)", originalPlusMedigap: "Any Medicare provider", partDStandalone: "Any Medicare provider", snp: "Yes — specialized network" },
-    ],
-    exceptions: [
-      { title: "Annual Enrollment Period", description: "You can switch MA plans or return to Original Medicare each year Oct 15 – Dec 7. Changes take effect Jan 1." },
-      { title: "MA Open Enrollment Period", description: "Jan 1 – Mar 31: if already in MA, you can switch to another MA plan or return to Original Medicare once." },
-      { title: "5-Star Special Enrollment Period", description: "If a 5-star MA plan is available in your area, you can switch to it once per year outside standard enrollment periods." },
-      { title: "Medigap Guaranteed Issue", description: "If you leave MA within 12 months of first joining, you have a trial right to buy Medigap without medical underwriting." },
-    ],
-    legislativeUpdates: [
-      { title: "2026 MA OOP Cap Stays at $9,350", status: "passed", description: "CMS maintained the $9,350 in-network OOP maximum for 2026 MA plans." },
-      { title: "CMS Marketing Rules Tightened (2023)", status: "passed", description: "New rules restrict misleading MA advertising, including unsolicited calls and exaggerated benefit claims." },
-      { title: "Extra Benefits Scrutiny Increased", status: "passed", description: "CMS required plans to demonstrate that extra benefits are primarily health-related, reducing some supplemental offerings in 2026." },
-    ],
-    checklist: [
-      "Compare plans on Medicare.gov Plan Finder — filter by your drugs, doctors, and zip code",
-      "Check if your current doctors and specialists are in-network before enrolling",
-      "Review the plan's formulary to ensure your prescriptions are covered at a reasonable tier",
-      "Compare total annual costs (premium + deductibles + copays), not just the monthly premium",
-      "Review the Annual Notice of Change (ANOC) each September if already enrolled",
-      "Check extra benefits (dental, vision, hearing) for the specific plan — not just the plan type",
-      "Consider a 5-star plan if available — quality ratings matter for care coordination",
-    ],
+    costTable: {
+      title: "All-In-One Medicare Plan Costs at a Glance (2026)",
+      headers: ["Cost Type", "Medicare Advantage (MAPD)", "Original Medicare + Medigap G + Part D", "SNP (D-SNP)"],
+      rows: [
+        { "Cost Type": "Monthly Premium", "Medicare Advantage (MAPD)": "$0–$50/month (avg)", "Original Medicare + Medigap G + Part D": "$200–$400/month combined", "SNP (D-SNP)": "Often $0" },
+        { "Cost Type": "Part B Deductible", "Medicare Advantage (MAPD)": "Often waived", "Original Medicare + Medigap G + Part D": "$257/year (Plan G covers)", "SNP (D-SNP)": "Often waived" },
+        { "Cost Type": "Annual OOP Max", "Medicare Advantage (MAPD)": "$9,350 in-network", "Original Medicare + Medigap G + Part D": "No cap (Original Medicare alone)", "SNP (D-SNP)": "$9,350 in-network" },
+        { "Cost Type": "Dental/Vision/Hearing", "Medicare Advantage (MAPD)": "Often included", "Original Medicare + Medigap G + Part D": "Not included", "SNP (D-SNP)": "Often included" },
+        { "Cost Type": "Network Restriction", "Medicare Advantage (MAPD)": "Yes (HMO) / Partial (PPO)", "Original Medicare + Medigap G + Part D": "Any Medicare provider", "SNP (D-SNP)": "Yes — specialized network" },
+      ],
+      footnote: "Costs vary by plan and location. Verify specific plan costs on Medicare.gov Plan Finder.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions and Considerations",
+      items: [
+        { title: "Annual Enrollment Period", text: "You can switch MA plans or return to Original Medicare each year Oct 15 – Dec 7. Changes take effect Jan 1." },
+        { title: "MA Open Enrollment Period", text: "Jan 1 – Mar 31: if already in MA, you can switch to another MA plan or return to Original Medicare once." },
+        { title: "5-Star Special Enrollment Period", text: "If a 5-star MA plan is available in your area, you can switch to it once per year outside standard enrollment periods." },
+        { title: "Medigap Trial Right", text: "If you leave MA within 12 months of first joining, you have a trial right to buy Medigap without medical underwriting." },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Legislative Updates",
+      items: [
+        { title: "2026 MA OOP Cap Stays at $9,350", status: "Passed", description: "CMS maintained the $9,350 in-network OOP maximum for 2026 MA plans." },
+        { title: "CMS Marketing Rules Tightened (2023)", status: "Passed", description: "New rules restrict misleading MA advertising, including unsolicited calls and exaggerated benefit claims." },
+        { title: "Extra Benefits Scrutiny Increased", status: "Passed", description: "CMS required plans to demonstrate that extra benefits are primarily health-related, reducing some supplemental offerings in 2026." },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Choose the Right All-In-One Plan",
+      paragraphs: [
+        "Use Medicare.gov's Plan Finder to compare all available plans in your zip code. Filter by your current doctors, prescriptions, and preferred pharmacies. Pay attention to total annual costs — not just the monthly premium.",
+        "Consider your health needs: if you use many specialists or have chronic conditions, compare the plan's network and copays carefully. If you travel frequently, a PPO or Original Medicare + Medigap may serve you better.",
+      ],
+      checklist: {
+        title: "All-In-One Plan Enrollment Checklist",
+        items: [
+          "Compare plans on Medicare.gov Plan Finder — filter by your drugs, doctors, and zip code",
+          "Check if your current doctors and specialists are in-network before enrolling",
+          "Review the plan's formulary to ensure your prescriptions are covered at a reasonable tier",
+          "Compare total annual costs (premium + deductibles + copays), not just the monthly premium",
+          "Review the Annual Notice of Change (ANOC) each September if already enrolled",
+          "Check extra benefits (dental, vision, hearing) for the specific plan — not just the plan type",
+          "Consider a 5-star plan if available — quality ratings matter for care coordination",
+        ],
+        type: "tip",
+      },
+    },
     faqs: [
       { question: "Can I have both Medicare Advantage and Medigap?", answer: "No. Medigap cannot be used alongside Medicare Advantage. If you enroll in MA, your Medigap policy becomes useless." },
       { question: "Do all Medicare Advantage plans include drug coverage?", answer: "Most do (MAPD plans), but some MA-only plans do not. Always verify before enrolling." },
@@ -27843,6 +27876,11 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare Advantage Special Needs Plans", description: "SNPs for dual-eligibles and chronic conditions.", slug: "medicare-advantage-5-star-special-enrollment-period" },
       { title: "Key Questions When Comparing MA Plans", description: "What to ask before you enroll.", slug: "key-questions-to-ask-when-comparing-medicare-advantage-plans" },
     ],
+    sidebarRelatedLinks: ["original-medicare-vs-medicare-advantage", "medigap-vs-medicare-advantage", "medicare-advantage-5-star-special-enrollment-period"],
+    ctaBanner: {
+      title: "Find the Best All-In-One Medicare Plan for You",
+      text: "Our licensed agents can help you compare Medicare Advantage plans in your area and find the right all-in-one coverage for your needs and budget.",
+    },
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-vs-medicare-advantage", "original-medicare-vs-medicare-advantage", "key-questions-to-ask-when-comparing-medicare-advantage-plans"],
   },
   {
@@ -27854,14 +27892,25 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/delay-medicare.jpg",
     },
     title: "Delaying Medicare",
+    subtitle: "When You Can Delay and When You Can't",
     category: "Enrollment",
     dateUpdated: "March 2026",
-    author: { name: "David Haass", title: "Medicare Expert", credentials: "Licensed Insurance Agent" },
-    reviewer: { name: "Ashlee Zareczny", title: "Compliance Specialist", credentials: "Medicare Compliance" },
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
     readTime: "8 min read",
     quickAnswer: {
       text: "You can safely delay Medicare Part B (and Part D) if you have qualifying employer coverage through active employment at a company with 20+ employees. Delaying without qualifying coverage triggers a permanent 10% Part B penalty for each 12-month period missed, plus a Part D penalty of 1% per month. Part A is usually free and safe to take at 65.",
-      coverageBadges: [
+      badges: [
         { plan: "Part A", status: "covered" },
         { plan: "Part B (employer 20+)", status: "partial" },
         { plan: "Part B (no employer)", status: "not-covered" },
@@ -27989,33 +28038,55 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
     ],
-    costTable: [
-      { scenario: "Delay with qualifying employer (20+ employees)", partBPenalty: "None", partDPenalty: "None", notes: "Safest delay scenario" },
-      { scenario: "Delay 1 year without qualifying coverage", partBPenalty: "+10% permanently", partDPenalty: "+12% of base premium/year", notes: "Costly mistake" },
-      { scenario: "Delay 2 years without qualifying coverage", partBPenalty: "+20% permanently", partDPenalty: "+24% of base premium/year", notes: "Very costly" },
-      { scenario: "Delay with COBRA or retiree coverage", partBPenalty: "+10% per year missed", partDPenalty: "+1%/month without creditable Rx", notes: "Common mistake — COBRA does not qualify" },
-      { scenario: "Small employer (under 20 employees)", partBPenalty: "+10% per year if delayed", partDPenalty: "+1%/month without creditable Rx", notes: "Must enroll at 65" },
-    ],
-    exceptions: [
-      { title: "VA Coverage and Part B", description: "VA health benefits do not qualify as creditable coverage for Part B delay purposes. You should still enroll in Part B if eligible." },
-      { title: "Working Past 65 with Large Employer", description: "If your employer has 20+ employees and you are actively employed, you can delay Part B and Part D indefinitely without penalty." },
-      { title: "Social Security Before 65", description: "If you collect Social Security before 65, you are automatically enrolled in Part A and Part B at 65. You must actively opt out of Part B if you want to delay." },
-      { title: "FEHB (Federal Employees)", description: "Federal employees with FEHB coverage can delay Part B. FEHB is creditable coverage for both Part B and Part D delay purposes." },
-    ],
-    legislativeUpdates: [
-      { title: "2026 Part B Premium: $202.90/month", status: "passed", description: "The standard Part B premium increased to $202.90/month in 2026, making the 10% penalty worth $20.29/month per year of delay." },
-      { title: "Part D Base Premium: $36.78/month (2026)", status: "passed", description: "The national base beneficiary premium for calculating Part D penalties is $36.78 in 2026." },
-      { title: "IRA Part D Redesign (2025)", status: "passed", description: "The Inflation Reduction Act capped Part D OOP at $2,000 in 2025, making Part D enrollment more valuable than before." },
-    ],
-    checklist: [
-      "Confirm your employer has 20+ employees before deciding to delay Part B",
-      "Verify your employer drug plan is 'creditable' — ask HR for a creditable coverage notice each year",
-      "Do NOT delay if you have COBRA, retiree coverage, or a marketplace plan",
-      "Set a reminder for your 8-month SEP window when employment ends",
-      "Enroll in Part A at 65 if it is premium-free — it does not affect employer coverage",
-      "If you receive Social Security before 65, actively opt out of Part B if you want to delay",
-      "Keep documentation of your employer coverage in case you need to appeal a penalty later",
-    ],
+    costTable: {
+      title: "Medicare Delay Penalty Calculator (2026)",
+      headers: ["Scenario", "Part B Penalty", "Part D Penalty", "Notes"],
+      rows: [
+        { "Scenario": "Delay with qualifying employer (20+ employees)", "Part B Penalty": "None", "Part D Penalty": "None", "Notes": "Safest delay scenario" },
+        { "Scenario": "Delay 1 year without qualifying coverage", "Part B Penalty": "+10% permanently (~$20.29/month)", "Part D Penalty": "+12% of base premium/year", "Notes": "Costly mistake" },
+        { "Scenario": "Delay 2 years without qualifying coverage", "Part B Penalty": "+20% permanently (~$40.58/month)", "Part D Penalty": "+24% of base premium/year", "Notes": "Very costly" },
+        { "Scenario": "Delay with COBRA or retiree coverage", "Part B Penalty": "+10% per year missed", "Part D Penalty": "+1%/month without creditable Rx", "Notes": "Common mistake — COBRA does not qualify" },
+        { "Scenario": "Small employer (under 20 employees)", "Part B Penalty": "+10% per year if delayed", "Part D Penalty": "+1%/month without creditable Rx", "Notes": "Must enroll at 65" },
+      ],
+      footnote: "Part B base premium = $202.90/month in 2026. Part D base premium = $36.78/month in 2026.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions",
+      items: [
+        { title: "VA Coverage and Part B", text: "VA health benefits do not qualify as creditable coverage for Part B delay purposes. You should still enroll in Part B if eligible." },
+        { title: "Working Past 65 with Large Employer", text: "If your employer has 20+ employees and you are actively employed, you can delay Part B and Part D indefinitely without penalty." },
+        { title: "Social Security Before 65", text: "If you collect Social Security before 65, you are automatically enrolled in Part A and Part B at 65. You must actively opt out of Part B if you want to delay." },
+        { title: "FEHB (Federal Employees)", text: "Federal employees with FEHB coverage can delay Part B. FEHB is creditable coverage for both Part B and Part D delay purposes." },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Legislative Updates",
+      items: [
+        { title: "2026 Part B Premium: $202.90/month", status: "Passed", description: "The standard Part B premium increased to $202.90/month in 2026, making the 10% penalty worth $20.29/month per year of delay." },
+        { title: "Part D Base Premium: $36.78/month (2026)", status: "Passed", description: "The national base beneficiary premium for calculating Part D penalties is $36.78 in 2026." },
+        { title: "IRA Part D Redesign (2025)", status: "Passed", description: "The Inflation Reduction Act capped Part D OOP at $2,000 in 2025, making Part D enrollment more valuable than before." },
+      ],
+    },
+    alternativesSection: {
+      title: "Steps to Avoid Medicare Penalties",
+      paragraphs: [
+        "The best way to avoid Medicare penalties is to understand your coverage situation before you turn 65. If you have employer coverage, confirm your employer size and whether your drug plan is creditable. Keep documentation of all coverage periods.",
+        "If you are approaching the end of employer coverage, contact Social Security or Medicare.gov immediately to begin the enrollment process. Do not wait until the last minute — processing can take 4–6 weeks.",
+      ],
+      checklist: {
+        title: "Medicare Delay Checklist",
+        items: [
+          "Confirm your employer has 20+ employees before deciding to delay Part B",
+          "Verify your employer drug plan is 'creditable' — ask HR for a creditable coverage notice each year",
+          "Do NOT delay if you have COBRA, retiree coverage, or a marketplace plan",
+          "Set a reminder for your 8-month SEP window when employment ends",
+          "Enroll in Part A at 65 if it is premium-free — it does not affect employer coverage",
+          "If you receive Social Security before 65, actively opt out of Part B if you want to delay",
+          "Keep documentation of your employer coverage in case you need to appeal a penalty later",
+        ],
+        type: "warning",
+      },
+    },
     faqs: [
       { question: "Can I delay Medicare if I'm still working at 65?", answer: "Yes, if your employer has 20+ employees and you have active group coverage. You have an 8-month SEP after employment ends." },
       { question: "Does COBRA count as qualifying coverage to delay Medicare?", answer: "No. COBRA is secondary to Medicare. Delaying Part B while on COBRA triggers the late enrollment penalty." },
@@ -28036,6 +28107,11 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare Special Enrollment Periods", description: "When you can enroll outside standard windows.", slug: "medicare-special-enrollment-period" },
       { title: "When Does Medicare Start?", description: "Coverage start dates for all enrollment scenarios.", slug: "when-does-medicare-start" },
     ],
+    sidebarRelatedLinks: ["medicare-initial-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-special-enrollment-period"],
+    ctaBanner: {
+      title: "Not Sure If You Should Delay Medicare?",
+      text: "Our licensed agents can review your employer coverage situation and help you make the right Medicare enrollment decision — penalty-free.",
+    },
     relatedSlugs: ["medicare-initial-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-special-enrollment-period", "when-does-medicare-start"],
   },
   {
@@ -28047,14 +28123,25 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-and-mail-order-prescriptions.jpg",
     },
     title: "Medicare and Mail Order Prescriptions",
+    subtitle: "How to Use Part D Mail Order to Save Money",
     category: "Prescription Drugs",
     dateUpdated: "January 7, 2026",
-    author: { name: "David Haass", title: "Medicare Expert", credentials: "Licensed Insurance Agent" },
-    reviewer: { name: "Ashlee Zareczny", title: "Compliance Specialist", credentials: "Medicare Compliance" },
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
     readTime: "6 min read",
     quickAnswer: {
       text: "Medicare Part D plans offer mail order pharmacy options that typically provide a 90-day supply for the cost of a 60-day supply (or less). Mail order is best for maintenance medications you take regularly. In 2026, the Part D $2,000 out-of-pocket cap makes mail order even more valuable for managing costs.",
-      coverageBadges: [
+      badges: [
         { plan: "Part D", status: "covered" },
         { plan: "Medicare Advantage (MAPD)", status: "covered" },
         { plan: "Original Medicare", status: "not-covered" },
@@ -28157,33 +28244,55 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
     ],
-    costTable: [
-      { drugType: "Generic (maintenance)", retail30Day: "$10/month ($120/year)", mailOrder90Day: "$20/90 days ($80/year)", extraHelpMail: "$4.90 × 2 = $9.80/90 days", notes: "Best savings with mail order" },
-      { drugType: "Preferred brand", retail30Day: "$45/month ($540/year)", mailOrder90Day: "$90/90 days ($360/year)", extraHelpMail: "$12.15 × 2 = $24.30/90 days", notes: "Significant mail order savings" },
-      { drugType: "Non-preferred brand", retail30Day: "$95/month ($1,140/year)", mailOrder90Day: "$190/90 days ($760/year)", extraHelpMail: "$12.15 × 2 = $24.30/90 days", notes: "Check formulary for alternatives" },
-      { drugType: "Insulin", retail30Day: "$35/month cap", mailOrder90Day: "$35/month cap applies", extraHelpMail: "$4.90 copay", notes: "$35/month insulin cap applies at mail order" },
-      { drugType: "Specialty drug", retail30Day: "33% coinsurance (up to OOP cap)", mailOrder90Day: "33% coinsurance (up to OOP cap)", extraHelpMail: "$12.15 copay", notes: "OOP cap: $2,000 in 2026" },
-    ],
-    exceptions: [
-      { title: "Controlled Substances", description: "Most Schedule II controlled substances (e.g., opioids, stimulants) cannot be filled by mail order due to federal law." },
-      { title: "New Prescriptions", description: "Many plans require a first fill at a retail pharmacy before allowing mail order for a new medication." },
-      { title: "Specialty Medications", description: "Some specialty drugs require a specialty pharmacy rather than standard mail order. Check your plan's formulary." },
-      { title: "Preferred Retail as Alternative", description: "Some plans offer preferred retail pharmacies (e.g., Walmart, Costco) with 90-day supplies at mail order prices." },
-    ],
-    legislativeUpdates: [
-      { title: "Part D $2,000 OOP Cap (2025)", status: "passed", description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000/year starting in 2025, making mail order more valuable for high-cost drugs." },
-      { title: "$35 Insulin Cap Continues (2026)", status: "passed", description: "The $35/month insulin cap applies at all Part D pharmacies, including mail order, in 2026." },
-      { title: "10 Negotiated Drug Prices (2026)", status: "passed", description: "CMS negotiated prices for 10 high-cost drugs take effect in 2026, reducing costs at all pharmacies including mail order." },
-    ],
-    checklist: [
-      "Ask your doctor for a 90-day prescription for all maintenance medications",
-      "Verify your medication is on your plan's formulary at the mail order tier",
-      "Set up automatic refills to avoid running out of medications",
-      "Compare mail order vs. preferred retail pharmacy costs for your specific drugs",
-      "If you have Extra Help, confirm your reduced copays apply at the mail order pharmacy",
-      "Keep a list of your medications and refill dates to manage the 7–10 day shipping window",
-      "For specialty drugs, check if your plan requires a specialty pharmacy instead of mail order",
-    ],
+    costTable: {
+      title: "Mail Order vs. Retail Pharmacy Cost Comparison (2026)",
+      headers: ["Drug Type", "Retail 30-Day", "Mail Order 90-Day", "Extra Help Mail Order", "Notes"],
+      rows: [
+        { "Drug Type": "Generic (maintenance)", "Retail 30-Day": "$10/month ($120/year)", "Mail Order 90-Day": "$20/90 days ($80/year)", "Extra Help Mail Order": "$4.90 × 2 = $9.80/90 days", "Notes": "Best savings with mail order" },
+        { "Drug Type": "Preferred brand", "Retail 30-Day": "$45/month ($540/year)", "Mail Order 90-Day": "$90/90 days ($360/year)", "Extra Help Mail Order": "$12.15 × 2 = $24.30/90 days", "Notes": "Significant mail order savings" },
+        { "Drug Type": "Non-preferred brand", "Retail 30-Day": "$95/month ($1,140/year)", "Mail Order 90-Day": "$190/90 days ($760/year)", "Extra Help Mail Order": "$12.15 × 2 = $24.30/90 days", "Notes": "Check formulary for alternatives" },
+        { "Drug Type": "Insulin", "Retail 30-Day": "$35/month cap", "Mail Order 90-Day": "$35/month cap applies", "Extra Help Mail Order": "$4.90 copay", "Notes": "$35/month insulin cap applies at mail order" },
+        { "Drug Type": "Specialty drug", "Retail 30-Day": "33% coinsurance (up to OOP cap)", "Mail Order 90-Day": "33% coinsurance (up to OOP cap)", "Extra Help Mail Order": "$12.15 copay", "Notes": "OOP cap: $2,000 in 2026" },
+      ],
+      footnote: "Costs are illustrative examples. Actual copays depend on your specific Part D plan and drug tier.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions",
+      items: [
+        { title: "Controlled Substances", text: "Most Schedule II controlled substances (e.g., opioids, stimulants) cannot be filled by mail order due to federal law." },
+        { title: "New Prescriptions", text: "Many plans require a first fill at a retail pharmacy before allowing mail order for a new medication." },
+        { title: "Specialty Medications", text: "Some specialty drugs require a specialty pharmacy rather than standard mail order. Check your plan's formulary." },
+        { title: "Preferred Retail as Alternative", text: "Some plans offer preferred retail pharmacies (e.g., Walmart, Costco) with 90-day supplies at mail order prices." },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Legislative Updates",
+      items: [
+        { title: "Part D $2,000 OOP Cap (2025)", status: "Passed", description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000/year starting in 2025, making mail order more valuable for high-cost drugs." },
+        { title: "$35 Insulin Cap Continues (2026)", status: "Passed", description: "The $35/month insulin cap applies at all Part D pharmacies, including mail order, in 2026." },
+        { title: "10 Negotiated Drug Prices (2026)", status: "Passed", description: "CMS negotiated prices for 10 high-cost drugs take effect in 2026, reducing costs at all pharmacies including mail order." },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Get the Most from Mail Order",
+      paragraphs: [
+        "To maximize mail order savings, ask your doctor to write all maintenance prescriptions for a 90-day supply. Set up automatic refills through your plan's mail order portal and request refills at least 2 weeks before you run out.",
+        "Compare your plan's mail order copays against preferred retail pharmacies (like Walmart or Costco) — some plans offer equivalent 90-day pricing at preferred retail locations, which may be more convenient.",
+      ],
+      checklist: {
+        title: "Mail Order Prescription Checklist",
+        items: [
+          "Ask your doctor for a 90-day prescription for all maintenance medications",
+          "Verify your medication is on your plan's formulary at the mail order tier",
+          "Set up automatic refills to avoid running out of medications",
+          "Compare mail order vs. preferred retail pharmacy costs for your specific drugs",
+          "If you have Extra Help, confirm your reduced copays apply at the mail order pharmacy",
+          "Keep a list of your medications and refill dates to manage the 7–10 day shipping window",
+          "For specialty drugs, check if your plan requires a specialty pharmacy instead of mail order",
+        ],
+        type: "tip",
+      },
+    },
     faqs: [
       { question: "Does Medicare require me to use mail order?", answer: "No. Mail order is optional. Some plans offer incentives (lower copays) to encourage it, but retail pharmacy is always available." },
       { question: "Can I use any mail order pharmacy with Medicare?", answer: "No. You must use your Part D plan's designated mail order pharmacy. Using an out-of-network mail order pharmacy may result in no coverage." },
@@ -28204,6 +28313,12 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Part D Formulary", description: "How drug formularies work and how to check yours.", slug: "part-d-formulary" },
       { title: "Medicare Prescription Drug Coverage", description: "What Part D covers and what it doesn't.", slug: "medicare-and-prescription-drugs-whats-covered-and-whats-not" },
     ],
+    sidebarRelatedLinks: ["how-is-medicare-part-d-changing-in-2026", "medicare-extra-help-program", "part-d-formulary"],
+    ctaBanner: {
+      title: "Need Help Choosing a Part D Plan with Mail Order Benefits?",
+      text: "Our licensed agents can help you compare Part D plans and find the best mail order pharmacy options for your medications.",
+    },
     relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary"],
   },
+
 ];
