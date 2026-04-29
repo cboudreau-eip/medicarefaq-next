@@ -26723,6 +26723,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Reduction ranges from $0.10 to the full $202.90/month in 2026",
           "About 25% of MA plans offer this benefit for 2026",
         ],
+        whatItDoesntCover: [
+          "Does not reduce IRMAA surcharges (high-income enrollees still pay extra)",
+          "Does not apply to Part D, Medigap, or other Medicare premiums",
+          "Cannot be combined with Medicare Savings Program Part B payment",
+        ],
       },
       {
         planName: "How the Give Back Benefit Works",
@@ -26740,6 +26745,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "All plan members receive the same reduction amount",
           "Amount can change each year during Annual Enrollment Period (Oct 15 \u2013 Dec 7)",
           "Losing the plan means losing the give back benefit",
+        ],
+        whatItDoesntCover: [
+          "Does not apply if you have Original Medicare only",
+          "Does not offset IRMAA surcharges for high-income beneficiaries",
+          "Does not reduce Part D or Medigap premiums",
         ],
       },
       {
@@ -26759,6 +26769,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Full premium reduction is rare and geographically limited",
           "1,369 plans offer give back in 2026 (down from 1,556 in 2025)",
         ],
+        whatItDoesntCover: [
+          "Not available in all counties — rural and low-density areas often excluded",
+          "Plans with give back may have limited networks or formularies",
+          "Amounts can be reduced or eliminated at next Annual Enrollment Period",
+        ],
       },
       {
         planName: "How to Find Plans with a Give Back Benefit",
@@ -26775,6 +26790,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Click \"Plan Details\" for each plan to see the Part B premium reduction row",
           "Call 1-800-MEDICARE (1-800-633-4227) for help comparing plans",
           "Check during Annual Enrollment Period (Oct 15 \u2013 Dec 7) for next year",
+        ],
+        whatItDoesntCover: [
+          "Plans with give back are not always the best overall value — check total costs",
+          "Medicare Plan Finder does not filter exclusively by give back amount",
+          "Misleading TV ads may overstate give back amounts — verify on Medicare.gov",
         ],
         callout: {
           type: "warning",
@@ -26797,6 +26817,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Check drug formulary and pharmacy network before enrolling",
           "Low-income beneficiaries may qualify for Medicare Savings Programs (full premium paid)",
           "IRMAA appeal (SSA-44) can reduce surcharges after a qualifying life event",
+        ],
+        whatItDoesntCover: [
+          "Give back does not qualify you for Medicare Savings Programs (income-based)",
+          "Give back does not replace Extra Help for Part D costs",
+          "IRMAA reduction requires a separate SSA appeal — give back does not help",
         ],
       },
     ],
@@ -26952,6 +26977,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Providers cannot legally bill QMB enrollees for Medicare cost-sharing",
           "Automatically qualifies you for Extra Help (Part D LIS)",
         ],
+        whatItDoesntCover: [
+          "Does not cover Part D drug costs (separate Extra Help program applies)",
+          "Does not cover Medigap premiums",
+          "Does not cover Medicare Advantage plan premiums beyond Part B",
+        ],
       },
       {
         planName: "SLMB — Specified Low-Income Medicare Beneficiary",
@@ -26968,6 +26998,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Pays Part B premium only ($202.90/month in 2026)",
           "Does not cover deductibles, copays, or coinsurance",
           "Automatically qualifies you for Extra Help (Part D LIS)",
+        ],
+        whatItDoesntCover: [
+          "Does not pay Part A premiums or cost-sharing",
+          "Does not cover Part D costs (apply separately for Extra Help)",
+          "Does not cover dental, vision, or hearing services",
         ],
       },
       {
@@ -26986,6 +27021,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Pays Part B premium only",
           "Limited slots — first-come, first-served; reapply annually",
           "Does NOT automatically qualify for Extra Help",
+        ],
+        whatItDoesntCover: [
+          "Does not cover Part A premiums or cost-sharing",
+          "Does not cover Part D costs — apply for Extra Help separately",
+          "Slots are limited — not all eligible applicants may be enrolled",
         ],
         callout: {
           type: "warning",
@@ -27009,6 +27049,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "For disabled workers under 65 who returned to work",
           "Does NOT pay Part B premium or cost-sharing",
         ],
+        whatItDoesntCover: [
+          "Does not cover Part B premiums or cost-sharing",
+          "Does not cover Part D costs",
+          "Only available to working disabled individuals — not standard retirees",
+        ],
       },
       {
         planName: "How to Apply for a Medicare Savings Program",
@@ -27026,6 +27071,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Medicaid enrollees may be auto-enrolled in QMB",
           "Benefits are retroactive to the month you apply in most states",
           "Reapply annually — benefits do not automatically renew in all states",
+        ],
+        whatItDoesntCover: [
+          "Does not guarantee enrollment — income and resource limits apply",
+          "Does not cover Medigap or Medicare Advantage plan premiums",
+          "Does not provide retroactive coverage before application date",
         ],
       },
     ],
@@ -27180,6 +27230,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "2026 Part A deductible: $1,676/benefit period",
           "Part A coinsurance: $0 days 1–60; $419/day days 61–90; $838/day days 91+",
         ],
+        whatItDoesntCover: [
+          "Does not include long-term care or custodial care costs",
+          "Does not cap total out-of-pocket spending under Original Medicare alone",
+          "Does not cover dental, vision, or hearing premiums",
+        ],
       },
       {
         planName: "Medigap Cost-Sharing Plans: Plan K, L, M, N",
@@ -27198,6 +27253,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Plan N: Covers most costs; $20 office visit copay; $50 ER copay",
           "All four plans have lower premiums than Plan G or Plan F",
         ],
+        whatItDoesntCover: [
+          "Plan K and L do not cover 100% of costs until the annual OOP limit is reached",
+          "Plan M does not cover the Part A deductible in full",
+          "Plan N does not cover Part B excess charges",
+        ],
       },
       {
         planName: "Original Medicare Cost-Sharing Without Medigap",
@@ -27214,6 +27274,17 @@ export const coverageArticles: CoverageArticleData[] = [
           title: "No Annual Out-of-Pocket Cap",
           text: "Original Medicare has no annual out-of-pocket maximum. Without a Medigap plan or Medicare Advantage, you are exposed to unlimited cost-sharing for serious illnesses.",
         },
+        whatItCovers: [
+          "Part A hospital deductible ($1,676 per benefit period in 2026)",
+          "Part B deductible ($257/year in 2026)",
+          "Part B coinsurance (20% of Medicare-approved amount)",
+          "Part A coinsurance ($419/day for days 61–90 in hospital)",
+        ],
+        whatItDoesntCover: [
+          "No annual out-of-pocket maximum — costs are unlimited for serious illness",
+          "Does not cover dental, vision, hearing, or long-term care",
+          "Does not cover prescription drugs — requires separate Part D enrollment",
+        ],
       },
       {
         planName: "Medicare Advantage Cost-Sharing",
@@ -27229,6 +27300,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "2026 MA OOP cap: $9,350 in-network",
           "After OOP cap: plan pays 100% of covered services",
           "Network restrictions apply — out-of-network costs may be higher",
+        ],
+        whatItDoesntCover: [
+          "No annual out-of-pocket maximum — costs are unlimited without Medigap",
+          "Does not cover dental, vision, hearing, or long-term care",
+          "Does not cover prescription drugs — requires separate Part D plan",
         ],
       },
     ],
@@ -27384,6 +27460,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Continuous glucose monitors (CGMs) — covered since 2023",
           "Therapeutic shoes and inserts for diabetic foot disease",
         ],
+        whatItDoesntCover: [
+          "Does not cover insulin administered by injection pen (covered by Part D)",
+          "Does not cover non-enrolled DME suppliers — must use Medicare-approved supplier",
+          "Does not cover over-the-counter test strips or lancets without a prescription",
+        ],
       },
       {
         planName: "Part D: Insulin and Oral Diabetes Medications",
@@ -27402,6 +27483,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "2026 Part D OOP cap: $2,000/year",
           "Coverage varies by plan formulary — check your plan's drug list",
         ],
+        whatItDoesntCover: [
+          "Does not cover GLP-1 drugs (e.g., Ozempic) prescribed solely for weight loss",
+          "Does not cover insulin pump supplies under Part D (those are Part B)",
+          "Does not cover brand-name drugs at the same cost as generics",
+        ],
       },
       {
         planName: "Preventive Services for Diabetes",
@@ -27418,6 +27504,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Medical nutrition therapy (MNT): 3 hours first year + 2 hours/year follow-up",
           "Annual wellness visit: includes diabetes risk assessment",
           "Glaucoma screening: annually for high-risk (diabetes is a risk factor)",
+        ],
+        whatItDoesntCover: [
+          "Does not cover diabetes education if provider is not Medicare-certified",
+          "Does not cover nutritional supplements or meal replacement products",
+          "Does not cover routine foot care unless medically necessary",
         ],
       },
       {
@@ -27436,6 +27527,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "Must use Medicare-enrolled shoe supplier",
           "You pay 20% coinsurance after Part B deductible",
         ],
+        whatItDoesntCover: [
+          "Does not cover shoes or inserts for cosmetic purposes",
+          "Does not cover more than one pair of therapeutic shoes per calendar year",
+          "Does not cover foot care for non-diabetic conditions under this benefit",
+        ],
       },
       {
         planName: "Medicare Advantage and Extra Diabetes Benefits",
@@ -27453,6 +27549,11 @@ export const coverageArticles: CoverageArticleData[] = [
           "C-SNPs (Chronic Condition SNPs) for diabetic beneficiaries",
           "Gym membership / fitness benefits for weight management",
           "Meal delivery after hospitalization",
+        ],
+        whatItDoesntCover: [
+          "Does not guarantee C-SNP enrollment — must have qualifying chronic condition",
+          "Extra benefits vary by plan and county — not available in all areas",
+          "Does not cover services outside the plan's network without prior authorization",
         ],
       },
     ],
