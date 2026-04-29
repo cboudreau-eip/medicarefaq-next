@@ -24442,4 +24442,814 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["medicare-paperless-billing", "medicare-part-b-premiums", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
   },
+  /* ─── HOW TO FILE A MEDICARE CLAIM ─── */
+  {
+    slug: "how-to-file-a-medicare-claim",
+    seo: {
+      title: "How to File a Medicare Claim: Step-by-Step Guide (Form CMS-1490S) | MedicareFAQ",
+      description: "In most cases your provider files Medicare claims for you. Learn when and how to file your own Medicare claim using Form CMS-1490S, deadlines, and what to do if your provider refuses.",
+      canonical: "https://www.medicarefaq.com/faqs/how-to-file-a-medicare-claim/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-to-File-a-Medicare-Claim.jpg",
+    },
+    title: "How to File a Medicare Claim",
+    subtitle: "In most cases, your healthcare provider files Medicare claims on your behalf. But in rare situations, you may need to file your own claim using Form CMS-1490S.",
+    category: "Medicare FAQ",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is the founder and CEO of MedicareFAQ and a licensed Medicare insurance agent.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Medicare providers are required by law to file claims on your behalf for covered services. You should only need to file your own claim in rare situations — such as when a provider refuses to file, when you receive care from an opt-out provider, or when you need reimbursement for emergency care abroad. Use Form CMS-1490S and submit within 12 months of the date of service.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Provider Files Claim (Standard)",
+        coverage: "Provider submits claim directly to Medicare on your behalf",
+        icon: "shield-check",
+        notes: "Required by law for participating and non-participating providers; most common scenario",
+      },
+      {
+        planType: "You File Claim (Form CMS-1490S)",
+        coverage: "You submit Form CMS-1490S with itemized bill and supporting documents",
+        icon: "info",
+        notes: "Used when provider refuses, is opt-out, or for foreign emergency care",
+      },
+      {
+        planType: "Medicare Advantage Claim",
+        coverage: "Filed through your MA plan, not Medicare directly",
+        icon: "info",
+        notes: "Each MA plan has its own claims process and timely filing deadlines",
+      },
+      {
+        planType: "Medicare Appeal",
+        coverage: "Dispute a denied claim or coverage decision",
+        icon: "alert-triangle",
+        notes: "5-level appeals process; must file within 120 days of denial notice",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "When Do You Need to File Your Own Medicare Claim?",
+        icon: "help-circle",
+        iconColor: "text-blue-600",
+        coverageLabel: "When Self-Filing Is Required",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare-participating and non-participating providers are required by law to file claims with Medicare on your behalf. You should rarely need to file your own claim. However, there are specific situations where self-filing becomes necessary.",
+        ],
+        whatItCovers: [
+          "Your provider refuses to file a claim (this may be Medicare fraud — report it)",
+          "You received care from a Medicare opt-out provider (e.g., some concierge doctors)",
+          "You received emergency or urgent care outside the U.S. in a country with a Medicare reciprocal agreement",
+          "You paid out-of-pocket for a Medicare-covered service and want reimbursement",
+          "Your provider is not enrolled in Medicare but you believe the service is covered",
+        ],
+        whatItDoesntCover: [
+          "Medicare Advantage claims must go through your MA plan, not Medicare directly",
+          "Part D drug claims must go through your Part D plan",
+        ],
+        callout: {
+          type: "warning",
+          title: "Provider Refusing to File?",
+          text: "If a Medicare-enrolled provider refuses to file a claim on your behalf, this is likely a violation of Medicare rules. Report it to 1-800-MEDICARE (1-800-633-4227) or the HHS Office of Inspector General.",
+        },
+      },
+      {
+        planName: "How to File a Medicare Claim: Step-by-Step",
+        icon: "file-text",
+        iconColor: "text-green-600",
+        coverageLabel: "Form CMS-1490S Process",
+        coverageType: "covered",
+        paragraphs: [
+          "To file your own Medicare claim, you'll use Form CMS-1490S, the Patient's Request for Medical Payment. This form is available on the CMS website and must be submitted with supporting documentation.",
+        ],
+        whatItCovers: [
+          "Step 1: Download Form CMS-1490S from CMS.gov or request it by calling 1-800-MEDICARE",
+          "Step 2: Complete all sections of the form (patient info, provider info, description of services)",
+          "Step 3: Attach an itemized bill from your provider showing: date of service, description of service, diagnosis/condition treated, provider name and NPI, amount charged",
+          "Step 4: Attach any other supporting documents (referral, prior authorization if required)",
+          "Step 5: Mail the completed form and documents to your Medicare Administrative Contractor (MAC) — the address is on the back of your Medicare Summary Notice (MSN)",
+          "Step 6: Keep copies of everything you submit",
+        ],
+        whatItDoesntCover: [
+          "Do not send original documents — send copies only",
+          "Claims submitted without an itemized bill will be rejected",
+        ],
+        callout: {
+          type: "info",
+          title: "Where to Find Your MAC Address",
+          text: "Your Medicare Administrative Contractor (MAC) address is printed on the back of your Medicare Summary Notice (MSN). You can also find it by calling 1-800-MEDICARE or visiting Medicare.gov.",
+        },
+      },
+      {
+        planName: "Medicare Claim Filing Deadlines",
+        icon: "clock",
+        iconColor: "text-amber-600",
+        coverageLabel: "Timely Filing Requirements",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare has strict timely filing requirements. Missing the deadline means your claim will be denied and you will be responsible for the full cost of the service.",
+        ],
+        whatItCovers: [
+          "Original Medicare (Part A & B): Claims must be filed within 12 months (1 calendar year) of the date of service",
+          "Medicare Advantage: Varies by plan — typically 90 days to 1 year; check your plan's Evidence of Coverage",
+          "Part D: Varies by plan — typically 90 days to 1 year after the date of service",
+          "Exceptions may apply for retroactive Medicare enrollment or late enrollment in Medicare",
+        ],
+        whatItDoesntCover: [
+          "No exceptions are made for late filing due to not knowing about the deadline",
+          "Provider errors do not automatically extend your filing deadline",
+        ],
+        callout: {
+          type: "warning",
+          title: "12-Month Deadline Is Strict",
+          text: "For Original Medicare, the 12-month timely filing deadline is firm. If you paid out-of-pocket for a covered service, file your claim as soon as possible — don't wait.",
+        },
+      },
+      {
+        planName: "What Happens After You File",
+        icon: "check-circle",
+        iconColor: "text-teal-600",
+        coverageLabel: "After Submission",
+        coverageType: "covered",
+        paragraphs: [
+          "After you submit your claim, Medicare will process it and send you a Medicare Summary Notice (MSN) explaining what was covered, what Medicare paid, and what you owe. If the claim is denied, you have the right to appeal.",
+        ],
+        whatItCovers: [
+          "You'll receive a Medicare Summary Notice (MSN) within 30 days of claim processing",
+          "If approved: Medicare pays its share; you receive reimbursement for any overpayment",
+          "If denied: You have 120 days from the MSN date to file a Redetermination (Level 1 appeal)",
+          "5-level appeals process: Redetermination → Reconsideration → ALJ Hearing → Medicare Appeals Council → Federal Court",
+        ],
+        whatItDoesntCover: [],
+      },
+    ],
+    costTable: {
+      title: "Medicare Claim Filing: Key Facts",
+      headers: ["Item", "Original Medicare", "Medicare Advantage", "Part D"],
+      rows: [
+        { "Item": "Who files claim", "Original Medicare": "Provider (or you via CMS-1490S)", "Medicare Advantage": "Provider files to MA plan", "Part D": "Pharmacy or you to plan" },
+        { "Item": "Filing deadline", "Original Medicare": "12 months from date of service", "Medicare Advantage": "Varies by plan (90 days–1 year)", "Part D": "Varies by plan" },
+        { "Item": "Form used", "Original Medicare": "CMS-1490S (patient self-filing)", "Medicare Advantage": "Plan-specific form", "Part D": "Plan-specific form" },
+        { "Item": "Where to submit", "Original Medicare": "Your Medicare Administrative Contractor (MAC)", "Medicare Advantage": "Your MA plan directly", "Part D": "Your Part D plan directly" },
+        { "Item": "Appeal deadline", "Original Medicare": "120 days from MSN date", "Medicare Advantage": "60 days from denial notice", "Part D": "60 days from denial notice" },
+      ],
+      footnote: "Always keep copies of all submitted documents. Provider-filed claims are the standard; self-filing is only needed in rare circumstances.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Special Situations",
+      items: [
+        {
+          title: "Opt-Out Providers",
+          text: "Some providers have formally opted out of Medicare entirely. They cannot file Medicare claims, and Medicare will not pay for services from opt-out providers except in emergencies. You must sign a Private Contract with an opt-out provider and pay their full fee out-of-pocket.",
+          highlight: "Medicare will not reimburse services from opt-out providers (except emergencies).",
+        },
+        {
+          title: "Foreign Emergency Care",
+          text: "Original Medicare generally does not cover care outside the U.S. However, limited exceptions exist for emergency care in Canada or Mexico if you live near the border, or on a ship within 6 hours of a U.S. port. Some Medigap plans (C, D, F, G, M, N) cover foreign emergency care up to $50,000 lifetime.",
+        },
+        {
+          title: "Advance Beneficiary Notice (ABN)",
+          text: "If a provider believes Medicare may not cover a service, they must give you an Advance Beneficiary Notice (ABN) before providing the service. If you sign the ABN and receive the service, you may be responsible for the cost if Medicare denies the claim.",
+        },
+        {
+          title: "Medicare Secondary Payer",
+          text: "If Medicare is your secondary payer (e.g., you have employer coverage), your primary insurer must process the claim first. Medicare then pays the remaining covered amount. Claims must still be filed with Medicare within 12 months.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Updates",
+      items: [
+        {
+          title: "CMS Claims Processing Modernization (2025)",
+          status: "Passed",
+          description: "CMS updated its claims processing systems in 2025 to reduce processing times and improve the Medicare Summary Notice (MSN) format for beneficiaries.",
+        },
+        {
+          title: "Medicare.gov Claims Portal Improvements",
+          status: "Passed",
+          description: "The Medicare.gov online portal was updated in 2025 to allow beneficiaries to track claim status, view MSNs, and initiate appeals online.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Medicare Claim Filing Checklist",
+      paragraphs: [
+        "If you need to file your own Medicare claim, follow these steps to maximize your chances of approval.",
+      ],
+      checklist: {
+        title: "Self-Filing Checklist",
+        items: [
+          "Download Form CMS-1490S from CMS.gov",
+          "Obtain an itemized bill from your provider (date, service description, diagnosis, NPI, amount)",
+          "Attach any required supporting documents (referrals, prior authorizations)",
+          "Find your MAC address on the back of your Medicare Summary Notice",
+          "Make copies of everything before mailing",
+          "Mail via certified mail with return receipt for proof of submission",
+          "Track your claim status at Medicare.gov or by calling 1-800-MEDICARE",
+          "If denied, file a Redetermination appeal within 120 days",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "Do I need to file my own Medicare claim?",
+        answer: "Usually no. Medicare-enrolled providers are required by law to file claims on your behalf. You only need to self-file in rare cases, such as when a provider refuses to file or when you see an opt-out provider.",
+      },
+      {
+        question: "What form do I use to file a Medicare claim?",
+        answer: "Use Form CMS-1490S (Patient's Request for Medical Payment). Download it from CMS.gov or request it by calling 1-800-MEDICARE.",
+      },
+      {
+        question: "What is the deadline to file a Medicare claim?",
+        answer: "For Original Medicare, claims must be filed within 12 months (1 calendar year) of the date of service. Missing this deadline means the claim will be denied.",
+      },
+      {
+        question: "What if my provider refuses to file a Medicare claim?",
+        answer: "A Medicare-enrolled provider refusing to file is likely violating Medicare rules. Report it to 1-800-MEDICARE or the HHS Office of Inspector General, and file the claim yourself using Form CMS-1490S.",
+      },
+      {
+        question: "How do I appeal a denied Medicare claim?",
+        answer: "File a Redetermination request within 120 days of receiving your Medicare Summary Notice (MSN). There are 5 levels of appeal: Redetermination, Reconsideration, ALJ Hearing, Medicare Appeals Council, and Federal Court.",
+      },
+    ],
+    quickReference: [
+      { icon: "info", text: "Providers are required to file Medicare claims for you — self-filing is rare" },
+      { icon: "check", text: "Use Form CMS-1490S if you must file your own claim" },
+      { icon: "alert", text: "12-month timely filing deadline for Original Medicare — no exceptions" },
+      { icon: "check", text: "Keep copies of all submitted documents" },
+      { icon: "alert", text: "Medicare Advantage claims go to your MA plan, not Medicare directly" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Reimbursement", description: "How to get reimbursed for Medicare-covered services.", slug: "medicare-reimbursement" },
+      { title: "Advance Beneficiary Notice", description: "What an ABN means and when you'll receive one.", slug: "advance-beneficiary-notice" },
+      { title: "Medicare Assignment", description: "How Medicare assignment affects your costs.", slug: "what-is-medicare-assignment" },
+      { title: "Medicare Appeals", description: "How to appeal a denied Medicare claim.", slug: "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor" },
+    ],
+    sidebarRelatedLinks: ["Medicare Reimbursement", "ABN", "Medicare Assignment", "Medicare Appeals"],
+    ctaBanner: {
+      title: "Questions About Medicare Claims?",
+      text: "Our licensed agents can help you navigate Medicare claims, appeals, and coverage decisions.",
+    },
+    relatedSlugs: ["medicare-reimbursement", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "advance-beneficiary-notice"],
+  },
+  /* ─── MEDIGAP BIRTHDAY RULE ─── */
+  {
+    slug: "medigap-birthday-rule",
+    seo: {
+      title: "Medigap Birthday Rule: Which States Have It and How to Use It | MedicareFAQ",
+      description: "The Medigap birthday rule gives you a limited window each year to switch Medicare Supplement plans without medical underwriting. Learn which states have it and how to use it.",
+      canonical: "https://www.medicarefaq.com/faqs/medigap-birthday-rule/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/what-states-have-the-medigap-birthday-rule.jpg",
+    },
+    title: "What States Have the Medigap Birthday Rule?",
+    subtitle: "The Medigap birthday rule gives you a limited annual window to switch Medicare Supplement plans without answering health questions — but only in certain states.",
+    category: "Medicare Supplements",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "The Medigap birthday rule is a state-level consumer protection that gives Medicare Supplement enrollees a limited window each year — typically 30 to 63 days around their birthday — to switch to an equal or lesser Medigap plan without medical underwriting (no health questions). As of 2026, approximately 15 states have enacted some form of birthday rule or anniversary rule.",
+      badges: [
+        { plan: "Medigap", status: "covered" },
+        { plan: "California", status: "covered" },
+        { plan: "Oregon", status: "covered" },
+        { plan: "Idaho", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Birthday Rule States",
+        coverage: "Annual window to switch Medigap plans without underwriting",
+        icon: "shield-check",
+        notes: "~15 states as of 2026; window is 30–63 days around birthday",
+      },
+      {
+        planType: "Initial Enrollment Period (IEP)",
+        coverage: "6-month guaranteed issue window when you first enroll in Part B",
+        icon: "shield-check",
+        notes: "Federal right; available in all states; best time to enroll in Medigap",
+      },
+      {
+        planType: "Guaranteed Issue Rights",
+        coverage: "Federal right to enroll without underwriting in specific situations",
+        icon: "shield-check",
+        notes: "Triggered by plan termination, losing employer coverage, moving out of plan area",
+      },
+      {
+        planType: "Non-Birthday Rule States",
+        coverage: "No annual switching window; medical underwriting required outside IEP",
+        icon: "alert-triangle",
+        notes: "Most states; you can be denied or charged more based on health history",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is the Medigap Birthday Rule?",
+        icon: "calendar",
+        iconColor: "text-blue-600",
+        coverageLabel: "Annual Switching Window",
+        coverageType: "covered",
+        paragraphs: [
+          "There is no federal annual open enrollment period for Medigap (Medicare Supplement) plans. Outside of your Initial Enrollment Period, insurers in most states can use medical underwriting — meaning they can charge you more or deny coverage based on your health history.",
+          "The Medigap birthday rule is a state-level protection that creates an annual window around your birthday during which you can switch to a Medigap plan with equal or lesser benefits without underwriting. This gives you the ability to shop for a lower premium each year.",
+        ],
+        whatItCovers: [
+          "Switch to any Medigap plan with equal or lesser benefits without answering health questions",
+          "Cannot be denied coverage or charged more due to pre-existing conditions during the window",
+          "Window is typically 30–63 days starting on or around your birthday",
+          "Available to current Medigap enrollees (not for first-time enrollment)",
+        ],
+        whatItDoesntCover: [
+          "Cannot upgrade to a plan with more benefits (e.g., Plan N to Plan G) without underwriting",
+          "Does not apply to Medicare Advantage plans",
+          "Not available in states without a birthday rule",
+        ],
+        callout: {
+          type: "info",
+          title: "Equal or Lesser Benefits",
+          text: "Most birthday rule states limit switches to plans with equal or lesser benefits. For example, you can switch from Plan G to Plan G (same benefits, lower premium) or from Plan G to Plan N (lesser benefits). You generally cannot switch from Plan N to Plan G using the birthday rule.",
+        },
+      },
+      {
+        planName: "States With the Medigap Birthday Rule (2026)",
+        icon: "map-pin",
+        iconColor: "text-green-600",
+        coverageLabel: "State-by-State Guide",
+        coverageType: "covered",
+        paragraphs: [
+          "As of 2026, approximately 15 states have enacted a Medigap birthday rule or similar anniversary rule. The rules vary by state in terms of window length, eligible plans, and age restrictions.",
+        ],
+        whatItCovers: [
+          "California: 60-day window starting on birthday; equal or lesser benefits; all ages",
+          "Oregon: 31-day window starting on birthday; equal or lesser benefits; all ages",
+          "Idaho: 63-day window starting on birthday; equal or lesser benefits; all ages",
+          "Illinois: 45-day window from birthday; equal or lesser benefits; ages 65–75 only",
+          "Nevada: 60-day window starting on birthday; equal or lesser benefits; all ages",
+          "Louisiana: 30-day window starting on birthday; equal or lesser benefits",
+          "Maryland: 31-day window starting on birthday; equal or lesser benefits",
+          "Kentucky: 60-day window starting on birthday; equal or lesser benefits",
+          "Indiana: 60-day window (effective January 1, 2026); equal or lesser benefits",
+          "Delaware: Available as of January 1, 2026; check state rules for details",
+          "Missouri, Wisconsin, New York, Massachusetts, Connecticut: Have continuous or open enrollment protections (not birthday-specific but similar effect)",
+        ],
+        whatItDoesntCover: [
+          "Rules change frequently — always verify current state rules before switching",
+          "Some states limit the birthday rule to specific age ranges",
+        ],
+      },
+      {
+        planName: "How to Use the Birthday Rule",
+        icon: "check-circle",
+        iconColor: "text-teal-600",
+        coverageLabel: "Step-by-Step Process",
+        coverageType: "covered",
+        paragraphs: [
+          "Using the birthday rule is straightforward, but timing is critical. Missing your window means waiting another year or facing medical underwriting.",
+        ],
+        whatItCovers: [
+          "Step 1: Confirm your state has a birthday rule and check the exact window dates",
+          "Step 2: Shop for Medigap plans with equal or lesser benefits at a lower premium",
+          "Step 3: Apply for the new plan during your birthday window",
+          "Step 4: The new insurer cannot ask health questions or deny you during the window",
+          "Step 5: Once approved, cancel your old plan (coordinate start/end dates carefully)",
+          "Step 6: Do not cancel your old plan until the new one is confirmed in writing",
+        ],
+        whatItDoesntCover: [
+          "Do not cancel your old plan before the new one is confirmed",
+          "Missing the window means waiting until next year or facing underwriting",
+        ],
+        callout: {
+          type: "tip",
+          title: "Shop 60–90 Days Before Your Birthday",
+          text: "Start comparing Medigap plans 60–90 days before your birthday so you're ready to apply as soon as your window opens. Premiums for the same plan can vary significantly between insurers.",
+        },
+      },
+      {
+        planName: "What If Your State Doesn't Have a Birthday Rule?",
+        icon: "alert-circle",
+        iconColor: "text-amber-600",
+        coverageLabel: "Non-Birthday Rule States",
+        coverageType: "partial",
+        paragraphs: [
+          "If you live in a state without a birthday rule, you can still switch Medigap plans, but you'll likely face medical underwriting. Insurers can ask health questions and may charge more or deny coverage based on your health history.",
+        ],
+        whatItCovers: [
+          "Federal Guaranteed Issue Rights: Triggered by specific events (plan termination, losing employer coverage, moving out of MA plan area)",
+          "Trial Right: If you tried Medicare Advantage for the first time, you have 12 months to switch back to Original Medicare and enroll in Medigap without underwriting",
+          "Some states have continuous open enrollment or community rating that limits underwriting",
+          "You can always apply for Medigap with underwriting — you may be approved even with health conditions",
+        ],
+        whatItDoesntCover: [
+          "No guaranteed right to switch without underwriting in non-birthday-rule states",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medigap Birthday Rule: State Comparison",
+      headers: ["State", "Window Length", "Starts", "Age Limit", "Benefit Restriction"],
+      rows: [
+        { "State": "California", "Window Length": "60 days", "Starts": "Birthday", "Age Limit": "None", "Benefit Restriction": "Equal or lesser" },
+        { "State": "Oregon", "Window Length": "31 days", "Starts": "Birthday", "Age Limit": "None", "Benefit Restriction": "Equal or lesser" },
+        { "State": "Idaho", "Window Length": "63 days", "Starts": "Birthday", "Age Limit": "None", "Benefit Restriction": "Equal or lesser" },
+        { "State": "Illinois", "Window Length": "45 days", "Starts": "Birthday", "Age Limit": "65–75", "Benefit Restriction": "Equal or lesser" },
+        { "State": "Nevada", "Window Length": "60 days", "Starts": "Birthday", "Age Limit": "None", "Benefit Restriction": "Equal or lesser" },
+        { "State": "Louisiana", "Window Length": "30 days", "Starts": "Birthday", "Age Limit": "None", "Benefit Restriction": "Equal or lesser" },
+        { "State": "Maryland", "Window Length": "31 days", "Starts": "Birthday", "Age Limit": "None", "Benefit Restriction": "Equal or lesser" },
+        { "State": "Kentucky", "Window Length": "60 days", "Starts": "Birthday", "Age Limit": "None", "Benefit Restriction": "Equal or lesser" },
+        { "State": "Indiana", "Window Length": "60 days", "Starts": "Birthday", "Age Limit": "None", "Benefit Restriction": "Equal or lesser" },
+      ],
+      footnote: "Rules change frequently. Always verify current state rules with your state's Department of Insurance before switching plans.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Notes",
+      items: [
+        {
+          title: "Missouri Anniversary Rule",
+          text: "Missouri has an \"anniversary rule\" rather than a birthday rule. Missouri Medigap enrollees have a 30-day window each year on the anniversary of their plan enrollment date (not their birthday) to switch to an equal or lesser plan without underwriting.",
+        },
+        {
+          title: "States With Continuous Open Enrollment",
+          text: "New York, Massachusetts, Connecticut, and Maine have continuous open enrollment or community rating laws that provide broader protections than the birthday rule. In these states, insurers generally cannot use medical underwriting at all.",
+          highlight: "NY, MA, CT, and ME have stronger protections than the birthday rule.",
+        },
+        {
+          title: "Plan F and Plan C Availability",
+          text: "Plans F and C are only available to people who became eligible for Medicare before January 1, 2020. If you're using the birthday rule, you cannot switch to Plan F or C if you became Medicare-eligible on or after January 1, 2020.",
+        },
+        {
+          title: "Birthday Rule Does Not Apply to Medicare Advantage",
+          text: "The Medigap birthday rule only applies to Medicare Supplement (Medigap) plans. It does not affect Medicare Advantage plan switching, which has its own Annual Enrollment Period (October 15 – December 7).",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent State Enactments (2025–2026)",
+      items: [
+        {
+          title: "Indiana Birthday Rule (Effective January 1, 2026)",
+          status: "Passed",
+          description: "Indiana enacted a Medigap birthday rule effective January 1, 2026, giving enrollees a 60-day window around their birthday to switch to an equal or lesser plan without underwriting.",
+        },
+        {
+          title: "Delaware Birthday Rule (Effective January 1, 2026)",
+          status: "Passed",
+          description: "Delaware enacted a Medigap birthday rule effective January 1, 2026. Check the Delaware Department of Insurance for specific window and eligibility details.",
+        },
+        {
+          title: "Additional States Considering Birthday Rule Legislation",
+          status: "Proposed",
+          description: "Several additional states have introduced birthday rule legislation in 2025–2026 legislative sessions. Check your state's Department of Insurance for the latest status.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Maximize Your Birthday Rule Opportunity",
+      paragraphs: [
+        "The birthday rule is one of the best opportunities to lower your Medigap premium without risking your coverage. Here's how to make the most of it.",
+      ],
+      checklist: {
+        title: "Birthday Rule Checklist",
+        items: [
+          "Confirm your state has a birthday rule and check the exact window dates",
+          "Start shopping 60–90 days before your birthday",
+          "Compare premiums for the same or lesser plan across multiple insurers",
+          "Apply for the new plan during your birthday window",
+          "Get written confirmation of approval before canceling your old plan",
+          "Coordinate start/end dates to avoid a gap in coverage",
+          "Work with a licensed independent Medicare agent for unbiased comparison",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "What is the Medigap birthday rule?",
+        answer: "The Medigap birthday rule is a state law that gives you a limited annual window around your birthday to switch to a Medigap plan with equal or lesser benefits without medical underwriting.",
+      },
+      {
+        question: "Which states have the Medigap birthday rule?",
+        answer: "As of 2026, approximately 15 states have some form of birthday or anniversary rule, including California, Oregon, Idaho, Illinois, Nevada, Louisiana, Maryland, Kentucky, Indiana, and Delaware.",
+      },
+      {
+        question: "Can I upgrade my Medigap plan using the birthday rule?",
+        answer: "Generally no. Most states limit birthday rule switches to plans with equal or lesser benefits. You cannot use the birthday rule to upgrade to a plan with more benefits.",
+      },
+      {
+        question: "What if I miss my birthday rule window?",
+        answer: "If you miss your window, you'll need to wait until next year or apply with medical underwriting. You may still be approved with underwriting even if you have health conditions.",
+      },
+      {
+        question: "Does the birthday rule apply to Medicare Advantage?",
+        answer: "No. The Medigap birthday rule only applies to Medicare Supplement plans. Medicare Advantage has its own Annual Enrollment Period (October 15 – December 7).",
+      },
+    ],
+    quickReference: [
+      { icon: "info", text: "~15 states have a Medigap birthday rule as of 2026" },
+      { icon: "check", text: "Switch to equal or lesser plan without health questions during your window" },
+      { icon: "alert", text: "Most states limit switches to equal or lesser benefits — no upgrades" },
+      { icon: "check", text: "Start shopping 60–90 days before your birthday" },
+      { icon: "alert", text: "Get written approval before canceling your current plan" },
+    ],
+    relatedTopics: [
+      { title: "Illinois Birthday Rule", description: "How the birthday rule works in Illinois.", slug: "illinois-birthday-rule" },
+      { title: "California Birthday Rule", description: "California's 60-day Medigap switching window.", slug: "medigap-birthday-rule" },
+      { title: "Nevada Birthday Rule", description: "How the birthday rule works in Nevada.", slug: "nevada-birthday-rule" },
+      { title: "Maryland Birthday Rule", description: "How the birthday rule works in Maryland.", slug: "maryland-medicare-supplement-birthday-rule" },
+    ],
+    sidebarRelatedLinks: ["Illinois Birthday Rule", "Louisiana Birthday Rule", "Kentucky Birthday Rule", "Nevada Birthday Rule"],
+    ctaBanner: {
+      title: "Ready to Use Your Birthday Rule?",
+      text: "Our licensed agents can help you compare Medigap plans and switch during your birthday window to get the best rate.",
+    },
+    relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "maryland-medicare-supplement-birthday-rule"],
+  },
+  /* ─── WHAT IS MEDICARE ASSIGNMENT ─── */
+  {
+    slug: "what-is-medicare-assignment",
+    seo: {
+      title: "Medicare Assignment: What It Means and How It Affects Your Costs | MedicareFAQ",
+      description: "Medicare assignment means a provider agrees to accept Medicare's approved amount as full payment. Learn how it affects your costs and what happens when a doctor doesn't accept assignment.",
+      canonical: "https://www.medicarefaq.com/faqs/what-is-medicare-assignment/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/What-is-Medicare-Assignment-What-Doctors-Accept-It.jpg",
+    },
+    title: "Medicare Assignment",
+    subtitle: "When a provider \"accepts Medicare assignment,\" they agree to accept Medicare's approved amount as full payment for a service. This directly affects how much you pay out-of-pocket.",
+    category: "Medicare FAQ",
+    dateUpdated: "April 29, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Medicare assignment means a healthcare provider agrees to accept the Medicare-approved amount as full payment for a covered service. You are only responsible for your deductible and 20% coinsurance of the approved amount — nothing more. Providers who don't accept assignment can charge up to 15% above the Medicare-approved amount (called an \"excess charge\"). Opt-out providers are not bound by Medicare's fee schedule at all.",
+      badges: [
+        { plan: "Part B", status: "covered" },
+        { plan: "Participating Providers", status: "covered" },
+        { plan: "Non-Participating", status: "partial" },
+        { plan: "Opt-Out", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      {
+        planType: "Participating Provider (Accepts Assignment)",
+        coverage: "Accepts Medicare-approved amount as full payment",
+        icon: "shield-check",
+        notes: "You pay deductible + 20% coinsurance of approved amount only; no excess charges",
+      },
+      {
+        planType: "Non-Participating Provider",
+        coverage: "Enrolled in Medicare but doesn't always accept assignment",
+        icon: "info",
+        notes: "Can charge up to 15% above Medicare-approved amount (excess charge)",
+      },
+      {
+        planType: "Opt-Out Provider",
+        coverage: "Has formally opted out of Medicare entirely",
+        icon: "alert-triangle",
+        notes: "Not bound by Medicare fee schedule; Medicare will not pay; you pay full price",
+      },
+      {
+        planType: "Medigap Plan G or F",
+        coverage: "Covers Part B excess charges from non-participating providers",
+        icon: "shield-check",
+        notes: "Plan F and G cover the 15% excess charge; Plan N does not",
+      },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Does \"Accepting Medicare Assignment\" Mean?",
+        icon: "check-circle",
+        iconColor: "text-blue-600",
+        coverageLabel: "Assignment Explained",
+        coverageType: "covered",
+        paragraphs: [
+          "When a provider accepts Medicare assignment, they agree to: (1) accept Medicare's approved amount as the maximum they can charge for a covered service, and (2) receive payment directly from Medicare.",
+          "The Medicare-approved amount is set by CMS in the Medicare Physician Fee Schedule. The provider cannot charge you more than this amount for covered services.",
+        ],
+        whatItCovers: [
+          "Provider bills Medicare directly and accepts the approved amount as full payment",
+          "You pay: Part B deductible ($257 in 2026) + 20% coinsurance of the approved amount",
+          "Provider cannot bill you for the difference between their usual fee and Medicare's approved amount",
+          "Applies to Part B services: doctor visits, outpatient care, durable medical equipment, lab tests",
+        ],
+        whatItDoesntCover: [
+          "Does not apply to Part A (hospital) services",
+          "Does not apply to Medicare Advantage — MA plans have their own network and cost-sharing",
+        ],
+        callout: {
+          type: "info",
+          title: "Example: How Assignment Works",
+          text: "Medicare approves $200 for a specialist visit. A participating provider accepts this as full payment. Medicare pays 80% ($160); you pay 20% ($40) plus any remaining deductible. A non-participating provider could charge up to $230 ($200 × 1.15), meaning you'd owe up to $70.",
+        },
+      },
+      {
+        planName: "Participating vs. Non-Participating vs. Opt-Out Providers",
+        icon: "git-compare",
+        iconColor: "text-purple-600",
+        coverageLabel: "Three Types of Providers",
+        coverageType: "partial",
+        paragraphs: [
+          "There are three categories of Medicare providers, each with different rules about what they can charge you.",
+        ],
+        whatItCovers: [
+          "Participating: Signed agreement to always accept assignment; cannot charge excess fees",
+          "Non-participating: Enrolled in Medicare but can choose to accept or refuse assignment per claim; can charge up to 15% above approved amount",
+          "Opt-out: Formally opted out of Medicare; signed private contracts with patients; Medicare pays nothing; you pay full fee",
+          "About 95% of Medicare providers are participating (accept assignment)",
+        ],
+        whatItDoesntCover: [
+          "Opt-out providers: Medicare will not pay for their services (except emergencies)",
+          "Non-participating providers: Can charge excess fees up to 15% above approved amount",
+        ],
+      },
+      {
+        planName: "Part B Excess Charges",
+        icon: "dollar-sign",
+        iconColor: "text-amber-600",
+        coverageLabel: "The 15% Limiting Charge",
+        coverageType: "partial",
+        paragraphs: [
+          "If a non-participating provider does not accept assignment on a claim, they can charge up to 15% above the Medicare-approved amount. This extra amount is called a \"Part B excess charge\" or \"limiting charge.\"",
+          "Most Medigap plans do not cover excess charges. However, Medigap Plan F and Plan G do cover Part B excess charges, protecting you from this additional cost.",
+        ],
+        whatItCovers: [
+          "Non-participating provider can charge up to 115% of Medicare-approved amount",
+          "The 15% excess is your responsibility unless you have Plan F or Plan G",
+          "Medigap Plan G: Covers Part B excess charges (available to all new enrollees)",
+          "Medigap Plan F: Covers Part B excess charges (only for those eligible before Jan 1, 2020)",
+          "Medigap Plan N: Does NOT cover Part B excess charges",
+        ],
+        whatItDoesntCover: [
+          "Plan N, Plan A, Plan B, Plan K, Plan L, Plan M do not cover excess charges",
+        ],
+        callout: {
+          type: "tip",
+          title: "How to Avoid Excess Charges",
+          text: "The easiest way to avoid Part B excess charges is to always use participating providers (those who accept Medicare assignment). You can verify assignment status at Medicare.gov/care-compare or by calling 1-800-MEDICARE.",
+        },
+      },
+      {
+        planName: "How to Find Providers That Accept Medicare Assignment",
+        icon: "search",
+        iconColor: "text-teal-600",
+        coverageLabel: "Finding Participating Providers",
+        coverageType: "covered",
+        paragraphs: [
+          "Before scheduling a visit, it's important to confirm that your provider accepts Medicare assignment. About 95% of Medicare-enrolled providers are participating, but it's always worth verifying.",
+        ],
+        whatItCovers: [
+          "Use Medicare.gov/care-compare to search for providers by name, specialty, or location",
+          "Call the provider's office directly and ask: \"Do you accept Medicare assignment?\"",
+          "Call 1-800-MEDICARE (1-800-633-4227) to verify a specific provider",
+          "Check your Medicare Summary Notice (MSN) after a visit to see how the claim was processed",
+        ],
+        whatItDoesntCover: [],
+      },
+    ],
+    costTable: {
+      title: "Medicare Assignment: Cost Comparison by Provider Type",
+      headers: ["Provider Type", "Medicare Pays", "You Pay (After Deductible)", "Excess Charge", "Medigap Covers Excess?"],
+      rows: [
+        { "Provider Type": "Participating (accepts assignment)", "Medicare Pays": "80% of approved amount", "You Pay (After Deductible)": "20% of approved amount", "Excess Charge": "None", "Medigap Covers Excess?": "N/A" },
+        { "Provider Type": "Non-participating (no assignment)", "Medicare Pays": "80% of approved amount", "You Pay (After Deductible)": "20% + up to 15% excess", "Excess Charge": "Up to 15% above approved", "Medigap Covers Excess?": "Plan F and G only" },
+        { "Provider Type": "Opt-out provider", "Medicare Pays": "$0", "You Pay (After Deductible)": "Full provider fee", "Excess Charge": "No limit", "Medigap Covers Excess?": "No" },
+      ],
+      footnote: "Part B deductible is $257 in 2026. After meeting the deductible, you pay 20% coinsurance for participating providers. Non-participating providers can add up to 15% on top of that.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Notes",
+      items: [
+        {
+          title: "Medicare Advantage and Assignment",
+          text: "Medicare assignment rules apply to Original Medicare (Parts A and B). Medicare Advantage plans have their own network of providers and cost-sharing rules. With MA, you typically pay a copay or coinsurance set by your plan, not the 20% coinsurance of the Medicare-approved amount.",
+        },
+        {
+          title: "Emergency Care from Non-Participating Providers",
+          text: "In a medical emergency, you may receive care from a non-participating or opt-out provider. In these cases, Medicare may still pay, and excess charge rules may be limited. Always follow up with Medicare after emergency care from a non-participating provider.",
+        },
+        {
+          title: "Mandatory Assignment for Certain Services",
+          text: "Medicare requires mandatory assignment for certain services regardless of provider participation status, including clinical laboratory services, ambulance services, and services provided to Medicaid beneficiaries.",
+          highlight: "Lab tests and ambulance services always have mandatory assignment.",
+        },
+        {
+          title: "Medigap and Excess Charges",
+          text: "If you have Medigap Plan G or Plan F, you are protected from Part B excess charges. These plans pay the 15% excess charge on your behalf, so you only owe your standard 20% coinsurance (Plan G) or nothing at all (Plan F, if eligible).",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Recent Updates",
+      items: [
+        {
+          title: "2026 Medicare Physician Fee Schedule",
+          status: "Passed",
+          description: "CMS updated the Medicare Physician Fee Schedule for 2026, adjusting approved amounts for thousands of services. Participating providers must accept these updated amounts as full payment.",
+        },
+        {
+          title: "Part B Deductible Increased to $257 in 2026",
+          status: "Passed",
+          description: "The Part B deductible increased to $257 in 2026 (from $240 in 2025). This is the amount you pay before Medicare covers its 80% share for Part B services.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Tips for Avoiding Excess Charges",
+      paragraphs: [
+        "Most Medicare beneficiaries never encounter excess charges because ~95% of providers accept assignment. But it's worth knowing how to protect yourself.",
+      ],
+      checklist: {
+        title: "Medicare Assignment Checklist",
+        items: [
+          "Always ask providers: \"Do you accept Medicare assignment?\"",
+          "Use Medicare.gov/care-compare to verify provider assignment status",
+          "Consider Medigap Plan G if you want protection from excess charges",
+          "Avoid opt-out providers for non-emergency care",
+          "Review your Medicare Summary Notice (MSN) after each visit",
+          "Report providers who charge more than the limiting charge to 1-800-MEDICARE",
+        ],
+        type: "tip",
+      },
+    },
+    faqs: [
+      {
+        question: "What does it mean when a doctor accepts Medicare assignment?",
+        answer: "It means the doctor agrees to accept Medicare's approved amount as full payment. You only pay your deductible and 20% coinsurance — the doctor cannot charge you more.",
+      },
+      {
+        question: "What is a Part B excess charge?",
+        answer: "A Part B excess charge is an extra fee (up to 15% above Medicare's approved amount) that a non-participating provider can charge if they don't accept assignment on a claim.",
+      },
+      {
+        question: "Which Medigap plans cover excess charges?",
+        answer: "Medigap Plan F and Plan G cover Part B excess charges. Plan N does not. Plan F is only available to those who became Medicare-eligible before January 1, 2020.",
+      },
+      {
+        question: "How do I find a doctor that accepts Medicare assignment?",
+        answer: "Search at Medicare.gov/care-compare, call the provider's office directly, or call 1-800-MEDICARE to verify assignment status.",
+      },
+      {
+        question: "What is an opt-out provider?",
+        answer: "An opt-out provider has formally opted out of Medicare entirely. Medicare will not pay for their services (except emergencies), and they can charge any amount they choose.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Participating providers accept Medicare's approved amount as full payment — no excess charges" },
+      { icon: "alert", text: "Non-participating providers can charge up to 15% above Medicare's approved amount" },
+      { icon: "alert", text: "Opt-out providers: Medicare pays nothing; you pay full price" },
+      { icon: "check", text: "Medigap Plan G and Plan F cover Part B excess charges" },
+      { icon: "info", text: "~95% of Medicare providers accept assignment" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Reimbursement", description: "How Medicare reimbursement works.", slug: "medicare-reimbursement" },
+      { title: "Part B Excess Charges", description: "Understanding the 15% limiting charge.", slug: "part-b-excess-charges-medicare-overcharge-measure" },
+      { title: "Medicare Cost Sharing", description: "Deductibles, copays, and coinsurance explained.", slug: "what-is-medicare-cost-sharing" },
+      { title: "How to File a Medicare Claim", description: "When and how to file your own Medicare claim.", slug: "how-to-file-a-medicare-claim" },
+    ],
+    sidebarRelatedLinks: ["Medicare Reimbursement", "Part B Excess Charges", "Cost Sharing", "File a Claim"],
+    ctaBanner: {
+      title: "Questions About Medicare Costs?",
+      text: "Our licensed agents can help you understand Medicare assignment, excess charges, and find the right Medigap plan to protect you.",
+    },
+    relatedSlugs: ["understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-reimbursement", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-cost-sharing"],
+  },
 ];

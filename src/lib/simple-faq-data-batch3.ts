@@ -606,32 +606,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["hospital-indemnity-insurance", "deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
   {
-    slug: 'what-is-medicare-assignment',
-    seo: {
-      title: 'Medicare Assignment',
-      description: 'Understanding Medicare assignment is crucial to help keep your medical expenses low. Learn about who accepts it, how it affects your costs, and more.',
-      canonical: 'https://www.medicarefaq.com/faqs/what-is-medicare-assignment/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/What-is-Medicare-Assignment-What-Doctors-Accept-It.jpg',
-    },
-    title: 'Medicare Assignment',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'September 15, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'How to File a Medicare Claim',
-        paragraphs: [
-          'Updated on September 15, 2021',
-          'Most of the time, you won’t need to worry about [filing your own [Medicare](/faqs/what-is-medicare) claims](/faqs/how-to-file-a-medicare-claim)....',
-        ],
-      },
-    ],
-    relatedSlugs: ["understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-reimbursement", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-cost-sharing"],
-  },
-  {
     slug: 'special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage',
     seo: {
       title: 'Special Enrollment Periods Explained: What Triggers Them and How to Take Advantage',

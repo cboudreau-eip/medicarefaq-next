@@ -242,32 +242,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026"],
   },
   {
-    slug: 'medigap-birthday-rule',
-    seo: {
-      title: 'What States Have the Medigap Birthday Rule?',
-      description: 'Medicare Supplement (Medigap) birthday rule allows policyholders in specific states an open enrollment period each year surrounding their date of birth.',
-      canonical: 'https://www.medicarefaq.com/faqs/medigap-birthday-rule/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-states-have-the-medigap-birthday-rule.jpg',
-    },
-    title: 'What States Have the Medigap Birthday Rule?',
-    summary: '',
-    category: 'Medicare Supplements',
-    dateUpdated: 'November 15, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'How Much Can a Medigap Plan Save Me',
-        paragraphs: [
-          'Updated on November 15, 2024',
-          'There are many options for [supplemental insurance to Medicare](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). You might be wondering How much...',
-        ],
-      },
-    ],
-    relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "maryland-medicare-supplement-birthday-rule"],
-  },
-  {
     slug: 'get-on-the-medicare-do-not-call-list',
     seo: {
       title: 'Does Medicare Call You at Home: How to Spot Medicare Phone Scams',

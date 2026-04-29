@@ -561,32 +561,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-and-va-benefits", "how-dual-residency-and-medicare-works", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage"],
   },
   {
-    slug: 'how-to-file-a-medicare-claim',
-    seo: {
-      title: 'How to File a Medicare Claim',
-      description: 'In rare cases, you may end up having to file your own Medicare claim. To do this, you\'ll need Form CMS 1490S and supporting documents.',
-      canonical: 'https://www.medicarefaq.com/faqs/how-to-file-a-medicare-claim/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/How-to-File-a-Medicare-Claim.jpg',
-    },
-    title: 'How to File a Medicare Claim',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'November 15, 2021',
-    author: 'Jagger Esch',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'How to File a Fast Medicare Appeal',
-        paragraphs: [
-          'Updated on November 15, 2021',
-          '[If Medicare denies coverage](/blog/medicare-advantage-denied-claims-crisis) for a healthcare service, item, or medication, [you have a right](/faqs/medicare-trial-rights-explained-your-safety-net-for-plan-changes)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-reimbursement", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "advance-beneficiary-notice"],
-  },
-  {
     slug: 'medicare-cobra',
     seo: {
       title: 'Is COBRA Creditable Coverage for Medicare',
