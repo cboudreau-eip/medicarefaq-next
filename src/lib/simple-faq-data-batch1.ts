@@ -590,32 +590,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-coverage-for-physical-therapy", "scope-of-appointment", "medicare-prior-authorization", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],
   },
   {
-    slug: 'medicare-visiting-angels',
-    seo: {
-      title: 'Is Visiting Angels Covered by Medicare',
-      description: 'Medicare may help cover Visiting Angels services. There are times where visiting angels is necessary. Learn about eligibility here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-visiting-angels/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/is-visiting-angels-covered-by-medicare.jpg',
-    },
-    title: 'Is Visiting Angels Covered by Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'September 29, 2021',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'What Does Medicare Cover for Long Term Care',
-        paragraphs: [
-          'Updated on September 29, 2021',
-          'Most [long-term care costs](/blog/medicare-costs-2025) are the patient’s responsibility. But, in some cases – [limited coverage](/blog/how-medicare-handles-skilled-nursing-vs-custodial-care)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-meals-on-wheels"],
-  },
-  {
     slug: 'medicare-for-disabled-individuals',
     seo: {
       title: 'Medicare Coverage for Disabled Under 65',
