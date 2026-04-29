@@ -829,32 +829,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["finding-local-doctors-who-accept-medicare", "understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-whats-covered-app", "care-compare-tool"],
   },
   {
-    slug: 'medicare-part-b-give-back-plan',
-    seo: {
-      title: 'Medicare Give Back Benefit',
-      description: 'The Medicare Give Back Benefit goes by many names and helps seniors by reducing their Part B premiums from Social Security.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-part-b-give-back-plan/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/part-b-premium-reduction-give-back-plans.jpg',
-    },
-    title: 'Medicare Give Back Benefit',
-    summary: '',
-    category: 'Medicare Part B',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '5 Ways to Reduce Your Medicare Premiums',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-costs-2025", "medicare-part-b-premiums", "reduce-medicare-premiums"],
-  },
-  {
     slug: 'switch-medicare-advantage-to-medicare-supplement',
     seo: {
       title: 'Switching from Medicare Advantage to a Medicare Supplement (Medigap)',
