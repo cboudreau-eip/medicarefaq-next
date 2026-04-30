@@ -299,32 +299,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "top-5-medicare-prescription-drug-plans", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "new-in-2025-medicares-part-d-payment-plan-explained", "six-protected-classes"],
   },
   {
-    slug: 'top-5-medicare-prescription-drug-plans',
-    seo: {
-      title: 'Best Medicare Part D Plans for 2026',
-      description: 'Best Medicare Part D Plans are rated on a five-star scale based on an average nationwide valuation for the highest-rated Part D plans on the market today.',
-      canonical: 'https://www.medicarefaq.com/faqs/top-5-medicare-prescription-drug-plans/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Top-5-Best-Medicare-Part-D-Plans-for-2023.jpg',
-    },
-    title: 'Best Medicare Part D Plans for 2026',
-    summary: '',
-    category: 'Prescription Drugs',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '5 Ways to Reduce Your Medicare Premiums',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). Almost everyone pays a premium...',
-        ],
-      },
-    ],
-    relatedSlugs: ["part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "how-can-seniors-save-on-prescription-drug-costs", "new-in-2025-medicares-part-d-payment-plan-explained", "six-protected-classes"],
-  },
-  {
     slug: 'turning-65-these-are-the-most-common-medicare-questions-answered',
     seo: {
       title: 'Turning 65? These Are the Most Common Medicare Questions—Answered',
