@@ -31626,4 +31626,248 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
   },
 
+  {
+    slug: "medical-rides",
+    seo: {
+      title: "Does Medicare Cover Medical Transportation? Rides, Ambulance & More",
+      description: "Learn what Medicare covers for medical transportation — including ambulance rides, non-emergency medical transport, and Medicare Advantage ride benefits — and what you'll pay out of pocket.",
+      canonical: "https://www.medicarefaq.com/faqs/medical-rides/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/transportation-services.jpg",
+    },
+    title: "Medicare Coverage for Medical Rides & Transportation",
+    subtitle: "What Medicare Pays for Ambulance Services, Non-Emergency Transport, and MA Ride Benefits",
+    category: "Medicare Benefits",
+    dateUpdated: "April 30, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Original Medicare (Part B) covers emergency ambulance transportation and, in limited cases, non-emergency ambulance transport when it is medically necessary and other transportation would endanger your health. Many Medicare Advantage plans go further by including non-emergency medical transportation (NEMT) as an extra benefit — covering rides to doctor appointments, dialysis, and other covered services.",
+      badges: [
+        { plan: "Part A", status: "partial" },
+        { plan: "Part B", status: "partial" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Part A (Hospital)", coverage: "Limited", icon: "Info", notes: "Part A covers ambulance transport to a hospital for inpatient admission when medically necessary." },
+      { planType: "Part B (Medical)", coverage: "Partial", icon: "Info", notes: "Covers emergency ambulance rides and non-emergency ambulance transport when medically necessary. You pay 20% after the Part B deductible." },
+      { planType: "Medicare Advantage (Part C)", coverage: "Often Covered", icon: "CheckCircle", notes: "Many MA plans include non-emergency medical transportation (NEMT) as an extra benefit — rides to doctor appointments, dialysis, and more." },
+      { planType: "Medigap", coverage: "Partial", icon: "Info", notes: "Medigap covers the 20% Part B coinsurance for Medicare-covered ambulance rides. It does not add NEMT benefits beyond what Original Medicare covers." },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Emergency Ambulance (Part B)",
+        icon: "Ambulance",
+        iconColor: "text-red-600",
+        coverageLabel: "Covered — 20% Coinsurance",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Part B covers emergency ambulance transportation to the nearest appropriate medical facility when an emergency exists and any other form of transportation would endanger your health. This includes ground ambulance, air ambulance (helicopter), and fixed-wing aircraft when medically necessary.",
+          "After you meet your Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount for the ambulance service. If you have a Medigap plan, it typically covers that 20% coinsurance. Medicare Advantage plans cover emergency ambulance at in-network rates regardless of where the emergency occurs.",
+        ],
+        whatItCovers: [
+          "Ground ambulance to the nearest appropriate hospital or facility",
+          "Air ambulance (helicopter or fixed-wing) when ground transport is not appropriate",
+          "Transport to a dialysis facility in certain emergency situations",
+          "Ambulance transport between facilities when medically necessary",
+        ],
+        whatItDoesntCover: [
+          "Non-emergency rides to doctor appointments (unless medically necessary)",
+          "Ambulance to a facility farther away than the nearest appropriate one (unless medically justified)",
+          "Ambulance transport for convenience or preference",
+          "Transportation by taxi, rideshare, or private vehicle",
+        ],
+        callout: {
+          type: "warning",
+          title: "Air Ambulance Costs Can Be Very High",
+          text: "Air ambulance rides can cost $20,000–$50,000 or more. Medicare covers 80% of the approved amount after your deductible, but the approved amount may be far less than the actual bill. Always verify that the air ambulance provider accepts Medicare assignment to avoid balance billing.",
+        },
+        costNote: "$ Cost: 20% coinsurance after the Part B deductible ($257 in 2026). Medigap covers this coinsurance for most plan types.",
+      },
+      {
+        planName: "Non-Emergency Ambulance (Part B)",
+        icon: "Truck",
+        iconColor: "text-amber-600",
+        coverageLabel: "Covered Only If Medically Necessary",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Part B covers non-emergency ambulance transportation only when it is medically necessary — meaning your condition requires ambulance-level care during transport and any other form of transportation would be contraindicated. This is a strict standard. Simply being unable to drive or not having a ride does not qualify.",
+          "Common examples of covered non-emergency ambulance transport include transport to dialysis for patients who cannot be moved any other way, transport between a hospital and a skilled nursing facility, and transport for patients who are bedridden or unable to sit upright. Your doctor must certify that the transport is medically necessary.",
+        ],
+        whatItCovers: [
+          "Transport to dialysis when the patient cannot be moved otherwise",
+          "Transfer from hospital to skilled nursing facility (SNF) when medically required",
+          "Transport for bedridden patients who cannot sit upright",
+          "Non-emergency transport with a written order from your doctor",
+        ],
+        whatItDoesntCover: [
+          "Rides to routine doctor appointments for ambulatory patients",
+          "Transport because you lack a car or driver",
+          "Transport to a non-covered service or facility",
+          "Wheelchair van or stretcher van transport (not covered by Original Medicare)",
+        ],
+        callout: {
+          type: "info",
+          title: "Prior Authorization May Be Required",
+          text: "For non-emergency ambulance transport, Medicare may require prior authorization in certain geographic areas. Your ambulance provider should handle this, but it is worth confirming before scheduling a non-emergency transport to avoid unexpected denials.",
+        },
+        costNote: "$ Cost: 20% coinsurance after the Part B deductible, same as emergency ambulance — but only if Medicare approves the transport as medically necessary.",
+      },
+      {
+        planName: "Non-Emergency Medical Transportation (Medicare Advantage)",
+        icon: "Car",
+        iconColor: "text-teal-600",
+        coverageLabel: "Extra Benefit — Varies by Plan",
+        coverageType: "covered",
+        paragraphs: [
+          "Many Medicare Advantage plans include non-emergency medical transportation (NEMT) as an extra benefit beyond what Original Medicare covers. This benefit typically provides a set number of one-way or round-trip rides per year to covered medical appointments — such as primary care visits, specialist appointments, dialysis, physical therapy, and pharmacy trips.",
+          "NEMT benefits vary significantly between plans. Some plans offer unlimited rides; others cap rides at 24, 36, or 48 one-way trips per year. Rides are typically arranged through the plan's transportation vendor and must be scheduled in advance. Some plans also cover rides to dental, vision, or hearing appointments.",
+        ],
+        whatItCovers: [
+          "Rides to primary care and specialist appointments",
+          "Rides to dialysis, chemotherapy, and other ongoing treatments",
+          "Rides to physical therapy, occupational therapy, and rehabilitation",
+          "Rides to the pharmacy (some plans)",
+          "Rides to dental, vision, or hearing appointments (some plans)",
+        ],
+        whatItDoesntCover: [
+          "Rides for non-medical purposes (grocery shopping, social visits)",
+          "Rides that exceed the plan's annual ride limit",
+          "Same-day rides without advance scheduling (most plans require advance notice)",
+          "Rides to non-covered services",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check Your Plan's Transportation Benefit",
+          text: "Not all Medicare Advantage plans include NEMT, and those that do vary widely in how many rides are covered and which services qualify. Check your plan's Evidence of Coverage (EOC) or call member services to understand your specific transportation benefit.",
+        },
+        costNote: "$ Cost: NEMT rides are typically provided at no additional cost as part of the plan's extra benefits. Standard plan cost-sharing (copays, coinsurance) applies to the medical appointments themselves.",
+      },
+    ],
+    costTable: {
+      title: "Medicare Transportation Coverage Summary (2026)",
+      headers: ["Transportation Type", "Covered By", "Your Cost", "Key Requirement"],
+      rows: [
+        { "Transportation Type": "Emergency ground ambulance", "Covered By": "Part B", "Your Cost": "20% after deductible", "Key Requirement": "Medical emergency; nearest appropriate facility" },
+        { "Transportation Type": "Emergency air ambulance", "Covered By": "Part B", "Your Cost": "20% after deductible", "Key Requirement": "Ground transport not appropriate; provider accepts assignment" },
+        { "Transportation Type": "Non-emergency ambulance", "Covered By": "Part B (limited)", "Your Cost": "20% after deductible", "Key Requirement": "Doctor certification; medically necessary; other transport contraindicated" },
+        { "Transportation Type": "Non-emergency medical rides (NEMT)", "Covered By": "Medicare Advantage (extra benefit)", "Your Cost": "$0 (varies by plan)", "Key Requirement": "Must be enrolled in an MA plan that includes NEMT benefit" },
+        { "Transportation Type": "Wheelchair van / stretcher van", "Covered By": "Not covered by Original Medicare", "Your Cost": "Full cost", "Key Requirement": "Some MA plans may cover; check your plan" },
+        { "Transportation Type": "Taxi / rideshare / private car", "Covered By": "Not covered", "Your Cost": "Full cost", "Key Requirement": "Not a covered Medicare transportation type" },
+      ],
+      footnote: "Costs are based on 2026 Medicare cost-sharing. Medigap plans typically cover the 20% Part B coinsurance for covered ambulance services.",
+    },
+    exceptionsSection: {
+      title: "Special Transportation Situations",
+      items: [
+        {
+          title: "Dialysis Patients",
+          text: "Medicare Part B may cover ambulance transport to and from dialysis if you have end-stage renal disease (ESRD) and your condition requires ambulance-level care during transport. Many Medicare Advantage plans also include dialysis transportation as part of their NEMT benefit, often with more generous coverage than Original Medicare.",
+          highlight: "Many MA plans specifically include dialysis transportation as a covered NEMT benefit",
+        },
+        {
+          title: "Dual-Eligible Beneficiaries (Medicare + Medicaid)",
+          text: "If you qualify for both Medicare and Medicaid, Medicaid may cover non-emergency medical transportation that Medicare does not. Medicaid NEMT programs vary by state but often cover rides to any Medicaid-covered service. Dual-eligible Special Needs Plans (D-SNPs) also frequently include robust transportation benefits.",
+          highlight: "Medicaid may cover NEMT for dual-eligible beneficiaries — check your state's program",
+        },
+        {
+          title: "Skilled Nursing Facility Transfers",
+          text: "Medicare Part A covers ambulance transport from a hospital to a skilled nursing facility (SNF) when the transfer is medically necessary and the patient requires ambulance-level care. Transport from the SNF back to the hospital or to another facility may also be covered if medically necessary.",
+          highlight: "Part A covers medically necessary ambulance transfers to and from SNFs",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Other Ways to Get Transportation Help",
+      paragraphs: [
+        "If your Medicare plan doesn't cover the transportation you need, there are other resources that may help. Many communities have volunteer driver programs, senior transportation services, and nonprofit organizations that provide free or low-cost rides to medical appointments.",
+        "The Eldercare Locator (1-800-677-1116) can connect you with local transportation assistance programs. Many Area Agencies on Aging also coordinate medical transportation for seniors. Some states have expanded Medicaid transportation programs that may be available to low-income Medicare beneficiaries.",
+      ],
+      checklist: {
+        title: "Transportation Resources to Explore",
+        type: "tip",
+        items: [
+          "Check your Medicare Advantage plan's NEMT benefit (if enrolled)",
+          "Contact your Area Agency on Aging for local transportation programs",
+          "Call the Eldercare Locator: 1-800-677-1116",
+          "Ask your dialysis center or treatment facility about transportation assistance",
+          "Check if you qualify for Medicaid NEMT (if you have limited income)",
+          "Look into volunteer driver programs through local nonprofits or faith communities",
+          "Ask your doctor about ambulance transport certification if you have mobility limitations",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover rides to doctor appointments?",
+        answer: "Original Medicare does not cover routine rides to doctor appointments. However, many Medicare Advantage plans include non-emergency medical transportation (NEMT) as an extra benefit that covers rides to covered medical appointments. Check your plan's Evidence of Coverage to see if this benefit is included.",
+      },
+      {
+        question: "Does Medicare cover ambulance rides?",
+        answer: "Yes. Medicare Part B covers emergency ambulance transportation when medically necessary. Non-emergency ambulance transport is also covered, but only when your condition requires ambulance-level care and other transportation would be medically contraindicated. You pay 20% coinsurance after the Part B deductible.",
+      },
+      {
+        question: "How much does Medicare pay for an ambulance?",
+        answer: "Medicare Part B pays 80% of the Medicare-approved amount for covered ambulance services after you meet your Part B deductible ($257 in 2026). You are responsible for the remaining 20%. If you have a Medigap plan, it typically covers that 20%. If the ambulance provider does not accept Medicare assignment, you may owe more.",
+      },
+      {
+        question: "What is non-emergency medical transportation (NEMT)?",
+        answer: "NEMT refers to transportation to medical appointments that does not require ambulance-level care — such as rides to doctor visits, dialysis, physical therapy, or the pharmacy. Original Medicare does not cover NEMT, but many Medicare Advantage plans include it as an extra benefit.",
+      },
+      {
+        question: "Does Medicare Advantage cover medical rides?",
+        answer: "Many Medicare Advantage plans include NEMT as an extra benefit, providing a set number of rides per year to covered medical appointments. Benefits vary by plan — some offer unlimited rides, others cap at 24–48 one-way trips per year. Check your specific plan's Evidence of Coverage for details.",
+      },
+      {
+        question: "Does Medicare cover wheelchair van transportation?",
+        answer: "Original Medicare does not cover wheelchair van or stretcher van transportation. Some Medicare Advantage plans may include this as part of their NEMT benefit. If you need wheelchair-accessible transportation, check your MA plan's benefits or contact your local Area Agency on Aging for community resources.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Part B covers emergency ambulance — you pay 20% after deductible" },
+      { icon: "check", text: "Non-emergency ambulance covered only if medically necessary" },
+      { icon: "check", text: "Many MA plans include free rides to medical appointments (NEMT)" },
+      { icon: "alert", text: "Original Medicare does NOT cover routine rides to doctor appointments" },
+      { icon: "alert", text: "Air ambulance costs can be very high — verify provider accepts assignment" },
+      { icon: "info", text: "Dual-eligible beneficiaries may get NEMT through Medicaid" },
+      { icon: "dollar", text: "Medigap covers the 20% Part B coinsurance for covered ambulance rides" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Ambulance Coverage", description: "Detailed guide to what Medicare covers for ambulance transportation and what you'll pay.", slug: "ambulance-and-medicare-coverage" },
+      { title: "Medicare Advantage Extra Benefits", description: "Full list of extra benefits Medicare Advantage plans can offer beyond Original Medicare.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
+      { title: "Does Medicare Cover Home Care?", description: "What Medicare covers for in-home caregivers and home health services.", slug: "medicare-coverage-for-in-home-caregivers" },
+      { title: "5 Government Benefits for Seniors", description: "Federal and state programs that can help seniors with healthcare, food, and transportation costs.", slug: "5-government-benefits-for-seniors" },
+    ],
+    sidebarRelatedLinks: [
+      "ambulance-and-medicare-coverage",
+      "medicare-advantage-extra-benefits-explained-whats-really-included",
+      "medicare-coverage-for-in-home-caregivers",
+      "5-government-benefits-for-seniors",
+      "does-medicare-cover-meals-on-wheels",
+    ],
+    ctaBanner: {
+      title: "Looking for a Plan That Covers Medical Rides?",
+      text: "Many Medicare Advantage plans include free transportation to medical appointments. A licensed Medicare specialist can help you find a plan with the transportation benefits you need.",
+    },
+    relatedSlugs: [
+      "ambulance-and-medicare-coverage",
+      "medicare-advantage-extra-benefits-explained-whats-really-included",
+      "medicare-coverage-for-in-home-caregivers",
+      "5-government-benefits-for-seniors",
+      "does-medicare-cover-meals-on-wheels",
+    ],
+  },
+
 ];

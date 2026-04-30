@@ -8,32 +8,6 @@ import type { SimpleFAQArticleData } from "@/lib/article-types";
 
 export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
-    slug: 'medical-rides',
-    seo: {
-      title: 'Medicare Transportation Services',
-      description: 'Medicare Transportation Services is a common issue among American seniors. In this article, you\'ll learn how Medicare medical rides work and if you qualify.',
-      canonical: 'https://www.medicarefaq.com/faqs/medical-rides/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/transportation-services.jpg',
-    },
-    title: 'Medicare Transportation Services',
-    summary: 'Medicare transportations services is available when medically necessary. However, with Original Medicare you will still be responsible for certain costs.',
-    category: 'Medicare FAQ',
-    dateUpdated: 'January 10, 2022',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '4 min',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Ambulance Transportation',
-        paragraphs: [
-          'Updated on January 10, 2022',
-          'In the case of an emergency, [Medicare](/faqs/what-is-medicare) will cover an [ambulance ride](/faqs/ambulance-and-medicare-coverage) to the hospital. Medicare...',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-in-home-caregivers", "5-government-benefits-for-seniors", "does-medicare-cover-meals-on-wheels"],
-  },
-  {
     slug: 'qualified-medicare-beneficiary-program',
     seo: {
       title: 'Qualified Medicare Beneficiary (QMB) Program',
