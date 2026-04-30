@@ -255,32 +255,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-does-medicare-start", "medicare-enrollment-checklist", "turning-65-these-are-the-most-common-medicare-questions-answered"],
   },
   {
-    slug: 'six-protected-classes',
-    seo: {
-      title: 'Medicare Part D’s Six Protected Classes',
-      description: 'Medicare Part D prescription drug plans must include drugs in six protected classes. This ensures care for people with chronic conditions.',
-      canonical: 'https://www.medicarefaq.com/faqs/six-protected-classes/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/the-six-protected-classes-4.jpg',
-    },
-    title: 'Medicare Part D’s Six Protected Classes',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'January 7, 2026',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Extra Help Program Income Limits',
-        paragraphs: [
-          'Updated on January 7, 2026',
-          '[Medicare Extra Help](/faqs/medicare-extra-help-program) is a low-income subsidy for individuals enrolled in [Medicare Part D](/blog/new-in-2025-medicares-part-d-payment-plan-explained). This...',
-        ],
-      },
-    ],
-    relatedSlugs: ["part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know", "new-in-2025-medicares-part-d-payment-plan-explained", "top-5-medicare-prescription-drug-plans"],
-  },
-  {
     slug: 'medicare-supplement-plans-medigap-pricing-methods',
     seo: {
       title: 'Medigap Pricing Methods Explained: Community-Rated vs Issue-Age vs Attained-Age (2026)',
@@ -718,31 +692,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       },
     ],
     relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-medical-alert-systems"],
-  },
-  {
-    slug: 'what-to-know-about-medicare-at-64',
-    seo: {
-      title: 'What Many 64-Year-Olds Don’t Know About Medicare – But Should',
-      description: 'When approaching Medicare at 64, there are certain things you should know to protect your health and finances.',
-      canonical: 'https://www.medicarefaq.com/faqs/what-to-know-about-medicare-at-64/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-many-64-year-olds-dont-know-about-medicare-but-should.jpg',
-    },
-    title: 'What Many 64-Year-Olds Don’t Know About Medicare – But Should',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'If I am enrolled, and plan to continue to be enrolled in a [company-sponsored group plan](/blog/understanding-how-medicare-works-with-employer-health-plans) (with an [HSA](/blog/medicare-and-hsa-rules-what-happens-when-you-turn-65)), am I obligated to [sign up for Medicare](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up)?',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-at-60", "when-should-you-enroll-in-medicare-if-still-working", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
     slug: 'can-you-get-medicare-in-puerto-rico',
