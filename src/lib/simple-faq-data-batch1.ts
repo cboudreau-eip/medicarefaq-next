@@ -60,32 +60,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["qualified-medicare-beneficiary-program", "medicare-savings-programs", "irmaa", "how-can-seniors-save-on-prescription-drug-costs"],
   },
   {
-    slug: 'top-10-medicare-supplement-insurance-companies',
-    seo: {
-      title: 'Top 10 Medicare Supplement Insurance Companies in 2026',
-      description: 'Top 10 Medicare Supplement insurance companies are assessed by several elements. Knowing about a carrier is essential to finding the right Medigap policy for you.',
-      canonical: 'https://www.medicarefaq.com/faqs/top-10-medicare-supplement-insurance-companies/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/top-10-medicare-supplement-companies.jpg',
-    },
-    title: 'Top 10 Medicare Supplement Insurance Companies in 2026',
-    summary: '',
-    category: 'Medicare Supplements',
-    dateUpdated: 'March 15, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'When Can I Change My Medicare Supplement Plan?',
-        paragraphs: [
-          'Updated on March 15, 2023',
-          '[Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) allow you to [enroll in coverage](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up) at any time once you are...',
-        ],
-      },
-    ],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-the-best-medicare-supplement-plan", "average-cost-of-medicare-supplement-plans", "medicare-beneficiary-identifiers", "medicare-agents-near-me"],
-  },
-  {
     slug: 'medicare-gym-membership',
     seo: {
       title: 'Does Medicare Cover Gym Membership?',
