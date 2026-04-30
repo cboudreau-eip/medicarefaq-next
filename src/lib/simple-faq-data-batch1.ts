@@ -697,32 +697,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "5-government-benefits-for-seniors", "discounts-for-seniors", "does-medicare-offer-a-grocery-allowance"],
   },
   {
-    slug: 'medicare-general-enrollment-period',
-    seo: {
-      title: 'Medicare General Enrollment Period',
-      description: 'Medicare General Enrollment Period (GEP) occurs annually between January 1 and March 31. Learn how to enroll in coverage during this time.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-general-enrollment-period/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-general-enrollment-period.jpg',
-    },
-    title: 'Medicare General Enrollment Period',
-    summary: 'The annual General Enrollment Period is your first chance to apply for Medicare coverage if you missed your Initial Enrollment Period. Learn all about the GEP and how you can enroll in coverage during this time.',
-    category: 'Enrollment',
-    dateUpdated: 'September 8, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '9 min',
-    sections: [
-      {
-        heading: 'Medicare Initial Enrollment Period',
-        paragraphs: [
-          'Updated on September 8, 2023',
-          'Your [Medicare Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) is your first and best opportunity to [sign up for](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
-  },
-  {
     slug: 'moving-to-another-state-with-medicare',
     seo: {
       title: 'Tips for Moving to Another State with Medicare',

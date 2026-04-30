@@ -110,58 +110,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-stroke-victims"],
   },
   {
-    slug: 'differences-between-medicare-and-social-security',
-    seo: {
-      title: 'Understanding Social Security and Medicare',
-      description: 'Learn the difference between Medicare and Social Security, how much is taken out of your check each month, and more.',
-      canonical: 'https://www.medicarefaq.com/faqs/differences-between-medicare-and-social-security/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/understanding-social-security-and-medicare.jpg',
-    },
-    title: 'Understanding Social Security and Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 19, 2026',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["full-retirement-age", "can-you-get-medicare-without-receiving-social-security-benefits", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "guide-to-retirement-planning"],
-  },
-  {
-    slug: 'durable-medical-equipment',
-    seo: {
-      title: 'Durable Medical Equipment Covered by Medicare',
-      description: 'Medicare coverage of Durable Medical Equipment has many guidelines and requirements. Learn more about DME coverage under Medicare.',
-      canonical: 'https://www.medicarefaq.com/faqs/durable-medical-equipment/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/durable-medical-equipment-covered-by-medicare.jpg',
-    },
-    title: 'Durable Medical Equipment Covered by Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'March 27, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Diabetic Supplies?',
-        paragraphs: [
-          'Updated on March 27, 2023',
-          '[Medicare covers diabetic supplies](/faqs/medicare-diabetes) and services for those diagnosed with the chronic health condition. Diabetes...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-coverage-for-wheelchairs-and-scooters", "medicare-coverage-for-bathroom-safety-devices", "does-medicare-cover-medical-alert-systems", "will-medicare-pay-for-a-nebulizer-machine", "medicare-coverage-for-compression-socks"],
-  },
-  {
     slug: 'is-medicare-mandatory',
     seo: {
       title: 'Is Medicare Mandatory?',
@@ -720,32 +668,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       },
     ],
     relatedSlugs: ["medicare-social-security-and-power-of-attorney", "how-can-i-get-medicare-for-my-mom-or-dad", "applying-for-medicare", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide"],
-  },
-  {
-    slug: 'medicaid-spend-down-program',
-    seo: {
-      title: 'Medicaid Spend-Down Program for Medicare Beneficiaries',
-      description: 'For individuals with low incomes and certain health conditions, some states offer Medicaid spend-down programs. Learn more about the program eligibility.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicaid-spend-down-program/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicaid-spend-down-program-for-medicare-beneficiaries.jpg',
-    },
-    title: 'Medicaid Spend-Down Program for Medicare Beneficiaries',
-    summary: 'Some Medicare beneficiaries need assistance with paying their healthcare costs, but their income is too high to qualify for Medicaid. The Medicaid Spend-Down Program offers Medicare beneficiaries an opportunity to qualify for Medicaid based on their medical expenses in proportion to their usable income. In this article, we’ll explain how this program works and how you can apply.',
-    category: 'Medicaid & Assistance',
-    dateUpdated: 'January 18, 2023',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
-    sections: [
-      {
-        heading: 'Medicare and Medicaid: How to Qualify for Both',
-        paragraphs: [
-          'Updated on January 18, 2023',
-          'It is not uncommon to be [eligible for both Medicare and Medicaid](/faqs/medicare-vs-medicaid). Learn how to...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-vs-medicaid", "qualified-medicare-beneficiary-program", "medicare-savings-programs", "medicare-low-income-subsidy"],
   },
   {
     slug: 'top-5-dental-insurance-for-seniors',

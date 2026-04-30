@@ -94,32 +94,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-beneficiary-identifiers", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "applying-for-medicare"],
   },
   {
-    slug: 'medicare-prior-authorization',
-    seo: {
-      title: 'Medicare Prior Authorization Explained',
-      description: 'Medicare prior authorization is preapproval for medical services. In some cases, it is common for insurance companies to require this before they cover medical costs.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-prior-authorization/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Medicare-Prior-Authorization-Explained.jpg',
-    },
-    title: 'Medicare Prior Authorization Explained',
-    summary: 'Medicare prior authorization is a process used by Medicare to ensure that certain medical services or prescription drugs meet specific criteria for coverage before they are approved and paid for. The purpose of prior authorization is to ensure that treatments are medically necessary, helping to control costs and prevent unnecessary healthcare services.',
-    category: 'Medicare FAQ',
-    dateUpdated: 'November 18, 2024',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
-    sections: [
-      {
-        heading: 'How Do I Find Pain Management Doctors Near Me That Accept Medicare?',
-        paragraphs: [
-          'Updated on November 18, 2024',
-          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover [pain management services](/faqs/medicare-coverage-for-lower-back-pain-management) when [medically necessary](/faqs/what-does-medically-necessary-mean). Yet, some services or treatments...',
-        ],
-      },
-    ],
-    relatedSlugs: ["scope-of-appointment", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "advance-beneficiary-notice"],
-  },
-  {
     slug: 'medicare-supplement-plans-and-pre-existing-conditions',
     seo: {
       title: 'Medicare Supplement Plans and Pre-Existing Conditions',
@@ -349,32 +323,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "how-can-seniors-save-on-prescription-drug-costs", "new-in-2025-medicares-part-d-payment-plan-explained", "six-protected-classes"],
-  },
-  {
-    slug: 'average-cost-of-medicare-advantage',
-    seo: {
-      title: 'Medicare Advantage Cost by State',
-      description: 'Medicare Advantage cost varies per plan and state, as private insurance companies offer them. Learn the breakdown for each Medicare Advantage plan in your state!',
-      canonical: 'https://www.medicarefaq.com/faqs/average-cost-of-medicare-advantage/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Medicare-Advantage-Cost-by-State.jpg',
-    },
-    title: 'Medicare Advantage Cost by State',
-    summary: 'Your Medicare Advantage cost will vary depending on which state you call home. It’s important to compare your coverage needs and all of the costs, not just your premiums, that you’ll face when using your benefits. Learn how to stay covered for less with the right Medicare benefits.',
-    category: 'Medicare Advantage',
-    dateUpdated: 'March 15, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '6 min',
-    sections: [
-      {
-        heading: 'Top 10 Most Expensive States for Medigap Plans',
-        paragraphs: [
-          'Updated on March 15, 2023',
-          '[Medicare Supplement (Medigap) plan premiums](/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage) vary from state to state. Although the benefits are standardized,...',
-        ],
-      },
-    ],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-costs-2025", "best-medicare-advantage-plans"],
   },
   {
     slug: 'turning-65-these-are-the-most-common-medicare-questions-answered',

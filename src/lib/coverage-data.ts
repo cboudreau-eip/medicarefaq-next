@@ -29816,4 +29816,908 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["medicare-costs-2025", "medicare-part-b-annual-deductible-explained-what-youll-pay", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "what-is-medicare-cost-sharing"],
   },
 
+{
+    slug: "medicare-prior-authorization",
+    seo: {
+      title: "Medicare Prior Authorization: What It Is and How It Works",
+      description: "Learn what Medicare prior authorization is, which plans require it, how to request it, and what to do if it's denied.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-prior-authorization/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-prior-authorization.jpg",
+    },
+    title: "Medicare Prior Authorization",
+    subtitle: "Prior authorization is a requirement from your insurance plan that your doctor get approval before providing certain services, procedures, or medications. Understanding how it works can help you avoid unexpected coverage denials.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 30, 2025",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "Prior authorization (PA) is required by Medicare Advantage and Part D plans before approving certain services or drugs. Original Medicare rarely requires PA. If denied, you have the right to appeal within 60 days.",
+      badges: [
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Part D", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare", coverage: "Rarely Required", icon: "shield", notes: "PA required for only a few services (e.g., some home health)" },
+      { planType: "Medicare Advantage", coverage: "Commonly Required", icon: "heart", notes: "Plans set their own PA requirements for specialists, surgeries, imaging" },
+      { planType: "Part D", coverage: "For Some Drugs", icon: "filetext", notes: "Required for certain high-cost or specialty drugs on formulary" },
+      { planType: "Medigap", coverage: "Not Applicable", icon: "users", notes: "Medigap supplements Original Medicare; PA rules follow Original Medicare" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Rarely Required",
+        coverageType: "partial",
+        paragraphs: [
+          "[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) does not require prior authorization for most services. Your doctor can generally order tests, referrals, and procedures without advance approval from Medicare.",
+          "A small number of services — such as certain home health agency services and some outpatient therapy — may require documentation of medical necessity, but this is not the same as a formal prior authorization process.",
+        ],
+        whatItCovers: [
+          "Most Part B services without advance approval",
+          "Hospital admissions (Part A) without pre-approval",
+          "Physician referrals without PA requirement",
+        ],
+        whatItDoesntCover: [
+          "Formal PA process does not apply to most Original Medicare services",
+          "Some home health services require medical necessity documentation",
+        ],
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Commonly Required",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) are required to cover everything Original Medicare covers, but they can impose prior authorization requirements for many services. Common PA requirements include specialist visits, inpatient hospital stays, skilled nursing facility care, imaging (MRI, CT scans), and certain surgeries.",
+          "The CMS 2024 Prior Authorization Rule requires MA plans to make PA decisions within 72 hours for urgent requests and 7 calendar days for standard requests. Plans must also provide a specific reason for any denial.",
+        ],
+        whatItCovers: [
+          "Specialist referrals (with PA approval)",
+          "Inpatient hospital stays (with PA approval)",
+          "Imaging and diagnostic tests (with PA approval)",
+          "Surgeries and procedures (with PA approval)",
+        ],
+        whatItDoesntCover: [
+          "Emergency services — PA cannot be required for emergencies",
+          "Urgently needed care while temporarily outside the plan area",
+        ],
+      },
+      {
+        planName: "Medicare Part D",
+        icon: "filetext",
+        iconColor: "#D97706",
+        coverageLabel: "For Some Drugs",
+        coverageType: "partial",
+        paragraphs: [
+          "[Part D plans](/faqs/medicare-part-d-explained) use prior authorization for certain drugs on their formulary — typically high-cost, specialty, or brand-name medications. Your doctor must submit clinical documentation showing the drug is medically necessary for your condition.",
+          "Step therapy is a related requirement where you must try a lower-cost drug first before the plan will approve a more expensive alternative. If the first-line drug fails or is contraindicated, your doctor can request a PA exception.",
+        ],
+        whatItCovers: [
+          "Formulary drugs after PA approval",
+          "Specialty drugs with documented medical necessity",
+          "Step therapy exceptions when lower-cost drugs fail",
+        ],
+        whatItDoesntCover: [
+          "Off-formulary drugs (require a formulary exception, not just PA)",
+          "Drugs not covered by Part D (e.g., weight loss drugs, vitamins)",
+        ],
+      },
+      {
+        planName: "How to Request Prior Authorization",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Action Required",
+        coverageType: "partial",
+        paragraphs: [
+          "Your doctor or specialist typically submits the PA request on your behalf. They will provide clinical notes, diagnosis codes, and supporting documentation to your plan. You can also call your plan's member services line to check the status of a pending PA.",
+          "If your PA is denied, you have the right to appeal. For Medicare Advantage, you can request a reconsideration from the plan, and then escalate to an Independent Review Entity (IRE) if still denied. Time limits apply: standard appeals must be filed within 60 days of the denial notice.",
+        ],
+        whatItCovers: [
+          "Doctor-submitted PA requests on your behalf",
+          "Expedited PA for urgent medical situations (72-hour decision)",
+          "Right to appeal any PA denial within 60 days",
+        ],
+        whatItDoesntCover: [
+          "Retroactive PA for services already received (generally not allowed)",
+          "PA approval does not guarantee payment if other coverage rules apply",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Prior Authorization at a Glance",
+      headers: ["Plan Type", "PA Required?", "Decision Timeline", "Appeal Right", "Emergency Exception"],
+      rows: [
+        { "Plan Type": "Original Medicare", "PA Required?": "Rarely", "Decision Timeline": "N/A", "Appeal Right": "Yes", "Emergency Exception": "Yes" },
+        { "Plan Type": "Medicare Advantage", "PA Required?": "Yes — many services", "Decision Timeline": "72 hrs (urgent) / 7 days (standard)", "Appeal Right": "Yes — 60 days", "Emergency Exception": "Yes — always exempt" },
+        { "Plan Type": "Part D", "PA Required?": "Yes — some drugs", "Decision Timeline": "24 hrs (urgent) / 72 hrs (standard)", "Appeal Right": "Yes", "Emergency Exception": "Emergency supply rules apply" },
+        { "Plan Type": "Medigap", "PA Required?": "No", "Decision Timeline": "N/A", "Appeal Right": "N/A", "Emergency Exception": "N/A" },
+      ],
+      footnote: "Timelines based on CMS 2024 Prior Authorization Rule requirements for Medicare Advantage plans.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions and Protections",
+      items: [
+        {
+          title: "Emergency Care Is Always Exempt",
+          text: "Medicare Advantage plans cannot require prior authorization for emergency medical care. If you have a medical emergency, go to the nearest emergency room — your plan must cover it regardless of PA status.",
+          highlight: "Emergency services are always covered without prior authorization under both Original Medicare and Medicare Advantage.",
+        },
+        {
+          title: "2024 CMS Prior Authorization Rule",
+          text: "CMS issued a final rule in 2024 requiring Medicare Advantage plans to streamline PA processes, provide specific denial reasons, and implement electronic PA systems by 2026. Plans must also honor PA approvals for the duration of a course of treatment.",
+          highlight: "MA plans must now provide a specific clinical reason for every PA denial — vague denials are no longer permitted.",
+        },
+        {
+          title: "Continuity of Care Protections",
+          text: "If you switch Medicare Advantage plans mid-year, your new plan must honor prior authorizations from your old plan for up to 90 days to ensure continuity of care.",
+          highlight: "You have 90 days of continuity of care protection when switching MA plans.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Legislative Update",
+      items: [
+        {
+          title: "CMS 2024 Prior Authorization Rule",
+          status: "Passed",
+          description: "CMS finalized rules requiring Medicare Advantage plans to implement electronic prior authorization, provide specific denial reasons, and meet stricter decision timelines. Electronic PA systems required by January 1, 2026.",
+        },
+        {
+          title: "GOLD Card Act",
+          status: "Proposed",
+          description: "Would exempt physicians who have a track record of PA approvals from having to request PA for Medicare Advantage patients. Introduced in multiple sessions of Congress but not yet passed.",
+        },
+        {
+          title: "Improving Seniors' Timely Access to Care Act",
+          status: "Passed",
+          description: "Signed into law in 2022, this act codified many of the electronic PA and transparency requirements for Medicare Advantage plans.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "What to Do If Prior Authorization Is Denied",
+      paragraphs: [
+        "A PA denial is not the end of the road. You have clear rights under Medicare to appeal any coverage decision.",
+        "Work with your doctor to submit a strong appeal with clinical documentation. Many PA denials are overturned on appeal, especially when supported by medical records and a physician's letter of medical necessity.",
+      ],
+      checklist: {
+        title: "PA Denial Action Steps",
+        type: "search",
+        items: [
+          "Request the specific reason for the denial in writing",
+          "Ask your doctor to submit a letter of medical necessity",
+          "File a formal appeal within 60 days of the denial",
+          "Request an expedited appeal if your health is at risk (72-hour decision)",
+          "Escalate to an Independent Review Entity (IRE) if plan upholds denial",
+          "Contact your State Health Insurance Assistance Program (SHIP) for free help",
+          "File a complaint with CMS if the plan violates PA rules",
+        ],
+      },
+    },
+    faqs: [
+      { question: "Does Original Medicare require prior authorization?", answer: "Original Medicare rarely requires prior authorization. Most services are covered as long as they are medically necessary and ordered by a Medicare-enrolled provider." },
+      { question: "How long does prior authorization take?", answer: "For Medicare Advantage, standard PA decisions must be made within 7 calendar days. Urgent requests must be decided within 72 hours." },
+      { question: "What happens if I get a service without prior authorization?", answer: "If your MA plan required PA and you didn't get it, the plan may deny the claim. You can still appeal, but it's harder to win retroactively. Always check PA requirements before scheduled procedures." },
+      { question: "Can I appeal a prior authorization denial?", answer: "Yes. You have the right to appeal any PA denial within 60 days. Your doctor can help by submitting clinical documentation supporting medical necessity." },
+      { question: "Does Medigap require prior authorization?", answer: "No. Medigap (Medicare Supplement) plans do not require prior authorization. They follow Original Medicare's coverage rules, which rarely require PA." },
+    ],
+    quickReference: [
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> commonly requires PA for specialists, imaging, and surgeries" },
+      { icon: "check", text: "<strong>Emergency care</strong> is always exempt from prior authorization" },
+      { icon: "info", text: "PA denials can be appealed within <strong>60 days</strong>" },
+      { icon: "dollar", text: "CMS 2024 rule requires electronic PA and specific denial reasons" },
+      { icon: "x", text: "<strong>Original Medicare</strong> rarely requires prior authorization" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Advantage Plans", description: "Compare Medicare Advantage plan types and how they manage coverage.", slug: "original-medicare-vs-medicare-advantage" },
+      { title: "Medicare Appeals Process", description: "Learn how to appeal a Medicare coverage or payment denial.", slug: "medicare-appeals-process" },
+      { title: "Advance Beneficiary Notice", description: "Understand when providers issue ABNs and what they mean for your costs.", slug: "advance-beneficiary-notice" },
+      { title: "What Does Medically Necessary Mean?", description: "Learn how Medicare defines medical necessity and how it affects coverage.", slug: "what-does-medically-necessary-mean" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Advantage Plans",
+      "Medicare Appeals Process",
+      "Advance Beneficiary Notice",
+      "What Does Medically Necessary Mean?",
+    ],
+    ctaBanner: {
+      title: "Questions About Prior Authorization?",
+      text: "Our licensed agents can help you understand your plan's PA requirements and navigate coverage decisions.",
+    },
+    relatedSlugs: ["advance-beneficiary-notice", "what-does-medically-necessary-mean", "medicare-coverage-for-physical-therapy", "scope-of-appointment"],
+  },
+  {
+    slug: "medicaid-spend-down-program",
+    seo: {
+      title: "Medicaid Spend-Down Program: How It Works for Medicare Beneficiaries",
+      description: "Learn how the Medicaid spend-down program works, who qualifies, and how it can help Medicare beneficiaries with high medical costs reduce their out-of-pocket expenses.",
+      canonical: "https://www.medicarefaq.com/faqs/medicaid-spend-down-program/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicaid-spend-down-program-for-medicare-beneficiaries.jpg",
+    },
+    title: "Medicaid Spend-Down Program",
+    subtitle: "If your income is too high to qualify for full Medicaid but you have significant medical expenses, the Medicaid spend-down program may allow you to qualify by deducting those expenses from your income.",
+    category: "Medicare Costs",
+    dateUpdated: "April 30, 2025",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "5 min read",
+    quickAnswer: {
+      text: "The Medicaid spend-down program lets people with income above Medicaid limits qualify by deducting medical expenses. Once you 'spend down' to the Medicaid income threshold, the state covers remaining medical costs for that period.",
+      badges: [
+        { plan: "Medicaid", status: "covered" },
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Full Medicaid", coverage: "Full Coverage", icon: "shield", notes: "Income at or below Medicaid limit — no spend-down required" },
+      { planType: "Medicaid Spend-Down", coverage: "Conditional Coverage", icon: "heart", notes: "Income above limit — must spend down medical expenses to qualify" },
+      { planType: "Medicare Savings Programs", coverage: "Partial Help", icon: "users", notes: "MSPs help pay Medicare premiums/cost-sharing for those near Medicaid limits" },
+      { planType: "Extra Help (LIS)", coverage: "Part D Only", icon: "filetext", notes: "Reduces Part D drug costs for low-income beneficiaries" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is the Spend-Down Program?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Conditional Coverage",
+        coverageType: "partial",
+        paragraphs: [
+          "The Medicaid spend-down program (also called a 'medically needy' program) is available in about 34 states. It allows people whose income exceeds the Medicaid limit to qualify for Medicaid by subtracting their medical expenses from their income until they reach the threshold.",
+          "Think of it like a deductible: once your medical bills for a given period equal the difference between your income and the Medicaid limit, Medicaid kicks in and covers the rest of your care for that period.",
+        ],
+        whatItCovers: [
+          "Medical expenses that count toward the spend-down amount",
+          "Medicaid benefits once the spend-down threshold is met",
+          "Long-term care, home health, and nursing home costs",
+        ],
+        whatItDoesntCover: [
+          "Not available in all states (only ~34 states offer medically needy programs)",
+          "Coverage is not retroactive before the spend-down threshold is met",
+        ],
+      },
+      {
+        planName: "How the Spend-Down Calculation Works",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Income-Based",
+        coverageType: "partial",
+        paragraphs: [
+          "Each state sets its own Medicaid income limit and spend-down period (typically 1 or 6 months). Your spend-down amount equals your income minus the Medicaid income limit. You must incur medical expenses equal to that amount before Medicaid begins covering your care.",
+          "Example: If your monthly income is $1,500 and your state's Medicaid limit is $900, your spend-down amount is $600/month. Once you have $600 in medical bills for that month, Medicaid covers any remaining costs.",
+        ],
+        whatItCovers: [
+          "Medical bills from doctors, hospitals, and pharmacies count toward spend-down",
+          "Medicare premiums and cost-sharing can count toward spend-down",
+          "Unpaid medical bills from prior periods may count in some states",
+        ],
+        whatItDoesntCover: [
+          "Non-medical expenses do not count toward the spend-down",
+          "Some states exclude certain types of medical expenses",
+        ],
+      },
+      {
+        planName: "Dual Eligibility: Medicare + Medicaid",
+        icon: "filetext",
+        iconColor: "#D97706",
+        coverageLabel: "Dual Coverage",
+        coverageType: "covered",
+        paragraphs: [
+          "If you have both Medicare and Medicaid (dual eligible), Medicare pays first and Medicaid pays second — covering Medicare's deductibles, copays, and coinsurance. This can dramatically reduce your out-of-pocket costs.",
+          "Spend-down beneficiaries who meet their threshold become temporarily dual eligible. During the coverage period, Medicaid acts as a secondary payer, filling in Medicare's gaps.",
+        ],
+        whatItCovers: [
+          "Medicare Part A and B cost-sharing (deductibles, copays, coinsurance)",
+          "Part B premium (for QMB-level dual eligibles)",
+          "Long-term care services not covered by Medicare",
+        ],
+        whatItDoesntCover: [
+          "Medicaid does not cover services Medicare has already denied as not medically necessary",
+          "Some Medicaid services require prior authorization",
+        ],
+      },
+      {
+        planName: "How to Apply for Spend-Down",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Application Required",
+        coverageType: "partial",
+        paragraphs: [
+          "Apply through your state Medicaid agency. You will need to provide proof of income, assets, and medical expenses. Your state will calculate your spend-down amount and coverage period.",
+          "Keep all medical bills and receipts — you will need to submit them to show you have met your spend-down amount. Some states allow you to use projected future medical expenses to meet the threshold.",
+        ],
+        whatItCovers: [
+          "Application through state Medicaid agency (free)",
+          "SHIP counselors can help with the application process",
+          "Retroactive coverage once spend-down threshold is met",
+        ],
+        whatItDoesntCover: [
+          "Not available in states without a medically needy program",
+          "Asset limits may also apply in addition to income limits",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Spend-Down Program at a Glance",
+      headers: ["Program", "Who Qualifies", "What It Covers", "How to Apply", "Available In"],
+      rows: [
+        { "Program": "Medicaid Spend-Down", "Who Qualifies": "Income above Medicaid limit with high medical expenses", "What It Covers": "Medicaid benefits after spend-down met", "How to Apply": "State Medicaid agency", "Available In": "~34 states" },
+        { "Program": "QMB (MSP)", "Who Qualifies": "Income ≤ 100% FPL", "What It Covers": "Part A/B premiums, deductibles, copays", "How to Apply": "State Medicaid agency", "Available In": "All states" },
+        { "Program": "SLMB (MSP)", "Who Qualifies": "Income 100–120% FPL", "What It Covers": "Part B premium only", "How to Apply": "State Medicaid agency", "Available In": "All states" },
+        { "Program": "Extra Help (LIS)", "Who Qualifies": "Income ≤ 150% FPL", "What It Covers": "Part D premiums, deductibles, copays", "How to Apply": "SSA or state Medicaid", "Available In": "All states" },
+      ],
+      footnote: "FPL = Federal Poverty Level. Income limits are for 2026 and vary by state. Asset limits also apply.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions and Considerations",
+      items: [
+        {
+          title: "Not All States Offer Spend-Down",
+          text: "About 34 states and Washington D.C. have medically needy programs with spend-down provisions. States without this program include Alabama, Alaska, Arizona, Colorado, Delaware, Georgia, Idaho, Indiana, Mississippi, Missouri, Nevada, New Jersey, Ohio, South Carolina, and South Dakota.",
+          highlight: "Check with your state Medicaid agency to confirm whether a spend-down program is available in your state.",
+        },
+        {
+          title: "Asset Limits Apply",
+          text: "In addition to income limits, Medicaid has asset limits. For individuals, the typical limit is $2,000 in countable assets (some states are higher). Your home, one car, and personal belongings are generally excluded.",
+          highlight: "Even if you meet the spend-down income threshold, you must also meet asset limits to qualify for Medicaid.",
+        },
+        {
+          title: "Medicare Savings Programs May Be Easier",
+          text: "If your goal is to reduce Medicare cost-sharing, Medicare Savings Programs (QMB, SLMB, QI) may be easier to qualify for than full Medicaid spend-down. MSPs have higher income limits and do not require spending down medical expenses.",
+          highlight: "Apply for Medicare Savings Programs first — they are available in all states and have simpler qualification rules.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Legislative Update",
+      items: [
+        {
+          title: "H.R. 1 Medicaid Work Requirements",
+          status: "Proposed",
+          description: "Proposed legislation would require able-bodied Medicaid recipients to work, volunteer, or participate in job training. If passed, this could affect eligibility for some spend-down beneficiaries.",
+        },
+        {
+          title: "ACA Medicaid Expansion",
+          status: "Passed",
+          description: "States that expanded Medicaid under the ACA have higher income thresholds, reducing the number of people who need to use spend-down to qualify. As of 2026, 41 states plus D.C. have expanded Medicaid.",
+        },
+        {
+          title: "Extra Help Expanded to 150% FPL",
+          status: "Passed",
+          description: "The Inflation Reduction Act expanded Extra Help (Low-Income Subsidy) eligibility to 150% of the Federal Poverty Level starting in 2024, providing an alternative to spend-down for Part D costs.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Alternatives to the Spend-Down Program",
+      paragraphs: [
+        "If you don't qualify for Medicaid spend-down or live in a state without the program, other programs may help reduce your Medicare costs.",
+        "Medicare Savings Programs and Extra Help are available in all 50 states and can significantly reduce premiums, deductibles, and copays.",
+      ],
+      checklist: {
+        title: "Programs to Explore",
+        type: "search",
+        items: [
+          "Apply for Medicare Savings Programs (QMB, SLMB, QI, QDWI)",
+          "Apply for Extra Help / Low-Income Subsidy for Part D",
+          "Contact your state Medicaid agency about medically needy programs",
+          "Ask your SHIP counselor about all available assistance programs",
+          "Check if your state has a Medicaid waiver program for home and community-based services",
+          "Look into Patient Assistance Programs for prescription drugs",
+          "Consider a Medicare Advantage D-SNP if you are near Medicaid eligibility",
+        ],
+      },
+    },
+    faqs: [
+      { question: "What is the Medicaid spend-down program?", answer: "It allows people with income above the Medicaid limit to qualify by subtracting their medical expenses from their income until they reach the Medicaid threshold." },
+      { question: "How does spend-down work with Medicare?", answer: "If you have Medicare and meet your spend-down amount, Medicaid becomes secondary and pays Medicare's cost-sharing (deductibles, copays, coinsurance)." },
+      { question: "What expenses count toward the spend-down?", answer: "Medical bills from doctors, hospitals, pharmacies, and Medicare premiums typically count. Non-medical expenses do not count." },
+      { question: "Is spend-down available in my state?", answer: "About 34 states offer medically needy programs with spend-down. Contact your state Medicaid agency or call 1-800-MEDICARE to find out." },
+      { question: "How is spend-down different from a Medicare Savings Program?", answer: "MSPs help pay Medicare premiums and cost-sharing for people near Medicaid income limits. Spend-down is for people above those limits who have high medical expenses." },
+    ],
+    quickReference: [
+      { icon: "info", text: "Spend-down available in <strong>~34 states</strong> — check your state" },
+      { icon: "dollar", text: "Spend-down amount = your income minus the Medicaid income limit" },
+      { icon: "check", text: "Medicare premiums and cost-sharing <strong>count toward spend-down</strong>" },
+      { icon: "alert", text: "Asset limits also apply — typically <strong>$2,000</strong> in countable assets" },
+      { icon: "info", text: "Apply through your <strong>state Medicaid agency</strong>" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Savings Programs", description: "Learn about QMB, SLMB, QI, and QDWI programs that help pay Medicare costs.", slug: "medicare-savings-programs" },
+      { title: "Medicare Low-Income Subsidy", description: "Find out how Extra Help reduces Part D prescription drug costs.", slug: "medicare-low-income-subsidy" },
+      { title: "Medicare vs. Medicaid", description: "Understand the key differences between Medicare and Medicaid.", slug: "medicare-vs-medicaid" },
+      { title: "Reduce Medicare Premiums", description: "Strategies to lower your Medicare premium costs.", slug: "reduce-medicare-premiums" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Savings Programs",
+      "Medicare Low-Income Subsidy",
+      "Medicare vs. Medicaid",
+      "Reduce Medicare Premiums",
+    ],
+    ctaBanner: {
+      title: "Need Help Navigating Medicare Costs?",
+      text: "Our licensed agents can help you find programs to reduce your Medicare and Medicaid costs.",
+    },
+    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicare-low-income-subsidy"],
+  },
+  {
+    slug: "average-cost-of-medicare-advantage",
+    seo: {
+      title: "Average Cost of Medicare Advantage Plans by State (2026)",
+      description: "Medicare Advantage costs vary by state, plan type, and carrier. Learn the average premiums, deductibles, and out-of-pocket maximums for Medicare Advantage plans in 2026.",
+      canonical: "https://www.medicarefaq.com/faqs/average-cost-of-medicare-advantage/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Advantage-Cost-by-State.jpg",
+    },
+    title: "Average Cost of Medicare Advantage Plans",
+    subtitle: "Medicare Advantage plan costs vary significantly by state, county, and plan type. In 2026, the average MA premium is $17/month, but your actual cost depends on where you live and which plan you choose.",
+    category: "Medicare Advantage",
+    dateUpdated: "April 30, 2025",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "The average Medicare Advantage premium is $17/month in 2026, but many plans have $0 premiums. You still pay the Part B premium ($185/month). The annual out-of-pocket maximum is $9,350 for in-network care.",
+      badges: [
+        { plan: "Medicare Advantage HMO", status: "covered" },
+        { plan: "Medicare Advantage PPO", status: "covered" },
+        { plan: "Original Medicare", status: "partial" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "MA HMO", coverage: "$0–$50/month avg", icon: "heart", notes: "Lowest premiums; requires in-network providers and referrals" },
+      { planType: "MA PPO", coverage: "$30–$100/month avg", icon: "heart", notes: "Higher premiums; more flexibility with out-of-network providers" },
+      { planType: "Original Medicare", coverage: "$185/month (Part B)", icon: "shield", notes: "No OOP maximum; 20% coinsurance with no cap" },
+      { planType: "Medigap Plan G", coverage: "$100–$300/month", icon: "users", notes: "Covers most cost-sharing; no network restrictions" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medicare Advantage HMO",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "$0–$50/month avg",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage HMO plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) typically have the lowest premiums — many are $0/month. However, you must use in-network providers and generally need referrals to see specialists.",
+          "HMOs are most cost-effective when you have a primary care doctor you trust and don't need frequent specialist visits. The trade-off for low premiums is a more restricted network.",
+        ],
+        whatItCovers: [
+          "Part A and B benefits (all Original Medicare services)",
+          "Usually includes Part D drug coverage (MAPD)",
+          "Often includes dental, vision, and hearing benefits",
+          "Fitness benefits (SilverSneakers or similar)",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network care (except emergencies)",
+          "Specialist visits without a referral from your PCP",
+        ],
+      },
+      {
+        planName: "Medicare Advantage PPO",
+        icon: "heart",
+        iconColor: "#2563EB",
+        coverageLabel: "$30–$100/month avg",
+        coverageType: "covered",
+        paragraphs: [
+          "PPO plans offer more flexibility — you can see out-of-network providers at a higher cost-share. No referrals are required for specialists. Premiums are typically higher than HMOs.",
+          "PPOs are a good choice if you travel frequently, have multiple specialists, or want the option to see providers outside the plan's network.",
+        ],
+        whatItCovers: [
+          "In-network and out-of-network providers (at different cost-share levels)",
+          "Specialist visits without referrals",
+          "Part A and B benefits plus usually Part D",
+          "Dental, vision, hearing benefits (varies by plan)",
+        ],
+        whatItDoesntCover: [
+          "Out-of-network OOP maximum is higher (up to $14,000 in 2026)",
+          "Some PPOs have limited out-of-network coverage in certain areas",
+        ],
+      },
+      {
+        planName: "Cost Factors That Affect Your Premium",
+        icon: "filetext",
+        iconColor: "#D97706",
+        coverageLabel: "Varies by Location",
+        coverageType: "partial",
+        paragraphs: [
+          "Medicare Advantage premiums vary significantly by county. Urban areas with more competition tend to have lower premiums and more $0-premium plans. Rural areas may have fewer plan options and higher costs.",
+          "Your premium also depends on the plan's star rating, benefit richness (dental/vision/hearing), drug formulary, and whether it includes a Part B Give Back benefit.",
+        ],
+        whatItCovers: [
+          "Lower premiums in competitive urban markets",
+          "Part B Give Back benefit (reduces your Part B premium by up to $148.50/month)",
+          "5-star plans available year-round via Special Enrollment Period",
+        ],
+        whatItDoesntCover: [
+          "Part B premium ($185/month) — you always pay this regardless of MA plan",
+          "IRMAA surcharges if your income exceeds $109,000 (single)",
+        ],
+      },
+      {
+        planName: "Out-of-Pocket Maximum",
+        icon: "shield",
+        iconColor: "#7C3AED",
+        coverageLabel: "$9,350 max (2026)",
+        coverageType: "covered",
+        paragraphs: [
+          "Unlike Original Medicare, all Medicare Advantage plans have an annual out-of-pocket maximum. In 2026, the in-network OOP maximum is capped at $9,350 by CMS. Once you reach this limit, your plan covers 100% of covered services for the rest of the year.",
+          "PPO plans have a separate combined in-and-out-of-network OOP maximum, which can be higher. Always check both limits when comparing plans.",
+        ],
+        whatItCovers: [
+          "100% of covered services after OOP maximum is reached",
+          "In-network OOP max capped at $9,350 by CMS",
+          "Catastrophic protection not available in Original Medicare alone",
+        ],
+        whatItDoesntCover: [
+          "Part B premium does not count toward the OOP maximum",
+          "Out-of-network costs may have a separate, higher OOP maximum",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 Medicare Advantage Cost Comparison",
+      headers: ["Plan Type", "Avg Monthly Premium", "Part B Premium", "Deductible", "OOP Max (In-Network)", "Dental/Vision"],
+      rows: [
+        { "Plan Type": "MA HMO ($0 premium)", "Avg Monthly Premium": "$0", "Part B Premium": "$185", "Deductible": "$0–$500", "OOP Max (In-Network)": "$3,500–$7,500", "Dental/Vision": "Often included" },
+        { "Plan Type": "MA PPO", "Avg Monthly Premium": "$30–$100", "Part B Premium": "$185", "Deductible": "$0–$500", "OOP Max (In-Network)": "$5,000–$9,350", "Dental/Vision": "Often included" },
+        { "Plan Type": "MA with Part B Giveback", "Avg Monthly Premium": "$0", "Part B Premium": "$185 minus giveback", "Deductible": "Varies", "OOP Max (In-Network)": "Varies", "Dental/Vision": "Varies" },
+        { "Plan Type": "Original Medicare only", "Avg Monthly Premium": "$0", "Part B Premium": "$185", "Deductible": "$257 (Part B)", "OOP Max (In-Network)": "No cap", "Dental/Vision": "Not covered" },
+        { "Plan Type": "Original Medicare + Medigap G", "Avg Monthly Premium": "$100–$300", "Part B Premium": "$185", "Deductible": "$257 (Part B only)", "OOP Max (In-Network)": "Near $0 after deductible", "Dental/Vision": "Not covered" },
+      ],
+      footnote: "Premiums are averages and vary significantly by state, county, and plan. Part B premium is $185/month in 2026 for most beneficiaries.",
+    },
+    exceptionsSection: {
+      title: "Important Cost Considerations",
+      items: [
+        {
+          title: "You Always Pay the Part B Premium",
+          text: "Even with a $0-premium Medicare Advantage plan, you still pay the Medicare Part B premium ($185/month in 2026). Some MA plans offer a Part B Give Back benefit that reduces this amount.",
+          highlight: "A '$0 premium' MA plan does not mean $0 total cost — you still pay Part B ($185/month).",
+        },
+        {
+          title: "IRMAA Surcharges Apply",
+          text: "If your income exceeds $109,000 (single) or $218,000 (joint), you pay an IRMAA surcharge on top of the Part B premium. This applies regardless of whether you have Original Medicare or Medicare Advantage.",
+          highlight: "High-income beneficiaries pay an IRMAA surcharge ranging from $81.20 to $487.00/month on top of the base Part B premium.",
+        },
+        {
+          title: "Extra Benefits Vary by Plan",
+          text: "Dental, vision, hearing, fitness, and over-the-counter allowances vary widely by plan. CMS has increased scrutiny of extra benefits in 2026, and some plans have reduced or eliminated benefits that were previously offered.",
+          highlight: "Always verify extra benefits for the upcoming year during Annual Enrollment Period (Oct 15 – Dec 7).",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Legislative Update",
+      items: [
+        {
+          title: "2026 MA OOP Maximum Stays at $9,350",
+          status: "Passed",
+          description: "CMS kept the in-network out-of-pocket maximum at $9,350 for 2026. The combined in-and-out-of-network maximum for PPO plans is $14,000.",
+        },
+        {
+          title: "MA Extra Benefit Scrutiny",
+          status: "Passed",
+          description: "CMS increased oversight of supplemental benefits in 2026, requiring plans to demonstrate that extra benefits are primarily health-related. Some plans reduced dental/vision/OTC allowances as a result.",
+        },
+        {
+          title: "Part B Premium Increased to $185",
+          status: "Passed",
+          description: "The standard Part B premium increased to $185/month in 2026, up from $174.70 in 2025. This affects all Medicare beneficiaries, including those with MA plans.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Find the Best Medicare Advantage Plan for Your Budget",
+      paragraphs: [
+        "The best Medicare Advantage plan isn't always the one with the lowest premium. Consider total out-of-pocket costs including copays, coinsurance, and the OOP maximum.",
+        "Use Medicare's Plan Finder tool at Medicare.gov to compare plans in your ZIP code during Annual Enrollment Period (October 15 – December 7).",
+      ],
+      checklist: {
+        title: "MA Plan Shopping Checklist",
+        type: "search",
+        items: [
+          "Compare total costs, not just premiums (include copays and OOP max)",
+          "Verify your doctors and specialists are in-network",
+          "Check if your prescriptions are on the formulary",
+          "Compare dental, vision, and hearing benefits",
+          "Look for Part B Give Back plans in your area",
+          "Check the plan's star rating (4+ stars = higher quality)",
+          "Review the Evidence of Coverage for prior authorization requirements",
+        ],
+      },
+    },
+    faqs: [
+      { question: "What is the average Medicare Advantage premium?", answer: "The average MA premium is about $17/month in 2026, but many plans have $0 premiums. You still pay the Part B premium ($185/month) regardless." },
+      { question: "Why do Medicare Advantage costs vary by state?", answer: "MA plans are offered by private insurers and priced based on local healthcare costs, competition, and Medicare reimbursement rates. Urban areas with more competition tend to have lower premiums." },
+      { question: "What is the out-of-pocket maximum for Medicare Advantage?", answer: "In 2026, the in-network OOP maximum is capped at $9,350 by CMS. Once you reach this limit, your plan covers 100% of covered services for the rest of the year." },
+      { question: "Is Medicare Advantage cheaper than Original Medicare?", answer: "MA can be cheaper if you're healthy and use in-network providers. If you have high medical needs, Original Medicare with Medigap may provide more predictable costs." },
+      { question: "Can I switch Medicare Advantage plans?", answer: "Yes. During the Annual Enrollment Period (Oct 15 – Dec 7) you can switch plans. The MA Open Enrollment Period (Jan 1 – Mar 31) allows one switch from MA to Original Medicare or between MA plans." },
+    ],
+    quickReference: [
+      { icon: "dollar", text: "Average MA premium: <strong>$17/month</strong> in 2026 (many plans at $0)" },
+      { icon: "alert", text: "You always pay Part B premium: <strong>$185/month</strong>" },
+      { icon: "check", text: "In-network OOP maximum capped at <strong>$9,350</strong> in 2026" },
+      { icon: "info", text: "Compare plans at <strong>Medicare.gov Plan Finder</strong> during AEP (Oct 15 – Dec 7)" },
+      { icon: "dollar", text: "Part B Give Back can reduce your Part B premium by up to <strong>$148.50/month</strong>" },
+    ],
+    relatedTopics: [
+      { title: "Original Medicare vs. Medicare Advantage", description: "Compare the two main Medicare coverage options side by side.", slug: "original-medicare-vs-medicare-advantage" },
+      { title: "Medicare Part B Give Back Plan", description: "Learn how some MA plans reduce your Part B premium.", slug: "medicare-part-b-give-back-plan" },
+      { title: "IRMAA", description: "Understand income-related premium surcharges for high earners.", slug: "irmaa" },
+      { title: "What Is Medicare Cost Sharing?", description: "Learn about premiums, deductibles, copays, and coinsurance.", slug: "what-is-medicare-cost-sharing" },
+    ],
+    sidebarRelatedLinks: [
+      "Original Medicare vs. Medicare Advantage",
+      "Medicare Part B Give Back Plan",
+      "IRMAA",
+      "What Is Medicare Cost Sharing?",
+    ],
+    ctaBanner: {
+      title: "Find the Best Medicare Advantage Plan in Your Area",
+      text: "Our licensed agents can help you compare plans and find the best coverage for your budget.",
+    },
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-costs-2025", "best-medicare-advantage-plans"],
+  },
+  {
+    slug: "medicare-general-enrollment-period",
+    seo: {
+      title: "Medicare General Enrollment Period (GEP): Dates, Rules, and Penalties",
+      description: "The Medicare General Enrollment Period runs January 1 – March 31 each year. Learn who needs it, when coverage starts, and how to avoid late enrollment penalties.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-general-enrollment-period/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-general-enrollment-period.jpg",
+    },
+    title: "Medicare General Enrollment Period",
+    subtitle: "The General Enrollment Period (GEP) is your opportunity to sign up for Medicare Part A and/or Part B if you missed your Initial Enrollment Period and don't qualify for a Special Enrollment Period.",
+    category: "Enrollment",
+    dateUpdated: "April 30, 2025",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "The GEP runs January 1 – March 31 each year. Coverage starts July 1 (previously April 1 before 2023 rule change). A late enrollment penalty applies permanently if you missed your IEP without qualifying employer coverage.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Part D", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Initial Enrollment Period (IEP)", coverage: "Best Option", icon: "shield", notes: "7-month window around your 65th birthday — no penalty if you enroll on time" },
+      { planType: "General Enrollment Period (GEP)", coverage: "Backup Option", icon: "heart", notes: "Jan 1 – Mar 31; coverage starts July 1; late penalty may apply" },
+      { planType: "Special Enrollment Period (SEP)", coverage: "No Penalty", icon: "filetext", notes: "Available if you had qualifying employer coverage — no late penalty" },
+      { planType: "Annual Enrollment Period (AEP)", coverage: "MA/Part D Only", icon: "users", notes: "Oct 15 – Dec 7; for changing MA or Part D plans only, not Part A/B" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is the General Enrollment Period?",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Jan 1 – Mar 31",
+        coverageType: "covered",
+        paragraphs: [
+          "The General Enrollment Period (GEP) runs every year from January 1 through March 31. It is the safety net for people who missed their [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) and do not qualify for a Special Enrollment Period.",
+          "Starting in 2023, coverage under the GEP begins on the first day of the month after you enroll (not July 1 as it was previously). This was a significant improvement — previously you could wait up to 6 months for coverage to start.",
+        ],
+        whatItCovers: [
+          "Medicare Part A enrollment (if not automatically enrolled)",
+          "Medicare Part B enrollment",
+          "Coverage starts the month after enrollment (2023 rule change)",
+        ],
+        whatItDoesntCover: [
+          "Medicare Advantage or Part D plans (use AEP or ICEP for those)",
+          "Does not eliminate late enrollment penalties already accrued",
+        ],
+      },
+      {
+        planName: "Who Needs the GEP?",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Missed IEP",
+        coverageType: "partial",
+        paragraphs: [
+          "You need the GEP if you missed your Initial Enrollment Period (the 7-month window around your 65th birthday) and do not have a qualifying reason for a Special Enrollment Period.",
+          "Common reasons people end up needing the GEP: they delayed Medicare thinking COBRA or marketplace coverage qualified (it doesn't), they were unaware of the enrollment deadline, or they had a gap in employer coverage.",
+        ],
+        whatItCovers: [
+          "Enrollment for people who missed their IEP",
+          "Enrollment for people who lost SEP eligibility",
+          "Re-enrollment after voluntary termination of Part B",
+        ],
+        whatItDoesntCover: [
+          "COBRA coverage does NOT qualify for an SEP — you must use the GEP",
+          "Marketplace/ACA coverage does NOT qualify for an SEP — you must use the GEP",
+        ],
+      },
+      {
+        planName: "Late Enrollment Penalties",
+        icon: "filetext",
+        iconColor: "#D97706",
+        coverageLabel: "Permanent Penalty",
+        coverageType: "not-covered",
+        paragraphs: [
+          "If you enroll during the GEP without having had qualifying coverage (like active employer coverage from an employer with 20+ employees), you will face a late enrollment penalty that is added to your premium permanently.",
+          "Part B penalty: 10% added to the standard premium for each full 12-month period you were eligible but didn't enroll. Part A penalty (if applicable): 10% added for twice the number of years you delayed.",
+        ],
+        whatItCovers: [
+          "Enrollment is still possible despite the penalty",
+          "Penalty can be appealed if you had qualifying coverage",
+        ],
+        whatItDoesntCover: [
+          "Part B penalty: permanent +10% per year of delay",
+          "Part A penalty: +10% for twice the number of years delayed",
+          "Part D penalty also applies separately if you delayed drug coverage",
+        ],
+      },
+      {
+        planName: "After GEP: Enrolling in MA and Part D",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "ICEP Available",
+        coverageType: "covered",
+        paragraphs: [
+          "Once you enroll in Part A and B during the GEP, you have a special window called the Initial Coverage Election Period (ICEP) to enroll in a Medicare Advantage or Part D plan. The ICEP runs from when you first become eligible for MA through the end of the month you enroll in Part B.",
+          "If you miss the ICEP, you will need to wait until the Annual Enrollment Period (October 15 – December 7) to add Medicare Advantage or Part D coverage.",
+        ],
+        whatItCovers: [
+          "ICEP allows MA and Part D enrollment after GEP",
+          "AEP (Oct 15 – Dec 7) as a fallback for MA/Part D",
+        ],
+        whatItDoesntCover: [
+          "Medigap guaranteed issue rights may be limited after GEP enrollment",
+          "Some states have Medigap birthday rules that may help",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medicare Enrollment Periods at a Glance",
+      headers: ["Period", "Dates", "Who Uses It", "Coverage Starts", "Late Penalty?"],
+      rows: [
+        { "Period": "Initial Enrollment Period (IEP)", "Dates": "7 months around 65th birthday", "Who Uses It": "Everyone turning 65", "Coverage Starts": "Varies (1–3 months after)", "Late Penalty?": "No" },
+        { "Period": "General Enrollment Period (GEP)", "Dates": "Jan 1 – Mar 31", "Who Uses It": "Missed IEP, no SEP", "Coverage Starts": "Month after enrollment", "Late Penalty?": "Yes — permanent" },
+        { "Period": "Special Enrollment Period (SEP)", "Dates": "8 months after employer coverage ends", "Who Uses It": "Had qualifying employer coverage", "Coverage Starts": "Month after enrollment", "Late Penalty?": "No" },
+        { "Period": "Annual Enrollment Period (AEP)", "Dates": "Oct 15 – Dec 7", "Who Uses It": "Changing MA or Part D plans", "Coverage Starts": "January 1", "Late Penalty?": "Part D penalty if applicable" },
+        { "Period": "MA Open Enrollment Period", "Dates": "Jan 1 – Mar 31", "Who Uses It": "Switching MA plans or dropping MA", "Coverage Starts": "Month after enrollment", "Late Penalty?": "No" },
+      ],
+      footnote: "Coverage start dates for GEP changed in 2023 — coverage now starts the month after enrollment, not July 1.",
+    },
+    exceptionsSection: {
+      title: "Important Exceptions and Recent Changes",
+      items: [
+        {
+          title: "2023 Coverage Start Date Change",
+          text: "Before 2023, GEP enrollees had to wait until July 1 for coverage to start, regardless of when they enrolled in January–March. The Consolidated Appropriations Act of 2021 changed this — starting in 2023, coverage begins the first day of the month after you enroll.",
+          highlight: "If you enroll in February, your coverage now starts March 1 — not July 1 as it was before 2023.",
+        },
+        {
+          title: "COBRA and Marketplace Coverage Do NOT Qualify for SEP",
+          text: "A common and costly mistake: people on COBRA or marketplace (ACA) coverage think they qualify for a Special Enrollment Period when they lose that coverage. They do not. COBRA and marketplace coverage are not considered qualifying employer coverage for Medicare SEP purposes.",
+          highlight: "If you have COBRA or marketplace coverage and miss your IEP, you must use the GEP and will face late enrollment penalties.",
+        },
+        {
+          title: "Equitable Relief for Certain Situations",
+          text: "If you missed your IEP due to misinformation from a government agency (like SSA or CMS), you may be able to request equitable relief to enroll without penalty. This is rare but worth pursuing if applicable.",
+          highlight: "Contact your SHIP counselor if you believe you received incorrect information that caused you to miss your enrollment window.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Legislative Update",
+      items: [
+        {
+          title: "GEP Coverage Start Date Improved",
+          status: "Passed",
+          description: "The Consolidated Appropriations Act of 2021 changed the GEP coverage start date from July 1 to the first day of the month after enrollment, effective January 2023. This significantly reduced the gap in coverage for late enrollees.",
+        },
+        {
+          title: "Part B Premium Increased to $185",
+          status: "Passed",
+          description: "The standard Part B premium is $185/month in 2026. Late enrollees pay a permanent surcharge of 10% per year of delay on top of this amount.",
+        },
+        {
+          title: "Medicare Enrollment Simplification Act",
+          status: "Proposed",
+          description: "Proposed legislation would simplify Medicare enrollment rules and reduce penalties for certain late enrollees. Has not yet passed Congress.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Avoid the GEP: Enroll on Time",
+      paragraphs: [
+        "The best way to avoid the GEP and its penalties is to enroll during your Initial Enrollment Period. If you have employer coverage, work with your HR department to understand when you need to enroll in Medicare.",
+        "Contact Social Security Administration (1-800-772-1213) or visit SSA.gov to enroll. You can also enroll online at Medicare.gov.",
+      ],
+      checklist: {
+        title: "GEP Enrollment Checklist",
+        type: "search",
+        items: [
+          "Confirm you don't qualify for a Special Enrollment Period first",
+          "Enroll January 1 – March 31 at SSA.gov or by calling 1-800-772-1213",
+          "Understand your late enrollment penalty amount before enrolling",
+          "After enrolling in Part A/B, use ICEP to add MA or Part D",
+          "Contact your SHIP counselor for free enrollment help",
+          "Check if your state has any Medigap open enrollment protections",
+          "Set a reminder for next AEP (Oct 15 – Dec 7) to add MA or Part D",
+        ],
+      },
+    },
+    faqs: [
+      { question: "When is the Medicare General Enrollment Period?", answer: "The GEP runs January 1 through March 31 every year. Coverage starts the first day of the month after you enroll." },
+      { question: "What is the penalty for enrolling during the GEP?", answer: "If you didn't have qualifying employer coverage, you'll pay a permanent 10% surcharge on your Part B premium for each full 12-month period you delayed enrollment." },
+      { question: "Can I enroll in Medicare Advantage during the GEP?", answer: "Not directly. After enrolling in Part A/B during the GEP, you can use the Initial Coverage Election Period (ICEP) to add Medicare Advantage or Part D." },
+      { question: "Does COBRA coverage count for a Special Enrollment Period?", answer: "No. COBRA is not considered qualifying employer coverage for Medicare SEP purposes. If you have COBRA and miss your IEP, you must use the GEP." },
+      { question: "When does GEP coverage start?", answer: "Since 2023, coverage starts the first day of the month after you enroll — a significant improvement from the previous July 1 start date." },
+    ],
+    quickReference: [
+      { icon: "info", text: "GEP dates: <strong>January 1 – March 31</strong> every year" },
+      { icon: "check", text: "Coverage starts <strong>the month after enrollment</strong> (since 2023)" },
+      { icon: "alert", text: "Late penalty: permanent <strong>+10% per year</strong> of delay on Part B premium" },
+      { icon: "x", text: "<strong>COBRA and marketplace coverage</strong> do NOT qualify for a Special Enrollment Period" },
+      { icon: "dollar", text: "Use <strong>ICEP</strong> after GEP enrollment to add Medicare Advantage or Part D" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Initial Enrollment Period", description: "Learn about the 7-month window around your 65th birthday to enroll in Medicare.", slug: "medicare-initial-enrollment-period" },
+      { title: "Medicare Special Enrollment Periods", description: "Find out if you qualify for a penalty-free enrollment window.", slug: "medicare-special-enrollment-periods" },
+      { title: "Medicare Part B Late Enrollment Penalty", description: "Understand how the permanent Part B penalty is calculated.", slug: "medicare-part-b-late-enrollment-penalty" },
+      { title: "Delay Medicare", description: "Learn when it is safe to delay Medicare enrollment.", slug: "delay-medicare" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Initial Enrollment Period",
+      "Medicare Special Enrollment Periods",
+      "Medicare Part B Late Enrollment Penalty",
+      "Delay Medicare",
+    ],
+    ctaBanner: {
+      title: "Missed Your Enrollment Window?",
+      text: "Our licensed agents can help you understand your options and minimize late enrollment penalties.",
+    },
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
+  },
 ];
