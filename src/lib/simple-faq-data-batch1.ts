@@ -86,32 +86,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["qualified-medicare-beneficiary-program", "medicare-savings-programs", "irmaa", "how-can-seniors-save-on-prescription-drug-costs"],
   },
   {
-    slug: 'eliquis-cost-with-medicare',
-    seo: {
-      title: 'How Much Does Eliquis Cost with Medicare?',
-      description: 'Is Eliquis covered by Medicare? Get information on Eliquis Medicare coverage and how much does Eliquis cost with Medicare Part D or Medicare Advantage.',
-      canonical: 'https://www.medicarefaq.com/faqs/eliquis-cost-with-medicare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/eliquis-cost-with-medicare.jpg',
-    },
-    title: 'How Much Does Eliquis Cost with Medicare?',
-    summary: '',
-    category: 'Prescription Drugs',
-    dateUpdated: 'February 13, 2025',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
-    sections: [
-      {
-        heading: 'Best Medicare Part D Plans for 2026',
-        paragraphs: [
-          'Updated on February 13, 2025',
-          'Best Medicare Part D Plans are rated on a five-star scale based on an average...',
-        ],
-      },
-    ],
-    relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary", "new-in-2025-medicares-part-d-payment-plan-explained"],
-  },
-  {
     slug: 'top-10-medicare-supplement-insurance-companies',
     seo: {
       title: 'Top 10 Medicare Supplement Insurance Companies in 2026',
@@ -136,33 +110,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-the-best-medicare-supplement-plan", "average-cost-of-medicare-supplement-plans", "medicare-beneficiary-identifiers", "medicare-agents-near-me"],
-  },
-  {
-    slug: 'medicare-for-dummies',
-    seo: {
-      title: 'Medicare for Dummies',
-      description: 'If you are still learning about Medicare and have questions about the basics, our 2025 Medicare for Dummies guide can help!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-for-dummies/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-for-dummies.jpg',
-    },
-    title: 'Medicare for Dummies',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 19, 2026',
-    author: 'Jagger Esch',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [[Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-starter-guide-what-to-do-in-your-first-90-days", "what-is-medicare", "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
-    "medicare-questions",],
   },
   {
     slug: 'medicare-gym-membership',
@@ -292,32 +239,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-annual-enrollment-period", "medicare-initial-enrollment-period", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
-  },
-  {
-    slug: 'medicare-questions',
-    seo: {
-      title: '25 Medicare Q&As You Should Know in 2026',
-      description: 'Do you have questions about Medicare coverage? Here is a list of the top 25 Medicare FAQs we help answer. Click here to learn more.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-questions/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/25-medicare-qas-you-should-know.jpg',
-    },
-    title: '25 Medicare Q&As You Should Know in 2026',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 16, 2026',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'FEHB and Medicare',
-        paragraphs: [
-          'Updated on February 16, 2026',
-          'If you have [Federal Employee Health Benefits (FEHB)](/faqs/fehb-and-medicare), you may be wondering [how your FEHB](/blog/understanding-how-medicare-works-with-employer-health-plans)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "what-is-medicare", "turning-65-these-are-the-most-common-medicare-questions-answered", "applying-for-medicare"],
   },
   {
     slug: 'medicare-advantage-over-the-counter-cards',
@@ -562,34 +483,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["medicare-coverage-for-physical-therapy", "scope-of-appointment", "medicare-prior-authorization", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],
-  },
-  {
-    slug: 'medicare-for-disabled-individuals',
-    seo: {
-      title: 'Medicare Coverage for Disabled Under 65',
-      description: 'If you\'re under 65 and disabled, once you\'ve collected Social Security benefits for 24 months, you\'ll have Medicare coverage options.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-for-disabled-individuals/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-plans-for-disabled-individuals.jpg',
-    },
-    title: 'Medicare Coverage for Disabled Under 65',
-    summary: '',
-    category: 'Medicare & Disability',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'What Does Medicare Cover for ALS Patients',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          '[Medicare coverage](/blog/medicare-parts-a-b-c-and-d-explained-simply) is available for [amyotrophic lateral sclerosis (ALS)](/faqs/medicare-coverage-for-amyotrophic-lateral-sclerosis-als), also known as Lou Gehrig’s disease....',
-        ],
-      },
-    ],
-    relatedSlugs: ["when-should-you-enroll-in-medicare-if-still-working", "can-you-get-medicare-without-receiving-social-security-benefits", "applying-for-medicare", "medicare-at-60",
-    "medicare-and-va-benefits",
-    "medicare-for-green-card-holders",],
   },
   {
     slug: 'can-i-cancel-medicare-advantage-plan',

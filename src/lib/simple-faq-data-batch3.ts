@@ -976,29 +976,4 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     ],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "why-medicare-supplements-offer-peace-of-mind", "do-i-really-need-supplemental-insurance-with-medicare"],
   },
-  {
-    slug: 'how-can-i-get-medicare-for-my-mom-or-dad',
-    seo: {
-      title: 'How Can I Get Medicare for My Parents?',
-      description: 'Are one or both of your parents approaching Medicare eligibility? Learn everything you need to know about helping them enroll, here!',
-      canonical: 'https://www.medicarefaq.com/faqs/how-can-i-get-medicare-for-my-mom-or-dad/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/how-can-i-get-medicare-for-my-parents.jpg',
-    },
-    title: 'How Can I Get Medicare for My Parents?',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'How do you apply for [Medicare supplemental plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) if your parents have [dementia](/faqs/who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules) and are unable to complete any forms. Additionally nor do I have any type of [power of attorney](/faqs/medicare-social-security-and-power-of-attorney), etc',
-        ],
-      },
-    ],
-    relatedSlugs: ["applying-for-medicare", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-initial-enrollment-period", "medicare-starter-guide-what-to-do-in-your-first-90-days", "what-is-medicare"],
-  },
 ];

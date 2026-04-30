@@ -431,32 +431,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "25-medicare-qas-you-should-know", "full-retirement-age", "what-is-medicare"],
   },
   {
-    slug: 'medicare-cobra',
-    seo: {
-      title: 'Is COBRA Creditable Coverage for Medicare',
-      description: 'Medicare-eligible individuals on COBRA should know their best health care option. Read more to find out what to do when you qualify for both.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-cobra/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/is-cobra-creditable-coverage-for-medicare.jpg',
-    },
-    title: 'Is COBRA Creditable Coverage for Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'January 25, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Is Medicare Primary or Secondary?',
-        paragraphs: [
-          'Updated on January 25, 2024',
-          'Typically, [Medicare coverage](/faqs/what-is-medicare) will be your [primary insurance](/faqs/when-is-medicare-primary) when you have [additional forms of coverage](/blog/understanding-how-medicare-works-with-employer-health-plans)....',
-        ],
-      },
-    ],
-    relatedSlugs: ["understanding-cobra-and-medigap-coverage-costs-and-key-differences", "medicare-creditable-coverage", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "when-should-you-enroll-in-medicare-if-still-working"],
-  },
-  {
     slug: 'medicare-enrollment-checklist',
     seo: {
       title: 'Medicare Pre Enrollment Checklist',
