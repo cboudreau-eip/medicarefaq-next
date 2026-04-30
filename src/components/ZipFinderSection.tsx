@@ -46,7 +46,7 @@ export default function ZipFinderSection() {
               pageSection="zip_finder_section"
               triggerId="compare-plans-zip-finder"
               trigger={
-                <button className="inline-flex items-center gap-2.5 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-8 py-4 rounded-lg transition-all duration-150 shadow-lg shadow-[#C41230]/25 text-base">
+                <button id="find-plans" className="inline-flex items-center gap-2.5 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-8 py-4 rounded-lg transition-all duration-150 shadow-lg shadow-[#C41230]/25 text-base">
                   <MapPin className="w-5 h-5" />
                   Find Plans in Your Area
                   <ArrowRight className="w-4 h-4" />
