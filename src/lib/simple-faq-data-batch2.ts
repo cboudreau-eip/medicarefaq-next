@@ -579,32 +579,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-supplements-cost-vs-value-explained", "medicare-costs-2025", "average-cost-of-medicare-supplement-plans", "medicare-agents-near-me"],
   },
   {
-    slug: 'medicare-supplement-plan-f-vs-plan-g-vs-plan-n',
-    seo: {
-      title: 'Medicare Plan F vs. Plan G vs. Plan N',
-      description: 'Medicare Supplement Plan F vs Plan G vs Plan N are the most popular Medigap plans. Compare the differences to see which plan could work best for you.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-plan-f-vs-plan-g-vs-plan-n.jpg',
-    },
-    title: 'Medicare Plan F vs. Plan G vs. Plan N',
-    summary: '',
-    category: 'Medicare Supplements',
-    dateUpdated: 'February 19, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [[Medicare](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g", "what-is-the-best-medicare-supplement-plan", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
-  },
-  {
     slug: 'travel-insurance-for-seniors-with-medicare',
     seo: {
       title: 'Does Medicare Cover International Travel?',
