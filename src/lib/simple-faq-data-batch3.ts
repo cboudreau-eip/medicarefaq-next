@@ -670,31 +670,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["medicare-social-security-and-power-of-attorney", "how-can-i-get-medicare-for-my-mom-or-dad", "applying-for-medicare", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide"],
   },
   {
-    slug: 'top-5-dental-insurance-for-seniors',
-    seo: {
-      title: 'Top 5 Dental Insurance for Seniors',
-      description: 'Learn about the top 5 dental insurance plans for seniors with Medicare and which plans can help you save on your dental costs as you turn 65.',
-      canonical: 'https://www.medicarefaq.com/faqs/top-5-dental-insurance-for-seniors/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/top-5-dental-insurance-for-seniors.jpeg',
-    },
-    title: 'Top 5 Dental Insurance for Seniors',
-    summary: '',
-    category: 'Dental, Vision & Hearing',
-    dateUpdated: 'February 22, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Dental, Vision, and Hearing Insurance for Seniors with Medicare',
-        paragraphs: [
-          'Updated on February 22, 2024',
-          '[Oral and optical health](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) are of paramount importance for seniors on [Medicare](/faqs/what-is-medicare). Proper care is...',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors", "does-medicare-cover-dental-implants", "six-protected-classes"],
-  },  {
     slug: 'medicare-history',
     seo: {
       title: 'Medicare History: When Did Medicare Start in the U.S.?',

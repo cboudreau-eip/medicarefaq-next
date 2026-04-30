@@ -9,32 +9,6 @@ import type { SimpleFAQArticleData } from "@/lib/article-types";
 export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   // does-medicare-cover-an-echocardiogram moved to coverage-data.ts (CoverageArticleContent format)
   {
-    slug: 'original-medicare-vs-medicare-advantage',
-    seo: {
-      title: 'Medicare Advantage vs. Medicare',
-      description: 'Compare the pros and cons of Medicare Advantage vs. Medicare Part A and Part B side-by-side to see which option is the better choice for you.',
-      canonical: 'https://www.medicarefaq.com/faqs/original-medicare-vs-medicare-advantage/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-advantage-vs-medicare.jpg',
-    },
-    title: 'Medicare Advantage vs. Medicare',
-    summary: '',
-    category: 'Medicare Advantage',
-    dateUpdated: 'November 15, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'MAPD vs. PDP Through Medicare Part D',
-        paragraphs: [
-          'Updated on November 15, 2024',
-          '[Medicare Part D Prescription Drug Plans](/blog/how-is-medicare-part-d-changing-in-2026) and [Medicare Advantage Prescription Drug Plans](/faqs/mapd-vs-part-d) both provide drug...',
-        ],
-      },
-    ],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage"],
-  },
-  {
     slug: 'choosing-a-medigap-policy',
     seo: {
       title: 'Choosing a Medicare Supplement (Medigap) Policy',
@@ -212,32 +186,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-parts-a-b-c-and-d-explained-simply", "what-is-medicare", "medicare-for-all"],
-  },
-  {
-    slug: 'deductible-copay-coinsurance-premium',
-    seo: {
-      title: 'Deductible vs. Copay vs. Coinsurance vs. Premium',
-      description: 'It\'s important to understand the out-of-pocket costs that come with Medicare – from deductibles and copays to coinsurance and premiums.',
-      canonical: 'https://www.medicarefaq.com/faqs/deductible-copay-coinsurance-premium/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/deductible-vs-copay-vs-coinsurance-vs-premium.jpg',
-    },
-    title: 'Deductible vs. Copay vs. Coinsurance vs. Premium',
-    summary: '',
-    category: 'Costs & Savings',
-    dateUpdated: 'September 27, 2021',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '5 Ways to Reduce Your Medicare Premiums',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare [premium](/blog/medicare-costs-2025)s](/faqs/reduce-medicare-premiums). Almost everyone pays a premium...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-costs-2025", "medicare-part-b-annual-deductible-explained-what-youll-pay", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "what-is-medicare-cost-sharing"],
   },
   {
     slug: 'medicare-agents-near-me',

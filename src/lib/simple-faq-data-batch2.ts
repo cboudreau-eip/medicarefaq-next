@@ -815,31 +815,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-advantage-for-chronic-conditions-what-you-need-to-know", "does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-physical-therapy", "medicare-preventive-services"],
   },
   {
-    slug: 'medicare-vs-obamacare',
-    seo: {
-      title: 'Medicare vs. Obamacare',
-      description: 'Obamacare and Medicare are two different entities. Learn more about the differences between them and how the Affordable Care Act can affect your Medicare coverage.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-vs-obamacare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-vs-obamacare.jpg',
-    },
-    title: 'Medicare vs. Obamacare',
-    summary: 'Medicare and Obamacare coverage are both government-backed healthcare programs. However, they serve two different groups of people.',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 19, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '5 min',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [[Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-vs-medicaid", "qualified-health-plans-medicare"],
-  },  {
     slug: 'medicare-and-workers-comp',
     seo: {
       title: 'Medicare and Workers’ Compensation',
