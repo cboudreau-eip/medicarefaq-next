@@ -59,32 +59,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-parts-a-b-c-and-d-explained-simply", "understanding-how-medicare-works-with-employer-health-plans", "medigap-vs-medicare-advantage"],
   },
   {
-    slug: 'medicare-replacement-plans',
-    seo: {
-      title: 'What is a Medicare Replacement Plan?',
-      description: 'Medicare replacement plans stand in for Original Medicare (Part A and Part B). But do they actually replace this coverage?',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-replacement-plans/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-replacement-plans.jpg',
-    },
-    title: 'What is a Medicare Replacement Plan?',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'November 12, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Advantage Cost by State',
-        paragraphs: [
-          'Updated on November 12, 2024',
-          'Your [Medicare Advantage cost](/faqs/average-cost-of-medicare-advantage) will vary depending on [which state you call home](/blog/what-happens-to-your-medicare-when-you-move-states). It’s important...',
-        ],
-      },
-    ],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage"],
-  },
-  {
     slug: 'medicare-and-wound-care-coverage',
     seo: {
       title: 'Medicare Coverage for Wound Care and Supplies',

@@ -273,32 +273,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "understanding-cobra-and-medigap-coverage-costs-and-key-differences", "when-should-you-enroll-in-medicare-if-still-working", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
-    slug: 'part-d-formulary',
-    seo: {
-      title: 'Understanding the Medicare Part D Formulary',
-      description: 'A Medicare Part D formulary is a list of covered drugs. It must include at least two drugs per category that the insurance company may choose.',
-      canonical: 'https://www.medicarefaq.com/faqs/part-d-formulary/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Understanding-the-Medicare-Part-D-Formulary.jpg',
-    },
-    title: 'Understanding the Medicare Part D Formulary',
-    summary: '',
-    category: 'Prescription Drugs',
-    dateUpdated: 'November 15, 2024',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'MAPD vs. PDP Through Medicare Part D',
-        paragraphs: [
-          'Updated on November 15, 2024',
-          '[Medicare Part D Prescription Drug Plans](/faqs/mapd-vs-part-d) and [Medicare Advantage Prescription Drug Plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) both provide drug...',
-        ],
-      },
-    ],
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "top-5-medicare-prescription-drug-plans", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "new-in-2025-medicares-part-d-payment-plan-explained", "six-protected-classes"],
-  },
-  {
     slug: 'turning-65-these-are-the-most-common-medicare-questions-answered',
     seo: {
       title: 'Turning 65? These Are the Most Common Medicare Questions—Answered',

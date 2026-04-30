@@ -215,32 +215,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["joe-namath-medicare-commericals", "laws-against-taking-advantage-of-the-elderly", "report-medicare-fraud"],
   },
   {
-    slug: 'medicare-calendar-year-and-benefit-periods',
-    seo: {
-      title: 'Medicare’s Calendar Year & Benefit Periods Explained',
-      description: 'You could end up paying the Part A deductible more than once within Medicare\'s calendar year if you have multiple benefit periods.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-calendar-year-and-benefit-periods/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicares-calendar-year-and-benefit-periods-explained.jpg',
-    },
-    title: 'Medicare’s Calendar Year & Benefit Periods Explained',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'November 15, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'How Much Can a Medigap Plan Save Me',
-        paragraphs: [
-          'Updated on November 15, 2024',
-          'There are many options for [supplemental insurance to Medicare](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). You might be wondering [How much](/blog/medicare-costs-2025)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-annual-enrollment-period", "medicare-initial-enrollment-period", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
-  },
-  {
     slug: 'medicare-advantage-over-the-counter-cards',
     seo: {
       title: 'Medicare Advantage Over-the-Counter Drug Cards',
