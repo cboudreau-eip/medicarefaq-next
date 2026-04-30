@@ -47,7 +47,7 @@ export default function CTABanner() {
               pageSection="cta_banner"
               triggerId="compare-plans-cta-banner"
               trigger={
-                <button className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 border border-white/30">
+                <button id="get-started-online" className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 border border-white/30">
                   Get Started Online
                   <ArrowRight className="w-4 h-4" />
                 </button>
