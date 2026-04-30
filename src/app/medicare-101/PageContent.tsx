@@ -349,7 +349,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
 
         {/* Content with Sidebar */}
         <div className="max-w-7xl mx-auto px-4 py-16 lg:py-24">
-          <div className="flex gap-12 lg:gap-16">
+          <div className="flex gap-12 lg:gap-16 justify-center">
             {/* Sticky Table of Contents — Desktop (right side) */}
             <aside className="hidden xl:block w-64 shrink-0 order-last">
               <nav className="sticky top-40">
@@ -393,7 +393,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
             </aside>
 
             {/* Main Content */}
-            <div className="flex-1 min-w-0 max-w-3xl order-first">
+            <div className="flex-1 min-w-0 max-w-3xl order-first mx-auto xl:mx-0">
               {/* Section: What Is Medicare? */}
               <section id="what-is-medicare" className="mb-20">
                 <motion.div
