@@ -30720,4 +30720,446 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
   },
+  {
+    slug: "medicare-annual-wellness-visit",
+    seo: {
+      title: "Medicare Annual Wellness Visit: What's Covered & How to Prepare",
+      description: "Learn what Medicare covers during the Annual Wellness Visit, how it differs from a physical exam, what to expect, and how to use it to get the most from your Medicare benefits.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-annual-wellness-visit/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-annual-wellness-visit.jpg",
+    },
+    title: "Medicare Annual Wellness Visit",
+    subtitle: "What Medicare Covers, What to Expect, and How to Prepare",
+    category: "Medicare Benefits",
+    dateUpdated: "April 30, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers the Annual Wellness Visit (AWV) at 100% — no copay or deductible — once every 12 months. It is not a physical exam but a personalized prevention plan visit that reviews your health history, updates your risk assessments, and helps you and your doctor create a health roadmap for the year ahead.",
+      badges: [
+        { plan: "Part A", status: "not-covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Part A (Hospital)", coverage: "Not Covered", icon: "X", notes: "Part A covers inpatient hospital services, not outpatient wellness visits." },
+      { planType: "Part B (Medical)", coverage: "Fully Covered", icon: "CheckCircle", notes: "$0 cost to you — no copay, no deductible — once every 12 months." },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "CheckCircle", notes: "All Medicare Advantage plans must cover the AWV at no cost. Many also offer additional wellness benefits." },
+      { planType: "Medigap", coverage: "Not Applicable", icon: "Info", notes: "Medigap supplements Original Medicare cost-sharing. Since the AWV has no cost-sharing, Medigap is not involved." },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medicare Part B",
+        icon: "Stethoscope",
+        iconColor: "text-teal-600",
+        coverageLabel: "Fully Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B covers the Annual Wellness Visit as a preventive service at 100% — meaning you pay nothing as long as the visit is billed correctly as a wellness visit. There is no copay and the Part B deductible does not apply.",
+          "You are eligible for your first AWV after you have been enrolled in Part B for more than 12 months. After that, you can schedule one every 12 months. The visit must be with a physician, physician assistant, nurse practitioner, clinical nurse specialist, or a health professional working under direct supervision of a physician.",
+        ],
+        whatItCovers: [
+          "Review of your medical and family history",
+          "Updating your list of current providers and medications",
+          "Blood pressure, height, weight, and BMI measurements",
+          "Cognitive impairment assessment (e.g., memory and thinking)",
+          "Screening for depression and functional ability",
+          "Personalized health advice and referrals as needed",
+          "Creation or update of a 5-to-10 year prevention plan",
+          "Review of your advance care planning (living will, healthcare proxy)",
+        ],
+        whatItDoesntCover: [
+          "Physical examination or hands-on medical evaluation",
+          "Diagnosis or treatment of existing conditions",
+          "Lab work or blood tests (billed separately if ordered)",
+          "Vaccinations (billed separately under Part B or Part D)",
+        ],
+        callout: {
+          type: "warning",
+          title: "Watch for Extra Charges",
+          text: "If your doctor addresses a new or existing medical problem during your AWV, that portion of the visit may be billed as a separate office visit — and cost-sharing may apply. Ask your doctor to keep the AWV focused on prevention to avoid unexpected charges.",
+        },
+        costNote: "$ Cost: $0 for the Annual Wellness Visit itself. Additional services performed at the same appointment may be billed separately.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "Shield",
+        iconColor: "text-blue-600",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "All Medicare Advantage Plans are required to cover the Annual Wellness Visit with no cost-sharing, matching Original Medicare's benefit. Many plans go further by offering additional wellness programs, health coaching, or care coordination services tied to the AWV.",
+          "Some Medicare Advantage Plans also include a more comprehensive annual physical exam as an added benefit beyond what Original Medicare provides. Check your plan's Evidence of Coverage (EOC) document to understand what's included.",
+        ],
+        whatItCovers: [
+          "All AWV services covered under Original Medicare Part B",
+          "Many plans add care coordination follow-up after the visit",
+          "Some plans include a comprehensive physical exam as an extra benefit",
+        ],
+        whatItDoesntCover: [
+          "Services not covered by Original Medicare or your specific plan",
+          "Out-of-network providers (for HMO plans)",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Annual Wellness Visit Cost Summary (2026)",
+      headers: ["Service", "Your Cost", "Notes"],
+      rows: [
+        { "Service": "Annual Wellness Visit (AWV)", "Your Cost": "$0", "Notes": "Covered 100% by Part B; no deductible applies" },
+        { "Service": "Lab work ordered at AWV", "Your Cost": "Varies", "Notes": "Billed separately; Part B deductible and 20% coinsurance may apply" },
+        { "Service": "Vaccines given at AWV", "Your Cost": "$0 (most)", "Notes": "Most preventive vaccines covered at 100% under Part B or Part D" },
+        { "Service": "Treatment for a medical problem at same visit", "Your Cost": "Varies", "Notes": "Billed as a separate office visit; cost-sharing applies" },
+        { "Service": "Welcome to Medicare Visit (one-time)", "Your Cost": "$0", "Notes": "Separate one-time visit in your first 12 months of Part B" },
+      ],
+    },
+    exceptionsSection: {
+      title: "AWV vs. Welcome to Medicare Visit vs. Physical Exam",
+      items: [
+        {
+          title: "Welcome to Medicare Preventive Visit",
+          text: "This is a separate one-time visit available within the first 12 months of your Part B enrollment. It includes a review of your health history, preventive screenings, and referrals. You must have this visit before you are eligible for your first Annual Wellness Visit.",
+          highlight: "One-time only — available in your first 12 months of Part B",
+        },
+        {
+          title: "Annual Wellness Visit (AWV)",
+          text: "Available once every 12 months after your first 12 months of Part B enrollment. Focuses on prevention planning, health risk assessments, and updating your health records. Does not include a physical exam.",
+          highlight: "Once per year — no physical exam included",
+        },
+        {
+          title: "Physical Exam (Annual Physical)",
+          text: "Original Medicare does not cover a routine annual physical exam. If your doctor performs a hands-on physical examination, that service is typically billed as an office visit and cost-sharing applies. Some Medicare Advantage Plans include a physical exam as an added benefit.",
+          highlight: "NOT covered by Original Medicare — may be included in some MA plans",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "How to Prepare for Your Annual Wellness Visit",
+      paragraphs: [
+        "Getting the most from your AWV starts before you walk in the door. Bringing the right information and asking the right questions can turn a routine appointment into a genuinely useful health planning session.",
+        "Before your visit, gather a complete list of all prescription medications, over-the-counter drugs, vitamins, and supplements you take — including dosages. Write down any health concerns, symptoms, or questions you want to discuss. Review your family health history for any updates. Bring your Medicare card and any supplemental insurance cards.",
+        "During the visit, be honest about lifestyle factors like diet, exercise, alcohol use, and sleep. Ask your doctor to explain your personalized prevention plan and what screenings are recommended for your age and risk factors. Discuss advance care planning if you haven't already — this is the right time to review or create a living will or healthcare proxy.",
+      ],
+      checklist: {
+        title: "AWV Preparation Checklist",
+        type: "tip",
+        items: [
+          "Complete medication list (prescriptions, OTC, vitamins, supplements)",
+          "List of current doctors and specialists",
+          "Any recent lab results or test reports",
+          "Written list of health questions or concerns",
+          "Family health history updates",
+          "Medicare card and supplemental insurance cards",
+          "Advance directive or healthcare proxy documents (if you have them)",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Is the Medicare Annual Wellness Visit the same as a physical exam?",
+        answer: "No. The AWV is a prevention planning visit — it reviews your health history, assesses your risks, and creates a health roadmap. It does not include a hands-on physical examination. Original Medicare does not cover routine physical exams; some Medicare Advantage Plans do as an added benefit.",
+      },
+      {
+        question: "How often can I have the Annual Wellness Visit?",
+        answer: "Once every 12 months. Your first AWV is available after you have been enrolled in Part B for more than 12 months (following your one-time Welcome to Medicare Visit).",
+      },
+      {
+        question: "Do I pay anything for the Annual Wellness Visit?",
+        answer: "No — the AWV is covered at 100% by Medicare Part B with no copay and no deductible. However, if your doctor addresses a medical problem during the same appointment, that portion may be billed separately and cost-sharing could apply.",
+      },
+      {
+        question: "What is the difference between the Welcome to Medicare Visit and the Annual Wellness Visit?",
+        answer: "The Welcome to Medicare Visit is a one-time visit available in your first 12 months of Part B enrollment. The Annual Wellness Visit is available every year after that. Both are covered at no cost, but they serve different purposes — the Welcome visit is an introduction to Medicare preventive care, while the AWV is an ongoing annual health planning session.",
+      },
+      {
+        question: "Can I get lab work done at my Annual Wellness Visit?",
+        answer: "Yes, but lab work is billed separately from the AWV. The AWV itself is free, but any labs ordered during the visit are subject to normal Part B cost-sharing — meaning the Part B deductible and 20% coinsurance may apply.",
+      },
+      {
+        question: "Does Medicare Advantage cover the Annual Wellness Visit?",
+        answer: "Yes. All Medicare Advantage Plans are required to cover the AWV at no cost to you. Many plans also offer additional wellness benefits beyond what Original Medicare provides.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Covered 100% by Part B — no copay, no deductible" },
+      { icon: "check", text: "Available once every 12 months" },
+      { icon: "check", text: "Includes cognitive assessment and depression screening" },
+      { icon: "check", text: "Creates a personalized 5-to-10 year prevention plan" },
+      { icon: "alert", text: "Does NOT include a physical exam" },
+      { icon: "alert", text: "Extra services at the same visit may be billed separately" },
+      { icon: "info", text: "First AWV requires 12+ months of Part B enrollment" },
+    ],
+    relatedTopics: [
+      { title: "Welcome to Medicare Preventive Visit", description: "Your one-time introductory visit in the first 12 months of Part B enrollment.", slug: "welcome-to-medicare-preventative-visit" },
+      { title: "Medicare Preventive Services", description: "Full list of screenings, vaccines, and preventive services covered by Medicare.", slug: "medicare-preventive-services" },
+      { title: "Does Medicare Cover Mental Health?", description: "What Medicare covers for mental health services, therapy, and counseling.", slug: "does-medicare-cover-mental-health" },
+      { title: "Medicare Starter Guide", description: "What to do in your first 90 days of Medicare coverage.", slug: "medicare-starter-guide-what-to-do-in-your-first-90-days" },
+    ],
+    sidebarRelatedLinks: [
+      "welcome-to-medicare-preventative-visit",
+      "medicare-preventive-services",
+      "does-medicare-cover-mental-health",
+      "5-things-to-do-after-you-receive-your-medicare-card",
+      "medicare-starter-guide-what-to-do-in-your-first-90-days",
+    ],
+    ctaBanner: {
+      title: "Make the Most of Your Medicare Benefits",
+      text: "A licensed Medicare specialist can help you understand all your covered preventive services and find the right plan for your needs.",
+    },
+    relatedSlugs: [
+      "welcome-to-medicare-preventative-visit",
+      "medicare-preventive-services",
+      "does-medicare-cover-mental-health",
+      "5-things-to-do-after-you-receive-your-medicare-card",
+      "medicare-starter-guide-what-to-do-in-your-first-90-days",
+    ],
+  },
+
+  {
+    slug: "when-does-medicare-start",
+    seo: {
+      title: "When Does Medicare Start? Coverage Start Dates Explained",
+      description: "Find out exactly when your Medicare coverage starts based on when you enroll, your birthday month, and your enrollment period. Avoid gaps in coverage with this complete guide.",
+      canonical: "https://www.medicarefaq.com/faqs/when-does-medicare-start/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/when-does-medicare-coverage-start.jpg",
+    },
+    title: "When Does Medicare Start?",
+    subtitle: "Coverage Start Dates for Every Enrollment Scenario",
+    category: "Enrollment",
+    dateUpdated: "April 30, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "When your Medicare coverage starts depends on when you enroll and which enrollment period you use. If you enroll during the first three months of your Initial Enrollment Period (the three months before your birthday month), coverage begins on the first day of your birthday month. Enrolling during or after your birthday month shifts your start date forward. Enrolling through the General Enrollment Period means coverage starts July 1.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Part C (Medicare Advantage)", status: "covered" },
+        { plan: "Part D", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "IEP months 1–3 (before birthday month)", coverage: "1st of birthday month", icon: "Calendar", notes: "Earliest possible start date. Enroll before your birthday month for same-month coverage." },
+      { planType: "IEP month 4 (birthday month)", coverage: "1st of following month", icon: "Calendar", notes: "One-month delay. Enrolling in your birthday month pushes coverage to the next month." },
+      { planType: "IEP months 5–7 (after birthday month)", coverage: "1st of month after enrollment", icon: "Calendar", notes: "Coverage begins the month after you enroll. Avoid delays by enrolling early." },
+      { planType: "General Enrollment Period (Jan 1 – Mar 31)", coverage: "July 1", icon: "AlertTriangle", notes: "Late enrollment — coverage gap until July 1. Late enrollment penalties may apply." },
+      { planType: "Special Enrollment Period (SEP)", coverage: "Varies by qualifying event", icon: "Info", notes: "Coverage typically starts the month after you enroll or lose qualifying coverage." },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Initial Enrollment Period (IEP)",
+        icon: "Calendar",
+        iconColor: "text-teal-600",
+        coverageLabel: "7-Month Window",
+        coverageType: "covered",
+        paragraphs: [
+          "Your Initial Enrollment Period is a 7-month window centered on your 65th birthday month. It begins three months before the month you turn 65, includes your birthday month, and extends three months after. When your coverage starts depends on exactly when within this window you enroll.",
+          "Enrolling during the first three months — before your birthday month — gives you the earliest possible start date: the first day of your birthday month. This is the ideal enrollment window for anyone who wants coverage to begin as soon as they turn 65.",
+        ],
+        whatItCovers: [
+          "Months 1–3 (before birthday month): Coverage starts the 1st of your birthday month",
+          "Month 4 (birthday month): Coverage starts the 1st of the following month",
+          "Month 5 (1 month after birthday): Coverage starts the 1st of the following month",
+          "Months 6–7 (2–3 months after birthday): Coverage starts the 1st of the following month",
+        ],
+        whatItDoesntCover: [
+          "No retroactive coverage — your start date is always in the future",
+          "Enrolling late in the IEP does not trigger late enrollment penalties",
+        ],
+        callout: {
+          type: "tip",
+          title: "Enroll Early for the Earliest Start Date",
+          text: "If you want your Medicare coverage to begin on your 65th birthday (or the first of that month), enroll during the three months before your birthday month. Waiting until your birthday month or later pushes your start date back by at least one month.",
+        },
+        costNote: "$ Cost: No penalty for enrolling at any point during your IEP. Late enrollment penalties only apply if you miss the IEP entirely without qualifying coverage.",
+      },
+      {
+        planName: "Automatic Enrollment",
+        icon: "CheckCircle",
+        iconColor: "text-green-600",
+        coverageLabel: "Automatic — No Action Required",
+        coverageType: "covered",
+        paragraphs: [
+          "If you are already receiving Social Security or Railroad Retirement Board (RRB) benefits when you turn 65, you are automatically enrolled in Medicare Parts A and B. Your Medicare card arrives in the mail approximately three months before your coverage begins.",
+          "Automatic enrollment coverage starts on the first day of your birthday month — the same as if you had enrolled during the first three months of your IEP. You do not need to take any action to receive this coverage, though you may choose to decline Part B if you have other qualifying coverage.",
+        ],
+        whatItCovers: [
+          "Coverage starts the 1st of your birthday month — no action required",
+          "Medicare card mailed approximately 3 months before coverage begins",
+          "Applies to anyone already receiving Social Security or RRB benefits",
+        ],
+        whatItDoesntCover: [
+          "Does not include Part D (prescription drug coverage) — you must enroll separately",
+          "Does not include Medicare Advantage — you must actively choose a plan",
+        ],
+      },
+      {
+        planName: "General Enrollment Period (GEP)",
+        icon: "AlertTriangle",
+        iconColor: "text-amber-600",
+        coverageLabel: "July 1 Start Date",
+        coverageType: "partial",
+        statusBadge: "Coverage Gap Risk",
+        paragraphs: [
+          "If you miss your Initial Enrollment Period and don't qualify for a Special Enrollment Period, you can sign up during the General Enrollment Period, which runs January 1 through March 31 each year. Coverage begins July 1 of that year — meaning there could be a gap of several months between when you apply and when your coverage starts.",
+          "Enrolling through the GEP may also trigger a late enrollment penalty for Part B. The penalty is 10% of the standard Part B premium for each full 12-month period you were eligible but not enrolled. This surcharge is permanent — it follows you for as long as you have Part B.",
+        ],
+        whatItCovers: [
+          "Available January 1 – March 31 each year",
+          "Coverage begins July 1 of the same year",
+          "Available to anyone who missed their IEP without qualifying coverage",
+        ],
+        whatItDoesntCover: [
+          "No coverage before July 1 — gap in coverage applies",
+          "Late enrollment penalty may apply to Part B and Part D",
+        ],
+        callout: {
+          type: "warning",
+          title: "Avoid the GEP If Possible",
+          text: "Enrolling through the General Enrollment Period means a coverage gap until July 1 and a potential permanent late enrollment penalty. If you have qualifying employer coverage, confirm whether you are eligible for a Special Enrollment Period instead.",
+        },
+      },
+      {
+        planName: "Special Enrollment Period (SEP)",
+        icon: "FileText",
+        iconColor: "text-blue-600",
+        coverageLabel: "Varies by Event",
+        coverageType: "covered",
+        paragraphs: [
+          "A Special Enrollment Period allows you to enroll in Medicare outside your IEP without a late enrollment penalty, provided you have a qualifying life event. The most common SEP trigger is losing employer-sponsored health coverage based on active employment.",
+          "Under the employer coverage SEP, you have an 8-month window to enroll in Medicare after your employer coverage ends or the employment ends — whichever comes first. Coverage typically begins the month after you enroll, though the exact start date can vary based on when you submit your application.",
+        ],
+        whatItCovers: [
+          "Enrollment without late penalty if you have a qualifying event",
+          "Common triggers: losing employer coverage, moving to a new service area, qualifying for Medicaid",
+          "Coverage typically starts the 1st of the month after enrollment",
+        ],
+        whatItDoesntCover: [
+          "COBRA and retiree insurance do NOT qualify as active employer coverage",
+          "Employer must have 20+ employees for the employer coverage SEP to apply",
+          "SEP window is typically 8 months — missing it may trigger penalties",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Medicare Coverage Start Date Summary",
+      headers: ["Enrollment Scenario", "When Coverage Starts", "Penalty Risk?"],
+      rows: [
+        { "Enrollment Scenario": "IEP months 1–3 (before birthday month)", "When Coverage Starts": "1st of birthday month", "Penalty Risk?": "No" },
+        { "Enrollment Scenario": "IEP month 4 (birthday month)", "When Coverage Starts": "1st of following month", "Penalty Risk?": "No" },
+        { "Enrollment Scenario": "IEP months 5–7 (after birthday month)", "When Coverage Starts": "1st of month after enrollment", "Penalty Risk?": "No" },
+        { "Enrollment Scenario": "Automatic enrollment (already on SS/RRB)", "When Coverage Starts": "1st of birthday month", "Penalty Risk?": "No" },
+        { "Enrollment Scenario": "General Enrollment Period (Jan–Mar)", "When Coverage Starts": "July 1", "Penalty Risk?": "Yes — Part B & D penalties may apply" },
+        { "Enrollment Scenario": "Special Enrollment Period (employer SEP)", "When Coverage Starts": "1st of month after enrollment", "Penalty Risk?": "No — if enrolled within SEP window" },
+        { "Enrollment Scenario": "SSDI recipients (under 65)", "When Coverage Starts": "25th month of SSDI benefits", "Penalty Risk?": "No" },
+        { "Enrollment Scenario": "ALS diagnosis", "When Coverage Starts": "Same month SSDI begins", "Penalty Risk?": "No" },
+        { "Enrollment Scenario": "ESRD (End-Stage Renal Disease)", "When Coverage Starts": "1st day of 4th month of dialysis", "Penalty Risk?": "No" },
+      ],
+      footnote: "Coverage start dates are based on CMS rules as of 2026. Individual circumstances may vary — consult a licensed Medicare specialist for your specific situation.",
+    },
+    exceptionsSection: {
+      title: "Special Situations: When Medicare Starts Before 65",
+      items: [
+        {
+          title: "Social Security Disability Insurance (SSDI)",
+          text: "If you receive SSDI benefits, you are automatically enrolled in Medicare after 24 consecutive months of receiving disability payments. Coverage begins on the 25th month of your SSDI entitlement — not the 25th month from your approval date, which may be earlier if your approval was retroactive.",
+          highlight: "Medicare starts on the 25th month of SSDI entitlement",
+        },
+        {
+          title: "Amyotrophic Lateral Sclerosis (ALS)",
+          text: "People diagnosed with ALS (Lou Gehrig's disease) are automatically enrolled in Medicare the same month their SSDI benefits begin — there is no 24-month waiting period. This is the only condition that waives the SSDI waiting period entirely.",
+          highlight: "No waiting period — Medicare starts with SSDI for ALS",
+        },
+        {
+          title: "End-Stage Renal Disease (ESRD)",
+          text: "People with ESRD who require regular dialysis or a kidney transplant can qualify for Medicare regardless of age. Coverage typically begins on the first day of the fourth month of dialysis treatments. If you receive a kidney transplant, coverage may begin the month of the transplant.",
+          highlight: "Coverage begins the 1st day of the 4th month of dialysis",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "When does Medicare start if I enroll during my birthday month?",
+        answer: "If you enroll during your birthday month (the fourth month of your IEP), your coverage begins on the first day of the following month — one month after your birthday month. To get coverage starting on the first of your birthday month, you need to enroll during the three months before your birthday month.",
+      },
+      {
+        question: "Does Medicare start automatically when I turn 65?",
+        answer: "Only if you are already receiving Social Security or Railroad Retirement Board benefits. In that case, you are automatically enrolled and your Medicare card arrives in the mail about three months before your coverage begins. If you are not yet collecting Social Security, you must actively apply for Medicare.",
+      },
+      {
+        question: "What if I miss my Initial Enrollment Period?",
+        answer: "If you miss your IEP and don't have qualifying coverage, you can enroll during the General Enrollment Period (January 1 – March 31), but coverage won't start until July 1 and late enrollment penalties may apply. If you had qualifying employer coverage, you may be eligible for a Special Enrollment Period instead.",
+      },
+      {
+        question: "When does Medicare start for someone on disability?",
+        answer: "If you receive SSDI, Medicare coverage begins automatically on the 25th month of your SSDI entitlement. The exception is ALS — if you have ALS, Medicare begins the same month your SSDI benefits start, with no waiting period.",
+      },
+      {
+        question: "Can I delay Medicare if I'm still working?",
+        answer: "Yes, if you or your spouse has active employer-sponsored coverage through an employer with 20 or more employees, you can delay Medicare enrollment without penalty. You'll have a Special Enrollment Period to sign up after that coverage ends. COBRA and retiree insurance do not count as qualifying coverage for this purpose.",
+      },
+      {
+        question: "When does Part D (prescription drug coverage) start?",
+        answer: "Part D coverage starts based on the same enrollment period rules as Part B. If you enroll in a Part D plan during the first three months of your IEP, coverage begins on the first of your birthday month. Enrolling later shifts the start date forward. Late enrollment penalties apply if you go more than 63 days without creditable drug coverage.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Enroll months 1–3 of IEP → coverage starts 1st of birthday month" },
+      { icon: "check", text: "Automatic enrollment if already on Social Security or RRB" },
+      { icon: "alert", text: "GEP enrollment → coverage doesn't start until July 1" },
+      { icon: "alert", text: "Late enrollment penalties are permanent — avoid the GEP if possible" },
+      { icon: "info", text: "SSDI recipients get Medicare on the 25th month of benefits" },
+      { icon: "info", text: "ALS patients get Medicare the same month SSDI begins — no wait" },
+      { icon: "dollar", text: "Part B late penalty: +10% per 12-month period of delay" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Initial Enrollment Period", description: "Everything you need to know about your 7-month window to sign up for Medicare.", slug: "medicare-initial-enrollment-period" },
+      { title: "Applying for Medicare", description: "Step-by-step guide to applying for Medicare online, by phone, or in person.", slug: "applying-for-medicare" },
+      { title: "Medicare Enrollment Periods Guide", description: "Complete guide to all Medicare enrollment periods — when to sign up and what happens if you miss your window.", slug: "your-guide-to-medicare-enrollment-periods-when-to-sign-up" },
+      { title: "Medicare Starter Guide", description: "What to do in your first 90 days of Medicare coverage.", slug: "medicare-starter-guide-what-to-do-in-your-first-90-days" },
+    ],
+    sidebarRelatedLinks: [
+      "medicare-initial-enrollment-period",
+      "applying-for-medicare",
+      "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+      "turning-65-these-are-the-most-common-medicare-questions-answered",
+      "medicare-starter-guide-what-to-do-in-your-first-90-days",
+    ],
+    ctaBanner: {
+      title: "Not Sure When Your Medicare Starts?",
+      text: "A licensed Medicare specialist can walk you through your exact enrollment timeline and help you avoid coverage gaps or late penalties.",
+    },
+    relatedSlugs: [
+      "medicare-initial-enrollment-period",
+      "applying-for-medicare",
+      "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
+      "turning-65-these-are-the-most-common-medicare-questions-answered",
+      "medicare-starter-guide-what-to-do-in-your-first-90-days",
+    ],
+  },
+
 ];

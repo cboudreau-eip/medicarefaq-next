@@ -733,30 +733,4 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     ],
     relatedSlugs: ["medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g", "medicare-plan-g-reviews"],
   },
-  {
-    slug: 'when-does-medicare-start',
-    seo: {
-      title: 'When Does Medicare Start?',
-      description: 'Medicare coverage is not the same for everyone. Find out when Medicare coverage starts and when benefits begin after you apply.',
-      canonical: 'https://www.medicarefaq.com/faqs/when-does-medicare-start/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/when-does-medicare-coverage-start.jpg',
-    },
-    title: 'When Does Medicare Start?',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '5 Ways to Reduce Your Medicare Premiums',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-initial-enrollment-period", "applying-for-medicare", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "turning-65-these-are-the-most-common-medicare-questions-answered", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
-  },
 ];

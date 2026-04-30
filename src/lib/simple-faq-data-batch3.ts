@@ -874,32 +874,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "original-medicare-vs-medicare-advantage", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medicare-advantage-extra-benefits-explained-whats-really-included", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans"],
   },
   {
-    slug: 'medicare-annual-wellness-visit',
-    seo: {
-      title: 'Medicare Annual Wellness Visit',
-      description: 'The Medicare Annual Wellness Visit is a great time to ensure your health is on the right path. Learn more about what\'s covered here!',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-annual-wellness-visit/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-annual-wellness-visit.jpg',
-    },
-    title: 'Medicare Annual Wellness Visit',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'March 11, 2026',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Mental Health Coverage: What You Need to Know in 2026',
-        paragraphs: [
-          'Updated on March 11, 2026',
-          '[Mental health](/faqs/does-medicare-cover-mental-health) is just as important as physical health, especially [as you age](/faqs/medicare-preventive-services) and face...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "welcome-to-medicare-preventative-visit", "does-medicare-cover-mental-health", "5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
-  },
-  {
     slug: 'what-does-medically-necessary-mean',
     seo: {
       title: 'What Does Medically Necessary Mean?',
