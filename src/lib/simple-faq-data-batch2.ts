@@ -94,33 +94,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-beneficiary-identifiers", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "applying-for-medicare"],
   },
   {
-    slug: 'medicare-supplement-plans-and-pre-existing-conditions',
-    seo: {
-      title: 'Medicare Supplement Plans and Pre-Existing Conditions',
-      description: 'Medicare Supplement (Medigap) Plans and Pre-Existing Conditions can begin immediately if you enroll with guaranteed issue rights. Learn more on the process.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-supplement-plans-and-pre-existing-conditions/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-supplement-pre-existing-conditions.jpg',
-    },
-    title: 'Medicare Supplement Plans and Pre-Existing Conditions',
-    summary: '',
-    category: 'Medicare Supplements',
-    dateUpdated: 'March 21, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Supplement Underwriting Eligibility Questions',
-        paragraphs: [
-          'Updated on March 21, 2023',
-          '[Medicare Supplement underwriting](/faqs/medicare-supplement-underwriting-questions) Eligibility Questions It is not always mandatory to answer Medicare Supplement underwriting...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan", "medicare-supplement-underwriting-questions",
-    "medicare-guaranteed-issue",],
-  },
-  {
     slug: 'scope-of-appointment',
     seo: {
       title: 'Medicare Scope of Appointment Rules',
@@ -578,32 +551,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
     ],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling"],
-  },
-  {
-    slug: 'how-dual-residency-and-medicare-works',
-    seo: {
-      title: 'Medicare Living in Two States',
-      description: 'How does Medicare work when you are living in two states? Find out what you need to know about dual residency and Medicare here.',
-      canonical: 'https://www.medicarefaq.com/faqs/how-dual-residency-and-medicare-works/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/how-medicare-and-dual-residency-works.jpg',
-    },
-    title: 'Medicare Living in Two States',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'October 30, 2023',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover International Travel?',
-        paragraphs: [
-          'Updated on October 30, 2023',
-          'Whether you plan on [traveling within the United States or abroad](/faqs/travel-insurance-for-seniors-with-medicare), [knowing just how far](/blog/what-happens-to-your-medicare-when-you-move-states)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address"],
   },
   {
     slug: 'medicare-supplemental-insurance-tax-deductible',

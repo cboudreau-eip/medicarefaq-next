@@ -497,32 +497,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period"],
   },
   {
-    slug: 'medicare-inpatient-vs-outpatient-vs-under-observation',
-    seo: {
-      title: 'Medicare Coverage for Inpatient vs. Outpatient vs. Under Observation',
-      description: 'Knowing how your Medicare coverage applies is important. Learn about Medicare coverage for inpatient vs outpatient vs under observation here.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-inpatient-vs-outpatient-vs-under-observation/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-inpatient-vs-outpatient-vs-under-observation.jpg',
-    },
-    title: 'Medicare Coverage for Inpatient vs. Outpatient vs. Under Observation',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'September 28, 2021',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Does Medicare Cover Emergency Room Visits',
-        paragraphs: [
-          'Updated on September 28, 2021',
-          'Emergencies can happen at any time, that’s why it’s important to know [what parts of](/blog/medicare-parts-a-b-c-and-d-explained-simply)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "how-medicare-handles-skilled-nursing-vs-custodial-care", "will-medicare-cover-my-surgery", "medicare-coverage-for-stroke-victims"],
-  },
-  {
     slug: 'what-is-medicare',
     seo: {
       title: 'What is Medicare?',

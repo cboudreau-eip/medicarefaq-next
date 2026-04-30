@@ -31870,4 +31870,251 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
   },
 
+  {
+    slug: "medicare-supplement-plans-and-pre-existing-conditions",
+    seo: {
+      title: "Medigap & Pre-Existing Conditions: What You Need to Know (2026)",
+      description: "Can you get a Medicare Supplement plan if you have pre-existing conditions? Learn when Medigap insurers can deny coverage or impose waiting periods — and how guaranteed issue rights protect you.",
+      canonical: "https://www.medicarefaq.com/faqs/medicare-supplement-plans-and-pre-existing-conditions/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-supplement-pre-existing-conditions.jpg",
+    },
+    title: "Medicare Supplement Plans and Pre-Existing Conditions",
+    subtitle: "When Medigap Insurers Can Deny Coverage, When They Can't, and How to Protect Yourself",
+    category: "Medicare Supplements",
+    dateUpdated: "April 30, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is the Compliance and Editorial Manager at MedicareFAQ, ensuring all Medicare content is accurate, up-to-date, and compliant with CMS guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Whether a Medigap insurer can deny you coverage or charge you more because of a pre-existing condition depends almost entirely on when you apply. During your Medigap Open Enrollment Period (OEP) — the 6-month window that starts the month you are both 65 or older and enrolled in Part B — you have guaranteed issue rights and cannot be denied or charged more for any health reason. Outside that window, most insurers can use medical underwriting, which means they can deny coverage, charge higher premiums, or impose a waiting period for pre-existing conditions.",
+      badges: [
+        { plan: "During OEP", status: "covered" },
+        { plan: "Guaranteed Issue", status: "covered" },
+        { plan: "Outside OEP", status: "partial" },
+        { plan: "Underwriting", status: "not-covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "During Medigap OEP (6-month window)", coverage: "Guaranteed Issue", icon: "CheckCircle", notes: "Insurers cannot deny coverage, charge higher premiums, or impose waiting periods for pre-existing conditions. This is your most important protection." },
+      { planType: "Guaranteed Issue Rights (outside OEP)", coverage: "Guaranteed Issue", icon: "CheckCircle", notes: "Specific life events (losing employer coverage, plan leaving area, moving out of plan area) trigger guaranteed issue rights even outside the OEP." },
+      { planType: "Outside OEP, no GI rights", coverage: "Underwriting Required", icon: "AlertCircle", notes: "Insurers can use medical underwriting — they may deny coverage, charge higher premiums, or impose a 6-month waiting period for pre-existing conditions." },
+      { planType: "States with extra protections", coverage: "Varies by State", icon: "Info", notes: "Some states (CA, FL, OR, MO, ID, IL, LA, and others) have birthday rules or continuous open enrollment that give you additional switching rights without underwriting." },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Medigap Open Enrollment Period (OEP)",
+        icon: "Calendar",
+        iconColor: "text-teal-600",
+        coverageLabel: "Full Guaranteed Issue — No Underwriting",
+        coverageType: "covered",
+        paragraphs: [
+          "Your Medigap Open Enrollment Period is the single most important window for getting a Medigap plan if you have pre-existing conditions. It lasts 6 months and begins the month you are both age 65 or older and enrolled in Medicare Part B. During this period, every Medigap insurer in your state must sell you any plan they offer at the same price they charge anyone else your age — regardless of your health history.",
+          "This is a federal protection under the Medicare Supplement Insurance regulations. Insurers cannot ask about your health, cannot deny you a plan, cannot charge you a higher premium because of a health condition, and cannot impose a waiting period for pre-existing conditions during your OEP. Once your OEP ends, these protections generally disappear unless a specific guaranteed issue event applies.",
+        ],
+        whatItCovers: [
+          "Any Medigap plan available in your state, regardless of health status",
+          "Standard community-rated or issue-age-rated premiums — no health surcharges",
+          "Immediate coverage with no waiting period for pre-existing conditions",
+          "Protection from denial based on any medical condition",
+        ],
+        whatItDoesntCover: [
+          "Plans not available in your state (plan availability varies by state and insurer)",
+          "The OEP does not apply to Medicare Advantage plans (those have separate enrollment rules)",
+          "If you are under 65 and eligible for Medicare due to disability, federal OEP protections may not apply in all states — check your state's rules",
+        ],
+        callout: {
+          type: "warning",
+          title: "Your OEP Starts Automatically — Don't Miss It",
+          text: "Your Medigap OEP begins the month you turn 65 and are enrolled in Part B. It does not restart if you delay enrolling in Part B. If you delay Part B enrollment (e.g., because you have employer coverage), your OEP begins when you eventually enroll in Part B — not when you turn 65.",
+        },
+        costNote: "$ During your OEP, premiums are based on your age and location only — not your health. Applying during this window is almost always the lowest-cost option for people with pre-existing conditions.",
+      },
+      {
+        planName: "Guaranteed Issue Rights (Outside OEP)",
+        icon: "Shield",
+        iconColor: "text-blue-600",
+        coverageLabel: "Guaranteed Issue — Specific Situations Only",
+        coverageType: "covered",
+        paragraphs: [
+          "Even after your OEP ends, certain life events trigger guaranteed issue rights — meaning insurers must sell you a Medigap plan without medical underwriting. These rights are narrower than the OEP, but they provide important protection when your coverage situation changes involuntarily.",
+          "The most common guaranteed issue situations include: your Medicare Advantage plan is leaving your area or you move out of its service area; your employer-sponsored retiree coverage ends; your Medigap insurer goes bankrupt or loses its license; or you enrolled in a Medicare Advantage plan for the first time and want to switch back to Original Medicare within the first year. In these situations, you typically have 63 days from the loss of coverage to apply for a Medigap plan with guaranteed issue rights.",
+        ],
+        whatItCovers: [
+          "Loss of Medicare Advantage plan (plan leaves area or you move out of service area)",
+          "Loss of employer-sponsored retiree health coverage",
+          "Medigap insurer bankruptcy or license revocation",
+          "Switching back from Medicare Advantage to Original Medicare within the first year (trial right)",
+          "Losing Medicaid or a Medicare SELECT plan in some circumstances",
+        ],
+        whatItDoesntCover: [
+          "Voluntary disenrollment from a Medigap plan (you chose to drop it)",
+          "Switching Medigap plans without a qualifying event (underwriting applies)",
+          "Guaranteed issue rights typically apply to specific plan types — not all plans may be available",
+        ],
+        callout: {
+          type: "info",
+          title: "63-Day Window — Act Quickly",
+          text: "When a guaranteed issue event occurs, you typically have 63 days from the date your prior coverage ends to apply for a Medigap plan with guaranteed issue rights. Missing this window means you'll likely face medical underwriting.",
+        },
+        costNote: "$ Guaranteed issue rights protect you from denial but do not cap premiums. Insurers can still charge age-based and location-based rates — they simply cannot add a health surcharge or deny you.",
+      },
+      {
+        planName: "Medical Underwriting (Outside OEP, No GI Rights)",
+        icon: "ClipboardList",
+        iconColor: "text-amber-600",
+        coverageLabel: "Underwriting — Denial or Waiting Period Possible",
+        coverageType: "partial",
+        paragraphs: [
+          "If you apply for a Medigap plan outside your OEP and no guaranteed issue event applies, insurers in most states can use medical underwriting. This means they review your health history and can decline your application, charge you a higher premium, or impose a waiting period for pre-existing conditions.",
+          "A pre-existing condition waiting period under Medigap can last up to 6 months. During this time, the plan will not cover costs related to the pre-existing condition — though Medicare Part A and Part B will still pay their share. After the waiting period ends, the Medigap plan covers its normal benefits for all conditions. Some insurers may waive the waiting period if you had prior creditable coverage (such as employer insurance) for at least 6 months before applying.",
+        ],
+        whatItCovers: [
+          "Coverage for all conditions after any waiting period ends",
+          "Immediate coverage for conditions not flagged as pre-existing",
+          "Some insurers may waive waiting periods for prior creditable coverage",
+        ],
+        whatItDoesntCover: [
+          "Pre-existing conditions during the waiting period (up to 6 months)",
+          "Insurers may deny coverage entirely for serious health conditions",
+          "Higher premiums may apply permanently if the insurer uses attained-age or health-based pricing",
+        ],
+        callout: {
+          type: "warning",
+          title: "Common Conditions That Trigger Underwriting Denial",
+          text: "Conditions that frequently lead to Medigap denial during underwriting include: heart disease, cancer (within the past 5–10 years), COPD, kidney disease, diabetes with complications, HIV/AIDS, and several others. Each insurer has its own underwriting guidelines — what one insurer declines, another may accept.",
+        },
+        costNote: "$ If you are declined by one insurer, try others — underwriting standards vary. Some insurers are more lenient with certain conditions. A licensed Medicare broker can help you identify which insurers are most likely to approve your application.",
+      },
+      {
+        planName: "State-Specific Protections",
+        icon: "MapPin",
+        iconColor: "text-indigo-600",
+        coverageLabel: "Varies by State — May Provide Extra Rights",
+        coverageType: "partial",
+        paragraphs: [
+          "Several states have enacted consumer protections that go beyond the federal Medigap rules, giving beneficiaries additional opportunities to switch plans or apply without underwriting. The most common state-level protection is the 'birthday rule,' which allows you to switch to an equal or lesser Medigap plan without underwriting during a window around your birthday each year.",
+          "States with birthday rules or continuous open enrollment include California, Florida, Oregon, Missouri, Idaho, Illinois, Louisiana, Nevada, and others. The rules vary — some allow switching to any plan with equal or lesser benefits, others only allow switching to the same plan letter. If you live in one of these states, you may have more flexibility to change Medigap plans even if you have pre-existing conditions.",
+        ],
+        whatItCovers: [
+          "Birthday rule states: switch Medigap plans annually without underwriting",
+          "Continuous open enrollment states (e.g., Connecticut, Massachusetts, New York, Maine): guaranteed issue year-round",
+          "Some states extend OEP protections to Medicare beneficiaries under 65",
+        ],
+        whatItDoesntCover: [
+          "State protections do not apply in all states — most states follow federal rules only",
+          "Birthday rules typically only allow switching to an equal or lesser plan, not upgrading",
+          "State rules change — always verify current rules with your state's insurance department",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check Your State's Rules Before Applying",
+          text: "If you live in California, Florida, Oregon, Missouri, Idaho, Illinois, Louisiana, Nevada, Connecticut, Massachusetts, New York, or Maine, you may have additional guaranteed issue or switching rights. Contact your State Health Insurance Assistance Program (SHIP) or a licensed Medicare broker to understand your state's specific protections.",
+        },
+        costNote: "$ In states with continuous open enrollment (NY, CT, MA, ME), community rating means everyone pays the same premium regardless of health — making these states especially favorable for people with pre-existing conditions.",
+      },
+    ],
+    costTable: {
+      title: "Medigap Pre-Existing Condition Rules at a Glance",
+      headers: ["Situation", "Can Insurer Deny?", "Waiting Period?", "Premium Surcharge?"],
+      rows: [
+        { "Situation": "During Medigap OEP (first 6 months of Part B)", "Can Insurer Deny?": "No", "Waiting Period?": "No", "Premium Surcharge?": "No" },
+        { "Situation": "Guaranteed issue event (e.g., plan leaves area)", "Can Insurer Deny?": "No", "Waiting Period?": "No", "Premium Surcharge?": "No" },
+        { "Situation": "Outside OEP, no GI event (most states)", "Can Insurer Deny?": "Yes", "Waiting Period?": "Up to 6 months", "Premium Surcharge?": "Possibly" },
+        { "Situation": "Birthday rule state (e.g., CA, FL, OR)", "Can Insurer Deny?": "No (during window)", "Waiting Period?": "No", "Premium Surcharge?": "No" },
+        { "Situation": "Continuous OE state (NY, CT, MA, ME)", "Can Insurer Deny?": "No", "Waiting Period?": "No", "Premium Surcharge?": "No" },
+        { "Situation": "Under 65 with disability (federal rules)", "Can Insurer Deny?": "Yes (in most states)", "Waiting Period?": "Possibly", "Premium Surcharge?": "Possibly" },
+      ],
+      footnote: "Rules are based on 2026 federal Medigap regulations. State laws may provide additional protections. Always verify current rules with a licensed Medicare broker or your state insurance department.",
+    },
+    exceptionsSection: {
+      title: "Special Situations",
+      items: [
+        {
+          title: "Medicare Beneficiaries Under 65",
+          text: "Federal law does not require Medigap insurers to sell plans to Medicare beneficiaries under age 65 (those eligible due to disability or ESRD). However, about 30 states have laws requiring insurers to offer at least one Medigap plan to under-65 beneficiaries, though premiums can be significantly higher. Check your state's rules if you are under 65 and need Medigap coverage.",
+          highlight: "About 30 states require at least one Medigap plan for under-65 beneficiaries — but premiums can be much higher",
+        },
+        {
+          title: "Prior Creditable Coverage and Waiting Periods",
+          text: "If you had prior creditable health coverage (such as employer insurance, COBRA, or a retiree plan) for at least 6 continuous months before applying for Medigap, some insurers will waive or reduce the pre-existing condition waiting period. The rules vary by insurer and state. Keep documentation of your prior coverage when applying.",
+          highlight: "6+ months of prior creditable coverage may eliminate or shorten the Medigap waiting period",
+        },
+        {
+          title: "Switching Between Medigap Plans",
+          text: "If you already have a Medigap plan and want to switch to a different plan or insurer, you will generally face medical underwriting outside of your OEP (unless a GI event applies or you are in a state with a birthday rule or continuous open enrollment). This means switching plans later in life — especially after developing health conditions — can be difficult or expensive.",
+          highlight: "Switching Medigap plans outside your OEP usually requires passing medical underwriting in most states",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Can I be denied a Medigap plan because of a pre-existing condition?",
+        answer: "Yes — but only if you apply outside your Medigap Open Enrollment Period and no guaranteed issue event applies. During your OEP (the 6-month window starting when you turn 65 and enroll in Part B), insurers cannot deny you or charge you more for any health reason. Outside that window, most states allow medical underwriting, which can result in denial, higher premiums, or a waiting period.",
+      },
+      {
+        question: "What is the Medigap Open Enrollment Period?",
+        answer: "The Medigap OEP is a 6-month window that begins the month you are both age 65 or older and enrolled in Medicare Part B. During this period, you have guaranteed issue rights — insurers must sell you any plan they offer at standard rates, regardless of your health history. This is the most important window for people with pre-existing conditions.",
+      },
+      {
+        question: "How long is the Medigap pre-existing condition waiting period?",
+        answer: "If a Medigap insurer imposes a pre-existing condition waiting period, it can last up to 6 months. During this time, the plan will not cover costs related to the pre-existing condition — but Medicare Part A and Part B will still pay their share. After the waiting period, the plan covers all conditions normally.",
+      },
+      {
+        question: "What are guaranteed issue rights for Medigap?",
+        answer: "Guaranteed issue rights are specific situations in which Medigap insurers must sell you a plan without medical underwriting, even outside your OEP. Common examples include losing a Medicare Advantage plan because it leaves your area, losing employer-sponsored retiree coverage, or switching back from Medicare Advantage to Original Medicare within the first year. You typically have 63 days from the loss of coverage to use these rights.",
+      },
+      {
+        question: "Which states have birthday rules for Medigap?",
+        answer: "States with birthday rules (allowing you to switch Medigap plans without underwriting during a window around your birthday) include California, Florida, Oregon, Missouri, Idaho, Illinois, Louisiana, and Nevada, among others. States with continuous open enrollment (year-round guaranteed issue) include New York, Connecticut, Massachusetts, and Maine. Rules vary — check your state's current regulations.",
+      },
+      {
+        question: "Can I get Medigap if I have diabetes, heart disease, or cancer?",
+        answer: "During your Medigap OEP, yes — insurers cannot deny you or charge you more for any condition, including diabetes, heart disease, or cancer. Outside your OEP, these conditions often trigger denial or waiting periods during medical underwriting. If you are outside your OEP, consider working with a licensed Medicare broker who knows which insurers have more lenient underwriting standards.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "OEP = 6 months from Part B enrollment at 65 — guaranteed issue, no underwriting" },
+      { icon: "check", text: "Guaranteed issue events (losing MA plan, employer coverage) also protect you" },
+      { icon: "alert", text: "Outside OEP with no GI event: insurers can deny, surcharge, or impose waiting periods" },
+      { icon: "alert", text: "Waiting periods can last up to 6 months for pre-existing conditions" },
+      { icon: "info", text: "Birthday rule states (CA, FL, OR, MO, ID, IL, LA, NV) give extra switching rights" },
+      { icon: "info", text: "NY, CT, MA, ME have year-round guaranteed issue — most protective states" },
+      { icon: "dollar", text: "Prior creditable coverage (6+ months) may waive or shorten waiting periods" },
+    ],
+    relatedTopics: [
+      { title: "Medigap Underwriting: How Pre-Existing Conditions Still Matter", description: "Deep dive into how medical underwriting works and which conditions most often lead to denial.", slug: "medigap-underwriting-how-preexisting-conditions-still-matter" },
+      { title: "Medicare Supplement and Pre-Existing Conditions", description: "What you need to know about Medigap coverage and health history.", slug: "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know" },
+      { title: "Medicare Supplement Underwriting Questions", description: "What health questions insurers ask during Medigap underwriting.", slug: "medicare-supplement-underwriting-questions" },
+      { title: "Medicare Guaranteed Issue Rights", description: "Full guide to the situations that trigger guaranteed issue rights for Medigap.", slug: "medicare-guaranteed-issue" },
+    ],
+    sidebarRelatedLinks: [
+      "medigap-underwriting-how-preexisting-conditions-still-matter",
+      "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know",
+      "medicare-supplement-underwriting-questions",
+      "medicare-guaranteed-issue",
+      "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
+    ],
+    ctaBanner: {
+      title: "Have Pre-Existing Conditions? Talk to a Licensed Medicare Specialist",
+      text: "Navigating Medigap underwriting can be complex. A licensed Medicare specialist can help you find the right plan and timing to maximize your chances of approval.",
+    },
+    relatedSlugs: [
+      "medigap-underwriting-how-preexisting-conditions-still-matter",
+      "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know",
+      "medicare-supplement-underwriting-questions",
+      "medicare-guaranteed-issue",
+      "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
+    ],
+  },
+
 ];
