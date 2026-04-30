@@ -223,7 +223,7 @@ export default function ZipFormModal({
                 </p>
 
                 {/* Form */}
-                <form onSubmit={handleSubmit} className="mb-5">
+                <form id="zipcode-form" onSubmit={handleSubmit} className="mb-5">
                   <div className="flex items-center rounded-xl border-2 border-slate-200 focus-within:border-[#0D9488] transition-colors overflow-hidden">
                     <input
                       ref={inputRef}
