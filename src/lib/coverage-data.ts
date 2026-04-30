@@ -29030,4 +29030,790 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage", "how-tricare-works-with-medicare", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
   },
 
+
+  {
+    slug: "differences-between-medicare-and-social-security",
+    seo: {
+      title: "Medicare vs. Social Security: Key Differences Explained",
+      description: "Medicare and Social Security are separate federal programs. Learn how they differ, how they work together, and what each one covers for retirees.",
+      canonical: "https://www.medicarefaq.com/faqs/differences-between-medicare-and-social-security/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/understanding-social-security-and-medicare.jpg",
+    },
+    title: "Medicare vs. Social Security: Key Differences Explained",
+    subtitle: "Medicare provides health insurance; Social Security provides retirement income. Learn how these two separate federal programs differ and work together.",
+    category: "Medicare FAQ",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare and Social Security are two separate federal programs. Social Security provides retirement income; Medicare provides health insurance. You can receive one without the other. In 2026, Medicare Part B premiums of $185/month are typically deducted automatically from Social Security checks.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Social Security", status: "covered" },
+        { plan: "FICA Tax", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare", coverage: "Health Insurance", icon: "shield", notes: "Administered by CMS; funded by Medicare taxes (1.45% each)" },
+      { planType: "Social Security", coverage: "Retirement Income", icon: "dollar-sign", notes: "Administered by SSA; funded by SS taxes (6.2% each)" },
+      { planType: "Both Together", coverage: "Income + Health Coverage", icon: "check-circle", notes: "Part B premiums deducted from SS check automatically" },
+      { planType: "Neither Required", coverage: "Independent Programs", icon: "info", notes: "You can have one without the other" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Is Social Security?",
+        icon: "dollar-sign",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Retirement Income",
+        coverageType: "covered",
+        paragraphs: [
+          "Social Security provides monthly retirement income based on your 35 highest-earning years. It also covers disability benefits (SSDI) and survivor benefits for spouses and dependents. In 2026, Social Security benefits increased 2.5% due to the annual cost-of-living adjustment (COLA).",
+        ],
+        whatItCovers: [
+          "Monthly retirement income based on your 35 highest-earning years",
+          "Disability benefits (SSDI) for those unable to work",
+          "Survivor benefits for spouses and dependents",
+          "Medicare Part B and Part D premium deductions from your check",
+          "Cost-of-living adjustments (COLA) — 2.5% increase in 2026",
+        ],
+        whatItDoesntCover: [
+          "Health insurance or medical bills",
+          "Prescription drug costs",
+          "Long-term care or nursing home expenses",
+          "Dental, vision, or hearing care",
+        ],
+      },
+      {
+        planName: "What Is Medicare?",
+        icon: "shield",
+        iconColor: "#059669",
+        coverageLabel: "Health Insurance",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare is a federal health insurance program for people 65 and older, and for certain younger people with disabilities. It covers hospital stays (Part A), doctor visits and outpatient care (Part B), Medicare Advantage plans (Part C), and prescription drugs (Part D).",
+        ],
+        whatItCovers: [
+          "Hospital insurance (Part A) — inpatient stays, skilled nursing, hospice",
+          "Medical insurance (Part B) — doctor visits, outpatient services, preventive care",
+          "Medicare Advantage (Part C) — private plans combining A + B + usually D",
+          "Prescription drug coverage (Part D)",
+          "Supplemental coverage (Medigap) to fill cost-sharing gaps",
+        ],
+        whatItDoesntCover: [
+          "Routine dental, vision, and hearing (Original Medicare)",
+          "Long-term custodial care",
+          "Monthly retirement income",
+          "Cost-of-living adjustments",
+        ],
+      },
+      {
+        planName: "How They Work Together",
+        icon: "link",
+        iconColor: "#7C3AED",
+        coverageLabel: "Coordinated Programs",
+        coverageType: "partial",
+        paragraphs: [
+          "While Medicare and Social Security are separate programs, they often interact. If you receive Social Security at 65, you are automatically enrolled in Medicare Parts A and B. Your Part B premium ($185/month in 2026) is automatically deducted from your Social Security check.",
+        ],
+        whatItCovers: [
+          "SSA automatically enrolls you in Medicare Parts A & B at 65 if you receive Social Security",
+          "Part B premiums ($185/month in 2026) are deducted directly from your Social Security check",
+          "Part D IRMAA surcharges are also deducted from Social Security",
+          "Medicare Savings Programs can help low-income beneficiaries pay Part B premiums",
+          "SSDI recipients automatically get Medicare after 24 months of disability benefits",
+        ],
+        whatItDoesntCover: [
+          "Social Security does not pay Medicare claims",
+          "Medicare does not determine your Social Security benefit amount",
+          "Delaying Social Security does not delay Medicare eligibility",
+          "Receiving Social Security early does not increase Medicare benefits",
+        ],
+        callout: {
+          type: "info",
+          title: "Can You Have One Without the Other?",
+          text: "Yes. You can enroll in Medicare at 65 without claiming Social Security. You can also claim Social Security at 62 without enrolling in Medicare until 65. The two programs are independent.",
+        },
+      },
+      {
+        planName: "FICA Taxes: How Both Are Funded",
+        icon: "percent",
+        iconColor: "#D97706",
+        coverageLabel: "Payroll Tax Funded",
+        coverageType: "covered",
+        paragraphs: [
+          "Both Medicare and Social Security are funded through FICA (Federal Insurance Contributions Act) payroll taxes. Employees and employers each pay 1.45% for Medicare and 6.2% for Social Security. Self-employed individuals pay both halves.",
+        ],
+        whatItCovers: [
+          "Social Security tax: 6.2% employee + 6.2% employer (up to $176,100 wage base in 2026)",
+          "Medicare tax: 1.45% employee + 1.45% employer (no wage cap)",
+          "Additional Medicare tax: 0.9% on wages above $200,000 (single) / $250,000 (joint)",
+          "Self-employed pay both halves: 12.4% SS + 2.9% Medicare",
+          "40 quarters (10 years) of Medicare taxes = premium-free Part A",
+        ],
+        whatItDoesntCover: [
+          "FICA taxes do not fund Medicaid",
+          "FICA taxes do not fund Medicare Advantage or Part D directly",
+          "Paying FICA does not guarantee a specific Social Security benefit amount",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 Key Numbers: Medicare vs. Social Security",
+      headers: ["Item", "Medicare", "Social Security"],
+      rows: [
+        { "Item": "Part B Premium", "Medicare": "$185.00/month", "Social Security": "Deducted from SS check if receiving" },
+        { "Item": "Part A Premium", "Medicare": "$0 (if 40+ quarters)", "Social Security": "N/A" },
+        { "Item": "SS COLA 2026", "Medicare": "N/A", "Social Security": "+2.5%" },
+        { "Item": "Medicare Tax Rate", "Medicare": "1.45% + 1.45% employer", "Social Security": "N/A" },
+        { "Item": "SS Tax Rate", "Medicare": "N/A", "Social Security": "6.2% + 6.2% employer" },
+        { "Item": "SS Wage Base", "Medicare": "No cap", "Social Security": "$176,100" },
+        { "Item": "Full Retirement Age", "Medicare": "N/A", "Social Security": "67 (born 1960+)" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions & Special Cases",
+      items: [
+        {
+          title: "Railroad Retirement Board (RRB)",
+          text: "Railroad workers receive Medicare and retirement benefits through the RRB, not SSA. The programs are equivalent but administered separately.",
+        },
+        {
+          title: "Disability (SSDI → Medicare)",
+          text: "SSDI recipients become eligible for Medicare after 24 months of disability benefits, regardless of age. ALS patients qualify immediately.",
+        },
+        {
+          title: "Delaying Both Programs",
+          text: "If you delay both Social Security and Medicare past 65, you must actively enroll in Medicare during your IEP or SEP to avoid late penalties. Delaying Social Security does NOT automatically delay Medicare.",
+        },
+        {
+          title: "Social Security Fairness Act (2025)",
+          text: "Eliminated the Windfall Elimination Provision (WEP) and Government Pension Offset (GPO), increasing Social Security benefits for ~3.2 million public employees.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "2025–2026 Legislative Updates",
+      items: [
+        {
+          title: "Social Security COLA 2026",
+          description: "Social Security benefits increased 2.5% in January 2026.",
+          status: "Passed",
+        },
+        {
+          title: "Medicare Part B Premium Increase",
+          description: "Part B premium rose to $185/month in 2026, up from $174.70 in 2025.",
+          status: "Passed",
+        },
+        {
+          title: "Social Security Fairness Act",
+          description: "Eliminated WEP and GPO, increasing Social Security benefits for ~3.2 million public employees.",
+          status: "Passed",
+        },
+        {
+          title: "H.R. 1 — Medicaid Work Requirements",
+          description: "Proposed cuts to Medicaid that could affect low-income Medicare beneficiaries who rely on Medicare Savings Programs.",
+          status: "Proposed",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Key Takeaways",
+      paragraphs: [],
+      checklist: {
+        title: "Key Takeaways",
+        type: "info",
+        items: [
+          "Medicare = health insurance; Social Security = retirement income — they are separate programs",
+          "Both are funded by FICA payroll taxes, but at different rates",
+          "Part B premiums are automatically deducted from Social Security checks",
+          "You can enroll in Medicare at 65 without claiming Social Security",
+          "SSDI recipients get Medicare after 24 months of disability benefits",
+          "Delaying Social Security does NOT delay Medicare eligibility",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Do I need Social Security to get Medicare?",
+        answer: "No. You can enroll in Medicare at 65 even if you haven't claimed Social Security. You'll pay Part B premiums by invoice rather than having them deducted from a check.",
+      },
+      {
+        question: "Does Social Security pay my Medicare premiums?",
+        answer: "Social Security deducts your Part B premium ($185/month in 2026) from your check automatically. It doesn't 'pay' them — it's a deduction from your benefit.",
+      },
+      {
+        question: "What happens to Medicare if I delay Social Security?",
+        answer: "Nothing — Medicare eligibility starts at 65 regardless of when you claim Social Security. If you delay SS past 65, you must actively enroll in Medicare yourself.",
+      },
+      {
+        question: "How much of my paycheck goes to Medicare and Social Security?",
+        answer: "1.45% goes to Medicare and 6.2% goes to Social Security (up to the $176,100 wage base in 2026). Your employer matches both.",
+      },
+      {
+        question: "Can I get Medicare if I never worked?",
+        answer: "Yes, through a spouse's work record (if married 10+ years), or by paying Part A premiums ($285 or $518/month in 2026 depending on work history).",
+      },
+    ],
+    quickReference: [
+      { icon: "info", text: "Medicare = health insurance; Social Security = retirement income" },
+      { icon: "dollar", text: "Part B premium ($185/month) is deducted from your Social Security check" },
+      { icon: "alert", text: "Delaying Social Security does NOT delay Medicare eligibility" },
+      { icon: "check", text: "SSDI recipients get Medicare after 24 months of disability benefits" },
+    ],
+    relatedTopics: [
+      { title: "Can You Get Medicare Without Social Security?", description: "Learn if you can enroll in Medicare without claiming Social Security benefits.", slug: "can-you-get-medicare-without-receiving-social-security-benefits" },
+      { title: "Delaying Medicare", description: "Understand when it's safe to delay Medicare enrollment and avoid penalties.", slug: "delay-medicare" },
+      { title: "Medicare and Employment", description: "Navigate Medicare coverage when you're still working.", slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job" },
+      { title: "Guide to Retirement Planning", description: "Plan your retirement with Medicare and Social Security in mind.", slug: "guide-to-retirement-planning" },
+    ],
+    sidebarRelatedLinks: [
+      "Can You Get Medicare Without Social Security",
+      "Delaying Medicare",
+      "Medicare and Employment",
+      "Guide to Retirement Planning",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Medicare and Social Security?",
+      text: "Our licensed agents can help you coordinate Medicare enrollment with your Social Security timing.",
+    },
+    relatedSlugs: ["full-retirement-age", "can-you-get-medicare-without-receiving-social-security-benefits", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "guide-to-retirement-planning"],
+  },
+  {
+    slug: "durable-medical-equipment",
+    seo: {
+      title: "Durable Medical Equipment (DME) Covered by Medicare",
+      description: "Medicare Part B covers durable medical equipment like wheelchairs, walkers, CPAP machines, and blood glucose monitors. Learn what qualifies and what you pay.",
+      canonical: "https://www.medicarefaq.com/faqs/durable-medical-equipment/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/durable-medical-equipment-covered-by-medicare.jpg",
+    },
+    title: "Durable Medical Equipment (DME) Covered by Medicare",
+    subtitle: "Medicare Part B covers durable medical equipment that is medically necessary, prescribed by a doctor, and suitable for home use. You pay 20% coinsurance after the Part B deductible.",
+    category: "Medicare FAQ",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is a licensed Medicare insurance agent and content contributor at MedicareFAQ.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare Part B covers durable medical equipment (DME) that is medically necessary, prescribed by a doctor, and suitable for home use. You pay 20% coinsurance after the Part B deductible ($257 in 2026). Equipment must be purchased from a Medicare-enrolled supplier.",
+      badges: [
+        { plan: "Part B", status: "covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part B)", coverage: "80% of approved amount", icon: "shield", notes: "20% coinsurance after $257 deductible; must use enrolled supplier" },
+      { planType: "Medicare Advantage", coverage: "At least equal to Original Medicare", icon: "heart", notes: "May require prior authorization; copays vary by plan" },
+      { planType: "Medigap Plan G", coverage: "Covers the 20% coinsurance", icon: "shield-check", notes: "Works with Original Medicare only; $0 after deductible" },
+      { planType: "Medicaid (Dual Eligible)", coverage: "Covers Medicare's 20% coinsurance", icon: "users", notes: "$0 for most dual eligibles; state-specific rules apply" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "What Qualifies as DME?",
+        icon: "package",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered with Conditions",
+        coverageType: "partial",
+        paragraphs: [
+          "Durable medical equipment must meet four criteria to be covered by Medicare: it must be durable (able to withstand repeated use), primarily medical in nature, appropriate for home use, and medically necessary as prescribed by a doctor.",
+        ],
+        whatItCovers: [
+          "Must be durable (can withstand repeated use)",
+          "Must be primarily medical in nature (not for comfort or convenience)",
+          "Must be appropriate for home use",
+          "Must be medically necessary and prescribed by a doctor",
+          "Examples: wheelchairs, walkers, hospital beds, CPAP machines, oxygen equipment, blood glucose monitors",
+        ],
+        whatItDoesntCover: [
+          "Items that are primarily for comfort (e.g., air conditioners, ordinary mattresses)",
+          "Equipment used only in a medical facility",
+          "Items not prescribed by a physician",
+          "Equipment from non-Medicare-enrolled suppliers",
+        ],
+      },
+      {
+        planName: "Common DME Items Medicare Covers",
+        icon: "list",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare Part B covers a wide range of durable medical equipment when medically necessary. Common covered items include mobility aids, respiratory equipment, and diabetes supplies.",
+        ],
+        whatItCovers: [
+          "Wheelchairs and power scooters (mobility impairment required)",
+          "Walkers, crutches, and canes",
+          "Hospital beds for home use",
+          "CPAP and BiPAP machines for sleep apnea",
+          "Oxygen equipment and supplies",
+          "Blood glucose monitors and test strips (diabetes)",
+          "Continuous glucose monitors (CGMs) — expanded 2023",
+          "Nebulizer machines for respiratory conditions",
+          "Prosthetics and orthotics",
+          "Therapeutic shoes for diabetics (1 pair per year)",
+        ],
+        whatItDoesntCover: [
+          "Hearing aids (not covered under Original Medicare)",
+          "Eyeglasses (except after cataract surgery)",
+          "Bathroom safety devices (grab bars, raised toilet seats)",
+          "Stair lifts and home modifications",
+          "LASIK surgery equipment",
+        ],
+        callout: {
+          type: "info",
+          title: "Rent vs. Buy",
+          text: "Medicare may pay to rent or buy DME depending on the item. For expensive items like power wheelchairs, Medicare often pays to rent for 13 months, after which ownership transfers to you.",
+        },
+      },
+      {
+        planName: "How to Get DME Covered",
+        icon: "clipboard",
+        iconColor: "#7C3AED",
+        coverageLabel: "Step-by-Step Process",
+        coverageType: "partial",
+        paragraphs: [
+          "To get DME covered by Medicare, you need a written prescription from your doctor, documentation of medical necessity, and you must use a Medicare-enrolled supplier.",
+        ],
+        whatItCovers: [
+          "Step 1: Get a written order (prescription) from your doctor",
+          "Step 2: Ensure your doctor documents medical necessity in your records",
+          "Step 3: Use a Medicare-enrolled DME supplier (check Medicare.gov/supplier-directory)",
+          "Step 4: Confirm the supplier accepts Medicare assignment",
+          "Step 5: Pay the 20% coinsurance after the $257 Part B deductible",
+        ],
+        whatItDoesntCover: [
+          "Suppliers not enrolled in Medicare cannot bill Medicare",
+          "Items purchased before a doctor's order is written",
+          "Equipment not documented as medically necessary",
+        ],
+      },
+      {
+        planName: "Competitive Bidding Program",
+        icon: "trending-down",
+        iconColor: "#D97706",
+        coverageLabel: "Area-Specific Rules",
+        coverageType: "partial",
+        paragraphs: [
+          "CMS runs a competitive bidding program for common DME items in certain geographic areas. In these areas, you must use a contract supplier for covered items like CPAP machines, oxygen, walkers, and wheelchairs.",
+        ],
+        whatItCovers: [
+          "CMS runs a competitive bidding program for common DME items in certain areas",
+          "Winning suppliers offer lower prices to Medicare",
+          "Covered items include CPAP, oxygen, walkers, wheelchairs, and more",
+          "In competitive bidding areas, you must use a contract supplier",
+          "Outside bidding areas, any Medicare-enrolled supplier may be used",
+        ],
+        whatItDoesntCover: [
+          "Custom items (custom wheelchairs, prosthetics) are not subject to competitive bidding",
+          "Rural areas may have different supplier requirements",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 DME Cost Examples",
+      headers: ["Equipment", "Medicare Pays", "You Pay (20%)", "Notes"],
+      rows: [
+        { "Equipment": "Standard wheelchair", "Medicare Pays": "80% of approved amount", "You Pay (20%)": "~$150–$300", "Notes": "After $257 deductible" },
+        { "Equipment": "Power wheelchair", "Medicare Pays": "80% of approved amount", "You Pay (20%)": "~$500–$1,500", "Notes": "Prior auth often required" },
+        { "Equipment": "CPAP machine", "Medicare Pays": "80% of approved amount", "You Pay (20%)": "~$60–$150", "Notes": "Rental for 13 months, then own" },
+        { "Equipment": "Oxygen equipment", "Medicare Pays": "80% of approved amount", "You Pay (20%)": "~$40–$80/month", "Notes": "Rental; capped at 36 months" },
+        { "Equipment": "Blood glucose monitor", "Medicare Pays": "80% of approved amount", "You Pay (20%)": "~$10–$30", "Notes": "Test strips also covered" },
+        { "Equipment": "CGM", "Medicare Pays": "80% of approved amount", "You Pay (20%)": "~$50–$150/month", "Notes": "Expanded coverage since 2023" },
+        { "Equipment": "Hospital bed", "Medicare Pays": "80% of approved amount", "You Pay (20%)": "~$100–$300", "Notes": "Rental or purchase" },
+        { "Equipment": "Walker", "Medicare Pays": "80% of approved amount", "You Pay (20%)": "~$20–$60", "Notes": "Standard or wheeled" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions",
+      items: [
+        {
+          title: "Advance Beneficiary Notice (ABN)",
+          text: "If your supplier thinks Medicare may not cover an item, they must give you an ABN before providing it. You can choose to get the item and pay out-of-pocket, or decline.",
+        },
+        {
+          title: "Medicare Advantage and DME",
+          text: "MA plans must cover the same DME as Original Medicare, but may require prior authorization, use of specific suppliers, or different cost-sharing.",
+        },
+        {
+          title: "Medigap and DME Costs",
+          text: "Medigap Plan G and Plan F cover the 20% Part B coinsurance for DME, leaving you with $0 after the annual deductible.",
+        },
+        {
+          title: "Therapeutic Shoes for Diabetics",
+          text: "Medicare covers one pair of therapeutic shoes (or inserts) per year for people with diabetes. This is a separate benefit from standard DME.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "2025–2026 Legislative Updates",
+      items: [
+        {
+          title: "CGM Coverage Expansion (2023)",
+          description: "CMS expanded coverage of continuous glucose monitors to all Medicare beneficiaries with diabetes who need insulin or are at risk of hypoglycemia.",
+          status: "Passed",
+        },
+        {
+          title: "Part B Deductible Increased to $257",
+          description: "The 2026 Part B deductible increased from $240 to $257, affecting the amount you pay before Medicare covers 80% of DME costs.",
+          status: "Passed",
+        },
+        {
+          title: "Competitive Bidding Round 2024",
+          description: "CMS updated competitive bidding contracts for common DME items, potentially changing which suppliers are contracted in your area.",
+          status: "Passed",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "DME Coverage Checklist",
+      paragraphs: [],
+      checklist: {
+        title: "DME Coverage Checklist",
+        type: "tip",
+        items: [
+          "Get a written prescription from your doctor before ordering any DME",
+          "Verify your supplier is enrolled in Medicare (Medicare.gov/supplier-directory)",
+          "Ask if the supplier accepts Medicare assignment to limit your costs",
+          "Check if you're in a competitive bidding area — you may be required to use a contract supplier",
+          "Consider Medigap Plan G to cover the 20% coinsurance",
+          "If denied, file an appeal — many DME denials are overturned on appeal",
+          "Keep all documentation of medical necessity for your records",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover wheelchairs?",
+        answer: "Yes. Medicare Part B covers manual and power wheelchairs when medically necessary and prescribed by a doctor. You pay 20% coinsurance after the Part B deductible.",
+      },
+      {
+        question: "Does Medicare cover CPAP machines?",
+        answer: "Yes. Medicare covers CPAP machines for diagnosed sleep apnea. Medicare typically pays to rent the machine for 13 months, after which ownership transfers to you.",
+      },
+      {
+        question: "Does Medicare cover blood glucose monitors?",
+        answer: "Yes. Part B covers blood glucose monitors, test strips, and lancets for Medicare beneficiaries with diabetes. Continuous glucose monitors (CGMs) are also covered.",
+      },
+      {
+        question: "What is a Medicare-enrolled DME supplier?",
+        answer: "A supplier that has enrolled with Medicare and agreed to its billing rules. You must use an enrolled supplier for Medicare to pay. Check Medicare.gov to find enrolled suppliers near you.",
+      },
+      {
+        question: "Does Medicare cover grab bars and bathroom safety equipment?",
+        answer: "No. Grab bars and raised toilet seats are not covered by Original Medicare. Some Medicare Advantage plans may offer a home safety benefit.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "Part B covers 80% of DME costs after the $257 deductible" },
+      { icon: "dollar", text: "You pay 20% coinsurance — Medigap Plan G covers this" },
+      { icon: "alert", text: "Must use a Medicare-enrolled supplier" },
+      { icon: "info", text: "CGM coverage expanded in 2023 to all insulin-dependent diabetics" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Coverage for Wheelchairs and Scooters", description: "Learn how Medicare covers power wheelchairs and mobility scooters.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
+      { title: "Does Medicare Cover Medical Alert Systems?", description: "Find out if Medicare covers medical alert devices.", slug: "does-medicare-cover-medical-alert-systems" },
+      { title: "Will Medicare Pay for a Nebulizer Machine?", description: "Learn about Medicare's coverage for nebulizer machines.", slug: "will-medicare-pay-for-a-nebulizer-machine" },
+      { title: "Medicare Coverage for Compression Socks", description: "Understand when Medicare covers compression stockings.", slug: "medicare-coverage-for-compression-socks" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Coverage for Wheelchairs and Scooters",
+      "Does Medicare Cover Medical Alert Systems",
+      "Will Medicare Pay for a Nebulizer Machine",
+      "Medicare Coverage for Compression Socks",
+    ],
+    ctaBanner: {
+      title: "Need Help with DME Coverage?",
+      text: "Our licensed agents can help you understand your Medicare DME benefits and find the right supplemental coverage.",
+    },
+    relatedSlugs: ["medicare-coverage-for-wheelchairs-and-scooters", "medicare-coverage-for-bathroom-safety-devices", "does-medicare-cover-medical-alert-systems", "will-medicare-pay-for-a-nebulizer-machine", "medicare-coverage-for-compression-socks"],
+  },
+  {
+    slug: "deductible-copay-coinsurance-premium",
+    seo: {
+      title: "Medicare Deductible vs. Copay vs. Coinsurance vs. Premium",
+      description: "Understand the four types of Medicare out-of-pocket costs: premiums, deductibles, copays, and coinsurance — with 2026 figures for each Medicare part.",
+      canonical: "https://www.medicarefaq.com/faqs/deductible-copay-coinsurance-premium/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/deductible-vs-copay-vs-coinsurance-vs-premium.jpg",
+    },
+    title: "Medicare Deductible vs. Copay vs. Coinsurance vs. Premium",
+    subtitle: "Medicare has four main types of out-of-pocket costs. Understanding the difference between premiums, deductibles, copays, and coinsurance helps you budget for healthcare.",
+    category: "Costs & Savings",
+    dateUpdated: "April 28, 2026",
+    author: {
+      name: "Jagger Esch",
+      initials: "JE",
+      role: "Author",
+      bio: "Jagger Esch is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+    },
+    readTime: "6 min read",
+    quickAnswer: {
+      text: "Medicare has four main types of out-of-pocket costs: premiums (monthly fee to have coverage), deductibles (amount you pay before Medicare starts), copays (fixed dollar amount per service), and coinsurance (percentage of the cost). In 2026, Part B coinsurance is 20% after a $257 deductible. Original Medicare has no out-of-pocket maximum.",
+      badges: [
+        { plan: "Part A", status: "covered" },
+        { plan: "Part B", status: "covered" },
+        { plan: "Part D", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Premium", coverage: "Monthly fee to maintain coverage", icon: "calendar", notes: "Part B: $185/month in 2026; deducted from SS check" },
+      { planType: "Deductible", coverage: "Amount you pay before Medicare pays", icon: "trending-up", notes: "Part B: $257/year; Part A: $1,676/benefit period in 2026" },
+      { planType: "Copay", coverage: "Fixed dollar amount per service", icon: "dollar-sign", notes: "Common in MA plans: $10–$50 per PCP visit" },
+      { planType: "Coinsurance", coverage: "Percentage of the cost you pay", icon: "percent", notes: "Part B: 20% after deductible; Medigap Plan G covers this" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Premiums",
+        icon: "calendar",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Monthly Fee",
+        coverageType: "covered",
+        paragraphs: [
+          "A premium is the monthly fee you pay to maintain Medicare coverage. Part A is free for most people (40+ quarters of Medicare taxes). Part B costs $185/month in 2026. Part D and Medigap premiums vary by plan.",
+        ],
+        whatItCovers: [
+          "Part A: $0/month if you have 40+ quarters of Medicare taxes",
+          "Part A: $285/month (30–39 quarters) or $518/month (under 30 quarters) in 2026",
+          "Part B: $185/month standard premium in 2026",
+          "Part D: Varies by plan; average ~$46/month in 2026",
+          "Medigap: Varies by plan and age; Plan G typically $100–$200/month",
+          "IRMAA surcharges apply to Part B and Part D for higher-income beneficiaries",
+        ],
+        whatItDoesntCover: [
+          "Premiums do not count toward your deductible",
+          "Premiums do not count toward your out-of-pocket maximum",
+          "Missing premium payments can result in loss of coverage",
+        ],
+        callout: {
+          type: "info",
+          title: "Part B Giveback",
+          text: "Some Medicare Advantage plans offer a 'Part B Giveback' benefit that reduces your Part B premium by up to $185/month. About 25% of MA plans offered this in 2026.",
+        },
+      },
+      {
+        planName: "Deductibles",
+        icon: "trending-up",
+        iconColor: "#059669",
+        coverageLabel: "Annual Threshold",
+        coverageType: "covered",
+        paragraphs: [
+          "A deductible is the amount you pay out-of-pocket before Medicare starts paying. The Part B deductible is $257/year in 2026. The Part A deductible is $1,676 per benefit period — not per year.",
+        ],
+        whatItCovers: [
+          "Part A deductible: $1,676 per benefit period in 2026 (not per year)",
+          "Part B deductible: $257 per year in 2026",
+          "Part D deductible: Up to $590/year in 2026 (varies by plan)",
+          "After meeting the deductible, Medicare pays its share of covered services",
+          "Medigap Plan G covers the Part A deductible; Plan F covers both A and B deductibles",
+        ],
+        whatItDoesntCover: [
+          "Part A benefit period resets with each hospitalization after 60 days",
+          "Part B deductible applies to all outpatient services each calendar year",
+          "Part D deductible applies before the plan pays for drugs",
+        ],
+        callout: {
+          type: "warning",
+          title: "Part A Benefit Period Warning",
+          text: "The Part A deductible is per benefit period, not per year. If you're hospitalized, discharged for 60+ days, and then hospitalized again, a new $1,676 deductible applies. There is no limit to how many benefit periods you can have.",
+        },
+      },
+      {
+        planName: "Coinsurance",
+        icon: "percent",
+        iconColor: "#7C3AED",
+        coverageLabel: "Percentage of Cost",
+        coverageType: "covered",
+        paragraphs: [
+          "Coinsurance is the percentage of the Medicare-approved amount you pay after meeting your deductible. Part B coinsurance is 20% — meaning Medicare pays 80% and you pay 20% of covered services.",
+        ],
+        whatItCovers: [
+          "Part B: 20% of the Medicare-approved amount after the $257 deductible",
+          "Part A hospital days 1–60: $0 coinsurance",
+          "Part A hospital days 61–90: $419/day coinsurance in 2026",
+          "Part A hospital days 91+: $838/day (lifetime reserve days) in 2026",
+          "Skilled nursing facility days 21–100: $209.50/day coinsurance in 2026",
+        ],
+        whatItDoesntCover: [
+          "Original Medicare has NO out-of-pocket maximum — coinsurance can be unlimited",
+          "Medigap is the main way to cap coinsurance costs",
+          "Medicare Advantage plans have an annual OOP maximum ($9,350 in 2026)",
+        ],
+      },
+      {
+        planName: "Copays",
+        icon: "dollar-sign",
+        iconColor: "#D97706",
+        coverageLabel: "Fixed Dollar Amount",
+        coverageType: "covered",
+        paragraphs: [
+          "A copay is a fixed dollar amount you pay for a specific service, regardless of the total cost. Copays are common in Medicare Advantage plans. Original Medicare uses coinsurance (20%), not copays.",
+        ],
+        whatItCovers: [
+          "Common in Medicare Advantage plans: fixed amounts per visit or service",
+          "PCP visit: typically $0–$20 in MA plans",
+          "Specialist visit: typically $30–$50 in MA plans",
+          "Emergency room: typically $90–$120 in MA plans",
+          "Part D copays: vary by drug tier (generic, preferred brand, non-preferred, specialty)",
+          "Urgent care: typically $40–$65 in MA plans",
+        ],
+        whatItDoesntCover: [
+          "Original Medicare does not use copays — it uses coinsurance (20%)",
+          "Copays count toward the MA plan's annual out-of-pocket maximum",
+          "Copays do not apply to Original Medicare services",
+        ],
+      },
+    ],
+    costTable: {
+      title: "2026 Medicare Cost-Sharing Quick Reference",
+      headers: ["Cost Item", "Amount (2026)", "Type", "How to Reduce"],
+      rows: [
+        { "Cost Item": "Part B Premium", "Amount (2026)": "$185.00/month", "Type": "Premium", "How to Reduce": "MSP, Part B Giveback, IRMAA appeal" },
+        { "Cost Item": "Part A Premium", "Amount (2026)": "$0 (40+ quarters)", "Type": "Premium", "How to Reduce": "N/A if premium-free" },
+        { "Cost Item": "Part B Deductible", "Amount (2026)": "$257/year", "Type": "Deductible", "How to Reduce": "Medigap Plan F (pre-2020 enrollees)" },
+        { "Cost Item": "Part A Deductible", "Amount (2026)": "$1,676/benefit period", "Type": "Deductible", "How to Reduce": "Medigap Plan G" },
+        { "Cost Item": "Part B Coinsurance", "Amount (2026)": "20% after deductible", "Type": "Coinsurance", "How to Reduce": "Medigap Plan G" },
+        { "Cost Item": "Part A Days 61–90", "Amount (2026)": "$419/day", "Type": "Coinsurance", "How to Reduce": "Medigap Plan G" },
+        { "Cost Item": "SNF Days 21–100", "Amount (2026)": "$209.50/day", "Type": "Coinsurance", "How to Reduce": "Medigap Plan G" },
+        { "Cost Item": "Part D Deductible", "Amount (2026)": "Up to $590/year", "Type": "Deductible", "How to Reduce": "Extra Help, low-deductible plans" },
+        { "Cost Item": "MA PCP Visit", "Amount (2026)": "$0–$20 typical", "Type": "Copay", "How to Reduce": "Choose $0 copay plans" },
+        { "Cost Item": "MA OOP Maximum", "Amount (2026)": "$9,350 in-network", "Type": "Annual Cap", "How to Reduce": "Choose lower OOP max plans" },
+      ],
+    },
+    exceptionsSection: {
+      title: "Important Exceptions",
+      items: [
+        {
+          title: "Original Medicare Has No OOP Maximum",
+          text: "Unlike Medicare Advantage, Original Medicare has no annual cap on out-of-pocket costs. A serious illness could result in unlimited coinsurance. Medigap is the primary protection against this.",
+        },
+        {
+          title: "Preventive Services Are $0",
+          text: "Many preventive services (Annual Wellness Visit, flu shots, mammograms, colonoscopies) are covered at $0 coinsurance under Part B when performed by a participating provider.",
+        },
+        {
+          title: "Part D $2,000 Out-of-Pocket Cap",
+          text: "Starting in 2025, Part D has a $2,000 annual out-of-pocket cap on drug costs. Once reached, you pay $0 for covered drugs for the rest of the year.",
+        },
+        {
+          title: "Medigap Standardization",
+          text: "Medigap plans are standardized by letter (A, B, C, D, F, G, K, L, M, N). Plan G is the most comprehensive for new enrollees and covers the Part A deductible and the 20% Part B coinsurance.",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "2025–2026 Legislative Updates",
+      items: [
+        {
+          title: "Part D $2,000 OOP Cap",
+          description: "The Inflation Reduction Act capped Part D out-of-pocket drug costs at $2,000/year starting in 2025.",
+          status: "Passed",
+        },
+        {
+          title: "Part B Premium to $185",
+          description: "The 2026 Part B premium increased from $174.70 to $185/month.",
+          status: "Passed",
+        },
+        {
+          title: "Part B Deductible to $257",
+          description: "The 2026 Part B deductible increased from $240 to $257.",
+          status: "Passed",
+        },
+        {
+          title: "Part A Deductible to $1,676",
+          description: "The 2026 Part A hospital deductible increased from $1,632 to $1,676 per benefit period.",
+          status: "Passed",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "Cost-Sharing Reduction Checklist",
+      paragraphs: [],
+      checklist: {
+        title: "Cost-Sharing Reduction Checklist",
+        type: "tip",
+        items: [
+          "Check if you qualify for a Medicare Savings Program (MSP) to have the state pay your Part B premium",
+          "Apply for Extra Help (LIS) to reduce Part D premiums, deductibles, and copays",
+          "Consider Medigap Plan G to cover the Part A deductible and 20% Part B coinsurance",
+          "Compare Medicare Advantage plans with low copays and a low annual OOP maximum",
+          "Appeal IRMAA surcharges if you had a qualifying life event (retirement, divorce, death of spouse)",
+          "Use the $2,000 Part D OOP cap to your advantage — high-cost drug users benefit most",
+          "Take advantage of $0 preventive services under Part B",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "What is the difference between a copay and coinsurance?",
+        answer: "A copay is a fixed dollar amount (e.g., $20 per visit). Coinsurance is a percentage of the cost (e.g., 20% of the approved amount). Original Medicare uses coinsurance; Medicare Advantage plans typically use copays.",
+      },
+      {
+        question: "Does Medicare have an out-of-pocket maximum?",
+        answer: "Original Medicare has no OOP maximum. Medicare Advantage plans have an annual OOP cap ($9,350 in-network in 2026). Medigap covers most OOP costs under Original Medicare.",
+      },
+      {
+        question: "What is the Part B deductible in 2026?",
+        answer: "The Part B deductible is $257 in 2026. After meeting it, Medicare pays 80% of covered outpatient services and you pay 20%.",
+      },
+      {
+        question: "How does the Part A deductible work?",
+        answer: "The Part A deductible is $1,676 per benefit period in 2026 — not per year. A new benefit period begins if you're out of the hospital for 60 consecutive days.",
+      },
+      {
+        question: "Can Medigap cover my deductibles and coinsurance?",
+        answer: "Yes. Medigap Plan G covers the Part A deductible, Part A coinsurance, and the 20% Part B coinsurance. Plan F also covers the Part B deductible but is only available to those eligible for Medicare before January 1, 2020.",
+      },
+    ],
+    quickReference: [
+      { icon: "dollar", text: "Premium = monthly fee; Deductible = annual threshold before coverage kicks in" },
+      { icon: "info", text: "Part B coinsurance = 20% after $257 deductible in 2026" },
+      { icon: "alert", text: "Original Medicare has NO out-of-pocket maximum — Medigap fills this gap" },
+      { icon: "check", text: "Part D OOP cap = $2,000/year starting 2025" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Costs in 2026", description: "See all 2026 Medicare premiums, deductibles, and key changes.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
+      { title: "What Is Medicare Cost Sharing?", description: "Understand how Medicare cost sharing works across all parts.", slug: "what-is-medicare-cost-sharing" },
+      { title: "Medicare Savings Programs", description: "Learn how Medicare Savings Programs can help pay your premiums.", slug: "medicare-savings-programs" },
+      { title: "How to Reduce Medicare Premiums", description: "Discover strategies to lower your Medicare costs.", slug: "reduce-medicare-premiums" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Costs in 2026",
+      "What Is Medicare Cost Sharing",
+      "Medicare Savings Programs",
+      "How to Reduce Medicare Premiums",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Medicare Costs?",
+      text: "Our licensed agents can help you find a plan that minimizes your premiums, deductibles, and out-of-pocket costs.",
+    },
+    relatedSlugs: ["medicare-costs-2025", "medicare-part-b-annual-deductible-explained-what-youll-pay", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "what-is-medicare-cost-sharing"],
+  },
+
 ];
