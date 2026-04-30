@@ -147,32 +147,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-prior-authorization", "advance-beneficiary-notice", "what-does-medically-necessary-mean", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],
   },
   {
-    slug: 'medicare-social-security-and-power-of-attorney',
-    seo: {
-      title: 'Medicare, Social Security, and Power of Attorney',
-      description: 'Making decisions on Medicare or Social Security on behalf of someone else requires you to have more than standard power of attorney.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-social-security-and-power-of-attorney/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-social-security-and-power-of-attorney.jpg',
-    },
-    title: 'Medicare, Social Security, and Power of Attorney',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 13, 2026',
-    author: 'Jagger Esch',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'What Is the Full Retirement Age?',
-        paragraphs: [
-          'Updated on February 13, 2026',
-          'The [full retirement age](/blog/full-retirement-age) can range from 66-67 years depending on when you were born....',
-        ],
-      },
-    ],
-    relatedSlugs: ["differences-between-medicare-and-social-security", "who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules", "married-divorced-widowed-how-relationship-status-affects-medicare", "how-can-i-get-medicare-for-my-mom-or-dad", "applying-for-medicare"],
-  },
-  {
     slug: 'surprised-by-higher-medicare-premiums-it-could-be-irmaa',
     seo: {
       title: 'Surprised by Higher Medicare Premiums? It Could Be IRMAA',

@@ -720,32 +720,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "how-dual-residency-and-medicare-works", "state-specific-medicare-rules", "moving-to-another-state-with-medicare"],
   },
   {
-    slug: 'can-you-be-denied-a-medicare-supplement-plan',
-    seo: {
-      title: 'Can You Be Denied a Medicare Supplement Plan?',
-      description: 'Can You Be Denied a Medicare Supplement (Medigap) Plan? If you do not enroll when you are first eligible, you could be denied coverage.',
-      canonical: 'https://www.medicarefaq.com/faqs/can-you-be-denied-a-medicare-supplement-plan/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/can-you-be-denied-a-medicare-supplement-plan.jpg',
-    },
-    title: 'Can You Be Denied a Medicare Supplement Plan?',
-    summary: '',
-    category: 'Medicare Supplements',
-    dateUpdated: 'July 13, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Average Cost of Medicare Supplement Plans',
-        paragraphs: [
-          'Updated on July 13, 2023',
-          'The average cost of [Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can be hard to pinpoint because [monthly premiums](/faqs/average-cost-of-medicare-supplement-plans)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter"],
-  },
-  {
     slug: 'native-american-health-and-medicare',
     seo: {
       title: 'Native American Health and Medicare',
