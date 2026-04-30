@@ -538,32 +538,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "5-government-benefits-for-seniors", "discounts-for-seniors", "does-medicare-offer-a-grocery-allowance"],
   },
   {
-    slug: 'moving-to-another-state-with-medicare',
-    seo: {
-      title: 'Tips for Moving to Another State with Medicare',
-      description: 'If you\'re moving to another state, there are some things you need to know on how to transfer Medicare to a different state. Learn more today.',
-      canonical: 'https://www.medicarefaq.com/faqs/moving-to-another-state-with-medicare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/tips-for-moving-to-another-state-with-medicare.jpg',
-    },
-    title: 'Tips for Moving to Another State with Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 19, 2026',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "best-states-to-retire", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
-  },
-  {
     slug: 'medicare-supplement-underwriting-questions',
     seo: {
       title: 'Medicare Supplement Underwriting Eligibility Questions',

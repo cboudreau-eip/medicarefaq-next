@@ -685,32 +685,6 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   },
   // does-medicare-cover-a-biopsy moved to coverage-data.ts (CoverageArticleContent format)
   {
-    slug: 'best-medicare-advantage-plans',
-    seo: {
-      title: 'Best Medicare Advantage Plans for 2026',
-      description: 'The best Medicare Advantage plan for you is not the best plan for everyone. Your individual needs determine which plan is right for you. Learn more here.',
-      canonical: 'https://www.medicarefaq.com/faqs/best-medicare-advantage-plans/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Best-Medicare-Advantage-Plan.jpg',
-    },
-    title: 'Best Medicare Advantage Plans for 2026',
-    summary: '',
-    category: 'Medicare Advantage',
-    dateUpdated: 'November 12, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Advantage Cost by State',
-        paragraphs: [
-          'Updated on November 12, 2024',
-          'Your [Medicare Advantage cost](/faqs/average-cost-of-medicare-advantage) will vary depending on [which state you call home](/blog/what-happens-to-your-medicare-when-you-move-states). It’s important...',
-        ],
-      },
-    ],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-advantage-extra-benefits-explained-whats-really-included", "original-medicare-vs-medicare-advantage"],
-  },
-  {
     slug: 'what-is-the-best-medicare-supplement-plan',
     seo: {
       title: 'Best Medicare Supplement Plans for 2026',
