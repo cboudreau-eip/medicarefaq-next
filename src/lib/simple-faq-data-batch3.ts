@@ -720,32 +720,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "how-dual-residency-and-medicare-works", "state-specific-medicare-rules", "moving-to-another-state-with-medicare"],
   },
   {
-    slug: 'native-american-health-and-medicare',
-    seo: {
-      title: 'Native American Health and Medicare',
-      description: 'For Native Americans who become eligible for Medicare, it’s important to understand how Medicare works with Indian Health Services (IHS).',
-      canonical: 'https://www.medicarefaq.com/faqs/native-american-health-and-medicare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/native-american-health-insurance-and-medicare.jpg',
-    },
-    title: 'Native American Health and Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'February 16, 2026',
-    author: 'Jagger Esch',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Creditable Coverage',
-        paragraphs: [
-          'Updated on February 16, 2026',
-          'If you choose to [delay your Medicare coverage](/faqs/delay-medicare), you’ll want to ensure you have [creditable](/faqs/what-is-medicare-creditable-coverage)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-preventive-services", "what-is-medicare", "does-medicare-cover-mental-health", "medicare-coverage-for-in-home-caregivers", "5-government-benefits-for-seniors"],
-  },
-  {
     slug: 'what-does-medically-necessary-mean',
     seo: {
       title: 'What Does Medically Necessary Mean?',

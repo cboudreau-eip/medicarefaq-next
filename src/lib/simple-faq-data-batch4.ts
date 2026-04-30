@@ -207,32 +207,6 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     relatedSlugs: ["finding-local-doctors-who-accept-medicare", "medicare-enrollment-checklist", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
-    slug: 'canadian-vs-american-medicare',
-    seo: {
-      title: 'Differences Between Canadian Medicare vs. U.S. Medicare',
-      description: 'The United States and Canada each have their own Medicare programs. Learn the differences and similarities between these healthcare systems.',
-      canonical: 'https://www.medicarefaq.com/faqs/canadian-vs-american-medicare/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/differences-between-canadian-medicare-and-us-medicare.jpg',
-    },
-    title: 'Differences Between Canadian Medicare vs. U.S. Medicare',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: 'May 31, 2023',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare for All – Pros and Cons',
-        paragraphs: [
-          'Updated on May 31, 2023',
-          '[Medicare for All](/blog/medicare-for-all) is a proposed healthcare program that aims to provide [universal healthcare coverage](/blog/medicare-for-all)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-is-medicare", "medicare-history", "how-is-medicare-funded", "medicare-vs-medicaid"],
-  },
-  {
     slug: 'medicare-covered-alternatives-to-knee-replacement',
     seo: {
       title: 'Medicare Knee Replacement Coverage and Alternative Treatments',
