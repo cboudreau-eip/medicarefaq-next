@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import HeatmapTracker from "@/components/HeatmapTracker";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -66,6 +67,7 @@ export default function RootLayout({
           />
         </noscript>
         {children}
+        <HeatmapTracker />
       </body>
     </html>
   );
