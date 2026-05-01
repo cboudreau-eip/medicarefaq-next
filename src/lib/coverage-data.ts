@@ -32768,7 +32768,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "Compare plans every year during AEP (Oct 15 – Dec 7) — formularies and premiums change annually" },
       { icon: "info", text: "Tier 1/2 generics: $0–$20/month. Tier 5 specialty: 25–33% coinsurance" },
       { icon: "info", text: "Extra Help can reduce Part D costs to near $0 for qualifying low-income beneficiaries" },
-      { icon: "tip", text: "Mail-order pharmacy: 90-day supply often costs less than two 30-day retail fills" },
+      { icon: "info", text: "Mail-order pharmacy: 90-day supply often costs less than two 30-day retail fills" },
       { icon: "alert", text: "GoodRx purchases do NOT count toward your $2,000 out-of-pocket cap" },
       { icon: "dollar", text: "2026 Part D deductible: up to $590. Average premium: ~$36.78/month" },
     ],
