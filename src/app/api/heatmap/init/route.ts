@@ -1,13 +1,16 @@
 import { NextResponse } from "next/server";
 import { initHeatmapSchema } from "@/lib/heatmap/db";
 
-export async function GET() {
-  // Debug endpoint — check if env var is loaded (does NOT reveal the value)
+export async function GET(request: Request) {
+  // Debug endpoint — reveal enough to diagnose mismatch
   const secret = process.env.HEATMAP_ADMIN_SECRET;
+  const headerSecret = request.headers.get("x-heatmap-secret");
   return NextResponse.json({
     envLoaded: !!secret,
     envLength: secret ? secret.length : 0,
-    envFirst3: secret ? secret.substring(0, 3) : null,
+    envValue: secret, // TEMPORARY — will remove after debugging
+    headerValue: headerSecret,
+    match: secret === headerSecret,
   });
 }
 
