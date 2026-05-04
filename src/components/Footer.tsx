@@ -9,13 +9,13 @@ const LOGO_URL =
 
 const footerColumns = [
   {
-    title: "NEW TO MEDICARE",
+    title: "NEW to MEDICARE",
     color: "#0D9488",
     links: [
       { label: "Medicare 101 Guide", href: "/medicare-101" },
       { label: "Am I Eligible?", href: "/new-to-medicare/eligibility" },
       { label: "Turning 65 Timeline", href: "/new-to-medicare/turning-65" },
-      { label: "What Does It Cost?", href: "/new-to-medicare/costs" },
+      { label: "What Does it Cost?", href: "/new-to-medicare/costs" },
       { label: "Getting Started Checklist", href: "/new-to-medicare/checklist" },
     ],
   },
@@ -38,7 +38,7 @@ const footerColumns = [
     color: "#D97706",
     links: [
       { label: "Turning 65 Enrollment", href: "/enrollment/turning-65" },
-      { label: "Working Past 65", href: "/enrollment/working-past-65" },
+      { label: "Working past 65", href: "/enrollment/working-past-65" },
       { label: "Annual Changes", href: "/enrollment/annual-changes" },
       { label: "Late Penalties", href: "/enrollment/late-penalties" },
       { label: "How to Enroll", href: "/enrollment/how-to-enroll" },
@@ -51,7 +51,7 @@ const footerColumns = [
     color: "#059669",
     links: [
       { label: "Does Medicare Cover...?", href: "/faqs" },
-      { label: "Dental, Vision & Hearing", href: "/faqs/does-medicare-cover-dental-implants" },
+      { label: "Dental, Vision && Hearing", href: "/faqs/does-medicare-cover-dental-implants" },
       { label: "Specialized Care", href: "/faqs/does-medicare-cover-chiropractic-care" },
       { label: "Prescription Drugs", href: "/original-medicare/medicare-parts/medicare-part-d" },
       { label: "Search All Coverage", href: "/search" },

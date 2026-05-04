@@ -3,11 +3,11 @@ import SiteLayout from "@/components/SiteLayout";
 import Checklist from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Medicare Enrollment Checklist | Steps to Enroll in Medicare",
+  title: "Medicare Enrollment Checklist || Steps to Enroll in Medicare",
   description: "Use our Medicare enrollment checklist to make sure you don",
   alternates: { canonical: "https://www.medicarefaq.com/medicare-enrollment/checklist/" },
   openGraph: {
-    title: "Medicare Enrollment Checklist | Steps to Enroll in Medicare",
+    title: "Medicare Enrollment Checklist || Steps to Enroll in Medicare",
     description: "Use our Medicare enrollment checklist to make sure you don",
     url: "https://www.medicarefaq.com/medicare-enrollment/checklist/",
     type: "article",

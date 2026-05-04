@@ -45,7 +45,7 @@ export default function TermsOfUse() {
                 <li>Use automated tools to scrape, crawl, or harvest data from the Site</li>
               </ul>
 
-              <h2>3. Not an Official Government Resource</h2>
+              <h2>3. not an Official Government Resource</h2>
               <p>
                 MedicareFAQ.com is not affiliated with, endorsed by, or operated by the U.S. government,
                 the Centers for Medicare &amp; Medicaid Services (CMS), or any other government agency.

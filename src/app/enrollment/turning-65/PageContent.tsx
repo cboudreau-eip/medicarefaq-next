@@ -360,7 +360,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <div className="bg-green-50 rounded-xl p-6 border border-green-100">
                     <div className="flex items-center gap-2 mb-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600" />
-                      <h3 className="font-semibold text-green-900">You WILL Be Auto-Enrolled If:</h3>
+                      <h3 className="font-semibold text-green-900">You WILL be Auto-Enrolled If:</h3>
                     </div>
                     <ul className="space-y-2 text-sm text-green-800">
                       <li className="flex items-start gap-2">
@@ -382,7 +382,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <div className="bg-amber-50 rounded-xl p-6 border border-amber-100">
                     <div className="flex items-center gap-2 mb-3">
                       <AlertTriangle className="w-5 h-5 text-amber-600" />
-                      <h3 className="font-semibold text-amber-900">You MUST Sign Up If:</h3>
+                      <h3 className="font-semibold text-amber-900">You MUST Sign up If:</h3>
                     </div>
                     <ul className="space-y-2 text-sm text-amber-800">
                       <li className="flex items-start gap-2">
@@ -601,7 +601,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
               <div className="grid sm:grid-cols-4 gap-4">
                 <Link href="/enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <Briefcase className="w-5 h-5 text-amber-600 mb-2" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Working Past 65</h3>
+                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Working past 65</h3>
                   <p className="text-xs text-slate-500">Medicare & employer coverage coordination</p>
                 </Link>
                 <Link href="/enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">

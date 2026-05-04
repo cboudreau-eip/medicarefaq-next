@@ -144,7 +144,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       canonical: 'https://www.medicarefaq.com/faqs/applying-for-medicare/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/when-to-sign-up-for-medicare-and-how-to-apply.jpg',
     },
-    title: 'How to Apply and Sign Up for Medicare',
+    title: 'How to Apply and Sign up for Medicare',
     summary: 'Everything you need to know about enrolling in Medicare, including three ways to apply, enrollment periods and deadlines, required documents, and how to add Part B if you already have Part A.',
     category: 'Enrollment',
     dateUpdated: 'April 14, 2026',
@@ -244,12 +244,12 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faqs" },
       { type: "faq", faqs: [
-        { question: "Can I apply for Medicare before I turn 65?", answer: "Yes. You can apply for Medicare up to 3 months before your 65th birthday. This is the recommended approach to ensure coverage starts as early as possible \u2014 ideally on the first day of your birthday month." },
-        { question: "Do I need to sign up for Medicare if I am still working?", answer: "If you have employer coverage through your own job (or your spouse's job) at a company with 20 or more employees, you can delay Medicare Part B without penalty. However, you should still sign up for Part A since it is free for most people. When your employer coverage ends, you will have an 8-month [Special Enrollment Period](/enrollment/special-enrollment-period) to add Part B." },
-        { question: "What if I missed my enrollment period?", answer: "If you missed your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 through March 31). Coverage will start July 1, and you may owe a permanent [late enrollment penalty](/enrollment/late-penalties)." },
-        { question: "How long does it take to get my Medicare card?", answer: "After enrolling, most people receive their Medicare card within 2 to 4 weeks. You can also log into your Medicare.gov account to access a digital copy of your card immediately." },
-        { question: "Does COBRA count as employer coverage for Medicare purposes?", answer: "No. COBRA is a continuation of your former employer's plan, but it does not count as current employer coverage for Medicare enrollment purposes. If you are on COBRA when you turn 65, you should enroll in Medicare during your Initial Enrollment Period to avoid late penalties." },
-        { question: "Can I have both employer coverage and Medicare at the same time?", answer: "Yes. If you [work past 65](/enrollment/working-past-65) at a company with 20+ employees, your employer plan is typically primary and Medicare is secondary. Many people enroll in premium-free Part A while keeping their employer plan, then add Part B when they retire." }
+        { question: "Can I Apply for Medicare before I Turn 65?", answer: "Yes. You can apply for Medicare up to 3 months before your 65th birthday. This is the recommended approach to ensure coverage starts as early as possible \u2014 ideally on the first day of your birthday month." },
+        { question: "Do I Need to Sign up for Medicare if I Am Still Working?", answer: "If you have employer coverage through your own job (or your spouse's job) at a company with 20 or more employees, you can delay Medicare Part B without penalty. However, you should still sign up for Part A since it is free for most people. When your employer coverage ends, you will have an 8-month [Special Enrollment Period](/enrollment/special-enrollment-period) to add Part B." },
+        { question: "What if I Missed My Enrollment Period?", answer: "If you missed your Initial Enrollment Period and do not qualify for a Special Enrollment Period, you will need to wait for the General Enrollment Period (January 1 through March 31). Coverage will start July 1, and you may owe a permanent [late enrollment penalty](/enrollment/late-penalties)." },
+        { question: "How Long Does it Take to Get My Medicare Card?", answer: "After enrolling, most people receive their Medicare card within 2 to 4 weeks. You can also log into your Medicare.gov account to access a digital copy of your card immediately." },
+        { question: "Does COBRA Count as Employer Coverage for Medicare Purposes?", answer: "No. COBRA is a continuation of your former employer's plan, but it does not count as current employer coverage for Medicare enrollment purposes. If you are on COBRA when you turn 65, you should enroll in Medicare during your Initial Enrollment Period to avoid late penalties." },
+        { question: "Can I Have Both Employer Coverage and Medicare at the Same Time?", answer: "Yes. If you [work past 65](/enrollment/working-past-65) at a company with 20+ employees, your employer plan is typically primary and Medicare is secondary. Many people enroll in premium-free Part A while keeping their employer plan, then add Part B when they retire." }
       ]}
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-does-medicare-start", "medicare-enrollment-checklist", "turning-65-these-are-the-most-common-medicare-questions-answered"],
@@ -376,11 +376,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faqs" },
       { type: "faq", faqs: [
-        { question: "Can I switch from an attained-age plan to a community-rated plan later?", answer: "You can apply to switch, but outside of your Medigap Open Enrollment Period you will likely need to pass medical underwriting. If you have developed health conditions since your original enrollment, you may be denied or charged a higher rate. This is why choosing the right pricing method from the start is so important." },
-        { question: "Do all states offer all three pricing methods?", answer: "No. Some states regulate which pricing methods insurers can use. New York, Connecticut, Massachusetts, and Minnesota require all Medigap plans to be community-rated, meaning every enrollee pays the same base premium regardless of age. Massachusetts and Minnesota also use their own standardized plan structures that differ from the federal standard. Check with your state insurance department or a licensed agent to see which methods are available in your area." },
-        { question: "Does the pricing method affect what my plan covers?", answer: "No. The pricing method only affects how your premium is calculated. A Plan G with community-rated pricing covers the exact same benefits as a Plan G with attained-age pricing. Medigap plan benefits are standardized by the federal government." },
-        { question: "What is the best time to buy a Medigap plan to get the lowest rate?", answer: "The best time is during your Medigap Open Enrollment Period — the 6-month window that starts when you are 65 or older and enrolled in Medicare Part B. During this period, insurers must accept you regardless of health and cannot charge more for pre-existing conditions. If you choose an issue-age-rated plan, enrolling at 65 locks in the lowest possible rate." },
-        { question: "Will my Medigap premium ever go down?", answer: "It is rare for Medigap premiums to decrease. However, you can lower your costs by shopping for a different insurer offering the same plan letter at a lower rate, taking advantage of household or EFT discounts, or switching to a plan with lower coverage (such as Plan N instead of Plan G)." }
+        { question: "Can I Switch from an Attained-age Plan to a Community-rated Plan Later?", answer: "You can apply to switch, but outside of your Medigap Open Enrollment Period you will likely need to pass medical underwriting. If you have developed health conditions since your original enrollment, you may be denied or charged a higher rate. This is why choosing the right pricing method from the start is so important." },
+        { question: "Do All States Offer All Three Pricing Methods?", answer: "No. Some states regulate which pricing methods insurers can use. New York, Connecticut, Massachusetts, and Minnesota require all Medigap plans to be community-rated, meaning every enrollee pays the same base premium regardless of age. Massachusetts and Minnesota also use their own standardized plan structures that differ from the federal standard. Check with your state insurance department or a licensed agent to see which methods are available in your area." },
+        { question: "Does the Pricing Method Affect What My Plan Covers?", answer: "No. The pricing method only affects how your premium is calculated. A Plan G with community-rated pricing covers the exact same benefits as a Plan G with attained-age pricing. Medigap plan benefits are standardized by the federal government." },
+        { question: "What is the Best Time to Buy a Medigap Plan to Get the Lowest Rate?", answer: "The best time is during your Medigap Open Enrollment Period — the 6-month window that starts when you are 65 or older and enrolled in Medicare Part B. During this period, insurers must accept you regardless of health and cannot charge more for pre-existing conditions. If you choose an issue-age-rated plan, enrolling at 65 locks in the lowest possible rate." },
+        { question: "Will My Medigap Premium Ever Go Down?", answer: "It is rare for Medigap premiums to decrease. However, you can lower your costs by shopping for a different insurer offering the same plan letter at a lower rate, taking advantage of household or EFT discounts, or switching to a plan with lower coverage (such as Plan N instead of Plan G)." }
       ]}
     ],
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "average-cost-of-medicare-supplement-plans", "how-medigap-plans-affect-your-overall-medicare-costs", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
@@ -388,12 +388,12 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
   {
     slug: 'hospital-indemnity-insurance',
     seo: {
-      title: 'How Does Hospital Indemnity Insurance Work With Medicare?',
+      title: 'How Does Hospital Indemnity Insurance Work with Medicare?',
       description: 'Medicare hospital indemnity insurance is useful for those with high-deductible policies. They can help lower your costs for a hospital stay.',
       canonical: 'https://www.medicarefaq.com/faqs/hospital-indemnity-insurance/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/hospital-indemnity-insurance.jpg',
     },
-    title: 'How Does Hospital Indemnity Insurance Work With Medicare?',
+    title: 'How Does Hospital Indemnity Insurance Work with Medicare?',
     summary: '',
     category: 'Medicare Part A',
     dateUpdated: '',
@@ -447,7 +447,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         ],
       },
       {
-        heading: 'How Does Hospital Indemnity Coverage Work With Medicare?',
+        heading: 'How Does Hospital Indemnity Coverage Work with Medicare?',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
           'Since these plans are Supplemental, you can gain relief by pairing this plan with yourPart AandMedicare Part B. But will Indemnity insurance work with other forms of Medicare?Hospital Indemnity and MedigapHospital Indemnity insurance and Medigap can work together to bring you ultimate savings. Medigap helps with medical copays and deductibles that Medicare won’t pay. But Medigap won’t provide the same coverage as Hospital Indemnity insurance.Why? Well, Indemnity plans can help pay household costs. If you’re in the hospital and unable to contribute financially at home, this insurance can help pick up those costs.While you’re in the hospital, you want your life to continue running as normally as possible. Medigap helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
@@ -510,12 +510,12 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         ],
       },
       {
-        heading: 'What Can You Do During a Special Enrollment Period?',
+        heading: 'What Can You do during a Special Enrollment Period?',
         paragraphs: [
         ],
       },
       {
-        heading: 'How Long Do You Have to Act?',
+        heading: 'How Long do You Have to Act?',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
           'For example, if you move, your SEP generally starts the month you inform your plan of the move and continues for two full months after. If you lose employer coverage, you typically have an 8-month SEP to enroll in Part A and/or Part B. However, your window to enroll in a Medicare Advantage or Part D plan is often shorter, usually around 60 days from when your other coverage ends.Missing this window could mean you have to wait until the nextAnnual Enrollment Periodto make changes, which could leave you with a gap in coverage.Tips for Making the Most Out of a Special Enrollment PeriodA Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No',
@@ -523,7 +523,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         ],
       },
       {
-        heading: 'Tips for Making the Most Out of a Special Enrollment Period',
+        heading: 'Tips for Making the Most out of a Special Enrollment Period',
         paragraphs: [
           'A Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No',
         ],
@@ -593,7 +593,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         ],
       },
       {
-        heading: 'What Is a POA and How Does It Work?',
+        heading: 'What is a POA and How Does it Work?',
         paragraphs: [
         ],
       },

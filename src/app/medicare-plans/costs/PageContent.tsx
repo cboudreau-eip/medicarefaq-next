@@ -26,16 +26,16 @@ import ZipFormModal from "@/components/ZipFormModal";
 const costScenarios = [
   {
     title: "Original Medicare Only",
-    subtitle: "No supplemental coverage",
+    subtitle: "No Supplemental Coverage",
     monthly: "$202.90",
     monthlyLabel: "Part B premium only",
     annual: "No limit",
     annualLabel: "Out-of-pocket maximum",
     risk: "high",
     items: [
-      { label: "Part A Premium", value: "$0 (most people)" },
+      { label: "Part a Premium", value: "$0 (most people)" },
       { label: "Part B Premium", value: "$202.90/month" },
-      { label: "Part A Deductible", value: "$1,736/benefit period" },
+      { label: "Part a Deductible", value: "$1,736/benefit period" },
       { label: "Part B Deductible", value: "$283/year" },
       { label: "Part B Coinsurance", value: "20% with no limit" },
       { label: "Hospital Days 61-90", value: "$434/day" },
@@ -44,8 +44,8 @@ const costScenarios = [
     color: "border-red-200 bg-red-50",
   },
   {
-    title: "Original Medicare + Medigap G + Part D",
-    subtitle: "Most comprehensive option",
+    title: "Original Medicare ++ Medigap G ++ Part D",
+    subtitle: "Most Comprehensive Option",
     monthly: "$361 – $481",
     monthlyLabel: "Part B + Medigap + Part D",
     annual: "~$283",
@@ -63,7 +63,7 @@ const costScenarios = [
   },
   {
     title: "Medicare Advantage (Part C)",
-    subtitle: "All-in-one alternative",
+    subtitle: "All-in-one Alternative",
     monthly: "$202.90 – $335",
     monthlyLabel: "Part B + MA premium",
     annual: "$9,250",

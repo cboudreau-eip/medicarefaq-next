@@ -51,10 +51,10 @@ export const blogPosts: BlogPost[] = [
 
 export const articleTableOfContents: ArticleSection[] = [
   { id: "how-deductible-works", title: "How the Part B Deductible Works", level: 2 },
-  { id: "after-meeting-deductible", title: "What Happens After Meeting the Deductible", level: 2 },
+  { id: "after-meeting-deductible", title: "What Happens after Meeting the Deductible", level: 2 },
   { id: "deductible-vs-premium", title: "Deductible vs Premium vs Coinsurance", level: 2 },
   { id: "premium-key-differences", title: "Part B Premiums vs. Deductible: Key Differences", level: 2 },
-  { id: "services-that-count", title: "Services That Count Toward the Deductible", level: 2 },
+  { id: "services-that-count", title: "Services that Count toward the Deductible", level: 2 },
   { id: "preventive-services", title: "Preventive Services You Don't Pay For", level: 2 },
   { id: "deductible-changes", title: "Deductible Changes by Year", level: 2 },
   { id: "out-of-pocket-costs", title: "How the Deductible Affects Out-of-Pocket Costs", level: 2 },

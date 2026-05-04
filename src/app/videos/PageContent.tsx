@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 
 const featuredVideo = {
-  title: "What Is Covered by Medicare? (Parts A, B, C & D Explained)",
+  title: "What is Covered by Medicare? (Parts a, B, C && D Explained)",
   description: "Medicare is made up of 4 parts, each covering different benefits. Learn about each part of Medicare and what it covers in this comprehensive video breakdown.",
   duration: "12:34",
   date: "March 2026",
@@ -50,7 +50,7 @@ const videos = [
     youtubeId: "OBMO7kj8sCg",
   },
   {
-    title: "Medicare Advantage vs Medicare Supplement: Which Is Better?",
+    title: "Medicare Advantage vs Medicare Supplement: Which is Better?",
     description: "The biggest decision in Medicare is choosing between Advantage and Supplement plans. We compare costs, coverage, and flexibility.",
     duration: "5:42",
     date: "September 2023",
@@ -58,7 +58,7 @@ const videos = [
     youtubeId: "CYdEc_211GE",
   },
   {
-    title: "How to Sign Up for Medicare: Step-by-Step Guide",
+    title: "How to Sign up for Medicare: Step-by-Step Guide",
     description: "A complete walkthrough of the Medicare enrollment process — from your Initial Enrollment Period to choosing the right plan.",
     duration: "4:52",
     date: "June 2021",
@@ -74,7 +74,7 @@ const videos = [
     youtubeId: "RuyT7Une3wM",
   },
   {
-    title: "All About Medicare Advantage Plans",
+    title: "All about Medicare Advantage Plans",
     description: "Everything you need to know about Medicare Advantage plans — what they cover, how they work, extra benefits, and what to watch out for.",
     duration: "5:31",
     date: "April 2024",

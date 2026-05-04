@@ -11,7 +11,7 @@ export default function CaregiverPageContent({ page, slug }: { page: CaregiverPa
     return (
       <main className="flex-1 flex items-center justify-center">
         <div className="text-center py-20">
-          <h1 className="text-2xl font-bold text-gray-800 mb-4">Page Not Found</h1>
+          <h1 className="text-2xl font-bold text-gray-800 mb-4">Page not Found</h1>
           <Link href="/guide-to-being-a-caregiver" className="text-teal-600 underline">
             Back to Caregiver Guide
           </Link>

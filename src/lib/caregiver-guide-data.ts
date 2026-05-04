@@ -27,7 +27,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     sections: [
       {
         id: "what-is-a-caregiver",
-        heading: "What Is a Caregiver?",
+        heading: "What is a Caregiver?",
         body: `<p>A caregiver is anyone who provides unpaid assistance to a family member, friend, or loved one who has a chronic illness, disability, or age-related condition. Caregiving can range from occasional help with errands to full-time, around-the-clock support.</p>
 <p>In the context of Medicare, caregivers play a critical role in coordinating care, managing medications, attending appointments, and helping beneficiaries navigate their coverage options. While Medicare does not pay family caregivers directly, it does cover many services that reduce the caregiver's burden — including home health care, skilled nursing facility care, and hospice services.</p>`,
       },
@@ -68,32 +68,32 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare pay family caregivers?",
+        question: "Does Medicare Pay Family Caregivers?",
         answer:
           "Generally, no. Medicare does not pay family members to provide care. However, some state Medicaid programs have consumer-directed programs that allow beneficiaries to hire and pay family members as personal care attendants. Check your state's Medicaid program for details.",
       },
       {
-        question: "What Medicare benefits help caregivers the most?",
+        question: "What Medicare Benefits Help Caregivers the Most?",
         answer:
           "Home health care, hospice respite care, and skilled nursing facility coverage are the Medicare benefits that most directly reduce caregiver burden. These services bring professional care into the home or provide short-term facility care so caregivers can rest.",
       },
       {
-        question: "Can a caregiver speak with Medicare on behalf of a beneficiary?",
+        question: "Can a Caregiver Speak with Medicare on Behalf of a Beneficiary?",
         answer:
           "Yes, but the beneficiary must authorize it. The beneficiary can designate a representative by completing a Medicare Authorization to Disclose Personal Health Information form (CMS-10106), which allows Medicare to share information with a named caregiver or family member.",
       },
       {
-        question: "What is caregiver burnout and how can it be prevented?",
+        question: "What is Caregiver Burnout and How Can it be Prevented?",
         answer:
           "Caregiver burnout is a state of physical, emotional, and mental exhaustion that can occur when caregivers don't get the help they need or try to do more than they're able. Prevention strategies include using respite care services, joining a caregiver support group, setting boundaries, and asking for help from other family members.",
       },
     ],
     relatedLinks: [
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
-      { label: "Who Qualifies as a Caregiver Under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
+      { label: "Who Qualifies as a Caregiver under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
       { label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver" },
-      { label: "What Are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
-      { label: "What Is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
+      { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
+      { label: "What is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
       { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
     ],
   },
@@ -106,13 +106,13 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     sections: [
       {
         id: "overview",
-        heading: "What Caregiver Assistance Is Available?",
+        heading: "What Caregiver Assistance is Available?",
         body: `<p>Family caregivers often bear significant financial and physical burdens. A range of federal, state, and nonprofit programs exist to provide relief — from direct financial assistance to free respite care and training programs.</p>
 <p>The most important thing to know is that assistance availability varies significantly by state. Programs like Medicaid Home and Community-Based Services (HCBS) waivers can pay family caregivers in some states but not others. Always check your state's specific offerings.</p>`,
       },
       {
         id: "medicare-coverage",
-        heading: "Medicare-Covered Services That Assist Caregivers",
+        heading: "Medicare-Covered Services that Assist Caregivers",
         body: `<p>While Medicare doesn't pay caregivers directly, it covers services that reduce the caregiving burden:</p>
 <ul>
 <li><strong>Home Health Care</strong> — Skilled nursing, physical therapy, and home health aide visits for homebound beneficiaries (Part A/B).</li>
@@ -123,7 +123,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       },
       {
         id: "medicaid-programs",
-        heading: "Medicaid Programs That Pay Caregivers",
+        heading: "Medicaid Programs that Pay Caregivers",
         body: `<p>Medicaid offers several programs that can pay family caregivers, depending on the state:</p>
 <ul>
 <li><strong>Consumer-Directed Personal Assistance Programs (CDPAP)</strong> — Available in New York and similar programs in other states. Allows beneficiaries to hire, train, and supervise their own caregivers — including family members.</li>
@@ -144,24 +144,24 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     ],
     faqs: [
       {
-        question: "Can I get paid to care for my elderly parent on Medicare?",
+        question: "Can I Get Paid to Care for My Elderly Parent on Medicare?",
         answer:
           "Medicare itself does not pay family caregivers. However, if your parent also has Medicaid, some state Medicaid programs allow beneficiaries to hire family members as paid personal care attendants. Contact your state's Medicaid office or local Area Agency on Aging to explore options.",
       },
       {
-        question: "What is respite care and does Medicare cover it?",
+        question: "What is Respite Care and Does Medicare Cover It?",
         answer:
           "Respite care is temporary relief for primary caregivers. Medicare covers up to 5 consecutive days of inpatient respite care per period under the hospice benefit (Part A). Outside of hospice, Medicare Advantage plans may cover adult day services or short-term nursing facility stays as respite.",
       },
       {
-        question: "How do I find caregiver assistance programs in my area?",
+        question: "How do I Find Caregiver Assistance Programs in My Area?",
         answer:
           "Contact your local Area Agency on Aging (AAA) through the Eldercare Locator (1-800-677-1116 or eldercare.acl.gov). AAAs coordinate local services including respite care, meal delivery, transportation, and caregiver training. Your state's SHIP (State Health Insurance Assistance Program) can also help navigate Medicare benefits.",
       },
     ],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
-      { label: "Who Qualifies as a Caregiver Under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
+      { label: "Who Qualifies as a Caregiver under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
       { label: "Medicare Home Health Coverage", path: "/faqs/does-medicare-cover-home-health-care" },
       { label: "Medicare Hospice Coverage", path: "/faqs/does-medicare-cover-hospice" },
       { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
@@ -169,7 +169,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
   },
   {
     slug: "who-qualifies-as-a-caregiver-under-medicare-rules",
-    title: "Who Qualifies as a Caregiver Under Medicare Rules",
+    title: "Who Qualifies as a Caregiver under Medicare Rules",
     subtitle: "CAREGIVER RESOURCES",
     heroDescription:
       "Understanding how Medicare defines caregivers, which services require a licensed professional, and when family members can provide covered care.",
@@ -196,7 +196,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       },
       {
         id: "medicaid-exception",
-        heading: "When Family Members Can Be Paid Caregivers",
+        heading: "When Family Members Can be Paid Caregivers",
         body: `<p>Under Medicaid (not Medicare), several states allow beneficiaries to hire family members as paid caregivers through consumer-directed programs:</p>
 <ul>
 <li>The beneficiary must be eligible for Medicaid personal care or home and community-based services</li>
@@ -221,17 +221,17 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     ],
     faqs: [
       {
-        question: "Can a spouse be a paid Medicare caregiver?",
+        question: "Can a Spouse be a Paid Medicare Caregiver?",
         answer:
           "Medicare does not pay spouses as caregivers. Under most Medicaid consumer-directed programs, spouses are also excluded. However, some states have exceptions. Check your state's Medicaid program for specific rules.",
       },
       {
-        question: "Does Medicare cover non-medical home care?",
+        question: "Does Medicare Cover Non-medical Home Care?",
         answer:
           "No. Medicare does not cover custodial care (bathing, dressing, meal preparation) unless it is provided alongside skilled care by a Medicare-certified home health agency. If skilled care is no longer needed, Medicare home health coverage ends, even if the beneficiary still needs personal care assistance.",
       },
       {
-        question: "What training does a home health aide need for Medicare coverage?",
+        question: "What Training Does a Home Health Aide Need for Medicare Coverage?",
         answer:
           "Medicare-covered home health aides must complete at least 75 hours of training (16 hours of supervised practical training) and pass a competency evaluation. They must be employed by a Medicare-certified home health agency.",
       },
@@ -239,7 +239,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
-      { label: "What Are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
+      { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
     ],
   },
   {
@@ -286,17 +286,17 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     ],
     faqs: [
       {
-        question: "Do I need a license to be a caregiver?",
+        question: "Do I Need a License to be a Caregiver?",
         answer:
           "For non-medical personal care (bathing, dressing, companionship), no license is required in most states. For home health aide services through a Medicare-certified agency, you need at least 75 hours of training and a competency evaluation. For skilled nursing care, you need a nursing license (LPN or RN).",
       },
       {
-        question: "How long does it take to become a certified home health aide?",
+        question: "How Long Does it Take to Become a Certified Home Health Aide?",
         answer:
           "The minimum federal requirement for Medicare-certified agencies is 75 hours of training, including at least 16 hours of supervised practical training. Many programs can be completed in 2-4 weeks. State requirements may be higher.",
       },
       {
-        question: "Can I get paid to care for a family member?",
+        question: "Can I Get Paid to Care for a Family Member?",
         answer:
           "In most cases, Medicare does not pay family caregivers. However, some state Medicaid programs allow beneficiaries to hire family members as paid personal care attendants. Contact your state's Medicaid office or local Area Agency on Aging to explore options in your state.",
       },
@@ -304,12 +304,12 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
-      { label: "Who Qualifies as a Caregiver Under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
+      { label: "Who Qualifies as a Caregiver under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
     ],
   },
   {
     slug: "what-are-the-4-types-of-caregivers",
-    title: "What Are the 4 Types of Caregivers?",
+    title: "What are the 4 Types of Caregivers?",
     subtitle: "CAREGIVER RESOURCES",
     heroDescription:
       "A breakdown of the four main types of caregivers — family, professional, informal, and long-distance — and how each type interacts with Medicare.",
@@ -353,17 +353,17 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     ],
     faqs: [
       {
-        question: "Which type of caregiver does Medicare cover?",
+        question: "Which Type of Caregiver Does Medicare Cover?",
         answer:
           "Medicare covers professional caregivers — specifically, home health aides and skilled nursing professionals employed by Medicare-certified home health agencies. Family and informal caregivers are not paid by Medicare.",
       },
       {
-        question: "What is the most common type of caregiver?",
+        question: "What is the Most Common Type of Caregiver?",
         answer:
           "Family caregivers are by far the most common type. According to the National Alliance for Caregiving, approximately 53 million Americans provide unpaid care to an adult or child with a health condition or disability.",
       },
       {
-        question: "Can a long-distance caregiver manage Medicare for a loved one?",
+        question: "Can a Long-distance Caregiver Manage Medicare for a Loved One?",
         answer:
           "Yes. A beneficiary can authorize a family member to access their Medicare information by completing a Medicare Authorization to Disclose Personal Health Information form (CMS-10106). For legal decisions, a durable power of attorney for healthcare is also recommended.",
       },
@@ -371,12 +371,12 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver" },
-      { label: "What Is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
+      { label: "What is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
     ],
   },
   {
     slug: "what-is-a-caregiver",
-    title: "What Is a Caregiver?",
+    title: "What is a Caregiver?",
     subtitle: "CAREGIVER RESOURCES",
     heroDescription:
       "A definition of caregiver, the different roles caregivers play in the Medicare system, and the scope of caregiving in the United States.",
@@ -389,7 +389,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       },
       {
         id: "what-caregivers-do",
-        heading: "What Do Caregivers Do?",
+        heading: "What do Caregivers Do?",
         body: `<p>Caregiving tasks vary widely depending on the care recipient's needs and the caregiver's relationship. Common caregiving activities include:</p>
 <ul>
 <li><strong>Personal care</strong> — Bathing, dressing, grooming, toileting</li>
@@ -433,24 +433,24 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     ],
     faqs: [
       {
-        question: "What is the difference between a caregiver and a home health aide?",
+        question: "What is the Difference between a Caregiver and a Home Health Aide?",
         answer:
           "A caregiver is a broad term for anyone who provides care to a person with a health condition or disability. A home health aide is a specific type of professional caregiver who has completed formal training and works for a home health agency. Medicare covers home health aide services when ordered by a physician for a homebound beneficiary.",
       },
       {
-        question: "Is a caregiver the same as a personal care attendant?",
+        question: "Is a Caregiver the Same as a Personal Care Attendant?",
         answer:
           "The terms are often used interchangeably, but a personal care attendant (PCA) typically refers to a paid worker who provides non-medical personal care. Some Medicaid programs use the term PCA specifically for workers in consumer-directed programs where the beneficiary hires and directs their own care.",
       },
       {
-        question: "What resources are available for new caregivers?",
+        question: "What Resources are Available for New Caregivers?",
         answer:
           "New caregivers should contact their local Area Agency on Aging (AAA) through the Eldercare Locator (1-800-677-1116). AARP's Caregiver Resource Center, the Caregiver Action Network, and the National Alliance for Caregiving all offer free guides, training, and support groups.",
       },
     ],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
-      { label: "What Are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
+      { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
       { label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver" },
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
       { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
@@ -471,7 +471,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       },
       {
         id: "adls",
-        heading: "Performing or Assisting With ADLs",
+        heading: "Performing or Assisting with ADLs",
         body: `<p>Activities of Daily Living (ADLs) are the basic self-care tasks that people perform every day. Caregivers often assist with:</p>
 <ul>
 <li><strong>Bathing and personal hygiene</strong> — Helping with showers, baths, grooming, and oral care</li>
@@ -511,25 +511,25 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     ],
     faqs: [
       {
-        question: "What are the three main strengths of a caregiver?",
+        question: "What are the Three Main Strengths of a Caregiver?",
         answer:
           "The three most important strengths of an effective caregiver are patience (the ability to remain calm under stress), empathy (understanding and sharing the feelings of the care recipient), and organization (managing medications, appointments, and care tasks efficiently).",
       },
       {
-        question: "What is the hardest part of being a caregiver?",
+        question: "What is the Hardest Part of Being a Caregiver?",
         answer:
           "Most caregivers report that the emotional toll \u2014 including grief, guilt, and isolation \u2014 is the hardest aspect of caregiving. Caregiver burnout is common and can affect both physical and mental health. Seeking respite care, joining support groups, and accepting help from others are essential strategies for sustainable caregiving.",
       },
       {
-        question: "Does Medicare pay family caregivers?",
+        question: "Does Medicare Pay Family Caregivers?",
         answer:
           "Original Medicare does not pay family members for providing care. However, some state Medicaid programs offer consumer-directed programs that allow beneficiaries to hire and pay family members as personal care attendants. Contact your state Medicaid office or local Area Agency on Aging for details.",
       },
     ],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
-      { label: "What Is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
-      { label: "What Are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
+      { label: "What is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
+      { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
     ],
   },

@@ -41,11 +41,11 @@ import {
 /* ------------------------------------------------------------------ */
 
 const tableOfContents = [
-  { id: "what-is-medicare", label: "What Is Medicare?" },
+  { id: "what-is-medicare", label: "What is Medicare?" },
   { id: "four-parts", label: "The Four Parts of Medicare" },
-  { id: "eligibility", label: "Who Is Eligible?" },
+  { id: "eligibility", label: "Who is Eligible?" },
   { id: "enrollment", label: "Enrollment Periods" },
-  { id: "costs", label: "Costs & Premiums" },
+  { id: "costs", label: "Costs && Premiums" },
   { id: "supplement-vs-advantage", label: "Supplement vs. Advantage" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },
@@ -183,22 +183,22 @@ const enrollmentPeriods = [
 
 const faqs = [
   {
-    question: "What is the difference between Original Medicare and Medicare Advantage?",
+    question: "What is the Difference between Original Medicare and Medicare Advantage?",
     answer:
       "Original Medicare (Parts A & B) is the federal program that covers hospital and medical services. You can see any doctor that accepts Medicare nationwide. Medicare Advantage (Part C) is offered by private insurers and bundles Part A, B, and usually Part D into one plan — often with extra benefits like dental and vision, but with network restrictions.",
   },
   {
-    question: "Is Medicare free?",
+    question: "Is Medicare Free?",
     answer:
       `Part A is premium-free for most people who paid Medicare taxes for at least 10 years. However, Part B has a monthly premium (${MEDICARE_COSTS.partB.monthlyPremium} in 2026), and you'll still have deductibles, copays, and coinsurance. Medicare Supplement plans and Part D plans have additional premiums.`,
   },
   {
-    question: "When should I sign up for Medicare?",
+    question: "When Should I Sign up for Medicare?",
     answer:
       "Most people should enroll during their Initial Enrollment Period — the 7-month window around their 65th birthday. If you're still working and have employer coverage, you may be able to delay enrollment without penalty, but you should consult with a licensed agent to understand your options.",
   },
   {
-    question: "Do I need a referral to see a specialist?",
+    question: "Do I Need a Referral to See a Specialist?",
     answer:
       "With Original Medicare, no — you can see any specialist who accepts Medicare without a referral. With Medicare Advantage HMO plans, you typically need a referral from your primary care doctor. PPO plans usually allow specialist visits without referrals, though you may pay more out-of-network.",
   },
@@ -208,17 +208,17 @@ const faqs = [
       "Original Medicare does not cover most dental, vision, or hearing services. It also doesn't cover long-term care (custodial care), cosmetic surgery, or care outside the United States (with limited exceptions). Many people add a Medicare Supplement plan or choose Medicare Advantage to fill these gaps.",
   },
   {
-    question: "What is a Medicare Supplement (Medigap) plan?",
+    question: "What is a Medicare Supplement (Medigap) Plan?",
     answer:
       "A Medicare Supplement plan is a private insurance policy that helps pay for costs that Original Medicare doesn't cover — like the 20% coinsurance, deductibles, and excess charges. Plans are standardized by letter (A, B, C, D, F, G, K, L, M, N), with Plan G being the most popular for new enrollees.",
   },
   {
-    question: "Can I have both Medicare Supplement and Medicare Advantage?",
+    question: "Can I Have Both Medicare Supplement and Medicare Advantage?",
     answer:
       "No. You cannot use a Medicare Supplement plan with a Medicare Advantage plan. You must choose one path: Original Medicare + Medigap, or Medicare Advantage. Each has its own pros and cons depending on your healthcare needs, budget, and preferences.",
   },
   {
-    question: "What happens if I miss my enrollment period?",
+    question: "What Happens if I Miss My Enrollment Period?",
     answer:
       "If you miss your Initial Enrollment Period and don't have qualifying coverage, you may face a late enrollment penalty — a permanent surcharge added to your monthly premiums. For Part B, the penalty is 10% for each 12-month period you could have had coverage but didn't. For Part D, it's 1% of the national base premium per month of delay.",
   },

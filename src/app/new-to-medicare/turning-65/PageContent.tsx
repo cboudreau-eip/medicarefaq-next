@@ -57,19 +57,19 @@ const timelineMilestones = [
     priority: "Planning Phase",
     tasks: [
       {
-        title: "Research your Medicare options",
+        title: "Research Your Medicare Options",
         description: "Start learning about Original Medicare (Parts A & B), Medicare Supplement (Medigap), Medicare Advantage (Part C), and Part D prescription drug plans.",
       },
       {
-        title: "Review your current coverage",
+        title: "Review Your Current Coverage",
         description: "If you have employer coverage, COBRA, VA benefits, or marketplace insurance, understand how they'll interact with Medicare.",
       },
       {
-        title: "Check your Social Security status",
+        title: "Check Your Social Security Status",
         description: "If you're already receiving Social Security benefits, you'll be automatically enrolled in Medicare Parts A and B. If not, you'll need to sign up manually.",
       },
       {
-        title: "Estimate your costs",
+        title: "Estimate Your Costs",
         description: "Review 2026 Medicare premiums, deductibles, and out-of-pocket costs. Consider whether you'll need supplemental coverage.",
       },
     ],
@@ -84,19 +84,19 @@ const timelineMilestones = [
     priority: "IEP Begins — Take Action",
     tasks: [
       {
-        title: "Your Initial Enrollment Period (IEP) starts",
+        title: "Your Initial Enrollment Period (IEP) Starts",
         description: "Your 7-month IEP begins 3 months before your 65th birthday month. This is the best time to enroll to avoid coverage gaps.",
       },
       {
-        title: "Sign up for Medicare Part A and Part B",
+        title: "Sign up for Medicare Part a and Part B",
         description: "Apply online at ssa.gov, by phone at 1-800-772-1213, or at your local Social Security office. If receiving Social Security, you may be auto-enrolled.",
       },
       {
-        title: "Choose supplemental coverage",
+        title: "Choose Supplemental Coverage",
         description: "Decide between a Medicare Supplement (Medigap) plan or a Medicare Advantage plan. Compare plans available in your area.",
       },
       {
-        title: "Enroll in Part D if needed",
+        title: "Enroll in Part D if Needed",
         description: "If you choose Original Medicare + Medigap, you'll need a standalone Part D plan for prescription drug coverage. Medicare Advantage plans often include drug coverage.",
       },
     ],
@@ -111,15 +111,15 @@ const timelineMilestones = [
     priority: "Key Milestone",
     tasks: [
       {
-        title: "Medicare coverage can begin",
+        title: "Medicare Coverage Can Begin",
         description: "If you enrolled during the first 3 months of your IEP, your coverage starts on the 1st of your birthday month (or the 1st of the prior month if your birthday is on the 1st).",
       },
       {
-        title: "Receive your Medicare card",
+        title: "Receive Your Medicare Card",
         description: "Your red, white, and blue Medicare card should arrive in the mail. Keep it safe — you'll need it for doctor visits and when enrolling in additional plans.",
       },
       {
-        title: "Medigap Open Enrollment begins",
+        title: "Medigap Open Enrollment Begins",
         description: "Your 6-month Medigap Open Enrollment Period starts the month your Part B coverage begins. During this window, insurance companies cannot deny you coverage or charge more due to pre-existing conditions.",
       },
     ],
@@ -134,15 +134,15 @@ const timelineMilestones = [
     priority: "Deadline Approaching",
     tasks: [
       {
-        title: "IEP ends — last chance to enroll without penalty",
+        title: "IEP Ends —— Last Chance to Enroll without Penalty",
         description: "Your Initial Enrollment Period closes 3 months after your birthday month. If you haven't enrolled yet, do so immediately to minimize coverage gaps.",
       },
       {
-        title: "Late enrollment may delay coverage",
+        title: "Late Enrollment May Delay Coverage",
         description: "If you enroll in the last 3 months of your IEP, your coverage won't start until 1-3 months after you sign up.",
       },
       {
-        title: "Review your coverage choices",
+        title: "Review Your Coverage Choices",
         description: "Make sure your doctors accept Medicare and that your prescriptions are covered by your Part D or Medicare Advantage plan.",
       },
     ],
@@ -176,7 +176,7 @@ const penalties = [
 
 const faqs = [
   {
-    question: "What if my birthday is on the 1st of the month?",
+    question: "What if My Birthday is on the 1st of the Month?",
     answer: "If your birthday falls on the 1st of the month, your Initial Enrollment Period starts one month earlier than you might expect. For example, if you turn 65 on June 1st, your IEP runs from February through August (instead of March through September). Your coverage would also begin one month earlier.",
   },
   {
@@ -184,19 +184,19 @@ const faqs = [
     answer: "If you have health insurance through your current employer (or your spouse's employer) and the company has 20 or more employees, you can delay Medicare enrollment without penalty. You'll get a Special Enrollment Period (SEP) of 8 months once you or your spouse stops working or you lose employer coverage. However, you should still consider signing up for premium-free Part A.",
   },
   {
-    question: "What if I have COBRA when I turn 65?",
+    question: "What if I Have COBRA When I Turn 65?",
     answer: "COBRA is NOT considered creditable coverage for Medicare purposes. You should enroll in Medicare during your IEP even if you have COBRA. Failing to do so could result in late enrollment penalties and a gap in coverage.",
   },
   {
-    question: "Can I change my mind after enrolling?",
+    question: "Can I Change My Mind after Enrolling?",
     answer: "You can disenroll from Part B during the General Enrollment Period (January 1 – March 31). For Medicare Advantage and Part D plans, you can make changes during the Annual Enrollment Period (October 15 – December 7) or during the Medicare Advantage Open Enrollment Period (January 1 – March 31).",
   },
   {
-    question: "How do I sign up for Medicare?",
+    question: "How do I Sign up for Medicare?",
     answer: "You can enroll online at ssa.gov (the easiest method), by calling Social Security at 1-800-772-1213, or by visiting your local Social Security office in person. If you're already receiving Social Security benefits, you'll be automatically enrolled.",
   },
   {
-    question: "Will I get a Medicare card in the mail?",
+    question: "Will I Get a Medicare Card in the Mail?",
     answer: "Yes. If you're automatically enrolled, your Medicare card will arrive about 3 months before your 65th birthday. If you enroll manually, your card will arrive after your application is processed. Your card shows your Medicare number and the dates your Part A and Part B coverage began.",
   },
 ];
@@ -433,10 +433,10 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
 
               <div className="grid md:grid-cols-2 gap-4">
                 {[
-                  { title: "Set up your MyMedicare.gov account", description: "Access your claims, coverage details, and preventive services schedule online.", icon: FileText },
-                  { title: "Schedule your Welcome to Medicare visit", description: "A free preventive visit within the first 12 months of Part B coverage. Includes health risk assessment and screenings.", icon: Heart },
-                  { title: "Review your prescription coverage", description: "Make sure your medications are covered by your Part D or Medicare Advantage plan's formulary.", icon: ClipboardList },
-                  { title: "Notify your current insurer", description: "If you're transitioning from employer coverage or marketplace insurance, coordinate the end date with your Medicare start date.", icon: Mail },
+                  { title: "Set up Your MyMedicare.gov Account", description: "Access your claims, coverage details, and preventive services schedule online.", icon: FileText },
+                  { title: "Schedule Your Welcome to Medicare Visit", description: "A free preventive visit within the first 12 months of Part B coverage. Includes health risk assessment and screenings.", icon: Heart },
+                  { title: "Review Your Prescription Coverage", description: "Make sure your medications are covered by your Part D or Medicare Advantage plan's formulary.", icon: ClipboardList },
+                  { title: "Notify Your Current Insurer", description: "If you're transitioning from employer coverage or marketplace insurance, coordinate the end date with your Medicare start date.", icon: Mail },
                 ].map((item) => (
                   <div key={item.title} className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-3 mb-3">

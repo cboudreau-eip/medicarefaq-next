@@ -4,7 +4,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
   {
     slug: "your-medicare-rights-and-protections",
     seo: {
-      title: "Your Medicare Rights and Protections | MedicareFAQ",
+      title: "Your Medicare Rights and Protections || MedicareFAQ",
       description: "Medicare Rights and Protections are something you're entitled to know about. From coverage to filing an appeal, we can help. Learn more here!",
       canonical: "https://www.medicarefaq.com/faqs/your-medicare-rights-and-protections/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -117,11 +117,11 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
         type: "faq",
         faqs: [
           {
-            question: "What should I do if Medicare denies a claim?",
+            question: "What Should I do if Medicare Denies a Claim?",
             answer: "You have the right to appeal any Medicare coverage denial. Start by requesting a redetermination from the Medicare contractor within 120 days of receiving your Medicare Summary Notice. Keep all documentation and act promptly, as appeal deadlines are strict.",
           },
           {
-            question: "Can a doctor refuse to see me because I have Medicare?",
+            question: "Can a Doctor Refuse to See Me Because I Have Medicare?",
             answer: "Doctors who accept Medicare assignment cannot refuse to treat you based solely on your Medicare coverage. However, some doctors opt out of Medicare entirely and can decline Medicare patients. Always confirm a provider accepts Medicare before your appointment.",
           },
           {
@@ -129,7 +129,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
             answer: "A Medicare Summary Notice is a statement sent every three months that lists all the services billed to Medicare on your behalf. Review it carefully for errors or services you did not receive, as these could indicate billing fraud.",
           },
           {
-            question: "How do I contact my State Health Insurance Assistance Program (SHIP)?",
+            question: "How do I Contact My State Health Insurance Assistance Program (SHIP)?",
             answer: "SHIP provides free Medicare counseling in every state. You can find your local SHIP by visiting shiphelp.org or by calling 1-800-MEDICARE (1-800-633-4227).",
           },
           {
@@ -150,12 +150,12 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
   {
     slug: "part-b-excess-charges-medicare-overcharge-measure",
     seo: {
-      title: "What Are Medicare Part B Excess Charges | MedicareFAQ",
+      title: "What are Medicare Part B Excess Charges || MedicareFAQ",
       description: "Medicare Part B excess charges are when a doctor charges more than the Medicare-approved amount. Learn how this may be affecting you.",
       canonical: "https://www.medicarefaq.com/faqs/part-b-excess-charges-medicare-overcharge-measure/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
-    title: "What Are Medicare Part B Excess Charges?",
+    title: "What are Medicare Part B Excess Charges?",
     summary: "Medicare Part B excess charges occur when a provider charges more than the Medicare-approved amount for a service. Understanding how excess charges work — and how to avoid them — can save you significant money.",
     category: "Medicare Costs",
     datePublished: "September 16, 2021",
@@ -243,23 +243,23 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
         type: "faq",
         faqs: [
           {
-            question: "How much can a doctor charge above the Medicare-approved amount?",
+            question: "How Much Can a Doctor Charge Above the Medicare-approved Amount?",
             answer: "Non-participating Medicare providers can charge up to 15% above the Medicare-approved amount. This is the maximum allowed excess charge under federal law.",
           },
           {
-            question: "Which Medigap plans cover Part B excess charges?",
+            question: "Which Medigap Plans Cover Part B Excess Charges?",
             answer: "Medigap Plan F and Plan G both cover 100% of Part B excess charges. Plan F is only available to those who were eligible for Medicare before January 1, 2020. Plan G is the most popular option for new enrollees seeking full excess charge protection.",
           },
           {
-            question: "Are Part B excess charges common?",
+            question: "Are Part B Excess Charges Common?",
             answer: "Excess charges are relatively uncommon — the majority of Medicare providers accept assignment. However, they are more likely to occur with specialists in high-demand areas. It is always worth confirming assignment status before seeing a new provider.",
           },
           {
-            question: "Can I be billed excess charges in every state?",
+            question: "Can I be Billed Excess Charges in Every State?",
             answer: "No. Several states prohibit excess charges entirely, including Connecticut, Massachusetts, Minnesota, New York, Ohio, Pennsylvania, Rhode Island, and Vermont. Check your state's rules if you are unsure.",
           },
           {
-            question: "What is the difference between a non-participating provider and an opt-out provider?",
+            question: "What is the Difference between a Non-participating Provider and an Opt-out Provider?",
             answer: "A non-participating provider still works within Medicare but can charge up to 15% above the approved amount. An opt-out provider has completely withdrawn from Medicare and can charge any amount — Medicare pays nothing for their services except in emergencies.",
           },
         ],
@@ -275,7 +275,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
   {
     slug: "does-medicare-cover-atrial-fibrillation",
     seo: {
-      title: "Does Medicare Cover Atrial Fibrillation (AFib)? | MedicareFAQ",
+      title: "Does Medicare Cover Atrial Fibrillation (AFib)? || MedicareFAQ",
       description: "Medicare covers certain care that those with atrial fibrillation require. Beneficiaries with AFib should also know when to get Medigap.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-atrial-fibrillation/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -366,23 +366,23 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
         type: "faq",
         faqs: [
           {
-            question: "Does Medicare cover AFib diagnosis and testing?",
+            question: "Does Medicare Cover AFib Diagnosis and Testing?",
             answer: "Yes. Medicare Part B covers electrocardiograms (EKGs), Holter monitors, event monitors, and other diagnostic tests used to detect and monitor atrial fibrillation. Cardiac screenings are also covered as part of your annual wellness visit.",
           },
           {
-            question: "Will Medicare cover heart monitors for AFib?",
+            question: "Will Medicare Cover Heart Monitors for AFib?",
             answer: "Yes. Medicare Part B covers heart monitoring devices including Holter monitors and implantable cardiac monitors. To qualify, your doctor must document that monitoring is medically necessary. You will pay 20% coinsurance after your Part B deductible.",
           },
           {
-            question: "Will Medicare cover AFib catheter ablation?",
+            question: "Will Medicare Cover AFib Catheter Ablation?",
             answer: "Yes. Medicare covers catheter ablation under Part A when performed as an inpatient procedure. The procedure can cost $16,000–$22,000 or more, so a Medigap plan can significantly reduce your out-of-pocket exposure.",
           },
           {
-            question: "Does Medicare cover blood thinners like Eliquis for AFib?",
+            question: "Does Medicare Cover Blood Thinners Like Eliquis for AFib?",
             answer: "Blood thinners including Eliquis (apixaban), Xarelto (rivaroxaban), and Pradaxa (dabigatran) are typically covered under Medicare Part D drug plans. Coverage and cost-sharing vary by plan, so compare formularies during Open Enrollment.",
           },
           {
-            question: "What is the best Medicare plan for someone with AFib?",
+            question: "What is the Best Medicare Plan for Someone with AFib?",
             answer: "Original Medicare combined with a Medigap Plan G provides the most comprehensive coverage for AFib patients. Plan G covers the Part A deductible, Part B coinsurance, and excess charges — protecting you from the high costs of hospitalizations and procedures associated with AFib management.",
           },
         ],

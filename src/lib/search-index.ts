@@ -122,7 +122,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
   },
   {
     id: "guide-working-past-65",
-    title: "Working Past 65 Guide",
+    title: "Working past 65 Guide",
     description: "How employer coverage coordinates with Medicare and when to enroll.",
     category: "Enrollment",
     categoryColor: "#D97706",
@@ -196,7 +196,7 @@ const pageEntries: Omit<SearchResult, "score">[] = [
   },
   {
     id: "page-turning-65",
-    title: "Turning 65 — What You Need to Know",
+    title: "Turning 65 —— What You Need to Know",
     description: "Your guide to understanding Medicare when you're approaching age 65.",
     category: "Getting Started",
     categoryColor: "#1B2A4A",

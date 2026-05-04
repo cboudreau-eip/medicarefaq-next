@@ -35,7 +35,7 @@ const applicationMethods = [
   },
   {
     icon: FileText,
-    title: "Apply In Person",
+    title: "Apply in Person",
     desc: "Visit your local Social Security office to apply in person. You can find your nearest office at ssa.gov/locator.",
     steps: [
       "Find your local Social Security office at ssa.gov/locator",
@@ -110,7 +110,7 @@ export default function PageContent() {
           <div className="bg-amber-50 border border-amber-300 rounded-xl p-5 mb-8 flex gap-3">
             <AlertTriangle className="text-amber-600 shrink-0 mt-0.5" size={20} />
             <div>
-              <h3 className="font-bold text-gray-800 mb-1">Timing Is Critical</h3>
+              <h3 className="font-bold text-gray-800 mb-1">Timing is Critical</h3>
               <p className="text-gray-700 text-sm">
                 If you miss your Initial Enrollment Period and do not have qualifying employer coverage, you may face a permanent 10% premium penalty for each 12-month period you delayed. Do not wait to apply unless you have creditable employer coverage.
               </p>
@@ -145,7 +145,7 @@ export default function PageContent() {
             </p>
             <div className="space-y-4 mb-4">
               <div className="border border-gray-200 rounded-xl p-5">
-                <h3 className="font-bold text-gray-800 mb-2">If You Declined Part B During Your Initial Enrollment Period</h3>
+                <h3 className="font-bold text-gray-800 mb-2">If You Declined Part B during Your Initial Enrollment Period</h3>
                 <p className="text-gray-700 text-sm leading-relaxed">
                   If you turned down Part B when you first became eligible (for example, because you had employer coverage), you can sign up during the <strong>General Enrollment Period (GEP)</strong> from January 1 through March 31 each year. Coverage begins July 1. However, if you did not have creditable employer coverage during the gap, you may face a <strong>late enrollment penalty</strong> — a permanent 10% premium increase for each full 12-month period you could have had Part B but did not.
                 </p>

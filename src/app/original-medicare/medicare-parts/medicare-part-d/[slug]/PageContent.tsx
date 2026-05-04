@@ -46,7 +46,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
     return (
       <main className="flex-1 flex items-center justify-center">
         <div className="text-center py-20">
-          <h1 className="text-2xl font-bold text-gray-800 mb-4">Page Not Found</h1>
+          <h1 className="text-2xl font-bold text-gray-800 mb-4">Page not Found</h1>
           <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-blue-600 hover:underline">
             Return to Medicare Part D Overview
           </Link>
@@ -262,7 +262,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
         {/* CTA Banner */}
         <section className="bg-[#1B3A6B] text-white py-12 px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-2xl font-bold mb-3">Questions About Medicare Part D?</h2>
+            <h2 className="text-2xl font-bold mb-3">Questions about Medicare Part D?</h2>
             <p className="text-blue-100 mb-6">
               Our licensed Medicare agents can help you compare Part D plans, check your drug formulary, and find the
               best coverage for your medications — at no cost to you.

@@ -51,7 +51,7 @@ export interface NavCategory {
 
 export const navigationData: NavCategory[] = [
   {
-    title: "New To Medicare",
+    title: "New to Medicare",
     href: "/medicare-101",
     color: "#0D9488",
     items: [
@@ -74,7 +74,7 @@ export const navigationData: NavCategory[] = [
         href: "/new-to-medicare/turning-65",
       },
       {
-        title: "What Does It Cost?",
+        title: "What Does it Cost?",
         description: "Understand premiums, deductibles, and out-of-pocket costs",
         icon: DollarSign,
         href: "/new-to-medicare/costs",
@@ -102,7 +102,7 @@ export const navigationData: NavCategory[] = [
     color: "#3B82F6",
     items: [
       {
-        title: "Original Medicare (Parts A & B)",
+        title: "Original Medicare (Parts a && B)",
         description: "Hospital and medical insurance basics",
         icon: Shield,
         href: "/original-medicare",
@@ -167,7 +167,7 @@ export const navigationData: NavCategory[] = [
         href: "/enrollment/turning-65",
       },
       {
-        title: "Working Past 65",
+        title: "Working past 65",
         description: "Medicare & employer coverage coordination",
         icon: Briefcase,
         href: "/enrollment/working-past-65",
@@ -214,7 +214,7 @@ export const navigationData: NavCategory[] = [
         href: "/faqs",
       },
       {
-        title: "Dental, Vision & Hearing",
+        title: "Dental, Vision && Hearing",
         description: "Coverage for dental implants, glasses, and hearing aids",
         icon: Eye,
         href: "/faqs/does-medicare-cover-dental-implants",
@@ -336,6 +336,6 @@ export const utilityLinks = [
 ];
 
 export const trustBadges = [
-  { label: "BBB A+ Rated", icon: "star" },
+  { label: "BBB a+ Rated", icon: "star" },
   { label: "Licensed Agents", icon: "shield" },
 ];

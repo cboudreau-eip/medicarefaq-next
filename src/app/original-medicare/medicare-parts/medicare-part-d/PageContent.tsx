@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 
 const tableOfContents = [
-  { id: "overview", label: "What Is Part D?" },
+  { id: "overview", label: "What is Part D?" },
   { id: "drug-tiers", label: "Drug Tiers Explained" },
   { id: "coverage-phases", label: "Coverage Phases" },
   { id: "costs", label: "Costs in 2026" },
@@ -322,7 +322,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" />
                     <div>
-                      <h3 className="font-bold text-red-800 text-lg mb-2">This Penalty Is Permanent</h3>
+                      <h3 className="font-bold text-red-800 text-lg mb-2">This Penalty is Permanent</h3>
                       <p className="text-sm text-red-800 mb-4">
                         If you go <strong>63 or more continuous days</strong> without Part D or creditable prescription drug coverage, you'll pay a late enrollment penalty when you do enroll. This penalty is added to your monthly premium <strong>for as long as you have Part D</strong>.
                       </p>

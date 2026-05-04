@@ -120,7 +120,7 @@ export default function PageContent() {
 
           {/* Why Free */}
           <section className="mb-12 bg-blue-50 border border-blue-200 rounded-xl p-6">
-            <h2 className="text-xl font-bold text-[#1B3A6B] mb-3">Why Our Services Are Free</h2>
+            <h2 className="text-xl font-bold text-[#1B3A6B] mb-3">Why Our Services are Free</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               You may wonder how we can provide expert Medicare guidance at no cost to you. The answer is straightforward: insurance carriers pay us a commission when you enroll in a plan through our agency. This is the same commission you would pay if you enrolled directly with the carrier — it does not cost you anything extra.
             </p>

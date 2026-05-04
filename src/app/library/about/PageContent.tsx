@@ -56,7 +56,7 @@ const values = [
   },
   {
     icon: Award,
-    title: "BBB A+ Rated",
+    title: "BBB a+ Rated",
     description: "Our commitment to ethical practices and client satisfaction has earned us an A+ rating from the Better Business Bureau.",
   },
   {

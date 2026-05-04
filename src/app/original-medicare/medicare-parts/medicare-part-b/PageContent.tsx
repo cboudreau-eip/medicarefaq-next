@@ -25,7 +25,7 @@ import {
   TrendingUp,
 } from "lucide-react";
 const tableOfContents = [
-  { id: "overview", label: "What Is Part B?" },
+  { id: "overview", label: "What is Part B?" },
   { id: "coverage", label: "What Part B Covers" },
   { id: "costs", label: "2026 Premiums & Costs" },
   { id: "irmaa", label: "IRMAA Income Surcharges" },
@@ -166,7 +166,7 @@ export default function PageContent() {
           <article className="flex-1 min-w-0 space-y-12">
             {/* Overview */}
             <section id="overview">
-              <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Is Medicare Part B?</h2>
+              <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What is Medicare Part B?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Medicare Part B is the medical insurance component of Original Medicare. While Part A covers inpatient hospital care, Part B covers outpatient services — everything from routine doctor visits and lab tests to preventive screenings and durable medical equipment. Part B is optional, but most people enroll because the late enrollment penalty is permanent and the coverage is essential.
               </p>
@@ -345,7 +345,7 @@ export default function PageContent() {
         {/* CTA Banner */}
         <section className="bg-[#1B3A6B] text-white py-12 px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-2xl font-bold mb-3">Questions About Your Part B Coverage?</h2>
+            <h2 className="text-2xl font-bold mb-3">Questions about Your Part B Coverage?</h2>
             <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand IRMAA, and find the right Medigap plan to cover the 20% coinsurance — at no cost to you.</p>
             <a href="tel:8883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_b" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">

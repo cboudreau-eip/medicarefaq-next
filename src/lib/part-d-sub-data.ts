@@ -39,7 +39,7 @@ export const partDSubPages: PartDSubPage[] = [
     sections: [
       {
         id: "overview",
-        heading: "What Is SilverScript?",
+        heading: "What is SilverScript?",
         content: "SilverScript Insurance Company is a subsidiary of CVS Health that offers Medicare Part D prescription drug plans. With millions of enrollees, SilverScript is one of the largest Part D plan sponsors in the United States. Plans are available in all 50 states and Washington D.C.",
       },
       {
@@ -239,7 +239,7 @@ export const partDSubPages: PartDSubPage[] = [
       },
       {
         id: "under-65",
-        heading: "Part D Eligibility Under Age 65",
+        heading: "Part D Eligibility under Age 65",
         content: "If you're under 65 and enrolled in Medicare due to disability, ESRD, or ALS, you're also eligible for Part D. Your Initial Coverage Election Period begins 3 months before your 25th month of receiving Social Security Disability Insurance (SSDI) benefits — the same month your Medicare coverage begins.",
       },
       {
@@ -276,7 +276,7 @@ export const partDSubPages: PartDSubPage[] = [
     sections: [
       {
         id: "what-changed",
-        heading: "What Changed: The Donut Hole Is Closed",
+        heading: "What Changed: The Donut Hole is Closed",
         content: "The Inflation Reduction Act of 2022 phased out the Medicare Part D coverage gap. Starting in 2025 (and continuing in 2026), once you spend $2,000 out-of-pocket on covered drugs, you pay $0 for the rest of the year. This eliminates the 'donut hole' that previously required beneficiaries to pay 25% of drug costs in a gap phase.",
         callout: { type: "tip", text: "If you previously hit the coverage gap and faced higher drug costs, you'll benefit significantly from the $2,000 cap. People who take expensive specialty or brand-name drugs will see the most savings." },
       },
@@ -328,7 +328,7 @@ export const partDSubPages: PartDSubPage[] = [
     sections: [
       {
         id: "what-is-formulary",
-        heading: "What Is a Part D Formulary?",
+        heading: "What is a Part D Formulary?",
         content: "A formulary is a list of prescription drugs that a Medicare Part D plan covers. Each plan has its own formulary, which is organized into tiers. Drugs on lower tiers generally have lower cost-sharing (copays or coinsurance) than drugs on higher tiers. Plans must cover at least two drugs in each therapeutic category and class, and all drugs in six 'protected classes' (antidepressants, antipsychotics, anticonvulsants, immunosuppressants, antiretrovirals, and antineoplastics).",
       },
       {
@@ -348,7 +348,7 @@ export const partDSubPages: PartDSubPage[] = [
       },
       {
         id: "check-formulary",
-        heading: "How to Check If Your Drug Is Covered",
+        heading: "How to Check if Your Drug is Covered",
         content: "Before enrolling in a Part D plan, always verify your medications are on the formulary:",
         bullets: [
           "Use Medicare.gov Plan Finder — enter your drugs to see which plans cover them and at what cost",
@@ -393,13 +393,13 @@ export const partDSubPages: PartDSubPage[] = [
     sections: [
       {
         id: "how-calculated",
-        heading: "How the Penalty Is Calculated",
+        heading: "How the Penalty is Calculated",
         content: "The late enrollment penalty is 1% of the national base beneficiary premium for each full month you went without creditable drug coverage. In 2026, the national base beneficiary premium is approximately $38.99/month.",
         callout: { type: "warning", text: "Example: If you went 24 months without creditable coverage, your penalty would be 24% × $38.99 = ~$9.36/month added permanently to your Part D premium. This amount adjusts slightly each year as the base premium changes." },
       },
       {
         id: "who-is-exempt",
-        heading: "Who Is Exempt from the Penalty",
+        heading: "Who is Exempt from the Penalty",
         content: "You won't face a late enrollment penalty if you had creditable coverage during the gap period. Creditable coverage includes:",
         bullets: [
           "Employer or union prescription drug coverage (must be certified as creditable)",
@@ -613,7 +613,7 @@ export const partDSubPages: PartDSubPage[] = [
     sections: [
       {
         id: "what-is-pa",
-        heading: "What Is Prior Authorization?",
+        heading: "What is Prior Authorization?",
         content: "Prior authorization is a coverage management tool used by Medicare Part D plans. For certain drugs — typically expensive brand-name medications, specialty drugs, or drugs with high abuse potential — the plan requires your doctor to submit clinical information demonstrating that the drug is medically necessary before it will be covered.",
         callout: { type: "info", text: "Prior authorization does not mean the drug is not covered. It means the plan needs additional information before approving coverage. Most PA requests that include proper documentation are approved." },
       },
@@ -644,7 +644,7 @@ export const partDSubPages: PartDSubPage[] = [
       },
       {
         id: "if-denied",
-        heading: "What to Do If Prior Authorization Is Denied",
+        heading: "What to do if Prior Authorization is Denied",
         content: "If your PA request is denied, you have several options:",
         bullets: [
           "Request a formulary exception — ask the plan to cover the drug without PA requirements",
@@ -677,7 +677,7 @@ export const partDSubPages: PartDSubPage[] = [
     sections: [
       {
         id: "what-is-step-therapy",
-        heading: "What Is Step Therapy?",
+        heading: "What is Step Therapy?",
         content: "Step therapy (also called 'fail-first' requirements) is a cost management tool used by Medicare Part D plans. It requires you to try one or more lower-cost drugs (usually generics) before the plan will cover a more expensive drug for the same condition. The idea is that many patients respond well to lower-cost options, and step therapy ensures those are tried first.",
         callout: { type: "info", text: "Step therapy is different from prior authorization. PA requires approval before coverage. Step therapy requires you to try specific drugs first before the plan will cover your prescribed drug." },
       },

@@ -60,7 +60,7 @@ const phases: ChecklistPhase[] = [
   {
     id: "learn",
     title: "Phase 1: Learn the Basics",
-    subtitle: "Understand how Medicare works before making decisions",
+    subtitle: "Understand How Medicare Works before Making Decisions",
     icon: BookOpen,
     color: "bg-blue-600",
     bgColor: "bg-blue-50",
@@ -68,7 +68,7 @@ const phases: ChecklistPhase[] = [
     items: [
       {
         id: "learn-parts",
-        title: "Understand the 4 parts of Medicare",
+        title: "Understand the 4 Parts of Medicare",
         description: "Learn what Part A (hospital), Part B (medical), Part C (Advantage), and Part D (drugs) each cover.",
         details: "Part A and Part B together are called 'Original Medicare.' Part C (Medicare Advantage) is an alternative to Original Medicare offered by private insurers. Part D covers prescription drugs.",
         link: { label: "Read Medicare 101 Guide", href: "/medicare-101" },
@@ -83,14 +83,14 @@ const phases: ChecklistPhase[] = [
       },
       {
         id: "learn-medigap",
-        title: "Learn about Medigap (Medicare Supplement) plans",
+        title: "Learn about Medigap (Medicare Supplement) Plans",
         description: "If you choose Original Medicare, Medigap fills the coverage gaps. Plans are standardized by letter.",
         details: "Plan G is the most popular Medigap plan. It covers nearly all out-of-pocket costs except the Part B annual deductible ($283 in 2026). Plan N is a lower-premium alternative with small copays.",
         priority: "essential",
       },
       {
         id: "learn-costs",
-        title: "Review 2026 Medicare costs",
+        title: "Review 2026 Medicare Costs",
         description: "Know the premiums, deductibles, and out-of-pocket costs you'll be responsible for.",
         link: { label: "See 2026 Cost Breakdown", href: "/new-to-medicare/costs" },
         priority: "essential",
@@ -100,7 +100,7 @@ const phases: ChecklistPhase[] = [
   {
     id: "prepare",
     title: "Phase 2: Prepare Your Information",
-    subtitle: "Gather documents and review your current situation",
+    subtitle: "Gather Documents and Review Your Current Situation",
     icon: FileText,
     color: "bg-teal-600",
     bgColor: "bg-teal-50",
@@ -108,35 +108,35 @@ const phases: ChecklistPhase[] = [
     items: [
       {
         id: "prep-ss",
-        title: "Check your Social Security status",
+        title: "Check Your Social Security Status",
         description: "If you're already receiving Social Security, you'll be auto-enrolled in Parts A & B. If not, you'll need to sign up manually.",
         details: "Create or log into your my Social Security account at ssa.gov to check your status and enrollment options.",
         priority: "essential",
       },
       {
         id: "prep-employer",
-        title: "Review your current health insurance",
+        title: "Review Your Current Health Insurance",
         description: "If you have employer coverage, understand how it coordinates with Medicare and whether you need to enroll now.",
         details: "If your employer has 20+ employees, your employer plan is primary and you can delay Medicare Part B without penalty. If fewer than 20 employees, Medicare is primary and you should enroll at 65.",
         priority: "essential",
       },
       {
         id: "prep-medications",
-        title: "Make a list of your current medications",
+        title: "Make a List of Your Current Medications",
         description: "You'll need this to compare Part D plans and ensure your drugs are covered at the lowest cost.",
         details: "Include the drug name, dosage, frequency, and pharmacy you use. You can use Medicare.gov's Plan Finder tool to compare Part D plans based on your specific medications.",
         priority: "essential",
       },
       {
         id: "prep-doctors",
-        title: "List your current doctors and specialists",
+        title: "List Your Current Doctors and Specialists",
         description: "If you're considering Medicare Advantage, you'll need to verify your providers are in-network.",
         details: "With Original Medicare + Medigap, you can see any doctor who accepts Medicare (over 97% do). With Medicare Advantage, you're typically limited to the plan's provider network.",
         priority: "recommended",
       },
       {
         id: "prep-budget",
-        title: "Set a monthly healthcare budget",
+        title: "Set a Monthly Healthcare Budget",
         description: "Determine how much you can afford for premiums, copays, and out-of-pocket costs.",
         details: "Consider both monthly premiums and potential out-of-pocket costs. A lower premium plan may cost more when you need care. A higher premium plan (like Medigap) provides more predictable costs.",
         priority: "recommended",
@@ -146,7 +146,7 @@ const phases: ChecklistPhase[] = [
   {
     id: "enroll",
     title: "Phase 3: Enroll in Medicare",
-    subtitle: "Sign up for coverage during your enrollment window",
+    subtitle: "Sign up for Coverage during Your Enrollment Window",
     icon: Calendar,
     color: "bg-amber-600",
     bgColor: "bg-amber-50",
@@ -154,7 +154,7 @@ const phases: ChecklistPhase[] = [
     items: [
       {
         id: "enroll-ab",
-        title: "Enroll in Medicare Part A and Part B",
+        title: "Enroll in Medicare Part a and Part B",
         description: "Sign up online at ssa.gov, by calling 1-800-772-1213, or at your local Social Security office.",
         details: "Your Initial Enrollment Period (IEP) is a 7-month window: 3 months before your 65th birthday month, your birthday month, and 3 months after. Enroll in the first 3 months for the earliest coverage start date.",
         link: { label: "View Enrollment Timeline", href: "/new-to-medicare/turning-65" },
@@ -162,21 +162,21 @@ const phases: ChecklistPhase[] = [
       },
       {
         id: "enroll-path",
-        title: "Choose your coverage path",
+        title: "Choose Your Coverage Path",
         description: "Decide between Original Medicare + Medigap + Part D, or Medicare Advantage (Part C).",
         details: "This is the most important decision you'll make. Consider your health needs, preferred doctors, budget, travel habits, and risk tolerance. Our licensed agents can help you compare options at no cost.",
         priority: "essential",
       },
       {
         id: "enroll-supplement",
-        title: "Enroll in supplemental coverage",
+        title: "Enroll in Supplemental Coverage",
         description: "If choosing Original Medicare, apply for a Medigap plan during your 6-month Open Enrollment Period.",
         details: "Your Medigap OEP starts the month your Part B begins. During this window, insurers cannot deny you or charge more for pre-existing conditions. After this window closes, you may face medical underwriting.",
         priority: "essential",
       },
       {
         id: "enroll-partd",
-        title: "Enroll in a Part D prescription drug plan",
+        title: "Enroll in a Part D Prescription Drug Plan",
         description: "If you chose Original Medicare + Medigap, you'll need a standalone Part D plan for drug coverage.",
         details: "Use Medicare.gov's Plan Finder to compare Part D plans in your area based on your medications. If you chose Medicare Advantage, drug coverage is usually included in your plan.",
         priority: "essential",
@@ -185,7 +185,7 @@ const phases: ChecklistPhase[] = [
   },
   {
     id: "setup",
-    title: "Phase 4: Set Up Your Coverage",
+    title: "Phase 4: Set up Your Coverage",
     subtitle: "Get everything in order once you're enrolled",
     icon: Shield,
     color: "bg-emerald-600",
@@ -194,13 +194,13 @@ const phases: ChecklistPhase[] = [
     items: [
       {
         id: "setup-card",
-        title: "Receive and review your Medicare card",
+        title: "Receive and Review Your Medicare Card",
         description: "Your red, white, and blue Medicare card will arrive in the mail. Verify the information is correct.",
         priority: "essential",
       },
       {
         id: "setup-mymedicare",
-        title: "Create your MyMedicare.gov account",
+        title: "Create Your MyMedicare.gov Account",
         description: "Access your claims, coverage details, preventive services schedule, and plan information online.",
         priority: "recommended",
       },
@@ -213,13 +213,13 @@ const phases: ChecklistPhase[] = [
       },
       {
         id: "setup-notify",
-        title: "Notify your previous insurer",
+        title: "Notify Your Previous Insurer",
         description: "Coordinate the end date of your old coverage with the start date of your Medicare coverage to avoid gaps or double-paying.",
         priority: "essential",
       },
       {
         id: "setup-dental",
-        title: "Consider standalone dental, vision, and hearing coverage",
+        title: "Consider Standalone Dental, Vision, and Hearing Coverage",
         description: "Original Medicare doesn't cover routine dental, vision, or hearing. You may want to add separate policies.",
         details: "Medicare Advantage plans often include these benefits. If you chose Original Medicare + Medigap, you'll need to purchase separate dental/vision/hearing policies or pay out-of-pocket.",
         priority: "optional",
@@ -229,7 +229,7 @@ const phases: ChecklistPhase[] = [
   {
     id: "maintain",
     title: "Phase 5: Maintain Your Coverage",
-    subtitle: "Stay on top of your Medicare year after year",
+    subtitle: "Stay on Top of Your Medicare Year after Year",
     icon: Star,
     color: "bg-purple-600",
     bgColor: "bg-purple-50",
@@ -237,26 +237,26 @@ const phases: ChecklistPhase[] = [
     items: [
       {
         id: "maintain-aep",
-        title: "Review your coverage every fall during AEP",
+        title: "Review Your Coverage Every Fall during AEP",
         description: "The Annual Enrollment Period (Oct 15 – Dec 7) is your chance to switch Medicare Advantage or Part D plans.",
         details: "Plans change their formularies, networks, premiums, and benefits every year. Even if you're happy with your current plan, review the Annual Notice of Change (ANOC) letter to see what's different.",
         priority: "essential",
       },
       {
         id: "maintain-wellness",
-        title: "Schedule your Annual Wellness Visit",
+        title: "Schedule Your Annual Wellness Visit",
         description: "A free yearly visit to review your health, update your prevention plan, and screen for cognitive issues.",
         priority: "recommended",
       },
       {
         id: "maintain-preventive",
-        title: "Use your free preventive services",
+        title: "Use Your Free Preventive Services",
         description: "Medicare covers many screenings, vaccinations, and preventive services at no cost. Take advantage of them.",
         priority: "recommended",
       },
       {
         id: "maintain-scams",
-        title: "Watch out for Medicare fraud and scams",
+        title: "Watch out for Medicare Fraud and Scams",
         description: "Never share your Medicare number with unsolicited callers. Medicare will never call you to sell plans or ask for payment over the phone.",
         priority: "essential",
       },

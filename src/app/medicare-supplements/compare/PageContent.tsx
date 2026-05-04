@@ -265,7 +265,7 @@ export default function PageContent() {
 
           {/* CTA */}
           <div className="mt-14 p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
-            <h3 className="text-2xl font-bold mb-3">Not Sure Which Plan Is Right for You?</h3>
+            <h3 className="text-2xl font-bold mb-3">Not Sure Which Plan is Right for You?</h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
               Our licensed Medicare agents compare rates from multiple carriers at no cost to you. We'll help you find the right plan for your health needs and budget.
             </p>

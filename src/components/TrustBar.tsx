@@ -4,10 +4,10 @@ import { Star, MapPin, Users, FileCheck } from "lucide-react";
 import { motion } from "framer-motion";
 
 const trustItems = [
-  { icon: Star, label: "BBB A+ Rated", sublabel: "Since 2015" },
-  { icon: MapPin, label: "Licensed in All 50 States", sublabel: "Full national coverage" },
-  { icon: Users, label: "1,000,000+ Clients Helped", sublabel: "Medicare guidance" },
-  { icon: FileCheck, label: "Editorially Reviewed", sublabel: "By Medicare professionals" },
+  { icon: Star, label: "BBB a+ Rated", sublabel: "Since 2015" },
+  { icon: MapPin, label: "Licensed in All 50 States", sublabel: "Full National Coverage" },
+  { icon: Users, label: "1,000,000+ Clients Helped", sublabel: "Medicare Guidance" },
+  { icon: FileCheck, label: "Editorially Reviewed", sublabel: "By Medicare Professionals" },
 
 ];
 

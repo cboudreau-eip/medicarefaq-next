@@ -3,7 +3,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'chronic-care-management',
     seo: {
-      title: 'Medicare Chronic Care Management | CCM Coverage & Eligibility',
+      title: 'Medicare Chronic Care Management || CCM Coverage && Eligibility',
       description: 'Medicare Chronic Care Management is beneficial for those with two or more chronic conditions. Learn more about eligibility, coverage, and how to qualify.',
       canonical: 'https://www.medicarefaq.com/faqs/chronic-care-management/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -17,7 +17,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
     readTime: '5 min read',
     sections: [
       {
-        heading: 'What Is Medicare Chronic Care Management?',
+        heading: 'What is Medicare Chronic Care Management?',
         paragraphs: [
           'Medicare Chronic Care Management (CCM) is a [Medicare Part B benefit](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) that provides coordinated care services for beneficiaries with two or more chronic conditions expected to last at least 12 months. CCM covers non-face-to-face care coordination services, such as care plan development, medication management, and 24/7 access to a care team.',
           'CCM is billed by your primary care provider or specialist and typically involves at least 20 minutes of clinical staff time per month dedicated to your care coordination outside of regular office visits.',
@@ -61,12 +61,12 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'five-surprising-facts-about-medigap-you-didnt-know',
     seo: {
-      title: 'Five Surprising Facts About Medigap You Didn\'t Know | MedicareFAQ',
+      title: 'Five Surprising Facts about Medigap You Didn\'t Know | MedicareFAQ',
       description: 'Discover five surprising Medigap facts that could save you money and improve your healthcare coverage. From foreign travel to guaranteed renewability.',
       canonical: 'https://www.medicarefaq.com/faqs/five-surprising-facts-about-medigap-you-didnt-know/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
     },
-    title: 'Five Surprising Facts About Medigap You Didn\'t Know',
+    title: 'Five Surprising Facts about Medigap You Didn\'t Know',
     summary: 'Most people know that Medigap plans help cover Medicare\'s cost-sharing gaps, but there are several lesser-known facts about Medicare Supplement insurance that could significantly impact your coverage decisions.',
     category: 'Medicare FAQ',
     dateUpdated: 'January 10, 2026',
@@ -75,35 +75,35 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
     readTime: '5 min read',
     sections: [
       {
-        heading: 'Plans Are Standardized, Yet Prices Can Vary Significantly',
+        heading: 'Plans are Standardized, yet Prices Can Vary Significantly',
         paragraphs: [
           'All Medigap plans of the same letter (e.g., Plan G) offer identical benefits regardless of which insurance company sells them — this is required by federal law. However, the monthly premiums can vary dramatically between carriers for the exact same coverage. Two companies selling Plan G in the same zip code might charge $120/month and $200/month respectively.',
           'This is why [comparison shopping is so important](/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage). Always compare rates from multiple carriers before choosing a Medigap plan. The benefits are identical, so the only difference is price and the carrier\'s financial stability.',
         ],
       },
       {
-        heading: 'Grandfathered Plans Offer Coverage That Is No Longer Available',
+        heading: 'Grandfathered Plans Offer Coverage that is No Longer Available',
         paragraphs: [
           'Medicare Supplement [Plan F and Plan C](/blog/medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it) — which cover the Part B deductible — were eliminated for new Medicare beneficiaries starting January 1, 2020. However, if you enrolled in Plan F or Plan C before that date, you can keep your plan indefinitely.',
           'If you have a [grandfathered Plan F](/blog/exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g), you are receiving coverage that new enrollees cannot get. This is a significant benefit worth preserving.',
         ],
       },
       {
-        heading: 'Coverage Extends 365 Hospital Days Beyond Original Medicare',
+        heading: 'Coverage Extends 365 Hospital Days beyond Original Medicare',
         paragraphs: [
           '[Original Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers inpatient hospital stays, but coverage ends after 90 days in a benefit period (plus 60 lifetime reserve days). Most Medigap plans add an additional 365 days of hospital coverage beyond what Medicare covers — at no cost to you.',
           'This means if you face a catastrophic illness requiring an [extended hospital stay](/faqs/how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days), your Medigap plan provides a full year of additional coverage after Medicare\'s benefits are exhausted.',
         ],
       },
       {
-        heading: 'Emergency Care Is Covered Outside the United States',
+        heading: 'Emergency Care is Covered outside the United States',
         paragraphs: [
           'Original Medicare generally does not cover medical care received outside the United States. However, most Medigap plans (Plans C, D, F, G, M, and N) include a foreign travel emergency benefit that covers 80% of emergency care costs abroad after a $250 deductible, up to a $50,000 lifetime maximum.',
           'This makes Medigap particularly valuable for beneficiaries who travel internationally.',
         ],
       },
       {
-        heading: 'Your Policy Is Guaranteed Renewable for Life',
+        heading: 'Your Policy is Guaranteed Renewable for Life',
         paragraphs: [
           'Once you are enrolled in a Medigap plan, the insurance company cannot cancel your coverage as long as you pay your premiums — even if your health deteriorates significantly. This guaranteed renewability is a federal requirement for all Medicare Supplement plans.',
           'This is a major advantage over other types of insurance. Your Medigap plan will be there when you need it most, regardless of your health status.',
@@ -116,7 +116,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-cover-dialysis-treatments',
     seo: {
-      title: 'Does Medicare Cover Dialysis Treatments? | ESRD Coverage Guide',
+      title: 'Does Medicare Cover Dialysis Treatments? || ESRD Coverage Guide',
       description: 'Medicare covers dialysis treatments when medically necessary. Learn about coverage and costs associated with dialysis hemodialysis and peritoneal dialysis.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-cover-dialysis-treatments/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -138,7 +138,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'How to Get Help with Your Dialysis Out-of-Pocket Costs Under Medicare',
+        heading: 'How to Get Help with Your Dialysis Out-of-Pocket Costs under Medicare',
         paragraphs: [
           'After meeting your [Part B deductible](/blog/medicare-part-b-annual-deductible-explained-what-youll-pay) ($283 in 2026), Medicare pays 80% of dialysis costs and you pay 20% coinsurance. Because dialysis is typically required three times per week, these costs can add up significantly.',
           'A [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can cover your 20% coinsurance, dramatically reducing your out-of-pocket dialysis costs. If you have ESRD and are under 65, federal law requires insurers in some states to sell you Medigap — check your state\'s rules.',
@@ -151,7 +151,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-plan-g-reviews',
     seo: {
-      title: 'Medicare Supplement Plan G Reviews 2026 | Best Medigap Plan G Carriers',
+      title: 'Medicare Supplement Plan G Reviews 2026 || Best Medigap Plan G Carriers',
       description: 'Medicare Supplement Plan G reviews deserve an A+ on benefits. Learn how to compare Plan G carriers by price, financial ratings, and customer service.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-plan-g-reviews/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -197,7 +197,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'report-medicare-fraud',
     seo: {
-      title: 'How to Report Medicare Fraud, Abuse, and Waste | MedicareFAQ',
+      title: 'How to Report Medicare Fraud, Abuse, and Waste || MedicareFAQ',
       description: 'Medicare fraud costs taxpayers billions of dollars each year. Learn how to identify and report fraud, abuse, and waste to protect your benefits.',
       canonical: 'https://www.medicarefaq.com/faqs/report-medicare-fraud/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -211,7 +211,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
     readTime: '5 min read',
     sections: [
       {
-        heading: 'What Is Medicare Fraud?',
+        heading: 'What is Medicare Fraud?',
         paragraphs: [
           '[Medicare fraud](/blog/laws-against-taking-advantage-of-the-elderly) occurs when someone intentionally deceives the Medicare program to receive payment. Common examples include billing for services not provided, billing for more expensive services than were actually performed (upcoding), billing for unnecessary services, using someone else\'s Medicare number, and kickbacks for referrals.',
           '[Medicare abuse](/blog/medicare-advantage-denied-claims-crisis) involves practices that are inconsistent with sound medical, business, or fiscal practices — such as billing for services that aren\'t medically necessary. Medicare waste refers to overutilization of services without intentional deception.',
@@ -255,27 +255,27 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
     readTime: '6 min read',
     sections: [
       {
-        heading: 'What Is the Difference Between Medicare HMO vs. PPO Plans?',
+        heading: 'What is the Difference between Medicare HMO vs. PPO Plans?',
         paragraphs: [
           'Both Medicare HMO and PPO plans are [Medicare Advantage (Part C) plans](/faqs/original-medicare-vs-medicare-advantage) offered by private insurance companies. They both cover all Original Medicare benefits (Parts A and B) and often include additional benefits like prescription drugs, dental, and vision.',
           'The key differences are in how you access care and what you pay.',
         ],
       },
       {
-        heading: 'How Medicare HMO vs. PPO Plans Are Similar',
+        heading: 'How Medicare HMO vs. PPO Plans are Similar',
         paragraphs: [
           'Both plan types: cover all Medicare Part A and Part B services, have an annual out-of-pocket maximum (unlike Original Medicare), often include prescription drug coverage (MAPD), may offer extra benefits like dental, vision, and hearing, and require you to continue paying your Part B premium.',
         ],
       },
       {
-        heading: 'How Medicare HMO vs. PPO Plans Are Different',
+        heading: 'How Medicare HMO vs. PPO Plans are Different',
         paragraphs: [
           'Medicare HMO plans: require you to use in-network providers (except for emergencies), require a referral from your primary care physician to see specialists, typically have lower premiums and cost-sharing than PPOs, and may have $0 monthly premiums in many areas.',
           'Medicare PPO plans: allow you to see any Medicare-accepting provider (in-network or out-of-network), do not require referrals for specialists, offer more flexibility for people who travel or split time between locations, and typically have higher premiums than HMOs.',
         ],
       },
       {
-        heading: 'Which Is Better — Medicare Advantage HMO vs. PPO?',
+        heading: 'Which is Better —— Medicare Advantage HMO vs. PPO?',
         paragraphs: [
           'The best choice depends on your priorities. Choose an HMO if you want lower costs and are comfortable using a network of providers. Choose a PPO if you value flexibility to see any doctor without referrals, travel frequently, or have established relationships with out-of-network specialists.',
           'Keep in mind that neither HMO nor PPO plans are available everywhere. [plan availability varies by county](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up), so compare plans available in your specific area.',

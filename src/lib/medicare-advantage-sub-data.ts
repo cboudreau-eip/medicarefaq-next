@@ -21,7 +21,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     sections: [
       {
         id: "what-is-medicare-advantage",
-        heading: "What Is Medicare Advantage?",
+        heading: "What is Medicare Advantage?",
         body: `<p>Medicare Advantage (also called Medicare Part C) is a type of Medicare health plan offered by private insurance companies that contract with Medicare. These plans must cover everything Original Medicare covers, but they can do so with different rules, costs, and restrictions.</p>
 <p>Most Medicare Advantage plans also include prescription drug coverage (Part D) and may offer extra benefits not covered by Original Medicare, such as dental, vision, hearing, and fitness programs.</p>`,
       },
@@ -63,17 +63,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     faqs: [
       {
-        question: "Is Medicare Advantage better than Original Medicare?",
+        question: "Is Medicare Advantage Better than Original Medicare?",
         answer:
           "It depends on your health needs, budget, and location. Medicare Advantage often has lower out-of-pocket costs and extra benefits, but restricts you to a network of providers. Original Medicare gives you more provider flexibility but has no out-of-pocket maximum without a Medigap plan.",
       },
       {
-        question: "Can I switch from Medicare Advantage back to Original Medicare?",
+        question: "Can I Switch from Medicare Advantage Back to Original Medicare?",
         answer:
           "Yes. You can switch during the Annual Enrollment Period (Oct 15–Dec 7) or the Medicare Advantage Open Enrollment Period (Jan 1–Mar 31). If you switch back to Original Medicare, you may want to also enroll in a Medigap plan — but be aware that Medigap insurers can use medical underwriting outside of guaranteed issue periods.",
       },
       {
-        question: "Do Medicare Advantage plans cover prescription drugs?",
+        question: "Do Medicare Advantage Plans Cover Prescription Drugs?",
         answer:
           "Most Medicare Advantage plans include Part D prescription drug coverage (called MA-PD plans). A few plans do not include drug coverage — if you choose one of these, you can enroll in a standalone Part D plan.",
       },
@@ -99,13 +99,13 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     sections: [
       {
         id: "what-is-hmo",
-        heading: "What Is an HMO Medicare Advantage Plan?",
+        heading: "What is an HMO Medicare Advantage Plan?",
         body: `<p>A Health Maintenance Organization (HMO) Medicare Advantage plan requires you to use a network of doctors, hospitals, and other providers. You typically need to choose a primary care physician (PCP) who coordinates your care and provides referrals to specialists.</p>
 <p>HMO plans generally have the lowest premiums and out-of-pocket costs among Medicare Advantage plan types, but they offer the least flexibility in choosing providers.</p>`,
       },
       {
         id: "what-is-hmo-pos",
-        heading: "What Is an HMO-POS Plan?",
+        heading: "What is an HMO-POS Plan?",
         body: `<p>An HMO Point-of-Service (HMO-POS) plan is a hybrid that adds some out-of-network flexibility to the standard HMO model. You can see out-of-network providers for certain services, but you'll pay more than if you stayed in-network.</p>
 <p>HMO-POS plans are a good middle ground for people who want the lower costs of an HMO but occasionally need to see providers outside the network.</p>`,
       },
@@ -138,17 +138,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     faqs: [
       {
-        question: "Do HMO Medicare Advantage plans require referrals?",
+        question: "Do HMO Medicare Advantage Plans Require Referrals?",
         answer:
           "Most HMO plans require a referral from your primary care physician to see a specialist. Some HMO plans offer open access (no referral required) — check the plan's Evidence of Coverage for details.",
       },
       {
-        question: "What happens if I see an out-of-network doctor with an HMO plan?",
+        question: "What Happens if I See an Out-of-network Doctor with an HMO Plan?",
         answer:
           "With a standard HMO plan, you generally have no coverage for out-of-network care except in emergencies. With an HMO-POS plan, you may have limited out-of-network coverage, but you'll pay significantly more than in-network rates.",
       },
       {
-        question: "Can I keep my current doctor with an HMO plan?",
+        question: "Can I Keep My Current Doctor with an HMO Plan?",
         answer:
           "Only if your doctor is in the plan's network. Before enrolling, use the plan's online provider directory to confirm that your doctors, specialists, and preferred hospital are in-network.",
       },
@@ -220,7 +220,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
           "You must primarily reside in the plan's service area. If you spend significant time in another area (snowbirds, for example), look for a PPO plan that offers out-of-network coverage, or consider Original Medicare with a Medigap plan for more flexibility.",
       },
       {
-        question: "Can I enroll in Medicare Advantage if I have Medicaid?",
+        question: "Can I Enroll in Medicare Advantage if I Have Medicaid?",
         answer:
           "Yes. If you have both Medicare and Medicaid (dual-eligible), you may qualify for a Dual Eligible Special Needs Plan (D-SNP), which coordinates benefits from both programs and often has very low or $0 costs.",
       },
@@ -287,17 +287,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     faqs: [
       {
-        question: "Can I enroll in Medicare Advantage at any time?",
+        question: "Can I Enroll in Medicare Advantage at Any Time?",
         answer:
           "No. You can only enroll during specific enrollment periods (IEP, AEP, OEP, or SEP). Outside of these periods, you generally cannot change your Medicare coverage unless you have a qualifying special enrollment event.",
       },
       {
-        question: "What is the difference between AEP and OEP?",
+        question: "What is the Difference between AEP and OEP?",
         answer:
           "AEP (Oct 15–Dec 7) allows you to make any Medicare coverage change, including switching from Original Medicare to Medicare Advantage. OEP (Jan 1–Mar 31) only allows you to switch between Medicare Advantage plans or switch back to Original Medicare — you cannot use OEP to join Medicare Advantage for the first time.",
       },
       {
-        question: "What happens if I miss all enrollment periods?",
+        question: "What Happens if I Miss All Enrollment Periods?",
         answer:
           "If you miss your Initial Enrollment Period and don't have a qualifying SEP, you'll need to wait for the Annual Enrollment Period (Oct 15–Dec 7). You may also face late enrollment penalties for Part B and Part D if you delayed enrollment without creditable coverage.",
       },
@@ -319,7 +319,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     sections: [
       {
         id: "what-is-snp",
-        heading: "What Is a Special Needs Plan?",
+        heading: "What is a Special Needs Plan?",
         body: `<p>A Special Needs Plan (SNP) is a type of Medicare Advantage plan that limits membership to people with specific diseases, conditions, or characteristics. SNPs tailor their benefits, provider networks, and drug formularies to best serve the needs of their target population.</p>
 <p>There are three types of SNPs:</p>
 <ul>
@@ -371,17 +371,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     faqs: [
       {
-        question: "Who qualifies for a Dual Eligible SNP (D-SNP)?",
+        question: "Who Qualifies for a Dual Eligible SNP (D-SNP)?",
         answer:
           "To qualify for a D-SNP, you must be enrolled in both Medicare (Part A and Part B) and Medicaid. Both full-benefit dual-eligible and partial-benefit dual-eligible individuals may qualify, though the specific benefits available depend on your level of Medicaid eligibility.",
       },
       {
-        question: "Can I enroll in a C-SNP if I have a chronic condition?",
+        question: "Can I Enroll in a C-SNP if I Have a Chronic Condition?",
         answer:
           "Yes, if the plan covers your specific condition and is available in your area. You'll need to confirm your diagnosis meets the plan's criteria. Some C-SNPs require documentation from your doctor.",
       },
       {
-        question: "Are SNPs available everywhere?",
+        question: "Are SNPs Available Everywhere?",
         answer:
           "No. SNP availability varies by location. D-SNPs are widely available in most states, but C-SNPs and I-SNPs are less common and may not be available in all areas. Use Medicare's Plan Finder at medicare.gov to search for SNPs in your zip code.",
       },
@@ -402,7 +402,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     sections: [
       {
         id: "what-is-pffs",
-        heading: "What Is a PFFS Plan?",
+        heading: "What is a PFFS Plan?",
         body: `<p>A Private Fee-for-Service (PFFS) plan is a type of Medicare Advantage plan that determines how much it will pay providers and how much you pay when you receive care. Unlike HMO or PPO plans, PFFS plans don't have a traditional network — you can see any Medicare-approved provider who agrees to accept the plan's payment terms.</p>
 <p>PFFS plans are less common than HMO and PPO plans and are generally available in rural areas where network-based plans have limited provider availability.</p>`,
       },
@@ -442,17 +442,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     faqs: [
       {
-        question: "Can any doctor see me if I have a PFFS plan?",
+        question: "Can Any Doctor See Me if I Have a PFFS Plan?",
         answer:
           "Any Medicare-approved provider can see you, but they must agree to the plan's payment terms for that visit. Unlike Original Medicare (where providers must accept Medicare assignment), PFFS providers can decline to accept the plan's terms on a visit-by-visit basis. Always confirm acceptance before your appointment.",
       },
       {
-        question: "Do PFFS plans include prescription drug coverage?",
+        question: "Do PFFS Plans Include Prescription Drug Coverage?",
         answer:
           "Some PFFS plans include Part D prescription drug coverage (MA-PD plans), and some do not. If your PFFS plan doesn't include drug coverage, you can enroll in a standalone Part D plan.",
       },
       {
-        question: "Are PFFS plans available in my area?",
+        question: "Are PFFS Plans Available in My Area?",
         answer:
           "PFFS plans are most commonly available in rural areas. Use Medicare's Plan Finder at medicare.gov to search for PFFS plans in your zip code.",
       },
@@ -474,7 +474,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     sections: [
       {
         id: "what-is-ppo",
-        heading: "What Is a PPO Medicare Advantage Plan?",
+        heading: "What is a PPO Medicare Advantage Plan?",
         body: `<p>A Preferred Provider Organization (PPO) Medicare Advantage plan has a network of preferred providers, but unlike HMO plans, you're not required to stay within the network. You can see out-of-network providers, but you'll pay more than if you used in-network providers.</p>
 <p>PPO plans also don't require referrals to see specialists, giving you more direct access to the care you need.</p>`,
       },
@@ -490,7 +490,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       },
       {
         id: "ppo-vs-hmo",
-        heading: "PPO vs. HMO: Which Is Right for You?",
+        heading: "PPO vs. HMO: Which is Right for You?",
         body: `<table>
 <thead><tr><th>Feature</th><th>PPO</th><th>HMO</th></tr></thead>
 <tbody>
@@ -517,17 +517,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     faqs: [
       {
-        question: "Do PPO Medicare Advantage plans require referrals?",
+        question: "Do PPO Medicare Advantage Plans Require Referrals?",
         answer:
           "No. PPO plans do not require referrals to see specialists. You can make appointments directly with any specialist, in-network or out-of-network.",
       },
       {
-        question: "How much more does out-of-network care cost with a PPO plan?",
+        question: "How Much More Does Out-of-network Care Cost with a PPO Plan?",
         answer:
           "It varies by plan, but out-of-network care typically costs 20-50% more than in-network care. The plan's Evidence of Coverage document will specify the exact cost-sharing amounts for in-network vs. out-of-network services.",
       },
       {
-        question: "Are PPO Medicare Advantage plans available nationwide?",
+        question: "Are PPO Medicare Advantage Plans Available Nationwide?",
         answer:
           "Some large insurers offer PPO plans with nationwide networks, which is particularly useful for people who travel or split time between locations. Check the plan's service area and network directory before enrolling.",
       },
@@ -591,17 +591,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     faqs: [
       {
-        question: "Do I still pay my Part B premium with Medicare Advantage?",
+        question: "Do I Still Pay My Part B Premium with Medicare Advantage?",
         answer:
           "Yes. You continue to pay your Medicare Part B premium ($202.90/month in 2026 for most people) even when enrolled in a Medicare Advantage plan. Some plans offer a Part B premium reduction benefit that offsets part of this cost.",
       },
       {
-        question: "What is the Medicare Advantage out-of-pocket maximum for 2025?",
+        question: "What is the Medicare Advantage Out-of-pocket Maximum for 2025?",
         answer:
           "In 2025, the maximum allowed out-of-pocket limit for in-network services is $9,350. Many plans set their limits lower. Plans may also have a combined in/out-of-network maximum, which can be higher. Once you reach your plan's limit, covered services are free for the rest of the year.",
       },
       {
-        question: "Are Medicare Advantage plans really free?",
+        question: "Are Medicare Advantage Plans Really Free?",
         answer:
           "Many plans have $0 monthly premiums, but you still pay your Part B premium. You also pay copays, coinsurance, and deductibles when you use services. The total cost depends heavily on how much healthcare you use during the year.",
       },
@@ -639,7 +639,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       },
       {
         id: "when-original-is-better",
-        heading: "When Original Medicare May Be Better",
+        heading: "When Original Medicare May be Better",
         body: `<p>Original Medicare (with a Medigap supplement) may be the better choice if you:</p>
 <ul>
 <li>Want maximum provider flexibility — see any doctor or specialist who accepts Medicare, anywhere in the U.S.</li>
@@ -651,7 +651,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       },
       {
         id: "when-advantage-is-better",
-        heading: "When Medicare Advantage May Be Better",
+        heading: "When Medicare Advantage May be Better",
         body: `<p>Medicare Advantage may be the better choice if you:</p>
 <ul>
 <li>Want to minimize monthly premiums (many plans are $0/month)</li>
@@ -664,24 +664,24 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       },
       {
         id: "switching-considerations",
-        heading: "Switching Between Medicare Advantage and Original Medicare",
+        heading: "Switching between Medicare Advantage and Original Medicare",
         body: `<p>You can switch between Medicare Advantage and Original Medicare during the Annual Enrollment Period (Oct 15–Dec 7) or the Medicare Advantage Open Enrollment Period (Jan 1–Mar 31).</p>
 <p><strong>Important caveat:</strong> If you switch back to Original Medicare after being in a Medicare Advantage plan, you may have difficulty getting a Medigap (Medicare Supplement) plan. Outside of guaranteed issue periods, Medigap insurers can use medical underwriting and deny coverage or charge higher premiums based on your health history. This is one of the most important factors to consider when making the initial Medicare coverage decision at age 65.</p>`,
       },
     ],
     faqs: [
       {
-        question: "Which is cheaper, Medicare Advantage or Original Medicare?",
+        question: "Which is Cheaper, Medicare Advantage or Original Medicare?",
         answer:
           "It depends on your health usage. Medicare Advantage often has lower monthly premiums, but Original Medicare with a Medigap plan offers more predictable total costs for people with significant health needs. Compare total annual costs (premiums + expected out-of-pocket) rather than just monthly premiums.",
       },
       {
-        question: "Can I have both Medicare Advantage and Original Medicare?",
+        question: "Can I Have Both Medicare Advantage and Original Medicare?",
         answer:
           "No. When you enroll in a Medicare Advantage plan, your benefits are provided through that plan rather than through Original Medicare. You're still technically enrolled in Part A and Part B, but the Advantage plan pays your claims instead of Medicare.",
       },
       {
-        question: "If I switch from Medicare Advantage to Original Medicare, can I get a Medigap plan?",
+        question: "If I Switch from Medicare Advantage to Original Medicare, Can I Get a Medigap Plan?",
         answer:
           "Possibly, but it may be difficult. Outside of guaranteed issue periods, Medigap insurers can use medical underwriting in most states. If you have pre-existing conditions, you may be denied or charged higher premiums. This is why many advisors recommend carefully considering the Medigap vs. Medicare Advantage decision at age 65, when you have guaranteed issue rights.",
       },
@@ -702,7 +702,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     sections: [
       {
         id: "what-is-hmo",
-        heading: "What Is a Medicare Advantage HMO Plan?",
+        heading: "What is a Medicare Advantage HMO Plan?",
         body: `<p>A Health Maintenance Organization (HMO) Medicare Advantage plan provides all your Medicare Part A and Part B benefits through a network of doctors, hospitals, and other healthcare providers. HMO plans typically require you to choose a primary care physician (PCP) who coordinates your care and provides referrals to in-network specialists.</p>
 <p>HMO plans are the most popular type of Medicare Advantage plan because they typically offer lower premiums — often $0/month — and predictable cost-sharing in exchange for using the plan's network.</p>`,
       },
@@ -735,7 +735,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       },
       {
         id: "hmo-vs-ppo",
-        heading: "HMO vs. PPO: Which Medicare Advantage Plan Is Right for You?",
+        heading: "HMO vs. PPO: Which Medicare Advantage Plan is Right for You?",
         body: `<table>
 <thead><tr><th>Feature</th><th>HMO</th><th>PPO</th></tr></thead>
 <tbody>
@@ -750,17 +750,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     ],
     faqs: [
       {
-        question: "Is a Medicare Advantage HMO the same as Medicare?",
+        question: "Is a Medicare Advantage HMO the Same as Medicare?",
         answer:
           "A Medicare Advantage HMO is a type of Medicare — it replaces Original Medicare (Parts A and B) and is offered by a private insurer. You still have Medicare, but your benefits are delivered through the HMO plan instead of directly through the federal government.",
       },
       {
-        question: "Do HMO Medicare Advantage plans require referrals?",
+        question: "Do HMO Medicare Advantage Plans Require Referrals?",
         answer:
           "Most HMO plans require a referral from your primary care physician to see a specialist. Some plans offer 'open access' HMO options that don't require referrals — check the plan's Evidence of Coverage for details.",
       },
       {
-        question: "What happens if I see an out-of-network doctor with an HMO plan?",
+        question: "What Happens if I See an Out-of-network Doctor with an HMO Plan?",
         answer:
           "With a standard HMO plan, you generally have no coverage for out-of-network care except in emergencies. Always verify that your providers are in-network before receiving non-emergency care.",
       },

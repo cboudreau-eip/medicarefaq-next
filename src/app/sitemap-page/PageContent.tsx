@@ -30,7 +30,7 @@ const sitemapSections = [
     links: [
       { label: "New to Medicare Overview", href: "/new-to-medicare" },
       { label: "Turning 65", href: "/new-to-medicare/turning-65" },
-      { label: "Medicare Under 65", href: "/new-to-medicare/medicare-under-65" },
+      { label: "Medicare under 65", href: "/new-to-medicare/medicare-under-65" },
       { label: "Medicare vs Medicaid", href: "/new-to-medicare/medicare-vs-medicaid" },
       { label: "Medicare FEHB", href: "/new-to-medicare/medicare-fehb" },
       { label: "Medicare and VA Benefits", href: "/new-to-medicare/medicare-va-benefits" },
@@ -99,7 +99,7 @@ const sitemapSections = [
       { label: "Enrollment Overview", href: "/enrollment" },
       { label: "Turning 65 Enrollment", href: "/enrollment/turning-65" },
       { label: "Late Enrollment Penalties", href: "/enrollment/late-penalties" },
-      { label: "Employer Coverage & Medicare", href: "/enrollment/employer-coverage" },
+      { label: "Employer Coverage && Medicare", href: "/enrollment/employer-coverage" },
       { label: "Special Enrollment Periods", href: "/enrollment/special-enrollment-periods" },
     ],
   },

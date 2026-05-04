@@ -34,7 +34,7 @@ import {
 
 const tableOfContents = [
   { id: "overview", label: "2026 Cost Overview" },
-  { id: "part-a", label: "Part A Costs" },
+  { id: "part-a", label: "Part a Costs" },
   { id: "part-b", label: "Part B Costs" },
   { id: "part-d", label: "Part D Costs" },
   { id: "medigap", label: "Medigap Costs" },
@@ -83,7 +83,7 @@ const irmaaBrackets = [
 
 const totalCostScenarios = [
   {
-    name: "Original Medicare + Medigap Plan G + Part D",
+    name: "Original Medicare ++ Medigap Plan G ++ Part D",
     monthly: "$350–$550/mo",
     annual: "$4,200–$6,600/yr",
     maxOOP: "Predictable — very low out-of-pocket after premiums",
@@ -125,7 +125,7 @@ const totalCostScenarios = [
 
 const faqs = [
   {
-    question: "Is Medicare free?",
+    question: "Is Medicare Free?",
     answer: "Part A is premium-free for most people who worked and paid Medicare taxes for 10+ years (40 quarters). However, Part B has a monthly premium ($202.90 in 2026), and you'll also pay deductibles, coinsurance, and copays. Most people also add supplemental coverage (Medigap or Medicare Advantage) which may have additional premiums.",
   },
   {
@@ -133,19 +133,19 @@ const faqs = [
     answer: "With Original Medicare alone, there is NO maximum out-of-pocket limit — your costs are theoretically unlimited. With a Medigap Plan G, your only out-of-pocket cost is the $283 Part B deductible. With Medicare Advantage, the maximum out-of-pocket is capped at $9,250 in-network for 2026.",
   },
   {
-    question: "Do I have to pay the Part B premium even with Medicare Advantage?",
+    question: "Do I Have to Pay the Part B Premium Even with Medicare Advantage?",
     answer: "Yes. You must continue paying your Part B premium ($202.90/mo in 2026) regardless of whether you choose Original Medicare or Medicare Advantage. The Medicare Advantage plan premium is in addition to your Part B premium, though many MA plans have $0 additional premiums.",
   },
   {
-    question: "What is IRMAA and will it affect me?",
+    question: "What is IRMAA and Will it Affect Me?",
     answer: `IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge added to your Part B and Part D premiums if your modified adjusted gross income exceeds certain thresholds. It's based on your tax return from 2 years prior. In ${MEDICARE_COSTS.currentYear}, IRMAA kicks in for individuals earning above ${MEDICARE_COSTS.irmaa.individualLevel1} or couples above ${MEDICARE_COSTS.irmaa.jointLevel1}.`,
   },
   {
-    question: "Can I get help paying for Medicare?",
+    question: "Can I Get Help Paying for Medicare?",
     answer: "Yes. Programs like Medicare Savings Programs (MSPs), Extra Help/Low-Income Subsidy (LIS), and Medicaid can help cover premiums, deductibles, and copays. State Health Insurance Assistance Programs (SHIPs) can help you apply. Contact your local SHIP or call 1-800-MEDICARE for assistance.",
   },
   {
-    question: "How much does a Medigap plan cost?",
+    question: "How Much Does a Medigap Plan Cost?",
     answer: "Medigap premiums vary significantly based on your age, location, gender, tobacco use, and the plan letter you choose. Plan G (the most popular) typically ranges from $100–$300/month. Plans are standardized by letter, so benefits are the same regardless of the insurance company — only the premium differs.",
   },
 ];
@@ -280,7 +280,7 @@ export default function PageContent() {
                 <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center">
                   <Building2 className="w-5 h-5 text-blue-600" />
                 </div>
-                <h2 className="text-3xl font-bold text-slate-900">Part A Costs (Hospital Insurance)</h2>
+                <h2 className="text-3xl font-bold text-slate-900">Part a Costs (Hospital Insurance)</h2>
               </div>
               <p className="text-lg text-slate-600 mb-6">
                 Part A covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. Most people don't pay a premium for Part A, but there are significant deductibles and coinsurance.
@@ -559,7 +559,7 @@ export default function PageContent() {
                     icon: DollarSign,
                   },
                   {
-                    title: "Extra Help / Low-Income Subsidy",
+                    title: "Extra Help // Low-Income Subsidy",
                     description: "Federal program that helps pay Part D premiums, deductibles, and copays. Available to those with limited income and resources.",
                     icon: Heart,
                   },

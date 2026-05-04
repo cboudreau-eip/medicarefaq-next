@@ -102,7 +102,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '7 min',
     sections: [
       {
-        heading: 'Medicare Premiums Reimbursement Through Employer',
+        heading: 'Medicare Premiums Reimbursement through Employer',
         paragraphs: [
           'Updated on March 17, 2023',
           'While your [employer](/blog/understanding-how-medicare-works-with-employer-health-plans) can’t pay your [Medicare premiums](/blog/medicare-costs-2025) in the true sense, you’ll be glad...',
@@ -153,7 +153,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '13 min',
     sections: [
       {
-        heading: 'Medicare Cards & Medicare Beneficiary Identifiers',
+        heading: 'Medicare Cards && Medicare Beneficiary Identifiers',
         paragraphs: [
           'Updated on June 13, 2023',
           'To improve security and comply with the [Medicare Access and Chip Reauthorization Act](/blog/medicare-news), the [Center](/blog/5-things-to-do-after-you-receive-your-medicare-card)...',
@@ -243,12 +243,12 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'state-specific-medicare-rules',
     seo: {
-      title: 'Can Medicare Be Used in Any State?',
+      title: 'Can Medicare be Used in Any State?',
       description: 'You may wonder if Medicare can be used in any state. While it is a federal program, there are many state-specific rules that you should know.',
       canonical: 'https://www.medicarefaq.com/faqs/state-specific-medicare-rules/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/can-medicare-be-used-in-any-state.jpg',
     },
-    title: 'Can Medicare Be Used in Any State?',
+    title: 'Can Medicare be Used in Any State?',
     summary: 'Although Medicare is a federal program, Medicare by state may have some different rules that you should be aware of to be sure you’re getting the best health coverage for your needs.',
     category: 'Medicare FAQ',
     dateUpdated: 'February 26, 2024',
@@ -269,12 +269,12 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'can-my-employer-pay-my-medicare-premiums',
     seo: {
-      title: 'Medicare Premiums Reimbursement Through Employer',
+      title: 'Medicare Premiums Reimbursement through Employer',
       description: 'Those who are actively working past 65 may be able to get employer Medicare premium reimbursement if their employers have a Section 105 Plan.',
       canonical: 'https://www.medicarefaq.com/faqs/can-my-employer-pay-my-medicare-premiums/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-premiums-reimbursement-through-employer.jpg',
     },
-    title: 'Medicare Premiums Reimbursement Through Employer',
+    title: 'Medicare Premiums Reimbursement through Employer',
     summary: '',
     category: 'Costs & Savings',
     dateUpdated: 'September 27, 2021',
@@ -325,13 +325,13 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Medicare Does Not Cover',
+        heading: 'What Medicare Does not Cover',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
         ],
       },
       {
-        heading: 'What If My Drug Isn’t Covered?',
+        heading: 'What if My Drug Isn’t Covered?',
         paragraphs: [
         ],
       },
@@ -342,7 +342,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'Help Is Available: The Low-Income Subsidy (LIS)',
+        heading: 'Help is Available: The Low-Income Subsidy (LIS)',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
         ],
@@ -371,7 +371,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '',
     sections: [
       {
-        heading: 'Can Medicare Be Used in Any State?',
+        heading: 'Can Medicare be Used in Any State?',
         paragraphs: [
           'Updated on June 27, 2025',
           'Although Medicare is a federal program, [Medicare by state](/faqs/state-specific-medicare-rules) may have some [different rules](/blog/what-happens-to-your-medicare-when-you-move-states) that...',
@@ -528,7 +528,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '',
     sections: [
       {
-        heading: 'Medicare Agents Near Me',
+        heading: 'Medicare Agents near Me',
         paragraphs: [
           'Updated on March 11, 2024',
           'With the help of technology, it is no longer necessary to find a [Medicare broker](/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan)...',
@@ -709,17 +709,17 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'How Do I Qualify for Automatic Enrollment Into Medicare During my IEP?',
+        heading: 'How do I Qualify for Automatic Enrollment into Medicare during My IEP?',
         paragraphs: [
         ],
       },
       {
-        heading: 'Automatic Enrollment into Medicare for those Diagnosed With ALS or ESRD',
+        heading: 'Automatic Enrollment into Medicare for Those Diagnosed with ALS or ESRD',
         paragraphs: [
         ],
       },
       {
-        heading: 'When Does Medicare Coverage Begin If I Enroll During My IEP?',
+        heading: 'When Does Medicare Coverage Begin if I Enroll during My IEP?',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
         ],
@@ -732,7 +732,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'When Do I Enroll in Medicare Part D if I Missed my IEP?',
+        heading: 'When do I Enroll in Medicare Part D if I Missed My IEP?',
         paragraphs: [
           'If you missed your Initial Enrollment Period, you should know the [Annual Enrollment Period for Medicare Advantage and Medicare Part D](/blog/the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them) occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No',
         ],

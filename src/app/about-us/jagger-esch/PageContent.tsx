@@ -55,7 +55,7 @@ export default function PageContent() {
               </section>
 
               <section>
-                <h2 className="text-xl font-bold text-[#1B3A6B] mb-3">Mission &amp; Philosophy</h2>
+                <h2 className="text-xl font-bold text-[#1B3A6B] mb-3">Mission &Amp; Philosophy</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Jagger believes that every American deserves access to clear, unbiased Medicare information — not just those who can afford financial advisors or have family members in the insurance industry. This philosophy drives every decision at MedicareFAQ, from the content the editorial team creates to the way licensed specialists interact with clients.
                 </p>
@@ -65,7 +65,7 @@ export default function PageContent() {
               </section>
 
               <section>
-                <h2 className="text-xl font-bold text-[#1B3A6B] mb-3">Media &amp; Recognition</h2>
+                <h2 className="text-xl font-bold text-[#1B3A6B] mb-3">Media &Amp; Recognition</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Jagger and MedicareFAQ have been featured in and cited by numerous major publications and media outlets as a trusted source of Medicare information. The site's content has been referenced by consumer advocacy organizations, financial planning resources, and healthcare publications.
                 </p>

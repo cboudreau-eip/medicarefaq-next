@@ -62,12 +62,12 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor',
     seo: {
-      title: 'What to Do If Your Medicare Plan Suddenly Drops a Drug or Doctor',
+      title: 'What to do if Your Medicare Plan Suddenly Drops a Drug or Doctor',
       description: 'Learn why your Medicare plan may stop covering a drug or doctor and discover your rights, transition options, and how to find stable coverage.',
       canonical: 'https://www.medicarefaq.com/faqs/what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/What-to-Do-If-Your-Medicare-Plan-Suddenly-Drops-a-Drug-or-Doctor.jpg',
     },
-    title: 'What to Do If Your Medicare Plan Suddenly Drops a Drug or Doctor',
+    title: 'What to do if Your Medicare Plan Suddenly Drops a Drug or Doctor',
     summary: '',
     category: 'Prescription Drugs',
     dateUpdated: '',
@@ -106,7 +106,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What If You Are in the Middle of Treatment?',
+        heading: 'What if You are in the Middle of Treatment?',
         paragraphs: [
           'If you are receiving treatment for a chronic condition or are in the middle of a care plan, sudden changes in coverage can be especially concerning. Fortunately, Medicare provides protections for continuity of care.In some cases, you may qualify for a transition fill for medications or be allowed to continue seeing your provider temporarily. If a necessary drug is no longer covered, you can request a formulary exception, supported by your physician’s documentation.Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No',
           'In some cases, you may qualify for a transition fill for medications or be allowed to continue seeing your provider temporarily. If a necessary drug is no longer covered, you can request a formulary exception, supported by your physician’s documentation.Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No',
@@ -190,12 +190,12 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-agents-near-me',
     seo: {
-      title: 'Medicare Agents Near Me',
+      title: 'Medicare Agents near Me',
       description: 'Medicare brokers can provide information about Medicare options available near you in your area. Working with a licensed Medicare agent is free. Learn more today.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-agents-near-me/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/do-i-need-a-medicare-insurance-agent-near-me.jpg',
     },
-    title: 'Medicare Agents Near Me',
+    title: 'Medicare Agents near Me',
     summary: 'With the help of technology, it is no longer necessary to find a Medicare broker near you to get assistance. Licensed Medicare agents and brokers can save you time and money by helping you compare plans across multiple carriers. In this article, you’ll learn how to find a licensed agent, how Medicare brokerage works, and the benefits of working with an agent.',
     category: 'Medicare FAQ',
     dateUpdated: 'February 19, 2026',
@@ -264,7 +264,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'How Are Medigap Plans Standardized?',
+        heading: 'How are Medigap Plans Standardized?',
         paragraphs: [
         ],
       },
@@ -367,7 +367,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'Important Details to Consider About the 5-Star SEP',
+        heading: 'Important Details to Consider about the 5-Star SEP',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
           'If you’re switching from a standalone Prescription Drug Plan to a Medicare Advantage Plan with drug coverage, your standalone PDP will be automatically disenrolled. Be aware of this to avoid any unexpected lapses in coverage.Additionally, if you have other forms of insurance, such as employer-sponsored coverage or Medicaid, make sure to understand how switching to a 5-star plan will interact with these benefits. Coordination of benefits can be confusing, and it’s important that it be done correctly so that all your coverage needs are met.Utilizing the 5-Star Special Enrollment PeriodThe Medicare Advantage 5-Star Special Enrollment Period provides a valuable opportunity for Medicare beneficiaries to access the highest-rated plans available. By understanding eligibility requirements, following the enrollment steps, and considering all relevant details, you can make an informed decision that enhances your healthcare experience.If you’re considering a switch, take the time to research your options, consult with experts if needed, and choose a plan that aligns with your health needs and financial situation. The 5-Star SEP is a powerful tool for improving your Medicare coverage, so make sure to use it wisely.Was this article helpful ?Yes (3)No',
@@ -422,7 +422,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'Decide Between Original Medicare and a Medicare Advantage Plan',
+        heading: 'Decide between Original Medicare and a Medicare Advantage Plan',
         paragraphs: [
         ],
         listItems: [
@@ -499,12 +499,12 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'how-to-choose-a-medicare-supplement-plan-that-fits-your-budget',
     seo: {
-      title: 'How to Choose a Medicare Supplement Plan That Fits Your Budget',
+      title: 'How to Choose a Medicare Supplement Plan that Fits Your Budget',
       description: 'This guide will walk you through the essential steps to choose a Medicare Supplement plan that protects both your health and your budget.',
       canonical: 'https://www.medicarefaq.com/faqs/how-to-choose-a-medicare-supplement-plan-that-fits-your-budget/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/How-to-Choose-a-Medicare-Supplement-Plan-That-Fits-Your-Budget.jpg',
     },
-    title: 'How to Choose a Medicare Supplement Plan That Fits Your Budget',
+    title: 'How to Choose a Medicare Supplement Plan that Fits Your Budget',
     summary: '',
     category: 'Medicare Supplements',
     dateUpdated: '',
@@ -544,7 +544,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'Learn How Medigap Plans Are Priced',
+        heading: 'Learn How Medigap Plans are Priced',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
         ],
@@ -576,12 +576,12 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'finding-local-doctors-who-accept-medicare',
     seo: {
-      title: 'How Do I Find Medicare Doctors Near Me?',
+      title: 'How do I Find Medicare Doctors near Me?',
       description: 'Finding a provider accepting Medicare in your area is easy since 98% of doctors accept coverage. Staying in your network can be easier then you think. Learn more.',
       canonical: 'https://www.medicarefaq.com/faqs/finding-local-doctors-who-accept-medicare/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/finding-local-doctors-who-accept-medicare.jpg',
     },
-    title: 'How Do I Find Medicare Doctors Near Me?',
+    title: 'How do I Find Medicare Doctors near Me?',
     summary: 'Not all doctors accept Medicare. However, over 98% of doctors nationwide do accept Medicare. So, finding a Medicare-approved doctor in your area shouldn’t be too difficult!',
     category: 'Medicare FAQ',
     dateUpdated: '',
@@ -622,7 +622,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'Why Plan F Used to Be the Most Popular Medigap Plan',
+        heading: 'Why Plan F Used to be the Most Popular Medigap Plan',
         paragraphs: [
         ],
       },
@@ -632,12 +632,12 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'Why Medigap Plan G Became the Go-To Choice After 2020',
+        heading: 'Why Medigap Plan G Became the Go-To Choice after 2020',
         paragraphs: [
         ],
       },
       {
-        heading: 'Premium Trends: Why Plan F Is Becoming More Expensive',
+        heading: 'Premium Trends: Why Plan F is Becoming More Expensive',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
         ],

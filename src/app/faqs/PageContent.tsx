@@ -81,7 +81,7 @@ const CATEGORY_GROUPS: {
     matches: ["Medicare Coverage", "Coverage", "General Medicare", "Medicare FAQ"],
   },
   {
-    label: "Plans & Supplements",
+    label: "Plans && Supplements",
     color: "#7C3AED",
     icon: Heart,
     matches: ["Medicare Supplements", "Medicare Supplement (Medigap)", "Medicare Advantage"],
@@ -93,13 +93,13 @@ const CATEGORY_GROUPS: {
     matches: ["Medicare Enrollment", "Enrollment"],
   },
   {
-    label: "Costs & Drugs",
+    label: "Costs && Drugs",
     color: "#DC2626",
     icon: DollarSign,
     matches: ["Prescription Drugs", "Medicare Part D", "Costs & Savings"],
   },
   {
-    label: "Dental, Vision & Hearing",
+    label: "Dental, Vision && Hearing",
     color: "#0891B2",
     icon: Eye,
     matches: ["Dental, Vision & Hearing"],

@@ -287,12 +287,12 @@ function buildTOC(article: CoverageArticleData) {
     { id: "plan-breakdowns", label: "Understanding Coverage" },
   ];
   if (article.advantageSteps) toc.push({ id: "advantage-steps", label: "Finding the Right Plan" });
-  if (article.costTable) toc.push({ id: "costs", label: "Costs & Pricing" });
+  if (article.costTable) toc.push({ id: "costs", label: "Costs && Pricing" });
   if (article.exceptionsSection) toc.push({ id: "exceptions", label: "Important Exceptions" });
   if (article.legislativeUpdate) toc.push({ id: "legislative-update", label: "Legislative Update" });
   if (article.alternativesSection) toc.push({ id: "alternatives", label: "Alternatives" });
   if (article.relatedEquipment) toc.push({ id: "related-equipment", label: article.relatedEquipment.title });
-  if (article.medicaidSection) toc.push({ id: "medicaid-programs", label: "Medicaid & State Programs" });
+  if (article.medicaidSection) toc.push({ id: "medicaid-programs", label: "Medicaid && State Programs" });
   if (article.decisionSection) toc.push({ id: "making-decision", label: "Making the Decision" });
   toc.push({ id: "faqs", label: "FAQs" });
   toc.push({ id: "related-topics", label: "Related Topics" });
@@ -813,7 +813,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               <div className="sticky top-[180px] space-y-6">
                 {/* ON THIS PAGE */}
                 <div className="bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm">
-                  <h3 className="text-xs font-bold tracking-wider text-[#6B7280] uppercase mb-4">On This Page</h3>
+                  <h3 className="text-xs font-bold tracking-wider text-[#6B7280] uppercase mb-4">On this Page</h3>
                   <nav className="space-y-1">
                     {toc.map((item) => (
                       <button key={item.id} onClick={() => scrollToSection(item.id)} className={`block w-full text-left text-sm py-1.5 px-3 rounded-md transition-all ${activeSection === item.id ? "bg-[#C41230]/10 text-[#C41230] font-semibold border-l-2 border-[#C41230]" : "text-[#6B7280] hover:text-[#1B2A4A] hover:bg-[#F5F7FA]"}`}>

@@ -11,12 +11,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide',
     seo: {
-      title: 'What to Do if You Lose Your Medicare Card: A Step-by-Step Guide',
+      title: 'What to do if You Lose Your Medicare Card: A Step-by-Step Guide',
       description: 'Lost your Medicare card? Learn how to quickly replace it, what information you’ll need, how long it takes, and tips for keeping it safe. Stay protected and informed.',
       canonical: 'https://www.medicarefaq.com/faqs/what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/What-to-Do-if-You-Lose-Your-Medicare-Card-A-Step-by-Step-Guide.jpg',
     },
-    title: 'What to Do if You Lose Your Medicare Card: A Step-by-Step Guide',
+    title: 'What to do if You Lose Your Medicare Card: A Step-by-Step Guide',
     summary: '',
     category: 'Medicare FAQ',
     dateUpdated: '',
@@ -31,7 +31,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Is Your Medicare Card?',
+        heading: 'What is Your Medicare Card?',
         paragraphs: [
         ],
         listItems: [
@@ -62,7 +62,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Information Is Needed to Order a New Card?',
+        heading: 'What Information is Needed to Order a New Card?',
         paragraphs: [
         ],
         listItems: [
@@ -73,12 +73,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'How Long Does It Take to Receive a New Medicare Card?',
+        heading: 'How Long Does it Take to Receive a New Medicare Card?',
         paragraphs: [
         ],
       },
       {
-        heading: 'What If Your Medicare Card Was Stolen?',
+        heading: 'What if Your Medicare Card Was Stolen?',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
         ],
@@ -122,12 +122,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'surprised-by-higher-medicare-premiums-it-could-be-irmaa',
     seo: {
-      title: 'Surprised by Higher Medicare Premiums? It Could Be IRMAA',
+      title: 'Surprised by Higher Medicare Premiums? it Could be IRMAA',
       description: 'Learn why your Medicare premiums may be higher due to IRMAA, who it affects, how it\'s calculated, and your options to appeal.',
       canonical: 'https://www.medicarefaq.com/faqs/surprised-by-higher-medicare-premiums-it-could-be-irmaa/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Surprised-by-Higher-Medicare-Premiums-It-Could-Be-IRMAA.jpg',
     },
-    title: 'Surprised by Higher Medicare Premiums? It Could Be IRMAA',
+    title: 'Surprised by Higher Medicare Premiums? it Could be IRMAA',
     summary: '',
     category: 'Costs & Savings',
     dateUpdated: '',
@@ -142,7 +142,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Is IRMAA?',
+        heading: 'What is IRMAA?',
         paragraphs: [
         ],
       },
@@ -165,7 +165,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'How Is IRMAA Calculated?',
+        heading: 'How is IRMAA Calculated?',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
         ],
@@ -196,12 +196,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-and-retiree-insurance',
     seo: {
-      title: 'How Does Medicare Work With Retiree Insurance?',
+      title: 'How Does Medicare Work with Retiree Insurance?',
       description: 'Even if you have a retiree health insurance plan, you most likely need to sign up for Medicare. Discover the best coverage for you.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-and-retiree-insurance/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/understanding-medicare-and-retiree-insurance.jpg',
     },
-    title: 'How Does Medicare Work With Retiree Insurance?',
+    title: 'How Does Medicare Work with Retiree Insurance?',
     summary: 'If you employer allows you to continue your coverage after retirement, you should determine how your group coverage works with Medicare. Retiree coverage is not creditable for Medicare, so if you delay, you may be responsible for the late enrollment penalty in the future.',
     category: 'Medicare FAQ',
     dateUpdated: 'March 17, 2023',
@@ -210,7 +210,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     readTime: '4 min',
     sections: [
       {
-        heading: 'Medicare Premiums Reimbursement Through Employer',
+        heading: 'Medicare Premiums Reimbursement through Employer',
         paragraphs: [
           'Updated on March 17, 2023',
           'While your [employer](/blog/understanding-how-medicare-works-with-employer-health-plans) can’t pay your [Medicare premiums](/blog/medicare-costs-2025) in the true sense, you’ll be glad...',
@@ -222,12 +222,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'turning-65-these-are-the-most-common-medicare-questions-answered',
     seo: {
-      title: 'Turning 65? These Are the Most Common Medicare Questions—Answered',
+      title: 'Turning 65? These are the Most Common Medicare Questions—Answered',
       description: 'Turning 65 and unsure about Medicare? Learn what each part covers, when to enroll, how to avoid penalties, and whether Original Medicare or additional coverage is right for you.',
       canonical: 'https://www.medicarefaq.com/faqs/turning-65-these-are-the-most-common-medicare-questions-answered/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Turning-65-These-Are-the-Most-Common-Medicare-Questions—Answered.jpg',
     },
-    title: 'Turning 65? These Are the Most Common Medicare Questions—Answered',
+    title: 'Turning 65? These are the Most Common Medicare Questions—Answered',
     summary: '',
     category: 'Enrollment',
     dateUpdated: '',
@@ -242,12 +242,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Is Medicare and Who Qualifies for It?',
+        heading: 'What is Medicare and Who Qualifies for It?',
         paragraphs: [
         ],
       },
       {
-        heading: 'What Are the Different Parts of Medicare?',
+        heading: 'What are the Different Parts of Medicare?',
         paragraphs: [
         ],
         listItems: [
@@ -258,7 +258,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Is the Difference Between Medicare and Medicaid?',
+        heading: 'What is the Difference between Medicare and Medicaid?',
         paragraphs: [
         ],
         listItems: [
@@ -278,7 +278,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'When to Sign Up for Medicare',
+        heading: 'When to Sign up for Medicare',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
         ],
@@ -289,7 +289,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Are the Penalties for Not Signing Up?',
+        heading: 'What are the Penalties for not Signing Up?',
         paragraphs: [
         ],
         listItems: [
@@ -354,12 +354,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'what-to-do-with-medicare-if-youre-moving-medicare-change-of-address',
     seo: {
-      title: 'What to Do With Medicare if You’re Moving: Medicare Change of Address',
+      title: 'What to do with Medicare if You’re Moving: Medicare Change of Address',
       description: 'How moving affects your Medicare coverage, how to update your address with Medicare, and tips for ensuring uninterrupted coverage. Avoid gaps by following our step-by-step guide.',
       canonical: 'https://www.medicarefaq.com/faqs/what-to-do-with-medicare-if-youre-moving-medicare-change-of-address/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/What-to-Do-With-Medicare-if-Youre-Moving-Medicare-Change-of-Address-.jpg',
     },
-    title: 'What to Do With Medicare if You’re Moving: Medicare Change of Address',
+    title: 'What to do with Medicare if You’re Moving: Medicare Change of Address',
     summary: '',
     category: 'Medicare FAQ',
     dateUpdated: '',
@@ -451,7 +451,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Are Medicare Trial Rights?',
+        heading: 'What are Medicare Trial Rights?',
         paragraphs: [
         ],
       },
@@ -481,7 +481,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'Trial Right 2: Dropping a Medigap Plan for Medicare Advantage, Then Changing Back',
+        heading: 'Trial Right 2: Dropping a Medigap Plan for Medicare Advantage, then Changing Back',
         paragraphs: [
         ],
       },
@@ -510,7 +510,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Happens If You Miss Your Enrollment Windows?',
+        heading: 'What Happens if You Miss Your Enrollment Windows?',
         paragraphs: [
           'Missing your 12-month trial right period means you lose the guaranteed issue right to enroll in a Medigap plan. This doesn’t mean you can’t get a Medigap policy at all, but it does mean your application may be subject to medical underwriting. That could lead to:Higher monthly premiumsWaiting periods for coverage of pre-existing conditionsPossible denial of coverageTo avoid these risks, it’s important to monitor your trial right window and act within the allowed time frame if you decide to make a change.Was this article helpful ?Yes (0)No',
           'To avoid these risks, it’s important to monitor your trial right window and act within the allowed time frame if you decide to make a change.Was this article helpful ?Yes (0)No',
@@ -686,12 +686,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'mapd-vs-part-d',
     seo: {
-      title: 'MAPD vs. PDP Through Medicare Part D',
+      title: 'MAPD vs. PDP through Medicare Part D',
       description: 'Drug coverage for those on Medicare is available through Medicare Part D or a Medicare Advantage prescription drug plan (MAPD).',
       canonical: 'https://www.medicarefaq.com/faqs/mapd-vs-part-d/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/MAPD-vs-PDP-through-part-d.jpg',
     },
-    title: 'MAPD vs. PDP Through Medicare Part D',
+    title: 'MAPD vs. PDP through Medicare Part D',
     summary: 'Medicare Part D Prescription Drug Plans and Medicare Advantage Prescription Drug Plans both provide drug coverage to Medicare beneficiaries. Learn the differences between the two plan types in this article.',
     category: 'Prescription Drugs',
     dateUpdated: 'January 16, 2024',
@@ -726,7 +726,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     readTime: '3 min',
     sections: [
       {
-        heading: 'How Do I Find Pain Management Doctors Near Me That Accept Medicare?',
+        heading: 'How do I Find Pain Management Doctors near Me that Accept Medicare?',
         paragraphs: [
           'Updated on November 18, 2024',
           '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover [pain management services](/faqs/medicare-coverage-for-lower-back-pain-management) when [medically necessary](/faqs/what-does-medically-necessary-mean). Yet, some services or treatments...',

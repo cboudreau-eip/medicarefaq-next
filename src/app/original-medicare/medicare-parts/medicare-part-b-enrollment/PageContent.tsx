@@ -60,7 +60,7 @@ const applicationMethods = [
   },
   {
     icon: FileText,
-    title: "Apply In Person",
+    title: "Apply in Person",
     desc: "Visit your local Social Security office. You can find locations at SSA.gov. Bring your documents and expect to spend time waiting — this option works best for people with more complex situations.",
     steps: [
       "Find your local Social Security office at ssa.gov/locator",
@@ -239,7 +239,7 @@ export default function PageContent() {
 
         {/* SEP Section */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-[#1B3A6B] mb-3">Special Enrollment Period (SEP): When You Can Delay Without Penalty</h2>
+          <h2 className="text-2xl font-bold text-[#1B3A6B] mb-3">Special Enrollment Period (SEP): When You Can Delay without Penalty</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             A Special Enrollment Period allows certain people to delay Part B past 65 without paying a penalty, but only under specific conditions. The key concept here is <em>creditable coverage</em> — meaning coverage that is at least as good as Medicare's standards.
           </p>
@@ -253,7 +253,7 @@ export default function PageContent() {
             <div className="flex items-start gap-3">
               <AlertTriangle className="text-amber-600 shrink-0 mt-0.5" size={18} />
               <div>
-                <h3 className="font-bold text-gray-800 mb-1">Important: COBRA Does Not Extend Your SEP Window</h3>
+                <h3 className="font-bold text-gray-800 mb-1">Important: COBRA Does not Extend Your SEP Window</h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   The 8-month SEP window is separate from COBRA. Even if you elect COBRA continuation coverage after leaving your job, the SEP clock starts when your active employment (or the active employment of your covered spouse) ends. Relying on COBRA as a bridge does not extend your SEP window.
                 </p>
@@ -320,7 +320,7 @@ export default function PageContent() {
             <div className="flex items-start gap-3">
               <AlertTriangle className="text-red-600 shrink-0 mt-0.5" size={18} />
               <div>
-                <h3 className="font-bold text-gray-800 mb-1">Permanent 10% Penalty Per 12-Month Gap</h3>
+                <h3 className="font-bold text-gray-800 mb-1">Permanent 10% Penalty per 12-Month Gap</h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   The Medicare Part B late enrollment penalty is a permanent 10% increase to your premium for every 12-month period you were eligible for Part B but didn't enroll and didn't have creditable coverage. Unlike some other financial penalties, this one doesn't go away — it stays with you for as long as you have Part B.
                 </p>
@@ -436,7 +436,7 @@ export default function PageContent() {
 
         {/* FAQs */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-[#1B3A6B] mb-5">Frequently Asked Questions About Medicare Part B Enrollment</h2>
+          <h2 className="text-2xl font-bold text-[#1B3A6B] mb-5">Frequently Asked Questions about Medicare Part B Enrollment</h2>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-xl p-5">
@@ -449,11 +449,11 @@ export default function PageContent() {
 
         {/* Sources */}
         <section className="mb-10 bg-gray-50 border border-gray-200 rounded-xl p-5">
-          <h2 className="text-lg font-bold text-[#1B3A6B] mb-3">How We Verify This Information</h2>
+          <h2 className="text-lg font-bold text-[#1B3A6B] mb-3">How We Verify this Information</h2>
           <p className="text-sm text-gray-700 mb-3">Our commitment is to provide you with accurate, trustworthy, and up-to-date information. Key resources we consult include:</p>
           <ul className="space-y-1">
             {[
-              { label: "Centers for Medicare & Medicaid Services (CMS)", href: "https://www.cms.gov/" },
+              { label: "Centers for Medicare && Medicaid Services (CMS)", href: "https://www.cms.gov/" },
               { label: "Social Security Administration (SSA)", href: "https://www.ssa.gov/medicare" },
               { label: "KFF (Kaiser Family Foundation)", href: "https://www.kff.org/topic/medicare/" },
             ].map((src, i) => (

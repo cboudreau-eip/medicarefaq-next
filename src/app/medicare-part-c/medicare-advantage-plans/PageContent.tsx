@@ -30,11 +30,11 @@ import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
 
 const tableOfContents = [
-  { id: "overview", label: "What Is Medicare Advantage?" },
+  { id: "overview", label: "What is Medicare Advantage?" },
   { id: "plan-types", label: "Types of MA Plans" },
-  { id: "benefits", label: "Benefits & Extras" },
-  { id: "costs", label: "Costs & Out-of-Pocket" },
-  { id: "pros-cons", label: "Pros & Cons" },
+  { id: "benefits", label: "Benefits && Extras" },
+  { id: "costs", label: "Costs && Out-of-Pocket" },
+  { id: "pros-cons", label: "Pros && Cons" },
   { id: "enrollment", label: "When to Enroll" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },
@@ -196,7 +196,7 @@ export default function MedicareAdvantage() {  const [activeSection, setActiveSe
                     { value: "51%", label: "of Medicare beneficiaries now choose MA" },
                     { value: "$0", label: "premium for many MA plans" },
                     { value: "$9,250", label: "max out-of-pocket (in-network) 2026" },
-                    { value: "4,000+", label: "MA plans available nationwide" },
+                    { value: "4,000+", label: "MA Plans Available Nationwide" },
                   ].map((stat, i) => (
                     <div key={i} className="bg-slate-50 rounded-xl p-5 border border-slate-100 text-center">
                       <div className="text-2xl font-bold text-teal-600 mb-1">{stat.value}</div>

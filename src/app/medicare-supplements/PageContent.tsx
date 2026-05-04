@@ -26,11 +26,11 @@ import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
 
 const tableOfContents = [
-  { id: "overview", label: "What Is Medigap?" },
+  { id: "overview", label: "What is Medigap?" },
   { id: "how-it-works", label: "How Medigap Works" },
   { id: "plan-comparison", label: "Plan Comparison Chart" },
   { id: "popular-plans", label: "Most Popular Plans" },
-  { id: "costs", label: "Costs & Pricing" },
+  { id: "costs", label: "Costs && Pricing" },
   { id: "enrollment", label: "When to Enroll" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },
@@ -219,10 +219,10 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 </h2>
                 <div className="space-y-4 mb-8">
                   {[
-                    { step: "1", title: "You must have Original Medicare", desc: "You need both Medicare Part A and Part B. Medigap works alongside Original Medicare — it cannot be used with Medicare Advantage." },
-                    { step: "2", title: "Medicare pays its share first", desc: "When you receive medical care, Original Medicare processes the claim and pays its portion according to standard coverage rules." },
-                    { step: "3", title: "Medigap covers the rest", desc: "Your Medigap plan then pays some or all of the remaining costs (deductibles, coinsurance, copays) based on your specific plan letter." },
-                    { step: "4", title: "You pay your monthly premium", desc: "You pay a monthly premium to your Medigap insurance company, plus your Part B premium to Medicare. That's typically your only cost." },
+                    { step: "1", title: "You Must Have Original Medicare", desc: "You need both Medicare Part A and Part B. Medigap works alongside Original Medicare — it cannot be used with Medicare Advantage." },
+                    { step: "2", title: "Medicare Pays its Share First", desc: "When you receive medical care, Original Medicare processes the claim and pays its portion according to standard coverage rules." },
+                    { step: "3", title: "Medigap Covers the Rest", desc: "Your Medigap plan then pays some or all of the remaining costs (deductibles, coinsurance, copays) based on your specific plan letter." },
+                    { step: "4", title: "You Pay Your Monthly Premium", desc: "You pay a monthly premium to your Medigap insurance company, plus your Part B premium to Medicare. That's typically your only cost." },
                   ].map((item, i) => (
                     <div key={i} className="flex gap-4 p-5 bg-white rounded-xl border border-slate-200">
                       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center shrink-0">

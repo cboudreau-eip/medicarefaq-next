@@ -30,8 +30,8 @@ import {
 import ZipFormModal from "@/components/ZipFormModal";
 
 const tableOfContents = [
-  { id: "overview", label: "What Is Original Medicare?" },
-  { id: "part-a", label: "Part A: Hospital Insurance" },
+  { id: "overview", label: "What is Original Medicare?" },
+  { id: "part-a", label: "Part a: Hospital Insurance" },
   { id: "part-b", label: "Part B: Medical Insurance" },
   { id: "costs", label: "2026 Costs at a Glance" },
   { id: "what-it-doesnt-cover", label: "What It Doesn't Cover" },
@@ -263,7 +263,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                     </ul>
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-4">Part A Costs in 2026</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">Part a Costs in 2026</h3>
                 <div className="overflow-x-auto rounded-xl border border-slate-200">
                   <table className="w-full text-sm">
                     <thead className="bg-slate-50">
@@ -396,7 +396,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                 </h2>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
                   {[
-                    { label: "Part A Premium", value: "$0", sub: "for most people" },
+                    { label: "Part a Premium", value: "$0", sub: "for most people" },
                     { label: "Part B Premium", value: "$202.90/mo", sub: "standard amount" },
                     { label: "Hospital Deductible", value: "$1,736", sub: "per benefit period" },
                     { label: "Part B Deductible", value: "$283/yr", sub: "annual deductible" },

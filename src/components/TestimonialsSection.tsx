@@ -16,7 +16,7 @@ const testimonials = [
     quote:
       "I kept working past 65 and had no idea how Medicare interacted with my employer plan. The 'Working Past 65' section answered every question I had.",
     name: "Robert K.",
-    label: "Working Past 65",
+    label: "Working past 65",
     labelColor: "#D97706",
     stars: 5,
   },

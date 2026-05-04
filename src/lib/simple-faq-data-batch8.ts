@@ -4,7 +4,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
   {
     slug: "does-medicare-cover-eye-exams",
     seo: {
-      title: "Does Medicare Cover Eye Exams? | MedicareFAQ",
+      title: "Does Medicare Cover Eye Exams? || MedicareFAQ",
       description:
         "Original Medicare does not cover routine eye exams for glasses or contacts, but Medicare Part B covers medically necessary eye care for certain conditions, and Medicare Advantage plans often include routine vision benefits.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-eye-exams/",
@@ -233,42 +233,42 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
         type: "faq",
         faqs: [
           {
-            question: "Does Medicare cover routine eye exams for glasses or contacts?",
+            question: "Does Medicare Cover Routine Eye Exams for Glasses or Contacts?",
             answer:
               "No, Original Medicare (Parts A and B) does not cover routine eye exams for prescribing glasses or contact lenses, so you pay 100% out of pocket. This type of coverage is typically available through Medicare Advantage (Part C) plans or a separate vision insurance policy.",
           },
           {
-            question: "Does Medicare cover eye exams for glaucoma?",
+            question: "Does Medicare Cover Eye Exams for Glaucoma?",
             answer:
               "Yes, Medicare Part B covers annual glaucoma screenings for high-risk individuals, including people with diabetes, those with a family history of glaucoma, African Americans aged 50 and older, and Hispanic Americans aged 65 and older. After your Part B deductible is met, you pay 20% of the Medicare-approved amount.",
           },
           {
-            question: "Does Medicare Advantage cover eye exams and glasses?",
+            question: "Does Medicare Advantage Cover Eye Exams and Glasses?",
             answer:
               "Yes, most Medicare Advantage plans (roughly 90%) include routine eye exams and allowances for glasses or contacts. However, the specific coverage varies significantly by plan, including co-pays, annual eyewear allowances, and in-network requirements. Always review the plan's Evidence of Coverage before enrolling.",
           },
           {
-            question: "How much does an eye exam cost with Medicare?",
+            question: "How Much Does an Eye Exam Cost with Medicare?",
             answer:
               "For medically necessary exams covered by Part B, you pay the $283 annual deductible first, then 20% of the Medicare-approved amount. Routine exams not covered by Original Medicare are 100% your responsibility, typically $50–$200 without insurance. With a Medicare Advantage plan, your cost depends on your plan's specific co-pays and vision allowances.",
           },
           {
-            question: "Does Medicare cover eye exams for diabetics?",
+            question: "Does Medicare Cover Eye Exams for Diabetics?",
             answer:
               "Yes, Medicare Part B covers eye exams for diabetic retinopathy if you have diabetes. This is a critical benefit for monitoring a leading cause of vision loss in older adults. You pay your Part B deductible and 20% coinsurance for these medically necessary exams.",
           },
           {
-            question: "What vision benefits does Medicare Part B cover?",
+            question: "What Vision Benefits Does Medicare Part B Cover?",
             answer:
               "Medicare Part B covers medically necessary eye care for specific conditions, not routine vision. This includes diagnostic testing and treatment for glaucoma, cataracts, diabetic retinopathy, and age-related macular degeneration, plus one pair of eyeglasses or contacts following cataract surgery with an intraocular lens implant.",
           },
           {
-            question: "Can I get vision coverage if I only have Original Medicare?",
+            question: "Can I Get Vision Coverage if I Only Have Original Medicare?",
             answer:
               "No, if you have only Original Medicare, there is no coverage for routine eye exams, glasses, or contacts. You would need to purchase a separate standalone vision insurance plan for routine care. Medigap plans do not add routine vision benefits — they only reduce cost-sharing for services Original Medicare already covers.",
           },
           {
-            question: "How do I choose a Medicare plan with good vision coverage?",
+            question: "How do I Choose a Medicare Plan with Good Vision Coverage?",
             answer:
               "Focus your plan comparison on Medicare Advantage options, looking specifically at annual eyewear allowances, co-pays for exams, and whether your preferred eye doctor is in-network. Balance the vision benefits against each plan's total costs, premiums, deductibles, and the out-of-pocket maximum before making a final decision.",
           },

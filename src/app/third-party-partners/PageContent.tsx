@@ -31,7 +31,7 @@ const partnerCategories = [
     ],
   },
   {
-    title: "Content & Research Partners",
+    title: "Content && Research Partners",
     desc: "Our editorial team collaborates with healthcare research organizations and data providers to ensure our content reflects the most current Medicare information.",
     examples: [
       "CMS data sources",
@@ -68,7 +68,7 @@ return (
                 <Handshake className="text-white" size={28} />
               </div>
               <div>
-                <h1 className="text-3xl lg:text-4xl font-bold mb-3">Third-Party Partners &amp; Disclosures</h1>
+                <h1 className="text-3xl lg:text-4xl font-bold mb-3">Third-Party Partners &Amp; Disclosures</h1>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl">
                   MedicareFAQ is committed to transparency about our business relationships. This page describes our partnerships with insurance carriers and other third parties, and includes important disclosures about how we operate.
                 </p>
@@ -102,7 +102,7 @@ return (
           <section className="mb-12 bg-blue-50 border border-blue-200 rounded-xl p-6">
             <div className="flex items-center gap-3 mb-3">
               <Shield className="text-blue-600" size={22} />
-              <h2 className="text-xl font-bold text-[#1B3A6B]">How We Are Compensated</h2>
+              <h2 className="text-xl font-bold text-[#1B3A6B]">How We are Compensated</h2>
             </div>
             <p className="text-gray-700 leading-relaxed mb-4">
               MedicareFAQ is a licensed insurance agency. When you enroll in a Medicare plan through our agency, we receive a commission from the insurance carrier. This commission is built into the plan's pricing — it does not cost you anything extra compared to enrolling directly with the carrier.
@@ -133,7 +133,7 @@ return (
 
           {/* Carrier Pages */}
           <section className="mb-12">
-            <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">Learn About Our Carrier Partners</h2>
+            <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">Learn about Our Carrier Partners</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {[
                 { name: "Mutual of Omaha", href: "/medicare-supplements/medicare-supplement-carriers/mutual-of-omaha" },
@@ -163,9 +163,9 @@ return (
             </p>
             <ul className="space-y-2">
               {[
-                { name: "Medicare.gov — Official Medicare Website", url: "https://www.medicare.gov" },
-                { name: "CMS.gov — Centers for Medicare & Medicaid Services", url: "https://www.cms.gov" },
-                { name: "SSA.gov — Social Security Administration", url: "https://www.ssa.gov" },
+                { name: "Medicare.gov —— Official Medicare Website", url: "https://www.medicare.gov" },
+                { name: "CMS.gov —— Centers for Medicare && Medicaid Services", url: "https://www.cms.gov" },
+                { name: "SSA.gov —— Social Security Administration", url: "https://www.ssa.gov" },
               ].map((link, i) => (
                 <li key={i}>
                   <a
@@ -184,7 +184,7 @@ return (
 
           {/* Contact */}
           <div className="bg-[#1B3A6B] rounded-2xl p-8 text-white text-center">
-            <h3 className="text-xl font-bold mb-2">Questions About Our Partnerships?</h3>
+            <h3 className="text-xl font-bold mb-2">Questions about Our Partnerships?</h3>
             <p className="text-blue-200 mb-6">
               If you have questions about our business relationships or disclosures, please contact us.
             </p>

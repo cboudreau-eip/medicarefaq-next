@@ -14,9 +14,9 @@ const tableOfContents = [
   { id: "overview", label: "Who Qualifies for Medicare?" },
   { id: "age-eligibility", label: "Age Eligibility (65+)" },
   { id: "disability-eligibility", label: "Disability Eligibility" },
-  { id: "part-a-eligibility", label: "Part A Eligibility" },
+  { id: "part-a-eligibility", label: "Part a Eligibility" },
   { id: "part-b-eligibility", label: "Part B Eligibility" },
-  { id: "income", label: "Income & Medicare" },
+  { id: "income", label: "Income && Medicare" },
   { id: "faqs", label: "Frequently Asked Questions" },
 ];
 
@@ -93,7 +93,7 @@ export default function MedicareEligibility() {
         {/* Table of Contents */}
         <aside className="lg:w-64 shrink-0">
           <div className="sticky top-24 bg-gray-50 rounded-xl p-5 border border-gray-200">
-            <h2 className="font-semibold text-gray-800 mb-3 text-sm uppercase tracking-wide">On This Page</h2>
+            <h2 className="font-semibold text-gray-800 mb-3 text-sm uppercase tracking-wide">On this Page</h2>
             <ul className="space-y-2">
               {tableOfContents.map((item) => (
                 <li key={item.id}>
@@ -115,7 +115,7 @@ export default function MedicareEligibility() {
               {[
                 { icon: <Clock className="w-6 h-6 text-[#0D9488]" />, title: "Age 65+", desc: "The most common pathway — available to U.S. citizens and qualifying permanent residents." },
                 { icon: <Users className="w-6 h-6 text-[#D97706]" />, title: "Disability (SSDI)", desc: "After receiving Social Security Disability Insurance for 24 months. ALS qualifies immediately." },
-                { icon: <Heart className="w-6 h-6 text-[#DC2626]" />, title: "ESRD / Kidney Failure", desc: "End-Stage Renal Disease requiring dialysis or a kidney transplant, at any age." },
+                { icon: <Heart className="w-6 h-6 text-[#DC2626]" />, title: "ESRD // Kidney Failure", desc: "End-Stage Renal Disease requiring dialysis or a kidney transplant, at any age." },
               ].map((item, i) => (
                 <div key={i} className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
                   <div className="mb-3">{item.icon}</div>
@@ -163,7 +163,7 @@ export default function MedicareEligibility() {
           </section>
 
           <section id="part-a-eligibility" className="mt-8">
-            <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">Medicare Part A Eligibility Requirements</h2>
+            <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">Medicare Part a Eligibility Requirements</h2>
             <p className="text-gray-700 mb-4">
               Most people qualify for <strong>premium-free Part A</strong> if they or their spouse worked and paid Medicare taxes for at least <strong>10 years (40 quarters)</strong>. If you don't meet the work history requirement, you can still enroll in Part A by paying a monthly premium.
             </p>
@@ -204,7 +204,7 @@ export default function MedicareEligibility() {
           </section>
 
           <section id="income" className="mt-8">
-            <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">What Is the Maximum Income to Qualify for Medicare?</h2>
+            <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">What is the Maximum Income to Qualify for Medicare?</h2>
             <p className="text-gray-700 mb-4">
               There is <strong>no income limit</strong> to qualify for Medicare. Eligibility is based on age or disability status, not income or assets. However, your income does affect how much you pay for Medicare. Higher-income beneficiaries pay more for Parts B and D through <strong>Income-Related Monthly Adjustment Amounts (IRMAA)</strong>.
             </p>

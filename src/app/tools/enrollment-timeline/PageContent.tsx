@@ -66,12 +66,12 @@ const COVERAGE_YEARS = Array.from({ length: 15 }, (_, i) => currentYear - 2 + i)
 const EMPLOYMENT_OPTIONS: { value: EmploymentStatus; label: string; description: string }[] = [
   {
     value: "not-working",
-    label: "Not currently working",
+    label: "Not Currently Working",
     description: "Retired, self-employed, or no employer health coverage",
   },
   {
     value: "working-with-coverage",
-    label: "Working with employer coverage",
+    label: "Working with Employer Coverage",
     description: "Employed with health insurance from employer (20+ employees)",
   },
   {
@@ -81,7 +81,7 @@ const EMPLOYMENT_OPTIONS: { value: EmploymentStatus; label: string; description:
   },
   {
     value: "working-no-coverage",
-    label: "Working without employer coverage",
+    label: "Working without Employer Coverage",
     description: "Employed but no employer-sponsored health insurance",
   },
 ];
@@ -390,7 +390,7 @@ export default function PageContent() {
                 <HelpCircle className="w-5 h-5 text-[#0D9488]" />
               </div>
               <div>
-                <h2 className="text-lg font-bold text-[#1B2A4A]">Tell Us About Yourself</h2>
+                <h2 className="text-lg font-bold text-[#1B2A4A]">Tell Us about Yourself</h2>
                 <p className="text-sm text-[#6B7280]">We'll calculate your personalized Medicare timeline</p>
               </div>
             </div>

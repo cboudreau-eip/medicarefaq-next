@@ -25,7 +25,7 @@ import {
 } from "lucide-react";
 
 const featuredEpisode = {
-  title: "Medicare 2026 | New Premiums, Deductibles & Out of Pocket Costs Just Released!",
+  title: "Medicare 2026 || New Premiums, Deductibles && out of Pocket Costs Just Released!",
   description: "Medicare costs are changing in 2026, and many retirees will see higher premiums, deductibles, and out-of-pocket expenses. In this episode, we break down the official 2026 Medicare cost updates released by CMS — including new numbers for Part A, Part B, Part D, Medicare Advantage, and IRMAA.",
   duration: "9:41",
   date: "March 12, 2026",
@@ -41,7 +41,7 @@ const episodes = [
     category: "Medicare Enrollment",
   },
   {
-    title: "When Should You Enroll in Medicare If Still Working?",
+    title: "When Should You Enroll in Medicare if Still Working?",
     description: "Still working and unsure when to enroll in Medicare? We explain when you should sign up and how employer coverage affects your timeline.",
     duration: "5:14",
     date: "March 12, 2026",

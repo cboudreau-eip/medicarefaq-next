@@ -23,7 +23,7 @@ interface JourneyLink {
 const journeyPaths = [
   {
     title: "New to Medicare",
-    subtitle: "Turning 65 or qualifying for the first time",
+    subtitle: "Turning 65 or Qualifying for the First Time",
     icon: Compass,
     color: "#0D9488",
     image: JOURNEY_NEW,
@@ -31,22 +31,22 @@ const journeyPaths = [
       { label: "Medicare 101 Guide", href: "/medicare-101" },
       { label: "Am I Eligible?", href: "/new-to-medicare/eligibility" },
       { label: "Turning 65 Timeline", href: "/new-to-medicare/turning-65" },
-      { label: "What Does It Cost?", href: "/new-to-medicare/costs" },
+      { label: "What Does it Cost?", href: "/new-to-medicare/costs" },
       { label: "Getting Started Checklist", href: "/new-to-medicare/checklist" },
     ] as JourneyLink[],
     href: "/medicare-101",
     isZipModalCard: false,
   },
   {
-    title: "Working Past 65",
-    subtitle: "Balancing employer coverage with Medicare",
+    title: "Working past 65",
+    subtitle: "Balancing Employer Coverage with Medicare",
     icon: Briefcase,
     color: "#D97706",
     image: JOURNEY_WORKING,
     links: [
-      { label: "Medicare & Employer Coverage", href: "/enrollment/working-past-65" },
+      { label: "Medicare && Employer Coverage", href: "/enrollment/working-past-65" },
       { label: "When to Enroll if Working", href: "/faqs/when-should-you-enroll-in-medicare-if-still-working" },
-      { label: "HSA & Medicare Rules", href: "/enrollment/working-past-65#hsa-rules" },
+      { label: "HSA && Medicare Rules", href: "/enrollment/working-past-65#hsa-rules" },
       { label: "COBRA vs. Medicare", href: "/enrollment/working-past-65#cobra-vs-medicare" },
       { label: "Retirement Planning Guide", href: "/new-to-medicare/costs" },
     ] as JourneyLink[],
@@ -55,14 +55,14 @@ const journeyPaths = [
   },
   {
     title: "Already Enrolled",
-    subtitle: "Reviewing, switching, or optimizing your plan",
+    subtitle: "Reviewing, Switching, or Optimizing Your Plan",
     icon: CheckCircle,
     color: "#4F46E5",
     image: JOURNEY_ENROLLED,
     links: [
       { label: "Compare Your Plan Options", href: "/compare-rates", isZipModal: true },
       { label: "Annual Enrollment Guide", href: "/enrollment/annual-changes" },
-      { label: "Switch Plans: When & How", href: "/enrollment/how-to-enroll" },
+      { label: "Switch Plans: When && How", href: "/enrollment/how-to-enroll" },
       { label: "Lower Your Costs", href: "/medicare-plans/costs" },
       { label: "Coverage Gaps to Watch", href: "/faqs" },
     ] as JourneyLink[],
@@ -184,7 +184,7 @@ export default function JourneySection() {
                   ) : (
                     <Link
                       href={path.href}
-                      onClick={() => trackCtaClick({ button_label: "Explore This Path", destination: path.href, page_section: "journey_section" })}
+                      onClick={() => trackCtaClick({ button_label: "Explore this Path", destination: path.href, page_section: "journey_section" })}
                       className="inline-flex items-center gap-1.5 font-semibold text-sm group-hover:gap-2.5 transition-all duration-150"
                       style={{ color: path.color }}
                     >

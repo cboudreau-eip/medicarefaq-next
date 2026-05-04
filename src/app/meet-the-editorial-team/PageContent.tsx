@@ -7,7 +7,7 @@ import { Users, Award, Shield, BookOpen, ArrowRight, CheckCircle2 } from "lucide
 const teamMembers = [
   {
     name: "Jagger Esch",
-    title: "Founder & President",
+    title: "Founder && President",
     credentials: "Medicare Insurance Specialist",
     bio: "Jagger Esch founded MedicareFAQ in 2013 with a mission to make Medicare education accessible to everyone. With over a decade of experience in Medicare insurance, Jagger has helped thousands of beneficiaries navigate their coverage options. He holds multiple state insurance licenses and is a recognized expert in Medicare Supplement and Medicare Advantage plans.",
     expertise: ["Medicare Supplement Plans", "Medicare Advantage", "Medicare Enrollment", "Insurance Licensing"],
@@ -15,7 +15,7 @@ const teamMembers = [
   },
   {
     name: "Lindsay Engle",
-    title: "Medicare Expert & Content Director",
+    title: "Medicare Expert && Content Director",
     credentials: "Licensed Insurance Agent",
     bio: "Lindsay Engle oversees the editorial direction of MedicareFAQ, ensuring all content is accurate, up-to-date, and genuinely helpful to beneficiaries. She has extensive experience in Medicare insurance and has been quoted in major publications including U.S. News & World Report and Forbes.",
     expertise: ["Medicare Content Strategy", "Insurance Compliance", "Consumer Education", "Policy Analysis"],
@@ -31,7 +31,7 @@ const teamMembers = [
   },
   {
     name: "Ashlee Zareczny",
-    title: "Compliance & Editorial Manager",
+    title: "Compliance && Editorial Manager",
     credentials: "Licensed Insurance Professional",
     bio: "Ashlee Zareczny manages editorial compliance at MedicareFAQ, ensuring all published content meets regulatory standards and accurately reflects current Medicare rules. She works closely with licensed agents and CMS guidelines to maintain the highest standards of accuracy.",
     expertise: ["Regulatory Compliance", "Medicare Regulations", "Editorial Standards", "Content Accuracy"],
@@ -155,7 +155,7 @@ export default function PageContent() {
 
           {/* CTA */}
           <div className="bg-[#1B3A6B] rounded-2xl p-8 text-white text-center">
-            <h3 className="text-xl font-bold mb-2">Work With Our Team</h3>
+            <h3 className="text-xl font-bold mb-2">Work with Our Team</h3>
             <p className="text-blue-200 mb-6">
               Our licensed specialists are available to answer your Medicare questions and help you find the right coverage.
             </p>

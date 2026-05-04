@@ -15,7 +15,7 @@ import {
 
 const ELIGIBILITY_RULES = [
   {
-    title: "Enrolled in Medicare Part A and Part B",
+    title: "Enrolled in Medicare Part a and Part B",
     desc: "You must be enrolled in both Medicare Part A (hospital) and Part B (medical) to purchase a Medigap policy.",
     icon: CheckCircle2,
     color: "text-green-600",
@@ -41,9 +41,9 @@ const ELIGIBILITY_RULES = [
 ];
 
 const OEP_FACTS = [
-  { label: "When It Starts", value: "The month you turn 65 AND are enrolled in Medicare Part B" },
+  { label: "When it Starts", value: "The month you turn 65 AND are enrolled in Medicare Part B" },
   { label: "Duration", value: "6 months (cannot be extended or repeated)" },
-  { label: "What It Guarantees", value: "The right to buy any Medigap plan sold in your state, regardless of health" },
+  { label: "What it Guarantees", value: "The right to buy any Medigap plan sold in your state, regardless of health" },
   { label: "Medical Underwriting", value: "None — insurers cannot deny coverage or charge higher premiums due to pre-existing conditions" },
   { label: "What Happens After", value: "Insurers can use medical underwriting and may deny coverage or charge more" },
 ];

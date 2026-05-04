@@ -135,7 +135,7 @@ export default function PageContent() {
 
           {/* Related */}
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
-            <h3 className="font-bold text-gray-800 mb-3">Learn More About MedicareFAQ</h3>
+            <h3 className="font-bold text-gray-800 mb-3">Learn More about MedicareFAQ</h3>
             <div className="flex flex-wrap gap-3">
               <Link href="/about-us" className="inline-flex items-center gap-1 text-teal-600 hover:underline text-sm font-medium">
                 About Us <ArrowRight size={14} />

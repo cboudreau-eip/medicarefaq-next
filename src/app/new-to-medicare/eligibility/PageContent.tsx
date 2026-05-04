@@ -39,7 +39,7 @@ const tableOfContents = [
   { id: "under-65", label: "Under 65 Eligibility" },
   { id: "esrd", label: "End-Stage Renal Disease" },
   { id: "citizenship", label: "Citizenship Requirements" },
-  { id: "work-history", label: "Work History & Premiums" },
+  { id: "work-history", label: "Work History && Premiums" },
   { id: "special-situations", label: "Special Situations" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },
@@ -61,7 +61,7 @@ const eligibilityPaths = [
     note: "If you're receiving Social Security benefits, you'll be automatically enrolled in Medicare Parts A and B when you turn 65.",
   },
   {
-    title: "Disability (Under 65)",
+    title: "Disability (under 65)",
     icon: Heart,
     color: "bg-blue-600",
     lightBg: "bg-blue-50",
@@ -135,7 +135,7 @@ const workHistoryTiers = [
 
 const specialSituations = [
   {
-    title: "Working Past 65",
+    title: "Working past 65",
     description: "If you're still working at 65 and have employer coverage through a company with 20+ employees, you may delay Medicare enrollment without penalty. Your employer plan is considered \"creditable coverage.\"",
     action: "You have a Special Enrollment Period (SEP) of 8 months after you or your spouse stops working or loses employer coverage.",
   },
@@ -166,11 +166,11 @@ const faqs = [
     answer: "You don't need to be a citizen, but you must be a permanent legal resident (green card holder) who has lived in the United States continuously for at least 5 years. Temporary visa holders and undocumented residents are not eligible.",
   },
   {
-    question: "What happens if I miss my enrollment window?",
+    question: "What Happens if I Miss My Enrollment Window?",
     answer: "If you miss your Initial Enrollment Period (IEP) and don't qualify for a Special Enrollment Period, you'll have to wait for the General Enrollment Period (January 1 – March 31 each year, with coverage starting July 1). You may also face a late enrollment penalty — a 10% increase in Part B premiums for each 12-month period you were eligible but didn't enroll.",
   },
   {
-    question: "Am I automatically enrolled in Medicare at 65?",
+    question: "Am I Automatically Enrolled in Medicare at 65?",
     answer: "If you're already receiving Social Security benefits when you turn 65, you'll be automatically enrolled in Medicare Parts A and B. Your Medicare card will arrive about 3 months before your 65th birthday. If you're not receiving Social Security, you'll need to actively enroll during your Initial Enrollment Period.",
   },
   {
@@ -299,8 +299,8 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
               <div className="grid md:grid-cols-2 gap-4 mb-8">
                 {[
                   { label: "Age 65+", value: "Most common path", icon: Calendar, color: "text-teal-600" },
-                  { label: "Under 65 with disability", value: "After 24-month wait", icon: Heart, color: "text-blue-600" },
-                  { label: "ALS diagnosis", value: "Immediate eligibility", icon: Shield, color: "text-purple-600" },
+                  { label: "Under 65 with Disability", value: "After 24-month wait", icon: Heart, color: "text-blue-600" },
+                  { label: "ALS Diagnosis", value: "Immediate eligibility", icon: Shield, color: "text-purple-600" },
                   { label: "ESRD", value: "Kidney failure at any age", icon: Users, color: "text-amber-600" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
@@ -425,7 +425,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
 
             {/* Citizenship */}
             <section id="citizenship" className="mb-16 scroll-mt-24">
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Citizenship & Residency Requirements</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Citizenship && Residency Requirements</h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 In addition to meeting age or disability requirements, you must also meet citizenship or residency criteria to qualify for Medicare.
               </p>
@@ -464,7 +464,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
 
             {/* Work History */}
             <section id="work-history" className="mb-16 scroll-mt-24">
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Work History & Part A Premiums</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Work History && Part a Premiums</h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Your work history (or your spouse's) determines whether you receive <strong>premium-free Part A</strong>. Medicare taxes are paid through payroll deductions (FICA), and the number of "quarters" you've worked determines your premium.
               </p>

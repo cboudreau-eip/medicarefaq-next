@@ -71,7 +71,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: "Article Not Found",
+    title: "Article not Found",
   };
 }
 

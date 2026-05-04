@@ -283,11 +283,11 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <h3 className="font-semibold text-slate-900 mb-4">Steps to Enroll in Medicare Advantage:</h3>
                   <div className="space-y-3">
                     {[
-                      { step: "1", title: "Ensure you have Parts A & B", desc: "You must be enrolled in both Medicare Part A and Part B to join a Medicare Advantage plan." },
-                      { step: "2", title: "Compare plans in your area", desc: "Use Medicare.gov's Plan Finder or call a licensed agent to compare MA plans available in your ZIP code." },
-                      { step: "3", title: "Check provider networks", desc: "Make sure your doctors, hospitals, and pharmacies are in the plan's network." },
-                      { step: "4", title: "Review the drug formulary", desc: "If the plan includes drug coverage (MA-PD), check that your medications are covered." },
-                      { step: "5", title: "Enroll during a valid enrollment period", desc: "Sign up during your IEP, AEP (Oct 15 – Dec 7), or a qualifying SEP." },
+                      { step: "1", title: "Ensure You Have Parts a && B", desc: "You must be enrolled in both Medicare Part A and Part B to join a Medicare Advantage plan." },
+                      { step: "2", title: "Compare Plans in Your Area", desc: "Use Medicare.gov's Plan Finder or call a licensed agent to compare MA plans available in your ZIP code." },
+                      { step: "3", title: "Check Provider Networks", desc: "Make sure your doctors, hospitals, and pharmacies are in the plan's network." },
+                      { step: "4", title: "Review the Drug Formulary", desc: "If the plan includes drug coverage (MA-PD), check that your medications are covered." },
+                      { step: "5", title: "Enroll during a Valid Enrollment Period", desc: "Sign up during your IEP, AEP (Oct 15 – Dec 7), or a qualifying SEP." },
                     ].map((item) => (
                       <div key={item.step} className="flex items-start gap-4">
                         <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center shrink-0 text-sm font-bold text-blue-700">
@@ -328,10 +328,10 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <h3 className="font-semibold text-slate-900 mb-4">Steps to Enroll in Part D:</h3>
                   <div className="space-y-3">
                     {[
-                      { step: "1", title: "List your current medications", desc: "Include drug names, dosages, and how often you take them." },
-                      { step: "2", title: "Compare Part D plans", desc: "Use Medicare.gov's Plan Finder or call a licensed agent to find plans that cover your drugs at the lowest cost." },
-                      { step: "3", title: "Check your pharmacy", desc: "Make sure your preferred pharmacy is in the plan's network for the best pricing." },
-                      { step: "4", title: "Enroll during a valid period", desc: "Sign up during your IEP, AEP (Oct 15 – Dec 7), or a qualifying SEP." },
+                      { step: "1", title: "List Your Current Medications", desc: "Include drug names, dosages, and how often you take them." },
+                      { step: "2", title: "Compare Part D Plans", desc: "Use Medicare.gov's Plan Finder or call a licensed agent to find plans that cover your drugs at the lowest cost." },
+                      { step: "3", title: "Check Your Pharmacy", desc: "Make sure your preferred pharmacy is in the plan's network for the best pricing." },
+                      { step: "4", title: "Enroll during a Valid Period", desc: "Sign up during your IEP, AEP (Oct 15 – Dec 7), or a qualifying SEP." },
                     ].map((item) => (
                       <div key={item.step} className="flex items-start gap-4">
                         <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center shrink-0 text-sm font-bold text-purple-700">

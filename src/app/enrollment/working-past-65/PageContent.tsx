@@ -29,12 +29,12 @@ import {
 } from "lucide-react";
 
 const tableOfContents = [
-  { id: "overview", label: "Working Past 65 & Medicare" },
+  { id: "overview", label: "Working past 65 && Medicare" },
   { id: "employer-size", label: "Employer Size Matters" },
-  { id: "what-to-enroll", label: "What to Enroll In Now" },
+  { id: "what-to-enroll", label: "What to Enroll in Now" },
   { id: "sep", label: "Special Enrollment Period" },
   { id: "hsa", label: "HSA Considerations" },
-  { id: "cobra", label: "COBRA & Medicare" },
+  { id: "cobra", label: "COBRA && Medicare" },
   { id: "spouse-coverage", label: "Spouse's Employer Coverage" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },
@@ -235,7 +235,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                         <Building2 className="w-5 h-5 text-red-700" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-red-900">Fewer Than 20 Employees</h3>
+                        <h3 className="font-bold text-red-900">Fewer than 20 Employees</h3>
                         <span className="text-xs font-semibold text-red-600">Medicare Is Primary</span>
                       </div>
                     </div>
@@ -466,7 +466,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                 <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 mb-6">
                   <div className="flex items-center gap-2 mb-4">
                     <AlertTriangle className="w-6 h-6 text-red-600" />
-                    <h3 className="font-bold text-red-900 text-lg">COBRA Is NOT Creditable Coverage</h3>
+                    <h3 className="font-bold text-red-900 text-lg">COBRA is not Creditable Coverage</h3>
                   </div>
                   <div className="space-y-3">
                     <div className="flex items-start gap-2">
@@ -509,13 +509,13 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                     </p>
                   </div>
                   <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
-                    <h3 className="font-semibold text-slate-900 mb-2">Spouse's Employer Has Fewer Than 20 Employees</h3>
+                    <h3 className="font-semibold text-slate-900 mb-2">Spouse's Employer Has Fewer than 20 Employees</h3>
                     <p className="text-sm text-slate-600">
                       Medicare is primary. You should enroll in both Parts A and B during your IEP at 65. Your spouse's plan would pay secondary to Medicare.
                     </p>
                   </div>
                   <div className="bg-amber-50 rounded-xl p-5 border border-amber-200">
-                    <h3 className="font-semibold text-amber-900 mb-2">Your Spouse Is Under 65</h3>
+                    <h3 className="font-semibold text-amber-900 mb-2">Your Spouse is under 65</h3>
                     <p className="text-sm text-amber-800">
                       If your spouse is under 65 and covered under your employer plan, consider how your Medicare enrollment affects their coverage. Some people keep employer coverage specifically to cover a younger spouse until they become Medicare-eligible.
                     </p>

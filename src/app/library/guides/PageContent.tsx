@@ -107,7 +107,7 @@ const topicGuides = [
     category: "Getting Started",
   },
   {
-    title: "Working Past 65 Guide",
+    title: "Working past 65 Guide",
     description: "How employer coverage coordinates with Medicare and when to enroll.",
     icon: Clock,
     href: "/enrollment/working-past-65",

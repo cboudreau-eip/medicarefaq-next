@@ -132,7 +132,7 @@ export default function PageContent() {
 
           {/* CTA */}
           <div className="mt-16 p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white text-center">
-            <h3 className="text-2xl font-bold mb-3">Not Sure Which Plan Is Right for Your State?</h3>
+            <h3 className="text-2xl font-bold mb-3">Not Sure Which Plan is Right for Your State?</h3>
             <p className="text-slate-300 mb-6 max-w-xl mx-auto">
               Our licensed Medicare agents can compare Medigap plans and rates in your specific state at no cost to you.
             </p>

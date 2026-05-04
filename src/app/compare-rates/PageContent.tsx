@@ -39,35 +39,35 @@ const comparisonData = [
 
 const scenarios = [
   {
-    title: "You want maximum freedom",
+    title: "You Want Maximum Freedom",
     desc: "See any doctor, any hospital, anywhere in the U.S. No networks, no referrals, no prior authorizations.",
     recommendation: "Original Medicare + Medigap + Part D",
     color: "bg-blue-50 border-blue-200",
     icon: Shield,
   },
   {
-    title: "You want the lowest monthly cost",
+    title: "You Want the Lowest Monthly Cost",
     desc: "Keep premiums as low as possible. Willing to use a network of doctors and accept copays when you use services.",
     recommendation: "Medicare Advantage (Part C)",
     color: "bg-teal-50 border-teal-200",
     icon: DollarSign,
   },
   {
-    title: "You want all-in-one simplicity",
+    title: "You Want All-in-one Simplicity",
     desc: "One card, one plan. Hospital, medical, drugs, dental, vision, and hearing all bundled together.",
     recommendation: "Medicare Advantage (Part C)",
     color: "bg-green-50 border-green-200",
     icon: Heart,
   },
   {
-    title: "You have expensive medications",
+    title: "You Have Expensive Medications",
     desc: "You take specialty or brand-name drugs and want to minimize prescription costs with the $2,000 annual cap.",
     recommendation: "Original Medicare + Medigap + Part D (or MA-PD)",
     color: "bg-purple-50 border-purple-200",
     icon: Pill,
   },
   {
-    title: "You travel or live in multiple states",
+    title: "You Travel or Live in Multiple States",
     desc: "You spend time in different states and need coverage that works everywhere, not just locally.",
     recommendation: "Original Medicare + Medigap + Part D",
     color: "bg-amber-50 border-amber-200",

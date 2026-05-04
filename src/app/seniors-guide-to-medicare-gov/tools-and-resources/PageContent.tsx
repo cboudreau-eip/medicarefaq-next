@@ -24,7 +24,7 @@ const tools = [
   },
   {
     icon: FileText,
-    name: "Medicare & You Handbook",
+    name: "Medicare && You Handbook",
     url: "https://www.medicare.gov/medicare-and-you",
     desc: "The official Medicare handbook is updated each fall and mailed to all Medicare beneficiaries. It covers all parts of Medicare, costs, and coverage options for the coming year.",
     steps: [
@@ -104,7 +104,7 @@ return (
                 <Monitor className="text-white" size={28} />
               </div>
               <div>
-                <h1 className="text-3xl lg:text-4xl font-bold mb-3">Medicare.gov Tools &amp; Resources Guide</h1>
+                <h1 className="text-3xl lg:text-4xl font-bold mb-3">Medicare.gov Tools &Amp; Resources Guide</h1>
                 <p className="text-blue-100 text-lg leading-relaxed max-w-2xl">
                   Medicare.gov offers a suite of free tools to help beneficiaries compare plans, manage their coverage, and get answers. This guide walks you through the most useful resources and how to use them effectively.
                 </p>

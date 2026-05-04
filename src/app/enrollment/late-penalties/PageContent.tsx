@@ -31,7 +31,7 @@ const tableOfContents = [
   { id: "overview", label: "Understanding Late Penalties" },
   { id: "part-b-penalty", label: "Part B Late Penalty" },
   { id: "part-d-penalty", label: "Part D Late Penalty" },
-  { id: "part-a-penalty", label: "Part A Late Penalty" },
+  { id: "part-a-penalty", label: "Part a Late Penalty" },
   { id: "irmaa", label: "IRMAA Surcharges" },
   { id: "how-to-avoid", label: "How to Avoid Penalties" },
   { id: "faqs", label: "Frequently Asked Questions" },
@@ -306,7 +306,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                 </p>
 
                 <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 mb-6">
-                  <h3 className="font-semibold text-slate-900 mb-3">Part A Penalty Details</h3>
+                  <h3 className="font-semibold text-slate-900 mb-3">Part a Penalty Details</h3>
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
                       <DollarSign className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" />
@@ -397,7 +397,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <div>
-                        <h3 className="font-semibold text-green-900 mb-1">Enroll During Your Initial Enrollment Period</h3>
+                        <h3 className="font-semibold text-green-900 mb-1">Enroll during Your Initial Enrollment Period</h3>
                         <p className="text-sm text-green-800">Sign up for Parts A, B, and D during your 7-month IEP around your 65th birthday. See our <Link href="/enrollment/turning-65" className="text-green-900 underline font-semibold hover:text-green-700">Turning 65 guide</Link> for details. This is the simplest way to avoid all penalties.</p>
                       </div>
                     </div>
@@ -407,7 +407,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <div>
-                        <h3 className="font-semibold text-green-900 mb-1">Maintain Creditable Coverage If Delaying</h3>
+                        <h3 className="font-semibold text-green-900 mb-1">Maintain Creditable Coverage if Delaying</h3>
                         <p className="text-sm text-green-800">If you're <Link href="/enrollment/working-past-65" className="text-green-900 underline font-semibold hover:text-green-700">working past 65</Link> with employer coverage (20+ employees), keep that coverage active. Get a creditable coverage letter from your employer as proof.</p>
                       </div>
                     </div>
@@ -500,7 +500,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                 </Link>
                 <Link href="/enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
                   <Briefcase className="w-5 h-5 text-red-600 mb-2" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Working Past 65</h3>
+                  <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Working past 65</h3>
                   <p className="text-xs text-slate-500">Employer coverage coordination</p>
                 </Link>
                 <Link href="/enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">

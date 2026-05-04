@@ -50,7 +50,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -150,7 +150,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -182,9 +182,9 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     faqs: [
-      { question: "Does Medicare Part A cover glasses?", answer: "No. Medicare Part A covers inpatient hospital, hospice, and home health care services. Medicare Part B only covers glasses if you receive cataract surgery." },
-      { question: "How much do glasses cost with Medicare?", answer: "If you only have Original Medicare, you will be responsible for 100% of the cost of glasses." },
-      { question: "What kind of glasses will Medicare cover?", answer: "If you recently had cataract surgery, Medicare will cover a basic pair of glasses or contacts. If you add any upgrades to the lenses or frames, you will be responsible for 100% of this cost." },
+      { question: "Does Medicare Part a Cover Glasses?", answer: "No. Medicare Part A covers inpatient hospital, hospice, and home health care services. Medicare Part B only covers glasses if you receive cataract surgery." },
+      { question: "How Much do Glasses Cost with Medicare?", answer: "If you only have Original Medicare, you will be responsible for 100% of the cost of glasses." },
+      { question: "What Kind of Glasses Will Medicare Cover?", answer: "If you recently had cataract surgery, Medicare will cover a basic pair of glasses or contacts. If you add any upgrades to the lenses or frames, you will be responsible for 100% of this cost." },
     ],
     quickReference: [
       { icon: "x", text: "<strong>Original Medicare</strong> does not cover this service" },
@@ -258,7 +258,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -305,7 +305,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Before enrolling",
+          title: "Before Enrolling",
           text: "Verify the plan is available in your area, that your preferred audiologist is in-network, and review the plan's maximum hearing benefit and out-of-pocket costs (copayments, coinsurance, deductibles).",
         },
       },
@@ -333,10 +333,10 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs may include consultations, hearing test, fitting, follow-up adjustments, battery replacements, cleanings, and warranty. Prices as of 2026.",
     },
     exceptionsSection: {
-      title: "Important Exception: Cochlear Implants ARE Covered",
+      title: "Important Exception: Cochlear Implants are Covered",
       items: [
         {
-          title: "Cochlear Implants Are Covered Under Medicare Part B",
+          title: "Cochlear Implants are Covered under Medicare Part B",
           text: "While Medicare does not cover hearing aids, it does cover cochlear implants when a doctor deems them medically necessary and the beneficiary has met specific criteria. Medicare Part B covers cochlear implants, and beneficiaries with a Medicare Supplement plan will likely spend the least out-of-pocket.",
           highlight: "Medicare Part B covers 80% of the approved amount for cochlear implants. You pay the remaining 20% coinsurance after meeting your Part B deductible, unless you have a Medigap plan that covers the coinsurance.",
         },
@@ -378,11 +378,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "Does TRICARE for Life cover hearing aids?", answer: "Hearing aids do not receive coverage from TRICARE for Life for retired service members or their families. However, if you are a former service member, you may be eligible for other government programs to help pay for hearing aids. If you enrolled at a VA Medical Center, you could obtain audiology services and hearing aids at the center for no cost." },
-      { question: "Does Medicare Part D pay for hearing aids?", answer: "Medicare Part D prescription drug plans only provide coverage for prescription medications. These policies do not cover the cost of hearing aids." },
-      { question: "Does Medicare Part B cover hearing aids?", answer: "No part of Medicare will cover hearing aids. Hearing aids are not considered medically necessary by the Centers for Medicare & Medicaid Services (CMS). However, Medicare Part B does cover diagnostic hearing exams when ordered by a doctor and cochlear implants when medically necessary." },
-      { question: "Can I use my Medicare Savings Program for hearing aids?", answer: "Medicare Savings Programs (MSPs) help pay for Medicare premiums, deductibles, and coinsurance. Since Medicare doesn't cover hearing aids, MSPs won't help with hearing aid costs. However, if you qualify for Medicaid, your state may offer hearing aid coverage." },
-      { question: "How often should I replace my hearing aids?", answer: "Most audiologists recommend replacing hearing aids every 3 to 7 years. Technology advances, and your hearing needs may change over time. Some Medicare Advantage plans offer a hearing aid allowance every 1 to 3 years." },
+      { question: "Does TRICARE for Life Cover Hearing Aids?", answer: "Hearing aids do not receive coverage from TRICARE for Life for retired service members or their families. However, if you are a former service member, you may be eligible for other government programs to help pay for hearing aids. If you enrolled at a VA Medical Center, you could obtain audiology services and hearing aids at the center for no cost." },
+      { question: "Does Medicare Part D Pay for Hearing Aids?", answer: "Medicare Part D prescription drug plans only provide coverage for prescription medications. These policies do not cover the cost of hearing aids." },
+      { question: "Does Medicare Part B Cover Hearing Aids?", answer: "No part of Medicare will cover hearing aids. Hearing aids are not considered medically necessary by the Centers for Medicare & Medicaid Services (CMS). However, Medicare Part B does cover diagnostic hearing exams when ordered by a doctor and cochlear implants when medically necessary." },
+      { question: "Can I Use My Medicare Savings Program for Hearing Aids?", answer: "Medicare Savings Programs (MSPs) help pay for Medicare premiums, deductibles, and coinsurance. Since Medicare doesn't cover hearing aids, MSPs won't help with hearing aid costs. However, if you qualify for Medicaid, your state may offer hearing aid coverage." },
+      { question: "How Often Should I Replace My Hearing Aids?", answer: "Most audiologists recommend replacing hearing aids every 3 to 7 years. Technology advances, and your hearing needs may change over time. Some Medicare Advantage plans offer a hearing aid allowance every 1 to 3 years." },
     ],
     quickReference: [
       { icon: "x", text: "<strong>Original Medicare</strong> does not cover hearing aids" },
@@ -413,7 +413,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-chiropractic-care",
     seo: {
-      title: "Medicare Chiropractic Care | Is Coverage Available?",
+      title: "Medicare Chiropractic Care || is Coverage Available?",
       description: "Learn if Medicare covers chiropractic care, how much chiropractic care costs, and Medicare guidelines for chiropractic services.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-chiropractic-care/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Chiropractic-Care.jpg",
@@ -451,7 +451,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Varies",
@@ -482,11 +482,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     faqs: [
-      { question: "Do chiropractors have to accept Medicare?", answer: "Chiropractors may be “participating” or “non-participating,” but they cannot opt-out. A participating provider will bill Medicare and charge you only for the amount Medicare doesn’t pay. A non-participating provider must bill Medicare but may ask you to pay the bill, and you’ll get a reimbursement." },
-      { question: "Does Medicare cover massage therapy?", answer: "Your chiropractor may advise massage therapy to help ease the pain. Medicare doesn’t cover massage therapy." },
-      { question: "What does Medicare pay for a chiropractic adjustment?", answer: "Medicare will cover 80% of the costs for these services since it falls under Part B. If you have a Medigap plan, it will cover the remaining 20%." },
-      { question: "Does Medicare require a referral to see a chiropractor?", answer: "Sometimes, you’ll need to get a referral to obtain treatment. For the most part, if you have Medicare, you won’t need a referral. But, with an Advantage plan, a referral could be a requirement." },
-      { question: "How many chiropractic visits does Medicare allow?", answer: "For Chiropractic care, there is no cap on the number of visits Medicare will cover to correct a subluxation." },
+      { question: "Do Chiropractors Have to Accept Medicare?", answer: "Chiropractors may be “participating” or “non-participating,” but they cannot opt-out. A participating provider will bill Medicare and charge you only for the amount Medicare doesn’t pay. A non-participating provider must bill Medicare but may ask you to pay the bill, and you’ll get a reimbursement." },
+      { question: "Does Medicare Cover Massage Therapy?", answer: "Your chiropractor may advise massage therapy to help ease the pain. Medicare doesn’t cover massage therapy." },
+      { question: "What Does Medicare Pay for a Chiropractic Adjustment?", answer: "Medicare will cover 80% of the costs for these services since it falls under Part B. If you have a Medigap plan, it will cover the remaining 20%." },
+      { question: "Does Medicare Require a Referral to See a Chiropractor?", answer: "Sometimes, you’ll need to get a referral to obtain treatment. For the most part, if you have Medicare, you won’t need a referral. But, with an Advantage plan, a referral could be a requirement." },
+      { question: "How Many Chiropractic Visits Does Medicare Allow?", answer: "For Chiropractic care, there is no cap on the number of visits Medicare will cover to correct a subluxation." },
     ],
     quickReference: [
       { icon: "alert", text: "<strong>Original Medicare</strong> coverage varies by plan" },
@@ -553,7 +553,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Varies",
@@ -584,9 +584,9 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     faqs: [
-      { question: "Does Medicare pay for dry needling?", answer: "Medicare doesn’t cover dry needling, even if its purpose is to relieve chronic lower back pain." },
-      { question: "How much does Medicare reimburse for acupuncture?", answer: "Medicare covers up to 12 acupuncture sessions each 90 days to treat lower back pain." },
-      { question: "What is the average cost of acupuncture treatments?", answer: "According to Thervo, acupuncture costs between $50 and $90, depending on location. The average cost is $75, with a first visit costing more. But, if you have acupuncture that’s not covered, you pay the full price." },
+      { question: "Does Medicare Pay for Dry Needling?", answer: "Medicare doesn’t cover dry needling, even if its purpose is to relieve chronic lower back pain." },
+      { question: "How Much Does Medicare Reimburse for Acupuncture?", answer: "Medicare covers up to 12 acupuncture sessions each 90 days to treat lower back pain." },
+      { question: "What is the Average Cost of Acupuncture Treatments?", answer: "According to Thervo, acupuncture costs between $50 and $90, depending on location. The average cost is $75, with a first visit costing more. But, if you have acupuncture that’s not covered, you pay the full price." },
     ],
     quickReference: [
       { icon: "alert", text: "<strong>Original Medicare</strong> coverage varies by plan" },
@@ -653,7 +653,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -687,12 +687,12 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     faqs: [
-      { question: "Does Medicare cover Inspire for sleep apnea?", answer: "Medicare covers Inspire, an alternative to CPAP machines, if you qualify. Inspire is a small device that implants in the patient’s body. You can discuss qualifications with a trained physician on the inpatient procedure." },
-      { question: "How often does Medicare pay for a sleep study?", answer: "Testing frequency depends significantly on the reasons behind needing a new study. There is no lifetime limit on sleep studies. You may need a new study if you discontinue CPAP therapy or fail during the three-month trial period when testing and trials restart." },
-      { question: "Does Medicare cover SoClean?", answer: "No, Medicare won’t cover CPAP cleaners such as SoClean 2. Even if you have one of the sleep apnea devices covered by Medicare, this coverage does not include the cleansers. Yet, if you have an HSA or FSA account, you can use the funds to cover CPAP cleaning supplies – otherwise, payment is your responsibility." },
-      { question: "Does Medicare cover home sleep studies?", answer: "Home sleep apnea testing is self-administered and some levels receive coverage through Medicare. Along with a physician’s visit, these convenient tests can facilitate a diagnosis of sleep apnea." },
-      { question: "What sleep apnea pumps will Medicare pay for?", answer: "Medicare will cover an implantable pump refill when a physician orders or personally furnishes a pump." },
-      { question: "Does Medicare cover sleep apnea surgery?", answer: "Medicare covers essential surgical procedures. When you meet specific criteria, Medicare should cover the surgery. A Medigap plan covers the surgery balance if Medicare covers uvulopalatopharyngoplasty (UPPP); those with a Medicare Advantage plan need to contact their insurer about coverage. Medicare considers Laser-assisted uvulopalatoplasty (LAUP) ineffective and thus, does not provide coverage." },
+      { question: "Does Medicare Cover Inspire for Sleep Apnea?", answer: "Medicare covers Inspire, an alternative to CPAP machines, if you qualify. Inspire is a small device that implants in the patient’s body. You can discuss qualifications with a trained physician on the inpatient procedure." },
+      { question: "How Often Does Medicare Pay for a Sleep Study?", answer: "Testing frequency depends significantly on the reasons behind needing a new study. There is no lifetime limit on sleep studies. You may need a new study if you discontinue CPAP therapy or fail during the three-month trial period when testing and trials restart." },
+      { question: "Does Medicare Cover SoClean?", answer: "No, Medicare won’t cover CPAP cleaners such as SoClean 2. Even if you have one of the sleep apnea devices covered by Medicare, this coverage does not include the cleansers. Yet, if you have an HSA or FSA account, you can use the funds to cover CPAP cleaning supplies – otherwise, payment is your responsibility." },
+      { question: "Does Medicare Cover Home Sleep Studies?", answer: "Home sleep apnea testing is self-administered and some levels receive coverage through Medicare. Along with a physician’s visit, these convenient tests can facilitate a diagnosis of sleep apnea." },
+      { question: "What Sleep Apnea Pumps Will Medicare Pay For?", answer: "Medicare will cover an implantable pump refill when a physician orders or personally furnishes a pump." },
+      { question: "Does Medicare Cover Sleep Apnea Surgery?", answer: "Medicare covers essential surgical procedures. When you meet specific criteria, Medicare should cover the surgery. A Medigap plan covers the surgery balance if Medicare covers uvulopalatopharyngoplasty (UPPP); those with a Medicare Advantage plan need to contact their insurer about coverage. Medicare considers Laser-assisted uvulopalatoplasty (LAUP) ineffective and thus, does not provide coverage." },
     ],
     quickReference: [
       { icon: "check", text: "<strong>Original Medicare (Part B)</strong> covers sleep studies and CPAP/BiPAP when medically necessary 2014 coverage is standardized nationwide based on clinical criteria, not plan choice" },
@@ -721,12 +721,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-cataract-surgery",
     seo: {
-      title: "Does Medicare Cover Cataract Surgery? - Medicare Cataract Surgery",
+      title: "Does Medicare Cover Cataract Surgery? -- Medicare Cataract Surgery",
       description: "Does Medicare cover cataract surgery? It can, but how you're covered, what is covered, and when all depend on a litany of factors. Learn more.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-cataract-surgery/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Cataract-Surgery.jpg",
     },
-    title: "Does Medicare Cover Cataract Surgery? - Medicare Cataract Surgery",
+    title: "Does Medicare Cover Cataract Surgery? -- Medicare Cataract Surgery",
     subtitle: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
     category: "General Medicare",
     dateUpdated: "November 15, 2024",
@@ -759,7 +759,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Varies",
@@ -790,10 +790,10 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     faqs: [
-      { question: "Does Medicare Pay For Cataract Surgery With Astigmatism?", answer: "No, in most cases, you can’t receive coverage for cataract surgery from Medicare benefits for astigmatism. Here’s why:  In many cases, you can treat astigmatism with glasses or contacts. Therefore, it’s not medically necessary for you to undergo surgery. A key component for any procedure receiving coverage from Medicare benefits. To fix astigmatism through cataract surgery, you’ll likely need to receive a type of lens that is not covered by Medicare benefits. Remember, lenses using advanced technology are not included.  The combination of those who have astigmatism having viable options combined with the inaccessibility to the necessary technology to complete the procedure means that Medicare benefits aren’t really an option.  If you do suffer from astigmatism, glasses or contacts may be an alternative route. Otherwise, you’ll likely need to pay for it out of your own pockets. Even when enrolling in a separate vision plan, it’s unlikely that your vision insurance will offer coverage for this procedure." },
+      { question: "Does Medicare Pay for Cataract Surgery with Astigmatism?", answer: "No, in most cases, you can’t receive coverage for cataract surgery from Medicare benefits for astigmatism. Here’s why:  In many cases, you can treat astigmatism with glasses or contacts. Therefore, it’s not medically necessary for you to undergo surgery. A key component for any procedure receiving coverage from Medicare benefits. To fix astigmatism through cataract surgery, you’ll likely need to receive a type of lens that is not covered by Medicare benefits. Remember, lenses using advanced technology are not included.  The combination of those who have astigmatism having viable options combined with the inaccessibility to the necessary technology to complete the procedure means that Medicare benefits aren’t really an option.  If you do suffer from astigmatism, glasses or contacts may be an alternative route. Otherwise, you’ll likely need to pay for it out of your own pockets. Even when enrolling in a separate vision plan, it’s unlikely that your vision insurance will offer coverage for this procedure." },
       { question: "Is Cataract Surgery Covered by Medicare Advantage Plans?", answer: "Yes, the cost of cataract surgery with Medicare Advantage is covered by your benefits. This is because Medicare Advantage plans must cover the same medical procedures as Original Medicare benefits, including cataract surgery used to implant an intraocular lens when medically necessary.  The key point to remember is when it comes to Medicare Advantage plans, while many enrollees benefit from the coverage, some restrictions come with your policy. Specifically, unlike Medicare Supplement plans, there are networks to be aware of.  This can be a limiting factor for seniors looking to receive healthcare from their preferred providers and use their benefits. If you are looking to help cover the expenses of your cataract surgery or any other Medicare-approved healthcare procedure without the worry of networks, Original Medicare and Medigap benefits may be the right option for you. Enrolling in both Medicare Supplement and Medicare Advantage is not allowed.  Find Medicare Plans in 3 Easy Steps  Let us help you navigate your Medicare journey  Additionally, suppose you find that a Medicare Advantage plan is your best option after speaking with a licensed Medicare agent. In that case, you’ll want to know whether or not your healthcare provider is within your network. You can search for cataract surgeons that accept Medicare using the program’s find and compare tool, but you will still need to refer to your individual Advantage plan to determine whether or not they are in your network." },
       { question: "Does Medicare Cover Multifocal Lens for Cataract Surgery?", answer: "No, multifocal lenses aren’t covered following cataract surgery by Medicare benefits. Remember, when Medicare covers cataract surgery, the type of lens used, standard IOLs, are monofocal. You can correct issues that persist after your surgery with glasses or contacts instead of receiving multifocal lenses through cataract surgery.  Because vision insurance isn’t covering cataract surgery in most cases, multifocal lenses aren’t usually covered through other means either. This is another situation in which, even with Medicare benefits and ancillary coverage, you’ll likely pay for the healthcare service on your own." },
-      { question: "Does Medicare Cover Glasses After Cataract Surgery?", answer: "Yes, Medicare post-cataract glasses are available as part of your benefits. This equates to a one-time benefit following your procedure that includes either a pair of eyeglasses with standard frames or one set of contact lenses. To qualify, your cataract surgery must meet the standards of Medicare and be medically necessary, as glasses are typically not covered by your benefits.  If you require additional pairs, you’ll need to purchase them on your own or through your vision benefits. But Medicare doesn’t provide such coverage. Furthermore, the same applies if you are looking to receive premium frames or lenses.  There are also stipulations that can change from location to location, which you’ll want to be aware of. This is because to use your benefits, you’ll need to understand Medicare post-cataract glasses billing.  Your Medicare benefits allow for you to receive post-cataract glasses, but there are local coverage determinations (LCDs) that may have policy limits you’ll need to abide by. LCDs can even stipulate that if you have cataract surgery and only purchase new lenses but never get new frames, you won’t be able to get new frames later on unless you have a cataract extraction on another eye.  LCDs also dictate that if you undergo cataract surgery on one eye but have the procedure done on another eye later without receiving your glasses or contacts between the two, your Medicare will only cover your eyewear following your second cataract surgery." },
+      { question: "Does Medicare Cover Glasses after Cataract Surgery?", answer: "Yes, Medicare post-cataract glasses are available as part of your benefits. This equates to a one-time benefit following your procedure that includes either a pair of eyeglasses with standard frames or one set of contact lenses. To qualify, your cataract surgery must meet the standards of Medicare and be medically necessary, as glasses are typically not covered by your benefits.  If you require additional pairs, you’ll need to purchase them on your own or through your vision benefits. But Medicare doesn’t provide such coverage. Furthermore, the same applies if you are looking to receive premium frames or lenses.  There are also stipulations that can change from location to location, which you’ll want to be aware of. This is because to use your benefits, you’ll need to understand Medicare post-cataract glasses billing.  Your Medicare benefits allow for you to receive post-cataract glasses, but there are local coverage determinations (LCDs) that may have policy limits you’ll need to abide by. LCDs can even stipulate that if you have cataract surgery and only purchase new lenses but never get new frames, you won’t be able to get new frames later on unless you have a cataract extraction on another eye.  LCDs also dictate that if you undergo cataract surgery on one eye but have the procedure done on another eye later without receiving your glasses or contacts between the two, your Medicare will only cover your eyewear following your second cataract surgery." },
     ],
     quickReference: [
       { icon: "alert", text: "<strong>Original Medicare</strong> coverage varies by plan" },
@@ -862,7 +862,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -967,7 +967,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1066,7 +1066,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1110,7 +1110,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
     
-      { title: "Does Medicare Cover Leqembi? 2026 Coverage & Cost Guide", description: "Learn about Medicare coverage for Leqembi, the FDA-approved Alzheimer's treatment.", slug: "does-medicare-cover-leqembi" },
+      { title: "Does Medicare Cover Leqembi? 2026 Coverage && Cost Guide", description: "Learn about Medicare coverage for Leqembi, the FDA-approved Alzheimer's treatment.", slug: "does-medicare-cover-leqembi" },
       { title: "Does Medicare Cover Telehealth Services?", description: "Learn about Medicare's telehealth coverage, including virtual doctor visits and remote monitoring.", slug: "does-medicare-cover-telehealth" },
       { title: "Medicare Coverage for Botox Treatments", description: "Learn when Medicare covers Botox injections for medical conditions like migraines or spasticity.", slug: "medicare-coverage-for-botox-treatments" },
       { title: "Does Medicare Cover Erectile Dysfunction Medication?", description: "Find out if Medicare Part D covers ED medications like Viagra, Cialis, or Levitra.", slug: "medicare-coverage-erectile-dysfunction" },
@@ -1134,7 +1134,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-ozempic",
     seo: {
-      title: "Does Medicare Cover Ozempic? - Learn About Your Coverage Options",
+      title: "Does Medicare Cover Ozempic? -- Learn about Your Coverage Options",
       description: "Managing type 2 diabetes while navigating Medicare coverage options can feel overwhelming, especially when you need prescription medications like Ozempic. Find out how Medicare covers Ozempic, costs, and savings programs.",
       canonical: "https://www.medicarefaq.com/ozempic-coverage",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -1172,7 +1172,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -1206,10 +1206,10 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     faqs: [
-      { question: "Can I use an Ozempic coupon with Medicare?", answer: "No, Medicare beneficiaries cannot use manufacturer coupons for Ozempic due to federal regulations. The Anti-Kickback Statute prohibits Medicare recipients from using these discount programs. Instead, explore Medicare Part D benefits or patient assistance programs specifically designed for Medicare beneficiaries to reduce your costs." },
-      { question: "Does Medicare cover Ozempic for weight loss?", answer: "No, Medicare does not cover Ozempic for weight loss as it is not approved for this purpose. Coverage is only available if prescribed for type 2 diabetes or other medically necessary conditions. If you need weight management support, discuss alternative covered options with your healthcare provider." },
-      { question: "What is the cost of Ozempic with Medicare?", answer: "Costs vary based on your Medicare Part D plan and its formulary. Ozempic is typically classified as a Tier 3 drug, which may result in higher copays or out-of-pocket expenses compared to generic medications. Most Medicare beneficiaries pay between $25 and $150 per month for Ozempic, but your exact costs depend on your plan’s structure, deductible status, and coverage phase. If you are in the deductible phase, you may pay the full retail price, which can be $900–$1,000 per month, until your deductible is met.For 2026, the standard Part D maximum deductible is $615; plans may use a lower deductible (including $0), but cannot set it higher than $615." },
-      { question: "How can I apply for Ozempic patient assistance with Medicare?", answer: "Check eligibility for the Medicare Extra Help Program through Social Security or your state Medicaid office. You may also qualify for the Novo Nordisk Patient Assistance Program (PAP) if you meet income requirements. Submit required documentation, including proof of income and rejection from other assistance programs if applicable, to complete your application." },
+      { question: "Can I Use an Ozempic Coupon with Medicare?", answer: "No, Medicare beneficiaries cannot use manufacturer coupons for Ozempic due to federal regulations. The Anti-Kickback Statute prohibits Medicare recipients from using these discount programs. Instead, explore Medicare Part D benefits or patient assistance programs specifically designed for Medicare beneficiaries to reduce your costs." },
+      { question: "Does Medicare Cover Ozempic for Weight Loss?", answer: "No, Medicare does not cover Ozempic for weight loss as it is not approved for this purpose. Coverage is only available if prescribed for type 2 diabetes or other medically necessary conditions. If you need weight management support, discuss alternative covered options with your healthcare provider." },
+      { question: "What is the Cost of Ozempic with Medicare?", answer: "Costs vary based on your Medicare Part D plan and its formulary. Ozempic is typically classified as a Tier 3 drug, which may result in higher copays or out-of-pocket expenses compared to generic medications. Most Medicare beneficiaries pay between $25 and $150 per month for Ozempic, but your exact costs depend on your plan’s structure, deductible status, and coverage phase. If you are in the deductible phase, you may pay the full retail price, which can be $900–$1,000 per month, until your deductible is met.For 2026, the standard Part D maximum deductible is $615; plans may use a lower deductible (including $0), but cannot set it higher than $615." },
+      { question: "How Can I Apply for Ozempic Patient Assistance with Medicare?", answer: "Check eligibility for the Medicare Extra Help Program through Social Security or your state Medicaid office. You may also qualify for the Novo Nordisk Patient Assistance Program (PAP) if you meet income requirements. Submit required documentation, including proof of income and rejection from other assistance programs if applicable, to complete your application." },
     ],
     quickReference: [
       { icon: "x", text: "<strong>Original Medicare</strong> does not cover this service" },
@@ -1226,11 +1226,11 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Diabetic Supplies?", description: "Find out which diabetic testing supplies, insulin, and equipment Medicare covers.", slug: "medicare-coverage-for-diabetic-shoes" },
       { title: "Does Medicare Cover Wegovy?", description: "Learn about Medicare coverage for Wegovy (semaglutide) weight loss injections.", slug: "does-medicare-cover-wegovy" },
       { title: "Does Medicare Cover Erectile Dysfunction Medication?", description: "Find out if Medicare Part D covers ED medications like Viagra, Cialis, or Levitra.", slug: "medicare-coverage-erectile-dysfunction" },
-      { title: "What Is a Medicare Part D Formulary?", description: "Understand how Medicare Part D drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
+      { title: "What is a Medicare Part D Formulary?", description: "Understand how Medicare Part D drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
       { title: "Does Medicare Cover Diabetes Supplies?", description: "Find out what diabetes testing supplies and equipment Medicare covers.", slug: "medicare-diabetes" },
       { title: "Does Medicare Cover a Nutritionist?", description: "Learn if Medicare covers nutrition counseling and dietitian services.", slug: "does-medicare-cover-a-nutritionist" },
       { title: "Eliquis Cost With Medicare: What You'll Pay in 2026", description: "Find out how much Eliquis costs under Medicare Part D and how to reduce your copay.", slug: "eliquis-cost-with-medicare" },
-      { title: "Can You Use Manufacturer Coupons With Medicare?", description: "Find out if Medicare beneficiaries can use drug manufacturer coupons and savings cards.", slug: "manufacturers-coupons-and-medicare" },
+      { title: "Can You Use Manufacturer Coupons with Medicare?", description: "Find out if Medicare beneficiaries can use drug manufacturer coupons and savings cards.", slug: "manufacturers-coupons-and-medicare" },
       { title: "Medicare and Mail Order Prescriptions", description: "Find out how Medicare Part D mail-order pharmacy programs work and how to save money.", slug: "medicare-and-mail-order-prescriptions" },],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
@@ -1285,7 +1285,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -1383,7 +1383,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1481,7 +1481,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1530,7 +1530,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Is Medicare Free? Free Parts of Medicare Explained", description: "Understand which parts of Medicare are free and what costs to expect.", slug: "is-medicare-free" },
       { title: "Medicare SilverSneakers Program: Fitness Benefits Explained", description: "Learn about the SilverSneakers fitness program available through many Medicare Advantage plans.", slug: "medicare-silversneakers-program" },
       { title: "Medicare Cost-Sharing Plans Explained", description: "Understand how Medicare cost-sharing works and which plans reduce your out-of-pocket costs.", slug: "medicare-cost-sharing-plans" },
-      { title: "Medicare Coverage for Disabled Individuals Under 65", description: "Find out how people under 65 with disabilities can qualify for Medicare coverage.", slug: "medicare-coverage-for-disabled-under-65" },
+      { title: "Medicare Coverage for Disabled Individuals under 65", description: "Find out how people under 65 with disabilities can qualify for Medicare coverage.", slug: "medicare-coverage-for-disabled-under-65" },
       { title: "Medicare Coverage for Disabled Dependents", description: "Learn whether Medicare can cover your children or dependents with disabilities.", slug: "medicare-coverage-for-my-children" },
       { title: "Your Medicare Rights and Protections", description: "Know your rights as a Medicare beneficiary, including appeal rights and coverage protections.", slug: "your-medicare-rights-and-protections" },
       { title: "Native American Health and Medicare", description: "Learn how Medicare works for Native Americans and what special programs are available.", slug: "native-american-health-and-medicare" },],
@@ -1587,7 +1587,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1652,12 +1652,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "when-should-you-enroll-in-medicare-if-still-working",
     seo: {
-      title: "When Should You Enroll in Medicare If Still Working?",
+      title: "When Should You Enroll in Medicare if Still Working?",
       description: "Discover exactly when you should enroll in Medicare if still working. Learn how employer health coverage coordinates with Medicare and why Medicare Supplement plans offer superior protection.",
       canonical: "https://www.medicarefaq.com/faqs/when-should-you-enroll-in-medicare-if-still-working/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/When-Should-You-Enroll-in-Medicare-If-Still-Working.jpg",
     },
-    title: "When Should You Enroll in Medicare If Still Working?",
+    title: "When Should You Enroll in Medicare if Still Working?",
     subtitle: "Many individuals continue working past 65. Understanding when to enroll in Medicare while still employed is critical to avoid penalties and coverage gaps.",
     category: "Medicare Enrollment",
     dateUpdated: "March 13, 2026",
@@ -1759,7 +1759,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     decisionSection: {
-      title: "Tips For Making the Right Enrollment Decision",
+      title: "Tips for Making the Right Enrollment Decision",
       paragraphs: [
         "To make the best choice, you should start planning several months before your sixty-fifth birthday. Speak with your human resources department to understand exactly how your current plan works with Medicare.",
         "Once you decide to transition to Medicare, securing a Medicare Supplement plan is the premier way to protect your retirement finances. A Medicare Supplement plan steps in to pay the substantial deductibles and coinsurance that Original Medicare leaves behind.",
@@ -1783,15 +1783,15 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Yes, but only if you have creditable employer coverage through a company with 20 or more employees. If your employer has fewer than 20 employees, you should enroll in Part B when first eligible to avoid penalties.",
       },
       {
-        question: "What happens if I miss my enrollment window?",
+        question: "What Happens if I Miss My Enrollment Window?",
         answer: "If you delay Part B without creditable coverage, you'll face a permanent late enrollment penalty of 10% for each full 12-month period you could have had Part B. You'll also have to wait for the General Enrollment Period (January 1 - March 31) with coverage starting July 1.",
       },
       {
-        question: "Does COBRA count as creditable employer coverage?",
+        question: "Does COBRA Count as Creditable Employer Coverage?",
         answer: "No. COBRA and retiree health plans do not count as active employer coverage. If you're on COBRA, you should enroll in Medicare Part B during your Initial Enrollment Period to avoid penalties.",
       },
       {
-        question: "Can I contribute to an HSA after enrolling in Medicare?",
+        question: "Can I Contribute to an HSA after Enrolling in Medicare?",
         answer: "No. Once you enroll in any part of Medicare, including premium-free Part A, you can no longer contribute to a Health Savings Account. You must stop contributions at least 6 months before enrolling.",
       },
     ],
@@ -1809,19 +1809,19 @@ export const coverageArticles: CoverageArticleData[] = [
     
       { title: "Is Medicare Free? Free Parts of Medicare Explained", description: "Understand which parts of Medicare are free and what costs to expect.", slug: "is-medicare-free" },
       { title: "Medicare Annual Notice of Change (ANOC) Letter", description: "Understand what the ANOC letter means and how to use it to review your Medicare plan each year.", slug: "medicare-annual-notice-of-change-letter" },
-      { title: "Medicare Coverage for Disabled Individuals Under 65", description: "Find out how people under 65 with disabilities can qualify for Medicare coverage.", slug: "medicare-coverage-for-disabled-under-65" },
+      { title: "Medicare Coverage for Disabled Individuals under 65", description: "Find out how people under 65 with disabilities can qualify for Medicare coverage.", slug: "medicare-coverage-for-disabled-under-65" },
       { title: "Does Medicare Cover Telehealth Services?", description: "Learn about Medicare's telehealth coverage, including virtual doctor visits and remote monitoring.", slug: "does-medicare-cover-telehealth" },
       { title: "Medicare Coverage for Disabled Dependents", description: "Learn whether Medicare can cover your children or dependents with disabilities.", slug: "medicare-coverage-for-my-children" },
       { title: "Your Medicare Rights and Protections", description: "Know your rights as a Medicare beneficiary, including appeal rights and coverage protections.", slug: "your-medicare-rights-and-protections" },
       { title: "HSA and Medicare: What You Need to Know", description: "Learn how having an HSA affects your Medicare enrollment and what rules apply.", slug: "hsa-and-medicare" },
-      { title: "How to Get on the Medicare Do Not Call List", description: "Stop unwanted Medicare sales calls by registering on the Do Not Call list.", slug: "get-on-the-medicare-do-not-call-list" },
+      { title: "How to Get on the Medicare do not Call List", description: "Stop unwanted Medicare sales calls by registering on the Do Not Call list.", slug: "get-on-the-medicare-do-not-call-list" },
       { title: "Medicare and Employer Coverage: How They Work Together", description: "Learn how Medicare coordinates with employer health insurance and when to enroll.", slug: "medicare-and-employer-coverage" },
       { title: "Can My Employer Pay My Medicare Premiums?", description: "Find out if your employer can reimburse your Medicare Part B or Part D premiums.", slug: "can-my-employer-pay-my-medicare-premiums" },
-      { title: "IRMAA: Why Your Medicare Premiums May Be Higher", description: "Learn about IRMAA surcharges that increase Medicare Part B and D premiums for higher earners.", slug: "surprised-by-higher-medicare-premiums-it-could-be-irmaa" },
+      { title: "IRMAA: Why Your Medicare Premiums May be Higher", description: "Learn about IRMAA surcharges that increase Medicare Part B and D premiums for higher earners.", slug: "surprised-by-higher-medicare-premiums-it-could-be-irmaa" },
       { title: "Medicare and COBRA: How They Interact", description: "Understand how Medicare and COBRA coverage work together and which should be primary.", slug: "medicare-cobra" },
       { title: "Native American Health and Medicare", description: "Learn how Medicare works for Native Americans and what special programs are available.", slug: "native-american-health-and-medicare" },
       { title: "New Medicare Changes: What to Know", description: "Stay up to date on the latest Medicare changes affecting benefits, costs, and enrollment.", slug: "new-medicare-changes" },
-      { title: "What to Know About Medicare at 64", description: "Get ready for Medicare at 65 by learning what you need to do at age 64.", slug: "what-to-know-about-medicare-at-64" },],
+      { title: "What to Know about Medicare at 64", description: "Get ready for Medicare at 65 by learning what you need to do at age 64.", slug: "what-to-know-about-medicare-at-64" },],
     sidebarRelatedLinks: [
       "Medicare Costs in 2026",
       "Medicare Supplement vs Advantage",
@@ -1875,7 +1875,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Are Medicare Advantage Extra Benefits?",
+        planName: "What are Medicare Advantage Extra Benefits?",
         icon: "heart",
         iconColor: "#059669",
         coverageLabel: "Varies by Plan",
@@ -1964,27 +1964,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Do all Medicare Advantage plans include extra benefits?",
+        question: "Do All Medicare Advantage Plans Include Extra Benefits?",
         answer: "No, supplemental benefits vary by plan and are not guaranteed across all Medicare Advantage options. While many plans offer extras like dental, vision, or wellness benefits, some focus primarily on medical coverage with minimal additional perks.",
       },
       {
-        question: "What is the OTC allowance in Medicare Advantage plans?",
+        question: "What is the OTC Allowance in Medicare Advantage Plans?",
         answer: "An OTC allowance is a fixed amount you can spend on over-the-counter health items like vitamins, pain relievers, bandages, or other approved products. Most allowances range from $25 to $100 per quarter.",
       },
       {
-        question: "Do Medicare Advantage dental benefits cover major procedures?",
+        question: "Do Medicare Advantage Dental Benefits Cover Major Procedures?",
         answer: "Most Medicare Advantage plans cover basic dental services like cleanings, exams, and X-rays, but coverage for major procedures like crowns, root canals, or bridges is often limited or excluded entirely.",
       },
       {
-        question: "Can I keep my current dentist with a Medicare Advantage plan?",
+        question: "Can I Keep My Current Dentist with a Medicare Advantage Plan?",
         answer: "You can only keep your current dentist if they participate in your Medicare Advantage plan's dental network. If your dentist is out-of-network, you might face higher costs or receive no coverage.",
       },
       {
-        question: "Can I switch plans if my extra benefits change?",
+        question: "Can I Switch Plans if My Extra Benefits Change?",
         answer: "Yes, you can switch Medicare Advantage plans during the Annual Enrollment Period (October 15 - December 7) each year. You might also be eligible to switch during a Special Enrollment Period.",
       },
       {
-        question: "Are the extra benefits worth it?",
+        question: "Are the Extra Benefits Worth It?",
         answer: "The value depends on your individual needs and how often you'll actually use them. Evaluate the complete plan package, not just the extra perks, including copayments, deductibles, and provider networks.",
       },
     ],
@@ -1996,7 +1996,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Medicare Supplement vs Medicare Advantage", description: "Crucial questions to ask before enrolling in either plan type.", slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling" },
-      { title: "When to Enroll in Medicare If Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
+      { title: "When to Enroll in Medicare if Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
       { title: "Medicare Costs in 2026", description: "Latest premiums, deductibles, and key changes for 2026.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
       { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare.", slug: "does-medicare-cover-dental-implants" },
     ],
@@ -2015,12 +2015,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling",
     seo: {
-      title: "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask Before Enrolling",
+      title: "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask before Enrolling",
       description: "Compare Medicare Supplement vs Medicare Advantage to find the best healthcare coverage. Learn vital questions to ask regarding costs, networks, and long-term stability before enrolling.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-vs-Medicare-Advantage-Crucial-Questions-to-Ask-Before-Enrolling.jpg",
     },
-    title: "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask Before Enrolling",
+    title: "Medicare Supplement vs Medicare Advantage: Crucial Questions to Ask before Enrolling",
     subtitle: "When comparing Medicare Supplement vs Medicare Advantage, the details truly matter. Understanding the fundamental differences between these paths will help you secure the peace of mind you deserve.",
     category: "Medicare Supplement (Medigap)",
     dateUpdated: "March 9, 2026",
@@ -2117,7 +2117,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "If you choose to enroll in a Medicare Advantage plan and wish to switch to a Medicare Supplement plan later, you might have to pass medical underwriting. If you have pre-existing conditions, an insurance company could deny your application.",
       ],
       checklist: {
-        title: "Questions to Ask Before Enrolling",
+        title: "Questions to Ask before Enrolling",
         items: [
           "Do I want the freedom to choose any doctor or hospital?",
           "Can I comfortably handle unexpected medical bills?",
@@ -2131,19 +2131,19 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Can I switch from Medicare Advantage to Medicare Supplement?",
+        question: "Can I Switch from Medicare Advantage to Medicare Supplement?",
         answer: "You can switch, but you may need to pass medical underwriting unless you qualify for a guaranteed issue right. During your initial Medigap Open Enrollment Period, you're guaranteed acceptance regardless of health status.",
       },
       {
-        question: "Which option is better for frequent travelers?",
+        question: "Which Option is Better for Frequent Travelers?",
         answer: "Medicare Supplement plans are significantly better for travelers because they're accepted by any provider nationwide who accepts Original Medicare. Medicare Advantage plans typically only cover routine care within a local network.",
       },
       {
-        question: "Do Medicare Supplement plans cover prescription drugs?",
+        question: "Do Medicare Supplement Plans Cover Prescription Drugs?",
         answer: "No, Medicare Supplement plans do not include prescription drug coverage. You would need to enroll in a separate Medicare Part D plan for drug coverage.",
       },
       {
-        question: "Are Medicare Advantage plans really free?",
+        question: "Are Medicare Advantage Plans Really Free?",
         answer: "While some Medicare Advantage plans have $0 monthly premiums, you still pay your Part B premium. Additionally, you'll face copayments, coinsurance, and deductibles when you use services, which can add up significantly.",
       },
     ],
@@ -2156,7 +2156,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Medicare Supplement vs Advantage for Veterans", description: "Choosing the right coverage as a veteran with VA benefits.", slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage" },
       { title: "Medicare Advantage Extra Benefits", description: "What's really included in Medicare Advantage supplemental benefits.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
-      { title: "When to Enroll If Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
+      { title: "When to Enroll if Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
       { title: "Medicare Costs in 2026", description: "Latest premiums, deductibles, and key changes for 2026.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
     ],
     sidebarRelatedLinks: [
@@ -2235,7 +2235,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Watch Out for Marketing Claims",
+          title: "Watch out for Marketing Claims",
           text: "Medicare Advantage plans often target veterans with attractive advertising. Always look beyond the marketing to understand network restrictions and prior authorization requirements.",
         },
       },
@@ -2259,15 +2259,15 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Should veterans enroll in Medicare if they have VA benefits?",
+        question: "Should Veterans Enroll in Medicare if They Have VA Benefits?",
         answer: "Yes, the Department of Veterans Affairs recommends that veterans enroll in Medicare Part A and Part B. VA benefits are restricted to VA facilities, while Medicare expands your access to civilian healthcare providers nationwide.",
       },
       {
-        question: "Can veterans use both VA healthcare and Medicare?",
+        question: "Can Veterans Use Both VA Healthcare and Medicare?",
         answer: "Yes, veterans can use both VA healthcare and Medicare. VA covers care at VA facilities, while Medicare (with a Supplement plan) covers care at any civilian provider who accepts Medicare.",
       },
       {
-        question: "Why is Medicare Supplement better than Medicare Advantage for veterans?",
+        question: "Why is Medicare Supplement Better than Medicare Advantage for Veterans?",
         answer: "Medicare Supplement plans offer nationwide provider freedom without network restrictions, which complements VA healthcare. Medicare Advantage plans restrict you to local networks, which can conflict with VA care coordination.",
       },
     ],
@@ -2280,7 +2280,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Medicare Supplement vs Medicare Advantage", description: "Crucial questions to ask before enrolling in either plan type.", slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling" },
       { title: "Medicare Costs in 2026", description: "Latest premiums, deductibles, and key changes for 2026.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
-      { title: "When to Enroll If Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
+      { title: "When to Enroll if Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
       { title: "Does Medicare Cover Pre-Existing Conditions?", description: "Learn how Medicare handles pre-existing health conditions.", slug: "does-medicare-cover-pre-existing-conditions" },
     ],
     sidebarRelatedLinks: [
@@ -2339,7 +2339,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Part A Costs in 2026",
+        planName: "Medicare Part a Costs in 2026",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Hospital Coverage",
@@ -2428,23 +2428,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Why did Medicare Part B premiums increase so much for 2026?",
+        question: "Why Did Medicare Part B Premiums Increase so Much for 2026?",
         answer: "The Part B premium increase is driven by rising healthcare costs, including increased spending on physician-administered drugs and overall medical service costs. CMS adjusts premiums annually to cover projected program spending.",
       },
       {
-        question: "What is IRMAA and does it affect me?",
+        question: "What is IRMAA and Does it Affect Me?",
         answer: "IRMAA is the Income-Related Monthly Adjustment Amount, a surcharge added to Part B and Part D premiums for higher-income beneficiaries. It applies if your 2024 MAGI exceeds $109,000 (individual) or $218,000 (married filing jointly).",
       },
       {
-        question: "How can I protect myself from the 20% Part B coinsurance?",
+        question: "How Can I Protect Myself from the 20% Part B Coinsurance?",
         answer: "The most effective protection is a Medicare Supplement (Medigap) plan. Plans like Plan G cover the 20% Part B coinsurance, the Part A deductible, and other gaps, providing predictable monthly costs.",
       },
       {
-        question: "Is there a cap on Medicare Part B out-of-pocket costs?",
+        question: "Is There a Cap on Medicare Part B Out-of-pocket Costs?",
         answer: "No, Original Medicare's Part B coinsurance has no annual out-of-pocket maximum. This means your 20% share of costs is unlimited, which is why many beneficiaries choose a Medigap plan for protection.",
       },
       {
-        question: "What is the maximum out-of-pocket for Medicare Advantage in 2026?",
+        question: "What is the Maximum Out-of-pocket for Medicare Advantage in 2026?",
         answer: "The maximum out-of-pocket limit for Medicare Advantage (Part C) plans in 2026 is $9,250, up from $9,250 in 2025.",
       },
     ],
@@ -2456,7 +2456,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Medicare Supplement vs Medicare Advantage", description: "Crucial questions to ask before enrolling in either plan type.", slug: "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling" },
-      { title: "When to Enroll If Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
+      { title: "When to Enroll if Still Working", description: "Understand your enrollment options if you're still employed.", slug: "when-should-you-enroll-in-medicare-if-still-working" },
       { title: "Medicare Advantage Extra Benefits", description: "What's really included in Medicare Advantage supplemental benefits.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
       { title: "Does Medicare Cover Pre-Existing Conditions?", description: "Learn how Medicare handles pre-existing health conditions.", slug: "does-medicare-cover-pre-existing-conditions" },
     ],
@@ -2475,12 +2475,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-life-alert",
     seo: {
-      title: "Page not found",
+      title: "Page not Found",
       description: "Get clear, unbiased answers to your Medicare questions.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-life-alert/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
-    title: "Does Medicare Cover Life Alert? (2026 Cost & Coverage Guide)",
+    title: "Does Medicare Cover Life Alert? (2026 Cost && Coverage Guide)",
     subtitle: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
     category: "Medicare Coverage",
     dateUpdated: "March 10, 2026",
@@ -2560,7 +2560,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
 {
-        planName: "Life Alert Costs Without Medicare Coverage",
+        planName: "Life Alert Costs without Medicare Coverage",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -2573,23 +2573,23 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
 {
-        question: "Does Medicare cover Life Alert?",
+        question: "Does Medicare Cover Life Alert?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "Do any Medicare plans cover medical alert systems?",
+        question: "Do Any Medicare Plans Cover Medical Alert Systems?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "How much does Life Alert cost per month?",
+        question: "How Much Does Life Alert Cost per Month?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "Are there cheaper alternatives to Life Alert?",
+        question: "Are There Cheaper Alternatives to Life Alert?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "Does the VA cover medical alert systems?",
+        question: "Does the VA Cover Medical Alert Systems?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
     ],
@@ -2644,7 +2644,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "is-medicare-free",
     seo: {
-      title: "Is Medicare Free? | Free Parts of Medicare",
+      title: "Is Medicare Free? || Free Parts of Medicare",
       description: "Part A is free if you pay a minimum of 40 quarters or ten years in Medicare taxes. On the other hand, Parts B through D are not free.",
       canonical: "https://www.medicarefaq.com/faqs/is-medicare-free/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/is-medicare-free.jpg",
@@ -2705,7 +2705,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
 {
-        planName: "Is Medicare Part A Free?",
+        planName: "Is Medicare Part a Free?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -2729,7 +2729,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
 {
-        planName: "Why Are Some Medicare Advantage Plans Free?",
+        planName: "Why are Some Medicare Advantage Plans Free?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -2877,7 +2877,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
 {
-        planName: "Will I automatically be enrolled in Medicare when I turn 65?",
+        planName: "Will I Automatically be Enrolled in Medicare When I Turn 65?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -2947,7 +2947,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
     title: "New Medicare Changes for 2026",
-    subtitle: "Every year, changes come to Medicare. In 2026, Medicare has several new benefits and adjustments to speak of.",
+    subtitle: "Every Year, Changes Come to Medicare. in 2026, Medicare Has Several New Benefits and Adjustments to Speak Of.",
     category: "General Medicare",
     dateUpdated: "February 18, 2026",
     author: {
@@ -3036,19 +3036,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
 {
-        question: "When will 2026 Medicare premiums be announced?",
+        question: "When Will 2026 Medicare Premiums be Announced?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "When will 2026 Medicare Advantage plans be available?",
+        question: "When Will 2026 Medicare Advantage Plans be Available?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "Have the Medicare income limits changed for 2026?",
+        question: "Have the Medicare Income Limits Changed for 2026?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "Is Plan F still available in 2026?",
+        question: "Is Plan F Still Available in 2026?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
     ],
@@ -3576,15 +3576,15 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
 {
-        question: "How does Silver Sneakers compensate the gym for services when we use their facility at no cost us?",
+        question: "How Does Silver Sneakers Compensate the Gym for Services When We Use Their Facility at No Cost Us?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "Why is there no Silver Sneakers eligibility for disabled people under 65?",
+        question: "Why is There No Silver Sneakers Eligibility for Disabled People under 65?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "If I have a supplement plan that includes Silver Sneakers, can I go to any gym that accepts it?",
+        question: "If I Have a Supplement Plan that Includes Silver Sneakers, Can I Go to Any Gym that Accepts It?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
@@ -3592,7 +3592,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
 {
-        question: "Is Silver Sneakers available in all states?",
+        question: "Is Silver Sneakers Available in All States?",
         answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
       },
     ],
@@ -3939,7 +3939,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "why-medicare-advantage-plans-are-bad",
     seo: {
-      title: "Why Medicare Advantage Plans Are Bad: Disadvantages Explained (2026)",
+      title: "Why Medicare Advantage Plans are Bad: Disadvantages Explained (2026)",
       description: "Understand the real disadvantages of Medicare Advantage plans in 2026 — restricted networks, prior authorization denials, high out-of-pocket costs, and annual benefit instability.",
       canonical: "https://medicarefaq.com/why-medicare-advantage-plans-are-bad/",
       ogImage: "https://images.pexels.com/photos/7551633/pexels-photo-7551633.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -4101,7 +4101,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Medicare Advantage vs. Original Medicare + Medigap Comparison",
+      title: "Medicare Advantage vs. Original Medicare ++ Medigap Comparison",
       headers: ["Feature", "Medicare Advantage", "Original Medicare + Medigap"],
       rows: [
         { "Feature": "Provider Access", "Medicare Advantage": "Network-restricted (HMO/PPO)", "Original Medicare + Medigap": "Any Medicare-accepting provider nationwide" },
@@ -4138,12 +4138,12 @@ export const coverageArticles: CoverageArticleData[] = [
           description: "CMS audit reports documented widespread inappropriate denials of medically necessary care across multiple major MA carriers. CMS now requires plans to respond to authorization requests within defined timeframes and use only CMS-approved clinical criteria.",
         },
         {
-          title: "Star Ratings System — Check Before Enrolling",
+          title: "Star Ratings System —— Check before Enrolling",
           status: "Passed" as const,
           description: "CMS evaluates each plan annually on a 1–5 star scale across quality measures including chronic condition management, member experience, care delays, and complaint handling. A plan with low ratings reflects real patterns of member dissatisfaction and denied care.",
         },
         {
-          title: "Risk Adjustment / Capitation Model",
+          title: "Risk Adjustment // Capitation Model",
           status: "Proposed" as const,
           description: "CMS pays MA insurers a fixed monthly amount per enrollee adjusted for health status. Critics argue this model incentivizes plans to document diagnoses aggressively while restricting services — the profit margin lives in the gap between revenue and costs paid out.",
         },
@@ -4156,7 +4156,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "The most important thing you can do before choosing any Medicare plan is to look beyond the premium. Read the plan documents. Check the Star Rating. Verify that your doctors are in-network. Understand what prior authorization requirements apply to services you're likely to need.",
       ],
       checklist: {
-        title: "Questions to Ask Before Enrolling in Any MA Plan",
+        title: "Questions to Ask before Enrolling in Any MA Plan",
         type: "warning" as const,
         items: [
           "Are my current doctors and specialists in-network?",
@@ -4170,31 +4170,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What are the biggest complaints about Medicare Advantage plans?",
+        question: "What are the Biggest Complaints about Medicare Advantage Plans?",
         answer: "The most common complaints center on restrictive provider networks, frequent prior authorization denials for medically necessary care, high out-of-pocket costs, and annual changes to benefits and drug formularies. These issues often surface most acutely for enrollees managing serious or chronic health conditions.",
       },
       {
-        question: "Why do doctors dislike Medicare Advantage plans?",
+        question: "Why do Doctors Dislike Medicare Advantage Plans?",
         answer: "Physicians frequently cite the heavy administrative burden of prior authorizations, payment delays, and restrictions on their ability to refer patients to specialists. Many doctors feel these requirements interfere directly with clinical decision-making and the quality of care they can deliver.",
       },
       {
-        question: "Can I switch from Medicare Advantage to Original Medicare + Medigap?",
+        question: "Can I Switch from Medicare Advantage to Original Medicare + Medigap?",
         answer: "Yes, but the timing is critical. Returning to Original Medicare during the Annual Enrollment Period is straightforward, but adding a Medigap plan outside your initial open enrollment period typically requires passing medical underwriting. If you've developed health conditions since you first enrolled, you could be denied Medigap coverage or charged significantly higher premiums in most states.",
       },
       {
-        question: "Are \"zero-dollar premium\" Medicare Advantage plans truly free?",
+        question: 'Are "Zero-Dollar Premium" Medicare Advantage Plans Truly Free?',
         answer: "No. A $0 premium means you pay no additional monthly fee beyond your Part B premium, but you'll still owe copayments, coinsurance, and deductibles every time you use covered services. In a year with serious illness, those costs can accumulate well into the thousands.",
       },
       {
-        question: "How do prior authorizations affect my healthcare?",
+        question: "How do Prior Authorizations Affect My Healthcare?",
         answer: "Prior authorizations can delay or deny access to medically necessary tests, treatments, or specialist visits — sometimes for weeks. These delays aren't administrative inconveniences; for conditions requiring timely intervention, they can directly affect health outcomes.",
       },
       {
-        question: "What is the Medicare Star Ratings System and why is it important?",
+        question: "What is the Medicare Star Ratings System and Why is it Important?",
         answer: "CMS rates every Medicare Advantage plan annually from 1 to 5 stars based on quality of care, member satisfaction, chronic condition management, and complaint rates. A lower-rated plan is a documented signal of member problems, not just a performance metric.",
       },
       {
-        question: "Do Medicare Advantage plans cover travel outside my service area?",
+        question: "Do Medicare Advantage Plans Cover Travel outside My Service Area?",
         answer: "Most MA plans cover only emergency or urgent care outside their defined service area. Routine care, specialist visits, and scheduled procedures are typically not covered when you're traveling or spending extended time in a different location — a significant limitation for seniors who travel frequently or maintain residences in multiple states.",
       },
     ],
@@ -4244,7 +4244,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medigap-vs-medicare-advantage",
     seo: {
-      title: "Medigap vs. Medicare Advantage: Which Is Right for You?",
+      title: "Medigap vs. Medicare Advantage: Which is Right for You?",
       description: "Compare Medigap (Medicare Supplement) and Medicare Advantage plans side by side. Learn the key differences in costs, coverage, and flexibility to choose the right plan.",
       canonical: "https://www.medicarefaq.com/faqs/medigap-vs-medicare-advantage/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -4316,7 +4316,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Let us help you navigate your Medicare journey",
         ],
       },{
-        planName: "What is the Difference Between Medicare Supplement vs. Medicare Advantage?",
+        planName: "What is the Difference between Medicare Supplement vs. Medicare Advantage?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -4349,7 +4349,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "In contrast, Medicare Advantage plans are the best option if you hope to save on monthly premiums and receive additional benefits while accepting responsibility for additional out-of-pocket costs at the doctor’s office.",
         ],
       },{
-        planName: "How Do I Choose Between Medicare Advantage and Medicare Supplement Plans?",
+        planName: "How do I Choose between Medicare Advantage and Medicare Supplement Plans?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -4494,7 +4494,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "3.  [What is a Special Enrollment Period for Medicare Part B?]()",
         ],
       },{
-        planName: "What Is a Medicare Special Enrollment Period?",
+        planName: "What is a Medicare Special Enrollment Period?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -4524,7 +4524,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "If you wait to tell your carrier until after you move, your SEP begins the month your carrier was notified and will last two more months afterward. Anyone who doesn’t enroll in a new Medicare Advantage or Part D plan using an SEP will rely on Original Medicare by default.",
         ],
       },{
-        planName: "You’ve Lost Your Coverage From an Employer",
+        planName: "You’ve Lost Your Coverage from an Employer",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -4588,12 +4588,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-advantage-open-enrollment-period",
     seo: {
-      title: "Medicare Advantage Open Enrollment Period | MAOEP",
+      title: "Medicare Advantage Open Enrollment Period || MAOEP",
       description: "The Medicare Advantage Open Enrollment Period runs annually between January 1 and March 31. Find what changes you can make to your MA plans.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-advantage-open-enrollment-period/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-advantage-open-enrollment-period.jpeg",
     },
-    title: "Medicare Advantage Open Enrollment Period | MAOEP",
+    title: "Medicare Advantage Open Enrollment Period || MAOEP",
     subtitle: "The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have Medicare Advantage plans can make one change to their coverage.",
     category: "Medicare Enrollment",
     dateUpdated: "February 17, 2026",
@@ -4660,7 +4660,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "If you are unhappy with your current Medicare Advantage plan, the Medicare Advantage Open Enrollment Period (MAOEP) is an annual window that allows you to make a one-time change to your existing [Medicare Advantage coverage](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included).",
         ],
       },{
-        planName: "Do you have to go through underwriting if you switch during the MAOEP period?",
+        planName: "Do You Have to Go through Underwriting if You Switch during the MAOEP Period?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -5031,7 +5031,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Union-sponsored health plans",
         ],
       },{
-        planName: "Examples of Coverage NOT Creditable for Medicare Part B",
+        planName: "Examples of Coverage not Creditable for Medicare Part B",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -5052,7 +5052,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "In some cases, coverage may be creditable for Medicare Part D but not creditable for Medicare Part B. Thus, it is easier to delay Part D without being subject to the late enrollment penalty.",
         ],
       },{
-        planName: "Examples of coverage that could be creditable for Medicare Part D:",
+        planName: "Examples of Coverage that Could be Creditable for Medicare Part D:",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -5219,7 +5219,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "If you do not enroll in Medicare Part D when you first become eligible, and you don’t have other creditable drug coverage, you may face a [late enrollment penalty](/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines).",
         ],
       },{
-        planName: "Is There a Medicare Part D Penalty Under 65?",
+        planName: "Is There a Medicare Part D Penalty under 65?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -5279,7 +5279,7 @@ export const coverageArticles: CoverageArticleData[] = [
         slug: "does-medicare-cover-sleep-apnea",
       },
     
-      { title: "What Is a Medicare Part D Formulary?", description: "Understand how Medicare Part D drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
+      { title: "What is a Medicare Part D Formulary?", description: "Understand how Medicare Part D drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
       { title: "Medicare Part D Six Protected Classes", description: "Learn about the six drug classes that Medicare Part D plans must cover without restriction.", slug: "medicare-part-d-six-protected-classes" },
       { title: "Eliquis Cost With Medicare: What You'll Pay in 2026", description: "Find out how much Eliquis costs under Medicare Part D and how to reduce your copay.", slug: "eliquis-cost-with-medicare" },
       { title: "Medicare Part D vs. Part B Vaccines: What's Covered Where", description: "Understand which vaccines Medicare Part B covers versus Part D and how to get them.", slug: "medicare-part-d-part-b-vaccines" },],
@@ -5359,7 +5359,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
 {
-        planName: "Reviewed By: Ashlee Zareczny",
+        planName: "Reviewed by: Ashlee Zareczny",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -5379,7 +5379,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Coinsurance",
         ],
       },{
-        planName: "What Are the Top Medicare Cost-Sharing Plans for 2026?",
+        planName: "What are the Top Medicare Cost-Sharing Plans for 2026?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -5581,7 +5581,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Emergency room visits",
         ],
       },{
-        planName: "Do Medicare Supplement Plans have an Out-of-Pocket Maximum?",
+        planName: "Do Medicare Supplement Plans Have an Out-of-Pocket Maximum?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "See Details",
@@ -5655,12 +5655,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-annual-enrollment-period",
     seo: {
-      title: "Medicare Annual Enrollment Period (AEP) | Medicare Fall Open Enrollment Period",
+      title: "Medicare Annual Enrollment Period (AEP) || Medicare Fall Open Enrollment Period",
       description: "The Medicare Annual Enrollment Period, also known as the Medicare Fall Open Enrollment Period, runs each year from October 15 to December 7. Learn how you can benefit.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-annual-enrollment-period/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/image-1-1.png",
     },
-    title: "Medicare Annual Enrollment Period (AEP) | Medicare Fall Open Enrollment Period",
+    title: "Medicare Annual Enrollment Period (AEP) || Medicare Fall Open Enrollment Period",
     subtitle: "The Medicare Annual Enrollment Period (AEP) occurs from October 15 to December 7 annually. If you have a Medicare Advantage plan or Medicare Part D Prescription Drug Plan, you can make changes that go into effect next year. You can also sign up for Part D if you haven’t already.",
     category: "Medicare Enrollment",
     dateUpdated: "February 13, 2026",
@@ -5820,7 +5820,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -5872,7 +5872,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Check your network before scheduling",
+          title: "Check Your Network before Scheduling",
           text: "Call your Medicare Advantage plan before your biopsy to confirm the performing physician, facility, and lab are all in-network. Out-of-network services can result in significantly higher cost-sharing or no coverage at all.",
         },
       },
@@ -5901,7 +5901,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Estimated Biopsy Costs Under Medicare (2026)",
+      title: "Estimated Biopsy Costs under Medicare (2026)",
       headers: ["Biopsy Setting", "Medicare Part", "What Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -5929,7 +5929,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Part A deductible: $1,736 per benefit period. Actual costs vary by provider and location.",
     },
     exceptionsSection: {
-      title: "Important: Biopsies Must Be Medically Necessary",
+      title: "Important: Biopsies Must be Medically Necessary",
       items: [
         {
           title: "What 'Medically Necessary' Means for Biopsies",
@@ -5944,27 +5944,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover a prostate biopsy?",
+        question: "Does Medicare Cover a Prostate Biopsy?",
         answer: "Yes. Medicare covers prostate biopsies when they are medically necessary. If you are 50 or older, Medicare Part B covers an annual prostate-specific antigen (PSA) screening test. If your PSA levels are elevated, your doctor may order a biopsy to check for cancer. That biopsy is covered under Part B as an outpatient service, and you pay 20% coinsurance after your Part B deductible.",
       },
       {
-        question: "Does Medicare cover a breast biopsy?",
+        question: "Does Medicare Cover a Breast Biopsy?",
         answer: "Yes. Medicare covers breast biopsies when medically necessary. Medicare Part B covers annual screening mammograms for women 40 and older. If a mammogram or manual breast exam reveals an abnormality, your doctor may order a biopsy. The biopsy is covered under Part B, and you pay 20% coinsurance after your deductible. With a Medigap plan, your out-of-pocket cost may be reduced to just the annual Part B deductible.",
       },
       {
-        question: "Does Medicare cover a bone marrow biopsy?",
+        question: "Does Medicare Cover a Bone Marrow Biopsy?",
         answer: "Yes. Bone marrow biopsies are used to diagnose blood cancers such as leukemia, lymphoma, and multiple myeloma. Medicare covers bone marrow biopsies as long as they are medically necessary. Coverage follows the same rules as other biopsies \u2014 Part B for outpatient procedures, Part A for inpatient hospital stays.",
       },
       {
-        question: "Does Medicare cover a skin biopsy?",
+        question: "Does Medicare Cover a Skin Biopsy?",
         answer: "Yes. Medicare covers skin biopsies when your doctor orders them to investigate abnormal growths or lesions that may indicate skin cancer. Coverage falls under Medicare Part B for outpatient procedures. Medicare also covers treatment for skin cancer once diagnosed.",
       },
       {
-        question: "Does Medicare cover an endoscopic biopsy?",
+        question: "Does Medicare Cover an Endoscopic Biopsy?",
         answer: "Yes. Endoscopic biopsies \u2014 where a thin tube is inserted through an incision or body opening to collect tissue from internal organs \u2014 are covered by Medicare. This includes biopsies of the lung, bladder, colon, and other internal tissue. Coverage applies whether the procedure is performed as an outpatient (Part B) or during a hospital inpatient stay (Part A).",
       },
       {
-        question: "Does Medicare cover needle biopsies?",
+        question: "Does Medicare Cover Needle Biopsies?",
         answer: "Yes. Medicare covers both types of needle biopsies: fine needle aspiration (FNA) and core needle biopsy. These procedures involve inserting a needle to collect cells or tissue from muscles, bones, or organs. Coverage is the same as for other biopsy types, and Medicare also covers imaging guidance (such as CT or ultrasound) used during the procedure.",
       },
     ],
@@ -6037,7 +6037,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -6086,7 +6086,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Verify network status before your appointment",
+          title: "Verify Network Status before Your Appointment",
           text: "Call your Medicare Advantage plan before scheduling your echocardiogram. Confirm the cardiologist, the imaging facility, and any interpreting physicians are all in-network to avoid unexpected bills.",
         },
       },
@@ -6183,31 +6183,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover a routine echocardiogram?",
+        question: "Does Medicare Cover a Routine Echocardiogram?",
         answer: "No \u2014 Medicare does not cover routine echocardiograms. An echocardiogram is not a preventive screening benefit under Medicare Part B. Your doctor must document a medical reason for the test (such as chest pain, heart failure monitoring, or suspected valve disease) for Medicare to cover it. If the test is ordered without a documented clinical indication, Medicare may deny the claim.",
       },
       {
-        question: "How much does an echocardiogram cost with Medicare?",
+        question: "How Much Does an Echocardiogram Cost with Medicare?",
         answer: "After you meet your $283 Part B deductible (2026), Medicare pays 80% of the Medicare-approved amount for the echocardiogram, and you pay the remaining 20%. The actual dollar amount depends on the type of echocardiogram and where it is performed. A Medigap plan (such as Plan G) can cover that 20%, leaving you responsible only for the annual deductible.",
       },
       {
-        question: "How much does an EKG cost with Medicare?",
+        question: "How Much Does an EKG Cost with Medicare?",
         answer: "The average cost of an EKG is approximately $205. After meeting your $283 Part B deductible, Medicare covers 80% of the approved amount and you pay 20%. For the one-time screening EKG at your Welcome to Medicare visit, there is no cost to you \u2014 Medicare covers it in full.",
       },
       {
-        question: "Does Medicare cover heart scans?",
+        question: "Does Medicare Cover Heart Scans?",
         answer: "Yes. Medicare Part B covers tests used to diagnose and monitor heart disease, including cardiac CT scans and coronary calcium scoring when medically necessary. Coverage follows the same rules as other diagnostic tests \u2014 your doctor must document the medical reason for ordering the scan.",
       },
       {
-        question: "Does Medicare cover a pre-op EKG?",
+        question: "Does Medicare Cover a Pre-op EKG?",
         answer: "Yes. Medicare covers pre-operative EKGs when they are medically necessary. Part B covers the EKG if you are an outpatient, while Part A covers it if you are admitted as a hospital inpatient. Your surgeon or anesthesiologist typically orders pre-op cardiac testing as part of your surgical clearance.",
       },
       {
-        question: "Does Medicare cover a Holter monitor?",
+        question: "Does Medicare Cover a Holter Monitor?",
         answer: "Yes. A Holter monitor is a wearable device that continuously records your heart rhythm for 24 to 48 hours (or longer for extended monitors). Medicare Part B covers Holter monitors and cardiac event monitors when your doctor orders them to diagnose or monitor arrhythmias or other heart rhythm disorders.",
       },
       {
-        question: "Does Medicare cover atrial fibrillation treatment?",
+        question: "Does Medicare Cover Atrial Fibrillation Treatment?",
         answer: "Yes. Medicare covers diagnosis and treatment for atrial fibrillation (AFib), including echocardiograms, EKGs, Holter monitors, medications, cardioversion, and catheter ablation when medically necessary. See our full guide on Medicare coverage for AFib for details.",
       },
     ],
@@ -6223,7 +6223,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Atrial Fibrillation?", description: "Learn about Medicare's coverage for AFib diagnosis, monitoring, and treatment.", slug: "does-medicare-cover-atrial-fibrillation-afib" },
       { title: "Medicare Coverage for Cardiovascular Disease", description: "Explore what Medicare covers for heart disease prevention, diagnosis, and treatment.", slug: "medicare-coverage-for-cardiovascular-disease" },
       { title: "Medicare Preventive Services", description: "Discover the free preventive screenings and services available under Medicare Part B.", slug: "medicare-preventive-services" },
-      { title: "What Is a Medicare Supplement Plan?", description: "Learn how Medigap plans can reduce your out-of-pocket costs for covered services.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+      { title: "What is a Medicare Supplement Plan?", description: "Learn how Medigap plans can reduce your out-of-pocket costs for covered services.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
     ],
     sidebarRelatedLinks: [
       "Does Medicare Cover Atrial Fibrillation",
@@ -6280,7 +6280,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -6310,7 +6310,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Screening Colonoscopy Anesthesia Is Free",
+          title: "Screening Colonoscopy Anesthesia is Free",
           text: "Medicare pays 100% of anesthesia costs for preventive screening colonoscopies. There is no deductible or coinsurance for this service.",
         },
         costNote: "For most outpatient procedures, you pay 20% of the Medicare-approved amount for anesthesia after your $283 Part B deductible (2026). For inpatient procedures, anesthesia is included in your Part A hospital coverage.",
@@ -6366,7 +6366,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Estimated Anesthesia Costs Under Medicare (2026)",
+      title: "Estimated Anesthesia Costs under Medicare (2026)",
       headers: ["Procedure Type", "Medicare Part", "What Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -6401,7 +6401,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Part A deductible: $1,736 per benefit period. Anesthesia billing uses a conversion factor formula based on procedure complexity, time, and location.",
     },
     exceptionsSection: {
-      title: "Important: When Medicare Does NOT Cover Anesthesia",
+      title: "Important: When Medicare Does not Cover Anesthesia",
       items: [
         {
           title: "Cosmetic and Elective Procedures",
@@ -6419,13 +6419,13 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     alternativesSection: {
-      title: "How Anesthesia Billing Works Under Medicare",
+      title: "How Anesthesia Billing Works under Medicare",
       paragraphs: [
         "Medicare reimburses anesthesiologists using a specific formula rather than a flat fee. Understanding this formula can help you anticipate costs. The formula multiplies a conversion factor (which varies by geographic location) by the sum of three components: a base rate that reflects the complexity of the procedure, the time the anesthesiologist spends caring for you, and any modifying factors such as your overall health or emergency circumstances.",
         "Because of this formula-based approach, anesthesia costs can vary significantly. A 30-minute procedure will cost less than a five-hour surgery. Costs may be lower in smaller cities compared to major metropolitan areas. And anesthesia for a complex operation with many potential complications will be more expensive than anesthesia for a routine procedure.",
       ],
       checklist: {
-        title: "Factors That Affect Your Anesthesia Cost",
+        title: "Factors that Affect Your Anesthesia Cost",
         type: "info",
         items: [
           "Type and complexity of the surgical procedure",
@@ -6441,31 +6441,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover anesthesia for colonoscopy?",
+        question: "Does Medicare Cover Anesthesia for Colonoscopy?",
         answer: "Yes. Medicare pays 100% of anesthesia costs for preventive screening [colonoscopies](/faqs/medicare-coverage-for-colonoscopy-screenings) with no deductible or coinsurance. For diagnostic colonoscopies (when you have symptoms or a history of polyps), standard Part B cost-sharing applies: Medicare pays 80% and you pay 20% after your $283 deductible.",
       },
       {
-        question: "Does Medicare cover anesthesia for cataract surgery?",
+        question: "Does Medicare Cover Anesthesia for Cataract Surgery?",
         answer: "Yes. Medicare Part B covers [cataract surgery](/faqs/does-medicare-cover-cataract-surgery), including the local anesthetic used to numb the eye area before the procedure. Both traditional and laser cataract surgery anesthesia are covered. You pay 20% coinsurance after your Part B deductible unless you have supplemental coverage.",
       },
       {
-        question: "Does Medicare cover anesthesia for dental surgery?",
+        question: "Does Medicare Cover Anesthesia for Dental Surgery?",
         answer: "Only in limited circumstances. Medicare does not cover routine [dental care](/faqs/what-dental-expenses-does-medicare-cover), so dental anesthesia is generally not covered. However, if your dental procedure is secondary to another Medicare-covered condition (such as jaw cancer treatment or a broken jaw), Medicare may cover the anesthesia. Some Medicare Advantage plans with dental benefits may also cover dental anesthesia.",
       },
       {
-        question: "Does Medicare cover anesthesia for endoscopy?",
+        question: "Does Medicare Cover Anesthesia for Endoscopy?",
         answer: "Yes. Medicare Part B covers anesthesia for medically necessary endoscopy procedures. You pay 20% coinsurance after your $283 Part B deductible. For further coverage, a Medigap plan can cover the remaining coinsurance.",
       },
       {
-        question: "Does Medicare cover anesthesia for pain management?",
+        question: "Does Medicare Cover Anesthesia for Pain Management?",
         answer: "It depends on the procedure. Medicare covers anesthesia for pain management when it is connected to a Medicare-approved procedure and is medically necessary. However, Medicare does not cover anesthesia for epidural steroid injections, as CMS considers it rarely necessary for those procedures.",
       },
       {
-        question: "Does Medicare pay for anesthesia for bone marrow biopsy?",
+        question: "Does Medicare Pay for Anesthesia for Bone Marrow Biopsy?",
         answer: "Yes. Medicare covers all types of [biopsies](/faqs/does-medicare-cover-a-biopsy), including bone marrow biopsies. These are usually performed in a doctor's office or clinic using local anesthesia, which is covered under Medicare Part B.",
       },
       {
-        question: "How much does general anesthesia cost with Medicare?",
+        question: "How Much Does General Anesthesia Cost with Medicare?",
         answer: "Anesthesia costs vary based on the procedure's complexity, duration, and your location. With Original Medicare alone, you pay 20% of the Medicare-approved amount after your $283 Part B deductible. With a Medigap Plan G, your only cost is the annual deductible. For example, if anesthesia is billed at $1,000, Medicare pays $800 and Plan G covers the remaining $200.",
       },
     ],
@@ -6492,7 +6492,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Does Medicare Cover a Biopsy",
     ],
     ctaBanner: {
-      title: "Concerned About Anesthesia Costs?",
+      title: "Concerned about Anesthesia Costs?",
       text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for anesthesia and surgical procedures. Compare plans in your area for free.",
     },
     relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-cataract-surgery", "medicare-coverage-for-colonoscopy-screenings", "does-medicare-cover-a-biopsy", "does-medicare-cover-gender-reassignment-surgery"],
@@ -6571,7 +6571,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Inhaler costs under Part D depend on the drug tier: Tier 1-2 generics may cost $0\u2013$15 per fill, while Tier 3-4 brand-name inhalers may cost $30\u2013$100+ per fill. Costs vary by plan.",
       },
       {
-        planName: "Medicare Part B (Outpatient & DME)",
+        planName: "Medicare Part B (Outpatient && DME)",
         icon: "shield",
         iconColor: "#2563EB",
         coverageLabel: "Partial",
@@ -6624,7 +6624,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Common Inhaler Coverage Under Medicare Part D (2026)",
+      title: "Common Inhaler Coverage under Medicare Part D (2026)",
       headers: ["Inhaler", "Generic Available?", "Typical Drug Tier", "Part D Plan Coverage Rate", "Estimated Cost Per Fill"],
       rows: [
         {
@@ -6680,7 +6680,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     alternativesSection: {
-      title: "Ways to Save on Asthma Inhalers Under Medicare",
+      title: "Ways to Save on Asthma Inhalers under Medicare",
       paragraphs: [
         "Inhaler costs can add up quickly, especially if you use both a rescue inhaler and a maintenance inhaler. There are several strategies to reduce your out-of-pocket costs for asthma medications under Medicare.",
         "Those with chronic asthma may also be eligible for [chronic care management](/faqs/chronic-care-management) services through Medicare, which provides ongoing coordination of your care and can help ensure you are getting the most cost-effective treatment plan.",
@@ -6702,31 +6702,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover Albuterol inhalers?",
+        question: "Does Medicare Cover Albuterol Inhalers?",
         answer: "Yes. About 53% of Medicare Part D plans cover Albuterol, which is a common rescue inhaler. Albuterol is typically placed on Tier 2 (Preferred Generic) of a plan's formulary, making it one of the more affordable inhaler options. Check your specific plan's formulary to confirm coverage and pricing.",
       },
       {
-        question: "Does Medicare cover Ventolin?",
+        question: "Does Medicare Cover Ventolin?",
         answer: "About 50% of Medicare Part D plans cover Ventolin, which is a brand-name version of Albuterol. Ventolin is typically considered a Tier 2 drug. Since generic Albuterol is widely available and often cheaper, your doctor may recommend the generic version to save money.",
       },
       {
-        question: "Does Medicare cover Symbicort?",
+        question: "Does Medicare Cover Symbicort?",
         answer: "Most Medicare Part D plans do not cover Symbicort. However, you should contact your carrier directly to check your specific plan. Manufacturer coupons for Symbicort may be available online to help reduce costs. Your doctor may also be able to prescribe a covered alternative.",
       },
       {
-        question: "Does Medicare cover Flovent?",
+        question: "Does Medicare Cover Flovent?",
         answer: "Yes. About 93% of Medicare Part D plans cover Flovent, making it one of the most widely covered maintenance inhalers. Flovent is typically classified as a Tier 3 (Preferred Brand) drug. Generic versions are now available, which may be placed on lower tiers with lower costs.",
       },
       {
-        question: "Does Medicare cover COPD inhalers?",
+        question: "Does Medicare Cover COPD Inhalers?",
         answer: "Yes. Medicare Part D covers both [COPD](/faqs/does-medicare-cover-copd) inhalers and bronchodilators. These medications help open airways and make breathing easier. Coverage and costs depend on your plan's formulary and the specific medication prescribed.",
       },
       {
-        question: "Does Medicare cover nebulizers for asthma?",
+        question: "Does Medicare Cover Nebulizers for Asthma?",
         answer: "Yes. Medicare Part B covers [nebulizer machines](/faqs/will-medicare-pay-for-a-nebulizer-machine) as durable medical equipment (DME) when prescribed by your doctor. Part B also covers the medications used in the nebulizer. You pay 20% of the Medicare-approved amount after your $283 Part B deductible.",
       },
       {
-        question: "What pulmonary treatments does Medicare cover?",
+        question: "What Pulmonary Treatments Does Medicare Cover?",
         answer: "Medicare Part B covers outpatient pulmonary rehabilitation for chronic conditions including asthma, COPD, cystic fibrosis, emphysema, pulmonary fibrosis, sarcoidosis, and post-lung resection recovery. Programs typically last 6\u20138 weeks and include exercise training, education, health management, mental health counseling, and group support.",
       },
     ],
@@ -6799,7 +6799,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts A & B)",
+        planName: "Original Medicare (Parts a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -6849,7 +6849,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Verify your cardiologist is in-network",
+          title: "Verify Your Cardiologist is In-network",
           text: "Medicare Advantage plans require you to use in-network providers for the lowest costs. If your cardiologist or ablation specialist is out-of-network, your costs could be significantly higher. Always verify before scheduling.",
         },
         costNote: "Costs vary by plan. Most Advantage plans have lower premiums but higher out-of-pocket costs for specialist visits and procedures compared to Medigap.",
@@ -6935,37 +6935,37 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover cardiac ablation for AFib?",
+        question: "Does Medicare Cover Cardiac Ablation for AFib?",
         answer:
           "Yes. Catheter ablation is covered under Part A for inpatient procedures and Part B for outpatient procedures. It is a minimally invasive procedure that blocks the abnormal electrical signals causing irregular heart rhythms. Costs can range from $16,000–$22,000, with Medicare covering 80% of the approved amount after your deductible.",
       },
       {
-        question: "Does Medicare cover cardioversion?",
+        question: "Does Medicare Cover Cardioversion?",
         answer:
           "Yes. Medicare Part A covers cardioversion when performed as an inpatient procedure. Both electrical cardioversion (low-voltage shock) and chemical cardioversion (IV medications) are covered when medically necessary.",
       },
       {
-        question: "Does Medicare cover heart monitors for AFib?",
+        question: "Does Medicare Cover Heart Monitors for AFib?",
         answer:
           "Yes. Medicare Part B covers heart monitoring devices including Holter monitors and event monitors. Your doctor must document that you are high-risk to qualify for a heart monitor. Cardiac screenings are also covered as part of your health visits.",
       },
       {
-        question: "Does Medicare cover Eliquis for AFib?",
+        question: "Does Medicare Cover Eliquis for AFib?",
         answer:
           "Eliquis is not covered under Part A or Part B. It is covered under Medicare Part D prescription drug plans and Medicare Advantage plans that include drug coverage. Without insurance, a one-month supply of Eliquis can cost $499. Most Part D plans cover Eliquis, though your cost-sharing depends on the plan's formulary tier.",
       },
       {
-        question: "Can I get a Medigap plan if I have AFib?",
+        question: "Can I Get a Medigap Plan if I Have AFib?",
         answer:
           "Yes, but timing matters. During your Medigap Open Enrollment Period (the 6 months starting when you turn 65 and enroll in Part B), you have guaranteed issue rights — insurers cannot deny you or charge higher premiums due to AFib. Outside this window, insurers in most states can use medical underwriting and may deny coverage or charge more.",
       },
       {
-        question: "Does Medicare Advantage cover AFib treatments?",
+        question: "Does Medicare Advantage Cover AFib Treatments?",
         answer:
           "Yes. By law, Medicare Advantage plans must cover all AFib treatments that Original Medicare covers. Many Advantage plans also include Part D drug coverage for Eliquis and other blood thinners. However, you must use in-network providers and may need prior authorization for procedures like catheter ablation.",
       },
       {
-        question: "Does Medicare cover the Watchman device for AFib?",
+        question: "Does Medicare Cover the Watchman Device for AFib?",
         answer:
           "Yes. Medicare covers the Watchman left atrial appendage closure (LAAC) device for AFib patients who are at high risk for stroke and cannot tolerate long-term blood thinners. Coverage is subject to specific criteria established by CMS, including a multidisciplinary team evaluation.",
       },
@@ -6982,7 +6982,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover an Echocardiogram?", description: "Learn about Medicare coverage for echocardiograms and cardiac diagnostic tests.", slug: "does-medicare-cover-an-echocardiogram" },
       { title: "Medicare Coverage for Cardiovascular Disease", description: "Explore Medicare's coverage for heart disease, cardiologist visits, and cardiac procedures.", slug: "medicare-coverage-for-cardiovascular-disease" },
       { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
-      { title: "What Is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+      { title: "What is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
     ],
     sidebarRelatedLinks: [
       "Does Medicare Cover an Echocardiogram?",
@@ -7089,7 +7089,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Confirm your ordering provider is in-network",
+          title: "Confirm Your Ordering Provider is In-network",
           text: "To ensure $0 cost for Cologuard under Medicare Advantage, confirm that the doctor ordering the test is in your plan's network. Out-of-network orders may result in cost-sharing.",
         },
         costNote: "Covered at $0 for in-network preventive care. Costs may apply if ordered out-of-network or for diagnostic purposes.",
@@ -7149,37 +7149,37 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Is Cologuard covered by Medicare at $0?",
+        question: "Is Cologuard Covered by Medicare at $0?",
         answer:
           "Yes. Medicare covers Cologuard at $0 for eligible beneficiaries ages 45–75 who are at average risk for colorectal cancer. No deductible or coinsurance applies when it is ordered as a preventive screening. The test is covered once every 3 years.",
       },
       {
-        question: "How often does Medicare cover Cologuard?",
+        question: "How Often Does Medicare Cover Cologuard?",
         answer:
           "Medicare covers Cologuard once every 3 years for average-risk beneficiaries. If you need more frequent colorectal cancer screening due to high risk factors, Medicare covers a colonoscopy every 2 years for high-risk beneficiaries.",
       },
       {
-        question: "Does Medicare cover a colonoscopy after a positive Cologuard?",
+        question: "Does Medicare Cover a Colonoscopy after a Positive Cologuard?",
         answer:
           "Yes. If your Cologuard result is positive, Medicare covers a follow-up colonoscopy at $0. CMS considers the follow-up colonoscopy a continuation of the colorectal cancer screening process, so standard diagnostic cost-sharing does not apply.",
       },
       {
-        question: "Is Cologuard better than a colonoscopy?",
+        question: "Is Cologuard Better than a Colonoscopy?",
         answer:
           "Cologuard and colonoscopy serve different purposes. Cologuard is a non-invasive at-home test that detects DNA changes and blood in stool — it requires no prep or sedation. A colonoscopy is more thorough and can both detect and remove polyps in the same procedure. For average-risk beneficiaries, both are valid options. For high-risk beneficiaries, a colonoscopy is generally recommended.",
       },
       {
-        question: "Does Medicare Advantage cover Cologuard?",
+        question: "Does Medicare Advantage Cover Cologuard?",
         answer:
           "Yes. Medicare Advantage plans are required to cover all Medicare preventive services at $0 cost when you use in-network providers. Cologuard is a Medicare-covered preventive service, so it is covered at $0 by all Medicare Advantage plans for eligible beneficiaries.",
       },
       {
-        question: "What if I have symptoms — will Medicare cover Cologuard?",
+        question: "What if I Have Symptoms —— Will Medicare Cover Cologuard?",
         answer:
           "No. If you have symptoms of colorectal cancer such as rectal bleeding, unexplained weight loss, or changes in bowel habits, Cologuard is not appropriate as a screening test. Your doctor will order a diagnostic colonoscopy instead, which is covered under Part B with standard cost-sharing (20% coinsurance after your deductible).",
       },
       {
-        question: "Does Medigap cover Cologuard?",
+        question: "Does Medigap Cover Cologuard?",
         answer:
           "Cologuard is already covered at $0 under Medicare's preventive services benefit, so Medigap is not needed for the test itself. However, if your Cologuard result is positive and you need a follow-up colonoscopy, Medigap can help cover any cost-sharing that applies to that procedure.",
       },
@@ -7258,7 +7258,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts A & B)",
+        planName: "Original Medicare (Parts a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -7369,7 +7369,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "Under Section 402 of the Consolidated Appropriations Act of 2021, Medicare Part B now covers immunosuppressive drugs for certain ESRD patients even after their standard Medicare coverage ends 36 months post-transplant. This Part B-ID benefit allows eligible beneficiaries to enroll at any time with a lower monthly premium and no late enrollment penalty.",
         },
         {
-          title: "Medigap Under 65 Rules",
+          title: "Medigap under 65 Rules",
           text: "Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap costs the same for everyone regardless of age. Check your state's specific rules before applying.",
         },
       ],
@@ -7381,32 +7381,32 @@ export const coverageArticles: CoverageArticleData[] = [
           "Yes. Medicare covers ESRD patients of any age, not just those 65 and older. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security Disability Insurance (SSDI) — or be the child or spouse of someone who qualifies.",
       },
       {
-        question: "When does Medicare coverage start for ESRD?",
+        question: "When Does Medicare Coverage Start for ESRD?",
         answer:
           "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
       },
       {
-        question: "What is the 30-month coordination period for ESRD?",
+        question: "What is the 30-month Coordination Period for ESRD?",
         answer:
           "If you have employer group health coverage when diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare automatically becomes your primary insurance. For ESRD patients without other insurance, Medicare is primary from the start.",
       },
       {
-        question: "Can I enroll in a Medicare Advantage plan if I have ESRD?",
+        question: "Can I Enroll in a Medicare Advantage Plan if I Have ESRD?",
         answer:
           "Yes. Since 2021, Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
       },
       {
-        question: "Can I get a Medigap plan if I have ESRD?",
+        question: "Can I Get a Medigap Plan if I Have ESRD?",
         answer:
           "It depends on your state and age. If you are under 65 with ESRD, many states do not require insurers to sell Medigap to you. In some states, Medigap is available but expensive. If you are 65 or older, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights. Check your state's specific rules.",
       },
       {
-        question: "Does Medicare cover kidney transplants for ESRD?",
+        question: "Does Medicare Cover Kidney Transplants for ESRD?",
         answer:
           "Yes. Medicare Part A covers kidney transplant surgery and the related inpatient hospital stay. Medicare Part B covers immunosuppressive drugs after the transplant. Under the Part B-ID benefit, immunosuppressive drug coverage can continue even after your standard Medicare coverage ends 36 months post-transplant.",
       },
       {
-        question: "Does Medicare cover home dialysis for ESRD?",
+        question: "Does Medicare Cover Home Dialysis for ESRD?",
         answer:
           "Yes. Medicare Part B covers home dialysis training, equipment, and supplies. Home dialysis allows you to perform dialysis in the comfort of your own home, either peritoneal dialysis or home hemodialysis. Your nephrologist must certify that home dialysis is appropriate for your condition.",
       },
@@ -7421,9 +7421,9 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Dialysis Treatments?", description: "Learn about Medicare's coverage for dialysis treatments and what you'll pay.", slug: "medicare-cover-dialysis-treatments" },
-      { title: "Medicare Coverage for the Disabled Under 65", description: "Understand how Medicare works for beneficiaries under 65 with disabilities.", slug: "medicare-coverage-for-disabled-under-65" },
+      { title: "Medicare Coverage for the Disabled under 65", description: "Understand how Medicare works for beneficiaries under 65 with disabilities.", slug: "medicare-coverage-for-disabled-under-65" },
       { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
-      { title: "What Is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+      { title: "What is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
     
       { title: "Does Medicare Cover Stem Cell Therapy?", description: "Find out if Medicare covers stem cell treatments and bone marrow transplants.", slug: "medicare-coverage-for-stem-cell-treatments" },],
     sidebarRelatedLinks: [
@@ -7486,7 +7486,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts A, B & D)",
+        planName: "Original Medicare (Parts a, B && D)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered When Medically Necessary",
@@ -7538,7 +7538,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Always pre-authorize gender-affirming surgery",
+          title: "Always Pre-authorize Gender-affirming Surgery",
           text: "Medicare Advantage plans may require prior authorization for gender-affirming surgeries. Always contact your plan before scheduling to confirm coverage, obtain prior authorization, and verify that your surgeon and facility are in-network.",
         },
         costNote: "Costs vary by plan. If you cannot find a surgeon within your Medicare Advantage network, your out-of-pocket costs could be significantly higher. Verify your plan's network before scheduling.",
@@ -7579,7 +7579,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "What Medicare Does and Does Not Cover for Gender-Affirming Care",
+      title: "What Medicare Does and Does not Cover for Gender-Affirming Care",
       items: [
         {
           title: "Medical Necessity Requirement",
@@ -7590,7 +7590,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "For female-to-male or female-to-nonbinary transitions, Medicare covers breast removal and chest reconstruction. For male-to-female or male-to-nonbinary transitions, Medicare covers medically necessary top surgeries but does not cover breast augmentation for cosmetic reasons.",
         },
         {
-          title: "Cosmetic Procedures Not Covered",
+          title: "Cosmetic Procedures not Covered",
           text: "Medicare does not cover facial feminization surgery (nose, chin reduction), vocal cord surgeries for voice feminization, body contouring, or hair removal procedures. These are considered cosmetic with no medical benefit.",
         },
         {
@@ -7605,37 +7605,37 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover gender reassignment surgery?",
+        question: "Does Medicare Cover Gender Reassignment Surgery?",
         answer:
           "Yes. Since 2014, Medicare covers gender reassignment surgery on a case-by-case basis when deemed medically necessary. Coverage includes inpatient hospital stays (Part A), outpatient procedures (Part B), and hormone therapy (Part D). Cosmetic procedures are not covered.",
       },
       {
-        question: "Does Medicare cover top surgery?",
+        question: "Does Medicare Cover Top Surgery?",
         answer:
           "Yes, when medically necessary. For female-to-male transitions, Medicare covers breast removal and chest reconstruction. For male-to-female transitions, Medicare covers medically necessary top surgeries but does not cover breast augmentation for cosmetic reasons. Coverage depends on whether the procedure is related to medical needs rather than aesthetics.",
       },
       {
-        question: "Does Medicare cover hormone therapy for transgender beneficiaries?",
+        question: "Does Medicare Cover Hormone Therapy for Transgender Beneficiaries?",
         answer:
           "Yes. Medicare covers hormone therapy for transgender beneficiaries the same way it would for any other beneficiary when it is medically necessary. Hormone therapy medications (estrogen, progesterone, testosterone) are covered under Medicare Part D prescription drug plans and Medicare Advantage plans with drug coverage.",
       },
       {
-        question: "Does Medicare cover facial feminization surgery?",
+        question: "Does Medicare Cover Facial Feminization Surgery?",
         answer:
           "No. Medicare does not cover facial feminization surgery (nose or chin reduction) because these procedures are considered cosmetic with no medical benefit. Similarly, vocal cord surgeries for voice feminization, body contouring, and hair removal are not covered.",
       },
       {
-        question: "Does Medicare Advantage cover gender-affirming surgery?",
+        question: "Does Medicare Advantage Cover Gender-affirming Surgery?",
         answer:
           "Yes. By law, Medicare Advantage plans must cover everything Original Medicare covers, including gender-affirming surgery when medically necessary. However, private companies manage these plans and may require prior authorization, referrals, and in-network providers. Always pre-authorize your procedure with your Advantage plan before scheduling.",
       },
       {
-        question: "What if Medicare denies my gender-affirming surgery?",
+        question: "What if Medicare Denies My Gender-affirming Surgery?",
         answer:
           "If Medicare denies coverage for a procedure you believe is medically necessary, you have the right to file an appeal through the Medicare appeals process. Many denials are overturned on appeal with proper documentation from your healthcare provider, including a diagnosis of gender dysphoria, proof of counseling, and evidence of hormone therapy.",
       },
       {
-        question: "Can I get preventive care as a transgender Medicare beneficiary?",
+        question: "Can I Get Preventive Care as a Transgender Medicare Beneficiary?",
         answer:
           "Yes. Medicare covers preventive care regardless of gender markers. Transgender beneficiaries are entitled to screenings appropriate to their anatomy — prostate exams, mammograms, colonoscopies, and other preventive services — regardless of how their gender is recorded in Medicare's system.",
       },
@@ -7652,7 +7652,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Hormone Therapy for Menopause?", description: "Learn about Medicare's coverage for hormone replacement therapy.", slug: "does-medicare-cover-hormone-therapy-for-menopause" },
       { title: "Medicare Coverage for Plastic Surgery", description: "Understand Medicare's limited plastic surgery coverage and alternatives.", slug: "medicare-coverage-for-plastic-surgery" },
       { title: "Will Medicare Cover My Surgery?", description: "Learn about Medicare's coverage for surgical procedures.", slug: "will-medicare-cover-my-surgery" },
-      { title: "What Is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+      { title: "What is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
     ],
     sidebarRelatedLinks: [
       "Does Medicare Cover Hormone Therapy for Menopause?",
@@ -7764,13 +7764,13 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Compare plans during Annual Enrollment",
+          title: "Compare Plans during Annual Enrollment",
           text: "If your current plan does not cover your HRT medications or the costs are too high, you can switch to a plan with better formulary coverage during the Annual Enrollment Period (October 15 – December 7) each year.",
         },
         costNote: "Some MAPD plans cover HRT at $0 out of pocket, while others require copays or coinsurance. Compare plans carefully to find the best coverage for your specific medications.",
       },
       {
-        planName: "Original Medicare (Parts A & B)",
+        planName: "Original Medicare (Parts a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -7805,7 +7805,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Rules for HRT Coverage Under Medicare",
+      title: "Important Rules for HRT Coverage under Medicare",
       items: [
         {
           title: "Formulary Verification Required",
@@ -7827,37 +7827,37 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover hormone replacement therapy for menopause?",
+        question: "Does Medicare Cover Hormone Replacement Therapy for Menopause?",
         answer:
           "Medicare Part A and Part B do not cover HRT medications for menopause. However, Medicare Part D prescription drug plans and Medicare Advantage plans with drug coverage may cover HRT medications depending on the plan's formulary. Always verify your specific medications are covered before enrolling.",
       },
       {
-        question: "Does Medicare cover Estrace?",
+        question: "Does Medicare Cover Estrace?",
         answer:
           "Some Medicare Part D and Medicare Advantage plans cover Estrace (estradiol). Coverage depends on your plan's formulary. A generic version of estradiol is available and is more likely to be covered at a lower cost tier. Check your plan's formulary or call your plan to confirm coverage.",
       },
       {
-        question: "Does Medicare cover estradiol patches?",
+        question: "Does Medicare Cover Estradiol Patches?",
         answer:
           "Some Part D and Medicare Advantage plans cover estradiol patches. However, coverage can be inconsistent — some plans may list patches in their formulary but apply restrictions that limit coverage. If you rely on estradiol patches, verify coverage with your specific plan before enrolling and again at each Annual Enrollment Period.",
       },
       {
-        question: "How much does HRT cost under Medicare?",
+        question: "How Much Does HRT Cost under Medicare?",
         answer:
           "HRT costs under Medicare depend on your plan and the specific medication. Generic estradiol and progesterone are typically Tier 1 or Tier 2 drugs, costing $0–$15 per month. Brand-name HRT medications like Premarin may be Tier 3 or higher, costing $47–$100+ per month. Some plans may cover HRT at $0 out of pocket.",
       },
       {
-        question: "Does Medicare cover bioidentical hormones?",
+        question: "Does Medicare Cover Bioidentical Hormones?",
         answer:
           "Medicare Part D may cover FDA-approved bioidentical hormones such as estradiol and progesterone if they are on your plan's formulary. Compounded bioidentical hormones that are not FDA-approved are generally not covered by Medicare Part D.",
       },
       {
-        question: "Does Medicare cover hormone therapy for transgender beneficiaries?",
+        question: "Does Medicare Cover Hormone Therapy for Transgender Beneficiaries?",
         answer:
           "Yes. Medicare covers hormone therapy for transgender beneficiaries the same way it would for any other beneficiary when it is medically necessary. Hormone therapy medications (estrogen, progesterone, testosterone) are covered under Medicare Part D and Medicare Advantage plans with drug coverage.",
       },
       {
-        question: "When can I change my Part D plan to get better HRT coverage?",
+        question: "When Can I Change My Part D Plan to Get Better HRT Coverage?",
         answer:
           "You can change your Part D or Medicare Advantage plan during the Annual Enrollment Period (October 15 – December 7) each year. If your current plan does not cover your HRT medications or the costs are too high, this is the time to switch to a plan with better formulary coverage for your specific medications.",
       },
@@ -7883,7 +7883,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare and Prescription Drugs: What's Covered?",
     ],
     ctaBanner: {
-      title: "Need Help Finding a Medicare Plan That Covers Your HRT Medications?",
+      title: "Need Help Finding a Medicare Plan that Covers Your HRT Medications?",
       text: "Our licensed Medicare agents can help you compare Part D and Medicare Advantage plans to find the best coverage for your hormone replacement therapy medications. Compare plans in your area for free.",
     },
     relatedSlugs: [
@@ -7898,7 +7898,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-leqembi",
     seo: {
-      title: "Does Medicare Cover Leqembi? 2026 Coverage & Cost Guide",
+      title: "Does Medicare Cover Leqembi? 2026 Coverage && Cost Guide",
       description: "Medicare covers Leqembi (lecanemab) for early Alzheimer's disease under Part B with a doctor-supervised infusion. Learn about eligibility, costs, and what Medigap covers.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-leqembi.jpg",
@@ -7984,7 +7984,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Prior authorization may be required",
+          title: "Prior Authorization May be Required",
           text: "Many Medicare Advantage plans require prior authorization for Leqembi. Contact your plan before scheduling your first infusion to avoid unexpected denials or costs.",
         },
       },
@@ -8012,7 +8012,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Estimated Leqembi Costs Under Medicare (2026)",
+      title: "Estimated Leqembi Costs under Medicare (2026)",
       headers: ["Cost Item", "Annual Amount", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -8058,19 +8058,19 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover Leqembi?",
+        question: "Does Medicare Cover Leqembi?",
         answer: "Yes. Medicare Part B covers Leqembi for beneficiaries with early-stage Alzheimer's disease who meet CMS eligibility criteria, including confirmed amyloid pathology and treatment through a qualifying registry. You pay 20% coinsurance after the $283 Part B deductible.",
       },
       {
-        question: "How much does Leqembi cost with Medicare?",
+        question: "How Much Does Leqembi Cost with Medicare?",
         answer: "Leqembi's list price is approximately $26,500 per year. With Medicare Part B, you pay 20% coinsurance, which is about $5,300 per year, plus the $283 annual Part B deductible. With a Medigap Plan G, your cost drops to just the $283 deductible per year.",
       },
       {
-        question: "Does Medicare cover the amyloid PET scan needed to qualify for Leqembi?",
+        question: "Does Medicare Cover the Amyloid PET Scan Needed to Qualify for Leqembi?",
         answer: "Medicare Part B covers amyloid PET scans when they are medically necessary to confirm an Alzheimer's diagnosis for Leqembi eligibility. Coverage is limited to one scan per patient. You pay 20% coinsurance after the Part B deductible.",
       },
       {
-        question: "Does Medicare Advantage cover Leqembi?",
+        question: "Does Medicare Advantage Cover Leqembi?",
         answer: "Yes. Medicare Advantage plans are required to cover Leqembi under the same rules as Original Medicare. However, your plan may require prior authorization, and you must use in-network providers. Contact your plan before scheduling treatment.",
       },
       {
@@ -8078,7 +8078,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Medicare Part B previously covered Aduhelm (aducanumab) under the same registry requirement. However, Biogen withdrew Aduhelm from the market in 2024. Leqembi is currently the primary FDA-approved amyloid-targeting therapy with Medicare coverage. Other Alzheimer's medications (such as Aricept or Namenda) are covered under Medicare Part D.",
       },
       {
-        question: "What is the difference between Leqembi and Kisunla?",
+        question: "What is the Difference between Leqembi and Kisunla?",
         answer: "Both Leqembi (lecanemab) and Kisunla (donanemab) are FDA-approved amyloid-targeting therapies for early Alzheimer's disease. As of 2026, Medicare covers Leqembi under Part B. Coverage for Kisunla may vary — check with your Medicare plan for the latest coverage status.",
       },
     ],
@@ -8092,7 +8092,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Alzheimer's Care?", description: "Learn how Medicare covers memory care, cognitive assessments, and Alzheimer's-related services.", slug: "does-medicare-cover-alzheimers-care" },
-      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers, including outpatient services and physician-administered drugs.", slug: "what-is-medicare-part-b" },
+      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers, including outpatient services and physician-administered drugs.", slug: "what-is-medicare-part-b" },
       { title: "Medicare Supplement Plan G", description: "See how Medigap Plan G can cover the 20% coinsurance that Part B leaves behind.", slug: "plan-g" },
       { title: "Does Medicare Cover Memory Care?", description: "Find out what Medicare covers for memory care facilities and cognitive decline.", slug: "does-medicare-cover-memory-care" },
     ],
@@ -8103,7 +8103,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Does Medicare Cover Memory Care",
     ],
     ctaBanner: {
-      title: "Worried About Leqembi Costs?",
+      title: "Worried about Leqembi Costs?",
       text: "A Medigap plan can cover the 20% Part B coinsurance for Leqembi, potentially saving you thousands per year. Our licensed agents can help you compare plans in your area for free.",
     },
     relatedSlugs: ["does-medicare-cover-alzheimers-care", "what-is-medicare-part-b", "plan-g", "does-medicare-cover-memory-care", "does-medicare-cover-leqembi"],
@@ -8202,7 +8202,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Look for vision supplemental benefits",
+          title: "Look for Vision Supplemental Benefits",
           text: "Many Medicare Advantage plans include routine vision coverage (exams + eyeglasses) as a supplemental benefit. If you have macular degeneration, compare plans that offer both strong medical coverage and vision benefits.",
         },
       },
@@ -8231,7 +8231,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Estimated Macular Degeneration Treatment Costs Under Medicare (2026)",
+      title: "Estimated Macular Degeneration Treatment Costs under Medicare (2026)",
       headers: ["Treatment", "Frequency", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -8262,7 +8262,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Anti-VEGF injection costs vary significantly by drug. Avastin is used off-label and costs significantly less than Eylea or Lucentis.",
     },
     exceptionsSection: {
-      title: "What Medicare Does Not Cover for Eye Conditions",
+      title: "What Medicare Does not Cover for Eye Conditions",
       items: [
         {
           title: "Routine Eye Exams and Eyeglasses",
@@ -8277,27 +8277,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover eye injections for macular degeneration?",
+        question: "Does Medicare Cover Eye Injections for Macular Degeneration?",
         answer: "Yes. Medicare Part B covers anti-VEGF eye injections for wet macular degeneration, including Eylea, Lucentis, Avastin (off-label), Beovu, and Vabysmo. These are physician-administered drugs covered under Part B, not Part D. You pay 20% coinsurance after the $283 annual deductible.",
       },
       {
-        question: "Does Medicare cover Eylea injections?",
+        question: "Does Medicare Cover Eylea Injections?",
         answer: "Yes. Eylea (aflibercept) is one of the most commonly used anti-VEGF drugs for wet AMD and is covered by Medicare Part B when medically necessary. You pay 20% of the Medicare-approved amount after your Part B deductible. Eylea is one of the more expensive anti-VEGF drugs — a Medigap plan can significantly reduce your costs.",
       },
       {
-        question: "Does Medicare cover routine eye exams?",
+        question: "Does Medicare Cover Routine Eye Exams?",
         answer: "No. Original Medicare does not cover routine eye exams for eyeglasses or contact lenses. However, Medicare does cover eye exams related to diagnosed eye diseases such as macular degeneration, glaucoma, and diabetic retinopathy. Many Medicare Advantage plans include routine vision benefits as a supplemental offering.",
       },
       {
-        question: "Does Medicare cover treatment for dry macular degeneration?",
+        question: "Does Medicare Cover Treatment for Dry Macular Degeneration?",
         answer: "Medicare Part B covers FDA-approved treatments for geographic atrophy (advanced dry AMD), including Syfovre and Izervay injections. AREDS2 vitamins, which may slow dry AMD progression, are not covered by Medicare. There is currently no Medicare coverage for supplements or vitamins for dry AMD.",
       },
       {
-        question: "Does Medicare cover cataract surgery for patients with macular degeneration?",
+        question: "Does Medicare Cover Cataract Surgery for Patients with Macular Degeneration?",
         answer: "Yes. Medicare Part B covers cataract surgery regardless of whether you also have macular degeneration. However, patients with macular degeneration may have different visual outcomes from cataract surgery. Your ophthalmologist can advise on the best approach for your specific situation.",
       },
       {
-        question: "Does Medicare cover low vision aids?",
+        question: "Does Medicare Cover Low Vision Aids?",
         answer: "Medicare covers low vision aids in limited circumstances — specifically when prescribed by a physician for a diagnosed eye condition. However, routine eyeglasses and magnifiers are generally not covered. Some Medicare Advantage plans may offer additional low vision benefits.",
       },
     ],
@@ -8370,7 +8370,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -8421,7 +8421,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "Medicaid & Other Programs",
+        planName: "Medicaid && Other Programs",
         icon: "users",
         iconColor: "#7C3AED",
         coverageLabel: "Sometimes Covered",
@@ -8478,7 +8478,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "When Medicare Does Cover Meals",
       items: [
         {
-          title: "Meals During a Hospital or SNF Stay",
+          title: "Meals during a Hospital or SNF Stay",
           text: "Medicare Part A covers meals as part of an inpatient hospital stay or skilled nursing facility (SNF) stay. These meals are included in the facility's daily rate and are not billed separately. Coverage for SNF stays requires a qualifying 3-day hospital stay and a skilled care need.",
           highlight: "If you are being discharged from a hospital and need help with meals at home, ask your discharge planner about whether your Medicare Advantage plan offers a post-discharge meal benefit.",
         },
@@ -8490,27 +8490,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover Meals on Wheels?",
+        question: "Does Medicare Cover Meals on Wheels?",
         answer: "No. Original Medicare does not cover Meals on Wheels or any ongoing home meal delivery program. Some Medicare Advantage plans offer a temporary meal delivery benefit after a hospital discharge, but this is not available on all plans. The Meals on Wheels program is funded separately through the Older Americans Act and accepts participants on a sliding-scale payment basis.",
       },
       {
-        question: "Does Medicare Advantage cover meal delivery?",
+        question: "Does Medicare Advantage Cover Meal Delivery?",
         answer: "Some Medicare Advantage plans offer temporary meal delivery as a supplemental benefit — typically 14 to 28 meals after a hospital discharge or for members with chronic conditions. This benefit varies significantly by plan and location. Review your plan's Summary of Benefits or call member services to find out if your plan includes this benefit.",
       },
       {
-        question: "How do I apply for Meals on Wheels?",
+        question: "How do I Apply for Meals on Wheels?",
         answer: "To apply for Meals on Wheels, visit mealsonwheelsamerica.org or call 1-888-998-6325 to find your local program. Most programs serve adults 60 and older who are homebound or have difficulty preparing meals. No one is denied service due to inability to pay — the program operates on a sliding-scale or voluntary contribution basis.",
       },
       {
-        question: "Does Medicaid cover home-delivered meals?",
+        question: "Does Medicaid Cover Home-delivered Meals?",
         answer: "Medicaid may cover home-delivered meals through state waiver programs for qualifying low-income beneficiaries. Eligibility and coverage vary by state. If you have both Medicare and Medicaid (dual eligible), contact your Medicaid case manager to find out if you qualify for home-delivered meals in your state.",
       },
       {
-        question: "Does Medicare cover nutritional supplements like Ensure?",
+        question: "Does Medicare Cover Nutritional Supplements Like Ensure?",
         answer: "No. Medicare does not cover nutritional supplements like Ensure or Boost, even when they are the patient's primary source of nutrition. Medicare Part D prescription drug plans also do not cover these products. You will need to purchase them out of pocket.",
       },
       {
-        question: "Does Medicare cover a home health aide who can help with meals?",
+        question: "Does Medicare Cover a Home Health Aide Who Can Help with Meals?",
         answer: "Medicare Part A and Part B cover home health aide services when you are homebound and need skilled nursing care or therapy. A home health aide can assist with personal care and some meal preparation as part of a covered home health plan of care. However, Medicare does not cover home health aides for meal preparation alone — skilled care must be the primary reason for the home health visit.",
       },
     ],
@@ -8536,7 +8536,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Does Medicare Cover Home Health Care",
     ],
     ctaBanner: {
-      title: "Looking for More Benefits Beyond Original Medicare?",
+      title: "Looking for More Benefits beyond Original Medicare?",
       text: "Medicare Advantage plans can offer meal delivery, dental, vision, and other benefits that Original Medicare doesn't cover. Our licensed agents can help you compare plans in your area for free.",
     },
     relatedSlugs: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-skilled-nursing-facilities", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medical-rides", "medicare-8-minute-rule", "medicare-visiting-angels", "medicare-coverage-for-cancer"],
@@ -8546,7 +8546,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-medical-alert-systems",
     seo: {
-      title: "Does Medicare Cover Medical Alert Systems? Life Alert & More",
+      title: "Does Medicare Cover Medical Alert Systems? Life Alert && More",
       description: "Original Medicare does not cover Life Alert or medical alert systems. Some Medicare Advantage plans may include them as supplemental benefits. Learn about costs and alternatives.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-medical-alert-systems.jpg",
@@ -8584,7 +8584,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -8632,7 +8632,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Shop for plans with medical alert benefits during enrollment",
+          title: "Shop for Plans with Medical Alert Benefits during Enrollment",
           text: "If a medical alert system is important to you, look for Medicare Advantage plans that include it as a supplemental benefit during the Annual Enrollment Period (October 15 – December 7). Use the Medicare Plan Finder at medicare.gov to filter for plans with this benefit.",
         },
       },
@@ -8660,7 +8660,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Medical Alert System Costs Without Medicare Coverage (2026)",
+      title: "Medical Alert System Costs without Medicare Coverage (2026)",
       headers: ["Provider", "Monthly Fee", "Setup/Activation Fee", "Key Features"],
       rows: [
         {
@@ -8712,27 +8712,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover Life Alert?",
+        question: "Does Medicare Cover Life Alert?",
         answer: "No. Original Medicare does not cover Life Alert or any personal emergency response system. Medicare classifies these devices as convenience items rather than medically necessary durable medical equipment. Some Medicare Advantage plans may include Life Alert or similar devices as a supplemental benefit — check your plan's Summary of Benefits.",
       },
       {
-        question: "Does Medicare Advantage cover medical alert systems?",
+        question: "Does Medicare Advantage Cover Medical Alert Systems?",
         answer: "Some Medicare Advantage plans include medical alert systems as a supplemental benefit, either providing a device at no cost or offering a monthly allowance. Coverage varies significantly by plan and location. Review your plan's Summary of Benefits or call member services to find out if your plan includes this benefit.",
       },
       {
-        question: "How much does Life Alert cost without Medicare?",
+        question: "How Much Does Life Alert Cost without Medicare?",
         answer: "Life Alert typically costs $50 to $100 per month for monitoring, plus a $100 to $200 activation fee. Costs vary based on the features you choose, such as GPS tracking or medication reminders. Other medical alert providers like Medical Guardian and Philips Lifeline offer similar services at lower price points.",
       },
       {
-        question: "Does Medicare cover fall detection devices?",
+        question: "Does Medicare Cover Fall Detection Devices?",
         answer: "No. Original Medicare does not cover fall detection devices. These are classified as convenience items, not medically necessary equipment. Some Medicare Advantage plans may include fall detection as part of a medical alert system benefit.",
       },
       {
-        question: "Can veterans get a free medical alert system?",
+        question: "Can Veterans Get a Free Medical Alert System?",
         answer: "Yes. The U.S. Department of Veterans Affairs (VA) may provide medical alert systems or personal emergency response devices as part of VA benefits for eligible veterans. Contact your VA healthcare provider or local VA office to find out what assistive technology benefits are available to you.",
       },
       {
-        question: "Does Medicaid cover medical alert systems?",
+        question: "Does Medicaid Cover Medical Alert Systems?",
         answer: "Medicaid may cover personal emergency response systems for qualifying low-income beneficiaries through state waiver programs. Coverage varies by state. Contact your state Medicaid office or case manager to find out if this benefit is available in your area.",
       },
     ],
@@ -8758,7 +8758,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Does Medicare Cover Wheelchairs and Scooters",
     ],
     ctaBanner: {
-      title: "Want a Medicare Plan That Covers More?",
+      title: "Want a Medicare Plan that Covers More?",
       text: "Some Medicare Advantage plans include medical alert systems, dental, vision, and other benefits that Original Medicare doesn't cover. Our licensed agents can help you compare plans in your area for free.",
     },
     relatedSlugs: ["does-medicare-cover-durable-medical-equipment", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care", "medicare-coverage-for-wheelchairs-and-scooters"],
@@ -8858,7 +8858,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Ask about additional nutrition benefits",
+          title: "Ask about Additional Nutrition Benefits",
           text: "Some Medicare Advantage plans offer nutrition counseling for a broader range of conditions than Original Medicare covers. If you have conditions like heart disease, obesity, or cancer, ask your plan about supplemental nutrition benefits.",
         },
       },
@@ -8885,7 +8885,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Medical Nutrition Therapy Coverage Under Medicare (2026)",
+      title: "Medical Nutrition Therapy Coverage under Medicare (2026)",
       headers: ["Service", "Coverage", "Your Cost", "Hours Covered"],
       rows: [
         {
@@ -8937,27 +8937,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover a nutritionist?",
+        question: "Does Medicare Cover a Nutritionist?",
         answer: "Medicare Part B covers medical nutrition therapy (MNT) provided by a registered dietitian at 100% for beneficiaries with diabetes or kidney disease. You must have a referral from your doctor. Medicare does not cover general nutritionist visits for conditions other than diabetes or kidney disease.",
       },
       {
-        question: "How much does Medicare pay for nutrition therapy?",
+        question: "How Much Does Medicare Pay for Nutrition Therapy?",
         answer: "Medicare Part B covers MNT at 100% — you pay $0 for covered sessions. There is no coinsurance and the Part B deductible does not apply. In the first year, Medicare covers up to 3 hours of MNT; in subsequent years, up to 2 hours per year.",
       },
       {
-        question: "Does Medicare cover a dietician?",
+        question: "Does Medicare Cover a Dietician?",
         answer: "Yes. Medicare covers visits with a registered dietitian (RD) for medical nutrition therapy at 100% for beneficiaries with diabetes or kidney disease. The dietitian must accept Medicare assignment. You need a referral from your doctor to access this benefit.",
       },
       {
-        question: "Does Medicare cover a nutritionist for weight loss?",
+        question: "Does Medicare Cover a Nutritionist for Weight Loss?",
         answer: "Medicare does not cover a nutritionist solely for weight loss. However, if you have diabetes and get a referral from your doctor, you can see a registered dietitian for MNT that may also help with weight management. Additionally, Medicare covers intensive behavioral therapy for obesity (BMI ≥ 30) at 100% — up to 22 visits per year.",
       },
       {
-        question: "Does Medicare cover a nutritionist for prediabetes?",
+        question: "Does Medicare Cover a Nutritionist for Prediabetes?",
         answer: "Medicare does not cover MNT for prediabetes — you must have a confirmed diabetes diagnosis. However, Medicare does cover the Diabetes Prevention Program (DPP) for beneficiaries with prediabetes. The DPP is a structured lifestyle change program that includes nutrition education and is covered at no cost.",
       },
       {
-        question: "Does Medicare cover Ensure or nutritional supplements?",
+        question: "Does Medicare Cover Ensure or Nutritional Supplements?",
         answer: "No. Medicare does not cover Ensure, Boost, or other nutritional supplements, even when they are the patient's primary source of nutrition. Medicare Part D prescription drug plans also do not cover these products. You will need to purchase them out of pocket.",
       },
     ],
@@ -8990,12 +8990,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-dental-expenses-does-medicare-cover",
     seo: {
-      title: "What Dental Services Are Covered by Medicare",
+      title: "What Dental Services are Covered by Medicare",
       description: "Original Medicare does not cover routine dental care, but you have options. Learn what dental expenses Medicare covers and how to get dental coverage.",
       canonical: "https://www.medicarefaq.com/faqs/what-dental-expenses-does-medicare-cover/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-dental-implants.jpg",
     },
-    title: "What Dental Services Are Covered by Medicare?",
+    title: "What Dental Services are Covered by Medicare?",
     subtitle: "Original Medicare does not cover routine dental care, but there are exceptions — and several options to get dental coverage as a Medicare beneficiary.",
     category: "Medicare Coverage",
     dateUpdated: "May 23, 2023",
@@ -9028,7 +9028,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts A & B)",
+        planName: "Original Medicare (Parts a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered (Routine)",
@@ -9062,7 +9062,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Dental Services: Medicare Coverage & Your Costs",
+      title: "Dental Services: Medicare Coverage && Your Costs",
       headers: ["Service", "Original Medicare", "Medicare Advantage", "Stand-Alone Dental Plan"],
       rows: [
         { "Service": "Routine Cleaning", "Original Medicare": "Not covered", "Medicare Advantage": "Often $0 (preventive)", "Stand-Alone Dental Plan": "Often $0–$20 copay" },
@@ -9079,7 +9079,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "When Does Medicare Cover Dental Services?",
       items: [
         {
-          title: "Medically Necessary Dental Before a Covered Procedure",
+          title: "Medically Necessary Dental before a Covered Procedure",
           text: "Medicare may cover dental work required before a covered procedure, such as tooth extractions before cardiac surgery or organ transplantation, when a physician determines it is medically necessary.",
         },
         {
@@ -9094,27 +9094,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare pay for dental surgery?",
+        question: "Does Medicare Pay for Dental Surgery?",
         answer: "Medicare only pays for dental surgery in specific situations, such as jaw cancer or reconstructive surgery after an accident. Most oral surgery does not receive coverage under Original Medicare. If you have a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) with dental benefits or a stand-alone dental plan, your plan may cover part of the cost.",
       },
       {
-        question: "Does Medicare cover tooth extraction?",
+        question: "Does Medicare Cover Tooth Extraction?",
         answer: "Medicare covers tooth extractions only to prepare you for radiation treatment for jaw cancer, or as part of medically necessary reconstructive surgery. Routine tooth extractions are not covered. If you have dental insurance or a Medicare Advantage plan with dental coverage, your plan may cover extractions.",
       },
       {
-        question: "Do Medicare Supplement plans cover dental?",
+        question: "Do Medicare Supplement Plans Cover Dental?",
         answer: "No. [Medicare Supplement (Medigap) plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) cover the same procedures as Original Medicare. Because Original Medicare doesn't cover routine dental services, Medigap doesn't either. You can purchase a stand-alone dental plan separately.",
       },
       {
-        question: "Does Medicare cover dentures?",
+        question: "Does Medicare Cover Dentures?",
         answer: "Original Medicare does not cover dentures. Some Medicare Advantage plans include denture coverage, and stand-alone dental plans may also cover them. Check your specific plan's Summary of Benefits for details.",
       },
       {
-        question: "Does Medicare cover dental implants?",
+        question: "Does Medicare Cover Dental Implants?",
         answer: "Original Medicare does not cover [dental implants](/faqs/does-medicare-cover-dental-implants). Some Medicare Advantage plans may offer partial coverage. Stand-alone dental plans rarely cover implants, though some premium plans do. Dental discount plans can help reduce costs.",
       },
       {
-        question: "Can I get dental coverage with Medicare?",
+        question: "Can I Get Dental Coverage with Medicare?",
         answer: "Yes. You have several options: (1) enroll in a Medicare Advantage plan that includes dental benefits, (2) purchase a stand-alone dental plan, (3) use a dental discount plan for reduced rates, or (4) look into dental schools in your area for reduced-cost care.",
       },
     ],
@@ -9186,7 +9186,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts A & B)",
+        planName: "Original Medicare (Parts a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -9220,7 +9220,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Incontinence Supplies: Coverage & Cost Overview",
+      title: "Incontinence Supplies: Coverage && Cost Overview",
       headers: ["Supply Type", "Original Medicare", "Medicare Advantage", "Out-of-Pocket Cost"],
       rows: [
         { "Supply Type": "Adult Diapers / Briefs", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Out-of-Pocket Cost": "$20–$60/month" },
@@ -9250,23 +9250,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover adult diapers?",
+        question: "Does Medicare Cover Adult Diapers?",
         answer: "No. Original Medicare does not cover adult diapers or any disposable incontinence supplies. Some Medicare Advantage plans may offer this benefit — check your plan's Summary of Benefits. Some state Medicaid programs also cover adult diapers for eligible beneficiaries.",
       },
       {
-        question: "Does Medicare cover Depends undergarments?",
+        question: "Does Medicare Cover Depends Undergarments?",
         answer: "Medicare does not cover Depends or any brand-name incontinence products. You will pay the full cost unless you have a Medicare Advantage plan that covers this benefit or qualify for state Medicaid coverage.",
       },
       {
-        question: "Does Medicare cover urinary catheters?",
+        question: "Does Medicare Cover Urinary Catheters?",
         answer: "Yes. Medicare Part B covers urinary catheters and related supplies when they are medically necessary and prescribed by a physician. This is different from incontinence pads and diapers, which are not covered.",
       },
       {
-        question: "How can I save money on incontinence supplies?",
+        question: "How Can I Save Money on Incontinence Supplies?",
         answer: "Several strategies can help: buy in bulk online for significant discounts, use manufacturer coupons and free samples, check with local nonprofit organizations that assist with supply costs, and ask your doctor about prescription-grade products that may qualify for coverage under some plans.",
       },
       {
-        question: "Will Medicaid cover incontinence supplies?",
+        question: "Will Medicaid Cover Incontinence Supplies?",
         answer: "Medicaid coverage for incontinence supplies varies by state. Most states do offer some coverage, but there are typically brand restrictions and quantity limits. Contact your state Medicaid office to find out what's available in your area.",
       },
     ],
@@ -9281,7 +9281,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Does Medicare Cover Ostomy Supplies?", description: "Find out about ostomy supply coverage under Medicare Part B.", slug: "does-medicare-cover-ostomy-supplies" },
       { title: "Does Medicare Cover Medical Alert Systems?", description: "Learn about personal emergency response system coverage under Medicare.", slug: "does-medicare-cover-medical-alert-systems" },
-      { title: "What Is Durable Medical Equipment (DME)?", description: "Understand what qualifies as DME under Medicare and how coverage works.", slug: "durable-medical-equipment" },
+      { title: "What is Durable Medical Equipment (DME)?", description: "Understand what qualifies as DME under Medicare and how coverage works.", slug: "durable-medical-equipment" },
       { title: "Medicare Coverage for Wheelchairs and Scooters", description: "Find out what mobility equipment Medicare covers.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
     
       { title: "Do Adult Diaper Manufacturers Have Assistance Programs?", description: "Explore assistance programs for free or reduced-cost adult diapers and incontinence supplies.", slug: "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends" },],
@@ -9292,7 +9292,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Coverage for Wheelchairs and Scooters",
     ],
     ctaBanner: {
-      title: "Looking for a Plan That Covers More?",
+      title: "Looking for a Plan that Covers More?",
       text: "Some Medicare Advantage plans offer incontinence supply benefits and other extras not covered by Original Medicare. Our licensed agents can help you compare plans in your area.",
     },
     relatedSlugs: ["does-medicare-cover-ostomy-supplies", "does-medicare-cover-medical-alert-systems", "durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-durable-medical-equipment"],
@@ -9402,11 +9402,11 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Can I add my child to my Medicare plan?",
+        question: "Can I Add My Child to My Medicare Plan?",
         answer: "No. Medicare is an individual program — you cannot add dependents to your coverage. Your child must qualify for Medicare on their own based on age, disability, ESRD, or ALS.",
       },
       {
-        question: "Can a child get Medicare due to a disability?",
+        question: "Can a Child Get Medicare Due to a Disability?",
         answer: "Children under 18 cannot qualify for Medicare based on disability alone. However, once they turn 18, they may qualify for SSDI based on their own disability or as a Disabled Adult Child (DAC) based on a parent's work record. After 24 months of SSDI, they qualify for Medicare.",
       },
       {
@@ -9414,7 +9414,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "A Disabled Adult Child is someone 18 or older whose qualifying disability began before age 22. They can receive SSDI benefits based on a parent's Social Security record, and after 24 months of SSDI, they qualify for Medicare. The parent must be receiving Social Security retirement or disability benefits, or have died with sufficient work credits.",
       },
       {
-        question: "Does my child lose Medicare if they get a job?",
+        question: "Does My Child Lose Medicare if They Get a Job?",
         answer: "Not immediately. Your child will have a 9-month trial work period during which they receive full SSDI benefits regardless of earnings. If they continue working after the trial period, Medicare coverage continues for 93 months (over 7 years). After that, they may need to purchase Medicare Part A by paying a monthly premium.",
       },
       {
@@ -9438,7 +9438,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover End-Stage Renal Disease?", description: "Learn about Medicare's comprehensive ESRD coverage, including dialysis and kidney transplants.", slug: "does-medicare-cover-end-stage-renal-disease" },
       { title: "Medicare Coverage for In-Home Caregivers", description: "Find out what home care services Medicare covers for beneficiaries.", slug: "medicare-coverage-for-in-home-caregivers" },
       { title: "Does Medicare Cover Amyotrophic Lateral Sclerosis (ALS)?", description: "Learn about Medicare's special rules for ALS patients.", slug: "medicare-coverage-for-amyotrophic-lateral-sclerosis-als" },
-      { title: "What Dental Services Are Covered by Medicare?", description: "Learn what dental expenses Medicare covers and how to get dental coverage.", slug: "what-dental-expenses-does-medicare-cover" },
+      { title: "What Dental Services are Covered by Medicare?", description: "Learn what dental expenses Medicare covers and how to get dental coverage.", slug: "what-dental-expenses-does-medicare-cover" },
     ],
     sidebarRelatedLinks: [
       "Does Medicare Cover End-Stage Renal Disease",
@@ -9447,7 +9447,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "What Dental Services Are Covered by Medicare",
     ],
     ctaBanner: {
-      title: "Questions About Medicare Eligibility?",
+      title: "Questions about Medicare Eligibility?",
       text: "Our licensed Medicare agents can help you understand eligibility rules for yourself and your family members, and find the right coverage options for your situation.",
     },
     relatedSlugs: ["does-medicare-cover-end-stage-renal-disease", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "what-dental-expenses-does-medicare-cover", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends"],
@@ -9526,7 +9526,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Mammogram Costs Under Medicare",
+      title: "Mammogram Costs under Medicare",
       headers: ["Mammogram Type", "Medicare Covers", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         { "Mammogram Type": "Annual Screening Mammogram (2D)", "Medicare Covers": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Plan G)": "$0" },
@@ -9556,27 +9556,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover mammograms after age 70?",
+        question: "Does Medicare Cover Mammograms after Age 70?",
         answer: "Yes. Medicare covers annual screening mammograms for women 70 and older at the same rates as younger beneficiaries — 100% covered for screening, 80% for diagnostic. There is no upper age limit for mammogram coverage under Medicare.",
       },
       {
-        question: "Does Medicare cover 3D mammograms?",
+        question: "Does Medicare Cover 3D Mammograms?",
         answer: "Yes. Medicare has covered 3D mammograms (digital breast tomosynthesis) since 2015. Screening 3D mammograms are covered at 100% with no cost to you. Diagnostic 3D mammograms are covered at 80%, with 20% coinsurance.",
       },
       {
-        question: "Does Medicare cover breast ultrasounds?",
+        question: "Does Medicare Cover Breast Ultrasounds?",
         answer: "Yes. Medicare Part B covers breast ultrasounds when ordered by a healthcare provider as medically necessary — for example, when a mammogram shows an abnormality or when a woman has dense breast tissue. You pay 20% coinsurance after the Part B deductible.",
       },
       {
-        question: "What is the cost of a mammogram with Medicare?",
+        question: "What is the Cost of a Mammogram with Medicare?",
         answer: "Annual screening mammograms are covered at 100% — no cost to you. For diagnostic mammograms, Medicare pays 80% and you pay 20% after the Part B deductible. The average total cost of a diagnostic mammogram is approximately $170, so your share would be about $34. With a [Medigap plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), your 20% is covered.",
       },
       {
-        question: "At what age does Medicare stop paying for mammograms?",
+        question: "At What Age Does Medicare Stop Paying for Mammograms?",
         answer: "There is no cutoff age. Medicare covers annual screening mammograms for as long as you are enrolled, regardless of age. About 6% of breast cancers are diagnosed in women aged 85 and older.",
       },
       {
-        question: "Does Medicare cover mammograms for men?",
+        question: "Does Medicare Cover Mammograms for Men?",
         answer: "Medicare does not routinely cover screening mammograms for men. However, if a man has symptoms such as a breast lump, Medicare Part B may cover a diagnostic mammogram as a medically necessary service.",
       },
     ],
@@ -9590,7 +9590,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Medicare Coverage for Cancer", description: "Learn about Medicare's comprehensive coverage for cancer diagnosis and treatment.", slug: "medicare-coverage-for-cancer" },
-      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and how it works.", slug: "what-is-medicare-part-b" },
+      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and how it works.", slug: "what-is-medicare-part-b" },
       { title: "Medicare Supplement Plan G", description: "Learn how Plan G covers your 20% coinsurance for diagnostic tests.", slug: "plan-g" },
       { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare's coverage for biopsies and related procedures.", slug: "does-medicare-cover-a-biopsy" },
     ],
@@ -9711,27 +9711,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover compression stockings for varicose veins?",
+        question: "Does Medicare Cover Compression Stockings for Varicose Veins?",
         answer: "No. Medicare does not cover compression stockings for varicose veins, general circulation problems, or for the prevention of ulcers. Coverage is limited to active venous stasis ulcers with a physician's prescription.",
       },
       {
-        question: "Does Medicare Part B cover compression stockings?",
+        question: "Does Medicare Part B Cover Compression Stockings?",
         answer: "Medicare Part B covers graduated compression stockings (below the knee) only when prescribed to treat an active venous stasis ulcer. You pay 20% coinsurance after meeting your Part B deductible.",
       },
       {
-        question: "Does Medicare Advantage cover compression stockings?",
+        question: "Does Medicare Advantage Cover Compression Stockings?",
         answer: "Some [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) offer additional coverage for compression stockings beyond what Original Medicare covers. Check your plan's Summary of Benefits or call your plan to confirm.",
       },
       {
-        question: "Does Medicare cover compression stockings for venous insufficiency?",
+        question: "Does Medicare Cover Compression Stockings for Venous Insufficiency?",
         answer: "Medicare covers compression stockings for venous insufficiency only when the condition has progressed to active venous stasis ulcers. Medicare also covers other treatments for venous insufficiency, such as ablation procedures, when medically necessary.",
       },
       {
-        question: "Does Medicare pay for leg compression pumps?",
+        question: "Does Medicare Pay for Leg Compression Pumps?",
         answer: "Yes. Medicare Part B covers pneumatic compression devices (leg compression pumps) as durable medical equipment when you have a diagnosis of Lymphedema. This is separate from compression stockings.",
       },
       {
-        question: "What is the out-of-pocket cost for compression stockings?",
+        question: "What is the Out-of-pocket Cost for Compression Stockings?",
         answer: "Standard compression stockings cost between $10 and $100 per pair. Custom-fitted compression stockings can cost several hundred dollars. If Medicare covers your stockings (venous stasis ulcer), you pay 20% coinsurance after the Part B deductible.",
       },
     ],
@@ -9744,7 +9744,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "dollar", text: "Standard compression stockings cost <strong>$10–$100</strong> per pair out-of-pocket" },
     ],
     relatedTopics: [
-      { title: "What Is Durable Medical Equipment (DME)?", description: "Understand what qualifies as DME under Medicare and how coverage works.", slug: "durable-medical-equipment" },
+      { title: "What is Durable Medical Equipment (DME)?", description: "Understand what qualifies as DME under Medicare and how coverage works.", slug: "durable-medical-equipment" },
       { title: "Medicare Coverage for Wheelchairs and Scooters", description: "Learn about Medicare's coverage for mobility equipment.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
       { title: "Does Medicare Cover Ostomy Supplies?", description: "Find out about ostomy supply coverage under Medicare Part B.", slug: "does-medicare-cover-ostomy-supplies" },
       { title: "Are Incontinence Supplies Covered by Medicare?", description: "Learn what incontinence products Medicare covers and what alternatives exist.", slug: "medicare-coverage-for-incontinence-supplies" },
@@ -9835,7 +9835,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Observation Status Does Not Count",
+          title: "Observation Status Does not Count",
           text: "The 3-day hospital stay rule is strict — observation status does not count. Always confirm with your hospital that you are admitted as an inpatient, not under observation.",
         },
         costNote: "2024 SNF coinsurance: $0/day (Days 1–20), $217/day (Days 21–100), 100% out-of-pocket (Day 101+).",
@@ -9906,7 +9906,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "If you were not admitted as an inpatient for at least 3 consecutive days before your SNF admission, Medicare will not cover the SNF stay. Observation status days do not count toward the 3-day requirement.",
         },
         {
-          title: "SNF Not Medicare-Certified",
+          title: "SNF not Medicare-Certified",
           text: "The skilled nursing facility must be Medicare-certified for Medicare to pay. Always confirm the facility's certification status before admission.",
         },
         {
@@ -9917,31 +9917,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover 100% of skilled nursing facility costs?",
+        question: "Does Medicare Cover 100% of Skilled Nursing Facility Costs?",
         answer: "Medicare covers 100% of SNF costs for the first 20 days. Days 21–100 require a daily coinsurance ($217 in 2026). After day 100, Medicare pays nothing. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can cover the daily coinsurance for days 21–100.",
       },
       {
-        question: "What is the 3-day hospital stay rule for SNF coverage?",
+        question: "What is the 3-day Hospital Stay Rule for SNF Coverage?",
         answer: "To qualify for Medicare SNF coverage, you must have been admitted as an inpatient at a hospital for at least 3 consecutive days (not counting the discharge day). Observation status does not count. The SNF admission must occur within 30 days of hospital discharge.",
       },
       {
-        question: "Does Medicare cover long-term care in a nursing home?",
+        question: "Does Medicare Cover Long-term Care in a Nursing Home?",
         answer: "No. Medicare does not cover long-term custodial care in a nursing home. Medicare only covers skilled nursing care — services like wound care, IV therapy, or physical therapy provided by licensed professionals. For long-term care, you would need Medicaid or a long-term care insurance policy.",
       },
       {
-        question: "How does a Medicare benefit period work for SNF care?",
+        question: "How Does a Medicare Benefit Period Work for SNF Care?",
         answer: "A benefit period begins the day you are admitted to a hospital or SNF and ends when you have been out of a hospital or SNF for 60 consecutive days. Each new benefit period gives you a fresh 100-day SNF benefit, but you must have a new qualifying 3-day hospital stay.",
       },
       {
-        question: "Can Medicare Advantage cover more than 100 days in a SNF?",
+        question: "Can Medicare Advantage Cover More than 100 Days in a SNF?",
         answer: "Some Medicare Advantage plans do offer extended SNF benefits beyond 100 days. Review your plan's Evidence of Coverage or call your plan to confirm. Prior authorization is typically required.",
       },
       {
-        question: "What is the difference between a SNF and a nursing home?",
+        question: "What is the Difference between a SNF and a Nursing Home?",
         answer: "A skilled nursing facility (SNF) provides short-term, medically necessary skilled care after a hospital stay. A nursing home provides long-term custodial care. Medicare covers SNF care; it does not cover long-term nursing home care.",
       },
       {
-        question: "Does Medicare cover physical therapy in a SNF?",
+        question: "Does Medicare Cover Physical Therapy in a SNF?",
         answer: "Yes. Physical therapy, occupational therapy, and speech-language pathology services provided in a SNF are covered under Part A during the benefit period. Outpatient therapy after discharge is covered under [Medicare Part B](/faqs/medicare-coverage-for-physical-therapy).",
       },
     ],
@@ -9957,7 +9957,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare Coverage for Physical Therapy", description: "Learn how Medicare covers inpatient and outpatient physical therapy services.", slug: "medicare-coverage-for-physical-therapy" },
       { title: "Does Medicare Cover Hospice?", description: "Understand Medicare's hospice benefit and how it differs from SNF care.", slug: "does-medicare-cover-hospice" },
       { title: "Medicare Supplement Plan G", description: "See how Plan G covers SNF coinsurance and other Medicare cost-sharing.", slug: "plan-g" },
-      { title: "What Does Medicare Part A Cover?", description: "Explore the full scope of Medicare Part A hospital and SNF benefits.", slug: "what-does-medicare-part-a-cover" },
+      { title: "What Does Medicare Part a Cover?", description: "Explore the full scope of Medicare Part A hospital and SNF benefits.", slug: "what-does-medicare-part-a-cover" },
     ],
     sidebarRelatedLinks: [
       "What Does Medicare Part A Cover",
@@ -9966,7 +9966,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Does Medicare Cover Hospice",
     ],
     ctaBanner: {
-      title: "Worried About Skilled Nursing Facility Costs?",
+      title: "Worried about Skilled Nursing Facility Costs?",
       text: "A Medigap Plan G can eliminate your skilled nursing facility coinsurance for days 21–100, saving you up to $16,760 per benefit period. Compare plans in your area today.",
     },
     relatedSlugs: ["does-medicare-cover-hospice", "medicare-coverage-for-physical-therapy", "plan-g", "what-does-medicare-part-a-cover", "does-medicare-cover-knee-replacement", "medicare-coverage-for-skilled-nursing-facilities", "medicare-8-minute-rule", "medicare-coverage-for-lower-back-pain-management"],
@@ -10014,7 +10014,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts A & B)",
+        planName: "Original Medicare (Parts a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered — FDA-approved therapies only",
@@ -10059,7 +10059,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Prior Authorization Is Almost Always Required",
+          title: "Prior Authorization is Almost Always Required",
           text: "Prior authorization is almost always required for stem cell transplants under Medicare Advantage. Contact your plan immediately after your oncologist recommends treatment.",
         },
         costNote: "Cost-sharing varies by plan. Review your Evidence of Coverage for specific stem cell transplant cost details.",
@@ -10093,7 +10093,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Only FDA-approved stem cell therapies are covered by Medicare. Non-approved therapies are entirely out-of-pocket and may carry legal and safety risks.",
     },
     exceptionsSection: {
-      title: "Stem Cell Therapies Medicare Does NOT Cover",
+      title: "Stem Cell Therapies Medicare Does not Cover",
       items: [
         {
           title: "Non-FDA-Approved Applications",
@@ -10115,31 +10115,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover stem cell therapy for cancer?",
+        question: "Does Medicare Cover Stem Cell Therapy for Cancer?",
         answer: "Yes, Medicare covers FDA-approved stem cell therapy for certain cancers, including lymphoma and leukemia. The two approved therapies are HSCT and AuSCT. Medicare may also cover stem cell therapy through eligible clinical trials for other cancer types.",
       },
       {
-        question: "Does Medicare cover stem cell therapy for knees or hips?",
+        question: "Does Medicare Cover Stem Cell Therapy for Knees or Hips?",
         answer: "No. The FDA has not approved stem cell therapy for knee or hip conditions. Because Medicare only covers FDA-approved treatments, stem cell therapy for joints is not covered. Medicare does cover [knee replacements](/faqs/does-medicare-cover-knee-replacement) and hip replacements when medically necessary.",
       },
       {
-        question: "Does Medicare cover autologous stem cell transplants?",
+        question: "Does Medicare Cover Autologous Stem Cell Transplants?",
         answer: "Yes. Medicare covers Autologous Stem Cell Transplantation (AuSCT) for conditions such as acute leukemia in remission and advanced Hodgkin's Disease, as well as to replenish stem cells destroyed during cancer treatment.",
       },
       {
-        question: "How much does stem cell therapy cost with Medicare?",
+        question: "How Much Does Stem Cell Therapy Cost with Medicare?",
         answer: "With Original Medicare, you pay the Part A deductible ($1,632 in 2024) for inpatient transplants and 20% of outpatient costs. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can reduce your share to just the annual Part B deductible ($240 in 2024).",
       },
       {
-        question: "Does Medicare cover stem cell therapy for COPD?",
+        question: "Does Medicare Cover Stem Cell Therapy for COPD?",
         answer: "No. Stem cell therapy for COPD is not FDA-approved and is not covered by Medicare. Costs can range from $10,000 to $35,000 and the procedures may carry significant health risks.",
       },
       {
-        question: "Can Medicare cover stem cell therapy through a clinical trial?",
+        question: "Can Medicare Cover Stem Cell Therapy through a Clinical Trial?",
         answer: "Yes. If you qualify for an eligible clinical trial that meets CMS criteria, Medicare may cover the routine costs associated with the trial, including stem cell therapy. Ask your oncologist about available clinical trials.",
       },
       {
-        question: "Does Medicare Advantage cover stem cell therapy?",
+        question: "Does Medicare Advantage Cover Stem Cell Therapy?",
         answer: "Yes. Medicare Advantage plans must cover the same services as Original Medicare, including FDA-approved stem cell therapies. Prior authorization is typically required. Contact your plan before treatment.",
       },
     ],
@@ -10239,7 +10239,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Contact Your Plan Before Scheduling",
+          title: "Contact Your Plan before Scheduling",
           text: "Always contact your Medicare plan before receiving Botox injections to confirm coverage and prior authorization requirements. Your doctor may need to submit documentation of medical necessity.",
         },
         costNote: "Typical cost: 155 units at $300–$600/session. With Part B: you pay 20% (~$60–$120/session). With Plan G: $0 after the annual Part B deductible.",
@@ -10300,7 +10300,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "Medicare does not cover Botox for cosmetic purposes — reducing wrinkles, fine lines, or other aesthetic treatments. The only exception is if cosmetic Botox is medically necessary due to an accident or injury (e.g., facial nerve damage).",
         },
         {
-          title: "Fewer Than 15 Migraine Days Per Month",
+          title: "Fewer than 15 Migraine Days per Month",
           text: "For migraine coverage, you must experience 15 or more headache days per month. Botox is not covered for episodic migraines (fewer than 15 days/month). Your neurologist must document the frequency of your migraines.",
         },
         {
@@ -10315,31 +10315,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover Botox for migraines?",
+        question: "Does Medicare Cover Botox for Migraines?",
         answer: "Yes. Medicare Part B covers Botox for chronic migraines — defined as 15 or more headache days per month. The FDA approves Botox (onabotulinumtoxinA) for this indication. You must typically try other preventive treatments first. Botox is administered every 12 weeks by a neurologist or headache specialist.",
       },
       {
-        question: "Does Medicare cover Botox for overactive bladder?",
+        question: "Does Medicare Cover Botox for Overactive Bladder?",
         answer: "Yes. Medicare covers Botox injections for overactive bladder (OAB) when other treatments have failed. The injection is typically administered by a urologist in an outpatient setting. Part B covers 80% of the cost.",
       },
       {
-        question: "Does Medicare cover Botox for hyperhidrosis (excessive sweating)?",
+        question: "Does Medicare Cover Botox for Hyperhidrosis (Excessive Sweating)?",
         answer: "Yes. Medicare covers Botox for primary axillary hyperhidrosis (excessive underarm sweating) when it is severe and other treatments have not worked. Part B covers 80% of the Medicare-approved amount.",
       },
       {
-        question: "Does Medicare require prior authorization for Botox?",
+        question: "Does Medicare Require Prior Authorization for Botox?",
         answer: "Prior authorization requirements vary by plan. Original Medicare (Part B) does not always require prior authorization, but Medicare Advantage plans often do. Always contact your plan before scheduling Botox injections to confirm requirements.",
       },
       {
-        question: "Does Medicare cover Botox for cervical dystonia?",
+        question: "Does Medicare Cover Botox for Cervical Dystonia?",
         answer: "Yes. Botox is FDA-approved for cervical dystonia (a painful condition causing involuntary neck muscle contractions), and Medicare Part B covers the treatment when medically necessary.",
       },
       {
-        question: "Does Medicare cover Botox for spasticity?",
+        question: "Does Medicare Cover Botox for Spasticity?",
         answer: "Yes. Medicare covers Botox for upper limb spasticity — a condition that causes stiffness and involuntary muscle contractions in the arms and hands, often after a stroke or brain injury.",
       },
       {
-        question: "How much does Botox cost with Medicare?",
+        question: "How Much Does Botox Cost with Medicare?",
         answer: "A typical Botox treatment (155 units for migraines) costs $300–$600. With Medicare Part B covering 80%, you pay approximately $60–$120 per session. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g), your cost is $0 after the annual Part B deductible.",
       },
     ],
@@ -10412,7 +10412,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts A & B)",
+        planName: "Original Medicare (Parts a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered — comprehensive cancer coverage",
@@ -10441,7 +10441,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Original Medicare + Medigap Is Often Best for Cancer",
+          title: "Original Medicare ++ Medigap is Often Best for Cancer",
           text: "If you have Medicare plus a comprehensive Medigap plan and a Part D drug plan, most of your cancer treatment can be covered at 100%. This is one of the most compelling reasons to choose Original Medicare over Medicare Advantage for cancer patients.",
         },
         costNote: "Part B covers 80% of outpatient chemo. Without Medigap, 20% of a $10,000 chemo cycle = $2,000 out-of-pocket. With Plan G: $0.",
@@ -10466,7 +10466,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Advantage plans have annual out-of-pocket maximums, but network restrictions may limit access to specialized cancer centers.",
       },
       {
-        planName: "Medicare Part D + Medigap",
+        planName: "Medicare Part D ++ Medigap",
         icon: "users",
         iconColor: "#7C3AED",
         coverageLabel: "Covered — near-complete coverage",
@@ -10514,38 +10514,38 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "If you have a Medicare Advantage plan, receiving treatment at an out-of-network cancer center may result in significantly higher costs or no coverage. Original Medicare has no network restrictions.",
         },
         {
-          title: "Age Is Not a Barrier",
+          title: "Age is not a Barrier",
           text: "Contrary to common misconceptions, Medicare does not limit cancer coverage after age 76. Parts A and B provide the same coverage regardless of age.",
         },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover chemotherapy?",
+        question: "Does Medicare Cover Chemotherapy?",
         answer: "Yes. Medicare covers chemotherapy in hospital settings (Part A), doctor's offices, and outpatient clinics (Part B). Part B pays 80% of outpatient chemo costs. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the remaining 20%.",
       },
       {
-        question: "Does Medicare cover cancer screenings?",
+        question: "Does Medicare Cover Cancer Screenings?",
         answer: "Yes. Medicare covers 100% of many preventive cancer screenings, including annual [mammograms](/faqs/medicare-coverage-for-mammograms) for women over 40, colonoscopies every 10 years, annual lung cancer screenings for smokers aged 50–77, Pap smears, and annual prostate cancer screenings for men over 50.",
       },
       {
-        question: "Does Medicare cover immunotherapy for cancer?",
+        question: "Does Medicare Cover Immunotherapy for Cancer?",
         answer: "Yes. Medicare covers immunotherapy in many cases under Part A (inpatient) or Part B (outpatient). Coverage depends on the specific drug and its FDA approval status. Some immunotherapy drugs may not be covered under standard Medicare — check your plan's formulary.",
       },
       {
-        question: "Does Medicare cover CAR T-cell therapy?",
+        question: "Does Medicare Cover CAR T-cell Therapy?",
         answer: "Yes. Medicare covers FDA-approved CAR T-cell therapy when administered at a healthcare facility enrolled in the FDA's REMS program. It is approved for certain non-Hodgkin lymphoma and B-cell precursor acute lymphoblastic leukemia.",
       },
       {
-        question: "Does Medicare cover oral chemotherapy drugs?",
+        question: "Does Medicare Cover Oral Chemotherapy Drugs?",
         answer: "Oral chemotherapy drugs are primarily covered under [Medicare Part D](/faqs/what-is-medicare-part-d). Part B covers oral versions of IV drugs if the same drug could have been given intravenously and is taken within 48 hours of treatment. A Part D plan is essential for comprehensive oral cancer drug coverage.",
       },
       {
-        question: "Is Medicare Advantage good for cancer patients?",
+        question: "Is Medicare Advantage Good for Cancer Patients?",
         answer: "Many oncologists and cancer advocacy groups recommend Original Medicare + Medigap over Medicare Advantage for cancer patients. Advantage plans have network restrictions that may limit access to specialized cancer centers, and you cannot add a Medigap plan to reduce cost-sharing.",
       },
       {
-        question: "Does Medicare cover clinical trials for cancer?",
+        question: "Does Medicare Cover Clinical Trials for Cancer?",
         answer: "Yes. Medicare pays the routine costs of some clinical research studies, both inpatient and outpatient. If you qualify for an eligible clinical trial, Medicare may cover the standard care costs associated with the trial.",
       },
     ],
@@ -10618,7 +10618,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts A & B)",
+        planName: "Original Medicare (Parts a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered — when eligibility requirements are met",
@@ -10703,7 +10703,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "When Medicare Won't Cover Bariatric Surgery",
       items: [
         {
-          title: "BMI Below 35",
+          title: "BMI below 35",
           text: "Medicare requires a BMI of 35 or greater for bariatric surgery coverage. If your BMI is between 30 and 35, you may qualify for obesity counseling but not surgical coverage.",
         },
         {
@@ -10722,31 +10722,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover gastric bypass surgery?",
+        question: "Does Medicare Cover Gastric Bypass Surgery?",
         answer: "Yes. Medicare covers gastric bypass surgery (Roux-en-Y) when you meet the eligibility requirements: BMI ≥ 35, at least one obesity-related condition, documented participation in a supervised weight loss program, and a psychological evaluation. Part A covers the inpatient hospital stay.",
       },
       {
-        question: "Does Medicare cover sleeve gastrectomy?",
+        question: "Does Medicare Cover Sleeve Gastrectomy?",
         answer: "Yes. Medicare covers sleeve gastrectomy when your doctor deems it medically necessary and you meet the bariatric surgery eligibility requirements. This is one of the most commonly performed bariatric procedures covered by Medicare.",
       },
       {
-        question: "Does Medicare cover lap-band surgery?",
+        question: "Does Medicare Cover Lap-band Surgery?",
         answer: "Yes. Medicare covers laparoscopic adjustable gastric banding (lap-band surgery) under the right conditions. Talk to your doctor and bariatric surgeon about your eligibility.",
       },
       {
-        question: "What is the BMI requirement for Medicare bariatric surgery coverage?",
+        question: "What is the BMI Requirement for Medicare Bariatric Surgery Coverage?",
         answer: "Medicare requires a BMI of 35 or greater for bariatric surgery coverage. You must also have at least one obesity-related health condition such as type 2 diabetes, sleep apnea, or hypertension.",
       },
       {
-        question: "Does Medicare cover skin removal surgery after bariatric weight loss?",
+        question: "Does Medicare Cover Skin Removal Surgery after Bariatric Weight Loss?",
         answer: "Medicare may cover skin removal surgery (panniculectomy) after significant weight loss if it is medically necessary — for example, if the excess skin causes infections, rashes, or other medical problems. Purely cosmetic skin removal is not covered.",
       },
       {
-        question: "How much does bariatric surgery cost with Medicare?",
+        question: "How Much Does Bariatric Surgery Cost with Medicare?",
         answer: "The average cost of bariatric surgery is $25,000–$30,000. With Original Medicare, you pay the Part A deductible ($1,632 in 2024) for an inpatient procedure. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g), your out-of-pocket cost is just the annual Part B deductible ($240 in 2024).",
       },
       {
-        question: "Does Medicare cover obesity counseling?",
+        question: "Does Medicare Cover Obesity Counseling?",
         answer: "Yes. Medicare covers obesity screening and counseling as a preventive service at 100% — no cost to you. Eligible beneficiaries with a BMI over 30 can receive up to 22 intensive behavioral therapy sessions in the first year, provided by a primary care physician in a primary care setting.",
       },
     ],
@@ -10869,7 +10869,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Emergency ambulance is always covered",
+          title: "Emergency Ambulance is Always Covered",
           text: "In a true emergency, Medicare Advantage plans cannot deny ambulance coverage based on network status. You will not be penalized for using an out-of-network ambulance in a genuine emergency situation.",
         },
       },
@@ -10897,7 +10897,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Estimated Ambulance Costs Under Medicare (2026)",
+      title: "Estimated Ambulance Costs under Medicare (2026)",
       headers: ["Transport Type", "Typical Bill", "Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -10925,10 +10925,10 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual ambulance bills vary significantly by location, provider, and distance traveled.",
     },
     exceptionsSection: {
-      title: "When Medicare May Not Cover Ambulance Transport",
+      title: "When Medicare May not Cover Ambulance Transport",
       items: [
         {
-          title: "Non-Emergency Transport Without Physician Certification",
+          title: "Non-Emergency Transport without Physician Certification",
           text: "Medicare requires a physician's written order for non-emergency ambulance transport. Without this documentation, Medicare will deny the claim. If you regularly need non-emergency transport (such as for dialysis), make sure your doctor provides the required certification before each transport or on a recurring basis.",
           highlight: "Ask your doctor for a written certification before scheduling non-emergency ambulance transport. Keep a copy for your records in case of a billing dispute.",
         },
@@ -10944,31 +10944,31 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover ambulance rides to the emergency room?",
+        question: "Does Medicare Cover Ambulance Rides to the Emergency Room?",
         answer: "Yes — Medicare Part B covers emergency ambulance transport to the nearest appropriate hospital when your condition requires immediate medical attention. You pay 20% coinsurance after your Part B deductible. Medicare Advantage plans provide the same coverage, though cost-sharing varies by plan.",
       },
       {
-        question: "Does Medicare cover non-emergency ambulance transport?",
+        question: "Does Medicare Cover Non-emergency Ambulance Transport?",
         answer: "Yes, but only with a physician's written order certifying that transport by other means would endanger your health. Common examples include transport to dialysis or chemotherapy when you cannot safely travel by car. Without physician certification, Medicare will deny the claim.",
       },
       {
-        question: "Does Medicare cover air ambulance (helicopter)?",
+        question: "Does Medicare Cover Air Ambulance (Helicopter)?",
         answer: "Yes — Medicare Part B covers medically necessary air ambulance transport when ground transport would endanger your health due to the distance, terrain, or your medical condition. However, air ambulance providers may not participate in Medicare, which can result in large balance bills beyond what Medicare approves.",
       },
       {
-        question: "How much does an ambulance cost with Medicare?",
+        question: "How Much Does an Ambulance Cost with Medicare?",
         answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Ground ambulance bills typically range from $400–$1,200, so your share could be $80–$240 after the deductible. Air ambulance bills can exceed $30,000, making your 20% share potentially $6,000 or more. Medigap Plan G covers the 20% coinsurance after the deductible.",
       },
       {
-        question: "Does Medicare cover ambulance transport to dialysis?",
+        question: "Does Medicare Cover Ambulance Transport to Dialysis?",
         answer: "Yes — Medicare covers non-emergency ambulance transport to dialysis if your doctor certifies in writing that transport by other means would endanger your health. If you can travel safely by car or wheelchair van, Medicare will not cover ambulance transport to dialysis.",
       },
       {
-        question: "Will Medicare pay for an ambulance if I call 911?",
+        question: "Will Medicare Pay for an Ambulance if I Call 911?",
         answer: "Yes — if you call 911 and an ambulance responds to a genuine medical emergency, Medicare Part B will cover the transport. The ambulance company must be Medicare-approved, but in a true emergency, Medicare Advantage plans also cannot deny coverage based on network status.",
       },
       {
-        question: "Does Medigap cover ambulance costs?",
+        question: "Does Medigap Cover Ambulance Costs?",
         answer: "Yes — most Medigap plans cover the 20% Part B coinsurance for ambulance services. Medigap Plan G covers the coinsurance in full after you pay the $283 Part B deductible. This is especially valuable for air ambulance transport, where 20% of a $30,000 bill could be $6,000.",
       },
     ],
@@ -10982,7 +10982,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
-      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
+      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
       { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "plan-g" },
       { title: "Medicare Coverage for Stroke Victims", description: "Learn how Medicare covers stroke treatment, rehabilitation, and long-term care.", slug: "medicare-coverage-for-stroke-victims" },
     ],
@@ -10993,7 +10993,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "medicare-coverage-for-stroke-victims",
     ],
     ctaBanner: {
-      title: "Worried About Ambulance Bills?",
+      title: "Worried about Ambulance Bills?",
       text: "A Medigap Plan G can eliminate your 20% coinsurance for ambulance services — including air ambulance. Compare plans in your area today.",
     },
     relatedSlugs: ["will-medicare-cover-my-surgery", "what-is-medicare-part-b", "plan-g", "medicare-coverage-for-stroke-victims"],
@@ -11041,7 +11041,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -11090,7 +11090,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Verify your entire surgical team is in-network",
+          title: "Verify Your Entire Surgical Team is In-network",
           text: "Before robotic surgery, confirm that your surgeon, the hospital or surgery center, and the anesthesiologist are all in your Medicare Advantage plan's network. Out-of-network billing from any member of your surgical team can result in unexpected costs.",
         },
       },
@@ -11118,10 +11118,10 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     exceptionsSection: {
-      title: "When Robotic Surgery May Not Be Covered",
+      title: "When Robotic Surgery May not be Covered",
       items: [
         {
-          title: "Medical Necessity Is Required",
+          title: "Medical Necessity is Required",
           text: "Medicare covers robotic surgery only when the underlying procedure is medically necessary. Your doctor must document the clinical reason for the surgery. Elective procedures — including cosmetic surgery — are not covered regardless of the technique used.",
         },
         {
@@ -11132,23 +11132,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover da Vinci robotic surgery?",
+        question: "Does Medicare Cover Da Vinci Robotic Surgery?",
         answer: "Yes — Medicare covers da Vinci robotic surgery when the underlying procedure is medically necessary. Medicare does not distinguish between surgical techniques. If the procedure (such as a prostatectomy or hysterectomy) is covered, it is covered whether performed with traditional instruments or the da Vinci system.",
       },
       {
-        question: "Does Medicare cover robotic knee replacement?",
+        question: "Does Medicare Cover Robotic Knee Replacement?",
         answer: "Yes — Medicare covers robotic-assisted knee replacement surgery when it is medically necessary. The robotic technique does not change your coverage or cost-sharing. You pay the same 20% coinsurance (Part B) or Part A deductible as with traditional knee replacement surgery.",
       },
       {
-        question: "Does Medicare cover robotic prostate surgery?",
+        question: "Does Medicare Cover Robotic Prostate Surgery?",
         answer: "Yes — Medicare covers robotic prostatectomy (robotic-assisted radical prostatectomy) when it is medically necessary for prostate cancer treatment. This is one of the most common uses of robotic surgery, and Medicare covers it the same as traditional prostatectomy.",
       },
       {
-        question: "How much does robotic surgery cost with Medicare?",
+        question: "How Much Does Robotic Surgery Cost with Medicare?",
         answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible for outpatient robotic surgery. For inpatient procedures, you pay the $1,736 Part A deductible. Medigap Plan G covers the 20% coinsurance after the deductible, significantly reducing your out-of-pocket cost.",
       },
       {
-        question: "Does Medicare Advantage cover robotic surgery?",
+        question: "Does Medicare Advantage Cover Robotic Surgery?",
         answer: "Yes — Medicare Advantage plans are required to cover all services that Original Medicare covers, including medically necessary robotic surgery. Your cost-sharing depends on your specific plan. Confirm that your surgeon and facility are in-network before scheduling.",
       },
     ],
@@ -11267,7 +11267,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Check if you need a referral",
+          title: "Check if You Need a Referral",
           text: "Some Medicare Advantage plans (especially HMOs) require a referral from your primary care doctor before you can see a specialist for a second opinion. Call your plan before scheduling to avoid unexpected costs.",
         },
       },
@@ -11299,7 +11299,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "Getting a second opinion is a smart step whenever you face a major medical decision. It is not a sign of distrust toward your doctor — it is a recognized part of good medical care. Medicare specifically covers second opinions because they can prevent unnecessary procedures and ensure you receive the most appropriate treatment.",
       ],
       checklist: {
-        title: "Consider a second opinion when:",
+        title: "Consider a Second Opinion When:",
         type: "info",
         items: [
           "Your doctor recommends surgery — especially elective surgery",
@@ -11315,23 +11315,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare pay for a second opinion before surgery?",
+        question: "Does Medicare Pay for a Second Opinion before Surgery?",
         answer: "Yes — Medicare Part B covers second opinions before surgery. The visit is treated like any other outpatient doctor visit: Medicare pays 80% after your Part B deductible, and you pay 20% coinsurance. If the second opinion conflicts with the first, Medicare also covers a third opinion.",
       },
       {
-        question: "Does Medicare cover a third opinion?",
+        question: "Does Medicare Cover a Third Opinion?",
         answer: "Yes — if your first and second opinions conflict, Medicare Part B will cover a third opinion. The same cost-sharing applies: 20% coinsurance after the $283 Part B deductible.",
       },
       {
-        question: "Can I see any doctor for a second opinion with Medicare?",
+        question: "Can I See Any Doctor for a Second Opinion with Medicare?",
         answer: "Yes — you can see any Medicare-participating specialist for a second opinion. With Original Medicare or Medigap, there are no network restrictions. With Medicare Advantage, you may need to use in-network providers or get a referral from your primary care doctor.",
       },
       {
-        question: "How much does a second opinion cost with Medicare?",
+        question: "How Much Does a Second Opinion Cost with Medicare?",
         answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. A specialist consultation typically costs $150–$400, so your 20% share is $30–$80 after the deductible. Medigap Plan G covers the 20% coinsurance after the deductible.",
       },
       {
-        question: "Does Medicare Advantage cover second opinions?",
+        question: "Does Medicare Advantage Cover Second Opinions?",
         answer: "Yes — Medicare Advantage plans are required to cover second opinions at the same level as Original Medicare. However, you may need a referral or prior authorization, and you should use in-network specialists to minimize costs.",
       },
     ],
@@ -11346,7 +11346,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
       { title: "Medicare Coverage for Cancer", description: "Learn how Medicare covers cancer diagnosis, treatment, and follow-up care.", slug: "medicare-coverage-for-cancer" },
-      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
+      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
       { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "plan-g" },
     
       { title: "Medicare Physician Fee Schedule Lookup Tool", description: "Use the Medicare physician fee schedule to look up what Medicare pays for specific procedures.", slug: "medicare-physician-fee-schedule-lookup-tool" },],
@@ -11357,7 +11357,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "plan-g",
     ],
     ctaBanner: {
-      title: "Want to See Any Specialist Without Referrals?",
+      title: "Want to See Any Specialist without Referrals?",
       text: "With Medigap, you can see any Medicare-participating specialist — including for second opinions — without network restrictions. Compare plans in your area today.",
     },
     relatedSlugs: ["will-medicare-cover-my-surgery", "medicare-coverage-for-cancer", "what-is-medicare-part-b", "plan-g"],
@@ -11520,23 +11520,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "How many catheters does Medicare cover per month?",
+        question: "How Many Catheters Does Medicare Cover per Month?",
         answer: "Medicare Part B covers up to 200 intermittent catheters per month (approximately 4 per day). For closed system catheters, Medicare also covers up to 200 per month. Foley (indwelling) catheters are covered as medically necessary.",
       },
       {
-        question: "Does Medicare cover catheter supplies?",
+        question: "Does Medicare Cover Catheter Supplies?",
         answer: "Yes — Medicare Part B covers catheter insertion supplies including drainage bags, lubricants, and other accessories when they are part of a medically necessary catheter regimen. These are covered as DME under Part B.",
       },
       {
-        question: "Does Medicare cover Foley catheters?",
+        question: "Does Medicare Cover Foley Catheters?",
         answer: "Yes — Medicare Part B covers Foley (indwelling) catheters when medically necessary. Your doctor must certify the medical necessity. Foley catheters are covered as DME under Part B, and you pay 20% coinsurance after the Part B deductible.",
       },
       {
-        question: "How do I get catheters covered by Medicare?",
+        question: "How do I Get Catheters Covered by Medicare?",
         answer: "To get catheters covered by Medicare: (1) Get a written order from your doctor certifying medical necessity; (2) Find a Medicare-enrolled DME supplier; (3) Provide the supplier with your Medicare information and doctor's order. The supplier will bill Medicare directly.",
       },
       {
-        question: "Does Medicare Advantage cover catheters?",
+        question: "Does Medicare Advantage Cover Catheters?",
         answer: "Yes — Medicare Advantage plans are required to cover all DME that Original Medicare covers, including urinary catheters. Check your plan for preferred DME suppliers and cost-sharing details.",
       },
     ],
@@ -11550,7 +11550,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Medicare Coverage for Incontinence Supplies", description: "Learn what incontinence products Medicare covers and what it does not.", slug: "medicare-coverage-for-incontinence-supplies" },
-      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
+      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
       { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "plan-g" },
       { title: "Does Medicare Cover End Stage Renal Disease?", description: "Learn how Medicare covers kidney disease, dialysis, and transplants.", slug: "does-medicare-cover-end-stage-renal-disease" },
     ],
@@ -11658,7 +11658,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Prior authorization may be required",
+          title: "Prior Authorization May be Required",
           text: "Many Medicare Advantage plans require prior authorization for varicose vein procedures. Submit your documentation of symptoms and failed conservative therapy before scheduling treatment to avoid a denied claim.",
         },
       },
@@ -11693,30 +11693,30 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "Keep a symptom diary and ask your doctor to document all symptoms in your medical record. This documentation is critical if Medicare reviews your claim.",
         },
         {
-          title: "Conservative Therapy May Be Required First",
+          title: "Conservative Therapy May be Required First",
           text: "Medicare and many Medicare Advantage plans require documentation that conservative therapy (such as wearing compression stockings for 3–6 months) failed before approving more invasive procedures. Make sure your doctor documents your trial of conservative therapy and the reasons it was insufficient.",
         },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover varicose vein surgery?",
+        question: "Does Medicare Cover Varicose Vein Surgery?",
         answer: "Yes — Medicare Part B covers varicose vein surgery (including surgical stripping and endovenous ablation) when it is medically necessary. You must have documented symptoms such as pain, swelling, or skin ulcers. Cosmetic surgery for appearance only is not covered.",
       },
       {
-        question: "Does Medicare cover sclerotherapy for varicose veins?",
+        question: "Does Medicare Cover Sclerotherapy for Varicose Veins?",
         answer: "Medicare covers sclerotherapy for varicose veins when they are causing symptoms. Sclerotherapy for spider veins or purely cosmetic purposes is not covered. Your doctor must document the medical necessity.",
       },
       {
-        question: "Does Medicare cover compression stockings for varicose veins?",
+        question: "Does Medicare Cover Compression Stockings for Varicose Veins?",
         answer: "Medicare does not typically cover compression stockings for varicose veins. However, compression stockings prescribed for venous ulcers or lymphedema may be covered as DME under Part B. Check with your doctor and supplier.",
       },
       {
-        question: "How much does varicose vein treatment cost with Medicare?",
+        question: "How Much Does Varicose Vein Treatment Cost with Medicare?",
         answer: "With Original Medicare, you pay 20% coinsurance after the $283 Part B deductible. Varicose vein procedures typically cost $1,500–$5,000, so your 20% share could be $300–$1,000. Medigap Plan G covers the 20% coinsurance after the deductible.",
       },
       {
-        question: "Will Medicare pay for laser vein treatment?",
+        question: "Will Medicare Pay for Laser Vein Treatment?",
         answer: "Yes — Medicare covers endovenous laser ablation (EVLA) when it is medically necessary for symptomatic varicose veins. The procedure must be performed by a Medicare-participating provider, and you must have documented symptoms and typically a failed trial of conservative therapy.",
       },
     ],
@@ -11731,7 +11731,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Medicare Coverage for Plastic Surgery", description: "Learn when Medicare covers reconstructive vs. cosmetic procedures.", slug: "medicare-coverage-for-plastic-surgery" },
       { title: "Does Medicare Cover Surgery?", description: "Learn how Medicare covers inpatient and outpatient surgical procedures.", slug: "will-medicare-cover-my-surgery" },
-      { title: "What Is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
+      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and what you pay.", slug: "what-is-medicare-part-b" },
       { title: "Medicare Supplement Plan G", description: "See how Plan G covers the 20% coinsurance and other out-of-pocket costs.", slug: "plan-g" },
     ],
     sidebarRelatedLinks: [
@@ -11833,7 +11833,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Ask your doctor about the cardiovascular indication",
+          title: "Ask Your Doctor about the Cardiovascular Indication",
           text: "If you have established cardiovascular disease and are overweight or obese, ask your doctor whether Wegovy's cardiovascular risk reduction indication applies to you. This may allow Medicare Part D to cover the drug.",
         },
       },
@@ -11860,7 +11860,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     legislativeUpdate: {
-      title: "Legislative & Regulatory Updates on Wegovy Coverage",
+      title: "Legislative && Regulatory Updates on Wegovy Coverage",
       items: [
         {
           title: "2024 CMS Guidance: Cardiovascular Indication",
@@ -11885,7 +11885,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "If Medicare does not cover Wegovy for your situation, there are several ways to reduce your costs or access alternative treatments.",
       ],
       checklist: {
-        title: "Options to consider:",
+        title: "Options to Consider:",
         type: "tip",
         items: [
           "Ask your doctor about Ozempic (semaglutide for diabetes) if you have type 2 diabetes — it is covered by Part D",
@@ -11901,27 +11901,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare Part D cover Wegovy?",
+        question: "Does Medicare Part D Cover Wegovy?",
         answer: "Medicare Part D does not cover Wegovy for weight loss. Federal law prohibits Part D from covering weight-loss drugs. However, Medicare Part D may cover Wegovy for cardiovascular risk reduction (2024 CMS guidance) if you have established cardiovascular disease and are overweight or obese.",
       },
       {
-        question: "Does Medicare cover Ozempic?",
+        question: "Does Medicare Cover Ozempic?",
         answer: "Yes — Medicare Part D covers Ozempic (semaglutide) when prescribed for type 2 diabetes. Ozempic and Wegovy contain the same active ingredient (semaglutide) but are different formulations approved for different indications. Ozempic is covered for diabetes; Wegovy is not covered for weight loss.",
       },
       {
-        question: "Will Medicare ever cover Wegovy for weight loss?",
+        question: "Will Medicare Ever Cover Wegovy for Weight Loss?",
         answer: "Possibly — the Treat and Reduce Obesity Act (TROA) would remove the federal prohibition on Medicare coverage for weight-loss drugs. The bill has been introduced multiple times but has not yet passed. CMS has already allowed coverage for Wegovy's cardiovascular indication, which may signal broader coverage in the future.",
       },
       {
-        question: "How much does Wegovy cost without Medicare coverage?",
+        question: "How Much Does Wegovy Cost without Medicare Coverage?",
         answer: "Wegovy costs approximately $1,349 per month without insurance coverage. Novo Nordisk offers a savings card for commercially insured patients, but this is not available to Medicare beneficiaries. The NovoCare patient assistance program may provide Wegovy at reduced or no cost for qualifying low-income patients.",
       },
       {
-        question: "Does Medicare cover weight loss programs?",
+        question: "Does Medicare Cover Weight Loss Programs?",
         answer: "Yes — Medicare Part B covers intensive behavioral therapy for obesity: up to 22 sessions per year with a primary care doctor. This includes counseling on diet, physical activity, and behavior change. Medicare does not cover commercial weight-loss programs like Weight Watchers.",
       },
       {
-        question: "Does Medicare cover Mounjaro for weight loss?",
+        question: "Does Medicare Cover Mounjaro for Weight Loss?",
         answer: "No — Medicare Part D does not cover Mounjaro (tirzepatide) for weight loss. Like Wegovy, Mounjaro is excluded from Part D coverage when prescribed for weight management. However, Mounjaro is covered by Part D when prescribed for type 2 diabetes.",
       },
     ],
@@ -11935,7 +11935,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Ozempic?", description: "Learn how Medicare covers Ozempic for type 2 diabetes and what it costs.", slug: "does-medicare-cover-ozempic" },
-      { title: "What Is Medicare Part D?", description: "Understand how Medicare prescription drug coverage works.", slug: "what-is-medicare-part-d" },
+      { title: "What is Medicare Part D?", description: "Understand how Medicare prescription drug coverage works.", slug: "what-is-medicare-part-d" },
       { title: "Medicare Coverage for Bariatric Surgery", description: "Learn when Medicare covers weight-loss surgery and what you pay.", slug: "medicare-coverage-for-bariatric-surgery" },
       { title: "Does Medicare Cover Hormone Therapy for Menopause?", description: "Learn about Medicare coverage for hormone replacement therapy.", slug: "does-medicare-cover-hormone-therapy-for-menopause" },
     ],
@@ -11946,7 +11946,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-hormone-therapy-for-menopause",
     ],
     ctaBanner: {
-      title: "Paying Out of Pocket for Wegovy?",
+      title: "Paying out of Pocket for Wegovy?",
       text: "Compare Medicare Part D plans to find the best formulary for your medications. A plan with better drug coverage could save you thousands per year.",
     },
     relatedSlugs: ["does-medicare-cover-ozempic", "what-is-medicare-part-d", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-hormone-therapy-for-menopause"],
@@ -12043,7 +12043,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Verify your DME supplier is in-network",
+          title: "Verify Your DME Supplier is In-network",
           text: "Before ordering ostomy supplies, call your Medicare Advantage plan to confirm your supplier is in-network. Using an out-of-network supplier can result in significantly higher costs or no coverage.",
         },
       },
@@ -12071,7 +12071,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Estimated Ostomy Supply Costs Under Medicare (2026)",
+      title: "Estimated Ostomy Supply Costs under Medicare (2026)",
       headers: ["Supply Type", "Medicare Part", "What Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -12114,34 +12114,34 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "You can find Medicare-enrolled DME suppliers in your area using the Medicare Supplier Directory at medicare.gov.",
         },
         {
-          title: "Doctor Certification Is Required",
+          title: "Doctor Certification is Required",
           text: "Your doctor must certify that ostomy supplies are medically necessary for your care. This certification is typically provided after a colostomy, ileostomy, or urostomy procedure. Without a valid doctor's order, Medicare will deny coverage. Make sure your doctor documents the medical necessity in your records.",
         },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover colostomy bags?",
+        question: "Does Medicare Cover Colostomy Bags?",
         answer: "Yes. Medicare Part B covers colostomy bags as durable medical equipment (DME) when they are medically necessary. You must obtain them from a Medicare-enrolled DME supplier, and your doctor must certify the medical need. You pay 20% coinsurance after your annual Part B deductible of $283 (2026).",
       },
       {
-        question: "Does Medicare cover ileostomy supplies?",
+        question: "Does Medicare Cover Ileostomy Supplies?",
         answer: "Yes. Medicare Part B covers ileostomy pouches, wafers, skin barriers, and related accessories as DME. Coverage rules are the same as for colostomy supplies — you need a doctor's order and must use a Medicare-enrolled supplier.",
       },
       {
-        question: "Does Medicare cover urostomy supplies?",
+        question: "Does Medicare Cover Urostomy Supplies?",
         answer: "Yes. Medicare Part B covers urostomy pouches and related accessories as DME when medically necessary. The same coverage rules apply as for colostomy and ileostomy supplies.",
       },
       {
-        question: "How often will Medicare pay for ostomy supplies?",
+        question: "How Often Will Medicare Pay for Ostomy Supplies?",
         answer: "Medicare covers ostomy supplies on an ongoing basis as long as they remain medically necessary. There is no fixed limit on the number of supplies covered per year, but Medicare will only pay for a reasonable quantity based on your documented medical needs. Your doctor must periodically recertify the ongoing medical necessity.",
       },
       {
-        question: "Can I get ostomy supplies by mail through Medicare?",
+        question: "Can I Get Ostomy Supplies by Mail through Medicare?",
         answer: "Yes. Many Medicare-enrolled DME suppliers offer mail-order delivery of ostomy supplies. Mail-order can be a convenient way to receive your supplies regularly. Make sure the mail-order supplier is enrolled in Medicare and accepts assignment before placing your order.",
       },
       {
-        question: "Does Medigap cover ostomy supply costs?",
+        question: "Does Medigap Cover Ostomy Supply Costs?",
         answer: "Yes. Medigap plans cover some or all of the 20% coinsurance that Medicare Part B leaves behind for DME, including ostomy supplies. Medigap Plan G is one of the most popular options — it covers the Part B coinsurance in full after you meet the $283 annual deductible. This can result in significant savings for beneficiaries who need ongoing ostomy supplies.",
       },
     ],
@@ -12154,7 +12154,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Medigap Plan G</strong> can cover the 20% coinsurance after your deductible" },
     ],
     relatedTopics: [
-      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
+      { title: "What is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
       { title: "Does Medicare Cover Urinary Catheters?", description: "Find out how Medicare covers catheters and related urological supplies.", slug: "does-medicare-cover-urinary-catheters" },
       { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for DME and other services.", slug: "plan-g" },
       { title: "Will Medicare Cover My Surgery?", description: "Understand how Medicare covers surgical procedures and related care.", slug: "will-medicare-cover-my-surgery" },
@@ -12214,7 +12214,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "x",
         iconColor: "#DC2626",
         coverageLabel: "Not Covered",
@@ -12342,27 +12342,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover root canals for seniors?",
+        question: "Does Medicare Cover Root Canals for Seniors?",
         answer: "No. Original Medicare does not cover root canals for seniors or anyone else. Medicare Part A and Part B exclude routine dental care. Your options are a Medicare Advantage plan with dental benefits or a standalone dental insurance plan.",
       },
       {
-        question: "Does Medicare Advantage cover root canals?",
+        question: "Does Medicare Advantage Cover Root Canals?",
         answer: "Some Medicare Advantage plans include dental benefits that cover root canals. Coverage varies widely by plan — some only cover preventive dental care, while others offer comprehensive dental benefits. Review your plan's Evidence of Coverage or call your plan to confirm whether root canals are covered.",
       },
       {
-        question: "How much does a root canal cost without insurance?",
+        question: "How Much Does a Root Canal Cost without Insurance?",
         answer: "Without insurance, a root canal typically costs between $700 and $1,500 depending on which tooth is treated (front teeth are less expensive than molars) and your geographic location. Additional costs for a crown placed after the root canal can add $1,000 or more.",
       },
       {
-        question: "Can I get dental insurance with Medicare?",
+        question: "Can I Get Dental Insurance with Medicare?",
         answer: "Yes. Medicare beneficiaries can purchase standalone dental insurance plans that are separate from Medicare. These plans typically cost $20–$50 per month and can cover root canals, crowns, and other dental services. Many Medicare Advantage plans also include dental benefits.",
       },
       {
-        question: "Does Medicare cover tooth extractions?",
+        question: "Does Medicare Cover Tooth Extractions?",
         answer: "Original Medicare does not cover routine tooth extractions. However, Medicare Part A may cover a tooth extraction if it is medically necessary as part of a covered medical procedure (such as before heart valve surgery). Medicare Advantage plans with dental benefits may also cover extractions.",
       },
       {
-        question: "Does Medicare cover dental implants?",
+        question: "Does Medicare Cover Dental Implants?",
         answer: "Original Medicare does not cover dental implants. Some Medicare Advantage plans with comprehensive dental benefits may cover implants, but this is less common than coverage for root canals or crowns. Standalone dental plans may also offer implant coverage, often with waiting periods and annual maximums.",
       },
     ],
@@ -12378,7 +12378,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "What Dental Services Does Medicare Cover?", description: "Learn about the limited dental services that Medicare does cover.", slug: "what-dental-expenses-does-medicare-cover" },
       { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including dental.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
       { title: "Does Medicare Cover Hearing Aids?", description: "Learn about Medicare's coverage for hearing aids and audiology services.", slug: "medicare-coverage-for-hearing-aids" },
-      { title: "What Is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and what they cover.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+      { title: "What is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and what they cover.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
     ],
     sidebarRelatedLinks: [
       "What Dental Services Does Medicare Cover",
@@ -12481,12 +12481,12 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Tadalafil for BPH may have broader coverage",
+          title: "Tadalafil for BPH May Have Broader Coverage",
           text: "Tadalafil (generic Cialis) is FDA-approved for both erectile dysfunction and benign prostatic hyperplasia (BPH). When prescribed specifically for BPH, it is covered by the majority of Medicare Part D and MAPD plans. If you have both ED and BPH, ask your doctor about prescribing tadalafil for BPH.",
         },
       },
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "x",
         iconColor: "#DC2626",
         coverageLabel: "Not Covered",
@@ -12507,7 +12507,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "ED Medication Costs Under Medicare (2026)",
+      title: "ED Medication Costs under Medicare (2026)",
       headers: ["Medication", "Brand Name", "Generic Available", "Part D Coverage", "Estimated Monthly Cost (with Part D)"],
       rows: [
         {
@@ -12557,15 +12557,15 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover Viagra?",
+        question: "Does Medicare Cover Viagra?",
         answer: "No. Medicare Part D plans are prohibited by law from covering brand-name Viagra. However, some Part D plans may cover sildenafil, the generic version of Viagra. Check your plan's formulary to see if sildenafil is covered and what your copay would be.",
       },
       {
-        question: "Does Medicare cover Cialis?",
+        question: "Does Medicare Cover Cialis?",
         answer: "Medicare Part D plans do not cover brand-name Cialis. However, generic tadalafil may be covered by some Part D plans. Additionally, tadalafil is more widely covered when prescribed for benign prostatic hyperplasia (BPH) rather than erectile dysfunction.",
       },
       {
-        question: "Does Medicare cover generic Viagra (sildenafil)?",
+        question: "Does Medicare Cover Generic Viagra (Sildenafil)?",
         answer: "Some Medicare Part D plans cover sildenafil (generic Viagra), but not all. Coverage depends on your specific plan's formulary. Check your plan's drug list or use Medicare's Plan Finder tool at medicare.gov to compare plans that cover sildenafil.",
       },
       {
@@ -12573,11 +12573,11 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Congress explicitly prohibited Medicare Part D from covering drugs used for sexual or erectile dysfunction when the Part D program was created. This ban applies to brand-name ED drugs. Generic versions are not explicitly banned but must be included in a plan's formulary to be covered.",
       },
       {
-        question: "How can I save money on ED medications with Medicare?",
+        question: "How Can I Save Money on ED Medications with Medicare?",
         answer: "If your Part D plan doesn't cover your ED medication, consider: (1) asking your doctor about generic alternatives, (2) using discount programs like GoodRx which can reduce generic sildenafil to $10–$30/month, (3) comparing Part D plans during the Annual Enrollment Period to find one that covers your medication, or (4) asking your doctor about prescribing tadalafil for BPH if applicable.",
       },
       {
-        question: "Does Medicare cover ED medications for mental health-related ED?",
+        question: "Does Medicare Cover ED Medications for Mental Health-related ED?",
         answer: "Medicare covers mental health services including therapy and counseling for psychological causes of erectile dysfunction. However, the ED medications themselves (Viagra, Cialis, etc.) are still subject to the same coverage rules — brand-name drugs are excluded, and generic versions depend on your plan's formulary.",
       },
     ],
@@ -12590,8 +12590,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "Sildenafil for <strong>pulmonary arterial hypertension</strong> is covered by most Part D plans" },
     ],
     relatedTopics: [
-      { title: "What Is Medicare Part D?", description: "Learn how Medicare prescription drug coverage works and how to enroll.", slug: "what-is-medicare-part-d" },
-      { title: "What Is a Medicare Part D Formulary?", description: "Understand how drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
+      { title: "What is Medicare Part D?", description: "Learn how Medicare prescription drug coverage works and how to enroll.", slug: "what-is-medicare-part-d" },
+      { title: "What is a Medicare Part D Formulary?", description: "Understand how drug formularies work and how to check if your medication is covered.", slug: "what-is-a-medicare-part-d-formulary" },
       { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
       { title: "Does Medicare Cover a PSA Test?", description: "Learn about Medicare coverage for prostate-specific antigen (PSA) screening tests.", slug: "medicare-coverage-for-prostate-specific-antigen-psa-test" },
     ],
@@ -12602,7 +12602,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Does Medicare Cover a PSA Test",
     ],
     ctaBanner: {
-      title: "Need Help Finding a Part D Plan That Covers Your Medications?",
+      title: "Need Help Finding a Part D Plan that Covers Your Medications?",
       text: "Our licensed Medicare agents can help you compare Part D plans to find one that covers your prescriptions at the lowest cost. Compare plans in your area for free.",
     },
     relatedSlugs: ["what-is-medicare-part-d", "what-is-a-medicare-part-d-formulary", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-prostate-specific-antigen-psa-test"],
@@ -12650,7 +12650,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B — Outpatient)",
+        planName: "Original Medicare (Part B —— Outpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -12677,7 +12677,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Annual screening and up to four counseling sessions: $0. Additional outpatient therapy: 20% coinsurance after the $283 Part B deductible (2026).",
       },
       {
-        planName: "Original Medicare (Part A — Inpatient)",
+        planName: "Original Medicare (Part a —— Inpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -12724,13 +12724,13 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Verify your rehab facility is in-network",
+          title: "Verify Your Rehab Facility is In-network",
           text: "Not all alcohol rehab facilities accept Medicare Advantage plans. Before admission, call your plan to confirm the facility is in-network and whether prior authorization is required. Failure to get prior authorization can result in denied claims.",
         },
       },
     ],
     costTable: {
-      title: "Alcohol Misuse Treatment Costs Under Medicare (2026)",
+      title: "Alcohol Misuse Treatment Costs under Medicare (2026)",
       headers: ["Service", "Medicare Part", "What Medicare Pays", "Your Cost"],
       rows: [
         {
@@ -12782,27 +12782,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover alcohol rehab?",
+        question: "Does Medicare Cover Alcohol Rehab?",
         answer: "Yes. Medicare Part A covers inpatient alcohol rehab when medically necessary at a Medicare-approved facility. Medicare Part B covers outpatient alcohol counseling and substance abuse treatment. You must use a Medicare-approved facility and have a doctor's referral for inpatient treatment.",
       },
       {
-        question: "Does Medicare cover alcohol detox?",
+        question: "Does Medicare Cover Alcohol Detox?",
         answer: "Yes. Medicare Part A covers alcohol detox when medically necessary. Detox is typically a 7-day inpatient program. You must receive treatment at a Medicare-approved facility. The same Part A cost-sharing applies as for other inpatient stays — $1,736 deductible per benefit period (2026).",
       },
       {
-        question: "How many alcohol counseling sessions does Medicare cover for free?",
+        question: "How Many Alcohol Counseling Sessions Does Medicare Cover for Free?",
         answer: "Medicare Part B covers one annual alcohol misuse screening and up to four brief counseling sessions per year at no cost to you (no deductible or coinsurance). These are covered as preventive services. Additional counseling sessions beyond the four free ones are covered at 80% after your Part B deductible.",
       },
       {
-        question: "Does Medicare cover outpatient alcohol treatment?",
+        question: "Does Medicare Cover Outpatient Alcohol Treatment?",
         answer: "Yes. Medicare Part B covers outpatient alcohol treatment including individual and group psychotherapy, partial hospitalization programs, and intensive outpatient programs at Medicare-approved facilities. You pay 20% coinsurance after your $283 Part B deductible.",
       },
       {
-        question: "Why did Medicare deny my alcohol rehab claim?",
+        question: "Why Did Medicare Deny My Alcohol Rehab Claim?",
         answer: "Medicare may deny an alcohol rehab claim if: (1) the treatment was not deemed medically necessary, (2) you went to a facility that does not accept Medicare, (3) you did not have a doctor's referral, or (4) you exceeded the 190-day lifetime limit at a psychiatric hospital. If your claim is denied, you have the right to appeal.",
       },
       {
-        question: "Does Medigap cover alcohol rehab costs?",
+        question: "Does Medigap Cover Alcohol Rehab Costs?",
         answer: "Yes. Medigap plans can cover the Part A deductible ($1,736 per benefit period) and Part B coinsurance (20%) for alcohol treatment services. Medigap Plan G is a popular choice — it covers the Part A deductible and Part B coinsurance, leaving you responsible only for the annual $283 Part B deductible.",
       },
     ],
@@ -12816,7 +12816,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Medicare Preventive Services", description: "Explore the free preventive screenings and services available under Medicare Part B.", slug: "medicare-preventive-services" },
-      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what's included in your free annual wellness visit under Medicare Part B.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "What is the Medicare Annual Wellness Visit?", description: "Learn what's included in your free annual wellness visit under Medicare Part B.", slug: "what-is-the-medicare-annual-wellness-visit" },
       { title: "Medicare Coverage for Mental Health", description: "Learn about Medicare's coverage for mental health services including therapy and inpatient psychiatric care.", slug: "medicare-coverage-for-mental-health" },
       { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part A deductible and Part B coinsurance.", slug: "plan-g" },
     ],
@@ -12875,7 +12875,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Part B — Outpatient & Home Health",
+        planName: "Medicare Part B —— Outpatient && Home Health",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -12904,7 +12904,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Home health care covered by Medicare is $0 for approved services.",
       },
       {
-        planName: "Medicare Part A — Inpatient & Hospice",
+        planName: "Medicare Part a —— Inpatient && Hospice",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -12947,7 +12947,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Network restrictions are a key consideration for ALS patients",
+          title: "Network Restrictions are a Key Consideration for ALS Patients",
           text: "ALS patients often need specialized care from neurologists, ALS clinics, and specific DME suppliers. Before enrolling in a Medicare Advantage plan, verify that your entire care team is in-network. Switching to Original Medicare with a Medigap plan may provide more flexibility for ALS patients who need specialized care.",
         },
       },
@@ -13005,27 +13005,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "When do ALS patients become eligible for Medicare?",
+        question: "When do ALS Patients Become Eligible for Medicare?",
         answer: "ALS patients become eligible for Medicare as soon as they are entitled to Social Security Disability Insurance (SSDI) benefits. Unlike other disabilities, there is no 24-month waiting period for ALS. You should apply for Medicare immediately after receiving your ALS diagnosis and SSDI approval.",
       },
       {
-        question: "Does Medicare cover wheelchairs for ALS patients?",
+        question: "Does Medicare Cover Wheelchairs for ALS Patients?",
         answer: "Yes. Medicare Part B covers wheelchairs, including power wheelchairs, as durable medical equipment (DME) when medically necessary for home use. The wheelchair must be ordered by your doctor and obtained from a Medicare-enrolled DME supplier. You pay 20% coinsurance after your Part B deductible.",
       },
       {
-        question: "Does Medicare cover communication devices for ALS patients?",
+        question: "Does Medicare Cover Communication Devices for ALS Patients?",
         answer: "Yes. Medicare Part B covers speech-generating devices (SGDs) and augmentative and alternative communication (AAC) devices as DME when medically necessary for ALS patients who have lost the ability to speak. Your doctor must document the medical necessity, and you must use a Medicare-enrolled DME supplier.",
       },
       {
-        question: "Does Medicare cover home health care for ALS patients?",
+        question: "Does Medicare Cover Home Health Care for ALS Patients?",
         answer: "Yes. Medicare Part B covers home health care services for ALS patients who are homebound and under the care of a physician. Covered services include skilled nursing care, physical therapy, occupational therapy, and speech-language pathology. Medicare pays 100% for approved home health services — there is no coinsurance for home health care.",
       },
       {
-        question: "Does Medicare cover ALS medications?",
+        question: "Does Medicare Cover ALS Medications?",
         answer: "Medicare Part D covers prescription drugs for ALS patients, including riluzole (Rilutek) and edaravone (Radicava), which are FDA-approved ALS treatments. Coverage depends on your specific Part D plan's formulary. Some ALS medications are very expensive, so it's important to compare Part D plans to find one that covers your medications at the lowest cost.",
       },
       {
-        question: "Does Medicare cover hospice care for ALS patients?",
+        question: "Does Medicare Cover Hospice Care for ALS Patients?",
         answer: "Yes. Medicare Part A covers hospice care for ALS patients when a doctor certifies a life expectancy of six months or less. Hospice provides comfort-focused care and covers nearly all services including nursing care, medications for symptom management, and counseling. There is no cost for most hospice services under Medicare.",
       },
     ],
@@ -13040,7 +13040,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Does Medicare Cover End Stage Renal Disease?", description: "Learn about Medicare's special eligibility rules for ESRD patients, similar to ALS.", slug: "does-medicare-cover-end-stage-renal-disease" },
       { title: "Medicare Coverage for Skilled Nursing Facilities", description: "Understand how Medicare covers skilled nursing facility care following a hospital stay.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
-      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
+      { title: "What is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
       { title: "Medicare Coverage for Physical Therapy", description: "Learn about Medicare's coverage for physical therapy services.", slug: "medicare-coverage-for-physical-therapy" },
     ],
     sidebarRelatedLinks: [
@@ -13100,7 +13100,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B — DME)",
+        planName: "Original Medicare (Part B —— DME)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Limited Coverage",
@@ -13150,7 +13150,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Check your Medicare Advantage OTC benefit",
+          title: "Check Your Medicare Advantage OTC Benefit",
           text: "Many Medicare Advantage plans include an annual over-the-counter (OTC) allowance that can be used for bathroom safety items. Log in to your plan's member portal or call the plan to see what's included in your OTC benefit catalog.",
         },
       },
@@ -13177,7 +13177,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Bathroom Safety Device Coverage Under Medicare (2026)",
+      title: "Bathroom Safety Device Coverage under Medicare (2026)",
       headers: ["Device", "Original Medicare", "Medicare Advantage OTC", "Estimated Out-of-Pocket Cost"],
       rows: [
         {
@@ -13220,7 +13220,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs based on 2026 Medicare figures. OTC benefit coverage varies by Medicare Advantage plan and location.",
     },
     exceptionsSection: {
-      title: "Other Programs That May Help with Bathroom Safety Costs",
+      title: "Other Programs that May Help with Bathroom Safety Costs",
       items: [
         {
           title: "Veterans Affairs (VA) Grants for Home Modifications",
@@ -13235,27 +13235,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover commode chairs?",
+        question: "Does Medicare Cover Commode Chairs?",
         answer: "Yes. Medicare Part B covers commode chairs as durable medical equipment (DME) when your doctor orders them for home use because you cannot use a regular toilet. You pay 20% coinsurance after your annual $283 Part B deductible (2026). You must use a Medicare-enrolled DME supplier.",
       },
       {
-        question: "Does Medicare cover grab bars?",
+        question: "Does Medicare Cover Grab Bars?",
         answer: "No. Original Medicare does not cover grab bars. Medicare considers grab bars a home modification or convenience item, not medically necessary DME. Some Medicare Advantage plans with OTC or home safety benefits may cover grab bars. Veterans may qualify for VA grants to cover the cost.",
       },
       {
-        question: "Does Medicare cover shower chairs?",
+        question: "Does Medicare Cover Shower Chairs?",
         answer: "No. Original Medicare does not cover shower chairs or bath seats because they are not considered medically necessary DME. Some Medicare Advantage plans include over-the-counter (OTC) benefits that may cover shower chairs. You can also purchase a basic shower chair online for $15–$50.",
       },
       {
-        question: "Does Medicare cover walk-in tubs?",
+        question: "Does Medicare Cover Walk-in Tubs?",
         answer: "No. Medicare does not cover walk-in tubs. Walk-in tubs are considered home modifications, not DME. Medicare may deny reimbursement requests for walk-in tubs. Some Medicare Advantage plans may offer partial coverage through supplemental home safety benefits, but this is rare.",
       },
       {
-        question: "Does Medicare cover raised toilet seats?",
+        question: "Does Medicare Cover Raised Toilet Seats?",
         answer: "No. Original Medicare considers raised toilet seats a convenience item and does not cover them. Some Medicare Advantage plans with OTC benefits may cover raised toilet seats. They are generally affordable to purchase out of pocket, ranging from $20 to $80.",
       },
       {
-        question: "Do Medigap plans cover bathroom safety equipment?",
+        question: "Do Medigap Plans Cover Bathroom Safety Equipment?",
         answer: "Medigap plans only cover services and items that Original Medicare covers. Since Original Medicare does not cover most bathroom safety equipment (except commode chairs), Medigap cannot cover those items either. Medigap will cover the 20% coinsurance for commode chairs and other covered DME items.",
       },
     ],
@@ -13268,7 +13268,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "info", text: "<strong>Medicaid</strong> may cover bathroom safety equipment for low-income beneficiaries" },
     ],
     relatedTopics: [
-      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
+      { title: "What is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
       { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including OTC allowances.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
       { title: "Does Medicare Cover Lift Chairs?", description: "Learn about Medicare's coverage for lift chairs and power-operated vehicles.", slug: "medicare-coverage-for-lift-chairs" },
       { title: "Does Medicare Cover Wheelchairs and Scooters?", description: "Find out how Medicare covers wheelchairs and power scooters as DME.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
@@ -13375,7 +13375,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Use your OTC benefit for a home blood pressure monitor",
+          title: "Use Your OTC Benefit for a Home Blood Pressure Monitor",
           text: "Many Medicare Advantage plans include an annual OTC allowance of $100–$500. A quality home blood pressure monitor costs $25–$100 and may be eligible for purchase using your OTC benefit. Check your plan's OTC catalog or member portal.",
         },
       },
@@ -13400,7 +13400,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Blood Pressure Monitor Costs Under Medicare (2026)",
+      title: "Blood Pressure Monitor Costs under Medicare (2026)",
       headers: ["Monitor Type", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -13446,27 +13446,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover home blood pressure monitors?",
+        question: "Does Medicare Cover Home Blood Pressure Monitors?",
         answer: "Medicare does not cover standard home blood pressure monitors for general use. Medicare only covers blood pressure monitors in two situations: (1) ambulatory monitors worn for 24 hours to diagnose white coat or masked hypertension, covered once per year under Part B; and (2) home monitors for patients receiving home kidney dialysis.",
       },
       {
-        question: "Does Medicare cover blood pressure cuffs?",
+        question: "Does Medicare Cover Blood Pressure Cuffs?",
         answer: "No. Blood pressure cuffs are not classified as durable medical equipment under Medicare's coverage rules. They are sold over the counter and are not covered by Medicare Part B or Part D.",
       },
       {
-        question: "How much does a home blood pressure monitor cost?",
+        question: "How Much Does a Home Blood Pressure Monitor Cost?",
         answer: "A basic home blood pressure monitor with an arm cuff and digital display typically costs $25–$35. Smart monitors that store data or sync with smartphones cost $80–$100. You can purchase them at pharmacies, big box stores, or online without a prescription.",
       },
       {
-        question: "Can I get a blood pressure monitor through Medicare Advantage?",
+        question: "Can I Get a Blood Pressure Monitor through Medicare Advantage?",
         answer: "Some Medicare Advantage plans include an over-the-counter (OTC) benefit that may cover home blood pressure monitors. Check your plan's OTC catalog or call your plan to see if a home blood pressure monitor is eligible for purchase using your OTC allowance.",
       },
       {
-        question: "Does Medicare cover ambulatory blood pressure monitoring?",
+        question: "Does Medicare Cover Ambulatory Blood Pressure Monitoring?",
         answer: "Yes. Medicare Part B covers ambulatory blood pressure monitoring once per year when your doctor suspects white coat hypertension or masked hypertension. You wear the monitor for 24 hours, and it takes automatic readings throughout the day. You pay 20% coinsurance after your Part B deductible.",
       },
       {
-        question: "Does Medicare cover blood pressure medication?",
+        question: "Does Medicare Cover Blood Pressure Medication?",
         answer: "Yes. Medicare Part D covers prescription medications for high blood pressure (hypertension). Coverage depends on your specific Part D plan's formulary. Many common blood pressure medications — including generic versions of lisinopril, amlodipine, and metoprolol — are available at low or no cost on most Part D formularies.",
       },
     ],
@@ -13481,7 +13481,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Does Medicare Cover Cardiovascular Disease?", description: "Learn about Medicare's coverage for heart disease, cardiac tests, and cardiac rehabilitation.", slug: "medicare-coverage-for-cardiovascular-disease" },
       { title: "Does Medicare Cover Atrial Fibrillation (AFib)?", description: "Learn about Medicare's coverage for AFib diagnosis and treatment.", slug: "does-medicare-cover-atrial-fibrillation" },
-      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what's included in your free annual wellness visit under Medicare Part B.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "What is the Medicare Annual Wellness Visit?", description: "Learn what's included in your free annual wellness visit under Medicare Part B.", slug: "what-is-the-medicare-annual-wellness-visit" },
       { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including OTC allowances.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
     ],
     sidebarRelatedLinks: [
@@ -13539,7 +13539,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B — Outpatient)",
+        planName: "Original Medicare (Part B —— Outpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -13568,7 +13568,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Preventive cardiovascular services: $0. Outpatient diagnostic services and cardiologist visits: 20% coinsurance after $283 Part B deductible (2026).",
       },
       {
-        planName: "Original Medicare (Part A — Inpatient)",
+        planName: "Original Medicare (Part a —— Inpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -13612,13 +13612,13 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Verify your cardiologist is in-network",
+          title: "Verify Your Cardiologist is In-network",
           text: "Medicare Advantage plans use provider networks. Before scheduling a cardiology appointment, verify that your cardiologist and preferred hospital are in-network. Receiving care from an out-of-network provider can result in significantly higher costs.",
         },
       },
     ],
     costTable: {
-      title: "Cardiovascular Disease Treatment Costs Under Medicare (2026)",
+      title: "Cardiovascular Disease Treatment Costs under Medicare (2026)",
       headers: ["Service", "Medicare Part", "What Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -13663,7 +13663,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Key Rules for Cardiovascular Disease Coverage",
       items: [
         {
-          title: "Preventive Cardiovascular Services Are Free",
+          title: "Preventive Cardiovascular Services are Free",
           text: "Medicare Part B covers cardiovascular disease screenings (cholesterol, lipid, and triglyceride tests) once every five years at no cost to you — no deductible or coinsurance. Medicare also covers cardiovascular behavioral therapy once per year at no cost. These are preventive services, so you must receive them from a Medicare-participating provider and the visit must be billed as a preventive service.",
           highlight: "Ask your doctor to bill cardiovascular screenings as preventive services to ensure $0 cost. If the visit includes diagnostic services, cost-sharing may apply.",
         },
@@ -13675,27 +13675,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover cardiologist visits?",
+        question: "Does Medicare Cover Cardiologist Visits?",
         answer: "Yes. Medicare Part B covers cardiologist visits when they are medically necessary for the diagnosis, treatment, or management of a heart condition. You pay 20% coinsurance after your annual $283 Part B deductible (2026). The cardiologist must accept Medicare assignment.",
       },
       {
-        question: "Does Medicare cover open-heart surgery?",
+        question: "Does Medicare Cover Open-heart Surgery?",
         answer: "Yes. Medicare covers open-heart surgery as a medically necessary inpatient procedure under Part A. You pay the $1,736 Part A deductible per benefit period (2026), with $0 coinsurance for days 1–60. Medigap Plan G covers the Part A deductible, leaving you with $0 out of pocket.",
       },
       {
-        question: "Does Medicare cover heart bypass surgery?",
+        question: "Does Medicare Cover Heart Bypass Surgery?",
         answer: "Yes. Medicare covers heart bypass surgery (including triple bypass surgery) as medically necessary inpatient procedures under Part A. The same cost-sharing rules apply as for other inpatient hospital stays.",
       },
       {
-        question: "Does Medicare cover cardiac rehabilitation?",
+        question: "Does Medicare Cover Cardiac Rehabilitation?",
         answer: "Yes. Medicare Part B covers outpatient cardiac rehabilitation for patients who have had a heart attack, bypass surgery, or other qualifying cardiac events. Medicare covers up to 36 sessions (extendable to 72 if medically necessary). You pay 20% coinsurance after your Part B deductible.",
       },
       {
-        question: "Does Medicare cover a stress test?",
+        question: "Does Medicare Cover a Stress Test?",
         answer: "Yes. Medicare covers cardiac stress tests and nuclear stress tests when ordered by a doctor to diagnose or rule out heart disease. Coverage is under Part B, and you pay 20% coinsurance after your annual Part B deductible.",
       },
       {
-        question: "Does Medicare pay for a lipid panel?",
+        question: "Does Medicare Pay for a Lipid Panel?",
         answer: "Yes. Medicare Part B covers a lipid panel (cholesterol, LDL, HDL, and triglycerides) as a cardiovascular disease screening once every five years at no cost to you. If your doctor orders a lipid panel more frequently for diagnostic or monitoring purposes, you pay 20% coinsurance after your Part B deductible.",
       },
     ],
@@ -13769,7 +13769,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B) — Screening Colonoscopies",
+        planName: "Original Medicare (Part B) —— Screening Colonoscopies",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered at 100%",
@@ -13793,7 +13793,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Screening colonoscopy: $0 (no deductible, no coinsurance). Anesthesia for screening colonoscopy: $0.",
       },
       {
-        planName: "Original Medicare (Part B) — Diagnostic Colonoscopies",
+        planName: "Original Medicare (Part B) —— Diagnostic Colonoscopies",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial — 80% Covered",
@@ -13816,7 +13816,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Diagnostic colonoscopy: 20% coinsurance; Part B deductible does not apply. With Medigap Plan G, the 20% coinsurance is covered after your annual $283 deductible.",
         callout: {
           type: "warning",
-          title: "Screening to diagnostic conversion",
+          title: "Screening to Diagnostic Conversion",
           text: "If your doctor removes a polyp during what started as a screening colonoscopy, the procedure is reclassified as diagnostic. This means you will owe 20% coinsurance even though the procedure started as a free screening. Ask your doctor about this possibility before your procedure.",
         },
       },
@@ -13848,7 +13848,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Colonoscopy Costs Under Medicare (2026)",
+      title: "Colonoscopy Costs under Medicare (2026)",
       headers: ["Colonoscopy Type", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -13888,7 +13888,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Important Rules for Colonoscopy Coverage",
       items: [
         {
-          title: "The Part B Deductible Does Not Apply to Colonoscopies",
+          title: "The Part B Deductible Does not Apply to Colonoscopies",
           text: "Unlike most Part B services, the annual Part B deductible ($283 in 2026) does not apply to colonoscopies — whether screening or diagnostic. For screening colonoscopies, you pay $0. For diagnostic colonoscopies, you pay only the 20% coinsurance, not the deductible. This is an important distinction that can save you money.",
           highlight: "The Part B deductible does not apply to colonoscopies. For diagnostic colonoscopies, you owe only the 20% coinsurance — not the $283 deductible.",
         },
@@ -13900,27 +13900,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "How often does Medicare cover a colonoscopy?",
+        question: "How Often Does Medicare Cover a Colonoscopy?",
         answer: "Medicare covers a screening colonoscopy once every 10 years (120 months) for average-risk patients. For high-risk patients with a personal or family history of colorectal cancer, Medicare covers a colonoscopy once every 2 years (24 months). There is no age limit.",
       },
       {
-        question: "Does Medicare cover colonoscopy anesthesia?",
+        question: "Does Medicare Cover Colonoscopy Anesthesia?",
         answer: "Yes. Medicare covers the cost of anesthesia for a colonoscopy. For screening colonoscopies, anesthesia is covered at 100% with no cost to you. For diagnostic colonoscopies, anesthesia is covered at 80%, and you pay 20% coinsurance.",
       },
       {
-        question: "Does Medicare cover a colonoscopy after age 75?",
+        question: "Does Medicare Cover a Colonoscopy after Age 75?",
         answer: "Yes. There is no age limit for Medicare coverage of colonoscopies. Medicare will cover a colonoscopy at any age as long as it falls within the approved frequency.",
       },
       {
-        question: "How much does a colonoscopy cost with Medicare?",
+        question: "How Much Does a Colonoscopy Cost with Medicare?",
         answer: "A screening colonoscopy is fully covered by Medicare at $0 — no deductible or coinsurance. If the colonoscopy becomes diagnostic (e.g., a polyp is found and removed), you pay 20% coinsurance with no deductible. With Medigap Plan G, the 20% coinsurance is covered after your annual $283 deductible.",
       },
       {
-        question: "Does Medicare cover colon polyp removal?",
+        question: "Does Medicare Cover Colon Polyp Removal?",
         answer: "Yes. Medicare covers the removal of polyps found during a colonoscopy. However, when a polyp is removed, the procedure changes from screening to diagnostic, and you owe 20% coinsurance. The Part B deductible does not apply.",
       },
       {
-        question: "Does Medicare cover Cologuard?",
+        question: "Does Medicare Cover Cologuard?",
         answer: "Yes. Medicare covers Cologuard (stool DNA test) as a colorectal cancer screening once every three years for average-risk patients aged 45–85. It is covered at 100% with no cost to you. If your Cologuard test is positive, a follow-up diagnostic colonoscopy is required, and the 20% coinsurance applies to that procedure.",
       },
     ],
@@ -14047,7 +14047,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Referrals may be required for dermatology",
+          title: "Referrals May be Required for Dermatology",
           text: "Some Medicare Advantage HMO plans require a referral from your primary care doctor before seeing a dermatologist. Check your plan's requirements before scheduling a dermatology appointment to avoid unexpected costs.",
         },
       },
@@ -14074,7 +14074,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Dermatology Service Costs Under Medicare (2026)",
+      title: "Dermatology Service Costs under Medicare (2026)",
       headers: ["Service", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -14111,7 +14111,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs based on 2026 Medicare figures. Part B deductible: $283/year. Actual costs vary by provider and location.",
     },
     exceptionsSection: {
-      title: "When Cosmetic Procedures May Be Covered",
+      title: "When Cosmetic Procedures May be Covered",
       items: [
         {
           title: "Medically Necessary vs. Cosmetic: The Key Distinction",
@@ -14119,34 +14119,34 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "If you believe a dermatology procedure is medically necessary, ask your doctor to document the medical reason in your records. This documentation is essential for Medicare coverage.",
         },
         {
-          title: "Hair Loss: When Is It Covered?",
+          title: "Hair Loss: When is it Covered?",
           text: "Medicare does not cover treatment for cosmetic hair loss (androgenetic alopecia). However, Medicare may cover evaluation and treatment of hair loss caused by a medical condition such as alopecia areata, thyroid disease, or lupus. If your hair loss is related to a covered medical condition, the dermatology visit and treatment may be covered under Part B.",
         },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover dermatologist visits?",
+        question: "Does Medicare Cover Dermatologist Visits?",
         answer: "Yes. Medicare Part B covers visits to a dermatologist when they are medically necessary for the diagnosis or treatment of a skin condition. You pay 20% coinsurance after your annual $283 Part B deductible (2026). The dermatologist must accept Medicare assignment.",
       },
       {
-        question: "Does Medicare cover skin cancer screenings?",
+        question: "Does Medicare Cover Skin Cancer Screenings?",
         answer: "Medicare covers skin cancer screenings when there is a clinical reason — such as a suspicious mole, unusual growth, or lesion. Medicare does not cover routine full-body skin exams without a clinical reason. If your doctor refers you to a dermatologist for evaluation of a potentially cancerous growth, that visit is covered under Part B.",
       },
       {
-        question: "Does Medicare cover mole removal?",
+        question: "Does Medicare Cover Mole Removal?",
         answer: "Medicare covers mole removal when it is medically necessary — for example, when the mole is cancerous or suspected to be cancerous. Cosmetic mole removal (removing a mole for appearance reasons only) is not covered. You pay 20% coinsurance after your Part B deductible for covered mole removal.",
       },
       {
-        question: "Does Medicare cover dermatology for hair loss?",
+        question: "Does Medicare Cover Dermatology for Hair Loss?",
         answer: "Medicare does not cover treatment for cosmetic hair loss. However, if your hair loss is caused by a medical condition such as alopecia areata, thyroid disease, or lupus, Medicare may cover the dermatology visit and treatment related to that underlying condition.",
       },
       {
-        question: "Is sebaceous cyst removal covered by Medicare?",
+        question: "Is Sebaceous Cyst Removal Covered by Medicare?",
         answer: "Medicare may cover sebaceous cyst removal if it is medically necessary — for example, if the cyst is infected, causing pain, or affecting function. Cosmetic removal of a sebaceous cyst is not covered. Your doctor must document the medical necessity for Medicare to cover the procedure.",
       },
       {
-        question: "Does Medicare cover atopic dermatitis?",
+        question: "Does Medicare Cover Atopic Dermatitis?",
         answer: "Yes. Medicare Part B covers the diagnosis and treatment of atopic dermatitis (eczema) as a medically necessary service. This includes dermatologist visits, prescription medications, and other treatments. Medicare Part D covers prescription drugs for atopic dermatitis, including newer biologic medications such as dupilumab (Dupixent).",
       },
     ],
@@ -14268,7 +14268,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Verify your supplier is in-network",
+          title: "Verify Your Supplier is In-network",
           text: "Medicare Advantage plans require you to use in-network providers and suppliers. Before purchasing diabetic shoes, confirm that both your podiatrist and the shoe supplier are in your plan's network to avoid paying the full cost out of pocket.",
         },
       },
@@ -14295,7 +14295,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Diabetic Shoe Costs Under Medicare (2026)",
+      title: "Diabetic Shoe Costs under Medicare (2026)",
       headers: ["Item", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -14347,27 +14347,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover shoes for diabetic neuropathy?",
+        question: "Does Medicare Cover Shoes for Diabetic Neuropathy?",
         answer: "Yes. Medicare can cover extra-depth shoes for diabetic neuropathy. You can get one pair of extra-depth shoes and three pairs of inserts per calendar year. You must meet the eligibility requirements and use a Medicare-enrolled supplier.",
       },
       {
-        question: "Can nurse practitioners prescribe diabetic shoes?",
+        question: "Can Nurse Practitioners Prescribe Diabetic Shoes?",
         answer: "Yes. Nurse practitioners, physician assistants, nurse specialists, and podiatrists can prescribe diabetic shoes. The prescribing provider must provide proper documentation that the patient's feet have been thoroughly examined.",
       },
       {
-        question: "Are diabetic shoes considered durable medical equipment?",
+        question: "Are Diabetic Shoes Considered Durable Medical Equipment?",
         answer: "Diabetic shoes fall under Medicare Part B benefits, similar to most durable medical equipment. They are covered as therapeutic shoes under the Therapeutic Shoe Bill, which provides Part B reimbursement for qualifying beneficiaries with diabetes.",
       },
       {
-        question: "How much do diabetic shoes cost with Medicare?",
+        question: "How Much do Diabetic Shoes Cost with Medicare?",
         answer: "Diabetic shoes typically cost $50–$200 per pair retail. With Medicare Part B, you pay 20% coinsurance after your annual $283 deductible (2026). With Medigap Plan G, your only cost is the $283 annual deductible. The exact amount depends on the type of shoe and your supplier's charges.",
       },
       {
-        question: "How many pairs of diabetic shoes does Medicare cover per year?",
+        question: "How Many Pairs of Diabetic Shoes Does Medicare Cover per Year?",
         answer: "Medicare covers one pair of custom-molded shoes with inserts or one pair of extra-depth shoes per calendar year. Medicare also covers up to five pairs of inserts per year (two extra pairs for custom-molded shoes, three pairs for extra-depth shoes). Shoe modifications may be covered in place of inserts.",
       },
       {
-        question: "Does Medicare Advantage cover diabetic shoes?",
+        question: "Does Medicare Advantage Cover Diabetic Shoes?",
         answer: "Yes. Medicare Advantage plans must cover all services that Original Medicare covers, including therapeutic diabetic shoes and inserts. You must meet the same eligibility requirements and use an in-network supplier. Cost-sharing may vary by plan.",
       },
     ],
@@ -14381,7 +14381,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Diabetes Supplies?", description: "Learn about Medicare's coverage for glucose monitors, test strips, and insulin.", slug: "medicare-diabetes" },
-      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
+      { title: "What is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
       { title: "Does Medicare Cover Podiatry?", description: "Learn about Medicare's coverage for podiatrist visits and foot care.", slug: "does-medicare-cover-chiropractic-care" },
       { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for diabetic shoes.", slug: "plan-g" },
     
@@ -14442,7 +14442,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -14490,7 +14490,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Compare Medicare Advantage hearing benefits",
+          title: "Compare Medicare Advantage Hearing Benefits",
           text: "Medicare Advantage hearing benefits vary widely by plan. Some plans offer $0 copay hearing exams and up to $2,500 in hearing aid benefits per year. Compare plans in your area to find the best hearing coverage for your needs.",
         },
       },
@@ -14571,27 +14571,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover hearing aids?",
+        question: "Does Medicare Cover Hearing Aids?",
         answer: "No. Original Medicare (Part A and Part B) does not cover hearing aids or hearing aid fitting exams. Medicare does not consider hearing aids medically necessary. Some Medicare Advantage plans may offer hearing aid benefits that vary by plan and location.",
       },
       {
-        question: "Does Medicare Part B cover hearing aids?",
+        question: "Does Medicare Part B Cover Hearing Aids?",
         answer: "No. Medicare Part B does not cover hearing aids. However, Part B does cover diagnostic hearing and balance exams when ordered by a doctor for a medical reason. If a diagnostic exam reveals hearing loss, Medicare will not pay for hearing aids.",
       },
       {
-        question: "Does Medicare Part D cover hearing aids?",
+        question: "Does Medicare Part D Cover Hearing Aids?",
         answer: "No. Medicare Part D covers prescription drugs only. Hearing aids are medical devices, not prescription drugs, and are not covered under Part D.",
       },
       {
-        question: "How much do hearing aids cost without Medicare coverage?",
+        question: "How Much do Hearing Aids Cost without Medicare Coverage?",
         answer: "Prescription hearing aids typically cost $1,000–$8,000 per pair, with an average of $4,600. This often includes consultation, hearing test, fitting, adjustments, and warranty. Over-the-counter hearing aids cost $250–$3,000 per pair, with an average of $1,600.",
       },
       {
-        question: "Does Medicare cover cochlear implants?",
+        question: "Does Medicare Cover Cochlear Implants?",
         answer: "Yes. Medicare Part B covers cochlear implants when medically necessary. Cochlear implants are surgically implanted devices for severe hearing loss and are classified differently from hearing aids. You pay 20% coinsurance after your Part B deductible.",
       },
       {
-        question: "Does TRICARE for Life cover hearing aids?",
+        question: "Does TRICARE for Life Cover Hearing Aids?",
         answer: "Yes. TRICARE for Life covers hearing aids for eligible military retirees. TRICARE provides coverage for one hearing aid per ear every three years. If you have both Medicare and TRICARE for Life, TRICARE may cover hearing aids that Medicare does not.",
       },
     ],
@@ -14666,7 +14666,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B — Hip Injections)",
+        planName: "Original Medicare (Part B —— Hip Injections)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -14692,7 +14692,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026) for covered hip injections.",
       },
       {
-        planName: "Original Medicare (Part A — Hip Replacement)",
+        planName: "Original Medicare (Part a —— Hip Replacement)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -14741,7 +14741,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Hip Injection and Hip Replacement Costs Under Medicare (2026)",
+      title: "Hip Injection and Hip Replacement Costs under Medicare (2026)",
       headers: ["Service", "Medicare Part", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -14793,27 +14793,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover cortisone shots for hip pain?",
+        question: "Does Medicare Cover Cortisone Shots for Hip Pain?",
         answer: "Yes. Medicare Part B covers cortisone injections for hip pain when medically necessary. Coverage is typically limited to three cortisone shots per year per joint. You pay 20% coinsurance after your annual $283 Part B deductible (2026).",
       },
       {
-        question: "Does Medicare cover hip replacement surgery?",
+        question: "Does Medicare Cover Hip Replacement Surgery?",
         answer: "Yes. Medicare covers hip replacement surgery when medically necessary. Inpatient hip replacement is covered under Part A with a $1,736 deductible per benefit period (2026). Outpatient hip replacement is covered under Part B at 80%. There is no limit on the number of hip replacements Medicare will cover.",
       },
       {
-        question: "Does Medicare cover stem cell injections for hips?",
+        question: "Does Medicare Cover Stem Cell Injections for Hips?",
         answer: "No. Stem cell injections for orthopedic use do not have FDA approval. Because they are not FDA-approved, Medicare does not cover stem cell injections for hip conditions. You would pay the full cost out of pocket, which can range from $5,000 to $10,000 or more.",
       },
       {
-        question: "How much does a hip replacement cost with Medicare?",
+        question: "How Much Does a Hip Replacement Cost with Medicare?",
         answer: "The average cost of a hip replacement is $32,000–$44,000, but Medicare covers the majority. Under Part A, you pay the $1,736 deductible per benefit period with $0 coinsurance for days 1–60. With Medigap Plan G, you pay $0 out of pocket for inpatient hip replacement.",
       },
       {
-        question: "Is there a limit on how many hip replacements Medicare will cover?",
+        question: "Is There a Limit on How Many Hip Replacements Medicare Will Cover?",
         answer: "No. There is no limit on the number of hip replacements Medicare will cover. If your doctor determines that another hip replacement is medically necessary, Medicare will cover it. Each replacement is subject to the Part A deductible per benefit period.",
       },
       {
-        question: "Does Medicare cover physical therapy after hip replacement?",
+        question: "Does Medicare Cover Physical Therapy after Hip Replacement?",
         answer: "Yes. Medicare Part B covers physical therapy after hip replacement when medically necessary. You pay 20% coinsurance after your Part B deductible. Medicare also covers inpatient rehabilitation at a skilled nursing facility following a qualifying hospital stay under Part A.",
       },
     ],
@@ -14889,7 +14889,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & Part B — Home Health)",
+        planName: "Original Medicare (Part a && Part B —— Home Health)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered at $0",
@@ -14939,7 +14939,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Check your MA plan for extra home care benefits",
+          title: "Check Your MA Plan for Extra Home Care Benefits",
           text: "Some Medicare Advantage plans offer supplemental home care benefits including meal delivery, personal care assistance, and transportation. These benefits vary by plan and location. Review your plan's Evidence of Coverage or call your plan to see what's included.",
         },
       },
@@ -14966,7 +14966,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Home Health Care Costs Under Medicare (2026)",
+      title: "Home Health Care Costs under Medicare (2026)",
       headers: ["Service", "Medicare Coverage", "Your Cost", "Notes"],
       rows: [
         {
@@ -15024,27 +15024,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover home health care?",
+        question: "Does Medicare Cover Home Health Care?",
         answer: "Yes. Medicare covers home health care at $0 when you are homebound, need skilled nursing care or therapy, your doctor orders the care, and you use a Medicare-certified home health agency. There is no deductible or coinsurance for covered home health services.",
       },
       {
-        question: "How long does Medicare pay for home health care?",
+        question: "How Long Does Medicare Pay for Home Health Care?",
         answer: "Medicare covers intermittent skilled nursing care for up to 21 days (less than 7 days/week, less than 8 hours/day). A 3-week extension may be available in exceptional circumstances. Medicare will continue to cover home health care as long as it is medically necessary and your doctor continues to order it.",
       },
       {
-        question: "Does Medicare cover 24-hour home care?",
+        question: "Does Medicare Cover 24-hour Home Care?",
         answer: "No. Medicare does not cover 24-hour home care or around-the-clock nursing at home. Medicare covers intermittent skilled care only. If you need 24-hour care, you would need to pay privately or explore long-term care insurance options.",
       },
       {
-        question: "Does Medicare cover home health care for dementia?",
+        question: "Does Medicare Cover Home Health Care for Dementia?",
         answer: "Yes. Medicare covers home health care for dementia patients who are homebound. If your doctor determines you are homebound due to dementia, you can receive up to 35 hours per week of home health services, including skilled nursing care and therapy.",
       },
       {
-        question: "Can a family member be a paid caregiver under Medicare?",
+        question: "Can a Family Member be a Paid Caregiver under Medicare?",
         answer: "In some cases, family members can provide Medicare-covered home health care services if they are qualified and the care is ordered by a doctor through a Medicare-certified home health agency. The family member must provide skilled services — not just personal care or homemaker services.",
       },
       {
-        question: "Does Medicare cover meal delivery for homebound patients?",
+        question: "Does Medicare Cover Meal Delivery for Homebound Patients?",
         answer: "No. Original Medicare does not cover meal delivery services. However, some Medicare Advantage plans offer meal delivery as a supplemental benefit. If you need meal delivery, check whether your Medicare Advantage plan includes this benefit.",
       },
     ],
@@ -15181,7 +15181,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Lift Chair Costs Under Medicare (2026)",
+      title: "Lift Chair Costs under Medicare (2026)",
       headers: ["Component", "Medicare Coverage", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
         {
@@ -15227,23 +15227,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare pay for the entire lift chair?",
+        question: "Does Medicare Pay for the Entire Lift Chair?",
         answer: "No. Medicare Part B covers only the lifting mechanism of the lift chair — not the chair itself. You pay the full cost of the seat/chair portion out of pocket. Medicare covers 80% of the lifting mechanism after your Part B deductible.",
       },
       {
-        question: "How much does a lift chair cost after Medicare pays?",
+        question: "How Much Does a Lift Chair Cost after Medicare Pays?",
         answer: "After Medicare pays its share of the lifting mechanism, you typically pay around $350 for the mechanism (20% coinsurance + deductible) plus the full cost of the chair portion ($400–$2,000+). With Medigap Plan G, your mechanism cost drops to the $283 annual deductible only.",
       },
       {
-        question: "Does Medicare cover sleep chairs?",
+        question: "Does Medicare Cover Sleep Chairs?",
         answer: "Medicare covers the lifting mechanism for lift chairs that can recline flat (sometimes called sleep chairs). Most lift chair models can recline to a flat position. Medicare covers the lift mechanism regardless of the chair's reclining capabilities.",
       },
       {
-        question: "Does Medicare cover lift chair recliners?",
+        question: "Does Medicare Cover Lift Chair Recliners?",
         answer: "Medicare covers only the lifting mechanism, not the reclining device or other chair features. You are responsible for the cost of the reclining features and the chair itself.",
       },
       {
-        question: "Does Medicare cover Lazy Boy lift chairs?",
+        question: "Does Medicare Cover Lazy Boy Lift Chairs?",
         answer: "Medicare covers the lifting mechanism regardless of brand. You can choose any brand — including La-Z-Boy — and pay for the chair/seat portion out of pocket. The lifting mechanism must be purchased from a Medicare-approved supplier.",
       },
       {
@@ -15260,7 +15260,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "info", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance for the lifting mechanism" },
     ],
     relatedTopics: [
-      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
+      { title: "What is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
       { title: "Does Medicare Cover Wheelchairs and Scooters?", description: "Learn about Medicare's coverage for wheelchairs and power scooters.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
       { title: "Medicare Coverage for Bathroom Safety Devices", description: "Learn about Medicare's coverage for commode chairs and bathroom safety equipment.", slug: "medicare-coverage-for-bathroom-safety-devices" },
       { title: "Medicare Supplement Plan G", description: "Learn how Plan G can cover your Part B coinsurance for lift chairs.", slug: "plan-g" },
@@ -15282,7 +15282,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-lower-back-pain-management",
     seo: {
-      title: "Find Pain Management Doctors That Accept Medicare",
+      title: "Find Pain Management Doctors that Accept Medicare",
       description: "Original Medicare covers pain management services when medically necessary. Learn about treatment options, costs, and how to find doctors that accept Medicare.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-lower-back-pain-management/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-lower-back-pain-management.jpg",
@@ -15390,39 +15390,39 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions & Limitations",
+      title: "Important Exceptions && Limitations",
       items: [
-        { title: "Spinal decompression therapy is generally...", text: "Spinal decompression therapy is generally not considered medically necessary by Medicare" },
-        { title: "You must prove alternative treatments...", text: "You must prove alternative treatments were unsuccessful before Medicare covers epidural injections or RFA" },
-        { title: "Chiropractic coverage is limited to...", text: "Chiropractic coverage is limited to manual spinal manipulation — X-rays and other services are not covered" },
-        { title: "Pain management must be ordered...", text: "Pain management must be ordered by a physician to receive Medicare coverage" },
-        { title: "Medicare Advantage plans may require...", text: "Medicare Advantage plans may require prior authorization or referrals for specialist visits" },
-        { title: "Experimental or investigational pain treatments...", text: "Experimental or investigational pain treatments are not covered by Medicare" },
+        { title: "Spinal Decompression Therapy is Generally...", text: "Spinal decompression therapy is generally not considered medically necessary by Medicare" },
+        { title: "You Must Prove Alternative Treatments...", text: "You must prove alternative treatments were unsuccessful before Medicare covers epidural injections or RFA" },
+        { title: "Chiropractic Coverage is Limited To...", text: "Chiropractic coverage is limited to manual spinal manipulation — X-rays and other services are not covered" },
+        { title: "Pain Management Must be Ordered...", text: "Pain management must be ordered by a physician to receive Medicare coverage" },
+        { title: "Medicare Advantage Plans May Require...", text: "Medicare Advantage plans may require prior authorization or referrals for specialist visits" },
+        { title: "Experimental or Investigational Pain Treatments...", text: "Experimental or investigational pain treatments are not covered by Medicare" },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover cortisone injections for back pain?",
+        question: "Does Medicare Cover Cortisone Injections for Back Pain?",
         answer: "Yes. Medicare Part B covers cortisone injections for lower back pain usually without prior authorization. You pay the Part B deductible plus 20% coinsurance. Different doses have different costs, so ask your doctor about the Medicare-allowable amount for each procedure.",
       },
       {
-        question: "How much does radiofrequency ablation cost with Medicare?",
+        question: "How Much Does Radiofrequency Ablation Cost with Medicare?",
         answer: "When medically necessary, Medicare covers radiofrequency ablation (RFA). You are responsible for the Part B deductible and 20% coinsurance. To qualify, your pain must be extreme and other methods must have failed. Costs may vary on Medicare Advantage plans.",
       },
       {
-        question: "Does Medicare cover epidural steroid injections?",
+        question: "Does Medicare Cover Epidural Steroid Injections?",
         answer: "Yes, Medicare Part B covers epidural steroid injections when your doctor determines they are medically necessary after alternative treatments have been unsuccessful. You pay the Part B deductible and 20% coinsurance.",
       },
       {
-        question: "Is spinal decompression covered by Medicare?",
+        question: "Is Spinal Decompression Covered by Medicare?",
         answer: "Medicare generally does not consider spinal decompression therapy medically necessary, even if it provides pain relief. In rare circumstances where a physician deems it medically necessary, standard Part B coverage may apply.",
       },
       {
-        question: "Does Medicare cover physical therapy for back pain?",
+        question: "Does Medicare Cover Physical Therapy for Back Pain?",
         answer: "Yes. Medicare Part B covers physical therapy for back pain when prescribed by a doctor. There is no annual cap on sessions, though a $2,480 threshold triggers a medical necessity review. You pay the Part B deductible and 20% coinsurance.",
       },
       {
-        question: "Do I need a referral to see a pain management doctor with Medicare?",
+        question: "Do I Need a Referral to See a Pain Management Doctor with Medicare?",
         answer: "With Original Medicare, you do not need a referral to see a pain management specialist. However, Medicare Advantage plans may require a referral from your primary care physician before seeing a specialist.",
       },
     ],
@@ -15568,39 +15568,39 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions & Limitations",
+      title: "Important Exceptions && Limitations",
       items: [
-        { title: "You must have a progressive...", text: "You must have a progressive end-stage cardiopulmonary or pulmonary diagnosis to qualify" },
-        { title: "All other treatment options must...", text: "All other treatment options must be exhausted before Medicare approves the transplant" },
-        { title: "Care must take place at...", text: "Care must take place at a certified facility participating in Medicare's transplant program" },
-        { title: "Doctors must document the medical...", text: "Doctors must document the medical necessity of the transplant" },
-        { title: "Part D drug formularies are...", text: "Part D drug formularies are subject to change — verify your medications are covered" },
-        { title: "Medicare Advantage plans may have...", text: "Medicare Advantage plans may have different rules; contact your carrier before the procedure" },
+        { title: "You Must Have a Progressive...", text: "You must have a progressive end-stage cardiopulmonary or pulmonary diagnosis to qualify" },
+        { title: "All Other Treatment Options Must...", text: "All other treatment options must be exhausted before Medicare approves the transplant" },
+        { title: "Care Must Take Place At...", text: "Care must take place at a certified facility participating in Medicare's transplant program" },
+        { title: "Doctors Must Document the Medical...", text: "Doctors must document the medical necessity of the transplant" },
+        { title: "Part D Drug Formularies Are...", text: "Part D drug formularies are subject to change — verify your medications are covered" },
+        { title: "Medicare Advantage Plans May Have...", text: "Medicare Advantage plans may have different rules; contact your carrier before the procedure" },
       ],
     },
     faqs: [
       {
-        question: "What are the qualifications for Medicare to cover a lung transplant?",
+        question: "What are the Qualifications for Medicare to Cover a Lung Transplant?",
         answer: "You must have a diagnosis of progressive end-stage cardiopulmonary or pulmonary disease. All other treatment options must be exhausted, and doctors must document the medical necessity. Care must take place at a certified Medicare transplant facility.",
       },
       {
-        question: "How much does a lung transplant cost with Medicare?",
+        question: "How Much Does a Lung Transplant Cost with Medicare?",
         answer: "A bilateral lung transplant can cost up to $1 million. With Original Medicare, you pay the Part A deductible ($1,736 in 2025) for the hospital stay and 20% coinsurance for Part B services. A Medigap plan can significantly reduce your out-of-pocket costs.",
       },
       {
-        question: "Does Medicare pay for anti-rejection drugs?",
+        question: "Does Medicare Pay for Anti-rejection Drugs?",
         answer: "Yes. Medicare pays for anti-rejection (immunosuppressive) drugs if it covers your transplant. If Medicare doesn't pay for your transplant, a Part D plan may still cover anti-rejection drugs. These drugs prevent the body from rejecting the transplanted organ.",
       },
       {
-        question: "How much does Medicare pay for lung cancer screenings?",
+        question: "How Much Does Medicare Pay for Lung Cancer Screenings?",
         answer: "If you qualify, Medicare pays 100% for an annual lung cancer screening. Eligible beneficiaries include those ages 55–77 who currently smoke or quit within the last 15 years and have a 30-pack-year smoking history.",
       },
       {
-        question: "How do I get on the lung transplant list?",
+        question: "How do I Get on the Lung Transplant List?",
         answer: "First, get a referral from your doctor. Then contact a transplant facility (there are more than 200 nationwide) and schedule an evaluation. Once the hospital's transplant team deems you a suitable candidate, they will add you to the national waiting list.",
       },
       {
-        question: "Do Medicare Supplement plans cover lung transplants?",
+        question: "Do Medicare Supplement Plans Cover Lung Transplants?",
         answer: "Yes. When Medicare approves a lung transplant, Medigap covers the remaining deductibles, coinsurance, and copayments. This is critical given the high cost of transplant surgery, which can reach $1 million.",
       },
     ],
@@ -15740,39 +15740,39 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions & Limitations",
+      title: "Important Exceptions && Limitations",
       items: [
-        { title: "Oxygen saturation must be below...", text: "Oxygen saturation must be below 88% at rest or below 90% during activity to qualify" },
-        { title: "You must have a written...", text: "You must have a written prescription from your doctor for oxygen therapy" },
-        { title: "Equipment must be rented —...", text: "Equipment must be rented — not purchased — from a Medicare-approved supplier" },
-        { title: "Portable oxygen concentrators require proof...", text: "Portable oxygen concentrators require proof that you need constant oxygen therapy outside the home" },
-        { title: "After 5 years, your need...", text: "After 5 years, your need for oxygen must be reevaluated before renewing" },
-        { title: "Medicare does not cover oxygen...", text: "Medicare does not cover oxygen equipment from non-approved suppliers" },
+        { title: "Oxygen Saturation Must be Below...", text: "Oxygen saturation must be below 88% at rest or below 90% during activity to qualify" },
+        { title: "You Must Have a Written...", text: "You must have a written prescription from your doctor for oxygen therapy" },
+        { title: "Equipment Must be Rented —...—...", text: "Equipment must be rented — not purchased — from a Medicare-approved supplier" },
+        { title: "Portable Oxygen Concentrators Require Proof...", text: "Portable oxygen concentrators require proof that you need constant oxygen therapy outside the home" },
+        { title: "After 5 Years, Your Need...", text: "After 5 years, your need for oxygen must be reevaluated before renewing" },
+        { title: "Medicare Does not Cover Oxygen...", text: "Medicare does not cover oxygen equipment from non-approved suppliers" },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover portable oxygen concentrators?",
+        question: "Does Medicare Cover Portable Oxygen Concentrators?",
         answer: "Yes. Medicare Part B covers portable oxygen concentrators when your doctor states you need constant oxygen therapy outside your home. You must meet the same eligibility criteria as stationary oxygen equipment, including oxygen saturation levels below 88% at rest.",
       },
       {
-        question: "How long does Medicare cover oxygen equipment?",
+        question: "How Long Does Medicare Cover Oxygen Equipment?",
         answer: "Medicare covers oxygen equipment rental for 36 months. After that, the supplier must continue providing oxygen for an additional 24 months (5 years total). After 5 years, your need is reevaluated and you can renew or choose a new supplier.",
       },
       {
-        question: "How much does oxygen therapy cost with Medicare?",
+        question: "How Much Does Oxygen Therapy Cost with Medicare?",
         answer: "After meeting the Part B deductible ($283 in 2025), you pay 20% of the Medicare-approved rental amount. Your exact cost depends on the equipment type and supplier. A Medigap plan can cover the 20% coinsurance.",
       },
       {
-        question: "What oxygen saturation level qualifies for Medicare coverage?",
+        question: "What Oxygen Saturation Level Qualifies for Medicare Coverage?",
         answer: "Your oxygen saturation must be below 88% while at rest, or below 90% while engaging in activity. This is measured using a pulse oximeter. Your doctor must document these levels for Medicare to approve coverage.",
       },
       {
-        question: "Does Medicare cover oxygen concentrator servicing?",
+        question: "Does Medicare Cover Oxygen Concentrator Servicing?",
         answer: "Yes. After the 36-month rental period ends, Medicare Part B covers the cost of servicing your oxygen concentrator every six months. This ensures your equipment continues to function properly.",
       },
       {
-        question: "Can I buy my own oxygen equipment with Medicare?",
+        question: "Can I Buy My Own Oxygen Equipment with Medicare?",
         answer: "While you can purchase oxygen equipment, it is more cost-effective to rent through Medicare. Rental payments are covered for up to 36 months, and the supplier must continue providing oxygen for up to 5 years total.",
       },
     ],
@@ -15785,7 +15785,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "info", text: "Must rent from a <strong>Medicare-approved supplier</strong>" },
     ],
     relatedTopics: [
-      { title: "What Is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
+      { title: "What is Durable Medical Equipment (DME)?", description: "Learn how Medicare defines and covers durable medical equipment.", slug: "durable-medical-equipment" },
       { title: "Does Medicare Cover COPD?", description: "Learn about Medicare's coverage for chronic obstructive pulmonary disease.", slug: "does-medicare-cover-copd" },
       { title: "Will Medicare Pay for a Nebulizer Machine?", description: "Learn about Medicare's coverage for nebulizer machines and respiratory equipment.", slug: "will-medicare-pay-for-a-nebulizer-machine" },
       { title: "Medicare Coverage for Lung Transplants", description: "Learn about Medicare's coverage for lung transplant surgery.", slug: "medicare-coverage-for-lung-transplants" },
@@ -15912,39 +15912,39 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions & Limitations",
+      title: "Important Exceptions && Limitations",
       items: [
-        { title: "A doctor must determine the...", text: "A doctor must determine the pacemaker is medically necessary for your cardiac condition" },
-        { title: "You must have cardiac irregularities...", text: "You must have cardiac irregularities or atrial fibrillation that requires a pacemaker" },
-        { title: "Pacemaker batteries typically last 7–8...", text: "Pacemaker batteries typically last 7–8 years before replacement is needed" },
-        { title: "Biventricular pacemakers require a specific...", text: "Biventricular pacemakers require a specific monitoring schedule post-surgery" },
-        { title: "Transtelephonic monitoring records must be...", text: "Transtelephonic monitoring records must be at least 30 seconds and viewable on an ECG strip" },
-        { title: "Medicare Advantage plans may have...", text: "Medicare Advantage plans may have network restrictions for cardiologists and hospitals" },
+        { title: "A Doctor Must Determine The...", text: "A doctor must determine the pacemaker is medically necessary for your cardiac condition" },
+        { title: "You Must Have Cardiac Irregularities...", text: "You must have cardiac irregularities or atrial fibrillation that requires a pacemaker" },
+        { title: "Pacemaker Batteries Typically Last 7–8...", text: "Pacemaker batteries typically last 7–8 years before replacement is needed" },
+        { title: "Biventricular Pacemakers Require a Specific...", text: "Biventricular pacemakers require a specific monitoring schedule post-surgery" },
+        { title: "Transtelephonic Monitoring Records Must Be...", text: "Transtelephonic monitoring records must be at least 30 seconds and viewable on an ECG strip" },
+        { title: "Medicare Advantage Plans May Have...", text: "Medicare Advantage plans may have network restrictions for cardiologists and hospitals" },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover pacemaker battery replacements?",
+        question: "Does Medicare Cover Pacemaker Battery Replacements?",
         answer: "Yes. Medicare covers battery replacements for single and dual chamber pacemakers. Pacemaker batteries typically last 7–8 years. When the battery wears down, a new pacemaker must be implanted, and Medicare covers the procedure.",
       },
       {
-        question: "How much does a pacemaker cost with Medicare?",
+        question: "How Much Does a Pacemaker Cost with Medicare?",
         answer: "Pacemaker surgery can cost $50,000–$100,000+. With Original Medicare alone, you could pay 20% coinsurance (potentially $18,000+ for a $90,000 procedure). With a Medigap plan, your cost may be reduced to just the Part B deductible ($283 in 2025).",
       },
       {
-        question: "How often should pacemaker checks be done?",
+        question: "How Often Should Pacemaker Checks be Done?",
         answer: "Pacemaker checks should occur 6 weeks after surgery, then every 3–6 months. During these checks, physicians verify the device has treated abnormal heart rhythms and confirm the battery life is still good.",
       },
       {
-        question: "Does Medicare cover Medtronic pacemakers?",
+        question: "Does Medicare Cover Medtronic Pacemakers?",
         answer: "Yes. Medicare covers Medtronic Surescan technology pacemakers when your physician recommends them based on your specific heart conditions and health issues. The deciding factors are your individual cardiac needs.",
       },
       {
-        question: "Does Medicare cover biventricular pacemakers?",
+        question: "Does Medicare Cover Biventricular Pacemakers?",
         answer: "Yes. Medicare covers biventricular pacemakers, which work both lower chambers of the heart. These devices require regular monitoring: every 2 weeks for the first month, every 4 weeks through month 7, and every 8 weeks from 7 months to 3 years post-surgery.",
       },
       {
-        question: "Does Medicare cover transtelephonic pacemaker monitoring?",
+        question: "Does Medicare Cover Transtelephonic Pacemaker Monitoring?",
         answer: "Yes. Medicare covers transtelephonic monitoring devices that transfer heart rhythm recordings to doctors via phone or internet. The recording must be at least 30 seconds long and viewable on an ECG strip.",
       },
     ],
@@ -16085,39 +16085,39 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions & Limitations",
+      title: "Important Exceptions && Limitations",
       items: [
-        { title: "Physical therapy must be prescribed...", text: "Physical therapy must be prescribed by a doctor and deemed medically necessary" },
-        { title: "A $2,480 threshold for PT...", text: "A $2,480 threshold for PT and speech therapy combined triggers a medical necessity review" },
-        { title: "After the threshold, PT must...", text: "After the threshold, PT must be billed with unique codes to prove medical necessity" },
-        { title: "Medicare does not cover PT...", text: "Medicare does not cover PT if you are not under a doctor's care" },
-        { title: "SNF physical therapy requires a...", text: "SNF physical therapy requires a qualifying 3-day inpatient hospital stay" },
-        { title: "Medicare Advantage plans may require...", text: "Medicare Advantage plans may require prior authorization or in-network providers" },
+        { title: "Physical Therapy Must be Prescribed...", text: "Physical therapy must be prescribed by a doctor and deemed medically necessary" },
+        { title: "A $2,480 Threshold for PT...", text: "A $2,480 threshold for PT and speech therapy combined triggers a medical necessity review" },
+        { title: "After the Threshold, PT Must...", text: "After the threshold, PT must be billed with unique codes to prove medical necessity" },
+        { title: "Medicare Does not Cover PT...", text: "Medicare does not cover PT if you are not under a doctor's care" },
+        { title: "SNF Physical Therapy Requires A...", text: "SNF physical therapy requires a qualifying 3-day inpatient hospital stay" },
+        { title: "Medicare Advantage Plans May Require...", text: "Medicare Advantage plans may require prior authorization or in-network providers" },
       ],
     },
     faqs: [
       {
-        question: "Is there a limit on physical therapy sessions with Medicare?",
+        question: "Is There a Limit on Physical Therapy Sessions with Medicare?",
         answer: "No. Medicare no longer enforces an annual cap on physical therapy sessions. You can have as much PT as is medically necessary each year. However, a $2,480 threshold for PT and speech therapy combined triggers a medical necessity review.",
       },
       {
-        question: "Do I need a referral for physical therapy under Medicare?",
+        question: "Do I Need a Referral for Physical Therapy under Medicare?",
         answer: "Medicare requires that physical therapy be prescribed by a doctor. While you don't technically need a formal referral, Medicare will not cover PT if you are not under a doctor's care and the therapy has not been ordered.",
       },
       {
-        question: "Does Medicare cover physical therapy for back pain?",
+        question: "Does Medicare Cover Physical Therapy for Back Pain?",
         answer: "Yes. Medicare covers physical therapy to help manage back pain when prescribed by a doctor. Part B covers outpatient PT, and Part A covers inpatient PT if you were recently hospitalized.",
       },
       {
-        question: "Does Medicare cover aquatic physical therapy?",
+        question: "Does Medicare Cover Aquatic Physical Therapy?",
         answer: "Yes. If your doctor states you would benefit from aquatic physical therapy, Medicare covers it. The same cost-sharing rules apply — you pay the Part B deductible and 20% coinsurance.",
       },
       {
-        question: "Does Medicare cover occupational therapy?",
+        question: "Does Medicare Cover Occupational Therapy?",
         answer: "Yes. Medicare covers occupational therapy in the same way it covers physical therapy. Additionally, Medicare offers coverage for speech therapy. The $2,480 threshold applies to PT and speech therapy combined.",
       },
       {
-        question: "Does Medicare cover CORF services?",
+        question: "Does Medicare Cover CORF Services?",
         answer: "Yes. Medicare covers Comprehensive Outpatient Rehabilitation Facilities (CORF) services, including physical therapy, occupational therapy, and speech-language pathology services.",
       },
     ],
@@ -16191,7 +16191,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -16263,39 +16263,39 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are estimates and vary by location, surgeon, and facility. Medicare covers 80% of the approved amount after the Part B deductible for outpatient procedures.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Prior Authorization",
+      title: "Important Exceptions && Prior Authorization",
       items: [
-        { title: "Prior authorization is required", text: "Prior authorization is required for all medically necessary plastic surgery. Your physician must submit records to a Medicare Administrative Contractor for approval before the procedure." },
-        { title: "Tummy tuck requires 6-month weight stability", text: "To qualify for a tummy tuck after weight loss, you must maintain stable weight for at least 6 months and try non-surgical treatments for at least 3 months." },
-        { title: "Breast reduction requires 6 months of symptoms", text: "Medicare requires documented symptoms (neck/back pain) for at least 6 months and failed non-surgical treatments before covering breast reduction surgery." },
-        { title: "Mohs surgery reconstruction usually not covered", text: "Original Medicare typically does not cover reconstructive plastic surgery after Mohs surgery for skin cancer removal, though the Mohs procedure itself is covered." },
-        { title: "Denied claims can be appealed", text: "If your prior authorization is denied, your physician may submit additional documentation. You may also need to sign an Advance Beneficiary Notice acknowledging potential non-coverage." },
-        { title: "Each MAC decides independently", text: "Each Medicare Administrative Contractor can independently determine the medical necessity of a procedure, so coverage decisions may vary by region." },
+        { title: "Prior Authorization is Required", text: "Prior authorization is required for all medically necessary plastic surgery. Your physician must submit records to a Medicare Administrative Contractor for approval before the procedure." },
+        { title: "Tummy Tuck Requires 6-month Weight Stability", text: "To qualify for a tummy tuck after weight loss, you must maintain stable weight for at least 6 months and try non-surgical treatments for at least 3 months." },
+        { title: "Breast Reduction Requires 6 Months of Symptoms", text: "Medicare requires documented symptoms (neck/back pain) for at least 6 months and failed non-surgical treatments before covering breast reduction surgery." },
+        { title: "Mohs Surgery Reconstruction Usually not Covered", text: "Original Medicare typically does not cover reconstructive plastic surgery after Mohs surgery for skin cancer removal, though the Mohs procedure itself is covered." },
+        { title: "Denied Claims Can be Appealed", text: "If your prior authorization is denied, your physician may submit additional documentation. You may also need to sign an Advance Beneficiary Notice acknowledging potential non-coverage." },
+        { title: "Each MAC Decides Independently", text: "Each Medicare Administrative Contractor can independently determine the medical necessity of a procedure, so coverage decisions may vary by region." },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover a tummy tuck after weight loss?",
+        question: "Does Medicare Cover a Tummy Tuck after Weight Loss?",
         answer: "Medicare may cover a tummy tuck (abdominoplasty) if it is medically necessary after extreme weight loss or bariatric surgery. The loose skin must cause discomfort, rash, or interfere with daily activities. You must maintain stable weight for 6 months and try non-surgical treatments for 3 months before qualifying.",
       },
       {
-        question: "Does Medicare cover breast reconstruction after mastectomy?",
+        question: "Does Medicare Cover Breast Reconstruction after Mastectomy?",
         answer: "Yes. Medicare covers breast reconstruction surgery after mastectomy for breast cancer, including external breast prostheses and post-surgical bras. The reconstruction can occur immediately after mastectomy or years later, depending on your needs.",
       },
       {
-        question: "Does Medicare cover Botox injections?",
+        question: "Does Medicare Cover Botox Injections?",
         answer: "Medicare Part B may cover Botox injections when used to treat severe migraines or muscle spasms in the neck, after other medications have been unsuccessful. Botox for cosmetic purposes is not covered.",
       },
       {
-        question: "What is the prior authorization process for plastic surgery?",
+        question: "What is the Prior Authorization Process for Plastic Surgery?",
         answer: "Your physician must submit medical records to a Medicare Administrative Contractor (MAC) proving the surgery is medically necessary. The MAC reviews the case and determines coverage. This process can take two or more weeks. If denied, your physician can submit additional documentation.",
       },
       {
-        question: "Does Medicare cover rhinoplasty (nose job)?",
+        question: "Does Medicare Cover Rhinoplasty (Nose Job)?",
         answer: "Medicare covers rhinoplasty when medically necessary — for example, to alleviate breathing problems, fix a congenital defect, treat traumatic injury, or address chronic nasal obstruction. Your physician must prove less invasive treatments would not work.",
       },
       {
-        question: "Will Medicare cover plastic surgery after Mohs surgery?",
+        question: "Will Medicare Cover Plastic Surgery after Mohs Surgery?",
         answer: "In most cases, Original Medicare will not cover reconstructive plastic surgery after Mohs surgery for skin cancer. Medicare covers the Mohs procedure itself but typically does not pay for the cosmetic reconstruction of the removed skin area.",
       },
     ],
@@ -16328,7 +16328,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-prostate-specific-antigen-psa-test",
     seo: {
-      title: "Does Medicare Cover PSA Test? - PSA Medicare Coverage",
+      title: "Does Medicare Cover PSA Test? -- PSA Medicare Coverage",
       description: "Medicare Part B covers annual PSA tests for men 50 and older at no cost. Learn about coverage for prostate screening, surgery, and how to manage costs.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-prostate-specific-antigen-psa-test/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-psa-test.jpg",
@@ -16367,7 +16367,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -16424,7 +16424,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "PSA Test & Prostate Care Cost Estimates",
+      title: "PSA Test && Prostate Care Cost Estimates",
       headers: ["Service", "Cost Without Insurance", "Cost With Medicare"],
       rows: [
         { "Service": "Annual PSA screening", "Cost Without Insurance": "$100 – $300+", "Cost With Medicare": "$0 (preventive)" },
@@ -16436,38 +16436,38 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are estimates and vary by provider and location. Annual screening is covered at $0 for men 50+.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Limitations",
+      title: "Important Exceptions && Limitations",
       items: [
-        { title: "Age requirement for free screening", text: "Free annual PSA screening begins at age 50. Men under 50 may receive coverage only if a doctor deems the test medically necessary." },
-        { title: "Frequency limit of once per 12 months", text: "Medicare covers one PSA screening every 12 months. Additional tests within the same year require a medical necessity determination from your doctor." },
-        { title: "Doctor must accept Medicare assignment", text: "To receive full Medicare benefits for PSA testing, your doctor must accept Medicare. If they don't, you may be responsible for additional charges." },
-        { title: "Follow-up costs may apply", text: "While the annual screening is free, follow-up tests, biopsies, and treatments are subject to standard Part B cost-sharing (20% coinsurance after deductible)." },
-        { title: "Medicare Advantage network rules apply", text: "If you have a Medicare Advantage plan, you must use in-network providers for PSA testing and prostate care to receive the lowest costs." },
+        { title: "Age Requirement for Free Screening", text: "Free annual PSA screening begins at age 50. Men under 50 may receive coverage only if a doctor deems the test medically necessary." },
+        { title: "Frequency Limit of Once per 12 Months", text: "Medicare covers one PSA screening every 12 months. Additional tests within the same year require a medical necessity determination from your doctor." },
+        { title: "Doctor Must Accept Medicare Assignment", text: "To receive full Medicare benefits for PSA testing, your doctor must accept Medicare. If they don't, you may be responsible for additional charges." },
+        { title: "Follow-up Costs May Apply", text: "While the annual screening is free, follow-up tests, biopsies, and treatments are subject to standard Part B cost-sharing (20% coinsurance after deductible)." },
+        { title: "Medicare Advantage Network Rules Apply", text: "If you have a Medicare Advantage plan, you must use in-network providers for PSA testing and prostate care to receive the lowest costs." },
       ],
     },
     faqs: [
       {
-        question: "How often does Medicare pay for a PSA test?",
+        question: "How Often Does Medicare Pay for a PSA Test?",
         answer: "Medicare Part B covers one PSA test every 12 months for men age 50 and older. Additional tests may be covered if your healthcare provider deems them medically necessary.",
       },
       {
-        question: "Does Medicare cover a digital rectal exam?",
+        question: "Does Medicare Cover a Digital Rectal Exam?",
         answer: "Yes. Medicare covers both PSA blood tests and digital rectal exams as part of annual prostate cancer screening for men 50 and older.",
       },
       {
-        question: "Does Medicare cover prostate surgery?",
+        question: "Does Medicare Cover Prostate Surgery?",
         answer: "Yes. Medicare Part A covers inpatient prostate surgery, and Part B covers outpatient procedures. Your doctor must determine the surgery is medically necessary. You are responsible for applicable deductibles and coinsurance.",
       },
       {
-        question: "Does Medicare cover prostate biopsy?",
+        question: "Does Medicare Cover Prostate Biopsy?",
         answer: "Yes. Medicare Part B covers prostate biopsies when your doctor determines they are medically necessary. You pay the Part B deductible and 20% coinsurance.",
       },
       {
-        question: "Why was my PSA test not covered by Medicare?",
+        question: "Why Was My PSA Test not Covered by Medicare?",
         answer: "The most common reasons are: you are under 50 and the test was not deemed medically necessary, you already had a screening within the past 12 months, or your provider does not accept Medicare assignment.",
       },
       {
-        question: "Is the PSA test really free with Medicare?",
+        question: "Is the PSA Test Really Free with Medicare?",
         answer: "Yes. The annual PSA screening for men 50 and older is covered at $0 — no deductible, no coinsurance. It is classified as preventive care under Medicare Part B.",
       },
     ],
@@ -16492,7 +16492,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Coverage for Cardiovascular Disease",
     ],
     ctaBanner: {
-      title: "Questions About Your Prostate Screening Coverage?",
+      title: "Questions about Your Prostate Screening Coverage?",
       text: "Our licensed agents can help you understand your Medicare benefits for prostate cancer screening and treatment, and find supplemental coverage to minimize your out-of-pocket costs.",
     },
     relatedSlugs: ["medicare-preventive-services", "medicare-coverage-for-colonoscopy-screenings", "will-medicare-cover-my-surgery", "medicare-coverage-for-cardiovascular-disease"],
@@ -16538,7 +16538,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -16607,38 +16607,38 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Prescription medication costs vary by Part D plan formulary and tier. Counseling is always $0 under Part B.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Limitations",
+      title: "Important Exceptions && Limitations",
       items: [
-        { title: "Provider must accept Medicare assignment", text: "To receive $0 counseling, your provider must accept Medicare assignment. If they don't, you may be responsible for additional charges." },
-        { title: "OTC products are not covered", text: "Medicare does not cover over-the-counter nicotine replacement products like gum, patches, or lozenges — only prescription medications through Part D." },
+        { title: "Provider Must Accept Medicare Assignment", text: "To receive $0 counseling, your provider must accept Medicare assignment. If they don't, you may be responsible for additional charges." },
+        { title: "OTC Products are not Covered", text: "Medicare does not cover over-the-counter nicotine replacement products like gum, patches, or lozenges — only prescription medications through Part D." },
         { title: "8-session annual limit", text: "Medicare covers up to 8 counseling sessions per calendar year. If you need more sessions, you may need to pay out-of-pocket or wait until the next year." },
-        { title: "Prescription required for medication coverage", text: "To receive Part D coverage for smoking cessation medications, you must have a valid prescription from your healthcare provider." },
-        { title: "Online or community programs may not be covered", text: "Medicare only covers counseling from qualified healthcare providers. Community-based or online cessation programs may not be covered unless they meet Medicare requirements." },
+        { title: "Prescription Required for Medication Coverage", text: "To receive Part D coverage for smoking cessation medications, you must have a valid prescription from your healthcare provider." },
+        { title: "Online or Community Programs May not be Covered", text: "Medicare only covers counseling from qualified healthcare providers. Community-based or online cessation programs may not be covered unless they meet Medicare requirements." },
       ],
     },
     faqs: [
       {
-        question: "How many smoking cessation sessions does Medicare cover?",
+        question: "How Many Smoking Cessation Sessions Does Medicare Cover?",
         answer: "Medicare Part B covers up to 8 smoking cessation counseling sessions per calendar year at no cost to you. If you cannot quit in one year, you can receive another 8 sessions the following year.",
       },
       {
-        question: "Does Medicare cover Chantix?",
+        question: "Does Medicare Cover Chantix?",
         answer: "Medicare Part D covers the generic version of Chantix (varenicline). Your out-of-pocket cost depends on your Part D plan's formulary and tier structure. The brand-name Chantix was voluntarily recalled, but generic varenicline remains available.",
       },
       {
-        question: "Does Medicare cover nicotine patches?",
+        question: "Does Medicare Cover Nicotine Patches?",
         answer: "Medicare Part D may cover prescription nicotine replacement therapies (NRT inhalers and nasal sprays). However, over-the-counter nicotine patches, gum, and lozenges are not covered by Medicare.",
       },
       {
-        question: "Is smoking cessation counseling really free with Medicare?",
+        question: "Is Smoking Cessation Counseling Really Free with Medicare?",
         answer: "Yes. Medicare Part B covers smoking cessation counseling at 100% — no deductible and no coinsurance. You must use a provider who accepts Medicare assignment to receive the full benefit.",
       },
       {
-        question: "Does Medicare Advantage cover smoking cessation?",
+        question: "Does Medicare Advantage Cover Smoking Cessation?",
         answer: "Yes. Medicare Advantage plans are required by law to cover smoking cessation counseling and medication. Some plans may offer additional benefits beyond what Original Medicare provides.",
       },
       {
-        question: "What prescription medications does Medicare cover for quitting smoking?",
+        question: "What Prescription Medications Does Medicare Cover for Quitting Smoking?",
         answer: "Medicare Part D covers FDA-approved prescription medications including varenicline (generic Chantix), bupropion (Zyban), NRT inhalers, and NRT nasal sprays. Your costs depend on your plan's formulary.",
       },
     ],
@@ -16671,12 +16671,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-stroke-victims",
     seo: {
-      title: "Medicare Coverage for Stroke Victims & Rehabilitation",
+      title: "Medicare Coverage for Stroke Victims && Rehabilitation",
       description: "Medicare covers stroke treatment, rehabilitation, skilled nursing, and DME. Learn about inpatient and outpatient coverage, costs, and supplemental options.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-stroke-victims/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-stroke-victims.jpg",
     },
-    title: "Medicare Coverage for Stroke Victims & Rehabilitation",
+    title: "Medicare Coverage for Stroke Victims && Rehabilitation",
     subtitle: "Medicare covers stroke treatment, inpatient and outpatient rehabilitation, skilled nursing facility care, durable medical equipment, and medications. Learn about coverage details, costs, and how supplemental plans can help reduce out-of-pocket expenses.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
@@ -16710,7 +16710,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -16767,7 +16767,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Stroke Treatment & Rehabilitation Cost Estimates",
+      title: "Stroke Treatment && Rehabilitation Cost Estimates",
       headers: ["Service", "Average Cost", "Medicare Coverage"],
       rows: [
         { "Service": "First-year stroke rehabilitation (total)", "Average Cost": "$17,000+", "Medicare Coverage": "Covered (cost-sharing applies)" },
@@ -16780,39 +16780,39 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are estimates and vary by provider, location, and severity of stroke. Medigap can significantly reduce out-of-pocket expenses.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Limitations",
+      title: "Important Exceptions && Limitations",
       items: [
-        { title: "Long-term custodial care is not covered", text: "Medicare does not cover long-term custodial care (bathing, feeding, toileting) if it is the only type of care needed. This type of care requires separate long-term care insurance." },
-        { title: "SNF requires qualifying hospital stay", text: "To qualify for skilled nursing facility coverage, you must have a qualifying inpatient hospital stay of at least 3 consecutive days. Observation status does not count." },
-        { title: "Therapy must be medically necessary", text: "All rehabilitation therapy sessions must be deemed medically necessary by your doctor. Medicare may review claims if therapy continues beyond expected timelines." },
+        { title: "Long-term Custodial Care is not Covered", text: "Medicare does not cover long-term custodial care (bathing, feeding, toileting) if it is the only type of care needed. This type of care requires separate long-term care insurance." },
+        { title: "SNF Requires Qualifying Hospital Stay", text: "To qualify for skilled nursing facility coverage, you must have a qualifying inpatient hospital stay of at least 3 consecutive days. Observation status does not count." },
+        { title: "Therapy Must be Medically Necessary", text: "All rehabilitation therapy sessions must be deemed medically necessary by your doctor. Medicare may review claims if therapy continues beyond expected timelines." },
         { title: "90-day inpatient limit per benefit period", text: "Medicare Part A covers up to 90 days of inpatient care per benefit period. After 90 days, you begin using lifetime reserve days (60 total), which have higher coinsurance." },
-        { title: "DME supplier must accept Medicare", text: "Your durable medical equipment supplier must be enrolled in Medicare and accept assignment for you to receive the standard 80% coverage." },
-        { title: "Special Needs Plans vary by location", text: "Medicare Advantage Special Needs Plans for stroke survivors are not available in all areas. Plan availability depends on your location and the carriers operating in your region." },
+        { title: "DME Supplier Must Accept Medicare", text: "Your durable medical equipment supplier must be enrolled in Medicare and accept assignment for you to receive the standard 80% coverage." },
+        { title: "Special Needs Plans Vary by Location", text: "Medicare Advantage Special Needs Plans for stroke survivors are not available in all areas. Plan availability depends on your location and the carriers operating in your region." },
       ],
     },
     faqs: [
       {
-        question: "How long does Medicare pay for rehab after a stroke?",
+        question: "How Long Does Medicare Pay for Rehab after a Stroke?",
         answer: "Medicare Part A covers up to 90 days of inpatient rehabilitation per benefit period. After 90 days, you can use your 60 lifetime reserve days. For outpatient therapy, there is no session cap as long as your doctor certifies medical necessity.",
       },
       {
-        question: "Does Medicare cover physical therapy after a stroke?",
+        question: "Does Medicare Cover Physical Therapy after a Stroke?",
         answer: "Yes. Medicare Part B covers physical therapy, occupational therapy, and speech therapy after a stroke when prescribed by a doctor. There is no annual cap on sessions, but each session must be medically necessary.",
       },
       {
-        question: "Will Medicare pay for a walker after a stroke?",
+        question: "Will Medicare Pay for a Walker after a Stroke?",
         answer: "Yes. Medicare Part B covers walkers as durable medical equipment (DME) when prescribed by your doctor. Medicare pays 80% of the approved amount, and you pay the remaining 20% after your Part B deductible.",
       },
       {
-        question: "Does Medicare cover stroke medications?",
+        question: "Does Medicare Cover Stroke Medications?",
         answer: "Medicare Part D covers prescription medications for stroke treatment and prevention, including blood thinners, blood pressure medications, and cholesterol drugs. Your costs depend on your plan's formulary and tier structure.",
       },
       {
-        question: "Will Medicare cover skilled nursing after a stroke?",
+        question: "Will Medicare Cover Skilled Nursing after a Stroke?",
         answer: "Yes. Medicare covers skilled nursing facility (SNF) care after a qualifying 3-day inpatient hospital stay. Days 1-20 are covered at $0, and days 21-100 require a $217/day coinsurance (2025). Medigap can cover this coinsurance.",
       },
       {
-        question: "Does Medicare cover long-term care after a stroke?",
+        question: "Does Medicare Cover Long-term Care after a Stroke?",
         answer: "No. Medicare does not cover long-term custodial care (bathing, feeding, toileting) if it is the only type of care needed. You would need separate long-term care insurance for this type of coverage.",
       },
     ],
@@ -16837,7 +16837,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Coverage for In-Home Caregivers",
     ],
     ctaBanner: {
-      title: "Need Help with Medicare Coverage After a Stroke?",
+      title: "Need Help with Medicare Coverage after a Stroke?",
       text: "Our licensed agents can help you understand your Medicare benefits for stroke treatment and rehabilitation, and find the right supplemental coverage to protect against high out-of-pocket costs.",
     },
     relatedSlugs: ["medicare-coverage-for-physical-therapy", "medicare-coverage-for-wheelchairs-and-scooters", "medicare-coverage-for-skilled-nursing-facilities", "medicare-coverage-for-in-home-caregivers"],
@@ -16882,7 +16882,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -16931,7 +16931,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Wheelchair & Scooter Cost Estimates with Medicare",
+      title: "Wheelchair && Scooter Cost Estimates with Medicare",
       headers: ["Device Type", "Typical Cost", "Your Cost with Medicare (20%)"],
       rows: [
         { "Device Type": "Manual wheelchair (basic)", "Typical Cost": "$100 – $500", "Your Cost with Medicare (20%)": "$20 – $100" },
@@ -16944,39 +16944,39 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are estimates and vary by model, supplier, and location. Medigap can cover the 20% coinsurance. Medicare's competitive bidding program may affect pricing in some areas.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Requirements",
+      title: "Important Exceptions && Requirements",
       items: [
-        { title: "Face-to-face exam is required", text: "Your doctor must conduct a face-to-face examination before prescribing a wheelchair or scooter. During this exam, your doctor assesses your mobility limitations and determines the appropriate device." },
-        { title: "Power wheelchairs require prior authorization", text: "Before Medicare will cover a power wheelchair, prior authorization must be obtained. Your doctor must submit documentation proving medical necessity and your ability to safely operate the device." },
-        { title: "Home use requirement", text: "Medicare covers wheelchairs and scooters for use in your home. Your home must be able to accommodate the device — for example, doorways must be wide enough for the wheelchair to pass through." },
-        { title: "Knee scooters are not covered", text: "Original Medicare does not cover knee scooters because they are not considered medically necessary DME. Some Medicare Advantage plans may cover them at their discretion." },
-        { title: "Supplier must accept Medicare", text: "Your DME supplier must be enrolled in Medicare and accept assignment. Using a non-participating supplier may result in higher costs or no coverage." },
-        { title: "Competitive bidding may affect options", text: "Medicare's competitive bidding program may limit which suppliers and models are available in your area. Check with Medicare to find participating suppliers near you." },
+        { title: "Face-to-face Exam is Required", text: "Your doctor must conduct a face-to-face examination before prescribing a wheelchair or scooter. During this exam, your doctor assesses your mobility limitations and determines the appropriate device." },
+        { title: "Power Wheelchairs Require Prior Authorization", text: "Before Medicare will cover a power wheelchair, prior authorization must be obtained. Your doctor must submit documentation proving medical necessity and your ability to safely operate the device." },
+        { title: "Home Use Requirement", text: "Medicare covers wheelchairs and scooters for use in your home. Your home must be able to accommodate the device — for example, doorways must be wide enough for the wheelchair to pass through." },
+        { title: "Knee Scooters are not Covered", text: "Original Medicare does not cover knee scooters because they are not considered medically necessary DME. Some Medicare Advantage plans may cover them at their discretion." },
+        { title: "Supplier Must Accept Medicare", text: "Your DME supplier must be enrolled in Medicare and accept assignment. Using a non-participating supplier may result in higher costs or no coverage." },
+        { title: "Competitive Bidding May Affect Options", text: "Medicare's competitive bidding program may limit which suppliers and models are available in your area. Check with Medicare to find participating suppliers near you." },
       ],
     },
     faqs: [
       {
-        question: "Does Medicare cover electric wheelchairs?",
+        question: "Does Medicare Cover Electric Wheelchairs?",
         answer: "Yes. Medicare covers electric (motorized) wheelchairs when you cannot operate a manual wheelchair but do not qualify for a scooter. Prior authorization is required, and your doctor must conduct a face-to-face exam to determine medical necessity and safe operation.",
       },
       {
-        question: "Are mobility scooters covered by Medicare?",
+        question: "Are Mobility Scooters Covered by Medicare?",
         answer: "Yes. Medicare Part B covers mobility scooters when your doctor certifies that you lack the upper body strength to operate a manual wheelchair and need a power scooter for mobility within your home.",
       },
       {
-        question: "Does Medicare cover knee scooters?",
+        question: "Does Medicare Cover Knee Scooters?",
         answer: "No. Original Medicare does not cover knee scooters because they are not considered medically necessary DME. Some Medicare Advantage plans may cover them depending on the specific plan benefits.",
       },
       {
-        question: "How much does a wheelchair cost with Medicare?",
+        question: "How Much Does a Wheelchair Cost with Medicare?",
         answer: "With Medicare, you pay 20% of the approved amount after your Part B deductible. For a basic manual wheelchair costing $100-$500, your share would be $20-$100. For power wheelchairs costing $2,000-$6,000, your share would be $400-$1,200. Medigap can cover this 20%.",
       },
       {
-        question: "Do I need prior authorization for a wheelchair?",
+        question: "Do I Need Prior Authorization for a Wheelchair?",
         answer: "Prior authorization is required for power wheelchairs. Manual wheelchairs and scooters generally do not require prior authorization, but your doctor must still prescribe the device after a face-to-face exam.",
       },
       {
-        question: "Can I choose any wheelchair supplier with Medicare?",
+        question: "Can I Choose Any Wheelchair Supplier with Medicare?",
         answer: "Your DME supplier must be enrolled in Medicare and accept assignment. Medicare's competitive bidding program may limit which suppliers are available in your area. Medicare Advantage plans may have additional network restrictions.",
       },
     ],
@@ -17011,7 +17011,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-std-treatments-and-services-does-medicare-cover",
     seo: {
-      title: "Does Medicare Cover STD Testing & Treatment?",
+      title: "Does Medicare Cover STD Testing && Treatment?",
       description: "Medicare Part B covers STD/STI screenings for gonorrhea, syphilis, chlamydia, hepatitis B, and HIV at no cost. Learn about coverage, treatments, and Part D medications.",
       canonical: "https://www.medicarefaq.com/faqs/what-std-treatments-and-services-does-medicare-cover/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-std-testing.jpg",
@@ -17050,7 +17050,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -17146,27 +17146,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover STD testing?",
+        question: "Does Medicare Cover STD Testing?",
         answer: "Yes. Medicare Part B covers annual screenings for gonorrhea, syphilis, chlamydia, hepatitis B, and HIV as preventive services at no cost when your doctor accepts Medicare assignment.",
       },
       {
-        question: "Does Medicare cover HIV testing?",
+        question: "Does Medicare Cover HIV Testing?",
         answer: "Yes. Medicare covers annual HIV screening for individuals aged 15 to 65. Those outside this age range who are at increased risk also qualify. Pregnant beneficiaries can receive up to three HIV tests during pregnancy.",
       },
       {
-        question: "Does Medicare cover STD treatment?",
+        question: "Does Medicare Cover STD Treatment?",
         answer: "Yes. Medicare covers STD and STI treatments when medically necessary. Part B covers doctor visits and therapies at 80% after the deductible. Part D covers prescription medications including antibiotics and antivirals.",
       },
       {
-        question: "Does Medicare cover online STD testing?",
+        question: "Does Medicare Cover Online STD Testing?",
         answer: "No. Medicare does not cover STD testing kits purchased online. Testing must be ordered by a doctor and conducted at a Medicare-enrolled facility to qualify for coverage.",
       },
       {
-        question: "Does Medicare Part D cover STD medications?",
+        question: "Does Medicare Part D Cover STD Medications?",
         answer: "Yes. Part D covers antibiotics for bacterial STIs and antivirals for viral infections. Antiretroviral therapy for HIV is in a protected drug class, meaning all Part D plans must cover these medications.",
       },
       {
-        question: "How often does Medicare cover STD testing?",
+        question: "How Often Does Medicare Cover STD Testing?",
         answer: "Medicare covers STD screening once per year for most beneficiaries. Pregnant women can receive chlamydia and gonorrhea testing upon learning of pregnancy and again later, plus up to three HIV tests during pregnancy.",
       },
     ],
@@ -17238,7 +17238,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -17333,27 +17333,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover same-day surgery?",
+        question: "Does Medicare Cover Same-day Surgery?",
         answer: "Yes. Part B covers same-day outpatient surgery when it is medically necessary. This includes procedures performed at ambulatory surgical centers and hospital outpatient departments.",
       },
       {
-        question: "Does Medicare require preauthorization for surgery?",
+        question: "Does Medicare Require Preauthorization for Surgery?",
         answer: "For some elective surgeries, Medicare requires prior authorization before the procedure. Your surgeon's office typically handles this process. Emergency surgeries do not require preauthorization.",
       },
       {
-        question: "Will Medicare pay for my pre-operative visit?",
+        question: "Will Medicare Pay for My Pre-operative Visit?",
         answer: "Yes. If the purpose of the visit and the surgery are medically necessary, Medicare will cover the pre-operative visit. Contact your surgeon before making an appointment to confirm.",
       },
       {
-        question: "Does Medicare cover back surgery?",
+        question: "Does Medicare Cover Back Surgery?",
         answer: "Yes. If your back surgery is medically necessary, Medicare will cover it. Part A covers inpatient procedures, and Part B covers outpatient procedures at 80% after the deductible.",
       },
       {
-        question: "Does Medicare cover rotator cuff surgery?",
+        question: "Does Medicare Cover Rotator Cuff Surgery?",
         answer: "Yes. Part B covers rotator cuff surgery when medically necessary. Part A can also cover skilled nursing facility services you may need after shoulder surgery.",
       },
       {
-        question: "Will my Medigap plan cover my surgery?",
+        question: "Will My Medigap Plan Cover My Surgery?",
         answer: "Yes. Medigap plans cover the same services as Original Medicare. If Medicare covers your surgery, your Medigap plan will pay the remaining 20% coinsurance that Medicare does not cover.",
       },
     ],
@@ -17425,7 +17425,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -17501,11 +17501,11 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Exceptions and Limitations",
       items: [
         {
-          title: "Acupuncture Coverage Is Limited",
+          title: "Acupuncture Coverage is Limited",
           text: "Medicare only covers acupuncture for chronic lower back pain. Up to 12 sessions in 90 days are covered, with 8 additional sessions if improvement is demonstrated. Acupuncture for any other condition is not covered.",
         },
         {
-          title: "Chiropractic Coverage Is Limited",
+          title: "Chiropractic Coverage is Limited",
           text: "Medicare only covers manual manipulation of the spine to correct a misalignment. Other chiropractic services such as X-rays, massage, or physical therapy performed by a chiropractor are not covered.",
         },
         {
@@ -17520,27 +17520,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover naturopathic doctors?",
+        question: "Does Medicare Cover Naturopathic Doctors?",
         answer: "No. Medicare does not cover visits to naturopathic doctors (NDs). While some services associated with naturopathy have limited coverage, they must be performed by specific licensed practitioners, not NDs.",
       },
       {
-        question: "Does Medicare cover alternative medicine?",
+        question: "Does Medicare Cover Alternative Medicine?",
         answer: "Medicare does not cover most alternative therapies or natural medicines. However, it provides limited coverage for acupuncture (chronic back pain only), chiropractic care (spinal manipulation only), and nutrition counseling (diabetes/kidney disease only).",
       },
       {
-        question: "Does Medicare cover homeopathic medicine?",
+        question: "Does Medicare Cover Homeopathic Medicine?",
         answer: "No. Medicare does not cover homeopathic medicine or remedies. You will pay 100% out-of-pocket for homeopathic treatments and supplements.",
       },
       {
-        question: "Does Medicare pay for functional medicine doctors?",
+        question: "Does Medicare Pay for Functional Medicine Doctors?",
         answer: "For the most part, no. Doctors who practice a functional model of care typically do not accept insurance, including Medicare. You would likely pay out-of-pocket for these services.",
       },
       {
-        question: "Does Medicare cover osteopathic medicine?",
+        question: "Does Medicare Cover Osteopathic Medicine?",
         answer: "Yes. Medicare covers visits to doctors of osteopathic medicine (DOs) the same way it covers visits to medical doctors (MDs). DOs complete the same training and residencies as MDs and are recognized nationwide.",
       },
       {
-        question: "Does Medicare Advantage cover naturopathy?",
+        question: "Does Medicare Advantage Cover Naturopathy?",
         answer: "Most Medicare Advantage plans follow Medicare standards and do not cover naturopathy. However, some plans in certain states may offer additional alternative medicine benefits. Check plans in your area for details.",
       },
     ],
@@ -17611,7 +17611,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -17703,27 +17703,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover nebulizers for asthma?",
+        question: "Does Medicare Cover Nebulizers for Asthma?",
         answer: "Yes. When a doctor who accepts Medicare prescribes a nebulizer for asthma treatment, Medicare Part B covers the equipment as durable medical equipment at 80% after the deductible.",
       },
       {
-        question: "Does Medicare Part D cover albuterol for a nebulizer?",
+        question: "Does Medicare Part D Cover Albuterol for a Nebulizer?",
         answer: "Yes. Most Medicare Part D plans cover albuterol. Check your plan's formulary to confirm coverage and determine your copay or coinsurance amount.",
       },
       {
-        question: "Does a Medigap plan pay for a nebulizer?",
+        question: "Does a Medigap Plan Pay for a Nebulizer?",
         answer: "Yes. If Medicare covers the nebulizer, your Medigap plan will cover the remaining 20% coinsurance. Medigap also covers coinsurance for nebulizer supplies covered under Part B.",
       },
       {
-        question: "How often will Medicare replace a nebulizer?",
+        question: "How Often Will Medicare Replace a Nebulizer?",
         answer: "Medicare replaces nebulizer equipment after 5 years of use. Earlier replacement is covered only if the equipment is lost, stolen, or damaged beyond repair due to a natural disaster or accident.",
       },
       {
-        question: "Does Medicare cover nebulizer supplies?",
+        question: "Does Medicare Cover Nebulizer Supplies?",
         answer: "Yes. Medicare covers nebulizer supplies and accessories that your doctor includes in your prescription. This includes tubing, masks, and mouthpieces from Medicare-enrolled suppliers.",
       },
       {
-        question: "When does Medicare Part D cover nebulizer solution?",
+        question: "When Does Medicare Part D Cover Nebulizer Solution?",
         answer: "Part D covers nebulizer solutions when administered through a device such as a metered-dose inhaler. The equipment must have a life expectancy of 3 years or more and be sold or rented by an approved supplier.",
       },
     ],
@@ -17794,7 +17794,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -17900,23 +17900,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover non-emergency transfers between hospitals?",
+        question: "Does Medicare Cover Non-emergency Transfers between Hospitals?",
         answer: "Non-emergency inter-hospital transfers are evaluated more strictly. Medicare Part B may cover them if a physician documents medical necessity, but coverage is less consistent than for emergency transfers. Medicare Advantage plans may also require prior authorization for non-emergency transport even when medically justified.",
       },
       {
-        question: "What if the ambulance company does not accept Medicare assignment?",
+        question: "What if the Ambulance Company Does not Accept Medicare Assignment?",
         answer: "If the provider does not accept Medicare assignment, they can charge up to 15% above the Medicare-approved amount. That additional charge, called an excess charge, becomes your responsibility on top of the standard 20% coinsurance. Some Medigap plans (F and G) cover these Part B excess charges.",
       },
       {
-        question: "Are there any limits on the number of emergency transports Medicare will cover?",
+        question: "Are There Any Limits on the Number of Emergency Transports Medicare Will Cover?",
         answer: "Medicare does not cap the number of covered emergency transports per year. Each medically necessary transport is evaluated individually. As long as the transfer meets Medicare's medical necessity criteria, coverage applies, though your cost-sharing obligation applies to each transport separately.",
       },
       {
-        question: "How do I find out if my specific Medicare Advantage plan covers inter-hospital transfers?",
+        question: "How do I Find out if My Specific Medicare Advantage Plan Covers Inter-hospital Transfers?",
         answer: "Review your plan's Evidence of Coverage (EOC) document, which outlines all covered services and cost-sharing details. You can also call the member services number on your insurance card. For emergency transfers specifically, federal rules require Advantage plans to cover them regardless of network, so denial for emergency situations is rare.",
       },
       {
-        question: "What is the average out-of-pocket cost for an emergency inter-hospital transfer with Original Medicare?",
+        question: "What is the Average Out-of-pocket Cost for an Emergency Inter-hospital Transfer with Original Medicare?",
         answer: "Ground ambulance transfers often run between $400 and $1,200 in total billed charges, with your 20% coinsurance responsibility typically falling between $80 and $240 after the deductible. Air ambulance transports are far more expensive — average billed charges can exceed $30,000, making the 20% coinsurance potentially $6,000 or more without Medigap coverage. A Medigap plan like Plan G eliminates that coinsurance entirely after your deductible.",
       },
       {
@@ -17935,7 +17935,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Medicare Coverage for Ambulance Services", description: "Learn about Medicare's full coverage rules for ambulance transport.", slug: "ambulance-and-medicare-coverage" },
       { title: "Medicare Coverage for Stroke Victims", description: "Learn how Medicare covers stroke treatment and rehabilitation.", slug: "medicare-coverage-for-stroke-victims" },
-      { title: "Observation vs. Inpatient: Why It Affects Your Medicare Bill", description: "Understand how Medicare classifies hospital stays and what it means for your costs.", slug: "observation-vs-inpatient-why-it-can-affect-your-medicare-bill" },
+      { title: "Observation vs. Inpatient: Why it Affects Your Medicare Bill", description: "Understand how Medicare classifies hospital stays and what it means for your costs.", slug: "observation-vs-inpatient-why-it-can-affect-your-medicare-bill" },
       { title: "Medicare Rights and Protections", description: "Learn about your rights as a Medicare beneficiary, including appeal rights.", slug: "your-medicare-rights-and-protections" },
     
       { title: "Does Medicare Cover Medical Rides?", description: "Find out if Medicare covers non-emergency medical transportation to doctor appointments.", slug: "medical-rides" },],
@@ -17946,7 +17946,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Rights and Protections",
     ],
     ctaBanner: {
-      title: "Worried About Ambulance Cost Exposure?",
+      title: "Worried about Ambulance Cost Exposure?",
       text: "A Medigap plan like Plan G can eliminate your 20% coinsurance for emergency transport — including air ambulance. Our licensed Medicare agents can help you compare plans in your area at no cost.",
     },
     relatedSlugs: ["ambulance-and-medicare-coverage", "medicare-coverage-for-stroke-victims", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medicare-calendar-year-and-benefit-periods", "medicare-visiting-angels"],
@@ -18025,7 +18025,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "You pay 20% coinsurance after your $283 annual Part B deductible for most covered services. A Medigap plan can cover this 20%, significantly reducing your out-of-pocket costs.",
       },
       {
-        planName: "Medicare Part A (Inpatient & Skilled Nursing)",
+        planName: "Medicare Part a (Inpatient && Skilled Nursing)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -18134,7 +18134,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover memory care facilities?",
+        question: "Does Medicare Cover Memory Care Facilities?",
         answer: "No. Medicare does not cover the ongoing room and board costs of memory care facilities, which are considered custodial care. Medicare covers short-term skilled nursing facility care (up to 100 days) following a qualifying hospital stay, but once skilled care is no longer needed, coverage ends.",
       },
       {
@@ -18150,7 +18150,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Yes. Medicare Part A covers hospice care for Alzheimer's patients when two physicians certify a life expectancy of 6 months or less. Hospice provides comfort-focused care and covers medications, nursing visits, aide services, and respite care.",
       },
       {
-        question: "What is the cognitive impairment care planning benefit?",
+        question: "What is the Cognitive Impairment Care Planning Benefit?",
         answer: "Medicare Part B covers a comprehensive care planning visit for beneficiaries diagnosed with cognitive impairment, including Alzheimer's disease. Your doctor develops a written care plan addressing your diagnosis and care needs. This benefit is covered at no cost-sharing with a participating provider.",
       },
     ],
@@ -18185,7 +18185,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-memory-care",
     seo: {
-      title: "Does Medicare Cover Memory Care? | MedicareFAQ",
+      title: "Does Medicare Cover Memory Care? || MedicareFAQ",
       description: "Medicare does not cover long-term memory care facility costs, but it does cover many related medical services. Learn what Medicare pays for and how to plan for the gaps.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-memory-care/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -18277,7 +18277,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "You pay 20% coinsurance after the $283 annual Part B deductible. A Medigap plan can eliminate this cost-sharing.",
       },
       {
-        planName: "Medicare Part A (Skilled Nursing & Hospice)",
+        planName: "Medicare Part a (Skilled Nursing && Hospice)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -18311,23 +18311,23 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare pay for memory care facilities?",
+        question: "Does Medicare Pay for Memory Care Facilities?",
         answer: "No. Medicare does not cover the room and board costs of memory care facilities. This is considered custodial care, which Medicare excludes. Medicare only covers medically necessary skilled care.",
       },
       {
-        question: "How long will Medicare pay for a nursing home for dementia?",
+        question: "How Long Will Medicare Pay for a Nursing Home for Dementia?",
         answer: "Medicare covers up to 100 days of skilled nursing facility care per benefit period following a qualifying 3-day hospital stay. Days 1–20 are fully covered; days 21–100 require a $217/day coinsurance. After 100 days, Medicare coverage ends.",
       },
       {
-        question: "Does Medicaid cover memory care?",
+        question: "Does Medicaid Cover Memory Care?",
         answer: "Yes, Medicaid can cover long-term memory care facility costs for those who meet income and asset eligibility requirements. Medicaid rules vary by state, so contact your state Medicaid office for details.",
       },
       {
-        question: "What is the difference between a nursing home and memory care?",
+        question: "What is the Difference between a Nursing Home and Memory Care?",
         answer: "Memory care facilities are specialized units or standalone facilities designed specifically for people with dementia. They offer secured environments, specialized staff, and dementia-focused programming. Nursing homes provide broader skilled and custodial care for various conditions.",
       },
       {
-        question: "Does Medicare cover in-home dementia care?",
+        question: "Does Medicare Cover In-home Dementia Care?",
         answer: "Medicare covers skilled home health services (nursing visits, therapy) when ordered by a physician for a homebound patient. Non-skilled personal care or companion care at home is not covered by Medicare.",
       },
     ],
@@ -18350,7 +18350,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-glaucoma",
     seo: {
-      title: "Does Medicare Cover Glaucoma Testing and Treatment? | MedicareFAQ",
+      title: "Does Medicare Cover Glaucoma Testing and Treatment? || MedicareFAQ",
       description: "Medicare Part B covers annual glaucoma screenings for high-risk beneficiaries and medically necessary treatment. Learn who qualifies, what's covered, and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-glaucoma/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -18390,7 +18390,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Part B — Glaucoma Screening",
+        planName: "Medicare Part B —— Glaucoma Screening",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18417,7 +18417,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "You pay 20% coinsurance after the $283 annual Part B deductible for covered services. A Medigap plan can cover this 20%.",
       },
       {
-        planName: "Medicare Part D — Prescription Eye Drops",
+        planName: "Medicare Part D —— Prescription Eye Drops",
         icon: "shield",
         iconColor: "#0EA5E9",
         coverageLabel: "Covered",
@@ -18441,7 +18441,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Compare Part D plans each year during Open Enrollment (Oct 15 – Dec 7) to ensure your glaucoma medications are covered at the lowest tier.",
       },
       {
-        planName: "Medicare Advantage — Additional Vision Benefits",
+        planName: "Medicare Advantage —— Additional Vision Benefits",
         icon: "heart",
         iconColor: "#059669",
         coverageLabel: "Varies by Plan",
@@ -18470,23 +18470,23 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover glaucoma eye drops?",
+        question: "Does Medicare Cover Glaucoma Eye Drops?",
         answer: "Yes. Medicare Part D covers prescription glaucoma eye drops including prostaglandins, beta-blockers, and combination drops. Coverage and cost vary by plan formulary.",
       },
       {
-        question: "Who qualifies for Medicare glaucoma screening?",
+        question: "Who Qualifies for Medicare Glaucoma Screening?",
         answer: "High-risk beneficiaries qualify: people with diabetes, those with a family history of glaucoma, African Americans age 50 and older, and Hispanic Americans age 65 and older. Medicare covers one screening per year for these groups.",
       },
       {
-        question: "Does Medicare cover glaucoma surgery?",
+        question: "Does Medicare Cover Glaucoma Surgery?",
         answer: "Yes. Medicare Part B covers medically necessary glaucoma surgery including trabeculectomy, tube shunt procedures, and laser treatments such as selective laser trabeculoplasty (SLT).",
       },
       {
-        question: "Does Medicare cover routine eye exams?",
+        question: "Does Medicare Cover Routine Eye Exams?",
         answer: "Generally no. Medicare does not cover routine eye exams for eyeglass or contact lens prescriptions. It only covers eye exams that are medically necessary, such as glaucoma screenings for high-risk patients.",
       },
       {
-        question: "Does Medicare Advantage cover more vision care than Original Medicare?",
+        question: "Does Medicare Advantage Cover More Vision Care than Original Medicare?",
         answer: "Often yes. Many Medicare Advantage plans include supplemental vision benefits such as routine eye exams and eyeglass allowances that are not covered by Original Medicare.",
       },
     ],
@@ -18509,7 +18509,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-home-health-care",
     seo: {
-      title: "Does Medicare Cover Home Health Care? | MedicareFAQ",
+      title: "Does Medicare Cover Home Health Care? || MedicareFAQ",
       description: "Medicare covers home health care when you are homebound and need skilled nursing or therapy services. Learn the eligibility requirements, what's covered, and what Medicare won't pay for.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-home-health-care/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -18550,7 +18550,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Home Health Coverage — Eligibility Requirements",
+        planName: "Medicare Home Health Coverage —— Eligibility Requirements",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18623,23 +18623,23 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "What qualifies as homebound for Medicare home health?",
+        question: "What Qualifies as Homebound for Medicare Home Health?",
         answer: "You are homebound if leaving home requires a considerable effort due to illness or injury. You can still leave for medical appointments, religious services, or adult day care without losing homebound status.",
       },
       {
-        question: "How many home health visits does Medicare cover?",
+        question: "How Many Home Health Visits Does Medicare Cover?",
         answer: "There is no set limit. Medicare covers home health visits as long as you remain homebound, need skilled care, and your physician certifies the ongoing need.",
       },
       {
-        question: "Does Medicare cover a home health aide?",
+        question: "Does Medicare Cover a Home Health Aide?",
         answer: "Yes, but only when provided alongside skilled nursing or therapy services. Medicare does not cover a home health aide for personal care alone.",
       },
       {
-        question: "Does Medicare cover 24-hour home care?",
+        question: "Does Medicare Cover 24-hour Home Care?",
         answer: "No. Medicare does not cover around-the-clock home care or live-in aides. It only covers part-time or intermittent skilled care.",
       },
       {
-        question: "Do I need a hospital stay to qualify for home health?",
+        question: "Do I Need a Hospital Stay to Qualify for Home Health?",
         answer: "No. Unlike skilled nursing facility coverage, Medicare home health does not require a prior hospital stay. You simply need to be homebound and have a physician order for skilled care.",
       },
     ],
@@ -18654,7 +18654,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Part A Coverage",
     ],
     ctaBanner: {
-      title: "Questions About Home Health Coverage?",
+      title: "Questions about Home Health Coverage?",
       text: "Our licensed Medicare agents can help you understand your home health benefits and find a Medigap plan that covers your cost-sharing gaps.",
     },
     relatedSlugs: ["does-medicare-cover-alzheimers-care", "does-medicare-cover-memory-care", "does-medicare-cover-skilled-nursing", "medicare-coverage-for-mental-health", "your-medicare-rights-and-protections"],
@@ -18662,7 +18662,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-durable-medical-equipment",
     seo: {
-      title: "Does Medicare Cover Durable Medical Equipment (DME)? | MedicareFAQ",
+      title: "Does Medicare Cover Durable Medical Equipment (DME)? || MedicareFAQ",
       description: "Medicare Part B covers durable medical equipment including wheelchairs, walkers, CPAP machines, and hospital beds when ordered by a physician. Learn what qualifies and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-durable-medical-equipment/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -18703,7 +18703,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Part B — DME Coverage Requirements",
+        planName: "Medicare Part B —— DME Coverage Requirements",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18770,30 +18770,30 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover wheelchairs?",
+        question: "Does Medicare Cover Wheelchairs?",
         answer: "Yes. Medicare Part B covers manual and power wheelchairs when medically necessary and ordered by a physician. You pay 20% coinsurance after the Part B deductible.",
       },
       {
-        question: "Does Medicare cover CPAP machines?",
+        question: "Does Medicare Cover CPAP Machines?",
         answer: "Yes. Medicare covers CPAP machines for diagnosed sleep apnea. Medicare rents the machine for 13 months, after which ownership transfers to you. You must use the machine as prescribed to continue coverage.",
       },
       {
-        question: "Does Medicare cover hospital beds at home?",
+        question: "Does Medicare Cover Hospital Beds at Home?",
         answer: "Yes. Medicare Part B covers hospital beds for home use when ordered by a physician as medically necessary. Medicare typically rents the bed rather than purchasing it outright.",
       },
       {
-        question: "Does Medicare cover walkers and canes?",
+        question: "Does Medicare Cover Walkers and Canes?",
         answer: "Yes. Medicare Part B covers walkers, canes, and crutches when prescribed by a physician as medically necessary.",
       },
       {
-        question: "How do I find a Medicare-enrolled DME supplier?",
+        question: "How do I Find a Medicare-enrolled DME Supplier?",
         answer: "Use the Medicare Supplier Directory at medicare.gov or call 1-800-MEDICARE to find enrolled suppliers in your area. Always confirm the supplier accepts Medicare assignment before ordering.",
       },
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Diabetic Supplies?", description: "Learn about Medicare's coverage for blood glucose monitors, test strips, and insulin.", slug: "does-medicare-cover-diabetic-supplies" },
       { title: "Does Medicare Cover Home Health Care?", description: "Understand when Medicare covers skilled nursing and therapy at home.", slug: "does-medicare-cover-home-health-care" },
-      { title: "What Is Durable Medical Equipment?", description: "Learn how Medicare defines DME and what qualifies for coverage.", slug: "what-is-durable-medical-equipment-dme" },
+      { title: "What is Durable Medical Equipment?", description: "Learn how Medicare defines DME and what qualifies for coverage.", slug: "what-is-durable-medical-equipment-dme" },
     ],
     sidebarRelatedLinks: [
       "Does Medicare Cover Diabetic Supplies?",
@@ -18848,7 +18848,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18881,19 +18881,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover telehealth from home?",
+        question: "Does Medicare Cover Telehealth from Home?",
         answer: "Yes. Through December 31, 2027, you can receive Medicare-covered telehealth from your home anywhere in the U.S. Mental health and behavioral health telehealth from home is permanently covered.",
       },
       {
-        question: "Does Medicare cover audio-only (phone) telehealth?",
+        question: "Does Medicare Cover Audio-only (Phone) Telehealth?",
         answer: "Yes, for many services — especially mental and behavioral health — when video technology is not available or practical.",
       },
       {
-        question: "How much does a Medicare telehealth visit cost?",
+        question: "How Much Does a Medicare Telehealth Visit Cost?",
         answer: "After the Part B deductible, you pay 20% of the Medicare-approved amount, the same as an in-person visit. A Medigap plan can cover that 20%.",
       },
       {
-        question: "Will Medicare still cover telehealth after 2027?",
+        question: "Will Medicare Still Cover Telehealth after 2027?",
         answer: "Behavioral and mental health telehealth from home is permanent. Other home-based telehealth is extended through December 31, 2027 and depends on future Congressional action.",
       },
     ],
@@ -18905,7 +18905,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including therapy, counseling, and inpatient care.", slug: "medicare-coverage-for-mental-health" },
-      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "What is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
       { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
       { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
     ],
@@ -18971,7 +18971,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19004,19 +19004,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover both knees if I need bilateral replacement?",
+        question: "Does Medicare Cover Both Knees if I Need Bilateral Replacement?",
         answer: "Yes, Medicare can cover bilateral knee replacement, though it may be performed as two separate procedures. Medical necessity must be documented for each knee.",
       },
       {
-        question: "Does Medicare cover outpatient knee replacement?",
+        question: "Does Medicare Cover Outpatient Knee Replacement?",
         answer: "Yes. As same-day outpatient knee replacements become more common, Medicare Part B covers the procedure when performed in an approved outpatient setting.",
       },
       {
-        question: "Does Medicare cover physical therapy after knee replacement?",
+        question: "Does Medicare Cover Physical Therapy after Knee Replacement?",
         answer: "Yes. Medicare Part B covers medically necessary physical therapy following knee replacement surgery.",
       },
       {
-        question: "How much will I pay for knee replacement with Medicare?",
+        question: "How Much Will I Pay for Knee Replacement with Medicare?",
         answer: "You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay, plus 20% of Part B-covered costs for surgeon fees and follow-up care. A Medigap plan can cover most of this.",
       },
     ],
@@ -19094,7 +19094,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -19127,19 +19127,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover routine foot care like nail trimming?",
+        question: "Does Medicare Cover Routine Foot Care Like Nail Trimming?",
         answer: "Generally no, unless you have a qualifying condition such as diabetes or peripheral vascular disease that makes routine foot care medically necessary.",
       },
       {
-        question: "Does Medicare cover diabetic foot care?",
+        question: "Does Medicare Cover Diabetic Foot Care?",
         answer: "Yes. Medicare Part B covers therapeutic shoe inserts and foot exams for people with diabetes, as well as routine nail care when it is part of a diabetic foot treatment plan.",
       },
       {
-        question: "Does Medicare cover orthotics or custom shoe inserts?",
+        question: "Does Medicare Cover Orthotics or Custom Shoe Inserts?",
         answer: "Yes. Medicare Part B covers one pair of therapeutic shoes or inserts per calendar year for beneficiaries with diabetes.",
       },
       {
-        question: "How much does a podiatry visit cost with Medicare?",
+        question: "How Much Does a Podiatry Visit Cost with Medicare?",
         answer: "After the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%.",
       },
     ],
@@ -19216,7 +19216,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19249,19 +19249,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Who qualifies for free hepatitis C screening under Medicare?",
+        question: "Who Qualifies for Free Hepatitis C Screening under Medicare?",
         answer: "Adults born between 1945 and 1965 qualify for one lifetime screening. Adults at increased risk, such as those with a history of injection drug use, qualify for annual screenings.",
       },
       {
-        question: "Is there a copay for the Medicare hepatitis C screening?",
+        question: "Is There a Copay for the Medicare Hepatitis C Screening?",
         answer: "No. When ordered as a preventive service by a participating provider, there is no deductible, copay, or coinsurance.",
       },
       {
-        question: "Does Medicare cover hepatitis C treatment if I test positive?",
+        question: "Does Medicare Cover Hepatitis C Treatment if I Test Positive?",
         answer: "Medicare Part D covers antiviral medications used to treat hepatitis C, such as direct-acting antivirals. Coverage and costs vary by plan.",
       },
       {
-        question: "Does Medicare cover hepatitis B screening as well?",
+        question: "Does Medicare Cover Hepatitis B Screening as Well?",
         answer: "Yes. Medicare Part B also covers hepatitis B screening for adults at increased risk, at no cost when ordered as a preventive service.",
       },
     ],
@@ -19273,7 +19273,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including preventive care via telehealth.", slug: "does-medicare-cover-telehealth" },
-      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "What is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
       { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Find out when Medicare covers medical nutrition therapy and who qualifies.", slug: "does-medicare-cover-medical-nutritional-therapy" },
       { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
     ],
@@ -19338,7 +19338,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19371,19 +19371,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover therapy and counseling?",
+        question: "Does Medicare Cover Therapy and Counseling?",
         answer: "Yes. Medicare Part B covers individual and group psychotherapy, psychiatric evaluations, and counseling when provided by a licensed mental health professional who accepts Medicare.",
       },
       {
-        question: "Does Medicare cover telehealth mental health visits?",
+        question: "Does Medicare Cover Telehealth Mental Health Visits?",
         answer: "Yes, and this coverage is permanent. You can receive Medicare-covered mental health telehealth visits from your home with no geographic restrictions, including audio-only visits when video is not available.",
       },
       {
-        question: "Does Medicare cover inpatient psychiatric care?",
+        question: "Does Medicare Cover Inpatient Psychiatric Care?",
         answer: "Yes. Medicare Part A covers inpatient stays in a psychiatric hospital, up to a lifetime limit of 190 days in a freestanding psychiatric facility. General hospital psychiatric units have no lifetime day limit.",
       },
       {
-        question: "Does Medicare cover substance use disorder treatment?",
+        question: "Does Medicare Cover Substance Use Disorder Treatment?",
         answer: "Yes. Medicare Part B covers opioid treatment programs, alcohol misuse counseling, and other substance use disorder services. Part D covers related medications such as buprenorphine.",
       },
     ],
@@ -19396,7 +19396,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including mental health therapy via telehealth.", slug: "does-medicare-cover-telehealth" },
       { title: "Does Medicare Cover Alzheimer's Care?", description: "Learn what Medicare covers for Alzheimer's disease and memory care.", slug: "does-medicare-cover-alzheimers-care" },
-      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "What is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
       { title: "Does Medicare Cover Second Opinions?", description: "Learn when Medicare covers second opinions and why they matter.", slug: "does-medicare-cover-second-opinions-and-when-should-you-get-one" },
     ],
     sidebarRelatedLinks: [
@@ -19422,12 +19422,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-is-the-medicare-annual-wellness-visit",
     seo: {
-      title: "What Is the Medicare Annual Wellness Visit?",
+      title: "What is the Medicare Annual Wellness Visit?",
       description: "The Medicare Annual Wellness Visit is a free yearly preventive visit to create or update your personalized prevention plan. Learn what's included and how to schedule one.",
       canonical: "https://www.medicarefaq.com/faqs/what-is-the-medicare-annual-wellness-visit/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
-    title: "What Is the Medicare Annual Wellness Visit?",
+    title: "What is the Medicare Annual Wellness Visit?",
     subtitle: "The Medicare Annual Wellness Visit (AWV) is a free yearly appointment covered by Medicare Part B. It is not a physical exam but a personalized prevention planning session to help you stay healthy and catch potential issues early.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
@@ -19460,7 +19460,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19493,19 +19493,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Is the Annual Wellness Visit the same as a physical exam?",
+        question: "Is the Annual Wellness Visit the Same as a Physical Exam?",
         answer: "No. The AWV is a preventive planning session, not a full physical. If you want a physical exam, ask your doctor to schedule it separately; standard Part B cost-sharing will apply.",
       },
       {
-        question: "How often can I get the Medicare Annual Wellness Visit?",
+        question: "How Often Can I Get the Medicare Annual Wellness Visit?",
         answer: "Once every 12 months. You must wait at least 12 months after your previous AWV or your Welcome to Medicare visit before Medicare will cover another one.",
       },
       {
-        question: "Is there a cost for the Annual Wellness Visit?",
+        question: "Is There a Cost for the Annual Wellness Visit?",
         answer: "No. The AWV is free when billed as a preventive visit by a participating provider. If additional services are performed at the same visit, you may owe cost-sharing for those.",
       },
       {
-        question: "What is the Welcome to Medicare visit?",
+        question: "What is the Welcome to Medicare Visit?",
         answer: "The Welcome to Medicare Preventive Visit is a one-time visit covered in your first 12 months of Part B enrollment. It is similar to the AWV and is also covered at no cost.",
       },
     ],
@@ -19582,7 +19582,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -19615,19 +19615,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover a registered dietitian?",
+        question: "Does Medicare Cover a Registered Dietitian?",
         answer: "Yes, but only for Medical Nutrition Therapy for diabetes or kidney disease. General dietitian visits for wellness or weight loss are not covered under Original Medicare.",
       },
       {
-        question: "Does Medicare cover nutrition counseling for weight loss?",
+        question: "Does Medicare Cover Nutrition Counseling for Weight Loss?",
         answer: "Not directly. Original Medicare does not cover general weight loss nutrition counseling. However, Medicare does cover obesity screening and intensive behavioral therapy for obesity, which may include dietary guidance.",
       },
       {
-        question: "How many nutrition therapy sessions does Medicare cover?",
+        question: "How Many Nutrition Therapy Sessions Does Medicare Cover?",
         answer: "Medicare covers 3 hours of MNT in the first year and 2 hours per year in subsequent years. Additional hours may be covered if your doctor determines they are medically necessary.",
       },
       {
-        question: "Do I need a referral for Medicare to cover nutrition therapy?",
+        question: "Do I Need a Referral for Medicare to Cover Nutrition Therapy?",
         answer: "Yes. Your doctor must refer you for Medical Nutrition Therapy. Without a referral, Medicare will not cover the service.",
       },
     ],
@@ -19639,7 +19639,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Does Medicare Cover Medical Nutrition Therapy?", description: "Learn more about Medicare's Medical Nutrition Therapy benefit for diabetes and kidney disease.", slug: "does-medicare-cover-medical-nutritional-therapy" },
-      { title: "What Is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
+      { title: "What is the Medicare Annual Wellness Visit?", description: "Learn what the Medicare Annual Wellness Visit covers and how to schedule one.", slug: "what-is-the-medicare-annual-wellness-visit" },
       { title: "Does Medicare Cover Telehealth?", description: "Learn how Medicare covers virtual visits, including telehealth nutrition therapy.", slug: "does-medicare-cover-telehealth" },
       { title: "Does Medicare Cover End-Stage Renal Disease?", description: "Learn what Medicare covers for kidney failure and dialysis.", slug: "does-medicare-cover-end-stage-renal-disease" },
     ],
@@ -19665,12 +19665,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-disabled-under-65",
     seo: {
-      title: "Medicare Coverage for People Under 65 with a Disability",
+      title: "Medicare Coverage for People under 65 with a Disability",
       description: "You can qualify for Medicare before age 65 if you have a disability and have received Social Security Disability Insurance for 24 months, or have ALS or ESRD. Learn how it works.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-disabled-under-65/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
-    title: "Medicare Coverage for People Under 65 with a Disability",
+    title: "Medicare Coverage for People under 65 with a Disability",
     subtitle: "You do not have to be 65 to qualify for Medicare. If you have been receiving Social Security Disability Insurance (SSDI) for 24 months, you automatically become eligible for Medicare regardless of your age. People with ALS or End-Stage Renal Disease qualify immediately without the waiting period.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
@@ -19703,7 +19703,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19736,19 +19736,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "How do I get Medicare if I am under 65 with a disability?",
+        question: "How do I Get Medicare if I Am under 65 with a Disability?",
         answer: "If you receive SSDI, you are automatically enrolled in Medicare after 24 months of benefits. You do not need to apply separately.",
       },
       {
-        question: "Can I get Medicare with ALS before the 24-month wait?",
+        question: "Can I Get Medicare with ALS before the 24-month Wait?",
         answer: "Yes. People diagnosed with ALS are enrolled in Medicare the same month their SSDI benefits begin, with no waiting period.",
       },
       {
-        question: "Can I buy a Medigap plan if I am under 65?",
+        question: "Can I Buy a Medigap Plan if I Am under 65?",
         answer: "Federal law does not require it, but some states mandate that insurers offer Medigap to under-65 beneficiaries. Check your state's rules or speak with a licensed agent.",
       },
       {
-        question: "Does Medicare coverage for under-65 beneficiaries differ from age-65 coverage?",
+        question: "Does Medicare Coverage for Under-65 Beneficiaries Differ from Age-65 Coverage?",
         answer: "No. The benefits are the same. The main difference is that Medigap access may be limited depending on your state.",
       },
     ],
@@ -19835,7 +19835,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "What This Means for You",
+        planName: "What this Means for You",
         icon: "shield",
         iconColor: "#059669",
         coverageLabel: "Protected",
@@ -19858,19 +19858,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "What are the six protected drug classes in Medicare Part D?",
+        question: "What are the Six Protected Drug Classes in Medicare Part D?",
         answer: "Antidepressants, antipsychotics, anticonvulsants, antiretrovirals (HIV/AIDS), immunosuppressants (organ transplants), and antineoplastics (cancer).",
       },
       {
-        question: "Can my Part D plan remove a protected class drug from its formulary?",
+        question: "Can My Part D Plan Remove a Protected Class Drug from its Formulary?",
         answer: "Not mid-year without CMS approval. Protected class drugs have stronger formulary stability protections than other medications.",
       },
       {
-        question: "What can I do if my Part D plan denies a protected class drug?",
+        question: "What Can I do if My Part D Plan Denies a Protected Class Drug?",
         answer: "You can file a coverage determination request or appeal. Given the protected class rules, your plan must have a strong justification to deny coverage.",
       },
       {
-        question: "Does the protected class rule apply to Medicare Advantage drug plans?",
+        question: "Does the Protected Class Rule Apply to Medicare Advantage Drug Plans?",
         answer: "Yes. Medicare Advantage plans with prescription drug coverage (MA-PD) must follow the same six protected class requirements as standalone Part D plans.",
       },
     ],
@@ -19881,7 +19881,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "info", text: "You can <strong>appeal</strong> if your plan denies a protected class medication" },
     ],
     relatedTopics: [
-      { title: "What Is a Medicare Part D Formulary?", description: "Learn how Medicare Part D drug formularies work and how to compare plans.", slug: "what-is-a-medicare-part-d-formulary" },
+      { title: "What is a Medicare Part D Formulary?", description: "Learn how Medicare Part D drug formularies work and how to compare plans.", slug: "what-is-a-medicare-part-d-formulary" },
       { title: "Does Medicare Cover Mental Health Services?", description: "Learn what Medicare covers for mental health, including psychiatric medications.", slug: "medicare-coverage-for-mental-health" },
       { title: "Does Medicare Cover Cancer?", description: "Learn what Medicare covers for cancer treatment, including chemotherapy.", slug: "medicare-coverage-for-cancer" },
       { title: "Your Medicare Rights and Protections", description: "Learn about your rights as a Medicare beneficiary, including appeal rights.", slug: "your-medicare-rights-and-protections" },
@@ -19908,12 +19908,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-is-a-medicare-part-d-formulary",
     seo: {
-      title: "What Is a Medicare Part D Formulary?",
+      title: "What is a Medicare Part D Formulary?",
       description: "A Medicare Part D formulary is the list of prescription drugs covered by your plan. Learn how formularies work, what tiers mean, and how to find your medications.",
       canonical: "https://www.medicarefaq.com/faqs/what-is-a-medicare-part-d-formulary/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
-    title: "What Is a Medicare Part D Formulary?",
+    title: "What is a Medicare Part D Formulary?",
     subtitle: "A Medicare Part D formulary is the official list of prescription drugs covered by your plan. Every Part D plan — including standalone drug plans and Medicare Advantage plans with drug coverage — has its own formulary. Your cost for each drug depends on which tier it falls into.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
@@ -19980,19 +19980,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "What happens if my drug is not on my Part D formulary?",
+        question: "What Happens if My Drug is not on My Part D Formulary?",
         answer: "You can request a formulary exception with documentation from your doctor. You can also switch to a plan that covers your drug during the Annual Enrollment Period.",
       },
       {
-        question: "Can a Part D plan change its formulary mid-year?",
+        question: "Can a Part D Plan Change its Formulary Mid-year?",
         answer: "Plans can make certain formulary changes mid-year, but they must give you 60 days' notice before removing a drug or moving it to a higher tier. Drugs in the six protected classes have stronger mid-year stability protections.",
       },
       {
-        question: "What is a tier exception in Medicare Part D?",
+        question: "What is a Tier Exception in Medicare Part D?",
         answer: "A tier exception is a request to have your drug covered at a lower cost-sharing tier. Your doctor must show the lower-tier drug is not appropriate for your condition.",
       },
       {
-        question: "How do I find out if my drug is covered by a Part D plan?",
+        question: "How do I Find out if My Drug is Covered by a Part D Plan?",
         answer: "Use the Medicare Plan Finder at Medicare.gov, enter your medications, and compare which plans cover them and at what cost tier.",
       },
     ],
@@ -20068,7 +20068,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -20101,19 +20101,19 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       {
-        question: "Does Medicare cover Botox for migraines?",
+        question: "Does Medicare Cover Botox for Migraines?",
         answer: "Yes. Medicare Part B covers Botox for chronic migraines when you have 15 or more headache days per month, with at least 8 qualifying as migraines, and other treatments have not been effective.",
       },
       {
-        question: "Does Medicare cover Botox for cosmetic use?",
+        question: "Does Medicare Cover Botox for Cosmetic Use?",
         answer: "No. Medicare never covers Botox for cosmetic purposes such as wrinkle reduction or facial aesthetics. Coverage is limited to medically necessary conditions.",
       },
       {
-        question: "Does Medicare cover Botox for overactive bladder?",
+        question: "Does Medicare Cover Botox for Overactive Bladder?",
         answer: "Yes. Medicare Part B covers Botox injections for overactive bladder when other treatments such as medications have not provided adequate relief.",
       },
       {
-        question: "How much does Botox cost with Medicare?",
+        question: "How Much Does Botox Cost with Medicare?",
         answer: "After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20% coinsurance.",
       },
     ],
@@ -20152,7 +20152,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-braces-devices",
     seo: {
-      title: "Medicare Approved Braces and Devices | MedicareFAQ",
+      title: "Medicare Approved Braces and Devices || MedicareFAQ",
       description: "Find out what Medicare-approved braces and devices are covered under Part B. This includes braces for arm, leg, back, and neck when medically necessary.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-braces-devices/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-approved-braces-and-devices.jpg",
@@ -20196,7 +20196,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -20245,7 +20245,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Before enrolling",
+          title: "Before Enrolling",
           text: "Verify the plan is available in your area, confirm that your preferred DME supplier is in-network, and review the plan's cost-sharing for durable medical equipment and orthotics.",
         },
       },
@@ -20324,11 +20324,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "Does Medicare cover knee braces for osteoarthritis?", answer: "Yes. As of January 2026, CMS expanded coverage for knee braces used to treat osteoarthritis under a revised Local Coverage Determination. Your doctor must order the brace and document the medical necessity. You will pay 20% of the Medicare-approved amount after meeting your Part B deductible." },
-      { question: "Does Medicare cover back braces?", answer: "Yes, Medicare Part B covers back braces (lumbar-sacral orthoses and thoracolumbar orthoses) when medically necessary and ordered by a doctor. Common reasons include spinal fractures, post-surgical support, and chronic back conditions. You pay 20% coinsurance after the Part B deductible." },
-      { question: "Do I need a prescription to get a Medicare-covered brace?", answer: "Yes. Medicare requires a written order from a doctor or qualified health care provider before it will cover a brace. Without a prescription, Medicare will not pay for the device. A face-to-face encounter may also be required for certain orthotic devices." },
-      { question: "Can I buy a brace online and have Medicare pay for it?", answer: "Medicare will only cover braces from Medicare-enrolled suppliers. If you purchase a brace from an online retailer that is not enrolled in Medicare, you will be responsible for the full cost. Always verify the supplier's Medicare enrollment status before purchasing." },
-      { question: "Does Medicare cover finger splints?", answer: "Medicare may cover finger splints if they meet the definition of a rigid or semi-rigid orthotic device and are medically necessary. Your doctor must order the splint, and it must be obtained from a Medicare-enrolled supplier. Soft elastic finger supports typically do not qualify for coverage." },
+      { question: "Does Medicare Cover Knee Braces for Osteoarthritis?", answer: "Yes. As of January 2026, CMS expanded coverage for knee braces used to treat osteoarthritis under a revised Local Coverage Determination. Your doctor must order the brace and document the medical necessity. You will pay 20% of the Medicare-approved amount after meeting your Part B deductible." },
+      { question: "Does Medicare Cover Back Braces?", answer: "Yes, Medicare Part B covers back braces (lumbar-sacral orthoses and thoracolumbar orthoses) when medically necessary and ordered by a doctor. Common reasons include spinal fractures, post-surgical support, and chronic back conditions. You pay 20% coinsurance after the Part B deductible." },
+      { question: "Do I Need a Prescription to Get a Medicare-covered Brace?", answer: "Yes. Medicare requires a written order from a doctor or qualified health care provider before it will cover a brace. Without a prescription, Medicare will not pay for the device. A face-to-face encounter may also be required for certain orthotic devices." },
+      { question: "Can I Buy a Brace Online and Have Medicare Pay for It?", answer: "Medicare will only cover braces from Medicare-enrolled suppliers. If you purchase a brace from an online retailer that is not enrolled in Medicare, you will be responsible for the full cost. Always verify the supplier's Medicare enrollment status before purchasing." },
+      { question: "Does Medicare Cover Finger Splints?", answer: "Medicare may cover finger splints if they meet the definition of a rigid or semi-rigid orthotic device and are medically necessary. Your doctor must order the splint, and it must be obtained from a Medicare-enrolled supplier. Soft elastic finger supports typically do not qualify for coverage." },
     ],
     quickReference: [
       { icon: "check", text: "<strong>Medicare Part B</strong> covers arm, leg, back, and neck braces" },
@@ -20399,10 +20399,10 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     subNavLinks: [
-      { label: "What Is MQGE", href: "/faqs/medicare-qualified-government-wages" },
+      { label: "What is MQGE", href: "/faqs/medicare-qualified-government-wages" },
       { label: "Who Qualifies", href: "/faqs/medicare-qualified-government-wages" },
-      { label: "Part A Premiums", href: "/faqs/medicare-qualified-government-wages" },
-      { label: "FEHB & Medicare", href: "/faqs/medicare-qualified-government-wages" },
+      { label: "Part a Premiums", href: "/faqs/medicare-qualified-government-wages" },
+      { label: "FEHB && Medicare", href: "/faqs/medicare-qualified-government-wages" },
       { label: "FAQs", href: "/faqs/medicare-qualified-government-wages" },
     ],
     comparisonTable: [
@@ -20413,7 +20413,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is MQGE?",
+        planName: "What is MQGE?",
         icon: "info",
         iconColor: "#1B2A4A",
         coverageLabel: "Medicare Tax Only",
@@ -20438,7 +20438,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "How to check your quarters",
+          title: "How to Check Your Quarters",
           text: "You can verify your MQGE quarters by creating an account at SSA.gov or by calling the Social Security Administration at 1-800-772-1213. Your earnings record will show which quarters count toward Medicare eligibility.",
         },
       },
@@ -20466,7 +20466,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Best practice for federal retirees",
+          title: "Best Practice for Federal Retirees",
           text: "If you qualify for premium-free Part A (40+ quarters), enroll in it — it costs nothing and adds hospital coverage that coordinates with FEHB. Then carefully compare whether adding Part B is worth the monthly premium based on your FEHB plan's benefits.",
         },
       },
@@ -20555,11 +20555,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "Do MQGE wages count toward Social Security benefits?", answer: "No. MQGE wages are taxed only for Medicare purposes. They do not count toward your Social Security retirement, disability, or survivor benefits. If you need Social Security credits, they must come from employment covered by Social Security taxes." },
-      { question: "Can I combine MQGE quarters with private-sector quarters?", answer: "Yes. All quarters in which you paid Medicare taxes — whether through government MQGE employment, private-sector work, or self-employment — are combined to determine your Medicare Part A eligibility and premium." },
-      { question: "What if I was hired before the MQGE cutoff dates?", answer: "If you were a federal employee hired before January 1, 1983, or a state/local employee hired before April 1, 1986, your wages may not be classified as MQGE. However, if you were rehired after those dates, your new employment is subject to mandatory Medicare coverage." },
-      { question: "Is Medicare enrollment mandatory for government retirees?", answer: "No. Medicare enrollment is voluntary. However, if you qualify for premium-free Part A, most financial advisors recommend enrolling because it adds hospital coverage at no cost to you." },
-      { question: "Should I keep FEHB if I enroll in Medicare?", answer: "In most cases, yes. Keeping both FEHB and Medicare provides comprehensive coverage. Medicare becomes primary and FEHB secondary, which can significantly reduce your out-of-pocket costs. Plus, FEHB counts as creditable drug coverage, so you won't face a Part D late penalty." },
+      { question: "Do MQGE Wages Count toward Social Security Benefits?", answer: "No. MQGE wages are taxed only for Medicare purposes. They do not count toward your Social Security retirement, disability, or survivor benefits. If you need Social Security credits, they must come from employment covered by Social Security taxes." },
+      { question: "Can I Combine MQGE Quarters with Private-sector Quarters?", answer: "Yes. All quarters in which you paid Medicare taxes — whether through government MQGE employment, private-sector work, or self-employment — are combined to determine your Medicare Part A eligibility and premium." },
+      { question: "What if I Was Hired before the MQGE Cutoff Dates?", answer: "If you were a federal employee hired before January 1, 1983, or a state/local employee hired before April 1, 1986, your wages may not be classified as MQGE. However, if you were rehired after those dates, your new employment is subject to mandatory Medicare coverage." },
+      { question: "Is Medicare Enrollment Mandatory for Government Retirees?", answer: "No. Medicare enrollment is voluntary. However, if you qualify for premium-free Part A, most financial advisors recommend enrolling because it adds hospital coverage at no cost to you." },
+      { question: "Should I Keep FEHB if I Enroll in Medicare?", answer: "In most cases, yes. Keeping both FEHB and Medicare provides comprehensive coverage. Medicare becomes primary and FEHB secondary, which can significantly reduce your out-of-pocket costs. Plus, FEHB counts as creditable drug coverage, so you won't face a Part D late penalty." },
     ],
     quickReference: [
       { icon: "info", text: "<strong>MQGE</strong> = government wages taxed for Medicare but not Social Security" },
@@ -20571,7 +20571,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "FEHB and Medicare", description: "How Federal Employee Health Benefits work alongside Medicare coverage.", slug: "fehb-and-medicare" },
       { title: "Medicare Costs in 2026", description: "Complete breakdown of Medicare premiums, deductibles, and costs for 2026.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
-      { title: "Medicare Penalties & Deadlines", description: "Avoid costly late enrollment penalties with this comprehensive guide.", slug: "protect-yourself-from-medicare-penalties-and-deadlines" },
+      { title: "Medicare Penalties && Deadlines", description: "Avoid costly late enrollment penalties with this comprehensive guide.", slug: "protect-yourself-from-medicare-penalties-and-deadlines" },
       { title: "Guide to Retirement Planning", description: "Plan your Medicare coverage as part of your overall retirement strategy.", slug: "guide-to-retirement-planning" },
     ],
     sidebarRelatedLinks: [
@@ -20591,12 +20591,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-and-divorce",
     seo: {
-      title: "Medicare and Divorce: Eligibility, Benefits & What You Need to Know",
+      title: "Medicare and Divorce: Eligibility, Benefits && What You Need to Know",
       description: "Learn how divorce affects your Medicare eligibility, whether you can use your ex-spouse's work record for premium-free Part A, and what coverage options are available.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-and-divorce/",
       ogImage: "https://images.pexels.com/photos/7551604/pexels-photo-7551604.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
-    title: "Medicare and Divorce: Eligibility, Benefits & What You Need to Know",
+    title: "Medicare and Divorce: Eligibility, Benefits && What You Need to Know",
     subtitle: "How divorce affects your Medicare eligibility and whether you can qualify for premium-free Part A through your ex-spouse's work record.",
     category: "Coverage Q&A",
     dateUpdated: "April 28, 2026",
@@ -20738,7 +20738,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     alternativesSection: {
-      title: "Steps to Take After Divorce",
+      title: "Steps to Take after Divorce",
       paragraphs: [
         "If you are divorced and approaching Medicare eligibility, taking a few proactive steps can help you understand your options and avoid costly mistakes.",
       ],
@@ -20757,15 +20757,15 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Can I get Medicare through my ex-spouse if we were married less than 10 years?",
+        question: "Can I Get Medicare through My Ex-spouse if We Were Married Less than 10 Years?",
         answer: "No. The 10-year marriage requirement is a firm rule with no exceptions. You would need to qualify based on your own work record or pay the Part A premium.",
       },
       {
-        question: "Does my ex-spouse need to approve my Medicare application?",
+        question: "Does My Ex-spouse Need to Approve My Medicare Application?",
         answer: "No. You can apply using their work record without their knowledge or permission. Their benefits are not reduced.",
       },
       {
-        question: "What if I remarried after my divorce?",
+        question: "What if I Remarried after My Divorce?",
         answer: "You cannot use a prior ex-spouse's work record while currently married. If your current marriage ends, you may regain eligibility.",
       },
       {
@@ -20773,7 +20773,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Yes. Medicare eligibility and Social Security benefits are determined separately. You can use whichever record is most advantageous for each.",
       },
       {
-        question: "Is there a Special Enrollment Period after divorce?",
+        question: "Is There a Special Enrollment Period after Divorce?",
         answer: "No. Divorce does not create a Special Enrollment Period. You must enroll during your IEP around age 65 or a SEP tied to employer coverage.",
       },
     ],
@@ -20801,7 +20801,7 @@ export const coverageArticles: CoverageArticleData[] = [
         slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
       },
       {
-        title: "Medicare Penalties & Deadlines",
+        title: "Medicare Penalties && Deadlines",
         description: "Avoid costly late enrollment penalties with this guide.",
         slug: "protect-yourself-from-medicare-penalties-and-deadlines",
       },
@@ -20862,7 +20862,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is a Home Safety Assessment?",
+        planName: "What is a Home Safety Assessment?",
         icon: "home",
         iconColor: "#0D9488",
         coverageLabel: "Overview",
@@ -20947,7 +20947,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "When Medicare Will NOT Cover a Home Safety Assessment",
+      title: "When Medicare Will not Cover a Home Safety Assessment",
       items: [
         {
           title: "No Physician Order",
@@ -20983,23 +20983,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What does a home safety assessment include?",
+        question: "What Does a Home Safety Assessment Include?",
         answer: "A home safety assessment evaluates your living environment for fall risks and hazards. The assessor checks lighting, flooring, bathroom safety, stairways, kitchen hazards, smoke detectors, clutter, and accessibility. They provide a written report with recommendations for modifications or equipment to reduce injury risk.",
       },
       {
-        question: "Who performs a Medicare-covered home safety assessment?",
+        question: "Who Performs a Medicare-covered Home Safety Assessment?",
         answer: "Medicare requires the assessment to be performed by an occupational therapist or other qualified healthcare professional approved by Medicare. The evaluator must be working under a physician's order.",
       },
       {
-        question: "Does Medicare pay for home modifications recommended by the assessment?",
+        question: "Does Medicare Pay for Home Modifications Recommended by the Assessment?",
         answer: "Generally no. Medicare covers the assessment itself but not the recommended modifications such as handrails, ramps, or lighting upgrades. However, some Medicare Advantage plans offer supplemental benefits that cover certain home modifications like grab bar installation.",
       },
       {
-        question: "Can I get a home safety assessment during my Annual Wellness Visit?",
+        question: "Can I Get a Home Safety Assessment during My Annual Wellness Visit?",
         answer: "Your Annual Wellness Visit may include a Social Determinants of Health Risk Assessment that identifies home safety concerns. If risks are identified, your doctor can then order a separate, more comprehensive home safety assessment covered by Part B.",
       },
       {
-        question: "How often will Medicare cover a home safety assessment?",
+        question: "How Often Will Medicare Cover a Home Safety Assessment?",
         answer: "Medicare does not set a specific frequency limit, but the assessment must be medically necessary each time. A new assessment would typically be covered after a significant change in health status, a fall, a new diagnosis affecting mobility, or discharge from a hospital.",
       },
     ],
@@ -21126,7 +21126,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "The Part B late enrollment penalty is 10% for each full 12-month period you delayed — and it lasts for as long as you have Part B.",
       },
       {
-        planName: "What to Do When You Retire or Lose Employer Coverage",
+        planName: "What to do When You Retire or Lose Employer Coverage",
         icon: "log-out",
         iconColor: "#0D9488",
         coverageLabel: "Action Required",
@@ -21199,23 +21199,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Should I enroll in Medicare Part A at 65 if I have employer coverage?",
+        question: "Should I Enroll in Medicare Part a at 65 if I Have Employer Coverage?",
         answer: "In most cases, yes. Part A is premium-free for people with 40+ quarters of work history, and it provides additional hospital coverage alongside your employer plan. The only exception is if enrolling in Part A would affect your HSA contributions — since you cannot contribute to an HSA once enrolled in any part of Medicare.",
       },
       {
-        question: "What happens if I miss the 8-month Special Enrollment Period?",
+        question: "What Happens if I Miss the 8-month Special Enrollment Period?",
         answer: "If you miss the SEP, you'll need to wait for the General Enrollment Period (January 1 – March 31), with coverage starting July 1. You'll also face a permanent late enrollment penalty of 10% added to your Part B premium for each full 12-month period you could have had Part B but didn't.",
       },
       {
-        question: "Does COBRA count as creditable coverage for delaying Part B?",
+        question: "Does COBRA Count as Creditable Coverage for Delaying Part B?",
         answer: "No. COBRA is not considered creditable employer coverage for the purpose of delaying Part B enrollment. If you elect COBRA after leaving your job, you should also enroll in Part B during your Special Enrollment Period to avoid penalties.",
       },
       {
-        question: "Can my employer force me to enroll in Medicare at 65?",
+        question: "Can My Employer Force Me to Enroll in Medicare at 65?",
         answer: "No. Your employer cannot require you to enroll in Medicare. However, if your employer has fewer than 20 employees, Medicare becomes primary at 65 and your employer plan becomes secondary — so enrolling in both Part A and Part B is strongly recommended.",
       },
       {
-        question: "What if my employer offers a Medicare Advantage plan for retirees?",
+        question: "What if My Employer Offers a Medicare Advantage Plan for Retirees?",
         answer: "Some employers offer group Medicare Advantage plans as retiree benefits. These can be a good option, but compare them carefully with individual Medigap and MA plans available in your area. Group retiree plans may have different networks and benefits than individual plans.",
       },
     ],
@@ -21227,8 +21227,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "dollar" as const, text: "Part B late penalty: 10% per year of delay — permanent" },
     ],
     relatedTopics: [
-      { title: "Transitioning to Medicare After Employer Coverage Ends", description: "Step-by-step guide for moving from employer insurance to Medicare.", slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide" },
-      { title: "Working Past 65 and Medicare", description: "How to navigate Medicare enrollment when you're still on the job.", slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job" },
+      { title: "Transitioning to Medicare after Employer Coverage Ends", description: "Step-by-step guide for moving from employer insurance to Medicare.", slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide" },
+      { title: "Working past 65 and Medicare", description: "How to navigate Medicare enrollment when you're still on the job.", slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job" },
       { title: "HSA and Medicare", description: "Learn how Health Savings Accounts work with Medicare.", slug: "hsa-and-medicare" },
       { title: "Medicare Late Enrollment Penalties", description: "Understand the penalties for delaying Medicare enrollment.", slug: "protect-yourself-from-medicare-penalties-key-tips-and-deadlines" },
     ],
@@ -21309,7 +21309,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "If you contribute to an HSA after enrolling in Medicare, you'll face a 6% excise tax on the excess contributions for each year they remain in the account.",
       },
       {
-        planName: "The Part A Retroactive Enrollment Trap",
+        planName: "The Part a Retroactive Enrollment Trap",
         icon: "alert-triangle",
         iconColor: "#D97706",
         coverageLabel: "Critical Warning",
@@ -21335,7 +21335,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "The 6% excise tax on excess contributions applies each year the excess remains in the account. Withdraw excess contributions promptly to minimize penalties.",
       },
       {
-        planName: "Using HSA Funds With Medicare",
+        planName: "Using HSA Funds with Medicare",
         icon: "wallet",
         iconColor: "#0D9488",
         coverageLabel: "Allowed",
@@ -21375,7 +21375,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Common HSA and Medicare Mistakes to Avoid",
       items: [
         {
-          title: "Automatic Part A With Social Security",
+          title: "Automatic Part a with Social Security",
           text: "If you claim Social Security benefits at or after 65, you are automatically enrolled in Part A. This immediately ends your HSA contribution eligibility — even if you didn't intend to enroll in Medicare yet.",
         },
         {
@@ -21383,7 +21383,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "If your employer automatically contributes to your HSA, you must notify them to stop once you enroll in Medicare. Employer contributions count toward the excess contribution limit and trigger the same 6% penalty.",
         },
         {
-          title: "Paying Medigap Premiums From HSA",
+          title: "Paying Medigap Premiums from HSA",
           text: "Unlike Medicare Part A, B, C, and D premiums, Medigap (Medicare Supplement) premiums are NOT considered qualified medical expenses by the IRS. Using HSA funds for Medigap premiums will result in the withdrawal being taxed as ordinary income.",
         },
       ],
@@ -21408,23 +21408,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Can I contribute to an HSA if I only have Medicare Part A?",
+        question: "Can I Contribute to an HSA if I Only Have Medicare Part A?",
         answer: "No. Enrollment in any part of Medicare — including Part A alone — disqualifies you from making HSA contributions. This is an IRS rule, not a Medicare rule.",
       },
       {
-        question: "What happens to my HSA when I enroll in Medicare?",
+        question: "What Happens to My HSA When I Enroll in Medicare?",
         answer: "Your HSA remains open and the funds are still yours. You simply can no longer make new contributions. You can continue to withdraw funds tax-free for qualified medical expenses, including most Medicare costs.",
       },
       {
-        question: "Can I use my HSA to pay for Medigap premiums?",
+        question: "Can I Use My HSA to Pay for Medigap Premiums?",
         answer: "No. The IRS does not consider Medigap (Medicare Supplement) premiums a qualified medical expense. If you use HSA funds for Medigap premiums, the withdrawal will be taxed as ordinary income. However, Medicare Part A, B, C, and D premiums are all qualified expenses.",
       },
       {
-        question: "Should I delay Medicare to keep contributing to my HSA?",
+        question: "Should I Delay Medicare to Keep Contributing to My HSA?",
         answer: "This depends on your situation. If you have creditable employer coverage and want to maximize HSA contributions, you can delay Part A (and Part B) enrollment. However, weigh the tax savings from HSA contributions against the value of Medicare coverage and any potential penalties.",
       },
       {
-        question: "What if I accidentally contributed to my HSA after enrolling in Medicare?",
+        question: "What if I Accidentally Contributed to My HSA after Enrolling in Medicare?",
         answer: "You'll need to withdraw the excess contributions (and any earnings on them) before your tax filing deadline to avoid the 6% excise tax. Contact your HSA administrator to process an excess contribution removal. If you don't remove them, the 6% penalty applies each year the excess remains.",
       },
     ],
@@ -21635,11 +21635,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "When is the Part B premium deducted from Social Security?", answer: "Part B premiums are automatically deducted from your monthly Social Security benefit. If you don't receive Social Security, you'll get a bill from Medicare (CMS-500) quarterly." },
-      { question: "Can I delay Part B if I have employer coverage?", answer: "Yes. If you or your spouse has employer coverage through a company with 20+ employees, you can delay Part B without penalty. You'll get a Special Enrollment Period (SEP) when that coverage ends." },
-      { question: "What is the Part B Giveback benefit?", answer: "Some Medicare Advantage plans reduce your Part B premium by giving back a portion of their CMS rebate. This appears as a higher Social Security check. Giveback amounts range from $50 to $202.90/month depending on the plan." },
+      { question: "When is the Part B Premium Deducted from Social Security?", answer: "Part B premiums are automatically deducted from your monthly Social Security benefit. If you don't receive Social Security, you'll get a bill from Medicare (CMS-500) quarterly." },
+      { question: "Can I Delay Part B if I Have Employer Coverage?", answer: "Yes. If you or your spouse has employer coverage through a company with 20+ employees, you can delay Part B without penalty. You'll get a Special Enrollment Period (SEP) when that coverage ends." },
+      { question: "What is the Part B Giveback Benefit?", answer: "Some Medicare Advantage plans reduce your Part B premium by giving back a portion of their CMS rebate. This appears as a higher Social Security check. Giveback amounts range from $50 to $202.90/month depending on the plan." },
       { question: "How do I know if I'll pay IRMAA?", answer: "Social Security sends a letter (IRMAA determination notice) if your income from 2 years ago exceeds the threshold. You can also check by reviewing your MAGI on your tax return from 2 years prior." },
-      { question: "Does everyone pay the same Part B premium?", answer: "No. While most beneficiaries pay the standard $202.90/month in 2026, higher-income individuals pay more through IRMAA surcharges, and some may pay less through Giveback plans or Medicare Savings Programs." },
+      { question: "Does Everyone Pay the Same Part B Premium?", answer: "No. While most beneficiaries pay the standard $202.90/month in 2026, higher-income individuals pay more through IRMAA surcharges, and some may pay less through Giveback plans or Medicare Savings Programs." },
     ],
     quickReference: [
       { icon: "dollar", text: "<strong>2026 Standard Premium:</strong> $202.90/month ($17.90 increase from 2025)" },
@@ -21669,12 +21669,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "advance-beneficiary-notice",
     seo: {
-      title: "Medicare Advance Beneficiary Notice (ABN): What It Means & Your Options",
+      title: "Medicare Advance Beneficiary Notice (ABN): What it Means && Your Options",
       description: "Learn what a Medicare Advance Beneficiary Notice of Noncoverage (ABN) means, when providers must give you one, and what options you have when you receive it.",
       canonical: "https://www.medicarefaq.com/faqs/advance-beneficiary-notice/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-advance-beneficiary-notice-of-noncoverage.jpg",
     },
-    title: "Advance Beneficiary Notice (ABN): What It Means for Your Medicare Coverage",
+    title: "Advance Beneficiary Notice (ABN): What it Means for Your Medicare Coverage",
     subtitle: "An Advance Beneficiary Notice is a written notice your provider must give you before delivering a service they believe Medicare may not cover, giving you the choice to accept financial responsibility.",
     category: "Medicare Benefits",
     dateUpdated: "April 2026",
@@ -21700,7 +21700,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     subNavLinks: [
-      { label: "What Is an ABN", href: "/faqs/advance-beneficiary-notice" },
+      { label: "What is an ABN", href: "/faqs/advance-beneficiary-notice" },
       { label: "When Required", href: "/faqs/advance-beneficiary-notice" },
       { label: "Your Options", href: "/faqs/advance-beneficiary-notice" },
       { label: "FAQs", href: "/faqs/advance-beneficiary-notice" },
@@ -21713,7 +21713,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is an ABN?",
+        planName: "What is an ABN?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "CMS Form R-131",
@@ -21796,7 +21796,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Option 1 is generally recommended if you believe Medicare should cover the service, as it preserves your appeal rights.",
     },
     exceptionsSection: {
-      title: "When an ABN Is NOT Required",
+      title: "When an ABN is not Required",
       items: [
         {
           title: "Categorically Excluded Services",
@@ -21821,7 +21821,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     alternativesSection: {
-      title: "What to Do When You Receive an ABN",
+      title: "What to do When You Receive an ABN",
       paragraphs: ["Follow these steps when a provider hands you an Advance Beneficiary Notice to protect your rights and finances."],
       checklist: {
         title: "ABN Action Steps",
@@ -21838,10 +21838,10 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       { question: "What happens if I don't sign the ABN?", answer: "If you refuse to sign the ABN, the provider may choose not to provide the service. If they provide it anyway without your signature, they generally cannot hold you financially responsible if Medicare denies the claim." },
-      { question: "Can a provider give me an ABN after the service?", answer: "No. An ABN must be given before the service is provided. A retroactive ABN is not valid, and the provider cannot bill you for a denied service if they failed to issue the ABN in advance." },
+      { question: "Can a Provider Give Me an ABN after the Service?", answer: "No. An ABN must be given before the service is provided. A retroactive ABN is not valid, and the provider cannot bill you for a denied service if they failed to issue the ABN in advance." },
       { question: "Does an ABN mean Medicare definitely won't pay?", answer: "No. An ABN means the provider believes Medicare might not pay. The claim is still submitted to Medicare (if you choose Option 1), and Medicare may approve it. The ABN is a precaution, not a denial." },
-      { question: "Do Medicare Advantage plans use ABNs?", answer: "No. Medicare Advantage plans use a similar form called the Notice of Medicare Non-Coverage (NOMNC) for hospital/SNF discharges, or a plan-specific notice for other services. The concept is similar but the form is different." },
-      { question: "How long is an ABN valid?", answer: "An ABN is valid for one year from the date it is signed. For recurring services (like ongoing lab tests), a single ABN can cover up to one year of the same service." },
+      { question: "Do Medicare Advantage Plans Use ABNs?", answer: "No. Medicare Advantage plans use a similar form called the Notice of Medicare Non-Coverage (NOMNC) for hospital/SNF discharges, or a plan-specific notice for other services. The concept is similar but the form is different." },
+      { question: "How Long is an ABN Valid?", answer: "An ABN is valid for one year from the date it is signed. For recurring services (like ongoing lab tests), a single ABN can cover up to one year of the same service." },
     ],
     quickReference: [
       { icon: "info", text: "<strong>ABN = Advance Beneficiary Notice</strong> — given before a potentially non-covered service" },
@@ -21863,7 +21863,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Assignment",
     ],
     ctaBanner: {
-      title: "Questions About Medicare Coverage?",
+      title: "Questions about Medicare Coverage?",
       text: "Have questions about a service Medicare may not cover? Our licensed agents can help you understand your options and find supplemental coverage that fills the gaps.",
     },
     relatedSlugs: ["medicare-prior-authorization", "medicare-coverage-for-skilled-nursing-facilities", "medicare-benefits", "understanding-medicare-assignment-what-it-means-for-your-costs"],
@@ -21872,13 +21872,13 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-benefits",
     seo: {
-      title: "Can You Lose Your Medicare Benefits? | MedicareFAQ",
+      title: "Can You Lose Your Medicare Benefits? || MedicareFAQ",
       description: "Learn the scenarios that can cause you to lose Medicare benefits, including non-payment, fraud, disability recovery, and moving. Plus how to protect your coverage.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-benefits/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/can-you-lose-your-medicare-benefits.jpg",
     },
     title: "Can You Lose Your Medicare Benefits?",
-    subtitle: "Understanding the scenarios that could put your Medicare coverage at risk — and how to prevent them.",
+    subtitle: "Understanding the Scenarios that Could Put Your Medicare Coverage at Risk —— and How to Prevent Them.",
     category: "Medicare Eligibility",
     dateUpdated: "April 29, 2026",
     author: {
@@ -22004,7 +22004,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "Moving Outside Your Plan Area",
+        planName: "Moving outside Your Plan Area",
         icon: "map-pin",
         iconColor: "text-blue-600",
         coverageLabel: "Plan-Specific Risk",
@@ -22059,19 +22059,19 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Late enrollment penalties for Part B and Part D are permanent surcharges added to your monthly premium for as long as you have coverage.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Protections",
+      title: "Important Exceptions && Protections",
       items: [
         {
-          title: "Age-Based Eligibility Is Permanent",
+          title: "Age-Based Eligibility is Permanent",
           text: "If you qualify for Medicare at age 65 based on work history (40+ quarters of Medicare taxes), your Part A eligibility cannot be revoked. You can only lose coverage through non-payment or voluntary termination.",
           highlight: "Once eligible by age, Part A eligibility is permanent.",
         },
         {
-          title: "Guaranteed Issue Rights After Plan Loss",
+          title: "Guaranteed Issue Rights after Plan Loss",
           text: "If you lose Medicare Advantage or Medigap coverage through no fault of your own (plan termination, moving), you have guaranteed issue rights to purchase a new Medigap policy without medical underwriting.",
         },
         {
-          title: "Voluntary Termination Is Reversible",
+          title: "Voluntary Termination is Reversible",
           text: "If you voluntarily drop Part B, you can re-enroll during the General Enrollment Period (January 1 – March 31), though a late enrollment penalty may apply.",
         },
         {
@@ -22115,7 +22115,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Can I lose Medicare if I move to another state?",
+        question: "Can I Lose Medicare if I Move to Another State?",
         answer: "Your Original Medicare (Part A and B) works nationwide, so moving states won't affect it. However, Medicare Advantage and Part D plans have service areas — you'll need to switch plans if you move outside yours.",
       },
       {
@@ -22123,15 +22123,15 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Contact your State Health Insurance Assistance Program (SHIP) or apply for a Medicare Savings Program. These programs can pay your premiums if you meet income requirements.",
       },
       {
-        question: "Can Medicare be taken away once I turn 65?",
+        question: "Can Medicare be Taken Away Once I Turn 65?",
         answer: "If you're eligible based on age (65+) and work history, your Part A eligibility is permanent. You can only lose active coverage through non-payment of premiums or voluntary termination.",
       },
       {
-        question: "What if my Medicare Advantage plan leaves my area?",
+        question: "What if My Medicare Advantage Plan Leaves My Area?",
         answer: "You'll receive advance notice and a Special Enrollment Period to join a new MA plan or switch to Original Medicare. You also get guaranteed issue rights for Medigap.",
       },
       {
-        question: "Does going back to work affect my Medicare?",
+        question: "Does Going Back to Work Affect My Medicare?",
         answer: "If you're under 65 with disability-based Medicare, you keep coverage for 93 months after returning to work. If you're 65+, working doesn't affect your Medicare eligibility.",
       },
     ],
@@ -22155,7 +22155,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Is Medicare Mandatory",
     ],
     ctaBanner: {
-      title: "Worried About Losing Medicare Coverage?",
+      title: "Worried about Losing Medicare Coverage?",
       text: "Our licensed agents can help you understand your options, avoid penalties, and ensure your coverage stays intact. Get personalized guidance at no cost.",
     },
     relatedSlugs: ["delay-medicare", "medicare-enrollment-periods", "medicare-for-disabled-individuals", "is-medicare-mandatory"],
@@ -22164,7 +22164,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-reimbursement",
     seo: {
-      title: "Medicare Reimbursement: How to File a Claim & Get Paid Back | MedicareFAQ",
+      title: "Medicare Reimbursement: How to File a Claim && Get Paid Back || MedicareFAQ",
       description: "Learn how Medicare reimbursement works, when you need to file a claim yourself, what forms are required, and how assignment affects your out-of-pocket costs.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-reimbursement/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-reimbursement.jpg",
@@ -22331,7 +22331,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "The Part B deductible for 2025 is $257. After meeting the deductible, Medicare pays 80% of the approved amount for most Part B services.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
+      title: "Important Exceptions && Special Situations",
       items: [
         {
           title: "12-Month Filing Deadline",
@@ -22388,19 +22388,19 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "How long does Medicare reimbursement take?",
+        question: "How Long Does Medicare Reimbursement Take?",
         answer: "Medicare typically processes claims within 30 days of receiving them. If you filed the claim yourself, allow additional time for mail delivery. Check your Medicare Summary Notice or online account for status updates.",
       },
       {
-        question: "Can I get reimbursed if I already paid my doctor?",
+        question: "Can I Get Reimbursed if I Already Paid My Doctor?",
         answer: "Yes. If you paid out of pocket because your provider refused to file a claim, submit Form CMS-1490S with your itemized bill. Medicare will reimburse you its share (80% of the approved amount after your deductible).",
       },
       {
-        question: "What if my claim is denied?",
+        question: "What if My Claim is Denied?",
         answer: "You have the right to appeal any Medicare claim denial. The first level is a redetermination request, which must be filed within 120 days of receiving your Medicare Summary Notice.",
       },
       {
-        question: "Does Medicare reimburse for services received abroad?",
+        question: "Does Medicare Reimburse for Services Received Abroad?",
         answer: "Generally no. Medicare covers very limited foreign emergency care — only when a foreign hospital is closer than a U.S. hospital, or in specific Canada transit situations.",
       },
       {
@@ -22437,7 +22437,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-for-green-card-holders",
     seo: {
-      title: "Medicare for Green Card Holders (Medicare for Immigrants) | MedicareFAQ",
+      title: "Medicare for Green Card Holders (Medicare for Immigrants) || MedicareFAQ",
       description: "Medicare for green card holders is possible when proper residency status has been established. Learn eligibility, enrollment, costs, and the 2025 law changes.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-for-green-card-holders/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-for-Green-Card-Holders-2.jpg",
@@ -22630,7 +22630,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part A premiums for those who must buy in are in addition to the Part B premium. If you must purchase Part A, you are also required to enroll in and pay for Part B.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
+      title: "Important Exceptions && Special Situations",
       items: [
         {
           title: "Spouse's Work History Counts",
@@ -22656,7 +22656,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "2025 Legislative Changes (H.R. 1)",
       items: [
         {
-          title: "Medicare Eligibility Restricted to Citizens & Green Card Holders",
+          title: "Medicare Eligibility Restricted to Citizens && Green Card Holders",
           status: "Passed",
           description: "Starting July 2025, only U.S. citizens, lawful permanent residents (green card holders), Cuban-Haitian entrants, and COFA residents are eligible for Medicare. Refugees, asylees, and TPS holders who haven't obtained green cards will lose eligibility by January 2027.",
         },
@@ -22697,7 +22697,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Yes, but you'll need to purchase Part A at the full premium ($565/month in 2026). You must still meet the 5-year residency requirement and be 65 or older. Your spouse's work history may also qualify you for free or reduced-cost Part A.",
       },
       {
-        question: "Does time on a visa count toward the 5-year requirement?",
+        question: "Does Time on a Visa Count toward the 5-year Requirement?",
         answer: "No. The 5-year continuous residency requirement only counts time as a lawful permanent resident (green card holder). Time spent on tourist, student, or work visas does not count.",
       },
       {
@@ -22705,11 +22705,11 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Short trips (under 6 months) generally don't affect your residency. However, absences over 12 months may reset your 5-year clock. Trips between 6-12 months may also raise issues.",
       },
       {
-        question: "Are green card holders affected by the 2025 Medicare law changes?",
+        question: "Are Green Card Holders Affected by the 2025 Medicare Law Changes?",
         answer: "No. Green card holders (lawful permanent residents) remain fully eligible for Medicare under the new law. The changes primarily affect refugees, asylees, and TPS holders who haven't obtained green cards.",
       },
       {
-        question: "Can I get Medigap or Medicare Advantage as a green card holder?",
+        question: "Can I Get Medigap or Medicare Advantage as a Green Card Holder?",
         answer: "Yes. Once enrolled in Medicare, green card holders have access to all the same supplemental options as U.S. citizens, including Medigap plans, Medicare Advantage, and Part D drug plans.",
       },
     ],
@@ -22721,7 +22721,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "2025 law changes do NOT affect green card holders \u2014 you remain fully eligible" },
     ],
     relatedTopics: [
-      { title: "Medicare Without Social Security", description: "How to get Medicare if you haven't received Social Security benefits.", slug: "can-you-get-medicare-without-receiving-social-security-benefits" },
+      { title: "Medicare without Social Security", description: "How to get Medicare if you haven't received Social Security benefits.", slug: "can-you-get-medicare-without-receiving-social-security-benefits" },
       { title: "Medicare Parts Explained", description: "A simple breakdown of Medicare Parts A, B, C, and D.", slug: "medicare-parts-a-b-c-and-d-explained-simply" },
       { title: "Medicare for Disabled Individuals", description: "How disability-based Medicare works for those under 65.", slug: "medicare-for-disabled-individuals" },
       { title: "Transitioning from Employer Coverage", description: "Steps to take when moving from employer insurance to Medicare.", slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide" },
@@ -22733,7 +22733,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Employer to Medicare Transition",
     ],
     ctaBanner: {
-      title: "Questions About Medicare Eligibility?",
+      title: "Questions about Medicare Eligibility?",
       text: "Our licensed agents specialize in helping green card holders understand their Medicare options. Get free, personalized guidance on enrollment, costs, and coverage.",
     },
     relatedSlugs: ["can-you-get-medicare-without-receiving-social-security-benefits", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-for-disabled-individuals", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
@@ -22742,7 +22742,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-low-income-subsidy",
     seo: {
-      title: "Medicare Low Income Subsidy (Extra Help): Eligibility & Benefits | MedicareFAQ",
+      title: "Medicare Low Income Subsidy (Extra Help): Eligibility && Benefits || MedicareFAQ",
       description: "The Medicare Low Income Subsidy (LIS), also called Extra Help, reduces Part D drug costs for people with limited income. Learn eligibility, income limits, and how to apply.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/low-income-subsidies-and-medicare.jpeg",
@@ -22829,7 +22829,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "Eligibility: Income & Resource Limits",
+        planName: "Eligibility: Income && Resource Limits",
         icon: "dollar-sign",
         iconColor: "text-green-600",
         coverageLabel: "2025-2026 Thresholds",
@@ -22911,7 +22911,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Copay amounts for full Extra Help are set by CMS and updated annually. Partial Extra Help has different copay levels based on income.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
+      title: "Important Exceptions && Special Situations",
       items: [
         {
           title: "Automatic Qualification",
@@ -22936,7 +22936,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Recent Policy Updates",
       items: [
         {
-          title: "Inflation Reduction Act \u2014 Expanded Extra Help",
+          title: "Inflation Reduction Act \U2014 Expanded Extra Help",
           status: "Passed",
           description: "The Inflation Reduction Act (2022) expanded Extra Help eligibility to 150% of the Federal Poverty Level (previously 135%), bringing more low-income beneficiaries into the program starting in 2024.",
         },
@@ -22967,7 +22967,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What is the difference between Extra Help and Medicare Savings Programs?",
+        question: "What is the Difference between Extra Help and Medicare Savings Programs?",
         answer: "Extra Help reduces Part D (drug) costs. Medicare Savings Programs reduce Part A and Part B costs like premiums and deductibles. They are separate programs, but qualifying for an MSP usually automatically qualifies you for Extra Help.",
       },
       {
@@ -22975,15 +22975,15 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Yes. You can apply up to 3 months before your Medicare Part D coverage begins. SSA will hold your application and process it when your coverage starts.",
       },
       {
-        question: "How long does Extra Help last?",
+        question: "How Long Does Extra Help Last?",
         answer: "Extra Help is renewed annually. SSA reviews your eligibility each year and sends a notice. As long as your income and resources remain within limits, you'll continue to receive the benefit.",
       },
       {
-        question: "Does Extra Help cover Medicare Advantage drug plans?",
+        question: "Does Extra Help Cover Medicare Advantage Drug Plans?",
         answer: "Yes. Extra Help applies to Medicare Advantage plans that include drug coverage (MA-PD plans), not just standalone Part D plans.",
       },
       {
-        question: "What if my income is slightly above the limit?",
+        question: "What if My Income is Slightly Above the Limit?",
         answer: "You may still qualify for partial Extra Help, which provides reduced premiums and copays. Also check if your state has a State Pharmaceutical Assistance Program (SPAP) for additional help.",
       },
     ],
@@ -23186,7 +23186,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Important Considerations",
       items: [
         {
-          title: "Medigap Cannot Be Used with Medicare Advantage",
+          title: "Medigap Cannot be Used with Medicare Advantage",
           text: "If you switch to a Medicare Advantage plan, your Medigap policy cannot be used to pay costs. You would be paying for a policy that provides no benefit. You should drop your Medigap policy if you enroll in Medicare Advantage.",
           highlight: "Never pay for both Medigap and Medicare Advantage simultaneously.",
         },
@@ -23239,7 +23239,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Do I need secondary insurance if I have Medicare?",
+        question: "Do I Need Secondary Insurance if I Have Medicare?",
         answer: "Original Medicare covers about 80% of approved costs, leaving you responsible for the rest. Without secondary insurance, a serious illness could result in significant out-of-pocket expenses. Most beneficiaries benefit from some form of secondary coverage.",
       },
       {
@@ -23247,15 +23247,15 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Medigap supplements Original Medicare and lets you use any Medicare-accepting provider nationwide. Medicare Advantage replaces Original Medicare and typically uses a network. They serve different needs and cannot be used together.",
       },
       {
-        question: "Can I have both Medigap and retiree insurance?",
+        question: "Can I Have Both Medigap and Retiree Insurance?",
         answer: "Technically yes, but it's usually not cost-effective. If your retiree plan provides comprehensive coverage, adding Medigap may result in duplicate coverage. Review both plans carefully.",
       },
       {
-        question: "When does Medicare pay second instead of first?",
+        question: "When Does Medicare Pay Second Instead of First?",
         answer: "Medicare pays second (is the secondary payer) when you have employer group health insurance through a large employer (20+ employees), workers' compensation, or auto/liability insurance related to an accident.",
       },
       {
-        question: "Is Medigap worth the cost?",
+        question: "Is Medigap Worth the Cost?",
         answer: "For many beneficiaries, yes. Medigap eliminates most unpredictable out-of-pocket costs, which is valuable if you have frequent medical needs or want financial predictability. Compare the premium cost against your expected healthcare usage.",
       },
     ],
@@ -23269,7 +23269,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Medicare and Workers' Comp", description: "How Medicare coordinates with workers' compensation.", slug: "medicare-and-workers-comp" },
       { title: "Medicare and Employer Plans", description: "How Medicare works with employer health insurance.", slug: "understanding-how-medicare-works-with-employer-health-plans" },
-      { title: "When Is Medicare Primary?", description: "Situations where Medicare pays first vs. second.", slug: "when-is-medicare-primary" },
+      { title: "When is Medicare Primary?", description: "Situations where Medicare pays first vs. second.", slug: "when-is-medicare-primary" },
       { title: "Medicare and Retiree Insurance", description: "How retiree coverage coordinates with Medicare.", slug: "medicare-and-retiree-insurance" },
     ],
     sidebarRelatedLinks: [
@@ -23288,12 +23288,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-beneficiary-identifiers",
     seo: {
-      title: "Medicare Cards & Medicare Beneficiary Identifiers (MBI) | MedicareFAQ",
+      title: "Medicare Cards && Medicare Beneficiary Identifiers (MBI) || MedicareFAQ",
       description: "Learn what a Medicare Beneficiary Identifier (MBI) is, how to find yours, what the format means, and how to protect your Medicare card from fraud.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-beneficiary-identifiers/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-cards-and-medicare-beneficiary-identifiers.jpg",
     },
-    title: "Medicare Cards & Medicare Beneficiary Identifiers",
+    title: "Medicare Cards && Medicare Beneficiary Identifiers",
     subtitle: "Your Medicare Beneficiary Identifier (MBI) is your unique Medicare ID number. It replaced Social Security Numbers on Medicare cards to protect against identity theft.",
     category: "Medicare Basics",
     dateUpdated: "April 29, 2026",
@@ -23347,7 +23347,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is an MBI?",
+        planName: "What is an MBI?",
         icon: "id-card",
         iconColor: "text-blue-600",
         coverageLabel: "Your Medicare ID Number",
@@ -23442,7 +23442,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Medicare Card & MBI Quick Reference",
+      title: "Medicare Card && MBI Quick Reference",
       headers: ["Item", "Details", "Where to Find"],
       rows: [
         { "Item": "Medicare Beneficiary Identifier (MBI)", "Details": "11-character alphanumeric ID", "Where to Find": "Medicare card, Medicare.gov, MSN"},
@@ -23454,7 +23454,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red, white, and blue Medicare card is still needed for some transactions.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
+      title: "Important Exceptions && Special Situations",
       items: [
         {
           title: "Medicare Advantage Members",
@@ -23479,7 +23479,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Background: The MACRA MBI Transition",
       items: [
         {
-          title: "Medicare Access and CHIP Reauthorization Act (MACRA) \u2014 MBI Mandate",
+          title: "Medicare Access and CHIP Reauthorization Act (MACRA) \U2014 MBI Mandate",
           status: "Passed",
           description: "MACRA (2015) required CMS to remove Social Security Numbers from Medicare cards and replace them with new Medicare Beneficiary Identifiers by April 2019. The transition was completed by December 2019.",
         },
@@ -23491,7 +23491,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     alternativesSection: {
-      title: "Protecting Your Medicare Card & MBI",
+      title: "Protecting Your Medicare Card && MBI",
       paragraphs: [
         "Your MBI is sensitive personal information. Follow these steps to protect it and respond quickly if it's compromised.",
       ],
@@ -23510,23 +23510,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What does MBI stand for?",
+        question: "What Does MBI Stand For?",
         answer: "MBI stands for Medicare Beneficiary Identifier. It's the unique 11-character ID number on your Medicare card that replaced the old SSN-based Health Insurance Claim Number (HICN) in 2019.",
       },
       {
-        question: "How do I find my Medicare number?",
+        question: "How do I Find My Medicare Number?",
         answer: "Your Medicare number (MBI) is on your red, white, and blue Medicare card. You can also find it by logging into your Medicare.gov account or by calling 1-800-MEDICARE.",
       },
       {
-        question: "Can I get a new MBI if mine is compromised?",
+        question: "Can I Get a New MBI if Mine is Compromised?",
         answer: "Yes. If you believe your MBI has been used fraudulently, contact 1-800-MEDICARE to report the fraud and request a new MBI. A new card will be mailed to you.",
       },
       {
-        question: "Do I use my Medicare card or my Medicare Advantage card?",
+        question: "Do I Use My Medicare Card or My Medicare Advantage Card?",
         answer: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red/white/blue Medicare card is generally not needed for day-to-day care but keep it safe.",
       },
       {
-        question: "Why did Medicare stop using Social Security Numbers on cards?",
+        question: "Why Did Medicare Stop Using Social Security Numbers on Cards?",
         answer: "To protect beneficiaries from identity theft. The old HICN contained your SSN, making Medicare cards a target for fraud. The new MBI is randomly generated and contains no personal information.",
       },
     ],
@@ -23539,7 +23539,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "5 Things to Do After Getting Your Medicare Card", description: "Important steps to take when you receive your Medicare card.", slug: "5-things-to-do-after-you-receive-your-medicare-card" },
-      { title: "What to Do If You Lose Your Medicare Card", description: "Step-by-step guide to replacing a lost Medicare card.", slug: "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide" },
+      { title: "What to do if You Lose Your Medicare Card", description: "Step-by-step guide to replacing a lost Medicare card.", slug: "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide" },
       { title: "Applying for Medicare", description: "How and when to apply for Medicare benefits.", slug: "applying-for-medicare" },
       { title: "Report Medicare Fraud", description: "How to identify and report Medicare fraud and abuse.", slug: "report-medicare-fraud" },
     ],
@@ -23550,7 +23550,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Report Medicare Fraud",
     ],
     ctaBanner: {
-      title: "Questions About Your Medicare Coverage?",
+      title: "Questions about Your Medicare Coverage?",
       text: "Our licensed agents can help you understand your Medicare card, coverage options, and how to protect yourself from Medicare fraud.",
     },
     relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "applying-for-medicare", "report-medicare-fraud"],
@@ -23559,12 +23559,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "irmaa",
     seo: {
-      title: "IRMAA: What Is IRMAA in Medicare? 2026 Brackets & How to Appeal | MedicareFAQ",
+      title: "IRMAA: What is IRMAA in Medicare? 2026 Brackets && How to Appeal || MedicareFAQ",
       description: "IRMAA is the Income-Related Monthly Adjustment Amount added to Medicare Part B and Part D premiums for higher-income beneficiaries. See 2026 brackets, surcharges, and how to appeal.",
       canonical: "https://www.medicarefaq.com/faqs/irmaa/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/income-related-monthly-adjustment-amount-irmaa.jpg",
     },
-    title: "IRMAA: What Is IRMAA in Medicare?",
+    title: "IRMAA: What is IRMAA in Medicare?",
     subtitle: "IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge added to your Medicare Part B and Part D premiums if your income exceeds certain thresholds. In 2026, it kicks in at $109,000 for single filers.",
     category: "Medicare Costs",
     dateUpdated: "April 29, 2026",
@@ -23689,12 +23689,12 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "IRMAA Is Deducted from Social Security",
+          title: "IRMAA is Deducted from Social Security",
           text: "If you receive Social Security benefits, your IRMAA surcharge is automatically deducted from your monthly Social Security payment. If you don't receive Social Security, you'll receive a bill from Medicare.",
         },
       },
       {
-        planName: "What Income Counts Toward IRMAA (MAGI)",
+        planName: "What Income Counts toward IRMAA (MAGI)",
         icon: "file-text",
         iconColor: "text-teal-600",
         coverageLabel: "Modified Adjusted Gross Income",
@@ -23761,7 +23761,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "2026 IRMAA is based on 2024 MAGI. Part B standard premium is $202.90/month. Part D IRMAA is in addition to your plan's monthly premium. Married filing separately uses narrower brackets.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
+      title: "Important Exceptions && Special Situations",
       items: [
         {
           title: "Married Filing Separately",
@@ -23791,7 +23791,7 @@ export const coverageArticles: CoverageArticleData[] = [
           description: "CMS announced 2026 IRMAA income thresholds increased approximately 3% due to inflation adjustments. The lowest IRMAA bracket now starts at $109,000 for single filers (up from $106,000 in 2025).",
         },
         {
-          title: "Top IRMAA Bracket Frozen Until 2028",
+          title: "Top IRMAA Bracket Frozen until 2028",
           status: "Passed",
           description: "The 5th IRMAA bracket ($500,000+ single / $750,000+ joint) is currently frozen and cannot be indexed for inflation until 2028 under current law. All other brackets are inflation-adjusted annually.",
         },
@@ -23827,19 +23827,19 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "IRMAA stands for Income-Related Monthly Adjustment Amount. It's a surcharge added to your Medicare Part B and Part D premiums if your income exceeds certain thresholds. In 2026, it applies to single filers with MAGI above $109,000.",
       },
       {
-        question: "How do I know if I owe IRMAA?",
+        question: "How do I Know if I Owe IRMAA?",
         answer: "The SSA will send you a letter (IRMAA determination) each fall for the upcoming year. If you owe IRMAA, it will show the surcharge amount and the income data used. You can also check your Social Security statement.",
       },
       {
-        question: "Can I appeal my IRMAA?",
+        question: "Can I Appeal My IRMAA?",
         answer: "Yes. If your income has decreased due to a qualifying life-changing event (retirement, divorce, death of spouse, etc.), you can appeal by submitting Form SSA-44 to Social Security with documentation of the event.",
       },
       {
-        question: "Does IRMAA apply to Medicare Advantage?",
+        question: "Does IRMAA Apply to Medicare Advantage?",
         answer: "Yes. If you have Medicare Advantage, you still pay the Part B IRMAA surcharge. If your MA plan includes drug coverage, you also pay the Part D IRMAA surcharge.",
       },
       {
-        question: "How is IRMAA calculated?",
+        question: "How is IRMAA Calculated?",
         answer: "IRMAA is based on your MAGI from two years ago. MAGI is your Adjusted Gross Income plus tax-exempt interest. The SSA uses your tax return to determine which bracket you fall into.",
       },
     ],
@@ -23863,7 +23863,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Extra Help",
     ],
     ctaBanner: {
-      title: "Concerned About IRMAA Surcharges?",
+      title: "Concerned about IRMAA Surcharges?",
       text: "Our licensed agents can help you understand how IRMAA affects your Medicare costs and explore plan options that minimize your out-of-pocket expenses.",
     },
     relatedSlugs: ["medicare-costs-2025", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "reduce-medicare-premiums", "medicare-extra-help-program"],
@@ -23872,7 +23872,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-vs-medicaid",
     seo: {
-      title: "Medicare vs. Medicaid: Key Differences, Dual Eligibility & How to Qualify for Both | MedicareFAQ",
+      title: "Medicare vs. Medicaid: Key Differences, Dual Eligibility && How to Qualify for Both || MedicareFAQ",
       description: "Medicare and Medicaid are two separate government health programs. Learn the key differences, who qualifies, what each covers, and how to get both at the same time.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-vs-medicaid/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-and-medicaid-how-to-qualify-for-both.jpg",
@@ -23931,7 +23931,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare: Who Qualifies and What It Covers",
+        planName: "Medicare: Who Qualifies and What it Covers",
         icon: "shield",
         iconColor: "text-blue-600",
         coverageLabel: "Federal Health Insurance",
@@ -23960,7 +23960,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "Medicaid: Who Qualifies and What It Covers",
+        planName: "Medicaid: Who Qualifies and What it Covers",
         icon: "heart",
         iconColor: "text-green-600",
         coverageLabel: "State-Federal Assistance Program",
@@ -24064,7 +24064,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Medicaid benefits and income limits vary by state. Dual eligible beneficiaries may qualify for Medicare Savings Programs that cover Part B premiums and cost-sharing.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
+      title: "Important Exceptions && Special Situations",
       items: [
         {
           title: "Medicare Savings Programs (MSPs)",
@@ -24126,15 +24126,15 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What is the main difference between Medicare and Medicaid?",
+        question: "What is the Main Difference between Medicare and Medicaid?",
         answer: "Medicare is a federal program for people 65+ or with disabilities, regardless of income. Medicaid is a state-federal program for low-income individuals. Medicare focuses on age/disability; Medicaid focuses on income.",
       },
       {
-        question: "Can you have both Medicare and Medicaid?",
+        question: "Can You Have Both Medicare and Medicaid?",
         answer: "Yes. People who qualify for both are called \"dual eligibles.\" Medicaid typically acts as secondary insurance, covering Medicare premiums, deductibles, and copays — often resulting in $0 out-of-pocket costs.",
       },
       {
-        question: "Does Medicaid cover nursing home care?",
+        question: "Does Medicaid Cover Nursing Home Care?",
         answer: "Yes. Medicaid is the primary payer for long-term nursing home care in the U.S. Medicare only covers short-term skilled nursing facility stays (up to 100 days per benefit period).",
       },
       {
@@ -24142,7 +24142,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Medicare Savings Programs (MSPs) are state programs that help low-income Medicare beneficiaries pay Part A and/or Part B premiums, deductibles, and copays. There are 4 types: QMB, SLMB, QI, and QDWI.",
       },
       {
-        question: "How do I apply for Medicaid if I have Medicare?",
+        question: "How do I Apply for Medicaid if I Have Medicare?",
         answer: "Apply through your state's Medicaid agency or at Healthcare.gov. You can also apply for Medicare Savings Programs through your state Medicaid office. Contact your local SHIP counselor for free help.",
       },
     ],
@@ -24154,7 +24154,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "alert", text: "Medicaid covers long-term nursing home care; Medicare does not (beyond skilled care)" },
     ],
     relatedTopics: [
-      { title: "What Is Medicare", description: "A complete overview of Medicare and its parts.", slug: "what-is-medicare" },
+      { title: "What is Medicare", description: "A complete overview of Medicare and its parts.", slug: "what-is-medicare" },
       { title: "Medicare Savings Programs", description: "State programs that help pay Medicare costs.", slug: "medicare-savings-programs" },
       { title: "Qualified Medicare Beneficiary Program", description: "The QMB program helps pay Medicare costs for low-income beneficiaries.", slug: "qualified-medicare-beneficiary-program" },
       { title: "Medicaid Spend-Down Program", description: "How to qualify for Medicaid by spending down excess income.", slug: "medicaid-spend-down-program" },
@@ -24175,7 +24175,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-easy-pay",
     seo: {
-      title: "Medicare Easy Pay: How to Set Up Automatic Premium Payments | MedicareFAQ",
+      title: "Medicare Easy Pay: How to Set up Automatic Premium Payments || MedicareFAQ",
       description: "Medicare Easy Pay is a free service that automatically deducts your Medicare premiums from your bank account. Learn how to enroll, what it covers, and how it compares to other payment options.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-easy-pay/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-easy-pay.jpeg",
@@ -24234,7 +24234,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is Medicare Easy Pay?",
+        planName: "What is Medicare Easy Pay?",
         icon: "credit-card",
         iconColor: "text-blue-600",
         coverageLabel: "Automatic Bank Deduction",
@@ -24340,7 +24340,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part B standard premium is $202.90/month in 2026. Easy Pay and Social Security deductions are the most reliable methods to avoid missed payments.",
     },
     exceptionsSection: {
-      title: "Important Notes & Exceptions",
+      title: "Important Notes && Exceptions",
       items: [
         {
           title: "Part D and Medicare Advantage Premiums",
@@ -24348,7 +24348,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "Most MA and Part D plans bill you directly — Easy Pay does not cover these.",
         },
         {
-          title: "What Happens If You Miss a Payment?",
+          title: "What Happens if You Miss a Payment?",
           text: "If you miss a Medicare Part B premium payment, you have a 2-month grace period to pay. After the grace period, Medicare may disenroll you from Part B. Reinstatement may require waiting until the next General Enrollment Period (January 1 \u2013 March 31).",
         },
         {
@@ -24401,19 +24401,19 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Medicare Easy Pay is a free service that automatically deducts your Medicare Part A and/or Part B premiums from your bank account each month. It is offered by CMS and is ideal for beneficiaries who don't receive Social Security.",
       },
       {
-        question: "How do I sign up for Medicare Easy Pay?",
+        question: "How do I Sign up for Medicare Easy Pay?",
         answer: "Sign up online at Medicare.gov under 'Pay My Premium,' or complete Form CMS-10048 and mail it to the Medicare Premium Collection Center. You'll need your bank account and routing numbers.",
       },
       {
-        question: "How long does Medicare Easy Pay take to start?",
+        question: "How Long Does Medicare Easy Pay Take to Start?",
         answer: "It takes 6\u20138 weeks after enrollment for automatic deductions to begin. Continue paying your premiums manually during this period.",
       },
       {
-        question: "Does Medicare Easy Pay cover Part D premiums?",
+        question: "Does Medicare Easy Pay Cover Part D Premiums?",
         answer: "Only if your Part D plan is billed directly by Medicare. Most Part D and Medicare Advantage plans bill you directly, so you'd need to set up automatic payments with your plan separately.",
       },
       {
-        question: "What happens if I miss a Medicare premium payment?",
+        question: "What Happens if I Miss a Medicare Premium Payment?",
         answer: "You have a 2-month grace period. After that, Medicare may disenroll you from Part B. Reinstatement may require waiting until the General Enrollment Period (January\u2013March).",
       },
     ],
@@ -24437,7 +24437,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Costs 2026",
     ],
     ctaBanner: {
-      title: "Questions About Medicare Premium Payments?",
+      title: "Questions about Medicare Premium Payments?",
       text: "Our licensed agents can help you understand your Medicare billing options and find the most cost-effective coverage for your needs.",
     },
     relatedSlugs: ["medicare-paperless-billing", "medicare-part-b-premiums", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
@@ -24446,7 +24446,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "how-to-file-a-medicare-claim",
     seo: {
-      title: "How to File a Medicare Claim: Step-by-Step Guide (Form CMS-1490S) | MedicareFAQ",
+      title: "How to File a Medicare Claim: Step-by-Step Guide (Form CMS-1490S) || MedicareFAQ",
       description: "In most cases your provider files Medicare claims for you. Learn when and how to file your own Medicare claim using Form CMS-1490S, deadlines, and what to do if your provider refuses.",
       canonical: "https://www.medicarefaq.com/faqs/how-to-file-a-medicare-claim/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-to-File-a-Medicare-Claim.jpg",
@@ -24505,7 +24505,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "When Do You Need to File Your Own Medicare Claim?",
+        planName: "When do You Need to File Your Own Medicare Claim?",
         icon: "help-circle",
         iconColor: "text-blue-600",
         coverageLabel: "When Self-Filing Is Required",
@@ -24583,7 +24583,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "What Happens After You File",
+        planName: "What Happens after You File",
         icon: "check-circle",
         iconColor: "text-teal-600",
         coverageLabel: "After Submission",
@@ -24613,7 +24613,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Always keep copies of all submitted documents. Provider-filed claims are the standard; self-filing is only needed in rare circumstances.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Special Situations",
+      title: "Important Exceptions && Special Situations",
       items: [
         {
           title: "Opt-Out Providers",
@@ -24671,23 +24671,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Do I need to file my own Medicare claim?",
+        question: "Do I Need to File My Own Medicare Claim?",
         answer: "Usually no. Medicare-enrolled providers are required by law to file claims on your behalf. You only need to self-file in rare cases, such as when a provider refuses to file or when you see an opt-out provider.",
       },
       {
-        question: "What form do I use to file a Medicare claim?",
+        question: "What Form do I Use to File a Medicare Claim?",
         answer: "Use Form CMS-1490S (Patient's Request for Medical Payment). Download it from CMS.gov or request it by calling 1-800-MEDICARE.",
       },
       {
-        question: "What is the deadline to file a Medicare claim?",
+        question: "What is the Deadline to File a Medicare Claim?",
         answer: "For Original Medicare, claims must be filed within 12 months (1 calendar year) of the date of service. Missing this deadline means the claim will be denied.",
       },
       {
-        question: "What if my provider refuses to file a Medicare claim?",
+        question: "What if My Provider Refuses to File a Medicare Claim?",
         answer: "A Medicare-enrolled provider refusing to file is likely violating Medicare rules. Report it to 1-800-MEDICARE or the HHS Office of Inspector General, and file the claim yourself using Form CMS-1490S.",
       },
       {
-        question: "How do I appeal a denied Medicare claim?",
+        question: "How do I Appeal a Denied Medicare Claim?",
         answer: "File a Redetermination request within 120 days of receiving your Medicare Summary Notice (MSN). There are 5 levels of appeal: Redetermination, Reconsideration, ALJ Hearing, Medicare Appeals Council, and Federal Court.",
       },
     ],
@@ -24706,7 +24706,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     sidebarRelatedLinks: ["Medicare Reimbursement", "ABN", "Medicare Assignment", "Medicare Appeals"],
     ctaBanner: {
-      title: "Questions About Medicare Claims?",
+      title: "Questions about Medicare Claims?",
       text: "Our licensed agents can help you navigate Medicare claims, appeals, and coverage decisions.",
     },
     relatedSlugs: ["medicare-reimbursement", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor", "advance-beneficiary-notice"],
@@ -24715,7 +24715,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medigap-birthday-rule",
     seo: {
-      title: "Medigap Birthday Rule: Which States Have It and How to Use It | MedicareFAQ",
+      title: "Medigap Birthday Rule: Which States Have it and How to Use it || MedicareFAQ",
       description: "The Medigap birthday rule gives you a limited window each year to switch Medicare Supplement plans without medical underwriting. Learn which states have it and how to use it.",
       canonical: "https://www.medicarefaq.com/faqs/medigap-birthday-rule/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/what-states-have-the-medigap-birthday-rule.jpg",
@@ -24774,7 +24774,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is the Medigap Birthday Rule?",
+        planName: "What is the Medigap Birthday Rule?",
         icon: "calendar",
         iconColor: "text-blue-600",
         coverageLabel: "Annual Switching Window",
@@ -24801,7 +24801,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "States With the Medigap Birthday Rule (2026)",
+        planName: "States with the Medigap Birthday Rule (2026)",
         icon: "map-pin",
         iconColor: "text-green-600",
         coverageLabel: "State-by-State Guide",
@@ -24850,7 +24850,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Shop 60–90 Days Before Your Birthday",
+          title: "Shop 60–90 Days before Your Birthday",
           text: "Start comparing Medigap plans 60–90 days before your birthday so you're ready to apply as soon as your window opens. Premiums for the same plan can vary significantly between insurers.",
         },
       },
@@ -24891,14 +24891,14 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Rules change frequently. Always verify current state rules with your state's Department of Insurance before switching plans.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Notes",
+      title: "Important Exceptions && Notes",
       items: [
         {
           title: "Missouri Anniversary Rule",
           text: "Missouri has an \"anniversary rule\" rather than a birthday rule. Missouri Medigap enrollees have a 30-day window each year on the anniversary of their plan enrollment date (not their birthday) to switch to an equal or lesser plan without underwriting.",
         },
         {
-          title: "States With Continuous Open Enrollment",
+          title: "States with Continuous Open Enrollment",
           text: "New York, Massachusetts, Connecticut, and Maine have continuous open enrollment or community rating laws that provide broader protections than the birthday rule. In these states, insurers generally cannot use medical underwriting at all.",
           highlight: "NY, MA, CT, and ME have stronger protections than the birthday rule.",
         },
@@ -24907,7 +24907,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "Plans F and C are only available to people who became eligible for Medicare before January 1, 2020. If you're using the birthday rule, you cannot switch to Plan F or C if you became Medicare-eligible on or after January 1, 2020.",
         },
         {
-          title: "Birthday Rule Does Not Apply to Medicare Advantage",
+          title: "Birthday Rule Does not Apply to Medicare Advantage",
           text: "The Medigap birthday rule only applies to Medicare Supplement (Medigap) plans. It does not affect Medicare Advantage plan switching, which has its own Annual Enrollment Period (October 15 – December 7).",
         },
       ],
@@ -24953,23 +24953,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What is the Medigap birthday rule?",
+        question: "What is the Medigap Birthday Rule?",
         answer: "The Medigap birthday rule is a state law that gives you a limited annual window around your birthday to switch to a Medigap plan with equal or lesser benefits without medical underwriting.",
       },
       {
-        question: "Which states have the Medigap birthday rule?",
+        question: "Which States Have the Medigap Birthday Rule?",
         answer: "As of 2026, approximately 15 states have some form of birthday or anniversary rule, including California, Oregon, Idaho, Illinois, Nevada, Louisiana, Maryland, Kentucky, Indiana, and Delaware.",
       },
       {
-        question: "Can I upgrade my Medigap plan using the birthday rule?",
+        question: "Can I Upgrade My Medigap Plan Using the Birthday Rule?",
         answer: "Generally no. Most states limit birthday rule switches to plans with equal or lesser benefits. You cannot use the birthday rule to upgrade to a plan with more benefits.",
       },
       {
-        question: "What if I miss my birthday rule window?",
+        question: "What if I Miss My Birthday Rule Window?",
         answer: "If you miss your window, you'll need to wait until next year or apply with medical underwriting. You may still be approved with underwriting even if you have health conditions.",
       },
       {
-        question: "Does the birthday rule apply to Medicare Advantage?",
+        question: "Does the Birthday Rule Apply to Medicare Advantage?",
         answer: "No. The Medigap birthday rule only applies to Medicare Supplement plans. Medicare Advantage has its own Annual Enrollment Period (October 15 – December 7).",
       },
     ],
@@ -24997,13 +24997,13 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-is-medicare-assignment",
     seo: {
-      title: "Medicare Assignment: What It Means and How It Affects Your Costs | MedicareFAQ",
+      title: "Medicare Assignment: What it Means and How it Affects Your Costs || MedicareFAQ",
       description: "Medicare assignment means a provider agrees to accept Medicare's approved amount as full payment. Learn how it affects your costs and what happens when a doctor doesn't accept assignment.",
       canonical: "https://www.medicarefaq.com/faqs/what-is-medicare-assignment/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/What-is-Medicare-Assignment-What-Doctors-Accept-It.jpg",
     },
     title: "Medicare Assignment",
-    subtitle: "When a provider \"accepts Medicare assignment,\" they agree to accept Medicare's approved amount as full payment for a service. This directly affects how much you pay out-of-pocket.",
+    subtitle: "When a Provider \"accepts Medicare assignment,\" they agree to accept Medicare's approved amount as full payment for a service. This directly affects how much you pay out-of-pocket.",
     category: "Medicare FAQ",
     dateUpdated: "April 29, 2026",
     author: {
@@ -25128,7 +25128,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "How to Find Providers That Accept Medicare Assignment",
+        planName: "How to Find Providers that Accept Medicare Assignment",
         icon: "search",
         iconColor: "text-teal-600",
         coverageLabel: "Finding Participating Providers",
@@ -25156,7 +25156,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part B deductible is $257 in 2026. After meeting the deductible, you pay 20% coinsurance for participating providers. Non-participating providers can add up to 15% on top of that.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Notes",
+      title: "Important Exceptions && Notes",
       items: [
         {
           title: "Medicare Advantage and Assignment",
@@ -25212,23 +25212,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What does it mean when a doctor accepts Medicare assignment?",
+        question: "What Does it Mean When a Doctor Accepts Medicare Assignment?",
         answer: "It means the doctor agrees to accept Medicare's approved amount as full payment. You only pay your deductible and 20% coinsurance — the doctor cannot charge you more.",
       },
       {
-        question: "What is a Part B excess charge?",
+        question: "What is a Part B Excess Charge?",
         answer: "A Part B excess charge is an extra fee (up to 15% above Medicare's approved amount) that a non-participating provider can charge if they don't accept assignment on a claim.",
       },
       {
-        question: "Which Medigap plans cover excess charges?",
+        question: "Which Medigap Plans Cover Excess Charges?",
         answer: "Medigap Plan F and Plan G cover Part B excess charges. Plan N does not. Plan F is only available to those who became Medicare-eligible before January 1, 2020.",
       },
       {
-        question: "How do I find a doctor that accepts Medicare assignment?",
+        question: "How do I Find a Doctor that Accepts Medicare Assignment?",
         answer: "Search at Medicare.gov/care-compare, call the provider's office directly, or call 1-800-MEDICARE to verify assignment status.",
       },
       {
-        question: "What is an opt-out provider?",
+        question: "What is an Opt-out Provider?",
         answer: "An opt-out provider has formally opted out of Medicare entirely. Medicare will not pay for their services (except emergencies), and they can charge any amount they choose.",
       },
     ],
@@ -25247,7 +25247,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     sidebarRelatedLinks: ["Medicare Reimbursement", "Part B Excess Charges", "Cost Sharing", "File a Claim"],
     ctaBanner: {
-      title: "Questions About Medicare Costs?",
+      title: "Questions about Medicare Costs?",
       text: "Our licensed agents can help you understand Medicare assignment, excess charges, and find the right Medigap plan to protect you.",
     },
     relatedSlugs: ["understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-reimbursement", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-cost-sharing"],
@@ -25336,7 +25336,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "MSP = Free Part B Premium",
+          title: "MSP == Free Part B Premium",
           text: "If you qualify for QMB, SLMB, or QI, your state pays your $185.00/month Part B premium for you. That's up to $2,220/year in savings. Apply through your state Medicaid office or call 1-800-MEDICARE.",
         },
       },
@@ -25409,7 +25409,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Weigh Total Costs, Not Just Premium",
+          title: "Weigh Total Costs, not Just Premium",
           text: "A plan with a Part B Giveback may have higher copays, deductibles, or out-of-pocket maximums. Compare total estimated annual costs — not just the monthly premium — before switching.",
         },
       },
@@ -25511,23 +25511,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What is the easiest way to reduce my Medicare premiums?",
+        question: "What is the Easiest Way to Reduce My Medicare Premiums?",
         answer: "If you have limited income, applying for a Medicare Savings Program is the most impactful step — it can eliminate your $185/month Part B premium entirely.",
       },
       {
-        question: "What is the Part B Giveback benefit?",
+        question: "What is the Part B Giveback Benefit?",
         answer: "It's a benefit offered by some Medicare Advantage plans that reduces your Part B premium. About 32% of MA plans offer it in 2026, with reductions up to $148.50/month.",
       },
       {
-        question: "How do I appeal my IRMAA surcharge?",
+        question: "How do I Appeal My IRMAA Surcharge?",
         answer: "File SSA Form SSA-44 with your local Social Security office if your income has dropped due to a qualifying life event (retirement, divorce, death of spouse, etc.).",
       },
       {
-        question: "Does Extra Help reduce my Part B premium?",
+        question: "Does Extra Help Reduce My Part B Premium?",
         answer: "No. Extra Help only reduces Part D drug costs. To reduce your Part B premium, apply for a Medicare Savings Program or enroll in an MA plan with a Part B Giveback.",
       },
       {
-        question: "Can I deduct Medicare premiums on my taxes?",
+        question: "Can I Deduct Medicare Premiums on My Taxes?",
         answer: "Self-employed individuals can deduct 100% of Medicare premiums. Others may deduct them as medical expenses if total medical costs exceed 7.5% of AGI.",
       },
     ],
@@ -25540,7 +25540,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Medicare Savings Programs", description: "State programs that pay your Medicare premiums.", slug: "medicare-savings-programs" },
-      { title: "Extra Help / Low Income Subsidy", description: "Reduce Part D costs with Extra Help.", slug: "medicare-low-income-subsidy" },
+      { title: "Extra Help // Low Income Subsidy", description: "Reduce Part D costs with Extra Help.", slug: "medicare-low-income-subsidy" },
       { title: "IRMAA", description: "Income-based Part B and D surcharges explained.", slug: "irmaa" },
       { title: "Part B Giveback", description: "How the MA Part B premium reduction works.", slug: "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs" },
     ],
@@ -25555,7 +25555,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-visiting-angels",
     seo: {
-      title: "Is Visiting Angels Covered by Medicare? | MedicareFAQ",
+      title: "Is Visiting Angels Covered by Medicare? || MedicareFAQ",
       description: "Medicare does not cover most Visiting Angels custodial care services. Learn what Medicare does and doesn't cover for home care, and what alternatives exist for paying for Visiting Angels.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-visiting-angels/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/is-visiting-angels-covered-by-medicare.jpg",
@@ -25633,7 +25633,7 @@ export const coverageArticles: CoverageArticleData[] = [
         whatItDoesntCover: [],
         callout: {
           type: "warning",
-          title: "Most Visiting Angels Services Are Custodial",
+          title: "Most Visiting Angels Services are Custodial",
           text: "The majority of Visiting Angels services — companion care, personal care, respite care — are custodial in nature. Medicare does not cover custodial care, even if a doctor recommends it.",
         },
       },
@@ -25687,7 +25687,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "How to Pay for Visiting Angels Without Medicare",
+        planName: "How to Pay for Visiting Angels without Medicare",
         icon: "credit-card",
         iconColor: "text-purple-600",
         coverageLabel: "Alternative Payment Options",
@@ -25725,7 +25725,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Visiting Angels is a Medicare-certified home health agency in many locations. Skilled care services may be covered when all Medicare requirements are met.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Notes",
+      title: "Important Exceptions && Notes",
       items: [
         {
           title: "Medicare Advantage Supplemental Benefits",
@@ -25737,7 +25737,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "If you qualify for Medicaid, Home and Community-Based Services (HCBS) waivers may cover personal care and home health aide services from agencies like Visiting Angels. Eligibility is income and asset-based and varies by state.",
         },
         {
-          title: "Veterans Aid & Attendance Benefit",
+          title: "Veterans Aid && Attendance Benefit",
           text: "Veterans and surviving spouses may qualify for the VA Aid & Attendance benefit, which provides monthly payments that can be used to pay for home care services including those from Visiting Angels.",
         },
         {
@@ -25782,23 +25782,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare pay for Visiting Angels?",
+        question: "Does Medicare Pay for Visiting Angels?",
         answer: "Medicare does not cover most Visiting Angels services. Medicare may cover skilled home health care (nursing, therapy) from Visiting Angels if you are homebound and have a doctor's order, but not personal care or companion services.",
       },
       {
-        question: "What is the difference between skilled care and custodial care?",
+        question: "What is the Difference between Skilled Care and Custodial Care?",
         answer: "Skilled care requires medical training (nursing, therapy) and is covered by Medicare. Custodial care helps with daily activities (bathing, dressing, eating) and is not covered by Medicare.",
       },
       {
-        question: "Will Medicaid pay for Visiting Angels?",
+        question: "Will Medicaid Pay for Visiting Angels?",
         answer: "Medicaid may cover personal care and home health aide services through HCBS waivers, depending on your state and eligibility. Contact your state Medicaid office for details.",
       },
       {
-        question: "Does Medicare Advantage cover home care?",
+        question: "Does Medicare Advantage Cover Home Care?",
         answer: "Some Medicare Advantage plans include supplemental benefits for personal care or home support. Coverage varies significantly by plan and location — check your plan's Evidence of Coverage.",
       },
       {
-        question: "How much does Visiting Angels cost without insurance?",
+        question: "How Much Does Visiting Angels Cost without Insurance?",
         answer: "Visiting Angels rates vary by location and service type. Personal care and companion care typically range from $20–$35/hour. Contact your local Visiting Angels office for specific pricing.",
       },
     ],
@@ -25817,7 +25817,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     sidebarRelatedLinks: ["Home Health Care", "Skilled vs. Custodial Care", "Meals on Wheels", "MA Benefits"],
     ctaBanner: {
-      title: "Questions About Medicare Home Care Coverage?",
+      title: "Questions about Medicare Home Care Coverage?",
       text: "Our licensed agents can help you understand what Medicare covers for home care and find plans with supplemental home care benefits.",
     },
     relatedSlugs: ["medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-meals-on-wheels"],
@@ -25826,7 +25826,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "how-tricare-works-with-medicare",
     seo: {
-      title: "How TRICARE Works with Medicare in 2026 | MedicareFAQ",
+      title: "How TRICARE Works with Medicare in 2026 || MedicareFAQ",
       description: "TRICARE For Life is Medicare-wraparound coverage for military retirees. Learn how TRICARE and Medicare coordinate benefits, what TFL covers, 2026 costs, and how to avoid gaps in coverage.",
       canonical: "https://www.medicarefaq.com/faqs/how-tricare-works-with-medicare/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/how-tricare-for-life-works-with-medicare.jpg",
@@ -25885,7 +25885,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is TRICARE For Life?",
+        planName: "What is TRICARE for Life?",
         icon: "shield",
         iconColor: "text-blue-600",
         coverageLabel: "Medicare Wraparound Coverage",
@@ -25930,7 +25930,7 @@ export const coverageArticles: CoverageArticleData[] = [
         whatItDoesntCover: [],
         callout: {
           type: "info",
-          title: "Claims Are Automatic",
+          title: "Claims are Automatic",
           text: "When you see a Medicare participating provider, claims automatically cross over from Medicare to TRICARE. You typically do not need to file a separate TRICARE claim.",
         },
       },
@@ -25957,7 +25957,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "TRICARE For Life vs. Medicare Advantage",
+        planName: "TRICARE for Life vs. Medicare Advantage",
         icon: "git-compare",
         iconColor: "text-purple-600",
         coverageLabel: "TFL vs. MA Plan Comparison",
@@ -25979,12 +25979,12 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "MA + TFL Is More Complex",
+          title: "MA ++ TFL is More Complex",
           text: "Most military retirees are better served by Original Medicare + TRICARE For Life than by switching to a Medicare Advantage plan. MA claims don't automatically cross over to TFL, and MA network restrictions may reduce your provider access.",
         },
       },
       {
-        planName: "Overseas Coverage with TRICARE For Life",
+        planName: "Overseas Coverage with TRICARE for Life",
         icon: "globe",
         iconColor: "text-amber-600",
         coverageLabel: "International Coverage",
@@ -26018,10 +26018,10 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part B premium: $185.00/month (2026). TFL catastrophic cap: $3,000/year. TRICARE deductible (E-4+): $150/individual, $300/family.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Notes",
+      title: "Important Exceptions && Notes",
       items: [
         {
-          title: "DEERS Enrollment Is Required",
+          title: "DEERS Enrollment is Required",
           text: "You must be enrolled in the Defense Enrollment Eligibility Reporting System (DEERS) to use TRICARE For Life. Keep your DEERS record current — especially after marriage, divorce, or a dependent's change in status. Call 1-800-538-9552 to update DEERS.",
           highlight: "Keep DEERS current or you may lose TFL access.",
         },
@@ -26035,7 +26035,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "TRICARE pharmacy = creditable Part D coverage. No Part D penalty.",
         },
         {
-          title: "Medigap and TRICARE For Life",
+          title: "Medigap and TRICARE for Life",
           text: "You generally do not need a Medigap (Medicare Supplement) plan if you have TRICARE For Life. TFL already acts as wraparound coverage similar to Medigap Plan F or G. Purchasing both would be redundant and wasteful.",
         },
       ],
@@ -26061,7 +26061,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     alternativesSection: {
-      title: "TRICARE For Life Enrollment Checklist",
+      title: "TRICARE for Life Enrollment Checklist",
       paragraphs: [
         "Use this checklist to ensure your TRICARE For Life coverage is active and properly coordinated with Medicare.",
       ],
@@ -26082,7 +26082,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Do I need to pay a premium for TRICARE For Life?",
+        question: "Do I Need to Pay a Premium for TRICARE for Life?",
         answer: "No. TFL has no enrollment fee or premium. You only pay the Medicare Part B premium ($185.00/month in 2026) to maintain TFL coverage.",
       },
       {
@@ -26090,15 +26090,15 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "When both Medicare and TRICARE cover a service, TFL pays the remaining cost-share so you pay $0. For services only TRICARE covers (like overseas care), TFL acts as the primary payer.",
       },
       {
-        question: "Do I need a Medigap plan if I have TRICARE For Life?",
+        question: "Do I Need a Medigap Plan if I Have TRICARE for Life?",
         answer: "No. TFL already acts as wraparound coverage similar to Medigap. Purchasing both would be redundant.",
       },
       {
-        question: "Do I need a Part D plan if I have TRICARE?",
+        question: "Do I Need a Part D Plan if I Have TRICARE?",
         answer: "No. TRICARE's pharmacy benefit is creditable coverage for Part D. You won't face a late enrollment penalty as long as you maintain TRICARE.",
       },
       {
-        question: "What happens to my TRICARE if I enroll in Medicare Advantage?",
+        question: "What Happens to My TRICARE if I Enroll in Medicare Advantage?",
         answer: "You keep TFL, but the MA plan becomes primary. TFL claims won't automatically cross over — you may need to submit claims manually. Most TFL beneficiaries find Original Medicare + TFL simpler.",
       },
     ],
@@ -26110,14 +26110,14 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "TRICARE pharmacy = creditable Part D coverage; no separate Part D plan needed" },
     ],
     relatedTopics: [
-      { title: "TRICARE, VA & Medicare", description: "How all three programs intersect.", slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare" },
+      { title: "TRICARE, VA && Medicare", description: "How all three programs intersect.", slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare" },
       { title: "Medicare and VA Benefits", description: "Using VA benefits alongside Medicare.", slug: "medicare-and-va-benefits" },
       { title: "Medigap vs. MA for Veterans", description: "Choosing the right supplemental coverage.", slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage" },
       { title: "Dual Residency and Medicare", description: "How dual residency affects Medicare.", slug: "how-dual-residency-and-medicare-works" },
     ],
     sidebarRelatedLinks: ["TRICARE & VA", "VA Benefits", "Medigap vs. MA for Veterans", "Dual Residency"],
     ctaBanner: {
-      title: "Questions About TRICARE and Medicare?",
+      title: "Questions about TRICARE and Medicare?",
       text: "Our licensed agents can help military retirees understand how TRICARE For Life coordinates with Medicare and find the right coverage options.",
     },
     relatedSlugs: ["understanding-the-intersection-of-tricare-va-benefits-and-medicare", "medicare-and-va-benefits", "how-dual-residency-and-medicare-works", "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage"],
@@ -26126,7 +26126,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-vision-care-coverage",
     seo: {
-      title: "Does Medicare Cover Vision Care in 2026? | MedicareFAQ",
+      title: "Does Medicare Cover Vision Care in 2026? || MedicareFAQ",
       description: "Original Medicare does not cover routine eye exams or glasses. Learn what Medicare does cover for vision — including cataract surgery, glaucoma screenings, and diabetic eye exams — and how to get full vision coverage.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-vision-care-coverage/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-vision.jpg",
@@ -26185,7 +26185,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Original Medicare Does NOT Cover for Vision",
+        planName: "What Original Medicare Does not Cover for Vision",
         icon: "eye-off",
         iconColor: "text-red-600",
         coverageLabel: "Not Covered by Original Medicare",
@@ -26203,7 +26203,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Routine Vision Is Not Covered",
+          title: "Routine Vision is not Covered",
           text: "If you need an eye exam for new glasses or contacts, Medicare will not pay for it. You will pay 100% out-of-pocket unless you have a Medicare Advantage plan or standalone vision plan.",
         },
       },
@@ -26295,10 +26295,10 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part B deductible: $257 in 2026. Medigap plans can cover the 20% Part B cost-share for covered services. MA vision benefits vary by plan.",
     },
     exceptionsSection: {
-      title: "Important Exceptions & Notes",
+      title: "Important Exceptions && Notes",
       items: [
         {
-          title: "Glasses After Cataract Surgery",
+          title: "Glasses after Cataract Surgery",
           text: "Medicare Part B covers one pair of standard eyeglasses (or contact lenses) after cataract surgery that implants an intraocular lens. This is the only situation where Original Medicare covers eyeglasses. You pay 20% of the Medicare-approved amount for standard frames; upgrades to premium frames are your responsibility.",
           highlight: "One pair of glasses covered after each cataract surgery with IOL implant.",
         },
@@ -26352,23 +26352,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover eye exams?",
+        question: "Does Medicare Cover Eye Exams?",
         answer: "Medicare does not cover routine eye exams for glasses or contacts. It does cover medically necessary eye exams, such as for diabetic retinopathy or glaucoma screening for high-risk patients.",
       },
       {
-        question: "Does Medicare cover glasses?",
+        question: "Does Medicare Cover Glasses?",
         answer: "No, except for one pair of standard glasses (or contacts) after cataract surgery with an IOL implant. Routine eyeglasses are not covered by Original Medicare.",
       },
       {
-        question: "Does Medicare cover cataract surgery?",
+        question: "Does Medicare Cover Cataract Surgery?",
         answer: "Yes. Medicare Part B covers cataract surgery, including the surgeon fee, facility, and anesthesia. One pair of standard glasses or contacts is covered afterward.",
       },
       {
-        question: "How can I get vision coverage with Medicare?",
+        question: "How Can I Get Vision Coverage with Medicare?",
         answer: "Enroll in a Medicare Advantage plan with vision benefits, or purchase a standalone vision plan (VSP, EyeMed). Original Medicare does not cover routine vision.",
       },
       {
-        question: "Does Medicare cover LASIK surgery?",
+        question: "Does Medicare Cover LASIK Surgery?",
         answer: "No. Medicare does not cover LASIK or other elective refractive surgeries. These are considered cosmetic/elective procedures.",
       },
     ],
@@ -26383,7 +26383,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Glasses?", description: "Eyeglass coverage rules explained.", slug: "does-medicare-cover-glasses" },
       { title: "Does Medicare Cover Cataract Surgery?", description: "Full cataract surgery coverage details.", slug: "does-medicare-cover-cataract-surgery" },
       { title: "Macular Degeneration", description: "Medicare coverage for AMD treatment.", slug: "does-medicare-cover-macular-degeneration" },
-      { title: "Dental, Vision & Hearing", description: "Overview of all three coverage gaps.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
+      { title: "Dental, Vision && Hearing", description: "Overview of all three coverage gaps.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
     ],
     sidebarRelatedLinks: ["Glasses", "Cataract Surgery", "Macular Degeneration", "Dental/Vision/Hearing"],
     ctaBanner: {
@@ -26396,7 +26396,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "manufacturers-coupons-and-medicare",
     seo: {
-      title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries | MedicareFAQ",
+      title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries || MedicareFAQ",
       description: "Can Medicare beneficiaries use GoodRx, manufacturer coupons, or prescription discount cards? Learn the rules, when to use them, and how to save on drug costs in 2026.",
       canonical: "https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/prescription-discount-cards-and-coupons.jpg",
@@ -26503,7 +26503,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Manufacturer Coupons + Part D = Illegal",
+          title: "Manufacturer Coupons ++ Part D == Illegal",
           text: "Using a manufacturer copay card or coupon in combination with Medicare Part D violates the federal anti-kickback statute. You can use a coupon instead of Part D (paying cash), but never alongside it.",
         },
       },
@@ -26563,7 +26563,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part D OOP cap: $2,000 in 2026. Extra Help copays: $4.90 generic / $12.15 brand in 2026. Insulin cap: $35/month.",
     },
     exceptionsSection: {
-      title: "Important Rules & Exceptions",
+      title: "Important Rules && Exceptions",
       items: [
         {
           title: "The $2,000 Part D Cap Changes the Math",
@@ -26571,7 +26571,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "Use Part D for expensive drugs to reach the $2,000 OOP cap faster.",
         },
         {
-          title: "Insulin Is Always Better Through Part D",
+          title: "Insulin is Always Better through Part D",
           text: "Insulin is capped at $35/month for Part D enrollees under the Inflation Reduction Act. GoodRx prices for insulin are typically higher than $35. Always use Part D for insulin.",
         },
         {
@@ -26593,7 +26593,7 @@ export const coverageArticles: CoverageArticleData[] = [
           description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000/year starting in 2025. This makes using Part D more valuable for expensive drugs.",
         },
         {
-          title: "Medicare Drug Price Negotiation — 10 Drugs in 2026",
+          title: "Medicare Drug Price Negotiation —— 10 Drugs in 2026",
           status: "Passed",
           description: "CMS negotiated prices for 10 high-cost drugs take effect in 2026, including Eliquis, Jardiance, Xarelto, and others. Part D enrollees pay these lower negotiated prices.",
         },
@@ -26626,23 +26626,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Can I use GoodRx if I have Medicare Part D?",
+        question: "Can I Use GoodRx if I Have Medicare Part D?",
         answer: "Yes, but not at the same time. You must choose either your Part D coverage or GoodRx for each fill. GoodRx purchases don't count toward your Part D deductible or $2,000 out-of-pocket cap.",
       },
       {
-        question: "Can I use manufacturer coupons with Medicare?",
+        question: "Can I Use Manufacturer Coupons with Medicare?",
         answer: "Not with Part D. Using manufacturer copay cards with Part D violates the federal anti-kickback statute. You can use a coupon instead of Part D (paying cash), but never alongside it.",
       },
       {
-        question: "When should I use GoodRx instead of Part D?",
+        question: "When Should I Use GoodRx Instead of Part D?",
         answer: "Use GoodRx for cheap generics where the GoodRx price is lower than your Part D copay, or for drugs not on your formulary. For expensive drugs, use Part D to count toward the $2,000 OOP cap.",
       },
       {
-        question: "Does GoodRx count toward my Medicare deductible?",
+        question: "Does GoodRx Count toward My Medicare Deductible?",
         answer: "No. GoodRx purchases are not processed through Medicare and do not count toward your Part D deductible or out-of-pocket maximum.",
       },
       {
-        question: "What is the cheapest way to get prescriptions with Medicare?",
+        question: "What is the Cheapest Way to Get Prescriptions with Medicare?",
         answer: "Apply for Extra Help if you qualify (income below ~$2,015/month). Otherwise, use Part D for expensive drugs (to hit the $2,000 cap) and GoodRx for cheap generics with high copays.",
       },
     ],
@@ -26669,12 +26669,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-part-b-give-back-plan",
     seo: {
-      title: "Medicare Part B Give Back Benefit: How It Works in 2026",
+      title: "Medicare Part B Give Back Benefit: How it Works in 2026",
       description: "The Medicare Part B Give Back Benefit is offered by some Medicare Advantage plans and can reduce your monthly Part B premium. Learn how it works, who qualifies, and how to find plans in your area.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-part-b-give-back-plan/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/part-b-premium-reduction-give-back-plans.jpg",
     },
-    title: "Medicare Part B Give Back Benefit: How It Works in 2026",
+    title: "Medicare Part B Give Back Benefit: How it Works in 2026",
     subtitle: "Some Medicare Advantage plans reduce your monthly Part B premium \u2014 by as little as $0.10 or as much as the full $202.90/month in 2026. About 25% of MA plans offer this benefit, but evaluating the full plan is essential.",
     category: "Medicare Part B",
     dateUpdated: "April 29, 2026",
@@ -26707,7 +26707,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is the Give Back Benefit?",
+        planName: "What is the Give Back Benefit?",
         icon: "dollar-sign",
         iconColor: "#059669",
         coverageLabel: "Medicare Advantage Only",
@@ -26848,7 +26848,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "MA plans can change or eliminate their give back benefit each year. Always review your Annual Notice of Change (ANOC) in September to see if your give back amount is changing for the next year.",
         },
         {
-          title: "Give Back Does Not Offset IRMAA Surcharges",
+          title: "Give Back Does not Offset IRMAA Surcharges",
           text: "If you pay an IRMAA surcharge on top of the standard Part B premium, the give back benefit reduces only the standard premium portion \u2014 it does not offset the IRMAA surcharge.",
         },
         {
@@ -26879,23 +26879,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "How much can I get back with the Give Back Benefit?",
+        question: "How Much Can I Get Back with the Give Back Benefit?",
         answer: "Give back amounts range from $0.10 to the full $202.90/month Part B premium in 2026. Most plans offer $10\u2013$100/month. The full premium reduction is rare and only available in select counties.",
       },
       {
-        question: "Do I have to apply for the Give Back Benefit?",
+        question: "Do I Have to Apply for the Give Back Benefit?",
         answer: "No. Once you enroll in an MA plan with a give back benefit, the reduction is applied automatically to your Social Security check or Medicare invoice.",
       },
       {
-        question: "Can I get the Give Back Benefit with Original Medicare?",
+        question: "Can I Get the Give Back Benefit with Original Medicare?",
         answer: "No. The Give Back Benefit is only available through Medicare Advantage plans. It is not available with Original Medicare or Medigap.",
       },
       {
-        question: "Will I lose the Give Back Benefit if I switch plans?",
+        question: "Will I Lose the Give Back Benefit if I Switch Plans?",
         answer: "Yes. If you switch to a plan that does not offer a give back, or return to Original Medicare, you will no longer receive the premium reduction.",
       },
       {
-        question: "Is the Give Back Benefit available in my area?",
+        question: "Is the Give Back Benefit Available in My Area?",
         answer: "Not all areas have MA plans with a give back. Use the Medicare Plan Finder at Medicare.gov and enter your ZIP code to see which plans \u2014 if any \u2014 offer this benefit near you.",
       },
     ],
@@ -26961,7 +26961,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "QMB — Qualified Medicare Beneficiary",
+        planName: "QMB —— Qualified Medicare Beneficiary",
         icon: "shield",
         iconColor: "#059669",
         coverageLabel: "Most Comprehensive",
@@ -26984,7 +26984,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "SLMB — Specified Low-Income Medicare Beneficiary",
+        planName: "SLMB —— Specified Low-Income Medicare Beneficiary",
         icon: "dollar-sign",
         iconColor: "#1B2A4A",
         coverageLabel: "Part B Premium Only",
@@ -27006,7 +27006,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "QI — Qualifying Individual",
+        planName: "QI —— Qualifying Individual",
         icon: "users",
         iconColor: "#7C3AED",
         coverageLabel: "Part B Premium Only",
@@ -27034,7 +27034,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "QDWI — Qualified Disabled and Working Individual",
+        planName: "QDWI —— Qualified Disabled and Working Individual",
         icon: "activity",
         iconColor: "#D97706",
         coverageLabel: "Part A Premium Only",
@@ -27133,23 +27133,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What is the difference between QMB and SLMB?",
+        question: "What is the Difference between QMB and SLMB?",
         answer: "QMB is more comprehensive — it pays Part A and B premiums plus deductibles and copays. SLMB only pays the Part B premium. Both automatically qualify you for Extra Help.",
       },
       {
-        question: "Can I have a Medicare Savings Program and Medigap at the same time?",
+        question: "Can I Have a Medicare Savings Program and Medigap at the Same Time?",
         answer: "Yes, but if you have QMB, Medigap is usually unnecessary since QMB covers most cost-sharing. SLMB and QI enrollees may still benefit from Medigap for deductibles and copays.",
       },
       {
-        question: "How do I apply for a Medicare Savings Program?",
+        question: "How do I Apply for a Medicare Savings Program?",
         answer: "Contact your state Medicaid office, visit Benefits.gov, or call 1-800-MEDICARE. Applications are processed by your state, not by Medicare directly.",
       },
       {
-        question: "Do Medicare Savings Programs renew automatically?",
+        question: "Do Medicare Savings Programs Renew Automatically?",
         answer: "Not always. Most states require annual reapplication. QI enrollees must reapply each year, and prior enrollees get priority for limited slots.",
       },
       {
-        question: "Does having a Medicare Savings Program affect my Medicare coverage?",
+        question: "Does Having a Medicare Savings Program Affect My Medicare Coverage?",
         answer: "No — your Medicare benefits remain the same. MSPs only help pay your costs; they do not change what Medicare covers.",
       },
     ],
@@ -27176,12 +27176,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-is-medicare-cost-sharing",
     seo: {
-      title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
+      title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance && Medigap Plans Explained",
       description: "Medicare cost-sharing includes premiums, deductibles, copays, and coinsurance. Learn how each works, what you owe in 2026, and how Medigap cost-sharing plans (Plan K, L, M, N) reduce your out-of-pocket costs.",
       canonical: "https://www.medicarefaq.com/faqs/what-is-medicare-cost-sharing/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/top-medicare-cost-sharing-plans.jpg",
     },
-    title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
+    title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance && Medigap Plans Explained",
     subtitle: "Medicare cost-sharing refers to the portion of healthcare costs you pay out of pocket — including premiums, deductibles, copays, and coinsurance. Medigap cost-sharing plans (Plan K, L, M, N) offer lower premiums in exchange for sharing some of these costs.",
     category: "Costs & Savings",
     dateUpdated: "April 29, 2026",
@@ -27260,7 +27260,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "Original Medicare Cost-Sharing Without Medigap",
+        planName: "Original Medicare Cost-Sharing without Medigap",
         icon: "alert-triangle",
         iconColor: "#D97706",
         coverageLabel: "No OOP Cap",
@@ -27323,11 +27323,11 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Important Exceptions and Notes",
       items: [
         {
-          title: "Plan F and Plan C Are No Longer Available to New Enrollees",
+          title: "Plan F and Plan C are No Longer Available to New Enrollees",
           text: "Plans F and C (which covered the Part B deductible) are not available to beneficiaries who became eligible for Medicare on or after January 1, 2020. If you were eligible before that date, you may still enroll.",
         },
         {
-          title: "Medigap Cannot Be Used with Medicare Advantage",
+          title: "Medigap Cannot be Used with Medicare Advantage",
           text: "Medigap plans only supplement Original Medicare. If you are enrolled in Medicare Advantage, you cannot use a Medigap plan to cover your MA cost-sharing.",
         },
         {
@@ -27362,23 +27362,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What is Medicare cost-sharing?",
+        question: "What is Medicare Cost-sharing?",
         answer: "Cost-sharing is the portion of healthcare costs you pay — including premiums, deductibles, copays, and coinsurance. Original Medicare typically charges 20% coinsurance after the deductible.",
       },
       {
-        question: "What are Medigap cost-sharing plans?",
+        question: "What are Medigap Cost-sharing Plans?",
         answer: "Plan K, L, M, and N are Medigap plans with lower premiums that require you to share some costs with Medicare. Plan K and L have annual out-of-pocket limits; Plan N has copays for office and ER visits.",
       },
       {
-        question: "Does Original Medicare have an out-of-pocket maximum?",
+        question: "Does Original Medicare Have an Out-of-pocket Maximum?",
         answer: "No. Original Medicare has no annual OOP cap. Medigap plans and Medicare Advantage both provide protection against unlimited cost-sharing.",
       },
       {
-        question: "Is Plan N a good cost-sharing plan?",
+        question: "Is Plan N a Good Cost-sharing Plan?",
         answer: "Plan N is popular for healthy beneficiaries who want lower premiums. You pay up to $20 for office visits and $50 for ER visits, but the plan covers most other cost-sharing.",
       },
       {
-        question: "What is the 2026 Part B deductible?",
+        question: "What is the 2026 Part B Deductible?",
         answer: "The Part B deductible is $257 for 2026. After meeting the deductible, Medicare pays 80% of approved costs and you pay 20% (unless you have a Medigap plan).",
       },
     ],
@@ -27393,7 +27393,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Hospital Indemnity Insurance", description: "How hospital indemnity plans supplement Medicare.", slug: "hospital-indemnity-insurance" },
       { title: "Deductible vs. Copay vs. Coinsurance vs. Premium", description: "Plain-English definitions of Medicare cost terms.", slug: "deductible-copay-coinsurance-premium" },
       { title: "Medicare Maximum Out-of-Pocket", description: "How OOP limits work in Medicare Advantage.", slug: "medicare-maximum-out-of-pocket" },
-      { title: "What Is a Medicare Supplement Plan?", description: "Overview of Medigap plans and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+      { title: "What is a Medicare Supplement Plan?", description: "Overview of Medigap plans and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
     ],
     sidebarRelatedLinks: ["hospital-indemnity-insurance", "deductible-copay-coinsurance-premium", "medicare-maximum-out-of-pocket"],
     ctaBanner: {
@@ -27580,11 +27580,11 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "CMS expanded coverage for continuous glucose monitors (CGMs) in 2023, removing the requirement that beneficiaries be insulin-dependent. All Medicare beneficiaries with diabetes who have a prescription for a CGM are now eligible.",
         },
         {
-          title: "Insulin Pump Insulin Is Covered Under Part B",
+          title: "Insulin Pump Insulin is Covered under Part B",
           text: "If you use an insulin pump, the insulin used in the pump is covered under Part B (not Part D) as part of the DME benefit. This means the $35/month Part D cap does not apply — but Medicare pays 80% after the Part B deductible.",
         },
         {
-          title: "GLP-1 Agonists for Weight Loss Are Not Covered",
+          title: "GLP-1 Agonists for Weight Loss are not Covered",
           text: "GLP-1 agonists like semaglutide (Ozempic, Wegovy) are covered by Part D when prescribed for diabetes, but Medicare does not cover them when prescribed solely for weight loss.",
         },
         {
@@ -27615,23 +27615,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover continuous glucose monitors (CGMs)?",
+        question: "Does Medicare Cover Continuous Glucose Monitors (CGMs)?",
         answer: "Yes. Since 2023, Medicare Part B covers CGMs for all beneficiaries with diabetes who have a prescription — not just insulin users. You pay 20% coinsurance after the Part B deductible.",
       },
       {
-        question: "What is the insulin cap under Medicare?",
+        question: "What is the Insulin Cap under Medicare?",
         answer: "The Inflation Reduction Act capped Part D insulin costs at $35/month per covered insulin starting in 2023. This applies to insulin vials and pens covered by Part D.",
       },
       {
-        question: "Does Medicare cover Ozempic or Wegovy?",
+        question: "Does Medicare Cover Ozempic or Wegovy?",
         answer: "Medicare Part D covers semaglutide (Ozempic) when prescribed for type 2 diabetes. However, Medicare does not cover Wegovy or other GLP-1 drugs when prescribed solely for weight loss.",
       },
       {
-        question: "How do I get diabetic supplies through Medicare?",
+        question: "How do I Get Diabetic Supplies through Medicare?",
         answer: "You need a prescription from your doctor and must use a Medicare-enrolled supplier. Your doctor must certify medical necessity. For test strips, you can also use mail-order suppliers for convenience.",
       },
       {
-        question: "Does Medicare cover diabetes self-management training?",
+        question: "Does Medicare Cover Diabetes Self-management Training?",
         answer: "Yes. Part B covers 10 hours of initial DSMT plus 2 hours per year of follow-up training at no cost to you. A doctor referral is required.",
       },
     ],
@@ -27697,7 +27697,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is an All-In-One Medicare Plan?",
+        planName: "What is an All-In-One Medicare Plan?",
         icon: "info",
         iconColor: "#0369A1",
         coverageLabel: "Medicare Advantage (Part C)",
@@ -27785,7 +27785,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "All-In-One vs. Build-Your-Own: Which Is Better?",
+        planName: "All-In-One vs. Build-Your-Own: Which is Better?",
         icon: "scale",
         iconColor: "#7C3AED",
         coverageLabel: "Comparison",
@@ -27857,11 +27857,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "Can I have both Medicare Advantage and Medigap?", answer: "No. Medigap cannot be used alongside Medicare Advantage. If you enroll in MA, your Medigap policy becomes useless." },
-      { question: "Do all Medicare Advantage plans include drug coverage?", answer: "Most do (MAPD plans), but some MA-only plans do not. Always verify before enrolling." },
+      { question: "Can I Have Both Medicare Advantage and Medigap?", answer: "No. Medigap cannot be used alongside Medicare Advantage. If you enroll in MA, your Medigap policy becomes useless." },
+      { question: "Do All Medicare Advantage Plans Include Drug Coverage?", answer: "Most do (MAPD plans), but some MA-only plans do not. Always verify before enrolling." },
       { question: "What happens if I move out of my plan's service area?", answer: "You qualify for a Special Enrollment Period to switch plans. Emergency care is always covered anywhere." },
-      { question: "Can I switch back to Original Medicare from Medicare Advantage?", answer: "Yes, during the Annual Enrollment Period (Oct 15–Dec 7) or the MA Open Enrollment Period (Jan 1–Mar 31)." },
-      { question: "Are $0 premium Medicare Advantage plans really free?", answer: "The premium is $0, but you still pay the Part B premium ($202.90/month in 2026) and plan cost-sharing (copays, deductibles)." },
+      { question: "Can I Switch Back to Original Medicare from Medicare Advantage?", answer: "Yes, during the Annual Enrollment Period (Oct 15–Dec 7) or the MA Open Enrollment Period (Jan 1–Mar 31)." },
+      { question: "Are $0 Premium Medicare Advantage Plans Really Free?", answer: "The premium is $0, but you still pay the Part B premium ($202.90/month in 2026) and plan cost-sharing (copays, deductibles)." },
     ],
     quickReference: [
       { icon: "check", text: "Medicare Advantage = Part A + Part B + usually Part D in one plan" },
@@ -27995,7 +27995,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "Small Employer (Under 20 Employees): Must Enroll",
+        planName: "Small Employer (under 20 Employees): Must Enroll",
         icon: "alert-triangle",
         iconColor: "#DC2626",
         coverageLabel: "Enroll at 65",
@@ -28016,7 +28016,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "How to Enroll After Delaying",
+        planName: "How to Enroll after Delaying",
         icon: "calendar",
         iconColor: "#0369A1",
         coverageLabel: "Special Enrollment Period",
@@ -28054,8 +28054,8 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Important Exceptions",
       items: [
         { title: "VA Coverage and Part B", text: "VA health benefits do not qualify as creditable coverage for Part B delay purposes. You should still enroll in Part B if eligible." },
-        { title: "Working Past 65 with Large Employer", text: "If your employer has 20+ employees and you are actively employed, you can delay Part B and Part D indefinitely without penalty." },
-        { title: "Social Security Before 65", text: "If you collect Social Security before 65, you are automatically enrolled in Part A and Part B at 65. You must actively opt out of Part B if you want to delay." },
+        { title: "Working past 65 with Large Employer", text: "If your employer has 20+ employees and you are actively employed, you can delay Part B and Part D indefinitely without penalty." },
+        { title: "Social Security before 65", text: "If you collect Social Security before 65, you are automatically enrolled in Part A and Part B at 65. You must actively opt out of Part B if you want to delay." },
         { title: "FEHB (Federal Employees)", text: "Federal employees with FEHB coverage can delay Part B. FEHB is creditable coverage for both Part B and Part D delay purposes." },
       ],
     },
@@ -28089,10 +28089,10 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       { question: "Can I delay Medicare if I'm still working at 65?", answer: "Yes, if your employer has 20+ employees and you have active group coverage. You have an 8-month SEP after employment ends." },
-      { question: "Does COBRA count as qualifying coverage to delay Medicare?", answer: "No. COBRA is secondary to Medicare. Delaying Part B while on COBRA triggers the late enrollment penalty." },
-      { question: "What is the Part B late enrollment penalty?", answer: "10% of the Part B premium for each full 12-month period you were eligible but did not enroll. It is permanent." },
-      { question: "Can I delay Part D if I have employer drug coverage?", answer: "Yes, if your employer plan is creditable. You have 63 days after losing that coverage to enroll in Part D without penalty." },
-      { question: "What if I miss my Special Enrollment Period?", answer: "You must wait for the General Enrollment Period (Jan 1–Mar 31), with coverage starting July 1, and you will owe the late enrollment penalty." },
+      { question: "Does COBRA Count as Qualifying Coverage to Delay Medicare?", answer: "No. COBRA is secondary to Medicare. Delaying Part B while on COBRA triggers the late enrollment penalty." },
+      { question: "What is the Part B Late Enrollment Penalty?", answer: "10% of the Part B premium for each full 12-month period you were eligible but did not enroll. It is permanent." },
+      { question: "Can I Delay Part D if I Have Employer Drug Coverage?", answer: "Yes, if your employer plan is creditable. You have 63 days after losing that coverage to enroll in Part D without penalty." },
+      { question: "What if I Miss My Special Enrollment Period?", answer: "You must wait for the General Enrollment Period (Jan 1–Mar 31), with coverage starting July 1, and you will owe the late enrollment penalty." },
     ],
     quickReference: [
       { icon: "check", text: "Safe to delay Part B: active employer coverage at company with 20+ employees" },
@@ -28109,7 +28109,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     sidebarRelatedLinks: ["medicare-initial-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-special-enrollment-period"],
     ctaBanner: {
-      title: "Not Sure If You Should Delay Medicare?",
+      title: "Not Sure if You Should Delay Medicare?",
       text: "Our licensed agents can review your employer coverage situation and help you make the right Medicare enrollment decision — penalty-free.",
     },
     relatedSlugs: ["medicare-initial-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-special-enrollment-period", "when-does-medicare-start"],
@@ -28294,11 +28294,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "Does Medicare require me to use mail order?", answer: "No. Mail order is optional. Some plans offer incentives (lower copays) to encourage it, but retail pharmacy is always available." },
-      { question: "Can I use any mail order pharmacy with Medicare?", answer: "No. You must use your Part D plan's designated mail order pharmacy. Using an out-of-network mail order pharmacy may result in no coverage." },
-      { question: "How long does mail order delivery take?", answer: "Typically 7–10 business days. Plan ahead and request refills before you run out." },
-      { question: "Can I get controlled substances by mail order?", answer: "Generally no. Most Schedule II drugs (opioids, stimulants) cannot be dispensed by mail order under federal law." },
-      { question: "Does the $2,000 Part D OOP cap apply to mail order purchases?", answer: "Yes. All Part D cost-sharing, including mail order copays, counts toward the $2,000 annual out-of-pocket cap." },
+      { question: "Does Medicare Require Me to Use Mail Order?", answer: "No. Mail order is optional. Some plans offer incentives (lower copays) to encourage it, but retail pharmacy is always available." },
+      { question: "Can I Use Any Mail Order Pharmacy with Medicare?", answer: "No. You must use your Part D plan's designated mail order pharmacy. Using an out-of-network mail order pharmacy may result in no coverage." },
+      { question: "How Long Does Mail Order Delivery Take?", answer: "Typically 7–10 business days. Plan ahead and request refills before you run out." },
+      { question: "Can I Get Controlled Substances by Mail Order?", answer: "Generally no. Most Schedule II drugs (opioids, stimulants) cannot be dispensed by mail order under federal law." },
+      { question: "Does the $2,000 Part D OOP Cap Apply to Mail Order Purchases?", answer: "Yes. All Part D cost-sharing, including mail order copays, counts toward the $2,000 annual out-of-pocket cap." },
     ],
     quickReference: [
       { icon: "check", text: "Mail order: 90-day supply for ~2 copays (vs. 3 at retail) — saves ~33% per fill" },
@@ -28330,7 +28330,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/dental-vision-and-hearing-insurance-for-seniors-with-medicare.jpg",
     },
     title: "Dental, Vision, and Hearing Insurance for Seniors",
-    subtitle: "Your Coverage Options Beyond Original Medicare",
+    subtitle: "Your Coverage Options beyond Original Medicare",
     category: "Dental, Vision & Hearing",
     dateUpdated: "April 2026",
     author: {
@@ -28484,7 +28484,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Dental, Vision & Hearing Coverage Costs at a Glance (2026)",
+      title: "Dental, Vision && Hearing Coverage Costs at a Glance (2026)",
       headers: ["Coverage Type", "Monthly Cost", "Annual Maximum/Allowance", "Best For"],
       rows: [
         { "Coverage Type": "MA Dental (preventive)", "Monthly Cost": "$0 (included in plan)", "Annual Maximum/Allowance": "$1,000–$2,500", "Best For": "Basic cleanings and exams" },
@@ -28520,7 +28520,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "If you have Original Medicare + Medigap, purchase standalone dental and vision plans year-round. For hearing, consider OTC hearing aids for mild-moderate loss or a hearing discount program to reduce costs.",
       ],
       checklist: {
-        title: "Coverage Checklist for Dental, Vision & Hearing",
+        title: "Coverage Checklist for Dental, Vision && Hearing",
         items: [
           "Compare MA plans on Medicare.gov during AEP (Oct 15–Dec 7) — filter by dental/vision/hearing benefits",
           "Check if your current dentist and eye doctor are in-network before switching MA plans",
@@ -28534,11 +28534,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "Does Medicare cover dental implants?", answer: "Original Medicare does not. Some Medicare Advantage plans offer partial coverage for implants, but it varies widely by plan." },
-      { question: "Can I add dental coverage to my existing Medicare?", answer: "Yes. You can enroll in a Medicare Advantage plan with dental benefits during AEP, or purchase a standalone dental plan year-round." },
-      { question: "Does Medicare cover LASIK eye surgery?", answer: "No. LASIK is considered elective and is not covered by any Medicare plan." },
-      { question: "Are hearing aids covered by Medicare?", answer: "Original Medicare does not cover hearing aids. Many Medicare Advantage plans offer hearing aid allowances. OTC hearing aids are available without a prescription." },
-      { question: "When can I enroll in a Medicare Advantage plan with dental benefits?", answer: "During the Annual Enrollment Period (Oct 15–Dec 7) or your Initial Enrollment Period when you first become eligible for Medicare." },
+      { question: "Does Medicare Cover Dental Implants?", answer: "Original Medicare does not. Some Medicare Advantage plans offer partial coverage for implants, but it varies widely by plan." },
+      { question: "Can I Add Dental Coverage to My Existing Medicare?", answer: "Yes. You can enroll in a Medicare Advantage plan with dental benefits during AEP, or purchase a standalone dental plan year-round." },
+      { question: "Does Medicare Cover LASIK Eye Surgery?", answer: "No. LASIK is considered elective and is not covered by any Medicare plan." },
+      { question: "Are Hearing Aids Covered by Medicare?", answer: "Original Medicare does not cover hearing aids. Many Medicare Advantage plans offer hearing aid allowances. OTC hearing aids are available without a prescription." },
+      { question: "When Can I Enroll in a Medicare Advantage Plan with Dental Benefits?", answer: "During the Annual Enrollment Period (Oct 15–Dec 7) or your Initial Enrollment Period when you first become eligible for Medicare." },
     ],
     quickReference: [
       { icon: "x", text: "Original Medicare does NOT cover routine dental, vision, or hearing" },
@@ -28555,7 +28555,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     sidebarRelatedLinks: ["does-medicare-cover-dental-implants", "does-medicare-cover-glasses", "does-medicare-cover-hearing-aids"],
     ctaBanner: {
-      title: "Find a Medicare Plan with Dental, Vision & Hearing Coverage",
+      title: "Find a Medicare Plan with Dental, Vision && Hearing Coverage",
       text: "Our licensed agents can help you compare Medicare Advantage plans in your area and find the best dental, vision, and hearing benefits for your needs.",
     },
     relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-dental-implants", "does-medicare-cover-glasses", "does-medicare-cover-hearing-aids"],
@@ -28732,9 +28732,9 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are for standard beneficiaries. Higher-income beneficiaries pay IRMAA surcharges on top of standard premiums.",
     },
     exceptionsSection: {
-      title: "What Did NOT Change in 2026",
+      title: "What Did not Change in 2026",
       items: [
-        { title: "Part A Premium (Most Beneficiaries)", text: "Most beneficiaries (40+ work quarters) pay $0 for Part A. This did not change in 2026." },
+        { title: "Part a Premium (Most Beneficiaries)", text: "Most beneficiaries (40+ work quarters) pay $0 for Part A. This did not change in 2026." },
         { title: "Part D $2,000 OOP Cap", text: "The $2,000 cap was introduced in 2025 and continues in 2026 — no change." },
         { title: "MA OOP Maximum", text: "The Medicare Advantage in-network OOP maximum remains $9,350 in 2026." },
         { title: "$35 Insulin Cap", text: "The $35/month insulin cap for Part D continues in 2026 — no change." },
@@ -28743,13 +28743,13 @@ export const coverageArticles: CoverageArticleData[] = [
     legislativeUpdate: {
       title: "Legislative Updates Driving 2026 Changes",
       items: [
-        { title: "Inflation Reduction Act — Part D Redesign", status: "Passed", description: "The IRA's $2,000 OOP cap, drug price negotiation, and $35 insulin cap are all now in effect. The M3P payment plan is also available." },
+        { title: "Inflation Reduction Act —— Part D Redesign", status: "Passed", description: "The IRA's $2,000 OOP cap, drug price negotiation, and $35 insulin cap are all now in effect. The M3P payment plan is also available." },
         { title: "10 Negotiated Drug Prices (Jan 1, 2026)", status: "Passed", description: "CMS negotiated prices for Eliquis, Xarelto, Jardiance, Farxiga, Entresto, Enbrel, Imbruvica, Stelara, Fiasp/NovoLog, and Januvia take effect." },
-        { title: "H.R. 1 — Medicaid Work Requirements", status: "Proposed", description: "Proposed legislation would add work requirements for Medicaid, potentially affecting dual-eligible beneficiaries. Not yet passed." },
+        { title: "H.R. 1 —— Medicaid Work Requirements", status: "Proposed", description: "Proposed legislation would add work requirements for Medicaid, potentially affecting dual-eligible beneficiaries. Not yet passed." },
       ],
     },
     alternativesSection: {
-      title: "What to Do in Response to 2026 Medicare Changes",
+      title: "What to do in Response to 2026 Medicare Changes",
       paragraphs: [
         "The Part B premium increase is automatic — there is nothing you can do to avoid it unless you qualify for a Medicare Savings Program (which pays your Part B premium). If your income is near the IRMAA threshold, consider tax planning strategies to stay below the bracket.",
         "For Part D, the $2,000 OOP cap is a major improvement. Review your current plan to ensure your medications are covered at the best tier. If you take any of the 10 negotiated drugs, verify your plan's formulary reflects the new negotiated prices.",
@@ -28769,11 +28769,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "What is the Part B premium for 2026?", answer: "$202.90/month for most beneficiaries. Higher-income beneficiaries pay more due to IRMAA surcharges." },
-      { question: "What is the Part D out-of-pocket cap for 2026?", answer: "$2,000. Once you spend $2,000 on covered Part D drugs, the plan pays 100% for the rest of the year." },
-      { question: "Which drugs have negotiated prices in 2026?", answer: "Eliquis, Xarelto, Jardiance, Farxiga, Entresto, Enbrel, Imbruvica, Stelara, Fiasp/NovoLog, and Januvia." },
-      { question: "Did Medicare Advantage benefits change in 2026?", answer: "Some plans reduced dental, vision, and hearing benefits due to CMS tightening rules on extra benefits. Review your plan's ANOC." },
-      { question: "What is the IRMAA threshold for 2026?", answer: "$109,000 for single filers and $218,000 for joint filers. Income above these thresholds triggers Part B and Part D surcharges." },
+      { question: "What is the Part B Premium for 2026?", answer: "$202.90/month for most beneficiaries. Higher-income beneficiaries pay more due to IRMAA surcharges." },
+      { question: "What is the Part D Out-of-pocket Cap for 2026?", answer: "$2,000. Once you spend $2,000 on covered Part D drugs, the plan pays 100% for the rest of the year." },
+      { question: "Which Drugs Have Negotiated Prices in 2026?", answer: "Eliquis, Xarelto, Jardiance, Farxiga, Entresto, Enbrel, Imbruvica, Stelara, Fiasp/NovoLog, and Januvia." },
+      { question: "Did Medicare Advantage Benefits Change in 2026?", answer: "Some plans reduced dental, vision, and hearing benefits due to CMS tightening rules on extra benefits. Review your plan's ANOC." },
+      { question: "What is the IRMAA Threshold for 2026?", answer: "$109,000 for single filers and $218,000 for joint filers. Income above these thresholds triggers Part B and Part D surcharges." },
     ],
     quickReference: [
       { icon: "dollar", text: "Part B premium: $202.90/month in 2026 (up from $185 in 2025)" },
@@ -28784,7 +28784,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Medicare Costs in 2026", description: "Complete breakdown of all 2026 Medicare premiums, deductibles, and cost-sharing.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
-      { title: "How Is Medicare Part D Changing in 2026?", description: "Detailed guide to the Part D $2,000 cap and drug price negotiation.", slug: "how-is-medicare-part-d-changing-in-2026" },
+      { title: "How is Medicare Part D Changing in 2026?", description: "Detailed guide to the Part D $2,000 cap and drug price negotiation.", slug: "how-is-medicare-part-d-changing-in-2026" },
       { title: "IRMAA: Medicare Premium Surcharges", description: "How IRMAA works and how to appeal.", slug: "irmaa" },
       { title: "Medicare News", description: "Latest Medicare news and updates.", slug: "medicare-news" },
     ],
@@ -28859,7 +28859,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "Do You Need Medicare If You Have VA Benefits?",
+        planName: "Do You Need Medicare if You Have VA Benefits?",
         icon: "help-circle",
         iconColor: "#D97706",
         coverageLabel: "Recommended to Enroll",
@@ -28881,7 +28881,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "VA Benefits Do NOT Qualify for Part B Delay",
+          title: "VA Benefits do not Qualify for Part B Delay",
           text: "Unlike employer group coverage, VA benefits do NOT allow you to delay Medicare Part B without penalty. If you delay Part B past your Initial Enrollment Period, you will owe a permanent 10% penalty per year missed.",
         },
       },
@@ -28953,7 +28953,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Medicare + VA Benefits Cost Comparison (2026)",
+      title: "Medicare ++ VA Benefits Cost Comparison (2026)",
       headers: ["Service", "VA Only", "Medicare Only", "Medicare + VA"],
       rows: [
         { "Service": "Routine primary care", "VA Only": "$0 (Priority 1-6)", "Medicare Only": "$0 (Annual Wellness Visit) + 20% coinsurance", "Medicare + VA": "Use VA at $0" },
@@ -28969,7 +28969,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Important Exceptions and Considerations",
       items: [
         { title: "TRICARE for Life (TFL) vs. VA", text: "Military retirees may have TRICARE For Life in addition to VA benefits. TFL wraps around Medicare (pays after Medicare), while VA is separate. Having all three provides maximum coverage." },
-        { title: "VA Aid & Attendance", text: "Veterans who need help with daily activities may qualify for VA Aid & Attendance pension benefits, which can help pay for home care or assisted living costs not covered by Medicare or VA health benefits." },
+        { title: "VA Aid && Attendance", text: "Veterans who need help with daily activities may qualify for VA Aid & Attendance pension benefits, which can help pay for home care or assisted living costs not covered by Medicare or VA health benefits." },
         { title: "Service-Connected Disability", text: "Veterans with service-connected disabilities receive VA care at no cost for those conditions, regardless of income or priority group." },
         { title: "Enrollment in VA Health Care", text: "Having Medicare does not automatically enroll you in VA health care. You must separately apply for VA health benefits at VA.gov or your local VA medical center." },
       ],
@@ -28989,7 +28989,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "If you primarily use VA facilities, consider whether Medigap is worth the premium. If you frequently use non-VA providers, Medigap Plan G can eliminate most Medicare cost-sharing and provide peace of mind.",
       ],
       checklist: {
-        title: "Medicare + VA Benefits Checklist",
+        title: "Medicare ++ VA Benefits Checklist",
         items: [
           "Enroll in Medicare Part A at 65 — it is usually free and provides hospital coverage outside VA",
           "Enroll in Medicare Part B at 65 — VA benefits do NOT qualify for penalty-free delay",
@@ -29003,11 +29003,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "Can I use both Medicare and VA benefits?", answer: "Yes. They are separate programs that do not coordinate. Use VA for care at VA facilities and Medicare for non-VA providers." },
-      { question: "Do VA benefits count as creditable coverage to delay Medicare Part B?", answer: "No. VA benefits do NOT qualify for penalty-free Part B delay. Enroll in Part B at 65 to avoid the permanent late enrollment penalty." },
-      { question: "Do VA benefits count as creditable coverage to delay Part D?", answer: "Yes. VA drug coverage IS creditable for Part D. You can delay Part D without penalty as long as you have VA drug coverage." },
-      { question: "Which pays first — Medicare or VA?", answer: "They don't coordinate. VA pays for VA facility care; Medicare pays for non-VA care. There is no primary/secondary relationship." },
-      { question: "Should I get Medigap if I have VA benefits?", answer: "It depends on how often you use non-VA providers. If you frequently use Medicare providers, Medigap Plan G can eliminate most cost-sharing." },
+      { question: "Can I Use Both Medicare and VA Benefits?", answer: "Yes. They are separate programs that do not coordinate. Use VA for care at VA facilities and Medicare for non-VA providers." },
+      { question: "Do VA Benefits Count as Creditable Coverage to Delay Medicare Part B?", answer: "No. VA benefits do NOT qualify for penalty-free Part B delay. Enroll in Part B at 65 to avoid the permanent late enrollment penalty." },
+      { question: "Do VA Benefits Count as Creditable Coverage to Delay Part D?", answer: "Yes. VA drug coverage IS creditable for Part D. You can delay Part D without penalty as long as you have VA drug coverage." },
+      { question: "Which Pays First —— Medicare or VA?", answer: "They don't coordinate. VA pays for VA facility care; Medicare pays for non-VA care. There is no primary/secondary relationship." },
+      { question: "Should I Get Medigap if I Have VA Benefits?", answer: "It depends on how often you use non-VA providers. If you frequently use Medicare providers, Medigap Plan G can eliminate most cost-sharing." },
     ],
     quickReference: [
       { icon: "check", text: "You can have both Medicare and VA benefits — they do not coordinate" },
@@ -29072,7 +29072,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is Social Security?",
+        planName: "What is Social Security?",
         icon: "dollar-sign",
         iconColor: "#1B2A4A",
         coverageLabel: "Retirement Income",
@@ -29095,7 +29095,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "What Is Medicare?",
+        planName: "What is Medicare?",
         icon: "shield",
         iconColor: "#059669",
         coverageLabel: "Health Insurance",
@@ -29141,12 +29141,12 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Can You Have One Without the Other?",
+          title: "Can You Have One without the Other?",
           text: "Yes. You can enroll in Medicare at 65 without claiming Social Security. You can also claim Social Security at 62 without enrolling in Medicare until 65. The two programs are independent.",
         },
       },
       {
-        planName: "FICA Taxes: How Both Are Funded",
+        planName: "FICA Taxes: How Both are Funded",
         icon: "percent",
         iconColor: "#D97706",
         coverageLabel: "Payroll Tax Funded",
@@ -29182,14 +29182,14 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions & Special Cases",
+      title: "Important Exceptions && Special Cases",
       items: [
         {
           title: "Railroad Retirement Board (RRB)",
           text: "Railroad workers receive Medicare and retirement benefits through the RRB, not SSA. The programs are equivalent but administered separately.",
         },
         {
-          title: "Disability (SSDI → Medicare)",
+          title: "Disability (SSDI →→ Medicare)",
           text: "SSDI recipients become eligible for Medicare after 24 months of disability benefits, regardless of age. ALS patients qualify immediately.",
         },
         {
@@ -29221,7 +29221,7 @@ export const coverageArticles: CoverageArticleData[] = [
           status: "Passed",
         },
         {
-          title: "H.R. 1 — Medicaid Work Requirements",
+          title: "H.R. 1 —— Medicaid Work Requirements",
           description: "Proposed cuts to Medicaid that could affect low-income Medicare beneficiaries who rely on Medicare Savings Programs.",
           status: "Proposed",
         },
@@ -29245,23 +29245,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Do I need Social Security to get Medicare?",
+        question: "Do I Need Social Security to Get Medicare?",
         answer: "No. You can enroll in Medicare at 65 even if you haven't claimed Social Security. You'll pay Part B premiums by invoice rather than having them deducted from a check.",
       },
       {
-        question: "Does Social Security pay my Medicare premiums?",
+        question: "Does Social Security Pay My Medicare Premiums?",
         answer: "Social Security deducts your Part B premium ($185/month in 2026) from your check automatically. It doesn't 'pay' them — it's a deduction from your benefit.",
       },
       {
-        question: "What happens to Medicare if I delay Social Security?",
+        question: "What Happens to Medicare if I Delay Social Security?",
         answer: "Nothing — Medicare eligibility starts at 65 regardless of when you claim Social Security. If you delay SS past 65, you must actively enroll in Medicare yourself.",
       },
       {
-        question: "How much of my paycheck goes to Medicare and Social Security?",
+        question: "How Much of My Paycheck Goes to Medicare and Social Security?",
         answer: "1.45% goes to Medicare and 6.2% goes to Social Security (up to the $176,100 wage base in 2026). Your employer matches both.",
       },
       {
-        question: "Can I get Medicare if I never worked?",
+        question: "Can I Get Medicare if I Never Worked?",
         answer: "Yes, through a spouse's work record (if married 10+ years), or by paying Part A premiums ($285 or $518/month in 2026 depending on work history).",
       },
     ],
@@ -29272,7 +29272,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "SSDI recipients get Medicare after 24 months of disability benefits" },
     ],
     relatedTopics: [
-      { title: "Can You Get Medicare Without Social Security?", description: "Learn if you can enroll in Medicare without claiming Social Security benefits.", slug: "can-you-get-medicare-without-receiving-social-security-benefits" },
+      { title: "Can You Get Medicare without Social Security?", description: "Learn if you can enroll in Medicare without claiming Social Security benefits.", slug: "can-you-get-medicare-without-receiving-social-security-benefits" },
       { title: "Delaying Medicare", description: "Understand when it's safe to delay Medicare enrollment and avoid penalties.", slug: "delay-medicare" },
       { title: "Medicare and Employment", description: "Navigate Medicare coverage when you're still working.", slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job" },
       { title: "Guide to Retirement Planning", description: "Plan your retirement with Medicare and Social Security in mind.", slug: "guide-to-retirement-planning" },
@@ -29479,7 +29479,7 @@ export const coverageArticles: CoverageArticleData[] = [
           status: "Passed",
         },
         {
-          title: "Competitive Bidding Round 2024",
+          title: "Competitive Bidding round 2024",
           description: "CMS updated competitive bidding contracts for common DME items, potentially changing which suppliers are contracted in your area.",
           status: "Passed",
         },
@@ -29504,23 +29504,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover wheelchairs?",
+        question: "Does Medicare Cover Wheelchairs?",
         answer: "Yes. Medicare Part B covers manual and power wheelchairs when medically necessary and prescribed by a doctor. You pay 20% coinsurance after the Part B deductible.",
       },
       {
-        question: "Does Medicare cover CPAP machines?",
+        question: "Does Medicare Cover CPAP Machines?",
         answer: "Yes. Medicare covers CPAP machines for diagnosed sleep apnea. Medicare typically pays to rent the machine for 13 months, after which ownership transfers to you.",
       },
       {
-        question: "Does Medicare cover blood glucose monitors?",
+        question: "Does Medicare Cover Blood Glucose Monitors?",
         answer: "Yes. Part B covers blood glucose monitors, test strips, and lancets for Medicare beneficiaries with diabetes. Continuous glucose monitors (CGMs) are also covered.",
       },
       {
-        question: "What is a Medicare-enrolled DME supplier?",
+        question: "What is a Medicare-enrolled DME Supplier?",
         answer: "A supplier that has enrolled with Medicare and agreed to its billing rules. You must use an enrolled supplier for Medicare to pay. Check Medicare.gov to find enrolled suppliers near you.",
       },
       {
-        question: "Does Medicare cover grab bars and bathroom safety equipment?",
+        question: "Does Medicare Cover Grab Bars and Bathroom Safety Equipment?",
         answer: "No. Grab bars and raised toilet seats are not covered by Original Medicare. Some Medicare Advantage plans may offer a home safety benefit.",
       },
     ],
@@ -29640,7 +29640,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Part A Benefit Period Warning",
+          title: "Part a Benefit Period Warning",
           text: "The Part A deductible is per benefit period, not per year. If you're hospitalized, discharged for 60+ days, and then hospitalized again, a new $1,676 deductible applies. There is no limit to how many benefit periods you can have.",
         },
       },
@@ -29714,7 +29714,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "Unlike Medicare Advantage, Original Medicare has no annual cap on out-of-pocket costs. A serious illness could result in unlimited coinsurance. Medigap is the primary protection against this.",
         },
         {
-          title: "Preventive Services Are $0",
+          title: "Preventive Services are $0",
           text: "Many preventive services (Annual Wellness Visit, flu shots, mammograms, colonoscopies) are covered at $0 coinsurance under Part B when performed by a participating provider.",
         },
         {
@@ -29746,7 +29746,7 @@ export const coverageArticles: CoverageArticleData[] = [
           status: "Passed",
         },
         {
-          title: "Part A Deductible to $1,676",
+          title: "Part a Deductible to $1,676",
           description: "The 2026 Part A hospital deductible increased from $1,632 to $1,676 per benefit period.",
           status: "Passed",
         },
@@ -29771,23 +29771,23 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What is the difference between a copay and coinsurance?",
+        question: "What is the Difference between a Copay and Coinsurance?",
         answer: "A copay is a fixed dollar amount (e.g., $20 per visit). Coinsurance is a percentage of the cost (e.g., 20% of the approved amount). Original Medicare uses coinsurance; Medicare Advantage plans typically use copays.",
       },
       {
-        question: "Does Medicare have an out-of-pocket maximum?",
+        question: "Does Medicare Have an Out-of-pocket Maximum?",
         answer: "Original Medicare has no OOP maximum. Medicare Advantage plans have an annual OOP cap ($9,350 in-network in 2026). Medigap covers most OOP costs under Original Medicare.",
       },
       {
-        question: "What is the Part B deductible in 2026?",
+        question: "What is the Part B Deductible in 2026?",
         answer: "The Part B deductible is $257 in 2026. After meeting it, Medicare pays 80% of covered outpatient services and you pay 20%.",
       },
       {
-        question: "How does the Part A deductible work?",
+        question: "How Does the Part a Deductible Work?",
         answer: "The Part A deductible is $1,676 per benefit period in 2026 — not per year. A new benefit period begins if you're out of the hospital for 60 consecutive days.",
       },
       {
-        question: "Can Medigap cover my deductibles and coinsurance?",
+        question: "Can Medigap Cover My Deductibles and Coinsurance?",
         answer: "Yes. Medigap Plan G covers the Part A deductible, Part A coinsurance, and the 20% Part B coinsurance. Plan F also covers the Part B deductible but is only available to those eligible for Medicare before January 1, 2020.",
       },
     ],
@@ -29799,7 +29799,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Medicare Costs in 2026", description: "See all 2026 Medicare premiums, deductibles, and key changes.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
-      { title: "What Is Medicare Cost Sharing?", description: "Understand how Medicare cost sharing works across all parts.", slug: "what-is-medicare-cost-sharing" },
+      { title: "What is Medicare Cost Sharing?", description: "Understand how Medicare cost sharing works across all parts.", slug: "what-is-medicare-cost-sharing" },
       { title: "Medicare Savings Programs", description: "Learn how Medicare Savings Programs can help pay your premiums.", slug: "medicare-savings-programs" },
       { title: "How to Reduce Medicare Premiums", description: "Discover strategies to lower your Medicare costs.", slug: "reduce-medicare-premiums" },
     ],
@@ -29819,7 +29819,7 @@ export const coverageArticles: CoverageArticleData[] = [
 {
     slug: "medicare-prior-authorization",
     seo: {
-      title: "Medicare Prior Authorization: What It Is and How It Works",
+      title: "Medicare Prior Authorization: What it is and How it Works",
       description: "Learn what Medicare prior authorization is, which plans require it, how to request it, and what to do if it's denied.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-prior-authorization/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-prior-authorization.jpg",
@@ -29858,7 +29858,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part A & B)",
+        planName: "Original Medicare (Part a && B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Rarely Required",
@@ -29954,7 +29954,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Important Exceptions and Protections",
       items: [
         {
-          title: "Emergency Care Is Always Exempt",
+          title: "Emergency Care is Always Exempt",
           text: "Medicare Advantage plans cannot require prior authorization for emergency medical care. If you have a medical emergency, go to the nearest emergency room — your plan must cover it regardless of PA status.",
           highlight: "Emergency services are always covered without prior authorization under both Original Medicare and Medicare Advantage.",
         },
@@ -29991,7 +29991,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     alternativesSection: {
-      title: "What to Do If Prior Authorization Is Denied",
+      title: "What to do if Prior Authorization is Denied",
       paragraphs: [
         "A PA denial is not the end of the road. You have clear rights under Medicare to appeal any coverage decision.",
         "Work with your doctor to submit a strong appeal with clinical documentation. Many PA denials are overturned on appeal, especially when supported by medical records and a physician's letter of medical necessity.",
@@ -30011,11 +30011,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "Does Original Medicare require prior authorization?", answer: "Original Medicare rarely requires prior authorization. Most services are covered as long as they are medically necessary and ordered by a Medicare-enrolled provider." },
-      { question: "How long does prior authorization take?", answer: "For Medicare Advantage, standard PA decisions must be made within 7 calendar days. Urgent requests must be decided within 72 hours." },
-      { question: "What happens if I get a service without prior authorization?", answer: "If your MA plan required PA and you didn't get it, the plan may deny the claim. You can still appeal, but it's harder to win retroactively. Always check PA requirements before scheduled procedures." },
-      { question: "Can I appeal a prior authorization denial?", answer: "Yes. You have the right to appeal any PA denial within 60 days. Your doctor can help by submitting clinical documentation supporting medical necessity." },
-      { question: "Does Medigap require prior authorization?", answer: "No. Medigap (Medicare Supplement) plans do not require prior authorization. They follow Original Medicare's coverage rules, which rarely require PA." },
+      { question: "Does Original Medicare Require Prior Authorization?", answer: "Original Medicare rarely requires prior authorization. Most services are covered as long as they are medically necessary and ordered by a Medicare-enrolled provider." },
+      { question: "How Long Does Prior Authorization Take?", answer: "For Medicare Advantage, standard PA decisions must be made within 7 calendar days. Urgent requests must be decided within 72 hours." },
+      { question: "What Happens if I Get a Service without Prior Authorization?", answer: "If your MA plan required PA and you didn't get it, the plan may deny the claim. You can still appeal, but it's harder to win retroactively. Always check PA requirements before scheduled procedures." },
+      { question: "Can I Appeal a Prior Authorization Denial?", answer: "Yes. You have the right to appeal any PA denial within 60 days. Your doctor can help by submitting clinical documentation supporting medical necessity." },
+      { question: "Does Medigap Require Prior Authorization?", answer: "No. Medigap (Medicare Supplement) plans do not require prior authorization. They follow Original Medicare's coverage rules, which rarely require PA." },
     ],
     quickReference: [
       { icon: "alert", text: "<strong>Medicare Advantage</strong> commonly requires PA for specialists, imaging, and surgeries" },
@@ -30037,7 +30037,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "What Does Medically Necessary Mean?",
     ],
     ctaBanner: {
-      title: "Questions About Prior Authorization?",
+      title: "Questions about Prior Authorization?",
       text: "Our licensed agents can help you understand your plan's PA requirements and navigate coverage decisions.",
     },
     relatedSlugs: ["advance-beneficiary-notice", "what-does-medically-necessary-mean", "medicare-coverage-for-physical-therapy", "scope-of-appointment"],
@@ -30045,7 +30045,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicaid-spend-down-program",
     seo: {
-      title: "Medicaid Spend-Down Program: How It Works for Medicare Beneficiaries",
+      title: "Medicaid Spend-Down Program: How it Works for Medicare Beneficiaries",
       description: "Learn how the Medicaid spend-down program works, who qualifies, and how it can help Medicare beneficiaries with high medical costs reduce their out-of-pocket expenses.",
       canonical: "https://www.medicarefaq.com/faqs/medicaid-spend-down-program/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicaid-spend-down-program-for-medicare-beneficiaries.jpg",
@@ -30084,7 +30084,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is the Spend-Down Program?",
+        planName: "What is the Spend-Down Program?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Conditional Coverage",
@@ -30124,7 +30124,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "Dual Eligibility: Medicare + Medicaid",
+        planName: "Dual Eligibility: Medicare ++ Medicaid",
         icon: "filetext",
         iconColor: "#D97706",
         coverageLabel: "Dual Coverage",
@@ -30189,7 +30189,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "Even if you meet the spend-down income threshold, you must also meet asset limits to qualify for Medicaid.",
         },
         {
-          title: "Medicare Savings Programs May Be Easier",
+          title: "Medicare Savings Programs May be Easier",
           text: "If your goal is to reduce Medicare cost-sharing, Medicare Savings Programs (QMB, SLMB, QI) may be easier to qualify for than full Medicaid spend-down. MSPs have higher income limits and do not require spending down medical expenses.",
           highlight: "Apply for Medicare Savings Programs first — they are available in all states and have simpler qualification rules.",
         },
@@ -30236,11 +30236,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "What is the Medicaid spend-down program?", answer: "It allows people with income above the Medicaid limit to qualify by subtracting their medical expenses from their income until they reach the Medicaid threshold." },
-      { question: "How does spend-down work with Medicare?", answer: "If you have Medicare and meet your spend-down amount, Medicaid becomes secondary and pays Medicare's cost-sharing (deductibles, copays, coinsurance)." },
-      { question: "What expenses count toward the spend-down?", answer: "Medical bills from doctors, hospitals, pharmacies, and Medicare premiums typically count. Non-medical expenses do not count." },
-      { question: "Is spend-down available in my state?", answer: "About 34 states offer medically needy programs with spend-down. Contact your state Medicaid agency or call 1-800-MEDICARE to find out." },
-      { question: "How is spend-down different from a Medicare Savings Program?", answer: "MSPs help pay Medicare premiums and cost-sharing for people near Medicaid income limits. Spend-down is for people above those limits who have high medical expenses." },
+      { question: "What is the Medicaid Spend-down Program?", answer: "It allows people with income above the Medicaid limit to qualify by subtracting their medical expenses from their income until they reach the Medicaid threshold." },
+      { question: "How Does Spend-down Work with Medicare?", answer: "If you have Medicare and meet your spend-down amount, Medicaid becomes secondary and pays Medicare's cost-sharing (deductibles, copays, coinsurance)." },
+      { question: "What Expenses Count toward the Spend-down?", answer: "Medical bills from doctors, hospitals, pharmacies, and Medicare premiums typically count. Non-medical expenses do not count." },
+      { question: "Is Spend-down Available in My State?", answer: "About 34 states offer medically needy programs with spend-down. Contact your state Medicaid agency or call 1-800-MEDICARE to find out." },
+      { question: "How is Spend-down Different from a Medicare Savings Program?", answer: "MSPs help pay Medicare premiums and cost-sharing for people near Medicaid income limits. Spend-down is for people above those limits who have high medical expenses." },
     ],
     quickReference: [
       { icon: "info", text: "Spend-down available in <strong>~34 states</strong> — check your state" },
@@ -30351,7 +30351,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "Cost Factors That Affect Your Premium",
+        planName: "Cost Factors that Affect Your Premium",
         icon: "filetext",
         iconColor: "#D97706",
         coverageLabel: "Varies by Location",
@@ -30464,11 +30464,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "What is the average Medicare Advantage premium?", answer: "The average MA premium is about $17/month in 2026, but many plans have $0 premiums. You still pay the Part B premium ($185/month) regardless." },
-      { question: "Why do Medicare Advantage costs vary by state?", answer: "MA plans are offered by private insurers and priced based on local healthcare costs, competition, and Medicare reimbursement rates. Urban areas with more competition tend to have lower premiums." },
-      { question: "What is the out-of-pocket maximum for Medicare Advantage?", answer: "In 2026, the in-network OOP maximum is capped at $9,350 by CMS. Once you reach this limit, your plan covers 100% of covered services for the rest of the year." },
-      { question: "Is Medicare Advantage cheaper than Original Medicare?", answer: "MA can be cheaper if you're healthy and use in-network providers. If you have high medical needs, Original Medicare with Medigap may provide more predictable costs." },
-      { question: "Can I switch Medicare Advantage plans?", answer: "Yes. During the Annual Enrollment Period (Oct 15 – Dec 7) you can switch plans. The MA Open Enrollment Period (Jan 1 – Mar 31) allows one switch from MA to Original Medicare or between MA plans." },
+      { question: "What is the Average Medicare Advantage Premium?", answer: "The average MA premium is about $17/month in 2026, but many plans have $0 premiums. You still pay the Part B premium ($185/month) regardless." },
+      { question: "Why do Medicare Advantage Costs Vary by State?", answer: "MA plans are offered by private insurers and priced based on local healthcare costs, competition, and Medicare reimbursement rates. Urban areas with more competition tend to have lower premiums." },
+      { question: "What is the Out-of-pocket Maximum for Medicare Advantage?", answer: "In 2026, the in-network OOP maximum is capped at $9,350 by CMS. Once you reach this limit, your plan covers 100% of covered services for the rest of the year." },
+      { question: "Is Medicare Advantage Cheaper than Original Medicare?", answer: "MA can be cheaper if you're healthy and use in-network providers. If you have high medical needs, Original Medicare with Medigap may provide more predictable costs." },
+      { question: "Can I Switch Medicare Advantage Plans?", answer: "Yes. During the Annual Enrollment Period (Oct 15 – Dec 7) you can switch plans. The MA Open Enrollment Period (Jan 1 – Mar 31) allows one switch from MA to Original Medicare or between MA plans." },
     ],
     quickReference: [
       { icon: "dollar", text: "Average MA premium: <strong>$17/month</strong> in 2026 (many plans at $0)" },
@@ -30481,7 +30481,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Original Medicare vs. Medicare Advantage", description: "Compare the two main Medicare coverage options side by side.", slug: "original-medicare-vs-medicare-advantage" },
       { title: "Medicare Part B Give Back Plan", description: "Learn how some MA plans reduce your Part B premium.", slug: "medicare-part-b-give-back-plan" },
       { title: "IRMAA", description: "Understand income-related premium surcharges for high earners.", slug: "irmaa" },
-      { title: "What Is Medicare Cost Sharing?", description: "Learn about premiums, deductibles, copays, and coinsurance.", slug: "what-is-medicare-cost-sharing" },
+      { title: "What is Medicare Cost Sharing?", description: "Learn about premiums, deductibles, copays, and coinsurance.", slug: "what-is-medicare-cost-sharing" },
     ],
     sidebarRelatedLinks: [
       "Original Medicare vs. Medicare Advantage",
@@ -30537,7 +30537,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Is the General Enrollment Period?",
+        planName: "What is the General Enrollment Period?",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Jan 1 – Mar 31",
@@ -30637,7 +30637,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "If you enroll in February, your coverage now starts March 1 — not July 1 as it was before 2023.",
         },
         {
-          title: "COBRA and Marketplace Coverage Do NOT Qualify for SEP",
+          title: "COBRA and Marketplace Coverage do not Qualify for SEP",
           text: "A common and costly mistake: people on COBRA or marketplace (ACA) coverage think they qualify for a Special Enrollment Period when they lose that coverage. They do not. COBRA and marketplace coverage are not considered qualifying employer coverage for Medicare SEP purposes.",
           highlight: "If you have COBRA or marketplace coverage and miss your IEP, you must use the GEP and will face late enrollment penalties.",
         },
@@ -30690,10 +30690,10 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       { question: "When is the Medicare General Enrollment Period?", answer: "The GEP runs January 1 through March 31 every year. Coverage starts the first day of the month after you enroll." },
-      { question: "What is the penalty for enrolling during the GEP?", answer: "If you didn't have qualifying employer coverage, you'll pay a permanent 10% surcharge on your Part B premium for each full 12-month period you delayed enrollment." },
-      { question: "Can I enroll in Medicare Advantage during the GEP?", answer: "Not directly. After enrolling in Part A/B during the GEP, you can use the Initial Coverage Election Period (ICEP) to add Medicare Advantage or Part D." },
-      { question: "Does COBRA coverage count for a Special Enrollment Period?", answer: "No. COBRA is not considered qualifying employer coverage for Medicare SEP purposes. If you have COBRA and miss your IEP, you must use the GEP." },
-      { question: "When does GEP coverage start?", answer: "Since 2023, coverage starts the first day of the month after you enroll — a significant improvement from the previous July 1 start date." },
+      { question: "What is the Penalty for Enrolling during the GEP?", answer: "If you didn't have qualifying employer coverage, you'll pay a permanent 10% surcharge on your Part B premium for each full 12-month period you delayed enrollment." },
+      { question: "Can I Enroll in Medicare Advantage during the GEP?", answer: "Not directly. After enrolling in Part A/B during the GEP, you can use the Initial Coverage Election Period (ICEP) to add Medicare Advantage or Part D." },
+      { question: "Does COBRA Coverage Count for a Special Enrollment Period?", answer: "No. COBRA is not considered qualifying employer coverage for Medicare SEP purposes. If you have COBRA and miss your IEP, you must use the GEP." },
+      { question: "When Does GEP Coverage Start?", answer: "Since 2023, coverage starts the first day of the month after you enroll — a significant improvement from the previous July 1 start date." },
     ],
     quickReference: [
       { icon: "info", text: "GEP dates: <strong>January 1 – March 31</strong> every year" },
@@ -30869,27 +30869,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Is the Medicare Annual Wellness Visit the same as a physical exam?",
+        question: "Is the Medicare Annual Wellness Visit the Same as a Physical Exam?",
         answer: "No. The AWV is a prevention planning visit — it reviews your health history, assesses your risks, and creates a health roadmap. It does not include a hands-on physical examination. Original Medicare does not cover routine physical exams; some Medicare Advantage Plans do as an added benefit.",
       },
       {
-        question: "How often can I have the Annual Wellness Visit?",
+        question: "How Often Can I Have the Annual Wellness Visit?",
         answer: "Once every 12 months. Your first AWV is available after you have been enrolled in Part B for more than 12 months (following your one-time Welcome to Medicare Visit).",
       },
       {
-        question: "Do I pay anything for the Annual Wellness Visit?",
+        question: "Do I Pay Anything for the Annual Wellness Visit?",
         answer: "No — the AWV is covered at 100% by Medicare Part B with no copay and no deductible. However, if your doctor addresses a medical problem during the same appointment, that portion may be billed separately and cost-sharing could apply.",
       },
       {
-        question: "What is the difference between the Welcome to Medicare Visit and the Annual Wellness Visit?",
+        question: "What is the Difference between the Welcome to Medicare Visit and the Annual Wellness Visit?",
         answer: "The Welcome to Medicare Visit is a one-time visit available in your first 12 months of Part B enrollment. The Annual Wellness Visit is available every year after that. Both are covered at no cost, but they serve different purposes — the Welcome visit is an introduction to Medicare preventive care, while the AWV is an ongoing annual health planning session.",
       },
       {
-        question: "Can I get lab work done at my Annual Wellness Visit?",
+        question: "Can I Get Lab Work Done at My Annual Wellness Visit?",
         answer: "Yes, but lab work is billed separately from the AWV. The AWV itself is free, but any labs ordered during the visit are subject to normal Part B cost-sharing — meaning the Part B deductible and 20% coinsurance may apply.",
       },
       {
-        question: "Does Medicare Advantage cover the Annual Wellness Visit?",
+        question: "Does Medicare Advantage Cover the Annual Wellness Visit?",
         answer: "Yes. All Medicare Advantage Plans are required to cover the AWV at no cost to you. Many plans also offer additional wellness benefits beyond what Original Medicare provides.",
       },
     ],
@@ -31039,7 +31039,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Avoid the GEP If Possible",
+          title: "Avoid the GEP if Possible",
           text: "Enrolling through the General Enrollment Period means a coverage gap until July 1 and a potential permanent late enrollment penalty. If you have qualifying employer coverage, confirm whether you are eligible for a Special Enrollment Period instead.",
         },
       },
@@ -31082,7 +31082,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Coverage start dates are based on CMS rules as of 2026. Individual circumstances may vary — consult a licensed Medicare specialist for your specific situation.",
     },
     exceptionsSection: {
-      title: "Special Situations: When Medicare Starts Before 65",
+      title: "Special Situations: When Medicare Starts before 65",
       items: [
         {
           title: "Social Security Disability Insurance (SSDI)",
@@ -31103,19 +31103,19 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "When does Medicare start if I enroll during my birthday month?",
+        question: "When Does Medicare Start if I Enroll during My Birthday Month?",
         answer: "If you enroll during your birthday month (the fourth month of your IEP), your coverage begins on the first day of the following month — one month after your birthday month. To get coverage starting on the first of your birthday month, you need to enroll during the three months before your birthday month.",
       },
       {
-        question: "Does Medicare start automatically when I turn 65?",
+        question: "Does Medicare Start Automatically When I Turn 65?",
         answer: "Only if you are already receiving Social Security or Railroad Retirement Board benefits. In that case, you are automatically enrolled and your Medicare card arrives in the mail about three months before your coverage begins. If you are not yet collecting Social Security, you must actively apply for Medicare.",
       },
       {
-        question: "What if I miss my Initial Enrollment Period?",
+        question: "What if I Miss My Initial Enrollment Period?",
         answer: "If you miss your IEP and don't have qualifying coverage, you can enroll during the General Enrollment Period (January 1 – March 31), but coverage won't start until July 1 and late enrollment penalties may apply. If you had qualifying employer coverage, you may be eligible for a Special Enrollment Period instead.",
       },
       {
-        question: "When does Medicare start for someone on disability?",
+        question: "When Does Medicare Start for Someone on Disability?",
         answer: "If you receive SSDI, Medicare coverage begins automatically on the 25th month of your SSDI entitlement. The exception is ALS — if you have ALS, Medicare begins the same month your SSDI benefits start, with no waiting period.",
       },
       {
@@ -31123,7 +31123,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Yes, if you or your spouse has active employer-sponsored coverage through an employer with 20 or more employees, you can delay Medicare enrollment without penalty. You'll have a Special Enrollment Period to sign up after that coverage ends. COBRA and retiree insurance do not count as qualifying coverage for this purpose.",
       },
       {
-        question: "When does Part D (prescription drug coverage) start?",
+        question: "When Does Part D (Prescription Drug Coverage) Start?",
         answer: "Part D coverage starts based on the same enrollment period rules as Part B. If you enroll in a Part D plan during the first three months of your IEP, coverage begins on the first of your birthday month. Enrolling later shifts the start date forward. Late enrollment penalties apply if you go more than 63 days without creditable drug coverage.",
       },
     ],
@@ -31165,7 +31165,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "part-d-formulary",
     seo: {
-      title: "Medicare Part D Formulary: What It Is and How It Works",
+      title: "Medicare Part D Formulary: What it is and How it Works",
       description: "A Medicare Part D formulary is the list of prescription drugs your plan covers. Learn how formularies are structured, what drug tiers mean, and how to request an exception if your drug isn't covered.",
       canonical: "https://www.medicarefaq.com/faqs/part-d-formulary/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-the-Medicare-Part-D-Formulary.jpg",
@@ -31277,7 +31277,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Always Check Before Filling",
+          title: "Always Check before Filling",
           text: "Before starting a new prescription, use your plan's online drug lookup tool or call member services to confirm the drug is on your formulary and check for any prior authorization or step therapy requirements. Surprises at the pharmacy can be expensive.",
         },
       },
@@ -31308,7 +31308,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "Tier exceptions can significantly reduce your out-of-pocket costs",
         },
         {
-          title: "Switch Plans During Open Enrollment",
+          title: "Switch Plans during Open Enrollment",
           text: "If your current plan doesn't cover your drugs well, the Annual Enrollment Period (October 15 – December 7) is your opportunity to switch to a plan with a better formulary. Use Medicare's Plan Finder tool at Medicare.gov to compare plans based on your specific medications.",
           highlight: "Use Medicare's Plan Finder to compare formularies before switching",
         },
@@ -31336,7 +31336,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "What is a Medicare Part D formulary?",
+        question: "What is a Medicare Part D Formulary?",
         answer: "A formulary is the official list of prescription drugs covered by your Medicare Part D plan. Drugs are organized into tiers, with lower tiers costing less. Each plan has its own formulary, so coverage and costs vary between plans.",
       },
       {
@@ -31344,19 +31344,19 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "You can request a formulary exception. Your doctor must submit documentation explaining why the non-formulary drug is medically necessary. Plans must respond within 72 hours for standard requests. If denied, you have the right to appeal.",
       },
       {
-        question: "Can my plan change its formulary during the year?",
+        question: "Can My Plan Change its Formulary during the Year?",
         answer: "Yes, but plans must give you at least 60 days' notice before removing a drug from the formulary or moving it to a higher tier mid-year. If you are currently taking the drug, your plan must provide a 60-day supply at the old cost-sharing while you transition.",
       },
       {
-        question: "What are the six protected drug classes?",
+        question: "What are the Six Protected Drug Classes?",
         answer: "CMS requires Part D plans to cover substantially all drugs in six protected classes: antidepressants, antipsychotics, anticonvulsants, immunosuppressants, antiretrovirals, and antineoplastics. These protections exist because restricting access to these drugs could have serious health consequences.",
       },
       {
-        question: "How do I find out what tier my drug is on?",
+        question: "How do I Find out What Tier My Drug is On?",
         answer: "You can look up your drug on your plan's website formulary search tool, call your plan's member services line, or use Medicare's Plan Finder at Medicare.gov. The Plan Finder also lets you compare drug costs across multiple plans.",
       },
       {
-        question: "What is step therapy in Medicare Part D?",
+        question: "What is Step Therapy in Medicare Part D?",
         answer: "Step therapy requires you to try a lower-cost drug (usually a generic) before your plan will cover a more expensive alternative. If the first-line drug doesn't work for you or causes side effects, your doctor can request a step therapy exception to access the preferred drug.",
       },
     ],
@@ -31369,7 +31369,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "dollar", text: "Specialty drugs (Tier 5) can cost 25–33% coinsurance per fill" },
     ],
     relatedTopics: [
-      { title: "How Is Medicare Part D Changing in 2026?", description: "Key changes to Part D benefits, costs, and the $2,000 out-of-pocket cap.", slug: "how-is-medicare-part-d-changing-in-2026" },
+      { title: "How is Medicare Part D Changing in 2026?", description: "Key changes to Part D benefits, costs, and the $2,000 out-of-pocket cap.", slug: "how-is-medicare-part-d-changing-in-2026" },
       { title: "MAPD vs. PDP: Part D Options Explained", description: "Compare standalone Part D plans vs. Medicare Advantage drug coverage.", slug: "mapd-vs-part-d" },
       { title: "Six Protected Classes in Medicare Part D", description: "Why CMS requires broad coverage for six critical drug categories.", slug: "six-protected-classes" },
       { title: "Medicare Part D Explained", description: "Complete guide to how Medicare prescription drug coverage works.", slug: "medicare-part-d-explained" },
@@ -31382,7 +31382,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "six-protected-classes",
     ],
     ctaBanner: {
-      title: "Questions About Your Part D Coverage?",
+      title: "Questions about Your Part D Coverage?",
       text: "A licensed Medicare specialist can help you review your formulary, compare plans, and find the best prescription drug coverage for your medications.",
     },
     relatedSlugs: [
@@ -31397,13 +31397,13 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-replacement-plans",
     seo: {
-      title: "Medicare Replacement Plans: What They Are and How They Work",
+      title: "Medicare Replacement Plans: What They are and How They Work",
       description: "Medicare replacement plans — officially called Medicare Advantage plans — replace Original Medicare with private insurance coverage. Learn how they work, what they cover, and whether one is right for you.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-replacement-plans/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-replacement-plans.jpg",
     },
-    title: "What Is a Medicare Replacement Plan?",
-    subtitle: "How Medicare Advantage Plans Replace Original Medicare — and What That Means for You",
+    title: "What is a Medicare Replacement Plan?",
+    subtitle: "How Medicare Advantage Plans Replace Original Medicare —— and What that Means for You",
     category: "Medicare Advantage",
     dateUpdated: "April 30, 2026",
     author: {
@@ -31487,7 +31487,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "$ Cost: Many Medicare Advantage plans have $0 monthly premiums (you still pay your Part B premium). Copays, coinsurance, and deductibles vary by plan. All plans have an annual out-of-pocket maximum.",
       },
       {
-        planName: "Medicare Advantage vs. Original Medicare + Medigap",
+        planName: "Medicare Advantage vs. Original Medicare ++ Medigap",
         icon: "BarChart",
         iconColor: "text-indigo-600",
         coverageLabel: "Key Trade-offs",
@@ -31514,7 +31514,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Medicare Advantage vs. Original Medicare + Medigap (2026)",
+      title: "Medicare Advantage vs. Original Medicare ++ Medigap (2026)",
       headers: ["Feature", "Medicare Advantage", "Original Medicare + Medigap"],
       rows: [
         { "Feature": "Monthly premium", "Medicare Advantage": "Often $0 (+ Part B premium)", "Original Medicare + Medigap": "Part B premium + Medigap premium ($100–$300+/mo)" },
@@ -31529,7 +31529,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs and benefits vary by plan and location. Compare plans at Medicare.gov or speak with a licensed Medicare specialist.",
     },
     exceptionsSection: {
-      title: "Important Rules About Medicare Replacement Plans",
+      title: "Important Rules about Medicare Replacement Plans",
       items: [
         {
           title: "You Must Keep Part B",
@@ -31542,7 +31542,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "Switching back to Original Medicare may make Medigap harder to obtain",
         },
         {
-          title: "Emergency Care Is Always Covered",
+          title: "Emergency Care is Always Covered",
           text: "Medicare Advantage plans must cover emergency care anywhere in the United States, regardless of network. If you have a medical emergency, you can go to the nearest emergency room and your plan must cover it at in-network cost-sharing rates.",
           highlight: "Emergency care is always covered — no prior authorization required",
         },
@@ -31555,7 +31555,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "Original Medicare with a Medigap supplement may be a better fit if you have complex medical needs, see multiple specialists, travel frequently, or want the freedom to see any Medicare-accepting provider without referrals or prior authorization. The higher monthly premiums for Medigap can be offset by more predictable out-of-pocket costs.",
       ],
       checklist: {
-        title: "Questions to Ask Before Choosing",
+        title: "Questions to Ask before Choosing",
         type: "search",
         items: [
           "Are my current doctors and specialists in the plan's network?",
@@ -31570,27 +31570,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Is a Medicare replacement plan the same as Medicare Advantage?",
+        question: "Is a Medicare Replacement Plan the Same as Medicare Advantage?",
         answer: "Yes. 'Medicare replacement plan' is an informal term for Medicare Advantage (Part C). These are private insurance plans approved by Medicare that replace Original Medicare as your primary coverage.",
       },
       {
-        question: "Do I lose my Medicare if I enroll in a replacement plan?",
+        question: "Do I Lose My Medicare if I Enroll in a Replacement Plan?",
         answer: "No. You remain a Medicare beneficiary and keep your Medicare number. The private plan manages your benefits on Medicare's behalf, but you are still enrolled in Medicare and must continue paying your Part B premium.",
       },
       {
-        question: "Can I have both a Medicare replacement plan and a Medigap plan?",
+        question: "Can I Have Both a Medicare Replacement Plan and a Medigap Plan?",
         answer: "No. Medigap plans are designed to work with Original Medicare, not Medicare Advantage. You cannot use a Medigap plan to cover cost-sharing in a Medicare Advantage plan. You must choose one path: Original Medicare + Medigap, or Medicare Advantage.",
       },
       {
-        question: "What happens if I see an out-of-network doctor with a Medicare Advantage plan?",
+        question: "What Happens if I See an Out-of-network Doctor with a Medicare Advantage Plan?",
         answer: "It depends on your plan type. HMO plans generally do not cover out-of-network care except in emergencies. PPO plans allow out-of-network care but at a higher cost-sharing rate. Always check your plan's network before scheduling non-emergency care.",
       },
       {
-        question: "Can I switch from Medicare Advantage back to Original Medicare?",
+        question: "Can I Switch from Medicare Advantage Back to Original Medicare?",
         answer: "Yes, during the Annual Enrollment Period (October 15 – December 7) or the Medicare Advantage Open Enrollment Period (January 1 – March 31). Be aware that if you switch back, you may face medical underwriting to get a Medigap plan in most states.",
       },
       {
-        question: "Do Medicare replacement plans cover prescription drugs?",
+        question: "Do Medicare Replacement Plans Cover Prescription Drugs?",
         answer: "Most Medicare Advantage plans include Part D prescription drug coverage (called MAPD plans). If your plan includes drug coverage, you do not need a separate Part D plan. A small number of Medicare Advantage plans do not include drug coverage — check your plan's details.",
       },
     ],
@@ -31629,12 +31629,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medical-rides",
     seo: {
-      title: "Does Medicare Cover Medical Transportation? Rides, Ambulance & More",
+      title: "Does Medicare Cover Medical Transportation? Rides, Ambulance && More",
       description: "Learn what Medicare covers for medical transportation — including ambulance rides, non-emergency medical transport, and Medicare Advantage ride benefits — and what you'll pay out of pocket.",
       canonical: "https://www.medicarefaq.com/faqs/medical-rides/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/transportation-services.jpg",
     },
-    title: "Medicare Coverage for Medical Rides & Transportation",
+    title: "Medicare Coverage for Medical Rides && Transportation",
     subtitle: "What Medicare Pays for Ambulance Services, Non-Emergency Transport, and MA Ride Benefits",
     category: "Medicare Benefits",
     dateUpdated: "April 30, 2026",
@@ -31691,7 +31691,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Air Ambulance Costs Can Be Very High",
+          title: "Air Ambulance Costs Can be Very High",
           text: "Air ambulance rides can cost $20,000–$50,000 or more. Medicare covers 80% of the approved amount after your deductible, but the approved amount may be far less than the actual bill. Always verify that the air ambulance provider accepts Medicare assignment to avoid balance billing.",
         },
         costNote: "$ Cost: 20% coinsurance after the Part B deductible ($257 in 2026). Medigap covers this coinsurance for most plan types.",
@@ -31720,7 +31720,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Prior Authorization May Be Required",
+          title: "Prior Authorization May be Required",
           text: "For non-emergency ambulance transport, Medicare may require prior authorization in certain geographic areas. Your ambulance provider should handle this, but it is worth confirming before scheduling a non-emergency transport to avoid unexpected denials.",
         },
         costNote: "$ Cost: 20% coinsurance after the Part B deductible, same as emergency ambulance — but only if Medicare approves the transport as medically necessary.",
@@ -31778,7 +31778,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "Many MA plans specifically include dialysis transportation as a covered NEMT benefit",
         },
         {
-          title: "Dual-Eligible Beneficiaries (Medicare + Medicaid)",
+          title: "Dual-Eligible Beneficiaries (Medicare ++ Medicaid)",
           text: "If you qualify for both Medicare and Medicaid, Medicaid may cover non-emergency medical transportation that Medicare does not. Medicaid NEMT programs vary by state but often cover rides to any Medicaid-covered service. Dual-eligible Special Needs Plans (D-SNPs) also frequently include robust transportation benefits.",
           highlight: "Medicaid may cover NEMT for dual-eligible beneficiaries — check your state's program",
         },
@@ -31811,27 +31811,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does Medicare cover rides to doctor appointments?",
+        question: "Does Medicare Cover Rides to Doctor Appointments?",
         answer: "Original Medicare does not cover routine rides to doctor appointments. However, many Medicare Advantage plans include non-emergency medical transportation (NEMT) as an extra benefit that covers rides to covered medical appointments. Check your plan's Evidence of Coverage to see if this benefit is included.",
       },
       {
-        question: "Does Medicare cover ambulance rides?",
+        question: "Does Medicare Cover Ambulance Rides?",
         answer: "Yes. Medicare Part B covers emergency ambulance transportation when medically necessary. Non-emergency ambulance transport is also covered, but only when your condition requires ambulance-level care and other transportation would be medically contraindicated. You pay 20% coinsurance after the Part B deductible.",
       },
       {
-        question: "How much does Medicare pay for an ambulance?",
+        question: "How Much Does Medicare Pay for an Ambulance?",
         answer: "Medicare Part B pays 80% of the Medicare-approved amount for covered ambulance services after you meet your Part B deductible ($257 in 2026). You are responsible for the remaining 20%. If you have a Medigap plan, it typically covers that 20%. If the ambulance provider does not accept Medicare assignment, you may owe more.",
       },
       {
-        question: "What is non-emergency medical transportation (NEMT)?",
+        question: "What is Non-emergency Medical Transportation (NEMT)?",
         answer: "NEMT refers to transportation to medical appointments that does not require ambulance-level care — such as rides to doctor visits, dialysis, physical therapy, or the pharmacy. Original Medicare does not cover NEMT, but many Medicare Advantage plans include it as an extra benefit.",
       },
       {
-        question: "Does Medicare Advantage cover medical rides?",
+        question: "Does Medicare Advantage Cover Medical Rides?",
         answer: "Many Medicare Advantage plans include NEMT as an extra benefit, providing a set number of rides per year to covered medical appointments. Benefits vary by plan — some offer unlimited rides, others cap at 24–48 one-way trips per year. Check your specific plan's Evidence of Coverage for details.",
       },
       {
-        question: "Does Medicare cover wheelchair van transportation?",
+        question: "Does Medicare Cover Wheelchair Van Transportation?",
         answer: "Original Medicare does not cover wheelchair van or stretcher van transportation. Some Medicare Advantage plans may include this as part of their NEMT benefit. If you need wheelchair-accessible transportation, check your MA plan's benefits or contact your local Area Agency on Aging for community resources.",
       },
     ],
@@ -31858,7 +31858,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-meals-on-wheels",
     ],
     ctaBanner: {
-      title: "Looking for a Plan That Covers Medical Rides?",
+      title: "Looking for a Plan that Covers Medical Rides?",
       text: "Many Medicare Advantage plans include free transportation to medical appointments. A licensed Medicare specialist can help you find a plan with the transportation benefits you need.",
     },
     relatedSlugs: [
@@ -31873,7 +31873,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-supplement-plans-and-pre-existing-conditions",
     seo: {
-      title: "Medigap & Pre-Existing Conditions: What You Need to Know (2026)",
+      title: "Medigap && Pre-Existing Conditions: What You Need to Know (2026)",
       description: "Can you get a Medicare Supplement plan if you have pre-existing conditions? Learn when Medigap insurers can deny coverage or impose waiting periods — and how guaranteed issue rights protect you.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-supplement-plans-and-pre-existing-conditions/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-supplement-pre-existing-conditions.jpg",
@@ -31940,7 +31940,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "$ During your OEP, premiums are based on your age and location only — not your health. Applying during this window is almost always the lowest-cost option for people with pre-existing conditions.",
       },
       {
-        planName: "Guaranteed Issue Rights (Outside OEP)",
+        planName: "Guaranteed Issue Rights (outside OEP)",
         icon: "Shield",
         iconColor: "text-blue-600",
         coverageLabel: "Guaranteed Issue — Specific Situations Only",
@@ -31969,7 +31969,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "$ Guaranteed issue rights protect you from denial but do not cap premiums. Insurers can still charge age-based and location-based rates — they simply cannot add a health surcharge or deny you.",
       },
       {
-        planName: "Medical Underwriting (Outside OEP, No GI Rights)",
+        planName: "Medical Underwriting (outside OEP, No GI Rights)",
         icon: "ClipboardList",
         iconColor: "text-amber-600",
         coverageLabel: "Underwriting — Denial or Waiting Period Possible",
@@ -31990,7 +31990,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Common Conditions That Trigger Underwriting Denial",
+          title: "Common Conditions that Trigger Underwriting Denial",
           text: "Conditions that frequently lead to Medigap denial during underwriting include: heart disease, cancer (within the past 5–10 years), COPD, kidney disease, diabetes with complications, HIV/AIDS, and several others. Each insurer has its own underwriting guidelines — what one insurer declines, another may accept.",
         },
         costNote: "$ If you are declined by one insurer, try others — underwriting standards vary. Some insurers are more lenient with certain conditions. A licensed Medicare broker can help you identify which insurers are most likely to approve your application.",
@@ -32040,7 +32040,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Special Situations",
       items: [
         {
-          title: "Medicare Beneficiaries Under 65",
+          title: "Medicare Beneficiaries under 65",
           text: "Federal law does not require Medigap insurers to sell plans to Medicare beneficiaries under age 65 (those eligible due to disability or ESRD). However, about 30 states have laws requiring insurers to offer at least one Medigap plan to under-65 beneficiaries, though premiums can be significantly higher. Check your state's rules if you are under 65 and need Medigap coverage.",
           highlight: "About 30 states require at least one Medigap plan for under-65 beneficiaries — but premiums can be much higher",
         },
@@ -32050,7 +32050,7 @@ export const coverageArticles: CoverageArticleData[] = [
           highlight: "6+ months of prior creditable coverage may eliminate or shorten the Medigap waiting period",
         },
         {
-          title: "Switching Between Medigap Plans",
+          title: "Switching between Medigap Plans",
           text: "If you already have a Medigap plan and want to switch to a different plan or insurer, you will generally face medical underwriting outside of your OEP (unless a GI event applies or you are in a state with a birthday rule or continuous open enrollment). This means switching plans later in life — especially after developing health conditions — can be difficult or expensive.",
           highlight: "Switching Medigap plans outside your OEP usually requires passing medical underwriting in most states",
         },
@@ -32058,7 +32058,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Can I be denied a Medigap plan because of a pre-existing condition?",
+        question: "Can I be Denied a Medigap Plan Because of a Pre-existing Condition?",
         answer: "Yes — but only if you apply outside your Medigap Open Enrollment Period and no guaranteed issue event applies. During your OEP (the 6-month window starting when you turn 65 and enroll in Part B), insurers cannot deny you or charge you more for any health reason. Outside that window, most states allow medical underwriting, which can result in denial, higher premiums, or a waiting period.",
       },
       {
@@ -32066,19 +32066,19 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "The Medigap OEP is a 6-month window that begins the month you are both age 65 or older and enrolled in Medicare Part B. During this period, you have guaranteed issue rights — insurers must sell you any plan they offer at standard rates, regardless of your health history. This is the most important window for people with pre-existing conditions.",
       },
       {
-        question: "How long is the Medigap pre-existing condition waiting period?",
+        question: "How Long is the Medigap Pre-existing Condition Waiting Period?",
         answer: "If a Medigap insurer imposes a pre-existing condition waiting period, it can last up to 6 months. During this time, the plan will not cover costs related to the pre-existing condition — but Medicare Part A and Part B will still pay their share. After the waiting period, the plan covers all conditions normally.",
       },
       {
-        question: "What are guaranteed issue rights for Medigap?",
+        question: "What are Guaranteed Issue Rights for Medigap?",
         answer: "Guaranteed issue rights are specific situations in which Medigap insurers must sell you a plan without medical underwriting, even outside your OEP. Common examples include losing a Medicare Advantage plan because it leaves your area, losing employer-sponsored retiree coverage, or switching back from Medicare Advantage to Original Medicare within the first year. You typically have 63 days from the loss of coverage to use these rights.",
       },
       {
-        question: "Which states have birthday rules for Medigap?",
+        question: "Which States Have Birthday Rules for Medigap?",
         answer: "States with birthday rules (allowing you to switch Medigap plans without underwriting during a window around your birthday) include California, Florida, Oregon, Missouri, Idaho, Illinois, Louisiana, and Nevada, among others. States with continuous open enrollment (year-round guaranteed issue) include New York, Connecticut, Massachusetts, and Maine. Rules vary — check your state's current regulations.",
       },
       {
-        question: "Can I get Medigap if I have diabetes, heart disease, or cancer?",
+        question: "Can I Get Medigap if I Have Diabetes, Heart Disease, or Cancer?",
         answer: "During your Medigap OEP, yes — insurers cannot deny you or charge you more for any condition, including diabetes, heart disease, or cancer. Outside your OEP, these conditions often trigger denial or waiting periods during medical underwriting. If you are outside your OEP, consider working with a licensed Medicare broker who knows which insurers have more lenient underwriting standards.",
       },
     ],
@@ -32126,7 +32126,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/top-10-medicare-supplement-companies.jpg",
     },
     title: "Top 10 Medicare Supplement Insurance Companies in 2026",
-    subtitle: "How to Compare Medigap Carriers — Financial Strength, Pricing, Plan Availability, and More",
+    subtitle: "How to Compare Medigap Carriers —— Financial Strength, Pricing, Plan Availability, and More",
     category: "Medicare Supplements",
     dateUpdated: "April 30, 2026",
     author: {
@@ -32165,7 +32165,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Why Medigap Benefits Are Standardized",
+        planName: "Why Medigap Benefits are Standardized",
         icon: "BookOpen",
         iconColor: "text-teal-600",
         coverageLabel: "Same Benefits, Different Prices",
@@ -32185,7 +32185,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Same Benefits, Different Prices — Always Compare",
+          title: "Same Benefits, Different Prices —— Always Compare",
           text: "Because Plan G benefits are identical across all carriers, the only reason to pay more is if a higher-priced company offers meaningfully better service or financial stability. In most cases, shopping around can save hundreds of dollars per year with no difference in coverage.",
         },
         costNote: "$ Medigap premiums for the same plan letter can vary by 50% or more between carriers in the same zip code. Always compare at least 3–5 carriers before enrolling.",
@@ -32213,7 +32213,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Ask About Rate Increase History",
+          title: "Ask about Rate Increase History",
           text: "Before enrolling, ask the carrier or your broker for the plan's rate increase history over the past 5–10 years. A carrier with consistent 3–5% annual increases may be a better long-term value than one with a low initial premium but 8–10% annual increases.",
         },
         costNote: "$ Household discounts of 5–12% are available from most major carriers if you and a spouse or domestic partner both enroll. This can save $200–$500+ per year per person.",
@@ -32239,7 +32239,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "Attained-Age Pricing Can Be Costly Long-Term",
+          title: "Attained-Age Pricing Can be Costly Long-Term",
           text: "Attained-age-rated plans often look attractive at age 65 due to low initial premiums, but premiums can increase significantly by age 75–80. Over a 15-year period, an attained-age plan may cost more in total than a community-rated or issue-age plan, even if it starts cheaper.",
         },
         costNote: "$ When comparing carriers, ask specifically which pricing method they use. A licensed Medicare broker can run a long-term cost projection to show you total estimated premiums over 10–15 years under each pricing method.",
@@ -32266,7 +32266,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Important Considerations When Choosing a Carrier",
       items: [
         {
-          title: "Price Is Not the Only Factor",
+          title: "Price is not the Only Factor",
           text: "While premium cost is important, it should not be the only factor. A carrier with a slightly higher premium but a history of modest rate increases, strong financial ratings, and excellent customer service may be a better long-term value. Consider the total cost over 10–15 years, not just the first-year premium.",
           highlight: "Long-term rate increase history matters as much as the initial premium",
         },
@@ -32284,27 +32284,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Does it matter which Medigap company I choose?",
+        question: "Does it Matter Which Medigap Company I Choose?",
         answer: "For benefits, no — Medigap plan benefits are standardized by the federal government, so Plan G from any carrier covers the same services. What differs between carriers is price, financial stability, customer service, available discounts, and rate increase history. These differences can add up to thousands of dollars over the life of your policy.",
       },
       {
-        question: "Which Medicare Supplement company has the best rates?",
+        question: "Which Medicare Supplement Company Has the Best Rates?",
         answer: "The best rates depend on your age, location, gender, tobacco use, and the plan letter you choose. There is no single 'best' carrier for everyone. Rates can vary by 30–50% or more between carriers for the same plan in the same zip code. The only way to find the best rate for your specific situation is to compare quotes from multiple carriers.",
       },
       {
-        question: "What is the most popular Medicare Supplement plan?",
+        question: "What is the Most Popular Medicare Supplement Plan?",
         answer: "Plan G is currently the most popular Medigap plan for new enrollees. It covers all Medicare-approved costs except the Part B deductible ($257 in 2026), making it one of the most comprehensive options available. Plan N is the second most popular, offering lower premiums in exchange for small copays at doctor visits and emergency rooms.",
       },
       {
-        question: "Is AARP Medicare Supplement a good plan?",
+        question: "Is AARP Medicare Supplement a Good Plan?",
         answer: "AARP/UnitedHealthcare is the largest Medigap insurer in the U.S. and offers community-rated pricing in most states, which can be advantageous for older enrollees. It requires an AARP membership ($16/year). Premiums are competitive in many markets but not always the lowest. It is a solid choice, but you should always compare it against other carriers in your area.",
       },
       {
-        question: "Can I switch Medicare Supplement companies?",
+        question: "Can I Switch Medicare Supplement Companies?",
         answer: "Yes, but switching outside your Medigap OEP typically requires passing medical underwriting in most states. If you have developed health conditions since you first enrolled, you may be denied or charged more. Some states (California, Florida, Oregon, and others) have birthday rules that allow annual switching without underwriting. Always check your state's rules before attempting to switch.",
       },
       {
-        question: "How do I compare Medicare Supplement insurance companies?",
+        question: "How do I Compare Medicare Supplement Insurance Companies?",
         answer: "To compare Medigap companies effectively: (1) Get quotes for the same plan letter from at least 3–5 carriers in your area. (2) Check each carrier's AM Best financial strength rating (look for A- or higher). (3) Ask about the pricing method (community-rated, issue-age, or attained-age). (4) Ask for the carrier's rate increase history over the past 5–10 years. (5) Check NAIC complaint ratios. A licensed Medicare broker can do this comparison for you at no cost.",
       },
     ],
@@ -32331,7 +32331,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
     ],
     ctaBanner: {
-      title: "Compare Medigap Rates From Top Carriers",
+      title: "Compare Medigap Rates from Top Carriers",
       text: "A licensed Medicare specialist can compare rates from all major Medigap carriers in your area — at no cost to you. Find the best plan and price for your situation.",
     },
     relatedSlugs: [
@@ -32352,7 +32352,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/do-i-really-need-supplemental-insurance-with-medicare.jpg",
     },
     title: "Do I Really Need Supplemental Insurance with Medicare?",
-    subtitle: "What Original Medicare Leaves Uncovered — and How to Decide If a Supplement Is Worth It",
+    subtitle: "What Original Medicare Leaves Uncovered —— and How to Decide if a Supplement is Worth It",
     category: "Medicare Supplements",
     dateUpdated: "April 30, 2026",
     author: {
@@ -32385,7 +32385,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "What Original Medicare Does NOT Cover",
+        planName: "What Original Medicare Does not Cover",
         icon: "AlertCircle",
         iconColor: "text-red-600",
         coverageLabel: "Significant Gaps in Coverage",
@@ -32411,13 +32411,13 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "warning",
-          title: "No Out-of-Pocket Maximum Is a Major Risk",
+          title: "No Out-of-Pocket Maximum is a Major Risk",
           text: "The single biggest financial risk of Original Medicare alone is the absence of an out-of-pocket maximum. A serious illness — cancer, heart disease, a major surgery — can result in tens of thousands of dollars in 20% coinsurance charges. Supplemental coverage eliminates or caps this risk.",
         },
         costNote: "$ Example: A $50,000 hospitalization + $100,000 in Part B services = $20,000+ in out-of-pocket costs under Original Medicare alone, with no cap.",
       },
       {
-        planName: "Option 1: Original Medicare + Medigap",
+        planName: "Option 1: Original Medicare ++ Medigap",
         icon: "Shield",
         iconColor: "text-teal-600",
         coverageLabel: "Fills Most or All Gaps — Predictable Costs",
@@ -32440,7 +32440,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Plan G Is the Most Popular Choice for New Enrollees",
+          title: "Plan G is the Most Popular Choice for New Enrollees",
           text: "Plan G is the most comprehensive Medigap plan available to new enrollees (Plan F is no longer available to those who became eligible after January 1, 2020). With Plan G, your only predictable out-of-pocket cost is the $257 Part B deductible. Everything else Medicare covers, Plan G covers the remainder.",
         },
         costNote: "$ Plan G premiums: typically $100–$250/month at age 65, depending on location and carrier. Add $20–$50/month for a Part D drug plan. Total supplemental cost: ~$120–$300/month for near-complete coverage.",
@@ -32489,10 +32489,10 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are approximate 2026 figures. Actual costs vary by location, carrier, plan, and utilization. Medigap premiums increase with age. Medicare Advantage benefits and costs vary by plan and change annually.",
     },
     exceptionsSection: {
-      title: "Who May Not Need a Supplement",
+      title: "Who May not Need a Supplement",
       items: [
         {
-          title: "Dual-Eligible Beneficiaries (Medicare + Medicaid)",
+          title: "Dual-Eligible Beneficiaries (Medicare ++ Medicaid)",
           text: "If you qualify for both Medicare and Medicaid, Medicaid typically covers most or all of Medicare's cost-sharing — including deductibles, coinsurance, and copays. You may not need a separate Medigap plan or Medicare Advantage plan. Contact your state Medicaid office to understand what is covered in your state.",
           highlight: "Medicaid can cover Medicare's gaps for low-income beneficiaries — a separate Medigap plan may not be needed",
         },
@@ -32510,7 +32510,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "Is Medicare supplemental insurance worth it?",
+        question: "Is Medicare Supplemental Insurance Worth It?",
         answer: "For most Medicare beneficiaries, yes. Original Medicare has no out-of-pocket maximum, meaning a serious illness can result in tens of thousands of dollars in costs. Supplemental coverage — either Medigap or Medicare Advantage — caps your financial exposure. Whether Medigap or Medicare Advantage is the better value depends on your health, budget, preferred doctors, and how much you value predictability vs. lower premiums.",
       },
       {
@@ -32518,11 +32518,11 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Without supplemental coverage, you are responsible for all of Original Medicare's cost-sharing: the Part B deductible, 20% coinsurance on all Part B services (with no cap), the Part A deductible per benefit period, and daily hospital coinsurance for extended stays. A serious illness or hospitalization can result in $10,000–$50,000+ in out-of-pocket costs with no upper limit.",
       },
       {
-        question: "What is the difference between Medigap and Medicare Advantage?",
+        question: "What is the Difference between Medigap and Medicare Advantage?",
         answer: "Medigap supplements Original Medicare by covering its cost-sharing gaps. You keep Original Medicare and add a Medigap plan on top. Medicare Advantage replaces Original Medicare with a private plan that includes an out-of-pocket maximum and often extra benefits. Medigap offers more predictable costs and no network restrictions; Medicare Advantage offers lower premiums and extra benefits but restricts you to a provider network.",
       },
       {
-        question: "How much does Medicare supplemental insurance cost?",
+        question: "How Much Does Medicare Supplemental Insurance Cost?",
         answer: "Medigap Plan G premiums typically range from $100–$250/month at age 65, depending on your location, carrier, and pricing method. Medicare Advantage plans often have $0 monthly premiums beyond the Part B premium ($185/month in 2026). The right choice depends on your health, how much care you use, and your financial priorities.",
       },
       {
@@ -32530,7 +32530,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Even if you are currently healthy, supplemental coverage protects you against unexpected medical events. A single serious diagnosis — cancer, a heart attack, a major accident — can result in enormous costs under Original Medicare alone. Most financial advisors recommend at least a Medicare Advantage plan for its out-of-pocket maximum, regardless of current health status.",
       },
       {
-        question: "When should I enroll in a Medicare supplement plan?",
+        question: "When Should I Enroll in a Medicare Supplement Plan?",
         answer: "The best time to enroll in a Medigap plan is during your Medigap Open Enrollment Period — the 6-month window that starts when you turn 65 and enroll in Part B. During this window, you have guaranteed issue rights and cannot be denied or charged more for pre-existing conditions. Waiting until after your OEP means you may face medical underwriting, which can result in denial or higher premiums.",
       },
     ],
@@ -32547,7 +32547,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Best Medicare Supplement Plans for 2026", description: "Compare Plan G, Plan N, and other top Medigap options to find the right coverage level.", slug: "what-is-the-best-medicare-supplement-plan" },
       { title: "Medicare Supplement vs. Medicare Advantage", description: "Side-by-side comparison of Medigap and Medicare Advantage to help you choose.", slug: "the-essentials-medicare-supplement-vs-medicare-advantage-explained" },
       { title: "10 Questions to Ask Before Buying a Medigap Plan", description: "Key questions to ask before enrolling in a Medicare Supplement plan.", slug: "10-questions-to-ask-before-buying-a-medicare-supplement-plan" },
-      { title: "What Is a Medicare Supplement Plan and Who Needs One?", description: "Overview of Medigap plans and who benefits most from supplemental coverage.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+      { title: "What is a Medicare Supplement Plan and Who Needs One?", description: "Overview of Medigap plans and who benefits most from supplemental coverage.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
     ],
     sidebarRelatedLinks: [
       "what-is-the-best-medicare-supplement-plan",
@@ -32557,7 +32557,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "why-medicare-supplements-offer-peace-of-mind",
     ],
     ctaBanner: {
-      title: "Not Sure If You Need a Supplement?",
+      title: "Not Sure if You Need a Supplement?",
       text: "A licensed Medicare specialist can review your situation and help you decide whether Medigap, Medicare Advantage, or Original Medicare alone makes the most sense for your health and budget.",
     },
     relatedSlugs: [
@@ -32635,7 +32635,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Always Check the Formulary Before Enrolling",
+          title: "Always Check the Formulary before Enrolling",
           text: "Before enrolling in any Part D plan, look up your specific medications on the plan's formulary at Medicare.gov or the plan's website. Verify the tier, any restrictions (prior authorization, step therapy), and the pharmacy network to estimate your true annual drug costs.",
         },
         costNote: "$ In 2026, the Part D out-of-pocket cap is $2,000. Once you reach $2,000 in out-of-pocket drug costs, you pay $0 for the rest of the year — a major improvement from prior years.",
@@ -32664,7 +32664,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "The $2,000 Cap Is New in 2026 — A Major Benefit",
+          title: "The $2,000 Cap is New in 2026 —— a Major Benefit",
           text: "Starting in 2026, there is a hard $2,000 annual out-of-pocket cap on Part D drug costs. This is a significant change from prior years when there was effectively no cap for most beneficiaries. Once you hit $2,000 in out-of-pocket costs, you pay $0 for covered drugs for the rest of the year.",
         },
         costNote: "$ IRMAA for Part D in 2026 ranges from $13.70 to $85.80/month added to your plan premium, depending on your income. Check your income bracket at Medicare.gov.",
@@ -32695,7 +32695,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "Extra Help Can Save Thousands Per Year",
+          title: "Extra Help Can Save Thousands per Year",
           text: "The Extra Help (Low Income Subsidy) program can reduce Part D premiums, deductibles, and copays to near zero for qualifying beneficiaries. In 2026, you may qualify if your annual income is below approximately $22,590 (individual) or $30,660 (couple). Apply through the Social Security Administration at ssa.gov or call 1-800-772-1213.",
         },
         costNote: "$ Mail-order pharmacies often provide a 90-day supply for the same cost as a 60-day retail supply — effectively a 33% savings on maintenance medications. Check if your plan has a preferred mail-order pharmacy.",
@@ -32718,7 +32718,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are 2026 figures. Actual plan premiums, deductibles, and copays vary by plan and location. Always verify with the specific plan before enrolling.",
     },
     exceptionsSection: {
-      title: "What to Do If Your Drug Is Not Covered",
+      title: "What to do if Your Drug is not Covered",
       items: [
         {
           title: "Request a Formulary Exception",
@@ -32739,27 +32739,27 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       {
-        question: "How can I lower my Medicare Part D costs?",
+        question: "How Can I Lower My Medicare Part D Costs?",
         answer: "The most effective ways to lower Part D costs are: (1) Compare plans every year during the AEP (Oct 15 – Dec 7) using Medicare.gov's Plan Finder with your specific drug list. (2) Ask your doctor about generic alternatives. (3) Use mail-order pharmacy for 90-day supplies of maintenance medications. (4) Apply for Extra Help if your income qualifies. (5) Use preferred pharmacies in your plan's network. (6) Review your formulary each fall before the AEP deadline.",
       },
       {
-        question: "What is the Part D out-of-pocket cap in 2026?",
+        question: "What is the Part D Out-of-pocket Cap in 2026?",
         answer: "In 2026, the Part D out-of-pocket cap is $2,000. Once you reach $2,000 in out-of-pocket drug costs for the year, you pay $0 for covered drugs for the remainder of the year. This is a significant improvement from prior years and provides important protection for beneficiaries with high drug costs.",
       },
       {
-        question: "What is the Extra Help program for Part D?",
+        question: "What is the Extra Help Program for Part D?",
         answer: "Extra Help (also called the Low Income Subsidy or LIS) is a federal program that helps low-income Medicare beneficiaries pay for Part D costs. If you qualify, Extra Help can reduce or eliminate your Part D premiums, deductibles, and copays. In 2026, you may qualify if your annual income is below approximately $22,590 (individual) or $30,660 (couple). Apply through the Social Security Administration at ssa.gov or call 1-800-772-1213.",
       },
       {
-        question: "Can I use GoodRx with Medicare Part D?",
+        question: "Can I Use GoodRx with Medicare Part D?",
         answer: "You can use GoodRx or other discount programs for drugs not covered by your Part D plan, but there is an important limitation: purchases made with discount cards do not count toward your Part D out-of-pocket cap ($2,000 in 2026). Use discount programs strategically for drugs not on your formulary, but for covered drugs, use your Part D plan to accumulate toward the cap.",
       },
       {
-        question: "When can I change my Part D plan?",
+        question: "When Can I Change My Part D Plan?",
         answer: "You can change your Part D plan during the Annual Enrollment Period (October 15 – December 7 each year), with changes taking effect January 1. You can also change during a Special Enrollment Period if you qualify (e.g., you move, lose other coverage, or qualify for Extra Help). Outside of these periods, you generally cannot switch plans.",
       },
       {
-        question: "What is a Part D formulary exception?",
+        question: "What is a Part D Formulary Exception?",
         answer: "A formulary exception is a request to have your insurance plan cover a drug that is not on its formulary (or to cover it at a lower tier's cost-sharing). To request an exception, your doctor must submit documentation showing the drug is medically necessary and that covered alternatives are not appropriate. The plan must respond within 72 hours (24 hours for urgent requests). If denied, you have the right to appeal.",
       },
     ],
@@ -32774,7 +32774,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     relatedTopics: [
       { title: "Part D Formulary: How Drug Tiers Work", description: "Understand how Part D formularies are structured and what to do if your drug isn't covered.", slug: "part-d-formulary" },
-      { title: "Extra Help / Low Income Subsidy (LIS)", description: "Learn how to qualify for Extra Help and reduce your Part D costs to near zero.", slug: "extra-help-low-income-subsidy" },
+      { title: "Extra Help // Low Income Subsidy (LIS)", description: "Learn how to qualify for Extra Help and reduce your Part D costs to near zero.", slug: "extra-help-low-income-subsidy" },
       { title: "Medicare Annual Enrollment Period", description: "When and how to compare and switch Medicare plans during the AEP.", slug: "medicare-annual-enrollment-period" },
       { title: "How Can Seniors Save on Prescription Drug Costs?", description: "Strategies for reducing prescription drug costs beyond Medicare Part D.", slug: "how-can-seniors-save-on-prescription-drug-costs" },
     ],

@@ -108,7 +108,7 @@ export default function PrivacyPolicy() {
                 collected such information, please contact us immediately.
               </p>
 
-              <h2>10. Changes to This Policy</h2>
+              <h2>10. Changes to this Policy</h2>
               <p>
                 We may update this Privacy Policy from time to time. We will notify you of any changes
                 by posting the new Privacy Policy on this page and updating the "Last updated" date. You

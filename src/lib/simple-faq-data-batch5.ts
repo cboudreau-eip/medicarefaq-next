@@ -41,7 +41,7 @@ export const simpleFAQBatch5: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'What Are Lifetime Reserve Days?',
+        heading: 'What are Lifetime Reserve Days?',
         paragraphs: [
         ],
       },

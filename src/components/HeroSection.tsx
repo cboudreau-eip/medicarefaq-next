@@ -7,10 +7,10 @@ import ZipFormModal from "@/components/ZipFormModal";
 import { trackCtaClick } from "@/lib/analytics";
 
 const trustItems = [
-  { icon: Star, label: "BBB A+ Rated", sublabel: "Since 2015" },
-  { icon: MapPin, label: "Licensed in All 50 States", sublabel: "Full national coverage" },
-  { icon: Users, label: "2,000,000+ Americans Helped", sublabel: "Medicare guidance" },
-  { icon: FileCheck, label: "Editorially Reviewed", sublabel: "By Medicare professionals" },
+  { icon: Star, label: "BBB a+ Rated", sublabel: "Since 2015" },
+  { icon: MapPin, label: "Licensed in All 50 States", sublabel: "Full National Coverage" },
+  { icon: Users, label: "2,000,000+ Americans Helped", sublabel: "Medicare Guidance" },
+  { icon: FileCheck, label: "Editorially Reviewed", sublabel: "By Medicare Professionals" },
 
 ];
 
@@ -82,7 +82,7 @@ export default function HeroSection() {
             </Link>
             <Link
               href="/enrollment/working-past-65"
-              onClick={() => trackCtaClick({ button_label: "Working Past 65", destination: "/enrollment/working-past-65", page_section: "hero" })}
+              onClick={() => trackCtaClick({ button_label: "Working past 65", destination: "/enrollment/working-past-65", page_section: "hero" })}
               className="group inline-flex items-center justify-between gap-3 bg-[#D97706] hover:bg-[#B45309] text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#D97706]/25 text-sm flex-1"
             >
               <div className="flex flex-col">

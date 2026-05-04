@@ -9,8 +9,8 @@ import {
 } from "lucide-react";
 
 const tableOfContents = [
-  { id: "overview", label: "What Is Part A?" },
-  { id: "coverage", label: "What Part A Covers" },
+  { id: "overview", label: "What is Part A?" },
+  { id: "coverage", label: "What Part a Covers" },
   { id: "costs", label: "2026 Costs" },
   { id: "eligibility", label: "Who Qualifies" },
   { id: "enrollment", label: "When to Enroll" },
@@ -127,7 +127,7 @@ export default function PageContent() {
 
         <article className="flex-1 min-w-0 space-y-12">
           <section id="overview">
-            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Is Medicare Part A?</h2>
+            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What is Medicare Part A?</h2>
             <p className="text-gray-700 leading-relaxed mb-4">Medicare Part A is the hospital insurance component of Original Medicare. It covers inpatient care in hospitals, skilled nursing facilities, and hospice programs, as well as some home health services. Part A is one of two parts of Original Medicare — the other being Part B, which covers outpatient medical services.</p>
             <p className="text-gray-700 leading-relaxed mb-4">Most people who are 65 or older and have worked for at least 10 years (40 quarters) paying Medicare taxes receive Part A without paying a monthly premium. This is often called "premium-free Part A." If you don't meet the work history requirement, you can still enroll in Part A by paying a monthly premium.</p>
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
@@ -142,7 +142,7 @@ export default function PageContent() {
           </section>
 
           <section id="coverage">
-            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Medicare Part A Covers</h2>
+            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Medicare Part a Covers</h2>
             <div className="grid gap-3">
               {coverageItems.map((item, i) => (
                 <div key={i} className={`flex items-start gap-3 p-4 rounded-lg border ${item.covered ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200"}`}>
@@ -154,8 +154,8 @@ export default function PageContent() {
           </section>
 
           <section id="costs">
-            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">2026 Medicare Part A Costs</h2>
-            <h3 className="text-lg font-semibold text-gray-800 mb-3">Hospital Inpatient Costs (Per Benefit Period)</h3>
+            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">2026 Medicare Part a Costs</h2>
+            <h3 className="text-lg font-semibold text-gray-800 mb-3">Hospital Inpatient Costs (per Benefit Period)</h3>
             <div className="overflow-x-auto mb-8">
               <table className="w-full border-collapse text-sm">
                 <thead><tr className="bg-[#1B3A6B] text-white"><th className="text-left p-3 rounded-tl-lg">Hospital Days</th><th className="text-left p-3">Your Cost</th><th className="text-left p-3 rounded-tr-lg">Coverage Status</th></tr></thead>
@@ -207,9 +207,9 @@ export default function PageContent() {
             <div className="space-y-4">
               {[
                 { icon: Clock, title: "Age 65 with Work History", desc: "You or your spouse worked and paid Medicare taxes for at least 10 years (40 quarters). You receive premium-free Part A." },
-                { icon: Heart, title: "Disability (Under 65)", desc: "You've received Social Security Disability Insurance (SSDI) benefits for 24 consecutive months. Enrollment is automatic." },
+                { icon: Heart, title: "Disability (under 65)", desc: "You've received Social Security Disability Insurance (SSDI) benefits for 24 consecutive months. Enrollment is automatic." },
                 { icon: Shield, title: "ESRD or ALS", desc: "You have End-Stage Renal Disease (permanent kidney failure requiring dialysis or transplant) or ALS (Lou Gehrig's disease) at any age." },
-                { icon: DollarSign, title: "Premium Part A (No Work History)", desc: "If you don't meet the work history requirement, you can buy Part A. In 2026: $311/month (30–39 quarters) or $565/month (fewer than 30 quarters)." },
+                { icon: DollarSign, title: "Premium Part a (No Work History)", desc: "If you don't meet the work history requirement, you can buy Part A. In 2026: $311/month (30–39 quarters) or $565/month (fewer than 30 quarters)." },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-200">
                   <div className="bg-[#1B3A6B]/10 rounded-lg p-2 shrink-0"><item.icon className="w-5 h-5 text-[#1B3A6B]" /></div>
@@ -235,7 +235,7 @@ export default function PageContent() {
           </section>
 
           <section id="not-covered">
-            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Part A Doesn't Cover</h2>
+            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Part a Doesn't Cover</h2>
             <p className="text-gray-700 leading-relaxed mb-4">Medicare Part A has significant coverage gaps that can result in large out-of-pocket costs. Understanding these gaps is the first step toward choosing the right supplemental coverage.</p>
             <div className="grid md:grid-cols-2 gap-4">
               {[
@@ -276,7 +276,7 @@ export default function PageContent() {
             <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">Next Steps</h2>
             <div className="grid md:grid-cols-3 gap-4">
               {[
-                { title: "Learn About Part B", desc: "Understand outpatient medical coverage and the Part B premium.", href: "/original-medicare/medicare-parts/medicare-part-b", icon: FileText },
+                { title: "Learn about Part B", desc: "Understand outpatient medical coverage and the Part B premium.", href: "/original-medicare/medicare-parts/medicare-part-b", icon: FileText },
                 { title: "Add a Supplement Plan", desc: "Cover Part A deductibles and coinsurance with a Medigap plan.", href: "/medicare-supplements", icon: Shield },
                 { title: "Compare All Plans", desc: "See how Original Medicare compares to Medicare Advantage.", href: "/medicare-supplements", icon: ArrowRight },
               ].map((item, i) => (
@@ -294,7 +294,7 @@ export default function PageContent() {
       {/* CTA Banner */}
       <section className="bg-[#1B3A6B] text-white py-12 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-3">Questions About Your Part A Coverage?</h2>
+          <h2 className="text-2xl font-bold mb-3">Questions about Your Part a Coverage?</h2>
           <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand your costs, and find the right supplement plan to cover Part A gaps — at no cost to you.</p>
           <a href="tel:8883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_a" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
