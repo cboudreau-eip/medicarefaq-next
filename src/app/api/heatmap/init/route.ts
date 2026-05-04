@@ -1,19 +1,6 @@
 import { NextResponse } from "next/server";
 import { initHeatmapSchema } from "@/lib/heatmap/db";
 
-export async function GET(request: Request) {
-  // Debug endpoint — reveal enough to diagnose mismatch
-  const secret = process.env.HEATMAP_ADMIN_SECRET;
-  const headerSecret = request.headers.get("x-heatmap-secret");
-  return NextResponse.json({
-    envLoaded: !!secret,
-    envLength: secret ? secret.length : 0,
-    envValue: secret, // TEMPORARY — will remove after debugging
-    headerValue: headerSecret,
-    match: secret === headerSecret,
-  });
-}
-
 export async function POST(request: Request) {
   // Simple auth check — require a secret header
   const authHeader = request.headers.get("x-heatmap-secret");
