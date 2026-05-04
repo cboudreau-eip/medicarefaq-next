@@ -242,7 +242,7 @@ export default function About() {  return (
               viewport={{ once: true, margin: "-50px" }}
               variants={fadeUp}
               custom={0}
-              className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+              className="grid lg:grid-cols-2 gap-6 lg:gap-8 items-center"
             >
               {/* Text column */}
               <div>
@@ -282,7 +282,7 @@ export default function About() {  return (
                 <img
                   src="https://eliteinsurancepartners.com/wp-content/uploads/2023/02/Jagger-Esch-12-2023-1200-800.jpg"
                   alt="Jagger Esch — President & CEO of MedicareFAQ"
-                  className="w-full max-w-sm rounded-2xl shadow-xl object-cover"
+                  className="w-full max-w-md rounded-2xl shadow-xl object-cover"
                 />
               </div>
             </motion.div>
