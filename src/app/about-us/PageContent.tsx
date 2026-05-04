@@ -242,8 +242,10 @@ export default function About() {  return (
               viewport={{ once: true, margin: "-50px" }}
               variants={fadeUp}
               custom={0}
-              className="max-w-3xl"
+              className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center"
             >
+              {/* Text column */}
+              <div>
               <span className="inline-block text-xs font-semibold tracking-widest text-teal-600 uppercase mb-4">
                 Our Medicare Educator
               </span>
@@ -251,7 +253,7 @@ export default function About() {  return (
                 Jagger Esch
               </h2>
               <p className="text-lg text-slate-500 mb-6">
-                President & CEO of MedicareFAQ
+                President &amp; CEO of MedicareFAQ
               </p>
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
@@ -262,7 +264,7 @@ export default function About() {  return (
                   the Medicare insurance space.
                 </p>
                 <p>
-                  Jagger's unique perspective on how to best serve the client
+                  Jagger&apos;s unique perspective on how to best serve the client
                   while leading a successful team allows him to stand out from his
                   colleagues in the industry. His personal philosophy of always
                   putting the client first has allowed him to propel the company
@@ -273,11 +275,19 @@ export default function About() {  return (
                   the best policies for their needs without unnecessarily
                   upselling or steering clients towards unsuitable products.
                 </p>
+               </div>
+              </div>
+              {/* Photo column */}
+              <div className="flex justify-center lg:justify-end order-first lg:order-last">
+                <img
+                  src="https://eliteinsurancepartners.com/wp-content/uploads/2023/02/Jagger-Esch-12-2023-1200-800.jpg"
+                  alt="Jagger Esch — President & CEO of MedicareFAQ"
+                  className="w-full max-w-sm rounded-2xl shadow-xl object-cover"
+                />
               </div>
             </motion.div>
           </div>
         </section>
-
         {/* Core Values */}
         <section className="py-16 lg:py-24">
           <div className="max-w-6xl mx-auto px-4">
