@@ -214,7 +214,7 @@ export default function Footer() {
         </div>
       </div>
       {/* Bottom bar */}
-      <div className="border-t border-white/10">
+      <div className="border-t border-white/10" style={{ backgroundColor: "#111D30" }}>
         <div className="container py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/40">
           <p>
             &copy; 2026 MedicareFAQ.com &middot; Powered by Elite Insurance Partners, an
