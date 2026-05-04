@@ -37,8 +37,8 @@ const securityHeaders = [
       "font-src 'self' https://fonts.gstatic.com",
       // Allow GTM and GA images (pixel tracking)
       "img-src 'self' data: https: blob: https://www.googletagmanager.com https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com",
-      // Allow GTM iframe and YouTube embeds
-      "frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com",
+      // Allow GTM iframe, YouTube embeds, and self (for heatmap admin iframe viewer)
+      "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com",
       // Allow GA/GTM beacons and demographics redirect domains
       "connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com https://demographics.medicarecompared.com https://demographicsqa.medicarecompared.com",
       "media-src 'self' https:",
@@ -175,11 +175,20 @@ const nextConfig: NextConfig = {
     ];
   },
   async headers() {
+    // Security headers without X-Frame-Options restriction (for pages that embed iframes)
+    const securityHeadersIframeAllowed = securityHeaders.filter(
+      (h) => h.key !== "X-Frame-Options"
+    );
     return [
       {
         // Apply security headers to all routes
         source: "/(.*)",
         headers: securityHeaders,
+      },
+      {
+        // Admin heatmap dashboard needs to embed site pages in iframes — allow framing
+        source: "/admin/heatmap(.*)",
+        headers: securityHeadersIframeAllowed,
       },
     ];
   },
