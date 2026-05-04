@@ -130,7 +130,7 @@ export default function ZipFormModal({
     return () => window.removeEventListener("keydown", handler);
   }, [open]);
 
-  // ZIP lookup via zippopotam.us
+  // ZIP lookup via internal API route (server-side proxy to avoid CORS)
   const lookupZip = useCallback(async (value: string) => {
     if (value.length !== 5) {
       setZipStatus("idle");
@@ -141,16 +141,10 @@ export default function ZipFormModal({
     setCityState("");
     setError("");
     try {
-      const res = await fetch(`https://api.zippopotam.us/us/${value}`);
-      if (!res.ok) {
-        setZipStatus("invalid");
-        setError("ZIP code not found. Please check and try again.");
-        return;
-      }
+      const res = await fetch(`/api/validate-zip?zip=${value}`);
       const data = await res.json();
-      const place = data.places?.[0];
-      if (place) {
-        setCityState(`${place["place name"]}, ${place["state abbreviation"]}`);
+      if (data.valid) {
+        setCityState(data.city && data.state ? `${data.city}, ${data.state}` : "");
         setZipStatus("valid");
         setError("");
       } else {
@@ -158,9 +152,9 @@ export default function ZipFormModal({
         setError("ZIP code not found. Please check and try again.");
       }
     } catch {
-      // Network error — fall back to format-only validation so the form still works
-      setZipStatus("valid");
-      setCityState("");
+      // Network error — fail closed: mark invalid so bad ZIPs can't slip through
+      setZipStatus("invalid");
+      setError("Unable to validate ZIP. Please try again.");
     }
   }, []);
 
