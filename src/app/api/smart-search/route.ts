@@ -97,8 +97,9 @@ export async function POST(request: NextRequest) {
 
     const apiKey = process.env.ANTHROPIC_API_KEY;
     if (!apiKey) {
+      console.error("ANTHROPIC_API_KEY is not set. Available env keys:", Object.keys(process.env).filter(k => k.includes('ANTHRO') || k.includes('API')));
       return NextResponse.json(
-        { error: "Search is temporarily unavailable." },
+        { error: "Search is temporarily unavailable.", debug: "API key not found in environment" },
         { status: 500 }
       );
     }
@@ -134,8 +135,8 @@ export async function POST(request: NextRequest) {
       urlTitle: parsed.urlTitle ?? null,
       relatedLinks: parsed.relatedLinks ?? [],
     });
-  } catch (error) {
-    console.error("Smart search error:", error);
+  } catch (error: any) {
+    console.error("Smart search error:", error?.message || error);
     return NextResponse.json(
       {
         answer: "I'm having trouble processing your question right now. Please call (888) 335-8996 to speak with a licensed Medicare agent who can help.",
