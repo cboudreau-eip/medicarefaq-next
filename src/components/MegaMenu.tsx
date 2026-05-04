@@ -47,7 +47,7 @@ function MegaMenuPanel({
                         nav_section: `mega_menu_${category.title.toLowerCase().replace(/\s+/g, "_")}`,
                       });
                     }}
-                    className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#F5F7FA] transition-colors duration-150"
+                    className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#F5F7FA] transition-colors duration-150 min-h-[72px]"
                   >
                     <div
                       className="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5"
@@ -58,11 +58,11 @@ function MegaMenuPanel({
                     >
                       <Icon className="w-4 h-4" />
                     </div>
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <span className="font-semibold text-[#1B2A4A] text-[15px] group-hover:text-[#1B2A4A] block leading-tight">
                         {item.title}
                       </span>
-                      <span className="text-[13px] text-[#6B7280] mt-0.5 block leading-snug">
+                      <span className="text-[13px] text-[#6B7280] mt-0.5 block leading-snug line-clamp-2">
                         {item.description}
                       </span>
                     </div>
