@@ -198,8 +198,20 @@ export default function About() {  return (
                 viewport={{ once: true, margin: "-50px" }}
                 variants={fadeUp}
                 custom={1}
-                className="bg-slate-50 rounded-2xl p-8 lg:p-10"
+                className="flex flex-col gap-6"
               >
+                {/* YouTube video */}
+                <div className="rounded-2xl overflow-hidden shadow-lg aspect-video">
+                  <iframe
+                    src="https://www.youtube.com/embed/xXBDybFBeXE?rel=0"
+                    title="Top 5 Reasons To Use MedicareFAQ"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
+                </div>
+                {/* Company Snapshot */}
+                <div className="bg-slate-50 rounded-2xl p-8 lg:p-10">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center">
                     <Building2 className="w-5 h-5 text-amber-600" />
@@ -228,6 +240,7 @@ export default function About() {  return (
                     </div>
                   ))}
                 </dl>
+                </div>
               </motion.div>
             </div>
           </div>
