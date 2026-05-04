@@ -1,7 +1,7 @@
 /**
  * Simple FAQ Articles — Index
  * Re-exports all batches of scraped FAQ articles.
- * Total: 213 articles across 7 batches.
+ * Total: 214 articles across 8 batches.
  */
 
 import type { SimpleFAQArticleData } from "@/lib/article-types";
@@ -13,6 +13,7 @@ import { simpleFAQBatch4 } from "./simple-faq-data-batch4";
 import { simpleFAQBatch5 } from "./simple-faq-data-batch5";
 import { simpleFAQBatch6 } from "./simple-faq-data-batch6";
 import { simpleFAQBatch7 } from "./simple-faq-data-batch7";
+import { simpleFAQBatch8 } from "./simple-faq-data-batch8";
 
 export const simpleFAQArticles: SimpleFAQArticleData[] = [
   ...simpleFAQBatch1,
@@ -22,4 +23,5 @@ export const simpleFAQArticles: SimpleFAQArticleData[] = [
   ...simpleFAQBatch5,
   ...simpleFAQBatch6,
   ...simpleFAQBatch7,
+  ...simpleFAQBatch8,
 ];
