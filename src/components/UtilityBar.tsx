@@ -10,10 +10,10 @@ export default function UtilityBar() {
     <div className="bg-[#F5F7FA] border-b border-[#E5E7EB] text-sm hidden lg:block">
       <div className="container flex items-center justify-between h-9">
         <div className="flex items-center gap-5">
-          <span className="flex items-center gap-1.5 text-[#4B5563] font-medium">
+          <a href="https://www.bbb.org/us/fl/tampa/profile/insurance-services-office/elite-insurance-partners-llc-0653-90292738" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-[#4B5563] font-medium hover:text-[#D97706] transition-colors">
             <Star className="w-3.5 h-3.5 text-[#D97706] fill-[#D97706]" />
             BBB A+ Rated
-          </span>
+          </a>
           <a href="https://eliteinsurancepartners.com/team-members/?rl=agents" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-[#4B5563] font-medium hover:text-[#059669] transition-colors">
             <ShieldCheck className="w-3.5 h-3.5 text-[#059669]" />
             Licensed Agents
