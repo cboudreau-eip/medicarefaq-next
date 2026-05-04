@@ -14,10 +14,10 @@ export default function UtilityBar() {
             <Star className="w-3.5 h-3.5 text-[#D97706] fill-[#D97706]" />
             BBB A+ Rated
           </span>
-          <span className="flex items-center gap-1.5 text-[#4B5563] font-medium">
+          <a href="https://eliteinsurancepartners.com/team-members/?rl=agents" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-[#4B5563] font-medium hover:text-[#059669] transition-colors">
             <ShieldCheck className="w-3.5 h-3.5 text-[#059669]" />
             Licensed Agents
-          </span>
+          </a>
         </div>
         <nav className="flex items-center gap-5">
           {utilityLinks.map((link) => (
