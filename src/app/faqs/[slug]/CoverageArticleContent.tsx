@@ -287,12 +287,12 @@ function buildTOC(article: CoverageArticleData) {
     { id: "plan-breakdowns", label: "Understanding Coverage" },
   ];
   if (article.advantageSteps) toc.push({ id: "advantage-steps", label: "Finding the Right Plan" });
-  if (article.costTable) toc.push({ id: "costs", label: "Costs && Pricing" });
+  if (article.costTable) toc.push({ id: "costs", label: "Costs & Pricing" });
   if (article.exceptionsSection) toc.push({ id: "exceptions", label: "Important Exceptions" });
   if (article.legislativeUpdate) toc.push({ id: "legislative-update", label: "Legislative Update" });
   if (article.alternativesSection) toc.push({ id: "alternatives", label: "Alternatives" });
   if (article.relatedEquipment) toc.push({ id: "related-equipment", label: article.relatedEquipment.title });
-  if (article.medicaidSection) toc.push({ id: "medicaid-programs", label: "Medicaid && State Programs" });
+  if (article.medicaidSection) toc.push({ id: "medicaid-programs", label: "Medicaid & State Programs" });
   if (article.decisionSection) toc.push({ id: "making-decision", label: "Making the Decision" });
   toc.push({ id: "faqs", label: "FAQs" });
   toc.push({ id: "related-topics", label: "Related Topics" });

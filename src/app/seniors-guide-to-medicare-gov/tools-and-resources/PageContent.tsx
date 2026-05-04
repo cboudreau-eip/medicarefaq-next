@@ -24,7 +24,7 @@ const tools = [
   },
   {
     icon: FileText,
-    name: "Medicare && You Handbook",
+    name: "Medicare & You Handbook",
     url: "https://www.medicare.gov/medicare-and-you",
     desc: "The official Medicare handbook is updated each fall and mailed to all Medicare beneficiaries. It covers all parts of Medicare, costs, and coverage options for the coming year.",
     steps: [

@@ -453,7 +453,7 @@ export default function PageContent() {
           <p className="text-sm text-gray-700 mb-3">Our commitment is to provide you with accurate, trustworthy, and up-to-date information. Key resources we consult include:</p>
           <ul className="space-y-1">
             {[
-              { label: "Centers for Medicare && Medicaid Services (CMS)", href: "https://www.cms.gov/" },
+              { label: "Centers for Medicare & Medicaid Services (CMS)", href: "https://www.cms.gov/" },
               { label: "Social Security Administration (SSA)", href: "https://www.ssa.gov/medicare" },
               { label: "KFF (Kaiser Family Foundation)", href: "https://www.kff.org/topic/medicare/" },
             ].map((src, i) => (

@@ -24,7 +24,7 @@ const topics = [
     href: "/medicare-supplements",
   },
   {
-    title: "Coverage && Benefits",
+    title: "Coverage & Benefits",
     description:
       "What Medicare covers, what it doesn't, and how to fill the gaps.",
     icon: Shield,
@@ -33,7 +33,7 @@ const topics = [
     href: "/faqs",
   },
   {
-    title: "Enrollment && Eligibility",
+    title: "Enrollment & Eligibility",
     description:
       "When to enroll, how to enroll, and what happens if you miss it.",
     icon: Calendar,
@@ -42,7 +42,7 @@ const topics = [
     href: "/enrollment/turning-65",
   },
   {
-    title: "Costs && Savings",
+    title: "Costs & Savings",
     description:
       "Premiums, deductibles, out-of-pocket costs, and ways to save.",
     icon: DollarSign,

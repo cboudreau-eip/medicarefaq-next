@@ -44,9 +44,9 @@ const journeyPaths = [
     color: "#D97706",
     image: JOURNEY_WORKING,
     links: [
-      { label: "Medicare && Employer Coverage", href: "/enrollment/working-past-65" },
+      { label: "Medicare & Employer Coverage", href: "/enrollment/working-past-65" },
       { label: "When to Enroll if Working", href: "/faqs/when-should-you-enroll-in-medicare-if-still-working" },
-      { label: "HSA && Medicare Rules", href: "/enrollment/working-past-65#hsa-rules" },
+      { label: "HSA & Medicare Rules", href: "/enrollment/working-past-65#hsa-rules" },
       { label: "COBRA vs. Medicare", href: "/enrollment/working-past-65#cobra-vs-medicare" },
       { label: "Retirement Planning Guide", href: "/new-to-medicare/costs" },
     ] as JourneyLink[],
@@ -62,7 +62,7 @@ const journeyPaths = [
     links: [
       { label: "Compare Your Plan Options", href: "/compare-rates", isZipModal: true },
       { label: "Annual Enrollment Guide", href: "/enrollment/annual-changes" },
-      { label: "Switch Plans: When && How", href: "/enrollment/how-to-enroll" },
+      { label: "Switch Plans: When & How", href: "/enrollment/how-to-enroll" },
       { label: "Lower Your Costs", href: "/medicare-plans/costs" },
       { label: "Coverage Gaps to Watch", href: "/faqs" },
     ] as JourneyLink[],

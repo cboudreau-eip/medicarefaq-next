@@ -153,7 +153,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '13 min',
     sections: [
       {
-        heading: 'Medicare Cards && Medicare Beneficiary Identifiers',
+        heading: 'Medicare Cards & Medicare Beneficiary Identifiers',
         paragraphs: [
           'Updated on June 13, 2023',
           'To improve security and comply with the [Medicare Access and Chip Reauthorization Act](/blog/medicare-news), the [Center](/blog/5-things-to-do-after-you-receive-your-medicare-card)...',

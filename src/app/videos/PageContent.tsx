@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 
 const featuredVideo = {
-  title: "What is Covered by Medicare? (Parts a, B, C && D Explained)",
+  title: "What is Covered by Medicare? (Parts a, B, C & D Explained)",
   description: "Medicare is made up of 4 parts, each covering different benefits. Learn about each part of Medicare and what it covers in this comprehensive video breakdown.",
   duration: "12:34",
   date: "March 2026",

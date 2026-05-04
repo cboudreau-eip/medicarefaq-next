@@ -10,7 +10,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "how-to-sign-up-for-medicare",
     seo: {
-      title: "How to Sign up for Medicare || MedicareFAQ",
+      title: "How to Sign up for Medicare | MedicareFAQ",
       description: "Learn how to sign up for Medicare online, by phone, or in person. Understand enrollment periods, avoid late penalties, and choose the right coverage path for 2026.",
       canonical: "https://www.medicarefaq.com/blog/how-to-sign-up-for-medicare/",
       ogImage: "https://images.unsplash.com/photo-1664382950513-939431ef4e5c?auto=format&fit=crop&w=1200&q=80",
@@ -129,7 +129,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-costs-2026",
   seo: {
-    title: "Medicare Costs 2026 || MedicareFAQ",
+    title: "Medicare Costs 2026 | MedicareFAQ",
     description: "Learn about Medicare costs in 2026 including premiums, deductibles, and out-of-pocket expenses for Part A, Part B, Part C, and Part D.",
     canonical: "https://www.medicarefaq.com/blog/medicare-costs-2026/",
     ogImage: "https://images.pexels.com/photos/8439748/pexels-photo-8439748.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -179,7 +179,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "how-is-medicare-part-d-changing-in-2026",
   seo: {
-    title: "How is Medicare Part D Changing in 2026? || MedicareFAQ",
+    title: "How is Medicare Part D Changing in 2026? | MedicareFAQ",
     description: "This year, CMS has projected a decrease in Medicare Part D costs. Plus, learn about exciting news about major changes in Part D benefits.",
     canonical: "https://www.medicarefaq.com/blog/how-is-medicare-part-d-changing-in-2026/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/how-is-medicare-part-d-changing-in-2024.jpg",
@@ -236,7 +236,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
   seo: {
-    title: "The Essentials: Medicare Supplement vs. Medicare Advantage Explained || MedicareFAQ",
+    title: "The Essentials: Medicare Supplement vs. Medicare Advantage Explained | MedicareFAQ",
     description: "Deciding between Medicare Supplement (Medigap) and Medicare Advantage? Our clear guide explains the key differences in cost, doctor choice, travel coverage, and more to help you choose the right plan for your health and budget.",
     canonical: "https://www.medicarefaq.com/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained/",
     ogImage: "https://images.unsplash.com/photo-1758686254218-30e3abffba4e?w=1200&h=630&fit=crop",
@@ -301,7 +301,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
   seo: {
-    title: "Your Guide to Medicare Enrollment Periods: When to Sign up || MedicareFAQ",
+    title: "Your Guide to Medicare Enrollment Periods: When to Sign up | MedicareFAQ",
     description: "Understanding Medicare enrollment periods is crucial for timely coverage. Learn about Initial, General, Annual, and Special Enrollment Periods, Medigap options, and penalties.",
     canonical: "https://www.medicarefaq.com/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up/",
     ogImage: "https://images.pexels.com/photos/8815844/pexels-photo-8815844.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -458,7 +458,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Key Questions to Ask When Comparing Medicare Advantage Plans || MedicareFAQ",
+    title: "Key Questions to Ask When Comparing Medicare Advantage Plans | MedicareFAQ",
     description: "Discover the essential questions to ask when comparing Medicare Advantage Plans (MAPD). Learn how to choose the right plan for your doctors, hospitals, benefits, and medications.",
     canonical: "https://www.medicarefaq.com/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Key-Questions-to-Ask-When-Comparing-Medicare-Advantage-Plans.jpg",
@@ -541,7 +541,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Top 5 Medicare Annual Enrollment Mistakes to Avoid || MedicareFAQ",
+    title: "Top 5 Medicare Annual Enrollment Mistakes to Avoid | MedicareFAQ",
     description: "Learn the top 5 Medicare Annual Enrollment mistakes and how to avoid them. Review plans, compare drug coverage, and explore options to get the right coverage.",
     canonical: "https://www.medicarefaq.com/blog/the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/The-Top-5-Mistakes-People-Make-During-Medicare-Annual-Enrollment-and-How-to-Avoid-Them.jpg",
@@ -663,7 +663,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Understanding Medigap Premiums: Does a Higher Price Mean Better Coverage? || MedicareFAQ",
+    title: "Understanding Medigap Premiums: Does a Higher Price Mean Better Coverage? | MedicareFAQ",
     description: "Is a higher Medicare Supplement premium worth it? Learn why Medigap plan prices vary and if paying more actually means better coverage.",
     canonical: "https://www.medicarefaq.com/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-Medigap-Premiums-Does-a-Higher-Price-Mean-Better-Coverage.jpg",
@@ -718,7 +718,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "How Medigap Plans Affect Your Overall Medicare Costs || MedicareFAQ",
+    title: "How Medigap Plans Affect Your Overall Medicare Costs | MedicareFAQ",
     description: "Learn how Medigap plans help control your Medicare costs by covering deductibles and coinsurance. Compare plans to reduce your financial risk in 2026.",
     canonical: "https://www.medicarefaq.com/blog/how-medigap-plans-affect-your-overall-medicare-costs/",
     ogImage: "https://images.pexels.com/photos/8815888/pexels-photo-8815888.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -777,7 +777,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained || MedicareFAQ",
+    title: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained | MedicareFAQ",
     description: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained",
     canonical: "",
     ogImage: "",
@@ -839,7 +839,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained || MedicareFAQ",
+    title: "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained | MedicareFAQ",
     description: "Explore the differences between Medicare Supplement and Medicare Advantage plans, focusing on coverage transparency, costs, benefits, and provider access to help you make informed healthcare decisions.",
     canonical: "https://yourwebsite.com/medicare-advantage-vs-medigap",
     ogImage: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -1199,7 +1199,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Medicare Supplement and Pre-Existing Conditions: What You Need to Know || MedicareFAQ",
+    title: "Medicare Supplement and Pre-Existing Conditions: What You Need to Know | MedicareFAQ",
     description: "Learn everything you need to know about Medicare Supplement plans and pre-existing conditions. Discover enrollment timing, guaranteed issue rights, and how to protect your savings.",
     canonical: "https://www.medicarefaq.com/blog/medicare-supplement-and-pre-existing-conditions-what-you-need-to-know/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-and-Pre-Existing-Conditions-What-You-Need-to-Know.jpg",
@@ -1258,7 +1258,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "How the Medicare Part B Giveback Can Lower Your Monthly Costs || MedicareFAQ",
+    title: "How the Medicare Part B Giveback Can Lower Your Monthly Costs | MedicareFAQ",
     description: "Discover exactly how the Medicare Part B Giveback works to lower your monthly costs, who qualifies, and why Medicare Supplement plans often provide superior long-term protection.",
     canonical: "https://www.medicarefaq.com/blog/how-the-medicare-part-b-giveback-can-lower-your-monthly-costs/",
     ogImage: "https://images.unsplash.com/photo-1761839257647-df30867afd54?w=1200&h=630&fit=crop",
@@ -1311,7 +1311,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Medicare Advantage for Chronic Conditions: What You Need to Know || MedicareFAQ",
+    title: "Medicare Advantage for Chronic Conditions: What You Need to Know | MedicareFAQ",
     description: "Discover what you need to know about Medicare Advantage for chronic conditions, Special Needs Plans, and why Medicare Supplement products offer the best freedom for your health.",
     canonical: "https://www.medicarefaq.com/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Advantage-for-Chronic-Conditions-What-You-Need-to-Know.jpg",
@@ -1371,7 +1371,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Understanding How Medicare Works with Employer Health Plans || MedicareFAQ",
+    title: "Understanding How Medicare Works with Employer Health Plans | MedicareFAQ",
     description: "Discover exactly how Medicare works with your employer health plan. Learn about primary and secondary payer rules, when to enroll, and how Medicare Supplement plans can protect your savings.",
     canonical: "https://www.medicarefaq.com/blog/understanding-how-medicare-works-with-employer-health-plans/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-How-Medicare-Works-with-Employer-Health-Plans.jpg",
@@ -1427,7 +1427,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Why Medicare Supplements Offer Peace of Mind || MedicareFAQ",
+    title: "Why Medicare Supplements Offer Peace of Mind | MedicareFAQ",
     description: "Discover why Medicare Supplement plans offer ultimate peace of mind in retirement. Learn how Medigap provides predictable costs, nationwide doctor access, and lifestyle flexibility.",
     canonical: "https://www.medicarefaq.com/blog/why-medicare-supplements-offer-peace-of-mind/",
     ogImage: "https://images.pexels.com/photos/8815834/pexels-photo-8815834.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -1487,7 +1487,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Why Medicare Supplements Offer Network-Free Healthcare || MedicareFAQ",
+    title: "Why Medicare Supplements Offer Network-Free Healthcare | MedicareFAQ",
     description: "Discover the peace of mind that comes with network-free healthcare. Learn why Medicare Supplement plans offer ultimate freedom in choosing your doctors, specialists, and hospitals without restrictive networks.",
     canonical: "https://www.medicarefaq.com/blog/why-medicare-supplements-offer-network-free-healthcare/",
     ogImage: "https://images.unsplash.com/photo-1758686253677-d3af6c15186e?w=1200&h=630&fit=crop",
@@ -1544,7 +1544,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "medicare-flex-card",
       seo: {
-        title: "Medicare Flex Card: What it is and How to Get One || MedicareFAQ",
+        title: "Medicare Flex Card: What it is and How to Get One | MedicareFAQ",
         description: "Medicare flex cards are a benefit offered by some Medicare Advantage plans that provide a prepaid debit card for approved health-related expenses. Learn ho",
         canonical: "https://www.medicarefaq.com/blog/medicare-flex-card/",
         ogImage: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -1732,7 +1732,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "can-you-get-medicare-without-receiving-social-security-benefits",
       seo: {
-        title: "Can You Get Medicare without Receiving Social Security Benefits? || MedicareFAQ",
+        title: "Can You Get Medicare without Receiving Social Security Benefits? | MedicareFAQ",
         description: "Many people assume Medicare and Social Security go hand in hand, but you can enroll in Medicare even if you haven't started collecting Social Security. Her",
         canonical: "https://www.medicarefaq.com/blog/can-you-get-medicare-without-receiving-social-security-benefits/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -1900,7 +1900,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "full-retirement-age",
       seo: {
-        title: "Full Retirement Age: What it Means for Medicare and Social Security || MedicareFAQ",
+        title: "Full Retirement Age: What it Means for Medicare and Social Security | MedicareFAQ",
         description: "Your full retirement age (FRA) affects when you can claim full Social Security benefits -- and it interacts with Medicare enrollment in important ways. Here",
         canonical: "https://www.medicarefaq.com/blog/full-retirement-age/",
         ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -2081,7 +2081,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide",
       seo: {
-        title: "Transitioning to Medicare after Employer Coverage Ends: A Step-by-Step Guide || MedicareFAQ",
+        title: "Transitioning to Medicare after Employer Coverage Ends: A Step-by-Step Guide | MedicareFAQ",
         description: "Leaving employer health coverage is one of the most common Medicare triggers. This step-by-step guide walks you through exactly what to do -- and when -- to ",
         canonical: "https://www.medicarefaq.com/blog/transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide/",
         ogImage: "https://images.pexels.com/photos/8815851/pexels-photo-8815851.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -2249,7 +2249,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "what-happens-to-your-medicare-when-you-move-states",
       seo: {
-        title: "What Happens to Your Medicare When You Move States? || MedicareFAQ",
+        title: "What Happens to Your Medicare When You Move States? | MedicareFAQ",
         description: "Moving to a new state doesn't affect Original Medicare, but it can significantly impact Medicare Advantage and Part D plans. Here\'s what to do before and a",
         canonical: "https://www.medicarefaq.com/blog/what-happens-to-your-medicare-when-you-move-states/",
         ogImage: "https://images.pexels.com/photos/7787410/pexels-photo-7787410.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -2420,7 +2420,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "does-medicare-offer-a-grocery-allowance",
       seo: {
-        title: "Does Medicare Offer a Grocery Allowance? || MedicareFAQ",
+        title: "Does Medicare Offer a Grocery Allowance? | MedicareFAQ",
         description: "Some Medicare Advantage plans include a grocery allowance benefit for qualifying members. Learn which plans offer this benefit, how much it's worth, and ho",
         canonical: "https://www.medicarefaq.com/blog/does-medicare-offer-a-grocery-allowance/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -2587,7 +2587,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans",
       seo: {
-        title: "The Hidden Trade-Offs of $0 Premium Medicare Advantage Plans || MedicareFAQ",
+        title: "The Hidden Trade-Offs of $0 Premium Medicare Advantage Plans | MedicareFAQ",
         description: "$0 premium Medicare Advantage plans sound like a great deal -- and sometimes they are. But there are important trade-offs to understand before you enroll. H",
         canonical: "https://www.medicarefaq.com/blog/the-hidden-trade-offs-of-0-premium-medicare-advantage-plans/",
         ogImage: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -2742,7 +2742,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "illinois-birthday-rule",
       seo: {
-        title: "Illinois Birthday Rule: How to Switch Medigap Plans without Underwriting || MedicareFAQ",
+        title: "Illinois Birthday Rule: How to Switch Medigap Plans without Underwriting | MedicareFAQ",
         description: "Illinois gives Medicare Supplement policyholders a special annual window to switch plans without medical underwriting. Learn how the Illinois birthday rule",
         canonical: "https://www.medicarefaq.com/blog/illinois-birthday-rule/",
         ogImage: "https://images.pexels.com/photos/7810954/pexels-photo-7810954.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -2885,7 +2885,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "medicare-and-hsa-rules-what-happens-when-you-turn-65",
       seo: {
-        title: "Medicare and HSA Rules: What Happens When You Turn 65 || MedicareFAQ",
+        title: "Medicare and HSA Rules: What Happens When You Turn 65 | MedicareFAQ",
         description: "Turning 65 changes the rules for Health Savings Accounts. Learn how Medicare enrollment affects your HSA contributions and how to avoid costly tax penaltie",
         canonical: "https://www.medicarefaq.com/blog/medicare-and-hsa-rules-what-happens-when-you-turn-65/",
         ogImage: "https://images.unsplash.com/photo-1758691462858-f1286e5daf40?w=1200&h=630&fit=crop",
@@ -2982,7 +2982,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "medicare-parts-a-b-c-and-d-explained-simply",
       seo: {
-        title: "Medicare Parts a, B, C, and D Explained Simply || MedicareFAQ",
+        title: "Medicare Parts a, B, C, and D Explained Simply | MedicareFAQ",
         description: "Medicare can feel overwhelming at first, but the four parts each serve a distinct purpose. This plain-language guide breaks down what each part covers and ",
         canonical: "https://www.medicarefaq.com/blog/medicare-parts-a-b-c-and-d-explained-simply/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -3183,7 +3183,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "amazon-rx-pass",
       seo: {
-        title: "Amazon RxPass and Medicare: What You Need to Know || MedicareFAQ",
+        title: "Amazon RxPass and Medicare: What You Need to Know | MedicareFAQ",
         description: "Amazon's RxPass offers generic medications for a flat monthly fee, but Medicare beneficiaries face important restrictions. Learn what RxPass covers and whe",
         canonical: "https://www.medicarefaq.com/blog/amazon-rx-pass/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -3283,7 +3283,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "understanding-medicare-assignment-what-it-means-and-why-it-matters",
       seo: {
-        title: "Understanding Medicare Assignment: What it Means and Why it Matters || MedicareFAQ",
+        title: "Understanding Medicare Assignment: What it Means and Why it Matters | MedicareFAQ",
         description: "Medicare assignment determines whether your doctor accepts Medicare's approved payment amount. Choosing non-participating or opt-out providers can lead to ",
         canonical: "https://www.medicarefaq.com/blog/understanding-medicare-assignment-what-it-means-and-why-it-matters/",
         ogImage: "https://images.pexels.com/photos/5858411/pexels-photo-5858411.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -3373,7 +3373,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "discounts-for-seniors",
       seo: {
-        title: "Discounts for Seniors: A Complete Guide to Saving Money in Retirement || MedicareFAQ",
+        title: "Discounts for Seniors: A Complete Guide to Saving Money in Retirement | MedicareFAQ",
         description: "From prescription drug programs to travel discounts and grocery savings, there are hundreds of ways seniors can reduce their monthly expenses. Here's a com",
         canonical: "https://www.medicarefaq.com/blog/discounts-for-seniors/",
         ogImage: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -3469,7 +3469,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare",
       seo: {
-        title: "Understanding the Intersection of TRICARE, VA Benefits, and Medicare || MedicareFAQ",
+        title: "Understanding the Intersection of TRICARE, VA Benefits, and Medicare | MedicareFAQ",
         description: "Veterans and military retirees often have multiple coverage options. Understanding how TRICARE, VA benefits, and Medicare work together is essential for ma",
         canonical: "https://www.medicarefaq.com/blog/understanding-the-intersection-of-tricare-va-benefits-and-medicare/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -3558,7 +3558,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medicare-and-vision-dental-and-hearing-what-are-your-options',
       seo: {
-        title: 'Medicare and Vision, Dental, and Hearing: What are Your Options? || MedicareFAQ',
+        title: 'Medicare and Vision, Dental, and Hearing: What are Your Options? | MedicareFAQ',
         description: 'Original Medicare doesn\'t cover vision, dental, or hearing services, but you have options. Discover how Medicare Advantage plans, standalone policies, and ',
         canonical: 'https://www.medicarefaq.com/blog/medicare-and-vision-dental-and-hearing-what-are-your-options/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -3764,7 +3764,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medicare-advantage-denied-claims-crisis',
       seo: {
-        title: 'Medicare Advantage Denied Claims: What You Can do || MedicareFAQ',
+        title: 'Medicare Advantage Denied Claims: What You Can do | MedicareFAQ',
         description: 'Medicare Advantage plan denials can leave you stranded with unexpected medical bills. Discover your legal appeal rights, the step-by-step process to challe',
         canonical: 'https://www.medicarefaq.com/blog/medicare-advantage-denied-claims-crisis/',
         ogImage: "https://images.pexels.com/photos/7551633/pexels-photo-7551633.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -3833,7 +3833,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'how-medicare-handles-skilled-nursing-vs-custodial-care',
       seo: {
-        title: 'How Medicare Handles Skilled Nursing vs. Custodial Care || MedicareFAQ',
+        title: 'How Medicare Handles Skilled Nursing vs. Custodial Care | MedicareFAQ',
         description: 'Medicare makes a critical distinction between skilled nursing care and custodial care that directly impacts your coverage and costs. Learn exactly what Med',
         canonical: 'https://www.medicarefaq.com/blog/how-medicare-handles-skilled-nursing-vs-custodial-care/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -3899,7 +3899,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'laws-against-taking-advantage-of-the-elderly',
       seo: {
-        title: 'Laws Against Taking Advantage of the Elderly: What You Need to Know || MedicareFAQ',
+        title: 'Laws Against Taking Advantage of the Elderly: What You Need to Know | MedicareFAQ',
         description: 'Elder abuse and fraud cost seniors billions annually, but strong federal and state laws protect Medicare beneficiaries. Learn about legal protections, warn',
         canonical: 'https://www.medicarefaq.com/blog/laws-against-taking-advantage-of-the-elderly/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -3969,7 +3969,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'married-divorced-widowed-how-relationship-status-affects-medicare',
       seo: {
-        title: 'Married, Divorced, Widowed: How Relationship Status Affects Medicare || MedicareFAQ',
+        title: 'Married, Divorced, Widowed: How Relationship Status Affects Medicare | MedicareFAQ',
         description: 'Your relationship status plays a significant role in how you navigate Medicare enrollment, coverage options, and costs. Whether you\'re married, divorced, o',
         canonical: 'https://www.medicarefaq.com/blog/married-divorced-widowed-how-relationship-status-affects-medicare/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -4040,7 +4040,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan',
       seo: {
-        title: 'Making the Switch: A Guide to Moving from Medicare Advantage to a Medicare Supplement Plan || MedicareFAQ',
+        title: 'Making the Switch: A Guide to Moving from Medicare Advantage to a Medicare Supplement Plan | MedicareFAQ',
         description: 'Thinking about switching from Medicare Advantage to a Medigap plan? This comprehensive guide walks you through the reasons to switch, your enrollment windo',
         canonical: 'https://www.medicarefaq.com/blog/making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -4109,7 +4109,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'care-compare-tool',
       seo: {
-        title: 'Medicare Care Compare Tool: How to Use it to Find Quality Providers || MedicareFAQ',
+        title: 'Medicare Care Compare Tool: How to Use it to Find Quality Providers | MedicareFAQ',
         description: 'The Medicare Care Compare Tool is your gateway to finding high-quality hospitals, nursing homes, and dialysis facilities in your area. Learn how to navigat',
         canonical: 'https://www.medicarefaq.com/blog/care-compare-tool/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -4248,7 +4248,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it',
       seo: {
-        title: 'Medigap Plan F vs. Plan G over Time: Is Plan F Still Worth it? || MedicareFAQ',
+        title: 'Medigap Plan F vs. Plan G over Time: Is Plan F Still Worth it? | MedicareFAQ',
         description: 'Plan F was once the gold standard of Medigap coverage, but Medicare rules changed in 2020. Today, Plan G offers comparable protection at lower costs for mo',
         canonical: 'https://www.medicarefaq.com/blog/medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -4317,7 +4317,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'louisiana-birthday-rule',
       seo: {
-        title: 'Louisiana Birthday Rule: How it Helps You Change Medigap Plans || MedicareFAQ',
+        title: 'Louisiana Birthday Rule: How it Helps You Change Medigap Plans | MedicareFAQ',
         description: 'Louisiana\'s Birthday Rule is a valuable consumer protection that allows Medicare beneficiaries to change Medigap plans annually during their birthday month',
         canonical: 'https://www.medicarefaq.com/blog/louisiana-birthday-rule/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -4387,7 +4387,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses',
       seo: {
-        title: 'Medicare Advantage: Uncovering the Unexpected Out-of-Pocket Expenses || MedicareFAQ',
+        title: 'Medicare Advantage: Uncovering the Unexpected Out-of-Pocket Expenses | MedicareFAQ',
         description: 'While Medicare Advantage offers lower premiums than Original Medicare, beneficiaries face unexpected costs. Learn about copays, deductibles, network limita',
         canonical: 'https://www.medicarefaq.com/blog/medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -4440,7 +4440,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'eligibility-for-special-enrollment-period-after-medicare-coverage-loss',
       seo: {
-        title: 'Eligibility for Special Enrollment Period after Medicare Coverage Loss || MedicareFAQ',
+        title: 'Eligibility for Special Enrollment Period after Medicare Coverage Loss | MedicareFAQ',
         description: 'Losing health insurance coverage through your employer triggers a Special Enrollment Period. Learn how to qualify and enroll in Medicare without facing lat',
         canonical: 'https://www.medicarefaq.com/blog/eligibility-for-special-enrollment-period-after-medicare-coverage-loss/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -4492,7 +4492,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "observation-vs-inpatient-why-it-can-affect-your-medicare-bill",
     seo: {
-      title: "Observation vs Inpatient: Why it Can Affect Your Medicare Bill || MedicareFAQ",
+      title: "Observation vs Inpatient: Why it Can Affect Your Medicare Bill | MedicareFAQ",
       description: "Learn why hospitals place patients on observation status instead of admitting them as inpatient, and how this affects your Medicare bills.",
       canonical: "https://www.medicarefaq.com/blog/observation-vs-inpatient-why-it-can-affect-your-medicare-bill/",
       ogImage: "https://images.pexels.com/photos/7551675/pexels-photo-7551675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -4545,7 +4545,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "kentucky-birthday-rule",
     seo: {
-      title: "Kentucky Birthday Rule: Your Medigap Rights in Kentucky || MedicareFAQ",
+      title: "Kentucky Birthday Rule: Your Medigap Rights in Kentucky | MedicareFAQ",
       description: "Learn how Kentucky residents can use the Medigap Birthday Rule to switch plans annually without medical underwriting or penalties.",
       canonical: "https://www.medicarefaq.com/blog/kentucky-birthday-rule/",
       ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -4601,7 +4601,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "senior-loneliness-statistics",
     seo: {
-      title: "Senior Loneliness Statistics: The Hidden Health Crisis || MedicareFAQ",
+      title: "Senior Loneliness Statistics: The Hidden Health Crisis | MedicareFAQ",
       description: "Discover how senior loneliness affects health outcomes, mortality rates, and why Medicare needs better coverage solutions.",
       canonical: "https://www.medicarefaq.com/blog/senior-loneliness-statistics/",
       ogImage: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -4657,7 +4657,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "protect-yourself-from-medicare-penalties-key-tips-and-deadlines",
     seo: {
-      title: "Protect Yourself from Medicare Penalties: Key Tips and Deadlines || MedicareFAQ",
+      title: "Protect Yourself from Medicare Penalties: Key Tips and Deadlines | MedicareFAQ",
       description: "Learn critical Medicare deadlines and enrollment penalties to protect your coverage and avoid costly premium increases.",
       canonical: "https://www.medicarefaq.com/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines/",
       ogImage: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -4710,7 +4710,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "coverage-gap-discount-program",
     seo: {
-      title: "Medicare Coverage Gap Discount Program Explained || MedicareFAQ",
+      title: "Medicare Coverage Gap Discount Program Explained | MedicareFAQ",
       description: "Learn how the Medicare Coverage Gap Discount Program helps reduce drug costs during the donut hole phase of Part D coverage.",
       canonical: "https://www.medicarefaq.com/blog/coverage-gap-discount-program/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -4767,7 +4767,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job",
     seo: {
-      title: "Medicare and Employment: How to Navigate Coverage When You are Still Working || MedicareFAQ",
+      title: "Medicare and Employment: How to Navigate Coverage When You are Still Working | MedicareFAQ",
       description: "Learn how to successfully navigate Medicare enrollment and coverage coordination while maintaining active employment.",
       canonical: "https://www.medicarefaq.com/blog/medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -4820,7 +4820,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "why-some-drugs-are-covered-under-part-b-instead-of-part-d",
     seo: {
-      title: "Why Some Drugs are Covered under Part B Instead of Part D || MedicareFAQ",
+      title: "Why Some Drugs are Covered under Part B Instead of Part D | MedicareFAQ",
       description: "Discover why Medicare covers certain medications under Part B instead of Part D and how this affects your prescription drug costs and coverage.",
       canonical: "https://www.medicarefaq.com/blog/why-some-drugs-are-covered-under-part-b-instead-of-part-d/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -4876,7 +4876,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever",
     seo: {
-      title: "The Lifetime Medicare Penalties: How People Accidentally Owe Them Forever || MedicareFAQ",
+      title: "The Lifetime Medicare Penalties: How People Accidentally Owe Them Forever | MedicareFAQ",
       description: "Medicare late enrollment penalties are permanent additions to your premiums. Learn how to avoid these lifetime costs and what to do if you already owe them",
       canonical: "https://www.medicarefaq.com/blog/the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -4932,7 +4932,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-and-alternative-therapies-whats-covered-and-whats-not",
     seo: {
-      title: "Medicare and Alternative Therapies: What is Covered and What is not || MedicareFAQ",
+      title: "Medicare and Alternative Therapies: What is Covered and What is not | MedicareFAQ",
       description: "Learn which alternative therapies Medicare covers and what you will need to pay out of pocket for complementary treatments.",
       canonical: "https://www.medicarefaq.com/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -4988,7 +4988,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "retirement-regrets-of-seniors",
     seo: {
-      title: "Retirement Regrets of Seniors: What You Can Learn from Their Mistakes || MedicareFAQ",
+      title: "Retirement Regrets of Seniors: What You Can Learn from Their Mistakes | MedicareFAQ",
       description: "Learn from real retirement regrets of seniors about Medicare planning mistakes and how to avoid costly errors in your own retirement journey.",
       canonical: "https://www.medicarefaq.com/blog/retirement-regrets-of-seniors/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5045,7 +5045,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "maryland-medicare-supplement-birthday-rule",
     seo: {
-      title: "Maryland Medicare Supplement Birthday Rule Explained || MedicareFAQ",
+      title: "Maryland Medicare Supplement Birthday Rule Explained | MedicareFAQ",
       description: "Learn how Maryland Medicare Supplement Birthday Rule lets you change Medigap plans annually without medical underwriting during your birthday month.",
       canonical: "https://www.medicarefaq.com/blog/maryland-medicare-supplement-birthday-rule/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5099,7 +5099,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "joe-namath-medicare-commericals",
     seo: {
-      title: "Joe Namath Medicare Commercials: What You Need to Know || MedicareFAQ",
+      title: "Joe Namath Medicare Commercials: What You Need to Know | MedicareFAQ",
       description: "Learn what Joe Namath Medicare commercials are really promoting and how to evaluate Medicare Advantage plans for your coverage needs.",
       canonical: "https://www.medicarefaq.com/blog/joe-namath-medicare-commericals/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5153,7 +5153,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "oklahoma-birthday-rule",
     seo: {
-      title: "Oklahoma Birthday Rule: Medigap Rights in Oklahoma || MedicareFAQ",
+      title: "Oklahoma Birthday Rule: Medigap Rights in Oklahoma | MedicareFAQ",
       description: "Learn about Oklahoma's Birthday Rule for Medigap coverage, your annual enrollment rights, and how to switch plans without medical underwriting.",
       canonical: "https://www.medicarefaq.com/blog/oklahoma-birthday-rule/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5209,7 +5209,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medigap-underwriting-how-preexisting-conditions-still-matter",
     seo: {
-      title: "Medigap Underwriting: How Preexisting Conditions Still Matter || MedicareFAQ",
+      title: "Medigap Underwriting: How Preexisting Conditions Still Matter | MedicareFAQ",
       description: "Preexisting conditions still matter for Medigap coverage. Learn when insurers can deny claims, charge more, and how to protect yourself.",
       canonical: "https://www.medicarefaq.com/blog/medigap-underwriting-how-preexisting-conditions-still-matter/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5263,7 +5263,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "inpatient-only-list",
     seo: {
-      title: "Medicare Inpatient Only List: What Procedures Require Hospitalization || MedicareFAQ",
+      title: "Medicare Inpatient Only List: What Procedures Require Hospitalization | MedicareFAQ",
       description: "Learn which medical procedures Medicare requires to be performed as inpatient hospital stays and what this means for your coverage.",
       canonical: "https://www.medicarefaq.com/blog/inpatient-only-list/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5316,7 +5316,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-whats-covered-app",
     seo: {
-      title: "Medicare What is Covered App: Your Digital Coverage Guide || MedicareFAQ",
+      title: "Medicare What is Covered App: Your Digital Coverage Guide | MedicareFAQ",
       description: "Discover how the Medicare What Is Covered App empowers you to understand your coverage, compare costs, and make smarter healthcare decisions.",
       canonical: "https://www.medicarefaq.com/blog/medicare-whats-covered-app/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5373,7 +5373,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g",
     seo: {
-      title: "Exploring Your Medigap Options beyond Plan F and Plan G || MedicareFAQ",
+      title: "Exploring Your Medigap Options beyond Plan F and Plan G | MedicareFAQ",
       description: "While Plan F and G dominate Medigap discussions, Plans A, B, C, and N offer compelling alternatives with different coverage levels and costs.",
       canonical: "https://www.medicarefaq.com/blog/exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5431,7 +5431,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "guide-to-retirement-planning",
     seo: {
-      title: "Guide to Retirement Planning: Medicare and Financial Considerations || MedicareFAQ",
+      title: "Guide to Retirement Planning: Medicare and Financial Considerations | MedicareFAQ",
       description: "Learn how to integrate Medicare planning into your retirement strategy with practical guidance on costs, coverage options, and financial preparation.",
       canonical: "https://www.medicarefaq.com/blog/guide-to-retirement-planning/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5489,7 +5489,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-news",
     seo: {
-      title: "Medicare News: Key Updates and Changes for 2026 || MedicareFAQ",
+      title: "Medicare News: Key Updates and Changes for 2026 | MedicareFAQ",
       description: "Discover the major Medicare changes coming in 2026, including premium increases, new benefits, and what you need to know.",
       canonical: "https://www.medicarefaq.com/blog/medicare-news/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5543,7 +5543,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice",
     seo: {
-      title: "Virginia and Utah Adopt Medigap Birthday Rules: What it Means for You || MedicareFAQ",
+      title: "Virginia and Utah Adopt Medigap Birthday Rules: What it Means for You | MedicareFAQ",
       description: "Virginia and Utah adopt the Medigap birthday rule, allowing annual plan changes without medical underwriting. Learn how this benefits Medicare beneficiarie",
       canonical: "https://www.medicarefaq.com/blog/virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5598,7 +5598,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "understanding-cobra-and-medigap-coverage-costs-and-key-differences",
     seo: {
-      title: "Understanding COBRA and Medigap Coverage: Costs and Key Differences || MedicareFAQ",
+      title: "Understanding COBRA and Medigap Coverage: Costs and Key Differences | MedicareFAQ",
       description: "Learn the key differences between COBRA and Medigap coverage, including costs, benefits, and which option works best for your healthcare needs.",
       canonical: "https://www.medicarefaq.com/blog/understanding-cobra-and-medigap-coverage-costs-and-key-differences/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5791,7 +5791,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know",
     seo: {
-      title: "Switching from Medicare Advantage to Original Medicare || MedicareFAQ",
+      title: "Switching from Medicare Advantage to Original Medicare | MedicareFAQ",
       description: "Thinking about leaving Medicare Advantage? Learn how to switch back to Original Medicare, what it costs, and whether you can get a Medigap plan.",
       canonical: "https://www.medicarefaq.com/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5873,7 +5873,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "top-free-computer-classes-for-seniors",
     seo: {
-      title: "Top Free Computer Classes for Seniors || MedicareFAQ",
+      title: "Top Free Computer Classes for Seniors | MedicareFAQ",
       description: "Discover the best free computer classes for seniors, from beginner basics to intermediate skills. Stay connected, safe, and independent online.",
       canonical: "https://www.medicarefaq.com/blog/top-free-computer-classes-for-seniors/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -5942,7 +5942,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters",
     seo: {
-      title: "Best Time to Enroll in a Medicare Supplement Plan || MedicareFAQ",
+      title: "Best Time to Enroll in a Medicare Supplement Plan | MedicareFAQ",
       description: "The best time to enroll in a Medigap plan is during your 6-month Open Enrollment Period. Learn why timing matters and what happens if you miss it.",
       canonical: "https://www.medicarefaq.com/blog/the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6005,7 +6005,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "nevada-birthday-rule",
     seo: {
-      title: "Nevada Birthday Rule for Medigap Plans || MedicareFAQ",
+      title: "Nevada Birthday Rule for Medigap Plans | MedicareFAQ",
       description: "Nevada's birthday rule lets Medicare Supplement policyholders switch to an equal or lesser plan each year without medical underwriting. Learn how it works.",
       canonical: "https://www.medicarefaq.com/blog/nevada-birthday-rule/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6063,7 +6063,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "when-to-switch-medigap-plans-what-you-need-to-know",
     seo: {
-      title: "When to Switch Medigap Plans: What You Need to Know || MedicareFAQ",
+      title: "When to Switch Medigap Plans: What You Need to Know | MedicareFAQ",
       description: "Thinking about switching your Medicare Supplement plan? Learn when you can switch, what underwriting means, and how to avoid costly mistakes.",
       canonical: "https://www.medicarefaq.com/blog/when-to-switch-medigap-plans-what-you-need-to-know/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6130,7 +6130,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-supplements-cost-vs-value-explained",
     seo: {
-      title: "Medicare Supplements: Cost vs. Value Explained || MedicareFAQ",
+      title: "Medicare Supplements: Cost vs. Value Explained | MedicareFAQ",
       description: "Is a Medicare Supplement plan worth the premium? We break down the cost vs. value equation to help you decide if Medigap is right for you.",
       canonical: "https://www.medicarefaq.com/blog/medicare-supplements-cost-vs-value-explained/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6198,7 +6198,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know",
     seo: {
-      title: "Step Therapy and Prior Authorization for Medicare || MedicareFAQ",
+      title: "Step Therapy and Prior Authorization for Medicare | MedicareFAQ",
       description: "Learn how step therapy and prior authorization work in Medicare Advantage and Part D plans, and what rights you have to appeal these decisions.",
       canonical: "https://www.medicarefaq.com/blog/step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6266,12 +6266,12 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-for-all",
     seo: {
-      title: "Medicare for All –– Pros and Cons || MedicareFAQ",
+      title: "Medicare for All – Pros and Cons | MedicareFAQ",
       description: "What is Medicare for All? We break down the pros, cons, costs, and how it would affect current Medicare beneficiaries and private insurance.",
       canonical: "https://www.medicarefaq.com/blog/medicare-for-all/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
-    title: "Medicare for All –– Pros and Cons",
+    title: "Medicare for All – Pros and Cons",
     excerpt: "Medicare for All is one of the most debated healthcare proposals in America. Here's an objective look at what it is, how it would work, and the arguments on both sides.",
     category: "Medicare News",
     categoryColor: "#2563EB",
@@ -6392,7 +6392,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-blue-button",
     seo: {
-      title: "What is the Medicare Blue Button 2.0? || MedicareFAQ",
+      title: "What is the Medicare Blue Button 2.0? | MedicareFAQ",
       description: "The Medicare Blue Button lets you download your complete Medicare claims history. Learn how to use it to manage your health data and share it with providers.",
       canonical: "https://www.medicarefaq.com/blog/medicare-blue-button/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6448,7 +6448,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "senior-dating-and-relationships",
     seo: {
-      title: "Senior Dating and Relationships || MedicareFAQ",
+      title: "Senior Dating and Relationships | MedicareFAQ",
       description: "Dating as a senior can be rewarding and fulfilling. Learn about the benefits of senior dating, how to meet other singles, and how to stay safe online.",
       canonical: "https://www.medicarefaq.com/blog/senior-dating-and-relationships/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6524,7 +6524,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "companion-pets-for-seniors",
     seo: {
-      title: "Best Companion Pets for Seniors || MedicareFAQ",
+      title: "Best Companion Pets for Seniors | MedicareFAQ",
       description: "Pets provide seniors with companionship, purpose, and health benefits. Discover the best companion pets for older adults and low-maintenance options for apartment living.",
       canonical: "https://www.medicarefaq.com/blog/companion-pets-for-seniors/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6601,7 +6601,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "best-states-to-retire",
     seo: {
-      title: "Best States to Retire || MedicareFAQ",
+      title: "Best States to Retire | MedicareFAQ",
       description: "Looking for the best state to retire in? We compare states by taxes, healthcare quality, cost of living, weather, and Medicare plan availability.",
       canonical: "https://www.medicarefaq.com/blog/best-states-to-retire/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6668,7 +6668,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-starter-guide-what-to-do-in-your-first-90-days",
     seo: {
-      title: "Medicare Starter Guide: What to do in Your First 90 Days || MedicareFAQ",
+      title: "Medicare Starter Guide: What to do in Your First 90 Days | MedicareFAQ",
       description: "Just enrolled in Medicare? This step-by-step guide walks you through everything you need to do in your first 90 days to maximize your coverage.",
       canonical: "https://www.medicarefaq.com/blog/medicare-starter-guide-what-to-do-in-your-first-90-days/",
       ogImage: "https://images.pexels.com/photos/8815812/pexels-photo-8815812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6734,7 +6734,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "how-can-seniors-save-on-prescription-drug-costs",
     seo: {
-      title: "How Can Seniors Save on Prescription Drug Costs? || MedicareFAQ",
+      title: "How Can Seniors Save on Prescription Drug Costs? | MedicareFAQ",
       description: "Prescription drugs are a major expense for Medicare beneficiaries. Learn how Part D, Extra Help, discount programs, and generic drugs can reduce your costs.",
       canonical: "https://www.medicarefaq.com/blog/how-can-seniors-save-on-prescription-drug-costs/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6804,7 +6804,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "direct-care-opportunity-act",
     seo: {
-      title: "Direct Care Opportunity Act || MedicareFAQ",
+      title: "Direct Care Opportunity Act | MedicareFAQ",
       description: "The Direct Care Opportunity Act aims to address the growing shortage of direct care workers. Learn what it means for Medicare beneficiaries and their caregivers.",
       canonical: "https://www.medicarefaq.com/blog/direct-care-opportunity-act/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -6861,7 +6861,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-costs-2025",
     seo: {
-      title: "Medicare Costs 2025 || MedicareFAQ",
+      title: "Medicare Costs 2025 | MedicareFAQ",
       description: "More than 66 million Americans rely on Medicare for health coverage, and experience cost changes year to year. Review key 2025 Medicare premiums and deductibles.",
       canonical: "https://www.medicarefaq.com/blog/medicare-costs-2025/",
       ogImage: "https://images.pexels.com/photos/8439748/pexels-photo-8439748.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6907,12 +6907,12 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-advantage-plans",
     seo: {
-      title: "Medicare Advantage Plans in 2026: How They Work, Costs && Types",
+      title: "Medicare Advantage Plans in 2026: How They Work, Costs & Types",
       description: "Learn how Medicare Advantage Plans work in 2026, including plan types (HMO, PPO, SNP), costs, out-of-pocket maximums, and how they compare to Original Medicare and Medigap.",
       canonical: "https://www.medicarefaq.com/blog/medicare-advantage-plans",
       ogImage: "https://images.pexels.com/photos/8815844/pexels-photo-8815844.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     },
-    title: "Medicare Advantage Plans in 2026: How They Work, Costs && Types",
+    title: "Medicare Advantage Plans in 2026: How They Work, Costs & Types",
     excerpt: "Nearly 54% of Medicare beneficiaries are now enrolled in a Medicare Advantage Plan. Learn how these plans work, what they cost, and how to choose the right one for your needs in 2026.",
     category: "Medicare Advantage",
     categoryColor: "blue",

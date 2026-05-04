@@ -3,11 +3,11 @@ import SiteLayout from "@/components/SiteLayout";
 import Videos from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Medicare Videos || Watch && Learn about Medicare",
+  title: "Medicare Videos | Watch & Learn about Medicare",
   description: "Watch Medicare educational videos from MedicareFAQ. Our video library covers Medicare basics, plan comparisons, enrollment tips, and more.",
   alternates: { canonical: "https://www.medicarefaq.com/videos/" },
   openGraph: {
-    title: "Medicare Videos || Watch && Learn about Medicare",
+    title: "Medicare Videos | Watch & Learn about Medicare",
     description: "Watch Medicare educational videos from MedicareFAQ. Our video library covers Medicare basics, plan comparisons, enrollment tips, and more.",
     url: "https://www.medicarefaq.com/videos/",
     type: "website",

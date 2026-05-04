@@ -29,12 +29,12 @@ import {
 } from "lucide-react";
 
 const tableOfContents = [
-  { id: "overview", label: "Working past 65 && Medicare" },
+  { id: "overview", label: "Working past 65 & Medicare" },
   { id: "employer-size", label: "Employer Size Matters" },
   { id: "what-to-enroll", label: "What to Enroll in Now" },
   { id: "sep", label: "Special Enrollment Period" },
   { id: "hsa", label: "HSA Considerations" },
-  { id: "cobra", label: "COBRA && Medicare" },
+  { id: "cobra", label: "COBRA & Medicare" },
   { id: "spouse-coverage", label: "Spouse's Employer Coverage" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },

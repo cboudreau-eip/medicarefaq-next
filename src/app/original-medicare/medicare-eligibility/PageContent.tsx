@@ -16,7 +16,7 @@ const tableOfContents = [
   { id: "disability-eligibility", label: "Disability Eligibility" },
   { id: "part-a-eligibility", label: "Part a Eligibility" },
   { id: "part-b-eligibility", label: "Part B Eligibility" },
-  { id: "income", label: "Income && Medicare" },
+  { id: "income", label: "Income & Medicare" },
   { id: "faqs", label: "Frequently Asked Questions" },
 ];
 

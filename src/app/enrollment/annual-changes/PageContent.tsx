@@ -232,7 +232,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   {[
-                    { icon: DollarSign, title: "Premiums && Deductibles", desc: "Part A, Part B, Part D, and plan-specific costs are updated annually by CMS" },
+                    { icon: DollarSign, title: "Premiums & Deductibles", desc: "Part A, Part B, Part D, and plan-specific costs are updated annually by CMS" },
                     { icon: FileText, title: "Drug Formularies", desc: "Part D and MA-PD plans can change which drugs are covered and at what tier" },
                     { icon: Shield, title: "Plan Benefits", desc: "Medicare Advantage plans may add, remove, or modify supplemental benefits" },
                     { icon: TrendingUp, title: "Provider Networks", desc: "MA plan networks can change — your doctor may no longer be in-network" },
@@ -310,7 +310,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                 <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-200 rounded-xl p-6 mb-6">
                   <div className="flex items-center gap-3 mb-4">
                     <Calendar className="w-6 h-6 text-amber-600" />
-                    <h3 className="font-bold text-amber-900 text-lg">October 15 –– December 7</h3>
+                    <h3 className="font-bold text-amber-900 text-lg">October 15 – December 7</h3>
                   </div>
                   <div className="grid sm:grid-cols-2 gap-3">
                     {[

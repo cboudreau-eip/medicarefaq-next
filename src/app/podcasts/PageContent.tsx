@@ -25,7 +25,7 @@ import {
 } from "lucide-react";
 
 const featuredEpisode = {
-  title: "Medicare 2026 || New Premiums, Deductibles && out of Pocket Costs Just Released!",
+  title: "Medicare 2026 | New Premiums, Deductibles & out of Pocket Costs Just Released!",
   description: "Medicare costs are changing in 2026, and many retirees will see higher premiums, deductibles, and out-of-pocket expenses. In this episode, we break down the official 2026 Medicare cost updates released by CMS — including new numbers for Part A, Part B, Part D, Medicare Advantage, and IRMAA.",
   duration: "9:41",
   date: "March 12, 2026",

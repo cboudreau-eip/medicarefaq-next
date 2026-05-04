@@ -102,7 +102,7 @@ export const navigationData: NavCategory[] = [
     color: "#3B82F6",
     items: [
       {
-        title: "Original Medicare (Parts a && B)",
+        title: "Original Medicare (Parts a & B)",
         description: "Hospital and medical insurance basics",
         icon: Shield,
         href: "/original-medicare",
@@ -214,7 +214,7 @@ export const navigationData: NavCategory[] = [
         href: "/faqs",
       },
       {
-        title: "Dental, Vision && Hearing",
+        title: "Dental, Vision & Hearing",
         description: "Coverage for dental implants, glasses, and hearing aids",
         icon: Eye,
         href: "/faqs/does-medicare-cover-dental-implants",

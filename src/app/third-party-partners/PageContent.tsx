@@ -31,7 +31,7 @@ const partnerCategories = [
     ],
   },
   {
-    title: "Content && Research Partners",
+    title: "Content & Research Partners",
     desc: "Our editorial team collaborates with healthcare research organizations and data providers to ensure our content reflects the most current Medicare information.",
     examples: [
       "CMS data sources",
@@ -163,9 +163,9 @@ return (
             </p>
             <ul className="space-y-2">
               {[
-                { name: "Medicare.gov —— Official Medicare Website", url: "https://www.medicare.gov" },
-                { name: "CMS.gov —— Centers for Medicare && Medicaid Services", url: "https://www.cms.gov" },
-                { name: "SSA.gov —— Social Security Administration", url: "https://www.ssa.gov" },
+                { name: "Medicare.gov — Official Medicare Website", url: "https://www.medicare.gov" },
+                { name: "CMS.gov — Centers for Medicare & Medicaid Services", url: "https://www.cms.gov" },
+                { name: "SSA.gov — Social Security Administration", url: "https://www.ssa.gov" },
               ].map((link, i) => (
                 <li key={i}>
                   <a

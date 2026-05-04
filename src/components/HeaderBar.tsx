@@ -28,7 +28,7 @@ const SEARCH_PAGES = [
   { title: "Best Medicare Supplement Plans", description: "Plan F, G, and N compared with current rates", url: "/medicare-plans/best-supplement-plans", category: "Plans" },
   { title: "Medicare Advantage Plans (Part C)", description: "All-in-one alternative to Original Medicare", url: "/medicare-part-c/medicare-advantage-plans", category: "Plans" },
   { title: "Medicare Advantage Plan Types", description: "HMO, PPO, PFFS, and SNP plans explained", url: "/medicare-part-c/medicare-advantage-plan-types", category: "Plans" },
-  { title: "Original Medicare (Parts a && B)", description: "Hospital and medical insurance basics", url: "/original-medicare", category: "Plans" },
+  { title: "Original Medicare (Parts a & B)", description: "Hospital and medical insurance basics", url: "/original-medicare", category: "Plans" },
   { title: "Medicare Part D", description: "Prescription drug coverage options and plans", url: "/original-medicare/medicare-parts/medicare-part-d", category: "Plans" },
   { title: "Turning 65 Enrollment", description: "How to enroll when you first become eligible for Medicare", url: "/enrollment/turning-65", category: "Enrollment" },
   { title: "Working past 65", description: "Medicare and employer coverage coordination", url: "/enrollment/working-past-65", category: "Enrollment" },

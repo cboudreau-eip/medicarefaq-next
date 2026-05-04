@@ -13,11 +13,11 @@ import CTABanner from "@/components/CTABanner";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "MedicareFAQ || Your Supplemental Medicare Resource Center",
+  title: "MedicareFAQ | Your Supplemental Medicare Resource Center",
   description:
     "MedicareFAQ specializes in supplemental Medicare insurance. We make Medicare plans easy to understand, as well as easy to enroll.",
   openGraph: {
-    title: "MedicareFAQ || Your Supplemental Medicare Resource Center",
+    title: "MedicareFAQ | Your Supplemental Medicare Resource Center",
     description:
       "MedicareFAQ specializes in supplemental Medicare insurance. We make Medicare plans easy to understand, as well as easy to enroll.",
     url: "https://www.medicarefaq.com/",

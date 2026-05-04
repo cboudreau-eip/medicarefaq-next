@@ -4,7 +4,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
   {
     slug: "does-medicare-cover-eye-exams",
     seo: {
-      title: "Does Medicare Cover Eye Exams? || MedicareFAQ",
+      title: "Does Medicare Cover Eye Exams? | MedicareFAQ",
       description:
         "Original Medicare does not cover routine eye exams for glasses or contacts, but Medicare Part B covers medically necessary eye care for certain conditions, and Medicare Advantage plans often include routine vision benefits.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-eye-exams/",

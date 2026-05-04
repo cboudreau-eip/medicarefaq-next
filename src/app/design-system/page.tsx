@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Design System || MedicareFAQ",
+  title: "Design System | MedicareFAQ",
   description: "MedicareFAQ living design system — colors, typography, spacing, and components.",
   robots: "noindex",
 };
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const colorGroups = [
   {
-    label: "Brand —— Primary",
+    label: "Brand — Primary",
     colors: [
       { name: "Navy",       tailwind: "bg-navy",       hex: "#1a2340", usage: "Primary buttons, headings, nav" },
       { name: "Navy Light", tailwind: "bg-navy-light", hex: "#2a3a5c", usage: "Hover states, secondary nav" },
@@ -19,7 +19,7 @@ const colorGroups = [
     ],
   },
   {
-    label: "Brand —— Journey Colors",
+    label: "Brand — Journey Colors",
     colors: [
       { name: "Teal",   tailwind: "bg-teal",   hex: "#0d9488", usage: "New to Medicare" },
       { name: "Amber",  tailwind: "bg-amber",  hex: "#d97706", usage: "Enrollment" },
@@ -28,7 +28,7 @@ const colorGroups = [
     ],
   },
   {
-    label: "Semantic —— Surface",
+    label: "Semantic — Surface",
     colors: [
       { name: "Background",     tailwind: "bg-background border border-border",     hex: "#ffffff", usage: "Page background" },
       { name: "Section Alt",    tailwind: "bg-section-alt",   hex: "#f7f8fc", usage: "Alternate section bg" },

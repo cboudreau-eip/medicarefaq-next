@@ -45,7 +45,7 @@ const tableOfContents = [
   { id: "four-parts", label: "The Four Parts of Medicare" },
   { id: "eligibility", label: "Who is Eligible?" },
   { id: "enrollment", label: "Enrollment Periods" },
-  { id: "costs", label: "Costs && Premiums" },
+  { id: "costs", label: "Costs & Premiums" },
   { id: "supplement-vs-advantage", label: "Supplement vs. Advantage" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },

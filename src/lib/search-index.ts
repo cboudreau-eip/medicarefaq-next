@@ -196,7 +196,7 @@ const pageEntries: Omit<SearchResult, "score">[] = [
   },
   {
     id: "page-turning-65",
-    title: "Turning 65 —— What You Need to Know",
+    title: "Turning 65 — What You Need to Know",
     description: "Your guide to understanding Medicare when you're approaching age 65.",
     category: "Getting Started",
     categoryColor: "#1B2A4A",

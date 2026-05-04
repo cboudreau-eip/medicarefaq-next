@@ -134,7 +134,7 @@ const timelineMilestones = [
     priority: "Deadline Approaching",
     tasks: [
       {
-        title: "IEP Ends —— Last Chance to Enroll without Penalty",
+        title: "IEP Ends — Last Chance to Enroll without Penalty",
         description: "Your Initial Enrollment Period closes 3 months after your birthday month. If you haven't enrolled yet, do so immediately to minimize coverage gaps.",
       },
       {

@@ -51,7 +51,7 @@ const footerColumns = [
     color: "#059669",
     links: [
       { label: "Does Medicare Cover...?", href: "/faqs" },
-      { label: "Dental, Vision && Hearing", href: "/faqs/does-medicare-cover-dental-implants" },
+      { label: "Dental, Vision & Hearing", href: "/faqs/does-medicare-cover-dental-implants" },
       { label: "Specialized Care", href: "/faqs/does-medicare-cover-chiropractic-care" },
       { label: "Prescription Drugs", href: "/original-medicare/medicare-parts/medicare-part-d" },
       { label: "Search All Coverage", href: "/search" },

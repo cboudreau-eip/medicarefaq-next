@@ -50,7 +50,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -150,7 +150,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -258,7 +258,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -413,7 +413,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-chiropractic-care",
     seo: {
-      title: "Medicare Chiropractic Care || is Coverage Available?",
+      title: "Medicare Chiropractic Care | is Coverage Available?",
       description: "Learn if Medicare covers chiropractic care, how much chiropractic care costs, and Medicare guidelines for chiropractic services.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-chiropractic-care/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Chiropractic-Care.jpg",
@@ -451,7 +451,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Varies",
@@ -553,7 +553,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Varies",
@@ -653,7 +653,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -759,7 +759,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Varies",
@@ -862,7 +862,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -967,7 +967,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1066,7 +1066,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1110,7 +1110,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
       { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
     
-      { title: "Does Medicare Cover Leqembi? 2026 Coverage && Cost Guide", description: "Learn about Medicare coverage for Leqembi, the FDA-approved Alzheimer's treatment.", slug: "does-medicare-cover-leqembi" },
+      { title: "Does Medicare Cover Leqembi? 2026 Coverage & Cost Guide", description: "Learn about Medicare coverage for Leqembi, the FDA-approved Alzheimer's treatment.", slug: "does-medicare-cover-leqembi" },
       { title: "Does Medicare Cover Telehealth Services?", description: "Learn about Medicare's telehealth coverage, including virtual doctor visits and remote monitoring.", slug: "does-medicare-cover-telehealth" },
       { title: "Medicare Coverage for Botox Treatments", description: "Learn when Medicare covers Botox injections for medical conditions like migraines or spasticity.", slug: "medicare-coverage-for-botox-treatments" },
       { title: "Does Medicare Cover Erectile Dysfunction Medication?", description: "Find out if Medicare Part D covers ED medications like Viagra, Cialis, or Levitra.", slug: "medicare-coverage-erectile-dysfunction" },
@@ -1172,7 +1172,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -1285,7 +1285,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -1383,7 +1383,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1481,7 +1481,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -1587,7 +1587,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -2480,7 +2480,7 @@ export const coverageArticles: CoverageArticleData[] = [
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-life-alert/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
-    title: "Does Medicare Cover Life Alert? (2026 Cost && Coverage Guide)",
+    title: "Does Medicare Cover Life Alert? (2026 Cost & Coverage Guide)",
     subtitle: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
     category: "Medicare Coverage",
     dateUpdated: "March 10, 2026",
@@ -2644,7 +2644,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "is-medicare-free",
     seo: {
-      title: "Is Medicare Free? || Free Parts of Medicare",
+      title: "Is Medicare Free? | Free Parts of Medicare",
       description: "Part A is free if you pay a minimum of 40 quarters or ten years in Medicare taxes. On the other hand, Parts B through D are not free.",
       canonical: "https://www.medicarefaq.com/faqs/is-medicare-free/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/is-medicare-free.jpg",
@@ -4138,7 +4138,7 @@ export const coverageArticles: CoverageArticleData[] = [
           description: "CMS audit reports documented widespread inappropriate denials of medically necessary care across multiple major MA carriers. CMS now requires plans to respond to authorization requests within defined timeframes and use only CMS-approved clinical criteria.",
         },
         {
-          title: "Star Ratings System —— Check before Enrolling",
+          title: "Star Ratings System — Check before Enrolling",
           status: "Passed" as const,
           description: "CMS evaluates each plan annually on a 1–5 star scale across quality measures including chronic condition management, member experience, care delays, and complaint handling. A plan with low ratings reflects real patterns of member dissatisfaction and denied care.",
         },
@@ -4588,12 +4588,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-advantage-open-enrollment-period",
     seo: {
-      title: "Medicare Advantage Open Enrollment Period || MAOEP",
+      title: "Medicare Advantage Open Enrollment Period | MAOEP",
       description: "The Medicare Advantage Open Enrollment Period runs annually between January 1 and March 31. Find what changes you can make to your MA plans.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-advantage-open-enrollment-period/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-advantage-open-enrollment-period.jpeg",
     },
-    title: "Medicare Advantage Open Enrollment Period || MAOEP",
+    title: "Medicare Advantage Open Enrollment Period | MAOEP",
     subtitle: "The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have Medicare Advantage plans can make one change to their coverage.",
     category: "Medicare Enrollment",
     dateUpdated: "February 17, 2026",
@@ -5655,12 +5655,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-annual-enrollment-period",
     seo: {
-      title: "Medicare Annual Enrollment Period (AEP) || Medicare Fall Open Enrollment Period",
+      title: "Medicare Annual Enrollment Period (AEP) | Medicare Fall Open Enrollment Period",
       description: "The Medicare Annual Enrollment Period, also known as the Medicare Fall Open Enrollment Period, runs each year from October 15 to December 7. Learn how you can benefit.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-annual-enrollment-period/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/image-1-1.png",
     },
-    title: "Medicare Annual Enrollment Period (AEP) || Medicare Fall Open Enrollment Period",
+    title: "Medicare Annual Enrollment Period (AEP) | Medicare Fall Open Enrollment Period",
     subtitle: "The Medicare Annual Enrollment Period (AEP) occurs from October 15 to December 7 annually. If you have a Medicare Advantage plan or Medicare Part D Prescription Drug Plan, you can make changes that go into effect next year. You can also sign up for Part D if you haven’t already.",
     category: "Medicare Enrollment",
     dateUpdated: "February 13, 2026",
@@ -5820,7 +5820,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -6037,7 +6037,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -6280,7 +6280,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -6571,7 +6571,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Inhaler costs under Part D depend on the drug tier: Tier 1-2 generics may cost $0\u2013$15 per fill, while Tier 3-4 brand-name inhalers may cost $30\u2013$100+ per fill. Costs vary by plan.",
       },
       {
-        planName: "Medicare Part B (Outpatient && DME)",
+        planName: "Medicare Part B (Outpatient & DME)",
         icon: "shield",
         iconColor: "#2563EB",
         coverageLabel: "Partial",
@@ -6799,7 +6799,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts a && B)",
+        planName: "Original Medicare (Parts a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -7174,7 +7174,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Yes. Medicare Advantage plans are required to cover all Medicare preventive services at $0 cost when you use in-network providers. Cologuard is a Medicare-covered preventive service, so it is covered at $0 by all Medicare Advantage plans for eligible beneficiaries.",
       },
       {
-        question: "What if I Have Symptoms —— Will Medicare Cover Cologuard?",
+        question: "What if I Have Symptoms — Will Medicare Cover Cologuard?",
         answer:
           "No. If you have symptoms of colorectal cancer such as rectal bleeding, unexplained weight loss, or changes in bowel habits, Cologuard is not appropriate as a screening test. Your doctor will order a diagnostic colonoscopy instead, which is covered under Part B with standard cost-sharing (20% coinsurance after your deductible).",
       },
@@ -7258,7 +7258,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts a && B)",
+        planName: "Original Medicare (Parts a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -7486,7 +7486,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts a, B && D)",
+        planName: "Original Medicare (Parts a, B & D)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered When Medically Necessary",
@@ -7770,7 +7770,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Some MAPD plans cover HRT at $0 out of pocket, while others require copays or coinsurance. Compare plans carefully to find the best coverage for your specific medications.",
       },
       {
-        planName: "Original Medicare (Parts a && B)",
+        planName: "Original Medicare (Parts a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -7898,7 +7898,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-leqembi",
     seo: {
-      title: "Does Medicare Cover Leqembi? 2026 Coverage && Cost Guide",
+      title: "Does Medicare Cover Leqembi? 2026 Coverage & Cost Guide",
       description: "Medicare covers Leqembi (lecanemab) for early Alzheimer's disease under Part B with a doctor-supervised infusion. Learn about eligibility, costs, and what Medigap covers.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-leqembi/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-leqembi.jpg",
@@ -8370,7 +8370,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -8421,7 +8421,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "Medicaid && Other Programs",
+        planName: "Medicaid & Other Programs",
         icon: "users",
         iconColor: "#7C3AED",
         coverageLabel: "Sometimes Covered",
@@ -8546,7 +8546,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-medical-alert-systems",
     seo: {
-      title: "Does Medicare Cover Medical Alert Systems? Life Alert && More",
+      title: "Does Medicare Cover Medical Alert Systems? Life Alert & More",
       description: "Original Medicare does not cover Life Alert or medical alert systems. Some Medicare Advantage plans may include them as supplemental benefits. Learn about costs and alternatives.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-medical-alert-systems.jpg",
@@ -8584,7 +8584,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -9028,7 +9028,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts a && B)",
+        planName: "Original Medicare (Parts a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered (Routine)",
@@ -9062,7 +9062,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Dental Services: Medicare Coverage && Your Costs",
+      title: "Dental Services: Medicare Coverage & Your Costs",
       headers: ["Service", "Original Medicare", "Medicare Advantage", "Stand-Alone Dental Plan"],
       rows: [
         { "Service": "Routine Cleaning", "Original Medicare": "Not covered", "Medicare Advantage": "Often $0 (preventive)", "Stand-Alone Dental Plan": "Often $0–$20 copay" },
@@ -9186,7 +9186,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts a && B)",
+        planName: "Original Medicare (Parts a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -9220,7 +9220,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Incontinence Supplies: Coverage && Cost Overview",
+      title: "Incontinence Supplies: Coverage & Cost Overview",
       headers: ["Supply Type", "Original Medicare", "Medicare Advantage", "Out-of-Pocket Cost"],
       rows: [
         { "Supply Type": "Adult Diapers / Briefs", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Out-of-Pocket Cost": "$20–$60/month" },
@@ -10014,7 +10014,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts a && B)",
+        planName: "Original Medicare (Parts a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered — FDA-approved therapies only",
@@ -10412,7 +10412,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts a && B)",
+        planName: "Original Medicare (Parts a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered — comprehensive cancer coverage",
@@ -10618,7 +10618,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Parts a && B)",
+        planName: "Original Medicare (Parts a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered — when eligibility requirements are met",
@@ -11041,7 +11041,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -11860,7 +11860,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     legislativeUpdate: {
-      title: "Legislative && Regulatory Updates on Wegovy Coverage",
+      title: "Legislative & Regulatory Updates on Wegovy Coverage",
       items: [
         {
           title: "2024 CMS Guidance: Cardiovascular Indication",
@@ -12214,7 +12214,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "x",
         iconColor: "#DC2626",
         coverageLabel: "Not Covered",
@@ -12486,7 +12486,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "x",
         iconColor: "#DC2626",
         coverageLabel: "Not Covered",
@@ -12650,7 +12650,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B —— Outpatient)",
+        planName: "Original Medicare (Part B — Outpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -12677,7 +12677,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Annual screening and up to four counseling sessions: $0. Additional outpatient therapy: 20% coinsurance after the $283 Part B deductible (2026).",
       },
       {
-        planName: "Original Medicare (Part a —— Inpatient)",
+        planName: "Original Medicare (Part a — Inpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -12875,7 +12875,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Part B —— Outpatient && Home Health",
+        planName: "Medicare Part B — Outpatient & Home Health",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -12904,7 +12904,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). Home health care covered by Medicare is $0 for approved services.",
       },
       {
-        planName: "Medicare Part a —— Inpatient && Hospice",
+        planName: "Medicare Part a — Inpatient & Hospice",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -13100,7 +13100,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B —— DME)",
+        planName: "Original Medicare (Part B — DME)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Limited Coverage",
@@ -13539,7 +13539,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B —— Outpatient)",
+        planName: "Original Medicare (Part B — Outpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -13568,7 +13568,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Preventive cardiovascular services: $0. Outpatient diagnostic services and cardiologist visits: 20% coinsurance after $283 Part B deductible (2026).",
       },
       {
-        planName: "Original Medicare (Part a —— Inpatient)",
+        planName: "Original Medicare (Part a — Inpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -13769,7 +13769,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B) —— Screening Colonoscopies",
+        planName: "Original Medicare (Part B) — Screening Colonoscopies",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered at 100%",
@@ -13793,7 +13793,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Screening colonoscopy: $0 (no deductible, no coinsurance). Anesthesia for screening colonoscopy: $0.",
       },
       {
-        planName: "Original Medicare (Part B) —— Diagnostic Colonoscopies",
+        planName: "Original Medicare (Part B) — Diagnostic Colonoscopies",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial — 80% Covered",
@@ -14442,7 +14442,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -14666,7 +14666,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part B —— Hip Injections)",
+        planName: "Original Medicare (Part B — Hip Injections)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -14692,7 +14692,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "You pay 20% coinsurance after the $283 annual Part B deductible (2026) for covered hip injections.",
       },
       {
-        planName: "Original Medicare (Part a —— Hip Replacement)",
+        planName: "Original Medicare (Part a — Hip Replacement)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -14889,7 +14889,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && Part B —— Home Health)",
+        planName: "Original Medicare (Part a & Part B — Home Health)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered at $0",
@@ -15390,7 +15390,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions && Limitations",
+      title: "Important Exceptions & Limitations",
       items: [
         { title: "Spinal Decompression Therapy is Generally...", text: "Spinal decompression therapy is generally not considered medically necessary by Medicare" },
         { title: "You Must Prove Alternative Treatments...", text: "You must prove alternative treatments were unsuccessful before Medicare covers epidural injections or RFA" },
@@ -15568,7 +15568,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions && Limitations",
+      title: "Important Exceptions & Limitations",
       items: [
         { title: "You Must Have a Progressive...", text: "You must have a progressive end-stage cardiopulmonary or pulmonary diagnosis to qualify" },
         { title: "All Other Treatment Options Must...", text: "All other treatment options must be exhausted before Medicare approves the transplant" },
@@ -15740,7 +15740,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions && Limitations",
+      title: "Important Exceptions & Limitations",
       items: [
         { title: "Oxygen Saturation Must be Below...", text: "Oxygen saturation must be below 88% at rest or below 90% during activity to qualify" },
         { title: "You Must Have a Written...", text: "You must have a written prescription from your doctor for oxygen therapy" },
@@ -15912,7 +15912,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions && Limitations",
+      title: "Important Exceptions & Limitations",
       items: [
         { title: "A Doctor Must Determine The...", text: "A doctor must determine the pacemaker is medically necessary for your cardiac condition" },
         { title: "You Must Have Cardiac Irregularities...", text: "You must have cardiac irregularities or atrial fibrillation that requires a pacemaker" },
@@ -16085,7 +16085,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions && Limitations",
+      title: "Important Exceptions & Limitations",
       items: [
         { title: "Physical Therapy Must be Prescribed...", text: "Physical therapy must be prescribed by a doctor and deemed medically necessary" },
         { title: "A $2,480 Threshold for PT...", text: "A $2,480 threshold for PT and speech therapy combined triggers a medical necessity review" },
@@ -16191,7 +16191,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -16263,7 +16263,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are estimates and vary by location, surgeon, and facility. Medicare covers 80% of the approved amount after the Part B deductible for outpatient procedures.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Prior Authorization",
+      title: "Important Exceptions & Prior Authorization",
       items: [
         { title: "Prior Authorization is Required", text: "Prior authorization is required for all medically necessary plastic surgery. Your physician must submit records to a Medicare Administrative Contractor for approval before the procedure." },
         { title: "Tummy Tuck Requires 6-month Weight Stability", text: "To qualify for a tummy tuck after weight loss, you must maintain stable weight for at least 6 months and try non-surgical treatments for at least 3 months." },
@@ -16367,7 +16367,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -16424,7 +16424,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "PSA Test && Prostate Care Cost Estimates",
+      title: "PSA Test & Prostate Care Cost Estimates",
       headers: ["Service", "Cost Without Insurance", "Cost With Medicare"],
       rows: [
         { "Service": "Annual PSA screening", "Cost Without Insurance": "$100 – $300+", "Cost With Medicare": "$0 (preventive)" },
@@ -16436,7 +16436,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are estimates and vary by provider and location. Annual screening is covered at $0 for men 50+.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Limitations",
+      title: "Important Exceptions & Limitations",
       items: [
         { title: "Age Requirement for Free Screening", text: "Free annual PSA screening begins at age 50. Men under 50 may receive coverage only if a doctor deems the test medically necessary." },
         { title: "Frequency Limit of Once per 12 Months", text: "Medicare covers one PSA screening every 12 months. Additional tests within the same year require a medical necessity determination from your doctor." },
@@ -16538,7 +16538,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -16607,7 +16607,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Prescription medication costs vary by Part D plan formulary and tier. Counseling is always $0 under Part B.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Limitations",
+      title: "Important Exceptions & Limitations",
       items: [
         { title: "Provider Must Accept Medicare Assignment", text: "To receive $0 counseling, your provider must accept Medicare assignment. If they don't, you may be responsible for additional charges." },
         { title: "OTC Products are not Covered", text: "Medicare does not cover over-the-counter nicotine replacement products like gum, patches, or lozenges — only prescription medications through Part D." },
@@ -16671,12 +16671,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-stroke-victims",
     seo: {
-      title: "Medicare Coverage for Stroke Victims && Rehabilitation",
+      title: "Medicare Coverage for Stroke Victims & Rehabilitation",
       description: "Medicare covers stroke treatment, rehabilitation, skilled nursing, and DME. Learn about inpatient and outpatient coverage, costs, and supplemental options.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-stroke-victims/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-stroke-victims.jpg",
     },
-    title: "Medicare Coverage for Stroke Victims && Rehabilitation",
+    title: "Medicare Coverage for Stroke Victims & Rehabilitation",
     subtitle: "Medicare covers stroke treatment, inpatient and outpatient rehabilitation, skilled nursing facility care, durable medical equipment, and medications. Learn about coverage details, costs, and how supplemental plans can help reduce out-of-pocket expenses.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
@@ -16710,7 +16710,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -16767,7 +16767,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Stroke Treatment && Rehabilitation Cost Estimates",
+      title: "Stroke Treatment & Rehabilitation Cost Estimates",
       headers: ["Service", "Average Cost", "Medicare Coverage"],
       rows: [
         { "Service": "First-year stroke rehabilitation (total)", "Average Cost": "$17,000+", "Medicare Coverage": "Covered (cost-sharing applies)" },
@@ -16780,7 +16780,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are estimates and vary by provider, location, and severity of stroke. Medigap can significantly reduce out-of-pocket expenses.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Limitations",
+      title: "Important Exceptions & Limitations",
       items: [
         { title: "Long-term Custodial Care is not Covered", text: "Medicare does not cover long-term custodial care (bathing, feeding, toileting) if it is the only type of care needed. This type of care requires separate long-term care insurance." },
         { title: "SNF Requires Qualifying Hospital Stay", text: "To qualify for skilled nursing facility coverage, you must have a qualifying inpatient hospital stay of at least 3 consecutive days. Observation status does not count." },
@@ -16882,7 +16882,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -16931,7 +16931,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Wheelchair && Scooter Cost Estimates with Medicare",
+      title: "Wheelchair & Scooter Cost Estimates with Medicare",
       headers: ["Device Type", "Typical Cost", "Your Cost with Medicare (20%)"],
       rows: [
         { "Device Type": "Manual wheelchair (basic)", "Typical Cost": "$100 – $500", "Your Cost with Medicare (20%)": "$20 – $100" },
@@ -16944,7 +16944,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Costs are estimates and vary by model, supplier, and location. Medigap can cover the 20% coinsurance. Medicare's competitive bidding program may affect pricing in some areas.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Requirements",
+      title: "Important Exceptions & Requirements",
       items: [
         { title: "Face-to-face Exam is Required", text: "Your doctor must conduct a face-to-face examination before prescribing a wheelchair or scooter. During this exam, your doctor assesses your mobility limitations and determines the appropriate device." },
         { title: "Power Wheelchairs Require Prior Authorization", text: "Before Medicare will cover a power wheelchair, prior authorization must be obtained. Your doctor must submit documentation proving medical necessity and your ability to safely operate the device." },
@@ -17011,7 +17011,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-std-treatments-and-services-does-medicare-cover",
     seo: {
-      title: "Does Medicare Cover STD Testing && Treatment?",
+      title: "Does Medicare Cover STD Testing & Treatment?",
       description: "Medicare Part B covers STD/STI screenings for gonorrhea, syphilis, chlamydia, hepatitis B, and HIV at no cost. Learn about coverage, treatments, and Part D medications.",
       canonical: "https://www.medicarefaq.com/faqs/what-std-treatments-and-services-does-medicare-cover/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-std-testing.jpg",
@@ -17050,7 +17050,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -17238,7 +17238,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -17425,7 +17425,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
@@ -17611,7 +17611,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -17794,7 +17794,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18025,7 +18025,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "You pay 20% coinsurance after your $283 annual Part B deductible for most covered services. A Medigap plan can cover this 20%, significantly reducing your out-of-pocket costs.",
       },
       {
-        planName: "Medicare Part a (Inpatient && Skilled Nursing)",
+        planName: "Medicare Part a (Inpatient & Skilled Nursing)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -18185,7 +18185,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-memory-care",
     seo: {
-      title: "Does Medicare Cover Memory Care? || MedicareFAQ",
+      title: "Does Medicare Cover Memory Care? | MedicareFAQ",
       description: "Medicare does not cover long-term memory care facility costs, but it does cover many related medical services. Learn what Medicare pays for and how to plan for the gaps.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-memory-care/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -18277,7 +18277,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "You pay 20% coinsurance after the $283 annual Part B deductible. A Medigap plan can eliminate this cost-sharing.",
       },
       {
-        planName: "Medicare Part a (Skilled Nursing && Hospice)",
+        planName: "Medicare Part a (Skilled Nursing & Hospice)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -18350,7 +18350,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-glaucoma",
     seo: {
-      title: "Does Medicare Cover Glaucoma Testing and Treatment? || MedicareFAQ",
+      title: "Does Medicare Cover Glaucoma Testing and Treatment? | MedicareFAQ",
       description: "Medicare Part B covers annual glaucoma screenings for high-risk beneficiaries and medically necessary treatment. Learn who qualifies, what's covered, and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-glaucoma/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -18390,7 +18390,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Part B —— Glaucoma Screening",
+        planName: "Medicare Part B — Glaucoma Screening",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18417,7 +18417,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "You pay 20% coinsurance after the $283 annual Part B deductible for covered services. A Medigap plan can cover this 20%.",
       },
       {
-        planName: "Medicare Part D —— Prescription Eye Drops",
+        planName: "Medicare Part D — Prescription Eye Drops",
         icon: "shield",
         iconColor: "#0EA5E9",
         coverageLabel: "Covered",
@@ -18441,7 +18441,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Compare Part D plans each year during Open Enrollment (Oct 15 – Dec 7) to ensure your glaucoma medications are covered at the lowest tier.",
       },
       {
-        planName: "Medicare Advantage —— Additional Vision Benefits",
+        planName: "Medicare Advantage — Additional Vision Benefits",
         icon: "heart",
         iconColor: "#059669",
         coverageLabel: "Varies by Plan",
@@ -18509,7 +18509,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-home-health-care",
     seo: {
-      title: "Does Medicare Cover Home Health Care? || MedicareFAQ",
+      title: "Does Medicare Cover Home Health Care? | MedicareFAQ",
       description: "Medicare covers home health care when you are homebound and need skilled nursing or therapy services. Learn the eligibility requirements, what's covered, and what Medicare won't pay for.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-home-health-care/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -18550,7 +18550,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Home Health Coverage —— Eligibility Requirements",
+        planName: "Medicare Home Health Coverage — Eligibility Requirements",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18662,7 +18662,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-durable-medical-equipment",
     seo: {
-      title: "Does Medicare Cover Durable Medical Equipment (DME)? || MedicareFAQ",
+      title: "Does Medicare Cover Durable Medical Equipment (DME)? | MedicareFAQ",
       description: "Medicare Part B covers durable medical equipment including wheelchairs, walkers, CPAP machines, and hospital beds when ordered by a physician. Learn what qualifies and what you'll pay.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-durable-medical-equipment/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -18703,7 +18703,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Medicare Part B —— DME Coverage Requirements",
+        planName: "Medicare Part B — DME Coverage Requirements",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18848,7 +18848,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -18971,7 +18971,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19094,7 +19094,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -19216,7 +19216,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19338,7 +19338,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19460,7 +19460,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -19582,7 +19582,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -19703,7 +19703,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -20068,7 +20068,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Partial",
@@ -20152,7 +20152,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-braces-devices",
     seo: {
-      title: "Medicare Approved Braces and Devices || MedicareFAQ",
+      title: "Medicare Approved Braces and Devices | MedicareFAQ",
       description: "Find out what Medicare-approved braces and devices are covered under Part B. This includes braces for arm, leg, back, and neck when medically necessary.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-braces-devices/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-approved-braces-and-devices.jpg",
@@ -20196,7 +20196,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
@@ -20402,7 +20402,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { label: "What is MQGE", href: "/faqs/medicare-qualified-government-wages" },
       { label: "Who Qualifies", href: "/faqs/medicare-qualified-government-wages" },
       { label: "Part a Premiums", href: "/faqs/medicare-qualified-government-wages" },
-      { label: "FEHB && Medicare", href: "/faqs/medicare-qualified-government-wages" },
+      { label: "FEHB & Medicare", href: "/faqs/medicare-qualified-government-wages" },
       { label: "FAQs", href: "/faqs/medicare-qualified-government-wages" },
     ],
     comparisonTable: [
@@ -20571,7 +20571,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "FEHB and Medicare", description: "How Federal Employee Health Benefits work alongside Medicare coverage.", slug: "fehb-and-medicare" },
       { title: "Medicare Costs in 2026", description: "Complete breakdown of Medicare premiums, deductibles, and costs for 2026.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
-      { title: "Medicare Penalties && Deadlines", description: "Avoid costly late enrollment penalties with this comprehensive guide.", slug: "protect-yourself-from-medicare-penalties-and-deadlines" },
+      { title: "Medicare Penalties & Deadlines", description: "Avoid costly late enrollment penalties with this comprehensive guide.", slug: "protect-yourself-from-medicare-penalties-and-deadlines" },
       { title: "Guide to Retirement Planning", description: "Plan your Medicare coverage as part of your overall retirement strategy.", slug: "guide-to-retirement-planning" },
     ],
     sidebarRelatedLinks: [
@@ -20591,12 +20591,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-and-divorce",
     seo: {
-      title: "Medicare and Divorce: Eligibility, Benefits && What You Need to Know",
+      title: "Medicare and Divorce: Eligibility, Benefits & What You Need to Know",
       description: "Learn how divorce affects your Medicare eligibility, whether you can use your ex-spouse's work record for premium-free Part A, and what coverage options are available.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-and-divorce/",
       ogImage: "https://images.pexels.com/photos/7551604/pexels-photo-7551604.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
-    title: "Medicare and Divorce: Eligibility, Benefits && What You Need to Know",
+    title: "Medicare and Divorce: Eligibility, Benefits & What You Need to Know",
     subtitle: "How divorce affects your Medicare eligibility and whether you can qualify for premium-free Part A through your ex-spouse's work record.",
     category: "Coverage Q&A",
     dateUpdated: "April 28, 2026",
@@ -20801,7 +20801,7 @@ export const coverageArticles: CoverageArticleData[] = [
         slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes",
       },
       {
-        title: "Medicare Penalties && Deadlines",
+        title: "Medicare Penalties & Deadlines",
         description: "Avoid costly late enrollment penalties with this guide.",
         slug: "protect-yourself-from-medicare-penalties-and-deadlines",
       },
@@ -21669,7 +21669,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "advance-beneficiary-notice",
     seo: {
-      title: "Medicare Advance Beneficiary Notice (ABN): What it Means && Your Options",
+      title: "Medicare Advance Beneficiary Notice (ABN): What it Means & Your Options",
       description: "Learn what a Medicare Advance Beneficiary Notice of Noncoverage (ABN) means, when providers must give you one, and what options you have when you receive it.",
       canonical: "https://www.medicarefaq.com/faqs/advance-beneficiary-notice/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-advance-beneficiary-notice-of-noncoverage.jpg",
@@ -21872,13 +21872,13 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-benefits",
     seo: {
-      title: "Can You Lose Your Medicare Benefits? || MedicareFAQ",
+      title: "Can You Lose Your Medicare Benefits? | MedicareFAQ",
       description: "Learn the scenarios that can cause you to lose Medicare benefits, including non-payment, fraud, disability recovery, and moving. Plus how to protect your coverage.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-benefits/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/can-you-lose-your-medicare-benefits.jpg",
     },
     title: "Can You Lose Your Medicare Benefits?",
-    subtitle: "Understanding the Scenarios that Could Put Your Medicare Coverage at Risk —— and How to Prevent Them.",
+    subtitle: "Understanding the Scenarios that Could Put Your Medicare Coverage at Risk — and How to Prevent Them.",
     category: "Medicare Eligibility",
     dateUpdated: "April 29, 2026",
     author: {
@@ -22059,7 +22059,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Late enrollment penalties for Part B and Part D are permanent surcharges added to your monthly premium for as long as you have coverage.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Protections",
+      title: "Important Exceptions & Protections",
       items: [
         {
           title: "Age-Based Eligibility is Permanent",
@@ -22164,7 +22164,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-reimbursement",
     seo: {
-      title: "Medicare Reimbursement: How to File a Claim && Get Paid Back || MedicareFAQ",
+      title: "Medicare Reimbursement: How to File a Claim & Get Paid Back | MedicareFAQ",
       description: "Learn how Medicare reimbursement works, when you need to file a claim yourself, what forms are required, and how assignment affects your out-of-pocket costs.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-reimbursement/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-reimbursement.jpg",
@@ -22331,7 +22331,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "The Part B deductible for 2025 is $257. After meeting the deductible, Medicare pays 80% of the approved amount for most Part B services.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Special Situations",
+      title: "Important Exceptions & Special Situations",
       items: [
         {
           title: "12-Month Filing Deadline",
@@ -22437,7 +22437,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-for-green-card-holders",
     seo: {
-      title: "Medicare for Green Card Holders (Medicare for Immigrants) || MedicareFAQ",
+      title: "Medicare for Green Card Holders (Medicare for Immigrants) | MedicareFAQ",
       description: "Medicare for green card holders is possible when proper residency status has been established. Learn eligibility, enrollment, costs, and the 2025 law changes.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-for-green-card-holders/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-for-Green-Card-Holders-2.jpg",
@@ -22630,7 +22630,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part A premiums for those who must buy in are in addition to the Part B premium. If you must purchase Part A, you are also required to enroll in and pay for Part B.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Special Situations",
+      title: "Important Exceptions & Special Situations",
       items: [
         {
           title: "Spouse's Work History Counts",
@@ -22656,7 +22656,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "2025 Legislative Changes (H.R. 1)",
       items: [
         {
-          title: "Medicare Eligibility Restricted to Citizens && Green Card Holders",
+          title: "Medicare Eligibility Restricted to Citizens & Green Card Holders",
           status: "Passed",
           description: "Starting July 2025, only U.S. citizens, lawful permanent residents (green card holders), Cuban-Haitian entrants, and COFA residents are eligible for Medicare. Refugees, asylees, and TPS holders who haven't obtained green cards will lose eligibility by January 2027.",
         },
@@ -22742,7 +22742,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-low-income-subsidy",
     seo: {
-      title: "Medicare Low Income Subsidy (Extra Help): Eligibility && Benefits || MedicareFAQ",
+      title: "Medicare Low Income Subsidy (Extra Help): Eligibility & Benefits | MedicareFAQ",
       description: "The Medicare Low Income Subsidy (LIS), also called Extra Help, reduces Part D drug costs for people with limited income. Learn eligibility, income limits, and how to apply.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-low-income-subsidy/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/low-income-subsidies-and-medicare.jpeg",
@@ -22829,7 +22829,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "Eligibility: Income && Resource Limits",
+        planName: "Eligibility: Income & Resource Limits",
         icon: "dollar-sign",
         iconColor: "text-green-600",
         coverageLabel: "2025-2026 Thresholds",
@@ -22911,7 +22911,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Copay amounts for full Extra Help are set by CMS and updated annually. Partial Extra Help has different copay levels based on income.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Special Situations",
+      title: "Important Exceptions & Special Situations",
       items: [
         {
           title: "Automatic Qualification",
@@ -23288,12 +23288,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-beneficiary-identifiers",
     seo: {
-      title: "Medicare Cards && Medicare Beneficiary Identifiers (MBI) || MedicareFAQ",
+      title: "Medicare Cards & Medicare Beneficiary Identifiers (MBI) | MedicareFAQ",
       description: "Learn what a Medicare Beneficiary Identifier (MBI) is, how to find yours, what the format means, and how to protect your Medicare card from fraud.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-beneficiary-identifiers/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-cards-and-medicare-beneficiary-identifiers.jpg",
     },
-    title: "Medicare Cards && Medicare Beneficiary Identifiers",
+    title: "Medicare Cards & Medicare Beneficiary Identifiers",
     subtitle: "Your Medicare Beneficiary Identifier (MBI) is your unique Medicare ID number. It replaced Social Security Numbers on Medicare cards to protect against identity theft.",
     category: "Medicare Basics",
     dateUpdated: "April 29, 2026",
@@ -23442,7 +23442,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Medicare Card && MBI Quick Reference",
+      title: "Medicare Card & MBI Quick Reference",
       headers: ["Item", "Details", "Where to Find"],
       rows: [
         { "Item": "Medicare Beneficiary Identifier (MBI)", "Details": "11-character alphanumeric ID", "Where to Find": "Medicare card, Medicare.gov, MSN"},
@@ -23454,7 +23454,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "If you have Medicare Advantage, use your plan's ID card when seeking care. Your red, white, and blue Medicare card is still needed for some transactions.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Special Situations",
+      title: "Important Exceptions & Special Situations",
       items: [
         {
           title: "Medicare Advantage Members",
@@ -23491,7 +23491,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     alternativesSection: {
-      title: "Protecting Your Medicare Card && MBI",
+      title: "Protecting Your Medicare Card & MBI",
       paragraphs: [
         "Your MBI is sensitive personal information. Follow these steps to protect it and respond quickly if it's compromised.",
       ],
@@ -23559,7 +23559,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "irmaa",
     seo: {
-      title: "IRMAA: What is IRMAA in Medicare? 2026 Brackets && How to Appeal || MedicareFAQ",
+      title: "IRMAA: What is IRMAA in Medicare? 2026 Brackets & How to Appeal | MedicareFAQ",
       description: "IRMAA is the Income-Related Monthly Adjustment Amount added to Medicare Part B and Part D premiums for higher-income beneficiaries. See 2026 brackets, surcharges, and how to appeal.",
       canonical: "https://www.medicarefaq.com/faqs/irmaa/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/income-related-monthly-adjustment-amount-irmaa.jpg",
@@ -23761,7 +23761,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "2026 IRMAA is based on 2024 MAGI. Part B standard premium is $202.90/month. Part D IRMAA is in addition to your plan's monthly premium. Married filing separately uses narrower brackets.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Special Situations",
+      title: "Important Exceptions & Special Situations",
       items: [
         {
           title: "Married Filing Separately",
@@ -23872,7 +23872,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-vs-medicaid",
     seo: {
-      title: "Medicare vs. Medicaid: Key Differences, Dual Eligibility && How to Qualify for Both || MedicareFAQ",
+      title: "Medicare vs. Medicaid: Key Differences, Dual Eligibility & How to Qualify for Both | MedicareFAQ",
       description: "Medicare and Medicaid are two separate government health programs. Learn the key differences, who qualifies, what each covers, and how to get both at the same time.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-vs-medicaid/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-and-medicaid-how-to-qualify-for-both.jpg",
@@ -24064,7 +24064,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Medicaid benefits and income limits vary by state. Dual eligible beneficiaries may qualify for Medicare Savings Programs that cover Part B premiums and cost-sharing.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Special Situations",
+      title: "Important Exceptions & Special Situations",
       items: [
         {
           title: "Medicare Savings Programs (MSPs)",
@@ -24175,7 +24175,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-easy-pay",
     seo: {
-      title: "Medicare Easy Pay: How to Set up Automatic Premium Payments || MedicareFAQ",
+      title: "Medicare Easy Pay: How to Set up Automatic Premium Payments | MedicareFAQ",
       description: "Medicare Easy Pay is a free service that automatically deducts your Medicare premiums from your bank account. Learn how to enroll, what it covers, and how it compares to other payment options.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-easy-pay/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-easy-pay.jpeg",
@@ -24340,7 +24340,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part B standard premium is $202.90/month in 2026. Easy Pay and Social Security deductions are the most reliable methods to avoid missed payments.",
     },
     exceptionsSection: {
-      title: "Important Notes && Exceptions",
+      title: "Important Notes & Exceptions",
       items: [
         {
           title: "Part D and Medicare Advantage Premiums",
@@ -24446,7 +24446,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "how-to-file-a-medicare-claim",
     seo: {
-      title: "How to File a Medicare Claim: Step-by-Step Guide (Form CMS-1490S) || MedicareFAQ",
+      title: "How to File a Medicare Claim: Step-by-Step Guide (Form CMS-1490S) | MedicareFAQ",
       description: "In most cases your provider files Medicare claims for you. Learn when and how to file your own Medicare claim using Form CMS-1490S, deadlines, and what to do if your provider refuses.",
       canonical: "https://www.medicarefaq.com/faqs/how-to-file-a-medicare-claim/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/How-to-File-a-Medicare-Claim.jpg",
@@ -24613,7 +24613,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Always keep copies of all submitted documents. Provider-filed claims are the standard; self-filing is only needed in rare circumstances.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Special Situations",
+      title: "Important Exceptions & Special Situations",
       items: [
         {
           title: "Opt-Out Providers",
@@ -24715,7 +24715,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medigap-birthday-rule",
     seo: {
-      title: "Medigap Birthday Rule: Which States Have it and How to Use it || MedicareFAQ",
+      title: "Medigap Birthday Rule: Which States Have it and How to Use it | MedicareFAQ",
       description: "The Medigap birthday rule gives you a limited window each year to switch Medicare Supplement plans without medical underwriting. Learn which states have it and how to use it.",
       canonical: "https://www.medicarefaq.com/faqs/medigap-birthday-rule/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/what-states-have-the-medigap-birthday-rule.jpg",
@@ -24891,7 +24891,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Rules change frequently. Always verify current state rules with your state's Department of Insurance before switching plans.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Notes",
+      title: "Important Exceptions & Notes",
       items: [
         {
           title: "Missouri Anniversary Rule",
@@ -24997,7 +24997,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-is-medicare-assignment",
     seo: {
-      title: "Medicare Assignment: What it Means and How it Affects Your Costs || MedicareFAQ",
+      title: "Medicare Assignment: What it Means and How it Affects Your Costs | MedicareFAQ",
       description: "Medicare assignment means a provider agrees to accept Medicare's approved amount as full payment. Learn how it affects your costs and what happens when a doctor doesn't accept assignment.",
       canonical: "https://www.medicarefaq.com/faqs/what-is-medicare-assignment/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/What-is-Medicare-Assignment-What-Doctors-Accept-It.jpg",
@@ -25156,7 +25156,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part B deductible is $257 in 2026. After meeting the deductible, you pay 20% coinsurance for participating providers. Non-participating providers can add up to 15% on top of that.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Notes",
+      title: "Important Exceptions & Notes",
       items: [
         {
           title: "Medicare Advantage and Assignment",
@@ -25555,7 +25555,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-visiting-angels",
     seo: {
-      title: "Is Visiting Angels Covered by Medicare? || MedicareFAQ",
+      title: "Is Visiting Angels Covered by Medicare? | MedicareFAQ",
       description: "Medicare does not cover most Visiting Angels custodial care services. Learn what Medicare does and doesn't cover for home care, and what alternatives exist for paying for Visiting Angels.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-visiting-angels/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/is-visiting-angels-covered-by-medicare.jpg",
@@ -25725,7 +25725,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Visiting Angels is a Medicare-certified home health agency in many locations. Skilled care services may be covered when all Medicare requirements are met.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Notes",
+      title: "Important Exceptions & Notes",
       items: [
         {
           title: "Medicare Advantage Supplemental Benefits",
@@ -25737,7 +25737,7 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "If you qualify for Medicaid, Home and Community-Based Services (HCBS) waivers may cover personal care and home health aide services from agencies like Visiting Angels. Eligibility is income and asset-based and varies by state.",
         },
         {
-          title: "Veterans Aid && Attendance Benefit",
+          title: "Veterans Aid & Attendance Benefit",
           text: "Veterans and surviving spouses may qualify for the VA Aid & Attendance benefit, which provides monthly payments that can be used to pay for home care services including those from Visiting Angels.",
         },
         {
@@ -25826,7 +25826,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "how-tricare-works-with-medicare",
     seo: {
-      title: "How TRICARE Works with Medicare in 2026 || MedicareFAQ",
+      title: "How TRICARE Works with Medicare in 2026 | MedicareFAQ",
       description: "TRICARE For Life is Medicare-wraparound coverage for military retirees. Learn how TRICARE and Medicare coordinate benefits, what TFL covers, 2026 costs, and how to avoid gaps in coverage.",
       canonical: "https://www.medicarefaq.com/faqs/how-tricare-works-with-medicare/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/how-tricare-for-life-works-with-medicare.jpg",
@@ -26018,7 +26018,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part B premium: $185.00/month (2026). TFL catastrophic cap: $3,000/year. TRICARE deductible (E-4+): $150/individual, $300/family.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Notes",
+      title: "Important Exceptions & Notes",
       items: [
         {
           title: "DEERS Enrollment is Required",
@@ -26110,7 +26110,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "TRICARE pharmacy = creditable Part D coverage; no separate Part D plan needed" },
     ],
     relatedTopics: [
-      { title: "TRICARE, VA && Medicare", description: "How all three programs intersect.", slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare" },
+      { title: "TRICARE, VA & Medicare", description: "How all three programs intersect.", slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare" },
       { title: "Medicare and VA Benefits", description: "Using VA benefits alongside Medicare.", slug: "medicare-and-va-benefits" },
       { title: "Medigap vs. MA for Veterans", description: "Choosing the right supplemental coverage.", slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage" },
       { title: "Dual Residency and Medicare", description: "How dual residency affects Medicare.", slug: "how-dual-residency-and-medicare-works" },
@@ -26126,7 +26126,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-vision-care-coverage",
     seo: {
-      title: "Does Medicare Cover Vision Care in 2026? || MedicareFAQ",
+      title: "Does Medicare Cover Vision Care in 2026? | MedicareFAQ",
       description: "Original Medicare does not cover routine eye exams or glasses. Learn what Medicare does cover for vision — including cataract surgery, glaucoma screenings, and diabetic eye exams — and how to get full vision coverage.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-vision-care-coverage/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-vision.jpg",
@@ -26295,7 +26295,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part B deductible: $257 in 2026. Medigap plans can cover the 20% Part B cost-share for covered services. MA vision benefits vary by plan.",
     },
     exceptionsSection: {
-      title: "Important Exceptions && Notes",
+      title: "Important Exceptions & Notes",
       items: [
         {
           title: "Glasses after Cataract Surgery",
@@ -26383,7 +26383,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Does Medicare Cover Glasses?", description: "Eyeglass coverage rules explained.", slug: "does-medicare-cover-glasses" },
       { title: "Does Medicare Cover Cataract Surgery?", description: "Full cataract surgery coverage details.", slug: "does-medicare-cover-cataract-surgery" },
       { title: "Macular Degeneration", description: "Medicare coverage for AMD treatment.", slug: "does-medicare-cover-macular-degeneration" },
-      { title: "Dental, Vision && Hearing", description: "Overview of all three coverage gaps.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
+      { title: "Dental, Vision & Hearing", description: "Overview of all three coverage gaps.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
     ],
     sidebarRelatedLinks: ["Glasses", "Cataract Surgery", "Macular Degeneration", "Dental/Vision/Hearing"],
     ctaBanner: {
@@ -26396,7 +26396,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "manufacturers-coupons-and-medicare",
     seo: {
-      title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries || MedicareFAQ",
+      title: "Prescription Discount Cards and Coupons for Medicare Beneficiaries | MedicareFAQ",
       description: "Can Medicare beneficiaries use GoodRx, manufacturer coupons, or prescription discount cards? Learn the rules, when to use them, and how to save on drug costs in 2026.",
       canonical: "https://www.medicarefaq.com/faqs/manufacturers-coupons-and-medicare/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/prescription-discount-cards-and-coupons.jpg",
@@ -26563,7 +26563,7 @@ export const coverageArticles: CoverageArticleData[] = [
       footnote: "Part D OOP cap: $2,000 in 2026. Extra Help copays: $4.90 generic / $12.15 brand in 2026. Insulin cap: $35/month.",
     },
     exceptionsSection: {
-      title: "Important Rules && Exceptions",
+      title: "Important Rules & Exceptions",
       items: [
         {
           title: "The $2,000 Part D Cap Changes the Math",
@@ -26593,7 +26593,7 @@ export const coverageArticles: CoverageArticleData[] = [
           description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000/year starting in 2025. This makes using Part D more valuable for expensive drugs.",
         },
         {
-          title: "Medicare Drug Price Negotiation —— 10 Drugs in 2026",
+          title: "Medicare Drug Price Negotiation — 10 Drugs in 2026",
           status: "Passed",
           description: "CMS negotiated prices for 10 high-cost drugs take effect in 2026, including Eliquis, Jardiance, Xarelto, and others. Part D enrollees pay these lower negotiated prices.",
         },
@@ -26961,7 +26961,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "QMB —— Qualified Medicare Beneficiary",
+        planName: "QMB — Qualified Medicare Beneficiary",
         icon: "shield",
         iconColor: "#059669",
         coverageLabel: "Most Comprehensive",
@@ -26984,7 +26984,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "SLMB —— Specified Low-Income Medicare Beneficiary",
+        planName: "SLMB — Specified Low-Income Medicare Beneficiary",
         icon: "dollar-sign",
         iconColor: "#1B2A4A",
         coverageLabel: "Part B Premium Only",
@@ -27006,7 +27006,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
       },
       {
-        planName: "QI —— Qualifying Individual",
+        planName: "QI — Qualifying Individual",
         icon: "users",
         iconColor: "#7C3AED",
         coverageLabel: "Part B Premium Only",
@@ -27034,7 +27034,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
       {
-        planName: "QDWI —— Qualified Disabled and Working Individual",
+        planName: "QDWI — Qualified Disabled and Working Individual",
         icon: "activity",
         iconColor: "#D97706",
         coverageLabel: "Part A Premium Only",
@@ -27176,12 +27176,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "what-is-medicare-cost-sharing",
     seo: {
-      title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance && Medigap Plans Explained",
+      title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
       description: "Medicare cost-sharing includes premiums, deductibles, copays, and coinsurance. Learn how each works, what you owe in 2026, and how Medigap cost-sharing plans (Plan K, L, M, N) reduce your out-of-pocket costs.",
       canonical: "https://www.medicarefaq.com/faqs/what-is-medicare-cost-sharing/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/top-medicare-cost-sharing-plans.jpg",
     },
-    title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance && Medigap Plans Explained",
+    title: "Medicare Cost-Sharing: Deductibles, Copays, Coinsurance & Medigap Plans Explained",
     subtitle: "Medicare cost-sharing refers to the portion of healthcare costs you pay out of pocket — including premiums, deductibles, copays, and coinsurance. Medigap cost-sharing plans (Plan K, L, M, N) offer lower premiums in exchange for sharing some of these costs.",
     category: "Costs & Savings",
     dateUpdated: "April 29, 2026",
@@ -28484,7 +28484,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     ],
     costTable: {
-      title: "Dental, Vision && Hearing Coverage Costs at a Glance (2026)",
+      title: "Dental, Vision & Hearing Coverage Costs at a Glance (2026)",
       headers: ["Coverage Type", "Monthly Cost", "Annual Maximum/Allowance", "Best For"],
       rows: [
         { "Coverage Type": "MA Dental (preventive)", "Monthly Cost": "$0 (included in plan)", "Annual Maximum/Allowance": "$1,000–$2,500", "Best For": "Basic cleanings and exams" },
@@ -28520,7 +28520,7 @@ export const coverageArticles: CoverageArticleData[] = [
         "If you have Original Medicare + Medigap, purchase standalone dental and vision plans year-round. For hearing, consider OTC hearing aids for mild-moderate loss or a hearing discount program to reduce costs.",
       ],
       checklist: {
-        title: "Coverage Checklist for Dental, Vision && Hearing",
+        title: "Coverage Checklist for Dental, Vision & Hearing",
         items: [
           "Compare MA plans on Medicare.gov during AEP (Oct 15–Dec 7) — filter by dental/vision/hearing benefits",
           "Check if your current dentist and eye doctor are in-network before switching MA plans",
@@ -28555,7 +28555,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     sidebarRelatedLinks: ["does-medicare-cover-dental-implants", "does-medicare-cover-glasses", "does-medicare-cover-hearing-aids"],
     ctaBanner: {
-      title: "Find a Medicare Plan with Dental, Vision && Hearing Coverage",
+      title: "Find a Medicare Plan with Dental, Vision & Hearing Coverage",
       text: "Our licensed agents can help you compare Medicare Advantage plans in your area and find the best dental, vision, and hearing benefits for your needs.",
     },
     relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-dental-implants", "does-medicare-cover-glasses", "does-medicare-cover-hearing-aids"],
@@ -28743,9 +28743,9 @@ export const coverageArticles: CoverageArticleData[] = [
     legislativeUpdate: {
       title: "Legislative Updates Driving 2026 Changes",
       items: [
-        { title: "Inflation Reduction Act —— Part D Redesign", status: "Passed", description: "The IRA's $2,000 OOP cap, drug price negotiation, and $35 insulin cap are all now in effect. The M3P payment plan is also available." },
+        { title: "Inflation Reduction Act — Part D Redesign", status: "Passed", description: "The IRA's $2,000 OOP cap, drug price negotiation, and $35 insulin cap are all now in effect. The M3P payment plan is also available." },
         { title: "10 Negotiated Drug Prices (Jan 1, 2026)", status: "Passed", description: "CMS negotiated prices for Eliquis, Xarelto, Jardiance, Farxiga, Entresto, Enbrel, Imbruvica, Stelara, Fiasp/NovoLog, and Januvia take effect." },
-        { title: "H.R. 1 —— Medicaid Work Requirements", status: "Proposed", description: "Proposed legislation would add work requirements for Medicaid, potentially affecting dual-eligible beneficiaries. Not yet passed." },
+        { title: "H.R. 1 — Medicaid Work Requirements", status: "Proposed", description: "Proposed legislation would add work requirements for Medicaid, potentially affecting dual-eligible beneficiaries. Not yet passed." },
       ],
     },
     alternativesSection: {
@@ -28969,7 +28969,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Important Exceptions and Considerations",
       items: [
         { title: "TRICARE for Life (TFL) vs. VA", text: "Military retirees may have TRICARE For Life in addition to VA benefits. TFL wraps around Medicare (pays after Medicare), while VA is separate. Having all three provides maximum coverage." },
-        { title: "VA Aid && Attendance", text: "Veterans who need help with daily activities may qualify for VA Aid & Attendance pension benefits, which can help pay for home care or assisted living costs not covered by Medicare or VA health benefits." },
+        { title: "VA Aid & Attendance", text: "Veterans who need help with daily activities may qualify for VA Aid & Attendance pension benefits, which can help pay for home care or assisted living costs not covered by Medicare or VA health benefits." },
         { title: "Service-Connected Disability", text: "Veterans with service-connected disabilities receive VA care at no cost for those conditions, regardless of income or priority group." },
         { title: "Enrollment in VA Health Care", text: "Having Medicare does not automatically enroll you in VA health care. You must separately apply for VA health benefits at VA.gov or your local VA medical center." },
       ],
@@ -29006,7 +29006,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { question: "Can I Use Both Medicare and VA Benefits?", answer: "Yes. They are separate programs that do not coordinate. Use VA for care at VA facilities and Medicare for non-VA providers." },
       { question: "Do VA Benefits Count as Creditable Coverage to Delay Medicare Part B?", answer: "No. VA benefits do NOT qualify for penalty-free Part B delay. Enroll in Part B at 65 to avoid the permanent late enrollment penalty." },
       { question: "Do VA Benefits Count as Creditable Coverage to Delay Part D?", answer: "Yes. VA drug coverage IS creditable for Part D. You can delay Part D without penalty as long as you have VA drug coverage." },
-      { question: "Which Pays First —— Medicare or VA?", answer: "They don't coordinate. VA pays for VA facility care; Medicare pays for non-VA care. There is no primary/secondary relationship." },
+      { question: "Which Pays First — Medicare or VA?", answer: "They don't coordinate. VA pays for VA facility care; Medicare pays for non-VA care. There is no primary/secondary relationship." },
       { question: "Should I Get Medigap if I Have VA Benefits?", answer: "It depends on how often you use non-VA providers. If you frequently use Medicare providers, Medigap Plan G can eliminate most cost-sharing." },
     ],
     quickReference: [
@@ -29182,7 +29182,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
     exceptionsSection: {
-      title: "Important Exceptions && Special Cases",
+      title: "Important Exceptions & Special Cases",
       items: [
         {
           title: "Railroad Retirement Board (RRB)",
@@ -29221,7 +29221,7 @@ export const coverageArticles: CoverageArticleData[] = [
           status: "Passed",
         },
         {
-          title: "H.R. 1 —— Medicaid Work Requirements",
+          title: "H.R. 1 — Medicaid Work Requirements",
           description: "Proposed cuts to Medicaid that could affect low-income Medicare beneficiaries who rely on Medicare Savings Programs.",
           status: "Proposed",
         },
@@ -29858,7 +29858,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a && B)",
+        planName: "Original Medicare (Part a & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Rarely Required",
@@ -31403,7 +31403,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-replacement-plans.jpg",
     },
     title: "What is a Medicare Replacement Plan?",
-    subtitle: "How Medicare Advantage Plans Replace Original Medicare —— and What that Means for You",
+    subtitle: "How Medicare Advantage Plans Replace Original Medicare — and What that Means for You",
     category: "Medicare Advantage",
     dateUpdated: "April 30, 2026",
     author: {
@@ -31629,12 +31629,12 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medical-rides",
     seo: {
-      title: "Does Medicare Cover Medical Transportation? Rides, Ambulance && More",
+      title: "Does Medicare Cover Medical Transportation? Rides, Ambulance & More",
       description: "Learn what Medicare covers for medical transportation — including ambulance rides, non-emergency medical transport, and Medicare Advantage ride benefits — and what you'll pay out of pocket.",
       canonical: "https://www.medicarefaq.com/faqs/medical-rides/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/transportation-services.jpg",
     },
-    title: "Medicare Coverage for Medical Rides && Transportation",
+    title: "Medicare Coverage for Medical Rides & Transportation",
     subtitle: "What Medicare Pays for Ambulance Services, Non-Emergency Transport, and MA Ride Benefits",
     category: "Medicare Benefits",
     dateUpdated: "April 30, 2026",
@@ -31873,7 +31873,7 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-supplement-plans-and-pre-existing-conditions",
     seo: {
-      title: "Medigap && Pre-Existing Conditions: What You Need to Know (2026)",
+      title: "Medigap & Pre-Existing Conditions: What You Need to Know (2026)",
       description: "Can you get a Medicare Supplement plan if you have pre-existing conditions? Learn when Medigap insurers can deny coverage or impose waiting periods — and how guaranteed issue rights protect you.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-supplement-plans-and-pre-existing-conditions/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicare-supplement-pre-existing-conditions.jpg",
@@ -32126,7 +32126,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/top-10-medicare-supplement-companies.jpg",
     },
     title: "Top 10 Medicare Supplement Insurance Companies in 2026",
-    subtitle: "How to Compare Medigap Carriers —— Financial Strength, Pricing, Plan Availability, and More",
+    subtitle: "How to Compare Medigap Carriers — Financial Strength, Pricing, Plan Availability, and More",
     category: "Medicare Supplements",
     dateUpdated: "April 30, 2026",
     author: {
@@ -32185,7 +32185,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "info",
-          title: "Same Benefits, Different Prices —— Always Compare",
+          title: "Same Benefits, Different Prices — Always Compare",
           text: "Because Plan G benefits are identical across all carriers, the only reason to pay more is if a higher-priced company offers meaningfully better service or financial stability. In most cases, shopping around can save hundreds of dollars per year with no difference in coverage.",
         },
         costNote: "$ Medigap premiums for the same plan letter can vary by 50% or more between carriers in the same zip code. Always compare at least 3–5 carriers before enrolling.",
@@ -32352,7 +32352,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/do-i-really-need-supplemental-insurance-with-medicare.jpg",
     },
     title: "Do I Really Need Supplemental Insurance with Medicare?",
-    subtitle: "What Original Medicare Leaves Uncovered —— and How to Decide if a Supplement is Worth It",
+    subtitle: "What Original Medicare Leaves Uncovered — and How to Decide if a Supplement is Worth It",
     category: "Medicare Supplements",
     dateUpdated: "April 30, 2026",
     author: {
@@ -32664,7 +32664,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         callout: {
           type: "tip",
-          title: "The $2,000 Cap is New in 2026 —— a Major Benefit",
+          title: "The $2,000 Cap is New in 2026 — a Major Benefit",
           text: "Starting in 2026, there is a hard $2,000 annual out-of-pocket cap on Part D drug costs. This is a significant change from prior years when there was effectively no cap for most beneficiaries. Once you hit $2,000 in out-of-pocket costs, you pay $0 for covered drugs for the rest of the year.",
         },
         costNote: "$ IRMAA for Part D in 2026 ranges from $13.70 to $85.80/month added to your plan premium, depending on your income. Check your income bracket at Medicare.gov.",

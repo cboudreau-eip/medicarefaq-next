@@ -30,7 +30,7 @@ const tableOfContents = [
   { id: "how-it-works", label: "How Medigap Works" },
   { id: "plan-comparison", label: "Plan Comparison Chart" },
   { id: "popular-plans", label: "Most Popular Plans" },
-  { id: "costs", label: "Costs && Pricing" },
+  { id: "costs", label: "Costs & Pricing" },
   { id: "enrollment", label: "When to Enroll" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },

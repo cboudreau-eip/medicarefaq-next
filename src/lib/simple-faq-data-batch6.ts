@@ -3,7 +3,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'chronic-care-management',
     seo: {
-      title: 'Medicare Chronic Care Management || CCM Coverage && Eligibility',
+      title: 'Medicare Chronic Care Management | CCM Coverage & Eligibility',
       description: 'Medicare Chronic Care Management is beneficial for those with two or more chronic conditions. Learn more about eligibility, coverage, and how to qualify.',
       canonical: 'https://www.medicarefaq.com/faqs/chronic-care-management/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -116,7 +116,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-cover-dialysis-treatments',
     seo: {
-      title: 'Does Medicare Cover Dialysis Treatments? || ESRD Coverage Guide',
+      title: 'Does Medicare Cover Dialysis Treatments? | ESRD Coverage Guide',
       description: 'Medicare covers dialysis treatments when medically necessary. Learn about coverage and costs associated with dialysis hemodialysis and peritoneal dialysis.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-cover-dialysis-treatments/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -151,7 +151,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-plan-g-reviews',
     seo: {
-      title: 'Medicare Supplement Plan G Reviews 2026 || Best Medigap Plan G Carriers',
+      title: 'Medicare Supplement Plan G Reviews 2026 | Best Medigap Plan G Carriers',
       description: 'Medicare Supplement Plan G reviews deserve an A+ on benefits. Learn how to compare Plan G carriers by price, financial ratings, and customer service.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-plan-g-reviews/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -197,7 +197,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
   {
     slug: 'report-medicare-fraud',
     seo: {
-      title: 'How to Report Medicare Fraud, Abuse, and Waste || MedicareFAQ',
+      title: 'How to Report Medicare Fraud, Abuse, and Waste | MedicareFAQ',
       description: 'Medicare fraud costs taxpayers billions of dollars each year. Learn how to identify and report fraud, abuse, and waste to protect your benefits.',
       canonical: 'https://www.medicarefaq.com/faqs/report-medicare-fraud/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -275,7 +275,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         ],
       },
       {
-        heading: 'Which is Better —— Medicare Advantage HMO vs. PPO?',
+        heading: 'Which is Better — Medicare Advantage HMO vs. PPO?',
         paragraphs: [
           'The best choice depends on your priorities. Choose an HMO if you want lower costs and are comfortable using a network of providers. Choose a PPO if you value flexibility to see any doctor without referrals, travel frequently, or have established relationships with out-of-network specialists.',
           'Keep in mind that neither HMO nor PPO plans are available everywhere. [plan availability varies by county](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up), so compare plans available in your specific area.',

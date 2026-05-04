@@ -283,7 +283,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <h3 className="font-semibold text-slate-900 mb-4">Steps to Enroll in Medicare Advantage:</h3>
                   <div className="space-y-3">
                     {[
-                      { step: "1", title: "Ensure You Have Parts a && B", desc: "You must be enrolled in both Medicare Part A and Part B to join a Medicare Advantage plan." },
+                      { step: "1", title: "Ensure You Have Parts a & B", desc: "You must be enrolled in both Medicare Part A and Part B to join a Medicare Advantage plan." },
                       { step: "2", title: "Compare Plans in Your Area", desc: "Use Medicare.gov's Plan Finder or call a licensed agent to compare MA plans available in your ZIP code." },
                       { step: "3", title: "Check Provider Networks", desc: "Make sure your doctors, hospitals, and pharmacies are in the plan's network." },
                       { step: "4", title: "Review the Drug Formulary", desc: "If the plan includes drug coverage (MA-PD), check that your medications are covered." },

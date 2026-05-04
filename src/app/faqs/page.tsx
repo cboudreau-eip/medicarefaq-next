@@ -3,11 +3,11 @@ import SiteLayout from "@/components/SiteLayout";
 import Coverage from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Medicare FAQs || Answers to Common Medicare Questions",
+  title: "Medicare FAQs | Answers to Common Medicare Questions",
   description: "Browse hundreds of Medicare FAQs covering plans, enrollment, costs, and coverage. Get clear, unbiased answers to your Medicare questions.",
   alternates: { canonical: "https://www.medicarefaq.com/faqs/" },
   openGraph: {
-    title: "Medicare FAQs || Answers to Common Medicare Questions",
+    title: "Medicare FAQs | Answers to Common Medicare Questions",
     description: "Browse hundreds of Medicare FAQs covering plans, enrollment, costs, and coverage. Get clear, unbiased answers to your Medicare questions.",
     url: "https://www.medicarefaq.com/faqs/",
     type: "website",

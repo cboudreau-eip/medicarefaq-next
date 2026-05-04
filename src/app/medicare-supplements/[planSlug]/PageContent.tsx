@@ -143,7 +143,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                     {[
                       { id: "overview", label: "Overview" },
                       { id: "benefits", label: "What's Covered" },
-                      { id: "pros-cons", label: "Pros && Cons" },
+                      { id: "pros-cons", label: "Pros & Cons" },
                       { id: "faqs", label: "FAQs" },
                       { id: "related", label: "Related Plans" },
                     ].map((item) => (

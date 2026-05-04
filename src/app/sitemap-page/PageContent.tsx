@@ -99,7 +99,7 @@ const sitemapSections = [
       { label: "Enrollment Overview", href: "/enrollment" },
       { label: "Turning 65 Enrollment", href: "/enrollment/turning-65" },
       { label: "Late Enrollment Penalties", href: "/enrollment/late-penalties" },
-      { label: "Employer Coverage && Medicare", href: "/enrollment/employer-coverage" },
+      { label: "Employer Coverage & Medicare", href: "/enrollment/employer-coverage" },
       { label: "Special Enrollment Periods", href: "/enrollment/special-enrollment-periods" },
     ],
   },

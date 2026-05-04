@@ -4,7 +4,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
   {
     slug: "your-medicare-rights-and-protections",
     seo: {
-      title: "Your Medicare Rights and Protections || MedicareFAQ",
+      title: "Your Medicare Rights and Protections | MedicareFAQ",
       description: "Medicare Rights and Protections are something you're entitled to know about. From coverage to filing an appeal, we can help. Learn more here!",
       canonical: "https://www.medicarefaq.com/faqs/your-medicare-rights-and-protections/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -150,7 +150,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
   {
     slug: "part-b-excess-charges-medicare-overcharge-measure",
     seo: {
-      title: "What are Medicare Part B Excess Charges || MedicareFAQ",
+      title: "What are Medicare Part B Excess Charges | MedicareFAQ",
       description: "Medicare Part B excess charges are when a doctor charges more than the Medicare-approved amount. Learn how this may be affecting you.",
       canonical: "https://www.medicarefaq.com/faqs/part-b-excess-charges-medicare-overcharge-measure/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -275,7 +275,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
   {
     slug: "does-medicare-cover-atrial-fibrillation",
     seo: {
-      title: "Does Medicare Cover Atrial Fibrillation (AFib)? || MedicareFAQ",
+      title: "Does Medicare Cover Atrial Fibrillation (AFib)? | MedicareFAQ",
       description: "Medicare covers certain care that those with atrial fibrillation require. Beneficiaries with AFib should also know when to get Medigap.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-atrial-fibrillation/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",

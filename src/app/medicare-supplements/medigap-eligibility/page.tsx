@@ -3,10 +3,10 @@ import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Medigap Eligibility 2026 || Who Can Enroll in Medicare Supplement?",
+  title: "Medigap Eligibility 2026 | Who Can Enroll in Medicare Supplement?",
   description: "Learn who is eligible for Medigap, when to enroll, and how medical underwriting works. Find out about your Medigap Open Enrollment Period and guaranteed issue rights.",
   openGraph: {
-    title: "Medigap Eligibility 2026 || Who Can Enroll in Medicare Supplement?",
+    title: "Medigap Eligibility 2026 | Who Can Enroll in Medicare Supplement?",
     description: "Learn who is eligible for Medigap, when to enroll, and how medical underwriting works. Find out about your Medigap Open Enrollment Period and guaranteed issue rights.",
     url: "https://www.medicarefaq.com/medicare-supplements/medigap-eligibility/",
     type: "website",

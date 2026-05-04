@@ -3,11 +3,11 @@ import SiteLayout from "@/components/SiteLayout";
 import Podcast from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Medicare Podcasts || Listen && Learn about Medicare",
+  title: "Medicare Podcasts | Listen & Learn about Medicare",
   description: "Listen to the MedicareFAQ podcast — short, expert-led audio episodes covering Medicare plans, enrollment, costs, and common questions. Free to stream.",
   alternates: { canonical: "https://www.medicarefaq.com/podcasts/" },
   openGraph: {
-    title: "Medicare Podcasts || Listen && Learn about Medicare",
+    title: "Medicare Podcasts | Listen & Learn about Medicare",
     description: "Listen to the MedicareFAQ podcast — short, expert-led audio episodes covering Medicare plans, enrollment, costs, and common questions. Free to stream.",
     url: "https://www.medicarefaq.com/podcasts/",
     type: "website",

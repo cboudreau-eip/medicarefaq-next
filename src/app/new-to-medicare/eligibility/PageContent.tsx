@@ -39,7 +39,7 @@ const tableOfContents = [
   { id: "under-65", label: "Under 65 Eligibility" },
   { id: "esrd", label: "End-Stage Renal Disease" },
   { id: "citizenship", label: "Citizenship Requirements" },
-  { id: "work-history", label: "Work History && Premiums" },
+  { id: "work-history", label: "Work History & Premiums" },
   { id: "special-situations", label: "Special Situations" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },

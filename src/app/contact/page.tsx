@@ -3,11 +3,11 @@ import SiteLayout from "@/components/SiteLayout";
 import Contact from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Contact MedicareFAQ || Speak with a Licensed Medicare Agent",
+  title: "Contact MedicareFAQ | Speak with a Licensed Medicare Agent",
   description: "Have questions about Medicare? Contact MedicareFAQ to speak with a licensed Medicare agent. We",
   alternates: { canonical: "https://www.medicarefaq.com/contact/" },
   openGraph: {
-    title: "Contact MedicareFAQ || Speak with a Licensed Medicare Agent",
+    title: "Contact MedicareFAQ | Speak with a Licensed Medicare Agent",
     description: "Have questions about Medicare? Contact MedicareFAQ to speak with a licensed Medicare agent. We",
     url: "https://www.medicarefaq.com/contact/",
     type: "website",

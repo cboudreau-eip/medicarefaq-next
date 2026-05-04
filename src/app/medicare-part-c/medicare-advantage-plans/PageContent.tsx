@@ -32,9 +32,9 @@ import { trackPhoneClick } from "@/lib/analytics";
 const tableOfContents = [
   { id: "overview", label: "What is Medicare Advantage?" },
   { id: "plan-types", label: "Types of MA Plans" },
-  { id: "benefits", label: "Benefits && Extras" },
-  { id: "costs", label: "Costs && Out-of-Pocket" },
-  { id: "pros-cons", label: "Pros && Cons" },
+  { id: "benefits", label: "Benefits & Extras" },
+  { id: "costs", label: "Costs & Out-of-Pocket" },
+  { id: "pros-cons", label: "Pros & Cons" },
   { id: "enrollment", label: "When to Enroll" },
   { id: "faqs", label: "Frequently Asked Questions" },
   { id: "next-steps", label: "Next Steps" },

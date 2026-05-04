@@ -3,11 +3,11 @@ import SiteLayout from "@/components/SiteLayout";
 import OriginalMedicare from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Original Medicare || What is Original Medicare?",
+  title: "Original Medicare | What is Original Medicare?",
   description: "Original Medicare is the traditional fee-for-service health insurance program offered by the federal government. Learn about Parts A and B, what they cover, and how they work.",
   alternates: { canonical: "https://www.medicarefaq.com/original-medicare/" },
   openGraph: {
-    title: "Original Medicare || What is Original Medicare?",
+    title: "Original Medicare | What is Original Medicare?",
     description: "Original Medicare is the traditional fee-for-service health insurance program offered by the federal government. Learn about Parts A and B, what they cover, and how they work.",
     url: "https://www.medicarefaq.com/original-medicare/",
     type: "article",
