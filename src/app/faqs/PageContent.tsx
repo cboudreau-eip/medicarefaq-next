@@ -194,7 +194,7 @@ export default function FAQIndex() {
                 </h1>
               </div>
               <p className="text-white/70 text-lg max-w-2xl">
-                Browse {allArticles.length} expert-written articles covering
+                Browse over 200 expert-written articles covering
                 Medicare plans, enrollment, costs, coverage, and more. Find
                 clear, unbiased answers to your Medicare questions.
               </p>
