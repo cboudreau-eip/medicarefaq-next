@@ -148,7 +148,7 @@ export default function Footer() {
           <div className="mt-6 flex flex-wrap items-center justify-center gap-8 sm:gap-12 pb-2">
 
             {/* Forbes Finance Council */}
-            <a href="https://councils.forbes.com/forbesfinancecouncil" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
+            <a href="https://www.forbes.com/councils/forbesfinancecouncil/people/davidhaass/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <span
                 className="font-bold text-[20px] leading-none tracking-tight"
                 style={{ color: "#FFFFFF", fontFamily: "Georgia, 'Times New Roman', serif" }}
@@ -166,7 +166,7 @@ export default function Footer() {
             <div className="hidden sm:block h-8 w-px bg-white/20" />
 
             {/* Shopper Approved */}
-            <a href="https://www.shopperapproved.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
+            <a href="https://www.shopperapproved.com/reviews/MedicareFAQ.com/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <div className="flex items-center gap-1.5">
                 <div
                   className="w-5 h-5 rounded flex items-center justify-center text-white text-[10px] font-bold"
@@ -192,7 +192,7 @@ export default function Footer() {
             <div className="hidden sm:block h-8 w-px bg-white/20" />
 
             {/* BBB Accredited Business */}
-            <a href="https://www.bbb.org" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
+            <a href="https://www.bbb.org/us/fl/tampa/profile/insurance-services-office/elite-insurance-partners-llc-0653-90292738" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <div className="flex items-center gap-2">
                 <div
                   className="w-7 h-7 rounded flex items-center justify-center text-white text-[9px] font-black"
