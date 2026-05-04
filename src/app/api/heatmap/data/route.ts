@@ -62,7 +62,7 @@ export async function GET(request: Request) {
     }
 
     if (type === "clicks" && page) {
-      let query = sql`
+      const result = await sql`
         SELECT x_percent, y_percent, element_tag, element_id, element_text, 
                device_type, created_at
         FROM heatmap_clicks
@@ -73,7 +73,7 @@ export async function GET(request: Request) {
         ORDER BY created_at DESC
         LIMIT 5000
       `;
-      return NextResponse.json({ clicks: query });
+      return NextResponse.json({ clicks: result });
     }
 
     if (type === "scroll" && page) {
