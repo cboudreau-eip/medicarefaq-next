@@ -1178,9 +1178,10 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "| [Medicare Part D (standalone)](/blog/how-is-medicare-part-d-changing-in-2026) | Yes, if on formulary and medically necessary | $30–$150* | Cost varies by plan, tier, and coverage phase |",
-          "| [Medicare Advantage (Part C with drug coverage)](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) | Yes, if on plan’s formulary | $25–$150* | Copays/coinsurance may be lower with some plans, including HMO and PPO options |",
-          "| Medigap (Supplement) | No | N/A | Must pair with Part D for prescription coverage |",
+          "Original Medicare (Parts A & B) does not cover Ozempic directly. However, you have other options through Medicare plans that include prescription drug coverage.",
+          "[Medicare Part D (standalone)](/blog/how-is-medicare-part-d-changing-in-2026) may cover Ozempic if it is on the plan's formulary and deemed medically necessary. Typical copays range from $30–$150 per month, though costs vary by plan, tier, and coverage phase.",
+          "[Medicare Advantage (Part C with drug coverage)](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) may also cover Ozempic if it is on the plan's formulary. Copays typically range from $25–$150 per month, and may be lower with some plans, including HMO and PPO options.",
+          "Medicare Supplement (Medigap) plans do not cover prescription drugs. You must pair a Medigap plan with a standalone Part D plan for prescription coverage.",
         ],
       },
       {
@@ -1190,7 +1191,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Some Plans",
         coverageType: "partial",
         paragraphs: [
-          "| Medigap (Supplement) | No | N/A | Must pair with Part D for prescription coverage |",
+          "Medicare Advantage plans with built-in drug coverage (MAPD) may cover Ozempic if it appears on the plan's formulary. Copays and coinsurance may be lower than standalone Part D plans, depending on whether you choose an HMO or PPO option. Coverage varies significantly by plan and ZIP code.",
         ],
       },
       {
@@ -2566,8 +2567,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "not-covered",
         paragraphs: [
           "Since Medicare does not cover Life Alert, you will pay the full cost out of pocket. Life Alert pricing typically includes an activation fee, monthly monitoring fees, and potential equipment costs depending on which package you choose. According to industry pricing reports and Life Alert’s own published information, these costs can vary based on features and service level.",
-          "Typical Medical Alert System Costs (2026)",
-          "| Provider | Monthly Fee | Activation/Setup Fee | Key Features |",
+          "Typical Medical Alert System Costs (2026): Life Alert's basic plan starts around $49.95 per month with a one-time activation fee of approximately $95–$198. Medical Guardian offers plans from $29.95–$49.95 per month with setup fees ranging from $0–$149. Bay Alarm Medical starts at $24.95 per month with free activation. Features vary by provider and plan level, including fall detection, GPS tracking, and 24/7 monitoring.",
         ],
       },
     ],
