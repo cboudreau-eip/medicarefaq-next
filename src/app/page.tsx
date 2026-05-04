@@ -11,6 +11,7 @@ import ResourcesSection from "@/components/ResourcesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTABanner from "@/components/CTABanner";
 import Footer from "@/components/Footer";
+import TrustBadgeBar from "@/components/TrustBadgeBar";
 
 export const metadata: Metadata = {
   title: "MedicareFAQ | Your Supplemental Medicare Resource Center",
@@ -51,6 +52,7 @@ export default function HomePage() {
         <CTABanner />
       </main>
 
+      <TrustBadgeBar />
       <Footer />
     </div>
   );
