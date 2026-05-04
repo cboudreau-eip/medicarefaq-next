@@ -50,6 +50,7 @@ import type {
 } from "@/lib/article-types";
 import PodcastPlayer from "@/components/PodcastPlayer";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
+import { getAuthorPhoto } from "@/lib/authors";
 import ZipFormModal from "@/components/ZipFormModal";
 
 /* ─── Icon Map ─── */
@@ -380,7 +381,14 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
             <p className="text-white/60 text-lg max-w-3xl mb-6">{article.subtitle}</p>
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white/60">
               <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" />Updated {article.dateUpdated}</span>
-              <span className="flex items-center gap-1.5"><User className="w-4 h-4" />Written By: {article.author.name}</span>
+              <span className="flex items-center gap-1.5">
+                {getAuthorPhoto(article.author.name) ? (
+                  <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-5 h-5 rounded-full object-cover object-top shrink-0" />
+                ) : (
+                  <User className="w-4 h-4 shrink-0" />
+                )}
+                Written By: {article.author.name}
+              </span>
               <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" />Reviewed By: {article.reviewer.name}</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{article.readTime}</span>
             </div>

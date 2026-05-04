@@ -32,6 +32,7 @@ import FAQSchema from "@/components/schema/FAQSchema";
 import ArticleSchema from "@/components/schema/ArticleSchema";
 import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
+import { getAuthorPhoto } from "@/lib/authors";
 import ZipFormModal from "@/components/ZipFormModal";
 
 const BASE_URL = "https://www.medicarefaq.com";
@@ -402,9 +403,17 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
             <div className="flex flex-wrap items-center gap-6">
               {article.author && (
                 <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-full bg-[#1B2A4A] flex items-center justify-center shrink-0">
-                    <User className="w-4 h-4 text-white" />
-                  </div>
+                  {getAuthorPhoto(article.author as string) ? (
+                    <img
+                      src={getAuthorPhoto(article.author as string)}
+                      alt={article.author as string}
+                      className="w-9 h-9 rounded-full object-cover object-top shrink-0"
+                    />
+                  ) : (
+                    <div className="w-9 h-9 rounded-full bg-[#1B2A4A] flex items-center justify-center shrink-0">
+                      <User className="w-4 h-4 text-white" />
+                    </div>
+                  )}
                   <div className="text-sm">
                     <p className="text-[#6B7280] text-xs uppercase tracking-wide font-semibold">Written By</p>
                     {article.authorUrl ? (
