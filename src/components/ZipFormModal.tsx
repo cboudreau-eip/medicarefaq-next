@@ -23,11 +23,12 @@ import {
   useState,
   useRef,
   useEffect,
+  useCallback,
   type FormEvent,
   type ReactNode,
 } from "react";
 import { createPortal } from "react-dom";
-import { ArrowRight, Loader2, Phone, X, Shield, Star } from "lucide-react";
+import { ArrowRight, Loader2, Phone, X, Shield, Star, MapPin, CheckCircle2 } from "lucide-react";
 import {
   redirectToDemographics,
   type CoverageType,
@@ -75,6 +76,8 @@ interface ZipFormModalProps {
   pageSection?: string;
 }
 
+type ZipStatus = "idle" | "validating" | "valid" | "invalid";
+
 export default function ZipFormModal({
   coverageType,
   trigger,
@@ -91,7 +94,10 @@ export default function ZipFormModal({
   const [zip, setZip] = useState("");
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
+  const [zipStatus, setZipStatus] = useState<ZipStatus>("idle");
+  const [cityState, setCityState] = useState<string>("");
   const inputRef = useRef<HTMLInputElement>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Derive the label to use in analytics from whichever trigger variant is used
   const resolvedTriggerLabel = triggerLabel ?? (typeof trigger === "string" ? trigger : "");
@@ -124,6 +130,55 @@ export default function ZipFormModal({
     return () => window.removeEventListener("keydown", handler);
   }, [open]);
 
+  // ZIP lookup via zippopotam.us
+  const lookupZip = useCallback(async (value: string) => {
+    if (value.length !== 5) {
+      setZipStatus("idle");
+      setCityState("");
+      return;
+    }
+    setZipStatus("validating");
+    setCityState("");
+    setError("");
+    try {
+      const res = await fetch(`https://api.zippopotam.us/us/${value}`);
+      if (!res.ok) {
+        setZipStatus("invalid");
+        setError("ZIP code not found. Please check and try again.");
+        return;
+      }
+      const data = await res.json();
+      const place = data.places?.[0];
+      if (place) {
+        setCityState(`${place["place name"]}, ${place["state abbreviation"]}`);
+        setZipStatus("valid");
+        setError("");
+      } else {
+        setZipStatus("invalid");
+        setError("ZIP code not found. Please check and try again.");
+      }
+    } catch {
+      // Network error — fall back to format-only validation so the form still works
+      setZipStatus("valid");
+      setCityState("");
+    }
+  }, []);
+
+  // Debounce ZIP lookup — fires 400ms after user stops typing
+  function handleZipChange(value: string) {
+    const digits = value.replace(/\D/g, "").slice(0, 5);
+    setZip(digits);
+    setError("");
+    if (digits.length < 5) {
+      setZipStatus("idle");
+      setCityState("");
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+      return;
+    }
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => lookupZip(digits), 400);
+  }
+
   function handleOpen() {
     setOpen(true);
     trackZipModalOpen({
@@ -137,6 +192,14 @@ export default function ZipFormModal({
     e.preventDefault();
     if (!/^\d{5}$/.test(zip)) {
       setError("Please enter a valid 5-digit ZIP code.");
+      return;
+    }
+    if (zipStatus === "invalid") {
+      setError("Please enter a valid US ZIP code.");
+      return;
+    }
+    if (zipStatus === "validating") {
+      // Still checking — wait for result
       return;
     }
     setError("");
@@ -154,6 +217,9 @@ export default function ZipFormModal({
     setZip("");
     setError("");
     setSubmitting(false);
+    setZipStatus("idle");
+    setCityState("");
+    if (debounceRef.current) clearTimeout(debounceRef.current);
   }
 
   // Build the rendered trigger element
@@ -165,6 +231,12 @@ export default function ZipFormModal({
         {triggerLabel}
       </button>
     );
+
+  const isSubmitDisabled =
+    submitting ||
+    zipStatus === "validating" ||
+    zipStatus === "invalid" ||
+    zip.length !== 5;
 
   return (
     <>
@@ -224,7 +296,15 @@ export default function ZipFormModal({
 
                 {/* Form */}
                 <form id="zipcode-form" onSubmit={handleSubmit} className="mb-5">
-                  <div className="flex items-center rounded-xl border-2 border-slate-200 focus-within:border-[#0D9488] transition-colors overflow-hidden">
+                  <div
+                    className={`flex items-center rounded-xl border-2 transition-colors overflow-hidden ${
+                      zipStatus === "invalid"
+                        ? "border-red-400"
+                        : zipStatus === "valid"
+                        ? "border-[#0D9488]"
+                        : "border-slate-200 focus-within:border-[#0D9488]"
+                    }`}
+                  >
                     <input
                       ref={inputRef}
                       type="text"
@@ -235,18 +315,24 @@ export default function ZipFormModal({
                       data-lpignore="true"
                       data-1p-ignore="true"
                       value={zip}
-                      onChange={(e) => {
-                        setZip(e.target.value.replace(/\D/g, ""));
-                        setError("");
-                      }}
+                      onChange={(e) => handleZipChange(e.target.value)}
                       placeholder="ZIP Code"
                       className="flex-1 px-4 py-3.5 text-base font-medium text-slate-900 placeholder:text-slate-400 border-none outline-none bg-transparent"
                       required
                     />
+                    {/* Inline status indicator */}
+                    <span className="px-2">
+                      {zipStatus === "validating" && (
+                        <Loader2 className="w-4 h-4 text-slate-400 animate-spin" />
+                      )}
+                      {zipStatus === "valid" && (
+                        <CheckCircle2 className="w-4 h-4 text-[#0D9488]" />
+                      )}
+                    </span>
                     <button
                       type="submit"
-                      disabled={submitting}
-                      className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-60 text-white font-semibold px-4 py-3.5 text-[14px] transition-colors whitespace-nowrap mr-1 rounded-lg"
+                      disabled={isSubmitDisabled}
+                      className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-40 disabled:cursor-not-allowed text-white font-semibold px-4 py-3.5 text-[14px] transition-colors whitespace-nowrap mr-1 rounded-lg"
                     >
                       {submitting ? (
                         <Loader2 className="w-4 h-4 animate-spin" />
@@ -256,6 +342,16 @@ export default function ZipFormModal({
                       {buttonLabel}
                     </button>
                   </div>
+
+                  {/* City/state confirmation */}
+                  {zipStatus === "valid" && cityState && (
+                    <p className="mt-2 text-sm text-[#0D9488] font-medium flex items-center gap-1.5">
+                      <MapPin className="w-3.5 h-3.5 flex-shrink-0" />
+                      {cityState}
+                    </p>
+                  )}
+
+                  {/* Error message */}
                   {error && (
                     <p className="mt-2 text-sm text-red-500 font-medium">
                       {error}
