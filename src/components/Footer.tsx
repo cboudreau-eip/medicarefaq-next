@@ -148,14 +148,17 @@ export default function Footer() {
           <div className="mt-6 flex flex-wrap items-center justify-center gap-8 sm:gap-12 pb-2">
 
             {/* Forbes Finance Council */}
-            <div className="flex flex-col items-center gap-1 opacity-40 hover:opacity-70 transition-opacity">
+            <div className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <span
-                className="font-bold text-[20px] leading-none tracking-tight text-white"
-                style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
+                className="font-bold text-[20px] leading-none tracking-tight"
+                style={{ color: "#FFFFFF", fontFamily: "Georgia, 'Times New Roman', serif" }}
               >
                 Forbes
               </span>
-              <span className="text-[9px] font-semibold tracking-widest uppercase text-white border-t border-white/60 pt-1">
+              <span
+                className="text-[9px] font-semibold tracking-widest uppercase border-t pt-1"
+                style={{ color: "#CBD5E1", borderColor: "#CBD5E1" }}
+              >
                 Finance Council
               </span>
             </div>
@@ -163,22 +166,25 @@ export default function Footer() {
             <div className="hidden sm:block h-8 w-px bg-white/20" />
 
             {/* Shopper Approved */}
-            <div className="flex flex-col items-center gap-1 opacity-40 hover:opacity-70 transition-opacity">
+            <div className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <div className="flex items-center gap-1.5">
-                <div className="w-5 h-5 rounded flex items-center justify-center text-white text-[10px] font-bold border border-white/60">
+                <div
+                  className="w-5 h-5 rounded flex items-center justify-center text-white text-[10px] font-bold"
+                  style={{ backgroundColor: "#0D9488" }}
+                >
                   ✓
                 </div>
                 <div className="flex gap-0.5">
                   {[1,2,3,4,5].map((i) => (
                     <svg key={i} className="w-3.5 h-3.5" viewBox="0 0 20 20"
-                      fill={i <= 4 ? "white" : "none"} stroke="white" strokeWidth="1.5">
+                      fill={i <= 4 ? "#D97706" : "none"} stroke="#D97706" strokeWidth="1.5">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
                 </div>
               </div>
-              <div className="text-[10px] text-white/80">2,353 Ratings</div>
-              <div className="text-[9px] font-semibold tracking-widest uppercase text-white">
+              <div className="text-[10px]" style={{ color: "#CBD5E1" }}>2,353 Ratings</div>
+              <div className="text-[9px] font-semibold tracking-widest uppercase" style={{ color: "#0D9488" }}>
                 Shopper Approved
               </div>
             </div>
@@ -186,17 +192,20 @@ export default function Footer() {
             <div className="hidden sm:block h-8 w-px bg-white/20" />
 
             {/* BBB Accredited Business */}
-            <div className="flex flex-col items-center gap-1 opacity-40 hover:opacity-70 transition-opacity">
+            <div className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <div className="flex items-center gap-2">
-                <div className="w-7 h-7 rounded border border-white/60 flex items-center justify-center text-white text-[9px] font-black">
+                <div
+                  className="w-7 h-7 rounded flex items-center justify-center text-white text-[9px] font-black"
+                  style={{ backgroundColor: "#003087" }}
+                >
                   BBB
                 </div>
                 <div>
-                  <div className="text-[11px] font-bold text-white leading-tight">Accredited</div>
-                  <div className="text-[11px] font-bold text-white leading-tight">Business</div>
+                  <div className="text-[11px] font-bold leading-tight" style={{ color: "#FFFFFF" }}>Accredited</div>
+                  <div className="text-[11px] font-bold leading-tight" style={{ color: "#FFFFFF" }}>Business</div>
                 </div>
               </div>
-              <div className="text-[9px] font-semibold tracking-widest uppercase text-white">
+              <div className="text-[9px] font-semibold tracking-widest uppercase" style={{ color: "#CBD5E1" }}>
                 BBB Rating: A+
               </div>
             </div>
