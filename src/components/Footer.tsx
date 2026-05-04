@@ -148,7 +148,7 @@ export default function Footer() {
           <div className="mt-6 flex flex-wrap items-center justify-center gap-8 sm:gap-12 pb-2">
 
             {/* Forbes Finance Council */}
-            <div className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
+            <a href="https://councils.forbes.com/forbesfinancecouncil" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <span
                 className="font-bold text-[20px] leading-none tracking-tight"
                 style={{ color: "#FFFFFF", fontFamily: "Georgia, 'Times New Roman', serif" }}
@@ -161,12 +161,12 @@ export default function Footer() {
               >
                 Finance Council
               </span>
-            </div>
+            </a>
 
             <div className="hidden sm:block h-8 w-px bg-white/20" />
 
             {/* Shopper Approved */}
-            <div className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
+            <a href="https://www.shopperapproved.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <div className="flex items-center gap-1.5">
                 <div
                   className="w-5 h-5 rounded flex items-center justify-center text-white text-[10px] font-bold"
@@ -187,12 +187,12 @@ export default function Footer() {
               <div className="text-[9px] font-semibold tracking-widest uppercase" style={{ color: "#0D9488" }}>
                 Shopper Approved
               </div>
-            </div>
+            </a>
 
             <div className="hidden sm:block h-8 w-px bg-white/20" />
 
             {/* BBB Accredited Business */}
-            <div className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
+            <a href="https://www.bbb.org" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 hover:opacity-90 transition-opacity">
               <div className="flex items-center gap-2">
                 <div
                   className="w-7 h-7 rounded flex items-center justify-center text-white text-[9px] font-black"
@@ -208,7 +208,7 @@ export default function Footer() {
               <div className="text-[9px] font-semibold tracking-widest uppercase" style={{ color: "#CBD5E1" }}>
                 BBB Rating: A+
               </div>
-            </div>
+            </a>
 
           </div>
         </div>
