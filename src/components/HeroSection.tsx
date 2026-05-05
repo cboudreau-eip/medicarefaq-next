@@ -50,7 +50,7 @@ export default function HeroSection() {
           >
             Understanding Medicare
             <br />
-            <span className="text-[#C41230]">Doesn&apos;t Have to be Confusing.</span>
+            <span className="text-white" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.35)' }}>Doesn&apos;t Have to be Confusing.</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
