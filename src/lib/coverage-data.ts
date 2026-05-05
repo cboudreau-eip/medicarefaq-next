@@ -7458,10 +7458,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
