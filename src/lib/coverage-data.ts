@@ -12210,10 +12210,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the founder and CEO of Elite Insurance Partners and MedicareFAQ.com. He is a licensed Medicare agent and member of the Forbes Finance Council.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -12238,7 +12238,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a & B)",
+        planName: "Original Medicare (Part A & B)",
         icon: "x",
         iconColor: "#DC2626",
         coverageLabel: "Not Covered",
@@ -12646,10 +12646,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the founder and CEO of Elite Insurance Partners and MedicareFAQ.com. He is a licensed Medicare agent and member of the Forbes Finance Council.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -12701,7 +12701,7 @@ export const coverageArticles: CoverageArticleData[] = [
         costNote: "Annual screening and up to four counseling sessions: $0. Additional outpatient therapy: 20% coinsurance after the $283 Part B deductible (2026).",
       },
       {
-        planName: "Original Medicare (Part a — Inpatient)",
+        planName: "Original Medicare (Part A — Inpatient)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Covered",
