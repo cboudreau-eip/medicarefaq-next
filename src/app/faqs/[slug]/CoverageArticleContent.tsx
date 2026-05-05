@@ -401,7 +401,25 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 )}
                 Written By: {article.author.name}
               </span>
-              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" />Reviewed By: {article.reviewer.name}</span>
+              <span className="flex items-center gap-1.5">
+                {getAuthorPhoto(article.reviewer.name) ? (
+                  <div className="relative group/reviewer shrink-0">
+                    <div className="w-8 h-8 rounded-full overflow-hidden cursor-pointer">
+                      <img src={getAuthorPhoto(article.reviewer.name)} alt={article.reviewer.name} className="w-full h-full object-cover scale-150 origin-top" />
+                    </div>
+                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/reviewer:block z-50 pointer-events-none">
+                      <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100" style={{ width: '160px' }}>
+                        <img src={getAuthorPhoto(article.reviewer.name)} alt={article.reviewer.name} className="w-full h-auto object-cover object-top" />
+                        <p className="text-center text-xs font-semibold text-[#1B2A4A] py-2 px-2 truncate">{article.reviewer.name}</p>
+                      </div>
+                      <div className="w-2 h-2 bg-white border-r border-b border-gray-100 rotate-45 mx-auto -mt-1" />
+                    </div>
+                  </div>
+                ) : (
+                  <CheckCircle2 className="w-4 h-4" />
+                )}
+                Reviewed By: {article.reviewer.name}
+              </span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{article.readTime}</span>
             </div>
           </motion.div>
