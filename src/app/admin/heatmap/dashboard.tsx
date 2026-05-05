@@ -239,23 +239,18 @@ function DashboardView({ stats, pages }: { stats: Stats | null; pages: PageData[
 function HeatmapView({ page, secret }: { page: string; secret: string }) {
   const [clicks, setClicks] = useState<Array<{ x_percent: number; y_percent: number }>>([]);
   const [loading, setLoading] = useState(false);
+  const [iframeHeight, setIframeHeight] = useState(3000);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
     if (!page) return;
     setLoading(true);
-    fetch(`/api/heatmap/data?type=clicks&page=${encodeURIComponent(page)}`, {
-    })
+    fetch(`/api/heatmap/data?type=clicks&page=${encodeURIComponent(page)}`, {})
       .then((r) => r.json())
       .then((data) => setClicks(data.clicks || []))
       .catch(console.error)
       .finally(() => setLoading(false));
   }, [page, secret]);
-
-  if (!page) return <EmptyState message="Select a page from the dropdown above to view its heatmap." />;
-  if (loading) return <LoadingState />;
-
-  const [iframeHeight, setIframeHeight] = useState(3000);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   // Try to read the iframe's document height once it loads
   const handleIframeLoad = () => {
@@ -269,6 +264,9 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
       // cross-origin — keep the default tall height
     }
   };
+
+  if (!page) return <EmptyState message="Select a page from the dropdown above to view its heatmap." />;
+  if (loading) return <LoadingState />;
 
   return (
     <div className="space-y-4">
