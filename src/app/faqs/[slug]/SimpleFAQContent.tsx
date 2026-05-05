@@ -404,11 +404,13 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
               {article.author && (
                 <div className="flex items-center gap-3">
                   {getAuthorPhoto(article.author as string) ? (
-                    <img
-                      src={getAuthorPhoto(article.author as string)}
-                      alt={article.author as string}
-                      className="w-14 h-14 rounded-full object-cover shrink-0" style={{ objectPosition: 'center 20%' }}
-                    />
+                    <div className="w-14 h-14 rounded-full overflow-hidden shrink-0">
+                      <img
+                        src={getAuthorPhoto(article.author as string)}
+                        alt={article.author as string}
+                        className="w-full h-full object-cover scale-150 origin-top"
+                      />
+                    </div>
                   ) : (
                     <div className="w-9 h-9 rounded-full bg-[#1B2A4A] flex items-center justify-center shrink-0">
                       <User className="w-4 h-4 text-white" />
