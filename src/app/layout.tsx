@@ -43,6 +43,15 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
+        {/* Invoca Call Tracking */}
+        <Script
+          id="invoca-tag"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(i,n,v,o,c,a) { i.InvocaTagId = o; var s = n.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = ('https:' === n.location.protocol ? 'https://' : 'http://' ) + v; var fs = n.getElementsByTagName('script')[0]; fs.parentNode.insertBefore(s, fs); })(window, document, 'solutions.invocacdn.com/js/invoca-latest.min.js', '1925/3559588726');`,
+          }}
+        />
+
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
