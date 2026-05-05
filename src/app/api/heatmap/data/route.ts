@@ -9,16 +9,6 @@ export async function GET(request: Request) {
   const device = searchParams.get("device");
   const type = searchParams.get("type") || "clicks"; // clicks | scroll | stats | pages
 
-  // Simple auth check via cookie or header
-  const authHeader = request.headers.get("x-heatmap-secret");
-  const cookieHeader = request.headers.get("cookie");
-  const hasAuth =
-    authHeader === process.env.HEATMAP_ADMIN_SECRET ||
-    cookieHeader?.includes(`heatmap_auth=${process.env.HEATMAP_ADMIN_SECRET}`);
-
-  if (!hasAuth) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
 
   try {
     const sql = getDb();

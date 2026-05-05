@@ -33,7 +33,7 @@ export default function HeatmapDashboard({ secret }: HeatmapDashboardProps) {
   const fetchData = useCallback(
     async (url: string) => {
       const res = await fetch(url, {
-        headers: { "x-heatmap-secret": secret },
+
       });
       if (!res.ok) throw new Error("Failed to fetch");
       return res.json();
@@ -244,7 +244,6 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
     if (!page) return;
     setLoading(true);
     fetch(`/api/heatmap/data?type=clicks&page=${encodeURIComponent(page)}`, {
-      headers: { "x-heatmap-secret": secret },
     })
       .then((r) => r.json())
       .then((data) => setClicks(data.clicks || []))
@@ -297,7 +296,6 @@ function ScrollView({ page, secret }: { page: string; secret: string }) {
     if (!page) return;
     setLoading(true);
     fetch(`/api/heatmap/data?type=scroll&page=${encodeURIComponent(page)}`, {
-      headers: { "x-heatmap-secret": secret },
     })
       .then((r) => r.json())
       .then((data) => setScrollData(data.scrolls || []))
@@ -356,7 +354,6 @@ function ElementsView({ page, secret }: { page: string; secret: string }) {
     if (!page) return;
     setLoading(true);
     fetch(`/api/heatmap/data?type=top-elements&page=${encodeURIComponent(page)}`, {
-      headers: { "x-heatmap-secret": secret },
     })
       .then((r) => r.json())
       .then((data) => setElements(data.elements || []))
