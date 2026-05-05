@@ -9332,12 +9332,12 @@ export const coverageArticles: CoverageArticleData[] = [
     title: "Medicare Coverage for My Children and Dependents",
     subtitle: "Medicare is an individual program — you cannot add dependents to your coverage. However, children may qualify for Medicare in certain situations involving disability, ESRD, or ALS.",
     category: "Medicare Coverage",
-    dateUpdated: "March 26, 2024",
+    dateUpdated: "May 5, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
