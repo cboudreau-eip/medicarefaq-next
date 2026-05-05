@@ -18,7 +18,7 @@ export const coverageArticles: CoverageArticleData[] = [
     title: "Does Medicare Cover Dental Implants",
     subtitle: "Dental implants permanently anchor prosthetic teeth, but Original Medicare doesn't cover them. However, beneficiaries have other plan options for dental implant coverage.",
     category: "Medicare Coverage",
-    dateUpdated: "December 16, 2022",
+    dateUpdated: "May 5, 2026",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -50,13 +50,15 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a & B)",
+        planName: "Original Medicare (Part A & B)",
         icon: "shield",
         iconColor: "#1B2A4A",
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "There are several stand-alone dental plans available that will help cover the cost of dental implants. These plans often group with additional coverage for [vision and hearing](/faqs/does-medicare-cover-hearing-aids) as well, as Original Medicare also does not cover those services. However, not all dental plans will cover the cost of dental implants, so it is important to speak with an agent to understand your plan's coverage before enrolling.",
+          "Original Medicare — Part A (hospital insurance) and Part B (medical insurance) — does not cover dental implants. In fact, Medicare explicitly excludes most routine dental care, including cleanings, fillings, extractions, dentures, and implants. This exclusion has been in place since Medicare was established and has not changed in 2026.",
+          "The only narrow exception is when a dental procedure is directly tied to a covered medical service. For example, if a jaw reconstruction is required as part of a covered surgery for facial trauma, Medicare Part A may cover the hospital stay and surgical costs — but the dental implant itself would still not be covered. Similarly, if tooth extraction is medically necessary before radiation treatment for oral cancer, Part A may cover the hospitalization, but not the dental work itself.",
+          "Because Original Medicare provides no dental benefit, beneficiaries who need implants must look to supplemental coverage options. The 2026 Part B standard premium is $202.90 per month and the Part B deductible is $283 — costs that go toward covered medical services, not dental implants.",
         ],
       },
       {
@@ -66,7 +68,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Varies",
         coverageType: "partial",
         paragraphs: [
-          "There are several stand-alone dental plans available that will help cover the cost of dental implants. These plans often group with additional coverage for [vision and hearing](/faqs/does-medicare-cover-hearing-aids) as well, as Original Medicare also does not cover those services. For a full overview of what these plans include, see our guide to [Medicare Advantage plan options](/medicare-part-c/medicare-advantage-plans). However, not all dental plans will cover the cost of dental implants, so it is important to speak with an agent to understand your plan's coverage before enrolling.",
+          "Medicare Advantage (Part C) plans are sold by private insurers and must cover everything Original Medicare covers — but many go further by offering supplemental benefits, including dental coverage. In 2026, a significant number of Medicare Advantage plans include some level of dental benefits, though the scope of coverage varies widely from plan to plan and by ZIP code.",
+          "Some Medicare Advantage plans offer basic dental coverage (preventive care such as cleanings and X-rays) at no extra cost, while others offer comprehensive dental riders that can include major restorative work like dental implants. However, even plans that cover implants typically impose annual maximums — often between $1,000 and $3,000 — and may require prior authorization. The in-network vs. out-of-network distinction also matters: using a dentist outside the plan's network can result in significantly higher out-of-pocket costs or no coverage at all.",
+          "The 2026 maximum out-of-pocket limit for Medicare Advantage plans is $9,250 for in-network services. This cap applies to Part A and Part B covered services, not dental benefits, so dental costs may be separate. For a full overview of what these plans include, see our guide to [Medicare Advantage plan options](/medicare-part-c/medicare-advantage-plans). It is important to speak with a licensed agent to compare plans available in your area before enrolling.",
         ],
       },
       {
@@ -76,12 +80,32 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "Let us help you navigate your Medicare journey",
-          "Keep in mind, [Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) only pay secondary to Medicare. So, if [Medicare does not pay first](/faqs/when-is-medicare-primary), your Medicare Supplement plan will not cover any costs.",
+          "Medicare Supplement plans (also called Medigap) are designed to fill the cost-sharing gaps in Original Medicare — things like the Part A deductible ($1,736 in 2026), Part B coinsurance, and hospital costs. Because Medigap only pays secondary to Original Medicare, it cannot cover services that Medicare itself does not cover. Since Original Medicare excludes dental implants entirely, a Medigap plan will provide no benefit for implant costs.",
+          "Keep in mind, [Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) only pay secondary to Medicare. So, if [Medicare does not pay first](/faqs/when-is-medicare-primary), your Medicare Supplement plan will not cover any costs. Beneficiaries who have a Medigap plan and need dental coverage should consider a stand-alone dental insurance plan. These plans are available separately and can be combined with any Medigap policy. They often bundle coverage for [vision and hearing](/faqs/does-medicare-cover-hearing-aids) as well, since Original Medicare also excludes those services.",
         ],
       },
     ],
     faqs: [
+      {
+        question: "Does Medicare ever cover dental implants?",
+        answer: "Original Medicare (Parts A and B) does not cover dental implants. The only limited exception is when dental work is directly tied to a covered medical procedure — for example, jaw reconstruction following a covered surgery. In that case, Medicare may cover the hospitalization but not the implant itself. Some Medicare Advantage plans do offer dental benefits that include implants, but coverage varies by plan.",
+      },
+      {
+        question: "Which Medicare Advantage plans cover dental implants in 2026?",
+        answer: "Coverage varies by insurer and ZIP code. Many Medicare Advantage plans offer basic preventive dental at no extra cost, while some comprehensive dental riders cover major restorative work including implants. Plans that cover implants typically impose annual maximums (often $1,000–$3,000) and may require prior authorization. Contact a licensed Medicare agent or use Medicare’s Plan Finder tool at medicare.gov to compare plans available in your area.",
+      },
+      {
+        question: "How much do dental implants cost without insurance?",
+        answer: "A single dental implant typically costs between $3,000 and $6,000 out of pocket, including the implant post, abutment, and crown. Full-mouth implant procedures can cost significantly more. Because Original Medicare does not cover implants, beneficiaries without supplemental dental coverage bear the full cost unless they have a Medicare Advantage plan with dental benefits.",
+      },
+      {
+        question: "Can I get a stand-alone dental plan with Medicare?",
+        answer: "Yes. Beneficiaries enrolled in Original Medicare (with or without a Medigap plan) can purchase a stand-alone dental insurance plan from a private insurer. These plans are not part of Medicare but are available to Medicare beneficiaries. Premiums, deductibles, and coverage limits vary by plan. Many stand-alone dental plans bundle vision and hearing coverage as well.",
+      },
+      {
+        question: "Does Medigap cover dental implants?",
+        answer: "No. Medigap (Medicare Supplement) plans only cover cost-sharing for services that Original Medicare covers. Since Original Medicare does not cover dental implants, no Medigap plan — including Plan G, Plan N, or any other standardized plan — will pay for implants.",
+      },
     ],
     quickReference: [
       { icon: "x", text: "<strong>Original Medicare</strong> does not cover this service" },
