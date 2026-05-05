@@ -383,7 +383,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" />Updated {article.dateUpdated}</span>
               <span className="flex items-center gap-1.5">
                 {getAuthorPhoto(article.author.name) ? (
-                  <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-5 h-5 rounded-full object-cover object-top shrink-0" />
+                  <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-6 h-6 rounded-full object-cover object-top shrink-0" />
                 ) : (
                   <User className="w-4 h-4 shrink-0" />
                 )}
