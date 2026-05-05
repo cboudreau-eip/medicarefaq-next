@@ -15839,10 +15839,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -16011,10 +16011,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -16186,10 +16186,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -16362,10 +16362,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -16534,10 +16534,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -16705,10 +16705,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -16879,10 +16879,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
