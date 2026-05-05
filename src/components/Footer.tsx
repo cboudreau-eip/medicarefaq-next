@@ -9,7 +9,7 @@ const LOGO_URL =
 
 const footerColumns = [
   {
-    title: "NEW to MEDICARE",
+    title: "NEW TO MEDICARE",
     color: "#0D9488",
     links: [
       { label: "Medicare 101 Guide", href: "/medicare-101" },
@@ -21,7 +21,7 @@ const footerColumns = [
   },
   {
     title: "MEDICARE PLANS",
-    color: "#1B2A4A",
+    color: "#60A5FA",
     links: [
       { label: "Compare Medicare Plans", href: "/medicare-plans" },
       { label: "Original Medicare", href: "/original-medicare" },
