@@ -11990,10 +11990,10 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the founder and CEO of Elite Insurance Partners and MedicareFAQ.com. He is a licensed Medicare agent and member of the Forbes Finance Council.",
+      bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
