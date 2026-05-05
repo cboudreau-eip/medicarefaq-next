@@ -381,50 +381,90 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
             <p className="text-white/60 text-lg max-w-3xl mb-6">{article.subtitle}</p>
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white/60">
               <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" />Updated {article.dateUpdated}</span>
-              <span className="flex items-center gap-1.5">
-                {getAuthorPhoto(article.author.name) ? (
-                  <div className="relative group/avatar shrink-0">
-                    <div className="w-8 h-8 rounded-full overflow-hidden cursor-pointer">
-                      <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-full h-full object-cover scale-150 origin-top" />
-                    </div>
-                    {/* Hover tooltip */}
-                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/avatar:block z-50 pointer-events-none">
-                      <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100" style={{ width: '160px' }}>
-                        <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-full h-auto object-cover object-top" />
-                        <p className="text-center text-xs font-semibold text-[#1B2A4A] py-2 px-2 truncate">{article.author.name}</p>
-                      </div>
-                      <div className="w-2 h-2 bg-white border-r border-b border-gray-100 rotate-45 mx-auto -mt-1" />
-                    </div>
-                  </div>
-                ) : (
-                  <User className="w-4 h-4 shrink-0" />
-                )}
-                Written By: {article.author.name}
-              </span>
-              <span className="flex items-center gap-1.5">
-                {getAuthorPhoto(article.reviewer.name) ? (
-                  <div className="relative group/reviewer shrink-0">
-                    <div className="w-8 h-8 rounded-full overflow-hidden cursor-pointer">
-                      <img src={getAuthorPhoto(article.reviewer.name)} alt={article.reviewer.name} className="w-full h-full object-cover scale-150 origin-top" />
-                    </div>
-                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/reviewer:block z-50 pointer-events-none">
-                      <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100" style={{ width: '160px' }}>
-                        <img src={getAuthorPhoto(article.reviewer.name)} alt={article.reviewer.name} className="w-full h-auto object-cover object-top" />
-                        <p className="text-center text-xs font-semibold text-[#1B2A4A] py-2 px-2 truncate">{article.reviewer.name}</p>
-                      </div>
-                      <div className="w-2 h-2 bg-white border-r border-b border-gray-100 rotate-45 mx-auto -mt-1" />
-                    </div>
-                  </div>
-                ) : (
-                  <CheckCircle2 className="w-4 h-4" />
-                )}
-                Reviewed By: {article.reviewer.name}
-              </span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" />{article.readTime}</span>
             </div>
           </motion.div>
         </div>
       </section>
+
+      {/* ─── Author / Reviewer Trust Bar ─── */}
+      {(article.author || article.reviewer) && (
+        <section className="bg-white border-b border-[#E5E7EB] py-4">
+          <div className="container max-w-6xl mx-auto">
+            <div className="flex flex-wrap items-center gap-6">
+              {article.author && (
+                <div className="flex items-center gap-3">
+                  {getAuthorPhoto(article.author.name) ? (
+                    <div className="relative group/avatar shrink-0">
+                      <div className="w-14 h-14 rounded-full overflow-hidden cursor-pointer">
+                        <img
+                          src={getAuthorPhoto(article.author.name)}
+                          alt={article.author.name}
+                          className="w-full h-full object-cover scale-150 origin-top"
+                        />
+                      </div>
+                      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/avatar:block z-50 pointer-events-none">
+                        <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200" style={{ width: '180px' }}>
+                          <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-full h-auto object-cover object-top" />
+                          <p className="text-center text-xs font-semibold text-[#1B2A4A] py-2 px-2 truncate">{article.author.name}</p>
+                        </div>
+                        <div className="w-2 h-2 bg-white border-r border-b border-gray-200 rotate-45 mx-auto -mt-1" />
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="w-9 h-9 rounded-full bg-[#1B2A4A] flex items-center justify-center shrink-0">
+                      <User className="w-4 h-4 text-white" />
+                    </div>
+                  )}
+                  <div className="text-sm">
+                    <p className="text-[#6B7280] text-xs uppercase tracking-wide font-semibold">Written By</p>
+                    <span className="font-semibold text-[#1B2A4A]">{article.author.name}</span>
+                    {article.author.role && (
+                      <p className="text-[#6B7280] text-xs">{article.author.role}</p>
+                    )}
+                  </div>
+                </div>
+              )}
+              {article.reviewer && (
+                <div className="flex items-center gap-3">
+                  {getAuthorPhoto(article.reviewer.name) ? (
+                    <div className="relative group/reviewer shrink-0">
+                      <div className="w-14 h-14 rounded-full overflow-hidden cursor-pointer">
+                        <img src={getAuthorPhoto(article.reviewer.name)} alt={article.reviewer.name} className="w-full h-full object-cover scale-150 origin-top" />
+                      </div>
+                      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/reviewer:block z-50 pointer-events-none">
+                        <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200" style={{ width: '180px' }}>
+                          <img src={getAuthorPhoto(article.reviewer.name)} alt={article.reviewer.name} className="w-full h-auto object-cover object-top" />
+                          <p className="text-center text-xs font-semibold text-[#1B2A4A] py-2 px-2 truncate">{article.reviewer.name}</p>
+                        </div>
+                        <div className="w-2 h-2 bg-white border-r border-b border-gray-200 rotate-45 mx-auto -mt-1" />
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="w-9 h-9 rounded-full bg-[#059669] flex items-center justify-center shrink-0">
+                      <Shield className="w-4 h-4 text-white" />
+                    </div>
+                  )}
+                  <div className="text-sm">
+                    <p className="text-[#6B7280] text-xs uppercase tracking-wide font-semibold">Reviewed By</p>
+                    <span className="font-semibold text-[#1B2A4A]">{article.reviewer.name}</span>
+                    {article.reviewer.role && (
+                      <p className="text-[#6B7280] text-xs">{article.reviewer.role}</p>
+                    )}
+                  </div>
+                </div>
+              )}
+              {/* Editorial Standards badge */}
+              <div className="ml-auto hidden md:flex items-center gap-2 text-xs text-[#6B7280]">
+                <Shield className="w-4 h-4 text-[#059669]" />
+                <Link href="/meet-the-editorial-team" className="hover:text-[#1B2A4A] transition-colors">
+                  Editorial Standards
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ─── Sub-Navigation Bar ─── */}
       {article.subNavLinks && article.subNavLinks.length > 0 && (
