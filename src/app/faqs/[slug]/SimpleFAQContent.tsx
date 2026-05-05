@@ -407,7 +407,7 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                     <img
                       src={getAuthorPhoto(article.author as string)}
                       alt={article.author as string}
-                      className="w-11 h-11 rounded-full object-cover object-top shrink-0"
+                      className="w-14 h-14 rounded-full object-cover object-top shrink-0"
                     />
                   ) : (
                     <div className="w-9 h-9 rounded-full bg-[#1B2A4A] flex items-center justify-center shrink-0">
