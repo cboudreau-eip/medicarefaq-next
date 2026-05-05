@@ -61,7 +61,6 @@ const footerColumns = [
     title: "RESOURCES",
     color: "#4F46E5",
     links: [
-      { label: "Medicare Library", href: "/library" },
       { label: "Blog", href: "/blog" },
       { label: "Guides", href: "/library/guides" },
       { label: "Videos", href: "/videos" },
