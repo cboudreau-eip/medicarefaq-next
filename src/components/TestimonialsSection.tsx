@@ -10,7 +10,7 @@ export default function TestimonialsSection() {
 
   useEffect(() => {
     // Pick 3 random reviews on every page load (client-side to avoid hydration mismatch)
-    setReviews(getRandomReviews(3));
+    setReviews(getRandomReviews(6));
   }, []);
 
   return (
@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6 min-h-[240px]">
+        <div className="grid md:grid-cols-3 gap-6">
           {reviews.map((review, index) => (
             <motion.div
               key={review.name + index}
