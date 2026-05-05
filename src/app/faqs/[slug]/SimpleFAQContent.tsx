@@ -404,12 +404,22 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
               {article.author && (
                 <div className="flex items-center gap-3">
                   {getAuthorPhoto(article.author as string) ? (
-                    <div className="w-14 h-14 rounded-full overflow-hidden shrink-0">
-                      <img
-                        src={getAuthorPhoto(article.author as string)}
-                        alt={article.author as string}
-                        className="w-full h-full object-cover scale-150 origin-top"
-                      />
+                    <div className="relative group/avatar shrink-0">
+                      <div className="w-14 h-14 rounded-full overflow-hidden cursor-pointer">
+                        <img
+                          src={getAuthorPhoto(article.author as string)}
+                          alt={article.author as string}
+                          className="w-full h-full object-cover scale-150 origin-top"
+                        />
+                      </div>
+                      {/* Hover tooltip */}
+                      <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/avatar:block z-50 pointer-events-none">
+                        <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200" style={{ width: '180px' }}>
+                          <img src={getAuthorPhoto(article.author as string)} alt={article.author as string} className="w-full h-auto object-cover object-top" />
+                          <p className="text-center text-xs font-semibold text-[#1B2A4A] py-2 px-2 truncate">{article.author as string}</p>
+                        </div>
+                        <div className="w-2 h-2 bg-white border-r border-b border-gray-200 rotate-45 mx-auto -mt-1" />
+                      </div>
                     </div>
                   ) : (
                     <div className="w-9 h-9 rounded-full bg-[#1B2A4A] flex items-center justify-center shrink-0">

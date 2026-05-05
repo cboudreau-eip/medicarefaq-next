@@ -383,8 +383,18 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" />Updated {article.dateUpdated}</span>
               <span className="flex items-center gap-1.5">
                 {getAuthorPhoto(article.author.name) ? (
-                  <div className="w-8 h-8 rounded-full overflow-hidden shrink-0">
-                    <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-full h-full object-cover scale-150 origin-top" />
+                  <div className="relative group/avatar shrink-0">
+                    <div className="w-8 h-8 rounded-full overflow-hidden cursor-pointer">
+                      <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-full h-full object-cover scale-150 origin-top" />
+                    </div>
+                    {/* Hover tooltip */}
+                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover/avatar:block z-50 pointer-events-none">
+                      <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100" style={{ width: '160px' }}>
+                        <img src={getAuthorPhoto(article.author.name)} alt={article.author.name} className="w-full h-auto object-cover object-top" />
+                        <p className="text-center text-xs font-semibold text-[#1B2A4A] py-2 px-2 truncate">{article.author.name}</p>
+                      </div>
+                      <div className="w-2 h-2 bg-white border-r border-b border-gray-100 rotate-45 mx-auto -mt-1" />
+                    </div>
                   </div>
                 ) : (
                   <User className="w-4 h-4 shrink-0" />
