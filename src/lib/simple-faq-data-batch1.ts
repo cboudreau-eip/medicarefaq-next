@@ -383,24 +383,185 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-8-minute-rule',
     seo: {
-      title: 'Medicare and the 8-Minute Rule',
-      description: 'Understanding Medicare\'s 8-minute rule helps make sense of how Medicare gets charged for services you receive.',
+      title: 'Medicare and the 8-Minute Rule: How It Works in 2026',
+      description: 'The Medicare 8-minute rule governs how physical therapists and other providers bill for timed services. Learn how billing units are calculated and what it means for your coverage.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-8-minute-rule/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-and-the-8-minute-rule.jpg',
     },
     title: 'Medicare and the 8-Minute Rule',
-    summary: 'The Medicare 8-minute rule is typically used by physical therapists and other service-based providers for billing and claims. It’s important to understand the 8-minute Medicare rule so that you know how your Medicare coverage gets charged for any services you may receive from healthcare providers under this rule.',
+    summary: 'The Medicare 8-minute rule determines how physical therapists, occupational therapists, and other providers bill Medicare for timed therapeutic services. Understanding this rule helps you know how your Medicare coverage is charged for services you receive — and why your bill may show more units than you expected.',
     category: 'Medicare FAQ',
-    dateUpdated: 'July 13, 2023',
-    author: 'Jagger Esch',
+    datePublished: 'January 1, 2020',
+    dateUpdated: 'May 5, 2026',
+    author: 'David Haass',
+    authorTitle: 'Licensed Medicare Expert',
     reviewer: 'Ashlee Zareczny',
-    readTime: '5 min',
-    sections: [
+    reviewerTitle: 'Licensed Medicare Agent',
+    readTime: '6 min',
+    sections: [],
+    richSections: [
       {
-        heading: 'Average Cost of Medicare Supplement Plans',
-        paragraphs: [
-          'Updated on July 13, 2023',
-          'The average cost of [Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) can be hard to pinpoint because [monthly premiums](/blog/medicare-costs-2025)...',
+        type: 'heading',
+        level: 2,
+        id: 'what-is-the-8-minute-rule',
+        text: 'What Is the Medicare 8-Minute Rule?',
+      },
+      {
+        type: 'paragraph',
+        content: 'The Medicare 8-minute rule is a billing guideline established by the Centers for Medicare & Medicaid Services (CMS) that governs how providers bill for time-based therapeutic services. Under this rule, a provider must spend at least 8 minutes delivering a timed service in order to bill Medicare for one unit of that service.',
+      },
+      {
+        type: 'paragraph',
+        content: 'The rule applies to [physical therapy](/faqs/medicare-coverage-for-physical-therapy), occupational therapy, speech-language pathology, and other timed therapeutic procedures billed under Medicare Part B. It does not apply to untimed (service-based) codes, which are billed once per session regardless of time spent.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Still in Effect for 2026',
+        calloutText: 'The Medicare 8-minute rule has been in place since 2000 (CMS Transmittal 1780) and remains the standard billing methodology for timed therapeutic services in 2026. No changes to the rule were made for the 2026 plan year.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'who-does-it-apply-to',
+        text: 'Who Does the 8-Minute Rule Apply To?',
+      },
+      {
+        type: 'paragraph',
+        content: 'The 8-minute rule applies to any Medicare-participating provider who bills for timed therapeutic procedures under the Medicare Physician Fee Schedule. This includes:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Physical therapists (PTs) and physical therapy assistants (PTAs)',
+          'Occupational therapists (OTs) and occupational therapy assistants (OTAs)',
+          'Speech-language pathologists (SLPs)',
+          'Certified athletic trainers billing under a physician\'s supervision',
+          'Other providers billing timed therapeutic procedure codes',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content: 'The rule applies in all outpatient settings — including private therapy practices, hospital outpatient departments, skilled nursing facilities, and home health agencies — wherever timed CPT codes are billed to Medicare Part B.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-billing-units-are-calculated',
+        text: 'How Billing Units Are Calculated',
+      },
+      {
+        type: 'paragraph',
+        content: 'Each timed therapeutic service is billed in 15-minute units. The 8-minute rule determines how many units a provider can bill based on the total time spent. The key principle: a provider must spend at least 8 minutes on a service to bill for one unit, and at least 8 additional minutes beyond a full unit to bill for the next unit.',
+      },
+      {
+        type: 'table',
+        headers: ['Time Spent on Timed Service', 'Billable Units'],
+        rows: [
+          ['Less than 8 minutes', '0 units (cannot bill)'],
+          ['8 – 22 minutes', '1 unit'],
+          ['23 – 37 minutes', '2 units'],
+          ['38 – 52 minutes', '3 units'],
+          ['53 – 67 minutes', '4 units'],
+          ['68 – 82 minutes', '5 units'],
+          ['83 – 97 minutes', '6 units'],
+          ['98 – 112 minutes', '7 units'],
+        ],
+        footnote: 'Each unit represents 15 minutes of timed service. A provider must spend at least 8 minutes to bill for any unit, and at least 8 minutes beyond a full unit to bill for the next.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Example: How Units Are Counted',
+        calloutText: 'If your physical therapist spends 25 minutes on therapeutic exercise and 10 minutes on manual therapy, the total timed time is 35 minutes. Under the 8-minute rule, this equals 2 billable units (23–37 minutes = 2 units). The therapist cannot bill for a third unit because the remaining time (35 – 30 = 5 minutes) is less than 8 minutes.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'what-it-means-for-your-coverage',
+        text: 'What the 8-Minute Rule Means for Your Medicare Coverage',
+      },
+      {
+        type: 'paragraph',
+        content: 'Under [Medicare Part B](/faqs/what-is-medicare-part-b), outpatient physical therapy and other timed therapeutic services are covered at 80% of the Medicare-approved amount after you meet your annual Part B deductible ($283 in 2026). You are responsible for the remaining 20% coinsurance.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Because billing is based on units rather than a flat per-session rate, the number of units billed directly affects your out-of-pocket cost for each visit. A session with more timed procedures will generate more billable units — and a higher cost-sharing amount for you.',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you have a [Medicare Supplement (Medigap) plan](/faqs/medicare-supplement-plans), your plan will typically cover the 20% Part B coinsurance, significantly reducing your out-of-pocket costs for therapy sessions. [Medicare Advantage plans](/faqs/what-is-medicare-advantage) may have different cost-sharing structures, such as a per-visit copay instead of 20% coinsurance.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'timed-vs-untimed-codes',
+        text: 'Timed vs. Untimed Procedure Codes',
+      },
+      {
+        type: 'paragraph',
+        content: 'Not all therapy procedures are subject to the 8-minute rule. Procedures are classified as either timed or untimed (service-based):',
+      },
+      {
+        type: 'table',
+        headers: ['Type', 'How It\'s Billed', 'Examples', '8-Minute Rule Applies?'],
+        rows: [
+          ['Timed (time-based)', 'Per 15-minute unit', 'Therapeutic exercise, manual therapy, neuromuscular re-education, gait training', 'Yes'],
+          ['Untimed (service-based)', 'Once per session', 'Evaluation/assessment, hot/cold packs, electrical stimulation (unattended)', 'No'],
+        ],
+        footnote: 'Untimed codes are billed once per session regardless of how long the service takes. Only timed codes are subject to the 8-minute billing unit calculation.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'therapy-caps-and-limits',
+        text: 'Therapy Spending Limits in 2026',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare Part B covers outpatient physical therapy, occupational therapy, and speech-language pathology services when they are medically necessary. There is no hard annual dollar cap on therapy services in 2026 — the therapy cap that existed prior to 2018 was permanently eliminated by the Bipartisan Budget Act of 2018.',
+      },
+      {
+        type: 'paragraph',
+        content: 'However, Medicare does apply a **targeted medical review** threshold. In 2026, claims for physical therapy and speech-language pathology combined that exceed **$3,000** in a calendar year, and claims for occupational therapy that exceed **$3,000**, may be subject to additional review to confirm medical necessity. Your provider must document that continued treatment is medically necessary.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Keep Records of Your Therapy',
+        calloutText: 'If your therapy costs approach the $3,000 targeted review threshold, make sure your provider is documenting medical necessity thoroughly. Medicare can request records to verify that continued treatment is appropriate.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Does the 8-minute rule affect how much I pay for physical therapy?',
+            answer: 'Yes. Because Medicare Part B pays 80% of the approved amount per billing unit, more units billed means a higher total cost — and a higher 20% coinsurance for you. A session with 3 billed units will cost more than a session with 1 unit. If you have a Medigap plan, it typically covers your 20% coinsurance, reducing your out-of-pocket cost to zero (after the Part B deductible).',
+          },
+          {
+            question: 'Can a provider bill for less than 8 minutes of a timed service?',
+            answer: 'No. Under the Medicare 8-minute rule, a provider cannot bill any units for a timed service if they spent fewer than 8 minutes on it. The minimum time to bill one unit is 8 minutes.',
+          },
+          {
+            question: 'Does the 8-minute rule apply to Medicare Advantage plans?',
+            answer: 'Medicare Advantage plans are required to cover the same services as Original Medicare, but they may use different billing and cost-sharing structures. Some Medicare Advantage plans use per-visit copays for therapy rather than the unit-based billing model. Check your plan\'s Evidence of Coverage for details.',
+          },
+          {
+            question: 'Is there a limit on how many physical therapy visits Medicare covers in 2026?',
+            answer: 'There is no hard visit limit for outpatient physical therapy in 2026. Medicare covers medically necessary therapy services without a fixed number of visits. However, claims exceeding $3,000 per year for PT and speech therapy combined may be subject to medical review to confirm ongoing necessity.',
+          },
+          {
+            question: 'What is the difference between timed and untimed therapy codes?',
+            answer: 'Timed codes are billed per 15-minute unit and are subject to the 8-minute rule — examples include therapeutic exercise and manual therapy. Untimed (service-based) codes are billed once per session regardless of time — examples include evaluations and unattended electrical stimulation. Only timed codes are subject to the 8-minute billing calculation.',
+          },
         ],
       },
     ],
