@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 interface Stats {
   total_clicks: number;
@@ -254,33 +254,55 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
   if (!page) return <EmptyState message="Select a page from the dropdown above to view its heatmap." />;
   if (loading) return <LoadingState />;
 
+  const [iframeHeight, setIframeHeight] = useState(3000);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  // Try to read the iframe's document height once it loads
+  const handleIframeLoad = () => {
+    try {
+      const doc = iframeRef.current?.contentDocument || iframeRef.current?.contentWindow?.document;
+      if (doc) {
+        const h = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight, 3000);
+        setIframeHeight(h);
+      }
+    } catch {
+      // cross-origin — keep the default tall height
+    }
+  };
+
   return (
     <div className="space-y-4">
       <div className="bg-[#141720] border border-[#2a2d37] rounded-xl p-4">
         <p className="text-gray-400 text-sm mb-4">{clicks.length} clicks recorded for this page</p>
-        <div className="relative bg-[#0f1117] rounded-lg overflow-hidden" style={{ minHeight: "600px" }}>
-          {/* Heatmap overlay */}
-          <iframe
-            src={page}
-            className="w-full border-0 rounded-lg"
-            style={{ height: "800px", pointerEvents: "none" }}
-            title="Page preview"
-          />
-          {/* Click dots overlay */}
-          <div className="absolute inset-0 pointer-events-none">
-            {clicks.map((click, i) => (
-              <div
-                key={i}
-                className="absolute w-4 h-4 rounded-full opacity-40"
-                style={{
-                  left: `${click.x_percent}%`,
-                  top: `${click.y_percent}%`,
-                  transform: "translate(-50%, -50%)",
-                  background: "radial-gradient(circle, rgba(255,59,48,0.8) 0%, rgba(255,149,0,0.4) 50%, transparent 70%)",
-                  boxShadow: "0 0 8px rgba(255,59,48,0.5)",
-                }}
-              />
-            ))}
+        {/* Scrollable wrapper — lets you scroll through the full page */}
+        <div className="overflow-y-auto rounded-lg" style={{ maxHeight: "80vh" }}>
+          <div className="relative bg-[#0f1117] rounded-lg" style={{ height: `${iframeHeight}px` }}>
+            {/* Page preview iframe */}
+            <iframe
+              ref={iframeRef}
+              src={page}
+              className="w-full border-0 rounded-lg absolute inset-0"
+              style={{ height: `${iframeHeight}px`, pointerEvents: "none" }}
+              title="Page preview"
+              onLoad={handleIframeLoad}
+            />
+            {/* Click dots overlay — positioned over the full page height */}
+            <div className="absolute inset-0 pointer-events-none">
+              {clicks.map((click, i) => (
+                <div
+                  key={i}
+                  className="absolute w-5 h-5 rounded-full"
+                  style={{
+                    left: `${click.x_percent}%`,
+                    top: `${click.y_percent}%`,
+                    transform: "translate(-50%, -50%)",
+                    background: "radial-gradient(circle, rgba(255,59,48,0.9) 0%, rgba(255,149,0,0.5) 50%, transparent 70%)",
+                    boxShadow: "0 0 10px rgba(255,59,48,0.7)",
+                    opacity: 0.7,
+                  }}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
