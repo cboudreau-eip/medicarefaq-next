@@ -7262,11 +7262,11 @@ export const blogArticles: BlogArticleData[] = [
     ],
   },
   {
-    slug: "medicare-coverage-for-incontinence-supplies-5-myths-debunked",
+    slug: "5-medicare-myths-about-incontinence-coverage",
     seo: {
       title: "Medicare Coverage for Incontinence Supplies: 5 Myths Debunked (2026) | MedicareFAQ",
       description: "Original Medicare does not cover adult diapers or pads, but it does cover catheters, pelvic floor therapy, and more. Learn the 5 biggest myths about Medicare and incontinence coverage in 2026.",
-      canonical: "https://www.medicarefaq.com/blog/medicare-coverage-for-incontinence-supplies-5-myths-debunked/",
+      canonical: "https://www.medicarefaq.com/blog/5-medicare-myths-about-incontinence-coverage/",
       ogImage: "https://images.pexels.com/photos/7551617/pexels-photo-7551617.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
     },
     title: "Medicare Coverage for Incontinence Supplies: 5 Myths Debunked",
