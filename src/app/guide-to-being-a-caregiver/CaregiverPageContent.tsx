@@ -57,7 +57,7 @@ export default function CaregiverPageContent({ page, slug }: { page: CaregiverPa
 
           <div className="flex flex-wrap gap-3">
             <a
-              href="tel:8883358996"
+              href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "guide_to_being_a_caregiver" })}
               className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#a30f28] text-white font-semibold px-5 py-3 rounded-lg transition-colors"
             >

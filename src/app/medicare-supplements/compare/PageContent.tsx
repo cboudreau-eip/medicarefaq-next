@@ -114,7 +114,7 @@ export default function PageContent() {
             All 10 standardized Medigap plan letters compared side by side. Benefits are identical regardless of insurer — only premiums differ.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="tel:8883358996"
+            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               <Phone className="w-4 h-4" /> Get Free Quotes
             </a>
@@ -270,7 +270,7 @@ export default function PageContent() {
               Our licensed Medicare agents compare rates from multiple carriers at no cost to you. We'll help you find the right plan for your health needs and budget.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="tel:8883358996"
+              <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>

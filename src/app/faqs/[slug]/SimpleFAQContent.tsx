@@ -646,7 +646,7 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                     Speak with a licensed Medicare agent
                   </p>
                   <a
-                    href="tel:8883358996"
+                    href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "faq_simple" })}
                     className="flex items-center justify-center gap-2 bg-[#C41230] text-white text-sm font-bold py-2.5 rounded-lg hover:bg-[#A50F28] transition-colors w-full mb-2"
                   >

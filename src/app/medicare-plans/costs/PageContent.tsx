@@ -300,7 +300,7 @@ export default function PageContent() {
               Your actual Medicare costs depend on your location, health, medications, and income. Our licensed agents can give you a personalized cost breakdown at no charge.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:8883358996"
+              <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "costs" })} className="inline-flex items-center gap-2 bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-green-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>

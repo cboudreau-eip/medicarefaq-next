@@ -115,7 +115,7 @@ export default function PageContent() {
               Outpatient medical insurance covering doctor visits, preventive care, lab tests, and durable medical equipment. The standard 2026 premium is $202.90/month.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="tel:8883358996"
+              <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_b" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 <Phone className="w-4 h-4" />
                 Get Free Guidance
@@ -347,7 +347,7 @@ export default function PageContent() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl font-bold mb-3">Questions about Your Part B Coverage?</h2>
             <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand IRMAA, and find the right Medigap plan to cover the 20% coinsurance — at no cost to you.</p>
-            <a href="tel:8883358996"
+            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_b" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
               <Phone className="w-5 h-5" />
               Call (888) 335-8996

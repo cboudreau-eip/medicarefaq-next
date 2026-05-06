@@ -932,7 +932,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 <div className="bg-[#1B2A4A] rounded-xl p-5 text-center">
                   <p className="text-white font-bold text-sm mb-1">Have Questions?</p>
                   <p className="text-white/60 text-xs mb-4">Speak with a licensed Medicare agent</p>
-                  <a href="tel:8883358996"
+                  <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "faq_coverage_article" })} className="flex items-center justify-center gap-2 bg-[#C41230] text-white text-sm font-bold py-2.5 rounded-lg hover:bg-[#A50F28] transition-colors w-full mb-2">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
@@ -949,7 +949,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
           <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-3">{article.ctaBanner.title}</h2>
           <p className="text-white/80 mb-8 max-w-xl mx-auto">{article.ctaBanner.text}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="tel:8883358996"
+            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "faq_coverage_article" })} className="flex items-center gap-2 bg-white text-[#C41230] font-bold px-6 py-3 rounded-lg hover:bg-white/90 transition-colors">
               <Phone className="w-5 h-5" /> Call (888) 335-8996
             </a>

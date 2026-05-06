@@ -117,7 +117,7 @@ export default function PageContent() {
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
             Who can enroll in Medicare Supplement insurance, when to enroll, and what happens if you miss your window.
           </p>
-          <a href="tel:8883358996"
+          <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_eligibility" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
             <Phone className="w-4 h-4" /> Speak with a Licensed Agent
           </a>
@@ -261,7 +261,7 @@ export default function PageContent() {
               Our licensed Medicare agents can help you understand your eligibility, find the right plan, and enroll during your Open Enrollment Period — at no cost to you.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="tel:8883358996"
+              <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_eligibility" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>

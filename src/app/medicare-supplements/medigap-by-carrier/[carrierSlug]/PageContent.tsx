@@ -236,7 +236,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
               Our licensed Medicare agents compare {carrier.shortName} rates against other top carriers at no cost to you. Get your personalized quote in minutes.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="tel:8883358996"
+              <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_carrier_detail" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>

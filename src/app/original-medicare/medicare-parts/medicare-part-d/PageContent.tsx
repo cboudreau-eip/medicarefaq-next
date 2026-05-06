@@ -134,7 +134,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
             <a href="#coverage-phases" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               How Coverage Works <ArrowRight className="w-4 h-4" />
             </a>
-            <a href="tel:8883358996"
+            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" /> Talk to an Agent
             </a>
@@ -180,7 +180,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                       </button>
                     }
                   />
-                  <a href="tel:8883358996"
+                  <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
                     <Phone className="w-4 h-4" /> (888) 335-8996
                   </a>
@@ -398,7 +398,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                         </button>
                       }
                     />
-                    <a href="tel:8883358996"
+                    <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>

@@ -120,7 +120,7 @@ export default function Footer() {
             />
             <div className="flex flex-col sm:flex-row gap-4 text-sm text-white/50">
               <a
-                href="tel:8883358996"
+                href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
                 onClick={() =>
                   trackPhoneClick({
                     phone_number: "(888) 335-8996",

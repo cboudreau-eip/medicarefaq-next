@@ -81,7 +81,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
             <p className="text-xl text-blue-100 max-w-2xl mb-6">{page.heroSubtitle}</p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="tel:8883358996"
+                href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "part_d_detail" })}
                 className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
@@ -283,7 +283,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                 }
               />
               <a
-                href="tel:8883358996"
+                href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "part_d_detail" })}
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors border border-white/30"
               >

@@ -286,7 +286,7 @@ export default function Guides() {  useEffect(() => {
               Our licensed Medicare agents can walk you through your options, answer your questions, and help you find the right plan — all at no cost to you.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="tel:8883358996"
+              <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "guides" })} className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
