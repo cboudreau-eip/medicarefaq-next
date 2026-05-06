@@ -7,7 +7,7 @@ import { simpleFAQBatch4 } from "@/lib/simple-faq-data-batch4";
 import { simpleFAQBatch5 } from "@/lib/simple-faq-data-batch5";
 import { simpleFAQBatch6 } from "@/lib/simple-faq-data-batch6";
 
-const BASE_URL = "https://www.medicarefaq.com";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
 const lastModified = new Date("2026-04-09").toISOString();
 
 type SitemapEntry = {

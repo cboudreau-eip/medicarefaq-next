@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { blogArticles } from "@/lib/blog-articles-data";
 
-const BASE_URL = "https://www.medicarefaq.com";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
 
 type SitemapEntry = {
   url: string;

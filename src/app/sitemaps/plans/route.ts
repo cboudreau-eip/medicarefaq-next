@@ -5,7 +5,7 @@ import { STATE_DATA } from "@/lib/medigap-state-data";
 import { MEDICARE_ADVANTAGE_PAGES } from "@/lib/medicare-advantage-sub-data";
 import { CAREGIVER_PAGES } from "@/lib/caregiver-guide-data";
 
-const BASE_URL = "https://www.medicarefaq.com";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
 const lastModified = new Date("2026-04-09").toISOString();
 
 type SitemapEntry = {
