@@ -1,0 +1,156 @@
+name: Auto-Generate HeyGen Video on Article Publish
+
+# Triggers whenever a push to main touches one of the article data files
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/lib/coverage-data.ts"
+      - "src/lib/blog-articles-data.ts"
+      - "src/lib/simple-faq-data.ts"
+      - "src/lib/simple-faq-data-batch*.ts"
+      - "src/lib/blog-data.ts"
+
+jobs:
+  generate-video:
+    name: Detect new articles and generate HeyGen videos
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # ── 1. Check out the repo (full history so we can diff) ──────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # Need the previous commit to diff against
+
+      # ── 2. Detect which article data files changed ───────────────────────────
+      - name: Get changed article files
+        id: changed
+        run: |
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- \
+            'src/lib/coverage-data.ts' \
+            'src/lib/blog-articles-data.ts' \
+            'src/lib/simple-faq-data.ts' \
+            'src/lib/simple-faq-data-batch*.ts' \
+            'src/lib/blog-data.ts' \
+          )
+          echo "files=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Changed article files: $CHANGED"
+
+      # ── 3. Extract new article slugs from the diff ───────────────────────────
+      # We look for lines added (+) that contain a slug: field
+      - name: Extract new article slugs from diff
+        id: slugs
+        run: |
+          # Get the diff for changed article files only
+          DIFF=$(git diff HEAD~1 HEAD -- \
+            src/lib/coverage-data.ts \
+            src/lib/blog-articles-data.ts \
+            src/lib/simple-faq-data.ts \
+            'src/lib/simple-faq-data-batch*.ts' \
+            src/lib/blog-data.ts \
+          )
+
+          # Extract slug values from newly added lines (lines starting with +)
+          # Matches patterns like:   slug: "some-slug-here",
+          SLUGS=$(echo "$DIFF" | grep '^+' | grep -oP "slug:\s*['\"]([^'\"]+)['\"]" | grep -oP "['\"]([^'\"]+)['\"]" | tr -d "'\"\n" | tr ' ' '\n' | sort -u | tr '\n' ',' | sed 's/,$//')
+
+          echo "New slugs detected: $SLUGS"
+          echo "slugs=$SLUGS" >> $GITHUB_OUTPUT
+
+      # ── 4. For each new slug, call the /api/new-article endpoint ─────────────
+      - name: Trigger video generation for each new article
+        if: steps.slugs.outputs.slugs != ''
+        env:
+          SITE_URL: ${{ secrets.MEDICAREFAQ_SITE_URL }}
+          WEBHOOK_SECRET: ${{ secrets.MEDICAREFAQ_WEBHOOK_SECRET }}
+        run: |
+          IFS=',' read -ra SLUG_ARRAY <<< "${{ steps.slugs.outputs.slugs }}"
+
+          for SLUG in "${SLUG_ARRAY[@]}"; do
+            SLUG=$(echo "$SLUG" | xargs)  # trim whitespace
+            [ -z "$SLUG" ] && continue
+
+            echo "Processing slug: $SLUG"
+
+            # Determine article type and category from the diff
+            # Check if slug appears in coverage-data (FAQ) or blog
+            if git diff HEAD~1 HEAD -- src/lib/coverage-data.ts | grep -q "\"$SLUG\""; then
+              CATEGORY="Medicare Coverage"
+              ARTICLE_TYPE="coverage"
+            elif git diff HEAD~1 HEAD -- src/lib/blog-articles-data.ts src/lib/blog-data.ts | grep -q "\"$SLUG\""; then
+              CATEGORY="Medicare Blog"
+              ARTICLE_TYPE="blog"
+            else
+              CATEGORY="Medicare"
+              ARTICLE_TYPE="faq"
+            fi
+
+            # Extract title from the diff for this slug (line after slug: line)
+            TITLE=$(git diff HEAD~1 HEAD | grep -A5 "\"$SLUG\"" | grep -oP "title:\s*['\"]([^'\"]+)['\"]" | head -1 | grep -oP "['\"]([^'\"]+)['\"]" | head -1 | tr -d "'\"")
+            [ -z "$TITLE" ] && TITLE="$SLUG"
+
+            # Extract excerpt/description
+            EXCERPT=$(git diff HEAD~1 HEAD | grep -A20 "\"$SLUG\"" | grep -oP "description:\s*['\"]([^'\"]{20,})['\"]" | head -1 | grep -oP "['\"]([^'\"]+)['\"]" | head -1 | tr -d "'\"")
+            [ -z "$EXCERPT" ] && EXCERPT="$TITLE"
+
+            CANONICAL_URL="https://www.medicarefaq.com/faqs/${SLUG}/"
+            [ "$ARTICLE_TYPE" = "blog" ] && CANONICAL_URL="https://www.medicarefaq.com/blog/${SLUG}/"
+
+            echo "  Title: $TITLE"
+            echo "  Category: $CATEGORY"
+            echo "  URL: $CANONICAL_URL"
+
+            # Build the JSON payload
+            PAYLOAD=$(jq -n \
+              --arg title "$TITLE" \
+              --arg slug "$SLUG" \
+              --arg url "$CANONICAL_URL" \
+              --arg category "$CATEGORY" \
+              --arg excerpt "$EXCERPT" \
+              --arg author "David Haass" \
+              --arg date "$(date +%Y-%m-%d)" \
+              --argjson submitToHeyGen true \
+              '{
+                title: $title,
+                slug: $slug,
+                url: $url,
+                category: $category,
+                excerpt: $excerpt,
+                author: $author,
+                date: $date,
+                submitToHeyGen: $submitToHeyGen
+              }')
+
+            # Call the site's /api/new-article endpoint
+            RESPONSE=$(curl -s -w "\n%{http_code}" \
+              -X POST "${SITE_URL}/api/new-article" \
+              -H "Content-Type: application/json" \
+              -H "X-MedicareFAQ-Secret: ${WEBHOOK_SECRET}" \
+              -d "$PAYLOAD" \
+              --max-time 120)
+
+            HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+            BODY=$(echo "$RESPONSE" | head -n -1)
+
+            echo "  Response ($HTTP_CODE): $BODY"
+
+            if [ "$HTTP_CODE" = "200" ]; then
+              echo "  SUCCESS: Video generation triggered for $SLUG"
+            else
+              echo "  WARNING: Non-200 response for $SLUG (HTTP $HTTP_CODE)"
+            fi
+
+            # Small delay between articles to avoid rate limits
+            sleep 3
+          done
+
+      # ── 5. Summary ────────────────────────────────────────────────────────────
+      - name: Summary
+        if: always()
+        run: |
+          echo "=== Auto-Video Workflow Complete ==="
+          echo "Slugs processed: ${{ steps.slugs.outputs.slugs }}"
+          echo "Check HeyGen dashboard: https://app.heygen.com/videos"
