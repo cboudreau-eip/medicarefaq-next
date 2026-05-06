@@ -17043,12 +17043,12 @@ export const coverageArticles: CoverageArticleData[] = [
     title: "Does Medicare Cover STD/STI Testing, Screening, and Treatment?",
     subtitle: "Medicare Part B covers annual screenings for sexually transmitted infections including HIV, gonorrhea, syphilis, chlamydia, and hepatitis B at no cost. Learn about coverage for STD testing, counseling, treatments, and prescription medications.",
     category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
+    dateUpdated: "May 5, 2026",
     author: {
-      name: "Jagger Esch",
-      initials: "JE",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a Licensed Medicare Expert at MedicareFAQ, helping beneficiaries navigate Medicare coverage options with clarity and confidence.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
