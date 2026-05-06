@@ -137,32 +137,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026"],
   },
   {
-    slug: 'get-on-the-medicare-do-not-call-list',
-    seo: {
-      title: 'Does Medicare Call You at Home: How to Spot Medicare Phone Scams',
-      description: 'Medicare will never call you at home. It\'s crucial to know how to report a fraudulent call claiming to be from Medicare and how to stop them.',
-      canonical: 'https://www.medicarefaq.com/faqs/get-on-the-medicare-do-not-call-list/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Call-You-at-Home-How-to-Spot-Medicare-Phone-Scams.jpg',
-    },
-    title: 'Does Medicare Call You at Home: How to Spot Medicare Phone Scams',
-    summary: 'There’s a rise in Medicare phone scams every year around the Annual Enrollment Period. We will discuss some of the most common Medicare scams so that you can spot them and how to protect yourself to avoid falling victim to them. We will also share how you can stop scammers from calling you and how to report them',
-    category: 'Medicare FAQ',
-    dateUpdated: 'June 13, 2023',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '13 min',
-    sections: [
-      {
-        heading: 'Medicare Cards & Medicare Beneficiary Identifiers',
-        paragraphs: [
-          'Updated on June 13, 2023',
-          'To improve security and comply with the [Medicare Access and Chip Reauthorization Act](/blog/medicare-news), the [Center](/blog/5-things-to-do-after-you-receive-your-medicare-card)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["joe-namath-medicare-commericals", "laws-against-taking-advantage-of-the-elderly", "report-medicare-fraud"],
-  },
-  {
     slug: 'medicare-advantage-over-the-counter-cards',
     seo: {
       title: 'Medicare Advantage Over-the-Counter Drug Cards',

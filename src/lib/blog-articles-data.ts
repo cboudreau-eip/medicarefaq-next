@@ -3964,7 +3964,7 @@ export const blogArticles: BlogArticleData[] = [
         { question: 'How do I Know if a Medicare Provider is Legitimate?', answer: 'You can verify if a provider is enrolled in Medicare by visiting the Medicare Provider Enrollment, Chain, and Ownership System (PECOS) or by calling 1-800-MEDICARE. Legitimate providers have Medicare enrollment numbers and are listed in Medicare\'s provider directory. Be wary of unsolicited offers from providers not in your network or whom you haven\'t selected.' },
         { question: 'What Should I do if I Discover Unauthorized Charges on My Medicare Statement?', answer: 'Contact Medicare immediately at 1-800-MEDICARE to report the fraudulent charges. Request a detailed explanation of the claims and ask Medicare to investigate. File a formal complaint if needed. Also contact your bank or credit card company if your payment information was compromised. Document everything in writing and keep records of all communications.' },
       ],
-      relatedSlugs: ["protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "get-on-the-medicare-do-not-call-list", "retirement-regrets-of-seniors", "who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules"],
+      relatedSlugs: ["protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "retirement-regrets-of-seniors", "who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules"],
     },
 {
       slug: 'married-divorced-widowed-how-relationship-status-affects-medicare',
