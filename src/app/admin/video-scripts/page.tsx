@@ -73,6 +73,14 @@ export default function VideoScriptsPage() {
   const [copied, setCopied] = useState(false);
   const [loadingArticles, setLoadingArticles] = useState(true);
 
+  // Check HeyGen status on load
+  useEffect(() => {
+    fetch("/api/heygen-status")
+      .then((r) => r.json())
+      .then((data) => setHeygenConfigured(data.configured ?? false))
+      .catch(() => {});
+  }, []);
+
   // Load articles list
   useEffect(() => {
     fetch("/api/articles-list")
