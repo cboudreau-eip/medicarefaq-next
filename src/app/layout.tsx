@@ -39,18 +39,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Invoca Call Tracking — MUST be first script in <head> for DNI to work.
-            Set InvocaTagId before the src loads so the library initializes immediately. */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.InvocaTagId = '1925/3559588726';`,
-          }}
-        />
-        <script
-          async
-          src="https://solutions.invocacdn.com/js/invoca-latest.min.js"
-        />
-
         <link
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
