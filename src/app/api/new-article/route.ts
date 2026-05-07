@@ -4,32 +4,20 @@ import {
   extractPlainText,
 } from "@/lib/video-script-generator";
 import { submitHeyGenJob, isHeyGenConfigured } from "@/lib/heygen-client";
+import {
+  createVideoJob,
+  updateVideoJob,
+  initVideoJobsSchema,
+} from "@/lib/video-jobs-db";
 
 /**
  * POST /api/new-article
  *
  * Accepts a JSON payload describing a newly published article and:
  *   1. Forwards the article metadata to the Zapier webhook
- *   2. Generates a 2-minute video script using Claude
+ *   2. Generates a 2-minute video script using the Forge LLM
  *   3. Optionally submits the script to HeyGen (when HEYGEN_API_KEY is set)
- *
- * Expected request body:
- * {
- *   title:          string   — Article headline
- *   slug:           string   — URL slug (e.g. "does-medicare-cover-hearing-aids")
- *   url?:           string   — Full canonical URL (auto-built from slug if omitted)
- *   author?:        string   — Author display name (defaults to "David Haass")
- *   date?:          string   — ISO 8601 publish date (defaults to today)
- *   category?:      string   — "coverage" | "blog" | "faq" | etc.
- *   excerpt?:       string   — Short description / meta description
- *   bodyText?:      string   — Plain text or HTML body content for richer script generation
- *   generateScript?: boolean — Whether to generate a video script (default: true)
- *   submitToHeyGen?: boolean — Whether to submit to HeyGen (default: false; requires HEYGEN_API_KEY)
- * }
- *
- * Security: requests must include the header
- *   X-MedicareFAQ-Secret: <ZAPIER_WEBHOOK_SECRET env var>
- * This prevents the endpoint from being spammed by external parties.
+ *   4. Records the job in the video_jobs database table
  */
 
 const ZAPIER_WEBHOOK_URL =
@@ -65,7 +53,7 @@ export async function POST(request: NextRequest) {
     excerpt,
     bodyText,
     generateScript = true,
-    submitToHeyGen = false,
+    submitToHeyGen = true,
   } = body as {
     title?: string;
     slug?: string;
@@ -91,6 +79,13 @@ export async function POST(request: NextRequest) {
     url ?? `https://www.medicarefaq.com/faqs/${slug}/`;
   const publishDate =
     date ?? new Date().toISOString().split("T")[0];
+
+  // ── Ensure DB schema exists ──────────────────────────────────────────────────
+  try {
+    await initVideoJobsSchema();
+  } catch (e) {
+    console.error("[new-article] Schema init failed:", e);
+  }
 
   // ── Build the Zapier payload ─────────────────────────────────────────────────
   const zapierPayload = {
@@ -127,11 +122,28 @@ export async function POST(request: NextRequest) {
     console.error("[new-article] Zapier fetch failed:", zapierError);
   }
 
-  // ── Step 2: Generate video script with Claude ────────────────────────────────
+  // ── Step 2: Generate video script ────────────────────────────────────────────
   let scriptResult = null;
   let scriptError: string | null = null;
+  let jobId: number | null = null;
 
   if (generateScript) {
+    // Create a pending job record
+    try {
+      const job = await createVideoJob({
+        heygenVideoId: null,
+        articleSlug: slug ?? "",
+        articleTitle: title ?? "",
+        articleUrl: canonicalUrl,
+        script: null,
+        status: "pending",
+        triggeredBy: "github_action",
+      });
+      jobId = job.id;
+    } catch (e) {
+      console.error("[new-article] Failed to create job record:", e);
+    }
+
     try {
       scriptResult = await generateVideoScript({
         title: title ?? "",
@@ -141,8 +153,7 @@ export async function POST(request: NextRequest) {
         bodyText: extractPlainText(bodyText ?? excerpt ?? ""),
       });
 
-      // Append script to Zapier payload as a follow-up notification
-      // (fire-and-forget — don't block the response)
+      // Fire-and-forget: notify Zapier with the script
       const scriptPayload = {
         ...zapierPayload,
         event: "video_script_ready",
@@ -150,7 +161,6 @@ export async function POST(request: NextRequest) {
         script_word_count: scriptResult.wordCount,
         script_duration_seconds: scriptResult.estimatedDurationSeconds,
       };
-
       fetch(ZAPIER_WEBHOOK_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -161,21 +171,62 @@ export async function POST(request: NextRequest) {
     } catch (err) {
       scriptError = err instanceof Error ? err.message : String(err);
       console.error("[new-article] Script generation failed:", scriptError);
+
+      if (jobId) {
+        try {
+          await updateVideoJob(jobId, {
+            status: "failed",
+            errorMessage: scriptError,
+          });
+        } catch (e) {
+          console.error("[new-article] Failed to mark job failed:", e);
+        }
+      }
     }
   }
 
-  // ── Step 3: Submit to HeyGen (if requested and key is available) ─────────────
+  // ── Step 3: Submit to HeyGen ─────────────────────────────────────────────────
   let heygenResult = null;
-  if (submitToHeyGen && scriptResult && isHeyGenConfigured()) {
-    heygenResult = await submitHeyGenJob({
-      script: scriptResult.script,
-      title: title ?? "",
-    });
+  if (scriptResult && (submitToHeyGen || isHeyGenConfigured())) {
+    try {
+      heygenResult = await submitHeyGenJob({
+        script: scriptResult.script,
+        title: title ?? "",
+      });
+
+      if (jobId && heygenResult?.videoId) {
+        await updateVideoJob(jobId, {
+          heygenVideoId: heygenResult.videoId,
+          status: "processing",
+        });
+      }
+    } catch (err) {
+      const heygenError = err instanceof Error ? err.message : String(err);
+      console.error("[new-article] HeyGen submission failed:", heygenError);
+      if (jobId) {
+        try {
+          await updateVideoJob(jobId, {
+            status: "failed",
+            errorMessage: heygenError,
+          });
+        } catch (e) {
+          console.error("[new-article] Failed to update job on HeyGen error:", e);
+        }
+      }
+    }
+  } else if (jobId && scriptResult) {
+    // Script generated but HeyGen not configured
+    try {
+      await updateVideoJob(jobId, { status: "completed" });
+    } catch (e) {
+      console.error("[new-article] Failed to mark job completed:", e);
+    }
   }
 
   // ── Response ─────────────────────────────────────────────────────────────────
   return NextResponse.json({
     success: true,
+    jobId,
     zapier: { success: zapierSuccess, error: zapierError },
     script: scriptResult,
     scriptError,
