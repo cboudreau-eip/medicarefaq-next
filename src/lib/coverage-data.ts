@@ -32821,4 +32821,33 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
   },
 
+];  // TEST ENTRY — will be removed after GitHub Action test
+  {
+    slug: "does-medicare-cover-vision-workflow-test",
+    seo: {
+      title: "Does Medicare Cover Vision? (Workflow Test)",
+      description: "Original Medicare does not cover routine vision care, but Medicare Advantage plans often include vision benefits.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-vision-workflow-test/",
+      ogImage: "",
+    },
+    title: "Does Medicare Cover Vision? (Workflow Test)",
+    subtitle: "Original Medicare does not cover routine eye exams or glasses.",
+    category: "Medicare Coverage",
+    dateUpdated: "May 7, 2026",
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "" },
+    reviewer: { name: "Ashlee Zareczny", initials: "AZ", role: "Reviewer", bio: "" },
+    readTime: "5 min read",
+    youtubeVideoId: "",
+    youtubeVideoTitle: "",
+    quickAnswer: { text: "Original Medicare does not cover routine vision care.", badges: [] },
+    comparisonTable: [],
+    planBreakdowns: [],
+    faqs: [],
+    quickReference: [],
+    keyTakeaways: [],
+    relatedTopics: [],
+    sidebarRelatedLinks: [],
+    ctaBanner: { title: "Get Help With Medicare Vision Coverage", text: "A licensed Medicare specialist can help you find a plan with vision benefits." },
+    relatedSlugs: [],
+  },
 ];
