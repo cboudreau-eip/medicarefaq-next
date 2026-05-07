@@ -44,6 +44,20 @@ export default function RootLayout({
           rel="stylesheet"
         />
 
+        {/* Invoca Call Tracking — loads after page is interactive so it can scan DOM for phone elements */}
+        <Script
+          id="invoca-tag-id"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.InvocaTagId = '1925/3559588726';`,
+          }}
+        />
+        <Script
+          id="invoca-script"
+          strategy="afterInteractive"
+          src="https://solutions.invocacdn.com/js/invoca-latest.min.js"
+        />
+
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
