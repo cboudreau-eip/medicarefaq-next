@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { ExternalLink } from "lucide-react";
 
 interface Article {
   slug: string;
@@ -413,39 +414,53 @@ export default function VideoScriptsPage() {
                 </div>
               ) : (
                 filteredArticles.map((article) => (
-                  <button
+                  <div
                     key={article.slug}
-                    onClick={() => {
-                      setSelectedArticle(article);
-                      setScriptResult(null);
-                      setError(null);
-                    }}
-                    className={`w-full text-left px-4 py-3 border-b border-gray-50 hover:bg-blue-50 transition-colors ${
+                    className={`relative w-full border-b border-gray-50 ${
                       selectedArticle?.slug === article.slug
                         ? "bg-blue-50 border-l-2 border-l-blue-500"
                         : ""
                     }`}
                   >
-                    <div className="flex items-start justify-between gap-2">
-                      <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium text-gray-900 truncate">
-                          {article.title}
-                        </p>
-                        <p className="text-xs text-gray-400 mt-0.5 truncate">
-                          {article.category} · {article.date}
-                        </p>
+                    <button
+                      onClick={() => {
+                        setSelectedArticle(article);
+                        setScriptResult(null);
+                        setError(null);
+                      }}
+                      className="w-full text-left px-4 py-3 pr-10 hover:bg-blue-50 transition-colors"
+                    >
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm font-medium text-gray-900 truncate">
+                            {article.title}
+                          </p>
+                          <p className="text-xs text-gray-400 mt-0.5 truncate">
+                            {article.category} · {article.date}
+                          </p>
+                        </div>
+                        <span
+                          className={`shrink-0 text-xs px-2 py-0.5 rounded-full font-medium ${
+                            article.type === "coverage"
+                              ? "bg-blue-100 text-blue-700"
+                              : "bg-purple-100 text-purple-700"
+                          }`}
+                        >
+                          {article.type === "coverage" ? "FAQ" : "Blog"}
+                        </span>
                       </div>
-                      <span
-                        className={`shrink-0 text-xs px-2 py-0.5 rounded-full font-medium ${
-                          article.type === "coverage"
-                            ? "bg-blue-100 text-blue-700"
-                            : "bg-purple-100 text-purple-700"
-                        }`}
-                      >
-                        {article.type === "coverage" ? "FAQ" : "Blog"}
-                      </span>
-                    </div>
-                  </button>
+                    </button>
+                    <a
+                      href={article.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="View article"
+                      onClick={(e) => e.stopPropagation()}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-gray-400 hover:text-blue-600 transition-colors"
+                    >
+                      <ExternalLink size={14} />
+                    </a>
+                  </div>
                 ))
               )}
             </div>
@@ -466,14 +481,26 @@ export default function VideoScriptsPage() {
             </div>
 
             {selectedArticle && (
-              <div className="px-4 py-3 border-b border-gray-100 bg-blue-50">
-                <p className="text-sm font-medium text-blue-900 truncate">
-                  {selectedArticle.title}
-                </p>
-                <p className="text-xs text-blue-600 mt-0.5">
-                  {selectedArticle.category} ·{" "}
-                  {selectedArticle.type === "coverage" ? "Coverage FAQ" : "Blog Post"}
-                </p>
+              <div className="px-4 py-3 border-b border-gray-100 bg-blue-50 flex items-center justify-between gap-2">
+                <div className="min-w-0">
+                  <p className="text-sm font-medium text-blue-900 truncate">
+                    {selectedArticle.title}
+                  </p>
+                  <p className="text-xs text-blue-600 mt-0.5">
+                    {selectedArticle.category} ·{" "}
+                    {selectedArticle.type === "coverage" ? "Coverage FAQ" : "Blog Post"}
+                  </p>
+                </div>
+                <a
+                  href={selectedArticle.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="View article on site"
+                  className="shrink-0 flex items-center gap-1 text-xs text-blue-600 hover:text-blue-800 font-medium transition-colors"
+                >
+                  <ExternalLink size={12} />
+                  View
+                </a>
               </div>
             )}
 
