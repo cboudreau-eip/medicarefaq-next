@@ -39,16 +39,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Invoca Call Tracking — MUST be first script in <head> for DNI to work.
+            Set InvocaTagId before the src loads so the library initializes immediately. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.InvocaTagId = '1925/3559588726';`,
+          }}
+        />
+        <script
+          async
+          src="https://solutions.invocacdn.com/js/invoca-latest.min.js"
+        />
+
         <link
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
-        />
-        {/* Invoca Call Tracking - raw <script> tag so it executes directly (not serialized by Next.js) */}
-        {/* eslint-disable-next-line @next/next/no-before-interactive-script-outside-document */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(i,n,v,o,c,a) { i.InvocaTagId = o; var s = n.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = ('https:' === n.location.protocol ? 'https://' : 'http://' ) + v; var fs = n.getElementsByTagName('script')[0]; fs.parentNode.insertBefore(s, fs); })(window, document, 'solutions.invocacdn.com/js/invoca-latest.min.js', '1925/3559588726');`,
-          }}
         />
 
         {/* Google Tag Manager */}
