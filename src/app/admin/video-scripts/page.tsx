@@ -116,6 +116,7 @@ export default function VideoScriptsPage() {
   const [filteredArticles, setFilteredArticles] = useState<Article[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [typeFilter, setTypeFilter] = useState<"all" | "coverage" | "blog">("all");
+  const [sortOrder, setSortOrder] = useState<"newest" | "oldest" | "alpha">("newest");
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [scriptResult, setScriptResult] = useState<ScriptResult | null>(null);
@@ -167,8 +168,15 @@ export default function VideoScriptsPage() {
           a.slug.toLowerCase().includes(q)
       );
     }
+    // Sort
+    filtered = [...filtered].sort((a, b) => {
+      if (sortOrder === "alpha") return a.title.localeCompare(b.title);
+      const dateA = new Date(a.date).getTime() || 0;
+      const dateB = new Date(b.date).getTime() || 0;
+      return sortOrder === "newest" ? dateB - dateA : dateA - dateB;
+    });
     setFilteredArticles(filtered);
-  }, [articles, searchQuery, typeFilter]);
+  }, [articles, searchQuery, typeFilter, sortOrder]);
 
   // Load video jobs when switching to jobs tab
   const loadVideoJobs = useCallback(async () => {
@@ -358,7 +366,7 @@ export default function VideoScriptsPage() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
-              <div className="flex gap-2">
+              <div className="flex gap-2 flex-wrap items-center">
                 {(["all", "coverage", "blog"] as const).map((t) => (
                   <button
                     key={t}
@@ -375,6 +383,22 @@ export default function VideoScriptsPage() {
                 <span className="ml-auto text-xs text-gray-400 self-center">
                   {filteredArticles.length} articles
                 </span>
+              </div>
+              <div className="flex gap-1 items-center">
+                <span className="text-xs text-gray-400 mr-1">Sort:</span>
+                {(["newest", "oldest", "alpha"] as const).map((s) => (
+                  <button
+                    key={s}
+                    onClick={() => setSortOrder(s)}
+                    className={`text-xs px-2.5 py-1 rounded-md font-medium transition-colors ${
+                      sortOrder === s
+                        ? "bg-gray-700 text-white"
+                        : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                    }`}
+                  >
+                    {s === "newest" ? "Newest" : s === "oldest" ? "Oldest" : "A–Z"}
+                  </button>
+                ))}
               </div>
             </div>
 
