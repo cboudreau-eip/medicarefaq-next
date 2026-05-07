@@ -45,7 +45,7 @@ interface ScrollData {
 }
 
 export default function HeatmapTracker() {
-  const pathname = usePathname();
+  const pathname = usePathname() ?? "";
   const clickBuffer = useRef<ClickData[]>([]);
   const maxScroll = useRef<number>(0);
   const flushTimeout = useRef<NodeJS.Timeout | null>(null);
@@ -57,7 +57,7 @@ export default function HeatmapTracker() {
     const scrolls: ScrollData[] = [];
     if (maxScroll.current > 0) {
       scrolls.push({
-        page_path: pathname,
+        page_path: pathname || "/",
         max_scroll_percent: maxScroll.current,
         viewport_height: window.innerHeight,
         page_height: document.documentElement.scrollHeight,
@@ -95,7 +95,7 @@ export default function HeatmapTracker() {
       const yPercent = ((e.clientY + scrollY) / pageHeight) * 100;
 
       clickBuffer.current.push({
-        page_path: pathname,
+        page_path: pathname || "/",
         x_percent: xPercent,
         y_percent: yPercent,
         viewport_width: window.innerWidth,

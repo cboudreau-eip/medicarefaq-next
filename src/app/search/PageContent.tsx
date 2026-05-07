@@ -64,14 +64,14 @@ const popularSearches = [
 
 export default function SearchResults() {
   const searchParams = useSearchParams();
-  const initialQuery = searchParams.get("q") || "";
+  const initialQuery = searchParams?.get("q") || "";
 
   const [query, setQuery] = useState(initialQuery);
   const [activeFilter, setActiveFilter] = useState<string>("all");
 
   // Update query when URL changes
   useEffect(() => {
-    const q = searchParams.get("q") || "";
+    const q = searchParams?.get("q") || "";
     if (q !== query) {
       setQuery(q);
       setActiveFilter("all");
