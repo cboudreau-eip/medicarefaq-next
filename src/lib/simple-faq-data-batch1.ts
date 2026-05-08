@@ -582,6 +582,8 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '6 min',
+     youtubeVideoId: "1LxAkOSyj_c",
+     youtubeVideoTitle: "Don't Be Like Bob: How Delaying Medicare Part D Can Affect Your Financial Future",
     sections: [
       {
         heading: 'Medicare Extra Help Program Income Limits',
@@ -767,6 +769,8 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '6 min',
+    youtubeVideoId: "MGY5eWaKJa0",
+    youtubeVideoTitle: "Medicare Supplement Open Enrollment Period",
     sections: [
       {
         heading: 'How Much Can a Medigap Plan Save Me',

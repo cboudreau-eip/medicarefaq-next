@@ -151,6 +151,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '12 min',
+     youtubeVideoId: "_gZLdcfUbLc",
+     youtubeVideoTitle: "Enrolling in Medicare",
     sections: [],
     richSections: [
       { type: "heading", level: 2, text: "Is Medicare Mandatory?", id: "is-mandatory" },
@@ -554,6 +556,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '16 min',
+     youtubeVideoId: "SnIzKGDfFkk",
+     youtubeVideoTitle: "What is the Average Cost of Medicare Supplement Plans?",
     sections: [
       {
         heading: 'Top 10 Most Expensive States for Medigap Plans',

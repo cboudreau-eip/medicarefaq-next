@@ -193,6 +193,8 @@ export interface SimpleFAQArticleData {
   reviewerUrl?: string;     // e.g. "/about-us"
   reviewerTitle?: string;   // e.g. "Compliance & Editorial Manager"
   readTime: string;
+  youtubeVideoId?: string;
+  youtubeVideoTitle?: string;
   sections: SimpleFAQSection[];
   /** Rich blog-style sections with tables, callouts, lists, FAQs. If present, rendered instead of sections. */
   richSections?: BlogSectionContent[];

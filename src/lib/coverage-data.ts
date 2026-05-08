@@ -4805,6 +4805,8 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
     },
     readTime: "13 min read",
+    youtubeVideoId: "-J6wYqvrKdM",
+    youtubeVideoTitle: "Federal Employee Retirement Health Benefits and Medicare",
     quickAnswer: {
       text: "If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB plan works with Medicare. In this article, we’ll review how FEHB plans coordinate benefits with Medicare. We’ll also cover some considerations you should make when it comes to FEHB and retirement.",
       badges: [
@@ -21079,6 +21081,8 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare.",
     },
     readTime: "8 min read",
+    youtubeVideoId: "b6PT6nTp8QQ",
+    youtubeVideoTitle: "Don't Be Like Bob...",
     quickAnswer: {
       text: "If you have employer health insurance when you turn 65, how Medicare coordinates with your coverage depends primarily on your employer's size. With 20+ employees, your employer plan pays first and Medicare is secondary. With fewer than 20 employees, Medicare pays first. You can generally delay Part B without penalty as long as you have creditable employer coverage.",
       badges: [
@@ -23919,6 +23923,8 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is the Compliance & Editorial Manager at MedicareFAQ.",
     },
     readTime: "7 min read",
+    youtubeVideoId: "xxlSJyuEpUs",
+    youtubeVideoTitle: "Medicaid & Medicare Savings Programs",
     quickAnswer: {
       text: "Medicare is a federal health insurance program primarily for people 65 and older (and certain disabled individuals), regardless of income. Medicaid is a joint federal-state program for people with low income and limited resources. Some people qualify for both programs simultaneously — these individuals are called \"dual eligibles\" and receive comprehensive coverage from both.",
       badges: [
@@ -27933,6 +27939,8 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
     },
     readTime: "8 min read",
+    youtubeVideoId: "V5DF2ANmuew",
+    youtubeVideoTitle: "How to Avoid Medicare Part A & Part B Late Enrollment Penalties",
     quickAnswer: {
       text: "You can safely delay Medicare Part B (and Part D) if you have qualifying employer coverage through active employment at a company with 20+ employees. Delaying without qualifying coverage triggers a permanent 10% Part B penalty for each 12-month period missed, plus a Part D penalty of 1% per month. Part A is usually free and safe to take at 65.",
       badges: [
