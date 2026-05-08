@@ -9,11 +9,9 @@ import { trackNavClick } from "@/lib/analytics";
 
 function MegaMenuPanel({
   category,
-  leftOffset,
   onClose,
 }: {
   category: NavCategory;
-  leftOffset: number;
   onClose: () => void;
 }) {
   return (
@@ -22,8 +20,7 @@ function MegaMenuPanel({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -4 }}
       transition={{ duration: 0.15, ease: "easeOut" }}
-      style={{ left: leftOffset }}
-      className="absolute top-full w-[min(90vw,1200px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
+      className="absolute top-full left-1/2 -translate-x-1/2 w-[min(90vw,1200px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
     >
       <div className="container py-5">
         <div className="flex gap-6">
@@ -122,27 +119,13 @@ function MegaMenuPanel({
 
 export default function MegaMenu() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
-  const [leftOffset, setLeftOffset] = useState(0);
   const navRef = useRef<HTMLDivElement>(null);
-  const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const handleMouseEnter = useCallback((index: number) => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
       timeoutRef.current = null;
-    }
-    // Calculate left offset of this nav item relative to the nav bar container
-    const itemEl = itemRefs.current[index];
-    const navEl = navRef.current;
-    if (itemEl && navEl) {
-      const itemRect = itemEl.getBoundingClientRect();
-      const navRect = navEl.getBoundingClientRect();
-      const rawLeft = itemRect.left - navRect.left;
-      // Panel width is min(90vw, 1200px); clamp so it doesn't overflow the right edge
-      const panelWidth = Math.min(window.innerWidth * 0.9, 1200);
-      const maxLeft = navRect.width - panelWidth;
-      setLeftOffset(Math.max(0, Math.min(rawLeft, maxLeft)));
     }
     setActiveIndex(index);
   }, []);
@@ -166,12 +149,11 @@ export default function MegaMenu() {
       onMouseLeave={handleMouseLeave}
     >
       <div className="container">
-        <nav className="flex items-center h-12">
+        {/* Nav links centered */}
+        <nav className="flex items-center justify-center h-12">
           {navigationData.map((category, index) => (
             <div
               key={category.title}
-              ref={(el) => { itemRefs.current[index] = el; }}
-              className="relative"
               onMouseEnter={() => handleMouseEnter(index)}
             >
               <button
@@ -196,11 +178,11 @@ export default function MegaMenu() {
           ))}
         </nav>
       </div>
+      {/* Panel always centered relative to the full nav bar */}
       <AnimatePresence>
         {activeIndex !== null && (
           <MegaMenuPanel
             category={navigationData[activeIndex]}
-            leftOffset={leftOffset}
             onClose={() => setActiveIndex(null)}
           />
         )}
