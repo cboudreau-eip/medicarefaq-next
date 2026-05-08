@@ -6,7 +6,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
     seo: {
       title: "What Medicare Doesn't Cover: Common Surprises | MedicareFAQ",
       description:
-        "Original Medicare has significant coverage gaps. Learn what Medicare doesn't cover in 2026 — dental, vision, hearing, long-term care, and more — and how to fill those gaps.",
+        "Original Medicare has significant coverage gaps. Learn what Medicare doesn't cover in 2026 , dental, vision, hearing, long-term care, and more , and how to fill those gaps.",
       canonical:
         "https://www.medicarefaq.com/faqs/what-medicare-doesnt-cover-common-surprises/",
       ogImage:
@@ -14,7 +14,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
     },
     title: "What Medicare Doesn't Cover: Common Surprises",
     summary:
-      "Original Medicare has significant coverage gaps that can cost thousands of dollars each year. Learn what Medicare doesn't cover in 2026 — including dental, vision, hearing, long-term care, and prescription drugs — and how supplemental options like Medigap and Medicare Advantage can help fill those gaps.",
+      "Original Medicare has significant coverage gaps that can cost thousands of dollars each year. Learn what Medicare doesn't cover in 2026 , including dental, vision, hearing, long-term care, and prescription drugs , and how supplemental options like Medigap and Medicare Advantage can help fill those gaps.",
     category: "Medicare Coverage",
     dateUpdated: "May 8, 2026",
     author: "David Haass",
@@ -74,7 +74,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
         calloutType: "info",
         calloutTitle: "Key Takeaways",
         calloutText:
-          "Original Medicare does not cover routine dental, vision, or hearing services — three of the most common healthcare needs for adults over 65. Long-term custodial care, including assisted living and daily personal care at home, is not covered by Medicare regardless of how long you need it. Supplemental options like Medigap plans and Medicare Advantage can help close coverage gaps, but each comes with different trade-offs in cost, flexibility, and benefits.",
+          "Original Medicare does not cover routine dental, vision, or hearing services , three of the most common healthcare needs for adults over 65. Long-term custodial care, including assisted living and daily personal care at home, is not covered by Medicare regardless of how long you need it. Supplemental options like Medigap plans and Medicare Advantage can help close coverage gaps, but each comes with different trade-offs in cost, flexibility, and benefits.",
       },
       {
         type: "heading",
@@ -85,7 +85,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "This is the gap that catches the most people off guard. Original Medicare does not cover routine dental care — that means no cleanings, fillings, extractions, dentures, or dental implants. According to the American Dental Association's 2024 data, nearly 70% of adults aged 65 and older had at least one dental visit in the past year, yet Medicare covered almost none of it.",
+          "This is the gap that catches the most people off guard. Original Medicare does not cover routine dental care , that means no cleanings, fillings, extractions, dentures, or dental implants. According to the American Dental Association's 2024 data, nearly 70% of adults aged 65 and older had at least one dental visit in the past year, yet Medicare covered almost none of it.",
       },
       {
         type: "paragraph",
@@ -105,7 +105,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "These three exclusions together represent a category of care that most older adults use consistently. Planning for these costs separately — through Medicare Advantage, standalone dental or vision plans, or dental and vision insurance for seniors — is essential.",
+          "These three exclusions together represent a category of care that most older adults use consistently. Planning for these costs separately , through Medicare Advantage, standalone dental or vision plans, or dental and vision insurance for seniors , is essential.",
       },
       {
         type: "heading",
@@ -116,7 +116,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "This is perhaps the most financially devastating gap in Medicare. **Long-term care** refers to custodial services — help with bathing, dressing, eating, toileting, and other activities of daily living. Medicare does not cover this type of care, regardless of how long you need it or how severe your condition is.",
+          "This is perhaps the most financially devastating gap in Medicare. **Long-term care** refers to custodial services , help with bathing, dressing, eating, toileting, and other activities of daily living. Medicare does not cover this type of care, regardless of how long you need it or how severe your condition is.",
       },
       {
         type: "paragraph",
@@ -126,7 +126,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "In-home personal care is similarly excluded. If you need a home health aide to assist with daily routines — not skilled medical care, but personal assistance — Medicare will not pay for it. Medicare does cover short-term, medically necessary skilled nursing or therapy services at home, but these are time-limited and require a physician's order.",
+          "In-home personal care is similarly excluded. If you need a home health aide to assist with daily routines , not skilled medical care, but personal assistance , Medicare will not pay for it. Medicare does cover short-term, medically necessary skilled nursing or therapy services at home, but these are time-limited and require a physician's order.",
       },
       {
         type: "paragraph",
@@ -142,7 +142,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Original Medicare — Parts A and B — does not cover most outpatient prescription drugs. If your doctor writes a prescription and you fill it at a pharmacy, that cost is yours to manage unless you have separate drug coverage.",
+          "Original Medicare , Parts A and B , does not cover most outpatient prescription drugs. If your doctor writes a prescription and you fill it at a pharmacy, that cost is yours to manage unless you have separate drug coverage.",
       },
       {
         type: "paragraph",
@@ -157,7 +157,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Part D plans also use formularies — lists of covered drugs. Not every medication is covered on every plan. Some drug classes, like weight-loss medications, over-the-counter drugs, and certain vitamins or supplements, are typically excluded. Reviewing the Part D formulary for any plan you're considering is a critical step before enrolling.",
+          "Part D plans also use formularies , lists of covered drugs. Not every medication is covered on every plan. Some drug classes, like weight-loss medications, over-the-counter drugs, and certain vitamins or supplements, are typically excluded. Reviewing the Part D formulary for any plan you're considering is a critical step before enrolling.",
       },
       {
         type: "heading",
@@ -173,7 +173,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Alternative therapies are largely excluded as well. Medicare added limited acupuncture coverage for chronic lower back pain in recent years, but acupuncture for other conditions, massage therapy, naturopathy, and most holistic treatments are not covered. Chiropractic care has a narrow exception — Medicare covers manual spinal manipulation for subluxation — but x-rays and other chiropractic services typically are not reimbursed.",
+          "Alternative therapies are largely excluded as well. Medicare added limited acupuncture coverage for chronic lower back pain in recent years, but acupuncture for other conditions, massage therapy, naturopathy, and most holistic treatments are not covered. Chiropractic care has a narrow exception , Medicare covers manual spinal manipulation for subluxation , but x-rays and other chiropractic services typically are not reimbursed.",
       },
       {
         type: "paragraph",
@@ -194,7 +194,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Original Medicare provides essentially no coverage for healthcare received outside the United States and its territories. If you travel internationally and require medical care, you will typically pay out of pocket for everything — emergency room visits, hospital stays, surgeries, and follow-up care.",
+          "Original Medicare provides essentially no coverage for healthcare received outside the United States and its territories. If you travel internationally and require medical care, you will typically pay out of pocket for everything , emergency room visits, hospital stays, surgeries, and follow-up care.",
       },
       {
         type: "paragraph",
@@ -204,7 +204,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "For frequent travelers, this is a meaningful gap. Standalone travel insurance that includes medical coverage is worth considering. Some Medigap plans — specifically Plans C, D, F, G, M, and N — include a foreign travel emergency benefit covering 80% of medically necessary emergency care abroad (up to plan limits) after a $250 deductible.",
+          "For frequent travelers, this is a meaningful gap. Standalone travel insurance that includes medical coverage is worth considering. Some Medigap plans , specifically Plans C, D, F, G, M, and N , include a foreign travel emergency benefit covering 80% of medically necessary emergency care abroad (up to plan limits) after a $250 deductible.",
       },
       {
         type: "paragraph",
@@ -220,7 +220,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "The good news: you don't have to simply accept these gaps. Two primary supplemental options exist — **Medicare Supplement (Medigap)** plans and **Medicare Advantage (Part C)** plans — and each takes a different approach to filling in what Original Medicare leaves out.",
+          "The good news: you don't have to simply accept these gaps. Two primary supplemental options exist , **Medicare Supplement (Medigap)** plans and **Medicare Advantage (Part C)** plans , and each takes a different approach to filling in what Original Medicare leaves out.",
       },
       {
         type: "table",
@@ -248,7 +248,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Medigap plans are sold by private insurance companies and work alongside Original Medicare. They are designed to cover cost-sharing obligations — deductibles, copayments, and coinsurance — that Medicare leaves behind. In 2026, the Part A deductible is **$1,736** per benefit period and the Part B deductible is **$283**. Medigap plans like Plan G cover the Part A deductible, coinsurance, and more, leaving you with very predictable out-of-pocket costs.",
+          "Medigap plans are sold by private insurance companies and work alongside Original Medicare. They are designed to cover cost-sharing obligations , deductibles, copayments, and coinsurance , that Medicare leaves behind. In 2026, the Part A deductible is **$1,736** per benefit period and the Part B deductible is **$283**. Medigap plans like Plan G cover the Part A deductible, coinsurance, and more, leaving you with very predictable out-of-pocket costs.",
       },
       {
         type: "paragraph",
@@ -258,7 +258,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Plans are standardized across most states — a Plan G from one insurer covers the same benefits as a Plan G from another. The difference lies in pricing. Enrolling during your Medigap Open Enrollment Period (the six months starting when you turn 65 and enroll in Part B) guarantees acceptance regardless of health history.",
+          "Plans are standardized across most states , a Plan G from one insurer covers the same benefits as a Plan G from another. The difference lies in pricing. Enrolling during your Medigap Open Enrollment Period (the six months starting when you turn 65 and enroll in Part B) guarantees acceptance regardless of health history.",
       },
       {
         type: "heading",
@@ -269,12 +269,12 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Medicare Advantage plans replace Original Medicare entirely. Private insurance companies approved by Medicare administer these plans, and they must cover at minimum everything Original Medicare covers. Most go further, bundling prescription drug coverage (MAPD) and extra benefits like dental, vision, and hearing into a single monthly premium — sometimes as low as $0 beyond your Part B premium.",
+          "Medicare Advantage plans replace Original Medicare entirely. Private insurance companies approved by Medicare administer these plans, and they must cover at minimum everything Original Medicare covers. Most go further, bundling prescription drug coverage (MAPD) and extra benefits like dental, vision, and hearing into a single monthly premium , sometimes as low as $0 beyond your Part B premium.",
       },
       {
         type: "paragraph",
         content:
-          "The trade-offs deserve careful attention. Medicare Advantage plans use provider networks — HMO or PPO structures — which can limit your doctor choices. Many require referrals to see specialists. And while they cap your annual out-of-pocket costs (the 2026 maximum is **$9,250** for in-network services, with out-of-network maximums typically higher), reaching that cap is possible with heavy utilization. Comparing Medicare Advantage vs. Medicare Supplement carefully before enrolling will help you avoid surprises.",
+          "The trade-offs deserve careful attention. Medicare Advantage plans use provider networks , HMO or PPO structures , which can limit your doctor choices. Many require referrals to see specialists. And while they cap your annual out-of-pocket costs (the 2026 maximum is **$9,250** for in-network services, with out-of-network maximums typically higher), reaching that cap is possible with heavy utilization. Comparing Medicare Advantage vs. Medicare Supplement carefully before enrolling will help you avoid surprises.",
       },
       {
         type: "heading",
@@ -295,14 +295,14 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Employer-sponsored retiree health plans and union benefits can also fill gaps for those who qualify. If you have access to retiree benefits, reviewing how they coordinate with Medicare — and what they specifically cover — is worth your time before making any Medicare enrollment decisions.",
+          "Employer-sponsored retiree health plans and union benefits can also fill gaps for those who qualify. If you have access to retiree benefits, reviewing how they coordinate with Medicare , and what they specifically cover , is worth your time before making any Medicare enrollment decisions.",
       },
       {
         type: "callout",
         calloutType: "tip",
         calloutTitle: "Pro Tip",
         calloutText:
-          "Before your Medicare Open Enrollment period, pull together a list of every prescription you take, your current doctors, and any routine services you use annually — dental cleanings, eye exams, hearing tests — and use that list to evaluate actual plan costs, not just premiums. The plan with the lowest monthly premium often produces the highest total annual cost once you account for copays, deductibles, and uncovered services. Spending 30 minutes on this exercise can realistically save you $1,000 or more per year.",
+          "Before your Medicare Open Enrollment period, pull together a list of every prescription you take, your current doctors, and any routine services you use annually , dental cleanings, eye exams, hearing tests , and use that list to evaluate actual plan costs, not just premiums. The plan with the lowest monthly premium often produces the highest total annual cost once you account for copays, deductibles, and uncovered services. Spending 30 minutes on this exercise can realistically save you $1,000 or more per year.",
       },
       {
         type: "heading",
@@ -323,7 +323,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Proactive planning is the key difference between being caught off guard by a coverage gap and approaching retirement healthcare with confidence. Take the time now to review what Original Medicare does and doesn't cover, and match your supplemental coverage to the services you actually use. If you'd like personalized guidance, speaking with a licensed Medicare agent at no cost is a smart next step — they can compare plans available in your area and help you find coverage that truly fits.",
+          "Proactive planning is the key difference between being caught off guard by a coverage gap and approaching retirement healthcare with confidence. Take the time now to review what Original Medicare does and doesn't cover, and match your supplemental coverage to the services you actually use. If you'd like personalized guidance, speaking with a licensed Medicare agent at no cost is a smart next step , they can compare plans available in your area and help you find coverage that truly fits.",
       },
       {
         type: "faq",
@@ -351,7 +351,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
           {
             question: "Does Medicare cover assisted living or nursing home care?",
             answer:
-              "Medicare does not cover assisted living at any level. For nursing home care, Medicare only covers short-term skilled nursing stays following a qualifying hospital admission — up to 100 days, with significant daily coinsurance after day 20. Ongoing custodial nursing home care is not a Medicare benefit.",
+              "Medicare does not cover assisted living at any level. For nursing home care, Medicare only covers short-term skilled nursing stays following a qualifying hospital admission , up to 100 days, with significant daily coinsurance after day 20. Ongoing custodial nursing home care is not a Medicare benefit.",
           },
           {
             question: "Are there any Medicare plans that cover everything?",

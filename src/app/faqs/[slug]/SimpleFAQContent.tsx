@@ -68,7 +68,22 @@ function renderInlineLinks(text: string, key: number | string): React.ReactNode 
   return parts.length > 0 ? parts : text;
 }
 
-/* ─── Render paragraph with markdown links ─── */
+/* ─── Parse a plain string segment into bold/text nodes ─── */
+function parseBoldSegment(segment: string, keyPrefix: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = [];
+  const boldRegex = /\*\*([^*]+)\*\*/g;
+  let last = 0;
+  let m;
+  while ((m = boldRegex.exec(segment)) !== null) {
+    if (m.index > last) nodes.push(segment.slice(last, m.index));
+    nodes.push(<strong key={`${keyPrefix}-b${m.index}`}>{m[1]}</strong>);
+    last = m.index + m[0].length;
+  }
+  if (last < segment.length) nodes.push(segment.slice(last));
+  return nodes;
+}
+
+/* ─── Render paragraph with markdown links and **bold** ─── */
 function renderParagraph(text: string, key: number | string, className?: string) {
   const parts: React.ReactNode[] = [];
   const linkRegex = /\[([^\]]+)\]\(([^)]*)\)/g;
@@ -76,7 +91,7 @@ function renderParagraph(text: string, key: number | string, className?: string)
   let match;
   while ((match = linkRegex.exec(text)) !== null) {
     if (match.index > lastIndex) {
-      parts.push(text.slice(lastIndex, match.index));
+      parseBoldSegment(text.slice(lastIndex, match.index), `${key}-pre${match.index}`).forEach(n => parts.push(n));
     }
     const [, linkText, href] = match;
     if (!href || href.trim() === "") {
@@ -98,7 +113,7 @@ function renderParagraph(text: string, key: number | string, className?: string)
     lastIndex = match.index + match[0].length;
   }
   if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex));
+    parseBoldSegment(text.slice(lastIndex), `${key}-tail`).forEach(n => parts.push(n));
   }
   return (
     <p key={key} className={className || "text-[#374151] text-[16px] leading-relaxed mb-4"}>
