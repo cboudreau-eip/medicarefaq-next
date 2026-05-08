@@ -732,18 +732,225 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-does-medically-necessary-mean.jpg',
     },
     title: 'What Does Medically Necessary Mean?',
-    summary: 'Medical Necessity helps determine the medical need for a service or treatment. If a service is deemed medically necessary, Medicare will cover its portion of the costs. However, to determine medical necessity, you may need to go through a process called prior authorization.',
+    summary: 'Medical necessity helps determine whether Medicare will cover a service or treatment. If a service is deemed medically necessary, Medicare will cover its portion of the costs. However, determining medical necessity can involve coding requirements, prior authorization, and appeals.',
     category: 'Medicare FAQ',
-    dateUpdated: 'September 27, 2021',
-    author: 'Jagger Esch',
+    dateUpdated: 'May 8, 2026',
+    author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '4 min',
+    readTime: '6 min',
+    youtubeVideoId: 'XgffCRYyzdM',
+    youtubeVideoTitle: 'What Does Medically Necessary Mean?',
     sections: [
       {
-        heading: 'Does Medicare Cover Acupuncture',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          '[Medicare does cover some acupuncture treatments](/faqs/does-medicare-cover-acupuncture). But, Acupuncture is only covered if it treats [chronic](/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know)...',
+        heading: '',
+        paragraphs: [],
+      },
+    ],
+    richSections: [
+      {
+        type: 'paragraph',
+        content:
+          'The term **medically necessary** is used by Medicare and other insurance companies to refer to tests, procedures, and medical equipment required for the treatment of specific diagnoses. According to [healthcare.gov](https://www.healthcare.gov/glossary/medically-necessary/), the definition is: "Health care services or supplies needed to diagnose or treat an illness, injury, condition, disease, or its symptoms that meet accepted standards of medicine."',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'For care to be deemed medically necessary, your provider must correctly code your diagnosis and the reason for treatment when submitting information to Medicare. Even a minor coding error can cause your treatment to go uncovered. Understanding which services qualify is essential for anyone using [Medicare benefits](/blog/medicare-costs-2025) and can save you thousands of dollars in unexpected medical bills.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'What is a Medically Necessary Service?',
+        id: 'what-is-medically-necessary',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'A medically necessary service is one that a qualified healthcare provider determines is appropriate and required to diagnose or treat your condition. Medicare uses this standard to decide whether it will pay for a given service under [Part A](/faqs/what-is-medicare-part-a) or [Part B](/faqs/what-is-medicare-part-b). The service must also meet accepted clinical standards, meaning it should be consistent with evidence-based medical practice.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'If you schedule a procedure that has not been established as medically necessary, Medicare will not cover it. However, if Medicare denies your claim, you may submit an appeal supported by a written letter from your care provider explaining why the service was necessary. Successful appeals do occur, so it is worth pursuing if you believe the denial was incorrect.',
+      },
+      {
+        type: 'paragraph',
+        content: '**Common examples of medically necessary services include:**',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Hospice care',
+          'Preventive care',
+          'Hospital care',
+          'Health screenings',
+          'Lab tests',
+          'X-rays and imaging',
+          'Vaccinations',
+          'Durable medical equipment',
+          'Ambulance services',
+          'Physician visits',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Criteria Used to Determine Medical Necessity',
+        id: 'criteria-for-medical-necessity',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Medicare uses a combination of diagnosis codes and procedure codes to evaluate whether a service is necessary. Your provider assigns an **ICD-10 code** (a diagnosis code explaining why care is being given) and a **CPT code** (a procedure code describing the specific service performed). For Medicare to approve coverage, these codes must match on its master list of covered code combinations.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'In addition to matching codes, Medicare may place limits on how often you can receive certain services. For example, Medicare may cover the first set of X-rays for a broken arm but decline a second set unless your physician provides sufficient clinical justification. The outcome depends entirely on whether Medicare determines the additional service is warranted given your specific circumstances.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Coding Accuracy Matters',
+        calloutText:
+          'Even a small coding error by your provider can result in a claim denial. If you receive an unexpected bill, ask your provider to review the ICD-10 and CPT codes submitted before assuming the service is not covered.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'What is Not Considered Medically Necessary?',
+        id: 'not-medically-necessary',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'If a service is not deemed medically necessary, Medicare will not cover it. Unfortunately, a physician ordering a service does not automatically make it eligible for coverage. In those cases, you will be responsible for the full cost or will need to submit an appeal.',
+      },
+      {
+        type: 'paragraph',
+        content: '**Services typically not considered medically necessary include:**',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Routine eye exams',
+          'Cosmetic surgeries',
+          'Hearing aids',
+          'Long-term custodial care',
+          'Seat lift mechanisms (the chair portion)',
+          'Dental exams, extractions, cleanings, fillings, and dentures',
+          'Over-the-counter medications',
+          'Unwarranted therapies',
+          'Fertility treatments',
+          'Weight loss medications',
+          'Erectile dysfunction prescriptions',
+          'Excessive or prolonged hospital stays beyond what is clinically required',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content:
+          'That said, every healthcare situation is unique. In some circumstances, Medicare may cover services that are typically excluded if your physician provides a strong clinical justification. Coverage ultimately depends on whether Medicare determines the service is necessary for your specific condition.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'What Happens if Necessary Treatment is Not Covered by Medicare?',
+        id: 'treatment-not-covered',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'There are situations where your doctor determines a service is necessary, but Medicare does not agree. In these cases, your provider may ask you to sign an [Advance Beneficiary Notice of Noncoverage (ABN)](/faqs/advance-beneficiary-notice). This document informs you of the estimated out-of-pocket cost and explains that Medicare is unlikely to pay.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'The ABN presents three options for how you want to proceed:',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '**Option 1:** The provider bills Medicare anyway. If Medicare denies the claim, you can request an appeal or pay the full cost yourself.',
+          '**Option 2:** You choose not to bill Medicare and agree to pay for the service out of pocket.',
+          '**Option 3:** You decline the service entirely because Medicare will not cover it.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Your bill will be handled based on the option you select on the form. Signing the ABN does not mean you give up your right to appeal. If you believe Medicare should cover the service, pursuing an appeal is always an option.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'What is Medically Necessary Under a Medicare Advantage Plan?',
+        id: 'medicare-advantage-medical-necessity',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'If you are enrolled in a [Medicare Advantage plan](/faqs/original-medicare-vs-medicare-advantage), your plan must apply the same medical necessity standard as [Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply). The plan is required to cover all services that Original Medicare would cover when they are deemed medically necessary.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'However, Medicare Advantage plans may also cover additional services beyond Original Medicare, such as dental, vision, and hearing benefits. These extra benefits vary by plan and can change from year to year, so you should not rely on them as a primary source of coverage for ongoing healthcare needs.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Prior Authorization Requirements',
+        calloutText:
+          'Medicare Advantage plans often require [prior authorization](/faqs/medicare-prior-authorization) for certain services before you receive them. Failing to obtain prior authorization can result in a denial, even if the service would otherwise be considered medically necessary. Always check with your plan before scheduling costly procedures.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'How to Find Out if a Service is Medically Necessary',
+        id: 'how-to-find-out',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'The best first step is to speak directly with your healthcare provider. Ask them to confirm the ICD-10 and CPT codes they plan to submit and verify that those codes are on Medicare\'s approved list for your diagnosis. You can also call Medicare directly at 1-800-MEDICARE (1-800-633-4227) to ask whether a specific service is covered.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'For more costly or complex procedures, your provider may initiate a [prior authorization](/faqs/medicare-prior-authorization) request on your behalf. This process asks Medicare or your Medicare Advantage plan to approve the service before it is performed, reducing the risk of an unexpected denial after the fact.',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Does Medicare cover a service just because my doctor orders it?',
+            answer:
+              'Not automatically. Medicare requires that the service meet its medical necessity criteria, which means the ICD-10 diagnosis code and the CPT procedure code must match on its approved list. A physician order is necessary but not sufficient on its own.',
+          },
+          {
+            question: 'What is the difference between medically necessary and preventive care?',
+            answer:
+              'Preventive care services are covered based on age and risk factors, regardless of a specific diagnosis. Medically necessary services are covered because they are required to diagnose or treat an existing condition. Both categories can be covered by Medicare, but they follow different rules.',
+          },
+          {
+            question: 'Can I appeal a Medicare denial for lack of medical necessity?',
+            answer:
+              'Yes. If Medicare denies a claim on the grounds that a service was not medically necessary, you have the right to appeal. The appeals process has multiple levels, starting with a redetermination request to your Medicare Administrative Contractor. Your doctor can submit supporting documentation to strengthen your case.',
+          },
+          {
+            question: 'What is prior authorization and when is it required?',
+            answer:
+              'Prior authorization is a requirement that your plan approve certain services before you receive them. It is more common with Medicare Advantage plans than with Original Medicare. Without prior authorization when it is required, your plan may deny the claim even if the service is medically necessary.',
+          },
+          {
+            question: 'Does Medicare Supplement (Medigap) help with costs when a service is denied?',
+            answer:
+              'Medigap plans cover cost-sharing for services that Original Medicare approves. If Medicare denies a service as not medically necessary, Medigap will not cover it either, since Medigap only pays after Medicare pays its portion.',
+          },
         ],
       },
     ],
