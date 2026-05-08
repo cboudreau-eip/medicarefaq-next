@@ -7565,7 +7565,7 @@ export const blogArticles: BlogArticleData[] = [
       title: "How to Read Your Medicare Summary Notice (MSN) | MedicareFAQ",
       description: "Your Medicare Summary Notice (MSN) is not a bill — it's your quarterly record of every claim Medicare processed. Learn how to read it, spot errors, and protect yourself from fraud.",
       canonical: "https://www.medicarefaq.com/blog/read-your-medicare-summary-notice/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+      ogImage: "https://images.unsplash.com/photo-1758691031749-607d43c14f63?w=1200&h=630&fit=crop&q=85",
     },
     title: "How to Read Your Medicare Summary Notice (MSN)",
     excerpt: "Your Medicare Summary Notice arrives every quarter and shows every claim Medicare processed on your behalf. Here's how to read each section, track your deductible, and catch billing errors before they become bigger problems.",
@@ -7575,7 +7575,8 @@ export const blogArticles: BlogArticleData[] = [
     author: "David Haass",
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1758691031749-607d43c14f63?w=800&h=500&fit=crop&q=85",
+    imageAlt: "Elderly couple reviewing Medicare documents at home",
     tableOfContents: [
       { id: "who-receives-msn", title: "Who Receives an MSN?" },
       { id: "step-by-step-guide", title: "Step-by-Step Guide to Reading Your MSN" },
