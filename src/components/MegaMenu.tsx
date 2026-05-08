@@ -138,7 +138,11 @@ export default function MegaMenu() {
     if (itemEl && navEl) {
       const itemRect = itemEl.getBoundingClientRect();
       const navRect = navEl.getBoundingClientRect();
-      setLeftOffset(itemRect.left - navRect.left);
+      const rawLeft = itemRect.left - navRect.left;
+      // Panel width is min(90vw, 1200px); clamp so it doesn't overflow the right edge
+      const panelWidth = Math.min(window.innerWidth * 0.9, 1200);
+      const maxLeft = navRect.width - panelWidth;
+      setLeftOffset(Math.max(0, Math.min(rawLeft, maxLeft)));
     }
     setActiveIndex(index);
   }, []);
