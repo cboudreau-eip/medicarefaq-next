@@ -9,9 +9,11 @@ import { trackNavClick } from "@/lib/analytics";
 
 function MegaMenuPanel({
   category,
+  leftOffset,
   onClose,
 }: {
   category: NavCategory;
+  leftOffset: number;
   onClose: () => void;
 }) {
   return (
@@ -20,7 +22,8 @@ function MegaMenuPanel({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -4 }}
       transition={{ duration: 0.15, ease: "easeOut" }}
-      className="absolute top-full left-0 w-[min(90vw,1200px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
+      style={{ left: leftOffset }}
+      className="absolute top-full w-[min(90vw,1200px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
     >
       <div className="container py-5">
         <div className="flex gap-6">
@@ -119,13 +122,23 @@ function MegaMenuPanel({
 
 export default function MegaMenu() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [leftOffset, setLeftOffset] = useState(0);
   const navRef = useRef<HTMLDivElement>(null);
+  const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const handleMouseEnter = useCallback((index: number) => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
       timeoutRef.current = null;
+    }
+    // Calculate left offset of this nav item relative to the nav bar container
+    const itemEl = itemRefs.current[index];
+    const navEl = navRef.current;
+    if (itemEl && navEl) {
+      const itemRect = itemEl.getBoundingClientRect();
+      const navRect = navEl.getBoundingClientRect();
+      setLeftOffset(itemRect.left - navRect.left);
     }
     setActiveIndex(index);
   }, []);
@@ -153,6 +166,7 @@ export default function MegaMenu() {
           {navigationData.map((category, index) => (
             <div
               key={category.title}
+              ref={(el) => { itemRefs.current[index] = el; }}
               className="relative"
               onMouseEnter={() => handleMouseEnter(index)}
             >
@@ -174,18 +188,19 @@ export default function MegaMenu() {
                   }`}
                 />
               </button>
-              <AnimatePresence>
-                {activeIndex === index && (
-                  <MegaMenuPanel
-                    category={category}
-                    onClose={() => setActiveIndex(null)}
-                  />
-                )}
-              </AnimatePresence>
             </div>
           ))}
         </nav>
       </div>
+      <AnimatePresence>
+        {activeIndex !== null && (
+          <MegaMenuPanel
+            category={navigationData[activeIndex]}
+            leftOffset={leftOffset}
+            onClose={() => setActiveIndex(null)}
+          />
+        )}
+      </AnimatePresence>
     </div>
   );
 }
