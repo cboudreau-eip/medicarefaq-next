@@ -1,0 +1,156 @@
+name: Smoke Tests — Agent Legibility
+
+# Runs on every push to main and on a daily schedule.
+# Verifies that:
+#   1. The per-article JSON API returns correct structured data for all three article types
+#   2. Blog article pages contain JSON-LD (application/ld+json) in their raw HTML
+#
+# On failure GitHub marks the commit red and sends an email to the repo owner.
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Run daily at 08:00 UTC to catch any silent regressions
+    - cron: "0 8 * * *"
+  workflow_dispatch: # Allow manual runs from the GitHub Actions UI
+
+jobs:
+  smoke-test:
+    name: Verify JSON-LD and Article API
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      SITE_URL: https://medicarefaq-next-nine.vercel.app
+
+    steps:
+      # ── 1. Wait for Vercel deployment to finish ───────────────────────────────
+      - name: Wait for Vercel deployment
+        # Only wait on push events; skip the delay on scheduled/manual runs
+        if: github.event_name == 'push'
+        run: |
+          echo "Waiting 120 seconds for Vercel to finish deploying..."
+          sleep 120
+
+      # ── 2. API — blog article ─────────────────────────────────────────────────
+      - name: "API: blog article returns correct shape"
+        run: |
+          SLUG="medicare-costs-2025"
+          echo "Testing /api/articles/$SLUG"
+          RESPONSE=$(curl -sf "$SITE_URL/api/articles/$SLUG")
+          echo "$RESPONSE" | python3 -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          assert data['type'] == 'blog', f\"Expected type=blog, got {data['type']}\"
+          assert data['slug'] == '$SLUG', f\"Slug mismatch: {data['slug']}\"
+          assert data['author'], 'author field is empty'
+          assert data['title'], 'title field is empty'
+          assert 'dates' in data, 'dates field missing'
+          assert data['url'].startswith('https://'), 'url field missing or malformed'
+          print('PASS: blog article API shape is correct')
+          "
+
+      # ── 3. API — FAQ article ──────────────────────────────────────────────────
+      - name: "API: FAQ article returns correct shape with FAQs"
+        run: |
+          SLUG="what-does-medically-necessary-mean"
+          echo "Testing /api/articles/$SLUG"
+          RESPONSE=$(curl -sf "$SITE_URL/api/articles/$SLUG")
+          echo "$RESPONSE" | python3 -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          assert data['type'] == 'faq', f\"Expected type=faq, got {data['type']}\"
+          assert data['slug'] == '$SLUG', f\"Slug mismatch: {data['slug']}\"
+          assert data['author'] == 'David Haass', f\"Expected author=David Haass, got {data['author']}\"
+          assert len(data['faqs']) > 0, 'faqs array is empty — FAQ content missing'
+          print(f\"PASS: faq article API shape correct, {len(data['faqs'])} FAQs present\")
+          "
+
+      # ── 4. API — coverage article ─────────────────────────────────────────────
+      - name: "API: coverage article returns correct shape"
+        run: |
+          SLUG="does-medicare-cover-acupuncture"
+          echo "Testing /api/articles/$SLUG"
+          RESPONSE=$(curl -sf "$SITE_URL/api/articles/$SLUG")
+          echo "$RESPONSE" | python3 -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          assert data['type'] == 'coverage', f\"Expected type=coverage, got {data['type']}\"
+          assert data['slug'] == '$SLUG', f\"Slug mismatch: {data['slug']}\"
+          assert data['author'], 'author field is empty'
+          assert data['summary'], 'summary field is empty'
+          print('PASS: coverage article API shape is correct')
+          "
+
+      # ── 5. API — unknown slug returns 404 ─────────────────────────────────────
+      - name: "API: unknown slug returns 404"
+        run: |
+          SLUG="this-slug-does-not-exist"
+          echo "Testing /api/articles/$SLUG (expect 404)"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "$SITE_URL/api/articles/$SLUG")
+          if [ "$HTTP_CODE" = "404" ]; then
+            echo "PASS: unknown slug correctly returns 404"
+          else
+            echo "FAIL: expected 404, got $HTTP_CODE"
+            exit 1
+          fi
+
+      # ── 6. JSON-LD — blog page HTML contains Article schema ───────────────────
+      - name: "JSON-LD: blog page HTML contains Article schema"
+        run: |
+          PAGE="/blog/medicare-costs-2025"
+          echo "Testing JSON-LD on $PAGE"
+          HTML=$(curl -sf "$SITE_URL$PAGE")
+          python3 -c "
+          import sys, re, json
+          html = '''$( curl -s "$SITE_URL$PAGE" )'''
+          blocks = re.findall(r'<script type=\"application/ld\+json\">(.*?)</script>', html, re.DOTALL)
+          assert len(blocks) >= 1, f'No JSON-LD blocks found in HTML (found {len(blocks)})'
+          types = []
+          for b in blocks:
+              try:
+                  d = json.loads(b)
+                  types.append(d.get('@type','?'))
+              except:
+                  pass
+          assert 'Article' in types, f'No Article schema found. Types present: {types}'
+          assert 'BreadcrumbList' in types, f'No BreadcrumbList schema found. Types present: {types}'
+          print(f'PASS: blog page contains JSON-LD blocks: {types}')
+          "
+
+      # ── 7. JSON-LD — FAQ page HTML contains Article schema ────────────────────
+      - name: "JSON-LD: FAQ page HTML contains Article schema"
+        run: |
+          PAGE="/faqs/what-does-medically-necessary-mean"
+          echo "Testing JSON-LD on $PAGE"
+          python3 -c "
+          import subprocess, re, json
+          result = subprocess.run(['curl', '-sf', '$SITE_URL$PAGE'], capture_output=True, text=True)
+          html = result.stdout
+          blocks = re.findall(r'<script type=\"application/ld\+json\">(.*?)</script>', html, re.DOTALL)
+          assert len(blocks) >= 1, f'No JSON-LD blocks found in HTML'
+          types = []
+          for b in blocks:
+              try:
+                  d = json.loads(b)
+                  types.append(d.get('@type','?'))
+              except:
+                  pass
+          assert 'Article' in types, f'No Article schema found. Types present: {types}'
+          print(f'PASS: FAQ page contains JSON-LD blocks: {types}')
+          "
+
+      # ── 8. Summary ────────────────────────────────────────────────────────────
+      - name: All checks passed
+        run: |
+          echo "=================================="
+          echo "All agent legibility smoke tests passed."
+          echo "  ✓ Blog API endpoint"
+          echo "  ✓ FAQ API endpoint (with FAQs)"
+          echo "  ✓ Coverage API endpoint"
+          echo "  ✓ Unknown slug returns 404"
+          echo "  ✓ Blog page JSON-LD (Article + BreadcrumbList)"
+          echo "  ✓ FAQ page JSON-LD (Article)"
+          echo "=================================="
