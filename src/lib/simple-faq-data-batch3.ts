@@ -698,32 +698,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-medical-alert-systems"],
   },
   {
-    slug: 'can-you-get-medicare-in-puerto-rico',
-    seo: {
-      title: 'Medicare in Puerto Rico',
-      description: 'Medicare coverage in Puerto Rico is available to anyone that would qualify for Medicare elsewhere. To learn more about Puerto Rico Medicare contact one of our agents.',
-      canonical: 'https://www.medicarefaq.com/faqs/can-you-get-medicare-in-puerto-rico/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-in-puerto-rico.jpg',
-    },
-    title: 'Medicare in Puerto Rico',
-    summary: 'Medicare in Puerto Rico works the same as it does in the States. But Puerto Ricans must contact Social Security to enroll in Medicare Part B as it’s not automatic. You should enroll in Part B as soon as you are eligible to avoid the penalty. Having both parts of Original Medicare also allows you to enroll in Medicare Supplement plans, Medicare Part D prescription drug plans, or Medicare Advantage plans.',
-    category: 'Medicare FAQ',
-    dateUpdated: 'May 23, 2023',
-    author: 'Jagger Esch',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare for Green Card Holders (Medicare for Immigrants)',
-        paragraphs: [
-          'Updated on May 23, 2023',
-          'While [Medicare for green card holders](/faqs/medicare-for-green-card-holders) is available, you may still have [expenses](/blog/medicare-costs-2025) when using...',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "how-dual-residency-and-medicare-works", "state-specific-medicare-rules", "moving-to-another-state-with-medicare"],
-  },
-  {
     slug: 'what-does-medically-necessary-mean',
     seo: {
       title: 'What Does Medically Necessary Mean?',
