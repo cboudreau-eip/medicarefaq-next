@@ -3397,6 +3397,8 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
     },
     readTime: "5 min read",
+    youtubeVideoId: "qeWQadPlBiQ",
+    youtubeVideoTitle: "Does Medicare Cover a Shower Transfer Bench?",
     quickAnswer: {
       text: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
       badges: [
