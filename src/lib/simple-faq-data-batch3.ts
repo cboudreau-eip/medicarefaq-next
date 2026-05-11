@@ -168,29 +168,33 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         type: 'paragraph' as const,
         content: 'There are more paperless options for managing your Medicare benefits than ever before. When setting up paperless billing and automatic payments, be aware that it may take a couple of months before the automatic deductions start.\n\nIf you want to review your [Medicare coverage](/faqs/what-is-medicare) options or compare rates on Medicare Supplement, Medicare Advantage, or Part D plans, MedicareFAQ can help you find the right plan at the best available rate.',
       },
+      {
+        type: 'faq' as const,
+        faqs: [
+          {
+            question: 'How do I sign up for paperless Medicare Summary Notices?',
+            answer: 'Log in to your MyMedicare.gov account, go to your profile settings, and select the option to receive Electronic Medicare Summary Notices (eMSN) by email. You will receive a monthly email with a secure link to your notices instead of a paper copy every three months.',
+          },
+          {
+            question: 'Can I pay my Medicare Part B premium online?',
+            answer: 'Yes. You can pay your Part B premium online through your bank or set up automatic deductions through Medicare Easy Pay. Medicare Easy Pay deducts your premium directly from your checking or savings account each month at no charge.',
+          },
+          {
+            question: 'Can I receive my Medicare Premium Bill (CMS-500) electronically?',
+            answer: 'Not currently. Medicare still mails the CMS-500 premium statement around the tenth of each month. While you can pay online, the bill itself is only available in paper form.',
+          },
+          {
+            question: 'Where can I download the Medicare and You handbook?',
+            answer: 'You can download the Medicare and You handbook from Medicare.gov in PDF or eBook format. It is available in English and Spanish and is compatible with most e-readers and mobile devices.',
+          },
+          {
+            question: 'Do Medicare Advantage and Part D plans offer paperless billing?',
+            answer: 'Paperless billing for Medicare Advantage, Part D, and Medigap plans varies by insurance company. Contact your plan carrier directly to find out what electronic billing and statement options are available.',
+          },
+        ],
+      },
     ],
-    faqs: [
-      {
-        question: 'How do I sign up for paperless Medicare Summary Notices?',
-        answer: 'Log in to your MyMedicare.gov account, go to your profile settings, and select the option to receive Electronic Medicare Summary Notices (eMSN) by email. You will receive a monthly email with a secure link to your notices instead of a paper copy every three months.',
-      },
-      {
-        question: 'Can I pay my Medicare Part B premium online?',
-        answer: 'Yes. You can pay your Part B premium online through your bank or set up automatic deductions through Medicare Easy Pay. Medicare Easy Pay deducts your premium directly from your checking or savings account each month at no charge.',
-      },
-      {
-        question: 'Can I receive my Medicare Premium Bill (CMS-500) electronically?',
-        answer: 'Not currently. Medicare still mails the CMS-500 premium statement around the tenth of each month. While you can pay online, the bill itself is only available in paper form.',
-      },
-      {
-        question: 'Where can I download the Medicare and You handbook?',
-        answer: 'You can download the Medicare and You handbook from Medicare.gov in PDF or eBook format. It is available in English and Spanish and is compatible with most e-readers and mobile devices.',
-      },
-      {
-        question: 'Do Medicare Advantage and Part D plans offer paperless billing?',
-        answer: 'Paperless billing for Medicare Advantage, Part D, and Medigap plans varies by insurance company. Contact your plan carrier directly to find out what electronic billing and statement options are available.',
-      },
-    ],
+    sections: [],
     relatedSlugs: ["medicare-easy-pay", "5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "medicare-enrollment-checklist"],
   },
   // does-medicare-cover-atrial-fibrillation-afib moved to coverage-data.ts
