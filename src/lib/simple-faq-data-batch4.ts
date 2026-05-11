@@ -1370,25 +1370,230 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'what-is-medicare',
     seo: {
-      title: 'What is Medicare?',
-      description: 'What is Medicare? Medicare is a federal health program providing affordable insurance to those eligible. Learn more about Medicare here.',
+      title: 'What Is Medicare? A Complete Guide for 2026',
+      description: 'Medicare is the federal health insurance program for people 65 and older and certain younger people with disabilities. Learn what Medicare covers, what it costs in 2026, and how to enroll.',
       canonical: 'https://www.medicarefaq.com/faqs/what-is-medicare/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-is-medicare.jpg',
     },
-    title: 'What is Medicare?',
-    summary: '',
+    title: 'What Is Medicare?',
+    summary: 'Medicare is the federal health insurance program for people 65 and older, as well as younger people with certain disabilities or conditions. It is divided into four parts that cover hospital care, medical services, prescription drugs, and private plan alternatives. Understanding how each part works is the foundation for making smart coverage decisions.',
     category: 'Medicare FAQ',
-    dateUpdated: 'February 19, 2026',
+    dateUpdated: 'May 2025',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '9 min read',
+    sections: [],
+    richSections: [
       {
-        heading: '25 Medicare Q&As You Should Know in 2026',
-        paragraphs: [
-          'Updated on February 19, 2026',
-          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...'],
-      }],
+        type: 'paragraph',
+        content: 'Medicare is a federal health insurance program administered by the Centers for Medicare and Medicaid Services (CMS). It was signed into law in 1965 under President Lyndon B. Johnson and today covers more than 67 million Americans. Unlike private health insurance, Medicare is not tied to employment. Eligibility is based on age, disability status, or specific medical conditions. Understanding what Medicare is, what it covers, and how it is structured is the starting point for anyone approaching age 65 or helping a loved one navigate their coverage options.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: '2026 Medicare at a Glance',
+        calloutText: 'Part B premium: $185/month | Part A deductible: $1,676 per benefit period | Part B deductible: $257 | Part D OOP cap: $2,000 | Medicare Advantage OOP max: $9,350 in-network',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'who-is-eligible',
+        text: 'Who Is Eligible for Medicare?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Most people become eligible for Medicare when they turn 65, provided they are a U.S. citizen or have been a lawful permanent resident for at least five continuous years. Younger people can also qualify if they have received Social Security Disability Insurance (SSDI) for 24 months, have been diagnosed with End-Stage Renal Disease (ESRD), or have Amyotrophic Lateral Sclerosis (ALS), which qualifies immediately upon diagnosis without a waiting period.',
+      },
+      {
+        type: 'table',
+        headers: ['Eligibility Path', 'Age Requirement', 'Key Condition'],
+        rows: [
+          ['Standard age-based eligibility', '65 or older', 'U.S. citizen or 5-year lawful permanent resident; 40 quarters of Medicare-covered work for premium-free Part A'],
+          ['Social Security Disability (SSDI)', 'Any age', '24-month waiting period after SSDI benefits begin'],
+          ['End-Stage Renal Disease (ESRD)', 'Any age', 'Requires regular dialysis or kidney transplant; 3-month waiting period in most cases'],
+          ['Amyotrophic Lateral Sclerosis (ALS)', 'Any age', 'Medicare begins the month SSDI benefits start; no 24-month wait'],
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'the-four-parts',
+        text: 'The Four Parts of Medicare',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare is divided into four distinct parts, each covering a different category of healthcare services. Parts A and B together make up what is called Original Medicare. Parts C and D are optional additions that provide additional coverage through private insurers.',
+      },
+      {
+        type: 'table',
+        headers: ['Part', 'Common Name', 'What It Covers', '2026 Key Cost'],
+        rows: [
+          ['Part A', 'Hospital Insurance', 'Inpatient hospital stays, skilled nursing facility care (days 1-100), hospice, and some home health care', 'Free for most; $1,676 deductible per benefit period; $0 premium if 40+ work quarters'],
+          ['Part B', 'Medical Insurance', 'Doctor visits, outpatient services, preventive care, lab tests, durable medical equipment, and most Part B drugs', '$185/month standard premium; $257 annual deductible; 20% coinsurance after deductible'],
+          ['Part C', 'Medicare Advantage', 'Bundles Part A and Part B (and usually Part D) into a single private plan; often includes extra benefits', 'Varies by plan; often $0 premium; OOP max $9,350 in-network (2026 federal limit)'],
+          ['Part D', 'Prescription Drug Coverage', 'Outpatient prescription drugs; available as a standalone plan or bundled with Medicare Advantage', 'Avg $34.50/month; $615 max deductible; $2,000 OOP cap in 2026'],
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'part-a',
+        text: 'Medicare Part A: Hospital Insurance',
+      },
+      {
+        type: 'paragraph',
+        content: 'Part A covers inpatient care in hospitals, critical access hospitals, and skilled nursing facilities (SNFs). It also covers hospice care and some home health services. Most people do not pay a premium for Part A because they or their spouse paid Medicare taxes for at least 40 quarters (10 years) while working. In 2026, the Part A deductible is $1,676 per benefit period, which is not an annual deductible but resets each time you begin a new benefit period after being out of the hospital for 60 consecutive days.',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Inpatient hospital care: Days 1-60 covered after the $1,676 deductible; days 61-90 require a $419/day coinsurance; days 91+ draw from 60 lifetime reserve days at $838/day',
+          'Skilled nursing facility: Days 1-20 fully covered after a qualifying hospital stay; days 21-100 require $209.50/day coinsurance; day 101 and beyond not covered',
+          'Hospice care: Covered for terminally ill patients with a life expectancy of 6 months or less; small copays may apply for drugs and respite care',
+          'Home health care: Covered when medically necessary and ordered by a physician; must be homebound and need skilled nursing or therapy',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'part-b',
+        text: 'Medicare Part B: Medical Insurance',
+      },
+      {
+        type: 'paragraph',
+        content: 'Part B covers two broad categories: medically necessary services (doctor visits, outpatient procedures, lab tests, ambulance services, durable medical equipment) and preventive services (annual wellness visits, screenings, vaccines). In 2026, the standard Part B premium is $185 per month, though higher-income beneficiaries pay more through the Income-Related Monthly Adjustment Amount (IRMAA). After the $257 annual deductible, Medicare pays 80% of approved costs and you pay the remaining 20% with no annual out-of-pocket cap under Original Medicare alone.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'No Out-of-Pocket Maximum Under Original Medicare',
+        calloutText: 'Original Medicare (Parts A and B) has no annual out-of-pocket maximum. A serious illness or extended hospital stay can result in unlimited cost-sharing. This is the primary reason many beneficiaries add a Medigap plan or choose Medicare Advantage, which must have an OOP cap.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'part-c',
+        text: 'Medicare Part C: Medicare Advantage',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare Advantage (Part C) is an alternative way to receive your Medicare benefits through a private insurer approved by CMS. These plans must cover everything Original Medicare covers, but they do so through their own networks of doctors and hospitals. Most Medicare Advantage plans also include Part D drug coverage and extra benefits such as dental, vision, hearing, and fitness programs. In exchange for these extras, you typically agree to use a network of providers and may need referrals to see specialists.',
+      },
+      {
+        type: 'paragraph',
+        content: 'All Medicare Advantage plans must have an annual out-of-pocket maximum. In 2026, the federal limit is $9,350 for in-network services. Once you reach that cap, the plan pays 100% of covered costs for the rest of the year. You still pay your Part B premium even when enrolled in Medicare Advantage. For a detailed comparison, see our guide to [Medicare Advantage vs. Medicare Supplement](/faqs/medicare-advantage-vs-medicare-supplement).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'part-d',
+        text: 'Medicare Part D: Prescription Drug Coverage',
+      },
+      {
+        type: 'paragraph',
+        content: 'Part D covers outpatient prescription drugs. It is available as a standalone Prescription Drug Plan (PDP) for people with Original Medicare, or bundled into a Medicare Advantage Prescription Drug (MAPD) plan. In 2026, the most significant change to Part D is the implementation of the $2,000 annual out-of-pocket cap, a result of the Inflation Reduction Act of 2022. Once your total drug costs reach $2,000, you pay nothing for covered drugs for the rest of the year. The coverage gap (donut hole) that previously existed has been eliminated.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'medigap',
+        text: 'Medicare Supplement Insurance (Medigap)',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medigap is not technically a part of Medicare, but it is an important component of many beneficiaries\' coverage strategy. Medigap plans are sold by private insurers and are designed to fill the cost-sharing gaps in Original Medicare, such as the Part A deductible, Part B coinsurance, and hospital costs beyond Medicare\'s limits. In 2026, the most popular Medigap plans are Plan G (which covers nearly all gaps after the Part B deductible) and Plan N (which has lower premiums but includes small copays). For more information, see our guide to [choosing a Medigap policy](/faqs/choosing-a-medigap-policy).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'what-medicare-does-not-cover',
+        text: 'What Medicare Does Not Cover',
+      },
+      {
+        type: 'paragraph',
+        content: 'Original Medicare has notable coverage gaps that surprise many new enrollees. Understanding what is not covered helps you plan for supplemental coverage.',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Routine dental care, including cleanings, fillings, extractions, and dentures',
+          'Routine vision care and eyeglasses (except after cataract surgery)',
+          'Hearing aids and routine hearing exams',
+          'Long-term custodial care (help with daily activities such as bathing and dressing)',
+          'Most care received outside the United States',
+          'Cosmetic surgery',
+          'Most prescription drugs (covered under Part D, not Parts A or B)',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-to-enroll',
+        text: 'How to Enroll in Medicare',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you are already receiving Social Security or Railroad Retirement Board benefits when you turn 65, you will be automatically enrolled in Parts A and B. Your Medicare card will arrive in the mail about three months before your 65th birthday. If you are not yet receiving those benefits, you must actively sign up. The Initial Enrollment Period (IEP) spans 7 months: the 3 months before your birthday month, your birthday month, and the 3 months after. You can enroll online at ssa.gov, by calling Social Security at 1-800-772-1213, or by visiting your local SSA office.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Still Working at 65?',
+        calloutText: 'If you have qualifying employer coverage through an employer with 20 or more employees, you can delay Part B without penalty. You will have a Special Enrollment Period (SEP) of up to 8 months after your employer coverage ends. COBRA and retiree coverage do not count as qualifying employer coverage for this purpose.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'original-medicare-vs-advantage',
+        text: 'Original Medicare vs. Medicare Advantage: Which Is Right for You?',
+      },
+      {
+        type: 'table',
+        headers: ['Factor', 'Original Medicare + Medigap', 'Medicare Advantage'],
+        rows: [
+          ['Provider access', 'Any provider that accepts Medicare nationwide', 'Usually limited to plan network'],
+          ['Out-of-pocket maximum', 'No cap (Medigap Plan G adds one effectively)', 'Required; $9,350 max in-network (2026)'],
+          ['Drug coverage', 'Requires separate Part D plan', 'Usually included'],
+          ['Extra benefits', 'None (dental, vision, hearing require separate plans)', 'Often includes dental, vision, hearing, fitness'],
+          ['Monthly cost', 'Part B + Medigap + Part D (typically $250-$400+/month total)', 'Part B + plan premium (often $0-$50/month)'],
+          ['Referrals', 'Not required', 'Often required for specialists'],
+          ['Best for', 'Frequent travelers, chronic conditions, predictable costs', 'Lower premiums, extra benefits, local network is acceptable'],
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faq',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Is Medicare free?',
+            answer: 'Part A is free for most people who worked 40+ quarters. Part B has a $185/month standard premium in 2026. Part D and Medigap premiums vary. Medicare Advantage plans often have $0 premiums but you still pay the Part B premium.',
+          },
+          {
+            question: 'What is the difference between Medicare and Medicaid?',
+            answer: 'Medicare is a federal program based on age or disability, available regardless of income. Medicaid is a joint federal-state program based on income and financial need. Some people qualify for both, known as dual eligibility.',
+          },
+          {
+            question: 'When does Medicare coverage start?',
+            answer: 'If you enroll during the first 3 months of your IEP, coverage starts the first day of your birthday month. If you enroll in your birthday month or the 3 months after, coverage is delayed by 1-3 months.',
+          },
+          {
+            question: 'Can I have Medicare and employer insurance at the same time?',
+            answer: 'Yes. Which plan pays first depends on your employer size. If your employer has 20 or more employees, employer insurance pays first and Medicare is secondary. For employers with fewer than 20 employees, Medicare pays first.',
+          },
+          {
+            question: 'Does Medicare cover dental, vision, and hearing?',
+            answer: 'Original Medicare does not cover routine dental, vision, or hearing. Some Medicare Advantage plans include these benefits. Stand-alone dental and vision plans are also available to Medicare beneficiaries.',
+          },
+        ],
+      },
+    ],
     relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
   },
   {
