@@ -99,14 +99,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '5 min',
-    tableOfContents: [
-      'How Do I Go Paperless With Medicare?',
-      'Can I Get My Monthly Medicare Premium Bill Electronically?',
-      'Electronic Medicare Summary Notices',
-      'Medicare and You Handbook in Paperless Formats',
-      'Managing Your Medicare Paperless Options',
-      'Frequently Asked Questions',
-    ],
     richSections: [
       {
         type: 'heading' as const,
