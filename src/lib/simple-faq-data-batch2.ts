@@ -672,26 +672,188 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'travel-insurance-for-seniors-with-medicare',
     seo: {
-      title: 'Does Medicare Cover International Travel?',
-      description: 'Will Medicare provide coverage when you travel abroad? Learn if your Medicare plan helps cover foreign travel emergencies',
+      title: 'Travel Insurance for Seniors With Medicare: 2026 Guide',
+      description: 'Does Medicare cover international travel? Learn what Original Medicare, Medigap, and Medicare Advantage cover abroad and how to choose the right travel insurance for 2026.',
       canonical: 'https://www.medicarefaq.com/faqs/travel-insurance-for-seniors-with-medicare/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-International-Travel.jpg',
     },
-    title: 'Does Medicare Cover International Travel?',
-    summary: '',
+    title: 'Travel Insurance for Seniors With Medicare: 2026 Guide',
+    summary: 'Original Medicare provides almost no coverage outside the United States. If you plan to travel internationally in 2026, understanding your options under Medigap, Medicare Advantage, and standalone travel insurance is essential before you leave.',
     category: 'Medicare FAQ',
-    dateUpdated: '',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '7 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'My wife and I are permanent residents in Mexico. We will keep our [Medicare Part A & B](/blog/medicare-parts-a-b-c-and-d-explained-simply), and have an air ambulance service to get us back to the US if needed. What would you recommend for [emergency coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) while living here.',
-          'Thank you'],
-      }],
-    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Does Medicare Cover International Travel?',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'In most cases, **Original Medicare does not cover healthcare services received outside the United States**. The U.S. includes the 50 states, the District of Columbia, Puerto Rico, the U.S. Virgin Islands, Guam, the Northern Mariana Islands, and American Samoa. Anywhere else is considered outside the U.S. for Medicare purposes.\n\nThis means that if you travel to Canada, Mexico, Europe, or anywhere else abroad and need medical care, Medicare Part A and Part B will generally not pay the bills. You would be responsible for 100% of the costs unless one of three narrow exceptions applies.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'The Three Exceptions Where Medicare May Pay Abroad',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Medicare does cover foreign medical care in a small number of situations. All three require that you are admitted as an inpatient to the foreign hospital.',
+      },
+      {
+        type: 'list' as const,
+        ordered: true,
+        items: [
+          '**Medical emergency in the U.S. and the foreign hospital is closer.** If a medical emergency occurs while you are in the U.S. and the nearest hospital that can treat your condition is across the border in a foreign country, Medicare may cover your inpatient stay.',
+          '**Traveling through Canada between Alaska and another U.S. state.** If you are traveling the most direct route between Alaska and the contiguous United States and a medical emergency occurs, Medicare may cover care at a Canadian hospital if it is closer than the nearest U.S. facility.',
+          '**You live in the U.S. and a foreign hospital is closer to your home.** If you reside near the border and the nearest hospital that can treat your condition is in a foreign country, Medicare may cover inpatient care regardless of whether an emergency exists.',
+        ],
+      },
+      {
+        type: 'callout' as const,
+        calloutType: 'info' as const,
+        calloutTitle: 'Important: You Must Submit the Claim Yourself',
+        calloutText: 'Foreign hospitals are not required to file Medicare claims on your behalf. If you receive covered inpatient care abroad, you will need to submit an itemized bill to Medicare directly. Keep all receipts, discharge summaries, and medical records from your stay.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'What Does Medicare Part D Cover Abroad?',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Medicare Part D prescription drug plans **do not cover drugs purchased outside the United States**. If you need prescription medications while traveling internationally, you will pay out of pocket. One exception: Part D covers all vaccines recommended by the Advisory Committee on Immunization Practices (ACIP), including travel vaccines such as yellow fever, chikungunya, and Japanese encephalitis, when obtained in the U.S. before your trip.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Medigap Foreign Travel Emergency Coverage',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Several [Medigap plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) include a foreign travel emergency benefit that goes beyond what Original Medicare covers. **Medigap Plans C, D, F, G, M, and N** all provide this benefit under the same terms:',
+      },
+      {
+        type: 'list' as const,
+        ordered: false,
+        items: [
+          'Covers 80% of the cost of medically necessary emergency care received outside the U.S.',
+          'Applies after a $250 annual deductible',
+          'Subject to a **$50,000 lifetime maximum**',
+          'Coverage begins during the first 60 days of each trip',
+          'The emergency must begin during the first 60 days of your trip',
+        ],
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Of the plans that include this benefit, **Plan G** is the most popular choice for new Medicare enrollees in 2026. Plan F offers identical foreign travel coverage but is no longer available to beneficiaries who became eligible for Medicare on or after January 1, 2020. Plans A, B, K, and L do not include the foreign travel emergency benefit.',
+      },
+      {
+        type: 'callout' as const,
+        calloutType: 'warning' as const,
+        calloutTitle: 'The $50,000 Lifetime Cap Is Not Unlimited Coverage',
+        calloutText: 'A serious illness or injury abroad can easily exceed $50,000. A single air ambulance evacuation from Europe can cost $100,000 or more. The Medigap foreign travel benefit is a safety net, not a substitute for comprehensive travel insurance if you travel frequently or for extended periods.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Medicare Advantage and International Travel',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Standard **Medicare Advantage (Part C) plans do not cover foreign travel emergencies** beyond what Original Medicare covers. Because Medicare Advantage plans are operated by private insurers and are tied to service areas, care received outside the U.S. is generally not covered.\n\nHowever, some Medicare Advantage plans in 2026 have introduced optional travel benefits through programs branded as "Passport" or "Traveler" add-ons. These vary significantly by insurer and plan. If you have a Medicare Advantage plan and travel internationally, contact your plan carrier directly to confirm what, if anything, is covered abroad.\n\nFor beneficiaries who travel frequently, a [Medigap plan](/blog/medicare-supplements-cost-vs-value-explained) paired with standalone travel insurance typically provides more predictable international coverage than Medicare Advantage.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'What Is Travel Insurance for Seniors With Medicare?',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Travel insurance is a separate policy purchased from a private insurer that can cover medical expenses, emergency evacuation, trip cancellation, trip interruption, lost baggage, and travel delays. For Medicare beneficiaries, the most important component is **travel medical insurance**, which pays for healthcare costs incurred abroad that Medicare does not cover.\n\nTravel insurance is not the same as health insurance. Many basic travel insurance policies focus on trip cancellation and baggage and include only limited medical coverage. When shopping for a policy, look specifically for one that includes:',
+      },
+      {
+        type: 'list' as const,
+        ordered: false,
+        items: [
+          '**Emergency medical coverage** with a high limit (at least $100,000 recommended)',
+          '**Emergency medical evacuation** coverage (air ambulance can cost $50,000 to $200,000)',
+          'Coverage for **pre-existing conditions** if applicable',
+          '**24/7 assistance** services to coordinate care abroad',
+          'Coverage for the full duration of your trip',
+        ],
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Travel Insurance vs. Medigap Foreign Travel Benefit: Which Is Better?',
+      },
+      {
+        type: 'table' as const,
+        headers: ['Feature', 'Medigap Foreign Travel Benefit', 'Standalone Travel Insurance'],
+        rows: [
+          ['Coverage limit', '$50,000 lifetime', '$100,000+ per trip (varies by policy)'],
+          ['Annual deductible', '$250', 'Varies (often $0 to $250)'],
+          ['Coverage percentage', '80% after deductible', 'Up to 100% depending on policy'],
+          ['Emergency evacuation', 'Not included', 'Often included (up to $500,000+)'],
+          ['Trip cancellation', 'Not included', 'Often included'],
+          ['Pre-existing conditions', 'Not applicable', 'May require a waiver or add-on'],
+          ['Cost', 'Included in Medigap premium', '$50 to $200+ per trip depending on age and duration'],
+        ],
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'For short international trips, the Medigap foreign travel benefit may be sufficient for most emergencies. For extended travel, cruises, or trips to remote destinations, a standalone travel insurance policy with high medical and evacuation limits is strongly recommended in addition to whatever Medicare or Medigap coverage you carry.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Tips for Medicare Beneficiaries Traveling Abroad in 2026',
+      },
+      {
+        type: 'list' as const,
+        ordered: false,
+        items: [
+          'Review your Medigap or Medicare Advantage plan documents before departure to confirm what foreign coverage, if any, is included.',
+          'Purchase a standalone travel insurance policy with at least $100,000 in emergency medical coverage and emergency evacuation for any international trip.',
+          'Carry a copy of your Medicare card, Medigap card, and travel insurance policy documents.',
+          'Keep all receipts and medical records from any care received abroad. You may need to submit claims yourself.',
+          'Check whether your destination country has a public health system that provides emergency care to foreign visitors at low or no cost (many European countries do).',
+          'If you take regular prescription medications, bring enough supply for your entire trip plus extra. Part D will not cover drugs purchased abroad.',
+          'Consider an air ambulance membership if you travel frequently to remote destinations. These memberships cover evacuation costs not included in standard travel insurance.',
+        ],
+      },
+      {
+        type: 'faq' as const,
+        faqs: [
+          {
+            question: 'Does Medicare cover emergency care in Canada or Mexico?',
+            answer: 'Generally no. Original Medicare does not cover care in Canada or Mexico except in two narrow situations: you are traveling through Canada between Alaska and another U.S. state and a medical emergency occurs, or a foreign hospital is closer to your U.S. home than the nearest U.S. hospital. Outside these exceptions, you are responsible for all costs. Medigap Plans C, D, F, G, M, and N cover 80% of foreign emergency costs up to a $50,000 lifetime limit after a $250 deductible.',
+          },
+          {
+            question: 'Which Medigap plan is best for international travel?',
+            answer: 'Medigap Plan G is the most comprehensive plan available to new Medicare enrollees in 2026 and includes the foreign travel emergency benefit (80% coverage after a $250 deductible, up to a $50,000 lifetime maximum). Plan F offers the same foreign travel benefit but is only available to beneficiaries who became eligible for Medicare before January 1, 2020.',
+          },
+          {
+            question: 'Does Medicare Advantage cover international travel?',
+            answer: 'Standard Medicare Advantage plans do not cover care outside the United States beyond the narrow exceptions that apply to Original Medicare. Some plans in 2026 offer optional travel add-ons, but coverage varies significantly. Contact your plan carrier before traveling internationally to confirm your coverage.',
+          },
+          {
+            question: 'How much does travel insurance cost for seniors on Medicare?',
+            answer: 'The cost of travel insurance for seniors varies based on age, trip duration, destination, and coverage limits. A single international trip policy for a senior typically ranges from $50 to $200 or more. Annual multi-trip policies are available for frequent travelers and may be more cost-effective. Premiums increase with age and with higher coverage limits.',
+          },
+          {
+            question: 'Can I use my Medicare card abroad?',
+            answer: 'Your Medicare card will not be accepted by foreign hospitals or providers. Medicare does not have agreements with foreign healthcare systems. If you receive covered inpatient care abroad under one of the three exceptions, you will need to pay upfront and submit an itemized bill to Medicare for reimbursement.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "moving-to-another-state-with-medicare", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplements-cost-vs-value-explained", "does-medicare-cover-hearing-aids"],
   },
   // does-medicare-cover-a-biopsy moved to coverage-data.ts (CoverageArticleContent format)
   {
