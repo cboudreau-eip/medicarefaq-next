@@ -757,56 +757,212 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'what-is-a-medicare-supplement-plan-and-who-needs-one',
     seo: {
-      title: 'What is a Medicare Supplement Plan and Who Needs One?',
-      description: 'Learn what a Medicare Supplement (Medigap) plan is, what it covers, who needs one, and when to enroll. Get clear answers and cost info to make informed Medicare decisions.',
+      title: 'What Is a Medicare Supplement Plan and Who Needs One? (2026)',
+      description: 'Learn what a Medicare Supplement (Medigap) plan is, what it covers, which plans are available in 2026, who needs one, and when to enroll to get the best rates.',
       canonical: 'https://www.medicarefaq.com/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/What-is-a-Medicare-Supplement-Plan-and-Who-Needs-One.jpg',
     },
-    title: 'What is a Medicare Supplement Plan and Who Needs One?',
-    summary: '',
+    title: 'What Is a Medicare Supplement Plan and Who Needs One?',
+    summary: 'A Medicare Supplement plan (Medigap) fills the cost gaps left by Original Medicare, such as deductibles, coinsurance, and copays. In 2026, Plans G and N are the most popular options for new enrollees. This guide explains how Medigap works, what it covers, who benefits most, and when to enroll.',
     category: 'Medicare Supplements',
-    dateUpdated: '',
+    dateUpdated: 'May 2025',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '8 min read',
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph',
+        content: 'Original Medicare (Parts A and B) covers a broad range of medical services, but it does not pay 100% of your costs. You are responsible for deductibles, coinsurance, and copays that can add up quickly, especially if you are hospitalized or need frequent specialist care. A Medicare Supplement plan, also called Medigap, is private health insurance designed to fill those gaps. This article explains exactly how Medigap works, which plans are available in 2026, who needs one, and when to enroll.',
       },
       {
-        heading: 'What is a Medicare Supplement Plan?',
-        paragraphs: [
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: '2026 Cost Gaps Medigap Can Fill',
+        calloutText: 'Part A hospital deductible: $1,676 per benefit period. Part B deductible: $257 per year. Part B coinsurance: 20% of all outpatient costs with no cap. Skilled nursing facility coinsurance: $209.50/day for days 21-100.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'what-is-medigap',
+        text: 'What Is a Medicare Supplement (Medigap) Plan?',
+      },
+      {
+        type: 'paragraph',
+        content: 'A Medicare Supplement plan is a standardized private insurance policy that works alongside Original Medicare Parts A and B. When Medicare pays its share of an approved service, your Medigap policy pays some or all of the remaining costs, depending on which plan you have. Medigap does not replace Medicare; it supplements it. You must be enrolled in both Part A and Part B to purchase a Medigap policy.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medigap plans are sold by private insurance companies but are federally standardized in 47 states. That means a Plan G from one carrier offers the exact same benefits as a Plan G from any other carrier. The only differences are the premium, the pricing method (how premiums change over time), and the carrier\'s customer service reputation. Massachusetts, Minnesota, and Wisconsin have their own standardized Medigap structures.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'what-medigap-covers',
+        text: 'What Does a Medigap Plan Cover?',
+      },
+      {
+        type: 'paragraph',
+        content: 'All Medigap plans cover certain core benefits. Higher-tier plans add more coverage. The table below shows what each available 2026 plan covers for new enrollees. Note that Plans C and F are no longer available to people who became eligible for Medicare on or after January 1, 2020.',
+      },
+      {
+        type: 'table',
+        headers: ['Benefit', 'Plan A', 'Plan B', 'Plan D', 'Plan G', 'Plan K', 'Plan L', 'Plan M', 'Plan N'],
+        rows: [
+          ['Part A coinsurance and hospital costs (up to 365 days after Medicare benefits)', '100%', '100%', '100%', '100%', '100%', '100%', '100%', '100%'],
+          ['Part B coinsurance or copay', '100%', '100%', '100%', '100%', '50%', '75%', '100%', '100%*'],
+          ['Blood (first 3 pints)', '100%', '100%', '100%', '100%', '50%', '75%', '100%', '100%'],
+          ['Part A hospice coinsurance or copay', '100%', '100%', '100%', '100%', '50%', '75%', '100%', '100%'],
+          ['Skilled nursing facility coinsurance', 'No', 'No', '100%', '100%', '50%', '75%', '100%', '100%'],
+          ['Part A deductible ($1,676)', 'No', '100%', '100%', '100%', '50%', '75%', '50%', '100%'],
+          ['Part B deductible ($257)', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No'],
+          ['Part B excess charges', 'No', 'No', 'No', '100%', 'No', 'No', 'No', 'No'],
+          ['Foreign travel emergency (80%)', 'No', 'No', '80%', '80%', 'No', 'No', '80%', '80%'],
+        ],
+        footnote: '* Plan N pays 100% of Part B coinsurance except for copays up to $20 for office visits and up to $50 for emergency room visits.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'plan-g-vs-plan-n',
+        text: 'Plan G vs. Plan N: The Two Most Popular Plans in 2026',
+      },
+      {
+        type: 'paragraph',
+        content: 'For most new Medicare enrollees in 2026, the choice comes down to Plan G and Plan N. Plan G is the most comprehensive plan available to new enrollees. It covers everything except the Part B deductible ($257/year). Once you meet that deductible, Medicare and Plan G together pay 100% of all Medicare-approved costs, including Part B excess charges. Plan G is ideal if you want complete predictability.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Plan N has a lower monthly premium than Plan G but requires copays of up to $20 for office visits and up to $50 for emergency room visits that do not result in inpatient admission. Plan N also does not cover Part B excess charges, meaning you could owe more if your doctor charges above the Medicare-approved amount. Plan N works well for people who are generally healthy and want lower premiums in exchange for modest cost-sharing.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Plan G vs. Plan N: Quick Rule of Thumb',
+        calloutText: 'If the annual premium difference between Plan G and Plan N is less than $300-$400, Plan G is usually the better value. If the difference is larger and you are in good health, Plan N can save money over time.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'who-needs-medigap',
+        text: 'Who Needs a Medicare Supplement Plan?',
+      },
+      {
+        type: 'paragraph',
+        content: 'A Medigap plan is not right for everyone, but it is a strong fit for certain groups. You are a good candidate for Medigap if you travel frequently and want coverage outside your home area, if you have chronic conditions that require regular specialist visits or hospitalizations, if you want to see any doctor or specialist in the country without a referral, or if you are on a fixed income and need predictable, capped healthcare costs.',
+      },
+      {
+        type: 'table',
+        headers: ['Situation', 'Medigap Fits Well?', 'Why'],
+        rows: [
+          ['Frequent hospitalizations or surgeries', 'Yes', 'Eliminates the $1,676 Part A deductible per benefit period'],
+          ['Chronic conditions with regular specialist visits', 'Yes', 'Covers the 20% Part B coinsurance with no annual cap'],
+          ['Travel frequently or split time between states', 'Yes', 'Accepted by any Medicare provider nationwide; Plans D, G, M, N cover foreign travel emergencies'],
+          ['Generally healthy, low healthcare use', 'Maybe', 'Lower-premium Plan N or Medicare Advantage may cost less overall'],
+          ['Need extra benefits (dental, vision, hearing)', 'No', 'Medigap does not cover these; Medicare Advantage plans often do'],
+          ['Tight monthly budget, prefer low premium', 'Maybe', 'Medicare Advantage plans often have $0 premiums but have networks and prior auth requirements'],
         ],
       },
       {
-        heading: 'What Does a Medigap Plan Cover?',
-        paragraphs: [
+        type: 'heading',
+        level: 2,
+        id: 'medigap-vs-advantage',
+        text: 'Medigap vs. Medicare Advantage: Key Differences',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare Advantage (Part C) is an alternative to Original Medicare that bundles Parts A, B, and usually D into one plan. It often includes extra benefits like dental, vision, and hearing. However, Medicare Advantage plans use networks and may require referrals or prior authorization. Medigap works with Original Medicare and gives you access to any provider in the country who accepts Medicare, with no networks or referrals required.',
+      },
+      {
+        type: 'table',
+        headers: ['Feature', 'Medigap + Original Medicare', 'Medicare Advantage'],
+        rows: [
+          ['Provider network', 'Any Medicare provider nationwide', 'In-network providers only (except emergencies)'],
+          ['Out-of-pocket maximum', 'Effectively $0 with Plan G after deductibles', 'Varies by plan; max $9,350 in-network (2026)'],
+          ['Drug coverage', 'Separate Part D plan required', 'Usually included'],
+          ['Extra benefits (dental, vision, hearing)', 'Not included', 'Often included'],
+          ['Monthly premium', '$100-$300+ depending on plan and age', 'Often $0-$50'],
+          ['Referrals required', 'No', 'Often yes (HMO plans)'],
+          ['Prior authorization', 'Rare', 'Common for procedures and drugs'],
+          ['Best for', 'Predictable costs, frequent medical use, travel', 'Low premium, extra benefits, generally healthy'],
         ],
       },
       {
-        heading: 'How are Medigap Plans Standardized?',
-        paragraphs: [
+        type: 'heading',
+        level: 2,
+        id: 'when-to-enroll',
+        text: 'When Should You Enroll in a Medigap Plan?',
+      },
+      {
+        type: 'paragraph',
+        content: 'The best time to enroll in a Medigap plan is during your Medigap Open Enrollment Period (OEP). This is a one-time, six-month window that begins the month you are both age 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights: insurance companies cannot deny you coverage, charge you more, or impose waiting periods based on your health history or pre-existing conditions.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Missing the Open Enrollment Window Has Consequences',
+        calloutText: 'If you apply for Medigap outside your OEP, insurers in most states can use medical underwriting. This means they can charge higher premiums, exclude pre-existing conditions for up to 6 months, or deny your application entirely. Some states offer additional protections, but most do not.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Many carriers allow you to apply for a Medigap plan three to six months before your Part B effective date so your coverage starts on day one. The plan will not activate before your Part B start date, but applying early locks in your rate and avoids a gap in coverage. Outside the OEP, you may still qualify for guaranteed issue rights if you experience a qualifying life event, such as losing employer coverage or moving out of a Medicare Advantage plan\'s service area.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'medigap-costs',
+        text: 'How Much Does a Medigap Plan Cost in 2026?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medigap premiums vary widely based on your age, gender, tobacco use, location, the plan letter you choose, and the carrier\'s pricing method. A 65-year-old non-smoking woman in a mid-cost state might pay $100-$150/month for Plan N and $130-$200/month for Plan G. Premiums are generally higher for men and increase with age, especially under attained-age pricing.',
+      },
+      {
+        type: 'table',
+        headers: ['Pricing Method', 'How It Works', 'Premium Trend Over Time'],
+        rows: [
+          ['Community-rated', 'Same premium for all enrollees regardless of age', 'Increases only with general inflation; best long-term value'],
+          ['Issue-age rated', 'Premium based on your age when you first enroll; does not increase as you age', 'Moderate increases over time'],
+          ['Attained-age rated', 'Premium based on your current age and increases each year as you get older', 'Lowest starting premium but highest long-term cost'],
+        ],
+        footnote: 'Community-rated and issue-age plans tend to cost more upfront but less over a 10-20 year period compared to attained-age plans.',
+      },
+      {
+        type: 'paragraph',
+        content: 'In addition to your Medigap premium, you will still pay your Part B premium ($185/month standard in 2026) and, if you want drug coverage, a separate Part D premium (average $34.50/month in 2026). These costs are separate from your Medigap plan.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faq',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Can I use a Medigap plan with Medicare Advantage?',
+            answer: 'No. Medigap plans only work with Original Medicare (Parts A and B). You cannot use a Medigap policy to cover costs in a Medicare Advantage plan.',
+          },
+          {
+            question: 'Does Medigap cover prescription drugs?',
+            answer: 'No. Medigap plans sold after 2006 do not include drug coverage. You need a separate Medicare Part D plan for prescription drugs.',
+          },
+          {
+            question: 'Can I be denied a Medigap plan?',
+            answer: 'During your 6-month Open Enrollment Period, you cannot be denied. Outside that window, insurers in most states can use medical underwriting and may deny your application based on health history.',
+          },
+          {
+            question: 'Does Medigap cover dental, vision, or hearing?',
+            answer: 'No. Standard Medigap plans do not cover dental, vision, hearing, or long-term care. Some insurers offer riders or separate supplemental plans for these benefits.',
+          },
+          {
+            question: 'What is the most popular Medigap plan in 2026?',
+            answer: 'Plan G is the most popular plan for new enrollees in 2026. It covers all Medicare cost-sharing except the Part B deductible ($257/year), giving near-complete coverage with predictable costs.',
+          },
         ],
       },
-      {
-        heading: 'Who Typically Needs a Medicare Supplement Plan?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'Additionally, since Original Medicare doesn’t have an out-of-pocket maximum, the financial protection Medigap provides can be vital for retirees living on a fixed income. If you prefer the freedom of seeing any doctor who accepts Medicare and want to avoid the uncertainty of high medical bills, a Medigap plan could be a good fit. For those who don’t want to deal with networks or referrals, it’s often a better choice thanMedicare Part C(Medicare Advantage).When Should You Enroll in a Medigap Plan?The ideal time to enroll in a Medicare Supplement plan is during your Medigap Open Enrollment Period. This six-month window begins the month you turn 65 and are enrolled in Medicare Part B. Some carriers allow you to enroll into a Medigap plan anywhere from three to six months (depending on the carrier) before your Part B effective date in order to lock in a low rate. Keep in mind, while you can enroll early, the plan won’t start before your Part B effective date.During this time, you have guaranteed issue rights, meaning insurance companies can’t deny you coverage or charge you more based on health history.If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No'],
-      },
-      {
-        heading: 'When Should You Enroll in a Medigap Plan?',
-        paragraphs: [
-          'The ideal time to enroll in a Medicare Supplement plan is during your Medigap Open Enrollment Period. This six-month window begins the month you turn 65 and are enrolled in Medicare Part B. Some carriers allow you to enroll into a Medigap plan anywhere from three to six months (depending on the carrier) before your Part B effective date in order to lock in a low rate. Keep in mind, while you can enroll early, the plan won’t start before your Part B effective date.During this time, you have guaranteed issue rights, meaning insurance companies can’t deny you coverage or charge you more based on health history.If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No',
-          'During this time, you have guaranteed issue rights, meaning insurance companies can’t deny you coverage or charge you more based on health history.If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No',
-          'If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No'],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (0)No'],
-      }],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medigap-vs-medicare-advantage", "why-medicare-supplements-offer-peace-of-mind"],
+    ],
+    relatedSlugs: ['choosing-a-medigap-policy', 'what-is-the-best-medicare-supplement-plan', 'medicare-advantage-vs-medicare-supplement', 'average-cost-of-medicare-supplement-plans', 'medicare-supplement-open-enrollment'],
   },
   // does-medicare-cover-gender-reassignment-surgery moved to coverage-data.ts
   {
