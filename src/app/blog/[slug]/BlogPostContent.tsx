@@ -172,7 +172,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
               <thead className="bg-[#1B2A4A] text-white">
                 <tr>
                   {section.headers.map((h, i) => (
-                    <th key={i} className="px-4 py-3 text-left font-semibold">
+                    <th key={i} className="px-4 py-3 text-left font-semibold text-white">
                       {h}
                     </th>
                   ))}
