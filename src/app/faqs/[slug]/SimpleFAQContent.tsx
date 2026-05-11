@@ -188,15 +188,22 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
           ))}
         </ul>
       );
-    case "table":
+    case "table": {
+      // Derive a title from the first header or use a generic label
+      const tableTitle = section.title || (section.headers ? section.headers[0] : "Comparison");
       return (
-        <div key={idx} className="overflow-x-auto mb-6 rounded-lg border border-[#E5E7EB]">
+        <div key={idx} className="overflow-x-auto mb-6 rounded-xl border border-[#E5E7EB] shadow-sm">
+          {/* Orange header bar matching site table template */}
+          <div className="flex items-center gap-2 px-5 py-3 bg-[#E07B1F] rounded-t-xl">
+            <Shield className="w-4 h-4 text-white flex-shrink-0" />
+            <span className="font-bold text-white text-[15px]">{tableTitle}</span>
+          </div>
           <table className="w-full text-sm">
             {section.headers && (
-              <thead className="bg-[#1B2A4A] text-white">
+              <thead className="bg-white border-b border-[#E5E7EB]">
                 <tr>
                   {section.headers.map((h, i) => (
-                    <th key={i} className="px-4 py-3 text-left font-semibold text-white">
+                    <th key={i} className="px-5 py-3 text-left font-semibold text-[#374151] text-[13px] uppercase tracking-wide">
                       {h}
                     </th>
                   ))}
@@ -210,7 +217,7 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
                   className={ri % 2 === 0 ? "bg-white" : "bg-[#F9FAFB]"}
                 >
                   {row.map((cell, ci) => (
-                    <td key={ci} className="px-4 py-3 text-[#374151] border-t border-[#E5E7EB]">
+                    <td key={ci} className={`px-5 py-3 border-t border-[#E5E7EB] text-[14px] leading-relaxed ${ci === 0 ? "font-medium text-[#1B2A4A]" : "text-[#374151]"}`}>
                       {renderParagraph(cell, `${ri}-${ci}`)}
                     </td>
                   ))}
@@ -219,12 +226,13 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
             </tbody>
           </table>
           {section.footnote && (
-            <p className="text-xs text-[#6B7280] px-4 py-2 bg-[#F9FAFB] border-t border-[#E5E7EB]">
+            <p className="text-xs text-[#6B7280] px-5 py-2 bg-[#F9FAFB] border-t border-[#E5E7EB] italic">
               {section.footnote}
             </p>
           )}
         </div>
       );
+    }
     case "callout": {
       const calloutStyles = {
         warning: {
