@@ -553,72 +553,150 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'what-to-do-with-medicare-if-youre-moving-medicare-change-of-address',
     seo: {
-      title: 'What to do with Medicare if You’re Moving: Medicare Change of Address',
-      description: 'How moving affects your Medicare coverage, how to update your address with Medicare, and tips for ensuring uninterrupted coverage. Avoid gaps by following our step-by-step guide.',
+      title: 'What to Do With Medicare if You\'re Moving: Medicare Change of Address',
+      description: 'Moving? Learn how to update your Medicare address, how your coverage may change, and what steps to take to avoid gaps in your Original Medicare, Medicare Advantage, or Medigap plan.',
       canonical: 'https://www.medicarefaq.com/faqs/what-to-do-with-medicare-if-youre-moving-medicare-change-of-address/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/What-to-Do-With-Medicare-if-Youre-Moving-Medicare-Change-of-Address-.jpg',
     },
-    title: 'What to do with Medicare if You’re Moving: Medicare Change of Address',
-    summary: '',
+    title: 'What to Do With Medicare if You\'re Moving: Medicare Change of Address',
+    summary: 'Moving to a new home is an exciting milestone, but it also comes with important updates to your Medicare coverage. Whether you have Original Medicare, Medicare Advantage, or a Medigap plan, keeping your address current prevents missed communications, billing errors, and potential coverage gaps.',
     category: 'Medicare FAQ',
-    dateUpdated: '',
+    dateUpdated: 'May 8, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '6 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph',
+        content: 'Moving to a new home is an exciting milestone at any stage of life, but it also comes with a series of important updates, especially when it comes to Medicare coverage. Whether you are already enrolled in Medicare or about to turn 65, keeping your Medicare information current is essential to avoid coverage gaps, missed mailings, and billing errors.',
+      },
+      { type: 'heading', level: 2, text: 'Why Moving Affects Your Medicare Coverage', id: 'why-moving-affects' },
+      {
+        type: 'paragraph',
+        content: 'When you move, the address listed on your Medicare records becomes outdated. This may seem like a minor issue, but it can have significant consequences: missed mailings, delayed healthcare services, and potentially disrupted coverage. Keeping your information current ensures that you receive essential documents such as prescription drug plan information, premium notices, and other Medicare updates without delay.',
+      },
+      { type: 'heading', level: 2, text: 'How a Move Can Impact Different Medicare Plans', id: 'impact-on-plans' },
+      {
+        type: 'paragraph',
+        content: 'Depending on the type of Medicare coverage you have, moving can have varying effects on your plan:',
       },
       {
-        heading: 'Why Moving Affects Your Medicare Coverage',
-        paragraphs: [
+        type: 'list',
+        ordered: false,
+        items: [
+          '**[Original Medicare](/faqs/what-is-original-medicare) (Part A and Part B):** Original Medicare covers you anywhere in the U.S., so your coverage does not change when you move. However, you should still update your address to ensure accurate billing and to receive important communications.',
+          '**Medicare Advantage and Part D Plans:** These plans are county-specific. Moving to a new area could mean your current plan is no longer available. If that happens, you will need to select a new plan to continue coverage.',
+          '**Medicare Supplement (Medigap) Plans:** Medigap plans are regulated at the state level. Moving to a new state may affect your ability to keep your current Medigap policy or require you to choose a new plan.',
         ],
       },
       {
-        heading: 'How a Move Can Impact Different Medicare Plans',
-        paragraphs: [
-        ],
-        listItems: [
-          'Original Medicare (Part A & B):WhileOriginal Medicarewill generally cover you regardless of where you live in the U.S., it’s still important to update your address. This ensures that your billing information is accurate and that you receive necessary communications.',
-          'Medicare Advantage & Part D Plans:Medicare Advantage plans (Part C)andPart D prescription drug plansare often county-specific. Moving to a new location could mean your current plan is no longer available in your new area. If that happens, you will need to switch plans to continue coverage.',
-          'Medicare Supplement Plans (Medigap):Medigap plansare regulated at the state level, and certain states may have different rules or policies. Moving to a new state may affect your ability to keep your Medigap policy or require you to choose a new plan.'],
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Do not wait until after you move',
+        calloutText: 'Update your address at least 30 days before your move. Address changes can take time to process, and delays may result in missed premium notices or a lapse in coverage.',
+      },
+      { type: 'heading', level: 2, text: 'How to Update Your Medicare Address', id: 'how-to-update' },
+      {
+        type: 'paragraph',
+        content: 'Making sure your address is updated with Medicare is an essential step to keeping your coverage uninterrupted. Follow these steps:',
       },
       {
-        heading: 'The Importance of Updating Your Information to Avoid Coverage Gaps',
-        paragraphs: [
+        type: 'list',
+        ordered: true,
+        items: [
+          '**Notify the Social Security Administration (SSA):** Since Medicare is administered through the SSA, update your address with them first. You can do this online at SSA.gov, by calling 1-800-772-1213 (TTY: 1-800-325-0778), or in person at your local SSA office.',
+          '**Update Medicare directly:** Once the SSA has your updated address, they will forward the information to Medicare. To confirm the change, call 1-800-MEDICARE (1-800-633-4227) or log in to your account at Medicare.gov.',
+          '**Contact your plan:** If you have a Medicare Advantage, Part D, or Medigap plan, notify your plan directly as well. Your insurer may need to update your records independently of the SSA.',
+        ],
+      },
+      { type: 'heading', level: 2, text: 'What Happens to Your Medicare Advantage Plan When You Move?', id: 'advantage-when-moving' },
+      {
+        type: 'paragraph',
+        content: 'Medicare Advantage plans (Part C) operate within defined service areas, typically at the county level. If you move outside your plan\'s service area, your plan may no longer be available to you. In that case, you will qualify for a Special Enrollment Period (SEP) that allows you to switch to a new Medicare Advantage plan or return to Original Medicare.',
+      },
+      {
+        type: 'paragraph',
+        content: 'The SEP for moving typically lasts two months after you notify your plan of the move. During this window, you can:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Enroll in a new Medicare Advantage plan available in your new area',
+          'Switch to Original Medicare (Part A and Part B) and add a standalone Part D plan',
+          'Enroll in a [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) to supplement Original Medicare',
+        ],
+      },
+      { type: 'heading', level: 2, text: 'What Happens to Your Part D Plan When You Move?', id: 'part-d-when-moving' },
+      {
+        type: 'paragraph',
+        content: 'Part D prescription drug plans are also region-specific. If your current plan does not operate in your new area, you will need to enroll in a new Part D plan. The same SEP that applies to Medicare Advantage also applies to Part D. Use the Medicare Plan Finder at Medicare.gov to compare plans available in your new ZIP code.',
+      },
+      { type: 'heading', level: 2, text: 'What Happens to Your Medigap Plan When You Move?', id: 'medigap-when-moving' },
+      {
+        type: 'paragraph',
+        content: 'Medigap plans work with Original Medicare and are not tied to a specific geographic service area. In most cases, your Medigap plan will continue to cover you after you move, even if you move to a different state. However, there are a few important considerations:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'If you move to a state with different Medigap regulations (such as Massachusetts, Minnesota, or Wisconsin, which have their own standardized plans), your options may differ.',
+          'Your monthly premium may change if your carrier adjusts rates by state.',
+          'If you want to switch to a different Medigap plan after moving, you may need to go through medical underwriting unless you qualify for a guaranteed issue right.',
+        ],
+      },
+      { type: 'heading', level: 2, text: 'Moving Out of the Country', id: 'moving-abroad' },
+      {
+        type: 'paragraph',
+        content: 'If you are moving outside the United States, Medicare generally does not cover healthcare services received abroad. You should consider suspending or disenrolling from Medicare Part B if you will no longer be in the U.S., as you will still owe the Part B premium even if you cannot use the coverage. Contact the SSA before making this decision, as re-enrolling in Part B later may result in a late enrollment penalty.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Medigap foreign travel emergency coverage',
+        calloutText: 'Some Medigap plans (C, D, F, G, M, and N) include a foreign travel emergency benefit that covers 80% of emergency care costs abroad after a $250 deductible, up to a $50,000 lifetime maximum. This applies during the first 60 days of each trip, not for permanent relocation.',
+      },
+      { type: 'heading', level: 2, text: 'Summary: Steps to Take When Moving With Medicare', id: 'summary-steps' },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          'Update your address with the Social Security Administration at least 30 days before your move',
+          'Confirm the update with Medicare directly by calling 1-800-MEDICARE or logging in to Medicare.gov',
+          'Contact your Medicare Advantage, Part D, or Medigap plan to update your records',
+          'Check whether your current Medicare Advantage or Part D plan is available in your new area',
+          'If your plan is not available, use your Special Enrollment Period to select a new plan',
+          'If moving to a new state, review Medigap rules in that state to understand your options',
         ],
       },
       {
-        heading: 'How to Update Your Medicare Address',
-        paragraphs: [
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Do I need to change my Medicare plan when I move?',
+            answer: 'It depends on your plan type. Original Medicare covers you anywhere in the U.S., so no change is required. Medicare Advantage and Part D plans are region-specific, so you may need to switch plans if your current plan is not available in your new area. Medigap plans generally follow you when you move, though state-specific rules may apply.',
+          },
+          {
+            question: 'How do I update my address with Medicare?',
+            answer: 'Start by updating your address with the Social Security Administration online at SSA.gov, by phone at 1-800-772-1213, or in person at a local SSA office. Then confirm the update directly with Medicare by calling 1-800-MEDICARE (1-800-633-4227) or logging in to Medicare.gov.',
+          },
+          {
+            question: 'What is a Special Enrollment Period for moving?',
+            answer: 'If you move out of your Medicare Advantage or Part D plan\'s service area, you qualify for a Special Enrollment Period (SEP) that allows you to switch plans. The SEP typically lasts for two months after you notify your plan of the move.',
+          },
+          {
+            question: 'Can I keep my Medigap plan if I move to another state?',
+            answer: 'In most cases, yes. Medigap plans are not tied to a specific service area and will generally continue to cover you after a move. However, if you move to Massachusetts, Minnesota, or Wisconsin, those states have their own Medigap standardization rules that may affect your options.',
+          },
+          {
+            question: 'What happens to my Medicare if I move abroad?',
+            answer: 'Medicare generally does not cover healthcare services outside the United States. If you are relocating permanently, you may want to consider disenrolling from Part B to avoid paying premiums for coverage you cannot use. Contact the Social Security Administration before making this decision, as re-enrolling later may trigger a late enrollment penalty.',
+          },
         ],
-        listItems: [
-          'Notify the Social Security AdministrationSince Medicare is managed by the Social Security Administration (SSA), you’ll need to update your address with them first. You can do this by:Online: Visit the SSA website and log into your account. From there, you can update your address and other personal information.Phone: Call the SSA at 1-800-772-1213 (TTY: 1-800-325-0778).In Person: Visit your local SSA office to complete the address change.',
-          'Online: Visit the SSA website and log into your account. From there, you can update your address and other personal information.',
-          'Phone: Call the SSA at 1-800-772-1213 (TTY: 1-800-325-0778).',
-          'In Person: Visit your local SSA office to complete the address change.',
-          'Update Medicare DirectlyOnce the SSA has your updated address, they will send the information to Medicare. However, it’s a good idea to double-check by contacting Medicare directly. You can do so by calling 1-800-MEDICARE (1-800-633-4227) or logging into your Medicare account online to verify the change.',
-          'Online: Visit the SSA website and log into your account. From there, you can update your address and other personal information.',
-          'Phone: Call the SSA at 1-800-772-1213 (TTY: 1-800-325-0778).',
-          'In Person: Visit your local SSA office to complete the address change.'],
       },
-      {
-        heading: 'When and How to Make the Update to Ensure a Smooth Transition',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'How Moving Affects Your Medicare Plans',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'Medicare Advantage & Part D Plans:These plans are regional, so if you’re moving to a new area, your current plan may no longer be available. Be sure to check with your provider if your Medicare Advantage or Part D plan is available in your new location. If it’s not, you’ll need to choose a new plan.Medigap (Supplemental Insurance):Medigap plans are regulated by state, meaning that moving to a new state could affect your options. While some states allow you to keep your Medigap plan, others may require you to switch to a new provider. Make sure to review your options in your new state and understand any changes in coverage.Was this article helpful ?Yes (8)No',
-          'Medigap (Supplemental Insurance):Medigap plans are regulated by state, meaning that moving to a new state could affect your options. While some states allow you to keep your Medigap plan, others may require you to switch to a new provider. Make sure to review your options in your new state and understand any changes in coverage.Was this article helpful ?Yes (8)No'],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (8)No'],
-      }],
+    ],
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "best-states-to-retire"],
   },
   {
@@ -1063,23 +1141,129 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     slug: 'rheumatoid-arthritis-treatment-and-medicare-coverage',
     seo: {
       title: 'Rheumatoid Arthritis Treatment and Medicare Coverage',
-      description: 'Find out how Rheumatoid Arthritis and Medicare coverage work. Then, discover what you can do to minimize costs. Learn the details here!',
+      description: 'Learn how Medicare covers rheumatoid arthritis treatments in 2026, including biologic drugs like Enbrel, Orencia, and Remicade, infusions, physical therapy, and supplemental coverage options.',
       canonical: 'https://www.medicarefaq.com/faqs/rheumatoid-arthritis-treatment-and-medicare-coverage/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/rheumatoid-arthritis-treatment-and-medicare-coverage.jpg',
     },
     title: 'Rheumatoid Arthritis Treatment and Medicare Coverage',
-    summary: '',
+    summary: 'Medicare covers a wide range of treatments to slow the progression of rheumatoid arthritis (RA) and manage its symptoms. However, RA treatments can be costly, and without supplemental coverage, out-of-pocket expenses can add up quickly. Here is how each part of Medicare covers rheumatoid arthritis care in 2026.',
     category: 'Coverage',
-    dateUpdated: '',
+    dateUpdated: 'May 8, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '7 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'I am about to start [Medicare Parts A and B](/blog/medicare-parts-a-b-c-and-d-explained-simply) on 1/1/2024, I am going to select the [Medigap coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) but I would like to know about the drug formularies for [Part D coverage](/faqs/part-d-formulary). I am currently on Amjevita with a co-pay assist bringing my cost to $0. So, would I lose this co-pay assist when I sign up for Part D? I am not really getting results from Amjevita and have tried 23 other drugs and biologics for RA. I would like to see which drugs each Part D plan covers to see if there is anything else I can try. Thank you.'],
-      }],
+        type: 'paragraph',
+        content: 'Rheumatoid arthritis (RA) is a chronic autoimmune disease that causes joint inflammation, pain, and progressive joint damage. Medicare covers a wide range of treatments to slow its progression and help manage symptoms. However, RA treatments can be costly, and without supplemental coverage, out-of-pocket expenses can reach thousands of dollars per year.',
+      },
+      { type: 'heading', level: 2, text: 'Does Medicare Cover Rheumatoid Arthritis?', id: 'does-medicare-cover-ra' },
+      {
+        type: 'paragraph',
+        content: 'Yes, Medicare covers medically necessary treatments for rheumatoid arthritis. The way coverage applies depends on where and how you receive care:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Medicare Part A** covers services and drugs you receive as an inpatient at a hospital, such as joint replacement surgery.',
+          '**Medicare Part B** covers outpatient infusions, outpatient surgeries, physical therapy, and other treatments administered in a clinical setting. Part B may also cover a [lift chair](/faqs/does-medicare-cover-lift-chairs) if your doctor determines it is medically necessary.',
+          '**Medicare Part D** covers prescription drugs you take at home, including self-administered injectable biologics.',
+          '**Medicare Advantage** plans provide at least the same coverage as Original Medicare, though your copays and cost-sharing may differ. Many Advantage plans include prescription drug coverage.',
+        ],
+      },
+      { type: 'heading', level: 2, text: 'Biologic Drugs for Rheumatoid Arthritis', id: 'biologic-drugs' },
+      {
+        type: 'paragraph',
+        content: 'If you are diagnosed with rheumatoid arthritis, your doctor may recommend disease-modifying antirheumatic drugs (DMARDs), including biologic DMARDs. These medications can bring inflammation under control and slow the progression of joint damage. They are also among the most expensive medications on the market.',
+      },
+      { type: 'heading', level: 3, text: 'Does Medicare Cover Enbrel?', id: 'enbrel' },
+      {
+        type: 'paragraph',
+        content: 'Enbrel (etanercept) is a biologic DMARD and TNF inhibitor that you self-inject weekly at home. Because it is a self-administered drug, it falls under **Medicare Part D**. The list price for Enbrel is approximately $1,762 per week for a 50 mg dose, though your actual cost will depend on your Part D plan\'s formulary and cost-sharing structure.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Amgen offers a copay assistance program (Amgen SupportPlus) that may reduce your out-of-pocket cost. If you have a limited income, you may also qualify for [Extra Help](/faqs/medicare-extra-help-low-income-subsidy-lis) with Part D costs.',
+      },
+      { type: 'heading', level: 3, text: 'Does Medicare Cover Orencia Infusions?', id: 'orencia' },
+      {
+        type: 'paragraph',
+        content: 'Orencia (abatacept) is available as both an infusion and a self-injection. If your doctor administers it as an intravenous infusion in an outpatient setting, it is covered under **Medicare Part B**. The sticker price for one Orencia infusion is approximately $4,043, but the manufacturer reports that most Medicare patients pay between $0 and $808 depending on their supplemental coverage.',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you take Orencia as a self-administered injection at home, it falls under **Medicare Part D**. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can cover the Part B coinsurance for infusions, significantly reducing your out-of-pocket cost.',
+      },
+      { type: 'heading', level: 3, text: 'Does Medicare Cover Remicade Infusions?', id: 'remicade' },
+      {
+        type: 'paragraph',
+        content: 'Yes. Remicade (infliximab) is administered by a physician in a clinical setting, so it is covered under **Medicare Part B**. You will pay the Part B coinsurance (typically 20% after the deductible) unless you have a Medigap plan that covers coinsurance.',
+      },
+      { type: 'heading', level: 3, text: 'Does Medicare Cover Methotrexate for Rheumatoid Arthritis?', id: 'methotrexate' },
+      {
+        type: 'paragraph',
+        content: 'Methotrexate (sold under the brand names Rheumatrex and Trexall) is often the first line of treatment for RA because it is effective and relatively affordable. It is available orally or as an injection. Both forms are covered under **Medicare Part D**, and costs depend on your specific plan\'s formulary tier.',
+      },
+      { type: 'heading', level: 3, text: 'Does Medicare Cover IVIG for Rheumatoid Arthritis?', id: 'ivig' },
+      {
+        type: 'paragraph',
+        content: '**Medicare Part B** covers intravenous immunoglobulin (IVIG) replacement therapy when it is deemed [medically necessary](/faqs/what-does-medically-necessary-mean) for severe rheumatoid arthritis. A Medicare Supplement plan can cover the Part B coinsurance, which would otherwise be 20% of the Medicare-approved amount.',
+      },
+      { type: 'heading', level: 2, text: 'Does Medicare Cover Physical Therapy for Rheumatoid Arthritis?', id: 'physical-therapy' },
+      {
+        type: 'paragraph',
+        content: 'Yes. Medicare Part B covers outpatient physical therapy when it is medically necessary and ordered by your doctor. Physical therapy can help RA patients maintain joint function, reduce pain, and improve mobility. You will pay the Part B coinsurance after meeting your deductible.',
+      },
+      { type: 'heading', level: 2, text: 'Does a Medicare Supplement Plan Cover Rheumatoid Arthritis?', id: 'medigap-for-ra' },
+      {
+        type: 'paragraph',
+        content: 'Rheumatoid arthritis infusion treatments are costly. Without supplemental coverage, you could pay thousands of dollars per year in coinsurance alone. A Medicare Supplement (Medigap) plan can cover most or all of your cost-sharing for RA treatments covered under Part B, including infusions, outpatient procedures, and physical therapy.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Which Medigap plan is best for RA patients?',
+        calloutText: 'Medicare Supplement Plan G covers 100% of Part B coinsurance after you meet the $283 Part B deductible in 2026. For RA patients who receive frequent infusions or outpatient treatments, Plan G often provides the best overall value by eliminating unpredictable cost-sharing.',
+      },
+      { type: 'heading', level: 2, text: 'Pre-Existing Conditions and Medicare Enrollment', id: 'pre-existing' },
+      {
+        type: 'paragraph',
+        content: 'Medicare does not deny coverage based on pre-existing conditions, including rheumatoid arthritis. When you first enroll in Medicare, you have a guaranteed right to purchase any Medigap plan during your Medigap Open Enrollment Period without medical underwriting. Outside of this window, insurers in most states can use health history to determine eligibility and pricing.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Enroll in Medigap during your open enrollment window',
+        calloutText: 'Your Medigap Open Enrollment Period begins the month you turn 65 and are enrolled in Part B. During this six-month window, you have a guaranteed issue right to enroll in any Medigap plan regardless of your health history, including a pre-existing condition like rheumatoid arthritis.',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Does Medicare cover biologic injections for rheumatoid arthritis?',
+            answer: 'Yes. Self-administered biologic injections such as Enbrel are covered under Medicare Part D. The amount you pay depends on your plan\'s formulary and cost-sharing structure. Manufacturer copay assistance programs may also reduce your out-of-pocket cost.',
+          },
+          {
+            question: 'Does Medicare cover Humira for rheumatoid arthritis?',
+            answer: 'Humira (adalimumab) is a self-administered biologic injection covered under Medicare Part D. Your cost depends on your plan\'s tier placement for Humira. Biosimilar alternatives to Humira are also available and may be covered at a lower cost tier.',
+          },
+          {
+            question: 'Will I lose my manufacturer copay assistance when I enroll in Part D?',
+            answer: 'Manufacturer copay assistance programs typically cannot be used with Medicare Part D plans. Once you are enrolled in Medicare, you generally cannot use a manufacturer\'s copay card for Part D-covered drugs. However, you may qualify for Extra Help (Low Income Subsidy) if you have limited income and resources, which can significantly reduce your Part D costs.',
+          },
+          {
+            question: 'Does Medicare cover joint replacement surgery for rheumatoid arthritis?',
+            answer: 'Yes. If your doctor determines that joint replacement surgery is medically necessary due to rheumatoid arthritis, Medicare Part A covers the inpatient hospital stay and Part B covers the surgeon\'s fees. A Medigap plan can cover the Part A deductible and coinsurance.',
+          },
+          {
+            question: 'What is the best Medicare plan for someone with rheumatoid arthritis?',
+            answer: 'For most RA patients, Original Medicare combined with a Medicare Supplement Plan G and a standalone Part D plan provides the most comprehensive and predictable coverage. Plan G covers 100% of Part B coinsurance after the $283 deductible, which is especially valuable for patients who receive frequent infusions or outpatient treatments.',
+          },
+        ],
+      },
+    ],
     relatedSlugs: ["medicare-advantage-for-chronic-conditions-what-you-need-to-know", "does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-physical-therapy", "medicare-preventive-services"],
   },
   {
