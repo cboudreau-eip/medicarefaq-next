@@ -32126,13 +32126,11 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Medigap Underwriting: How Pre-Existing Conditions Still Matter", description: "Deep dive into how medical underwriting works and which conditions most often lead to denial.", slug: "medigap-underwriting-how-preexisting-conditions-still-matter" },
       { title: "Medicare Supplement and Pre-Existing Conditions", description: "What you need to know about Medigap coverage and health history.", slug: "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know" },
-      { title: "Medicare Supplement Underwriting Questions", description: "What health questions insurers ask during Medigap underwriting.", slug: "medicare-supplement-underwriting-questions" },
       { title: "Medicare Guaranteed Issue Rights", description: "Full guide to the situations that trigger guaranteed issue rights for Medigap.", slug: "medicare-guaranteed-issue" },
     ],
     sidebarRelatedLinks: [
       "medigap-underwriting-how-preexisting-conditions-still-matter",
       "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know",
-      "medicare-supplement-underwriting-questions",
       "medicare-guaranteed-issue",
       "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
     ],
@@ -32143,7 +32141,6 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: [
       "medigap-underwriting-how-preexisting-conditions-still-matter",
       "medicare-supplement-and-pre-existing-conditions-what-you-need-to-know",
-      "medicare-supplement-underwriting-questions",
       "medicare-guaranteed-issue",
       "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
     ],

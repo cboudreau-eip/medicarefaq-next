@@ -623,34 +623,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "5-government-benefits-for-seniors", "discounts-for-seniors", "does-medicare-offer-a-grocery-allowance"],
   },
   {
-    slug: 'medicare-supplement-underwriting-questions',
-    seo: {
-      title: 'Medicare Supplement Underwriting Eligibility Questions',
-      description: 'Medicare Supplement underwriting eligibility questions aren’t always mandatory. However, if you are changing a Medigap plan or miss your OEP, underwriting is a must.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-supplement-underwriting-questions/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-supplement-underwriting-eligibility-questions.jpg',
-    },
-    title: 'Medicare Supplement Underwriting Eligibility Questions',
-    summary: '',
-    category: 'Medicare Supplements',
-    dateUpdated: 'March 11, 2024',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: 'Medicare Agents near Me',
-        paragraphs: [
-          'Updated on March 11, 2024',
-          'With the help of technology, it is no longer necessary to find a [Medicare broker](/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medigap-underwriting-how-preexisting-conditions-still-matter", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "how-the-medigap-free-look-period-protects-you",
-    "medicare-guaranteed-issue",
-    "medicare-supplement-plans-and-pre-existing-conditions",],
-  },
-  {
     slug: 'medicare-physician-fee-schedule-lookup-tool',
     seo: {
       title: 'Medicare Physician Fee Schedule Lookup Tool',

@@ -110,7 +110,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ['medicare-supplement-open-enrollment', 'medicare-supplement-underwriting-questions', 'medicare-plan-g-reviews'],
+    relatedSlugs: ['medicare-supplement-open-enrollment', 'medicare-plan-g-reviews'],
   },
   // does-medicare-cover-hormone-therapy-for-menopause moved to coverage-data.ts
   {
@@ -192,7 +192,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ['medicare-supplement-open-enrollment', 'five-surprising-facts-about-medigap-you-didnt-know', 'medicare-supplement-underwriting-questions'],
+    relatedSlugs: ['medicare-supplement-open-enrollment', 'five-surprising-facts-about-medigap-you-didnt-know'],
   },
   {
     slug: 'report-medicare-fraud',
