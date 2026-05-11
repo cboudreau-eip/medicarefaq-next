@@ -189,8 +189,8 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
         </ul>
       );
     case "table": {
-      // Derive a title from the first header or use a generic label
-      const tableTitle = section.title || (section.headers ? section.headers[0] : "Comparison");
+      // Derive a display title from the first header column label
+      const tableTitle = section.headers ? section.headers[0] : "Comparison";
       return (
         <div key={idx} className="overflow-x-auto mb-6 rounded-xl border border-[#E5E7EB] shadow-sm">
           {/* Orange header bar matching site table template */}
