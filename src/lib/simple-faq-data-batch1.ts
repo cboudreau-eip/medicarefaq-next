@@ -672,7 +672,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "when-to-switch-medigap-plans-what-you-need-to-know", "medicare-trial-rights-explained-your-safety-net-for-plan-changes"],
+    relatedSlugs: ["making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "when-to-switch-medigap-plans-what-you-need-to-know"],
   },
   {
     slug: 'welcome-to-medicare-preventative-visit',
