@@ -142,7 +142,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
       </button>
       {open && (
         <div className="px-4 pb-4 text-[#4B5563] text-[15px] leading-relaxed border-t border-[#E5E7EB] pt-3">
-          {renderInlineLinks(answer, "faq-answer")}
+          {renderParagraph(answer, "faq-answer")}
         </div>
       )}
     </div>
@@ -175,7 +175,7 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
         <ol key={idx} className="list-decimal list-outside ml-6 space-y-2 mb-4">
           {(section.items || []).map((item, i) => (
             <li key={i} className="text-[#374151] text-[16px] leading-relaxed">
-              {renderInlineLinks(item, i)}
+              {renderParagraph(item, `${idx}-${i}`)}
             </li>
           ))}
         </ol>
@@ -183,7 +183,7 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
         <ul key={idx} className="list-disc list-outside ml-6 space-y-2 mb-4">
           {(section.items || []).map((item, i) => (
             <li key={i} className="text-[#374151] text-[16px] leading-relaxed">
-              {renderInlineLinks(item, i)}
+              {renderParagraph(item, `${idx}-${i}`)}
             </li>
           ))}
         </ul>
@@ -211,7 +211,7 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
                 >
                   {row.map((cell, ci) => (
                     <td key={ci} className="px-4 py-3 text-[#374151] border-t border-[#E5E7EB]">
-                      {renderInlineLinks(cell, `${ri}-${ci}`)}
+                      {renderParagraph(cell, `${ri}-${ci}`)}
                     </td>
                   ))}
                 </tr>
@@ -272,7 +272,7 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
                 </p>
               )}
               <p className="text-[#374151] text-[15px] leading-relaxed">
-                {renderInlineLinks(section.calloutText || "", idx)}
+                {renderParagraph(section.calloutText || "", idx)}
               </p>
             </div>
           </div>
