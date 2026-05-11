@@ -12,78 +12,214 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     slug: 'what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide',
     seo: {
       title: 'What to do if You Lose Your Medicare Card: A Step-by-Step Guide',
-      description: 'Lost your Medicare card? Learn how to quickly replace it, what information you’ll need, how long it takes, and tips for keeping it safe. Stay protected and informed.',
+      description: 'Lost your Medicare card? Learn how to quickly replace it online, by phone, or in person, what information you need, how long it takes, and what to do if it was stolen.',
       canonical: 'https://www.medicarefaq.com/faqs/what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/What-to-Do-if-You-Lose-Your-Medicare-Card-A-Step-by-Step-Guide.jpg',
+      ogImage: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&auto=format&fit=crop&q=80',
     },
     title: 'What to do if You Lose Your Medicare Card: A Step-by-Step Guide',
-    summary: '',
+    summary: 'Losing your Medicare card is more common than you might think. The good news is that replacing it is straightforward and free. This guide walks you through every step, from requesting a new card to protecting yourself if your card was stolen.',
     category: 'Medicare FAQ',
-    dateUpdated: '',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '5 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph',
+        content: 'Losing your Medicare card can feel stressful, but replacing it is a simple, free process. Since 2018, Medicare cards no longer display your Social Security Number, so a lost card poses less identity theft risk than it once did. Still, you should request a replacement promptly and take a few precautions if you suspect the card was stolen.',
       },
       {
-        heading: 'What is Your Medicare Card?',
-        paragraphs: [
-        ],
-        listItems: [
-          'Your full name',
-          'A unique Medicare number (not tied to your Social Security Number, for your protection)',
-          'Start dates for your Medicare Part A (hospital insurance) and Medicare Part B (medical insurance) coverage'],
+        type: 'callout',
+        calloutType: 'success',
+        calloutTitle: 'Replacement Is Free',
+        calloutText: 'There is no fee to replace a lost or damaged Medicare card. You can request a new one online, by phone, or in person at any time.',
       },
       {
-        heading: 'Why It’s Important to Keep Your Medicare Card Accessible',
-        paragraphs: [
-        ],
+        type: 'heading',
+        level: 2,
+        id: 'what-is-your-medicare-card',
+        text: 'What Is Your Medicare Card?',
       },
       {
-        heading: 'Where Should You Keep Your Medicare Card?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph',
+        content: 'Your Medicare card is your official proof of Medicare enrollment. It is a red, white, and blue card issued by the Centers for Medicare and Medicaid Services (CMS). Every person enrolled in Medicare receives their own individual card, even if they are on a spouse\'s work record.',
       },
       {
-        heading: 'How to Order a New Medicare Card',
-        paragraphs: [
-        ],
-        listItems: [
-          'Online through your Medicare account – Log in or create an account atMedicare.gov. Once logged in, go to the “Replace Your Medicare Card” section and follow the instructions.',
-          'By phone – Call the Social Security Administration at 1-800-772-1213 (TTY 1-800-325-0778), Monday through Friday, from 8 a.m. to 7 p.m.',
-          'In person – Visit your local Social Security office for assistance.'],
+        type: 'paragraph',
+        content: 'Your card displays three pieces of information:',
       },
       {
-        heading: 'What Information is Needed to Order a New Card?',
-        paragraphs: [
-        ],
-        listItems: [
-          'Your full name (as it appears on your Social Security records)',
-          'Your date of birth',
-          'Your Social Security Number',
-          'Current address on file'],
-      },
-      {
-        heading: 'How Long Does it Take to Receive a New Medicare Card?',
-        paragraphs: [
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Your full name** as it appears in Social Security records',
+          '**Your Medicare Beneficiary Identifier (MBI)** -- a unique 11-character alphanumeric number that replaced Social Security Numbers on Medicare cards starting in 2018',
+          '**Your coverage start dates** for Part A (hospital insurance) and Part B (medical insurance)',
         ],
       },
       {
-        heading: 'What if Your Medicare Card Was Stolen?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-        listItems: [
-          'Report the theft to Medicare by calling 1-800-MEDICARE (1-800-633-4227).',
-          'Monitor your claims through your Medicare account. Check for any unfamiliar charges or services.',
-          'Consider identity protection services if you believe your personal information may have been compromised.',
-          'Was this article helpful ?',
-          'Yes (6)No'],
-      }],
-    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-beneficiary-identifiers", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "applying-for-medicare"],
+        type: 'paragraph',
+        content: 'You will need to show this card whenever you receive Medicare-covered services. Providers use your MBI to verify your coverage and submit claims. Learn more about [how your Medicare Beneficiary Identifier works](/faqs/medicare-beneficiary-identifiers).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'why-keep-card-accessible',
+        text: 'Why It Is Important to Keep Your Medicare Card Accessible',
+      },
+      {
+        type: 'paragraph',
+        content: 'Your Medicare card is required at virtually every healthcare encounter. Doctors, hospitals, labs, and pharmacies all need your MBI to verify your coverage and bill Medicare correctly. If you cannot produce your card or provide your MBI, a provider may delay your care, ask you to pay out of pocket upfront, or be unable to submit a claim on your behalf.',
+      },
+      {
+        type: 'paragraph',
+        content: 'That said, you should not carry your Medicare card everywhere you go. Because the MBI is linked to your Medicare account, losing it in the wrong hands could expose you to Medicare fraud, where someone uses your information to bill Medicare for services you never received.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'where-to-keep-card',
+        text: 'Where Should You Keep Your Medicare Card?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare recommends keeping your card in a safe place at home and only bringing it to medical appointments. A few practical options:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Store the original card in a secure location at home, such as a fireproof box or a dedicated folder with other important documents.',
+          'Carry a **photocopy** of your card to routine appointments rather than the original, so the original stays safe.',
+          'Save a photo of your card on your smartphone or in a secure password-protected app for easy access when needed.',
+          'Write your MBI number in a secure place (not your wallet) so you can provide it to providers even without the physical card.',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-to-order-new-card',
+        text: 'How to Order a New Medicare Card',
+      },
+      {
+        type: 'paragraph',
+        content: 'You can request a replacement Medicare card through three channels. All three methods are free, and you will receive the same official card regardless of which method you choose.',
+      },
+      {
+        type: 'table',
+        headers: ['Method', 'How to Do It', 'Best For'],
+        rows: [
+          ['Online', 'Log in or create an account at Medicare.gov. Go to "My Account" and select "Replace Your Medicare Card."', 'Fastest option; available 24/7'],
+          ['By Phone', 'Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778), Monday through Friday, 8 a.m. to 7 p.m.', 'If you prefer speaking with someone or do not have internet access'],
+          ['In Person', 'Visit your local Social Security Administration office.', 'If you need additional help or have other Social Security matters to address'],
+        ],
+        footnote: 'You can also manage your Medicare account and view your MBI online at Medicare.gov without waiting for a physical card.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Access Your MBI Instantly Online',
+        calloutText: 'If you need your Medicare number right away for an upcoming appointment, log in to Medicare.gov to view and print your MBI before your replacement card arrives in the mail.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'information-needed',
+        text: 'What Information Is Needed to Order a New Card?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Whether you order online, by phone, or in person, you will need to verify your identity. Have the following ready:',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          'Your **full legal name** as it appears on your Social Security records',
+          'Your **date of birth**',
+          'Your **Social Security Number** (used to verify your identity, not printed on the new card)',
+          'Your **current mailing address** on file with Social Security',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content: 'If your address has changed recently, you may need to update it with Social Security before requesting the replacement card to ensure it is mailed to the correct location. You can update your address at the same time you request the replacement. If you have recently moved, you may also want to review [what to do with Medicare when you move](/faqs/what-to-do-with-medicare-if-youre-moving-medicare-change-of-address).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-long-does-it-take',
+        text: 'How Long Does It Take to Receive a New Medicare Card?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Once your request is submitted, a replacement Medicare card typically arrives by mail within **30 days**. The card is mailed to the address on file with Social Security, so make sure that address is current before you submit your request.',
+      },
+      {
+        type: 'paragraph',
+        content: 'While you wait for your physical card, you can log in to Medicare.gov to view your MBI and print a temporary copy to use at appointments. Your coverage is not interrupted during this time -- your Medicare benefits remain fully active.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'card-was-stolen',
+        text: 'What if Your Medicare Card Was Stolen?',
+      },
+      {
+        type: 'paragraph',
+        content: 'If your Medicare card was stolen rather than simply lost, you should take additional steps beyond requesting a replacement. Medicare fraud is a serious problem, and your MBI can be misused to bill Medicare for services you never received.',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '**Request a replacement card** immediately using one of the methods above.',
+          '**Report the theft to Medicare** by calling 1-800-MEDICARE (1-800-633-4227). Medicare can flag your account for suspicious activity.',
+          '**Review your Medicare Summary Notice (MSN)** or check your claims history at Medicare.gov for any services you do not recognize. Claims are typically available within 24 hours of processing.',
+          '**Report suspected fraud** to the Office of Inspector General (OIG) at 1-800-HHS-TIPS (1-800-447-8477) or online at oig.hhs.gov.',
+          '**Consider a credit freeze or fraud alert** with the major credit bureaus if you believe other personal information was also compromised.',
+        ],
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Watch for Medicare Fraud',
+        calloutText: 'If you see charges on your Medicare account for services you did not receive, report them immediately. Medicare fraud costs the program billions of dollars each year and can affect your own coverage record.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Is there a fee to replace a lost Medicare card?',
+            answer: 'No. Replacing a Medicare card is completely free. You can request a replacement online at Medicare.gov, by calling Social Security at 1-800-772-1213, or by visiting a local Social Security office.',
+          },
+          {
+            question: 'Can I use my Medicare card number from memory instead of the physical card?',
+            answer: 'Yes. Providers only need your Medicare Beneficiary Identifier (MBI) to verify your coverage and submit claims. If you have memorized or saved your MBI, you can provide it without the physical card.',
+          },
+          {
+            question: 'Will my Medicare coverage be interrupted while I wait for a replacement card?',
+            answer: 'No. Your Medicare benefits remain fully active while you wait for your replacement card. You can also print a temporary copy of your card from Medicare.gov.',
+          },
+          {
+            question: 'What if I never received my original Medicare card?',
+            answer: 'If you enrolled in Medicare but never received your card, contact Social Security at 1-800-772-1213 to confirm your enrollment and request that a card be mailed to your current address.',
+          },
+          {
+            question: 'Can someone use my Medicare card to commit fraud?',
+            answer: 'Yes, though the risk is lower than it used to be because Medicare cards no longer display your Social Security Number. If you suspect your card was stolen, report it to 1-800-MEDICARE and monitor your claims at Medicare.gov for unfamiliar charges.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-beneficiary-identifiers", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "applying-for-medicare", "medicare-paperless-billing"],
   },
   {
     slug: "scope-of-appointment",
