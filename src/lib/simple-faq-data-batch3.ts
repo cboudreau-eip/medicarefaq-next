@@ -88,24 +88,98 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     slug: 'medicare-paperless-billing',
     seo: {
       title: 'Medicare Paperless Premium Billing',
-      description: 'Medicare has been improving its paperless billing options. Meanwhile, you can choose to receive handbooks electronically.',
+      description: 'Medicare has been improving its paperless billing options. You can now choose to receive your Medicare Summary Notices and the Medicare and You handbook electronically.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-paperless-billing/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-premiums-paperless-billing.jpg',
     },
     title: 'Medicare Paperless Premium Billing',
-    summary: '',
+    summary: 'Medicare has been improving its paperless billing options, and you can now choose to receive your Medicare Summary Notices and the Medicare and You handbook electronically. If you pay your own Part B premiums because you are not yet on Social Security, you can arrange automatic payments. Paperless options for Medicare Advantage, Part D plans, and Medigap plans vary depending on which insurance company issues the policy.',
     category: 'Medicare FAQ',
-    dateUpdated: 'September 15, 2021',
-    author: 'Jagger Esch',
+    dateUpdated: 'May 8, 2026',
+    author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '5 min',
+    tableOfContents: [
+      'How Do I Go Paperless With Medicare?',
+      'Can I Get My Monthly Medicare Premium Bill Electronically?',
+      'Electronic Medicare Summary Notices',
+      'Medicare and You Handbook in Paperless Formats',
+      'Managing Your Medicare Paperless Options',
+      'Frequently Asked Questions',
+    ],
+    richSections: [
       {
-        heading: 'How to File a Medicare Claim',
-        paragraphs: [
-          'Updated on September 15, 2021',
-          'Most of the time, you won’t need to worry about [filing your own [Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) claims](/faqs/how-to-file-a-medicare-claim)....',
+        type: 'paragraph',
+        heading: 'How Do I Go Paperless With Medicare?',
+        content: 'Medicare traditionally sends its handbooks and notices through the mail. If you are satisfied receiving your Medicare information and documentation to your mailbox, you can continue to do so.\n\nHowever, you can also track your claims and notices online by accessing Medicare online. You can sign up for free and create an account at [MyMedicare.gov](https://www.mymedicare.gov/). Once you have set up your account, there are three major resources you can take advantage of:',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          'Electronic Medicare Summary Notices (eMSN)',
+          'Medicare and You handbook in digital formats',
+          'Automatic premium payments',
         ],
+      },
+      {
+        type: 'paragraph',
+        content: 'You can make your monthly premium payments online in two ways. The first option is [Medicare Easy Pay](/faqs/medicare-easy-pay), a free service that automatically deducts your premium from your checking or savings account each month. To set it up, you must mail an authorization form to Medicare. The second option is through your online bank.\n\nAutomatic payments are optional. You can still pay your Medicare premiums by mailing in a check, money order, or credit card information. Automatic payment is also available for Medigap, Part D, and Medicare Advantage. Each insurance company has its own system for automatic payments and electronic access to benefit statements. In many cases, you can have your other Medicare premiums deducted automatically from your Social Security payment.',
+      },
+      {
+        type: 'callout',
+        variant: 'info',
+        content: '**Can I Get My Monthly Medicare Premium Bill Electronically?**\n\nWhile you can pay your premium online, there is currently no way to receive your monthly premium statements electronically. You will still receive a hard copy of your Medicare Premium Bill (CMS-500) through the mail. Although it is called a bill, it is technically a statement outlining your charges. Medicare mails the statement around the tenth of every month.',
+      },
+      {
+        type: 'paragraph',
+        heading: 'Electronic Medicare Summary Notices',
+        content: 'Instead of receiving notices in the mail every three months, you can opt for a monthly email with a secure link to your Electronic Medicare Summary Notices (eMSN). The monthly eMSN makes it easier to track claims, deductibles, and costs.\n\nBecause it comes out more frequently than the paper statement, the eMSN helps you catch billing mistakes quickly and prevent fraud. To sign up, log in to your [MyMedicare.gov](https://www.mymedicare.gov/) account and update your notification preferences.',
+      },
+      {
+        type: 'paragraph',
+        heading: 'Medicare and You Handbook in Paperless Formats',
+        content: 'The Medicare and You handbook is a comprehensive volume that arrives in your mailbox every fall. It covers Medicare costs, financial assistance, protecting yourself from fraud, and more. You can now access it anytime in multiple formats, in both English and Spanish.\n\nIf you have a computer or mobile device, you can download the handbook as a PDF or eBook in three different formats. It is compatible with iPads, Nooks, Sony eReaders, and more. For individuals who do not have access to computers, you can call Medicare directly or request an audio CD.',
+      },
+      {
+        type: 'paragraph',
+        content: '**The electronic version has several advantages over the paper one:**',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'It is less bulky to store.',
+          'Information is more current because it is updated throughout the year. The paper version is only updated once a year.',
+          'You can access the electronic version on a mobile device wherever you are.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        heading: 'Managing Your Medicare Paperless Options',
+        content: 'There are more paperless options for managing your Medicare benefits than ever before. When setting up paperless billing and automatic payments, be aware that it may take a couple of months before the automatic deductions start.\n\nIf you want to review your [Medicare coverage](/faqs/what-is-medicare) options or compare rates on Medicare Supplement, Medicare Advantage, or Part D plans, MedicareFAQ can help you find the right plan at the best available rate.',
+      },
+    ],
+    faqs: [
+      {
+        question: 'How do I sign up for paperless Medicare Summary Notices?',
+        answer: 'Log in to your MyMedicare.gov account, go to your profile settings, and select the option to receive Electronic Medicare Summary Notices (eMSN) by email. You will receive a monthly email with a secure link to your notices instead of a paper copy every three months.',
+      },
+      {
+        question: 'Can I pay my Medicare Part B premium online?',
+        answer: 'Yes. You can pay your Part B premium online through your bank or set up automatic deductions through Medicare Easy Pay. Medicare Easy Pay deducts your premium directly from your checking or savings account each month at no charge.',
+      },
+      {
+        question: 'Can I receive my Medicare Premium Bill (CMS-500) electronically?',
+        answer: 'Not currently. Medicare still mails the CMS-500 premium statement around the tenth of each month. While you can pay online, the bill itself is only available in paper form.',
+      },
+      {
+        question: 'Where can I download the Medicare and You handbook?',
+        answer: 'You can download the Medicare and You handbook from Medicare.gov in PDF or eBook format. It is available in English and Spanish and is compatible with most e-readers and mobile devices.',
+      },
+      {
+        question: 'Do Medicare Advantage and Part D plans offer paperless billing?',
+        answer: 'Paperless billing for Medicare Advantage, Part D, and Medigap plans varies by insurance company. Contact your plan carrier directly to find out what electronic billing and statement options are available.',
       },
     ],
     relatedSlugs: ["medicare-easy-pay", "5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "medicare-enrollment-checklist"],
