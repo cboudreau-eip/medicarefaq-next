@@ -648,26 +648,192 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'can-i-cancel-medicare-advantage-plan',
     seo: {
-      title: 'Can I Cancel My Medicare Advantage Plan?',
-      description: 'If you want to cancel your Medicare Advantage plan, it can be difficult. Yet, it is possible under the right circumstances. Learn how here.',
+      title: 'Can I Cancel My Medicare Advantage Plan? (2026 Guide)',
+      description: 'Yes, you can cancel a Medicare Advantage plan -- but only during specific enrollment windows. Learn when you can disenroll, what happens to your coverage, and how to switch back to Original Medicare.',
       canonical: 'https://www.medicarefaq.com/faqs/can-i-cancel-medicare-advantage-plan/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/can-i-cancel-my-medicare-advantage-plan.jpg',
     },
     title: 'Can I Cancel My Medicare Advantage Plan?',
-    summary: '',
+    summary: 'Yes, you can cancel a Medicare Advantage plan, but you can only do so during specific enrollment windows. Outside of those windows, you are generally locked into your plan until the next opportunity. This guide explains exactly when you can disenroll, what happens to your coverage, and what to consider before making the switch.',
     category: 'Medicare Advantage',
-    dateUpdated: 'February 17, 2026',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '7 min',
+    sections: [],
+    richSections: [
       {
-        heading: 'Medicare Advantage Open Enrollment Period',
-        paragraphs: [
-          'Updated on February 17, 2026',
-          'The [Medicare Advantage Open Enrollment Period (MAOEP)](/faqs/medicare-advantage-open-enrollment-period) occurs annually from [January 1 until March 31](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up)....'],
-      }],
-    relatedSlugs: ["making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans"],
+        type: 'paragraph',
+        content: 'You can cancel a Medicare Advantage plan, but Medicare does not allow you to disenroll at any time. You must act during one of several designated enrollment periods. Outside of those windows, you are generally locked into your current plan until the next opportunity arises. Understanding the rules before you cancel is essential -- especially because switching back to Original Medicare can have significant consequences for your supplemental coverage options.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Short Answer',
+        calloutText: 'Yes, you can cancel your Medicare Advantage plan. Your main options are the **Medicare Advantage Open Enrollment Period** (January 1 to March 31) and the **Annual Enrollment Period** (October 15 to December 7). Certain life events also trigger a Special Enrollment Period that lets you disenroll outside of these windows.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'when-can-you-cancel',
+        text: 'When Can You Cancel a Medicare Advantage Plan?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare provides several windows each year when you can cancel or change your Medicare Advantage plan. The right window for you depends on your situation and what you want to do after canceling.',
+      },
+      {
+        type: 'table',
+        headers: ['Enrollment Period', 'Dates', 'What You Can Do'],
+        rows: [
+          ['Medicare Advantage Open Enrollment Period (MAOEP)', 'January 1 to March 31', 'Switch to a different Medicare Advantage plan, or drop Medicare Advantage and return to Original Medicare (and add a standalone Part D plan)'],
+          ['Annual Enrollment Period (AEP)', 'October 15 to December 7', 'Switch Medicare Advantage plans, drop Medicare Advantage for Original Medicare, or switch from Original Medicare to Medicare Advantage. Changes take effect January 1.'],
+          ['Special Enrollment Period (SEP)', 'Varies by qualifying event', 'Disenroll outside of standard windows if you experience a qualifying life event such as moving out of your plan\'s service area, losing employer coverage, or qualifying for Medicaid'],
+          ['5-Star Special Enrollment Period', 'December 8 to November 30 of the following year', 'Switch to a Medicare Advantage or Part D plan that has earned a 5-star quality rating from CMS -- available once per year'],
+        ],
+        footnote: 'Changes made during the MAOEP take effect the first day of the month after the plan receives your request. AEP changes take effect January 1.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'maoep',
+        text: 'Medicare Advantage Open Enrollment Period (January 1 to March 31)',
+      },
+      {
+        type: 'paragraph',
+        content: 'The [Medicare Advantage Open Enrollment Period (MAOEP)](/faqs/medicare-advantage-open-enrollment-period) is the most common window people use to cancel a Medicare Advantage plan. It runs every year from **January 1 through March 31**. During this period, you can:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Switch from one Medicare Advantage plan to a different Medicare Advantage plan',
+          'Drop your Medicare Advantage plan entirely and return to Original Medicare (Parts A and B)',
+          'Add a standalone Medicare Part D prescription drug plan if you return to Original Medicare',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content: 'You can only make **one change** during the MAOEP. If you already switched plans during the Annual Enrollment Period and then change your mind in January, the MAOEP gives you a second chance to correct course. Changes take effect the first day of the month after your plan receives your disenrollment request.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'what-happens-after-canceling',
+        text: 'What Happens to Your Coverage After You Cancel?',
+      },
+      {
+        type: 'paragraph',
+        content: 'When you cancel a Medicare Advantage plan and return to Original Medicare, your **Parts A and B coverage is automatically restored**. You will not have a gap in Medicare coverage. However, there are two important gaps that Original Medicare alone does not fill:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**No prescription drug coverage.** Original Medicare does not cover most outpatient prescriptions. You will need to enroll in a standalone [Medicare Part D plan](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not) to maintain drug coverage.',
+          '**No out-of-pocket maximum.** Original Medicare has no annual cap on what you can spend. A Medicare Supplement (Medigap) plan can fill this gap, but getting one after leaving Medicare Advantage is not always easy.',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'medigap-after-canceling',
+        text: 'The Medigap Problem: Why Canceling Is Not Always Simple',
+      },
+      {
+        type: 'paragraph',
+        content: 'This is the most important consideration when canceling a Medicare Advantage plan. When you first enroll in Medicare Part B, you have a **6-month Medigap Open Enrollment Period** during which insurance companies must sell you any Medigap plan at standard rates, regardless of your health history. Once that window closes, most states allow insurers to use **medical underwriting** -- meaning they can charge you more, exclude pre-existing conditions, or deny you coverage altogether.',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you cancel your Medicare Advantage plan years after your initial enrollment, you may find it difficult or expensive to get a Medigap plan. Some states have enacted birthday rules or other protections that give you additional opportunities to switch, but these vary significantly. Learn more about [Medigap guaranteed issue rights](/faqs/medicare-guaranteed-issue) and [how to switch from Medicare Advantage to a Medicare Supplement plan](/faqs/switch-medicare-advantage-to-medicare-supplement).',
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Medigap Underwriting Risk',
+        calloutText: 'If you leave Medicare Advantage and return to Original Medicare outside of a guaranteed issue window, insurance companies in most states can deny your Medigap application or charge higher premiums based on your health. Talk to a licensed Medicare agent before canceling to understand your options.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'special-enrollment-periods',
+        text: 'Special Enrollment Periods That Allow You to Cancel',
+      },
+      {
+        type: 'paragraph',
+        content: 'Certain life events trigger a [Special Enrollment Period (SEP)](/faqs/medicare-special-enrollment-periods) that lets you disenroll from a Medicare Advantage plan outside of the standard windows. Common qualifying events include:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Moving out of your plan\'s service area (you have 2 months after moving to make a change)',
+          'Moving into or out of a skilled nursing facility or long-term care facility',
+          'Losing employer-sponsored coverage that was supplementing your Medicare Advantage plan',
+          'Qualifying for Medicaid or Extra Help (Low-Income Subsidy)',
+          'Your plan losing its Medicare contract or leaving your service area',
+          'Being enrolled in a plan that received a low quality rating (below 3 stars for 3 consecutive years)',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-to-cancel',
+        text: 'How to Cancel Your Medicare Advantage Plan',
+      },
+      {
+        type: 'paragraph',
+        content: 'There are three ways to disenroll from a Medicare Advantage plan during an eligible enrollment period:',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '**Enroll in a new plan.** If you enroll in a different Medicare Advantage plan or a standalone Part D plan, your old plan is automatically canceled. You do not need to separately notify your old plan.',
+          '**Contact your current plan directly.** Call the member services number on your plan\'s ID card and request disenrollment. The plan must process your request and send written confirmation.',
+          '**Call 1-800-MEDICARE (1-800-633-4227).** Medicare can process your disenrollment request directly. TTY users can call 1-877-486-2048.',
+        ],
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Get Confirmation in Writing',
+        calloutText: 'Always request written confirmation of your disenrollment. Keep the confirmation letter in case of billing disputes or coverage questions after your plan ends.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Can I cancel my Medicare Advantage plan at any time?',
+            answer: 'No. You can only cancel during designated enrollment periods: the Medicare Advantage Open Enrollment Period (January 1 to March 31), the Annual Enrollment Period (October 15 to December 7), or during a qualifying Special Enrollment Period.',
+          },
+          {
+            question: 'What happens to my Part D coverage if I cancel Medicare Advantage?',
+            answer: 'Most Medicare Advantage plans include drug coverage (MAPD). If you cancel and return to Original Medicare, you will lose that drug coverage. You should enroll in a standalone Part D plan at the same time to avoid a coverage gap and a potential late enrollment penalty.',
+          },
+          {
+            question: 'Can I cancel my Medicare Advantage plan if I am sick?',
+            answer: 'You can cancel during any open enrollment window regardless of your health. However, getting a Medigap plan after you cancel may be difficult if you have health conditions, since most states allow medical underwriting outside of guaranteed issue periods.',
+          },
+          {
+            question: 'Will I be penalized for canceling my Medicare Advantage plan?',
+            answer: 'There is no penalty for canceling a Medicare Advantage plan itself. However, if you do not immediately enroll in a Part D plan after returning to Original Medicare, you could face a Part D late enrollment penalty if you go more than 63 days without creditable drug coverage.',
+          },
+          {
+            question: 'Can I cancel my Medicare Advantage plan and get a Medigap plan?',
+            answer: 'Possibly, but it depends on when you enroll and what state you live in. Outside of your initial Medigap Open Enrollment Period, most states allow insurers to deny or surcharge Medigap applications based on health history. Some states have birthday rules or other protections. Consult a licensed agent before canceling.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "medicare-guaranteed-issue", "switch-medicare-advantage-to-medicare-supplement"],
   },
   {
     slug: 'medicare-part-d-late-enrollment-penalty',
