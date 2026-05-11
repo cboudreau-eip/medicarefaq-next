@@ -370,7 +370,7 @@ export const blogArticles: BlogArticleData[] = [
         "Part A penalty (if applicable): If you are not automatically eligible for premium-free Part A, delaying enrollment can add 10% to your premium for twice the number of years you delayed."
       ] },
       { type: "paragraph", content: "These penalties can add up significantly over time, making it essential to enroll in Medicare when you first become eligible." }],
-    relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage", "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained", "inpatient-only-list"],
+    relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "medicare-initial-enrollment-period", "navigating-your-coverage-medicare-automatic-enrollment-vs-manual-enrollment-explained", "inpatient-only-list"],
   },
 {
     slug: "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
@@ -4342,7 +4342,7 @@ export const blogArticles: BlogArticleData[] = [
         { question: 'Does COBRA Eligibility Affect My Special Enrollment Period?', answer: 'If you have COBRA, your 8-month SEP window starts when COBRA coverage ends, not when your original employer plan ended. This gives you additional time to enroll.' },
         { question: 'Can I Enroll in Part D Prescription Drug Coverage during the SEP?', answer: 'Yes, losing creditable coverage triggers a SEP for Part D enrollment. You have the same 8-month window to enroll in a prescription drug plan without late enrollment penalties.' },
         { question: 'Do I Need Proof of Coverage Loss to Qualify for a SEP?', answer: 'Yes, Medicare requires documentation from your employer or health plan showing the date coverage ended. Keep letters or notices confirming your loss of coverage.' }],
-      relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-special-enrollment-periods", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage"],
+      relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-special-enrollment-periods", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
     },
 {
     slug: "observation-vs-inpatient-why-it-can-affect-your-medicare-bill",

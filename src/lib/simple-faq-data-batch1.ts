@@ -629,7 +629,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
           'Updated on June 27, 2025',
           'Although Medicare is a federal program, [Medicare by state](/faqs/state-specific-medicare-rules) may have some [different rules](/blog/what-happens-to-your-medicare-when-you-move-states) that...'],
       }],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
   },
   {
     slug: 'medicare-8-minute-rule',

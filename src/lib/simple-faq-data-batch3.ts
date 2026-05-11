@@ -439,64 +439,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     ],
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "average-cost-of-medicare-supplement-plans", "how-medigap-plans-affect-your-overall-medicare-costs", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
   },
-  {
-    slug: 'special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage',
-    seo: {
-      title: 'Special Enrollment Periods Explained: What Triggers Them and How to Take Advantage',
-      description: 'Learn what a Medicare Special Enrollment Period (SEP) is, what events trigger it, and how to use it to change your health plan.',
-      canonical: 'https://www.medicarefaq.com/faqs/special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Special-Enrollment-Periods-Explained-What-Triggers-Them-and-How-to-Take-Advantage.jpg',
-    },
-    title: 'Special Enrollment Periods Explained: What Triggers Them and How to Take Advantage',
-    summary: '',
-    category: 'Medicare Advantage',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-      },
-      {
-        heading: 'The Most Common Special Enrollment Periods',
-        paragraphs: [
-        ],
-        listItems: [
-          'Moving: If youmove to a new addressthat is outside your current plan’s service area, you will typically qualify for an SEP to switch to a new plan available in your new location.',
-          'Losing Other Health Coverage: This is a very common one. If you lose employer-sponsored health coverage (either your own or a spouse’s), COBRA, or other types of creditable prescription drug coverage, you will get an SEP to sign up for a Medicare plan.',
-          'Your Plan Changes Its Contract with Medicare: If your Medicare Advantage orPart Dplan leaves the Medicare program or changes its service area, you will be granted an SEP to find new coverage.',
-          'Qualifying for or LosingExtra Help: If you become eligible for Medicaid or the Part D Low-Income Subsidy (Extra Help), or if you lose this eligibility, you can make changes to your coverage.',
-          'Living in an Institution: If you move into or out of askilled nursing facilityor long-term care hospital, this event typically triggers an SEP.'],
-      },
-      {
-        heading: 'What Can You do during a Special Enrollment Period?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'How Long do You Have to Act?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'For example, if you move, your SEP generally starts the month you inform your plan of the move and continues for two full months after. If you lose employer coverage, you typically have an 8-month SEP to enroll in Part A and/or Part B. However, your window to enroll in a Medicare Advantage or Part D plan is often shorter, usually around 60 days from when your other coverage ends.Missing this window could mean you have to wait until the nextAnnual Enrollment Periodto make changes, which could leave you with a gap in coverage.Tips for Making the Most Out of a Special Enrollment PeriodA Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No',
-          'Missing this window could mean you have to wait until the nextAnnual Enrollment Periodto make changes, which could leave you with a gap in coverage.Tips for Making the Most Out of a Special Enrollment PeriodA Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No'],
-      },
-      {
-        heading: 'Tips for Making the Most out of a Special Enrollment Period',
-        paragraphs: [
-          'A Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No'],
-        listItems: [
-          'Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?',
-          'Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.',
-          'Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.',
-          'Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.',
-          'Was this article helpful ?',
-          'Yes (0)No'],
-      }],
-    relatedSlugs: ["medicare-special-enrollment-periods", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
-  },
+
   {
     slug: 'average-cost-of-medicare-supplement-plans',
     seo: {
@@ -595,29 +538,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       }],
     relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-news", "guide-to-retirement-planning"],
   },
-  {
-    slug: 'medicare-select',
-    seo: {
-      title: 'Medicare SELECT',
-      description: 'Medicare SELECT plans have low monthly premiums but have strict limits on doctors and hospitals you can visit. Weigh out your costs and benefits before deciding.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-select/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/what-is-medicare-select.jpg',
-    },
-    title: 'Medicare SELECT',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Mostly, my point was that the [Medigap select plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) are being marketed as a supplement unless you are smart enough to ask about the [preferred list of providers](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) you must use or have payment excluded. [Read the contract](/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan). Great article. I thought a supplement was a supplement covering the 20% until I found this article! Why BCBS in AL you ask. 1. Probably 95% of providers accept BCBS. 2. Checked on a Humana supplement G and some of my doctors did not participate. 3. The marketplace has nothing to do with Medicare to my knowledge but all insurers in AL have pulled out of that but BCBS. While others may sell insurance, they are not interested in providing a competitive market and may not cover a lot of counties. 4. Some of the Aetna policies in my area are underwritten by Continental Insurance in Brentwood, TN. Not good or bad just not Aetna. 5. In my mind if you buy a Medicare supplement it needs to be long term with a company that will be there and it does not need to be a select supplement PPO or HMO that if someone gets in the mix who is not a select or preferred provider then it is not covered. 6. I found a lot of complaints on Humana and United Healthcare. Valid or not I cannot say but where there is smoke…Note that some companies charge more for a Medigap Select than other for a full Medigap. Great site. Keep up the good work.'],
-      }],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-vs-medicare-advantage", "what-is-a-medicare-supplement-plan-and-who-needs-one", "choosing-a-medigap-policy"],
-  },
+
   {
     slug: 'medicare-braces-devices',
     seo: {

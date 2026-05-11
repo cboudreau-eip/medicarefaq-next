@@ -4169,7 +4169,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "See Details",
         coverageType: "partial",
         paragraphs: [
-          "**Summary:** Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a [qualifying life event](/faqs/special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage) to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage. **Estimated Read Time:** 16 mins"],
+          "**Summary:** Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a [qualifying life event](/faqs/medicare-special-enrollment-periods) to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage. **Estimated Read Time:** 16 mins"],
       },{
         planName: "Table of Contents:",
         icon: "shield",
@@ -4263,7 +4263,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "what-is-medicare-creditable-coverage", "medicare-part-b-late-enrollment-penalty", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "what-is-medicare-creditable-coverage", "medicare-part-b-late-enrollment-penalty"],
   },
   {
     slug: "medicare-advantage-open-enrollment-period",
@@ -4422,7 +4422,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["medicare-annual-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage"],
+    relatedSlugs: ["medicare-annual-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
   },
   {
     slug: "fehb-and-medicare",
@@ -5386,7 +5386,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage", "medicare-part-b-late-enrollment-penalty"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "medicare-part-b-late-enrollment-penalty"],
   },
 
   // ─── Does Medicare Cover a Biopsy ───────────────────────────────────────────
