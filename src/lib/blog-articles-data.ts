@@ -7225,6 +7225,8 @@ export const blogArticles: BlogArticleData[] = [
     author: "David Haass",
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
+    youtubeVideoId: "3jacRumiGNI",
+    youtubeVideoTitle: "How to Read Your Medicare Summary Notice in 2026",
     image: "https://images.unsplash.com/photo-1758691031749-607d43c14f63?w=800&h=500&fit=crop&q=85",
     imageAlt: "Elderly couple reviewing Medicare documents at home",
     tableOfContents: [

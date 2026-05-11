@@ -442,6 +442,33 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 </div>
               )}
 
+              {/* YouTube video embed */}
+              {article.youtubeVideoId && (
+                <div className="mb-8 rounded-xl overflow-hidden shadow-sm bg-black">
+                  <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                    <iframe
+                      className="absolute inset-0 w-full h-full"
+                      src={`https://www.youtube.com/embed/${article.youtubeVideoId}?rel=0`}
+                      title={article.youtubeVideoTitle || article.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                  {article.youtubeVideoTitle && (
+                    <div className="bg-[#1B2A4A] px-4 py-2 flex items-center justify-between">
+                      <span className="text-white text-sm font-medium">{article.youtubeVideoTitle}</span>
+                      <a
+                        href={`https://www.youtube.com/watch?v=${article.youtubeVideoId}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white/70 text-xs hover:text-white transition-colors"
+                      >
+                        Watch on YouTube
+                      </a>
+                    </div>
+                  )}
+                </div>
+              )}
               {/* Key takeaways */}
               {article.keyTakeaways && article.keyTakeaways.length > 0 && (
                 <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">
