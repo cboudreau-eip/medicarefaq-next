@@ -1623,7 +1623,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Medigap-Plan-Popularity-Why-Plan-G-Dominates-and-Whats-Happening-to-Plan-F.jpg',
     },
     title: 'Medigap Plan Popularity: Why Plan G Dominates and What’s Happening to Plan F',
-    summary: '',
+    summary: 'Plan F was once the most popular Medigap plan in the country. Federal law closed it to new enrollees in 2020, and Plan G has dominated the market ever since. Here is why the shift happened, what it means for your premiums, and whether Plan F is still worth keeping.',
     category: 'Medicare Supplements',
     dateUpdated: '',
     author: 'David Haass',
