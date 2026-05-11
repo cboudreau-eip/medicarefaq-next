@@ -990,9 +990,9 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'callout',
-        variant: 'info',
-        title: 'The Short Answer',
-        content: 'You can apply to change your Medigap plan anytime. But guaranteed approval (without underwriting) only applies during specific protected windows. Outside those windows, you may be denied or charged more based on your health.',
+        calloutType: 'info',
+        calloutTitle: 'The Short Answer',
+        calloutText: 'You can apply to change your Medigap plan anytime. But guaranteed approval (without underwriting) only applies during specific protected windows. Outside those windows, you may be denied or charged more based on your health.',
       },
       {
         type: 'heading',
@@ -1029,9 +1029,9 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'callout',
-        variant: 'warning',
-        title: 'Do Not Cancel Your Current Plan First',
-        content: 'Always get approved for your new Medigap plan before canceling your existing one. If your application is denied, you will still have your current coverage. Canceling first can leave you without any supplement coverage.',
+        calloutType: 'warning',
+        calloutTitle: 'Do Not Cancel Your Current Plan First',
+        calloutText: 'Always get approved for your new Medigap plan before canceling your existing one. If your application is denied, you will still have your current coverage. Canceling first can leave you without any supplement coverage.',
       },
       {
         type: 'heading',
@@ -1096,9 +1096,9 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'callout',
-        variant: 'tip',
-        title: 'Same Letter, Different Price',
-        content: 'All Plan G policies cover exactly the same benefits regardless of which insurer sells them. If your premium has increased, you can shop for a lower-priced Plan G from a different carrier without losing any benefits.',
+        calloutType: 'tip',
+        calloutTitle: 'Same Letter, Different Price',
+        calloutText: 'All Plan G policies cover exactly the same benefits regardless of which insurer sells them. If your premium has increased, you can shop for a lower-priced Plan G from a different carrier without losing any benefits.',
       },
       {
         type: 'heading',
