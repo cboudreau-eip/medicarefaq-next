@@ -469,50 +469,179 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
   {
     slug: 'who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules',
     seo: {
-      title: 'Who Can Speak on Your Behalf? Medicare and Power of Attorney Rules',
+      title: 'Who Can Speak on Your Behalf? Medicare and Power of Attorney Rules (2026)',
       description: 'Learn how Power of Attorney and Medicare authorized representative rules work. Understand how to protect your healthcare decisions and appoint someone to speak for you.',
       canonical: 'https://www.medicarefaq.com/faqs/who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Who-Can-Speak-on-Your-Behalf-Medicare-and-Power-of-Attorney-Rules.jpg',
     },
     title: 'Who Can Speak on Your Behalf? Medicare and Power of Attorney Rules',
-    summary: '',
+    summary: 'Medicare has specific rules about who can access your information and make decisions on your behalf. A Power of Attorney (POA) is a legal document, but Medicare also has its own authorized representative process. Understanding the difference -- and how to set up both -- can protect you and your family in a medical emergency.',
     category: 'Medicare FAQ',
-    dateUpdated: '',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '7 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph',
+        content: 'There may come a time when you need someone else to handle your Medicare coverage -- whether due to a medical emergency, cognitive decline, or simply the complexity of navigating insurance decisions. Medicare has specific rules about who can access your information and act on your behalf. A legal Power of Attorney (POA) is one tool, but Medicare also has its own separate authorized representative process. Knowing the difference between these two systems -- and how to set up both -- is one of the most important steps you can take to protect yourself and your family.',
       },
       {
-        heading: 'Why a Power of Attorney Matters When You’re on Medicare',
-        paragraphs: [
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Two Separate Systems',
+        calloutText: 'A **Power of Attorney** is a legal document recognized by state law. A **Medicare Authorized Representative** is a separate designation made directly with Medicare (CMS). You may need both -- a POA alone does not automatically give someone the ability to act on your behalf with Medicare.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'what-is-poa',
+        text: 'What Is a Power of Attorney?',
+      },
+      {
+        type: 'paragraph',
+        content: 'A **Power of Attorney (POA)** is a legal document in which you (the "principal") authorize another person (the "agent" or "attorney-in-fact") to act on your behalf in legal, financial, or medical matters. POA documents are governed by state law, meaning the requirements and scope vary by state. There are several types relevant to Medicare beneficiaries:',
+      },
+      {
+        type: 'table',
+        headers: ['POA Type', 'What It Covers', 'Does It Survive Incapacity?'],
+        rows: [
+          ['General Power of Attorney', 'Broad legal and financial decisions', 'No -- becomes invalid if you become incapacitated'],
+          ['Durable Power of Attorney', 'Broad legal and financial decisions', 'Yes -- remains valid even if you become incapacitated'],
+          ['Healthcare Power of Attorney (HCPOA)', 'Medical decisions only', 'Yes -- specifically designed for incapacity situations'],
+          ['Limited / Special Power of Attorney', 'Specific tasks only (e.g., signing one document)', 'Depends on the document'],
+        ],
+        footnote: 'For Medicare purposes, a Durable Power of Attorney or Healthcare Power of Attorney is most relevant. A general POA that lapses at incapacity is of limited use in a medical emergency.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'does-medicare-recognize-poa',
+        text: 'Does Medicare Recognize a Power of Attorney?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare (administered by CMS) does not automatically recognize a state-issued Power of Attorney as granting someone the right to access your Medicare account or make coverage decisions. Medicare has its own authorized representative system that operates separately from state POA laws. However, a valid POA document -- particularly a Durable POA or Healthcare POA -- can be submitted to Medicare as part of the authorized representative designation process.',
+      },
+      {
+        type: 'paragraph',
+        content: 'In practice, if someone presents a valid POA document to Medicare or a Medicare plan, the plan may accept it as evidence of authorization. But the safest approach is to formally designate the person as your Medicare Authorized Representative using the official CMS process.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'medicare-authorized-rep',
+        text: 'What Is a Medicare Authorized Representative?',
+      },
+      {
+        type: 'paragraph',
+        content: 'A **Medicare Authorized Representative** is someone you formally designate to act on your behalf with Medicare. Once designated, they can:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'File Medicare claims on your behalf',
+          'Request and receive information about your Medicare coverage',
+          'File appeals and grievances with Medicare',
+          'Enroll you in or disenroll you from Medicare Advantage or Part D plans',
+          'Speak with Medicare customer service on your behalf',
+          'Request a Medicare Summary Notice (MSN) or Explanation of Benefits',
         ],
       },
       {
-        heading: 'What is a POA and How Does it Work?',
-        paragraphs: [
+        type: 'paragraph',
+        content: 'An authorized representative **cannot** make medical treatment decisions on your behalf -- that requires a separate Healthcare Power of Attorney or advance directive. The authorized representative role is specifically about managing your Medicare insurance coverage and benefits.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-to-designate',
+        text: 'How to Designate a Medicare Authorized Representative',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '**Complete CMS Form 1696.** The official form is "Appointment of Representative" (CMS-1696). Both you and your representative must sign it. The form is available at cms.gov.',
+          '**Submit the form.** For Original Medicare matters, submit to your Medicare Administrative Contractor (MAC) or to 1-800-MEDICARE. For Medicare Advantage or Part D matters, submit directly to your plan.',
+          '**Provide supporting documentation if needed.** If you are incapacitated and cannot sign, a court-appointed guardian or someone with a valid Durable POA may be able to act on your behalf -- the plan or Medicare will review the legal documents.',
+          '**Confirm the designation.** Once processed, your representative should receive written confirmation. Keep a copy of the signed form.',
         ],
       },
       {
-        heading: 'Does Medicare Recognize the POA?',
-        paragraphs: [
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Do This Before a Crisis',
+        calloutText: 'The best time to designate an authorized representative is **before** you need one. If you wait until you are hospitalized or incapacitated, the process becomes significantly more complicated. Designating a representative now -- even if you are in good health -- is a simple step that can prevent major headaches for your family later.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'private-plans',
+        text: 'Medicare Advantage, Part D, and Medigap: Separate Authorization Rules',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you have a [Medicare Advantage plan](/faqs/medicare-advantage-vs-medicare-supplement), a [Part D plan](/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not), or a [Medigap policy](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one), each of those private insurers has its own process for recognizing an authorized representative. You will generally need to contact each plan separately and submit their required authorization form or a copy of your POA document. Do not assume that a designation with Medicare (CMS) automatically carries over to your private supplemental plans.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'advance-directives',
+        text: 'Advance Directives: The Medical Decision Layer',
+      },
+      {
+        type: 'paragraph',
+        content: 'For medical treatment decisions -- not just insurance management -- you need an **advance directive**. This is a separate legal document from a POA and from the Medicare authorized representative designation. Common advance directives include:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Living Will:** Documents your wishes about specific medical treatments (e.g., resuscitation, mechanical ventilation, artificial nutrition) if you cannot communicate',
+          '**Healthcare Power of Attorney (HCPOA) / Healthcare Proxy:** Names a specific person to make medical decisions for you if you are incapacitated',
+          '**POLST / MOLST Form:** A physician-signed medical order (not just a directive) specifying your treatment preferences; used in acute care settings',
         ],
       },
       {
-        heading: 'Appointing a Medicare Authorized Representative',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'If you want someone to not only access information but also make decisions on your behalf, such as selecting a new plan or handling billing issues, you’ll need to fill out a Medicare Authorization Representative form for certain services or work directly with private insurance carriers for supplemental plans likeMedigap PlansorMedicare Part C(Medicare Advantage).For those unfamiliar with the Medicare system, it’s important to know that Medicare is divided into parts,Original Medicareincludes Part A (hospital insurance) and Part B (medical insurance), and other options like Medigap and Medicare Advantage may involve private insurers. Each type of coverage may have its own rules for authorizing someone to act on your behalf. Knowing this can help you and your POA agent avoid delays or denied requests down the road.Was this article helpful ?Yes (0)No',
-          'For those unfamiliar with the Medicare system, it’s important to know that Medicare is divided into parts,Original Medicareincludes Part A (hospital insurance) and Part B (medical insurance), and other options like Medigap and Medicare Advantage may involve private insurers. Each type of coverage may have its own rules for authorizing someone to act on your behalf. Knowing this can help you and your POA agent avoid delays or denied requests down the road.Was this article helpful ?Yes (0)No'],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (0)No'],
-      }],
-    relatedSlugs: ["medicare-social-security-and-power-of-attorney", "how-can-i-get-medicare-for-my-mom-or-dad", "applying-for-medicare", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide"],
+        type: 'paragraph',
+        content: 'Medicare covers advance care planning conversations with your doctor as a preventive service. You can discuss and document your wishes during your [Annual Wellness Visit](/faqs/medicare-annual-wellness-visit) at no cost to you.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Can a family member access my Medicare information without formal authorization?',
+            answer: 'No. Medicare takes privacy seriously under HIPAA. Even a spouse or adult child cannot access your Medicare account or speak on your behalf without being formally designated as an authorized representative.',
+          },
+          {
+            question: 'Does a Durable Power of Attorney work for Medicare?',
+            answer: 'A Durable POA can be submitted as supporting documentation, but it is not automatically recognized by Medicare. The safest approach is to also complete CMS Form 1696 to formally designate your agent as a Medicare Authorized Representative.',
+          },
+          {
+            question: 'What happens if I become incapacitated and have no authorized representative?',
+            answer: 'Medicare may require a court-appointed guardian or conservator to act on your behalf. This process is time-consuming and expensive. Designating a representative in advance avoids this situation entirely.',
+          },
+          {
+            question: 'Can I designate different people for Medicare and for medical decisions?',
+            answer: 'Yes, and many people do. You might designate a financially savvy family member as your Medicare Authorized Representative for insurance matters, and a different trusted person as your Healthcare Power of Attorney for medical decisions.',
+          },
+          {
+            question: 'Does my Medicare Advantage plan need its own authorization form?',
+            answer: 'Yes. Private Medicare Advantage and Part D plans each have their own authorization process. Contact your plan directly to find out what documentation they require.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["applying-for-medicare", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide", "medicare-annual-wellness-visit", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
   {
     slug: 'medicare-history',
