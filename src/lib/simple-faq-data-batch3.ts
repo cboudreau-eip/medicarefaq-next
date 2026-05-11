@@ -475,7 +475,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Who-Can-Speak-on-Your-Behalf-Medicare-and-Power-of-Attorney-Rules.jpg',
     },
     title: 'Who Can Speak on Your Behalf? Medicare and Power of Attorney Rules',
-    summary: 'Medicare has specific rules about who can access your information and make decisions on your behalf. A Power of Attorney (POA) is a legal document, but Medicare also has its own authorized representative process. Understanding the difference -- and how to set up both -- can protect you and your family in a medical emergency.',
+    summary: 'Medicare has specific rules about who can access your information and make decisions on your behalf. A Power of Attorney (POA) is a legal document, but Medicare also has its own authorized representative process. Understanding the difference between the two, and how to set up both, can protect you and your family in a medical emergency.',
     category: 'Medicare FAQ',
     dateUpdated: 'May 11, 2026',
     author: 'David Haass',
@@ -485,13 +485,13 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     richSections: [
       {
         type: 'paragraph',
-        content: 'There may come a time when you need someone else to handle your Medicare coverage -- whether due to a medical emergency, cognitive decline, or simply the complexity of navigating insurance decisions. Medicare has specific rules about who can access your information and act on your behalf. A legal Power of Attorney (POA) is one tool, but Medicare also has its own separate authorized representative process. Knowing the difference between these two systems -- and how to set up both -- is one of the most important steps you can take to protect yourself and your family.',
+        content: 'There may come a time when you need someone else to handle your Medicare coverage, whether due to a medical emergency, cognitive decline, or simply the complexity of navigating insurance decisions. Medicare has specific rules about who can access your information and act on your behalf. A legal Power of Attorney (POA) is one tool, but Medicare also has its own separate authorized representative process. Knowing the difference between these two systems, and how to set up both, is one of the most important steps you can take to protect yourself and your family.',
       },
       {
         type: 'callout',
         calloutType: 'info',
         calloutTitle: 'Two Separate Systems',
-        calloutText: 'A **Power of Attorney** is a legal document recognized by state law. A **Medicare Authorized Representative** is a separate designation made directly with Medicare (CMS). You may need both -- a POA alone does not automatically give someone the ability to act on your behalf with Medicare.',
+        calloutText: 'A **Power of Attorney** is a legal document recognized by state law. A **Medicare Authorized Representative** is a separate designation made directly with Medicare (CMS). You may need both. A POA alone does not automatically give someone the ability to act on your behalf with Medicare.',
       },
       {
         type: 'heading',
@@ -507,9 +507,9 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         type: 'table',
         headers: ['POA Type', 'What It Covers', 'Does It Survive Incapacity?'],
         rows: [
-          ['General Power of Attorney', 'Broad legal and financial decisions', 'No -- becomes invalid if you become incapacitated'],
-          ['Durable Power of Attorney', 'Broad legal and financial decisions', 'Yes -- remains valid even if you become incapacitated'],
-          ['Healthcare Power of Attorney (HCPOA)', 'Medical decisions only', 'Yes -- specifically designed for incapacity situations'],
+          ['General Power of Attorney', 'Broad legal and financial decisions', 'No: becomes invalid if you become incapacitated'],
+          ['Durable Power of Attorney', 'Broad legal and financial decisions', 'Yes: remains valid even if you become incapacitated'],
+          ['Healthcare Power of Attorney (HCPOA)', 'Medical decisions only', 'Yes: specifically designed for incapacity situations'],
           ['Limited / Special Power of Attorney', 'Specific tasks only (e.g., signing one document)', 'Depends on the document'],
         ],
         footnote: 'For Medicare purposes, a Durable Power of Attorney or Healthcare Power of Attorney is most relevant. A general POA that lapses at incapacity is of limited use in a medical emergency.',
@@ -522,7 +522,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       },
       {
         type: 'paragraph',
-        content: 'Medicare (administered by CMS) does not automatically recognize a state-issued Power of Attorney as granting someone the right to access your Medicare account or make coverage decisions. Medicare has its own authorized representative system that operates separately from state POA laws. However, a valid POA document -- particularly a Durable POA or Healthcare POA -- can be submitted to Medicare as part of the authorized representative designation process.',
+        content: 'Medicare (administered by CMS) does not automatically recognize a state-issued Power of Attorney as granting someone the right to access your Medicare account or make coverage decisions. Medicare has its own authorized representative system that operates separately from state POA laws. However, a valid POA document, particularly a Durable POA or Healthcare POA, can be submitted to Medicare as part of the authorized representative designation process.',
       },
       {
         type: 'paragraph',
@@ -552,7 +552,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       },
       {
         type: 'paragraph',
-        content: 'An authorized representative **cannot** make medical treatment decisions on your behalf -- that requires a separate Healthcare Power of Attorney or advance directive. The authorized representative role is specifically about managing your Medicare insurance coverage and benefits.',
+        content: 'An authorized representative **cannot** make medical treatment decisions on your behalf. That requires a separate Healthcare Power of Attorney or advance directive. The authorized representative role is specifically about managing your Medicare insurance coverage and benefits.',
       },
       {
         type: 'heading',
@@ -566,7 +566,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         items: [
           '**Complete CMS Form 1696.** The official form is "Appointment of Representative" (CMS-1696). Both you and your representative must sign it. The form is available at cms.gov.',
           '**Submit the form.** For Original Medicare matters, submit to your Medicare Administrative Contractor (MAC) or to 1-800-MEDICARE. For Medicare Advantage or Part D matters, submit directly to your plan.',
-          '**Provide supporting documentation if needed.** If you are incapacitated and cannot sign, a court-appointed guardian or someone with a valid Durable POA may be able to act on your behalf -- the plan or Medicare will review the legal documents.',
+          '**Provide supporting documentation if needed.** If you are incapacitated and cannot sign, a court-appointed guardian or someone with a valid Durable POA may be able to act on your behalf. The plan or Medicare will review the legal documents.',
           '**Confirm the designation.** Once processed, your representative should receive written confirmation. Keep a copy of the signed form.',
         ],
       },
@@ -574,7 +574,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         type: 'callout',
         calloutType: 'tip',
         calloutTitle: 'Do This Before a Crisis',
-        calloutText: 'The best time to designate an authorized representative is **before** you need one. If you wait until you are hospitalized or incapacitated, the process becomes significantly more complicated. Designating a representative now -- even if you are in good health -- is a simple step that can prevent major headaches for your family later.',
+        calloutText: 'The best time to designate an authorized representative is **before** you need one. If you wait until you are hospitalized or incapacitated, the process becomes significantly more complicated. Designating a representative now, even if you are in good health, is a simple step that can prevent major headaches for your family later.',
       },
       {
         type: 'heading',
@@ -594,7 +594,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       },
       {
         type: 'paragraph',
-        content: 'For medical treatment decisions -- not just insurance management -- you need an **advance directive**. This is a separate legal document from a POA and from the Medicare authorized representative designation. Common advance directives include:',
+        content: 'For medical treatment decisions, not just insurance management, you need an **advance directive**. This is a separate legal document from a POA and from the Medicare authorized representative designation. Common advance directives include:',
       },
       {
         type: 'list',
