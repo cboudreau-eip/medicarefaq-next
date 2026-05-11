@@ -59,31 +59,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-parts-a-b-c-and-d-explained-simply", "understanding-how-medicare-works-with-employer-health-plans", "medigap-vs-medicare-advantage"],
   },
   {
-    slug: 'medicare-and-wound-care-coverage',
-    seo: {
-      title: 'Medicare Coverage for Wound Care and Supplies',
-      description: 'Medicare will cover wound care, both in an inpatient and outpatient setting. Find out how much Medicare will cover for treatment and supplies.',
-      canonical: 'https://www.medicarefaq.com/faqs/medicare-and-wound-care-coverage/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-wound-care-and-supplies.jpg',
-    },
-    title: 'Medicare Coverage for Wound Care and Supplies',
-    summary: '',
-    category: 'Medicare FAQ',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'My dad needs his [wound bandage changed daily](/faqs/durable-medical-equipment) as instructed by his Doctor. He is at home and Medicare says they will only pay for 3 days a week. If the doctor says it needs to be changed daily why won’t Medicare pay? He has [Medicare Part A + B](/blog/medicare-parts-a-b-c-and-d-explained-simply)',
-        ],
-      },
-    ],
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-in-home-caregivers", "how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-stroke-victims"],
-  },
-  {
     slug: 'is-medicare-mandatory',
     seo: {
       title: 'Is Medicare Mandatory?',
