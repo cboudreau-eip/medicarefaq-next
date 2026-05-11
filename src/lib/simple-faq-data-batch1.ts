@@ -225,58 +225,219 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-and-prescription-drugs-whats-covered-and-whats-not',
     seo: {
-      title: 'Medicare and Prescription Drugs: What’s Covered and What’s Not?',
-      description: 'Find out which prescription drugs are covered by Medicare Parts B and D, what’s excluded, and how to get help affording medications.',
+      title: 'Medicare and Prescription Drugs: What Is Covered and What Is Not? (2026)',
+      description: 'Find out which prescription drugs are covered by Medicare Parts B and D in 2026, including the new $2,000 out-of-pocket cap, what is excluded, and how to get help affording medications.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-and-prescription-drugs-whats-covered-and-whats-not/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Medicare-and-Prescription-Drugs-Whats-Covered-and-Whats-Not.jpg',
+      ogImage: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1200&auto=format&fit=crop&q=80',
     },
-    title: 'Medicare and Prescription Drugs: What’s Covered and What’s Not?',
-    summary: '',
+    title: 'Medicare and Prescription Drugs: What Is Covered and What Is Not?',
+    summary: 'Medicare covers prescription drugs through two separate pathways: Part B for drugs administered in a clinical setting, and Part D for most outpatient medications. In 2026, a landmark change caps your annual out-of-pocket drug costs at $2,000. This guide explains how both pathways work, what is excluded, and how to get help if your drug is not covered.',
     category: 'Prescription Drugs',
-    dateUpdated: '',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '8 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph',
+        content: 'Medicare covers prescription drugs, but not through a single unified benefit. Coverage is split between **Part B** (for drugs administered in a clinical setting) and **Part D** (for most outpatient medications you pick up at a pharmacy). Understanding which part applies to your situation -- and what each one costs -- is essential for managing your healthcare budget in 2026.',
       },
       {
-        heading: 'Medicare Part B Covers Some Prescription Drugs in Certain Circumstances',
-        paragraphs: [
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Major 2026 Change: $2,000 Out-of-Pocket Cap',
+        calloutText: 'Starting January 1, 2026, the Inflation Reduction Act eliminated the Part D coverage gap ("donut hole") and replaced the old catastrophic threshold with a hard **$2,000 annual out-of-pocket cap** on covered Part D drugs. Once you spend $2,000 on covered drugs in a plan year, your plan pays 100% for the rest of the year.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'part-b-drug-coverage',
+        text: 'Medicare Part B Covers Some Prescription Drugs in Certain Circumstances',
+      },
+      {
+        type: 'paragraph',
+        content: '**Medicare Part B** covers drugs that are administered by a healthcare provider in a clinical setting, not drugs you self-administer at home. Part B drug coverage is built into your standard Part B benefit -- there is no separate enrollment required.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Common examples of drugs covered under Part B include:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Chemotherapy** drugs administered in a doctor\'s office or outpatient hospital setting',
+          '**Injectable drugs** given during a covered medical procedure (such as certain biologics and immunosuppressants)',
+          '**Vaccines** including the flu shot, pneumococcal vaccine, hepatitis B vaccine (for at-risk individuals), and COVID-19 vaccines',
+          '**Drugs used with durable medical equipment** such as nebulizer medications and insulin used with an insulin pump',
+          '**Certain oral cancer drugs** that have the same active ingredient as an injectable drug covered by Part B',
+          '**Osteoporosis drugs** injected by a home health nurse after a fracture in certain circumstances',
         ],
       },
       {
-        heading: 'Medicare Part D Covers Most Outpatient Prescription Drugs',
-        paragraphs: [
+        type: 'paragraph',
+        content: 'For Part B drugs, you typically pay **20% coinsurance** after meeting your Part B deductible ($283 in 2026), and there is no out-of-pocket maximum under Original Medicare unless you have a [Medicare Supplement plan](/faqs/what-is-the-best-medicare-supplement-plan). Learn more about [why some drugs are covered under Part B instead of Part D](/blog/why-some-drugs-are-covered-under-part-b-instead-of-part-d).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'part-d-drug-coverage',
+        text: 'Medicare Part D Covers Most Outpatient Prescription Drugs',
+      },
+      {
+        type: 'paragraph',
+        content: '**Medicare Part D** is the prescription drug benefit that covers most medications you pick up at a pharmacy. Part D plans are offered by private insurance companies approved by Medicare. You can add a standalone Part D plan to Original Medicare, or get drug coverage bundled into a [Medicare Advantage plan](/faqs/mapd-vs-part-d).',
+      },
+      {
+        type: 'heading',
+        level: 3,
+        id: 'part-d-costs-2026',
+        text: '2026 Part D Cost Structure',
+      },
+      {
+        type: 'table',
+        headers: ['Cost Element', '2026 Amount', 'Notes'],
+        rows: [
+          ['Average monthly premium', '$34.50', 'Varies by plan; higher-income beneficiaries pay an IRMAA surcharge of $14.50 to $91.00/month on top of the plan premium'],
+          ['Maximum annual deductible', '$615', 'Some plans have a $0 deductible; applies before the plan starts sharing costs for Tier 3+ drugs'],
+          ['Initial coverage phase', 'Copays or coinsurance per drug tier', 'You pay your share until combined out-of-pocket spending reaches $2,000'],
+          ['Out-of-pocket cap', '$2,000', 'New in 2026 -- once you hit $2,000, the plan pays 100% for covered drugs for the rest of the year'],
+          ['Medicare Prescription Payment Plan', 'Optional monthly installments', 'Allows you to spread your out-of-pocket costs evenly across the year instead of paying large amounts upfront'],
+        ],
+        footnote: '2026 figures per CMS. The $2,000 cap applies to covered Part D drugs only; non-formulary drugs and drugs excluded by Medicare do not count toward the cap.',
+      },
+      {
+        type: 'heading',
+        level: 3,
+        id: 'formularies',
+        text: 'How Part D Formularies Work',
+      },
+      {
+        type: 'paragraph',
+        content: 'Every Part D plan maintains a **formulary** -- a list of covered drugs organized into tiers. Lower tiers (generics and preferred drugs) have lower cost-sharing; higher tiers (brand-name and specialty drugs) cost more. Plans must cover at least two drugs in each therapeutic category, and they must cover all drugs in six protected classes: antidepressants, antipsychotics, anticonvulsants, antiretrovirals, immunosuppressants, and antineoplastics.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Formularies can change from year to year. If your plan drops a drug you take or moves it to a higher tier, you will receive notice and may be able to request an exception. Learn more about [how Part D formularies work](/faqs/part-d-formulary).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'what-medicare-does-not-cover',
+        text: 'What Medicare Does Not Cover',
+      },
+      {
+        type: 'paragraph',
+        content: 'Even with both Part B and Part D, there are categories of drugs that Medicare does not cover under any circumstances:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Over-the-counter (OTC) drugs** such as aspirin, antacids, and cold medicines (even if prescribed by a doctor)',
+          '**Weight loss drugs** prescribed solely for weight management (though some plans may cover GLP-1 drugs for diabetes or heart disease indications)',
+          '**Fertility drugs** and medications used for cosmetic purposes',
+          '**Drugs used to treat erectile dysfunction** (though some Medicare Advantage plans may offer this as a supplemental benefit)',
+          '**Vitamins and supplements** unless used as part of a covered treatment (such as certain prenatal vitamins)',
+          '**Drugs not approved by the FDA** or drugs used off-label for a non-covered indication',
+          '**Drugs covered under Part A or Part B** -- these cannot also be billed to Part D',
         ],
       },
       {
-        heading: 'What Medicare Does not Cover',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'heading',
+        level: 2,
+        id: 'drug-not-covered',
+        text: 'What if My Drug Is Not Covered?',
       },
       {
-        heading: 'What if My Drug Isn’t Covered?',
-        paragraphs: [
+        type: 'paragraph',
+        content: 'If your medication is not on your plan\'s formulary, you have several options:',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '**Request a formulary exception.** Ask your doctor to submit a coverage determination request to your plan. If the plan denies it, you can appeal.',
+          '**Ask about a therapeutic alternative.** Your plan may cover a similar drug in the same class at a lower tier. Your doctor can prescribe the covered alternative.',
+          '**Switch plans during the Annual Enrollment Period.** Each fall (October 15 to December 7), you can switch to a Part D plan that covers your specific medications.',
+          '**Use the Medicare Prescription Payment Plan.** If your drug is covered but expensive, this program lets you spread your out-of-pocket costs in monthly installments rather than paying large amounts at once.',
+          '**Apply for Extra Help (Low-Income Subsidy).** If you qualify, Extra Help significantly reduces your premiums, deductibles, and copays.',
         ],
       },
       {
-        heading: 'The Role of Medicare Advantage Plans',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Use the Medicare Plan Finder',
+        calloutText: 'At Medicare.gov/plan-compare, you can enter your specific medications and find Part D plans in your area that cover them -- and compare your estimated annual costs side by side.',
       },
       {
-        heading: 'Help is Available: The Low-Income Subsidy (LIS)',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (0)No'],
-      }],
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary", "how-can-seniors-save-on-prescription-drug-costs"],
+        type: 'heading',
+        level: 2,
+        id: 'medicare-advantage-drugs',
+        text: 'The Role of Medicare Advantage Plans',
+      },
+      {
+        type: 'paragraph',
+        content: 'Most **Medicare Advantage (Part C)** plans include prescription drug coverage (MAPD plans). These plans follow the same basic Part D rules -- including the $2,000 out-of-pocket cap -- but each plan has its own formulary, cost-sharing structure, and pharmacy network. Some Medicare Advantage plans also offer supplemental benefits that standalone Part D plans do not, such as coverage for certain OTC items or reduced cost-sharing on specific drug tiers.',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you have a Medicare Advantage plan without drug coverage (PFFS or MSA plans), you can enroll in a standalone Part D plan. However, if your Medicare Advantage plan includes drug coverage, you generally cannot also enroll in a separate Part D plan. Read more about [MAPD vs. standalone Part D](/faqs/mapd-vs-part-d).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'extra-help',
+        text: 'Help Is Available: Extra Help (Low-Income Subsidy)',
+      },
+      {
+        type: 'paragraph',
+        content: '**Extra Help** (also called the Low-Income Subsidy, or LIS) is a federal program that helps people with limited income and resources pay for Part D costs. In 2025, the income limit was approximately $23,475 for individuals and $31,725 for married couples, with resource limits of $17,600 and $35,130 respectively. (2026 limits are typically announced mid-year.)',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you qualify for Extra Help, you may pay little or nothing for your monthly Part D premium, have no deductible, and pay only small copays for each prescription. You can apply for Extra Help through Social Security at ssa.gov or by calling 1-800-772-1213. Learn more about the [Medicare Extra Help program](/faqs/medicare-extra-help-program).',
+      },
+      {
+        type: 'callout',
+        calloutType: 'success',
+        calloutTitle: 'Automatically Qualify for Extra Help',
+        calloutText: 'If you receive Medicaid, Supplemental Security Income (SSI), or participate in a Medicare Savings Program, you automatically qualify for Extra Help and do not need to apply separately.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Does Original Medicare cover prescription drugs?',
+            answer: 'Original Medicare (Parts A and B) covers a limited set of drugs administered in clinical settings under Part B. It does not cover most outpatient prescription drugs. You need to add a Part D plan for that coverage.',
+          },
+          {
+            question: 'What is the 2026 Part D out-of-pocket cap?',
+            answer: 'In 2026, the maximum you will pay out of pocket for covered Part D drugs is $2,000. After reaching that amount, your plan covers 100% of the cost for covered drugs for the rest of the calendar year.',
+          },
+          {
+            question: 'What is the Medicare Prescription Payment Plan?',
+            answer: 'The Medicare Prescription Payment Plan (M3P) lets you spread your Part D out-of-pocket costs into equal monthly payments throughout the year, rather than paying large amounts upfront when you fill expensive prescriptions.',
+          },
+          {
+            question: 'Can I use a manufacturer coupon with Medicare Part D?',
+            answer: 'Generally no. Manufacturer coupons and discount cards cannot be used for drugs covered by Medicare Part D. Using them could be considered a kickback under federal law. GoodRx and similar discount programs also cannot be used in combination with Part D for the same prescription.',
+          },
+          {
+            question: 'What are the six protected drug classes under Part D?',
+            answer: 'Medicare requires all Part D plans to cover substantially all drugs in six protected classes: antidepressants, antipsychotics, anticonvulsants, antiretrovirals (HIV medications), immunosuppressants, and antineoplastics (cancer drugs). This protects beneficiaries who depend on these medications from being unable to find a plan that covers them.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary", "how-can-seniors-save-on-prescription-drug-costs", "medicare-extra-help-program", "mapd-vs-part-d"],
   },
   {
     slug: 'medicare-special-enrollment-periods',
