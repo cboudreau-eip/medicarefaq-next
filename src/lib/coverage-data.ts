@@ -29661,7 +29661,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/do-i-really-need-supplemental-insurance-with-medicare.jpg",
     },
     title: "Do I Really Need Supplemental Insurance with Medicare?",
-    subtitle: "What Original Medicare Leaves Uncovered — and How to Decide if a Supplement is Worth It",
+    subtitle: "What Original Medicare Leaves Uncovered, and How to Decide if a Supplement is Worth It",
     category: "Medicare Supplements",
     dateUpdated: "April 30, 2026",
     author: {
@@ -29678,7 +29678,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "8 min read",
     quickAnswer: {
-      text: "Original Medicare (Parts A and B) covers a wide range of medical services, but it leaves significant gaps — including a 20% coinsurance on all Part B services with no out-of-pocket maximum, hospital deductibles, and no coverage for dental, vision, or hearing. Without supplemental coverage, a serious illness or hospitalization can result in thousands of dollars in out-of-pocket costs. Most Medicare beneficiaries benefit from some form of supplemental coverage — either a Medigap plan, a Medicare Advantage plan, or Medicaid for those who qualify.",
+      text: "Original Medicare (Parts A and B) covers a wide range of medical services, but it leaves significant gaps, including a 20% coinsurance on all Part B services with no out-of-pocket maximum, hospital deductibles, and no coverage for dental, vision, or hearing. Without supplemental coverage, a serious illness or hospitalization can result in thousands of dollars in out-of-pocket costs. Most Medicare beneficiaries benefit from some form of supplemental coverage, either a Medigap plan, a Medicare Advantage plan, or Medicaid for those who qualify.",
       badges: [
         { plan: "Part A", status: "partial" },
         { plan: "Part B", status: "partial" },
@@ -29698,12 +29698,12 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Significant Gaps in Coverage",
         coverageType: "partial",
         paragraphs: [
-          "Original Medicare (Parts A and B) covers most medically necessary hospital and medical services, but it has several significant gaps that can lead to large out-of-pocket costs. The most important gap is the lack of an out-of-pocket maximum — unlike private insurance, Original Medicare has no cap on what you can owe in a given year. If you have a serious illness requiring extended hospital stays and ongoing treatment, your costs can accumulate without limit.",
+          "Original Medicare (Parts A and B) covers most medically necessary hospital and medical services, but it has several significant gaps that can lead to large out-of-pocket costs. The most important gap is the lack of an out-of-pocket maximum. Unlike private insurance, Original Medicare has no cap on what you can owe in a given year. If you have a serious illness requiring extended hospital stays and ongoing treatment, your costs can accumulate without limit.",
           "Part B charges a 20% coinsurance on all covered services after the annual deductible ($257 in 2026). There is no cap on this 20%. A $100,000 surgery, for example, would leave you responsible for $20,000 in coinsurance under Original Medicare alone. Part A has its own deductible ($1,676 per benefit period in 2026) and daily coinsurance for extended hospital stays."],
         whatItCovers: [
           "Part A deductible: $1,676 per benefit period in 2026",
           "Part B deductible: $257 per year in 2026",
-          "Part B coinsurance: 20% of all covered services — no annual cap",
+          "Part B coinsurance: 20% of all covered services (no annual cap)",
           "Hospital coinsurance: $419/day for days 61–90; $838/day for lifetime reserve days",
           "Skilled nursing facility coinsurance: $209.50/day for days 21–100",
           "No coverage for dental, vision, hearing, or routine foot care",
@@ -29716,7 +29716,7 @@ export const coverageArticles: CoverageArticleData[] = [
         callout: {
           type: "warning",
           title: "No Out-of-Pocket Maximum is a Major Risk",
-          text: "The single biggest financial risk of Original Medicare alone is the absence of an out-of-pocket maximum. A serious illness — cancer, heart disease, a major surgery — can result in tens of thousands of dollars in 20% coinsurance charges. Supplemental coverage eliminates or caps this risk.",
+          text: "The single biggest financial risk of Original Medicare alone is the absence of an out-of-pocket maximum. A serious illness such as cancer, heart disease, or a major surgery can result in tens of thousands of dollars in 20% coinsurance charges. Supplemental coverage eliminates or caps this risk.",
         },
         costNote: "$ Example: A $50,000 hospitalization + $100,000 in Part B services = $20,000+ in out-of-pocket costs under Original Medicare alone, with no cap.",
       },
@@ -29724,20 +29724,20 @@ export const coverageArticles: CoverageArticleData[] = [
         planName: "Option 1: Original Medicare ++ Medigap",
         icon: "Shield",
         iconColor: "text-teal-600",
-        coverageLabel: "Fills Most or All Gaps — Predictable Costs",
+        coverageLabel: "Fills Most or All Gaps: Predictable Costs",
         coverageType: "covered",
         paragraphs: [
           "A Medicare Supplement (Medigap) plan works alongside Original Medicare to cover most or all of the cost-sharing gaps. The most popular option is Plan G, which covers the Part A deductible, all Part B coinsurance (after the Part B deductible), skilled nursing facility coinsurance, and foreign travel emergency coverage. With Plan G, your only predictable out-of-pocket cost is the annual Part B deductible ($257 in 2026).",
-          "Medigap plans are sold by private insurance companies but are standardized by the federal government — Plan G covers the same benefits regardless of which company you buy it from. Premiums vary by carrier, age, location, and pricing method. In 2026, Plan G premiums typically range from $100–$250/month depending on your age and location. You also need a separate Part D plan for prescription drugs."],
+          "Medigap plans are sold by private insurance companies but are standardized by the federal government. Plan G covers the same benefits regardless of which company you buy it from. Premiums vary by carrier, age, location, and pricing method. In 2026, Plan G premiums typically range from $100 to $250/month depending on your age and location. You also need a separate Part D plan for prescription drugs."],
         whatItCovers: [
           "Plan G: covers Part A deductible, all Part B coinsurance, SNF coinsurance, foreign travel emergency",
-          "Plan N: covers most gaps with small copays ($20 at doctor visits, $50 at ER) — lower premium than Plan G",
-          "Freedom to see any Medicare-accepting provider nationwide — no network restrictions",
+          "Plan N: covers most gaps with small copays ($20 at doctor visits, $50 at ER); lower premium than Plan G",
+          "Freedom to see any Medicare-accepting provider nationwide with no network restrictions",
           "Predictable monthly premium with minimal unexpected costs",
           "No prior authorization requirements for Medicare-covered services"],
         whatItDoesntCover: [
           "Medigap does not cover dental, vision, hearing, or long-term care",
-          "Medigap does not include prescription drug coverage — you need a separate Part D plan",
+          "Medigap does not include prescription drug coverage; you need a separate Part D plan",
           "Medigap premiums increase over time (especially with attained-age pricing)"],
         callout: {
           type: "tip",
@@ -29750,7 +29750,7 @@ export const coverageArticles: CoverageArticleData[] = [
         planName: "Option 2: Medicare Advantage (Part C)",
         icon: "Star",
         iconColor: "text-blue-600",
-        coverageLabel: "All-in-One Alternative — Network Restrictions Apply",
+        coverageLabel: "All-in-One Alternative: Network Restrictions Apply",
         coverageType: "covered",
         paragraphs: [
           "Medicare Advantage (Part C) is an alternative to Original Medicare + Medigap. Instead of filling gaps in Original Medicare, Medicare Advantage replaces Original Medicare entirely with a private insurance plan. All Medicare Advantage plans must cover everything Original Medicare covers, and most include prescription drug coverage (MAPD plans), plus extra benefits like dental, vision, hearing, and fitness memberships.",
@@ -29762,10 +29762,10 @@ export const coverageArticles: CoverageArticleData[] = [
           "Extra benefits: dental, vision, hearing, fitness, transportation (varies by plan)",
           "Often $0 monthly premium beyond the Part B premium"],
         whatItDoesntCover: [
-          "Network restrictions — you must use in-network providers for the lowest costs",
+          "Network restrictions: you must use in-network providers for the lowest costs",
           "Prior authorization may be required for some services",
           "Out-of-network costs can be high in HMO plans",
-          "Plans change annually — benefits and networks can shift each year"],
+          "Plans change annually; benefits and networks can shift each year"],
         callout: {
           type: "info",
           title: "Medicare Advantage vs. Medigap: The Core Trade-Off",
@@ -29789,24 +29789,24 @@ export const coverageArticles: CoverageArticleData[] = [
       items: [
         {
           title: "Dual-Eligible Beneficiaries (Medicare ++ Medicaid)",
-          text: "If you qualify for both Medicare and Medicaid, Medicaid typically covers most or all of Medicare's cost-sharing — including deductibles, coinsurance, and copays. You may not need a separate Medigap plan or Medicare Advantage plan. Contact your state Medicaid office to understand what is covered in your state.",
-          highlight: "Medicaid can cover Medicare's gaps for low-income beneficiaries — a separate Medigap plan may not be needed",
+          text: "If you qualify for both Medicare and Medicaid, Medicaid typically covers most or all of Medicare's cost-sharing, including deductibles, coinsurance, and copays. You may not need a separate Medigap plan or Medicare Advantage plan. Contact your state Medicaid office to understand what is covered in your state.",
+          highlight: "Medicaid can cover Medicare's gaps for low-income beneficiaries. A separate Medigap plan may not be needed",
         },
         {
           title: "Veterans with VA Benefits",
           text: "Veterans who receive healthcare through the VA may have most of their medical needs covered without a Medigap plan. However, VA coverage is limited to VA facilities and VA-approved providers. A Medigap or Medicare Advantage plan can provide coverage when VA care is not accessible or for non-VA providers.",
-          highlight: "VA benefits cover care at VA facilities — a supplement may still be useful for non-VA providers",
+          highlight: "VA benefits cover care at VA facilities. A supplement may still be useful for non-VA providers",
         },
         {
           title: "Healthy Beneficiaries with Limited Budgets",
-          text: "If you are in excellent health, rarely use medical services, and have significant savings to cover unexpected costs, you might choose to go without supplemental coverage — especially if you enroll in Original Medicare only and self-insure against the 20% coinsurance risk. However, this strategy carries significant financial risk if a serious illness occurs. Most financial advisors recommend at least a Medicare Advantage plan for its out-of-pocket maximum protection.",
-          highlight: "Going without supplemental coverage is a high-risk strategy — even healthy people can face sudden, expensive medical events",
+          text: "If you are in excellent health, rarely use medical services, and have significant savings to cover unexpected costs, you might choose to go without supplemental coverage, especially if you enroll in Original Medicare only and self-insure against the 20% coinsurance risk. However, this strategy carries significant financial risk if a serious illness occurs. Most financial advisors recommend at least a Medicare Advantage plan for its out-of-pocket maximum protection.",
+          highlight: "Going without supplemental coverage is a high-risk strategy. Even healthy people can face sudden, expensive medical events",
         }],
     },
     faqs: [
       {
         question: "Is Medicare Supplemental Insurance Worth It?",
-        answer: "For most Medicare beneficiaries, yes. Original Medicare has no out-of-pocket maximum, meaning a serious illness can result in tens of thousands of dollars in costs. Supplemental coverage — either Medigap or Medicare Advantage — caps your financial exposure. Whether Medigap or Medicare Advantage is the better value depends on your health, budget, preferred doctors, and how much you value predictability vs. lower premiums.",
+        answer: "For most Medicare beneficiaries, yes. Original Medicare has no out-of-pocket maximum, meaning a serious illness can result in tens of thousands of dollars in costs. Supplemental coverage, either Medigap or Medicare Advantage, caps your financial exposure. Whether Medigap or Medicare Advantage is the better value depends on your health, budget, preferred doctors, and how much you value predictability vs. lower premiums.",
       },
       {
         question: "What happens if I don't get a Medicare supplement?",
@@ -29822,19 +29822,19 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Do I need a Medicare supplement if I'm healthy?",
-        answer: "Even if you are currently healthy, supplemental coverage protects you against unexpected medical events. A single serious diagnosis — cancer, a heart attack, a major accident — can result in enormous costs under Original Medicare alone. Most financial advisors recommend at least a Medicare Advantage plan for its out-of-pocket maximum, regardless of current health status.",
+        answer: "Even if you are currently healthy, supplemental coverage protects you against unexpected medical events. A single serious diagnosis such as cancer, a heart attack, or a major accident can result in enormous costs under Original Medicare alone. Most financial advisors recommend at least a Medicare Advantage plan for its out-of-pocket maximum, regardless of current health status.",
       },
       {
         question: "When Should I Enroll in a Medicare Supplement Plan?",
-        answer: "The best time to enroll in a Medigap plan is during your Medigap Open Enrollment Period — the 6-month window that starts when you turn 65 and enroll in Part B. During this window, you have guaranteed issue rights and cannot be denied or charged more for pre-existing conditions. Waiting until after your OEP means you may face medical underwriting, which can result in denial or higher premiums.",
+        answer: "The best time to enroll in a Medigap plan is during your Medigap Open Enrollment Period, the 6-month window that starts when you turn 65 and enroll in Part B. During this window, you have guaranteed issue rights and cannot be denied or charged more for pre-existing conditions. Waiting until after your OEP means you may face medical underwriting, which can result in denial or higher premiums.",
       }],
     quickReference: [
-      { icon: "alert", text: "Original Medicare has NO out-of-pocket maximum — serious illness can cost $10,000–$50,000+" },
-      { icon: "check", text: "Plan G covers nearly all gaps — only out-of-pocket cost is the $257 Part B deductible" },
+      { icon: "alert", text: "Original Medicare has NO out-of-pocket maximum. Serious illness can cost $10,000 to $50,000 or more" },
+      { icon: "check", text: "Plan G covers nearly all gaps. The only out-of-pocket cost is the $257 Part B deductible" },
       { icon: "check", text: "Medicare Advantage caps out-of-pocket costs at $9,350 in-network (2026)" },
       { icon: "info", text: "Medigap = more predictable costs + no networks; MA = lower premiums + extra benefits" },
       { icon: "info", text: "Dual-eligible (Medicare + Medicaid) beneficiaries may not need a separate supplement" },
-      { icon: "alert", text: "Enroll in Medigap during your OEP — waiting means medical underwriting in most states" },
+      { icon: "alert", text: "Enroll in Medigap during your OEP. Waiting means medical underwriting in most states" },
       { icon: "dollar", text: "Plan G: ~$100–$250/month. Medicare Advantage: often $0/month beyond Part B premium" }],
     relatedTopics: [
       { title: "Best Medicare Supplement Plans for 2026", description: "Compare Plan G, Plan N, and other top Medigap options to find the right coverage level.", slug: "what-is-the-best-medicare-supplement-plan" },
