@@ -25188,7 +25188,6 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "Medigap Plan K/L have OOP caps: $7,220 and $3,610 in 2026" },
       { icon: "info", text: "Medigap cannot be used with Medicare Advantage" }],
     relatedTopics: [
-      { title: "Hospital Indemnity Insurance", description: "How hospital indemnity plans supplement Medicare.", slug:},
       { title: "Deductible vs. Copay vs. Coinsurance vs. Premium", description: "Plain-English definitions of Medicare cost terms.", slug: "deductible-copay-coinsurance-premium" },
       { title: "Medicare Maximum Out-of-Pocket", description: "How OOP limits work in Medicare Advantage.", slug: "medicare-maximum-out-of-pocket" },
       { title: "What is a Medicare Supplement Plan?", description: "Overview of Medigap plans and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" }],
