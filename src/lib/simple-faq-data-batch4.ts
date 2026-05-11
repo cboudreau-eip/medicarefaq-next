@@ -1629,64 +1629,71 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-      },
-      {
-        heading: 'Why Plan F Used to be the Most Popular Medigap Plan',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'The Impact of MACRA: Why Plan F Closed to New Enrollees',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Why Medigap Plan G Became the Go-To Choice after 2020',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Premium Trends: Why Plan F is Becoming More Expensive',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-      },
-      {
-        heading: 'Benefit Comparison: Plan G vs. Plan F',
-        paragraphs: [
-        ],
-        listItems: [
-          'Medicare Part A coinsurance and hospital costs',
-          'Medicare Part B coinsurance or copayment',
-          'Blood (first 3 pints)',
-          'Part A hospice care coinsurance or copayment',
-          'Skilled nursing facilitycare coinsurance',
-          'Part A deductible',
-          'Part B excess charges',
-          'Foreign travel emergency (up to plan limits)'],
-      },
-      {
-        heading: 'The Rise of Plan N',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Are High-Deductible Options Worth Considering?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Long-Term Outlook: What Happens Next to Plan F?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'We are already seeing significant rate increases for Plan F in many states. As the price gap between Plan F and Plan G widens, more members will likely leave Plan F, further accelerating the rate increases for those who remain. It is a cycle that makes Plan F less attractive with each passing year.Was this article helpful ?Yes (1)No'],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (1)No'],
-      }],
+    sections: [],
+    richSections: [
+      { type: 'heading' as const, level: 2 as const, text: 'The Shift That Changed Medigap Forever', id: 'the-shift' },
+      { type: 'paragraph' as const, content: 'For decades, [Medigap Plan F](/faqs/what-is-the-best-medicare-supplement-plan) was the undisputed king of Medicare Supplement insurance. It covered every Medicare cost-sharing gap, including the Part B deductible, making it the simplest and most comprehensive option available. Then, in 2020, federal law closed Plan F to new enrollees, and Plan G stepped in to fill the void. Today, Plan G is the most popular Medigap plan in the country, and Plan F is on a slow but predictable decline.' },
+      { type: 'callout' as const, calloutType: 'info' as const, calloutTitle: '2026 Key Figures', calloutText: 'Part B deductible: $257 (the only gap Plan G does not cover). Plan G average premium: $120 to $280/month. Plan F is still available to people who were eligible for Medicare before January 1, 2020.' },
+
+      { type: 'heading' as const, level: 2 as const, text: 'Why Plan F Was the Most Popular Medigap Plan', id: 'plan-f-history' },
+      { type: 'paragraph' as const, content: 'Plan F offered something no other Medigap plan could match: zero out-of-pocket costs after your monthly premium. It covered the Part A deductible, Part B deductible, Part B excess charges, skilled nursing facility coinsurance, and foreign travel emergencies. For beneficiaries who wanted complete predictability, Plan F was the answer.' },
+      { type: 'paragraph' as const, content: 'At its peak, Plan F accounted for more than half of all Medigap enrollments nationwide. Agents recommended it because it was easy to explain and easy to sell. Beneficiaries chose it because they never had to think about a bill. The simplicity was the appeal.' },
+
+      { type: 'heading' as const, level: 2 as const, text: 'The Impact of MACRA: Why Plan F Closed to New Enrollees', id: 'macra-impact' },
+      { type: 'paragraph' as const, content: 'The Medicare Access and CHIP Reauthorization Act (MACRA), signed into law in 2015, included a provision that prohibited the sale of Medigap plans covering the Part B deductible to new Medicare enrollees starting January 1, 2020. The rationale was that first-dollar coverage reduces the incentive for beneficiaries to consider cost when seeking care, which in theory drives up overall Medicare spending.' },
+      { type: 'paragraph' as const, content: 'As a result, Plan F and Plan C (the only two plans that covered the Part B deductible) were closed to anyone who became eligible for Medicare on or after January 1, 2020. People who were already enrolled in Plan F before that date can keep it, and people who were eligible for Medicare before 2020 can still purchase it. But for the vast majority of new retirees, Plan F is simply off the table.' },
+      { type: 'callout' as const, calloutType: 'warning' as const, calloutTitle: 'Still Eligible for Plan F?', calloutText: 'If you turned 65 before January 1, 2020, or became eligible for Medicare due to disability before that date, you may still be able to purchase Plan F. However, given the premium trajectory, Plan G is almost always the better financial choice.' },
+
+      { type: 'heading' as const, level: 2 as const, text: 'Why Plan G Became the Go-To Choice After 2020', id: 'plan-g-rise' },
+      { type: 'paragraph' as const, content: 'Plan G covers everything Plan F covers except the Part B deductible, which is $257 in 2026. That is the only difference. For most new enrollees, the math is straightforward: if the annual premium difference between Plan F and Plan G is more than $257, Plan G saves money. In practice, that gap is almost always larger than $257, often by hundreds of dollars per year.' },
+      { type: 'paragraph' as const, content: 'Beyond the cost math, Plan G benefits from a much larger and younger risk pool. Because it is open to all new Medicare enrollees, Plan G carriers can spread risk more broadly, which helps keep rate increases more moderate over time. Plan F, by contrast, has a closed and aging pool, which creates structural pressure on premiums.' },
+
+      { type: 'heading' as const, level: 2 as const, text: 'Plan F vs. Plan G: Side-by-Side Comparison', id: 'plan-f-vs-g' },
+      { type: 'table' as const, title: 'Plan F vs. Plan G Benefit Comparison', headers: ['Benefit', 'Plan F', 'Plan G'], rows: [
+        ['Part A coinsurance and hospital costs (up to 365 days after Medicare benefits are used)', 'Covered 100%', 'Covered 100%'],
+        ['Part B coinsurance or copayment', 'Covered 100%', 'Covered 100%'],
+        ['Blood (first 3 pints)', 'Covered 100%', 'Covered 100%'],
+        ['Part A hospice care coinsurance or copayment', 'Covered 100%', 'Covered 100%'],
+        ['Skilled nursing facility coinsurance', 'Covered 100%', 'Covered 100%'],
+        ['Part A deductible ($1,676 in 2026)', 'Covered 100%', 'Covered 100%'],
+        ['Part B deductible ($257 in 2026)', 'Covered 100%', 'NOT covered'],
+        ['Part B excess charges', 'Covered 100%', 'Covered 100%'],
+        ['Foreign travel emergency (up to plan limits)', 'Covered 80%', 'Covered 80%'],
+      ], footnote: 'The Part B deductible is the only benefit difference between Plan F and Plan G.' },
+
+      { type: 'heading' as const, level: 2 as const, text: 'Premium Trends: Why Plan F Is Becoming More Expensive', id: 'premium-trends' },
+      { type: 'paragraph' as const, content: 'Because Plan F is closed to new enrollees, its risk pool is shrinking and aging every year. As healthier, younger beneficiaries age out of eligibility and older members file more claims, the average cost per member rises. Carriers respond by increasing premiums, which causes some members to drop Plan F for a less expensive option, which in turn raises costs further for those who remain. This cycle is well underway.' },
+      { type: 'paragraph' as const, content: 'In many states, Plan F premiums are now $50 to $150 per month higher than equivalent Plan G premiums for the same carrier. Given that the only extra benefit is the $257 Part B deductible, the value proposition has largely collapsed for anyone who was eligible for Medicare before 2020 and is still shopping.' },
+      { type: 'callout' as const, calloutType: 'tip' as const, calloutTitle: 'The Break-Even Rule', calloutText: 'If the annual premium difference between Plan F and Plan G at a given carrier is more than $257, Plan G saves money. If the gap is less than $257, Plan F may be worth it for the simplicity of zero out-of-pocket costs. In practice, the gap almost always exceeds $257.' },
+
+      { type: 'heading' as const, level: 2 as const, text: 'The Rise of Plan N', id: 'plan-n-rise' },
+      { type: 'paragraph' as const, content: 'While Plan G dominates the market for new enrollees seeking comprehensive coverage, [Plan N](/faqs/medicare-supplement-plan-n) has emerged as the fastest-growing alternative for beneficiaries who want lower premiums and are comfortable with modest cost-sharing. Plan N covers everything Plan G covers except Part B excess charges, and it requires copays of up to $20 for office visits and up to $50 for emergency room visits that do not result in a hospital admission.' },
+      { type: 'paragraph' as const, content: 'For relatively healthy beneficiaries who rarely visit specialists and live in states where excess charges are uncommon, Plan N can save $50 to $100 per month compared to Plan G. The trade-off is that you need to verify your doctors accept Medicare assignment (which eliminates excess charges) and be comfortable with occasional copays.' },
+      { type: 'table' as const, title: 'Plan G vs. Plan N: Key Differences', headers: ['Feature', 'Plan G', 'Plan N'], rows: [
+        ['Monthly premium (typical range, age 65)', '$120 to $280/mo', '$90 to $200/mo'],
+        ['Part B deductible ($257)', 'You pay', 'You pay'],
+        ['Part B excess charges', 'Covered', 'NOT covered'],
+        ['Office visit copay', 'None', 'Up to $20'],
+        ['ER visit copay (no admission)', 'None', 'Up to $50'],
+        ['Best for', 'Predictable costs, frequent specialist use', 'Lower premium, healthy beneficiaries'],
+      ] },
+
+      { type: 'heading' as const, level: 2 as const, text: 'Are High-Deductible Options Worth Considering?', id: 'high-deductible' },
+      { type: 'paragraph' as const, content: 'High-Deductible Plan G (HDG) is a lower-premium version of Plan G that requires you to pay a $2,870 annual deductible (2026) before the plan begins paying benefits. Once you meet the deductible, coverage is identical to standard Plan G. Monthly premiums for HDG typically range from $30 to $70 per month, making it an attractive option for beneficiaries who are in excellent health and want catastrophic protection without high monthly costs.' },
+      { type: 'paragraph' as const, content: 'The risk is that in a bad health year, you could owe the full $2,870 deductible on top of the Part B deductible and any other cost-sharing. HDG works best for people who have savings to cover the deductible and are unlikely to need extensive care in any given year.' },
+
+      { type: 'heading' as const, level: 2 as const, text: 'Long-Term Outlook: What Happens Next to Plan F?', id: 'plan-f-outlook' },
+      { type: 'paragraph' as const, content: 'Plan F will not disappear overnight. Millions of beneficiaries enrolled before 2020 still hold Plan F policies and may keep them for years. However, the structural dynamics are clear: a closed, aging risk pool with rising claims will continue to push Plan F premiums higher relative to Plan G. The value gap will widen, and more members will migrate to Plan G or Plan N at each renewal.' },
+      { type: 'paragraph' as const, content: 'For anyone currently enrolled in Plan F who is considering a switch, the decision comes down to whether you can pass medical underwriting (required in most states outside of guaranteed issue windows) and whether the premium savings justify the change. In many cases, switching to Plan G saves $600 to $1,800 per year with identical coverage for everything except the $257 Part B deductible.' },
+      { type: 'callout' as const, calloutType: 'info' as const, calloutTitle: 'Switching from Plan F to Plan G', calloutText: 'In most states, switching Medigap plans requires medical underwriting outside of a guaranteed issue window. If you are in good health, the savings can be substantial. Work with a licensed agent to compare current rates before deciding. Some states have birthday rules or anniversary rules that provide a limited window to switch without underwriting.' },
+
+      { type: 'faq' as const, faqs: [
+        { question: 'Can I still buy Plan F in 2026?', answer: 'Only if you were eligible for Medicare before January 1, 2020. If you turned 65 on or after that date, Plan F is not available to you.' },
+        { question: 'Is Plan G better than Plan F?', answer: 'For most new enrollees, yes. Plan G costs less and covers everything Plan F covers except the $257 Part B deductible. The premium savings almost always exceed $257 per year.' },
+        { question: 'What is the most popular Medigap plan in 2026?', answer: 'Plan G is the most popular Medigap plan for new enrollees. Plan N is the fastest-growing alternative for those seeking lower premiums.' },
+        { question: 'Should I switch from Plan F to Plan G?', answer: 'If the annual premium difference exceeds $257 and you can pass underwriting, switching to Plan G usually saves money. Consult a licensed agent to compare current rates at your carrier.' },
+        { question: 'What is High-Deductible Plan G?', answer: 'HDG has a $2,870 deductible (2026) before coverage kicks in, but premiums are much lower ($30 to $70/month). It suits healthy beneficiaries who want catastrophic protection at a low monthly cost.' },
+      ] },
+    ],
     relatedSlugs: ["medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g", "medicare-plan-g-reviews"],
   }];
