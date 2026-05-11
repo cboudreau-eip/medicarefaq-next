@@ -62,5 +62,5 @@ export const simpleFAQBatch5: SimpleFAQArticleData[] = [
           'Was this article helpful ?',
           'Yes (0)No'],
       }],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plans-medigap-pricing-methods", "choosing-a-medigap-policy", "how-to-choose-a-medicare-supplement-plan-that-fits-your-budget"],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plans-medigap-pricing-methods", "choosing-a-medigap-policy"],
   }];

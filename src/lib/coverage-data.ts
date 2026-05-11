@@ -5021,7 +5021,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "The two most popular Medicare cost-sharing plans are [Medicare Supplement Plan L and Plan K](/blog/exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g). Both have identical benefits but different cost-sharing levels. Each also has an annual out-of-pocket maximum, which protects you from outrageous medical bills by covering 100% of your healthcare costs once the maximum is met.",
-          "Everyone’s healthcare and budget needs will differ, and one of the great things about Medigap plans is that there are [varying levels of benefits](/faqs/how-to-choose-a-medicare-supplement-plan-that-fits-your-budget) to help you find benefits that match your individual needs.",
+          "Everyone’s healthcare and budget needs will differ, and one of the great things about Medigap plans is that there are [varying levels of benefits](/faqs/choosing-a-medigap-policy) to help you find benefits that match your individual needs.",
           "While Medicare cost-sharing plans aren’t included in the best Medicare Supplement plans, they still offer value. Not all carriers offer every plan option, but if you’re looking for a Medigap Plan K or Plan L, speak to a [licensed insurance agent](/faqs/medicare-agents-near-me) that represents the top-rated insurance companies in your area."],
       },{
         planName: "Plan L Cost-Sharing",
