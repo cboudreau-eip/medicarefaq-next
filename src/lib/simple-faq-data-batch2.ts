@@ -590,97 +590,265 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'turning-65-these-are-the-most-common-medicare-questions-answered',
     seo: {
-      title: 'Turning 65? These are the Most Common Medicare Questions—Answered',
+      title: 'Turning 65? These are the Most Common Medicare Questions Answered',
       description: 'Turning 65 and unsure about Medicare? Learn what each part covers, when to enroll, how to avoid penalties, and whether Original Medicare or additional coverage is right for you.',
       canonical: 'https://www.medicarefaq.com/faqs/turning-65-these-are-the-most-common-medicare-questions-answered/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Turning-65-These-Are-the-Most-Common-Medicare-Questions—Answered.jpg',
+      ogImage: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&auto=format&fit=crop&q=80',
     },
-    title: 'Turning 65? These are the Most Common Medicare Questions—Answered',
-    summary: '',
+    title: 'Turning 65? These are the Most Common Medicare Questions Answered',
+    summary: 'Turning 65 is one of the most important milestones for your healthcare. This guide answers the questions people ask most often about Medicare: what it is, what it costs, when to enroll, and how to choose the right coverage.',
     category: 'Enrollment',
-    dateUpdated: '',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '9 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph',
+        content: 'Turning 65 is one of the most significant healthcare milestones you will face. For most Americans, it marks the beginning of Medicare eligibility, and the decisions you make in the months surrounding your 65th birthday can affect your coverage and costs for years to come. This guide answers the questions people ask most often when they are new to Medicare, using 2026 figures throughout.',
       },
       {
-        heading: 'What is Medicare and Who Qualifies for It?',
-        paragraphs: [
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Key 2026 Medicare Costs at a Glance',
+        calloutText: '**Part B standard premium:** $202.90/month | **Part B deductible:** $283/year | **Part A deductible:** $1,736 per benefit period | **Average Part D premium:** $34.50/month',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'what-is-medicare',
+        text: 'What Is Medicare and Who Qualifies for It?',
+      },
+      {
+        type: 'paragraph',
+        content: '**Medicare** is the federal health insurance program administered by the Centers for Medicare and Medicaid Services (CMS). It was established in 1965 and today covers more than 67 million Americans. Most people qualify for Medicare at age 65, but younger individuals with certain disabilities or end-stage renal disease (ESRD) may also be eligible.',
+      },
+      {
+        type: 'paragraph',
+        content: 'To qualify at 65, you (or your spouse) must be a U.S. citizen or permanent legal resident who has lived in the country for at least five continuous years. You also need to have worked and paid Medicare taxes for at least 10 years (40 quarters) to receive premium-free Part A. If you already receive Social Security or Railroad Retirement Board benefits, you will be enrolled in Medicare Parts A and B automatically when you turn 65.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'parts-of-medicare',
+        text: 'What Are the Different Parts of Medicare?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare is divided into four parts, each covering a different category of care. Understanding what each part does is the foundation for making good coverage decisions.',
+      },
+      {
+        type: 'table',
+        headers: ['Part', 'What It Covers', 'Who Pays'],
+        rows: [
+          ['Part A', 'Inpatient hospital stays, skilled nursing facility care, hospice, and limited home health services', 'Usually premium-free if you paid Medicare taxes for 10+ years'],
+          ['Part B', 'Doctor visits, outpatient services, lab tests, preventive screenings, and durable medical equipment', '$202.90/month standard premium in 2026 (income-adjusted)'],
+          ['Part C (Medicare Advantage)', 'All Part A and Part B benefits bundled into a private plan; often adds dental, vision, hearing, and drug coverage', 'Varies by plan; many have $0 or low monthly premiums'],
+          ['Part D', 'Prescription drug coverage offered through private insurers', 'Average $34.50/month in 2026; varies by plan and drugs covered'],
+          ['Medicare Supplement (Medigap)', 'Helps pay the out-of-pocket costs Original Medicare leaves behind: deductibles, coinsurance, and copays', 'Monthly premium varies by plan letter and insurer'],
+        ],
+        footnote: '2026 figures. Part B premium may be higher for higher-income beneficiaries due to IRMAA surcharges.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Parts A and B together are called **Original Medicare**. You can add a [Medicare Supplement plan](/faqs/what-is-the-best-medicare-supplement-plan) to Original Medicare to limit your out-of-pocket exposure, or you can replace Original Medicare with a [Medicare Advantage plan](/faqs/medicare-advantage-vs-medicare-supplement) that bundles everything into one plan.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'medicare-vs-medicaid',
+        text: 'What Is the Difference Between Medicare and Medicaid?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare and Medicaid are two separate programs that are often confused because their names sound similar. The key difference is eligibility: **Medicare** is based primarily on age (or disability), while **Medicaid** is based on income.',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Medicare** is a federal program for people 65 and older (and certain younger individuals with disabilities or ESRD). Eligibility is not income-based.',
+          '**Medicaid** is a joint federal and state program for people with low incomes and limited resources. Benefits and eligibility rules vary significantly from state to state.',
+          'Some people qualify for both programs at the same time. These individuals are called **dual eligibles**, and Medicaid often helps pay their Medicare premiums, deductibles, and copayments.',
         ],
       },
       {
-        heading: 'What are the Different Parts of Medicare?',
-        paragraphs: [
-        ],
-        listItems: [
-          'Original Medicare includes Part A and Part B. Part A covers inpatient care such as hospital stays, skilled nursing facility care, hospice, and limited home health services. Part B covers outpatient services like doctor appointments, lab tests, preventive screenings, and medical equipment.',
-          'Part C (Medicare Advantage) is an alternative to Original Medicare. These plans are offered by private insurance companies approved by Medicare. Medicare Advantage plans include all the coverage of Parts A and B and often add extra benefits such as dental, vision, hearing, and prescription drug coverage. Learn more aboutMedicare Part C.',
-          'Part D is optional prescription drug coverage. These plans are offered by private insurers and can be added to Original Medicare. Most Medicare Advantage plans includePart Dautomatically.',
-          'Medicare Supplement (Medigap) plans are offered by private insurers to help pay for the “gaps” in Original Medicare, such as copayments, deductibles, and coinsurance. These plans give you the freedom to see any provider that accepts Medicare. Explore your options withMedicare Supplement plans.'],
+        type: 'heading',
+        level: 2,
+        id: 'is-medicare-free',
+        text: 'Is Medicare Free?',
       },
       {
-        heading: 'What is the Difference between Medicare and Medicaid?',
-        paragraphs: [
-        ],
-        listItems: [
-          'Medicare is a federal health insurance program primarily for individuals age 65 and older, regardless of income. It also covers some younger individuals with disabilities.',
-          'Medicaid is a joint federal and state program that provides healthcare for people with low incomes and limited resources. Eligibility and benefits vary by state.'],
+        type: 'paragraph',
+        content: 'Medicare is not entirely free, though some parts cost less than others. Here is what you can expect to pay in 2026:',
       },
       {
-        heading: 'Is Medicare Free?',
-        paragraphs: [
-        ],
-        listItems: [
-          'Part A is usually premium-free if you or your spouse paid Medicare taxes for 10 years. Otherwise, you’ll pay a monthly premium.',
-          'Part B comes with a standard monthly premium (adjusted based on income) and includes an annual deductible and coinsurance.',
-          'Part D plans vary in cost based on the insurer and the medications you take.',
-          'Medicare Advantage and Medigap plans involve additional premiums but offer more comprehensive coverage.'],
-      },
-      {
-        heading: 'When to Sign up for Medicare',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-      },
-      {
-        heading: 'Can I Delay My Medicare?',
-        paragraphs: [
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Part A:** Premium-free for most people who worked and paid Medicare taxes for at least 10 years. If you have 30 to 39 work credits, the 2026 premium is $311/month. With fewer than 30 credits, it is $565/month.',
+          '**Part B:** The standard monthly premium in 2026 is **$202.90**. Higher-income beneficiaries pay more due to IRMAA surcharges. There is also a $283 annual deductible.',
+          '**Part D:** The average monthly premium in 2026 is **$34.50**, though costs vary widely by plan and the drugs you take. The maximum deductible is $615.',
+          '**Medicare Advantage:** Many plans have $0 or low monthly premiums, but you still pay your Part B premium. Plans may have copays, coinsurance, and an annual out-of-pocket maximum (up to $9,250 in 2026).',
+          '**Medicare Supplement:** Monthly premiums vary by plan letter and insurer, but these plans significantly reduce your unpredictable out-of-pocket costs.',
         ],
       },
       {
-        heading: 'What are the Penalties for not Signing Up?',
-        paragraphs: [
+        type: 'heading',
+        level: 2,
+        id: 'when-to-sign-up',
+        text: 'When Should You Sign Up for Medicare?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Most people enroll during their **Initial Enrollment Period (IEP)**, which is a 7-month window that starts 3 months before the month you turn 65, includes your birthday month, and ends 3 months after. Enrolling during the first 3 months of your IEP means your coverage starts on the first day of your birthday month.',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you miss your IEP, you can enroll during the **General Enrollment Period** (January 1 through March 31 each year), with coverage starting July 1. However, enrolling late may result in permanent premium penalties. Read more about [Medicare enrollment periods and timing](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up).',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Sign Up 3 Months Early',
+        calloutText: 'Enrolling in the 3 months before your 65th birthday gives you the earliest possible coverage start date and avoids any gaps in coverage.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'delay-medicare',
+        text: 'Can I Delay My Medicare?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Yes, you can delay Medicare in certain situations without facing a penalty. If you are still working at 65 and covered by a qualifying employer health plan through your own active employment (or your spouse\'s), you can delay Parts A and B without penalty. When that employer coverage ends, you will have a **Special Enrollment Period (SEP)** of 8 months to sign up for Part B.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Coverage through COBRA, retiree insurance, or a marketplace plan does **not** count as qualifying employer coverage for the purpose of delaying Medicare. Relying on those plans past your IEP can trigger late enrollment penalties.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'COBRA Does Not Count',
+        calloutText: 'COBRA continuation coverage is not considered active employer coverage under Medicare rules. If you rely on COBRA after leaving work, you should still enroll in Medicare during your Initial Enrollment Period to avoid late penalties.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'late-enrollment-penalties',
+        text: 'What Are the Penalties for Not Signing Up on Time?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Late enrollment penalties are permanent and can add up to significant costs over time. There are separate penalties for Part B and Part D:',
+      },
+      {
+        type: 'table',
+        headers: ['Part', 'Penalty Amount', 'How Long It Lasts'],
+        rows: [
+          ['Part B', '10% added to the monthly premium for each full 12-month period you were eligible but did not enroll', 'Permanent -- you pay it as long as you have Part B'],
+          ['Part D', '1% of the national base beneficiary premium ($38.99 in 2026) multiplied by the number of uncovered months', 'Permanent -- you pay it as long as you have Part D'],
         ],
-        listItems: [
-          'Part B Late Enrollment Penalty: Your monthly premium increases by 10% for each full 12-month period you were eligible but didn’t enroll. You pay this penalty as long as you have Part B.',
-          'Part D Late Enrollment Penalty: If you go without creditable prescription drug coverage for 63 consecutive days, you’ll pay a penalty calculated as 1% of the national base premium multiplied by the number of uncovered months. This penalty lasts as long as you have Part D.'],
+        footnote: 'Penalties do not apply if you had qualifying coverage (such as active employer coverage) during the period you delayed.',
       },
       {
-        heading: 'Will Medicare Cover All of My Expenses?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-        listItems: [
-          '20% of the cost for most outpatient services (Part B coinsurance)',
-          'Hospital deductibles and daily coinsurance after a certain number of days (Part A)',
-          'Routine dental, vision, and hearing care',
-          'Prescription drugs (unless you have Part D)',
-          'Long-term custodial care (like nursing homes)'],
+        type: 'paragraph',
+        content: 'For example, if you delay Part B for 2 full years without qualifying coverage, your monthly premium increases by 20% permanently. At the 2026 standard premium of $202.90, that would add about $40.58 per month for life. Learn more about the [Part B late enrollment penalty](/faqs/medicare-part-b-late-enrollment-penalty) and the [Part D late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty).',
       },
       {
-        heading: 'Is Original Medicare the Right Fit for You?',
-        paragraphs: [
-          'While Original Medicare offers nationwide provider access and reliable basic coverage, it does not have an out-of-pocket spending limit. This means there’s no cap on what you might pay in a year if you have frequent or serious medical needs.That’s where Medicare Supplement plans come in. These plans cover many of the costs Medicare leaves behind, such as coinsurance, copayments, and deductibles. You can visit any provider nationwide who accepts Medicare.Medicare Advantage plans can be an alternative if you want an all-in-one plan that includes extra benefits and often a built-in drug plan. However, you’ll typically need to use doctors within the plan’s network, and coverage may be limited outside your service area.Was this article helpful ?Yes (1)No',
-          'That’s where Medicare Supplement plans come in. These plans cover many of the costs Medicare leaves behind, such as coinsurance, copayments, and deductibles. You can visit any provider nationwide who accepts Medicare.Medicare Advantage plans can be an alternative if you want an all-in-one plan that includes extra benefits and often a built-in drug plan. However, you’ll typically need to use doctors within the plan’s network, and coverage may be limited outside your service area.Was this article helpful ?Yes (1)No',
-          'Medicare Advantage plans can be an alternative if you want an all-in-one plan that includes extra benefits and often a built-in drug plan. However, you’ll typically need to use doctors within the plan’s network, and coverage may be limited outside your service area.Was this article helpful ?Yes (1)No'],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (1)No'],
-      }],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "25-medicare-qas-you-should-know", "full-retirement-age", "what-is-medicare"],
+        type: 'heading',
+        level: 2,
+        id: 'coverage-gaps',
+        text: 'Will Medicare Cover All of My Expenses?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Original Medicare (Parts A and B) covers a wide range of medical services, but it does not cover everything. There are also significant cost-sharing requirements that can add up quickly if you have frequent or serious medical needs.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Here is what Original Medicare typically does **not** cover:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Routine dental care, dentures, and most dental procedures',
+          'Routine vision exams and eyeglasses (except after cataract surgery)',
+          'Hearing aids and routine hearing exams',
+          'Long-term custodial care (such as nursing home care for daily activities)',
+          'Most care received outside the United States',
+          'Prescription drugs (unless you add Part D)',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content: 'In addition, Original Medicare has no annual out-of-pocket maximum. You are responsible for 20% of the cost for most Part B services after meeting your deductible, and Part A has a $1,736 per-benefit-period deductible in 2026 with daily coinsurance after day 60 in the hospital.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'right-plan',
+        text: 'Is Original Medicare the Right Fit for You?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Whether Original Medicare is the right choice depends on your health needs, budget, and preferences. Here is a brief comparison of your main options:',
+      },
+      {
+        type: 'table',
+        headers: ['Coverage Option', 'Best For', 'Key Trade-Off'],
+        rows: [
+          ['Original Medicare only', 'People with minimal healthcare needs and low drug costs', 'No out-of-pocket maximum; significant cost exposure for serious illness'],
+          ['Original Medicare + Medigap + Part D', 'People who want predictable costs and freedom to see any Medicare provider nationwide', 'Higher monthly premiums, but much lower unpredictable out-of-pocket costs'],
+          ['Medicare Advantage (Part C)', 'People who want an all-in-one plan, often with extra benefits like dental and vision', 'Network restrictions; coverage may vary outside your service area'],
+        ],
+      },
+      {
+        type: 'paragraph',
+        content: 'Original Medicare does not have an out-of-pocket spending cap. A [Medicare Supplement plan](/faqs/what-is-the-best-medicare-supplement-plan) fills in many of those gaps, covering coinsurance, copayments, and deductibles so your costs are more predictable. [Medicare Advantage plans](/faqs/medicare-advantage-vs-medicare-supplement) bundle Parts A, B, and usually D into one plan and often add dental, vision, and hearing benefits, but you will generally need to use a network of providers.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'success',
+        calloutTitle: 'Not Sure Which Path Is Right for You?',
+        calloutText: 'Our licensed Medicare agents can walk you through your options at no cost to you. There is no obligation, and we work with multiple carriers to find coverage that fits your needs and budget.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Do I have to sign up for Medicare when I turn 65?',
+            answer: 'Not necessarily. If you have qualifying employer coverage through active employment, you can delay Medicare without penalty. Otherwise, you should enroll during your Initial Enrollment Period to avoid late penalties.',
+          },
+          {
+            question: 'What happens if I miss my Initial Enrollment Period?',
+            answer: 'You can enroll during the General Enrollment Period (January 1 to March 31 each year), but your coverage will not start until July 1 and you may owe a permanent late enrollment penalty.',
+          },
+          {
+            question: 'Can I have both Medicare and employer insurance at the same time?',
+            answer: 'Yes. If your employer has 20 or more employees, your employer plan is primary and Medicare is secondary. If your employer has fewer than 20 employees, Medicare is primary. Coordination of benefits rules determine which plan pays first.',
+          },
+          {
+            question: 'Is there a penalty for not getting Part D drug coverage?',
+            answer: 'Yes, if you go 63 or more consecutive days without creditable drug coverage after your Initial Enrollment Period ends, you will owe a permanent Part D late enrollment penalty when you do enroll.',
+          },
+          {
+            question: 'When is the best time to buy a Medicare Supplement plan?',
+            answer: 'The best time is during your Medigap Open Enrollment Period, which starts the month you turn 65 and are enrolled in Part B. During this 6-month window, insurers cannot deny you coverage or charge more based on your health history.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-initial-enrollment-period", "medicare-part-b-late-enrollment-penalty", "medicare-advantage-vs-medicare-supplement", "what-is-the-best-medicare-supplement-plan"],
   },
   {
     slug: 'medicare-enrollment-checklist',
