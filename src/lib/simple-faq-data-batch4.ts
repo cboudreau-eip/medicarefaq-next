@@ -212,25 +212,188 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'how-is-medicare-funded',
     seo: {
-      title: 'How is Medicare Funded',
-      description: 'Many wonder how Medicare is funded. Find out how Medicare Part A, Part B, and Medicare Advantage is funded here.',
+      title: 'How Is Medicare Funded? A Plain-Language Guide (2026)',
+      description: 'Learn how Medicare is funded in 2026, including payroll taxes, Part B and Part D premiums, general revenue contributions, and the long-term financial outlook of the Medicare trust funds.',
       canonical: 'https://www.medicarefaq.com/faqs/how-is-medicare-funded/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/how-medicare-is-funded.jpg',
     },
-    title: 'How is Medicare Funded',
-    summary: '',
+    title: 'How Is Medicare Funded?',
+    summary: 'Medicare is funded through a combination of payroll taxes, beneficiary premiums, and general federal revenue. The funding structure differs by part: Part A relies primarily on payroll taxes, while Parts B and D are funded mostly through premiums and general revenue. Understanding where the money comes from helps explain why Medicare costs and policy debates matter to every working American.',
     category: 'Medicare FAQ',
-    dateUpdated: '',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '7 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'As a person having worked in Healthcare all my employment life, I want to know why [Medicare](/faqs/what-is-medicare) has not stopped [wastful spending](/blog/medicare-costs-2025) of EOBs???  It should be minimized!!  Ir is wastful spending!!!  Nany older would receuve the EOB via e-mail and all ither oeople can get a NEW SHORTER EOB on paper!SHORTEN THE WASTFUL EOBs!!!  Get rid of the printing vendor.  And, stop the waste of elders hard earned money.  Thk U.'],
-      }],
-    relatedSlugs: ["medicare-costs-2025", "medicare-parts-a-b-c-and-d-explained-simply", "what-is-medicare", "medicare-history"],
+        type: 'paragraph',
+        content: 'Medicare is the federal health insurance program covering more than 67 million Americans, primarily those age 65 and older, as well as certain people with disabilities and end-stage renal disease. The program costs more than $1 trillion per year and is funded through several distinct revenue streams. The funding structure is not uniform across all parts of Medicare: Part A, Part B, Part C (Medicare Advantage), and Part D each draw from different sources.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Quick Summary',
+        calloutText: '**Part A** is funded mainly by the 2.9% Medicare payroll tax. **Part B** is funded roughly 75% by general federal revenue and 25% by beneficiary premiums. **Part D** is funded by federal subsidies, state contributions, and beneficiary premiums. **Medicare Advantage (Part C)** is funded by federal payments to private insurers based on Original Medicare costs.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'the-two-trust-funds',
+        text: 'The Two Medicare Trust Funds',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare is managed through two separate trust funds administered by the U.S. Treasury. The **Hospital Insurance (HI) Trust Fund** covers Part A (hospital insurance). The **Supplementary Medical Insurance (SMI) Trust Fund** covers Part B (medical insurance) and Part D (prescription drug coverage). These trust funds receive income from their respective revenue sources and pay out benefits and administrative costs.',
+      },
+      {
+        type: 'table',
+        headers: ['Trust Fund', 'What It Covers', 'Primary Revenue Sources', 'Financial Status (2026)'],
+        rows: [
+          ['Hospital Insurance (HI) Trust Fund', 'Part A: inpatient hospital, skilled nursing, hospice, home health', 'Payroll taxes (2.9%), income taxes on Social Security benefits, interest earnings', 'Projected to remain solvent through approximately 2036 per 2025 trustees report'],
+          ['Supplementary Medical Insurance (SMI) Trust Fund', 'Part B: outpatient, physician services; Part D: prescription drugs', 'General federal revenue (~75%), beneficiary premiums (~25%), state contributions (Part D)', 'Automatically funded each year; not subject to insolvency risk'],
+        ],
+        footnote: 'The SMI Trust Fund is considered "adequately financed" because Congress is required by law to set premiums and appropriate general revenue sufficient to cover projected costs each year.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-part-a-is-funded',
+        text: 'How Part A Is Funded: Payroll Taxes',
+      },
+      {
+        type: 'paragraph',
+        content: 'Part A is primarily funded by the Medicare payroll tax. Every worker in the United States pays 1.45% of their wages toward Medicare, and their employer matches that amount for a combined rate of 2.9%. Self-employed individuals pay the full 2.9% themselves. Higher earners pay an additional 0.9% on wages above $200,000 (single filers) or $250,000 (married filing jointly) under the Additional Medicare Tax introduced by the Affordable Care Act.',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Standard Medicare payroll tax:** 1.45% employee + 1.45% employer = 2.9% combined',
+          '**Self-employed rate:** 2.9% on all net self-employment income',
+          '**Additional Medicare Tax:** 0.9% on wages above $200,000 (single) or $250,000 (married filing jointly)',
+          '**No wage cap:** Unlike Social Security taxes, Medicare payroll taxes apply to all wages with no upper limit',
+          '**Other Part A revenue:** Income taxes on Social Security benefits, interest on trust fund investments, and a small amount of premium income from those who do not qualify for premium-free Part A',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content: 'Most people who have worked and paid Medicare taxes for at least 40 quarters (10 years) receive Part A with no monthly premium. Those with fewer than 40 quarters pay a premium: $285/month for 30 to 39 quarters, or $518/month for fewer than 30 quarters in 2026.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-part-b-is-funded',
+        text: 'How Part B Is Funded: Premiums and General Revenue',
+      },
+      {
+        type: 'paragraph',
+        content: 'Part B is funded through two main sources: beneficiary premiums and general federal revenue. By law, beneficiary premiums are set to cover approximately 25% of Part B program costs, with the remaining 75% coming from general federal tax revenue. This means that for every dollar spent on Part B benefits, about 75 cents comes from the federal government and about 25 cents comes from beneficiary premiums.',
+      },
+      {
+        type: 'paragraph',
+        content: 'The standard Part B premium in 2026 is $185.00 per month. Higher-income beneficiaries pay more through the Income-Related Monthly Adjustment Amount (IRMAA). IRMAA surcharges range from $74.00 to $443.90 per month in addition to the standard premium, depending on income. For more on IRMAA, see our article on [IRMAA and higher Medicare premiums](/faqs/surprised-by-higher-medicare-premiums-it-could-be-irmaa).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-part-d-is-funded',
+        text: 'How Part D Is Funded: Federal Subsidies and Premiums',
+      },
+      {
+        type: 'paragraph',
+        content: 'Part D prescription drug coverage is funded through a combination of federal subsidies, state contributions, and beneficiary premiums. The federal government subsidizes approximately 74.5% of the cost of standard Part D coverage through the SMI Trust Fund. States contribute a "clawback" payment to help fund the cost of covering dual-eligible beneficiaries (those who qualify for both Medicare and Medicaid) who were shifted from Medicaid drug coverage to Part D when the program launched in 2006.',
+      },
+      {
+        type: 'paragraph',
+        content: 'The average Part D premium in 2026 is approximately $34.50 per month, though premiums vary widely by plan and region. Higher-income beneficiaries also pay an IRMAA surcharge on Part D, ranging from $14.50 to $91.00 per month in addition to their plan premium. The Inflation Reduction Act of 2022 introduced a $2,000 annual out-of-pocket cap on Part D drug costs, fully effective in 2026.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'how-medicare-advantage-is-funded',
+        text: 'How Medicare Advantage (Part C) Is Funded',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare Advantage plans are private insurance plans approved by Medicare. They are funded through federal payments called capitation payments made by CMS to the private insurers. CMS pays each plan a set amount per enrolled beneficiary per month, based on a benchmark rate tied to the cost of providing Original Medicare coverage in that county. Plans that bid below the benchmark receive a rebate they can use to offer extra benefits or lower premiums. Plans that bid above the benchmark charge beneficiaries a premium to cover the difference.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Medicare Advantage and the Trust Funds',
+        calloutText: 'Medicare Advantage payments come from both the HI Trust Fund (for Part A benefits) and the SMI Trust Fund (for Part B benefits), in the same proportions as Original Medicare. Beneficiaries enrolled in Medicare Advantage still pay the standard Part B premium, which flows into the SMI Trust Fund.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'funding-sources-summary',
+        text: 'Medicare Funding Sources at a Glance',
+      },
+      {
+        type: 'table',
+        headers: ['Part', 'Primary Funding Source', 'Secondary Funding Source', '2026 Beneficiary Cost'],
+        rows: [
+          ['Part A', 'Payroll taxes (2.9%)', 'Income taxes on SS benefits, interest', '$0 premium (if 40+ quarters); $518/month if fewer than 30 quarters'],
+          ['Part B', 'General federal revenue (~75%)', 'Beneficiary premiums (~25%)', '$185/month standard; higher with IRMAA'],
+          ['Part C (Medicare Advantage)', 'Federal capitation payments from HI + SMI funds', 'Plan premiums (if above benchmark)', '$0 to $100+/month depending on plan; still pay Part B premium'],
+          ['Part D', 'Federal subsidies (~74.5%), state clawback payments', 'Beneficiary premiums', 'Avg $34.50/month; higher with IRMAA'],
+        ],
+        footnote: 'Costs shown are 2026 figures. IRMAA surcharges apply to beneficiaries with income above $106,000 (single) or $212,000 (married filing jointly) based on 2024 tax returns.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'financial-outlook',
+        text: 'The Financial Outlook of Medicare',
+      },
+      {
+        type: 'paragraph',
+        content: 'The HI Trust Fund faces a long-term funding challenge. The 2025 Medicare Trustees Report projected that the HI Trust Fund will be able to pay full benefits through approximately 2036, after which incoming revenue would cover only about 89% of projected costs without legislative action. The SMI Trust Fund does not face the same insolvency risk because it is funded on a pay-as-you-go basis with general revenue and premiums set annually to cover projected costs.',
+      },
+      {
+        type: 'paragraph',
+        content: 'The long-term fiscal pressure on Medicare comes from several factors: the aging of the large baby boom generation, rising healthcare costs, and the fact that Medicare spending is growing faster than the payroll tax base. Congress has addressed Medicare funding challenges multiple times through legislation, including the Balanced Budget Act of 1997, the Medicare Modernization Act of 2003, the Affordable Care Act of 2010, and the Inflation Reduction Act of 2022.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'What Does This Mean for Beneficiaries?',
+        calloutText: 'The trust fund projections do not mean Medicare will disappear. Even if the HI Trust Fund were depleted, incoming payroll taxes would still cover the majority of Part A costs. Congress has consistently acted to prevent benefit cuts. However, the long-term funding gap is a major driver of ongoing policy debates about Medicare premiums, benefits, and eligibility age.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Do I pay into Medicare while I work?',
+            answer: 'Yes. Every worker pays 1.45% of their wages toward Medicare through payroll taxes, matched by their employer. Self-employed individuals pay 2.9%. These contributions fund the Part A Hospital Insurance Trust Fund.',
+          },
+          {
+            question: 'Is Medicare funded by Social Security?',
+            answer: 'Medicare and Social Security are separate programs with separate trust funds. However, some of the taxes paid on Social Security benefits flow into the Medicare HI Trust Fund, and the Social Security Administration handles Medicare enrollment for many beneficiaries.',
+          },
+          {
+            question: 'Why do Medicare premiums increase each year?',
+            answer: 'Part B premiums are set annually by CMS to cover approximately 25% of projected Part B program costs. As healthcare costs rise and the number of beneficiaries grows, premiums tend to increase to keep pace. IRMAA adjustments also increase for higher-income beneficiaries based on their prior-year income.',
+          },
+          {
+            question: 'Will Medicare run out of money?',
+            answer: 'The HI Trust Fund is projected to cover full Part A benefits through approximately 2036. After that, incoming revenue would cover about 89% of costs without legislative action. Congress has historically acted to prevent benefit cuts, but the long-term funding gap remains a significant policy challenge.',
+          },
+          {
+            question: 'Does Medicare Advantage cost the government more than Original Medicare?',
+            answer: 'Studies have shown that federal payments to Medicare Advantage plans have historically exceeded what the same beneficiaries would have cost under Original Medicare, though the gap has narrowed with payment reforms. The higher payments are partly offset by the extra benefits MA plans provide.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-parts-a-b-c-and-d-explained-simply", "what-is-medicare", "medicare-costs-2026"],
   },
   {
     slug: 'what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor',
