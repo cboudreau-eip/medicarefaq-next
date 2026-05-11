@@ -1108,7 +1108,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'faq',
-        items: [
+        faqs: [
           {
             question: 'Can I change my Medigap plan anytime?',
             answer: 'You can apply anytime, but approval is not guaranteed outside of protected windows. In most states, insurers can use medical underwriting outside of guaranteed issue periods and may deny your application.',
