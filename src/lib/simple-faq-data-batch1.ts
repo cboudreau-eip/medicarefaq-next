@@ -241,32 +241,6 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice", "moving-to-another-state-with-medicare", "how-dual-residency-and-medicare-works"],
   },
   {
-    slug: 'can-my-employer-pay-my-medicare-premiums',
-    seo: {
-      title: 'Medicare Premiums Reimbursement through Employer',
-      description: 'Those who are actively working past 65 may be able to get employer Medicare premium reimbursement if their employers have a Section 105 Plan.',
-      canonical: 'https://www.medicarefaq.com/faqs/can-my-employer-pay-my-medicare-premiums/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-premiums-reimbursement-through-employer.jpg',
-    },
-    title: 'Medicare Premiums Reimbursement through Employer',
-    summary: '',
-    category: 'Costs & Savings',
-    dateUpdated: 'September 27, 2021',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '5 Ways to Reduce Your Medicare Premiums',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
-        ],
-      },
-    ],
-    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "when-should-you-enroll-in-medicare-if-still-working"],
-  },
-  {
     slug: 'medicare-and-prescription-drugs-whats-covered-and-whats-not',
     seo: {
       title: 'Medicare and Prescription Drugs: What’s Covered and What’s Not?',
