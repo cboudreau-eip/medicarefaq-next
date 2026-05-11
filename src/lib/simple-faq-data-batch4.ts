@@ -1137,74 +1137,234 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'checklist-preparing-for-medicare-enrollment-in-2026',
     seo: {
-      title: 'Checklist: Preparing for Medicare Enrollment in 2026',
-      description: 'Getting ready for Medicare in [dc id=\'current-year\']? Our simple enrollment checklist guides you through everything from understanding enrollment periods to choosing the right coverage.',
+      title: 'Medicare Enrollment Checklist 2026: Step-by-Step Preparation Guide',
+      description: 'Use this 2026 Medicare enrollment checklist to confirm eligibility, understand enrollment windows, compare plan options, and avoid costly late penalties before your coverage begins.',
       canonical: 'https://www.medicarefaq.com/faqs/checklist-preparing-for-medicare-enrollment-in-2026/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Checklist-Preparing-for-Medicare-Enrollment-in-2026.jpg',
     },
     title: 'Checklist: Preparing for Medicare Enrollment in 2026',
-    summary: '',
+    summary: 'Getting Medicare right the first time requires understanding your enrollment windows, confirming eligibility, comparing plan options, and gathering the right documents. This step-by-step checklist walks you through everything you need to do before your coverage begins in 2026.',
     category: 'Enrollment',
-    dateUpdated: '',
+    dateUpdated: 'May 2025',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '8 min read',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph',
+        content: 'Enrolling in Medicare is one of the most important financial and healthcare decisions you will make in retirement. Getting it right requires more than just signing up on time. You need to understand which parts of Medicare you need, when your enrollment windows open and close, what it will cost, and how to protect yourself from gaps in coverage. This checklist breaks the process into clear, actionable steps.',
       },
       {
-        heading: 'Understand Key Medicare Enrollment Periods',
-        paragraphs: [
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: '2026 Key Figures at a Glance',
+        calloutText: 'Part B premium: $185/month (standard) | Part A deductible: $1,676 | Part B deductible: $257 | Part D deductible max: $615 | Part D OOP cap: $2,000 | SNF coinsurance: $209.50/day (days 21-100)',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step1-eligibility',
+        text: 'Step 1: Confirm Your Eligibility',
+      },
+      {
+        type: 'paragraph',
+        content: 'Most people become eligible for Medicare at age 65. You qualify for premium-free Part A if you or your spouse worked and paid Medicare taxes for at least 40 quarters (10 years). If you are already receiving Social Security or Railroad Retirement Board benefits, you will be automatically enrolled in Parts A and B the month you turn 65. If you are not yet receiving those benefits, you must actively enroll.',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Confirm you are turning 65 or have a qualifying disability (24 months of SSDI) or ESRD/ALS diagnosis',
+          'Check your Social Security earnings record at ssa.gov to confirm 40 quarters of Medicare-covered work',
+          'Determine whether you will be auto-enrolled or need to sign up actively',
+          'If under 65 and on SSDI, note that automatic enrollment occurs after 24 months of disability benefits',
         ],
       },
       {
-        heading: 'Confirm Your Eligibility for Medicare',
-        paragraphs: [
+        type: 'heading',
+        level: 2,
+        id: 'step2-enrollment-windows',
+        text: 'Step 2: Know Your Enrollment Windows',
+      },
+      {
+        type: 'paragraph',
+        content: 'Missing your enrollment window can result in permanent late enrollment penalties and gaps in coverage. The most important window for most people is the Initial Enrollment Period (IEP), which spans 7 months: the 3 months before your 65th birthday month, your birthday month itself, and the 3 months after. Enrolling in the first 3 months ensures your coverage starts on the first day of your birthday month.',
+      },
+      {
+        type: 'table',
+        headers: ['Enrollment Period', 'When', 'Who It Is For'],
+        rows: [
+          ['Initial Enrollment Period (IEP)', '7-month window around your 65th birthday', 'Everyone turning 65; also applies to those newly qualifying due to disability'],
+          ['Special Enrollment Period (SEP)', 'Up to 8 months after employer coverage ends', 'People with qualifying employer or union coverage at age 65'],
+          ['General Enrollment Period (GEP)', 'January 1 through March 31 each year', 'People who missed their IEP and do not qualify for a SEP; coverage starts July 1'],
+          ['Annual Enrollment Period (AEP)', 'October 15 through December 7 each year', 'Changing Medicare Advantage or Part D plans for the following year'],
+          ['Medicare Advantage OEP (MAOEP)', 'January 1 through March 31 each year', 'Switching or dropping a Medicare Advantage plan'],
         ],
       },
       {
-        heading: 'Decide between Original Medicare and a Medicare Advantage Plan',
-        paragraphs: [
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Still Working at 65? Read This First',
+        calloutText: 'If you have qualifying employer coverage through an employer with 20 or more employees, you can delay Part B without penalty. You will have a Special Enrollment Period when that coverage ends. COBRA and retiree coverage do NOT qualify as employer coverage for this purpose.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step3-understand-parts',
+        text: 'Step 3: Understand What Each Part Covers',
+      },
+      {
+        type: 'table',
+        headers: ['Part', 'What It Covers', '2026 Key Cost'],
+        rows: [
+          ['Part A', 'Inpatient hospital, skilled nursing facility, hospice, some home health', 'Free for most; $1,676 deductible per benefit period'],
+          ['Part B', 'Doctor visits, outpatient services, preventive care, durable medical equipment', '$185/month premium; $257 deductible; 20% coinsurance'],
+          ['Part C (Medicare Advantage)', 'Bundles A + B + usually D; offered by private insurers', 'Varies by plan; often $0 premium but network restrictions apply'],
+          ['Part D', 'Prescription drugs; standalone or bundled with MA', 'Avg $34.50/month; $615 max deductible; $2,000 OOP cap in 2026'],
+          ['Medigap', 'Fills cost gaps in Original Medicare (deductibles, coinsurance)', 'Varies by plan letter and carrier; Plan G most popular in 2026'],
         ],
-        listItems: [
-          'Original Medicare: This is the traditional, government-administered health plan. It consists of Part A (Hospital Insurance) and Part B (Medical Insurance). With Original Medicare, you can visit any doctor or hospital in the country that accepts Medicare. However, it does not cover all of your healthcare costs. You will still be responsible for deductibles, coinsurance, and copayments.',
-          'Medicare Advantage(Part C): These are all-in-one plans offered by private insurance companies that are approved by Medicare. They bundle Part A, Part B, and usually Part D (prescription drugs) into one plan. These plans often have lower premiums but typically use a network of doctors and hospitals, which means you have less freedom to choose your providers.'],
       },
       {
-        heading: 'Compare Prescription Drug Plans',
-        paragraphs: [
+        type: 'heading',
+        level: 2,
+        id: 'step4-choose-path',
+        text: 'Step 4: Choose Your Coverage Path',
+      },
+      {
+        type: 'paragraph',
+        content: 'The single most important decision you will make is whether to go with Original Medicare (Parts A and B) plus a Medigap plan and standalone Part D, or to enroll in a Medicare Advantage plan (Part C). Each path has different trade-offs around cost, flexibility, and coverage.',
+      },
+      {
+        type: 'table',
+        headers: ['Factor', 'Original Medicare + Medigap', 'Medicare Advantage'],
+        rows: [
+          ['Provider network', 'Any doctor or hospital that accepts Medicare nationwide', 'Usually limited to plan network; referrals often required'],
+          ['Out-of-pocket maximum', 'Medigap Plan G: effectively $0 after deductibles', 'Set by plan; max $9,350 in-network (2026 federal limit)'],
+          ['Drug coverage', 'Requires separate Part D plan', 'Usually included in plan'],
+          ['Extra benefits', 'None beyond Medicare', 'Often includes dental, vision, hearing, fitness'],
+          ['Monthly premium', 'Part B + Medigap + Part D (typically $250-$400+ total)', 'Part B + plan premium (often $0-$50)'],
+          ['Best for', 'Frequent travelers, those with chronic conditions, people who want predictable costs', 'Those who prefer lower premiums and do not mind a network'],
         ],
       },
       {
-        heading: 'Evaluate Medicare Supplement (Medigap) Insurance',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'The best time to buy a Medigap policy is during yourMedigap Open Enrollment Period. This six-month window starts on the first day of the month you are both 65 or older and enrolled in Medicare Part B. During this time, you have a guaranteed right to buy any Medigap policy sold in your state, regardless of any pre-existing health conditions. You can learn more about this critical enrollment window in our guide to the Medigap Open Enrollment Period. Some carriers will even allow you to secure your rate up to six months before your Part B begins.Navigating these choices can feel overwhelming, but you do not have to do it alone. To find the perfect Medicare Supplement plan that fits your needs and budget, simply fill out our online form for a free, no-obligation quote.Gather Essential Personal InformationTo ensure a smooth enrollment process, it is wise to gather all your necessary documents ahead of time. When you are ready to apply, you will likely need:Your Social Security cardYour original birth certificate or proof of U.S. citizenshipInformation about any current health insurance coverage you haveYour spouse’s information if you are applying based on their work recordHaving these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-          'Navigating these choices can feel overwhelming, but you do not have to do it alone. To find the perfect Medicare Supplement plan that fits your needs and budget, simply fill out our online form for a free, no-obligation quote.Gather Essential Personal InformationTo ensure a smooth enrollment process, it is wise to gather all your necessary documents ahead of time. When you are ready to apply, you will likely need:Your Social Security cardYour original birth certificate or proof of U.S. citizenshipInformation about any current health insurance coverage you haveYour spouse’s information if you are applying based on their work recordHaving these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No'],
+        type: 'heading',
+        level: 2,
+        id: 'step5-medigap-timing',
+        text: 'Step 5: If Choosing Medigap, Apply During Open Enrollment',
       },
       {
-        heading: 'Gather Essential Personal Information',
-        paragraphs: [
-          'To ensure a smooth enrollment process, it is wise to gather all your necessary documents ahead of time. When you are ready to apply, you will likely need:Your Social Security cardYour original birth certificate or proof of U.S. citizenshipInformation about any current health insurance coverage you haveYour spouse’s information if you are applying based on their work recordHaving these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-          'Having these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No'],
-        listItems: [
-          'Your Social Security card',
-          'Your original birth certificate or proof of U.S. citizenship',
-          'Information about any current health insurance coverage you have',
-          'Your spouse’s information if you are applying based on their work record'],
+        type: 'paragraph',
+        content: 'The Medigap Open Enrollment Period is the 6-month window that begins the month you are both age 65 and enrolled in Part B. During this window, insurers must sell you any Medigap plan they offer at the standard premium, regardless of your health history. This is your best opportunity to get Medigap coverage. Outside this window, most states allow insurers to use medical underwriting and deny your application based on pre-existing conditions.',
       },
       {
-        heading: 'Estimate Your Out-of-Pocket Costs',
-        paragraphs: [
-          'Budgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-          'This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No'],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (0)No'],
-      }],
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Apply for Medigap 3-6 Months Early',
+        calloutText: 'Many carriers will accept a Medigap application up to 6 months before your Part B effective date. Applying early locks in your rate and ensures seamless coverage from day one.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step6-part-d',
+        text: 'Step 6: Enroll in Part D (Even If You Take No Drugs)',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you choose Original Medicare, you should enroll in a Part D plan during your IEP even if you currently take no prescription drugs. Going without creditable drug coverage for 63 or more days after your IEP ends triggers a permanent late enrollment penalty equal to 1% of the national base premium for every month you went without coverage. In 2026 the national base premium is $36.78, so a 12-month gap adds approximately $4.41 per month permanently to your premium.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step7-late-penalties',
+        text: 'Step 7: Understand Late Enrollment Penalties',
+      },
+      {
+        type: 'table',
+        headers: ['Part', 'Penalty', 'How Long It Lasts'],
+        rows: [
+          ['Part A (if not premium-free)', '10% of premium for twice the number of years you delayed', 'Permanent'],
+          ['Part B', '10% of standard premium for each full 12-month period you delayed', 'Permanent (added to your monthly premium for as long as you have Part B)'],
+          ['Part D', '1% of national base premium x number of months without creditable coverage', 'Permanent'],
+        ],
+        footnote: 'Penalties do not apply if you had qualifying employer or union coverage during the delay period.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step8-documents',
+        text: 'Step 8: Gather Required Documents',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Social Security card or Social Security number',
+          'Original birth certificate or other proof of age',
+          'Proof of U.S. citizenship or legal residency',
+          'W-2 forms or self-employment tax returns if applying for premium-free Part A',
+          'Information about any current employer or union health coverage (including employer size)',
+          'Military discharge papers (DD-214) if applicable',
+          'Your spouse\'s information if applying based on their work record',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step9-how-to-enroll',
+        text: 'Step 9: Know How to Enroll',
+      },
+      {
+        type: 'table',
+        headers: ['Method', 'How', 'Best For'],
+        rows: [
+          ['Online', 'ssa.gov/medicare (Parts A and B); Medicare.gov Plan Finder (Part D and MA)', 'Most people; fastest and available 24/7'],
+          ['Phone', 'Call Social Security at 1-800-772-1213 (TTY 1-800-325-0778)', 'Those who prefer guided assistance'],
+          ['In person', 'Visit your local Social Security Administration office', 'Those with complex situations or document questions'],
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step10-extra-help',
+        text: 'Step 10: Check Whether You Qualify for Extra Help or Medicaid',
+      },
+      {
+        type: 'paragraph',
+        content: 'If your income and resources are limited, you may qualify for programs that reduce your Medicare costs significantly. The Extra Help program (also called the Low Income Subsidy) helps pay Part D premiums, deductibles, and copays. In 2026, individuals with income up to approximately $22,590 and resources up to $17,220 may qualify. Dual eligibility for both Medicare and Medicaid provides the most comprehensive low-cost coverage available.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faq',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'When should I start preparing for Medicare enrollment?',
+            answer: 'Start at least 3-6 months before your 65th birthday. This gives you time to compare plans, apply for Medigap during open enrollment, and ensure coverage starts on time.',
+          },
+          {
+            question: 'Do I need to enroll in Medicare if I am still working at 65?',
+            answer: 'It depends on your employer size. If your employer has 20 or more employees, you can delay Part B without penalty. If fewer than 20, Medicare becomes primary and you should enroll in Part B.',
+          },
+          {
+            question: 'What is the difference between Medicare Advantage and Original Medicare?',
+            answer: 'Original Medicare (Parts A and B) lets you see any Medicare-accepting provider nationwide. Medicare Advantage bundles coverage through a private insurer with a network. Advantage plans often have lower premiums but restrict your provider choices.',
+          },
+          {
+            question: 'Can I get dental and vision coverage with Medicare?',
+            answer: 'Original Medicare does not cover routine dental, vision, or hearing. Medicare Advantage plans often include these benefits. Standalone dental and vision plans are also available.',
+          },
+          {
+            question: 'What happens if I miss my Initial Enrollment Period?',
+            answer: 'You can enroll during the General Enrollment Period (January 1 through March 31), but coverage does not start until July 1 and you may owe permanent late enrollment penalties for Part B and Part D.',
+          },
+        ],
+      },
+    ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period"],
   },
   {
