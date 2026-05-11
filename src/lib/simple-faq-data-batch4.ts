@@ -769,6 +769,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '8 min read',
+    sections: [],
     richSections: [
       {
         type: 'paragraph',
