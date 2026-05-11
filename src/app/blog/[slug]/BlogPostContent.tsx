@@ -518,36 +518,6 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 </div>
               )}
 
-              {/* Helpful vote */}
-              <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 text-center shadow-sm">
-                <p className="text-[#1B2A4A] font-semibold mb-4">
-                  Was this article helpful?
-                </p>
-                {helpfulVote === null ? (
-                  <div className="flex justify-center gap-4">
-                    <button
-                      onClick={() => setHelpfulVote("yes")}
-                      className="flex items-center gap-2 px-5 py-2.5 border border-[#E5E7EB] rounded-lg hover:bg-[#F0FDF4] hover:border-[#059669] transition-colors text-[#374151] text-sm font-medium"
-                    >
-                      <ThumbsUp className="w-4 h-4" />
-                      Yes, helpful
-                    </button>
-                    <button
-                      onClick={() => setHelpfulVote("no")}
-                      className="flex items-center gap-2 px-5 py-2.5 border border-[#E5E7EB] rounded-lg hover:bg-[#FEF2F2] hover:border-[#EF4444] transition-colors text-[#374151] text-sm font-medium"
-                    >
-                      <ThumbsDown className="w-4 h-4" />
-                      Not helpful
-                    </button>
-                  </div>
-                ) : (
-                  <p className="text-[#059669] font-medium">
-                    {helpfulVote === "yes"
-                      ? "Thanks for your feedback!"
-                      : "Thanks — we'll work to improve this article."}
-                  </p>
-                )}
-              </div>
 
               {/* Related Articles */}
               {article.relatedSlugs && article.relatedSlugs.length > 0 && (

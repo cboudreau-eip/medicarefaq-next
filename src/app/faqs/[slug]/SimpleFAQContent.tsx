@@ -580,39 +580,6 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                 )}
               </div>
 
-              {/* ─── Helpful Vote ─── */}
-              <div className="mt-12 p-6 bg-white border border-[#E5E7EB] rounded-xl text-center">
-                <p className="text-[#1B2A4A] font-semibold mb-3">
-                  Was this article helpful?
-                </p>
-                <div className="flex items-center justify-center gap-3">
-                  <button
-                    onClick={() => setHelpfulVote("yes")}
-                    className={`flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all ${
-                      helpfulVote === "yes"
-                        ? "bg-emerald-100 text-emerald-700 border-2 border-emerald-300"
-                        : "bg-[#F3F4F6] text-[#6B7280] hover:bg-[#E5E7EB] border-2 border-transparent"
-                    }`}
-                  >
-                    <ThumbsUp className="w-4 h-4" /> Yes
-                  </button>
-                  <button
-                    onClick={() => setHelpfulVote("no")}
-                    className={`flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all ${
-                      helpfulVote === "no"
-                        ? "bg-red-100 text-red-700 border-2 border-red-300"
-                        : "bg-[#F3F4F6] text-[#6B7280] hover:bg-[#E5E7EB] border-2 border-transparent"
-                    }`}
-                  >
-                    <ThumbsDown className="w-4 h-4" /> No
-                  </button>
-                </div>
-                {helpfulVote && (
-                  <p className="text-sm text-[#6B7280] mt-3">
-                    Thank you for your feedback!
-                  </p>
-                )}
-              </div>
 
               {/* ─── CTA Banner ─── */}
               <div className="mt-10 bg-gradient-to-r from-[#1B2A4A] to-[#2D3F63] rounded-2xl p-8 md:p-10 text-center">

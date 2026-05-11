@@ -824,19 +824,6 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 </div>
               </div>
 
-              {/* Helpful Vote */}
-              <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm text-center">
-                <p className="text-[#1B2A4A] font-semibold mb-3">Was this article helpful?</p>
-                <div className="flex items-center justify-center gap-3">
-                  <button onClick={() => setHelpfulVote("yes")} className={`flex items-center gap-2 px-5 py-2.5 rounded-lg border text-sm font-medium transition-all ${helpfulVote === "yes" ? "bg-emerald-50 border-emerald-300 text-emerald-700" : "border-[#E5E7EB] text-[#6B7280] hover:border-emerald-300 hover:text-emerald-600"}`}>
-                    <ThumbsUp className="w-4 h-4" /> Yes
-                  </button>
-                  <button onClick={() => setHelpfulVote("no")} className={`flex items-center gap-2 px-5 py-2.5 rounded-lg border text-sm font-medium transition-all ${helpfulVote === "no" ? "bg-red-50 border-red-300 text-red-700" : "border-[#E5E7EB] text-[#6B7280] hover:border-red-300 hover:text-red-600"}`}>
-                    <ThumbsDown className="w-4 h-4" /> No
-                  </button>
-                </div>
-                {helpfulVote && <p className="text-sm text-[#6B7280] mt-3">Thank you for your feedback!</p>}
-              </div>
 
               {/* Author Bios */}
               <div className="grid md:grid-cols-2 gap-4 mb-10">
