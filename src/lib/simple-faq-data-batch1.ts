@@ -223,6 +223,174 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice", "moving-to-another-state-with-medicare", "how-dual-residency-and-medicare-works"],
   },
   {
+    slug: 'can-my-employer-pay-my-medicare-premiums',
+    seo: {
+      title: 'Can My Employer Pay My Medicare Premiums? (2026 Guide)',
+      description: 'Yes, employers can reimburse Medicare premiums in certain ways -- but the rules are strict. Learn about HRAs, ICHRA, Medicare Secondary Payer rules, and the tax implications of employer Medicare reimbursement.',
+      canonical: 'https://www.medicarefaq.com/faqs/can-my-employer-pay-my-medicare-premiums/',
+      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-premiums-reimbursement-through-employer.jpg',
+    },
+    title: 'Can My Employer Pay My Medicare Premiums?',
+    summary: 'Employers can help pay Medicare premiums, but the rules depend on the size of the employer, the type of arrangement used, and whether you are actively working or retired. This guide explains the legal ways employers can reimburse Medicare premiums, the tax implications, and the important Medicare Secondary Payer rules you need to understand.',
+    category: 'Costs & Savings',
+    dateUpdated: 'May 11, 2026',
+    author: 'David Haass',
+    reviewer: 'Ashlee Zareczny',
+    readTime: '7 min',
+    sections: [],
+    richSections: [
+      {
+        type: 'paragraph',
+        content: 'Many people who are still working past age 65 -- or who are retired and receiving employer-sponsored retiree benefits -- wonder whether their employer can help cover the cost of Medicare premiums. The short answer is yes, but the rules governing how employers can do this are specific and have changed significantly over the past decade. Getting this wrong can create tax problems or, worse, affect your Medicare coverage itself.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: '2026 Medicare Part B Premium',
+        calloutText: 'The standard Medicare Part B premium in 2026 is **$202.90 per month**. Higher-income beneficiaries pay more due to IRMAA surcharges. Part A is premium-free for most people who worked at least 40 quarters.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'can-employer-pay',
+        text: 'Can an Employer Pay Medicare Premiums Directly?',
+      },
+      {
+        type: 'paragraph',
+        content: 'Employers generally **cannot pay Medicare premiums directly** on behalf of an active employee without creating a taxable benefit. If an employer simply adds money to your paycheck to cover Medicare premiums, that amount is treated as taxable wages. However, there are structured arrangements that allow employers to reimburse Medicare premiums on a tax-advantaged basis -- specifically through Health Reimbursement Arrangements (HRAs).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'hra-reimbursement',
+        text: 'Health Reimbursement Arrangements (HRAs): The Legal Way to Reimburse',
+      },
+      {
+        type: 'paragraph',
+        content: 'A **Health Reimbursement Arrangement (HRA)** is an employer-funded account that reimburses employees for qualified medical expenses, including Medicare premiums, on a tax-free basis. The employer funds the HRA; the employee submits receipts for reimbursement. There are two main HRA types relevant to Medicare beneficiaries:',
+      },
+      {
+        type: 'table',
+        headers: ['HRA Type', 'Who It Is For', 'Can It Reimburse Medicare Premiums?', 'Key Rules'],
+        rows: [
+          ['Individual Coverage HRA (ICHRA)', 'Active employees (any size employer)', 'Yes -- Medicare Parts A, B, C, and D premiums qualify', 'Employee must be enrolled in individual health coverage (Medicare qualifies); employer sets the monthly allowance'],
+          ['Qualified Small Employer HRA (QSEHRA)', 'Active employees at employers with fewer than 50 employees', 'Yes -- Medicare premiums qualify', 'Annual reimbursement limits apply ($6,350 individual / $12,800 family in 2025; 2026 limits typically announced mid-year)'],
+          ['Retiree HRA', 'Retired former employees', 'Yes -- Medicare premiums qualify', 'Only available to retirees, not active employees; employer designs the plan'],
+          ['Group HRA (pre-2017 rules)', 'No longer permitted for active employees', 'Not allowed for active employees', 'IRS Notice 2013-54 prohibited standalone HRAs for active employees; ICHRA replaced this in 2020'],
+        ],
+        footnote: 'ICHRA rules were established by final regulations published in June 2019, effective January 1, 2020. QSEHRA limits are adjusted annually by the IRS.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'ichra-details',
+        text: 'ICHRA: The Most Flexible Option for Active Employees',
+      },
+      {
+        type: 'paragraph',
+        content: 'The **Individual Coverage HRA (ICHRA)**, available since January 1, 2020, is the primary mechanism through which employers of any size can reimburse active employees for Medicare premiums tax-free. Under ICHRA rules, Medicare Parts A, B, C (Medicare Advantage), and D premiums all qualify as reimbursable expenses. The employer sets a monthly dollar allowance, and the employee submits documentation of their Medicare premium payments to receive tax-free reimbursement.',
+      },
+      {
+        type: 'paragraph',
+        content: 'There is no annual cap on ICHRA contributions -- employers can set any allowance amount they choose. Employees must be enrolled in Medicare (or another qualifying individual health coverage) to participate. Importantly, employees cannot be offered both an ICHRA and a traditional group health plan for the same class of employees.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'msp-rules',
+        text: 'Medicare Secondary Payer Rules: A Critical Consideration for Active Workers',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you are **actively working** and your employer has 20 or more employees, Medicare Secondary Payer (MSP) rules require your employer group health plan to be the **primary payer** and Medicare to be the **secondary payer**. This has an important implication: if your employer is reimbursing your Medicare premiums and encouraging you to drop the group health plan in favor of Medicare, they may be violating MSP rules.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'MSP Violation Risk',
+        calloutText: 'Employers with 20 or more employees **cannot** offer financial incentives to active employees to drop the employer group health plan and enroll in Medicare as their primary coverage. Doing so violates Medicare Secondary Payer rules and can result in significant penalties for the employer and coverage problems for you.',
+      },
+      {
+        type: 'paragraph',
+        content: 'For employers with **fewer than 20 employees**, Medicare is the primary payer and the employer group plan is secondary. In this situation, it may make more financial sense for the employee to rely primarily on Medicare, and an ICHRA or QSEHRA reimbursement arrangement is a legitimate way for the employer to help cover Medicare premium costs.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'retiree-benefits',
+        text: 'Retiree Benefits: Employer Reimbursement After You Leave Work',
+      },
+      {
+        type: 'paragraph',
+        content: 'Retiree health benefits are a separate category from active employee benefits. Many large employers -- particularly in the public sector, unions, and large corporations -- offer **retiree health plans** that either supplement Medicare or reimburse Medicare premiums. These arrangements are generally not subject to the same MSP restrictions that apply to active employees.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Common retiree benefit structures include:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Retiree HRA:** The employer funds an account that reimburses Medicare premiums and other qualified medical expenses tax-free',
+          '**Employer-sponsored Medicare Advantage plan:** Some large employers contract with an insurer to offer a group Medicare Advantage plan to retirees',
+          '**Medicare Part B premium reimbursement:** Some pension plans include a flat monthly reimbursement for Part B premiums as part of the retirement benefit',
+          '**Medigap group plan:** Some employers offer group Medigap coverage to retirees at lower rates than individual policies',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'tax-implications',
+        text: 'Tax Implications of Employer Medicare Premium Reimbursement',
+      },
+      {
+        type: 'table',
+        headers: ['Arrangement', 'Tax Treatment for Employee', 'Tax Treatment for Employer'],
+        rows: [
+          ['ICHRA reimbursement of Medicare premiums', 'Tax-free (excluded from gross income)', 'Deductible as a business expense'],
+          ['QSEHRA reimbursement of Medicare premiums', 'Tax-free up to annual limits', 'Deductible as a business expense'],
+          ['Employer adds money to paycheck for Medicare', 'Taxable wages (subject to income tax and FICA)', 'Deductible, but employer must pay payroll taxes'],
+          ['Retiree HRA reimbursement', 'Tax-free', 'Deductible as a business expense'],
+          ['Pension plan Medicare Part B reimbursement', 'Generally taxable as pension income', 'Deductible as part of pension obligation'],
+        ],
+        footnote: 'Tax treatment may vary based on individual circumstances. Consult a tax advisor for guidance specific to your situation.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Can my employer pay my Medicare Part B premium directly?',
+            answer: 'Not directly without creating a taxable benefit. The proper way is through an ICHRA or QSEHRA, which reimburses you for Medicare premiums on a tax-free basis after you submit documentation of your premium payments.',
+          },
+          {
+            question: 'Is employer Medicare premium reimbursement taxable income?',
+            answer: 'If done through a properly structured ICHRA or QSEHRA, reimbursements are tax-free. If the employer simply pays you extra money to cover premiums without a formal HRA arrangement, that amount is treated as taxable wages.',
+          },
+          {
+            question: 'Can my employer require me to take Medicare instead of the group health plan?',
+            answer: 'No. If your employer has 20 or more employees, they cannot offer financial incentives for you to drop the group health plan and take Medicare as your primary coverage. This violates Medicare Secondary Payer rules.',
+          },
+          {
+            question: 'My employer has fewer than 20 employees. Can they help me pay for Medicare?',
+            answer: 'Yes. For small employers (fewer than 20 employees), a QSEHRA is a common option. It allows the employer to reimburse Medicare premiums tax-free up to annual IRS limits. An ICHRA is also available with no contribution cap.',
+          },
+          {
+            question: 'Do retiree Medicare reimbursements count toward my IRMAA calculation?',
+            answer: 'IRMAA is based on your modified adjusted gross income (MAGI) from two years prior. Tax-free HRA reimbursements do not count toward MAGI. Taxable pension reimbursements do. Your Medicare premium itself is not affected by whether your employer reimburses it.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "when-should-you-enroll-in-medicare-if-still-working", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-and-hsa-rules-what-happens-when-you-turn-65"],
+  },
+  {
     slug: 'medicare-and-prescription-drugs-whats-covered-and-whats-not',
     seo: {
       title: 'Medicare and Prescription Drugs: What Is Covered and What Is Not? (2026)',
