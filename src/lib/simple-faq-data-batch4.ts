@@ -57,6 +57,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medigap Plan Comparison (2026)',
         headers: ['Plan', 'Part A Deductible', 'Part B Coinsurance', 'Part B Deductible', 'SNF Coinsurance', 'Foreign Travel', 'Best For'],
         rows: [
           ['Plan A', 'Not covered', 'Covered 100%', 'Not covered', 'Not covered', 'Not covered', 'Minimal coverage at lowest premium'],
@@ -108,6 +109,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medigap Pricing Methods Compared',
         headers: ['Pricing Method', 'How It Works', 'Premium at Age 65', 'Premium at Age 80', 'Best For'],
         rows: [
           ['Community-Rated', 'Everyone in the area pays the same premium regardless of age', 'Higher starting premium', 'Same as age 65 (plus general inflation)', 'Beneficiaries who expect to keep the plan long-term'],
@@ -248,6 +250,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medicare Trust Funds',
         headers: ['Trust Fund', 'What It Covers', 'Primary Revenue Sources', 'Financial Status (2026)'],
         rows: [
           ['Hospital Insurance (HI) Trust Fund', 'Part A: inpatient hospital, skilled nursing, hospice, home health', 'Payroll taxes (2.9%), income taxes on Social Security benefits, interest earnings', 'Projected to remain solvent through approximately 2036 per 2025 trustees report'],
@@ -332,6 +335,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medicare Funding Sources at a Glance',
         headers: ['Part', 'Primary Funding Source', 'Secondary Funding Source', '2026 Beneficiary Cost'],
         rows: [
           ['Part A', 'Payroll taxes (2.9%)', 'Income taxes on SS benefits, interest', '$0 premium (if 40+ quarters); $518/month if fewer than 30 quarters'],
@@ -617,6 +621,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medicare-Covered Knee Alternatives',
         headers: ['Treatment', 'Medicare Coverage', 'What You Pay (2026)', 'Notes'],
         rows: [
           ['Corticosteroid (cortisone) injections', 'Yes, Part B', '20% after Part B deductible', 'Covered when medically necessary; typically limited to 3-4 per year per joint'],
@@ -807,6 +812,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Plan G vs. Plan N: Benefit Comparison',
         headers: ['Benefit', 'Plan G', 'Plan N'],
         rows: [
           ['Part A hospital coinsurance (up to 365 extra days)', 'Covered', 'Covered'],
@@ -854,6 +860,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Who Needs a Medicare Supplement Plan?',
         headers: ['Situation', 'Medigap Fits Well?', 'Why'],
         rows: [
           ['Frequent hospitalizations or surgeries', 'Yes', 'Eliminates the $1,676 Part A deductible per benefit period'],
@@ -876,6 +883,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medigap vs. Medicare Advantage',
         headers: ['Feature', 'Medigap + Original Medicare', 'Medicare Advantage'],
         rows: [
           ['Provider network', 'Any Medicare provider nationwide', 'In-network providers only (except emergencies)'],
@@ -920,6 +928,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medigap Pricing Methods',
         headers: ['Pricing Method', 'How It Works', 'Premium Trend Over Time'],
         rows: [
           ['Community-rated', 'Same premium for all enrollees regardless of age', 'Increases only with general inflation; best long-term value'],
@@ -1006,6 +1015,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Guaranteed Issue Windows',
         headers: ['Window', 'Trigger', 'Time Limit', 'Plans Available'],
         rows: [
           ['Medigap Open Enrollment Period', 'First enrolled in Part B at age 65 or older', '6 months from Part B effective date', 'All plans sold in your state'],
@@ -1045,6 +1055,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'State Protections for Medigap Switching',
         headers: ['State', 'Protection', 'How It Works'],
         rows: [
           ['California', 'Birthday Rule', 'During the 60 days following your birthday each year, you can switch to a plan with equal or lesser benefits without underwriting'],
@@ -1085,6 +1096,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Common Reasons to Switch Medigap Plans',
         headers: ['Reason', 'What to Consider'],
         rows: [
           ['Premium increased significantly', 'Compare rates from other carriers for the same plan letter; benefits are identical by law'],
@@ -1193,6 +1205,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medicare Enrollment Periods (2026)',
         headers: ['Enrollment Period', 'When', 'Who It Is For'],
         rows: [
           ['Initial Enrollment Period (IEP)', '7-month window around your 65th birthday', 'Everyone turning 65; also applies to those newly qualifying due to disability'],
@@ -1216,6 +1229,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'What Each Medicare Part Covers',
         headers: ['Part', 'What It Covers', '2026 Key Cost'],
         rows: [
           ['Part A', 'Inpatient hospital, skilled nursing facility, hospice, some home health', 'Free for most; $1,676 deductible per benefit period'],
@@ -1281,6 +1295,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medicare Late Enrollment Penalties',
         headers: ['Part', 'Penalty', 'How Long It Lasts'],
         rows: [
           ['Part A (if not premium-free)', '10% of premium for twice the number of years you delayed', 'Permanent'],
@@ -1316,6 +1331,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'How to Enroll in Medicare',
         headers: ['Method', 'How', 'Best For'],
         rows: [
           ['Online', 'ssa.gov/medicare (Parts A and B); Medicare.gov Plan Finder (Part D and MA)', 'Most people; fastest and available 24/7'],
@@ -1406,6 +1422,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'Medicare Eligibility Paths',
         headers: ['Eligibility Path', 'Age Requirement', 'Key Condition'],
         rows: [
           ['Standard age-based eligibility', '65 or older', 'U.S. citizen or 5-year lawful permanent resident; 40 quarters of Medicare-covered work for premium-free Part A'],
@@ -1426,6 +1443,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'table',
+        title: 'The Four Parts of Medicare',
         headers: ['Part', 'Common Name', 'What It Covers', '2026 Key Cost'],
         rows: [
           ['Part A', 'Hospital Insurance', 'Inpatient hospital stays, skilled nursing facility care (days 1-100), hospice, and some home health care', 'Free for most; $1,676 deductible per benefit period; $0 premium if 40+ work quarters'],

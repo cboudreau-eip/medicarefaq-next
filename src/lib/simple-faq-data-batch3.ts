@@ -214,7 +214,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "Three Ways to Apply for Medicare", id: "three-ways" },
       { type: "paragraph", content: "The Social Security Administration (SSA) handles Medicare enrollment. You can apply through any of the following three methods:" },
-      { type: "table", headers: ["Method", "How It Works", "Best For"], rows: [
+      { type: "table", title: "Three Ways to Apply for Medicare", headers: ["Method", "How It Works", "Best For"], rows: [
         ["Online at ssa.gov", "Visit ssa.gov/medicare, click 'Apply for Medicare Only,' create or log into your my Social Security account, and complete the application (10\u201330 minutes).", "Fastest option \u2014 available 24/7"],
         ["By phone", "Call 1-800-772-1213 (TTY: 1-800-325-0778). Representatives available Mon\u2013Fri, 8 AM\u20137 PM local time.", "If you have questions during the process"],
         ["In person at SSA office", "Find your nearest office at ssa.gov/locator. Schedule an appointment and bring all required documents.", "If you need hands-on help"]
@@ -223,7 +223,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "Medicare Enrollment Periods and Deadlines", id: "enrollment-periods" },
       { type: "paragraph", content: "When you can enroll in Medicare depends on your specific situation. There are three main [enrollment periods](/enrollment/initial-enrollment-period) you should know about:" },
-      { type: "table", headers: ["Enrollment Period", "When It Happens", "Coverage Starts", "Penalty Risk"], rows: [
+      { type: "table", title: "Medicare Enrollment Periods and Deadlines", headers: ["Enrollment Period", "When It Happens", "Coverage Starts", "Penalty Risk"], rows: [
         ["Initial Enrollment Period (IEP)", "7-month window: 3 months before your 65th birthday, your birthday month, and 3 months after", "As early as the 1st of your birthday month (if you enroll in the 3 months before)", "None \u2014 this is your best window"],
         ["Special Enrollment Period (SEP)", "8 months after losing employer coverage or stopping work", "As early as the 1st of the month after enrollment", "None if you enroll within the 8-month window"],
         ["General Enrollment Period (GEP)", "January 1 through March 31 each year", "July 1 of that year", "Yes \u2014 permanent 10% penalty per 12-month gap"]
@@ -256,7 +256,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "When Does Coverage Start?", id: "coverage-start" },
       { type: "paragraph", content: "Your Medicare coverage start date depends on when you enroll and which enrollment period you use:" },
-      { type: "table", headers: ["When You Enroll", "Coverage Start Date"], rows: [
+      { type: "table", title: "When Does Coverage Start?", headers: ["When You Enroll", "Coverage Start Date"], rows: [
         ["3 months before your 65th birthday month", "1st day of your birthday month"],
         ["During your birthday month", "1st day of the following month"],
         ["1 month after your birthday month", "1st day of the 2nd month after enrollment"],
@@ -267,7 +267,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "Understanding Part A vs. Part B", id: "part-a-vs-b" },
       { type: "paragraph", content: "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) and [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) together make up [Original Medicare](/original-medicare). Here is what each part covers and costs in 2026:" },
-      { type: "table", headers: ["Feature", "Part A (Hospital Insurance)", "Part B (Medical Insurance)"], rows: [
+      { type: "table", title: "Part A vs. Part B Comparison", headers: ["Feature", "Part A (Hospital Insurance)", "Part B (Medical Insurance)"], rows: [
         ["Covers", "Hospital stays, skilled nursing, hospice, home health", "Doctor visits, outpatient care, preventive services, equipment"],
         ["2026 Premium", "$0 for most people (free if you/spouse paid Medicare taxes 10+ years)", "$202.90/month (standard; higher for high earners)"],
         ["2026 Deductible", "$1,736 per benefit period", "$283 per year"],
@@ -278,7 +278,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "Avoiding Late Enrollment Penalties", id: "penalties" },
       { type: "paragraph", content: "One of the biggest mistakes new Medicare beneficiaries make is missing their enrollment window. If you do not sign up for Part B when you are first eligible and you do not have qualifying employer coverage, you will face a [late enrollment penalty](/enrollment/late-penalties) that lasts for as long as you have Part B." },
-      { type: "table", headers: ["Penalty Type", "How It Is Calculated", "Example (2026 Rates)"], rows: [
+      { type: "table", title: "Medicare Late Enrollment Penalties", headers: ["Penalty Type", "How It Is Calculated", "Example (2026 Rates)"], rows: [
         ["Part B Late Penalty", "10% of standard premium for each full 12-month period you delayed", "3-year delay = 30% penalty = $240.50/month instead of $202.90"],
         ["Part D Late Penalty", "1% of national base beneficiary premium per month without creditable drug coverage", "24-month gap = ~$8.44/month added permanently"]
       ], footnote: "*These penalties are permanent and cannot be reversed. They are added to your premium for as long as you have the coverage." },
@@ -363,7 +363,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "callout", calloutType: "warning", calloutTitle: "Watch Out", calloutText: "Attained-age plans may look like the cheapest option at 65, but by age 80 they are often the most expensive. Always compare the projected 10-year and 20-year total cost, not just the starting premium." },
 
       { type: "heading", level: 2, text: "Side-by-Side Comparison", id: "comparison" },
-      { type: "table", headers: ["Feature", "Community-Rated", "Issue-Age-Rated", "Attained-Age-Rated"], rows: [
+      { type: "table", title: "Medigap Pricing Methods Compared", headers: ["Feature", "Community-Rated", "Issue-Age-Rated", "Attained-Age-Rated"], rows: [
         ["Premium based on", "Same for everyone", "Age when you bought", "Your current age"],
         ["Increases with age?", "No", "No", "Yes, every year"],
         ["Inflation increases?", "Yes", "Yes", "Yes (on top of age)"],
@@ -374,7 +374,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "How Pricing Methods Affect Your Costs Over Time", id: "cost-over-time" },
       { type: "paragraph", content: "The following example illustrates how the three pricing methods can play out over 15 years for a [Medigap Plan G](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n) policyholder. These are illustrative figures based on typical market rates — your actual premiums will vary by insurer and location." },
-      { type: "table", headers: ["Your Age", "Community-Rated", "Issue-Age-Rated", "Attained-Age-Rated"], rows: [
+      { type: "table", title: "How Pricing Methods Affect Your Costs Over Time", headers: ["Your Age", "Community-Rated", "Issue-Age-Rated", "Attained-Age-Rated"], rows: [
         ["65", "$175/mo", "$140/mo", "$110/mo"],
         ["70", "$195/mo", "$160/mo", "$165/mo"],
         ["75", "$215/mo", "$180/mo", "$230/mo"],
@@ -393,7 +393,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
 
       { type: "heading", level: 2, text: "2026 Average Medigap Premiums by Plan", id: "2026-costs" },
       { type: "paragraph", content: "While premiums vary widely by pricing method, insurer, and location, here are the typical monthly premium ranges for the most popular [Medigap plans](/faqs/average-cost-of-medicare-supplement-plans) in 2026:" },
-      { type: "table", headers: ["Plan", "Monthly Premium Range", "What It Covers"], rows: [
+      { type: "table", title: "2026 Average Medigap Premiums by Plan", headers: ["Plan", "Monthly Premium Range", "What It Covers"], rows: [
         ["Plan G", "$120–$280/mo", "Most comprehensive plan available to new enrollees. Covers everything except the Part B deductible ($283 in 2026)."],
         ["Plan N", "$90–$200/mo", "Lower premiums than Plan G, but you pay up to $20 copay for office visits and up to $50 for ER visits not resulting in admission."],
         ["High-Deductible Plan G", "$30–$70/mo", "Same coverage as Plan G after you meet the $2,950 annual deductible (2026)."]

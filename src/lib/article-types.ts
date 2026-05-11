@@ -212,6 +212,7 @@ export interface BlogSectionContent {
   // For paragraphs
   content?: string;
   // For tables
+  title?: string;
   headers?: string[];
   rows?: string[][];
   footnote?: string;
