@@ -11,26 +11,203 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'choosing-a-medigap-policy',
     seo: {
-      title: 'Choosing a Medicare Supplement (Medigap) Policy',
-      description: 'Choosing a Medicare Supplement (Medigap) policy is essential since they help cover out-of-pocket costs. Know your options to find the best coverage for your needs.',
+      title: 'Choosing a Medigap Policy: A Step-by-Step Guide (2026)',
+      description: 'Learn how to choose the right Medicare Supplement (Medigap) policy in 2026. Compare standardized plans, understand pricing methods, enrollment timing, and how to pick the best carrier.',
       canonical: 'https://www.medicarefaq.com/faqs/choosing-a-medigap-policy/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/What-to-Consider-When-Choosing-a-Medigap-Policy.jpg',
     },
-    title: 'Choosing a Medicare Supplement (Medigap) Policy',
-    summary: '',
+    title: 'Choosing a Medigap Policy: A Step-by-Step Guide',
+    summary: 'Choosing a Medicare Supplement (Medigap) policy involves more than picking a plan letter. You need to understand what each standardized plan covers, when to enroll to avoid medical underwriting, how insurance companies price their premiums, and how to compare carriers offering identical benefits. This guide walks through every step of the decision.',
     category: 'Medicare Supplements',
-    dateUpdated: 'September 27, 2021',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '9 min',
+    sections: [],
+    richSections: [
       {
-        heading: '5 Ways to Reduce Your Medicare Premiums',
-        paragraphs: [
-          'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...'],
-      }],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "how-the-medigap-free-look-period-protects-you", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
+        type: 'paragraph',
+        content: 'A Medicare Supplement (Medigap) policy fills the gaps that [Original Medicare](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) leaves behind: the 20% Part B coinsurance, the Part A hospital deductible, skilled nursing facility coinsurance, and more. But choosing the right Medigap policy is not as simple as picking the plan with the lowest premium. You need to understand the standardized benefit structure, when to enroll to lock in the best price, how carriers price their premiums over time, and what to look for when comparing companies offering identical coverage.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: '2026 Key Figures',
+        calloutText: '**Part B deductible:** $257/year. **Part A deductible:** $1,676 per benefit period. **Part B premium:** $185/month (standard). Plan G covers all gaps except the $257 Part B deductible. Plan N covers most gaps with small office and ER copays.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step-1-understand-standardization',
+        text: 'Step 1: Understand That All Medigap Plans Are Standardized',
+      },
+      {
+        type: 'paragraph',
+        content: 'Federal law requires that Medigap plans be standardized by letter. Every insurer selling Plan G must offer the exact same Plan G benefits, regardless of the company name or the premium charged. This means that when you are comparing two Plan G policies from different carriers, you are comparing identical coverage. The only differences are the premium, the pricing method, the company financial strength, and customer service quality.',
+      },
+      {
+        type: 'paragraph',
+        content: 'There are 10 standardized Medigap plan letters available in most states: A, B, C, D, F, G, K, L, M, and N. Plans C and F are no longer available to beneficiaries who became eligible for Medicare on or after January 1, 2020. For most new enrollees in 2026, the practical choice is between Plan G and Plan N.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'plan-comparison',
+        text: 'Step 2: Compare the Standardized Plan Options',
+      },
+      {
+        type: 'table',
+        headers: ['Plan', 'Part A Deductible', 'Part B Coinsurance', 'Part B Deductible', 'SNF Coinsurance', 'Foreign Travel', 'Best For'],
+        rows: [
+          ['Plan A', 'Not covered', 'Covered 100%', 'Not covered', 'Not covered', 'Not covered', 'Minimal coverage at lowest premium'],
+          ['Plan B', 'Covered 100%', 'Covered 100%', 'Not covered', 'Not covered', 'Not covered', 'Part A protection without Part B deductible coverage'],
+          ['Plan D', 'Covered 100%', 'Covered 100%', 'Not covered', 'Covered 100%', '80% up to $50K', 'Comprehensive minus Part B deductible'],
+          ['Plan G', 'Covered 100%', 'Covered 100%', 'Not covered', 'Covered 100%', '80% up to $50K', 'Most popular for new enrollees; only cost is $257 Part B deductible'],
+          ['Plan K', 'Covered 50%', 'Covered 50%', 'Not covered', 'Covered 50%', 'Not covered', 'Lower premium with $7,220 OOP max (2026)'],
+          ['Plan L', 'Covered 75%', 'Covered 75%', 'Not covered', 'Covered 75%', 'Not covered', 'Lower premium with $3,610 OOP max (2026)'],
+          ['Plan M', 'Covered 50%', 'Covered 100%', 'Not covered', 'Covered 100%', '80% up to $50K', 'Lower premium; shares Part A deductible cost'],
+          ['Plan N', 'Covered 100%', 'Covered 100%*', 'Not covered', 'Covered 100%', '80% up to $50K', 'Lower premium than G; $20 office copay, $50 ER copay'],
+        ],
+        footnote: '*Plan N covers Part B coinsurance in full except for a $20 copay at office visits and a $50 copay at emergency room visits (waived if admitted). Plan N does not cover Part B excess charges.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'Plan G vs. Plan N: The Most Common Decision',
+        calloutText: 'Plan G and Plan N are the two most popular choices for new enrollees. Plan G offers the most comprehensive coverage available, with your only out-of-pocket cost being the $257 annual Part B deductible. Plan N has lower premiums but adds a $20 copay at office visits and a $50 copay at ER visits, and does not cover Part B excess charges. If you see doctors frequently, Plan G may offer better value. If you are generally healthy and want a lower monthly premium, Plan N can save money.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step-3-enrollment-timing',
+        text: 'Step 3: Enroll at the Right Time',
+      },
+      {
+        type: 'paragraph',
+        content: 'The single most important factor in choosing a Medigap policy is **when** you enroll. Your Medigap Open Enrollment Period (OEP) is a one-time, 6-month window that begins the month you are both age 65 or older and enrolled in Medicare Part B. During this window, you have **guaranteed issue rights**: insurers cannot deny you coverage, charge you more, or impose waiting periods based on pre-existing conditions.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Once your OEP closes, insurers in most states can use medical underwriting to evaluate your health history. Common conditions such as diabetes, heart disease, COPD, or a history of cancer can result in denial or significantly higher premiums. A few states (California, Connecticut, Maine, Massachusetts, Minnesota, New York, and Washington) have year-round guaranteed issue protections, but in most states, your OEP is your best and often only opportunity to enroll without underwriting.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Do Not Miss Your Open Enrollment Window',
+        calloutText: 'Your Medigap OEP begins the month you turn 65 AND are enrolled in Part B. It lasts exactly 6 months and does not repeat. If you delay enrolling in Part B (for example, because you have employer coverage), your OEP begins when you do enroll in Part B, not when you turn 65. Missing this window means you may face medical underwriting in most states.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step-4-pricing-methods',
+        text: 'Step 4: Understand How Premiums Are Priced',
+      },
+      {
+        type: 'paragraph',
+        content: 'All carriers offering the same Medigap plan letter provide identical benefits, but they use different methods to set and increase premiums over time. Understanding the [pricing method](/faqs/medicare-supplement-plans-medigap-pricing-methods) is critical because it determines how much your premium will cost in 10 or 20 years, not just today.',
+      },
+      {
+        type: 'table',
+        headers: ['Pricing Method', 'How It Works', 'Premium at Age 65', 'Premium at Age 80', 'Best For'],
+        rows: [
+          ['Community-Rated', 'Everyone in the area pays the same premium regardless of age', 'Higher starting premium', 'Same as age 65 (plus general inflation)', 'Beneficiaries who expect to keep the plan long-term'],
+          ['Issue-Age Rated', 'Premium is set based on your age when you first buy the policy and does not increase due to age', 'Moderate starting premium', 'Same as purchase age (plus inflation)', 'Those enrolling at 65 who want predictable increases'],
+          ['Attained-Age Rated', 'Premium increases as you get older, in addition to general inflation increases', 'Lowest starting premium', 'Significantly higher than at age 65', 'Those focused on lowest initial cost; less predictable long-term'],
+        ],
+        footnote: 'All three methods allow insurers to raise premiums due to inflation and rising healthcare costs. The difference is whether age alone also drives increases. Attained-age plans often start cheapest but can become the most expensive over time.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step-5-compare-carriers',
+        text: 'Step 5: Compare Carriers Offering the Same Plan',
+      },
+      {
+        type: 'paragraph',
+        content: 'Because Medigap benefits are standardized, comparing carriers comes down to four factors: premium, pricing method, financial strength, and customer service. Premium differences for the same plan letter in the same ZIP code can vary by $50 to $150 per month or more between carriers. Over 10 years, that difference can amount to $6,000 to $18,000 in additional costs for identical coverage.',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Premium:** Get quotes from multiple carriers for the same plan letter in your ZIP code. Use a licensed Medicare agent who represents multiple carriers rather than a single company.',
+          '**Pricing method:** Ask each carrier which method they use. Two carriers offering Plan G at the same price today may have very different premiums in 10 years if one uses attained-age and the other uses community-rated pricing.',
+          '**AM Best financial strength rating:** Look for carriers rated A or higher by AM Best. This indicates financial stability and the ability to pay claims long-term.',
+          '**Rate increase history:** Ask how much the carrier has raised premiums in your state over the past 5 years. Some carriers are known for aggressive rate increases; others have more stable histories.',
+          '**Customer service and claims process:** Check state insurance department complaint ratios and online reviews for claims handling and customer service quality.',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step-6-state-variations',
+        text: 'Step 6: Know Your State-Specific Rules',
+      },
+      {
+        type: 'paragraph',
+        content: 'Most states follow the federal standardized plan structure, but a few have their own rules. Massachusetts, Minnesota, and Wisconsin have their own Medigap plan structures that differ from the federal standard. Additionally, several states have enacted birthday rules or anniversary rules that give existing Medigap policyholders a limited annual window to switch to a plan with equal or lesser benefits without underwriting. States with birthday or anniversary rules as of 2026 include California, Illinois, Louisiana, Maryland, Nevada, Oklahoma, Oregon, and Virginia/Utah (recently enacted).',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Birthday Rule States',
+        calloutText: 'If you live in a state with a birthday rule, you have a 30-to-60-day window around your birthday each year to switch Medigap plans without medical underwriting, as long as you move to a plan with equal or lesser benefits. This is a valuable protection if you want to switch carriers or plans after your initial OEP. Check with a licensed agent to confirm your state rules.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'step-7-decision-framework',
+        text: 'Step 7: Use a Decision Framework',
+      },
+      {
+        type: 'paragraph',
+        content: 'After understanding the plan options, enrollment timing, pricing methods, and carrier factors, use the following framework to make your final decision.',
+      },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          '**Decide between Plan G and Plan N first.** If you see doctors regularly or want zero cost-sharing surprises, choose Plan G. If you are generally healthy and want a lower premium, Plan N is worth considering.',
+          '**Get quotes from at least 3 to 5 carriers** for your chosen plan letter in your ZIP code. Use a licensed independent Medicare agent who can access multiple carriers simultaneously.',
+          '**Ask about the pricing method** for each quote. If two quotes are similar today, the one using community-rated or issue-age pricing may be cheaper in 10 years than an attained-age plan.',
+          '**Check the carrier financial rating** (AM Best A or higher) and ask about their rate increase history in your state.',
+          '**Enroll during your OEP** to avoid medical underwriting. If you are already past your OEP, ask about any guaranteed issue rights you may still have, or check if your state has a birthday rule.',
+          '**Use the 30-day free-look period.** Once you receive your new Medigap policy, you have 30 days to review it and return it for a full refund if it does not meet your needs.',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'What is the most popular Medigap plan in 2026?',
+            answer: 'Plan G is the most popular Medigap plan for new enrollees in 2026. It covers all of Original Medicare cost-sharing except the $257 annual Part B deductible, giving you near-complete coverage with predictable costs. Plan F was the most popular historically, but it is no longer available to those who became eligible for Medicare on or after January 1, 2020.',
+          },
+          {
+            question: 'Can I be denied a Medigap policy?',
+            answer: 'During your Medigap Open Enrollment Period (the 6-month window starting when you turn 65 and enroll in Part B), you cannot be denied coverage or charged more due to health conditions. Outside of this window, insurers in most states can use medical underwriting and may deny coverage or charge higher premiums based on your health history.',
+          },
+          {
+            question: 'How much does a Medigap plan cost in 2026?',
+            answer: 'Medigap premiums vary significantly by plan, age, location, carrier, and pricing method. Plan G premiums for a 65-year-old typically range from $100 to $250 per month depending on your ZIP code and carrier. Plan N premiums are generally $20 to $60 per month less than Plan G. Getting quotes from multiple carriers is the best way to find the lowest price for identical coverage.',
+          },
+          {
+            question: 'Does Medigap cover prescription drugs?',
+            answer: 'No. Medigap plans do not include prescription drug coverage. If you have a Medigap plan, you need to enroll in a separate Medicare Part D drug plan to get prescription drug coverage. Enrolling in Part D during your Initial Enrollment Period avoids a late enrollment penalty.',
+          },
+          {
+            question: 'Can I switch Medigap plans after I enroll?',
+            answer: 'You can apply to switch Medigap plans at any time, but outside of your OEP or a guaranteed issue event, you will likely face medical underwriting in most states. If you live in a state with a birthday rule, you have an annual window to switch to an equal or lesser plan without underwriting. Working with a licensed agent can help you identify the best time and strategy for switching.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["what-is-the-best-medicare-supplement-plan", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplement-plans-medigap-pricing-methods", "how-the-medigap-free-look-period-protects-you", "medigap-underwriting-how-preexisting-conditions-still-matter"],
   },
   {
     slug: 'how-is-medicare-funded',
