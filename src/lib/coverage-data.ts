@@ -25620,9 +25620,8 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "Medicare Advantage vs. Original Medicare", description: "Side-by-side comparison of both approaches.", slug: "original-medicare-vs-medicare-advantage" },
       { title: "Medigap vs. Medicare Advantage", description: "Which supplemental approach is right for you?", slug: "medigap-vs-medicare-advantage" },
-      { title: "Medicare Advantage Special Needs Plans", description: "SNPs for dual-eligibles and chronic conditions.", slug: "medicare-advantage-5-star-special-enrollment-period" },
       { title: "Key Questions When Comparing MA Plans", description: "What to ask before you enroll.", slug: "key-questions-to-ask-when-comparing-medicare-advantage-plans" }],
-    sidebarRelatedLinks: ["original-medicare-vs-medicare-advantage", "medigap-vs-medicare-advantage", "medicare-advantage-5-star-special-enrollment-period"],
+    sidebarRelatedLinks: ["original-medicare-vs-medicare-advantage", "medigap-vs-medicare-advantage"],
     ctaBanner: {
       title: "Find the Best All-In-One Medicare Plan for You",
       text: "Our licensed agents can help you compare Medicare Advantage plans in your area and find the right all-in-one coverage for your needs and budget.",
