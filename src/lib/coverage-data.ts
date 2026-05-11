@@ -1839,7 +1839,6 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Your Medicare Rights and Protections", description: "Know your rights as a Medicare beneficiary, including appeal rights and coverage protections.", slug: "your-medicare-rights-and-protections" },
       { title: "HSA and Medicare: What You Need to Know", description: "Learn how having an HSA affects your Medicare enrollment and what rules apply.", slug: "hsa-and-medicare" },
       { title: "Medicare and Employer Coverage: How They Work Together", description: "Learn how Medicare coordinates with employer health insurance and when to enroll.", slug: "medicare-and-employer-coverage" },
-      { title: "Can My Employer Pay My Medicare Premiums?", description: "Find out if your employer can reimburse your Medicare Part B or Part D premiums.", slug: },
       { title: "IRMAA: Why Your Medicare Premiums May be Higher", description: "Learn about IRMAA surcharges that increase Medicare Part B and D premiums for higher earners.", slug: "surprised-by-higher-medicare-premiums-it-could-be-irmaa" },
       { title: "Medicare and COBRA: How They Interact", description: "Understand how Medicare and COBRA coverage work together and which should be primary.", slug: "medicare-cobra" },
       { title: "Native American Health and Medicare", description: "Learn how Medicare works for Native Americans and what special programs are available.", slug: "native-american-health-and-medicare" },
