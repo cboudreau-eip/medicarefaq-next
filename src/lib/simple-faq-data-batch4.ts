@@ -453,25 +453,174 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-covered-alternatives-to-knee-replacement',
     seo: {
-      title: 'Medicare Knee Replacement Coverage and Alternative Treatments',
-      description: 'Medicare covers total knee replacement surgery and alternative therapies and/or injections, including Synvisc and genicular nerve blocks.',
+      title: 'Medicare-Covered Alternatives to Knee Replacement Surgery (2026)',
+      description: 'Medicare covers several non-surgical knee treatments in 2026, including cortisone injections, hyaluronic acid injections, physical therapy, acupuncture, and genicular nerve blocks. Learn what is covered, what is not, and how to avoid out-of-pocket surprises.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-covered-alternatives-to-knee-replacement/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-coverage-for-total-knee-replacements-and-alternative-treatments.jpg',
     },
-    title: 'Medicare Knee Replacement Coverage and Alternative Treatments',
-    summary: '',
+    title: 'Medicare-Covered Alternatives to Knee Replacement Surgery',
+    summary: 'Knee replacement surgery is not always the first or only option for knee pain. Medicare covers several non-surgical treatments that can relieve pain, improve function, and delay or prevent surgery. This guide explains which alternatives Medicare covers in 2026, what you will pay, and which treatments are not covered.',
     category: 'Coverage',
-    dateUpdated: '',
+    dateUpdated: 'May 11, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '7 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Mr Esch,I was looking at the [PRP injection](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) to see if i could possibly get it through Medicare. Found out that it’s not covered. Can i ask why?Ive had 1 [cortisone shot](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) in my knee and it worked ok for about a month and a half. since then ive been dealing with the pain until last week when working on a project and i must have twisted the wrong way and, well lets put it like this the language that came out of my mouth was not proper, but at that time i didnt care. I went to my doctor the first day and the first thing out of his mought after i had gotten xrays was ( we can do 3 things)1. you can have a knee replacement2.i can remove the sist on the back of your knee3 i can give you a cortisone shotWell i took the shot option. However since then ive read up on the different shots available. except medicare wont pay fpr the PRP one. why? They figure ill live to long after it?'],
-      }],
-    relatedSlugs: ["medicare-coverage-for-hip-injections", "medicare-coverage-for-physical-therapy", "does-medicare-cover-chiropractic-care", "medicare-advantage-for-chronic-conditions-what-you-need-to-know"],
+        type: 'paragraph',
+        content: 'Knee pain is one of the most common reasons Medicare beneficiaries visit a doctor. While [knee replacement surgery](/faqs/does-medicare-cover-knee-replacement) is covered by Medicare when medically necessary, it is a major procedure with a significant recovery period. Many patients and their doctors prefer to try conservative, non-surgical treatments first. The good news is that Medicare covers several of these alternatives, though coverage rules vary by treatment type.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: '2026 Key Cost Facts',
+        calloutText: 'Most covered knee treatments fall under **Medicare Part B**. After meeting the Part B deductible ($257 in 2026), you pay **20% coinsurance** for Medicare-approved outpatient services. A Medigap plan such as Plan G covers that 20%, leaving you with no out-of-pocket cost for covered treatments.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'covered-alternatives',
+        text: 'Medicare-Covered Alternatives to Knee Replacement',
+      },
+      {
+        type: 'table',
+        headers: ['Treatment', 'Medicare Coverage', 'What You Pay (2026)', 'Notes'],
+        rows: [
+          ['Corticosteroid (cortisone) injections', 'Yes, Part B', '20% after Part B deductible', 'Covered when medically necessary; typically limited to 3-4 per year per joint'],
+          ['Hyaluronic acid injections (Synvisc, Euflexxa, etc.)', 'Yes, Part B', '20% after Part B deductible', 'Covered for osteoarthritis of the knee; prior authorization may be required by some MA plans'],
+          ['Physical therapy', 'Yes, Part B', '20% after Part B deductible', 'No annual dollar cap since 2018; must be medically necessary and provided by a licensed therapist'],
+          ['Acupuncture for chronic low back pain', 'Yes, Part B (limited)', '20% after Part B deductible', 'Covered only for chronic low back pain; not yet covered for knee pain specifically'],
+          ['Genicular nerve block', 'Yes, Part B', '20% after Part B deductible', 'Covered when medically necessary for chronic knee pain; performed by a pain specialist'],
+          ['Radiofrequency ablation (RFA) of knee nerves', 'Yes, Part B (case-by-case)', '20% after Part B deductible', 'Coverage depends on medical necessity documentation; growing acceptance in 2026'],
+          ['Occupational therapy', 'Yes, Part B', '20% after Part B deductible', 'Covered for functional rehabilitation; helps with daily activities affected by knee pain'],
+          ['Durable medical equipment (knee braces)', 'Yes, Part B', '20% after Part B deductible', 'Covered when prescribed by a doctor and obtained from a Medicare-enrolled supplier'],
+        ],
+        footnote: 'Coverage applies to Original Medicare. Medicare Advantage plans cover the same services but may require prior authorization or restrict you to in-network providers.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'cortisone-injections',
+        text: 'Cortisone (Corticosteroid) Injections',
+      },
+      {
+        type: 'paragraph',
+        content: 'Cortisone injections are one of the most commonly used non-surgical treatments for knee osteoarthritis and inflammation. Medicare Part B covers corticosteroid injections when they are medically necessary and administered by a Medicare-enrolled provider. The injection reduces inflammation in the joint and can provide significant pain relief for weeks to months. Most doctors limit cortisone injections to three or four per year per joint because repeated high-dose injections can accelerate cartilage breakdown over time.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'hyaluronic-acid-injections',
+        text: 'Hyaluronic Acid Injections (Viscosupplementation)',
+      },
+      {
+        type: 'paragraph',
+        content: 'Hyaluronic acid injections, sometimes called viscosupplementation, are used to lubricate the knee joint and reduce pain from osteoarthritis. Brand names include Synvisc, Synvisc-One, Euflexxa, Orthovisc, and Hyalgan. Medicare Part B covers these injections for osteoarthritis of the knee when medically necessary. A series of injections is typically given over three to five weeks, though single-injection formulations are also available.',
+      },
+      {
+        type: 'paragraph',
+        content: 'If you have a Medicare Advantage plan, be aware that some plans require prior authorization before approving hyaluronic acid injections. Always check with your plan before scheduling the procedure to avoid unexpected costs.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'physical-therapy',
+        text: 'Physical Therapy',
+      },
+      {
+        type: 'paragraph',
+        content: '[Physical therapy](/faqs/medicare-coverage-for-physical-therapy) is one of the most evidence-based treatments for knee pain and is strongly recommended by orthopedic guidelines before considering surgery. Medicare Part B covers physical therapy services when they are medically necessary, ordered by a physician, and provided by a licensed physical therapist. Since 2018, there is no annual dollar cap on covered physical therapy services, though a therapist must certify that continued treatment is medically necessary.',
+      },
+      {
+        type: 'paragraph',
+        content: 'A typical physical therapy program for knee osteoarthritis focuses on strengthening the muscles around the knee, improving flexibility and range of motion, and teaching techniques to reduce joint stress during daily activities. Studies consistently show that structured physical therapy can delay or eliminate the need for knee replacement surgery in many patients.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'genicular-nerve-block',
+        text: 'Genicular Nerve Block and Radiofrequency Ablation',
+      },
+      {
+        type: 'paragraph',
+        content: 'A genicular nerve block is an injection that targets the nerves supplying sensation to the knee joint. It is used both as a diagnostic tool and as a pain management treatment for patients who are not good candidates for surgery or who want to avoid it. Medicare Part B covers genicular nerve blocks when medically necessary for chronic knee pain.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Radiofrequency ablation (RFA) of the genicular nerves uses heat to disrupt pain signals from the knee. It can provide longer-lasting relief than a nerve block alone, often six months to two years. Medicare coverage for RFA of the knee nerves is evaluated on a case-by-case basis based on medical necessity. As of 2026, CMS has expanded acceptance of this procedure, and many Medicare Administrative Contractors (MACs) now have local coverage determinations (LCDs) supporting it.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'not-covered',
+        text: 'What Medicare Does Not Cover for Knee Pain',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Platelet-rich plasma (PRP) injections:** Medicare does not cover PRP injections for knee pain. CMS considers PRP experimental for musculoskeletal conditions because clinical evidence has not consistently demonstrated superiority over other covered treatments.',
+          '**Stem cell therapy:** Not covered for knee conditions. The FDA has not approved stem cell injections for knee osteoarthritis, and Medicare only covers FDA-approved treatments.',
+          '**Prolotherapy:** Injections of irritant solutions to stimulate healing are not covered by Medicare.',
+          '**Acupuncture for knee pain:** Medicare currently covers acupuncture only for chronic low back pain. Coverage for knee pain has not been extended as of 2026.',
+          '**Over-the-counter supplements:** Glucosamine, chondroitin, turmeric, and similar supplements are not covered by Medicare Part B or Part D.',
+          '**Experimental devices:** Unproven devices or treatments not approved by the FDA or not supported by Medicare coverage determinations are not covered.',
+        ],
+      },
+      {
+        type: 'callout',
+        calloutType: 'warning',
+        calloutTitle: 'Why PRP Is Not Covered',
+        calloutText: 'PRP injections use a concentration of your own platelets to promote healing. While some studies show promise, CMS has determined that the clinical evidence is not yet sufficient to support routine Medicare coverage. If your doctor recommends PRP, you will pay the full cost out of pocket. Costs typically range from $500 to $2,000 per injection.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'medigap-and-ma',
+        text: 'How Medigap and Medicare Advantage Affect Your Costs',
+      },
+      {
+        type: 'paragraph',
+        content: 'With Original Medicare alone, you pay 20% of the Medicare-approved amount for all covered outpatient knee treatments after meeting the Part B deductible. For patients undergoing multiple injections or extended physical therapy, these costs can add up. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) such as Plan G covers the Part B 20% coinsurance, meaning you pay nothing out of pocket for covered treatments after your annual Part B deductible.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Medicare Advantage plans cover the same treatments as Original Medicare but may require prior authorization for injections and may limit your choice of physical therapists to in-network providers. Some Medicare Advantage plans offer additional benefits such as over-the-counter allowances that can be used for pain relief products, though these do not cover the injections themselves.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'faqs',
+        text: 'Frequently Asked Questions',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Does Medicare cover Synvisc injections?',
+            answer: 'Yes. Medicare Part B covers Synvisc and other hyaluronic acid injections for knee osteoarthritis when medically necessary. You pay 20% coinsurance after the Part B deductible. Some Medicare Advantage plans require prior authorization.',
+          },
+          {
+            question: 'How many cortisone shots will Medicare cover per year?',
+            answer: 'Medicare does not set a strict annual limit on cortisone injections, but coverage requires medical necessity. Most physicians limit injections to three or four per year per joint based on clinical guidelines to avoid cartilage damage from overuse.',
+          },
+          {
+            question: 'Will Medicare pay for a knee brace?',
+            answer: 'Yes. Medicare Part B covers knee braces classified as durable medical equipment (DME) when prescribed by a doctor and obtained from a Medicare-enrolled DME supplier. You pay 20% coinsurance after the Part B deductible.',
+          },
+          {
+            question: 'Does Medicare cover PRP injections for the knee?',
+            answer: 'No. Medicare does not cover platelet-rich plasma (PRP) injections for knee pain. CMS considers PRP experimental for musculoskeletal conditions. You would pay the full cost out of pocket.',
+          },
+          {
+            question: 'Can I get physical therapy instead of knee surgery?',
+            answer: 'Yes, and many orthopedic guidelines recommend trying physical therapy before surgery. Medicare covers physical therapy with no annual dollar cap when it is medically necessary. Studies show that structured PT can significantly reduce pain and improve function, often eliminating the need for surgery.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: ["does-medicare-cover-knee-replacement", "medicare-coverage-for-physical-therapy", "does-medicare-cover-acupuncture", "medicare-coverage-for-hip-injections", "does-medicare-cover-chiropractic-care", "medicare-coverage-for-lower-back-pain-management"],
   },
   {
     slug: 'what-is-a-medicare-supplement-plan-and-who-needs-one',
