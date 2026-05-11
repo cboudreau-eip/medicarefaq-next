@@ -343,67 +343,223 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'surprised-by-higher-medicare-premiums-it-could-be-irmaa',
     seo: {
-      title: 'Surprised by Higher Medicare Premiums? it Could be IRMAA',
-      description: 'Learn why your Medicare premiums may be higher due to IRMAA, who it affects, how it\'s calculated, and your options to appeal.',
+      title: 'Surprised by Higher Medicare Premiums? It Could Be IRMAA | MedicareFAQ',
+      description: 'Learn why your Medicare premiums may be higher due to IRMAA, who it affects in 2026, how income thresholds work, and how to appeal if your situation has changed.',
       canonical: 'https://www.medicarefaq.com/faqs/surprised-by-higher-medicare-premiums-it-could-be-irmaa/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Surprised-by-Higher-Medicare-Premiums-It-Could-Be-IRMAA.jpg',
     },
-    title: 'Surprised by Higher Medicare Premiums? it Could be IRMAA',
-    summary: '',
+    title: 'Surprised by Higher Medicare Premiums? It Could Be IRMAA',
+    summary: 'If your Medicare premiums are higher than you expected, the reason may be IRMAA — the Income-Related Monthly Adjustment Amount. This guide explains what IRMAA is, who pays it in 2026, how the income thresholds work, and what you can do if your income has recently changed.',
     category: 'Costs & Savings',
-    dateUpdated: '',
+    dateUpdated: 'May 8, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '',
-    sections: [
+    readTime: '7 min',
+    sections: [],
+    richSections: [
       {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'paragraph' as const,
+        content: 'If you have noticed your Medicare premiums are higher than expected, you are not alone. Many Medicare beneficiaries are surprised to find an additional charge added to their standard premiums. This added cost is called IRMAA, or the Income-Related Monthly Adjustment Amount. Understanding IRMAA and how it affects your Medicare costs is key to managing your healthcare budget in retirement.',
       },
       {
-        heading: 'What is IRMAA?',
-        paragraphs: [
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'What Is IRMAA?',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'IRMAA is an additional amount that some Medicare beneficiaries must pay on top of their standard [Medicare Part B](/faqs/what-is-medicare-part-b) and [Part D](/faqs/what-is-medicare-part-d) premiums. It applies only to individuals or couples whose income exceeds a certain threshold, and it is based on your reported income from two years prior.',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'For example, your 2026 Medicare premiums are based on your 2024 tax return. If your income during that year was above the set limit, you will see an increase in your monthly Medicare premiums. The Social Security Administration (SSA) uses your income information from the IRS to determine whether IRMAA applies and will send you a notice explaining your new premium amount.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Who Must Pay IRMAA in 2026?',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Not everyone enrolled in Medicare pays IRMAA. This adjustment applies only to higher-income individuals. In 2026, IRMAA applies if:',
+      },
+      {
+        type: 'list' as const,
+        ordered: false,
+        items: [
+          'You are filing individually and your modified adjusted gross income (MAGI) is more than **$109,000**.',
+          'You are married and filing jointly with a MAGI over **$218,000**.',
+          'You are married but filing separately with a MAGI over **$109,000**.',
         ],
       },
       {
-        heading: 'Who Must Pay IRMAA?',
-        paragraphs: [
+        type: 'callout' as const,
+        calloutType: 'info' as const,
+        calloutTitle: 'What Is MAGI?',
+        calloutText: 'Your modified adjusted gross income (MAGI) is your adjusted gross income (AGI) plus any tax-exempt interest income. It is the figure SSA uses to determine your IRMAA bracket. One-time income events such as a large IRA distribution, capital gain, or severance payment can push your MAGI above the threshold even if your regular income is below it.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: '2026 IRMAA Income Thresholds and Premium Amounts',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'The amount you pay depends on your income bracket. The tables below show the 2026 IRMAA thresholds and the resulting total monthly premiums for Part B and Part D.',
+      },
+      {
+        type: 'heading' as const,
+        level: 3 as const,
+        text: 'Part B IRMAA Surcharges for 2026',
+      },
+      {
+        type: 'table' as const,
+        headers: ['Individual MAGI (2024)', 'Joint MAGI (2024)', 'Total Monthly Part B Premium'],
+        rows: [
+          ['$109,000 or less', '$218,000 or less', '$202.90 (standard — no surcharge)'],
+          ['$109,001 to $136,999', '$218,001 to $273,999', '$284.10'],
+          ['$137,000 to $170,999', '$274,000 to $341,999', '$405.80'],
+          ['$171,000 to $204,999', '$342,000 to $409,999', '$527.50'],
+          ['$205,000 to $499,999', '$410,000 to $749,999', '$649.20'],
+          ['$500,000 or more', '$750,000 or more', '$689.90'],
         ],
-        listItems: [
-          `You’re filing individually and your modified adjusted gross income (MAGI) is more than ${MEDICARE_COSTS.irmaa.individualLevel1}.`,
-          `You’re married and filing jointly with a MAGI over ${MEDICARE_COSTS.irmaa.jointLevel1}.`],
       },
       {
-        heading: 'How Much More Will You Pay?',
-        paragraphs: [
+        type: 'heading' as const,
+        level: 3 as const,
+        text: 'Part D IRMAA Surcharges for 2026',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Part D IRMAA is an additional monthly amount added on top of whatever your plan charges. The surcharge is paid directly to Medicare, not to your Part D plan.',
+      },
+      {
+        type: 'table' as const,
+        headers: ['Individual MAGI (2024)', 'Joint MAGI (2024)', 'Additional Monthly Part D Cost'],
+        rows: [
+          ['$109,000 or less', '$218,000 or less', '$0 (no surcharge)'],
+          ['$109,001 to $136,999', '$218,001 to $273,999', '+$14.50'],
+          ['$137,000 to $170,999', '$274,000 to $341,999', '+$37.50'],
+          ['$171,000 to $204,999', '$342,000 to $409,999', '+$60.40'],
+          ['$205,000 to $499,999', '$410,000 to $749,999', '+$83.30'],
+          ['$500,000 or more', '$750,000 or more', '+$91.00'],
         ],
-        listItems: [
-          'Part B IRMAA:Can increase your monthly premium by about $81 to over $487, depending on your income tier.',
-          'Part D IRMAA:Adds roughly $12 to $81 to your Part D monthly premium.'],
       },
       {
-        heading: 'How is IRMAA Calculated?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'How Is IRMAA Calculated?',
       },
       {
-        heading: 'Why IRMAA Matters',
-        paragraphs: [
+        type: 'paragraph' as const,
+        content: 'IRMAA is calculated using your MAGI from two years prior. SSA receives this data directly from the IRS and uses it to determine whether a surcharge applies and at which tier.',
+      },
+      {
+        type: 'list' as const,
+        ordered: true,
+        items: [
+          'You file your federal tax return for 2024.',
+          'The IRS shares your MAGI data with SSA.',
+          'SSA compares your 2024 MAGI against the 2026 IRMAA thresholds.',
+          'If your MAGI exceeds the threshold, SSA sends you an Initial IRMAA Determination Notice.',
+          'The surcharge is added to your monthly Part B and/or Part D premium beginning in January 2026.',
         ],
       },
       {
-        heading: 'Can You Appeal an IRMAA Decision?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-        listItems: [
-          'Retirement',
-          'Loss of pension',
-          'Marriage or divorce',
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Why IRMAA Matters for Retirement Planning',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Understanding IRMAA is important because it directly affects your healthcare budget. Many people planning for retirement assume that Medicare will cost the same for everyone. IRMAA adds a layer of complexity and potential financial strain, especially for retirees living on a fixed income.',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'IRMAA can apply even if your income spike was temporary. A one-time capital gain, a large IRA distribution, a Roth conversion, or a severance payout can all push your MAGI above the threshold for a single year, resulting in a higher premium two years later. If you are close to the income threshold, it may be worth working with a financial planner to manage your MAGI proactively.',
+      },
+      {
+        type: 'callout' as const,
+        calloutType: 'tip' as const,
+        calloutTitle: 'Planning Tip',
+        calloutText: 'If you are approaching retirement and expect a one-time income event such as a Roth conversion or property sale, consider the two-year look-back rule. Income that pushes you above the IRMAA threshold in 2024 will affect your 2026 premiums. Strategic timing of income events can sometimes help you avoid or minimize IRMAA.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Can You Appeal an IRMAA Decision?',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'Yes. If your income has dropped due to a life-changing event, the SSA allows you to file **Form SSA-44** to request a reconsideration using more recent income data. Common qualifying life-changing events include:',
+      },
+      {
+        type: 'list' as const,
+        ordered: false,
+        items: [
+          'Retirement or reduction in work hours',
+          'Loss of income-producing property',
+          'Loss of pension income',
+          'Marriage, divorce, or annulment',
           'Death of a spouse',
-          'Was this article helpful ?',
-          'Yes (5)No'],
-      }],
+          'Settlement from an employer',
+        ],
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'When filing Form SSA-44, you will need to provide documentation that supports the change in your income, such as a letter from your employer confirming retirement or a copy of a death certificate. Appeals are time-sensitive, so it is important to act quickly after receiving your IRMAA notice.',
+      },
+      {
+        type: 'callout' as const,
+        calloutType: 'warning' as const,
+        calloutTitle: 'Act Quickly on IRMAA Notices',
+        calloutText: 'You have 60 days from the date on your IRMAA determination notice to file a formal appeal with SSA. Missing this window does not permanently bar you from appealing, but it does add complexity to the process. If you believe your IRMAA determination is based on incorrect or outdated income data, contact SSA as soon as possible.',
+      },
+      {
+        type: 'heading' as const,
+        level: 2 as const,
+        text: 'Managing Your Medicare Costs With IRMAA',
+      },
+      {
+        type: 'paragraph' as const,
+        content: 'While IRMAA cannot always be avoided, there are steps you can take to reduce its impact:',
+      },
+      {
+        type: 'list' as const,
+        ordered: false,
+        items: [
+          '**Appeal if your income has changed.** If a life-changing event has reduced your income since the look-back year, file Form SSA-44 promptly.',
+          '**Work with a financial planner.** Strategic income management in the years before Medicare enrollment can help you stay below IRMAA thresholds.',
+          '**Consider a Medigap plan.** If you are subject to IRMAA and also face high out-of-pocket costs under Original Medicare, a [Medicare Supplement plan](/faqs/what-is-medicare-supplement-insurance) can provide predictable costs regardless of your premium tier.',
+          '**Review your IRMAA tier annually.** Your IRMAA bracket is recalculated each year based on your most recent available tax return. A drop in income can move you to a lower tier or eliminate the surcharge entirely.',
+        ],
+      },
+      {
+        type: 'faq' as const,
+        faqs: [
+          {
+            question: 'What income is used to calculate IRMAA in 2026?',
+            answer: 'Your 2026 IRMAA surcharge is based on your 2024 modified adjusted gross income (MAGI). MAGI includes your adjusted gross income plus any tax-exempt interest income. SSA receives this data directly from the IRS.',
+          },
+          {
+            question: 'Does IRMAA apply to Medicare Advantage plans?',
+            answer: 'IRMAA applies to Part B and Part D premiums regardless of whether you are enrolled in Original Medicare or a Medicare Advantage plan. If your Medicare Advantage plan includes Part D drug coverage, the Part D IRMAA surcharge still applies and is paid directly to Medicare on top of your plan premium.',
+          },
+          {
+            question: 'Can IRMAA be reduced if my income drops?',
+            answer: 'Yes. If your income has dropped due to a qualifying life-changing event such as retirement, divorce, or the death of a spouse, you can file Form SSA-44 to request that SSA use more recent income data to recalculate your IRMAA. If approved, your surcharge will be adjusted accordingly.',
+          },
+          {
+            question: 'Is IRMAA the same every year?',
+            answer: 'No. IRMAA thresholds and surcharge amounts are adjusted annually. Each year, SSA recalculates your IRMAA based on the most recent available tax return. Your surcharge can go up, go down, or be eliminated entirely depending on changes to your income and to the annual thresholds.',
+          },
+          {
+            question: 'Does IRMAA affect Medigap premiums?',
+            answer: 'No. IRMAA only affects your Medicare Part B and Part D premiums. It does not affect the premium you pay for a Medicare Supplement (Medigap) plan. Your Medigap premium is set by the insurance carrier and is not tied to your income.',
+          },
+        ],
+      },
+    ],
     relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
   },
   // does-medicare-cover-cologuard moved to coverage-data.ts
