@@ -125,8 +125,7 @@ export const googleReviews: GoogleReview[] = [
     rating: 5,
     date: "4 months ago",
     text: "This morning I worked with Olivia Colon to correct some errors on my new plan. I was upset when I called and Olivia was very patient and understanding, helping to correct these errors and helping me find new doctors in my plan. Great customer service Olivia! Keep up the good work.",
-  },
-];
+  }];
 
 /**
  * Returns `count` randomly selected reviews from the pool.

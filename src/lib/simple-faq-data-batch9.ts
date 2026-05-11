@@ -61,8 +61,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
           "Most outpatient prescription drugs",
           "Routine foot care and most alternative therapies",
           "Cosmetic or elective procedures",
-          "Healthcare received outside the United States",
-        ],
+          "Healthcare received outside the United States"],
       },
       {
         type: "paragraph",
@@ -228,16 +227,14 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
           "Coverage Area",
           "Original Medicare",
           "Medigap",
-          "Medicare Advantage",
-        ],
+          "Medicare Advantage"],
         rows: [
           ["Hospital deductible & coinsurance", "Partially", "Yes (most plans)", "Varies by plan"],
           ["Routine dental", "No", "No", "Often yes"],
           ["Routine vision & hearing", "No", "No", "Often yes"],
           ["Prescription drugs", "No", "No", "Often yes (MAPD)"],
           ["Foreign travel emergency", "No", "Yes (select plans)", "Rarely"],
-          ["Long-term custodial care", "No", "No", "No"],
-        ],
+          ["Long-term custodial care", "No", "No", "No"]],
       },
       {
         type: "heading",
@@ -357,16 +354,12 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
             question: "Are there any Medicare plans that cover everything?",
             answer:
               "No single Medicare plan covers every possible healthcare expense. Medigap plans come closest to covering Original Medicare's cost-sharing gaps, while Medicare Advantage plans add extras like dental and vision. Long-term care, most cosmetic procedures, and international healthcare remain uncovered by all Medicare options.",
-          },
-        ],
-      },
-    ],
+          }],
+      }],
     relatedSlugs: [
       "medicare-dental-coverage",
       "does-medicare-cover-hearing-aids",
       "does-medicare-cover-vision",
       "medicare-long-term-care",
-      "medicare-part-d",
-    ],
-  },
-];
+      "medicare-part-d"],
+  }];

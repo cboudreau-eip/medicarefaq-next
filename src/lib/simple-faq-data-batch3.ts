@@ -26,10 +26,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...'],
+      }],
     relatedSlugs: ["medicare-annual-wellness-visit", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-colonoscopy-screenings", "medicare-coverage-for-mammograms"],
   },
   {
@@ -52,10 +50,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
-        ],
-      },
-    ],
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...'],
+      }],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-parts-a-b-c-and-d-explained-simply", "understanding-how-medicare-works-with-employer-health-plans", "medigap-vs-medicare-advantage"],
   },
   {
@@ -78,10 +74,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         heading: 'What is Medicare?',
         paragraphs: [
           'Updated on June 6, 2025',
-          'You may find yourself asking, [what is Medicare](/faqs/what-is-medicare)? Medicare is a [federally-run health insurance program](/faqs/how-is-medicare-funded)...',
-        ],
-      },
-    ],
+          'You may find yourself asking, [what is Medicare](/faqs/what-is-medicare)? Medicare is a [federally-run health insurance program](/faqs/how-is-medicare-funded)...'],
+      }],
     relatedSlugs: ["applying-for-medicare", "when-should-you-enroll-in-medicare-if-still-working", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
   },
   {
@@ -115,8 +109,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         items: [
           'Electronic Medicare Summary Notices (eMSN)',
           'Medicare and You handbook in digital formats',
-          'Automatic premium payments',
-        ],
+          'Automatic premium payments'],
       },
       {
         type: 'paragraph' as const,
@@ -156,8 +149,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         items: [
           'It is less bulky to store.',
           'Information is more current because it is updated throughout the year. The paper version is only updated once a year.',
-          'You can access the electronic version on a mobile device wherever you are.',
-        ],
+          'You can access the electronic version on a mobile device wherever you are.'],
       },
       {
         type: 'heading' as const,
@@ -190,10 +182,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
           {
             question: 'Do Medicare Advantage and Part D plans offer paperless billing?',
             answer: 'Paperless billing for Medicare Advantage, Part D, and Medigap plans varies by insurance company. Contact your plan carrier directly to find out what electronic billing and statement options are available.',
-          },
-        ],
-      },
-    ],
+          }],
+      }],
     sections: [],
     relatedSlugs: ["medicare-easy-pay", "5-things-to-do-after-you-receive-your-medicare-card", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "medicare-enrollment-checklist"],
   },
@@ -450,96 +440,6 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "average-cost-of-medicare-supplement-plans", "how-medigap-plans-affect-your-overall-medicare-costs", "the-essentials-medicare-supplement-vs-medicare-advantage-explained"],
   },
   {
-    slug: 'hospital-indemnity-insurance',
-    seo: {
-      title: 'How Does Hospital Indemnity Insurance Work with Medicare?',
-      description: 'Medicare hospital indemnity insurance is useful for those with high-deductible policies. They can help lower your costs for a hospital stay.',
-      canonical: 'https://www.medicarefaq.com/faqs/hospital-indemnity-insurance/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/hospital-indemnity-insurance.jpg',
-    },
-    title: 'How Does Hospital Indemnity Insurance Work with Medicare?',
-    summary: '',
-    category: 'Medicare Part A',
-    dateUpdated: '',
-    author: 'David Haass',
-    reviewer: '',
-    readTime: '',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-      },
-      {
-        heading: 'What is Hospital Indemnity Insurance?',
-        paragraphs: [
-        ],
-        listItems: [
-          'Before your hospital stay',
-          'During your hospital stay',
-          'After your hospital stay',
-          'During an outpatient hospitalization',
-        ],
-      },
-      {
-        heading: 'How Does Hospital Indemnity Coverage Work?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
-      },
-      {
-        heading: 'Is a Hospital Indemnity Plan Right for Me?',
-        paragraphs: [
-        ],
-        listItems: [
-          'If you want a policy that doesn’t place network limits on doctors or hospitals',
-          'You don’t want to have a designated primary care physician.',
-          'You’ll need to be able to pay for your services upfront.',
-        ],
-      },
-      {
-        heading: 'Hospital Indemnity Insurance Benefits',
-        paragraphs: [
-        ],
-        listItems: [
-          'Your hospital Admission for the first five days',
-          'Transportation viaambulance',
-          'Emergency room care',
-          'Radiology and lab benefits',
-          'Skilled Nursing Facilitycoverage',
-        ],
-      },
-      {
-        heading: 'How Does Hospital Indemnity Coverage Work with Medicare?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey',
-          'Since these plans are Supplemental, you can gain relief by pairing this plan with yourPart AandMedicare Part B. But will Indemnity insurance work with other forms of Medicare?Hospital Indemnity and MedigapHospital Indemnity insurance and Medigap can work together to bring you ultimate savings. Medigap helps with medical copays and deductibles that Medicare won’t pay. But Medigap won’t provide the same coverage as Hospital Indemnity insurance.Why? Well, Indemnity plans can help pay household costs. If you’re in the hospital and unable to contribute financially at home, this insurance can help pick up those costs.While you’re in the hospital, you want your life to continue running as normally as possible. Medigap helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
-        ],
-      },
-      {
-        heading: 'Hospital Indemnity and Medigap',
-        paragraphs: [
-          'Hospital Indemnity insurance and Medigap can work together to bring you ultimate savings. Medigap helps with medical copays and deductibles that Medicare won’t pay. But Medigap won’t provide the same coverage as Hospital Indemnity insurance.Why? Well, Indemnity plans can help pay household costs. If you’re in the hospital and unable to contribute financially at home, this insurance can help pick up those costs.While you’re in the hospital, you want your life to continue running as normally as possible. Medigap helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
-          'Why? Well, Indemnity plans can help pay household costs. If you’re in the hospital and unable to contribute financially at home, this insurance can help pick up those costs.While you’re in the hospital, you want your life to continue running as normally as possible. Medigap helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
-          'While you’re in the hospital, you want your life to continue running as normally as possible. [Medigap](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) helps reduce your health care costs. But with an Indemnity policy, you can gain that extra cost protection on the home front as well.Hospital Indemnity and Medicare Advantage CoverageHospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
-        ],
-      },
-      {
-        heading: 'Hospital Indemnity and Medicare Advantage Coverage',
-        paragraphs: [
-          'Hospital Indemnity policies can produce price predictability alongside yourMedicare Advantage plan. Advantage plans usually have low premiums. But Advantage policies can include deductibles, copays, and coinsurance making them more costly.Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
-          'Indemnity insurance joins works with Medicare Advantage to help you pay even less for health coverage. If you want the ultimate protection, these two policies may work for you! The results? Comprehensive coverage can give you peace of mind and pocketbook savings!FAQsDoes hospital indemnity cover outpatient surgery?Hospital Indemnity insurance will cover costs like hospital stays, outpatient surgery, inpatient services, ER visits, doctors’ office, and diagnostic tests.What is the difference between hospital indemnity and accident insurance?Accident insurance covers an accident or injury, whereas hospital indemnity would cover you in the hospital.What other benefits come with an indemnity plan?Yes, after the first full year you’ll have coverage at 70% for major services like dentures andhearing aids.Was this article helpful ?Yes (5)No',
-        ],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (5)No',
-        ],
-      },
-    ],
-    relatedSlugs: ["what-is-medicare-cost-sharing", "what-is-medicare-assignment", "average-cost-of-medicare-supplement-plans", "do-i-really-need-supplemental-insurance-with-medicare"],
-  },
-  {
     slug: 'special-enrollment-periods-explained-what-triggers-them-and-how-to-take-advantage',
     seo: {
       title: 'Special Enrollment Periods Explained: What Triggers Them and How to Take Advantage',
@@ -558,8 +458,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'The Most Common Special Enrollment Periods',
@@ -570,8 +469,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
           'Losing Other Health Coverage: This is a very common one. If you lose employer-sponsored health coverage (either your own or a spouse’s), COBRA, or other types of creditable prescription drug coverage, you will get an SEP to sign up for a Medicare plan.',
           'Your Plan Changes Its Contract with Medicare: If your Medicare Advantage orPart Dplan leaves the Medicare program or changes its service area, you will be granted an SEP to find new coverage.',
           'Qualifying for or LosingExtra Help: If you become eligible for Medicaid or the Part D Low-Income Subsidy (Extra Help), or if you lose this eligibility, you can make changes to your coverage.',
-          'Living in an Institution: If you move into or out of askilled nursing facilityor long-term care hospital, this event typically triggers an SEP.',
-        ],
+          'Living in an Institution: If you move into or out of askilled nursing facilityor long-term care hospital, this event typically triggers an SEP.'],
       },
       {
         heading: 'What Can You do during a Special Enrollment Period?',
@@ -583,24 +481,20 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         paragraphs: [
           'Let us help you navigate your Medicare journey',
           'For example, if you move, your SEP generally starts the month you inform your plan of the move and continues for two full months after. If you lose employer coverage, you typically have an 8-month SEP to enroll in Part A and/or Part B. However, your window to enroll in a Medicare Advantage or Part D plan is often shorter, usually around 60 days from when your other coverage ends.Missing this window could mean you have to wait until the nextAnnual Enrollment Periodto make changes, which could leave you with a gap in coverage.Tips for Making the Most Out of a Special Enrollment PeriodA Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No',
-          'Missing this window could mean you have to wait until the nextAnnual Enrollment Periodto make changes, which could leave you with a gap in coverage.Tips for Making the Most Out of a Special Enrollment PeriodA Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No',
-        ],
+          'Missing this window could mean you have to wait until the nextAnnual Enrollment Periodto make changes, which could leave you with a gap in coverage.Tips for Making the Most Out of a Special Enrollment PeriodA Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No'],
       },
       {
         heading: 'Tips for Making the Most out of a Special Enrollment Period',
         paragraphs: [
-          'A Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No',
-        ],
+          'A Special Enrollment Period is a valuable opportunity to ensure your health coverage continues to meet your needs. Here are a few tips to make the process smoother:Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.Was this article helpful ?Yes (0)No'],
         listItems: [
           'Understand Your Options: Take the time to review all available choices. Do you want the network restrictions of a Medicare Advantage plan, or the freedom of Original Medicare?',
           'Review Your Prescriptions: If you are joining a new Part D or Medicare Advantage plan, make sure your medications are on the plan’s formulary to avoid unexpected high costs.',
           'Consider Long-Term Stability: Life events that trigger SEPs are a reminder that things can change unexpectedly. A Medicare Supplement plan can provide a stable foundation by covering many of the out-of-pocket costs that come with Original Medicare, like deductibles and coinsurance. This can protect your budget from surprise medical bills.',
           'Do Not Wait Until the Last Minute: The clock starts ticking as soon as your qualifying event happens. Start researching your options immediately so you do not feel rushed into a decision.',
           'Was this article helpful ?',
-          'Yes (0)No',
-        ],
-      },
-    ],
+          'Yes (0)No'],
+      }],
     relatedSlugs: ["medicare-special-enrollment-periods", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
   },
   {
@@ -625,10 +519,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         heading: 'Top 10 Most Expensive States for Medigap Plans',
         paragraphs: [
           'Updated on March 15, 2023',
-          '[Medicare Supplement](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) ([Medigap](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one)) plan premiums vary from state to state. Although the benefits are standardized,...',
-        ],
-      },
-    ],
+          '[Medicare Supplement](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) ([Medigap](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one)) plan premiums vary from state to state. Although the benefits are standardized,...'],
+      }],
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplements-cost-vs-value-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
   },
   {
@@ -650,8 +542,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Why a Power of Attorney Matters When You’re on Medicare',
@@ -673,14 +564,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         paragraphs: [
           'Let us help you navigate your Medicare journey',
           'If you want someone to not only access information but also make decisions on your behalf, such as selecting a new plan or handling billing issues, you’ll need to fill out a Medicare Authorization Representative form for certain services or work directly with private insurance carriers for supplemental plans likeMedigap PlansorMedicare Part C(Medicare Advantage).For those unfamiliar with the Medicare system, it’s important to know that Medicare is divided into parts,Original Medicareincludes Part A (hospital insurance) and Part B (medical insurance), and other options like Medigap and Medicare Advantage may involve private insurers. Each type of coverage may have its own rules for authorizing someone to act on your behalf. Knowing this can help you and your POA agent avoid delays or denied requests down the road.Was this article helpful ?Yes (0)No',
-          'For those unfamiliar with the Medicare system, it’s important to know that Medicare is divided into parts,Original Medicareincludes Part A (hospital insurance) and Part B (medical insurance), and other options like Medigap and Medicare Advantage may involve private insurers. Each type of coverage may have its own rules for authorizing someone to act on your behalf. Knowing this can help you and your POA agent avoid delays or denied requests down the road.Was this article helpful ?Yes (0)No',
-        ],
+          'For those unfamiliar with the Medicare system, it’s important to know that Medicare is divided into parts,Original Medicareincludes Part A (hospital insurance) and Part B (medical insurance), and other options like Medigap and Medicare Advantage may involve private insurers. Each type of coverage may have its own rules for authorizing someone to act on your behalf. Knowing this can help you and your POA agent avoid delays or denied requests down the road.Was this article helpful ?Yes (0)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (0)No',
-        ],
-      },
-    ],
+          'Yes (0)No'],
+      }],
     relatedSlugs: ["medicare-social-security-and-power-of-attorney", "how-can-i-get-medicare-for-my-mom-or-dad", "applying-for-medicare", "what-to-do-if-you-lose-your-medicare-card-a-step-by-step-guide"],
   },
   {
@@ -703,10 +591,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many [[Medicare](/faqs/what-is-medicare)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
+          'It is common to have many [[Medicare](/faqs/what-is-medicare)-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...'],
+      }],
     relatedSlugs: ["what-is-medicare", "medicare-parts-a-b-c-and-d-explained-simply", "medicare-news", "guide-to-retirement-planning"],
   },
   {
@@ -728,10 +614,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       {
         heading: '',
         paragraphs: [
-          'Mostly, my point was that the [Medigap select plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) are being marketed as a supplement unless you are smart enough to ask about the [preferred list of providers](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) you must use or have payment excluded. [Read the contract](/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan). Great article. I thought a supplement was a supplement covering the 20% until I found this article! Why BCBS in AL you ask. 1. Probably 95% of providers accept BCBS. 2. Checked on a Humana supplement G and some of my doctors did not participate. 3. The marketplace has nothing to do with Medicare to my knowledge but all insurers in AL have pulled out of that but BCBS. While others may sell insurance, they are not interested in providing a competitive market and may not cover a lot of counties. 4. Some of the Aetna policies in my area are underwritten by Continental Insurance in Brentwood, TN. Not good or bad just not Aetna. 5. In my mind if you buy a Medicare supplement it needs to be long term with a company that will be there and it does not need to be a select supplement PPO or HMO that if someone gets in the mix who is not a select or preferred provider then it is not covered. 6. I found a lot of complaints on Humana and United Healthcare. Valid or not I cannot say but where there is smoke…Note that some companies charge more for a Medigap Select than other for a full Medigap. Great site. Keep up the good work.',
-        ],
-      },
-    ],
+          'Mostly, my point was that the [Medigap select plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) are being marketed as a supplement unless you are smart enough to ask about the [preferred list of providers](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) you must use or have payment excluded. [Read the contract](/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan). Great article. I thought a supplement was a supplement covering the 20% until I found this article! Why BCBS in AL you ask. 1. Probably 95% of providers accept BCBS. 2. Checked on a Humana supplement G and some of my doctors did not participate. 3. The marketplace has nothing to do with Medicare to my knowledge but all insurers in AL have pulled out of that but BCBS. While others may sell insurance, they are not interested in providing a competitive market and may not cover a lot of counties. 4. Some of the Aetna policies in my area are underwritten by Continental Insurance in Brentwood, TN. Not good or bad just not Aetna. 5. In my mind if you buy a Medicare supplement it needs to be long term with a company that will be there and it does not need to be a select supplement PPO or HMO that if someone gets in the mix who is not a select or preferred provider then it is not covered. 6. I found a lot of complaints on Humana and United Healthcare. Valid or not I cannot say but where there is smoke…Note that some companies charge more for a Medigap Select than other for a full Medigap. Great site. Keep up the good work.'],
+      }],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-vs-medicare-advantage", "what-is-a-medicare-supplement-plan-and-who-needs-one", "choosing-a-medigap-policy"],
   },
   {
@@ -753,10 +637,8 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       {
         heading: '',
         paragraphs: [
-          'Are finger ring splints for [osteoarthritis](/faqs/rheumatoid-arthritis-treatment-and-medicare-coverage) [covered by Medicare](/faqs/does-medicare-cover-prosthetic-devices)? I need multiple splints for both hands',
-        ],
-      },
-    ],
+          'Are finger ring splints for [osteoarthritis](/faqs/rheumatoid-arthritis-treatment-and-medicare-coverage) [covered by Medicare](/faqs/does-medicare-cover-prosthetic-devices)? I need multiple splints for both hands'],
+      }],
     relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-medical-alert-systems"],
   },
   {
@@ -780,8 +662,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       {
         heading: '',
         paragraphs: [],
-      },
-    ],
+      }],
     richSections: [
       {
         type: 'paragraph',
@@ -826,8 +707,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
           'Vaccinations',
           'Durable medical equipment',
           'Ambulance services',
-          'Physician visits',
-        ],
+          'Physician visits'],
       },
       {
         type: 'heading',
@@ -882,8 +762,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
           'Fertility treatments',
           'Weight loss medications',
           'Erectile dysfunction prescriptions',
-          'Excessive or prolonged hospital stays beyond what is clinically required',
-        ],
+          'Excessive or prolonged hospital stays beyond what is clinically required'],
       },
       {
         type: 'paragraph',
@@ -912,8 +791,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         items: [
           '**Option 1:** The provider bills Medicare anyway. If Medicare denies the claim, you can request an appeal or pay the full cost yourself.',
           '**Option 2:** You choose not to bill Medicare and agree to pay for the service out of pocket.',
-          '**Option 3:** You decline the service entirely because Medicare will not cover it.',
-        ],
+          '**Option 3:** You decline the service entirely because Medicare will not cover it.'],
       },
       {
         type: 'paragraph',
@@ -986,10 +864,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
             question: 'Does Medicare Supplement (Medigap) help with costs when a service is denied?',
             answer:
               'Medigap plans cover cost-sharing for services that Original Medicare approves. If Medicare denies a service as not medically necessary, Medigap will not cover it either, since Medigap only pays after Medicare pays its portion.',
-          },
-        ],
-      },
-    ],
+          }],
+      }],
     relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-prior-authorization", "advance-beneficiary-notice"],
-  },
-];
+  }];

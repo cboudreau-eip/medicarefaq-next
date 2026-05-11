@@ -135,17 +135,14 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
           {
             question: "What is an Advance Beneficiary Notice (ABN)?",
             answer: "An ABN is a written notice a provider must give you before providing a service that Medicare may not cover. It informs you that you may be responsible for payment. You must sign the ABN to acknowledge you understand you may have to pay.",
-          },
-        ],
-      },
-    ],
+          }],
+      }],
     relatedSlugs: [
       "report-medicare-fraud",
       "advance-beneficiary-notice",
       "medicare-coverage-for-skilled-nursing-facilities",
       "does-medicare-cover-home-health-care",
-      "medicare-supplement-plans-medigap-pricing-methods",
-    ],
+      "medicare-supplement-plans-medigap-pricing-methods"],
   },
   {
     slug: "part-b-excess-charges-medicare-overcharge-measure",
@@ -201,8 +198,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
         rows: [
           ["Participating provider", "Yes — always", "No", "None"],
           ["Non-participating provider", "Case by case", "Up to 15% above approved amount", "Moderate"],
-          ["Opt-out provider", "No — never", "Any amount", "High — Medicare pays nothing"],
-        ],
+          ["Opt-out provider", "No — never", "Any amount", "High — Medicare pays nothing"]],
       },
       {
         type: "paragraph",
@@ -222,8 +218,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
           "**Use Medicare's provider search** at Medicare.gov to find participating providers in your area.",
           "**Enroll in a Medigap Plan G or Plan N** — Plan G covers 100% of Part B excess charges, eliminating this risk entirely.",
           "**Check your Medicare Summary Notice (MSN)** after each visit to verify charges are correct.",
-          "**Avoid opt-out providers** for non-emergency services unless you are prepared to pay the full cost out of pocket.",
-        ],
+          "**Avoid opt-out providers** for non-emergency services unless you are prepared to pay the full cost out of pocket."],
       },
       {
         type: "heading",
@@ -261,16 +256,13 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
           {
             question: "What is the Difference between a Non-participating Provider and an Opt-out Provider?",
             answer: "A non-participating provider still works within Medicare but can charge up to 15% above the approved amount. An opt-out provider has completely withdrawn from Medicare and can charge any amount — Medicare pays nothing for their services except in emergencies.",
-          },
-        ],
-      },
-    ],
+          }],
+      }],
     relatedSlugs: [
       "medicare-supplement-plans-medigap-pricing-methods",
       "your-medicare-rights-and-protections",
       "medicare-coverage-for-mental-health",
-      "does-medicare-cover-a-nutritionist",
-    ],
+      "does-medicare-cover-a-nutritionist"],
   },
   {
     slug: "does-medicare-cover-atrial-fibrillation",
@@ -318,8 +310,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
           ["Cardioversion (outpatient)", "Part B — 80% after deductible", "20% coinsurance"],
           ["Catheter ablation (inpatient)", "Part A — after deductible", "Daily coinsurance may apply"],
           ["AFib medications (blood thinners, rate control)", "Part D — varies by formulary", "Copay or coinsurance per tier"],
-          ["Open-heart / maze surgery (inpatient)", "Part A — after deductible", "Daily coinsurance may apply"],
-        ],
+          ["Open-heart / maze surgery (inpatient)", "Part A — after deductible", "Daily coinsurance may apply"]],
         footnote: "Costs shown are for Original Medicare only. A Medigap plan can significantly reduce your out-of-pocket exposure.",
       },
       {
@@ -384,16 +375,12 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
           {
             question: "What is the Best Medicare Plan for Someone with AFib?",
             answer: "Original Medicare combined with a Medigap Plan G provides the most comprehensive coverage for AFib patients. Plan G covers the Part A deductible, Part B coinsurance, and excess charges — protecting you from the high costs of hospitalizations and procedures associated with AFib management.",
-          },
-        ],
-      },
-    ],
+          }],
+      }],
     relatedSlugs: [
       "does-medicare-cover-home-health-care",
       "medicare-coverage-for-skilled-nursing-facilities",
       "medicare-supplement-plans-medigap-pricing-methods",
       "does-medicare-cover-skilled-nursing",
-      "your-medicare-rights-and-protections",
-    ],
-  },
-];
+      "your-medicare-rights-and-protections"],
+  }];

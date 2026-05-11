@@ -64,8 +64,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
 <li><strong>State Health Insurance Assistance Programs (SHIPs)</strong> — Free Medicare counseling for beneficiaries and their caregivers.</li>
 <li><strong>Caregiver Action Network</strong> — Education and peer support for family caregivers across all disease categories.</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Does Medicare Pay Family Caregivers?",
@@ -86,16 +85,14 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         question: "What is Caregiver Burnout and How Can it be Prevented?",
         answer:
           "Caregiver burnout is a state of physical, emotional, and mental exhaustion that can occur when caregivers don't get the help they need or try to do more than they're able. Prevention strategies include using respite care services, joining a caregiver support group, setting boundaries, and asking for help from other family members.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
       { label: "Who Qualifies as a Caregiver under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
       { label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver" },
       { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
       { label: "What is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
-      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
-    ],
+      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" }],
   },
   {
     slug: "caregiver-assistance",
@@ -140,8 +137,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
 <li><strong>Tax Deductions</strong> — Caregivers may be able to deduct medical expenses paid on behalf of a dependent parent or claim the Dependent Care Tax Credit. Consult a tax professional.</li>
 <li><strong>FMLA Leave</strong> — The Family and Medical Leave Act allows eligible employees to take up to 12 weeks of unpaid, job-protected leave to care for a seriously ill family member.</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Can I Get Paid to Care for My Elderly Parent on Medicare?",
@@ -157,15 +153,13 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         question: "How do I Find Caregiver Assistance Programs in My Area?",
         answer:
           "Contact your local Area Agency on Aging (AAA) through the Eldercare Locator (1-800-677-1116 or eldercare.acl.gov). AAAs coordinate local services including respite care, meal delivery, transportation, and caregiver training. Your state's SHIP (State Health Insurance Assistance Program) can also help navigate Medicare benefits.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "Who Qualifies as a Caregiver under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
       { label: "Medicare Home Health Coverage", path: "/faqs/does-medicare-cover-home-health-care" },
       { label: "Medicare Hospice Coverage", path: "/faqs/does-medicare-cover-hospice" },
-      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
-    ],
+      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" }],
   },
   {
     slug: "who-qualifies-as-a-caregiver-under-medicare-rules",
@@ -217,8 +211,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
 <li>Communicating with Medicare, insurance companies, and healthcare providers</li>
 <li>Providing the "custodial" care that Medicare doesn't cover, making it possible for beneficiaries to remain at home</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Can a Spouse be a Paid Medicare Caregiver?",
@@ -234,13 +227,11 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         question: "What Training Does a Home Health Aide Need for Medicare Coverage?",
         answer:
           "Medicare-covered home health aides must complete at least 75 hours of training (16 hours of supervised practical training) and pass a competency evaluation. They must be employed by a Medicare-certified home health agency.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
-      { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
-    ],
+      { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" }],
   },
   {
     slug: "how-to-become-a-caregiver",
@@ -282,8 +273,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
 <li><strong>Home health agencies</strong> — Some agencies provide training for new hires and may reimburse certification costs.</li>
 <li><strong>State Medicaid programs</strong> — Some states offer free training for family caregivers who are enrolled in consumer-directed care programs.</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Do I Need a License to be a Caregiver?",
@@ -299,13 +289,11 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         question: "Can I Get Paid to Care for a Family Member?",
         answer:
           "In most cases, Medicare does not pay family caregivers. However, some state Medicaid programs allow beneficiaries to hire family members as paid personal care attendants. Contact your state's Medicaid office or local Area Agency on Aging to explore options in your state.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
-      { label: "Who Qualifies as a Caregiver under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" },
-    ],
+      { label: "Who Qualifies as a Caregiver under Medicare Rules", path: "/guide-to-being-a-caregiver/who-qualifies-as-a-caregiver-under-medicare-rules" }],
   },
   {
     slug: "what-are-the-4-types-of-caregivers",
@@ -349,8 +337,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
 <li>Care management apps (to coordinate schedules and share information with other caregivers)</li>
 <li>Geriatric care managers (professional coordinators who can manage local care on behalf of distant family)</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Which Type of Caregiver Does Medicare Cover?",
@@ -366,13 +353,11 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         question: "Can a Long-distance Caregiver Manage Medicare for a Loved One?",
         answer:
           "Yes. A beneficiary can authorize a family member to access their Medicare information by completing a Medicare Authorization to Disclose Personal Health Information form (CMS-10106). For legal decisions, a durable power of attorney for healthcare is also recommended.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver" },
-      { label: "What is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
-    ],
+      { label: "What is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" }],
   },
   {
     slug: "what-is-a-caregiver",
@@ -429,8 +414,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
 <li>Manage the gap between what Medicare covers and what the beneficiary actually needs</li>
 </ul>
 <p>Many caregivers also become the primary contact for Medicare Advantage plans, Part D drug plans, and Medigap insurers — making it critical that they understand how these programs work.</p>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "What is the Difference between a Caregiver and a Home Health Aide?",
@@ -446,15 +430,13 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         question: "What Resources are Available for New Caregivers?",
         answer:
           "New caregivers should contact their local Area Agency on Aging (AAA) through the Eldercare Locator (1-800-677-1116). AARP's Caregiver Resource Center, the Caregiver Action Network, and the National Alliance for Caregiving all offer free guides, training, and support groups.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
       { label: "How to Become a Caregiver", path: "/guide-to-being-a-caregiver/how-to-become-a-caregiver" },
       { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
-      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" },
-    ],
+      { label: "Roles of a Caregiver", path: "/guide-to-being-a-caregiver/role-of-a-caregiver" }],
   },
   {
     slug: "role-of-a-caregiver",
@@ -507,8 +489,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
 <li>Handling practical matters such as funeral planning and estate administration</li>
 </ul>
 <p>Medicare's hospice benefit covers a wide range of services including nursing care, social work, chaplain services, and respite care for family caregivers.</p>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "What are the Three Main Strengths of a Caregiver?",
@@ -524,13 +505,10 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         question: "Does Medicare Pay Family Caregivers?",
         answer:
           "Original Medicare does not pay family members for providing care. However, some state Medicaid programs offer consumer-directed programs that allow beneficiaries to hire and pay family members as personal care attendants. Contact your state Medicaid office or local Area Agency on Aging for details.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Caregiver Guide Overview", path: "/guide-to-being-a-caregiver" },
       { label: "What is a Caregiver?", path: "/guide-to-being-a-caregiver/what-is-a-caregiver" },
       { label: "What are the 4 Types of Caregivers?", path: "/guide-to-being-a-caregiver/what-are-the-4-types-of-caregivers" },
-      { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" },
-    ],
-  },
-];
+      { label: "Caregiver Assistance Programs", path: "/guide-to-being-a-caregiver/caregiver-assistance" }],
+  }];

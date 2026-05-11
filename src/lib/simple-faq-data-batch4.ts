@@ -28,10 +28,8 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
-        ],
-      },
-    ],
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...'],
+      }],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "how-the-medigap-free-look-period-protects-you", "what-is-a-medicare-supplement-plan-and-who-needs-one"],
   },
   {
@@ -53,10 +51,8 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'As a person having worked in Healthcare all my employment life, I want to know why [Medicare](/faqs/what-is-medicare) has not stopped [wastful spending](/blog/medicare-costs-2025) of EOBs???  It should be minimized!!  Ir is wastful spending!!!  Nany older would receuve the EOB via e-mail and all ither oeople can get a NEW SHORTER EOB on paper!SHORTEN THE WASTFUL EOBs!!!  Get rid of the printing vendor.  And, stop the waste of elders hard earned money.  Thk U.',
-        ],
-      },
-    ],
+          'As a person having worked in Healthcare all my employment life, I want to know why [Medicare](/faqs/what-is-medicare) has not stopped [wastful spending](/blog/medicare-costs-2025) of EOBs???  It should be minimized!!  Ir is wastful spending!!!  Nany older would receuve the EOB via e-mail and all ither oeople can get a NEW SHORTER EOB on paper!SHORTEN THE WASTFUL EOBs!!!  Get rid of the printing vendor.  And, stop the waste of elders hard earned money.  Thk U.'],
+      }],
     relatedSlugs: ["medicare-costs-2025", "medicare-parts-a-b-c-and-d-explained-simply", "what-is-medicare", "medicare-history"],
   },
   {
@@ -78,8 +74,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Why Would Medicare Stop Covering Certain Drugs or Doctors?',
@@ -94,30 +89,25 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: 'Transition Periods and Special Enrollment',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Finding a New Doctor or Covered Medication',
         paragraphs: [
           'If your doctor is no longer in-network, you can use your plan’s online provider directory or contact customer service to find a new participating physician. Make sure the new doctor is accepting new patients and is conveniently located.For medications, consult with your doctor about alternative treatments that are still covered. Your doctor may be able to prescribe a similar drug or help file an exception request if no suitable alternatives are available. Keep in mind that your pharmacy can also help you navigate coverage changes.You can also explore different plans to find one that better suits your needs.Medicare Advantage plansandMedicare Supplement plansvary in coverage and network restrictions, so reviewing your options is essential.What If You Are in the Middle of Treatment?If you are receiving treatment for a chronic condition or are in the middle of a care plan, sudden changes in coverage can be especially concerning. Fortunately, Medicare provides protections for continuity of care.In some cases, you may qualify for a transition fill for medications or be allowed to continue seeing your provider temporarily. If a necessary drug is no longer covered, you can request a formulary exception, supported by your physician’s documentation.Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No',
           'For medications, consult with your doctor about alternative treatments that are still covered. Your doctor may be able to prescribe a similar drug or help file an exception request if no suitable alternatives are available. Keep in mind that your pharmacy can also help you navigate coverage changes.You can also explore different plans to find one that better suits your needs.Medicare Advantage plansandMedicare Supplement plansvary in coverage and network restrictions, so reviewing your options is essential.What If You Are in the Middle of Treatment?If you are receiving treatment for a chronic condition or are in the middle of a care plan, sudden changes in coverage can be especially concerning. Fortunately, Medicare provides protections for continuity of care.In some cases, you may qualify for a transition fill for medications or be allowed to continue seeing your provider temporarily. If a necessary drug is no longer covered, you can request a formulary exception, supported by your physician’s documentation.Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No',
-          'You can also explore different plans to find one that better suits your needs.Medicare Advantage plansandMedicare Supplement plansvary in coverage and network restrictions, so reviewing your options is essential.What If You Are in the Middle of Treatment?If you are receiving treatment for a chronic condition or are in the middle of a care plan, sudden changes in coverage can be especially concerning. Fortunately, Medicare provides protections for continuity of care.In some cases, you may qualify for a transition fill for medications or be allowed to continue seeing your provider temporarily. If a necessary drug is no longer covered, you can request a formulary exception, supported by your physician’s documentation.Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No',
-        ],
+          'You can also explore different plans to find one that better suits your needs.Medicare Advantage plansandMedicare Supplement plansvary in coverage and network restrictions, so reviewing your options is essential.What If You Are in the Middle of Treatment?If you are receiving treatment for a chronic condition or are in the middle of a care plan, sudden changes in coverage can be especially concerning. Fortunately, Medicare provides protections for continuity of care.In some cases, you may qualify for a transition fill for medications or be allowed to continue seeing your provider temporarily. If a necessary drug is no longer covered, you can request a formulary exception, supported by your physician’s documentation.Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No'],
       },
       {
         heading: 'What if You are in the Middle of Treatment?',
         paragraphs: [
           'If you are receiving treatment for a chronic condition or are in the middle of a care plan, sudden changes in coverage can be especially concerning. Fortunately, Medicare provides protections for continuity of care.In some cases, you may qualify for a transition fill for medications or be allowed to continue seeing your provider temporarily. If a necessary drug is no longer covered, you can request a formulary exception, supported by your physician’s documentation.Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No',
           'In some cases, you may qualify for a transition fill for medications or be allowed to continue seeing your provider temporarily. If a necessary drug is no longer covered, you can request a formulary exception, supported by your physician’s documentation.Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No',
-          'Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No',
-        ],
+          'Additionally, if you believe the change in coverage puts your health at risk, you can file an appeal with your plan. This can help you maintain access to necessary treatments during the transition.Was this article helpful ?Yes (0)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (0)No',
-        ],
-      },
-    ],
+          'Yes (0)No'],
+      }],
     relatedSlugs: ["the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-special-enrollment-period", "medicare-annual-enrollment-period", "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know"],
   },
   {
@@ -139,10 +129,8 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Mr Esch,I was looking at the [PRP injection](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) to see if i could possibly get it through Medicare. Found out that it’s not covered. Can i ask why?Ive had 1 [cortisone shot](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) in my knee and it worked ok for about a month and a half. since then ive been dealing with the pain until last week when working on a project and i must have twisted the wrong way and, well lets put it like this the language that came out of my mouth was not proper, but at that time i didnt care. I went to my doctor the first day and the first thing out of his mought after i had gotten xrays was ( we can do 3 things)1. you can have a knee replacement2.i can remove the sist on the back of your knee3 i can give you a cortisone shotWell i took the shot option. However since then ive read up on the different shots available. except medicare wont pay fpr the PRP one. why? They figure ill live to long after it?',
-        ],
-      },
-    ],
+          'Mr Esch,I was looking at the [PRP injection](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) to see if i could possibly get it through Medicare. Found out that it’s not covered. Can i ask why?Ive had 1 [cortisone shot](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not) in my knee and it worked ok for about a month and a half. since then ive been dealing with the pain until last week when working on a project and i must have twisted the wrong way and, well lets put it like this the language that came out of my mouth was not proper, but at that time i didnt care. I went to my doctor the first day and the first thing out of his mought after i had gotten xrays was ( we can do 3 things)1. you can have a knee replacement2.i can remove the sist on the back of your knee3 i can give you a cortisone shotWell i took the shot option. However since then ive read up on the different shots available. except medicare wont pay fpr the PRP one. why? They figure ill live to long after it?'],
+      }],
     relatedSlugs: ["medicare-coverage-for-hip-injections", "medicare-coverage-for-physical-therapy", "does-medicare-cover-chiropractic-care", "medicare-advantage-for-chronic-conditions-what-you-need-to-know"],
   },
   {
@@ -164,8 +152,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'What is a Medicare Supplement Plan?',
@@ -186,22 +173,18 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         heading: 'Who Typically Needs a Medicare Supplement Plan?',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
-          'Additionally, since Original Medicare doesn’t have an out-of-pocket maximum, the financial protection Medigap provides can be vital for retirees living on a fixed income. If you prefer the freedom of seeing any doctor who accepts Medicare and want to avoid the uncertainty of high medical bills, a Medigap plan could be a good fit. For those who don’t want to deal with networks or referrals, it’s often a better choice thanMedicare Part C(Medicare Advantage).When Should You Enroll in a Medigap Plan?The ideal time to enroll in a Medicare Supplement plan is during your Medigap Open Enrollment Period. This six-month window begins the month you turn 65 and are enrolled in Medicare Part B. Some carriers allow you to enroll into a Medigap plan anywhere from three to six months (depending on the carrier) before your Part B effective date in order to lock in a low rate. Keep in mind, while you can enroll early, the plan won’t start before your Part B effective date.During this time, you have guaranteed issue rights, meaning insurance companies can’t deny you coverage or charge you more based on health history.If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No',
-        ],
+          'Additionally, since Original Medicare doesn’t have an out-of-pocket maximum, the financial protection Medigap provides can be vital for retirees living on a fixed income. If you prefer the freedom of seeing any doctor who accepts Medicare and want to avoid the uncertainty of high medical bills, a Medigap plan could be a good fit. For those who don’t want to deal with networks or referrals, it’s often a better choice thanMedicare Part C(Medicare Advantage).When Should You Enroll in a Medigap Plan?The ideal time to enroll in a Medicare Supplement plan is during your Medigap Open Enrollment Period. This six-month window begins the month you turn 65 and are enrolled in Medicare Part B. Some carriers allow you to enroll into a Medigap plan anywhere from three to six months (depending on the carrier) before your Part B effective date in order to lock in a low rate. Keep in mind, while you can enroll early, the plan won’t start before your Part B effective date.During this time, you have guaranteed issue rights, meaning insurance companies can’t deny you coverage or charge you more based on health history.If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No'],
       },
       {
         heading: 'When Should You Enroll in a Medigap Plan?',
         paragraphs: [
           'The ideal time to enroll in a Medicare Supplement plan is during your Medigap Open Enrollment Period. This six-month window begins the month you turn 65 and are enrolled in Medicare Part B. Some carriers allow you to enroll into a Medigap plan anywhere from three to six months (depending on the carrier) before your Part B effective date in order to lock in a low rate. Keep in mind, while you can enroll early, the plan won’t start before your Part B effective date.During this time, you have guaranteed issue rights, meaning insurance companies can’t deny you coverage or charge you more based on health history.If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No',
           'During this time, you have guaranteed issue rights, meaning insurance companies can’t deny you coverage or charge you more based on health history.If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No',
-          'If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No',
-        ],
+          'If you apply for Medigap coverage outside this window, you may be subject to medical underwriting, higher premiums, or even denial based on pre-existing conditions. Enrolling during yourInitial Enrollment Periodensures a smoother process and better access to the most affordable options.Was this article helpful ?Yes (0)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (0)No',
-        ],
-      },
-    ],
+          'Yes (0)No'],
+      }],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medigap-vs-medicare-advantage", "why-medicare-supplements-offer-peace-of-mind"],
   },
   // does-medicare-cover-gender-reassignment-surgery moved to coverage-data.ts
@@ -225,10 +208,8 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         heading: 'Guaranteed Issue Medicare Supplement',
         paragraphs: [
           'Updated on January 25, 2024',
-          '[Guaranteed Issue Medicare Supplement](/faqs/medicare-guaranteed-issue) rights can help protect you against [loss of coverage](/blog/eligibility-for-special-enrollment-period-after-medicare-coverage-loss) and medical...',
-        ],
-      },
-    ],
+          '[Guaranteed Issue Medicare Supplement](/faqs/medicare-guaranteed-issue) rights can help protect you against [loss of coverage](/blog/eligibility-for-special-enrollment-period-after-medicare-coverage-loss) and medical...'],
+      }],
     relatedSlugs: ["when-to-switch-medigap-plans-what-you-need-to-know", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medicare-supplement-open-enrollment", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f"],
   },
   {
@@ -250,8 +231,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Medicare Advantage 5-Star Special Enrollment Period',
@@ -266,14 +246,12 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
           'Quality of Care',
           'Member Satisfaction',
           'Customer Service',
-          'Pharmacy Services',
-        ],
+          'Pharmacy Services'],
       },
       {
         heading: 'Who is Eligible for the 5-Star Special Enrollment Period?',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'How to Utilize the Medicare Advantage 5-Star Special Enrollment Period',
@@ -285,22 +263,18 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         paragraphs: [
           'Let us help you navigate your Medicare journey',
           'If you’re switching from a standalone Prescription Drug Plan to a Medicare Advantage Plan with drug coverage, your standalone PDP will be automatically disenrolled. Be aware of this to avoid any unexpected lapses in coverage.Additionally, if you have other forms of insurance, such as employer-sponsored coverage or Medicaid, make sure to understand how switching to a 5-star plan will interact with these benefits. Coordination of benefits can be confusing, and it’s important that it be done correctly so that all your coverage needs are met.Utilizing the 5-Star Special Enrollment PeriodThe Medicare Advantage 5-Star Special Enrollment Period provides a valuable opportunity for Medicare beneficiaries to access the highest-rated plans available. By understanding eligibility requirements, following the enrollment steps, and considering all relevant details, you can make an informed decision that enhances your healthcare experience.If you’re considering a switch, take the time to research your options, consult with experts if needed, and choose a plan that aligns with your health needs and financial situation. The 5-Star SEP is a powerful tool for improving your Medicare coverage, so make sure to use it wisely.Was this article helpful ?Yes (3)No',
-          'Additionally, if you have other forms of insurance, such as employer-sponsored coverage or Medicaid, make sure to understand how switching to a 5-star plan will interact with these benefits. Coordination of benefits can be confusing, and it’s important that it be done correctly so that all your coverage needs are met.Utilizing the 5-Star Special Enrollment PeriodThe Medicare Advantage 5-Star Special Enrollment Period provides a valuable opportunity for Medicare beneficiaries to access the highest-rated plans available. By understanding eligibility requirements, following the enrollment steps, and considering all relevant details, you can make an informed decision that enhances your healthcare experience.If you’re considering a switch, take the time to research your options, consult with experts if needed, and choose a plan that aligns with your health needs and financial situation. The 5-Star SEP is a powerful tool for improving your Medicare coverage, so make sure to use it wisely.Was this article helpful ?Yes (3)No',
-        ],
+          'Additionally, if you have other forms of insurance, such as employer-sponsored coverage or Medicaid, make sure to understand how switching to a 5-star plan will interact with these benefits. Coordination of benefits can be confusing, and it’s important that it be done correctly so that all your coverage needs are met.Utilizing the 5-Star Special Enrollment PeriodThe Medicare Advantage 5-Star Special Enrollment Period provides a valuable opportunity for Medicare beneficiaries to access the highest-rated plans available. By understanding eligibility requirements, following the enrollment steps, and considering all relevant details, you can make an informed decision that enhances your healthcare experience.If you’re considering a switch, take the time to research your options, consult with experts if needed, and choose a plan that aligns with your health needs and financial situation. The 5-Star SEP is a powerful tool for improving your Medicare coverage, so make sure to use it wisely.Was this article helpful ?Yes (3)No'],
       },
       {
         heading: 'Utilizing the 5-Star Special Enrollment Period',
         paragraphs: [
           'The Medicare Advantage 5-Star Special Enrollment Period provides a valuable opportunity for Medicare beneficiaries to access the highest-rated plans available. By understanding eligibility requirements, following the enrollment steps, and considering all relevant details, you can make an informed decision that enhances your healthcare experience.If you’re considering a switch, take the time to research your options, consult with experts if needed, and choose a plan that aligns with your health needs and financial situation. The 5-Star SEP is a powerful tool for improving your Medicare coverage, so make sure to use it wisely.Was this article helpful ?Yes (3)No',
           'If you’re considering a switch, take the time to research your options, consult with experts if needed, and choose a plan that aligns with your health needs and financial situation. The 5-Star SEP is a powerful tool for improving your Medicare coverage, so make sure to use it wisely.Was this article helpful ?Yes (3)No',
-          'Was this article helpful ?Yes (3)No',
-        ],
+          'Was this article helpful ?Yes (3)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (3)No',
-        ],
-      },
-    ],
+          'Yes (3)No'],
+      }],
     relatedSlugs: ["medicare-special-enrollment-period", "medicare-advantage-open-enrollment-period", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them"],
   },
   {
@@ -322,8 +296,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Understand Key Medicare Enrollment Periods',
@@ -341,8 +314,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
         listItems: [
           'Original Medicare: This is the traditional, government-administered health plan. It consists of Part A (Hospital Insurance) and Part B (Medical Insurance). With Original Medicare, you can visit any doctor or hospital in the country that accepts Medicare. However, it does not cover all of your healthcare costs. You will still be responsible for deductibles, coinsurance, and copayments.',
-          'Medicare Advantage(Part C): These are all-in-one plans offered by private insurance companies that are approved by Medicare. They bundle Part A, Part B, and usually Part D (prescription drugs) into one plan. These plans often have lower premiums but typically use a network of doctors and hospitals, which means you have less freedom to choose your providers.',
-        ],
+          'Medicare Advantage(Part C): These are all-in-one plans offered by private insurance companies that are approved by Medicare. They bundle Part A, Part B, and usually Part D (prescription drugs) into one plan. These plans often have lower premiums but typically use a network of doctors and hospitals, which means you have less freedom to choose your providers.'],
       },
       {
         heading: 'Compare Prescription Drug Plans',
@@ -354,34 +326,28 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         paragraphs: [
           'Let us help you navigate your Medicare journey',
           'The best time to buy a Medigap policy is during yourMedigap Open Enrollment Period. This six-month window starts on the first day of the month you are both 65 or older and enrolled in Medicare Part B. During this time, you have a guaranteed right to buy any Medigap policy sold in your state, regardless of any pre-existing health conditions. You can learn more about this critical enrollment window in our guide to the Medigap Open Enrollment Period. Some carriers will even allow you to secure your rate up to six months before your Part B begins.Navigating these choices can feel overwhelming, but you do not have to do it alone. To find the perfect Medicare Supplement plan that fits your needs and budget, simply fill out our online form for a free, no-obligation quote.Gather Essential Personal InformationTo ensure a smooth enrollment process, it is wise to gather all your necessary documents ahead of time. When you are ready to apply, you will likely need:Your Social Security cardYour original birth certificate or proof of U.S. citizenshipInformation about any current health insurance coverage you haveYour spouse’s information if you are applying based on their work recordHaving these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-          'Navigating these choices can feel overwhelming, but you do not have to do it alone. To find the perfect Medicare Supplement plan that fits your needs and budget, simply fill out our online form for a free, no-obligation quote.Gather Essential Personal InformationTo ensure a smooth enrollment process, it is wise to gather all your necessary documents ahead of time. When you are ready to apply, you will likely need:Your Social Security cardYour original birth certificate or proof of U.S. citizenshipInformation about any current health insurance coverage you haveYour spouse’s information if you are applying based on their work recordHaving these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-        ],
+          'Navigating these choices can feel overwhelming, but you do not have to do it alone. To find the perfect Medicare Supplement plan that fits your needs and budget, simply fill out our online form for a free, no-obligation quote.Gather Essential Personal InformationTo ensure a smooth enrollment process, it is wise to gather all your necessary documents ahead of time. When you are ready to apply, you will likely need:Your Social Security cardYour original birth certificate or proof of U.S. citizenshipInformation about any current health insurance coverage you haveYour spouse’s information if you are applying based on their work recordHaving these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No'],
       },
       {
         heading: 'Gather Essential Personal Information',
         paragraphs: [
           'To ensure a smooth enrollment process, it is wise to gather all your necessary documents ahead of time. When you are ready to apply, you will likely need:Your Social Security cardYour original birth certificate or proof of U.S. citizenshipInformation about any current health insurance coverage you haveYour spouse’s information if you are applying based on their work recordHaving these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-          'Having these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-        ],
+          'Having these items on hand will make filling out the application much easier.Estimate Your Out-of-Pocket CostsBudgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No'],
         listItems: [
           'Your Social Security card',
           'Your original birth certificate or proof of U.S. citizenship',
           'Information about any current health insurance coverage you have',
-          'Your spouse’s information if you are applying based on their work record',
-        ],
+          'Your spouse’s information if you are applying based on their work record'],
       },
       {
         heading: 'Estimate Your Out-of-Pocket Costs',
         paragraphs: [
           'Budgeting for healthcare in retirement is a critical step. Your total out-of-pocket costs will depend on the path you choose. With Original Medicare alone, you are responsible for the Part B premium, deductibles for Part A and Part B, and 20% coinsurance for most services under Part B with no annual cap. A single serious illness could lead to thousands of dollars in medical bills.This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-          'This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No',
-        ],
+          'This potential for high costs is the primary reason so many people turn to Medigap plans. By paying a set monthly premium for a Medigap policy, you can significantly limit your out-of-pocket expenses, making your healthcare costs stable and predictable.Was this article helpful ?Yes (0)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (0)No',
-        ],
-      },
-    ],
+          'Yes (0)No'],
+      }],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period"],
   },
   {
@@ -404,10 +370,8 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         heading: '25 Medicare Q&As You Should Know in 2026',
         paragraphs: [
           'Updated on February 19, 2026',
-          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...',
-        ],
-      },
-    ],
+          'It is common to have many [Medicare-related questions](/faqs/25-medicare-qas-you-should-know) running through your mind at any given...'],
+      }],
     relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
   },
   {
@@ -429,8 +393,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Start with the Basics of Medicare Supplement Plans',
@@ -445,8 +408,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
           'How often do I typically visit a doctor or specialist?',
           'Do I have any chronic conditions that require ongoing care?',
           'What is my tolerance for risk? Would I prefer a fixed monthly premium with no surprise costs, or a lower premium with some potential out-of-pocket expenses?',
-          'Do I travel often within the United States? (A Medigap plan travels with you to any provider that accepts Medicare nationwide).',
-        ],
+          'Do I travel often within the United States? (A Medigap plan travels with you to any provider that accepts Medicare nationwide).'],
       },
       {
         heading: 'Compare the Different Medigap Plan Coverage Levels',
@@ -454,37 +416,30 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
         listItems: [
           'Plan Gis known for its comprehensive coverage. Once you pay the annual Medicare Part B deductible ($283 in 2025), Plan G covers 100% of the gaps in Medicare for approved services. This is a great choice for individuals who want maximum predictability and minimal out-of-pocket costs.',
-          'Plan Ntypically has a lower monthly premium than Plan G. In exchange, you agree to share some costs. You may have a copayment of up to $20 for some office visits and up to $50 for emergency room visits that do not result in a hospital admission. It is a fantastic, budget-friendly option if you are comfortable with these small, predictable copayments.',
-        ],
+          'Plan Ntypically has a lower monthly premium than Plan G. In exchange, you agree to share some costs. You may have a copayment of up to $20 for some office visits and up to $50 for emergency room visits that do not result in a hospital admission. It is a fantastic, budget-friendly option if you are comfortable with these small, predictable copayments.'],
       },
       {
         heading: 'Learn How Medigap Plans are Priced',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
         listItems: [
           'Community-Rated:Everyone in a specific area pays the same premium, regardless of their individual age. Premiums may rise due to inflation, but not simply because you get older. This often provides the best long-term value.',
           'Issue-Age-Rated:Your premium is based on your age when you first buy the policy. It will not increase because you age, though it can rise for other reasons like inflation.',
-          'Attained-Age-Rated:Your premium starts low but increases as you get older. While it might be the cheapest option initially, it can become the most expensive over time.',
-        ],
+          'Attained-Age-Rated:Your premium starts low but increases as you get older. While it might be the cheapest option initially, it can become the most expensive over time.'],
       },
       {
         heading: 'Shop Around and Compare Premiums',
         paragraphs: [
-          'Because all plans of the same letter offer the same benefits, you should never sign up for a policy without first comparing prices. The cost for an identical plan can vary significantly from one company to the next. Taking the time to shop around is a simple, non-negotiable step to ensure you are not overpaying for your coverage.Balance Monthly Premiums with Potential Out-of-Pocket CostsThis is the central decision for any budget-conscious individual. A plan with a higher premium, like Plan G, gives you predictable monthly costs and protects you from nearly all other medical expenses. A plan with a lower premium, like Plan N, saves you money every month but requires you to pay small costs when you see a doctor. There is no right or wrong answer-it is a personal choice about where you feel most comfortable.Was this article helpful ?Yes (0)No',
-        ],
+          'Because all plans of the same letter offer the same benefits, you should never sign up for a policy without first comparing prices. The cost for an identical plan can vary significantly from one company to the next. Taking the time to shop around is a simple, non-negotiable step to ensure you are not overpaying for your coverage.Balance Monthly Premiums with Potential Out-of-Pocket CostsThis is the central decision for any budget-conscious individual. A plan with a higher premium, like Plan G, gives you predictable monthly costs and protects you from nearly all other medical expenses. A plan with a lower premium, like Plan N, saves you money every month but requires you to pay small costs when you see a doctor. There is no right or wrong answer-it is a personal choice about where you feel most comfortable.Was this article helpful ?Yes (0)No'],
       },
       {
         heading: 'Balance Monthly Premiums with Potential Out-of-Pocket Costs',
         paragraphs: [
-          'This is the central decision for any budget-conscious individual. A plan with a higher premium, like Plan G, gives you predictable monthly costs and protects you from nearly all other medical expenses. A plan with a lower premium, like Plan N, saves you money every month but requires you to pay small costs when you see a doctor. There is no right or wrong answer-it is a personal choice about where you feel most comfortable.Was this article helpful ?Yes (0)No',
-        ],
+          'This is the central decision for any budget-conscious individual. A plan with a higher premium, like Plan G, gives you predictable monthly costs and protects you from nearly all other medical expenses. A plan with a lower premium, like Plan N, saves you money every month but requires you to pay small costs when you see a doctor. There is no right or wrong answer-it is a personal choice about where you feel most comfortable.Was this article helpful ?Yes (0)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (0)No',
-        ],
-      },
-    ],
+          'Yes (0)No'],
+      }],
     relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "average-cost-of-medicare-supplement-plans", "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters"],
   },
 
@@ -507,8 +462,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Why Plan F Used to be the Most Popular Medigap Plan',
@@ -528,8 +482,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       {
         heading: 'Premium Trends: Why Plan F is Becoming More Expensive',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Benefit Comparison: Plan G vs. Plan F',
@@ -543,8 +496,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
           'Skilled nursing facilitycare coinsurance',
           'Part A deductible',
           'Part B excess charges',
-          'Foreign travel emergency (up to plan limits)',
-        ],
+          'Foreign travel emergency (up to plan limits)'],
       },
       {
         heading: 'The Rise of Plan N',
@@ -560,14 +512,10 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         heading: 'Long-Term Outlook: What Happens Next to Plan F?',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
-          'We are already seeing significant rate increases for Plan F in many states. As the price gap between Plan F and Plan G widens, more members will likely leave Plan F, further accelerating the rate increases for those who remain. It is a cycle that makes Plan F less attractive with each passing year.Was this article helpful ?Yes (1)No',
-        ],
+          'We are already seeing significant rate increases for Plan F in many states. As the price gap between Plan F and Plan G widens, more members will likely leave Plan F, further accelerating the rate increases for those who remain. It is a cycle that makes Plan F less attractive with each passing year.Was this article helpful ?Yes (1)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (1)No',
-        ],
-      },
-    ],
+          'Yes (1)No'],
+      }],
     relatedSlugs: ["medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g", "medicare-plan-g-reviews"],
-  },
-];
+  }];

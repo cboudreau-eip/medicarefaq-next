@@ -99,8 +99,7 @@ export async function submitHeyGenJob(
             type: "color",
             value: "#ffffff",
           },
-        },
-      ],
+        }],
       dimension: {
         width: 1280,
         height: 720,

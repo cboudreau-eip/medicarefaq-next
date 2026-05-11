@@ -25,5 +25,4 @@ export const simpleFAQArticles: SimpleFAQArticleData[] = [
   ...simpleFAQBatch6,
   ...simpleFAQBatch7,
   ...simpleFAQBatch8,
-  ...simpleFAQBatch9,
-];
+  ...simpleFAQBatch9];

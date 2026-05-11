@@ -27,8 +27,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'What is Your Medicare Card?',
@@ -37,8 +36,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         listItems: [
           'Your full name',
           'A unique Medicare number (not tied to your Social Security Number, for your protection)',
-          'Start dates for your Medicare Part A (hospital insurance) and Medicare Part B (medical insurance) coverage',
-        ],
+          'Start dates for your Medicare Part A (hospital insurance) and Medicare Part B (medical insurance) coverage'],
       },
       {
         heading: 'Why It’s Important to Keep Your Medicare Card Accessible',
@@ -48,8 +46,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: 'Where Should You Keep Your Medicare Card?',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'How to Order a New Medicare Card',
@@ -58,8 +55,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         listItems: [
           'Online through your Medicare account – Log in or create an account atMedicare.gov. Once logged in, go to the “Replace Your Medicare Card” section and follow the instructions.',
           'By phone – Call the Social Security Administration at 1-800-772-1213 (TTY 1-800-325-0778), Monday through Friday, from 8 a.m. to 7 p.m.',
-          'In person – Visit your local Social Security office for assistance.',
-        ],
+          'In person – Visit your local Social Security office for assistance.'],
       },
       {
         heading: 'What Information is Needed to Order a New Card?',
@@ -69,8 +65,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           'Your full name (as it appears on your Social Security records)',
           'Your date of birth',
           'Your Social Security Number',
-          'Current address on file',
-        ],
+          'Current address on file'],
       },
       {
         heading: 'How Long Does it Take to Receive a New Medicare Card?',
@@ -80,17 +75,14 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: 'What if Your Medicare Card Was Stolen?',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
         listItems: [
           'Report the theft to Medicare by calling 1-800-MEDICARE (1-800-633-4227).',
           'Monitor your claims through your Medicare account. Check for any unfamiliar charges or services.',
           'Consider identity protection services if you believe your personal information may have been compromised.',
           'Was this article helpful ?',
-          'Yes (6)No',
-        ],
-      },
-    ],
+          'Yes (6)No'],
+      }],
     relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-beneficiary-identifiers", "what-to-do-with-medicare-if-youre-moving-medicare-change-of-address", "applying-for-medicare"],
   },
   {
@@ -170,8 +162,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         items: [
           "**In person** — signed at the start of a face-to-face meeting",
           "**Over the phone** — verbally confirmed and documented by the agent",
-          "**Electronically** — via a digital signature process, which many agents now use",
-        ],
+          "**Electronically** — via a digital signature process, which many agents now use"],
       },
       {
         type: "callout",
@@ -212,8 +203,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         items: [
           "Politely remind the agent of what you checked on the form",
           "End the appointment if the behavior continues",
-          "Document the incident and report it to CMS or the agent's plan carrier",
-        ],
+          "Document the incident and report it to CMS or the agent's plan carrier"],
       },
       {
         type: "heading",
@@ -265,8 +255,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           "The names of your current doctors and whether they accept Medicare",
           "Your current prescriptions and dosages",
           "Your approximate monthly healthcare budget, including what you currently pay out of pocket",
-          "Any specialist care or ongoing treatments you rely on",
-        ],
+          "Any specialist care or ongoing treatments you rely on"],
       },
       {
         type: "paragraph",
@@ -321,8 +310,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
             question: "Where can I get more help or ask specific questions about Medicare?",
             answer:
               "The Medicare benefits hotline (1-800-MEDICARE) connects you with trained counselors who can answer questions at no cost. You can also visit Medicare.gov for official plan comparison tools and enrollment resources.",
-          },
-        ],
+          }],
       },
       {
         type: "heading",
@@ -344,15 +332,13 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         type: "paragraph",
         content:
           "Medicare decisions in 2026 involve real numbers — a Part B premium of $202.90 per month and an average Part D premium around $34.50 — and cost-sharing structures that vary significantly from plan to plan. Getting those details right starts with a focused conversation. The SOA is what makes that conversation possible. If you're ready to take the next step, speak with a licensed Medicare agent who can walk you through your specific options, on your terms, within the boundaries you've set.",
-      },
-    ],
+      }],
     relatedSlugs: [
       "medicare-advantage-plans",
       "medicare-supplement-plans",
       "medicare-part-d",
       "annual-enrollment-period",
-      "deductible-copay-coinsurance-premium",
-    ],
+      "deductible-copay-coinsurance-premium"],
   },
   {
     slug: 'surprised-by-higher-medicare-premiums-it-could-be-irmaa',
@@ -373,8 +359,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'What is IRMAA?',
@@ -387,8 +372,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
         listItems: [
           `You’re filing individually and your modified adjusted gross income (MAGI) is more than ${MEDICARE_COSTS.irmaa.individualLevel1}.`,
-          `You’re married and filing jointly with a MAGI over ${MEDICARE_COSTS.irmaa.jointLevel1}.`,
-        ],
+          `You’re married and filing jointly with a MAGI over ${MEDICARE_COSTS.irmaa.jointLevel1}.`],
       },
       {
         heading: 'How Much More Will You Pay?',
@@ -396,14 +380,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
         listItems: [
           'Part B IRMAA:Can increase your monthly premium by about $81 to over $487, depending on your income tier.',
-          'Part D IRMAA:Adds roughly $12 to $81 to your Part D monthly premium.',
-        ],
+          'Part D IRMAA:Adds roughly $12 to $81 to your Part D monthly premium.'],
       },
       {
         heading: 'How is IRMAA Calculated?',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Why IRMAA Matters',
@@ -413,18 +395,15 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: 'Can You Appeal an IRMAA Decision?',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
         listItems: [
           'Retirement',
           'Loss of pension',
           'Marriage or divorce',
           'Death of a spouse',
           'Was this article helpful ?',
-          'Yes (5)No',
-        ],
-      },
-    ],
+          'Yes (5)No'],
+      }],
     relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
   },
   // does-medicare-cover-cologuard moved to coverage-data.ts
@@ -448,10 +427,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Premiums Reimbursement through Employer',
         paragraphs: [
           'Updated on March 17, 2023',
-          'While your [employer](/blog/understanding-how-medicare-works-with-employer-health-plans) can’t pay your [Medicare premiums](/blog/medicare-costs-2025) in the true sense, you’ll be glad...',
-        ],
-      },
-    ],
+          'While your [employer](/blog/understanding-how-medicare-works-with-employer-health-plans) can’t pay your [Medicare premiums](/blog/medicare-costs-2025) in the true sense, you’ll be glad...'],
+      }],
     relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "understanding-cobra-and-medigap-coverage-costs-and-key-differences", "when-should-you-enroll-in-medicare-if-still-working", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   {
@@ -473,8 +450,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'What is Medicare and Who Qualifies for It?',
@@ -489,8 +465,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           'Original Medicare includes Part A and Part B. Part A covers inpatient care such as hospital stays, skilled nursing facility care, hospice, and limited home health services. Part B covers outpatient services like doctor appointments, lab tests, preventive screenings, and medical equipment.',
           'Part C (Medicare Advantage) is an alternative to Original Medicare. These plans are offered by private insurance companies approved by Medicare. Medicare Advantage plans include all the coverage of Parts A and B and often add extra benefits such as dental, vision, hearing, and prescription drug coverage. Learn more aboutMedicare Part C.',
           'Part D is optional prescription drug coverage. These plans are offered by private insurers and can be added to Original Medicare. Most Medicare Advantage plans includePart Dautomatically.',
-          'Medicare Supplement (Medigap) plans are offered by private insurers to help pay for the “gaps” in Original Medicare, such as copayments, deductibles, and coinsurance. These plans give you the freedom to see any provider that accepts Medicare. Explore your options withMedicare Supplement plans.',
-        ],
+          'Medicare Supplement (Medigap) plans are offered by private insurers to help pay for the “gaps” in Original Medicare, such as copayments, deductibles, and coinsurance. These plans give you the freedom to see any provider that accepts Medicare. Explore your options withMedicare Supplement plans.'],
       },
       {
         heading: 'What is the Difference between Medicare and Medicaid?',
@@ -498,8 +473,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
         listItems: [
           'Medicare is a federal health insurance program primarily for individuals age 65 and older, regardless of income. It also covers some younger individuals with disabilities.',
-          'Medicaid is a joint federal and state program that provides healthcare for people with low incomes and limited resources. Eligibility and benefits vary by state.',
-        ],
+          'Medicaid is a joint federal and state program that provides healthcare for people with low incomes and limited resources. Eligibility and benefits vary by state.'],
       },
       {
         heading: 'Is Medicare Free?',
@@ -509,14 +483,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           'Part A is usually premium-free if you or your spouse paid Medicare taxes for 10 years. Otherwise, you’ll pay a monthly premium.',
           'Part B comes with a standard monthly premium (adjusted based on income) and includes an annual deductible and coinsurance.',
           'Part D plans vary in cost based on the insurer and the medications you take.',
-          'Medicare Advantage and Medigap plans involve additional premiums but offer more comprehensive coverage.',
-        ],
+          'Medicare Advantage and Medigap plans involve additional premiums but offer more comprehensive coverage.'],
       },
       {
         heading: 'When to Sign up for Medicare',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Can I Delay My Medicare?',
@@ -529,35 +501,29 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
         listItems: [
           'Part B Late Enrollment Penalty: Your monthly premium increases by 10% for each full 12-month period you were eligible but didn’t enroll. You pay this penalty as long as you have Part B.',
-          'Part D Late Enrollment Penalty: If you go without creditable prescription drug coverage for 63 consecutive days, you’ll pay a penalty calculated as 1% of the national base premium multiplied by the number of uncovered months. This penalty lasts as long as you have Part D.',
-        ],
+          'Part D Late Enrollment Penalty: If you go without creditable prescription drug coverage for 63 consecutive days, you’ll pay a penalty calculated as 1% of the national base premium multiplied by the number of uncovered months. This penalty lasts as long as you have Part D.'],
       },
       {
         heading: 'Will Medicare Cover All of My Expenses?',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
         listItems: [
           '20% of the cost for most outpatient services (Part B coinsurance)',
           'Hospital deductibles and daily coinsurance after a certain number of days (Part A)',
           'Routine dental, vision, and hearing care',
           'Prescription drugs (unless you have Part D)',
-          'Long-term custodial care (like nursing homes)',
-        ],
+          'Long-term custodial care (like nursing homes)'],
       },
       {
         heading: 'Is Original Medicare the Right Fit for You?',
         paragraphs: [
           'While Original Medicare offers nationwide provider access and reliable basic coverage, it does not have an out-of-pocket spending limit. This means there’s no cap on what you might pay in a year if you have frequent or serious medical needs.That’s where Medicare Supplement plans come in. These plans cover many of the costs Medicare leaves behind, such as coinsurance, copayments, and deductibles. You can visit any provider nationwide who accepts Medicare.Medicare Advantage plans can be an alternative if you want an all-in-one plan that includes extra benefits and often a built-in drug plan. However, you’ll typically need to use doctors within the plan’s network, and coverage may be limited outside your service area.Was this article helpful ?Yes (1)No',
           'That’s where Medicare Supplement plans come in. These plans cover many of the costs Medicare leaves behind, such as coinsurance, copayments, and deductibles. You can visit any provider nationwide who accepts Medicare.Medicare Advantage plans can be an alternative if you want an all-in-one plan that includes extra benefits and often a built-in drug plan. However, you’ll typically need to use doctors within the plan’s network, and coverage may be limited outside your service area.Was this article helpful ?Yes (1)No',
-          'Medicare Advantage plans can be an alternative if you want an all-in-one plan that includes extra benefits and often a built-in drug plan. However, you’ll typically need to use doctors within the plan’s network, and coverage may be limited outside your service area.Was this article helpful ?Yes (1)No',
-        ],
+          'Medicare Advantage plans can be an alternative if you want an all-in-one plan that includes extra benefits and often a built-in drug plan. However, you’ll typically need to use doctors within the plan’s network, and coverage may be limited outside your service area.Was this article helpful ?Yes (1)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (1)No',
-        ],
-      },
-    ],
+          'Yes (1)No'],
+      }],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "25-medicare-qas-you-should-know", "full-retirement-age", "what-is-medicare"],
   },
   {
@@ -580,10 +546,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Advantage Checklist',
         paragraphs: [
           'Updated on September 26, 2023',
-          'Before enrolling in a [Medicare Advantage plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it’s important to [consider a variety of factors](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans)....',
-        ],
-      },
-    ],
+          'Before enrolling in a [Medicare Advantage plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it’s important to [consider a variety of factors](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans)....'],
+      }],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "medicare-initial-enrollment-period", "5-things-to-do-after-you-receive-your-medicare-card"],
   },
   {
@@ -605,8 +569,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'Why Moving Affects Your Medicare Coverage',
@@ -620,8 +583,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         listItems: [
           'Original Medicare (Part A & B):WhileOriginal Medicarewill generally cover you regardless of where you live in the U.S., it’s still important to update your address. This ensures that your billing information is accurate and that you receive necessary communications.',
           'Medicare Advantage & Part D Plans:Medicare Advantage plans (Part C)andPart D prescription drug plansare often county-specific. Moving to a new location could mean your current plan is no longer available in your new area. If that happens, you will need to switch plans to continue coverage.',
-          'Medicare Supplement Plans (Medigap):Medigap plansare regulated at the state level, and certain states may have different rules or policies. Moving to a new state may affect your ability to keep your Medigap policy or require you to choose a new plan.',
-        ],
+          'Medicare Supplement Plans (Medigap):Medigap plansare regulated at the state level, and certain states may have different rules or policies. Moving to a new state may affect your ability to keep your Medigap policy or require you to choose a new plan.'],
       },
       {
         heading: 'The Importance of Updating Your Information to Avoid Coverage Gaps',
@@ -640,8 +602,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           'Update Medicare DirectlyOnce the SSA has your updated address, they will send the information to Medicare. However, it’s a good idea to double-check by contacting Medicare directly. You can do so by calling 1-800-MEDICARE (1-800-633-4227) or logging into your Medicare account online to verify the change.',
           'Online: Visit the SSA website and log into your account. From there, you can update your address and other personal information.',
           'Phone: Call the SSA at 1-800-772-1213 (TTY: 1-800-325-0778).',
-          'In Person: Visit your local SSA office to complete the address change.',
-        ],
+          'In Person: Visit your local SSA office to complete the address change.'],
       },
       {
         heading: 'When and How to Make the Update to Ensure a Smooth Transition',
@@ -653,14 +614,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         paragraphs: [
           'Let us help you navigate your Medicare journey',
           'Medicare Advantage & Part D Plans:These plans are regional, so if you’re moving to a new area, your current plan may no longer be available. Be sure to check with your provider if your Medicare Advantage or Part D plan is available in your new location. If it’s not, you’ll need to choose a new plan.Medigap (Supplemental Insurance):Medigap plans are regulated by state, meaning that moving to a new state could affect your options. While some states allow you to keep your Medigap plan, others may require you to switch to a new provider. Make sure to review your options in your new state and understand any changes in coverage.Was this article helpful ?Yes (8)No',
-          'Medigap (Supplemental Insurance):Medigap plans are regulated by state, meaning that moving to a new state could affect your options. While some states allow you to keep your Medigap plan, others may require you to switch to a new provider. Make sure to review your options in your new state and understand any changes in coverage.Was this article helpful ?Yes (8)No',
-        ],
+          'Medigap (Supplemental Insurance):Medigap plans are regulated by state, meaning that moving to a new state could affect your options. While some states allow you to keep your Medigap plan, others may require you to switch to a new provider. Make sure to review your options in your new state and understand any changes in coverage.Was this article helpful ?Yes (8)No'],
         listItems: [
           'Was this article helpful ?',
-          'Yes (8)No',
-        ],
-      },
-    ],
+          'Yes (8)No'],
+      }],
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "best-states-to-retire"],
   },
   {
@@ -683,10 +641,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Best Medicare Advantage Plans for 2026',
         paragraphs: [
           'Updated on January 16, 2024',
-          'When it comes to [Medicare](/faqs/what-is-medicare), there are several [plan options](/blog/medicare-parts-a-b-c-and-d-explained-simply) available for those eligible for...',
-        ],
-      },
-    ],
+          'When it comes to [Medicare](/faqs/what-is-medicare), there are several [plan options](/blog/medicare-parts-a-b-c-and-d-explained-simply) available for those eligible for...'],
+      }],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling"],
   },
   {
@@ -709,10 +665,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: '5 Ways to Reduce Your Medicare Premiums',
         paragraphs: [
           'Updated on September 27, 2021',
-          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...',
-        ],
-      },
-    ],
+          'There are many ways you can [reduce your Medicare premiums](/faqs/reduce-medicare-premiums). [Almost everyone pays a premium](/blog/medicare-costs-2025)...'],
+      }],
     relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-supplements-cost-vs-value-explained", "medicare-costs-2025", "average-cost-of-medicare-supplement-plans", "medicare-agents-near-me"],
   },
   {
@@ -735,10 +689,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: '',
         paragraphs: [
           'My wife and I are permanent residents in Mexico. We will keep our [Medicare Part A & B](/blog/medicare-parts-a-b-c-and-d-explained-simply), and have an air ambulance service to get us back to the US if needed. What would you recommend for [emergency coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) while living here.',
-          'Thank you',
-        ],
-      },
-    ],
+          'Thank you'],
+      }],
     relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "state-specific-medicare-rules", "moving-to-another-state-with-medicare", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide"],
   },
   // does-medicare-cover-a-biopsy moved to coverage-data.ts (CoverageArticleContent format)
@@ -762,10 +714,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Medicare Plan F vs. Plan G vs. Plan N',
         paragraphs: [
           'Updated on January 20, 2026',
-          '[Medicare Supplement Plan F vs. Plan G vs. Plan N](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n), provide the most [comprehensive benefits](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained)...',
-        ],
-      },
-    ],
+          '[Medicare Supplement Plan F vs. Plan G vs. Plan N](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n), provide the most [comprehensive benefits](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained)...'],
+      }],
     relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n"],
   },
 
@@ -788,10 +738,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'I am about to start [Medicare Parts A and B](/blog/medicare-parts-a-b-c-and-d-explained-simply) on 1/1/2024, I am going to select the [Medigap coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) but I would like to know about the drug formularies for [Part D coverage](/faqs/part-d-formulary). I am currently on Amjevita with a co-pay assist bringing my cost to $0. So, would I lose this co-pay assist when I sign up for Part D? I am not really getting results from Amjevita and have tried 23 other drugs and biologics for RA. I would like to see which drugs each Part D plan covers to see if there is anything else I can try. Thank you.',
-        ],
-      },
-    ],
+          'I am about to start [Medicare Parts A and B](/blog/medicare-parts-a-b-c-and-d-explained-simply) on 1/1/2024, I am going to select the [Medigap coverage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) but I would like to know about the drug formularies for [Part D coverage](/faqs/part-d-formulary). I am currently on Amjevita with a co-pay assist bringing my cost to $0. So, would I lose this co-pay assist when I sign up for Part D? I am not really getting results from Amjevita and have tried 23 other drugs and biologics for RA. I would like to see which drugs each Part D plan covers to see if there is anything else I can try. Thank you.'],
+      }],
     relatedSlugs: ["medicare-advantage-for-chronic-conditions-what-you-need-to-know", "does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-physical-therapy", "medicare-preventive-services"],
   },
   {
@@ -814,10 +762,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'How to File a Medicare Claim',
         paragraphs: [
           'Updated on September 15, 2021',
-          'Most of the time, you won’t need to worry about [filing your own Medicare claims](/faqs/how-to-file-a-medicare-claim)....',
-        ],
-      },
-    ],
+          'Most of the time, you won’t need to worry about [filing your own Medicare claims](/faqs/how-to-file-a-medicare-claim)....'],
+      }],
     relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
   },
   {
@@ -840,10 +786,8 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'Best Medicare Advantage Plans for 2026',
         paragraphs: [
           'Updated on January 16, 2024',
-          'When it comes to [Medicare](/faqs/what-is-medicare), there are several [plan options](/blog/medicare-parts-a-b-c-and-d-explained-simply) available for those eligible for...',
-        ],
-      },
-    ],
+          'When it comes to [Medicare](/faqs/what-is-medicare), there are several [plan options](/blog/medicare-parts-a-b-c-and-d-explained-simply) available for those eligible for...'],
+      }],
     relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-parts-a-b-c-and-d-explained-simply", "part-d-formulary"],
   },
   {
@@ -866,10 +810,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         heading: 'How do I Find Pain Management Doctors near Me that Accept Medicare?',
         paragraphs: [
           'Updated on November 18, 2024',
-          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover [pain management services](/faqs/medicare-coverage-for-lower-back-pain-management) when [medically necessary](/faqs/what-does-medically-necessary-mean). Yet, some services or treatments...',
-        ],
-      },
-    ],
+          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover [pain management services](/faqs/medicare-coverage-for-lower-back-pain-management) when [medically necessary](/faqs/what-does-medically-necessary-mean). Yet, some services or treatments...'],
+      }],
     relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days", "applying-for-medicare", "how-to-file-a-medicare-claim", "medicare-enrollment-checklist"],
-  },
-];
+  }];

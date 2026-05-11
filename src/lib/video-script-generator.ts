@@ -104,8 +104,7 @@ Remember: 250-280 words total, four labeled sections (hook, key_facts, next_step
       max_tokens: 1024,
       messages: [
         { role: "system", content: SYSTEM_PROMPT },
-        { role: "user", content: userPrompt },
-      ],
+        { role: "user", content: userPrompt }],
     }),
   });
 

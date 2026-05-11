@@ -88,8 +88,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
           "You pay the standard Part B monthly premium of **$202.90**",
           "You meet the **$283 annual Part B deductible** before coverage begins",
           "After the deductible, **Part B covers 80%** of the Medicare-approved amount",
-          "You are responsible for the remaining **20% coinsurance**",
-        ],
+          "You are responsible for the remaining **20% coinsurance**"],
       },
       {
         type: "paragraph",
@@ -132,8 +131,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
           "Co-pays for routine eye exams",
           "Whether your preferred eye doctor is in-network",
           "Frequency limits (some plans only cover one exam per year)",
-          "Whether the vision benefit is embedded in the plan or requires a separate vision network card",
-        ],
+          "Whether the vision benefit is embedded in the plan or requires a separate vision network card"],
       },
       {
         type: "paragraph",
@@ -159,21 +157,17 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
             "Original Medicare (Part B only)",
             "Not covered (100% your cost)",
             "$283 deductible, then 20% coinsurance",
-            "Not covered (except post-cataract)",
-          ],
+            "Not covered (except post-cataract)"],
           [
             "Medigap + Original Medicare",
             "Not covered (100% your cost)",
             "Medigap covers deductible & coinsurance",
-            "Not covered (except post-cataract)",
-          ],
+            "Not covered (except post-cataract)"],
           [
             "Medicare Advantage (Part C)",
             "Often covered with a co-pay",
             "Covered under medical benefit",
-            "Annual allowance varies by plan",
-          ],
-        ],
+            "Annual allowance varies by plan"]],
       },
       {
         type: "paragraph",
@@ -271,8 +265,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
             question: "How do I Choose a Medicare Plan with Good Vision Coverage?",
             answer:
               "Focus your plan comparison on Medicare Advantage options, looking specifically at annual eyewear allowances, co-pays for exams, and whether your preferred eye doctor is in-network. Balance the vision benefits against each plan's total costs, premiums, deductibles, and the out-of-pocket maximum before making a final decision.",
-          },
-        ],
+          }],
       },
       {
         type: "heading",
@@ -294,14 +287,11 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
         type: "paragraph",
         content:
           "Take a few minutes to review the Medicare vision care coverage options available in your area, and pay close attention to eyewear allowances, network restrictions, and co-pay structures. Your eyesight is not something to leave to guesswork. If you would like personalized guidance, a licensed Medicare agent can walk through plans in your area at no cost.",
-      },
-    ],
+      }],
     relatedSlugs: [
       "does-medicare-cover-macular-degeneration",
       "does-medicare-cover-hearing-aids",
       "does-medicare-cover-dental",
       "deductible-copay-coinsurance-premium",
-      "medicare-advantage-plans",
-    ],
-  },
-];
+      "medicare-advantage-plans"],
+  }];

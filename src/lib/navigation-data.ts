@@ -84,8 +84,7 @@ export const navigationData: NavCategory[] = [
         description: "Step-by-step checklist for new Medicare enrollees",
         icon: CheckSquare,
         href: "/new-to-medicare/checklist",
-      },
-    ],
+      }],
     sidebarTitle: "QUICK START",
     sidebarItems: [
       {
@@ -93,8 +92,7 @@ export const navigationData: NavCategory[] = [
         description: "Our most popular guide for people approaching 65.",
         href: "/medicare-101",
         cta: "Read the Guide",
-      },
-    ],
+      }],
   },
   {
     title: "Medicare Plans",
@@ -136,8 +134,7 @@ export const navigationData: NavCategory[] = [
         description: "What you'll pay for each plan type",
         icon: DollarSign,
         href: "/medicare-plans/costs",
-      },
-    ],
+      }],
     sidebarTitle: "POPULAR COMPARISON",
     sidebarItems: [
       {
@@ -152,8 +149,7 @@ export const navigationData: NavCategory[] = [
         description: "Plan F, G, and N compared with current rates.",
         href: "/medicare-plans/best-supplement-plans",
         cta: "See Rankings",
-      },
-    ],
+      }],
   },
   {
     title: "Enrollment",
@@ -189,8 +185,7 @@ export const navigationData: NavCategory[] = [
         description: "Step-by-step enrollment process guide",
         icon: FileText,
         href: "/enrollment/how-to-enroll",
-      },
-    ],
+      }],
     sidebarTitle: "ENROLLMENT HELP",
     sidebarItems: [
       {
@@ -199,8 +194,7 @@ export const navigationData: NavCategory[] = [
           "Timing matters. Find your enrollment window and avoid penalties.",
         href: "/enrollment/turning-65",
         cta: "Check Your Timeline",
-      },
-    ],
+      }],
   },
   {
     title: "Coverage",
@@ -242,8 +236,7 @@ export const navigationData: NavCategory[] = [
         description: "When to enroll if you're still employed past 65",
         icon: Activity,
         href: "/faqs/when-should-you-enroll-in-medicare-if-still-working",
-      },
-    ],
+      }],
     sidebarTitle: "POPULAR COVERAGE TOPICS",
     sidebarItems: [
       {
@@ -261,8 +254,7 @@ export const navigationData: NavCategory[] = [
       {
         title: "Veterans Coverage Guide",
         href: "/faqs/medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage",
-      },
-    ],
+      }],
   },
   {
     title: "Medicare Library",
@@ -304,8 +296,7 @@ export const navigationData: NavCategory[] = [
         description: "Meet our licensed Medicare experts",
         icon: UserCheck,
         href: "/library/about",
-      },
-    ],
+      }],
     sidebarTitle: "MOST POPULAR",
     sidebarItems: [
       {
@@ -323,19 +314,15 @@ export const navigationData: NavCategory[] = [
       {
         title: "Medicare vs. Medicaid",
         href: "/medicare-101",
-      },
-    ],
-  },
-];
+      }],
+  }];
 
 export const utilityLinks = [
   { title: "About Us", href: "/about-us", color: "#1B2A4A" },
   { title: "Blog", href: "/blog", color: "#4F46E5" },
   { title: "Coverage FAQs", href: "/faqs", color: "#059669" },
-  { title: "Contact", href: "/contact", color: "#C41230" },
-];
+  { title: "Contact", href: "/contact", color: "#C41230" }];
 
 export const trustBadges = [
   { label: "BBB a+ Rated", icon: "star" },
-  { label: "Licensed Agents", icon: "shield" },
-];
+  { label: "Licensed Agents", icon: "shield" }];

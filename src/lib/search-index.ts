@@ -159,8 +159,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     type: "guide",
     typeLabel: "Guide",
     href: "/enrollment/late-penalties",
-  },
-];
+  }];
 
 /* ─── Static page entries (key site pages) ─── */
 const pageEntries: Omit<SearchResult, "score">[] = [
@@ -223,8 +222,7 @@ const pageEntries: Omit<SearchResult, "score">[] = [
     type: "page",
     typeLabel: "Page",
     href: "/library/about",
-  },
-];
+  }];
 
 /* ─── Build the full index ─── */
 function buildIndex(): Omit<SearchResult, "score">[] {

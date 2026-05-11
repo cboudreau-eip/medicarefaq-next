@@ -26,8 +26,7 @@ export const simpleFAQBatch5: SimpleFAQArticleData[] = [
       {
         heading: '',
         paragraphs: [
-          'Let us help you navigate your Medicare journey',
-        ],
+          'Let us help you navigate your Medicare journey'],
       },
       {
         heading: 'What’s Included in Original Medicare’s Hospital Coverage?',
@@ -37,8 +36,7 @@ export const simpleFAQBatch5: SimpleFAQArticleData[] = [
           'Days 1-60: Medicare covers the full cost after you pay the Part A deductible.',
           'Days 61-90: You’ll have to pay a daily copayment fee ($434 per day in 2026).',
           'Days 91-150: These are lifetime reserve days, where you’ll pay a higher daily fee ($868 per day in 2026).',
-          'Beyond 150 days: You are responsible for 100% of your stay.',
-        ],
+          'Beyond 150 days: You are responsible for 100% of your stay.'],
       },
       {
         heading: 'What are Lifetime Reserve Days?',
@@ -49,25 +47,20 @@ export const simpleFAQBatch5: SimpleFAQArticleData[] = [
         heading: 'How Medicare Supplement Plans Extend Your Hospital Coverage',
         paragraphs: [
           'Let us help you navigate your Medicare journey',
-          'This extra coverage can prevent high out-of-pocket costs and provides you with peace of mind, knowing that you have extended protection in case of a prolonged stay.Why Additional Lifetime Reserve Days MatterHaving extra hospital coverage through a Medicare Supplement plan can make a significant difference in your healthcare experience. Here’s why these additional lifetime reserve days are so valuable:Extends your hospital stay coverage beyond Medicare’s limits, ensuring you don’t have to leave care prematurely due to cost concerns.Minimizes or eliminates overwhelming medical bills that could otherwise drain your savings if you experience a prolonged illness or unexpected complications.Provides peace of mind knowing that even if your hospital stay exceeds Medicare’s standard limits, you’ll still have financial protection.Works seamlessly with Medicare, eliminating the stress of navigating multiple policies or worrying about coverage gaps.Long hospital stays can be unpredictable. Whether you’re recovering from surgery, managing a chronic condition, or dealing with unforeseen medical issues, having additional hospital coverage ensures you receive the necessary care without worrying about your finances.Was this article helpful ?Yes (0)No',
-        ],
+          'This extra coverage can prevent high out-of-pocket costs and provides you with peace of mind, knowing that you have extended protection in case of a prolonged stay.Why Additional Lifetime Reserve Days MatterHaving extra hospital coverage through a Medicare Supplement plan can make a significant difference in your healthcare experience. Here’s why these additional lifetime reserve days are so valuable:Extends your hospital stay coverage beyond Medicare’s limits, ensuring you don’t have to leave care prematurely due to cost concerns.Minimizes or eliminates overwhelming medical bills that could otherwise drain your savings if you experience a prolonged illness or unexpected complications.Provides peace of mind knowing that even if your hospital stay exceeds Medicare’s standard limits, you’ll still have financial protection.Works seamlessly with Medicare, eliminating the stress of navigating multiple policies or worrying about coverage gaps.Long hospital stays can be unpredictable. Whether you’re recovering from surgery, managing a chronic condition, or dealing with unforeseen medical issues, having additional hospital coverage ensures you receive the necessary care without worrying about your finances.Was this article helpful ?Yes (0)No'],
       },
       {
         heading: 'Why Additional Lifetime Reserve Days Matter',
         paragraphs: [
           'Having extra hospital coverage through a Medicare Supplement plan can make a significant difference in your healthcare experience. Here’s why these additional lifetime reserve days are so valuable:Extends your hospital stay coverage beyond Medicare’s limits, ensuring you don’t have to leave care prematurely due to cost concerns.Minimizes or eliminates overwhelming medical bills that could otherwise drain your savings if you experience a prolonged illness or unexpected complications.Provides peace of mind knowing that even if your hospital stay exceeds Medicare’s standard limits, you’ll still have financial protection.Works seamlessly with Medicare, eliminating the stress of navigating multiple policies or worrying about coverage gaps.Long hospital stays can be unpredictable. Whether you’re recovering from surgery, managing a chronic condition, or dealing with unforeseen medical issues, having additional hospital coverage ensures you receive the necessary care without worrying about your finances.Was this article helpful ?Yes (0)No',
-          'Long hospital stays can be unpredictable. Whether you’re recovering from surgery, managing a chronic condition, or dealing with unforeseen medical issues, having additional hospital coverage ensures you receive the necessary care without worrying about your finances.Was this article helpful ?Yes (0)No',
-        ],
+          'Long hospital stays can be unpredictable. Whether you’re recovering from surgery, managing a chronic condition, or dealing with unforeseen medical issues, having additional hospital coverage ensures you receive the necessary care without worrying about your finances.Was this article helpful ?Yes (0)No'],
         listItems: [
           'Extends your hospital stay coverage beyond Medicare’s limits, ensuring you don’t have to leave care prematurely due to cost concerns.',
           'Minimizes or eliminates overwhelming medical bills that could otherwise drain your savings if you experience a prolonged illness or unexpected complications.',
           'Provides peace of mind knowing that even if your hospital stay exceeds Medicare’s standard limits, you’ll still have financial protection.',
           'Works seamlessly with Medicare, eliminating the stress of navigating multiple policies or worrying about coverage gaps.',
           'Was this article helpful ?',
-          'Yes (0)No',
-        ],
-      },
-    ],
+          'Yes (0)No'],
+      }],
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plans-medigap-pricing-methods", "choosing-a-medigap-policy", "how-to-choose-a-medicare-supplement-plan-that-fits-your-budget"],
-  },
-];
+  }];

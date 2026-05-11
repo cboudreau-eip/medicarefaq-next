@@ -59,8 +59,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <li><strong>Medicare Advantage Open Enrollment Period (OEP)</strong> — January 1 – March 31 (switch MA plans or return to Original Medicare)</li>
 <li><strong>Special Enrollment Periods (SEPs)</strong> — Triggered by qualifying life events (moving, losing coverage, etc.)</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Is Medicare Advantage Better than Original Medicare?",
@@ -76,8 +75,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "Do Medicare Advantage Plans Cover Prescription Drugs?",
         answer:
           "Most Medicare Advantage plans include Part D prescription drug coverage (called MA-PD plans). A few plans do not include drug coverage — if you choose one of these, you can enroll in a standalone Part D plan.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage HMO Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo" },
@@ -87,8 +85,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Medicare Advantage Enrollment Periods", path: "/medicare-part-c/medicare-advantage-enrollment-periods" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
-      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" },
-    ],
+      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" }],
   },
   {
     slug: "medicare-advantage-plan-hmo-pos",
@@ -134,8 +131,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <li>Don't frequently need to see specialists or travel for care</li>
 <li>Value coordinated, managed care</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Do HMO Medicare Advantage Plans Require Referrals?",
@@ -151,8 +147,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "Can I Keep My Current Doctor with an HMO Plan?",
         answer:
           "Only if your doctor is in the plan's network. Before enrolling, use the plan's online provider directory to confirm that your doctors, specialists, and preferred hospital are in-network.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage HMO Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo" },
@@ -160,8 +155,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
-      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" },
-    ],
+      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" }],
   },
   {
     slug: "medicare-advantage-eligibility",
@@ -206,8 +200,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <li><strong>Annual Enrollment Period (AEP)</strong> — October 15 – December 7 each year</li>
 <li><strong>Special Enrollment Periods (SEPs)</strong> — Triggered by qualifying events like moving, losing employer coverage, or gaining/losing Medicaid eligibility</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Can I enroll in Medicare Advantage if I'm under 65?",
@@ -223,14 +216,12 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "Can I Enroll in Medicare Advantage if I Have Medicaid?",
         answer:
           "Yes. If you have both Medicare and Medicaid (dual-eligible), you may qualify for a Dual Eligible Special Needs Plan (D-SNP), which coordinates benefits from both programs and often has very low or $0 costs.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage Enrollment Periods", path: "/medicare-part-c/medicare-advantage-enrollment-periods" },
       { label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp" },
-      { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
-    ],
+      { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" }],
   },
   {
     slug: "medicare-advantage-enrollment-periods",
@@ -283,8 +274,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <li><strong>Plan termination</strong> — Your Medicare Advantage plan leaves Medicare or stops serving your area</li>
 <li><strong>5-star enrollment</strong> — If a 5-star plan is available in your area, you can switch to it once per year (December 8 – November 30)</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Can I Enroll in Medicare Advantage at Any Time?",
@@ -300,15 +290,13 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "What Happens if I Miss All Enrollment Periods?",
         answer:
           "If you miss your Initial Enrollment Period and don't have a qualifying SEP, you'll need to wait for the Annual Enrollment Period (Oct 15–Dec 7). You may also face late enrollment penalties for Part B and Part D if you delayed enrollment without creditable coverage.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
-      { label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp" },
-    ],
+      { label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp" }],
   },
   {
     slug: "medicare-advantage-plan-snp",
@@ -367,8 +355,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <li>A Special Enrollment Period (if you gain eligibility for the SNP mid-year)</li>
 </ul>
 <p>If you're already in a D-SNP and lose Medicaid eligibility, you have a 3-month SEP to switch to another plan.</p>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Who Qualifies for a Dual Eligible SNP (D-SNP)?",
@@ -384,14 +371,12 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "Are SNPs Available Everywhere?",
         answer:
           "No. SNP availability varies by location. D-SNPs are widely available in most states, but C-SNPs and I-SNPs are less common and may not be available in all areas. Use Medicare's Plan Finder at medicare.gov to search for SNPs in your zip code.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage Eligibility", path: "/medicare-part-c/medicare-advantage-eligibility" },
       { label: "Medicare Advantage Enrollment Periods", path: "/medicare-part-c/medicare-advantage-enrollment-periods" },
-      { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
-    ],
+      { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" }],
   },
   {
     slug: "medicare-advantage-plan-pffs",
@@ -438,8 +423,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <li>PFFS plans may include extra benefits (dental, vision, Part D); Original Medicare does not</li>
 <li>With Original Medicare, any Medicare-approved provider must accept you; with PFFS, providers can decline on a visit-by-visit basis</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Can Any Doctor See Me if I Have a PFFS Plan?",
@@ -455,15 +439,13 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "Are PFFS Plans Available in My Area?",
         answer:
           "PFFS plans are most commonly available in rural areas. Use Medicare's Plan Finder at medicare.gov to search for PFFS plans in your zip code.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
-      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" },
-    ],
+      { label: "Medicare Advantage Plan Types", path: "/medicare-part-c/medicare-advantage-plan-types" }],
   },
   {
     slug: "medicare-advantage-plan-ppo",
@@ -513,8 +495,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <li>Are willing to pay higher premiums for more flexibility</li>
 <li>Have complex health needs that require multiple specialists</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Do PPO Medicare Advantage Plans Require Referrals?",
@@ -530,8 +511,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "Are PPO Medicare Advantage Plans Available Nationwide?",
         answer:
           "Some large insurers offer PPO plans with nationwide networks, which is particularly useful for people who travel or split time between locations. Check the plan's service area and network directory before enrolling.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
@@ -539,8 +519,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage Costs", path: "/medicare-part-c/medicare-advantage-costs" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
-      { label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp" },
-    ],
+      { label: "Medicare Advantage SNP Plans", path: "/medicare-part-c/medicare-advantage-plan-snp" }],
   },
   {
     slug: "medicare-advantage-costs",
@@ -587,8 +566,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <li><strong>Transportation</strong> — Rides to medical appointments</li>
 <li><strong>Over-the-counter allowance</strong> — Quarterly credit for OTC health products</li>
 </ul>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Do I Still Pay My Part B Premium with Medicare Advantage?",
@@ -604,14 +582,12 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "Are Medicare Advantage Plans Really Free?",
         answer:
           "Many plans have $0 monthly premiums, but you still pay your Part B premium. You also pay copays, coinsurance, and deductibles when you use services. The total cost depends heavily on how much healthcare you use during the year.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage vs. Original Medicare", path: "/medicare-part-c/medicare-advantage-vs-original-medicare" },
       { label: "Medicare Supplement Plans", path: "/medicare-supplements" },
-      { label: "Compare Medicare Plans", path: "/medicare-supplements" },
-    ],
+      { label: "Compare Medicare Plans", path: "/medicare-supplements" }],
   },
   {
     slug: "medicare-advantage-vs-original-medicare",
@@ -667,8 +643,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "Switching between Medicare Advantage and Original Medicare",
         body: `<p>You can switch between Medicare Advantage and Original Medicare during the Annual Enrollment Period (Oct 15–Dec 7) or the Medicare Advantage Open Enrollment Period (Jan 1–Mar 31).</p>
 <p><strong>Important caveat:</strong> If you switch back to Original Medicare after being in a Medicare Advantage plan, you may have difficulty getting a Medigap (Medicare Supplement) plan. Outside of guaranteed issue periods, Medigap insurers can use medical underwriting and deny coverage or charge higher premiums based on your health history. This is one of the most important factors to consider when making the initial Medicare coverage decision at age 65.</p>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Which is Cheaper, Medicare Advantage or Original Medicare?",
@@ -684,14 +659,12 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "If I Switch from Medicare Advantage to Original Medicare, Can I Get a Medigap Plan?",
         answer:
           "Possibly, but it may be difficult. Outside of guaranteed issue periods, Medigap insurers can use medical underwriting in most states. If you have pre-existing conditions, you may be denied or charged higher premiums. This is why many advisors recommend carefully considering the Medigap vs. Medicare Advantage decision at age 65, when you have guaranteed issue rights.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Supplement Plans", path: "/medicare-supplements" },
       { label: "Medicare Supplement vs. Medicare Advantage", path: "/medicare-plans/supplement-vs-advantage" },
-      { label: "Compare Medicare Plans", path: "/medicare-supplements" },
-    ],
+      { label: "Compare Medicare Plans", path: "/medicare-supplements" }],
   },
   {
     slug: "medicare-advantage-plan-hmo",
@@ -746,8 +719,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
 <tr><td>Best for</td><td>Cost-conscious, local care</td><td>Flexibility, travel, specialists</td></tr>
 </tbody>
 </table>`,
-      },
-    ],
+      }],
     faqs: [
       {
         question: "Is a Medicare Advantage HMO the Same as Medicare?",
@@ -763,15 +735,12 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         question: "What Happens if I See an Out-of-network Doctor with an HMO Plan?",
         answer:
           "With a standard HMO plan, you generally have no coverage for out-of-network care except in emergencies. Always verify that your providers are in-network before receiving non-emergency care.",
-      },
-    ],
+      }],
     relatedLinks: [
       { label: "Medicare Advantage Overview", path: "/medicare-part-c" },
       { label: "Medicare Advantage HMO-POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
       { label: "Medicare Advantage PFFS Plans", path: "/medicare-part-c/medicare-advantage-plan-pffs" },
       { label: "Medicare Advantage PPO Plans", path: "/medicare-part-c/medicare-advantage-plan-ppo" },
       { label: "Medicare HMO vs. PPO", path: "/faqs/medicare-hmo-vs-ppo" },
-      { label: "Compare Medicare Plans", path: "/medicare-supplements" },
-    ],
-  },
-];
+      { label: "Compare Medicare Plans", path: "/medicare-supplements" }],
+  }];

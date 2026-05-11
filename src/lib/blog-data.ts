@@ -46,8 +46,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "10 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop",
-  },
-];
+  }];
 
 export const articleTableOfContents: ArticleSection[] = [
   { id: "how-deductible-works", title: "How the Part B Deductible Works", level: 2 },
@@ -61,8 +60,7 @@ export const articleTableOfContents: ArticleSection[] = [
   { id: "tips-managing-costs", title: "Tips for Managing Part B Costs", level: 2 },
   { id: "who-this-is-for", title: "Who This Is For / Who This Isn't For", level: 2 },
   { id: "final-thoughts", title: "Final Thoughts", level: 2 },
-  { id: "faqs", title: "Frequently Asked Questions", level: 2 },
-];
+  { id: "faqs", title: "Frequently Asked Questions", level: 2 }];
 
 export const categories = [
   { name: "All Posts", color: "#1B2A4A" },
@@ -70,5 +68,4 @@ export const categories = [
   { name: "Enrollment", color: "#D97706" },
   { name: "Medicare Plans", color: "#1B2A4A" },
   { name: "Medicare Supplement", color: "#4F46E5" },
-  { name: "Getting Started", color: "#0D9488" },
-];
+  { name: "Getting Started", color: "#0D9488" }];

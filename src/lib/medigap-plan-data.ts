@@ -71,29 +71,25 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none", detail: "You pay this once per year" },
       { benefit: "Blood (first 3 pints)", covered: "full" },
       { benefit: `${SNF_COINSURANCE}`, covered: "full" },
-      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" },
-    ],
+      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" }],
     highlights: [
       "Covers 100% of Medicare-approved costs after the Part B deductible",
       "No networks — see any doctor or hospital that accepts Medicare nationwide",
       "Covers Part B excess charges (doctors who don't accept Medicare assignment)",
       "Includes foreign travel emergency coverage",
-      "Guaranteed renewable — can't be cancelled due to health changes",
-    ],
+      "Guaranteed renewable — can't be cancelled due to health changes"],
     proscons: {
       pros: [
         "Near-total coverage — only one out-of-pocket cost (Part B deductible)",
         "Predictable annual costs — easy to budget",
         "No network restrictions — any Medicare-accepting provider",
         "Covers Part B excess charges, unlike Plan N",
-        "Available from many competing insurers — shop for best price",
-      ],
+        "Available from many competing insurers — shop for best price"],
       cons: [
         `You pay the Part B deductible (${PART_B_DEDUCTIBLE} in 2026) yourself`,
         "Higher premiums than Plan N or high-deductible options",
         "Doesn't include prescription drug coverage (need separate Part D)",
-        "Premiums increase with age in most states",
-      ],
+        "Premiums increase with age in most states"],
     },
     faqs: [
       {
@@ -115,16 +111,14 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       {
         q: "Does Plan G cover dental, vision, or hearing?",
         a: "No. Like all Medigap plans, Plan G only covers costs related to Original Medicare (Parts A and B). It does not include dental, vision, hearing, or prescription drug coverage. You would need separate plans for those benefits.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-n", "plan-f", "high-deductible-plan-g"],
     intro: "Medicare Supplement Plan G is the most popular Medigap plan for new Medicare enrollees — and for good reason. It covers virtually every out-of-pocket cost that Original Medicare leaves behind, with just one exception: the annual Part B deductible.",
     detailParagraphs: [
       `Plan G became the go-to choice for new enrollees after Plan F was discontinued for people newly eligible for Medicare on or after January 1, 2020. With Plan G, once you've paid the Part B deductible (${PART_B_DEDUCTIBLE} in 2026), Medicare and your Medigap plan together cover 100% of Medicare-approved costs for the rest of the year.`,
       "One of Plan G's most valuable features is its coverage of Part B excess charges. When a doctor doesn't accept Medicare assignment, they can charge up to 15% more than the Medicare-approved amount. Plan G pays those excess charges in full, giving you the freedom to see virtually any doctor in the country.",
       "Plan G also includes foreign travel emergency coverage — up to 80% of medically necessary emergency care costs after a $250 deductible, with a $50,000 lifetime maximum. This makes it an excellent choice for people who travel internationally.",
-      "Because Medigap plans are federally standardized, a Plan G from one company offers identical benefits to a Plan G from any other company. The only difference is the premium. Shopping and comparing quotes from multiple insurers is the single most effective way to reduce your Medigap costs.",
-    ],
+      "Because Medigap plans are federally standardized, a Plan G from one company offers identical benefits to a Plan G from any other company. The only difference is the premium. Shopping and comparing quotes from multiple insurers is the single most effective way to reduce your Medigap costs."],
   },
 
   "plan-f": {
@@ -154,28 +148,24 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "full", detail: "Plan F covers this — Plan G does not" },
       { benefit: "Blood (first 3 pints)", covered: "full" },
       { benefit: `${SNF_COINSURANCE}`, covered: "full" },
-      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" },
-    ],
+      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" }],
     highlights: [
       "Covers 100% of Medicare-approved costs — zero out-of-pocket after premium",
       "The only Medigap plan that covers the Part B deductible",
       "No networks — see any doctor or hospital that accepts Medicare",
       "Covers Part B excess charges",
-      "Only available to those eligible for Medicare before January 1, 2020",
-    ],
+      "Only available to those eligible for Medicare before January 1, 2020"],
     proscons: {
       pros: [
         "Truly zero out-of-pocket costs for Medicare-covered services",
         "Simplest coverage — no deductibles, copays, or coinsurance",
         "Covers Part B deductible and excess charges",
-        "Predictable costs — just your monthly premium",
-      ],
+        "Predictable costs — just your monthly premium"],
       cons: [
         "Not available to new Medicare enrollees (must have been eligible before Jan 1, 2020)",
         "Highest premiums of all Medigap plans",
         "Premiums typically $20–$50/month more than Plan G for the same coverage minus Part B deductible",
-        "Shrinking pool of enrollees may cause premiums to rise faster over time",
-      ],
+        "Shrinking pool of enrollees may cause premiums to rise faster over time"],
     },
     faqs: [
       {
@@ -193,16 +183,14 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       {
         q: "Will Plan F be discontinued?",
         a: "Plan F won't be discontinued for current enrollees — it's guaranteed renewable. However, since no new enrollees are joining, the pool of Plan F members is aging and shrinking. This can lead to faster premium increases over time as claims costs are spread over fewer people.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-g", "high-deductible-plan-f", "plan-n"],
     intro: "Medicare Supplement Plan F offers the most comprehensive coverage of any Medigap plan — covering 100% of Medicare-approved costs with absolutely no out-of-pocket expenses beyond your monthly premium. However, Plan F is only available to people who were eligible for Medicare before January 1, 2020.",
     detailParagraphs: [
       "Plan F was the most popular Medigap plan for decades, and for good reason: it eliminates every Medicare cost-sharing requirement. After paying your monthly premium, you have zero deductibles, zero copays, and zero coinsurance for any Medicare-covered service.",
       `The key difference between Plan F and Plan G is that Plan F covers the Part B annual deductible (${PART_B_DEDUCTIBLE} in 2026), while Plan G does not. This single benefit is what makes Plan F premiums higher. For most people, Plan G offers better value since the premium savings typically exceed the deductible amount.`,
       "The Medicare Access and CHIP Reauthorization Act (MACRA) of 2015 prohibited new Medicare enrollees from purchasing plans that cover the Part B deductible, effective January 1, 2020. This means Plan F and Plan C are no longer available to anyone who became eligible for Medicare after that date.",
-      "If you currently have Plan F, you can keep it — it's guaranteed renewable regardless of health changes. However, as the Plan F risk pool ages and shrinks, premiums may increase faster than other plans. It's worth periodically comparing your Plan F premium to Plan G to see if switching makes financial sense.",
-    ],
+      "If you currently have Plan F, you can keep it — it's guaranteed renewable regardless of health changes. However, as the Plan F risk pool ages and shrinks, premiums may increase faster than other plans. It's worth periodically comparing your Plan F premium to Plan G to see if switching makes financial sense."],
   },
 
   "plan-n": {
@@ -232,30 +220,26 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none", detail: "You pay this once per year" },
       { benefit: "Blood (first 3 pints)", covered: "full" },
       { benefit: `${SNF_COINSURANCE}`, covered: "full" },
-      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" },
-    ],
+      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" }],
     highlights: [
       "Premiums typically 20–30% lower than Plan G",
       "Covers Part A deductible and hospital costs in full",
       "Small copays: up to $20 for office visits, up to $50 for ER visits",
       "Does NOT cover Part B excess charges",
-      "Good choice for healthy enrollees with infrequent doctor visits",
-    ],
+      "Good choice for healthy enrollees with infrequent doctor visits"],
     proscons: {
       pros: [
         "Significantly lower premiums than Plan G — often $50–$100/month less",
         "Covers the large Part A deductible ($1,736) in full",
         "No network restrictions — any Medicare-accepting provider",
         "Includes foreign travel emergency coverage",
-        "Good option if you're healthy and rarely need medical care",
-      ],
+        "Good option if you're healthy and rarely need medical care"],
       cons: [
         `You pay the Part B deductible (${PART_B_DEDUCTIBLE}) yourself`,
         "Up to $20 copay per office visit (waived if no charge is made)",
         "Up to $50 copay per ER visit (waived if admitted)",
         "Does NOT cover Part B excess charges — avoid doctors who don't accept Medicare assignment",
-        "Could cost more than Plan G if you have frequent doctor visits",
-      ],
+        "Could cost more than Plan G if you have frequent doctor visits"],
     },
     faqs: [
       {
@@ -273,16 +257,14 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       {
         q: "What are Part B excess charges and why does Plan N not cover them?",
         a: "Part B excess charges occur when a doctor doesn't accept Medicare assignment and charges up to 15% more than the Medicare-approved rate. Plan N does not cover these charges. To avoid excess charges with Plan N, stick to doctors who accept Medicare assignment (most do — about 97% of doctors accept Medicare).",
-      },
-    ],
+      }],
     relatedPlans: ["plan-g", "plan-f", "high-deductible-plan-g"],
     intro: "Medicare Supplement Plan N strikes a balance between comprehensive coverage and affordable premiums. It covers most Medicare cost-sharing in full but includes modest copays for office and emergency room visits — making it an attractive option for healthy enrollees who want lower monthly costs.",
     detailParagraphs: [
       "Plan N has become increasingly popular as premiums for Plan G have risen. With Plan N, you get the same hospital coverage as Plan G — including the full Part A deductible — but pay lower monthly premiums in exchange for small copays when you see a doctor.",
       "The key trade-offs with Plan N are: (1) up to $20 copay per office visit, (2) up to $50 copay per ER visit (waived if admitted), and (3) no coverage for Part B excess charges. For people who are generally healthy and primarily see doctors who accept Medicare assignment, these trade-offs can result in significant savings.",
       "Plan N does not cover Part B excess charges. This means if you see a doctor who doesn't accept Medicare assignment, you could owe up to 15% above the Medicare-approved rate out of pocket. In states with 'balance billing' protections (like New York and Connecticut), this is less of a concern since excess charges are prohibited.",
-      "When comparing Plan N to Plan G, calculate your expected annual copay costs based on your typical healthcare usage. If you have 3–4 office visits per year, Plan N copays might total $60–$80 — far less than the premium difference. But if you're managing multiple chronic conditions with frequent specialist visits, Plan G's predictability may be worth the higher premium.",
-    ],
+      "When comparing Plan N to Plan G, calculate your expected annual copay costs based on your typical healthcare usage. If you have 3–4 office visits per year, Plan N copays might total $60–$80 — far less than the premium difference. But if you're managing multiple chronic conditions with frequent specialist visits, Plan G's predictability may be worth the higher premium."],
   },
 
   "plan-c": {
@@ -312,28 +294,24 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "full", detail: "Plan C covers this — Plan G does not" },
       { benefit: "Blood (first 3 pints)", covered: "full" },
       { benefit: `${SNF_COINSURANCE}`, covered: "full" },
-      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" },
-    ],
+      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" }],
     highlights: [
       "Covers the Part B deductible (unlike Plan G and Plan N)",
       "Does NOT cover Part B excess charges (unlike Plan F)",
       "Only available to those eligible for Medicare before January 1, 2020",
       "Similar to Plan F but without excess charge coverage",
-      "No networks — any Medicare-accepting provider nationwide",
-    ],
+      "No networks — any Medicare-accepting provider nationwide"],
     proscons: {
       pros: [
         "Covers the Part B deductible — zero out-of-pocket for most Medicare services",
         "Lower premiums than Plan F since it doesn't cover excess charges",
         "Comprehensive hospital and skilled nursing coverage",
-        "Includes foreign travel emergency coverage",
-      ],
+        "Includes foreign travel emergency coverage"],
       cons: [
         "Not available to new Medicare enrollees (must have been eligible before Jan 1, 2020)",
         "Does not cover Part B excess charges — could face bills from non-assignment doctors",
         "Higher premiums than Plan G or Plan N",
-        "Shrinking enrollee pool may cause faster premium increases",
-      ],
+        "Shrinking enrollee pool may cause faster premium increases"],
     },
     faqs: [
       {
@@ -347,15 +325,13 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       {
         q: "Can I still enroll in Plan C?",
         a: "Plan C is only available if you were eligible for Medicare before January 1, 2020. If you became eligible on or after that date, you cannot enroll in Plan C. If you were eligible before that date, you can still enroll at any time, subject to medical underwriting outside of your Medigap Open Enrollment Period.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-f", "plan-g", "plan-n"],
     intro: "Medicare Supplement Plan C offers comprehensive coverage similar to Plan F, covering the Part B deductible and most Medicare cost-sharing. The key distinction: Plan C does not cover Part B excess charges. Like Plan F, it is only available to people who were eligible for Medicare before January 1, 2020.",
     detailParagraphs: [
       `Plan C sits between Plan F and Plan G in terms of coverage. It covers the Part B deductible (${PART_B_DEDUCTIBLE} in 2026) like Plan F, but unlike Plan F, it does not cover Part B excess charges. This makes Plan C premiums slightly lower than Plan F.`,
       "For most people choosing between Plan C and Plan G, Plan G is the better value. While Plan C covers the Part B deductible, Plan G covers Part B excess charges — which can be more significant if you see doctors who don't accept Medicare assignment. And Plan G premiums are typically lower than Plan C.",
-      "If you currently have Plan C, it's worth periodically comparing your premium to Plan G. Since Plan C is no longer available to new enrollees, the risk pool is aging, which can drive premiums up faster than newer plans.",
-    ],
+      "If you currently have Plan C, it's worth periodically comparing your premium to Plan G. Since Plan C is no longer available to new enrollees, the risk pool is aging, which can drive premiums up faster than newer plans."],
   },
 
   "plan-d": {
@@ -385,29 +361,25 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none", detail: "You pay this once per year" },
       { benefit: "Blood (first 3 pints)", covered: "full" },
       { benefit: `${SNF_COINSURANCE}`, covered: "full" },
-      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" },
-    ],
+      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" }],
     highlights: [
       "Covers Part A deductible and hospital costs in full",
       "Covers skilled nursing facility coinsurance",
       "Includes foreign travel emergency coverage",
       "Does NOT cover Part B deductible or excess charges",
-      "Lower premiums than Plan G",
-    ],
+      "Lower premiums than Plan G"],
     proscons: {
       pros: [
         "Covers the significant Part A deductible ($1,736)",
         "Full skilled nursing facility coinsurance coverage",
         "Foreign travel emergency included",
         "Lower premiums than Plan G",
-        "Available to new Medicare enrollees",
-      ],
+        "Available to new Medicare enrollees"],
       cons: [
         "Does not cover Part B deductible",
         "Does not cover Part B excess charges",
         "Less popular than Plan G or N — fewer carriers may offer it",
-        "Plan N often offers similar savings with more competitive pricing",
-      ],
+        "Plan N often offers similar savings with more competitive pricing"],
     },
     faqs: [
       {
@@ -417,14 +389,12 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       {
         q: "Is Plan D a good choice?",
         a: "Plan D can be a good choice if you want solid hospital and SNF coverage at a lower premium than Plan G, and you primarily see doctors who accept Medicare assignment. However, Plan N is often a better value since it's more widely offered and competitively priced.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-g", "plan-n", "plan-b", "plan-c"],
     intro: "Medicare Supplement Plan D provides solid coverage for hospital and skilled nursing facility costs, along with foreign travel emergency benefits. It covers the Part A deductible in full but does not cover the Part B deductible or Part B excess charges.",
     detailParagraphs: [
       "Plan D is a mid-tier Medigap option that covers most major Medicare cost-sharing except the Part B deductible and excess charges. It's available to all new Medicare enrollees and offers lower premiums than Plan G.",
-      "While Plan D is a legitimate option, it's less commonly offered than Plan G or Plan N. If you're considering Plan D, it's worth also comparing Plan N — which has similar cost-sharing but is more widely available and often more competitively priced.",
-    ],
+      "While Plan D is a legitimate option, it's less commonly offered than Plan G or Plan N. If you're considering Plan D, it's worth also comparing Plan N — which has similar cost-sharing but is more widely available and often more competitively priced."],
   },
 
   "plan-b": {
@@ -454,40 +424,34 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none" },
       { benefit: "Blood (first 3 pints)", covered: "full" },
       { benefit: `${SNF_COINSURANCE}`, covered: "none", detail: "Plan B does not cover SNF coinsurance" },
-      { benefit: "Foreign travel emergency", covered: "none" },
-    ],
+      { benefit: "Foreign travel emergency", covered: "none" }],
     highlights: [
       "Covers the Part A deductible ($1,736 in 2026)",
       "Covers Part A hospital coinsurance and Part B coinsurance",
       "Does NOT cover skilled nursing facility coinsurance",
       "Does NOT cover foreign travel emergency",
-      "One of the lower-premium Medigap options",
-    ],
+      "One of the lower-premium Medigap options"],
     proscons: {
       pros: [
         "Covers the Part A deductible — protects against large hospital bills",
         "Lower premiums than Plan G, D, or N",
-        "Covers Part B coinsurance — no surprise bills for outpatient services",
-      ],
+        "Covers Part B coinsurance — no surprise bills for outpatient services"],
       cons: [
         "Does not cover skilled nursing facility coinsurance",
         "No foreign travel emergency coverage",
         "Does not cover Part B deductible or excess charges",
-        "Plan N often provides more coverage for a similar or lower premium",
-      ],
+        "Plan N often provides more coverage for a similar or lower premium"],
     },
     faqs: [
       {
         q: "Is Plan B worth it compared to Plan G?",
         a: "For most people, Plan G or Plan N provides significantly better coverage for a relatively modest premium increase. Plan B leaves you exposed to skilled nursing facility costs and foreign travel emergencies, which can be substantial. Unless you're on a very tight budget, Plan N typically offers better value.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-a", "plan-g", "plan-n"],
     intro: "Medicare Supplement Plan B is one of the more basic Medigap options. It covers the Part A deductible and basic Medicare coinsurance but does not include skilled nursing facility coverage or foreign travel emergency benefits.",
     detailParagraphs: [
       `Plan B adds one key benefit over Plan A: it covers the Part A deductible (${PART_A_DEDUCTIBLE} in 2026). This is a meaningful protection since a single hospital stay can trigger this deductible. However, Plan B still leaves gaps in skilled nursing facility coverage and foreign travel.`,
-      "For most people, Plan N offers better overall value than Plan B — it covers skilled nursing facility coinsurance and foreign travel emergency at a competitive premium. Unless your budget is extremely tight, it's worth comparing Plan N quotes before settling on Plan B.",
-    ],
+      "For most people, Plan N offers better overall value than Plan B — it covers skilled nursing facility coinsurance and foreign travel emergency at a competitive premium. Unless your budget is extremely tight, it's worth comparing Plan N quotes before settling on Plan B."],
   },
 
   "plan-a": {
@@ -517,41 +481,35 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none" },
       { benefit: "Blood (first 3 pints)", covered: "full" },
       { benefit: `${SNF_COINSURANCE}`, covered: "none" },
-      { benefit: "Foreign travel emergency", covered: "none" },
-    ],
+      { benefit: "Foreign travel emergency", covered: "none" }],
     highlights: [
       "Lowest premium of all Medigap plans",
       "Covers Part A hospital coinsurance and Part B coinsurance",
       "Does NOT cover Part A deductible, SNF coinsurance, or foreign travel",
       "Required to be offered by all Medigap insurers",
-      "Limited protection — most enrollees benefit from Plan G or N",
-    ],
+      "Limited protection — most enrollees benefit from Plan G or N"],
     proscons: {
       pros: [
         "Lowest monthly premium of any Medigap plan",
         "Covers extended hospital stays beyond Medicare's limits",
         "Covers Part B coinsurance — no bills for outpatient services",
-        "Available from all Medigap insurers",
-      ],
+        "Available from all Medigap insurers"],
       cons: [
         "Does not cover the Part A deductible ($1,736) — significant exposure for hospital stays",
         "No skilled nursing facility coverage",
         "No foreign travel emergency coverage",
-        "Most people get better value from Plan G or Plan N",
-      ],
+        "Most people get better value from Plan G or Plan N"],
     },
     faqs: [
       {
         q: "Who should choose Plan A?",
         a: "Plan A is rarely the best choice. It's primarily useful for people on very tight budgets who want some protection against extended hospital stays. For most people, Plan N offers substantially better coverage for a modest premium increase.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-b", "plan-n", "plan-g", "plan-c"],
     intro: "Medicare Supplement Plan A is the most basic Medigap plan, covering only the core Medicare cost-sharing benefits. It has the lowest premium of any Medigap plan but leaves significant gaps — including the Part A deductible and skilled nursing facility costs.",
     detailParagraphs: [
       "Plan A is the baseline Medigap plan that all insurers are required to offer. It covers Part A hospital coinsurance (including extended stays beyond Medicare's 60-day limit) and Part B coinsurance, but nothing else.",
-      "The most significant gap in Plan A is the Part A deductible ($1,736 in 2026). A single hospital admission triggers this deductible, and Plan A provides no protection against it. For most people, the premium difference between Plan A and Plan N is modest enough that Plan N is the clearly better choice.",
-    ],
+      "The most significant gap in Plan A is the Part A deductible ($1,736 in 2026). A single hospital admission triggers this deductible, and Plan A provides no protection against it. For most people, the premium difference between Plan A and Plan N is modest enough that Plan N is the clearly better choice."],
   },
 
   "plan-l": {
@@ -581,28 +539,24 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none" },
       { benefit: "Blood (first 3 pints)", covered: "partial", detail: "75% covered" },
       { benefit: `${SNF_COINSURANCE}`, covered: "partial", detail: "75% covered" },
-      { benefit: "Foreign travel emergency", covered: "none" },
-    ],
+      { benefit: "Foreign travel emergency", covered: "none" }],
     highlights: [
       "Built-in out-of-pocket maximum ($3,530 in 2026)",
       "Covers 75% of most Medicare cost-sharing",
       "Lower premiums than Plan G or Plan N",
       "Once you hit the OOP max, Plan L covers 100% of covered costs",
-      "Does NOT cover foreign travel emergency",
-    ],
+      "Does NOT cover foreign travel emergency"],
     proscons: {
       pros: [
         "Out-of-pocket maximum provides catastrophic cost protection",
         "Lower premiums than more comprehensive plans",
         "Good protection against worst-case scenarios",
-        "Available to all new Medicare enrollees",
-      ],
+        "Available to all new Medicare enrollees"],
       cons: [
         "You pay 25% of most Medicare cost-sharing until you hit the OOP max",
         "No foreign travel emergency coverage",
         "No Part B excess charge coverage",
-        "More complex cost-sharing than Plan G or Plan N",
-      ],
+        "More complex cost-sharing than Plan G or Plan N"],
     },
     faqs: [
       {
@@ -612,14 +566,12 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       {
         q: "How does Plan L compare to Plan K?",
         a: "Plan K covers 50% of most Medicare cost-sharing with a lower OOP max ($7,060 in 2026 — wait, Plan K OOP max is $7,060 and Plan L is $3,530). Plan L covers 75% and has a lower OOP max. Plan L offers more coverage but higher premiums than Plan K.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-k", "plan-g", "plan-n"],
     intro: "Medicare Supplement Plan L is one of two Medigap plans with a built-in out-of-pocket maximum. It covers 75% of most Medicare cost-sharing, and once you reach the annual out-of-pocket limit ($3,530 in 2026), the plan covers 100% of Medicare-approved costs for the rest of the year.",
     detailParagraphs: [
       "Plan L's defining feature is its out-of-pocket maximum. While you're responsible for 25% of most Medicare cost-sharing, your total exposure is capped at $3,530 per year (2026). This provides meaningful protection against catastrophic medical costs.",
-      "Plan L premiums are typically lower than Plan G or Plan N, making it an option for people who want some cost-sharing protection without paying for comprehensive coverage. However, the 25% cost-sharing can add up if you have frequent medical needs before hitting the OOP max.",
-    ],
+      "Plan L premiums are typically lower than Plan G or Plan N, making it an option for people who want some cost-sharing protection without paying for comprehensive coverage. However, the 25% cost-sharing can add up if you have frequent medical needs before hitting the OOP max."],
   },
 
   "plan-k": {
@@ -649,40 +601,34 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none" },
       { benefit: "Blood (first 3 pints)", covered: "partial", detail: "50% covered" },
       { benefit: `${SNF_COINSURANCE}`, covered: "partial", detail: "50% covered" },
-      { benefit: "Foreign travel emergency", covered: "none" },
-    ],
+      { benefit: "Foreign travel emergency", covered: "none" }],
     highlights: [
       "Lowest premium of any Medigap plan with an OOP maximum",
       "Built-in out-of-pocket maximum ($7,060 in 2026)",
       "Covers 50% of most Medicare cost-sharing",
       "Once you hit the OOP max, Plan K covers 100%",
-      "Does NOT cover foreign travel emergency or excess charges",
-    ],
+      "Does NOT cover foreign travel emergency or excess charges"],
     proscons: {
       pros: [
         "Lowest premium among Medigap plans with OOP protection",
         "Out-of-pocket maximum caps worst-case costs",
-        "Good for very healthy people who rarely use healthcare",
-      ],
+        "Good for very healthy people who rarely use healthcare"],
       cons: [
         "You pay 50% of most Medicare cost-sharing — can be substantial",
         "High OOP maximum ($7,060) before full coverage kicks in",
         "No foreign travel or excess charge coverage",
-        "Costs can be unpredictable with frequent medical needs",
-      ],
+        "Costs can be unpredictable with frequent medical needs"],
     },
     faqs: [
       {
         q: "What is the out-of-pocket maximum for Plan K in 2026?",
         a: "The Plan K out-of-pocket maximum is $7,060 in 2026. Once you've paid this amount in covered cost-sharing, Plan K covers 100% of Medicare-approved costs for the rest of the calendar year.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-l", "plan-n", "plan-g"],
     intro: "Medicare Supplement Plan K offers the lowest premiums among Medigap plans that include an out-of-pocket maximum. It covers 50% of most Medicare cost-sharing, with your total annual exposure capped at $7,060 in 2026.",
     detailParagraphs: [
       "Plan K is designed for people who are generally healthy and want to minimize their monthly premium while maintaining some protection against catastrophic costs. The trade-off is significant cost-sharing — you pay 50% of most Medicare-covered expenses until you hit the annual out-of-pocket maximum.",
-      "For most Medicare beneficiaries, Plan K's high cost-sharing makes it less attractive than Plan N, which offers more comprehensive coverage at a competitive premium. Plan K is best suited for very healthy individuals who rarely use healthcare and want the lowest possible monthly cost.",
-    ],
+      "For most Medicare beneficiaries, Plan K's high cost-sharing makes it less attractive than Plan N, which offers more comprehensive coverage at a competitive premium. Plan K is best suited for very healthy individuals who rarely use healthcare and want the lowest possible monthly cost."],
   },
 
   "plan-m": {
@@ -712,40 +658,34 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none" },
       { benefit: "Blood (first 3 pints)", covered: "full" },
       { benefit: `${SNF_COINSURANCE}`, covered: "full" },
-      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" },
-    ],
+      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "80% after $250 deductible, up to $50,000 lifetime" }],
     highlights: [
       "Covers Part B coinsurance in full — no copays for outpatient services",
       "Covers skilled nursing facility coinsurance",
       "Includes foreign travel emergency coverage",
       "Only pays 50% of the Part A deductible",
-      "Lower premiums than Plan G",
-    ],
+      "Lower premiums than Plan G"],
     proscons: {
       pros: [
         "Lower premiums than Plan G",
         "Full Part B coinsurance coverage — no outpatient copays",
         "Skilled nursing facility and foreign travel included",
-        "Good balance of coverage and cost",
-      ],
+        "Good balance of coverage and cost"],
       cons: [
         "Only covers 50% of Part A deductible — you pay $868 per hospital admission",
         "Does not cover Part B excess charges",
-        "Less widely offered than Plan G or Plan N",
-      ],
+        "Less widely offered than Plan G or Plan N"],
     },
     faqs: [
       {
         q: "How does Plan M compare to Plan G?",
         a: `Plan M covers 50% of the Part A deductible (you pay $868 in 2026) while Plan G covers 100%. Plan M does not cover Part B excess charges while Plan G does. Plan M premiums are typically lower than Plan G. If you rarely need hospital care, Plan M's savings may outweigh the partial deductible exposure.`,
-      },
-    ],
+      }],
     relatedPlans: ["plan-g", "plan-n", "plan-d", "plan-c"],
     intro: "Medicare Supplement Plan M offers broad coverage similar to Plan G but with one key difference: it only covers 50% of the Part A deductible. In exchange, Plan M premiums are lower than Plan G.",
     detailParagraphs: [
       `Plan M is a middle-ground option that covers most Medicare cost-sharing comprehensively, with the exception of the Part A deductible. You're responsible for 50% of the Part A deductible (${PART_A_DEDUCTIBLE} in 2026), meaning you'd pay $868 per hospital admission. Plan M also does not cover Part B excess charges.`,
-      "Plan M is less commonly offered than Plan G or Plan N, so you may have fewer carrier options. Before choosing Plan M, compare it carefully to Plan N — which has similar premium savings but different cost-sharing trade-offs.",
-    ],
+      "Plan M is less commonly offered than Plan G or Plan N, so you may have fewer carrier options. Before choosing Plan M, compare it carefully to Plan N — which has similar premium savings but different cost-sharing trade-offs."],
   },
 
   "high-deductible-plan-g": {
@@ -775,29 +715,25 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "none", detail: "Counts toward plan deductible" },
       { benefit: "Blood (first 3 pints)", covered: "full", detail: "After deductible" },
       { benefit: `${SNF_COINSURANCE}`, covered: "full", detail: "After deductible" },
-      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "After deductible" },
-    ],
+      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "After deductible" }],
     highlights: [
       "Premiums typically 60–75% lower than standard Plan G",
       "Same comprehensive coverage as Plan G — after the deductible",
       "Annual deductible: $2,950 in 2026",
       "Covers Part B excess charges (unlike Plan N)",
-      "Ideal for healthy enrollees who rarely need care",
-    ],
+      "Ideal for healthy enrollees who rarely need care"],
     proscons: {
       pros: [
         "Dramatically lower premiums — often $30–$80/month vs $100–$300 for standard Plan G",
         "Same comprehensive coverage as Plan G once deductible is met",
         "Covers Part B excess charges",
         "Annual savings on premiums can exceed the deductible for healthy people",
-        "Includes foreign travel emergency",
-      ],
+        "Includes foreign travel emergency"],
       cons: [
         "You pay all Medicare costs until you reach the $2,950 deductible",
         "Can be expensive in years with significant medical needs",
         "Requires financial discipline — must be able to cover deductible if needed",
-        "Less predictable costs than standard Plan G",
-      ],
+        "Less predictable costs than standard Plan G"],
     },
     faqs: [
       {
@@ -811,15 +747,13 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       {
         q: "How does HD-G compare to a Medicare Advantage plan?",
         a: "Both HD-G and Medicare Advantage offer lower premiums than standard Medigap plans. The key difference: HD-G works with Original Medicare (no networks, nationwide coverage), while Medicare Advantage uses provider networks. HD-G is better for people who travel frequently or want to see any doctor.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-g", "high-deductible-plan-f", "plan-n"],
     intro: "High Deductible Plan G (HD-G) offers the same comprehensive coverage as standard Plan G but requires you to pay a deductible ($2,950 in 2026) before the plan begins covering your Medicare costs. In exchange, premiums are dramatically lower — often $30–$80/month compared to $100–$300 for standard Plan G.",
     detailParagraphs: [
       "HD-G was introduced in 2020 as an alternative to High Deductible Plan F (which became unavailable to new enrollees). It functions identically to standard Plan G once the deductible is met — covering 100% of Medicare-approved costs including Part B excess charges and foreign travel emergency.",
       "The financial math for HD-G is straightforward: compare your annual premium savings to your expected out-of-pocket costs. If you save $1,800/year in premiums and typically spend less than $2,950 in Medicare cost-sharing, HD-G comes out ahead. Many healthy Medicare beneficiaries find that they never come close to hitting the deductible.",
-      "HD-G is particularly attractive for people who are newly eligible for Medicare and in good health. The premium savings can be invested or used to build a health savings buffer. As you age and healthcare needs increase, you can always switch to standard Plan G (subject to medical underwriting outside your initial enrollment period).",
-    ],
+      "HD-G is particularly attractive for people who are newly eligible for Medicare and in good health. The premium savings can be invested or used to build a health savings buffer. As you age and healthcare needs increase, you can always switch to standard Plan G (subject to medical underwriting outside your initial enrollment period)."],
   },
 
   "high-deductible-plan-f": {
@@ -849,41 +783,35 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `Part B deductible (${PART_B_DEDUCTIBLE} in 2026)`, covered: "full", detail: "Counts toward plan deductible" },
       { benefit: "Blood (first 3 pints)", covered: "full", detail: "After deductible" },
       { benefit: `${SNF_COINSURANCE}`, covered: "full", detail: "After deductible" },
-      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "After deductible" },
-    ],
+      { benefit: "Foreign travel emergency (up to plan limits)", covered: "full", detail: "After deductible" }],
     highlights: [
       "Same coverage as Plan F — including Part B deductible — after plan deductible",
       "Annual deductible: $2,950 in 2026",
       "Premiums typically 60–75% lower than standard Plan F",
       "Only available to those eligible for Medicare before January 1, 2020",
-      "Covers Part B excess charges (after deductible)",
-    ],
+      "Covers Part B excess charges (after deductible)"],
     proscons: {
       pros: [
         "Dramatically lower premiums than standard Plan F",
         "Covers the Part B deductible (after plan deductible) — unlike HD-G",
         "Same comprehensive coverage as Plan F once deductible is met",
-        "Good option for healthy pre-2020 enrollees on standard Plan F",
-      ],
+        "Good option for healthy pre-2020 enrollees on standard Plan F"],
       cons: [
         "Not available to new Medicare enrollees",
         "You pay all Medicare costs until the $2,950 deductible is reached",
         "Shrinking risk pool may cause faster premium increases",
-        "HD-G is available to all enrollees and offers similar savings",
-      ],
+        "HD-G is available to all enrollees and offers similar savings"],
     },
     faqs: [
       {
         q: "What is the difference between HD-F and HD-G?",
         a: "HD-F covers the Part B deductible (after the plan deductible) while HD-G does not. HD-F is only available to those eligible for Medicare before January 1, 2020. HD-G is available to all new enrollees. For most people, HD-G is the better choice since the Part B deductible is only $283 and HD-G is available to everyone.",
-      },
-    ],
+      }],
     relatedPlans: ["plan-f", "high-deductible-plan-g", "plan-g"],
     intro: "High Deductible Plan F (HD-F) offers the same comprehensive coverage as standard Plan F — including the Part B deductible — but requires you to pay a deductible ($2,950 in 2026) before coverage begins. Like Plan F, HD-F is only available to people who were eligible for Medicare before January 1, 2020.",
     detailParagraphs: [
       "HD-F is essentially Plan F with a high deductible in exchange for lower premiums. Once you've paid the $2,950 deductible, HD-F covers 100% of Medicare-approved costs — including the Part B deductible and excess charges.",
-      "For people currently on standard Plan F with high premiums, HD-F can offer significant savings. The premium difference between standard Plan F and HD-F is often $100–$150/month, which can easily exceed the deductible in years with minimal healthcare use.",
-    ],
+      "For people currently on standard Plan F with high premiums, HD-F can offer significant savings. The premium difference between standard Plan F and HD-F is often $100–$150/month, which can easily exceed the deductible in years with minimal healthcare use."],
   },
 };
 
