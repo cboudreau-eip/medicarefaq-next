@@ -883,7 +883,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
           },
           {
             question: 'Does Medicare Advantage cover out-of-state care?',
-            answer: 'Medicare Advantage plans generally only cover emergency and urgently needed care outside the plan's service area. Routine care outside the network is typically not covered. Medicare Supplement plans, by contrast, cover you anywhere in the U.S. that accepts Original Medicare, with no geographic restrictions.',
+            answer: "Medicare Advantage plans generally only cover emergency and urgently needed care outside the plan's service area. Routine care outside the network is typically not covered. Medicare Supplement plans, by contrast, cover you anywhere in the U.S. that accepts Original Medicare, with no geographic restrictions.",
           },
         ],
       },
