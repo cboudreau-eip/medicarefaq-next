@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import { getDb } from "@/lib/heatmap/db";
 
+const HEATMAP_ADMIN_SECRET = process.env.HEATMAP_ADMIN_SECRET ?? "";
+const HEATMAP_TRACK_SECRET = process.env.NEXT_PUBLIC_HEATMAP_TRACK_SECRET ?? "";
+
 interface ClickEvent {
   page_path: string;
   x_percent: number;
@@ -29,14 +32,40 @@ interface TrackPayload {
   scrolls?: ScrollEvent[];
 }
 
+// Maximum events per request to prevent abuse
+const MAX_CLICKS_PER_REQUEST = 50;
+const MAX_SCROLLS_PER_REQUEST = 10;
+
 export async function POST(request: Request) {
+  // ── Auth check ──────────────────────────────────────────────────────────────
+  // Accept either the admin secret or the track-specific secret.
+  // The HeatmapTracker component sends NEXT_PUBLIC_HEATMAP_TRACK_SECRET in the header.
+  const incoming = request.headers.get("x-heatmap-secret") ?? "";
+  const isAdmin = HEATMAP_ADMIN_SECRET && incoming === HEATMAP_ADMIN_SECRET;
+  const isTracker = HEATMAP_TRACK_SECRET && incoming === HEATMAP_TRACK_SECRET;
+  if (!isAdmin && !isTracker) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   try {
     const body: TrackPayload = await request.json();
     const sql = getDb();
 
+    // Validate and cap batch sizes
+    const clicks = (body.clicks || []).slice(0, MAX_CLICKS_PER_REQUEST);
+    const scrolls = (body.scrolls || []).slice(0, MAX_SCROLLS_PER_REQUEST);
+
     // Insert clicks
-    if (body.clicks && body.clicks.length > 0) {
-      for (const click of body.clicks) {
+    if (clicks.length > 0) {
+      for (const click of clicks) {
+        // Basic validation
+        if (
+          typeof click.page_path !== "string" ||
+          typeof click.x_percent !== "number" ||
+          typeof click.y_percent !== "number"
+        ) {
+          continue;
+        }
         await sql`
           INSERT INTO heatmap_clicks (
             page_path, x_percent, y_percent, viewport_width, viewport_height,
@@ -53,8 +82,15 @@ export async function POST(request: Request) {
     }
 
     // Insert scroll depth
-    if (body.scrolls && body.scrolls.length > 0) {
-      for (const scroll of body.scrolls) {
+    if (scrolls.length > 0) {
+      for (const scroll of scrolls) {
+        // Basic validation
+        if (
+          typeof scroll.page_path !== "string" ||
+          typeof scroll.max_scroll_percent !== "number"
+        ) {
+          continue;
+        }
         await sql`
           INSERT INTO heatmap_scroll (
             page_path, max_scroll_percent, viewport_height, page_height, device_type, session_id

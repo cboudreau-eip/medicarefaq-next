@@ -23,25 +23,62 @@ interface HeatmapDashboardProps {
 
 type View = "dashboard" | "heatmap" | "scroll" | "elements";
 
-export default function HeatmapDashboard({ secret }: HeatmapDashboardProps) {
+export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashboardProps) {
+  const [authenticated, setAuthenticated] = useState(false);
+  const [secret, setSecret] = useState(initialSecret || "");
+  const [secretInput, setSecretInput] = useState("");
+  const [authError, setAuthError] = useState("");
   const [view, setView] = useState<View>("dashboard");
   const [stats, setStats] = useState<Stats | null>(null);
   const [pages, setPages] = useState<PageData[]>([]);
   const [selectedPage, setSelectedPage] = useState<string>("");
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const fetchData = useCallback(
     async (url: string) => {
       const res = await fetch(url, {
-
+        headers: {
+          "x-heatmap-secret": secret,
+        },
       });
+      if (res.status === 401) {
+        setAuthenticated(false);
+        throw new Error("Unauthorized");
+      }
       if (!res.ok) throw new Error("Failed to fetch");
       return res.json();
     },
     [secret]
   );
 
+  // Attempt login
+  const handleLogin = async () => {
+    setAuthError("");
+    try {
+      const res = await fetch("/api/heatmap/data?type=stats", {
+        headers: {
+          "x-heatmap-secret": secretInput,
+        },
+      });
+      if (res.status === 401) {
+        setAuthError("Invalid secret. Access denied.");
+        return;
+      }
+      if (!res.ok) {
+        setAuthError("Server error. Try again.");
+        return;
+      }
+      // Success - store secret and mark authenticated
+      setSecret(secretInput);
+      setAuthenticated(true);
+    } catch {
+      setAuthError("Connection error. Try again.");
+    }
+  };
+
   useEffect(() => {
+    if (!authenticated) return;
+    setLoading(true);
     async function loadDashboard() {
       try {
         const [statsData, pagesData] = await Promise.all([
@@ -57,8 +94,55 @@ export default function HeatmapDashboard({ secret }: HeatmapDashboardProps) {
       }
     }
     loadDashboard();
-  }, [fetchData]);
+  }, [fetchData, authenticated]);
 
+  // ── Login Gate ──────────────────────────────────────────────────────────────
+  if (!authenticated) {
+    return (
+      <div className="min-h-screen bg-[#0f1117] flex items-center justify-center">
+        <div className="bg-[#141720] border border-[#2a2d37] rounded-xl p-8 w-full max-w-md">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-10 h-10 bg-[#00d97e]/10 rounded-lg flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#00d97e]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+            </div>
+            <div>
+              <h1 className="text-white font-bold text-lg">Heatmap Analytics</h1>
+              <p className="text-gray-500 text-sm">Enter your admin secret to continue</p>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <div>
+              <label className="text-gray-400 text-sm block mb-1.5">Admin Secret</label>
+              <input
+                type="password"
+                value={secretInput}
+                onChange={(e) => setSecretInput(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && handleLogin()}
+                placeholder="Enter HEATMAP_ADMIN_SECRET"
+                className="w-full bg-[#0f1117] border border-[#2a2d37] rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-[#00d97e] placeholder-gray-600"
+                autoFocus
+              />
+            </div>
+            {authError && (
+              <p className="text-red-400 text-sm">{authError}</p>
+            )}
+            <button
+              onClick={handleLogin}
+              disabled={!secretInput.trim()}
+              className="w-full bg-[#00d97e] hover:bg-[#00c06e] disabled:opacity-40 disabled:cursor-not-allowed text-black font-semibold py-3 rounded-lg transition-colors text-sm"
+            >
+              Authenticate
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Authenticated Dashboard ─────────────────────────────────────────────────
   const navItems = [
     { id: "dashboard" as View, label: "Dashboard", icon: DashboardIcon },
     { id: "heatmap" as View, label: "Heatmap Viewer", icon: HeatmapIcon },
@@ -245,7 +329,9 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
   useEffect(() => {
     if (!page) return;
     setLoading(true);
-    fetch(`/api/heatmap/data?type=clicks&page=${encodeURIComponent(page)}`, {})
+    fetch(`/api/heatmap/data?type=clicks&page=${encodeURIComponent(page)}`, {
+      headers: { "x-heatmap-secret": secret },
+    })
       .then((r) => r.json())
       .then((data) => setClicks(data.clicks || []))
       .catch(console.error)
@@ -272,35 +358,33 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
     <div className="space-y-4">
       <div className="bg-[#141720] border border-[#2a2d37] rounded-xl p-4">
         <p className="text-gray-400 text-sm mb-4">{clicks.length} clicks recorded for this page</p>
-        {/* Scrollable wrapper — lets you scroll through the full page */}
-        <div className="overflow-y-auto rounded-lg" style={{ maxHeight: "80vh" }}>
-          <div className="relative bg-[#0f1117] rounded-lg" style={{ height: `${iframeHeight}px` }}>
-            {/* Page preview iframe */}
-            <iframe
-              ref={iframeRef}
-              src={page}
-              className="w-full border-0 rounded-lg absolute inset-0"
-              style={{ height: `${iframeHeight}px`, pointerEvents: "none" }}
-              title="Page preview"
-              onLoad={handleIframeLoad}
-            />
-            {/* Click dots overlay — positioned over the full page height */}
-            <div className="absolute inset-0 pointer-events-none">
-              {clicks.map((click, i) => (
-                <div
-                  key={i}
-                  className="absolute w-5 h-5 rounded-full"
-                  style={{
-                    left: `${click.x_percent}%`,
-                    top: `${click.y_percent}%`,
-                    transform: "translate(-50%, -50%)",
-                    background: "radial-gradient(circle, rgba(255,59,48,0.9) 0%, rgba(255,149,0,0.5) 50%, transparent 70%)",
-                    boxShadow: "0 0 10px rgba(255,59,48,0.7)",
-                    opacity: 0.7,
-                  }}
-                />
-              ))}
-            </div>
+        {/* Scrollable wrapper */}
+        <div className="relative bg-[#0f1117] rounded-lg" style={{ height: `${iframeHeight}px` }}>
+          {/* Page preview iframe */}
+          <iframe
+            ref={iframeRef}
+            src={page}
+            className="w-full border-0 rounded-lg absolute inset-0"
+            style={{ height: `${iframeHeight}px`, pointerEvents: "none" }}
+            title="Page preview"
+            onLoad={handleIframeLoad}
+          />
+          {/* Click dots overlay */}
+          <div className="absolute inset-0 pointer-events-none">
+            {clicks.map((click, i) => (
+              <div
+                key={i}
+                className="absolute w-5 h-5 rounded-full"
+                style={{
+                  left: `${click.x_percent}%`,
+                  top: `${click.y_percent}%`,
+                  transform: "translate(-50%, -50%)",
+                  background: "radial-gradient(circle, rgba(255,59,48,0.9) 0%, rgba(255,149,0,0.5) 50%, transparent 70%)",
+                  boxShadow: "0 0 10px rgba(255,59,48,0.7)",
+                  opacity: 0.7,
+                }}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -316,6 +400,7 @@ function ScrollView({ page, secret }: { page: string; secret: string }) {
     if (!page) return;
     setLoading(true);
     fetch(`/api/heatmap/data?type=scroll&page=${encodeURIComponent(page)}`, {
+      headers: { "x-heatmap-secret": secret },
     })
       .then((r) => r.json())
       .then((data) => setScrollData(data.scrolls || []))
@@ -374,6 +459,7 @@ function ElementsView({ page, secret }: { page: string; secret: string }) {
     if (!page) return;
     setLoading(true);
     fetch(`/api/heatmap/data?type=top-elements&page=${encodeURIComponent(page)}`, {
+      headers: { "x-heatmap-secret": secret },
     })
       .then((r) => r.json())
       .then((data) => setElements(data.elements || []))

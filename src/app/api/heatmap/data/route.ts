@@ -1,14 +1,26 @@
 import { NextResponse } from "next/server";
 import { getDb } from "@/lib/heatmap/db";
 
+const HEATMAP_SECRET = process.env.HEATMAP_ADMIN_SECRET ?? "";
+
+function checkAuth(request: Request): boolean {
+  if (!HEATMAP_SECRET) return false; // No secret configured = locked out
+  const incoming = request.headers.get("x-heatmap-secret") ?? "";
+  return incoming === HEATMAP_SECRET;
+}
+
 export async function GET(request: Request) {
+  // ── Auth check ──────────────────────────────────────────────────────────────
+  if (!checkAuth(request)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const { searchParams } = new URL(request.url);
   const page = searchParams.get("page");
   const startDate = searchParams.get("start");
   const endDate = searchParams.get("end");
   const device = searchParams.get("device");
   const type = searchParams.get("type") || "clicks"; // clicks | scroll | stats | pages
-
 
   try {
     const sql = getDb();

@@ -69,9 +69,13 @@ export default function HeatmapTracker() {
     if (clicks.length === 0 && scrolls.length === 0) return;
 
     try {
+      const heatmapSecret = process.env.NEXT_PUBLIC_HEATMAP_TRACK_SECRET || "";
       await fetch("/api/heatmap/track", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "x-heatmap-secret": heatmapSecret,
+        },
         body: JSON.stringify({ clicks, scrolls }),
         keepalive: true,
       });
