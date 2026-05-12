@@ -3,7 +3,7 @@ import { coverageArticles } from "@/lib/coverage-data";
 import { blogArticles } from "@/lib/blog-articles-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
 
-const BASE_URL = "https://medicarefaq-next-nine.vercel.app";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.medicarefaq.com";
 
 /**
  * GET /api/articles/[slug]

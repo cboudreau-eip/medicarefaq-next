@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import {
   listVideoJobs,
   getPendingVideoJobs,
@@ -8,6 +8,7 @@ import {
 } from "@/lib/video-jobs-db";
 
 const HEYGEN_API_KEY = process.env.HEYGEN_API_KEY ?? "";
+const WEBHOOK_SECRET = process.env.ZAPIER_WEBHOOK_SECRET ?? "";
 
 /**
  * GET /api/video-jobs
@@ -15,7 +16,15 @@ const HEYGEN_API_KEY = process.env.HEYGEN_API_KEY ?? "";
  * Returns the list of all video jobs, and syncs status for any
  * pending/processing jobs from the HeyGen API.
  */
-export async function GET() {
+export async function GET(request: NextRequest) {
+  // ── Auth check ──────────────────────────────────────────────────────────────
+  if (WEBHOOK_SECRET) {
+    const incomingSecret = request.headers.get("x-medicarefaq-secret") ?? "";
+    if (incomingSecret !== WEBHOOK_SECRET) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+  }
+
   try {
     await initVideoJobsSchema();
 

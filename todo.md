@@ -182,4 +182,7 @@
 
 ## Heatmap Security
 - [x] Replace single secret login with email + password authentication
-- [ ] Remove all Zapier webhook/sync code from the project
+- [x] Remove all Zapier webhook/sync code from the project
+- [ ] Add secret auth to /api/generate-video-script
+- [ ] Add secret auth to /api/video-jobs
+- [ ] Fix hardcoded BASE_URL in /api/articles/[slug]/route.ts

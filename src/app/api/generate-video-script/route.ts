@@ -28,7 +28,17 @@ import {
  * }
  */
 
+const WEBHOOK_SECRET = process.env.ZAPIER_WEBHOOK_SECRET ?? "";
+
 export async function POST(request: NextRequest) {
+  // ── Auth check ──────────────────────────────────────────────────────────────
+  if (WEBHOOK_SECRET) {
+    const incomingSecret = request.headers.get("x-medicarefaq-secret") ?? "";
+    if (incomingSecret !== WEBHOOK_SECRET) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+  }
+
   let body: Record<string, unknown>;
   try {
     body = await request.json();
