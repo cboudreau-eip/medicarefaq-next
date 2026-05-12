@@ -14,15 +14,10 @@ import {
  * POST /api/new-article
  *
  * Accepts a JSON payload describing a newly published article and:
- *   1. Forwards the article metadata to the Zapier webhook
- *   2. Generates a 2-minute video script using the Forge LLM
- *   3. Optionally submits the script to HeyGen (when HEYGEN_API_KEY is set)
- *   4. Records the job in the video_jobs database table
+ *   1. Generates a 2-minute video script using the Forge LLM
+ *   2. Optionally submits the script to HeyGen (when HEYGEN_API_KEY is set)
+ *   3. Records the job in the video_jobs database table
  */
-
-const ZAPIER_WEBHOOK_URL =
-  process.env.ZAPIER_WEBHOOK_URL ??
-  "https://hooks.zapier.com/hooks/catch/27503867/4y2rqhz/";
 
 const WEBHOOK_SECRET = process.env.ZAPIER_WEBHOOK_SECRET ?? "";
 
@@ -87,42 +82,7 @@ export async function POST(request: NextRequest) {
     console.error("[new-article] Schema init failed:", e);
   }
 
-  // ── Build the Zapier payload ─────────────────────────────────────────────────
-  const zapierPayload = {
-    title,
-    slug,
-    url: canonicalUrl,
-    author: author ?? "David Haass",
-    date: publishDate,
-    category: category ?? "article",
-    excerpt: excerpt ?? "",
-    published_at: new Date().toISOString(),
-    source: "medicarefaq-next",
-  };
-
-  // ── Step 1: Forward to Zapier ────────────────────────────────────────────────
-  let zapierSuccess = false;
-  let zapierError: string | null = null;
-  try {
-    const zapierRes = await fetch(ZAPIER_WEBHOOK_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(zapierPayload),
-    });
-
-    if (!zapierRes.ok) {
-      const text = await zapierRes.text();
-      zapierError = `Zapier returned ${zapierRes.status}: ${text}`;
-      console.error("[new-article] Zapier error:", zapierError);
-    } else {
-      zapierSuccess = true;
-    }
-  } catch (err) {
-    zapierError = err instanceof Error ? err.message : String(err);
-    console.error("[new-article] Zapier fetch failed:", zapierError);
-  }
-
-  // ── Step 2: Generate video script ────────────────────────────────────────────
+  // ── Step 1: Generate video script ───────────────────────────────────────────
   let scriptResult = null;
   let scriptError: string | null = null;
   let jobId: number | null = null;
@@ -152,22 +112,6 @@ export async function POST(request: NextRequest) {
         excerpt: excerpt ?? "",
         bodyText: extractPlainText(bodyText ?? excerpt ?? ""),
       });
-
-      // Fire-and-forget: notify Zapier with the script
-      const scriptPayload = {
-        ...zapierPayload,
-        event: "video_script_ready",
-        video_script: scriptResult.script,
-        script_word_count: scriptResult.wordCount,
-        script_duration_seconds: scriptResult.estimatedDurationSeconds,
-      };
-      fetch(ZAPIER_WEBHOOK_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(scriptPayload),
-      }).catch((e) =>
-        console.error("[new-article] Script Zapier notify failed:", e)
-      );
     } catch (err) {
       scriptError = err instanceof Error ? err.message : String(err);
       console.error("[new-article] Script generation failed:", scriptError);
@@ -185,7 +129,7 @@ export async function POST(request: NextRequest) {
     }
   }
 
-  // ── Step 3: Submit to HeyGen ─────────────────────────────────────────────────
+  // ── Step 2: Submit to HeyGen ────────────────────────────────────────────────
   let heygenResult = null;
   if (scriptResult && (submitToHeyGen || isHeyGenConfigured())) {
     try {
@@ -227,11 +171,9 @@ export async function POST(request: NextRequest) {
   return NextResponse.json({
     success: true,
     jobId,
-    zapier: { success: zapierSuccess, error: zapierError },
     script: scriptResult,
     scriptError,
     heygen: heygenResult,
     heygenConfigured: isHeyGenConfigured(),
-    forwarded: zapierPayload,
   });
 }

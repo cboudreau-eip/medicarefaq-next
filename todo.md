@@ -181,4 +181,5 @@
 - [x] Add unique triggerId to all ZipFormModal instances for GTM click tracking
 
 ## Heatmap Security
-- [ ] Replace single secret login with email + password authentication
+- [x] Replace single secret login with email + password authentication
+- [ ] Remove all Zapier webhook/sync code from the project
