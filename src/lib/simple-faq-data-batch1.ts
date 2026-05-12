@@ -1581,142 +1581,138 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'welcome-to-medicare-preventative-visit',
     seo: {
-      title: 'Welcome to Medicare Visit',
-      description: 'The first appointment you should make on Medicare is the Welcome to Medicare Preventive Visit. Learn more here about what to expect.',
+      title: 'Welcome to Medicare Preventive Visit: What to Expect (2026)',
+      description: 'The Welcome to Medicare visit is a one-time, fully covered preventive exam available in your first 12 months on Part B. Learn what it includes, how to schedule it, and how it differs from the Annual Wellness Visit.',
       canonical: 'https://www.medicarefaq.com/faqs/welcome-to-medicare-preventative-visit/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Welcome-to-Medicare-Visit.jpg',
     },
-    title: 'Welcome to Medicare Visit',
-    summary: 'The Welcome to Medicare visit allows you to visit your physician within the first 12 months of enrolling in Medicare for a fully covered introductory exam. This exam is used to evaluate your health and set care plans if necessary.',
+    title: 'Welcome to Medicare Preventive Visit',
+    summary: 'The Welcome to Medicare Preventive Visit is a one-time exam available within the first 12 months you have Medicare Part B. It is fully covered with no cost-sharing when you see a participating provider, and it helps establish a health baseline and preventive care plan.',
     category: 'Medicare FAQ',
-    dateUpdated: 'May 16, 2023',
+    dateUpdated: 'May 12, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '5 min',
-    sections: [
-      {
-        heading: 'Medicare Annual Wellness Visit',
-        paragraphs: [
-          'Updated on May 16, 2023',
-          'Each year you have [Medicare coverage](/blog/medicare-parts-a-b-c-and-d-explained-simply), you are eligible for an [Annual Wellness Visit](/faqs/medicare-annual-wellness-visit). The...'],
-      }],
+    sections: [],
+    richSections: [
+      { type: 'paragraph', content: 'When you first enroll in [Medicare Part B](/faqs/what-is-medicare-part-b), you are entitled to a one-time Welcome to Medicare Preventive Visit. This visit must take place within the first 12 months your Part B coverage is active. It is not a physical exam in the traditional sense, but rather a review of your health history and a discussion of preventive services you may need going forward.' },
+      { type: 'callout', calloutType: 'info', calloutTitle: 'No Cost to You', calloutText: 'The Welcome to Medicare visit is covered at 100% by Medicare Part B when you see a provider who accepts Medicare assignment. You pay nothing, and your Part B deductible does not apply. If additional services are ordered during the same visit, those may have separate cost-sharing.' },
+      { type: 'heading', level: 2, text: 'What the Visit Includes', id: 'what-it-includes' },
+      { type: 'table', title: 'Welcome to Medicare Visit Components', headers: ['Component', 'Details'], rows: [
+        ['Health history review', 'Your provider reviews your medical and family history'],
+        ['Height, weight, BMI, and blood pressure', 'Basic measurements recorded as a baseline'],
+        ['Vision screening', 'Basic check for potential vision problems'],
+        ['Cognitive assessment', 'Brief screening for signs of cognitive impairment'],
+        ['Depression screening', 'Standardized screening questionnaire'],
+        ['Preventive services review', 'Your provider identifies screenings and vaccines you are due for based on your age and health history'],
+        ['Written prevention plan', 'A personalized checklist of recommended preventive services and referrals'],
+        ['End-of-life planning discussion', 'Optional discussion about advance directives and healthcare wishes'],
+      ]},
+      { type: 'heading', level: 2, text: 'Welcome to Medicare Visit vs. Annual Wellness Visit', id: 'vs-annual-wellness' },
+      { type: 'paragraph', content: 'Many people confuse the Welcome to Medicare visit with the [Annual Wellness Visit (AWV)](/faqs/medicare-annual-wellness-visit). They are related but different. The Welcome to Medicare visit happens once, in your first year on Part B. The Annual Wellness Visit is available every year after that. Both are fully covered by Medicare with no cost-sharing when you use a participating provider.' },
+      { type: 'table', title: 'Welcome to Medicare Visit vs. Annual Wellness Visit', headers: ['Feature', 'Welcome to Medicare Visit', 'Annual Wellness Visit'], rows: [
+        ['Frequency', 'Once (first 12 months of Part B)', 'Once per year'],
+        ['Cost', '$0 (no deductible)', '$0 (no deductible)'],
+        ['Physical exam included?', 'No (preventive review only)', 'No (preventive review only)'],
+        ['Cognitive screening', 'Yes', 'Yes'],
+        ['Personalized prevention plan', 'Yes', 'Yes (updated annually)'],
+      ]},
+      { type: 'heading', level: 2, text: 'How to Schedule Your Visit', id: 'how-to-schedule' },
+      { type: 'paragraph', content: 'Call your primary care provider and specifically request the "Welcome to Medicare Preventive Visit" or "IPPE" (Initial Preventive Physical Examination). Not all providers automatically offer it, so naming it specifically helps ensure it is billed correctly. If you do not have a primary care provider yet, use the [Care Compare tool](https://www.medicare.gov/care-compare/) at medicare.gov to find one who accepts Medicare.' },
+      { type: 'heading', level: 2, text: 'What Happens If You Miss the 12-Month Window?', id: 'missed-window' },
+      { type: 'paragraph', content: 'If you do not schedule your Welcome to Medicare visit within the first 12 months of Part B coverage, you lose access to this one-time benefit permanently. However, you can still take advantage of the Annual Wellness Visit each year and the full range of Medicare-covered preventive services.' },
+      { type: 'faq', faqs: [
+        { question: 'Does the Welcome to Medicare visit include blood work?', answer: 'Not automatically. The visit itself is a preventive review, not a comprehensive physical. However, your provider may order lab tests based on the visit, such as a fasting blood glucose test or cholesterol panel. Those tests are billed separately and may have cost-sharing.' },
+        { question: 'Can I have the Welcome to Medicare visit and a regular office visit on the same day?', answer: 'Yes, but if your provider addresses a new or existing medical problem during the same appointment, that portion may be billed as a separate office visit with standard cost-sharing. Ask your provider to keep the preventive visit separate from any treatment services.' },
+        { question: 'Is the Welcome to Medicare visit available under Medicare Advantage?', answer: 'Yes. Medicare Advantage plans must cover the Welcome to Medicare visit at no cost to you, just as Original Medicare does.' },
+      ]},
+    ],
     relatedSlugs: ["medicare-preventive-services", "medicare-annual-wellness-visit", "5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days"],
   },
   {
     slug: 'medicare-supplement-open-enrollment',
     seo: {
-      title: 'Medicare Supplement (Medigap) Open Enrollment Period',
-      description: 'Medicare Supplement (Medigap) Open Enrollment Period happens once in a lifetime. Find out what you need to ensure you don\'t miss your window.',
+      title: 'Medigap Open Enrollment Period: Your Best Window to Enroll (2026)',
+      description: 'The Medigap Open Enrollment Period is a 6-month window that starts when you turn 65 and enroll in Part B. During this window, insurers cannot deny you or charge more based on health. Learn why it matters and what to do.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-supplement-open-enrollment/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-supplement-open-enrollment-period.jpg',
     },
-    title: 'Medicare Supplement (Medigap) Open Enrollment Period',
-    summary: 'Your one-time Medicare Supplement (Medigap) Open Enrollment Period is the best time to apply for Medigap coverage. Find out why you should enroll during your Medigap Open Enrollment Period and how to apply so you don’t miss out.',
+    title: 'Medigap Open Enrollment Period',
+    summary: 'The Medigap Open Enrollment Period is a 6-month window that begins when you are both 65 or older and enrolled in Medicare Part B. During this window, you have guaranteed issue rights: insurers must sell you any Medigap plan available in your state at standard rates, regardless of your health history. Missing this window can make Medigap coverage harder and more expensive to obtain.',
     category: 'Medicare Supplements',
-    dateUpdated: 'November 15, 2024',
+    dateUpdated: 'May 12, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
     readTime: '6 min',
     youtubeVideoId: "MGY5eWaKJa0",
     youtubeVideoTitle: "Medicare Supplement Open Enrollment Period",
-    sections: [
-      {
-        heading: 'How Much Can a Medigap Plan Save Me',
-        paragraphs: [
-          'Updated on November 15, 2024',
-          'There are many options for [supplemental insurance to Medicare](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). You might be wondering [How much](/blog/medicare-costs-2025)...'],
-      }],
-    relatedSlugs: ["the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "how-the-medigap-free-look-period-protects-you",
-    "medicare-questions",
-    "medicare-for-disabled-individuals",
-    "medicare-for-green-card-holders",
-    "medicare-guaranteed-issue",
-    "medicare-supplement-plans-and-pre-existing-conditions"],
+    sections: [],
+    richSections: [
+      { type: 'paragraph', content: 'The Medigap Open Enrollment Period (OEP) is the single most important window for enrolling in a [Medicare Supplement (Medigap)](/faqs/what-is-medicare-supplement-insurance) plan. It lasts six months and begins automatically on the first day of the month in which you are both age 65 or older and enrolled in Medicare Part B. During this window, you have [guaranteed issue rights](/faqs/medicare-guaranteed-issue): no insurer can deny your application, charge you more, or make you wait for coverage due to pre-existing conditions.' },
+      { type: 'callout', calloutType: 'warning', calloutTitle: 'This Window Happens Once', calloutText: 'The Medigap Open Enrollment Period is a one-time opportunity. Once it ends, you generally must go through medical underwriting to buy a Medigap plan. Insurers can charge higher premiums or deny your application based on your health history. There is no annual Medigap open enrollment period.' },
+      { type: 'heading', level: 2, text: 'When Does Your Medigap OEP Begin?', id: 'when-it-begins' },
+      { type: 'paragraph', content: 'Your Medigap OEP begins on the first day of the month you are both 65 and enrolled in Part B. If you turn 65 in June and your Part B starts June 1, your OEP runs June 1 through November 30. If you delay Part B enrollment because you have employer coverage, your OEP does not begin until your Part B starts, even if you are already past 65.' },
+      { type: 'table', title: 'Medigap OEP Timing Examples', headers: ['Scenario', 'Part B Start Date', 'OEP Window'], rows: [
+        ['Turn 65 in June, enroll in Part B at 65', 'June 1', 'June 1 through November 30'],
+        ['Turn 65 in June, delay Part B until retirement at 68', 'October 1 (age 68)', 'October 1 through March 31 (age 69)'],
+        ['Enroll in Medicare due to disability before 65', 'Varies', 'A new 6-month OEP begins when you turn 65 and enroll in Part B'],
+      ]},
+      { type: 'heading', level: 2, text: 'Which Plans Can You Buy During Your OEP?', id: 'which-plans' },
+      { type: 'paragraph', content: 'During your OEP, you can buy any standardized Medigap plan sold in your state. The most popular options for new enrollees are Plan G (the most comprehensive plan available to those new to Medicare after January 1, 2020) and Plan N (lower premium with some cost-sharing). Plans C and F, which covered the Part B deductible, are no longer available to new Medicare enrollees.' },
+      { type: 'heading', level: 2, text: 'What Happens After Your OEP Ends?', id: 'after-oep' },
+      { type: 'paragraph', content: 'Once your 6-month OEP closes, buying a Medigap plan requires going through medical underwriting in most states. Insurers can ask about your health history, charge higher premiums based on health conditions, or deny your application entirely. Some states offer additional protections, such as birthday rules that allow annual plan switches without underwriting. Outside of your OEP, you may also qualify for [guaranteed issue rights](/faqs/medicare-guaranteed-issue) in specific situations, such as losing employer coverage or your Medicare Advantage plan leaving your area.' },
+      { type: 'heading', level: 2, text: 'How to Enroll During Your OEP', id: 'how-to-enroll' },
+      { type: 'paragraph', content: 'To enroll in a Medigap plan during your OEP, compare plans from multiple insurers. Premiums for the same standardized plan vary significantly between companies. An independent insurance broker can help you compare options without charging you extra. Once you choose a plan, complete the application and confirm your Part B effective date. Coverage typically begins the first of the following month.' },
+      { type: 'faq', faqs: [
+        { question: 'Can I be denied a Medigap plan during my open enrollment period?', answer: 'No. During your Medigap OEP, insurers must sell you any plan they offer in your state at standard rates. They cannot ask about your health or deny your application.' },
+        { question: 'Does the Medigap OEP apply to Medicare Advantage plans?', answer: 'No. The Medigap OEP applies only to Medicare Supplement plans. Medicare Advantage enrollment follows different rules, primarily the Initial Coverage Election Period and the Annual Enrollment Period.' },
+        { question: 'What if I enrolled in Medicare Advantage first and now want to switch to Medigap?', answer: 'If you enrolled in Medicare Advantage at 65 and want to switch back to Original Medicare with a Medigap plan within your first 12 months, you have a trial right that gives you guaranteed issue access to certain Medigap plans. After 12 months, you will generally need to go through underwriting.' },
+      ]},
+    ],
+    relatedSlugs: ["the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "how-the-medigap-free-look-period-protects-you", "medicare-questions", "medicare-for-disabled-individuals", "medicare-for-green-card-holders", "medicare-guaranteed-issue", "medicare-supplement-plans-and-pre-existing-conditions"],
   },
 
   {
     slug: 'medicare-initial-enrollment-period',
     seo: {
-      title: 'Medicare Initial Enrollment Period',
-      description: 'Your Medicare Initial Enrollment Period is your first chance to sign up for Medicare. Learn how you can prepare during this timeframe.',
+      title: 'Medicare Initial Enrollment Period (IEP): Dates, Rules, and Deadlines (2026)',
+      description: 'The Medicare Initial Enrollment Period is a 7-month window around your 65th birthday to sign up for Parts A, B, C, and D. Learn the exact dates, what happens if you miss it, and when coverage begins.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-initial-enrollment-period/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/initial-enrollment-period-for-medicare.jpg',
     },
     title: 'Medicare Initial Enrollment Period',
-    summary: 'Your Medicare Initial Enrollment Period is your first and best opportunity to sign up for Medicare. We review what the IEP is and how you can best use this time to enroll in Medicare benefits.',
+    summary: 'The Medicare Initial Enrollment Period (IEP) is a 7-month window centered around your 65th birthday during which you can first sign up for Medicare Parts A, B, C, and D. Enrolling on time avoids late enrollment penalties and ensures your coverage starts without gaps.',
     category: 'Enrollment',
-    dateUpdated: '',
+    dateUpdated: 'May 12, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
-    sections: [
-      {
-        heading: '',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-      },
-      {
-        heading: 'Table of Contents:',
-        paragraphs: [
-        ],
-        listItems: [
-          'What is the Medicare Initial Enrollment Period?',
-          'How Long is the Initial Enrollment Period for Medicare?',
-          'What Happens if I Miss My Initial Enrollment Window for Medicare?',
-          'How Do I Qualify for Automatic Enrollment Into Medicare During my IEP?',
-          'When Does Medicare Coverage Begin If I Enroll During My IEP?',
-          'Medicare Part D Initial Enrollment Period',
-          'When Do I Enroll in Medicare Part D if I Missed my Initial Enrollment Period?'],
-      },
-      {
-        heading: 'What is the Medicare Initial Enrollment Period?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Medicare Eligibility Calculator',
-        paragraphs: [
-          'Follow the steps prompted by the tool to understand your Medicare Eligibility date.',
-          'Let us help you navigate your Medicare journey'],
-      },
-      {
-        heading: 'How Long is the Initial Enrollment Period for Medicare?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'What Happens if I Miss My Initial Enrollment Window for Medicare?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-      },
-      {
-        heading: 'How do I Qualify for Automatic Enrollment into Medicare during My IEP?',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'Automatic Enrollment into Medicare for Those Diagnosed with ALS or ESRD',
-        paragraphs: [
-        ],
-      },
-      {
-        heading: 'When Does Medicare Coverage Begin if I Enroll during My IEP?',
-        paragraphs: [
-          'Let us help you navigate your Medicare journey'],
-      },
-      {
-        heading: 'Medicare Part D Initial Enrollment Period',
-        paragraphs: [
-          'Your [Medicare Part D Initial Enrollment Period](/blog/how-is-medicare-part-d-changing-in-2026) is the same as your [Medicare Part A and Part B Initial Enrollment Period](/blog/medicare-parts-a-b-c-and-d-explained-simply). Suppose you do not enroll in Medicare Part D prescription drug coverage during your Initial Enrollment Period window. You may incur aPart D late enrollment penaltyif you do not have creditable coverage.Once you enroll in at least Medicare Part A, you become eligible forMedicare Part D.When Do I Enroll in Medicare Part D if I Missed my IEP?If you missed your Initial Enrollment Period, you should know the Annual Enrollment Period for Medicare Advantage and Medicare Part D occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No',
-          'Once you enroll in at least Medicare Part A, you become eligible forMedicare Part D.When Do I Enroll in Medicare Part D if I Missed my IEP?If you missed your Initial Enrollment Period, you should know the [Annual Enrollment Period for Medicare Advantage and Medicare Part D](/faqs/medicare-annual-enrollment-period) occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No'],
-      },
-      {
-        heading: 'When do I Enroll in Medicare Part D if I Missed My IEP?',
-        paragraphs: [
-          'If you missed your Initial Enrollment Period, you should know the [Annual Enrollment Period for Medicare Advantage and Medicare Part D](/blog/the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them) occurs each fall. This window begins on October 15 and ends on December 7. During this period, you can enroll in a Medicare Advantage plan or a Medicare Part D prescription drug plan. Coverage will begin on January 1 of the following year.Was this article helpful ?Yes (26)No'],
-        listItems: [
-          'Was this article helpful ?',
-          'Yes (26)No'],
-      }],
+    readTime: '6 min',
+    sections: [],
+    richSections: [
+      { type: 'paragraph', content: 'The Medicare Initial Enrollment Period (IEP) is a 7-month window during which you can first sign up for Medicare. It begins 3 months before the month you turn 65, includes your birthday month, and extends 3 months after. For example, if you turn 65 in August, your IEP runs from May 1 through November 30.' },
+      { type: 'heading', level: 2, text: 'IEP Timeline and When Coverage Begins', id: 'iep-timeline' },
+      { type: 'table', title: 'When Medicare Coverage Begins Based on When You Enroll', headers: ['When You Enroll', 'Coverage Start Date'], rows: [
+        ['3 months before your birthday month', 'The month you turn 65'],
+        ['The month you turn 65', '1 month after you enroll'],
+        ['1 month after your birthday month', '2 months after you enroll'],
+        ['2 months after your birthday month', '3 months after you enroll'],
+        ['3 months after your birthday month', '3 months after you enroll'],
+      ]},
+      { type: 'callout', calloutType: 'info', calloutTitle: 'Enroll Early for the Smoothest Start', calloutText: 'Enrolling in the 3 months before your birthday month ensures your coverage starts on the first day of your birthday month, with no gap. Waiting until your birthday month or after delays your start date.' },
+      { type: 'heading', level: 2, text: 'What Can You Enroll In During Your IEP?', id: 'what-to-enroll-in' },
+      { type: 'paragraph', content: 'During your IEP, you can enroll in Medicare Part A (hospital insurance), Part B (medical insurance), a Medicare Advantage (Part C) plan, and a Medicare Part D prescription drug plan. Most people enroll in Parts A and B first, then decide between Original Medicare with a Medigap plan and Part D, or a Medicare Advantage plan.' },
+      { type: 'heading', level: 2, text: 'Automatic Enrollment', id: 'automatic-enrollment' },
+      { type: 'paragraph', content: 'You may be automatically enrolled in Medicare Parts A and B if you are already receiving Social Security or Railroad Retirement Board benefits when you turn 65. In that case, you will receive your Medicare card in the mail about 3 months before your 65th birthday. You do not need to take any action for Parts A and B, but you will still need to actively enroll in Part D or a Medicare Advantage plan if you want that coverage.' },
+      { type: 'paragraph', content: 'People diagnosed with ALS (amyotrophic lateral sclerosis) are automatically enrolled in Medicare the month their Social Security disability benefits begin, with no waiting period. People with end-stage renal disease (ESRD) must apply for Medicare and are not automatically enrolled.' },
+      { type: 'heading', level: 2, text: 'What Happens If You Miss Your IEP?', id: 'miss-iep' },
+      { type: 'paragraph', content: 'If you miss your IEP and do not have other qualifying coverage (such as employer coverage through active employment), you will face late enrollment penalties and a coverage gap. You can enroll during the General Enrollment Period (January 1 through March 31 each year), but coverage will not begin until July 1, and you may owe a [Part B late enrollment penalty](/faqs/medicare-part-b-late-enrollment-penalty) of 10% for each full 12-month period you were eligible but did not enroll.' },
+      { type: 'heading', level: 2, text: 'IEP for Part D', id: 'part-d-iep' },
+      { type: 'paragraph', content: 'Your Part D IEP runs concurrently with your Parts A and B IEP. If you do not enroll in a Part D plan or maintain other [creditable drug coverage](/faqs/what-is-medicare-creditable-coverage) during your IEP, you may owe a [Part D late enrollment penalty](/faqs/medicare-part-d-late-enrollment-penalty) when you do eventually enroll. The penalty is 1% of the national base premium for each month you lacked coverage, and it is permanent.' },
+      { type: 'faq', faqs: [
+        { question: 'Can I delay Medicare enrollment if I have employer coverage?', answer: 'Yes. If you are actively working and covered by an employer group health plan through your own or your spouse\'s current employment, you can delay Part B enrollment without penalty. When that coverage ends, you get a Special Enrollment Period to sign up for Medicare.' },
+        { question: 'Does my IEP apply to Medicare Advantage plans?', answer: 'Yes. You can enroll in a Medicare Advantage plan during your IEP. This is called the Initial Coverage Election Period (ICEP) for Medicare Advantage, and it runs concurrently with your IEP.' },
+        { question: 'What if I turn 65 but am not yet receiving Social Security?', answer: 'You will need to actively apply for Medicare. You can apply online at ssa.gov, by phone at 1-800-772-1213, or in person at a Social Security office. Apply 3 months before your birthday month to ensure timely coverage.' },
+      ]},
+    ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-general-enrollment-period", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
   }];
