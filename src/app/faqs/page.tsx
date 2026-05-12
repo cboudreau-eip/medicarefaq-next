@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import SiteLayout from "@/components/SiteLayout";
 import Coverage from "./PageContent";
 
@@ -18,7 +19,9 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <SiteLayout>
-      <Coverage />
+      <Suspense fallback={null}>
+        <Coverage />
+      </Suspense>
     </SiteLayout>
   );
 }
