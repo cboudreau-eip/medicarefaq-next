@@ -58,25 +58,37 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-gym-membership',
     seo: {
-      title: 'Does Medicare Cover Gym Membership?',
-      description: 'A Medicare gym membership is available but only through certain plans. Learn your best Medicare coverage options to get a gym membership and more.',
+      title: 'Does Medicare Cover Gym Membership? (2026)',
+      description: 'Original Medicare does not cover gym memberships, but many Medicare Advantage plans include fitness benefits like SilverSneakers, Silver&Fit, or Renew Active at no extra cost.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-gym-membership/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/how-to-enroll-in-a-gym-membership.jpg',
     },
     title: 'Does Medicare Cover Gym Membership?',
-    summary: 'Original Medicare does not cover the cost of a typical gym membership. However, a gym membership may be available through your Medicare Advantage or Medicare Supplement plan carrier. Not all carriers offer this benefit so you will want to choose one that offer this perk.',
+    summary: 'Original Medicare does not cover gym memberships. However, many Medicare Advantage plans include fitness benefits at no extra cost through programs like SilverSneakers, Silver&Fit, or Renew Active.',
     category: 'Medicare FAQ',
-    dateUpdated: 'February 25, 2022',
+    dateUpdated: 'May 12, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
-    sections: [
-      {
-        heading: 'Medicare Coverage for Bariatric Weight Loss Surgeries',
-        paragraphs: [
-          'Updated on February 25, 2022',
-          'According to the Centers for Disease Control and Prevention (CDC), [Nearly 40% of US adults](/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not)...'],
-      }],
+    readTime: '3 min',
+    sections: [],
+    richSections: [
+      { type: 'paragraph', content: '[Original Medicare](/faqs/what-is-medicare) (Parts A and B) does not cover gym memberships or fitness programs. These are considered non-medical benefits that fall outside Original Medicare\'s scope. If a gym membership is important to you, your best option is a [Medicare Advantage plan](/faqs/what-is-medicare-advantage) that includes a fitness benefit.' },
+      { type: 'heading', level: 2, text: 'Which Plans Include Gym Benefits?', id: 'which-plans-include-gym' },
+      { type: 'paragraph', content: 'Many Medicare Advantage plans offer fitness benefits as a supplemental perk. The three most common programs are:' },
+      { type: 'table', title: 'Common Medicare Fitness Programs', headers: ['Program', 'What It Includes'], rows: [
+        ['SilverSneakers', 'Access to 15,000+ gym locations nationwide, on-demand fitness videos, and online classes'],
+        ['Silver&Fit', 'Gym access, fitness kits for home workouts, and online health programs'],
+        ['Renew Active (UnitedHealthcare)', 'Gym membership, brain health program (AARP Staying Sharp), and fitness tracking'],
+      ]},
+      { type: 'callout', calloutType: 'tip', calloutTitle: 'How to Find Out If Your Plan Includes a Gym Benefit', calloutText: 'Check your plan\'s Summary of Benefits or call the number on your member ID card. You can also visit the SilverSneakers eligibility checker at silversneakers.com to see if your plan qualifies.' },
+      { type: 'heading', level: 2, text: 'What About Medigap Plans?', id: 'medigap-gym' },
+      { type: 'paragraph', content: 'Standard [Medicare Supplement (Medigap)](/faqs/what-is-medicare-supplement-insurance) plans do not include gym benefits. However, some Medigap carriers offer fitness perks as a value-added extra outside of the standardized plan benefits. These vary by insurer and are not guaranteed.' },
+      { type: 'faq', faqs: [
+        { question: 'Does Original Medicare cover gym memberships?', answer: 'No. Original Medicare Parts A and B do not cover gym memberships or fitness programs.' },
+        { question: 'How do I get a free gym membership with Medicare?', answer: 'Enroll in a Medicare Advantage plan that includes SilverSneakers, Silver&Fit, or Renew Active. These programs are included at no extra cost in many plans.' },
+        { question: 'Can I use SilverSneakers with Original Medicare?', answer: 'No. SilverSneakers is only available through participating Medicare Advantage and Medicare Supplement plans, not through Original Medicare alone.' },
+      ]},
+    ],
     relatedSlugs: ["medicare-preventive-services", "silver-sneakers-program", "medicare-annual-wellness-visit", "medicare-and-alternative-therapies-whats-covered-and-whats-not"],
   },
   {
