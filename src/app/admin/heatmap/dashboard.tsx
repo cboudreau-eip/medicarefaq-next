@@ -17,16 +17,14 @@ interface PageData {
   last_activity: string;
 }
 
-interface HeatmapDashboardProps {
-  secret: string;
-}
-
 type View = "dashboard" | "heatmap" | "scroll" | "elements";
 
-export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashboardProps) {
+export default function HeatmapDashboard() {
   const [authenticated, setAuthenticated] = useState(false);
-  const [secret, setSecret] = useState(initialSecret || "");
-  const [secretInput, setSecretInput] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [emailInput, setEmailInput] = useState("");
+  const [passwordInput, setPasswordInput] = useState("");
   const [authError, setAuthError] = useState("");
   const [view, setView] = useState<View>("dashboard");
   const [stats, setStats] = useState<Stats | null>(null);
@@ -38,7 +36,8 @@ export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashb
     async (url: string) => {
       const res = await fetch(url, {
         headers: {
-          "x-heatmap-secret": secret,
+          "x-heatmap-email": email,
+          "x-heatmap-password": password,
         },
       });
       if (res.status === 401) {
@@ -48,7 +47,7 @@ export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashb
       if (!res.ok) throw new Error("Failed to fetch");
       return res.json();
     },
-    [secret]
+    [email, password]
   );
 
   // Attempt login
@@ -57,19 +56,21 @@ export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashb
     try {
       const res = await fetch("/api/heatmap/data?type=stats", {
         headers: {
-          "x-heatmap-secret": secretInput,
+          "x-heatmap-email": emailInput,
+          "x-heatmap-password": passwordInput,
         },
       });
       if (res.status === 401) {
-        setAuthError("Invalid secret. Access denied.");
+        setAuthError("Invalid email or password. Access denied.");
         return;
       }
       if (!res.ok) {
         setAuthError("Server error. Try again.");
         return;
       }
-      // Success - store secret and mark authenticated
-      setSecret(secretInput);
+      // Success - store credentials and mark authenticated
+      setEmail(emailInput);
+      setPassword(passwordInput);
       setAuthenticated(true);
     } catch {
       setAuthError("Connection error. Try again.");
@@ -109,21 +110,33 @@ export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashb
             </div>
             <div>
               <h1 className="text-white font-bold text-lg">Heatmap Analytics</h1>
-              <p className="text-gray-500 text-sm">Enter your admin secret to continue</p>
+              <p className="text-gray-500 text-sm">Sign in to access the dashboard</p>
             </div>
           </div>
 
           <div className="space-y-4">
             <div>
-              <label className="text-gray-400 text-sm block mb-1.5">Admin Secret</label>
+              <label className="text-gray-400 text-sm block mb-1.5">Email</label>
               <input
-                type="password"
-                value={secretInput}
-                onChange={(e) => setSecretInput(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && handleLogin()}
-                placeholder="Enter HEATMAP_ADMIN_SECRET"
+                type="email"
+                value={emailInput}
+                onChange={(e) => setEmailInput(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && document.getElementById("heatmap-password-input")?.focus()}
+                placeholder="admin@example.com"
                 className="w-full bg-[#0f1117] border border-[#2a2d37] rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-[#00d97e] placeholder-gray-600"
                 autoFocus
+              />
+            </div>
+            <div>
+              <label className="text-gray-400 text-sm block mb-1.5">Password</label>
+              <input
+                id="heatmap-password-input"
+                type="password"
+                value={passwordInput}
+                onChange={(e) => setPasswordInput(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && handleLogin()}
+                placeholder="Enter your password"
+                className="w-full bg-[#0f1117] border border-[#2a2d37] rounded-lg px-4 py-3 text-white text-sm focus:outline-none focus:border-[#00d97e] placeholder-gray-600"
               />
             </div>
             {authError && (
@@ -131,10 +144,10 @@ export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashb
             )}
             <button
               onClick={handleLogin}
-              disabled={!secretInput.trim()}
+              disabled={!emailInput.trim() || !passwordInput.trim()}
               className="w-full bg-[#00d97e] hover:bg-[#00c06e] disabled:opacity-40 disabled:cursor-not-allowed text-black font-semibold py-3 rounded-lg transition-colors text-sm"
             >
-              Authenticate
+              Sign In
             </button>
           </div>
         </div>
@@ -187,6 +200,10 @@ export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashb
         </nav>
 
         <div className="p-4 border-t border-[#2a2d37]">
+          <div className="bg-[#1a1d27] rounded-lg p-3 mb-3">
+            <p className="text-gray-400 text-xs">Signed in as</p>
+            <p className="text-white text-sm font-medium truncate mt-0.5">{email}</p>
+          </div>
           <div className="bg-[#1a1d27] rounded-lg p-3">
             <p className="text-gray-400 text-xs">Tracking Status</p>
             <div className="flex items-center gap-2 mt-1">
@@ -229,11 +246,11 @@ export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashb
           ) : view === "dashboard" ? (
             <DashboardView stats={stats} pages={pages} />
           ) : view === "heatmap" ? (
-            <HeatmapView page={selectedPage} secret={secret} />
+            <HeatmapView page={selectedPage} email={email} password={password} />
           ) : view === "scroll" ? (
-            <ScrollView page={selectedPage} secret={secret} />
+            <ScrollView page={selectedPage} email={email} password={password} />
           ) : (
-            <ElementsView page={selectedPage} secret={secret} />
+            <ElementsView page={selectedPage} email={email} password={password} />
           )}
         </div>
       </main>
@@ -243,8 +260,13 @@ export default function HeatmapDashboard({ secret: initialSecret }: HeatmapDashb
 
 // === Sub-views ===
 
+interface AuthProps {
+  email: string;
+  password: string;
+}
+
 function DashboardView({ stats, pages }: { stats: Stats | null; pages: PageData[] }) {
-  if (!stats) return <EmptyState message="No data collected yet. Tracking is active — data will appear once visitors interact with your site." />;
+  if (!stats) return <EmptyState message="No data collected yet. Tracking is active - data will appear once visitors interact with your site." />;
 
   return (
     <div className="space-y-8">
@@ -302,7 +324,7 @@ function DashboardView({ stats, pages }: { stats: Stats | null; pages: PageData[
                   </td>
                   <td className="px-6 py-3 text-right">
                     <span className="text-gray-400 text-sm">
-                      {page.last_activity ? new Date(page.last_activity).toLocaleDateString("en-US", { timeZone: "America/New_York" }) : "—"}
+                      {page.last_activity ? new Date(page.last_activity).toLocaleDateString("en-US", { timeZone: "America/New_York" }) : "\u2014"}
                     </span>
                   </td>
                 </tr>
@@ -320,7 +342,7 @@ function DashboardView({ stats, pages }: { stats: Stats | null; pages: PageData[
   );
 }
 
-function HeatmapView({ page, secret }: { page: string; secret: string }) {
+function HeatmapView({ page, email, password }: { page: string } & AuthProps) {
   const [clicks, setClicks] = useState<Array<{ x_percent: number; y_percent: number }>>([]);
   const [loading, setLoading] = useState(false);
   const [iframeHeight, setIframeHeight] = useState(3000);
@@ -330,15 +352,14 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
     if (!page) return;
     setLoading(true);
     fetch(`/api/heatmap/data?type=clicks&page=${encodeURIComponent(page)}`, {
-      headers: { "x-heatmap-secret": secret },
+      headers: { "x-heatmap-email": email, "x-heatmap-password": password },
     })
       .then((r) => r.json())
       .then((data) => setClicks(data.clicks || []))
       .catch(console.error)
       .finally(() => setLoading(false));
-  }, [page, secret]);
+  }, [page, email, password]);
 
-  // Try to read the iframe's document height once it loads
   const handleIframeLoad = () => {
     try {
       const doc = iframeRef.current?.contentDocument || iframeRef.current?.contentWindow?.document;
@@ -347,7 +368,7 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
         setIframeHeight(h);
       }
     } catch {
-      // cross-origin — keep the default tall height
+      // cross-origin - keep the default tall height
     }
   };
 
@@ -358,9 +379,7 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
     <div className="space-y-4">
       <div className="bg-[#141720] border border-[#2a2d37] rounded-xl p-4">
         <p className="text-gray-400 text-sm mb-4">{clicks.length} clicks recorded for this page</p>
-        {/* Scrollable wrapper */}
         <div className="relative bg-[#0f1117] rounded-lg" style={{ height: `${iframeHeight}px` }}>
-          {/* Page preview iframe */}
           <iframe
             ref={iframeRef}
             src={page}
@@ -369,7 +388,6 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
             title="Page preview"
             onLoad={handleIframeLoad}
           />
-          {/* Click dots overlay */}
           <div className="absolute inset-0 pointer-events-none">
             {clicks.map((click, i) => (
               <div
@@ -392,7 +410,7 @@ function HeatmapView({ page, secret }: { page: string; secret: string }) {
   );
 }
 
-function ScrollView({ page, secret }: { page: string; secret: string }) {
+function ScrollView({ page, email, password }: { page: string } & AuthProps) {
   const [scrollData, setScrollData] = useState<Array<{ max_scroll_percent: number }>>([]);
   const [loading, setLoading] = useState(false);
 
@@ -400,18 +418,17 @@ function ScrollView({ page, secret }: { page: string; secret: string }) {
     if (!page) return;
     setLoading(true);
     fetch(`/api/heatmap/data?type=scroll&page=${encodeURIComponent(page)}`, {
-      headers: { "x-heatmap-secret": secret },
+      headers: { "x-heatmap-email": email, "x-heatmap-password": password },
     })
       .then((r) => r.json())
       .then((data) => setScrollData(data.scrolls || []))
       .catch(console.error)
       .finally(() => setLoading(false));
-  }, [page, secret]);
+  }, [page, email, password]);
 
   if (!page) return <EmptyState message="Select a page from the dropdown above to view scroll depth." />;
   if (loading) return <LoadingState />;
 
-  // Calculate scroll depth distribution
   const buckets = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
   const distribution = buckets.map((bucket) => ({
     label: `${bucket}%`,
@@ -451,7 +468,7 @@ function ScrollView({ page, secret }: { page: string; secret: string }) {
   );
 }
 
-function ElementsView({ page, secret }: { page: string; secret: string }) {
+function ElementsView({ page, email, password }: { page: string } & AuthProps) {
   const [elements, setElements] = useState<Array<{ element_tag: string; element_id: string; element_text: string; click_count: number }>>([]);
   const [loading, setLoading] = useState(false);
 
@@ -459,13 +476,13 @@ function ElementsView({ page, secret }: { page: string; secret: string }) {
     if (!page) return;
     setLoading(true);
     fetch(`/api/heatmap/data?type=top-elements&page=${encodeURIComponent(page)}`, {
-      headers: { "x-heatmap-secret": secret },
+      headers: { "x-heatmap-email": email, "x-heatmap-password": password },
     })
       .then((r) => r.json())
       .then((data) => setElements(data.elements || []))
       .catch(console.error)
       .finally(() => setLoading(false));
-  }, [page, secret]);
+  }, [page, email, password]);
 
   if (!page) return <EmptyState message="Select a page from the dropdown above to view click analytics." />;
   if (loading) return <LoadingState />;
@@ -495,8 +512,8 @@ function ElementsView({ page, secret }: { page: string; secret: string }) {
                   &lt;{el.element_tag}&gt;
                 </span>
               </td>
-              <td className="px-6 py-3 text-gray-300 text-sm font-mono">{el.element_id || "—"}</td>
-              <td className="px-6 py-3 text-gray-400 text-sm max-w-[200px] truncate">{el.element_text || "—"}</td>
+              <td className="px-6 py-3 text-gray-300 text-sm font-mono">{el.element_id || "\u2014"}</td>
+              <td className="px-6 py-3 text-gray-400 text-sm max-w-[200px] truncate">{el.element_text || "\u2014"}</td>
               <td className="px-6 py-3 text-right text-white font-medium text-sm">{Number(el.click_count).toLocaleString()}</td>
             </tr>
           ))}
@@ -526,7 +543,6 @@ function KPICard({ title, value, subtitle, icon }: { title: string; value: strin
         <p className="text-white text-3xl font-bold">{value}</p>
         <p className="text-gray-500 text-sm mt-1">{subtitle}</p>
       </div>
-      {/* Corner bracket decorations */}
       <div className="absolute top-2 left-2 w-4 h-4 border-l-2 border-t-2 border-[#2a2d37] rounded-tl" />
       <div className="absolute top-2 right-2 w-4 h-4 border-r-2 border-t-2 border-[#2a2d37] rounded-tr" />
       <div className="absolute bottom-2 left-2 w-4 h-4 border-l-2 border-b-2 border-[#2a2d37] rounded-bl" />

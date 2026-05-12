@@ -179,3 +179,6 @@
 - [x] Build does-medicare-cover-durable-medical-equipment as CoverageArticle
 - [x] Create blog post: how-to-sign-up-for-medicare
 - [x] Add unique triggerId to all ZipFormModal instances for GTM click tracking
+
+## Heatmap Security
+- [ ] Replace single secret login with email + password authentication

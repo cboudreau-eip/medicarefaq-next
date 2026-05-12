@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { getDb } from "@/lib/heatmap/db";
 
-const HEATMAP_ADMIN_SECRET = process.env.HEATMAP_ADMIN_SECRET ?? "";
+const ADMIN_EMAIL = process.env.HEATMAP_ADMIN_EMAIL ?? "";
+const ADMIN_PASSWORD = process.env.HEATMAP_ADMIN_PASSWORD ?? "";
 const HEATMAP_TRACK_SECRET = process.env.NEXT_PUBLIC_HEATMAP_TRACK_SECRET ?? "";
 
 interface ClickEvent {
@@ -38,11 +39,16 @@ const MAX_SCROLLS_PER_REQUEST = 10;
 
 export async function POST(request: Request) {
   // ── Auth check ──────────────────────────────────────────────────────────────
-  // Accept either the admin secret or the track-specific secret.
-  // The HeatmapTracker component sends NEXT_PUBLIC_HEATMAP_TRACK_SECRET in the header.
-  const incoming = request.headers.get("x-heatmap-secret") ?? "";
-  const isAdmin = HEATMAP_ADMIN_SECRET && incoming === HEATMAP_ADMIN_SECRET;
-  const isTracker = HEATMAP_TRACK_SECRET && incoming === HEATMAP_TRACK_SECRET;
+  // Accept either:
+  // 1. Admin email + password (from dashboard)
+  // 2. Track secret (from HeatmapTracker component on public pages)
+  const email = request.headers.get("x-heatmap-email") ?? "";
+  const password = request.headers.get("x-heatmap-password") ?? "";
+  const trackSecret = request.headers.get("x-heatmap-secret") ?? "";
+
+  const isAdmin = ADMIN_EMAIL && ADMIN_PASSWORD && email === ADMIN_EMAIL && password === ADMIN_PASSWORD;
+  const isTracker = HEATMAP_TRACK_SECRET && trackSecret === HEATMAP_TRACK_SECRET;
+
   if (!isAdmin && !isTracker) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }

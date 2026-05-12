@@ -1,12 +1,14 @@
 import { NextResponse } from "next/server";
 import { getDb } from "@/lib/heatmap/db";
 
-const HEATMAP_SECRET = process.env.HEATMAP_ADMIN_SECRET ?? "";
+const ADMIN_EMAIL = process.env.HEATMAP_ADMIN_EMAIL ?? "";
+const ADMIN_PASSWORD = process.env.HEATMAP_ADMIN_PASSWORD ?? "";
 
 function checkAuth(request: Request): boolean {
-  if (!HEATMAP_SECRET) return false; // No secret configured = locked out
-  const incoming = request.headers.get("x-heatmap-secret") ?? "";
-  return incoming === HEATMAP_SECRET;
+  if (!ADMIN_EMAIL || !ADMIN_PASSWORD) return false; // No credentials configured = locked out
+  const email = request.headers.get("x-heatmap-email") ?? "";
+  const password = request.headers.get("x-heatmap-password") ?? "";
+  return email === ADMIN_EMAIL && password === ADMIN_PASSWORD;
 }
 
 export async function GET(request: Request) {
