@@ -2118,24 +2118,53 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: 'medicare-forms',
     seo: {
-      title: 'Medicare Forms You Should Bookmark',
-      description: 'Get the Medicare forms you need to enroll in Medicare, appeal a decision, and make claims & changes to your coverage. Learn more today.',
+      title: 'Medicare Forms You Should Bookmark (2026)',
+      description: 'A reference guide to the most important Medicare forms for enrollment, appeals, claims, and coverage changes. Includes direct links to CMS forms and instructions.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-forms/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-forms-you-should-bookmark.jpg',
     },
     title: 'Medicare Forms You Should Bookmark',
-    summary: 'Medicare forms are necessary when you wish to make changes to your benefits, appeal a decision, or enroll in coverage. Find all of the forms you need below.',
+    summary: 'Whether you are enrolling in Medicare for the first time, filing an appeal, or making changes to your coverage, there is a specific form for each situation. This guide covers the most important Medicare forms and when you need them.',
     category: 'Medicare FAQ',
-    dateUpdated: 'November 18, 2024',
+    dateUpdated: 'May 12, 2026',
     author: 'Jagger Esch',
     reviewer: 'Ashlee Zareczny',
-    readTime: '3 min',
-    sections: [
-      {
-        heading: 'How do I Find Pain Management Doctors near Me that Accept Medicare?',
-        paragraphs: [
-          'Updated on November 18, 2024',
-          '[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover [pain management services](/faqs/medicare-coverage-for-lower-back-pain-management) when [medically necessary](/faqs/what-does-medically-necessary-mean). Yet, some services or treatments...'],
-      }],
+    readTime: '5 min',
+    sections: [],
+    richSections: [
+      { type: 'paragraph', content: 'Medicare paperwork can feel overwhelming, but most situations only require a handful of specific forms. Knowing which form to use and where to find it can save you time and prevent delays in your coverage or benefits.' },
+      { type: 'heading', level: 2, text: 'Enrollment Forms', id: 'enrollment-forms' },
+      { type: 'table', title: 'Medicare Enrollment Forms', headers: ['Form', 'Purpose', 'Where to Get It'], rows: [
+        ['CMS-40B', 'Application for Enrollment in Medicare Part B', 'ssa.gov or your local Social Security office'],
+        ['CMS-L564', 'Request for Employment Information (used with CMS-40B when enrolling outside your IEP due to employer coverage)', 'ssa.gov'],
+        ['CMS-18-F-5', 'Application for Hospital Insurance (Part A) for those not automatically enrolled', 'ssa.gov'],
+        ['CMS-10114', 'Notice of Medicare Non-Coverage (NOMNC) — given to you by a provider when services are ending', 'Provided by your provider'],
+      ]},
+      { type: 'heading', level: 2, text: 'Appeal Forms', id: 'appeal-forms' },
+      { type: 'table', title: 'Medicare Appeal Forms', headers: ['Form', 'Purpose', 'Where to Get It'], rows: [
+        ['CMS-20027', 'Medicare Redetermination Request (first level of appeal for Original Medicare claims)', 'cms.gov'],
+        ['CMS-20033', 'Appointment of Representative (authorize someone to act on your behalf in an appeal)', 'cms.gov'],
+        ['CMS-10280', 'Request for Reconsideration (second level of appeal)', 'cms.gov'],
+        ['DAB-101', 'Request for ALJ Hearing (third level of appeal)', 'hhs.gov'],
+      ]},
+      { type: 'heading', level: 2, text: 'Claims and Coverage Forms', id: 'claims-forms' },
+      { type: 'table', title: 'Medicare Claims and Coverage Forms', headers: ['Form', 'Purpose', 'Where to Get It'], rows: [
+        ['CMS-1490S', 'Patient Request for Medical Payment (file a claim yourself if your provider does not)', 'cms.gov'],
+        ['CMS-1763', 'Request for Termination of Premium Medicare Hospital and/or Supplementary Medical Insurance', 'ssa.gov'],
+        ['CMS-10003-OMBPRA', 'Medicare Advantage Disenrollment Request', 'Your plan or medicare.gov'],
+        ['CMS-10260', 'Authorization to Disclose Personal Health Information', 'cms.gov'],
+      ]},
+      { type: 'callout', calloutType: 'info', calloutTitle: 'Most Forms Are Available at medicare.gov and cms.gov', calloutText: 'The official sources for Medicare forms are medicare.gov, cms.gov, and ssa.gov. Be cautious of third-party sites that charge fees for forms that are free from official government sources.' },
+      { type: 'heading', level: 2, text: 'Low-Income Assistance Forms', id: 'lis-forms' },
+      { type: 'table', title: 'Financial Assistance Application Forms', headers: ['Form', 'Purpose', 'Where to Get It'], rows: [
+        ['SSA-1020', 'Application for Extra Help with Medicare Prescription Drug Plan Costs (Low-Income Subsidy)', 'ssa.gov or 1-800-772-1213'],
+        ['SSA-1021', 'Application for Medicare Savings Programs (QMB, SLMB, QI)', 'Your state Medicaid office'],
+      ]},
+      { type: 'faq', faqs: [
+        { question: 'Do I need to fill out a form to enroll in Medicare at 65 if I am already on Social Security?', answer: 'No. If you are already receiving Social Security benefits when you turn 65, you will be automatically enrolled in Medicare Parts A and B and receive your card in the mail. No form is required.' },
+        { question: 'How do I appeal a Medicare coverage denial?', answer: 'Start with a Medicare Redetermination Request using form CMS-20027, submitted to the Medicare Administrative Contractor (MAC) that processed your claim. You have 120 days from the date of the initial determination to file.' },
+        { question: 'Can someone else file Medicare forms on my behalf?', answer: 'Yes. You can authorize a representative using form CMS-10003 or CMS-20033 depending on the situation. A representative can be a family member, attorney, or other trusted person.' },
+      ]},
+    ],
     relatedSlugs: ["5-things-to-do-after-you-receive-your-medicare-card", "medicare-starter-guide-what-to-do-in-your-first-90-days", "applying-for-medicare", "how-to-file-a-medicare-claim", "medicare-enrollment-checklist"],
   }];
