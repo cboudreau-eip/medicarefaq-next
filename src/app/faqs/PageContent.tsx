@@ -6,7 +6,8 @@
  * Follows the Clarity System design language — light, modern, professional.
  */
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   Clock,
@@ -145,8 +146,28 @@ function buildFilterPills(articles: FAQCard[]) {
 }
 
 export default function FAQIndex() {
-  const [searchQuery, setSearchQuery] = useState("");
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState(() => searchParams.get("q") ?? "");
   const [activeCategory, setActiveCategory] = useState("All Topics");
+
+  // Keep search input in sync when URL changes (e.g. browser back/forward)
+  useEffect(() => {
+    const q = searchParams.get("q") ?? "";
+    setSearchQuery(q);
+  }, [searchParams]);
+
+  // Update both state and URL when the user types
+  function handleSearchChange(value: string) {
+    setSearchQuery(value);
+    const params = new URLSearchParams(searchParams.toString());
+    if (value) {
+      params.set("q", value);
+    } else {
+      params.delete("q");
+    }
+    router.replace(`/faqs?${params.toString()}`, { scroll: false });
+  }
 
   const categories = useMemo(() => buildFilterPills(allArticles), []);
 
@@ -222,12 +243,12 @@ export default function FAQIndex() {
                 type="text"
                 placeholder="Search articles..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => handleSearchChange(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 bg-[#F5F7FA] border border-[#E5E7EB] rounded-lg text-sm text-[#1B2A4A] placeholder:text-[#9CA3AF] focus:outline-none focus:ring-2 focus:ring-[#C41230]/30 focus:border-[#C41230]/50 transition-all"
               />
               {searchQuery && (
                 <button
-                  onClick={() => setSearchQuery("")}
+                  onClick={() => handleSearchChange("")}
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-[#9CA3AF] hover:text-[#6B7280] text-xs"
                 >
                   Clear
