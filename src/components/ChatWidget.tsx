@@ -151,9 +151,12 @@ export default function ChatWidget() {
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#C0392B] text-white shadow-lg hover:bg-[#E74C3C] transition-all duration-200 flex items-center justify-center hover:scale-105"
+          className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#C0392B] text-white shadow-lg hover:bg-[#E74C3C] transition-all duration-200 flex items-center justify-center hover:scale-105 group"
           aria-label="Open Medicare Assistant chat"
         >
+          {/* Pulse ring animation */}
+          <span className="absolute inset-0 rounded-full bg-[#C0392B] animate-ping opacity-30" />
+          <span className="absolute inset-[-4px] rounded-full border-2 border-[#C0392B] animate-pulse opacity-50" />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
