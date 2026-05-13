@@ -151,7 +151,7 @@ export default function ChatWidget() {
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#1B3A4B] text-white shadow-lg hover:bg-[#264653] transition-all duration-200 flex items-center justify-center hover:scale-105"
+          className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#C0392B] text-white shadow-lg hover:bg-[#E74C3C] transition-all duration-200 flex items-center justify-center hover:scale-105"
           aria-label="Open Medicare Assistant chat"
         >
           <svg
