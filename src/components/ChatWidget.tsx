@@ -62,16 +62,8 @@ export default function ChatWidget() {
     }
   }, [isOpen]);
 
-  const logConversation = (userContent: string) => {
-    // Get the latest assistant response from state
-    // We use setTimeout to ensure state has settled
-    setTimeout(() => {
-      const currentMessages = document.querySelectorAll('[data-chat-role]');
-      const lastAssistant = Array.from(currentMessages)
-        .filter((el) => el.getAttribute('data-chat-role') === 'assistant')
-        .pop();
-      const assistantContent = lastAssistant?.textContent || '';
-
+  const logConversation = (userContent: string, assistantContent: string) => {
+    try {
       fetch('/api/chat-log', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -87,7 +79,9 @@ export default function ChatWidget() {
       }).catch(() => {
         // Silent fail - logging should never break the chat experience
       });
-    }, 100);
+    } catch {
+      // Silent fail
+    }
   };
 
   const sendMessage = async (text: string) => {
@@ -120,6 +114,7 @@ export default function ChatWidget() {
 
       const decoder = new TextDecoder();
       let buffer = "";
+      let fullAssistantResponse = "";
 
       while (true) {
         const { done, value } = await reader.read();
@@ -138,6 +133,7 @@ export default function ChatWidget() {
           try {
             const parsed = JSON.parse(data);
             if (parsed.content) {
+              fullAssistantResponse += parsed.content;
               setMessages((prev) => {
                 const updated = [...prev];
                 const lastMsg = updated[updated.length - 1];
@@ -156,7 +152,7 @@ export default function ChatWidget() {
         }
       }
       // Log the conversation exchange after streaming completes
-      logConversation(userMessage.content);
+      logConversation(userMessage.content, fullAssistantResponse);
     } catch (error) {
       console.error("Chat error:", error);
       setMessages((prev) => {
