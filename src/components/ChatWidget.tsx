@@ -13,6 +13,18 @@ const COMMON_QUESTIONS = [
   "What's the difference between Supplement and Advantage?",
 ];
 
+function generateSessionId(): string {
+  return `chat_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
+}
+
+function getDeviceType(): "desktop" | "mobile" | "tablet" {
+  if (typeof window === "undefined") return "desktop";
+  const w = window.innerWidth;
+  if (w < 768) return "mobile";
+  if (w < 1024) return "tablet";
+  return "desktop";
+}
+
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
@@ -21,6 +33,7 @@ export default function ChatWidget() {
   const [hasGreeted, setHasGreeted] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const sessionIdRef = useRef<string>(generateSessionId());
 
   const scrollToBottom = useCallback(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -48,6 +61,34 @@ export default function ChatWidget() {
       inputRef.current.focus();
     }
   }, [isOpen]);
+
+  const logConversation = (userContent: string) => {
+    // Get the latest assistant response from state
+    // We use setTimeout to ensure state has settled
+    setTimeout(() => {
+      const currentMessages = document.querySelectorAll('[data-chat-role]');
+      const lastAssistant = Array.from(currentMessages)
+        .filter((el) => el.getAttribute('data-chat-role') === 'assistant')
+        .pop();
+      const assistantContent = lastAssistant?.textContent || '';
+
+      fetch('/api/chat-log', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          sessionId: sessionIdRef.current,
+          pagePath: window.location.pathname,
+          deviceType: getDeviceType(),
+          messages: [
+            { role: 'user', content: userContent },
+            ...(assistantContent ? [{ role: 'assistant', content: assistantContent }] : []),
+          ],
+        }),
+      }).catch(() => {
+        // Silent fail - logging should never break the chat experience
+      });
+    }, 100);
+  };
 
   const sendMessage = async (text: string) => {
     if (!text.trim() || isStreaming) return;
@@ -114,6 +155,8 @@ export default function ChatWidget() {
           }
         }
       }
+      // Log the conversation exchange after streaming completes
+      logConversation(userMessage.content);
     } catch (error) {
       console.error("Chat error:", error);
       setMessages((prev) => {
@@ -251,6 +294,7 @@ export default function ChatWidget() {
                   </div>
                 )}
                 <div
+                  data-chat-role={msg.role}
                   className={`max-w-[80%] rounded-xl px-4 py-2.5 text-sm leading-relaxed ${
                     msg.role === "user"
                       ? "bg-[#1B3A4B] text-white"
