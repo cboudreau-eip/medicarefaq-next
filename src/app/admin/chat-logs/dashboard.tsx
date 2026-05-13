@@ -26,9 +26,19 @@ interface ChatMessage {
 }
 
 export default function ChatLogsDashboard() {
-  const [authenticated, setAuthenticated] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // Restore credentials from sessionStorage on mount
+  const [authenticated, setAuthenticated] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return sessionStorage.getItem("chatlog_auth") === "true";
+  });
+  const [email, setEmail] = useState(() => {
+    if (typeof window === "undefined") return "";
+    return sessionStorage.getItem("chatlog_email") || "";
+  });
+  const [password, setPassword] = useState(() => {
+    if (typeof window === "undefined") return "";
+    return sessionStorage.getItem("chatlog_password") || "";
+  });
   const [emailInput, setEmailInput] = useState("");
   const [passwordInput, setPasswordInput] = useState("");
   const [authError, setAuthError] = useState("");
@@ -38,8 +48,12 @@ export default function ChatLogsDashboard() {
   const [selectedSession, setSelectedSession] = useState<string | null>(null);
   const [selectedMessages, setSelectedMessages] = useState<ChatMessage[]>([]);
   const [loading, setLoading] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [schemaInitialized, setSchemaInitialized] = useState(false);
+  const [schemaInitialized, setSchemaInitialized] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return sessionStorage.getItem("chatlog_auth") === "true";
+  });
 
   const fetchData = useCallback(
     async (url: string) => {
@@ -51,6 +65,9 @@ export default function ChatLogsDashboard() {
       });
       if (res.status === 401) {
         setAuthenticated(false);
+        sessionStorage.removeItem("chatlog_auth");
+        sessionStorage.removeItem("chatlog_email");
+        sessionStorage.removeItem("chatlog_password");
         throw new Error("Unauthorized");
       }
       if (!res.ok) throw new Error("Failed to fetch");
@@ -59,28 +76,9 @@ export default function ChatLogsDashboard() {
     [email, password]
   );
 
-  const initSchema = useCallback(async () => {
-    try {
-      const res = await fetch("/api/chat-log/init", {
-        method: "POST",
-        headers: {
-          "x-admin-email": email,
-          "x-admin-password": password,
-        },
-      });
-      if (res.ok) {
-        setSchemaInitialized(true);
-      }
-    } catch {
-      // Schema might already exist, that's fine
-      setSchemaInitialized(true);
-    }
-  }, [email, password]);
-
   const handleLogin = async () => {
     setAuthError("");
     try {
-      // Try to init schema as auth check
       const res = await fetch("/api/chat-log/init", {
         method: "POST",
         headers: {
@@ -96,6 +94,10 @@ export default function ChatLogsDashboard() {
         setAuthError("Server error. Try again.");
         return;
       }
+      // Persist to sessionStorage
+      sessionStorage.setItem("chatlog_auth", "true");
+      sessionStorage.setItem("chatlog_email", emailInput);
+      sessionStorage.setItem("chatlog_password", passwordInput);
       setEmail(emailInput);
       setPassword(passwordInput);
       setAuthenticated(true);
@@ -105,25 +107,54 @@ export default function ChatLogsDashboard() {
     }
   };
 
+  const handleSignOut = () => {
+    sessionStorage.removeItem("chatlog_auth");
+    sessionStorage.removeItem("chatlog_email");
+    sessionStorage.removeItem("chatlog_password");
+    setAuthenticated(false);
+    setEmail("");
+    setPassword("");
+    setStats(null);
+    setConversations([]);
+    setSelectedSession(null);
+    setSelectedMessages([]);
+  };
+
+  const loadDashboard = useCallback(async () => {
+    try {
+      const [statsData, convsData] = await Promise.all([
+        fetchData("/api/chat-log/data?type=stats"),
+        fetchData("/api/chat-log/data?type=conversations"),
+      ]);
+      setStats(statsData);
+      setConversations(convsData.conversations || []);
+    } catch (error) {
+      console.error("Failed to load dashboard:", error);
+    }
+  }, [fetchData]);
+
   useEffect(() => {
     if (!authenticated || !schemaInitialized) return;
     setLoading(true);
-    async function loadDashboard() {
+    loadDashboard().finally(() => setLoading(false));
+  }, [authenticated, schemaInitialized, loadDashboard]);
+
+  const handleRefresh = async () => {
+    setRefreshing(true);
+    await loadDashboard();
+    // If a conversation is selected, reload its messages too
+    if (selectedSession) {
       try {
-        const [statsData, convsData] = await Promise.all([
-          fetchData("/api/chat-log/data?type=stats"),
-          fetchData("/api/chat-log/data?type=conversations"),
-        ]);
-        setStats(statsData);
-        setConversations(convsData.conversations || []);
+        const data = await fetchData(
+          `/api/chat-log/data?type=messages&session=${selectedSession}`
+        );
+        setSelectedMessages(data.messages || []);
       } catch (error) {
-        console.error("Failed to load dashboard:", error);
-      } finally {
-        setLoading(false);
+        console.error("Failed to refresh messages:", error);
       }
     }
-    loadDashboard();
-  }, [fetchData, authenticated, schemaInitialized]);
+    setRefreshing(false);
+  };
 
   const loadMessages = async (sessionId: string) => {
     setSelectedSession(sessionId);
@@ -139,7 +170,6 @@ export default function ChatLogsDashboard() {
 
   const handleSearch = async () => {
     if (!searchQuery.trim()) {
-      // Reload all conversations
       const data = await fetchData("/api/chat-log/data?type=conversations");
       setConversations(data.conversations || []);
       return;
@@ -281,12 +311,34 @@ export default function ChatLogsDashboard() {
               Chat Conversations
             </h1>
           </div>
-          <button
-            onClick={() => setAuthenticated(false)}
-            className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
-          >
-            Sign Out
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={handleRefresh}
+              disabled={refreshing}
+              className="flex items-center gap-1.5 px-3 py-2 text-sm text-[#1B3A4B] bg-[#1B3A4B]/5 hover:bg-[#1B3A4B]/10 rounded-lg transition-colors disabled:opacity-50"
+            >
+              <svg
+                className={`w-4 h-4 ${refreshing ? "animate-spin" : ""}`}
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                />
+              </svg>
+              {refreshing ? "Refreshing..." : "Refresh"}
+            </button>
+            <button
+              onClick={handleSignOut}
+              className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
+            >
+              Sign Out
+            </button>
+          </div>
         </div>
       </header>
 
