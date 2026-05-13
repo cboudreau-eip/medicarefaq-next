@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import HeatmapTracker from "@/components/HeatmapTracker";
 import InvocaRefresh from "@/components/InvocaRefresh";
+import ChatWidget from "@/components/ChatWidget";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -85,6 +86,7 @@ export default function RootLayout({
         {children}
         <HeatmapTracker />
         <InvocaRefresh />
+        <ChatWidget />
       </body>
     </html>
   );

@@ -186,4 +186,5 @@
 - [x] Add secret auth to /api/generate-video-script
 - [x] Add secret auth to /api/video-jobs
 - [x] Fix hardcoded BASE_URL in /api/articles/[slug]/route.ts
-- [ ] Add origin check and tighter payload validation to /api/heatmap/track
+- [x] Add origin check and tighter payload validation to /api/heatmap/track
+- [ ] Build AI-powered Medicare Assistant chat widget (Phase 1 - no logging)
