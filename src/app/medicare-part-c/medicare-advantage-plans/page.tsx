@@ -3,12 +3,12 @@ import SiteLayout from "@/components/SiteLayout";
 import MedicareAdvantage from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Medicare Part C | What is Medicare Part C? (Medicare Advantage)",
-  description: "Medicare Part C is health insurance from a private insurance company that becomes your primary source of coverage and assumes your risk from Original Medicare.",
+  title: "Medicare Part C (Medicare Advantage) Explained 2026 | MedicareFAQ",
+  description: "Learn what Medicare Part C (Medicare Advantage) covers, costs, plan types, pros & cons, and how to enroll. Compare plans in your area for 2026.",
   alternates: { canonical: "https://www.medicarefaq.com/medicare-part-c/" },
   openGraph: {
-    title: "Medicare Part C | What is Medicare Part C? (Medicare Advantage)",
-    description: "Medicare Part C is health insurance from a private insurance company that becomes your primary source of coverage and assumes your risk from Original Medicare.",
+    title: "Medicare Part C (Medicare Advantage) Explained 2026 | MedicareFAQ",
+    description: "Learn what Medicare Part C (Medicare Advantage) covers, costs, plan types, pros & cons, and how to enroll. Compare plans in your area for 2026.",
     url: "https://www.medicarefaq.com/medicare-part-c/",
     type: "article",
     images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicare-part-c.jpeg" }],
