@@ -79,7 +79,7 @@ export default function MedicareAdvantagePageContent({ page, slug }: { page: Med
 
       {/* Main Content */}
       <main className="flex-1 py-12 px-4">
-        <div className="max-w-5xl mx-auto flex gap-8">
+        <div className="max-w-5xl mx-auto flex flex-row-reverse gap-8">
           {/* Table of Contents */}
           <aside className="hidden lg:block w-56 flex-shrink-0">
             <div className="sticky top-28 bg-gray-50 rounded-xl border border-gray-200 p-5">

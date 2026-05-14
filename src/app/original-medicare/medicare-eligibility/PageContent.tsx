@@ -89,7 +89,7 @@ export default function MedicareEligibility() {
       </section>
 
       {/* Main Content */}
-      <div className="max-w-5xl mx-auto px-4 py-10 flex flex-col lg:flex-row gap-10">
+      <div className="max-w-5xl mx-auto px-4 py-10 flex flex-col lg:flex-row-reverse gap-10">
         {/* Table of Contents */}
         <aside className="lg:w-64 shrink-0">
           <div className="sticky top-24 bg-gray-50 rounded-xl p-5 border border-gray-200">

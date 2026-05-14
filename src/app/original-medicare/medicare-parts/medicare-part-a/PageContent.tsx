@@ -111,7 +111,7 @@ export default function PageContent() {
       </section>
 
       {/* Main Content */}
-      <div className="max-w-5xl mx-auto px-4 py-12 flex gap-10">
+      <div className="max-w-5xl mx-auto px-4 py-12 flex flex-row-reverse gap-10">
         <aside className="hidden lg:block w-56 shrink-0">
           <div className="sticky top-28 bg-gray-50 rounded-xl p-4 border border-gray-200">
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">On This Page</p>
