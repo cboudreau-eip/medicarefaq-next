@@ -123,8 +123,9 @@ export default function JourneySection() {
                     >
                       <Icon className="w-5 h-5 text-white" />
                     </div>
-                    <h3 className="text-white font-bold text-lg">{path.title}</h3>
-                    <p className="text-white/75 text-sm">{path.subtitle}</p>
+                    <h3 className="text-white font-bold text-lg leading-tight">{path.title}</h3>
+                    <div className="w-8 h-px bg-white/40 my-1.5" />
+                    <p className="text-white text-sm font-medium drop-shadow-sm">{path.subtitle}</p>
                   </div>
                 </div>
 

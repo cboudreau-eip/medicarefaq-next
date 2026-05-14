@@ -20,19 +20,19 @@ function MegaMenuPanel({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -4 }}
       transition={{ duration: 0.15, ease: "easeOut" }}
-      className="absolute top-full left-1/2 -translate-x-1/2 w-[min(90vw,1200px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
+      className="absolute top-full left-1/2 -translate-x-1/2 w-[min(90vw,960px)] bg-white border border-[#E5E7EB] shadow-xl rounded-b-xl z-50"
     >
-      <div className="container py-5">
-        <div className="flex gap-6">
+      <div className="px-6 py-4">
+        <div className="flex gap-5">
           {/* Main items grid */}
           <div className="flex-1">
             <h3
-              className="text-xs font-bold tracking-wider mb-3 uppercase"
+              className="text-[11px] font-bold tracking-wider mb-2 uppercase"
               style={{ color: category.color }}
             >
               {category.title}
             </h3>
-            <div className="grid grid-cols-2 gap-x-8 gap-y-1">
+            <div className="grid grid-cols-2 gap-x-6 gap-y-0.5">
               {category.items.map((item) => {
                 const Icon = item.icon;
                 return (
@@ -47,22 +47,22 @@ function MegaMenuPanel({
                         nav_section: `mega_menu_${category.title.toLowerCase().replace(/\s+/g, "_")}`,
                       });
                     }}
-                    className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-[#F5F7FA] transition-colors duration-150 min-h-[72px]"
+                    className="group flex items-start gap-2.5 py-2 px-2 rounded-lg hover:bg-[#F5F7FA] transition-colors duration-150"
                   >
                     <div
-                      className="w-8 h-8 rounded-lg flex items-center justify-center shrink-0 mt-0.5"
+                      className="w-7 h-7 rounded-md flex items-center justify-center shrink-0 mt-0.5"
                       style={{
                         backgroundColor: `${category.color}12`,
                         color: category.color,
                       }}
                     >
-                      <Icon className="w-4 h-4" />
+                      <Icon className="w-3.5 h-3.5" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <span className="font-semibold text-[#1B2A4A] text-[15px] group-hover:text-[#1B2A4A] block leading-tight">
+                      <span className="font-semibold text-[#1B2A4A] text-[14px] group-hover:text-[#1B2A4A] block leading-tight">
                         {item.title}
                       </span>
-                      <span className="text-[13px] text-[#6B7280] mt-0.5 block leading-snug line-clamp-2">
+                      <span className="text-[12px] text-[#6B7280] mt-0.5 block leading-snug line-clamp-1">
                         {item.description}
                       </span>
                     </div>
@@ -73,11 +73,11 @@ function MegaMenuPanel({
           </div>
           {/* Sidebar */}
           {category.sidebarItems && category.sidebarItems.length > 0 && (
-            <div className="w-[280px] shrink-0 border-l border-[#E5E7EB] pl-6">
-              <h4 className="text-xs font-bold tracking-wider text-[#C41230] mb-3 uppercase">
+            <div className="w-[240px] shrink-0 border-l border-[#E5E7EB] pl-5">
+              <h4 className="text-[11px] font-bold tracking-wider text-[#C41230] mb-2 uppercase">
                 {category.sidebarTitle}
               </h4>
-              <div className="space-y-2.5">
+              <div className="space-y-2">
                 {category.sidebarItems.map((item) => (
                   <Link
                     key={item.title}
@@ -90,20 +90,20 @@ function MegaMenuPanel({
                         nav_section: `mega_menu_sidebar_${category.title.toLowerCase().replace(/\s+/g, "_")}`,
                       });
                     }}
-                    className="block p-3 bg-[#F9FAFB] rounded-lg hover:bg-[#F0F4F8] transition-colors duration-150 group"
+                    className="block p-2.5 bg-[#F9FAFB] rounded-lg hover:bg-[#F0F4F8] transition-colors duration-150 group"
                   >
-                    <span className="font-semibold text-[#1B2A4A] text-sm block leading-tight">
+                    <span className="font-semibold text-[#1B2A4A] text-[13px] block leading-tight">
                       {item.title}
                     </span>
                     {item.description && (
-                      <span className="text-[12px] text-[#6B7280] mt-1 block leading-snug">
+                      <span className="text-[11px] text-[#6B7280] mt-0.5 block leading-snug line-clamp-2">
                         {item.description}
                       </span>
                     )}
                     {item.cta && (
-                      <span className="inline-flex items-center gap-1 text-[#C41230] font-semibold text-sm mt-2 group-hover:gap-2 transition-all duration-150">
+                      <span className="inline-flex items-center gap-1 text-[#C41230] font-semibold text-[12px] mt-1.5 group-hover:gap-2 transition-all duration-150">
                         {item.cta}
-                        <ArrowRight className="w-3.5 h-3.5" />
+                        <ArrowRight className="w-3 h-3" />
                       </span>
                     )}
                   </Link>
