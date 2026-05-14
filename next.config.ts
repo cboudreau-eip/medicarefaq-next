@@ -112,6 +112,8 @@ const nextConfig: NextConfig = {
       },
 
       // ── FAQ slug redirects ──
+      { source: "/faqs/medicare-questions", destination: "/faqs/turning-65-these-are-the-most-common-medicare-questions-answered", permanent: true },
+      { source: "/faqs/medicare-part-d-enrollment", destination: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods", permanent: true },
       { source: "/faqs/does-medicare-cover-diabetic-supplies", destination: "/faqs/medicare-diabetes", permanent: true },
       { source: "/faqs/does-medicare-cover-skilled-nursing", destination: "/faqs/medicare-coverage-for-skilled-nursing-facilities", permanent: true },
       { source: "/faqs/does-medicare-cover-wound-care", destination: "/faqs/medicare-and-wound-care-coverage", permanent: true },

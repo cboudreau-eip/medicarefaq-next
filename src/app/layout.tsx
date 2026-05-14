@@ -27,9 +27,18 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "MedicareFAQ",
     locale: "en_US",
+    images: [
+      {
+        url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+        width: 1200,
+        height: 630,
+        alt: "MedicareFAQ - Your Supplemental Medicare Resource Center",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    images: ["https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg"],
   },
 };
 
