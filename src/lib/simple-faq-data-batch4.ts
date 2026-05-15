@@ -973,7 +973,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ['choosing-a-medigap-policy', 'what-is-the-best-medicare-supplement-plan', 'medicare-advantage-vs-medicare-supplement', 'average-cost-of-medicare-supplement-plans', 'medicare-supplement-open-enrollment', "25-medicare-qas-you-should-know", "how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days"],
+    relatedSlugs: ['choosing-a-medigap-policy', 'what-is-the-best-medicare-supplement-plan', 'medicare-advantage-vs-medicare-supplement', 'average-cost-of-medicare-supplement-plans', 'medicare-supplement-open-enrollment', "25-medicare-qas-you-should-know", "how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days", "when-can-i-change-my-medicare-supplement-plan"],
   },
   // does-medicare-cover-gender-reassignment-surgery moved to coverage-data.ts
   {
@@ -1695,5 +1695,5 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         { question: 'What is High-Deductible Plan G?', answer: 'HDG has a $2,870 deductible (2026) before coverage kicks in, but premiums are much lower ($30 to $70/month). It suits healthy beneficiaries who want catastrophic protection at a low monthly cost.' },
       ] },
     ],
-    relatedSlugs: ["medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g", "medicare-plan-g-reviews"],
+    relatedSlugs: ["medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g", "medicare-plan-g-reviews", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor"],
   }];

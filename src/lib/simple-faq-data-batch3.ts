@@ -60,7 +60,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: 'What if my doctor recommends a preventive service that Medicare does not cover?', answer: 'You will be responsible for the cost. Ask your provider in advance whether a recommended service is covered by Medicare as preventive. You can also check the Medicare coverage tool at medicare.gov.' },
       ]},
     ],
-    relatedSlugs: ["medicare-annual-wellness-visit", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-colonoscopy-screenings", "medicare-coverage-for-mammograms", "how-is-medicare-funded", "medicare-cover-dialysis-treatments", "medicare-physician-fee-schedule-lookup-tool"],
+    relatedSlugs: ["medicare-annual-wellness-visit", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-colonoscopy-screenings", "medicare-coverage-for-mammograms", "how-is-medicare-funded", "medicare-cover-dialysis-treatments", "medicare-physician-fee-schedule-lookup-tool", "what-to-know-about-medicare-at-64"],
   },
   {
     slug: 'qualified-health-plans-medicare',
@@ -574,7 +574,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: 'Can I be denied a Medigap plan because of my health?', answer: 'Outside of your Medigap Open Enrollment Period and guaranteed issue rights, insurers can use medical underwriting and may deny coverage or charge higher premiums based on pre-existing conditions. This is one reason to enroll when you first become eligible.' },
       ]},
     ],
-    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplements-cost-vs-value-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "25-medicare-qas-you-should-know"],
+    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplements-cost-vs-value-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "25-medicare-qas-you-should-know", "when-can-i-change-my-medicare-supplement-plan"],
   },
   {
     slug: 'who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules',
@@ -1069,5 +1069,5 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
               'Medigap plans cover cost-sharing for services that Original Medicare approves. If Medicare denies a service as not medically necessary, Medigap will not cover it either, since Medigap only pays after Medicare pays its portion.',
           }],
       }],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-prior-authorization", "advance-beneficiary-notice", "how-is-medicare-funded", "medicare-cobra", "medicare-physician-fee-schedule-lookup-tool"],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-prior-authorization", "advance-beneficiary-notice", "how-is-medicare-funded", "medicare-cobra", "medicare-physician-fee-schedule-lookup-tool", "what-to-know-about-medicare-at-64"],
   }];

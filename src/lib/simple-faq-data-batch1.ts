@@ -48,7 +48,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'What is the difference between QMB and other Medicare Savings Programs?', answer: 'QMB is the most comprehensive MSP. The other three programs (SLMB, QI, and QDWI) cover fewer costs, primarily limited to Part B premiums.' },
       ]},
     ],
-    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program", "qualified-health-plans-medicare", "report-medicare-fraud", "is-medicare-mandatory", "medicare-braces-devices", "medicare-history"],
+    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program", "qualified-health-plans-medicare", "report-medicare-fraud", "is-medicare-mandatory", "medicare-braces-devices", "medicare-history", "who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules"],
   },
   {
     slug: 'medicare-extra-help-program',
@@ -201,7 +201,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'Do I need a prescription for Medicare vaccine coverage?', answer: 'Part B vaccines generally do not require a prescription. Part D vaccines may require a prescription depending on the pharmacy and plan.' },
       ]},
     ],
-    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026", "is-medicare-free", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-b-excess-charges-medicare-overcharge-measure"],
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026", "is-medicare-free", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-b-excess-charges-medicare-overcharge-measure", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor"],
   },
   {
     slug: 'medicare-advantage-over-the-counter-cards',
@@ -365,7 +365,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'Do Medigap premiums change if I move to a new state?', answer: 'Yes. Medigap premiums vary by state and by insurer. If you move, your current plan may still cover you, but you may find different (potentially better) pricing available from insurers in your new state.' },
       ]},
     ],
-    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice", "moving-to-another-state-with-medicare", "how-dual-residency-and-medicare-works"],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice", "moving-to-another-state-with-medicare", "how-dual-residency-and-medicare-works", "who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules"],
   },
   {
     slug: 'can-my-employer-pay-my-medicare-premiums',
@@ -1246,7 +1246,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'What if I never take prescription drugs? Do I still need Part D?', answer: 'Enrolling in a low-premium Part D plan is generally advisable even if you take no medications. The cost of a $0 or low-premium plan is usually far less than the penalty you would owe if you needed to enroll later.' },
       ]},
     ],
-    relatedSlugs: ["the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-part-d-part-b-vaccines"],
+    relatedSlugs: ["the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-part-d-part-b-vaccines", "what-to-do-if-your-medicare-plan-suddenly-drops-a-drug-or-doctor"],
   },
   {
     slug: 'medicare-guaranteed-issue',
@@ -1381,7 +1381,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'Can I use the MPFS to dispute a bill?', answer: 'If a provider charges more than the Medicare limiting charge, you can dispute the bill. Contact your Medicare Administrative Contractor (MAC) or call 1-800-MEDICARE for assistance.' },
       ]},
     ],
-    relatedSlugs: ["finding-local-doctors-who-accept-medicare", "understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-whats-covered-app", "care-compare-tool", "is-medicare-mandatory", "medicare-braces-devices"],
+    relatedSlugs: ["finding-local-doctors-who-accept-medicare", "understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-whats-covered-app", "care-compare-tool", "is-medicare-mandatory", "medicare-braces-devices", "who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules"],
   },
   {
     slug: 'switch-medicare-advantage-to-medicare-supplement',

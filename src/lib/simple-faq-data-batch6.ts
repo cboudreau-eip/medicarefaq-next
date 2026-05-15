@@ -83,7 +83,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         { question: 'Are Medigap premiums tax-deductible?', answer: 'Medigap premiums may be deductible as a medical expense if you itemize deductions and your total unreimbursed medical expenses exceed 7.5% of your adjusted gross income. Consult a tax advisor for guidance specific to your situation.' },
       ]},
     ],
-    relatedSlugs: ['medicare-supplement-open-enrollment', 'medicare-plan-g-reviews'],
+    relatedSlugs: ['medicare-supplement-open-enrollment', 'medicare-plan-g-reviews', "what-to-know-about-medicare-at-64"],
   },
   {
     slug: 'medicare-cover-dialysis-treatments',
@@ -124,7 +124,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         { question: 'Does Medicare cover dialysis supplies for home dialysis?', answer: 'Yes. Medicare Part B covers dialysis supplies and equipment for home dialysis, including the dialysis machine, supplies, and the training you and a caregiver need to perform dialysis at home.' },
       ]},
     ],
-    relatedSlugs: ['medicare-for-dummies', 'medicare-eligibility', 'does-medicare-cover-home-health-care', "how-is-medicare-funded", "medicare-history"],
+    relatedSlugs: ['medicare-for-dummies', 'medicare-eligibility', 'does-medicare-cover-home-health-care', "how-is-medicare-funded", "medicare-history", "when-is-medicare-primary"],
   },
   {
     slug: 'medicare-plan-g-reviews',

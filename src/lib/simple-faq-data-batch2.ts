@@ -1899,7 +1899,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "25-medicare-qas-you-should-know", "how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days"],
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "25-medicare-qas-you-should-know", "how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days", "when-can-i-change-my-medicare-supplement-plan"],
   },
 
   {
