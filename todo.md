@@ -190,6 +190,6 @@
 - [ ] Build AI-powered Medicare Assistant chat widget (Phase 1 - no logging)
 
 ## Global Content Width Standard
-- [ ] Audit content widths across all page types (landing pages, FAQ articles, blog posts, standalone pages)
-- [ ] Establish a single global max-width standard for content areas
-- [ ] Fix all pages to use the consistent width standard
+- [x] Audit content widths across all page types (landing pages, FAQ articles, blog posts, standalone pages)
+- [x] Establish a single global max-width standard for content areas
+- [x] Fix all pages to use the consistent width standard

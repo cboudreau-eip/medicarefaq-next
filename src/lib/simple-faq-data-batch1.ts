@@ -833,7 +833,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'Is there a SEP for people who were incarcerated?', answer: 'Yes. Individuals who are released from incarceration have a 2-month SEP to enroll in a Medicare Advantage plan or Part D plan. This SEP applies regardless of how long the incarceration lasted.' },
       ]},
     ],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "checklist-preparing-for-medicare-enrollment-in-2026"],
   },
   {
     slug: 'medicare-8-minute-rule',
@@ -1714,5 +1714,5 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'What if I turn 65 but am not yet receiving Social Security?', answer: 'You will need to actively apply for Medicare. You can apply online at ssa.gov, by phone at 1-800-772-1213, or in person at a Social Security office. Apply 3 months before your birthday month to ensure timely coverage.' },
       ]},
     ],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-general-enrollment-period", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-general-enrollment-period", "medicare-annual-enrollment-period", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "checklist-preparing-for-medicare-enrollment-in-2026"],
   }];

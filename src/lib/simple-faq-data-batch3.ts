@@ -386,7 +386,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: "Can I Have Both Employer Coverage and Medicare at the Same Time?", answer: "Yes. If you [work past 65](/enrollment/working-past-65) at a company with 20+ employees, your employer plan is typically primary and Medicare is secondary. Many people enroll in premium-free Part A while keeping their employer plan, then add Part B when they retire." }
       ]}
     ],
-    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-does-medicare-start", "medicare-enrollment-checklist", "turning-65-these-are-the-most-common-medicare-questions-answered"],
+    relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-starter-guide-what-to-do-in-your-first-90-days", "when-does-medicare-start", "medicare-enrollment-checklist", "turning-65-these-are-the-most-common-medicare-questions-answered", "checklist-preparing-for-medicare-enrollment-in-2026"],
   },
   {
     slug: 'medicare-supplement-plans-medigap-pricing-methods',
@@ -574,7 +574,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: 'Can I be denied a Medigap plan because of my health?', answer: 'Outside of your Medigap Open Enrollment Period and guaranteed issue rights, insurers can use medical underwriting and may deny coverage or charge higher premiums based on pre-existing conditions. This is one reason to enroll when you first become eligible.' },
       ]},
     ],
-    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplements-cost-vs-value-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan"],
+    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "medicare-supplements-cost-vs-value-explained", "how-medigap-plans-affect-your-overall-medicare-costs", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "25-medicare-qas-you-should-know"],
   },
   {
     slug: 'who-can-speak-on-your-behalf-medicare-and-power-of-attorney-rules',

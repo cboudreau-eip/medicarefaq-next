@@ -696,7 +696,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
+    relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "can-my-employer-pay-my-medicare-premiums"],
   },
   // does-medicare-cover-cologuard moved to coverage-data.ts
   {
@@ -1510,7 +1510,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         { question: 'Can my spouse deduct Medicare premiums paid on my behalf?', answer: 'Yes. If you file a joint return, medical expenses paid for either spouse can be combined and applied toward the 7.5% AGI threshold.' },
       ]},
     ],
-    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-supplements-cost-vs-value-explained", "medicare-costs-2025", "average-cost-of-medicare-supplement-plans", "medicare-agents-near-me"],
+    relatedSlugs: ["understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-supplements-cost-vs-value-explained", "medicare-costs-2025", "average-cost-of-medicare-supplement-plans", "medicare-agents-near-me", "can-my-employer-pay-my-medicare-premiums"],
   },
   {
     slug: 'travel-insurance-for-seniors-with-medicare',
@@ -1899,7 +1899,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n"],
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "25-medicare-qas-you-should-know"],
   },
 
   {
