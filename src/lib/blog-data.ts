@@ -20,6 +20,20 @@ export interface ArticleSection {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "finding-your-best-medigap-plan",
+    title: "Best Medigap Plan for 2026: How to Choose the Right Medicare Supplement",
+    excerpt:
+      "Choosing the best Medigap plan comes down to understanding your health needs, your budget, and how different plans are structured. This article walks you through Plan G, Plan N, enrollment timing, and carrier comparison.",
+    category: "Medicare Supplement",
+    categoryColor: "#4F46E5",
+    date: "May 15, 2026",
+    author: "David Haass",
+    reviewer: "Ashlee Zareczny",
+    readTime: "11 min read",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
+  },
+  {
     slug: "medicare-part-b-annual-deductible-explained-what-youll-pay",
     title: "Medicare Part B Annual Deductible Explained: What You'll Pay",
     excerpt:

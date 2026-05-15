@@ -71,7 +71,7 @@
 - [x] Rebuild /faqs index page — Option A: all 250 articles with category filter pills
 - [x] Fix orphaned non-FAQ pages (mutual-of-omaha, role-of-a-caregiver, MA plan types) — fixed broken links + added internal links from mega menu, footer, library, MA landing page
 - [x] Update relatedSlugs to point more links at 167 orphaned FAQ articles (reduced to 13 remaining — 95.7% coverage)
-- [ ] Consolidate 18 FAQ categories into 6-7 parent groups for cleaner filter pills
+- [x] Consolidate 20 FAQ categories into 6 parent groups for cleaner filter dropdown
 - [x] Rewrite /faqs/applying-for-medicare with comprehensive content and 5+ internal links
 - [x] Fix broken relatedSlugs cross-references: observation-vs-inpatient and skilled-nursing-vs-custodial-care are blog posts linked as /faqs/
 - [x] Upgrade SimpleFAQ template to support rich section types (tables, callouts, lists, FAQs)
@@ -193,3 +193,6 @@
 - [x] Audit content widths across all page types (landing pages, FAQ articles, blog posts, standalone pages)
 - [x] Establish a single global max-width standard for content areas
 - [x] Fix all pages to use the consistent width standard
+
+## New Blog Post
+- [ ] Create blog/finding-your-best-medigap-plan blog post from provided content
