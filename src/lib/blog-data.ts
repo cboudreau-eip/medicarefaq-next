@@ -20,6 +20,20 @@ export interface ArticleSection {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "medicare-at-65-month-by-month-timeline",
+    title: "Medicare at 65: A Month-by-Month Timeline of What to Do and When",
+    excerpt:
+      "Turning 65 triggers a cascade of Medicare decisions — each with its own deadline. This month-by-month timeline tells you exactly what to do and when, from 12 months before your birthday through your first year of coverage.",
+    category: "Enrollment",
+    categoryColor: "#F59E0B",
+    date: "May 15, 2026",
+    author: "David Haass",
+    reviewer: "Ashlee Zareczny",
+    readTime: "12 min read",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&h=500&fit=crop",
+  },
+  {
     slug: "finding-your-best-medigap-plan",
     title: "Best Medigap Plan for 2026: How to Choose the Right Medicare Supplement",
     excerpt:
