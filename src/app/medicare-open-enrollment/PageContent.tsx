@@ -101,7 +101,7 @@ export default function PageContent() {
           <div className="absolute top-20 left-10 w-72 h-72 bg-amber-400 rounded-full blur-3xl" />
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-teal-400 rounded-full blur-3xl" />
         </div>
-        <div className="max-w-7xl mx-auto px-4 relative z-10">
+        <div className="container relative z-10">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-slate-400 mb-6" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -146,7 +146,7 @@ export default function PageContent() {
       </section>
 
       {/* Stat Cards */}
-      <section className="max-w-7xl mx-auto px-4 -mt-8 relative z-20 mb-8">
+      <section className="container -mt-8 relative z-20 mb-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             { value: "Oct 15 \u2013 Dec 7", label: "Annual Enrollment Period" },
@@ -164,7 +164,7 @@ export default function PageContent() {
 
       {/* Main Content */}
       <section className="py-10">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="container">
           <div className="flex flex-col-reverse lg:flex-row-reverse gap-10">
             {/* Sidebar */}
             <aside className="hidden lg:block lg:w-64 shrink-0">

@@ -312,7 +312,7 @@ export default function PageContent() {
       </section>
 
       <section className="py-8 px-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="container max-w-4xl">
           <h2 className="text-xl font-bold text-[#1B2A4A] mb-4">Related Resources</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             <a href="/medicare-plans/best-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">

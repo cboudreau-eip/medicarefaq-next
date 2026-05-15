@@ -180,7 +180,7 @@ export default function AboutTeam() {  useEffect(() => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="container max-w-4xl grid md:grid-cols-3 gap-6">
             {leadership.map((person, i) => (
               <div key={i} className="bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-md transition-all">
                 <div className="w-16 h-16 bg-gradient-to-br from-indigo-100 to-violet-100 rounded-full flex items-center justify-center mb-4 mx-auto">

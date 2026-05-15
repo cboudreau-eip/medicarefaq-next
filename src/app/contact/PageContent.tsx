@@ -467,7 +467,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
               Before You Reach Out
             </h2>
           </div>
-          <div className="grid md:grid-cols-2 gap-5 max-w-4xl mx-auto">
+          <div className="container max-w-4xl grid md:grid-cols-2 gap-5">
             {[
               {
                 q: "Is there a cost for your services?",

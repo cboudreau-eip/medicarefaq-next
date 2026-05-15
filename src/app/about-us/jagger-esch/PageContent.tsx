@@ -12,7 +12,7 @@ export default function PageContent() {
     <main className="flex-1">
         {/* Hero */}
         <section className="bg-[#1B3A6B] text-white py-12 px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="container max-w-4xl">
             <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
               <Link href="/" className="hover:text-white">Home</Link>
               <span>/</span>
@@ -37,7 +37,7 @@ export default function PageContent() {
           </div>
         </section>
 
-        <div className="max-w-4xl mx-auto px-4 py-10">
+        <div className="container max-w-4xl py-10">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Main Bio */}
             <div className="lg:col-span-2 space-y-6">

@@ -58,7 +58,7 @@ export default function PageContent() {
     <main className="flex-1">
         {/* Hero */}
         <section className="bg-[#1B3A6B] text-white py-12 px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="container max-w-5xl">
             <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
               <Link href="/" className="hover:text-white">Home</Link>
               <span>/</span>
@@ -80,7 +80,7 @@ export default function PageContent() {
 
         {/* Contact Bar */}
         <section className="bg-teal-600 text-white py-4 px-4">
-          <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-6 text-sm">
+          <div className="container max-w-5xl flex flex-col sm:flex-row items-center justify-center gap-6 text-sm">
             <div className="flex items-center gap-2">
               <Phone size={16} />
               <span className="font-semibold">Call Us: 1-800-555-1234</span>
@@ -96,7 +96,7 @@ export default function PageContent() {
           </div>
         </section>
 
-        <div className="max-w-5xl mx-auto px-4 py-10">
+        <div className="container max-w-5xl py-10">
           {/* Services */}
           <section className="mb-12">
             <h2 className="text-xl font-bold text-[#1B3A6B] mb-6">How We Help You</h2>

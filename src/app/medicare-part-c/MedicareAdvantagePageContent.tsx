@@ -24,7 +24,7 @@ export default function MedicareAdvantagePageContent({ page, slug }: { page: Med
     <>
       {/* Hero */}
       <section className="bg-[#1B3A5C] text-white py-12 px-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="container max-w-5xl">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-1 text-sm text-blue-200 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -79,7 +79,7 @@ export default function MedicareAdvantagePageContent({ page, slug }: { page: Med
 
       {/* Main Content */}
       <main className="flex-1 py-12 px-4">
-        <div className="max-w-5xl mx-auto flex flex-row-reverse gap-8">
+        <div className="container max-w-5xl flex flex-row-reverse gap-8">
           {/* Table of Contents */}
           <aside className="hidden lg:block w-56 flex-shrink-0">
             <div className="sticky top-28 bg-gray-50 rounded-xl border border-gray-200 p-5">

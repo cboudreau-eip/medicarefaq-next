@@ -85,7 +85,7 @@ export default function PageContent() {
     <main className="flex-1">
         {/* Hero */}
         <section className="bg-[#1B3A6B] text-white py-12 px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="container max-w-5xl">
             <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
               <Link href="/" className="hover:text-white">Home</Link>
               <span>/</span>
@@ -107,7 +107,7 @@ export default function PageContent() {
 
         {/* Stats */}
         <section className="bg-gray-50 border-b border-gray-200 py-8 px-4">
-          <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="container max-w-5xl grid grid-cols-2 md:grid-cols-4 gap-6">
             {stats.map((stat, i) => {
               const Icon = stat.icon;
               return (
@@ -122,7 +122,7 @@ export default function PageContent() {
         </section>
 
         {/* Testimonials Grid */}
-        <div className="max-w-5xl mx-auto px-4 py-10">
+        <div className="container max-w-5xl py-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
             {testimonials.map((t, i) => (
               <div key={i} className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow">

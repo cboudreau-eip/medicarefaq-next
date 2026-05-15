@@ -622,7 +622,7 @@ export default function About() {  return (
 
         {/* CTA */}
         <section className="bg-[#C41230] py-14">
-          <div className="max-w-4xl mx-auto px-4 text-center">
+          <div className="container max-w-4xl text-center">
             <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
               Ready to Find the Right Medicare Plan?
             </h2>

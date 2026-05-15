@@ -136,7 +136,7 @@ return (
 <main className="flex-1">
         {/* Hero */}
         <section className="bg-[#1B3A6B] text-white py-10 px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="container max-w-5xl">
             <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
               <Link href="/" className="hover:text-white">Home</Link>
               <span>/</span>
@@ -155,7 +155,7 @@ return (
         </section>
 
         {/* Sitemap Grid */}
-        <div className="max-w-5xl mx-auto px-4 py-10">
+        <div className="container max-w-5xl py-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sitemapSections.map((section, si) => (
               <div key={si}>

@@ -152,7 +152,7 @@ export default function PageContent() {
           <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" style={{ fontFamily: "'Merriweather', serif" }}>
             Top Medigap Plans Ranked
           </h2>
-          <div className="space-y-6 max-w-4xl mx-auto mb-16">
+          <div className="container max-w-4xl space-y-6 mb-16">
             {topPlans.map((plan) => (
               <div key={plan.rank} className={`rounded-2xl border-2 ${plan.color} overflow-hidden`}>
                 <div className="p-6 md:p-8">
@@ -212,7 +212,7 @@ export default function PageContent() {
           <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" style={{ fontFamily: "'Merriweather', serif" }}>
             Benefits Comparison Table
           </h2>
-          <div className="overflow-x-auto rounded-xl border border-slate-200 mb-16 max-w-4xl mx-auto">
+          <div className="container max-w-4xl overflow-x-auto rounded-xl border border-slate-200 mb-16">
             <table className="w-full text-sm">
               <thead className="bg-slate-800 text-white">
                 <tr>

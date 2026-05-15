@@ -119,7 +119,7 @@ export default function MedicareEnrollmentPeriods() {
 
       {/* Hero */}
       <section className="bg-[#1B2A4A] text-white py-12 px-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="container max-w-5xl">
           <nav className="text-sm text-blue-200 mb-4">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>
@@ -134,7 +134,7 @@ export default function MedicareEnrollmentPeriods() {
         </div>
       </section>
 
-      <div className="max-w-5xl mx-auto px-4 py-10">
+      <div className="container max-w-5xl py-10">
 
         {/* Enrollment Period Cards */}
         <section className="mb-10">

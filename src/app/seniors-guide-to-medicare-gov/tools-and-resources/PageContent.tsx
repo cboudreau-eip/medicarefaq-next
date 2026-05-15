@@ -91,7 +91,7 @@ return (
 <main className="flex-1">
         {/* Hero */}
         <section className="bg-[#1B3A6B] text-white py-12 px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="container max-w-4xl">
             <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
               <Link href="/" className="hover:text-white">Home</Link>
               <span>/</span>
@@ -113,7 +113,7 @@ return (
           </div>
         </section>
 
-        <div className="max-w-4xl mx-auto px-4 py-10">
+        <div className="container max-w-4xl py-10">
           {/* Intro */}
           <p className="text-gray-700 text-lg leading-relaxed mb-8 border-l-4 border-teal-500 pl-4">
             Medicare.gov is the official U.S. government website for Medicare information. It offers free tools that can help you compare plans, review your coverage, check your claims, and find local assistance. Here is a guide to the most important tools available.

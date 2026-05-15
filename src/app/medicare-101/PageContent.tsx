@@ -348,7 +348,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
         </section>
 
         {/* Content with Sidebar */}
-        <div className="max-w-7xl mx-auto px-4 py-16 lg:py-24">
+        <div className="container py-16 lg:py-24">
           <div className="flex gap-12 lg:gap-16 justify-center">
             {/* Sticky Table of Contents — Desktop (right side) */}
             <aside className="hidden xl:block w-64 shrink-0 order-last">

@@ -108,7 +108,7 @@ export default function DesignSystemPage() {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="bg-navy text-white py-12 px-6">
-        <div className="max-w-5xl mx-auto">
+        <div className="container max-w-5xl">
           <div className="inline-flex items-center gap-2 text-teal text-sm font-semibold uppercase tracking-widest mb-3">
             <span className="w-6 h-px bg-teal inline-block" />
             Living Style Guide
@@ -134,7 +134,7 @@ export default function DesignSystemPage() {
       </header>
 
       {/* Main content */}
-      <main className="max-w-5xl mx-auto px-6 py-12">
+      <main className="container max-w-5xl px-6 py-12">
 
         {/* ── Colors ── */}
         <Section title="Colors" id="colors">

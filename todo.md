@@ -62,10 +62,10 @@
 - [x] Set logo.png as site favicon (favicon.ico, apple-touch-icon)
 
 ## UI Adjustments
-- [ ] Reduce mega menu dropdown height — tighten padding/spacing (~20-30% reduction) starting with Medicare Plans
-- [ ] Apply mega menu height reduction globally to all menus
-- [ ] Make mega menu dropdown not full-width — constrain to content container width, centered under nav
-- [ ] Fix journey button subtitle readability — stack text with full white subtitle and subtle divider (Option C)
+- [x] Reduce mega menu dropdown height — tighten padding/spacing (~20-30% reduction) starting with Medicare Plans
+- [x] Apply mega menu height reduction globally to all menus
+- [x] Make mega menu dropdown not full-width — constrain to content container width, centered under nav
+- [x] Fix journey button subtitle readability — stack text with full white subtitle and subtle divider (Option C)
 
 ## Orphan Page Fixes
 - [x] Rebuild /faqs index page — Option A: all 250 articles with category filter pills
@@ -188,3 +188,8 @@
 - [x] Fix hardcoded BASE_URL in /api/articles/[slug]/route.ts
 - [x] Add origin check and tighter payload validation to /api/heatmap/track
 - [ ] Build AI-powered Medicare Assistant chat widget (Phase 1 - no logging)
+
+## Global Content Width Standard
+- [ ] Audit content widths across all page types (landing pages, FAQ articles, blog posts, standalone pages)
+- [ ] Establish a single global max-width standard for content areas
+- [ ] Fix all pages to use the consistent width standard

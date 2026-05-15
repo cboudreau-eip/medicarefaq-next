@@ -62,7 +62,7 @@ export default function PageContent() {
     <main className="flex-1">
       {/* Hero */}
       <section className="bg-[#1B3A6B] text-white py-14 px-4">
-        <div className="max-w-5xl mx-auto">
+        <div className="container max-w-5xl">
           <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
             <Link href="/" className="hover:text-white">Home</Link>
             <span>/</span>
@@ -94,7 +94,7 @@ export default function PageContent() {
 
       {/* Quick Stats */}
       <section className="bg-blue-50 border-b border-blue-100 py-6 px-4">
-        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="container max-w-5xl grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             { label: "2026 Deductible", value: "$1,736", sub: "per benefit period" },
             { label: "Premium-Free If", value: "40 Quarters", sub: "of Medicare taxes paid" },
@@ -111,7 +111,7 @@ export default function PageContent() {
       </section>
 
       {/* Main Content */}
-      <div className="max-w-5xl mx-auto px-4 py-12 flex flex-row-reverse gap-10">
+      <div className="container max-w-5xl py-12 flex flex-row-reverse gap-10">
         <aside className="hidden lg:block w-56 shrink-0">
           <div className="sticky top-28 bg-gray-50 rounded-xl p-4 border border-gray-200">
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">On This Page</p>
