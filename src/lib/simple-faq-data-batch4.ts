@@ -584,7 +584,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["medicare-special-enrollment-periods", "medicare-annual-enrollment-period", "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know", "medicare-advantage-vs-medicare-supplement", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
+    relatedSlugs: ["medicare-special-enrollment-periods", "medicare-annual-enrollment-period", "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know", "medicare-advantage-vs-medicare-supplement", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "medicare-part-d-part-b-vaccines"],
   },
   {
     slug: 'medicare-covered-alternatives-to-knee-replacement',

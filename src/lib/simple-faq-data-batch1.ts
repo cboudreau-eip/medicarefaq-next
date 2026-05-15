@@ -48,7 +48,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'What is the difference between QMB and other Medicare Savings Programs?', answer: 'QMB is the most comprehensive MSP. The other three programs (SLMB, QI, and QDWI) cover fewer costs, primarily limited to Part B premiums.' },
       ]},
     ],
-    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program", "qualified-health-plans-medicare", "report-medicare-fraud", "is-medicare-mandatory", "medicare-braces-devices"],
+    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program", "qualified-health-plans-medicare", "report-medicare-fraud", "is-medicare-mandatory", "medicare-braces-devices", "medicare-history"],
   },
   {
     slug: 'medicare-extra-help-program',
@@ -750,7 +750,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary", "how-can-seniors-save-on-prescription-drug-costs", "medicare-extra-help-program", "mapd-vs-part-d"],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "why-some-drugs-are-covered-under-part-b-instead-of-part-d", "part-d-formulary", "how-can-seniors-save-on-prescription-drug-costs", "medicare-extra-help-program", "mapd-vs-part-d", "medicare-covered-alternatives-to-knee-replacement"],
   },
   {
     slug: 'medicare-special-enrollment-periods',
@@ -1246,7 +1246,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'What if I never take prescription drugs? Do I still need Part D?', answer: 'Enrolling in a low-premium Part D plan is generally advisable even if you take no medications. The cost of a $0 or low-premium plan is usually far less than the penalty you would owe if you needed to enroll later.' },
       ]},
     ],
-    relatedSlugs: ["the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "new-in-2025-medicares-part-d-payment-plan-explained"],
+    relatedSlugs: ["the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "how-is-medicare-part-d-changing-in-2026", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-part-d-part-b-vaccines"],
   },
   {
     slug: 'medicare-guaranteed-issue',

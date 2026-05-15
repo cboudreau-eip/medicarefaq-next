@@ -2029,7 +2029,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["medicare-advantage-for-chronic-conditions-what-you-need-to-know", "does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-physical-therapy", "medicare-preventive-services"],
+    relatedSlugs: ["medicare-advantage-for-chronic-conditions-what-you-need-to-know", "does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-physical-therapy", "medicare-preventive-services", "medicare-covered-alternatives-to-knee-replacement"],
   },
   {
     slug: 'medicare-and-workers-comp',
@@ -2069,7 +2069,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         { question: 'Do I need an attorney for a workers\u2019 comp settlement involving Medicare?', answer: 'It is strongly recommended. An attorney experienced in Medicare Secondary Payer rules can help ensure conditional payments are properly identified and that any MSA arrangement is structured correctly to protect your future Medicare benefits.' },
       ]},
     ],
-    relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working", "is-medicare-mandatory", "medicare-cover-dialysis-treatments"],
+    relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working", "is-medicare-mandatory", "medicare-cover-dialysis-treatments", "medicare-history"],
   },
   {
     slug: 'mapd-vs-part-d',
@@ -2113,7 +2113,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         { question: 'Are formularies the same for PDPs and MAPDs?', answer: 'No. Each plan has its own formulary (list of covered drugs) and tier structure. Always check that your specific medications are covered at an acceptable cost tier before enrolling in any plan.' },
       ]},
     ],
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-parts-a-b-c-and-d-explained-simply", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-parts-a-b-c-and-d-explained-simply", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "medicare-part-d-part-b-vaccines"],
   },
   {
     slug: 'medicare-forms',

@@ -122,7 +122,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers dental implants and more.",
     },
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-chiropractic-care", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors", "dental-and-vision-insurance-for-seniors", "medicare-paperless-billing", "all-in-one-medicare-plan", "ambulance-and-medicare-coverage", "average-cost-of-medicare-advantage", "can-you-get-medicare-without-receiving-social-security-benefits", "coverage-gap-discount-program", "delay-medicare", "differences-between-medicare-and-social-security", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "do-i-really-need-supplemental-insurance-with-medicare", "does-medicare-cover-a-biopsy", "does-medicare-cover-alzheimers-care", "does-medicare-cover-an-echocardiogram", "does-medicare-cover-asthma-inhalers", "does-medicare-cover-atrial-fibrillation", "does-medicare-cover-atrial-fibrillation-afib", "does-medicare-cover-bathroom-safety-devices", "does-medicare-cover-botox", "does-medicare-cover-cataract-surgery", "does-medicare-cover-cologuard", "does-medicare-cover-copd", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-eye-exams", "does-medicare-cover-glasses", "does-medicare-cover-wegovy", "extra-help-low-income-subsidy", "fehb-and-medicare", "medicare-appeals-process", "medicare-benefits", "medicare-changes", "medicare-coverage-for-diabetic-shoes"],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-chiropractic-care", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors", "dental-and-vision-insurance-for-seniors", "medicare-paperless-billing", "all-in-one-medicare-plan", "ambulance-and-medicare-coverage", "average-cost-of-medicare-advantage", "can-you-get-medicare-without-receiving-social-security-benefits", "coverage-gap-discount-program", "delay-medicare", "differences-between-medicare-and-social-security", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "do-i-really-need-supplemental-insurance-with-medicare", "does-medicare-cover-a-biopsy", "does-medicare-cover-alzheimers-care", "does-medicare-cover-an-echocardiogram", "does-medicare-cover-asthma-inhalers", "does-medicare-cover-atrial-fibrillation", "does-medicare-cover-atrial-fibrillation-afib", "does-medicare-cover-bathroom-safety-devices", "does-medicare-cover-botox", "does-medicare-cover-cataract-surgery", "does-medicare-cover-cologuard", "does-medicare-cover-copd", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-eye-exams", "does-medicare-cover-glasses", "does-medicare-cover-wegovy", "extra-help-low-income-subsidy", "fehb-and-medicare", "medicare-appeals-process", "medicare-benefits", "medicare-changes", "medicare-coverage-for-diabetic-shoes", "medicare-coverage-for-hearing-aids", "medicare-diabetes", "medicare-give-back-benefit"],
   },
   {
     slug: "does-medicare-cover-glasses",
@@ -671,7 +671,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers sleep apnea and more.",
     },
-    relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "medicare-parts-a-b-c-and-d-explained-simply", "hsa-and-medicare"],
+    relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "medicare-parts-a-b-c-and-d-explained-simply", "hsa-and-medicare", "medicare-low-income-subsidy"],
   },
   {
     slug: "does-medicare-cover-cataract-surgery",
@@ -765,7 +765,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers cataract surgery - medicare cataract surgery and more.",
     },
-    relatedSlugs: ["does-medicare-cover-glasses", "medicare-vision-care-coverage", "medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-macular-degeneration", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-gender-reassignment-surgery", "hsa-and-medicare", "illinois-birthday-rule", "manufacturers-coupons-and-medicare", "medicare-coverage-for-bariatric-surgery"],
+    relatedSlugs: ["does-medicare-cover-glasses", "medicare-vision-care-coverage", "medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-macular-degeneration", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-gender-reassignment-surgery", "hsa-and-medicare", "illinois-birthday-rule", "manufacturers-coupons-and-medicare", "medicare-coverage-for-bariatric-surgery", "medicare-coverage-for-plastic-surgery", "medicare-low-income-subsidy"],
   },
   {
     slug: "does-medicare-cover-hospice",
@@ -862,7 +862,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers hospice and palliative care and more.",
     },
-    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-calendar-year-and-benefit-periods", "medicare-8-minute-rule", "medicare-visiting-angels", "does-medicare-cover-speech-therapy", "does-medicare-cover-glasses", "does-medicare-cover-glaucoma", "does-medicare-cover-hepatitis-c-screening", "eliquis-cost-with-medicare", "manufacturers-coupons-and-medicare", "married-divorced-widowed-how-relationship-status-affects-medicare", "medicare-and-divorce", "medicare-and-employer-coverage", "medicare-cost-sharing-plans"],
+    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-calendar-year-and-benefit-periods", "medicare-8-minute-rule", "medicare-visiting-angels", "does-medicare-cover-speech-therapy", "does-medicare-cover-glasses", "does-medicare-cover-glaucoma", "does-medicare-cover-hepatitis-c-screening", "eliquis-cost-with-medicare", "manufacturers-coupons-and-medicare", "married-divorced-widowed-how-relationship-status-affects-medicare", "medicare-and-divorce", "medicare-and-employer-coverage", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "medicare-coverage-for-hearing-aids"],
   },
   {
     slug: "does-medicare-cover-dentures",
@@ -1051,7 +1051,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers medicare mental health coverage: what you need to know in 2026 and more.",
     },
-    relatedSlugs: ["medicare-coverage-for-alcohol-misuse", "medicare-preventive-services", "will-medicare-cover-my-surgery", "what-is-medicare", "does-medicare-cover-alzheimers-care", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-smoking-cessation-treatments", "what-std-treatments-and-services-does-medicare-cover", "does-medicare-cover-hepatitis-c-screening", "medicare-gym-membership", "medicare-part-d-part-b-vaccines", "medicare-coverage-for-cancer", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-speech-therapy", "does-medicare-cover-gender-reassignment-surgery", "does-medicare-cover-leqembi", "does-medicare-cover-life-alert", "medicare-and-divorce", "medicare-coverage-erectile-dysfunction"],
+    relatedSlugs: ["medicare-coverage-for-alcohol-misuse", "medicare-preventive-services", "will-medicare-cover-my-surgery", "what-is-medicare", "does-medicare-cover-alzheimers-care", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-smoking-cessation-treatments", "what-std-treatments-and-services-does-medicare-cover", "does-medicare-cover-hepatitis-c-screening", "medicare-gym-membership", "medicare-part-d-part-b-vaccines", "medicare-coverage-for-cancer", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-speech-therapy", "does-medicare-cover-gender-reassignment-surgery", "does-medicare-cover-leqembi", "does-medicare-cover-life-alert", "medicare-and-divorce", "medicare-coverage-erectile-dysfunction", "medicare-coverage-for-incontinence-supplies"],
   },
   {
     slug: "does-medicare-cover-ozempic",
@@ -1155,7 +1155,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers ozempic 2026 guide to costs, coverage, and savings and more.",
     },
-    relatedSlugs: ["medicare-diabetes", "does-medicare-cover-wegovy", "part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "what-is-a-medicare-part-d-formulary", "medicare-coverage-for-blood-pressure-monitors", "medicare-diabetes", "does-medicare-cover-chiropractic-care", "medicare-part-d-six-protected-classes", "does-medicare-cover-a-nutritionist", "durable-medical-equipment", "eliquis-cost-with-medicare", "medicare-part-d-part-b-vaccines", "manufacturers-coupons-and-medicare", "medicare-and-mail-order-prescriptions", "medicare-coverage-for-diabetic-shoes", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-ozempic", "does-medicare-cover-diabetic-supplies", "does-medicare-cover-meals-on-wheels", "does-medicare-cover-mental-health", "does-medicare-cover-ostomy-supplies", "medicare-cost-sharing-plans"],
+    relatedSlugs: ["medicare-diabetes", "does-medicare-cover-wegovy", "part-d-formulary", "how-is-medicare-part-d-changing-in-2026", "what-is-a-medicare-part-d-formulary", "medicare-coverage-for-blood-pressure-monitors", "medicare-diabetes", "does-medicare-cover-chiropractic-care", "medicare-part-d-six-protected-classes", "does-medicare-cover-a-nutritionist", "durable-medical-equipment", "eliquis-cost-with-medicare", "medicare-part-d-part-b-vaccines", "manufacturers-coupons-and-medicare", "medicare-and-mail-order-prescriptions", "medicare-coverage-for-diabetic-shoes", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-ozempic", "does-medicare-cover-diabetic-supplies", "does-medicare-cover-meals-on-wheels", "does-medicare-cover-mental-health", "does-medicare-cover-ostomy-supplies", "medicare-cost-sharing-plans", "medicare-coverage-for-incontinence-supplies", "medicare-part-b-give-back-plan"],
   },
   {
     slug: "does-medicare-cover-speech-therapy",
@@ -1244,7 +1244,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers speech therapy and more.",
     },
-    relatedSlugs: ["medicare-coverage-for-stroke-victims", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-physical-therapy", "does-medicare-cover-copd"],
+    relatedSlugs: ["medicare-coverage-for-stroke-victims", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-physical-therapy", "does-medicare-cover-copd", "medicare-coverage-for-oxygen-therapy"],
   },
   {
     slug: "does-medicare-cover-copd",
@@ -1431,7 +1431,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers pre-existing health conditions and more.",
     },
-    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan", "medicare-coverage-for-my-children", "medicare-gym-membership", "medicare-physician-fee-schedule-lookup-tool", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-pre-existing-conditions", "native-american-health-and-medicare", "does-medicare-cover-ozempic", "does-medicare-cover-podiatry", "eliquis-cost-with-medicare", "five-surprising-facts-about-medigap-you-didnt-know", "medicare-and-retiree-insurance", "medicare-coverage-erectile-dysfunction"],
+    relatedSlugs: ["medicare-supplement-and-pre-existing-conditions-what-you-need-to-know", "medicare-supplement-plans-and-pre-existing-conditions", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-you-be-denied-a-medicare-supplement-plan", "medicare-coverage-for-my-children", "medicare-gym-membership", "medicare-physician-fee-schedule-lookup-tool", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-pre-existing-conditions", "native-american-health-and-medicare", "does-medicare-cover-ozempic", "does-medicare-cover-podiatry", "eliquis-cost-with-medicare", "five-surprising-facts-about-medigap-you-didnt-know", "medicare-and-retiree-insurance", "medicare-coverage-erectile-dysfunction", "medicare-forms"],
   },
   {
     slug: "does-medicare-cover-prosthetic-devices",
@@ -1696,7 +1696,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Ready to Explore Your Medicare Options?",
       text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
     },
-    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "medicare-calendar-year-and-benefit-periods", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible", "medicare-part-b-excess-charges", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f", "what-to-know-about-medicare-at-64", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-creditable-coverage", "medicare-and-va-benefits", "is-medicare-mandatory", "can-my-employer-pay-my-medicare-premiums", "does-medicare-cover-podiatry", "does-medicare-cover-prosthetic-devices", "does-medicare-cover-robotic-surgery", "does-medicare-cover-root-canals", "extra-help-low-income-subsidy", "five-surprising-facts-about-medigap-you-didnt-know", "medicare-and-retiree-insurance", "medicare-braces-devices"],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "medicare-and-employer-coverage", "is-medicare-free", "new-medicare-changes", "medicare-silversneakers-program", "medicare-annual-notice-of-change-letter", "medicare-give-back-benefit", "why-medicare-advantage-plans-are-bad", "medicare-part-d-penalty", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-telehealth", "medicare-coverage-erectile-dysfunction", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "your-medicare-rights-and-protections", "medical-rides", "medicare-gym-membership", "medigap-birthday-rule", "medicare-calendar-year-and-benefit-periods", "can-i-cancel-medicare-advantage-plan", "medicare-physician-fee-schedule-lookup-tool", "medicare-part-b-give-back-plan", "switch-medicare-advantage-to-medicare-supplement", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-cobra", "medicare-supplemental-insurance-tax-deductible", "medicare-part-b-excess-charges", "medigap-plan-popularity-why-plan-g-dominates-and-whats-happening-to-plan-f", "what-to-know-about-medicare-at-64", "part-b-excess-charges-medicare-overcharge-measure", "what-is-medicare-creditable-coverage", "medicare-and-va-benefits", "is-medicare-mandatory", "can-my-employer-pay-my-medicare-premiums", "does-medicare-cover-podiatry", "does-medicare-cover-prosthetic-devices", "does-medicare-cover-robotic-surgery", "does-medicare-cover-root-canals", "extra-help-low-income-subsidy", "five-surprising-facts-about-medigap-you-didnt-know", "medicare-and-retiree-insurance", "medicare-braces-devices", "medicare-coverage-for-lift-chairs", "medicare-forms", "medicare-part-d-explained"],
   },
   {
     slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
@@ -2005,7 +2005,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Compare Medicare Supplement Plans in Your Area",
       text: "Our licensed agents can help you compare Medicare Supplement and Medicare Advantage options to find the best fit for your needs.",
     },
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage", "why-medicare-advantage-plans-are-bad", "does-medicare-cover-root-canals", "maryland-medicare-supplement-birthday-rule", "medicare-coverage-for-alcohol-misuse"],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "medigap-vs-medicare-advantage", "why-medicare-advantage-plans-are-bad", "does-medicare-cover-root-canals", "maryland-medicare-supplement-birthday-rule", "medicare-coverage-for-alcohol-misuse", "medicare-coverage-for-lift-chairs"],
   },
   {
     slug: "medicare-supplement-vs-medicare-advantage-for-veterans-choosing-the-right-coverage",
@@ -3107,7 +3107,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "does-medicare-cover-root-canals", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another"],
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "does-medicare-cover-root-canals", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "medicare-part-b-give-back-plan"],
   },
   {
     slug: "does-medicare-cover-a-shower-transfer-bench",
@@ -3939,7 +3939,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Comparing Your Medicare Options?",
       text: "Our licensed, independent Medicare agents work across multiple carriers and can help you choose coverage that fits both your health and your budget.",
     },
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medigap-vs-medicare-advantage", "medicare-advantage-denied-claims-crisis", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-speech-therapy", "does-medicare-cover-telehealth", "maryland-medicare-supplement-birthday-rule", "medicare-advantage-benefits"],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "medigap-vs-medicare-advantage", "medicare-advantage-denied-claims-crisis", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-speech-therapy", "does-medicare-cover-telehealth", "maryland-medicare-supplement-birthday-rule", "medicare-advantage-benefits", "medicare-part-b-give-back-plan", "medicare-part-d-explained"],
   },
 
   {
@@ -4760,7 +4760,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["what-is-medicare-creditable-coverage", "medicare-and-employer-coverage", "medicare-cobra", "when-should-you-enroll-in-medicare-if-still-working", "does-medicare-cover-urinary-catheters", "medicare-coverage-for-alcohol-misuse"],
+    relatedSlugs: ["what-is-medicare-creditable-coverage", "medicare-and-employer-coverage", "medicare-cobra", "when-should-you-enroll-in-medicare-if-still-working", "does-medicare-cover-urinary-catheters", "medicare-coverage-for-alcohol-misuse", "medicare-coverage-for-lift-chairs"],
   },
   {
     slug: "medicare-part-d-penalty",
@@ -5585,7 +5585,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Biopsy Coverage?",
       text: "Our licensed Medicare agents can help you find a plan that minimizes your out-of-pocket costs for biopsies and other medical procedures. Compare plans in your area for free.",
     },
-    relatedSlugs: ["medicare-coverage-for-cancer", "what-does-medically-necessary-mean", "will-medicare-cover-my-surgery", "medicare-preventive-services", "medicare-coverage-for-stem-cell-treatments", "does-medicare-cover-robotic-surgery", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-knee-replacement", "medicare-coverage-for-smoking-cessation-treatments", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-cologuard", "does-medicare-cover-gender-reassignment-surgery"],
+    relatedSlugs: ["medicare-coverage-for-cancer", "what-does-medically-necessary-mean", "will-medicare-cover-my-surgery", "medicare-preventive-services", "medicare-coverage-for-stem-cell-treatments", "does-medicare-cover-robotic-surgery", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-knee-replacement", "medicare-coverage-for-smoking-cessation-treatments", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-cologuard", "does-medicare-cover-gender-reassignment-surgery", "medicare-coverage-for-plastic-surgery"],
   },
 
   // ─── Does Medicare Cover an Echocardiogram ──────────────────────────────────
@@ -5809,7 +5809,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Covering Your Cardiac Care Costs?",
       text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for echocardiograms and other heart tests. Compare plans in your area for free.",
     },
-    relatedSlugs: ["does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "what-is-a-medicare-supplement-plan-and-who-needs-one", "does-medicare-cover-end-stage-renal-disease"],
+    relatedSlugs: ["does-medicare-cover-atrial-fibrillation-afib", "medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "what-is-a-medicare-supplement-plan-and-who-needs-one", "does-medicare-cover-end-stage-renal-disease", "medicare-coverage-for-lung-transplants"],
   },
 
   // ─── Does Medicare Cover Anesthesia ──────────────────────────────────────────
@@ -6050,7 +6050,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Concerned about Anesthesia Costs?",
       text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for anesthesia and surgical procedures. Compare plans in your area for free.",
     },
-    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-cataract-surgery", "medicare-coverage-for-colonoscopy-screenings", "does-medicare-cover-a-biopsy", "does-medicare-cover-gender-reassignment-surgery", "medicare-coverage-for-alcohol-misuse"],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-cataract-surgery", "medicare-coverage-for-colonoscopy-screenings", "does-medicare-cover-a-biopsy", "does-medicare-cover-gender-reassignment-surgery", "medicare-coverage-for-alcohol-misuse", "medicare-coverage-for-lung-transplants"],
   },
 
   // ─── Does Medicare Cover Asthma Inhalers ───────────────────────────────────────
@@ -6289,7 +6289,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Finding the Right Part D Plan for Your Inhalers?",
       text: "Our licensed Medicare agents can help you compare Part D plans to find the best coverage and lowest costs for your asthma medications. Compare plans in your area for free.",
     },
-    relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "part-d-formulary", "medicare-part-d-late-enrollment-penalty"],
+    relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "part-d-formulary", "medicare-part-d-late-enrollment-penalty", "medicare-part-d-explained"],
   },
   {
     slug: "does-medicare-cover-atrial-fibrillation-afib",
@@ -7128,7 +7128,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-hormone-therapy-for-menopause",
       "medicare-coverage-for-plastic-surgery",
       "will-medicare-cover-my-surgery",
-      "medicare-supplement-plans-medigap-pricing-methods", "does-medicare-cover-gender-reassignment-surgery", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als"],
+      "medicare-supplement-plans-medigap-pricing-methods", "does-medicare-cover-gender-reassignment-surgery", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "medicare-coverage-for-oxygen-therapy"],
   },
   {
     slug: "does-medicare-cover-hormone-therapy-for-menopause",
@@ -7528,7 +7528,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Worried about Leqembi Costs?",
       text: "A Medigap plan can cover the 20% Part B coinsurance for Leqembi, potentially saving you thousands per year. Our licensed agents can help you compare plans in your area for free.",
     },
-    relatedSlugs: ["does-medicare-cover-alzheimers-care", "what-is-medicare-part-b", "plan-g", "does-medicare-cover-memory-care", "does-medicare-cover-leqembi"],
+    relatedSlugs: ["does-medicare-cover-alzheimers-care", "what-is-medicare-part-b", "plan-g", "does-medicare-cover-memory-care", "does-medicare-cover-leqembi", "medicare-part-d-penalty"],
   },
 
   // ─── Does Medicare Cover Macular Degeneration ───────────────────────────────
@@ -8131,7 +8131,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Want a Medicare Plan that Covers More?",
       text: "Some Medicare Advantage plans include medical alert systems, dental, vision, and other benefits that Original Medicare doesn't cover. Our licensed agents can help you compare plans in your area for free.",
     },
-    relatedSlugs: ["does-medicare-cover-durable-medical-equipment", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-life-alert", "medical-rides", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als"],
+    relatedSlugs: ["does-medicare-cover-durable-medical-equipment", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-life-alert", "medical-rides", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "medicare-coverage-for-lung-transplants"],
   },
 
   // ─── Does Medicare Cover Medical Nutritional Therapy ────────────────────────
@@ -8768,7 +8768,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Questions about Medicare Eligibility?",
       text: "Our licensed Medicare agents can help you understand eligibility rules for yourself and your family members, and find the right coverage options for your situation.",
     },
-    relatedSlugs: ["does-medicare-cover-end-stage-renal-disease", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "what-dental-expenses-does-medicare-cover", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "home-safety-assessment-for-the-elderly", "medicare-coverage-for-blood-pressure-monitors"],
+    relatedSlugs: ["does-medicare-cover-end-stage-renal-disease", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "what-dental-expenses-does-medicare-cover", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "home-safety-assessment-for-the-elderly", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-my-children"],
   },
   {
     slug: "medicare-coverage-for-mammograms",
@@ -8910,7 +8910,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Want $0 Cost for All Your Preventive Care?",
       text: "A Medicare Supplement or Medicare Advantage plan can eliminate or reduce your out-of-pocket costs for diagnostic mammograms and other medical services. Our licensed agents can help you compare options.",
     },
-    relatedSlugs: ["medicare-coverage-for-cancer", "what-is-medicare-part-b", "plan-g", "does-medicare-cover-a-biopsy", "medicare-coverage-for-blood-pressure-monitors"],
+    relatedSlugs: ["medicare-coverage-for-cancer", "what-is-medicare-part-b", "plan-g", "does-medicare-cover-a-biopsy", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-my-children"],
   },
   {
     slug: "medicare-coverage-for-compression-socks",
@@ -9055,7 +9055,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Coverage for More Medical Supplies?",
       text: "Some Medicare Advantage plans offer enhanced benefits for medical supplies and equipment. Our licensed agents can help you compare plans in your area.",
     },
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-ostomy-supplies", "medicare-coverage-for-incontinence-supplies"],
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-ostomy-supplies", "medicare-coverage-for-incontinence-supplies", "medicare-coverage-for-pacemakers"],
   },
 
 // BATCH 6: Skilled Nursing Facilities, Stem Cell Treatments, Botox, Cancer, Bariatric Surgery
@@ -9248,7 +9248,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Worried about Skilled Nursing Facility Costs?",
       text: "A Medigap Plan G can eliminate your skilled nursing facility coinsurance for days 21–100, saving you up to $16,760 per benefit period. Compare plans in your area today.",
     },
-    relatedSlugs: ["does-medicare-cover-hospice", "medicare-coverage-for-physical-therapy", "plan-g", "what-does-medicare-part-a-cover", "does-medicare-cover-knee-replacement", "medicare-coverage-for-skilled-nursing-facilities", "medicare-8-minute-rule", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-hormone-therapy-for-menopause", "medicare-coverage-for-blood-pressure-monitors"],
+    relatedSlugs: ["does-medicare-cover-hospice", "medicare-coverage-for-physical-therapy", "plan-g", "what-does-medicare-part-a-cover", "does-medicare-cover-knee-replacement", "medicare-coverage-for-skilled-nursing-facilities", "medicare-8-minute-rule", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-hormone-therapy-for-menopause", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-oxygen-therapy", "medicare-part-d-penalty"],
   },
 
   {
@@ -10000,7 +10000,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Planning Bariatric Surgery?",
       text: "A Medigap Plan G can reduce your out-of-pocket bariatric surgery cost to just $240. Compare plans in your area today.",
     },
-    relatedSlugs: ["will-medicare-cover-my-surgery", "plan-g", "does-medicare-cover-anesthesia", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-robotic-surgery"],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "plan-g", "does-medicare-cover-anesthesia", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-robotic-surgery", "medicare-coverage-for-pacemakers"],
   },
 
   // ── Ambulance ──────────────────────────────────────────────────────────────
@@ -10202,7 +10202,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Worried about Ambulance Bills?",
       text: "A Medigap Plan G can eliminate your 20% coinsurance for ambulance services — including air ambulance. Compare plans in your area today.",
     },
-    relatedSlugs: ["will-medicare-cover-my-surgery", "what-is-medicare-part-b", "plan-g", "medicare-coverage-for-stroke-victims", "medicare-coverage-for-botox-treatments"],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "what-is-medicare-part-b", "plan-g", "medicare-coverage-for-stroke-victims", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-pacemakers"],
   },
 
   // ── Robotic Surgery ────────────────────────────────────────────────────────
@@ -11067,7 +11067,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Paying out of Pocket for Wegovy?",
       text: "Compare Medicare Part D plans to find the best formulary for your medications. A plan with better drug coverage could save you thousands per year.",
     },
-    relatedSlugs: ["does-medicare-cover-ozempic", "what-is-medicare-part-d", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-hormone-therapy-for-menopause"],
+    relatedSlugs: ["does-medicare-cover-ozempic", "what-is-medicare-part-d", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-hormone-therapy-for-menopause", "medicare-part-d-penalty"],
   },
 
 // ─── Does Medicare Cover Ostomy Supplies ────────────────────────────────────
@@ -12293,7 +12293,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Finding Medicare Coverage for Home Safety Equipment?",
       text: "Our licensed Medicare agents can help you find a Medicare Advantage plan with OTC or home safety benefits that may cover bathroom safety devices. Compare plans in your area for free.",
     },
-    relatedSlugs: ["durable-medical-equipment", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-lift-chairs", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-prosthetic-devices", "home-safety-assessment-for-the-elderly", "medicare-coverage-for-cancer"],
+    relatedSlugs: ["durable-medical-equipment", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-lift-chairs", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-prosthetic-devices", "home-safety-assessment-for-the-elderly", "medicare-coverage-for-cancer", "medicare-coverage-for-prostate-specific-antigen-psa-test"],
   },
 
   // ─── Medicare Coverage for Blood Pressure Monitors ──────────────────────────
@@ -12486,7 +12486,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Managing Hypertension Costs with Medicare?",
       text: "Our licensed Medicare agents can help you find a Medicare Advantage or Part D plan that covers your blood pressure medications and provides OTC benefits for home monitoring. Compare plans in your area for free.",
     },
-    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "does-medicare-cover-atrial-fibrillation", "what-is-the-medicare-annual-wellness-visit", "medicare-advantage-extra-benefits-explained-whats-really-included"],
+    relatedSlugs: ["medicare-coverage-for-cardiovascular-disease", "does-medicare-cover-atrial-fibrillation", "what-is-the-medicare-annual-wellness-visit", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-prostate-specific-antigen-psa-test"],
   },
 
   // ─── Medicare Coverage for Cardiovascular Disease ───────────────────────────
@@ -13112,7 +13112,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Covering Your Dermatology Costs?",
       text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for dermatology and other specialist services. Compare plans in your area for free.",
     },
-    relatedSlugs: ["medicare-coverage-for-cancer", "does-medicare-cover-a-biopsy", "medicare-coverage-for-botox-treatments", "plan-g", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-botox-treatments"],
+    relatedSlugs: ["medicare-coverage-for-cancer", "does-medicare-cover-a-biopsy", "medicare-coverage-for-botox-treatments", "plan-g", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-botox-treatments", "medicare-coverage-for-prostate-specific-antigen-psa-test"],
   },
 
 
@@ -13728,7 +13728,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Covering Your Hip Treatment Costs?",
       text: "Our licensed Medicare agents can help you find a Medigap plan that covers your Part A deductible and Part B coinsurance for hip injections and hip replacement surgery. Compare plans in your area for free.",
     },
-    relatedSlugs: ["medicare-coverage-for-physical-therapy", "will-medicare-cover-my-surgery", "does-medicare-cover-knee-replacement", "plan-g", "medicare-coverage-for-cardiovascular-disease"],
+    relatedSlugs: ["medicare-coverage-for-physical-therapy", "will-medicare-cover-my-surgery", "does-medicare-cover-knee-replacement", "plan-g", "medicare-coverage-for-cardiovascular-disease", "medicare-coverage-for-smoking-cessation-treatments", "medicare-covered-alternatives-to-knee-replacement"],
   },
 
   // ─── Medicare Coverage for In-Home Caregivers ──────────────────────────────
@@ -14294,7 +14294,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Finding Pain Management Coverage?",
       text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that covers your pain management treatments. Compare plans in your area for free.",
     },
-    relatedSlugs: ["medicare-coverage-for-physical-therapy", "does-medicare-cover-chiropractic-care", "medicare-coverage-for-hip-injections", "will-medicare-cover-my-surgery", "medicare-coverage-for-botox-treatments", "does-medicare-cover-acupuncture", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "medicare-coverage-for-cardiovascular-disease"],
+    relatedSlugs: ["medicare-coverage-for-physical-therapy", "does-medicare-cover-chiropractic-care", "medicare-coverage-for-hip-injections", "will-medicare-cover-my-surgery", "medicare-coverage-for-botox-treatments", "does-medicare-cover-acupuncture", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "medicare-coverage-for-cardiovascular-disease", "medicare-coverage-for-smoking-cessation-treatments"],
   },
   {
     slug: "medicare-coverage-for-lung-transplants",
@@ -17086,7 +17086,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Want More Vision Coverage?",
       text: "Many Medicare Advantage plans include routine vision benefits not available under Original Medicare. Our licensed agents can help you compare plans in your area at no cost.",
     },
-    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-diabetic-supplies", "medicare-advantage", "medicare-part-d", "medicare-advantage-denied-claims-crisis"],
+    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-diabetic-supplies", "medicare-advantage", "medicare-part-d", "medicare-advantage-denied-claims-crisis", "medicare-part-d-six-protected-classes"],
   },
   {
     slug: "does-medicare-cover-home-health-care",
@@ -19576,7 +19576,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Transitioning from Employer Coverage to Medicare?",
       text: "Our licensed Medicare agents can help you navigate the transition and find the right coverage without gaps or penalties.",
     },
-    relatedSlugs: ["transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "when-should-you-enroll-in-medicare-if-still-working", "understanding-how-medicare-works-with-employer-health-plans", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-and-employer-coverage", "medicare-coverage-for-dermatology"],
+    relatedSlugs: ["transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "when-should-you-enroll-in-medicare-if-still-working", "understanding-how-medicare-works-with-employer-health-plans", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "medicare-and-employer-coverage", "medicare-coverage-for-dermatology", "medicare-coverage-for-stem-cell-treatments"],
   },
   {
     slug: "hsa-and-medicare",
@@ -19956,7 +19956,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Want to Reduce Your Part B Premium?",
       text: "Our licensed Medicare agents can help you find Giveback plans in your area or determine if you qualify for a Medicare Savings Program — at no cost to you.",
     },
-    relatedSlugs: ["irmaa", "medicare-costs-2026", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-savings-programs"],
+    relatedSlugs: ["irmaa", "medicare-costs-2026", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-savings-programs", "medicare-part-d-six-protected-classes"],
   },
   {
     slug: "advance-beneficiary-notice",
@@ -24277,7 +24277,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Vision Coverage with Medicare?",
       text: "Our licensed agents can help you find Medicare Advantage plans with vision benefits or standalone vision plans in your area.",
     },
-    relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "does-medicare-cover-macular-degeneration", "medicare-and-vision-dental-and-hearing-what-are-your-options", "six-protected-classes", "does-medicare-cover-memory-care", "medicare-coverage-for-dermatology"],
+    relatedSlugs: ["does-medicare-cover-glasses", "does-medicare-cover-cataract-surgery", "does-medicare-cover-macular-degeneration", "medicare-and-vision-dental-and-hearing-what-are-your-options", "six-protected-classes", "does-medicare-cover-memory-care", "medicare-coverage-for-dermatology", "medicare-coverage-for-stem-cell-treatments"],
   },
   /* ─── MANUFACTURERS COUPONS AND MEDICARE ─── */
   {
@@ -24530,7 +24530,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Want to Lower Your Prescription Drug Costs?",
       text: "Our licensed agents can help you find the right Part D plan and identify savings programs like Extra Help.",
     },
-    relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "coverage-gap-discount-program", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "medicare-coverage-for-dermatology"],
+    relatedSlugs: ["how-can-seniors-save-on-prescription-drug-costs", "coverage-gap-discount-program", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "medicare-coverage-for-dermatology", "medicare-coverage-for-stroke-victims"],
   },
   {
     slug: "medicare-part-b-give-back-plan",
@@ -28785,7 +28785,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "mapd-vs-part-d",
       "why-some-drugs-are-covered-under-part-b-instead-of-part-d",
       "new-in-2025-medicares-part-d-payment-plan-explained",
-      "six-protected-classes"],
+      "six-protected-classes", "medicare-part-d-six-protected-classes"],
   },
 
   {
@@ -30065,5 +30065,5 @@ export const coverageArticles: CoverageArticleData[] = [
       "extra-help-low-income-subsidy",
       "medicare-annual-enrollment-period",
       "how-can-seniors-save-on-prescription-drug-costs",
-      "medicare-part-d"],
+      "medicare-part-d", "medicare-low-income-subsidy"],
   }];

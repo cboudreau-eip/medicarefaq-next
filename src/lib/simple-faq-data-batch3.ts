@@ -60,7 +60,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: 'What if my doctor recommends a preventive service that Medicare does not cover?', answer: 'You will be responsible for the cost. Ask your provider in advance whether a recommended service is covered by Medicare as preventive. You can also check the Medicare coverage tool at medicare.gov.' },
       ]},
     ],
-    relatedSlugs: ["medicare-annual-wellness-visit", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-colonoscopy-screenings", "medicare-coverage-for-mammograms", "how-is-medicare-funded", "medicare-cover-dialysis-treatments"],
+    relatedSlugs: ["medicare-annual-wellness-visit", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-colonoscopy-screenings", "medicare-coverage-for-mammograms", "how-is-medicare-funded", "medicare-cover-dialysis-treatments", "medicare-physician-fee-schedule-lookup-tool"],
   },
   {
     slug: 'qualified-health-plans-medicare',
@@ -842,7 +842,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: 'Can I get a knee brace covered by Medicare Advantage?', answer: 'Yes. Medicare Advantage plans must cover all services that Original Medicare covers, including medically necessary knee braces. Your cost-sharing (copay or coinsurance) may differ from Original Medicare, so check your plan\'s Summary of Benefits.' },
       ]},
     ],
-    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-medical-alert-systems"],
+    relatedSlugs: ["durable-medical-equipment", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-medical-alert-systems", "medicare-physician-fee-schedule-lookup-tool"],
   },
   {
     slug: 'what-does-medically-necessary-mean',
@@ -1069,5 +1069,5 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
               'Medigap plans cover cost-sharing for services that Original Medicare approves. If Medicare denies a service as not medically necessary, Medigap will not cover it either, since Medigap only pays after Medicare pays its portion.',
           }],
       }],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-prior-authorization", "advance-beneficiary-notice", "how-is-medicare-funded", "medicare-cobra"],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-prior-authorization", "advance-beneficiary-notice", "how-is-medicare-funded", "medicare-cobra", "medicare-physician-fee-schedule-lookup-tool"],
   }];
