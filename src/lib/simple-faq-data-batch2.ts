@@ -696,7 +696,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "can-my-employer-pay-my-medicare-premiums", "is-medicare-free"],
+    relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "can-my-employer-pay-my-medicare-premiums", "is-medicare-free", "medicare-cobra"],
   },
   // does-medicare-cover-cologuard moved to coverage-data.ts
   {
@@ -1696,7 +1696,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "moving-to-another-state-with-medicare", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplements-cost-vs-value-explained", "does-medicare-cover-hearing-aids"],
+    relatedSlugs: ["what-happens-to-your-medicare-when-you-move-states", "moving-to-another-state-with-medicare", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplements-cost-vs-value-explained", "does-medicare-cover-hearing-aids", "medicare-and-retiree-insurance"],
   },
   // does-medicare-cover-a-biopsy moved to coverage-data.ts (CoverageArticleContent format)
   {
@@ -2069,7 +2069,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         { question: 'Do I need an attorney for a workers\u2019 comp settlement involving Medicare?', answer: 'It is strongly recommended. An attorney experienced in Medicare Secondary Payer rules can help ensure conditional payments are properly identified and that any MSA arrangement is structured correctly to protect your future Medicare benefits.' },
       ]},
     ],
-    relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working", "is-medicare-mandatory"],
+    relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working", "is-medicare-mandatory", "medicare-cover-dialysis-treatments"],
   },
   {
     slug: 'mapd-vs-part-d',
@@ -2113,7 +2113,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         { question: 'Are formularies the same for PDPs and MAPDs?', answer: 'No. Each plan has its own formulary (list of covered drugs) and tier structure. Always check that your specific medications are covered at an acceptable cost tier before enrolling in any plan.' },
       ]},
     ],
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-parts-a-b-c-and-d-explained-simply", "part-d-formulary"],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-parts-a-b-c-and-d-explained-simply", "part-d-formulary", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
   },
   {
     slug: 'medicare-forms',

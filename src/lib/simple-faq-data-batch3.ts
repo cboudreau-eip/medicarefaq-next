@@ -60,7 +60,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: 'What if my doctor recommends a preventive service that Medicare does not cover?', answer: 'You will be responsible for the cost. Ask your provider in advance whether a recommended service is covered by Medicare as preventive. You can also check the Medicare coverage tool at medicare.gov.' },
       ]},
     ],
-    relatedSlugs: ["medicare-annual-wellness-visit", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-colonoscopy-screenings", "medicare-coverage-for-mammograms", "how-is-medicare-funded"],
+    relatedSlugs: ["medicare-annual-wellness-visit", "welcome-to-medicare-preventative-visit", "medicare-coverage-for-colonoscopy-screenings", "medicare-coverage-for-mammograms", "how-is-medicare-funded", "medicare-cover-dialysis-treatments"],
   },
   {
     slug: 'qualified-health-plans-medicare',
@@ -156,7 +156,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: 'Does Medicare become mandatory at a certain age?', answer: 'No. There is no age at which Medicare enrollment becomes legally required. However, the financial penalties for delaying enrollment without qualifying coverage make it effectively mandatory for most people at 65.' },
       ]},
     ],
-    relatedSlugs: ["applying-for-medicare", "when-should-you-enroll-in-medicare-if-still-working", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
+    relatedSlugs: ["applying-for-medicare", "when-should-you-enroll-in-medicare-if-still-working", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-cover-dialysis-treatments"],
   },
   {
     slug: 'medicare-paperless-billing',
@@ -1069,5 +1069,5 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
               'Medigap plans cover cost-sharing for services that Original Medicare approves. If Medicare denies a service as not medically necessary, Medigap will not cover it either, since Medigap only pays after Medicare pays its portion.',
           }],
       }],
-    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-prior-authorization", "advance-beneficiary-notice", "how-is-medicare-funded"],
+    relatedSlugs: ["will-medicare-cover-my-surgery", "does-medicare-cover-anesthesia", "medicare-prior-authorization", "advance-beneficiary-notice", "how-is-medicare-funded", "medicare-cobra"],
   }];
