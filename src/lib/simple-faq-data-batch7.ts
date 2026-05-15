@@ -142,7 +142,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       "advance-beneficiary-notice",
       "medicare-coverage-for-skilled-nursing-facilities",
       "does-medicare-cover-home-health-care",
-      "medicare-supplement-plans-medigap-pricing-methods"],
+      "medicare-supplement-plans-medigap-pricing-methods", "is-medicare-free"],
   },
   {
     slug: "part-b-excess-charges-medicare-overcharge-measure",
@@ -382,5 +382,5 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       "medicare-coverage-for-skilled-nursing-facilities",
       "medicare-supplement-plans-medigap-pricing-methods",
       "does-medicare-cover-skilled-nursing",
-      "your-medicare-rights-and-protections", "does-medicare-cover-diabetic-supplies"],
+      "your-medicare-rights-and-protections", "does-medicare-cover-diabetic-supplies", "does-medicare-cover-varicose-veins"],
   }];

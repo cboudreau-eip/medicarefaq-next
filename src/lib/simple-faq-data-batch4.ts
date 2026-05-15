@@ -973,7 +973,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ['choosing-a-medigap-policy', 'what-is-the-best-medicare-supplement-plan', 'medicare-advantage-vs-medicare-supplement', 'average-cost-of-medicare-supplement-plans', 'medicare-supplement-open-enrollment', "25-medicare-qas-you-should-know"],
+    relatedSlugs: ['choosing-a-medigap-policy', 'what-is-the-best-medicare-supplement-plan', 'medicare-advantage-vs-medicare-supplement', 'average-cost-of-medicare-supplement-plans', 'medicare-supplement-open-enrollment', "25-medicare-qas-you-should-know", "how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days"],
   },
   // does-medicare-cover-gender-reassignment-surgery moved to coverage-data.ts
   {

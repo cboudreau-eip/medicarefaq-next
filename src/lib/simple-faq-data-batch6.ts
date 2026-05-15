@@ -124,7 +124,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
         { question: 'Does Medicare cover dialysis supplies for home dialysis?', answer: 'Yes. Medicare Part B covers dialysis supplies and equipment for home dialysis, including the dialysis machine, supplies, and the training you and a caregiver need to perform dialysis at home.' },
       ]},
     ],
-    relatedSlugs: ['medicare-for-dummies', 'medicare-eligibility', 'does-medicare-cover-home-health-care'],
+    relatedSlugs: ['medicare-for-dummies', 'medicare-eligibility', 'does-medicare-cover-home-health-care', "how-is-medicare-funded"],
   },
   {
     slug: 'medicare-plan-g-reviews',

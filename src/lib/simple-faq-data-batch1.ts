@@ -48,7 +48,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'What is the difference between QMB and other Medicare Savings Programs?', answer: 'QMB is the most comprehensive MSP. The other three programs (SLMB, QI, and QDWI) cover fewer costs, primarily limited to Part B premiums.' },
       ]},
     ],
-    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program", "qualified-health-plans-medicare", "report-medicare-fraud"],
+    relatedSlugs: ["medicare-extra-help-program", "medicare-savings-programs", "irmaa", "medicaid-spend-down-program", "qualified-health-plans-medicare", "report-medicare-fraud", "is-medicare-mandatory"],
   },
   {
     slug: 'medicare-extra-help-program',
@@ -201,7 +201,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'Do I need a prescription for Medicare vaccine coverage?', answer: 'Part B vaccines generally do not require a prescription. Part D vaccines may require a prescription depending on the pharmacy and plan.' },
       ]},
     ],
-    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026"],
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026", "is-medicare-free"],
   },
   {
     slug: 'medicare-advantage-over-the-counter-cards',
@@ -1381,7 +1381,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'Can I use the MPFS to dispute a bill?', answer: 'If a provider charges more than the Medicare limiting charge, you can dispute the bill. Contact your Medicare Administrative Contractor (MAC) or call 1-800-MEDICARE for assistance.' },
       ]},
     ],
-    relatedSlugs: ["finding-local-doctors-who-accept-medicare", "understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-whats-covered-app", "care-compare-tool"],
+    relatedSlugs: ["finding-local-doctors-who-accept-medicare", "understanding-medicare-assignment-what-it-means-and-why-it-matters", "medicare-whats-covered-app", "care-compare-tool", "is-medicare-mandatory"],
   },
   {
     slug: 'switch-medicare-advantage-to-medicare-supplement',

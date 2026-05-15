@@ -696,7 +696,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "can-my-employer-pay-my-medicare-premiums"],
+    relatedSlugs: ["irmaa", "reduce-medicare-premiums", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-costs-2025", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "can-my-employer-pay-my-medicare-premiums", "is-medicare-free"],
   },
   // does-medicare-cover-cologuard moved to coverage-data.ts
   {
@@ -1899,7 +1899,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "25-medicare-qas-you-should-know"],
+    relatedSlugs: ["10-questions-to-ask-before-buying-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-supplement-plan-f-vs-plan-g-vs-plan-n", "25-medicare-qas-you-should-know", "how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days"],
   },
 
   {
@@ -2069,7 +2069,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         { question: 'Do I need an attorney for a workers\u2019 comp settlement involving Medicare?', answer: 'It is strongly recommended. An attorney experienced in Medicare Secondary Payer rules can help ensure conditional payments are properly identified and that any MSA arrangement is structured correctly to protect your future Medicare benefits.' },
       ]},
     ],
-    relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working"],
+    relatedSlugs: ["medicare-secondary-insurance", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "understanding-how-medicare-works-with-employer-health-plans", "when-should-you-enroll-in-medicare-if-still-working", "is-medicare-mandatory"],
   },
   {
     slug: 'mapd-vs-part-d',
