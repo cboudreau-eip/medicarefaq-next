@@ -204,7 +204,7 @@ export interface SimpleFAQArticleData {
 /* ─── Blog Article Schema ─── */
 
 export interface BlogSectionContent {
-  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq";
+  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image";
   // For headings
   level?: 2 | 3;
   text?: string;
@@ -225,6 +225,10 @@ export interface BlogSectionContent {
   items?: string[];
   // For FAQ
   faqs?: FAQItemData[];
+  // For image
+  src?: string;
+  alt?: string;
+  caption?: string;
 }
 
 export interface BlogArticleData {

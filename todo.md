@@ -196,4 +196,4 @@
 
 ## New Blog Post
 - [x] Create blog/finding-your-best-medigap-plan blog post from provided content
-- [ ] Create blog/medicare-at-65-month-by-month-timeline blog post (~3000 words, strong internal linking)
+- [x] Create blog/medicare-at-65-month-by-month-timeline blog post (~3000 words, strong internal linking)

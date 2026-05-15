@@ -263,6 +263,22 @@ function renderSection(section: BlogSectionContent, idx: number) {
           ))}
         </div>
       );
+    case "image":
+      return section.src ? (
+        <figure key={idx} className="my-8">
+          <img
+            src={section.src}
+            alt={section.alt || ""}
+            className="w-full rounded-xl shadow-md border border-[#E5E7EB]"
+            loading="lazy"
+          />
+          {section.caption && (
+            <figcaption className="text-sm text-[#6B7280] text-center mt-3 italic">
+              {section.caption}
+            </figcaption>
+          )}
+        </figure>
+      ) : null;
     default:
       return null;
   }
