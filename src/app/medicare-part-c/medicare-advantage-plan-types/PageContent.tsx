@@ -13,7 +13,7 @@ const planTypes = [
   {
     id: "hmo",
     name: "HMO (Health Maintenance Organization)",
-    href: "/medicare-part-c/medicare-advantage-hmo-plans",
+    href: "/medicare-part-c/medicare-advantage-plan-hmo",
     tagline: "Lower costs, network restrictions",
     color: "border-teal-400 bg-teal-50",
     headerColor: "bg-teal-600",
@@ -33,7 +33,7 @@ const planTypes = [
   {
     id: "ppo",
     name: "PPO (Preferred Provider Organization)",
-    href: "/medicare-part-c/medicare-advantage-ppo-plans",
+    href: "/medicare-part-c/medicare-advantage-plan-ppo",
     tagline: "More flexibility, higher costs",
     color: "border-blue-400 bg-blue-50",
     headerColor: "bg-blue-600",
@@ -53,7 +53,7 @@ const planTypes = [
   {
     id: "pffs",
     name: "PFFS (Private Fee-for-Service)",
-    href: "/medicare-part-c/medicare-advantage-pffs-plans",
+    href: "/medicare-part-c/medicare-advantage-plan-pffs",
     tagline: "Flexible, but provider acceptance varies",
     color: "border-purple-400 bg-purple-50",
     headerColor: "bg-purple-600",
@@ -72,7 +72,7 @@ const planTypes = [
   {
     id: "snp",
     name: "SNP (Special Needs Plan)",
-    href: "/medicare-part-c/medicare-advantage-snp-plans",
+    href: "/medicare-part-c/medicare-advantage-plan-snp",
     tagline: "Tailored for specific health conditions",
     color: "border-amber-400 bg-amber-50",
     headerColor: "bg-amber-600",

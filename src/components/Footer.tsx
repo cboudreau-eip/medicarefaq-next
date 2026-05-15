@@ -66,6 +66,7 @@ const footerColumns = [
       { label: "Videos", href: "/videos" },
       { label: "FAQs", href: "/faqs" },
       { label: "Senior's Guide to Medicare", href: "/seniors-guide-to-medicare-gov/tools-and-resources" },
+      { label: "Caregiver Guide", href: "/guide-to-being-a-caregiver" },
       { label: "Client Care Team", href: "/client-care-team" },
       { label: "Testimonials", href: "/testimonials" },
       { label: "Partners", href: "/third-party-partners" },

@@ -134,6 +134,13 @@ const topicGuides = [
     href: "/enrollment/late-penalties",
     category: "Enrollment",
   },
+  {
+    title: "Guide to Being a Medicare Caregiver",
+    description: "Practical resources for family caregivers navigating Medicare benefits, enrollment, and home health services.",
+    icon: Heart,
+    href: "/guide-to-being-a-caregiver",
+    category: "Caregiving",
+  },
 ];
 
 export default function Guides() {  useEffect(() => {

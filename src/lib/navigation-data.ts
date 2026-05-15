@@ -149,6 +149,12 @@ export const navigationData: NavCategory[] = [
         description: "Plan F, G, and N compared with current rates.",
         href: "/medicare-plans/best-supplement-plans",
         cta: "See Rankings",
+      },
+      {
+        title: "Medicare Advantage Plan Types",
+        description: "HMO, PPO, PFFS, and SNP plans compared.",
+        href: "/medicare-part-c/medicare-advantage-plan-types",
+        cta: "Compare Types",
       }],
   },
   {
@@ -290,6 +296,12 @@ export const navigationData: NavCategory[] = [
         description: "Quick answers to common questions",
         icon: MessageCircle,
         href: "/faqs",
+      },
+      {
+        title: "Caregiver Guide",
+        description: "Resources for family Medicare caregivers",
+        icon: Heart,
+        href: "/guide-to-being-a-caregiver",
       },
       {
         title: "About Our Team",

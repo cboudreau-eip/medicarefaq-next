@@ -315,7 +315,12 @@ export default function PageContent() {
                 </div>
                 <p className="text-slate-600 text-sm mt-4">
                   For detailed information about each plan type and which might work best for your situation, visit our{" "}
-                  <Link href="/medicare-part-c/medicare-advantage-plan-types" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage plan types guide</Link>.
+                  <Link href="/medicare-part-c/medicare-advantage-plan-types" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage plan types guide</Link>,
+                  or explore individual plan types:{" "}
+                  <Link href="/medicare-part-c/medicare-advantage-plan-hmo" className="text-teal-700 underline hover:text-teal-900">HMO plans</Link>,{" "}
+                  <Link href="/medicare-part-c/medicare-advantage-plan-ppo" className="text-teal-700 underline hover:text-teal-900">PPO plans</Link>,{" "}
+                  <Link href="/medicare-part-c/medicare-advantage-plan-pffs" className="text-teal-700 underline hover:text-teal-900">PFFS plans</Link>, and{" "}
+                  <Link href="/medicare-part-c/medicare-advantage-plan-snp" className="text-teal-700 underline hover:text-teal-900">Special Needs Plans (SNP)</Link>.
                 </p>
               </section>
 
