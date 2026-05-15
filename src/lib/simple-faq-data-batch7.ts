@@ -382,5 +382,5 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       "medicare-coverage-for-skilled-nursing-facilities",
       "medicare-supplement-plans-medigap-pricing-methods",
       "does-medicare-cover-skilled-nursing",
-      "your-medicare-rights-and-protections"],
+      "your-medicare-rights-and-protections", "does-medicare-cover-diabetic-supplies"],
   }];

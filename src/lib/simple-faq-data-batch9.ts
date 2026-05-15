@@ -361,5 +361,5 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       "does-medicare-cover-hearing-aids",
       "does-medicare-cover-vision",
       "medicare-long-term-care",
-      "medicare-part-d"],
+      "medicare-part-d", "does-medicare-cover-end-stage-renal-disease"],
   }];
