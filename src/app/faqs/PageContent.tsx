@@ -79,7 +79,7 @@ const CATEGORY_GROUPS: {
     label: "Coverage",
     color: "#059669",
     icon: Shield,
-    matches: ["Medicare Coverage", "Coverage", "General Medicare", "Medicare FAQ"],
+    matches: ["Medicare Coverage", "Coverage", "General Medicare", "Medicare FAQ", "Coverage Q&A", "Medicare Basics", "Medicare Benefits"],
   },
   {
     label: "Plans & Supplements",
@@ -91,13 +91,13 @@ const CATEGORY_GROUPS: {
     label: "Enrollment",
     color: "#2563EB",
     icon: ClipboardList,
-    matches: ["Medicare Enrollment", "Enrollment"],
+    matches: ["Medicare Enrollment", "Enrollment", "Medicare Eligibility"],
   },
   {
     label: "Costs & Drugs",
     color: "#DC2626",
     icon: DollarSign,
-    matches: ["Prescription Drugs", "Medicare Part D", "Costs & Savings"],
+    matches: ["Prescription Drugs", "Medicare Part D", "Costs & Savings", "Medicare Costs"],
   },
   {
     label: "Dental, Vision & Hearing",
@@ -109,7 +109,7 @@ const CATEGORY_GROUPS: {
     label: "Special Situations",
     color: "#6B7280",
     icon: Accessibility,
-    matches: ["Medicaid & Assistance", "Medicare & Disability", "Medicare Part A", "Medicare Part B"],
+    matches: ["Medicaid & Assistance", "Medicare & Disability", "Medicare Part A", "Medicare Part B", "Medicare News"],
   },
 ];
 

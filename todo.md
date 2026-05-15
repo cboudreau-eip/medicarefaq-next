@@ -69,7 +69,7 @@
 
 ## Orphan Page Fixes
 - [x] Rebuild /faqs index page — Option A: all 250 articles with category filter pills
-- [ ] Fix orphaned non-FAQ pages (mutual-of-omaha, role-of-a-caregiver, MA plan types)
+- [x] Fix orphaned non-FAQ pages (mutual-of-omaha, role-of-a-caregiver, MA plan types) — fixed broken links + added internal links from mega menu, footer, library, MA landing page
 - [x] Update relatedSlugs to point more links at 167 orphaned FAQ articles (reduced to 13 remaining — 95.7% coverage)
 - [ ] Consolidate 18 FAQ categories into 6-7 parent groups for cleaner filter pills
 - [x] Rewrite /faqs/applying-for-medicare with comprehensive content and 5+ internal links
