@@ -757,7 +757,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ],
       },
     ],
-    relatedSlugs: ["does-medicare-cover-knee-replacement", "medicare-coverage-for-physical-therapy", "does-medicare-cover-acupuncture", "medicare-coverage-for-hip-injections", "does-medicare-cover-chiropractic-care", "medicare-coverage-for-lower-back-pain-management"],
+    relatedSlugs: ["does-medicare-cover-knee-replacement", "medicare-coverage-for-physical-therapy", "does-medicare-cover-acupuncture", "medicare-coverage-for-hip-injections", "does-medicare-cover-chiropractic-care", "medicare-coverage-for-lower-back-pain-management", "rheumatoid-arthritis-treatment-and-medicare-coverage"],
   },
   {
     slug: 'what-is-a-medicare-supplement-plan-and-who-needs-one',

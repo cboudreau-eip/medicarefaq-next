@@ -100,7 +100,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: 'What happens to my QHP if I have COBRA?', answer: 'COBRA is not considered employer-sponsored coverage for purposes of delaying Medicare. If you are on COBRA and become Medicare-eligible, you should enroll in Medicare during your IEP. COBRA does not protect you from late enrollment penalties.' },
       ]},
     ],
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-parts-a-b-c-and-d-explained-simply", "understanding-how-medicare-works-with-employer-health-plans", "medigap-vs-medicare-advantage"],
+    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-parts-a-b-c-and-d-explained-simply", "understanding-how-medicare-works-with-employer-health-plans", "medigap-vs-medicare-advantage", "native-american-health-and-medicare"],
   },
   {
     slug: 'is-medicare-mandatory',

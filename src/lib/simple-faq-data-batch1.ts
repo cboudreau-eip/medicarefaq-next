@@ -201,7 +201,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'Do I need a prescription for Medicare vaccine coverage?', answer: 'Part B vaccines generally do not require a prescription. Part D vaccines may require a prescription depending on the pharmacy and plan.' },
       ]},
     ],
-    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026", "is-medicare-free", "medicare-and-prescription-drugs-whats-covered-and-whats-not"],
+    relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-preventive-services", "how-is-medicare-part-d-changing-in-2026", "is-medicare-free", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-b-excess-charges-medicare-overcharge-measure"],
   },
   {
     slug: 'medicare-advantage-over-the-counter-cards',
@@ -1334,7 +1334,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         { question: 'What if my plan does not include SilverSneakers?', answer: 'You may still be able to join SilverSneakers by paying a monthly membership fee directly, or you can look for a Medicare Advantage plan that includes it during the Annual Enrollment Period (October 15 to December 7).' },
       ]},
     ],
-    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "5-government-benefits-for-seniors", "discounts-for-seniors", "does-medicare-offer-a-grocery-allowance"],
+    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "5-government-benefits-for-seniors", "discounts-for-seniors", "does-medicare-offer-a-grocery-allowance", "qualified-medicare-beneficiary-program"],
   },
   {
     slug: 'medicare-physician-fee-schedule-lookup-tool',
