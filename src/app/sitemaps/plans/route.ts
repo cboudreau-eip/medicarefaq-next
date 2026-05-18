@@ -38,7 +38,7 @@ export function GET() {
   // Medigap plan letter pages
   for (const plan of Object.values(MEDIGAP_PLANS)) {
     entries.push({
-      url: `${BASE_URL}/medicare-supplements/${plan.slug}`,
+      url: `${BASE_URL}/medicare-supplements/${plan.slug}/`,
       priority: "0.8",
       changefreq: "monthly",
     });
@@ -47,7 +47,7 @@ export function GET() {
   // Carrier pages
   for (const carrier of CARRIER_DATA) {
     entries.push({
-      url: `${BASE_URL}/medicare-supplements/medigap-by-carrier/${carrier.slug}`,
+      url: `${BASE_URL}/medicare-supplements/medigap-by-carrier/${carrier.slug}/`,
       priority: "0.7",
       changefreq: "monthly",
     });
@@ -56,7 +56,7 @@ export function GET() {
   // State pages
   for (const state of STATE_DATA) {
     entries.push({
-      url: `${BASE_URL}/medicare-supplements/medigap-by-state/${state.slug}`,
+      url: `${BASE_URL}/medicare-supplements/medigap-by-state/${state.slug}/`,
       priority: "0.7",
       changefreq: "monthly",
     });
@@ -65,7 +65,7 @@ export function GET() {
   // Medicare Advantage sub-pages
   for (const page of MEDICARE_ADVANTAGE_PAGES) {
     entries.push({
-      url: `${BASE_URL}/medicare-part-c/${page.slug}`,
+      url: `${BASE_URL}/medicare-part-c/${page.slug}/`,
       priority: "0.7",
       changefreq: "monthly",
     });
@@ -74,7 +74,7 @@ export function GET() {
   // Caregiver guide sub-pages
   for (const page of CAREGIVER_PAGES.filter((p) => p.slug !== "")) {
     entries.push({
-      url: `${BASE_URL}/guide-to-being-a-caregiver/${page.slug}`,
+      url: `${BASE_URL}/guide-to-being-a-caregiver/${page.slug}/`,
       priority: "0.6",
       changefreq: "monthly",
     });

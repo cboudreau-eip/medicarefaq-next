@@ -41,7 +41,7 @@ export function GET() {
   const uniqueCoverageSlugs = [...new Set(coverageArticles.map((a) => a.slug))];
   for (const slug of uniqueCoverageSlugs) {
     entries.push({
-      url: `${BASE_URL}/faqs/${slug}`,
+      url: `${BASE_URL}/faqs/${slug}/`,
       priority: "0.7",
       changefreq: "monthly",
     });
@@ -58,7 +58,7 @@ export function GET() {
   ];
   for (const article of allSimpleFAQs) {
     entries.push({
-      url: `${BASE_URL}/faqs/${article.slug}`,
+      url: `${BASE_URL}/faqs/${article.slug}/`,
       priority: "0.6",
       changefreq: "monthly",
     });

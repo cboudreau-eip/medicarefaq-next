@@ -31,22 +31,22 @@ ${urls}
 export function GET() {
   const entries: SitemapEntry[] = [
     // Original Medicare overview
-    { url: `${BASE_URL}/original-medicare`, priority: "0.8", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/`, priority: "0.8", changefreq: "monthly" },
     // Part A
-    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-a`, priority: "0.8", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-a/`, priority: "0.8", changefreq: "monthly" },
     // Part B
-    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-b`, priority: "0.8", changefreq: "monthly" },
-    { url: `${BASE_URL}/original-medicare/medicare-parts/apply-for-medicare-part-b`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-b/`, priority: "0.8", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-parts/apply-for-medicare-part-b/`, priority: "0.7", changefreq: "monthly" },
     // Part D index
-    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-d`, priority: "0.8", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-d/`, priority: "0.8", changefreq: "monthly" },
     // Part D — Mutual of Omaha (standalone page)
-    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha`, priority: "0.6", changefreq: "monthly" },
+    { url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha/`, priority: "0.6", changefreq: "monthly" },
   ];
 
   // Part D sub-pages (dynamic — exclude mutual-of-omaha which has its own static page)
   for (const page of partDSubPages.filter((p) => p.slug !== "mutual-of-omaha")) {
     entries.push({
-      url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-d/${page.slug}`,
+      url: `${BASE_URL}/original-medicare/medicare-parts/medicare-part-d/${page.slug}/`,
       priority: "0.7",
       changefreq: "monthly",
     });
