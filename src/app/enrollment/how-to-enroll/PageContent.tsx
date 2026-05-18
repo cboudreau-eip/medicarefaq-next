@@ -172,7 +172,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
             </aside>
 
             {/* Main Content */}
-            <div className="flex-1 min-w-0 max-w-3xl">
+            <div className="flex-1 min-w-0">
               {/* Overview */}
               <section id="overview" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
