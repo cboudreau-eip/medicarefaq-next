@@ -116,11 +116,11 @@
 - [x] Rewrite does-medicare-cover-urinary-catheters as CoverageArticle format
 - [x] Rewrite does-medicare-cover-varicose-veins as CoverageArticle format
 - [x] Rewrite does-medicare-cover-wegovy as CoverageArticle format
-- [ ] Rewrite does-medicare-cover-ostomy-supplies as CoverageArticle format
-- [ ] Rewrite does-medicare-cover-root-canals as CoverageArticle format
-- [ ] Rewrite medicare-coverage-erectile-dysfunction as CoverageArticle format
-- [ ] Rewrite medicare-coverage-for-alcohol-misuse as CoverageArticle format
-- [ ] Rewrite medicare-coverage-for-amyotrophic-lateral-sclerosis-als as CoverageArticle format
+- [x] Rewrite does-medicare-cover-ostomy-supplies as CoverageArticle format
+- [x] Rewrite does-medicare-cover-root-canals as CoverageArticle format
+- [x] Rewrite medicare-coverage-erectile-dysfunction as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-alcohol-misuse as CoverageArticle format
+- [x] Rewrite medicare-coverage-for-amyotrophic-lateral-sclerosis-als as CoverageArticle format
 
 ## Homepage CTA — Unified ZIP Redirect
 - [x] Add ZipFormModal to ZipFinderSection (replace bespoke buildMedicareComparedUrl)
