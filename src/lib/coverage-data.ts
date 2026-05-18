@@ -19,6 +19,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Dental implants permanently anchor prosthetic teeth, but Original Medicare doesn't cover them. However, beneficiaries have other plan options for dental implant coverage.",
     category: "Medicare Coverage",
     dateUpdated: "May 5, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -136,6 +137,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "As we age, our vision tends to deteriorate. By age 65, close to 75% of all people require some kind of vision correction. However, Original Medicare typically does not cover eye exams or glasses.",
     category: "Medicare Coverage",
     dateUpdated: "April 25, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -227,6 +229,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "No, Original Medicare does not cover hearing aids or exams for fitting hearing aids. However, some Medicare Advantage plans may include hearing benefits. Learn about your options, costs, and important exceptions.",
     category: "Medicare Coverage",
     dateUpdated: "March 19, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -407,6 +410,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare only covers chiropractic care services for manipulations to correct a misaligned spine. But, if you need care for a stiff neck or back pain, you can expect to pay for those services yourself.",
     category: "Medicare Coverage",
     dateUpdated: "September 28, 2021",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -499,6 +503,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare does cover some acupuncture treatments. But, Acupuncture is only covered if it treats chronic lower back pain. Medicare won’t pay for other types of acupuncture treatments. But, some Advantag",
     category: "Medicare Coverage",
     dateUpdated: "September 27, 2021",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -589,6 +594,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers sleep studies and CPAP/BiPAP equipment for obstructive sleep apnea when medically necessary and ordered by a Medicare-enrolled provider. After meeting the Part B deductible, Medicare pays 80% of approved costs. A Medigap plan generally covers the remaining 20% coinsurance.",
     category: "Medicare Coverage",
     dateUpdated: "April 13, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -685,6 +691,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
     category: "General Medicare",
     dateUpdated: "November 15, 2024",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -779,6 +786,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare coverage for hospice care is available if you qualify per Medicare guidelines and use a Medicare-approved hospice provider. However, not all circumstances warrant Medicare coverage for hospic",
     category: "Medicare Coverage",
     dateUpdated: "May 8, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -876,6 +884,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Dentures for seniors on Medicare is available, but only under certain circumstances. Original Medicare doesn’t ordinarily provide coverage for dental care, but other options are available, primarily t",
     category: "General Medicare",
     dateUpdated: "June 13, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -967,6 +976,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes, Medicare covers mental health services, including therapy, counseling, and inpatient psychiatric care. Medicare Part B covers outpatient services, while Part A covers inpatient care. Additional c",
     category: "Medicare Coverage",
     dateUpdated: "March 11, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1065,6 +1075,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Managing type 2 diabetes while navigating Medicare coverage options can feel overwhelming, especially when you need prescription medications like Ozempic. With rising healthcare costs, understanding h",
     category: "Medicare Part D",
     dateUpdated: "March 17, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1169,6 +1180,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare will cover speech therapy services if you meet specific requirements set by the Center for Medicare and Medicaid Services (CMS). Medicare speech therapy benefits are only available when it is",
     category: "Medicare Coverage",
     dateUpdated: "November 15, 2024",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1258,6 +1270,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Finding a pulmonologist while on Medicare is vital for beneficiaries suffering from Chronic Obstructive Pulmonary Disease (COPD). Unfortunately, COPD isn’t curable, but the condition is treatable.",
     category: "Medicare Coverage",
     dateUpdated: "May 8, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1347,6 +1360,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare isn’t dependent on the status of your health. Meaning pre-existing health conditions won’t impact eligibility as long as you apply at the right time.",
     category: "General Medicare",
     dateUpdated: "February 21, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1445,6 +1459,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare will cover a variety of prosthetics to replace a body part or function when medically necessary. When you think of prosthetics, arms and legs may be the first things that come to min",
     category: "Medicare Coverage",
     dateUpdated: "January 26, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1540,6 +1555,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Many individuals continue working past 65. Understanding when to enroll in Medicare while still employed is critical to avoid penalties and coverage gaps.",
     category: "Medicare Enrollment",
     dateUpdated: "March 13, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1710,6 +1726,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Advantage plans advertise appealing extras like dental, vision, and grocery allowances. Understanding what's actually included and what the limitations are is crucial before making your decision.",
     category: "Medicare Advantage",
     dateUpdated: "March 12, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1874,6 +1891,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "When comparing Medicare Supplement vs Medicare Advantage, the details truly matter. Understanding the fundamental differences between these paths will help you secure the peace of mind you deserve.",
     category: "Medicare Supplement (Medigap)",
     dateUpdated: "March 9, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -2019,6 +2037,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "As a veteran, combining VA benefits with Medicare provides a crucial safety net for your retirement years. Understanding the difference between Medicare Supplement and Medicare Advantage is vital.",
     category: "Medicare Supplement (Medigap)",
     dateUpdated: "March 9, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -2133,6 +2152,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The official 2026 Medicare numbers have been released. Understanding these cost adjustments is essential for budgeting and ensuring you have the right healthcare coverage.",
     category: "Medicare Coverage",
     dateUpdated: "February 20, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -2296,6 +2316,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
     category: "Medicare Coverage",
     dateUpdated: "March 10, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -2455,6 +2476,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare is not free. Each part of Medicare has its own costs. However, you may be eligible to receive some parts of medicare for a $0 monthly premium based on your history working in the U.S. and paying Medicare taxes.",
     category: "General Medicare",
     dateUpdated: "February 19, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -2594,6 +2616,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "It is common to have many Medicare-related questions running through your mind at any given time. However, finding the answer to these Medicare questions may prove to be more complex than expected.",
     category: "General Medicare",
     dateUpdated: "February 19, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -2734,6 +2757,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Every Year, Changes Come to Medicare. in 2026, Medicare Has Several New Benefits and Adjustments to Speak Of.",
     category: "General Medicare",
     dateUpdated: "February 18, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -2886,6 +2910,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Many disposable adult diaper manufacturers offer assistance programs that provide free or reduced-cost products to eligible individuals. These programs are designed to help those who face financial hardships or have difficulty affording the necessary incontinence supplies.",
     category: "General Medicare",
     dateUpdated: "February 18, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3003,6 +3028,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Supplement Plan G pays secondary to Original Medicare. Thus, it will only cover services after Medicare Part A and Part B have paid their portions. However, coverage for anesthesia used in pain management can be tricky.",
     category: "General Medicare",
     dateUpdated: "February 18, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3121,6 +3147,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B may cover the cost of a shower transfer bench if it is deemed medically necessary and prescribed by a physician.",
     category: "General Medicare",
     dateUpdated: "February 18, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3241,6 +3268,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "SilverSneakers is a gym membership program that allows free and discounted gym memberships to eligible seniors. This program helps seniors stay active and engaged as they age.",
     category: "General Medicare",
     dateUpdated: "February 18, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3401,6 +3429,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The Medicare Annual Notice of Change (ANOC) letter is an important document you receive each September. The ANOC outlines any changes to your Medicare plan that will go into effect the following year. It’s important to review your ANOC so that you can determine if you want to make changes to your Medicare plan to ensure you’re getting the right coverage for your needs.",
     category: "Medicare Enrollment",
     dateUpdated: "February 18, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3540,6 +3569,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The Medicare Give Back Benefit is specific to certain Medicare Advantage plans. This benefit covers up to the entire Medicare Part B premium for the policyholder.",
     category: "Medicare Advantage",
     dateUpdated: "February 17, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3676,6 +3706,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Nearly one in three Medicare Advantage enrollees experienced at least one prior authorization denial in 2024. Understanding the structural limitations of MA plans before you choose can protect both your health and your finances.",
     category: "Coverage Q&A",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3954,6 +3985,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "If you are new to Medicare or want to change your plans, finding the plan with the right health benefits for you is essential. When deciding which plan to enroll in, your first step should be to choose between Medigap plan vs. Medicare Advantage plans.",
     category: "Medicare Supplement (Medigap)",
     dateUpdated: "February 17, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -4113,6 +4145,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Having a Medicare Special Enrollment Period allows you to change your coverage when you may otherwise be unable to. You’ll need to experience a qualifying life event to use a Special Enrollment Period for Medicare, but doing so will help you avoid penalties and lapses in coverage.",
     category: "Medicare Enrollment",
     dateUpdated: "February 17, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -4277,6 +4310,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The Medicare Advantage Open Enrollment Period (MAOEP) occurs annually from January 1 until March 31. During the MA Open Enrollment Period, those who already have Medicare Advantage plans can make one change to their coverage.",
     category: "Medicare Enrollment",
     dateUpdated: "February 17, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -4436,6 +4470,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "If you have Federal Employee Health Benefits (FEHB), you may be wondering how your FEHB plan works with Medicare. In this article, we’ll review how FEHB plans coordinate benefits with Medicare. We’ll also cover some considerations you should make when it comes to FEHB and retirement.",
     category: "General Medicare",
     dateUpdated: "February 16, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -4606,6 +4641,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "If you choose to delay your Medicare coverage, you’ll want to ensure you have creditable coverage. Creditable coverage must provide you with benefits that are as good as or better than Medicare’s coverage.",
     category: "General Medicare",
     dateUpdated: "February 16, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -4774,6 +4810,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The Medicare Part D late enrollment penalty fee can add up and get expensive if you put off prescription drug coverage for too long. Here, we explain exactly what the Medicare Part D penalty is and how to avoid it.",
     category: "Medicare Part D",
     dateUpdated: "February 16, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -4946,6 +4983,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "A Medicare Supplement cost-sharing plan can be an excellent alternative for those looking to avoid higher premiums. Also known as Medigap plans, there are 12 different lettered options, but when it comes to Medicare cost-sharing plans, you’ll typically enjoy a much lower premium.",
     category: "Medicare Supplement (Medigap)",
     dateUpdated: "February 16, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -5113,6 +5151,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare coverage helps alleviate your healthcare costs. However, it does not cover everything and it is important to review your spending limits to understand if your coverage is right for your budget.",
     category: "General Medicare",
     dateUpdated: "February 13, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -5281,6 +5320,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The Medicare Annual Enrollment Period (AEP) occurs from October 15 to December 7 annually. If you have a Medicare Advantage plan or Medicare Part D Prescription Drug Plan, you can make changes that go into effect next year. You can also sign up for Part D if you haven’t already.",
     category: "Medicare Enrollment",
     dateUpdated: "February 13, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -5402,6 +5442,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare covers medically necessary biopsies. Whether your biopsy is performed in a doctor's office, outpatient center, or hospital, Part A or Part B will apply. Learn what you'll pay and how supplemental coverage can help.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -5601,6 +5642,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare Part B covers echocardiograms when your doctor deems them medically necessary. Learn about coverage rules, what you'll pay, how echocardiograms differ from EKGs, and which other heart tests Medicare covers.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -5825,6 +5867,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes \u2014 Medicare covers anesthesia for medically necessary surgeries, diagnostic tests, and screening procedures. Part A covers anesthesia during inpatient hospital stays, while Part B covers outpatient anesthesia services. Learn what you'll pay and when supplemental coverage can help.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -6066,6 +6109,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes \u2014 Medicare Part D covers prescription asthma inhalers when prescribed by your doctor. Part B covers outpatient asthma treatment and nebulizers as durable medical equipment. Learn which inhalers are covered, what they cost, and how to reduce your expenses.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -6305,6 +6349,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Yes — Medicare covers AFib treatments including cardioversion, catheter ablation, EKGs, and heart monitors when medically necessary. Learn what each part of Medicare covers and how to reduce your out-of-pocket costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -6529,6 +6574,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Yes — Medicare covers Cologuard as a colorectal cancer screening test for eligible beneficiaries. Learn who qualifies, how often it's covered, and what you'll pay.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -6724,6 +6770,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Yes — Medicare covers ESRD patients of any age, not just those 65 and older. Coverage includes dialysis, kidney transplants, and immunosuppressive drugs. Learn about waiting periods, cost-sharing, and your plan options.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -6935,6 +6982,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Since 2014, Medicare covers gender reassignment surgery on a case-by-case basis when deemed medically necessary. Learn what is covered, what is not, and how to navigate the Medicare appeals process.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -7144,6 +7192,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Part A and Part B do not cover hormone replacement therapy (HRT) medications for menopause. However, Medicare Part D and Medicare Advantage plans with drug coverage may cover HRT. Learn which medications are covered and how to find the right plan.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -7347,6 +7396,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare Part B covers Leqembi (lecanemab) for early-stage Alzheimer's disease when specific eligibility criteria are met. Learn what you need to qualify, what you'll pay, and how supplemental coverage can reduce your costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -7544,6 +7594,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare Part B covers medically necessary macular degeneration treatments, including anti-VEGF injections, laser therapy, and photodynamic therapy. Learn what you'll pay and how supplemental coverage can help.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -7745,6 +7796,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare does not cover Meals on Wheels or ongoing meal delivery. However, Medicare Advantage plans may cover temporary meal delivery after a hospital stay, and other programs can help. Learn what's available and how to access it.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -7942,6 +7994,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare does not cover Life Alert or personal emergency response systems. Some Medicare Advantage plans may include them as supplemental benefits. Learn about costs, alternatives, and how to find coverage.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -8147,6 +8200,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare Part B covers medical nutrition therapy (MNT) at 100% for beneficiaries with diabetes or kidney disease. Learn who qualifies, what's covered, and how to access this benefit.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -8351,6 +8405,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare does not cover routine dental care, but there are exceptions — and several options to get dental coverage as a Medicare beneficiary.",
     category: "Medicare Coverage",
     dateUpdated: "May 23, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -8498,6 +8553,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare does not cover incontinence supplies or adult diapers, but some Medicare Advantage plans and state Medicaid programs may provide benefits.",
     category: "Medicare Coverage",
     dateUpdated: "October 24, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -8639,6 +8695,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare is an individual program — you cannot add dependents to your coverage. However, children may qualify for Medicare in certain situations involving disability, ESRD, or ALS.",
     category: "Medicare Coverage",
     dateUpdated: "May 5, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -8782,6 +8839,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers annual screening mammograms for women 40 and older at no cost. Diagnostic mammograms are also covered, with 20% coinsurance after the Part B deductible.",
     category: "Medicare Coverage",
     dateUpdated: "May 3, 2023",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -8924,6 +8982,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare generally does not cover compression stockings, but will pay for them in specific situations — primarily when prescribed to treat a venous stasis ulcer.",
     category: "Medicare Coverage",
     dateUpdated: "November 18, 2024",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -9073,6 +9132,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part A covers up to 100 days in a skilled nursing facility per benefit period — but only after a qualifying 3-day hospital stay. Learn the eligibility rules, daily costs, and how Medigap can eliminate your out-of-pocket expenses.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -9263,6 +9323,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers stem cell therapy only when it is FDA-approved and deemed medically necessary. Learn which conditions qualify, what Medicare pays, and why most stem cell therapies are not covered.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -9447,6 +9508,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers Botox injections for several FDA-approved medical conditions including chronic migraines, overactive bladder, cervical dystonia, and upper limb spasms. Learn what qualifies, what you will pay, and how Medigap can help.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -9633,6 +9695,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers cancer screenings, chemotherapy, radiation, immunotherapy, CAR T-cell therapy, and more. Learn how Parts A, B, D, and Medigap work together to protect you from catastrophic cancer costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -9825,6 +9888,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers bariatric surgery including gastric bypass, sleeve gastrectomy, and lap-band surgery for beneficiaries who meet specific eligibility criteria. Learn the requirements, covered procedures, and what you will pay.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -10016,6 +10080,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers emergency and some non-emergency ambulance transport when it is medically necessary. Learn what qualifies, what you pay, and how supplemental coverage can help.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -10218,6 +10283,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare covers robotic-assisted surgery when it is medically necessary. The technology used does not change your coverage; what matters is whether the procedure itself is covered.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -10381,6 +10447,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare Part B covers second opinions before surgery and for major diagnoses. You pay the same 20% coinsurance as any other outpatient visit. Learn when to get one and how to find a specialist.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -10548,6 +10615,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare Part B covers urinary catheters as durable medical equipment (DME) when medically necessary. Learn how many Medicare covers per month, what you pay, and how to get them.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -10734,6 +10802,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers varicose vein treatment only when it is medically necessary — not for cosmetic reasons. Learn which procedures qualify, what you pay, and how to document medical necessity.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -10897,6 +10966,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare does not currently cover Wegovy (semaglutide) for weight loss under Part D. However, the Inflation Reduction Act may change this. Learn what's covered, what alternatives exist, and how to reduce your costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -11083,6 +11153,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare Part B covers ostomy supplies as durable medical equipment when medically necessary. Learn what supplies are covered, what you'll pay, and how to reduce your costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -11285,6 +11356,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "No — Original Medicare does not cover root canals or most routine dental services. However, Medicare Advantage plans may offer dental benefits. Learn about your options for dental coverage.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -11488,6 +11560,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare does not cover brand-name ED drugs like Viagra or Cialis, but some generic versions may be covered by Medicare Part D. Learn what's covered, what you'll pay, and your options.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -11685,6 +11758,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare Part B covers annual alcohol misuse screenings and up to four counseling sessions per year at no cost to you. Inpatient rehab is covered under Part A when medically necessary. Learn what's covered and what you'll pay.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -11892,6 +11966,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "ALS patients qualify for Medicare immediately upon receiving SSDI benefits — no 24-month waiting period. Medicare covers a wide range of services including home health care, DME, physical therapy, and prescription drugs. Learn what's covered and what you'll pay.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -12097,6 +12172,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers commode chairs and certain medically necessary bathroom equipment as durable medical equipment. Grab bars, shower chairs, and walk-in tubs are generally not covered — but some Medicare Advantage plans may help. Learn what's covered and what you'll pay.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -12309,6 +12385,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers ambulatory blood pressure monitors once per year and home monitors for dialysis patients. Standard home blood pressure monitors are not covered. Learn what's covered, what you'll pay, and your options.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -12502,6 +12579,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare covers a wide range of cardiovascular disease services including cardiologist visits, cardiac tests, heart surgery, and cardiac rehabilitation. Learn what's covered under Part A and Part B, what you'll pay, and how Medigap can help.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -12713,6 +12791,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes — Medicare covers colonoscopy screenings at 100% with no deductible or coinsurance. Learn about coverage frequency, what happens when a polyp is found, and what you'll pay for diagnostic colonoscopies.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -12920,6 +12999,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers medically necessary dermatology services including skin cancer screenings, mole removal, biopsies, and treatment of skin conditions. Cosmetic procedures and routine skin exams are not covered. Learn what's covered and what you'll pay.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -13129,6 +13209,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers therapeutic shoes and inserts for beneficiaries with diabetes who meet specific eligibility requirements. Learn what's covered, how much you'll pay, and where to buy Medicare-approved diabetic shoes.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -13333,6 +13414,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare does not cover hearing aids or hearing aid fitting exams. However, Medicare Advantage plans may offer hearing benefits, and over-the-counter hearing aids are now available. Learn about your options and how to reduce hearing aid costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -13538,6 +13620,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers hip injections and hip replacement surgery when medically necessary. Learn about cortisone shots, PRP injections, hip replacement costs, and how Medigap can help reduce your out-of-pocket expenses.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -13744,6 +13827,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers home health care services when you are homebound and need skilled nursing care or therapy. Learn about eligibility requirements, what's covered, how long coverage lasts, and how to maximize your benefits.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -13956,6 +14040,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers the lifting mechanism of a lift chair when medically necessary — but not the chair itself. Learn about coverage rules, costs, types of lift chairs, and how Medigap can help cover the remaining costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -14141,6 +14226,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare covers pain management services when medically necessary, including physical therapy, injections, chiropractic care, and surgery. Learn about treatment options, costs, and how to find pain management doctors that accept Medicare.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -14308,6 +14394,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare partially covers lung transplants when medically necessary for progressive end-stage pulmonary disease. Learn about eligibility requirements, what Parts A and B cover, anti-rejection drug coverage, and how to get on the transplant list.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -14467,6 +14554,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers oxygen therapy equipment and supplies when medically necessary for lung or respiratory conditions. Learn about eligibility requirements, rental guidelines, costs, and how portable oxygen concentrators are covered.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -14626,6 +14714,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers pacemakers when medically necessary for cardiac irregularities or atrial fibrillation. Learn about coverage for the device, surgery, battery replacements, monitoring, and how Medigap can protect you from high out-of-pocket costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -14785,6 +14874,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers physical therapy when a physician deems it medically necessary. Part A covers inpatient PT, while Part B covers outpatient and at-home therapy. There is no longer an annual cap on sessions. Learn about coverage, costs, and what types of physical therapy Medicare covers.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -14947,6 +15037,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare may cover medically necessary plastic surgery — such as reconstruction after injury, mastectomy, or disease — but will not cover elective cosmetic procedures. Learn what's covered, the prior authorization process, and how to manage costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -15108,6 +15199,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers annual prostate-specific antigen (PSA) tests for men age 50 and older at no cost as preventive care. Learn about coverage for prostate screening, surgery, biopsies, and how to manage costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -15265,6 +15357,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers smoking cessation counseling at 100% with no out-of-pocket cost, and Part D covers prescription stop-smoking medications. Learn about covered treatments, session limits, and how to quit smoking with Medicare's help.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -15421,6 +15514,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers stroke treatment, inpatient and outpatient rehabilitation, skilled nursing facility care, durable medical equipment, and medications. Learn about coverage details, costs, and how supplemental plans can help reduce out-of-pocket expenses.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -15580,6 +15674,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers manual wheelchairs, power wheelchairs, and mobility scooters as durable medical equipment (DME) when medically necessary. Learn about eligibility requirements, the prior authorization process, types of devices covered, and how to manage costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -15732,6 +15827,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers annual screenings for sexually transmitted infections including HIV, gonorrhea, syphilis, chlamydia, and hepatitis B at no cost. Learn about coverage for STD testing, counseling, treatments, and prescription medications.",
     category: "Medicare Coverage",
     dateUpdated: "May 5, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -15905,6 +16001,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers medically necessary surgical procedures. Part A covers inpatient hospital surgery, while Part B covers outpatient surgery at 80%. Learn about coverage for specific procedures, costs, and how a Medigap plan can help.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -16077,6 +16174,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare does not cover naturopathic medicine or visits to naturopathic doctors (NDs). However, some services that fall under naturopathy, such as acupuncture for chronic lower back pain and chiropractic care, have limited Medicare coverage.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -16249,6 +16347,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers nebulizer machines as durable medical equipment (DME) when prescribed by a doctor for conditions like COPD or asthma. Learn about coverage, costs, medications, replacement rules, and how Medigap can help.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -16417,6 +16516,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers 80% of eligible emergency inter-hospital transport costs when medically necessary. Learn what qualifies, how your plan type affects costs, and how to appeal a denied claim.",
     category: "Medicare Coverage",
     dateUpdated: "April 15, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -16599,6 +16699,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers a broad range of Alzheimer's-related services — from diagnosis and physician visits to home health care and skilled nursing — but does not cover long-term custodial care. Here's what you need to know.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -16807,6 +16908,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers medically necessary services for dementia patients — including physician visits, short-term skilled nursing, and hospice — but does not cover the ongoing room and board costs of memory care facilities.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -16957,6 +17059,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers annual glaucoma screenings for high-risk beneficiaries and medically necessary glaucoma treatment including surgery and prescription eye drops.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -17100,6 +17203,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers home health care when you are homebound and need skilled nursing, physical therapy, speech therapy, or occupational therapy. There is no cost to you for covered home health services under Original Medicare.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -17240,6 +17344,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers durable medical equipment (DME) — including wheelchairs, walkers, CPAP machines, and hospital beds — when ordered by a physician and supplied by a Medicare-enrolled supplier.",
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -17375,6 +17480,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes. Medicare Part B covers telehealth visits including doctor visits, mental health therapy, and certain preventive screenings. Through December 31, 2027, you can receive telehealth from anywhere in the U.S., including your home.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -17487,6 +17593,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes. Medicare covers knee replacement surgery when it is medically necessary. Part A covers the hospital stay and Part B covers surgeon fees and follow-up care. Most patients pay 20% coinsurance after meeting their deductibles.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -17599,6 +17706,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers podiatry visits when they are medically necessary, such as treatment for diabetic foot conditions, injuries, or infections. Routine foot care like nail trimming is generally not covered unless you have a qualifying condition.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -17710,6 +17818,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes. Medicare covers hepatitis C screening at no cost to you if you are at increased risk or were born between 1945 and 1965. The screening is covered once per year for high-risk individuals and once in a lifetime for those in the birth cohort.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -17821,6 +17930,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes. Medicare covers a wide range of mental health services, including outpatient therapy, psychiatric evaluations, inpatient psychiatric care, and substance use disorder treatment. Coverage is split between Part A (inpatient) and Part B (outpatient).",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -17932,6 +18042,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The Medicare Annual Wellness Visit (AWV) is a free yearly appointment covered by Medicare Part B. It is not a physical exam but a personalized prevention planning session to help you stay healthy and catch potential issues early.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -18043,6 +18154,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers nutrition counseling in specific circumstances. Medicare Part B covers Medical Nutrition Therapy (MNT) for beneficiaries with diabetes or kidney disease. General nutrition counseling or visits to a registered dietitian for weight loss or wellness are not covered under Original Medicare.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -18153,6 +18265,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "You do not have to be 65 to qualify for Medicare. If you have been receiving Social Security Disability Insurance (SSDI) for 24 months, you automatically become eligible for Medicare regardless of your age. People with ALS or End-Stage Renal Disease qualify immediately without the waiting period.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -18263,6 +18376,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part D plans are required to cover all or substantially all drugs in six protected classes. This rule ensures that beneficiaries with complex conditions — such as mental illness, epilepsy, HIV/AIDS, cancer, and organ transplants — have access to the specific medications they need.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -18374,6 +18488,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "A Medicare Part D formulary is the official list of prescription drugs covered by your plan. Every Part D plan — including standalone drug plans and Medicare Advantage plans with drug coverage — has its own formulary. Your cost for each drug depends on which tier it falls into.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -18485,6 +18600,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare may cover Botox (onabotulinumtoxinA) injections when they are medically necessary to treat a covered condition. Medicare does not cover Botox for cosmetic purposes such as reducing wrinkles.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -18596,6 +18712,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Yes, Medicare Part B covers medically necessary braces for the arm, leg, back, and neck when ordered by a doctor. Learn about coverage details, costs, and what types of braces qualify.",
     category: "Medicare Coverage",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -18791,6 +18908,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Qualified Government Employment (MQGE) refers to wages earned by federal, state, and local government employees who pay Medicare taxes but not Social Security taxes. Understanding MQGE is critical because it directly affects your Medicare Part A eligibility and premium costs.",
     category: "Medicare Eligibility",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -18992,6 +19110,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "How divorce affects your Medicare eligibility and whether you can qualify for premium-free Part A through your ex-spouse's work record.",
     category: "Coverage Q&A",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -19203,6 +19322,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Falls are the leading cause of injury-related death among adults 65 and older. A Medicare-covered home safety assessment can identify hazards before they cause harm.",
     category: "Coverage Q&A",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -19392,6 +19512,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "If you're turning 65 while still employed, understanding how Medicare coordinates with your employer coverage is critical to avoiding gaps, penalties, and unnecessary costs.",
     category: "Coverage Q&A",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -19590,6 +19711,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Once you enroll in any part of Medicare, you can no longer contribute to a Health Savings Account. Understanding the timing rules can save you from tax penalties and unexpected costs.",
     category: "Coverage Q&A",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -19780,6 +19902,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The standard Medicare Part B premium for 2026 is $185.00 per month. Higher earners pay more through IRMAA surcharges based on income from two years prior.",
     category: "Medicare Costs",
     dateUpdated: "April 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -19970,6 +20093,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "An Advance Beneficiary Notice is a written notice your provider must give you before delivering a service they believe Medicare may not cover, giving you the choice to accept financial responsibility.",
     category: "Medicare Benefits",
     dateUpdated: "April 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -20152,6 +20276,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Understanding the Scenarios that Could Put Your Medicare Coverage at Risk — and How to Prevent Them.",
     category: "Medicare Eligibility",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -20417,6 +20542,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "How to get reimbursed by Medicare when you pay out of pocket — including when to file claims, required forms, and timelines.",
     category: "Medicare Costs",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -20666,6 +20792,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Green card holders can qualify for Medicare, but eligibility depends on residency length, work history, and immigration status. Here's what you need to know.",
     category: "Medicare Eligibility",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -20944,6 +21071,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The Low Income Subsidy (LIS), also known as Extra Help, can save Medicare beneficiaries thousands of dollars per year on prescription drug costs.",
     category: "Medicare Costs",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -21194,6 +21322,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Secondary insurance fills the gaps left by Original Medicare \u2014 covering deductibles, coinsurance, and other out-of-pocket costs.",
     category: "Medicare Coverage",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -21442,6 +21571,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Your Medicare Beneficiary Identifier (MBI) is your unique Medicare ID number. It replaced Social Security Numbers on Medicare cards to protect against identity theft.",
     category: "Medicare Basics",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -21689,6 +21819,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "IRMAA (Income-Related Monthly Adjustment Amount) is a surcharge added to your Medicare Part B and Part D premiums if your income exceeds certain thresholds. In 2026, it kicks in at $109,000 for single filers.",
     category: "Medicare Costs",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -21975,6 +22106,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare and Medicaid are both government health insurance programs, but they serve different populations and are funded differently. Some people qualify for both — known as \"dual eligibles.\"",
     category: "Medicaid & Assistance",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -22254,6 +22386,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Easy Pay is a free automatic payment service that deducts your Medicare premiums directly from your bank account each month, so you never miss a payment.",
     category: "Medicare FAQ",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -22502,6 +22635,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "In most cases, your healthcare provider files Medicare claims on your behalf. But in rare situations, you may need to file your own claim using Form CMS-1490S.",
     category: "Medicare FAQ",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -22749,6 +22883,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The Medigap birthday rule gives you a limited annual window to switch Medicare Supplement plans without answering health questions — but only in certain states.",
     category: "Medicare Supplements",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -23008,6 +23143,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "When a Provider \"accepts Medicare assignment,\" they agree to accept Medicare's approved amount as full payment for a service. This directly affects how much you pay out-of-pocket.",
     category: "Medicare FAQ",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -23245,6 +23381,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare premiums are rising in 2026, but there are proven strategies to lower what you pay — from income-based programs to plan-switching and IRMAA appeals.",
     category: "Costs & Savings",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -23518,6 +23655,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Visiting Angels provides companion care, personal care, and home health aide services. Medicare covers some home health care — but not the custodial care that Visiting Angels primarily offers.",
     category: "Medicare FAQ",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -23768,6 +23906,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Military retirees eligible for both TRICARE and Medicare can use TRICARE For Life as wraparound coverage — often resulting in $0 out-of-pocket costs for covered services.",
     category: "Medicare FAQ",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -24043,6 +24182,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Original Medicare does not cover routine eye exams or eyeglasses, but it does cover medically necessary vision services. Medicare Advantage plans often include vision benefits that Original Medicare lacks.",
     category: "Dental, Vision & Hearing",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -24292,6 +24432,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare beneficiaries can use GoodRx and other discount cards — but not at the same time as Medicare. Understanding when to use each option can lead to significant savings.",
     category: "Medicare FAQ",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -24544,6 +24685,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Some Medicare Advantage plans reduce your monthly Part B premium \u2014 by as little as $0.10 or as much as the full $202.90/month in 2026. About 25% of MA plans offer this benefit, but evaluating the full plan is essential.",
     category: "Medicare Part B",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -24773,6 +24915,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Savings Programs (MSPs) are state-run programs that help people with limited income and resources pay for Medicare costs. There are four types: QMB, SLMB, QI, and QDWI.",
     category: "Costs & Savings",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -25003,6 +25146,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare cost-sharing refers to the portion of healthcare costs you pay out of pocket — including premiums, deductibles, copays, and coinsurance. Medigap cost-sharing plans (Plan K, L, M, N) offer lower premiums in exchange for sharing some of these costs.",
     category: "Costs & Savings",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -25210,6 +25354,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare covers a wide range of diabetes supplies and services — from glucose monitors and test strips to insulin pumps, preventive screenings, and diabetes self-management training. Part B covers durable medical equipment; Part D covers insulin and oral medications.",
     category: "Medicare Coverage",
     dateUpdated: "April 29, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -25439,6 +25584,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Advantage (Part C) Explained",
     category: "Medicare Advantage",
     dateUpdated: "January 16, 2024",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -25640,6 +25786,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "When You Can Delay and When You Can't",
     category: "Enrollment",
     dateUpdated: "March 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -25847,6 +25994,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "How to Use Part D Mail Order to Save Money",
     category: "Prescription Drugs",
     dateUpdated: "January 7, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -26031,6 +26179,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Your Coverage Options beyond Original Medicare",
     category: "Dental, Vision & Hearing",
     dateUpdated: "April 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -26244,6 +26393,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "What Every Beneficiary Needs to Know",
     category: "Medicare News",
     dateUpdated: "April 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -26453,6 +26603,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "How Medicare and Veterans Benefits Work Together",
     category: "Medicare FAQ",
     dateUpdated: "February 16, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -26663,6 +26814,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare provides health insurance; Social Security provides retirement income. Learn how these two separate federal programs differ and work together.",
     category: "Medicare FAQ",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "Jagger Esch",
       initials: "JE",
@@ -26898,6 +27050,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Part B covers durable medical equipment that is medically necessary, prescribed by a doctor, and suitable for home use. You pay 20% coinsurance after the Part B deductible.",
     category: "Medicare FAQ",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -27134,6 +27287,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare has four main types of out-of-pocket costs. Understanding the difference between premiums, deductibles, copays, and coinsurance helps you budget for healthcare.",
     category: "Costs & Savings",
     dateUpdated: "April 28, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -27379,6 +27533,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Prior authorization is a requirement from your insurance plan that your doctor get approval before providing certain services, procedures, or medications. Understanding how it works can help you avoid unexpected coverage denials.",
     category: "Medicare Coverage",
     dateUpdated: "April 30, 2025",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -27581,6 +27736,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "If your income is too high to qualify for full Medicaid but you have significant medical expenses, the Medicaid spend-down program may allow you to qualify by deducting those expenses from your income.",
     category: "Medicare Costs",
     dateUpdated: "April 30, 2025",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -27782,6 +27938,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Medicare Advantage plan costs vary significantly by state, county, and plan type. In 2026, the average MA premium is $17/month, but your actual cost depends on where you live and which plan you choose.",
     category: "Medicare Advantage",
     dateUpdated: "April 30, 2025",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -27986,6 +28143,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "The General Enrollment Period (GEP) is your opportunity to sign up for Medicare Part A and/or Part B if you missed your Initial Enrollment Period and don't qualify for a Special Enrollment Period.",
     category: "Enrollment",
     dateUpdated: "April 30, 2025",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -28187,6 +28345,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "What Medicare Covers, What to Expect, and How to Prepare",
     category: "Medicare Benefits",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -28377,6 +28536,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "Coverage Start Dates for Every Enrollment Scenario",
     category: "Enrollment",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -28589,6 +28749,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "What It Is, How Drug Tiers Work, and What to Do If Your Drug Isn't Covered",
     category: "Prescription Drugs",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -28800,6 +28961,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "How Medicare Advantage Plans Replace Original Medicare — and What that Means for You",
     category: "Medicare Advantage",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -29011,6 +29173,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "What Medicare Pays for Ambulance Services, Non-Emergency Transport, and MA Ride Benefits",
     category: "Medicare Benefits",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -29234,6 +29397,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "When Medigap Insurers Can Deny Coverage, When They Can't, and How to Protect Yourself",
     category: "Medicare Supplements",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -29456,6 +29620,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "How to Compare Medigap Carriers — Financial Strength, Pricing, Plan Availability, and More",
     category: "Medicare Supplements",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -29663,6 +29828,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "What Original Medicare Leaves Uncovered, and How to Decide if a Supplement is Worth It",
     category: "Medicare Supplements",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -29870,6 +30036,7 @@ export const coverageArticles: CoverageArticleData[] = [
     subtitle: "How to Navigate Formularies, Cost-Sharing, and Savings Programs to Keep Your Drug Costs Low",
     category: "Medicare Part D",
     dateUpdated: "April 30, 2026",
+    lastReviewed: "2026-05-18",
     author: {
       name: "David Haass",
       initials: "DH",

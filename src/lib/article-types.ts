@@ -99,6 +99,7 @@ export interface CoverageArticleData {
   subtitle: string;
   category: string;
   dateUpdated: string;
+  lastReviewed?: string;   // ISO date (YYYY-MM-DD) — set when content is manually reviewed
   author: AuthorData;
   reviewer: AuthorData;
   readTime: string;
