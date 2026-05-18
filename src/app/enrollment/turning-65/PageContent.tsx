@@ -621,6 +621,46 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                 </Link>
               </div>
             </div>
+
+            {/* Right Sidebar */}
+            <aside className="hidden xl:block w-[260px] shrink-0">
+              <div className="sticky top-28 space-y-6">
+                {/* On This Page */}
+                <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                  <h3 className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-4">On This Page</h3>
+                  <nav className="space-y-1">
+                    {tableOfContents.map((item) => (
+                      <a
+                        key={item.id}
+                        href={`#${item.id}`}
+                        className={`block text-sm py-1.5 px-3 rounded-md transition-all ${
+                          activeSection === item.id
+                            ? "bg-amber-50 text-amber-700 font-semibold border-l-2 border-amber-600"
+                            : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
+                        }`}
+                      >
+                        {item.label}
+                      </a>
+                    ))}
+                  </nav>
+                </div>
+
+                {/* Have Questions CTA */}
+                <div className="bg-[#1B2A4A] rounded-xl p-5 text-center">
+                  <p className="text-white font-bold text-sm mb-1">Have Questions?</p>
+                  <p className="text-white/60 text-xs mb-4">Speak with a licensed Medicare agent</p>
+                  <a
+                    href="tel:+18883358996"
+                    id="callInNum"
+                    data-invoca-phone-number="18883358996"
+                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65_sidebar" })}
+                    className="flex items-center justify-center gap-2 bg-[#C41230] text-white text-sm font-bold py-2.5 rounded-lg hover:bg-[#A50F28] transition-colors w-full"
+                  >
+                    <Phone className="w-4 h-4" /> (888) 335-8996
+                  </a>
+                </div>
+              </div>
+            </aside>
           </div>
         </div>
       </section>
