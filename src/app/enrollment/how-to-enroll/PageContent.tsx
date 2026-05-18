@@ -140,39 +140,10 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
       {/* Main Content */}
       <section className="py-16">
         <div className="container">
-          <div className="flex gap-12">
-            {/* Sidebar TOC */}
-            <aside className="hidden lg:block w-64 shrink-0">
-              <div className="sticky top-28">
-                <p className="text-xs font-bold text-teal-700 uppercase tracking-wider mb-4">In This Guide</p>
-                <nav className="space-y-1">
-                  {tableOfContents.map((item) => (
-                    <a
-                      key={item.id}
-                      href={`#${item.id}`}
-                      className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
-                        activeSection === item.id
-                          ? "bg-teal-50 text-teal-700 font-semibold"
-                          : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
-                      }`}
-                    >
-                      {item.label}
-                    </a>
-                  ))}
-                </nav>
-                <div className="mt-8 p-4 bg-teal-50 rounded-xl border border-teal-100">
-                  <p className="text-sm font-semibold text-teal-900 mb-1">Need Enrollment Help?</p>
-                  <p className="text-xs text-teal-700 mb-3">We'll guide you through every step</p>
-                  <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="flex items-center gap-2 text-sm font-bold text-teal-700">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
-                  </a>
-                </div>
-              </div>
-            </aside>
+          <div className="flex gap-12 lg:gap-16 justify-center">
 
             {/* Main Content */}
-            <div className="flex-1 min-w-0">
+            <div className="flex-1 min-w-0 max-w-3xl order-first mx-auto xl:mx-0">
               {/* Overview */}
               <section id="overview" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -578,25 +549,47 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                 </Link>
               </div>
             </div>
-
             {/* Right Sidebar */}
-            <aside className="hidden xl:block w-[260px] shrink-0">
-              <div className="sticky top-28 space-y-6">
-                {/* Have Questions CTA */}
-                <div className="bg-[#1B2A4A] rounded-xl p-5 text-center">
-                  <p className="text-white font-bold text-sm mb-1">Have Questions?</p>
-                  <p className="text-white/60 text-xs mb-4">Speak with a licensed Medicare agent</p>
+            <aside className="hidden xl:block w-64 shrink-0 order-last">
+              <nav className="sticky top-40">
+                <h3 className="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-4">
+                  In This Guide
+                </h3>
+                <ul className="space-y-1">
+                  {tableOfContents.map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={`#${item.id}`}
+                        className={`block text-sm py-2 px-3 rounded-lg transition-all ${
+                          activeSection === item.id
+                            ? "bg-teal-50 text-teal-700 font-medium"
+                            : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
+                        }`}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <div className="mt-8 p-4 bg-[#1B2A4A] rounded-xl">
+                  <p className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-2">
+                    Have Questions?
+                  </p>
+                  <p className="text-sm text-white/80 mb-3">
+                    Speak with a licensed Medicare agent — free, no obligation.
+                  </p>
                   <a
                     href="tel:+18883358996"
                     id="callInNum"
                     data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll_sidebar" })}
-                    className="flex items-center justify-center gap-2 bg-[#C41230] text-white text-sm font-bold py-2.5 rounded-lg hover:bg-[#A50F28] transition-colors w-full"
+                    className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" />
+                    (888) 335-8996
                   </a>
                 </div>
-              </div>
+              </nav>
             </aside>
           </div>
         </div>
