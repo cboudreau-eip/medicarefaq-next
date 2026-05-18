@@ -143,9 +143,9 @@
 - [x] Add ZipFormModal to medicare-part-d/[slug] dynamic page (coverageType: pdp)
 
 ## ZIP Modal Rollout — Remaining Pages
-- [ ] Add ZipFormModal to /medicare-part-c/[slug] MA sub-pages (coverageType: ma)
-- [ ] Add ZipFormModal to /enrollment/ pages
-- [ ] Add ZipFormModal to blog/article page bottom CTAs
+- [x] Add ZipFormModal to /medicare-part-c/[slug] MA sub-pages (coverageType: ma)
+- [x] Add ZipFormModal to /enrollment/ pages
+- [x] Add ZipFormModal to blog/article page bottom CTAs
 
 ## IRMAA Values — Refactor to MEDICARE_COSTS Constants
 - [x] Refactor /enrollment/late-penalties/PageContent.tsx to import IRMAA values from MEDICARE_COSTS
@@ -187,7 +187,7 @@
 - [x] Add secret auth to /api/video-jobs
 - [x] Fix hardcoded BASE_URL in /api/articles/[slug]/route.ts
 - [x] Add origin check and tighter payload validation to /api/heatmap/track
-- [ ] Build AI-powered Medicare Assistant chat widget (Phase 1 - no logging)
+- [x] Build AI-powered Medicare Assistant chat widget (Phase 1 - no logging)
 
 ## Global Content Width Standard
 - [x] Audit content widths across all page types (landing pages, FAQ articles, blog posts, standalone pages)
