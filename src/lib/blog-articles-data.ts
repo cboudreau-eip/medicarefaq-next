@@ -7588,8 +7588,8 @@ export const blogArticles: BlogArticleData[] = [
     featured: false,
     category: "Medicare Supplement",
     categoryColor: "#0EA5E9",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Senior couple reviewing Medicare supplement insurance documents at home",
+    image: "https://images.pexels.com/photos/585292/pexels-photo-585292.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Glass jar filled with US coins on a wooden table, representing rising Medicare supplement premiums",
     keyTakeaways: [
       "Medigap Plan G premiums rose 12% to 26% in 2026 filings, with some carriers filing increases above 40%.",
       "Rising healthcare utilization, labor costs, and a shift of sicker beneficiaries back from Medicare Advantage are the primary drivers.",
