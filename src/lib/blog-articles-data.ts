@@ -7588,8 +7588,8 @@ export const blogArticles: BlogArticleData[] = [
     featured: false,
     category: "Medicare Supplement",
     categoryColor: "#0EA5E9",
-    image: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663444965628/gPWLsgLkfFuXobus.png",
-    imageAlt: "Infographic showing Medigap Plan G premiums surging 12-26% in 2026 with Eddie Eagle mascot",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Senior couple reviewing Medicare supplement insurance documents at home",
     keyTakeaways: [
       "Medigap Plan G premiums rose 12% to 26% in 2026 filings, with some carriers filing increases above 40%.",
       "Rising healthcare utilization, labor costs, and a shift of sicker beneficiaries back from Medicare Advantage are the primary drivers.",
