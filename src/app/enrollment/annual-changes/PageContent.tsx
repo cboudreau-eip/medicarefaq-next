@@ -47,7 +47,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Can I switch from Medicare Advantage to Original Medicare during AEP?",
-    a: <>Yes. During the Annual Enrollment Period (October 15 – December 7), you can disenroll from your Medicare Advantage plan and return to Original Medicare. If you do, you can also enroll in a standalone Part D plan and a Medigap plan. However, Medigap plans may require <Link href="/faqs/medicare-supplement-underwriting-questions" className="text-amber-700 underline font-semibold hover:text-amber-900">medical underwriting</Link> outside of your initial <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link>.</>,
+    a: <>Yes. During the Annual Enrollment Period (October 15 – December 7), you can disenroll from your Medicare Advantage plan and return to Original Medicare. If you do, you can also enroll in a standalone Part D plan and a Medigap plan. However, Medigap plans may require <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">medical underwriting</Link> outside of your initial <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link>.</>,
   },
   {
     q: "What's the difference between AEP and the MA Open Enrollment Period?",

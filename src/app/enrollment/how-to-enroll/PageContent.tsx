@@ -372,7 +372,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     <div>
                       <p className="font-semibold text-red-900 mb-1">Outside Your Medigap OEP</p>
                       <p className="text-sm text-red-800">
-                        If you apply for Medigap after your 6-month OEP, insurance companies can use <Link href="/faqs/medicare-supplement-underwriting-questions" className="text-red-900 underline font-semibold hover:text-red-700">medical underwriting</Link>. This means they can ask health questions, charge higher premiums, or deny coverage based on pre-existing conditions (in most states).
+                        If you apply for Medigap after your 6-month OEP, insurance companies can use <Link href="/faqs/medicare-supplement-open-enrollment" className="text-red-900 underline font-semibold hover:text-red-700">medical underwriting</Link>. This means they can ask health questions, charge higher premiums, or deny coverage based on pre-existing conditions (in most states).
                       </p>
                     </div>
                   </div>

@@ -30,7 +30,7 @@ const sitemapSections = [
     links: [
       { label: "New to Medicare Overview", href: "/new-to-medicare" },
       { label: "Turning 65", href: "/new-to-medicare/turning-65" },
-      { label: "Medicare under 65", href: "/new-to-medicare/medicare-under-65" },
+      { label: "Medicare under 65", href: "/new-to-medicare/eligibility" },
       { label: "Medicare vs Medicaid", href: "/new-to-medicare/medicare-vs-medicaid" },
       { label: "Medicare FEHB", href: "/new-to-medicare/medicare-fehb" },
       { label: "Medicare and VA Benefits", href: "/new-to-medicare/medicare-va-benefits" },

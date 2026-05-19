@@ -482,7 +482,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                     <div>
                       <p className="font-semibold text-red-900 mb-1">Don't Miss This Window</p>
                       <p className="text-sm text-red-800">
-                        After your 6-month Medigap OEP closes, insurance companies can use <Link href="/faqs/medicare-supplement-underwriting-questions" className="text-red-900 underline font-semibold hover:text-red-700">medical underwriting</Link> to decide whether to sell you a policy and how much to charge. You could be denied coverage or face higher premiums based on your health history.
+                        After your 6-month Medigap OEP closes, insurance companies can use <Link href="/faqs/medicare-supplement-open-enrollment" className="text-red-900 underline font-semibold hover:text-red-700">medical underwriting</Link> to decide whether to sell you a policy and how much to charge. You could be denied coverage or face higher premiums based on your health history.
                       </p>
                     </div>
                   </div>
