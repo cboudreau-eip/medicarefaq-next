@@ -50,6 +50,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Preconnect hints — open connections early to reduce latency */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://d2xsxph8kpxj0f.cloudfront.net" />
+
+        {/* Google Fonts — preloaded as non-render-blocking, then applied as stylesheet */}
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
