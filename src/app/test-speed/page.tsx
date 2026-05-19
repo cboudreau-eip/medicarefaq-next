@@ -1,3 +1,5 @@
+import SiteLayout from "@/components/SiteLayout";
+
 export const metadata = {
   title: "Speed Test Page | MedicareFAQ",
   description: "A minimal test page used for PageSpeed Insights benchmarking.",
@@ -6,6 +8,7 @@ export const metadata = {
 
 export default function TestSpeedPage() {
   return (
+    <SiteLayout>
     <div className="max-w-3xl mx-auto px-4 py-16">
 
       <section className="mb-16">
@@ -61,5 +64,6 @@ export default function TestSpeedPage() {
       </section>
 
     </div>
+    </SiteLayout>
   );
 }
