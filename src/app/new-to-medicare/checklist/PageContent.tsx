@@ -378,7 +378,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
       <div className="max-w-6xl mx-auto px-4 py-12 md:py-16">
         <div className="flex gap-12">
           {/* Sticky Sidebar */}
-          <aside className="hidden lg:block w-56 shrink-0">
+          <aside className="hidden lg:block w-56 shrink-0 order-last">
             <div className="sticky top-24">
               <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">Phases</p>
               <nav className="space-y-1">
@@ -415,7 +415,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
           </aside>
 
           {/* Content */}
-          <main className="flex-1 min-w-0">
+          <main className="flex-1 min-w-0 order-first">
             {phases.map((phase) => {
               const progress = getPhaseProgress(phase);
               const isComplete = progress.completed === progress.total;

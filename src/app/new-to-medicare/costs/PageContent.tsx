@@ -225,7 +225,7 @@ export default function PageContent() {
       <div className="max-w-6xl mx-auto px-4 py-12 md:py-16">
         <div className="flex gap-12">
           {/* Sticky TOC Sidebar */}
-          <aside className="hidden lg:block w-56 shrink-0">
+          <aside className="hidden lg:block w-56 shrink-0 order-last">
             <div className="sticky top-24">
               <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">In This Guide</p>
               <nav className="space-y-1">
@@ -256,7 +256,7 @@ export default function PageContent() {
           </aside>
 
           {/* Content */}
-          <main className="flex-1 min-w-0">
+          <main className="flex-1 min-w-0 order-first">
             {/* Overview */}
             <section id="overview" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">2026 Medicare Cost Overview</h2>
