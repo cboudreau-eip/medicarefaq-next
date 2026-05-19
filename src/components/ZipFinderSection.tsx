@@ -5,8 +5,7 @@ import { motion } from "framer-motion";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
 
-const ZIP_BG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/zip-finder-bg-gNTJcKEjmhG5w7ALCC56EK.webp";
+const ZIP_BG = "/images/zip-finder-bg.webp";
 
 export default function ZipFinderSection() {
   return (

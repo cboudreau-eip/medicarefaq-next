@@ -6,12 +6,9 @@ import Link from "next/link";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackCtaClick } from "@/lib/analytics";
 
-const JOURNEY_NEW =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/journey-new-YLAZRxoSj2yuXGqtyALKVr.webp";
-const JOURNEY_WORKING =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/journey-working-mGXrKWystdAAjbLGresKYV.webp";
-const JOURNEY_ENROLLED =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/journey-enrolled-ZrHfua7GiB6WEzN7uGCCp3.webp";
+const JOURNEY_NEW = "/images/journey-new.webp";
+const JOURNEY_WORKING = "/images/journey-working.webp";
+const JOURNEY_ENROLLED = "/images/journey-enrolled.webp";
 
 interface JourneyLink {
   label: string;

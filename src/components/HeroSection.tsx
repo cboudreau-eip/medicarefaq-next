@@ -14,8 +14,7 @@ const trustItems = [
 
 ];
 
-const HERO_BG =
-  "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/hero-bg-JCwzhz6vF5hshLidyrZztx.webp";
+const HERO_BG = "/images/hero-bg.webp";
 
 export default function HeroSection() {
   return (
