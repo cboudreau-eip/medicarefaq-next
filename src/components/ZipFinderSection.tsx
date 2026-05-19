@@ -1,6 +1,7 @@
 "use client";
 
 import { MapPin, ArrowRight, Phone } from "lucide-react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
@@ -12,7 +13,7 @@ export default function ZipFinderSection() {
   return (
     <section className="relative overflow-hidden py-16 md:py-20">
       <div className="absolute inset-0">
-        <img src={ZIP_BG} alt="" className="w-full h-full object-cover" />
+        <Image src={ZIP_BG} alt="" fill className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-[#1B2A4A]/85" />
       </div>
 

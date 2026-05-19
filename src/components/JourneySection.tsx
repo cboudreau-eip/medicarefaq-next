@@ -3,6 +3,7 @@
 import { ArrowRight, CheckCircle, Compass, Briefcase } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackCtaClick } from "@/lib/analytics";
 
@@ -110,10 +111,12 @@ export default function JourneySection() {
               >
                 {/* Card header with image */}
                 <div className="relative h-40 overflow-hidden">
-                  <img
+                  <Image
                     src={path.image}
                     alt={path.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <div className="absolute bottom-4 left-4">

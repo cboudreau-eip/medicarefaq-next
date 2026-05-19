@@ -2,6 +2,7 @@
 
 import { ArrowRight, Star, MapPin, Users, FileCheck } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackCtaClick } from "@/lib/analytics";
@@ -22,10 +23,13 @@ export default function HeroSection() {
     <section className="relative overflow-hidden">
       {/* Background image with overlay */}
       <div className="absolute inset-0">
-        <img
+        <Image
           src={HERO_BG}
           alt=""
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#1B2A4A]/95 via-[#1B2A4A]/80 to-[#1B2A4A]/40" />
       </div>
