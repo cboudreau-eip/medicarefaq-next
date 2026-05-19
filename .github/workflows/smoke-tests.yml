@@ -39,7 +39,7 @@ jobs:
         run: |
           SLUG="medicare-costs-2025"
           echo "Testing /api/articles/$SLUG"
-          RESPONSE=$(curl -sf "$SITE_URL/api/articles/$SLUG")
+          RESPONSE=$(curl -sfL "$SITE_URL/api/articles/$SLUG")
           echo "$RESPONSE" | python3 -c "
           import sys, json
           data = json.load(sys.stdin)
@@ -57,7 +57,7 @@ jobs:
         run: |
           SLUG="what-does-medically-necessary-mean"
           echo "Testing /api/articles/$SLUG"
-          RESPONSE=$(curl -sf "$SITE_URL/api/articles/$SLUG")
+          RESPONSE=$(curl -sfL "$SITE_URL/api/articles/$SLUG")
           echo "$RESPONSE" | python3 -c "
           import sys, json
           data = json.load(sys.stdin)
@@ -73,7 +73,7 @@ jobs:
         run: |
           SLUG="does-medicare-cover-acupuncture"
           echo "Testing /api/articles/$SLUG"
-          RESPONSE=$(curl -sf "$SITE_URL/api/articles/$SLUG")
+          RESPONSE=$(curl -sfL "$SITE_URL/api/articles/$SLUG")
           echo "$RESPONSE" | python3 -c "
           import sys, json
           data = json.load(sys.stdin)
@@ -89,7 +89,7 @@ jobs:
         run: |
           SLUG="this-slug-does-not-exist"
           echo "Testing /api/articles/$SLUG (expect 404)"
-          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "$SITE_URL/api/articles/$SLUG")
+          HTTP_CODE=$(curl -sL -o /dev/null -w "%{http_code}" "$SITE_URL/api/articles/$SLUG")
           if [ "$HTTP_CODE" = "404" ]; then
             echo "PASS: unknown slug correctly returns 404"
           else
@@ -102,10 +102,10 @@ jobs:
         run: |
           PAGE="/blog/medicare-costs-2025"
           echo "Testing JSON-LD on $PAGE"
-          HTML=$(curl -sf "$SITE_URL$PAGE")
+          HTML=$(curl -sfL "$SITE_URL$PAGE")
           python3 -c "
           import sys, re, json
-          html = '''$( curl -s "$SITE_URL$PAGE" )'''
+          html = '''$( curl -sL "$SITE_URL$PAGE" )'''
           blocks = re.findall(r'<script type=\"application/ld\+json\">(.*?)</script>', html, re.DOTALL)
           assert len(blocks) >= 1, f'No JSON-LD blocks found in HTML (found {len(blocks)})'
           types = []
@@ -127,7 +127,7 @@ jobs:
           echo "Testing JSON-LD on $PAGE"
           python3 -c "
           import subprocess, re, json
-          result = subprocess.run(['curl', '-sf', '$SITE_URL$PAGE'], capture_output=True, text=True)
+          result = subprocess.run(['curl', '-sfL', '$SITE_URL$PAGE'], capture_output=True, text=True)
           html = result.stdout
           blocks = re.findall(r'<script type=\"application/ld\+json\">(.*?)</script>', html, re.DOTALL)
           assert len(blocks) >= 1, f'No JSON-LD blocks found in HTML'
