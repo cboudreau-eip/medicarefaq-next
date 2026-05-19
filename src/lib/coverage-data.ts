@@ -30245,7 +30245,7 @@ export const coverageArticles: CoverageArticleData[] = [
     title: "Medicare Advantage vs. Original Medicare",
     subtitle: "Compare Original Medicare (Part A & B) with Medicare Advantage (Part C) to understand how each coverage type works, what they cost, and which may be right for you.",
     category: "General Medicare",
-    dateUpdated: "March 29, 2023",
+    dateUpdated: "May 19, 2026",
     lastReviewed: "2026-05-19",
     author: {
       name: "David Haass",
