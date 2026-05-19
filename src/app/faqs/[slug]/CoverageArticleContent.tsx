@@ -815,6 +815,25 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 </>
               )}
 
+              {/* Infographic */}
+              {article.infographic && (
+                <div className="mb-10 mt-10">
+                  <figure className="rounded-xl overflow-hidden border border-[#E5E7EB] shadow-sm">
+                    <img
+                      src={article.infographic.src}
+                      alt={article.infographic.alt}
+                      className="w-full h-auto"
+                      loading="lazy"
+                    />
+                    {article.infographic.caption && (
+                      <figcaption className="text-sm text-[#6B7280] text-center py-3 px-4 bg-[#F9FAFB] border-t border-[#E5E7EB]">
+                        {article.infographic.caption}
+                      </figcaption>
+                    )}
+                  </figure>
+                </div>
+              )}
+
               {/* FAQs */}
               <div id="faqs" className="mb-10 mt-10">
                 <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6 flex items-center gap-2">

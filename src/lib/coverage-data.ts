@@ -30352,6 +30352,11 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "You cannot hold both a Medigap plan and a Medicare Advantage plan simultaneously. If you want Medigap, you must be enrolled in Original Medicare (Part A & B). If you switch to Medicare Advantage, your Medigap plan must be dropped.",
         },
       }],
+    infographic: {
+      src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/infographic-original-medicare-vs-medicare-advantage-6LJYPKCPGCbX8ThFjYLgBs.png",
+      alt: "Infographic comparing Original Medicare (Part A and B) vs Medicare Advantage (Part C) for 2026 — showing key differences in networks, costs, benefits, and best-fit scenarios, featuring Eddie the Eagle mascot",
+      caption: "Original Medicare vs. Medicare Advantage: A side-by-side comparison of the two main Medicare coverage paths for 2026.",
+    },
     faqs: [
       { question: "What is the difference between Original Medicare and Medicare Advantage?", answer: "Original Medicare is the federal program (Part A & B) with no networks and nationwide coverage. Medicare Advantage is offered by private insurers with network restrictions but often includes extra benefits like dental, vision, and drug coverage." },
       { question: "Can I have both Medicare Advantage and a Medigap plan?", answer: "No. You cannot hold both at the same time. Medigap only supplements Original Medicare. If you enroll in Medicare Advantage, you must drop your Medigap plan." },

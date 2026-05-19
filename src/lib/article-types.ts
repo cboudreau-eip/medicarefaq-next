@@ -158,6 +158,11 @@ export interface CoverageArticleData {
     paragraphs: string[];
     checklist?: ChecklistData;
   };
+  infographic?: {
+    src: string;
+    alt: string;
+    caption?: string;
+  };
 
   faqs: FAQItemData[];
   quickReference: QuickReferenceItem[];
