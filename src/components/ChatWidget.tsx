@@ -366,7 +366,7 @@ export default function ChatWidget() {
             <p className="text-center text-xs text-gray-400 mt-2">
               For personalized advice, call{" "}
               <a
-                href="tel:8008452484"
+                href="tel:+18008452484"
                 className="text-[#1B3A4B] font-medium hover:underline"
               >
                 (800) 845-2484

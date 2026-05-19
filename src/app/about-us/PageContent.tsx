@@ -583,7 +583,7 @@ export default function About() {  return (
                 <h3 className="font-semibold text-slate-900 mb-1">Phone</h3>
                 <p className="text-sm text-slate-500">
                   <a
-                    href="tel:8889068097"
+                    href="tel:+18889068097"
               onClick={() => trackPhoneClick({ phone_number: "(888) 906-8097", page_section: "about_us" })}
                     className="hover:text-teal-600 transition-colors"
                   >
