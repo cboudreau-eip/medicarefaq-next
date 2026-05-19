@@ -52,6 +52,9 @@ import PodcastPlayer from "@/components/PodcastPlayer";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 import ZipFormModal from "@/components/ZipFormModal";
+import { blogArticles } from "@/lib/blog-articles-data";
+/* Blog slug set — used to route relatedTopics links to /blog/ vs /faqs/ */
+const blogSlugSet = new Set(blogArticles.map((a) => a.slug));
 
 /* ─── Icon Map ─── */
 const iconMap: Record<string, React.ElementType> = {
@@ -855,7 +858,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                     const TopicIcon = icons[i % icons.length];
                     const color = colors[i % colors.length];
                     return (
-                      <Link key={i} href={`/faqs/${topic.slug}`} className="group bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm hover:shadow-md hover:border-[#C41230]/30 transition-all">
+                      <Link key={i} href={blogSlugSet.has(topic.slug) ? `/blog/${topic.slug}` : `/faqs/${topic.slug}`} className="group bg-white border border-[#E5E7EB] rounded-xl p-5 shadow-sm hover:shadow-md hover:border-[#C41230]/30 transition-all">
                         <div className="flex items-start gap-3">
                           <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0" style={{ backgroundColor: `${color}10` }}>
                             <TopicIcon className="w-5 h-5" style={{ color }} />

@@ -6724,7 +6724,7 @@ export const blogArticles: BlogArticleData[] = [
         { question: "How do I Find the Cheapest Part D Plan for My Medications?", answer: "Use the Medicare Plan Finder at Medicare.gov to compare Part D plans based on your specific medications. Enter all your drugs and dosages to see the total annual cost for each plan." }]}],
     faqs: [
       { question: "What is the Part D Out-of-pocket Maximum for 2026?", answer: "The Part D out-of-pocket maximum is $2,000 in 2026. After you reach this amount, your covered drugs cost $0 for the rest of the year." },
-      { question: "Can I Switch Part D Plans if My Drug Costs are Too High?", answer: "You can switch Part D plans during the [Annual Enrollment Period](/enrollment/annual-enrollment-period) (October 15–December 7) each year. If your circumstances change significantly, you may qualify for a Special Enrollment Period." }],
+      { question: "Can I Switch Part D Plans if My Drug Costs are Too High?", answer: "You can switch Part D plans during the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/) (October 15–December 7) each year. If your circumstances change significantly, you may qualify for a Special Enrollment Period." }],
     relatedSlugs: ["medicare-starter-guide-what-to-do-in-your-first-90-days", "chronic-care-management", "will-medicare-pay-for-a-nebulizer-machine", "top-5-medicare-prescription-drug-plans"],
   },
   {

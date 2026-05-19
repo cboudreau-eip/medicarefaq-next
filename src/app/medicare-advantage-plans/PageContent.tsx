@@ -47,7 +47,7 @@ const faqs = [
     a: (
       <>
         Yes, during the{" "}
-        <Link href="/enrollment/annual-enrollment-period" className="text-teal-700 underline hover:text-teal-900">
+        <Link href="/faqs/medicare-annual-enrollment-period/" className="text-teal-700 underline hover:text-teal-900">
           Annual Enrollment Period
         </Link>{" "}
         (October 15 – December 7), you can switch Medicare Advantage plans, move from Medicare Advantage to Original Medicare, or add/drop prescription drug coverage.

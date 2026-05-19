@@ -350,7 +350,7 @@ export default function PageContent() {
                 </div>
                 <p className="text-slate-600 text-sm mt-4">
                   For detailed information about each period, visit our{" "}
-                  <Link href="/enrollment/annual-enrollment-period" className="text-teal-700 underline hover:text-teal-900">Annual Enrollment Period guide</Link>{" "}
+                  <Link href="/faqs/medicare-annual-enrollment-period/" className="text-teal-700 underline hover:text-teal-900">Annual Enrollment Period guide</Link>{" "}
                   or{" "}
                   <Link href="/enrollment/turning-65" className="text-teal-700 underline hover:text-teal-900">Turning 65 enrollment guide</Link>.
                 </p>

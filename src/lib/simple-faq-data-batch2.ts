@@ -473,7 +473,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       "medicare-advantage-plans",
       "medicare-supplement-plans",
       "medicare-part-d",
-      "annual-enrollment-period",
+      "medicare-annual-enrollment-period",
       "deductible-copay-coinsurance-premium"],
   },
   {
