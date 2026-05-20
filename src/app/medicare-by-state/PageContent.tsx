@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronDown, Gift, Calendar, Shield, ArrowRight } from "lucide-react";
+import { ChevronDown, Calendar, Shield, ArrowRight } from "lucide-react";
 import InteractiveUSMap from "@/components/InteractiveUSMap";
 import { BIRTHDAY_RULE_STATES, BIRTHDAY_RULE_STATE_CODES, CONTINUOUS_OE_STATE_CODES } from "@/lib/birthday-rule-states";
 
@@ -28,16 +28,12 @@ export default function PageContent() {
             <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
             <span className="text-teal-400">Medicare by State</span>
           </div>
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Gift className="w-6 h-6 text-teal-400" />
-            </div>
-          </div>
+
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
             Medicare Supplement Birthday Rule by State
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-4">
-            Some states have a &ldquo;birthday rule&rdquo; that gives you a guaranteed-issue window to switch Medigap plans without medical underwriting. Click on your state to learn more.
+            Some states have a &ldquo;birthday rule&rdquo; that gives you a guaranteed-issue window to switch Medigap plans without medical underwriting.
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-slate-400">
             <span className="flex items-center gap-1.5">
@@ -59,7 +55,7 @@ export default function PageContent() {
             What Is the Medigap Birthday Rule?
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            The Medigap birthday rule is a state-level consumer protection that gives Medicare Supplement policyholders a guaranteed-issue period — typically around their birthday — to switch to a different Medigap plan without answering health questions or facing medical underwriting.
+            The Medigap birthday rule is a state-level consumer protection that gives Medicare Supplement policyholders a guaranteed-issue period, typically around their birthday, to switch to a different Medigap plan without answering health questions or facing medical underwriting.
           </p>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
             This means you can change to a plan with equal or lesser benefits (and potentially lower premiums) regardless of any health conditions you may have developed since you first enrolled.
@@ -129,7 +125,7 @@ export default function PageContent() {
             States With Continuous Open Enrollment
           </h2>
           <p className="text-gray-700 mb-6">
-            These states go even further than the birthday rule — they offer <strong>continuous guaranteed issue</strong>, meaning you can switch Medigap plans at any time of year without medical underwriting:
+            These states go even further than the birthday rule. They offer <strong>continuous guaranteed issue</strong>, meaning you can switch Medigap plans at any time of year without medical underwriting:
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {continuousOEStates.map((state) => (
@@ -154,7 +150,7 @@ export default function PageContent() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Your Birthday Approaches</h3>
               <p className="text-sm text-gray-600">
-                Your guaranteed-issue window opens around your birthday (exact timing varies by state — some start 30 days before, others on the day of).
+                Your guaranteed-issue window opens around your birthday (exact timing varies by state; some start 30 days before, others on the day of).
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">

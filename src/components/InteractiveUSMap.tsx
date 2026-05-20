@@ -116,7 +116,7 @@ export default function InteractiveUSMap() {
             </p>
             <p className="text-xs text-gray-500">
               {BIRTHDAY_RULE_STATE_CODES.includes(hoveredState)
-                ? "Has Birthday Rule — Click to learn more"
+                ? "Has Birthday Rule. Click to learn more"
                 : CONTINUOUS_OE_STATE_CODES.includes(hoveredState)
                 ? "Continuous Open Enrollment"
                 : "No additional enrollment periods"}
