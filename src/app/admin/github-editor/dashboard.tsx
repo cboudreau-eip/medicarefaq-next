@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import {
-  Github,
+  GitBranch as Github,
   Search,
   FileText,
   Globe,
