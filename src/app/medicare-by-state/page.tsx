@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     title: "Medigap Birthday Rule by State 2026 | Which States Allow Plan Switching?",
     description:
       "See which states have a Medigap birthday rule that lets you switch Medicare Supplement plans without medical underwriting. Interactive map with state-by-state details.",
-    url: "https://www.medicarefaq.com/medicare-supplements/birthday-rule-by-state/",
+    url: "https://www.medicarefaq.com/medicare-by-state/",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.medicarefaq.com/medicare-supplements/birthday-rule-by-state/",
+    canonical: "https://www.medicarefaq.com/medicare-by-state/",
   },
 };
 

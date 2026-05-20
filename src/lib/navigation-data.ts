@@ -1,5 +1,6 @@
 import {
   Compass,
+  MapPin,
   HelpCircle,
   Clock,
   DollarSign,
@@ -134,6 +135,12 @@ export const navigationData: NavCategory[] = [
         description: "What you'll pay for each plan type",
         icon: DollarSign,
         href: "/medicare-plans/costs",
+      },
+      {
+        title: "Medicare by State",
+        description: "Birthday rule & underwriting rules in your state",
+        icon: MapPin,
+        href: "/medicare-by-state",
       }],
     sidebarTitle: "POPULAR COMPARISON",
     sidebarItems: [

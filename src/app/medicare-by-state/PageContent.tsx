@@ -24,9 +24,9 @@ export default function PageContent() {
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
-            <Link href="/medicare-supplements" className="hover:text-white transition-colors">Medicare Supplement</Link>
+            <Link href="/medicare-plans" className="hover:text-white transition-colors">Medicare Plans</Link>
             <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
-            <span className="text-teal-400">Birthday Rule by State</span>
+            <span className="text-teal-400">Medicare by State</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
