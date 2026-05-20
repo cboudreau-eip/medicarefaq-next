@@ -290,8 +290,8 @@ export const CARRIER_DATA: CarrierData[] = [
     founded: "1853",
     hq: "Hartford, CT",
     statesAvailable: 44,
-    popularPlans: ["G", "N", "HD-G"],
-    plans: plans(["A", "B", "D", "F", "G", "HD-F", "HD-G", "K", "L", "N"]),
+    popularPlans: ["G", "N", "D"],
+    plans: plans(["A", "B", "C", "D", "F", "G", "K", "L", "M", "N"]),
     overview: "Aetna is one of the oldest and most established health insurance companies in the United States, founded in 1853. Now a subsidiary of CVS Health, Aetna offers Medicare Supplement plans in approximately 44 states (primarily through its Accendo subsidiary) and is known for its financial strength, brand recognition, and competitive pricing. Aetna's Medigap plans are available through independent agents and are particularly popular for Plan G. Their long history and CVS Health backing make them a reliable choice.",
     strengths: [
       "One of the oldest insurers in the U.S. (founded 1853)",
@@ -299,7 +299,7 @@ export const CARRIER_DATA: CarrierData[] = [
       "Available in 44 states (via Aetna and Accendo subsidiaries)",
       "Competitive pricing for Plan G and Plan N",
       "A (Excellent) AM Best rating",
-      "7% household discount available"],
+      "14% household discount available (through Accendo)"],
     considerations: [
       "Has been reducing state availability in recent years",
       "Medigap sold through Accendo subsidiary in most states",
