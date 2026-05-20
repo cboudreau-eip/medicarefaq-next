@@ -18,6 +18,7 @@ import {
   Tag,
   Lock,
   LogOut,
+  ImageIcon,
 } from "lucide-react";
 
 interface ArticleListItem {
@@ -34,6 +35,8 @@ interface ArticleDetail {
   slug: string;
   type: "blog" | "coverage";
   title: string;
+  image?: string;
+  imageAlt?: string;
   seo: {
     title: string;
     description: string;
@@ -75,6 +78,8 @@ export default function GitHubEditorDashboard() {
   const [editSeoTitle, setEditSeoTitle] = useState("");
   const [editSeoDesc, setEditSeoDesc] = useState("");
   const [editOgImage, setEditOgImage] = useState("");
+  const [editImage, setEditImage] = useState("");
+  const [editImageAlt, setEditImageAlt] = useState("");
   const [editSectionsRaw, setEditSectionsRaw] = useState("");
 
   // Save state
@@ -211,6 +216,8 @@ export default function GitHubEditorDashboard() {
         setEditSeoTitle(data.seo?.title ?? "");
         setEditSeoDesc(data.seo?.description ?? "");
         setEditOgImage(data.seo?.ogImage ?? "");
+        setEditImage(data.image ?? "");
+        setEditImageAlt(data.imageAlt ?? "");
         setEditSectionsRaw(data.sectionsRaw ?? "");
       } catch (err) {
         setDetailError(String(err));
@@ -237,6 +244,8 @@ export default function GitHubEditorDashboard() {
           seoTitle: editSeoTitle,
           seoDescription: editSeoDesc,
           ogImage: editOgImage,
+          image: editImage,
+          imageAlt: editImageAlt,
           sectionsRaw: editSectionsRaw,
         }),
       });
@@ -558,6 +567,52 @@ export default function GitHubEditorDashboard() {
                       className="w-full text-base font-medium text-gray-900 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                       placeholder="Article title..."
                     />
+                  </div>
+
+                  {/* Featured Image */}
+                  <div className="bg-white rounded-xl border border-gray-200 p-6">
+                    <h2 className="text-sm font-semibold text-gray-700 mb-4 flex items-center gap-2">
+                      <ImageIcon className="w-4 h-4 text-gray-400" />
+                      Featured Image
+                    </h2>
+                    <div className="space-y-4">
+                      <div>
+                        <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                          Image URL
+                        </label>
+                        <input
+                          type="url"
+                          value={editImage}
+                          onChange={(e) => setEditImage(e.target.value)}
+                          className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent font-mono"
+                          placeholder="https://images.unsplash.com/..."
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                          Image Alt Text
+                        </label>
+                        <input
+                          type="text"
+                          value={editImageAlt}
+                          onChange={(e) => setEditImageAlt(e.target.value)}
+                          className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                          placeholder="Descriptive alt text for the image..."
+                        />
+                      </div>
+                      {editImage && (
+                        <div className="rounded-lg overflow-hidden border border-gray-200 bg-gray-50">
+                          <img
+                            src={editImage}
+                            alt={editImageAlt || "Featured image preview"}
+                            className="w-full h-48 object-cover"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).style.display = "none";
+                            }}
+                          />
+                        </div>
+                      )}
+                    </div>
                   </div>
 
                   {/* SEO Fields */}

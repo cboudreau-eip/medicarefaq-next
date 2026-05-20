@@ -103,6 +103,16 @@ function parseTitle(block: string): string {
   return m ? m[1] : "";
 }
 
+function parseImage(block: string): string {
+  const m = block.match(/(?:^|,|\s)image:\s*"((?:[^"\\]|\\.)*)"/);
+  return m ? m[1] : "";
+}
+
+function parseImageAlt(block: string): string {
+  const m = block.match(/imageAlt:\s*"((?:[^"\\]|\\.)*)"/);
+  return m ? m[1] : "";
+}
+
 /**
  * Extract sections array as raw JSON-parseable string.
  * We find "sections: [" and extract the full array.
@@ -154,6 +164,8 @@ export async function GET(req: NextRequest) {
 
     const seo = parseSEO(block);
     const title = parseTitle(block);
+    const image = parseImage(block);
+    const imageAlt = parseImageAlt(block);
     const sectionsRaw = parseSectionsRaw(block);
 
     // Try to parse sections as JSON (they're stored as JS object literals - attempt best-effort)
@@ -173,6 +185,8 @@ export async function GET(req: NextRequest) {
       slug,
       type,
       title,
+      image,
+      imageAlt,
       seo,
       sections,
       sectionsRaw,

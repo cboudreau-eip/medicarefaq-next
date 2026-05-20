@@ -68,6 +68,8 @@ function patchArticleInSource(
     seoTitle?: string;
     seoDescription?: string;
     ogImage?: string;
+    image?: string;
+    imageAlt?: string;
     sectionsRaw?: string;
   }
 ): string {
@@ -102,6 +104,29 @@ function patchArticleInSource(
     );
   }
 
+  // Patch image field
+  if (updates.image !== undefined) {
+    block = block.replace(
+      /(\bimage:\s*)"(?:[^"\\]|\\.)*"/,
+      `$1"${updates.image.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+    );
+  }
+  // Patch imageAlt field
+  if (updates.imageAlt !== undefined) {
+    const hasImageAlt = /imageAlt:\s*"/.test(block);
+    if (hasImageAlt) {
+      block = block.replace(
+        /(\bimageAlt:\s*)"(?:[^"\\]|\\.)*"/,
+        `$1"${updates.imageAlt.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+      );
+    } else if (updates.imageAlt) {
+      // Insert imageAlt after image field if it doesn't exist
+      block = block.replace(
+        /(\bimage:\s*"(?:[^"\\]|\\.)*")(,?)/,
+        `$1,\n    imageAlt: "${updates.imageAlt.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+      );
+    }
+  }
   // Patch seo fields
   if (updates.seoTitle !== undefined || updates.seoDescription !== undefined || updates.ogImage !== undefined) {
     // Find seo block within the article block
@@ -174,7 +199,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { slug, type, title, seoTitle, seoDescription, ogImage, sectionsRaw } = body;
+    const { slug, type, title, seoTitle, seoDescription, ogImage, image, imageAlt, sectionsRaw } = body;
 
     if (!slug || !type) {
       return NextResponse.json({ error: "slug and type required" }, { status: 400 });
@@ -194,6 +219,8 @@ export async function POST(req: NextRequest) {
       seoTitle,
       seoDescription,
       ogImage,
+      image,
+      imageAlt,
       sectionsRaw,
     });
 
