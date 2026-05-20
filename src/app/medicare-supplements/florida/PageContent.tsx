@@ -378,6 +378,25 @@ export default function FloridaPageContent() {
         </div>
       </section>
 
+      {/* Intro Section */}
+      <section className="py-12 border-b border-slate-100">
+        <div className="container max-w-4xl">
+          <p className="text-slate-700 text-base leading-relaxed mb-4">
+            Nearly 930,000 Floridians have Medicare Supplement Insurance, or Medigap.
+            Medigap plans help cover certain out-of-pocket expenses like copays, coinsurance,
+            and deductibles left over after Medicare pays for covered services. With over
+            4.8 million Medicare beneficiaries in the state, Florida is one of the largest
+            and most competitive Medigap markets in the country.
+          </p>
+          <p className="text-slate-700 text-base leading-relaxed">
+            Many companies offer Medigap plans in Florida, but only a few earn top marks
+            on our data-driven ratings. We compared companies based on prices, financial
+            strength, complaint rates, plan availability, and discount options to find the
+            best Medigap plans in Florida for 2026.
+          </p>
+        </div>
+      </section>
+
       {/* Carrier Cards Section */}
       <section className="py-12">
         <div className="container max-w-4xl">
