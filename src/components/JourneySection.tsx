@@ -139,7 +139,7 @@ export default function JourneySection() {
                           <ZipFormModal
                             coverageType="ms"
                             title="Compare Medicare Plans"
-                            subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
+                            subtitle="Enter your ZIP code to compare plans and rates in your area. Free, no obligation."
                             buttonLabel="Compare Plans"
                             pageSection="journey_section"
                             triggerId="compare-plans-journey-1"
@@ -165,7 +165,7 @@ export default function JourneySection() {
                     <ZipFormModal
                       coverageType="ms"
                       title="Compare Medicare Plans"
-                      subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
+                      subtitle="Enter your ZIP code to compare plans and rates in your area. Free, no obligation."
                       buttonLabel="Compare Plans"
                       pageSection="journey_section"
                       triggerId="compare-plans-journey-2"

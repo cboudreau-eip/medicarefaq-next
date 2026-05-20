@@ -10,7 +10,7 @@ const resources = [
     typeColor: "#059669",
     title: "Medicare Supplement Plan G: The Complete 2026 Guide",
     description:
-      "Everything you need to know about Plan G — costs, coverage, and why it's become the most popular Medigap plan.",
+      "Everything you need to know about Plan G: costs, coverage, and why it's become the most popular Medigap plan.",
     date: "Updated Mar 2026",
     href: "/library/guides",
   },
@@ -54,7 +54,7 @@ export default function ResourcesSection() {
             Latest Resources
           </h2>
           <p className="text-[#6B7280] text-lg max-w-2xl mx-auto">
-            Guides, answers, and tools — updated regularly by licensed Medicare
+            Guides, answers, and tools, updated regularly by licensed Medicare
             professionals.
           </p>
         </motion.div>

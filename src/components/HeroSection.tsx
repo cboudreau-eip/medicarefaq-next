@@ -94,7 +94,7 @@ export default function HeroSection() {
             <ZipFormModal
               coverageType="ms"
               title="Compare Medicare Plans"
-              subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
+              subtitle="Enter your ZIP code to compare plans and rates in your area. Free, no obligation."
               buttonLabel="Compare Plans"
               pageSection="hero"
               triggerId="get-started-free-hero"

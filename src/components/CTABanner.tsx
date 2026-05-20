@@ -21,7 +21,7 @@ export default function CTABanner() {
               Need help choosing the right plan?
             </h2>
             <p className="text-white/80 text-base">
-              Our licensed agents are available to answer your questions — no
+              Our licensed agents are available to answer your questions. No
               obligation, no pressure.
             </p>
           </div>
@@ -42,7 +42,7 @@ export default function CTABanner() {
             <ZipFormModal
               coverageType="ms"
               title="Get Started Online"
-              subtitle="Enter your ZIP code to compare plans and rates in your area — free, no obligation."
+              subtitle="Enter your ZIP code to compare plans and rates in your area. Free, no obligation."
               buttonLabel="Compare Plans"
               pageSection="cta_banner"
               triggerId="compare-plans-cta-banner"

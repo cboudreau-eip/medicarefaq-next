@@ -17,7 +17,7 @@ const topics = [
   {
     title: "Medicare Plans Compared",
     description:
-      "Original Medicare, Advantage, Supplement, Part D — side by side comparisons.",
+      "Original Medicare, Advantage, Supplement, Part D. Side by side comparisons.",
     icon: BarChart3,
     color: "#1B2A4A",
     articles: "12 articles",
@@ -91,7 +91,7 @@ export default function TopicSection() {
           </h2>
           <p className="text-[#6B7280] text-lg max-w-2xl mx-auto">
             Six comprehensive guides covering everything you need to know about
-            Medicare — each one a complete resource, not a sales pitch.
+            Medicare. Each one a complete resource, not a sales pitch.
           </p>
         </motion.div>
 
