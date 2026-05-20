@@ -11,8 +11,13 @@ function checkCmsAuth(request: Request): boolean {
 const REPO = "cboudreau-eip/medicarefaq-next";
 const BRANCH = "main";
 
-async function githubGet(path: string) {
-  const res = await fetch(
+/**
+ * Fetch file content from GitHub. For files >1MB, the Contents API
+ * returns encoding:"none" with no content, so we fall back to the
+ * raw download URL.
+ */
+async function githubGetContent(path: string): Promise<string> {
+  const metaRes = await fetch(
     `https://api.github.com/repos/${REPO}/contents/${path}?ref=${BRANCH}`,
     {
       headers: {
@@ -22,12 +27,27 @@ async function githubGet(path: string) {
       cache: "no-store",
     }
   );
-  if (!res.ok) throw new Error(`GitHub API error: ${res.status} ${path}`);
-  return res.json();
-}
+  if (!metaRes.ok) throw new Error(`GitHub API error: ${metaRes.status} ${path}`);
+  const meta = await metaRes.json();
 
-function decodeBase64(b64: string): string {
-  return Buffer.from(b64.replace(/\n/g, ""), "base64").toString("utf-8");
+  // If content is available (small files), decode base64
+  if (meta.content && meta.encoding === "base64") {
+    return Buffer.from(meta.content.replace(/\n/g, ""), "base64").toString("utf-8");
+  }
+
+  // For large files, use the raw download URL
+  if (meta.download_url) {
+    const rawRes = await fetch(meta.download_url, {
+      headers: {
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
+      },
+      cache: "no-store",
+    });
+    if (!rawRes.ok) throw new Error(`GitHub raw download error: ${rawRes.status} ${path}`);
+    return rawRes.text();
+  }
+
+  throw new Error(`Cannot retrieve content for ${path} (encoding: ${meta.encoding})`);
 }
 
 // Extract slug+title+seo from a TS data file using regex (no eval)
@@ -71,13 +91,10 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   try {
-    const [blogFile, coverageFile] = await Promise.all([
-      githubGet("src/lib/blog-articles-data.ts"),
-      githubGet("src/lib/coverage-data.ts"),
+    const [blogSrc, coverageSrc] = await Promise.all([
+      githubGetContent("src/lib/blog-articles-data.ts"),
+      githubGetContent("src/lib/coverage-data.ts"),
     ]);
-
-    const blogSrc = decodeBase64(blogFile.content);
-    const coverageSrc = decodeBase64(coverageFile.content);
 
     const blogArticles = extractBlogArticles(blogSrc).map((a) => ({
       ...a,

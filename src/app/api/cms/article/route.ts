@@ -12,8 +12,12 @@ function checkCmsAuth(request: Request): boolean {
 const REPO = "cboudreau-eip/medicarefaq-next";
 const BRANCH = "main";
 
-async function githubGetFile(path: string) {
-  const res = await fetch(
+/**
+ * Fetch file content and SHA from GitHub. Handles large files (>1MB)
+ * by falling back to the raw download URL.
+ */
+async function githubGetFileContent(path: string): Promise<{ content: string; sha: string }> {
+  const metaRes = await fetch(
     `https://api.github.com/repos/${REPO}/contents/${path}?ref=${BRANCH}`,
     {
       headers: {
@@ -23,12 +27,30 @@ async function githubGetFile(path: string) {
       cache: "no-store",
     }
   );
-  if (!res.ok) throw new Error(`GitHub API error: ${res.status} for ${path}`);
-  return res.json();
-}
+  if (!metaRes.ok) throw new Error(`GitHub API error: ${metaRes.status} for ${path}`);
+  const meta = await metaRes.json();
+  const sha = meta.sha;
 
-function decodeBase64(b64: string): string {
-  return Buffer.from(b64.replace(/\n/g, ""), "base64").toString("utf-8");
+  // If content is available (small files), decode base64
+  if (meta.content && meta.encoding === "base64") {
+    const content = Buffer.from(meta.content.replace(/\n/g, ""), "base64").toString("utf-8");
+    return { content, sha };
+  }
+
+  // For large files, use the raw download URL
+  if (meta.download_url) {
+    const rawRes = await fetch(meta.download_url, {
+      headers: {
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
+      },
+      cache: "no-store",
+    });
+    if (!rawRes.ok) throw new Error(`GitHub raw download error: ${rawRes.status} for ${path}`);
+    const content = await rawRes.text();
+    return { content, sha };
+  }
+
+  throw new Error(`Cannot retrieve content for ${path} (encoding: ${meta.encoding})`);
 }
 
 /**
@@ -123,9 +145,7 @@ export async function GET(req: NextRequest) {
       : "src/lib/coverage-data.ts";
 
   try {
-    const fileData = await githubGetFile(filePath);
-    const src = decodeBase64(fileData.content);
-    const sha = fileData.sha;
+    const { content: src, sha } = await githubGetFileContent(filePath);
 
     const block = extractArticleBlock(src, slug);
     if (!block) {
@@ -136,7 +156,7 @@ export async function GET(req: NextRequest) {
     const title = parseTitle(block);
     const sectionsRaw = parseSectionsRaw(block);
 
-    // Try to parse sections as JSON (they're stored as JS object literals — attempt best-effort)
+    // Try to parse sections as JSON (they're stored as JS object literals - attempt best-effort)
     let sections: unknown[] = [];
     try {
       // Replace unquoted keys with quoted keys for JSON compatibility
@@ -145,7 +165,7 @@ export async function GET(req: NextRequest) {
         .replace(/'/g, '"');
       sections = JSON.parse(jsonified);
     } catch {
-      // Return raw string if parsing fails — editor will show raw mode
+      // Return raw string if parsing fails - editor will show raw mode
       sections = [];
     }
 

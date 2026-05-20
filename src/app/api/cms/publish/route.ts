@@ -12,8 +12,12 @@ function checkCmsAuth(request: Request): boolean {
 const REPO = "cboudreau-eip/medicarefaq-next";
 const BRANCH = "main";
 
-async function githubGetFile(path: string) {
-  const res = await fetch(
+/**
+ * Fetch file content and SHA from GitHub. Handles large files (>1MB)
+ * by falling back to the raw download URL.
+ */
+async function githubGetFileContent(path: string): Promise<{ content: string; sha: string }> {
+  const metaRes = await fetch(
     `https://api.github.com/repos/${REPO}/contents/${path}?ref=${BRANCH}`,
     {
       headers: {
@@ -23,12 +27,30 @@ async function githubGetFile(path: string) {
       cache: "no-store",
     }
   );
-  if (!res.ok) throw new Error(`GitHub GET error: ${res.status} for ${path}`);
-  return res.json();
-}
+  if (!metaRes.ok) throw new Error(`GitHub GET error: ${metaRes.status} for ${path}`);
+  const meta = await metaRes.json();
+  const sha = meta.sha;
 
-function decodeBase64(b64: string): string {
-  return Buffer.from(b64.replace(/\n/g, ""), "base64").toString("utf-8");
+  // If content is available (small files), decode base64
+  if (meta.content && meta.encoding === "base64") {
+    const content = Buffer.from(meta.content.replace(/\n/g, ""), "base64").toString("utf-8");
+    return { content, sha };
+  }
+
+  // For large files, use the raw download URL
+  if (meta.download_url) {
+    const rawRes = await fetch(meta.download_url, {
+      headers: {
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
+      },
+      cache: "no-store",
+    });
+    if (!rawRes.ok) throw new Error(`GitHub raw download error: ${rawRes.status} for ${path}`);
+    const content = await rawRes.text();
+    return { content, sha };
+  }
+
+  throw new Error(`Cannot retrieve content for ${path} (encoding: ${meta.encoding})`);
 }
 
 function encodeBase64(str: string): string {
@@ -163,10 +185,8 @@ export async function POST(req: NextRequest) {
         ? "src/lib/blog-articles-data.ts"
         : "src/lib/coverage-data.ts";
 
-    // Get current file
-    const fileData = await githubGetFile(filePath);
-    const currentSrc = decodeBase64(fileData.content);
-    const fileSha = fileData.sha;
+    // Get current file content and SHA
+    const { content: currentSrc, sha: fileSha } = await githubGetFileContent(filePath);
 
     // Apply patches
     const patchedSrc = patchArticleInSource(currentSrc, slug, {
@@ -181,7 +201,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ message: "No changes detected", committed: false });
     }
 
-    // Commit to GitHub
+    // Commit to GitHub via the Git Blobs + Trees API for large files
+    // (The Contents API has a 100MB limit but requires base64 which doubles size)
+    // For files under ~50MB, the Contents API PUT still works with base64
     const commitRes = await fetch(
       `https://api.github.com/repos/${REPO}/contents/${filePath}`,
       {
@@ -192,7 +214,7 @@ export async function POST(req: NextRequest) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          message: `cms: update "${slug}" — title, SEO, and content`,
+          message: `cms: update "${slug}" - title, SEO, and content`,
           content: encodeBase64(patchedSrc),
           sha: fileSha,
           branch: BRANCH,
@@ -202,7 +224,7 @@ export async function POST(req: NextRequest) {
 
     if (!commitRes.ok) {
       const err = await commitRes.text();
-      throw new Error(`GitHub commit failed: ${commitRes.status} — ${err}`);
+      throw new Error(`GitHub commit failed: ${commitRes.status} - ${err}`);
     }
 
     const commitData = await commitRes.json();
