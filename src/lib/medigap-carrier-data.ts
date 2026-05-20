@@ -188,7 +188,7 @@ export const CARRIER_DATA: CarrierData[] = [
     hq: "Minnetonka, MN",
     statesAvailable: 50,
     popularPlans: ["G", "N", "K"],
-    plans: plans(["A", "B", "C", "D", "F", "G", "HD-F", "HD-G", "K", "L", "M", "N"]),
+    plans: plans(["A", "B", "G", "K", "L", "N"]),
     overview: "UnitedHealthcare is the largest health insurer in the United States and one of the most recognized names in Medicare. Their Medicare Supplement plans are underwritten by AARP and marketed through the AARP Medicare Supplement Insurance Program. UnitedHealthcare's Medigap plans are available in all 50 states and are known for their brand recognition, member benefits, and broad availability. AARP membership (available to anyone 50+) is required to enroll.",
     strengths: [
       "Largest health insurer in the U.S. — exceptional financial strength",
@@ -199,7 +199,7 @@ export const CARRIER_DATA: CarrierData[] = [
       "A+ (Superior) AM Best rating"],
     considerations: [
       "Typically higher premiums than many competitors",
-      "AARP membership required ($16/year)",
+      "AARP membership required ($15–$20/year)",
       "Rate increases have been above average in some states",
       "Not always the best value for budget-conscious enrollees"],
     bestFor: "Enrollees who value brand recognition, broad availability, and AARP member benefits, and who are less price-sensitive.",
