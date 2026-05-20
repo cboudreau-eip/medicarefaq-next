@@ -16,6 +16,8 @@ import {
   ArrowLeft,
   RefreshCw,
   Tag,
+  Lock,
+  LogOut,
 } from "lucide-react";
 
 interface ArticleListItem {
@@ -47,10 +49,17 @@ type SaveStatus = "idle" | "saving" | "success" | "error";
 export default function GitHubEditorDashboard() {
   const router = useRouter();
 
+  // Auth state
+  const [authenticated, setAuthenticated] = useState(false);
+  const [passwordInput, setPasswordInput] = useState("");
+  const [password, setPassword] = useState("");
+  const [authError, setAuthError] = useState("");
+  const [authLoading, setAuthLoading] = useState(false);
+
   // Article list state
   const [articles, setArticles] = useState<ArticleListItem[]>([]);
   const [filtered, setFiltered] = useState<ArticleListItem[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [listError, setListError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [typeFilter, setTypeFilter] = useState<"all" | "blog" | "coverage">("all");
@@ -72,12 +81,85 @@ export default function GitHubEditorDashboard() {
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [saveMessage, setSaveMessage] = useState("");
 
+  // Check for stored session on mount
+  useEffect(() => {
+    const storedPw = sessionStorage.getItem("cms_password");
+    if (storedPw) {
+      setPassword(storedPw);
+      setAuthenticated(true);
+    }
+  }, []);
+
+  // Handle login
+  const handleLogin = async () => {
+    setAuthError("");
+    setAuthLoading(true);
+    try {
+      const res = await fetch("/api/cms/auth", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password: passwordInput }),
+      });
+      if (res.status === 401) {
+        setAuthError("Invalid password. Access denied.");
+        return;
+      }
+      if (!res.ok) {
+        setAuthError("Server error. Try again.");
+        return;
+      }
+      // Success
+      setPassword(passwordInput);
+      sessionStorage.setItem("cms_password", passwordInput);
+      setAuthenticated(true);
+    } catch {
+      setAuthError("Connection error. Try again.");
+    } finally {
+      setAuthLoading(false);
+    }
+  };
+
+  // Handle logout
+  const handleLogout = () => {
+    setAuthenticated(false);
+    setPassword("");
+    setPasswordInput("");
+    sessionStorage.removeItem("cms_password");
+    setArticles([]);
+    setSelected(null);
+    setDetail(null);
+  };
+
+  // Authenticated fetch helper
+  const authFetch = useCallback(
+    async (url: string, options?: RequestInit) => {
+      const existingHeaders = options?.headers
+        ? options.headers instanceof Headers
+          ? Object.fromEntries(options.headers.entries())
+          : (options.headers as Record<string, string>)
+        : {};
+      const headers = {
+        ...existingHeaders,
+        "x-cms-password": password,
+      };
+      const res = await fetch(url, { ...options, headers });
+      if (res.status === 401) {
+        setAuthenticated(false);
+        sessionStorage.removeItem("cms_password");
+        throw new Error("Session expired. Please log in again.");
+      }
+      return res;
+    },
+    [password]
+  );
+
   // Load article list
   const loadArticles = useCallback(async () => {
+    if (!authenticated) return;
     setLoading(true);
     setListError(null);
     try {
-      const res = await fetch("/api/cms/articles");
+      const res = await authFetch("/api/cms/articles");
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Failed to load articles");
       setArticles(data.articles ?? []);
@@ -86,11 +168,13 @@ export default function GitHubEditorDashboard() {
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [authenticated, authFetch]);
 
   useEffect(() => {
-    loadArticles();
-  }, [loadArticles]);
+    if (authenticated) {
+      loadArticles();
+    }
+  }, [authenticated, loadArticles]);
 
   // Filter articles
   useEffect(() => {
@@ -108,31 +192,34 @@ export default function GitHubEditorDashboard() {
   }, [articles, search, typeFilter]);
 
   // Load article detail
-  const loadDetail = useCallback(async (article: ArticleListItem) => {
-    setSelected(article);
-    setDetail(null);
-    setDetailError(null);
-    setDetailLoading(true);
-    setSaveStatus("idle");
-    setSaveMessage("");
-    try {
-      const res = await fetch(
-        `/api/cms/article?slug=${encodeURIComponent(article.slug)}&type=${article.type}`
-      );
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? "Failed to load article");
-      setDetail(data);
-      setEditTitle(data.title ?? "");
-      setEditSeoTitle(data.seo?.title ?? "");
-      setEditSeoDesc(data.seo?.description ?? "");
-      setEditOgImage(data.seo?.ogImage ?? "");
-      setEditSectionsRaw(data.sectionsRaw ?? "");
-    } catch (err) {
-      setDetailError(String(err));
-    } finally {
-      setDetailLoading(false);
-    }
-  }, []);
+  const loadDetail = useCallback(
+    async (article: ArticleListItem) => {
+      setSelected(article);
+      setDetail(null);
+      setDetailError(null);
+      setDetailLoading(true);
+      setSaveStatus("idle");
+      setSaveMessage("");
+      try {
+        const res = await authFetch(
+          `/api/cms/article?slug=${encodeURIComponent(article.slug)}&type=${article.type}`
+        );
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error ?? "Failed to load article");
+        setDetail(data);
+        setEditTitle(data.title ?? "");
+        setEditSeoTitle(data.seo?.title ?? "");
+        setEditSeoDesc(data.seo?.description ?? "");
+        setEditOgImage(data.seo?.ogImage ?? "");
+        setEditSectionsRaw(data.sectionsRaw ?? "");
+      } catch (err) {
+        setDetailError(String(err));
+      } finally {
+        setDetailLoading(false);
+      }
+    },
+    [authFetch]
+  );
 
   // Publish changes
   const handlePublish = async () => {
@@ -140,7 +227,7 @@ export default function GitHubEditorDashboard() {
     setSaveStatus("saving");
     setSaveMessage("");
     try {
-      const res = await fetch("/api/cms/publish", {
+      const res = await authFetch("/api/cms/publish", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -160,7 +247,9 @@ export default function GitHubEditorDashboard() {
       // Update list item title
       setArticles((prev) =>
         prev.map((a) =>
-          a.slug === selected.slug ? { ...a, title: editTitle, seoTitle: editSeoTitle, seoDescription: editSeoDesc, ogImage: editOgImage } : a
+          a.slug === selected.slug
+            ? { ...a, title: editTitle, seoTitle: editSeoTitle, seoDescription: editSeoDesc, ogImage: editOgImage }
+            : a
         )
       );
     } catch (err) {
@@ -172,6 +261,71 @@ export default function GitHubEditorDashboard() {
   const titleCharCount = editSeoTitle.length;
   const descCharCount = editSeoDesc.length;
 
+  // ─── LOGIN SCREEN ───────────────────────────────────────────────────────────
+  if (!authenticated) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
+        <div className="w-full max-w-sm">
+          <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
+            <div className="flex flex-col items-center mb-6">
+              <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center mb-4">
+                <Lock className="w-6 h-6 text-teal-600" />
+              </div>
+              <h1 className="text-xl font-bold text-gray-900">CMS Editor</h1>
+              <p className="text-sm text-gray-500 mt-1">Enter your admin password to continue</p>
+            </div>
+
+            <div className="space-y-4">
+              <div>
+                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  value={passwordInput}
+                  onChange={(e) => setPasswordInput(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && handleLogin()}
+                  placeholder="Enter admin password..."
+                  className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                  autoFocus
+                />
+              </div>
+
+              {authError && (
+                <div className="flex items-center gap-2 text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+                  <AlertCircle className="w-4 h-4 shrink-0" />
+                  <span>{authError}</span>
+                </div>
+              )}
+
+              <button
+                onClick={handleLogin}
+                disabled={authLoading || !passwordInput.trim()}
+                className="w-full flex items-center justify-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-4 py-2.5 hover:bg-teal-700 transition-colors disabled:opacity-50"
+              >
+                {authLoading ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    Verifying...
+                  </>
+                ) : (
+                  <>
+                    <Lock className="w-4 h-4" />
+                    Sign In
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+          <p className="text-center text-xs text-gray-400 mt-4">
+            MedicareFAQ GitHub CMS Editor
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  // ─── AUTHENTICATED DASHBOARD ────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Top Bar */}
@@ -197,6 +351,13 @@ export default function GitHubEditorDashboard() {
             title="Refresh article list"
           >
             <RefreshCw className={`w-4 h-4 ${loading ? "animate-spin" : ""}`} />
+          </button>
+          <button
+            onClick={handleLogout}
+            className="text-gray-400 hover:text-red-500 transition-colors ml-2"
+            title="Sign out"
+          >
+            <LogOut className="w-4 h-4" />
           </button>
         </div>
       </header>
@@ -251,7 +412,7 @@ export default function GitHubEditorDashboard() {
               <div className="flex flex-col items-center justify-center py-16 text-gray-400">
                 <FileText className="w-8 h-8 mb-2 opacity-40" />
                 <p className="text-sm">No articles found</p>
-                <p className="text-xs mt-1">No blog articles found in the repository.</p>
+                <p className="text-xs mt-1">Try adjusting your search or filter.</p>
               </div>
             )}
             {!loading &&
@@ -433,7 +594,7 @@ export default function GitHubEditorDashboard() {
                         />
                         {titleCharCount > 60 && (
                           <p className="text-xs text-red-500 mt-1">
-                            Title exceeds 60 characters — may be truncated in search results
+                            Title exceeds 60 characters and may be truncated in search results
                           </p>
                         )}
                       </div>
@@ -465,7 +626,7 @@ export default function GitHubEditorDashboard() {
                         />
                         {descCharCount > 160 && (
                           <p className="text-xs text-red-500 mt-1">
-                            Description exceeds 160 characters — may be truncated in search results
+                            Description exceeds 160 characters and may be truncated in search results
                           </p>
                         )}
                       </div>

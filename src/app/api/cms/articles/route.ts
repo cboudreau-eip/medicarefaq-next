@@ -1,6 +1,13 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 const GITHUB_TOKEN = process.env.GITHUB_PAT;
+const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
+
+function checkCmsAuth(request: Request): boolean {
+  if (!CMS_PASSWORD) return false;
+  const pw = request.headers.get("x-cms-password") ?? "";
+  return pw === CMS_PASSWORD;
+}
 const REPO = "cboudreau-eip/medicarefaq-next";
 const BRANCH = "main";
 
@@ -59,7 +66,10 @@ function extractCoverageArticles(src: string) {
   return articles;
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  if (!checkCmsAuth(request)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
   try {
     const [blogFile, coverageFile] = await Promise.all([
       githubGet("src/lib/blog-articles-data.ts"),

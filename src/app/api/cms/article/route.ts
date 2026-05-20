@@ -1,6 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const GITHUB_TOKEN = process.env.GITHUB_PAT;
+const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
+
+function checkCmsAuth(request: Request): boolean {
+  if (!CMS_PASSWORD) return false;
+  const pw = request.headers.get("x-cms-password") ?? "";
+  return pw === CMS_PASSWORD;
+}
+
 const REPO = "cboudreau-eip/medicarefaq-next";
 const BRANCH = "main";
 
@@ -97,6 +105,10 @@ function parseSectionsRaw(block: string): string {
 }
 
 export async function GET(req: NextRequest) {
+  if (!checkCmsAuth(req)) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const { searchParams } = new URL(req.url);
   const slug = searchParams.get("slug");
   const type = searchParams.get("type") as "blog" | "coverage" | null;
