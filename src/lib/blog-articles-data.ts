@@ -7680,8 +7680,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop",
-    imageAlt: "Calendar and documents representing Medicare enrollment deadlines and planning",
+    image: "https://images.unsplash.com/photo-1778315792938-1cc803b76e75?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Senior couple reviewing Medicare enrollment documents together at home",
     keyTakeaways: [
       "The Medicare Advantage Annual Enrollment Period runs from October 15 to December 7 each year, with 2026 being the window for 2027 coverage changes.",
       "During AEP, you can join, switch, or drop a Medicare Advantage or Part D plan, all changes take effect January 1, 2027.",
