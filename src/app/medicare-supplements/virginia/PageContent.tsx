@@ -3,7 +3,7 @@
 /**
  * Virginia Medicare Supplement Comparison Page
  * Route: /medicare-supplements/virginia/
- * Key differentiators: Virginia birthday rule (effective July 1, 2025) — same plan only,
+ * Key differentiators: Virginia birthday rule (effective July 1, 2025) - same plan only,
  *                      Plan G from $100/mo in Richmond, AARP/UHC largest carrier,
  *                      large military/federal retiree population (Northern VA),
  *                      VICAP free counseling, Virginia SCC regulation
@@ -303,7 +303,7 @@ export default function VirginiaPageContent() {
             Best Medicare Supplement Plans in Virginia 2026
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
-            Virginia has over {STATE_STATS.enrollees} Medigap enrollees — Plan G starts
+            Virginia has over {STATE_STATS.enrollees} Medigap enrollees - Plan G starts
             at just {STATE_STATS.lowestPlanG} in Richmond. Virginia enacted a{" "}
             <strong className="text-white">birthday rule in July 2025</strong>, giving
             enrollees an annual window to switch carriers without underwriting. We compared{" "}
@@ -389,7 +389,7 @@ export default function VirginiaPageContent() {
                 Virginia enacted a Medigap birthday rule effective{" "}
                 <strong>July 1, 2025</strong>. If you already have a Medigap policy, you
                 get a <strong>60-day window starting on your birthday</strong> each year to
-                switch to any carrier offering the same plan letter — without answering
+                switch to any carrier offering the same plan letter - without answering
                 health questions. Your current carrier must send a reminder letter 15–30
                 days before your window opens. Note: Virginia&apos;s rule only allows
                 switching to the <strong>same plan letter</strong> (e.g., Plan G to Plan
@@ -432,7 +432,7 @@ export default function VirginiaPageContent() {
         <div className="container max-w-4xl">
           <p className="text-slate-700 text-base leading-relaxed mb-4">
             More than 400,000 Virginians have Medicare Supplement Insurance, or Medigap.
-            Virginia is home to a large and diverse Medicare population — from retirees in
+            Virginia is home to a large and diverse Medicare population - from retirees in
             Richmond and Virginia Beach to the massive federal employee and military retiree
             community in Northern Virginia. With over 30 carriers licensed in the state and
             Plan G starting at just $100 per month in Richmond, Virginia offers a
@@ -441,7 +441,7 @@ export default function VirginiaPageContent() {
           <p className="text-slate-700 text-base leading-relaxed">
             Virginia became a birthday rule state on July 1, 2025. If you already have a
             Medigap policy, you now have an annual 60-day window around your birthday to
-            switch to any carrier offering the same plan letter — without medical
+            switch to any carrier offering the same plan letter - without medical
             underwriting. This is a significant consumer protection that makes it easier to
             shop for better rates each year. Plan G is the most popular Medigap plan for
             new enrollees in Virginia, covering nearly all Medicare out-of-pocket costs
@@ -485,7 +485,7 @@ export default function VirginiaPageContent() {
           <p className="text-slate-600 mb-6">
             Sample monthly premiums from top carriers in Richmond. Rates shown are for a
             65-year-old female nonsmoker and may include available household discounts.
-            Virginia uses attained-age rating — premiums will increase as you age. Northern
+            Virginia uses attained-age rating - premiums will increase as you age. Northern
             Virginia and Virginia Beach rates may differ slightly.
           </p>
 
@@ -707,14 +707,14 @@ export default function VirginiaPageContent() {
             tip={
               <>
                 <strong>
-                  Virginia&apos;s birthday rule is powerful — but it only lets you switch
+                  Virginia&apos;s birthday rule is powerful - but it only lets you switch
                   to the same plan letter.
                 </strong>{" "}
                 If you have Plan G, you can switch to another carrier&apos;s Plan G each
                 year without underwriting. But you cannot use the birthday rule to downgrade
                 to Plan N. If you want to switch plan letters, you will need to pass medical
                 underwriting. Also: Humana at $106/mo is the best value among
-                nationally-recognized carriers in Virginia — solid A- rating, competitive
+                nationally-recognized carriers in Virginia - solid A- rating, competitive
                 premium, and SilverSneakers fitness benefits. NHIC at $100/mo is cheaper
                 but less well-known. Use Virginia&apos;s birthday rule each year to shop
                 for a better rate on your current plan letter.

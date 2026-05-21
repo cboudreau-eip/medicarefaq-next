@@ -105,7 +105,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
         calloutType: "warning",
         calloutTitle: "Common Mistakes to Avoid",
         calloutText:
-          "1. Assuming all eye exams are covered by Original Medicare. Many beneficiaries schedule a routine vision check, expecting Medicare to pay, only to receive a full bill after the fact. Always confirm the purpose of your visit with your provider before assuming coverage applies.\n\n2. Skipping the Evidence of Coverage document for Medicare Advantage plans. Co-pays, annual eyewear allowances, and in-network provider lists vary plan to plan. Read the EOC before your appointment.\n\n3. Believing a Medigap plan adds routine vision coverage. Medigap plans only reduce cost-sharing for services Original Medicare already covers — they do not add routine eye exams or glasses.\n\n4. Overlooking the post-cataract surgery eyewear benefit. After cataract surgery with an intraocular lens implant, Medicare Part B covers one pair of standard eyeglasses or contact lenses. Ask your surgeon's office to confirm this coverage before your procedure.\n\n5. Choosing a Medicare Advantage plan based on premium alone. Compare total annual costs, out-of-pocket maximums (up to $9,250 in 2026), and vision benefit details before enrolling.\n\n6. Not verifying that your eye doctor accepts Medicare assignment. If they don't, you may face higher Part B excess charges beyond the standard 20% coinsurance. Confirm your provider's status before your visit.",
+          "1. Assuming all eye exams are covered by Original Medicare. Many beneficiaries schedule a routine vision check, expecting Medicare to pay, only to receive a full bill after the fact. Always confirm the purpose of your visit with your provider before assuming coverage applies.\n\n2. Skipping the Evidence of Coverage document for Medicare Advantage plans. Co-pays, annual eyewear allowances, and in-network provider lists vary plan to plan. Read the EOC before your appointment.\n\n3. Believing a Medigap plan adds routine vision coverage. Medigap plans only reduce cost-sharing for services Original Medicare already covers - they do not add routine eye exams or glasses.\n\n4. Overlooking the post-cataract surgery eyewear benefit. After cataract surgery with an intraocular lens implant, Medicare Part B covers one pair of standard eyeglasses or contact lenses. Ask your surgeon's office to confirm this coverage before your procedure.\n\n5. Choosing a Medicare Advantage plan based on premium alone. Compare total annual costs, out-of-pocket maximums (up to $9,250 in 2026), and vision benefit details before enrolling.\n\n6. Not verifying that your eye doctor accepts Medicare assignment. If they don't, you may face higher Part B excess charges beyond the standard 20% coinsurance. Confirm your provider's status before your visit.",
       },
       {
         type: "heading",
@@ -172,12 +172,12 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "One important nuance: if you have a Medigap plan, it will cover your Part B coinsurance and deductible for medically necessary eye services that Original Medicare approves. For example, a glaucoma screening covered by Part B would have its 20% coinsurance picked up by most Medigap plans. However, Medigap adds zero coverage for routine exams or glasses — it only works within the framework of what Original Medicare already covers.",
+          "One important nuance: if you have a Medigap plan, it will cover your Part B coinsurance and deductible for medically necessary eye services that Original Medicare approves. For example, a glaucoma screening covered by Part B would have its 20% coinsurance picked up by most Medigap plans. However, Medigap adds zero coverage for routine exams or glasses - it only works within the framework of what Original Medicare already covers.",
       },
       {
         type: "paragraph",
         content:
-          "Medicare Advantage plans operate differently. They typically use co-pays rather than coinsurance for routine vision, and your eyewear allowance is a fixed dollar amount. These costs count toward your plan's annual out-of-pocket maximum, which provides a ceiling on your total spending — something Original Medicare lacks entirely.",
+          "Medicare Advantage plans operate differently. They typically use co-pays rather than coinsurance for routine vision, and your eyewear allowance is a fixed dollar amount. These costs count toward your plan's annual out-of-pocket maximum, which provides a ceiling on your total spending - something Original Medicare lacks entirely.",
       },
       {
         type: "callout",
@@ -200,7 +200,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "**Glaucoma screenings** are covered annually for individuals at high risk. This includes people with diabetes, those with a family history of glaucoma, African Americans aged 50 and older, and Hispanic Americans aged 65 and older. The screening is covered at the Part B rate — 20% coinsurance after your deductible.",
+          "**Glaucoma screenings** are covered annually for individuals at high risk. This includes people with diabetes, those with a family history of glaucoma, African Americans aged 50 and older, and Hispanic Americans aged 65 and older. The screening is covered at the Part B rate - 20% coinsurance after your deductible.",
       },
       {
         type: "paragraph",
@@ -259,7 +259,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
           {
             question: "Can I Get Vision Coverage if I Only Have Original Medicare?",
             answer:
-              "No, if you have only Original Medicare, there is no coverage for routine eye exams, glasses, or contacts. You would need to purchase a separate standalone vision insurance plan for routine care. Medigap plans do not add routine vision benefits — they only reduce cost-sharing for services Original Medicare already covers.",
+              "No, if you have only Original Medicare, there is no coverage for routine eye exams, glasses, or contacts. You would need to purchase a separate standalone vision insurance plan for routine care. Medigap plans do not add routine vision benefits - they only reduce cost-sharing for services Original Medicare already covers.",
           },
           {
             question: "How do I Choose a Medicare Plan with Good Vision Coverage?",
@@ -281,7 +281,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "If you have a diagnosed eye condition like glaucoma, diabetic retinopathy, or macular degeneration, Original Medicare Part B has you covered for those specific services. If you want coverage for annual vision checks, new glasses, or contact lenses, a Medicare Advantage plan is almost certainly your best option — but the details of each plan vary enough that comparison is essential.",
+          "If you have a diagnosed eye condition like glaucoma, diabetic retinopathy, or macular degeneration, Original Medicare Part B has you covered for those specific services. If you want coverage for annual vision checks, new glasses, or contact lenses, a Medicare Advantage plan is almost certainly your best option - but the details of each plan vary enough that comparison is essential.",
       },
       {
         type: "paragraph",

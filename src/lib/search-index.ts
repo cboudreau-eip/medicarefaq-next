@@ -40,7 +40,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
   {
     id: "guide-costs-2026",
     title: "Understanding Medicare Costs in 2026",
-    description: "Everything about Medicare premiums, deductibles, coinsurance, and out-of-pocket maximums for 2026 — plus strategies to minimize costs.",
+    description: "Everything about Medicare premiums, deductibles, coinsurance, and out-of-pocket maximums for 2026 - plus strategies to minimize costs.",
     category: "Costs",
     categoryColor: "#059669",
     type: "guide",
@@ -51,7 +51,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
   {
     id: "guide-enrollment",
     title: "When to Enroll in Medicare",
-    description: "Your complete enrollment timeline — Initial Enrollment Period, Special Enrollment Periods, Annual Enrollment, and everything in between.",
+    description: "Your complete enrollment timeline - Initial Enrollment Period, Special Enrollment Periods, Annual Enrollment, and everything in between.",
     category: "Enrollment",
     categoryColor: "#D97706",
     type: "guide",
@@ -166,7 +166,7 @@ const pageEntries: Omit<SearchResult, "score">[] = [
   {
     id: "page-medicare-101",
     title: "Medicare 101",
-    description: "Everything you need to know about Medicare — what it is, how it works, and what it covers.",
+    description: "Everything you need to know about Medicare - what it is, how it works, and what it covers.",
     category: "Getting Started",
     categoryColor: "#1B2A4A",
     type: "page",
@@ -195,7 +195,7 @@ const pageEntries: Omit<SearchResult, "score">[] = [
   },
   {
     id: "page-turning-65",
-    title: "Turning 65 — What You Need to Know",
+    title: "Turning 65 - What You Need to Know",
     description: "Your guide to understanding Medicare when you're approaching age 65.",
     category: "Getting Started",
     categoryColor: "#1B2A4A",

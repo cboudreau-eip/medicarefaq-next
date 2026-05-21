@@ -53,7 +53,7 @@ export const CARRIERS: Carrier[] = [
     highlight:
       "State Farm earns the top spot in Virginia for its unmatched A++ AM Best rating, far-fewer-than-expected complaint ratio, and extensive local agent network across Richmond, Northern Virginia, and Virginia Beach. The best choice for enrollees who want financial strength and face-to-face service.",
     pros: [
-      "A++ AM Best — highest possible financial strength rating",
+      "A++ AM Best - highest possible financial strength rating",
       "Far-fewer-than-expected NAIC complaint ratio",
       "Extensive local agent network throughout Virginia",
       "Consistent rate history with modest annual increases",
@@ -74,11 +74,11 @@ export const CARRIERS: Carrier[] = [
     planGMonthly: "$152",
     planNMonthly: "$113",
     highlight:
-      "AARP/UHC is the largest Medigap carrier in Virginia by enrollment and offers the widest range of plans. The AARP membership brand is widely recognized, and UHC's national network provides strong continuity of care for Virginia retirees who travel — especially the large federal employee and military retiree population in Northern Virginia.",
+      "AARP/UHC is the largest Medigap carrier in Virginia by enrollment and offers the widest range of plans. The AARP membership brand is widely recognized, and UHC's national network provides strong continuity of care for Virginia retirees who travel - especially the large federal employee and military retiree population in Northern Virginia.",
     pros: [
       "Largest Medigap carrier in Virginia by enrollment",
       "Widest plan selection including Plan G, N, F, K, L, M",
-      "Strong national network — ideal for travelers and snowbirds",
+      "Strong national network - ideal for travelers and snowbirds",
       "AARP membership benefits included",
       "Online enrollment available",
     ],
@@ -108,7 +108,7 @@ export const CARRIERS: Carrier[] = [
     cons: [
       "Not the cheapest option in Virginia",
       "Fewer local agents than State Farm",
-      "Online enrollment not available — must call or use agent",
+      "Online enrollment not available - must call or use agent",
     ],
   },
   {
@@ -120,16 +120,16 @@ export const CARRIERS: Carrier[] = [
     planGMonthly: "$106",
     planNMonthly: "$77",
     highlight:
-      "Humana offers some of the most competitive Plan G premiums in Virginia at $106/mo in Richmond — among the lowest of any nationally-recognized carrier. SilverSneakers fitness benefits are included with select plans, making Humana a strong pick for active Virginia retirees.",
+      "Humana offers some of the most competitive Plan G premiums in Virginia at $106/mo in Richmond - among the lowest of any nationally-recognized carrier. SilverSneakers fitness benefits are included with select plans, making Humana a strong pick for active Virginia retirees.",
     pros: [
-      "Highly competitive premiums — $106/mo Plan G in Richmond",
+      "Highly competitive premiums - $106/mo Plan G in Richmond",
       "SilverSneakers fitness benefit included with select plans",
       "Strong Virginia market presence",
       "Online enrollment available",
       "A- AM Best financial strength rating",
     ],
     cons: [
-      "A- AM Best rating — lower than top competitors",
+      "A- AM Best rating - lower than top competitors",
       "Complaint ratio slightly above average nationally",
       "SilverSneakers benefit can be removed at renewal",
     ],
@@ -194,17 +194,17 @@ export const STATE_RULES = [
   {
     title: "Virginia Birthday Rule (Effective July 1, 2025)",
     description:
-      "Virginia enacted a birthday rule effective July 1, 2025. If you already have a Medigap policy in Virginia, you get a 60-day open enrollment window each year starting on your birthday. During this window, you can switch to any carrier offering the same standardized plan letter — without medical underwriting. Important: you can only switch to the same plan letter (e.g., Plan G to Plan G). You cannot downgrade to a lesser plan or upgrade to a richer plan using this rule.",
+      "Virginia enacted a birthday rule effective July 1, 2025. If you already have a Medigap policy in Virginia, you get a 60-day open enrollment window each year starting on your birthday. During this window, you can switch to any carrier offering the same standardized plan letter - without medical underwriting. Important: you can only switch to the same plan letter (e.g., Plan G to Plan G). You cannot downgrade to a lesser plan or upgrade to a richer plan using this rule.",
   },
   {
     title: "How Virginia's Birthday Rule Differs from California's",
     description:
-      "California's birthday rule allows switching to an equal or lesser plan — meaning a Plan G enrollee can switch to Plan N without underwriting. Virginia's rule is more restrictive: you can only switch to the same plan letter. A Plan G enrollee can switch to another carrier's Plan G, but cannot move to Plan N using the birthday rule. To downgrade, you would need to pass medical underwriting.",
+      "California's birthday rule allows switching to an equal or lesser plan - meaning a Plan G enrollee can switch to Plan N without underwriting. Virginia's rule is more restrictive: you can only switch to the same plan letter. A Plan G enrollee can switch to another carrier's Plan G, but cannot move to Plan N using the birthday rule. To downgrade, you would need to pass medical underwriting.",
   },
   {
     title: "Birthday Rule Reminder Letters Required",
     description:
-      "Virginia law requires your current Medigap carrier to send you a reminder letter 15 to 30 days before your birthday window opens. Watch your mailbox each year. If you miss the 60-day window, you can use the birthday rule again next year — or switch outside the window by passing medical underwriting.",
+      "Virginia law requires your current Medigap carrier to send you a reminder letter 15 to 30 days before your birthday window opens. Watch your mailbox each year. If you miss the 60-day window, you can use the birthday rule again next year - or switch outside the window by passing medical underwriting.",
   },
   {
     title: "6-Month Open Enrollment Period",
@@ -219,7 +219,7 @@ export const STATE_RULES = [
   {
     title: "Free Counseling via VICAP (Virginia SHIP)",
     description:
-      "Virginia's Insurance Counseling and Assistance Program (VICAP) — part of the national SHIP network — provides free, unbiased Medicare counseling from trained volunteers. VICAP counselors can help you compare Medigap plans, understand the birthday rule, and navigate enrollment. Call 1-800-552-3402 to speak with a counselor.",
+      "Virginia's Insurance Counseling and Assistance Program (VICAP) - part of the national SHIP network - provides free, unbiased Medicare counseling from trained volunteers. VICAP counselors can help you compare Medigap plans, understand the birthday rule, and navigate enrollment. Call 1-800-552-3402 to speak with a counselor.",
   },
   {
     title: "Regulated by Virginia State Corporation Commission",
@@ -240,12 +240,12 @@ export const FAQS: FaqItem[] = [
   {
     question: "Does Virginia have a Medigap birthday rule?",
     answer:
-      "Yes. Virginia enacted a Medigap birthday rule effective July 1, 2025. If you already have a Medigap policy in Virginia, you get a 60-day open enrollment window each year starting on your birthday. During this window, you can switch to any carrier offering the same standardized plan letter without medical underwriting. You cannot downgrade or upgrade plans using this rule — only switch to the same plan letter with a different carrier.",
+      "Yes. Virginia enacted a Medigap birthday rule effective July 1, 2025. If you already have a Medigap policy in Virginia, you get a 60-day open enrollment window each year starting on your birthday. During this window, you can switch to any carrier offering the same standardized plan letter without medical underwriting. You cannot downgrade or upgrade plans using this rule - only switch to the same plan letter with a different carrier.",
   },
   {
     question: "How does Virginia's birthday rule differ from California's?",
     answer:
-      "California's birthday rule allows switching to an equal or lesser plan — so a Plan G enrollee can switch to Plan N without underwriting. Virginia's rule is more restrictive: you can only switch to the same plan letter. A Virginia Plan G enrollee can move to another carrier's Plan G, but cannot downgrade to Plan N using the birthday rule. To change plan letters, you would need to pass medical underwriting.",
+      "California's birthday rule allows switching to an equal or lesser plan - so a Plan G enrollee can switch to Plan N without underwriting. Virginia's rule is more restrictive: you can only switch to the same plan letter. A Virginia Plan G enrollee can move to another carrier's Plan G, but cannot downgrade to Plan N using the birthday rule. To change plan letters, you would need to pass medical underwriting.",
   },
   {
     question: "What is the best Medicare Supplement plan in Virginia for 2026?",
@@ -275,6 +275,6 @@ export const FAQS: FaqItem[] = [
   {
     question: "What is VICAP and how can it help me?",
     answer:
-      "VICAP (Virginia Insurance Counseling and Assistance Program) is Virginia's SHIP program — a free, state-funded counseling service that helps Medicare beneficiaries navigate their options. VICAP counselors are unbiased volunteers who don't sell insurance. They can help you compare Medigap plans, understand Virginia's birthday rule, and navigate enrollment. Call 1-800-552-3402 for a free consultation.",
+      "VICAP (Virginia Insurance Counseling and Assistance Program) is Virginia's SHIP program - a free, state-funded counseling service that helps Medicare beneficiaries navigate their options. VICAP counselors are unbiased volunteers who don't sell insurance. They can help you compare Medigap plans, understand Virginia's birthday rule, and navigate enrollment. Call 1-800-552-3402 for a free consultation.",
   },
 ];

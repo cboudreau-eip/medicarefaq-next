@@ -418,7 +418,7 @@ export default function PennsylvaniaPageContent() {
           <p className="text-slate-700 text-base leading-relaxed">
             Pennsylvania is a standard attained-age rating state, meaning premiums
             increase as you age. The most important time to enroll is during your
-            6-month Open Enrollment Period when you turn 65 and sign up for Part B —
+            6-month Open Enrollment Period when you turn 65 and sign up for Part B -
             during this window, carriers cannot deny you coverage or charge more due to
             health conditions. Plan G is the most popular plan in Pennsylvania, held by
             37% of Medigap enrollees, and premiums start as low as $133 per month.
@@ -461,7 +461,7 @@ export default function PennsylvaniaPageContent() {
           <p className="text-slate-600 mb-6">
             Sample monthly premiums from our top-scoring carriers. Rates shown are for a
             65-year-old female nonsmoker in Pittsburgh and include available household
-            discounts. Pennsylvania uses attained-age rating — premiums will increase as
+            discounts. Pennsylvania uses attained-age rating - premiums will increase as
             you age. Philadelphia and other regions may have different rates.
           </p>
 
@@ -703,7 +703,7 @@ export default function PennsylvaniaPageContent() {
                   Your 6-month Open Enrollment Period is the most important window you
                   have.
                 </strong>{" "}
-                Pennsylvania does not have a birthday rule — once your OEP ends, carriers
+                Pennsylvania does not have a birthday rule - once your OEP ends, carriers
                 can use medical underwriting to deny coverage or charge more if you want
                 to switch plans. Lock in your Medigap coverage during your OEP at age 65
                 to get the best rate and guaranteed acceptance. Also note: HealthSpring
@@ -769,7 +769,7 @@ export default function PennsylvaniaPageContent() {
                   Pennsylvania uses attained-age rating, which means your Medigap premium
                   increases as you get older. Premiums are based on your current age and
                   rise each year. This makes enrolling during your OEP at age 65
-                  especially important — you will start at the lowest possible rate and
+                  especially important - you will start at the lowest possible rate and
                   lock in coverage before any health issues arise.
                 </p>
               </div>
@@ -779,7 +779,7 @@ export default function PennsylvaniaPageContent() {
               <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  PA MEDI — Free Medicare Counseling
+                  PA MEDI - Free Medicare Counseling
                 </p>
                 <p className="text-sm text-slate-600">
                   PA MEDI (Pennsylvania Medicare Education and Decision Insight) is
@@ -888,7 +888,7 @@ export default function PennsylvaniaPageContent() {
             </h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
               Medigap premiums vary by city in Pennsylvania. Enter your ZIP code to see
-              exact rates from all available carriers in your area — and remember, your
+              exact rates from all available carriers in your area - and remember, your
               Open Enrollment Period is the best time to lock in coverage.
             </p>
             <div className="flex flex-wrap gap-3">

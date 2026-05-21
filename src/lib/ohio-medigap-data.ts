@@ -3,7 +3,7 @@
  * Source: CMS Medicare Plan Finder, AM Best, NAIC, NerdWallet (2026),
  *         Ohio Department of Insurance, AHIP State of Medicare Supplement Coverage 2026
  * Sample premiums: 65-year-old female nonsmoker in Columbus, OH
- * NOTE: Ohio uses attained-age rating — premiums increase as you age.
+ * NOTE: Ohio uses attained-age rating - premiums increase as you age.
  * Ohio has some of the lowest Medigap premiums in the country.
  * MedicareFAQ Score methodology: weighted composite of financial strength,
  * pricing competitiveness, plan availability, complaint record, and discounts.
@@ -43,15 +43,15 @@ export const OHIO_CARRIERS: OhioCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount available",
     pros: [
-      "Highest AM Best financial rating (A++) — superior financial strength",
-      "Excellent complaint record — far fewer than expected",
+      "Highest AM Best financial rating (A++) - superior financial strength",
+      "Excellent complaint record - far fewer than expected",
       "Broad plan selection (6 plan types including Plan D)",
-      "Strong local agent network across Ohio — Columbus, Cleveland, Cincinnati",
+      "Strong local agent network across Ohio - Columbus, Cleveland, Cincinnati",
     ],
     cons: [
       "Plan G premiums are the highest among our top Ohio picks",
       "Below-average premium discounts compared to competitors",
-      "Must work through a State Farm agent — no direct online enrollment",
+      "Must work through a State Farm agent - no direct online enrollment",
     ],
     yearFounded: 1922,
     headquartersState: "Illinois",
@@ -71,9 +71,9 @@ export const OHIO_CARRIERS: OhioCarrier[] = [
     discounts: "Household, payment mode, and loyalty discounts",
     pros: [
       "Most plan options available in Ohio (8 plan types)",
-      "Excellent complaint record — far fewer than expected",
+      "Excellent complaint record - far fewer than expected",
       "#1 largest Medigap insurer in Ohio (38% market share)",
-      "Competitive Plan G pricing at $127/mo — strong value vs. service quality",
+      "Competitive Plan G pricing at $127/mo - strong value vs. service quality",
     ],
     cons: [
       "AARP membership required ($15–$20/year)",
@@ -97,13 +97,13 @@ export const OHIO_CARRIERS: OhioCarrier[] = [
     complaintRecord: "Far more than expected",
     discounts: "Household discount, annual payment discount",
     pros: [
-      "Lowest Plan G ($106/mo) and Plan N ($77/mo) in Ohio — among cheapest in the country",
+      "Lowest Plan G ($106/mo) and Plan N ($77/mo) in Ohio - among cheapest in the country",
       "Strong parent company (Cigna/Evernorth) financial backing",
       "Exceptional value for budget-conscious enrollees",
       "Available statewide in Ohio",
     ],
     cons: [
-      "Far more complaints than expected — highest complaint rate among our top picks",
+      "Far more complaints than expected - highest complaint rate among our top picks",
       "Fewer plan options (4 plan types)",
       "Customer service quality concerns reflected in complaint data",
     ],
@@ -124,15 +124,15 @@ export const OHIO_CARRIERS: OhioCarrier[] = [
     complaintRecord: "Close to expected",
     discounts: "Household discount available",
     pros: [
-      "Third-largest Medigap insurer in Ohio (11.2% market share) — strong local presence",
+      "Third-largest Medigap insurer in Ohio (11.2% market share) - strong local presence",
       "Anthem Blue Cross Blue Shield brand well-recognized in Ohio",
       "Solid AM Best rating (A)",
-      "Complaint record close to expected — reasonable customer service",
+      "Complaint record close to expected - reasonable customer service",
     ],
     cons: [
       "Plan N premium ($128/mo) is the highest among our top Ohio picks",
       "Fewer plan options (4 plan types)",
-      "Plan G premium ($138/mo) is mid-range — not the most competitive",
+      "Plan G premium ($138/mo) is mid-range - not the most competitive",
     ],
     yearFounded: 1944,
     headquartersState: "Indiana",
@@ -151,10 +151,10 @@ export const OHIO_CARRIERS: OhioCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount (up to 12%), annual payment discount",
     pros: [
-      "Generous household discount (up to 12%) — among the highest available",
+      "Generous household discount (up to 12%) - among the highest available",
       "Strong financial rating (A+)",
       "Excellent complaint record",
-      "Plan N tied for lowest at $89/mo — matches AARP/UHC",
+      "Plan N tied for lowest at $89/mo - matches AARP/UHC",
     ],
     cons: [
       "Fewer plan options (4 plan types)",
@@ -218,23 +218,23 @@ export const OHIO_STATS = {
   hasCommunityRating: false,
   hasGuaranteedIssueYearRound: false,
   hasBirthdayRule: false,
-  ratingType: "Attained-age — premiums increase as you age",
+  ratingType: "Attained-age - premiums increase as you age",
   freeLookPeriod: "30 days",
   partBDeductible2026: "$283",
   partADeductible2026: "$1,736",
-  mostPopularPlan: "Plan G (49% of enrollees — highest adoption rate in the Midwest)",
+  mostPopularPlan: "Plan G (49% of enrollees - highest adoption rate in the Midwest)",
 };
 
 export const OHIO_FAQS = [
   {
     question: "What is the best Medicare Supplement plan in Ohio?",
     answer:
-      "Plan G is the most popular Medicare Supplement plan in Ohio, held by 49% of Medigap enrollees — one of the highest Plan G adoption rates in the country. It covers all out-of-pocket costs except the annual Part B deductible ($283 in 2026). Plan N is a strong alternative with lower premiums but small copays for office and ER visits. State Farm, AARP/UnitedHealthcare, and HealthSpring are consistently top-rated carriers in Ohio.",
+      "Plan G is the most popular Medicare Supplement plan in Ohio, held by 49% of Medigap enrollees - one of the highest Plan G adoption rates in the country. It covers all out-of-pocket costs except the annual Part B deductible ($283 in 2026). Plan N is a strong alternative with lower premiums but small copays for office and ER visits. State Farm, AARP/UnitedHealthcare, and HealthSpring are consistently top-rated carriers in Ohio.",
   },
   {
     question: "How much does Medigap Plan G cost in Ohio?",
     answer:
-      "Ohio has some of the lowest Medigap premiums in the country. In Columbus, Plan G starts at approximately $106 per month for a 65-year-old female nonsmoker — offered by HealthSpring. AARP/UnitedHealthcare offers Plan G at $127/mo with a better complaint record. Rates in Cleveland and Cincinnati may vary slightly. Ohio uses attained-age rating, so premiums will increase as you age.",
+      "Ohio has some of the lowest Medigap premiums in the country. In Columbus, Plan G starts at approximately $106 per month for a 65-year-old female nonsmoker - offered by HealthSpring. AARP/UnitedHealthcare offers Plan G at $127/mo with a better complaint record. Rates in Cleveland and Cincinnati may vary slightly. Ohio uses attained-age rating, so premiums will increase as you age.",
   },
   {
     question: "Does Ohio have a birthday rule?",
@@ -254,7 +254,7 @@ export const OHIO_FAQS = [
   {
     question: "What is the difference between Plan G and Plan N in Ohio?",
     answer:
-      "Both plans cover the Part A deductible ($1,736 in 2026) and most coinsurance costs. Plan G covers everything except the Part B deductible ($283/year) and has no copays. Plan N also skips the Part B deductible but adds up to $20 copays for some office visits and up to $50 for ER visits that do not result in admission. In Columbus, Plan G averages about $132/mo vs. Plan N at $97/mo — a $35/mo difference.",
+      "Both plans cover the Part A deductible ($1,736 in 2026) and most coinsurance costs. Plan G covers everything except the Part B deductible ($283/year) and has no copays. Plan N also skips the Part B deductible but adds up to $20 copays for some office visits and up to $50 for ER visits that do not result in admission. In Columbus, Plan G averages about $132/mo vs. Plan N at $97/mo - a $35/mo difference.",
   },
   {
     question: "Who are the largest Medicare Supplement carriers in Ohio?",

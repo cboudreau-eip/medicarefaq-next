@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * MedigapPlanTemplate — PageContent
+ * MedigapPlanTemplate - PageContent
  * Data-driven template for all 10 Medigap plan letter pages + HD variants.
  * Route: /medicare-supplements/[planSlug]
  */
@@ -100,7 +100,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
               triggerId="compare-plans-supp-detail-1"
               coverageType="ms"
               title={`Compare ${plan.displayName} Quotes`}
-              subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
+              subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area - free, no obligation."
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
@@ -168,7 +168,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 {/* CTA */}
                 <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
                   <p className="text-sm font-semibold text-blue-900 mb-1">Ready to Enroll?</p>
-                  <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent — free, no obligation</p>
+                  <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent - free, no obligation</p>
                   <ZipFormModal
                     pageSection="supplement_plan_detail"
                     triggerId="compare-plans-supp-detail-2"
@@ -349,7 +349,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                         triggerId="compare-plans-supp-detail-3"
                         coverageType="ms"
                         title={`Compare ${plan.displayName} Quotes`}
-                        subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers — free, no obligation."
+                        subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers - free, no obligation."
                         buttonLabel="Compare Plans"
                         trigger={
                           <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">

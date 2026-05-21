@@ -1,4 +1,4 @@
-// Missouri Medicare Supplement (Medigap) Data — 2026
+// Missouri Medicare Supplement (Medigap) Data - 2026
 // Key differentiator: Anniversary Rule (tied to policy enrollment date, not birthday)
 
 export const missouriStats = {
@@ -44,15 +44,15 @@ export const missouriCarriers: MoCarrier[] = [
     amBestRating: "A+",
     complaintRatio: "Low",
     pros: [
-      "A+ AM Best financial strength — highest available rating",
-      "Headquartered in Omaha, NE — deep Midwest roots and strong MO agent network",
+      "A+ AM Best financial strength - highest available rating",
+      "Headquartered in Omaha, NE - deep Midwest roots and strong MO agent network",
       "Consistently low complaint ratio year over year",
       "Excellent U.S.-based customer service (no overseas call centers)",
       "Offers both attained-age and issue-age rated plans in Missouri",
       "Leading carrier for High-Deductible Plan G in the Midwest",
     ],
     cons: [
-      "Not the cheapest Plan G in Missouri — mid-range pricing",
+      "Not the cheapest Plan G in Missouri - mid-range pricing",
       "Rate increases can be above average in some Missouri ZIP codes",
     ],
     highlight:
@@ -73,7 +73,7 @@ export const missouriCarriers: MoCarrier[] = [
       "AARP brand recognition drives trust among seniors 50+",
       "Offers Plan G, Plan N, Plan F (legacy), and High-Deductible Plan G",
       "Household discount available for couples",
-      "Strong digital tools — online claims, ID cards, and account management",
+      "Strong digital tools - online claims, ID cards, and account management",
     ],
     cons: [
       "Premiums are above the Missouri median for Plan G",
@@ -94,13 +94,13 @@ export const missouriCarriers: MoCarrier[] = [
     amBestRating: "A",
     complaintRatio: "High",
     pros: [
-      "Lowest Plan G premiums in Missouri — $108/mo in Kansas City for 65F nonsmoker",
-      "Lowest Plan N premiums in Missouri — $79/mo",
+      "Lowest Plan G premiums in Missouri - $108/mo in Kansas City for 65F nonsmoker",
+      "Lowest Plan N premiums in Missouri - $79/mo",
       "A financial strength rating from AM Best",
       "Available statewide in Missouri",
     ],
     cons: [
-      "Higher-than-expected complaint ratio — well above the national median",
+      "Higher-than-expected complaint ratio - well above the national median",
       "Customer service quality inconsistent compared to top-rated carriers",
       "Rate increases have been unpredictable in some Missouri markets",
       "Lower brand recognition among Missouri seniors vs. Mutual of Omaha or AARP",
@@ -119,7 +119,7 @@ export const missouriCarriers: MoCarrier[] = [
     amBestRating: "A++",
     complaintRatio: "Low",
     pros: [
-      "A++ AM Best rating — highest possible financial strength",
+      "A++ AM Best rating - highest possible financial strength",
       "Extensive local agent network across Missouri (Bloomington, IL HQ is nearby)",
       "Lowest complaint ratio among all Missouri carriers",
       "Strong multi-line discount if you already have State Farm auto or home",
@@ -128,7 +128,7 @@ export const missouriCarriers: MoCarrier[] = [
     cons: [
       "Premiums are mid-to-high range for Missouri",
       "Fewer plan options than national carriers (primarily Plan G and Plan N)",
-      "Must work through a local agent — no direct online enrollment",
+      "Must work through a local agent - no direct online enrollment",
     ],
     highlight:
       "State Farm's A++ financial strength and lowest complaint ratio make it a top pick for Missouri seniors who value in-person agent relationships and long-term stability.",
@@ -144,13 +144,13 @@ export const missouriCarriers: MoCarrier[] = [
     amBestRating: "A-",
     complaintRatio: "Average",
     pros: [
-      "Strong mid-range pricing — $119/mo Plan G is well below AARP/UHC",
+      "Strong mid-range pricing - $119/mo Plan G is well below AARP/UHC",
       "Better complaint ratio than Cigna at a similar price point",
       "Available statewide in Missouri",
       "Good fit for Missouri seniors using the Anniversary Rule to shop annually",
     ],
     cons: [
-      "A- AM Best rating — slightly lower than top-tier carriers",
+      "A- AM Best rating - slightly lower than top-tier carriers",
       "Less brand recognition than Mutual of Omaha or AARP",
       "Limited digital tools compared to larger national carriers",
     ],
@@ -220,7 +220,7 @@ export const missouriStateRules = [
   {
     title: "Anniversary Rule (Not Birthday Rule)",
     description:
-      "Missouri's annual switching window is tied to your Medigap policy anniversary date — not your birthday. You have 30 days before and 30 days after your policy anniversary to switch to an equal-benefit plan at a new carrier with no medical underwriting.",
+      "Missouri's annual switching window is tied to your Medigap policy anniversary date - not your birthday. You have 30 days before and 30 days after your policy anniversary to switch to an equal-benefit plan at a new carrier with no medical underwriting.",
   },
   {
     title: "Attained-Age Rating",
@@ -238,7 +238,7 @@ export const missouriStateRules = [
       "Missouri law requires a 30-day free look period on all Medigap policies. If you're not satisfied, you can return the policy within 30 days for a full premium refund.",
   },
   {
-    title: "CLAIM — Free Counseling",
+    title: "CLAIM - Free Counseling",
     description:
       "Missouri's SHIP program, CLAIM (Community Leaders Assisting the Insured of Missouri), provides free, unbiased Medicare counseling. Call 1-800-390-3330 to speak with a trained volunteer counselor.",
   },
@@ -248,7 +248,7 @@ export const missouriFAQs = [
   {
     question: "Does Missouri have a Medigap birthday rule?",
     answer:
-      "No. Missouri does not have a birthday rule. Instead, Missouri has an 'Anniversary Rule' — a 60-day window (30 days before and 30 days after) tied to your Medigap policy's annual enrollment anniversary date. Unlike California's birthday rule, it is not tied to your actual birthday. You can use this window to switch to an equal-benefit plan at a new carrier without medical underwriting.",
+      "No. Missouri does not have a birthday rule. Instead, Missouri has an 'Anniversary Rule' - a 60-day window (30 days before and 30 days after) tied to your Medigap policy's annual enrollment anniversary date. Unlike California's birthday rule, it is not tied to your actual birthday. You can use this window to switch to an equal-benefit plan at a new carrier without medical underwriting.",
   },
   {
     question: "How does Missouri's Anniversary Rule work?",
@@ -273,12 +273,12 @@ export const missouriFAQs = [
   {
     question: "Can I switch Medicare Supplement plans in Missouri without underwriting?",
     answer:
-      "Yes — during your 6-month Medigap Open Enrollment Period (OEP) when you first turn 65 and enroll in Medicare Part B, you have guaranteed issue rights with no medical underwriting. After OEP, Missouri's Anniversary Rule gives you a 60-day window each year to switch to an equal-benefit plan at a new carrier without underwriting.",
+      "Yes - during your 6-month Medigap Open Enrollment Period (OEP) when you first turn 65 and enroll in Medicare Part B, you have guaranteed issue rights with no medical underwriting. After OEP, Missouri's Anniversary Rule gives you a 60-day window each year to switch to an equal-benefit plan at a new carrier without underwriting.",
   },
   {
     question: "What is the difference between Missouri's Anniversary Rule and California's Birthday Rule?",
     answer:
-      "California's birthday rule is triggered by your actual birthday each year. Missouri's anniversary rule is triggered by the anniversary of your Medigap policy enrollment date — which may be different from your birthday. Both allow switching to an equal-benefit plan without underwriting, but Missouri's rule is tied to when you enrolled, not when you were born.",
+      "California's birthday rule is triggered by your actual birthday each year. Missouri's anniversary rule is triggered by the anniversary of your Medigap policy enrollment date - which may be different from your birthday. Both allow switching to an equal-benefit plan without underwriting, but Missouri's rule is tied to when you enrolled, not when you were born.",
   },
   {
     question: "Is there free Medicare counseling available in Missouri?",

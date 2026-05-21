@@ -44,7 +44,7 @@ const OEP_FACTS = [
   { label: "When it Starts", value: "The month you turn 65 AND are enrolled in Medicare Part B" },
   { label: "Duration", value: "6 months (cannot be extended or repeated)" },
   { label: "What it Guarantees", value: "The right to buy any Medigap plan sold in your state, regardless of health" },
-  { label: "Medical Underwriting", value: "None — insurers cannot deny coverage or charge higher premiums due to pre-existing conditions" },
+  { label: "Medical Underwriting", value: "None - insurers cannot deny coverage or charge higher premiums due to pre-existing conditions" },
   { label: "What Happens After", value: "Insurers can use medical underwriting and may deny coverage or charge more" },
 ];
 
@@ -72,7 +72,7 @@ const FAQS = [
   },
   {
     q: "Does my Medigap plan cover my spouse?",
-    a: "No. Medigap plans are individual policies — each person needs their own plan. If both you and your spouse want Medigap coverage, you each need to apply separately.",
+    a: "No. Medigap plans are individual policies - each person needs their own plan. If both you and your spouse want Medigap coverage, you each need to apply separately.",
   },
   {
     q: "What is the Medigap birthday rule?",
@@ -80,7 +80,7 @@ const FAQS = [
   },
   {
     q: "Can I be denied Medigap coverage?",
-    a: "Outside of your Open Enrollment Period and guaranteed issue situations, yes — insurers can deny your Medigap application based on your health history. This is why enrolling during your OEP is so important. During your OEP, denial is not allowed.",
+    a: "Outside of your Open Enrollment Period and guaranteed issue situations, yes - insurers can deny your Medigap application based on your health history. This is why enrolling during your OEP is so important. During your OEP, denial is not allowed.",
   },
 ];
 
@@ -156,7 +156,7 @@ export default function PageContent() {
               The Medigap Open Enrollment Period
             </h2>
             <p className="text-slate-600 mb-6 leading-relaxed">
-              The Medigap Open Enrollment Period (OEP) is the most important window for enrolling in a Medigap plan. During this 6-month period, you have guaranteed issue rights — meaning insurers must sell you any Medigap plan they offer, regardless of your health history.
+              The Medigap Open Enrollment Period (OEP) is the most important window for enrolling in a Medigap plan. During this 6-month period, you have guaranteed issue rights - meaning insurers must sell you any Medigap plan they offer, regardless of your health history.
             </p>
             <div className="p-6 bg-blue-50 border border-blue-200 rounded-xl mb-6">
               <div className="flex items-start gap-3 mb-4">
@@ -258,7 +258,7 @@ export default function PageContent() {
           <div className="p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
             <h3 className="text-2xl font-bold mb-3">Ready to Enroll in Medigap?</h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
-              Our licensed Medicare agents can help you understand your eligibility, find the right plan, and enroll during your Open Enrollment Period — at no cost to you.
+              Our licensed Medicare agents can help you understand your eligibility, find the right plan, and enroll during your Open Enrollment Period - at no cost to you.
             </p>
             <div className="flex flex-wrap gap-3">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"

@@ -15,7 +15,7 @@ import ZipFormModal from "@/components/ZipFormModal";
 const PLANS = ["A", "B", "C", "D", "F", "G", "K", "L", "M", "N"];
 const HD_PLANS = ["HD-F", "HD-G"];
 
-type CoverageValue = "✓" | "✗" | "50%" | "75%" | "†" | "—";
+type CoverageValue = "✓" | "✗" | "50%" | "75%" | "†" | "-";
 
 interface BenefitRow {
   benefit: string;
@@ -111,7 +111,7 @@ export default function PageContent() {
             Compare Medicare Supplement Plans
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
-            All 10 standardized Medigap plan letters compared side by side. Benefits are identical regardless of insurer — only premiums differ.
+            All 10 standardized Medigap plan letters compared side by side. Benefits are identical regardless of insurer - only premiums differ.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"

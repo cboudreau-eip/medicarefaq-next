@@ -1,5 +1,5 @@
 /**
- * Simple FAQ Articles — Batch 3
+ * Simple FAQ Articles - Batch 3
  * Auto-generated from scraped medicarefaq.com content.
  * 50 articles.
  */
@@ -392,12 +392,12 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     slug: 'medicare-supplement-plans-medigap-pricing-methods',
     seo: {
       title: 'Medigap Pricing Methods Explained: Community-Rated vs Issue-Age vs Attained-Age (2026)',
-      description: 'Learn the three Medigap pricing methods — community-rated, issue-age-rated, and attained-age-rated — and how each affects your Medicare Supplement premiums over time.',
+      description: 'Learn the three Medigap pricing methods - community-rated, issue-age-rated, and attained-age-rated - and how each affects your Medicare Supplement premiums over time.',
       canonical: 'https://www.medicarefaq.com/faqs/medicare-supplement-plans-medigap-pricing-methods/',
       ogImage: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/types-of-medigap-pricing-methods_5f48728d.jpg',
     },
     title: 'Medicare Supplement Plans (Medigap) Pricing Methods Explained',
-    summary: 'Not all Medigap premiums are calculated the same way. Understanding the three pricing methods — community-rated, issue-age-rated, and attained-age-rated — can save you thousands of dollars over the life of your policy.',
+    summary: 'Not all Medigap premiums are calculated the same way. Understanding the three pricing methods - community-rated, issue-age-rated, and attained-age-rated - can save you thousands of dollars over the life of your policy.',
     category: 'Medicare Supplements',
     dateUpdated: 'April 14, 2026',
     author: 'David Haass',
@@ -406,11 +406,11 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     sections: [],
     richSections: [
       { type: "heading", level: 2, text: "What Are Medigap Pricing Methods?", id: "what-are" },
-      { type: "paragraph", content: "When you shop for a [Medicare Supplement (Medigap) plan](/medicare-supplements), you will notice that premiums for the exact same plan letter can vary significantly from one insurance company to another. One of the biggest reasons for this difference is the pricing method the insurer uses to calculate your premium. There are three pricing methods, and the one your insurer uses determines how your premium changes — or does not change — as you age." },
+      { type: "paragraph", content: "When you shop for a [Medicare Supplement (Medigap) plan](/medicare-supplements), you will notice that premiums for the exact same plan letter can vary significantly from one insurance company to another. One of the biggest reasons for this difference is the pricing method the insurer uses to calculate your premium. There are three pricing methods, and the one your insurer uses determines how your premium changes - or does not change - as you age." },
       { type: "callout", calloutType: "info", calloutTitle: "Why This Matters", calloutText: "Two people with the same Medigap Plan G in the same ZIP code can pay very different premiums depending on the pricing method their insurer uses. Over 10 to 20 years, the difference can add up to thousands of dollars." },
 
       { type: "heading", level: 2, text: "The Three Medigap Pricing Methods", id: "three-methods" },
-      { type: "paragraph", content: "Every Medigap insurer in the United States uses one of the following three methods to set your premium. The coverage is identical regardless of pricing method — only the way your premium is calculated differs." },
+      { type: "paragraph", content: "Every Medigap insurer in the United States uses one of the following three methods to set your premium. The coverage is identical regardless of pricing method - only the way your premium is calculated differs." },
 
       { type: "heading", level: 3, text: "1. Community-Rated (No-Age-Rated)" },
       { type: "paragraph", content: "With community-rated pricing, every policyholder pays the same base premium regardless of age. A 65-year-old and an 80-year-old with the same plan pay the same amount. Premiums may still increase due to inflation or rising healthcare costs, but your age is never a factor in the calculation." },
@@ -423,12 +423,12 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "callout", calloutType: "success", calloutTitle: "Best For", calloutText: "Beneficiaries who want predictable, stable premiums over the long term. If you plan to keep your Medigap policy for 15+ years, community-rated pricing often delivers the lowest total cost." },
 
       { type: "heading", level: 3, text: "2. Issue-Age-Rated" },
-      { type: "paragraph", content: "Issue-age-rated pricing bases your premium on the age you were when you first purchased (were \"issued\") the policy. The younger you are when you buy, the lower your starting premium — and your age at purchase is locked in. Your premium will not increase simply because you get older, though it may still rise due to inflation or other non-age factors." },
+      { type: "paragraph", content: "Issue-age-rated pricing bases your premium on the age you were when you first purchased (were \"issued\") the policy. The younger you are when you buy, the lower your starting premium - and your age at purchase is locked in. Your premium will not increase simply because you get older, though it may still rise due to inflation or other non-age factors." },
       { type: "list", ordered: false, items: [
         "Premium is based on your age at the time of purchase",
         "Enrolling at 65 locks in a lower rate than enrolling at 70",
         "Premiums may still increase for inflation or medical cost trends, but not for aging",
-        "Rewards early enrollment — the younger you buy, the more you save"
+        "Rewards early enrollment - the younger you buy, the more you save"
       ]},
       { type: "callout", calloutType: "tip", calloutTitle: "Pro Tip", calloutText: "If you are considering an issue-age-rated plan, enroll during your [Medigap Open Enrollment Period](/enrollment/initial-enrollment-period) (the 6 months starting when you turn 65 and have Part B). This locks in the lowest possible issue-age rate and guarantees acceptance regardless of health." },
 
@@ -453,20 +453,20 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       ]},
 
       { type: "heading", level: 2, text: "How Pricing Methods Affect Your Costs Over Time", id: "cost-over-time" },
-      { type: "paragraph", content: "The following example illustrates how the three pricing methods can play out over 15 years for a [Medigap Plan G](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n) policyholder. These are illustrative figures based on typical market rates — your actual premiums will vary by insurer and location." },
+      { type: "paragraph", content: "The following example illustrates how the three pricing methods can play out over 15 years for a [Medigap Plan G](/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n) policyholder. These are illustrative figures based on typical market rates - your actual premiums will vary by insurer and location." },
       { type: "table", title: "How Pricing Methods Affect Your Costs Over Time", headers: ["Your Age", "Community-Rated", "Issue-Age-Rated", "Attained-Age-Rated"], rows: [
         ["65", "$175/mo", "$140/mo", "$110/mo"],
         ["70", "$195/mo", "$160/mo", "$165/mo"],
         ["75", "$215/mo", "$180/mo", "$230/mo"],
         ["80", "$240/mo", "$200/mo", "$310/mo"]
       ], footnote: "*Illustrative example only. Actual premiums vary by insurer, state, and health factors. All figures include estimated 2–3% annual inflation adjustments." },
-      { type: "paragraph", content: "As the table shows, the attained-age plan starts $65/month cheaper than community-rated at age 65 — but by age 80, it costs $70/month more. Over 15 years, the attained-age policyholder pays significantly more in total premiums despite the lower starting price." },
+      { type: "paragraph", content: "As the table shows, the attained-age plan starts $65/month cheaper than community-rated at age 65 - but by age 80, it costs $70/month more. Over 15 years, the attained-age policyholder pays significantly more in total premiums despite the lower starting price." },
 
       { type: "heading", level: 2, text: "How to Find Out Which Pricing Method a Plan Uses", id: "how-to-find" },
       { type: "paragraph", content: "Insurance companies are not always upfront about their pricing method, so you may need to ask directly. Here is how to find out:" },
       { type: "list", ordered: true, items: [
         "Call the insurance company and ask: 'Is this plan community-rated, issue-age-rated, or attained-age-rated?'",
-        "Check the plan's outline of coverage document — some insurers disclose the pricing method there",
+        "Check the plan's outline of coverage document - some insurers disclose the pricing method there",
         "Ask a licensed [Medicare insurance agent](/faqs/choosing-a-medigap-policy) who can compare pricing methods across multiple carriers in your area",
         "Contact your [State Health Insurance Assistance Program (SHIP)](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) for free, unbiased counseling"
       ]},
@@ -483,7 +483,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "paragraph", content: "The right pricing method depends on your age, budget, and how long you plan to keep the policy. Here are some general guidelines:" },
       { type: "list", ordered: false, items: [
         "If you are enrolling at 65 and plan to keep the policy for 15+ years, community-rated or issue-age-rated plans typically offer the best long-term value",
-        "If you need the lowest possible premium right now and may switch plans later, an attained-age plan could work — but understand the long-term cost trajectory",
+        "If you need the lowest possible premium right now and may switch plans later, an attained-age plan could work - but understand the long-term cost trajectory",
         "If you are enrolling after 65 (for example, after leaving [employer coverage](/enrollment/working-past-65)), issue-age-rated plans are especially attractive because your rate is locked at your enrollment age",
         "Always compare the projected total cost over 10–15 years, not just the monthly premium at sign-up"
       ]},
@@ -492,20 +492,20 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "heading", level: 2, text: "Other Factors That Affect Your Medigap Premium", id: "other-factors" },
       { type: "paragraph", content: "Beyond the pricing method, several other factors influence your [Medigap premium](/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage):" },
       { type: "list", ordered: false, items: [
-        "Tobacco use — smokers typically pay 10–25% more",
-        "Gender — in most states, women pay slightly less than men",
-        "Location — premiums vary significantly by ZIP code and state",
-        "Household discounts — some insurers offer 5–10% discounts for married couples or household members",
-        "Payment method — paying annually or via electronic funds transfer (EFT) can save 2–5%",
-        "Health status — during your [Medigap Open Enrollment Period](/enrollment/initial-enrollment-period), insurers cannot charge more for pre-existing conditions. Outside that window, medical underwriting may apply."
+        "Tobacco use - smokers typically pay 10–25% more",
+        "Gender - in most states, women pay slightly less than men",
+        "Location - premiums vary significantly by ZIP code and state",
+        "Household discounts - some insurers offer 5–10% discounts for married couples or household members",
+        "Payment method - paying annually or via electronic funds transfer (EFT) can save 2–5%",
+        "Health status - during your [Medigap Open Enrollment Period](/enrollment/initial-enrollment-period), insurers cannot charge more for pre-existing conditions. Outside that window, medical underwriting may apply."
       ]},
 
       { type: "heading", level: 2, text: "Sources and Further Reading", id: "sources" },
       { type: "list", ordered: false, items: [
-        "[CMS Medigap Consumer Guide](https://www.medicare.gov/supplements-other-insurance/whats-medicare-supplement-insurance-medigap) — Official Medicare.gov overview of Medigap plans and how they work",
-        "[NAIC Medigap Consumer Guide](https://content.naic.org/consumer/medigap-medicare-supplement-insurance.htm) — National Association of Insurance Commissioners guide to Medigap pricing and standardization",
-        "[SHIP National Technical Assistance Center](https://www.shiphelp.org/) — Free, unbiased Medicare counseling available in every state",
-        "[CMS Medigap Enrollment Data](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-supplemental-insurance-medigap) — Official CMS data on Medigap plan enrollment and premiums"
+        "[CMS Medigap Consumer Guide](https://www.medicare.gov/supplements-other-insurance/whats-medicare-supplement-insurance-medigap) - Official Medicare.gov overview of Medigap plans and how they work",
+        "[NAIC Medigap Consumer Guide](https://content.naic.org/consumer/medigap-medicare-supplement-insurance.htm) - National Association of Insurance Commissioners guide to Medigap pricing and standardization",
+        "[SHIP National Technical Assistance Center](https://www.shiphelp.org/) - Free, unbiased Medicare counseling available in every state",
+        "[CMS Medigap Enrollment Data](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-supplemental-insurance-medigap) - Official CMS data on Medigap plan enrollment and premiums"
       ]},
 
       { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faqs" },
@@ -513,7 +513,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         { question: "Can I Switch from an Attained-age Plan to a Community-rated Plan Later?", answer: "You can apply to switch, but outside of your Medigap Open Enrollment Period you will likely need to pass medical underwriting. If you have developed health conditions since your original enrollment, you may be denied or charged a higher rate. This is why choosing the right pricing method from the start is so important." },
         { question: "Do All States Offer All Three Pricing Methods?", answer: "No. Some states regulate which pricing methods insurers can use. New York, Connecticut, Massachusetts, and Minnesota require all Medigap plans to be community-rated, meaning every enrollee pays the same base premium regardless of age. Massachusetts and Minnesota also use their own standardized plan structures that differ from the federal standard. Check with your state insurance department or a licensed agent to see which methods are available in your area." },
         { question: "Does the Pricing Method Affect What My Plan Covers?", answer: "No. The pricing method only affects how your premium is calculated. A Plan G with community-rated pricing covers the exact same benefits as a Plan G with attained-age pricing. Medigap plan benefits are standardized by the federal government." },
-        { question: "What is the Best Time to Buy a Medigap Plan to Get the Lowest Rate?", answer: "The best time is during your Medigap Open Enrollment Period — the 6-month window that starts when you are 65 or older and enrolled in Medicare Part B. During this period, insurers must accept you regardless of health and cannot charge more for pre-existing conditions. If you choose an issue-age-rated plan, enrolling at 65 locks in the lowest possible rate." },
+        { question: "What is the Best Time to Buy a Medigap Plan to Get the Lowest Rate?", answer: "The best time is during your Medigap Open Enrollment Period - the 6-month window that starts when you are 65 or older and enrolled in Medicare Part B. During this period, insurers must accept you regardless of health and cannot charge more for pre-existing conditions. If you choose an issue-age-rated plan, enrolling at 65 locks in the lowest possible rate." },
         { question: "Will My Medigap Premium Ever Go Down?", answer: "It is rare for Medigap premiums to decrease. However, you can lower your costs by shopping for a different insurer offering the same plan letter at a lower rate, taking advantage of household or EFT discounts, or switching to a plan with lower coverage (such as Plan N instead of Plan G)." }
       ]}
     ],

@@ -135,7 +135,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
     },
     title: 'Medicare Supplement Plan G Reviews',
-    summary: 'Medicare Supplement Plan G is the most popular Medigap plan in 2026, covering nearly all Medicare cost-sharing except the Part B deductible ($283 in 2026). When reviewing Plan G carriers, focus on price, financial strength ratings, and customer service — the benefits are identical across all carriers.',
+    summary: 'Medicare Supplement Plan G is the most popular Medigap plan in 2026, covering nearly all Medicare cost-sharing except the Part B deductible ($283 in 2026). When reviewing Plan G carriers, focus on price, financial strength ratings, and customer service - the benefits are identical across all carriers.',
     category: 'Medicare FAQ',
     dateUpdated: 'May 12, 2026',
     author: 'David Haass',
@@ -206,7 +206,7 @@ export const simpleFAQBatch6: SimpleFAQArticleData[] = [
       { type: 'table', title: 'Ways to Report Medicare Fraud', headers: ['Method', 'Contact'], rows: [
         ['Call Medicare directly', '1-800-MEDICARE (1-800-633-4227), available 24/7. TTY: 1-877-486-2048'],
         ['Office of Inspector General (OIG)', '1-800-HHS-TIPS (1-800-447-8477) or online at oig.hhs.gov'],
-        ['Senior Medicare Patrol (SMP)', 'Find your local SMP at smpresource.org — free counseling and fraud reporting help'],
+        ['Senior Medicare Patrol (SMP)', 'Find your local SMP at smpresource.org - free counseling and fraud reporting help'],
         ['Your Medicare Advantage or Part D plan', 'Contact your plan directly if the fraud involves a private plan'],
       ]},
       { type: 'callout', calloutType: 'info', calloutTitle: 'Review Your Medicare Summary Notice Regularly', calloutText: 'Your Medicare Summary Notice (MSN) lists all services billed to Medicare on your behalf. Review it carefully every time you receive one. If you see a charge for a service you did not receive, or a date when you were not seen by that provider, report it immediately.' },

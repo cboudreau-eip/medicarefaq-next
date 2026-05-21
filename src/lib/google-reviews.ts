@@ -10,7 +10,7 @@ export const googleReviews: GoogleReview[] = [
     name: "Lisa Hancock",
     rating: 5,
     date: "2 months ago",
-    text: "Gavin Williams is Awesome. Spoke to him in September about my husband's prescription plan and other questions. Called and spoke with him Friday to set up my own benefits. He was very friendly, professional, knowledgeable, and comforting. He explained Medicare A, B, C & D to me, fully answered ALL of my questions and helped me setup what we could now. I can't compliment him enough for his help, professionalism, and personality that made me feel so comfortable — like he was family and our best interest was his priority. Thank you Gavin!",
+    text: "Gavin Williams is Awesome. Spoke to him in September about my husband's prescription plan and other questions. Called and spoke with him Friday to set up my own benefits. He was very friendly, professional, knowledgeable, and comforting. He explained Medicare A, B, C & D to me, fully answered ALL of my questions and helped me setup what we could now. I can't compliment him enough for his help, professionalism, and personality that made me feel so comfortable - like he was family and our best interest was his priority. Thank you Gavin!",
   },
   {
     name: "Dennis Zalar",
@@ -52,7 +52,7 @@ export const googleReviews: GoogleReview[] = [
     name: "Simkha Fridman",
     rating: 5,
     date: "3 months ago",
-    text: "This review is regarding Melissa Sanchez. Great service — Melissa has a full understanding of the job she performs. Thank you very much for your time. She was knowledgeable, very patient and very resourceful.",
+    text: "This review is regarding Melissa Sanchez. Great service - Melissa has a full understanding of the job she performs. Thank you very much for your time. She was knowledgeable, very patient and very resourceful.",
   },
   {
     name: "Gale Fenton",
@@ -64,7 +64,7 @@ export const googleReviews: GoogleReview[] = [
     name: "Patricia Allende de Jung",
     rating: 5,
     date: "5 months ago",
-    text: "Olivia was so patient, helpful, courteous, great at explaining issues and details, knowledgeable — and even more patient! What a pleasure it was to work with this most gracious and bright young lady. Thank you for getting me through this Medicare process.",
+    text: "Olivia was so patient, helpful, courteous, great at explaining issues and details, knowledgeable - and even more patient! What a pleasure it was to work with this most gracious and bright young lady. Thank you for getting me through this Medicare process.",
   },
   {
     name: "Victoria Leone",
@@ -76,7 +76,7 @@ export const googleReviews: GoogleReview[] = [
     name: "Heather Bickford",
     rating: 5,
     date: "5 months ago",
-    text: "Trevor Hanson was top notch — friendly, professional, very comprehensive in explaining a complicated issue. I thoroughly understood everything and am grateful for his patience. Thank you Trevor!!",
+    text: "Trevor Hanson was top notch - friendly, professional, very comprehensive in explaining a complicated issue. I thoroughly understood everything and am grateful for his patience. Thank you Trevor!!",
   },
   {
     name: "Wayne Spicer",
@@ -94,7 +94,7 @@ export const googleReviews: GoogleReview[] = [
     name: "Patty Connolly",
     rating: 5,
     date: "6 months ago",
-    text: "What a wonderful and pleasant experience signing up for a new Medicare Supplemental Medical Insurance company. Diego Joya was a joy to work with — professional, most helpful and kind. Diego is an asset to Elite Insurance Partners. I HIGHLY RECOMMEND ELITE INSURANCE PARTNERS AND ESPECIALLY DIEGO.",
+    text: "What a wonderful and pleasant experience signing up for a new Medicare Supplemental Medical Insurance company. Diego Joya was a joy to work with - professional, most helpful and kind. Diego is an asset to Elite Insurance Partners. I HIGHLY RECOMMEND ELITE INSURANCE PARTNERS AND ESPECIALLY DIEGO.",
   },
   {
     name: "Mary Underwood",
@@ -106,7 +106,7 @@ export const googleReviews: GoogleReview[] = [
     name: "Catherine",
     rating: 5,
     date: "5 months ago",
-    text: "Spoke with Eric Garcia yesterday — what a tremendous help, and he did it with a great sense of humor. Would recommend Elite to anyone looking to research Medicare plans. Thanks Eric!",
+    text: "Spoke with Eric Garcia yesterday - what a tremendous help, and he did it with a great sense of humor. Would recommend Elite to anyone looking to research Medicare plans. Thanks Eric!",
   },
   {
     name: "Bill Parrish",
@@ -118,7 +118,7 @@ export const googleReviews: GoogleReview[] = [
     name: "Marilyn Yopp",
     rating: 5,
     date: "3 months ago",
-    text: "Daniel Almeida was great in helping me navigate my supplemental insurance options. He contacted an insurance rep and stayed on the phone with me through the entire process. After switching, I found out that my preferred health system no longer accepted my previous insurer — I'm so glad Daniel helped me make the right move.",
+    text: "Daniel Almeida was great in helping me navigate my supplemental insurance options. He contacted an insurance rep and stayed on the phone with me through the entire process. After switching, I found out that my preferred health system no longer accepted my previous insurer - I'm so glad Daniel helped me make the right move.",
   },
   {
     name: "Jody Heywood",

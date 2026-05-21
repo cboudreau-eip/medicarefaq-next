@@ -47,9 +47,9 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "SilverScript Plan Options in 2026",
         content: "SilverScript typically offers three plan tiers to meet different needs and budgets:",
         bullets: [
-          "SilverScript SmartSaver — Low premium, higher cost-sharing. Best for those who take few or no medications.",
-          "SilverScript Choice — Mid-tier plan with moderate premiums and cost-sharing. Covers a broad formulary.",
-          "SilverScript Plus — Higher premium with lower cost-sharing and broader formulary coverage including more brand-name drugs."],
+          "SilverScript SmartSaver - Low premium, higher cost-sharing. Best for those who take few or no medications.",
+          "SilverScript Choice - Mid-tier plan with moderate premiums and cost-sharing. Covers a broad formulary.",
+          "SilverScript Plus - Higher premium with lower cost-sharing and broader formulary coverage including more brand-name drugs."],
         callout: { type: "info", text: "Premiums, deductibles, and formularies change each year. Always compare plans during Annual Enrollment Period (Oct 15 – Dec 7) to ensure your medications are still covered at a reasonable cost." },
       },
       {
@@ -97,10 +97,10 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "Key Changes for Part D in 2026",
         content: "The Inflation Reduction Act continues to reshape Part D in 2026:",
         bullets: [
-          "$2,000 out-of-pocket cap — once you spend $2,000 on covered drugs, you pay $0 for the rest of the year",
-          "Medicare Prescription Payment Plan — spread your out-of-pocket costs across monthly installments",
-          "Vaccine coverage — most recommended vaccines are covered at $0 cost-sharing",
-          "Insulin cap — insulin costs capped at $35/month per covered insulin"],
+          "$2,000 out-of-pocket cap - once you spend $2,000 on covered drugs, you pay $0 for the rest of the year",
+          "Medicare Prescription Payment Plan - spread your out-of-pocket costs across monthly installments",
+          "Vaccine coverage - most recommended vaccines are covered at $0 cost-sharing",
+          "Insulin cap - insulin costs capped at $35/month per covered insulin"],
         callout: { type: "tip", text: "The $2,000 OOP cap is a significant benefit for people who take expensive brand-name or specialty drugs. If you previously hit the coverage gap, you'll likely see substantial savings in 2026." },
       },
       {
@@ -121,11 +121,11 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "Top-Rated Part D Plan Sponsors in 2026",
         content: "Several plan sponsors consistently receive high CMS star ratings:",
         bullets: [
-          "SilverScript (CVS Health) — largest enrollment, competitive premiums",
-          "Humana Walmart Value Rx — low premium option with Walmart pharmacy network",
-          "WellCare Value Script — low-cost option in many regions",
-          "UnitedHealthcare Walgreens Rx — preferred pricing at Walgreens",
-          "Aetna Medicare Rx — broad formulary coverage"],
+          "SilverScript (CVS Health) - largest enrollment, competitive premiums",
+          "Humana Walmart Value Rx - low premium option with Walmart pharmacy network",
+          "WellCare Value Script - low-cost option in many regions",
+          "UnitedHealthcare Walgreens Rx - preferred pricing at Walgreens",
+          "Aetna Medicare Rx - broad formulary coverage"],
         callout: { type: "info", text: "Plan star ratings and availability change annually. Use Medicare.gov's Plan Finder tool to compare plans based on your specific medications and preferred pharmacy." },
       },
       {
@@ -135,13 +135,13 @@ export const partDSubPages: PartDSubPage[] = [
         bullets: [
           "List all your current medications (drug name, dosage, frequency)",
           "Go to Medicare.gov Plan Finder and enter your drugs and preferred pharmacy",
-          "Compare total estimated annual costs (premium + deductible + copays) — not just the monthly premium",
+          "Compare total estimated annual costs (premium + deductible + copays) - not just the monthly premium",
           "Check the star rating (5-star plans offer the best quality and service)",
           "Review the pharmacy network to ensure your preferred pharmacy is in-network",
           "Check for prior authorization or step therapy requirements on your drugs"],
       }],
     faqs: [
-      { q: "What is the best Medicare Part D plan for 2026?", a: "There is no single 'best' plan — it depends on your specific medications, preferred pharmacy, and budget. Use Medicare.gov's Plan Finder to compare plans based on your drug list. The plan with the lowest total annual cost for your specific drugs is generally the best choice." },
+      { q: "What is the best Medicare Part D plan for 2026?", a: "There is no single 'best' plan - it depends on your specific medications, preferred pharmacy, and budget. Use Medicare.gov's Plan Finder to compare plans based on your drug list. The plan with the lowest total annual cost for your specific drugs is generally the best choice." },
       { q: "Can I change my Part D plan every year?", a: "Yes. During the Annual Enrollment Period (October 15 – December 7), you can switch to any Part D plan available in your area. Changes take effect January 1 of the following year." },
       { q: "Do I need Part D if I don't take any medications?", a: "You're not required to have Part D, but if you go without creditable drug coverage for 63 or more consecutive days after becoming eligible, you'll face a permanent late enrollment penalty when you do eventually enroll." }],
     relatedLinks: [
@@ -161,7 +161,7 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "icep",
         heading: "Initial Coverage Election Period (ICEP)",
-        content: "Your first opportunity to enroll in a Part D plan. The ICEP runs for the same 7-month window as your Medicare Initial Enrollment Period — 3 months before your 65th birthday month, your birthday month, and 3 months after. If you're enrolling in Part D due to disability, your ICEP begins 3 months before your 25th month of disability benefits.",
+        content: "Your first opportunity to enroll in a Part D plan. The ICEP runs for the same 7-month window as your Medicare Initial Enrollment Period - 3 months before your 65th birthday month, your birthday month, and 3 months after. If you're enrolling in Part D due to disability, your ICEP begins 3 months before your 25th month of disability benefits.",
         callout: { type: "tip", text: "Enroll during the first 3 months of your ICEP for the earliest possible coverage start date. Enrolling in the last 3 months may delay your coverage start." },
       },
       {
@@ -222,22 +222,22 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "under-65",
         heading: "Part D Eligibility under Age 65",
-        content: "If you're under 65 and enrolled in Medicare due to disability, ESRD, or ALS, you're also eligible for Part D. Your Initial Coverage Election Period begins 3 months before your 25th month of receiving Social Security Disability Insurance (SSDI) benefits — the same month your Medicare coverage begins.",
+        content: "If you're under 65 and enrolled in Medicare due to disability, ESRD, or ALS, you're also eligible for Part D. Your Initial Coverage Election Period begins 3 months before your 25th month of receiving Social Security Disability Insurance (SSDI) benefits - the same month your Medicare coverage begins.",
       },
       {
         id: "employer-coverage",
         heading: "Employer Coverage and Part D",
-        content: "If you have prescription drug coverage through an employer or union plan, you may not need to enroll in Part D immediately. However, you must verify that your employer coverage is 'creditable' — meaning it's at least as good as standard Part D coverage. If it is, you can delay Part D enrollment without penalty.",
+        content: "If you have prescription drug coverage through an employer or union plan, you may not need to enroll in Part D immediately. However, you must verify that your employer coverage is 'creditable' - meaning it's at least as good as standard Part D coverage. If it is, you can delay Part D enrollment without penalty.",
         callout: { type: "warning", text: "If your employer coverage is not creditable, you should enroll in Part D during your ICEP to avoid the late enrollment penalty." },
       },
       {
         id: "extra-help",
         heading: "Extra Help (Low Income Subsidy)",
-        content: "If you have limited income and resources, you may qualify for Extra Help — a federal program that pays Part D premiums, deductibles, and copays. In 2026, individuals with income up to 150% of the federal poverty level may qualify. Extra Help enrollees are automatically enrolled in a benchmark Part D plan if they don't choose one themselves.",
+        content: "If you have limited income and resources, you may qualify for Extra Help - a federal program that pays Part D premiums, deductibles, and copays. In 2026, individuals with income up to 150% of the federal poverty level may qualify. Extra Help enrollees are automatically enrolled in a benchmark Part D plan if they don't choose one themselves.",
       }],
     faqs: [
       { q: "Do I have to enroll in Part D?", a: "No, Part D is voluntary. However, if you go without creditable drug coverage for 63 or more consecutive days after becoming eligible, you'll face a permanent late enrollment penalty when you do enroll." },
-      { q: "Can I enroll in Part D if I have VA drug benefits?", a: "VA drug benefits are generally considered creditable coverage, so you can delay Part D enrollment without penalty. However, VA coverage and Part D don't work together — you'd use one or the other for a given prescription." },
+      { q: "Can I enroll in Part D if I have VA drug benefits?", a: "VA drug benefits are generally considered creditable coverage, so you can delay Part D enrollment without penalty. However, VA coverage and Part D don't work together - you'd use one or the other for a given prescription." },
       { q: "What if I'm still working at 65 with employer drug coverage?", a: "If your employer drug coverage is creditable, you can delay Part D without penalty. Get a letter from your employer confirming the coverage is creditable, and keep it in case you need to prove it later." }],
     relatedLinks: [
       { label: "Part D Enrollment Periods", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods" },
@@ -250,7 +250,7 @@ export const partDSubPages: PartDSubPage[] = [
     title: "Medicare Part D Coverage Gap (Donut Hole)",
     metaTitle: "Medicare Part D Coverage Gap (Donut Hole) 2026 | What You Need to Know",
     metaDescription: "The Medicare Part D coverage gap (donut hole) has been eliminated for 2025 and 2026. Learn what changed, what the $2,000 out-of-pocket cap means, and how it affects your drug costs.",
-    heroSubtitle: "The Medicare Part D coverage gap — once a major source of unexpected drug costs — has been effectively eliminated. Starting in 2025, a $2,000 annual out-of-pocket cap limits your drug spending.",
+    heroSubtitle: "The Medicare Part D coverage gap - once a major source of unexpected drug costs - has been effectively eliminated. Starting in 2025, a $2,000 annual out-of-pocket cap limits your drug spending.",
     heroIcon: "TrendingDown",
     sections: [
       {
@@ -324,7 +324,7 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "How to Check if Your Drug is Covered",
         content: "Before enrolling in a Part D plan, always verify your medications are on the formulary:",
         bullets: [
-          "Use Medicare.gov Plan Finder — enter your drugs to see which plans cover them and at what cost",
+          "Use Medicare.gov Plan Finder - enter your drugs to see which plans cover them and at what cost",
           "Visit the plan's website and search the formulary directly",
           "Call the plan's member services number",
           "Work with a licensed Medicare agent who can check multiple plans at once"],
@@ -335,8 +335,8 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "What to Do If Your Drug Isn't on the Formulary",
         content: "If your medication isn't covered or is on a high-cost tier, you have options:",
         bullets: [
-          "Request a formulary exception — ask the plan to cover your drug at a lower cost-sharing level if your doctor certifies it's medically necessary",
-          "Ask about therapeutic alternatives — your doctor may be able to prescribe a covered drug in the same class",
+          "Request a formulary exception - ask the plan to cover your drug at a lower cost-sharing level if your doctor certifies it's medically necessary",
+          "Ask about therapeutic alternatives - your doctor may be able to prescribe a covered drug in the same class",
           "File an appeal if your exception request is denied",
           "Switch plans during Annual Enrollment Period to one that covers your drug"],
       }],
@@ -381,7 +381,7 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "how-to-avoid",
         heading: "How to Avoid the Penalty",
-        content: "The simplest way to avoid the penalty is to enroll in a Part D plan during your Initial Coverage Election Period (ICEP) — even if you don't take any medications. Low-premium plans (sometimes $0–$15/month) exist specifically for people who want to avoid the penalty without paying much.",
+        content: "The simplest way to avoid the penalty is to enroll in a Part D plan during your Initial Coverage Election Period (ICEP) - even if you don't take any medications. Low-premium plans (sometimes $0–$15/month) exist specifically for people who want to avoid the penalty without paying much.",
         callout: { type: "tip", text: "A $0-premium Part D plan can protect you from the late enrollment penalty at no cost. If you rarely use prescription drugs, this is often the smartest move." },
       },
       {
@@ -431,7 +431,7 @@ export const partDSubPages: PartDSubPage[] = [
         id: "zero-deductible",
         heading: "Plans with $0 Deductible",
         content: "Many Part D plans offer $0 deductibles, particularly for generic drugs. However, these plans typically have higher monthly premiums to offset the lower cost-sharing. When comparing plans, look at the total annual cost (premium + deductible + copays) rather than just the deductible amount.",
-        callout: { type: "tip", text: "A plan with a $0 deductible and $50/month premium may cost more annually than a plan with a $615 deductible and $15/month premium — especially if you only take generics. Always compare total estimated annual costs." },
+        callout: { type: "tip", text: "A plan with a $0 deductible and $50/month premium may cost more annually than a plan with a $615 deductible and $15/month premium - especially if you only take generics. Always compare total estimated annual costs." },
       }],
     faqs: [
       { q: "Does the Part D deductible reset every year?", a: "Yes. The Part D deductible resets on January 1 each year. You start fresh each calendar year and must meet the deductible again before your plan begins sharing costs." },
@@ -530,13 +530,13 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "how-tiers-affect-cost",
         heading: "How Tier Placement Affects Your Cost",
-        content: "The same drug can be on different tiers in different plans — and the cost difference can be substantial. A brand-name drug on Tier 3 in one plan might be on Tier 4 in another, doubling or tripling your copay. This is why comparing plans based on your specific medications (not just premiums) is essential.",
+        content: "The same drug can be on different tiers in different plans - and the cost difference can be substantial. A brand-name drug on Tier 3 in one plan might be on Tier 4 in another, doubling or tripling your copay. This is why comparing plans based on your specific medications (not just premiums) is essential.",
         callout: { type: "tip", text: "Ask your doctor if a generic equivalent is available for any brand-name drugs you take. Switching to a Tier 1 generic can save hundreds of dollars per year." },
       },
       {
         id: "tier-exceptions",
         heading: "Requesting a Tier Exception",
-        content: "If your drug is on a high tier, you can request a tier exception — asking the plan to cover it at a lower tier's cost-sharing. To qualify, your doctor must certify that the lower-tier drugs in the same class are not appropriate for your condition. Tier exceptions are not guaranteed but are worth requesting for expensive medications.",
+        content: "If your drug is on a high tier, you can request a tier exception - asking the plan to cover it at a lower tier's cost-sharing. To qualify, your doctor must certify that the lower-tier drugs in the same class are not appropriate for your condition. Tier exceptions are not guaranteed but are worth requesting for expensive medications.",
       },
       {
         id: "specialty-drugs",
@@ -564,7 +564,7 @@ export const partDSubPages: PartDSubPage[] = [
       {
         id: "what-is-pa",
         heading: "What is Prior Authorization?",
-        content: "Prior authorization is a coverage management tool used by Medicare Part D plans. For certain drugs — typically expensive brand-name medications, specialty drugs, or drugs with high abuse potential — the plan requires your doctor to submit clinical information demonstrating that the drug is medically necessary before it will be covered.",
+        content: "Prior authorization is a coverage management tool used by Medicare Part D plans. For certain drugs - typically expensive brand-name medications, specialty drugs, or drugs with high abuse potential - the plan requires your doctor to submit clinical information demonstrating that the drug is medically necessary before it will be covered.",
         callout: { type: "info", text: "Prior authorization does not mean the drug is not covered. It means the plan needs additional information before approving coverage. Most PA requests that include proper documentation are approved." },
       },
       {
@@ -595,8 +595,8 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "What to do if Prior Authorization is Denied",
         content: "If your PA request is denied, you have several options:",
         bullets: [
-          "Request a formulary exception — ask the plan to cover the drug without PA requirements",
-          "File an appeal — you have the right to a formal review of the denial",
+          "Request a formulary exception - ask the plan to cover the drug without PA requirements",
+          "File an appeal - you have the right to a formal review of the denial",
           "Ask your doctor about covered alternatives in the same drug class",
           "Request an expedited appeal if you need the drug urgently",
           "Contact your State Health Insurance Assistance Program (SHIP) for free help navigating the appeals process"],
@@ -790,10 +790,10 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "The Four Main Part D Cost Components",
         content: "Medicare Part D costs consist of four main components that work together to determine your total annual spending on prescription drugs:",
         bullets: [
-          "Monthly premium — paid to your plan every month regardless of drug use",
-          "Annual deductible — amount you pay before the plan starts covering drugs (up to $615 in 2026)",
-          "Copays and coinsurance — your share of each prescription based on the drug's tier",
-          "IRMAA surcharge — additional amount for higher-income beneficiaries"],
+          "Monthly premium - paid to your plan every month regardless of drug use",
+          "Annual deductible - amount you pay before the plan starts covering drugs (up to $615 in 2026)",
+          "Copays and coinsurance - your share of each prescription based on the drug's tier",
+          "IRMAA surcharge - additional amount for higher-income beneficiaries"],
       },
       {
         id: "premiums",
@@ -890,16 +890,16 @@ export const partDSubPages: PartDSubPage[] = [
         heading: "The New 2025-2026 Part D Structure",
         content: "Starting in 2025, Medicare Part D has a simpler two-phase structure:",
         bullets: [
-          "Phase 1: Deductible phase — You pay 100% of drug costs until you meet your deductible (up to $615 in 2026)",
-          "Phase 2: Coverage phase — You pay your plan's copays/coinsurance until you reach $2,000 in out-of-pocket costs",
-          "Phase 3: Catastrophic phase — After $2,000 OOP, you pay $0 for covered drugs for the rest of the year"],
+          "Phase 1: Deductible phase - You pay 100% of drug costs until you meet your deductible (up to $615 in 2026)",
+          "Phase 2: Coverage phase - You pay your plan's copays/coinsurance until you reach $2,000 in out-of-pocket costs",
+          "Phase 3: Catastrophic phase - After $2,000 OOP, you pay $0 for covered drugs for the rest of the year"],
         callout: { type: "tip", text: "The $2,000 cap is a major improvement for people with high drug costs, particularly those on specialty medications. In prior years, beneficiaries could spend $5,000+ before reaching catastrophic coverage." },
       },
       {
         id: "m3p",
         heading: "Medicare Prescription Payment Plan (M3P)",
         content: "The Inflation Reduction Act also created the Medicare Prescription Payment Plan (M3P), which lets you spread your out-of-pocket drug costs evenly across the year in monthly installments. This prevents large upfront costs early in the year when you are in the deductible phase.",
-        callout: { type: "info", text: "M3P is optional and must be elected each year. It does not reduce your total costs — it only smooths out when you pay them. Contact your Part D plan to enroll." },
+        callout: { type: "info", text: "M3P is optional and must be elected each year. It does not reduce your total costs - it only smooths out when you pay them. Contact your Part D plan to enroll." },
       }],
     faqs: [
       { q: "Is the Medicare donut hole gone in 2026?", a: "Yes. The coverage gap (donut hole) was eliminated starting January 1, 2025. In 2026, once you spend $2,000 out-of-pocket on covered drugs, you pay $0 for the rest of the year." },

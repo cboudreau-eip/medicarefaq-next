@@ -37,7 +37,7 @@ export const STATE_DATA: StateData[] = [
     openEnrollmentNote: "Massachusetts has additional consumer protections including a continuous open enrollment period for Medicare Supplement plans.",
     stateSpecificRules: [
       "Massachusetts uses its own plan structure: Core, Supplement 1, and Supplement 1A",
-      "Continuous open enrollment — you can switch Medigap plans at any time",
+      "Continuous open enrollment - you can switch Medigap plans at any time",
       "Guaranteed issue rights are broader than federal law",
       "Plans must cover certain benefits not required federally"],
     overview: "Massachusetts is one of three states (along with Minnesota and Wisconsin) that has its own standardized Medigap plan structure. Instead of the federal lettered plans (A through N), Massachusetts offers Core, Supplement 1, and Supplement 1A plans. Massachusetts also provides significantly stronger consumer protections, including a continuous open enrollment period that allows beneficiaries to switch Medigap plans at any time without medical underwriting.",
@@ -117,14 +117,14 @@ export const STATE_DATA: StateData[] = [
     openEnrollmentNote: "Standard 6-month open enrollment period starting when you turn 65 and enroll in Medicare Part B.",
     stateSpecificRules: [
       "Florida follows federal Medigap standardization (Plans A–N)",
-      "Florida has a Birthday Rule — you can switch to a plan with equal or lesser benefits during the 30 days surrounding your birthday each year without medical underwriting",
+      "Florida has a Birthday Rule - you can switch to a plan with equal or lesser benefits during the 30 days surrounding your birthday each year without medical underwriting",
       "Large Medicare population means competitive pricing from many carriers",
       "Community-rated pricing is common in Florida"],
     overview: "Florida has one of the largest Medicare populations in the country, with nearly 4.8 million enrollees. The state follows federal Medigap standardization, so all lettered plans (A through N) are available. Florida also has a Birthday Rule that gives beneficiaries an annual window to switch Medigap plans without medical underwriting. The large Medicare market means strong competition among carriers, often resulting in competitive pricing.",
     keyFacts: [
       { label: "Medicare Enrollees", value: "4.8 million" },
       { label: "Avg Plan G Premium", value: "$145–$220/month" },
-      { label: "Birthday Rule", value: "Yes — annual switch window" },
+      { label: "Birthday Rule", value: "Yes - annual switch window" },
       { label: "Most Popular Plan", value: "Plan G" }],
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/florida-medigap-plans/",
     metaTitle: "Florida Medigap Plans 2026: Best Medicare Supplement Plans in FL",
@@ -140,10 +140,10 @@ export const STATE_DATA: StateData[] = [
     avgPlanGPremium: "$180–$280/month",
     topCarriers: ["Horizon Blue Cross Blue Shield of NJ", "Aetna", "Mutual of Omaha"],
     popularPlans: ["G", "N"],
-    openEnrollmentNote: "New Jersey has guaranteed issue rights for Medigap plans — insurers cannot deny coverage or charge higher premiums based on health status.",
+    openEnrollmentNote: "New Jersey has guaranteed issue rights for Medigap plans - insurers cannot deny coverage or charge higher premiums based on health status.",
     stateSpecificRules: [
-      "New Jersey requires guaranteed issue for all Medigap plans — no medical underwriting",
-      "Community rating required — all enrollees pay the same premium regardless of age or health",
+      "New Jersey requires guaranteed issue for all Medigap plans - no medical underwriting",
+      "Community rating required - all enrollees pay the same premium regardless of age or health",
       "Premiums tend to be higher than most states due to guaranteed issue requirements",
       "Continuous open enrollment period"],
     overview: "New Jersey has some of the strongest Medigap consumer protections in the country. The state requires guaranteed issue for all Medigap plans, meaning insurers cannot deny coverage or charge higher premiums based on health status. New Jersey also uses community rating, so all enrollees pay the same premium regardless of age. While this means premiums tend to be higher than in most states, it also means anyone can get coverage at any time.",
@@ -170,7 +170,7 @@ export const STATE_DATA: StateData[] = [
     stateSpecificRules: [
       "Texas follows federal Medigap standardization (Plans A–N)",
       "Large Medicare market with strong carrier competition",
-      "Attained-age rating is most common — premiums increase as you age",
+      "Attained-age rating is most common - premiums increase as you age",
       "No state-specific Birthday Rule"],
     overview: "Texas has one of the largest Medicare populations in the country with over 4.2 million enrollees. The state follows federal Medigap standardization and has a highly competitive market with many carriers offering plans. Plan G is by far the most popular choice in Texas, followed by Plan N and High Deductible Plan G. Premiums in Texas are generally competitive, though they vary significantly by region and carrier.",
     keyFacts: [
@@ -192,17 +192,17 @@ export const STATE_DATA: StateData[] = [
     avgPlanGPremium: "$155–$240/month",
     topCarriers: ["Blue Shield of CA", "Anthem Blue Cross", "Aetna", "Mutual of Omaha"],
     popularPlans: ["G", "N", "F"],
-    openEnrollmentNote: "California has a Birthday Rule — you can switch to a plan with equal or lesser benefits during the 60 days surrounding your birthday each year without medical underwriting.",
+    openEnrollmentNote: "California has a Birthday Rule - you can switch to a plan with equal or lesser benefits during the 60 days surrounding your birthday each year without medical underwriting.",
     stateSpecificRules: [
       "California follows federal Medigap standardization (Plans A–N)",
-      "California Birthday Rule — 60-day window each year to switch plans without underwriting",
+      "California Birthday Rule - 60-day window each year to switch plans without underwriting",
       "Largest Medicare population in the country",
       "Premiums tend to be higher than national average"],
     overview: "California has the largest Medicare population in the country with over 6.4 million enrollees. The state follows federal Medigap standardization and has a Birthday Rule that gives beneficiaries a 60-day window around their birthday each year to switch Medigap plans without medical underwriting. California's large market means many carriers compete for business, though premiums tend to be higher than the national average due to the state's higher cost of living.",
     keyFacts: [
       { label: "Medicare Enrollees", value: "6.4 million" },
       { label: "Avg Plan G Premium", value: "$155–$240/month" },
-      { label: "Birthday Rule", value: "Yes — 60-day window" },
+      { label: "Birthday Rule", value: "Yes - 60-day window" },
       { label: "Most Popular Plan", value: "Plan G" }],
     canonical: "https://www.medicarefaq.com/medicare-supplements/medigap-by-state/california-medigap-plans/",
     metaTitle: "California Medigap Plans 2026: Best Medicare Supplement Plans in CA",
@@ -218,10 +218,10 @@ export const STATE_DATA: StateData[] = [
     avgPlanGPremium: "$175–$260/month",
     topCarriers: ["Aetna", "Mutual of Omaha", "Blue Cross Blue Shield of CT"],
     popularPlans: ["G", "N"],
-    openEnrollmentNote: "Connecticut has guaranteed issue rights for Medigap plans — insurers cannot deny coverage based on health status.",
+    openEnrollmentNote: "Connecticut has guaranteed issue rights for Medigap plans - insurers cannot deny coverage based on health status.",
     stateSpecificRules: [
       "Connecticut requires guaranteed issue for all Medigap plans",
-      "Community rating required — premiums don't vary by age",
+      "Community rating required - premiums don't vary by age",
       "Continuous open enrollment period",
       "Premiums tend to be higher due to guaranteed issue requirements"],
     overview: "Connecticut, like New Jersey, requires guaranteed issue for all Medigap plans and uses community rating. This means anyone can get a Medigap plan at any time without medical underwriting, and all enrollees pay the same premium regardless of age. While premiums tend to be higher than in most states, Connecticut residents benefit from strong consumer protections.",
@@ -347,7 +347,7 @@ export const STATE_DATA: StateData[] = [
     avgPlanGPremium: "$160–$240/month",
     topCarriers: ["Blue Cross Blue Shield of VT", "Aetna", "Mutual of Omaha"],
     popularPlans: ["G", "N"],
-    openEnrollmentNote: "Vermont has guaranteed issue rights for Medigap plans — insurers cannot deny coverage based on health status.",
+    openEnrollmentNote: "Vermont has guaranteed issue rights for Medigap plans - insurers cannot deny coverage based on health status.",
     stateSpecificRules: [
       "Vermont requires guaranteed issue for all Medigap plans",
       "Community rating required",
@@ -373,10 +373,10 @@ export const STATE_DATA: StateData[] = [
     avgPlanGPremium: "$200–$320/month",
     topCarriers: ["Empire Blue Cross Blue Shield", "Aetna", "Mutual of Omaha", "Cigna"],
     popularPlans: ["G", "N"],
-    openEnrollmentNote: "New York has guaranteed issue rights for Medigap plans year-round — insurers cannot deny coverage based on health status.",
+    openEnrollmentNote: "New York has guaranteed issue rights for Medigap plans year-round - insurers cannot deny coverage based on health status.",
     stateSpecificRules: [
       "New York requires guaranteed issue for all Medigap plans year-round",
-      "Community rating required — premiums don't vary by age",
+      "Community rating required - premiums don't vary by age",
       "Continuous open enrollment period",
       "Among the highest Medigap premiums in the country"],
     overview: "New York has some of the strongest Medigap consumer protections in the country, with year-round guaranteed issue rights and community rating. Anyone can get a Medigap plan at any time without medical underwriting, and all enrollees pay the same premium regardless of age. The trade-off is that New York has among the highest Medigap premiums in the country. The state has a large Medicare population of 3.8 million enrollees.",
@@ -427,7 +427,7 @@ export const STATE_DATA: StateData[] = [
     openEnrollmentNote: "Standard 6-month open enrollment period starting when you turn 65 and enroll in Medicare Part B.",
     stateSpecificRules: [
       "Kentucky follows federal Medigap standardization (Plans A–N)",
-      "Humana is headquartered in Louisville — strong local presence",
+      "Humana is headquartered in Louisville - strong local presence",
       "Generally affordable premiums"],
     overview: "Kentucky follows federal Medigap standardization and has a competitive market. Humana, headquartered in Louisville, has a strong presence in the state. Premiums are generally affordable, and Plan G is the most popular choice.",
     keyFacts: [
@@ -676,7 +676,7 @@ export const STATE_DATA: StateData[] = [
     avgPlanGPremium: "$130–$200/month",
     topCarriers: ["CareFirst BlueCross BlueShield", "Aetna", "Mutual of Omaha", "Cigna"],
     popularPlans: ["G", "N", "F"],
-    openEnrollmentNote: "Standard 6-month open enrollment period starting when you turn 65 and enroll in Medicare Part B. Maryland also has a Birthday Rule — see state-specific rules below.",
+    openEnrollmentNote: "Standard 6-month open enrollment period starting when you turn 65 and enroll in Medicare Part B. Maryland also has a Birthday Rule - see state-specific rules below.",
     stateSpecificRules: [
       "Maryland has a Birthday Rule allowing plan switches within 30 days of your birthday each year",
       "Under the Birthday Rule, you can switch to a plan with equal or lesser benefits without underwriting",
@@ -705,7 +705,7 @@ export const STATE_DATA: StateData[] = [
     openEnrollmentNote: "Standard 6-month open enrollment period starting when you turn 65 and enroll in Medicare Part B.",
     stateSpecificRules: [
       "Wyoming follows federal Medigap standardization (Plans A–N)",
-      "Smallest Medicare population in the country — fewer carrier options",
+      "Smallest Medicare population in the country - fewer carrier options",
       "Blue Cross Blue Shield of Wyoming is a key regional carrier",
       "Rural geography means provider access is an important consideration"],
     overview: "Wyoming has the smallest Medicare population of any state, with approximately 115,000 enrollees. The state follows federal Medigap standardization, but the small market means fewer carrier options than larger states. Blue Cross Blue Shield of Wyoming is a key regional carrier alongside national options. Given Wyoming's rural geography, beneficiaries should pay close attention to provider networks when choosing between Original Medicare with a Medigap plan versus Medicare Advantage.",

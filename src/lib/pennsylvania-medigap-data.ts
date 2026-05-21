@@ -3,7 +3,7 @@
  * Source: CMS Medicare Plan Finder, AM Best, NAIC, NerdWallet (2026),
  *         Pennsylvania Insurance Department, AHIP State of Medicare Supplement Coverage 2026
  * Sample premiums: 65-year-old female nonsmoker in Pittsburgh, PA
- * NOTE: Pennsylvania uses attained-age rating — premiums increase as you age.
+ * NOTE: Pennsylvania uses attained-age rating - premiums increase as you age.
  * MedicareFAQ Score methodology: weighted composite of financial strength,
  * pricing competitiveness, plan availability, complaint record, and discounts.
  */
@@ -42,15 +42,15 @@ export const PENNSYLVANIA_CARRIERS: PennsylvaniaCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount available",
     pros: [
-      "Highest AM Best financial rating (A++) — superior financial strength",
-      "Excellent complaint record — far fewer than expected",
+      "Highest AM Best financial rating (A++) - superior financial strength",
+      "Excellent complaint record - far fewer than expected",
       "Broad plan selection (6 plan types including Plan D)",
       "Trusted national brand with strong local agent network in Pennsylvania",
     ],
     cons: [
       "Premiums slightly above the lowest available in Pennsylvania",
       "Below-average premium discounts compared to some competitors",
-      "Must work through a State Farm agent — no direct online enrollment",
+      "Must work through a State Farm agent - no direct online enrollment",
     ],
     yearFounded: 1922,
     headquartersState: "Illinois",
@@ -70,7 +70,7 @@ export const PENNSYLVANIA_CARRIERS: PennsylvaniaCarrier[] = [
     discounts: "Household, payment mode, and loyalty discounts",
     pros: [
       "Most plan options available in Pennsylvania (8 plan types)",
-      "Excellent complaint record — far fewer than expected",
+      "Excellent complaint record - far fewer than expected",
       "Largest Medicare Supplement insurer nationwide",
       "Strong household and loyalty discounts",
     ],
@@ -102,7 +102,7 @@ export const PENNSYLVANIA_CARRIERS: PennsylvaniaCarrier[] = [
       "Available statewide in Pennsylvania",
     ],
     cons: [
-      "Far more complaints than expected — highest complaint rate among our top picks",
+      "Far more complaints than expected - highest complaint rate among our top picks",
       "Fewer plan options (4 plan types)",
       "Customer service quality concerns reflected in complaint data",
     ],
@@ -123,7 +123,7 @@ export const PENNSYLVANIA_CARRIERS: PennsylvaniaCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount (up to 12%), annual payment discount",
     pros: [
-      "Generous household discount (up to 12%) — among the highest available",
+      "Generous household discount (up to 12%) - among the highest available",
       "Strong financial rating (A+)",
       "Excellent complaint record",
       "Competitive Plan G pricing in Pennsylvania",
@@ -150,7 +150,7 @@ export const PENNSYLVANIA_CARRIERS: PennsylvaniaCarrier[] = [
     complaintRecord: "Close to expected",
     discounts: "Household discount available",
     pros: [
-      "Competitive premiums — among the lowest Plan G rates in Pennsylvania",
+      "Competitive premiums - among the lowest Plan G rates in Pennsylvania",
       "Solid AM Best rating (A-)",
       "Available statewide in Pennsylvania",
       "Good value for budget-conscious enrollees",
@@ -217,7 +217,7 @@ export const PENNSYLVANIA_STATS = {
   hasCommunityRating: false,
   hasGuaranteedIssueYearRound: false,
   hasBirthdayRule: false,
-  ratingType: "Attained-age — premiums increase as you age",
+  ratingType: "Attained-age - premiums increase as you age",
   freeLookPeriod: "30 days",
   partBDeductible2026: "$283",
   partADeductible2026: "$1,736",
@@ -233,7 +233,7 @@ export const PENNSYLVANIA_FAQS = [
   {
     question: "How much does Medigap Plan G cost in Pennsylvania?",
     answer:
-      "Plan G premiums in Pennsylvania are among the most affordable in the country. In Pittsburgh, Plan G starts at approximately $133 per month for a 65-year-old female nonsmoker. Rates vary by city — Philadelphia rates tend to be slightly higher. Pennsylvania uses attained-age rating, so premiums will increase as you age.",
+      "Plan G premiums in Pennsylvania are among the most affordable in the country. In Pittsburgh, Plan G starts at approximately $133 per month for a 65-year-old female nonsmoker. Rates vary by city - Philadelphia rates tend to be slightly higher. Pennsylvania uses attained-age rating, so premiums will increase as you age.",
   },
   {
     question: "Does Pennsylvania have a birthday rule?",
@@ -248,12 +248,12 @@ export const PENNSYLVANIA_FAQS = [
   {
     question: "What is attained-age rating in Pennsylvania?",
     answer:
-      "Pennsylvania uses attained-age rating, which means your Medigap premium increases as you get older. Premiums are based on your current age and rise each year. This is the most common rating method in the U.S. It means locking in a plan during your OEP at age 65 is important — you'll start at the lowest possible rate.",
+      "Pennsylvania uses attained-age rating, which means your Medigap premium increases as you get older. Premiums are based on your current age and rise each year. This is the most common rating method in the U.S. It means locking in a plan during your OEP at age 65 is important - you'll start at the lowest possible rate.",
   },
   {
     question: "Can I switch Medigap plans in Pennsylvania?",
     answer:
-      "After your initial Open Enrollment Period, switching Medigap plans in Pennsylvania typically requires passing medical underwriting — meaning carriers can deny you or charge more based on health conditions. Exceptions include guaranteed issue periods (such as losing employer coverage or moving out of a plan's service area). Pennsylvania does not have a birthday rule, so there is no annual guaranteed switch window.",
+      "After your initial Open Enrollment Period, switching Medigap plans in Pennsylvania typically requires passing medical underwriting - meaning carriers can deny you or charge more based on health conditions. Exceptions include guaranteed issue periods (such as losing employer coverage or moving out of a plan's service area). Pennsylvania does not have a birthday rule, so there is no annual guaranteed switch window.",
   },
   {
     question: "What is PA MEDI and how can it help me?",

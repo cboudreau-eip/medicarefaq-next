@@ -1,10 +1,10 @@
 /**
- * Medicare Cost Constants — 2026
+ * Medicare Cost Constants - 2026
  *
  * Single source of truth for all Medicare cost figures used across the site.
  * Update this file each year when CMS releases new rates.
  *
- * Source: CMS Fact Sheet — 2026 Medicare Parts A & B Premiums and Deductibles
+ * Source: CMS Fact Sheet - 2026 Medicare Parts A & B Premiums and Deductibles
  * Published: November 14, 2025
  * Shortcode reference: ListofShortcodes.docx
  */
@@ -81,9 +81,9 @@ export const MEDICARE_COSTS = {
 
   // ─── IRMAA ────────────────────────────────────────────────────────────────
   irmaa: {
-    /** Individual income threshold — Level 1 */
+    /** Individual income threshold - Level 1 */
     individualLevel1: "$109,000",
-    /** Joint income threshold — Level 1 */
+    /** Joint income threshold - Level 1 */
     jointLevel1: "$218,000",
     /** Maximum IRMAA surcharge */
     maxLevel: "$689.90",
@@ -140,13 +140,13 @@ export const MEDICARE_COSTS = {
 
   // ─── Extra Help / LIS ────────────────────────────────────────────────────
   extraHelp: {
-    /** Income limit — individual (previous year) */
+    /** Income limit - individual (previous year) */
     previousYearIncomeLimitIndividual: "$23,475",
-    /** Income limit — married couple (previous year) */
+    /** Income limit - married couple (previous year) */
     previousYearIncomeLimitMarried: "$31,725",
-    /** Resource limit — individual (previous year) */
+    /** Resource limit - individual (previous year) */
     previousYearResourceLimitIndividual: "$17,600",
-    /** Resource limit — married couple (previous year) */
+    /** Resource limit - married couple (previous year) */
     previousYearResourceLimitMarried: "$35,130",
   },
 
@@ -158,21 +158,21 @@ export const MEDICARE_COSTS = {
 
   // ─── IRS Standard Deductions ─────────────────────────────────────────────
   irs: {
-    /** Standard deduction — single (current year) */
+    /** Standard deduction - single (current year) */
     currentYearDeductionSingle: "$16,100",
-    /** Standard deduction — married filing jointly (current year) */
+    /** Standard deduction - married filing jointly (current year) */
     currentYearDeductionMarried: "$32,200",
-    /** Additional deduction — single 65+ (current year) */
+    /** Additional deduction - single 65+ (current year) */
     currentYearDeductionSingle65: "$2,050",
-    /** Additional deduction — couples 65+ (current year) */
+    /** Additional deduction - couples 65+ (current year) */
     currentYearDeductionCouples65: "$1,650",
-    /** Standard deduction — single (previous year) */
+    /** Standard deduction - single (previous year) */
     previousYearDeductionSingle: "$15,750",
-    /** Standard deduction — married filing jointly (previous year) */
+    /** Standard deduction - married filing jointly (previous year) */
     previousYearDeductionMarried: "$31,500",
-    /** Additional deduction — single 65+ (previous year) */
+    /** Additional deduction - single 65+ (previous year) */
     previousYearDeductionSingle65: "$2,000",
-    /** Additional deduction — couples 65+ (previous year) */
+    /** Additional deduction - couples 65+ (previous year) */
     previousYearDeductionCouples65: "$1,600",
   },
 } as const;

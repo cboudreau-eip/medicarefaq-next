@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * MedigapCarrierTemplate — PageContent
+ * MedigapCarrierTemplate - PageContent
  * Route: /medicare-supplements/medigap-by-carrier/[carrierSlug]
  * Data-driven template for all Medigap by-carrier pages.
  */
@@ -59,7 +59,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
             {carrier.name}
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
-            Medicare Supplement Plans — 2026 Rates, Reviews & Coverage
+            Medicare Supplement Plans - 2026 Rates, Reviews & Coverage
           </p>
           {/* Quick stats */}
           <div className="flex flex-wrap gap-4 mb-8">
@@ -104,7 +104,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
               Available Medigap Plans
             </h2>
             <p className="text-slate-600 mb-6 text-sm">
-              All Medigap plans are standardized by federal law — a Plan G from {carrier.shortName} offers identical benefits to a Plan G from any other carrier. The only difference is the premium.
+              All Medigap plans are standardized by federal law - a Plan G from {carrier.shortName} offers identical benefits to a Plan G from any other carrier. The only difference is the premium.
             </p>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
               {PLAN_LETTERS.map((letter) => {

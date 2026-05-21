@@ -62,7 +62,7 @@ const WHAT_CHANGED = [
   },
   {
     title: "Premium Increases Vary by Insurer",
-    desc: "Medigap premiums are not standardized — each insurer sets its own rates. Premium increases in 2026 ranged from 0% to 8%+ depending on the carrier and state. Shopping and comparing quotes remains essential.",
+    desc: "Medigap premiums are not standardized - each insurer sets its own rates. Premium increases in 2026 ranged from 0% to 8%+ depending on the carrier and state. Shopping and comparing quotes remains essential.",
   },
 ];
 

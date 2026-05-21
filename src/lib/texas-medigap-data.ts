@@ -47,7 +47,7 @@ export const TEXAS_CARRIERS: TexasCarrier[] = [
     ],
     cons: [
       "Limited premium discount options compared to competitors",
-      "No online quote tool — must work through a local agent",
+      "No online quote tool - must work through a local agent",
       "Not available in all Texas zip codes",
     ],
     yearFounded: 1922,
@@ -121,7 +121,7 @@ export const TEXAS_CARRIERS: TexasCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount (up to 12%), annual payment discount",
     pros: [
-      "Generous household discount (up to 12% — among the highest in the industry)",
+      "Generous household discount (up to 12% - among the highest in the industry)",
       "Strong financial rating (A+)",
       "Excellent complaint record",
       "Competitive Plan G and Plan N pricing in Texas",
@@ -149,7 +149,7 @@ export const TEXAS_CARRIERS: TexasCarrier[] = [
     discounts: "Household discount available in select states",
     pros: [
       "Competitive Plan G and Plan N premiums in Texas",
-      "Offers High-Deductible Plan G (HD-G) — a low-premium option",
+      "Offers High-Deductible Plan G (HD-G) - a low-premium option",
       "A (Excellent) AM Best rating affirmed May 2025",
       "Good complaint record",
     ],

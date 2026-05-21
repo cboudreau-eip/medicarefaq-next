@@ -639,7 +639,7 @@ export default function FloridaPageContent() {
         </div>
       </section>
 
-      {/* Eddie Pro Tip — placed between Plan G vs N table and Florida Rules */}
+      {/* Eddie Pro Tip - placed between Plan G vs N table and Florida Rules */}
       <section className="py-0 pb-2">
         <div className="container max-w-4xl">
           <EddieProTip
@@ -648,7 +648,7 @@ export default function FloridaPageContent() {
                 <strong>Florida has no birthday rule.</strong> Unlike California, Oregon, and
                 Illinois, Florida does not give you an annual window to switch Medigap plans
                 without medical underwriting. That means your initial Open Enrollment Period
-                — the 6 months after you turn 65 and enroll in Part B — is your best chance
+                - the 6 months after you turn 65 and enroll in Part B - is your best chance
                 to lock in the right plan at the best rate, no health questions asked.
               </>
             }

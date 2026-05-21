@@ -135,7 +135,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
               triggerId="compare-plans-supplements-1"
               coverageType="ms"
               title="Compare Medigap Plans"
-              subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
+              subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area - free, no obligation."
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] text-white font-bold px-7 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#0D9488]/25 text-base">
@@ -192,7 +192,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   What Is Medicare Supplement (Medigap)?
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  <strong>Medicare Supplement Insurance (Medigap)</strong> is a type of private health insurance that works alongside Original Medicare (Parts A & B) to help pay for out-of-pocket costs that Medicare doesn't cover — including deductibles, coinsurance, and copayments.
+                  <strong>Medicare Supplement Insurance (Medigap)</strong> is a type of private health insurance that works alongside Original Medicare (Parts A & B) to help pay for out-of-pocket costs that Medicare doesn't cover - including deductibles, coinsurance, and copayments.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   Medigap plans are <strong>federally standardized</strong>, meaning each plan letter (A through N) offers the same benefits regardless of which insurance company sells it. The only difference between companies is the premium price and customer service.
@@ -219,7 +219,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 </h2>
                 <div className="space-y-4 mb-8">
                   {[
-                    { step: "1", title: "You Must Have Original Medicare", desc: "You need both Medicare Part A and Part B. Medigap works alongside Original Medicare — it cannot be used with Medicare Advantage." },
+                    { step: "1", title: "You Must Have Original Medicare", desc: "You need both Medicare Part A and Part B. Medigap works alongside Original Medicare - it cannot be used with Medicare Advantage." },
                     { step: "2", title: "Medicare Pays its Share First", desc: "When you receive medical care, Original Medicare processes the claim and pays its portion according to standard coverage rules." },
                     { step: "3", title: "Medigap Covers the Rest", desc: "Your Medigap plan then pays some or all of the remaining costs (deductibles, coinsurance, copays) based on your specific plan letter." },
                     { step: "4", title: "You Pay Your Monthly Premium", desc: "You pay a monthly premium to your Medigap insurance company, plus your Part B premium to Medicare. That's typically your only cost." },
@@ -312,9 +312,9 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   {[
                     { slug: "plan-a", label: "Plan A", note: "Basic coverage", badge: null },
                     { slug: "plan-b", label: "Plan B", note: "+ Part A deductible", badge: null },
-                    { slug: "plan-c", label: "Plan C", note: "Legacy — pre-2020", badge: "Legacy" },
+                    { slug: "plan-c", label: "Plan C", note: "Legacy - pre-2020", badge: "Legacy" },
                     { slug: "plan-d", label: "Plan D", note: "Mid-tier coverage", badge: null },
-                    { slug: "plan-f", label: "Plan F", note: "Legacy — pre-2020", badge: "Legacy" },
+                    { slug: "plan-f", label: "Plan F", note: "Legacy - pre-2020", badge: "Legacy" },
                     { slug: "plan-g", label: "Plan G", note: "Best overall value", badge: "Most Popular" },
                     { slug: "plan-k", label: "Plan K", note: "50% cost-sharing", badge: null },
                     { slug: "plan-l", label: "Plan L", note: "75% cost-sharing", badge: null },
@@ -424,7 +424,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                       <span className="text-xs font-semibold bg-slate-200 text-slate-600 px-2 py-0.5 rounded-full">Legacy Plan</span>
                     </div>
                     <p className="text-slate-600 mb-2">
-                      The most comprehensive Medigap plan — covers <strong>everything</strong>, including the Part B deductible. However, it's only available to those who were eligible for Medicare before January 1, 2020, and premiums are typically higher than Plan G.
+                      The most comprehensive Medigap plan - covers <strong>everything</strong>, including the Part B deductible. However, it's only available to those who were eligible for Medicare before January 1, 2020, and premiums are typically higher than Plan G.
                     </p>
                     <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg">
                       <p className="text-sm text-amber-800">
@@ -441,7 +441,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   Medigap Costs & Pricing
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Medigap premiums vary based on several factors. The same plan can cost significantly different amounts depending on where you live and which company you choose — so comparing quotes is essential.
+                  Medigap premiums vary based on several factors. The same plan can cost significantly different amounts depending on where you live and which company you choose - so comparing quotes is essential.
                 </p>
                 <div className="overflow-x-auto rounded-xl border border-slate-200 mb-6">
                   <table className="w-full text-sm">
@@ -471,7 +471,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 <div className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl">
                   <p className="font-semibold text-teal-900 mb-1">Pro Tip: Compare Multiple Companies</p>
                   <p className="text-sm text-teal-800">
-                    Since Medigap benefits are standardized, the only difference between companies is price and customer service. Always compare at least 3–5 companies before enrolling. A licensed agent can pull quotes from multiple carriers at once — at no cost to you.
+                    Since Medigap benefits are standardized, the only difference between companies is price and customer service. Always compare at least 3–5 companies before enrolling. A licensed agent can pull quotes from multiple carriers at once - at no cost to you.
                   </p>
                 </div>
               </section>
@@ -513,7 +513,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Don't Miss This Window</p>
                       <p className="text-sm text-amber-800">
-                        After your Medigap OEP closes, insurance companies can use <strong>medical underwriting</strong> — meaning they can deny coverage or charge higher premiums based on your health history. This is a one-time, use-it-or-lose-it opportunity for guaranteed-issue coverage.
+                        After your Medigap OEP closes, insurance companies can use <strong>medical underwriting</strong> - meaning they can deny coverage or charge higher premiums based on your health history. This is a one-time, use-it-or-lose-it opportunity for guaranteed-issue coverage.
                       </p>
                     </div>
                   </div>
@@ -550,7 +550,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     Compare Medigap Plans in Your Area
                   </h2>
                   <p className="text-blue-100 mb-6 max-w-xl">
-                    Our licensed agents can compare rates from top Medigap carriers in your area — at no cost to you. Find the best plan and price for your specific needs.
+                    Our licensed agents can compare rates from top Medigap carriers in your area - at no cost to you. Find the best plan and price for your specific needs.
                   </p>
                   <div className="flex flex-wrap items-center gap-4">
                     <ZipFormModal
@@ -558,7 +558,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                       triggerId="compare-plans-supplements-2"
                       coverageType="ms"
                       title="Compare Medigap Plans"
-                      subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
+                      subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area - free, no obligation."
                       buttonLabel="Compare Plans"
                       trigger={
                         <button className="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-7 py-3.5 rounded-lg hover:bg-blue-50 transition-colors text-base shadow-lg">

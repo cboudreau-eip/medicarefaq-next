@@ -3,7 +3,7 @@
  * Source: CMS Medicare Plan Finder, AM Best, NAIC, NerdWallet (2026),
  *         Illinois Department of Insurance, AHIP State of Medicare Supplement Coverage 2026
  * Sample premiums: 65-year-old female nonsmoker in Chicago, IL
- * NOTE: Illinois uses attained-age rating — premiums increase as you age.
+ * NOTE: Illinois uses attained-age rating - premiums increase as you age.
  * Key differentiator: BCBS of Illinois dominates with 48.2% market share.
  * MedicareFAQ Score methodology: weighted composite of financial strength,
  * pricing competitiveness, plan availability, complaint record, and discounts.
@@ -43,15 +43,15 @@ export const ILLINOIS_CARRIERS: IllinoisCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount available",
     pros: [
-      "Highest AM Best financial rating (A++) — superior financial strength",
-      "Excellent complaint record — far fewer than expected",
+      "Highest AM Best financial rating (A++) - superior financial strength",
+      "Excellent complaint record - far fewer than expected",
       "Broad plan selection (6 plan types including Plan D)",
-      "State Farm is headquartered in Bloomington, IL — strong Illinois roots and agent network",
+      "State Farm is headquartered in Bloomington, IL - strong Illinois roots and agent network",
     ],
     cons: [
       "Plan G ($197/mo) and Plan N ($149/mo) are the highest premiums among our top Illinois picks",
       "Below-average premium discounts compared to competitors",
-      "Must work through a State Farm agent — no direct online enrollment",
+      "Must work through a State Farm agent - no direct online enrollment",
     ],
     yearFounded: 1922,
     headquartersState: "Illinois",
@@ -71,13 +71,13 @@ export const ILLINOIS_CARRIERS: IllinoisCarrier[] = [
     discounts: "Household, payment mode, and loyalty discounts",
     pros: [
       "Most plan options available in Illinois (8 plan types)",
-      "Excellent complaint record — far fewer than expected",
+      "Excellent complaint record - far fewer than expected",
       "Second-largest Medigap insurer in Illinois (14.1% market share)",
-      "Competitive Plan G pricing at $138/mo — strong value vs. service quality",
+      "Competitive Plan G pricing at $138/mo - strong value vs. service quality",
     ],
     cons: [
       "AARP membership required ($15–$20/year)",
-      "Plan N premium ($93/mo) is mid-range — not the absolute lowest",
+      "Plan N premium ($93/mo) is mid-range - not the absolute lowest",
       "Rate increases can be above average over time",
     ],
     yearFounded: 1977,
@@ -97,13 +97,13 @@ export const ILLINOIS_CARRIERS: IllinoisCarrier[] = [
     complaintRecord: "Far more than expected",
     discounts: "Household discount, annual payment discount",
     pros: [
-      "Lowest Plan G ($118/mo) and Plan N ($78/mo) in Chicago — strong budget value",
+      "Lowest Plan G ($118/mo) and Plan N ($78/mo) in Chicago - strong budget value",
       "Strong parent company (Cigna/Evernorth) financial backing",
       "Available statewide in Illinois",
       "Above-average discounts available",
     ],
     cons: [
-      "Far more complaints than expected — highest complaint rate among our top picks",
+      "Far more complaints than expected - highest complaint rate among our top picks",
       "Fewer plan options (4 plan types)",
       "Customer service quality concerns reflected in complaint data",
     ],
@@ -124,9 +124,9 @@ export const ILLINOIS_CARRIERS: IllinoisCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount (up to 12%), annual payment discount",
     pros: [
-      "Generous household discount (up to 12%) — among the highest available",
+      "Generous household discount (up to 12%) - among the highest available",
       "Strong financial rating (A+)",
-      "Excellent complaint record — far fewer than expected",
+      "Excellent complaint record - far fewer than expected",
       "Third-largest Medigap insurer in Illinois (13.3% market share)",
     ],
     cons: [
@@ -151,8 +151,8 @@ export const ILLINOIS_CARRIERS: IllinoisCarrier[] = [
     complaintRecord: "Close to expected",
     discounts: "Household discount available",
     pros: [
-      "Second-lowest Plan G ($124/mo) — strong budget value with reasonable service",
-      "Better complaint record than HealthSpring — close to expected",
+      "Second-lowest Plan G ($124/mo) - strong budget value with reasonable service",
+      "Better complaint record than HealthSpring - close to expected",
       "Good balance of price and quality for cost-conscious enrollees",
       "Available statewide in Illinois",
     ],
@@ -218,11 +218,11 @@ export const ILLINOIS_STATS = {
   hasCommunityRating: false,
   hasGuaranteedIssueYearRound: false,
   hasBirthdayRule: false,
-  ratingType: "Attained-age — premiums increase as you age",
+  ratingType: "Attained-age - premiums increase as you age",
   freeLookPeriod: "30 days",
   partBDeductible2026: "$283",
   partADeductible2026: "$1,736",
-  mostPopularPlan: "Plan G (45%) and Plan F (44%) — unusually high Plan F legacy adoption",
+  mostPopularPlan: "Plan G (45%) and Plan F (44%) - unusually high Plan F legacy adoption",
   dominantLocalCarrier: "Blue Cross Blue Shield of Illinois (48.2% market share)",
 };
 
@@ -235,12 +235,12 @@ export const ILLINOIS_FAQS = [
   {
     question: "How much does Medigap Plan G cost in Illinois?",
     answer:
-      "In Chicago, Plan G starts at approximately $113 per month for a 65-year-old female nonsmoker — offered by HealthSpring. AARP/UnitedHealthcare offers Plan G at $138/mo with a better complaint record. Wellabe offers a middle ground at $124/mo. Illinois uses attained-age rating, so premiums increase as you age.",
+      "In Chicago, Plan G starts at approximately $113 per month for a 65-year-old female nonsmoker - offered by HealthSpring. AARP/UnitedHealthcare offers Plan G at $138/mo with a better complaint record. Wellabe offers a middle ground at $124/mo. Illinois uses attained-age rating, so premiums increase as you age.",
   },
   {
     question: "Why does Blue Cross Blue Shield of Illinois have such a large market share?",
     answer:
-      "Blue Cross Blue Shield of Illinois holds 48.2% of the state's Medigap market — the largest share of any carrier in any state we've reviewed. BCBS of Illinois has deep roots in the state, strong brand recognition, and a broad provider network. While not in NerdWallet's national top-rated list, it is a major carrier worth comparing when shopping for Medigap in Illinois.",
+      "Blue Cross Blue Shield of Illinois holds 48.2% of the state's Medigap market - the largest share of any carrier in any state we've reviewed. BCBS of Illinois has deep roots in the state, strong brand recognition, and a broad provider network. While not in NerdWallet's national top-rated list, it is a major carrier worth comparing when shopping for Medigap in Illinois.",
   },
   {
     question: "Does Illinois have a birthday rule?",

@@ -295,7 +295,7 @@ export default function NewYorkPageContent() {
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
             We compared {NEW_YORK_STATS.numberOfCarriers} Medigap carriers in New York based on
-            pricing, financial strength, and complaint records — including New York&apos;s unique
+            pricing, financial strength, and complaint records - including New York&apos;s unique
             community rating and guaranteed issue rules that let you switch plans any time of year.
           </p>
 
@@ -318,7 +318,7 @@ export default function NewYorkPageContent() {
             <div className="flex items-center gap-2 text-sm text-slate-300">
               <CalendarCheck className="w-4 h-4 text-green-400" />
               <span>
-                <strong className="text-white">Switch any time</strong> — no underwriting
+                <strong className="text-white">Switch any time</strong> - no underwriting
               </span>
             </div>
           </div>
@@ -371,11 +371,11 @@ export default function NewYorkPageContent() {
             </div>
             <div className="flex items-center gap-1.5">
               <CalendarCheck className="w-4 h-4 text-green-600" />
-              <span>Guaranteed issue — switch any month</span>
+              <span>Guaranteed issue - switch any month</span>
             </div>
             <div className="flex items-center gap-1.5">
               <Equal className="w-4 h-4 text-blue-600" />
-              <span>Community-rated — same price regardless of age</span>
+              <span>Community-rated - same price regardless of age</span>
             </div>
           </div>
         </div>
@@ -398,7 +398,7 @@ export default function NewYorkPageContent() {
                   </span>
                 </div>
                 <p className="text-sm text-green-800 leading-relaxed">
-                  New York uses <strong>no-age-rated (community) pricing</strong> — your
+                  New York uses <strong>no-age-rated (community) pricing</strong> - your
                   Medigap premium is the same regardless of your age, gender, or health
                   status. A 65-year-old and an 85-year-old in the same region pay the same
                   rate. Premiums vary by region, not by individual characteristics.
@@ -422,7 +422,7 @@ export default function NewYorkPageContent() {
                 </div>
                 <p className="text-sm text-green-800 leading-relaxed">
                   New York requires insurers to sell Medigap to <strong>any Medicare
-                  beneficiary at any time</strong> — no open enrollment window, no medical
+                  beneficiary at any time</strong> - no open enrollment window, no medical
                   underwriting, no health questions. You can switch carriers or plans any
                   month of the year. This is stronger than any birthday rule.
                 </p>
@@ -445,7 +445,7 @@ export default function NewYorkPageContent() {
             the country. Community rating means your premium is the same regardless of your
             age or health, and guaranteed issue year-round means you can switch plans or
             carriers at any time without medical underwriting. The tradeoff is that premiums
-            in New York are significantly higher than most states — but you are never locked
+            in New York are significantly higher than most states - but you are never locked
             into a plan you cannot change.
           </p>
         </div>
@@ -488,7 +488,7 @@ export default function NewYorkPageContent() {
             Sample monthly premiums from our top-scoring carriers. Rates shown are for a
             65-year-old female nonsmoker in New York City and include available household
             discounts. Because New York uses community rating, these rates apply to all ages
-            in the NYC region. Premiums vary by region — upstate NY rates are typically lower.
+            in the NYC region. Premiums vary by region - upstate NY rates are typically lower.
           </p>
 
           <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
@@ -708,7 +708,7 @@ export default function NewYorkPageContent() {
                 protection in the country.</strong> Unlike California&apos;s birthday rule
                 (which only lets you switch to equal or lesser plans once a year), New York
                 lets you switch Medigap carriers or plan types <em>any month of the year</em>{" "}
-                — with no health questions and no medical underwriting. If you find a lower
+                - with no health questions and no medical underwriting. If you find a lower
                 rate at a different carrier, you can switch immediately. The catch: because
                 everyone is guaranteed coverage, New York premiums are significantly higher
                 than most states. Shop rates regularly and switch when you find a better deal.
@@ -738,7 +738,7 @@ export default function NewYorkPageContent() {
                 <p className="text-sm text-slate-600">
                   New York law requires all Medigap carriers to sell coverage to any Medicare
                   beneficiary at any time, regardless of age or health status. There is no
-                  open enrollment window and no medical underwriting — ever. You can enroll
+                  open enrollment window and no medical underwriting - ever. You can enroll
                   in, switch, or change Medigap plans any month of the year. This is the
                   strongest Medigap consumer protection in the country.
                 </p>
@@ -755,7 +755,7 @@ export default function NewYorkPageContent() {
                   New York uses community rating, meaning Medigap premiums are the same for
                   everyone in the same geographic region, regardless of age, gender, or health
                   status. A 65-year-old and an 85-year-old pay the same monthly premium for
-                  the same plan in the same region. Premiums do vary by region — New York City
+                  the same plan in the same region. Premiums do vary by region - New York City
                   rates are typically higher than upstate New York rates.
                 </p>
               </div>
@@ -884,7 +884,7 @@ export default function NewYorkPageContent() {
             </h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
               Medigap premiums vary by region in New York. Enter your ZIP code to see exact
-              rates from all available carriers in your area — and remember, in New York you
+              rates from all available carriers in your area - and remember, in New York you
               can switch plans any time of year if you find a better rate.
             </p>
             <div className="flex flex-wrap gap-3">

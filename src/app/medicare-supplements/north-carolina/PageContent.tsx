@@ -311,7 +311,7 @@ export default function NorthCarolinaPageContent() {
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
             North Carolina is one of the fastest-growing retirement states in the
-            country — Plan G starts at just {NC_STATS.lowestPlanGPremium} in
+            country - Plan G starts at just {NC_STATS.lowestPlanGPremium} in
             Greensboro. We compared {NC_STATS.numberOfCarriers} carriers to find the
             best coverage for North Carolina&apos;s {NC_STATS.medigapEnrollees} Medigap
             enrollees.
@@ -398,7 +398,7 @@ export default function NorthCarolinaPageContent() {
                 North Carolina Has the Highest Plan G Adoption Rate in the Southeast
               </p>
               <p className="text-sm text-emerald-800">
-                49% of North Carolina Medigap enrollees choose Plan G — the highest
+                49% of North Carolina Medigap enrollees choose Plan G - the highest
                 adoption rate of any state we&apos;ve reviewed. This reflects NC&apos;s
                 large and growing retirement population: Charlotte, Raleigh, and Asheville
                 are among the most popular retirement destinations in the country. Plan G
@@ -443,7 +443,7 @@ export default function NorthCarolinaPageContent() {
           <p className="text-slate-700 text-base leading-relaxed mb-4">
             More than 460,000 people in North Carolina have Medicare Supplement
             Insurance, or Medigap. North Carolina is one of the fastest-growing
-            retirement states in the country — Charlotte, Raleigh, and Asheville
+            retirement states in the country - Charlotte, Raleigh, and Asheville
             consistently rank among the top retirement destinations in the Southeast.
             Plan G starts at just $95 per month in Greensboro, and the state&apos;s
             competitive insurance market with over 30 licensed carriers keeps premiums
@@ -451,7 +451,7 @@ export default function NorthCarolinaPageContent() {
           </p>
           <p className="text-slate-700 text-base leading-relaxed">
             Plan G is the most popular Medicare Supplement plan in North Carolina,
-            chosen by 49% of Medigap enrollees — the highest Plan G adoption rate of
+            chosen by 49% of Medigap enrollees - the highest Plan G adoption rate of
             any state we&apos;ve reviewed. It covers all out-of-pocket costs except the
             annual Part B deductible ($283 in 2026). North Carolina uses attained-age
             rating, meaning premiums increase as you age, so enrolling during your
@@ -496,7 +496,7 @@ export default function NorthCarolinaPageContent() {
           <p className="text-slate-600 mb-6">
             Sample monthly premiums from our top-scoring carriers. Rates shown are for a
             65-year-old female nonsmoker in Greensboro and include available household
-            discounts. North Carolina uses attained-age rating — premiums will increase
+            discounts. North Carolina uses attained-age rating - premiums will increase
             as you age. Charlotte, Raleigh, and Asheville rates may differ slightly.
           </p>
 
@@ -725,13 +725,13 @@ export default function NorthCarolinaPageContent() {
             tip={
               <>
                 <strong>
-                  In North Carolina, Wellabe is actually the cheapest top-rated option —
+                  In North Carolina, Wellabe is actually the cheapest top-rated option -
                   not HealthSpring.
                 </strong>{" "}
                 Wellabe offers Plan G at $113/mo with a reasonable complaint record, while
                 HealthSpring at $130/mo has a far-higher-than-expected complaint rate.
                 Also worth noting: BCBS North Carolina (not in our top 5) holds 32.7% of
-                the state&apos;s Medigap market — it&apos;s worth getting a quote from
+                the state&apos;s Medigap market - it&apos;s worth getting a quote from
                 them as well. If you are a veteran or military family member, USAA is the
                 5th-largest Medigap insurer in NC and is worth comparing. Always get at
                 least 3 quotes before enrolling.
@@ -804,7 +804,7 @@ export default function NorthCarolinaPageContent() {
               <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  SHIIP — Free Medicare Counseling
+                  SHIIP - Free Medicare Counseling
                 </p>
                 <p className="text-sm text-slate-600">
                   SHIIP (Medicare and Seniors&apos; Health Insurance Information Program)
@@ -820,7 +820,7 @@ export default function NorthCarolinaPageContent() {
               <Building2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  BCBS North Carolina — The Dominant Local Carrier
+                  BCBS North Carolina - The Dominant Local Carrier
                 </p>
                 <p className="text-sm text-slate-600">
                   Blue Cross and Blue Shield of North Carolina is the largest Medigap
@@ -836,7 +836,7 @@ export default function NorthCarolinaPageContent() {
               <Users className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  Military &amp; Veteran Community — USAA Is Worth Comparing
+                  Military &amp; Veteran Community - USAA Is Worth Comparing
                 </p>
                 <p className="text-sm text-slate-600">
                   North Carolina has one of the largest military and veteran populations
@@ -946,7 +946,7 @@ export default function NorthCarolinaPageContent() {
             <p className="text-slate-300 mb-6 max-w-2xl">
               North Carolina has competitive Medigap premiums and one of the highest Plan
               G adoption rates in the Southeast. Enter your ZIP code to see exact rates
-              from all available carriers in your area — and remember, your Open
+              from all available carriers in your area - and remember, your Open
               Enrollment Period is the best time to lock in coverage without medical
               underwriting.
             </p>

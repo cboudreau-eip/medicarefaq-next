@@ -1,18 +1,18 @@
 "use client";
 /**
- * analytics.ts — Centralized GTM dataLayer event helpers for MedicareFAQ
+ * analytics.ts - Centralized GTM dataLayer event helpers for MedicareFAQ
  *
  * All events are pushed to window.dataLayer which GTM forwards to GA4
  * (Measurement ID: G-4Z5R6F5E3W).
  *
  * Event taxonomy:
- *   zip_modal_open   — ZipFormModal trigger button clicked
- *   zip_submitted    — ZIP form submitted (just before demographics redirect)
- *   phone_click      — Any tel: link clicked
- *   cta_click        — Non-modal CTA button or link clicked
- *   nav_click        — Header / mega-menu / mobile-nav link clicked
- *   footer_click     — Footer link clicked
- *   outbound_click   — Link leaving medicarefaq.com domain
+ *   zip_modal_open   - ZipFormModal trigger button clicked
+ *   zip_submitted    - ZIP form submitted (just before demographics redirect)
+ *   phone_click      - Any tel: link clicked
+ *   cta_click        - Non-modal CTA button or link clicked
+ *   nav_click        - Header / mega-menu / mobile-nav link clicked
+ *   footer_click     - Footer link clicked
+ *   outbound_click   - Link leaving medicarefaq.com domain
  */
 
 declare global {

@@ -310,7 +310,7 @@ export default function OhioPageContent() {
             Best Medicare Supplement Plans in Ohio 2026
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
-            Ohio has some of the lowest Medigap premiums in the country — Plan G starts
+            Ohio has some of the lowest Medigap premiums in the country - Plan G starts
             at just {OHIO_STATS.lowestPlanGPremium} in Columbus. We compared{" "}
             {OHIO_STATS.numberOfCarriers} carriers to find the best coverage for
             Ohio&apos;s {OHIO_STATS.medigapEnrollees} Medigap enrollees.
@@ -332,7 +332,7 @@ export default function OhioPageContent() {
                 <strong className="text-white">
                   {OHIO_STATS.lowestPlanGPremium}
                 </strong>{" "}
-                — among lowest in U.S.
+                - among lowest in U.S.
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
@@ -398,7 +398,7 @@ export default function OhioPageContent() {
               </p>
               <p className="text-sm text-emerald-800">
                 Plan G in Columbus starts at just{" "}
-                <strong>{OHIO_STATS.lowestPlanGPremium}/mo</strong> — compared to
+                <strong>{OHIO_STATS.lowestPlanGPremium}/mo</strong> - compared to
                 $166/mo in California and $362/mo in New York. Ohio&apos;s competitive
                 insurance market and lower healthcare costs make it one of the most
                 affordable states for Medicare Supplement coverage. Plan G adoption in
@@ -442,14 +442,14 @@ export default function OhioPageContent() {
           <p className="text-slate-700 text-base leading-relaxed mb-4">
             More than 600,000 people in Ohio have Medicare Supplement Insurance, or
             Medigap. Ohio stands out as one of the most affordable states for Medigap
-            coverage — Plan G starts at just $106 per month in Columbus, compared to
+            coverage - Plan G starts at just $106 per month in Columbus, compared to
             $166 in California and $362 in New York. Ohio&apos;s competitive insurance
             market, with over 30 carriers licensed in the state, keeps premiums low and
             gives enrollees strong options.
           </p>
           <p className="text-slate-700 text-base leading-relaxed">
             Plan G is the most popular Medicare Supplement plan in Ohio, chosen by 49%
-            of Medigap enrollees — one of the highest adoption rates in the Midwest. It
+            of Medigap enrollees - one of the highest adoption rates in the Midwest. It
             covers all out-of-pocket costs except the annual Part B deductible ($283 in
             2026). Ohio uses attained-age rating, meaning premiums increase as you age,
             so enrolling during your 6-month Open Enrollment Period at age 65 is the
@@ -493,7 +493,7 @@ export default function OhioPageContent() {
           <p className="text-slate-600 mb-6">
             Sample monthly premiums from our top-scoring carriers. Rates shown are for a
             65-year-old female nonsmoker in Columbus and include available household
-            discounts. Ohio uses attained-age rating — premiums will increase as you age.
+            discounts. Ohio uses attained-age rating - premiums will increase as you age.
             Cleveland and Cincinnati rates may differ slightly.
           </p>
 
@@ -726,12 +726,12 @@ export default function OhioPageContent() {
             tip={
               <>
                 <strong>
-                  Ohio&apos;s low premiums are a real advantage — but the cheapest
+                  Ohio&apos;s low premiums are a real advantage - but the cheapest
                   option isn&apos;t always the best choice.
                 </strong>{" "}
                 HealthSpring offers the lowest Plan G in Ohio at $106/mo, but has a
                 far-higher-than-expected complaint rate. AARP/UnitedHealthcare at
-                $127/mo offers a much better complaint record and 8 plan types — that
+                $127/mo offers a much better complaint record and 8 plan types - that
                 $21/mo difference buys you significantly better service quality. Also
                 worth noting: Medical Mutual of Ohio (not in our top 5) holds 19.3% of
                 Ohio&apos;s Medigap market and is a strong local option worth comparing.
@@ -805,7 +805,7 @@ export default function OhioPageContent() {
               <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  OSHIIP — Free Medicare Counseling
+                  OSHIIP - Free Medicare Counseling
                 </p>
                 <p className="text-sm text-slate-600">
                   OSHIIP (Ohio Senior Health Insurance Information Program) is
@@ -822,7 +822,7 @@ export default function OhioPageContent() {
               <Building2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  Medical Mutual of Ohio — A Notable Local Carrier
+                  Medical Mutual of Ohio - A Notable Local Carrier
                 </p>
                 <p className="text-sm text-slate-600">
                   Medical Mutual of Ohio is the second-largest Medigap carrier in Ohio
@@ -930,7 +930,7 @@ export default function OhioPageContent() {
             </h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
               Ohio has some of the lowest Medigap premiums in the country. Enter your ZIP
-              code to see exact rates from all available carriers in your area — and
+              code to see exact rates from all available carriers in your area - and
               remember, your Open Enrollment Period is the best time to lock in coverage
               without medical underwriting.
             </p>

@@ -17,7 +17,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     title: "Medicare Advantage (Part C)",
     subtitle: "MEDICARE ADVANTAGE",
     heroDescription:
-      "Medicare Advantage (Part C) is an alternative to Original Medicare offered by private insurers. Plans bundle Part A, Part B, and usually Part D coverage — often with extra benefits like dental, vision, and hearing.",
+      "Medicare Advantage (Part C) is an alternative to Original Medicare offered by private insurers. Plans bundle Part A, Part B, and usually Part D coverage - often with extra benefits like dental, vision, and hearing.",
     sections: [
       {
         id: "what-is-medicare-advantage",
@@ -44,20 +44,20 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "Medicare Advantage Costs",
         body: `<p>Medicare Advantage plans often have $0 monthly premiums (though you still pay your Part B premium). Costs vary by plan and include:</p>
 <ul>
-<li><strong>Monthly premium</strong> — Many plans are $0/month; some have premiums of $20–$100+</li>
-<li><strong>Deductibles</strong> — Vary by plan; some have $0 deductibles</li>
-<li><strong>Copays/coinsurance</strong> — Fixed amounts per visit or service</li>
-<li><strong>Out-of-pocket maximum</strong> — Required by law; in 2025, the limit is $9,350 for in-network services</li>
+<li><strong>Monthly premium</strong> - Many plans are $0/month; some have premiums of $20–$100+</li>
+<li><strong>Deductibles</strong> - Vary by plan; some have $0 deductibles</li>
+<li><strong>Copays/coinsurance</strong> - Fixed amounts per visit or service</li>
+<li><strong>Out-of-pocket maximum</strong> - Required by law; in 2025, the limit is $9,350 for in-network services</li>
 </ul>`,
       },
       {
         id: "enrollment",
         heading: "When Can You Enroll?",
         body: `<ul>
-<li><strong>Initial Enrollment Period (IEP)</strong> — 7-month window around your 65th birthday</li>
-<li><strong>Annual Enrollment Period (AEP)</strong> — October 15 – December 7 each year</li>
-<li><strong>Medicare Advantage Open Enrollment Period (OEP)</strong> — January 1 – March 31 (switch MA plans or return to Original Medicare)</li>
-<li><strong>Special Enrollment Periods (SEPs)</strong> — Triggered by qualifying life events (moving, losing coverage, etc.)</li>
+<li><strong>Initial Enrollment Period (IEP)</strong> - 7-month window around your 65th birthday</li>
+<li><strong>Annual Enrollment Period (AEP)</strong> - October 15 – December 7 each year</li>
+<li><strong>Medicare Advantage Open Enrollment Period (OEP)</strong> - January 1 – March 31 (switch MA plans or return to Original Medicare)</li>
+<li><strong>Special Enrollment Periods (SEPs)</strong> - Triggered by qualifying life events (moving, losing coverage, etc.)</li>
 </ul>`,
       }],
     faqs: [
@@ -69,12 +69,12 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       {
         question: "Can I Switch from Medicare Advantage Back to Original Medicare?",
         answer:
-          "Yes. You can switch during the Annual Enrollment Period (Oct 15–Dec 7) or the Medicare Advantage Open Enrollment Period (Jan 1–Mar 31). If you switch back to Original Medicare, you may want to also enroll in a Medigap plan — but be aware that Medigap insurers can use medical underwriting outside of guaranteed issue periods.",
+          "Yes. You can switch during the Annual Enrollment Period (Oct 15–Dec 7) or the Medicare Advantage Open Enrollment Period (Jan 1–Mar 31). If you switch back to Original Medicare, you may want to also enroll in a Medigap plan - but be aware that Medigap insurers can use medical underwriting outside of guaranteed issue periods.",
       },
       {
         question: "Do Medicare Advantage Plans Cover Prescription Drugs?",
         answer:
-          "Most Medicare Advantage plans include Part D prescription drug coverage (called MA-PD plans). A few plans do not include drug coverage — if you choose one of these, you can enroll in a standalone Part D plan.",
+          "Most Medicare Advantage plans include Part D prescription drug coverage (called MA-PD plans). A few plans do not include drug coverage - if you choose one of these, you can enroll in a standalone Part D plan.",
       }],
     relatedLinks: [
       { label: "Medicare Advantage HMO/POS Plans", path: "/medicare-part-c/medicare-advantage-plan-hmo-pos" },
@@ -136,7 +136,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       {
         question: "Do HMO Medicare Advantage Plans Require Referrals?",
         answer:
-          "Most HMO plans require a referral from your primary care physician to see a specialist. Some HMO plans offer open access (no referral required) — check the plan's Evidence of Coverage for details.",
+          "Most HMO plans require a referral from your primary care physician to see a specialist. Some HMO plans offer open access (no referral required) - check the plan's Evidence of Coverage for details.",
       },
       {
         question: "What Happens if I See an Out-of-network Doctor with an HMO Plan?",
@@ -169,9 +169,9 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "Basic Eligibility Requirements",
         body: `<p>To be eligible for a Medicare Advantage plan, you must:</p>
 <ol>
-<li><strong>Be enrolled in Medicare Part A and Part B</strong> — You must have both parts of Original Medicare active before you can join a Medicare Advantage plan.</li>
-<li><strong>Live in the plan's service area</strong> — Medicare Advantage plans operate in specific geographic areas. You must reside in the plan's service area to enroll.</li>
-<li><strong>Not have End-Stage Renal Disease (ESRD)</strong> — Prior to 2021, people with ESRD could not enroll in most Medicare Advantage plans. The 21st Century Cures Act removed this restriction starting January 1, 2021.</li>
+<li><strong>Be enrolled in Medicare Part A and Part B</strong> - You must have both parts of Original Medicare active before you can join a Medicare Advantage plan.</li>
+<li><strong>Live in the plan's service area</strong> - Medicare Advantage plans operate in specific geographic areas. You must reside in the plan's service area to enroll.</li>
+<li><strong>Not have End-Stage Renal Disease (ESRD)</strong> - Prior to 2021, people with ESRD could not enroll in most Medicare Advantage plans. The 21st Century Cures Act removed this restriction starting January 1, 2021.</li>
 </ol>`,
       },
       {
@@ -179,10 +179,10 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "Age and Disability Eligibility",
         body: `<p>You are eligible for Medicare Advantage if you qualify for Medicare, which includes:</p>
 <ul>
-<li><strong>Age 65 or older</strong> — U.S. citizens or permanent residents who have worked at least 10 years (40 quarters) in Medicare-covered employment</li>
-<li><strong>Under 65 with a disability</strong> — People who have received Social Security Disability Insurance (SSDI) for 24 months automatically become eligible for Medicare</li>
-<li><strong>ALS (Lou Gehrig's Disease)</strong> — Medicare eligibility begins immediately upon receiving SSDI for ALS</li>
-<li><strong>ESRD</strong> — People with End-Stage Renal Disease requiring dialysis or a kidney transplant are eligible for Medicare regardless of age</li>
+<li><strong>Age 65 or older</strong> - U.S. citizens or permanent residents who have worked at least 10 years (40 quarters) in Medicare-covered employment</li>
+<li><strong>Under 65 with a disability</strong> - People who have received Social Security Disability Insurance (SSDI) for 24 months automatically become eligible for Medicare</li>
+<li><strong>ALS (Lou Gehrig's Disease)</strong> - Medicare eligibility begins immediately upon receiving SSDI for ALS</li>
+<li><strong>ESRD</strong> - People with End-Stage Renal Disease requiring dialysis or a kidney transplant are eligible for Medicare regardless of age</li>
 </ul>`,
       },
       {
@@ -196,9 +196,9 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "When to Enroll",
         body: `<p>Once you meet the eligibility requirements, you can enroll during these periods:</p>
 <ul>
-<li><strong>Initial Enrollment Period (IEP)</strong> — 7-month window starting 3 months before your 65th birthday month</li>
-<li><strong>Annual Enrollment Period (AEP)</strong> — October 15 – December 7 each year</li>
-<li><strong>Special Enrollment Periods (SEPs)</strong> — Triggered by qualifying events like moving, losing employer coverage, or gaining/losing Medicaid eligibility</li>
+<li><strong>Initial Enrollment Period (IEP)</strong> - 7-month window starting 3 months before your 65th birthday month</li>
+<li><strong>Annual Enrollment Period (AEP)</strong> - October 15 – December 7 each year</li>
+<li><strong>Special Enrollment Periods (SEPs)</strong> - Triggered by qualifying events like moving, losing employer coverage, or gaining/losing Medicaid eligibility</li>
 </ul>`,
       }],
     faqs: [
@@ -268,11 +268,11 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "Special Enrollment Periods (SEPs)",
         body: `<p>Special Enrollment Periods allow you to make changes outside of regular enrollment windows when certain qualifying events occur:</p>
 <ul>
-<li><strong>Moving</strong> — Moving out of your plan's service area or to a new address where different plans are available</li>
-<li><strong>Losing coverage</strong> — Losing employer or union coverage</li>
-<li><strong>Gaining/losing Medicaid</strong> — Changes in Medicaid eligibility</li>
-<li><strong>Plan termination</strong> — Your Medicare Advantage plan leaves Medicare or stops serving your area</li>
-<li><strong>5-star enrollment</strong> — If a 5-star plan is available in your area, you can switch to it once per year (December 8 – November 30)</li>
+<li><strong>Moving</strong> - Moving out of your plan's service area or to a new address where different plans are available</li>
+<li><strong>Losing coverage</strong> - Losing employer or union coverage</li>
+<li><strong>Gaining/losing Medicaid</strong> - Changes in Medicaid eligibility</li>
+<li><strong>Plan termination</strong> - Your Medicare Advantage plan leaves Medicare or stops serving your area</li>
+<li><strong>5-star enrollment</strong> - If a 5-star plan is available in your area, you can switch to it once per year (December 8 – November 30)</li>
 </ul>`,
       }],
     faqs: [
@@ -284,7 +284,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       {
         question: "What is the Difference between AEP and OEP?",
         answer:
-          "AEP (Oct 15–Dec 7) allows you to make any Medicare coverage change, including switching from Original Medicare to Medicare Advantage. OEP (Jan 1–Mar 31) only allows you to switch between Medicare Advantage plans or switch back to Original Medicare — you cannot use OEP to join Medicare Advantage for the first time.",
+          "AEP (Oct 15–Dec 7) allows you to make any Medicare coverage change, including switching from Original Medicare to Medicare Advantage. OEP (Jan 1–Mar 31) only allows you to switch between Medicare Advantage plans or switch back to Original Medicare - you cannot use OEP to join Medicare Advantage for the first time.",
       },
       {
         question: "What Happens if I Miss All Enrollment Periods?",
@@ -311,9 +311,9 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         body: `<p>A Special Needs Plan (SNP) is a type of Medicare Advantage plan that limits membership to people with specific diseases, conditions, or characteristics. SNPs tailor their benefits, provider networks, and drug formularies to best serve the needs of their target population.</p>
 <p>There are three types of SNPs:</p>
 <ul>
-<li><strong>Dual Eligible SNP (D-SNP)</strong> — For people who have both Medicare and Medicaid</li>
-<li><strong>Chronic Condition SNP (C-SNP)</strong> — For people with specific severe or disabling chronic conditions (diabetes, heart failure, ESRD, HIV/AIDS, etc.)</li>
-<li><strong>Institutional SNP (I-SNP)</strong> — For people who live in an institution (nursing home) or require nursing home-level care at home</li>
+<li><strong>Dual Eligible SNP (D-SNP)</strong> - For people who have both Medicare and Medicaid</li>
+<li><strong>Chronic Condition SNP (C-SNP)</strong> - For people with specific severe or disabling chronic conditions (diabetes, heart failure, ESRD, HIV/AIDS, etc.)</li>
+<li><strong>Institutional SNP (I-SNP)</strong> - For people who live in an institution (nursing home) or require nursing home-level care at home</li>
 </ul>`,
       },
       {
@@ -383,22 +383,22 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     title: "Medicare Advantage PFFS Plans",
     subtitle: "MEDICARE ADVANTAGE",
     heroDescription:
-      "Private Fee-for-Service (PFFS) plans allow you to see any Medicare-approved provider who agrees to the plan's payment terms — without a network or referral requirement.",
+      "Private Fee-for-Service (PFFS) plans allow you to see any Medicare-approved provider who agrees to the plan's payment terms - without a network or referral requirement.",
     sections: [
       {
         id: "what-is-pffs",
         heading: "What is a PFFS Plan?",
-        body: `<p>A Private Fee-for-Service (PFFS) plan is a type of Medicare Advantage plan that determines how much it will pay providers and how much you pay when you receive care. Unlike HMO or PPO plans, PFFS plans don't have a traditional network — you can see any Medicare-approved provider who agrees to accept the plan's payment terms.</p>
+        body: `<p>A Private Fee-for-Service (PFFS) plan is a type of Medicare Advantage plan that determines how much it will pay providers and how much you pay when you receive care. Unlike HMO or PPO plans, PFFS plans don't have a traditional network - you can see any Medicare-approved provider who agrees to accept the plan's payment terms.</p>
 <p>PFFS plans are less common than HMO and PPO plans and are generally available in rural areas where network-based plans have limited provider availability.</p>`,
       },
       {
         id: "how-pffs-works",
         heading: "How PFFS Plans Work",
         body: `<ul>
-<li><strong>No network requirement</strong> — You can see any Medicare-approved doctor, specialist, or hospital</li>
-<li><strong>Provider acceptance required</strong> — The provider must agree to the plan's payment terms for each visit (they are not contractually obligated to accept)</li>
-<li><strong>No referrals needed</strong> — You can see specialists without a referral from a primary care physician</li>
-<li><strong>Plan sets payment terms</strong> — The plan determines what it pays providers and what you pay as cost-sharing</li>
+<li><strong>No network requirement</strong> - You can see any Medicare-approved doctor, specialist, or hospital</li>
+<li><strong>Provider acceptance required</strong> - The provider must agree to the plan's payment terms for each visit (they are not contractually obligated to accept)</li>
+<li><strong>No referrals needed</strong> - You can see specialists without a referral from a primary care physician</li>
+<li><strong>Plan sets payment terms</strong> - The plan determines what it pays providers and what you pay as cost-sharing</li>
 </ul>`,
       },
       {
@@ -452,7 +452,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     title: "Medicare Advantage PPO Plans",
     subtitle: "MEDICARE ADVANTAGE",
     heroDescription:
-      "PPO Medicare Advantage plans offer the most flexibility among network-based plans — you can see in-network providers at lower cost or go out-of-network for a higher cost.",
+      "PPO Medicare Advantage plans offer the most flexibility among network-based plans - you can see in-network providers at lower cost or go out-of-network for a higher cost.",
     sections: [
       {
         id: "what-is-ppo",
@@ -465,9 +465,9 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "PPO Plan Costs",
         body: `<p>PPO plans typically have higher premiums than HMO plans, but offer more flexibility. Cost structure:</p>
 <ul>
-<li><strong>In-network care</strong> — Lower copays and coinsurance; counts toward in-network out-of-pocket maximum</li>
-<li><strong>Out-of-network care</strong> — Higher copays and coinsurance; may have a separate (higher) out-of-pocket maximum</li>
-<li><strong>Out-of-pocket maximum</strong> — PPO plans have two maximums: one for in-network care and a combined in/out-of-network maximum</li>
+<li><strong>In-network care</strong> - Lower copays and coinsurance; counts toward in-network out-of-pocket maximum</li>
+<li><strong>Out-of-network care</strong> - Higher copays and coinsurance; may have a separate (higher) out-of-pocket maximum</li>
+<li><strong>Out-of-pocket maximum</strong> - PPO plans have two maximums: one for in-network care and a combined in/out-of-network maximum</li>
 </ul>`,
       },
       {
@@ -526,7 +526,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
     title: "Medicare Advantage Costs",
     subtitle: "MEDICARE ADVANTAGE",
     heroDescription:
-      "Understanding Medicare Advantage costs — premiums, deductibles, copays, and out-of-pocket maximums — helps you compare plans and budget for healthcare expenses.",
+      "Understanding Medicare Advantage costs - premiums, deductibles, copays, and out-of-pocket maximums - helps you compare plans and budget for healthcare expenses.",
     sections: [
       {
         id: "cost-overview",
@@ -550,7 +550,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       {
         id: "oop-maximum",
         heading: "Out-of-Pocket Maximum",
-        body: `<p>One of the most important features of Medicare Advantage is the out-of-pocket maximum — a cap on how much you'll spend in a year. Once you reach this limit, the plan pays 100% of covered in-network costs for the rest of the year.</p>
+        body: `<p>One of the most important features of Medicare Advantage is the out-of-pocket maximum - a cap on how much you'll spend in a year. Once you reach this limit, the plan pays 100% of covered in-network costs for the rest of the year.</p>
 <p>In 2025, the maximum allowed out-of-pocket limit for in-network services is <strong>$9,350</strong>. Many plans set their limits lower. Some plans also have a combined in/out-of-network limit, which can be higher.</p>
 <p>Original Medicare has no out-of-pocket maximum without a Medigap supplement plan.</p>`,
       },
@@ -559,12 +559,12 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "Extra Benefits and Their Costs",
         body: `<p>Many Medicare Advantage plans include extra benefits not covered by Original Medicare. These are often included at no additional cost:</p>
 <ul>
-<li><strong>Dental</strong> — Routine cleanings, X-rays, and sometimes major dental work</li>
-<li><strong>Vision</strong> — Eye exams and an allowance for glasses or contacts</li>
-<li><strong>Hearing</strong> — Hearing exams and an allowance for hearing aids</li>
-<li><strong>Fitness</strong> — Gym memberships or fitness programs (SilverSneakers, etc.)</li>
-<li><strong>Transportation</strong> — Rides to medical appointments</li>
-<li><strong>Over-the-counter allowance</strong> — Quarterly credit for OTC health products</li>
+<li><strong>Dental</strong> - Routine cleanings, X-rays, and sometimes major dental work</li>
+<li><strong>Vision</strong> - Eye exams and an allowance for glasses or contacts</li>
+<li><strong>Hearing</strong> - Hearing exams and an allowance for hearing aids</li>
+<li><strong>Fitness</strong> - Gym memberships or fitness programs (SilverSneakers, etc.)</li>
+<li><strong>Transportation</strong> - Rides to medical appointments</li>
+<li><strong>Over-the-counter allowance</strong> - Quarterly credit for OTC health products</li>
 </ul>`,
       }],
     faqs: [
@@ -618,7 +618,7 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "When Original Medicare May be Better",
         body: `<p>Original Medicare (with a Medigap supplement) may be the better choice if you:</p>
 <ul>
-<li>Want maximum provider flexibility — see any doctor or specialist who accepts Medicare, anywhere in the U.S.</li>
+<li>Want maximum provider flexibility - see any doctor or specialist who accepts Medicare, anywhere in the U.S.</li>
 <li>Have complex health needs requiring multiple specialists or frequent hospitalizations</li>
 <li>Travel frequently and need coverage in multiple states or abroad</li>
 <li>Want predictable, low out-of-pocket costs (with a comprehensive Medigap plan like Plan G)</li>
@@ -677,17 +677,17 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         id: "what-is-hmo",
         heading: "What is a Medicare Advantage HMO Plan?",
         body: `<p>A Health Maintenance Organization (HMO) Medicare Advantage plan provides all your Medicare Part A and Part B benefits through a network of doctors, hospitals, and other healthcare providers. HMO plans typically require you to choose a primary care physician (PCP) who coordinates your care and provides referrals to in-network specialists.</p>
-<p>HMO plans are the most popular type of Medicare Advantage plan because they typically offer lower premiums — often $0/month — and predictable cost-sharing in exchange for using the plan's network.</p>`,
+<p>HMO plans are the most popular type of Medicare Advantage plan because they typically offer lower premiums - often $0/month - and predictable cost-sharing in exchange for using the plan's network.</p>`,
       },
       {
         id: "how-hmo-works",
         heading: "How Does an HMO Plan Work?",
         body: `<p>With a Medicare Advantage HMO plan:</p>
 <ul>
-<li><strong>Choose a primary care physician (PCP)</strong> — Your PCP coordinates all your care and refers you to in-network specialists when needed.</li>
-<li><strong>Use in-network providers</strong> — Except for emergencies, you must use providers in the plan's network. Out-of-network care is generally not covered.</li>
-<li><strong>Get referrals for specialists</strong> — Most HMO plans require a referral from your PCP before seeing a specialist.</li>
-<li><strong>Pay predictable costs</strong> — HMO plans have fixed copays for most services, making budgeting easier.</li>
+<li><strong>Choose a primary care physician (PCP)</strong> - Your PCP coordinates all your care and refers you to in-network specialists when needed.</li>
+<li><strong>Use in-network providers</strong> - Except for emergencies, you must use providers in the plan's network. Out-of-network care is generally not covered.</li>
+<li><strong>Get referrals for specialists</strong> - Most HMO plans require a referral from your PCP before seeing a specialist.</li>
+<li><strong>Pay predictable costs</strong> - HMO plans have fixed copays for most services, making budgeting easier.</li>
 </ul>`,
       },
       {
@@ -695,10 +695,10 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
         heading: "Benefits of a Medicare Advantage HMO Plan",
         body: `<p>Medicare Advantage HMO plans offer several advantages over Original Medicare:</p>
 <ul>
-<li><strong>Low or $0 monthly premiums</strong> — Many HMO plans have no monthly premium beyond your Part B premium.</li>
-<li><strong>Out-of-pocket maximum</strong> — HMO plans cap your annual out-of-pocket costs. Original Medicare has no cap.</li>
-<li><strong>Extra benefits</strong> — Most HMO plans include prescription drug coverage (Part D), plus dental, vision, hearing, and fitness benefits.</li>
-<li><strong>Coordinated care</strong> — Your PCP coordinates all your care, reducing the risk of duplicate tests or conflicting treatments.</li>
+<li><strong>Low or $0 monthly premiums</strong> - Many HMO plans have no monthly premium beyond your Part B premium.</li>
+<li><strong>Out-of-pocket maximum</strong> - HMO plans cap your annual out-of-pocket costs. Original Medicare has no cap.</li>
+<li><strong>Extra benefits</strong> - Most HMO plans include prescription drug coverage (Part D), plus dental, vision, hearing, and fitness benefits.</li>
+<li><strong>Coordinated care</strong> - Your PCP coordinates all your care, reducing the risk of duplicate tests or conflicting treatments.</li>
 </ul>`,
       },
       {
@@ -724,12 +724,12 @@ export const MEDICARE_ADVANTAGE_PAGES: MedicareAdvantageSubPage[] = [
       {
         question: "Is a Medicare Advantage HMO the Same as Medicare?",
         answer:
-          "A Medicare Advantage HMO is a type of Medicare — it replaces Original Medicare (Parts A and B) and is offered by a private insurer. You still have Medicare, but your benefits are delivered through the HMO plan instead of directly through the federal government.",
+          "A Medicare Advantage HMO is a type of Medicare - it replaces Original Medicare (Parts A and B) and is offered by a private insurer. You still have Medicare, but your benefits are delivered through the HMO plan instead of directly through the federal government.",
       },
       {
         question: "Do HMO Medicare Advantage Plans Require Referrals?",
         answer:
-          "Most HMO plans require a referral from your primary care physician to see a specialist. Some plans offer 'open access' HMO options that don't require referrals — check the plan's Evidence of Coverage for details.",
+          "Most HMO plans require a referral from your primary care physician to see a specialist. Some plans offer 'open access' HMO options that don't require referrals - check the plan's Evidence of Coverage for details.",
       },
       {
         question: "What Happens if I See an Out-of-network Doctor with an HMO Plan?",

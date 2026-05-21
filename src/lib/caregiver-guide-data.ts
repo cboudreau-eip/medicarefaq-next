@@ -29,17 +29,17 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         id: "what-is-a-caregiver",
         heading: "What is a Caregiver?",
         body: `<p>A caregiver is anyone who provides unpaid assistance to a family member, friend, or loved one who has a chronic illness, disability, or age-related condition. Caregiving can range from occasional help with errands to full-time, around-the-clock support.</p>
-<p>In the context of Medicare, caregivers play a critical role in coordinating care, managing medications, attending appointments, and helping beneficiaries navigate their coverage options. While Medicare does not pay family caregivers directly, it does cover many services that reduce the caregiver's burden — including home health care, skilled nursing facility care, and hospice services.</p>`,
+<p>In the context of Medicare, caregivers play a critical role in coordinating care, managing medications, attending appointments, and helping beneficiaries navigate their coverage options. While Medicare does not pay family caregivers directly, it does cover many services that reduce the caregiver's burden - including home health care, skilled nursing facility care, and hospice services.</p>`,
       },
       {
         id: "types-of-caregivers",
         heading: "Types of Caregivers",
         body: `<p>There are four main types of caregivers, each with different roles and levels of involvement:</p>
 <ul>
-<li><strong>Family Caregivers</strong> — Spouses, adult children, siblings, or other relatives who provide unpaid care at home. This is the most common type.</li>
-<li><strong>Professional Caregivers</strong> — Paid home health aides, personal care aides, or certified nursing assistants hired through an agency or privately.</li>
-<li><strong>Informal Caregivers</strong> — Friends, neighbors, or community members who help without formal training or compensation.</li>
-<li><strong>Long-Distance Caregivers</strong> — Family members who coordinate care from a distance, often managing logistics, finances, and communication with healthcare providers.</li>
+<li><strong>Family Caregivers</strong> - Spouses, adult children, siblings, or other relatives who provide unpaid care at home. This is the most common type.</li>
+<li><strong>Professional Caregivers</strong> - Paid home health aides, personal care aides, or certified nursing assistants hired through an agency or privately.</li>
+<li><strong>Informal Caregivers</strong> - Friends, neighbors, or community members who help without formal training or compensation.</li>
+<li><strong>Long-Distance Caregivers</strong> - Family members who coordinate care from a distance, often managing logistics, finances, and communication with healthcare providers.</li>
 </ul>`,
       },
       {
@@ -47,10 +47,10 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         heading: "How Medicare Supports Caregivers",
         body: `<p>Medicare covers several services that directly benefit both the beneficiary and their caregiver:</p>
 <ul>
-<li><strong>Home Health Care</strong> — Medicare Part A and Part B cover skilled nursing visits, physical therapy, and home health aide services for homebound beneficiaries. This can significantly reduce the caregiver's workload.</li>
-<li><strong>Hospice Care</strong> — For beneficiaries with a terminal illness, Medicare covers hospice services including respite care — short-term inpatient care that gives family caregivers a temporary break.</li>
-<li><strong>Skilled Nursing Facility (SNF) Care</strong> — After a qualifying hospital stay, Medicare Part A covers up to 100 days in a skilled nursing facility, providing professional care while the beneficiary recovers.</li>
-<li><strong>Durable Medical Equipment (DME)</strong> — Wheelchairs, walkers, hospital beds, and other equipment that make home caregiving more manageable are covered by Part B.</li>
+<li><strong>Home Health Care</strong> - Medicare Part A and Part B cover skilled nursing visits, physical therapy, and home health aide services for homebound beneficiaries. This can significantly reduce the caregiver's workload.</li>
+<li><strong>Hospice Care</strong> - For beneficiaries with a terminal illness, Medicare covers hospice services including respite care - short-term inpatient care that gives family caregivers a temporary break.</li>
+<li><strong>Skilled Nursing Facility (SNF) Care</strong> - After a qualifying hospital stay, Medicare Part A covers up to 100 days in a skilled nursing facility, providing professional care while the beneficiary recovers.</li>
+<li><strong>Durable Medical Equipment (DME)</strong> - Wheelchairs, walkers, hospital beds, and other equipment that make home caregiving more manageable are covered by Part B.</li>
 </ul>`,
       },
       {
@@ -58,11 +58,11 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         heading: "Caregiver Resources and Support",
         body: `<p>Caregiving can be physically and emotionally demanding. These national resources provide support, training, and financial assistance:</p>
 <ul>
-<li><strong>National Alliance for Caregiving (NAC)</strong> — Research, advocacy, and resources for family caregivers.</li>
-<li><strong>AARP Caregiver Resource Center</strong> — Tools, guides, and a helpline (1-877-333-5885) for caregivers.</li>
-<li><strong>Eldercare Locator</strong> — A free service (1-800-677-1116) connecting caregivers to local services including meal delivery, transportation, and respite care.</li>
-<li><strong>State Health Insurance Assistance Programs (SHIPs)</strong> — Free Medicare counseling for beneficiaries and their caregivers.</li>
-<li><strong>Caregiver Action Network</strong> — Education and peer support for family caregivers across all disease categories.</li>
+<li><strong>National Alliance for Caregiving (NAC)</strong> - Research, advocacy, and resources for family caregivers.</li>
+<li><strong>AARP Caregiver Resource Center</strong> - Tools, guides, and a helpline (1-877-333-5885) for caregivers.</li>
+<li><strong>Eldercare Locator</strong> - A free service (1-800-677-1116) connecting caregivers to local services including meal delivery, transportation, and respite care.</li>
+<li><strong>State Health Insurance Assistance Programs (SHIPs)</strong> - Free Medicare counseling for beneficiaries and their caregivers.</li>
+<li><strong>Caregiver Action Network</strong> - Education and peer support for family caregivers across all disease categories.</li>
 </ul>`,
       }],
     faqs: [
@@ -104,7 +104,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       {
         id: "overview",
         heading: "What Caregiver Assistance is Available?",
-        body: `<p>Family caregivers often bear significant financial and physical burdens. A range of federal, state, and nonprofit programs exist to provide relief — from direct financial assistance to free respite care and training programs.</p>
+        body: `<p>Family caregivers often bear significant financial and physical burdens. A range of federal, state, and nonprofit programs exist to provide relief - from direct financial assistance to free respite care and training programs.</p>
 <p>The most important thing to know is that assistance availability varies significantly by state. Programs like Medicaid Home and Community-Based Services (HCBS) waivers can pay family caregivers in some states but not others. Always check your state's specific offerings.</p>`,
       },
       {
@@ -112,10 +112,10 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         heading: "Medicare-Covered Services that Assist Caregivers",
         body: `<p>While Medicare doesn't pay caregivers directly, it covers services that reduce the caregiving burden:</p>
 <ul>
-<li><strong>Home Health Care</strong> — Skilled nursing, physical therapy, and home health aide visits for homebound beneficiaries (Part A/B).</li>
-<li><strong>Hospice Respite Care</strong> — Up to 5 consecutive days of inpatient respite care per period so caregivers can rest (Part A hospice benefit).</li>
-<li><strong>Adult Day Services</strong> — Some Medicare Advantage plans cover adult day programs, which provide structured daytime care and give caregivers a break.</li>
-<li><strong>Telehealth</strong> — Remote monitoring and virtual visits reduce the need for caregiver transportation to appointments.</li>
+<li><strong>Home Health Care</strong> - Skilled nursing, physical therapy, and home health aide visits for homebound beneficiaries (Part A/B).</li>
+<li><strong>Hospice Respite Care</strong> - Up to 5 consecutive days of inpatient respite care per period so caregivers can rest (Part A hospice benefit).</li>
+<li><strong>Adult Day Services</strong> - Some Medicare Advantage plans cover adult day programs, which provide structured daytime care and give caregivers a break.</li>
+<li><strong>Telehealth</strong> - Remote monitoring and virtual visits reduce the need for caregiver transportation to appointments.</li>
 </ul>`,
       },
       {
@@ -123,19 +123,19 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         heading: "Medicaid Programs that Pay Caregivers",
         body: `<p>Medicaid offers several programs that can pay family caregivers, depending on the state:</p>
 <ul>
-<li><strong>Consumer-Directed Personal Assistance Programs (CDPAP)</strong> — Available in New York and similar programs in other states. Allows beneficiaries to hire, train, and supervise their own caregivers — including family members.</li>
-<li><strong>Home and Community-Based Services (HCBS) Waivers</strong> — State-specific Medicaid waivers that fund personal care, homemaker services, and sometimes allow family members to be paid caregivers.</li>
-<li><strong>Program of All-Inclusive Care for the Elderly (PACE)</strong> — Comprehensive care program for nursing-home-eligible individuals that includes caregiver support services.</li>
+<li><strong>Consumer-Directed Personal Assistance Programs (CDPAP)</strong> - Available in New York and similar programs in other states. Allows beneficiaries to hire, train, and supervise their own caregivers - including family members.</li>
+<li><strong>Home and Community-Based Services (HCBS) Waivers</strong> - State-specific Medicaid waivers that fund personal care, homemaker services, and sometimes allow family members to be paid caregivers.</li>
+<li><strong>Program of All-Inclusive Care for the Elderly (PACE)</strong> - Comprehensive care program for nursing-home-eligible individuals that includes caregiver support services.</li>
 </ul>`,
       },
       {
         id: "federal-programs",
         heading: "Federal and State Caregiver Support Programs",
         body: `<ul>
-<li><strong>National Family Caregiver Support Program (NFCSP)</strong> — Funded by the Older Americans Act, provides information, counseling, respite care, and supplemental services through local Area Agencies on Aging (AAA).</li>
-<li><strong>Veterans Administration (VA) Caregiver Support</strong> — The VA's Program of Comprehensive Assistance for Family Caregivers (PCAFC) provides a monthly stipend, health insurance, and mental health services to caregivers of eligible veterans.</li>
-<li><strong>Tax Deductions</strong> — Caregivers may be able to deduct medical expenses paid on behalf of a dependent parent or claim the Dependent Care Tax Credit. Consult a tax professional.</li>
-<li><strong>FMLA Leave</strong> — The Family and Medical Leave Act allows eligible employees to take up to 12 weeks of unpaid, job-protected leave to care for a seriously ill family member.</li>
+<li><strong>National Family Caregiver Support Program (NFCSP)</strong> - Funded by the Older Americans Act, provides information, counseling, respite care, and supplemental services through local Area Agencies on Aging (AAA).</li>
+<li><strong>Veterans Administration (VA) Caregiver Support</strong> - The VA's Program of Comprehensive Assistance for Family Caregivers (PCAFC) provides a monthly stipend, health insurance, and mental health services to caregivers of eligible veterans.</li>
+<li><strong>Tax Deductions</strong> - Caregivers may be able to deduct medical expenses paid on behalf of a dependent parent or claim the Dependent Care Tax Credit. Consult a tax professional.</li>
+<li><strong>FMLA Leave</strong> - The Family and Medical Leave Act allows eligible employees to take up to 12 weeks of unpaid, job-protected leave to care for a seriously ill family member.</li>
 </ul>`,
       }],
     faqs: [
@@ -173,8 +173,8 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         heading: "How Medicare Defines a Caregiver",
         body: `<p>Medicare does not have a single official definition of "caregiver" for payment purposes. Instead, Medicare distinguishes between the types of care being provided and who is qualified to provide them:</p>
 <ul>
-<li><strong>Skilled Care</strong> — Services like wound care, IV therapy, injections, and physical therapy must be performed by licensed professionals (RNs, LPNs, PTs). Medicare pays for these through home health agencies.</li>
-<li><strong>Custodial/Personal Care</strong> — Bathing, dressing, meal preparation, and companionship do not require a license. These are typically provided by home health aides or personal care attendants — and can sometimes be family members under certain Medicaid programs.</li>
+<li><strong>Skilled Care</strong> - Services like wound care, IV therapy, injections, and physical therapy must be performed by licensed professionals (RNs, LPNs, PTs). Medicare pays for these through home health agencies.</li>
+<li><strong>Custodial/Personal Care</strong> - Bathing, dressing, meal preparation, and companionship do not require a license. These are typically provided by home health aides or personal care attendants - and can sometimes be family members under certain Medicaid programs.</li>
 </ul>`,
       },
       {
@@ -243,13 +243,13 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       {
         id: "family-caregiver",
         heading: "Becoming a Family Caregiver",
-        body: `<p>Most family caregivers don't choose the role — it happens gradually as a loved one's needs increase. If you're stepping into a caregiving role, here are the key steps to get started:</p>
+        body: `<p>Most family caregivers don't choose the role - it happens gradually as a loved one's needs increase. If you're stepping into a caregiving role, here are the key steps to get started:</p>
 <ol>
-<li><strong>Assess the situation</strong> — Evaluate your loved one's physical, cognitive, and emotional needs. Talk with their doctors to understand the diagnosis, prognosis, and what level of care is needed.</li>
-<li><strong>Learn about Medicare benefits</strong> — Understand what Medicare covers (home health, skilled nursing, hospice) and what it doesn't (custodial care, most long-term care).</li>
-<li><strong>Set up a care plan</strong> — Work with the healthcare team to create a written care plan that outlines medications, appointments, emergency contacts, and daily care routines.</li>
-<li><strong>Arrange legal documents</strong> — Ensure your loved one has a healthcare proxy, durable power of attorney, and advance directive in place.</li>
-<li><strong>Connect with resources</strong> — Contact your local Area Agency on Aging (AAA) to learn about available services, support groups, and respite care options.</li>
+<li><strong>Assess the situation</strong> - Evaluate your loved one's physical, cognitive, and emotional needs. Talk with their doctors to understand the diagnosis, prognosis, and what level of care is needed.</li>
+<li><strong>Learn about Medicare benefits</strong> - Understand what Medicare covers (home health, skilled nursing, hospice) and what it doesn't (custodial care, most long-term care).</li>
+<li><strong>Set up a care plan</strong> - Work with the healthcare team to create a written care plan that outlines medications, appointments, emergency contacts, and daily care routines.</li>
+<li><strong>Arrange legal documents</strong> - Ensure your loved one has a healthcare proxy, durable power of attorney, and advance directive in place.</li>
+<li><strong>Connect with resources</strong> - Contact your local Area Agency on Aging (AAA) to learn about available services, support groups, and respite care options.</li>
 </ol>`,
       },
       {
@@ -257,21 +257,21 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         heading: "Becoming a Professional Caregiver",
         body: `<p>If you want to work as a paid caregiver, there are several pathways depending on the level of care you want to provide:</p>
 <ul>
-<li><strong>Personal Care Aide (PCA)</strong> — Provides non-medical assistance (bathing, dressing, meal prep). Minimal formal training required; some states require a brief training course and background check.</li>
-<li><strong>Home Health Aide (HHA)</strong> — Provides personal care plus basic health monitoring. Requires at least 75 hours of training and a competency evaluation for Medicare-certified agencies.</li>
-<li><strong>Certified Nursing Assistant (CNA)</strong> — Provides personal care and basic nursing tasks under the supervision of a nurse. Requires state-approved training (typically 75-150 hours) and a state competency exam.</li>
-<li><strong>Licensed Practical Nurse (LPN) or Registered Nurse (RN)</strong> — Provides skilled nursing care. Requires formal nursing education and state licensure.</li>
+<li><strong>Personal Care Aide (PCA)</strong> - Provides non-medical assistance (bathing, dressing, meal prep). Minimal formal training required; some states require a brief training course and background check.</li>
+<li><strong>Home Health Aide (HHA)</strong> - Provides personal care plus basic health monitoring. Requires at least 75 hours of training and a competency evaluation for Medicare-certified agencies.</li>
+<li><strong>Certified Nursing Assistant (CNA)</strong> - Provides personal care and basic nursing tasks under the supervision of a nurse. Requires state-approved training (typically 75-150 hours) and a state competency exam.</li>
+<li><strong>Licensed Practical Nurse (LPN) or Registered Nurse (RN)</strong> - Provides skilled nursing care. Requires formal nursing education and state licensure.</li>
 </ul>`,
       },
       {
         id: "training-resources",
         heading: "Caregiver Training Resources",
         body: `<ul>
-<li><strong>AARP Caregiver Training</strong> — Free online courses covering caregiving basics, dementia care, and self-care for caregivers.</li>
-<li><strong>Caregiver Action Network</strong> — Education programs and peer support for family caregivers.</li>
-<li><strong>Local community colleges</strong> — Many offer CNA and HHA training programs at low cost.</li>
-<li><strong>Home health agencies</strong> — Some agencies provide training for new hires and may reimburse certification costs.</li>
-<li><strong>State Medicaid programs</strong> — Some states offer free training for family caregivers who are enrolled in consumer-directed care programs.</li>
+<li><strong>AARP Caregiver Training</strong> - Free online courses covering caregiving basics, dementia care, and self-care for caregivers.</li>
+<li><strong>Caregiver Action Network</strong> - Education programs and peer support for family caregivers.</li>
+<li><strong>Local community colleges</strong> - Many offer CNA and HHA training programs at low cost.</li>
+<li><strong>Home health agencies</strong> - Some agencies provide training for new hires and may reimburse certification costs.</li>
+<li><strong>State Medicaid programs</strong> - Some states offer free training for family caregivers who are enrolled in consumer-directed care programs.</li>
 </ul>`,
       }],
     faqs: [
@@ -300,7 +300,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
     title: "What are the 4 Types of Caregivers?",
     subtitle: "CAREGIVER RESOURCES",
     heroDescription:
-      "A breakdown of the four main types of caregivers — family, professional, informal, and long-distance — and how each type interacts with Medicare.",
+      "A breakdown of the four main types of caregivers - family, professional, informal, and long-distance - and how each type interacts with Medicare.",
     sections: [
       {
         id: "four-types",
@@ -310,13 +310,13 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       {
         id: "family-caregivers",
         heading: "1. Family Caregivers",
-        body: `<p>Family caregivers are unpaid relatives — spouses, adult children, siblings, or other family members — who provide care at home. They are the most common type of caregiver in the United States, with an estimated 53 million Americans providing unpaid care to an adult or child with special needs.</p>
+        body: `<p>Family caregivers are unpaid relatives - spouses, adult children, siblings, or other family members - who provide care at home. They are the most common type of caregiver in the United States, with an estimated 53 million Americans providing unpaid care to an adult or child with special needs.</p>
 <p><strong>Medicare relevance:</strong> Medicare does not pay family caregivers directly. However, Medicare covers home health care, skilled nursing, and hospice services that support the beneficiary at home, reducing the family caregiver's workload.</p>`,
       },
       {
         id: "professional-caregivers",
         heading: "2. Professional Caregivers",
-        body: `<p>Professional caregivers are paid workers — home health aides, personal care aides, certified nursing assistants, or licensed nurses — who provide care either through an agency or as private-pay employees.</p>
+        body: `<p>Professional caregivers are paid workers - home health aides, personal care aides, certified nursing assistants, or licensed nurses - who provide care either through an agency or as private-pay employees.</p>
 <p><strong>Medicare relevance:</strong> Medicare Part A and Part B cover skilled home health services provided by Medicare-certified agencies. This includes skilled nursing visits, physical therapy, and home health aide services when ordered by a physician for a homebound beneficiary.</p>`,
       },
       {
@@ -328,7 +328,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       {
         id: "long-distance-caregivers",
         heading: "4. Long-Distance Caregivers",
-        body: `<p>Long-distance caregivers are family members who coordinate care from a distance — often managing logistics, finances, and communication with healthcare providers without being physically present.</p>
+        body: `<p>Long-distance caregivers are family members who coordinate care from a distance - often managing logistics, finances, and communication with healthcare providers without being physically present.</p>
 <p><strong>Medicare relevance:</strong> Long-distance caregivers can be authorized to speak with Medicare on behalf of a beneficiary by completing a Medicare Authorization to Disclose Personal Health Information form. They can also manage Medicare Advantage or Part D plan enrollment and appeals remotely.</p>
 <p><strong>Key tools for long-distance caregivers:</strong></p>
 <ul>
@@ -342,7 +342,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
       {
         question: "Which Type of Caregiver Does Medicare Cover?",
         answer:
-          "Medicare covers professional caregivers — specifically, home health aides and skilled nursing professionals employed by Medicare-certified home health agencies. Family and informal caregivers are not paid by Medicare.",
+          "Medicare covers professional caregivers - specifically, home health aides and skilled nursing professionals employed by Medicare-certified home health agencies. Family and informal caregivers are not paid by Medicare.",
       },
       {
         question: "What is the Most Common Type of Caregiver?",
@@ -370,20 +370,20 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         id: "definition",
         heading: "Caregiver Definition",
         body: `<p>A caregiver is a person who provides assistance to someone who needs help due to illness, disability, or age-related conditions. Caregivers may be family members, friends, or paid professionals. The care they provide can range from occasional help with daily tasks to full-time, around-the-clock support.</p>
-<p>In the United States, an estimated 53 million people serve as unpaid caregivers to an adult or child with special needs. The economic value of this unpaid care is estimated at over $470 billion per year — far exceeding what Medicare and Medicaid spend on formal home care combined.</p>`,
+<p>In the United States, an estimated 53 million people serve as unpaid caregivers to an adult or child with special needs. The economic value of this unpaid care is estimated at over $470 billion per year - far exceeding what Medicare and Medicaid spend on formal home care combined.</p>`,
       },
       {
         id: "what-caregivers-do",
         heading: "What do Caregivers Do?",
         body: `<p>Caregiving tasks vary widely depending on the care recipient's needs and the caregiver's relationship. Common caregiving activities include:</p>
 <ul>
-<li><strong>Personal care</strong> — Bathing, dressing, grooming, toileting</li>
-<li><strong>Medical care</strong> — Managing medications, wound care, monitoring vital signs, accompanying to medical appointments</li>
-<li><strong>Household tasks</strong> — Cooking, cleaning, laundry, grocery shopping</li>
-<li><strong>Transportation</strong> — Driving to appointments, errands, social activities</li>
-<li><strong>Care coordination</strong> — Communicating with doctors, managing insurance, coordinating other services</li>
-<li><strong>Emotional support</strong> — Providing companionship, managing behavioral symptoms of dementia</li>
-<li><strong>Financial management</strong> — Paying bills, managing assets, navigating benefits</li>
+<li><strong>Personal care</strong> - Bathing, dressing, grooming, toileting</li>
+<li><strong>Medical care</strong> - Managing medications, wound care, monitoring vital signs, accompanying to medical appointments</li>
+<li><strong>Household tasks</strong> - Cooking, cleaning, laundry, grocery shopping</li>
+<li><strong>Transportation</strong> - Driving to appointments, errands, social activities</li>
+<li><strong>Care coordination</strong> - Communicating with doctors, managing insurance, coordinating other services</li>
+<li><strong>Emotional support</strong> - Providing companionship, managing behavioral symptoms of dementia</li>
+<li><strong>Financial management</strong> - Paying bills, managing assets, navigating benefits</li>
 </ul>`,
       },
       {
@@ -413,7 +413,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
 <li>Coordinate between multiple providers and specialists</li>
 <li>Manage the gap between what Medicare covers and what the beneficiary actually needs</li>
 </ul>
-<p>Many caregivers also become the primary contact for Medicare Advantage plans, Part D drug plans, and Medigap insurers — making it critical that they understand how these programs work.</p>`,
+<p>Many caregivers also become the primary contact for Medicare Advantage plans, Part D drug plans, and Medigap insurers - making it critical that they understand how these programs work.</p>`,
       }],
     faqs: [
       {
@@ -456,12 +456,12 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         heading: "Performing or Assisting with ADLs",
         body: `<p>Activities of Daily Living (ADLs) are the basic self-care tasks that people perform every day. Caregivers often assist with:</p>
 <ul>
-<li><strong>Bathing and personal hygiene</strong> — Helping with showers, baths, grooming, and oral care</li>
-<li><strong>Dressing</strong> — Selecting appropriate clothing and assisting with putting it on</li>
-<li><strong>Eating</strong> — Preparing meals, feeding assistance, and monitoring nutrition</li>
-<li><strong>Mobility</strong> — Helping with walking, transfers (bed to chair), and positioning</li>
-<li><strong>Toileting</strong> — Assisting with bathroom use and managing incontinence</li>
-<li><strong>Medication management</strong> — Organizing medications, reminding about doses, and monitoring side effects</li>
+<li><strong>Bathing and personal hygiene</strong> - Helping with showers, baths, grooming, and oral care</li>
+<li><strong>Dressing</strong> - Selecting appropriate clothing and assisting with putting it on</li>
+<li><strong>Eating</strong> - Preparing meals, feeding assistance, and monitoring nutrition</li>
+<li><strong>Mobility</strong> - Helping with walking, transfers (bed to chair), and positioning</li>
+<li><strong>Toileting</strong> - Assisting with bathroom use and managing incontinence</li>
+<li><strong>Medication management</strong> - Organizing medications, reminding about doses, and monitoring side effects</li>
 </ul>`,
       },
       {
@@ -483,7 +483,7 @@ export const CAREGIVER_PAGES: CaregiverPageData[] = [
         body: `<p>Caregivers often play a central role in end-of-life planning and care, including:</p>
 <ul>
 <li>Discussing and documenting advance directives (living will, healthcare proxy/power of attorney)</li>
-<li>Coordinating hospice care — Medicare covers hospice services for beneficiaries with a terminal illness and a life expectancy of six months or less</li>
+<li>Coordinating hospice care - Medicare covers hospice services for beneficiaries with a terminal illness and a life expectancy of six months or less</li>
 <li>Managing comfort care and pain management</li>
 <li>Providing emotional support and presence</li>
 <li>Handling practical matters such as funeral planning and estate administration</li>

@@ -4,7 +4,7 @@
  *         NY Department of Financial Services (DFS) May 2026 Rate Tables,
  *         Medicare Interactive (medicareinteractive.org)
  * Sample premiums: 65-year-old female nonsmoker in New York City (NYC region)
- * NOTE: New York uses community rating — premiums are the same regardless of age or health.
+ * NOTE: New York uses community rating - premiums are the same regardless of age or health.
  *       Premiums vary by region, not by individual characteristics.
  * MedicareFAQ Score methodology: weighted composite of financial strength,
  * pricing competitiveness, plan availability, complaint record, and discounts.
@@ -45,7 +45,7 @@ export const NEW_YORK_CARRIERS: NewYorkCarrier[] = [
     discounts: "Household, payment mode, and loyalty discounts",
     pros: [
       "Most plan options available in New York (8 plan types)",
-      "Excellent complaint record — far fewer than expected",
+      "Excellent complaint record - far fewer than expected",
       "Largest Medicare Supplement insurer nationwide",
       "Strong household and loyalty discounts",
     ],
@@ -71,7 +71,7 @@ export const NEW_YORK_CARRIERS: NewYorkCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount (up to 12%), annual payment discount",
     pros: [
-      "Generous household discount (up to 12%) — among the highest available",
+      "Generous household discount (up to 12%) - among the highest available",
       "Strong financial rating (A+)",
       "Excellent complaint record",
       "Competitive Plan G pricing in New York",
@@ -98,7 +98,7 @@ export const NEW_YORK_CARRIERS: NewYorkCarrier[] = [
     complaintRecord: "Close to expected",
     discounts: "Household discount available",
     pros: [
-      "Deep New York roots — Empire BCBS is one of the most recognized brands in NY",
+      "Deep New York roots - Empire BCBS is one of the most recognized brands in NY",
       "Accepted by a wide network of New York doctors and hospitals",
       "Strong brand recognition among New York seniors",
       "Solid financial backing (Elevance Health)",
@@ -152,7 +152,7 @@ export const NEW_YORK_CARRIERS: NewYorkCarrier[] = [
     complaintRecord: "Higher than expected",
     discounts: "Household discount available",
     pros: [
-      "Competitive premiums — among the lowest Plan G rates in New York",
+      "Competitive premiums - among the lowest Plan G rates in New York",
       "Solid AM Best rating (A)",
       "Available statewide in New York",
       "Straightforward plan options",
@@ -219,7 +219,7 @@ export const NEW_YORK_STATS = {
   hasCommunityRating: true,
   hasGuaranteedIssueYearRound: true,
   hasBirthdayRule: false,
-  ratingType: "Community-rated (no-age-rated) — premiums same regardless of age or health",
+  ratingType: "Community-rated (no-age-rated) - premiums same regardless of age or health",
   freeLookPeriod: "30 days",
   partBDeductible2026: "$283",
   partADeductible2026: "$1,736",
@@ -229,7 +229,7 @@ export const NEW_YORK_FAQS = [
   {
     question: "What is the best Medicare Supplement plan in New York?",
     answer:
-      "Plan G is the most comprehensive Medicare Supplement plan available to new Medicare enrollees in New York. It covers all out-of-pocket costs except the annual Part B deductible ($283 in 2026). Plan N is a strong alternative if you want lower premiums and don't mind small copays for office and ER visits. Because New York uses community rating, premiums are the same for everyone in your region regardless of age or health — making it especially important to compare rates across carriers.",
+      "Plan G is the most comprehensive Medicare Supplement plan available to new Medicare enrollees in New York. It covers all out-of-pocket costs except the annual Part B deductible ($283 in 2026). Plan N is a strong alternative if you want lower premiums and don't mind small copays for office and ER visits. Because New York uses community rating, premiums are the same for everyone in your region regardless of age or health - making it especially important to compare rates across carriers.",
   },
   {
     question: "How much does Medigap Plan G cost in New York?",
@@ -239,17 +239,17 @@ export const NEW_YORK_FAQS = [
   {
     question: "Why are Medigap premiums so high in New York?",
     answer:
-      "New York's community rating and guaranteed issue rules — which are among the most consumer-friendly in the country — result in higher premiums than most states. Because insurers must sell Medigap to anyone with Medicare at any time, regardless of health status, and cannot charge more based on age or pre-existing conditions, they spread the risk across all enrollees. This means younger, healthier people pay more than they would in other states, while older or sicker people pay less. The tradeoff is that you can switch plans any time without medical underwriting.",
+      "New York's community rating and guaranteed issue rules - which are among the most consumer-friendly in the country - result in higher premiums than most states. Because insurers must sell Medigap to anyone with Medicare at any time, regardless of health status, and cannot charge more based on age or pre-existing conditions, they spread the risk across all enrollees. This means younger, healthier people pay more than they would in other states, while older or sicker people pay less. The tradeoff is that you can switch plans any time without medical underwriting.",
   },
   {
     question: "Does New York have a birthday rule?",
     answer:
-      "No. New York does not have a birthday rule because it does not need one. New York has guaranteed issue year-round — meaning you can switch Medigap plans at any time, any month of the year, without answering health questions or passing medical underwriting. This is a far stronger protection than the birthday rule offered in California and a few other states.",
+      "No. New York does not have a birthday rule because it does not need one. New York has guaranteed issue year-round - meaning you can switch Medigap plans at any time, any month of the year, without answering health questions or passing medical underwriting. This is a far stronger protection than the birthday rule offered in California and a few other states.",
   },
   {
     question: "Can I switch Medigap plans in New York at any time?",
     answer:
-      "Yes. New York is one of only a handful of states that requires insurers to offer guaranteed issue Medigap coverage year-round. This means you can switch carriers, switch plan types, or enroll in Medigap for the first time at any point during the year — no open enrollment window required, no medical underwriting, no health questions. This is one of the most significant consumer protections in the country for Medicare beneficiaries.",
+      "Yes. New York is one of only a handful of states that requires insurers to offer guaranteed issue Medigap coverage year-round. This means you can switch carriers, switch plan types, or enroll in Medigap for the first time at any point during the year - no open enrollment window required, no medical underwriting, no health questions. This is one of the most significant consumer protections in the country for Medicare beneficiaries.",
   },
   {
     question: "What is community rating in New York?",

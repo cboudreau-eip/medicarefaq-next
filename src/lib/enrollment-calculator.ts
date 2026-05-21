@@ -65,7 +65,7 @@ function formatMonthYear(date: Date): string {
 export function calculateTimeline(input: CalculatorInput): CalculatorResult {
   const { birthMonth, birthYear, employmentStatus } = input;
 
-  // 65th birthday — first day of birth month
+  // 65th birthday - first day of birth month
   const birthday65 = new Date(birthYear + 65, birthMonth - 1, 1);
 
   // IEP: 3 months before birth month through 3 months after
@@ -261,7 +261,7 @@ export function calculateTimeline(input: CalculatorInput): CalculatorResult {
       "You can safely delay Medicare Part B while you have creditable employer coverage from a company with 20+ employees."
     );
     personalizedTips.push(
-      "Sign up for free Part A when you turn 65 — there's no reason to delay it, and it can serve as secondary coverage."
+      "Sign up for free Part A when you turn 65 - there's no reason to delay it, and it can serve as secondary coverage."
     );
     if (sepStart && sepEnd) {
       personalizedTips.push(

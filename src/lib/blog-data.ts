@@ -23,7 +23,7 @@ export const blogPosts: BlogPost[] = [
     slug: "medicare-at-65-month-by-month-timeline",
     title: "Medicare at 65: A Month-by-Month Timeline of What to Do and When",
     excerpt:
-      "Turning 65 triggers a cascade of Medicare decisions — each with its own deadline. This month-by-month timeline tells you exactly what to do and when, from 12 months before your birthday through your first year of coverage.",
+      "Turning 65 triggers a cascade of Medicare decisions - each with its own deadline. This month-by-month timeline tells you exactly what to do and when, from 12 months before your birthday through your first year of coverage.",
     category: "Enrollment",
     categoryColor: "#F59E0B",
     date: "May 15, 2026",

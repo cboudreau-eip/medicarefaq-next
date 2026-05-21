@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 /**
- * MedigapByState — index page
+ * MedigapByState - index page
  * Route: /medicare-supplements/medigap-by-state
  */
 
@@ -45,7 +45,7 @@ export default function PageContent() {
               triggerId="compare-plans-medigap-state-1"
               coverageType="ms"
               title="Compare Medigap Plans in Your State"
-              subtitle="Enter your ZIP code to see rates from top Medigap carriers available in your area — free, no obligation."
+              subtitle="Enter your ZIP code to see rates from top Medigap carriers available in your area - free, no obligation."
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
@@ -108,7 +108,7 @@ export default function PageContent() {
               States with Federal Medigap Standardization
             </h2>
             <p className="text-slate-500 mb-6">
-              These states follow the federal lettered plan structure (Plans A–N). Benefits are identical across carriers — only premiums differ.
+              These states follow the federal lettered plan structure (Plans A–N). Benefits are identical across carriers - only premiums differ.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {standardized.map((state) => (
@@ -142,7 +142,7 @@ export default function PageContent() {
                 triggerId="compare-plans-medigap-state-2"
                 coverageType="ms"
                 title="Compare Medigap Plans in Your State"
-                subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area — free, no obligation."
+                subtitle="Enter your ZIP code to see rates from top Medigap carriers in your area - free, no obligation."
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-8 py-3 rounded-lg transition-colors">

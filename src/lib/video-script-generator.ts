@@ -5,10 +5,10 @@
  * Manus Forge LLM API (OpenAI-compatible) to generate a 2-minute HeyGen video script.
  *
  * The script follows this structure:
- *   Hook       (~15 sec)  — attention-grabbing opening question/statement
- *   Key Facts  (~75 sec)  — 3–4 main points from the article
- *   Next Steps (~20 sec)  — practical action the viewer should take
- *   CTA        (~10 sec)  — call to action: visit MedicareFAQ.com or call
+ *   Hook       (~15 sec)  - attention-grabbing opening question/statement
+ *   Key Facts  (~75 sec)  - 3–4 main points from the article
+ *   Next Steps (~20 sec)  - practical action the viewer should take
+ *   CTA        (~10 sec)  - call to action: visit MedicareFAQ.com or call
  *
  * Total target: ~250–280 words (reads at ~130 wpm = ~2 minutes)
  */

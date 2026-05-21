@@ -1,5 +1,5 @@
 /**
- * Simple FAQ Articles — Index
+ * Simple FAQ Articles - Index
  * Re-exports all batches of scraped FAQ articles.
  * Total: 215 articles across 9 batches.
  */

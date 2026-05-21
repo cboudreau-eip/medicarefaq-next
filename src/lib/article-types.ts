@@ -99,7 +99,7 @@ export interface CoverageArticleData {
   subtitle: string;
   category: string;
   dateUpdated: string;
-  lastReviewed?: string;   // ISO date (YYYY-MM-DD) — set when content is manually reviewed
+  lastReviewed?: string;   // ISO date (YYYY-MM-DD) - set when content is manually reviewed
   author: AuthorData;
   reviewer: AuthorData;
   readTime: string;
@@ -114,7 +114,7 @@ export interface CoverageArticleData {
 
   planBreakdowns: PlanBreakdownData[];
 
-  // Optional sections — not every article has all of these
+  // Optional sections - not every article has all of these
   subNavLinks?: { label: string; href: string }[];
   advantageSteps?: StepListData;
   costTable?: CostTableData;
@@ -190,8 +190,8 @@ export interface SimpleFAQArticleData {
   title: string;
   summary: string;
   category: string;
-  datePublished?: string;   // e.g. "January 15, 2024" — original publish date
-  dateUpdated: string;      // e.g. "April 14, 2026" — last reviewed/updated
+  datePublished?: string;   // e.g. "January 15, 2024" - original publish date
+  dateUpdated: string;      // e.g. "April 14, 2026" - last reviewed/updated
   author: string;
   authorUrl?: string;       // e.g. "/about-us/jagger-esch"
   authorTitle?: string;     // e.g. "Licensed Insurance Agent"

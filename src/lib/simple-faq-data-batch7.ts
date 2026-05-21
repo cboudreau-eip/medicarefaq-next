@@ -71,7 +71,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "If you are a hospital inpatient and your doctor says you are ready to be discharged but you disagree, you have the right to request an immediate review by a Peer Review Organization (PRO) — also called a Quality Improvement Organization (QIO). If you request this review before you leave the hospital, Medicare will continue to cover your stay while the review is conducted, and you will not be responsible for those costs even if the QIO ultimately sides with the hospital.",
+        content: "If you are a hospital inpatient and your doctor says you are ready to be discharged but you disagree, you have the right to request an immediate review by a Peer Review Organization (PRO) - also called a Quality Improvement Organization (QIO). If you request this review before you leave the hospital, Medicare will continue to cover your stay while the review is conducted, and you will not be responsible for those costs even if the QIO ultimately sides with the hospital.",
       },
       {
         type: "heading",
@@ -101,7 +101,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "Medicare fraud costs taxpayers billions of dollars each year and can compromise the quality of care beneficiaries receive. You have the right — and are encouraged — to [report suspected Medicare fraud](/faqs/report-medicare-fraud) to the Office of Inspector General (OIG) at 1-800-HHS-TIPS or online at oig.hhs.gov. You can also contact your State Health Insurance Assistance Program (SHIP) for free, unbiased counseling about your Medicare rights.",
+        content: "Medicare fraud costs taxpayers billions of dollars each year and can compromise the quality of care beneficiaries receive. You have the right - and are encouraged - to [report suspected Medicare fraud](/faqs/report-medicare-fraud) to the Office of Inspector General (OIG) at 1-800-HHS-TIPS or online at oig.hhs.gov. You can also contact your State Health Insurance Assistance Program (SHIP) for free, unbiased counseling about your Medicare rights.",
       },
       {
         type: "heading",
@@ -153,7 +153,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
     title: "What are Medicare Part B Excess Charges?",
-    summary: "Medicare Part B excess charges occur when a provider charges more than the Medicare-approved amount for a service. Understanding how excess charges work — and how to avoid them — can save you significant money.",
+    summary: "Medicare Part B excess charges occur when a provider charges more than the Medicare-approved amount for a service. Understanding how excess charges work - and how to avoid them - can save you significant money.",
     category: "Medicare Costs",
     datePublished: "September 16, 2021",
     dateUpdated: "April 14, 2026",
@@ -168,7 +168,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
     richSections: [
       {
         type: "paragraph",
-        content: "When you receive care under [Original Medicare](/original-medicare), Medicare sets an approved amount for each covered service. Most doctors who accept Medicare agree to accept this amount as payment in full — a practice called \"taking assignment.\" However, some doctors do not accept Medicare assignment and can legally charge up to 15% more than the Medicare-approved amount. This extra charge is called a **Part B excess charge**.",
+        content: "When you receive care under [Original Medicare](/original-medicare), Medicare sets an approved amount for each covered service. Most doctors who accept Medicare agree to accept this amount as payment in full - a practice called \"taking assignment.\" However, some doctors do not accept Medicare assignment and can legally charge up to 15% more than the Medicare-approved amount. This extra charge is called a **Part B excess charge**.",
       },
       {
         type: "heading",
@@ -178,13 +178,13 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "Here is a simple example: if Medicare approves $200 for a procedure, a non-participating provider can charge up to $230 (15% above the approved amount). Medicare will still pay its standard share — typically 80% of the approved amount, or $160 — but you would be responsible for the remaining $70 rather than the usual $40 coinsurance. That $30 difference is the excess charge.",
+        content: "Here is a simple example: if Medicare approves $200 for a procedure, a non-participating provider can charge up to $230 (15% above the approved amount). Medicare will still pay its standard share - typically 80% of the approved amount, or $160 - but you would be responsible for the remaining $70 rather than the usual $40 coinsurance. That $30 difference is the excess charge.",
       },
       {
         type: "callout",
         calloutType: "warning",
         calloutTitle: "Excess Charges Are Banned in Some States",
-        calloutText: "Several states — including Connecticut, Massachusetts, Minnesota, New York, Ohio, Pennsylvania, Rhode Island, and Vermont — prohibit providers from billing Medicare patients excess charges. If you live in one of these states, you are protected regardless of whether your doctor takes assignment.",
+        calloutText: "Several states - including Connecticut, Massachusetts, Minnesota, New York, Ohio, Pennsylvania, Rhode Island, and Vermont - prohibit providers from billing Medicare patients excess charges. If you live in one of these states, you are protected regardless of whether your doctor takes assignment.",
       },
       {
         type: "heading",
@@ -196,9 +196,9 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
         type: "table",
         headers: ["Provider Type", "Accepts Assignment?", "Can Charge Excess?", "Your Risk"],
         rows: [
-          ["Participating provider", "Yes — always", "No", "None"],
+          ["Participating provider", "Yes - always", "No", "None"],
           ["Non-participating provider", "Case by case", "Up to 15% above approved amount", "Moderate"],
-          ["Opt-out provider", "No — never", "Any amount", "High — Medicare pays nothing"]],
+          ["Opt-out provider", "No - never", "Any amount", "High - Medicare pays nothing"]],
       },
       {
         type: "paragraph",
@@ -216,7 +216,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
         items: [
           "**Ask before your appointment** whether the provider accepts Medicare assignment.",
           "**Use Medicare's provider search** at Medicare.gov to find participating providers in your area.",
-          "**Enroll in a Medigap Plan G or Plan N** — Plan G covers 100% of Part B excess charges, eliminating this risk entirely.",
+          "**Enroll in a Medigap Plan G or Plan N** - Plan G covers 100% of Part B excess charges, eliminating this risk entirely.",
           "**Check your Medicare Summary Notice (MSN)** after each visit to verify charges are correct.",
           "**Avoid opt-out providers** for non-emergency services unless you are prepared to pay the full cost out of pocket."],
       },
@@ -247,7 +247,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
           },
           {
             question: "Are Part B Excess Charges Common?",
-            answer: "Excess charges are relatively uncommon — the majority of Medicare providers accept assignment. However, they are more likely to occur with specialists in high-demand areas. It is always worth confirming assignment status before seeing a new provider.",
+            answer: "Excess charges are relatively uncommon - the majority of Medicare providers accept assignment. However, they are more likely to occur with specialists in high-demand areas. It is always worth confirming assignment status before seeing a new provider.",
           },
           {
             question: "Can I be Billed Excess Charges in Every State?",
@@ -255,7 +255,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
           },
           {
             question: "What is the Difference between a Non-participating Provider and an Opt-out Provider?",
-            answer: "A non-participating provider still works within Medicare but can charge up to 15% above the approved amount. An opt-out provider has completely withdrawn from Medicare and can charge any amount — Medicare pays nothing for their services except in emergencies.",
+            answer: "A non-participating provider still works within Medicare but can charge up to 15% above the approved amount. An opt-out provider has completely withdrawn from Medicare and can charge any amount - Medicare pays nothing for their services except in emergencies.",
           }],
       }],
     relatedSlugs: [
@@ -273,7 +273,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
     },
     title: "Does Medicare Cover Atrial Fibrillation (AFib)?",
-    summary: "Atrial fibrillation (AFib) is one of the most common heart conditions in Medicare beneficiaries. Medicare covers a wide range of AFib treatments, from medications and cardioversion to ablation and surgery — but out-of-pocket costs can be significant without supplemental coverage.",
+    summary: "Atrial fibrillation (AFib) is one of the most common heart conditions in Medicare beneficiaries. Medicare covers a wide range of AFib treatments, from medications and cardioversion to ablation and surgery - but out-of-pocket costs can be significant without supplemental coverage.",
     category: "Medicare Coverage",
     datePublished: "November 13, 2024",
     dateUpdated: "April 14, 2026",
@@ -304,13 +304,13 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
         type: "table",
         headers: ["Service", "Medicare Coverage", "Your Cost"],
         rows: [
-          ["Doctor visits & consultations", "Part B — 80% after deductible", "20% coinsurance"],
-          ["Cardiac screenings", "Part B — covered as preventive", "Usually $0 with participating provider"],
-          ["Heart monitoring (Holter monitor, event monitor)", "Part B — 80% after deductible", "20% coinsurance"],
-          ["Cardioversion (outpatient)", "Part B — 80% after deductible", "20% coinsurance"],
-          ["Catheter ablation (inpatient)", "Part A — after deductible", "Daily coinsurance may apply"],
-          ["AFib medications (blood thinners, rate control)", "Part D — varies by formulary", "Copay or coinsurance per tier"],
-          ["Open-heart / maze surgery (inpatient)", "Part A — after deductible", "Daily coinsurance may apply"]],
+          ["Doctor visits & consultations", "Part B - 80% after deductible", "20% coinsurance"],
+          ["Cardiac screenings", "Part B - covered as preventive", "Usually $0 with participating provider"],
+          ["Heart monitoring (Holter monitor, event monitor)", "Part B - 80% after deductible", "20% coinsurance"],
+          ["Cardioversion (outpatient)", "Part B - 80% after deductible", "20% coinsurance"],
+          ["Catheter ablation (inpatient)", "Part A - after deductible", "Daily coinsurance may apply"],
+          ["AFib medications (blood thinners, rate control)", "Part D - varies by formulary", "Copay or coinsurance per tier"],
+          ["Open-heart / maze surgery (inpatient)", "Part A - after deductible", "Daily coinsurance may apply"]],
         footnote: "Costs shown are for Original Medicare only. A Medigap plan can significantly reduce your out-of-pocket exposure.",
       },
       {
@@ -351,7 +351,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "AFib is a chronic condition that often requires ongoing management, multiple hospitalizations, and expensive procedures. Without supplemental coverage, Original Medicare's 20% coinsurance and per-stay deductibles can add up quickly. A [Medigap plan](/medicare-supplements) — particularly [Plan G](/medicare-supplements/plan-g) — covers the Part A deductible, Part B coinsurance, and excess charges, providing much more predictable out-of-pocket costs for beneficiaries managing a chronic cardiac condition.",
+        content: "AFib is a chronic condition that often requires ongoing management, multiple hospitalizations, and expensive procedures. Without supplemental coverage, Original Medicare's 20% coinsurance and per-stay deductibles can add up quickly. A [Medigap plan](/medicare-supplements) - particularly [Plan G](/medicare-supplements/plan-g) - covers the Part A deductible, Part B coinsurance, and excess charges, providing much more predictable out-of-pocket costs for beneficiaries managing a chronic cardiac condition.",
       },
       {
         type: "faq",
@@ -374,7 +374,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
           },
           {
             question: "What is the Best Medicare Plan for Someone with AFib?",
-            answer: "Original Medicare combined with a Medigap Plan G provides the most comprehensive coverage for AFib patients. Plan G covers the Part A deductible, Part B coinsurance, and excess charges — protecting you from the high costs of hospitalizations and procedures associated with AFib management.",
+            answer: "Original Medicare combined with a Medigap Plan G provides the most comprehensive coverage for AFib patients. Plan G covers the Part A deductible, Part B coinsurance, and excess charges - protecting you from the high costs of hospitalizations and procedures associated with AFib management.",
           }],
       }],
     relatedSlugs: [

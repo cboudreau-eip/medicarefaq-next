@@ -1,5 +1,5 @@
 /**
- * Simple FAQ Articles — Batch 2
+ * Simple FAQ Articles - Batch 2
  * Auto-generated from scraped medicarefaq.com content.
  * 50 articles.
  */
@@ -233,7 +233,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     },
     title: "Navigating Medicare Choices: Understanding the Scope of Appointment (SOA)",
     summary:
-      "The Medicare Scope of Appointment (SOA) is a CMS-mandated form that defines which Medicare plan types an agent may discuss with you during a specific appointment. It exists entirely to protect you — agents who ignore it face serious regulatory consequences. Understanding it before you sit down with an agent can make a significant difference in how that conversation goes.",
+      "The Medicare Scope of Appointment (SOA) is a CMS-mandated form that defines which Medicare plan types an agent may discuss with you during a specific appointment. It exists entirely to protect you - agents who ignore it face serious regulatory consequences. Understanding it before you sit down with an agent can make a significant difference in how that conversation goes.",
     category: "Medicare FAQ",
     datePublished: "May 7, 2026",
     dateUpdated: "May 7, 2026",
@@ -249,7 +249,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         calloutType: "info",
         calloutTitle: "Key Takeaways",
         calloutText:
-          "The Medicare Scope of Appointment is a federally required form that limits what plan types an agent can discuss with you during a Medicare appointment. You control which plan categories appear on your SOA — if you didn't check it, the agent cannot discuss it. Signing an SOA does not obligate you to enroll in any plan, and you can end an appointment at any time if you feel pressured or uncomfortable.",
+          "The Medicare Scope of Appointment is a federally required form that limits what plan types an agent can discuss with you during a Medicare appointment. You control which plan categories appear on your SOA - if you didn't check it, the agent cannot discuss it. Signing an SOA does not obligate you to enroll in any plan, and you can end an appointment at any time if you feel pressured or uncomfortable.",
       },
       {
         type: "heading",
@@ -260,12 +260,12 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "The scope of appointment form Medicare agents use is not optional paperwork. It is a Centers for Medicare & Medicaid Services (CMS) requirement that must be completed before any substantive sales discussion begins. The form lists the categories of Medicare plans — such as Medicare Advantage (Part C), standalone Part D Prescription Drug Plans, and Medicare Supplement insurance — and you check only the ones you want to hear about.",
+          "The scope of appointment form Medicare agents use is not optional paperwork. It is a Centers for Medicare & Medicaid Services (CMS) requirement that must be completed before any substantive sales discussion begins. The form lists the categories of Medicare plans - such as Medicare Advantage (Part C), standalone Part D Prescription Drug Plans, and Medicare Supplement insurance - and you check only the ones you want to hear about.",
       },
       {
         type: "paragraph",
         content:
-          "Once you sign it, the agent is legally bound to stay within those boundaries. That means if you checked only Medicare Supplement plans, the agent cannot pivot mid-conversation to pitch a Medicare Advantage plan. This is not a technicality — it is a documented consumer protection enforced by CMS.",
+          "Once you sign it, the agent is legally bound to stay within those boundaries. That means if you checked only Medicare Supplement plans, the agent cannot pivot mid-conversation to pitch a Medicare Advantage plan. This is not a technicality - it is a documented consumer protection enforced by CMS.",
       },
       {
         type: "paragraph",
@@ -281,7 +281,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Timing matters with the SOA. As a general rule, the form must be completed *before* any personalized discussion of specific plan benefits, costs, or enrollment begins. For scheduled appointments, CMS guidelines traditionally suggest a 48-hour advance window — meaning the form should ideally be submitted at least two days before the meeting.",
+          "Timing matters with the SOA. As a general rule, the form must be completed *before* any personalized discussion of specific plan benefits, costs, or enrollment begins. For scheduled appointments, CMS guidelines traditionally suggest a 48-hour advance window - meaning the form should ideally be submitted at least two days before the meeting.",
       },
       {
         type: "paragraph",
@@ -296,16 +296,16 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         type: "list",
         ordered: false,
         items: [
-          "**In person** — signed at the start of a face-to-face meeting",
-          "**Over the phone** — verbally confirmed and documented by the agent",
-          "**Electronically** — via a digital signature process, which many agents now use"],
+          "**In person** - signed at the start of a face-to-face meeting",
+          "**Over the phone** - verbally confirmed and documented by the agent",
+          "**Electronically** - via a digital signature process, which many agents now use"],
       },
       {
         type: "callout",
         calloutType: "tip",
         calloutTitle: "Pro Tip",
         calloutText:
-          "Before any Medicare appointment, write down your top three priorities — such as keeping a specific doctor, managing a prescription cost, or staying within a monthly budget — and check only the SOA categories that could address those priorities. This keeps the agent focused and gives you a clear benchmark for evaluating whatever they present. If an agent tries to steer you toward something outside those priorities, your signed SOA gives you the standing to redirect the conversation immediately.",
+          "Before any Medicare appointment, write down your top three priorities - such as keeping a specific doctor, managing a prescription cost, or staying within a monthly budget - and check only the SOA categories that could address those priorities. This keeps the agent focused and gives you a clear benchmark for evaluating whatever they present. If an agent tries to steer you toward something outside those priorities, your signed SOA gives you the standing to redirect the conversation immediately.",
       },
       {
         type: "heading",
@@ -316,7 +316,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "The SOA gives you something rare in a sales environment: a clear record of what the agent is allowed to discuss. Once you've signed it, the Medicare appointment guidelines are clear — the agent may only discuss the plan types you authorized.",
+          "The SOA gives you something rare in a sales environment: a clear record of what the agent is allowed to discuss. Once you've signed it, the Medicare appointment guidelines are clear - the agent may only discuss the plan types you authorized.",
       },
       {
         type: "paragraph",
@@ -457,7 +457,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "The Medicare Scope of Appointment is more than a compliance checkbox — it is a practical tool that puts you in control of one of the most important financial and health decisions you'll make. When you understand what it does, you stop seeing it as bureaucratic friction and start seeing it as a boundary you set.",
+          "The Medicare Scope of Appointment is more than a compliance checkbox - it is a practical tool that puts you in control of one of the most important financial and health decisions you'll make. When you understand what it does, you stop seeing it as bureaucratic friction and start seeing it as a boundary you set.",
       },
       {
         type: "paragraph",
@@ -467,7 +467,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       {
         type: "paragraph",
         content:
-          "Medicare decisions in 2026 involve real numbers — a Part B premium of $202.90 per month and an average Part D premium around $34.50 — and cost-sharing structures that vary significantly from plan to plan. Getting those details right starts with a focused conversation. The SOA is what makes that conversation possible. If you're ready to take the next step, speak with a licensed Medicare agent who can walk you through your specific options, on your terms, within the boundaries you've set.",
+          "Medicare decisions in 2026 involve real numbers - a Part B premium of $202.90 per month and an average Part D premium around $34.50 - and cost-sharing structures that vary significantly from plan to plan. Getting those details right starts with a focused conversation. The SOA is what makes that conversation possible. If you're ready to take the next step, speak with a licensed Medicare agent who can walk you through your specific options, on your terms, within the boundaries you've set.",
       }],
     relatedSlugs: [
       "medicare-advantage-plans",
@@ -485,7 +485,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/Surprised-by-Higher-Medicare-Premiums-It-Could-Be-IRMAA.jpg',
     },
     title: 'Surprised by Higher Medicare Premiums? It Could Be IRMAA',
-    summary: 'If your Medicare premiums are higher than you expected, the reason may be IRMAA — the Income-Related Monthly Adjustment Amount. This guide explains what IRMAA is, who pays it in 2026, how the income thresholds work, and what you can do if your income has recently changed.',
+    summary: 'If your Medicare premiums are higher than you expected, the reason may be IRMAA - the Income-Related Monthly Adjustment Amount. This guide explains what IRMAA is, who pays it in 2026, how the income thresholds work, and what you can do if your income has recently changed.',
     category: 'Costs & Savings',
     dateUpdated: 'May 8, 2026',
     author: 'David Haass',
@@ -552,7 +552,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         type: 'table' as const,
         headers: ['Individual MAGI (2024)', 'Joint MAGI (2024)', 'Total Monthly Part B Premium'],
         rows: [
-          ['$109,000 or less', '$218,000 or less', '$202.90 (standard — no surcharge)'],
+          ['$109,000 or less', '$218,000 or less', '$202.90 (standard - no surcharge)'],
           ['$109,001 to $136,999', '$218,001 to $273,999', '$284.10'],
           ['$137,000 to $170,999', '$274,000 to $341,999', '$405.80'],
           ['$171,000 to $204,999', '$342,000 to $409,999', '$527.50'],
@@ -718,29 +718,29 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     richSections: [
       { type: 'paragraph', content: 'Many retirees are surprised to learn that their former employer’s retiree health plan does not give them the same Medicare enrollment protections as active employer coverage. This is one of the most common and costly Medicare misconceptions. Understanding the distinction between active employer coverage and retiree coverage is essential before you leave the workforce.' },
       { type: 'heading', level: 2, text: 'What Is Retiree Health Insurance?', id: 'what-is-retiree-insurance' },
-      { type: 'paragraph', content: 'Retiree health insurance is coverage that some employers offer to former employees after they retire. It is entirely voluntary on the employer’s part — there is no federal law requiring employers to offer it. Plans vary widely in what they cover and what they cost. Some retiree plans are comprehensive; others are designed primarily to bridge the gap until the retiree turns 65 and becomes eligible for Medicare.' },
+      { type: 'paragraph', content: 'Retiree health insurance is coverage that some employers offer to former employees after they retire. It is entirely voluntary on the employer’s part - there is no federal law requiring employers to offer it. Plans vary widely in what they cover and what they cost. Some retiree plans are comprehensive; others are designed primarily to bridge the gap until the retiree turns 65 and becomes eligible for Medicare.' },
       { type: 'paragraph', content: 'Once you turn 65 and become eligible for Medicare, most retiree health plans are designed to work alongside Medicare rather than replace it. In most cases, Medicare becomes your primary insurance and the retiree plan becomes secondary, paying costs that Medicare does not cover.' },
       { type: 'heading', level: 2, text: 'Is Retiree Insurance Creditable Coverage for Medicare?', id: 'is-retiree-creditable' },
-      { type: 'paragraph', content: 'This is the critical question. For Medicare Part B, **retiree health insurance is not considered creditable coverage**. Only active employer-sponsored group health coverage (from a current employer with 20 or more employees) allows you to delay Part B enrollment without penalty. Once you retire and lose active employer coverage, your 8-month [Special Enrollment Period (SEP)](/faqs/medicare-special-enrollment-periods) begins — regardless of whether you have retiree insurance.' },
+      { type: 'paragraph', content: 'This is the critical question. For Medicare Part B, **retiree health insurance is not considered creditable coverage**. Only active employer-sponsored group health coverage (from a current employer with 20 or more employees) allows you to delay Part B enrollment without penalty. Once you retire and lose active employer coverage, your 8-month [Special Enrollment Period (SEP)](/faqs/medicare-special-enrollment-periods) begins - regardless of whether you have retiree insurance.' },
       { type: 'callout', calloutType: 'warning', calloutTitle: 'Do Not Delay Part B Because of Retiree Coverage', calloutText: 'Retiree health insurance does not protect you from the Part B late enrollment penalty. If you retire and have retiree coverage but do not enroll in Part B within your 8-month SEP window, you will face a permanent 10% penalty on your Part B premium for every 12-month period you delayed.' },
       { type: 'paragraph', content: 'For Medicare Part D (prescription drugs), the situation is different. Retiree drug coverage may or may not be creditable, depending on the plan. Your former employer is required by law to notify you each year whether their drug coverage is creditable. If it is creditable, you can delay Part D enrollment without penalty for as long as you maintain that coverage. If it is not creditable, you should enroll in a Part D plan during your Initial Enrollment Period.' },
       { type: 'heading', level: 2, text: 'How Medicare Coordinates with Retiree Insurance', id: 'coordination-of-benefits' },
       { type: 'paragraph', content: 'When you have both Medicare and retiree insurance, the two plans coordinate benefits according to rules set by Medicare. In most situations, Medicare pays first (as the primary payer) and the retiree plan pays second (as the secondary payer), covering some or all of the costs Medicare does not pay.' },
       { type: 'table', title: 'How Medicare and Retiree Insurance Coordinate', headers: ['Scenario', 'Who Pays First', 'Who Pays Second'], rows: [
         ['You are 65+ and enrolled in Medicare with retiree coverage', 'Medicare (primary)', 'Retiree plan (secondary)'],
-        ['You are under 65 and have retiree coverage only', 'Retiree plan (primary)', 'N/A — Medicare not yet available'],
-        ['You are 65+ but have not enrolled in Part B', 'Retiree plan pays as if it were primary', 'No Medicare secondary benefit — you bear more cost'],
+        ['You are under 65 and have retiree coverage only', 'Retiree plan (primary)', 'N/A - Medicare not yet available'],
+        ['You are 65+ but have not enrolled in Part B', 'Retiree plan pays as if it were primary', 'No Medicare secondary benefit - you bear more cost'],
         ['Retiree plan is a Medicare Advantage wrap plan', 'Medicare Advantage plan (primary)', 'Retiree plan may cover remaining costs per plan rules'],
       ]},
-      { type: 'paragraph', content: 'Some employers offer retiree plans specifically designed to wrap around Medicare — these are sometimes called Medicare supplement or Medigap-style retiree plans. They fill in Medicare’s gaps much like a standard [Medigap plan](/medicare-supplements/) would. If your retiree plan works this way, enrolling in Medicare on time is especially important, because the retiree plan is built on the assumption that Medicare is paying first.' },
+      { type: 'paragraph', content: 'Some employers offer retiree plans specifically designed to wrap around Medicare - these are sometimes called Medicare supplement or Medigap-style retiree plans. They fill in Medicare’s gaps much like a standard [Medigap plan](/medicare-supplements/) would. If your retiree plan works this way, enrolling in Medicare on time is especially important, because the retiree plan is built on the assumption that Medicare is paying first.' },
       { type: 'heading', level: 2, text: 'What Happens If You Do Not Enroll in Medicare on Time?', id: 'late-enrollment-consequences' },
       { type: 'paragraph', content: 'If you retire and have retiree insurance but do not enroll in Medicare Part B during your 8-month SEP, you will face consequences on two fronts. First, you will owe a permanent Part B late enrollment penalty of 10% for each 12-month period you delayed. At the 2026 standard premium of $202.90 per month, even a one-year delay adds $20.29 to your monthly premium for life. Second, your retiree plan may reduce or eliminate its benefits for services that Medicare would have covered, leaving you with higher out-of-pocket costs.' },
       { type: 'heading', level: 2, text: 'Can Your Employer Pay Your Medicare Premiums?', id: 'employer-pay-premiums' },
-      { type: 'paragraph', content: 'Some retirees wonder whether their former employer can reimburse them for Medicare premiums. The rules here are strict. Under current law, employers generally cannot directly pay individual Medicare premiums on a tax-free basis through a traditional group health plan. However, some employers use Health Reimbursement Arrangements (HRAs) — specifically a Retiree HRA or an Individual Coverage HRA (ICHRA) — to reimburse retirees for Medicare premiums. If your former employer offers this benefit, it can be a valuable way to offset your Medicare costs.' },
+      { type: 'paragraph', content: 'Some retirees wonder whether their former employer can reimburse them for Medicare premiums. The rules here are strict. Under current law, employers generally cannot directly pay individual Medicare premiums on a tax-free basis through a traditional group health plan. However, some employers use Health Reimbursement Arrangements (HRAs) - specifically a Retiree HRA or an Individual Coverage HRA (ICHRA) - to reimburse retirees for Medicare premiums. If your former employer offers this benefit, it can be a valuable way to offset your Medicare costs.' },
       { type: 'heading', level: 2, text: 'Steps to Take When You Retire', id: 'steps-when-retiring' },
       { type: 'list', ordered: true, items: [
         '**Confirm your retirement date and coverage end date.** Your 8-month SEP for Part B begins when active employment ends or active employer coverage ends, whichever comes first.',
-        '**Ask your employer whether retiree drug coverage is creditable.** You should receive a written notice each year. Keep it — you may need it if you later enroll in Part D.',
+        '**Ask your employer whether retiree drug coverage is creditable.** You should receive a written notice each year. Keep it - you may need it if you later enroll in Part D.',
         '**Enroll in Part B within your 8-month SEP.** Do not wait. Apply online at ssa.gov, by phone, or at your local Social Security office.',
         '**Review your retiree plan’s coordination rules.** Contact your former employer’s HR or benefits department to understand exactly how the retiree plan works with Medicare.',
         '**Evaluate whether you need additional Medigap coverage.** If your retiree plan has high cost-sharing, a Medigap plan may reduce your out-of-pocket exposure.',
@@ -1028,7 +1028,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-pre-enrollment-checklist.jpg',
     },
     title: 'Medicare Pre-Enrollment Checklist: What to Do Before You Turn 65',
-    summary: 'Turning 65 is one of the most important financial milestones of your life. This Medicare pre-enrollment checklist walks you through every step — from confirming your eligibility and gathering documents to comparing plan types and avoiding late enrollment penalties — so you can enter Medicare with confidence.',
+    summary: 'Turning 65 is one of the most important financial milestones of your life. This Medicare pre-enrollment checklist walks you through every step - from confirming your eligibility and gathering documents to comparing plan types and avoiding late enrollment penalties - so you can enter Medicare with confidence.',
     category: 'Enrollment',
     dateUpdated: 'May 11, 2026',
     author: 'David Haass',
@@ -1037,21 +1037,21 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     sections: [],
     richSections: [
       { type: 'paragraph', content: 'Most people have only one chance to enroll in Medicare without penalty: the [Initial Enrollment Period (IEP)](/faqs/medicare-initial-enrollment-period), a 7-month window centered on your 65th birthday. Miss it without qualifying coverage from an employer, and you could face permanent premium surcharges that follow you for the rest of your life. This checklist is designed to help you prepare well in advance so that nothing falls through the cracks.' },
-      { type: 'callout', calloutType: 'tip', calloutTitle: 'Start 6 Months Before Your Birthday', calloutText: 'Ideally, begin this checklist 6 months before you turn 65. Some steps — like deciding whether to keep employer coverage or researching Medigap plans — take time and should not be rushed.' },
+      { type: 'callout', calloutType: 'tip', calloutTitle: 'Start 6 Months Before Your Birthday', calloutText: 'Ideally, begin this checklist 6 months before you turn 65. Some steps - like deciding whether to keep employer coverage or researching Medigap plans - take time and should not be rushed.' },
       { type: 'heading', level: 2, text: 'Step 1: Confirm Your Medicare Eligibility', id: 'step-1-eligibility' },
-      { type: 'paragraph', content: 'Before anything else, confirm that you are eligible for Medicare and understand what you will pay. Most people qualify for premium-free [Part A](/faqs/what-is-medicare-part-a) at age 65 if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). Part B requires a monthly premium — $202.90 in 2026 for most beneficiaries.' },
+      { type: 'paragraph', content: 'Before anything else, confirm that you are eligible for Medicare and understand what you will pay. Most people qualify for premium-free [Part A](/faqs/what-is-medicare-part-a) at age 65 if they or their spouse worked and paid Medicare taxes for at least 10 years (40 quarters). Part B requires a monthly premium - $202.90 in 2026 for most beneficiaries.' },
       { type: 'list', ordered: false, items: [
         'Verify your work history by checking your Social Security statement at [ssa.gov](https://www.ssa.gov)',
         'If you do not have 40 work credits, check whether you qualify through a spouse\'s work record',
-        'Confirm your birthday month — your IEP opens 3 months before the month you turn 65',
+        'Confirm your birthday month - your IEP opens 3 months before the month you turn 65',
         'If you are already receiving Social Security benefits, you will be enrolled in Parts A and B automatically',
       ]},
       { type: 'heading', level: 2, text: 'Step 2: Decide Whether to Keep Employer Coverage', id: 'step-2-employer-coverage' },
       { type: 'paragraph', content: 'If you or your spouse are still working and covered under an active employer group health plan, you may be able to delay Part B enrollment without penalty. This is one of the most consequential decisions you will make, and the rules are specific.' },
       { type: 'table', title: 'Employer Coverage vs. Medicare: Key Questions', headers: ['Question', 'If Yes', 'If No'], rows: [
-        ['Is your employer group plan from a company with 20+ employees?', 'You can delay Part B without penalty while actively employed', 'Medicare is primary — enroll in Part B now to avoid gaps'],
+        ['Is your employer group plan from a company with 20+ employees?', 'You can delay Part B without penalty while actively employed', 'Medicare is primary - enroll in Part B now to avoid gaps'],
         ['Are you covered under a spouse\'s active employer plan?', 'You can delay Part B without penalty', 'Enroll in Part B during your IEP'],
-        ['Do you have COBRA or retiree coverage?', 'COBRA/retiree plans do NOT protect you from Part B penalties', 'Enroll in Part B — these plans are not creditable for SEP purposes'],
+        ['Do you have COBRA or retiree coverage?', 'COBRA/retiree plans do NOT protect you from Part B penalties', 'Enroll in Part B - these plans are not creditable for SEP purposes'],
       ]},
       { type: 'callout', calloutType: 'warning', calloutTitle: 'COBRA Is Not a Substitute for Part B', calloutText: 'Many people mistakenly delay Part B enrollment because they have COBRA. COBRA is not considered active employer coverage for Medicare purposes. If you delay Part B because of COBRA, you will not qualify for a Special Enrollment Period when COBRA ends and may face a permanent 10% penalty per year of delay.' },
       { type: 'heading', level: 2, text: 'Step 3: Gather Your Documents', id: 'step-3-documents' },
@@ -1067,9 +1067,9 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       { type: 'heading', level: 2, text: 'Step 4: Apply for Medicare', id: 'step-4-apply' },
       { type: 'paragraph', content: 'There are three ways to [apply for Medicare](/faqs/applying-for-medicare). The online application through Social Security is the fastest and most convenient option for most people.' },
       { type: 'list', ordered: true, items: [
-        '**Online:** Visit [ssa.gov/medicare](https://www.ssa.gov/medicare) — takes about 10 minutes and you receive confirmation immediately',
+        '**Online:** Visit [ssa.gov/medicare](https://www.ssa.gov/medicare) - takes about 10 minutes and you receive confirmation immediately',
         '**By phone:** Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778), Monday through Friday, 8 a.m. to 7 p.m.',
-        '**In person:** Visit your local Social Security office — find yours at [ssa.gov/locator](https://www.ssa.gov/locator)',
+        '**In person:** Visit your local Social Security office - find yours at [ssa.gov/locator](https://www.ssa.gov/locator)',
       ]},
       { type: 'paragraph', content: 'Your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) is 7 months long: it begins 3 months before the month you turn 65, includes your birthday month, and ends 3 months after. Enrolling in the first 3 months ensures your coverage starts on the first day of your birthday month. Enrolling in your birthday month or after may delay your coverage start date.' },
       { type: 'heading', level: 2, text: 'Step 5: Choose Your Coverage Path', id: 'step-5-coverage-path' },
@@ -1086,15 +1086,15 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         'Enter your specific medications to see which plans cover them and at what cost',
         'Compare monthly premiums, annual deductibles (up to $615 in 2026), and copayments for your drugs',
         'Check the plan\'s formulary tier for each of your medications',
-        'Note the plan\'s pharmacy network — using preferred pharmacies can significantly reduce costs',
+        'Note the plan\'s pharmacy network - using preferred pharmacies can significantly reduce costs',
       ]},
       { type: 'heading', level: 2, text: 'Step 7: Review Financial Assistance Programs', id: 'step-7-financial-assistance' },
       { type: 'paragraph', content: 'If you have limited income and resources, you may qualify for programs that reduce your Medicare costs significantly. These programs are often underutilized because many people do not know they exist.' },
       { type: 'table', title: 'Medicare Financial Assistance Programs', headers: ['Program', 'What It Covers', 'Who Qualifies'], rows: [
         ['[Extra Help (Low-Income Subsidy)](/faqs/medicare-extra-help-program)', 'Reduces Part D premiums, deductibles, and copayments', 'Individuals with income up to ~150% of the federal poverty level'],
-        ['Medicare Savings Programs (MSPs)', 'Pays Part B premiums and may cover Part A costs and cost-sharing', 'Individuals with limited income and resources — four levels of assistance available'],
+        ['Medicare Savings Programs (MSPs)', 'Pays Part B premiums and may cover Part A costs and cost-sharing', 'Individuals with limited income and resources - four levels of assistance available'],
         ['[Qualified Medicare Beneficiary (QMB)](/faqs/qualified-medicare-beneficiary-program)', 'Pays Part A and Part B premiums, deductibles, and coinsurance', 'Lowest-income Medicare beneficiaries'],
-        ['State Pharmaceutical Assistance Programs (SPAPs)', 'Additional drug cost assistance beyond Extra Help', 'Varies by state — contact your State Health Insurance Assistance Program (SHIP)'],
+        ['State Pharmaceutical Assistance Programs (SPAPs)', 'Additional drug cost assistance beyond Extra Help', 'Varies by state - contact your State Health Insurance Assistance Program (SHIP)'],
       ]},
       { type: 'heading', level: 2, text: 'Step 8: Set Up Premium Payments', id: 'step-8-premium-payments' },
       { type: 'paragraph', content: 'Medicare Part B premiums are typically deducted automatically from your Social Security benefit if you are already receiving it. If you are not yet collecting Social Security, Medicare will bill you quarterly by mail. You can set up automatic bank withdrawals through the [Medicare Easy Pay](/faqs/medicare-easy-pay) program to avoid missed payments.' },
@@ -1120,7 +1120,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       { type: 'faq', faqs: [
         { question: 'When should I start the Medicare enrollment process?', answer: 'Start at least 6 months before you turn 65. Your enrollment window opens 3 months before your birthday month, so you want to have your decisions made well before that window opens.' },
         { question: 'Do I need to enroll in Medicare if I have employer coverage?', answer: 'If your employer has 20 or more employees, you can delay Part B without penalty while actively employed. However, you should still enroll in Part A (which is usually free) and notify your employer\'s HR department so they can coordinate benefits correctly.' },
-        { question: 'What is the Part B late enrollment penalty?', answer: 'The penalty is 10% of the standard Part B premium for every 12-month period you were eligible but did not enroll. At 2026 rates ($202.90/month), a 2-year delay adds about $40.58 to your monthly premium — permanently.' },
+        { question: 'What is the Part B late enrollment penalty?', answer: 'The penalty is 10% of the standard Part B premium for every 12-month period you were eligible but did not enroll. At 2026 rates ($202.90/month), a 2-year delay adds about $40.58 to your monthly premium - permanently.' },
         { question: 'Can I change my Medicare plan after I enroll?', answer: 'Yes. You can switch Medicare Advantage or Part D plans each year during the Annual Enrollment Period (October 15 to December 7). You can also switch Medigap plans at any time, but after your Open Enrollment Period ends you may be subject to medical underwriting.' },
         { question: 'What is the Welcome to Medicare visit?', answer: 'The Welcome to Medicare preventive visit is a one-time health review covered by Part B at no cost during your first 12 months of Part B enrollment. It includes a review of your health history, preventive screenings, and a personalized prevention plan.' },
       ]},
@@ -1742,9 +1742,9 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         type: 'list',
         ordered: true,
         items: [
-          '[Medigap Plan F](/faqs/what-does-medicare-supplement-plan-f-cover) — the most comprehensive option, covering 100% of Medicare-approved costs',
-          '[Medigap Plan G](/faqs/what-does-medicare-supplement-plan-g-cover) — the most popular plan for new enrollees, covering everything except the Part B deductible',
-          '[Medigap Plan N](/faqs/what-does-medicare-supplement-plan-n-cover) — the most budget-friendly option with small copays at the doctor and ER',
+          '[Medigap Plan F](/faqs/what-does-medicare-supplement-plan-f-cover) - the most comprehensive option, covering 100% of Medicare-approved costs',
+          '[Medigap Plan G](/faqs/what-does-medicare-supplement-plan-g-cover) - the most popular plan for new enrollees, covering everything except the Part B deductible',
+          '[Medigap Plan N](/faqs/what-does-medicare-supplement-plan-n-cover) - the most budget-friendly option with small copays at the doctor and ER',
         ],
       },
       { type: 'heading', level: 2, text: 'Medicare Supplement Plan F: The Premium-Only Plan', id: 'plan-f' },
@@ -2138,7 +2138,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ['CMS-40B', 'Application for Enrollment in Medicare Part B', 'ssa.gov or your local Social Security office'],
         ['CMS-L564', 'Request for Employment Information (used with CMS-40B when enrolling outside your IEP due to employer coverage)', 'ssa.gov'],
         ['CMS-18-F-5', 'Application for Hospital Insurance (Part A) for those not automatically enrolled', 'ssa.gov'],
-        ['CMS-10114', 'Notice of Medicare Non-Coverage (NOMNC) — given to you by a provider when services are ending', 'Provided by your provider'],
+        ['CMS-10114', 'Notice of Medicare Non-Coverage (NOMNC) - given to you by a provider when services are ending', 'Provided by your provider'],
       ]},
       { type: 'heading', level: 2, text: 'Appeal Forms', id: 'appeal-forms' },
       { type: 'table', title: 'Medicare Appeal Forms', headers: ['Form', 'Purpose', 'Where to Get It'], rows: [

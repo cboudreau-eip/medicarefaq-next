@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * MedigapStateTemplate — PageContent
+ * MedigapStateTemplate - PageContent
  * Route: /medicare-supplements/medigap-by-state/[stateSlug]
  * Data-driven template for all Medigap by-state pages.
  */
@@ -56,7 +56,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
             {state.name} Medigap Plans
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
-            Medicare Supplement Plans in {state.name} — 2026 Rates, Rules & Carrier Options
+            Medicare Supplement Plans in {state.name} - 2026 Rates, Rules & Carrier Options
           </p>
           {/* Quick stats */}
           <div className="flex flex-wrap gap-4 mb-8">
@@ -77,7 +77,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
               triggerId="compare-plans-medigap-state-detail-1"
               coverageType="ms"
               title={`Compare Medigap Rates in ${state.name}`}
-              subtitle={`Enter your ZIP code to see rates from top Medigap carriers available in ${state.name} — free, no obligation.`}
+              subtitle={`Enter your ZIP code to see rates from top Medigap carriers available in ${state.name} - free, no obligation.`}
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
@@ -230,7 +230,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                 triggerId="compare-plans-medigap-state-detail-2"
                 coverageType="ms"
                 title={`Compare Medigap Rates in ${state.name}`}
-                subtitle={`Enter your ZIP code to get personalized Medigap rates from top carriers in ${state.name} — free, no obligation.`}
+                subtitle={`Enter your ZIP code to get personalized Medigap rates from top carriers in ${state.name} - free, no obligation.`}
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">

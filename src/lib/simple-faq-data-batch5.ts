@@ -1,5 +1,5 @@
 /**
- * Simple FAQ Articles — Batch 5
+ * Simple FAQ Articles - Batch 5
  * Auto-generated from scraped medicarefaq.com content.
  * 2 articles.
  */

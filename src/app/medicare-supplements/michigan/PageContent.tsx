@@ -313,7 +313,7 @@ export default function MichiganPageContent() {
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
             Plan G starts at just {MI_STATS.lowestPlanGPremium} in Grand Rapids.
             We compared {MI_STATS.numberOfCarriers} carriers to find the best coverage
-            for Michigan&apos;s {MI_STATS.medigapEnrollees} Medigap enrollees — from
+            for Michigan&apos;s {MI_STATS.medigapEnrollees} Medigap enrollees - from
             Detroit to the Upper Peninsula.
           </p>
 
@@ -401,7 +401,7 @@ export default function MichiganPageContent() {
                 High-Deductible Plan G (HDG) is a popular option in Michigan for
                 budget-conscious enrollees. It offers the same comprehensive coverage as
                 standard Plan G, but you pay a $2,870 deductible in 2026 before the plan
-                pays anything. In exchange, monthly premiums can be as low as $40-60/mo —
+                pays anything. In exchange, monthly premiums can be as low as $40-60/mo -
                 significantly less than standard Plan G. HDG is worth considering if you
                 are generally healthy and have savings to cover the deductible.{" "}
                 <strong>Mutual of Omaha offers HDG in Michigan.</strong>
@@ -443,7 +443,7 @@ export default function MichiganPageContent() {
           <p className="text-slate-700 text-base leading-relaxed mb-4">
             Nearly 375,000 people in Michigan have Medicare Supplement Insurance, or
             Medigap. Michigan is home to one of the most competitive Medigap markets in
-            the Midwest — Plan G starts at just $99 per month in Grand Rapids, and over
+            the Midwest - Plan G starts at just $99 per month in Grand Rapids, and over
             30 carriers are licensed to sell Medigap in the state. Detroit, Grand Rapids,
             Ann Arbor, and Lansing each have slightly different premium ranges, so your
             ZIP code matters when comparing rates.
@@ -496,7 +496,7 @@ export default function MichiganPageContent() {
           <p className="text-slate-600 mb-6">
             Sample monthly premiums from our top-scoring carriers. Rates shown are for a
             65-year-old female nonsmoker in Grand Rapids and include available household
-            discounts. Michigan uses attained-age rating — premiums will increase as you
+            discounts. Michigan uses attained-age rating - premiums will increase as you
             age. Detroit and Ann Arbor rates may be slightly higher.
           </p>
 
@@ -727,14 +727,14 @@ export default function MichiganPageContent() {
             tip={
               <>
                 <strong>
-                  In Michigan, the cheapest Plan G is $99/mo from HealthSpring — but
+                  In Michigan, the cheapest Plan G is $99/mo from HealthSpring - but
                   their complaint rate is far higher than expected.
                 </strong>{" "}
                 Wellabe at $113/mo offers a much better complaint record for just $14
                 more per month. Also worth knowing: BCBS Michigan (not in our top 5)
                 dominates the state&apos;s health insurance market and is worth getting a
                 quote from. And if you are generally healthy and want to minimize monthly
-                costs, ask about High-Deductible Plan G from Mutual of Omaha — premiums
+                costs, ask about High-Deductible Plan G from Mutual of Omaha - premiums
                 can be as low as $40-60/mo, though you will pay a $2,870 deductible
                 before coverage kicks in. Always get at least 3 quotes before enrolling.
               </>
@@ -805,14 +805,14 @@ export default function MichiganPageContent() {
               <Zap className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  High-Deductible Plan G — A Unique Michigan Option
+                  High-Deductible Plan G - A Unique Michigan Option
                 </p>
                 <p className="text-sm text-slate-600">
                   High-Deductible Plan G (HDG) is available in Michigan and is
                   particularly popular among budget-conscious enrollees. HDG offers the
                   same coverage as standard Plan G, but requires you to pay a $2,870
                   deductible in 2026 before the plan pays anything. Monthly premiums for
-                  HDG can be as low as $40-60/mo — significantly less than standard Plan
+                  HDG can be as low as $40-60/mo - significantly less than standard Plan
                   G. Mutual of Omaha is the leading HDG carrier in Michigan.
                 </p>
               </div>
@@ -822,7 +822,7 @@ export default function MichiganPageContent() {
               <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  MMAP — Free Medicare Counseling
+                  MMAP - Free Medicare Counseling
                 </p>
                 <p className="text-sm text-slate-600">
                   MMAP (Medicare/Medicaid Assistance Program) is Michigan&apos;s State
@@ -838,7 +838,7 @@ export default function MichiganPageContent() {
               <Building2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  BCBS Michigan — The Dominant Local Carrier
+                  BCBS Michigan - The Dominant Local Carrier
                 </p>
                 <p className="text-sm text-slate-600">
                   Blue Cross Blue Shield of Michigan is the dominant health insurer in
@@ -947,7 +947,7 @@ export default function MichiganPageContent() {
             <p className="text-slate-300 mb-6 max-w-2xl">
               Michigan has a competitive Medigap market with Plan G starting at just
               $99/mo in Grand Rapids. Enter your ZIP code to see exact rates from all
-              available carriers in your area — and remember, your Open Enrollment Period
+              available carriers in your area - and remember, your Open Enrollment Period
               is the best time to lock in coverage without medical underwriting.
             </p>
             <div className="flex flex-wrap gap-3">

@@ -4,7 +4,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Virginia 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Virginia for 2026. Virginia has a birthday rule (effective July 1, 2025) — switch carriers annually without underwriting. See Plan G rates from $100/mo in Richmond.",
+    "Compare the best Medicare Supplement plans in Virginia for 2026. Virginia has a birthday rule (effective July 1, 2025) - switch carriers annually without underwriting. See Plan G rates from $100/mo in Richmond.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplements/virginia/",
   },

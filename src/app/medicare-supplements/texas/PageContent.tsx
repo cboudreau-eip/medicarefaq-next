@@ -637,7 +637,7 @@ export default function TexasPageContent() {
         </div>
       </section>
 
-      {/* Eddie Pro Tip — placed between Plan G vs N table and Texas Rules */}
+      {/* Eddie Pro Tip - placed between Plan G vs N table and Texas Rules */}
       <section className="py-0 pb-2">
         <div className="container max-w-4xl">
           <EddieProTip
@@ -647,8 +647,8 @@ export default function TexasPageContent() {
                 Illinois, Texas does not give you an annual window to switch Medigap plans
                 without medical underwriting. The Texas Department of Insurance (TDI) regulates
                 Medigap, but there is no state law requiring carriers to accept you outside
-                your initial Open Enrollment Period. That 6-month window — starting when you
-                turn 65 and enroll in Part B — is your best chance to lock in the right plan
+                your initial Open Enrollment Period. That 6-month window - starting when you
+                turn 65 and enroll in Part B - is your best chance to lock in the right plan
                 at the best rate, no health questions asked.
               </>
             }

@@ -3,7 +3,7 @@
  * Source: CMS Medicare Plan Finder, AM Best, NAIC, NerdWallet (2026),
  *         NC Department of Insurance, AHIP State of Medicare Supplement Coverage 2026
  * Sample premiums: 65-year-old female nonsmoker in Greensboro, NC
- * NOTE: North Carolina uses attained-age rating — premiums increase as you age.
+ * NOTE: North Carolina uses attained-age rating - premiums increase as you age.
  * Key differentiators: Highest Plan G adoption (49%), USAA in top 5 (military presence),
  *                      Wellabe is cheapest at $113/mo, fast-growing retirement destination.
  * MedicareFAQ Score methodology: weighted composite of financial strength,
@@ -44,15 +44,15 @@ export const NC_CARRIERS: NCCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount available",
     pros: [
-      "Highest AM Best financial rating (A++) — superior financial strength",
-      "Excellent complaint record — far fewer than expected",
+      "Highest AM Best financial rating (A++) - superior financial strength",
+      "Excellent complaint record - far fewer than expected",
       "Broad plan selection (6 plan types including Plan D)",
       "Strong local agent network throughout North Carolina",
     ],
     cons: [
       "Plan G ($153/mo) and Plan N ($116/mo) are the highest premiums among our top NC picks",
       "Below-average premium discounts compared to competitors",
-      "Must work through a State Farm agent — no direct online enrollment",
+      "Must work through a State Farm agent - no direct online enrollment",
     ],
     yearFounded: 1922,
     headquartersState: "Illinois",
@@ -72,13 +72,13 @@ export const NC_CARRIERS: NCCarrier[] = [
     discounts: "Household, payment mode, and loyalty discounts",
     pros: [
       "Most plan options available in NC (8 plan types)",
-      "Excellent complaint record — far fewer than expected",
+      "Excellent complaint record - far fewer than expected",
       "Second-largest Medigap insurer in North Carolina (25.5% market share)",
-      "Competitive Plan G pricing at $117/mo — strong value vs. service quality",
+      "Competitive Plan G pricing at $117/mo - strong value vs. service quality",
     ],
     cons: [
       "AARP membership required ($15–$20/year)",
-      "Plan N premium ($84/mo) is mid-range — not the absolute lowest",
+      "Plan N premium ($84/mo) is mid-range - not the absolute lowest",
       "Rate increases can be above average over time",
     ],
     yearFounded: 1977,
@@ -99,7 +99,7 @@ export const NC_CARRIERS: NCCarrier[] = [
     discounts: "Household discount available",
     pros: [
       "Lowest Plan G ($113/mo) and Plan N ($83/mo) among our top NC picks",
-      "Better complaint record than HealthSpring — close to expected",
+      "Better complaint record than HealthSpring - close to expected",
       "Good balance of price and quality for cost-conscious enrollees",
       "Available statewide in North Carolina",
     ],
@@ -125,13 +125,13 @@ export const NC_CARRIERS: NCCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount (up to 12%), annual payment discount",
     pros: [
-      "Generous household discount (up to 12%) — among the highest available",
+      "Generous household discount (up to 12%) - among the highest available",
       "Strong financial rating (A+)",
-      "Excellent complaint record — far fewer than expected",
+      "Excellent complaint record - far fewer than expected",
       "Third-largest Medigap insurer in North Carolina (15.3% market share)",
     ],
     cons: [
-      "Plan G ($135/mo) is mid-range — not the cheapest option",
+      "Plan G ($135/mo) is mid-range - not the cheapest option",
       "Fewer plan options (4 plan types)",
       "No multi-policy discount",
     ],
@@ -158,7 +158,7 @@ export const NC_CARRIERS: NCCarrier[] = [
       "Above-average discounts available",
     ],
     cons: [
-      "Far more complaints than expected — highest complaint rate among our top NC picks",
+      "Far more complaints than expected - highest complaint rate among our top NC picks",
       "Fewer plan options (4 plan types)",
       "Customer service quality concerns reflected in complaint data",
     ],
@@ -219,20 +219,20 @@ export const NC_STATS = {
   hasCommunityRating: false,
   hasGuaranteedIssueYearRound: false,
   hasBirthdayRule: false,
-  ratingType: "Attained-age — premiums increase as you age",
+  ratingType: "Attained-age - premiums increase as you age",
   freeLookPeriod: "30 days",
   partBDeductible2026: "$283",
   partADeductible2026: "$1,736",
-  mostPopularPlan: "Plan G (49%) — highest Plan G adoption of any state we've reviewed",
+  mostPopularPlan: "Plan G (49%) - highest Plan G adoption of any state we've reviewed",
   shipName: "SHIIP (Medicare and Seniors' Health Insurance Information Program)",
-  militaryNote: "Large military/veteran community — Fort Liberty (Bragg), Camp Lejeune, Seymour Johnson AFB",
+  militaryNote: "Large military/veteran community - Fort Liberty (Bragg), Camp Lejeune, Seymour Johnson AFB",
 };
 
 export const NC_FAQS = [
   {
     question: "What is the best Medicare Supplement plan in North Carolina?",
     answer:
-      "Plan G is the most popular Medicare Supplement plan in North Carolina, with 49% of Medigap enrollees choosing it — the highest Plan G adoption rate of any state we've reviewed. Plan G covers all out-of-pocket costs except the annual Part B deductible ($283 in 2026). State Farm, AARP/UnitedHealthcare, and Wellabe are consistently top-rated carriers in NC.",
+      "Plan G is the most popular Medicare Supplement plan in North Carolina, with 49% of Medigap enrollees choosing it - the highest Plan G adoption rate of any state we've reviewed. Plan G covers all out-of-pocket costs except the annual Part B deductible ($283 in 2026). State Farm, AARP/UnitedHealthcare, and Wellabe are consistently top-rated carriers in NC.",
   },
   {
     question: "How much does Medigap Plan G cost in North Carolina?",
@@ -252,12 +252,12 @@ export const NC_FAQS = [
   {
     question: "What is SHIIP in North Carolina?",
     answer:
-      "SHIIP stands for Medicare and Seniors' Health Insurance Information Program — North Carolina's version of the federal SHIP program. SHIIP provides free, unbiased Medicare counseling from trained volunteers. Counselors can help you compare Medigap plans, understand your options, and navigate enrollment at no cost.",
+      "SHIIP stands for Medicare and Seniors' Health Insurance Information Program - North Carolina's version of the federal SHIP program. SHIIP provides free, unbiased Medicare counseling from trained volunteers. Counselors can help you compare Medigap plans, understand your options, and navigate enrollment at no cost.",
   },
   {
     question: "Why does North Carolina have such high Plan G adoption?",
     answer:
-      "North Carolina has the highest Plan G adoption rate of any state we've reviewed at 49%. This reflects the state's large and growing retirement population — Charlotte, Raleigh, and Asheville are among the most popular retirement destinations in the Southeast. Plan G is the most comprehensive Medigap option available to new enrollees, and NC's competitive pricing makes it an attractive choice.",
+      "North Carolina has the highest Plan G adoption rate of any state we've reviewed at 49%. This reflects the state's large and growing retirement population - Charlotte, Raleigh, and Asheville are among the most popular retirement destinations in the Southeast. Plan G is the most comprehensive Medigap option available to new enrollees, and NC's competitive pricing makes it an attractive choice.",
   },
   {
     question: "What is the difference between Plan G and Plan N in North Carolina?",

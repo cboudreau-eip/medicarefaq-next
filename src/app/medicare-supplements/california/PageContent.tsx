@@ -293,7 +293,7 @@ export default function CaliforniaPageContent() {
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
             We compared {CALIFORNIA_STATS.numberOfCarriers} Medigap carriers in California based on
-            pricing, financial strength, complaint records, and more — including California&apos;s
+            pricing, financial strength, complaint records, and more - including California&apos;s
             unique birthday rule that lets you switch carriers every year.
           </p>
 
@@ -316,7 +316,7 @@ export default function CaliforniaPageContent() {
             <div className="flex items-center gap-2 text-sm text-slate-300">
               <Gift className="w-4 h-4 text-amber-400" />
               <span>
-                <strong className="text-white">Birthday rule</strong> — switch carriers annually
+                <strong className="text-white">Birthday rule</strong> - switch carriers annually
               </span>
             </div>
           </div>
@@ -398,7 +398,7 @@ export default function CaliforniaPageContent() {
               <p className="text-sm text-amber-800 leading-relaxed max-w-3xl">
                 California&apos;s birthday rule (effective July 1, 2020) gives you a{" "}
                 <strong>60-day window starting on your birthday each year</strong> to switch
-                your Medigap plan to a different carrier — no health questions, no medical
+                your Medigap plan to a different carrier - no health questions, no medical
                 underwriting. You can switch to any carrier offering a plan with{" "}
                 <strong>equal or lesser benefits</strong> (e.g., Plan G to Plan G at a lower
                 premium, or Plan G to Plan N). This is a major advantage over most states,
@@ -419,7 +419,7 @@ export default function CaliforniaPageContent() {
                 Nearly 600,000 Californians have Medicare Supplement Insurance, or Medigap.
                 Medigap plans help cover certain out-of-pocket expenses like copays, coinsurance,
                 and deductibles left over after Medicare pays for covered services. With over
-                7 million Medicare beneficiaries — the largest Medicare population in the country —
+                7 million Medicare beneficiaries - the largest Medicare population in the country -
                 California is one of the most competitive Medigap markets in the United States.
               </p>
               <p className="text-slate-700 text-base leading-relaxed">
@@ -667,7 +667,7 @@ export default function CaliforniaPageContent() {
         </div>
       </section>
 
-      {/* Eddie Pro Tip — placed between Plan G vs N table and California Rules */}
+      {/* Eddie Pro Tip - placed between Plan G vs N table and California Rules */}
       <section className="py-0 pb-2">
         <div className="container max-w-4xl">
           <EddieProTip
@@ -675,7 +675,7 @@ export default function CaliforniaPageContent() {
               <>
                 <strong>California&apos;s birthday rule is your annual rate-shopping window.</strong>{" "}
                 Every year, starting on your birthday, you have 60 days to switch your Medigap
-                plan to a different carrier — no health questions asked. The catch: you can only
+                plan to a different carrier - no health questions asked. The catch: you can only
                 switch to a plan with equal or lesser benefits. That means you can move from
                 Plan G at one carrier to Plan G at another (same coverage, potentially lower
                 premium), but you cannot use the birthday rule to upgrade from Plan N to Plan G.
@@ -707,7 +707,7 @@ export default function CaliforniaPageContent() {
                 <p className="text-sm text-slate-600">
                   California law gives current Medigap policyholders a 60-day window starting
                   on their birthday each year to switch to any carrier offering a plan with
-                  equal or lesser benefits — without medical underwriting. You can switch
+                  equal or lesser benefits - without medical underwriting. You can switch
                   from Plan G at one carrier to Plan G at a lower-priced carrier, or from
                   Plan G to Plan N. You cannot use the birthday rule to upgrade to a more
                   comprehensive plan. This rule applies only to those already enrolled in a
@@ -755,8 +755,8 @@ export default function CaliforniaPageContent() {
                   Largest Medicare Market in the Country
                 </p>
                 <p className="text-sm text-slate-600">
-                  With {CALIFORNIA_STATS.totalMedicareEnrollees} Medicare beneficiaries —
-                  the most of any state — California is the largest Medigap market in the
+                  With {CALIFORNIA_STATS.totalMedicareEnrollees} Medicare beneficiaries -
+                  the most of any state - California is the largest Medigap market in the
                   country. This means more than {CALIFORNIA_STATS.numberOfCarriers} carriers
                   compete for your business, resulting in competitive premiums and more plan
                   options than most states.
@@ -838,7 +838,7 @@ export default function CaliforniaPageContent() {
             <p className="text-slate-300 mb-6 max-w-2xl">
               Medigap premiums vary significantly by ZIP code in California. Enter yours to see
               exact rates from all available carriers, compare plans side by side, and find
-              the best value for your coverage needs — especially before your birthday window opens.
+              the best value for your coverage needs - especially before your birthday window opens.
             </p>
             <div className="flex flex-wrap gap-3">
               <ZipFormModal

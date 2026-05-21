@@ -299,7 +299,7 @@ export default function MissouriPageContent() {
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
             We compared {missouriStats.totalCarriers} Medigap carriers in Missouri based on
-            pricing, financial strength, complaint records, and more — including Missouri&apos;s
+            pricing, financial strength, complaint records, and more - including Missouri&apos;s
             Anniversary Rule that lets you switch carriers every year without underwriting.
           </p>
 
@@ -322,7 +322,7 @@ export default function MissouriPageContent() {
             <div className="flex items-center gap-2 text-sm text-slate-300">
               <RefreshCw className="w-4 h-4 text-blue-300" />
               <span>
-                <strong className="text-white">Anniversary Rule</strong> — switch carriers annually
+                <strong className="text-white">Anniversary Rule</strong> - switch carriers annually
               </span>
             </div>
           </div>
@@ -395,7 +395,7 @@ export default function MissouriPageContent() {
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <h2 className="text-lg font-bold text-blue-900">
-                  Missouri Has the Anniversary Rule — Not the Birthday Rule
+                  Missouri Has the Anniversary Rule - Not the Birthday Rule
                 </h2>
                 <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-200 text-blue-800">
                   Key Advantage
@@ -405,7 +405,7 @@ export default function MissouriPageContent() {
                 Missouri&apos;s Anniversary Rule gives you a{" "}
                 <strong>60-day window (30 days before and 30 days after)</strong> your Medigap
                 policy&apos;s annual enrollment anniversary date to switch to a different carrier
-                — no health questions, no medical underwriting. Unlike California&apos;s birthday
+                - no health questions, no medical underwriting. Unlike California&apos;s birthday
                 rule (which is tied to your birthday), Missouri&apos;s rule is tied to the{" "}
                 <strong>date you first enrolled in your Medigap plan</strong>. You can switch
                 to any carrier offering a plan with <strong>equal benefits</strong> (e.g., Plan G
@@ -669,7 +669,7 @@ export default function MissouriPageContent() {
                 <strong>Missouri&apos;s Anniversary Rule is your annual rate-shopping window.</strong>{" "}
                 Mark your Medigap policy start date on your calendar. Each year, 30 days before
                 and 30 days after that anniversary, you can switch to the same plan type at a
-                lower-priced carrier — no health questions asked. Unlike California&apos;s birthday
+                lower-priced carrier - no health questions asked. Unlike California&apos;s birthday
                 rule, the window is tied to when you <em>enrolled</em>, not when you were born.
                 The catch: you can only switch to a plan with equal benefits (Plan G → Plan G).
                 Use this window every year to make sure you&apos;re not overpaying.
@@ -797,7 +797,7 @@ export default function MissouriPageContent() {
             <p className="text-slate-300 mb-6 max-w-2xl">
               Medigap premiums vary significantly by ZIP code in Missouri. Enter yours to see
               exact rates from all available carriers, compare plans side by side, and find
-              the best value — especially before your Anniversary Rule window opens.
+              the best value - especially before your Anniversary Rule window opens.
             </p>
             <div className="flex flex-wrap gap-3">
               <ZipFormModal

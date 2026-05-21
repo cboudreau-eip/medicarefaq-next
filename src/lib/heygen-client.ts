@@ -3,14 +3,14 @@
  *
  * HeyGen API integration for submitting video generation jobs.
  *
- * STATUS: Stubbed — ready to activate once HEYGEN_API_KEY is set in Vercel.
+ * STATUS: Stubbed - ready to activate once HEYGEN_API_KEY is set in Vercel.
  *
  * HeyGen API docs: https://docs.heygen.com/reference/video-generate
  *
  * Required environment variables (set in Vercel):
- *   HEYGEN_API_KEY      — Your HeyGen API key (Settings → API in HeyGen dashboard)
- *   HEYGEN_AVATAR_ID    — Avatar ID to use (from HeyGen → Avatars)
- *   HEYGEN_VOICE_ID     — Voice ID to use (from HeyGen → Voices)
+ *   HEYGEN_API_KEY      - Your HeyGen API key (Settings → API in HeyGen dashboard)
+ *   HEYGEN_AVATAR_ID    - Avatar ID to use (from HeyGen → Avatars)
+ *   HEYGEN_VOICE_ID     - Voice ID to use (from HeyGen → Voices)
  */
 
 export interface HeyGenJobInput {
@@ -25,7 +25,7 @@ export interface HeyGenJobInput {
 export interface HeyGenJobResult {
   /** Whether the job was successfully submitted */
   submitted: boolean;
-  /** HeyGen video ID — use this to poll for completion */
+  /** HeyGen video ID - use this to poll for completion */
   videoId?: string;
   /** Error message if submission failed */
   error?: string;
@@ -66,7 +66,7 @@ export async function submitHeyGenJob(
 
   // ── Dry-run mode (no API key configured) ────────────────────────────────────
   if (!apiKey) {
-    console.log("[HeyGen] DRY RUN — HEYGEN_API_KEY not set. Would submit:", {
+    console.log("[HeyGen] DRY RUN - HEYGEN_API_KEY not set. Would submit:", {
       title: input.title,
       scriptWordCount: input.script.split(/\s+/).length,
       avatarId,

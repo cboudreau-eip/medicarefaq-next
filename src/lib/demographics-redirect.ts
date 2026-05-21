@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Medicare Compared — Demographics App Redirect
+ * Medicare Compared - Demographics App Redirect
  *
  * Ported from the provided demographics-redirect.js script into a
  * TypeScript module for use in the Next.js app.
@@ -125,7 +125,7 @@ function buildPayload(
     leadStatus: "New",
     leadSubStatus: "",
 
-    // UTM / click params — forwarded from page URL as-is
+    // UTM / click params - forwarded from page URL as-is
     utm_source: qp.utm_source || "direct",
     utm_medium: qp.utm_medium || "search",
     utm_campaign: qp.utm_campaign || "",

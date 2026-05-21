@@ -95,7 +95,7 @@ export const MI_CARRIERS: MICarrier[] = [
       "Limited local agent presence in Michigan",
     ],
     discounts: "Household discount available",
-    complaintRecord: "Far higher than expected (NAIC) — use with caution",
+    complaintRecord: "Far higher than expected (NAIC) - use with caution",
   },
   {
     id: "mutual-of-omaha",
@@ -110,7 +110,7 @@ export const MI_CARRIERS: MICarrier[] = [
     pros: [
       "Industry-leading household discount (up to 12%)",
       "A+ AM Best rating for financial strength",
-      "Excellent customer service — U.S.-based call centers",
+      "Excellent customer service - U.S.-based call centers",
       "Strong reputation for claims processing",
       "High-Deductible Plan G available",
     ],
@@ -118,7 +118,7 @@ export const MI_CARRIERS: MICarrier[] = [
       "Premiums are mid-range, not the lowest in Michigan",
       "Slightly more complaints than State Farm",
     ],
-    discounts: "Household discount up to 12% — best in class",
+    discounts: "Household discount up to 12% - best in class",
     complaintRecord: "Slightly more than expected (NAIC)",
   },
   {
@@ -176,7 +176,7 @@ export const MI_FAQS = [
   {
     question: "How much does Plan G cost in Michigan?",
     answer:
-      "Plan G premiums in Michigan start at $99/mo for a 65-year-old female nonsmoker in Grand Rapids (HealthSpring/Cigna). The average across top-rated carriers is around $128/mo. Premiums vary by city — Detroit and Ann Arbor tend to be slightly higher than Grand Rapids or Lansing. Michigan uses attained-age rating, so premiums increase as you age.",
+      "Plan G premiums in Michigan start at $99/mo for a 65-year-old female nonsmoker in Grand Rapids (HealthSpring/Cigna). The average across top-rated carriers is around $128/mo. Premiums vary by city - Detroit and Ann Arbor tend to be slightly higher than Grand Rapids or Lansing. Michigan uses attained-age rating, so premiums increase as you age.",
   },
   {
     question: "Does Michigan have a birthday rule?",
@@ -186,12 +186,12 @@ export const MI_FAQS = [
   {
     question: "What is the cheapest Medicare Supplement plan in Michigan?",
     answer:
-      "HealthSpring (Cigna) offers the lowest Plan G premium in Michigan at $99/mo in Grand Rapids. However, HealthSpring has a far-higher-than-expected complaint rate. Wellabe at $113/mo offers a better balance of low cost and service quality. High-Deductible Plan G is another budget option — it has a lower monthly premium but requires you to pay a $2,870 deductible in 2026 before full coverage kicks in.",
+      "HealthSpring (Cigna) offers the lowest Plan G premium in Michigan at $99/mo in Grand Rapids. However, HealthSpring has a far-higher-than-expected complaint rate. Wellabe at $113/mo offers a better balance of low cost and service quality. High-Deductible Plan G is another budget option - it has a lower monthly premium but requires you to pay a $2,870 deductible in 2026 before full coverage kicks in.",
   },
   {
     question: "Can I switch Medigap plans in Michigan?",
     answer:
-      "After your 6-month Open Enrollment Period, you can apply to switch Medigap plans, but carriers can deny coverage or charge more based on your health history. Michigan does not have a birthday rule or guaranteed issue outside of specific qualifying events. This is why enrolling during your OEP at 65 is so important — it is the only time carriers cannot deny you coverage.",
+      "After your 6-month Open Enrollment Period, you can apply to switch Medigap plans, but carriers can deny coverage or charge more based on your health history. Michigan does not have a birthday rule or guaranteed issue outside of specific qualifying events. This is why enrolling during your OEP at 65 is so important - it is the only time carriers cannot deny you coverage.",
   },
   {
     question: "What is MMAP and how can it help me?",
@@ -206,7 +206,7 @@ export const MI_FAQS = [
   {
     question: "What is High-Deductible Plan G and is it worth it in Michigan?",
     answer:
-      "High-Deductible Plan G (HDG) offers the same coverage as standard Plan G, but you pay a $2,870 deductible in 2026 before the plan pays anything. In exchange, the monthly premium is significantly lower — often $40-60/mo in Michigan. HDG is worth considering if you are generally healthy, have savings to cover the deductible, and want to minimize monthly costs. Mutual of Omaha offers HDG in Michigan.",
+      "High-Deductible Plan G (HDG) offers the same coverage as standard Plan G, but you pay a $2,870 deductible in 2026 before the plan pays anything. In exchange, the monthly premium is significantly lower - often $40-60/mo in Michigan. HDG is worth considering if you are generally healthy, have savings to cover the deductible, and want to minimize monthly costs. Mutual of Omaha offers HDG in Michigan.",
   },
 ];
 

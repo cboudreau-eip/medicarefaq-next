@@ -302,7 +302,7 @@ export default function GeorgiaPageContent() {
             Best Medicare Supplement Plans in Georgia 2026
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
-            Georgia has over {STATE_STATS.enrollees} Medigap enrollees — Plan G starts
+            Georgia has over {STATE_STATS.enrollees} Medigap enrollees - Plan G starts
             at just {STATE_STATS.lowestPlanG} in Atlanta. We compared{" "}
             {STATE_STATS.carriers} carriers to find the best coverage for the Peach
             State&apos;s growing Medicare population.
@@ -385,7 +385,7 @@ export default function GeorgiaPageContent() {
               </p>
               <p className="text-sm text-emerald-800">
                 Georgia&apos;s total Medicare population has grown to nearly{" "}
-                <strong>1.9 million</strong> — driven by retirees moving to Atlanta
+                <strong>1.9 million</strong> - driven by retirees moving to Atlanta
                 suburbs, the North Georgia mountains, and the coast. With over{" "}
                 <strong>372,500 Medigap enrollees</strong> and Plan G starting at just{" "}
                 <strong>{STATE_STATS.lowestPlanG}/mo</strong> in Atlanta, Georgia offers
@@ -430,7 +430,7 @@ export default function GeorgiaPageContent() {
           <p className="text-slate-700 text-base leading-relaxed mb-4">
             More than 372,500 people in Georgia have Medicare Supplement Insurance, or
             Medigap. Georgia is one of the fastest-growing retirement states in the South
-            — Atlanta, Savannah, and the North Georgia mountains attract thousands of
+            - Atlanta, Savannah, and the North Georgia mountains attract thousands of
             retirees each year. With over 30 carriers licensed in the state, Georgia
             offers a competitive Medigap market where Plan G starts at just $118 per
             month in Atlanta.
@@ -442,7 +442,7 @@ export default function GeorgiaPageContent() {
             premiums increase as you age, so enrolling during your 6-month Open
             Enrollment Period at age 65 is the best way to lock in the lowest possible
             rate. Unlike California or Missouri, Georgia has no birthday rule or
-            anniversary rule — your OEP is your primary guaranteed-issue window.
+            anniversary rule - your OEP is your primary guaranteed-issue window.
           </p>
         </div>
       </section>
@@ -482,7 +482,7 @@ export default function GeorgiaPageContent() {
           <p className="text-slate-600 mb-6">
             Sample monthly premiums from top carriers in Atlanta. Rates shown are for a
             65-year-old female nonsmoker and may include available household discounts.
-            Georgia uses attained-age rating — premiums will increase as you age.
+            Georgia uses attained-age rating - premiums will increase as you age.
             Savannah, Augusta, and Columbus rates may differ slightly.
           </p>
 
@@ -704,16 +704,16 @@ export default function GeorgiaPageContent() {
             tip={
               <>
                 <strong>
-                  In Georgia, Cigna/HealthSpring is cheapest at $118/mo — but Wellabe at
+                  In Georgia, Cigna/HealthSpring is cheapest at $118/mo - but Wellabe at
                   $126/mo is the better value.
                 </strong>{" "}
                 HealthSpring has a far-higher-than-expected complaint ratio nationally.
                 Wellabe offers Plan G at $126/mo with a much cleaner complaint record and
                 stable rate history. Also worth noting: Humana has a strong local presence
-                in metro Atlanta and offers SilverSneakers fitness benefits — worth
+                in metro Atlanta and offers SilverSneakers fitness benefits - worth
                 comparing if you are an active retiree. Georgia has no birthday rule, so
-                your 6-month Open Enrollment Period at age 65 is your best — and often
-                only — chance to enroll without medical underwriting.
+                your 6-month Open Enrollment Period at age 65 is your best - and often
+                only - chance to enroll without medical underwriting.
               </>
             }
           />
@@ -840,7 +840,7 @@ export default function GeorgiaPageContent() {
             <p className="text-slate-300 mb-6 max-w-2xl">
               Georgia has a competitive Medigap market with over 30 carriers and Plan G
               starting at just $118/mo in Atlanta. Enter your ZIP code to see exact rates
-              from all available carriers in your area — and remember, your Open
+              from all available carriers in your area - and remember, your Open
               Enrollment Period is the best time to lock in coverage without medical
               underwriting.
             </p>

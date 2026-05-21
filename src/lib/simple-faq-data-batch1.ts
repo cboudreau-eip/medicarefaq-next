@@ -1,5 +1,5 @@
 /**
- * Simple FAQ Articles — Batch 1
+ * Simple FAQ Articles - Batch 1
  * Auto-generated from scraped medicarefaq.com content.
  * 50 articles.
  */
@@ -150,7 +150,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       { type: 'paragraph', content: 'The rules for creditable coverage differ depending on which part of Medicare you are delaying:' },
       { type: 'table', title: 'Creditable Coverage: Part B vs. Part D', headers: ['Medicare Part', 'What Counts as Creditable', 'What Does Not Count'], rows: [
         ['Part B (medical)', 'Active employer group health plan from a company with 20+ employees (your own or spouse\'s)', 'COBRA, retiree insurance, VA benefits, individual market plans, ACA marketplace plans'],
-        ['Part D (drugs)', 'Employer drug coverage that is actuarially equivalent to or better than standard Part D', 'Coverage that does not meet the actuarial standard — your employer must notify you each year'],
+        ['Part D (drugs)', 'Employer drug coverage that is actuarially equivalent to or better than standard Part D', 'Coverage that does not meet the actuarial standard - your employer must notify you each year'],
       ]},
       { type: 'callout', calloutType: 'warning', calloutTitle: 'Not All Employer Coverage Is Creditable for Part B', calloutText: 'If your employer has fewer than 20 employees, their group health plan is not considered creditable for Part B purposes. Medicare becomes your primary payer and you should enroll in Part B during your Initial Enrollment Period to avoid gaps and penalties.' },
       { type: 'heading', level: 2, text: 'How to Prove Creditable Coverage', id: 'how-to-prove' },
@@ -844,7 +844,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-and-the-8-minute-rule.jpg',
     },
     title: 'Medicare and the 8-Minute Rule',
-    summary: 'The Medicare 8-minute rule determines how physical therapists, occupational therapists, and other providers bill Medicare for timed therapeutic services. Understanding this rule helps you know how your Medicare coverage is charged for services you receive — and why your bill may show more units than you expected.',
+    summary: 'The Medicare 8-minute rule determines how physical therapists, occupational therapists, and other providers bill Medicare for timed therapeutic services. Understanding this rule helps you know how your Medicare coverage is charged for services you receive - and why your bill may show more units than you expected.',
     category: 'Medicare FAQ',
     datePublished: 'January 1, 2020',
     dateUpdated: 'May 5, 2026',
@@ -897,7 +897,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'The rule applies in all outpatient settings — including private therapy practices, hospital outpatient departments, skilled nursing facilities, and home health agencies — wherever timed CPT codes are billed to Medicare Part B.',
+        content: 'The rule applies in all outpatient settings - including private therapy practices, hospital outpatient departments, skilled nursing facilities, and home health agencies - wherever timed CPT codes are billed to Medicare Part B.',
       },
       {
         type: 'heading',
@@ -941,7 +941,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Because billing is based on units rather than a flat per-session rate, the number of units billed directly affects your out-of-pocket cost for each visit. A session with more timed procedures will generate more billable units — and a higher cost-sharing amount for you.',
+        content: 'Because billing is based on units rather than a flat per-session rate, the number of units billed directly affects your out-of-pocket cost for each visit. A session with more timed procedures will generate more billable units - and a higher cost-sharing amount for you.',
       },
       {
         type: 'paragraph',
@@ -973,7 +973,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Medicare Part B covers outpatient physical therapy, occupational therapy, and speech-language pathology services when they are medically necessary. There is no hard annual dollar cap on therapy services in 2026 — the therapy cap that existed prior to 2018 was permanently eliminated by the Bipartisan Budget Act of 2018.',
+        content: 'Medicare Part B covers outpatient physical therapy, occupational therapy, and speech-language pathology services when they are medically necessary. There is no hard annual dollar cap on therapy services in 2026 - the therapy cap that existed prior to 2018 was permanently eliminated by the Bipartisan Budget Act of 2018.',
       },
       {
         type: 'paragraph',
@@ -996,7 +996,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         faqs: [
           {
             question: 'Does the 8-minute rule affect how much I pay for physical therapy?',
-            answer: 'Yes. Because Medicare Part B pays 80% of the approved amount per billing unit, more units billed means a higher total cost — and a higher 20% coinsurance for you. A session with 3 billed units will cost more than a session with 1 unit. If you have a Medigap plan, it typically covers your 20% coinsurance, reducing your out-of-pocket cost to zero (after the Part B deductible).',
+            answer: 'Yes. Because Medicare Part B pays 80% of the approved amount per billing unit, more units billed means a higher total cost - and a higher 20% coinsurance for you. A session with 3 billed units will cost more than a session with 1 unit. If you have a Medigap plan, it typically covers your 20% coinsurance, reducing your out-of-pocket cost to zero (after the Part B deductible).',
           },
           {
             question: 'Can a provider bill for less than 8 minutes of a timed service?',
@@ -1012,7 +1012,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
           },
           {
             question: 'What is the difference between timed and untimed therapy codes?',
-            answer: 'Timed codes are billed per 15-minute unit and are subject to the 8-minute rule — examples include therapeutic exercise and manual therapy. Untimed (service-based) codes are billed once per session regardless of time — examples include evaluations and unattended electrical stimulation. Only timed codes are subject to the 8-minute billing calculation.',
+            answer: 'Timed codes are billed per 15-minute unit and are subject to the 8-minute rule - examples include therapeutic exercise and manual therapy. Untimed (service-based) codes are billed once per session regardless of time - examples include evaluations and unattended electrical stimulation. Only timed codes are subject to the 8-minute billing calculation.',
           }],
       }],
     relatedSlugs: ["medicare-coverage-for-physical-therapy", "scope-of-appointment", "medicare-prior-authorization", "understanding-medicare-assignment-what-it-means-and-why-it-matters"],

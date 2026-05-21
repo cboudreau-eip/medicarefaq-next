@@ -45,9 +45,9 @@ export const CARRIERS: Carrier[] = [
     planNMonthly: "$107",
     pros: [
       "Highest financial strength rating (A++) in the industry",
-      "Local agent network across Georgia — Atlanta, Savannah, Augusta",
+      "Local agent network across Georgia - Atlanta, Savannah, Augusta",
       "Exceptional claims satisfaction and customer service",
-      "Issue-age pricing available — premiums don't rise with age",
+      "Issue-age pricing available - premiums don't rise with age",
       "Household discount up to 10% when two people enroll",
     ],
     cons: [
@@ -70,7 +70,7 @@ export const CARRIERS: Carrier[] = [
       "Largest Medigap insurer in Georgia by enrollment",
       "Full plan alphabet: A, B, C, D, F, G, K, L, M, N",
       "AARP membership perks included with enrollment",
-      "Community-rated pricing in select markets — no age increases",
+      "Community-rated pricing in select markets - no age increases",
       "24/7 nurse line and wellness programs included",
     ],
     cons: [
@@ -90,19 +90,19 @@ export const CARRIERS: Carrier[] = [
     planGMonthly: "$145",
     planNMonthly: "$104",
     pros: [
-      "Household discount up to 12% — best in class",
+      "Household discount up to 12% - best in class",
       "Electronic funds transfer (EFT) discount available",
-      "A+ AM Best rating — excellent financial stability",
+      "A+ AM Best rating - excellent financial stability",
       "High-Deductible Plan G available at ~$45/mo",
       "Strong customer service reputation in Southeast",
     ],
     cons: [
       "Premiums increase with age (attained-age rating)",
       "Fewer local Georgia agents than State Farm",
-      "Online enrollment not available — must call or use agent",
+      "Online enrollment not available - must call or use agent",
     ],
     highlight:
-      "Mutual of Omaha's 12% household discount is the best available in Georgia — ideal for couples enrolling together.",
+      "Mutual of Omaha's 12% household discount is the best available in Georgia - ideal for couples enrolling together.",
   },
   {
     rank: 4,
@@ -113,14 +113,14 @@ export const CARRIERS: Carrier[] = [
     planGMonthly: "$135",
     planNMonthly: "$97",
     pros: [
-      "Strong Georgia market presence — especially metro Atlanta",
+      "Strong Georgia market presence - especially metro Atlanta",
       "SilverSneakers fitness benefit included",
-      "Competitive premiums — $135/mo Plan G in Atlanta",
+      "Competitive premiums - $135/mo Plan G in Atlanta",
       "Online enrollment available",
       "Dental/vision bundles available alongside Medigap",
     ],
     cons: [
-      "A- AM Best rating — lower than top competitors",
+      "A- AM Best rating - lower than top competitors",
       "Complaint ratio slightly above average nationally",
       "SilverSneakers benefit can be removed at renewal",
     ],
@@ -136,19 +136,19 @@ export const CARRIERS: Carrier[] = [
     planGMonthly: "$126",
     planNMonthly: "$91",
     pros: [
-      "Among the lowest Plan G premiums in Georgia — $126/mo",
+      "Among the lowest Plan G premiums in Georgia - $126/mo",
       "Stable rate history with modest annual increases",
-      "A- AM Best rating — solid financial standing",
+      "A- AM Best rating - solid financial standing",
       "Simple online application process",
       "Good option for healthy enrollees focused on cost",
     ],
     cons: [
-      "Smaller carrier — less name recognition than national brands",
+      "Smaller carrier - less name recognition than national brands",
       "Limited Georgia agent network",
       "Fewer plan types available compared to AARP/UHC",
     ],
     highlight:
-      "Wellabe offers the best balance of low premiums and stable rate history in Georgia — a smart pick for budget-conscious enrollees.",
+      "Wellabe offers the best balance of low premiums and stable rate history in Georgia - a smart pick for budget-conscious enrollees.",
   },
 ];
 
@@ -257,6 +257,6 @@ export const FAQS: FaqItem[] = [
   {
     question: "What is Georgia SHIP and how can it help me?",
     answer:
-      "Georgia SHIP (State Health Insurance Assistance Program) is a free, state-funded counseling service that helps Medicare beneficiaries navigate their options. SHIP counselors are unbiased volunteers — they don't sell insurance — and can help you compare Medigap plans, understand your rights, and avoid scams. Call 1-800-669-8387 or visit aging.georgia.gov/georgia-ship to schedule a free consultation.",
+      "Georgia SHIP (State Health Insurance Assistance Program) is a free, state-funded counseling service that helps Medicare beneficiaries navigate their options. SHIP counselors are unbiased volunteers - they don't sell insurance - and can help you compare Medigap plans, understand your rights, and avoid scams. Call 1-800-669-8387 or visit aging.georgia.gov/georgia-ship to schedule a free consultation.",
   },
 ];

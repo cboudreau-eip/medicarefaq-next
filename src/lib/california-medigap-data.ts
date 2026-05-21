@@ -42,11 +42,11 @@ export const CALIFORNIA_CARRIERS: CaliforniaCarrier[] = [
     pros: [
       "Highest financial strength rating (A++) in the industry",
       "Lowest Plan G and Plan N premiums among top-rated carriers in California",
-      "Excellent complaint record — far fewer complaints than expected",
+      "Excellent complaint record - far fewer complaints than expected",
       "Wide plan selection (6 plan types)",
     ],
     cons: [
-      "No online quote tool — must work through a local agent",
+      "No online quote tool - must work through a local agent",
       "Limited premium discount options compared to some competitors",
       "Not available in all California zip codes",
     ],
@@ -148,7 +148,7 @@ export const CALIFORNIA_CARRIERS: CaliforniaCarrier[] = [
     complaintRecord: "Far fewer than expected",
     discounts: "Household discount (up to 12%), annual payment discount",
     pros: [
-      "Generous household discount (up to 12% — among the highest in the industry)",
+      "Generous household discount (up to 12% - among the highest in the industry)",
       "Strong financial rating (A+)",
       "Excellent complaint record",
       "Competitive Plan N pricing in California",
@@ -233,12 +233,12 @@ export const CALIFORNIA_FAQS = [
   {
     question: "What is California's Medigap birthday rule?",
     answer:
-      "California's birthday rule, effective July 1, 2020, gives you a 60-day window starting on your birthday each year to switch your Medigap plan to a different carrier without medical underwriting. You must already be enrolled in a Medigap plan to use the birthday rule. The key limitation: you can only switch to a plan with equal or lesser benefits — for example, you can switch from Plan G at one carrier to Plan G at another (same benefits, potentially lower premium), or from Plan G to Plan N (lesser benefits). You cannot upgrade from Plan N to Plan G using the birthday rule.",
+      "California's birthday rule, effective July 1, 2020, gives you a 60-day window starting on your birthday each year to switch your Medigap plan to a different carrier without medical underwriting. You must already be enrolled in a Medigap plan to use the birthday rule. The key limitation: you can only switch to a plan with equal or lesser benefits - for example, you can switch from Plan G at one carrier to Plan G at another (same benefits, potentially lower premium), or from Plan G to Plan N (lesser benefits). You cannot upgrade from Plan N to Plan G using the birthday rule.",
   },
   {
     question: "Can I use the birthday rule to get a lower premium?",
     answer:
-      "Yes — that is the primary purpose of the birthday rule for most California beneficiaries. If you are on Plan G and find a carrier offering the same Plan G at a lower premium, you can switch during your 60-day birthday window without answering health questions. This is a significant advantage over states like Texas and Florida, where switching Medigap carriers after your initial enrollment period requires medical underwriting.",
+      "Yes - that is the primary purpose of the birthday rule for most California beneficiaries. If you are on Plan G and find a carrier offering the same Plan G at a lower premium, you can switch during your 60-day birthday window without answering health questions. This is a significant advantage over states like Texas and Florida, where switching Medigap carriers after your initial enrollment period requires medical underwriting.",
   },
   {
     question: "Can I switch Medigap plans in California outside of my birthday window?",

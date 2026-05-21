@@ -321,7 +321,7 @@ export default function IllinoisPageContent() {
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-6">
             Illinois has over {ILLINOIS_STATS.medigapEnrollees} Medigap enrollees
-            — one of the largest markets in the country. Plan G starts at{" "}
+            - one of the largest markets in the country. Plan G starts at{" "}
             {ILLINOIS_STATS.lowestPlanGPremium} in Chicago. We compared{" "}
             {ILLINOIS_STATS.numberOfCarriers} carriers to find the best coverage
             for Illinois seniors.
@@ -411,7 +411,7 @@ export default function IllinoisPageContent() {
               </p>
               <p className="text-sm text-blue-800">
                 BCBS of Illinois holds a remarkable{" "}
-                <strong>48.2% of the state&apos;s Medigap market</strong> — the
+                <strong>48.2% of the state&apos;s Medigap market</strong> - the
                 largest share of any single carrier in any state we&apos;ve
                 reviewed. While BCBS Illinois is not in NerdWallet&apos;s national
                 top-rated list, its dominant local presence, strong brand
@@ -456,7 +456,7 @@ export default function IllinoisPageContent() {
         <div className="container max-w-4xl">
           <p className="text-slate-700 text-base leading-relaxed mb-4">
             More than 750,000 people in Illinois have Medicare Supplement
-            Insurance, or Medigap — making Illinois one of the largest Medigap
+            Insurance, or Medigap - making Illinois one of the largest Medigap
             markets in the country. Plan G starts at $113 per month in Chicago
             for a 65-year-old female nonsmoker, offering strong value in a
             competitive market. Illinois has over 30 carriers licensed to sell
@@ -512,7 +512,7 @@ export default function IllinoisPageContent() {
           <p className="text-slate-600 mb-6">
             Sample monthly premiums from our top-scoring carriers. Rates shown
             are for a 65-year-old female nonsmoker in Chicago and include
-            available household discounts. Illinois uses attained-age rating —
+            available household discounts. Illinois uses attained-age rating -
             premiums will increase as you age. Rates in Springfield, Rockford,
             and other cities may differ.
           </p>
@@ -760,14 +760,14 @@ export default function IllinoisPageContent() {
               <>
                 <strong>
                   BCBS of Illinois holds 48.2% of the market but is not in the
-                  national top-rated lists — always compare it alongside national
+                  national top-rated lists - always compare it alongside national
                   carriers.
                 </strong>{" "}
                 HealthSpring offers the lowest Plan G in Chicago at $118/mo but
                 has a far-higher-than-expected complaint rate. Wellabe at $124/mo
                 is a better middle ground. If you are currently on Plan F, you
                 cannot switch to Plan G without passing medical underwriting after
-                your OEP ends — so if you are happy with your coverage, staying
+                your OEP ends - so if you are happy with your coverage, staying
                 put may be the right call. State Farm is headquartered in
                 Bloomington, IL, giving it a strong local agent presence
                 throughout the state.
@@ -860,7 +860,7 @@ export default function IllinoisPageContent() {
               <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
-                  Illinois SHIP — Free Medicare Counseling
+                  Illinois SHIP - Free Medicare Counseling
                 </p>
                 <p className="text-sm text-slate-600">
                   Illinois has a Senior Health Insurance Program (SHIP) that
@@ -970,7 +970,7 @@ export default function IllinoisPageContent() {
             <p className="text-slate-300 mb-6 max-w-2xl">
               Illinois has over 30 Medigap carriers competing for your business.
               Enter your ZIP code to see exact rates from all available carriers
-              in your area — and remember, your Open Enrollment Period is the
+              in your area - and remember, your Open Enrollment Period is the
               best time to lock in coverage without medical underwriting.
             </p>
             <div className="flex flex-wrap gap-3">
