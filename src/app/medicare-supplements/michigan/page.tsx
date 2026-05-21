@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SiteLayout from "@/components/SiteLayout";
 import MichiganPageContent from "./PageContent";
 
 export const metadata: Metadata = {
@@ -18,5 +19,9 @@ export const metadata: Metadata = {
 };
 
 export default function MichiganPage() {
-  return <MichiganPageContent />;
+  return (
+    <SiteLayout>
+      <MichiganPageContent />
+    </SiteLayout>
+  );
 }

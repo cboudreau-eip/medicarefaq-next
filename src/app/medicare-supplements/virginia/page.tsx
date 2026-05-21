@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
@@ -18,5 +19,9 @@ export const metadata: Metadata = {
 };
 
 export default function VirginiaPage() {
-  return <PageContent />;
+  return (
+    <SiteLayout>
+      <PageContent />
+    </SiteLayout>
+  );
 }
