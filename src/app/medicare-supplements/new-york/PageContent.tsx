@@ -714,7 +714,6 @@ export default function NewYorkPageContent() {
                 than most states. Shop rates regularly and switch when you find a better deal.
               </>
             }
-            variant="teal"
           />
         </div>
       </section>
