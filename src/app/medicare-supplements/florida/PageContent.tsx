@@ -399,25 +399,29 @@ export default function FloridaPageContent() {
               </p>
             </div>
 
-            {/* Eddie the Eagle avatar + pull-quote */}
-            <div className="flex-shrink-0 flex flex-col items-center gap-3 md:w-52">
-              <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-blue-900 shadow-lg bg-slate-100">
-                <img
-                  src="/eddie_eagle_arms_transparent.png"
-                  alt="Eddie the Eagle — MedicareFAQ mascot"
-                  className="w-full h-full object-cover object-top scale-110"
-                />
+          </div>
+
+          {/* Eddie Pro Tip callout */}
+          <div className="mt-8 flex items-start gap-4 bg-amber-50 border border-amber-200 rounded-2xl px-5 py-4 shadow-sm">
+            {/* Eddie avatar */}
+            <div className="flex-shrink-0 w-16 h-16 rounded-full overflow-hidden border-3 border-amber-400 shadow bg-white">
+              <img
+                src="/eddie_eagle_arms_transparent.png"
+                alt="Eddie the Eagle"
+                className="w-full h-full object-cover object-top scale-110"
+              />
+            </div>
+            {/* Tip content */}
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-200 px-2 py-0.5 rounded-full">💡 Eddie&rsquo;s Pro Tip</span>
               </div>
-              <div className="bg-blue-50 border border-blue-200 rounded-xl px-4 py-3 text-center">
-                <p className="text-sm text-blue-900 leading-snug italic">
-                  &ldquo;Florida has one of the most competitive Medigap markets in the
-                  country — that&rsquo;s great news for your wallet.&rdquo;
-                </p>
-                <p className="text-xs font-semibold text-blue-700 mt-2">Eddie the Eagle</p>
-                <p className="text-xs text-blue-500">MedicareFAQ Mascot</p>
-              </div>
+              <p className="text-sm text-slate-800 leading-relaxed">
+                <strong>Shop before your 65th birthday.</strong> During your Medigap Open Enrollment Period — the 6 months starting the month you turn 65 and enroll in Part B — insurance companies <em>cannot</em> deny you coverage or charge you more due to pre-existing conditions. After this window closes, you may face medical underwriting in Florida.
+              </p>
             </div>
           </div>
+
         </div>
       </section>
 
