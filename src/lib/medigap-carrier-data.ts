@@ -223,11 +223,11 @@ export const CARRIER_DATA: CarrierData[] = [
     shortName: "Blue Cross Blue Shield",
     amBestRating: "A to A+ (varies by plan)",
     founded: "1929",
-    hq: "Various (34 independent companies)",
+    hq: "Chicago, IL (BCBSA); 33 independent companies",
     statesAvailable: 50,
     popularPlans: ["G", "N", "F"],
     plans: plans(["A", "B", "C", "D", "F", "G", "HD-F", "HD-G", "K", "L", "M", "N"], { "C": "Availability varies by state plan" }),
-    overview: "Blue Cross Blue Shield (BCBS) is one of the most recognized names in American health insurance. BCBS Medicare Supplement plans are offered through a federation of 34 independent, locally operated companies that collectively provide coverage in all 50 states. Because each BCBS plan is independently operated, plan availability, pricing, and customer service can vary significantly by state. BCBS is known for its strong brand recognition and broad provider networks.",
+    overview: "Blue Cross Blue Shield (BCBS) is one of the most recognized names in American health insurance. BCBS Medicare Supplement plans are offered through a federation of 33 independent, locally operated companies that collectively provide coverage in all 50 states plus Washington, D.C. Because each BCBS company is independently operated, plan availability, pricing, and customer service can vary significantly by state. Note: Medigap plans do not use provider networks — any doctor who accepts Medicare will accept your BCBS Medigap plan.",
     strengths: [
       "One of the most recognized names in health insurance",
       "Available in all 50 states through local plans",
