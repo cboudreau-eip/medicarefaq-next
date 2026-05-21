@@ -28,6 +28,7 @@ import {
   BarChart3,
 } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
+import EddieProTip from "@/components/EddieProTip";
 import {
   FLORIDA_CARRIERS,
   FLORIDA_STATS,
@@ -401,27 +402,6 @@ export default function FloridaPageContent() {
 
           </div>
 
-          {/* Eddie Pro Tip callout */}
-          <div className="mt-8 flex items-start gap-4 bg-amber-50 border border-amber-200 rounded-2xl px-5 py-4 shadow-sm">
-            {/* Eddie avatar */}
-            <div className="flex-shrink-0 w-16 h-16 rounded-full overflow-hidden border-3 border-amber-400 shadow bg-white">
-              <img
-                src="/eddie_eagle_arms_transparent.png"
-                alt="Eddie the Eagle"
-                className="w-full h-full object-cover object-top scale-110"
-              />
-            </div>
-            {/* Tip content */}
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 mb-1">
-                <span className="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-200 px-2 py-0.5 rounded-full">💡 Eddie&rsquo;s Pro Tip</span>
-              </div>
-              <p className="text-sm text-slate-800 leading-relaxed">
-                <strong>Shop before your 65th birthday.</strong> During your Medigap Open Enrollment Period — the 6 months starting the month you turn 65 and enroll in Part B — insurance companies <em>cannot</em> deny you coverage or charge you more due to pre-existing conditions. After this window closes, you may face medical underwriting in Florida.
-              </p>
-            </div>
-          </div>
-
         </div>
       </section>
 
@@ -656,6 +636,23 @@ export default function FloridaPageContent() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Eddie Pro Tip — placed between Plan G vs N table and Florida Rules */}
+      <section className="py-0 pb-2">
+        <div className="container max-w-4xl">
+          <EddieProTip
+            tip={
+              <>
+                <strong>Florida has no birthday rule.</strong> Unlike California, Oregon, and
+                Illinois, Florida does not give you an annual window to switch Medigap plans
+                without medical underwriting. That means your initial Open Enrollment Period
+                — the 6 months after you turn 65 and enroll in Part B — is your best chance
+                to lock in the right plan at the best rate, no health questions asked.
+              </>
+            }
+          />
         </div>
       </section>
 
