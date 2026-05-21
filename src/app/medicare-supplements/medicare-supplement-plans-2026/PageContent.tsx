@@ -12,12 +12,12 @@ import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import ZipFormModal from "@/components/ZipFormModal";
 
 const COST_CHANGES_2026 = [
-  { item: "Part A Deductible", value2025: "$1,632", value2026: "$1,736", change: "+$44 (+2.7%)", impact: "Plans that cover Part A deductible (B, C, D, F, G, M, N, HD-F, HD-G) now cover $44 more per hospital admission." },
-  { item: "Part B Deductible", value2025: "$240", value2026: "$283", change: "+$17 (+7.1%)", impact: "Plans C and F cover this. All others require you to pay $283 before Part B coverage begins." },
-  { item: "HD Plan Deductible", value2025: "$2,800", value2026: "$2,950", change: "+$70 (+2.5%)", impact: "HD-G and HD-F enrollees must pay $2,950 before plan coverage begins." },
-  { item: "Plan K Out-of-Pocket Max", value2025: "$6,940", value2026: "$7,060", change: "+$120 (+1.7%)", impact: "Plan K enrollees have a higher cap before 100% coverage kicks in." },
-  { item: "Plan L Out-of-Pocket Max", value2025: "$3,470", value2026: "$3,530", change: "+$60 (+1.7%)", impact: "Plan L enrollees have a slightly higher OOP cap in 2026." },
-  { item: "SNF Coinsurance (Days 21–100)", value2025: "$209.50/day", value2026: "$217/day", change: "+$7.50/day", impact: "Plans that cover SNF coinsurance (C, D, F, G, M, N, HD-F, HD-G) cover this increased daily rate." },
+  { item: "Part A Deductible", value2025: "$1,676", value2026: "$1,736", change: "+$60 (+3.6%)", impact: "Plans that cover Part A deductible (B, C, D, F, G, M, N, HD-F, HD-G) now cover $60 more per hospital admission." },
+  { item: "Part B Deductible", value2025: "$257", value2026: "$283", change: "+$26 (+10.1%)", impact: "Plans C and F cover this. All others require you to pay $283 before Part B coverage begins." },
+  { item: "HD Plan Deductible", value2025: "$2,870", value2026: "$2,950", change: "+$80 (+2.8%)", impact: "HD-G and HD-F enrollees must pay $2,950 before plan coverage begins." },
+  { item: "Plan K Out-of-Pocket Max", value2025: "$7,060", value2026: "$8,000", change: "+$940 (+13.3%)", impact: "Plan K enrollees have a higher cap before 100% coverage kicks in." },
+  { item: "Plan L Out-of-Pocket Max", value2025: "$3,530", value2026: "$4,000", change: "+$470 (+13.3%)", impact: "Plan L enrollees have a higher OOP cap in 2026." },
+  { item: "SNF Coinsurance (Days 21–100)", value2025: "$209.50/day", value2026: "$217/day", change: "+$7.50/day (+3.6%)", impact: "Plans that cover SNF coinsurance (C, D, F, G, M, N, HD-F, HD-G) cover this increased daily rate." },
 ];
 
 const POPULAR_PLANS_2026 = [

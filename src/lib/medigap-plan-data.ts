@@ -525,7 +525,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     badge: "75% Coverage",
     badgeColor: "bg-amber-600",
     monthlyPremiumRange: "$80–$220/mo",
-    outOfPocketMax: "$3,530 (2026)",
+    outOfPocketMax: "$4,000 (2026)",
     bestFor: "Enrollees who want an out-of-pocket maximum with lower premiums than Plan G",
     notFor: "People who want comprehensive coverage without any cost-sharing",
     availableToNewEnrollees: true,
@@ -541,7 +541,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: `${SNF_COINSURANCE}`, covered: "partial", detail: "75% covered" },
       { benefit: "Foreign travel emergency", covered: "none" }],
     highlights: [
-      "Built-in out-of-pocket maximum ($3,530 in 2026)",
+      "Built-in out-of-pocket maximum ($4,000 in 2026)",
       "Covers 75% of most Medicare cost-sharing",
       "Lower premiums than Plan G or Plan N",
       "Once you hit the OOP max, Plan L covers 100% of covered costs",
@@ -561,17 +561,17 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     faqs: [
       {
         q: "What is the out-of-pocket maximum for Plan L in 2026?",
-        a: "The Plan L out-of-pocket maximum is $3,530 in 2026. Once you've paid this amount in covered cost-sharing, Plan L covers 100% of Medicare-approved costs for the rest of the calendar year.",
+        a: "The Plan L out-of-pocket maximum is $4,000 in 2026. Once you've paid this amount in covered cost-sharing, Plan L covers 100% of Medicare-approved costs for the rest of the calendar year.",
       },
       {
         q: "How does Plan L compare to Plan K?",
-        a: "Plan K covers 50% of most Medicare cost-sharing with a lower OOP max ($7,060 in 2026 — wait, Plan K OOP max is $7,060 and Plan L is $3,530). Plan L covers 75% and has a lower OOP max. Plan L offers more coverage but higher premiums than Plan K.",
+        a: "Plan K covers 50% of most Medicare cost-sharing with a higher OOP max ($8,000 in 2026). Plan L covers 75% and has a lower OOP max ($4,000 in 2026). Plan L offers more coverage but higher premiums than Plan K.",
       }],
     relatedPlans: ["plan-k", "plan-g", "plan-n"],
-    intro: "Medicare Supplement Plan L is one of two Medigap plans with a built-in out-of-pocket maximum. It covers 75% of most Medicare cost-sharing, and once you reach the annual out-of-pocket limit ($3,530 in 2026), the plan covers 100% of Medicare-approved costs for the rest of the year.",
+    intro: "Medicare Supplement Plan L is one of two Medigap plans with a built-in out-of-pocket maximum. It covers 75% of most Medicare cost-sharing, and once you reach the annual out-of-pocket limit ($4,000 in 2026), the plan covers 100% of Medicare-approved costs for the rest of the year.",
     detailParagraphs: [
-      "Plan L's defining feature is its out-of-pocket maximum. While you're responsible for 25% of most Medicare cost-sharing, your total exposure is capped at $3,530 per year (2026). This provides meaningful protection against catastrophic medical costs.",
-      "Plan L premiums are typically lower than Plan G or Plan N, making it an option for people who want some cost-sharing protection without paying for comprehensive coverage. However, the 25% cost-sharing can add up if you have frequent medical needs before hitting the OOP max."],
+      "Plan L's defining feature is its out-of-pocket maximum. While you're responsible for 25% of most Medicare cost-sharing, your total exposure is capped at $4,000 per year (2026). This provides meaningful protection against catastrophic medical costs.",
+      "Plan L premiums are typically lower than Plan G or Plan N, making it an option for people who want some cost-sharing protection without paying for comprehensive coverage. However, the 25% cost-sharing can add up if you have frequent medical needs before hitting the $4,000 OOP max."],
   },
 
   "plan-k": {
@@ -587,7 +587,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
     badge: "50% Coverage",
     badgeColor: "bg-orange-600",
     monthlyPremiumRange: "$50–$150/mo",
-    outOfPocketMax: "$7,060 (2026)",
+    outOfPocketMax: "$8,000 (2026)",
     bestFor: "Very healthy enrollees who want the lowest possible premium with catastrophic cost protection",
     notFor: "People with frequent medical needs or those who want predictable costs",
     availableToNewEnrollees: true,
@@ -604,7 +604,7 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
       { benefit: "Foreign travel emergency", covered: "none" }],
     highlights: [
       "Lowest premium of any Medigap plan with an OOP maximum",
-      "Built-in out-of-pocket maximum ($7,060 in 2026)",
+      "Built-in out-of-pocket maximum ($8,000 in 2026)",
       "Covers 50% of most Medicare cost-sharing",
       "Once you hit the OOP max, Plan K covers 100%",
       "Does NOT cover foreign travel emergency or excess charges"],
@@ -615,17 +615,17 @@ export const MEDIGAP_PLANS: Record<string, MedigapPlanData> = {
         "Good for very healthy people who rarely use healthcare"],
       cons: [
         "You pay 50% of most Medicare cost-sharing — can be substantial",
-        "High OOP maximum ($7,060) before full coverage kicks in",
+        "High OOP maximum ($8,000) before full coverage kicks in",
         "No foreign travel or excess charge coverage",
         "Costs can be unpredictable with frequent medical needs"],
     },
     faqs: [
       {
         q: "What is the out-of-pocket maximum for Plan K in 2026?",
-        a: "The Plan K out-of-pocket maximum is $7,060 in 2026. Once you've paid this amount in covered cost-sharing, Plan K covers 100% of Medicare-approved costs for the rest of the calendar year.",
+        a: "The Plan K out-of-pocket maximum is $8,000 in 2026. Once you've paid this amount in covered cost-sharing, Plan K covers 100% of Medicare-approved costs for the rest of the calendar year.",
       }],
     relatedPlans: ["plan-l", "plan-n", "plan-g"],
-    intro: "Medicare Supplement Plan K offers the lowest premiums among Medigap plans that include an out-of-pocket maximum. It covers 50% of most Medicare cost-sharing, with your total annual exposure capped at $7,060 in 2026.",
+    intro: "Medicare Supplement Plan K offers the lowest premiums among Medigap plans that include an out-of-pocket maximum. It covers 50% of most Medicare cost-sharing, with your total annual exposure capped at $8,000 in 2026.",
     detailParagraphs: [
       "Plan K is designed for people who are generally healthy and want to minimize their monthly premium while maintaining some protection against catastrophic costs. The trade-off is significant cost-sharing — you pay 50% of most Medicare-covered expenses until you hit the annual out-of-pocket maximum.",
       "For most Medicare beneficiaries, Plan K's high cost-sharing makes it less attractive than Plan N, which offers more comprehensive coverage at a competitive premium. Plan K is best suited for very healthy individuals who rarely use healthcare and want the lowest possible monthly cost."],
