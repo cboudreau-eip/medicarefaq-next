@@ -381,19 +381,43 @@ export default function FloridaPageContent() {
       {/* Intro Section */}
       <section className="py-12 border-b border-slate-100">
         <div className="container max-w-4xl">
-          <p className="text-slate-700 text-base leading-relaxed mb-4">
-            Nearly 930,000 Floridians have Medicare Supplement Insurance, or Medigap.
-            Medigap plans help cover certain out-of-pocket expenses like copays, coinsurance,
-            and deductibles left over after Medicare pays for covered services. With over
-            4.8 million Medicare beneficiaries in the state, Florida is one of the largest
-            and most competitive Medigap markets in the country.
-          </p>
-          <p className="text-slate-700 text-base leading-relaxed">
-            Many companies offer Medigap plans in Florida, but only a few earn top marks
-            on our data-driven ratings. We compared companies based on prices, financial
-            strength, complaint rates, plan availability, and discount options to find the
-            best Medigap plans in Florida for 2026.
-          </p>
+          <div className="flex flex-col md:flex-row gap-8 items-start">
+            {/* Text content */}
+            <div className="flex-1">
+              <p className="text-slate-700 text-base leading-relaxed mb-4">
+                Nearly 930,000 Floridians have Medicare Supplement Insurance, or Medigap.
+                Medigap plans help cover certain out-of-pocket expenses like copays, coinsurance,
+                and deductibles left over after Medicare pays for covered services. With over
+                4.8 million Medicare beneficiaries in the state, Florida is one of the largest
+                and most competitive Medigap markets in the country.
+              </p>
+              <p className="text-slate-700 text-base leading-relaxed">
+                Many companies offer Medigap plans in Florida, but only a few earn top marks
+                on our data-driven ratings. We compared companies based on prices, financial
+                strength, complaint rates, plan availability, and discount options to find the
+                best Medigap plans in Florida for 2026.
+              </p>
+            </div>
+
+            {/* Eddie the Eagle avatar + pull-quote */}
+            <div className="flex-shrink-0 flex flex-col items-center gap-3 md:w-52">
+              <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-blue-900 shadow-lg bg-slate-100">
+                <img
+                  src="/eddie_eagle_arms_transparent.png"
+                  alt="Eddie the Eagle — MedicareFAQ mascot"
+                  className="w-full h-full object-cover object-top scale-110"
+                />
+              </div>
+              <div className="bg-blue-50 border border-blue-200 rounded-xl px-4 py-3 text-center">
+                <p className="text-sm text-blue-900 leading-snug italic">
+                  &ldquo;Florida has one of the most competitive Medigap markets in the
+                  country — that&rsquo;s great news for your wallet.&rdquo;
+                </p>
+                <p className="text-xs font-semibold text-blue-700 mt-2">Eddie the Eagle</p>
+                <p className="text-xs text-blue-500">MedicareFAQ Mascot</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
