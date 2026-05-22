@@ -111,21 +111,49 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
                 <p className="text-sm font-bold text-slate-900">{carrier.amBest}</p>
               </div>
             </div>
-            <p className="text-sm text-slate-600 mt-4 leading-relaxed">{carrier.highlight}</p>
+            <p className="text-sm text-slate-600 mt-3 leading-relaxed">{carrier.highlight}</p>
+          </div>
+          {/* Right: CTA */}
+          <div className="flex flex-col gap-2 md:w-48 shrink-0">
+            <ZipFormModal
+              pageSection="rhode-island_carrier_card"
+              triggerId={`rhode-island-carrier-${rank}`}
+              coverageType="ms"
+              title={`Compare ${carrier.name} Rates in Rhode Island`}
+              subtitle={`Enter your ZIP code to see personalized ${carrier.name} Medigap rates in your area of Rhode Island.`}
+              buttonLabel="Get a Quote"
+              trigger={
+                <button className="w-full inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-4 py-2.5 rounded-lg transition-colors text-sm">
+                  Get a Quote <ArrowRight className="w-4 h-4" />
+                </button>
+              }
+            />
+            <a
+              href="tel:+18883358996"
+              id="callInNum"
+              data-invoca-phone-number="18883358996"
+              onClick={() =>
+                trackPhoneClick({
+                  phone_number: "(888) 335-8996",
+                  page_section: "rhode-island_carrier_card",
+                })
+              }
+              className="w-full inline-flex items-center justify-center gap-2 border border-slate-300 hover:border-blue-400 text-slate-700 font-medium px-4 py-2.5 rounded-lg transition-colors text-sm"
+            >
+              <Phone className="w-3.5 h-3.5" /> (888) 335-8996
+            </a>
           </div>
         </div>
+        {/* Expand/collapse for pros/cons */}
         <button
           onClick={() => setExpanded(!expanded)}
-          className="mt-4 flex items-center gap-1 text-xs font-semibold text-blue-600 hover:text-blue-800 transition-colors"
+          className="mt-4 flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors"
         >
+          {expanded ? "Hide details" : "Show pros & cons"}
           {expanded ? (
-            <>
-              <ChevronUp className="w-3.5 h-3.5" /> Hide details
-            </>
+            <ChevronUp className="w-4 h-4" />
           ) : (
-            <>
-              <ChevronDown className="w-3.5 h-3.5" /> Show pros and cons
-            </>
+            <ChevronDown className="w-4 h-4" />
           )}
         </button>
         {expanded && (
