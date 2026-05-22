@@ -3,17 +3,105 @@ import Link from "next/link";
 /**
  * MedigapByState - index page
  * Route: /medicare-supplements/medigap-by-state
+ * Updated: Links all 50 states to their detailed /medicare-supplements/{state}/ pages
  */
 
-import { MapPin, ChevronDown, Phone, ArrowRight, AlertTriangle } from "lucide-react";
+import { MapPin, ChevronDown, Phone, ArrowRight, Star, Gift, Shield } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
-import { STATE_DATA } from "@/lib/medigap-state-data";
 import { trackPhoneClick } from "@/lib/analytics";
 
-export default function PageContent() {
+/* Complete list of all 50 states with their detailed page paths */
+interface StateEntry {
+  slug: string;       // URL path segment (e.g., "alabama")
+  abbr: string;       // Two-letter abbreviation
+  name: string;       // Full state name
+  tag: "birthday-rule" | "anniversary-rule" | "guaranteed-issue" | "state-specific" | "standard";
+  tagLabel?: string;  // Display label for the tag badge
+}
 
-  const stateSpecific = STATE_DATA.filter((s) => !s.isStandardized);
-  const standardized = STATE_DATA.filter((s) => s.isStandardized);
+const ALL_STATES: StateEntry[] = [
+  { slug: "alabama",       abbr: "AL", name: "Alabama",        tag: "standard" },
+  { slug: "alaska",        abbr: "AK", name: "Alaska",         tag: "standard" },
+  { slug: "arizona",       abbr: "AZ", name: "Arizona",        tag: "standard" },
+  { slug: "arkansas",      abbr: "AR", name: "Arkansas",       tag: "standard" },
+  { slug: "california",    abbr: "CA", name: "California",     tag: "birthday-rule",    tagLabel: "Birthday Rule" },
+  { slug: "colorado",      abbr: "CO", name: "Colorado",       tag: "standard" },
+  { slug: "connecticut",   abbr: "CT", name: "Connecticut",    tag: "guaranteed-issue", tagLabel: "Guaranteed Issue" },
+  { slug: "delaware",      abbr: "DE", name: "Delaware",       tag: "birthday-rule",    tagLabel: "Birthday Rule" },
+  { slug: "florida",       abbr: "FL", name: "Florida",        tag: "standard" },
+  { slug: "georgia",       abbr: "GA", name: "Georgia",        tag: "standard" },
+  { slug: "hawaii",        abbr: "HI", name: "Hawaii",         tag: "standard" },
+  { slug: "idaho",         abbr: "ID", name: "Idaho",          tag: "birthday-rule",    tagLabel: "Birthday Rule" },
+  { slug: "illinois",      abbr: "IL", name: "Illinois",       tag: "standard" },
+  { slug: "indiana",       abbr: "IN", name: "Indiana",        tag: "standard" },
+  { slug: "iowa",          abbr: "IA", name: "Iowa",           tag: "standard" },
+  { slug: "kansas",        abbr: "KS", name: "Kansas",         tag: "standard" },
+  { slug: "kentucky",      abbr: "KY", name: "Kentucky",       tag: "birthday-rule",    tagLabel: "Birthday Rule" },
+  { slug: "louisiana",     abbr: "LA", name: "Louisiana",      tag: "birthday-rule",    tagLabel: "Birthday Rule" },
+  { slug: "maine",         abbr: "ME", name: "Maine",          tag: "guaranteed-issue", tagLabel: "Guaranteed Issue" },
+  { slug: "maryland",      abbr: "MD", name: "Maryland",       tag: "birthday-rule",    tagLabel: "Birthday Rule" },
+  { slug: "massachusetts", abbr: "MA", name: "Massachusetts",  tag: "state-specific",   tagLabel: "State-Specific Plans" },
+  { slug: "michigan",      abbr: "MI", name: "Michigan",       tag: "standard" },
+  { slug: "minnesota",     abbr: "MN", name: "Minnesota",      tag: "state-specific",   tagLabel: "State-Specific Plans" },
+  { slug: "mississippi",   abbr: "MS", name: "Mississippi",    tag: "standard" },
+  { slug: "missouri",      abbr: "MO", name: "Missouri",       tag: "anniversary-rule", tagLabel: "Anniversary Rule" },
+  { slug: "montana",       abbr: "MT", name: "Montana",        tag: "standard" },
+  { slug: "nebraska",      abbr: "NE", name: "Nebraska",       tag: "standard" },
+  { slug: "nevada",        abbr: "NV", name: "Nevada",         tag: "standard" },
+  { slug: "new-hampshire", abbr: "NH", name: "New Hampshire",  tag: "standard" },
+  { slug: "new-jersey",    abbr: "NJ", name: "New Jersey",     tag: "standard" },
+  { slug: "new-mexico",    abbr: "NM", name: "New Mexico",     tag: "standard" },
+  { slug: "new-york",      abbr: "NY", name: "New York",       tag: "guaranteed-issue", tagLabel: "Guaranteed Issue" },
+  { slug: "north-carolina",abbr: "NC", name: "North Carolina", tag: "standard" },
+  { slug: "north-dakota",  abbr: "ND", name: "North Dakota",   tag: "standard" },
+  { slug: "ohio",          abbr: "OH", name: "Ohio",           tag: "standard" },
+  { slug: "oklahoma",      abbr: "OK", name: "Oklahoma",       tag: "standard" },
+  { slug: "oregon",        abbr: "OR", name: "Oregon",         tag: "birthday-rule",    tagLabel: "Birthday Rule" },
+  { slug: "pennsylvania",  abbr: "PA", name: "Pennsylvania",   tag: "standard" },
+  { slug: "rhode-island",  abbr: "RI", name: "Rhode Island",   tag: "standard" },
+  { slug: "south-carolina",abbr: "SC", name: "South Carolina", tag: "standard" },
+  { slug: "south-dakota",  abbr: "SD", name: "South Dakota",   tag: "standard" },
+  { slug: "tennessee",     abbr: "TN", name: "Tennessee",      tag: "standard" },
+  { slug: "texas",         abbr: "TX", name: "Texas",          tag: "standard" },
+  { slug: "utah",          abbr: "UT", name: "Utah",           tag: "standard" },
+  { slug: "vermont",       abbr: "VT", name: "Vermont",        tag: "guaranteed-issue", tagLabel: "Guaranteed Issue" },
+  { slug: "virginia",      abbr: "VA", name: "Virginia",       tag: "birthday-rule",    tagLabel: "Birthday Rule" },
+  { slug: "washington",    abbr: "WA", name: "Washington",     tag: "guaranteed-issue", tagLabel: "Year-Round Switching" },
+  { slug: "west-virginia", abbr: "WV", name: "West Virginia",  tag: "standard" },
+  { slug: "wisconsin",     abbr: "WI", name: "Wisconsin",      tag: "state-specific",   tagLabel: "State-Specific Plans" },
+  { slug: "wyoming",       abbr: "WY", name: "Wyoming",        tag: "standard" },
+];
+
+function getTagStyles(tag: StateEntry["tag"]) {
+  switch (tag) {
+    case "birthday-rule":
+      return {
+        badge: "bg-amber-100 text-amber-800 border border-amber-200",
+        icon: <Gift className="w-3 h-3" />,
+      };
+    case "anniversary-rule":
+      return {
+        badge: "bg-orange-100 text-orange-800 border border-orange-200",
+        icon: <Star className="w-3 h-3" />,
+      };
+    case "guaranteed-issue":
+      return {
+        badge: "bg-emerald-100 text-emerald-800 border border-emerald-200",
+        icon: <Shield className="w-3 h-3" />,
+      };
+    case "state-specific":
+      return {
+        badge: "bg-purple-100 text-purple-800 border border-purple-200",
+        icon: <Star className="w-3 h-3" />,
+      };
+    default:
+      return null;
+  }
+}
+
+export default function PageContent() {
+  const specialStates = ALL_STATES.filter((s) => s.tag !== "standard");
+  const standardStates = ALL_STATES.filter((s) => s.tag === "standard");
 
   return (
     <div className="min-h-screen bg-white">
@@ -37,7 +125,7 @@ export default function PageContent() {
             Medigap Plans by State
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
-            Medicare Supplement rules, carriers, and premiums vary by state. Find state-specific guidance for your location.
+            Medicare Supplement rules, top carriers, and premiums vary by state. Find detailed state-specific guidance, carrier rankings, and Plan G vs Plan N comparisons for all 50 states.
           </p>
           <div className="flex flex-wrap gap-3">
             <ZipFormModal
@@ -64,65 +152,81 @@ export default function PageContent() {
       <section className="py-16">
         <div className="container">
 
-          {/* States with unique rules */}
-          {stateSpecific.length > 0 && (
-            <div className="mb-14">
-              <div className="flex items-center gap-3 mb-2">
-                <AlertTriangle className="w-5 h-5 text-amber-600" />
-                <h2 className="text-2xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
-                  States with Unique Medigap Rules
-                </h2>
-              </div>
-              <p className="text-slate-500 mb-6 ml-8">
-                Massachusetts, Minnesota, and Wisconsin have their own standardized plan structures that differ from the federal system.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                {stateSpecific.map((state) => (
+          {/* Legend */}
+          <div className="mb-10 p-4 bg-slate-50 rounded-xl border border-slate-200">
+            <p className="text-sm font-semibold text-slate-700 mb-3">State Rule Legend</p>
+            <div className="flex flex-wrap gap-3 text-xs">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-100 text-amber-800 border border-amber-200 font-medium">
+                <Gift className="w-3 h-3" /> Birthday Rule - annual guaranteed switching window
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-orange-100 text-orange-800 border border-orange-200 font-medium">
+                <Star className="w-3 h-3" /> Anniversary Rule - annual switching tied to policy date
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 font-medium">
+                <Shield className="w-3 h-3" /> Guaranteed Issue - switch anytime, no underwriting
+              </span>
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-purple-100 text-purple-800 border border-purple-200 font-medium">
+                <Star className="w-3 h-3" /> State-Specific Plans - unique plan structure
+              </span>
+            </div>
+          </div>
+
+          {/* States with special rules */}
+          <div className="mb-14">
+            <h2 className="text-2xl font-bold text-slate-900 mb-2" style={{ fontFamily: "'Merriweather', serif" }}>
+              States with Special Medigap Rules
+            </h2>
+            <p className="text-slate-500 mb-6">
+              These states have birthday rules, anniversary rules, guaranteed issue protections, or unique plan structures that give enrollees additional flexibility.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {specialStates.map((state) => {
+                const tagStyles = getTagStyles(state.tag);
+                return (
                   <Link
                     key={state.slug}
-                    href={`/medicare-supplements/medigap-by-state/${state.slug}`}
-                    className="group block p-6 border-2 border-amber-200 bg-amber-50 rounded-xl hover:border-amber-400 hover:bg-amber-100 transition-all"
+                    href={`/medicare-supplements/${state.slug}/`}
+                    className="group flex items-center gap-4 p-4 border-2 border-slate-200 rounded-xl hover:border-blue-300 hover:bg-blue-50 transition-all"
                   >
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="w-12 h-12 bg-amber-600 rounded-xl flex items-center justify-center shrink-0">
-                        <span className="text-lg font-black text-white">{state.abbreviation}</span>
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-slate-900 group-hover:text-amber-800 transition-colors">{state.name}</h3>
-                        <span className="text-xs font-semibold text-amber-700 bg-amber-200 px-2 py-0.5 rounded-full">State-Specific Plans</span>
-                      </div>
+                    <div className="w-12 h-12 bg-blue-900 rounded-xl flex items-center justify-center shrink-0">
+                      <span className="text-lg font-black text-white">{state.abbr}</span>
                     </div>
-                    <p className="text-sm text-slate-600 line-clamp-2">{state.overview.slice(0, 120)}...</p>
-                    <div className="flex items-center gap-1 mt-3 text-sm font-semibold text-amber-700 group-hover:gap-2 transition-all">
-                      View {state.name} Plans <ArrowRight className="w-4 h-4" />
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-bold text-slate-900 group-hover:text-blue-800 transition-colors">{state.name}</h3>
+                      {tagStyles && state.tagLabel && (
+                        <span className={`inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full mt-1 ${tagStyles.badge}`}>
+                          {tagStyles.icon} {state.tagLabel}
+                        </span>
+                      )}
                     </div>
+                    <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all shrink-0" />
                   </Link>
-                ))}
-              </div>
+                );
+              })}
             </div>
-          )}
+          </div>
 
-          {/* Federally standardized states */}
+          {/* All other states */}
           <div>
             <h2 className="text-2xl font-bold text-slate-900 mb-2" style={{ fontFamily: "'Merriweather', serif" }}>
               States with Federal Medigap Standardization
             </h2>
             <p className="text-slate-500 mb-6">
-              These states follow the federal lettered plan structure (Plans A–N). Benefits are identical across carriers - only premiums differ.
+              These states follow the federal lettered plan structure (Plans A through N). Benefits are identical across carriers - only premiums differ.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {standardized.map((state) => (
+              {standardStates.map((state) => (
                 <Link
                   key={state.slug}
-                  href={`/medicare-supplements/medigap-by-state/${state.slug}`}
+                  href={`/medicare-supplements/${state.slug}/`}
                   className="group flex items-center gap-4 p-4 border border-slate-200 rounded-xl hover:border-blue-300 hover:bg-blue-50 transition-all"
                 >
                   <div className="w-12 h-12 bg-blue-900 rounded-xl flex items-center justify-center shrink-0">
-                    <span className="text-lg font-black text-white">{state.abbreviation}</span>
+                    <span className="text-lg font-black text-white">{state.abbr}</span>
                   </div>
                   <div className="flex-1 min-w-0">
                     <h3 className="font-bold text-slate-900 group-hover:text-blue-800 transition-colors">{state.name}</h3>
-                    <p className="text-xs text-slate-500 truncate">Avg Plan G: {state.avgPlanGPremium}</p>
+                    <p className="text-xs text-slate-500">Full carrier rankings and premium guide</p>
                   </div>
                   <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all shrink-0" />
                 </Link>
