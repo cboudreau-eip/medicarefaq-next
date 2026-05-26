@@ -1,22 +1,8 @@
 "use client";
 import CourseLayout from "@/components/CourseLayout";
-import CourseFAQ from "@/components/CourseFAQ";
 import EddieProTip from "@/components/EddieProTip";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import { Building2, Stethoscope, Shield, Pill, CheckCircle2, XCircle } from "lucide-react";
-
-const faqs = [
-  {
-    question: "Do I need all four parts?",
-    answer:
-      "You need Part A and Part B (Original Medicare). Then you choose: either add a Supplement + Part D (Path 1), or switch to Part C/Advantage (Path 2). You cannot have both a Supplement and Advantage at the same time.",
-  },
-  {
-    question: "What is a \"benefit period\" for Part A?",
-    answer:
-      "A benefit period starts when you are admitted to the hospital and ends when you have been out for 60 consecutive days. If you go back to the hospital after 60 days, a new benefit period starts and you pay the deductible again.",
-  },
-];
 
 const parts = [
   {
@@ -234,7 +220,6 @@ export default function PageContent() {
       />
 
       {/* FAQ */}
-      <CourseFAQ faqs={faqs} />
     </CourseLayout>
   );
 }

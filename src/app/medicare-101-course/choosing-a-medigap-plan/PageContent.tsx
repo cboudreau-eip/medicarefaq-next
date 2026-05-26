@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import CourseLayout from "@/components/CourseLayout";
-import CourseFAQ from "@/components/CourseFAQ";
 import EddieProTip from "@/components/EddieProTip";
 import ZipFormModal from "@/components/ZipFormModal";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
@@ -16,24 +15,6 @@ import {
   Phone,
 } from "lucide-react";
 import { trackPhoneClick } from "@/lib/analytics";
-
-const faqs = [
-  {
-    question: "Why not Plan F?",
-    answer:
-      "Plan F is only available to people who became eligible for Medicare before January 1, 2020. If you turned 65 after that date, Plan G is your best option (it is identical to Plan F except you pay the $257 Part B deductible).",
-  },
-  {
-    question: "How do I find the cheapest Plan G in my state?",
-    answer:
-      "Use our state-specific guides or enter your ZIP code to get personalized quotes. Rates vary significantly by ZIP code, age, gender, and tobacco use.",
-  },
-  {
-    question: "Can I switch from Plan N to Plan G later?",
-    answer:
-      "You can apply, but you will face medical underwriting. If you have developed health conditions, you may be denied. This is why many agents recommend starting with Plan G — you can always switch down to Plan N later (easier to go from more coverage to less).",
-  },
-];
 
 export default function PageContent() {
   return (
@@ -206,7 +187,6 @@ export default function PageContent() {
       </div>
 
       {/* FAQ */}
-      <CourseFAQ faqs={faqs} />
     </CourseLayout>
   );
 }

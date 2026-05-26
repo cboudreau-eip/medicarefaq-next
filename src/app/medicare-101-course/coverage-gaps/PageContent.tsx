@@ -1,27 +1,8 @@
 "use client";
 import CourseLayout from "@/components/CourseLayout";
-import CourseFAQ from "@/components/CourseFAQ";
 import EddieProTip from "@/components/EddieProTip";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import { AlertTriangle, DollarSign, XCircle, TrendingUp } from "lucide-react";
-
-const faqs = [
-  {
-    question: "Does Medicare Advantage solve the coverage gap?",
-    answer:
-      "Partially. Advantage plans have an annual out-of-pocket maximum ($9,250 in 2026), which limits your exposure. However, you still pay copays and coinsurance at every visit, and you are limited to the plan's network. Medigap eliminates nearly all out-of-pocket costs.",
-  },
-  {
-    question: "What about dental and vision?",
-    answer:
-      "Original Medicare does not cover routine dental or vision. Medicare Advantage plans often include basic dental and vision. If you choose Original Medicare + Medigap, you would need a separate dental/vision plan (typically $30-60/month).",
-  },
-  {
-    question: "Is long-term care covered by any Medicare option?",
-    answer:
-      "No. Neither Original Medicare, Medigap, nor Medicare Advantage covers long-term custodial care (nursing home stays for daily living assistance). You need a separate long-term care insurance policy for that.",
-  },
-];
 
 export default function PageContent() {
   return (
@@ -192,7 +173,6 @@ export default function PageContent() {
       />
 
       {/* FAQ */}
-      <CourseFAQ faqs={faqs} />
     </CourseLayout>
   );
 }

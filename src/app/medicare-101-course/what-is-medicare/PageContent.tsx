@@ -1,27 +1,8 @@
 "use client";
 import CourseLayout from "@/components/CourseLayout";
-import CourseFAQ from "@/components/CourseFAQ";
 import EddieProTip from "@/components/EddieProTip";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import { Shield, DollarSign, AlertTriangle, GitBranch, Building2 } from "lucide-react";
-
-const faqs = [
-  {
-    question: "Is Medicare the same as Medicaid?",
-    answer:
-      "No. Medicare is federal health insurance based on age (65+) or disability. Medicaid is a joint federal-state program for people with limited income and resources. Some people qualify for both (called \"dual eligible\").",
-  },
-  {
-    question: "Do I have to sign up for Medicare at 65?",
-    answer:
-      "If you are already receiving Social Security, you will be enrolled automatically. Otherwise, you need to actively sign up. If you have employer coverage, you may be able to delay — but the rules are specific (covered in Lesson 3).",
-  },
-  {
-    question: "Can I keep my employer insurance and Medicare?",
-    answer:
-      "It depends on your employer size. If your employer has 20+ employees, your employer plan is primary and you can delay Medicare. If fewer than 20, Medicare is primary. We cover this in detail in Lesson 3.",
-  },
-];
 
 export default function PageContent() {
   return (
@@ -147,7 +128,6 @@ export default function PageContent() {
       />
 
       {/* FAQ */}
-      <CourseFAQ faqs={faqs} />
     </CourseLayout>
   );
 }

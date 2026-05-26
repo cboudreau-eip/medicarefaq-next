@@ -1,26 +1,7 @@
 "use client";
 import CourseLayout from "@/components/CourseLayout";
-import CourseFAQ from "@/components/CourseFAQ";
 import EddieProTip from "@/components/EddieProTip";
 import { Calendar, AlertTriangle, Clock, Shield, Star } from "lucide-react";
-
-const faqs = [
-  {
-    question: "I am still working at 65 with employer coverage. What do I do?",
-    answer:
-      "If your employer has 20+ employees, your employer plan is primary. You can delay Part B without penalty. When you retire (or lose that coverage), you get an 8-month SEP to enroll in Part B and a 6-month Medigap OEP. Confirm with your HR department and a Medicare agent — the rules are specific.",
-  },
-  {
-    question: "What if I missed my Medigap OEP?",
-    answer:
-      "You can still apply for Medigap, but carriers can ask health questions and may deny you. Some states have birthday rules or guaranteed issue protections. If you are healthy, you may still qualify. If you have health conditions, Medicare Advantage may be your best alternative.",
-  },
-  {
-    question: "Can I change my Medigap plan later?",
-    answer:
-      "Yes, you can apply to switch anytime, but you will face medical underwriting. If you have developed health conditions, you may be denied. This is why choosing the right plan during your OEP is so important.",
-  },
-];
 
 const enrollmentPeriods = [
   {
@@ -176,7 +157,6 @@ export default function PageContent() {
       />
 
       {/* FAQ */}
-      <CourseFAQ faqs={faqs} />
     </CourseLayout>
   );
 }

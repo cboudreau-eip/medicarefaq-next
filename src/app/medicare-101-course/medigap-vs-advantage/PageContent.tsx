@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import CourseLayout from "@/components/CourseLayout";
-import CourseFAQ from "@/components/CourseFAQ";
 import EddieProTip from "@/components/EddieProTip";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import {
@@ -16,24 +15,6 @@ import {
   FileX,
   TrendingUp,
 } from "lucide-react";
-
-const faqs = [
-  {
-    question: "Can I have both Medigap and Medicare Advantage?",
-    answer:
-      "No. It is one or the other. If you have a Medigap plan and enroll in Advantage, your Medigap policy is essentially useless (it will not pay claims). You would need to cancel it.",
-  },
-  {
-    question: "What if I cannot afford Medigap?",
-    answer:
-      "Look at Plan N (typically $40-60/month less than Plan G) or High-Deductible Plan G. If those are still too expensive, Medicare Advantage with a PPO network is a reasonable alternative. The key is having SOME supplemental coverage.",
-  },
-  {
-    question: "Can I switch Medigap carriers later to get a lower rate?",
-    answer:
-      "Yes, you can apply to switch carriers anytime. If you are healthy, you will likely be approved. Some states also have birthday rules that guarantee your right to switch annually. We cover this in Lesson 6.",
-  },
-];
 
 export default function PageContent() {
   return (
@@ -209,7 +190,6 @@ export default function PageContent() {
       />
 
       {/* FAQ */}
-      <CourseFAQ faqs={faqs} />
     </CourseLayout>
   );
 }
