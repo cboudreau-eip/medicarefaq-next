@@ -1,10 +1,12 @@
 "use client";
 /**
  * CourseLayout — Shared layout wrapper for Medicare 101 Course lesson pages.
- * Provides: progress bar, prev/next navigation, lesson header, and consistent structure.
+ * Provides: progress bar, prev/next navigation, lesson header, quiz integration, and consistent structure.
  */
 import Link from "next/link";
 import { ChevronLeft, ChevronRight, BookOpen, Clock, ChevronDown } from "lucide-react";
+import CourseQuiz from "@/components/CourseQuiz";
+import { COURSE_QUIZZES } from "@/lib/course-quiz-data";
 
 export interface LessonMeta {
   number: number;
@@ -33,6 +35,12 @@ export default function CourseLayout({ currentLesson, children }: CourseLayoutPr
   const prevLesson = currentLesson > 1 ? COURSE_LESSONS[currentLesson - 2] : null;
   const nextLesson = currentLesson < 7 ? COURSE_LESSONS[currentLesson] : null;
   const progress = (currentLesson / 7) * 100;
+
+  // Get quiz data for this lesson
+  const quizData = COURSE_QUIZZES.find((q) => q.lessonNumber === currentLesson);
+  const nextLessonUrl = nextLesson
+    ? `/medicare-101-course/${nextLesson.slug}`
+    : null;
 
   return (
     <div className="min-h-screen bg-white">
@@ -92,10 +100,19 @@ export default function CourseLayout({ currentLesson, children }: CourseLayoutPr
       <section className="py-12">
         <div className="container max-w-4xl">
           {children}
+
+          {/* Quiz Section — replaces the old bottom nav */}
+          {quizData && (
+            <CourseQuiz
+              lessonNumber={currentLesson}
+              questions={quizData.questions}
+              nextLessonUrl={nextLessonUrl}
+            />
+          )}
         </div>
       </section>
 
-      {/* Prev / Next Navigation */}
+      {/* Prev Navigation Only (Next is now gated inside the quiz) */}
       <section className="border-t border-slate-200 bg-slate-50">
         <div className="container max-w-4xl py-8">
           <div className="flex items-center justify-between gap-4">
@@ -116,23 +133,12 @@ export default function CourseLayout({ currentLesson, children }: CourseLayoutPr
                 Back to Course Overview
               </Link>
             )}
-            {nextLesson ? (
-              <Link
-                href={`/medicare-101-course/${nextLesson.slug}`}
-                className="flex items-center gap-2 text-sm font-semibold text-blue-700 hover:text-blue-900 transition-colors group"
-              >
-                <span className="hidden sm:inline">Next:</span> {nextLesson.title}
-                <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-              </Link>
-            ) : (
-              <Link
-                href="/medicare-101-course"
-                className="flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 transition-colors group"
-              >
-                Course Complete!
-                <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-              </Link>
-            )}
+            <Link
+              href="/medicare-101-course"
+              className="text-sm text-slate-500 hover:text-blue-700 transition-colors"
+            >
+              View all lessons
+            </Link>
           </div>
         </div>
       </section>
