@@ -280,7 +280,7 @@ export default function GitHubEditorDashboard() {
               <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center mb-4">
                 <Lock className="w-6 h-6 text-teal-600" />
               </div>
-              <h1 className="text-xl font-bold text-gray-900">CMS Editor</h1>
+              <h1 className="text-xl font-bold text-gray-900">MedicareFAQ CMS Editor</h1>
               <p className="text-sm text-gray-500 mt-1">Enter your admin password to continue</p>
             </div>
 
