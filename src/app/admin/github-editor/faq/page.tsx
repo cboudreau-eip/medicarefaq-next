@@ -1,21 +1,20 @@
 "use client";
 
 import { Loader2 } from "lucide-react";
-import { useCMSAuth } from "./components/use-cms-auth";
-import { useArticles } from "./components/use-articles";
-import LoginScreen from "./components/login-screen";
-import CMSHeader from "./components/cms-header";
-import ArticleCardGrid from "./components/article-card-grid";
+import { useCMSAuth } from "../components/use-cms-auth";
+import { useArticles } from "../components/use-articles";
+import LoginScreen from "../components/login-screen";
+import CMSHeader from "../components/cms-header";
+import ArticleCardGrid from "../components/article-card-grid";
 
-export default function GitHubEditorDashboard() {
+export default function FAQArticlesPage() {
   const { authenticated, authLoading, login, logout, authFetch } = useCMSAuth();
   const { articles, loading, error, blogCount, faqCount, totalCount, refresh } = useArticles({
     authenticated,
     authFetch,
-    typeFilter: "all",
+    typeFilter: "coverage",
   });
 
-  // Show loading spinner while checking session
   if (authLoading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -24,7 +23,6 @@ export default function GitHubEditorDashboard() {
     );
   }
 
-  // Show login screen
   if (!authenticated) {
     return <LoginScreen onLogin={login} />;
   }
@@ -42,7 +40,7 @@ export default function GitHubEditorDashboard() {
         articles={articles}
         loading={loading}
         error={error}
-        pageTitle="All Articles"
+        pageTitle="FAQ Articles"
       />
     </div>
   );
