@@ -24,6 +24,7 @@ import {
   ArrowUpDown,
   Plus,
   X,
+  Trash2,
 } from "lucide-react";
 
 interface ArticleListItem {
@@ -109,6 +110,11 @@ export default function GitHubEditorDashboard() {
   const [newImage, setNewImage] = useState("");
   const [newImageAlt, setNewImageAlt] = useState("");
   const [newSectionsRaw, setNewSectionsRaw] = useState("");
+
+  // Delete article state
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [deleteLoading, setDeleteLoading] = useState(false);
+  const [deleteError, setDeleteError] = useState("");
 
   // Check for stored session on mount
   useEffect(() => {
@@ -350,6 +356,34 @@ export default function GitHubEditorDashboard() {
       setCreateError(String(err));
     } finally {
       setCreateLoading(false);
+    }
+  };
+
+  // Handle delete article
+  const handleDelete = async () => {
+    if (!selected) return;
+    setDeleteLoading(true);
+    setDeleteError("");
+    try {
+      const res = await authFetch("/api/cms/delete", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          slug: selected.slug,
+          type: selected.type,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Delete failed");
+      // Remove from local list and go back to grid
+      setArticles((prev) => prev.filter((a) => !(a.slug === selected.slug && a.type === selected.type)));
+      setSelected(null);
+      setDetail(null);
+      setShowDeleteConfirm(false);
+    } catch (err) {
+      setDeleteError(String(err));
+    } finally {
+      setDeleteLoading(false);
     }
   };
 
@@ -732,6 +766,14 @@ export default function GitHubEditorDashboard() {
                   </h1>
                 </div>
                 <div className="flex items-center gap-2 shrink-0 ml-4">
+                  <button
+                    onClick={() => { setShowDeleteConfirm(true); setDeleteError(""); }}
+                    className="flex items-center gap-1.5 text-sm text-red-500 hover:text-red-700 border border-red-200 rounded-lg px-3 py-1.5 hover:bg-red-50 transition-colors"
+                    title="Delete this article"
+                  >
+                    <Trash2 className="w-3.5 h-3.5" />
+                    Delete
+                  </button>
                   <a
                     href={selected.url}
                     target="_blank"
@@ -1004,6 +1046,78 @@ export default function GitHubEditorDashboard() {
           )}
         </main>
       </div>
+
+      {/* Delete Confirmation Modal */}
+      {showDeleteConfirm && selected && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-2xl shadow-2xl border border-gray-200 w-full max-w-md">
+            {/* Modal Header */}
+            <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200">
+              <h2 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
+                <Trash2 className="w-5 h-5 text-red-500" />
+                Delete Article
+              </h2>
+              <button
+                onClick={() => setShowDeleteConfirm(false)}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="px-6 py-5">
+              <p className="text-sm text-gray-600 mb-3">
+                Are you sure you want to permanently delete this article? This will remove it from the site on the next deploy.
+              </p>
+              <div className="bg-gray-50 border border-gray-200 rounded-lg px-4 py-3">
+                <p className="text-sm font-semibold text-gray-900">{selected.title}</p>
+                <p className="text-xs text-gray-400 font-mono mt-1">/blog/{selected.slug}/</p>
+                <span className={`inline-block text-xs px-1.5 py-0.5 rounded font-medium mt-2 ${
+                  selected.type === "blog" ? "bg-blue-50 text-blue-600" : "bg-teal-50 text-teal-600"
+                }`}>
+                  {selected.type === "blog" ? "Blog" : "FAQ"}
+                </span>
+              </div>
+
+              {/* Error Banner */}
+              {deleteError && (
+                <div className="flex items-center gap-2 text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2 mt-4">
+                  <AlertCircle className="w-4 h-4 shrink-0" />
+                  <span>{deleteError}</span>
+                </div>
+              )}
+            </div>
+
+            {/* Modal Footer */}
+            <div className="flex items-center justify-end gap-2 px-6 py-4 border-t border-gray-200 bg-gray-50 rounded-b-2xl">
+              <button
+                onClick={() => setShowDeleteConfirm(false)}
+                className="text-sm text-gray-500 hover:text-gray-700 px-3 py-1.5 rounded-lg hover:bg-gray-100 transition-colors"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={handleDelete}
+                disabled={deleteLoading}
+                className="flex items-center gap-2 text-sm font-semibold bg-red-600 text-white rounded-lg px-4 py-1.5 hover:bg-red-700 transition-colors disabled:opacity-50"
+              >
+                {deleteLoading ? (
+                  <>
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    Deleting...
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className="w-3.5 h-3.5" />
+                    Delete Permanently
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Create Article Modal */}
       {showCreateForm && (
