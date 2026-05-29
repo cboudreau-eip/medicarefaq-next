@@ -24,7 +24,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "5 min read",
     featured: false,
-    image: "",
+    image: "https://images.unsplash.com/photo-1758691031749-607d43c14f63?w=1200&h=630&fit=crop&q=85",
     imageAlt: "Medicare Savings Programs: Your Complete Guide to Eligibility & Benefits",
     tableOfContents: [
       { id: "what-are-medicare-savings-programs", title: "What Are Medicare Savings Programs?" },
