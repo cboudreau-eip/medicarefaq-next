@@ -50,19 +50,42 @@ async function githubGetContent(path: string): Promise<string> {
   throw new Error(`Cannot retrieve content for ${path} (encoding: ${meta.encoding})`);
 }
 
-// Extract slug+title+seo from a TS data file using regex (no eval)
+// Extract articles from blog data TS file using regex (no eval)
 function extractBlogArticles(src: string) {
-  const articles: { slug: string; title: string; seoTitle: string; seoDescription: string; ogImage: string }[] = [];
+  const articles: {
+    slug: string;
+    title: string;
+    seoTitle: string;
+    seoDescription: string;
+    ogImage: string;
+    image: string;
+    excerpt: string;
+    date: string;
+    category: string;
+  }[] = [];
+
   // Match each top-level object in the array
   const objectRegex = /\{\s*slug:\s*"([^"]+)"[\s\S]*?title:\s*"([^"]+)"[\s\S]*?(?:seo:\s*\{[\s\S]*?title:\s*"([^"]*)"[\s\S]*?description:\s*"([^"]*)"[\s\S]*?ogImage:\s*"([^"]*)"[\s\S]*?\})?/g;
   let m;
   while ((m = objectRegex.exec(src)) !== null) {
+    // Extract additional fields from the matched block
+    const block = src.slice(m.index, objectRegex.lastIndex + 2000); // grab extra context
+
+    const imageMatch = block.match(/(?:^|\n)\s*image:\s*"([^"]*)"/);
+    const excerptMatch = block.match(/excerpt:\s*"([^"]*)"/);
+    const dateMatch = block.match(/(?:^|\n)\s*date:\s*"([^"]*)"/);
+    const categoryMatch = block.match(/category:\s*"([^"]*)"/);
+
     articles.push({
       slug: m[1],
       title: m[2],
       seoTitle: m[3] ?? "",
       seoDescription: m[4] ?? "",
       ogImage: m[5] ?? "",
+      image: imageMatch?.[1] ?? "",
+      excerpt: excerptMatch?.[1] ?? "",
+      date: dateMatch?.[1] ?? "",
+      category: categoryMatch?.[1] ?? "",
     });
     if (articles.length > 500) break;
   }
@@ -70,16 +93,39 @@ function extractBlogArticles(src: string) {
 }
 
 function extractCoverageArticles(src: string) {
-  const articles: { slug: string; title: string; seoTitle: string; seoDescription: string; ogImage: string }[] = [];
+  const articles: {
+    slug: string;
+    title: string;
+    seoTitle: string;
+    seoDescription: string;
+    ogImage: string;
+    image: string;
+    excerpt: string;
+    date: string;
+    category: string;
+  }[] = [];
+
   const objectRegex = /\{\s*slug:\s*"([^"]+)"[\s\S]*?title:\s*"([^"]+)"[\s\S]*?(?:seo:\s*\{[\s\S]*?title:\s*"([^"]*)"[\s\S]*?description:\s*"([^"]*)"[\s\S]*?ogImage:\s*"([^"]*)"[\s\S]*?\})?/g;
   let m;
   while ((m = objectRegex.exec(src)) !== null) {
+    const block = src.slice(m.index, objectRegex.lastIndex + 2000);
+
+    const dateMatch = block.match(/dateUpdated:\s*"([^"]*)"/);
+    const subtitleMatch = block.match(/subtitle:\s*"([^"]*)"/);
+    const categoryMatch = block.match(/category:\s*"([^"]*)"/);
+    // Coverage articles use ogImage as thumbnail (no top-level image field)
+    const quickAnswerMatch = block.match(/quickAnswer:\s*\{[\s\S]*?text:\s*"([^"]*)"/);
+
     articles.push({
       slug: m[1],
       title: m[2],
       seoTitle: m[3] ?? "",
       seoDescription: m[4] ?? "",
       ogImage: m[5] ?? "",
+      image: m[5] ?? "", // Use ogImage as thumbnail for coverage
+      excerpt: subtitleMatch?.[1] ?? quickAnswerMatch?.[1] ?? "",
+      date: dateMatch?.[1] ?? "",
+      category: categoryMatch?.[1] ?? "",
     });
     if (articles.length > 1000) break;
   }
@@ -108,9 +154,15 @@ export async function GET(request: NextRequest) {
       url: `/faqs/${a.slug}/`,
     }));
 
-    const all = [...blogArticles, ...coverageArticles].sort((a, b) =>
-      a.title.localeCompare(b.title)
-    );
+    // Sort by date (most recent first), fall back to alphabetical for articles without dates
+    const all = [...blogArticles, ...coverageArticles].sort((a, b) => {
+      const dateA = a.date ? new Date(a.date).getTime() : 0;
+      const dateB = b.date ? new Date(b.date).getTime() : 0;
+      if (dateA && dateB) return dateB - dateA;
+      if (dateA) return -1;
+      if (dateB) return 1;
+      return a.title.localeCompare(b.title);
+    });
 
     return NextResponse.json({ articles: all, total: all.length });
   } catch (err) {

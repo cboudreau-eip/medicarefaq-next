@@ -19,6 +19,9 @@ import {
   Lock,
   LogOut,
   ImageIcon,
+  Calendar,
+  LayoutGrid,
+  ArrowUpDown,
 } from "lucide-react";
 
 interface ArticleListItem {
@@ -27,6 +30,10 @@ interface ArticleListItem {
   seoTitle: string;
   seoDescription: string;
   ogImage: string;
+  image: string;
+  excerpt: string;
+  date: string;
+  category: string;
   type: "blog" | "coverage";
   url: string;
 }
@@ -48,6 +55,7 @@ interface ArticleDetail {
 }
 
 type SaveStatus = "idle" | "saving" | "success" | "error";
+type SortMode = "recent" | "alpha";
 
 export default function GitHubEditorDashboard() {
   const router = useRouter();
@@ -66,6 +74,7 @@ export default function GitHubEditorDashboard() {
   const [listError, setListError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [typeFilter, setTypeFilter] = useState<"all" | "blog" | "coverage">("all");
+  const [sortMode, setSortMode] = useState<SortMode>("recent");
 
   // Selected article state
   const [selected, setSelected] = useState<ArticleListItem | null>(null);
@@ -181,7 +190,7 @@ export default function GitHubEditorDashboard() {
     }
   }, [authenticated, loadArticles]);
 
-  // Filter articles
+  // Filter and sort articles
   useEffect(() => {
     let list = articles;
     if (typeFilter !== "all") list = list.filter((a) => a.type === typeFilter);
@@ -193,8 +202,13 @@ export default function GitHubEditorDashboard() {
           a.slug.toLowerCase().includes(q)
       );
     }
+    // Apply sort
+    if (sortMode === "alpha") {
+      list = [...list].sort((a, b) => a.title.localeCompare(b.title));
+    }
+    // "recent" is already the default sort from the API
     setFiltered(list);
-  }, [articles, search, typeFilter]);
+  }, [articles, search, typeFilter, sortMode]);
 
   // Load article detail
   const loadDetail = useCallback(
@@ -266,6 +280,21 @@ export default function GitHubEditorDashboard() {
       setSaveMessage(String(err));
     }
   };
+
+  // Helper: format date for display
+  const formatDate = (dateStr: string) => {
+    if (!dateStr) return "";
+    try {
+      const d = new Date(dateStr);
+      return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    } catch {
+      return dateStr;
+    }
+  };
+
+  // Helper: get article counts
+  const blogCount = articles.filter((a) => a.type === "blog").length;
+  const coverageCount = articles.filter((a) => a.type === "coverage").length;
 
   const titleCharCount = editSeoTitle.length;
   const descCharCount = editSeoDesc.length;
@@ -347,7 +376,7 @@ export default function GitHubEditorDashboard() {
             <ArrowLeft className="w-5 h-5" />
           </button>
           <Github className="w-5 h-5 text-gray-700" />
-          <span className="font-semibold text-gray-900">GitHub CMS Editor</span>
+          <span className="font-semibold text-gray-900">MedicareFAQ CMS Editor</span>
         </div>
         <div className="flex items-center gap-3">
           <span className="text-sm text-gray-500">
@@ -373,7 +402,7 @@ export default function GitHubEditorDashboard() {
 
       <div className="flex flex-1 overflow-hidden" style={{ height: "calc(100vh - 57px)" }}>
         {/* Sidebar — Article List */}
-        <aside className="w-80 bg-white border-r border-gray-200 flex flex-col shrink-0 overflow-hidden">
+        <aside className="w-72 bg-white border-r border-gray-200 flex flex-col shrink-0 overflow-hidden">
           {/* Search + Filter */}
           <div className="p-4 border-b border-gray-100 space-y-3">
             <div className="relative">
@@ -391,13 +420,13 @@ export default function GitHubEditorDashboard() {
                 <button
                   key={t}
                   onClick={() => setTypeFilter(t)}
-                  className={`flex-1 text-xs py-1.5 rounded-md font-medium transition-colors capitalize ${
+                  className={`flex-1 text-xs py-1.5 rounded-md font-medium transition-colors ${
                     typeFilter === t
                       ? "bg-teal-600 text-white"
                       : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                   }`}
                 >
-                  {t === "coverage" ? "FAQ" : t}
+                  {t === "all" ? `All` : t === "blog" ? `Blog (${blogCount})` : `FAQ (${coverageCount})`}
                 </button>
               ))}
             </div>
@@ -447,15 +476,20 @@ export default function GitHubEditorDashboard() {
                       {article.title}
                     </p>
                     <p className="text-xs text-gray-400 truncate mt-0.5">{article.slug}</p>
-                    <span
-                      className={`inline-block mt-1 text-xs px-1.5 py-0.5 rounded font-medium ${
-                        article.type === "blog"
-                          ? "bg-blue-50 text-blue-600"
-                          : "bg-teal-50 text-teal-600"
-                      }`}
-                    >
-                      {article.type === "blog" ? "Blog" : "FAQ"}
-                    </span>
+                    <div className="flex items-center gap-2 mt-1">
+                      <span
+                        className={`inline-block text-xs px-1.5 py-0.5 rounded font-medium ${
+                          article.type === "blog"
+                            ? "bg-blue-50 text-blue-600"
+                            : "bg-teal-50 text-teal-600"
+                        }`}
+                      >
+                        {article.type === "blog" ? "Blog" : "FAQ"}
+                      </span>
+                      {article.date && (
+                        <span className="text-xs text-gray-400">{formatDate(article.date)}</span>
+                      )}
+                    </div>
                   </div>
                   <ChevronRight className="w-4 h-4 text-gray-300 shrink-0 mt-1" />
                 </button>
@@ -463,18 +497,140 @@ export default function GitHubEditorDashboard() {
           </div>
         </aside>
 
-        {/* Main Editor Panel */}
+        {/* Main Panel */}
         <main className="flex-1 overflow-y-auto">
+          {/* Card Grid — shown when no article is selected */}
           {!selected && (
-            <div className="flex flex-col items-center justify-center h-full text-gray-400">
-              <Github className="w-12 h-12 mb-4 opacity-30" />
-              <p className="text-lg font-medium text-gray-500">Select an article to edit</p>
-              <p className="text-sm mt-1">Choose a blog post or FAQ from the left panel</p>
+            <div className="p-6">
+              {/* Grid Header */}
+              <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center gap-3">
+                  <LayoutGrid className="w-5 h-5 text-gray-400" />
+                  <h2 className="text-lg font-semibold text-gray-900">All Articles</h2>
+                  <span className="text-sm text-gray-400 bg-gray-100 px-2.5 py-0.5 rounded-full font-medium">
+                    {filtered.length}
+                  </span>
+                </div>
+                <button
+                  onClick={() => setSortMode(sortMode === "recent" ? "alpha" : "recent")}
+                  className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-700 bg-white border border-gray-200 rounded-lg px-3 py-1.5 hover:bg-gray-50 transition-colors"
+                >
+                  <ArrowUpDown className="w-3.5 h-3.5" />
+                  {sortMode === "recent" ? "Most Recent" : "A–Z"}
+                </button>
+              </div>
+
+              {/* Loading State */}
+              {loading && (
+                <div className="flex items-center justify-center py-24 text-gray-400">
+                  <Loader2 className="w-6 h-6 animate-spin mr-3" />
+                  <span className="text-base">Loading articles...</span>
+                </div>
+              )}
+
+              {/* Error State */}
+              {listError && (
+                <div className="flex items-center gap-2 text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-4 py-3">
+                  <AlertCircle className="w-4 h-4 shrink-0" />
+                  <span>{listError}</span>
+                </div>
+              )}
+
+              {/* Empty State */}
+              {!loading && !listError && filtered.length === 0 && (
+                <div className="flex flex-col items-center justify-center py-24 text-gray-400">
+                  <FileText className="w-12 h-12 mb-3 opacity-30" />
+                  <p className="text-base font-medium text-gray-500">No articles found</p>
+                  <p className="text-sm mt-1">Try adjusting your search or filter.</p>
+                </div>
+              )}
+
+              {/* Card Grid */}
+              {!loading && !listError && filtered.length > 0 && (
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+                  {filtered.map((article) => (
+                    <button
+                      key={`card-${article.type}-${article.slug}`}
+                      onClick={() => loadDetail(article)}
+                      className="group text-left bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 hover:border-gray-300 transition-all duration-200"
+                    >
+                      {/* Thumbnail */}
+                      <div className="relative h-40 bg-gray-100 overflow-hidden">
+                        {(article.image || article.ogImage) ? (
+                          <img
+                            src={article.image || article.ogImage}
+                            alt={article.title}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).style.display = "none";
+                            }}
+                          />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center">
+                            <ImageIcon className="w-10 h-10 text-gray-300" />
+                          </div>
+                        )}
+                        {/* Type Badge */}
+                        <div className="absolute top-3 left-3">
+                          <span
+                            className={`inline-block text-[11px] font-bold tracking-wider uppercase px-2.5 py-0.5 rounded-md text-white ${
+                              article.type === "blog" ? "bg-blue-500" : "bg-teal-500"
+                            }`}
+                          >
+                            {article.type === "blog" ? "Blog" : "FAQ"}
+                          </span>
+                        </div>
+                        {/* Category Badge */}
+                        {article.category && (
+                          <div className="absolute top-3 right-3">
+                            <span className="inline-block text-[10px] font-semibold tracking-wide uppercase px-2 py-0.5 rounded-md bg-white/90 text-gray-600 backdrop-blur-sm">
+                              {article.category}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Card Content */}
+                      <div className="p-4">
+                        <h3 className="font-semibold text-gray-900 text-sm leading-snug mb-2 line-clamp-2 group-hover:text-teal-700 transition-colors">
+                          {article.title}
+                        </h3>
+                        {(article.seoDescription || article.excerpt) && (
+                          <p className="text-xs text-gray-500 leading-relaxed mb-3 line-clamp-2">
+                            {article.seoDescription || article.excerpt}
+                          </p>
+                        )}
+                        <div className="flex items-center justify-between">
+                          {article.date && (
+                            <span className="flex items-center gap-1.5 text-xs text-gray-400">
+                              <Calendar className="w-3 h-3" />
+                              {formatDate(article.date)}
+                            </span>
+                          )}
+                          <span className="text-xs text-gray-400 font-mono truncate max-w-[140px]">
+                            {article.slug}
+                          </span>
+                        </div>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           )}
 
+          {/* Article Editor — shown when an article is selected */}
           {selected && (
             <div className="max-w-3xl mx-auto px-8 py-8">
+              {/* Back to grid button */}
+              <button
+                onClick={() => { setSelected(null); setDetail(null); }}
+                className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-700 mb-6 transition-colors"
+              >
+                <ArrowLeft className="w-4 h-4" />
+                Back to all articles
+              </button>
+
               {/* Article Header */}
               <div className="flex items-start justify-between mb-8">
                 <div>
