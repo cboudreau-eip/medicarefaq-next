@@ -50,7 +50,7 @@ function generateSlug(title: string): string {
 
 export default function CreateArticlePage() {
   const router = useRouter();
-  const { authenticated, authLoading, login, logout, authFetch } = useCMSAuth();
+  const { authenticated, authLoading, password, login, logout, authFetch } = useCMSAuth();
 
   // Form state
   const [title, setTitle] = useState("");
