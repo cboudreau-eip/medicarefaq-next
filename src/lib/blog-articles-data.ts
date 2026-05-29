@@ -192,33 +192,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "Countable assets typically include checking and savings accounts, stocks, and bonds. Generally excluded are your primary home, one vehicle, personal belongings, and life insurance with a low face value. Many states have eliminated or significantly raised asset limits, so you should not assume you're ineligible based on assets before checking with your state Medicaid agency." },
     ],
   },
-
-  {
-    slug: "article-creation-test",
-    seo: {
-      title: "Article Creation Test",
-      description: "",
-      canonical: "https://www.medicarefaq.com/blog/article-creation-test/",
-      ogImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1200&q=80",
-    },
-    title: "Article Creation Test",
-    excerpt: "",
-    category: "General",
-    categoryColor: "#0D9488",
-    date: "May 29, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "5 min read",
-    featured: false,
-    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Article Creation Test",
-    tableOfContents: [],
-    sections: [
-      { type: "paragraph", content: "Article content coming soon." },
-    ],
-  },
-
-  {
+{
     slug: "medicare-at-65-month-by-month-timeline",
     seo: {
       title: "Medicare at 65: A Month-by-Month Timeline of What to Do and When | MedicareFAQ",
