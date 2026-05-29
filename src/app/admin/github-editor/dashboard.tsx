@@ -626,7 +626,7 @@ export default function GitHubEditorDashboard() {
                     {sortMode === "recent" ? "Most Recent" : "A–Z"}
                   </button>
                   <button
-                    onClick={() => { setShowCreateForm(true); setCreateError(""); setCreateSuccess(""); }}
+                    onClick={() => router.push("/admin/github-editor/create")}
                     className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-3 py-1.5 hover:bg-teal-700 transition-colors"
                   >
                     <Plus className="w-3.5 h-3.5" />
