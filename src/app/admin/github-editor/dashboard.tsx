@@ -333,7 +333,7 @@ export default function GitHubEditorDashboard() {
           category: newCategory,
           image: newImage,
           imageAlt: newImageAlt,
-          sectionsRaw: newSectionsRaw,
+          htmlBody: newSectionsRaw,
         }),
       });
       const data = await res.json();
@@ -1252,20 +1252,20 @@ export default function GitHubEditorDashboard() {
                 )}
               </div>
 
-              {/* Body Content */}
+              {/* Body Content (HTML) */}
               <div>
                 <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
-                  Body Content (optional — raw sections array)
+                  Article Body (HTML)
                 </label>
                 <textarea
                   value={newSectionsRaw}
                   onChange={(e) => setNewSectionsRaw(e.target.value)}
-                  rows={6}
-                  className="w-full text-xs font-mono border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-y bg-gray-50"
-                  placeholder={`[\n  { type: "paragraph", content: "Your article content here..." },\n]`}
+                  rows={10}
+                  className="w-full text-sm font-mono border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-y bg-gray-50"
+                  placeholder={`<h2>Section Title</h2>\n<p>Your article content here. Supports <strong>bold</strong>, <em>italic</em>, and <a href=\"/link\">links</a>.</p>\n<ul>\n  <li>List item one</li>\n  <li>List item two</li>\n</ul>`}
                   spellCheck={false}
                 />
-                <p className="text-xs text-gray-400 mt-1">Leave blank for a placeholder. You can edit the full content later.</p>
+                <p className="text-xs text-gray-400 mt-1">Paste standard HTML. Supports: paragraphs, headings (h2/h3), lists, tables, images, blockquotes. Leave blank for a placeholder.</p>
               </div>
             </div>
 

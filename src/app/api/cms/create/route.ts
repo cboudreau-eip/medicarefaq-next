@@ -63,6 +63,272 @@ function escapeTS(str: string): string {
 }
 
 /**
+ * Generate a URL-friendly ID from heading text.
+ */
+function generateId(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/<[^>]*>/g, "") // strip HTML tags
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+/**
+ * Strip HTML tags but preserve inner text content.
+ */
+function stripTags(html: string): string {
+  return html.replace(/<[^>]*>/g, "");
+}
+
+/**
+ * Get inner HTML content from a tag match (handles self-closing and content between tags).
+ */
+function getInnerHTML(element: string, tagName: string): string {
+  const openTagRegex = new RegExp(`<${tagName}[^>]*>`, "i");
+  const closeTagRegex = new RegExp(`</${tagName}>`, "i");
+  const withoutOpen = element.replace(openTagRegex, "");
+  return withoutOpen.replace(closeTagRegex, "").trim();
+}
+
+/**
+ * Parse an HTML list (ul/ol) and return the items as strings.
+ * Preserves inline HTML (links, bold, italic) within list items.
+ */
+function parseListItems(listHtml: string): string[] {
+  const items: string[] = [];
+  const liRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+  let match;
+  while ((match = liRegex.exec(listHtml)) !== null) {
+    const content = match[1].trim();
+    items.push(content);
+  }
+  return items;
+}
+
+/**
+ * Parse an HTML table and return headers and rows.
+ */
+function parseTable(tableHtml: string): { headers: string[]; rows: string[][] } {
+  const headers: string[] = [];
+  const rows: string[][] = [];
+
+  // Extract headers from <th> tags
+  const thRegex = /<th[^>]*>([\s\S]*?)<\/th>/gi;
+  let thMatch;
+  while ((thMatch = thRegex.exec(tableHtml)) !== null) {
+    headers.push(stripTags(thMatch[1]).trim());
+  }
+
+  // Extract rows from <tr> tags that contain <td>
+  const trRegex = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+  let trMatch;
+  while ((trMatch = trRegex.exec(tableHtml)) !== null) {
+    const rowHtml = trMatch[1];
+    if (!/<td/i.test(rowHtml)) continue; // skip header rows
+    const cells: string[] = [];
+    const tdRegex = /<td[^>]*>([\s\S]*?)<\/td>/gi;
+    let tdMatch;
+    while ((tdMatch = tdRegex.exec(rowHtml)) !== null) {
+      cells.push(stripTags(tdMatch[1]).trim());
+    }
+    if (cells.length > 0) rows.push(cells);
+  }
+
+  return { headers, rows };
+}
+
+interface Section {
+  type: string;
+  [key: string]: unknown;
+}
+
+/**
+ * Convert HTML string to BlogSectionContent[] array.
+ * Supports: p, h2, h3, h4, ul, ol, table, blockquote, img, figure.
+ * Inline HTML (links, bold, italic) within paragraphs and list items is preserved.
+ */
+function htmlToSections(html: string): Section[] {
+  const sections: Section[] = [];
+
+  // Normalize whitespace between tags but preserve content
+  const normalized = html
+    .replace(/\r\n/g, "\n")
+    .replace(/\r/g, "\n")
+    .trim();
+
+  // Split into top-level block elements using a regex that matches block tags
+  const blockRegex = /<(h[1-6]|p|ul|ol|table|blockquote|figure|img|div)(\s[^>]*)?>[\s\S]*?<\/\1>|<img[^>]*\/?>|<hr[^>]*\/?>/gi;
+  let match;
+
+  while ((match = blockRegex.exec(normalized)) !== null) {
+    const element = match[0];
+    const tagName = match[1]?.toLowerCase() || "";
+
+    // Headings (h2, h3, h4)
+    if (/^h[2-4]$/i.test(tagName)) {
+      const level = parseInt(tagName[1]) as 2 | 3;
+      const text = getInnerHTML(element, tagName);
+      const plainText = stripTags(text);
+      sections.push({
+        type: "heading",
+        level: Math.min(level, 3) as 2 | 3,
+        text: plainText,
+        id: generateId(plainText),
+      });
+    }
+    // Paragraphs
+    else if (tagName === "p") {
+      const content = getInnerHTML(element, "p");
+      if (content.trim()) {
+        // Convert <a href="...">text</a> to [text](url) markdown-style links
+        const withLinks = content
+          .replace(/<a\s+href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, "[$2]($1)")
+          .replace(/<strong>([\s\S]*?)<\/strong>/gi, "**$1**")
+          .replace(/<b>([\s\S]*?)<\/b>/gi, "**$1**")
+          .replace(/<em>([\s\S]*?)<\/em>/gi, "*$1*")
+          .replace(/<i>([\s\S]*?)<\/i>/gi, "*$1*")
+          .replace(/<br\s*\/?>/gi, " ")
+          .replace(/<[^>]*>/g, ""); // strip any remaining tags
+        sections.push({ type: "paragraph", content: withLinks.trim() });
+      }
+    }
+    // Unordered lists
+    else if (tagName === "ul") {
+      const items = parseListItems(element).map((item) =>
+        item
+          .replace(/<a\s+href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, "[$2]($1)")
+          .replace(/<strong>([\s\S]*?)<\/strong>/gi, "**$1**")
+          .replace(/<b>([\s\S]*?)<\/b>/gi, "**$1**")
+          .replace(/<em>([\s\S]*?)<\/em>/gi, "*$1*")
+          .replace(/<i>([\s\S]*?)<\/i>/gi, "*$1*")
+          .replace(/<[^>]*>/g, "")
+      );
+      if (items.length > 0) {
+        sections.push({ type: "list", ordered: false, items });
+      }
+    }
+    // Ordered lists
+    else if (tagName === "ol") {
+      const items = parseListItems(element).map((item) =>
+        item
+          .replace(/<a\s+href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, "[$2]($1)")
+          .replace(/<strong>([\s\S]*?)<\/strong>/gi, "**$1**")
+          .replace(/<b>([\s\S]*?)<\/b>/gi, "**$1**")
+          .replace(/<em>([\s\S]*?)<\/em>/gi, "*$1*")
+          .replace(/<i>([\s\S]*?)<\/i>/gi, "*$1*")
+          .replace(/<[^>]*>/g, "")
+      );
+      if (items.length > 0) {
+        sections.push({ type: "list", ordered: true, items });
+      }
+    }
+    // Tables
+    else if (tagName === "table") {
+      const { headers, rows } = parseTable(element);
+      if (rows.length > 0) {
+        sections.push({ type: "table", title: "", headers, rows });
+      }
+    }
+    // Blockquotes → callouts
+    else if (tagName === "blockquote") {
+      const inner = getInnerHTML(element, "blockquote");
+      const text = stripTags(inner).trim();
+      sections.push({
+        type: "callout",
+        calloutType: "info",
+        calloutTitle: "Note",
+        calloutText: text,
+      });
+    }
+    // Images (standalone or within figure)
+    else if (tagName === "figure") {
+      const imgMatch = element.match(/<img[^>]*src="([^"]*)"[^>]*>/i);
+      const altMatch = element.match(/alt="([^"]*)"/i);
+      const captionMatch = element.match(/<figcaption[^>]*>([\s\S]*?)<\/figcaption>/i);
+      if (imgMatch) {
+        sections.push({
+          type: "image",
+          src: imgMatch[1],
+          alt: altMatch?.[1] ?? "",
+          caption: captionMatch ? stripTags(captionMatch[1]).trim() : "",
+        });
+      }
+    }
+    else if (tagName === "img" || element.startsWith("<img")) {
+      const srcMatch = element.match(/src="([^"]*)"/i);
+      const altMatch = element.match(/alt="([^"]*)"/i);
+      if (srcMatch) {
+        sections.push({
+          type: "image",
+          src: srcMatch[1],
+          alt: altMatch?.[1] ?? "",
+        });
+      }
+    }
+  }
+
+  // If no sections were parsed (maybe plain text without tags), wrap as paragraph
+  if (sections.length === 0 && html.trim()) {
+    sections.push({ type: "paragraph", content: stripTags(html).trim() });
+  }
+
+  return sections;
+}
+
+/**
+ * Generate a table of contents from h2 sections.
+ */
+function generateTOC(sections: Section[]): { id: string; title: string }[] {
+  return sections
+    .filter((s) => s.type === "heading" && s.level === 2)
+    .map((s) => ({ id: s.id as string, title: s.text as string }));
+}
+
+/**
+ * Serialize a sections array to a TypeScript string representation.
+ */
+function serializeSections(sections: Section[]): string {
+  const lines = sections.map((section) => {
+    switch (section.type) {
+      case "paragraph":
+        return `      { type: "paragraph", content: "${escapeTS(section.content as string)}" }`;
+      case "heading":
+        return `      { type: "heading", level: ${section.level}, text: "${escapeTS(section.text as string)}", id: "${escapeTS(section.id as string)}" }`;
+      case "list": {
+        const items = (section.items as string[]).map((i) => `"${escapeTS(i)}"`).join(", ");
+        return `      { type: "list", ordered: ${section.ordered}, items: [${items}] }`;
+      }
+      case "table": {
+        const headers = (section.headers as string[]).map((h) => `"${escapeTS(h)}"`).join(", ");
+        const rows = (section.rows as string[][])
+          .map((row) => `[${row.map((c) => `"${escapeTS(c)}"`).join(", ")}]`)
+          .join(", ");
+        return `      { type: "table", title: "${escapeTS((section.title as string) || "")}", headers: [${headers}], rows: [${rows}] }`;
+      }
+      case "callout":
+        return `      { type: "callout", calloutType: "${section.calloutType}", calloutTitle: "${escapeTS(section.calloutTitle as string)}", calloutText: "${escapeTS(section.calloutText as string)}" }`;
+      case "image":
+        return `      { type: "image", src: "${escapeTS(section.src as string)}", alt: "${escapeTS((section.alt as string) || "")}"${section.caption ? `, caption: "${escapeTS(section.caption as string)}"` : ""} }`;
+      default:
+        return `      { type: "paragraph", content: "${escapeTS(JSON.stringify(section))}" }`;
+    }
+  });
+
+  return `[\n${lines.join(",\n")},\n    ]`;
+}
+
+/**
+ * Serialize a table of contents array to TypeScript string.
+ */
+function serializeTOC(toc: { id: string; title: string }[]): string {
+  if (toc.length === 0) return "[]";
+  const entries = toc.map((t) => `      { id: "${escapeTS(t.id)}", title: "${escapeTS(t.title)}" }`);
+  return `[\n${entries.join(",\n")},\n    ]`;
+}
+
+/**
  * Build a new BlogArticleData object as a TypeScript string.
  */
 function buildArticleObject(data: {
@@ -77,11 +343,16 @@ function buildArticleObject(data: {
   seoTitle: string;
   seoDescription: string;
   ogImage: string;
-  sectionsRaw: string;
+  htmlBody: string;
 }): string {
-  const sections = data.sectionsRaw.trim() || `[
-      { type: "paragraph", content: "Article content coming soon." },
-    ]`;
+  // Parse HTML to sections
+  const sections = data.htmlBody.trim()
+    ? htmlToSections(data.htmlBody)
+    : [{ type: "paragraph", content: "Article content coming soon." }];
+
+  const toc = generateTOC(sections);
+  const sectionsStr = serializeSections(sections);
+  const tocStr = serializeTOC(toc);
 
   return `  {
     slug: "${escapeTS(data.slug)}",
@@ -102,8 +373,8 @@ function buildArticleObject(data: {
     featured: false,
     image: "${escapeTS(data.image)}",
     imageAlt: "${escapeTS(data.imageAlt || data.title)}",
-    tableOfContents: [],
-    sections: ${sections},
+    tableOfContents: ${tocStr},
+    sections: ${sectionsStr},
   }`;
 }
 
@@ -114,7 +385,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { slug, title, excerpt, category, date, author, image, imageAlt, seoTitle, seoDescription, ogImage, sectionsRaw } = body;
+    const { slug, title, excerpt, category, date, author, image, imageAlt, seoTitle, seoDescription, ogImage, htmlBody } = body;
 
     // Validate required fields
     if (!slug || !title) {
@@ -149,11 +420,10 @@ export async function POST(req: NextRequest) {
       seoTitle: seoTitle ?? "",
       seoDescription: seoDescription ?? "",
       ogImage: ogImage ?? "",
-      sectionsRaw: sectionsRaw ?? "",
+      htmlBody: htmlBody ?? "",
     });
 
     // Insert the new article at the beginning of the array (after the opening bracket)
-    // Find the opening bracket of the array: `export const blogArticles: BlogArticleData[] = [`
     const arrayStartRegex = /export\s+const\s+blogArticles[^=]*=\s*\[/;
     const arrayStartMatch = currentSrc.match(arrayStartRegex);
     if (!arrayStartMatch || arrayStartMatch.index === undefined) {
