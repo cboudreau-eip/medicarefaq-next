@@ -22,6 +22,8 @@ import {
   Calendar,
   LayoutGrid,
   ArrowUpDown,
+  Plus,
+  X,
 } from "lucide-react";
 
 interface ArticleListItem {
@@ -94,6 +96,19 @@ export default function GitHubEditorDashboard() {
   // Save state
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [saveMessage, setSaveMessage] = useState("");
+
+  // Create article state
+  const [showCreateForm, setShowCreateForm] = useState(false);
+  const [createLoading, setCreateLoading] = useState(false);
+  const [createError, setCreateError] = useState("");
+  const [createSuccess, setCreateSuccess] = useState("");
+  const [newTitle, setNewTitle] = useState("");
+  const [newSlug, setNewSlug] = useState("");
+  const [newExcerpt, setNewExcerpt] = useState("");
+  const [newCategory, setNewCategory] = useState("General");
+  const [newImage, setNewImage] = useState("");
+  const [newImageAlt, setNewImageAlt] = useState("");
+  const [newSectionsRaw, setNewSectionsRaw] = useState("");
 
   // Check for stored session on mount
   useEffect(() => {
@@ -278,6 +293,63 @@ export default function GitHubEditorDashboard() {
     } catch (err) {
       setSaveStatus("error");
       setSaveMessage(String(err));
+    }
+  };
+
+  // Auto-generate slug from title
+  const generateSlug = (title: string) => {
+    return title
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, "")
+      .replace(/\s+/g, "-")
+      .replace(/-+/g, "-")
+      .replace(/^-|-$/g, "")
+      .slice(0, 60);
+  };
+
+  // Handle create article
+  const handleCreate = async () => {
+    if (!newTitle.trim() || !newSlug.trim()) {
+      setCreateError("Title and slug are required.");
+      return;
+    }
+    setCreateLoading(true);
+    setCreateError("");
+    setCreateSuccess("");
+    try {
+      const res = await authFetch("/api/cms/create", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          slug: newSlug,
+          title: newTitle,
+          excerpt: newExcerpt,
+          category: newCategory,
+          image: newImage,
+          imageAlt: newImageAlt,
+          sectionsRaw: newSectionsRaw,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Create failed");
+      setCreateSuccess(data.message ?? "Article created successfully!");
+      // Reset form after short delay
+      setTimeout(() => {
+        setShowCreateForm(false);
+        setNewTitle("");
+        setNewSlug("");
+        setNewExcerpt("");
+        setNewCategory("General");
+        setNewImage("");
+        setNewImageAlt("");
+        setNewSectionsRaw("");
+        setCreateSuccess("");
+        loadArticles(); // Refresh the list
+      }, 2000);
+    } catch (err) {
+      setCreateError(String(err));
+    } finally {
+      setCreateLoading(false);
     }
   };
 
@@ -511,13 +583,22 @@ export default function GitHubEditorDashboard() {
                     {filtered.length}
                   </span>
                 </div>
-                <button
-                  onClick={() => setSortMode(sortMode === "recent" ? "alpha" : "recent")}
-                  className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-700 bg-white border border-gray-200 rounded-lg px-3 py-1.5 hover:bg-gray-50 transition-colors"
-                >
-                  <ArrowUpDown className="w-3.5 h-3.5" />
-                  {sortMode === "recent" ? "Most Recent" : "A–Z"}
-                </button>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => setSortMode(sortMode === "recent" ? "alpha" : "recent")}
+                    className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-700 bg-white border border-gray-200 rounded-lg px-3 py-1.5 hover:bg-gray-50 transition-colors"
+                  >
+                    <ArrowUpDown className="w-3.5 h-3.5" />
+                    {sortMode === "recent" ? "Most Recent" : "A–Z"}
+                  </button>
+                  <button
+                    onClick={() => { setShowCreateForm(true); setCreateError(""); setCreateSuccess(""); }}
+                    className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-3 py-1.5 hover:bg-teal-700 transition-colors"
+                  >
+                    <Plus className="w-3.5 h-3.5" />
+                    New Article
+                  </button>
+                </div>
               </div>
 
               {/* Loading State */}
@@ -923,6 +1004,189 @@ export default function GitHubEditorDashboard() {
           )}
         </main>
       </div>
+
+      {/* Create Article Modal */}
+      {showCreateForm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-2xl shadow-2xl border border-gray-200 w-full max-w-lg max-h-[90vh] overflow-y-auto">
+            {/* Modal Header */}
+            <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200">
+              <h2 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
+                <Plus className="w-5 h-5 text-teal-600" />
+                New Blog Article
+              </h2>
+              <button
+                onClick={() => setShowCreateForm(false)}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="px-6 py-5 space-y-4">
+              {/* Success Banner */}
+              {createSuccess && (
+                <div className="flex items-center gap-2 text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg px-4 py-3">
+                  <CheckCircle2 className="w-4 h-4 shrink-0" />
+                  <span>{createSuccess}</span>
+                </div>
+              )}
+
+              {/* Error Banner */}
+              {createError && (
+                <div className="flex items-center gap-2 text-sm text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+                  <AlertCircle className="w-4 h-4 shrink-0" />
+                  <span>{createError}</span>
+                </div>
+              )}
+
+              {/* Title */}
+              <div>
+                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                  Article Title *
+                </label>
+                <input
+                  type="text"
+                  value={newTitle}
+                  onChange={(e) => {
+                    setNewTitle(e.target.value);
+                    if (!newSlug || newSlug === generateSlug(newTitle)) {
+                      setNewSlug(generateSlug(e.target.value));
+                    }
+                  }}
+                  className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                  placeholder="e.g., Understanding Medicare Part B Costs"
+                  autoFocus
+                />
+              </div>
+
+              {/* Slug */}
+              <div>
+                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                  URL Slug *
+                </label>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-gray-400 font-mono">/blog/</span>
+                  <input
+                    type="text"
+                    value={newSlug}
+                    onChange={(e) => setNewSlug(e.target.value)}
+                    className="flex-1 text-sm font-mono border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                    placeholder="understanding-medicare-part-b-costs"
+                  />
+                </div>
+              </div>
+
+              {/* Excerpt */}
+              <div>
+                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                  Excerpt / Summary
+                </label>
+                <textarea
+                  value={newExcerpt}
+                  onChange={(e) => setNewExcerpt(e.target.value)}
+                  rows={2}
+                  className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none"
+                  placeholder="A brief summary of the article..."
+                />
+              </div>
+
+              {/* Category */}
+              <div>
+                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                  Category
+                </label>
+                <select
+                  value={newCategory}
+                  onChange={(e) => setNewCategory(e.target.value)}
+                  className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white"
+                >
+                  <option value="General">General</option>
+                  <option value="Enrollment">Enrollment</option>
+                  <option value="Costs">Costs</option>
+                  <option value="Coverage">Coverage</option>
+                  <option value="Plans">Plans</option>
+                  <option value="Supplements">Supplements</option>
+                  <option value="Advantage">Advantage</option>
+                  <option value="Part D">Part D</option>
+                  <option value="Eligibility">Eligibility</option>
+                </select>
+              </div>
+
+              {/* Featured Image */}
+              <div>
+                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                  Featured Image URL
+                </label>
+                <input
+                  type="url"
+                  value={newImage}
+                  onChange={(e) => setNewImage(e.target.value)}
+                  className="w-full text-sm font-mono border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                  placeholder="https://images.unsplash.com/..."
+                />
+                {newImage && (
+                  <div className="mt-2 rounded-lg overflow-hidden border border-gray-200 bg-gray-50 h-32">
+                    <img
+                      src={newImage}
+                      alt="Preview"
+                      className="w-full h-full object-cover"
+                      onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                    />
+                  </div>
+                )}
+              </div>
+
+              {/* Body Content */}
+              <div>
+                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                  Body Content (optional — raw sections array)
+                </label>
+                <textarea
+                  value={newSectionsRaw}
+                  onChange={(e) => setNewSectionsRaw(e.target.value)}
+                  rows={6}
+                  className="w-full text-xs font-mono border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-y bg-gray-50"
+                  placeholder={`[\n  { type: "paragraph", content: "Your article content here..." },\n]`}
+                  spellCheck={false}
+                />
+                <p className="text-xs text-gray-400 mt-1">Leave blank for a placeholder. You can edit the full content later.</p>
+              </div>
+            </div>
+
+            {/* Modal Footer */}
+            <div className="flex items-center justify-between px-6 py-4 border-t border-gray-200 bg-gray-50 rounded-b-2xl">
+              <p className="text-xs text-gray-400">Creates article and deploys to production</p>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setShowCreateForm(false)}
+                  className="text-sm text-gray-500 hover:text-gray-700 px-3 py-1.5 rounded-lg hover:bg-gray-100 transition-colors"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={handleCreate}
+                  disabled={createLoading || !newTitle.trim() || !newSlug.trim()}
+                  className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-4 py-1.5 hover:bg-teal-700 transition-colors disabled:opacity-50"
+                >
+                  {createLoading ? (
+                    <>
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                      Creating...
+                    </>
+                  ) : (
+                    <>
+                      <Plus className="w-3.5 h-3.5" />
+                      Create & Publish
+                    </>
+                  )}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
