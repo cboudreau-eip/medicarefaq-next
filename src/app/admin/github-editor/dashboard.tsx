@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import {
   GitBranch as Github,
@@ -72,7 +72,7 @@ export default function GitHubEditorDashboard() {
 
   // Article list state
   const [articles, setArticles] = useState<ArticleListItem[]>([]);
-  const [filtered, setFiltered] = useState<ArticleListItem[]>([]);
+
   const [loading, setLoading] = useState(false);
   const [listError, setListError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
@@ -211,8 +211,8 @@ export default function GitHubEditorDashboard() {
     }
   }, [authenticated, loadArticles]);
 
-  // Filter and sort articles
-  useEffect(() => {
+  // Filter and sort articles (synchronous via useMemo)
+  const filtered = useMemo(() => {
     let list = articles;
     if (typeFilter !== "all") list = list.filter((a) => a.type === typeFilter);
     if (search.trim()) {
@@ -228,7 +228,7 @@ export default function GitHubEditorDashboard() {
       list = [...list].sort((a, b) => a.title.localeCompare(b.title));
     }
     // "recent" is already the default sort from the API
-    setFiltered(list);
+    return list;
   }, [articles, search, typeFilter, sortMode]);
 
   // Load article detail
