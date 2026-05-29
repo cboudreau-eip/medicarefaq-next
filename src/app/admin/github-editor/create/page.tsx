@@ -12,12 +12,11 @@ import {
   Loader2,
   Plus,
   Eye,
-  Camera,
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
 import CMSHeader from "../components/cms-header";
-import UnsplashPicker from "../components/unsplash-picker";
+import ImageUpload from "../components/image-upload";
 
 const CATEGORIES = [
   "General",
@@ -63,8 +62,6 @@ export default function CreateArticlePage() {
   const [imageAlt, setImageAlt] = useState("");
   const [htmlBody, setHtmlBody] = useState("");
 
-  // Unsplash picker state
-  const [showUnsplash, setShowUnsplash] = useState(false);
 
   // Status state
   const [loading, setLoading] = useState(false);
@@ -301,19 +298,18 @@ export default function CreateArticlePage() {
 
               {/* Featured Image */}
               <div className="bg-white rounded-xl border border-gray-200 p-6">
-                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2 flex items-center gap-2">
+                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-3 flex items-center gap-2">
                   <ImageIcon className="w-3.5 h-3.5 text-gray-400" />
                   Featured Image
                 </label>
-                <button
-                  type="button"
-                  onClick={() => setShowUnsplash(true)}
-                  className="w-full flex items-center justify-center gap-2 text-sm font-semibold bg-gray-900 text-white rounded-lg px-4 py-2.5 hover:bg-gray-800 transition-colors mb-3"
-                >
-                  <Camera className="w-4 h-4" />
-                  Search Unsplash Photos
-                </button>
-                <div className="relative flex items-center mb-2">
+                <ImageUpload
+                  password={password}
+                  onUploaded={(url, fileName) => {
+                    setImage(url);
+                    if (!imageAlt) setImageAlt(fileName.replace(/[-_]/g, " ").replace(/\.[^.]+$/, ""));
+                  }}
+                />
+                <div className="relative flex items-center my-3">
                   <div className="flex-1 border-t border-gray-200"></div>
                   <span className="px-3 text-xs text-gray-400">or paste URL</span>
                   <div className="flex-1 border-t border-gray-200"></div>
@@ -400,18 +396,6 @@ export default function CreateArticlePage() {
         </div>
       </main>
 
-      {/* Unsplash Picker Modal */}
-      {showUnsplash && (
-        <UnsplashPicker
-          password={password}
-          onSelect={(url, alt) => {
-            setImage(url);
-            setImageAlt(alt);
-            setShowUnsplash(false);
-          }}
-          onClose={() => setShowUnsplash(false)}
-        />
-      )}
     </div>
   );
 }

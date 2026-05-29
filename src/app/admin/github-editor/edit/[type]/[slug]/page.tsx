@@ -13,12 +13,11 @@ import {
   ImageIcon,
   Trash2,
   X,
-  Camera,
 } from "lucide-react";
 import { useCMSAuth } from "../../../components/use-cms-auth";
 import LoginScreen from "../../../components/login-screen";
 import CMSHeader from "../../../components/cms-header";
-import UnsplashPicker from "../../../components/unsplash-picker";
+import ImageUpload from "../../../components/image-upload";
 
 interface ArticleDetail {
   slug: string;
@@ -64,8 +63,6 @@ export default function EditArticlePage() {
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [saveMessage, setSaveMessage] = useState("");
 
-  // Unsplash picker state
-  const [showUnsplash, setShowUnsplash] = useState(false);
 
   // Delete state
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
@@ -296,14 +293,13 @@ export default function EditArticlePage() {
                   Featured Image
                 </h2>
                 <div className="space-y-4">
-                  <button
-                    type="button"
-                    onClick={() => setShowUnsplash(true)}
-                    className="w-full flex items-center justify-center gap-2 text-sm font-semibold bg-gray-900 text-white rounded-lg px-4 py-2.5 hover:bg-gray-800 transition-colors"
-                  >
-                    <Camera className="w-4 h-4" />
-                    Search Unsplash Photos
-                  </button>
+                  <ImageUpload
+                    password={password}
+                    onUploaded={(url, fileName) => {
+                      setEditImage(url);
+                      if (!editImageAlt) setEditImageAlt(fileName.replace(/[-_]/g, " ").replace(/\.[^.]+$/, ""));
+                    }}
+                  />
                   <div className="relative flex items-center">
                     <div className="flex-1 border-t border-gray-200"></div>
                     <span className="px-3 text-xs text-gray-400">or paste URL</span>
@@ -567,18 +563,6 @@ export default function EditArticlePage() {
         </div>
       )}
 
-      {/* Unsplash Picker Modal */}
-      {showUnsplash && (
-        <UnsplashPicker
-          password={password}
-          onSelect={(url, alt) => {
-            setEditImage(url);
-            setEditImageAlt(alt);
-            setShowUnsplash(false);
-          }}
-          onClose={() => setShowUnsplash(false)}
-        />
-      )}
     </div>
   );
 }
