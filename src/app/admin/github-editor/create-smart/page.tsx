@@ -563,14 +563,44 @@ export default function SmartCreatePage() {
     window.open("/admin/github-editor/preview", "_blank");
   };
 
+  // --- Em Dash Removal Utility ---
+  const removeEmDashes = (text: string): string => {
+    return text.replace(/\u2014/g, "-").replace(/\u2013/g, "-");
+  };
+
+  const sanitizeSections = (secs: BlogSection[]): BlogSection[] => {
+    return secs.map((s) => {
+      const cleaned = { ...s };
+      if (cleaned.content) cleaned.content = removeEmDashes(cleaned.content);
+      if (cleaned.text) cleaned.text = removeEmDashes(cleaned.text);
+      if (cleaned.calloutTitle) cleaned.calloutTitle = removeEmDashes(cleaned.calloutTitle);
+      if (cleaned.calloutText) cleaned.calloutText = removeEmDashes(cleaned.calloutText);
+      if (cleaned.title) cleaned.title = removeEmDashes(cleaned.title);
+      if (cleaned.footnote) cleaned.footnote = removeEmDashes(cleaned.footnote);
+      if (cleaned.items) cleaned.items = cleaned.items.map(removeEmDashes);
+      if (cleaned.headers) cleaned.headers = cleaned.headers.map(removeEmDashes);
+      if (cleaned.rows) cleaned.rows = cleaned.rows.map((row) => row.map(removeEmDashes));
+      if (cleaned.faqs) cleaned.faqs = cleaned.faqs.map((faq) => ({
+        question: removeEmDashes(faq.question),
+        answer: removeEmDashes(faq.answer),
+      }));
+      if (cleaned.caption) cleaned.caption = removeEmDashes(cleaned.caption);
+      return cleaned;
+    });
+  };
+
   // --- Publish ---
   const handlePublish = async () => {
-    if (!sections || sections.length === 0) {
-      setError("Transform content first before publishing.");
-      return;
-    }
-    if (!title || !slug) {
-      setError("Title and slug are required.");
+    // Required fields validation
+    const missing: string[] = [];
+    if (!title.trim()) missing.push("Title");
+    if (!slug.trim()) missing.push("URL Slug");
+    if (!excerpt.trim()) missing.push("Excerpt");
+    if (!category) missing.push("Category");
+    if (!sections || sections.length === 0) missing.push("Transformed Content (click Transform first)");
+
+    if (missing.length > 0) {
+      setError(`Required fields missing: ${missing.join(", ")}`);
       return;
     }
 
@@ -579,23 +609,33 @@ export default function SmartCreatePage() {
     setSuccess("");
 
     try {
+      // Sanitize: remove em dashes from all text content
+      const cleanSections = sanitizeSections(sections!);
+      const cleanTitle = removeEmDashes(title);
+      const cleanExcerpt = removeEmDashes(excerpt);
+      const cleanTakeaways = keyTakeaways.length > 0
+        ? keyTakeaways.map(removeEmDashes)
+        : undefined;
+      const cleanSeoTitle = removeEmDashes(seoTitle);
+      const cleanSeoDescription = removeEmDashes(seoDescription);
+
       const res = await authFetch("/api/cms/create", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          title,
+          title: cleanTitle,
           slug,
-          excerpt,
+          excerpt: cleanExcerpt,
           category,
           author,
           reviewer,
           image,
           imageAlt,
-          seoTitle,
-          seoDescription,
+          seoTitle: cleanSeoTitle,
+          seoDescription: cleanSeoDescription,
           ogImage: image,
-          structuredSections: sections,
-          keyTakeaways: keyTakeaways.length > 0 ? keyTakeaways : undefined,
+          structuredSections: cleanSections,
+          keyTakeaways: cleanTakeaways,
         }),
       });
 
