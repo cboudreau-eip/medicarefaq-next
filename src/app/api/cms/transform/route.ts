@@ -168,7 +168,7 @@ async function generateArticleMeta(
 1. excerpt: A 1-2 sentence summary (max 200 chars)
 2. keyTakeaways: 3-5 bullet points of the most important facts
 3. seoTitle: SEO-optimized title (max 60 chars, include "MedicareFAQ" if space allows)
-4. seoDescription: Meta description (max 160 chars)
+4. seoDescription: Meta description (MUST be 150 characters or fewer, aim for 120-145 characters)
 5. suggestedCategory: One of: Medicare News, Medicare Supplement, Medicare Plans, Getting Started, Enrollment, Senior Living, Medicare Coverage, Healthcare, Medicare Costs, Medicare Basics, Medicare Advantage, General, Eligibility, Benefits
 
 Return as JSON object with these exact keys. Do not use em dashes anywhere.

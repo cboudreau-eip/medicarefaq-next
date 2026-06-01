@@ -604,6 +604,11 @@ export default function SmartCreatePage() {
       return;
     }
 
+    if (seoDescription.length > 150) {
+      setError(`SEO Description is too long (${seoDescription.length}/150 characters). Please shorten it before publishing.`);
+      return;
+    }
+
     setPublishing(true);
     setError("");
     setSuccess("");
@@ -1010,10 +1015,10 @@ export default function SmartCreatePage() {
                         value={seoDescription}
                         onChange={(e) => setSeoDescription(e.target.value)}
                         className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-                        placeholder="Meta description (max 160 chars)"
+                        placeholder="Meta description (max 150 chars)"
                       />
-                      <span className={`text-xs ${seoDescription.length > 160 ? "text-amber-500" : "text-gray-400"}`}>
-                        {seoDescription.length}/160
+                      <span className={`text-xs ${seoDescription.length > 150 ? "text-red-500 font-medium" : seoDescription.length > 130 ? "text-amber-500" : "text-gray-400"}`}>
+                        {seoDescription.length}/150
                       </span>
                     </div>
                   </div>
