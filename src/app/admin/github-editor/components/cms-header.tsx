@@ -7,6 +7,8 @@ import {
   RefreshCw,
   LogOut,
   ArrowLeft,
+  Sparkles,
+  Plus,
 } from "lucide-react";
 
 interface CMSHeaderProps {
@@ -34,13 +36,15 @@ export default function CMSHeader({
 
   const isEditPage = pathname.startsWith("/admin/github-editor/edit/");
   const isCreatePage = pathname === "/admin/github-editor/create";
+  const isSmartCreatePage = pathname === "/admin/github-editor/create-smart";
+  const isSubPage = isEditPage || isCreatePage || isSmartCreatePage;
 
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-0 shrink-0">
       <div className="flex items-center justify-between h-14">
         {/* Left: Logo + Title */}
         <div className="flex items-center gap-3">
-          {(isEditPage || isCreatePage) && (
+          {isSubPage && (
             <Link
               href="/admin/github-editor"
               className="text-gray-400 hover:text-gray-600 transition-colors mr-1"
@@ -55,7 +59,7 @@ export default function CMSHeader({
         </div>
 
         {/* Center: Nav Tabs (only on list pages) */}
-        {!isEditPage && !isCreatePage && (
+        {!isSubPage && (
           <nav className="flex items-center gap-1">
             {navItems.map((item) => {
               const isActive =
@@ -89,6 +93,26 @@ export default function CMSHeader({
 
         {/* Right: Actions */}
         <div className="flex items-center gap-2">
+          {!isSubPage && (
+            <>
+              <Link
+                href="/admin/github-editor/create-smart"
+                className="flex items-center gap-1.5 text-xs font-semibold bg-purple-600 text-white rounded-lg px-3 py-1.5 hover:bg-purple-700 transition-colors"
+                title="Smart Create with AI"
+              >
+                <Sparkles className="w-3.5 h-3.5" />
+                Smart Create
+              </Link>
+              <Link
+                href="/admin/github-editor/create"
+                className="flex items-center gap-1.5 text-xs font-medium text-gray-600 bg-gray-100 rounded-lg px-3 py-1.5 hover:bg-gray-200 transition-colors"
+                title="Create with HTML"
+              >
+                <Plus className="w-3.5 h-3.5" />
+                HTML Create
+              </Link>
+            </>
+          )}
           {onRefresh && (
             <button
               onClick={onRefresh}
