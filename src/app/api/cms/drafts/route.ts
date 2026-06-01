@@ -108,7 +108,7 @@ async function githubListDir(path: string): Promise<{ name: string; sha: string;
   const items = await res.json();
   if (!Array.isArray(items)) return [];
   return items
-    .filter((item: { type: string }) => item.type === "file" && item.name.endsWith(".json"))
+    .filter((item: { type: string; name: string }) => item.type === "file" && item.name.endsWith(".json"))
     .map((item: { name: string; sha: string; download_url: string }) => ({
       name: item.name,
       sha: item.sha,
