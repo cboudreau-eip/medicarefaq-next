@@ -88,32 +88,6 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "If you want personalized guidance, speaking with a licensed Medicare agent who can compare multiple carriers in your area is one of the most practical steps you can take. The right coverage isn't just about the lowest premium today; it's about the best financial protection for the years ahead." },
     ],
   },
-
-  {
-    slug: "test-slug",
-    seo: {
-      title: "test",
-      description: "",
-      canonical: "https://www.medicarefaq.com/blog/test-slug/",
-      ogImage: "",
-    },
-    title: "test",
-    excerpt: "",
-    category: "General",
-    categoryColor: "#0D9488",
-    date: "June 1, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "1 min read",
-    featured: false,
-    image: "",
-    imageAlt: "test",
-    tableOfContents: [],
-    sections: [
-      { type: "paragraph", content: "Article content coming soon." },
-    ],
-  },
-
 {
     slug: "medicare-savings-programs-your-complete-guide-to-eligibility",
     seo: {
