@@ -7,6 +7,31 @@
 import type { BlogArticleData } from "./article-types";
 
 export const blogArticles: BlogArticleData[] = [
+  {
+    slug: "test-slug",
+    seo: {
+      title: "test",
+      description: "",
+      canonical: "https://www.medicarefaq.com/blog/test-slug/",
+      ogImage: "",
+    },
+    title: "test",
+    excerpt: "",
+    category: "General",
+    categoryColor: "#0D9488",
+    date: "June 1, 2026",
+    author: "David Haass",
+    reviewer: "Ashlee Zareczny",
+    readTime: "1 min read",
+    featured: false,
+    image: "",
+    imageAlt: "test",
+    tableOfContents: [],
+    sections: [
+      { type: "paragraph", content: "Article content coming soon." },
+    ],
+  },
+
 {
     slug: "medicare-savings-programs-your-complete-guide-to-eligibility",
     seo: {
