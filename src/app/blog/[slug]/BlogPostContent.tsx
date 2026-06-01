@@ -247,9 +247,16 @@ function renderSection(section: BlogSectionContent, idx: number) {
                   {section.calloutTitle}
                 </p>
               )}
-              <p className="text-[#374151] text-[15px] leading-relaxed">
-                {section.calloutText}
-              </p>
+              <div className="text-[#374151] text-[15px] leading-relaxed callout-content">
+                {(() => {
+                  const text = section.calloutText || "";
+                  // Check if calloutText contains HTML tags
+                  if (/<[a-z][\s\S]*>/i.test(text)) {
+                    return <div dangerouslySetInnerHTML={{ __html: text }} className="callout-html [&_ul]:list-disc [&_ul]:ml-5 [&_ul]:space-y-1 [&_ol]:list-decimal [&_ol]:ml-5 [&_ol]:space-y-1 [&_li]:text-[15px] [&_strong]:font-bold [&_a]:text-[#0D6EFD] [&_a]:underline" />;
+                  }
+                  return <p>{parseInline(text, `callout-${idx}`)}</p>;
+                })()}
+              </div>
             </div>
           </div>
         </div>

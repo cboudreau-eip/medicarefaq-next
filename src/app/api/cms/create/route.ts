@@ -311,8 +311,16 @@ function serializeSections(sections: Section[]): string {
         return `      { type: "callout", calloutType: "${section.calloutType}", calloutTitle: "${escapeTS(section.calloutTitle as string)}", calloutText: "${escapeTS(section.calloutText as string)}" }`;
       case "image":
         return `      { type: "image", src: "${escapeTS(section.src as string)}", alt: "${escapeTS((section.alt as string) || "")}"${section.caption ? `, caption: "${escapeTS(section.caption as string)}"` : ""} }`;
+      case "faq": {
+        const faqs = (section.faqs as { question: string; answer: string }[]) || [];
+        const faqEntries = faqs.map(
+          (f) => `{ question: "${escapeTS(f.question)}", answer: "${escapeTS(f.answer)}" }`
+        );
+        return `      { type: "faq", faqs: [${faqEntries.join(", ")}] }`;
+      }
       default:
-        return `      { type: "paragraph", content: "${escapeTS(JSON.stringify(section))}" }`;
+        // Preserve unknown section types as-is using JSON serialization
+        return `      ${JSON.stringify(section)}`;
     }
   });
 
