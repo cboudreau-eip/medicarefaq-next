@@ -23,6 +23,7 @@ import {
   User,
   Clock,
   FileText,
+  ExternalLink,
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
@@ -47,6 +48,23 @@ const CATEGORIES = [
   "Eligibility",
   "Benefits",
 ];
+
+const CATEGORY_COLORS: Record<string, string> = {
+  "Medicare News": "#2563EB",
+  "Medicare Supplement": "#4F46E5",
+  "Medicare Plans": "#1B2A4A",
+  "Getting Started": "#0D9488",
+  "Enrollment": "#D97706",
+  "Senior Living": "#059669",
+  "Medicare Coverage": "#059669",
+  "Healthcare": "#7C3AED",
+  "Medicare Costs": "#C41230",
+  "Medicare Basics": "#1B2A4A",
+  "Medicare Advantage": "#0EA5E9",
+  "General": "#0D9488",
+  "Eligibility": "#0D9488",
+  "Benefits": "#10B981",
+};
 
 const AUTHORS = [
   "David Haass",
@@ -351,6 +369,55 @@ export default function SmartCreatePage() {
     }
   };
 
+  // --- Full Preview ---
+  const handleFullPreview = () => {
+    if (!sections || sections.length === 0) return;
+
+    // Calculate read time from sections
+    let wordCount = 0;
+    for (const s of sections) {
+      if (s.type === "paragraph" && s.content) wordCount += s.content.split(/\s+/).length;
+      else if (s.type === "list" && s.items) {
+        for (const item of s.items) wordCount += item.split(/\s+/).length;
+      } else if (s.type === "callout" && s.calloutText) wordCount += s.calloutText.split(/\s+/).length;
+      else if (s.type === "faq" && s.faqs) {
+        for (const faq of s.faqs) {
+          wordCount += faq.question.split(/\s+/).length;
+          wordCount += faq.answer.split(/\s+/).length;
+        }
+      } else if (s.type === "table" && s.rows) {
+        for (const row of s.rows) for (const cell of row) wordCount += cell.split(/\s+/).length;
+      }
+    }
+    const readTime = `${Math.max(1, Math.ceil(wordCount / 200))} min read`;
+
+    // Build the BlogArticleData object for the preview renderer
+    const previewArticle = {
+      slug: slug || "preview",
+      title: title || "Untitled Article",
+      excerpt: excerpt || "",
+      category: category,
+      categoryColor: CATEGORY_COLORS[category] || "#0D9488",
+      date: new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }),
+      author: author,
+      reviewer: reviewer,
+      readTime,
+      image: image || "",
+      imageAlt: imageAlt || "",
+      keyTakeaways: keyTakeaways.length > 0 ? keyTakeaways : undefined,
+      tableOfContents,
+      sections,
+      seo: seoTitle || seoDescription ? {
+        title: seoTitle || title,
+        description: seoDescription || excerpt,
+      } : undefined,
+    };
+
+    // Store in sessionStorage and open preview in new tab
+    sessionStorage.setItem("cms_preview_article", JSON.stringify(previewArticle));
+    window.open("/admin/github-editor/preview", "_blank");
+  };
+
   // --- Publish ---
   const handlePublish = async () => {
     if (!sections || sections.length === 0) {
@@ -442,23 +509,32 @@ export default function SmartCreatePage() {
               </span>
             )}
             {hasTransformed && (
-              <button
-                onClick={handlePublish}
-                disabled={publishing || !title || !slug}
-                className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-5 py-2 hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {publishing ? (
-                  <>
-                    <Loader2 className="w-4 h-4 animate-spin" />
-                    Publishing...
-                  </>
-                ) : (
-                  <>
-                    <Send className="w-4 h-4" />
-                    Publish to GitHub
-                  </>
-                )}
-              </button>
+              <>
+                <button
+                  onClick={handleFullPreview}
+                  className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg px-4 py-2 hover:bg-gray-200 transition-colors"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Full Preview
+                </button>
+                <button
+                  onClick={handlePublish}
+                  disabled={publishing || !title || !slug}
+                  className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-5 py-2 hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {publishing ? (
+                    <>
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                      Publishing...
+                    </>
+                  ) : (
+                    <>
+                      <Send className="w-4 h-4" />
+                      Publish to GitHub
+                    </>
+                  )}
+                </button>
+              </>
             )}
           </div>
         </div>
