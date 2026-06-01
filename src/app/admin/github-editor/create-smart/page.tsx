@@ -24,6 +24,10 @@ import {
   Clock,
   FileText,
   ExternalLink,
+  Save,
+  FolderOpen,
+  Trash2,
+  X,
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
@@ -313,6 +317,16 @@ export default function SmartCreatePage() {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
+  // Draft state
+  const [draftId, setDraftId] = useState<string | null>(null);
+  const [savingDraft, setSavingDraft] = useState(false);
+  const [draftSavedAt, setDraftSavedAt] = useState<string | null>(null);
+  const [showDraftsPanel, setShowDraftsPanel] = useState(false);
+  const [drafts, setDrafts] = useState<{ id: string; title: string; category: string; updatedAt: string; hasTransformed: boolean }[]>([]);
+  const [loadingDrafts, setLoadingDrafts] = useState(false);
+  const [loadingDraftId, setLoadingDraftId] = useState<string | null>(null);
+  const [deletingDraftId, setDeletingDraftId] = useState<string | null>(null);
+
   // Auto-generate slug from title
   useEffect(() => {
     if (!slugManuallyEdited && title) {
@@ -366,6 +380,137 @@ export default function SmartCreatePage() {
       setError(String(err));
     } finally {
       setTransforming(false);
+    }
+  };
+
+  // --- Save Draft ---
+  const handleSaveDraft = async () => {
+    if (!title.trim()) {
+      setError("Please enter a title before saving a draft.");
+      return;
+    }
+
+    setSavingDraft(true);
+    setError("");
+
+    try {
+      const draftPayload = {
+        id: draftId || undefined,
+        title,
+        rawContent,
+        slug,
+        excerpt,
+        category,
+        author,
+        reviewer,
+        image,
+        imageAlt,
+        keyTakeaways,
+        seoTitle,
+        seoDescription,
+        sections: sections || undefined,
+        tableOfContents: tableOfContents.length > 0 ? tableOfContents : undefined,
+      };
+
+      const res = await authFetch("/api/cms/drafts", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(draftPayload),
+      });
+
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Failed to save draft");
+
+      setDraftId(data.id);
+      setDraftSavedAt(new Date(data.updatedAt).toLocaleTimeString());
+      setSuccess(`Draft saved successfully.`);
+      setTimeout(() => setSuccess(""), 3000);
+    } catch (err) {
+      setError(String(err));
+    } finally {
+      setSavingDraft(false);
+    }
+  };
+
+  // --- Load Drafts List ---
+  const handleLoadDraftsList = async () => {
+    setShowDraftsPanel(true);
+    setLoadingDrafts(true);
+    setError("");
+
+    try {
+      const res = await authFetch("/api/cms/drafts", { method: "GET" });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Failed to load drafts");
+      setDrafts(data.drafts || []);
+    } catch (err) {
+      setError(String(err));
+    } finally {
+      setLoadingDrafts(false);
+    }
+  };
+
+  // --- Load a Specific Draft ---
+  const handleLoadDraft = async (id: string) => {
+    setLoadingDraftId(id);
+    setError("");
+
+    try {
+      const res = await authFetch(`/api/cms/drafts?id=${encodeURIComponent(id)}`, { method: "GET" });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Failed to load draft");
+
+      const draft = data.draft;
+      setDraftId(draft.id);
+      setTitle(draft.title || "");
+      setRawContent(draft.rawContent || "");
+      setSlug(draft.slug || "");
+      setSlugManuallyEdited(!!draft.slug);
+      setExcerpt(draft.excerpt || "");
+      setCategory(draft.category || "General");
+      setAuthor(draft.author || "David Haass");
+      setReviewer(draft.reviewer || "Ashlee Zareczny");
+      setImage(draft.image || "");
+      setImageAlt(draft.imageAlt || "");
+      setKeyTakeaways(draft.keyTakeaways || []);
+      setSeoTitle(draft.seoTitle || "");
+      setSeoDescription(draft.seoDescription || "");
+      setSections(draft.sections || null);
+      setTableOfContents(draft.tableOfContents || []);
+      setDraftSavedAt(draft.updatedAt ? new Date(draft.updatedAt).toLocaleTimeString() : null);
+      setShowDraftsPanel(false);
+      setSuccess(`Draft "${draft.title}" loaded.`);
+      setTimeout(() => setSuccess(""), 3000);
+    } catch (err) {
+      setError(String(err));
+    } finally {
+      setLoadingDraftId(null);
+    }
+  };
+
+  // --- Delete a Draft ---
+  const handleDeleteDraft = async (id: string) => {
+    setDeletingDraftId(id);
+    setError("");
+
+    try {
+      const res = await authFetch("/api/cms/drafts", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Failed to delete draft");
+
+      setDrafts((prev) => prev.filter((d) => d.id !== id));
+      if (draftId === id) {
+        setDraftId(null);
+        setDraftSavedAt(null);
+      }
+    } catch (err) {
+      setError(String(err));
+    } finally {
+      setDeletingDraftId(null);
     }
   };
 
@@ -508,6 +653,28 @@ export default function SmartCreatePage() {
                 /blog/{slug}/
               </span>
             )}
+            {draftSavedAt && (
+              <span className="text-xs text-gray-400">Saved {draftSavedAt}</span>
+            )}
+            <button
+              onClick={handleLoadDraftsList}
+              className="flex items-center gap-2 text-sm font-medium text-gray-600 bg-gray-100 rounded-lg px-3 py-2 hover:bg-gray-200 transition-colors"
+            >
+              <FolderOpen className="w-4 h-4" />
+              Drafts
+            </button>
+            <button
+              onClick={handleSaveDraft}
+              disabled={savingDraft || !title.trim()}
+              className="flex items-center gap-2 text-sm font-medium text-blue-700 bg-blue-50 rounded-lg px-3 py-2 hover:bg-blue-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {savingDraft ? (
+                <Loader2 className="w-4 h-4 animate-spin" />
+              ) : (
+                <Save className="w-4 h-4" />
+              )}
+              Save Draft
+            </button>
             {hasTransformed && (
               <>
                 <button
@@ -539,6 +706,82 @@ export default function SmartCreatePage() {
           </div>
         </div>
       </div>
+
+      {/* Drafts Panel Modal */}
+      {showDraftsPanel && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
+          <div className="bg-white rounded-xl shadow-2xl w-full max-w-lg mx-4 max-h-[70vh] flex flex-col">
+            <div className="flex items-center justify-between p-5 border-b border-gray-200">
+              <h3 className="text-base font-semibold text-gray-900 flex items-center gap-2">
+                <FolderOpen className="w-5 h-5 text-gray-500" />
+                Saved Drafts
+              </h3>
+              <button
+                onClick={() => setShowDraftsPanel(false)}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="flex-1 overflow-y-auto p-5">
+              {loadingDrafts ? (
+                <div className="flex items-center justify-center py-10">
+                  <Loader2 className="w-5 h-5 animate-spin text-gray-400" />
+                </div>
+              ) : drafts.length === 0 ? (
+                <div className="text-center py-10">
+                  <p className="text-sm text-gray-500">No saved drafts yet.</p>
+                  <p className="text-xs text-gray-400 mt-1">Use "Save Draft" to save your work in progress.</p>
+                </div>
+              ) : (
+                <div className="space-y-2">
+                  {drafts.map((draft) => (
+                    <div
+                      key={draft.id}
+                      className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-colors"
+                    >
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-medium text-gray-900 truncate">{draft.title}</p>
+                        <div className="flex items-center gap-2 mt-0.5">
+                          <span className="text-xs text-gray-400">
+                            {draft.updatedAt ? new Date(draft.updatedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : ""}
+                          </span>
+                          <span className="text-xs bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded">{draft.category}</span>
+                          {draft.hasTransformed && (
+                            <span className="text-xs bg-green-50 text-green-600 px-1.5 py-0.5 rounded">Transformed</span>
+                          )}
+                        </div>
+                      </div>
+                      <button
+                        onClick={() => handleLoadDraft(draft.id)}
+                        disabled={loadingDraftId === draft.id}
+                        className="text-xs font-medium text-teal-600 hover:text-teal-700 px-3 py-1.5 rounded-lg hover:bg-teal-50 transition-colors disabled:opacity-50"
+                      >
+                        {loadingDraftId === draft.id ? (
+                          <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                        ) : (
+                          "Load"
+                        )}
+                      </button>
+                      <button
+                        onClick={() => handleDeleteDraft(draft.id)}
+                        disabled={deletingDraftId === draft.id}
+                        className="text-xs text-red-400 hover:text-red-600 px-2 py-1.5 rounded-lg hover:bg-red-50 transition-colors disabled:opacity-50"
+                      >
+                        {deletingDraftId === draft.id ? (
+                          <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                        ) : (
+                          <Trash2 className="w-3.5 h-3.5" />
+                        )}
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Status Banners */}
       {error && (
