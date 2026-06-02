@@ -153,12 +153,16 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Return the public URL path
+    // Return both URLs:
+    // - rawUrl: immediately accessible from GitHub (for preview in editor)
+    // - url: relative path that works on the live site after deploy
     const publicUrl = `/images/generated/${fileName}`;
+    const rawUrl = `https://raw.githubusercontent.com/${REPO}/main/${filePath}`;
 
     return NextResponse.json({
       success: true,
       url: publicUrl,
+      rawUrl,
       prompt,
       fileName,
     });

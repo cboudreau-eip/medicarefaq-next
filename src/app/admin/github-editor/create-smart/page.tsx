@@ -1079,7 +1079,8 @@ export default function SmartCreatePage() {
                           if (!res.ok) {
                             setError(data.error || "Image generation failed");
                           } else {
-                            setImage(data.url);
+                            // Use rawUrl for immediate preview, store relative url for publish
+                            setImage(data.rawUrl || data.url);
                             setImageAlt(title);
                             setShowImagePrompt(false);
                             setImagePrompt("");
