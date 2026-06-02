@@ -245,6 +245,7 @@ export interface BlogArticleData {
   category: string;
   categoryColor: string;
   date: string;
+  dateUpdated?: string;  // If set, used for sort order on blog landing page
   author: string;
   reviewer: string;
   readTime: string;

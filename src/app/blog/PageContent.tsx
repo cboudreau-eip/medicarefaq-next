@@ -14,9 +14,22 @@ import { blogArticles } from "@/lib/blog-articles-data";
 
 export default function Blog() {
 
+  // Parse date string (e.g., "May 15, 2026") into a sortable timestamp
+  const parseDate = (dateStr: string): number => {
+    const parsed = new Date(dateStr);
+    return isNaN(parsed.getTime()) ? 0 : parsed.getTime();
+  };
+
+  // Sort by most recent date (uses dateUpdated if available, otherwise date)
+  const sortByDate = (a: { date: string; dateUpdated?: string }, b: { date: string; dateUpdated?: string }) => {
+    const dateA = parseDate(a.dateUpdated || a.date);
+    const dateB = parseDate(b.dateUpdated || b.date);
+    return dateB - dateA; // newest first
+  };
+
   // Merge old static posts with new scraped articles
   const allPosts = [
-    ...blogPosts,
+    ...blogPosts.map((p) => ({ ...p, dateUpdated: undefined })),
     ...blogArticles.map((a) => ({
       slug: a.slug,
       title: a.title,
@@ -24,6 +37,7 @@ export default function Blog() {
       category: a.category,
       categoryColor: a.categoryColor,
       date: a.date,
+      dateUpdated: a.dateUpdated,
       author: a.author,
       reviewer: a.reviewer,
       readTime: a.readTime,
@@ -38,8 +52,8 @@ export default function Blog() {
     (post, index, self) => self.findIndex((p) => p.slug === post.slug) === index
   );
 
-  const featuredPosts = uniquePosts.filter((p) => p.featured);
-  const regularPosts = uniquePosts.filter((p) => !p.featured);
+  const featuredPosts = uniquePosts.filter((p) => p.featured).sort(sortByDate);
+  const regularPosts = uniquePosts.filter((p) => !p.featured).sort(sortByDate);
 
   return (
     <div className="min-h-screen flex flex-col">

@@ -6733,6 +6733,7 @@ export const blogArticles: BlogArticleData[] = [
     category: "Medicare News",
     categoryColor: "#2563EB",
     date: "May 29, 2026",
+    dateUpdated: "June 2, 2026",
     author: "David Haass",
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
