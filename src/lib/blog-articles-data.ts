@@ -6698,7 +6698,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-starter-guide-what-to-do-in-your-first-90-days",
     seo: {
-      title: "Medicare Starter Guide: What to do in Your First 90 Days | MedicareFAQ",
+      title: "Medicare Starter Guide: What to do in Your First 90 Days ",
       description: "Just enrolled in Medicare? This step-by-step guide walks you through everything you need to do in your first 90 days to maximize your coverage in 2026.",
       canonical: "https://www.medicarefaq.com/blog/medicare-starter-guide-what-to-do-in-your-first-90-days/",
       ogImage: "https://images.pexels.com/photos/8815812/pexels-photo-8815812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6714,6 +6714,7 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "10 min read",
     featured: false,
     image: "https://images.pexels.com/photos/8815812/pexels-photo-8815812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      imageAlt: "Medicare Starter Guide: What to do in Your First 90 Days | MedicareFAQ",
     keyTakeaways: [
       "The first 90 days of Medicare are your best window to set up supplemental coverage without underwriting",
       "Enroll in Part D or a Medicare Advantage plan to avoid late enrollment penalties",
