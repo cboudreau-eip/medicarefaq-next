@@ -1072,6 +1072,8 @@ export default function SmartCreatePage() {
                               title,
                               category,
                               slug,
+                              excerpt,
+                              keyTakeaways,
                               customPrompt: imagePrompt || undefined,
                             }),
                           });

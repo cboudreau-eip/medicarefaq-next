@@ -312,7 +312,7 @@ export default function EditArticlePage() {
                         const res = await authFetch("/api/cms/generate-image", {
                           method: "POST",
                           headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ title: editTitle || articleSlug, category: "Medicare" }),
+                          body: JSON.stringify({ title: editTitle || articleSlug, slug: articleSlug, category: "Medicare" }),
                         });
                         const data = await res.json();
                         if (!res.ok) throw new Error(data.error || `Failed: ${res.status}`);

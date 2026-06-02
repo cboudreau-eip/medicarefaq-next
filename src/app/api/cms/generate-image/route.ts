@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
+const FORGE_API_URL = process.env.BUILT_IN_FORGE_API_URL ?? "";
+const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY ?? "";
 const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
 const REPO = "cboudreau-eip/medicarefaq-next";
 const UPLOAD_PATH = "public/images/generated";
@@ -13,41 +15,91 @@ function checkCmsAuth(request: Request): boolean {
 }
 
 /**
- * Category-specific image style hints for better prompt generation.
+ * Use Claude to generate a creative, unique image prompt based on article context.
+ * This produces much better and more varied images than a static template.
  */
-const CATEGORY_STYLE_HINTS: Record<string, string> = {
-  "Costs & Premiums": "financial planning, calculator, budget documents, or a senior reviewing bills at a desk",
-  "Eligibility": "a welcoming doctor's office, enrollment forms, or a senior meeting with a healthcare advisor",
-  "Plan Comparisons": "side-by-side comparison, decision-making, or a senior weighing options at a table",
-  "Coverage & Benefits": "medical care, hospital setting, prescription medications, or a doctor with a patient",
-  "Enrollment": "paperwork, calendar, deadlines, or a senior at a computer signing up",
-  "Supplemental Coverage": "insurance documents, protection concept, or a senior with a safety net metaphor",
-  "Medicare News": "newspaper, healthcare news, or a senior reading about Medicare updates",
-  "Medicare Supplement": "supplemental insurance documents, Medigap policy, or a senior with additional coverage",
-  "Medicare Plans": "plan comparison charts, Medicare cards, or a senior choosing between options",
-  "Getting Started": "a friendly introduction, welcome setting, or a new Medicare beneficiary learning",
-  "Senior Living": "comfortable home, active seniors, community living, or retirement lifestyle",
-  "Medicare Coverage": "medical services, hospital visit, covered procedures, or healthcare access",
-  "Healthcare": "doctor consultation, medical office, stethoscope, or healthcare professionals",
-  "Medicare Costs": "bills, premiums, out-of-pocket costs, or a senior budgeting for healthcare",
-  "Medicare Basics": "Medicare card, introductory materials, or a simple educational setting",
-  "Medicare Advantage": "Medicare Advantage plan documents, HMO/PPO, or additional benefits like dental and vision",
-};
-
-/**
- * Build an image generation prompt from article metadata.
- */
-function buildImagePrompt(title: string, category?: string, customPrompt?: string): string {
-  if (customPrompt) {
-    return customPrompt;
+async function generateSmartPrompt(
+  title: string,
+  category?: string,
+  excerpt?: string,
+  keyTakeaways?: string[]
+): Promise<string> {
+  const contextParts: string[] = [];
+  contextParts.push(`Article title: "${title}"`);
+  if (category) contextParts.push(`Category: ${category}`);
+  if (excerpt) contextParts.push(`Excerpt: ${excerpt}`);
+  if (keyTakeaways && keyTakeaways.length > 0) {
+    contextParts.push(`Key points: ${keyTakeaways.slice(0, 3).join("; ")}`);
   }
 
-  const styleHint = category ? CATEGORY_STYLE_HINTS[category] || "" : "";
-  const sceneContext = styleHint
-    ? `Scene suggestion: ${styleHint}.`
-    : "Scene: a professional healthcare or insurance setting.";
+  const systemPrompt = `You are an expert at writing image generation prompts for blog article featured images. Your job is to create a single, detailed image prompt that will produce a unique, contextually relevant photograph for the given article.
 
-  return `Professional editorial photograph for a Medicare insurance article titled "${title}". ${sceneContext} The image should be photorealistic, high-quality, with soft natural lighting. Feature diverse seniors (65+) in a warm, trustworthy setting. No text, no watermarks, no logos, no overlays. Clean composition suitable for a blog hero image.`;
+Rules:
+- Output ONLY the image prompt text, nothing else. No explanation, no quotes, no prefix.
+- The image must be photorealistic, editorial-quality photography
+- NEVER include text, watermarks, logos, or overlays in the image
+- Vary your visual approaches: sometimes close-up details, sometimes environmental scenes, sometimes overhead/flat-lay, sometimes portraits, sometimes abstract conceptual shots
+- Make the image specific to THIS article's angle, not generic stock photography
+- Include specific details about lighting, composition, color palette, and mood
+- Feature diverse subjects when people are included (vary age, ethnicity, gender)
+- Keep it appropriate for a professional Medicare/healthcare insurance website
+- Aim for images that evoke trust, clarity, and helpfulness
+- The prompt should be 2-4 sentences maximum`;
+
+  const userMessage = `Write a unique image generation prompt for this article:\n\n${contextParts.join("\n")}`;
+
+  try {
+    const res = await fetch(`${FORGE_API_URL}/chat/completions`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${FORGE_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-5-20250514",
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user", content: userMessage },
+        ],
+        max_tokens: 300,
+        temperature: 0.9,
+      }),
+    });
+
+    if (!res.ok) {
+      console.error("Claude prompt generation failed:", res.status);
+      return buildFallbackPrompt(title, category);
+    }
+
+    const data = await res.json();
+    const prompt = data.choices?.[0]?.message?.content?.trim();
+    if (!prompt) {
+      return buildFallbackPrompt(title, category);
+    }
+    return prompt;
+  } catch (err) {
+    console.error("Claude prompt generation error:", err);
+    return buildFallbackPrompt(title, category);
+  }
+}
+
+/**
+ * Fallback prompt if Claude is unavailable — basic template approach.
+ */
+function buildFallbackPrompt(title: string, category?: string): string {
+  const scenes = [
+    "a warm kitchen table with Medicare paperwork and reading glasses",
+    "a bright doctor's office with a friendly physician and senior patient",
+    "a cozy home office with a laptop showing healthcare information",
+    "a pharmacy counter with a pharmacist helping a senior customer",
+    "a park bench where two seniors are having a conversation",
+    "a community center meeting room with informational materials",
+    "an overhead view of a desk with insurance documents and a cup of coffee",
+    "a close-up of hands reviewing important medical documents",
+  ];
+  const scene = scenes[Math.floor(Math.random() * scenes.length)];
+
+  return `Professional editorial photograph for a Medicare article titled "${title}". Scene: ${scene}. Photorealistic, high-quality, soft natural lighting. No text, no watermarks, no logos. Clean composition suitable for a blog hero image. Category context: ${category || "Medicare"}.`;
 }
 
 export async function POST(req: NextRequest) {
@@ -64,15 +116,21 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { title, category, slug, customPrompt } = body;
+    const { title, category, slug, customPrompt, excerpt, keyTakeaways } = body;
 
     if (!title) {
       return NextResponse.json({ error: "Title is required" }, { status: 400 });
     }
 
-    const prompt = buildImagePrompt(title, category, customPrompt);
+    // Use custom prompt if provided, otherwise use Claude to generate a smart prompt
+    let prompt: string;
+    if (customPrompt) {
+      prompt = customPrompt;
+    } else {
+      prompt = await generateSmartPrompt(title, category, excerpt, keyTakeaways);
+    }
 
-    // Call OpenAI Image Generation API directly
+    // Call OpenAI Image Generation API
     const imageRes = await fetch("https://api.openai.com/v1/images/generations", {
       method: "POST",
       headers: {
@@ -105,7 +163,6 @@ export async function POST(req: NextRequest) {
     if (imageData.data?.[0]?.b64_json) {
       base64Content = imageData.data[0].b64_json;
     } else if (imageData.data?.[0]?.url) {
-      // Fallback: fetch from URL if returned instead of base64
       const imgUrl = imageData.data[0].url as string;
       const imgFetch = await fetch(imgUrl);
       const imgBuffer = await imgFetch.arrayBuffer();
@@ -153,9 +210,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Return both URLs:
-    // - rawUrl: immediately accessible from GitHub (for preview in editor)
-    // - url: relative path that works on the live site after deploy
+    // Return both URLs
     const publicUrl = `/images/generated/${fileName}`;
     const rawUrl = `https://raw.githubusercontent.com/${REPO}/main/${filePath}`;
 
