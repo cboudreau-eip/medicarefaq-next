@@ -13,6 +13,7 @@ import {
   ImageIcon,
   Trash2,
   X,
+  Sparkles,
 } from "lucide-react";
 import { useCMSAuth } from "../../../components/use-cms-auth";
 import LoginScreen from "../../../components/login-screen";
@@ -68,6 +69,8 @@ export default function EditArticlePage() {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [deleteLoading, setDeleteLoading] = useState(false);
   const [deleteError, setDeleteError] = useState("");
+  const [imageGenLoading, setImageGenLoading] = useState(false);
+  const [imageGenError, setImageGenError] = useState("");
 
   // Load article detail
   const loadDetail = useCallback(async () => {
@@ -300,6 +303,39 @@ export default function EditArticlePage() {
                       if (!editImageAlt) setEditImageAlt(fileName.replace(/[-_]/g, " ").replace(/\.[^.]+$/, ""));
                     }}
                   />
+                  <button
+                    type="button"
+                    onClick={async () => {
+                      setImageGenLoading(true);
+                      setImageGenError("");
+                      try {
+                        const res = await authFetch("/api/cms/generate-image", {
+                          method: "POST",
+                          headers: { "Content-Type": "application/json" },
+                          body: JSON.stringify({ title: editTitle || articleSlug, category: "Medicare" }),
+                        });
+                        const data = await res.json();
+                        if (!res.ok) throw new Error(data.error || `Failed: ${res.status}`);
+                        setEditImage(data.rawUrl || data.url);
+                        if (!editImageAlt) setEditImageAlt(editTitle || articleSlug);
+                      } catch (err: unknown) {
+                        setImageGenError(err instanceof Error ? err.message : "Image generation failed");
+                      } finally {
+                        setImageGenLoading(false);
+                      }
+                    }}
+                    disabled={imageGenLoading}
+                    className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium text-white bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 disabled:opacity-50 transition-all"
+                  >
+                    {imageGenLoading ? (
+                      <><Loader2 className="w-4 h-4 animate-spin" /> Generating...</>
+                    ) : (
+                      <><Sparkles className="w-4 h-4" /> {editImage ? "Regenerate with AI" : "Generate with AI"}</>
+                    )}
+                  </button>
+                  {imageGenError && (
+                    <p className="text-xs text-red-500 mt-1">{imageGenError}</p>
+                  )}
                   <div className="relative flex items-center">
                     <div className="flex-1 border-t border-gray-200"></div>
                     <span className="px-3 text-xs text-gray-400">or paste URL</span>
