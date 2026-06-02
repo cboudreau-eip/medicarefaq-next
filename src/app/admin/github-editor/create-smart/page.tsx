@@ -708,20 +708,20 @@ export default function SmartCreatePage() {
             )}
             <button
               onClick={handleLoadDraftsList}
-              className="flex items-center gap-2 text-sm font-medium text-gray-600 bg-gray-100 rounded-lg px-3 py-2 hover:bg-gray-200 transition-colors"
+              className="flex items-center gap-1.5 text-xs font-medium text-gray-600 bg-gray-100 rounded px-2 py-1 hover:bg-gray-200 transition-colors"
             >
-              <FolderOpen className="w-4 h-4" />
+              <FolderOpen className="w-3 h-3" />
               Drafts
             </button>
             <button
               onClick={handleSaveDraft}
               disabled={savingDraft || !title.trim()}
-              className="flex items-center gap-2 text-sm font-medium text-blue-700 bg-blue-50 rounded-lg px-3 py-2 hover:bg-blue-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 rounded px-2 py-1 hover:bg-blue-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {savingDraft ? (
-                <Loader2 className="w-4 h-4 animate-spin" />
+                <Loader2 className="w-3 h-3 animate-spin" />
               ) : (
-                <Save className="w-4 h-4" />
+                <Save className="w-3 h-3" />
               )}
               Save Draft
             </button>
@@ -729,24 +729,24 @@ export default function SmartCreatePage() {
               <>
                 <button
                   onClick={handleFullPreview}
-                  className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg px-4 py-2 hover:bg-gray-200 transition-colors"
+                  className="flex items-center gap-1.5 text-xs font-medium text-gray-700 bg-gray-100 rounded px-2 py-1 hover:bg-gray-200 transition-colors"
                 >
-                  <ExternalLink className="w-4 h-4" />
+                  <ExternalLink className="w-3 h-3" />
                   Full Preview
                 </button>
                 <button
                   onClick={handlePublish}
                   disabled={publishing || !title || !slug}
-                  className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-5 py-2 hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="flex items-center gap-1.5 text-xs font-semibold bg-teal-600 text-white rounded px-3 py-1 hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {publishing ? (
                     <>
-                      <Loader2 className="w-4 h-4 animate-spin" />
+                      <Loader2 className="w-3 h-3 animate-spin" />
                       Publishing...
                     </>
                   ) : (
                     <>
-                      <Send className="w-4 h-4" />
+                      <Send className="w-3 h-3" />
                       Publish to GitHub
                     </>
                   )}
