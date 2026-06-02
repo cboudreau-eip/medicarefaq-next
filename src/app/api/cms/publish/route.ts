@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const GITHUB_TOKEN = process.env.GITHUB_PAT;
+const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 
 function checkCmsAuth(request: Request): boolean {
