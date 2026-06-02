@@ -80,12 +80,11 @@ export async function POST(req: NextRequest) {
         Authorization: `Bearer ${OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: "dall-e-3",
+        model: "gpt-image-1",
         prompt,
         n: 1,
         size: "1024x1024",
-        quality: "standard",
-        response_format: "b64_json",
+        quality: "medium",
       }),
     });
 
