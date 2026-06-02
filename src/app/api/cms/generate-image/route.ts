@@ -111,8 +111,8 @@ export async function POST(req: NextRequest) {
       base64Content = imageData.data[0].b64_json;
     } else if (imageData.data?.[0]?.url) {
       // If we got a URL, fetch the image and convert to base64
-      imageUrl = imageData.data[0].url;
-      const imgFetch = await fetch(imageUrl);
+      imageUrl = imageData.data[0].url as string;
+      const imgFetch = await fetch(imageUrl as string);
       const imgBuffer = await imgFetch.arrayBuffer();
       base64Content = Buffer.from(imgBuffer).toString("base64");
     } else {
