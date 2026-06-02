@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
-const FORGE_API_URL = process.env.BUILT_IN_FORGE_API_URL;
-const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
 const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
 const REPO = "cboudreau-eip/medicarefaq-next";
 const UPLOAD_PATH = "public/images/generated";
@@ -23,6 +22,16 @@ const CATEGORY_STYLE_HINTS: Record<string, string> = {
   "Coverage & Benefits": "medical care, hospital setting, prescription medications, or a doctor with a patient",
   "Enrollment": "paperwork, calendar, deadlines, or a senior at a computer signing up",
   "Supplemental Coverage": "insurance documents, protection concept, or a senior with a safety net metaphor",
+  "Medicare News": "newspaper, healthcare news, or a senior reading about Medicare updates",
+  "Medicare Supplement": "supplemental insurance documents, Medigap policy, or a senior with additional coverage",
+  "Medicare Plans": "plan comparison charts, Medicare cards, or a senior choosing between options",
+  "Getting Started": "a friendly introduction, welcome setting, or a new Medicare beneficiary learning",
+  "Senior Living": "comfortable home, active seniors, community living, or retirement lifestyle",
+  "Medicare Coverage": "medical services, hospital visit, covered procedures, or healthcare access",
+  "Healthcare": "doctor consultation, medical office, stethoscope, or healthcare professionals",
+  "Medicare Costs": "bills, premiums, out-of-pocket costs, or a senior budgeting for healthcare",
+  "Medicare Basics": "Medicare card, introductory materials, or a simple educational setting",
+  "Medicare Advantage": "Medicare Advantage plan documents, HMO/PPO, or additional benefits like dental and vision",
 };
 
 /**
@@ -38,7 +47,7 @@ function buildImagePrompt(title: string, category?: string, customPrompt?: strin
     ? `Scene suggestion: ${styleHint}.`
     : "Scene: a professional healthcare or insurance setting.";
 
-  return `Professional editorial photograph for a Medicare insurance article titled "${title}". ${sceneContext} The image should be photorealistic, high-quality, with soft natural lighting. Feature diverse seniors (65+) in a warm, trustworthy setting. No text, no watermarks, no logos, no overlays. Clean composition suitable for a blog hero image at 1200x630 aspect ratio.`;
+  return `Professional editorial photograph for a Medicare insurance article titled "${title}". ${sceneContext} The image should be photorealistic, high-quality, with soft natural lighting. Feature diverse seniors (65+) in a warm, trustworthy setting. No text, no watermarks, no logos, no overlays. Clean composition suitable for a blog hero image.`;
 }
 
 export async function POST(req: NextRequest) {
@@ -46,9 +55,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  if (!FORGE_API_URL || !FORGE_API_KEY) {
+  if (!OPENAI_API_KEY) {
     return NextResponse.json(
-      { error: "Image generation service not configured" },
+      { error: "OpenAI API key not configured. Add OPENAI_API_KEY to environment variables." },
       { status: 500 }
     );
   }
@@ -63,18 +72,18 @@ export async function POST(req: NextRequest) {
 
     const prompt = buildImagePrompt(title, category, customPrompt);
 
-    // Call the Forge API image generation endpoint
-    const imageRes = await fetch(`${FORGE_API_URL}/v1/images/generations`, {
+    // Call OpenAI Image Generation API directly
+    const imageRes = await fetch("https://api.openai.com/v1/images/generations", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${FORGE_API_KEY}`,
+        Authorization: `Bearer ${OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
         model: "dall-e-3",
         prompt,
         n: 1,
-        size: "1792x1024",
+        size: "1024x1024",
         quality: "standard",
         response_format: "b64_json",
       }),
@@ -82,19 +91,7 @@ export async function POST(req: NextRequest) {
 
     if (!imageRes.ok) {
       const errText = await imageRes.text().catch(() => "");
-      console.error("Image generation API error:", imageRes.status, errText);
-
-      // If Forge doesn't support images, try with url format
-      if (imageRes.status === 404 || imageRes.status === 400) {
-        return NextResponse.json(
-          {
-            error: `Image generation not supported by this API (${imageRes.status}). You may need to configure a direct OpenAI API key.`,
-            details: errText,
-          },
-          { status: 502 }
-        );
-      }
-
+      console.error("OpenAI Image API error:", imageRes.status, errText);
       return NextResponse.json(
         { error: `Image generation failed: ${imageRes.status}`, details: errText },
         { status: 500 }
@@ -103,21 +100,20 @@ export async function POST(req: NextRequest) {
 
     const imageData = await imageRes.json();
 
-    // Handle both b64_json and url response formats
+    // Extract base64 image data
     let base64Content: string;
-    let imageUrl: string | undefined;
 
     if (imageData.data?.[0]?.b64_json) {
       base64Content = imageData.data[0].b64_json;
     } else if (imageData.data?.[0]?.url) {
-      // If we got a URL, fetch the image and convert to base64
-      imageUrl = imageData.data[0].url as string;
-      const imgFetch = await fetch(imageUrl as string);
+      // Fallback: fetch from URL if returned instead of base64
+      const imgUrl = imageData.data[0].url as string;
+      const imgFetch = await fetch(imgUrl);
       const imgBuffer = await imgFetch.arrayBuffer();
       base64Content = Buffer.from(imgBuffer).toString("base64");
     } else {
       return NextResponse.json(
-        { error: "Unexpected response format from image API", data: imageData },
+        { error: "Unexpected response format from OpenAI", data: imageData },
         { status: 500 }
       );
     }
