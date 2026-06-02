@@ -2,8 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
-const FORGE_API_URL = process.env.BUILT_IN_FORGE_API_URL ?? "";
-const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY ?? "";
 
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
@@ -12,8 +10,9 @@ function checkCmsAuth(request: Request): boolean {
 }
 
 /**
- * Use Claude to generate a creative, unique image prompt based on article context.
+ * Use GPT-4o-mini to generate a creative, unique image prompt based on article context.
  * This produces much better and more varied images than a static template.
+ * Uses the same OPENAI_API_KEY already configured for image generation.
  */
 async function generateSmartPrompt(
   title: string,
@@ -46,14 +45,14 @@ Rules:
   const userMessage = `Write a unique image generation prompt for this article:\n\n${contextParts.join("\n")}`;
 
   try {
-    const res = await fetch(`${FORGE_API_URL}/chat/completions`, {
+    const res = await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${FORGE_API_KEY}`,
+        Authorization: `Bearer ${OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: "claude-sonnet-4-5-20250514",
+        model: "gpt-4o-mini",
         messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: userMessage },
@@ -64,7 +63,7 @@ Rules:
     });
 
     if (!res.ok) {
-      console.error("Claude prompt generation failed:", res.status);
+      console.error("GPT-4o-mini prompt generation failed:", res.status);
       return buildFallbackPrompt(title, category);
     }
 
@@ -75,13 +74,13 @@ Rules:
     }
     return prompt;
   } catch (err) {
-    console.error("Claude prompt generation error:", err);
+    console.error("Smart prompt generation error:", err);
     return buildFallbackPrompt(title, category);
   }
 }
 
 /**
- * Fallback prompt if Claude is unavailable — basic template approach.
+ * Fallback prompt if GPT-4o-mini is unavailable — basic template approach.
  */
 function buildFallbackPrompt(title: string, category?: string): string {
   const scenes = [
@@ -119,7 +118,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Title is required" }, { status: 400 });
     }
 
-    // Use custom prompt if provided, otherwise use Claude to generate a smart prompt
+    // Use custom prompt if provided, otherwise use GPT-4o-mini to generate a smart prompt
     let prompt: string;
     if (customPrompt) {
       prompt = customPrompt;
