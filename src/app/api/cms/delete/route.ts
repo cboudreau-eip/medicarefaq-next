@@ -58,7 +58,7 @@ function encodeBase64(str: string): string {
  */
 function removeArticleFromSource(src: string, slug: string): string {
   const escapedSlug = slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const slugPattern = new RegExp(`slug:\\s*"${escapedSlug}"`);
+  const slugPattern = new RegExp(`slug:\\s*["']${escapedSlug}["']`);
   const slugIdx = src.search(slugPattern);
   if (slugIdx === -1) throw new Error(`Slug "${slug}" not found in source`);
 
@@ -118,7 +118,7 @@ export async function POST(req: NextRequest) {
     const { content: currentSrc, sha: fileSha } = await githubGetFileContent(filePath);
 
     // Check if slug exists
-    if (!currentSrc.includes(`slug: "${slug}"`)) {
+    if (!currentSrc.includes(`slug: "${slug}"`) && !currentSrc.includes(`slug: '${slug}'`)) {
       return NextResponse.json({ error: `Article with slug "${slug}" not found.` }, { status: 404 });
     }
 

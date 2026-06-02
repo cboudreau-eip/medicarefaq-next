@@ -74,7 +74,7 @@ function patchArticleInSource(
   }
 ): string {
   // Find the slug entry
-  const slugPattern = new RegExp(`slug:\\s*"${slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`, "");
+  const slugPattern = new RegExp(`slug:\\s*["']${slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}["']`, "");
   const slugIdx = src.search(slugPattern);
   if (slugIdx === -1) throw new Error(`Slug "${slug}" not found in source`);
 

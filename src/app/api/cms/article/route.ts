@@ -59,7 +59,7 @@ async function githubGetFileContent(path: string): Promise<{ content: string; sh
  */
 function extractArticleBlock(src: string, slug: string): string | null {
   // Find the slug entry
-  const slugPattern = new RegExp(`slug:\\s*"${slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`, "");
+  const slugPattern = new RegExp(`slug:\\s*["']${slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}["']`, "");
   const slugIdx = src.search(slugPattern);
   if (slugIdx === -1) return null;
 
