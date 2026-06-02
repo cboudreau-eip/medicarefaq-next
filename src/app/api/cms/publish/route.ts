@@ -107,7 +107,7 @@ function patchArticleInSource(
   // Patch image field
   if (updates.image !== undefined) {
     block = block.replace(
-      /(\bimage:\s*)"(?:[^"\\]|\\.)*"/,
+      /(\bimage:\s*)["'](?:[^"'\\]|\\.)*["']/,
       `$1"${updates.image.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
     );
   }
@@ -123,7 +123,7 @@ function patchArticleInSource(
       // Insert imageAlt after image field if it doesn't exist
       block = block.replace(
         /(\bimage:\s*"(?:[^"\\]|\\.)*")(,?)/,
-        `$1,\n    imageAlt: "${updates.imageAlt.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+        `$1,\n      imageAlt: "${updates.imageAlt.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}",`
       );
     }
   }

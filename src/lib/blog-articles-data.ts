@@ -4539,7 +4539,7 @@ export const blogArticles: BlogArticleData[] = [
       readTime: '7 min read',
       featured: false,
       image: "https://raw.githubusercontent.com/cboudreau-eip/medicarefaq-next/main/public/images/generated/louisiana-birthday-rule-1780423680210.png",
-    imageAlt: "louisiana-birthday-rule"
+      imageAlt: "louisiana-birthday-rule",
       keyTakeaways: [
         'Louisiana\'s Birthday Rule lets you change Medigap plans once per year during your birthday month without medical underwriting or waiting periods',
         'You can switch to any Medigap plan offered by any insurance company, regardless of health conditions or age',
