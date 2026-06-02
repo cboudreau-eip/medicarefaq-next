@@ -71,6 +71,9 @@ export default function EditArticlePage() {
   const [deleteError, setDeleteError] = useState("");
   const [imageGenLoading, setImageGenLoading] = useState(false);
   const [imageGenError, setImageGenError] = useState("");
+  // Temporary AI-generated image (not yet committed to GitHub)
+  const [pendingImageBase64, setPendingImageBase64] = useState<string | null>(null);
+  const [pendingImageFileName, setPendingImageFileName] = useState<string | null>(null);
 
   // Load article detail
   const loadDetail = useCallback(async () => {
@@ -110,6 +113,26 @@ export default function EditArticlePage() {
     setSaveStatus("saving");
     setSaveMessage("");
     try {
+      // If there's a pending AI-generated image, commit it to GitHub first
+      let finalImageUrl = editImage;
+      if (pendingImageBase64 && pendingImageFileName) {
+        const imgRes = await authFetch("/api/cms/commit-image", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            base64: pendingImageBase64,
+            fileName: pendingImageFileName,
+          }),
+        });
+        const imgData = await imgRes.json();
+        if (!imgRes.ok) throw new Error(imgData.error ?? "Image upload failed");
+        finalImageUrl = imgData.url;
+        // Clear pending state after successful commit
+        setPendingImageBase64(null);
+        setPendingImageFileName(null);
+        setEditImage(finalImageUrl);
+      }
+
       const res = await authFetch("/api/cms/publish", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -120,7 +143,7 @@ export default function EditArticlePage() {
           seoTitle: editSeoTitle,
           seoDescription: editSeoDesc,
           ogImage: editOgImage,
-          image: editImage,
+          image: finalImageUrl,
           imageAlt: editImageAlt,
           sectionsRaw: editSectionsRaw,
         }),
@@ -300,6 +323,8 @@ export default function EditArticlePage() {
                     password={password}
                     onUploaded={(url, fileName) => {
                       setEditImage(url);
+                      setPendingImageBase64(null);
+                      setPendingImageFileName(null);
                       if (!editImageAlt) setEditImageAlt(fileName.replace(/[-_]/g, " ").replace(/\.[^.]+$/, ""));
                     }}
                   />
@@ -316,7 +341,10 @@ export default function EditArticlePage() {
                         });
                         const data = await res.json();
                         if (!res.ok) throw new Error(data.error || `Failed: ${res.status}`);
-                        setEditImage(data.rawUrl || data.url);
+                        // Use dataUrl for preview only — image is NOT committed to GitHub yet
+                        setEditImage(data.dataUrl);
+                        setPendingImageBase64(data.base64);
+                        setPendingImageFileName(data.fileName);
                         if (!editImageAlt) setEditImageAlt(editTitle || articleSlug);
                       } catch (err: unknown) {
                         setImageGenError(err instanceof Error ? err.message : "Image generation failed");
@@ -348,7 +376,7 @@ export default function EditArticlePage() {
                     <input
                       type="url"
                       value={editImage}
-                      onChange={(e) => setEditImage(e.target.value)}
+                      onChange={(e) => { setEditImage(e.target.value); setPendingImageBase64(null); setPendingImageFileName(null); }}
                       className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent font-mono"
                       placeholder="https://images.unsplash.com/..."
                     />

@@ -316,6 +316,9 @@ export default function SmartCreatePage() {
   const [generatingImage, setGeneratingImage] = useState(false);
   const [imagePrompt, setImagePrompt] = useState("");
   const [showImagePrompt, setShowImagePrompt] = useState(false);
+  // Temporary AI-generated image (not yet committed to GitHub)
+  const [pendingImageBase64, setPendingImageBase64] = useState<string | null>(null);
+  const [pendingImageFileName, setPendingImageFileName] = useState<string | null>(null);
 
   // Status state
   const [publishing, setPublishing] = useState(false);
@@ -408,13 +411,15 @@ export default function SmartCreatePage() {
         category,
         author,
         reviewer,
-        image,
+        image: pendingImageBase64 ? "" : image, // Don't save data URLs to drafts (too large)
         imageAlt,
         keyTakeaways,
         seoTitle,
         seoDescription,
         sections: sections || undefined,
         tableOfContents: tableOfContents.length > 0 ? tableOfContents : undefined,
+        pendingImageBase64: pendingImageBase64 || undefined,
+        pendingImageFileName: pendingImageFileName || undefined,
       };
 
       const res = await authFetch("/api/cms/drafts", {
@@ -475,7 +480,16 @@ export default function SmartCreatePage() {
       setCategory(draft.category || "General");
       setAuthor(draft.author || "David Haass");
       setReviewer(draft.reviewer || "Ashlee Zareczny");
-      setImage(draft.image || "");
+      // Restore pending AI image if saved in draft
+      if (draft.pendingImageBase64 && draft.pendingImageFileName) {
+        setPendingImageBase64(draft.pendingImageBase64);
+        setPendingImageFileName(draft.pendingImageFileName);
+        setImage(`data:image/png;base64,${draft.pendingImageBase64}`);
+      } else {
+        setImage(draft.image || "");
+        setPendingImageBase64(null);
+        setPendingImageFileName(null);
+      }
       setImageAlt(draft.imageAlt || "");
       setKeyTakeaways(draft.keyTakeaways || []);
       setSeoTitle(draft.seoTitle || "");
@@ -629,6 +643,22 @@ export default function SmartCreatePage() {
       const cleanSeoTitle = removeEmDashes(seoTitle);
       const cleanSeoDescription = removeEmDashes(seoDescription);
 
+      // If there's a pending AI-generated image, commit it to GitHub first
+      let finalImageUrl = image;
+      if (pendingImageBase64 && pendingImageFileName) {
+        const imgRes = await authFetch("/api/cms/commit-image", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            base64: pendingImageBase64,
+            fileName: pendingImageFileName,
+          }),
+        });
+        const imgData = await imgRes.json();
+        if (!imgRes.ok) throw new Error(imgData.error ?? "Image upload failed");
+        finalImageUrl = imgData.url;
+      }
+
       const res = await authFetch("/api/cms/create", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -639,11 +669,11 @@ export default function SmartCreatePage() {
           category,
           author,
           reviewer,
-          image,
+          image: finalImageUrl,
           imageAlt,
           seoTitle: cleanSeoTitle,
           seoDescription: cleanSeoDescription,
-          ogImage: image,
+          ogImage: finalImageUrl,
           structuredSections: cleanSections,
           keyTakeaways: cleanTakeaways,
         }),
@@ -1081,8 +1111,10 @@ export default function SmartCreatePage() {
                           if (!res.ok) {
                             setError(data.error || "Image generation failed");
                           } else {
-                            // Use rawUrl for immediate preview, store relative url for publish
-                            setImage(data.rawUrl || data.url);
+                            // Use dataUrl for preview only — image is NOT committed to GitHub yet
+                            setImage(data.dataUrl);
+                            setPendingImageBase64(data.base64);
+                            setPendingImageFileName(data.fileName);
                             setImageAlt(title);
                             setShowImagePrompt(false);
                             setImagePrompt("");
@@ -1131,13 +1163,15 @@ export default function SmartCreatePage() {
                       password={password}
                       onUploaded={(url, fileName) => {
                         setImage(url);
+                        setPendingImageBase64(null);
+                        setPendingImageFileName(null);
                         if (!imageAlt) setImageAlt(fileName.replace(/[-_]/g, " ").replace(/\.[^.]+$/, ""));
                       }}
                     />
                     <input
                       type="text"
                       value={image}
-                      onChange={(e) => setImage(e.target.value)}
+                      onChange={(e) => { setImage(e.target.value); setPendingImageBase64(null); setPendingImageFileName(null); }}
                       className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent my-2"
                       placeholder="https://..."
                     />

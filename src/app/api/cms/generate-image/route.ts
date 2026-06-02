@@ -4,9 +4,6 @@ const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
 const FORGE_API_URL = process.env.BUILT_IN_FORGE_API_URL ?? "";
 const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY ?? "";
-const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
-const REPO = "cboudreau-eip/medicarefaq-next";
-const UPLOAD_PATH = "public/images/generated";
 
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
@@ -174,7 +171,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Generate filename from slug or title
+    // Generate the intended filename (used later at publish time)
     const baseName = (slug || title)
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
@@ -182,44 +179,17 @@ export async function POST(req: NextRequest) {
       .slice(0, 50);
     const timestamp = Date.now();
     const fileName = `${baseName}-${timestamp}.png`;
-    const filePath = `${UPLOAD_PATH}/${fileName}`;
 
-    // Commit the image to GitHub
-    const commitRes = await fetch(
-      `https://api.github.com/repos/${REPO}/contents/${filePath}`,
-      {
-        method: "PUT",
-        headers: {
-          Authorization: `Bearer ${GITHUB_TOKEN}`,
-          "Content-Type": "application/json",
-          Accept: "application/vnd.github.v3+json",
-        },
-        body: JSON.stringify({
-          message: `cms: AI-generated featured image for ${baseName}`,
-          content: base64Content,
-          branch: "main",
-        }),
-      }
-    );
-
-    if (!commitRes.ok) {
-      const errData = await commitRes.json().catch(() => ({}));
-      return NextResponse.json(
-        { error: `GitHub upload failed: ${commitRes.status} ${(errData as Record<string, string>).message || ""}` },
-        { status: 500 }
-      );
-    }
-
-    // Return both URLs
-    const publicUrl = `/images/generated/${fileName}`;
-    const rawUrl = `https://raw.githubusercontent.com/${REPO}/main/${filePath}`;
+    // Return the base64 image as a data URL for preview — NO GitHub commit.
+    // The image will only be committed to GitHub when the article is published/created.
+    const dataUrl = `data:image/png;base64,${base64Content}`;
 
     return NextResponse.json({
       success: true,
-      url: publicUrl,
-      rawUrl,
-      prompt,
+      dataUrl,
+      base64: base64Content,
       fileName,
+      prompt,
     });
   } catch (err) {
     console.error("Generate image error:", err);
