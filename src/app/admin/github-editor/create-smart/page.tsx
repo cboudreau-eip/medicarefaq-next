@@ -312,6 +312,11 @@ export default function SmartCreatePage() {
   const [seoTitle, setSeoTitle] = useState("");
   const [seoDescription, setSeoDescription] = useState("");
 
+  // Image generation state
+  const [generatingImage, setGeneratingImage] = useState(false);
+  const [imagePrompt, setImagePrompt] = useState("");
+  const [showImagePrompt, setShowImagePrompt] = useState(false);
+
   // Status state
   const [publishing, setPublishing] = useState(false);
   const [error, setError] = useState("");
@@ -1053,6 +1058,72 @@ export default function SmartCreatePage() {
                       <ImageIcon className="w-3 h-3" />
                       Featured Image
                     </label>
+
+                    {/* AI Generate Image Button */}
+                    <button
+                      onClick={async () => {
+                        setGeneratingImage(true);
+                        setError("");
+                        try {
+                          const res = await fetch("/api/cms/generate-image", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json", "x-cms-password": password },
+                            body: JSON.stringify({
+                              title,
+                              category,
+                              slug,
+                              customPrompt: imagePrompt || undefined,
+                            }),
+                          });
+                          const data = await res.json();
+                          if (!res.ok) {
+                            setError(data.error || "Image generation failed");
+                          } else {
+                            setImage(data.url);
+                            setImageAlt(title);
+                            setShowImagePrompt(false);
+                            setImagePrompt("");
+                          }
+                        } catch (err) {
+                          setError(`Image generation error: ${String(err)}`);
+                        } finally {
+                          setGeneratingImage(false);
+                        }
+                      }}
+                      disabled={generatingImage || !title}
+                      className="w-full mb-2 flex items-center justify-center gap-2 px-3 py-2.5 bg-gradient-to-r from-emerald-500 to-teal-600 text-white text-sm font-medium rounded-lg hover:from-emerald-600 hover:to-teal-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                    >
+                      {generatingImage ? (
+                        <><Loader2 className="w-4 h-4 animate-spin" /> Generating Image...</>
+                      ) : (
+                        <><Sparkles className="w-4 h-4" /> {image ? "Regenerate with AI" : "Generate with AI"}</>
+                      )}
+                    </button>
+
+                    {/* Custom prompt toggle */}
+                    <button
+                      onClick={() => setShowImagePrompt(!showImagePrompt)}
+                      className="text-xs text-gray-500 hover:text-gray-700 mb-2 flex items-center gap-1"
+                    >
+                      {showImagePrompt ? <ChevronDown className="w-3 h-3" /> : <ChevronRight className="w-3 h-3" />}
+                      Custom image prompt
+                    </button>
+                    {showImagePrompt && (
+                      <textarea
+                        value={imagePrompt}
+                        onChange={(e) => setImagePrompt(e.target.value)}
+                        className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent mb-2 resize-none"
+                        rows={3}
+                        placeholder="Describe the image you want (leave blank for auto-generated prompt based on title and category)..."
+                      />
+                    )}
+
+                    <div className="relative flex items-center my-2">
+                      <div className="flex-1 border-t border-gray-200"></div>
+                      <span className="px-3 text-xs text-gray-400">or upload / paste URL</span>
+                      <div className="flex-1 border-t border-gray-200"></div>
+                    </div>
+
                     <ImageUpload
                       password={password}
                       onUploaded={(url, fileName) => {
@@ -1060,16 +1131,11 @@ export default function SmartCreatePage() {
                         if (!imageAlt) setImageAlt(fileName.replace(/[-_]/g, " ").replace(/\.[^.]+$/, ""));
                       }}
                     />
-                    <div className="relative flex items-center my-2">
-                      <div className="flex-1 border-t border-gray-200"></div>
-                      <span className="px-3 text-xs text-gray-400">or paste URL</span>
-                      <div className="flex-1 border-t border-gray-200"></div>
-                    </div>
                     <input
                       type="text"
                       value={image}
                       onChange={(e) => setImage(e.target.value)}
-                      className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent mb-2"
+                      className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent my-2"
                       placeholder="https://..."
                     />
                     <input
