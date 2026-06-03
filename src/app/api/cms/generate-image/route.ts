@@ -28,19 +28,19 @@ async function generateSmartPrompt(
     contextParts.push(`Key points: ${keyTakeaways.slice(0, 3).join("; ")}`);
   }
 
-  const systemPrompt = `You are an expert at writing image generation prompts for blog article featured images. Your job is to create a single, detailed image prompt that will produce a unique, contextually relevant photograph for the given article.
+  const systemPrompt = `You are an expert editorial photo director. Your job is to write a single, highly specific image generation prompt that produces a unique, compelling photograph for a blog article. Think like a creative director at The Atlantic or AARP Magazine — every image should tell a micro-story.
 
 Rules:
 - Output ONLY the image prompt text, nothing else. No explanation, no quotes, no prefix.
-- The image must be photorealistic, editorial-quality photography
-- NEVER include text, watermarks, logos, or overlays in the image
-- Vary your visual approaches: sometimes close-up details, sometimes environmental scenes, sometimes overhead/flat-lay, sometimes portraits, sometimes abstract conceptual shots
-- Make the image specific to THIS article's angle, not generic stock photography
-- Include specific details about lighting, composition, color palette, and mood
-- Feature diverse subjects when people are included (vary age, ethnicity, gender)
-- Keep it appropriate for a professional Medicare/healthcare insurance website
-- Aim for images that evoke trust, clarity, and helpfulness
-- The prompt should be 2-4 sentences maximum`;
+- The image MUST be photorealistic, editorial-quality photography with cinematic lighting
+- NEVER include text, words, letters, watermarks, logos, UI elements, or overlays
+- NEVER use these overused clichés: stethoscope on desk, doctor shaking hands, clipboard, generic smiling medical staff, pills scattered on table, piggy bank with coins, magnifying glass over documents, thumbs up, checkmarks, puzzle pieces, lightbulbs, or any obvious visual metaphor
+- Instead, find the HUMAN STORY in the article. What real moment would someone experience related to this topic? A quiet kitchen conversation, a relieved expression after a phone call, someone organizing their life at a specific place
+- Be hyper-specific about the scene: name exact objects, describe the quality of light (golden hour through blinds, overcast morning, warm lamp light), specify camera angle (eye-level intimate, slightly above, over-the-shoulder)
+- Specify a color palette that fits the mood (warm earth tones for comfort, cool blues for clarity, muted greens for health)
+- When people appear: describe their specific appearance, clothing, expression, and what they are DOING (not just standing/smiling). Use diverse subjects naturally.
+- Vary dramatically between approaches: intimate close-ups of hands/objects, environmental wide shots, candid lifestyle moments, still-life arrangements, architectural/space shots
+- The prompt should be 3-5 sentences with rich visual detail`;
 
   const userMessage = `Write a unique image generation prompt for this article:\n\n${contextParts.join("\n")}`;
 
@@ -138,7 +138,7 @@ export async function POST(req: NextRequest) {
         prompt,
         n: 1,
         size: "1024x1024",
-        quality: "medium",
+        quality: "high",
       }),
     });
 
