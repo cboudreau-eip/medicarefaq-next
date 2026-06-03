@@ -198,14 +198,15 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Generate the intended filename (used later at publish time)
+    // Generate a short, clean filename (no timestamps, max ~30 chars)
     const baseName = (slug || title)
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-|-$/g, "")
-      .slice(0, 50);
-    const timestamp = Date.now();
-    const fileName = `${baseName}-${timestamp}.png`;
+      .split("-")
+      .slice(0, 4)
+      .join("-");
+    const fileName = `${baseName}.png`;
 
     // Return the base64 image as a data URL for preview — NO GitHub commit.
     const dataUrl = `data:image/png;base64,${base64Content}`;
