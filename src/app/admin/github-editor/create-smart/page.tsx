@@ -320,6 +320,11 @@ export default function SmartCreatePage() {
   const [pendingImageBase64, setPendingImageBase64] = useState<string | null>(null);
   const [pendingImageFileName, setPendingImageFileName] = useState<string | null>(null);
 
+  // Related articles state
+  const [relatedSlugs, setRelatedSlugs] = useState<string[]>([]);
+  const [relatedCandidates, setRelatedCandidates] = useState<{ slug: string; title: string; type: string }[]>([]);
+  const [suggestingRelated, setSuggestingRelated] = useState(false);
+
   // Status state
   const [publishing, setPublishing] = useState(false);
   const [error, setError] = useState("");
@@ -376,18 +381,62 @@ export default function SmartCreatePage() {
       setTableOfContents(data.tableOfContents || []);
 
       // Auto-fill metadata from AI response
+      let resolvedCategory = category;
       if (data.meta) {
         const meta: TransformMeta = data.meta;
         if (meta.excerpt && !excerpt) setExcerpt(meta.excerpt);
         if (meta.keyTakeaways) setKeyTakeaways(meta.keyTakeaways);
         if (meta.seoTitle) setSeoTitle(meta.seoTitle);
         if (meta.seoDescription) setSeoDescription(meta.seoDescription);
-        if (meta.suggestedCategory) setCategory(meta.suggestedCategory);
+        if (meta.suggestedCategory) { setCategory(meta.suggestedCategory); resolvedCategory = meta.suggestedCategory; }
       }
+
+      // Auto-suggest related articles after transform
+      suggestRelatedArticles(title || "Untitled", data.meta?.excerpt || excerpt, resolvedCategory, data.meta?.keyTakeaways || keyTakeaways);
     } catch (err) {
       setError(String(err));
     } finally {
       setTransforming(false);
+    }
+  };
+
+  // --- Suggest Related Articles ---
+  const suggestRelatedArticles = async (articleTitle: string, articleExcerpt: string, articleCategory: string, articleKeyTakeaways: string[]) => {
+    setSuggestingRelated(true);
+    try {
+      // Fetch all articles as candidates
+      const articlesRes = await authFetch("/api/cms/articles");
+      const articlesData = await articlesRes.json();
+      if (!articlesRes.ok) return;
+
+      const candidates = (articlesData.articles || []).map((a: { slug: string; title: string; excerpt?: string; type: string }) => ({
+        slug: a.slug,
+        title: a.title,
+        excerpt: a.excerpt || "",
+        type: a.type,
+      }));
+      setRelatedCandidates(candidates);
+
+      // Ask AI to pick the best 4
+      const suggestRes = await authFetch("/api/cms/suggest-related", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title: articleTitle,
+          excerpt: articleExcerpt,
+          category: articleCategory,
+          keyTakeaways: articleKeyTakeaways,
+          candidates,
+        }),
+      });
+      const suggestData = await suggestRes.json();
+      if (suggestRes.ok && suggestData.relatedSlugs) {
+        setRelatedSlugs(suggestData.relatedSlugs);
+      }
+    } catch {
+      // Non-critical — silently fail
+    } finally {
+      setSuggestingRelated(false);
     }
   };
 
@@ -420,6 +469,7 @@ export default function SmartCreatePage() {
         tableOfContents: tableOfContents.length > 0 ? tableOfContents : undefined,
         pendingImageBase64: pendingImageBase64 || undefined,
         pendingImageFileName: pendingImageFileName || undefined,
+        relatedSlugs: relatedSlugs.length > 0 ? relatedSlugs : undefined,
       };
 
       const res = await authFetch("/api/cms/drafts", {
@@ -496,6 +546,7 @@ export default function SmartCreatePage() {
       setSeoDescription(draft.seoDescription || "");
       setSections(draft.sections || null);
       setTableOfContents(draft.tableOfContents || []);
+      setRelatedSlugs(draft.relatedSlugs || []);
       setDraftSavedAt(draft.updatedAt ? new Date(draft.updatedAt).toLocaleTimeString() : null);
       setShowDraftsPanel(false);
       setSuccess(`Draft "${draft.title}" loaded.`);
@@ -676,6 +727,7 @@ export default function SmartCreatePage() {
           ogImage: finalImageUrl,
           structuredSections: cleanSections,
           keyTakeaways: cleanTakeaways,
+          relatedSlugs: relatedSlugs.length > 0 ? relatedSlugs : undefined,
         }),
       });
 
@@ -1191,6 +1243,76 @@ export default function SmartCreatePage() {
                           className="w-full h-32 object-cover"
                           onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                         />
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Related Articles */}
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <label className="block text-xs font-medium text-gray-500 flex items-center gap-1">
+                        <ExternalLink className="w-3 h-3" />
+                        Related Articles
+                      </label>
+                      {suggestingRelated ? (
+                        <span className="text-xs text-gray-400 flex items-center gap-1">
+                          <Loader2 className="w-3 h-3 animate-spin" /> Suggesting...
+                        </span>
+                      ) : relatedCandidates.length > 0 ? (
+                        <button
+                          type="button"
+                          onClick={() => suggestRelatedArticles(title, excerpt, category, keyTakeaways)}
+                          className="text-xs text-teal-600 hover:text-teal-700 font-medium"
+                        >
+                          Re-suggest
+                        </button>
+                      ) : null}
+                    </div>
+
+                    {relatedCandidates.length === 0 && !suggestingRelated ? (
+                      <p className="text-xs text-gray-400">Transform content first to auto-suggest related articles.</p>
+                    ) : suggestingRelated ? (
+                      <div className="space-y-1.5">
+                        {[1, 2, 3, 4].map((i) => (
+                          <div key={i} className="h-7 bg-gray-100 rounded-lg animate-pulse" />
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="space-y-1.5">
+                        {relatedSlugs.map((slug) => {
+                          const candidate = relatedCandidates.find((c) => c.slug === slug);
+                          return (
+                            <div key={slug} className="flex items-center gap-2 p-2 bg-teal-50 border border-teal-200 rounded-lg">
+                              <button
+                                type="button"
+                                onClick={() => setRelatedSlugs(relatedSlugs.filter((s) => s !== slug))}
+                                className="text-teal-400 hover:text-red-500 transition-colors shrink-0"
+                              >
+                                <X className="w-3.5 h-3.5" />
+                              </button>
+                              <span className="text-xs text-gray-700 truncate">{candidate?.title || slug}</span>
+                              <span className="text-[10px] text-gray-400 shrink-0 ml-auto">{candidate?.type}</span>
+                            </div>
+                          );
+                        })}
+                        {/* Add from remaining candidates */}
+                        {relatedCandidates.filter((c) => !relatedSlugs.includes(c.slug)).length > 0 && relatedSlugs.length < 6 && (
+                          <select
+                            className="w-full text-xs border border-gray-200 rounded-lg px-2 py-1.5 text-gray-500 bg-white focus:outline-none focus:ring-2 focus:ring-teal-500"
+                            value=""
+                            onChange={(e) => {
+                              if (e.target.value) setRelatedSlugs([...relatedSlugs, e.target.value]);
+                            }}
+                          >
+                            <option value="">+ Add another article...</option>
+                            {relatedCandidates
+                              .filter((c) => !relatedSlugs.includes(c.slug))
+                              .slice(0, 50)
+                              .map((c) => (
+                                <option key={c.slug} value={c.slug}>{c.title}</option>
+                              ))}
+                          </select>
+                        )}
                       </div>
                     )}
                   </div>
