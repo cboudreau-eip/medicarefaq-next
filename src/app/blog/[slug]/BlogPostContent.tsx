@@ -204,6 +204,9 @@ function renderSection(section: BlogSectionContent, idx: number) {
     case "warning":
     case "info":
     case "tip":
+    case "success":
+    case "note":
+    case "error":
     case "callout": {
       const calloutStyles = {
         warning: {
@@ -235,8 +238,10 @@ function renderSection(section: BlogSectionContent, idx: number) {
           iconColor: "text-[#7C3AED]",
         },
       };
-      // If type is "warning"/"info"/"tip" directly, use that as the callout style
-      const resolvedCalloutType = section.calloutType || (section.type !== "callout" ? section.type : "info") || "info";
+      // Map type directly to callout style; note→info, error→warning, success/tip/warning/info pass through
+      const typeToStyle: Record<string, string> = { note: "info", error: "warning" };
+      const rawType = section.calloutType || (section.type !== "callout" ? section.type : "info") || "info";
+      const resolvedCalloutType = typeToStyle[rawType] || rawType;
       const style = calloutStyles[resolvedCalloutType as keyof typeof calloutStyles] || calloutStyles.info;
       const Icon = style.icon;
       return (
