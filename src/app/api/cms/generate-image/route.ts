@@ -10,39 +10,71 @@ function checkCmsAuth(request: Request): boolean {
 }
 
 /**
- * Use GPT-4o-mini to generate a creative, unique image prompt based on article context.
- * This produces much better and more varied images than a static template.
- * Uses the same OPENAI_API_KEY already configured for image generation.
+ * Convert structured article sections into readable plain text for the image prompt.
  */
-async function generateSmartPrompt(
-  title: string,
-  category?: string,
-  excerpt?: string,
-  keyTakeaways?: string[]
-): Promise<string> {
-  const contextParts: string[] = [];
-  contextParts.push(`Article title: "${title}"`);
-  if (category) contextParts.push(`Category: ${category}`);
-  if (excerpt) contextParts.push(`Excerpt: ${excerpt}`);
-  if (keyTakeaways && keyTakeaways.length > 0) {
-    contextParts.push(`Key points: ${keyTakeaways.slice(0, 3).join("; ")}`);
+function sectionsToText(sections: Array<Record<string, unknown>>): string {
+  const parts: string[] = [];
+  for (const section of sections) {
+    switch (section.type) {
+      case "heading":
+        parts.push(`\n## ${section.text || ""}\n`);
+        break;
+      case "paragraph":
+        parts.push(String(section.content || ""));
+        break;
+      case "list":
+        if (Array.isArray(section.items)) {
+          parts.push(section.items.map((item: string) => `- ${item}`).join("\n"));
+        }
+        break;
+      case "callout":
+      case "warning":
+      case "info":
+      case "tip":
+      case "success":
+      case "note":
+      case "error":
+        if (section.calloutTitle) parts.push(`**${section.calloutTitle}**`);
+        if (section.calloutText) parts.push(String(section.calloutText));
+        break;
+      case "table":
+        if (section.title) parts.push(`Table: ${section.title}`);
+        break;
+      case "faq":
+        if (Array.isArray(section.faqs)) {
+          for (const faq of section.faqs as Array<{ question?: string; answer?: string }>) {
+            parts.push(`Q: ${faq.question || ""}\nA: ${faq.answer || ""}`);
+          }
+        }
+        break;
+      default:
+        break;
+    }
   }
+  return parts.join("\n\n");
+}
 
-  const systemPrompt = `You are an expert editorial photo director. Your job is to write a single, highly specific image generation prompt that produces a unique, compelling photograph for a blog article. Think like a creative director at The Atlantic or AARP Magazine — every image should tell a micro-story.
+/**
+ * Generate an image prompt by giving GPT-4o the full article context.
+ * Mimics the approach of pasting the full article into ChatGPT and asking for a hero image.
+ */
+async function generatePromptFromFullArticle(
+  title: string,
+  fullArticleText: string,
+  category?: string,
+): Promise<string> {
+  const systemPrompt = `You are an expert at creating image generation prompts for blog hero images. The user will give you a full article. Your job is to write a single image generation prompt that produces a beautiful, photorealistic hero image to complement the article.
 
 Rules:
-- Output ONLY the image prompt text, nothing else. No explanation, no quotes, no prefix.
-- The image MUST be photorealistic, editorial-quality photography with cinematic lighting
-- NEVER include text, words, letters, watermarks, logos, UI elements, or overlays
-- NEVER use these overused clichés: stethoscope on desk, doctor shaking hands, clipboard, generic smiling medical staff, pills scattered on table, piggy bank with coins, magnifying glass over documents, thumbs up, checkmarks, puzzle pieces, lightbulbs, or any obvious visual metaphor
-- Instead, find the HUMAN STORY in the article. What real moment would someone experience related to this topic? A quiet kitchen conversation, a relieved expression after a phone call, someone organizing their life at a specific place
-- Be hyper-specific about the scene: name exact objects, describe the quality of light (golden hour through blinds, overcast morning, warm lamp light), specify camera angle (eye-level intimate, slightly above, over-the-shoulder)
-- Specify a color palette that fits the mood (warm earth tones for comfort, cool blues for clarity, muted greens for health)
-- When people appear: describe their specific appearance, clothing, expression, and what they are DOING (not just standing/smiling). Use diverse subjects naturally.
-- Vary dramatically between approaches: intimate close-ups of hands/objects, environmental wide shots, candid lifestyle moments, still-life arrangements, architectural/space shots
-- The prompt should be 3-5 sentences with rich visual detail`;
+- Output ONLY the image prompt, nothing else. No explanation, no quotes, no prefix.
+- The image must be photorealistic, editorial-quality photography
+- The image MUST NOT contain any text, words, letters, numbers, watermarks, logos, or overlays of any kind
+- Read the full article and understand its core topic, then envision a natural, realistic scene that a viewer would associate with the subject matter
+- Think about what a professional stock photographer would shoot to illustrate this topic
+- Be specific about lighting, composition, setting, and any people or objects in the scene
+- The prompt should be 2-4 sentences`;
 
-  const userMessage = `Write a unique image generation prompt for this article:\n\n${contextParts.join("\n")}`;
+  const userMessage = `Give me a hero image to complement this article. Image should not contain any text of any kind.\n\nTitle: ${title}\nCategory: ${category || "Medicare"}\n\n---\n\n${fullArticleText}`;
 
   try {
     const res = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -58,7 +90,7 @@ Rules:
           { role: "user", content: userMessage },
         ],
         max_tokens: 300,
-        temperature: 0.9,
+        temperature: 0.8,
       }),
     });
 
@@ -80,22 +112,10 @@ Rules:
 }
 
 /**
- * Fallback prompt if GPT-4o-mini is unavailable — basic template approach.
+ * Fallback prompt if GPT-4o-mini is unavailable.
  */
 function buildFallbackPrompt(title: string, category?: string): string {
-  const scenes = [
-    "a warm kitchen table with Medicare paperwork and reading glasses",
-    "a bright doctor's office with a friendly physician and senior patient",
-    "a cozy home office with a laptop showing healthcare information",
-    "a pharmacy counter with a pharmacist helping a senior customer",
-    "a park bench where two seniors are having a conversation",
-    "a community center meeting room with informational materials",
-    "an overhead view of a desk with insurance documents and a cup of coffee",
-    "a close-up of hands reviewing important medical documents",
-  ];
-  const scene = scenes[Math.floor(Math.random() * scenes.length)];
-
-  return `Professional editorial photograph for a Medicare article titled "${title}". Scene: ${scene}. Photorealistic, high-quality, soft natural lighting. No text, no watermarks, no logos. Clean composition suitable for a blog hero image. Category context: ${category || "Medicare"}.`;
+  return `Professional editorial photograph for a Medicare article titled "${title}". Photorealistic, high-quality, soft natural lighting. No text, no watermarks, no logos. Clean composition suitable for a blog hero image. Category: ${category || "Medicare"}.`;
 }
 
 export async function POST(req: NextRequest) {
@@ -112,18 +132,26 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { title, category, slug, customPrompt, excerpt, keyTakeaways } = body;
+    const { title, category, slug, customPrompt, fullArticle } = body;
 
     if (!title) {
       return NextResponse.json({ error: "Title is required" }, { status: 400 });
     }
 
-    // Use custom prompt if provided, otherwise use GPT-4o-mini to generate a smart prompt
+    // Determine the prompt to use
     let prompt: string;
     if (customPrompt) {
+      // User provided a custom prompt — use it directly
       prompt = customPrompt;
+    } else if (fullArticle && Array.isArray(fullArticle) && fullArticle.length > 0) {
+      // Full article available — convert to text and let GPT read the whole thing
+      const articleText = sectionsToText(fullArticle);
+      // Truncate to ~8000 chars to stay within token limits while giving full context
+      const truncated = articleText.slice(0, 8000);
+      prompt = await generatePromptFromFullArticle(title, truncated, category);
     } else {
-      prompt = await generateSmartPrompt(title, category, excerpt, keyTakeaways);
+      // No full article (shouldn't happen in normal flow) — use title-based fallback
+      prompt = buildFallbackPrompt(title, category);
     }
 
     // Call OpenAI Image Generation API
@@ -180,7 +208,6 @@ export async function POST(req: NextRequest) {
     const fileName = `${baseName}-${timestamp}.png`;
 
     // Return the base64 image as a data URL for preview — NO GitHub commit.
-    // The image will only be committed to GitHub when the article is published/created.
     const dataUrl = `data:image/png;base64,${base64Content}`;
 
     return NextResponse.json({

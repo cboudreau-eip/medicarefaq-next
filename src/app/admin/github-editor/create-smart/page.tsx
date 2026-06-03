@@ -1157,6 +1157,7 @@ export default function SmartCreatePage() {
                               excerpt,
                               keyTakeaways,
                               customPrompt: imagePrompt || undefined,
+                              fullArticle: sections || undefined,
                             }),
                           });
                           const data = await res.json();
