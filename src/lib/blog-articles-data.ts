@@ -5606,7 +5606,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=500&fit=crop",
+    image: "/images/generated/maryland-medicare-supplement-birthday.png",
+      imageAlt: "Maryland Medicare Supplement Birthday Rule Explained | MedicareFAQ",
     keyTakeaways: [
       "Maryland Medicare Supplement Birthday Rule allows you to switch plans once per year without medical underwriting during your birthday month",
       "You have 63 days from your birthday to change Medigap plans under this guarantee issue right",
