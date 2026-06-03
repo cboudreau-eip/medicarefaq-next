@@ -43,7 +43,36 @@ export async function POST(req: NextRequest) {
 
     const filePath = `${UPLOAD_PATH}/${fileName}`;
 
+    // Check if file already exists (need sha to overwrite)
+    let existingSha: string | undefined;
+    try {
+      const checkRes = await fetch(
+        `https://api.github.com/repos/${REPO}/contents/${filePath}?ref=main`,
+        {
+          headers: {
+            Authorization: `Bearer ${GITHUB_TOKEN}`,
+            Accept: "application/vnd.github.v3+json",
+          },
+        }
+      );
+      if (checkRes.ok) {
+        const checkData = await checkRes.json();
+        existingSha = checkData.sha;
+      }
+    } catch {
+      // File doesn't exist, that's fine
+    }
+
     // Commit the image to GitHub
+    const commitBody: Record<string, string> = {
+      message: `cms: AI-generated featured image for ${fileName.replace(/\.png$/, "")}`,
+      content: base64,
+      branch: "main",
+    };
+    if (existingSha) {
+      commitBody.sha = existingSha;
+    }
+
     const commitRes = await fetch(
       `https://api.github.com/repos/${REPO}/contents/${filePath}`,
       {
@@ -53,11 +82,7 @@ export async function POST(req: NextRequest) {
           "Content-Type": "application/json",
           Accept: "application/vnd.github.v3+json",
         },
-        body: JSON.stringify({
-          message: `cms: AI-generated featured image for ${fileName.replace(/-\d+\.png$/, "")}`,
-          content: base64,
-          branch: "main",
-        }),
+        body: JSON.stringify(commitBody),
       }
     );
 

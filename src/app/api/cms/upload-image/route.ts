@@ -53,7 +53,36 @@ export async function POST(req: NextRequest) {
     const arrayBuffer = await file.arrayBuffer();
     const base64Content = Buffer.from(arrayBuffer).toString("base64");
 
+    // Check if file already exists (need sha to overwrite)
+    let existingSha: string | undefined;
+    try {
+      const checkRes = await fetch(
+        `https://api.github.com/repos/${REPO}/contents/${filePath}?ref=main`,
+        {
+          headers: {
+            Authorization: `Bearer ${GITHUB_TOKEN}`,
+            Accept: "application/vnd.github.v3+json",
+          },
+        }
+      );
+      if (checkRes.ok) {
+        const checkData = await checkRes.json();
+        existingSha = checkData.sha;
+      }
+    } catch {
+      // File doesn't exist, that's fine
+    }
+
     // Commit to GitHub via API
+    const commitBody: Record<string, string> = {
+      message: `cms: upload image ${fileName}`,
+      content: base64Content,
+      branch: "main",
+    };
+    if (existingSha) {
+      commitBody.sha = existingSha;
+    }
+
     const commitRes = await fetch(
       `https://api.github.com/repos/${REPO}/contents/${filePath}`,
       {
@@ -63,18 +92,14 @@ export async function POST(req: NextRequest) {
           "Content-Type": "application/json",
           Accept: "application/vnd.github.v3+json",
         },
-        body: JSON.stringify({
-          message: `cms: upload image ${fileName}`,
-          content: base64Content,
-          branch: "main",
-        }),
+        body: JSON.stringify(commitBody),
       }
     );
 
     if (!commitRes.ok) {
       const errData = await commitRes.json().catch(() => ({}));
       return NextResponse.json(
-        { error: `GitHub upload failed: ${commitRes.status} ${errData.message || ""}` },
+        { error: `GitHub upload failed: ${commitRes.status} ${(errData as Record<string, string>).message || ""}` },
         { status: 500 }
       );
     }
