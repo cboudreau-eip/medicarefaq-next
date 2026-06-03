@@ -201,6 +201,9 @@ function renderSection(section: BlogSectionContent, idx: number) {
           )}
         </div>
       );
+    case "warning":
+    case "info":
+    case "tip":
     case "callout": {
       const calloutStyles = {
         warning: {
@@ -232,7 +235,9 @@ function renderSection(section: BlogSectionContent, idx: number) {
           iconColor: "text-[#7C3AED]",
         },
       };
-      const style = calloutStyles[section.calloutType || "info"] || calloutStyles.info;
+      // If type is "warning"/"info"/"tip" directly, use that as the callout style
+      const resolvedCalloutType = section.calloutType || (section.type !== "callout" ? section.type : "info") || "info";
+      const style = calloutStyles[resolvedCalloutType as keyof typeof calloutStyles] || calloutStyles.info;
       const Icon = style.icon;
       return (
         <div

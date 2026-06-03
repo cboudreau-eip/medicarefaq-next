@@ -210,7 +210,7 @@ export interface SimpleFAQArticleData {
 /* ─── Blog Article Schema ─── */
 
 export interface BlogSectionContent {
-  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image";
+  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image" | "warning" | "info" | "tip";
   // For headings
   level?: 2 | 3;
   text?: string;
