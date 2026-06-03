@@ -46,8 +46,7 @@ export async function POST(req: NextRequest) {
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-|-$/g, "")
       .slice(0, 60);
-    const timestamp = Date.now();
-    const fileName = `${baseName}-${timestamp}.${ext}`;
+    const fileName = `${baseName}.${ext}`;
     const filePath = `${UPLOAD_PATH}/${fileName}`;
 
     // Convert file to base64

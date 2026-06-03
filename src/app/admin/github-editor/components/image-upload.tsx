@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { Upload, Loader2, ImageIcon, X, CheckCircle2 } from "lucide-react";
+import { Upload, Loader2, X, RefreshCw } from "lucide-react";
 
 interface ImageUploadProps {
   password: string;
@@ -12,6 +12,7 @@ export default function ImageUpload({ password, onUploaded }: ImageUploadProps) 
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState("");
   const [dragOver, setDragOver] = useState(false);
+  const [uploadedUrl, setUploadedUrl] = useState("");
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleUpload = async (file: File) => {
@@ -31,6 +32,7 @@ export default function ImageUpload({ password, onUploaded }: ImageUploadProps) 
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Upload failed");
 
+      setUploadedUrl(data.url);
       onUploaded(data.url, data.fileName);
     } catch (err: any) {
       setError(err.message || "Upload failed");
@@ -42,7 +44,6 @@ export default function ImageUpload({ password, onUploaded }: ImageUploadProps) 
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) handleUpload(file);
-    // Reset input so same file can be selected again
     e.target.value = "";
   };
 
@@ -61,6 +62,42 @@ export default function ImageUpload({ password, onUploaded }: ImageUploadProps) 
   const handleDragLeave = () => {
     setDragOver(false);
   };
+
+  // After upload: show preview with option to replace
+  if (uploadedUrl && !uploading) {
+    return (
+      <div className="space-y-2">
+        <div className="relative rounded-lg overflow-hidden border border-gray-200 bg-gray-50">
+          <img
+            src={uploadedUrl}
+            alt="Uploaded image preview"
+            className="w-full h-40 object-cover"
+          />
+          <button
+            type="button"
+            onClick={() => { setUploadedUrl(""); fileInputRef.current?.click(); }}
+            className="absolute top-2 right-2 flex items-center gap-1 px-2 py-1 bg-white/90 hover:bg-white text-xs text-gray-600 font-medium rounded-md shadow-sm border border-gray-200 transition-all"
+          >
+            <RefreshCw className="w-3 h-3" />
+            Replace
+          </button>
+        </div>
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="image/jpeg,image/png,image/webp,image/gif,image/svg+xml"
+          onChange={handleFileSelect}
+          className="hidden"
+        />
+        {error && (
+          <p className="text-xs text-red-500 flex items-center gap-1">
+            <X className="w-3 h-3" />
+            {error}
+          </p>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-2">
@@ -89,7 +126,7 @@ export default function ImageUpload({ password, onUploaded }: ImageUploadProps) 
         {uploading ? (
           <>
             <Loader2 className="w-6 h-6 text-teal-600 animate-spin" />
-            <p className="text-xs text-gray-500">Uploading to GitHub...</p>
+            <p className="text-xs text-gray-500">Uploading...</p>
           </>
         ) : (
           <>
