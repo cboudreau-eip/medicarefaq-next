@@ -8305,7 +8305,7 @@ export const blogArticles: BlogArticleData[] = [
     slug: "idaho-birthday-rule",
     seo: {
       title: "Idaho Birthday Rule: Medigap Rights in Idaho | MedicareFAQ",
-      description: "Idaho\'s Medigap Birthday Rule offers a 63-day window from your birthday to switch Medicare Supplement plans without medical underwriting. Learn eligibility and compare plans.",
+      description: "Idaho\\'s Medigap Birthday Rule offers a 63-day window from your birthday to switch Medicare Supplement plans without medical underwriting. Learn eligibility and compare plans.",
       canonical: "https://www.medicarefaq.com/blog/idaho-birthday-rule/",
       ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
     },
@@ -8318,7 +8318,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    image: "/images/generated/idaho-birthday-rule.png",
+      imageAlt: "Idaho Birthday Rule: Medigap Rights in Idaho | MedicareFAQ",
     keyTakeaways: [
       "Idaho\'s Medigap Birthday Rule provides a 63-day window starting from your birthday to switch plans.",
       "You can switch to any carrier, but the new plan must offer equal or lesser benefits than your current one.",
