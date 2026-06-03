@@ -1116,8 +1116,9 @@ export default function SmartCreatePage() {
                             setPendingImageBase64(data.base64);
                             setPendingImageFileName(data.fileName);
                             setImageAlt(title);
-                            setShowImagePrompt(false);
-                            setImagePrompt("");
+                            // Show the prompt that was used so user can see/edit it
+                            setShowImagePrompt(true);
+                            setImagePrompt(data.prompt || "");
                           }
                         } catch (err) {
                           setError(`Image generation error: ${String(err)}`);

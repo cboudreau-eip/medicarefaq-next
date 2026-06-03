@@ -74,6 +74,8 @@ export default function EditArticlePage() {
   // Temporary AI-generated image (not yet committed to GitHub)
   const [pendingImageBase64, setPendingImageBase64] = useState<string | null>(null);
   const [pendingImageFileName, setPendingImageFileName] = useState<string | null>(null);
+  const [imageGenPrompt, setImageGenPrompt] = useState("");
+  const [showImageGenPrompt, setShowImageGenPrompt] = useState(false);
 
   // Load article detail
   const loadDetail = useCallback(async () => {
@@ -337,7 +339,7 @@ export default function EditArticlePage() {
                         const res = await authFetch("/api/cms/generate-image", {
                           method: "POST",
                           headers: { "Content-Type": "application/json" },
-                          body: JSON.stringify({ title: editTitle || articleSlug, slug: articleSlug, category: "Medicare" }),
+                          body: JSON.stringify({ title: editTitle || articleSlug, slug: articleSlug, category: "Medicare", customPrompt: imageGenPrompt || undefined }),
                         });
                         const data = await res.json();
                         if (!res.ok) throw new Error(data.error || `Failed: ${res.status}`);
@@ -346,6 +348,9 @@ export default function EditArticlePage() {
                         setPendingImageBase64(data.base64);
                         setPendingImageFileName(data.fileName);
                         if (!editImageAlt) setEditImageAlt(editTitle || articleSlug);
+                        // Show the prompt that was used
+                        setImageGenPrompt(data.prompt || "");
+                        setShowImageGenPrompt(true);
                       } catch (err: unknown) {
                         setImageGenError(err instanceof Error ? err.message : "Image generation failed");
                       } finally {
@@ -363,6 +368,23 @@ export default function EditArticlePage() {
                   </button>
                   {imageGenError && (
                     <p className="text-xs text-red-500 mt-1">{imageGenError}</p>
+                  )}
+                  {/* Custom image prompt - shown after generation with the prompt used */}
+                  <button
+                    type="button"
+                    onClick={() => setShowImageGenPrompt(!showImageGenPrompt)}
+                    className="text-xs text-gray-500 hover:text-gray-700 flex items-center gap-1"
+                  >
+                    <span>{showImageGenPrompt ? "▼" : "▶"}</span> Custom image prompt
+                  </button>
+                  {showImageGenPrompt && (
+                    <textarea
+                      value={imageGenPrompt}
+                      onChange={(e) => setImageGenPrompt(e.target.value)}
+                      className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none"
+                      rows={4}
+                      placeholder="Describe the image you want (leave blank for auto-generated prompt based on title and category)..."
+                    />
                   )}
                   <div className="relative flex items-center">
                     <div className="flex-1 border-t border-gray-200"></div>
