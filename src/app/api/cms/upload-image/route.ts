@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN ?? "";
+const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
 const REPO = "cboudreau-eip/medicarefaq-next";
 const UPLOAD_PATH = "public/images/uploaded";
 
