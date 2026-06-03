@@ -64,6 +64,7 @@ function patchArticleInSource(
   src: string,
   slug: string,
   updates: {
+    newSlug?: string;
     title?: string;
     seoTitle?: string;
     seoDescription?: string;
@@ -95,6 +96,24 @@ function patchArticleInSource(
   }
   const blockEnd = i + 1;
   let block = src.slice(braceStart, blockEnd);
+
+  // Patch slug if changed
+  if (updates.newSlug && updates.newSlug !== slug) {
+    block = block.replace(
+      /(\bslug:\s*)["'](?:[^"'\\]|\\.)*["']/,
+      `$1"${updates.newSlug.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+    );
+    // Also update canonical URL if it contains the old slug
+    const oldSlugEscaped = slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const canonicalRegex = new RegExp(`(canonical:\\s*")[^"]*${oldSlugEscaped}[^"]*"`);
+    const canonicalMatch = block.match(canonicalRegex);
+    if (canonicalMatch) {
+      block = block.replace(
+        canonicalRegex,
+        `$1${canonicalMatch[0].slice(canonicalMatch[1].length).replace(slug, updates.newSlug)}`
+      );
+    }
+  }
 
   // Patch title
   if (updates.title !== undefined) {
@@ -199,7 +218,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { slug, type, title, seoTitle, seoDescription, ogImage, image, imageAlt, sectionsRaw } = body;
+    const { slug, type, title, seoTitle, seoDescription, ogImage, image, imageAlt, sectionsRaw, newSlug } = body;
 
     if (!slug || !type) {
       return NextResponse.json({ error: "slug and type required" }, { status: 400 });
@@ -215,6 +234,7 @@ export async function POST(req: NextRequest) {
 
     // Apply patches
     const patchedSrc = patchArticleInSource(currentSrc, slug, {
+      newSlug: newSlug || undefined,
       title,
       seoTitle,
       seoDescription,
@@ -241,7 +261,7 @@ export async function POST(req: NextRequest) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          message: `cms: update "${slug}" - title, SEO, and content`,
+          message: `cms: update "${newSlug || slug}" - title, SEO, and content`,
           content: encodeBase64(patchedSrc),
           sha: fileSha,
           branch: BRANCH,

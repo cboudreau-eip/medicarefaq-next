@@ -58,6 +58,7 @@ export default function EditArticlePage() {
   const [editOgImage, setEditOgImage] = useState("");
   const [editImage, setEditImage] = useState("");
   const [editImageAlt, setEditImageAlt] = useState("");
+  const [editSlug, setEditSlug] = useState("");
   const [editSectionsRaw, setEditSectionsRaw] = useState("");
 
   // Save state
@@ -90,6 +91,7 @@ export default function EditArticlePage() {
       if (!res.ok) throw new Error(data.error ?? "Failed to load article");
       setDetail(data);
       setEditTitle(data.title ?? "");
+      setEditSlug(data.slug ?? articleSlug);
       setEditSeoTitle(data.seo?.title ?? "");
       setEditSeoDesc(data.seo?.description ?? "");
       setEditOgImage(data.seo?.ogImage ?? "");
@@ -141,6 +143,7 @@ export default function EditArticlePage() {
         body: JSON.stringify({
           slug: articleSlug,
           type: articleType,
+          newSlug: editSlug !== articleSlug ? editSlug : undefined,
           title: editTitle,
           seoTitle: editSeoTitle,
           seoDescription: editSeoDesc,
@@ -154,6 +157,12 @@ export default function EditArticlePage() {
       if (!res.ok) throw new Error(data.error ?? "Publish failed");
       setSaveStatus("success");
       setSaveMessage(data.message ?? "Published successfully");
+      // If slug was changed, redirect to the new edit URL
+      if (editSlug && editSlug !== articleSlug) {
+        setTimeout(() => {
+          router.push(`/admin/github-editor/edit/${articleType}/${editSlug}`);
+        }, 1500);
+      }
     } catch (err) {
       setSaveStatus("error");
       setSaveMessage(String(err));
@@ -225,7 +234,7 @@ export default function EditArticlePage() {
                 >
                   {articleType === "blog" ? "Blog Article" : "Coverage FAQ"}
                 </span>
-                <span className="text-xs text-gray-400 font-mono">{articleSlug}</span>
+                <span className="text-xs text-gray-400 font-mono">{editSlug || articleSlug}</span>
               </div>
               <h1 className="text-xl font-bold text-gray-900 leading-tight">
                 {editTitle || articleSlug}
@@ -299,7 +308,7 @@ export default function EditArticlePage() {
 
           {detail && !detailLoading && (
             <div className="space-y-6">
-              {/* Article Title */}
+              {/* Article Title & Slug */}
               <div className="bg-white rounded-xl border border-gray-200 p-6">
                 <h2 className="text-sm font-semibold text-gray-700 mb-4 flex items-center gap-2">
                   <FileText className="w-4 h-4 text-gray-400" />
@@ -312,6 +321,29 @@ export default function EditArticlePage() {
                   className="w-full text-base font-medium text-gray-900 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   placeholder="Article title..."
                 />
+                <div className="mt-4">
+                  <label className="block text-xs font-medium text-gray-500 mb-1">Slug (URL path)</label>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs text-gray-400 shrink-0">{articleType === "blog" ? "/blog/" : "/faqs/"}</span>
+                    <input
+                      type="text"
+                      value={editSlug}
+                      onChange={(e) => {
+                        const val = e.target.value
+                          .toLowerCase()
+                          .replace(/[^a-z0-9-]/g, "-")
+                          .replace(/--+/g, "-")
+                          .replace(/^-/, "");
+                        setEditSlug(val);
+                      }}
+                      className="flex-1 text-sm font-mono text-gray-700 border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                      placeholder="article-slug"
+                    />
+                  </div>
+                  {editSlug !== articleSlug && (
+                    <p className="text-xs text-amber-600 mt-1">Slug will be changed from &ldquo;{articleSlug}&rdquo; to &ldquo;{editSlug}&rdquo;</p>
+                  )}
+                </div>
               </div>
 
               {/* Featured Image */}
