@@ -5706,7 +5706,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1594394489098-74ac04c0fc2e?w=800&h=500&fit=crop",
+    imageAlt: "Oklahoma City skyline with downtown buildings under blue sky",
     keyTakeaways: [
       "Oklahoma honors the Birthday Rule, allowing you to switch Medigap plans once per year during your birthday month without medical underwriting.",
       "You have a 31-day window during your birthday month to request a Medigap plan change without health questions or waiting periods.",
