@@ -13,7 +13,7 @@ export const blogArticles: BlogArticleData[] = [
       title: "Medicare Part D Formulary 2026 Guide | MedicareFAQ",
       description: "Understand your Medicare Part D formulary for 2026. Learn how drug lists and tier structures affect your prescription costs and coverage.",
       canonical: "https://www.medicarefaq.com/blog/understanding-your-medicare-part-d-formulary-a-2026-guide-to-prescription-drug-coverage/",
-      ogImage: "/images/generated/understanding-your-medicare-part-d-formulary-a-202-1780494892692.png",
+      ogImage: "",
     },
     title: "Understanding Your Medicare Part D Formulary: A 2026 Guide to Prescription Drug Coverage",
     excerpt: "A Medicare Part D formulary is the list of drugs covered by your plan. Understanding how formularies and their tier structures work is crucial for managing prescription costs.",
@@ -24,7 +24,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "9 min read",
     featured: false,
-    image: "/images/generated/understanding-your-medicare-part-d-formulary-a-202-1780494892692.png",
+    image: "",
     imageAlt: "Understanding Your Medicare Part D Formulary: A 2026 Guide to Prescription Drug Coverage",
     keyTakeaways: ["A Medicare Part D formulary is the official list of prescription drugs covered by a specific plan, reviewed and approved annually by CMS.", "Formularies vary significantly between plans, even with similar premiums, impacting your out-of-pocket costs for medications.", "Most Part D plans use a tier structure (e.g., 5 tiers) where lower tiers (e.g., preferred generics) have lower copays than higher tiers (e.g., specialty drugs).", "The placement of a drug on a specific tier directly determines your cost-sharing, making side-by-side plan comparison essential.", "Private plan sponsors design their own tier structures within CMS guidelines, meaning the same drug can be on different tiers across competing plans."],
     tableOfContents: [
