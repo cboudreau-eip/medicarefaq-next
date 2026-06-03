@@ -8,11 +8,11 @@ import type { BlogArticleData } from "./article-types";
 
 export const blogArticles: BlogArticleData[] = [
   {
-    slug: "medicare-premiums-2026-what-youll-pay-for-parts-a-b-c-d-and-medigap",
+    slug: "medicare-premiums-2026-what-youll-pay",
     seo: {
       title: "Medicare Premiums 2026: Your Guide to Costs | MedicareFAQ",
       description: "Understand your 2026 Medicare premiums for Parts A, B, C, D, and Medigap. Learn about standard rates, IRMAA, and budgeting.",
-      canonical: "https://www.medicarefaq.com/blog/medicare-premiums-2026-what-youll-pay-for-parts-a-b-c-d-and-medigap/",
+      canonical: "https://www.medicarefaq.com/blog/medicare-premiums-2026-what-youll-pay/",
       ogImage: "/images/generated/medicare-premiums-2026-what-youll-pay-for-parts-a--1780503683709.png",
     },
     title: "Medicare Premiums 2026: What You'll Pay for Parts A, B, C, D and Medigap",
