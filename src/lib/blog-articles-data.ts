@@ -24,7 +24,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "9 min read",
     featured: false,
-    image: "",
+    image: "/images/uploaded/pill-organizer-1780495960838.png",
     imageAlt: "Understanding Your Medicare Part D Formulary: A 2026 Guide to Prescription Drug Coverage",
     keyTakeaways: ["A Medicare Part D formulary is the official list of prescription drugs covered by a specific plan, reviewed and approved annually by CMS.", "Formularies vary significantly between plans, even with similar premiums, impacting your out-of-pocket costs for medications.", "Most Part D plans use a tier structure (e.g., 5 tiers) where lower tiers (e.g., preferred generics) have lower copays than higher tiers (e.g., specialty drugs).", "The placement of a drug on a specific tier directly determines your cost-sharing, making side-by-side plan comparison essential.", "Private plan sponsors design their own tier structures within CMS guidelines, meaning the same drug can be on different tiers across competing plans."],
     tableOfContents: [
