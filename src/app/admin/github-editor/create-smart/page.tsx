@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, useRef } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   Sparkles,
   Globe,
@@ -288,7 +288,10 @@ function PreviewSection({ section }: { section: BlogSection }) {
 
 export default function SmartCreatePage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { authenticated, authLoading, password, login, logout, authFetch } = useCMSAuth();
+  const autoLoadDraftId = searchParams.get("draft");
+  const autoLoadAttempted = useRef(false);
 
   // Input state
   const [title, setTitle] = useState("");
@@ -346,6 +349,15 @@ export default function SmartCreatePage() {
   const [loadingDrafts, setLoadingDrafts] = useState(false);
   const [loadingDraftId, setLoadingDraftId] = useState<string | null>(null);
   const [deletingDraftId, setDeletingDraftId] = useState<string | null>(null);
+
+  // Auto-load draft from URL query param (?draft=ID) when authenticated
+  useEffect(() => {
+    if (authenticated && autoLoadDraftId && !autoLoadAttempted.current) {
+      autoLoadAttempted.current = true;
+      handleLoadDraft(autoLoadDraftId);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [authenticated, autoLoadDraftId]);
 
   // Auto-generate slug from title
   useEffect(() => {
