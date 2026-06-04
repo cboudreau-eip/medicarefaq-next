@@ -7642,7 +7642,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Licensed Medicare Specialist",
     readTime: "12 min read",
     featured: false,
-    image: "https://images.pexels.com/photos/8815844/pexels-photo-8815844.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    image: "/images/generated/medicare-advantage-plans.png",
     imageAlt: "Senior couple reviewing Medicare Advantage plan documents",
     keyTakeaways: [
       "Medicare Advantage Plans combine Part A, Part B, and often Part D into a single private plan that may also include dental, vision, and hearing benefits not covered by Original Medicare.",
