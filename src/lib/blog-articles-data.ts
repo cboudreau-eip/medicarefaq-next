@@ -2686,7 +2686,8 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=500&fit=crop",
+      image: "/images/generated/can-you-get-medicare.png",
+      imageAlt: "Can You Get Medicare without Receiving Social Security Benefits? | MedicareFAQ",
       keyTakeaways: ["You can enroll in Medicare at 65 without receiving Social Security benefits, but you must apply separately for Medicare.", "If you delay Social Security past 65, you should still sign up for Medicare on time to avoid paying higher premiums for life.", "Working past 65 and having employer coverage doesn't automatically exempt you from Medicare enrollment requirements.", "Missing Medicare\'s initial enrollment period can result in permanent late enrollment penalties unless you have qualifying coverage."],
       tableOfContents: [
         { id: "medicare-and-social-security-are-separate", title: "Medicare and Social Security are Completely Separate" },
