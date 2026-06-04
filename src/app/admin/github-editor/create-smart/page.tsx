@@ -28,6 +28,7 @@ import {
   FolderOpen,
   Trash2,
   X,
+  Link2,
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
@@ -325,6 +326,12 @@ export default function SmartCreatePage() {
   const [relatedCandidates, setRelatedCandidates] = useState<{ slug: string; title: string; type: string }[]>([]);
   const [suggestingRelated, setSuggestingRelated] = useState(false);
 
+  // Internal link suggestions state
+  const [linkSuggestions, setLinkSuggestions] = useState<{ phrase: string; url: string; title: string; reason: string }[]>([]);
+  const [suggestingLinks, setSuggestingLinks] = useState(false);
+  const [acceptedLinks, setAcceptedLinks] = useState<{ phrase: string; url: string; title: string }[]>([]);
+  const [existingLinkCount, setExistingLinkCount] = useState(0);
+
   // Status state
   const [publishing, setPublishing] = useState(false);
   const [error, setError] = useState("");
@@ -393,6 +400,10 @@ export default function SmartCreatePage() {
 
       // Auto-suggest related articles after transform
       suggestRelatedArticles(title || "Untitled", data.meta?.excerpt || excerpt, resolvedCategory, data.meta?.keyTakeaways || keyTakeaways);
+
+      // Auto-suggest internal links after transform
+      // (uses a slight delay to let sections state settle)
+      setTimeout(() => suggestInternalLinks(), 100);
     } catch (err) {
       setError(String(err));
     } finally {
@@ -440,6 +451,67 @@ export default function SmartCreatePage() {
     }
   };
 
+  // --- Suggest Internal Links ---
+  const suggestInternalLinks = async () => {
+    if (!sections || sections.length === 0) return;
+    setSuggestingLinks(true);
+    try {
+      // Serialize sections to text for analysis
+      const articleText = sections.map((s) => {
+        switch (s.type) {
+          case "heading": return `## ${s.text || ""}`;
+          case "paragraph": return s.content || "";
+          case "list": return (s.items || []).map((item) => `- ${item}`).join("\n");
+          case "callout": case "warning": case "info": case "tip": case "success": case "note": case "error":
+            return `${s.calloutTitle || ""}: ${s.calloutText || ""}`;
+          case "faq": return (s.faqs || []).map((faq) => `Q: ${faq.question}\nA: ${faq.answer}`).join("\n");
+          default: return "";
+        }
+      }).filter(Boolean).join("\n\n");
+
+      const res = await authFetch("/api/cms/suggest-links", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          articleContent: articleText,
+          currentSlug: slug,
+        }),
+      });
+      const data = await res.json();
+      if (res.ok && data.suggestions) {
+        setLinkSuggestions(data.suggestions);
+        setExistingLinkCount(data.existingLinkCount || 0);
+      }
+    } catch {
+      // Non-critical — silently fail
+    } finally {
+      setSuggestingLinks(false);
+    }
+  };
+
+  // Apply accepted link to sections (insert markdown link into matching text)
+  const applyLinkToSections = (phrase: string, url: string) => {
+    if (!sections) return;
+    const markdownLink = `[${phrase}](${url})`;
+    const updatedSections = sections.map((s) => {
+      const updated = { ...s };
+      // Only apply to paragraph content and list items (where markdown links render)
+      if (updated.content && updated.content.includes(phrase) && !updated.content.includes(`(${url})`)) {
+        updated.content = updated.content.replace(phrase, markdownLink);
+      }
+      if (updated.items) {
+        updated.items = updated.items.map((item) =>
+          item.includes(phrase) && !item.includes(`(${url})`) ? item.replace(phrase, markdownLink) : item
+        );
+      }
+      if (updated.calloutText && updated.calloutText.includes(phrase) && !updated.calloutText.includes(`(${url})`)) {
+        updated.calloutText = updated.calloutText.replace(phrase, markdownLink);
+      }
+      return updated;
+    });
+    setSections(updatedSections);
+  };
+
   // --- Save Draft ---
   const handleSaveDraft = async () => {
     if (!title.trim()) {
@@ -470,6 +542,8 @@ export default function SmartCreatePage() {
         pendingImageBase64: pendingImageBase64 || undefined,
         pendingImageFileName: pendingImageFileName || undefined,
         relatedSlugs: relatedSlugs.length > 0 ? relatedSlugs : undefined,
+        linkSuggestions: linkSuggestions.length > 0 ? linkSuggestions : undefined,
+        acceptedLinks: acceptedLinks.length > 0 ? acceptedLinks : undefined,
       };
 
       const res = await authFetch("/api/cms/drafts", {
@@ -547,6 +621,8 @@ export default function SmartCreatePage() {
       setSections(draft.sections || null);
       setTableOfContents(draft.tableOfContents || []);
       setRelatedSlugs(draft.relatedSlugs || []);
+      setLinkSuggestions(draft.linkSuggestions || []);
+      setAcceptedLinks(draft.acceptedLinks || []);
       setDraftSavedAt(draft.updatedAt ? new Date(draft.updatedAt).toLocaleTimeString() : null);
       setShowDraftsPanel(false);
       setSuccess(`Draft "${draft.title}" loaded.`);
@@ -1244,6 +1320,106 @@ export default function SmartCreatePage() {
                           className="w-full h-32 object-cover"
                           onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                         />
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Internal Link Suggestions */}
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <label className="block text-xs font-medium text-gray-500 flex items-center gap-1">
+                        <Link2 className="w-3 h-3" />
+                        Internal Links
+                        {existingLinkCount > 0 && (
+                          <span className="text-[10px] text-gray-400 ml-1">({existingLinkCount} existing)</span>
+                        )}
+                      </label>
+                      {suggestingLinks ? (
+                        <span className="text-xs text-gray-400 flex items-center gap-1">
+                          <Loader2 className="w-3 h-3 animate-spin" /> Analyzing...
+                        </span>
+                      ) : linkSuggestions.length > 0 || acceptedLinks.length > 0 ? (
+                        <button
+                          type="button"
+                          onClick={suggestInternalLinks}
+                          className="text-xs text-teal-600 hover:text-teal-700 font-medium"
+                        >
+                          Re-analyze
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={suggestInternalLinks}
+                          className="text-xs text-purple-600 hover:text-purple-700 font-medium"
+                        >
+                          Suggest Links
+                        </button>
+                      )}
+                    </div>
+
+                    {suggestingLinks ? (
+                      <div className="space-y-1.5">
+                        {[1, 2, 3, 4, 5].map((i) => (
+                          <div key={i} className="h-14 bg-gray-100 rounded-lg animate-pulse" />
+                        ))}
+                      </div>
+                    ) : linkSuggestions.length === 0 && acceptedLinks.length === 0 ? (
+                      <p className="text-xs text-gray-400">Transform content first to auto-suggest internal links.</p>
+                    ) : (
+                      <div className="space-y-1.5">
+                        {/* Accepted links */}
+                        {acceptedLinks.map((link, i) => (
+                          <div key={`accepted-${i}`} className="flex items-start gap-2 p-2 bg-green-50 border border-green-200 rounded-lg">
+                            <CheckCircle2 className="w-3.5 h-3.5 text-green-500 shrink-0 mt-0.5" />
+                            <div className="flex-1 min-w-0">
+                              <p className="text-xs text-gray-700 truncate">
+                                <span className="font-medium">&ldquo;{link.phrase}&rdquo;</span>
+                                <span className="text-gray-400"> → </span>
+                                <span className="text-green-600">{link.title}</span>
+                              </p>
+                            </div>
+                            <button
+                              type="button"
+                              onClick={() => setAcceptedLinks(acceptedLinks.filter((_, idx) => idx !== i))}
+                              className="text-gray-400 hover:text-red-500 transition-colors shrink-0"
+                            >
+                              <X className="w-3 h-3" />
+                            </button>
+                          </div>
+                        ))}
+                        {/* Pending suggestions */}
+                        {linkSuggestions.map((suggestion, i) => (
+                          <div key={`suggestion-${i}`} className="flex items-start gap-2 p-2 bg-blue-50 border border-blue-200 rounded-lg">
+                            <div className="flex-1 min-w-0">
+                              <p className="text-xs text-gray-700">
+                                <span className="font-medium">&ldquo;{suggestion.phrase}&rdquo;</span>
+                                <span className="text-gray-400"> → </span>
+                                <span className="text-blue-600">{suggestion.title}</span>
+                              </p>
+                              <p className="text-[10px] text-gray-400 mt-0.5 truncate">{suggestion.reason}</p>
+                            </div>
+                            <div className="flex gap-1 shrink-0">
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  applyLinkToSections(suggestion.phrase, suggestion.url);
+                                  setAcceptedLinks([...acceptedLinks, { phrase: suggestion.phrase, url: suggestion.url, title: suggestion.title }]);
+                                  setLinkSuggestions(linkSuggestions.filter((_, idx) => idx !== i));
+                                }}
+                                className="text-xs px-2 py-0.5 bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors font-medium"
+                              >
+                                Accept
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => setLinkSuggestions(linkSuggestions.filter((_, idx) => idx !== i))}
+                                className="text-xs px-2 py-0.5 bg-gray-100 text-gray-500 rounded hover:bg-gray-200 transition-colors"
+                              >
+                                Skip
+                              </button>
+                            </div>
+                          </div>
+                        ))}
                       </div>
                     )}
                   </div>
