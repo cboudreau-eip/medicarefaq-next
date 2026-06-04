@@ -144,14 +144,13 @@ export async function POST(req: NextRequest) {
       // User provided a custom prompt — use it directly
       prompt = customPrompt;
     } else if (fullArticle && Array.isArray(fullArticle) && fullArticle.length > 0) {
-      // Full article available — convert to text and let GPT read the whole thing
+      // Full article available — build context and use fixed prompt
       const articleText = sectionsToText(fullArticle);
-      // Truncate to ~8000 chars to stay within token limits while giving full context
       const truncated = articleText.slice(0, 8000);
-      prompt = await generatePromptFromFullArticle(title, truncated, category);
+      prompt = `Create an appropriate hero image to go with this blog article. No text should be present in the image.\n\nTitle: ${title}\n\n${truncated}`;
     } else {
-      // No full article (shouldn't happen in normal flow) — use title-based fallback
-      prompt = buildFallbackPrompt(title, category);
+      // No full article — use title only
+      prompt = `Create an appropriate hero image to go with this blog article titled "${title}". No text should be present in the image.`;
     }
 
     // Call OpenAI Image Generation API
