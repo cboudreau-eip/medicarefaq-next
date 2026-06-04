@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   Sparkles,
@@ -286,7 +286,7 @@ function PreviewSection({ section }: { section: BlogSection }) {
 
 // --- Main Page ---
 
-export default function SmartCreatePage() {
+function SmartCreatePageInner() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { authenticated, authLoading, password, login, logout, authFetch } = useCMSAuth();
@@ -1614,5 +1614,13 @@ export default function SmartCreatePage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function SmartCreatePage() {
+  return (
+    <Suspense fallback={null}>
+      <SmartCreatePageInner />
+    </Suspense>
   );
 }
