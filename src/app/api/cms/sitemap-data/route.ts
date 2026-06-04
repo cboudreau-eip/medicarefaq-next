@@ -1,13 +1,8 @@
 import { NextResponse } from "next/server";
 
-const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://medicarefaq-next-nine.vercel.app";
-
-interface SitemapIndex {
-  sitemaps: {
-    loc: string;
-    lastmod?: string;
-  }[];
+interface SitemapEntry {
+  loc: string;
+  lastmod?: string;
 }
 
 interface SitemapUrlEntry {
@@ -22,22 +17,25 @@ interface SitemapUrlEntry {
  * Query params:
  *   - type=index  → returns the sitemap index (list of sub-sitemaps)
  *   - type=urls&sitemap=<path>  → returns all URLs in a specific sub-sitemap
+ *
+ * Uses the request's own origin so it works on any deployment (preview or production).
  */
 export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const type = searchParams.get("type") || "index";
-  const sitemapPath = searchParams.get("sitemap") || "";
+  const requestUrl = new URL(request.url);
+  const origin = requestUrl.origin; // e.g. https://medicarefaq-next-nine.vercel.app
+  const type = requestUrl.searchParams.get("type") || "index";
+  const sitemapPath = requestUrl.searchParams.get("sitemap") || "";
 
   try {
     if (type === "index") {
-      // Fetch the sitemap index
-      const res = await fetch(`${SITE_URL}/sitemap.xml`, {
-        next: { revalidate: 0 },
+      // Fetch the sitemap index from our own origin
+      const res = await fetch(`${origin}/sitemap.xml`, {
+        cache: "no-store",
       });
       const xml = await res.text();
 
-      // Parse sitemap index XML
-      const sitemaps: SitemapIndex["sitemaps"] = [];
+      // Parse sitemap index XML — Next.js generates <sitemap> wrapper for sitemap index
+      const sitemaps: SitemapEntry[] = [];
       const sitemapRegex =
         /<sitemap>\s*<loc>([^<]+)<\/loc>(?:\s*<lastmod>([^<]+)<\/lastmod>)?\s*<\/sitemap>/g;
       let match;
@@ -48,7 +46,7 @@ export async function GET(request: Request) {
         });
       }
 
-      // If the sitemap index uses <url> tags instead (Next.js MetadataRoute.Sitemap)
+      // If the sitemap index uses <url> tags instead (Next.js MetadataRoute.Sitemap format)
       if (sitemaps.length === 0) {
         const urlRegex =
           /<url>\s*<loc>([^<]+)<\/loc>(?:\s*<lastmod>([^<]+)<\/lastmod>)?\s*(?:<changefreq>[^<]*<\/changefreq>\s*)?(?:<priority>[^<]*<\/priority>\s*)?<\/url>/g;
@@ -64,11 +62,22 @@ export async function GET(request: Request) {
     }
 
     if (type === "urls" && sitemapPath) {
-      // Fetch a specific sub-sitemap
-      const fullUrl = sitemapPath.startsWith("http")
-        ? sitemapPath
-        : `${SITE_URL}${sitemapPath}`;
-      const res = await fetch(fullUrl, { next: { revalidate: 0 } });
+      // Determine the full URL to fetch
+      let fullUrl: string;
+      if (sitemapPath.startsWith("http")) {
+        // If the loc is an absolute URL, replace its origin with our own
+        // (the sitemap index may reference www.medicarefaq.com but we need to fetch from ourselves)
+        try {
+          const parsed = new URL(sitemapPath);
+          fullUrl = `${origin}${parsed.pathname}`;
+        } catch {
+          fullUrl = `${origin}${sitemapPath}`;
+        }
+      } else {
+        fullUrl = `${origin}${sitemapPath}`;
+      }
+
+      const res = await fetch(fullUrl, { cache: "no-store" });
       const xml = await res.text();
 
       // Parse URL entries
