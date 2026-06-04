@@ -3185,7 +3185,7 @@ export const blogArticles: BlogArticleData[] = [
       slug: "what-happens-to-your-medicare-when-you-move-states",
       seo: {
         title: "What Happens to Your Medicare When You Move States? | MedicareFAQ",
-        description: "Moving to a new state doesn't affect Original Medicare, but it can significantly impact Medicare Advantage and Part D plans. Here\'s what to do before and a",
+        description: "Moving to a new state doesn't affect Original Medicare, but it can significantly impact Medicare Advantage and Part D plans. Here\\'s what to do before and a",
         canonical: "https://www.medicarefaq.com/blog/what-happens-to-your-medicare-when-you-move-states/",
         ogImage: "https://images.pexels.com/photos/7787410/pexels-photo-7787410.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
       },
@@ -3198,7 +3198,8 @@ export const blogArticles: BlogArticleData[] = [
       reviewer: "Ashlee Zareczny",
       readTime: "8 min read",
       featured: false,
-      image: "https://images.pexels.com/photos/7787410/pexels-photo-7787410.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      image: "/images/generated/what-happens-to-your.png",
+      imageAlt: "What Happens to Your Medicare When You Move States? | MedicareFAQ",
       keyTakeaways: ["Original Medicare (Parts A and B) works the same in every state, so your coverage doesn't change when you move", "Medicare Advantage and Part D plans are state-specific, and your current plan may not be available in your new state", "You have a special enrollment period to change plans when you move, even outside the normal Annual Enrollment Period", "Contact your plans 2-3 months before moving to understand your options and avoid coverage gaps"],
       tableOfContents: [
         { id: "original-medicare-coverage", title: "Original Medicare Stays the Same across State Lines" },
