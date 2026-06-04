@@ -19,6 +19,7 @@ import { useCMSAuth } from "../../../components/use-cms-auth";
 import LoginScreen from "../../../components/login-screen";
 import CMSHeader from "../../../components/cms-header";
 import ImageUpload from "../../../components/image-upload";
+import ArticleHistory from "../../../components/article-history";
 
 interface ArticleDetail {
   slug: string;
@@ -583,6 +584,14 @@ export default function EditArticlePage() {
                   spellCheck={false}
                 />
               </div>
+
+              {/* Revision History */}
+              <ArticleHistory
+                slug={articleSlug}
+                type={articleType}
+                authFetch={authFetch}
+                onRevert={loadDetail}
+              />
 
               {/* Publish Footer */}
               <div className="flex items-center justify-between py-4 border-t border-gray-200">
