@@ -25,13 +25,13 @@ const journeyPaths = [
     color: "#0D9488",
     image: JOURNEY_NEW,
     links: [
+      { label: "Medicare 101 Course", href: "/medicare-101-course" },
       { label: "Medicare 101 Guide", href: "/medicare-101" },
       { label: "Am I Eligible?", href: "/new-to-medicare/eligibility" },
       { label: "Turning 65 Timeline", href: "/new-to-medicare/turning-65" },
       { label: "What Does it Cost?", href: "/new-to-medicare/costs" },
-      { label: "Getting Started Checklist", href: "/new-to-medicare/checklist" },
     ] as JourneyLink[],
-    href: "/medicare-101",
+    href: "/medicare-101-course",
     isZipModalCard: false,
   },
   {

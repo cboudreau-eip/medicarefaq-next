@@ -24,6 +24,7 @@ import {
   Video,
   MessageCircle,
   UserCheck,
+  GraduationCap,
   type LucideIcon,
 } from "lucide-react";
 
@@ -57,6 +58,12 @@ export const navigationData: NavCategory[] = [
     color: "#0D9488",
     items: [
       {
+        title: "Medicare 101 Course",
+        description: "7-lesson interactive course for Medicare newcomers",
+        icon: GraduationCap,
+        href: "/medicare-101-course",
+      },
+      {
         title: "Medicare 101 Guide",
         description: "Everything you need to know about Medicare basics",
         icon: Compass,
@@ -88,6 +95,12 @@ export const navigationData: NavCategory[] = [
       }],
     sidebarTitle: "QUICK START",
     sidebarItems: [
+      {
+        title: "Medicare 101 Course",
+        description: "Start with our free 7-lesson interactive course. Learn at your own pace and test your knowledge.",
+        href: "/medicare-101-course",
+        cta: "Start the Course",
+      },
       {
         title: "New to Medicare? Begin Here",
         description: "Our most popular guide for people approaching 65.",

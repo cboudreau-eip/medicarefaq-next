@@ -68,14 +68,14 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-3"
           >
             <Link
-              href="/medicare-101"
-              onClick={() => trackCtaClick({ button_label: "I'm New to Medicare", destination: "/medicare-101", page_section: "hero" })}
+              href="/medicare-101-course"
+              onClick={() => trackCtaClick({ button_label: "I'm New to Medicare", destination: "/medicare-101-course", page_section: "hero" })}
               className="group inline-flex items-center justify-between gap-3 bg-[#0D9488] hover:bg-[#0B7C72] text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#0D9488]/25 text-sm flex-1"
             >
               <div className="flex flex-col">
                 <span className="font-bold text-white text-[15px] leading-tight">I&apos;m New to Medicare</span>
                 <span className="hidden md:block w-full h-px bg-white/30 my-1" />
-                <span className="hidden md:block text-xs text-white font-normal leading-tight">Turning 65 soon</span>
+                <span className="hidden md:block text-xs text-white font-normal leading-tight">Start the free course</span>
               </div>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
             </Link>
