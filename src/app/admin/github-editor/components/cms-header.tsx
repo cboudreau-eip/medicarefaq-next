@@ -10,6 +10,7 @@ import {
   Sparkles,
   Plus,
   Map,
+  FileText,
 } from "lucide-react";
 
 interface CMSHeaderProps {
@@ -39,7 +40,8 @@ export default function CMSHeader({
   const isCreatePage = pathname === "/admin/github-editor/create";
   const isSmartCreatePage = pathname === "/admin/github-editor/create-smart";
   const isSitemapPage = pathname === "/admin/github-editor/sitemap";
-  const isSubPage = isEditPage || isCreatePage || isSmartCreatePage || isSitemapPage;
+  const isDraftsPage = pathname === "/admin/github-editor/drafts";
+  const isSubPage = isEditPage || isCreatePage || isSmartCreatePage || isSitemapPage || isDraftsPage;
 
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-0 shrink-0">
@@ -112,6 +114,14 @@ export default function CMSHeader({
               >
                 <Plus className="w-3.5 h-3.5" />
                 HTML Create
+              </Link>
+              <Link
+                href="/admin/github-editor/drafts"
+                className="flex items-center gap-1.5 text-xs font-medium text-gray-600 bg-gray-100 rounded-lg px-3 py-1.5 hover:bg-gray-200 transition-colors"
+                title="View Drafts"
+              >
+                <FileText className="w-3.5 h-3.5" />
+                Drafts
               </Link>
               <Link
                 href="/admin/github-editor/sitemap"
