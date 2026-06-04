@@ -58,12 +58,6 @@ export const navigationData: NavCategory[] = [
     color: "#0D9488",
     items: [
       {
-        title: "Medicare 101 Course",
-        description: "7-lesson interactive course for Medicare newcomers",
-        icon: GraduationCap,
-        href: "/medicare-101-course",
-      },
-      {
         title: "Medicare 101 Guide",
         description: "Everything you need to know about Medicare basics",
         icon: Compass,
@@ -92,6 +86,12 @@ export const navigationData: NavCategory[] = [
         description: "Step-by-step checklist for new Medicare enrollees",
         icon: CheckSquare,
         href: "/new-to-medicare/checklist",
+      },
+      {
+        title: "Medicare 101 Course",
+        description: "7-lesson interactive course for Medicare newcomers",
+        icon: GraduationCap,
+        href: "/medicare-101-course",
       }],
     sidebarTitle: "QUICK START",
     sidebarItems: [
