@@ -384,7 +384,7 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "13 min read",
     featured: false,
     image: "/images/uploaded/doctor-patient-consultation.png",
-    imageAlt: "Medicare Part B Explained: Premiums, Deductibles, Coverage, and Enrollment in 2026",
+    imageAlt: "Medicare Part B Explained: Premiums, Deductibles, Coverage, and Enrollment",
     keyTakeaways: ["Medicare Part B covers outpatient services, including doctor visits, lab work, and preventive screenings.", "The standard 2026 Medicare Part B monthly premium is $202.90, with an annual deductible of $283.", "After meeting the deductible, Part B covers 80% of approved costs; you pay the remaining 20% coinsurance.", "Original Medicare (Part A and Part B) does not have an annual out-of-pocket maximum.", "Enrolling on time is crucial to avoid permanent late enrollment penalties."],
     tableOfContents: [
       { id: "understanding-medicare-part-b", title: "Understanding Medicare Part B: Your Key to Outpatient Medical Care" },
