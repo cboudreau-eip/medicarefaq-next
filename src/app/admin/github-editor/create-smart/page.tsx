@@ -117,12 +117,50 @@ interface TransformMeta {
 // --- Helper ---
 
 function generateSlug(title: string): string {
-  return title
+  // Remove common filler words and create a short, SEO-friendly slug (3-6 words)
+  const stopWords = new Set([
+    "a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for",
+    "of", "with", "by", "from", "is", "are", "was", "were", "be", "been",
+    "being", "have", "has", "had", "do", "does", "did", "will", "would",
+    "could", "should", "may", "might", "shall", "can", "need", "dare",
+    "ought", "used", "its", "it", "this", "that", "these", "those",
+    "i", "me", "my", "myself", "we", "our", "ours", "ourselves",
+    "you", "your", "yours", "yourself", "yourselves", "he", "him",
+    "his", "himself", "she", "her", "hers", "herself", "they", "them",
+    "their", "theirs", "themselves", "what", "which", "who", "whom",
+    "when", "where", "why", "how", "all", "each", "every", "both",
+    "few", "more", "most", "other", "some", "such", "no", "nor",
+    "not", "only", "own", "same", "so", "than", "too", "very",
+    "just", "because", "as", "until", "while", "about", "between",
+    "through", "during", "before", "after", "above", "below",
+    "up", "down", "out", "off", "over", "under", "again", "further",
+    "then", "once", "here", "there", "also", "into",
+    "understanding", "explained", "guide", "complete", "comprehensive",
+    "everything", "know", "things", "way", "ways",
+  ]);
+
+  const words = title
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
+    .split(/\s+/)
+    .filter((w) => w.length > 0);
+
+  // Keep meaningful words, preserving important terms like years and numbers
+  const meaningful = words.filter(
+    (w) => !stopWords.has(w) || /^\d+$/.test(w)
+  );
+
+  // Take the first 5 meaningful words (aim for 3-6 word slugs)
+  const slugWords = meaningful.slice(0, 5);
+
+  // If we ended up with fewer than 2 words, fall back to first 4 words of original
+  const finalWords = slugWords.length >= 2 ? slugWords : words.slice(0, 4);
+
+  return finalWords
+    .join("-")
     .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
+    .replace(/^-|-$/g, "")
+    .slice(0, 60);
 }
 
 // --- Preview Components ---
