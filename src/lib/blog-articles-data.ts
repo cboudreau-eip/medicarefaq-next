@@ -6471,7 +6471,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=500&fit=crop",
+    image: "/images/generated/medicare-whats-covered-app.png",
+      imageAlt: "Medicare What is Covered App: Your Digital Coverage Guide | MedicareFAQ",
     keyTakeaways: [
       "The Medicare What Is Covered App provides instant access to your personalized coverage details anytime, anywhere through your smartphone or tablet.",
       "Search specific services, medications, and providers to understand what Medicare will pay for before you receive care or fill prescriptions.",
