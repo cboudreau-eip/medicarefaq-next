@@ -6,9 +6,456 @@
   "category": "General",
   "author": "David Haass",
   "reviewer": "Ashlee Zareczny",
-  "seoTitle": "Medigap Plan F, G, and N Comparison Guide",
-  "seoDescription": "Compare Medigap Plan F, G, and N side by side. See coverage differences, costs, and which Medicare Supplement plan best fits your health needs and budget.",
+  "seoTitle": "Medigap Plan F, G, N Comparison: Which is Best? MedicareFAQ",
+  "seoDescription": "Compare Medigap Plans F, G, and N to choose the best Medicare Supplement for you. Understand benefits, costs, and eligibility.",
   "id": "medigap-plan-f-g-and-n-comparison-which-medicare-supplement--mq13qzm7",
-  "updatedAt": "2026-06-05T15:51:55.088Z",
-  "createdAt": "2026-06-05T15:51:55.088Z"
+  "updatedAt": "2026-06-05T15:52:21.146Z",
+  "createdAt": "2026-06-05T15:51:55.088Z",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Are Medigap Plans F, G, and N?",
+      "id": "what-are-medigap-plans-f-g-and-n"
+    },
+    {
+      "type": "paragraph",
+      "content": "More than 14.5 million Americans have chosen Medicare Supplement insurance, commonly called Medigap, to fill the coverage gaps that [Original Medicare](/original-medicare/) leaves behind (Kaiser Family Foundation, 2025)."
+    },
+    {
+      "type": "paragraph",
+      "content": "These plans work alongside Medicare Part A and Part B, picking up costs like coinsurance, copayments, and deductibles that would otherwise come directly out of your pocket."
+    },
+    {
+      "type": "info",
+      "calloutType": "info",
+      "calloutTitle": "Medigap Standardization",
+      "calloutText": "Among the ten standardized Medigap options, Plans F, G, and N consistently attract the most enrollees. Once you understand that Plans F, G, and N carry identical benefits across every insurer, the only real variables are price and the financial strength of the company you choose."
+    },
+    {
+      "type": "paragraph",
+      "content": "One rule change reshaped this market significantly. Starting January 1, 2020, Plan F closed to anyone newly eligible for Medicare. That single shift made Plan G the new benchmark for comprehensive Medigap coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "Understanding how these three plans compare, in benefits, costs, and eligibility, is the foundation of making a confident enrollment decision."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Side-by-Side Benefits Comparison: Plan F vs. Plan G vs. Plan N",
+      "id": "side-by-side-benefits-comparison-plan-f-vs-plan-g-vs-plan-n"
+    },
+    {
+      "type": "paragraph",
+      "content": "All three plans share a common set of core benefits, but the differences between them matter in real dollars. The table below shows exactly what each plan covers based on the standardized benefit structure defined by the Centers for Medicare & Medicaid Services (CMS)."
+    },
+    {
+      "type": "table",
+      "title": "",
+      "headers": [
+        "Benefit",
+        "Plan F",
+        "Plan G",
+        "Plan N"
+      ],
+      "rows": [
+        [
+          "Medicare Part A coinsurance & hospital costs",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Medicare Part B coinsurance or copayment",
+          "Yes",
+          "Yes",
+          "Yes (copays apply)"
+        ],
+        [
+          "Part A hospice care coinsurance",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Skilled nursing facility coinsurance",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Medicare Part A deductible",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Medicare Part B deductible ($257 in 2026)",
+          "Yes",
+          "No",
+          "No"
+        ],
+        [
+          "Part B excess charges",
+          "Yes",
+          "Yes",
+          "No"
+        ],
+        [
+          "Foreign travel emergency (80%)",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Office visit copays (up to $20)",
+          "No",
+          "No",
+          "Yes"
+        ],
+        [
+          "ER copay for non-admissions (up to $50)",
+          "No",
+          "No",
+          "Yes"
+        ]
+      ],
+      "footnote": ""
+    },
+    {
+      "type": "paragraph",
+      "content": "The gap between Plan F and Plan G is remarkably narrow. The only coverage difference is the Medicare Part B deductible, $257 in 2026 per CMS — an amount most enrollees recover through Plan G's lower monthly premium."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pay that amount yourself and Plan G delivers essentially the same protection as Plan F."
+    },
+    {
+      "type": "info",
+      "calloutType": "info",
+      "calloutTitle": "Plan N Cost-Sharing",
+      "calloutText": "Plan N introduces meaningful cost-sharing: up to **$20 per doctor visit**, up to **$50 for emergency room visits** that do not result in an inpatient admission, and *no coverage* for Part B excess charges. These distinctions make Plan N a fundamentally different financial arrangement than Plans F or G."
+    },
+    {
+      "type": "paragraph",
+      "content": "The CMS *Choosing a Medigap Policy* guide and Medicare.gov's standardized benefit chart serve as the authoritative references for verifying these details."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medigap Plan F: Who Is Still Eligible and Is It Worth Keeping?",
+      "id": "medigap-plan-f-who-is-still-eligible-and-is-it-worth-keeping"
+    },
+    {
+      "type": "paragraph",
+      "content": "Plan F is only available to Medicare beneficiaries who became eligible for Medicare **before January 1, 2020**. If you first became eligible in 2020 or later, no insurer can sell you Plan F, regardless of your health status or willingness to pay."
+    },
+    {
+      "type": "warning",
+      "calloutType": "warning",
+      "calloutTitle": "Rising Plan F Premiums",
+      "calloutText": "As the Plan F enrollee base ages and no new members enter the pool, insurers tend to raise premiums faster than Plan G. Tricia Neuman, Senior Vice President at KFF, has flagged this dynamic directly: \"As the Plan F pool ages and shrinks, premiums will continue to rise for current enrollees, which makes it critical for beneficiaries to understand their options and the long-term cost trajectory of their Medigap plan.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "If you currently have Plan F, here is a practical framework for evaluating a potential switch to Plan G:"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "**Get current Plan G quotes** from multiple insurers in your state.",
+        "**Calculate your monthly savings** by subtracting the Plan G premium from your current Plan F premium.",
+        "**Subtract $257** (the 2026 Part B deductible you would pay under Plan G) from your annual savings.",
+        "**Assess underwriting risk.** Outside the Medigap Open Enrollment Period, most states allow insurers to use medical underwriting, which could affect your eligibility or pricing for a new plan."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If the net annual savings exceed $300 or more, the switch often makes long-term financial sense. However, underwriting exposure is a real factor, speaking with a licensed agent or [SHIP counselor](/faqs/medicare-supplement-open-enrollment/) before making a move is strongly advisable."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medigap Plan G: The New Gold Standard for Comprehensive Coverage",
+      "id": "medigap-plan-g-the-new-gold-standard-for-comprehensive-coverage"
+    },
+    {
+      "type": "paragraph",
+      "content": "Plan G now covers approximately **39% of all Medigap enrollees**, making it the most popular option in the market (America's Health Insurance Plans, 2025). Medicare insurance specialist Danielle Kunkle Roberts describes it plainly: \"Plan G has become the gold-standard replacement for Plan F. The only difference is the Part B deductible, and in most cases Plan G's lower premium more than makes up for that small out-of-pocket cost.\""
+    },
+    {
+      "type": "paragraph",
+      "content": "Here is what Plan G actually covers once you pay the $257 annual Part B deductible:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "100% of Medicare Part A coinsurance and hospital costs up to an additional 365 days after Medicare benefits are exhausted",
+        "100% of Medicare Part B coinsurance and copayments",
+        "100% of the Medicare Part A deductible (currently $1,676 per benefit period in 2026)",
+        "100% of skilled nursing facility coinsurance",
+        "100% of Part B excess charges",
+        "80% of foreign travel emergency costs up to plan limits"
+      ]
+    },
+    {
+      "type": "info",
+      "calloutType": "info",
+      "calloutTitle": "Plan G Premium Range",
+      "calloutText": "Average monthly premiums for a 65-year-old nonsmoking female range from approximately $100 to $300, depending on state, insurer, age, and rating method (eHealth Medicare, 2025). Premiums vary significantly across carriers for identical benefits, making comparison shopping through Medicare.gov essential before enrolling."
+    },
+    {
+      "type": "paragraph",
+      "content": "Plan G is generally the strongest fit for people with frequent healthcare needs: multiple specialist visits per year, chronic conditions, or residence in states where Part B excess charges are common. The predictability of cost, one annual deductible and nothing else, is a significant financial planning advantage. You can review [Medicare Plan G reviews](/faqs/medicare-plan-g-reviews/) to understand how real enrollees experience this coverage."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medigap Plan N: Lower Premiums With Some Cost-Sharing Trade-Offs",
+      "id": "medigap-plan-n-lower-premiums-with-some-cost-sharing-trade-offs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Plan N offers a compelling value proposition for beneficiaries who are relatively healthy and comfortable with some cost-sharing in exchange for lower monthly premiums. Premiums typically run **15–25% less per month** than Plan G in most states (Medicare.gov Plan Finder, 2025)."
+    },
+    {
+      "type": "paragraph",
+      "content": "Plan N generally carries the lowest premiums among these three options. However, the lowest premium does not always translate to the lowest total annual cost — your actual healthcare usage determines which plan is more affordable overall."
+    },
+    {
+      "type": "paragraph",
+      "content": "The trade-offs are straightforward but worth understanding clearly:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Office visit copays:** Up to $20 per doctor's visit",
+        "**Emergency room copays:** Up to $50 for ER visits that do not result in an inpatient admission",
+        "**No excess charge coverage:** If a provider does not accept Medicare assignment, they can bill up to 15% above the Medicare-approved amount, and Plan N does not cover that gap"
+      ]
+    },
+    {
+      "type": "warning",
+      "calloutType": "warning",
+      "calloutTitle": "Part B Excess Charges",
+      "calloutText": "The excess charge risk deserves particular attention. In most states outside Massachusetts, Minnesota, Ohio, and a handful of others, providers are legally permitted to charge up to that 15% excess. A specialist visit billed at $500 above the Medicare-approved rate could add $75 directly to your costs. That risk is real and geographic."
+    },
+    {
+      "type": "paragraph",
+      "content": "Leslie Fried, Senior Director at the Center for Benefits Access, frames the Plan N decision accurately: \"Beneficiaries choosing between Plans G and N need to honestly assess their healthcare utilization. Plan N can save hundreds annually in premiums, but frequent doctor visits can quickly erode those savings through copayments.\" The math only favors Plan N when your actual usage patterns support it. Learn more about [Plan N Medicare Supplement](/medicare-supplements/plan-n/) coverage details."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Real-World Cost Scenarios: Which Plan Saves You the Most?",
+      "id": "real-world-cost-scenarios-which-plan-saves-you-the-most"
+    },
+    {
+      "type": "paragraph",
+      "content": "Monthly premium comparisons alone do not tell the full story. Total annual out-of-pocket cost, premiums plus cost-sharing, is the accurate measure. The following three scenarios use 2026 CMS data and average premium estimates to illustrate the financial breakeven point between Plan G and Plan N."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Scenario 1, Low Utilization (2–4 doctor visits per year)",
+      "id": "scenario-1-low-utilization-2-4-doctor-visits-per-year"
+    },
+    {
+      "type": "paragraph",
+      "content": "A healthy 65-year-old visits her primary care physician three times annually and sees no specialists. Under Plan N at $160/month ($1,920/year) with three $20 copays ($60), her total annual cost is roughly **$1,980**. Under Plan G at $200/month ($2,400/year) plus the $257 Part B deductible, her total is approximately **$2,657**. Plan N saves her roughly **$677 per year**."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Scenario 2, Moderate Utilization (8–12 visits plus one specialist)",
+      "id": "scenario-2-moderate-utilization-8-12-visits-plus-one-specialist"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add ten office visits ($200 in Plan N copays) and one specialist who charges excess fees (~$100 in additional Plan N exposure), and Plan N's total rises to approximately **$2,220** against Plan G's unchanged **$2,657**. Plan N still comes out ahead by about $437 annually."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Scenario 3, High Utilization (chronic condition, 18+ visits per year)",
+      "id": "scenario-3-high-utilization-chronic-condition-18-visits-per-year"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eighteen visits generate up to $360 in Plan N copays. Adding excess charge exposure from multiple specialists could push Plan N costs to **$2,700 or more** potentially exceeding Plan G's total cost of $2,657. At this level of utilization, **Plan G becomes the better financial choice**."
+    },
+    {
+      "type": "tip",
+      "calloutType": "tip",
+      "calloutTitle": "Breakeven Point",
+      "calloutText": "The breakeven point for most enrollees falls somewhere between 12 and 16 annual healthcare encounters. If you use healthcare infrequently, Plan N's premium savings are real and meaningful. If your health requires consistent care, Plan G's predictability delivers stronger overall value."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How and When to Enroll: Protecting Your Medigap Rights",
+      "id": "how-and-when-to-enroll-protecting-your-medigap-rights"
+    },
+    {
+      "type": "paragraph",
+      "content": "Timing your Medigap enrollment correctly can be one of the most financially protective decisions you make. The **6-month Medigap Open Enrollment Period (OEP)** begins the month you turn 65 and are enrolled in Medicare Part B."
+    },
+    {
+      "type": "success",
+      "calloutType": "success",
+      "calloutTitle": "Medigap Open Enrollment Period",
+      "calloutText": "During this window, insurers cannot deny your application, charge higher premiums, or impose waiting periods based on your health history."
+    },
+    {
+      "type": "warning",
+      "calloutType": "warning",
+      "calloutTitle": "Medical Underwriting",
+      "calloutText": "Outside the OEP, most states allow insurers to use medical underwriting. That means a pre-existing condition like diabetes, heart disease, or even a past surgery could result in a higher premium, or an outright denial. This is especially relevant for Plan F holders considering a switch to Plan G. Understanding your [Medigap pre-existing condition protections](/faqs/medicare-supplement-plans-and-pre-existing-conditions/) before making any changes is critical."
+    },
+    {
+      "type": "paragraph",
+      "content": "Certain life events trigger guaranteed issue rights outside the standard OEP, including:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Losing employer-sponsored health coverage",
+        "Moving out of a Medicare Advantage plan's service area",
+        "Your Medigap insurer going bankrupt or leaving your market"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The **State Health Insurance Assistance Program (SHIP)** provides free, unbiased, one-on-one counseling for Medicare beneficiaries. SHIP counselors can walk you through a side-by-side comparison of Plans F, G, and N available in your state and explain exactly what rights you have during and outside your enrollment window. Finding a local SHIP counselor through Medicare.gov is a reliable starting point before committing to any plan."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Choose the Right Medigap Plan for Your Situation",
+      "id": "how-to-choose-the-right-medigap-plan-for-your-situation"
+    },
+    {
+      "type": "paragraph",
+      "content": "The right Medigap plan depends on your Medicare eligibility date, how often you use healthcare, where you live, and what level of monthly cost you can sustain. Use this decision framework to orient your thinking:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**If you became Medicare-eligible before January 1, 2020 and currently hold Plan F:** Compare your current premium against available Plan G rates. If the annual premium savings exceed $257 (the Part B deductible), Plan G likely makes financial sense, but weigh the underwriting risk before switching.",
+        "**If you are a new Medicare enrollee choosing between Plan G and Plan N:** Assess how often you visit doctors and specialists. Low-utilization, generally healthy individuals in states without common excess charges often benefit from Plan N's lower premiums. Those with chronic conditions or in states where non-participating providers are common typically do better with Plan G.",
+        "**If budget is your primary concern:** Plan N offers the lowest premiums among these three options, but factor in the realistic cost of copays and any excess charge exposure in your state before making that the deciding factor."
+      ]
+    },
+    {
+      "type": "tip",
+      "calloutType": "tip",
+      "calloutTitle": "Compare Quotes",
+      "calloutText": "One step that is worth taking regardless of which plan you are leaning toward: compare quotes from multiple insurers for the same standardized plan. Premiums for identical Plan G or Plan N benefits can differ by $50–$100 per month or more depending on the carrier and pricing method. Medicare.gov's plan finder tool allows you to view current local pricing. You can also review [average Medicare Supplement plan costs by state](/faqs/average-cost-of-medicare-supplement-plans/) to calibrate your expectations."
+    },
+    {
+      "type": "paragraph",
+      "content": "Speaking with a licensed Medicare agent or SHIP counselor removes much of the guesswork. These professionals can pull side-by-side quotes, explain state-specific rules, and help you think through the total cost picture, not just the monthly premium."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions About Medigap Plan F, G, and N",
+      "id": "frequently-asked-questions-about-medigap-plan-f-g-and-n"
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the difference between Medigap Plan F, Plan G, and Plan N?",
+          "answer": "Plan F covers all Medicare cost-sharing including the Part B deductible. Plan G covers everything Plan F does except the $257 Part B deductible (2026). Plan N covers most costs but adds office visit copays up to $20, ER copays up to $50 for non-admissions, and excludes Part B excess charge coverage entirely."
+        },
+        {
+          "question": "Can I still enroll in Medigap Plan F in 2026?",
+          "answer": "Plan F is only available to beneficiaries who became Medicare-eligible before January 1, 2020. Anyone who first became eligible on or after that date cannot purchase Plan F from any insurer, regardless of health status or location."
+        },
+        {
+          "question": "Is Medigap Plan G better than Plan F in 2026?",
+          "answer": "For most new enrollees, Plan G delivers nearly identical coverage at a lower premium. The sole coverage difference, the $257 Part B deductible, is frequently offset by Plan G's lower monthly cost. As Danielle Kunkle Roberts notes, Plan G's premium savings usually more than compensate for that one annual out-of-pocket cost."
+        },
+        {
+          "question": "How much does Medigap Plan G cost per month in 2026?",
+          "answer": "Average monthly premiums for a 65-year-old nonsmoking female range from approximately $100 to $300, depending on state, insurer, age, and rating method (eHealth Medicare, 2025). Premiums vary significantly across carriers for identical benefits, making comparison shopping through Medicare.gov essential before enrolling."
+        },
+        {
+          "question": "What does Medigap Plan N cover and what are its copays?",
+          "answer": "Plan N covers Part A and B coinsurance, the Part A deductible, skilled nursing facility coinsurance, and 80% of foreign travel emergency costs. Cost-sharing includes up to $20 per office visit, up to $50 for ER visits that do not result in admission, and no coverage for Part B excess charges (Medicare.gov, 2026)."
+        },
+        {
+          "question": "Which Medigap plan has the lowest monthly premiums?",
+          "answer": "Plan N generally carries the lowest premiums among these three options, averaging $80–$240 per month versus $100–$300 for Plan G. However, the lowest premium does not always translate to the lowest total annual cost, your actual healthcare usage determines which plan is more affordable overall."
+        },
+        {
+          "question": "Plan G vs. Plan N: which is better for healthy people?",
+          "answer": "Relatively healthy, low-utilization enrollees often benefit from Plan N's 15–25% premium savings, which can outweigh modest copay costs. Those living in states where excess charges are common, or who have unpredictable health needs, may still prefer Plan G's broader protection, a point Leslie Fried emphasizes when advising beneficiaries to honestly assess their utilization patterns before choosing."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Choosing between Medicare Supplement Plan F, G, and N comes down to matching plan structure to your personal health picture and financial priorities. Plan F remains relevant for those who already hold it and can keep premiums manageable. Plan G offers the most predictable, comprehensive coverage available to new enrollees."
+    },
+    {
+      "type": "paragraph",
+      "content": "Plan N rewards low-utilization beneficiaries with meaningful premium savings, provided they understand and can absorb the cost-sharing trade-offs."
+    },
+    {
+      "type": "paragraph",
+      "content": "The best next step is to compare current quotes in your area, review your healthcare usage honestly, and consult with a licensed Medicare agent or SHIP counselor before enrolling. Getting the decision right at 65 can protect both your health and your finances for years to come."
+    }
+  ],
+  "tableOfContents": [
+    {
+      "id": "what-are-medigap-plans-f-g-and-n",
+      "title": "What Are Medigap Plans F, G, and N?"
+    },
+    {
+      "id": "side-by-side-benefits-comparison-plan-f-vs-plan-g-vs-plan-n",
+      "title": "Side-by-Side Benefits Comparison: Plan F vs. Plan G vs. Plan N"
+    },
+    {
+      "id": "medigap-plan-f-who-is-still-eligible-and-is-it-worth-keeping",
+      "title": "Medigap Plan F: Who Is Still Eligible and Is It Worth Keeping?"
+    },
+    {
+      "id": "medigap-plan-g-the-new-gold-standard-for-comprehensive-coverage",
+      "title": "Medigap Plan G: The New Gold Standard for Comprehensive Coverage"
+    },
+    {
+      "id": "medigap-plan-n-lower-premiums-with-some-cost-sharing-trade-offs",
+      "title": "Medigap Plan N: Lower Premiums With Some Cost-Sharing Trade-Offs"
+    },
+    {
+      "id": "real-world-cost-scenarios-which-plan-saves-you-the-most",
+      "title": "Real-World Cost Scenarios: Which Plan Saves You the Most?"
+    },
+    {
+      "id": "how-and-when-to-enroll-protecting-your-medigap-rights",
+      "title": "How and When to Enroll: Protecting Your Medigap Rights"
+    },
+    {
+      "id": "how-to-choose-the-right-medigap-plan-for-your-situation",
+      "title": "How to Choose the Right Medigap Plan for Your Situation"
+    },
+    {
+      "id": "frequently-asked-questions-about-medigap-plan-f-g-and-n",
+      "title": "Frequently Asked Questions About Medigap Plan F, G, and N"
+    }
+  ],
+  "keyTakeaways": [
+    "Medigap Plans F, G, and N are the most popular Medicare Supplement options, filling gaps in Original Medicare.",
+    "Plan F is closed to new enrollees since January 1, 2020, making Plan G the most comprehensive option for those newly eligible.",
+    "All Medigap plans with the same letter offer identical benefits, regardless of the insurance company.",
+    "Understanding the differences in benefits, costs, and eligibility for Plans F, G, and N is crucial for informed enrollment."
+  ]
 }
