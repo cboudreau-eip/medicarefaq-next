@@ -5,6 +5,21 @@
   "category": "General",
   "author": "Vitest",
   "id": "vitest-transform-test-auto-delete-mq175cn7",
-  "updatedAt": "2026-06-05T17:27:04.003Z",
-  "createdAt": "2026-06-05T17:27:04.003Z"
+  "updatedAt": "2026-06-05T17:27:06.389Z",
+  "createdAt": "2026-06-05T17:27:04.003Z",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Test content for transform verification."
+    }
+  ],
+  "tableOfContents": [],
+  "excerpt": "This article discusses VITEST and its transform test auto-delete feature.",
+  "keyTakeaways": [
+    "VITEST offers a transform test feature.",
+    "The transform test includes an auto-delete function.",
+    "This feature is designed for test content verification."
+  ],
+  "seoTitle": "VITEST Transform Test (Auto-Delete) - MedicareFAQ",
+  "seoDescription": "Learn about VITEST's transform test and its auto-delete feature. Understand its role in test content verification."
 }
