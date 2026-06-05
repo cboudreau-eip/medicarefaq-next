@@ -8,11 +8,11 @@ import type { BlogArticleData } from "./article-types";
 
 export const blogArticles: BlogArticleData[] = [
   {
-    slug: "durable-medical-equipment-dme-a-comprehensive-guide-to-coverage-and-benefits",
+    slug: "durable-medical-equipment-dme-guide",
     seo: {
       title: "Durable Medical Equipment (DME) Coverage | MedicareFAQ",
       description: "Understand Medicare's DME coverage. Learn what qualifies as durable medical equipment, common types, and how to get benefits.",
-      canonical: "https://www.medicarefaq.com/blog/durable-medical-equipment-dme-a-comprehensive-guide-to-coverage-and-benefits/",
+      canonical: "https://www.medicarefaq.com/blog/durable-medical-equipment-dme-guide/",
       ogImage: "/images/generated/durable-medical-equipment-dme.png",
     },
     title: "Durable Medical Equipment (DME): A Comprehensive Guide to Coverage and Benefits",
