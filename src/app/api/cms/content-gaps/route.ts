@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { blogArticles } from "@/lib/blog-articles-data";
 import { coverageArticles } from "@/lib/coverage-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
+import { writingConfig } from "@/lib/writing-config";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
@@ -72,14 +73,31 @@ Full list of all ${allArticles.length} article titles:
 ${allArticles.map((a) => `- ${a.title}`).join("\n")}
 ${focusInstruction}
 
-Based on this content audit, identify 10 high-value content gaps — Medicare topics that are commonly searched by seniors, caregivers, and beneficiaries but are NOT adequately covered by the existing articles above.
+=== IDEAL CUSTOMER PROFILE (ICP) — USE THIS TO GUIDE PRIORITIES ===
+Who They Are: ${writingConfig.icp.description}
+
+PAIN POINTS (topics addressing these get HIGHER priority):
+${writingConfig.icp.painPoints.map((p, i) => `${i + 1}. ${p}`).join("\n")}
+
+GOALS (what they want to achieve):
+${writingConfig.icp.goals.map((g, i) => `${i + 1}. ${g}`).join("\n")}
+
+COMMON OBJECTIONS (address these concerns):
+${writingConfig.icp.objections.map((o, i) => `${i + 1}. ${o}`).join("\n")}
+
+DECISION TRIGGERS (what prompts them to act):
+${writingConfig.icp.decisionTriggers.map((t, i) => `${i + 1}. ${t}`).join("\n")}
+
+Based on this content audit AND the ICP above, identify 10 high-value content gaps — Medicare topics that directly address the ICP's pain points, goals, objections, or decision triggers, AND are NOT adequately covered by the existing articles above.
 
 For each gap, provide:
 1. A suggested article title (SEO-optimized, clear, specific)
 2. The primary keyword to target
 3. A brief rationale (1-2 sentences explaining why this topic matters and what searchers want)
-4. Priority level: "high" (high search volume, directly relevant), "medium" (moderate volume, good fit), or "low" (niche but valuable)
+4. Priority level: "high" (directly addresses ICP pain point or decision trigger, high search volume), "medium" (moderate alignment, good fit), or "low" (niche but valuable)
 5. Suggested category for the article
+6. Which ICP element it addresses — one of: "pain_point", "goal", "objection", or "decision_trigger"
+7. The specific ICP item it maps to (quote the exact pain point, goal, objection, or trigger)
 
 Return ONLY valid JSON in this exact format:
 [
@@ -88,11 +106,14 @@ Return ONLY valid JSON in this exact format:
     "primaryKeyword": "target keyword",
     "rationale": "Why this matters...",
     "priority": "high",
-    "category": "Category Name"
+    "category": "Category Name",
+    "icpAlignment": "pain_point",
+    "icpDetail": "The specific pain point or goal this addresses"
   }
 ]
 
 Prioritize topics that:
+- DIRECTLY address the ICP's pain points, objections, or decision triggers
 - Have clear search intent (people actively searching for answers)
 - Are underserved by the current library
 - Are timely or evergreen (2025-2026 relevant)

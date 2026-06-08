@@ -18,6 +18,7 @@ import {
   Check,
   ExternalLink,
   AlertCircle,
+  Users,
 } from "lucide-react";
 
 interface ContentGap {
@@ -26,6 +27,8 @@ interface ContentGap {
   rationale: string;
   priority: "high" | "medium" | "low";
   category: string;
+  icpAlignment?: "pain_point" | "goal" | "objection" | "decision_trigger";
+  icpDetail?: string;
 }
 
 interface LinkOpportunity {
@@ -331,7 +334,18 @@ export default function ContentIntelligencePage() {
                             <Target className="w-3 h-3" />
                             Keyword: <span className="font-medium text-gray-700">{gap.primaryKeyword}</span>
                           </span>
+                          {gap.icpAlignment && (
+                            <span className="inline-flex items-center gap-1 text-xs font-medium px-2.5 py-1 rounded-full bg-purple-100 text-purple-700">
+                              <Users className="w-3 h-3" />
+                              {gap.icpAlignment === "pain_point" ? "Pain Point" : gap.icpAlignment === "goal" ? "Goal" : gap.icpAlignment === "objection" ? "Objection" : "Decision Trigger"}
+                            </span>
+                          )}
                         </div>
+                        {gap.icpDetail && (
+                          <p className="text-xs text-purple-600 mt-1.5 italic">
+                            ICP: &ldquo;{gap.icpDetail}&rdquo;
+                          </p>
+                        )}
                       </div>
                       <a
                         href={`/admin/github-editor/create-smart?title=${encodeURIComponent(gap.title)}`}
