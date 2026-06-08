@@ -11,6 +11,7 @@ import {
   Plus,
   Map,
   FileText,
+  Lightbulb,
 } from "lucide-react";
 
 interface CMSHeaderProps {
@@ -41,7 +42,8 @@ export default function CMSHeader({
   const isSmartCreatePage = pathname === "/admin/github-editor/create-smart";
   const isSitemapPage = pathname === "/admin/github-editor/sitemap";
   const isDraftsPage = pathname === "/admin/github-editor/drafts";
-  const isSubPage = isEditPage || isCreatePage || isSmartCreatePage || isSitemapPage || isDraftsPage;
+  const isIntelPage = pathname === "/admin/github-editor/content-intelligence";
+  const isSubPage = isEditPage || isCreatePage || isSmartCreatePage || isSitemapPage || isDraftsPage || isIntelPage;
 
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-0 shrink-0">
@@ -130,6 +132,14 @@ export default function CMSHeader({
               >
                 <Map className="w-3.5 h-3.5" />
                 Sitemaps
+              </Link>
+              <Link
+                href="/admin/github-editor/content-intelligence"
+                className="flex items-center gap-1.5 text-xs font-medium text-purple-600 bg-purple-50 rounded-lg px-3 py-1.5 hover:bg-purple-100 transition-colors"
+                title="Content Intelligence"
+              >
+                <Lightbulb className="w-3.5 h-3.5" />
+                Intelligence
               </Link>
             </>
           )}
