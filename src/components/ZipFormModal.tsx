@@ -299,30 +299,37 @@ export default function ZipFormModal({
                         : "border-slate-200 focus-within:border-[#0D9488]"
                     }`}
                   >
-                    <input
-                      ref={inputRef}
-                      type="text"
-                      inputMode="numeric"
-                      pattern="[0-9]{5}"
-                      maxLength={5}
-                      autoComplete="one-time-code"
-                      data-lpignore="true"
-                      data-1p-ignore="true"
-                      value={zip}
-                      onChange={(e) => handleZipChange(e.target.value)}
-                      placeholder="ZIP Code"
-                      className="flex-1 px-4 py-3.5 text-base font-medium text-slate-900 placeholder:text-slate-400 border-none outline-none bg-transparent"
-                      required
-                    />
-                    {/* Inline status indicator — fixed width so it never shifts the button */}
-                    <span className="w-8 flex items-center justify-center flex-shrink-0">
+                    {/* Input wrapper — relative so the icon can be absolutely positioned inside */}
+                    <div className="relative flex-1">
+                      <input
+                        ref={inputRef}
+                        type="text"
+                        inputMode="numeric"
+                        pattern="[0-9]{5}"
+                        maxLength={5}
+                        autoComplete="one-time-code"
+                        data-lpignore="true"
+                        data-1p-ignore="true"
+                        value={zip}
+                        onChange={(e) => handleZipChange(e.target.value)}
+                        placeholder="ZIP Code"
+                        className={`w-full px-4 py-3.5 text-base font-medium text-slate-900 placeholder:text-slate-400 border-none outline-none bg-transparent ${
+                          zipStatus === "validating" || zipStatus === "valid" ? "pr-8" : ""
+                        }`}
+                        required
+                      />
+                      {/* Status icon — absolutely positioned so it never affects layout */}
                       {zipStatus === "validating" && (
-                        <Loader2 className="w-4 h-4 text-slate-400 animate-spin" />
+                        <span className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none">
+                          <Loader2 className="w-4 h-4 text-slate-400 animate-spin" />
+                        </span>
                       )}
                       {zipStatus === "valid" && (
-                        <CheckCircle2 className="w-4 h-4 text-[#0D9488]" />
+                        <span className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none">
+                          <CheckCircle2 className="w-4 h-4 text-[#0D9488]" />
+                        </span>
                       )}
-                    </span>
+                    </div>
                     <button
                       type="submit"
                       disabled={isSubmitDisabled}
