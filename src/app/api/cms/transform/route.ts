@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { buildWritingPrompt } from "@/lib/writing-config";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 const FORGE_API_URL = process.env.BUILT_IN_FORGE_API_URL;
@@ -91,7 +92,13 @@ export async function POST(req: NextRequest) {
     }
 
     // Step 1: Transform content to sections
+    const writingRules = buildWritingPrompt();
+
     const userPrompt = `Transform the following article content into structured BlogSectionContent JSON.
+
+=== WRITING QUALITY RULES (APPLY TO ALL CONTENT) ===
+${writingRules}
+=== END WRITING QUALITY RULES ===
 
 Article title: ${title || "Untitled"}
 

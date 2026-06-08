@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { buildWritingPrompt } from "@/lib/writing-config";
 
 const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
@@ -241,7 +242,13 @@ export async function POST(
     }
 
     // 2. Run AI transformation (same logic as /api/cms/transform)
+    const writingRules = buildWritingPrompt();
+
     const userPrompt = `Transform the following article content into structured BlogSectionContent JSON.
+
+=== WRITING QUALITY RULES (APPLY TO ALL CONTENT) ===
+${writingRules}
+=== END WRITING QUALITY RULES ===
 
 Article title: ${title}
 
