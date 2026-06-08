@@ -469,10 +469,47 @@ function SmartCreatePageInner() {
       // Auto-suggest internal links after transform
       // (uses a slight delay to let sections state settle)
       setTimeout(() => suggestInternalLinks(), 100);
+
+      // Auto-generate featured image after transform
+      generateFeaturedImage(data.sections);
     } catch (err) {
       setError(String(err));
     } finally {
       setTransforming(false);
+    }
+  };
+
+  // --- Auto-generate Featured Image ---
+  const generateFeaturedImage = async (transformedSections?: unknown) => {
+    if (generatingImage) return; // Don't double-trigger
+    setGeneratingImage(true);
+    try {
+      const res = await fetch("/api/cms/generate-image", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "x-cms-password": password },
+        body: JSON.stringify({
+          title,
+          category,
+          slug,
+          excerpt,
+          keyTakeaways,
+          customPrompt: imagePrompt || undefined,
+          fullArticle: transformedSections || sections || undefined,
+        }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        setImage(data.dataUrl);
+        setPendingImageBase64(data.base64);
+        setPendingImageFileName(data.fileName);
+        setImageAlt(title);
+        setShowImagePrompt(true);
+        setImagePrompt(data.prompt || "");
+      }
+    } catch {
+      // Non-critical — user can still generate manually
+    } finally {
+      setGeneratingImage(false);
     }
   };
 
