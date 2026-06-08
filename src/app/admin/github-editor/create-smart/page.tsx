@@ -1433,7 +1433,7 @@ function SmartCreatePageInner() {
                         <img
                           src={image}
                           alt={imageAlt || "Preview"}
-                          className="w-full h-32 object-cover"
+                          className="w-full max-h-96 object-contain"
                           onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                         />
                       </div>
