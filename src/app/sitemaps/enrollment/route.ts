@@ -36,6 +36,7 @@ export function GET() {
     { url: `${BASE_URL}/enrollment/late-penalties/`, priority: "0.7", changefreq: "monthly" },
     { url: `${BASE_URL}/enrollment/how-to-enroll/`, priority: "0.8", changefreq: "monthly" },
     { url: `${BASE_URL}/tools/enrollment-timeline/`, priority: "0.7", changefreq: "monthly" },
+    { url: `${BASE_URL}/tools/part-b-penalty-calculator/`, priority: "0.8", changefreq: "monthly" },
   ];
 
   return new NextResponse(buildXml(entries), {

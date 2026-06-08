@@ -208,7 +208,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   </div>
                 </div>
 
-                <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
+                <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-6">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
                     <div>
@@ -218,6 +218,21 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       </p>
                     </div>
                   </div>
+                </div>
+
+                {/* Calculator CTA */}
+                <div className="bg-[#1B2A4A] rounded-xl p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                  <div>
+                    <p className="text-white font-bold text-base mb-1">Calculate Your Exact Penalty</p>
+                    <p className="text-blue-200 text-sm">Enter your dates and see your permanent monthly penalty amount and lifetime cost instantly.</p>
+                  </div>
+                  <Link
+                    href="/tools/part-b-penalty-calculator"
+                    className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold py-2.5 px-5 rounded-lg transition-colors text-sm flex items-center gap-2 whitespace-nowrap"
+                  >
+                    Open Calculator
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
                 </div>
               </section>
 

@@ -25,6 +25,7 @@ import {
   MessageCircle,
   UserCheck,
   GraduationCap,
+  Calculator,
   type LucideIcon,
 } from "lucide-react";
 
@@ -211,6 +212,12 @@ export const navigationData: NavCategory[] = [
         description: "Step-by-step enrollment process guide",
         icon: FileText,
         href: "/enrollment/how-to-enroll",
+      },
+      {
+        title: "Part B Penalty Calculator",
+        description: "Calculate your exact late enrollment penalty amount",
+        icon: Calculator,
+        href: "/tools/part-b-penalty-calculator",
       }],
     sidebarTitle: "ENROLLMENT HELP",
     sidebarItems: [
