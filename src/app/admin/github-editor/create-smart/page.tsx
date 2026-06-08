@@ -335,6 +335,7 @@ function SmartCreatePageInner() {
   const searchParams = useSearchParams();
   const { authenticated, authLoading, password, login, logout, authFetch } = useCMSAuth();
   const autoLoadDraftId = searchParams.get("draft");
+  const autoLoadTitle = searchParams.get("title");
   const autoLoadAttempted = useRef(false);
 
   // Input state
@@ -402,6 +403,14 @@ function SmartCreatePageInner() {
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [authenticated, autoLoadDraftId]);
+
+  // Auto-populate title from URL param
+  useEffect(() => {
+    if (autoLoadTitle && !title) {
+      setTitle(autoLoadTitle);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoLoadTitle]);
 
   // Auto-generate slug from title
   useEffect(() => {
