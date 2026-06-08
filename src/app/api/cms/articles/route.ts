@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { coverageArticles } from "@/lib/coverage-data";
 import { blogArticles } from "@/lib/blog-articles-data";
+import { simpleFAQArticles } from "@/lib/simple-faq-data";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 
@@ -20,7 +21,7 @@ type CMSArticleListItem = {
   excerpt: string;
   date: string;
   category: string;
-  type: "blog" | "coverage";
+  type: "blog" | "coverage" | "faq";
   url: string;
 };
 
@@ -59,7 +60,21 @@ export async function GET(request: NextRequest) {
     }));
 
     // Sort by date (most recent first), fall back to alphabetical for articles without dates
-    const all = [...blog, ...coverage].sort((a, b) => {
+    const faq: CMSArticleListItem[] = simpleFAQArticles.map((a) => ({
+      slug: a.slug,
+      title: a.title,
+      seoTitle: a.seo?.title ?? "",
+      seoDescription: a.seo?.description ?? "",
+      ogImage: a.seo?.ogImage ?? "",
+      image: a.seo?.ogImage ?? "",
+      excerpt: a.summary ?? a.seo?.description ?? "",
+      date: a.dateUpdated ?? "",
+      category: a.category ?? "",
+      type: "faq" as const,
+      url: `/faqs/${a.slug}/`,
+    }));
+
+    const all = [...blog, ...coverage, ...faq].sort((a, b) => {
       const dateA = a.date ? new Date(a.date).getTime() : 0;
       const dateB = b.date ? new Date(b.date).getTime() : 0;
       if (dateA && dateB) return dateB - dateA;

@@ -33,6 +33,8 @@ import {
 import { motion } from "framer-motion";
 import type { BlogArticleData, BlogSectionContent } from "@/lib/article-types";
 import { blogArticles } from "@/lib/blog-articles-data";
+import { simpleFAQArticles } from "@/lib/simple-faq-data";
+import { coverageArticles } from "@/lib/coverage-data";
 import { trackPhoneClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 /* ─── Markdown Inline Parser ─── */
@@ -580,20 +582,28 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
 
 
               {/* Related Articles */}
-              {article.relatedSlugs && article.relatedSlugs.length > 0 && (
-                <div className="mb-8">
-                  <h3 className="text-lg font-bold text-[#1B2A4A] mb-4 flex items-center gap-2">
-                    <BookOpen className="w-5 h-5 text-[#C41230]" />
-                    Related Articles
-                  </h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {article.relatedSlugs.slice(0, 4).map((relSlug) => {
-                      const rel = blogArticles.find(a => a.slug === relSlug);
-                      if (!rel) return null;
-                      return (
+              {article.relatedSlugs && article.relatedSlugs.length > 0 && (() => {
+                const resolvedRelated = article.relatedSlugs.slice(0, 4).map((relSlug) => {
+                  const blogMatch = blogArticles.find(a => a.slug === relSlug);
+                  if (blogMatch) return { title: blogMatch.title, readTime: blogMatch.readTime, href: `/blog/${relSlug}` };
+                  const faqMatch = simpleFAQArticles.find(a => a.slug === relSlug);
+                  if (faqMatch) return { title: faqMatch.title, readTime: faqMatch.readTime, href: `/faqs/${relSlug}` };
+                  const covMatch = coverageArticles.find(a => a.slug === relSlug);
+                  if (covMatch) return { title: covMatch.title, readTime: covMatch.readTime, href: `/faqs/${relSlug}` };
+                  return null;
+                }).filter(Boolean) as { title: string; readTime: string; href: string }[];
+                if (resolvedRelated.length === 0) return null;
+                return (
+                  <div className="mb-8">
+                    <h3 className="text-lg font-bold text-[#1B2A4A] mb-4 flex items-center gap-2">
+                      <BookOpen className="w-5 h-5 text-[#C41230]" />
+                      Related Articles
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      {resolvedRelated.map((rel) => (
                         <Link
-                          key={relSlug}
-                          href={`/blog/${relSlug}`}
+                          key={rel.href}
+                          href={rel.href}
                           className="flex items-start gap-3 p-4 border border-[#E5E7EB] rounded-xl hover:border-[#C41230] hover:bg-[#FFF5F7] transition-colors group"
                         >
                           <div className="flex-1 min-w-0">
@@ -602,11 +612,11 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                           </div>
                           <ArrowRight className="w-4 h-4 text-[#9CA3AF] group-hover:text-[#C41230] shrink-0 mt-0.5 transition-colors" />
                         </Link>
-                      );
-                    })}
+                      ))}
+                    </div>
                   </div>
-                </div>
-              )}
+                );
+              })()}
 
               {/* CTA Banner */}
               <div className="bg-[#1B2A4A] rounded-xl p-6 md:p-8 text-white text-center">
