@@ -29,11 +29,13 @@ import {
   Trash2,
   X,
   Link2,
+  ShieldCheck,
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
 import CMSHeader from "../components/cms-header";
 import ImageUpload from "../components/image-upload";
+import { validateContent, ValidationResult } from "@/lib/content-validator";
 
 // --- Constants ---
 
@@ -393,6 +395,10 @@ function SmartCreatePageInner() {
   const [acceptedLinks, setAcceptedLinks] = useState<{ phrase: string; url: string; title: string }[]>([]);
   const [existingLinkCount, setExistingLinkCount] = useState(0);
 
+  // Validation state
+  const [validation, setValidation] = useState<ValidationResult | null>(null);
+  const [showValidation, setShowValidation] = useState(false);
+
   // Status state
   const [publishing, setPublishing] = useState(false);
   const [error, setError] = useState("");
@@ -464,6 +470,11 @@ function SmartCreatePageInner() {
 
       setSections(data.sections);
       setTableOfContents(data.tableOfContents || []);
+
+      // Run post-transform validation
+      const validationResult = validateContent(data.sections);
+      setValidation(validationResult);
+      setShowValidation(validationResult.issues.length > 0);
 
       // Auto-fill metadata from AI response
       let resolvedCategory = category;
@@ -739,6 +750,14 @@ function SmartCreatePageInner() {
       setRelatedSlugs(draft.relatedSlugs || []);
       setLinkSuggestions(draft.linkSuggestions || []);
       setAcceptedLinks(draft.acceptedLinks || []);
+      // Run validation on loaded draft
+      if (draft.sections && draft.sections.length > 0) {
+        const validationResult = validateContent(draft.sections);
+        setValidation(validationResult);
+        setShowValidation(validationResult.issues.length > 0);
+      } else {
+        setValidation(null);
+      }
       setDraftSavedAt(draft.updatedAt ? new Date(draft.updatedAt).toLocaleTimeString() : null);
       setShowDraftsPanel(false);
       setSuccess(`Draft "${draft.title}" loaded.`);
@@ -1635,6 +1654,21 @@ function SmartCreatePageInner() {
                       <span className="text-xs text-gray-400">
                         ({sections.length} sections, {tableOfContents.length} headings)
                       </span>
+                      {validation && (
+                        <button
+                          onClick={() => setShowValidation(!showValidation)}
+                          className={`ml-2 flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded-full transition-colors ${
+                            validation.passed
+                              ? "bg-green-100 text-green-700"
+                              : validation.summary.errors > 0
+                              ? "bg-red-100 text-red-700"
+                              : "bg-amber-100 text-amber-700"
+                          }`}
+                        >
+                          <ShieldCheck className="w-3 h-3" />
+                          {validation.score}/100
+                        </button>
+                      )}
                     </div>
                     <button
                       onClick={() => setShowJson(!showJson)}
@@ -1648,6 +1682,80 @@ function SmartCreatePageInner() {
                       {showJson ? "Show Preview" : "Show JSON"}
                     </button>
                   </div>
+
+                  {/* Validation Panel */}
+                  {validation && showValidation && validation.issues.length > 0 && (
+                    <div className={`rounded-xl border p-4 space-y-3 ${
+                      validation.summary.errors > 0
+                        ? "bg-red-50 border-red-200"
+                        : validation.summary.warnings > 0
+                        ? "bg-amber-50 border-amber-200"
+                        : "bg-blue-50 border-blue-200"
+                    }`}>
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <ShieldCheck className={`w-4 h-4 ${
+                            validation.summary.errors > 0 ? "text-red-600" : "text-amber-600"
+                          }`} />
+                          <span className="text-sm font-semibold text-gray-800">
+                            Quality Check: {validation.score}/100
+                          </span>
+                          <div className="flex items-center gap-2 ml-2">
+                            {validation.summary.errors > 0 && (
+                              <span className="text-xs bg-red-100 text-red-700 px-1.5 py-0.5 rounded font-medium">
+                                {validation.summary.errors} error{validation.summary.errors > 1 ? "s" : ""}
+                              </span>
+                            )}
+                            {validation.summary.warnings > 0 && (
+                              <span className="text-xs bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded font-medium">
+                                {validation.summary.warnings} warning{validation.summary.warnings > 1 ? "s" : ""}
+                              </span>
+                            )}
+                            {validation.summary.info > 0 && (
+                              <span className="text-xs bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded font-medium">
+                                {validation.summary.info} suggestion{validation.summary.info > 1 ? "s" : ""}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                        <button
+                          onClick={() => setShowValidation(false)}
+                          className="text-gray-400 hover:text-gray-600 transition-colors"
+                        >
+                          <X className="w-4 h-4" />
+                        </button>
+                      </div>
+                      <div className="space-y-1.5 max-h-48 overflow-y-auto">
+                        {validation.issues.map((issue, i) => (
+                          <div
+                            key={i}
+                            className={`flex items-start gap-2 text-xs px-2.5 py-1.5 rounded-lg ${
+                              issue.severity === "error"
+                                ? "bg-red-100/60 text-red-800"
+                                : issue.severity === "warning"
+                                ? "bg-amber-100/60 text-amber-800"
+                                : "bg-blue-100/60 text-blue-800"
+                            }`}
+                          >
+                            {issue.severity === "error" ? (
+                              <AlertCircle className="w-3.5 h-3.5 mt-0.5 shrink-0" />
+                            ) : issue.severity === "warning" ? (
+                              <AlertTriangle className="w-3.5 h-3.5 mt-0.5 shrink-0" />
+                            ) : (
+                              <Info className="w-3.5 h-3.5 mt-0.5 shrink-0" />
+                            )}
+                            <div>
+                              <span className="font-medium">[{issue.category}]</span>{" "}
+                              {issue.message}
+                              {issue.detail && (
+                                <p className="text-[10px] opacity-70 mt-0.5">{issue.detail}</p>
+                              )}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
 
                   {/* Preview Content */}
                   <div className="bg-white rounded-xl border border-gray-200 p-6 max-h-[calc(100vh-220px)] overflow-y-auto">
