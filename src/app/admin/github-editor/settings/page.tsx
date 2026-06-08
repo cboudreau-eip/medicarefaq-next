@@ -11,6 +11,7 @@ import {
   FileText,
   ChevronDown,
   ChevronRight,
+  Database,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -290,6 +291,45 @@ export default function SettingsPage() {
                   </a>
                 ))}
               </div>
+            </div>
+          </CollapsibleSection>
+
+          {/* Medicare Reference Data */}
+          <CollapsibleSection title="Medicare Reference Data (Cross-Reference)" icon={Database}>
+            <div className="space-y-4">
+              <p className="text-sm text-gray-500">
+                The AI uses these exact figures when mentioning costs, premiums, or thresholds. No guessing or rounding.
+              </p>
+              {[
+                { title: "Part A Premiums & Costs", data: config.referenceData.partA },
+                { title: "Part B Premiums & Costs", data: config.referenceData.partB },
+                { title: "Part D Costs", data: config.referenceData.partD },
+                { title: "Part C (Medicare Advantage)", data: config.referenceData.partC },
+                { title: "IRMAA Individual Thresholds", data: config.referenceData.irmaaIndividual },
+                { title: "IRMAA Joint Thresholds", data: config.referenceData.irmaaJoint },
+                { title: "IRMAA Part B Premiums", data: config.referenceData.irmaaPartBPremiums },
+                { title: "IRMAA Part D Surcharges", data: config.referenceData.irmaaPartDSurcharges },
+                { title: "Medigap Plans", data: config.referenceData.medigap },
+                { title: "Extra Help (Low-Income Subsidy)", data: config.referenceData.extraHelp },
+                { title: "Therapy & Other Limits", data: config.referenceData.therapyLimits },
+                { title: "IRS Standard Deductions", data: config.referenceData.irsDeductions },
+              ].map((section) => (
+                <div key={section.title}>
+                  <h4 className="text-sm font-semibold text-gray-800 mb-2">{section.title}</h4>
+                  <div className="bg-gray-50 rounded-lg border border-gray-100 overflow-hidden">
+                    <table className="w-full text-sm">
+                      <tbody>
+                        {Object.entries(section.data).map(([key, value]) => (
+                          <tr key={key} className="border-b border-gray-100 last:border-0">
+                            <td className="px-3 py-1.5 text-gray-600 font-medium">{key}</td>
+                            <td className="px-3 py-1.5 text-gray-900 font-mono text-right">{value}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))}
             </div>
           </CollapsibleSection>
 

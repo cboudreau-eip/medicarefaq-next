@@ -112,6 +112,111 @@ The goal is to help you make a confident decision with clear information and lic
     { name: "Data CMS", url: "https://data.cms.gov/" },
   ],
 
+  // ─── MEDICARE REFERENCE DATA (Cross-Reference) ─────────────────────────────
+  // The AI MUST use these exact figures when mentioning costs, premiums, or thresholds.
+  referenceData: {
+    generalYear: {
+      currentYear: 2026,
+      previousYear: 2025,
+      irmaaLookBackYear: 2024,
+    },
+    partA: {
+      "2026 Full Premium": "$565",
+      "2025 Full Premium": "$518",
+      "2026 Reduced Premium (30+ credits)": "$311",
+      "2025 Reduced Premium (30+ credits)": "$285",
+      "2026 Deductible": "$1,736",
+      "2025 Deductible": "$1,676",
+      "2026 Coinsurance Days 61-90": "$434",
+      "2025 Coinsurance Days 61-90": "$419",
+      "2026 Coinsurance Reserve Days": "$868",
+      "2025 Coinsurance Reserve Days": "$838",
+      "2026 SNF Coinsurance": "$217",
+      "2025 SNF Coinsurance": "$209.50",
+    },
+    partB: {
+      "2026 Standard Premium": "$202.90",
+      "2025 Standard Premium": "$185",
+      "2026 Deductible": "$283",
+      "2025 Deductible": "$257",
+    },
+    partD: {
+      "2026 Average Premium": "$34.50",
+      "2026 Maximum Deductible": "$615",
+      "2025 Maximum Deductible": "$590",
+      "2026 Catastrophic Phase Threshold": "$2,100.00",
+      "2025 Catastrophic Phase Threshold": "$2,000.00",
+      "Late Enrollment Penalty Base Premium": "$38.99",
+    },
+    partC: {
+      "2026 Maximum MOOP": "$9,250",
+    },
+    irmaaIndividual: {
+      "Level 1 (no surcharge)": "$109,000 or less",
+      "Level 2": "> $109,000 and < $137,000",
+      "Level 3": "> $137,000 and < $171,000",
+      "Level 4": "> $171,000 and < $205,000",
+      "Level 5": "> $205,000 and < $500,000",
+      "Level 6": "> $500,000",
+    },
+    irmaaJoint: {
+      "Level 1 (no surcharge)": "$218,000 or less",
+      "Level 2": "> $218,000 and < $274,000",
+      "Level 3": "> $274,000 and < $342,000",
+      "Level 4": "> $342,000 and < $410,000",
+      "Level 5": "> $410,000 and < $750,000",
+      "Level 6": "> $750,000",
+    },
+    irmaaSeparate: {
+      "Level 1 (no surcharge)": "$109,000 or less",
+      "Level 2": "> $109,000 and < $391,000",
+      "Level 3": "> $391,000",
+    },
+    irmaaPartBPremiums: {
+      "Level 1": "$202.90",
+      "Level 2": "$284.10",
+      "Level 3": "$405.80",
+      "Level 4": "$527.50",
+      "Level 5": "$649.20",
+      "Level 6": "$689.90",
+    },
+    irmaaPartDSurcharges: {
+      "Level 2": "$14.50",
+      "Level 3": "$37.50",
+      "Level 4": "$60.40",
+      "Level 5": "$83.30",
+      "Level 6": "$91.00",
+      "Range": "$14.50 - $91.00",
+    },
+    medigap: {
+      "2026 High-Deductible Plan F Deductible": "$2,950.00",
+      "2025 High-Deductible Plan F Deductible": "$2,870.00",
+      "2026 High-Deductible Plan G Deductible": "$2,950.00",
+      "2025 High-Deductible Plan G Deductible": "$2,870.00",
+      "2026 Plan K Maximum Out-of-Pocket": "$8,000",
+      "2026 Plan L Maximum Out-of-Pocket": "$4,000",
+    },
+    extraHelp: {
+      "2025 Income Limit Individual": "$23,475",
+      "2025 Income Limit Married Couple": "$31,725",
+      "2025 Resource Limit Individual": "$17,600",
+      "2025 Resource Limit Married Couple": "$35,130",
+    },
+    therapyLimits: {
+      "2026 Speech Therapy Cap": "$2,480",
+    },
+    irsDeductions: {
+      "2025 Standard Deduction Single": "$15,750",
+      "2025 Standard Deduction Married Filing Jointly": "$31,500",
+      "2025 Additional Deduction Single 65+": "$2,000",
+      "2025 Additional Deduction Couples 65+": "$1,600",
+      "2026 Standard Deduction Single": "$16,100",
+      "2026 Standard Deduction Married Filing Jointly": "$32,200",
+      "2026 Additional Deduction Single 65+": "$2,050",
+      "2026 Additional Deduction Couples 65+": "$1,650",
+    },
+  },
+
   // ─── HARDCODED WRITING RULES ───────────────────────────────────────────────
   hardcodedRules: {
     targetWordCount: 2000,
@@ -266,5 +371,47 @@ If you find yourself about to write any of these phrases, stop and rephrase usin
 When linking to external sources, prefer these authoritative sites:
 ${config.citationSources.map((s) => `- ${s.name}: ${s.url}`).join("\n")}
 Always link to the most specific deep page URL relevant to the claim, not the homepage.
+
+=== MEDICARE REFERENCE DATA (CROSS-REFERENCE — USE EXACT FIGURES) ===
+When the article mentions any Medicare costs, premiums, deductibles, IRMAA brackets, or thresholds, you MUST use the exact figures below. Do NOT guess, round, or use outdated numbers. If a figure is not listed here, do not invent one — omit it or state it is subject to change.
+
+${buildReferenceDataBlock()}
 `.trim();
+}
+
+/**
+ * Formats the reference data into a readable block for the AI prompt.
+ */
+function buildReferenceDataBlock(): string {
+  const ref = writingConfig.referenceData;
+  const sections: string[] = [];
+
+  sections.push(`Current Year: ${ref.generalYear.currentYear}`);
+  sections.push(`Previous Year: ${ref.generalYear.previousYear}`);
+  sections.push(`IRMAA Look-Back Year: ${ref.generalYear.irmaaLookBackYear}`);
+  sections.push("");
+
+  const formatSection = (title: string, data: Record<string, string>) => {
+    const lines = [`--- ${title} ---`];
+    for (const [key, value] of Object.entries(data)) {
+      lines.push(`${key}: ${value}`);
+    }
+    return lines.join("\n");
+  };
+
+  sections.push(formatSection("Part A Premiums & Costs", ref.partA));
+  sections.push(formatSection("Part B Premiums & Costs", ref.partB));
+  sections.push(formatSection("Part D Costs", ref.partD));
+  sections.push(formatSection("Part C (Medicare Advantage)", ref.partC));
+  sections.push(formatSection("IRMAA Individual Income Thresholds", ref.irmaaIndividual));
+  sections.push(formatSection("IRMAA Joint Income Thresholds", ref.irmaaJoint));
+  sections.push(formatSection("IRMAA Married Filing Separately", ref.irmaaSeparate));
+  sections.push(formatSection("IRMAA Part B Premium Surcharges (Total Monthly)", ref.irmaaPartBPremiums));
+  sections.push(formatSection("IRMAA Part D Surcharges (Additional Monthly)", ref.irmaaPartDSurcharges));
+  sections.push(formatSection("Medigap Plans", ref.medigap));
+  sections.push(formatSection("Extra Help (Low-Income Subsidy)", ref.extraHelp));
+  sections.push(formatSection("Therapy & Other Limits", ref.therapyLimits));
+  sections.push(formatSection("IRS Standard Deductions", ref.irsDeductions));
+
+  return sections.join("\n\n");
 }
