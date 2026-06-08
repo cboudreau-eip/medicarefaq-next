@@ -314,8 +314,8 @@ export default function ZipFormModal({
                       className="flex-1 px-4 py-3.5 text-base font-medium text-slate-900 placeholder:text-slate-400 border-none outline-none bg-transparent"
                       required
                     />
-                    {/* Inline status indicator */}
-                    <span className="px-2">
+                    {/* Inline status indicator — fixed width so it never shifts the button */}
+                    <span className="w-8 flex items-center justify-center flex-shrink-0">
                       {zipStatus === "validating" && (
                         <Loader2 className="w-4 h-4 text-slate-400 animate-spin" />
                       )}
