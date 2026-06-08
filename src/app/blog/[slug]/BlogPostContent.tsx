@@ -37,6 +37,7 @@ import { simpleFAQArticles } from "@/lib/simple-faq-data";
 import { coverageArticles } from "@/lib/coverage-data";
 import { trackPhoneClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
+import EddieProTip from "@/components/EddieProTip";
 /* ─── Markdown Inline Parser ─── */
 // Parses **bold**, *italic*, and [text](url) in a string and returns React nodes
 function parseInline(text: string, keyPrefix: string): React.ReactNode[] {
@@ -298,6 +299,15 @@ function renderSection(section: BlogSectionContent, idx: number) {
           )}
         </figure>
       ) : null;
+    case "eddie_tip":
+      return (
+        <EddieProTip
+          key={idx}
+          tip={section.eddieText || ""}
+          variant={section.eddieVariant || "amber"}
+          label={section.eddieLabel}
+        />
+      );
     default:
       return null;
   }
