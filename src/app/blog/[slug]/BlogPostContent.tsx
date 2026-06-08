@@ -32,12 +32,12 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import type { BlogArticleData, BlogSectionContent } from "@/lib/article-types";
+import EddieProTip from "@/components/EddieProTip";
 import { blogArticles } from "@/lib/blog-articles-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
 import { coverageArticles } from "@/lib/coverage-data";
 import { trackPhoneClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
-import EddieProTip from "@/components/EddieProTip";
 /* ─── Markdown Inline Parser ─── */
 // Parses **bold**, *italic*, and [text](url) in a string and returns React nodes
 function parseInline(text: string, keyPrefix: string): React.ReactNode[] {
@@ -299,14 +299,11 @@ function renderSection(section: BlogSectionContent, idx: number) {
           )}
         </figure>
       ) : null;
-    case "eddie_tip":
+    case "eddie-pro-tip":
       return (
-        <EddieProTip
-          key={idx}
-          tip={section.eddieText || ""}
-          variant={section.eddieVariant || "amber"}
-          label={section.eddieLabel}
-        />
+        <div key={idx}>
+          <EddieProTip tip={section.content || section.calloutText || ""} />
+        </div>
       );
     default:
       return null;

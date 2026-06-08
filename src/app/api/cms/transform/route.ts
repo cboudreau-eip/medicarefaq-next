@@ -39,6 +39,13 @@ RULES FOR SECTION TYPE SELECTION:
 
 7. IMAGES: Only include if the source content has image URLs. Never invent image URLs.
 
+8. EDDIE'S PRO TIP: REQUIRED in every article. Include exactly ONE section with type "eddie-pro-tip". This is a personal expert tip from Eddie (a Medicare insurance specialist) written in first person. It should:
+   - Be placed after a key decision point, common mistake, or important concept in the article
+   - Offer practical insider advice that goes beyond the obvious
+   - Be written conversationally in first person ("I always tell people...", "Here is what most people get wrong...", "In my experience...")
+   - Be 2-4 sentences long
+   - Format: { "type": "eddie-pro-tip", "content": "Your tip text here." }
+
 CONTENT GUIDELINES:
 - Never use em dashes. Use commas, semicolons, or "to" for ranges.
 - Convert date ranges like "Jan 1-Mar 31" to "January 1 to March 31"
@@ -60,6 +67,7 @@ Example output:
   { "type": "callout", "calloutType": "info", "calloutTitle": "2026 Part B Costs", "calloutText": "The standard Part B premium is $202.90 per month with a $283 annual deductible. After meeting your deductible, you pay 20% of Medicare-approved amounts." },
   { "type": "table", "title": "", "headers": ["Cost Type", "2026 Amount"], "rows": [["Monthly Premium", "$202.90"], ["Annual Deductible", "$283"], ["Coinsurance", "20%"]], "footnote": "Higher-income beneficiaries pay more through IRMAA surcharges." },
   { "type": "list", "ordered": false, "items": ["Doctor office visits", "Outpatient surgery", "Durable medical equipment", "Preventive services (many at $0)"] },
+  { "type": "eddie-pro-tip", "content": "I always tell people to check their Part B premium notice carefully each November. If your income dropped due to retirement or a life event, you can appeal the IRMAA surcharge with Form SSA-44 and potentially save hundreds per month." },
   { "type": "faq", "faqs": [{ "question": "What does Medicare Part B cover?", "answer": "Part B covers medically necessary outpatient services including doctor visits, lab tests, preventive screenings, durable medical equipment, and mental health services." }] }
 ]`;
 

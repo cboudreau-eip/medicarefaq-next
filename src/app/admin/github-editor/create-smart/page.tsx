@@ -323,6 +323,19 @@ function PreviewSection({ section }: { section: BlogSection }) {
         </figure>
       );
 
+    case "eddie-pro-tip":
+      return (
+        <div className="flex items-start gap-3 border border-amber-200 bg-amber-50 rounded-xl px-4 py-3 my-4">
+          <div className="flex-shrink-0 w-10 h-10 rounded-full overflow-hidden border-2 border-amber-400 bg-white">
+            <img src="/eddie_eagle_arms_transparent.png" alt="Eddie" className="w-full h-full object-cover object-top scale-110" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <span className="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-200 px-2 py-0.5 rounded-full">💡 Eddie&apos;s Pro Tip</span>
+            <p className="text-sm text-slate-800 mt-1 leading-relaxed">{section.content || section.calloutText || ""}</p>
+          </div>
+        </div>
+      );
+
     default:
       return null;
   }
@@ -566,6 +579,7 @@ function SmartCreatePageInner() {
           case "list": return (s.items || []).map((item) => `- ${item}`).join("\n");
           case "callout": case "warning": case "info": case "tip": case "success": case "note": case "error":
             return `${s.calloutTitle || ""}: ${s.calloutText || ""}`;
+          case "eddie-pro-tip": return s.content || "";
           case "faq": return (s.faqs || []).map((faq) => `Q: ${faq.question}\nA: ${faq.answer}`).join("\n");
           default: return "";
         }
