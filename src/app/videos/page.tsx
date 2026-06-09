@@ -16,8 +16,38 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  const pageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Medicare Videos | Watch & Learn about Medicare",
+    description: "Watch Medicare educational videos from MedicareFAQ. Our video library covers Medicare basics, plan comparisons, enrollment tips, and more.",
+    url: "https://www.medicarefaq.com/videos/",
+    publisher: {
+      "@type": "Organization",
+      name: "MedicareFAQ",
+      logo: { "@type": "ImageObject", url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png" },
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicarefaq.com/" },
+      { "@type": "ListItem", position: 2, name: "Videos" },
+    ],
+  };
+
   return (
     <SiteLayout>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Videos />
     </SiteLayout>
   );
