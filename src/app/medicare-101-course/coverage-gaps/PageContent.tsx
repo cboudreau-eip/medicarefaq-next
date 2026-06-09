@@ -1,6 +1,7 @@
 "use client";
 import CourseLayout from "@/components/CourseLayout";
 import EddieProTip from "@/components/EddieProTip";
+import CoverageGapCalculator from "@/components/CoverageGapCalculator";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
 import { AlertTriangle, DollarSign, XCircle, TrendingUp } from "lucide-react";
 
@@ -157,6 +158,9 @@ export default function PageContent() {
           </table>
         </div>
       </div>
+
+      {/* Interactive Calculator */}
+      <CoverageGapCalculator />
 
       {/* Eddie Pro Tip */}
       <EddieProTip
