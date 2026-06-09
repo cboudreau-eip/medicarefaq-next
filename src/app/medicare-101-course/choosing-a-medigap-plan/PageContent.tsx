@@ -1,9 +1,11 @@
 "use client";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import CourseLayout from "@/components/CourseLayout";
 import EddieProTip from "@/components/EddieProTip";
 import ZipFormModal from "@/components/ZipFormModal";
 import { MEDICARE_COSTS } from "@/lib/medicare-costs";
+import { getCourseProfile, type CourseUserProfile } from "@/components/CourseOnboarding";
 import {
   CheckCircle2,
   XCircle,
@@ -16,7 +18,21 @@ import {
 } from "lucide-react";
 import { trackPhoneClick } from "@/lib/analytics";
 
+function getLesson6Cta(profile: CourseUserProfile | null) {
+  if (profile?.situation === "turning-65") {
+    return { heading: "See What Plan G and Plan N Cost in Your Area", buttonLabel: "See My Rates" };
+  }
+  if (profile?.situation === "on-medicare" && profile.hasPlan === "yes") {
+    return { heading: "Want to Compare Your Current Plan to What Is Available?", buttonLabel: "Compare Options" };
+  }
+  return { heading: "Find the Top Carriers in Your State", buttonLabel: "Get Personalized Rates" };
+}
+
 export default function PageContent() {
+  const [profile, setProfile] = useState<CourseUserProfile | null>(null);
+  useEffect(() => { setProfile(getCourseProfile()); }, []);
+  const cta = getLesson6Cta(profile);
+
   return (
     <CourseLayout currentLesson={6}>
       <p className="text-lg text-slate-600 mb-10 leading-relaxed">
@@ -158,7 +174,7 @@ export default function PageContent() {
       {/* CTA - Compare Plans */}
       <div className="my-10 p-6 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white text-center">
         <Search className="w-8 h-8 text-teal-400 mx-auto mb-3" />
-        <h3 className="text-xl font-bold mb-2">Find the Top Carriers in Your State</h3>
+        <h3 className="text-xl font-bold mb-2">{cta.heading}</h3>
         <p className="text-slate-300 mb-5 text-sm max-w-lg mx-auto">
           Rates vary significantly by ZIP code. Enter yours to see personalized quotes from top-rated
           carriers in your area.
@@ -173,7 +189,7 @@ export default function PageContent() {
             buttonLabel="Compare Plans"
             trigger={
               <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                Get Personalized Rates <ArrowRight className="w-4 h-4" />
+                {cta.buttonLabel} <ArrowRight className="w-4 h-4" />
               </button>
             }
           />

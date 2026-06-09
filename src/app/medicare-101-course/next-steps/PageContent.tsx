@@ -1,9 +1,11 @@
 "use client";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import CourseLayout from "@/components/CourseLayout";
 import EddieProTip from "@/components/EddieProTip";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
+import { getCourseProfile, type CourseUserProfile } from "@/components/CourseOnboarding";
 import {
   ArrowRight,
   Phone,
@@ -14,18 +16,82 @@ import {
   Star,
   Clock,
   MapPin,
+  Sparkles,
 } from "lucide-react";
 
+/** Determine which action plan section is "primary" for this user */
+function getPrimarySection(profile: CourseUserProfile | null): "turning-65" | "on-medicare" | "switching" {
+  if (!profile) return "turning-65"; // default
+  if (profile.situation === "turning-65" || profile.situation === "has-plan") return "turning-65";
+  if (profile.situation === "on-medicare" && profile.hasPlan === "yes") return "switching";
+  return "on-medicare";
+}
+
+/** Get personalized CTA text based on profile */
+function getCtaText(profile: CourseUserProfile | null) {
+  const primary = getPrimarySection(profile);
+  switch (primary) {
+    case "turning-65":
+      return {
+        heading: "Ready to Compare Plans Before Your OEP Starts?",
+        subtext: "Enter your ZIP code to see Medigap rates from top carriers in your area. Lock in your best rate during your Open Enrollment Period.",
+        buttonLabel: "See My Rates",
+      };
+    case "on-medicare":
+      return {
+        heading: "Ready to See What Supplemental Coverage Costs?",
+        subtext: "Enter your ZIP code to see Medigap rates in your area. A licensed agent can help you navigate underwriting options.",
+        buttonLabel: "Check My Options",
+      };
+    case "switching":
+      return {
+        heading: "Thinking About Switching Plans?",
+        subtext: "Enter your ZIP code to compare Medigap rates. A licensed agent can assess whether switching makes sense for your situation.",
+        buttonLabel: "Explore My Options",
+      };
+  }
+}
+
 export default function PageContent() {
+  const [profile, setProfile] = useState<CourseUserProfile | null>(null);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setProfile(getCourseProfile());
+    setLoaded(true);
+  }, []);
+
+  const primarySection = getPrimarySection(profile);
+  const cta = getCtaText(profile);
+
   return (
     <CourseLayout currentLesson={7}>
-      <p className="text-lg text-slate-600 mb-10 leading-relaxed">
+      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
         Congratulations — you now understand Medicare better than 90% of people turning 65. This final
         lesson gives you a clear action plan based on where you are in your Medicare journey.
       </p>
 
+      {/* Personalization indicator */}
+      {loaded && profile && (
+        <div className="mb-8 p-3 bg-teal-50 border border-teal-200 rounded-xl flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-teal-600 shrink-0" />
+          <p className="text-sm text-teal-800">
+            <span className="font-semibold">Personalized for you</span> — We have highlighted the section most relevant to your situation below.
+          </p>
+        </div>
+      )}
+
       {/* Action Plan: Turning 65 */}
-      <div className="mb-10 p-6 bg-blue-50 border-2 border-blue-200 rounded-2xl">
+      <div className={`mb-10 p-6 rounded-2xl border-2 transition-all ${
+        primarySection === "turning-65"
+          ? "bg-blue-50 border-blue-400 ring-2 ring-blue-200"
+          : "bg-blue-50/50 border-blue-200 opacity-75"
+      }`}>
+        {primarySection === "turning-65" && (
+          <div className="mb-3 inline-flex items-center gap-1.5 bg-blue-700 text-white text-xs font-bold px-2.5 py-1 rounded-full">
+            <Star className="w-3 h-3" /> YOUR ACTION PLAN
+          </div>
+        )}
         <div className="flex items-center gap-2 mb-4">
           <Calendar className="w-5 h-5 text-blue-700" />
           <h2 className="text-xl font-bold text-blue-900" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -51,7 +117,16 @@ export default function PageContent() {
       </div>
 
       {/* Action Plan: Already on Medicare */}
-      <div className="mb-10 p-6 bg-amber-50 border-2 border-amber-200 rounded-2xl">
+      <div className={`mb-10 p-6 rounded-2xl border-2 transition-all ${
+        primarySection === "on-medicare"
+          ? "bg-amber-50 border-amber-400 ring-2 ring-amber-200"
+          : "bg-amber-50/50 border-amber-200 opacity-75"
+      }`}>
+        {primarySection === "on-medicare" && (
+          <div className="mb-3 inline-flex items-center gap-1.5 bg-amber-700 text-white text-xs font-bold px-2.5 py-1 rounded-full">
+            <Star className="w-3 h-3" /> YOUR ACTION PLAN
+          </div>
+        )}
         <div className="flex items-center gap-2 mb-4">
           <Shield className="w-5 h-5 text-amber-700" />
           <h2 className="text-xl font-bold text-amber-900" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -76,7 +151,16 @@ export default function PageContent() {
       </div>
 
       {/* Action Plan: On Advantage, considering switch */}
-      <div className="mb-10 p-6 bg-purple-50 border-2 border-purple-200 rounded-2xl">
+      <div className={`mb-10 p-6 rounded-2xl border-2 transition-all ${
+        primarySection === "switching"
+          ? "bg-purple-50 border-purple-400 ring-2 ring-purple-200"
+          : "bg-purple-50/50 border-purple-200 opacity-75"
+      }`}>
+        {primarySection === "switching" && (
+          <div className="mb-3 inline-flex items-center gap-1.5 bg-purple-700 text-white text-xs font-bold px-2.5 py-1 rounded-full">
+            <Star className="w-3 h-3" /> YOUR ACTION PLAN
+          </div>
+        )}
         <div className="flex items-center gap-2 mb-4">
           <Clock className="w-5 h-5 text-purple-700" />
           <h2 className="text-xl font-bold text-purple-900" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -142,13 +226,12 @@ export default function PageContent() {
         }
       />
 
-      {/* Primary CTA */}
+      {/* Primary CTA — personalized */}
       <div className="my-10 p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white text-center">
         <CheckCircle2 className="w-10 h-10 text-teal-400 mx-auto mb-4" />
-        <h3 className="text-2xl font-bold mb-2">Ready to Get Covered?</h3>
+        <h3 className="text-2xl font-bold mb-2">{cta.heading}</h3>
         <p className="text-slate-300 mb-6 max-w-lg mx-auto">
-          Enter your ZIP code to see personalized Medigap rates from top carriers in your area.
-          Free. No obligation. No pressure. Just answers.
+          {cta.subtext}
         </p>
         <div className="flex flex-wrap gap-3 justify-center mb-6">
           <ZipFormModal
@@ -160,7 +243,7 @@ export default function PageContent() {
             buttonLabel="Compare Plans"
             trigger={
               <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-lg">
-                Get Personalized Rates <ArrowRight className="w-5 h-5" />
+                {cta.buttonLabel} <ArrowRight className="w-5 h-5" />
               </button>
             }
           />

@@ -2,8 +2,12 @@
 /**
  * Medicare 101 Course — Index / Overview Page
  * Route: /medicare-101-course/
+ *
+ * Shows onboarding questions on first visit, then the course overview.
  */
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   BookOpen,
   Clock,
@@ -18,6 +22,7 @@ import {
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
 import { COURSE_LESSONS } from "@/components/CourseLayout";
+import CourseOnboarding, { getCourseProfile } from "@/components/CourseOnboarding";
 
 const LESSON_DESCRIPTIONS = [
   "Understand what Medicare is, what it costs, and the two paths to coverage.",
@@ -30,6 +35,33 @@ const LESSON_DESCRIPTIONS = [
 ];
 
 export default function PageContent() {
+  const router = useRouter();
+  const [showOnboarding, setShowOnboarding] = useState(false);
+  const [checked, setChecked] = useState(false);
+
+  useEffect(() => {
+    // Check if user has already completed onboarding
+    const profile = getCourseProfile();
+    if (!profile) {
+      setShowOnboarding(true);
+    }
+    setChecked(true);
+  }, []);
+
+  // Show nothing until we've checked localStorage (prevents flash)
+  if (!checked) return null;
+
+  // Show onboarding if user hasn't completed it
+  if (showOnboarding) {
+    return (
+      <CourseOnboarding
+        onComplete={() => {
+          setShowOnboarding(false);
+        }}
+      />
+    );
+  }
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}

@@ -6,6 +6,7 @@ import { getStoredScores, resetScores, type QuizScores } from "@/components/Cour
 import { COURSE_LESSONS } from "@/components/CourseLayout";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
+import { getCourseProfile, clearCourseProfile, type CourseUserProfile } from "@/components/CourseOnboarding";
 import {
   Trophy,
   CheckCircle2,
@@ -17,13 +18,52 @@ import {
   Star,
 } from "lucide-react";
 
+/** Get personalized CTA text based on profile */
+function getResultsCta(profile: CourseUserProfile | null) {
+  if (!profile) {
+    return {
+      heading: "Ready to Put Your Knowledge to Work?",
+      subtext: "You understand Medicare. Now let a licensed agent help you find the best plan and rate for your specific situation. Free, no obligation.",
+      buttonLabel: "Get Personalized Rates",
+    };
+  }
+  switch (profile.situation) {
+    case "turning-65":
+      return {
+        heading: "Ready to Lock In Your Best Rate?",
+        subtext: "Your Open Enrollment Period is the best time to get Medigap coverage — no health questions, guaranteed acceptance. See rates from top carriers in your ZIP code.",
+        buttonLabel: "See My OEP Rates",
+      };
+    case "on-medicare":
+      return profile.hasPlan === "yes"
+        ? {
+            heading: "Want to See If You Can Save?",
+            subtext: "Rates change every year. A licensed agent can compare your current plan to what is available now and help you switch if it makes sense.",
+            buttonLabel: "Compare My Options",
+          }
+        : {
+            heading: "Ready to Get Supplemental Coverage?",
+            subtext: "A licensed agent can assess your health history and find the best path to Medigap or Advantage coverage. Free, no obligation.",
+            buttonLabel: "Check My Options",
+          };
+    case "has-plan":
+      return {
+        heading: "Ready to Plan Your Medicare Transition?",
+        subtext: "When you leave employer coverage, you will get a guaranteed issue window for Medigap. Let a licensed agent help you plan the timing and pick the right plan.",
+        buttonLabel: "Get My Transition Plan",
+      };
+  }
+}
+
 export default function PageContent() {
   const [scores, setScores] = useState<QuizScores | null>(null);
+  const [profile, setProfile] = useState<CourseUserProfile | null>(null);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
     setScores(getStoredScores());
+    setProfile(getCourseProfile());
   }, []);
 
   if (!mounted) {
@@ -46,10 +86,12 @@ export default function PageContent() {
   const completedLessons = Object.keys(scores || {}).length;
   const allComplete = completedLessons === 7;
   const grade = getGrade(totalCorrect, TOTAL_QUESTIONS);
+  const cta = getResultsCta(profile);
 
   const handleRetake = () => {
     resetScores();
-    window.location.href = "/medicare-101-course/what-is-medicare";
+    clearCourseProfile();
+    window.location.href = "/medicare-101-course";
   };
 
   return (
@@ -191,13 +233,12 @@ export default function PageContent() {
             </Link>
           </div>
 
-          {/* CTA */}
+          {/* CTA — personalized */}
           <div className="p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white text-center">
             <CheckCircle2 className="w-10 h-10 text-teal-400 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-2">Ready to Put Your Knowledge to Work?</h3>
+            <h3 className="text-2xl font-bold mb-2">{cta.heading}</h3>
             <p className="text-slate-300 mb-6 max-w-lg mx-auto">
-              You understand Medicare. Now let a licensed agent help you find the best plan and rate
-              for your specific situation. Free, no obligation.
+              {cta.subtext}
             </p>
             <div className="flex flex-wrap gap-3 justify-center mb-5">
               <ZipFormModal
@@ -209,7 +250,7 @@ export default function PageContent() {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-lg">
-                    Get Personalized Rates <ArrowRight className="w-5 h-5" />
+                    {cta.buttonLabel} <ArrowRight className="w-5 h-5" />
                   </button>
                 }
               />
