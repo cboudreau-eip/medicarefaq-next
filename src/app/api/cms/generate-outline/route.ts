@@ -242,6 +242,23 @@ BRAND VOICE REQUIREMENTS FOR OUTLINE:
       );
     }
 
+    // Normalize sections to ensure all required fields exist
+    outline.sections = outline.sections.map((s, i) => ({
+      id: s.id ?? `s${i + 1}`,
+      heading: s.heading ?? "Untitled Section",
+      type: s.type ?? "h2",
+      points: Array.isArray(s.points) ? s.points : [],
+      targetWordCount: typeof s.targetWordCount === "number" ? s.targetWordCount : 200,
+      subSections: Array.isArray(s.subSections)
+        ? s.subSections.map((sub, j) => ({
+            id: sub.id ?? `${s.id ?? `s${i + 1}`}-sub${j + 1}`,
+            heading: sub.heading ?? "Sub-section",
+            type: "h3" as const,
+            points: Array.isArray(sub.points) ? sub.points : [],
+          }))
+        : [],
+    }));
+
     return NextResponse.json({
       success: true,
       outline,

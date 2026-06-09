@@ -144,11 +144,30 @@ function CreateFromKeywordInner() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Outline generation failed");
 
-      setOutline(data.outline);
+      // Normalize outline data defensively before setting state
+      const normalizedOutline: GeneratedOutline = {
+        title: data.outline.title ?? "Untitled Article",
+        sections: (data.outline.sections ?? []).map((s: OutlineSection, i: number) => ({
+          id: s.id ?? `s${i + 1}`,
+          heading: s.heading ?? "Untitled Section",
+          type: s.type ?? "h2",
+          points: Array.isArray(s.points) ? s.points : [],
+          targetWordCount: typeof s.targetWordCount === "number" ? s.targetWordCount : 200,
+          subSections: Array.isArray(s.subSections)
+            ? s.subSections.map((sub: OutlineSubSection, j: number) => ({
+                id: sub.id ?? `${s.id ?? `s${i + 1}`}-sub${j + 1}`,
+                heading: sub.heading ?? "Sub-section",
+                type: "h3" as const,
+                points: Array.isArray(sub.points) ? sub.points : [],
+              }))
+            : [],
+        })),
+      };
+      setOutline(normalizedOutline);
       setOutlineSettings(data.settings);
       setStep("review");
       // Expand all sections by default
-      setExpandedSections(new Set(data.outline.sections.map((s: OutlineSection) => s.id)));
+      setExpandedSections(new Set(normalizedOutline.sections.map((s) => s.id)));
     } catch (err) {
       setError(String(err));
     } finally {
