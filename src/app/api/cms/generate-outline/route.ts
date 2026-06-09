@@ -204,15 +204,31 @@ BRAND VOICE REQUIREMENTS FOR OUTLINE:
     const data = await response.json();
     const rawOutput = data?.choices?.[0]?.message?.content ?? "";
 
-    // Parse JSON output
+    // Parse JSON output — robust parser that handles markdown fences, extra text, etc.
     let outline: GeneratedOutline;
     try {
-      const cleaned = rawOutput
-        .replace(/^```json?\n?/m, "")
-        .replace(/\n?```$/m, "")
+      // Strip markdown code fences (```json ... ``` or ``` ... ```)
+      let cleaned = rawOutput
+        .replace(/^```(?:json)?\s*/im, "")
+        .replace(/\s*```\s*$/im, "")
         .trim();
+
+      // If there's still non-JSON text before the first '{', strip it
+      const firstBrace = cleaned.indexOf("{");
+      if (firstBrace > 0) {
+        cleaned = cleaned.slice(firstBrace);
+      }
+
+      // If there's trailing text after the last '}', strip it
+      const lastBrace = cleaned.lastIndexOf("}");
+      if (lastBrace !== -1 && lastBrace < cleaned.length - 1) {
+        cleaned = cleaned.slice(0, lastBrace + 1);
+      }
+
       outline = JSON.parse(cleaned);
-    } catch {
+    } catch (parseErr) {
+      console.error("[CMS generate-outline] JSON parse error:", parseErr);
+      console.error("[CMS generate-outline] Raw output:", rawOutput.slice(0, 500));
       return NextResponse.json(
         { error: "Failed to parse outline JSON", rawOutput },
         { status: 422 }
