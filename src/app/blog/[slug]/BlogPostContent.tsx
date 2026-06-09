@@ -299,12 +299,17 @@ function renderSection(section: BlogSectionContent, idx: number) {
           )}
         </figure>
       ) : null;
-    case "eddie-pro-tip":
+    case "eddie-pro-tip": {
+      const tipText = section.content || section.calloutText || "";
+      const tipContent = tipText
+        ? <>{parseInline(tipText, `tip-${idx}`)}</>
+        : null;
       return (
         <div key={idx}>
-          <EddieProTip tip={section.content || section.calloutText || ""} />
+          <EddieProTip tip={tipContent ?? ""} />
         </div>
       );
+    }
     default:
       return null;
   }
