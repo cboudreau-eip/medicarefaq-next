@@ -114,6 +114,28 @@ function parseImageAlt(block: string): string {
 }
 
 /**
+ * Extract customSchema array as raw string.
+ */
+function parseCustomSchema(block: string): string {
+  const idx = block.indexOf("customSchema:");
+  if (idx === -1) return "";
+  const arrStart = block.indexOf("[", idx);
+  if (arrStart === -1) return "";
+
+  let depth = 0;
+  let i = arrStart;
+  while (i < block.length) {
+    if (block[i] === "[") depth++;
+    else if (block[i] === "]") {
+      depth--;
+      if (depth === 0) break;
+    }
+    i++;
+  }
+  return block.slice(arrStart, i + 1);
+}
+
+/**
  * Extract sections array as raw JSON-parseable string.
  * We find "sections: [" and extract the full array.
  */
@@ -167,6 +189,7 @@ export async function GET(req: NextRequest) {
     const image = parseImage(block);
     const imageAlt = parseImageAlt(block);
     const sectionsRaw = parseSectionsRaw(block);
+    const customSchemaRaw = parseCustomSchema(block);
 
     // Try to parse sections as JSON (they're stored as JS object literals - attempt best-effort)
     let sections: unknown[] = [];
@@ -190,6 +213,7 @@ export async function GET(req: NextRequest) {
       seo,
       sections,
       sectionsRaw,
+      customSchemaRaw,
       fileSha: sha,
       filePath,
     });

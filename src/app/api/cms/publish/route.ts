@@ -72,6 +72,7 @@ function patchArticleInSource(
     image?: string;
     imageAlt?: string;
     sectionsRaw?: string;
+    customSchemaRaw?: string;
   }
 ): string {
   // Find the slug entry
@@ -208,6 +209,50 @@ function patchArticleInSource(
     }
   }
 
+  // Patch customSchema if provided
+  if (updates.customSchemaRaw !== undefined) {
+    const csIdx = block.indexOf("customSchema:");
+    if (csIdx !== -1) {
+      // Replace existing customSchema array
+      const csArrStart = block.indexOf("[", csIdx);
+      if (csArrStart !== -1) {
+        let depth2 = 0;
+        let k = csArrStart;
+        while (k < block.length) {
+          if (block[k] === "[") depth2++;
+          else if (block[k] === "]") {
+            depth2--;
+            if (depth2 === 0) break;
+          }
+          k++;
+        }
+        if (updates.customSchemaRaw) {
+          block = block.slice(0, csArrStart) + updates.customSchemaRaw + block.slice(k + 1);
+        } else {
+          // Remove the customSchema field entirely if empty
+          // Find the start of the line containing customSchema
+          let lineStart = csIdx;
+          while (lineStart > 0 && block[lineStart - 1] !== '\n') lineStart--;
+          let lineEnd = k + 1;
+          // Skip trailing comma and whitespace
+          while (lineEnd < block.length && (block[lineEnd] === ',' || block[lineEnd] === '\n' || block[lineEnd] === ' ')) lineEnd++;
+          block = block.slice(0, lineStart) + block.slice(lineEnd);
+        }
+      }
+    } else if (updates.customSchemaRaw) {
+      // Insert customSchema before the closing brace of the article
+      // Find the last closing brace
+      const lastBrace = block.lastIndexOf("}");
+      const insertPoint = block.lastIndexOf(",", lastBrace);
+      if (insertPoint !== -1) {
+        block = block.slice(0, insertPoint + 1) + `\n    customSchema: ${updates.customSchemaRaw},` + block.slice(insertPoint + 1);
+      } else {
+        // Insert before the final closing brace with a comma
+        block = block.slice(0, lastBrace) + `,\n    customSchema: ${updates.customSchemaRaw},\n  ` + block.slice(lastBrace);
+      }
+    }
+  }
+
   return src.slice(0, braceStart) + block + src.slice(blockEnd);
 }
 
@@ -218,7 +263,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { slug, type, title, seoTitle, seoDescription, ogImage, image, imageAlt, sectionsRaw, newSlug } = body;
+    const { slug, type, title, seoTitle, seoDescription, ogImage, image, imageAlt, sectionsRaw, customSchemaRaw, newSlug } = body;
 
     if (!slug || !type) {
       return NextResponse.json({ error: "slug and type required" }, { status: 400 });
@@ -242,6 +287,7 @@ export async function POST(req: NextRequest) {
       image,
       imageAlt,
       sectionsRaw,
+      customSchemaRaw,
     });
 
     if (patchedSrc === currentSrc) {

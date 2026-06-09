@@ -262,4 +262,7 @@ export interface BlogArticleData {
 
   faqs?: FAQItemData[];
   relatedSlugs?: string[];
+
+  // Custom JSON-LD schema (additive — rendered alongside auto-generated schema)
+  customSchema?: object[];
 }

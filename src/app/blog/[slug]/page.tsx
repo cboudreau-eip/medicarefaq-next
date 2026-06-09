@@ -134,9 +134,12 @@ export default async function BlogPostPage({
 
   const schemas = buildBlogSchema(article, slug);
 
+  // Combine auto-generated schema with any custom schema (additive)
+  const allSchemas = [...schemas, ...(article.customSchema || [])];
+
   return (
     <SiteLayout>
-      {schemas.map((schema, i) => (
+      {allSchemas.map((schema, i) => (
         <script
           key={i}
           type="application/ld+json"

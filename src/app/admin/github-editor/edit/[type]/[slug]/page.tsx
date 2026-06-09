@@ -35,6 +35,7 @@ interface ArticleDetail {
     canonical: string;
   };
   sectionsRaw: string;
+  customSchemaRaw?: string;
   filePath: string;
 }
 
@@ -62,6 +63,9 @@ export default function EditArticlePage() {
   const [editImageAlt, setEditImageAlt] = useState("");
   const [editSlug, setEditSlug] = useState("");
   const [editSectionsRaw, setEditSectionsRaw] = useState("");
+  const [editCustomSchema, setEditCustomSchema] = useState("");
+  const [showSchemaPanel, setShowSchemaPanel] = useState(false);
+  const [schemaError, setSchemaError] = useState("");
 
   // Save state
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
@@ -100,6 +104,7 @@ export default function EditArticlePage() {
       setEditImage(data.image ?? "");
       setEditImageAlt(data.imageAlt ?? "");
       setEditSectionsRaw(data.sectionsRaw ?? "");
+      setEditCustomSchema(data.customSchemaRaw ?? "");
     } catch (err) {
       setDetailError(String(err));
     } finally {
@@ -153,6 +158,7 @@ export default function EditArticlePage() {
           image: finalImageUrl,
           imageAlt: editImageAlt,
           sectionsRaw: editSectionsRaw,
+          customSchemaRaw: editCustomSchema || undefined,
         }),
       });
       const data = await res.json();
@@ -583,6 +589,103 @@ export default function EditArticlePage() {
                   className="w-full text-xs font-mono border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-y bg-gray-50"
                   spellCheck={false}
                 />
+              </div>
+
+              {/* Schema (JSON-LD) */}
+              <div className="sketch-section">
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-sm font-semibold text-gray-700 flex items-center gap-2">
+                    <FileText className="w-4 h-4 text-gray-400" />
+                    Schema (JSON-LD)
+                  </h2>
+                  <button
+                    type="button"
+                    onClick={() => setShowSchemaPanel(!showSchemaPanel)}
+                    className="text-xs text-teal-600 hover:text-teal-800 font-medium"
+                  >
+                    {showSchemaPanel ? "Hide" : "Show"}
+                  </button>
+                </div>
+                {showSchemaPanel && (
+                  <div className="space-y-4">
+                    {/* Auto-generated schema preview */}
+                    <div>
+                      <label className="text-xs font-semibold text-gray-500 uppercase tracking-wide block mb-1.5">
+                        Auto-Generated Schema (read-only)
+                      </label>
+                      <p className="text-xs text-gray-400 mb-2">
+                        Article + BreadcrumbList + FAQPage schemas are auto-generated from your article data. These are always output on the page.
+                      </p>
+                      <div className="bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-xs font-mono text-gray-600 max-h-48 overflow-y-auto whitespace-pre-wrap">
+                        {JSON.stringify(
+                          [
+                            {
+                              "@context": "https://schema.org",
+                              "@type": "Article",
+                              headline: editSeoTitle || editTitle,
+                              description: editSeoDesc,
+                              url: `https://medicarefaq-next-nine.vercel.app${articleType === "blog" ? `/blog/${editSlug}/` : `/faqs/${editSlug}/`}`,
+                              datePublished: "(from article data)",
+                              author: { "@type": "Person", name: "(from article data)" },
+                              publisher: { "@type": "Organization", name: "MedicareFAQ" },
+                            },
+                            {
+                              "@context": "https://schema.org",
+                              "@type": "BreadcrumbList",
+                              itemListElement: [
+                                { position: 1, name: "Home" },
+                                { position: 2, name: articleType === "blog" ? "Blog" : "FAQs" },
+                                { position: 3, name: editTitle },
+                              ],
+                            },
+                          ],
+                          null,
+                          2
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Custom schema editor */}
+                    <div>
+                      <label className="text-xs font-semibold text-gray-500 uppercase tracking-wide block mb-1.5">
+                        Custom Schema (additive)
+                      </label>
+                      <p className="text-xs text-gray-400 mb-2">
+                        Add additional JSON-LD schema types (e.g., HowTo, Product, VideoObject). This is rendered alongside the auto-generated schema. Enter a valid JSON array of schema objects.
+                      </p>
+                      <textarea
+                        value={editCustomSchema}
+                        onChange={(e) => {
+                          setEditCustomSchema(e.target.value);
+                          setSchemaError("");
+                          // Validate JSON on change
+                          if (e.target.value.trim()) {
+                            try {
+                              const parsed = JSON.parse(e.target.value);
+                              if (!Array.isArray(parsed)) {
+                                setSchemaError("Must be a JSON array (e.g., [{ ... }])");
+                              }
+                            } catch {
+                              setSchemaError("Invalid JSON");
+                            }
+                          }
+                        }}
+                        rows={12}
+                        className={`w-full text-xs font-mono border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-y bg-gray-50 ${
+                          schemaError ? "border-red-300" : "border-gray-200"
+                        }`}
+                        spellCheck={false}
+                        placeholder={`[\n  {\n    "@context": "https://schema.org",\n    "@type": "HowTo",\n    "name": "How to ...",\n    "step": [...]\n  }\n]`}
+                      />
+                      {schemaError && (
+                        <p className="text-xs text-red-500 mt-1">{schemaError}</p>
+                      )}
+                      {editCustomSchema.trim() && !schemaError && (
+                        <p className="text-xs text-green-600 mt-1">Valid JSON — will be added to page alongside auto-generated schema.</p>
+                      )}
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Revision History */}
