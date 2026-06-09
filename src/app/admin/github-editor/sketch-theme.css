@@ -1,0 +1,270 @@
+/* MediDoodle CMS — Hand-Drawn Design System */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Patrick+Hand&display=swap');
+
+/* ═══ CSS Variables ═══ */
+:root {
+  --sketch-ink: #2b2b2b;
+  --sketch-ink-light: #555555;
+  --sketch-ink-muted: #888888;
+  --sketch-ink-faint: #9a9a9a;
+  --sketch-ink-ghost: #bbbbbb;
+  --sketch-paper: #fdfbf3;
+  --sketch-paper-warm: #fdfcf5;
+  --sketch-white: #ffffff;
+  --sketch-highlight: #ffdd57;
+  --sketch-green: #7ed957;
+  --sketch-red: #c0392b;
+  --sketch-red-bg: #fef2f2;
+}
+
+/* ═══ Paper Backgrounds ═══ */
+.sketch-paper-dots {
+  background-color: var(--sketch-paper);
+  background-image: radial-gradient(rgba(60,60,60,0.13) 1.2px, transparent 1.2px);
+  background-size: 22px 22px;
+}
+
+.sketch-paper-ruled {
+  background-color: var(--sketch-paper-warm);
+  background-image:
+    linear-gradient(to right, rgba(220,80,80,0.18) 0 1px, transparent 1px),
+    repeating-linear-gradient(to bottom, transparent 0 31px, rgba(70,110,170,0.16) 31px 32px);
+  background-position: 56px 0, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+
+/* ═══ Sketch Border Shapes ═══ */
+.sketch-box {
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+
+.sketch-box-alt {
+  border-radius: 15px 225px 15px 255px / 255px 15px 225px 15px;
+}
+
+.sketch-pill {
+  border-radius: 120px 8px 120px 8px / 8px 120px 8px 120px;
+}
+
+/* ═══ Shadows ═══ */
+.sketch-shadow {
+  box-shadow: 5px 5px 0 var(--sketch-ink);
+}
+
+.sketch-shadow-hover:hover {
+  box-shadow: 8px 8px 0 var(--sketch-ink);
+}
+
+.sketch-shadow-sm {
+  box-shadow: 3px 3px 0 var(--sketch-ink);
+}
+
+.sketch-shadow-focus:focus {
+  box-shadow: 3px 3px 0 var(--sketch-ink);
+  outline: none;
+}
+
+/* ═══ Typography ═══ */
+.sketch-font-body {
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+}
+
+.sketch-font-heading {
+  font-family: 'Caveat', cursive;
+}
+
+/* ═══ Marker Highlight ═══ */
+.sketch-marker {
+  background: linear-gradient(180deg, transparent 55%, rgba(255,221,87,0.75) 55%);
+  padding: 0 4px;
+}
+
+/* ═══ Borders ═══ */
+.sketch-border {
+  border: 3px solid var(--sketch-ink);
+}
+
+.sketch-border-md {
+  border: 2.5px solid var(--sketch-ink);
+}
+
+.sketch-border-sm {
+  border: 2px solid var(--sketch-ink);
+}
+
+.sketch-border-dashed {
+  border-style: dashed;
+  border-color: var(--sketch-ink);
+}
+
+.sketch-divider {
+  border-top: 2px dashed var(--sketch-ink-ghost);
+}
+
+/* ═══ Interactive Elements ═══ */
+.sketch-btn {
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+  border: 2.5px solid var(--sketch-ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.sketch-btn:hover {
+  box-shadow: 3px 3px 0 var(--sketch-ink);
+  transform: translateY(-2px);
+}
+
+.sketch-btn:active {
+  box-shadow: 1px 1px 0 var(--sketch-ink);
+  transform: translateY(0);
+}
+
+.sketch-btn-green {
+  background-color: var(--sketch-green);
+  color: var(--sketch-ink);
+  font-weight: bold;
+}
+
+.sketch-btn-yellow {
+  background-color: var(--sketch-highlight);
+  color: var(--sketch-ink);
+}
+
+.sketch-input {
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+  border: 2.5px solid var(--sketch-ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  background: var(--sketch-white);
+  transition: all 0.2s;
+}
+
+.sketch-input:focus {
+  box-shadow: 3px 3px 0 var(--sketch-ink);
+  outline: none;
+}
+
+.sketch-input::placeholder {
+  color: var(--sketch-ink-faint);
+}
+
+/* ═══ Card ═══ */
+.sketch-card {
+  background: var(--sketch-white);
+  border: 3px solid var(--sketch-ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  box-shadow: 5px 5px 0 var(--sketch-ink);
+  transition: all 0.3s;
+}
+
+.sketch-card:hover {
+  box-shadow: 8px 8px 0 var(--sketch-ink);
+  transform: translateY(-6px) rotate(0deg) !important;
+}
+
+/* ═══ Scrollbar Styling ═══ */
+.sketch-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sketch-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sketch-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--sketch-ink-ghost);
+  border-radius: 4px;
+}
+
+.sketch-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--sketch-ink-muted);
+}
+
+/* ═══ Form Section Card (lighter shadow) ═══ */
+.sketch-section {
+  background: var(--sketch-white);
+  border: 3px solid var(--sketch-ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  box-shadow: 4px 4px 0 var(--sketch-ink);
+  padding: 1.25rem;
+}
+
+.sketch-section-sm {
+  background: var(--sketch-white);
+  border: 2.5px solid var(--sketch-ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  box-shadow: 3px 3px 0 var(--sketch-ink);
+  padding: 1rem;
+}
+
+/* ═══ Label ═══ */
+.sketch-label {
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+  font-weight: bold;
+  color: var(--sketch-ink);
+  font-size: 0.875rem;
+}
+
+/* ═══ Textarea ═══ */
+.sketch-textarea {
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+  border: 2.5px solid var(--sketch-ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  background: var(--sketch-white);
+  transition: all 0.2s;
+  resize: vertical;
+}
+
+.sketch-textarea:focus {
+  box-shadow: 3px 3px 0 var(--sketch-ink);
+  outline: none;
+}
+
+.sketch-textarea::placeholder {
+  color: var(--sketch-ink-faint);
+}
+
+/* ═══ Select ═══ */
+.sketch-select {
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+  border: 2.5px solid var(--sketch-ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  background: var(--sketch-white);
+  transition: all 0.2s;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%232b2b2b' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+
+.sketch-select:focus {
+  box-shadow: 3px 3px 0 var(--sketch-ink);
+  outline: none;
+}
+
+/* ═══ Badge ═══ */
+.sketch-badge {
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+  border: 2px solid var(--sketch-ink);
+  border-radius: 120px 8px 120px 8px / 8px 120px 8px 120px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.125rem 0.625rem;
+  display: inline-block;
+}
+
+/* ═══ Sub-header bar ═══ */
+.sketch-subheader {
+  border-bottom: 3px dashed var(--sketch-ink);
+  padding: 0.75rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* ═══ Global page wrapper when inside SketchLayout ═══ */
+.sketch-page-content {
+  font-family: 'Patrick Hand', 'Comic Sans MS', cursive;
+  color: var(--sketch-ink);
+}

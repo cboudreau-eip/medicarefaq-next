@@ -17,7 +17,8 @@ import {
 } from "lucide-react";
 import { useCMSAuth } from "../../../components/use-cms-auth";
 import LoginScreen from "../../../components/login-screen";
-import CMSHeader from "../../../components/cms-header";
+import SketchLayout from "../../../components/sketch-layout";
+import "../../../sketch-theme.css";
 import ImageUpload from "../../../components/image-upload";
 import ArticleHistory from "../../../components/article-history";
 
@@ -205,8 +206,8 @@ export default function EditArticlePage() {
   // Auth loading
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <Loader2 className="w-6 h-6 animate-spin text-teal-600" />
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: "#fdfbf3" }}>
+        <Loader2 className="w-6 h-6 animate-spin text-[#2b2b2b]" />
       </div>
     );
   }
@@ -217,8 +218,7 @@ export default function EditArticlePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <CMSHeader onLogout={logout} />
+    <SketchLayout onLogout={logout}>
 
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-3xl mx-auto px-8 py-8">
@@ -310,7 +310,7 @@ export default function EditArticlePage() {
           {detail && !detailLoading && (
             <div className="space-y-6">
               {/* Article Title & Slug */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <h2 className="text-sm font-semibold text-gray-700 mb-4 flex items-center gap-2">
                   <FileText className="w-4 h-4 text-gray-400" />
                   Article Title
@@ -348,7 +348,7 @@ export default function EditArticlePage() {
               </div>
 
               {/* Featured Image */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <h2 className="text-sm font-semibold text-gray-700 mb-4 flex items-center gap-2">
                   <ImageIcon className="w-4 h-4 text-gray-400" />
                   Featured Image
@@ -425,7 +425,7 @@ export default function EditArticlePage() {
                     <div className="flex-1 border-t border-gray-200"></div>
                   </div>
                   <div>
-                    <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                    <label className="sketch-label block mb-1.5">
                       Image URL
                     </label>
                     <input
@@ -437,7 +437,7 @@ export default function EditArticlePage() {
                     />
                   </div>
                   <div>
-                    <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                    <label className="sketch-label block mb-1.5">
                       Image Alt Text
                     </label>
                     <input
@@ -464,7 +464,7 @@ export default function EditArticlePage() {
               </div>
 
               {/* SEO Fields */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <h2 className="text-sm font-semibold text-gray-700 mb-5 flex items-center gap-2">
                   <Tag className="w-4 h-4 text-gray-400" />
                   SEO & Meta
@@ -536,7 +536,7 @@ export default function EditArticlePage() {
 
                   {/* OG Image */}
                   <div>
-                    <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1.5">
+                    <label className="sketch-label block mb-1.5">
                       OG Image URL
                     </label>
                     <input
@@ -563,7 +563,7 @@ export default function EditArticlePage() {
               </div>
 
               {/* Body Content (raw sections) */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <div className="flex items-center justify-between mb-4">
                   <h2 className="text-sm font-semibold text-gray-700 flex items-center gap-2">
                     <FileText className="w-4 h-4 text-gray-400" />
@@ -690,6 +690,6 @@ export default function EditArticlePage() {
         </div>
       )}
 
-    </div>
+    </SketchLayout>
   );
 }

@@ -1,5 +1,7 @@
 "use client";
 
+import "../sketch-theme.css";
+
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import {
@@ -95,7 +97,7 @@ export default function SitemapViewerPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen sketch-paper-dots sketch-font-body flex flex-col">
       {/* Header */}
       <header className="bg-white border-b border-gray-200 px-6 py-0 shrink-0">
         <div className="flex items-center justify-between h-14">
@@ -157,7 +159,7 @@ export default function SitemapViewerPage() {
                   <strong>{sitemaps.length}</strong> sitemaps.
                 </p>
 
-                <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
+                <div className="sketch-section overflow-hidden shadow-sm">
                   <table className="w-full">
                     <thead>
                       <tr className="bg-blue-600 text-white">
@@ -229,7 +231,7 @@ export default function SitemapViewerPage() {
                 <Loader2 className="w-6 h-6 animate-spin text-teal-600" />
               </div>
             ) : (
-              <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
+              <div className="sketch-section overflow-hidden shadow-sm">
                 <div className="overflow-x-auto">
                   <table className="w-full">
                     <thead>

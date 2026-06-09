@@ -23,7 +23,8 @@ import {
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
-import CMSHeader from "../components/cms-header";
+import SketchLayout from "../components/sketch-layout";
+import "../sketch-theme.css";
 
 // --- Types ---
 
@@ -347,8 +348,8 @@ function CreateFromKeywordInner() {
   // --- Auth states ---
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <Loader2 className="w-6 h-6 animate-spin text-teal-600" />
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: "#fdfbf3" }}>
+        <Loader2 className="w-6 h-6 animate-spin text-[#2b2b2b]" />
       </div>
     );
   }
@@ -362,11 +363,10 @@ function CreateFromKeywordInner() {
     : 0;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <CMSHeader onLogout={logout} />
+    <SketchLayout onLogout={logout}>
 
       {/* Sub-header with step indicator */}
-      <div className="bg-white border-b border-gray-100 px-6 py-3">
+      <div className="sketch-subheader">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Wand2 className="w-4 h-4 text-purple-600" />
@@ -417,10 +417,10 @@ function CreateFromKeywordInner() {
           {step === "configure" && (
             <div className="max-w-2xl mx-auto space-y-5">
               {/* Topic Input */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <div className="space-y-4">
                   <div>
-                    <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">
+                    <label className="sketch-label block mb-2">
                       What do you want to write about? *
                     </label>
                     <input
@@ -437,7 +437,7 @@ function CreateFromKeywordInner() {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">
+                    <label className="sketch-label block mb-2">
                       Target Keyword <span className="text-gray-400 font-normal normal-case">(optional)</span>
                     </label>
                     <input
@@ -455,7 +455,7 @@ function CreateFromKeywordInner() {
               </div>
 
               {/* Quick Settings */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <div className="grid grid-cols-2 gap-4">
                   <div>
                     <label className="block text-xs font-medium text-gray-500 mb-1.5">Content Type</label>
@@ -580,7 +580,7 @@ function CreateFromKeywordInner() {
           {step === "review" && outline && (
             <div className="space-y-5">
               {/* Outline Header */}
-              <div className="bg-white rounded-xl border border-gray-200 p-5">
+              <div className="sketch-section">
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
                     {editingTitle ? (
@@ -649,7 +649,7 @@ function CreateFromKeywordInner() {
                 {outline.sections.map((section, idx) => (
                   <div
                     key={section.id}
-                    className="bg-white rounded-xl border border-gray-200 overflow-hidden"
+                    className="sketch-section overflow-hidden"
                   >
                     {/* Section Header */}
                     <div className="flex items-center gap-2 px-4 py-3 bg-gray-50 border-b border-gray-100">
@@ -790,7 +790,7 @@ function CreateFromKeywordInner() {
               </div>
 
               {/* Bottom Action Bar */}
-              <div className="bg-white rounded-xl border border-gray-200 p-4 flex items-center justify-between sticky bottom-4">
+              <div className="sketch-section p-4 flex items-center justify-between sticky bottom-4">
                 <div className="text-xs text-gray-500">
                   {outline.sections.length} sections &middot; ~{totalWordCount.toLocaleString()} total words
                 </div>
@@ -855,7 +855,7 @@ function CreateFromKeywordInner() {
 
         </div>
       </main>
-    </div>
+    </SketchLayout>
   );
 }
 

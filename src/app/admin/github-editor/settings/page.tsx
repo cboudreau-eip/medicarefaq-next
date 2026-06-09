@@ -1,5 +1,7 @@
 "use client";
 
+import "../sketch-theme.css";
+
 import { writingConfig } from "@/lib/writing-config";
 import {
   Settings,
@@ -73,7 +75,7 @@ export default function SettingsPage() {
   const config = writingConfig;
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen sketch-paper-dots sketch-font-body">
       <div className="max-w-4xl mx-auto px-6 py-10">
         {/* Header */}
         <div className="mb-8">
@@ -82,7 +84,7 @@ export default function SettingsPage() {
               <Settings className="w-5 h-5 text-purple-600" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">
+              <h1 className="text-3xl font-bold text-[#2b2b2b] sketch-font-heading">
                 Writing Config
               </h1>
               <p className="text-sm text-gray-500">

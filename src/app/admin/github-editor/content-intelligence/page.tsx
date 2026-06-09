@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { useCMSAuth } from "../components/use-cms-auth";
-import CMSHeader from "../components/cms-header";
+import SketchLayout from "../components/sketch-layout";
+import "../sketch-theme.css";
 import {
   Lightbulb,
   Search,
@@ -180,8 +181,7 @@ export default function ContentIntelligencePage() {
   const lowCount = suggestions.filter((s) => s.priority === "low").length;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <CMSHeader onLogout={logout} />
+    <SketchLayout onLogout={logout}>
 
       <main className="flex-1 p-6 max-w-6xl mx-auto w-full space-y-8">
         {/* Page Header */}
@@ -545,6 +545,6 @@ export default function ContentIntelligencePage() {
           )}
         </div>
       </main>
-    </div>
+    </SketchLayout>
   );
 }

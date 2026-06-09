@@ -33,7 +33,8 @@ import {
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
-import CMSHeader from "../components/cms-header";
+import SketchLayout from "../components/sketch-layout";
+import "../sketch-theme.css";
 import ImageUpload from "../components/image-upload";
 import { validateContent, ValidationResult } from "@/lib/content-validator";
 
@@ -962,8 +963,8 @@ function SmartCreatePageInner() {
   // --- Auth states ---
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <Loader2 className="w-6 h-6 animate-spin text-teal-600" />
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: "#fdfbf3" }}>
+        <Loader2 className="w-6 h-6 animate-spin text-[#2b2b2b]" />
       </div>
     );
   }
@@ -975,88 +976,85 @@ function SmartCreatePageInner() {
   const hasTransformed = sections !== null;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <CMSHeader onLogout={logout} />
+    <SketchLayout onLogout={logout}>
 
       {/* Sub-header */}
-      <div className="bg-white border-b border-gray-100 px-6 py-3">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <Sparkles className="w-4 h-4 text-purple-600" />
-            <h2 className="text-sm font-semibold text-gray-900">Smart Article Creator</h2>
-            {hasTransformed && (
-              <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">
-                Transformed
-              </span>
+      <div className="sketch-subheader flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <Sparkles className="w-5 h-5 text-[#2b2b2b]" style={{ strokeWidth: 2.4 }} />
+          <h2 className="text-xl font-bold text-[#2b2b2b] sketch-font-heading">
+            <span className="sketch-marker">Smart Create</span>
+          </h2>
+          {hasTransformed && (
+            <span className="sketch-badge bg-[#7ed957]">Transformed</span>
+          )}
+        </div>
+        <div className="flex items-center gap-3">
+          {slug && (
+            <span className="sketch-badge bg-white font-mono text-xs text-[#888888]">
+              /blog/{slug}/
+            </span>
+          )}
+          {draftSavedAt && (
+            <span className="text-xs text-[#888888]">Saved {draftSavedAt}</span>
+          )}
+          <button
+            onClick={handleLoadDraftsList}
+            className="sketch-btn flex items-center gap-1.5 text-sm font-bold px-3 py-2 bg-white text-[#2b2b2b]"
+          >
+            <FolderOpen className="w-3.5 h-3.5" />
+            Drafts
+          </button>
+          <button
+            onClick={handleSaveDraft}
+            disabled={savingDraft || !title.trim()}
+            className="sketch-btn flex items-center gap-1.5 text-sm font-bold px-3 py-2 bg-[#87CEEB] text-[#2b2b2b] disabled:opacity-50"
+          >
+            {savingDraft ? (
+              <Loader2 className="w-3.5 h-3.5 animate-spin" />
+            ) : (
+              <Save className="w-3.5 h-3.5" />
             )}
-          </div>
-          <div className="flex items-center gap-3">
-            {slug && (
-              <span className="text-xs text-gray-400 font-mono bg-gray-100 px-2 py-1 rounded">
-                /blog/{slug}/
-              </span>
-            )}
-            {draftSavedAt && (
-              <span className="text-xs text-gray-400">Saved {draftSavedAt}</span>
-            )}
-            <button
-              onClick={handleLoadDraftsList}
-              className="flex items-center gap-1.5 text-xs font-medium text-gray-600 bg-gray-100 rounded px-2 py-1 hover:bg-gray-200 transition-colors"
-            >
-              <FolderOpen className="w-3 h-3" />
-              Drafts
-            </button>
-            <button
-              onClick={handleSaveDraft}
-              disabled={savingDraft || !title.trim()}
-              className="flex items-center gap-1.5 text-xs font-medium text-blue-700 bg-blue-50 rounded px-2 py-1 hover:bg-blue-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {savingDraft ? (
-                <Loader2 className="w-3 h-3 animate-spin" />
-              ) : (
-                <Save className="w-3 h-3" />
-              )}
-              Save Draft
-            </button>
-            {hasTransformed && (
-              <>
-                <button
-                  onClick={handleFullPreview}
-                  className="flex items-center gap-1.5 text-xs font-medium text-gray-700 bg-gray-100 rounded px-2 py-1 hover:bg-gray-200 transition-colors"
-                >
-                  <ExternalLink className="w-3 h-3" />
-                  Full Preview
-                </button>
-                <button
-                  onClick={handlePublish}
-                  disabled={publishing || !title || !slug}
-                  className="flex items-center gap-1.5 text-xs font-semibold bg-teal-600 text-white rounded px-3 py-1 hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {publishing ? (
-                    <>
-                      <Loader2 className="w-3 h-3 animate-spin" />
-                      Publishing...
-                    </>
-                  ) : (
-                    <>
-                      <Send className="w-3 h-3" />
-                      Publish to GitHub
-                    </>
-                  )}
-                </button>
-              </>
-            )}
-          </div>
+            Save Draft
+          </button>
+          {hasTransformed && (
+            <>
+              <button
+                onClick={handleFullPreview}
+                className="sketch-btn flex items-center gap-1.5 text-sm font-bold px-3 py-2 bg-white text-[#2b2b2b]"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                Preview
+              </button>
+              <button
+                onClick={handlePublish}
+                disabled={publishing || !title || !slug}
+                className="sketch-btn sketch-btn-green flex items-center gap-1.5 text-sm px-3 py-2 disabled:opacity-50"
+              >
+                {publishing ? (
+                  <>
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    Publishing...
+                  </>
+                ) : (
+                  <>
+                    <Send className="w-3.5 h-3.5" />
+                    Publish
+                  </>
+                )}
+              </button>
+            </>
+          )}
         </div>
       </div>
 
       {/* Drafts Panel Modal */}
       {showDraftsPanel && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-          <div className="bg-white rounded-xl shadow-2xl w-full max-w-lg mx-4 max-h-[70vh] flex flex-col">
-            <div className="flex items-center justify-between p-5 border-b border-gray-200">
-              <h3 className="text-base font-semibold text-gray-900 flex items-center gap-2">
-                <FolderOpen className="w-5 h-5 text-gray-500" />
+          <div className="bg-white sketch-border sketch-box shadow-[6px_6px_0_#2b2b2b] w-full max-w-lg mx-4 max-h-[70vh] flex flex-col">
+            <div className="flex items-center justify-between p-5" style={{ borderBottom: "3px dashed #2b2b2b" }}>
+              <h3 className="text-lg font-bold text-[#2b2b2b] sketch-font-heading flex items-center gap-2">
+                <FolderOpen className="w-5 h-5 text-[#2b2b2b]" />
                 Saved Drafts
               </h3>
               <button
@@ -1128,17 +1126,17 @@ function SmartCreatePageInner() {
 
       {/* Status Banners */}
       {error && (
-        <div className="max-w-7xl mx-auto px-6 mt-4">
-          <div className="flex items-center gap-2 text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg px-4 py-3">
+        <div className="px-6 mt-4">
+          <div className="flex items-center gap-2 text-sm text-[#c0392b] bg-[#fef2f2] sketch-border-sm sketch-box px-4 py-3" style={{ borderColor: "#c0392b" }}>
             <AlertCircle className="w-4 h-4 shrink-0" />
             <span>{error}</span>
-            <button onClick={() => setError("")} className="ml-auto text-red-400 hover:text-red-600">&times;</button>
+            <button onClick={() => setError("")} className="ml-auto text-[#c0392b] hover:text-[#a93226]">&times;</button>
           </div>
         </div>
       )}
       {success && (
-        <div className="max-w-7xl mx-auto px-6 mt-4">
-          <div className="flex items-center gap-2 text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg px-4 py-3">
+        <div className="px-6 mt-4">
+          <div className="flex items-center gap-2 text-sm text-[#2b2b2b] bg-[#e8f8e0] sketch-border-sm sketch-box px-4 py-3" style={{ borderColor: "#7ed957" }}>
             <CheckCircle2 className="w-4 h-4 shrink-0" />
             <span>{success}</span>
           </div>
@@ -1147,26 +1145,26 @@ function SmartCreatePageInner() {
 
       {/* Main Content */}
       <main className="flex-1 overflow-y-auto">
-        <div className="max-w-7xl mx-auto px-6 py-6">
+        <div className="px-6 py-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* LEFT PANEL — Input */}
             <div className="space-y-5">
               {/* Title */}
-              <div className="bg-white rounded-xl border border-gray-200 p-5">
-                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">
+              <div className="sketch-section">
+                <label className="sketch-label block mb-2">
                   Article Title *
                 </label>
                 <input
                   type="text"
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
-                  className="w-full text-base font-semibold border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                  className="w-full text-base font-semibold sketch-input px-4 py-3"
                   placeholder="Enter your article title..."
                 />
               </div>
 
               {/* Raw Content Input */}
-              <div className="bg-white rounded-xl border border-gray-200 p-5">
+              <div className="sketch-section">
                 <div className="flex items-center justify-between mb-2">
                   <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide flex items-center gap-2">
                     <FileText className="w-3.5 h-3.5 text-gray-400" />
@@ -1215,7 +1213,7 @@ function SmartCreatePageInner() {
 
               {/* Metadata Panel (shown after transform) */}
               {hasTransformed && (
-                <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-4">
+                <div className="sketch-section space-y-4">
                   <h3 className="text-xs font-semibold text-gray-600 uppercase tracking-wide flex items-center gap-2">
                     <Tag className="w-3.5 h-3.5 text-gray-400" />
                     Article Metadata
@@ -1258,7 +1256,7 @@ function SmartCreatePageInner() {
                       <select
                         value={category}
                         onChange={(e) => setCategory(e.target.value)}
-                        className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white"
+                        className="w-full text-sm sketch-select px-3 py-2"
                       >
                         {CATEGORIES.map((cat) => (
                           <option key={cat} value={cat}>{cat}</option>
@@ -1270,7 +1268,7 @@ function SmartCreatePageInner() {
                       <select
                         value={author}
                         onChange={(e) => setAuthor(e.target.value)}
-                        className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white"
+                        className="w-full text-sm sketch-select px-3 py-2"
                       >
                         {AUTHORS.map((a) => (
                           <option key={a} value={a}>{a}</option>
@@ -1282,7 +1280,7 @@ function SmartCreatePageInner() {
                       <select
                         value={reviewer}
                         onChange={(e) => setReviewer(e.target.value)}
-                        className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent bg-white"
+                        className="w-full text-sm sketch-select px-3 py-2"
                       >
                         {REVIEWERS.map((r) => (
                           <option key={r} value={r}>{r}</option>
@@ -1299,7 +1297,7 @@ function SmartCreatePageInner() {
                         type="text"
                         value={seoTitle}
                         onChange={(e) => setSeoTitle(e.target.value)}
-                        className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        className="w-full text-sm sketch-input px-3 py-2"
                         placeholder="SEO title (max 60 chars)"
                       />
                       <span className={`text-xs ${seoTitle.length > 60 ? "text-amber-500" : "text-gray-400"}`}>
@@ -1312,7 +1310,7 @@ function SmartCreatePageInner() {
                         type="text"
                         value={seoDescription}
                         onChange={(e) => setSeoDescription(e.target.value)}
-                        className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        className="w-full text-sm sketch-input px-3 py-2"
                         placeholder="Meta description (max 150 chars)"
                       />
                       <span className={`text-xs ${seoDescription.length > 150 ? "text-red-500 font-medium" : seoDescription.length > 130 ? "text-amber-500" : "text-gray-400"}`}>
@@ -1444,7 +1442,7 @@ function SmartCreatePageInner() {
                       type="text"
                       value={imageAlt}
                       onChange={(e) => setImageAlt(e.target.value)}
-                      className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                      className="w-full text-sm sketch-input px-3 py-2"
                       placeholder="Image alt text"
                     />
                     {image && (
@@ -1825,7 +1823,7 @@ function SmartCreatePageInner() {
           </div>
         </div>
       </main>
-    </div>
+    </SketchLayout>
   );
 }
 

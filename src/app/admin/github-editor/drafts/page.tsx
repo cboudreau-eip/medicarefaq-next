@@ -15,7 +15,8 @@ import {
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
-import CMSHeader from "../components/cms-header";
+import SketchLayout from "../components/sketch-layout";
+import "../sketch-theme.css";
 
 interface DraftItem {
   id: string;
@@ -113,8 +114,8 @@ export default function DraftsPage() {
 
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <Loader2 className="w-6 h-6 animate-spin text-teal-600" />
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: "#fdfbf3" }}>
+        <Loader2 className="w-6 h-6 animate-spin text-[#2b2b2b]" />
       </div>
     );
   }
@@ -124,8 +125,7 @@ export default function DraftsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <CMSHeader onLogout={logout} />
+    <SketchLayout onLogout={logout}>
 
       <div className="flex-1 px-6 py-6 max-w-6xl mx-auto w-full">
         {/* Page Header */}
@@ -268,6 +268,6 @@ export default function DraftsPage() {
           </div>
         )}
       </div>
-    </div>
+    </SketchLayout>
   );
 }

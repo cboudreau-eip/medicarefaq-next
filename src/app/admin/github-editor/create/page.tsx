@@ -15,7 +15,8 @@ import {
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import LoginScreen from "../components/login-screen";
-import CMSHeader from "../components/cms-header";
+import SketchLayout from "../components/sketch-layout";
+import "../sketch-theme.css";
 import ImageUpload from "../components/image-upload";
 
 const CATEGORIES = [
@@ -163,8 +164,8 @@ export default function CreateArticlePage() {
   // Auth loading
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <Loader2 className="w-6 h-6 animate-spin text-teal-600" />
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: "#fdfbf3" }}>
+        <Loader2 className="w-6 h-6 animate-spin text-[#2b2b2b]" />
       </div>
     );
   }
@@ -175,8 +176,7 @@ export default function CreateArticlePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
-      <CMSHeader onLogout={logout} />
+    <SketchLayout onLogout={logout}>
 
       {/* Sub-header with slug preview and publish button */}
       <div className="bg-white border-b border-gray-100 px-6 py-3">
@@ -237,8 +237,8 @@ export default function CreateArticlePage() {
             {/* Left Column — Main Fields */}
             <div className="lg:col-span-2 space-y-6">
               {/* Title */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
-                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">
+              <div className="sketch-section">
+                <label className="sketch-label block mb-2">
                   Article Title *
                 </label>
                 <input
@@ -251,7 +251,7 @@ export default function CreateArticlePage() {
               </div>
 
               {/* URL Slug */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2 flex items-center gap-2">
                   <Globe className="w-3.5 h-3.5 text-gray-400" />
                   URL Slug *
@@ -278,8 +278,8 @@ export default function CreateArticlePage() {
               </div>
 
               {/* Excerpt */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
-                <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">
+              <div className="sketch-section">
+                <label className="sketch-label block mb-2">
                   Excerpt / Meta Description
                 </label>
                 <textarea
@@ -297,7 +297,7 @@ export default function CreateArticlePage() {
               </div>
 
               {/* HTML Body */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <div className="flex items-center justify-between mb-3">
                   <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide flex items-center gap-2">
                     <FileText className="w-3.5 h-3.5 text-gray-400" />
@@ -324,7 +324,7 @@ export default function CreateArticlePage() {
             {/* Right Column — Sidebar Settings */}
             <div className="space-y-6">
               {/* Category */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2 flex items-center gap-2">
                   <Tag className="w-3.5 h-3.5 text-gray-400" />
                   Category
@@ -341,7 +341,7 @@ export default function CreateArticlePage() {
               </div>
 
               {/* Featured Image */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wide mb-3 flex items-center gap-2">
                   <ImageIcon className="w-3.5 h-3.5 text-gray-400" />
                   Featured Image
@@ -387,7 +387,7 @@ export default function CreateArticlePage() {
               </div>
 
               {/* Preview Card */}
-              <div className="bg-white rounded-xl border border-gray-200 p-6">
+              <div className="sketch-section">
                 <h3 className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-3 flex items-center gap-2">
                   <Eye className="w-3.5 h-3.5 text-gray-400" />
                   Card Preview
@@ -440,6 +440,6 @@ export default function CreateArticlePage() {
         </div>
       </main>
 
-    </div>
+    </SketchLayout>
   );
 }
