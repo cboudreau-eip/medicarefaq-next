@@ -6,9 +6,358 @@
   "category": "General",
   "author": "David Haass",
   "reviewer": "Ashlee Zareczny",
-  "seoTitle": "Medicare Out-of-Pocket Costs: Complete Guide",
-  "seoDescription": "Learn about Medicare out-of-pocket costs including copays, deductibles, and coinsurance—plus tips to maximize savings and reduce what you pay for healthcare.",
+  "seoTitle": "Medicare Out-of-Pocket Costs: Guide to Savings | MedicareFAQ",
+  "seoDescription": "Navigate Medicare out-of-pocket costs: premiums, deductibles, copays, and coinsurance. Learn to maximize your savings and manage healthcare expenses.",
   "id": "medicare-out-of-pocket-costs-your-guide-to-copays-deductible-mq6ubppv",
-  "updatedAt": "2026-06-09T16:14:42.931Z",
-  "createdAt": "2026-06-09T16:14:42.931Z"
+  "updatedAt": "2026-06-09T16:15:09.746Z",
+  "createdAt": "2026-06-09T16:14:42.931Z",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Are Medicare Out-of-Pocket Costs?",
+      "id": "what-are-medicare-out-of-pocket-costs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Many people enrolling in Medicare discover that the program includes various costs beyond the monthly premium. **Medicare out-of-pocket costs** primarily consist of premiums, deductibles, copays, and coinsurance. Each component functions uniquely, and together they determine your annual healthcare expenses."
+    },
+    {
+      "type": "paragraph",
+      "content": "A **premium** is the recurring monthly fee you pay for coverage, even if you do not use any services. A **deductible** is the amount you must pay before your plan starts contributing to costs. A **copay** is a fixed dollar amount, such as $20 for a doctor's visit, while **coinsurance** is a percentage you owe after meeting your deductible, like 20% of an outpatient procedure. You can find more details on these terms at [deductible, copay, coinsurance, and premium](/faqs/deductible-copay-coinsurance-premium/)."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "Average Out-of-Pocket Spending",
+      "calloutText": "According to the Kaiser Family Foundation (KFF), the average Medicare beneficiary spends approximately $6,500 per year out of pocket on healthcare. This figure can be significantly higher for individuals with chronic conditions or serious illnesses."
+    },
+    {
+      "type": "paragraph",
+      "content": "Your total costs are heavily influenced by the specific parts of Medicare you have enrolled in. Parts A, B, C, and D each have their own cost structures. Understanding how these parts interact is crucial for managing your healthcare finances effectively."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medicare Part A Costs: What You Pay for Hospital and Inpatient Care",
+      "id": "medicare-part-a-costs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Medicare Part A covers inpatient hospital stays, skilled nursing facility care, and certain home health services. While most beneficiaries do not pay a premium for Part A, the cost-sharing can become substantial if you require hospitalization."
+    },
+    {
+      "type": "callout",
+      "calloutType": "warning",
+      "calloutTitle": "Part A Deductible",
+      "calloutText": "In 2026, the Part A inpatient hospital deductible is $1,736 per benefit period. This deductible resets if you are discharged and readmitted after 60 days, meaning you could pay it multiple times in a single year."
+    },
+    {
+      "type": "paragraph",
+      "content": "The coinsurance structure for extended stays can also add up quickly. For days 61 to 90, you pay $434 per day in 2026. If you use your lifetime reserve days, the cost increases to $868 per day in 2026."
+    },
+    {
+      "type": "paragraph",
+      "content": "For example, a 75-day hospital stay could result in over $6,500 in coinsurance charges, in addition to the initial deductible. This demonstrates how **Original Medicare expenses for hospital stays** can become unpredictable. Skilled nursing facility stays also incur costs: after day 20, you pay $217 per day in SNF coinsurance through day 100, after which Medicare coverage ceases entirely."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medicare Part B Costs: Premiums, Deductibles, and Coinsurance for Medical Services",
+      "id": "medicare-part-b-costs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Part B covers outpatient medical services, doctor visits, preventive care, and [medically necessary treatments](/faqs/what-does-medically-necessary-mean/). In 2026, the **standard Part B monthly premium is $202.90**, and the **annual deductible is $283**. After meeting your deductible, Medicare typically covers 80% of approved costs, leaving you responsible for the remaining **20% coinsurance**."
+    },
+    {
+      "type": "callout",
+      "calloutType": "warning",
+      "calloutTitle": "No Part B Out-of-Pocket Maximum",
+      "calloutText": "Under Original Medicare, there is no cap on the 20% Part B coinsurance. A costly treatment, such as a $100,000 cancer regimen, could leave you personally responsible for $20,000, with no upper limit on what you might owe. This lack of a maximum makes Part B coinsurance a significant financial risk."
+    },
+    {
+      "type": "paragraph",
+      "content": "Higher-income beneficiaries also face Income-Related Monthly Adjustment Amount (IRMAA) surcharges on top of the standard premium. In 2026, **Part B premiums can range from $202.90 up to $689.90 per month**, depending on your income. More details on IRMAA are provided in a later section."
+    },
+    {
+      "type": "paragraph",
+      "content": "As Juliette Cubanski, Deputy Director of the Program on Medicare Policy at KFF, has observed, \"Original Medicare has no out-of-pocket maximum, which is why supplemental coverage like Medigap or Medicare Advantage is so important for financial protection against catastrophic costs.\" This highlights a critical financial vulnerability that every Medicare enrollee should consider before needing expensive care."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medicare Part D Costs: What You Pay for Prescription Drug Coverage",
+      "id": "medicare-part-d-costs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Part D provides prescription drug coverage, available either as a standalone plan or integrated within a Medicare Advantage plan. In 2026, the **average Part D premium is $34.50 per month**, and the **maximum deductible is $615**. This means some plans require you to pay the full cost of your drugs until you meet this deductible."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Deductible phase:** You pay the full cost of your prescriptions until you meet your plan's deductible, up to $615.",
+        "**Initial coverage phase:** Your plan begins sharing costs with you after the deductible is met.",
+        "**Catastrophic coverage phase:** Once your true out-of-pocket drug spending reaches **$2,100 in 2026**, you pay $0 for covered prescriptions for the remainder of the year."
+      ]
+    },
+    {
+      "type": "eddie-pro-tip",
+      "content": "I always tell people to compare their Part D plan annually, even if they're happy with it. Plans change their covered drugs and costs every year. What was a good deal last year might not be this year, especially if you've started new medications. A quick review can save you a lot of money."
+    },
+    {
+      "type": "paragraph",
+      "content": "The $2,100 catastrophic threshold, a significant improvement from the Inflation Reduction Act, provides a crucial limit on drug costs for beneficiaries with expensive conditions. Higher-income enrollees also pay **IRMAA surcharges on Part D premiums**, ranging from an additional $14.50 to $91.00 per month in 2026. Additionally, delaying Part D enrollment without creditable coverage can result in a **late enrollment penalty**, calculated using the base premium of $38.99 and permanently added to your monthly cost."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Does Original Medicare Have an Out-of-Pocket Maximum? Understanding the Coverage Gap",
+      "id": "does-original-medicare-have-an-out-of-pocket-maximum"
+    },
+    {
+      "type": "paragraph",
+      "content": "**Original Medicare, which combines Parts A and B, does not have an annual out-of-pocket maximum.** This often surprises new enrollees who expect Medicare to function like employer-sponsored insurance. However, it does not. Your financial exposure under Original Medicare is theoretically unlimited."
+    },
+    {
+      "type": "paragraph",
+      "content": "Consider a scenario where a beneficiary undergoes extensive chemotherapy for cancer. They could face tens of thousands of dollars in 20% Part B coinsurance without any financial safety net. If this is combined with an inpatient hospital stay, the costs would increase further, all without any cap. This illustrates the significant financial risk."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "Planning for Costs",
+      "calloutText": "As David Lipschutz, Associate Director and Senior Policy Attorney at the Medicare Rights Center, notes, \"Beneficiaries who don't plan ahead for deductibles, coinsurance, and premium surcharges can face unexpected and burdensome expenses.\" Understanding [Medicare deductibles and copays](/faqs/deductible-copay-coinsurance-premium/) before a health crisis is essential financial planning."
+    },
+    {
+      "type": "paragraph",
+      "content": "Two primary solutions exist to address this coverage gap: Medigap plans and Medicare Advantage plans. Both options provide a form of financial ceiling that Original Medicare alone does not offer."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medicare Advantage vs. Medigap: Two Ways to Limit Your Out-of-Pocket Exposure",
+      "id": "medicare-advantage-vs-medigap"
+    },
+    {
+      "type": "paragraph",
+      "content": "**Medicare Advantage** (Part C) plans are mandated by CMS to cap your out-of-pocket costs for covered in-network services. In 2026, the federal maximum is **$9,250**, although many plans offer lower limits. Once you reach this cap, the plan covers 100% of your covered services for the remainder of the year."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mary Beth Donahue, President and CEO of AHIP, states, \"Medicare Advantage plans have become an important choice for beneficiaries seeking predictable out-of-pocket limits and additional benefits not available in Original Medicare.\" However, **Medicare Advantage out-of-pocket limits** are only one aspect to consider. These plans often operate with provider networks and may require prior authorization for certain services. The total cost of care, including access to preferred doctors and treatments, is more important than just the maximum out-of-pocket figure. Carefully reviewing [Original Medicare vs. Medicare Advantage](/blog/original-medicare-vs-medicare-advantage/) differences is crucial."
+    },
+    {
+      "type": "paragraph",
+      "content": "**Medigap plans** function differently by supplementing Original Medicare to cover some or all of its cost-sharing gaps. Key features for 2026 include various plan options designed to help with deductibles, copays, and coinsurance."
+    },
+    {
+      "type": "table",
+      "title": "Medigap Plan Features (2026)",
+      "headers": [
+        "Medigap Plan",
+        "Key Cost Feature in 2026"
+      ],
+      "rows": [
+        [
+          "Plan G",
+          "Covers most cost-sharing after Part B deductible; popular for new enrollees"
+        ],
+        [
+          "Plan N",
+          "Covers most cost-sharing with small copays for office/ER visits"
+        ],
+        [
+          "High-Deductible Plan G",
+          "$2,950 deductible before coverage begins; features a lower monthly premium"
+        ],
+        [
+          "Plan K",
+          "$8,000 out-of-pocket maximum"
+        ],
+        [
+          "Plan L",
+          "$4,000 out-of-pocket maximum"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "The choice between Medicare Advantage and Medigap depends on your health needs, preferred doctors, travel habits, and budget. Neither option is universally superior. A licensed Medicare agent can provide personalized comparisons of the total cost of care for your specific situation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "IRMAA and Higher-Income Medicare Costs: What to Know Before You Retire",
+      "id": "irmaa-and-higher-income-medicare-costs"
+    },
+    {
+      "type": "paragraph",
+      "content": "If your income exceeds certain thresholds, you will pay more than the standard Medicare premium. The **Income-Related Monthly Adjustment Amount (IRMAA)** is a surcharge added to Part B and Part D premiums based on your **2024 Modified Adjusted Gross Income (MAGI)**. Individual filers with income above $109,000 and joint filers above $218,000 are affected."
+    },
+    {
+      "type": "table",
+      "title": "2026 Part B IRMAA Tiers",
+      "headers": [
+        "Individual MAGI (2024)",
+        "Monthly Part B Premium (2026)"
+      ],
+      "rows": [
+        [
+          "$109,000 or less",
+          "$202.90"
+        ],
+        [
+          "> $109,000 and < $137,000",
+          "$284.10"
+        ],
+        [
+          "> $137,000 and < $171,000",
+          "$405.80"
+        ],
+        [
+          "> $171,000 and < $205,000",
+          "$527.50"
+        ],
+        [
+          "> $205,000 and < $500,000",
+          "$649.20"
+        ],
+        [
+          "> $500,000",
+          "$689.90"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Part D plans also incur additional IRMAA surcharges, ranging from **$14.50 to $91.00 per month**, on top of the plan premium. These amounts can significantly increase your total annual **Medicare cost sharing** burden. It is important to factor these into your budget."
+    },
+    {
+      "type": "callout",
+      "calloutType": "tip",
+      "calloutTitle": "Appealing IRMAA",
+      "calloutText": "If your income has significantly dropped since the look-back year due to a qualifying life event, such as retirement or the death of a spouse, you can appeal your IRMAA using Form SSA-44. Proactive financial planning before retirement, like strategic Roth IRA conversions, can also help you avoid higher IRMAA tiers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Reduce Your Medicare Out-of-Pocket Costs: Programs and Strategies That Help",
+      "id": "how-to-reduce-your-medicare-out-of-pocket-costs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Several programs and strategies can significantly reduce your Medicare expenses. Knowing where to find these resources and acting during the correct enrollment periods can make a measurable difference in your annual costs."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Extra Help (Low-Income Subsidy):** This federal program helps reduce or eliminate Part D costs for beneficiaries with limited income and resources. In 2025, the income limits are **$23,475 for individuals** and **$31,725 for married couples** (resource limits: $17,600 individual / $35,130 couple). Eligible beneficiaries pay very little for covered prescriptions. You can apply through SSA.gov or Medicare.gov.",
+        "**Medicare Savings Programs (MSPs):** These state-run programs can cover Part B premiums, deductibles, and coinsurance for qualifying low-income beneficiaries. Contact your State Medical Assistance office or visit Medicare.gov to check eligibility. These programs can save thousands of dollars annually for those who qualify."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Additional strategies to consider for lowering your out-of-pocket expenses include reviewing your plan annually during the Annual Enrollment Period (October 15 to December 7). Plans often change their premiums, formularies, and cost-sharing each year. If you are in a Medicare Advantage plan, using in-network providers helps avoid higher out-of-network costs."
+    },
+    {
+      "type": "paragraph",
+      "content": "When choosing between plans, compare the **total cost of care**, not just the premiums. You may also be able to deduct qualifying medical expenses above 7.5% of your Adjusted Gross Income (AGI) on your federal tax return. The 2026 standard deduction for those 65 and older is $16,100 (single) or $32,200 (married filing jointly), plus an additional $2,050 for single filers 65+ and $1,650 per spouse for couples."
+    },
+    {
+      "type": "paragraph",
+      "content": "Working with a licensed Medicare agent can provide access to side-by-side plan comparisons and personalized guidance on how to save money on [Medicare supplement plans](/medicare-supplements/) based on your specific health profile and budget."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions About Medicare Out-of-Pocket Costs",
+      "id": "frequently-asked-questions-about-medicare-out-of-pocket-costs"
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the maximum out-of-pocket cost for Medicare in 2026?",
+          "answer": "Original Medicare does not have an out-of-pocket maximum. Medicare Advantage plans are capped at $9,250 for in-network covered services in 2026, though many plans set their limits lower. Compare Medicare Advantage options during enrollment to find a plan with a lower **Medicare Advantage out-of-pocket maximum** that fits your health needs and budget."
+        },
+        {
+          "question": "How much does Medicare Part B cost per month in 2026?",
+          "answer": "The standard Part B premium is $202.90 per month in 2026, in addition to a $283 annual deductible. Higher-income beneficiaries pay more due to IRMAA surcharges, with premiums potentially reaching up to $689.90 per month. For most people, the premium is directly deducted from their Social Security benefit."
+        },
+        {
+          "question": "Does Original Medicare have an out-of-pocket maximum?",
+          "answer": "No, Original Medicare does not have an annual out-of-pocket maximum, meaning costs can accumulate without a cap during a serious illness or extended hospital stay. This lack of a cap is a critical consideration for anyone comparing coverage options. Medigap and Medicare Advantage are the two primary ways to add a financial ceiling to your healthcare expenses."
+        },
+        {
+          "question": "What does Medicare not cover that I have to pay for out of pocket?",
+          "answer": "Original Medicare generally does not cover routine dental, vision, or hearing care, long-term custodial care, or most care received outside the United States. These are common sources of unexpected **Original Medicare expenses**. Some Medicare Advantage plans include dental, vision, and hearing benefits, making a comprehensive comparison of total coverage essential when choosing a plan."
+        },
+        {
+          "question": "How can I reduce my Medicare out-of-pocket costs?",
+          "answer": "You can reduce costs by enrolling in a Medigap plan to cover gaps in Original Medicare, choosing a Medicare Advantage plan with a low out-of-pocket maximum, or applying for Extra Help or a Medicare Savings Program if you meet income and resource limits. Reviewing your plan annually during the October 15 to December 7 enrollment window can also help prevent overpaying for coverage."
+        },
+        {
+          "question": "What is IRMAA and how does it affect my Medicare premiums?",
+          "answer": "IRMAA is an income-related surcharge added to your Part B and Part D premiums if your 2024 MAGI exceeded $109,000 (individual) or $218,000 (joint). This can add hundreds of dollars per month to your total Medicare cost. If your income has dropped due to a qualifying life-changing event, you can file an appeal with Social Security using Form SSA-44 to request a lower IRMAA tier."
+        },
+        {
+          "question": "What is the Medicare Part D catastrophic coverage threshold in 2026?",
+          "answer": "In 2026, once you spend $2,100 out of pocket on covered Part D prescriptions, you enter the catastrophic phase and pay $0 for covered drugs for the rest of the year. This cap, introduced under the Inflation Reduction Act, provides significant relief for beneficiaries managing expensive chronic conditions. Your plan's Explanation of Benefits will indicate your progress toward this **catastrophic coverage threshold**."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Managing Medicare out-of-pocket costs begins with understanding what you owe and why. The combination of Part A hospital costs, uncapped Part B coinsurance, Part D drug expenses, and potential IRMAA surcharges can accumulate more quickly than most people anticipate. The right supplemental coverage, whether Medigap or Medicare Advantage, along with programs like Extra Help and Medicare Savings Programs, can significantly reduce your financial exposure. If you want personalized assistance reviewing your options, speaking with a licensed Medicare agent is a practical next step. You can explore your coverage options further at [Medicare maximum out-of-pocket](/faqs/medicare-maximum-out-of-pocket/)."
+    }
+  ],
+  "tableOfContents": [
+    {
+      "id": "what-are-medicare-out-of-pocket-costs",
+      "title": "What Are Medicare Out-of-Pocket Costs?"
+    },
+    {
+      "id": "medicare-part-a-costs",
+      "title": "Medicare Part A Costs: What You Pay for Hospital and Inpatient Care"
+    },
+    {
+      "id": "medicare-part-b-costs",
+      "title": "Medicare Part B Costs: Premiums, Deductibles, and Coinsurance for Medical Services"
+    },
+    {
+      "id": "medicare-part-d-costs",
+      "title": "Medicare Part D Costs: What You Pay for Prescription Drug Coverage"
+    },
+    {
+      "id": "does-original-medicare-have-an-out-of-pocket-maximum",
+      "title": "Does Original Medicare Have an Out-of-Pocket Maximum? Understanding the Coverage Gap"
+    },
+    {
+      "id": "medicare-advantage-vs-medigap",
+      "title": "Medicare Advantage vs. Medigap: Two Ways to Limit Your Out-of-Pocket Exposure"
+    },
+    {
+      "id": "irmaa-and-higher-income-medicare-costs",
+      "title": "IRMAA and Higher-Income Medicare Costs: What to Know Before You Retire"
+    },
+    {
+      "id": "how-to-reduce-your-medicare-out-of-pocket-costs",
+      "title": "How to Reduce Your Medicare Out-of-Pocket Costs: Programs and Strategies That Help"
+    },
+    {
+      "id": "frequently-asked-questions-about-medicare-out-of-pocket-costs",
+      "title": "Frequently Asked Questions About Medicare Out-of-Pocket Costs"
+    }
+  ],
+  "keyTakeaways": [
+    "Medicare out-of-pocket costs include premiums, deductibles, copays, and coinsurance, which vary based on your plan.",
+    "The average Medicare beneficiary spends about $6,500 annually out of pocket, with higher costs for those with chronic conditions.",
+    "Medicare Part A has a per-benefit-period deductible ($1,736 in 2026) and daily coinsurance for extended hospital stays.",
+    "Understanding how Part A, B, C, and D costs interact is crucial for managing your healthcare finances.",
+    "Deductibles, copays, and coinsurance are distinct cost-sharing mechanisms that affect your total annual spending."
+  ]
 }
