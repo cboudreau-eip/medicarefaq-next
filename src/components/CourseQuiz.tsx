@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { CheckCircle2, XCircle, HelpCircle, ArrowRight, Lock } from "lucide-react";
 import Link from "next/link";
 import type { QuizQuestion } from "@/lib/course-quiz-data";
+import CourseEmailCapture from "@/components/CourseEmailCapture";
 
 const STORAGE_KEY = "medicare-101-quiz-scores";
 
@@ -197,6 +198,9 @@ export default function CourseQuiz({ lessonNumber, questions, nextLessonUrl }: C
           );
         })}
       </div>
+
+      {/* Email capture — shown only after Lesson 1 completion */}
+      {lessonNumber === 1 && allAnswered && <CourseEmailCapture />}
 
       {/* Score Summary + Next Button */}
       <div className="mt-8 p-5 bg-slate-50 rounded-xl border border-slate-200">
