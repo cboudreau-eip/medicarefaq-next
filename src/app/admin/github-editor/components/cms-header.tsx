@@ -13,6 +13,7 @@ import {
   FileText,
   Lightbulb,
   Settings,
+  Wand2,
 } from "lucide-react";
 
 interface CMSHeaderProps {
@@ -41,11 +42,12 @@ export default function CMSHeader({
   const isEditPage = pathname.startsWith("/admin/github-editor/edit/");
   const isCreatePage = pathname === "/admin/github-editor/create";
   const isSmartCreatePage = pathname === "/admin/github-editor/create-smart";
+  const isKeywordCreatePage = pathname === "/admin/github-editor/create-from-keyword";
   const isSitemapPage = pathname === "/admin/github-editor/sitemap";
   const isDraftsPage = pathname === "/admin/github-editor/drafts";
   const isIntelPage = pathname === "/admin/github-editor/content-intelligence";
   const isSettingsPage = pathname === "/admin/github-editor/settings";
-  const isSubPage = isEditPage || isCreatePage || isSmartCreatePage || isSitemapPage || isDraftsPage || isIntelPage || isSettingsPage;
+  const isSubPage = isEditPage || isCreatePage || isSmartCreatePage || isKeywordCreatePage || isSitemapPage || isDraftsPage || isIntelPage || isSettingsPage;
 
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-0 shrink-0">
@@ -103,6 +105,14 @@ export default function CMSHeader({
         <div className="flex items-center gap-2">
           {!isSubPage && (
             <>
+              <Link
+                href="/admin/github-editor/create-from-keyword"
+                className="flex items-center gap-1.5 text-xs font-semibold bg-purple-600 text-white rounded-lg px-3 py-1.5 hover:bg-purple-700 transition-colors"
+                title="Create from Keyword"
+              >
+                <Wand2 className="w-3.5 h-3.5" />
+                From Keyword
+              </Link>
               <Link
                 href="/admin/github-editor/create-smart"
                 className="flex items-center gap-1.5 text-xs font-semibold bg-purple-600 text-white rounded-lg px-3 py-1.5 hover:bg-purple-700 transition-colors"
