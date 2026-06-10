@@ -6,9 +6,407 @@
   "category": "General",
   "author": "David Haass",
   "reviewer": "Ashlee Zareczny",
-  "seoTitle": "Medicare vs. ACA: What You Need to Know",
-  "seoDescription": "Confused about Medicare and ACA? Learn how the Affordable Care Act impacts your Medicare coverage, benefits, and costs in this clear, easy-to-follow guide.",
+  "seoTitle": "Medicare vs. ACA: How the Affordable Care Act Impacts You",
+  "seoDescription": "Navigate Medicare and ACA. Understand eligibility, benefits, and how the Affordable Care Act impacts your Medicare coverage. MedicareFAQ.",
   "id": "medicare-vs-aca-understanding-how-the-affordable-care-act-im-mq8h4emp",
-  "updatedAt": "2026-06-10T19:40:39.313Z",
-  "createdAt": "2026-06-10T19:40:39.313Z"
+  "updatedAt": "2026-06-10T19:41:03.282Z",
+  "createdAt": "2026-06-10T19:40:39.313Z",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medicare and the ACA: Two Programs, One Goal",
+      "id": "medicare-and-the-aca-two-programs-one-goal"
+    },
+    {
+      "type": "paragraph",
+      "content": "More than 67 million Americans rely on Medicare for their health coverage, while over 24 million others depend on ACA Marketplace plans. Many people approaching retirement age remain unclear about how these two programs relate to each other."
+    },
+    {
+      "type": "paragraph",
+      "content": "The confusion is understandable. Both programs are rooted in federal health policy, aim to expand access to affordable care, and can affect you at different points in your life."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "Core Difference",
+      "calloutText": "Medicare is an entitlement program for Americans aged 65 and older, or those with qualifying disabilities. The ACA Marketplace is a regulated insurance exchange for people under 65 who lack affordable employer or government coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "These programs are complementary, not competing. Understanding how they interact is essential for avoiding coverage gaps, late enrollment penalties, and missed financial assistance. This article untangles common misconceptions and helps you make confident, informed coverage decisions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medicare vs. ACA Differences: Eligibility and Who Each Program Serves",
+      "id": "medicare-vs-aca-differences-eligibility-and-who-each-program-serves"
+    },
+    {
+      "type": "paragraph",
+      "content": "Medicare eligibility begins at age 65 for most Americans, provided they or their spouse worked and paid Medicare taxes for at least 10 years. Certain individuals under 65 also qualify due to disability or end-stage renal disease."
+    },
+    {
+      "type": "paragraph",
+      "content": "Once eligible, you can enroll in Medicare Part A (hospital insurance), Part B (medical insurance), Part C (Medicare Advantage), and [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/) for prescription drugs."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "ACA Marketplace Eligibility",
+      "calloutText": "ACA Marketplace eligibility covers U.S. residents under 65 who lack affordable employer-sponsored, Medicaid, or Medicare coverage. Premium tax credits are available on a sliding income scale, making Marketplace plans accessible for millions of working-age adults."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the most important *Obamacare and Medicare differences* to understand is that once you become eligible for Medicare, you generally cannot receive ACA premium subsidies. This surprises many people approaching 65."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you are currently on a subsidized Marketplace plan, your eligibility for ACA financial assistance ends when Medicare eligibility begins, even if you have not yet enrolled."
+    },
+    {
+      "type": "tip",
+      "content": "For those between ages 60 and 64, enhanced ACA subsidies introduced through recent federal legislation have made Marketplace plans significantly more affordable. This age group can benefit from these subsidies right up until they transition to Medicare, making the period just before 65 an important window for coverage planning."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How the Affordable Care Act Strengthened Medicare Benefits",
+      "id": "how-the-affordable-care-act-strengthened-medicare-benefits"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ACA's impact on Medicare went far beyond the Marketplace. For current beneficiaries, the law delivered real, lasting improvements to existing coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "One of the most visible changes was the addition of free preventive services under Medicare Part B. Annual wellness visits, colonoscopies, mammograms, and dozens of other screenings became available with no cost-sharing for Medicare beneficiaries."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Annual wellness visits",
+        "Colonoscopies",
+        "Mammograms",
+        "Dozens of other screenings"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "You can review the full scope of [Medicare preventive services](https://www.medicarefaq.com/faqs/medicare-preventive-services/) to understand what is included without any out-of-pocket cost."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ACA also began closing the Medicare Part D coverage gap, commonly known as the donut hole. That reform trajectory built toward the Inflation Reduction Act's $2,100 out-of-pocket catastrophic phase threshold now in place for 2026, delivering meaningful prescription drug savings for beneficiaries."
+    },
+    {
+      "type": "info",
+      "calloutType": "info",
+      "calloutTitle": "ACA's Legacy on Quality",
+      "calloutText": "As former CMS Administrator Marilyn Tavenner noted, aligning quality metrics between Medicare and ACA Marketplace plans is one of the most important, if underappreciated, legacies of healthcare reform. Former Acting CMS Administrator Andy Slavitt has also observed that Medicare Advantage growth since the ACA demonstrates how market-based options can coexist with public insurance."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2026 Medicare Costs: What You Need to Budget For",
+      "id": "2026-medicare-costs-what-you-need-to-budget-for"
+    },
+    {
+      "type": "paragraph",
+      "content": "Accurate cost planning is essential when transitioning from an ACA Marketplace plan to Medicare. Here is what you can expect to pay under Medicare in 2026."
+    },
+    {
+      "type": "table",
+      "title": "2026 Medicare Part B and Part A Costs",
+      "headers": [
+        "Medicare Part",
+        "Cost Type",
+        "2026 Amount"
+      ],
+      "rows": [
+        [
+          "Part B",
+          "Standard Monthly Premium",
+          "$202.90"
+        ],
+        [
+          "Part B",
+          "Annual Deductible",
+          "$283"
+        ],
+        [
+          "Part A",
+          "Inpatient Hospital Deductible (per benefit period)",
+          "$1,736"
+        ],
+        [
+          "Part A",
+          "Hospital Coinsurance (days 61-90)",
+          "$434 per day"
+        ],
+        [
+          "Part A",
+          "Skilled Nursing Facility Coinsurance",
+          "$217 per day"
+        ]
+      ],
+      "footnote": "Most people pay no premium for Part A if they have sufficient work history."
+    },
+    {
+      "type": "paragraph",
+      "content": "For Medicare Part D, the average monthly premium in 2026 is **$34.50**. The maximum annual deductible is **$615**, and once your drug costs reach the catastrophic phase threshold of **$2,100** out of pocket, your cost-sharing drops significantly."
+    },
+    {
+      "type": "paragraph",
+      "content": "Compared to ACA Marketplace plans, which bundle all coverage into a single premium and may carry high deductibles and narrow networks, Medicare involves multiple parts with separate costs. Understanding the full picture of *Medicare vs. Marketplace insurance* means looking at total annual exposure, not just the monthly premium."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "IRMAA: How Higher Income Affects Your Medicare Premiums",
+      "id": "irmaa-how-higher-income-affects-your-medicare-premiums"
+    },
+    {
+      "type": "paragraph",
+      "content": "If your income exceeds certain thresholds, you will pay more for Medicare Parts B and D through Income-Related Monthly Adjustment Amounts, or IRMAA. These surcharges are based on your income from two years prior, meaning your 2024 tax return determines your 2026 IRMAA status."
+    },
+    {
+      "type": "table",
+      "title": "2026 IRMAA Part B Brackets for Individual Filers",
+      "headers": [
+        "Individual Income (2024)",
+        "Monthly Part B Premium"
+      ],
+      "rows": [
+        [
+          "$109,000 or less",
+          "$202.90 (standard)"
+        ],
+        [
+          "$109,001 – $137,000",
+          "$284.10"
+        ],
+        [
+          "$137,001 – $171,000",
+          "$405.80"
+        ],
+        [
+          "$171,001 – $205,000",
+          "$527.50"
+        ],
+        [
+          "$205,001 – $500,000",
+          "$649.20"
+        ],
+        [
+          "Above $500,000",
+          "$689.90"
+        ]
+      ],
+      "footnote": "Joint filers have different income thresholds."
+    },
+    {
+      "type": "paragraph",
+      "content": "Part D IRMAA surcharges add an additional **$14.50 to $91.00 per month** on top of your plan premium, depending on income level. These amounts are paid directly to Medicare, separate from your plan's regular premium."
+    },
+    {
+      "type": "eddie-pro-tip",
+      "content": "I always tell people that if you are within five years of Medicare eligibility, proactive income planning, including strategies like Roth conversions or timing of capital gains, can significantly reduce your IRMAA exposure. If your income has dropped due to retirement or a life event, you can appeal your IRMAA designation with Form SSA-44."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Transitioning from ACA Marketplace to Medicare: What You Need to Know",
+      "id": "transitioning-from-aca-marketplace-to-medicare-what-you-need-to-know"
+    },
+    {
+      "type": "paragraph",
+      "content": "The transition from an ACA Marketplace plan to Medicare requires careful timing. When you turn 65, your [Medicare Initial Enrollment Period](https://www.medicarefaq.com/faqs/medicare-initial-enrollment-period/) spans seven months, beginning three months before your birthday month and ending three months after."
+    },
+    {
+      "type": "warning",
+      "calloutType": "warning",
+      "calloutTitle": "ACA Subsidies End",
+      "calloutText": "Once you are enrolled in or eligible for Medicare Part A or Part B, you lose eligibility for ACA premium tax credits. Continuing a Marketplace plan after Medicare eligibility begins is technically possible, but you would pay full unsubsidized premiums, which is rarely cost-effective."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Part D late enrollment penalty is a common and costly mistake. For each 12-month period you go without creditable drug coverage after becoming eligible, Medicare adds 1% of the national base beneficiary premium, currently **$38.99** in 2026, to your monthly Part D premium."
+    },
+    {
+      "type": "warning",
+      "calloutType": "warning",
+      "calloutTitle": "Permanent Penalty",
+      "calloutText": "This Part D penalty is permanent and accumulates over time. Missing your Initial Enrollment Period can trigger permanent Part B and Part D late enrollment penalties that follow you for the duration of your Medicare coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "The ACA open enrollment period (November 1 through January 15) and [Medicare's Annual Enrollment Period](https://www.medicarefaq.com/faqs/medicare-annual-enrollment-period/) (October 15 through December 7) are separate windows with different rules. If you delay Medicare enrollment while still on a Marketplace plan, you may miss your Initial Enrollment Period and face penalties."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Medicare Supplement, Medicare Advantage, and ACA Protections",
+      "id": "medicare-supplement-medicare-advantage-and-aca-protections"
+    },
+    {
+      "type": "paragraph",
+      "content": "Once enrolled in Medicare, you have several options for supplemental coverage, and the ACA shaped the rules governing all of them."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "type": "paragraph",
+          "content": "**Medigap (Medicare Supplement):** These plans help cover cost-sharing not paid by Original Medicare. ACA-era consumer protections include guaranteed issue rights during specific windows, most importantly, the six-month Medicare Supplement Open Enrollment Period that begins when your Part B coverage starts. During this window, insurers cannot deny coverage or charge higher premiums based on health status."
+        },
+        {
+          "type": "paragraph",
+          "content": "In 2026, High-Deductible Plan F and Plan G carry a deductible of **$2,950**, while Plan K has a maximum out-of-pocket of **$8,000** and Plan L caps at **$4,000**."
+        },
+        {
+          "type": "paragraph",
+          "content": "**Medicare Advantage (Part C):** These plans replace Original Medicare and are offered by private insurers following CMS quality standards shaped by the ACA. In 2026, the maximum out-of-pocket limit for Medicare Advantage plans is **$9,250**. Comparing Medicare Advantage vs. Medicare Supplement options is an important step before committing to a plan."
+        }
+      ]
+    },
+    {
+      "type": "info",
+      "calloutType": "info",
+      "calloutTitle": "Minimum Essential Coverage",
+      "calloutText": "Importantly, all Medicare coverage options, Original Medicare, Medicare Advantage, and Medigap, count as minimum essential coverage under the ACA. Medicare beneficiaries are fully compliant with ACA coverage requirements and face no coverage-related tax implications."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Low-Income Assistance: Extra Help, ACA Subsidies, and How to Know Which Applies",
+      "id": "low-income-assistance-extra-help-aca-subsidies-and-how-to-know-which-applies"
+    },
+    {
+      "type": "paragraph",
+      "content": "Both Medicare and the ACA offer income-based financial assistance, but they generally do not overlap. Knowing which program applies to you is critical for avoiding coverage gaps."
+    },
+    {
+      "type": "paragraph",
+      "content": "**Medicare Extra Help** (also called the Low-Income Subsidy) assists Part D enrollees with prescription drug costs. In 2025, the income limit is **$23,475 for individuals** and **$31,725 for couples**, with resource limits of **$17,600 and $35,130** respectively."
+    },
+    {
+      "type": "success",
+      "calloutType": "success",
+      "calloutTitle": "Significant Savings",
+      "calloutText": "Eligible beneficiaries for Extra Help may pay little to nothing for covered prescriptions. As KFF Deputy Director Juliette Cubanski has noted, the Inflation Reduction Act's drug pricing reforms built on the ACA framework to deliver real savings, particularly for Extra Help-eligible beneficiaries seeing reduced Part D costs in 2026."
+    },
+    {
+      "type": "paragraph",
+      "content": "For those under 65, ACA Marketplace subsidies provide premium assistance based on household income relative to the federal poverty level. People between ages 60 and 64 often qualify for substantial subsidies before transitioning to Medicare."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Medicare Extra Help program remains one of the most valuable but underutilized resources available to low-income beneficiaries."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Under 65, no affordable employer or government coverage:** Explore ACA Marketplace plans and available premium tax credits at HealthCare.gov.",
+        "**Approaching 65 (ages 60–64):** Use enhanced ACA subsidies now, then plan your Medicare transition timeline carefully.",
+        "**65+ or Medicare-eligible:** Enroll in Medicare and explore Extra Help, Medicare Savings Programs, or Medigap for additional assistance.",
+        "**Low income on Medicare:** Apply for Extra Help through SSA.gov and check your state's Medicare Savings Programs."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions About Medicare and the ACA",
+      "id": "frequently-asked-questions-about-medicare-and-the-aca"
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Can I have both Medicare and ACA Marketplace coverage at the same time?",
+          "answer": "Generally no. Once you are enrolled in Medicare Part A or Part B, you are no longer eligible for ACA premium tax credits. You can technically purchase an unsubsidized Marketplace plan alongside Medicare, but this is rarely cost-effective and does not improve your overall coverage."
+        },
+        {
+          "question": "What happens to my ACA plan when I turn 65 and become eligible for Medicare?",
+          "answer": "Your ACA subsidy eligibility ends when Medicare eligibility begins. You will have a Special Enrollment Period to transition from your Marketplace plan to Medicare. Missing your seven-month Initial Enrollment Period can trigger permanent Part B and Part D late enrollment penalties."
+        },
+        {
+          "question": "Does the ACA affect Medicare benefits or costs?",
+          "answer": "Yes, significantly. The ACA added free preventive services under Part B, accelerated closing the Part D donut hole, and introduced quality-based payment reforms still shaping Medicare in 2026. IRMAA surcharge structures were also expanded under ACA-era legislation, raising Part B costs for higher-income beneficiaries."
+        },
+        {
+          "question": "How much is the Medicare Part B premium in 2026?",
+          "answer": "The standard 2026 Medicare Part B premium is **$202.90 per month**, with a $283 annual deductible. Higher-income beneficiaries pay IRMAA surcharges ranging up to $689.90 per month based on their 2024 income, making pre-retirement income planning genuinely important."
+        },
+        {
+          "question": "What ACA protections apply to Medicare beneficiaries?",
+          "answer": "Medicare beneficiaries benefit from ACA protections including no lifetime benefit limits, free preventive care with no cost-sharing, and elimination of cost-sharing for annual wellness visits. The ACA also strengthened Medicare Advantage and Part D plans through quality reporting requirements and enhanced consumer appeals processes."
+        },
+        {
+          "question": "Can I keep my ACA subsidies if I am eligible for Medicare?",
+          "answer": "No. Medicare eligibility, even if you have not yet enrolled, disqualifies you from receiving ACA premium tax credits. The IRS and CMS treat Medicare eligibility as access to qualifying coverage. Keeping a subsidized Marketplace plan after becoming Medicare-eligible may result in owing back those subsidies at tax time, plus late enrollment penalties."
+        },
+        {
+          "question": "Does Medicare count as minimum essential coverage under the ACA?",
+          "answer": "Yes. Medicare Part A, Part B, Medicare Advantage (Part C), and other qualified Medicare health plans all count as minimum essential coverage under the ACA. Medicare beneficiaries satisfy ACA coverage requirements and face no related tax implications for their federal health coverage."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Medicare and the ACA are two of the most consequential health coverage programs in American history, and for millions of people, both will play a role at different stages of life. The decisions you make during your transition years, particularly around enrollment timing, income planning, and supplemental coverage, can affect your healthcare costs for decades."
+    },
+    {
+      "type": "paragraph",
+      "content": "Speaking with a licensed Medicare agent can help you evaluate your specific situation, compare your Medicare coverage options, and avoid the costly mistakes that come from acting on incomplete information. The right time to start planning is before you turn 65, not after."
+    }
+  ],
+  "tableOfContents": [
+    {
+      "id": "medicare-and-the-aca-two-programs-one-goal",
+      "title": "Medicare and the ACA: Two Programs, One Goal"
+    },
+    {
+      "id": "medicare-vs-aca-differences-eligibility-and-who-each-program-serves",
+      "title": "Medicare vs. ACA Differences: Eligibility and Who Each Program Serves"
+    },
+    {
+      "id": "how-the-affordable-care-act-strengthened-medicare-benefits",
+      "title": "How the Affordable Care Act Strengthened Medicare Benefits"
+    },
+    {
+      "id": "2026-medicare-costs-what-you-need-to-budget-for",
+      "title": "2026 Medicare Costs: What You Need to Budget For"
+    },
+    {
+      "id": "irmaa-how-higher-income-affects-your-medicare-premiums",
+      "title": "IRMAA: How Higher Income Affects Your Medicare Premiums"
+    },
+    {
+      "id": "transitioning-from-aca-marketplace-to-medicare-what-you-need-to-know",
+      "title": "Transitioning from ACA Marketplace to Medicare: What You Need to Know"
+    },
+    {
+      "id": "medicare-supplement-medicare-advantage-and-aca-protections",
+      "title": "Medicare Supplement, Medicare Advantage, and ACA Protections"
+    },
+    {
+      "id": "low-income-assistance-extra-help-aca-subsidies-and-how-to-know-which-applies",
+      "title": "Low-Income Assistance: Extra Help, ACA Subsidies, and How to Know Which Applies"
+    },
+    {
+      "id": "frequently-asked-questions-about-medicare-and-the-aca",
+      "title": "Frequently Asked Questions About Medicare and the ACA"
+    }
+  ],
+  "keyTakeaways": [
+    "Medicare is for those 65+, or with qualifying disabilities/ESRD, while ACA Marketplace plans are for those under 65 without other affordable coverage.",
+    "Once eligible for Medicare, you generally lose eligibility for ACA premium subsidies, even if you haven't enrolled yet.",
+    "The ACA strengthened Medicare benefits by closing the Part D 'donut hole' and adding preventive care services without cost-sharing.",
+    "For those aged 60-64, enhanced ACA subsidies make Marketplace plans more affordable until Medicare eligibility begins.",
+    "Understanding these programs prevents coverage gaps, late enrollment penalties, and missed financial assistance."
+  ]
 }
