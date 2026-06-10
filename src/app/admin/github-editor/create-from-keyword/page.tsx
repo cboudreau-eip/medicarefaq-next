@@ -210,6 +210,31 @@ function CreateFromKeywordInner() {
         setQualityAccepted(data.quality.acceptedBestVersion ?? false);
       }
 
+      // Auto-generate featured image
+      let pendingImageBase64: string | undefined;
+      let pendingImageFileName: string | undefined;
+      try {
+        const imgRes = await authFetch("/api/cms/generate-image", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            title: outline.title,
+            category: data.meta?.suggestedCategory || "General",
+            slug: outlineSettings?.targetKeyword?.toLowerCase().replace(/\s+/g, "-") || "article",
+            excerpt: data.meta?.excerpt || "",
+            keyTakeaways: data.meta?.keyTakeaways || [],
+            fullArticle: data.sections,
+          }),
+        });
+        const imgData = await imgRes.json();
+        if (imgRes.ok && imgData.base64) {
+          pendingImageBase64 = imgData.base64;
+          pendingImageFileName = imgData.fileName;
+        }
+      } catch {
+        // Non-critical — image can still be generated in Smart Create
+      }
+
       // Save as a draft and redirect to Smart Create
       const draftRes = await authFetch("/api/cms/drafts", {
         method: "PUT",
@@ -227,6 +252,10 @@ function CreateFromKeywordInner() {
           seoTitle: data.meta?.seoTitle || "",
           seoDescription: data.meta?.seoDescription || "",
           category: data.meta?.suggestedCategory || "General",
+          // Include generated image in draft
+          pendingImageBase64,
+          pendingImageFileName,
+          imageAlt: outline.title,
         }),
       });
 
