@@ -400,6 +400,65 @@ async function fixArticleQuality(
   return fixedSections;
 }
 
+const META_SYSTEM_PROMPT = `You are a Medicare content strategist. Return only valid JSON, no markdown fences.`;
+
+/**
+ * Generates SEO metadata from the final article sections.
+ */
+async function generateArticleMeta(
+  sections: any[],
+  title: string,
+  targetKeyword?: string
+): Promise<{ excerpt: string; keyTakeaways: string[]; seoTitle: string; seoDescription: string; suggestedCategory: string } | null> {
+  // Build a plain-text summary of the article from paragraphs
+  const plainText = sections
+    .filter((s: any) => s.type === "paragraph" || s.type === "callout")
+    .map((s: any) => s.content || s.calloutText || "")
+    .join(" ")
+    .slice(0, 3000);
+
+  const metaPrompt = `Given this Medicare article titled "${title}"${
+    targetKeyword ? ` targeting the keyword "${targetKeyword}"` : ""
+  }, generate:
+1. excerpt: A 1-2 sentence summary (max 200 chars)
+2. keyTakeaways: 3-5 bullet points of the most important facts
+3. seoTitle: SEO-optimized title (max 60 chars, include target keyword if it fits naturally)
+4. seoDescription: Meta description (MUST be 150 characters or fewer, aim for 120-145 characters, include target keyword)
+5. suggestedCategory: One of: Medicare News, Medicare Supplement, Medicare Plans, Getting Started, Enrollment, Senior Living, Medicare Coverage, Healthcare, Medicare Costs, Medicare Basics, Medicare Advantage, General, Eligibility, Benefits
+
+Return as JSON object with these exact keys. Do not use em dashes anywhere.
+
+Article content:
+${plainText}`;
+
+  try {
+    const response = await fetch(`${FORGE_API_URL}/v1/chat/completions`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${FORGE_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-5",
+        max_tokens: 1024,
+        messages: [
+          { role: "system", content: META_SYSTEM_PROMPT },
+          { role: "user", content: metaPrompt },
+        ],
+      }),
+    });
+
+    if (!response.ok) return null;
+
+    const data = await response.json();
+    const raw = data?.choices?.[0]?.message?.content ?? "";
+    const cleaned = raw.replace(/^```json?\n?/m, "").replace(/\n?```$/m, "").trim();
+    return JSON.parse(cleaned);
+  } catch {
+    return null;
+  }
+}
+
 export async function POST(req: NextRequest) {
   if (!checkCmsAuth(req)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -495,12 +554,20 @@ export async function POST(req: NextRequest) {
       .filter((s: any) => s.type === "heading" && s.level === 2)
       .map((s: any) => ({ id: s.id, title: s.text }));
 
-    // ─── STEP 4: Return result with quality metadata ──────────────────────────
+    // ─── STEP 4: Generate SEO metadata ───────────────────────────────────────
+    const meta = await generateArticleMeta(
+      finalSections,
+      outline.title,
+      settings?.targetKeyword
+    );
+
+    // ─── STEP 5: Return result with quality metadata and SEO meta ─────────────
     return NextResponse.json({
       success: true,
       sections: finalSections,
       tableOfContents,
       title: outline.title,
+      meta,
       quality: {
         score: finalValidation.score,
         passed: finalValidation.passed,

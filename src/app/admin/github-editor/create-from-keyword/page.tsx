@@ -221,7 +221,12 @@ function CreateFromKeywordInner() {
           tableOfContents: data.tableOfContents,
           outline,
           outlineSettings,
-          category: "General",
+          // Populate meta fields so Smart Create fields are pre-filled
+          excerpt: data.meta?.excerpt || "",
+          keyTakeaways: data.meta?.keyTakeaways || [],
+          seoTitle: data.meta?.seoTitle || "",
+          seoDescription: data.meta?.seoDescription || "",
+          category: data.meta?.suggestedCategory || "General",
         }),
       });
 
