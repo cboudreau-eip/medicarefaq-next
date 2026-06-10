@@ -163,7 +163,7 @@ async function sendEmailNotification(data: {
         Authorization: `Bearer ${resendApiKey}`,
       },
       body: JSON.stringify({
-        from: "MedicareFAQ <notifications@medicarefaq.com>",
+        from: "MedicareFAQ Contact <onboarding@resend.dev>",
         to: [NOTIFICATION_EMAIL],
         subject: `New Contact: ${data.firstName} ${data.lastName} — ${reasonLabel}`,
         html: htmlBody,
