@@ -117,33 +117,34 @@ function patchArticleInSource(
   }
 
   // Patch title
-  if (updates.title !== undefined) {
+  if (updates.title != null) {
     block = block.replace(
       /(\btitle:\s*)"(?:[^"\\]|\\.)*"/,
-      `$1"${updates.title.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+      `$1"${(updates.title || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
     );
   }
 
   // Patch image field
-  if (updates.image !== undefined) {
+  if (updates.image != null) {
     block = block.replace(
       /(\bimage:\s*)["'](?:[^"'\\]|\\.)*["']/,
-      `$1"${updates.image.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+      `$1"${(updates.image || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
     );
   }
   // Patch imageAlt field
-  if (updates.imageAlt !== undefined) {
+  if (updates.imageAlt != null) {
+    const imageAltVal = updates.imageAlt || "";
     const hasImageAlt = /imageAlt:\s*"/.test(block);
     if (hasImageAlt) {
       block = block.replace(
         /(\bimageAlt:\s*)"(?:[^"\\]|\\.)*"/,
-        `$1"${updates.imageAlt.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+        `$1"${imageAltVal.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
       );
-    } else if (updates.imageAlt) {
+    } else if (imageAltVal) {
       // Insert imageAlt after image field if it doesn't exist
       block = block.replace(
         /(\bimage:\s*"(?:[^"\\]|\\.)*")(,?)/,
-        `$1,\n      imageAlt: "${updates.imageAlt.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}",`
+        `$1,\n      imageAlt: "${imageAltVal.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}",`
       );
     }
   }
@@ -165,22 +166,22 @@ function patchArticleInSource(
       }
       let seoBlock = block.slice(seoOpenBrace, j + 1);
 
-      if (updates.seoTitle !== undefined) {
+      if (updates.seoTitle != null) {
         seoBlock = seoBlock.replace(
           /(\btitle:\s*)"(?:[^"\\]|\\.)*"/,
-          `$1"${updates.seoTitle.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+          `$1"${(updates.seoTitle || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
         );
       }
-      if (updates.seoDescription !== undefined) {
+      if (updates.seoDescription != null) {
         seoBlock = seoBlock.replace(
           /(\bdescription:\s*)"(?:[^"\\]|\\.)*"/,
-          `$1"${updates.seoDescription.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+          `$1"${(updates.seoDescription || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
         );
       }
-      if (updates.ogImage !== undefined) {
+      if (updates.ogImage != null) {
         seoBlock = seoBlock.replace(
           /(\bogImage:\s*)"(?:[^"\\]|\\.)*"/,
-          `$1"${updates.ogImage.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
+          `$1"${(updates.ogImage || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
         );
       }
 
