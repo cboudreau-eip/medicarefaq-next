@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { initContactSchema } from "../route";
+import { initContactSchema } from "@/lib/contact-db";
 
 /**
  * GET /api/contact/init
