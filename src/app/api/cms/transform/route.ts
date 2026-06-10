@@ -89,6 +89,37 @@ Return ONLY a valid JSON array of BlogSectionContent objects. No markdown code f
 const META_SYSTEM_PROMPT = `You are a Medicare content strategist. Return only valid JSON, no markdown fences.`;
 
 /**
+ * Robustly clean LLM JSON output before parsing.
+ * Handles: code fences, trailing commas, control chars, BOM, etc.
+ */
+function cleanLLMJson(raw: string): string {
+  let s = raw;
+  // Remove BOM
+  s = s.replace(/^\uFEFF/, "");
+  // Remove markdown code fences (various formats)
+  s = s.replace(/^\s*```(?:json|JSON)?\s*\n?/, "");
+  s = s.replace(/\n?\s*```\s*$/, "");
+  // If there's still text before the first [ or {, strip it
+  const firstBracket = Math.min(
+    s.indexOf("[") === -1 ? Infinity : s.indexOf("["),
+    s.indexOf("{") === -1 ? Infinity : s.indexOf("{")
+  );
+  if (firstBracket !== Infinity && firstBracket > 0) {
+    s = s.slice(firstBracket);
+  }
+  // If there's text after the last ] or }, strip it
+  const lastClose = Math.max(s.lastIndexOf("]"), s.lastIndexOf("}"));
+  if (lastClose !== -1 && lastClose < s.length - 1) {
+    s = s.slice(0, lastClose + 1);
+  }
+  // Remove trailing commas before } or ]
+  s = s.replace(/,\s*([}\]])/g, "$1");
+  // Remove control characters (except newline, tab) that break JSON
+  s = s.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "");
+  return s.trim();
+}
+
+/**
  * Builds a targeted fix prompt from the list of validation issues.
  */
 function buildFixInstructions(
@@ -285,10 +316,7 @@ async function fixArticleQuality(
   const data = await response.json();
   const rawOutput = data?.choices?.[0]?.message?.content ?? "";
 
-  const cleaned = rawOutput
-    .replace(/^```json?\n?/m, "")
-    .replace(/\n?```$/m, "")
-    .trim();
+  const cleaned = cleanLLMJson(rawOutput);
   const fixedSections = JSON.parse(cleaned);
 
   if (!Array.isArray(fixedSections)) {
@@ -356,12 +384,12 @@ ${rawContent}`;
     // Parse the JSON output
     let sections;
     try {
-      const cleaned = rawOutput.replace(/^```json?\n?/m, "").replace(/\n?```$/m, "").trim();
+      const cleaned = cleanLLMJson(rawOutput);
       sections = JSON.parse(cleaned);
     } catch (parseErr) {
       return NextResponse.json({
-        error: "Failed to parse LLM output as JSON",
-        rawOutput,
+        error: `Failed to parse LLM output as JSON: ${parseErr instanceof Error ? parseErr.message : String(parseErr)}`,
+        rawOutput: rawOutput.slice(0, 500),
       }, { status: 422 });
     }
 
@@ -498,7 +526,7 @@ ${rawContent.slice(0, 3000)}`;
     const data = await response.json();
     const raw = data?.choices?.[0]?.message?.content ?? "";
     try {
-      const cleaned = raw.replace(/^```json?\n?/m, "").replace(/\n?```$/m, "").trim();
+      const cleaned = cleanLLMJson(raw);
       return JSON.parse(cleaned);
     } catch {
       return null;

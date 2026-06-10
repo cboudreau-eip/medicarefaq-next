@@ -10,6 +10,30 @@ const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY;
 const MIN_QUALITY_SCORE = 87;
 const MAX_RETRIES = 3;
 
+/**
+ * Robustly clean LLM JSON output before parsing.
+ */
+function cleanLLMJson(raw: string): string {
+  let s = raw;
+  s = s.replace(/^\uFEFF/, "");
+  s = s.replace(/^\s*```(?:json|JSON)?\s*\n?/, "");
+  s = s.replace(/\n?\s*```\s*$/, "");
+  const firstBracket = Math.min(
+    s.indexOf("[") === -1 ? Infinity : s.indexOf("["),
+    s.indexOf("{") === -1 ? Infinity : s.indexOf("{")
+  );
+  if (firstBracket !== Infinity && firstBracket > 0) {
+    s = s.slice(firstBracket);
+  }
+  const lastClose = Math.max(s.lastIndexOf("]"), s.lastIndexOf("}"));
+  if (lastClose !== -1 && lastClose < s.length - 1) {
+    s = s.slice(0, lastClose + 1);
+  }
+  s = s.replace(/,\s*([}\]])/g, "$1");
+  s = s.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "");
+  return s.trim();
+}
+
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
   const pw = request.headers.get("x-cms-password") ?? "";
@@ -176,10 +200,7 @@ IMPORTANT:
   const data = await response.json();
   const rawOutput = data?.choices?.[0]?.message?.content ?? "";
 
-  const cleaned = rawOutput
-    .replace(/^```json?\n?/m, "")
-    .replace(/\n?```$/m, "")
-    .trim();
+  const cleaned = cleanLLMJson(rawOutput);
   const sections = JSON.parse(cleaned);
 
   if (!Array.isArray(sections)) {
@@ -387,10 +408,7 @@ async function fixArticleQuality(
   const data = await response.json();
   const rawOutput = data?.choices?.[0]?.message?.content ?? "";
 
-  const cleaned = rawOutput
-    .replace(/^```json?\n?/m, "")
-    .replace(/\n?```$/m, "")
-    .trim();
+  const cleaned = cleanLLMJson(rawOutput);
   const fixedSections = JSON.parse(cleaned);
 
   if (!Array.isArray(fixedSections)) {
@@ -452,7 +470,7 @@ ${plainText}`;
 
     const data = await response.json();
     const raw = data?.choices?.[0]?.message?.content ?? "";
-    const cleaned = raw.replace(/^```json?\n?/m, "").replace(/\n?```$/m, "").trim();
+    const cleaned = cleanLLMJson(raw);
     return JSON.parse(cleaned);
   } catch {
     return null;
