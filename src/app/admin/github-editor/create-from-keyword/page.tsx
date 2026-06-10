@@ -110,6 +110,12 @@ function CreateFromKeywordInner() {
   const [generatingArticle, setGeneratingArticle] = useState(false);
   const [error, setError] = useState("");
 
+  // Quality loop state
+  const [qualityScore, setQualityScore] = useState<number | null>(null);
+  const [qualityAttempt, setQualityAttempt] = useState(0);
+  const [qualityHistory, setQualityHistory] = useState<Array<{ attempt: number; score: number; issues: number }>>([]);
+  const [qualityAccepted, setQualityAccepted] = useState(false);
+
   // Editing state
   const [editingTitle, setEditingTitle] = useState(false);
   const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set());
@@ -195,6 +201,14 @@ function CreateFromKeywordInner() {
 
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Article generation failed");
+
+      // Update quality display from response
+      if (data.quality) {
+        setQualityScore(data.quality.score);
+        setQualityAttempt(data.quality.attemptsUsed ?? 0);
+        setQualityHistory(data.quality.qualityHistory ?? []);
+        setQualityAccepted(data.quality.acceptedBestVersion ?? false);
+      }
 
       // Save as a draft and redirect to Smart Create
       const draftRes = await authFetch("/api/cms/drafts", {
@@ -842,8 +856,46 @@ function CreateFromKeywordInner() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Generating Your Article</h3>
               <p className="text-sm text-gray-500 mb-4">
-                The AI is writing your full article based on the approved outline. This typically takes 30-60 seconds.
+                The AI is writing your full article based on the approved outline. This typically takes 30-90 seconds.
               </p>
+
+              {/* Quality loop progress */}
+              {qualityHistory.length > 0 && (
+                <div className="mb-4 space-y-2">
+                  {qualityHistory.map((h) => (
+                    <div key={h.attempt} className={`flex items-center justify-between text-xs px-3 py-2 rounded-lg ${
+                      h.score >= 87
+                        ? "bg-green-50 text-green-700 border border-green-200"
+                        : h.attempt === 0
+                        ? "bg-gray-50 text-gray-600 border border-gray-200"
+                        : "bg-amber-50 text-amber-700 border border-amber-200"
+                    }`}>
+                      <span className="font-medium">
+                        {h.attempt === 0 ? "Initial draft" : `Fix attempt ${h.attempt}/3`}
+                      </span>
+                      <span className="font-bold">
+                        {h.score >= 87 ? (
+                          <span className="flex items-center gap-1">
+                            <CheckCircle2 className="w-3 h-3" />
+                            {h.score}/100
+                          </span>
+                        ) : (
+                          `${h.score}/100 — fixing ${h.issues} issue${h.issues !== 1 ? "s" : ""}...`
+                        )}
+                      </span>
+                    </div>
+                  ))}
+                  {qualityScore !== null && qualityScore < 87 && qualityAttempt < 3 && (
+                    <div className="flex items-center justify-between text-xs px-3 py-2 rounded-lg bg-purple-50 text-purple-700 border border-purple-200">
+                      <span className="font-medium flex items-center gap-1.5">
+                        <Loader2 className="w-3 h-3 animate-spin" />
+                        Fix attempt {qualityAttempt + 1}/3...
+                      </span>
+                    </div>
+                  )}
+                </div>
+              )}
+
               <div className="bg-gray-50 rounded-lg p-4 text-left">
                 <p className="text-xs font-medium text-gray-600 mb-2">Writing with:</p>
                 <ul className="text-xs text-gray-500 space-y-1">
@@ -865,7 +917,7 @@ function CreateFromKeywordInner() {
                   </li>
                   <li className="flex items-center gap-1.5">
                     <CheckCircle2 className="w-3 h-3 text-green-500" />
-                    Post-transform validation
+                    Self-healing quality loop (target: 87/100)
                   </li>
                 </ul>
               </div>

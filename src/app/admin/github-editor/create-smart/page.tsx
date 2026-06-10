@@ -364,6 +364,10 @@ function SmartCreatePageInner() {
   const [tableOfContents, setTableOfContents] = useState<{ id: string; title: string }[]>([]);
   const [showJson, setShowJson] = useState(false);
 
+  // Quality loop state
+  const [qualityHistory, setQualityHistory] = useState<Array<{ attempt: number; score: number; issues: number }>>([]);
+  const [qualityAccepted, setQualityAccepted] = useState(false);
+
   // Metadata state
   const [slug, setSlug] = useState("");
   const [slugManuallyEdited, setSlugManuallyEdited] = useState(false);
@@ -472,8 +476,16 @@ function SmartCreatePageInner() {
       setSections(data.sections);
       setTableOfContents(data.tableOfContents || []);
 
-      // Run post-transform validation
-      const validationResult = validateContent(data.sections);
+      // Update quality loop history from API response
+      if (data.quality) {
+        setQualityHistory(data.quality.qualityHistory ?? []);
+        setQualityAccepted(data.quality.acceptedBestVersion ?? false);
+      }
+
+      // Run post-transform validation (use API result if available, else re-run locally)
+      const validationResult = data.quality
+        ? { passed: data.quality.passed, score: data.quality.score, issues: data.quality.issues, summary: data.quality.summary }
+        : validateContent(data.sections);
       setValidation(validationResult);
       setShowValidation(validationResult.issues.length > 0);
 
@@ -1698,6 +1710,16 @@ function SmartCreatePageInner() {
                           <span className="text-sm font-semibold text-gray-800">
                             Quality Check: {validation.score}/100
                           </span>
+                          {qualityHistory.length > 1 && (
+                            <span className="text-xs text-gray-500 ml-1">
+                              (after {qualityHistory.length - 1} auto-fix{qualityHistory.length - 1 !== 1 ? "es" : ""})
+                            </span>
+                          )}
+                          {qualityAccepted && (
+                            <span className="text-xs bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded font-medium">
+                              Best version accepted
+                            </span>
+                          )}
                           <div className="flex items-center gap-2 ml-2">
                             {validation.summary.errors > 0 && (
                               <span className="text-xs bg-red-100 text-red-700 px-1.5 py-0.5 rounded font-medium">
