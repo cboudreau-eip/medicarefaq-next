@@ -14,6 +14,8 @@ import {
   Trash2,
   X,
   Sparkles,
+  Code,
+  Eye,
 } from "lucide-react";
 import { useCMSAuth } from "../../../components/use-cms-auth";
 import LoginScreen from "../../../components/login-screen";
@@ -21,6 +23,7 @@ import SketchLayout from "../../../components/sketch-layout";
 import "../../../sketch-theme.css";
 import ImageUpload from "../../../components/image-upload";
 import ArticleHistory from "../../../components/article-history";
+import { sectionsToHtml, htmlToSections, serializeSectionsToTS } from "@/lib/html-sections-converter";
 
 interface ArticleDetail {
   slug: string;
@@ -67,6 +70,11 @@ export default function EditArticlePage() {
   const [showSchemaPanel, setShowSchemaPanel] = useState(false);
   const [schemaError, setSchemaError] = useState("");
 
+  // HTML editor state
+  const [contentViewMode, setContentViewMode] = useState<"html" | "raw" | "preview">("html");
+  const [editHtml, setEditHtml] = useState("");
+  const [htmlDirty, setHtmlDirty] = useState(false);
+
   // Save state
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [saveMessage, setSaveMessage] = useState("");
@@ -105,6 +113,12 @@ export default function EditArticlePage() {
       setEditImageAlt(data.imageAlt ?? "");
       setEditSectionsRaw(data.sectionsRaw ?? "");
       setEditCustomSchema(data.customSchemaRaw ?? "");
+      // Initialize HTML editor from parsed sections
+      if (data.sections && Array.isArray(data.sections) && data.sections.length > 0) {
+        setEditHtml(sectionsToHtml(data.sections));
+      } else {
+        setEditHtml("");
+      }
     } catch (err) {
       setDetailError(String(err));
     } finally {
@@ -568,27 +582,144 @@ export default function EditArticlePage() {
                 </div>
               </div>
 
-              {/* Body Content (raw sections) */}
+              {/* Body Content Editor */}
               <div className="sketch-section">
                 <div className="flex items-center justify-between mb-4">
                   <h2 className="text-sm font-semibold text-gray-700 flex items-center gap-2">
                     <FileText className="w-4 h-4 text-gray-400" />
-                    Body Content (sections array)
+                    Page Content
                   </h2>
-                  <span className="text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded font-mono">
-                    Raw TypeScript
-                  </span>
+                  <div className="flex items-center gap-1 bg-gray-100 rounded-lg p-0.5">
+                    <button
+                      onClick={() => {
+                        setContentViewMode("html");
+                      }}
+                      className={`flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md transition-colors ${
+                        contentViewMode === "html"
+                          ? "bg-white text-teal-700 shadow-sm"
+                          : "text-gray-500 hover:text-gray-700"
+                      }`}
+                    >
+                      <Code className="w-3 h-3" />
+                      HTML
+                    </button>
+                    <button
+                      onClick={() => setContentViewMode("preview")}
+                      className={`flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md transition-colors ${
+                        contentViewMode === "preview"
+                          ? "bg-white text-teal-700 shadow-sm"
+                          : "text-gray-500 hover:text-gray-700"
+                      }`}
+                    >
+                      <Eye className="w-3 h-3" />
+                      Preview
+                    </button>
+                    <button
+                      onClick={() => {
+                        setContentViewMode("raw");
+                      }}
+                      className={`flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md transition-colors ${
+                        contentViewMode === "raw"
+                          ? "bg-white text-teal-700 shadow-sm"
+                          : "text-gray-500 hover:text-gray-700"
+                      }`}
+                    >
+                      <FileText className="w-3 h-3" />
+                      Raw TS
+                    </button>
+                  </div>
                 </div>
-                <p className="text-xs text-gray-500 mb-3">
-                  Edit the structured content array directly. Changes are committed as-is to the repository.
-                </p>
-                <textarea
-                  value={editSectionsRaw}
-                  onChange={(e) => setEditSectionsRaw(e.target.value)}
-                  rows={24}
-                  className="w-full text-xs font-mono border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-y bg-gray-50"
-                  spellCheck={false}
-                />
+
+                {/* HTML Editor */}
+                {contentViewMode === "html" && (
+                  <div className="space-y-3">
+                    <p className="text-xs text-gray-500">
+                      Edit page content as HTML. Supports: headings (h2/h3), paragraphs, lists, tables, blockquotes (callouts), images, and FAQ (dl).
+                    </p>
+                    <textarea
+                      value={editHtml}
+                      onChange={(e) => {
+                        setEditHtml(e.target.value);
+                        setHtmlDirty(true);
+                      }}
+                      rows={28}
+                      className="w-full text-sm font-mono border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-y bg-gray-50 leading-relaxed"
+                      spellCheck={false}
+                      placeholder="<h2>Section Title</h2>\n<p>Your content here...</p>"
+                    />
+                    {htmlDirty && (
+                      <div className="flex items-center justify-between bg-amber-50 border border-amber-200 rounded-lg px-4 py-2.5">
+                        <p className="text-xs text-amber-700 font-medium">
+                          HTML has unsaved changes. Apply to update the article content.
+                        </p>
+                        <div className="flex items-center gap-2">
+                          <button
+                            onClick={() => {
+                              // Revert to last saved HTML
+                              if (detail) {
+                                try {
+                                  const jsonified = editSectionsRaw
+                                    .replace(/(\w+):/g, '"$1":')
+                                    .replace(/'/g, '"');
+                                  const sections = JSON.parse(jsonified);
+                                  setEditHtml(sectionsToHtml(sections));
+                                } catch {
+                                  setEditHtml("");
+                                }
+                              }
+                              setHtmlDirty(false);
+                            }}
+                            className="text-xs text-gray-500 hover:text-gray-700 px-2 py-1 rounded hover:bg-gray-100 transition-colors"
+                          >
+                            Discard
+                          </button>
+                          <button
+                            onClick={() => {
+                              // Convert HTML to sections and update sectionsRaw
+                              const sections = htmlToSections(editHtml);
+                              const tsString = serializeSectionsToTS(sections);
+                              setEditSectionsRaw(tsString);
+                              setHtmlDirty(false);
+                            }}
+                            className="flex items-center gap-1.5 text-xs font-semibold bg-teal-600 text-white rounded-lg px-3 py-1.5 hover:bg-teal-700 transition-colors"
+                          >
+                            <CheckCircle2 className="w-3 h-3" />
+                            Apply Changes
+                          </button>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* Preview */}
+                {contentViewMode === "preview" && (
+                  <div className="space-y-3">
+                    <p className="text-xs text-gray-500">
+                      Live preview of the HTML content.
+                    </p>
+                    <div
+                      className="prose prose-sm max-w-none border border-gray-200 rounded-lg px-6 py-4 bg-white min-h-[300px] max-h-[600px] overflow-y-auto"
+                      dangerouslySetInnerHTML={{ __html: editHtml }}
+                    />
+                  </div>
+                )}
+
+                {/* Raw TS Editor (legacy) */}
+                {contentViewMode === "raw" && (
+                  <div className="space-y-3">
+                    <p className="text-xs text-gray-500">
+                      Raw TypeScript sections array. Changes are committed as-is to the repository.
+                    </p>
+                    <textarea
+                      value={editSectionsRaw}
+                      onChange={(e) => setEditSectionsRaw(e.target.value)}
+                      rows={24}
+                      className="w-full text-xs font-mono border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-y bg-gray-50"
+                      spellCheck={false}
+                    />
+                  </div>
+                )}
               </div>
 
               {/* Schema (JSON-LD) */}
