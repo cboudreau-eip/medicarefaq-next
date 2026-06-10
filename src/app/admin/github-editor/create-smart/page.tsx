@@ -775,6 +775,21 @@ function SmartCreatePageInner() {
       setShowDraftsPanel(false);
       setSuccess(`Draft "${draft.title}" loaded.`);
       setTimeout(() => setSuccess(""), 3000);
+
+      // Auto-suggest related articles if the draft has sections but no related slugs
+      // (this covers drafts created via the From Keyword flow)
+      if (
+        draft.sections &&
+        draft.sections.length > 0 &&
+        (!draft.relatedSlugs || draft.relatedSlugs.length === 0)
+      ) {
+        suggestRelatedArticles(
+          draft.title || "",
+          draft.excerpt || "",
+          draft.category || "General",
+          draft.keyTakeaways || []
+        );
+      }
     } catch (err) {
       setError(String(err));
     } finally {
