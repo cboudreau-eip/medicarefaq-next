@@ -1,6 +1,26 @@
 import { NextRequest, NextResponse } from "next/server";
 
+
 const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
+
+/**
+ * Parse a JavaScript object literal array string into a proper JSON-compatible array.
+ * Handles unquoted keys and string values containing colons (e.g., URLs).
+ * Uses Function constructor for safe evaluation of pure data literals.
+ */
+function parseJsLiteralArray(raw: string): unknown[] {
+  if (!raw || raw.trim() === "[]" || raw.trim() === "") return [];
+  try {
+    // Use indirect eval via Function to safely parse JS object literals
+    // This is safe because the content comes from our own repo source files
+    const fn = new Function(`"use strict"; return ${raw};`);
+    const result = fn();
+    if (Array.isArray(result)) return result;
+    return [];
+  } catch {
+    return [];
+  }
+}
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 
 function checkCmsAuth(request: Request): boolean {
@@ -191,16 +211,12 @@ export async function GET(req: NextRequest) {
     const sectionsRaw = parseSectionsRaw(block);
     const customSchemaRaw = parseCustomSchema(block);
 
-    // Try to parse sections as JSON (they're stored as JS object literals - attempt best-effort)
+    // Parse sections from the JS object literal format
     let sections: unknown[] = [];
     try {
-      // Replace unquoted keys with quoted keys for JSON compatibility
-      const jsonified = sectionsRaw
-        .replace(/(\w+):/g, '"$1":')
-        .replace(/'/g, '"');
-      sections = JSON.parse(jsonified);
+      sections = parseJsLiteralArray(sectionsRaw);
     } catch {
-      // Return raw string if parsing fails - editor will show raw mode
+      // Return empty array if parsing fails - editor will show raw mode
       sections = [];
     }
 
