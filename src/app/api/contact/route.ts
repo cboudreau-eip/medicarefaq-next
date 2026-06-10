@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDb } from "@/lib/chat-log/db";
 
-const NOTIFICATION_EMAIL = "cboudreau@teameip.com";
+const NOTIFICATION_EMAIL = "marketing@teameip.com";
 
 /**
  * POST /api/contact
