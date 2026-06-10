@@ -241,7 +241,7 @@ export default function EditArticlePage() {
     <SketchLayout onLogout={logout}>
 
       <div className="flex-1 overflow-y-auto">
-        <div className="max-w-3xl mx-auto px-8 py-8">
+        <div className="max-w-5xl mx-auto px-8 py-8">
           {/* Article Header */}
           <div className="flex items-start justify-between mb-8">
             <div>
