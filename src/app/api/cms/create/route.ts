@@ -55,7 +55,8 @@ function encodeBase64(str: string): string {
 /**
  * Escape a string for safe inclusion in a TypeScript string literal.
  */
-function escapeTS(str: string): string {
+function escapeTS(str: string | undefined | null): string {
+  if (!str) return "";
   return str
     .replace(/\\/g, "\\\\")
     .replace(/"/g, '\\"')
@@ -293,31 +294,37 @@ function serializeSections(sections: Section[]): string {
   const lines = sections.map((section) => {
     switch (section.type) {
       case "paragraph":
-        return `      { type: "paragraph", content: "${escapeTS(section.content as string)}" }`;
-      case "heading":
-        return `      { type: "heading", level: ${section.level}, text: "${escapeTS(section.text as string)}", id: "${escapeTS(section.id as string)}" }`;
+        return `      { type: "paragraph", content: "${escapeTS(section.content as string || "")}" }`;
+      case "heading": {
+        const headingText = (section.text as string) || "";
+        const headingId = (section.id as string) || generateId(headingText);
+        return `      { type: "heading", level: ${section.level || 2}, text: "${escapeTS(headingText)}", id: "${escapeTS(headingId)}" }`;
+      }
       case "list": {
-        const items = (section.items as string[]).map((i) => `"${escapeTS(i)}"`).join(", ");
-        return `      { type: "list", ordered: ${section.ordered}, items: [${items}] }`;
+        const items = ((section.items as string[]) || []).map((i) => `"${escapeTS(i || "")}"`).join(", ");
+        return `      { type: "list", ordered: ${!!section.ordered}, items: [${items}] }`;
       }
       case "table": {
-        const headers = (section.headers as string[]).map((h) => `"${escapeTS(h)}"`).join(", ");
-        const rows = (section.rows as string[][])
-          .map((row) => `[${row.map((c) => `"${escapeTS(c)}"`).join(", ")}]`)
+        const headers = ((section.headers as string[]) || []).map((h) => `"${escapeTS(h || "")}"`).join(", ");
+        const rows = ((section.rows as string[][]) || [])
+          .map((row) => `[${(row || []).map((c) => `"${escapeTS(c || "")}"`).join(", ")}]`)
           .join(", ");
-        return `      { type: "table", title: "${escapeTS((section.title as string) || "")}", headers: [${headers}], rows: [${rows}] }`;
+        const footnote = section.footnote ? `, footnote: "${escapeTS(section.footnote as string)}"` : "";
+        return `      { type: "table", title: "${escapeTS((section.title as string) || "")}", headers: [${headers}], rows: [${rows}]${footnote} }`;
       }
       case "callout":
-        return `      { type: "callout", calloutType: "${section.calloutType}", calloutTitle: "${escapeTS(section.calloutTitle as string)}", calloutText: "${escapeTS(section.calloutText as string)}" }`;
+        return `      { type: "callout", calloutType: "${section.calloutType || "info"}", calloutTitle: "${escapeTS(section.calloutTitle as string || "")}", calloutText: "${escapeTS(section.calloutText as string || "")}" }`;
       case "image":
-        return `      { type: "image", src: "${escapeTS(section.src as string)}", alt: "${escapeTS((section.alt as string) || "")}"${section.caption ? `, caption: "${escapeTS(section.caption as string)}"` : ""} }`;
+        return `      { type: "image", src: "${escapeTS(section.src as string || "")}", alt: "${escapeTS((section.alt as string) || "")}"${section.caption ? `, caption: "${escapeTS(section.caption as string)}"` : ""} }`;
       case "faq": {
         const faqs = (section.faqs as { question: string; answer: string }[]) || [];
         const faqEntries = faqs.map(
-          (f) => `{ question: "${escapeTS(f.question)}", answer: "${escapeTS(f.answer)}" }`
+          (f) => `{ question: "${escapeTS(f?.question || "")}", answer: "${escapeTS(f?.answer || "")}" }`
         );
         return `      { type: "faq", faqs: [${faqEntries.join(", ")}] }`;
       }
+      case "eddie-pro-tip":
+        return `      { type: "eddie-pro-tip", content: "${escapeTS(section.content as string || "")}" }`;
       default:
         // Preserve unknown section types as-is using JSON serialization
         return `      ${JSON.stringify(section)}`;
