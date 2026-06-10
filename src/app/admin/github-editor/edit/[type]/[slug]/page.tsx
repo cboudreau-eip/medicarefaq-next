@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { useParams, useRouter } from "next/navigation";
 import {
   FileText,
@@ -16,6 +16,21 @@ import {
   Sparkles,
   Code,
   Eye,
+  Bold,
+  Italic,
+  Underline,
+  Strikethrough,
+  Link,
+  Heading2,
+  Heading3,
+  List,
+  ListOrdered,
+  Quote,
+  Table,
+  AlignLeft,
+  AlignCenter,
+  AlignRight,
+  Unlink,
 } from "lucide-react";
 import { useCMSAuth } from "../../../components/use-cms-auth";
 import LoginScreen from "../../../components/login-screen";
@@ -74,6 +89,55 @@ export default function EditArticlePage() {
   const [contentViewMode, setContentViewMode] = useState<"html" | "raw" | "preview">("html");
   const [editHtml, setEditHtml] = useState("");
   const [htmlDirty, setHtmlDirty] = useState(false);
+  const htmlTextareaRef = useRef<HTMLTextAreaElement>(null);
+
+  // Toolbar helper: wrap selected text with tags or insert at cursor
+  const wrapSelection = (before: string, after: string) => {
+    const textarea = htmlTextareaRef.current;
+    if (!textarea) return;
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const selected = editHtml.slice(start, end);
+    const replacement = `${before}${selected}${after}`;
+    const newHtml = editHtml.slice(0, start) + replacement + editHtml.slice(end);
+    setEditHtml(newHtml);
+    setHtmlDirty(true);
+    // Restore cursor position after the inserted text
+    setTimeout(() => {
+      textarea.focus();
+      const cursorPos = start + before.length + selected.length;
+      textarea.setSelectionRange(cursorPos, cursorPos);
+    }, 0);
+  };
+
+  const insertAtCursor = (text: string) => {
+    const textarea = htmlTextareaRef.current;
+    if (!textarea) return;
+    const start = textarea.selectionStart;
+    const newHtml = editHtml.slice(0, start) + text + editHtml.slice(start);
+    setEditHtml(newHtml);
+    setHtmlDirty(true);
+    setTimeout(() => {
+      textarea.focus();
+      const cursorPos = start + text.length;
+      textarea.setSelectionRange(cursorPos, cursorPos);
+    }, 0);
+  };
+
+  const insertLink = () => {
+    const url = prompt("Enter URL:");
+    if (!url) return;
+    const textarea = htmlTextareaRef.current;
+    if (!textarea) return;
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const selected = editHtml.slice(start, end) || "link text";
+    const replacement = `<a href="${url}">${selected}</a>`;
+    const newHtml = editHtml.slice(0, start) + replacement + editHtml.slice(end);
+    setEditHtml(newHtml);
+    setHtmlDirty(true);
+    setTimeout(() => { textarea.focus(); }, 0);
+  };
 
   // Save state
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
@@ -636,7 +700,60 @@ export default function EditArticlePage() {
                     <p className="text-xs text-gray-500">
                       Edit page content as HTML. Supports: headings (h2/h3), paragraphs, lists, tables, blockquotes (callouts), images, and FAQ (dl).
                     </p>
+                    {/* Formatting Toolbar */}
+                    <div className="flex items-center gap-0.5 border border-gray-200 rounded-lg px-2 py-1.5 bg-white flex-wrap">
+                      <button type="button" onClick={() => wrapSelection("<strong>", "</strong>")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Bold">
+                        <Bold className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => wrapSelection("<em>", "</em>")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Italic">
+                        <Italic className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => wrapSelection("<u>", "</u>")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Underline">
+                        <Underline className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => wrapSelection("<s>", "</s>")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Strikethrough">
+                        <Strikethrough className="w-4 h-4" />
+                      </button>
+                      <div className="w-px h-5 bg-gray-200 mx-1" />
+                      <button type="button" onClick={insertLink} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Insert Link">
+                        <Link className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => wrapSelection("", "")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Remove Link (manual)">
+                        <Unlink className="w-4 h-4" />
+                      </button>
+                      <div className="w-px h-5 bg-gray-200 mx-1" />
+                      <button type="button" onClick={() => wrapSelection("<h2>", "</h2>")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Heading 2">
+                        <Heading2 className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => wrapSelection("<h3>", "</h3>")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Heading 3">
+                        <Heading3 className="w-4 h-4" />
+                      </button>
+                      <div className="w-px h-5 bg-gray-200 mx-1" />
+                      <button type="button" onClick={() => insertAtCursor("\n<ul>\n  <li>Item</li>\n  <li>Item</li>\n</ul>\n")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Unordered List">
+                        <List className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => insertAtCursor("\n<ol>\n  <li>Item</li>\n  <li>Item</li>\n</ol>\n")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Ordered List">
+                        <ListOrdered className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => insertAtCursor('\n<blockquote data-type="info" data-title="Note">\n  Your callout text here\n</blockquote>\n')} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Blockquote / Callout">
+                        <Quote className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => insertAtCursor('\n<table>\n  <thead>\n  <tr>\n    <th>Header 1</th>\n    <th>Header 2</th>\n  </tr>\n  </thead>\n  <tbody>\n  <tr>\n    <td>Cell 1</td>\n    <td>Cell 2</td>\n  </tr>\n  </tbody>\n</table>\n')} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Table">
+                        <Table className="w-4 h-4" />
+                      </button>
+                      <div className="w-px h-5 bg-gray-200 mx-1" />
+                      <button type="button" onClick={() => wrapSelection("<p>", "</p>")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Paragraph">
+                        <AlignLeft className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => insertAtCursor('\n<img src="" alt="" />\n')} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Image">
+                        <ImageIcon className="w-4 h-4" />
+                      </button>
+                      <button type="button" onClick={() => wrapSelection("<code>", "</code>")} className="p-1.5 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors" title="Inline Code">
+                        <Code className="w-4 h-4" />
+                      </button>
+                    </div>
                     <textarea
+                      ref={htmlTextareaRef}
                       value={editHtml}
                       onChange={(e) => {
                         setEditHtml(e.target.value);
