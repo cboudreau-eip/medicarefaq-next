@@ -53,6 +53,8 @@ const quickLinks = [
 ];
 
 export default function Contact() {  const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState("");
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -68,9 +70,29 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
     window.scrollTo(0, 0);
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSubmitting(true);
+    setSubmitError("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        const data = await res.json();
+        setSubmitError(data.error || "Something went wrong. Please try again or call us directly.");
+      }
+    } catch {
+      setSubmitError("Network error. Please check your connection and try again, or call us directly.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const handleChange = (field: string, value: string) => {
@@ -337,12 +359,24 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
                       <Link href="/privacy-policy" className="text-teal-600 hover:underline">Privacy Policy</Link>
                     </p>
 
+                    {/* Error message */}
+                    {submitError && (
+                      <div className="p-3 bg-red-50 border border-red-200 rounded-lg text-sm text-red-700">
+                        {submitError}
+                      </div>
+                    )}
+
                     {/* Submit */}
                     <button
                       type="submit"
-                      className="w-full sm:w-auto bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors flex items-center justify-center gap-2"
+                      disabled={submitting}
+                      className="w-full sm:w-auto bg-teal-600 hover:bg-teal-700 disabled:bg-teal-400 disabled:cursor-not-allowed text-white font-semibold px-8 py-3 rounded-lg transition-colors flex items-center justify-center gap-2"
                     >
-                      <Send className="w-4 h-4" /> Send Message
+                      {submitting ? (
+                        <><span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" /> Sending...</>
+                      ) : (
+                        <><Send className="w-4 h-4" /> Send Message</>
+                      )}
                     </button>
                   </form>
                 )}
