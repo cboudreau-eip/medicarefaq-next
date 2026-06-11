@@ -5575,6 +5575,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: "7 min read",
       featured: false,
       image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=800&h=500&fit=crop",
+      buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/17652241-understanding-the-intersection-of-tricare-va-benefits-and-medicare.mp3?download=true",
+      podcastDate: "June 12, 2025",
+      podcastDuration: "9:17",
       keyTakeaways: ["Veterans can coordinate TRICARE, VA benefits, and Medicare for comprehensive coverage", "Medicare becomes primary at age 65 for most beneficiaries, even with active TRICARE coverage", "Proper enrollment timing prevents gaps and penalties in your healthcare coverage"],
       tableOfContents: [
         { id: "coverage-overview", title: "Coverage Overview for Veterans" },
@@ -5662,6 +5665,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: '9 min read',
       featured: false,
       image: 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=800&h=500&fit=crop',
+      buzzsproutUrl: 'https://www.buzzsprout.com/1033063/episodes/18178406-medicare-and-vision-dental-and-hearing-what-are-your-options.mp3?download=true',
+      podcastDate: 'November 21, 2025',
+      podcastDuration: '7:44',
       keyTakeaways: [
         'Original Medicare (Part A & B) does not cover vision, dental, or hearing services, leaving beneficiaries responsible for 100% of costs',
         'Medicare Advantage plans often include vision, dental, and hearing benefits, though coverage varies significantly by plan and location',
