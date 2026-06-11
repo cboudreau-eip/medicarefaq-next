@@ -6507,6 +6507,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: '4 minutes',
       featured: false,
       image: "https://images.pexels.com/photos/8815844/pexels-photo-8815844.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      buzzsproutUrl: 'https://www.buzzsprout.com/1033063/episodes/18363001-special-enrollment-period-available-for-clients-whose-coverage-ended-without-selecting-a-new-plan.mp3?download=true',
+      podcastDate: 'December 16, 2025',
+      podcastDuration: '4:55',
       keyTakeaways: [
         'Losing employer or union coverage qualifies you for a Special Enrollment Period to enroll in Medicare without penalties',
         'You have 8 months from losing coverage to enroll without late enrollment penalties',
