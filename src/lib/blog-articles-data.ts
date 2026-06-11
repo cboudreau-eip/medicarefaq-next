@@ -3600,6 +3600,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "6 min read",
     featured: false,
     image: "https://images.pexels.com/photos/7551617/pexels-photo-7551617.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18788019-why-medicare-supplements-offer-network-free-healthcare.mp3?download=true",
+    podcastDate: "March 6, 2026",
+    podcastDuration: "6:02",
     tableOfContents: [
       { id: "understanding-network-free-healthcare", title: "Understanding Network-Free Healthcare" },
       { id: "doctor-and-specialist-access", title: "Doctor and Specialist Access" },
@@ -3839,6 +3842,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: "8 min read",
       featured: false,
       image: "/images/generated/can-you-get-medicare.png",
+      buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18095841-can-you-get-medicare-without-receiving-social-security-benefits.mp3?download=true",
+      podcastDate: "October 31, 2025",
+      podcastDuration: "5:47",
       imageAlt: "Can You Get Medicare without Receiving Social Security Benefits? | MedicareFAQ",
       keyTakeaways: ["You can enroll in Medicare at 65 without receiving Social Security benefits, but you must apply separately for Medicare.", "If you delay Social Security past 65, you should still sign up for Medicare on time to avoid paying higher premiums for life.", "Working past 65 and having employer coverage doesn't automatically exempt you from Medicare enrollment requirements.", "Missing Medicare\'s initial enrollment period can result in permanent late enrollment penalties unless you have qualifying coverage."],
       tableOfContents: [
