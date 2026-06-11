@@ -1,14 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import { S3Client, ListObjectsV2Command, GetObjectCommand } from "@aws-sdk/client-s3";
 
-const s3 = new S3Client({
-  region: process.env.AWS_REGION || "us-east-2",
-  credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID || "",
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || "",
-  },
-  forcePathStyle: true,
-});
+function getS3Client() {
+  return new S3Client({
+    region: process.env.AWS_REGION || "us-east-2",
+    credentials: {
+      accessKeyId: process.env.AWS_ACCESS_KEY_ID || "",
+      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || "",
+    },
+  });
+}
 
 const BUCKET = process.env.S3_BUCKET_NAME || "marketing-manus-scraper";
 const PREFIX = "incoming/";
@@ -43,6 +44,7 @@ export async function POST(req: NextRequest) {
     const alreadyIngested: string[] = (body.alreadyIngested as string[]) || [];
 
     // List all objects in the incoming prefix
+    const s3 = getS3Client();
     const listResp = await s3.send(
       new ListObjectsV2Command({
         Bucket: BUCKET,
