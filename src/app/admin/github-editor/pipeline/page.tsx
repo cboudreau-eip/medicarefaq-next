@@ -1,6 +1,10 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { useCMSAuth } from "../components/use-cms-auth";
+import LoginScreen from "../components/login-screen";
+import SketchLayout from "../components/sketch-layout";
+import "../sketch-theme.css";
 import {
   Download,
   Eye,
@@ -80,6 +84,7 @@ function saveItems(items: PipelineItem[]) {
 }
 
 export default function PipelinePage() {
+  const { authenticated, authLoading, login, logout } = useCMSAuth();
   const [activeTab, setActiveTab] = useState<Tab>("intake");
   const [items, setItems] = useState<PipelineItem[]>([]);
   const [isPolling, setIsPolling] = useState(false);
@@ -281,8 +286,21 @@ export default function PipelinePage() {
     { id: "output", label: "Output", icon: FileText, count: doneItems.length },
   ];
 
+  if (authLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: "#fdfbf3" }}>
+        <Loader2 className="w-6 h-6 animate-spin text-[#2b2b2b]" />
+      </div>
+    );
+  }
+
+  if (!authenticated) {
+    return <LoginScreen onLogin={login} />;
+  }
+
   return (
-    <div className="max-w-6xl mx-auto">
+    <SketchLayout onLogout={logout}>
+    <div className="flex-1 px-6 py-6 max-w-6xl mx-auto w-full">
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-gray-900">Content Pipeline</h1>
         <p className="text-gray-600 mt-1">
@@ -821,5 +839,6 @@ export default function PipelinePage() {
         </div>
       )}
     </div>
+    </SketchLayout>
   );
 }
