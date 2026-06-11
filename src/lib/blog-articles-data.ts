@@ -3310,6 +3310,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "4 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&h=500&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18788099-medicare-supplement-and-pre-existing-conditions-what-you-need-to-know.mp3?download=true",
+    podcastDate: "March 10, 2026",
+    podcastDuration: "4:36",
     tableOfContents: [
       { id: "understanding-pre-existing-conditions-in-medigap", title: "Understanding Pre-Existing Conditions in Medigap" },
       { id: "medigap-enrollment-timing", title: "Medigap Enrollment Timing" },
@@ -3366,6 +3369,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "5 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1761839257647-df30867afd54?w=1200&h=675&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18788092-how-the-medicare-part-b-giveback-can-lower-your-monthly-costs.mp3?download=true",
+    podcastDate: "March 10, 2026",
+    podcastDuration: "4:55",
     tableOfContents: [
       { id: "understanding-medicare-part-b-premiums", title: "Understanding Medicare Part B Premiums" },
       { id: "how-the-part-b-giveback-works", title: "How the Part B Giveback Works" },
