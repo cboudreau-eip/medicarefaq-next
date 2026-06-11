@@ -3422,6 +3422,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "4 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=500&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18788087-medicare-advantage-for-chronic-conditions-what-you-need-to-know.mp3?download=true",
+    podcastDate: "March 10, 2026",
+    podcastDuration: "4:22",
     tableOfContents: [
       { id: "understanding-chronic-conditions-in-medicare", title: "Understanding Chronic Conditions in Medicare" },
       { id: "special-needs-plans-for-chronic-conditions", title: "Special Needs Plans (SNPs) for Chronic Conditions" },
@@ -3480,6 +3483,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "3 min read",
     featured: false,
     image: "https://images.pexels.com/photos/8815834/pexels-photo-8815834.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18788068-understanding-how-medicare-works-with-employer-health-plans.mp3?download=true",
+    podcastDate: "March 9, 2026",
+    podcastDuration: "4:58",
     tableOfContents: [
       { id: "primary-vs-secondary-payer-rules", title: "Primary vs Secondary Payer Rules" },
       { id: "employer-coverage-size-and-medicare-coordination", title: "Employer Coverage Size and Medicare Coordination" },
@@ -3534,6 +3540,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "4 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1758686253677-d3af6c15186e?w=1200&h=675&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18788026-why-medicare-supplements-offer-peace-of-mind.mp3?download=true",
+    podcastDate: "March 6, 2026",
+    podcastDuration: "4:44",
     tableOfContents: [
       { id: "what-peace-of-mind-means-in-healthcare", title: "What Peace of Mind Means in Healthcare" },
       { id: "predictable-costs-and-financial-security", title: "Predictable Costs and Financial Security" },
