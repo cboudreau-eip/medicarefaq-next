@@ -2953,6 +2953,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "14 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&h=500&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18821999-medicare-supplement-vs-medicare-advantage-coverage-transparency-explained.mp3?download=true",
+    podcastDate: "March 12, 2026",
+    podcastDuration: "4:51",
     tableOfContents: [
       { id: "key-differences", title: "Key Differences between Medigap and Medicare Advantage" },
       { id: "understanding-coverage-transparency", title: "Understanding Coverage Transparency" },
@@ -3013,6 +3016,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "15 min read",
     featured: false,
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medigap-free-look-period-26gTzHKZVASvbTToGfDP6m.webp",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18788244-how-the-medigap-free-look-period-protects-you.mp3?download=true",
+    podcastDate: "March 11, 2026",
+    podcastDuration: "4:41",
     keyTakeaways: [
       "The Medigap free look period gives you 30 days to evaluate a new Medicare Supplement policy without commitment",
       "During this period, you can compare your new policy with your current one to ensure it meets your healthcare and financial needs",
