@@ -261,13 +261,17 @@ export default function PipelinePage() {
     updateItems((prev) => prev.filter((i) => i.status !== status));
   };
 
-  // --- FILTERED LISTS ---
-  const ingestedItems = items.filter((i) => i.status === "ingested");
-  const briefedItems = items.filter((i) => i.status === "briefed");
-  const approvedItems = items.filter((i) => i.status === "approved" || i.status === "producing");
-  const doneItems = items.filter((i) => i.status === "done");
-  const rejectedItems = items.filter((i) => i.status === "rejected");
-  const failedItems = items.filter((i) => i.status === "failed");
+  // --- FILTERED LISTS (newest first) ---
+  const sortNewest = (a: PipelineItem, b: PipelineItem) =>
+    new Date(b.ingestedAt || 0).getTime() - new Date(a.ingestedAt || 0).getTime();
+  const ingestedItems = items.filter((i) => i.status === "ingested").sort(sortNewest);
+  const briefedItems = items.filter((i) => i.status === "briefed").sort(sortNewest);
+  const approvedItems = items.filter((i) => i.status === "approved" || i.status === "producing").sort(sortNewest);
+  const doneItems = items.filter((i) => i.status === "done").sort((a, b) =>
+    new Date(b.producedAt || 0).getTime() - new Date(a.producedAt || 0).getTime()
+  );
+  const rejectedItems = items.filter((i) => i.status === "rejected").sort(sortNewest);
+  const failedItems = items.filter((i) => i.status === "failed").sort(sortNewest);
 
   // --- TABS ---
   const tabs: { id: Tab; label: string; icon: any; count: number }[] = [
