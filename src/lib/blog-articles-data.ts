@@ -5929,6 +5929,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: '7 min read',
       featured: false,
       image: "https://images.pexels.com/photos/7551617/pexels-photo-7551617.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      buzzsproutUrl: 'https://www.buzzsprout.com/1033063/episodes/18259375-how-medicare-handles-skilled-nursing-vs-custodial-care.mp3?download=true',
+      podcastDate: 'December 5, 2025',
+      podcastDuration: '4:39',
       keyTakeaways: [
         'Medicare Part A covers skilled nursing care in certified facilities for up to 100 days following a qualifying hospital stay, with beneficiary costs increasing after day 20',
         'Custodial care--assistance with daily living activities--is never covered by Medicare and must be paid out-of-pocket or through Medicaid or private insurance',
