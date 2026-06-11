@@ -4697,6 +4697,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: "8 min read",
       featured: false,
       image: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18191495-the-hidden-trade-offs-of-0-premium-medicare-advantage-plans.mp3?download=true",
+      podcastDate: "November 21, 2025",
+      podcastDuration: "5:34",
       keyTakeaways: ["$0 premium Medicare Advantage plans eliminate the Part B premium ($202.90/month in 2026), but this saving may be offset by higher out-of-pocket costs at the doctor's office and hospital", "Network restrictions mean you can only see in-network providers, and going out-of-network costs significantly more or may not be covered at all", "These plans often include dental, vision, and hearing coverage that Original Medicare doesn\'t offer, which can provide real value if you use those services", "Your total costs depend on your health status, where you live, and which providers and services you use most, so comparing your specific situation matters more than the $0 premium alone"],
       tableOfContents: [
         { id: "why-zero-premium-plans-exist", title: "Why do $0 Premium Medicare Advantage Plans Exist?" },
