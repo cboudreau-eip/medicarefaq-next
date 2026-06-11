@@ -254,6 +254,9 @@ export interface BlogArticleData {
   imageAlt?: string;
   youtubeVideoId?: string;
   youtubeVideoTitle?: string;
+  buzzsproutUrl?: string;    // Direct MP3 URL from Buzzsprout for podcast player
+  podcastDate?: string;      // e.g. "March 12, 2026"
+  podcastDuration?: string;  // e.g. "5:18"
 
   // Full article content
   keyTakeaways?: string[];

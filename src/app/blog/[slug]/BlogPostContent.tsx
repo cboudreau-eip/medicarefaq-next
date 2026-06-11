@@ -33,6 +33,7 @@ import {
 import { motion } from "framer-motion";
 import type { BlogArticleData, BlogSectionContent } from "@/lib/article-types";
 import EddieProTip from "@/components/EddieProTip";
+import PodcastPlayer from "@/components/PodcastPlayer";
 import { blogArticles } from "@/lib/blog-articles-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
 import { coverageArticles } from "@/lib/coverage-data";
@@ -516,6 +517,16 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   )}
                 </div>
               )}
+              {/* Podcast Player */}
+              {article.buzzsproutUrl && (
+                <PodcastPlayer
+                  audioUrl={article.buzzsproutUrl}
+                  title={article.title}
+                  date={article.podcastDate || article.date}
+                  duration={article.podcastDuration || ""}
+                />
+              )}
+
               {/* Key takeaways */}
               {article.keyTakeaways && article.keyTakeaways.length > 0 && (
                 <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">

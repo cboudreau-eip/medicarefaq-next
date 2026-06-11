@@ -2892,6 +2892,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "10 min read",
     featured: true,
     image: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18821983-medicare-automatic-enrollment-vs-manual-enrollment-what-s-the-difference.mp3?download=true",
+    podcastDate: "March 12, 2026",
+    podcastDuration: "5:18",
     tableOfContents: [
       { id: "what-is-automatic-enrollment", title: "What is Automatic Enrollment?" },
       { id: "what-is-manual-voluntary-enrollment", title: "What is Manual (Voluntary) Enrollment?" },
