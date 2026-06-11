@@ -4191,6 +4191,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: "8 min read",
       featured: false,
       image: "https://images.pexels.com/photos/8815851/pexels-photo-8815851.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/17652283-transitioning-to-medicare-after-employer-coverage-ends-a-step-by-step-guide.mp3?download=true",
+      podcastDate: "June 20, 2025",
+      podcastDuration: "6:56",
       keyTakeaways: ["Losing employer coverage qualifies you for a Special Enrollment Period, giving you 60 days to enroll in Medicare without late penalties", "You must enroll in Medicare Part A and Part B even if you're still working, unless your employer has fewer than 20 employees", "Coordinate your employer plan end date with your Medicare start date to avoid gaps or overlaps in coverage", "In 2026, Part B costs $202.90 per month with a $283 deductible, and Part A has a $1,736 deductible for hospital stays"],
       tableOfContents: [
         { id: "understanding-employer-coverage-transition", title: "Understanding Your Employer Coverage Transition" },
@@ -4357,6 +4360,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: "8 min read",
       featured: false,
       image: "/images/generated/what-happens-to-your.png",
+      buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/17859521-what-happens-to-your-medicare-when-you-move-states.mp3?download=true",
+      podcastDate: "October 6, 2025",
+      podcastDuration: "6:46",
       imageAlt: "What Happens to Your Medicare When You Move States? | MedicareFAQ",
       keyTakeaways: ["Original Medicare (Parts A and B) works the same in every state, so your coverage doesn't change when you move", "Medicare Advantage and Part D plans are state-specific, and your current plan may not be available in your new state", "You have a special enrollment period to change plans when you move, even outside the normal Annual Enrollment Period", "Contact your plans 2-3 months before moving to understand your options and avoid coverage gaps"],
       tableOfContents: [
