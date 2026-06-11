@@ -5089,6 +5089,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: "7 min read",
       featured: false,
       image: "https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=800&h=500&fit=crop",
+      buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/17665786-medicare-parts-a-b-c-and-d-explained-simply.mp3?download=true",
+      podcastDate: "August 15, 2025",
+      podcastDuration: "8:42",
       keyTakeaways: ["Part A covers hospital care, Part B covers doctor visits and outpatient services", "Part C is an alternative way to get Parts A and B through private insurers", "Part D covers prescription drugs and is optional but recommended"],
       tableOfContents: [
         { id: "part-a", title: "Medicare Part a: Hospital Insurance" },
@@ -5187,6 +5190,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: "7 min read",
       featured: false,
       image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=500&fit=crop",
+      buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18304575-understanding-medicare-part-b-premiums-deductibles-and-what-s-covered.mp3?download=true",
+      podcastDate: "December 5, 2025",
+      podcastDuration: "5:05",
       keyTakeaways: ["Part B premium is $202.90/month in 2026, with a $283 annual deductible", "Covers doctor visits, outpatient services, and preventive care with 20% coinsurance after deductible", "Income-related adjustments (IRMAA) may increase premiums for higher earners"],
       tableOfContents: [
         { id: "section-1", title: "What is Medicare Part B?" },
