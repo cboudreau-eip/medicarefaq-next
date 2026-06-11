@@ -6323,6 +6323,9 @@ export const blogArticles: BlogArticleData[] = [
       readTime: '9 min read',
       featured: false,
       image: "https://images.pexels.com/photos/8815888/pexels-photo-8815888.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+      buzzsproutUrl: 'https://www.buzzsprout.com/1033063/episodes/18332536-medicare-supplement-plan-f-vs-g-over-time-is-plan-f-still-worth-it.mp3?download=true',
+      podcastDate: 'January 16, 2026',
+      podcastDuration: '4:36',
       keyTakeaways: [
         'Plan F is no longer available to newly eligible Medicare beneficiaries as of January 1, 2020, but existing enrollees can keep it',
         'Plan G now offers nearly identical coverage to Plan F at substantially lower premiums for most beneficiaries',
