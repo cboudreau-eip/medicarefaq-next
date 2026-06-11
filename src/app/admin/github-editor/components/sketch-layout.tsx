@@ -15,6 +15,7 @@ import {
   LogOut,
   Pencil,
   Wand2,
+  Workflow,
 } from "lucide-react";
 import "../sketch-theme.css";
 
@@ -201,6 +202,13 @@ export default function SketchLayout({
               label="Intelligence"
               active={isActive("/admin/github-editor/content-intelligence")}
               rotation={NAV_ROTATIONS[8]}
+            />
+            <NavItem
+              href="/admin/github-editor/pipeline"
+              icon={Workflow}
+              label="Pipeline"
+              active={isActive("/admin/github-editor/pipeline")}
+              rotation={NAV_ROTATIONS[10]}
             />
           </div>
         </div>
