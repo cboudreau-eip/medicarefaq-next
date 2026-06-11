@@ -3096,6 +3096,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "13 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1758691461935-202e2ef6b69f?w=1200&h=675&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18821991-medicare-part-b-annual-deductible-explained-what-you-ll-pay.mp3?download=true",
+    podcastDate: "March 12, 2026",
+    podcastDuration: "4:50",
     tableOfContents: [
       { id: "how-the-part-b-deductible-works", title: "How the Part B Deductible Works" },
       { id: "services-that-count-toward-the-part-b-deductible", title: "Services that Count toward the Part B Deductible" },
