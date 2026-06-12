@@ -145,29 +145,55 @@ export async function GET(request: Request) {
       return NextResponse.json({ draft, sha: file.sha });
     }
 
-    // List all drafts
+    // List all drafts.
+    // NOTE: draft files can be very large (multi-MB) because they may embed
+    // base64 images. Downloading + parsing every file through the GitHub
+    // contents API previously overran serverless limits and returned a
+    // truncated/empty body ("Unexpected end of JSON input").
+    //
+    // Instead we fetch each draft from its raw download_url (CDN, no base64
+    // wrapping) and extract ONLY the small metadata fields via regex, so we
+    // never have to JSON.parse a multi-MB payload just to read a title.
     const files = await githubListDir(DRAFTS_DIR);
-    
-    // Fetch metadata from each draft file (title, updatedAt, category)
-    const drafts = await Promise.all(
-      files.map(async (file) => {
-        try {
-          const fileData = await githubGetFile(`${DRAFTS_DIR}/${file.name}`);
-          if (!fileData) return null;
-          const data = JSON.parse(fileData.content);
-          return {
-            id: file.name.replace(".json", ""),
-            title: data.title || "Untitled",
-            category: data.category || "General",
-            updatedAt: data.updatedAt || data.createdAt || "",
-            createdAt: data.createdAt || "",
-            hasTransformed: !!data.sections && data.sections.length > 0,
-          };
-        } catch {
-          return null;
-        }
-      })
-    );
+
+    const extractField = (text: string, key: string): string => {
+      const m = text.match(new RegExp(`\"${key}\"\\s*:\\s*\"((?:[^\"\\\\]|\\\\.)*)\"`));
+      return m ? m[1] : "";
+    };
+
+    const fetchMeta = async (file: { name: string; download_url: string }) => {
+      try {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 8000);
+        const res = await fetch(file.download_url, {
+          cache: "no-store",
+          signal: controller.signal,
+        });
+        clearTimeout(timer);
+        if (!res.ok) return null;
+        const text = await res.text();
+        return {
+          id: file.name.replace(".json", ""),
+          title: extractField(text, "title") || "Untitled",
+          category: extractField(text, "category") || "General",
+          updatedAt:
+            extractField(text, "updatedAt") || extractField(text, "createdAt") || "",
+          createdAt: extractField(text, "createdAt") || "",
+          hasTransformed: /\"sections\"\s*:\s*\[/.test(text),
+        };
+      } catch {
+        return null;
+      }
+    };
+
+    // Limit concurrency so we don't open 16+ multi-MB connections at once.
+    const drafts: (Awaited<ReturnType<typeof fetchMeta>>)[] = [];
+    const CONCURRENCY = 4;
+    for (let i = 0; i < files.length; i += CONCURRENCY) {
+      const batch = files.slice(i, i + CONCURRENCY);
+      const results = await Promise.all(batch.map(fetchMeta));
+      drafts.push(...results);
+    }
 
     return NextResponse.json({
       drafts: drafts.filter(Boolean).sort((a, b) => {

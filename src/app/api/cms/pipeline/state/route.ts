@@ -125,8 +125,10 @@ export async function POST(req: NextRequest) {
 
     const articleData = await articleResp.json();
 
-    // Step 3: Generate featured image
-    let imageData: any = null;
+    // Step 3: Generate featured image, then commit it to the repo so we store
+    // only a small URL in the draft (NOT a multi-MB base64 blob, which used to
+    // bloat draft files and break the drafts list endpoint).
+    let imageUrl: string | null = null;
     try {
       const imageResp = await fetch(`${baseUrl}/api/cms/generate-image`, {
         method: "POST",
@@ -138,10 +140,24 @@ export async function POST(req: NextRequest) {
         }),
       });
       if (imageResp.ok) {
-        imageData = await imageResp.json();
+        const imageData = await imageResp.json();
+        if (imageData?.base64 && imageData?.fileName) {
+          const commitResp = await fetch(`${baseUrl}/api/cms/commit-image`, {
+            method: "POST",
+            headers: authHeaders,
+            body: JSON.stringify({
+              base64: imageData.base64,
+              fileName: imageData.fileName,
+            }),
+          });
+          if (commitResp.ok) {
+            const commitData = await commitResp.json();
+            imageUrl = commitData?.url || null;
+          }
+        }
       }
     } catch {
-      // Image generation is non-blocking
+      // Image generation/commit is non-blocking
     }
 
     // Step 4: Save as draft
@@ -165,8 +181,7 @@ export async function POST(req: NextRequest) {
           articleData.meta?.seoDescription || brief.description,
         excerpt: articleData.meta?.excerpt || "",
         keyTakeaways: articleData.meta?.keyTakeaways || [],
-        pendingImageBase64: imageData?.base64 || null,
-        pendingImageFileName: imageData?.fileName || null,
+        image: imageUrl || "",
         relatedSlugs: [],
         sourceUrl: item.sourceUrl,
         pipelineId: item.id,
