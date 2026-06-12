@@ -38,6 +38,7 @@ import SketchLayout from "../../../components/sketch-layout";
 import "../../../sketch-theme.css";
 import ImageUpload from "../../../components/image-upload";
 import ArticleHistory from "../../../components/article-history";
+import SeoScorePanel from "../../../components/seo-score-panel";
 import { sectionsToHtml, htmlToSections, serializeSectionsToTS } from "@/lib/html-sections-converter";
 
 interface ArticleDetail {
@@ -645,6 +646,15 @@ export default function EditArticlePage() {
                   </div>
                 </div>
               </div>
+
+              {/* SEO Score Panel */}
+              <SeoScorePanel
+                title={editSeoTitle}
+                description={editSeoDesc}
+                slug={editSlug}
+                html={editHtml}
+                articleTitle={editTitle}
+              />
 
               {/* Body Content Editor */}
               <div className="sketch-section">
