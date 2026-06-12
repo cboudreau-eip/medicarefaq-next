@@ -84,7 +84,7 @@ function saveItems(items: PipelineItem[]) {
 }
 
 export default function PipelinePage() {
-  const { authenticated, authLoading, login, logout } = useCMSAuth();
+  const { authenticated, authLoading, login, logout, authFetch } = useCMSAuth();
   const [activeTab, setActiveTab] = useState<Tab>("intake");
   const [items, setItems] = useState<PipelineItem[]>([]);
   const [isPolling, setIsPolling] = useState(false);
@@ -225,7 +225,7 @@ export default function PipelinePage() {
       prev.map((i) => (i.id === item.id ? { ...i, status: "producing" as const } : i))
     );
     try {
-      const resp = await fetch("/api/cms/pipeline/state", {
+      const resp = await authFetch("/api/cms/pipeline/state", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ item }),

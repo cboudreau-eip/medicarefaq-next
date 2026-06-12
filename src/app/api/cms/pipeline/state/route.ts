@@ -1,5 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 
+// Allow this long-running produce chain (outline -> article -> image -> draft)
+// up to 300s. Note: Vercel Hobby caps at 60s; Pro/Enterprise allow up to 300s.
+export const maxDuration = 300;
+export const runtime = "nodejs";
+
 // Pipeline state is stored in localStorage on the client side
 // This route handles server-side operations: producing articles from approved briefs
 
@@ -57,15 +62,27 @@ export async function POST(req: NextRequest) {
     const protocol = host.includes("localhost") ? "http" : "https";
     const baseUrl = `${protocol}://${host}`;
 
+    // The internal CMS generation routes require auth via the x-cms-password header.
+    // Forward the caller's password (or fall back to the server-side env value) so
+    // these server-to-server calls don't get rejected with 401 Unauthorized.
+    const cmsPassword =
+      req.headers.get("x-cms-password") || process.env.CMS_ADMIN_PASSWORD || "";
+    const authHeaders = {
+      "Content-Type": "application/json",
+      "x-cms-password": cmsPassword,
+    };
+
     // Step 1: Generate outline from the brief keyword
     const outlineResp = await fetch(`${baseUrl}/api/cms/generate-outline`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: authHeaders,
       body: JSON.stringify({
-        keyword: brief.keyword,
+        // generate-outline expects `topic` and `targetKeyword`
+        topic: brief.title,
+        targetKeyword: brief.keyword,
+        targetWordCount: brief.wordCount,
+        additionalInstructions: brief.description,
         secondaryKeywords: brief.secondaryKeywords,
-        wordCount: brief.wordCount,
-        angle: brief.description,
         category: brief.category,
       }),
     });
@@ -86,14 +103,14 @@ export async function POST(req: NextRequest) {
       `${baseUrl}/api/cms/generate-from-outline`,
       {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: authHeaders,
         body: JSON.stringify({
-          keyword: brief.keyword,
-          secondaryKeywords: brief.secondaryKeywords,
-          outline: outline,
-          title: brief.title,
-          category: brief.category,
-          wordCount: brief.wordCount,
+          // generate-from-outline expects `{ outline, settings }`
+          outline,
+          settings: {
+            targetKeyword: brief.keyword,
+            targetWordCount: brief.wordCount,
+          },
         }),
       }
     );
@@ -113,7 +130,7 @@ export async function POST(req: NextRequest) {
     try {
       const imageResp = await fetch(`${baseUrl}/api/cms/generate-image`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: authHeaders,
         body: JSON.stringify({
           title: brief.title,
           category: brief.category,
@@ -136,7 +153,7 @@ export async function POST(req: NextRequest) {
 
     const draftResp = await fetch(`${baseUrl}/api/cms/drafts`, {
       method: "PUT",
-      headers: { "Content-Type": "application/json" },
+      headers: authHeaders,
       body: JSON.stringify({
         id: `pipeline-${slug}`,
         title: articleData.meta?.seoTitle || brief.title,
