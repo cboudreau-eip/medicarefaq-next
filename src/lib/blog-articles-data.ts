@@ -333,6 +333,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-out-of-pocket-costs",
     seo: {
+      focusKeyword: "medicare out of pocket costs",
       title: "Medicare Out-of-Pocket Costs: Guide to Savings | MedicareFAQ",
       description: "Navigate Medicare out-of-pocket costs: premiums, deductibles, copays, and coinsurance. Learn to maximize your savings and manage healthcare expenses.",
       canonical: "https://www.medicarefaq.com/blog/medicare-out-of-pocket-costs/",
@@ -380,7 +381,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "Medicare Part D Costs: What You Pay for Prescription Drug Coverage", id: "medicare-part-d-costs" },
       { type: "paragraph", content: "Part D provides prescription drug coverage, available either as a standalone plan or integrated within a Medicare Advantage plan. In 2026, the **average Part D premium is $34.50 per month**, and the **maximum deductible is $615**. This means some plans require you to pay the full cost of your drugs until you meet this deductible." },
       { type: "list", ordered: false, items: ["**Deductible phase:** You pay the full cost of your prescriptions until you meet your plan's deductible, up to $615.", "**Initial coverage phase:** Your plan begins sharing costs with you after the deductible is met.", "**Catastrophic coverage phase:** Once your true out-of-pocket drug spending reaches **$2,100 in 2026**, you pay $0 for covered prescriptions for the remainder of the year."] },
-      {"type":"eddie-pro-tip","content":"I always tell people to compare their Part D plan annually, even if they're happy with it. Plans change their covered drugs and costs every year. What was a good deal last year might not be this year, especially if you've started new medications. A quick review can save you a lot of money."},
+      { type: "eddie-pro-tip", content: "I always tell people to compare their Part D plan annually, even if they're happy with it. Plans change their covered drugs and costs every year. What was a good deal last year might not be this year, especially if you've started new medications. A quick review can save you a lot of money." },
       { type: "paragraph", content: "The $2,100 catastrophic threshold, a significant improvement from the Inflation Reduction Act, provides a crucial limit on drug costs for beneficiaries with expensive conditions. Higher-income enrollees also pay **IRMAA surcharges on Part D premiums**, ranging from an additional $14.50 to $91.00 per month in 2026. Additionally, delaying Part D enrollment without creditable coverage can result in a **late enrollment penalty**, calculated using the base premium of $38.99 and permanently added to your monthly cost." },
       { type: "heading", level: 2, text: "Does Original Medicare Have an Out-of-Pocket Maximum? Understanding the Coverage Gap", id: "does-original-medicare-have-an-out-of-pocket-maximum" },
       { type: "paragraph", content: "**Original Medicare, which combines Parts A and B, does not have an annual out-of-pocket maximum.** This often surprises new enrollees who expect Medicare to function like employer-sponsored insurance. However, it does not. Your financial exposure under Original Medicare is theoretically unlimited." },
