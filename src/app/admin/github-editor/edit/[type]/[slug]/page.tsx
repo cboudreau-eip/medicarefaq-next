@@ -203,6 +203,23 @@ export default function EditArticlePage() {
     setSaveStatus("saving");
     setSaveMessage("");
     try {
+      // Ensure any unsynced HTML editor changes are captured before publishing.
+      // The HTML editor edits `editHtml` but the publish payload uses `editSectionsRaw`,
+      // which only updates when the user clicks "Apply Changes". Sync it automatically here.
+      let sectionsRawToPublish = editSectionsRaw;
+      if (contentViewMode === "html" || htmlDirty) {
+        try {
+          const sections = htmlToSections(editHtml);
+          const tsString = serializeSectionsToTS(sections);
+          sectionsRawToPublish = tsString;
+          setEditSectionsRaw(tsString);
+          setHtmlDirty(false);
+        } catch (syncErr) {
+          // If conversion fails, fall back to existing raw value
+          console.error("HTML->sections sync failed during publish:", syncErr);
+        }
+      }
+
       // If there's a pending AI-generated image, commit it to GitHub first
       let finalImageUrl = editImage;
       if (pendingImageBase64 && pendingImageFileName) {
@@ -236,7 +253,7 @@ export default function EditArticlePage() {
           ogImage: editOgImage,
           image: finalImageUrl,
           imageAlt: editImageAlt,
-          sectionsRaw: editSectionsRaw,
+          sectionsRaw: sectionsRawToPublish,
           customSchemaRaw: editCustomSchema || undefined,
         }),
       });
