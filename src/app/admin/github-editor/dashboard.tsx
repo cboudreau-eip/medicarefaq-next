@@ -11,6 +11,7 @@ import {
   Calendar,
   Clock,
   ImageIcon,
+  RefreshCw,
 } from "lucide-react";
 import { useCMSAuth } from "./components/use-cms-auth";
 import { useArticles } from "./components/use-articles";
@@ -115,7 +116,7 @@ function SketchArticleCard({ article, index }: { article: ArticleListItem; index
 
 export default function GitHubEditorDashboard() {
   const { authenticated, authLoading, login, logout, authFetch } = useCMSAuth();
-  const { articles, loading, error, blogCount, faqCount, totalCount } = useArticles({
+  const { articles, loading, error, blogCount, faqCount, totalCount, refresh } = useArticles({
     authenticated,
     authFetch,
     typeFilter: "all",
@@ -191,6 +192,15 @@ export default function GitHubEditorDashboard() {
               style={{ borderRadius: "255px 15px 225px 15px / 15px 225px 15px 255px", fontFamily: "'Patrick Hand', cursive" }}
             />
           </div>
+          <button
+            onClick={() => refresh()}
+            disabled={loading}
+            className="flex items-center gap-2 text-base px-4 py-2.5 bg-white border-[2.5px] border-[#2b2b2b] hover:shadow-[3px_3px_0_#2b2b2b] hover:-translate-y-0.5 transition-all disabled:opacity-50"
+            style={{ borderRadius: "255px 15px 225px 15px / 15px 225px 15px 255px" }}
+            title="Refresh articles"
+          >
+            <RefreshCw className={`w-4 h-4 ${loading ? "animate-spin" : ""}`} style={{ strokeWidth: 2.4 }} />
+          </button>
           <button
             onClick={() => setSortMode(sortMode === "recent" ? "alpha" : "recent")}
             className="flex items-center gap-2 text-base px-4 py-2.5 bg-white border-[2.5px] border-[#2b2b2b] hover:shadow-[3px_3px_0_#2b2b2b] hover:-translate-y-0.5 transition-all"
