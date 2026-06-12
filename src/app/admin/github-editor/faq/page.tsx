@@ -10,6 +10,7 @@ import {
   Plus,
   Calendar,
   ImageIcon,
+  RefreshCw,
 } from "lucide-react";
 import { useCMSAuth } from "../components/use-cms-auth";
 import { useArticles } from "../components/use-articles";
@@ -58,7 +59,7 @@ function SketchArticleCard({ article, index }: { article: ArticleListItem; index
 
 export default function FAQArticlesPage() {
   const { authenticated, authLoading, login, logout, authFetch } = useCMSAuth();
-  const { articles, loading, error, blogCount, faqCount, totalCount } = useArticles({ authenticated, authFetch, typeFilter: "coverage" });
+  const { articles, loading, error, blogCount, faqCount, totalCount, refresh } = useArticles({ authenticated, authFetch, typeFilter: "coverage" });
   const [search, setSearch] = useState("");
   const [sortMode, setSortMode] = useState<SortMode>("recent");
 
@@ -86,6 +87,9 @@ export default function FAQArticlesPage() {
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#888888]" style={{ strokeWidth: 2.4 }} />
             <input type="text" placeholder="Search by title or slug..." value={search} onChange={(e) => setSearch(e.target.value)} className="w-64 pl-9 pr-3 py-2.5 text-base bg-white border-[2.5px] border-[#2b2b2b] focus:shadow-[3px_3px_0_#2b2b2b] focus:outline-none transition-all placeholder:text-[#9a9a9a]" style={{ borderRadius: "255px 15px 225px 15px / 15px 225px 15px 255px", fontFamily: "'Patrick Hand', cursive" }} />
           </div>
+          <button onClick={() => refresh()} disabled={loading} className="flex items-center gap-2 text-base px-4 py-2.5 bg-white border-[2.5px] border-[#2b2b2b] hover:shadow-[3px_3px_0_#2b2b2b] hover:-translate-y-0.5 transition-all disabled:opacity-50" style={{ borderRadius: "255px 15px 225px 15px / 15px 225px 15px 255px" }} title="Refresh articles">
+            <RefreshCw className={`w-4 h-4 ${loading ? "animate-spin" : ""}`} style={{ strokeWidth: 2.4 }} />
+          </button>
           <button onClick={() => setSortMode(sortMode === "recent" ? "alpha" : "recent")} className="flex items-center gap-2 text-base px-4 py-2.5 bg-white border-[2.5px] border-[#2b2b2b] hover:shadow-[3px_3px_0_#2b2b2b] hover:-translate-y-0.5 transition-all" style={{ borderRadius: "255px 15px 225px 15px / 15px 225px 15px 255px" }}>
             <ArrowUpDown className="w-4 h-4" style={{ strokeWidth: 2.4 }} />{sortMode === "recent" ? "Most Recent" : "A\u2013Z"}
           </button>
