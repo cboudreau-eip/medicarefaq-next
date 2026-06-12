@@ -686,9 +686,25 @@ export default function PipelinePage() {
       {/* QUEUE TAB */}
       {activeTab === "queue" && (
         <div className="space-y-4">
-          <p className="text-sm text-gray-600">
-            {approvedItems.length} article(s) in production queue
-          </p>
+          <div className="flex items-center justify-between">
+            <p className="text-sm text-gray-600">
+              {approvedItems.length} article(s) in production queue
+            </p>
+            {approvedItems.some((i) => i.status !== "producing") && (
+              <button
+                onClick={() => {
+                  if (confirm("Remove all articles from the production queue? This cannot be undone.")) {
+                    handleDeleteAll("approved");
+                  }
+                }}
+                disabled={!!isProducing}
+                className="flex items-center gap-1 px-3 py-1.5 text-sm text-red-600 hover:bg-red-50 rounded-lg disabled:opacity-50"
+              >
+                <Trash2 size={14} />
+                Clear queue
+              </button>
+            )}
+          </div>
 
           {approvedItems.length === 0 ? (
             <div className="bg-white border border-gray-200 rounded-xl p-8 text-center text-gray-500">
@@ -713,21 +729,31 @@ export default function PipelinePage() {
                       <span>{item.brief?.category}</span>
                     </div>
                   </div>
-                  <div className="ml-4">
+                  <div className="ml-4 flex items-center gap-2">
                     {item.status === "producing" ? (
                       <div className="flex items-center gap-2 text-sm text-amber-600">
                         <Loader2 size={16} className="animate-spin" />
                         Producing...
                       </div>
                     ) : (
-                      <button
-                        onClick={() => handleProduce(item)}
-                        disabled={!!isProducing}
-                        className="flex items-center gap-2 px-4 py-2 text-sm bg-teal-600 text-white rounded-lg hover:bg-teal-700 disabled:opacity-50"
-                      >
-                        <Play size={14} />
-                        Produce Article
-                      </button>
+                      <>
+                        <button
+                          onClick={() => handleProduce(item)}
+                          disabled={!!isProducing}
+                          className="flex items-center gap-2 px-4 py-2 text-sm bg-teal-600 text-white rounded-lg hover:bg-teal-700 disabled:opacity-50"
+                        >
+                          <Play size={14} />
+                          Produce Article
+                        </button>
+                        <button
+                          onClick={() => handleDelete(item.id)}
+                          disabled={!!isProducing}
+                          title="Remove from queue"
+                          className="flex items-center gap-1 px-3 py-2 text-sm bg-red-50 text-red-600 rounded-lg hover:bg-red-100 disabled:opacity-50"
+                        >
+                          <Trash2 size={14} />
+                        </button>
+                      </>
                     )}
                   </div>
                 </div>
