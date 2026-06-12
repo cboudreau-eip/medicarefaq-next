@@ -25,7 +25,8 @@ interface SeoScorePanelProps {
   description: string; // meta description
   slug: string;
   html: string; // body content as HTML
-  keyword?: string; // primary keyword (optional manual input)
+  keyword?: string; // primary keyword (controlled value)
+  onKeywordChange?: (value: string) => void; // called when keyword changes
   articleTitle?: string; // the H1 / article title
 }
 
@@ -52,10 +53,17 @@ export default function SeoScorePanel({
   slug,
   html,
   keyword: keywordProp,
+  onKeywordChange,
   articleTitle,
 }: SeoScorePanelProps) {
   const [expanded, setExpanded] = useState(true);
-  const [keyword, setKeyword] = useState(keywordProp ?? "");
+  // Controlled if onKeywordChange is provided; otherwise falls back to internal state.
+  const [internalKeyword, setInternalKeyword] = useState(keywordProp ?? "");
+  const keyword = onKeywordChange ? (keywordProp ?? "") : internalKeyword;
+  const setKeyword = (value: string) => {
+    if (onKeywordChange) onKeywordChange(value);
+    else setInternalKeyword(value);
+  };
 
   const { score, checks } = useMemo(() => {
     const plainText = stripHtml(html);

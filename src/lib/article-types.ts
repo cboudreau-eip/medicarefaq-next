@@ -90,6 +90,8 @@ export interface ArticleSEO {
   description: string;
   canonical: string;
   ogImage: string;
+  /** Target SEO keyword used by the editor's SEO Score panel. Optional. */
+  focusKeyword?: string;
 }
 
 export interface CoverageArticleData {

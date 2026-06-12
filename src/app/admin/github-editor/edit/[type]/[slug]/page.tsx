@@ -52,6 +52,7 @@ interface ArticleDetail {
     description: string;
     ogImage: string;
     canonical: string;
+    focusKeyword?: string;
   };
   sectionsRaw: string;
   customSchemaRaw?: string;
@@ -81,6 +82,7 @@ export default function EditArticlePage() {
   const [editImage, setEditImage] = useState("");
   const [editImageAlt, setEditImageAlt] = useState("");
   const [editSlug, setEditSlug] = useState("");
+  const [editFocusKeyword, setEditFocusKeyword] = useState("");
   const [editSectionsRaw, setEditSectionsRaw] = useState("");
   const [editCustomSchema, setEditCustomSchema] = useState("");
   const [showSchemaPanel, setShowSchemaPanel] = useState(false);
@@ -174,6 +176,7 @@ export default function EditArticlePage() {
       setEditSeoTitle(data.seo?.title ?? "");
       setEditSeoDesc(data.seo?.description ?? "");
       setEditOgImage(data.seo?.ogImage ?? "");
+      setEditFocusKeyword(data.seo?.focusKeyword ?? "");
       setEditImage(data.image ?? "");
       setEditImageAlt(data.imageAlt ?? "");
       setEditSectionsRaw(data.sectionsRaw ?? "");
@@ -251,6 +254,7 @@ export default function EditArticlePage() {
           seoTitle: editSeoTitle,
           seoDescription: editSeoDesc,
           ogImage: editOgImage,
+          focusKeyword: editFocusKeyword,
           image: finalImageUrl,
           imageAlt: editImageAlt,
           sectionsRaw: sectionsRawToPublish,
@@ -671,6 +675,8 @@ export default function EditArticlePage() {
                 slug={editSlug}
                 html={editHtml}
                 articleTitle={editTitle}
+                keyword={editFocusKeyword}
+                onKeywordChange={setEditFocusKeyword}
               />
 
               {/* Body Content Editor */}

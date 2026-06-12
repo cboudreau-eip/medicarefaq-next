@@ -73,6 +73,7 @@ function patchArticleInSource(
     imageAlt?: string;
     sectionsRaw?: string;
     customSchemaRaw?: string;
+    focusKeyword?: string;
   }
 ): string {
   // Find the slug entry
@@ -149,7 +150,7 @@ function patchArticleInSource(
     }
   }
   // Patch seo fields
-  if (updates.seoTitle !== undefined || updates.seoDescription !== undefined || updates.ogImage !== undefined) {
+  if (updates.seoTitle !== undefined || updates.seoDescription !== undefined || updates.ogImage !== undefined || updates.focusKeyword !== undefined) {
     // Find seo block within the article block
     const seoStart = block.indexOf("seo:");
     if (seoStart !== -1) {
@@ -183,6 +184,19 @@ function patchArticleInSource(
           /(\bogImage:\s*)"(?:[^"\\]|\\.)*"/,
           `$1"${(updates.ogImage || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`
         );
+      }
+      if (updates.focusKeyword != null) {
+        const kwVal = (updates.focusKeyword || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+        if (/focusKeyword:\s*"/.test(seoBlock)) {
+          // Update existing focusKeyword
+          seoBlock = seoBlock.replace(
+            /(\bfocusKeyword:\s*)"(?:[^"\\]|\\.)*"/,
+            `$1"${kwVal}"`
+          );
+        } else {
+          // Insert focusKeyword right after the opening brace of the seo object
+          seoBlock = seoBlock.replace(/^\{/, `{\n      focusKeyword: "${kwVal}",`);
+        }
       }
 
       block = block.slice(0, seoOpenBrace) + seoBlock + block.slice(j + 1);
@@ -264,7 +278,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { slug, type, title, seoTitle, seoDescription, ogImage, image, imageAlt, sectionsRaw, customSchemaRaw, newSlug } = body;
+    const { slug, type, title, seoTitle, seoDescription, ogImage, image, imageAlt, sectionsRaw, customSchemaRaw, newSlug, focusKeyword } = body;
 
     if (!slug || !type) {
       return NextResponse.json({ error: "slug and type required" }, { status: 400 });
@@ -289,6 +303,7 @@ export async function POST(req: NextRequest) {
       imageAlt,
       sectionsRaw,
       customSchemaRaw,
+      focusKeyword,
     });
 
     if (patchedSrc === currentSrc) {

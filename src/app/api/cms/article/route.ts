@@ -110,11 +110,13 @@ function parseSEO(block: string) {
   const descMatch = block.match(/seo:\s*\{[\s\S]*?description:\s*"((?:[^"\\]|\\.)*)"/);
   const ogMatch = block.match(/seo:\s*\{[\s\S]*?ogImage:\s*"((?:[^"\\]|\\.)*)"/);
   const canonicalMatch = block.match(/seo:\s*\{[\s\S]*?canonical:\s*"((?:[^"\\]|\\.)*)"/);
+  const keywordMatch = block.match(/seo:\s*\{[\s\S]*?focusKeyword:\s*"((?:[^"\\]|\\.)*)"/);
   return {
     title: titleMatch ? titleMatch[1] : "",
     description: descMatch ? descMatch[1] : "",
     ogImage: ogMatch ? ogMatch[1] : "",
     canonical: canonicalMatch ? canonicalMatch[1] : "",
+    focusKeyword: keywordMatch ? keywordMatch[1] : "",
   };
 }
 
