@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN ?? "";
@@ -10,6 +11,7 @@ function checkCmsAuth(request: Request): boolean {
     request.headers.get("x-cms-password") ??
     request.headers.get("authorization")?.replace("Bearer ", "") ??
     "";
+  if (verifySessionToken(pw)) return true;
   return pw === CMS_PASSWORD;
 }
 

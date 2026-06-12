@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 import { buildWritingPrompt } from "@/lib/writing-config";
 import type { ValidationIssue } from "@/lib/content-validator";
 
@@ -9,6 +10,7 @@ const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY;
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
   const pw = request.headers.get("x-cms-password") ?? "";
+  if (verifySessionToken(pw)) return true;
   return pw === CMS_PASSWORD;
 }
 

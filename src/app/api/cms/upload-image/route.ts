@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 
 const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
 const REPO = "cboudreau-eip/medicarefaq-next";
@@ -8,7 +9,7 @@ export async function POST(req: NextRequest) {
   // Auth check
   const pw = req.headers.get("x-cms-password");
   const expected = process.env.CMS_ADMIN_PASSWORD ?? "";
-  if (!pw || pw !== expected) {
+  if (!pw || (!verifySessionToken(pw) && pw !== expected)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

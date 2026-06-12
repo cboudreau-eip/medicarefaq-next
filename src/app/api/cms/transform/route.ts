@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 import { buildWritingPrompt } from "@/lib/writing-config";
 import { validateContent } from "@/lib/content-validator";
 import type { ValidationIssue } from "@/lib/content-validator";
@@ -13,6 +14,7 @@ const MAX_RETRIES = 3;
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
   const pw = request.headers.get("x-cms-password") ?? "";
+  if (verifySessionToken(pw)) return true;
   return pw === CMS_PASSWORD;
 }
 

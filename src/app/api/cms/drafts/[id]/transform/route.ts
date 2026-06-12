@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 import { buildWritingPrompt } from "@/lib/writing-config";
 
 const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
@@ -15,10 +16,12 @@ function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
   // Support both x-cms-password header and Bearer token
   const headerPw = request.headers.get("x-cms-password") ?? "";
+  if (verifySessionToken(headerPw)) return true;
   if (headerPw === CMS_PASSWORD) return true;
   const authHeader = request.headers.get("authorization") ?? "";
   if (authHeader.startsWith("Bearer ")) {
     const token = authHeader.slice(7).trim();
+    if (verifySessionToken(token)) return true;
     if (token === CMS_PASSWORD) return true;
   }
   return false;

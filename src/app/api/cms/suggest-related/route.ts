@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
@@ -6,6 +7,7 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
   const pw = request.headers.get("x-cms-password") ?? "";
+  if (verifySessionToken(pw)) return true;
   return pw === CMS_PASSWORD;
 }
 

@@ -3,3 +3,6 @@ node_modules/
 out/
 .env*
 *.tsbuildinfo
+
+# 2FA setup artifacts (contain secrets - never commit)
+scripts/2fa-setup/

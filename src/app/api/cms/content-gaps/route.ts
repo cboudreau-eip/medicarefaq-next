@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 import { blogArticles } from "@/lib/blog-articles-data";
 import { coverageArticles } from "@/lib/coverage-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
@@ -13,6 +14,7 @@ function checkCmsAuth(request: Request): boolean {
     request.headers.get("x-cms-password") ??
     request.headers.get("authorization")?.replace("Bearer ", "") ??
     "";
+  if (verifySessionToken(pw)) return true;
   return pw === CMS_PASSWORD;
 }
 

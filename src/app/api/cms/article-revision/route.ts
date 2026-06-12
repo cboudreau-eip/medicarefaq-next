@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 
 const GITHUB_TOKEN = process.env.GITHUB_PAT ?? process.env.GITHUB_TOKEN ?? "";
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
@@ -7,6 +8,7 @@ const REPO = "cboudreau-eip/medicarefaq-next";
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
   const pw = request.headers.get("x-cms-password") ?? "";
+  if (verifySessionToken(pw)) return true;
   return pw === CMS_PASSWORD;
 }
 

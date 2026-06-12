@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifySessionToken } from "@/lib/cms-auth";
 import { coverageArticles } from "@/lib/coverage-data";
 import { blogArticles } from "@/lib/blog-articles-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
@@ -8,6 +9,7 @@ const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
   const pw = request.headers.get("x-cms-password") ?? "";
+  if (verifySessionToken(pw)) return true;
   return pw === CMS_PASSWORD;
 }
 
