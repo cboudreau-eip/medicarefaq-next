@@ -32,6 +32,46 @@ export async function POST(req: NextRequest) {
     const suggestedTitle = seo.suggestedTitle || title;
     const metaDescription = seo.metaDescription || snippet;
 
+    // ── Detect the FORMAT / intent of the source idea so the brief preserves it ──
+    // The earlier bug only preserved the topic; the title format (e.g. listicle) was lost.
+    const titleForAnalysis = `${title} ${suggestedTitle}`;
+    const lower = titleForAnalysis.toLowerCase();
+    // A listicle number is a small integer (1–99) that is NOT a year (e.g. 2026).
+    // Prefer a number that appears at the very start of the title ("10 Negotiated Drugs...")
+    // or is followed by a plural noun. This avoids treating "2026" or "Part D" as a list count.
+    const leadingNumMatch = title.trim().match(/^(\d{1,2})\b/);
+    const anyListNumMatch = titleForAnalysis.match(/\b([1-9]\d?)\b(?!\s*(?:%|st|nd|rd|th))/);
+    const listNumber = leadingNumMatch
+      ? leadingNumMatch[1]
+      : anyListNumMatch && Number(anyListNumMatch[1]) <= 99
+      ? anyListNumMatch[1]
+      : "";
+
+    let sourceFormat = "standard explainer/guide";
+    let formatInstruction =
+      "Write a clear, helpful explainer-style title. Keep it specific to the topic.";
+
+    if (listNumber) {
+      sourceFormat = `listicle (numbered list of ${listNumber} items)`;
+      formatInstruction = `This is a LISTICLE. Your title MUST keep the listicle format and MUST include the number ${listNumber} (e.g. "${listNumber} ..."). Do NOT convert it into a generic explainer. The article body should be structured as a numbered list of ${listNumber} items.`;
+    } else if (/\bhow to\b|\bhow do\b|\bsteps?\b|\bguide to\b/.test(lower)) {
+      sourceFormat = "how-to / step-by-step guide";
+      formatInstruction =
+        'This is a HOW-TO. Keep a "How to ..." or step-by-step framing in the title and structure the article as actionable steps.';
+    } else if (/\bvs\b|\bversus\b|\bcompared?\b|\bcomparison\b|\bdifference\b/.test(lower)) {
+      sourceFormat = "comparison";
+      formatInstruction =
+        "This is a COMPARISON. Keep the comparison framing (X vs Y) in the title and structure the article to compare the options side by side.";
+    } else if (/\b20\d\d\b|\bnew\b|\bupdate\b|\bchange[sd]?\b|\bannounce/.test(lower)) {
+      sourceFormat = "news / timely update";
+      formatInstruction =
+        "This is a TIMELY/NEWS update. Keep the year and the 'what changed' framing in the title so it reads as current news, not an evergreen explainer.";
+    } else if (/\?$|\bwhat\b|\bwhy\b|\bwhen\b|\bcan i\b|\bdoes\b|\bare\b/.test(lower)) {
+      sourceFormat = "question / FAQ";
+      formatInstruction =
+        "This is a QUESTION-style idea. Keep a question framing in the title and answer it directly in the article.";
+    }
+
     const prompt = `You are a content strategist for MedicareFAQ.com, a Medicare education website for seniors and caregivers.
 
 Given the following source article data, generate a content brief for a new ORIGINAL article we will write for our site.
@@ -48,10 +88,12 @@ SOURCE DATA:
 - Semantic Keywords: ${semanticKeywords.join(", ")}
 - Content Angle: ${contentAngle}
 - Importance Score: ${importanceScore}
+- Detected Source Format: ${sourceFormat}
+- Detected List Number (if listicle): ${listNumber || "none"}
 
 Generate a JSON object with these fields:
 {
-  "title": "Working title for our article (compelling, SEO-friendly, max 70 chars — must be specific to the topic above)",
+  "title": "Working title for our article (compelling, SEO-friendly, max 70 chars — must be specific to the topic above AND must preserve the source format described below)",
   "keyword": "Primary target keyword (must match the topic above)",
   "secondaryKeywords": ["array of 5-8 secondary/semantic keywords relevant to this specific topic"],
   "wordCount": 1200,
@@ -63,11 +105,12 @@ Generate a JSON object with these fields:
 RULES:
 - Our article must be ORIGINAL — not a rewrite of the source
 - The content MUST be specifically about: ${topic}
+- PRESERVE THE SOURCE FORMAT — this is critical. The source idea is a "${sourceFormat}". ${formatInstruction}
 - Focus on actionable advice for Medicare beneficiaries
-- The title should be different from the source title but cover the same topic
+- The title should use different WORDING from the source title, but MUST keep the same topic AND the same format/angle (e.g. if the source is a listicle with a number, keep that number in the title)
 - Word count should be 1000-1500 based on topic complexity
 - Link count should be 6-10 internal links
-- Do NOT generate generic Medicare content — stay tightly focused on the specific topic
+- Do NOT generate generic Medicare content — stay tightly focused on the specific topic and its format
 
 Return ONLY the JSON object, no markdown fences or explanation.`;
 
