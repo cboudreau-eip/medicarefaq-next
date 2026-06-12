@@ -6,9 +6,314 @@
   "category": "General",
   "author": "David Haass",
   "reviewer": "Ashlee Zareczny",
-  "seoTitle": "Medicare Part A Trust Fund Solvency: Hospital Coverage Risk",
-  "seoDescription": "Explore why rising costs & fewer workers threaten Medicare Part A hospital coverage for 70 million beneficiaries by 2031. Understand the HI Trust Fund's solvency challenge.",
+  "seoTitle": "Medicare Part A Trust Fund Solvency by 2031 | MedicareFAQ",
+  "seoDescription": "The Medicare Part A Trust Fund faces depletion by 2031, threatening hospital coverage for 70 million. Learn why and what it means.",
   "id": "medicare-part-a-trust-fund-solvency-why-rising-costs-and-few-mqaytszl",
-  "updatedAt": "2026-06-12T13:31:50.145Z",
-  "createdAt": "2026-06-12T13:31:50.145Z"
+  "updatedAt": "2026-06-12T13:32:13.324Z",
+  "createdAt": "2026-06-12T13:31:50.145Z",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Understanding the Medicare Part A Trust Fund Solvency Challenge",
+      "id": "understanding-the-medicare-part-a-trust-fund-solvency-challenge"
+    },
+    {
+      "type": "paragraph",
+      "content": "Roughly 70 million Americans currently rely on Medicare Part A for hospital coverage. However, the financial foundation supporting that coverage is under serious strain. The Medicare Part A Trust Fund, formally called the Hospital Insurance (HI) Trust Fund, collects payroll taxes and uses those revenues to pay for inpatient hospital stays, skilled nursing facility care, hospice services, and some home health care."
+    },
+    {
+      "type": "paragraph",
+      "content": "The fund operates on a straightforward premise: money in must match money out. When those two sides fall out of balance, as they are increasingly doing, the concept of **solvency** becomes urgent. A solvent trust fund can meet all its obligations without borrowing, while an insolvent one cannot."
+    },
+    {
+      "type": "paragraph",
+      "content": "Today, demographic shifts and relentlessly rising healthcare costs are pushing the fund toward a critical threshold. For the 70.1 million beneficiaries depending on this coverage, understanding what that means, and what policymakers can do about it, matters more than ever."
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "Key Takeaways",
+      "calloutText": "The Medicare Part A Trust Fund is projected to be depleted by 2031, at which point incoming revenues could only cover approximately 89% of scheduled hospital costs. The primary cause is a shrinking ratio of workers paying into the fund relative to the growing number of beneficiaries drawing from it. Congress has the authority and historical precedent to act; a combination of revenue increases and spending reforms can preserve full benefits before depletion occurs."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Looming Depletion: When the Part A Trust Fund Is Projected to Run Out",
+      "id": "the-looming-depletion-when-the-part-a-trust-fund-is-projected-to-run-out"
+    },
+    {
+      "type": "paragraph",
+      "content": "According to the latest Medicare Trustees' report, the Part A Trust Fund is projected to reach depletion by **2031**, less than five years away. That word \"depletion\" deserves careful explanation, because it does not mean Medicare disappears."
+    },
+    {
+      "type": "paragraph",
+      "content": "What it means is this: once the reserve balance hits zero, the fund can only pay out what it collects in real-time tax revenues. Based on current projections, that covers roughly **89% of scheduled hospital costs**. The remaining 11% would face automatic reductions, either in payments to providers or in benefits to enrollees, unless Congress acts first."
+    },
+    {
+      "type": "paragraph",
+      "content": "For hospitals operating on thin margins, a sudden 11% payment cut could trigger service reductions, staffing changes, or facility closures in underserved areas. For beneficiaries, it could mean higher out-of-pocket costs or difficulty accessing care."
+    },
+    {
+      "type": "paragraph",
+      "content": "This is not the first insolvency scare Medicare has faced. The 1983 Social Security Amendments and the Balanced Budget Act of 1997 both included provisions that extended the fund's horizon. Each time, Congress intervened. The pattern offers some reassurance, but waiting until the last moment carries real risks for both patients and providers."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Key Drivers of the Solvency Crisis: Demographics and Spending",
+      "id": "key-drivers-of-the-solvency-crisis-demographics-and-spending"
+    },
+    {
+      "type": "paragraph",
+      "content": "Two forces are colliding to accelerate the trust fund's decline: a surging beneficiary population and slowing growth in the worker base that funds it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Baby Boomer generation, those born between 1946 and 1964, has been enrolling in Medicare at a rate of roughly 10,000 people per day for over a decade. By 2030, the last of that cohort will have crossed into eligibility. The result is a beneficiary roll that has grown dramatically faster than the workforce supporting it."
+    },
+    {
+      "type": "paragraph",
+      "content": "The worker-to-beneficiary ratio tells the story starkly. In 1967, approximately **4.5 workers** contributed payroll taxes for every Medicare beneficiary. By 2030, that ratio is expected to fall to roughly **2.5 workers per beneficiary**. Fewer contributors per recipient means structurally less revenue flowing into the fund."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rising healthcare costs compound the problem. Medical technology advances, prescription drug innovation, and general healthcare inflation all push Part A expenditures higher each year. Inpatient hospital care, in particular, is among the most expensive categories in American medicine."
+    },
+    {
+      "type": "paragraph",
+      "content": "The trust fund does earn interest income on its reserves, but as those reserves shrink, so does the interest. It is a meaningful but secondary funding source, not nearly enough to offset primary revenue shortfalls. You can learn more about how Medicare is funded to understand the full picture."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "The Hospital Insurance (HI) Tax Rate and Its Role",
+      "id": "the-hospital-insurance-hi-tax-rate-and-its-role"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Part A Trust Fund draws its primary income from the Hospital Insurance payroll tax: **1.45% on earnings from employees** and an equal 1.45% from employers, totaling 2.9%. This rate applies to all covered wages without an earnings cap, unlike Social Security taxes, which phase out above a threshold."
+    },
+    {
+      "type": "paragraph",
+      "content": "High-income earners face an additional **0.9% HI tax** on wages above $200,000 for individuals (or $250,000 for married couples filing jointly), a provision introduced under the Affordable Care Act. That additional revenue helps but does not close the structural gap."
+    },
+    {
+      "type": "paragraph",
+      "content": "The core problem is that the 1.45% base rate is fixed by statute. As healthcare costs rise faster than wages, and as the ratio of contributors to beneficiaries declines, a static rate generates proportionally less purchasing power over time. Unlike Part B and Part D, which draw heavily from general federal revenues and beneficiary premiums, Part A relies overwhelmingly on payroll taxes. That makes it uniquely vulnerable to labor market changes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How Broader Medicare Spending Pressures Impact Part A Solvency",
+      "id": "how-broader-medicare-spending-pressures-impact-part-a-solvency"
+    },
+    {
+      "type": "paragraph",
+      "content": "Medicare does not operate in isolation. Total Medicare spending has grown to approximately **$1.2 trillion annually**, creating a broader fiscal environment in which Part A reforms must compete for legislative attention alongside many other priorities."
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "Key Areas of Spending Pressure:",
+      "id": "key-areas-of-spending-pressure"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "**Medicare Advantage Overpayments:** Estimates suggest the federal government paid roughly **$76 billion more** to Medicare Advantage plans in 2026 than it would have cost to cover the same beneficiaries under traditional Medicare. While these overpayments technically come from different budget buckets, they consume political and fiscal bandwidth that could otherwise be directed toward Part A stabilization.",
+        "**Part D Drug Pricing Reforms:** The Inflation Reduction Act introduced significant changes to Part D drug pricing, including a $2,000 annual out-of-pocket cap and expanded manufacturer discounts. These reforms improved affordability for millions of beneficiaries, but they also shifted costs within the Medicare system in ways that continue to ripple through budget negotiations. For 2026, the maximum Part D deductible is $615, with the catastrophic phase threshold set at $2,100.",
+        "**Funding Differences (Part B & D vs. Part A):** Part B and Part D are funded primarily through general revenues and premiums, giving them different, and more flexible, financial footing than Part A. That contrast actually makes Part A solvency harder to solve politically, since cross-subsidizing from general revenues is an option but carries its own budget implications. Understanding Medicare spending trends puts these pressures in sharper relief."
+      ]
+    },
+    {
+      "type": "eddie-pro-tip",
+      "content": "I always tell people to track the Medicare Trustees' Annual Report each spring. It is released publicly and contains the most current projections for Part A Trust Fund solvency. Reviewing the fund's projected depletion timeline helps you plan ahead, especially when comparing supplemental coverage options that can protect you from cost-sharing increases if benefits are ever restructured. Knowing where the fund stands also helps you evaluate policy news with context, rather than reacting to headlines alone."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Happens if the Part A Trust Fund Is Depleted?",
+      "id": "what-happens-if-the-part-a-trust-fund-is-depleted"
+    },
+    {
+      "type": "paragraph",
+      "content": "Depletion is not the same as bankruptcy. Medicare Part A would not simply stop functioning in 2031. Instead, the program would shift to a **pay-as-you-go model**, distributing only what it collects in real-time payroll tax revenues."
+    },
+    {
+      "type": "paragraph",
+      "content": "The practical consequences, however, would be significant. Hospitals, skilled nursing facilities, and hospice providers could face across-the-board payment reductions of roughly 11%. Providers operating near break-even, many rural and safety-net hospitals in particular, could reduce services or stop accepting Medicare altogether."
+    },
+    {
+      "type": "paragraph",
+      "content": "Beneficiaries could face higher deductibles, copays, and coinsurance as one mechanism to reduce program expenditures. The 2026 Part A deductible already stands at $1,736 per benefit period; any further increase would hit beneficiaries on fixed incomes hardest."
+    },
+    {
+      "type": "paragraph",
+      "content": "The political reality is that Congress has never allowed an automatic trust fund cut to take effect for a program this large. The legislative imperative to act before 2031 is strong, but the window to act without disruption is narrowing."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Legislative Reform Options to Protect the Trust Fund",
+      "id": "legislative-reform-options-to-protect-the-trust-fund"
+    },
+    {
+      "type": "paragraph",
+      "content": "Restoring long-term solvency to Medicare Part A will require action on at least one of three fronts: raising revenues, reducing expenditures, or adjusting what beneficiaries contribute."
+    },
+    {
+      "type": "paragraph",
+      "content": "**Revenue-side options** include raising the HI payroll tax rate; even a modest increase of 0.25% on both employees and employers would generate substantial additional revenue over a decade. Expanding the tax base by applying the HI tax to certain types of investment income is another option currently under policy discussion."
+    },
+    {
+      "type": "paragraph",
+      "content": "**Expenditure-side reforms** offer equally significant potential. Reducing Medicare Advantage overpayments, tightening risk adjustment practices, and expanding Medicare's drug price negotiation authority under the Inflation Reduction Act could all slow the fund's depletion rate. Adjusting payment rates for specific provider categories is another lever, though it raises access concerns."
+    },
+    {
+      "type": "paragraph",
+      "content": "**Beneficiary contribution adjustments** such as income-related cost-sharing or means-testing higher-income recipients for Part A, remain politically sensitive but are included in many long-range projections. Raising the Medicare eligibility age has also been proposed, though research suggests it shifts rather than eliminates costs. For those already on Medicare, understanding Medicare cost-sharing is essential context for evaluating any proposed changes."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Insights from MedPAC and Other Stakeholders",
+      "id": "insights-from-medpac-and-other-stakeholders"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Medicare Payment Advisory Commission (MedPAC) released its [March 2026 report](https://www.medpac.gov/) to Congress with recommendations focused on recalibrating Medicare Advantage payment benchmarks and improving cost efficiency in inpatient hospital reimbursement, both measures that would ease pressure on Part A spending."
+    },
+    {
+      "type": "paragraph",
+      "content": "AARP and similar advocacy organizations have consistently argued against benefit cuts for current beneficiaries, instead pushing for revenue increases and corporate drug pricing reforms as primary solutions. Their position reflects the concerns of millions of older adults on fixed incomes who cannot absorb sudden increases in hospital cost-sharing."
+    },
+    {
+      "type": "paragraph",
+      "content": "The comparison to Social Security Trust Fund solvency is instructive. Both face similar demographic pressures, and both have been extended through targeted legislative action in the past. The difference is that Part A depletion arrives sooner, 2031 versus Social Security's projected timeline, making it the more immediate priority for bipartisan negotiation. Ultimately, the U.S. Congress holds sole authority to enact solutions, and early action consistently produces better outcomes than last-minute fixes."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Path Forward: Ensuring Long-Term Solvency for Medicare Part A",
+      "id": "the-path-forward-ensuring-long-term-solvency-for-medicare-part-a"
+    },
+    {
+      "type": "paragraph",
+      "content": "Policy analysts across the political spectrum broadly agree on one point: acting sooner rather than later produces better outcomes. Every year of delay narrows the range of available options and increases the magnitude of changes required."
+    },
+    {
+      "type": "paragraph",
+      "content": "Most credible reform proposals involve a combination of measures; no single lever is large enough to close the gap alone. Revenue increases paired with measured spending reductions represent the most common framework for achieving sustainable solvency without imposing severe hardship on any single group."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bipartisan cooperation is not optional here. Medicare Part A reform requires 60 votes in the Senate to overcome a filibuster, meaning any durable solution must attract support from both parties. Historical precedent, including the 1983 Social Security fix and the Balanced Budget Act of 1997, demonstrates that such cooperation is achievable when the stakes are clear."
+    },
+    {
+      "type": "paragraph",
+      "content": "The goal is straightforward: ensure that today's beneficiaries and those enrolling a decade from now can both count on full hospital coverage when they need it most."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions About Medicare Part A Solvency",
+      "id": "frequently-asked-questions-about-medicare-part-a-solvency"
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What is the Medicare Part A Trust Fund?",
+          "answer": "It is a federal trust fund that collects payroll tax revenues and uses them to pay for inpatient hospital care, skilled nursing facility stays, hospice, and some home health services for Medicare beneficiaries. It operates separately from the fund that supports Part B and Part D."
+        },
+        {
+          "question": "When is the Medicare Part A Trust Fund projected to run out of money?",
+          "answer": "The latest Trustees' report projects depletion by 2031. This does not mean benefits stop entirely; it means the fund could only cover approximately 89% of scheduled costs from incoming tax revenues at that point."
+        },
+        {
+          "question": "What happens if the Part A Trust Fund is depleted?",
+          "answer": "Medicare would shift to paying only what it collects in real-time payroll taxes, resulting in an automatic payment reduction of roughly 11% to hospitals and other Part A providers. Congress has always intervened before this happened, but the 2031 deadline is approaching quickly."
+        },
+        {
+          "question": "How is Medicare Part A funded?",
+          "answer": "It is primarily funded through the Hospital Insurance payroll tax of 1.45% on employee wages and an equal 1.45% from employers, totaling 2.9%. High-income earners pay an additional 0.9%. Interest on trust fund reserves provides a smaller, secondary income source. You can explore the [Medicare tax rate](/blog/medicare-tax-rate/) in more detail."
+        },
+        {
+          "question": "Will my Medicare Part A benefits be cut if the fund is depleted?",
+          "answer": "Not automatically and not immediately, as Congress has strong political incentive to act before 2031. However, if no legislation passes, providers could receive reduced payments, which may indirectly affect beneficiary access to care or lead to higher cost-sharing requirements."
+        },
+        {
+          "question": "What are some proposed solutions to fix the Part A solvency issue?",
+          "answer": "Options include raising the HI payroll tax rate, expanding the tax base, reducing Medicare Advantage overpayments, negotiating drug prices more aggressively, and adjusting cost-sharing for higher-income beneficiaries. Most realistic reform packages combine revenue and spending measures."
+        },
+        {
+          "question": "How does the Part A Trust Fund differ from the SMI Trust Fund?",
+          "answer": "The Part A (HI) Trust Fund relies primarily on payroll taxes and has a finite reserve that can be depleted. The Supplementary Medical Insurance (SMI) Trust Fund, covering Part B and Part D, is automatically funded each year through a mix of general revenues and beneficiary premiums, which makes it structurally incapable of insolvency in the same way."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusion: Securing Hospital Care for Future Generations",
+      "id": "conclusion-securing-hospital-care-for-future-generations"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Medicare Part A Trust Fund sits at the center of hospital coverage for over 70 million Americans. Its projected depletion by 2031 reflects real structural pressures: a rapidly aging population, a shrinking contributor base, and healthcare costs that continue to outpace wage growth."
+    },
+    {
+      "type": "paragraph",
+      "content": "These are serious challenges. However, they are not new, and they are not unsolvable. Congress has extended Medicare's financial runway before through targeted, bipartisan legislation, and the tools to do so again exist today."
+    },
+    {
+      "type": "paragraph",
+      "content": "The urgency is real. If you want to stay informed about how potential reforms could affect your coverage, speaking with a licensed Medicare agent is a practical first step. Understanding your current benefits, and how they might change, puts you in the best position to plan ahead with confidence."
+    }
+  ],
+  "tableOfContents": [
+    {
+      "id": "understanding-the-medicare-part-a-trust-fund-solvency-challenge",
+      "title": "Understanding the Medicare Part A Trust Fund Solvency Challenge"
+    },
+    {
+      "id": "the-looming-depletion-when-the-part-a-trust-fund-is-projected-to-run-out",
+      "title": "The Looming Depletion: When the Part A Trust Fund Is Projected to Run Out"
+    },
+    {
+      "id": "key-drivers-of-the-solvency-crisis-demographics-and-spending",
+      "title": "Key Drivers of the Solvency Crisis: Demographics and Spending"
+    },
+    {
+      "id": "how-broader-medicare-spending-pressures-impact-part-a-solvency",
+      "title": "How Broader Medicare Spending Pressures Impact Part A Solvency"
+    },
+    {
+      "id": "what-happens-if-the-part-a-trust-fund-is-depleted",
+      "title": "What Happens if the Part A Trust Fund Is Depleted?"
+    },
+    {
+      "id": "legislative-reform-options-to-protect-the-trust-fund",
+      "title": "Legislative Reform Options to Protect the Trust Fund"
+    },
+    {
+      "id": "the-path-forward-ensuring-long-term-solvency-for-medicare-part-a",
+      "title": "The Path Forward: Ensuring Long-Term Solvency for Medicare Part A"
+    },
+    {
+      "id": "frequently-asked-questions-about-medicare-part-a-solvency",
+      "title": "Frequently Asked Questions About Medicare Part A Solvency"
+    },
+    {
+      "id": "conclusion-securing-hospital-care-for-future-generations",
+      "title": "Conclusion: Securing Hospital Care for Future Generations"
+    }
+  ],
+  "keyTakeaways": [
+    "The Medicare Part A Trust Fund is projected to be depleted by 2031, covering only about 89% of hospital costs afterward.",
+    "A shrinking ratio of workers paying into the fund relative to beneficiaries is the primary cause of this financial strain.",
+    "Congress has the authority and historical precedent to implement solutions, such as revenue increases and spending reforms, to prevent depletion and preserve full benefits."
+  ]
 }
