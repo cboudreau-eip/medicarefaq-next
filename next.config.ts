@@ -151,10 +151,10 @@ const nextConfig: NextConfig = {
       { source: "/online-guides", destination: "/library/guides", permanent: true },
       { source: "/original-medicare/medicare-parts", destination: "/original-medicare", permanent: true },
       { source: "/terms-of-service", destination: "/terms-of-use", permanent: true },
-      { source: "/enrollment/employer-coverage", destination: "/faqs/medicare-and-employer-coverage", permanent: true },
-      { source: "/enrollment/initial-enrollment-period", destination: "/faqs/medicare-initial-enrollment-period", permanent: true },
-      { source: "/enrollment/special-enrollment-period", destination: "/faqs/medicare-special-enrollment-period", permanent: true },
-      { source: "/enrollment/special-enrollment-periods", destination: "/faqs/medicare-special-enrollment-period", permanent: true },
+      { source: "/medicare-enrollment/employer-coverage", destination: "/faqs/medicare-and-employer-coverage", permanent: true },
+      { source: "/medicare-enrollment/initial-enrollment-period", destination: "/faqs/medicare-initial-enrollment-period", permanent: true },
+      { source: "/medicare-enrollment/special-enrollment-period", destination: "/faqs/medicare-special-enrollment-period", permanent: true },
+      { source: "/medicare-enrollment/special-enrollment-periods", destination: "/faqs/medicare-special-enrollment-period", permanent: true },
 
       // ── Part D sub-page redirects ──
       { source: "/original-medicare/medicare-parts/medicare-part-d/coverage-gap-discount-program", destination: "/blog/coverage-gap-discount-program", permanent: true },

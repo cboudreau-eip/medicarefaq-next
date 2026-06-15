@@ -44,7 +44,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Do I have to sign up for Medicare when I turn 65?",
-    a: <>Not necessarily. If you have creditable employer coverage through your own job (or your spouse&apos;s employer with 20+ employees), you can delay Medicare Part B without penalty. However, most people should enroll in Part A since it&apos;s premium-free and doesn&apos;t affect employer coverage. If you don&apos;t have creditable coverage, you should enroll during your IEP to avoid <Link href="/enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late penalties</Link>.</>,
+    a: <>Not necessarily. If you have creditable employer coverage through your own job (or your spouse&apos;s employer with 20+ employees), you can delay Medicare Part B without penalty. However, most people should enroll in Part A since it&apos;s premium-free and doesn&apos;t affect employer coverage. If you don&apos;t have creditable coverage, you should enroll during your IEP to avoid <Link href="/medicare-enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late penalties</Link>.</>,
   },
   {
     q: "What happens if I miss my Initial Enrollment Period?",
@@ -561,7 +561,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
-                    <Link href="/enrollment/how-to-enroll" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+                    <Link href="/medicare-enrollment/how-to-enroll" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       How to Enroll Guide <ArrowRight className="w-4 h-4" />
                     </Link>
                   </div>
@@ -570,12 +570,12 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
 
               {/* Related Pages */}
               <div className="grid sm:grid-cols-4 gap-4">
-                <Link href="/enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                <Link href="/medicare-enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <Briefcase className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Working past 65</h3>
                   <p className="text-xs text-slate-500">Medicare & employer coverage coordination</p>
                 </Link>
-                <Link href="/enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly late enrollment penalties</p>

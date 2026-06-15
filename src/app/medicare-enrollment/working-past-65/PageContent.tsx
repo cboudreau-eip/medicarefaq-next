@@ -51,7 +51,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "When should I enroll in Part B after I stop working?",
-    a: <>You have an 8-month <Link href="/faqs/medicare-special-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900">Special Enrollment Period (SEP)</Link> that begins the month after your employment ends or your employer coverage ends, whichever comes first. You should enroll in Part B during this window to avoid a gap in coverage and <Link href="/enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>.</>,
+    a: <>You have an 8-month <Link href="/faqs/medicare-special-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900">Special Enrollment Period (SEP)</Link> that begins the month after your employment ends or your employer coverage ends, whichever comes first. You should enroll in Part B during this window to avoid a gap in coverage and <Link href="/medicare-enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>.</>,
   },
   {
     q: "Can I keep my employer coverage and have Medicare too?",
@@ -63,7 +63,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Is COBRA considered creditable coverage for Medicare?",
-    a: <>No. COBRA is not considered creditable coverage for Medicare purposes. If you&apos;re 65+ and on COBRA, you should enroll in Medicare during your <Link href="/faqs/medicare-initial-enrollment-period" className="text-amber-700 underline font-semibold hover:text-amber-900">Initial Enrollment Period</Link> or you may face <Link href="/enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>. Medicare is always primary over COBRA coverage.</>,
+    a: <>No. COBRA is not considered creditable coverage for Medicare purposes. If you&apos;re 65+ and on COBRA, you should enroll in Medicare during your <Link href="/faqs/medicare-initial-enrollment-period" className="text-amber-700 underline font-semibold hover:text-amber-900">Initial Enrollment Period</Link> or you may face <Link href="/medicare-enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>. Medicare is always primary over COBRA coverage.</>,
   },
 ];
 
@@ -151,7 +151,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   If you're still working when you turn 65, you don't necessarily have to enroll in all parts of Medicare right away. Whether you should enroll now or delay depends primarily on the <strong>size of your employer</strong> and whether your employer coverage qualifies as <strong>creditable coverage</strong>.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
-                  Making the wrong decision here can be costly — enrolling too early could mean paying for duplicate coverage, while delaying too long without creditable coverage can result in permanent <Link href="/enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>. This guide helps you navigate the decision.
+                  Making the wrong decision here can be costly — enrolling too early could mean paying for duplicate coverage, while delaying too long without creditable coverage can result in permanent <Link href="/medicare-enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>. This guide helps you navigate the decision.
                 </p>
               </section>
 
@@ -533,7 +533,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "working_past_65" })} className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
-                    <Link href="/enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+                    <Link href="/medicare-enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       Turning 65 Guide <ArrowRight className="w-4 h-4" />
                     </Link>
                   </div>
@@ -542,17 +542,17 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
 
               {/* Related Pages */}
               <div className="grid sm:grid-cols-4 gap-4">
-                <Link href="/enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <Calendar className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Turning 65 Enrollment</h3>
                   <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
                 </Link>
-                <Link href="/enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly penalties</p>
                 </Link>
-                <Link href="/enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                <Link href="/medicare-enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <Shield className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">How to Enroll</h3>
                   <p className="text-xs text-slate-500">Step-by-step enrollment guide</p>

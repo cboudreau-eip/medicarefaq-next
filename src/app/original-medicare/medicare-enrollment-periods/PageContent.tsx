@@ -43,7 +43,7 @@ const enrollmentPeriods = [
     color: "border-teal-400 bg-teal-50",
     titleColor: "text-teal-800",
     description: "Your first opportunity to enroll in Medicare Parts A and B. Begins 3 months before your birthday month and ends 3 months after.",
-    link: "/enrollment/turning-65",
+    link: "/medicare-enrollment/turning-65",
     linkText: "Turning 65 Guide",
   },
   {
@@ -52,7 +52,7 @@ const enrollmentPeriods = [
     color: "border-blue-400 bg-blue-50",
     titleColor: "text-blue-800",
     description: "For people who delayed Medicare because they had employer coverage. Triggered when employer coverage ends.",
-    link: "/enrollment/working-past-65",
+    link: "/medicare-enrollment/working-past-65",
     linkText: "Working Past 65 Guide",
   },
   {
@@ -61,7 +61,7 @@ const enrollmentPeriods = [
     color: "border-amber-400 bg-amber-50",
     titleColor: "text-amber-800",
     description: "For those who missed their IEP and don't qualify for an SEP. Coverage begins July 1. Late penalties may apply.",
-    link: "/enrollment/late-penalties",
+    link: "/medicare-enrollment/late-penalties",
     linkText: "Late Enrollment Penalties",
   },
   {
@@ -70,7 +70,7 @@ const enrollmentPeriods = [
     color: "border-purple-400 bg-purple-50",
     titleColor: "text-purple-800",
     description: "Switch between Original Medicare and Medicare Advantage, or change your Part D plan. Changes effective January 1.",
-    link: "/enrollment/annual-changes",
+    link: "/medicare-enrollment/annual-changes",
     linkText: "Annual Changes Guide",
   },
   {
@@ -169,7 +169,7 @@ export default function MedicareEnrollmentPeriods() {
                   <li>• <strong>Part B penalty:</strong> 10% added to your premium for each 12-month period you were eligible but didn't enroll</li>
                   <li>• <strong>Part D penalty:</strong> 1% of the national base beneficiary premium for each month without creditable coverage</li>
                 </ul>
-                <Link href="/enrollment/late-penalties" className="inline-block mt-3 text-sm text-red-800 font-semibold hover:underline">
+                <Link href="/medicare-enrollment/late-penalties" className="inline-block mt-3 text-sm text-red-800 font-semibold hover:underline">
                   Learn more about late enrollment penalties →
                 </Link>
               </div>

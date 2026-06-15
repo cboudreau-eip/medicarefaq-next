@@ -489,7 +489,7 @@ export default function PartBPenaltyCalculator() {
               <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">How the Part B Late Enrollment Penalty Works</h2>
               <div className="prose prose-slate max-w-none text-gray-700 space-y-4 text-base leading-relaxed">
                 <p>
-                  Medicare Part B covers outpatient services — doctor visits, preventive care, lab tests, and medical equipment. Most people are first eligible for Part B when they turn 65. If you don't enroll during your <Link href="/enrollment/turning-65" className="text-[#0066CC] underline hover:text-blue-800">Initial Enrollment Period (IEP)</Link> and don't have creditable employer coverage, you'll face a permanent late enrollment penalty.
+                  Medicare Part B covers outpatient services — doctor visits, preventive care, lab tests, and medical equipment. Most people are first eligible for Part B when they turn 65. If you don't enroll during your <Link href="/medicare-enrollment/turning-65" className="text-[#0066CC] underline hover:text-blue-800">Initial Enrollment Period (IEP)</Link> and don't have creditable employer coverage, you'll face a permanent late enrollment penalty.
                 </p>
                 <p>
                   The penalty is calculated as <strong>10% of the standard Part B premium for each full 12-month period</strong> you were eligible but didn't enroll. In 2026, the standard premium is {fmt(STANDARD_PREMIUM)}/month. So if you delayed 2 full years, your penalty is 20% — an extra {fmt(STANDARD_PREMIUM * 0.2)}/month added to your premium for life.
@@ -570,7 +570,7 @@ export default function PartBPenaltyCalculator() {
                     color: "teal",
                     title: "Enroll During Your IEP",
                     desc: "Your Initial Enrollment Period is a 7-month window centered on your 65th birthday. Enrolling during this window guarantees no penalty.",
-                    link: "/enrollment/turning-65",
+                    link: "/medicare-enrollment/turning-65",
                     linkText: "Learn about the IEP",
                   },
                   {
@@ -578,7 +578,7 @@ export default function PartBPenaltyCalculator() {
                     color: "blue",
                     title: "Maintain Creditable Coverage",
                     desc: "If you're still working with employer coverage (20+ employees), you can delay Part B penalty-free. Get a creditable coverage letter from your HR department.",
-                    link: "/enrollment/working-past-65",
+                    link: "/medicare-enrollment/working-past-65",
                     linkText: "Working past 65 guide",
                   },
                   {
@@ -726,9 +726,9 @@ export default function PartBPenaltyCalculator() {
               <h3 className="font-bold text-[#1B2A4A] mb-4 text-sm uppercase tracking-wide">Related Articles</h3>
               <div className="space-y-3">
                 {[
-                  { href: "/enrollment/late-penalties", label: "Understanding All Medicare Late Penalties" },
-                  { href: "/enrollment/turning-65", label: "Medicare Enrollment at 65: Complete Guide" },
-                  { href: "/enrollment/working-past-65", label: "Working Past 65 Without Penalty" },
+                  { href: "/medicare-enrollment/late-penalties", label: "Understanding All Medicare Late Penalties" },
+                  { href: "/medicare-enrollment/turning-65", label: "Medicare Enrollment at 65: Complete Guide" },
+                  { href: "/medicare-enrollment/working-past-65", label: "Working Past 65 Without Penalty" },
                   { href: "/faqs/medicare-general-enrollment-period", label: "The General Enrollment Period Explained" },
                 ].map((link, i) => (
                   <Link

@@ -610,7 +610,7 @@ export default function MedicareAdvantage() {
                 </h2>
                 <div className="space-y-4">
                   {[
-                    { period: (<><Link href="/enrollment/turning-65" className="text-teal-700 underline hover:text-teal-900">Initial Enrollment Period</Link> (IEP)</>), dates: "3 months before to 3 months after your 65th birthday", desc: "Your first opportunity to enroll in a Medicare Advantage plan when you're newly eligible for Medicare." },
+                    { period: (<><Link href="/medicare-enrollment/turning-65" className="text-teal-700 underline hover:text-teal-900">Initial Enrollment Period</Link> (IEP)</>), dates: "3 months before to 3 months after your 65th birthday", desc: "Your first opportunity to enroll in a Medicare Advantage plan when you're newly eligible for Medicare." },
                     { period: (<><Link href="/faqs/medicare-annual-enrollment-period/" className="text-teal-700 underline hover:text-teal-900">Annual Enrollment Period</Link> (AEP)</>), dates: "October 15 – December 7 each year", desc: "Switch between Original Medicare and Medicare Advantage, or change MA plans. Coverage starts January 1." },
                     { period: "MA Open Enrollment Period (OEP)", dates: "January 1 – March 31 each year", desc: "If you're already in an MA plan, you can switch to a different MA plan or return to Original Medicare + Part D." },
                     { period: "Special Enrollment Period (SEP)", dates: "Varies by qualifying event", desc: "Triggered by events like moving, losing employer coverage, or qualifying for Medicaid. Allows mid-year changes." },

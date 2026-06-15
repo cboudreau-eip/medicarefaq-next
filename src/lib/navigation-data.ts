@@ -187,31 +187,31 @@ export const navigationData: NavCategory[] = [
         title: "Turning 65 Enrollment",
         description: "How to enroll when you first become eligible",
         icon: Calendar,
-        href: "/enrollment/turning-65",
+        href: "/medicare-enrollment/turning-65",
       },
       {
         title: "Working past 65",
         description: "Medicare & employer coverage coordination",
         icon: Briefcase,
-        href: "/enrollment/working-past-65",
+        href: "/medicare-enrollment/working-past-65",
       },
       {
         title: "Annual Changes",
         description: "What changes each year and how it affects you",
         icon: ArrowRightLeft,
-        href: "/enrollment/annual-changes",
+        href: "/medicare-enrollment/annual-changes",
       },
       {
         title: "Late Penalties",
         description: "Avoid costly late enrollment penalties",
         icon: AlertCircle,
-        href: "/enrollment/late-penalties",
+        href: "/medicare-enrollment/late-penalties",
       },
       {
         title: "How to Enroll",
         description: "Step-by-step enrollment process guide",
         icon: FileText,
-        href: "/enrollment/how-to-enroll",
+        href: "/medicare-enrollment/how-to-enroll",
       },
       {
         title: "Part B Penalty Calculator",
@@ -225,7 +225,7 @@ export const navigationData: NavCategory[] = [
         title: "When Should I Enroll?",
         description:
           "Timing matters. Find your enrollment window and avoid penalties.",
-        href: "/enrollment/turning-65",
+        href: "/medicare-enrollment/turning-65",
         cta: "Check Your Timeline",
       }],
   },
@@ -348,7 +348,7 @@ export const navigationData: NavCategory[] = [
       },
       {
         title: "When to Enroll in Medicare",
-        href: "/enrollment/how-to-enroll",
+        href: "/medicare-enrollment/how-to-enroll",
       },
       {
         title: "Medicare vs. Medicaid",

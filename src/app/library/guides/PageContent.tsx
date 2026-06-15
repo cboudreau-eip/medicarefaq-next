@@ -54,7 +54,7 @@ const featuredGuides = [
     icon: Calendar,
     category: "Enrollment",
     readTime: "10 min read",
-    href: "/enrollment/turning-65",
+    href: "/medicare-enrollment/turning-65",
     color: "#D97706",
     topics: ["Initial Enrollment Period", "Special Enrollment Periods", "Annual Enrollment Period", "Avoiding late penalties"],
   },
@@ -110,7 +110,7 @@ const topicGuides = [
     title: "Working past 65 Guide",
     description: "How employer coverage coordinates with Medicare and when to enroll.",
     icon: Clock,
-    href: "/enrollment/working-past-65",
+    href: "/medicare-enrollment/working-past-65",
     category: "Enrollment",
   },
   {
@@ -131,7 +131,7 @@ const topicGuides = [
     title: "Late Enrollment Penalties",
     description: "How penalties are calculated and strategies to avoid them.",
     icon: DollarSign,
-    href: "/enrollment/late-penalties",
+    href: "/medicare-enrollment/late-penalties",
     category: "Enrollment",
   },
   {
@@ -297,7 +297,7 @@ export default function Guides() {  useEffect(() => {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "guides" })} className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
                 <Phone className="w-4 h-4" /> Call (888) 335-8996
               </a>
-              <Link href="/enrollment/how-to-enroll" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+              <Link href="/medicare-enrollment/how-to-enroll" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                 How to Enroll <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

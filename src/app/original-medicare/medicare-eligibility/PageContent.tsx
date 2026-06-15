@@ -129,7 +129,7 @@ export default function MedicareEligibility() {
           <section id="age-eligibility" className="mt-8">
             <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">Medicare Age Eligibility</h2>
             <p className="text-gray-700 mb-4">
-              The standard Medicare eligibility age is <strong>65 years old</strong>. To enroll, you must be a U.S. citizen or a lawful permanent resident who has lived in the U.S. for at least 5 consecutive years. Your <Link href="/enrollment/turning-65" className="text-[#0D9488] hover:underline">Initial Enrollment Period (IEP)</Link> begins 3 months before your 65th birthday month and extends 3 months after — a 7-month window total.
+              The standard Medicare eligibility age is <strong>65 years old</strong>. To enroll, you must be a U.S. citizen or a lawful permanent resident who has lived in the U.S. for at least 5 consecutive years. Your <Link href="/medicare-enrollment/turning-65" className="text-[#0D9488] hover:underline">Initial Enrollment Period (IEP)</Link> begins 3 months before your 65th birthday month and extends 3 months after — a 7-month window total.
             </p>
             <div className="bg-teal-50 border-l-4 border-[#0D9488] rounded-r-xl p-5 mb-4">
               <p className="text-sm text-teal-800">
@@ -137,7 +137,7 @@ export default function MedicareEligibility() {
               </p>
             </div>
             <p className="text-gray-700">
-              If you are not receiving Social Security benefits at 65, you must actively sign up. Failing to enroll during your IEP can result in a <Link href="/enrollment/late-penalties" className="text-[#0D9488] hover:underline">late enrollment penalty</Link> for Part B and Part D.
+              If you are not receiving Social Security benefits at 65, you must actively sign up. Failing to enroll during your IEP can result in a <Link href="/medicare-enrollment/late-penalties" className="text-[#0D9488] hover:underline">late enrollment penalty</Link> for Part B and Part D.
             </p>
           </section>
 
@@ -199,7 +199,7 @@ export default function MedicareEligibility() {
               Anyone who is eligible for <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-[#0D9488] hover:underline">Medicare Part A</Link> is also eligible for <Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-[#0D9488] hover:underline">Part B</Link>. Unlike Part A, Part B always requires a monthly premium. The standard 2026 Part B premium is <strong>$202.90/month</strong>, though higher-income beneficiaries pay more through IRMAA surcharges.
             </p>
             <p className="text-gray-700">
-              If you are still working and have employer coverage, you may be able to <Link href="/enrollment/working-past-65" className="text-[#0D9488] hover:underline">delay Part B enrollment</Link> without penalty. Once your employer coverage ends, you have an 8-month Special Enrollment Period to sign up.
+              If you are still working and have employer coverage, you may be able to <Link href="/medicare-enrollment/working-past-65" className="text-[#0D9488] hover:underline">delay Part B enrollment</Link> without penalty. Once your employer coverage ends, you have an 8-month Special Enrollment Period to sign up.
             </p>
           </section>
 

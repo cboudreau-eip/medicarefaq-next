@@ -162,7 +162,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Enroll During the Right Window</p>
                       <p className="text-sm text-amber-800">
-                        Before enrolling, make sure you're in a valid enrollment period. Enrolling outside of your enrollment window may not be possible or could result in delayed coverage. See our <Link href="/enrollment/turning-65" className="text-amber-700 underline font-semibold">Turning 65 Enrollment</Link> guide for timing details.
+                        Before enrolling, make sure you're in a valid enrollment period. Enrolling outside of your enrollment window may not be possible or could result in delayed coverage. See our <Link href="/medicare-enrollment/turning-65" className="text-amber-700 underline font-semibold">Turning 65 Enrollment</Link> guide for timing details.
                       </p>
                     </div>
                   </div>
@@ -527,12 +527,12 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
 
               {/* Related Pages */}
               <div className="grid sm:grid-cols-4 gap-4">
-                <Link href="/enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
+                <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
                   <Calendar className="w-5 h-5 text-teal-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Turning 65 Enrollment</h3>
                   <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
                 </Link>
-                <Link href="/enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
+                <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
                   <AlertTriangle className="w-5 h-5 text-teal-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly penalties</p>

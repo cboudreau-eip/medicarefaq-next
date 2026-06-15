@@ -5,5 +5,5 @@ import { redirect } from "next/navigation";
  * This prevents the 404 when users click "Enrollment" in the top nav.
  */
 export default function EnrollmentIndex() {
-  redirect("/enrollment/turning-65");
+  redirect("/medicare-enrollment/turning-65");
 }

@@ -384,7 +384,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Enroll during Your Initial Enrollment Period</h3>
-                        <p className="text-sm text-green-800">Sign up for Parts A, B, and D during your 7-month IEP around your 65th birthday. See our <Link href="/enrollment/turning-65" className="text-green-900 underline font-semibold hover:text-green-700">Turning 65 guide</Link> for details. This is the simplest way to avoid all penalties.</p>
+                        <p className="text-sm text-green-800">Sign up for Parts A, B, and D during your 7-month IEP around your 65th birthday. See our <Link href="/medicare-enrollment/turning-65" className="text-green-900 underline font-semibold hover:text-green-700">Turning 65 guide</Link> for details. This is the simplest way to avoid all penalties.</p>
                       </div>
                     </div>
                   </div>
@@ -394,7 +394,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Maintain Creditable Coverage if Delaying</h3>
-                        <p className="text-sm text-green-800">If you're <Link href="/enrollment/working-past-65" className="text-green-900 underline font-semibold hover:text-green-700">working past 65</Link> with employer coverage (20+ employees), keep that coverage active. Get a creditable coverage letter from your employer as proof.</p>
+                        <p className="text-sm text-green-800">If you're <Link href="/medicare-enrollment/working-past-65" className="text-green-900 underline font-semibold hover:text-green-700">working past 65</Link> with employer coverage (20+ employees), keep that coverage active. Get a creditable coverage letter from your employer as proof.</p>
                       </div>
                     </div>
                   </div>
@@ -470,7 +470,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
                       <Phone className="w-4 h-4" /> Call (888) 335-8996
                     </a>
-                    <Link href="/enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+                    <Link href="/medicare-enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       Enrollment Guide <ArrowRight className="w-4 h-4" />
                     </Link>
                   </div>
@@ -479,17 +479,17 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
               {/* Related Pages */}
               <div className="grid sm:grid-cols-3 gap-4">
-                <Link href="/enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
+                <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
                   <Calendar className="w-5 h-5 text-red-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Turning 65 Enrollment</h3>
                   <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
                 </Link>
-                <Link href="/enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
+                <Link href="/medicare-enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
                   <Briefcase className="w-5 h-5 text-red-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Working past 65</h3>
                   <p className="text-xs text-slate-500">Employer coverage coordination</p>
                 </Link>
-                <Link href="/enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
+                <Link href="/medicare-enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
                   <Shield className="w-5 h-5 text-red-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">How to Enroll</h3>
                   <p className="text-xs text-slate-500">Step-by-step enrollment guide</p>

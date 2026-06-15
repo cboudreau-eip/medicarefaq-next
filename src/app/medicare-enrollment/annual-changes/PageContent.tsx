@@ -512,12 +512,12 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
 
               {/* Related Pages */}
               <div className="grid sm:grid-cols-3 gap-4">
-                <Link href="/enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <Calendar className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Turning 65 Enrollment</h3>
                   <p className="text-xs text-slate-500">First-time enrollment guide</p>
                 </Link>
-                <Link href="/enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly penalties</p>

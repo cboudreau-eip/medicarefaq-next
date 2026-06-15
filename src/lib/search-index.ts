@@ -56,7 +56,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#D97706",
     type: "guide",
     typeLabel: "Guide",
-    href: "/enrollment/turning-65",
+    href: "/medicare-enrollment/turning-65",
     readTime: "10 min read",
   },
   {
@@ -128,7 +128,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#D97706",
     type: "guide",
     typeLabel: "Guide",
-    href: "/enrollment/working-past-65",
+    href: "/medicare-enrollment/working-past-65",
   },
   {
     id: "guide-supplement-comparison",
@@ -158,7 +158,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#D97706",
     type: "guide",
     typeLabel: "Guide",
-    href: "/enrollment/late-penalties",
+    href: "/medicare-enrollment/late-penalties",
   }];
 
 /* ─── Static page entries (key site pages) ─── */

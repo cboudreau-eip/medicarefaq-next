@@ -8,7 +8,7 @@
  *   <ArticleSchema
  *     title="Medicare Annual Changes for 2026"
  *     description="A comprehensive guide to Medicare cost and coverage changes."
- *     url="https://www.medicarefaq.com/enrollment/annual-changes"
+ *     url="https://www.medicarefaq.com/medicare-enrollment/annual-changes"
  *     datePublished="2025-10-15"
  *     dateModified="2026-01-10"
  *     authorName="David Haass"

@@ -80,8 +80,8 @@ export default function HeroSection() {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform shrink-0" />
             </Link>
             <Link
-              href="/enrollment/working-past-65"
-              onClick={() => trackCtaClick({ button_label: "Working past 65", destination: "/enrollment/working-past-65", page_section: "hero" })}
+              href="/medicare-enrollment/working-past-65"
+              onClick={() => trackCtaClick({ button_label: "Working past 65", destination: "/medicare-enrollment/working-past-65", page_section: "hero" })}
               className="group inline-flex items-center justify-between gap-3 bg-[#D97706] hover:bg-[#B45309] text-white font-bold px-5 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#D97706]/25 text-sm flex-1"
             >
               <div className="flex flex-col">
