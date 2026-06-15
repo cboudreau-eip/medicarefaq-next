@@ -74,7 +74,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-part-a-trust-fund",
     seo: {
-      title: "Medicare Part A Trust Fund Solvency by 2031 | MedicareFAQ",
+      title: "Medicare Part A Trust Fund Solvency by 2031",
       description: "The Medicare Part A Trust Fund faces depletion by 2031, threatening hospital coverage for 70 million. Learn why and what it means.",
       canonical: "https://www.medicarefaq.com/blog/medicare-part-a-trust-fund/",
       ogImage: "/images/generated/medicare-part-a-trust.png",
@@ -311,7 +311,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "4-critical-medicare-changes",
     seo: {
-      title: "Medicare Changes 2026: Your Essential Guide | MedicareFAQ",
+      title: "Medicare Changes 2026: Your Essential Guide",
       description: "Learn the key Medicare changes for 2026, including the $1,736 Part A deductible, $283 Part B deductible, and Medicare Advantage plan updates.",
       canonical: "https://www.medicarefaq.com/blog/4-critical-medicare-changes/",
       ogImage: "/images/generated/4-critical-medicare-changes.png",
@@ -398,7 +398,7 @@ export const blogArticles: BlogArticleData[] = [
     slug: "medicare-out-of-pocket-costs",
     seo: {
       focusKeyword: "medicare out of pocket costs",
-      title: "Medicare Out-of-Pocket Costs: Guide to Savings | MedicareFAQ",
+      title: "Medicare Out-of-Pocket Costs: Guide to Savings",
       description: "Navigate Medicare out-of-pocket costs: premiums, deductibles, copays, and coinsurance. Learn to maximize your savings and manage healthcare expenses.",
       canonical: "https://www.medicarefaq.com/blog/medicare-out-of-pocket-costs/",
       ogImage: "/images/generated/medicare-out-of-pocket.png",
@@ -478,7 +478,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-advantage-plans-2026",
     seo: {
-      title: "Medicare Advantage 2026: Premiums, Benefits & Trends | MedicareFAQ",
+      title: "Medicare Advantage 2026: Premiums, Benefits & Trends",
       description: "Explore 2026 Medicare Advantage plans: Understand premiums, out-of-pocket limits, supplemental benefits, and prior authorization trends. MedicareFAQ.",
       canonical: "https://www.medicarefaq.com/blog/medicare-advantage-plans-2026/",
       ogImage: "/images/generated/medicare-advantage-plans-2026.png",
@@ -573,7 +573,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-part-d-plan-changes",
     seo: {
-      title: "Medicare Part D Changes: When to Switch Plans | MedicareFAQ",
+      title: "Medicare Part D Changes: When to Switch Plans",
       description: "Medicare Part D plans change annually. Learn about 2026 updates, the new benefit structure, and when it's time to switch plans.",
       canonical: "https://www.medicarefaq.com/blog/medicare-part-d-plan-changes/",
       ogImage: "/images/generated/medicare-part-d-plan.png",
@@ -750,7 +750,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-preventive-services",
     seo: {
-      title: "Medicare Preventive Services Coverage Guide | MedicareFAQ",
+      title: "Medicare Preventive Services Coverage Guide",
       description: "Unlock your Medicare preventive benefits! Learn about the 'Welcome to Medicare' visit, Annual Wellness Visit, and more.",
       canonical: "https://www.medicarefaq.com/blog/medicare-preventive-services/",
       ogImage: "/images/generated/medicare-preventive-services.png",
@@ -934,7 +934,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medigap-plan-f-g-and-n-comparison",
     seo: {
-      title: "Medigap Plan F, G, N Comparison: Which is Best? MedicareFAQ",
+      title: "Medigap Plan F, G, N Comparison: Which is Best",
       description: "Compare Medigap Plans F, G, and N to choose the best Medicare Supplement for you. Understand benefits, costs, and eligibility.",
       canonical: "https://www.medicarefaq.com/blog/medigap-plan-f-g-and-n-comparison/",
       ogImage: "/images/generated/medigap-plan-f-g.png",
@@ -1027,7 +1027,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "durable-medical-equipment-dme-guide",
     seo: {
-      title: "Durable Medical Equipment (DME) Coverage | MedicareFAQ",
+      title: "Durable Medical Equipment (DME) Coverage",
       description: "Understand Medicare's DME coverage. Learn what qualifies as durable medical equipment, common types, and how to get benefits.",
       canonical: "https://www.medicarefaq.com/blog/durable-medical-equipment-dme-guide/",
       ogImage: "/images/generated/durable-medical-equipment-dme.png",
@@ -1119,7 +1119,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-hmo-vs-ppo-a-comprehensive-guide",
     seo: {
-      title: "Medicare HMO vs PPO: Choosing Your Best Plan | MedicareFAQ",
+      title: "Medicare HMO vs PPO: Choosing Your Best Plan",
       description: "Navigate Medicare HMO vs PPO plans with this comprehensive guide. Costs, and referrals to pick your ideal Medicare Advantage plan.",
       canonical: "https://www.medicarefaq.com/blog/medicare-hmo-vs-ppo-a-comprehensive-guide/",
       ogImage: "/images/generated/medicare-hmo-vs-ppo.png",
@@ -1201,7 +1201,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-scam-alert-how-to-protect-your-benefits",
     seo: {
-      title: "Medicare Scam Alert: Protect Your Benefits | MedicareFAQ",
+      title: "Medicare Scam Alert: Protect Your Benefits",
       description: "Learn how to identify, avoid, and report Medicare scams. Protect your benefits from fraud during enrollment periods and year-round.",
       canonical: "https://www.medicarefaq.com/blog/medicare-scam-alert-how-to-protect-your-benefits/",
       ogImage: "/images/generated/medicare-scam-alert-how.png",
@@ -1365,7 +1365,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "top-medigap-plans-unbiased-reviews",
     seo: {
-      title: "Top Medigap Plans & Companies for 2026 - MedicareFAQ",
+      title: "Top Medigap Plans & Companies for 2026",
       description: "Discover the best Medigap plans and companies for 2026. Learn how to compare insurers based on financial strength, pricing, and rate stability.",
       canonical: "https://www.medicarefaq.com/blog/top-medigap-plans-unbiased-reviews/",
       ogImage: "/images/generated/top-medigap-plans-unbiased.png",
@@ -1466,7 +1466,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-part-b-for-disabled-individuals-avoid-penalties-and-enroll-smartly",
     seo: {
-      title: "Medicare Part B for Disabled Individuals | MedicareFAQ",
+      title: "Medicare Part B for Disabled Individuals",
       description: "Understand Medicare Part B for disabled individuals, including the 24-month waiting period, SSDI vs. SSI, and exceptions for ALS/ESRD.",
       canonical: "https://www.medicarefaq.com/blog/medicare-part-b-for-disabled-individuals-avoid-penalties-and-enroll-smartly/",
       ogImage: "/images/generated/medicare-part-b-for.png",
@@ -1563,7 +1563,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "how-to-reduce-your-medicare-premiums-a-clear-guide-for-confident-choices",
     seo: {
-      title: "Reduce Medicare Premiums: A Clear Guide | MedicareFAQ",
+      title: "Reduce Medicare Premiums: A Clear Guide",
       description: "Learn how to reduce your Medicare premiums and understand healthcare costs. Get clear strategies for confident choices with MedicareFAQ.",
       canonical: "https://www.medicarefaq.com/blog/how-to-reduce-your-medicare-premiums-a-clear-guide-for-confident-choices/",
       ogImage: "/images/generated/how-to-reduce-your.png",
@@ -1726,7 +1726,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-premiums-2026-what-youll-pay",
     seo: {
-      title: "Medicare Premiums 2026: Your Guide to Costs | MedicareFAQ",
+      title: "Medicare Premiums 2026: Your Guide to Costs",
       description: "Understand your 2026 Medicare premiums for Parts A, B, C, D, and Medigap. Learn about standard rates, IRMAA, and budgeting.",
       canonical: "https://www.medicarefaq.com/blog/medicare-premiums-2026-what-youll-pay/",
       ogImage: "/images/generated/medicare-premiums-2026-what-youll-pay-for-parts-a--1780503683709.png",
@@ -1825,7 +1825,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026",
     seo: {
-      title: "Medicare Part B Explained: 2026 Premiums & Coverage | MedicareFAQ",
+      title: "Medicare Part B Explained: 2026 Premiums & Coverage",
       description: "Understand Medicare Part B for 2026: Learn about premiums, deductibles, coverage, and enrollment to manage your outpatient medical costs.",
       canonical: "https://www.medicarefaq.com/blog/medicare-part-b-explained-premiums-deductibles-coverage-and-enrollment-in-2026/",
       ogImage: "/images/uploaded/doctor-patient-consultation.png",
@@ -1941,7 +1941,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "understanding-your-medicare-part-d-formulary-a-2026-guide-to-prescription-drug-coverage",
     seo: {
-      title: "Medicare Part D Formulary 2026 Guide | MedicareFAQ",
+      title: "Medicare Part D Formulary 2026 Guide",
       description: "Understand your Medicare Part D formulary for 2026. Learn how drug lists and tier structures affect your prescription costs and coverage.",
       canonical: "https://www.medicarefaq.com/blog/understanding-your-medicare-part-d-formulary-a-2026-guide-to-prescription-drug-coverage/",
       ogImage: "/images/uploaded/pill-organizer-1780495960838.png",
@@ -2118,7 +2118,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-at-65-month-by-month-timeline",
     seo: {
-      title: "Medicare at 65: A Month-by-Month Timeline of What to Do and When | MedicareFAQ",
+      title: "Medicare at 65: A Month-by-Month Timeline of What to Do and When",
       description: "Your complete month-by-month Medicare timeline from age 64 to 65. Know exactly when to enroll in Parts A, B, D, and Medigap to avoid penalties and coverage gaps.",
       canonical: "https://www.medicarefaq.com/blog/medicare-at-65-month-by-month-timeline/",
       ogImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1200&q=80",
@@ -2223,7 +2223,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "finding-your-best-medigap-plan",
     seo: {
-      title: "Best Medigap Plan for 2026: How to Choose the Right Medicare Supplement | MedicareFAQ",
+      title: "Best Medigap Plan for 2026: How to Choose the Right Medicare Supplement",
       description: "Compare Medigap Plan G vs Plan N for 2026. Learn enrollment timing, carrier comparison tips, and how to find the best Medicare Supplement plan for your budget and health needs.",
       canonical: "https://www.medicarefaq.com/blog/finding-your-best-medigap-plan/",
       ogImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
@@ -2336,7 +2336,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "how-to-sign-up-for-medicare",
     seo: {
-      title: "How to Sign up for Medicare | MedicareFAQ",
+      title: "How to Sign up for Medicare",
       description: "Learn how to sign up for Medicare online, by phone, or in person. Understand enrollment periods, avoid late penalties, and choose the right coverage path for 2026.",
       canonical: "https://www.medicarefaq.com/blog/how-to-sign-up-for-medicare/",
       ogImage: "https://images.unsplash.com/photo-1664382950513-939431ef4e5c?auto=format&fit=crop&w=1200&q=80",
@@ -2448,7 +2448,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-costs-2026",
   seo: {
-    title: "Medicare Costs 2026 | MedicareFAQ",
+    title: "Medicare Costs 2026",
     description: "Learn about Medicare costs in 2026 including premiums, deductibles, and out-of-pocket expenses for Part A, Part B, Part C, and Part D.",
     canonical: "https://www.medicarefaq.com/blog/medicare-costs-2026/",
     ogImage: "https://images.pexels.com/photos/8439748/pexels-photo-8439748.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -2496,7 +2496,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "how-is-medicare-part-d-changing-in-2026",
   seo: {
-    title: "How is Medicare Part D Changing in 2026? | MedicareFAQ",
+    title: "How is Medicare Part D Changing in 2026?",
     description: "This year, CMS has projected a decrease in Medicare Part D costs. Plus, learn about exciting news about major changes in Part D benefits.",
     canonical: "https://www.medicarefaq.com/blog/how-is-medicare-part-d-changing-in-2026/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/how-is-medicare-part-d-changing-in-2024.jpg",
@@ -2551,7 +2551,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
   seo: {
-    title: "Medicare Supplement vs. Medicare Advantage: 2026 Comparison Guide | MedicareFAQ",
+    title: "Medicare Supplement vs. Medicare Advantage: 2026 Comparison Guide",
     description: "Deciding between Medicare Supplement (Medigap) and Medicare Advantage in 2026? Compare costs, provider freedom, drug coverage, and enrollment rules with updated figures to find the right plan for your health and budget.",
     canonical: "https://www.medicarefaq.com/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained/",
     ogImage: "https://images.unsplash.com/photo-1758686254218-30e3abffba4e?w=1200&h=630&fit=crop",
@@ -2644,7 +2644,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
   seo: {
-    title: "Your Guide to Medicare Enrollment Periods: When to Sign up | MedicareFAQ",
+    title: "Your Guide to Medicare Enrollment Periods: When to Sign up",
     description: "Understanding Medicare enrollment periods is crucial for timely coverage. Learn about Initial, General, Annual, and Special Enrollment Periods, Medigap options, and penalties.",
     canonical: "https://www.medicarefaq.com/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up/",
     ogImage: "https://images.pexels.com/photos/8815844/pexels-photo-8815844.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -2731,7 +2731,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "10-questions-to-ask-before-buying-a-medicare-supplement-plan",
   seo: {
-    title: "10 Questions to Ask Before Buying a Medicare Supplement Plan | MedicareFAQ",
+    title: "10 Questions to Ask Before Buying a Medicare Supplement Plan",
     description: "Learn the key questions to ask before purchasing a Medicare Supplement Plan, including coverage details, costs, enrollment timing, and how to choose the best plan for your needs.",
     canonical: "https://www.medicarefaq.com/blog/10-questions-to-ask-before-buying-a-medicare-supplement-plan/",
     ogImage: "https://images.pexels.com/photos/8441812/pexels-photo-8441812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -2798,7 +2798,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Key Questions to Ask When Comparing Medicare Advantage Plans | MedicareFAQ",
+    title: "Key Questions to Ask When Comparing Medicare Advantage Plans",
     description: "Discover the essential questions to ask when comparing Medicare Advantage Plans (MAPD). Learn how to choose the right plan for your doctors, hospitals, benefits, and medications.",
     canonical: "https://www.medicarefaq.com/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Key-Questions-to-Ask-When-Comparing-Medicare-Advantage-Plans.jpg",
@@ -2879,7 +2879,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Top 5 Medicare Annual Enrollment Mistakes to Avoid | MedicareFAQ",
+    title: "Top 5 Medicare Annual Enrollment Mistakes to Avoid",
     description: "Learn the top 5 Medicare Annual Enrollment mistakes and how to avoid them. Review plans, compare drug coverage, and explore options to get the right coverage.",
     canonical: "https://www.medicarefaq.com/blog/the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/The-Top-5-Mistakes-People-Make-During-Medicare-Annual-Enrollment-and-How-to-Avoid-Them.jpg",
@@ -2928,7 +2928,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "New in 2025: Medicare's Part D Payment Plan Explained | MedicareFAQ",
+    title: "New in 2025: Medicare's Part D Payment Plan Explained",
     description: "Learn about Medicare's new Part D Payment Plan in 2025, who qualifies, how it works, benefits, enrollment tips, and answers to common questions for Medicare beneficiaries.",
     canonical: "https://www.medicarefaq.com/blog/new-in-2025-medicares-part-d-payment-plan-explained/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/New-in-2025-Medicares-Part-D-Payment-Plan-Explained.jpg",
@@ -2996,7 +2996,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Understanding Medigap Premiums: Does a Higher Price Mean Better Coverage? | MedicareFAQ",
+    title: "Understanding Medigap Premiums: Does a Higher Price Mean Better Coverage?",
     description: "Is a higher Medicare Supplement premium worth it? Learn why Medigap plan prices vary and if paying more actually means better coverage.",
     canonical: "https://www.medicarefaq.com/blog/understanding-medigap-premiums-does-a-higher-price-mean-better-coverage/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-Medigap-Premiums-Does-a-Higher-Price-Mean-Better-Coverage.jpg",
@@ -3049,7 +3049,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "How Medigap Plans Affect Your Overall Medicare Costs | MedicareFAQ",
+    title: "How Medigap Plans Affect Your Overall Medicare Costs",
     description: "Learn how Medigap plans help control your Medicare costs by covering deductibles and coinsurance. Compare plans to reduce your financial risk in 2026.",
     canonical: "https://www.medicarefaq.com/blog/how-medigap-plans-affect-your-overall-medicare-costs/",
     ogImage: "https://images.pexels.com/photos/8815888/pexels-photo-8815888.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -3106,7 +3106,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained | MedicareFAQ",
+    title: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained",
     description: "Navigating Your Coverage: Medicare Automatic Enrollment vs. Manual Enrollment Explained",
     canonical: "",
     ogImage: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
@@ -3168,7 +3168,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained | MedicareFAQ",
+    title: "Medicare Supplement vs. Medicare Advantage: Coverage Transparency Explained",
     description: "Explore the differences between Medicare Supplement and Medicare Advantage plans, focusing on coverage transparency, costs, benefits, and provider access to help you make informed healthcare decisions.",
     canonical: "https://yourwebsite.com/medicare-advantage-vs-medigap",
     ogImage: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -3317,7 +3317,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Medicare Part B Annual Deductible Explained: What You\'ll Pay | MedicareFAQ",
+    title: "Medicare Part B Annual Deductible Explained: What You\'ll Pay",
     description: "Discover how the [dc id='current-year'] Medicare Part B annual deductible works, what you will pay, and how Medicare Supplement plans protect your retirement savings.",
     canonical: "https://www.medicarefaq.com/blog/medicare-part-b-annual-deductible-explained-what-youll-pay/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Part-B-Annual-Deductible-Explained-What-Youll-Pay.jpg",
@@ -3525,7 +3525,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Medicare Supplement and Pre-Existing Conditions: What You Need to Know | MedicareFAQ",
+    title: "Medicare Supplement and Pre-Existing Conditions: What You Need to Know",
     description: "Learn everything you need to know about Medicare Supplement plans and pre-existing conditions. Discover enrollment timing, guaranteed issue rights, and how to protect your savings.",
     canonical: "https://www.medicarefaq.com/blog/medicare-supplement-and-pre-existing-conditions-what-you-need-to-know/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-and-Pre-Existing-Conditions-What-You-Need-to-Know.jpg",
@@ -3584,7 +3584,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "How the Medicare Part B Giveback Can Lower Your Monthly Costs | MedicareFAQ",
+    title: "How the Medicare Part B Giveback Can Lower Your Monthly Costs",
     description: "Discover exactly how the Medicare Part B Giveback works to lower your monthly costs, who qualifies, and why Medicare Supplement plans often provide superior long-term protection.",
     canonical: "https://www.medicarefaq.com/blog/how-the-medicare-part-b-giveback-can-lower-your-monthly-costs/",
     ogImage: "https://images.unsplash.com/photo-1761839257647-df30867afd54?w=1200&h=630&fit=crop",
@@ -3637,7 +3637,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Medicare Advantage for Chronic Conditions: What You Need to Know | MedicareFAQ",
+    title: "Medicare Advantage for Chronic Conditions: What You Need to Know",
     description: "Discover what you need to know about Medicare Advantage for chronic conditions, Special Needs Plans, and why Medicare Supplement products offer the best freedom for your health.",
     canonical: "https://www.medicarefaq.com/blog/medicare-advantage-for-chronic-conditions-what-you-need-to-know/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Advantage-for-Chronic-Conditions-What-You-Need-to-Know.jpg",
@@ -3698,7 +3698,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Understanding How Medicare Works with Employer Health Plans | MedicareFAQ",
+    title: "Understanding How Medicare Works with Employer Health Plans",
     description: "Discover exactly how Medicare works with your employer health plan. Learn about primary and secondary payer rules, when to enroll, and how Medicare Supplement plans can protect your savings.",
     canonical: "https://www.medicarefaq.com/blog/understanding-how-medicare-works-with-employer-health-plans/",
     ogImage: "https://www.medicarefaq.com/wp-content/uploads/Understanding-How-Medicare-Works-with-Employer-Health-Plans.jpg",
@@ -3755,7 +3755,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Why Medicare Supplements Offer Peace of Mind | MedicareFAQ",
+    title: "Why Medicare Supplements Offer Peace of Mind",
     description: "Discover why Medicare Supplement plans offer ultimate peace of mind in retirement. Learn how Medigap provides predictable costs, nationwide doctor access, and lifestyle flexibility.",
     canonical: "https://www.medicarefaq.com/blog/why-medicare-supplements-offer-peace-of-mind/",
     ogImage: "https://images.pexels.com/photos/8815834/pexels-photo-8815834.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -3815,7 +3815,7 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "Why Medicare Supplements Offer Network-Free Healthcare | MedicareFAQ",
+    title: "Why Medicare Supplements Offer Network-Free Healthcare",
     description: "Discover the peace of mind that comes with network-free healthcare. Learn why Medicare Supplement plans offer ultimate freedom in choosing your doctors, specialists, and hospitals without restrictive networks.",
     canonical: "https://www.medicarefaq.com/blog/why-medicare-supplements-offer-network-free-healthcare/",
     ogImage: "https://images.unsplash.com/photo-1758686253677-d3af6c15186e?w=1200&h=630&fit=crop",
@@ -3872,7 +3872,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "medicare-flex-card",
       seo: {
-        title: "Medicare Flex Card: What it is and How to Get One | MedicareFAQ",
+        title: "Medicare Flex Card: What it is and How to Get One",
         description: "Medicare flex cards are a benefit offered by some Medicare Advantage plans that provide a prepaid debit card for approved health-related expenses. Learn ho",
         canonical: "https://www.medicarefaq.com/blog/medicare-flex-card/",
         ogImage: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -4058,7 +4058,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "can-you-get-medicare-without-receiving-social-security-benefits",
       seo: {
-        title: "Can You Get Medicare without Receiving Social Security Benefits? | MedicareFAQ",
+        title: "Can You Get Medicare without Receiving Social Security Benefits?",
         description: "Many people assume Medicare and Social Security go hand in hand, but you can enroll in Medicare even if you haven't started collecting Social Security. Her",
         canonical: "https://www.medicarefaq.com/blog/can-you-get-medicare-without-receiving-social-security-benefits/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -4076,7 +4076,7 @@ export const blogArticles: BlogArticleData[] = [
       buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/18095841-can-you-get-medicare-without-receiving-social-security-benefits.mp3?download=true",
       podcastDate: "October 31, 2025",
       podcastDuration: "5:47",
-      imageAlt: "Can You Get Medicare without Receiving Social Security Benefits? | MedicareFAQ",
+      imageAlt: "Can You Get Medicare without Receiving Social Security Benefits?",
       keyTakeaways: ["You can enroll in Medicare at 65 without receiving Social Security benefits, but you must apply separately for Medicare.", "If you delay Social Security past 65, you should still sign up for Medicare on time to avoid paying higher premiums for life.", "Working past 65 and having employer coverage doesn't automatically exempt you from Medicare enrollment requirements.", "Missing Medicare\'s initial enrollment period can result in permanent late enrollment penalties unless you have qualifying coverage."],
       tableOfContents: [
         { id: "medicare-and-social-security-are-separate", title: "Medicare and Social Security are Completely Separate" },
@@ -4228,7 +4228,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "full-retirement-age",
       seo: {
-        title: "Full Retirement Age: What it Means for Medicare and Social Security | MedicareFAQ",
+        title: "Full Retirement Age: What it Means for Medicare and Social Security",
         description: "Your full retirement age (FRA) affects when you can claim full Social Security benefits -- and it interacts with Medicare enrollment in important ways. Here",
         canonical: "https://www.medicarefaq.com/blog/full-retirement-age/",
         ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -4407,7 +4407,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide",
       seo: {
-        title: "Transitioning to Medicare after Employer Coverage Ends: A Step-by-Step Guide | MedicareFAQ",
+        title: "Transitioning to Medicare after Employer Coverage Ends: A Step-by-Step Guide",
         description: "Leaving employer health coverage is one of the most common Medicare triggers. This step-by-step guide walks you through exactly what to do -- and when -- to ",
         canonical: "https://www.medicarefaq.com/blog/transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide/",
         ogImage: "https://images.pexels.com/photos/8815851/pexels-photo-8815851.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -4576,7 +4576,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "what-happens-to-your-medicare-when-you-move-states",
       seo: {
-        title: "What Happens to Your Medicare When You Move States? | MedicareFAQ",
+        title: "What Happens to Your Medicare When You Move States?",
         description: "Moving to a new state doesn't affect Original Medicare, but it can significantly impact Medicare Advantage and Part D plans. Here\\'s what to do before and a",
         canonical: "https://www.medicarefaq.com/blog/what-happens-to-your-medicare-when-you-move-states/",
         ogImage: "https://images.pexels.com/photos/7787410/pexels-photo-7787410.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -4594,7 +4594,7 @@ export const blogArticles: BlogArticleData[] = [
       buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/17859521-what-happens-to-your-medicare-when-you-move-states.mp3?download=true",
       podcastDate: "October 6, 2025",
       podcastDuration: "6:46",
-      imageAlt: "What Happens to Your Medicare When You Move States? | MedicareFAQ",
+      imageAlt: "What Happens to Your Medicare When You Move States?",
       keyTakeaways: ["Original Medicare (Parts A and B) works the same in every state, so your coverage doesn't change when you move", "Medicare Advantage and Part D plans are state-specific, and your current plan may not be available in your new state", "You have a special enrollment period to change plans when you move, even outside the normal Annual Enrollment Period", "Contact your plans 2-3 months before moving to understand your options and avoid coverage gaps"],
       tableOfContents: [
         { id: "original-medicare-coverage", title: "Original Medicare Stays the Same across State Lines" },
@@ -4748,7 +4748,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "does-medicare-offer-a-grocery-allowance",
       seo: {
-        title: "Does Medicare Offer a Grocery Allowance? | MedicareFAQ",
+        title: "Does Medicare Offer a Grocery Allowance?",
         description: "Some Medicare Advantage plans include a grocery allowance benefit for qualifying members. Learn which plans offer this benefit, how much it's worth, and ho",
         canonical: "https://www.medicarefaq.com/blog/does-medicare-offer-a-grocery-allowance/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -4913,7 +4913,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "the-hidden-trade-offs-of-0-premium-medicare-advantage-plans",
       seo: {
-        title: "The Hidden Trade-Offs of $0 Premium Medicare Advantage Plans | MedicareFAQ",
+        title: "The Hidden Trade-Offs of $0 Premium Medicare Advantage Plans",
         description: "$0 premium Medicare Advantage plans sound like a great deal -- and sometimes they are. But there are important trade-offs to understand before you enroll. H",
         canonical: "https://www.medicarefaq.com/blog/the-hidden-trade-offs-of-0-premium-medicare-advantage-plans/",
         ogImage: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -5069,7 +5069,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "illinois-birthday-rule",
       seo: {
-        title: "Illinois Birthday Rule: How to Switch Medigap Plans without Underwriting | MedicareFAQ",
+        title: "Illinois Birthday Rule: How to Switch Medigap Plans without Underwriting",
         description: "Illinois gives Medicare Supplement policyholders a special annual window to switch plans without medical underwriting. Learn how the Illinois birthday rule",
         canonical: "https://www.medicarefaq.com/blog/illinois-birthday-rule/",
         ogImage: "https://images.pexels.com/photos/7810954/pexels-photo-7810954.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -5209,7 +5209,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "medicare-and-hsa-rules-what-happens-when-you-turn-65",
       seo: {
-        title: "Medicare and HSA Rules: What Happens When You Turn 65 | MedicareFAQ",
+        title: "Medicare and HSA Rules: What Happens When You Turn 65",
         description: "Turning 65 changes the rules for Health Savings Accounts. Learn how Medicare enrollment affects your HSA contributions and how to avoid costly tax penaltie",
         canonical: "https://www.medicarefaq.com/blog/medicare-and-hsa-rules-what-happens-when-you-turn-65/",
         ogImage: "https://images.unsplash.com/photo-1758691462858-f1286e5daf40?w=1200&h=630&fit=crop",
@@ -5224,7 +5224,7 @@ export const blogArticles: BlogArticleData[] = [
       readTime: "7 min read",
       featured: false,
       image: "/images/generated/medicare-and-hsa-rules.png",
-      imageAlt: "Medicare and HSA Rules: What Happens When You Turn 65 | MedicareFAQ",
+      imageAlt: "Medicare and HSA Rules: What Happens When You Turn 65",
       keyTakeaways: ["You must stop HSA contributions once you enroll in Medicare Part A", "Continuing contributions after Medicare enrollment triggers a 20% penalty plus income taxes", "You can use existing HSA funds tax-free for qualified medical expenses in retirement"],
       tableOfContents: [
         { id: "hsa-medicare-rules", title: "HSA Rules Change at 65" },
@@ -5305,7 +5305,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "medicare-parts-a-b-c-and-d-explained-simply",
       seo: {
-        title: "Medicare Parts a, B, C, and D Explained Simply | MedicareFAQ",
+        title: "Medicare Parts a, B, C, and D Explained Simply",
         description: "Medicare can feel overwhelming at first, but the four parts each serve a distinct purpose. This plain-language guide breaks down what each part covers and ",
         canonical: "https://www.medicarefaq.com/blog/medicare-parts-a-b-c-and-d-explained-simply/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -5406,7 +5406,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "understanding-medicare-part-b-premiums-deductibles-and-whats-covered",
       seo: {
-        title: "Understanding Medicare Part B: Premiums, Deductibles, and What's Covered | MedicareFAQ",
+        title: "Understanding Medicare Part B: Premiums, Deductibles, and What's Covered",
         description: "Medicare Part B covers outpatient medical care, but its costs can be confusing. This guide explains the 2026 premium, deductible, coinsurance, and what ser",
         canonical: "https://www.medicarefaq.com/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -5508,7 +5508,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "amazon-rx-pass",
       seo: {
-        title: "Amazon RxPass and Medicare: What You Need to Know | MedicareFAQ",
+        title: "Amazon RxPass and Medicare: What You Need to Know",
         description: "Amazon's RxPass offers generic medications for a flat monthly fee, but Medicare beneficiaries face important restrictions. Learn what RxPass covers and whe",
         canonical: "https://www.medicarefaq.com/blog/amazon-rx-pass/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -5606,7 +5606,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "understanding-medicare-assignment-what-it-means-and-why-it-matters",
       seo: {
-        title: "Understanding Medicare Assignment: What it Means and Why it Matters | MedicareFAQ",
+        title: "Understanding Medicare Assignment: What it Means and Why it Matters",
         description: "Medicare assignment determines whether your doctor accepts Medicare's approved payment amount. Choosing non-participating or opt-out providers can lead to ",
         canonical: "https://www.medicarefaq.com/blog/understanding-medicare-assignment-what-it-means-and-why-it-matters/",
         ogImage: "https://images.pexels.com/photos/5858411/pexels-photo-5858411.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -5697,7 +5697,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "discounts-for-seniors",
       seo: {
-        title: "Discounts for Seniors: A Complete Guide to Saving Money in Retirement | MedicareFAQ",
+        title: "Discounts for Seniors: A Complete Guide to Saving Money in Retirement",
         description: "From prescription drug programs to travel discounts and grocery savings, there are hundreds of ways seniors can reduce their monthly expenses. Here's a com",
         canonical: "https://www.medicarefaq.com/blog/discounts-for-seniors/",
         ogImage: "https://images.pexels.com/photos/6787918/pexels-photo-6787918.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -5791,7 +5791,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "understanding-the-intersection-of-tricare-va-benefits-and-medicare",
       seo: {
-        title: "Understanding the Intersection of TRICARE, VA Benefits, and Medicare | MedicareFAQ",
+        title: "Understanding the Intersection of TRICARE, VA Benefits, and Medicare",
         description: "Veterans and military retirees often have multiple coverage options. Understanding how TRICARE, VA benefits, and Medicare work together is essential for ma",
         canonical: "https://www.medicarefaq.com/blog/understanding-the-intersection-of-tricare-va-benefits-and-medicare/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -5881,7 +5881,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medicare-and-vision-dental-and-hearing-what-are-your-options',
       seo: {
-        title: 'Medicare and Vision, Dental, and Hearing: What are Your Options? | MedicareFAQ',
+        title: 'Medicare and Vision, Dental, and Hearing: What are Your Options?',
         description: 'Original Medicare doesn\'t cover vision, dental, or hearing services, but you have options. Discover how Medicare Advantage plans, standalone policies, and ',
         canonical: 'https://www.medicarefaq.com/blog/medicare-and-vision-dental-and-hearing-what-are-your-options/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -5946,7 +5946,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: '5-government-benefits-for-seniors',
       seo: {
-        title: '5 Government Benefits for Seniors You May Not Know About | MedicareFAQ',
+        title: '5 Government Benefits for Seniors You May Not Know About',
         description: 'Beyond Medicare, the federal government offers numerous lesser-known benefits designed specifically for seniors. Discover five government programs that cou',
         canonical: 'https://www.medicarefaq.com/blog/5-government-benefits-for-seniors/',
         ogImage: "https://images.pexels.com/photos/8806193/pexels-photo-8806193.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6015,7 +6015,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: '5-things-to-do-after-you-receive-your-medicare-card',
       seo: {
-        title: '5 Things to Do After You Receive Your Medicare Card | MedicareFAQ',
+        title: '5 Things to Do After You Receive Your Medicare Card',
         description: 'Receiving your Medicare card is an exciting milestone, but it\'s just the beginning. Learn the five essential steps you must take after getting your card to',
         canonical: 'https://www.medicarefaq.com/blog/5-things-to-do-after-you-receive-your-medicare-card/',
         ogImage: "https://images.pexels.com/photos/7551604/pexels-photo-7551604.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6080,7 +6080,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medicare-advantage-denied-claims-crisis',
       seo: {
-        title: 'Medicare Advantage Denied Claims: What You Can do | MedicareFAQ',
+        title: 'Medicare Advantage Denied Claims: What You Can do',
         description: 'Medicare Advantage plan denials can leave you stranded with unexpected medical bills. Discover your legal appeal rights, the step-by-step process to challe',
         canonical: 'https://www.medicarefaq.com/blog/medicare-advantage-denied-claims-crisis/',
         ogImage: "https://images.pexels.com/photos/7551633/pexels-photo-7551633.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6145,7 +6145,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'how-medicare-handles-skilled-nursing-vs-custodial-care',
       seo: {
-        title: 'How Medicare Handles Skilled Nursing vs. Custodial Care | MedicareFAQ',
+        title: 'How Medicare Handles Skilled Nursing vs. Custodial Care',
         description: 'Medicare makes a critical distinction between skilled nursing care and custodial care that directly impacts your coverage and costs. Learn exactly what Med',
         canonical: 'https://www.medicarefaq.com/blog/how-medicare-handles-skilled-nursing-vs-custodial-care/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6210,7 +6210,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'laws-against-taking-advantage-of-the-elderly',
       seo: {
-        title: 'Laws Against Taking Advantage of the Elderly: What You Need to Know | MedicareFAQ',
+        title: 'Laws Against Taking Advantage of the Elderly: What You Need to Know',
         description: 'Elder abuse and fraud cost seniors billions annually, but strong federal and state laws protect Medicare beneficiaries. Learn about legal protections, warn',
         canonical: 'https://www.medicarefaq.com/blog/laws-against-taking-advantage-of-the-elderly/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6276,7 +6276,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'married-divorced-widowed-how-relationship-status-affects-medicare',
       seo: {
-        title: 'Married, Divorced, Widowed: How Relationship Status Affects Medicare | MedicareFAQ',
+        title: 'Married, Divorced, Widowed: How Relationship Status Affects Medicare',
         description: 'Your relationship status plays a significant role in how you navigate Medicare enrollment, coverage options, and costs. Whether you\'re married, divorced, o',
         canonical: 'https://www.medicarefaq.com/blog/married-divorced-widowed-how-relationship-status-affects-medicare/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6343,7 +6343,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan',
       seo: {
-        title: 'Making the Switch: A Guide to Moving from Medicare Advantage to a Medicare Supplement Plan | MedicareFAQ',
+        title: 'Making the Switch: A Guide to Moving from Medicare Advantage to a Medicare Supplement Plan',
         description: 'Thinking about switching from Medicare Advantage to a Medigap plan? This comprehensive guide walks you through the reasons to switch, your enrollment windo',
         canonical: 'https://www.medicarefaq.com/blog/making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6408,7 +6408,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'care-compare-tool',
       seo: {
-        title: 'Medicare Care Compare Tool: How to Use it to Find Quality Providers | MedicareFAQ',
+        title: 'Medicare Care Compare Tool: How to Use it to Find Quality Providers',
         description: 'The Medicare Care Compare Tool is your gateway to finding high-quality hospitals, nursing homes, and dialysis facilities in your area. Learn how to navigat',
         canonical: 'https://www.medicarefaq.com/blog/care-compare-tool/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6474,7 +6474,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medicare-at-60',
       seo: {
-        title: 'Medicare at 60: What You Need to Know before You\'re Eligible | MedicareFAQ',
+        title: 'Medicare at 60: What You Need to Know before You\'re Eligible',
         description: 'While you cannot enroll in Medicare at 60, these years are crucial for planning your future coverage. Learn what you need to know now to make informed Medi',
         canonical: 'https://www.medicarefaq.com/blog/medicare-at-60/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6539,7 +6539,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it',
       seo: {
-        title: 'Medigap Plan F vs. Plan G over Time: Is Plan F Still Worth it? | MedicareFAQ',
+        title: 'Medigap Plan F vs. Plan G over Time: Is Plan F Still Worth it?',
         description: 'Plan F was once the gold standard of Medigap coverage, but Medicare rules changed in 2020. Today, Plan G offers comparable protection at lower costs for mo',
         canonical: 'https://www.medicarefaq.com/blog/medigap-plan-f-vs-g-over-time-is-plan-f-still-worth-it/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6607,7 +6607,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'louisiana-birthday-rule',
       seo: {
-        title: 'Louisiana Birthday Rule: How it Helps You Change Medigap Plans | MedicareFAQ',
+        title: 'Louisiana Birthday Rule: How it Helps You Change Medigap Plans',
         description: 'Louisiana\'s Birthday Rule is a valuable consumer protection that allows Medicare beneficiaries to change Medigap plans annually during their birthday month',
         canonical: 'https://www.medicarefaq.com/blog/louisiana-birthday-rule/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6674,7 +6674,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses',
       seo: {
-        title: 'Medicare Advantage: Uncovering the Unexpected Out-of-Pocket Expenses | MedicareFAQ',
+        title: 'Medicare Advantage: Uncovering the Unexpected Out-of-Pocket Expenses',
         description: 'While Medicare Advantage offers lower premiums than Original Medicare, beneficiaries face unexpected costs. Learn about copays, deductibles, network limita',
         canonical: 'https://www.medicarefaq.com/blog/medicare-advantage-uncovering-the-unexpected-out-of-pocket-expenses/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6723,7 +6723,7 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: 'eligibility-for-special-enrollment-period-after-medicare-coverage-loss',
       seo: {
-        title: 'Eligibility for Special Enrollment Period after Medicare Coverage Loss | MedicareFAQ',
+        title: 'Eligibility for Special Enrollment Period after Medicare Coverage Loss',
         description: 'Losing health insurance coverage through your employer triggers a Special Enrollment Period. Learn how to qualify and enroll in Medicare without facing lat',
         canonical: 'https://www.medicarefaq.com/blog/eligibility-for-special-enrollment-period-after-medicare-coverage-loss/',
         ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg',
@@ -6774,7 +6774,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "observation-vs-inpatient-why-it-can-affect-your-medicare-bill",
     seo: {
-      title: "Observation vs Inpatient: Why it Can Affect Your Medicare Bill | MedicareFAQ",
+      title: "Observation vs Inpatient: Why it Can Affect Your Medicare Bill",
       description: "Learn why hospitals place patients on observation status instead of admitting them as inpatient, and how this affects your Medicare bills.",
       canonical: "https://www.medicarefaq.com/blog/observation-vs-inpatient-why-it-can-affect-your-medicare-bill/",
       ogImage: "https://images.pexels.com/photos/7551675/pexels-photo-7551675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6823,7 +6823,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "kentucky-birthday-rule",
     seo: {
-      title: "Kentucky Birthday Rule: Your Medigap Rights in Kentucky | MedicareFAQ",
+      title: "Kentucky Birthday Rule: Your Medigap Rights in Kentucky",
       description: "Learn how Kentucky residents can use the Medigap Birthday Rule to switch plans annually without medical underwriting or penalties.",
       canonical: "https://www.medicarefaq.com/blog/kentucky-birthday-rule/",
       ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6838,7 +6838,7 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "8 min read",
     featured: false,
     image: "/images/generated/kentucky-birthday-rule.png",
-      imageAlt: "Kentucky Birthday Rule: Your Medigap Rights in Kentucky | MedicareFAQ",
+      imageAlt: "Kentucky Birthday Rule: Your Medigap Rights in Kentucky",
     keyTakeaways: [
       "Kentucky honors the Medigap Birthday Rule, allowing you to switch plans once yearly without medical underwriting during your birthday month.",
       "You can change Medigap coverage in the month of your birthday and the two months following without health questions or waiting periods.",
@@ -6876,7 +6876,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "senior-loneliness-statistics",
     seo: {
-      title: "Senior Loneliness Statistics: The Hidden Health Crisis | MedicareFAQ",
+      title: "Senior Loneliness Statistics: The Hidden Health Crisis",
       description: "Discover how senior loneliness affects health outcomes, mortality rates, and why Medicare needs better coverage solutions.",
       canonical: "https://www.medicarefaq.com/blog/senior-loneliness-statistics/",
       ogImage: "https://images.pexels.com/photos/7551671/pexels-photo-7551671.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6928,7 +6928,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "protect-yourself-from-medicare-penalties-key-tips-and-deadlines",
     seo: {
-      title: "Protect Yourself from Medicare Penalties: Key Tips and Deadlines | MedicareFAQ",
+      title: "Protect Yourself from Medicare Penalties: Key Tips and Deadlines",
       description: "Learn critical Medicare deadlines and enrollment penalties to protect your coverage and avoid costly premium increases.",
       canonical: "https://www.medicarefaq.com/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines/",
       ogImage: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -6977,7 +6977,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "coverage-gap-discount-program",
     seo: {
-      title: "Medicare Coverage Gap Discount Program Explained | MedicareFAQ",
+      title: "Medicare Coverage Gap Discount Program Explained",
       description: "Learn how the Medicare Coverage Gap Discount Program helps reduce drug costs during the donut hole phase of Part D coverage.",
       canonical: "https://www.medicarefaq.com/blog/coverage-gap-discount-program/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7030,7 +7030,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job",
     seo: {
-      title: "Medicare and Employment: How to Navigate Coverage When You are Still Working | MedicareFAQ",
+      title: "Medicare and Employment: How to Navigate Coverage When You are Still Working",
       description: "Learn how to successfully navigate Medicare enrollment and coverage coordination while maintaining active employment.",
       canonical: "https://www.medicarefaq.com/blog/medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7079,7 +7079,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "why-some-drugs-are-covered-under-part-b-instead-of-part-d",
     seo: {
-      title: "Why Some Drugs are Covered under Part B Instead of Part D | MedicareFAQ",
+      title: "Why Some Drugs are Covered under Part B Instead of Part D",
       description: "Discover why Medicare covers certain medications under Part B instead of Part D and how this affects your prescription drug costs and coverage.",
       canonical: "https://www.medicarefaq.com/blog/why-some-drugs-are-covered-under-part-b-instead-of-part-d/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7131,7 +7131,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever",
     seo: {
-      title: "The Lifetime Medicare Penalties: How People Accidentally Owe Them Forever | MedicareFAQ",
+      title: "The Lifetime Medicare Penalties: How People Accidentally Owe Them Forever",
       description: "Medicare late enrollment penalties are permanent additions to your premiums. Learn how to avoid these lifetime costs and what to do if you already owe them",
       canonical: "https://www.medicarefaq.com/blog/the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7183,7 +7183,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-and-alternative-therapies-whats-covered-and-whats-not",
     seo: {
-      title: "Medicare and Alternative Therapies: What is Covered and What is not | MedicareFAQ",
+      title: "Medicare and Alternative Therapies: What is Covered and What is not",
       description: "Learn which alternative therapies Medicare covers and what you will need to pay out of pocket for complementary treatments.",
       canonical: "https://www.medicarefaq.com/blog/medicare-and-alternative-therapies-whats-covered-and-whats-not/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7235,7 +7235,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "retirement-regrets-of-seniors",
     seo: {
-      title: "Retirement Regrets of Seniors: What You Can Learn from Their Mistakes | MedicareFAQ",
+      title: "Retirement Regrets of Seniors: What You Can Learn from Their Mistakes",
       description: "Learn from real retirement regrets of seniors about Medicare planning mistakes and how to avoid costly errors in your own retirement journey.",
       canonical: "https://www.medicarefaq.com/blog/retirement-regrets-of-seniors/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7288,7 +7288,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "maryland-medicare-supplement-birthday-rule",
     seo: {
-      title: "Maryland Medicare Supplement Birthday Rule Explained | MedicareFAQ",
+      title: "Maryland Medicare Supplement Birthday Rule Explained",
       description: "Learn how Maryland Medicare Supplement Birthday Rule lets you change Medigap plans annually without medical underwriting during your birthday month.",
       canonical: "https://www.medicarefaq.com/blog/maryland-medicare-supplement-birthday-rule/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7303,7 +7303,7 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "8 min read",
     featured: false,
     image: "/images/generated/maryland-medicare-supplement-birthday.png",
-      imageAlt: "Maryland Medicare Supplement Birthday Rule Explained | MedicareFAQ",
+      imageAlt: "Maryland Medicare Supplement Birthday Rule Explained",
     keyTakeaways: [
       "Maryland Medicare Supplement Birthday Rule allows you to switch plans once per year without medical underwriting during your birthday month",
       "You have 63 days from your birthday to change Medigap plans under this guarantee issue right",
@@ -7339,7 +7339,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "joe-namath-medicare-commericals",
     seo: {
-      title: "Joe Namath Medicare Commercials: What You Need to Know | MedicareFAQ",
+      title: "Joe Namath Medicare Commercials: What You Need to Know",
       description: "Learn what Joe Namath Medicare commercials are really promoting and how to evaluate Medicare Advantage plans for your coverage needs.",
       canonical: "https://www.medicarefaq.com/blog/joe-namath-medicare-commericals/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7389,7 +7389,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "oklahoma-birthday-rule",
     seo: {
-      title: "Oklahoma Birthday Rule: Medigap Rights in Oklahoma | MedicareFAQ",
+      title: "Oklahoma Birthday Rule: Medigap Rights in Oklahoma",
       description: "Learn about Oklahoma's Birthday Rule for Medigap coverage, your annual enrollment rights, and how to switch plans without medical underwriting.",
       canonical: "https://www.medicarefaq.com/blog/oklahoma-birthday-rule/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7442,7 +7442,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medigap-underwriting-how-preexisting-conditions-still-matter",
     seo: {
-      title: "Medigap Underwriting: How Preexisting Conditions Still Matter | MedicareFAQ",
+      title: "Medigap Underwriting: How Preexisting Conditions Still Matter",
       description: "Preexisting conditions still matter for Medigap coverage. Learn when insurers can deny claims, charge more, and how to protect yourself.",
       canonical: "https://www.medicarefaq.com/blog/medigap-underwriting-how-preexisting-conditions-still-matter/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7492,7 +7492,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "inpatient-only-list",
     seo: {
-      title: "Medicare Inpatient Only List: What Procedures Require Hospitalization | MedicareFAQ",
+      title: "Medicare Inpatient Only List: What Procedures Require Hospitalization",
       description: "Learn which medical procedures Medicare requires to be performed as inpatient hospital stays and what this means for your coverage.",
       canonical: "https://www.medicarefaq.com/blog/inpatient-only-list/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7541,7 +7541,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-whats-covered-app",
     seo: {
-      title: "Medicare What is Covered App: Your Digital Coverage Guide | MedicareFAQ",
+      title: "Medicare What is Covered App: Your Digital Coverage Guide",
       description: "Discover how the Medicare What Is Covered App empowers you to understand your coverage, compare costs, and make smarter healthcare decisions.",
       canonical: "https://www.medicarefaq.com/blog/medicare-whats-covered-app/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7556,7 +7556,7 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "8 min read",
     featured: false,
     image: "/images/generated/medicare-whats-covered-app.png",
-      imageAlt: "Medicare What is Covered App: Your Digital Coverage Guide | MedicareFAQ",
+      imageAlt: "Medicare What is Covered App: Your Digital Coverage Guide",
     keyTakeaways: [
       "The Medicare What Is Covered App provides instant access to your personalized coverage details anytime, anywhere through your smartphone or tablet.",
       "Search specific services, medications, and providers to understand what Medicare will pay for before you receive care or fill prescriptions.",
@@ -7595,7 +7595,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g",
     seo: {
-      title: "Exploring Your Medigap Options beyond Plan F and Plan G | MedicareFAQ",
+      title: "Exploring Your Medigap Options beyond Plan F and Plan G",
       description: "While Plan F and G dominate Medigap discussions, Plans A, B, C, and N offer compelling alternatives with different coverage levels and costs.",
       canonical: "https://www.medicarefaq.com/blog/exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7649,7 +7649,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "guide-to-retirement-planning",
     seo: {
-      title: "Guide to Retirement Planning: Medicare and Financial Considerations | MedicareFAQ",
+      title: "Guide to Retirement Planning: Medicare and Financial Considerations",
       description: "Learn how to integrate Medicare planning into your retirement strategy with practical guidance on costs, coverage options, and financial preparation.",
       canonical: "https://www.medicarefaq.com/blog/guide-to-retirement-planning/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7703,7 +7703,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-news",
     seo: {
-      title: "Medicare News: Key Updates and Changes for 2026 | MedicareFAQ",
+      title: "Medicare News: Key Updates and Changes for 2026",
       description: "Discover the major Medicare changes coming in 2026, including premium increases, new benefits, and what you need to know.",
       canonical: "https://www.medicarefaq.com/blog/medicare-news/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7753,7 +7753,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice",
     seo: {
-      title: "Virginia and Utah Adopt Medigap Birthday Rules: What it Means for You | MedicareFAQ",
+      title: "Virginia and Utah Adopt Medigap Birthday Rules: What it Means for You",
       description: "Virginia and Utah adopt the Medigap birthday rule, allowing annual plan changes without medical underwriting. Learn how this benefits Medicare beneficiarie",
       canonical: "https://www.medicarefaq.com/blog/virginia-utah-adopt-medigap-birthday-rules-expanding-consumer-choice/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7804,7 +7804,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "understanding-cobra-and-medigap-coverage-costs-and-key-differences",
     seo: {
-      title: "Understanding COBRA and Medigap Coverage: Costs and Key Differences | MedicareFAQ",
+      title: "Understanding COBRA and Medigap Coverage: Costs and Key Differences",
       description: "Learn the key differences between COBRA and Medigap coverage, including costs, benefits, and which option works best for your healthcare needs.",
       canonical: "https://www.medicarefaq.com/blog/understanding-cobra-and-medigap-coverage-costs-and-key-differences/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -7857,7 +7857,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `top-free-computer-classes-for-seniors`,
-    seo: {title: `Top Free Computer Classes for Seniors | MedicareFAQ`, description: `Staying digitally connected is easier than ever with free computer classes designed specifically for seniors. Discover top-rated programs, libraries, and online resources that can help you master everything from email and social media to online banking and telehealth appointments.`, canonical: `https://www.medicarefaq.com/blog/top-free-computer-classes-for-seniors/`, ogImage: `/images/uploaded/top-free-computer-classes-for-seniors.jpg`},
+    seo: {title: `Top Free Computer Classes for Seniors`, description: `Staying digitally connected is easier than ever with free computer classes designed specifically for seniors. Discover top-rated programs, libraries, and online resources that can help you master everything from email and social media to online banking and telehealth appointments.`, canonical: `https://www.medicarefaq.com/blog/top-free-computer-classes-for-seniors/`, ogImage: `/images/uploaded/top-free-computer-classes-for-seniors.jpg`},
     title: `Top Free Computer Classes for Seniors`,
     excerpt: `Staying digitally connected is easier than ever with free computer classes designed specifically for seniors. Discover top-rated programs, libraries, and online resources that can help you master everything from email and social media to online banking and telehealth appointments.`,
     category: `Senior Resources`,
@@ -7876,7 +7876,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know`,
-    seo: {title: `Step Therapy and Prior Authorization: What Medicare Beneficiaries Need to Know | MedicareFAQ`, description: `Step therapy and prior authorization are utilization management tools that Medicare uses to control costs and ensure appropriate care. Understanding how these requirements work can help you navigate the approval process more smoothly and avoid unexpected denials or delays.`, canonical: `https://www.medicarefaq.com/blog/step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
+    seo: {title: `Step Therapy and Prior Authorization: What Medicare Beneficiaries Need to Know`, description: `Step therapy and prior authorization are utilization management tools that Medicare uses to control costs and ensure appropriate care. Understanding how these requirements work can help you navigate the approval process more smoothly and avoid unexpected denials or delays.`, canonical: `https://www.medicarefaq.com/blog/step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
     title: `Step Therapy and Prior Authorization: What Medicare Beneficiaries Need to Know`,
     excerpt: `Step therapy and prior authorization are utilization management tools that Medicare uses to control costs and ensure appropriate care. Understanding how these requirements work can help you navigate the approval process more smoothly and avoid unexpected denials or delays.`,
     category: `Medicare Coverage`,
@@ -7895,7 +7895,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters`,
-    seo: {title: `The Best Time to Enroll in a Medicare Supplement Plan and Why It Matters | MedicareFAQ`, description: `Timing is everything when it comes to Medicare Supplement insurance. Enrolling during your Initial Enrollment Period (IEP) can save you thousands in premiums and guarantee acceptance regardless of pre-existing conditions. Discover why waiting could cost you significantly more.`, canonical: `https://www.medicarefaq.com/blog/the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
+    seo: {title: `The Best Time to Enroll in a Medicare Supplement Plan and Why It Matters`, description: `Timing is everything when it comes to Medicare Supplement insurance. Enrolling during your Initial Enrollment Period (IEP) can save you thousands in premiums and guarantee acceptance regardless of pre-existing conditions. Discover why waiting could cost you significantly more.`, canonical: `https://www.medicarefaq.com/blog/the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
     title: `The Best Time to Enroll in a Medicare Supplement Plan and Why It Matters`,
     excerpt: `Timing is everything when it comes to Medicare Supplement insurance. Enrolling during your Initial Enrollment Period (IEP) can save you thousands in premiums and guarantee acceptance regardless of pre-existing conditions. Discover why waiting could cost you significantly more.`,
     category: `Enrollment`,
@@ -7914,7 +7914,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know`,
-    seo: {title: `Switching from Medicare Advantage to Original Medicare: What You Need to Know | MedicareFAQ`, description: `Switching from Medicare Advantage to Original Medicare is possible during specific enrollment periods. Understand your options, timing, and coverage changes before making the switch.`, canonical: `https://www.medicarefaq.com/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
+    seo: {title: `Switching from Medicare Advantage to Original Medicare: What You Need to Know`, description: `Switching from Medicare Advantage to Original Medicare is possible during specific enrollment periods. Understand your options, timing, and coverage changes before making the switch.`, canonical: `https://www.medicarefaq.com/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
     title: `Switching from Medicare Advantage to Original Medicare: What You Need to Know`,
     excerpt: `Switching from Medicare Advantage to Original Medicare is possible during specific enrollment periods. Understand your options, timing, and coverage changes before making the switch.`,
     category: `Medicare Plans`,
@@ -7933,7 +7933,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `medicare-for-all`,
-    seo: {title: `Medicare for All: What It Means and How It Differs from Current Medicare | MedicareFAQ`, description: `Medicare for All is a proposed universal healthcare system that differs significantly from today's Medicare program. Learn how these systems compare and what changes would occur.`, canonical: `https://www.medicarefaq.com/blog/medicare-for-all/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
+    seo: {title: `Medicare for All: What It Means and How It Differs from Current Medicare`, description: `Medicare for All is a proposed universal healthcare system that differs significantly from today's Medicare program. Learn how these systems compare and what changes would occur.`, canonical: `https://www.medicarefaq.com/blog/medicare-for-all/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
     title: `Medicare for All: What It Means and How It Differs from Current Medicare`,
     excerpt: `Medicare for All is a proposed universal healthcare system that differs significantly from today's Medicare program. Learn how these systems compare and what changes would occur.`,
     category: `Medicare Basics`,
@@ -7952,7 +7952,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `understanding-medigaps-foreign-travel-benefits-whats-really-covered`,
-    seo: {title: `Understanding Medigap Foreign Travel Benefits: What Is Really Covered | MedicareFAQ`, description: `Medigap plans offer limited foreign travel emergency coverage. Most plans cover 80% of emergency care costs abroad after a $250 deductible, up to plan limits.`, canonical: `https://www.medicarefaq.com/blog/understanding-medigaps-foreign-travel-benefits-whats-really-covered/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
+    seo: {title: `Understanding Medigap Foreign Travel Benefits: What Is Really Covered`, description: `Medigap plans offer limited foreign travel emergency coverage. Most plans cover 80% of emergency care costs abroad after a $250 deductible, up to plan limits.`, canonical: `https://www.medicarefaq.com/blog/understanding-medigaps-foreign-travel-benefits-whats-really-covered/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
     title: `Understanding Medigap Foreign Travel Benefits: What Is Really Covered`,
     excerpt: `Medigap plans offer limited foreign travel emergency coverage. Most plans cover 80% of emergency care costs abroad after a $250 deductible, up to plan limits.`,
     category: `Medicare Supplement`,
@@ -7971,7 +7971,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `complications-of-shingles-in-the-elderly`,
-    seo: {title: `Complications of Shingles in the Elderly: Medicare Coverage and Prevention | MedicareFAQ`, description: `Shingles complications in seniors can be serious and costly. Medicare covers prevention vaccines and treatment to protect your health.`, canonical: `https://www.medicarefaq.com/blog/complications-of-shingles-in-the-elderly/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
+    seo: {title: `Complications of Shingles in the Elderly: Medicare Coverage and Prevention`, description: `Shingles complications in seniors can be serious and costly. Medicare covers prevention vaccines and treatment to protect your health.`, canonical: `https://www.medicarefaq.com/blog/complications-of-shingles-in-the-elderly/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
     title: `Complications of Shingles in the Elderly: Medicare Coverage and Prevention`,
     excerpt: `Shingles complications in seniors can be serious and costly. Medicare covers prevention vaccines and treatment to protect your health.`,
     category: `Medicare Coverage`,
@@ -7991,7 +7991,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know",
     seo: {
-      title: "Switching from Medicare Advantage to Original Medicare | MedicareFAQ",
+      title: "Switching from Medicare Advantage to Original Medicare",
       description: "Thinking about leaving Medicare Advantage? Learn how to switch back to Original Medicare, what it costs, and whether you can get a Medigap plan.",
       canonical: "https://www.medicarefaq.com/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8065,7 +8065,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "top-free-computer-classes-for-seniors",
     seo: {
-      title: "Top Free Computer Classes for Seniors | MedicareFAQ",
+      title: "Top Free Computer Classes for Seniors",
       description: "Discover the best free computer classes for seniors, from beginner basics to intermediate skills. Stay connected, safe, and independent online.",
       canonical: "https://www.medicarefaq.com/blog/top-free-computer-classes-for-seniors/",
       ogImage: "/images/uploaded/top-free-computer-classes-for-seniors.jpg",
@@ -8127,7 +8127,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters",
     seo: {
-      title: "Best Time to Enroll in a Medicare Supplement Plan | MedicareFAQ",
+      title: "Best Time to Enroll in a Medicare Supplement Plan",
       description: "The best time to enroll in a Medigap plan is during your 6-month Open Enrollment Period. Learn why timing matters and what happens if you miss it.",
       canonical: "https://www.medicarefaq.com/blog/the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8185,7 +8185,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "nevada-birthday-rule",
     seo: {
-      title: "Nevada Birthday Rule for Medigap Plans | MedicareFAQ",
+      title: "Nevada Birthday Rule for Medigap Plans",
       description: "Nevada's birthday rule lets Medicare Supplement policyholders switch to an equal or lesser plan each year without medical underwriting. Learn how it works.",
       canonical: "https://www.medicarefaq.com/blog/nevada-birthday-rule/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8237,7 +8237,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "when-to-switch-medigap-plans-what-you-need-to-know",
     seo: {
-      title: "When to Switch Medigap Plans: What You Need to Know | MedicareFAQ",
+      title: "When to Switch Medigap Plans: What You Need to Know",
       description: "Thinking about switching your Medicare Supplement plan? Learn when you can switch, what underwriting means, and how to avoid costly mistakes.",
       canonical: "https://www.medicarefaq.com/blog/when-to-switch-medigap-plans-what-you-need-to-know/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8298,7 +8298,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-supplements-cost-vs-value-explained",
     seo: {
-      title: "Medicare Supplements: Cost vs. Value Explained | MedicareFAQ",
+      title: "Medicare Supplements: Cost vs. Value Explained",
       description: "Is a Medicare Supplement plan worth the premium? We break down the cost vs. value equation to help you decide if Medigap is right for you.",
       canonical: "https://www.medicarefaq.com/blog/medicare-supplement-plans-cost-vs-value-explained/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8360,7 +8360,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know",
     seo: {
-      title: "Step Therapy and Prior Authorization for Medicare | MedicareFAQ",
+      title: "Step Therapy and Prior Authorization for Medicare",
       description: "Learn how step therapy and prior authorization work in Medicare Advantage and Part D plans, and what rights you have to appeal these decisions.",
       canonical: "https://www.medicarefaq.com/blog/step-therapy-and-prior-authorization-what-medicare-beneficiaries-need-to-know/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8422,7 +8422,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-for-all",
     seo: {
-      title: "Medicare for All – Pros and Cons | MedicareFAQ",
+      title: "Medicare for All – Pros and Cons",
       description: "What is Medicare for All? We break down the pros, cons, costs, and how it would affect current Medicare beneficiaries and private insurance.",
       canonical: "https://www.medicarefaq.com/blog/medicare-for-all/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8477,7 +8477,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "understanding-medigaps-foreign-travel-benefits-whats-really-covered",
     seo: {
-      title: "Medigap Foreign Travel Benefits: What's Really Covered | MedicareFAQ",
+      title: "Medigap Foreign Travel Benefits: What's Really Covered",
       description: "Does your Medigap plan cover you when traveling abroad? Learn which plans include foreign travel emergency coverage and how the benefit actually works.",
       canonical: "https://www.medicarefaq.com/blog/understanding-medigaps-foreign-travel-benefits-whats-really-covered/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8537,7 +8537,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-blue-button",
     seo: {
-      title: "What is the Medicare Blue Button 2.0? | MedicareFAQ",
+      title: "What is the Medicare Blue Button 2.0?",
       description: "The Medicare Blue Button lets you download your complete Medicare claims history. Learn how to use it to manage your health data and share it with providers.",
       canonical: "https://www.medicarefaq.com/blog/medicare-blue-button/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8588,7 +8588,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "senior-dating-and-relationships",
     seo: {
-      title: "Senior Dating and Relationships | MedicareFAQ",
+      title: "Senior Dating and Relationships",
       description: "Dating as a senior can be rewarding and fulfilling. Learn about the benefits of senior dating, how to meet other singles, and how to stay safe online.",
       canonical: "https://www.medicarefaq.com/blog/senior-dating-and-relationships/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8657,7 +8657,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "companion-pets-for-seniors",
     seo: {
-      title: "Best Companion Pets for Seniors | MedicareFAQ",
+      title: "Best Companion Pets for Seniors",
       description: "Pets provide seniors with companionship, purpose, and health benefits. Discover the best companion pets for older adults and low-maintenance options for apartment living.",
       canonical: "https://www.medicarefaq.com/blog/companion-pets-for-seniors/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8727,7 +8727,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "best-states-to-retire",
     seo: {
-      title: "Best States to Retire | MedicareFAQ",
+      title: "Best States to Retire",
       description: "Looking for the best state to retire in? We compare states by taxes, healthcare quality, cost of living, weather, and Medicare plan availability.",
       canonical: "https://www.medicarefaq.com/blog/best-states-to-retire/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8804,7 +8804,7 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "10 min read",
     featured: false,
     image: "https://images.pexels.com/photos/8815812/pexels-photo-8815812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-      imageAlt: "Medicare Starter Guide: What to do in Your First 90 Days | MedicareFAQ",
+      imageAlt: "Medicare Starter Guide: What to do in Your First 90 Days",
     keyTakeaways: [
       "The first 90 days of Medicare are your best window to set up supplemental coverage without underwriting",
       "Enroll in Part D or a Medicare Advantage plan to avoid late enrollment penalties",
@@ -8895,7 +8895,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "how-can-seniors-save-on-prescription-drug-costs",
     seo: {
-      title: "How Can Seniors Save on Prescription Drug Costs? | MedicareFAQ",
+      title: "How Can Seniors Save on Prescription Drug Costs?",
       description: "Prescription drugs are a major expense for Medicare beneficiaries. Learn how Part D, Extra Help, discount programs, and generic drugs can reduce your costs.",
       canonical: "https://www.medicarefaq.com/blog/how-can-seniors-save-on-prescription-drug-costs/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -8958,7 +8958,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "direct-care-opportunity-act",
     seo: {
-      title: "Direct Care Opportunity Act | MedicareFAQ",
+      title: "Direct Care Opportunity Act",
       description: "The Direct Care Opportunity Act aims to address the growing shortage of direct care workers. Learn what it means for Medicare beneficiaries and their caregivers.",
       canonical: "https://www.medicarefaq.com/blog/direct-care-opportunity-act/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -9010,7 +9010,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-costs-2025",
     seo: {
-      title: "Medicare Costs 2025 | MedicareFAQ",
+      title: "Medicare Costs 2025",
       description: "More than 66 million Americans rely on Medicare for health coverage, and experience cost changes year to year. Review key 2025 Medicare premiums and deductibles.",
       canonical: "https://www.medicarefaq.com/blog/medicare-costs-2025/",
       ogImage: "https://images.pexels.com/photos/8439748/pexels-photo-8439748.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -9400,7 +9400,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "5-medicare-myths-about-incontinence-coverage",
     seo: {
-      title: "Medicare Coverage for Incontinence Supplies: 5 Myths Debunked (2026) | MedicareFAQ",
+      title: "Medicare Coverage for Incontinence Supplies: 5 Myths Debunked (2026)",
       description: "Original Medicare does not cover adult diapers or pads, but it does cover catheters, pelvic floor therapy, and more. Learn the 5 biggest myths about Medicare and incontinence coverage in 2026.",
       canonical: "https://www.medicarefaq.com/blog/5-medicare-myths-about-incontinence-coverage/",
       ogImage: "https://images.pexels.com/photos/7551617/pexels-photo-7551617.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -9688,7 +9688,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "read-your-medicare-summary-notice",
     seo: {
-      title: "How to Read Your Medicare Summary Notice (MSN) | MedicareFAQ",
+      title: "How to Read Your Medicare Summary Notice (MSN)",
       description: "Your Medicare Summary Notice (MSN) is not a bill. It's your quarterly record of every claim Medicare processed. Learn how to read it, spot errors, and protect yourself from fraud.",
       canonical: "https://www.medicarefaq.com/blog/read-your-medicare-summary-notice/",
       ogImage: "https://images.unsplash.com/photo-1758691031749-607d43c14f63?w=1200&h=630&fit=crop&q=85",
@@ -9802,7 +9802,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medigap-plan-g-premiums-surge",
     seo: {
-      title: "Medigap Plan G Premiums Surge 12-26% in 2026: What to Know | MedicareFAQ",
+      title: "Medigap Plan G Premiums Surge 12-26% in 2026: What to Know",
       description: "Medigap Plan G premiums rose 12% to 26% in 2026 filings, with some carriers filing increases above 40%. Learn why premiums are rising and what your alternatives are.",
       canonical: "https://www.medicarefaq.com/blog/medigap-plan-g-premiums-surge/",
       ogImage: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663444965628/gPWLsgLkfFuXobus.png",
@@ -9894,7 +9894,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-advantage-annual-enrollment-period-aep-dates",
     seo: {
-      title: "Medicare Advantage Annual Enrollment Period (AEP) 2026: Key Dates & What You Can Change | MedicareFAQ",
+      title: "Medicare Advantage Annual Enrollment Period (AEP) 2026: Key Dates & What You Can Change",
       description: "The Medicare Advantage Annual Enrollment Period runs October 15 – December 7, 2026 for 2027 coverage. Learn what changes you can make, who's eligible, and how to prepare.",
       canonical: "https://www.medicarefaq.com/blog/medicare-advantage-annual-enrollment-period-aep-dates/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
@@ -9995,13 +9995,13 @@ export const blogArticles: BlogArticleData[] = [
       "how-is-medicare-part-d-changing-in-2026",
     ],
   },
-  {slug: "california-birthday-rule",seo: {title: "California Birthday Rule: Medigap Rights in California | MedicareFAQ",description: "Understand California\'s Medigap Birthday Rule, allowing you to switch Medicare Supplement plans without medical underwriting for 60 days after your birthday. Learn eligibility and how to compare plans.",canonical: "https://www.medicarefaq.com/blog/california-birthday-rule/",ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",},title: "California Birthday Rule: Medigap Rights in California",excerpt: "Understand California\'s Medigap Birthday Rule, allowing you to switch Medicare Supplement plans without medical underwriting for 60 days after your birthday. Learn eligibility and how to compare plans.",category: "Medicare Supplement",categoryColor: "#4F46E5",date: "May 20, 2026",author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "8 min read",featured: false,image: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",keyTakeaways: ["California\'s Medigap Birthday Rule allows beneficiaries to switch Medicare Supplement plans annually.", "You have a 60-day window starting after your birthday to make changes without medical underwriting.", "This rule enables switching to any carrier, provided you choose a plan with equal or lesser benefits.", "Utilize this period to compare plans and potentially secure better rates or coverage in California."],tableOfContents: [{ id: "what-is-birthday-rule", title: "What is the Medigap Birthday Rule?" },{ id: "eligibility-requirements", title: "Eligibility Requirements in California" },{ id: "switching-timeline", title: "Your Switching Timeline and Deadlines" },{ id: "comparing-plans", title: "Comparing Medigap Plans before Switching" },{ id: "enrollment-process", title: "How to Enroll in a New Plan" },{ id: "faqs-section", title: "Frequently Asked Questions" }],sections: [{ type: "paragraph", content: "For many Medicare beneficiaries in California, understanding the nuances of their healthcare coverage is paramount. One significant advantage available to those with Medigap plans is the California Medigap Birthday Rule. This rule provides a unique opportunity to review and potentially change your Medicare Supplement insurance policy without the need for medical underwriting, which can be a game-changer for individuals with pre-existing conditions. It ensures that you have the flexibility to adapt your coverage to your evolving needs and potentially find a plan that offers better value or benefits. By leveraging this rule, Californians can maintain continuous, comprehensive coverage and make informed decisions about their healthcare future." },{ type: "heading", level: 2, text: "What is the Medigap Birthday Rule?", id: "what-is-birthday-rule" },{ type: "paragraph", content: "The Medigap Birthday Rule is a special provision in certain states that allows individuals to switch their Medicare Supplement (Medigap) plans without medical underwriting. This means that during a specific window around your birthday, insurance companies cannot deny you coverage or charge you higher premiums based on your health status. This rule is a crucial consumer protection, as it prevents insurers from cherry-picking healthier applicants and ensures that all eligible beneficiaries have access to a variety of Medigap options. Without this rule, switching plans often requires answering health questions, which can be a barrier for those with health issues. The rule empowers beneficiaries to seek out more competitive rates or plans that better suit their current healthcare needs." },{ type: "heading", level: 2, text: "Eligibility Requirements in California", id: "eligibility-requirements" },{ type: "paragraph", content: "In California, the Medigap Birthday Rule offers a valuable opportunity for beneficiaries to adjust their Medicare Supplement coverage. To be eligible, you must already have an existing Medigap policy. The rule allows you to switch to a new Medigap plan with equal or lesser benefits compared to your current plan. This flexibility means you can explore options from any insurance carrier licensed to sell Medigap plans in California, without being restricted to your current provider. This provision is particularly beneficial for those looking to find a more affordable premium for similar coverage or to downgrade to a plan with fewer benefits if their healthcare needs have changed. It is important to note that the rule does not apply to those enrolling in Medigap for the first time, but rather to those already holding a policy." },{ type: "heading", level: 2, text: "Standard Medigap Plans and 2026 Costs", id: "medigap-plans" },{ type: "table", headers: ["Plan Type", "Part A Deductible", "Part B Deductible", "Part B Premium"], rows: [["Original Medicare", "$1,676", "$240", "$185.00/month"], ["Medigap Plan A", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan G", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan N", "Covered", "You pay", "Varies by insurer"]] },{ type: "heading", level: 2, text: "Your Switching Timeline and Deadlines", id: "switching-timeline" },{ type: "paragraph", content: "The California Medigap Birthday Rule provides a specific window for making changes to your policy. This guaranteed issue period begins 60 days after your birthday. During this 60-day timeframe, you have the right to switch to a new Medigap plan of equal or lesser benefits from any carrier without medical underwriting. It is crucial to mark this period on your calendar, as missing this window means you may have to undergo medical underwriting to switch plans, which could result in higher premiums or denial of coverage if you have health issues. This annual opportunity is distinct from the [Annual Enrollment Period](/medicare-enrollment/annual-changes) for Medicare Advantage and [Part D drug plan](/original-medicare/medicare-parts/medicare-part-d) plans, focusing specifically on Medigap policies. Plan ahead to ensure you can take full advantage of this consumer protection." },{ type: "callout", calloutType: "info", calloutTitle: "Important Deadline", calloutText: "In California, your Medigap Birthday Rule window opens 60 days after your birthday. Make sure to initiate any plan changes within this 60-day period to guarantee your right to switch without medical underwriting." },{ type: "heading", level: 2, text: "Comparing Medigap Plans before Switching", id: "comparing-plans" },{ type: "paragraph", content: "Before making a switch under the California Medigap Birthday Rule, it is highly recommended to thoroughly [compare Medicare supplement plans](/medicare-plans/supplement-vs-advantage). Even though you are limited to plans with equal or lesser benefits, there can still be significant differences in premiums and customer service among various carriers. For example, you might be able to find a more affordable [Plan G](/medicare-supplement-plans/plan-g) or [Plan N](/medicare-supplement-plans/plan-n) from a different insurer. Consider your current healthcare needs, budget, and any anticipated changes in your health. Reviewing the benefits of different [Medigap plans](/medicare-supplement-plans) and comparing quotes from multiple providers can help you make an informed decision that best suits your individual circumstances. This proactive approach ensures you maximize the benefits of the Birthday Rule." },{ type: "heading", level: 2, text: "How to Enroll in a New Plan", id: "enrollment-process" },{ type: "paragraph", content: "Enrolling in a new Medigap plan under California\'s Birthday Rule is a straightforward process once you have chosen your desired policy. First, contact the new insurance carrier and inform them that you are exercising your rights under the California Medigap Birthday Rule. They will guide you through the application process, which will not include medical underwriting questions during your eligible window. You will need to provide information about your current Medigap policy to demonstrate your eligibility for the rule. Once your new policy is approved, your old policy will typically be canceled automatically, or you may need to formally cancel it yourself. Ensure there is no lapse in coverage between your old and new plans to avoid any out-of-pocket expenses. Always keep records of your application and communication with both insurance companies." }],faqs: [{ question: "What is the California Medigap Birthday Rule?", answer: "The California Medigap Birthday Rule is a consumer protection law that allows Medicare beneficiaries with a Medigap policy to switch to a new Medigap plan with equal or lesser benefits for 60 days following their birthday, without undergoing medical underwriting. This means insurers cannot deny coverage or charge higher premiums based on pre-existing health conditions during this period." },{ question: "How long do I have to switch Medigap plans under California\'s Birthday Rule?", answer: "In California, you have a 60-day window that begins the day after your birthday. During this specific period, you can change your Medigap policy to another plan of equal or lesser benefits from any carrier without being subject to medical underwriting. It's crucial to act within this timeframe to take advantage of this guaranteed issue right." },{ question: "Can I switch to a different insurance carrier using the California Birthday Rule?", answer: "Yes, California\'s Birthday Rule is quite flexible. It allows you to switch to a Medigap plan from any insurance carrier licensed in California, not just your current one. This provides a great opportunity to shop around and find a plan with more competitive rates or better customer service while maintaining similar coverage." },{ question: "What kind of Medigap plans can I switch to under the California Birthday Rule?", answer: "Under the California Birthday Rule, you can switch to any Medigap plan that offers benefits equal to or lesser than your current policy. This means if you have a Plan F, you could switch to another Plan F, or a Plan G, or Plan N, but you could not switch to a Plan F if you currently have a Plan G, as Plan F offers more comprehensive benefits." }],relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "oklahoma-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],},
-  {slug: "oregon-birthday-rule",seo: {title: "Oregon Birthday Rule: Medigap Rights in Oregon | MedicareFAQ",description: "Oregon\\'s Medigap Birthday Rule allows beneficiaries to switch Medicare Supplement plans annually around their birthday without medical underwriting. Learn about eligibility, timelines, and how to compare plans in Oregon.",canonical: "https://www.medicarefaq.com/blog/oregon-birthday-rule/",ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",},title: "Oregon Birthday Rule: Medigap Rights in Oregon",excerpt: "Oregon\'s Medigap Birthday Rule allows beneficiaries to switch Medicare Supplement plans annually around their birthday without medical underwriting. Learn about eligibility, timelines, and how to compare plans in Oregon.",category: "Medicare Supplement",categoryColor: "#4F46E5",date: "May 20, 2026",author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "8 min read",featured: false,image: "/images/generated/oregon-birthday-rule.png",
-      imageAlt: "Oregon Birthday Rule: Medigap Rights in Oregon | MedicareFAQ",keyTakeaways: ["Oregon\'s Medigap Birthday Rule offers a 60-day window centered around your birthday to switch plans.", "You can switch to any Medigap carrier in Oregon during this period.", "The rule allows you to move to a plan with equal or lesser benefits without health questions.", "Understanding your specific timeline is crucial to utilizing this annual enrollment opportunity."],tableOfContents: [{ id: "what-is-birthday-rule", title: "What is the Medigap Birthday Rule?" },{ id: "eligibility-requirements", title: "Eligibility Requirements in Oregon" },{ id: "switching-timeline", title: "Your Switching Timeline and Deadlines" },{ id: "comparing-plans", title: "Comparing Medigap Plans before Switching" },{ id: "enrollment-process", title: "How to Enroll in a New Plan" },{ id: "faqs-section", title: "Frequently Asked Questions" }],sections: [{ type: "paragraph", content: "For Medicare beneficiaries in Oregon, understanding your rights and options is key to managing healthcare costs. The Medigap Birthday Rule provides a unique opportunity to review and potentially switch your Medicare Supplement Insurance Plan, also known as [Medigap plans](/medicare-supplement-plans), each year. This rule is designed to protect consumers by allowing them to change plans without undergoing medical underwriting, which can be a significant advantage if your health has changed since your initial enrollment. It ensures that you can adapt your coverage to better suit your current needs and budget, making it a vital aspect of Medicare planning in the state."},{ type: "heading", level: 2, text: "What is the Medigap Birthday Rule?", id: "what-is-birthday-rule" },{ type: "paragraph", content: "The Medigap Birthday Rule is a special enrollment provision in certain states that allows individuals with Medicare Supplement plans to switch to a different plan without medical underwriting. This means insurance companies cannot deny coverage or charge higher premiums based on pre-existing health conditions during this specific window. It's a consumer protection measure that helps ensure fair access to competitive Medigap options. While the core concept is similar across states that offer it, the specifics of the rule, such as the length of the enrollment window and the types of plans you can switch to, vary by state."},{ type: "heading", level: 2, text: "Eligibility Requirements in Oregon", id: "eligibility-requirements" },{ type: "paragraph", content: "In Oregon, the Medigap Birthday Rule provides a generous 60-day window for eligible beneficiaries to make changes to their Medicare Supplement plan. This period begins 30 days before your birthday and extends 30 days after your birthday, giving you ample time to consider your options. During this time, you have the flexibility to switch to any Medigap carrier offering plans in Oregon, and you can choose a plan with equal or lesser benefits than your current coverage. This means you can move from a [Plan G](/medicare-supplement-plans/plan-g) to another Plan G, or even to a [Plan N](/medicare-supplement-plans/plan-n), without having to answer health questions."},{ type: "heading", level: 2, text: "Standard Medigap Plans and 2026 Costs", id: "medigap-plans" },{ type: "table", headers: ["Plan Type", "Part A Deductible", "Part B Deductible", "Part B Premium"], rows: [["Original Medicare", "$1,676", "$240", "$185.00/month"], ["Medigap Plan A", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan G", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan N", "Covered", "You pay", "Varies by insurer"]] },{ type: "heading", level: 2, text: "Your Switching Timeline and Deadlines", id: "switching-timeline" },{ type: "paragraph", content: "The 60-day window for Oregon\'s Medigap Birthday Rule is strictly enforced, so it\'s crucial to mark your calendar. The period starts 30 days before your birthday and concludes 30 days after it. For example, if your birthday is June 15th, your window would open on May 16th and close on July 15th. This specific timeframe allows you to explore different plans and carriers, ensuring you can secure a new policy that better fits your needs without the risk of medical underwriting. Missing this window means you might have to answer health questions if you decide to switch plans later, potentially leading to higher premiums or denial of coverage."},{ type: "callout", calloutType: "info", calloutTitle: "Important Deadline", calloutText: "In Oregon, your Medigap Birthday Rule window is 60 days, starting 30 days before your birthday and ending 30 days after. Make sure to complete your plan switch within this period to avoid medical underwriting."},{ type: "heading", level: 2, text: "Comparing Medigap Plans before Switching", id: "comparing-plans" },{ type: "paragraph", content: "Before making any changes to your Medigap plan, it\'s highly recommended to [compare Medicare supplement plans](/medicare-plans/supplement-vs-advantage) thoroughly. Even if you\'re moving to a plan with equal or lesser benefits, premiums can vary significantly between different insurance carriers for the exact same plan. Consider your current healthcare needs, prescription drug coverage (which is handled by a separate [Part D drug plan](/original-medicare/medicare-parts/medicare-part-d)), and your budget. Speaking with a licensed Medicare agent can help you navigate the options and find the most cost-effective plan that still meets your coverage requirements."},{ type: "heading", level: 2, text: "How to Enroll in a New Plan", id: "enrollment-process" },{ type: "paragraph", content: "Enrolling in a new Medigap plan during Oregon\'s Birthday Rule window is a straightforward process. Once you\'ve identified the plan and carrier you wish to switch to, you\'ll need to contact the new insurance company to apply. They will guide you through the application process, which will not include medical underwriting questions during this specific period. Be sure to coordinate the effective date of your new policy with the termination of your old one to avoid any gaps in coverage. This seamless transition ensures you maintain continuous protection while optimizing your Medicare Supplement benefits."}],faqs: [{ question: "What is the Oregon Medigap Birthday Rule?", answer: "The Oregon Medigap Birthday Rule allows Medicare beneficiaries to switch their Medicare Supplement plan to a plan with equal or lesser benefits without medical underwriting. This means insurance companies cannot deny coverage or charge higher premiums due to pre-existing conditions during this specific enrollment period."},{ question: "When is the Oregon Medigap Birthday Rule window?", answer: "In Oregon, the Birthday Rule window is 60 days long. It begins 30 days before your birthday and extends 30 days after your birthday. It's crucial to complete your plan change within this timeframe."},{ question: "Can I switch to any Medigap plan or carrier in Oregon?", answer: "Yes, during Oregon\'s Birthday Rule window, you can switch to any Medigap carrier offering plans in the state. You can also choose any plan with equal or lesser benefits than your current plan, such as moving from a Plan G to another Plan G or a Plan N."},{ question: "What happens if I miss my Oregon Birthday Rule window?", answer: "If you miss your 60-day Birthday Rule window in Oregon, you may still be able to switch Medigap plans, but you will likely be subject to medical underwriting. This means the insurance company can ask health questions and potentially deny coverage or charge higher premiums based on your health status."}],relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "oklahoma-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],},
+  {slug: "california-birthday-rule",seo: {title: "California Birthday Rule: Medigap Rights in California",description: "Understand California\'s Medigap Birthday Rule, allowing you to switch Medicare Supplement plans without medical underwriting for 60 days after your birthday. Learn eligibility and how to compare plans.",canonical: "https://www.medicarefaq.com/blog/california-birthday-rule/",ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",},title: "California Birthday Rule: Medigap Rights in California",excerpt: "Understand California\'s Medigap Birthday Rule, allowing you to switch Medicare Supplement plans without medical underwriting for 60 days after your birthday. Learn eligibility and how to compare plans.",category: "Medicare Supplement",categoryColor: "#4F46E5",date: "May 20, 2026",author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "8 min read",featured: false,image: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",keyTakeaways: ["California\'s Medigap Birthday Rule allows beneficiaries to switch Medicare Supplement plans annually.", "You have a 60-day window starting after your birthday to make changes without medical underwriting.", "This rule enables switching to any carrier, provided you choose a plan with equal or lesser benefits.", "Utilize this period to compare plans and potentially secure better rates or coverage in California."],tableOfContents: [{ id: "what-is-birthday-rule", title: "What is the Medigap Birthday Rule?" },{ id: "eligibility-requirements", title: "Eligibility Requirements in California" },{ id: "switching-timeline", title: "Your Switching Timeline and Deadlines" },{ id: "comparing-plans", title: "Comparing Medigap Plans before Switching" },{ id: "enrollment-process", title: "How to Enroll in a New Plan" },{ id: "faqs-section", title: "Frequently Asked Questions" }],sections: [{ type: "paragraph", content: "For many Medicare beneficiaries in California, understanding the nuances of their healthcare coverage is paramount. One significant advantage available to those with Medigap plans is the California Medigap Birthday Rule. This rule provides a unique opportunity to review and potentially change your Medicare Supplement insurance policy without the need for medical underwriting, which can be a game-changer for individuals with pre-existing conditions. It ensures that you have the flexibility to adapt your coverage to your evolving needs and potentially find a plan that offers better value or benefits. By leveraging this rule, Californians can maintain continuous, comprehensive coverage and make informed decisions about their healthcare future." },{ type: "heading", level: 2, text: "What is the Medigap Birthday Rule?", id: "what-is-birthday-rule" },{ type: "paragraph", content: "The Medigap Birthday Rule is a special provision in certain states that allows individuals to switch their Medicare Supplement (Medigap) plans without medical underwriting. This means that during a specific window around your birthday, insurance companies cannot deny you coverage or charge you higher premiums based on your health status. This rule is a crucial consumer protection, as it prevents insurers from cherry-picking healthier applicants and ensures that all eligible beneficiaries have access to a variety of Medigap options. Without this rule, switching plans often requires answering health questions, which can be a barrier for those with health issues. The rule empowers beneficiaries to seek out more competitive rates or plans that better suit their current healthcare needs." },{ type: "heading", level: 2, text: "Eligibility Requirements in California", id: "eligibility-requirements" },{ type: "paragraph", content: "In California, the Medigap Birthday Rule offers a valuable opportunity for beneficiaries to adjust their Medicare Supplement coverage. To be eligible, you must already have an existing Medigap policy. The rule allows you to switch to a new Medigap plan with equal or lesser benefits compared to your current plan. This flexibility means you can explore options from any insurance carrier licensed to sell Medigap plans in California, without being restricted to your current provider. This provision is particularly beneficial for those looking to find a more affordable premium for similar coverage or to downgrade to a plan with fewer benefits if their healthcare needs have changed. It is important to note that the rule does not apply to those enrolling in Medigap for the first time, but rather to those already holding a policy." },{ type: "heading", level: 2, text: "Standard Medigap Plans and 2026 Costs", id: "medigap-plans" },{ type: "table", headers: ["Plan Type", "Part A Deductible", "Part B Deductible", "Part B Premium"], rows: [["Original Medicare", "$1,676", "$240", "$185.00/month"], ["Medigap Plan A", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan G", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan N", "Covered", "You pay", "Varies by insurer"]] },{ type: "heading", level: 2, text: "Your Switching Timeline and Deadlines", id: "switching-timeline" },{ type: "paragraph", content: "The California Medigap Birthday Rule provides a specific window for making changes to your policy. This guaranteed issue period begins 60 days after your birthday. During this 60-day timeframe, you have the right to switch to a new Medigap plan of equal or lesser benefits from any carrier without medical underwriting. It is crucial to mark this period on your calendar, as missing this window means you may have to undergo medical underwriting to switch plans, which could result in higher premiums or denial of coverage if you have health issues. This annual opportunity is distinct from the [Annual Enrollment Period](/medicare-enrollment/annual-changes) for Medicare Advantage and [Part D drug plan](/original-medicare/medicare-parts/medicare-part-d) plans, focusing specifically on Medigap policies. Plan ahead to ensure you can take full advantage of this consumer protection." },{ type: "callout", calloutType: "info", calloutTitle: "Important Deadline", calloutText: "In California, your Medigap Birthday Rule window opens 60 days after your birthday. Make sure to initiate any plan changes within this 60-day period to guarantee your right to switch without medical underwriting." },{ type: "heading", level: 2, text: "Comparing Medigap Plans before Switching", id: "comparing-plans" },{ type: "paragraph", content: "Before making a switch under the California Medigap Birthday Rule, it is highly recommended to thoroughly [compare Medicare supplement plans](/medicare-plans/supplement-vs-advantage). Even though you are limited to plans with equal or lesser benefits, there can still be significant differences in premiums and customer service among various carriers. For example, you might be able to find a more affordable [Plan G](/medicare-supplement-plans/plan-g) or [Plan N](/medicare-supplement-plans/plan-n) from a different insurer. Consider your current healthcare needs, budget, and any anticipated changes in your health. Reviewing the benefits of different [Medigap plans](/medicare-supplement-plans) and comparing quotes from multiple providers can help you make an informed decision that best suits your individual circumstances. This proactive approach ensures you maximize the benefits of the Birthday Rule." },{ type: "heading", level: 2, text: "How to Enroll in a New Plan", id: "enrollment-process" },{ type: "paragraph", content: "Enrolling in a new Medigap plan under California\'s Birthday Rule is a straightforward process once you have chosen your desired policy. First, contact the new insurance carrier and inform them that you are exercising your rights under the California Medigap Birthday Rule. They will guide you through the application process, which will not include medical underwriting questions during your eligible window. You will need to provide information about your current Medigap policy to demonstrate your eligibility for the rule. Once your new policy is approved, your old policy will typically be canceled automatically, or you may need to formally cancel it yourself. Ensure there is no lapse in coverage between your old and new plans to avoid any out-of-pocket expenses. Always keep records of your application and communication with both insurance companies." }],faqs: [{ question: "What is the California Medigap Birthday Rule?", answer: "The California Medigap Birthday Rule is a consumer protection law that allows Medicare beneficiaries with a Medigap policy to switch to a new Medigap plan with equal or lesser benefits for 60 days following their birthday, without undergoing medical underwriting. This means insurers cannot deny coverage or charge higher premiums based on pre-existing health conditions during this period." },{ question: "How long do I have to switch Medigap plans under California\'s Birthday Rule?", answer: "In California, you have a 60-day window that begins the day after your birthday. During this specific period, you can change your Medigap policy to another plan of equal or lesser benefits from any carrier without being subject to medical underwriting. It's crucial to act within this timeframe to take advantage of this guaranteed issue right." },{ question: "Can I switch to a different insurance carrier using the California Birthday Rule?", answer: "Yes, California\'s Birthday Rule is quite flexible. It allows you to switch to a Medigap plan from any insurance carrier licensed in California, not just your current one. This provides a great opportunity to shop around and find a plan with more competitive rates or better customer service while maintaining similar coverage." },{ question: "What kind of Medigap plans can I switch to under the California Birthday Rule?", answer: "Under the California Birthday Rule, you can switch to any Medigap plan that offers benefits equal to or lesser than your current policy. This means if you have a Plan F, you could switch to another Plan F, or a Plan G, or Plan N, but you could not switch to a Plan F if you currently have a Plan G, as Plan F offers more comprehensive benefits." }],relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "oklahoma-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],},
+  {slug: "oregon-birthday-rule",seo: {title: "Oregon Birthday Rule: Medigap Rights in Oregon",description: "Oregon\\'s Medigap Birthday Rule allows beneficiaries to switch Medicare Supplement plans annually around their birthday without medical underwriting. Learn about eligibility, timelines, and how to compare plans in Oregon.",canonical: "https://www.medicarefaq.com/blog/oregon-birthday-rule/",ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",},title: "Oregon Birthday Rule: Medigap Rights in Oregon",excerpt: "Oregon\'s Medigap Birthday Rule allows beneficiaries to switch Medicare Supplement plans annually around their birthday without medical underwriting. Learn about eligibility, timelines, and how to compare plans in Oregon.",category: "Medicare Supplement",categoryColor: "#4F46E5",date: "May 20, 2026",author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "8 min read",featured: false,image: "/images/generated/oregon-birthday-rule.png",
+      imageAlt: "Oregon Birthday Rule: Medigap Rights in Oregon",keyTakeaways: ["Oregon\'s Medigap Birthday Rule offers a 60-day window centered around your birthday to switch plans.", "You can switch to any Medigap carrier in Oregon during this period.", "The rule allows you to move to a plan with equal or lesser benefits without health questions.", "Understanding your specific timeline is crucial to utilizing this annual enrollment opportunity."],tableOfContents: [{ id: "what-is-birthday-rule", title: "What is the Medigap Birthday Rule?" },{ id: "eligibility-requirements", title: "Eligibility Requirements in Oregon" },{ id: "switching-timeline", title: "Your Switching Timeline and Deadlines" },{ id: "comparing-plans", title: "Comparing Medigap Plans before Switching" },{ id: "enrollment-process", title: "How to Enroll in a New Plan" },{ id: "faqs-section", title: "Frequently Asked Questions" }],sections: [{ type: "paragraph", content: "For Medicare beneficiaries in Oregon, understanding your rights and options is key to managing healthcare costs. The Medigap Birthday Rule provides a unique opportunity to review and potentially switch your Medicare Supplement Insurance Plan, also known as [Medigap plans](/medicare-supplement-plans), each year. This rule is designed to protect consumers by allowing them to change plans without undergoing medical underwriting, which can be a significant advantage if your health has changed since your initial enrollment. It ensures that you can adapt your coverage to better suit your current needs and budget, making it a vital aspect of Medicare planning in the state."},{ type: "heading", level: 2, text: "What is the Medigap Birthday Rule?", id: "what-is-birthday-rule" },{ type: "paragraph", content: "The Medigap Birthday Rule is a special enrollment provision in certain states that allows individuals with Medicare Supplement plans to switch to a different plan without medical underwriting. This means insurance companies cannot deny coverage or charge higher premiums based on pre-existing health conditions during this specific window. It's a consumer protection measure that helps ensure fair access to competitive Medigap options. While the core concept is similar across states that offer it, the specifics of the rule, such as the length of the enrollment window and the types of plans you can switch to, vary by state."},{ type: "heading", level: 2, text: "Eligibility Requirements in Oregon", id: "eligibility-requirements" },{ type: "paragraph", content: "In Oregon, the Medigap Birthday Rule provides a generous 60-day window for eligible beneficiaries to make changes to their Medicare Supplement plan. This period begins 30 days before your birthday and extends 30 days after your birthday, giving you ample time to consider your options. During this time, you have the flexibility to switch to any Medigap carrier offering plans in Oregon, and you can choose a plan with equal or lesser benefits than your current coverage. This means you can move from a [Plan G](/medicare-supplement-plans/plan-g) to another Plan G, or even to a [Plan N](/medicare-supplement-plans/plan-n), without having to answer health questions."},{ type: "heading", level: 2, text: "Standard Medigap Plans and 2026 Costs", id: "medigap-plans" },{ type: "table", headers: ["Plan Type", "Part A Deductible", "Part B Deductible", "Part B Premium"], rows: [["Original Medicare", "$1,676", "$240", "$185.00/month"], ["Medigap Plan A", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan G", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan N", "Covered", "You pay", "Varies by insurer"]] },{ type: "heading", level: 2, text: "Your Switching Timeline and Deadlines", id: "switching-timeline" },{ type: "paragraph", content: "The 60-day window for Oregon\'s Medigap Birthday Rule is strictly enforced, so it\'s crucial to mark your calendar. The period starts 30 days before your birthday and concludes 30 days after it. For example, if your birthday is June 15th, your window would open on May 16th and close on July 15th. This specific timeframe allows you to explore different plans and carriers, ensuring you can secure a new policy that better fits your needs without the risk of medical underwriting. Missing this window means you might have to answer health questions if you decide to switch plans later, potentially leading to higher premiums or denial of coverage."},{ type: "callout", calloutType: "info", calloutTitle: "Important Deadline", calloutText: "In Oregon, your Medigap Birthday Rule window is 60 days, starting 30 days before your birthday and ending 30 days after. Make sure to complete your plan switch within this period to avoid medical underwriting."},{ type: "heading", level: 2, text: "Comparing Medigap Plans before Switching", id: "comparing-plans" },{ type: "paragraph", content: "Before making any changes to your Medigap plan, it\'s highly recommended to [compare Medicare supplement plans](/medicare-plans/supplement-vs-advantage) thoroughly. Even if you\'re moving to a plan with equal or lesser benefits, premiums can vary significantly between different insurance carriers for the exact same plan. Consider your current healthcare needs, prescription drug coverage (which is handled by a separate [Part D drug plan](/original-medicare/medicare-parts/medicare-part-d)), and your budget. Speaking with a licensed Medicare agent can help you navigate the options and find the most cost-effective plan that still meets your coverage requirements."},{ type: "heading", level: 2, text: "How to Enroll in a New Plan", id: "enrollment-process" },{ type: "paragraph", content: "Enrolling in a new Medigap plan during Oregon\'s Birthday Rule window is a straightforward process. Once you\'ve identified the plan and carrier you wish to switch to, you\'ll need to contact the new insurance company to apply. They will guide you through the application process, which will not include medical underwriting questions during this specific period. Be sure to coordinate the effective date of your new policy with the termination of your old one to avoid any gaps in coverage. This seamless transition ensures you maintain continuous protection while optimizing your Medicare Supplement benefits."}],faqs: [{ question: "What is the Oregon Medigap Birthday Rule?", answer: "The Oregon Medigap Birthday Rule allows Medicare beneficiaries to switch their Medicare Supplement plan to a plan with equal or lesser benefits without medical underwriting. This means insurance companies cannot deny coverage or charge higher premiums due to pre-existing conditions during this specific enrollment period."},{ question: "When is the Oregon Medigap Birthday Rule window?", answer: "In Oregon, the Birthday Rule window is 60 days long. It begins 30 days before your birthday and extends 30 days after your birthday. It's crucial to complete your plan change within this timeframe."},{ question: "Can I switch to any Medigap plan or carrier in Oregon?", answer: "Yes, during Oregon\'s Birthday Rule window, you can switch to any Medigap carrier offering plans in the state. You can also choose any plan with equal or lesser benefits than your current plan, such as moving from a Plan G to another Plan G or a Plan N."},{ question: "What happens if I miss my Oregon Birthday Rule window?", answer: "If you miss your 60-day Birthday Rule window in Oregon, you may still be able to switch Medigap plans, but you will likely be subject to medical underwriting. This means the insurance company can ask health questions and potentially deny coverage or charge higher premiums based on your health status."}],relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "oklahoma-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],},
   {
     slug: "idaho-birthday-rule",
     seo: {
-      title: "Idaho Birthday Rule: Medigap Rights in Idaho | MedicareFAQ",
+      title: "Idaho Birthday Rule: Medigap Rights in Idaho",
       description: "Idaho\\'s Medigap Birthday Rule offers a 63-day window from your birthday to switch Medicare Supplement plans without medical underwriting. Learn eligibility and compare plans.",
       canonical: "https://www.medicarefaq.com/blog/idaho-birthday-rule/",
       ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -10016,7 +10016,7 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "8 min read",
     featured: false,
     image: "/images/generated/idaho-birthday-rule.png",
-      imageAlt: "Idaho Birthday Rule: Medigap Rights in Idaho | MedicareFAQ",
+      imageAlt: "Idaho Birthday Rule: Medigap Rights in Idaho",
     keyTakeaways: [
       "Idaho\'s Medigap Birthday Rule provides a 63-day window starting from your birthday to switch plans.",
       "You can switch to any carrier, but the new plan must offer equal or lesser benefits than your current one.",
@@ -10056,7 +10056,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "virginia-birthday-rule",
     seo: {
-      title: "Virginia Birthday Rule: Medigap Rights in Virginia | MedicareFAQ",
+      title: "Virginia Birthday Rule: Medigap Rights in Virginia",
       description: "Understand Virginia\'s Medigap Birthday Rule, effective July 1, 2025. Learn about the 60-day window after your birthday to switch Medigap plans with the same letter.",
       canonical: "https://www.medicarefaq.com/blog/virginia-birthday-rule/",
       ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -10118,7 +10118,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "utah-birthday-rule",
     seo: {
-      title: "Utah Birthday Rule: Medigap Rights in Utah | MedicareFAQ",
+      title: "Utah Birthday Rule: Medigap Rights in Utah",
       description: "Utah residents turning 65 or those with a Medicare Supplement plan can utilize the Utah Birthday Rule to switch Medigap plans. This rule, effective May 7, 2025, allows a 60-day window starting on your birthday to change to an equal or lesser coverage plan with your current carrier, without medical underwriting. Understand your options and deadlines to make informed decisions about your Medicare coverage in Utah.",
       canonical: "https://www.medicarefaq.com/blog/utah-birthday-rule/",
       ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
@@ -10169,8 +10169,8 @@ export const blogArticles: BlogArticleData[] = [
     ],
     relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "oklahoma-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],
   },
-  {slug: "delaware-birthday-rule",seo: {title: "Delaware Birthday Rule: Medigap Rights in Delaware | MedicareFAQ",description: "Delaware residents can utilize the Medigap Birthday Rule starting January 1, 2026, allowing a 60-day window around their birthday to switch plans with equal or lesser coverage.",canonical: "https://www.medicarefaq.com/blog/delaware-birthday-rule/",ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",},title: "Delaware Birthday Rule: Medigap Rights in Delaware",excerpt: "Delaware residents can utilize the Medigap Birthday Rule starting January 1, 2026, allowing a 60-day window around their birthday to switch plans with equal or lesser coverage.",category: "Medicare Supplement",categoryColor: "#4F46E5",date: "May 20, 2026",author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "8 min read",featured: false,image: "/images/generated/delaware-birthday-rule.png",
-      imageAlt: "Delaware Birthday Rule: Medigap Rights in Delaware | MedicareFAQ",keyTakeaways: ["Delaware\'s Medigap Birthday Rule becomes effective on January 1, 2026, offering new opportunities for policyholders.","The rule provides a 60-day enrollment window, spanning 30 days before your birthday and 30 days after, to make changes.","During this period, Delaware beneficiaries can switch Medigap plans with any carrier, promoting flexibility.","Policyholders must select a new Medigap plan that offers benefits equal to or lesser than their current coverage."],tableOfContents: [{ id: "what-is-birthday-rule", title: "What is the Medigap Birthday Rule?" },{ id: "eligibility-requirements", title: "Eligibility Requirements in Delaware" },{ id: "switching-timeline", title: "Your Switching Timeline and Deadlines" },{ id: "comparing-plans", title: "Comparing Medigap Plans before Switching" },{ id: "enrollment-process", title: "How to Enroll in a New Plan" },{ id: "faqs-section", title: "Frequently Asked Questions" }],sections: [{ type: "paragraph", content: "The Medigap Birthday Rule offers a unique opportunity for Medicare beneficiaries to review and potentially change their Medicare Supplement Insurance plan, also known as [Medigap plans](/medicare-supplement-plans), without medical underwriting. This rule allows individuals to switch their Medigap policy around their birthday each year, providing a chance to find better rates or more suitable coverage. Understanding the specifics of this rule in your state is crucial for making informed decisions about your healthcare coverage. It ensures you can adapt your plan to your evolving needs without facing health-based rejections or higher premiums." },{ type: "heading", level: 2, text: "What is the Medigap Birthday Rule?", id: "what-is-birthday-rule" },{ type: "paragraph", content: "The Medigap Birthday Rule is a special enrollment period that allows beneficiaries to change their Medicare Supplement plan without having to undergo medical underwriting. This means insurance companies cannot deny coverage or charge higher premiums based on pre-existing health conditions during this specific window. The rule is designed to protect consumers and promote competition among Medigap providers, ensuring that individuals have the flexibility to adjust their coverage as their health or financial situation changes. It's a valuable benefit for those looking to optimize their Medicare Supplement plan." },{ type: "heading", level: 2, text: "Eligibility Requirements in Delaware", id: "eligibility-requirements" },{ type: "paragraph", content: "Delaware\'s Medigap Birthday Rule will become effective on January 1, 2026, providing a new avenue for residents to manage their Medicare Supplement policies. For eligible Delaware residents, the enrollment window spans 60 days, beginning 30 days before your birthday and extending 30 days after. During this period, you have the flexibility to switch your Medigap plan to any carrier offering policies in Delaware. However, it is important to note that you must select a new plan that offers benefits equal to or lesser than your current coverage. This ensures a smooth transition while preventing an upgrade in benefits without underwriting." },{ type: "heading", level: 2, text: "Standard Medigap Plans and 2026 Costs", id: "medigap-plans" },{ type: "table", headers: ["Plan Type", "Part A Deductible", "Part B Deductible", "Part B Premium"], rows: [["Original Medicare", "$1,676", "$240", "$185.00/month"], ["Medigap Plan A", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan G", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan N", "Covered", "You pay", "Varies by insurer"]] },{ type: "heading", level: 2, text: "Your Switching Timeline and Deadlines", id: "switching-timeline" },{ type: "paragraph", content: "In Delaware, the Medigap Birthday Rule provides a specific 60-day window centered around your birthday for making changes to your Medicare Supplement plan. This period starts 30 days before your birthday and concludes 30 days after. It is crucial to mark these dates on your calendar to ensure you do not miss this valuable opportunity to switch plans without medical underwriting. Planning ahead allows you to research different carriers and [compare Medicare supplement plans](/medicare-plans/supplement-vs-advantage) effectively, ensuring you make the best choice for your healthcare needs and budget. Missing this window means you might have to undergo medical underwriting if you decide to switch later." },{ type: "callout", calloutType: "info", calloutTitle: "Important Deadline", calloutText: "For Delaware residents, the Medigap Birthday Rule enrollment window is 30 days before your birthday to 30 days after. This 60-day period is your chance to switch Medigap plans with equal or lesser coverage without medical underwriting, effective January 1, 2026." },{ type: "heading", level: 2, text: "Comparing Medigap Plans before Switching", id: "comparing-plans" },{ type: "paragraph", content: "Before making any changes to your Medigap plan, it is highly recommended to thoroughly compare available options. Consider factors such as monthly premiums, coverage benefits, and the reputation of different insurance carriers. While Delaware allows you to switch to any carrier, focusing on plans with equal or lesser coverage is key. For example, if you currently have [Plan G](/medicare-supplement-plans/plan-g), you might consider another Plan G from a different insurer or a [Plan N](/medicare-supplement-plans/plan-n) if it meets your needs. Utilizing online resources and consulting with a licensed insurance agent can help you navigate the complexities and ensure you select a plan that aligns with your healthcare and financial goals." },{ type: "heading", level: 2, text: "How to Enroll in a New Plan", id: "enrollment-process" },{ type: "paragraph", content: "Enrolling in a new Medigap plan during Delaware\'s Birthday Rule window is a straightforward process. Once you have identified the plan and carrier you wish to switch to, you will need to complete an application with the new insurance company. Be sure to clearly indicate that you are utilizing the Birthday Rule to ensure medical underwriting is waived. The new policy will typically become effective on the first day of the month following your birthday. Remember to coordinate the start date of your new plan with the end date of your old plan to avoid any gaps in coverage. It is also wise to review your existing [Part D drug plan](/original-medicare/medicare-parts/medicare-part-d) to ensure it still meets your needs after changing your Medigap policy." }],faqs: [{ question: "When does the Medigap Birthday Rule become effective in Delaware?", answer: "The Medigap Birthday Rule in Delaware will become effective on January 1, 2026, allowing eligible beneficiaries to switch plans without medical underwriting." },{ question: "What is the enrollment window for the Delaware Birthday Rule?", answer: "Delaware residents have a 60-day enrollment window, starting 30 days before their birthday and ending 30 days after, to make changes to their Medigap plan." },{ question: "Can I switch to any Medigap plan or carrier during this period in Delaware?", answer: "Yes, during Delaware\'s Birthday Rule window, you can switch to a Medigap plan offered by any carrier. However, the new plan must offer benefits equal to or lesser than your current coverage." },{ question: "What happens if I miss the Delaware Birthday Rule enrollment window?", answer: "If you miss the 60-day window, you may have to undergo medical underwriting to switch Medigap plans, which could result in denial of coverage or higher premiums based on your health status. You might have to wait until the [Annual Enrollment Period](/medicare-enrollment/annual-changes) for other options." }],relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "oklahoma-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],},
+  {slug: "delaware-birthday-rule",seo: {title: "Delaware Birthday Rule: Medigap Rights in Delaware",description: "Delaware residents can utilize the Medigap Birthday Rule starting January 1, 2026, allowing a 60-day window around their birthday to switch plans with equal or lesser coverage.",canonical: "https://www.medicarefaq.com/blog/delaware-birthday-rule/",ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",},title: "Delaware Birthday Rule: Medigap Rights in Delaware",excerpt: "Delaware residents can utilize the Medigap Birthday Rule starting January 1, 2026, allowing a 60-day window around their birthday to switch plans with equal or lesser coverage.",category: "Medicare Supplement",categoryColor: "#4F46E5",date: "May 20, 2026",author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "8 min read",featured: false,image: "/images/generated/delaware-birthday-rule.png",
+      imageAlt: "Delaware Birthday Rule: Medigap Rights in Delaware",keyTakeaways: ["Delaware\'s Medigap Birthday Rule becomes effective on January 1, 2026, offering new opportunities for policyholders.","The rule provides a 60-day enrollment window, spanning 30 days before your birthday and 30 days after, to make changes.","During this period, Delaware beneficiaries can switch Medigap plans with any carrier, promoting flexibility.","Policyholders must select a new Medigap plan that offers benefits equal to or lesser than their current coverage."],tableOfContents: [{ id: "what-is-birthday-rule", title: "What is the Medigap Birthday Rule?" },{ id: "eligibility-requirements", title: "Eligibility Requirements in Delaware" },{ id: "switching-timeline", title: "Your Switching Timeline and Deadlines" },{ id: "comparing-plans", title: "Comparing Medigap Plans before Switching" },{ id: "enrollment-process", title: "How to Enroll in a New Plan" },{ id: "faqs-section", title: "Frequently Asked Questions" }],sections: [{ type: "paragraph", content: "The Medigap Birthday Rule offers a unique opportunity for Medicare beneficiaries to review and potentially change their Medicare Supplement Insurance plan, also known as [Medigap plans](/medicare-supplement-plans), without medical underwriting. This rule allows individuals to switch their Medigap policy around their birthday each year, providing a chance to find better rates or more suitable coverage. Understanding the specifics of this rule in your state is crucial for making informed decisions about your healthcare coverage. It ensures you can adapt your plan to your evolving needs without facing health-based rejections or higher premiums." },{ type: "heading", level: 2, text: "What is the Medigap Birthday Rule?", id: "what-is-birthday-rule" },{ type: "paragraph", content: "The Medigap Birthday Rule is a special enrollment period that allows beneficiaries to change their Medicare Supplement plan without having to undergo medical underwriting. This means insurance companies cannot deny coverage or charge higher premiums based on pre-existing health conditions during this specific window. The rule is designed to protect consumers and promote competition among Medigap providers, ensuring that individuals have the flexibility to adjust their coverage as their health or financial situation changes. It's a valuable benefit for those looking to optimize their Medicare Supplement plan." },{ type: "heading", level: 2, text: "Eligibility Requirements in Delaware", id: "eligibility-requirements" },{ type: "paragraph", content: "Delaware\'s Medigap Birthday Rule will become effective on January 1, 2026, providing a new avenue for residents to manage their Medicare Supplement policies. For eligible Delaware residents, the enrollment window spans 60 days, beginning 30 days before your birthday and extending 30 days after. During this period, you have the flexibility to switch your Medigap plan to any carrier offering policies in Delaware. However, it is important to note that you must select a new plan that offers benefits equal to or lesser than your current coverage. This ensures a smooth transition while preventing an upgrade in benefits without underwriting." },{ type: "heading", level: 2, text: "Standard Medigap Plans and 2026 Costs", id: "medigap-plans" },{ type: "table", headers: ["Plan Type", "Part A Deductible", "Part B Deductible", "Part B Premium"], rows: [["Original Medicare", "$1,676", "$240", "$185.00/month"], ["Medigap Plan A", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan G", "Covered", "You pay", "Varies by insurer"], ["Medigap Plan N", "Covered", "You pay", "Varies by insurer"]] },{ type: "heading", level: 2, text: "Your Switching Timeline and Deadlines", id: "switching-timeline" },{ type: "paragraph", content: "In Delaware, the Medigap Birthday Rule provides a specific 60-day window centered around your birthday for making changes to your Medicare Supplement plan. This period starts 30 days before your birthday and concludes 30 days after. It is crucial to mark these dates on your calendar to ensure you do not miss this valuable opportunity to switch plans without medical underwriting. Planning ahead allows you to research different carriers and [compare Medicare supplement plans](/medicare-plans/supplement-vs-advantage) effectively, ensuring you make the best choice for your healthcare needs and budget. Missing this window means you might have to undergo medical underwriting if you decide to switch later." },{ type: "callout", calloutType: "info", calloutTitle: "Important Deadline", calloutText: "For Delaware residents, the Medigap Birthday Rule enrollment window is 30 days before your birthday to 30 days after. This 60-day period is your chance to switch Medigap plans with equal or lesser coverage without medical underwriting, effective January 1, 2026." },{ type: "heading", level: 2, text: "Comparing Medigap Plans before Switching", id: "comparing-plans" },{ type: "paragraph", content: "Before making any changes to your Medigap plan, it is highly recommended to thoroughly compare available options. Consider factors such as monthly premiums, coverage benefits, and the reputation of different insurance carriers. While Delaware allows you to switch to any carrier, focusing on plans with equal or lesser coverage is key. For example, if you currently have [Plan G](/medicare-supplement-plans/plan-g), you might consider another Plan G from a different insurer or a [Plan N](/medicare-supplement-plans/plan-n) if it meets your needs. Utilizing online resources and consulting with a licensed insurance agent can help you navigate the complexities and ensure you select a plan that aligns with your healthcare and financial goals." },{ type: "heading", level: 2, text: "How to Enroll in a New Plan", id: "enrollment-process" },{ type: "paragraph", content: "Enrolling in a new Medigap plan during Delaware\'s Birthday Rule window is a straightforward process. Once you have identified the plan and carrier you wish to switch to, you will need to complete an application with the new insurance company. Be sure to clearly indicate that you are utilizing the Birthday Rule to ensure medical underwriting is waived. The new policy will typically become effective on the first day of the month following your birthday. Remember to coordinate the start date of your new plan with the end date of your old plan to avoid any gaps in coverage. It is also wise to review your existing [Part D drug plan](/original-medicare/medicare-parts/medicare-part-d) to ensure it still meets your needs after changing your Medigap policy." }],faqs: [{ question: "When does the Medigap Birthday Rule become effective in Delaware?", answer: "The Medigap Birthday Rule in Delaware will become effective on January 1, 2026, allowing eligible beneficiaries to switch plans without medical underwriting." },{ question: "What is the enrollment window for the Delaware Birthday Rule?", answer: "Delaware residents have a 60-day enrollment window, starting 30 days before their birthday and ending 30 days after, to make changes to their Medigap plan." },{ question: "Can I switch to any Medigap plan or carrier during this period in Delaware?", answer: "Yes, during Delaware\'s Birthday Rule window, you can switch to a Medigap plan offered by any carrier. However, the new plan must offer benefits equal to or lesser than your current coverage." },{ question: "What happens if I miss the Delaware Birthday Rule enrollment window?", answer: "If you miss the 60-day window, you may have to undergo medical underwriting to switch Medigap plans, which could result in denial of coverage or higher premiums based on your health status. You might have to wait until the [Annual Enrollment Period](/medicare-enrollment/annual-changes) for other options." }],relatedSlugs: ["illinois-birthday-rule", "louisiana-birthday-rule", "kentucky-birthday-rule", "nevada-birthday-rule", "oklahoma-birthday-rule", "when-to-switch-medigap-plans-what-you-need-to-know"],},
   {
     slug: "medicare-savings-programs-guide",
     seo: {
