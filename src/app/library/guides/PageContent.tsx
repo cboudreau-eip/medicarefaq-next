@@ -34,7 +34,7 @@ const featuredGuides = [
     icon: Shield,
     category: "Medigap",
     readTime: "15 min read",
-    href: "/medicare-supplements",
+    href: "/medicare-supplement-plans",
     color: "#7C3AED",
     topics: ["Plan comparison (A through N)", "How pricing works", "Best plans for most people", "When to enroll"],
   },
@@ -124,7 +124,7 @@ const topicGuides = [
     title: "Compare All Medicare Plans",
     description: "Original Medicare, Medigap, Medicare Advantage, and Part D compared.",
     icon: FileText,
-    href: "/medicare-supplements",
+    href: "/medicare-supplement-plans",
     category: "Comparison",
   },
   {

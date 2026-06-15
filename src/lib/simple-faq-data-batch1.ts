@@ -119,7 +119,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       ]},
       { type: 'callout', calloutType: 'tip', calloutTitle: 'How to Find Out If Your Plan Includes a Gym Benefit', calloutText: 'Check your plan\'s Summary of Benefits or call the number on your member ID card. You can also visit the SilverSneakers eligibility checker at silversneakers.com to see if your plan qualifies.' },
       { type: 'heading', level: 2, text: 'What About Medigap Plans?', id: 'medigap-gym' },
-      { type: 'paragraph', content: 'Standard [Medicare Supplement (Medigap)](/medicare-supplements/) plans do not include gym benefits. However, some Medigap carriers offer fitness perks as a value-added extra outside of the standardized plan benefits. These vary by insurer and are not guaranteed.' },
+      { type: 'paragraph', content: 'Standard [Medicare Supplement (Medigap)](/medicare-supplement-plans/) plans do not include gym benefits. However, some Medigap carriers offer fitness perks as a value-added extra outside of the standardized plan benefits. These vary by insurer and are not guaranteed.' },
       { type: 'faq', faqs: [
         { question: 'Does Original Medicare cover gym memberships?', answer: 'No. Original Medicare Parts A and B do not cover gym memberships or fitness programs.' },
         { question: 'How do I get a free gym membership with Medicare?', answer: 'Enroll in a Medicare Advantage plan that includes SilverSneakers, Silver&Fit, or Renew Active. These programs are included at no extra cost in many plans.' },
@@ -1265,7 +1265,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '5 min',
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'Normally, if you apply for a [Medicare Supplement (Medigap)](/medicare-supplements/) plan outside of your open enrollment window, insurance companies can review your health history and deny your application or charge you a higher premium. Guaranteed issue rights are federal protections that prevent insurers from doing this in specific qualifying situations.' },
+      { type: 'paragraph', content: 'Normally, if you apply for a [Medicare Supplement (Medigap)](/medicare-supplement-plans/) plan outside of your open enrollment window, insurance companies can review your health history and deny your application or charge you a higher premium. Guaranteed issue rights are federal protections that prevent insurers from doing this in specific qualifying situations.' },
       { type: 'heading', level: 2, text: 'When Do Guaranteed Issue Rights Apply?', id: 'when-gi-rights-apply' },
       { type: 'table', title: 'Qualifying Events for Guaranteed Issue Rights', headers: ['Situation', 'Plans Available', 'Time Window'], rows: [
         ['You are new to Medicare at 65 (Medigap Open Enrollment)', 'Any plan sold in your state', '6 months from Part B effective date'],
@@ -1307,7 +1307,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     readTime: '5 min',
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'SilverSneakers is a fitness program designed specifically for adults 65 and older. It is offered as a supplemental benefit through many [Medicare Advantage](/faqs/what-is-medicare-advantage) plans and some [Medicare Supplement](/medicare-supplements/) plan carriers. If your plan includes SilverSneakers, you can access participating gyms and fitness classes at no additional cost.' },
+      { type: 'paragraph', content: 'SilverSneakers is a fitness program designed specifically for adults 65 and older. It is offered as a supplemental benefit through many [Medicare Advantage](/faqs/what-is-medicare-advantage) plans and some [Medicare Supplement](/medicare-supplement-plans/) plan carriers. If your plan includes SilverSneakers, you can access participating gyms and fitness classes at no additional cost.' },
       { type: 'heading', level: 2, text: 'What Does SilverSneakers Include?', id: 'what-it-includes' },
       { type: 'table', title: 'SilverSneakers Benefits', headers: ['Benefit', 'Details'], rows: [
         ['Gym access', 'Free membership at 15,000+ participating fitness locations nationwide'],
@@ -1648,7 +1648,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     youtubeVideoTitle: "Medicare Supplement Open Enrollment Period",
     sections: [],
     richSections: [
-      { type: 'paragraph', content: 'The Medigap Open Enrollment Period (OEP) is the single most important window for enrolling in a [Medicare Supplement (Medigap)](/medicare-supplements/) plan. It lasts six months and begins automatically on the first day of the month in which you are both age 65 or older and enrolled in Medicare Part B. During this window, you have [guaranteed issue rights](/faqs/medicare-guaranteed-issue): no insurer can deny your application, charge you more, or make you wait for coverage due to pre-existing conditions.' },
+      { type: 'paragraph', content: 'The Medigap Open Enrollment Period (OEP) is the single most important window for enrolling in a [Medicare Supplement (Medigap)](/medicare-supplement-plans/) plan. It lasts six months and begins automatically on the first day of the month in which you are both age 65 or older and enrolled in Medicare Part B. During this window, you have [guaranteed issue rights](/faqs/medicare-guaranteed-issue): no insurer can deny your application, charge you more, or make you wait for coverage due to pre-existing conditions.' },
       { type: 'callout', calloutType: 'warning', calloutTitle: 'This Window Happens Once', calloutText: 'The Medigap Open Enrollment Period is a one-time opportunity. Once it ends, you generally must go through medical underwriting to buy a Medigap plan. Insurers can charge higher premiums or deny your application based on your health history. There is no annual Medigap open enrollment period.' },
       { type: 'heading', level: 2, text: 'When Does Your Medigap OEP Begin?', id: 'when-it-begins' },
       { type: 'paragraph', content: 'Your Medigap OEP begins on the first day of the month you are both 65 and enrolled in Part B. If you turn 65 in June and your Part B starts June 1, your OEP runs June 1 through November 30. If you delay Part B enrollment because you have employer coverage, your OEP does not begin until your Part B starts, even if you are already past 65.' },

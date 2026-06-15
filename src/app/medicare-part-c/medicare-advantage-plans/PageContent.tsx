@@ -58,7 +58,7 @@ const planTypes = [
 const faqs = [
   {
     q: "Can I have both Medicare Advantage and Medigap?",
-    a: (<>No. You cannot have a <Link href="/medicare-supplements" className="text-teal-700 underline hover:text-teal-900">Medigap policy</Link> and a Medicare Advantage plan at the same time. If you switch from Original Medicare + Medigap to Medicare Advantage, you&apos;ll need to drop your Medigap policy. Be cautious: you may not be able to get Medigap back later without medical underwriting.</>),
+    a: (<>No. You cannot have a <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap policy</Link> and a Medicare Advantage plan at the same time. If you switch from Original Medicare + Medigap to Medicare Advantage, you&apos;ll need to drop your Medigap policy. Be cautious: you may not be able to get Medigap back later without medical underwriting.</>),
   },
   {
     q: "Are Medicare Advantage plans really free?",
@@ -304,7 +304,7 @@ export default function MedicareAdvantage() {
                     },
                     {
                       title: "No overlapping coverage",
-                      desc: (<>You cannot be enrolled in another Medicare Advantage plan at the same time, and you cannot have Medicare Advantage while also having a <Link href="/medicare-supplements" className="text-teal-700 underline hover:text-teal-900">Medicare Supplement (Medigap)</Link> policy.</>),
+                      desc: (<>You cannot be enrolled in another Medicare Advantage plan at the same time, and you cannot have Medicare Advantage while also having a <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medicare Supplement (Medigap)</Link> policy.</>),
                     },
                   ].map((item, i) => (
                     <div key={i} className="flex gap-4 p-5 bg-slate-50 rounded-xl border border-slate-100">
@@ -515,7 +515,7 @@ export default function MedicareAdvantage() {
                         "Want maximum flexibility to see any Medicare provider",
                         "Travel frequently or split time between states",
                         "Prefer traditional fee-for-service healthcare",
-                        (<>Want to pair coverage with a <Link href="/medicare-supplements" className="text-blue-700 underline hover:text-blue-900">Medigap policy</Link> for cost predictability</>),
+                        (<>Want to pair coverage with a <Link href="/medicare-supplement-plans" className="text-blue-700 underline hover:text-blue-900">Medigap policy</Link> for cost predictability</>),
                         "Don't want to deal with prior authorization requirements",
                         "See specialists regularly without needing referrals",
                       ].map((item, i) => (

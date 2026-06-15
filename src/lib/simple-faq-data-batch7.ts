@@ -111,7 +111,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "While Original Medicare provides strong coverage, it does not cap your out-of-pocket costs. A [Medicare Supplement (Medigap) plan](/medicare-supplements) can protect you from unexpected expenses by covering costs like the [Part A deductible](/original-medicare/medicare-parts/medicare-part-a), [Part B coinsurance](/original-medicare/medicare-parts/medicare-part-b), and excess charges. Medigap plans are standardized by federal law, so the benefits for each plan letter are identical regardless of which insurer you choose.",
+        content: "While Original Medicare provides strong coverage, it does not cap your out-of-pocket costs. A [Medicare Supplement (Medigap) plan](/medicare-supplement-plans) can protect you from unexpected expenses by covering costs like the [Part A deductible](/original-medicare/medicare-parts/medicare-part-a), [Part B coinsurance](/original-medicare/medicare-parts/medicare-part-b), and excess charges. Medigap plans are standardized by federal law, so the benefits for each plan letter are identical regardless of which insurer you choose.",
       },
       {
         type: "faq",
@@ -228,11 +228,11 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "The most effective way to eliminate the risk of Part B excess charges is to enroll in a [Medigap plan](/medicare-supplements) that covers them. [Medigap Plan G](/medicare-supplements/plan-g) and [Plan F](/medicare-supplements/plan-f) both cover 100% of Part B excess charges. Plan F is only available to beneficiaries who became eligible for Medicare before January 1, 2020. For most new enrollees, Plan G is the gold standard for comprehensive coverage.",
+        content: "The most effective way to eliminate the risk of Part B excess charges is to enroll in a [Medigap plan](/medicare-supplement-plans) that covers them. [Medigap Plan G](/medicare-supplement-plans/plan-g) and [Plan F](/medicare-supplement-plans/plan-f) both cover 100% of Part B excess charges. Plan F is only available to beneficiaries who became eligible for Medicare before January 1, 2020. For most new enrollees, Plan G is the gold standard for comprehensive coverage.",
       },
       {
         type: "paragraph",
-        content: "[Medigap Plan N](/medicare-supplements/plan-n) does **not** cover excess charges, so you could still face them if you see a non-participating provider. If you choose Plan N, make sure to always verify that your providers accept Medicare assignment.",
+        content: "[Medigap Plan N](/medicare-supplement-plans/plan-n) does **not** cover excess charges, so you could still face them if you see a non-participating provider. If you choose Plan N, make sure to always verify that your providers accept Medicare assignment.",
       },
       {
         type: "faq",
@@ -351,7 +351,7 @@ export const simpleFAQBatch7: SimpleFAQArticleData[] = [
       },
       {
         type: "paragraph",
-        content: "AFib is a chronic condition that often requires ongoing management, multiple hospitalizations, and expensive procedures. Without supplemental coverage, Original Medicare's 20% coinsurance and per-stay deductibles can add up quickly. A [Medigap plan](/medicare-supplements) - particularly [Plan G](/medicare-supplements/plan-g) - covers the Part A deductible, Part B coinsurance, and excess charges, providing much more predictable out-of-pocket costs for beneficiaries managing a chronic cardiac condition.",
+        content: "AFib is a chronic condition that often requires ongoing management, multiple hospitalizations, and expensive procedures. Without supplemental coverage, Original Medicare's 20% coinsurance and per-stay deductibles can add up quickly. A [Medigap plan](/medicare-supplement-plans) - particularly [Plan G](/medicare-supplement-plans/plan-g) - covers the Part A deductible, Part B coinsurance, and excess charges, providing much more predictable out-of-pocket costs for beneficiaries managing a chronic cardiac condition.",
       },
       {
         type: "faq",

@@ -190,7 +190,7 @@ export default function MedicareCoverage() {
           <div className="bg-[#1B2A4A] text-white rounded-2xl p-8">
             <h2 className="text-xl font-bold mb-3">Filling the Gaps in Medicare Coverage</h2>
             <p className="text-blue-100 mb-4">
-              Original Medicare has no out-of-pocket maximum, meaning your costs could be unlimited in a serious illness. A <Link href="/medicare-supplements" className="text-teal-300 hover:text-white underline">Medicare Supplement (Medigap) plan</Link> can cover most or all of Medicare's cost-sharing — deductibles, coinsurance, and copays — for a predictable monthly premium.
+              Original Medicare has no out-of-pocket maximum, meaning your costs could be unlimited in a serious illness. A <Link href="/medicare-supplement-plans" className="text-teal-300 hover:text-white underline">Medicare Supplement (Medigap) plan</Link> can cover most or all of Medicare's cost-sharing — deductibles, coinsurance, and copays — for a predictable monthly premium.
             </p>
             <ZipFormModal
               coverageType="ms"

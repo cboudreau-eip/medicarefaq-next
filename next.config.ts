@@ -59,55 +59,55 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/compare-rates",
-        destination: "/medicare-supplements",
+        destination: "/medicare-supplement-plans",
         permanent: true,
       },
 
-      // ── Old /medicare-supplements/medicare-supplement-plans/:slug → /medicare-supplements/:slug ──
+      // ── Old /medicare-supplement-plans/medicare-supplement-plans/:slug → /medicare-supplement-plans/:slug ──
       {
-        source: "/medicare-supplements/medicare-supplement-plans/:slug",
-        destination: "/medicare-supplements/:slug",
+        source: "/medicare-supplement-plans/medicare-supplement-plans/:slug",
+        destination: "/medicare-supplement-plans/:slug",
         permanent: true,
       },
 
-      // ── Old /medicare-supplements/medicare-supplement-carriers index ──
+      // ── Old /medicare-supplement-plans/medicare-supplement-carriers index ──
       {
-        source: "/medicare-supplements/medicare-supplement-carriers",
-        destination: "/medicare-supplements/medigap-by-carrier",
+        source: "/medicare-supplement-plans/medicare-supplement-carriers",
+        destination: "/medicare-supplement-plans/medigap-by-carrier",
         permanent: true,
       },
 
-      // ── Old /medicare-supplements/compare-medigap-plans ──
+      // ── Old /medicare-supplement-plans/compare-medigap-plans ──
       {
-        source: "/medicare-supplements/compare-medigap-plans",
-        destination: "/medicare-supplements/compare",
+        source: "/medicare-supplement-plans/compare-medigap-plans",
+        destination: "/medicare-supplement-plans/compare",
         permanent: true,
       },
 
       // ── Old carrier slugs ──
       {
-        source: "/medicare-supplements/medicare-supplement-carriers/aetna",
-        destination: "/medicare-supplements/medigap-by-carrier/aetna-medicare-supplement-plans",
+        source: "/medicare-supplement-plans/medicare-supplement-carriers/aetna",
+        destination: "/medicare-supplement-plans/medigap-by-carrier/aetna-medicare-supplement-plans",
         permanent: true,
       },
       {
-        source: "/medicare-supplements/medicare-supplement-carriers/cigna",
-        destination: "/medicare-supplements/medigap-by-carrier/cigna-medigap-plans",
+        source: "/medicare-supplement-plans/medicare-supplement-carriers/cigna",
+        destination: "/medicare-supplement-plans/medigap-by-carrier/cigna-medigap-plans",
         permanent: true,
       },
       {
-        source: "/medicare-supplements/medicare-supplement-carriers/humana",
-        destination: "/medicare-supplements/medigap-by-carrier/humana-medigap-plans",
+        source: "/medicare-supplement-plans/medicare-supplement-carriers/humana",
+        destination: "/medicare-supplement-plans/medigap-by-carrier/humana-medigap-plans",
         permanent: true,
       },
       {
-        source: "/medicare-supplements/medicare-supplement-carriers/mutual-of-omaha",
-        destination: "/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans",
+        source: "/medicare-supplement-plans/medicare-supplement-carriers/mutual-of-omaha",
+        destination: "/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans",
         permanent: true,
       },
       {
-        source: "/medicare-supplements/medicare-supplement-carriers/unitedhealthcare",
-        destination: "/medicare-supplements/medigap-by-carrier/united-healthcare-medigap-plans",
+        source: "/medicare-supplement-plans/medicare-supplement-carriers/unitedhealthcare",
+        destination: "/medicare-supplement-plans/medigap-by-carrier/united-healthcare-medigap-plans",
         permanent: true,
       },
 
@@ -117,8 +117,8 @@ const nextConfig: NextConfig = {
       { source: "/faqs/does-medicare-cover-diabetic-supplies", destination: "/faqs/medicare-diabetes", permanent: true },
       { source: "/faqs/does-medicare-cover-skilled-nursing", destination: "/faqs/medicare-coverage-for-skilled-nursing-facilities", permanent: true },
       { source: "/faqs/does-medicare-cover-wound-care", destination: "/faqs/medicare-and-wound-care-coverage", permanent: true },
-      { source: "/faqs/medicare-supplement-plan-g", destination: "/medicare-supplements/plan-g", permanent: true },
-      { source: "/faqs/plan-g", destination: "/medicare-supplements/plan-g", permanent: true },
+      { source: "/faqs/medicare-supplement-plan-g", destination: "/medicare-supplement-plans/plan-g", permanent: true },
+      { source: "/faqs/plan-g", destination: "/medicare-supplement-plans/plan-g", permanent: true },
       { source: "/faqs/what-does-medicare-part-a-cover", destination: "/original-medicare/medicare-parts/medicare-part-a", permanent: true },
       { source: "/faqs/what-is-medicare-part-a", destination: "/original-medicare/medicare-parts/medicare-part-a", permanent: true },
       { source: "/faqs/what-is-medicare-part-b", destination: "/original-medicare/medicare-parts/medicare-part-b", permanent: true },
@@ -165,15 +165,15 @@ const nextConfig: NextConfig = {
       // ── Blog 404s — old URLs never migrated to new site ──
       { source: "/blog/best-medicare-supplement-companies", destination: "/faqs/top-10-medicare-supplement-insurance-companies", permanent: true },
       { source: "/blog/costs-of-not-having-insurance", destination: "/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained", permanent: true },
-      { source: "/blog/medicare-supplement-plan-g-benefits", destination: "/medicare-supplements/plan-g", permanent: true },
-      { source: "/blog/medicare-supplement-plan-g-cost", destination: "/medicare-supplements/plan-g", permanent: true },
+      { source: "/blog/medicare-supplement-plan-g-benefits", destination: "/medicare-supplement-plans/plan-g", permanent: true },
+      { source: "/blog/medicare-supplement-plan-g-cost", destination: "/medicare-supplement-plans/plan-g", permanent: true },
       { source: "/blog/medicare-supplement-plan-g-reviews", destination: "/faqs/medicare-plan-g-reviews", permanent: true },
       { source: "/blog/medicare-supplement-plan-g-vs-plan-f", destination: "/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n", permanent: true },
       { source: "/blog/medicare-supplement-plan-g-vs-plan-n", destination: "/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n", permanent: true },
 
       // ── High-deductible plan slug corrections ──
-      { source: "/medicare-supplements/plan-high-deductible-f", destination: "/medicare-supplements/high-deductible-plan-f", permanent: true },
-      { source: "/medicare-supplements/plan-high-deductible-g", destination: "/medicare-supplements/high-deductible-plan-g", permanent: true },
+      { source: "/medicare-supplement-plans/plan-high-deductible-f", destination: "/medicare-supplement-plans/high-deductible-plan-f", permanent: true },
+      { source: "/medicare-supplement-plans/plan-high-deductible-g", destination: "/medicare-supplement-plans/high-deductible-plan-g", permanent: true },
     ];
   },
   async headers() {

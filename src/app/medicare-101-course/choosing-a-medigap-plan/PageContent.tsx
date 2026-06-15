@@ -194,7 +194,7 @@ export default function PageContent() {
             }
           />
           <Link
-            href="/medicare-supplements/medigap-by-state"
+            href="/medicare-supplement-plans/medigap-by-state"
             className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
           >
             Browse by State <ArrowRight className="w-4 h-4" />

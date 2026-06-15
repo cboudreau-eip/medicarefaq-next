@@ -188,7 +188,7 @@ return (
                 { label: "Medicare Enrollment Periods", href: "/original-medicare/medicare-enrollment-periods" },
                 { label: "Medicare Coverage Guide", href: "/original-medicare/medicare-coverage" },
                 { label: "Medicare Costs 2026", href: "/original-medicare/medicare-costs" },
-                { label: "Compare Medicare Plans", href: "/medicare-supplements" },
+                { label: "Compare Medicare Plans", href: "/medicare-supplement-plans" },
               ].map((link, i) => (
                 <Link
                   key={i}

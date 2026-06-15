@@ -473,7 +473,7 @@ export default function PageContent() {
               { label: "Medicare Part B Overview", href: "/original-medicare/medicare-parts/medicare-part-b" },
               { label: "Medicare Enrollment Periods", href: "/original-medicare/medicare-enrollment-periods" },
               { label: "Medicare Part B Late Enrollment Penalty", href: "/faqs/medicare-part-b-late-enrollment-penalty" },
-              { label: "Medigap Open Enrollment", href: "/medicare-supplements/medigap-eligibility" },
+              { label: "Medigap Open Enrollment", href: "/medicare-supplement-plans/medigap-eligibility" },
               { label: "How to Apply for Medicare Part B", href: "/original-medicare/medicare-parts/apply-for-medicare-part-b" },
               { label: "Medicare Eligibility", href: "/original-medicare/medicare-eligibility" },
             ].map((link, i) => (

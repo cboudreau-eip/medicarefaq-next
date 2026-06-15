@@ -174,7 +174,7 @@ export default function PageContent() {
                   </div>
                 ))}
               </div>
-              <Link href="/medicare-supplements" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 mt-6 hover:text-blue-900 transition-colors">
+              <Link href="/medicare-supplement-plans" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 mt-6 hover:text-blue-900 transition-colors">
                 Learn more about Medigap <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

@@ -239,7 +239,7 @@ export default function PageContent() {
                 { label: "Medicare Part B Overview", href: "/original-medicare/medicare-parts/medicare-part-b" },
                 { label: "Medicare Enrollment Periods", href: "/original-medicare/medicare-enrollment-periods" },
                 { label: "Medicare Eligibility", href: "/original-medicare/medicare-eligibility" },
-                { label: "Medigap Open Enrollment", href: "/medicare-supplements/medigap-eligibility" },
+                { label: "Medigap Open Enrollment", href: "/medicare-supplement-plans/medigap-eligibility" },
               ].map((link, i) => (
                 <Link
                   key={i}

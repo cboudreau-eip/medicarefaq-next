@@ -266,7 +266,7 @@ export default function PageContent() {
       {/* Secondary Links */}
       <div className="grid sm:grid-cols-3 gap-4 mb-8">
         <Link
-          href="/medicare-supplements/medigap-by-state"
+          href="/medicare-supplement-plans/medigap-by-state"
           className="p-4 border border-slate-200 rounded-xl hover:border-blue-300 hover:bg-blue-50 transition-all text-center group"
         >
           <MapPin className="w-5 h-5 text-blue-600 mx-auto mb-2" />

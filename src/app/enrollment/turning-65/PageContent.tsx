@@ -437,7 +437,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1">Supplemental Coverage (Choose One Path)</h3>
                         <p className="text-sm text-slate-600 mb-2">
-                          You'll choose between a <Link href="/medicare-supplements" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Supplement (Medigap)</Link> plan to fill gaps in Original Medicare, or a <Link href="/medicare-part-c/medicare-advantage-plans" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Advantage (Part C)</Link> plan that replaces Original Medicare with an all-in-one alternative. You cannot have both.
+                          You'll choose between a <Link href="/medicare-supplement-plans" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Supplement (Medigap)</Link> plan to fill gaps in Original Medicare, or a <Link href="/medicare-part-c/medicare-advantage-plans" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Advantage (Part C)</Link> plan that replaces Original Medicare with an all-in-one alternative. You cannot have both.
                         </p>
                         <div className="flex gap-2 mt-2">
                           <Link href="/medicare-plans/supplement-vs-advantage" className="text-xs font-semibold text-blue-700 bg-blue-50 px-2 py-1 rounded hover:bg-blue-100 transition-colors">
@@ -580,7 +580,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly late enrollment penalties</p>
                 </Link>
-                <Link href="/medicare-supplements" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
                   <Shield className="w-5 h-5 text-amber-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Compare Plans</h3>
                   <p className="text-xs text-slate-500">Side-by-side plan comparison</p>

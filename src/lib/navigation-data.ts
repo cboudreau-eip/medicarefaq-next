@@ -124,7 +124,7 @@ export const navigationData: NavCategory[] = [
         title: "Medicare Supplement",
         description: "Fill the gaps in Original Medicare coverage",
         icon: Heart,
-        href: "/medicare-supplements",
+        href: "/medicare-supplement-plans",
       },
       {
         title: "Medicare Advantage (Part C)",
@@ -142,7 +142,7 @@ export const navigationData: NavCategory[] = [
         title: "Compare Medicare Plans",
         description: "Side-by-side comparison of every plan type",
         icon: BarChart3,
-        href: "/medicare-supplements",
+        href: "/medicare-supplement-plans",
       },
       {
         title: "Medicare Costs",
@@ -340,7 +340,7 @@ export const navigationData: NavCategory[] = [
     sidebarItems: [
       {
         title: "Medicare Supplement Guide 2026",
-        href: "/medicare-supplements",
+        href: "/medicare-supplement-plans",
       },
       {
         title: "Understanding Medicare Costs",

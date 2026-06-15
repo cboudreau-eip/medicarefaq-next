@@ -69,11 +69,11 @@ const faqs = [
     a: (
       <>
         Plan G covers all out-of-pocket costs except the Part B deductible ($257 in 2026). Plan N also covers most costs but requires small copays for office visits ($20) and ER visits ($50 if not admitted). Plan N premiums are typically 15-25% lower than Plan G. See our detailed{" "}
-        <Link href="/medicare-supplements/plan-g" className="text-teal-700 underline hover:text-teal-900">
+        <Link href="/medicare-supplement-plans/plan-g" className="text-teal-700 underline hover:text-teal-900">
           Plan G
         </Link>{" "}
         and{" "}
-        <Link href="/medicare-supplements/plan-n" className="text-teal-700 underline hover:text-teal-900">
+        <Link href="/medicare-supplement-plans/plan-n" className="text-teal-700 underline hover:text-teal-900">
           Plan N
         </Link>{" "}
         guides for more.
@@ -121,7 +121,7 @@ export default function PageContent() {
           <nav className="flex items-center gap-2 text-sm text-slate-400 mb-6" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
-            <Link href="/medicare-supplements" className="hover:text-white transition-colors">Medicare Supplements</Link>
+            <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplements</Link>
             <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
             <span className="text-teal-400">Medigap Plans</span>
           </nav>
@@ -341,7 +341,7 @@ export default function PageContent() {
                 </p>
                 <p className="text-slate-600 text-sm mt-4">
                   For a more detailed breakdown, visit our{" "}
-                  <Link href="/medicare-supplements/compare" className="text-teal-700 underline hover:text-teal-900">
+                  <Link href="/medicare-supplement-plans/compare" className="text-teal-700 underline hover:text-teal-900">
                     full Medigap comparison chart
                   </Link>.
                 </p>
@@ -429,7 +429,7 @@ export default function PageContent() {
                   <div className="bg-white border-2 border-teal-200 rounded-xl p-6 relative">
                     <div className="absolute -top-3 left-4 bg-teal-600 text-white text-xs font-bold px-3 py-1 rounded-full">#1 Most Popular</div>
                     <h3 className="font-bold text-slate-900 text-lg mt-2 mb-2">
-                      <Link href="/medicare-supplements/plan-g" className="hover:text-teal-700">Plan G</Link>
+                      <Link href="/medicare-supplement-plans/plan-g" className="hover:text-teal-700">Plan G</Link>
                     </h3>
                     <p className="text-slate-600 text-sm mb-3">Covers everything except the annual Part B deductible ($257 in 2026). The go-to choice for new Medicare beneficiaries who want comprehensive, predictable coverage.</p>
                     <ul className="text-sm text-slate-600 space-y-1.5">
@@ -442,7 +442,7 @@ export default function PageContent() {
                   <div className="bg-white border-2 border-blue-200 rounded-xl p-6 relative">
                     <div className="absolute -top-3 left-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">#2 Best Value</div>
                     <h3 className="font-bold text-slate-900 text-lg mt-2 mb-2">
-                      <Link href="/medicare-supplements/plan-n" className="hover:text-teal-700">Plan N</Link>
+                      <Link href="/medicare-supplement-plans/plan-n" className="hover:text-teal-700">Plan N</Link>
                     </h3>
                     <p className="text-slate-600 text-sm mb-3">Similar to Plan G but with small copays ($20 office / $50 ER). Premiums are typically 15-25% lower, making it ideal for healthy beneficiaries who want to save on monthly costs.</p>
                     <ul className="text-sm text-slate-600 space-y-1.5">

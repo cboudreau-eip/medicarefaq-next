@@ -467,7 +467,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                         </li>
                       ))}
                     </ul>
-                    <Link href="/medicare-supplements" className="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 hover:text-blue-800">
+                    <Link href="/medicare-supplement-plans" className="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 hover:text-blue-800">
                       Learn about Medigap <ArrowRight className="w-4 h-4" />
                     </Link>
                   </div>
@@ -550,7 +550,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
 
               {/* Related Pages */}
               <div className="grid sm:grid-cols-3 gap-4">
-                <Link href="/medicare-supplements" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
+                <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
                   <Shield className="w-5 h-5 text-blue-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Supplement</h3>
                   <p className="text-xs text-slate-500">Fill the gaps in Original Medicare</p>

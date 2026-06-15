@@ -354,7 +354,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
         ["Automatic enrollment?", "Yes, if collecting Social Security at 65", "Yes, but you can opt out if you have employer coverage"],
         ["Should you delay?", "Rarely \u2014 it is free for most people", "Only if you have creditable employer coverage"]
       ]},
-      { type: "paragraph", content: "Once you have both parts, you can choose to add a [Medicare Supplement (Medigap) plan](/medicare-supplements) to help cover out-of-pocket costs, or you can switch to a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) as an alternative way to receive your Medicare benefits." },
+      { type: "paragraph", content: "Once you have both parts, you can choose to add a [Medicare Supplement (Medigap) plan](/medicare-supplement-plans) to help cover out-of-pocket costs, or you can switch to a [Medicare Advantage plan](/medicare-part-c/medicare-advantage-plans) as an alternative way to receive your Medicare benefits." },
 
       { type: "heading", level: 2, text: "Avoiding Late Enrollment Penalties", id: "penalties" },
       { type: "paragraph", content: "One of the biggest mistakes new Medicare beneficiaries make is missing their enrollment window. If you do not sign up for Part B when you are first eligible and you do not have qualifying employer coverage, you will face a [late enrollment penalty](/enrollment/late-penalties) that lasts for as long as you have Part B." },
@@ -369,7 +369,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
       { type: "list", ordered: true, items: [
         "Watch for your red, white, and blue Medicare card in the mail (typically arrives within 2\u20134 weeks)",
         "Set up your Medicare.gov account to view your coverage, claims, and digital Medicare card",
-        "Evaluate whether you need a [Medicare Supplement (Medigap) plan](/medicare-supplements) to cover deductibles and coinsurance",
+        "Evaluate whether you need a [Medicare Supplement (Medigap) plan](/medicare-supplement-plans) to cover deductibles and coinsurance",
         "Consider enrolling in a [Part D prescription drug plan](/original-medicare/medicare-parts/medicare-part-d) if staying with Original Medicare",
         "Alternatively, explore [Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) that bundle Part A, Part B, and often Part D with extra benefits",
         "Schedule your free Welcome to Medicare preventive visit within the first 12 months of Part B coverage"
@@ -406,7 +406,7 @@ export const simpleFAQBatch3: SimpleFAQArticleData[] = [  {
     sections: [],
     richSections: [
       { type: "heading", level: 2, text: "What Are Medigap Pricing Methods?", id: "what-are" },
-      { type: "paragraph", content: "When you shop for a [Medicare Supplement (Medigap) plan](/medicare-supplements), you will notice that premiums for the exact same plan letter can vary significantly from one insurance company to another. One of the biggest reasons for this difference is the pricing method the insurer uses to calculate your premium. There are three pricing methods, and the one your insurer uses determines how your premium changes - or does not change - as you age." },
+      { type: "paragraph", content: "When you shop for a [Medicare Supplement (Medigap) plan](/medicare-supplement-plans), you will notice that premiums for the exact same plan letter can vary significantly from one insurance company to another. One of the biggest reasons for this difference is the pricing method the insurer uses to calculate your premium. There are three pricing methods, and the one your insurer uses determines how your premium changes - or does not change - as you age." },
       { type: "callout", calloutType: "info", calloutTitle: "Why This Matters", calloutText: "Two people with the same Medigap Plan G in the same ZIP code can pay very different premiums depending on the pricing method their insurer uses. Over 10 to 20 years, the difference can add up to thousands of dollars." },
 
       { type: "heading", level: 2, text: "The Three Medigap Pricing Methods", id: "three-methods" },

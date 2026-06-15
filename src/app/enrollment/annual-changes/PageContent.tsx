@@ -59,7 +59,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Can I change my Medigap plan during AEP?",
-    a: <>No. The Annual Enrollment Period only applies to Medicare Advantage and Part D plans. <Link href="/medicare-supplements" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap (Medicare Supplement) plans</Link> can be changed at any time during the year, but you may be subject to medical underwriting outside of your initial <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link>. Some states have additional protections.</>,
+    a: <>No. The Annual Enrollment Period only applies to Medicare Advantage and Part D plans. <Link href="/medicare-supplement-plans" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap (Medicare Supplement) plans</Link> can be changed at any time during the year, but you may be subject to medical underwriting outside of your initial <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link>. Some states have additional protections.</>,
   },
   {
     q: "What is the Annual Notice of Change (ANOC)?",

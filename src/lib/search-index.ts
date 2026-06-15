@@ -34,7 +34,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#7C3AED",
     type: "guide",
     typeLabel: "Guide",
-    href: "/medicare-supplements",
+    href: "/medicare-supplement-plans",
     readTime: "15 min read",
   },
   {
@@ -148,7 +148,7 @@ const guideEntries: Omit<SearchResult, "score">[] = [
     categoryColor: "#4F46E5",
     type: "guide",
     typeLabel: "Guide",
-    href: "/medicare-supplements",
+    href: "/medicare-supplement-plans",
   },
   {
     id: "guide-late-penalties",

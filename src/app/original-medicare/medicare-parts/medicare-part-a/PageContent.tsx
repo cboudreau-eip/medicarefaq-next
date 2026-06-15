@@ -85,7 +85,7 @@ export default function PageContent() {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_a" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               <Phone className="w-4 h-4" /> Get Free Guidance
             </a>
-            <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors">
+            <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors">
               Compare Supplement Plans <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -253,7 +253,7 @@ export default function PageContent() {
             <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5">
               <p className="font-semibold text-teal-900 mb-2">How to Fill These Gaps</p>
               <p className="text-sm text-teal-800 mb-3">A Medicare Supplement (Medigap) plan can cover Part A deductibles, coinsurance, and hospital costs beyond the benefit period. Plans like Medigap Plan G cover nearly all Part A out-of-pocket costs.</p>
-              <Link href="/medicare-supplements/plan-g" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-900">Learn about Medigap Plan G <ArrowRight className="w-4 h-4" /></Link>
+              <Link href="/medicare-supplement-plans/plan-g" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-900">Learn about Medigap Plan G <ArrowRight className="w-4 h-4" /></Link>
             </div>
           </section>
 
@@ -277,8 +277,8 @@ export default function PageContent() {
             <div className="grid md:grid-cols-3 gap-4">
               {[
                 { title: "Learn about Part B", desc: "Understand outpatient medical coverage and the Part B premium.", href: "/original-medicare/medicare-parts/medicare-part-b", icon: FileText },
-                { title: "Add a Supplement Plan", desc: "Cover Part A deductibles and coinsurance with a Medigap plan.", href: "/medicare-supplements", icon: Shield },
-                { title: "Compare All Plans", desc: "See how Original Medicare compares to Medicare Advantage.", href: "/medicare-supplements", icon: ArrowRight },
+                { title: "Add a Supplement Plan", desc: "Cover Part A deductibles and coinsurance with a Medigap plan.", href: "/medicare-supplement-plans", icon: Shield },
+                { title: "Compare All Plans", desc: "See how Original Medicare compares to Medicare Advantage.", href: "/medicare-supplement-plans", icon: ArrowRight },
               ].map((item, i) => (
                 <Link key={i} href={item.href} className="block bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-[#1B3A6B]/30 transition-all group">
                   <div className="bg-[#1B3A6B]/10 rounded-lg p-2 w-fit mb-3 group-hover:bg-[#1B3A6B]/20 transition-colors"><item.icon className="w-5 h-5 text-[#1B3A6B]" /></div>

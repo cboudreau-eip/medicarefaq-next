@@ -666,7 +666,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         items: [
           '**Appeal if your income has changed.** If a life-changing event has reduced your income since the look-back year, file Form SSA-44 promptly.',
           '**Work with a financial planner.** Strategic income management in the years before Medicare enrollment can help you stay below IRMAA thresholds.',
-          '**Consider a Medigap plan.** If you are subject to IRMAA and also face high out-of-pocket costs under Original Medicare, a [Medicare Supplement plan](/medicare-supplements/) can provide predictable costs regardless of your premium tier.',
+          '**Consider a Medigap plan.** If you are subject to IRMAA and also face high out-of-pocket costs under Original Medicare, a [Medicare Supplement plan](/medicare-supplement-plans/) can provide predictable costs regardless of your premium tier.',
           '**Review your IRMAA tier annually.** Your IRMAA bracket is recalculated each year based on your most recent available tax return. A drop in income can move you to a lower tier or eliminate the surcharge entirely.',
         ],
       },
@@ -732,7 +732,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ['You are 65+ but have not enrolled in Part B', 'Retiree plan pays as if it were primary', 'No Medicare secondary benefit - you bear more cost'],
         ['Retiree plan is a Medicare Advantage wrap plan', 'Medicare Advantage plan (primary)', 'Retiree plan may cover remaining costs per plan rules'],
       ]},
-      { type: 'paragraph', content: 'Some employers offer retiree plans specifically designed to wrap around Medicare - these are sometimes called Medicare supplement or Medigap-style retiree plans. They fill in Medicare’s gaps much like a standard [Medigap plan](/medicare-supplements/) would. If your retiree plan works this way, enrolling in Medicare on time is especially important, because the retiree plan is built on the assumption that Medicare is paying first.' },
+      { type: 'paragraph', content: 'Some employers offer retiree plans specifically designed to wrap around Medicare - these are sometimes called Medicare supplement or Medigap-style retiree plans. They fill in Medicare’s gaps much like a standard [Medigap plan](/medicare-supplement-plans/) would. If your retiree plan works this way, enrolling in Medicare on time is especially important, because the retiree plan is built on the assumption that Medicare is paying first.' },
       { type: 'heading', level: 2, text: 'What Happens If You Do Not Enroll in Medicare on Time?', id: 'late-enrollment-consequences' },
       { type: 'paragraph', content: 'If you retire and have retiree insurance but do not enroll in Medicare Part B during your 8-month SEP, you will face consequences on two fronts. First, you will owe a permanent Part B late enrollment penalty of 10% for each 12-month period you delayed. At the 2026 standard premium of $202.90 per month, even a one-year delay adds $20.29 to your monthly premium for life. Second, your retiree plan may reduce or eliminate its benefits for services that Medicare would have covered, leaving you with higher out-of-pocket costs.' },
       { type: 'heading', level: 2, text: 'Can Your Employer Pay Your Medicare Premiums?', id: 'employer-pay-premiums' },
@@ -1075,7 +1075,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       { type: 'heading', level: 2, text: 'Step 5: Choose Your Coverage Path', id: 'step-5-coverage-path' },
       { type: 'paragraph', content: 'Once you have Original Medicare (Parts A and B), you have two main paths for additional coverage. This is the most important plan decision you will make, and the right choice depends on your health, budget, and lifestyle.' },
       { type: 'table', title: 'Two Main Coverage Paths After Original Medicare', headers: ['Coverage Path', 'How It Works', 'Best For'], rows: [
-        ['Original Medicare + [Medicare Supplement (Medigap)](/medicare-supplements/) + [Part D](/faqs/what-is-medicare-part-d)', 'Medigap pays costs Original Medicare leaves behind; Part D covers prescriptions', 'People who want predictable costs, freedom to see any doctor nationwide, and minimal out-of-pocket exposure'],
+        ['Original Medicare + [Medicare Supplement (Medigap)](/medicare-supplement-plans/) + [Part D](/faqs/what-is-medicare-part-d)', 'Medigap pays costs Original Medicare leaves behind; Part D covers prescriptions', 'People who want predictable costs, freedom to see any doctor nationwide, and minimal out-of-pocket exposure'],
         ['[Medicare Advantage (Part C)](/faqs/what-is-medicare-advantage)', 'Private plan replaces Original Medicare; often includes drug coverage and extra benefits like dental and vision', 'People who want lower monthly premiums and are comfortable with network restrictions and copayments'],
       ]},
       { type: 'callout', calloutType: 'info', calloutTitle: 'Medigap Enrollment Has a Protected Window', calloutText: 'Your [Medigap Open Enrollment Period](/faqs/medicare-supplement-open-enrollment) begins the month you are both 65 and enrolled in Part B. During this 6-month window, insurers cannot deny you coverage or charge you more due to pre-existing conditions. After this window closes, you may be subject to medical underwriting.' },
@@ -1295,7 +1295,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     richSections: [
       {
         type: 'paragraph' as const,
-        content: 'If you are new to Medicare or considering a plan change, one of the most important decisions you will make is choosing between a [Medicare Supplement (Medigap)](/medicare-supplements/) plan and a [Medicare Advantage (Part C)](/faqs/what-is-medicare-advantage) plan. Both options extend your Original Medicare coverage, but they work in fundamentally different ways.',
+        content: 'If you are new to Medicare or considering a plan change, one of the most important decisions you will make is choosing between a [Medicare Supplement (Medigap)](/medicare-supplement-plans/) plan and a [Medicare Advantage (Part C)](/faqs/what-is-medicare-advantage) plan. Both options extend your Original Medicare coverage, but they work in fundamentally different ways.',
       },
       {
         type: 'heading' as const,
@@ -1608,7 +1608,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'Standard **Medicare Advantage (Part C) plans do not cover foreign travel emergencies** beyond what Original Medicare covers. Because Medicare Advantage plans are operated by private insurers and are tied to service areas, care received outside the U.S. is generally not covered.\n\nHowever, some Medicare Advantage plans in 2026 have introduced optional travel benefits through programs branded as "Passport" or "Traveler" add-ons. These vary significantly by insurer and plan. If you have a Medicare Advantage plan and travel internationally, contact your plan carrier directly to confirm what, if anything, is covered abroad.\n\nFor beneficiaries who travel frequently, a [Medigap plan](/blog/medicare-supplements-cost-vs-value-explained) paired with standalone travel insurance typically provides more predictable international coverage than Medicare Advantage.',
+        content: 'Standard **Medicare Advantage (Part C) plans do not cover foreign travel emergencies** beyond what Original Medicare covers. Because Medicare Advantage plans are operated by private insurers and are tied to service areas, care received outside the U.S. is generally not covered.\n\nHowever, some Medicare Advantage plans in 2026 have introduced optional travel benefits through programs branded as "Passport" or "Traveler" add-ons. These vary significantly by insurer and plan. If you have a Medicare Advantage plan and travel internationally, contact your plan carrier directly to confirm what, if anything, is covered abroad.\n\nFor beneficiaries who travel frequently, a [Medigap plan](/blog/medicare-supplement-plans-cost-vs-value-explained) paired with standalone travel insurance typically provides more predictable international coverage than Medicare Advantage.',
       },
       {
         type: 'heading' as const,
@@ -2101,7 +2101,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ['Monthly premium', 'Part B + PDP premium', 'Often lower combined premium'],
       ]},
       { type: 'heading', level: 2, text: 'When a PDP Makes More Sense', id: 'when-pdp' },
-      { type: 'paragraph', content: 'A standalone PDP is the right choice if you want to stay on Original Medicare and pair it with a [Medigap (Medicare Supplement)](/medicare-supplements/) plan. Medigap plans are not compatible with Medicare Advantage, so if you want comprehensive coverage with no network restrictions and predictable costs, the combination of Original Medicare + Medigap + PDP is the traditional approach.' },
+      { type: 'paragraph', content: 'A standalone PDP is the right choice if you want to stay on Original Medicare and pair it with a [Medigap (Medicare Supplement)](/medicare-supplement-plans/) plan. Medigap plans are not compatible with Medicare Advantage, so if you want comprehensive coverage with no network restrictions and predictable costs, the combination of Original Medicare + Medigap + PDP is the traditional approach.' },
       { type: 'heading', level: 2, text: 'When an MAPD Makes More Sense', id: 'when-mapd' },
       { type: 'paragraph', content: 'An MAPD can be a good fit if you want a single plan that covers medical, hospital, and drug costs, often with extra benefits like dental and vision. MAPD plans typically have lower monthly premiums than the Original Medicare + Medigap + PDP combination, but they come with provider networks and may have higher out-of-pocket costs if you need significant care.' },
       { type: 'callout', calloutType: 'info', calloutTitle: '$2,000 Out-of-Pocket Cap on Part D in 2026', calloutText: 'Starting in 2026, the maximum out-of-pocket limit for Part D drug costs is $2,000 per year. This cap applies to both PDPs and MAPDs. Once you reach this limit, your plan covers 100% of covered drug costs for the rest of the year.' },

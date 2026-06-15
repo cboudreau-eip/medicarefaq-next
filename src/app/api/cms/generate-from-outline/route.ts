@@ -107,7 +107,7 @@ CONTENT GUIDELINES:
 - Add a callout every 2-3 paragraphs to maintain visual variety.
 - If content mentions costs or comparisons, ALWAYS use a table.
 - If content has a list of 3+ items, use a list section (not inline in a paragraph).
-- Internal links should use relative paths: /blog/slug/, /faqs/slug/, /medicare-supplements/plan-g/
+- Internal links should use relative paths: /blog/slug/, /faqs/slug/, /medicare-supplement-plans/plan-g/
 - External links use full URLs.
 
 OUTPUT FORMAT:

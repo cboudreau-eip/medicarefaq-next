@@ -38,7 +38,7 @@ export function GET() {
   // Medigap plan letter pages
   for (const plan of Object.values(MEDIGAP_PLANS)) {
     entries.push({
-      url: `${BASE_URL}/medicare-supplements/${plan.slug}/`,
+      url: `${BASE_URL}/medicare-supplement-plans/${plan.slug}/`,
       priority: "0.8",
       changefreq: "monthly",
     });
@@ -47,7 +47,7 @@ export function GET() {
   // Carrier pages
   for (const carrier of CARRIER_DATA) {
     entries.push({
-      url: `${BASE_URL}/medicare-supplements/medigap-by-carrier/${carrier.slug}/`,
+      url: `${BASE_URL}/medicare-supplement-plans/medigap-by-carrier/${carrier.slug}/`,
       priority: "0.7",
       changefreq: "monthly",
     });
@@ -56,7 +56,7 @@ export function GET() {
   // State pages
   for (const state of STATE_DATA) {
     entries.push({
-      url: `${BASE_URL}/medicare-supplements/medigap-by-state/${state.slug}/`,
+      url: `${BASE_URL}/medicare-supplement-plans/medigap-by-state/${state.slug}/`,
       priority: "0.7",
       changefreq: "monthly",
     });

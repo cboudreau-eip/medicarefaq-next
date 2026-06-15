@@ -120,7 +120,7 @@ export default function PageContent() {
                 <Phone className="w-4 h-4" />
                 Get Free Guidance
               </a>
-              <Link href="/medicare-supplements/compare" className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors">
+              <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors">
                 Cover the 20% Gap <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

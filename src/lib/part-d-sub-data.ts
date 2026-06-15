@@ -954,7 +954,7 @@ export const partDSubPages: PartDSubPage[] = [
       { q: "Should I get Mutual of Omaha Part D if I have their Medigap plan?", a: "Having the same carrier for Medigap and Part D can simplify billing, but it is not required. Always compare Part D plans based on your specific medications and costs, not just carrier preference." },
       { q: "How do I enroll in Mutual of Omaha Part D?", a: "You can enroll during your Initial Enrollment Period, Annual Enrollment Period (Oct 15 – Dec 7), or a qualifying Special Enrollment Period. Visit MutualofOmaha.com or call their Medicare helpline." }],
     relatedLinks: [
-      { label: "Mutual of Omaha Medigap Plans", href: "/medicare-supplements/medigap-by-carrier/mutual-of-omaha-medigap-plans" },
+      { label: "Mutual of Omaha Medigap Plans", href: "/medicare-supplement-plans/medigap-by-carrier/mutual-of-omaha-medigap-plans" },
       { label: "Part D Costs", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-cost" },
       { label: "Part D Enrollment Periods", href: "/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-enrollment-periods" }],
   }];

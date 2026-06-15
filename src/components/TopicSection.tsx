@@ -21,7 +21,7 @@ const topics = [
     icon: BarChart3,
     color: "#1B2A4A",
     articles: "12 articles",
-    href: "/medicare-supplements",
+    href: "/medicare-supplement-plans",
   },
   {
     title: "Coverage & Benefits",
@@ -57,7 +57,7 @@ const topics = [
     icon: Heart,
     color: "#4F46E5",
     articles: "14 articles",
-    href: "/medicare-supplements",
+    href: "/medicare-supplement-plans",
   },
   {
     title: "Medicare Advantage",

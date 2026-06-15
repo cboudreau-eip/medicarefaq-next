@@ -16835,8 +16835,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         statusBadge: "Covers cost-sharing gaps - not custodial care",
         paragraphs: [
-          "[Medigap plans](/medicare-supplements) cover the cost-sharing gaps left by Original Medicare - deductibles, coinsurance, and copays. For Alzheimer's patients who use significant medical services, this protection can be extremely valuable.",
-          "[Medigap Plan G](/medicare-supplements/plan-g) is the most comprehensive option for new Medicare enrollees. It covers the Part A deductible ($1,736), Part A coinsurance for hospital stays and SNF care, and 100% of Part B coinsurance after the $283 annual deductible.",
+          "[Medigap plans](/medicare-supplement-plans) cover the cost-sharing gaps left by Original Medicare - deductibles, coinsurance, and copays. For Alzheimer's patients who use significant medical services, this protection can be extremely valuable.",
+          "[Medigap Plan G](/medicare-supplement-plans/plan-g) is the most comprehensive option for new Medicare enrollees. It covers the Part A deductible ($1,736), Part A coinsurance for hospital stays and SNF care, and 100% of Part B coinsurance after the $283 annual deductible.",
           "Medigap does not cover long-term custodial care. Families planning for Alzheimer's care should consider long-term care insurance, Medicaid planning, or self-funding strategies for custodial care costs."],
         whatItCovers: [
           "Part A hospital deductible ($1,736 per benefit period)",
@@ -17533,7 +17533,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Helps with Cost-Sharing",
         coverageType: "covered",
         paragraphs: [
-          "A [Medigap plan](/medicare-supplements/plan-g) does not add new telehealth services, but it pays your share of the cost for any telehealth visit that Original Medicare covers. For example, [Plan G](/medicare-supplements/plan-g) covers the Part B 20% coinsurance, so your out-of-pocket cost for a covered telehealth visit after the deductible is $0."],
+          "A [Medigap plan](/medicare-supplement-plans/plan-g) does not add new telehealth services, but it pays your share of the cost for any telehealth visit that Original Medicare covers. For example, [Plan G](/medicare-supplement-plans/plan-g) covers the Part B 20% coinsurance, so your out-of-pocket cost for a covered telehealth visit after the deductible is $0."],
       }],
     faqs: [
       {
@@ -17646,7 +17646,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Helps with Cost-Sharing",
         coverageType: "covered",
         paragraphs: [
-          "A [Medigap plan](/medicare-supplements/plan-g) such as Plan G covers the Part A hospital coinsurance and the Part B 20% coinsurance, significantly reducing your out-of-pocket costs for both the surgery and your recovery. Because knee replacement involves both inpatient and outpatient costs, Medigap coverage can save you thousands of dollars."],
+          "A [Medigap plan](/medicare-supplement-plans/plan-g) such as Plan G covers the Part A hospital coinsurance and the Part B 20% coinsurance, significantly reducing your out-of-pocket costs for both the surgery and your recovery. Because knee replacement involves both inpatient and outpatient costs, Medigap coverage can save you thousands of dollars."],
       }],
     faqs: [
       {
@@ -17759,7 +17759,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Helps with Cost-Sharing",
         coverageType: "covered",
         paragraphs: [
-          "A [Medigap plan](/medicare-supplements/plan-g) does not expand which podiatry services are covered, but it pays your cost-sharing for any visit that Original Medicare approves. [Plan G](/medicare-supplements/plan-g) covers the Part B 20% coinsurance, reducing your out-of-pocket cost to $0 after the deductible."],
+          "A [Medigap plan](/medicare-supplement-plans/plan-g) does not expand which podiatry services are covered, but it pays your cost-sharing for any visit that Original Medicare approves. [Plan G](/medicare-supplement-plans/plan-g) covers the Part B 20% coinsurance, reducing your out-of-pocket cost to $0 after the deductible."],
       }],
     faqs: [
       {
@@ -17871,7 +17871,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "No Cost-Sharing Needed",
         coverageType: "covered",
         paragraphs: [
-          "Because the hepatitis C screening itself has no cost-sharing under Original Medicare, a [Medigap plan](/medicare-supplements/plan-g) is not needed to cover the screening. However, if a positive result leads to follow-up diagnostic tests or treatment, Medigap can help cover the Part B coinsurance for those services."],
+          "Because the hepatitis C screening itself has no cost-sharing under Original Medicare, a [Medigap plan](/medicare-supplement-plans/plan-g) is not needed to cover the screening. However, if a positive result leads to follow-up diagnostic tests or treatment, Medigap can help cover the Part B coinsurance for those services."],
       }],
     faqs: [
       {
@@ -17983,7 +17983,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Helps with Cost-Sharing",
         coverageType: "covered",
         paragraphs: [
-          "A [Medigap plan](/medicare-supplements/plan-g) such as Plan G covers the Part B 20% coinsurance for outpatient mental health visits and the Part A inpatient cost-sharing for psychiatric stays. This can significantly reduce your out-of-pocket costs if you require ongoing therapy or an inpatient admission."],
+          "A [Medigap plan](/medicare-supplement-plans/plan-g) such as Plan G covers the Part B 20% coinsurance for outpatient mental health visits and the Part A inpatient cost-sharing for psychiatric stays. This can significantly reduce your out-of-pocket costs if you require ongoing therapy or an inpatient admission."],
       }],
     faqs: [
       {
@@ -18095,7 +18095,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "No Cost-Sharing Needed",
         coverageType: "covered",
         paragraphs: [
-          "Because the Annual Wellness Visit has no cost-sharing under Original Medicare, a [Medigap plan](/medicare-supplements/plan-g) is not needed to cover the visit itself. However, if additional services are performed during the same appointment, Medigap can help cover the Part B coinsurance for those services."],
+          "Because the Annual Wellness Visit has no cost-sharing under Original Medicare, a [Medigap plan](/medicare-supplement-plans/plan-g) is not needed to cover the visit itself. However, if additional services are performed during the same appointment, Medigap can help cover the Part B coinsurance for those services."],
       }],
     faqs: [
       {
@@ -18207,7 +18207,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Helps with Cost-Sharing",
         coverageType: "covered",
         paragraphs: [
-          "Because MNT is covered at $0 under Original Medicare for qualifying conditions, a [Medigap plan](/medicare-supplements/plan-g) is generally not needed for this service. If additional nutrition-related services are billed separately and subject to Part B cost-sharing, Medigap can cover the 20% coinsurance."],
+          "Because MNT is covered at $0 under Original Medicare for qualifying conditions, a [Medigap plan](/medicare-supplement-plans/plan-g) is generally not needed for this service. If additional nutrition-related services are billed separately and subject to Part B cost-sharing, Medigap can cover the 20% coinsurance."],
       }],
     faqs: [
       {
@@ -18318,7 +18318,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Limited",
         coverageType: "partial",
         paragraphs: [
-          "Federal law does not require insurers to sell [Medigap plans](/medicare-supplements/plan-g) to Medicare beneficiaries under age 65. However, some states - including California, Colorado, Connecticut, Florida, Georgia, Hawaii, Illinois, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, New Hampshire, New Jersey, New York, North Carolina, Oklahoma, Oregon, Pennsylvania, South Dakota, Texas, Virginia, and Wisconsin - require insurers to offer at least some Medigap plans to under-65 beneficiaries. Premiums are typically higher than for age-65 enrollees."],
+          "Federal law does not require insurers to sell [Medigap plans](/medicare-supplement-plans/plan-g) to Medicare beneficiaries under age 65. However, some states - including California, Colorado, Connecticut, Florida, Georgia, Hawaii, Illinois, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, New Hampshire, New Jersey, New York, North Carolina, Oklahoma, Oregon, Pennsylvania, South Dakota, Texas, Virginia, and Wisconsin - require insurers to offer at least some Medigap plans to under-65 beneficiaries. Premiums are typically higher than for age-65 enrollees."],
       }],
     faqs: [
       {
@@ -18653,7 +18653,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Helps with Cost-Sharing",
         coverageType: "covered",
         paragraphs: [
-          "A [Medigap plan](/medicare-supplements/plan-g) such as Plan G covers the Part B 20% coinsurance for Botox injections when they are covered by Original Medicare. If you receive Botox regularly for a chronic condition such as migraines, Medigap can meaningfully reduce your out-of-pocket costs over time."],
+          "A [Medigap plan](/medicare-supplement-plans/plan-g) such as Plan G covers the Part B 20% coinsurance for Botox injections when they are covered by Original Medicare. If you receive Botox regularly for a chronic condition such as migraines, Medigap can meaningfully reduce your out-of-pocket costs over time."],
       }],
     faqs: [
       {
@@ -30345,7 +30345,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "Medicare Supplement (Medigap) plans are sold by private insurers but work very differently from Medicare Advantage. Instead of replacing Original Medicare, Medigap plans supplement it - they pay the cost-sharing gaps (deductibles, coinsurance, copayments) that Original Medicare leaves behind.",
           "You cannot have both a Medicare Advantage plan and a Medigap plan at the same time. Medigap only works with Original Medicare. If you choose the Original Medicare + Medigap route, you keep all the benefits of Original Medicare (nationwide access, no networks, no referrals) while gaining financial protection against high out-of-pocket costs.",
-          "The most popular Medigap plan in 2026 is [Plan G](/medicare-supplements/), which covers everything except the annual Part B deductible ($283). This means your total annual out-of-pocket exposure with Plan G is just $283 plus your monthly premiums - far more predictable than either Original Medicare alone or Medicare Advantage."],
+          "The most popular Medigap plan in 2026 is [Plan G](/medicare-supplement-plans/), which covers everything except the annual Part B deductible ($283). This means your total annual out-of-pocket exposure with Plan G is just $283 plus your monthly premiums - far more predictable than either Original Medicare alone or Medicare Advantage."],
         callout: {
           type: "info",
           title: "Medigap vs. Medicare Advantage - You Must Choose",

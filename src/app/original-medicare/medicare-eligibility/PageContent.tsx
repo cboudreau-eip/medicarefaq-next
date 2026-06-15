@@ -158,7 +158,7 @@ export default function MedicareEligibility() {
               </div>
             </div>
             <p className="text-gray-700">
-              People under 65 with Medicare due to disability can add a <Link href="/medicare-supplements" className="text-[#0D9488] hover:underline">Medicare Supplement (Medigap) plan</Link>, though federal law does not require insurers to sell Medigap to people under 65. Some states have additional protections — check your state's rules.
+              People under 65 with Medicare due to disability can add a <Link href="/medicare-supplement-plans" className="text-[#0D9488] hover:underline">Medicare Supplement (Medigap) plan</Link>, though federal law does not require insurers to sell Medigap to people under 65. Some states have additional protections — check your state's rules.
             </p>
           </section>
 

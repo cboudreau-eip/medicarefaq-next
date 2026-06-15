@@ -71,7 +71,7 @@ const faqs = [
     a: (
       <>
         You must be enrolled in Medicare Part A and Part B, live in the plan&apos;s service area, and not have End-Stage Renal Disease (with some exceptions). You cannot have both Medicare Advantage and{" "}
-        <Link href="/medicare-supplements" className="text-teal-700 underline hover:text-teal-900">
+        <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">
           Medigap
         </Link>{" "}
         coverage simultaneously. For complete eligibility details, see our{" "}
@@ -389,7 +389,7 @@ export default function PageContent() {
                       <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Limited to provider networks (except emergencies)</li>
                       <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> May need referrals to see specialists</li>
                       <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Plan networks and benefits can change annually</li>
-                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Less flexibility than Original Medicare + <Link href="/medicare-supplements" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></li>
+                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Less flexibility than Original Medicare + <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></li>
                       <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Prior authorization may be required for some services</li>
                     </ul>
                   </div>
@@ -497,7 +497,7 @@ export default function PageContent() {
                     <ul className="space-y-1.5 text-sm text-blue-800">
                       <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Want maximum flexibility to see any provider</li>
                       <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Travel frequently or live in multiple states</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Are willing to pay for <Link href="/medicare-supplements" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Are willing to pay for <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></li>
                     </ul>
                   </div>
                 </div>

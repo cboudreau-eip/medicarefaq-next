@@ -229,7 +229,7 @@ export default function PageContent() {
                   Note: Medicare Open Enrollment is different from the{" "}
                   <Link href="/enrollment/turning-65" className="text-teal-700 underline hover:text-teal-900">Initial Enrollment Period</Link>{" "}
                   (when you first become eligible for Medicare at 65) and the{" "}
-                  <Link href="/medicare-supplements" className="text-teal-700 underline hover:text-teal-900">Medigap Open Enrollment Period</Link>{" "}
+                  <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap Open Enrollment Period</Link>{" "}
                   (for purchasing supplemental insurance).
                 </p>
               </section>

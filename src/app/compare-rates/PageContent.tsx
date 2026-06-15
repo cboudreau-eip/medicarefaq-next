@@ -226,7 +226,7 @@ export default function PageContent() {
           <div className="grid md:grid-cols-4 gap-4 mb-16">
             {[
               { title: "Original Medicare", href: "/original-medicare", icon: Shield, color: "text-blue-600" },
-              { title: "Medicare Supplement", href: "/medicare-supplements", icon: Shield, color: "text-teal-600" },
+              { title: "Medicare Supplement", href: "/medicare-supplement-plans", icon: Shield, color: "text-teal-600" },
               { title: "Medicare Advantage", href: "/medicare-part-c/medicare-advantage-plans", icon: Heart, color: "text-teal-600" },
               { title: "Part D Drug Plans", href: "/original-medicare/medicare-parts/medicare-part-d", icon: Pill, color: "text-purple-600" },
             ].map((link, i) => (

@@ -53,7 +53,7 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Can I enroll in Medicare and a supplement plan at the same time?",
-    a: <>You can apply for both at the same time, but your <Link href="/medicare-supplements" className="text-teal-700 underline font-semibold hover:text-teal-900">Medigap coverage</Link> won&apos;t start until your Part B is effective. Many people apply for both during their IEP so everything is ready to go when their Medicare starts. A licensed agent can help coordinate the timing.</>,
+    a: <>You can apply for both at the same time, but your <Link href="/medicare-supplement-plans" className="text-teal-700 underline font-semibold hover:text-teal-900">Medigap coverage</Link> won&apos;t start until your Part B is effective. Many people apply for both during their IEP so everything is ready to go when their Medicare starts. A licensed agent can help coordinate the timing.</>,
   },
   {
     q: "Do I need to enroll in Medicare if I have VA benefits?",
@@ -150,7 +150,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   Medicare Enrollment Overview
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Enrolling in Medicare involves several separate steps depending on which coverage you want. <strong><Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A & B)</strong> is enrolled through Social Security, while <strong><Link href="/medicare-part-c/medicare-advantage-plans" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage</Link></strong>, <strong><Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">Part D</Link></strong>, and <strong><Link href="/medicare-supplements" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></strong> plans are enrolled through private insurance companies.
+                  Enrolling in Medicare involves several separate steps depending on which coverage you want. <strong><Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A & B)</strong> is enrolled through Social Security, while <strong><Link href="/medicare-part-c/medicare-advantage-plans" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage</Link></strong>, <strong><Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">Part D</Link></strong>, and <strong><Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></strong> plans are enrolled through private insurance companies.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   This guide covers the enrollment process for each type of coverage, the documents you'll need, and all the ways you can sign up.
@@ -537,7 +537,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly penalties</p>
                 </Link>
-                <Link href="/medicare-supplements" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
+                <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
                   <Shield className="w-5 h-5 text-teal-600 mb-2" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Compare Plans</h3>
                   <p className="text-xs text-slate-500">Side-by-side plan comparison</p>

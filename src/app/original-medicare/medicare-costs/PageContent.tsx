@@ -139,7 +139,7 @@ export default function MedicareCosts() {
             <Link href="/original-medicare/medicare-parts/medicare-part-b" className="hover:underline">Medicare Part B Cost</Link>
           </h2>
           <p className="text-gray-700 mb-4">
-            The standard 2026 Part B premium is <strong>$202.90/month</strong>. After meeting the <strong>$283 annual deductible</strong>, Medicare pays 80% of covered services and you pay 20% — with no out-of-pocket cap. This 20% coinsurance is unlimited, which is why many beneficiaries add a <Link href="/medicare-supplements" className="text-[#0D9488] hover:underline">Medigap supplement plan</Link>.
+            The standard 2026 Part B premium is <strong>$202.90/month</strong>. After meeting the <strong>$283 annual deductible</strong>, Medicare pays 80% of covered services and you pay 20% — with no out-of-pocket cap. This 20% coinsurance is unlimited, which is why many beneficiaries add a <Link href="/medicare-supplement-plans" className="text-[#0D9488] hover:underline">Medigap supplement plan</Link>.
           </p>
         </section>
 
@@ -161,7 +161,7 @@ export default function MedicareCosts() {
           <div className="bg-[#1B2A4A] text-white rounded-2xl p-8">
             <h2 className="text-xl font-bold mb-3">Lower Your Medicare Out-of-Pocket Costs</h2>
             <p className="text-blue-100 mb-4">
-              A <Link href="/medicare-supplements" className="text-teal-300 hover:text-white underline">Medicare Supplement (Medigap) plan</Link> can cover most or all of Medicare's cost-sharing, giving you predictable costs for a monthly premium. <Link href="/medicare-supplements/plan-g" className="text-teal-300 hover:text-white underline">Plan G</Link> is the most popular choice in 2026.
+              A <Link href="/medicare-supplement-plans" className="text-teal-300 hover:text-white underline">Medicare Supplement (Medigap) plan</Link> can cover most or all of Medicare's cost-sharing, giving you predictable costs for a monthly premium. <Link href="/medicare-supplement-plans/plan-g" className="text-teal-300 hover:text-white underline">Plan G</Link> is the most popular choice in 2026.
             </p>
             <ZipFormModal
               coverageType="ms"

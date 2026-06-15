@@ -26,12 +26,12 @@ const footerColumns = [
     links: [
       { label: "Compare Medicare Plans", href: "/medicare-plans" },
       { label: "Original Medicare", href: "/original-medicare" },
-      { label: "Medicare Supplement", href: "/medicare-supplements" },
+      { label: "Medicare Supplement", href: "/medicare-supplement-plans" },
       { label: "Medicare Advantage", href: "/medicare-part-c/medicare-advantage-plans" },
       { label: "Part D (Rx Plans)", href: "/original-medicare/medicare-parts/medicare-part-d" },
-      { label: "Compare All Plans", href: "/medicare-supplements" },
+      { label: "Compare All Plans", href: "/medicare-supplement-plans" },
       { label: "Medicare Costs", href: "/medicare-plans/costs" },
-      { label: "Supplement Plans 2026", href: "/medicare-supplements/medicare-supplement-plans-2026" },
+      { label: "Supplement Plans 2026", href: "/medicare-supplement-plans/medicare-supplement-plans-2026" },
     ],
   },
   {
