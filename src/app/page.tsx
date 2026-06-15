@@ -16,12 +16,14 @@ export const metadata: Metadata = {
   title: "MedicareFAQ | Your Supplemental Medicare Resource Center",
   description:
     "MedicareFAQ specializes in supplemental Medicare insurance. We make Medicare plans easy to understand, as well as easy to enroll.",
+  alternates: { canonical: "https://www.medicarefaq.com/" },
   openGraph: {
     title: "MedicareFAQ | Your Supplemental Medicare Resource Center",
     description:
       "MedicareFAQ specializes in supplemental Medicare insurance. We make Medicare plans easy to understand, as well as easy to enroll.",
     url: "https://www.medicarefaq.com/",
     type: "website",
+    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg", width: 1200, height: 630, alt: "MedicareFAQ" }],
   },
 };
 
