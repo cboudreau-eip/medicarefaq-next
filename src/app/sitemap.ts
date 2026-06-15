@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
-const lastModified = new Date("2026-04-09");
+const lastModified = new Date("2026-06-15");
 
 /**
  * Sitemap Index — lists all sub-sitemaps.

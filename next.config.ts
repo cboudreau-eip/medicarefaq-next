@@ -172,6 +172,21 @@ const nextConfig: NextConfig = {
       // ── High-deductible plan slug corrections ──
       { source: "/medicare-supplement-plans/plan-high-deductible-f", destination: "/medicare-supplement-plans/high-deductible-plan-f", permanent: true },
       { source: "/medicare-supplement-plans/plan-high-deductible-g", destination: "/medicare-supplement-plans/high-deductible-plan-g", permanent: true },
+
+      // ── Old top-level URLs → new site structure ──
+      { source: "/what-is-medicare", destination: "/medicare-101", permanent: true },
+      { source: "/what-is-medicare-part-a", destination: "/original-medicare/medicare-parts/medicare-part-a", permanent: true },
+      { source: "/what-is-medicare-part-b", destination: "/original-medicare/medicare-parts/medicare-part-b", permanent: true },
+      { source: "/what-is-medicare-part-c", destination: "/medicare-part-c/medicare-advantage-plans", permanent: true },
+      { source: "/what-is-medicare-part-d", destination: "/original-medicare/medicare-parts/medicare-part-d", permanent: true },
+      { source: "/medicare-part-d", destination: "/original-medicare/medicare-parts/medicare-part-d", permanent: true },
+      { source: "/medicare-enrollment/annual-enrollment-period", destination: "/medicare-enrollment", permanent: true },
+      { source: "/medicare-enrollment/open-enrollment-period", destination: "/medicare-enrollment", permanent: true },
+      { source: "/medigap", destination: "/medicare-supplement-plans", permanent: true },
+      { source: "/medicare-costs", destination: "/new-to-medicare/costs", permanent: true },
+      { source: "/medicare-eligibility", destination: "/new-to-medicare/eligibility", permanent: true },
+      { source: "/turning-65", destination: "/new-to-medicare/turning-65", permanent: true },
+      { source: "/medicare-supplement-insurance", destination: "/medicare-supplement-plans", permanent: true },
     ];
   },
   async headers() {
