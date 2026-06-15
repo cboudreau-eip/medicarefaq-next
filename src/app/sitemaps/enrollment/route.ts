@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicarefaq.com";
-const lastModified = new Date("2026-04-09").toISOString();
+const lastModified = new Date("2026-06-15").toISOString();
 
 type SitemapEntry = {
   url: string;
