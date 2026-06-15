@@ -43,7 +43,7 @@ const footerColumns = [
       { label: "Annual Changes", href: "/medicare-enrollment/annual-changes" },
       { label: "Late Penalties", href: "/medicare-enrollment/late-penalties" },
       { label: "How to Enroll", href: "/medicare-enrollment/how-to-enroll" },
-      { label: "Enrollment Overview", href: "/enrollment" },
+      { label: "Enrollment Overview", href: "/medicare-enrollment/turning-65" },
       { label: "Enrollment Timeline", href: "/tools/enrollment-timeline" },
     ],
   },
