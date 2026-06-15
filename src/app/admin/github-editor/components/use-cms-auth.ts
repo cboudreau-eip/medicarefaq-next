@@ -7,8 +7,15 @@ const TOKEN_KEY = "cms_password"; // kept for backward compatibility; now holds 
 export interface LoginResult {
   success: boolean;
   error: string;
-  /** When true, the password was accepted but a 6-digit 2FA code is required. */
+  /** When true, the credentials were accepted but a 6-digit 2FA code is required. */
   totpRequired?: boolean;
+}
+
+export interface LoginCredentials {
+  username?: string;
+  password: string;
+  /** Optional 6-digit TOTP code or backup recovery code. */
+  code?: string;
 }
 
 export function useCMSAuth() {
@@ -30,21 +37,30 @@ export function useCMSAuth() {
 
   /**
    * Attempt to log in.
-   * @param inputPassword The admin password (factor 1).
-   * @param code Optional 6-digit TOTP code or backup recovery code (factor 2).
+   * Accepts either a credentials object `{ username?, password, code? }` or, for
+   * backward compatibility, a plain password string plus optional code.
    *
    * Returns `{ success, error, totpRequired }`. When `totpRequired` is true the
-   * password was accepted but the UI must collect a 2FA code and call again.
+   * credentials were accepted but the UI must collect a 2FA code and call again.
    */
   const login = useCallback(
-    async (inputPassword: string, code?: string): Promise<LoginResult> => {
+    async (
+      credentialsOrPassword: LoginCredentials | string,
+      code?: string
+    ): Promise<LoginResult> => {
+      const creds: LoginCredentials =
+        typeof credentialsOrPassword === "string"
+          ? { password: credentialsOrPassword, code }
+          : credentialsOrPassword;
+      const inputPassword = creds.password;
       try {
+        const payload: Record<string, string> = { password: creds.password };
+        if (creds.username) payload.username = creds.username;
+        if (creds.code) payload.code = creds.code;
         const res = await fetch("/api/cms/auth", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(
-            code ? { password: inputPassword, code } : { password: inputPassword }
-          ),
+          body: JSON.stringify(payload),
         });
 
         const data = await res.json().catch(() => ({}));

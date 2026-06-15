@@ -19,6 +19,9 @@ import * as OTPAuth from "otpauth";
  */
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
+// Optional shared username. When unset, login is password-only (legacy behavior)
+// and the username field is ignored — so nothing breaks until it is configured.
+const CMS_USERNAME = (process.env.CMS_ADMIN_USERNAME ?? "").trim();
 const TOTP_ENABLED = (process.env.TOTP_ENABLED ?? "").toLowerCase() === "true";
 const TOTP_SECRET = process.env.TOTP_SECRET ?? "";
 const BACKUP_HASHES = (process.env.TOTP_BACKUP_HASHES ?? "")
@@ -37,6 +40,22 @@ export function isTotpEnabled(): boolean {
 
 export function isPasswordConfigured(): boolean {
   return !!CMS_PASSWORD;
+}
+
+/** Whether a shared username is configured (enables the username field). */
+export function isUsernameEnabled(): boolean {
+  return !!CMS_USERNAME;
+}
+
+/**
+ * Verify the username (case-insensitive, trimmed).
+ * If no username is configured, this always returns true so the system
+ * remains backward compatible with the password-only flow.
+ */
+export function verifyUsername(username: string): boolean {
+  if (!CMS_USERNAME) return true; // username not enabled -> accept anything
+  const clean = (username || "").trim().toLowerCase();
+  return safeEqual(clean, CMS_USERNAME.toLowerCase());
 }
 
 /** Constant-time string comparison. */

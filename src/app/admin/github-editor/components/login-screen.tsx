@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { Lock, Loader2, AlertCircle, Pencil, ShieldCheck, ArrowLeft } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Lock, Loader2, AlertCircle, Pencil, ShieldCheck, ArrowLeft, User } from "lucide-react";
 import "../sketch-theme.css";
 
 interface LoginResult {
@@ -10,28 +10,59 @@ interface LoginResult {
   totpRequired?: boolean;
 }
 
+interface LoginCredentials {
+  username?: string;
+  password: string;
+  code?: string;
+}
+
 interface LoginScreenProps {
-  onLogin: (password: string, code?: string) => Promise<LoginResult>;
+  // Backward compatible: accepts either a credentials object or a plain password.
+  onLogin: (
+    credentialsOrPassword: LoginCredentials | string,
+    code?: string
+  ) => Promise<LoginResult>;
 }
 
 const sketchBorder = "255px 15px 225px 15px / 15px 225px 15px 255px";
 
 export default function LoginScreen({ onLogin }: LoginScreenProps) {
   const [step, setStep] = useState<"password" | "code">("password");
+  const [usernameInput, setUsernameInput] = useState("");
+  const [usernameRequired, setUsernameRequired] = useState(false);
   const [passwordInput, setPasswordInput] = useState("");
   const [codeInput, setCodeInput] = useState("");
   const [useBackup, setUseBackup] = useState(false);
   const [authError, setAuthError] = useState("");
   const [authLoading, setAuthLoading] = useState(false);
 
+  // Ask the server whether a username field should be shown.
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/api/cms/auth")
+      .then((r) => r.json())
+      .then((d) => {
+        if (!cancelled) setUsernameRequired(!!d?.usernameRequired);
+      })
+      .catch(() => {
+        /* leave username hidden on error */
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const handlePasswordSubmit = async () => {
     setAuthError("");
     setAuthLoading(true);
     try {
-      const result = await onLogin(passwordInput);
+      const result = await onLogin({
+        username: usernameRequired ? usernameInput.trim() : undefined,
+        password: passwordInput,
+      });
       if (result.success) return;
       if (result.totpRequired) {
-        // Password accepted; advance to the 2FA code step.
+        // Credentials accepted; advance to the 2FA code step.
         setStep("code");
         setAuthError("");
       } else {
@@ -46,7 +77,11 @@ export default function LoginScreen({ onLogin }: LoginScreenProps) {
     setAuthError("");
     setAuthLoading(true);
     try {
-      const result = await onLogin(passwordInput, codeInput.trim());
+      const result = await onLogin({
+        username: usernameRequired ? usernameInput.trim() : undefined,
+        password: passwordInput,
+        code: codeInput.trim(),
+      });
       if (!result.success) {
         setAuthError(result.error || "Invalid 2FA code. Try again.");
       }
@@ -61,6 +96,9 @@ export default function LoginScreen({ onLogin }: LoginScreenProps) {
     setUseBackup(false);
     setAuthError("");
   };
+
+  const passwordStepDisabled =
+    authLoading || !passwordInput.trim() || (usernameRequired && !usernameInput.trim());
 
   return (
     <div
@@ -96,12 +134,42 @@ export default function LoginScreen({ onLogin }: LoginScreenProps) {
                 ? useBackup
                   ? "Enter a backup recovery code"
                   : "Enter the 6-digit code from your authenticator app"
+                : usernameRequired
+                ? "Sign in to continue"
                 : "Enter your password to continue"}
             </p>
           </div>
 
           {step === "password" ? (
             <div className="space-y-4">
+              {usernameRequired && (
+                <div>
+                  <label
+                    className="block text-sm text-[#555555] mb-1.5"
+                    style={{ fontFamily: "'Patrick Hand', cursive" }}
+                  >
+                    Username
+                  </label>
+                  <div className="relative">
+                    <User
+                      className="w-4 h-4 text-[#9a9a9a] absolute left-3.5 top-1/2 -translate-y-1/2"
+                      style={{ strokeWidth: 2.4 }}
+                    />
+                    <input
+                      type="text"
+                      autoComplete="username"
+                      value={usernameInput}
+                      onChange={(e) => setUsernameInput(e.target.value)}
+                      onKeyDown={(e) => e.key === "Enter" && handlePasswordSubmit()}
+                      placeholder="Enter username..."
+                      className="w-full text-base pl-10 pr-4 py-3 bg-white border-[2.5px] border-[#2b2b2b] focus:shadow-[3px_3px_0_#2b2b2b] focus:outline-none transition-all placeholder:text-[#9a9a9a]"
+                      style={{ borderRadius: sketchBorder, fontFamily: "'Patrick Hand', cursive" }}
+                      autoFocus
+                    />
+                  </div>
+                </div>
+              )}
+
               <div>
                 <label
                   className="block text-sm text-[#555555] mb-1.5"
@@ -111,13 +179,14 @@ export default function LoginScreen({ onLogin }: LoginScreenProps) {
                 </label>
                 <input
                   type="password"
+                  autoComplete="current-password"
                   value={passwordInput}
                   onChange={(e) => setPasswordInput(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && handlePasswordSubmit()}
                   placeholder="Enter admin password..."
                   className="w-full text-base px-4 py-3 bg-white border-[2.5px] border-[#2b2b2b] focus:shadow-[3px_3px_0_#2b2b2b] focus:outline-none transition-all placeholder:text-[#9a9a9a]"
                   style={{ borderRadius: sketchBorder, fontFamily: "'Patrick Hand', cursive" }}
-                  autoFocus
+                  autoFocus={!usernameRequired}
                 />
               </div>
 
@@ -133,7 +202,7 @@ export default function LoginScreen({ onLogin }: LoginScreenProps) {
 
               <button
                 onClick={handlePasswordSubmit}
-                disabled={authLoading || !passwordInput.trim()}
+                disabled={passwordStepDisabled}
                 className="w-full flex items-center justify-center gap-2 text-base font-bold bg-[#7ed957] text-[#2b2b2b] px-4 py-3 border-[2.5px] border-[#2b2b2b] hover:shadow-[3px_3px_0_#2b2b2b] hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:hover:shadow-none disabled:hover:translate-y-0"
                 style={{ borderRadius: sketchBorder, fontFamily: "'Patrick Hand', cursive" }}
               >
