@@ -113,13 +113,25 @@ export default function MedicareAdvantage() {
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-blue-400 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-teal-400">Medicare Advantage</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-400 mb-6 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li>
+                <span className="text-slate-400">Medicare Plans</span>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-teal-400">Medicare Advantage</span>
+              </li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-teal-600/20 rounded-xl flex items-center justify-center">
               <Heart className="w-6 h-6 text-teal-400" aria-hidden="true" />
@@ -161,14 +173,18 @@ export default function MedicareAdvantage() {
             <aside className="hidden lg:block w-64 shrink-0">
               <div className="sticky top-28">
                 <p className="text-xs font-bold text-teal-700 uppercase tracking-wider mb-4">In This Guide</p>
-                <nav className="space-y-1">
-                  {tableOfContents.map((item) => (
-                    <a key={item.id} href={`#${item.id}`}
-                      className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
-                        activeSection === item.id ? "bg-teal-50 text-teal-700 font-semibold" : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
-                      }`}
-                    >{item.label}</a>
-                  ))}
+                <nav aria-label="Table of contents">
+                  <ul className="space-y-1 list-none">
+                    {tableOfContents.map((item) => (
+                      <li key={item.id}>
+                        <a href={`#${item.id}`}
+                          className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
+                            activeSection === item.id ? "bg-teal-50 text-teal-700 font-semibold" : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
+                          }`}
+                        >{item.label}</a>
+                      </li>
+                    ))}
+                  </ul>
                 </nav>
                 <div className="mt-8 p-4 bg-blue-50 rounded-xl border border-blue-100">
                   <p className="text-sm font-semibold text-blue-900 mb-1">Need Help?</p>
@@ -185,17 +201,17 @@ export default function MedicareAdvantage() {
             <div className="flex-1 min-w-0 max-w-3xl">
 
               {/* Key Takeaways */}
-              <div className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
+              <aside aria-label="Key Takeaways" className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
                 <div className="flex items-center gap-2 mb-3">
                   <Lightbulb className="w-5 h-5 text-teal-700" aria-hidden="true" />
                   <h3 className="font-bold text-teal-900 text-sm uppercase tracking-wider">Key Takeaways</h3>
                 </div>
-                <ul className="space-y-2">
+                <ul className="space-y-2 list-none">
                   {[
-                    (<>Medicare Part C, also called Medicare Advantage, is a private insurance alternative to Original Medicare that includes <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-teal-700 underline hover:text-teal-900">Parts A</Link> and <Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-teal-700 underline hover:text-teal-900">B</Link> coverage.</>),
+                    (<><strong>Medicare Part C</strong>, also called <strong>Medicare Advantage</strong>, is a private insurance alternative to Original Medicare that includes <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-teal-700 underline hover:text-teal-900">Parts A</Link> and <Link href="/original-medicare/medicare-parts/medicare-part-b" className="text-teal-700 underline hover:text-teal-900">B</Link> coverage.</>),
                     "These plans often include prescription drug coverage and extra benefits like dental, vision, and hearing aids.",
                     "You must have Medicare Parts A and B and live in the plan's service area to enroll.",
-                    (<>Medicare Advantage plans have provider networks and may require referrals for specialists, but offer out-of-pocket maximums that <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> lacks.</>),
+                    (<>Medicare Advantage plans have provider networks and may require referrals for specialists, but offer <strong>out-of-pocket maximums</strong> that <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> lacks.</>),
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-teal-800">
                       <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" />
@@ -203,7 +219,7 @@ export default function MedicareAdvantage() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </aside>
 
               {/* Overview — Merged "What is Part C?" + "What Is Medicare Advantage?" */}
               <section id="overview" className="mb-16">
@@ -214,7 +230,7 @@ export default function MedicareAdvantage() {
                   <strong>Medicare Part C</strong> is the official designation from the Centers for Medicare &amp; Medicaid Services (CMS) for what most people know as <strong>Medicare Advantage</strong>. This name comes from the original Medicare legislation that created different parts of the Medicare program. Part C and Medicare Advantage are the same thing, and both terms are used interchangeably.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Medicare Advantage is a private insurance alternative to <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A and B). Instead of getting your Medicare benefits directly from the federal government, you receive them through a private insurance company that contracts with Medicare. These companies must cover everything Original Medicare covers, but they often add extra benefits like <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">prescription drug coverage</Link>, dental care, vision services, or wellness programs.
+                  <strong>Medicare Advantage</strong> is a private insurance alternative to <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A and B). Instead of getting your Medicare benefits directly from the federal government, you receive them through a private insurance company that contracts with Medicare. These companies must cover everything Original Medicare covers, but they often add extra benefits like <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">prescription drug coverage</Link>, dental care, vision services, or wellness programs.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   The trade-off is that Medicare Advantage plans typically use provider networks and may require referrals to see specialists. You&apos;ll need to use doctors and hospitals within your plan&apos;s network for most services, unlike Original Medicare which lets you see any provider that accepts Medicare.
@@ -239,18 +255,18 @@ export default function MedicareAdvantage() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   Types of Medicare Advantage Plans
                 </h2>
-                <div className="space-y-4 mb-8">
+                <ul className="space-y-4 mb-8 list-none">
                   {planTypes.map((plan, i) => (
-                    <div key={i} className={`p-5 rounded-xl border ${plan.popular ? "border-teal-200 bg-teal-50/30" : "border-slate-200 bg-white"}`}>
+                    <li key={i} className={`p-5 rounded-xl border ${plan.popular ? "border-teal-200 bg-teal-50/30" : "border-slate-200 bg-white"}`}>
                       <div className="flex items-center gap-3 mb-2">
                         <span className={`text-lg font-bold ${plan.popular ? "text-teal-700" : "text-slate-700"}`}>{plan.name}</span>
                         <span className="text-sm text-slate-500">({plan.full})</span>
                         {plan.popular && <span className="text-xs font-semibold bg-teal-100 text-teal-700 px-2 py-0.5 rounded-full">Popular</span>}
                       </div>
                       <p className="text-sm text-slate-600">{plan.desc}</p>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
 
                 {/* Expanded SNP Subsection */}
                 <div className="bg-slate-50 rounded-xl border border-slate-200 p-6">
@@ -258,22 +274,22 @@ export default function MedicareAdvantage() {
                     Special Needs Plans (SNPs): A Closer Look
                   </h3>
                   <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                    Special Needs Plans serve three distinct groups of Medicare beneficiaries with specialized healthcare needs.
+                    <strong>Special Needs Plans</strong> serve three distinct groups of Medicare beneficiaries with specialized healthcare needs.
                   </p>
-                  <div className="space-y-4">
-                    <div className="p-4 bg-white rounded-lg border border-slate-100">
+                  <ul className="space-y-4 list-none">
+                    <li className="p-4 bg-white rounded-lg border border-slate-100">
                       <h4 className="font-semibold text-slate-900 mb-1">Dual Eligible Special Needs Plans (D-SNPs)</h4>
                       <p className="text-sm text-slate-600">Designed for people who qualify for both Medicare and Medicaid. These are the fastest-growing type of Medicare Advantage plan. D-SNPs coordinate benefits between both programs and often provide additional services like transportation to medical appointments or help with daily living activities.</p>
-                    </div>
-                    <div className="p-4 bg-white rounded-lg border border-slate-100">
+                    </li>
+                    <li className="p-4 bg-white rounded-lg border border-slate-100">
                       <h4 className="font-semibold text-slate-900 mb-1">Chronic Condition Special Needs Plans (C-SNPs)</h4>
                       <p className="text-sm text-slate-600">Serve people with specific serious or disabling chronic conditions. These include diabetes, end-stage renal disease (ESRD), chronic heart failure, dementia, severe hematologic disorders, HIV/AIDS, chronic lung disorders, and certain cardiovascular disorders. To enroll, you must have a confirmed diagnosis of one of the qualifying conditions.</p>
-                    </div>
-                    <div className="p-4 bg-white rounded-lg border border-slate-100">
+                    </li>
+                    <li className="p-4 bg-white rounded-lg border border-slate-100">
                       <h4 className="font-semibold text-slate-900 mb-1">Institutional Special Needs Plans (I-SNPs)</h4>
                       <p className="text-sm text-slate-600">For people who live in nursing homes, skilled nursing facilities, or other long-term care institutions. They&apos;re also available for people who require an institutional level of care but live in the community. These plans coordinate care between institutional providers and community-based services.</p>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                   <p className="text-xs text-slate-500 mt-4">
                     All SNPs must demonstrate how they tailor their benefits, provider networks, and care management to meet the specific needs of their target population.
                   </p>
@@ -286,9 +302,9 @@ export default function MedicareAdvantage() {
                   Who Is Eligible for Medicare Part C?
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  To enroll in a Medicare Part C plan, you must meet several specific requirements set by Medicare.
+                  To enroll in a <strong>Medicare Part C</strong> plan, you must meet several specific requirements set by Medicare.
                 </p>
-                <div className="space-y-4 mb-6">
+                <ul className="space-y-4 mb-6 list-none">
                   {[
                     {
                       title: "Enrolled in Parts A and B",
@@ -307,15 +323,15 @@ export default function MedicareAdvantage() {
                       desc: (<>You cannot be enrolled in another Medicare Advantage plan at the same time, and you cannot have Medicare Advantage while also having a <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medicare Supplement (Medigap)</Link> policy.</>),
                     },
                   ].map((item, i) => (
-                    <div key={i} className="flex gap-4 p-5 bg-slate-50 rounded-xl border border-slate-100">
+                    <li key={i} className="flex gap-4 p-5 bg-slate-50 rounded-xl border border-slate-100">
                       <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1 text-sm">{item.title}</h3>
                         <p className="text-sm text-slate-600">{item.desc}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
                 <p className="text-sm text-slate-500">
                   If you have employer or union coverage that works with Medicare, you should check whether enrolling in Medicare Advantage affects your existing benefits before making a switch.
                 </p>
@@ -329,7 +345,7 @@ export default function MedicareAdvantage() {
                 <p className="text-slate-600 leading-relaxed mb-6">
                   Medicare Advantage plans must cover everything Original Medicare covers. Most plans also include additional benefits not available with Original Medicare:
                 </p>
-                <div className="grid sm:grid-cols-2 gap-4 mb-8">
+                <ul className="grid sm:grid-cols-2 gap-4 mb-8 list-none">
                   {[
                     { icon: Pill, title: "Prescription Drugs", desc: (<>Most MA plans include <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">Part D drug coverage</Link>, eliminating the need for a separate plan.</>) },
                     { icon: Eye, title: "Vision Care", desc: "Routine eye exams, eyeglasses, and contact lens allowances included in many plans." },
@@ -338,7 +354,7 @@ export default function MedicareAdvantage() {
                     { icon: Activity, title: "Fitness Programs", desc: "SilverSneakers or similar gym memberships included at no additional cost." },
                     { icon: Heart, title: "Wellness Programs", desc: "Telehealth, nurse hotlines, meal delivery after hospital stays, and transportation to appointments." },
                   ].map((item, i) => (
-                    <div key={i} className="flex gap-4 p-5 bg-slate-50 rounded-xl border border-slate-100">
+                    <li key={i} className="flex gap-4 p-5 bg-slate-50 rounded-xl border border-slate-100">
                       {typeof item.icon === "string" ? (
                         <span className="text-2xl">{item.icon}</span>
                       ) : (
@@ -348,15 +364,15 @@ export default function MedicareAdvantage() {
                         <h3 className="font-semibold text-slate-900 mb-1 text-sm">{item.title}</h3>
                         <p className="text-xs text-slate-600">{item.desc}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
-                <div className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl">
+                </ul>
+                <aside aria-label="Give Back Benefit tip" className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl">
                   <p className="font-semibold text-teal-900 mb-1">Give Back Benefit</p>
                   <p className="text-sm text-teal-800">
                     Some Medicare Advantage plans offer a <strong>Part B premium reduction</strong> (also called the &ldquo;<Link href="/medicare-part-c/medicare-advantage-give-back-benefit" className="text-teal-700 underline hover:text-teal-900">Give Back Benefit</Link>&rdquo;), which can reduce your monthly Part B premium by up to $202.90/month. Not all plans offer this, and availability varies by area.
                   </p>
-                </div>
+                </aside>
               </section>
 
               {/* Costs */}
@@ -400,15 +416,15 @@ export default function MedicareAdvantage() {
                   Prior Authorization in Medicare Advantage
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Prior authorization means your Medicare Advantage plan must approve certain medical services, procedures, or medications before you receive them. This requirement helps plans control costs and ensure medical necessity, but it can create delays in your care.
+                  <strong>Prior authorization</strong> means your Medicare Advantage plan must approve certain medical services, procedures, or medications before you receive them. This requirement helps plans control costs and ensure medical necessity, but it can create delays in your care.
                 </p>
 
-                <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+                <aside aria-label="Services requiring prior authorization" className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
                   <div className="flex items-center gap-2 mb-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" />
                     <h3 className="font-semibold text-amber-900 text-sm">Services That Commonly Require Prior Authorization</h3>
                   </div>
-                  <ul className="space-y-2">
+                  <ul className="space-y-2 list-none">
                     {[
                       "Non-emergency hospital admissions",
                       "Certain surgeries and procedures",
@@ -422,7 +438,7 @@ export default function MedicareAdvantage() {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </aside>
 
                 <p className="text-slate-600 leading-relaxed mb-4">
                   The process works like this: your doctor submits a request to your plan explaining why you need the service. The plan reviews the request and makes a decision within specific timeframes.
@@ -453,7 +469,7 @@ export default function MedicareAdvantage() {
                   Medicare Advantage vs. Original Medicare
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Choosing between Medicare Advantage and <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> is one of the most important decisions you&apos;ll make about your healthcare coverage. Here&apos;s how they compare across key areas:
+                  Choosing between <strong>Medicare Advantage</strong> and <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> is one of the most important decisions you&apos;ll make about your healthcare coverage. Here&apos;s how they compare across key areas:
                 </p>
                 <div className="overflow-x-auto rounded-xl border border-slate-200 mb-8">
                   <table className="w-full text-sm">
@@ -491,7 +507,7 @@ export default function MedicareAdvantage() {
                     <h3 className="font-semibold text-green-800 mb-4 flex items-center gap-2 text-lg">
                       <CheckCircle2 className="w-5 h-5" aria-hidden="true" /> Medicare Advantage Is Best If You...
                     </h3>
-                    <ul className="space-y-3">
+                    <ul className="space-y-3 list-none">
                       {[
                         "Want predictable costs with an annual out-of-pocket maximum",
                         "Value extra benefits (dental, vision, hearing, fitness)",
@@ -510,7 +526,7 @@ export default function MedicareAdvantage() {
                     <h3 className="font-semibold text-blue-800 mb-4 flex items-center gap-2 text-lg">
                       <Shield className="w-5 h-5" aria-hidden="true" /> Original Medicare Is Better If You...
                     </h3>
-                    <ul className="space-y-3">
+                    <ul className="space-y-3 list-none">
                       {[
                         "Want maximum flexibility to see any Medicare provider",
                         "Travel frequently or split time between states",
@@ -537,8 +553,8 @@ export default function MedicareAdvantage() {
                   Understanding how Medicare Advantage handles healthcare when you travel is crucial, especially if you spend time away from home or travel frequently.
                 </p>
 
-                <div className="space-y-4 mb-6">
-                  <div className="p-5 bg-green-50 rounded-xl border border-green-100">
+                <ul className="space-y-4 mb-6 list-none">
+                  <li className="p-5 bg-green-50 rounded-xl border border-green-100">
                     <div className="flex items-center gap-2 mb-2">
                       <CheckCircle2 className="w-5 h-5 text-green-600" aria-hidden="true" />
                       <h3 className="font-semibold text-green-900 text-sm">Emergency Care: Covered Nationwide</h3>
@@ -546,8 +562,8 @@ export default function MedicareAdvantage() {
                     <p className="text-sm text-green-800">
                       Medicare Advantage plans must cover emergency services anywhere in the United States. This includes emergency room visits, urgent care, and emergency ambulance services. You don&apos;t need prior authorization for true emergencies, and you can&apos;t be charged more than your plan&apos;s standard emergency care cost-sharing.
                     </p>
-                  </div>
-                  <div className="p-5 bg-amber-50 rounded-xl border border-amber-100">
+                  </li>
+                  <li className="p-5 bg-amber-50 rounded-xl border border-amber-100">
                     <div className="flex items-center gap-2 mb-2">
                       <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" />
                       <h3 className="font-semibold text-amber-900 text-sm">Routine Care: Generally Not Covered Outside Your Area</h3>
@@ -555,8 +571,8 @@ export default function MedicareAdvantage() {
                     <p className="text-sm text-amber-800">
                       Medicare Advantage plans generally do not cover routine care outside their network or service area. If you need to see a doctor for a regular check-up or ongoing condition while traveling, you&apos;ll likely pay the full cost out-of-pocket.
                     </p>
-                  </div>
-                  <div className="p-5 bg-blue-50 rounded-xl border border-blue-100">
+                  </li>
+                  <li className="p-5 bg-blue-50 rounded-xl border border-blue-100">
                     <div className="flex items-center gap-2 mb-2">
                       <Plane className="w-5 h-5 text-blue-600" aria-hidden="true" />
                       <h3 className="font-semibold text-blue-900 text-sm">International Travel: Major Limitation</h3>
@@ -564,8 +580,8 @@ export default function MedicareAdvantage() {
                     <p className="text-sm text-blue-800">
                       Most Medicare Advantage plans do not cover healthcare services outside the United States. Some plans make exceptions for emergency care in border areas or during brief trips, but coverage is limited.
                     </p>
-                  </div>
-                </div>
+                  </li>
+                </ul>
 
                 <p className="text-slate-600 leading-relaxed mb-4">
                   <Link href="/medicare-part-c/medicare-advantage-plan-types" className="text-teal-700 underline hover:text-teal-900">PPO plans</Link> offer more flexibility for travelers than HMO plans. Many Medicare Advantage PPO plans provide some coverage for out-of-network care, though you&apos;ll pay higher cost-sharing than you would for in-network services.
@@ -583,7 +599,7 @@ export default function MedicareAdvantage() {
                 <p className="text-slate-600 leading-relaxed mb-6">
                   Selecting the best Medicare Advantage plan requires evaluating several important factors that affect your healthcare experience and costs.
                 </p>
-                <div className="space-y-4">
+                <ul className="space-y-4 list-none">
                   {[
                     { icon: Stethoscope, title: "Check your providers", desc: "Start by checking whether your current doctors and preferred hospitals are in the plan's provider network. Going outside the network typically means higher expenses or no coverage at all." },
                     { icon: Pill, title: "Review the drug formulary", desc: "Review the plan's prescription drug formulary if you take medications regularly. Each plan has its own list of covered drugs, and your medications may be on different tiers with varying copayments." },
@@ -592,15 +608,15 @@ export default function MedicareAdvantage() {
                     { icon: Star, title: "Check Star Ratings", desc: "Check the plan's Star Rating, which reflects Medicare's assessment of the plan's quality and performance. Plans with higher ratings often provide better customer service and clinical outcomes." },
                     { icon: Shield, title: "Research plan stability", desc: "Research the plan's stability and history in your area. Plans that frequently change their provider networks, drug formularies, or service areas can disrupt your ongoing care." },
                   ].map((item, i) => (
-                    <div key={i} className="flex gap-4 p-5 bg-slate-50 rounded-xl border border-slate-100">
+                    <li key={i} className="flex gap-4 p-5 bg-slate-50 rounded-xl border border-slate-100">
                       <item.icon className="w-6 h-6 text-teal-600 shrink-0" />
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1 text-sm">{item.title}</h3>
                         <p className="text-sm text-slate-600">{item.desc}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* Enrollment */}
@@ -608,14 +624,14 @@ export default function MedicareAdvantage() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   When to Enroll in Medicare Advantage
                 </h2>
-                <div className="space-y-4">
+                <ul className="space-y-4 list-none">
                   {[
                     { period: (<><Link href="/medicare-enrollment/turning-65" className="text-teal-700 underline hover:text-teal-900">Initial Enrollment Period</Link> (IEP)</>), dates: "3 months before to 3 months after your 65th birthday", desc: "Your first opportunity to enroll in a Medicare Advantage plan when you're newly eligible for Medicare." },
                     { period: (<><Link href="/faqs/medicare-annual-enrollment-period/" className="text-teal-700 underline hover:text-teal-900">Annual Enrollment Period</Link> (AEP)</>), dates: "October 15 – December 7 each year", desc: "Switch between Original Medicare and Medicare Advantage, or change MA plans. Coverage starts January 1." },
                     { period: "MA Open Enrollment Period (OEP)", dates: "January 1 – March 31 each year", desc: "If you're already in an MA plan, you can switch to a different MA plan or return to Original Medicare + Part D." },
-                    { period: "Special Enrollment Period (SEP)", dates: "Varies by qualifying event", desc: "Triggered by events like moving, losing employer coverage, or qualifying for Medicaid. Allows mid-year changes." },
+                    { period: (<><strong>Special Enrollment Period (SEP)</strong></>), dates: "Varies by qualifying event", desc: "Triggered by events like moving, losing employer coverage, or qualifying for Medicaid. Allows mid-year changes." },
                   ].map((item, i) => (
-                    <div key={i} className="p-5 bg-white rounded-xl border border-slate-200">
+                    <li key={i} className="p-5 bg-white rounded-xl border border-slate-200">
                       <div className="flex items-start gap-3">
                         <Clock className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <div>
@@ -624,9 +640,9 @@ export default function MedicareAdvantage() {
                           <p className="text-sm text-slate-600">{item.desc}</p>
                         </div>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* FAQs */}

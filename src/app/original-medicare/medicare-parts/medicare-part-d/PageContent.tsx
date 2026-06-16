@@ -76,7 +76,8 @@ const faqs = [
   },
 ];
 
-export default function PartD() {  const [activeSection, setActiveSection] = useState("overview");
+export default function PartD() {
+  const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);
@@ -99,10 +100,6 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
 
   return (
     <article className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -111,13 +108,21 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-blue-400 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-teal-400">Part D</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-400 mb-6 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li aria-hidden="true"><ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" /></li>
+              <li>
+                <span className="text-slate-400">Medicare Plans</span>
+              </li>
+              <li aria-hidden="true"><ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" /></li>
+              <li aria-current="page">
+                <span className="text-teal-400">Part D</span>
+              </li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-purple-600/20 rounded-xl flex items-center justify-center">
               <Pill className="w-6 h-6 text-purple-400" aria-hidden="true" />
@@ -150,14 +155,18 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
             <aside className="hidden lg:block w-64 shrink-0">
               <div className="sticky top-28">
                 <p className="text-xs font-bold text-teal-700 uppercase tracking-wider mb-4">In This Guide</p>
-                <nav className="space-y-1">
-                  {tableOfContents.map((item) => (
-                    <a key={item.id} href={`#${item.id}`}
-                      className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
-                        activeSection === item.id ? "bg-teal-50 text-teal-700 font-semibold" : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
-                      }`}
-                    >{item.label}</a>
-                  ))}
+                <nav aria-label="Table of contents">
+                  <ul className="space-y-1 list-none">
+                    {tableOfContents.map((item) => (
+                      <li key={item.id}>
+                        <a href={`#${item.id}`}
+                          className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
+                            activeSection === item.id ? "bg-teal-50 text-teal-700 font-semibold" : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
+                          }`}
+                        >{item.label}</a>
+                      </li>
+                    ))}
+                  </ul>
                 </nav>
                 <div className="mt-8 p-4 bg-green-50 rounded-xl border border-green-100">
                   <p className="text-sm font-semibold text-green-900 mb-1">2026 Key Number</p>
@@ -181,7 +190,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                     }
                   />
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
+                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
                     <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
@@ -201,12 +210,12 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                 <p className="text-slate-600 leading-relaxed mb-8">
                   Each Part D plan has its own <strong>formulary</strong> (list of covered drugs), pharmacy network, and cost structure. Plans vary significantly in what drugs they cover and how much you pay — making it important to compare plans based on your specific medications.
                 </p>
-                <div className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl mb-8">
+                <aside aria-label="Major change: $2,000 out-of-pocket cap" className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl mb-8">
                   <p className="font-semibold text-teal-900 mb-1">Major Change: $2,000 Out-of-Pocket Cap</p>
                   <p className="text-sm text-teal-800">
                     Thanks to the <strong>Inflation Reduction Act</strong>, starting in 2025 there is a hard $2,000 annual cap on out-of-pocket spending for Part D drugs. Once you hit $2,000, you pay $0 for the rest of the year. This is a significant improvement — previously, some beneficiaries paid $10,000+ annually for medications.
                   </p>
-                </div>
+                </aside>
               </section>
 
               {/* Drug Tiers */}
@@ -215,11 +224,11 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                   Drug Tiers Explained
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Part D plans organize drugs into tiers, with lower tiers having lower costs. Your copay or coinsurance depends on which tier your medication falls into:
+                  Part D plans organize drugs into tiers, with lower tiers having lower costs. Your <strong>copay</strong> or <strong>coinsurance</strong> depends on which tier your medication falls into:
                 </p>
-                <div className="space-y-3">
+                <ul className="space-y-3 list-none">
                   {drugTiers.map((tier, i) => (
-                    <div key={i} className={`p-5 rounded-xl border ${tier.color}`}>
+                    <li key={i} className={`p-5 rounded-xl border ${tier.color}`}>
                       <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center gap-3">
                           <span className="text-sm font-bold text-slate-700">{tier.tier}</span>
@@ -228,9 +237,9 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                         <span className="text-sm font-bold text-slate-700">{tier.cost}</span>
                       </div>
                       <p className="text-sm text-slate-600">{tier.desc}</p>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* Coverage Phases */}
@@ -241,9 +250,9 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                 <p className="text-slate-600 leading-relaxed mb-6">
                   Part D coverage works in phases. As your total drug spending increases throughout the year, you move through each phase:
                 </p>
-                <div className="space-y-4">
+                <ol className="space-y-4 list-none">
                   {coveragePhases.map((phase, i) => (
-                    <div key={i} className="flex gap-4 p-5 bg-white rounded-xl border border-slate-200">
+                    <li key={i} className="flex gap-4 p-5 bg-white rounded-xl border border-slate-200">
                       <div className={`w-12 h-12 ${phase.color} rounded-full flex items-center justify-center shrink-0`}>
                         <span className="font-bold text-slate-700">{phase.phase}</span>
                       </div>
@@ -252,9 +261,9 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                         <p className="text-sm font-medium text-teal-700 mb-1">{phase.threshold}</p>
                         <p className="text-sm text-slate-600">{phase.desc}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ol>
               </section>
 
               {/* Costs */}
@@ -293,13 +302,13 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   When to Enroll in Part D
                 </h2>
-                <div className="space-y-4 mb-6">
+                <ul className="space-y-4 mb-6 list-none">
                   {[
                     { period: "Initial Enrollment Period (IEP)", dates: "3 months before to 3 months after turning 65", desc: "Your first chance to enroll when you become Medicare-eligible." },
                     { period: "Annual Enrollment Period (AEP)", dates: "October 15 – December 7", desc: "Switch or join a Part D plan. Changes take effect January 1." },
                     { period: "Special Enrollment Period (SEP)", dates: "Varies", desc: "Qualifying events like losing employer coverage, moving, or qualifying for Extra Help." },
                   ].map((item, i) => (
-                    <div key={i} className="p-5 bg-white rounded-xl border border-slate-200">
+                    <li key={i} className="p-5 bg-white rounded-xl border border-slate-200">
                       <div className="flex items-start gap-3">
                         <Clock className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <div>
@@ -308,9 +317,9 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                           <p className="text-sm text-slate-600">{item.desc}</p>
                         </div>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* Penalty */}
@@ -318,13 +327,13 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   Late Enrollment Penalty
                 </h2>
-                <div className="bg-red-50 rounded-xl p-6 border border-red-100">
+                <aside aria-label="Warning: Late enrollment penalty is permanent" className="bg-red-50 rounded-xl p-6 border border-red-100">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <h3 className="font-bold text-red-800 text-lg mb-2">This Penalty is Permanent</h3>
                       <p className="text-sm text-red-800 mb-4">
-                        If you go <strong>63 or more continuous days</strong> without Part D or creditable prescription drug coverage, you'll pay a late enrollment penalty when you do enroll. This penalty is added to your monthly premium <strong>for as long as you have Part D</strong>.
+                        If you go <strong>63 or more continuous days</strong> without <strong>Part D</strong> or <strong>creditable coverage</strong> prescription drug coverage, you'll pay a <strong>late enrollment penalty</strong> when you do enroll. This penalty is added to your monthly <strong>premium</strong> <strong>for as long as you have Part D</strong>.
                       </p>
                       <div className="bg-white rounded-lg p-4 mb-4">
                         <p className="text-sm text-red-900 font-semibold mb-2">How the Penalty Is Calculated:</p>
@@ -335,7 +344,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                       </div>
                       <div className="bg-white rounded-lg p-4">
                         <p className="text-sm text-red-900 font-semibold mb-2">How to Avoid the Penalty:</p>
-                        <ul className="space-y-1.5">
+                        <ul className="space-y-1.5 list-none">
                           {[
                             "Enroll in Part D when first eligible",
                             "Maintain creditable drug coverage (employer, VA, TRICARE)",
@@ -349,7 +358,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                       </div>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* FAQs */}
@@ -400,7 +409,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                       }
                     />
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+                      onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
                       <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                   </div>
@@ -411,7 +420,6 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
         </div>
       </section>
 
-      
     </article>
   );
 }

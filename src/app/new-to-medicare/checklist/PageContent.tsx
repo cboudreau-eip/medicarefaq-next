@@ -326,20 +326,24 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
 
   return (
     <article className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-purple-900 text-white">
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
-          <nav className="flex items-center gap-2 text-sm text-slate-300 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-            <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
-            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-            <span className="text-purple-300">Getting Started Checklist</span>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-300 mb-8 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li aria-hidden="true"><ChevronRight className="w-3.5 h-3.5" aria-hidden="true" /></li>
+              <li>
+                <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
+              </li>
+              <li aria-hidden="true"><ChevronRight className="w-3.5 h-3.5" aria-hidden="true" /></li>
+              <li aria-current="page">
+                <span className="text-purple-300">Getting Started Checklist</span>
+              </li>
+            </ol>
           </nav>
 
           <div className="flex items-center gap-3 mb-6">
@@ -381,36 +385,44 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
           <aside className="hidden lg:block w-56 shrink-0 order-last">
             <div className="sticky top-24">
               <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">Phases</p>
-              <nav className="space-y-1">
-                {phases.map((phase) => {
-                  const progress = getPhaseProgress(phase);
-                  return (
-                    <a
-                      key={phase.id}
-                      href={`#${phase.id}`}
-                      className={`block text-sm py-2 pl-3 border-l-2 transition-colors ${
-                        activePhase === phase.id
-                          ? "border-purple-500 text-purple-700 font-medium"
-                          : "border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300"
-                      }`}
-                    >
-                      <div className="flex items-center justify-between">
-                        <span className="truncate">{phase.title.replace(/Phase \d: /, "")}</span>
-                        <span className="text-xs text-slate-400 ml-1">{progress.completed}/{progress.total}</span>
-                      </div>
-                    </a>
-                  );
-                })}
+              <nav aria-label="Table of contents">
+                <ul className="space-y-1 list-none">
+                  {phases.map((phase) => {
+                    const progress = getPhaseProgress(phase);
+                    return (
+                      <li key={phase.id}>
+                        <a
+                          href={`#${phase.id}`}
+                          className={`block text-sm py-2 pl-3 border-l-2 transition-colors ${
+                            activePhase === phase.id
+                              ? "border-purple-500 text-purple-700 font-medium"
+                              : "border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300"
+                          }`}
+                        >
+                          <div className="flex items-center justify-between">
+                            <span className="truncate">{phase.title.replace(/Phase \d: /, "")}</span>
+                            <span className="text-xs text-slate-400 ml-1">{progress.completed}/{progress.total}</span>
+                          </div>
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
               </nav>
 
-              <div className="mt-8 p-4 bg-purple-50 rounded-xl border border-purple-100">
+              <aside aria-label="Need help?" className="mt-8 p-4 bg-purple-50 rounded-xl border border-purple-100">
                 <p className="text-sm font-semibold text-purple-800 mb-2">Need Help?</p>
                 <p className="text-xs text-purple-700 mb-3">Our licensed agents can walk you through every step.</p>
-                <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })} className="flex items-center gap-2 text-sm font-semibold text-purple-700 hover:text-purple-900">
+                <a
+                  href="tel:+18883358996"
+                  id="callInNum"
+                  data-invoca-phone-number="18883358996"
+                  onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })}
+                  className="flex items-center gap-2 text-sm font-semibold text-purple-700 hover:text-purple-900"
+                >
                   <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
-              </div>
+              </aside>
             </div>
           </aside>
 
@@ -425,7 +437,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                   {/* Phase Header */}
                   <div className="flex items-start gap-4 mb-2">
                     <div className={`w-12 h-12 rounded-xl ${phase.color} flex items-center justify-center shrink-0`}>
-                      <phase.icon className="w-6 h-6 text-white" />
+                      <phase.icon className="w-6 h-6 text-white" aria-hidden="true" />
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-1">
@@ -454,13 +466,13 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                   </div>
 
                   {/* Checklist Items */}
-                  <div className="space-y-3 ml-0 md:ml-16">
+                  <ul className="space-y-3 ml-0 md:ml-16 list-none">
                     {phase.items.map((item) => {
                       const isChecked = checked.has(item.id);
                       const isExpanded = expandedItems.has(item.id);
 
                       return (
-                        <div
+                        <li
                           key={item.id}
                           className={`${phase.bgColor} ${phase.borderColor} border rounded-xl overflow-hidden transition-all ${
                             isChecked ? "opacity-75" : ""
@@ -471,6 +483,8 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                               <button
                                 onClick={() => toggleCheck(item.id)}
                                 className="mt-0.5 shrink-0 transition-transform hover:scale-110"
+                                aria-label={isChecked ? `Mark "${item.title}" as incomplete` : `Mark "${item.title}" as complete`}
+                                aria-pressed={isChecked}
                               >
                                 {isChecked ? (
                                   <CheckCircle2 className="w-6 h-6 text-green-500" aria-hidden="true" />
@@ -499,6 +513,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                                   <button
                                     onClick={() => toggleExpand(item.id)}
                                     className="text-xs font-medium text-slate-500 hover:text-slate-700 flex items-center gap-1"
+                                    aria-expanded={isExpanded}
                                   >
                                     {isExpanded ? "Show less" : "Learn more"}
                                     <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isExpanded ? "rotate-180" : ""}`} aria-hidden="true" />
@@ -527,10 +542,10 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                               </motion.div>
                             )}
                           </div>
-                        </div>
+                        </li>
                       );
                     })}
-                  </div>
+                  </ul>
                 </section>
               );
             })}
@@ -543,8 +558,13 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                   Our licensed Medicare agents can help you work through this checklist, compare plans in your area, and find the best coverage for your needs — at no cost to you.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })} className="inline-flex items-center gap-2 bg-purple-500 hover:bg-purple-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  <a
+                    href="tel:+18883358996"
+                    id="callInNum"
+                    data-invoca-phone-number="18883358996"
+                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })}
+                    className="inline-flex items-center gap-2 bg-purple-500 hover:bg-purple-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+                  >
                     Call (888) 335-8996
                   </a>
                   <Link href="/medicare-101" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
@@ -557,7 +577,6 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
         </div>
       </div>
 
-      
     </article>
   );
 }

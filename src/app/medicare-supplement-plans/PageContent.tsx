@@ -75,7 +75,8 @@ const faqs = [
   },
 ];
 
-export default function MedicareSupplement() {  const [activeSection, setActiveSection] = useState("overview");
+export default function MedicareSupplement() {
+  const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);
@@ -98,10 +99,6 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
 
   return (
     <article className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -110,13 +107,17 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-teal-400 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-teal-400">Medicare Supplement</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-400 mb-6 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li><ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" /></li>
+              <li><span className="text-slate-400">Medicare Plans</span></li>
+              <li><ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" /></li>
+              <li aria-current="page"><span className="text-teal-400">Medicare Supplement</span></li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center">
               <Shield className="w-6 h-6 text-blue-400" aria-hidden="true" />
@@ -164,20 +165,24 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
             <aside className="hidden lg:block w-64 shrink-0">
               <div className="sticky top-28">
                 <p className="text-xs font-bold text-teal-700 uppercase tracking-wider mb-4">In This Guide</p>
-                <nav className="space-y-1">
-                  {tableOfContents.map((item) => (
-                    <a key={item.id} href={`#${item.id}`}
-                      className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
-                        activeSection === item.id ? "bg-teal-50 text-teal-700 font-semibold" : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
-                      }`}
-                    >{item.label}</a>
-                  ))}
+                <nav aria-label="Table of contents">
+                  <ul className="space-y-1 list-none">
+                    {tableOfContents.map((item) => (
+                      <li key={item.id}>
+                        <a href={`#${item.id}`}
+                          className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
+                            activeSection === item.id ? "bg-teal-50 text-teal-700 font-semibold" : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
+                          }`}
+                        >{item.label}</a>
+                      </li>
+                    ))}
+                  </ul>
                 </nav>
                 <div className="mt-8 p-4 bg-blue-50 rounded-xl border border-blue-100">
                   <p className="text-sm font-semibold text-blue-900 mb-1">Need Help?</p>
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })} className="flex items-center gap-2 text-sm font-bold text-blue-700">
+                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })} className="flex items-center gap-2 text-sm font-bold text-blue-700">
                     <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
@@ -197,19 +202,19 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 <p className="text-slate-600 leading-relaxed mb-8">
                   Medigap plans are <strong>federally standardized</strong>, meaning each plan letter (A through N) offers the same benefits regardless of which insurance company sells it. The only difference between companies is the premium price and customer service.
                 </p>
-                <div className="grid md:grid-cols-3 gap-4 mb-8">
+                <ul className="grid md:grid-cols-3 gap-4 mb-8 list-none">
                   {[
                     { icon: Shield, title: "Standardized Benefits", desc: "Plan G from Company A = Plan G from Company B. Same coverage, guaranteed." },
                     { icon: Users, title: "No Networks", desc: "See any doctor or hospital in the U.S. that accepts Medicare. No referrals needed." },
                     { icon: DollarSign, title: "Predictable Costs", desc: "Know exactly what you'll pay each month. No surprise bills from covered services." },
                   ].map((item, i) => (
-                    <div key={i} className="bg-slate-50 rounded-xl p-5 border border-slate-100">
+                    <li key={i} className="bg-slate-50 rounded-xl p-5 border border-slate-100">
                       <item.icon className="w-6 h-6 text-blue-600 mb-3" />
                       <h3 className="font-semibold text-slate-900 mb-1 text-sm">{item.title}</h3>
                       <p className="text-xs text-slate-600">{item.desc}</p>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* How It Works */}
@@ -217,14 +222,14 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   How Medigap Works
                 </h2>
-                <div className="space-y-4 mb-8">
+                <ol className="space-y-4 mb-8 list-none">
                   {[
                     { step: "1", title: "You Must Have Original Medicare", desc: "You need both Medicare Part A and Part B. Medigap works alongside Original Medicare - it cannot be used with Medicare Advantage." },
                     { step: "2", title: "Medicare Pays its Share First", desc: "When you receive medical care, Original Medicare processes the claim and pays its portion according to standard coverage rules." },
                     { step: "3", title: "Medigap Covers the Rest", desc: "Your Medigap plan then pays some or all of the remaining costs (deductibles, coinsurance, copays) based on your specific plan letter." },
                     { step: "4", title: "You Pay Your Monthly Premium", desc: "You pay a monthly premium to your Medigap insurance company, plus your Part B premium to Medicare. That's typically your only cost." },
                   ].map((item, i) => (
-                    <div key={i} className="flex gap-4 p-5 bg-white rounded-xl border border-slate-200">
+                    <li key={i} className="flex gap-4 p-5 bg-white rounded-xl border border-slate-200">
                       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center shrink-0">
                         <span className="text-white font-bold text-sm">{item.step}</span>
                       </div>
@@ -232,26 +237,26 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                         <h3 className="font-semibold text-slate-900 mb-1">{item.title}</h3>
                         <p className="text-sm text-slate-600">{item.desc}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
-                <div className="bg-red-50 rounded-xl p-6 border border-red-100">
+                </ol>
+                <aside aria-label="What Medigap does not cover" className="bg-red-50 rounded-xl p-6 border border-red-100">
                   <h3 className="font-semibold text-red-800 mb-3 flex items-center gap-2">
                     <XCircle className="w-5 h-5" aria-hidden="true" /> What Medigap Does NOT Cover
                   </h3>
-                  <div className="grid sm:grid-cols-2 gap-2">
+                  <ul className="grid sm:grid-cols-2 gap-2 list-none">
                     {[
                       "Prescription drugs (need Part D)",
                       "Dental, vision, and hearing care",
                       "Long-term care / nursing home",
                       "Private-duty nursing",
                     ].map((item, i) => (
-                      <div key={i} className="flex items-center gap-2 text-sm text-red-800">
+                      <li key={i} className="flex items-center gap-2 text-sm text-red-800">
                         <XCircle className="w-4 h-4 text-red-500 shrink-0" aria-hidden="true" /> {item}
-                      </div>
+                      </li>
                     ))}
-                  </div>
-                </div>
+                  </ul>
+                </aside>
               </section>
 
               {/* Plan Comparison Chart */}
@@ -308,7 +313,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 <p className="text-slate-600 mb-6">
                   Every Medigap plan letter has a dedicated guide covering benefits, costs, pros and cons, and who it's best for.
                 </p>
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-4">
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-4 list-none">
                   {[
                     { slug: "plan-a", label: "Plan A", note: "Basic coverage", badge: null },
                     { slug: "plan-b", label: "Plan B", note: "+ Part A deductible", badge: null },
@@ -323,34 +328,41 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     { slug: "high-deductible-plan-f", label: "HD Plan F", note: "Low premium, high deductible", badge: "Legacy" },
                     { slug: "high-deductible-plan-g", label: "HD Plan G", note: "Low premium option", badge: null },
                   ].map((plan) => (
-                    <Link
-                      key={plan.slug}
-                      href={`/medicare-supplement-plans/${plan.slug}`}
-                      className="group relative bg-white border border-slate-200 hover:border-teal-400 rounded-xl p-4 transition-all hover:shadow-md"
-                    >
-                      {plan.badge && (
-                        <span className={`absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 rounded-full ${
-                          plan.badge === "Most Popular" ? "bg-teal-100 text-teal-700" :
-                          plan.badge === "Budget Pick" ? "bg-blue-100 text-blue-700" :
-                          "bg-slate-100 text-slate-500"
-                        }`}>{plan.badge}</span>
-                      )}
-                      <p className="font-bold text-slate-900 text-base group-hover:text-teal-700 transition-colors">{plan.label}</p>
-                      <p className="text-xs text-slate-500 mt-0.5">{plan.note}</p>
-                    </Link>
+                    <li key={plan.slug}>
+                      <Link
+                        href={`/medicare-supplement-plans/${plan.slug}`}
+                        className="group relative bg-white border border-slate-200 hover:border-teal-400 rounded-xl p-4 transition-all hover:shadow-md block"
+                      >
+                        {plan.badge && (
+                          <span className={`absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 rounded-full ${
+                            plan.badge === "Most Popular" ? "bg-teal-100 text-teal-700" :
+                            plan.badge === "Budget Pick" ? "bg-blue-100 text-blue-700" :
+                            "bg-slate-100 text-slate-500"
+                          }`}>{plan.badge}</span>
+                        )}
+                        <p className="font-bold text-slate-900 text-base group-hover:text-teal-700 transition-colors">{plan.label}</p>
+                        <p className="text-xs text-slate-500 mt-0.5">{plan.note}</p>
+                      </Link>
+                    </li>
                   ))}
-                </div>
-                <div className="flex gap-3 flex-wrap">
-                  <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
-                    Compare all plans side-by-side <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
-                  </Link>
-                  <Link href="/medicare-supplement-plans/medigap-eligibility" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
-                    Check your eligibility <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
-                  </Link>
-                  <Link href="/medicare-supplement-plans/medicare-supplement-plans-2026" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
-                    2026 plan changes <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
-                  </Link>
-                </div>
+                </ul>
+                <ul className="flex gap-3 flex-wrap list-none">
+                  <li>
+                    <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
+                      Compare all plans side-by-side <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/medicare-supplement-plans/medigap-eligibility" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
+                      Check your eligibility <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/medicare-supplement-plans/medicare-supplement-plans-2026" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
+                      2026 plan changes <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+                    </Link>
+                  </li>
+                </ul>
               </section>
 
               {/* Most Popular Plans */}
@@ -371,7 +383,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     <div className="grid sm:grid-cols-2 gap-4 mb-4">
                       <div className="bg-green-50 rounded-lg p-4">
                         <h4 className="font-semibold text-green-800 text-sm mb-2">What Plan G Covers</h4>
-                        <ul className="space-y-1.5">
+                        <ul className="space-y-1.5 list-none">
                           {["Part A hospital deductible ($1,736)", "Part B coinsurance (20%)", "Part B excess charges", "Skilled nursing facility coinsurance", "Foreign travel emergency", "Blood (first 3 pints)", "Hospice coinsurance"].map((item, i) => (
                             <li key={i} className="flex items-start gap-1.5 text-xs text-green-800">
                               <CheckCircle2 className="w-3.5 h-3.5 mt-0.5 shrink-0 text-green-600" aria-hidden="true" /> {item}
@@ -380,16 +392,18 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                         </ul>
                       </div>
                       <div>
-                        <div className="bg-slate-50 rounded-lg p-4 mb-3">
-                          <p className="text-xs text-slate-500 mb-1">Typical Monthly Premium</p>
-                          <p className="text-2xl font-bold text-slate-900">$100 – $300</p>
-                          <p className="text-xs text-slate-500">Varies by age, location, and insurer</p>
-                        </div>
-                        <div className="bg-amber-50 rounded-lg p-4">
-                          <p className="text-xs text-amber-700 font-semibold mb-1">Your Only Out-of-Pocket Cost</p>
-                          <p className="text-lg font-bold text-amber-900">$283/year</p>
-                          <p className="text-xs text-amber-700">Part B deductible (the only thing not covered)</p>
-                        </div>
+                        <dl>
+                          <div className="bg-slate-50 rounded-lg p-4 mb-3">
+                            <dt className="text-xs text-slate-500 mb-1">Typical Monthly Premium</dt>
+                            <dd className="text-2xl font-bold text-slate-900">$100 – $300</dd>
+                            <dd className="text-xs text-slate-500">Varies by age, location, and insurer</dd>
+                          </div>
+                          <div className="bg-amber-50 rounded-lg p-4">
+                            <dt className="text-xs text-amber-700 font-semibold mb-1">Your Only Out-of-Pocket Cost</dt>
+                            <dd className="text-lg font-bold text-amber-900">$283/year</dd>
+                            <dd className="text-xs text-amber-700">Part B deductible (the only thing not covered)</dd>
+                          </div>
+                        </dl>
                       </div>
                     </div>
                   </div>
@@ -403,18 +417,18 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     <p className="text-slate-600 mb-4">
                       A cost-effective alternative to Plan G with slightly lower premiums. The trade-off: you'll pay small copays for some office visits (up to $20) and ER visits that don't result in admission (up to $50). Plan N does <strong>not</strong> cover Part B excess charges.
                     </p>
-                    <div className="grid sm:grid-cols-2 gap-4">
+                    <dl className="grid sm:grid-cols-2 gap-4">
                       <div className="bg-slate-50 rounded-lg p-4">
-                        <p className="text-xs text-slate-500 mb-1">Typical Monthly Premium</p>
-                        <p className="text-2xl font-bold text-slate-900">$75 – $225</p>
-                        <p className="text-xs text-slate-500">15–25% less than Plan G on average</p>
+                        <dt className="text-xs text-slate-500 mb-1">Typical Monthly Premium</dt>
+                        <dd className="text-2xl font-bold text-slate-900">$75 – $225</dd>
+                        <dd className="text-xs text-slate-500">15–25% less than Plan G on average</dd>
                       </div>
                       <div className="bg-slate-50 rounded-lg p-4">
-                        <p className="text-xs text-slate-500 mb-1">Additional Costs</p>
-                        <p className="text-sm text-slate-700">Up to <strong>$20</strong> copay for office visits</p>
-                        <p className="text-sm text-slate-700">Up to <strong>$50</strong> copay for ER (no admission)</p>
+                        <dt className="text-xs text-slate-500 mb-1">Additional Costs</dt>
+                        <dd className="text-sm text-slate-700">Up to <strong>$20</strong> copay for office visits</dd>
+                        <dd className="text-sm text-slate-700">Up to <strong>$50</strong> copay for ER (no admission)</dd>
                       </div>
-                    </div>
+                    </dl>
                   </div>
 
                   {/* Plan F */}
@@ -426,11 +440,11 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     <p className="text-slate-600 mb-2">
                       The most comprehensive Medigap plan - covers <strong>everything</strong>, including the Part B deductible. However, it's only available to those who were eligible for Medicare before January 1, 2020, and premiums are typically higher than Plan G.
                     </p>
-                    <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg">
+                    <aside aria-label="Note about Plan F value" className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg">
                       <p className="text-sm text-amber-800">
                         <strong>Note:</strong> Even if you're eligible for Plan F, Plan G is often a better value. You'd pay $283/year for the Part B deductible but typically save $300–$600/year in lower premiums.
                       </p>
-                    </div>
+                    </aside>
                   </div>
                 </div>
               </section>
@@ -441,7 +455,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   Medigap Costs & Pricing
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Medigap premiums vary based on several factors. The same plan can cost significantly different amounts depending on where you live and which company you choose - so comparing quotes is essential.
+                  <strong>Medigap premiums</strong> vary based on several factors. The same plan can cost significantly different amounts depending on where you live and which company you choose - so comparing quotes is essential.
                 </p>
                 <div className="overflow-x-auto rounded-xl border border-slate-200 mb-6">
                   <table className="w-full text-sm">
@@ -468,12 +482,12 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     </tbody>
                   </table>
                 </div>
-                <div className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl">
+                <aside aria-label="Pro tip" className="bg-teal-50 border-l-4 border-teal-400 p-5 rounded-r-xl">
                   <p className="font-semibold text-teal-900 mb-1">Pro Tip: Compare Multiple Companies</p>
                   <p className="text-sm text-teal-800">
                     Since Medigap benefits are standardized, the only difference between companies is price and customer service. Always compare at least 3–5 companies before enrolling. A licensed agent can pull quotes from multiple carriers at once - at no cost to you.
                   </p>
-                </div>
+                </aside>
               </section>
 
               {/* Enrollment */}
@@ -485,13 +499,13 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   <div className="flex items-start gap-3">
                     <Clock className="w-6 h-6 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
-                      <h3 className="font-bold text-blue-900 text-lg mb-2">Medigap Open Enrollment Period</h3>
+                      <h3 className="font-bold text-blue-900 text-lg mb-2"><strong>Medigap Open Enrollment Period</strong></h3>
                       <p className="text-blue-800 mb-3">
                         Your <strong>best and most important</strong> window to enroll is your 6-month Medigap Open Enrollment Period, which starts the month you turn 65 <strong>and</strong> are enrolled in Part B.
                       </p>
                       <div className="bg-white rounded-lg p-4">
                         <p className="text-sm text-blue-900 font-semibold mb-2">During this period, insurance companies:</p>
-                        <ul className="space-y-1.5">
+                        <ul className="space-y-1.5 list-none">
                           {[
                             "Cannot deny you coverage for any reason",
                             "Cannot charge more due to health conditions",
@@ -507,7 +521,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     </div>
                   </div>
                 </div>
-                <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
+                <aside aria-label="Warning: Don't miss your enrollment window" className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -517,7 +531,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* FAQs */}
@@ -525,23 +539,25 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   Frequently Asked Questions
                 </h2>
-                <div className="space-y-3">
+                <dl className="space-y-3">
                   {faqs.map((faq, i) => (
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
-                      <button
-                        onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                        aria-expanded={openFaq === i}
-                        className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
-                      >
-                        <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
-                      </button>
+                      <dt>
+                        <button
+                          onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                          aria-expanded={openFaq === i}
+                          className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
+                        >
+                          <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
+                          <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
+                        </button>
+                      </dt>
                       {openFaq === i && (
-                        <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</div>
+                        <dd className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</dd>
                       )}
                     </div>
                   ))}
-                </div>
+                </dl>
               </section>
 
               {/* Next Steps CTA */}
@@ -570,7 +586,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     />
                     <a
                       href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })}
+                      onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })}
                       className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/30 text-base"
                     >
                       <Phone className="w-4 h-4" aria-hidden="true" />
@@ -584,7 +600,6 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
         </div>
       </section>
 
-      
     </article>
   );
 }

@@ -182,12 +182,24 @@ export default function PageContent() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900 text-white">
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
-          <nav className="flex items-center gap-2 text-sm text-slate-300 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-            <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
-            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-            <span className="text-emerald-300">What Does It Cost?</span>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-300 mb-8 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li aria-hidden="true">
+                <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
+              </li>
+              <li>
+                <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
+              </li>
+              <li aria-hidden="true">
+                <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-emerald-300">What Does It Cost?</span>
+              </li>
+            </ol>
           </nav>
 
           <div className="flex items-center gap-3 mb-6">
@@ -201,11 +213,11 @@ export default function PageContent() {
             What Does Medicare Cost in 2026?
           </h1>
           <p className="text-lg md:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed">
-            A complete breakdown of every Medicare premium, deductible, coinsurance, and out-of-pocket cost — plus how to minimize what you pay.
+            A complete breakdown of every Medicare <strong>premium</strong>, <strong>deductible</strong>, <strong>coinsurance</strong>, and out-of-pocket cost — plus how to minimize what you pay.
           </p>
 
           {/* Quick cost stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <dl className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               { label: "Part B Premium", value: "$202.90/mo" },
               { label: "Part B Deductible", value: "$283/yr" },
@@ -213,11 +225,11 @@ export default function PageContent() {
               { label: "Part D OOP Cap", value: "$2,000" },
             ].map((stat) => (
               <div key={stat.label} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/10">
-                <p className="text-xs text-slate-400 mb-1">{stat.label}</p>
-                <p className="text-xl md:text-2xl font-bold text-white">{stat.value}</p>
+                <dt className="text-xs text-slate-400 mb-1">{stat.label}</dt>
+                <dd className="text-xl md:text-2xl font-bold text-white">{stat.value}</dd>
               </div>
             ))}
-          </div>
+          </dl>
         </div>
       </section>
 
@@ -228,20 +240,23 @@ export default function PageContent() {
           <aside className="hidden lg:block w-56 shrink-0 order-last">
             <div className="sticky top-24">
               <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">In This Guide</p>
-              <nav className="space-y-1">
-                {tableOfContents.map((item) => (
-                  <a
-                    key={item.id}
-                    href={`#${item.id}`}
-                    className={`block text-sm py-1.5 pl-3 border-l-2 transition-colors ${
-                      activeSection === item.id
-                        ? "border-emerald-500 text-emerald-700 font-medium"
-                        : "border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300"
-                    }`}
-                  >
-                    {item.label}
-                  </a>
-                ))}
+              <nav aria-label="Table of contents">
+                <ul className="space-y-1 list-none">
+                  {tableOfContents.map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={`#${item.id}`}
+                        className={`block text-sm py-1.5 pl-3 border-l-2 transition-colors ${
+                          activeSection === item.id
+                            ? "border-emerald-500 text-emerald-700 font-medium"
+                            : "border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300"
+                        }`}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </nav>
 
               <div className="mt-8 p-4 bg-emerald-50 rounded-xl border border-emerald-100">
@@ -261,17 +276,17 @@ export default function PageContent() {
             <section id="overview" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">2026 Medicare Cost Overview</h2>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Medicare isn't free — even with premium-free Part A, most beneficiaries pay <strong>several hundred dollars per month</strong> when you factor in Part B premiums, supplemental coverage, and prescription drug plans. Understanding these costs upfront helps you budget effectively and choose the right coverage.
+                Medicare isn't free — even with <strong>premium-free Part A</strong>, most beneficiaries pay <strong>several hundred dollars per month</strong> when you factor in Part B premiums, supplemental coverage, and prescription drug plans. Understanding these costs upfront helps you budget effectively and choose the right coverage.
               </p>
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
+              <aside aria-label="Important warning about out-of-pocket maximum" className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
                 <div className="flex items-start gap-3">
                   <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" />
                   <div>
                     <p className="font-semibold text-amber-900 mb-1">Important: Original Medicare Has No Out-of-Pocket Maximum</p>
-                    <p className="text-sm text-amber-800">Unlike most private insurance, Original Medicare alone has <strong>no cap</strong> on how much you can spend out-of-pocket in a year. This is why most beneficiaries add a Medigap supplement or choose Medicare Advantage.</p>
+                    <p className="text-sm text-amber-800">Unlike most private insurance, Original Medicare alone has <strong>no cap</strong> on how much you can spend out-of-pocket in a year. This is why most beneficiaries add a <strong>Medigap</strong> supplement or choose <strong>Medicare Advantage</strong>.</p>
                   </div>
                 </div>
-              </div>
+              </aside>
             </section>
 
             {/* Part A Costs */}
@@ -280,10 +295,10 @@ export default function PageContent() {
                 <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center">
                   <Building2 className="w-5 h-5 text-blue-600" aria-hidden="true" />
                 </div>
-                <h2 className="text-3xl font-bold text-slate-900">Part a Costs (Hospital Insurance)</h2>
+                <h2 className="text-3xl font-bold text-slate-900"><strong>Part A</strong> Costs (Hospital Insurance)</h2>
               </div>
               <p className="text-lg text-slate-600 mb-6">
-                Part A covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. Most people don't pay a premium for Part A, but there are significant deductibles and coinsurance.
+                Part A covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. Most people don't pay a <strong>premium</strong> for Part A, but there are significant <strong>deductibles</strong> and <strong>coinsurance</strong>.
               </p>
 
               <div className="overflow-x-auto rounded-xl border border-slate-200">
@@ -314,10 +329,10 @@ export default function PageContent() {
                 <div className="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center">
                   <Heart className="w-5 h-5 text-teal-600" aria-hidden="true" />
                 </div>
-                <h2 className="text-3xl font-bold text-slate-900">Part B Costs (Medical Insurance)</h2>
+                <h2 className="text-3xl font-bold text-slate-900"><strong>Part B</strong> Costs (Medical Insurance)</h2>
               </div>
               <p className="text-lg text-slate-600 mb-6">
-                Part B covers doctor visits, outpatient care, preventive services, durable medical equipment, and more. Everyone pays a monthly premium, and there's a 20% coinsurance with no annual cap.
+                Part B covers doctor visits, outpatient care, preventive services, durable medical equipment, and more. Everyone pays a monthly <strong>premium</strong>, and there's a 20% <strong>coinsurance</strong> with no annual cap.
               </p>
 
               <div className="overflow-x-auto rounded-xl border border-slate-200">
@@ -341,14 +356,14 @@ export default function PageContent() {
                 </table>
               </div>
 
-              <div className="mt-4 bg-teal-50 border border-teal-200 rounded-xl p-5">
+              <aside aria-label="Key takeaway about Part B coinsurance" className="mt-4 bg-teal-50 border border-teal-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
                   <Info className="w-5 h-5 text-teal-600 shrink-0 mt-0.5" aria-hidden="true" />
                   <p className="text-sm text-teal-800">
-                    <strong>Key Takeaway:</strong> The 20% Part B coinsurance has no annual limit. A single hospital outpatient procedure could cost you thousands. This is the primary reason most people purchase a Medigap supplement or choose Medicare Advantage.
+                    <strong>Key Takeaway:</strong> The 20% Part B coinsurance has no annual limit. A single hospital outpatient procedure could cost you thousands. This is the primary reason most people purchase a <strong>Medigap</strong> supplement or choose <strong>Medicare Advantage</strong>.
                   </p>
                 </div>
-              </div>
+              </aside>
             </section>
 
             {/* Part D Costs */}
@@ -357,10 +372,10 @@ export default function PageContent() {
                 <div className="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center">
                   <Pill className="w-5 h-5 text-purple-600" aria-hidden="true" />
                 </div>
-                <h2 className="text-3xl font-bold text-slate-900">Part D Costs (Prescription Drugs)</h2>
+                <h2 className="text-3xl font-bold text-slate-900"><strong>Part D</strong> Costs (Prescription Drugs)</h2>
               </div>
               <p className="text-lg text-slate-600 mb-6">
-                Part D covers prescription medications. Plans are offered by private insurers and costs vary by plan. A major improvement starting in 2025: the annual out-of-pocket cap of $2,000.
+                Part D covers prescription medications. Plans are offered by private insurers and costs vary by plan. A major improvement starting in 2025: the annual <strong>out-of-pocket maximum</strong> cap of $2,000.
               </p>
 
               <div className="overflow-x-auto rounded-xl border border-slate-200">
@@ -384,14 +399,14 @@ export default function PageContent() {
                 </table>
               </div>
 
-              <div className="mt-4 bg-green-50 border border-green-200 rounded-xl p-5">
+              <aside aria-label="Good news about Part D out-of-pocket cap" className="mt-4 bg-green-50 border border-green-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
                   <p className="text-sm text-green-800">
-                    <strong>Good News:</strong> The Inflation Reduction Act introduced a $2,000 annual out-of-pocket cap for Part D prescription drugs starting in 2025. This eliminates the catastrophic coverage phase and protects you from unlimited drug costs.
+                    <strong>Good News:</strong> The Inflation Reduction Act introduced a $2,000 annual <strong>out-of-pocket cap</strong> for Part D prescription drugs starting in 2025. This eliminates the catastrophic coverage phase and protects you from unlimited drug costs.
                   </p>
                 </div>
-              </div>
+              </aside>
             </section>
 
             {/* Medigap Costs */}
@@ -400,10 +415,10 @@ export default function PageContent() {
                 <div className="w-10 h-10 rounded-lg bg-indigo-100 flex items-center justify-center">
                   <Shield className="w-5 h-5 text-indigo-600" aria-hidden="true" />
                 </div>
-                <h2 className="text-3xl font-bold text-slate-900">Medigap (Medicare Supplement) Costs</h2>
+                <h2 className="text-3xl font-bold text-slate-900"><strong>Medigap</strong> (Medicare Supplement) Costs</h2>
               </div>
               <p className="text-lg text-slate-600 mb-6">
-                Medigap plans help cover the "gaps" in Original Medicare — deductibles, coinsurance, and copays. Plans are standardized by letter (A, B, C, D, F, G, K, L, M, N) so benefits are identical across insurers.
+                <strong>Medigap</strong> plans help cover the "gaps" in Original Medicare — deductibles, coinsurance, and copays. Plans are standardized by letter (A, B, C, D, F, G, K, L, M, N) so benefits are identical across insurers.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -435,7 +450,7 @@ export default function PageContent() {
               </div>
 
               <p className="text-sm text-slate-500">
-                Medigap premiums vary by age, location, gender, and tobacco use. Rates shown are typical ranges. The best time to enroll is during your 6-month Medigap Open Enrollment Period (starts when Part B begins).
+                Medigap premiums vary by age, location, gender, and tobacco use. Rates shown are typical ranges. The best time to enroll is during your 6-month <strong>Medigap Open Enrollment Period</strong> (starts when Part B begins).
               </p>
             </section>
 
@@ -445,14 +460,14 @@ export default function PageContent() {
                 <div className="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center">
                   <Heart className="w-5 h-5 text-orange-600" aria-hidden="true" />
                 </div>
-                <h2 className="text-3xl font-bold text-slate-900">Medicare Advantage (Part C) Costs</h2>
+                <h2 className="text-3xl font-bold text-slate-900"><strong>Medicare Advantage</strong> (Part C) Costs</h2>
               </div>
               <p className="text-lg text-slate-600 mb-6">
-                Medicare Advantage plans are offered by private insurers as an alternative to Original Medicare. Many have $0 premiums (beyond Part B) and include drug coverage and extra benefits, but use provider networks.
+                <strong>Medicare Advantage</strong> plans are offered by private insurers as an alternative to Original Medicare. Many have $0 premiums (beyond Part B) and include drug coverage and extra benefits, but use provider networks.
               </p>
 
               <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 mb-6">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <dl className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {[
                     { label: "Avg. Monthly Premium", value: "$0–$50" },
                     { label: "PCP Copay", value: "$0–$20" },
@@ -460,21 +475,21 @@ export default function PageContent() {
                     { label: "Max OOP (In-Network)", value: "$9,250" },
                   ].map((stat) => (
                     <div key={stat.label}>
-                      <p className="text-xs text-orange-700 mb-1">{stat.label}</p>
-                      <p className="text-xl font-bold text-slate-900">{stat.value}</p>
+                      <dt className="text-xs text-orange-700 mb-1">{stat.label}</dt>
+                      <dd className="text-xl font-bold text-slate-900">{stat.value}</dd>
                     </div>
                   ))}
-                </div>
+                </dl>
               </div>
 
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
+              <aside aria-label="Reminder about Part B premium with Medicare Advantage" className="bg-amber-50 border border-amber-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
                   <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" />
                   <p className="text-sm text-amber-800">
-                    <strong>Remember:</strong> You still pay the Part B premium ($202.90/mo) even with a $0-premium Medicare Advantage plan. And while premiums are lower, you'll pay copays and coinsurance each time you use services, up to the plan's maximum out-of-pocket limit.
+                    <strong>Remember:</strong> You still pay the Part B <strong>premium</strong> ($202.90/mo) even with a $0-premium Medicare Advantage plan. And while premiums are lower, you'll pay <strong>copays</strong> and <strong>coinsurance</strong> each time you use services, up to the plan's <strong>maximum out-of-pocket</strong> limit.
                   </p>
                 </div>
-              </div>
+              </aside>
             </section>
 
             {/* Total Cost Scenarios */}
@@ -491,21 +506,21 @@ export default function PageContent() {
                       <h3 className="text-lg font-bold">{scenario.name}</h3>
                     </div>
                     <div className="p-6">
-                      <div className="grid grid-cols-3 gap-4 mb-4">
+                      <dl className="grid grid-cols-3 gap-4 mb-4">
                         <div>
-                          <p className="text-xs text-slate-500 mb-1">Monthly Cost</p>
-                          <p className="text-xl font-bold text-slate-900">{scenario.monthly}</p>
+                          <dt className="text-xs text-slate-500 mb-1">Monthly Cost</dt>
+                          <dd className="text-xl font-bold text-slate-900">{scenario.monthly}</dd>
                         </div>
                         <div>
-                          <p className="text-xs text-slate-500 mb-1">Annual Cost</p>
-                          <p className="text-xl font-bold text-slate-900">{scenario.annual}</p>
+                          <dt className="text-xs text-slate-500 mb-1">Annual Cost</dt>
+                          <dd className="text-xl font-bold text-slate-900">{scenario.annual}</dd>
                         </div>
                         <div>
-                          <p className="text-xs text-slate-500 mb-1">Max Out-of-Pocket</p>
-                          <p className="text-sm font-semibold text-slate-700">{scenario.maxOOP}</p>
+                          <dt className="text-xs text-slate-500 mb-1">Max Out-of-Pocket</dt>
+                          <dd className="text-sm font-semibold text-slate-700">{scenario.maxOOP}</dd>
                         </div>
-                      </div>
-                      <ul className="space-y-2">
+                      </dl>
+                      <ul className="space-y-2 list-none">
                         {scenario.items.map((item) => (
                           <li key={item} className="flex items-start gap-2 text-sm text-slate-600">
                             <CheckCircle2 className="w-4 h-4 text-slate-400 shrink-0 mt-0.5" aria-hidden="true" />
@@ -521,9 +536,9 @@ export default function PageContent() {
 
             {/* IRMAA */}
             <section id="irmaa" className="mb-16 scroll-mt-24">
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">IRMAA Surcharges (Higher-Income Beneficiaries)</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6"><strong>IRMAA</strong> Surcharges (Higher-Income Beneficiaries)</h2>
               <p className="text-lg text-slate-600 mb-6">
-                If your modified adjusted gross income (MAGI) exceeds certain thresholds, you'll pay higher Part B and Part D premiums. This is called IRMAA — the Income-Related Monthly Adjustment Amount. It's based on your tax return from <strong>2 years prior</strong>.
+                If your modified adjusted gross income (MAGI) exceeds certain thresholds, you'll pay higher Part B and Part D premiums. This is called <strong>IRMAA</strong> — the Income-Related Monthly Adjustment Amount. It's based on your tax return from <strong>2 years prior</strong>.
               </p>
 
               <div className="overflow-x-auto rounded-xl border border-slate-200">
@@ -551,7 +566,7 @@ export default function PageContent() {
             {/* Ways to Save */}
             <section id="savings" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Ways to Save on Medicare Costs</h2>
-              <div className="grid md:grid-cols-2 gap-4">
+              <ul className="grid md:grid-cols-2 gap-4 list-none">
                 {[
                   {
                     title: "Medicare Savings Programs (MSPs)",
@@ -584,17 +599,17 @@ export default function PageContent() {
                     icon: TrendingUp,
                   },
                 ].map((item) => (
-                  <div key={item.title} className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+                  <li key={item.title} className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-3 mb-3">
                       <div className="w-10 h-10 rounded-lg bg-emerald-50 flex items-center justify-center">
-                        <item.icon className="w-5 h-5 text-emerald-600" />
+                        <item.icon className="w-5 h-5 text-emerald-600" aria-hidden="true" />
                       </div>
                       <h3 className="font-bold text-slate-900">{item.title}</h3>
                     </div>
                     <p className="text-sm text-slate-600">{item.description}</p>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </section>
 
             {/* FAQs */}

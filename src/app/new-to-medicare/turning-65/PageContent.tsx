@@ -205,7 +205,8 @@ const faqs = [
 /*  Component                                                          */
 /* ------------------------------------------------------------------ */
 
-export default function Turning65() {  const [activeSection, setActiveSection] = useState("overview");
+export default function Turning65() {
+  const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => {
@@ -228,20 +229,28 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
 
   return (
     <article className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-teal-900 text-white">
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
-          <nav className="flex items-center gap-2 text-sm text-slate-300 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-            <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
-            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-            <span className="text-teal-300">Turning 65 Timeline</span>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-300 mb-8 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li>
+                <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
+              </li>
+              <li>
+                <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
+              </li>
+              <li>
+                <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-teal-300">Turning 65 Timeline</span>
+              </li>
+            </ol>
           </nav>
 
           <div className="flex items-center gap-3 mb-6">
@@ -262,8 +271,13 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
             <a href="#overview" className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               View Timeline <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
-            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+            <a
+              href="tel:+18883358996"
+              id="callInNum"
+              data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })}
+              className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+            >
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
@@ -277,30 +291,38 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
           <aside className="hidden lg:block w-56 shrink-0 order-last">
             <div className="sticky top-24">
               <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">In This Guide</p>
-              <nav className="space-y-1">
-                {tableOfContents.map((item) => (
-                  <a
-                    key={item.id}
-                    href={`#${item.id}`}
-                    className={`block text-sm py-1.5 pl-3 border-l-2 transition-colors ${
-                      activeSection === item.id
-                        ? "border-teal-500 text-teal-700 font-medium"
-                        : "border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300"
-                    }`}
-                  >
-                    {item.label}
-                  </a>
-                ))}
+              <nav aria-label="Table of contents">
+                <ul className="space-y-1 list-none">
+                  {tableOfContents.map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={`#${item.id}`}
+                        className={`block text-sm py-1.5 pl-3 border-l-2 transition-colors ${
+                          activeSection === item.id
+                            ? "border-teal-500 text-teal-700 font-medium"
+                            : "border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300"
+                        }`}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </nav>
 
-              <div className="mt-8 p-4 bg-teal-50 rounded-xl border border-teal-100">
+              <aside aria-label="Need help?" className="mt-8 p-4 bg-teal-50 rounded-xl border border-teal-100">
                 <p className="text-sm font-semibold text-teal-800 mb-2">Need Help?</p>
                 <p className="text-xs text-teal-700 mb-3">Our licensed agents can guide you through enrollment.</p>
-                <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900">
+                <a
+                  href="tel:+18883358996"
+                  id="callInNum"
+                  data-invoca-phone-number="18883358996"
+                  onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })}
+                  className="flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900"
+                >
                   <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
-              </div>
+              </aside>
             </div>
           </aside>
 
@@ -316,9 +338,9 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
               {/* Visual IEP diagram */}
               <div className="bg-slate-50 rounded-xl border border-slate-200 p-6 mb-8">
                 <h3 className="text-lg font-bold text-slate-900 mb-4">Your 7-Month Enrollment Window</h3>
-                <div className="flex items-center gap-1 overflow-x-auto pb-2">
+                <ul className="flex items-center gap-1 overflow-x-auto pb-2 list-none">
                   {["3 mo before", "2 mo before", "1 mo before", "Birthday Month", "1 mo after", "2 mo after", "3 mo after"].map((label, i) => (
-                    <div
+                    <li
                       key={label}
                       className={`flex-1 min-w-[100px] text-center p-3 rounded-lg text-xs font-medium ${
                         i < 3
@@ -332,9 +354,9 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                       <div className="text-[10px] mt-1 opacity-75">
                         {i < 3 ? "Best time" : i === 3 ? "Your birthday" : "Coverage delayed"}
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
                 <p className="text-xs text-slate-500 mt-3 text-center">
                   Enrolling in the first 3 months ensures coverage starts on the 1st of your birthday month.
                 </p>
@@ -350,7 +372,7 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
               >
                 <div className="flex items-start gap-4 mb-6">
                   <div className={`w-12 h-12 rounded-xl ${milestone.color} flex items-center justify-center shrink-0`}>
-                    <milestone.icon className="w-6 h-6 text-white" />
+                    <milestone.icon className="w-6 h-6 text-white" aria-hidden="true" />
                   </div>
                   <div>
                     <span className={`text-xs font-bold uppercase tracking-wider ${milestone.dotColor.replace('bg-', 'text-')}`}>
@@ -360,9 +382,9 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                   </div>
                 </div>
 
-                <div className="space-y-4 ml-0 md:ml-16">
+                <ol className="space-y-4 ml-0 md:ml-16 list-none">
                   {milestone.tasks.map((task, i) => (
-                    <motion.div
+                    <motion.li
                       key={i}
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
@@ -379,9 +401,9 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                           <p className="text-sm text-slate-600">{task.description}</p>
                         </div>
                       </div>
-                    </motion.div>
+                    </motion.li>
                   ))}
-                </div>
+                </ol>
               </section>
             ))}
 
@@ -389,7 +411,7 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
             <section id="iep" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Initial Enrollment Period (IEP) Chart</h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                When you enroll during your IEP determines when your coverage starts. Enrolling early is always better — here's a month-by-month breakdown:
+                When you enroll during your <strong>Initial Enrollment Period</strong> determines when your coverage starts. Enrolling early is always better — here's a month-by-month breakdown:
               </p>
 
               <div className="overflow-x-auto rounded-xl border border-slate-200">
@@ -431,24 +453,24 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                 Once you've enrolled in Medicare, there are a few important things to take care of in the weeks and months that follow:
               </p>
 
-              <div className="grid md:grid-cols-2 gap-4">
+              <ul className="grid md:grid-cols-2 gap-4 list-none">
                 {[
                   { title: "Set up Your MyMedicare.gov Account", description: "Access your claims, coverage details, and preventive services schedule online.", icon: FileText },
                   { title: "Schedule Your Welcome to Medicare Visit", description: "A free preventive visit within the first 12 months of Part B coverage. Includes health risk assessment and screenings.", icon: Heart },
                   { title: "Review Your Prescription Coverage", description: "Make sure your medications are covered by your Part D or Medicare Advantage plan's formulary.", icon: ClipboardList },
                   { title: "Notify Your Current Insurer", description: "If you're transitioning from employer coverage or marketplace insurance, coordinate the end date with your Medicare start date.", icon: Mail },
                 ].map((item) => (
-                  <div key={item.title} className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+                  <li key={item.title} className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-3 mb-3">
                       <div className="w-10 h-10 rounded-lg bg-teal-50 flex items-center justify-center">
-                        <item.icon className="w-5 h-5 text-teal-600" />
+                        <item.icon className="w-5 h-5 text-teal-600" aria-hidden="true" />
                       </div>
                       <h3 className="font-bold text-slate-900">{item.title}</h3>
                     </div>
                     <p className="text-sm text-slate-600">{item.description}</p>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </section>
 
             {/* Penalties */}
@@ -458,50 +480,54 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                 Missing your enrollment window can result in <strong>permanent premium increases</strong>. These penalties are added to your monthly premiums for as long as you have Medicare.
               </p>
 
-              <div className="space-y-4">
+              <dl className="space-y-4">
                 {penalties.map((penalty) => (
                   <div key={penalty.part} className="bg-red-50 border border-red-200 rounded-xl p-6">
                     <div className="flex items-center gap-2 mb-3">
                       <AlertTriangle className="w-5 h-5 text-red-600" aria-hidden="true" />
-                      <h3 className="text-lg font-bold text-red-900">{penalty.part}</h3>
+                      <dt className="text-lg font-bold text-red-900">{penalty.part}</dt>
                       {penalty.permanent && (
                         <span className="text-xs font-semibold bg-red-100 text-red-700 px-2 py-0.5 rounded-full">Permanent</span>
                       )}
                     </div>
-                    <p className="text-red-800 mb-3">{penalty.description}</p>
+                    <dd className="text-red-800 mb-3">{penalty.description}</dd>
                     <div className="bg-white/60 rounded-lg p-3 border border-red-100">
                       <p className="text-sm text-red-700"><strong>Example:</strong> {penalty.example}</p>
                     </div>
                   </div>
                 ))}
-              </div>
+              </dl>
             </section>
 
             {/* FAQs */}
             <section id="faqs" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-8">Frequently Asked Questions</h2>
-              <div className="space-y-3">
+              <dl className="space-y-3">
                 {faqs.map((faq, index) => (
                   <div key={index} className="border border-slate-200 rounded-xl overflow-hidden">
-                    <button
-                      onClick={() => setOpenFaq(openFaq === index ? null : index)}
-                      aria-expanded={openFaq === index}
-                      className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
-                    >
-                      <span className="font-semibold text-slate-900 pr-4">{faq.question}</span>
-                      <ChevronDown
-                        className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${
-                          openFaq === index ? "rotate-180" : ""
-                        }`} aria-hidden="true" />
-                    </button>
+                    <dt>
+                      <button
+                        onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                        aria-expanded={openFaq === index}
+                        className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
+                      >
+                        <span className="font-semibold text-slate-900 pr-4">{faq.question}</span>
+                        <ChevronDown
+                          className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${
+                            openFaq === index ? "rotate-180" : ""
+                          }`}
+                          aria-hidden="true"
+                        />
+                      </button>
+                    </dt>
                     {openFaq === index && (
-                      <div className="px-5 pb-5 text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+                      <dd className="px-5 pb-5 text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
                         {faq.answer}
-                      </div>
+                      </dd>
                     )}
                   </div>
                 ))}
-              </div>
+              </dl>
             </section>
 
             {/* Next Steps CTA */}
@@ -512,8 +538,13 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                   Every situation is different. Our licensed Medicare agents can review your specific timeline, help you choose the right plan, and ensure you don't miss any deadlines.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  <a
+                    href="tel:+18883358996"
+                    id="callInNum"
+                    data-invoca-phone-number="18883358996"
+                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })}
+                    className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+                  >
                     Call (888) 335-8996
                   </a>
                   <Link href="/new-to-medicare/costs" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
@@ -526,7 +557,6 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
         </div>
       </div>
 
-      
     </article>
   );
 }

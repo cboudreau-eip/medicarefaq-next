@@ -99,23 +99,35 @@ export default function PageContent() {
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-teal-400 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-teal-400">Medigap Eligibility</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li>
+                <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-teal-400">Medigap Eligibility</span>
+              </li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
               <Shield className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
-            Medigap Eligibility
+            <strong>Medigap</strong> Eligibility
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
-            Who can enroll in Medicare Supplement insurance, when to enroll, and what happens if you miss your window.
+            Who can enroll in <strong>Medicare Supplement</strong> insurance, when to enroll, and what happens if you miss your window.
           </p>
           <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_eligibility" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
@@ -133,54 +145,54 @@ export default function PageContent() {
               Who Is Eligible for Medigap?
             </h2>
             <p className="text-slate-600 mb-8 leading-relaxed">
-              To purchase a Medicare Supplement (Medigap) policy, you must meet a few basic requirements. Federal law establishes the minimum eligibility rules, though some states have additional protections.
+              To purchase a <strong>Medicare Supplement (Medigap)</strong> policy, you must meet a few basic requirements. Federal law establishes the minimum eligibility rules, though some states have additional protections.
             </p>
-            <div className="grid sm:grid-cols-2 gap-5">
+            <ul className="grid sm:grid-cols-2 gap-5 list-none">
               {ELIGIBILITY_RULES.map((rule, i) => (
-                <div key={i} className="p-5 border border-slate-200 rounded-xl">
+                <li key={i} className="p-5 border border-slate-200 rounded-xl">
                   <div className="flex items-start gap-3">
-                    <rule.icon className={`w-6 h-6 ${rule.color} shrink-0 mt-0.5`} />
+                    <rule.icon className={`w-6 h-6 ${rule.color} shrink-0 mt-0.5`} aria-hidden="true" />
                     <div>
                       <h3 className="font-semibold text-slate-900 mb-1">{rule.title}</h3>
                       <p className="text-sm text-slate-600 leading-relaxed">{rule.desc}</p>
                     </div>
                   </div>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
 
           {/* Open Enrollment Period */}
           <div className="mb-14">
             <h2 className="text-3xl font-bold text-slate-900 mb-3" style={{ fontFamily: "'Merriweather', serif" }}>
-              The Medigap Open Enrollment Period
+              The Medigap <strong>Open Enrollment Period</strong>
             </h2>
             <p className="text-slate-600 mb-6 leading-relaxed">
-              The Medigap Open Enrollment Period (OEP) is the most important window for enrolling in a Medigap plan. During this 6-month period, you have guaranteed issue rights - meaning insurers must sell you any Medigap plan they offer, regardless of your health history.
+              The <strong>Medigap Open Enrollment Period (OEP)</strong> is the most important window for enrolling in a Medigap plan. During this 6-month period, you have guaranteed issue rights - meaning insurers must sell you any Medigap plan they offer, regardless of your health history.
             </p>
             <div className="p-6 bg-blue-50 border border-blue-200 rounded-xl mb-6">
               <div className="flex items-start gap-3 mb-4">
                 <Clock className="w-6 h-6 text-blue-700 shrink-0 mt-0.5" aria-hidden="true" />
                 <h3 className="font-bold text-blue-900 text-lg">Your 6-Month Window</h3>
               </div>
-              <div className="space-y-3">
+              <dl className="space-y-3">
                 {OEP_FACTS.map((fact, i) => (
                   <div key={i} className="flex gap-3">
-                    <span className="text-xs font-bold text-blue-700 uppercase tracking-wider min-w-[140px] pt-0.5">{fact.label}</span>
-                    <span className="text-sm text-blue-900">{fact.value}</span>
+                    <dt className="text-xs font-bold text-blue-700 uppercase tracking-wider min-w-[140px] pt-0.5">{fact.label}</dt>
+                    <dd className="text-sm text-blue-900">{fact.value}</dd>
                   </div>
                 ))}
-              </div>
+              </dl>
             </div>
-            <div className="p-5 bg-amber-50 border border-amber-200 rounded-xl flex items-start gap-3">
+            <aside aria-label="Warning: Don't miss your OEP" className="p-5 bg-amber-50 border border-amber-200 rounded-xl flex items-start gap-3">
               <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-amber-900 mb-1">Don't Miss Your OEP</p>
                 <p className="text-sm text-amber-800">
-                  Your Medigap OEP happens only once. After it ends, you may face medical underwriting and could be denied coverage or charged higher premiums. Enrolling during your OEP is the single most important step you can take to secure affordable Medigap coverage.
+                  Your Medigap OEP happens only once. After it ends, you may face <strong>medical underwriting</strong> and could be denied coverage or charged higher premiums. Enrolling during your OEP is the single most important step you can take to secure affordable Medigap coverage.
                 </p>
               </div>
-            </div>
+            </aside>
           </div>
 
           {/* Guaranteed Issue Rights */}
@@ -189,16 +201,16 @@ export default function PageContent() {
               Guaranteed Issue Rights
             </h2>
             <p className="text-slate-600 mb-6 leading-relaxed">
-              Outside of your OEP, you may still have guaranteed issue rights in specific situations. In these cases, insurers must sell you a Medigap plan without medical underwriting.
+              Outside of your OEP, you may still have <strong>guaranteed issue rights</strong> in specific situations. In these cases, insurers must sell you a Medigap plan without medical underwriting.
             </p>
-            <div className="border border-slate-200 rounded-xl overflow-hidden">
+            <ul className="border border-slate-200 rounded-xl overflow-hidden list-none">
               {GUARANTEED_ISSUE_SITUATIONS.map((situation, i) => (
-                <div key={i} className={`flex items-start gap-3 px-5 py-4 ${i % 2 === 0 ? "bg-white" : "bg-slate-50"} ${i < GUARANTEED_ISSUE_SITUATIONS.length - 1 ? "border-b border-slate-100" : ""}`}>
+                <li key={i} className={`flex items-start gap-3 px-5 py-4 ${i % 2 === 0 ? "bg-white" : "bg-slate-50"} ${i < GUARANTEED_ISSUE_SITUATIONS.length - 1 ? "border-b border-slate-100" : ""}`}>
                   <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
                   <p className="text-sm text-slate-700">{situation}</p>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
             <p className="text-xs text-slate-500 mt-3 flex items-center gap-1">
               <Info className="w-3 h-3" aria-hidden="true" /> In most guaranteed issue situations, you have 63 days from losing your previous coverage to enroll in a Medigap plan.
             </p>
@@ -207,12 +219,12 @@ export default function PageContent() {
           {/* Medical Underwriting */}
           <div className="mb-14 p-6 bg-slate-50 rounded-xl border border-slate-200">
             <h2 className="text-2xl font-bold text-slate-900 mb-3" style={{ fontFamily: "'Merriweather', serif" }}>
-              What Is Medical Underwriting?
+              What Is <strong>Medical Underwriting</strong>?
             </h2>
             <p className="text-slate-600 mb-4 leading-relaxed">
               Medical underwriting is the process insurers use to evaluate your health history before deciding whether to sell you a Medigap plan and at what price. Outside of your OEP and guaranteed issue situations, insurers can:
             </p>
-            <ul className="space-y-2 mb-4">
+            <ul className="space-y-2 mb-4 list-none">
               {[
                 "Deny your Medigap application entirely",
                 "Charge higher premiums based on your health history",
@@ -234,45 +246,53 @@ export default function PageContent() {
             <h2 className="text-2xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
               Frequently Asked Questions
             </h2>
-            <div className="space-y-3">
+            <dl className="space-y-3">
               {FAQS.map((faq, i) => (
                 <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
-                  <button
-                    onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                    aria-expanded={openFaq === i}
-                    className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-slate-50 transition-colors"
-                  >
-                    <span className="font-semibold text-slate-800 pr-4">{faq.q}</span>
-                    <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
-                  </button>
+                  <dt>
+                    <button
+                      onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                      aria-expanded={openFaq === i}
+                      className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-slate-50 transition-colors"
+                    >
+                      <span className="font-semibold text-slate-800 pr-4">{faq.q}</span>
+                      <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
+                    </button>
+                  </dt>
                   {openFaq === i && (
-                    <div className="px-5 pb-5 text-slate-600 leading-relaxed text-sm border-t border-slate-100 pt-4">
+                    <dd className="px-5 pb-5 text-slate-600 leading-relaxed text-sm border-t border-slate-100 pt-4">
                       {faq.a}
-                    </div>
+                    </dd>
                   )}
                 </div>
               ))}
-            </div>
+            </dl>
           </div>
 
           {/* CTA */}
           <div className="p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
             <h3 className="text-2xl font-bold mb-3">Ready to Enroll in Medigap?</h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
-              Our licensed Medicare agents can help you understand your eligibility, find the right plan, and enroll during your Open Enrollment Period - at no cost to you.
+              Our licensed Medicare agents can help you understand your eligibility, find the right plan, and enroll during your <strong>Open Enrollment Period</strong> - at no cost to you.
             </p>
-            <div className="flex flex-wrap gap-3">
-              <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_eligibility" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
-              </a>
-              <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-                Compare Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
-              </Link>
-              <Link href="/medicare-supplement-plans/medicare-supplement-plans-2026" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-                2026 Plan Changes <ArrowRight className="w-4 h-4" aria-hidden="true" />
-              </Link>
-            </div>
+            <ul className="flex flex-wrap gap-3 list-none">
+              <li>
+                <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+                onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_eligibility" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                  <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
+                </a>
+              </li>
+              <li>
+                <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+                  Compare Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                </Link>
+              </li>
+              <li>
+                <Link href="/medicare-supplement-plans/medicare-supplement-plans-2026" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+                  2026 Plan Changes <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </section>

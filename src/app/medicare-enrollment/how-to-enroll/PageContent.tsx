@@ -69,7 +69,8 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
 ];
 
-export default function HowToEnroll() {  const [activeSection, setActiveSection] = useState("overview");
+export default function HowToEnroll() {
+  const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => {
@@ -94,10 +95,6 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
 
   return (
     <article className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-teal-700 via-teal-800 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -106,13 +103,25 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-amber-300 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-teal-200/70 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-teal-200/70">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-teal-100">How to Enroll</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-teal-200/70 mb-6 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li>
+                <span className="text-teal-200/70">Enrollment</span>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-teal-100">How to Enroll</span>
+              </li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
               <FileText className="w-6 h-6 text-teal-200" aria-hidden="true" />
@@ -150,13 +159,13 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   Medicare Enrollment Overview
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Enrolling in Medicare involves several separate steps depending on which coverage you want. <strong><Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A & B)</strong> is enrolled through Social Security, while <strong><Link href="/medicare-part-c/medicare-advantage-plans" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage</Link></strong>, <strong><Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">Part D</Link></strong>, and <strong><Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></strong> plans are enrolled through private insurance companies.
+                  Enrolling in Medicare involves several separate steps depending on which coverage you want. <strong><Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> (Parts A &amp; B)</strong> is enrolled through Social Security, while <strong><Link href="/medicare-part-c/medicare-advantage-plans" className="text-teal-700 underline hover:text-teal-900">Medicare Advantage</Link></strong>, <strong><Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-teal-700 underline hover:text-teal-900">Part D</Link></strong>, and <strong><Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></strong> plans are enrolled through private insurance companies.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   This guide covers the enrollment process for each type of coverage, the documents you'll need, and all the ways you can sign up.
                 </p>
 
-                <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
+                <aside aria-label="Important enrollment timing warning" className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -166,20 +175,20 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* Original Medicare */}
               <section id="original-medicare" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
-                  How to Enroll in Original Medicare (Parts A & B)
+                  How to Enroll in <strong>Original Medicare</strong> (Parts A &amp; B)
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
                   Original Medicare enrollment is handled by the <strong>Social Security Administration (SSA)</strong>, not by Medicare directly. Here are your three options:
                 </p>
 
-                <div className="space-y-4 mb-8">
-                  <div className="bg-white rounded-xl border-2 border-teal-200 p-6">
+                <ul className="space-y-4 mb-8 list-none">
+                  <li className="bg-white rounded-xl border-2 border-teal-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center shrink-0">
                         <Monitor className="w-6 h-6 text-teal-700" aria-hidden="true" />
@@ -192,16 +201,16 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                         <p className="text-sm text-slate-600 mb-3">
                           The quickest way to enroll. Visit <strong>ssa.gov</strong> and use the online application. It takes about 10-15 minutes and you can do it from home.
                         </p>
-                        <div className="space-y-1">
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> Available 24/7</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> No appointment needed</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> Get confirmation immediately</p>
-                        </div>
+                        <ul className="space-y-1 list-none">
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> Available 24/7</li>
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> No appointment needed</li>
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> Get confirmation immediately</li>
+                        </ul>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <li className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center shrink-0">
                         <Phone className="w-6 h-6 text-blue-700" aria-hidden="true" />
@@ -211,16 +220,16 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                         <p className="text-sm text-slate-600 mb-3">
                           Call Social Security at <strong>1-800-772-1213</strong> (TTY: 1-800-325-0778). Representatives are available Monday through Friday, 8 a.m. to 7 p.m. local time.
                         </p>
-                        <div className="space-y-1">
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-blue-600" aria-hidden="true" /> Speak with a representative</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-blue-600" aria-hidden="true" /> Ask questions during enrollment</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><AlertTriangle className="w-3 h-3 text-amber-500" aria-hidden="true" /> Wait times may be long</p>
-                        </div>
+                        <ul className="space-y-1 list-none">
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-blue-600" aria-hidden="true" /> Speak with a representative</li>
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-blue-600" aria-hidden="true" /> Ask questions during enrollment</li>
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><AlertTriangle className="w-3 h-3 text-amber-500" aria-hidden="true" /> Wait times may be long</li>
+                        </ul>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <li className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center shrink-0">
                         <MapPin className="w-6 h-6 text-purple-700" aria-hidden="true" />
@@ -230,21 +239,21 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                         <p className="text-sm text-slate-600 mb-3">
                           Visit your local Social Security office. You can find the nearest office at <strong>ssa.gov/locator</strong>. An appointment is recommended but walk-ins are accepted.
                         </p>
-                        <div className="space-y-1">
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-purple-600" aria-hidden="true" /> Face-to-face assistance</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-purple-600" aria-hidden="true" /> Bring documents for immediate processing</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><AlertTriangle className="w-3 h-3 text-amber-500" aria-hidden="true" /> Limited hours, may require appointment</p>
-                        </div>
+                        <ul className="space-y-1 list-none">
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-purple-600" aria-hidden="true" /> Face-to-face assistance</li>
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-purple-600" aria-hidden="true" /> Bring documents for immediate processing</li>
+                          <li className="text-xs text-slate-500 flex items-center gap-1"><AlertTriangle className="w-3 h-3 text-amber-500" aria-hidden="true" /> Limited hours, may require appointment</li>
+                        </ul>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  </li>
+                </ul>
               </section>
 
               {/* Medicare Advantage */}
               <section id="medicare-advantage" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
-                  How to Enroll in Medicare Advantage (Part C)
+                  How to Enroll in <strong>Medicare Advantage</strong> (Part C)
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
                   Medicare Advantage plans are offered by private insurance companies approved by Medicare. You must already be enrolled in Parts A and B before you can join a Medicare Advantage plan.
@@ -252,15 +261,15 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
 
                 <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 mb-6">
                   <h3 className="font-semibold text-slate-900 mb-4">Steps to Enroll in Medicare Advantage:</h3>
-                  <div className="space-y-3">
+                  <ol className="space-y-3 list-none">
                     {[
-                      { step: "1", title: "Ensure You Have Parts a & B", desc: "You must be enrolled in both Medicare Part A and Part B to join a Medicare Advantage plan." },
+                      { step: "1", title: "Ensure You Have Parts A & B", desc: "You must be enrolled in both Medicare Part A and Part B to join a Medicare Advantage plan." },
                       { step: "2", title: "Compare Plans in Your Area", desc: "Use Medicare.gov's Plan Finder or call a licensed agent to compare MA plans available in your ZIP code." },
                       { step: "3", title: "Check Provider Networks", desc: "Make sure your doctors, hospitals, and pharmacies are in the plan's network." },
                       { step: "4", title: "Review the Drug Formulary", desc: "If the plan includes drug coverage (MA-PD), check that your medications are covered." },
                       { step: "5", title: "Enroll during a Valid Enrollment Period", desc: "Sign up during your IEP, AEP (Oct 15 – Dec 7), or a qualifying SEP." },
                     ].map((item) => (
-                      <div key={item.step} className="flex items-start gap-4">
+                      <li key={item.step} className="flex items-start gap-4">
                         <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center shrink-0 text-sm font-bold text-blue-700">
                           {item.step}
                         </div>
@@ -268,12 +277,12 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                           <p className="text-sm font-semibold text-slate-900">{item.title}</p>
                           <p className="text-xs text-slate-500">{item.desc}</p>
                         </div>
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ol>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
+                <aside aria-label="Enrollment methods for Medicare Advantage plans" className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
                     <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -283,13 +292,13 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* Part D */}
               <section id="part-d" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
-                  How to Enroll in Part D (Prescription Drug Coverage)
+                  How to Enroll in <strong>Part D</strong> (Prescription Drug Coverage)
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
                   If you choose Original Medicare (not Medicare Advantage), you'll need a standalone Part D plan for prescription drug coverage. Part D plans are offered by private insurance companies.
@@ -297,14 +306,14 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
 
                 <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 mb-6">
                   <h3 className="font-semibold text-slate-900 mb-4">Steps to Enroll in Part D:</h3>
-                  <div className="space-y-3">
+                  <ol className="space-y-3 list-none">
                     {[
                       { step: "1", title: "List Your Current Medications", desc: "Include drug names, dosages, and how often you take them." },
                       { step: "2", title: "Compare Part D Plans", desc: "Use Medicare.gov's Plan Finder or call a licensed agent to find plans that cover your drugs at the lowest cost." },
                       { step: "3", title: "Check Your Pharmacy", desc: "Make sure your preferred pharmacy is in the plan's network for the best pricing." },
                       { step: "4", title: "Enroll during a Valid Period", desc: "Sign up during your IEP, AEP (Oct 15 – Dec 7), or a qualifying SEP." },
                     ].map((item) => (
-                      <div key={item.step} className="flex items-start gap-4">
+                      <li key={item.step} className="flex items-start gap-4">
                         <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center shrink-0 text-sm font-bold text-purple-700">
                           {item.step}
                         </div>
@@ -312,12 +321,12 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                           <p className="text-sm font-semibold text-slate-900">{item.title}</p>
                           <p className="text-xs text-slate-500">{item.desc}</p>
                         </div>
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ol>
                 </div>
 
-                <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
+                <aside aria-label="Warning about Part D late enrollment penalty" className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -327,46 +336,46 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* Medigap */}
               <section id="medigap" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
-                  How to Enroll in Medigap (Medicare Supplement)
+                  How to Enroll in <strong>Medigap</strong> (Medicare Supplement)
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Medigap plans fill the gaps in Original Medicare — covering deductibles, copays, and coinsurance. They're sold by private insurance companies and can be enrolled in at any time, though your <strong>best opportunity</strong> is during your <Link href="/faqs/medicare-supplement-open-enrollment" className="text-teal-700 underline font-semibold hover:text-teal-900">Medigap Open Enrollment Period</Link>.
+                  Medigap plans fill the gaps in Original Medicare — covering <strong>deductibles</strong>, <strong>copays</strong>, and <strong>coinsurance</strong>. They're sold by private insurance companies and can be enrolled in at any time, though your <strong>best opportunity</strong> is during your <Link href="/faqs/medicare-supplement-open-enrollment" className="text-teal-700 underline font-semibold hover:text-teal-900">Medigap Open Enrollment Period</Link>.
                 </p>
 
                 <div className="bg-gradient-to-r from-teal-50 to-green-50 border-2 border-teal-200 rounded-xl p-6 mb-6">
                   <h3 className="font-bold text-teal-900 mb-4">Medigap Enrollment Best Practices</h3>
-                  <div className="space-y-3">
-                    <div className="flex items-start gap-3">
+                  <ul className="space-y-3 list-none">
+                    <li className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-teal-900">Enroll during your Medigap OEP</p>
                         <p className="text-xs text-teal-700">6-month window starting when Part B is effective. Guaranteed issue — no health questions.</p>
                       </div>
-                    </div>
-                    <div className="flex items-start gap-3">
+                    </li>
+                    <li className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-teal-900">Compare plans and rates</p>
                         <p className="text-xs text-teal-700">All Medigap plans with the same letter (e.g., Plan G) offer identical benefits regardless of company. Compare on price and company reputation.</p>
                       </div>
-                    </div>
-                    <div className="flex items-start gap-3">
+                    </li>
+                    <li className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-teal-900">Work with a licensed agent</p>
                         <p className="text-xs text-teal-700">An independent agent can compare rates from multiple carriers and handle the application for you — at no cost.</p>
                       </div>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
 
-                <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl">
+                <aside aria-label="Warning about applying for Medigap outside Open Enrollment Period" className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -376,7 +385,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* Documents */}
@@ -391,7 +400,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
                     <h3 className="font-semibold text-slate-900 mb-3 text-sm">For Original Medicare (SSA)</h3>
-                    <div className="space-y-2">
+                    <ul className="space-y-2 list-none">
                       {[
                         "Social Security number",
                         "Date of birth",
@@ -399,17 +408,17 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                         "Current employer info (if still working)",
                         "Bank account info (for premium payments)",
                       ].map((doc, i) => (
-                        <div key={i} className="flex items-start gap-2">
+                        <li key={i} className="flex items-start gap-2">
                           <FileText className="w-3.5 h-3.5 text-slate-400 mt-0.5 shrink-0" aria-hidden="true" />
                           <span className="text-xs text-slate-600">{doc}</span>
-                        </div>
+                        </li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
 
                   <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
                     <h3 className="font-semibold text-slate-900 mb-3 text-sm">For Supplemental Plans</h3>
-                    <div className="space-y-2">
+                    <ul className="space-y-2 list-none">
                       {[
                         "Medicare card (or Medicare number)",
                         "Part A and Part B effective dates",
@@ -417,29 +426,29 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                         "Preferred doctors and pharmacies",
                         "Creditable coverage letter (if applicable)",
                       ].map((doc, i) => (
-                        <div key={i} className="flex items-start gap-2">
+                        <li key={i} className="flex items-start gap-2">
                           <FileText className="w-3.5 h-3.5 text-slate-400 mt-0.5 shrink-0" aria-hidden="true" />
                           <span className="text-xs text-slate-600">{doc}</span>
-                        </div>
+                        </li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
 
                   <div className="bg-amber-50 rounded-xl p-5 border border-amber-200 sm:col-span-2">
-                    <h3 className="font-semibold text-amber-900 mb-3 text-sm">For Special Enrollment Period (SEP)</h3>
-                    <div className="grid sm:grid-cols-2 gap-2">
+                    <h3 className="font-semibold text-amber-900 mb-3 text-sm">For <strong>Special Enrollment Period</strong> (SEP)</h3>
+                    <ul className="grid sm:grid-cols-2 gap-2 list-none">
                       {[
                         "Proof of prior creditable coverage",
                         "Employer coverage termination letter",
                         "Date employment ended",
                         "Creditable coverage letter from employer",
                       ].map((doc, i) => (
-                        <div key={i} className="flex items-start gap-2">
+                        <li key={i} className="flex items-start gap-2">
                           <FileText className="w-3.5 h-3.5 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" />
                           <span className="text-xs text-amber-800">{doc}</span>
-                        </div>
+                        </li>
                       ))}
-                    </div>
+                    </ul>
                   </div>
                 </div>
               </section>
@@ -514,49 +523,61 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
+                      onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
                       <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal
                       coverageType="ms"
                       triggerLabel="Compare Plans First"
-                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"              pageSection="how_to_enroll"
-                triggerId="compare-plans-how-to-enroll" />
+                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
+                      pageSection="how_to_enroll"
+                      triggerId="compare-plans-how-to-enroll" />
                   </div>
                 </div>
               </section>
 
               {/* Related Pages */}
-              <div className="grid sm:grid-cols-4 gap-4">
-                <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
-                  <Calendar className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Turning 65 Enrollment</h3>
-                  <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
-                </Link>
-                <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
-                  <AlertTriangle className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Late Penalties</h3>
-                  <p className="text-xs text-slate-500">Avoid costly penalties</p>
-                </Link>
-                <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
-                  <Shield className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Compare Plans</h3>
-                  <p className="text-xs text-slate-500">Side-by-side plan comparison</p>
-                </Link>
-                <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
-                  <FileText className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Apply for Part B</h3>
-                  <p className="text-xs text-slate-500">Step-by-step Part B application</p>
-                </Link>
-              </div>
+              <nav aria-label="Related pages">
+                <ul className="grid sm:grid-cols-4 gap-4 list-none">
+                  <li>
+                    <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors block">
+                      <Calendar className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
+                      <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Turning 65 Enrollment</h3>
+                      <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors block">
+                      <AlertTriangle className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
+                      <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Late Penalties</h3>
+                      <p className="text-xs text-slate-500">Avoid costly penalties</p>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors block">
+                      <Shield className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
+                      <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Compare Plans</h3>
+                      <p className="text-xs text-slate-500">Side-by-side plan comparison</p>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors block">
+                      <FileText className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
+                      <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Apply for Part B</h3>
+                      <p className="text-xs text-slate-500">Step-by-step Part B application</p>
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
             </div>
+
             {/* Right Sidebar */}
             <aside className="hidden xl:block w-64 shrink-0 order-last">
-              <nav className="sticky top-40">
+              <nav aria-label="Table of contents" className="sticky top-40">
                 <h3 className="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-4">
                   In This Guide
                 </h3>
-                <ul className="space-y-1">
+                <ul className="space-y-1 list-none">
                   {tableOfContents.map((item) => (
                     <li key={item.id}>
                       <a
@@ -596,7 +617,6 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
         </div>
       </section>
 
-      
     </article>
   );
 }

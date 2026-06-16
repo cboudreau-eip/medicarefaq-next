@@ -110,10 +110,6 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
 
   return (
     <article className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-amber-700 via-amber-800 to-amber-900 pt-8 pb-16 overflow-hidden">
@@ -122,13 +118,25 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-orange-300 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-amber-200/70 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-amber-200/70">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-amber-100">Turning 65</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-amber-200/70 mb-6">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li aria-hidden="true">
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li>
+                <span className="text-amber-200/70">Enrollment</span>
+              </li>
+              <li aria-hidden="true">
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-amber-100">Turning 65</span>
+              </li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
               <Calendar className="w-6 h-6 text-amber-200" aria-hidden="true" />
@@ -139,7 +147,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
             Turning 65? Here's How to Enroll in Medicare
           </h1>
           <p className="text-lg text-amber-100/90 max-w-2xl mb-8">
-            Your Initial Enrollment Period is a 7-month window around your 65th birthday. Learn exactly when it opens, what to sign up for, and how to avoid costly mistakes.
+            Your <strong>Initial Enrollment Period</strong> is a 7-month window around your 65th birthday. Learn exactly when it opens, what to sign up for, and how to avoid costly mistakes.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#timeline" className="inline-flex items-center gap-2 bg-white text-amber-800 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
@@ -169,10 +177,10 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   When you turn 65, you become eligible for Medicare — and your <strong>Initial Enrollment Period (IEP)</strong> is the first and most important window to sign up. This 7-month period is centered around your 65th birthday and is the ideal time to enroll in Medicare Parts A and B, as well as any supplemental coverage you may need.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
-                  The IEP begins <strong>3 months before</strong> the month you turn 65, includes your birthday month, and extends <strong>3 months after</strong>. Missing this window can result in delayed coverage, gaps in protection, and permanent late enrollment penalties.
+                  The IEP begins <strong>3 months before</strong> the month you turn 65, includes your birthday month, and extends <strong>3 months after</strong>. Missing this window can result in delayed coverage, gaps in protection, and permanent <strong>late enrollment penalties</strong>.
                 </p>
 
-                <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-8">
+                <aside aria-label="First-of-the-Month Birthday Exception" className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-8">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -182,7 +190,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
 
                 <div className="grid md:grid-cols-3 gap-4">
                   <div className="bg-slate-50 rounded-xl p-5 border border-slate-100 text-center">
@@ -209,9 +217,9 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   Timing matters. When you enroll within your IEP determines when your coverage begins. Here's how the 7-month window breaks down:
                 </p>
 
-                <div className="space-y-4 mb-8">
+                <ol className="space-y-4 mb-8 list-none">
                   {timelineSteps.map((step, i) => (
-                    <div
+                    <li
                       key={i}
                       className={`relative p-6 rounded-xl border-2 ${
                         step.status === "ideal"
@@ -262,9 +270,9 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                           <p className="text-sm text-slate-600">{step.description}</p>
                         </div>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ol>
               </section>
 
               {/* When Coverage Starts */}
@@ -305,7 +313,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   </table>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
+                <aside aria-label="Coverage start date example" className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
                     <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -315,7 +323,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* Automatic Enrollment */}
@@ -333,7 +341,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       <CheckCircle2 className="w-5 h-5 text-green-600" aria-hidden="true" />
                       <h3 className="font-semibold text-green-900">You WILL be Auto-Enrolled If:</h3>
                     </div>
-                    <ul className="space-y-2 text-sm text-green-800">
+                    <ul className="space-y-2 text-sm text-green-800 list-none">
                       <li className="flex items-start gap-2">
                         <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span>You're already receiving Social Security retirement benefits</span>
@@ -355,7 +363,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" />
                       <h3 className="font-semibold text-amber-900">You MUST Sign up If:</h3>
                     </div>
-                    <ul className="space-y-2 text-sm text-amber-800">
+                    <ul className="space-y-2 text-sm text-amber-800 list-none">
                       <li className="flex items-start gap-2">
                         <ArrowRight className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span>You haven't started collecting Social Security yet</span>
@@ -383,53 +391,53 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   When you first become eligible, you have several coverage decisions to make. Here's a breakdown of your options:
                 </p>
 
-                <div className="space-y-4">
-                  <div className="bg-white rounded-xl border border-slate-200 p-6">
+                <ul className="space-y-4 list-none">
+                  <li className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
                         <Shield className="w-5 h-5 text-blue-600" aria-hidden="true" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-a" className="hover:text-amber-700 transition-colors">Medicare Part A (Hospital Insurance)</Link></h3>
+                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-a" className="hover:text-amber-700 transition-colors"><strong>Medicare Part A</strong> (Hospital Insurance)</Link></h3>
                         <p className="text-sm text-slate-600 mb-2">
                           Covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. <strong>Premium-free</strong> for most people who worked 10+ years (40 quarters) paying Medicare taxes.
                         </p>
                         <span className="text-xs font-semibold text-green-700 bg-green-50 px-2 py-1 rounded">Recommended for everyone at 65</span>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <li className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center shrink-0">
                         <Users className="w-5 h-5 text-teal-600" aria-hidden="true" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-b" className="hover:text-amber-700 transition-colors">Medicare Part B (Medical Insurance)</Link></h3>
+                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-b" className="hover:text-amber-700 transition-colors"><strong>Medicare Part B</strong> (Medical Insurance)</Link></h3>
                         <p className="text-sm text-slate-600 mb-2">
-                          Covers doctor visits, outpatient care, preventive services, durable medical equipment, and more. Standard 2026 premium is <strong>$202.90/month</strong>. Can be delayed if you have creditable employer coverage.
+                          Covers doctor visits, outpatient care, preventive services, durable medical equipment, and more. Standard 2026 <strong>premium</strong> is <strong>$202.90/month</strong>. Can be delayed if you have <strong>creditable coverage</strong> from an employer.
                         </p>
                         <span className="text-xs font-semibold text-amber-700 bg-amber-50 px-2 py-1 rounded">Enroll at 65 unless you have employer coverage</span>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <li className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center shrink-0">
                         <FileText className="w-5 h-5 text-purple-600" aria-hidden="true" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-d" className="hover:text-amber-700 transition-colors">Medicare Part D (Prescription Drug Coverage)</Link></h3>
+                        <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-d" className="hover:text-amber-700 transition-colors"><strong>Medicare Part D</strong> (Prescription Drug Coverage)</Link></h3>
                         <p className="text-sm text-slate-600 mb-2">
-                          Standalone drug plans that cover prescription medications. Premiums vary by plan. If you delay without creditable drug coverage, you'll face a permanent late enrollment penalty.
+                          Standalone drug plans that cover prescription medications. Premiums vary by plan. If you delay without creditable drug coverage, you'll face a permanent <strong>late enrollment penalty</strong>.
                         </p>
                         <span className="text-xs font-semibold text-amber-700 bg-amber-50 px-2 py-1 rounded">Enroll when Part B starts unless you have creditable drug coverage</span>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-white rounded-xl border border-slate-200 p-6">
+                  <li className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-rose-100 rounded-lg flex items-center justify-center shrink-0">
                         <Shield className="w-5 h-5 text-rose-600" aria-hidden="true" />
@@ -437,7 +445,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1">Supplemental Coverage (Choose One Path)</h3>
                         <p className="text-sm text-slate-600 mb-2">
-                          You'll choose between a <Link href="/medicare-supplement-plans" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Supplement (Medigap)</Link> plan to fill gaps in Original Medicare, or a <Link href="/medicare-part-c/medicare-advantage-plans" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Advantage (Part C)</Link> plan that replaces Original Medicare with an all-in-one alternative. You cannot have both.
+                          You'll choose between a <Link href="/medicare-supplement-plans" className="text-amber-700 underline font-semibold hover:text-amber-900"><strong>Medicare Supplement (Medigap)</strong></Link> plan to fill gaps in Original Medicare, or a <Link href="/medicare-part-c/medicare-advantage-plans" className="text-amber-700 underline font-semibold hover:text-amber-900"><strong>Medicare Advantage (Part C)</strong></Link> plan that replaces Original Medicare with an all-in-one alternative. You cannot have both.
                         </p>
                         <div className="flex gap-2 mt-2">
                           <Link href="/medicare-plans/supplement-vs-advantage" className="text-xs font-semibold text-blue-700 bg-blue-50 px-2 py-1 rounded hover:bg-blue-100 transition-colors">
@@ -446,8 +454,8 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  </li>
+                </ul>
               </section>
 
               {/* Medigap Window */}
@@ -456,27 +464,27 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   Your Medigap Open Enrollment Window
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  If you choose Original Medicare + Medigap, your <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link> is critical. It begins the first day of the month your Medicare Part B is effective and lasts for <strong>6 months</strong>.
+                  If you choose Original Medicare + Medigap, your <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900"><strong>Medigap Open Enrollment Period</strong></Link> is critical. It begins the first day of the month your <strong>Medicare Part B</strong> is effective and lasts for <strong>6 months</strong>.
                 </p>
 
                 <div className="bg-gradient-to-r from-teal-50 to-blue-50 border border-teal-200 rounded-xl p-6 mb-6">
                   <h3 className="font-semibold text-teal-900 mb-3">During Your Medigap OEP, You Have Guaranteed Issue Rights:</h3>
-                  <div className="grid sm:grid-cols-2 gap-3">
+                  <ul className="grid sm:grid-cols-2 gap-3 list-none">
                     {[
                       "No health questions or medical underwriting",
                       "Cannot be denied coverage for any reason",
                       "Cannot be charged more due to health conditions",
                       "Can choose any Medigap plan available in your state",
                     ].map((item, i) => (
-                      <div key={i} className="flex items-start gap-2">
+                      <li key={i} className="flex items-start gap-2">
                         <CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-teal-800">{item}</span>
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </div>
 
-                <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl">
+                <aside aria-label="Warning: Don't miss your Medigap window" className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -486,7 +494,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* Checklist */}
@@ -498,7 +506,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   Follow these steps to ensure a smooth transition to Medicare:
                 </p>
 
-                <div className="space-y-3">
+                <ol className="space-y-3 list-none">
                   {[
                     { time: "6 months before 65", task: "Start researching Medicare options — Original Medicare, Medigap, Medicare Advantage, and Part D plans" },
                     { time: "3 months before 65", task: "Your IEP opens. Enroll in Part A and Part B (unless delaying Part B with employer coverage)" },
@@ -509,7 +517,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                     { time: "After enrollment", task: "Notify your employer if transitioning from employer coverage to Medicare" },
                     { time: "After enrollment", task: "Review your Medicare card and coverage details when they arrive" },
                   ].map((item, i) => (
-                    <div key={i} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
+                    <li key={i} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
                       <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center shrink-0 text-sm font-bold text-amber-700">
                         {i + 1}
                       </div>
@@ -517,9 +525,9 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                         <span className="text-xs font-semibold text-amber-600 uppercase tracking-wider">{item.time}</span>
                         <p className="text-sm text-slate-700 mt-0.5">{item.task}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ol>
               </section>
 
               {/* FAQs */}
@@ -570,36 +578,45 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
               </section>
 
               {/* Related Pages */}
-              <div className="grid sm:grid-cols-4 gap-4">
-                <Link href="/medicare-enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <Briefcase className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Working past 65</h3>
-                  <p className="text-xs text-slate-500">Medicare & employer coverage coordination</p>
-                </Link>
-                <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
-                  <p className="text-xs text-slate-500">Avoid costly late enrollment penalties</p>
-                </Link>
-                <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <Shield className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Compare Plans</h3>
-                  <p className="text-xs text-slate-500">Side-by-side plan comparison</p>
-                </Link>
-                <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <FileText className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Apply for Part B</h3>
-                  <p className="text-xs text-slate-500">Step-by-step Part B application</p>
-                </Link>
-              </div>
+              <ul className="grid sm:grid-cols-4 gap-4 list-none">
+                <li>
+                  <Link href="/medicare-enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
+                    <Briefcase className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Working past 65</h3>
+                    <p className="text-xs text-slate-500">Medicare & employer coverage coordination</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
+                    <p className="text-xs text-slate-500">Avoid costly late enrollment penalties</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
+                    <Shield className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Compare Plans</h3>
+                    <p className="text-xs text-slate-500">Side-by-side plan comparison</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
+                    <FileText className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Apply for Part B</h3>
+                    <p className="text-xs text-slate-500">Step-by-step Part B application</p>
+                  </Link>
+                </li>
+              </ul>
             </div>
+
             {/* Right Sidebar */}
             <aside className="hidden xl:block w-64 shrink-0 order-last">
-              <nav className="sticky top-40">
+              <nav aria-label="Table of contents" className="sticky top-40">
                 <h3 className="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-4">
                   In This Guide
                 </h3>
-                <ul className="space-y-1">
+                <ul className="space-y-1 list-none">
                   {tableOfContents.map((item) => (
                     <li key={item.id}>
                       <a
@@ -639,7 +656,6 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
         </div>
       </section>
 
-      
     </article>
   );
 }

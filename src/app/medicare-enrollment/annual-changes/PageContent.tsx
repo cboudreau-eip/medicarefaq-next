@@ -47,11 +47,11 @@ const faqs: { q: string; a: ReactNode }[] = [
   },
   {
     q: "Can I switch from Medicare Advantage to Original Medicare during AEP?",
-    a: <>Yes. During the Annual Enrollment Period (October 15 – December 7), you can disenroll from your Medicare Advantage plan and return to Original Medicare. If you do, you can also enroll in a standalone Part D plan and a Medigap plan. However, Medigap plans may require <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">medical underwriting</Link> outside of your initial <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link>.</>,
+    a: <>Yes. During the <strong>Annual Enrollment Period</strong> (October 15 – December 7), you can disenroll from your Medicare Advantage plan and return to Original Medicare. If you do, you can also enroll in a standalone Part D plan and a Medigap plan. However, Medigap plans may require <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">medical underwriting</Link> outside of your initial <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link>.</>,
   },
   {
     q: "What's the difference between AEP and the MA Open Enrollment Period?",
-    a: <>The Annual Enrollment Period (AEP) runs October 15 – December 7 and is open to all Medicare beneficiaries. The <Link href="/medicare-part-c/medicare-advantage-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Advantage Open Enrollment Period</Link> (MA OEP) runs January 1 – March 31 and is only for people already enrolled in a Medicare Advantage plan. During the MA OEP, you can switch MA plans or return to Original Medicare.</>,
+    a: <>The <strong>Annual Enrollment Period (AEP)</strong> runs October 15 – December 7 and is open to all Medicare beneficiaries. The <Link href="/medicare-part-c/medicare-advantage-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900">Medicare Advantage Open Enrollment Period</Link> (MA OEP) runs January 1 – March 31 and is only for people already enrolled in a Medicare Advantage plan. During the MA OEP, you can switch MA plans or return to Original Medicare.</>,
   },
   {
     q: "When do changes made during AEP take effect?",
@@ -95,7 +95,8 @@ const faqsForSchema = [
   },
 ];
 
-export default function AnnualChanges() {  const [activeSection, setActiveSection] = useState("overview");
+export default function AnnualChanges() {
+  const [activeSection, setActiveSection] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => {
@@ -139,10 +140,6 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
         authorUrl="https://www.medicarefaq.com/about"
         imageUrl="https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg"
       />
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-amber-700 via-orange-800 to-amber-900 pt-8 pb-16 overflow-hidden">
@@ -151,13 +148,25 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-red-300 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-amber-200/70 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-amber-200/70">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-amber-100">Annual Changes</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-amber-200/70 mb-6 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li>
+                <span className="text-amber-200/70">Enrollment</span>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-amber-100">Annual Changes</span>
+              </li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
               <ArrowRightLeft className="w-6 h-6 text-amber-200" aria-hidden="true" />
@@ -195,26 +204,26 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                   What Changes Each Year in Medicare?
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  Medicare isn't static. Every year, the Centers for Medicare & Medicaid Services (CMS) adjusts costs, updates coverage rules, and allows insurance companies to modify their plan offerings. These changes can affect your premiums, deductibles, copays, <Link href="/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" className="text-amber-700 underline font-semibold hover:text-amber-900">drug formularies</Link>, and provider networks.
+                  Medicare isn't static. Every year, the Centers for Medicare &amp; Medicaid Services (CMS) adjusts costs, updates coverage rules, and allows insurance companies to modify their plan offerings. These changes can affect your <strong>premiums</strong>, <strong>deductibles</strong>, <strong>copays</strong>, <Link href="/original-medicare/medicare-parts/medicare-part-d/medicare-part-d-formulary" className="text-amber-700 underline font-semibold hover:text-amber-900">drug formularies</Link>, and provider networks.
                 </p>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   That's why it's important to review your coverage annually — even if you're satisfied with your current plan. A plan that worked well this year may have significant changes next year.
                 </p>
 
-                <div className="grid sm:grid-cols-2 gap-4">
+                <ul className="grid sm:grid-cols-2 gap-4 list-none">
                   {[
                     { icon: DollarSign, title: "Premiums & Deductibles", desc: "Part A, Part B, Part D, and plan-specific costs are updated annually by CMS" },
                     { icon: FileText, title: "Drug Formularies", desc: "Part D and MA-PD plans can change which drugs are covered and at what tier" },
                     { icon: Shield, title: "Plan Benefits", desc: "Medicare Advantage plans may add, remove, or modify supplemental benefits" },
                     { icon: TrendingUp, title: "Provider Networks", desc: "MA plan networks can change — your doctor may no longer be in-network" },
                   ].map((item, i) => (
-                    <div key={i} className="bg-slate-50 rounded-xl p-5 border border-slate-100">
-                      <item.icon className="w-5 h-5 text-amber-600 mb-2" />
+                    <li key={i} className="bg-slate-50 rounded-xl p-5 border border-slate-100">
+                      <item.icon className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                       <h3 className="font-semibold text-slate-900 text-sm mb-1">{item.title}</h3>
                       <p className="text-xs text-slate-600">{item.desc}</p>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* 2026 Costs */}
@@ -256,17 +265,17 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                   </table>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
+                <aside aria-label="Note: New for 2026 Part D Out-of-Pocket Cap" className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
                     <TrendingUp className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
-                      <p className="font-semibold text-blue-900 mb-1">New for 2026: Part D Out-of-Pocket Cap</p>
+                      <p className="font-semibold text-blue-900 mb-1">New for 2026: <strong>Part D</strong> Out-of-Pocket Cap</p>
                       <p className="text-sm text-blue-800">
                         Starting in 2025, the Inflation Reduction Act introduced a <strong>$2,000 annual out-of-pocket cap</strong> for <Link href="/original-medicare/medicare-parts/medicare-part-d" className="text-blue-900 underline font-semibold hover:text-blue-700">Part D prescription drug costs</Link>. This continues in 2026 and eliminates the catastrophic coverage phase where beneficiaries previously had to pay 5% of drug costs indefinitely.
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* AEP */}
@@ -283,7 +292,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     <Calendar className="w-6 h-6 text-amber-600" aria-hidden="true" />
                     <h3 className="font-bold text-amber-900 text-lg">October 15 – December 7</h3>
                   </div>
-                  <div className="grid sm:grid-cols-2 gap-3">
+                  <ul className="grid sm:grid-cols-2 gap-3 list-none">
                     {[
                       "Switch from Original Medicare to Medicare Advantage",
                       "Switch from Medicare Advantage to Original Medicare",
@@ -292,12 +301,12 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                       "Changes take effect January 1",
                       "No health questions or medical underwriting",
                     ].map((item, i) => (
-                      <div key={i} className="flex items-start gap-2">
+                      <li key={i} className="flex items-start gap-2">
                         <CheckCircle2 className="w-4 h-4 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-amber-800">{item}</span>
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </div>
               </section>
 
@@ -312,35 +321,35 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
 
                 <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 mb-6">
                   <h3 className="font-semibold text-slate-900 mb-4">During the MA OEP, You Can:</h3>
-                  <div className="space-y-3">
-                    <div className="flex items-start gap-3">
+                  <ul className="space-y-3 list-none">
+                    <li className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-slate-900">Switch to a different Medicare Advantage plan</p>
                         <p className="text-xs text-slate-500">Including plans with or without drug coverage</p>
                       </div>
-                    </div>
-                    <div className="flex items-start gap-3">
+                    </li>
+                    <li className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-slate-900">Drop your MA plan and return to Original Medicare</p>
                         <p className="text-xs text-slate-500">You can also enroll in a standalone Part D plan</p>
                       </div>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
 
-                <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
+                <aside aria-label="Important limitation about MA OEP eligibility" className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Important Limitation</p>
                       <p className="text-sm text-amber-800">
-                        The MA OEP is only for people already on Medicare Advantage. If you're on Original Medicare, you <strong>cannot</strong> use this period to enroll in a Medicare Advantage plan. You would need to wait until the next AEP (October 15 – December 7).
+                        The MA OEP is only for people already on <strong>Medicare Advantage</strong>. If you're on Original Medicare, you <strong>cannot</strong> use this period to enroll in a Medicare Advantage plan. You would need to wait until the next AEP (October 15 – December 7).
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* ANOC */}
@@ -354,7 +363,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
 
                 <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 mb-6">
                   <h3 className="font-semibold text-slate-900 mb-4">What to Look for in Your ANOC:</h3>
-                  <div className="grid sm:grid-cols-2 gap-3">
+                  <ul className="grid sm:grid-cols-2 gap-3 list-none">
                     {[
                       { label: "Premium Changes", desc: "Monthly cost increases or decreases" },
                       { label: "Deductible Changes", desc: "New annual deductible amounts" },
@@ -363,15 +372,15 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                       { label: "Network Changes", desc: "Providers or facilities added or removed" },
                       { label: "Benefit Changes", desc: "New or discontinued supplemental benefits" },
                     ].map((item, i) => (
-                      <div key={i} className="flex items-start gap-2 p-3 bg-white rounded-lg border border-slate-100">
+                      <li key={i} className="flex items-start gap-2 p-3 bg-white rounded-lg border border-slate-100">
                         <FileText className="w-4 h-4 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <div>
                           <p className="text-sm font-semibold text-slate-900">{item.label}</p>
                           <p className="text-xs text-slate-500">{item.desc}</p>
                         </div>
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </div>
               </section>
 
@@ -440,7 +449,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                   Even if you're generally satisfied with your coverage, there are situations where reviewing and potentially switching plans makes sense:
                 </p>
 
-                <div className="space-y-3">
+                <ul className="space-y-3 list-none">
                   {[
                     { trigger: "Your premiums or copays are increasing significantly", action: "Compare similar plans with lower costs in your area" },
                     { trigger: "Your medications have been moved to a higher tier or removed", action: "Check other Part D or MA-PD plans that cover your drugs at a lower cost" },
@@ -449,7 +458,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     { trigger: "New plan options are available in your area", action: "Compare new plans — they may offer better benefits or lower costs" },
                     { trigger: "You're paying for benefits you don't use", action: "Consider switching to a plan that better matches your actual needs" },
                   ].map((item, i) => (
-                    <div key={i} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
+                    <li key={i} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
                       <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center shrink-0">
                         <AlertTriangle className="w-4 h-4 text-amber-700" aria-hidden="true" />
                       </div>
@@ -457,9 +466,9 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                         <p className="text-sm font-semibold text-slate-900">{item.trigger}</p>
                         <p className="text-xs text-slate-500 mt-0.5">{item.action}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* FAQs */}
@@ -495,48 +504,56 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     Need Help Reviewing Your Options?
                   </h2>
                   <p className="text-amber-100 mb-6 max-w-xl">
-                    Our licensed agents can review your current coverage, compare plans available in your area for 2026, and help you make the best decision during the Annual Enrollment Period.
+                    Our licensed agents can review your current coverage, compare plans available in your area for 2026, and help you make the best decision during the <strong>Annual Enrollment Period</strong>.
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "annual_changes" })} className="inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
+                      onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "annual_changes" })} className="inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
                       <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal
                       coverageType="ms"
                       triggerLabel="Compare Plans"
-                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"              pageSection="annual_changes"
-                triggerId="compare-plans-annual-changes" />
+                      triggerClassName="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30"
+                      pageSection="annual_changes"
+                      triggerId="compare-plans-annual-changes" />
                   </div>
                 </div>
               </section>
 
               {/* Related Pages */}
-              <div className="grid sm:grid-cols-3 gap-4">
-                <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <Calendar className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Turning 65 Enrollment</h3>
-                  <p className="text-xs text-slate-500">First-time enrollment guide</p>
-                </Link>
-                <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
-                  <p className="text-xs text-slate-500">Avoid costly penalties</p>
-                </Link>
-                <Link href="/medicare-plans/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <DollarSign className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Medicare Costs</h3>
-                  <p className="text-xs text-slate-500">Full cost breakdown</p>
-                </Link>
-              </div>
+              <ul className="grid sm:grid-cols-3 gap-4 list-none">
+                <li>
+                  <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
+                    <Calendar className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Turning 65 Enrollment</h3>
+                    <p className="text-xs text-slate-500">First-time enrollment guide</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
+                    <p className="text-xs text-slate-500">Avoid costly penalties</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/medicare-plans/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors block">
+                    <DollarSign className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Medicare Costs</h3>
+                    <p className="text-xs text-slate-500">Full cost breakdown</p>
+                  </Link>
+                </li>
+              </ul>
             </div>
+
             {/* Right Sidebar */}
             <aside className="hidden xl:block w-64 shrink-0 order-last">
-              <nav className="sticky top-40">
+              <nav aria-label="Table of contents" className="sticky top-40">
                 <h3 className="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-4">
                   In This Guide
                 </h3>
-                <ul className="space-y-1">
+                <ul className="space-y-1 list-none">
                   {tableOfContents.map((item) => (
                     <li key={item.id}>
                       <a
@@ -575,8 +592,6 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
           </div>
         </div>
       </section>
-
-      
     </article>
   );
 }

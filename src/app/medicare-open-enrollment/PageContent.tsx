@@ -104,11 +104,23 @@ export default function PageContent() {
         <div className="container relative z-10">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-slate-400 mb-6" aria-label="Breadcrumb">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <Link href="/enrollment" className="hover:text-white transition-colors">Enrollment</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-amber-400">Medicare Open Enrollment</span>
+            <ol className="flex items-center gap-2">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li aria-hidden="true">
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li>
+                <Link href="/enrollment" className="hover:text-white transition-colors">Enrollment</Link>
+              </li>
+              <li aria-hidden="true">
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-amber-400">Medicare Open Enrollment</span>
+              </li>
+            </ol>
           </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-amber-600/20 rounded-xl flex items-center justify-center">
@@ -121,7 +133,7 @@ export default function PageContent() {
             <span className="text-amber-400">(2026)</span>
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
-            The Annual Enrollment Period is your yearly opportunity to review, compare, and change your Medicare coverage. Know the key dates and make informed decisions.
+            The <strong>Annual Enrollment Period</strong> is your yearly opportunity to review, compare, and change your Medicare coverage. Know the key dates and make informed decisions.
           </p>
           <div className="flex flex-wrap gap-4">
             <ZipFormModal
@@ -147,7 +159,7 @@ export default function PageContent() {
 
       {/* Stat Cards */}
       <section className="container -mt-8 relative z-20 mb-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <dl className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             { value: "Oct 15 \u2013 Dec 7", label: "Annual Enrollment Period" },
             { value: "Jan 1", label: "changes take effect" },
@@ -155,11 +167,11 @@ export default function PageContent() {
             { value: "Review ANOC", label: "check plan changes each fall" },
           ].map((stat, i) => (
             <div key={i} className="bg-white rounded-xl p-5 border border-slate-100 text-center shadow-md">
-              <div className="text-xl font-bold text-amber-600 mb-1">{stat.value}</div>
-              <p className="text-xs text-slate-600">{stat.label}</p>
+              <dt className="text-xl font-bold text-amber-600 mb-1">{stat.value}</dt>
+              <dd className="text-xs text-slate-600">{stat.label}</dd>
             </div>
           ))}
-        </div>
+        </dl>
       </section>
 
       {/* Main Content */}
@@ -170,14 +182,18 @@ export default function PageContent() {
             <aside className="hidden lg:block lg:w-64 shrink-0">
               <div className="sticky top-28">
                 <p className="text-xs font-bold text-teal-700 uppercase tracking-wider mb-3">In This Guide</p>
-                <nav className="space-y-1">
-                  {tableOfContents.map((item) => (
-                    <a key={item.id} href={`#${item.id}`}
-                      className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
-                        activeSection === item.id ? "bg-teal-50 text-teal-700 font-semibold" : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
-                      }`}
-                    >{item.label}</a>
-                  ))}
+                <nav aria-label="Table of contents">
+                  <ul className="space-y-1">
+                    {tableOfContents.map((item) => (
+                      <li key={item.id}>
+                        <a href={`#${item.id}`}
+                          className={`block text-sm py-1.5 px-3 rounded-md transition-colors ${
+                            activeSection === item.id ? "bg-teal-50 text-teal-700 font-semibold" : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
+                          }`}
+                        >{item.label}</a>
+                      </li>
+                    ))}
+                  </ul>
                 </nav>
                 <div className="mt-8 p-4 bg-amber-50 rounded-xl border border-amber-100">
                   <p className="text-sm font-semibold text-amber-900 mb-1">Need Help Choosing a Plan?</p>
@@ -194,14 +210,14 @@ export default function PageContent() {
             {/* Content */}
             <div className="flex-1 min-w-0">
               {/* Key Takeaways */}
-              <div className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
+              <aside aria-label="Key Takeaways" className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
                 <div className="flex items-center gap-2 mb-3">
                   <Lightbulb className="w-5 h-5 text-teal-700" aria-hidden="true" />
                   <h3 className="font-bold text-teal-900 text-sm uppercase tracking-wider">Key Takeaways</h3>
                 </div>
-                <ul className="space-y-2">
+                <ul className="space-y-2 list-none">
                   {[
-                    (<>The Medicare Annual Enrollment Period (AEP) runs <strong>October 15 \u2013 December 7</strong> every year, with changes taking effect January 1</>),
+                    (<>The <strong>Medicare Annual Enrollment Period (AEP)</strong> runs <strong>October 15 \u2013 December 7</strong> every year, with changes taking effect January 1</>),
                     "During AEP, you can switch between Medicare Advantage and Original Medicare, change MA plans, or add/drop Part D coverage",
                     "The Medicare Advantage Open Enrollment Period (January 1 \u2013 March 31) provides a second chance to switch MA plans or return to Original Medicare",
                     "Review your plan\u2019s Annual Notice of Change (ANOC) each fall \u2014 benefits, costs, and provider networks can change annually",
@@ -212,7 +228,7 @@ export default function PageContent() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </aside>
 
               {/* What Is Medicare Open Enrollment? */}
               <section id="what-is" className="mb-16">
@@ -239,7 +255,7 @@ export default function PageContent() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   2026 Medicare Enrollment Dates &amp; Deadlines
                 </h2>
-                <div className="space-y-4">
+                <ul className="space-y-4 list-none">
                   {[
                     { title: "Annual Enrollment Period (AEP)", dates: "October 15 \u2013 December 7, 2026", desc: "The main enrollment window. Changes take effect January 1, 2027.", icon: Calendar, color: "amber" as const },
                     { title: "Medicare Advantage Open Enrollment (MA OEP)", dates: "January 1 \u2013 March 31, 2026", desc: "Only for people already in a Medicare Advantage plan. Switch MA plans or return to Original Medicare + Part D.", icon: Clock, color: "blue" as const },
@@ -247,14 +263,14 @@ export default function PageContent() {
                   ].map((period) => {
                     const isHighlight = period.color === "amber";
                     return (
-                      <div key={period.title} className={`p-5 rounded-xl border ${isHighlight ? "border-amber-200 bg-amber-50/50" : "border-slate-200 bg-white"}`}>
+                      <li key={period.title} className={`p-5 rounded-xl border ${isHighlight ? "border-amber-200 bg-amber-50/50" : "border-slate-200 bg-white"}`}>
                         <div className="flex items-start gap-4">
                           <div className={`w-12 h-12 rounded-lg flex items-center justify-center shrink-0 ${
                             period.color === "amber" ? "bg-amber-100" : period.color === "blue" ? "bg-blue-100" : "bg-slate-100"
                           }`}>
                             <period.icon className={`w-6 h-6 ${
                               period.color === "amber" ? "text-amber-600" : period.color === "blue" ? "text-blue-600" : "text-slate-600"
-                            }`} />
+                            }`} aria-hidden="true" />
                           </div>
                           <div>
                             <p className={`font-bold text-lg ${isHighlight ? "text-amber-900" : "text-slate-900"}`}>{period.title}</p>
@@ -264,10 +280,10 @@ export default function PageContent() {
                             <p className="text-sm text-slate-600 mt-1">{period.desc}</p>
                           </div>
                         </div>
-                      </div>
+                      </li>
                     );
                   })}
-                </div>
+                </ul>
               </section>
 
               {/* What You Can Change */}
@@ -280,7 +296,7 @@ export default function PageContent() {
                     <h3 className="font-bold text-green-800 mb-3 flex items-center gap-2">
                       <CheckCircle2 className="w-5 h-5" aria-hidden="true" /> You CAN
                     </h3>
-                    <ul className="space-y-2 text-sm text-slate-700">
+                    <ul className="space-y-2 text-sm text-slate-700 list-none">
                       {[
                         "Switch from Original Medicare to Medicare Advantage",
                         "Switch from Medicare Advantage to Original Medicare",
@@ -299,7 +315,7 @@ export default function PageContent() {
                     <h3 className="font-bold text-red-800 mb-3 flex items-center gap-2">
                       <XCircle className="w-5 h-5" aria-hidden="true" /> You CANNOT
                     </h3>
-                    <ul className="space-y-2 text-sm text-slate-700">
+                    <ul className="space-y-2 text-sm text-slate-700 list-none">
                       {[
                         "Buy or switch Medigap plans (separate rules)",
                         "Enroll in Medicare Part A or Part B for the first time",
@@ -361,15 +377,15 @@ export default function PageContent() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   Tips for Medicare Open Enrollment
                 </h2>
-                <div className="space-y-3">
+                <ol className="space-y-3 list-none">
                   {[
                     { num: "1", title: "Review Your Annual Notice of Change (ANOC)", desc: "Your plan mails this in September. It details any changes to premiums, copays, covered drugs, or provider networks for the upcoming year." },
                     { num: "2", title: "Check Your Medications", desc: "Make sure your prescriptions are still on your plan\u2019s formulary. Drug tiers and costs can change annually." },
                     { num: "3", title: "Verify Your Doctors Are Still In-Network", desc: "Provider networks change every year. Confirm your doctors, specialists, and preferred hospitals are still covered." },
-                    { num: "4", title: "Compare Total Costs, Not Just Premiums", desc: "A $0 premium plan may cost more overall if it has high copays for services you use frequently." },
+                    { num: "4", title: "Compare Total Costs, Not Just Premiums", desc: "A $0 <strong>premium</strong> plan may cost more overall if it has high copays for services you use frequently." },
                     { num: "5", title: "Don\u2019t Wait Until December 7", desc: "Start reviewing options in October. Last-minute decisions often lead to mistakes or missed deadlines." },
                   ].map((tip) => (
-                    <div key={tip.num} className="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white">
+                    <li key={tip.num} className="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white">
                       <div className="w-9 h-9 bg-teal-600 rounded-full flex items-center justify-center shrink-0">
                         <span className="text-white font-bold text-sm">{tip.num}</span>
                       </div>
@@ -377,9 +393,9 @@ export default function PageContent() {
                         <p className="font-bold text-slate-900">{tip.title}</p>
                         <p className="text-slate-600 text-sm mt-1">{tip.desc}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ol>
               </section>
 
               {/* Common Mistakes */}
@@ -387,22 +403,22 @@ export default function PageContent() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   Common Open Enrollment Mistakes to Avoid
                 </h2>
-                <div className="space-y-3">
+                <ul className="space-y-3 list-none">
                   {[
                     { mistake: "Assuming your plan stays the same", fix: "Plans change benefits, costs, and networks annually. Always review your ANOC." },
                     { mistake: "Only comparing premiums", fix: "Factor in deductibles, copays, drug costs, and out-of-pocket maximums for a true cost picture." },
                     { mistake: "Ignoring the Star Rating", fix: "Medicare rates plans 1-5 stars. Higher-rated plans typically provide better care coordination and customer service." },
                     { mistake: "Forgetting about Part D coverage gaps", fix: "Check if your medications hit the coverage gap (donut hole) and what your plan charges during that phase." },
                   ].map((item, i) => (
-                    <div key={i} className="flex items-start gap-4 p-5 rounded-xl border border-amber-200 bg-amber-50/50">
+                    <li key={i} className="flex items-start gap-4 p-5 rounded-xl border border-amber-200 bg-amber-50/50">
                       <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="font-bold text-amber-900 text-sm">{item.mistake}</p>
                         <p className="text-slate-600 text-sm mt-1">{item.fix}</p>
                       </div>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* FAQs */}
@@ -410,25 +426,27 @@ export default function PageContent() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                   Frequently Asked Questions
                 </h2>
-                <div className="space-y-3">
+                <dl className="space-y-3">
                   {faqs.map((faq, i) => (
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
-                      <button
-                        onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                        aria-expanded={openFaq === i}
-                        className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
-                      >
-                        <span className="font-semibold text-slate-900 text-sm pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
-                      </button>
+                      <dt>
+                        <button
+                          onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                          aria-expanded={openFaq === i}
+                          className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
+                        >
+                          <span className="font-semibold text-slate-900 text-sm pr-4">{faq.q}</span>
+                          <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
+                        </button>
+                      </dt>
                       {openFaq === i && (
-                        <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+                        <dd className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
                           {faq.a}
-                        </div>
+                        </dd>
                       )}
                     </div>
                   ))}
-                </div>
+                </dl>
               </section>
 
               {/* CTA Section */}

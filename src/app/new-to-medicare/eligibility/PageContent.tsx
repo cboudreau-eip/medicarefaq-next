@@ -211,20 +211,28 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
 
   return (
     <article className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-teal-900 text-white">
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
-          <nav className="flex items-center gap-2 text-sm text-slate-300 mb-8">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-            <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
-            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-            <span className="text-teal-300">Am I Eligible?</span>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-300 mb-8 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li>
+                <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
+              </li>
+              <li>
+                <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
+              </li>
+              <li>
+                <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-teal-300">Am I Eligible?</span>
+              </li>
+            </ol>
           </nav>
 
           <div className="flex items-center gap-3 mb-6">
@@ -260,20 +268,23 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
           <aside className="hidden lg:block w-56 shrink-0 order-last">
             <div className="sticky top-24">
               <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">In This Guide</p>
-              <nav className="space-y-1">
-                {tableOfContents.map((item) => (
-                  <a
-                    key={item.id}
-                    href={`#${item.id}`}
-                    className={`block text-sm py-1.5 pl-3 border-l-2 transition-colors ${
-                      activeSection === item.id
-                        ? "border-teal-500 text-teal-700 font-medium"
-                        : "border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300"
-                    }`}
-                  >
-                    {item.label}
-                  </a>
-                ))}
+              <nav aria-label="Table of contents">
+                <ul className="space-y-1 list-none">
+                  {tableOfContents.map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={`#${item.id}`}
+                        className={`block text-sm py-1.5 pl-3 border-l-2 transition-colors ${
+                          activeSection === item.id
+                            ? "border-teal-500 text-teal-700 font-medium"
+                            : "border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-300"
+                        }`}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
               </nav>
 
               <div className="mt-8 p-4 bg-teal-50 rounded-xl border border-teal-100">
@@ -296,53 +307,53 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                 Medicare eligibility is primarily based on <strong>age</strong>, <strong>disability status</strong>, or <strong>specific medical conditions</strong>. Most Americans become eligible at age 65, but there are several pathways to qualify earlier. Understanding which category applies to you is the first step toward getting the coverage you need.
               </p>
 
-              <div className="grid md:grid-cols-2 gap-4 mb-8">
+              <ul className="grid md:grid-cols-2 gap-4 mb-8 list-none">
                 {[
                   { label: "Age 65+", value: "Most common path", icon: Calendar, color: "text-teal-600" },
                   { label: "Under 65 with Disability", value: "After 24-month wait", icon: Heart, color: "text-blue-600" },
                   { label: "ALS Diagnosis", value: "Immediate eligibility", icon: Shield, color: "text-purple-600" },
                   { label: "ESRD", value: "Kidney failure at any age", icon: Users, color: "text-amber-600" },
                 ].map((item) => (
-                  <div key={item.label} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
+                  <li key={item.label} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
                     <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center shadow-sm shrink-0">
-                      <item.icon className={`w-5 h-5 ${item.color}`} />
+                      <item.icon className={`w-5 h-5 ${item.color}`} aria-hidden="true" />
                     </div>
                     <div>
                       <p className="font-semibold text-slate-900">{item.label}</p>
                       <p className="text-sm text-slate-500">{item.value}</p>
                     </div>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </section>
 
             {/* Age 65+ */}
             <section id="age-65" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Age 65+ Eligibility</h2>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                The most common way to qualify for Medicare is by turning 65. If you're a U.S. citizen or permanent legal resident who has lived in the country for at least 5 continuous years, you're eligible for Medicare at age 65 — regardless of your health status or whether you're still working.
+                The most common way to qualify for Medicare is by turning 65. If you're a U.S. citizen or permanent legal resident who has lived in the country for at least 5 continuous years, you're eligible for <strong>Medicare</strong> at age 65 — regardless of your health status or whether you're still working.
               </p>
 
-              <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
+              <aside aria-label="Automatic Enrollment" className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
                 <h3 className="text-lg font-bold text-teal-900 mb-4 flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-teal-600" aria-hidden="true" /> Automatic Enrollment
                 </h3>
                 <p className="text-teal-800 mb-4">
-                  If you're already receiving Social Security benefits when you turn 65, you'll be <strong>automatically enrolled</strong> in Medicare Parts A and B. Your Medicare card will arrive in the mail approximately 3 months before your 65th birthday.
+                  If you're already receiving Social Security benefits when you turn 65, you'll be <strong>automatically enrolled</strong> in <strong>Medicare Parts A and B</strong>. Your Medicare card will arrive in the mail approximately 3 months before your 65th birthday.
                 </p>
                 <p className="text-sm text-teal-700">
                   <strong>Important:</strong> If you don't want Part B (perhaps because you have employer coverage), you'll need to actively opt out. Otherwise, Part B premiums will be deducted from your Social Security check.
                 </p>
-              </div>
+              </aside>
 
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
+              <aside aria-label="Not Receiving Social Security" className="bg-amber-50 border border-amber-200 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-amber-900 mb-4 flex items-center gap-2">
                   <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" /> Not Receiving Social Security?
                 </h3>
                 <p className="text-amber-800">
-                  If you haven't started collecting Social Security benefits, you'll need to <strong>actively sign up</strong> for Medicare during your Initial Enrollment Period (IEP) — the 7-month window that starts 3 months before your 65th birthday and ends 3 months after.
+                  If you haven't started collecting Social Security benefits, you'll need to <strong>actively sign up</strong> for Medicare during your <strong>Initial Enrollment Period (IEP)</strong> — the 7-month window that starts 3 months before your 65th birthday and ends 3 months after.
                 </p>
-              </div>
+              </aside>
             </section>
 
             {/* Under 65 */}
@@ -352,58 +363,59 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                 You don't have to be 65 to qualify for Medicare. Younger individuals with qualifying disabilities or certain medical conditions can receive Medicare coverage. Here are the main pathways:
               </p>
 
-              <div className="space-y-6">
+              <ul className="space-y-6 list-none">
                 {eligibilityPaths.map((path) => (
-                  <motion.div
-                    key={path.title}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    className={`${path.lightBg} border rounded-xl p-6`}
-                    style={{ borderColor: `${path.lightBg === 'bg-teal-50' ? '#99f6e4' : path.lightBg === 'bg-blue-50' ? '#bfdbfe' : path.lightBg === 'bg-purple-50' ? '#d8b4fe' : '#fde68a'}` }}
-                  >
-                    <div className="flex items-start gap-4 mb-4">
-                      <div className={`w-12 h-12 rounded-xl ${path.color} flex items-center justify-center shrink-0`}>
-                        <path.icon className="w-6 h-6 text-white" />
+                  <li key={path.title}>
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      className={`${path.lightBg} border rounded-xl p-6`}
+                      style={{ borderColor: `${path.lightBg === 'bg-teal-50' ? '#99f6e4' : path.lightBg === 'bg-blue-50' ? '#bfdbfe' : path.lightBg === 'bg-purple-50' ? '#d8b4fe' : '#fde68a'}` }}
+                    >
+                      <div className="flex items-start gap-4 mb-4">
+                        <div className={`w-12 h-12 rounded-xl ${path.color} flex items-center justify-center shrink-0`}>
+                          <path.icon className="w-6 h-6 text-white" aria-hidden="true" />
+                        </div>
+                        <div>
+                          <h3 className="text-xl font-bold text-slate-900">{path.title}</h3>
+                          <p className="text-slate-600 mt-1">{path.description}</p>
+                        </div>
                       </div>
-                      <div>
-                        <h3 className="text-xl font-bold text-slate-900">{path.title}</h3>
-                        <p className="text-slate-600 mt-1">{path.description}</p>
-                      </div>
-                    </div>
 
-                    <div className="ml-16">
-                      <p className="text-sm font-semibold text-slate-700 mb-2">Requirements:</p>
-                      <ul className="space-y-2 mb-4">
-                        {path.requirements.map((req, i) => (
-                          <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                            <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
-                            {req}
-                          </li>
-                        ))}
-                      </ul>
+                      <div className="ml-16">
+                        <p className="text-sm font-semibold text-slate-700 mb-2">Requirements:</p>
+                        <ul className="space-y-2 mb-4 list-none">
+                          {path.requirements.map((req, i) => (
+                            <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
+                              <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
+                              {req}
+                            </li>
+                          ))}
+                        </ul>
 
-                      <div className="bg-white/60 rounded-lg p-3 border border-white/80">
-                        <p className="text-sm text-slate-600">
-                          <strong className="text-slate-800">Note:</strong> {path.note}
-                        </p>
+                        <div className="bg-white/60 rounded-lg p-3 border border-white/80">
+                          <p className="text-sm text-slate-600">
+                            <strong className="text-slate-800">Note:</strong> {path.note}
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                  </motion.div>
+                    </motion.div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </section>
 
             {/* ESRD */}
             <section id="esrd" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">End-Stage Renal Disease (ESRD)</h2>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                End-Stage Renal Disease (ESRD) — permanent kidney failure requiring dialysis or a kidney transplant — qualifies you for Medicare at any age. This is the only medical condition (besides ALS) that provides a direct path to Medicare regardless of age or disability status.
+                <strong>End-Stage Renal Disease (ESRD)</strong> — permanent kidney failure requiring dialysis or a kidney transplant — qualifies you for Medicare at any age. This is the only medical condition (besides ALS) that provides a direct path to Medicare regardless of age or disability status.
               </p>
 
               <div className="bg-slate-50 rounded-xl border border-slate-200 p-6 mb-6">
                 <h3 className="text-lg font-bold text-slate-900 mb-4">When Does Coverage Begin?</h3>
-                <div className="space-y-4">
+                <dl className="space-y-4">
                   {[
                     { scenario: "Regular dialysis", timing: "4th month of dialysis treatments", detail: "Coverage begins on the first day of the 4th month after you start dialysis." },
                     { scenario: "Home dialysis training", timing: "1st month of training", detail: "If you start a home dialysis training program, coverage can begin the month training starts." },
@@ -414,18 +426,18 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                         <Clock className="w-4 h-4 text-amber-600" aria-hidden="true" />
                       </div>
                       <div>
-                        <p className="font-semibold text-slate-900">{item.scenario}: <span className="text-amber-700">{item.timing}</span></p>
-                        <p className="text-sm text-slate-600">{item.detail}</p>
+                        <dt className="font-semibold text-slate-900">{item.scenario}: <span className="text-amber-700">{item.timing}</span></dt>
+                        <dd className="text-sm text-slate-600">{item.detail}</dd>
                       </div>
                     </div>
                   ))}
-                </div>
+                </dl>
               </div>
             </section>
 
             {/* Citizenship */}
             <section id="citizenship" className="mb-16 scroll-mt-24">
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Citizenship && Residency Requirements</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Citizenship &amp;&amp; Residency Requirements</h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 In addition to meeting age or disability requirements, you must also meet citizenship or residency criteria to qualify for Medicare.
               </p>
@@ -464,14 +476,14 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
 
             {/* Work History */}
             <section id="work-history" className="mb-16 scroll-mt-24">
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Work History && Part a Premiums</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Work History &amp;&amp; Part A Premiums</h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Your work history (or your spouse's) determines whether you receive <strong>premium-free Part A</strong>. Medicare taxes are paid through payroll deductions (FICA), and the number of "quarters" you've worked determines your premium.
+                Your work history (or your spouse's) determines whether you receive <strong>premium-free Part A</strong>. Medicare taxes are paid through payroll deductions (FICA), and the number of "quarters" you've worked determines your <strong>premium</strong>.
               </p>
 
-              <div className="space-y-4">
+              <ul className="space-y-4 list-none">
                 {workHistoryTiers.map((tier) => (
-                  <div
+                  <li
                     key={tier.quarters}
                     className={`rounded-xl border p-6 ${
                       tier.highlight
@@ -491,15 +503,15 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                         {tier.partAPremium}
                       </div>
                     </div>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
 
-              <div className="mt-6 bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <aside aria-label="Spouse's Work Record" className="mt-6 bg-blue-50 border border-blue-200 rounded-xl p-5">
                 <p className="text-sm text-blue-800">
                   <strong>Spouse's Work Record:</strong> If you don't have enough work credits on your own, you may qualify for premium-free Part A based on your current spouse's, ex-spouse's (if married 10+ years), or deceased spouse's work record.
                 </p>
-              </div>
+              </aside>
             </section>
 
             {/* Special Situations */}
@@ -509,9 +521,9 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                 Several common life situations can affect your Medicare eligibility and enrollment timing. Here's what you need to know:
               </p>
 
-              <div className="grid md:grid-cols-2 gap-4">
+              <ul className="grid md:grid-cols-2 gap-4 list-none">
                 {specialSituations.map((situation) => (
-                  <div key={situation.title} className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+                  <li key={situation.title} className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-2 mb-3">
                       <Briefcase className="w-5 h-5 text-slate-400" aria-hidden="true" />
                       <h3 className="font-bold text-slate-900">{situation.title}</h3>
@@ -521,9 +533,9 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                       <p className="text-xs font-semibold text-teal-800 mb-1">What to Do:</p>
                       <p className="text-xs text-teal-700">{situation.action}</p>
                     </div>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </section>
 
             {/* FAQs */}
@@ -575,7 +587,6 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
         </div>
       </div>
 
-      
     </article>
   );
 }

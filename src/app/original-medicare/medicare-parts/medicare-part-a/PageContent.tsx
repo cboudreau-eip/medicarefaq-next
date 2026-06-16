@@ -63,12 +63,14 @@ export default function PageContent() {
       {/* Hero */}
       <section className="bg-[#1B3A6B] text-white py-14 px-4">
         <div className="container max-w-5xl">
-          <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span>/</span>
-            <Link href="/original-medicare" className="hover:text-white">Original Medicare</Link>
-            <span>/</span>
-            <span className="text-white">Part A</span>
+          <nav aria-label="Breadcrumb">
+            <ol className="text-sm text-blue-200 mb-4 flex items-center gap-2 list-none">
+              <li><Link href="/" className="hover:text-white">Home</Link></li>
+              <li aria-hidden="true"><span>/</span></li>
+              <li><Link href="/original-medicare" className="hover:text-white">Original Medicare</Link></li>
+              <li aria-hidden="true"><span>/</span></li>
+              <li aria-current="page"><span className="text-white">Part A</span></li>
+            </ol>
           </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="bg-blue-500/30 rounded-xl p-3">
@@ -115,46 +117,50 @@ export default function PageContent() {
         <aside className="hidden lg:block w-56 shrink-0">
           <div className="sticky top-28 bg-gray-50 rounded-xl p-4 border border-gray-200">
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">On This Page</p>
-            <ul className="space-y-1">
-              {tableOfContents.map((item) => (
-                <li key={item.id}>
-                  <a href={`#${item.id}`} className="text-sm text-gray-600 hover:text-[#1B3A6B] block py-1 transition-colors">{item.label}</a>
-                </li>
-              ))}
-            </ul>
+            <nav aria-label="Table of contents">
+              <ul className="space-y-1 list-none">
+                {tableOfContents.map((item) => (
+                  <li key={item.id}>
+                    <a href={`#${item.id}`} className="text-sm text-gray-600 hover:text-[#1B3A6B] block py-1 transition-colors">{item.label}</a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
           </div>
         </aside>
 
         <article className="flex-1 min-w-0 space-y-12">
           <section id="overview">
             <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What is Medicare Part A?</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">Medicare Part A is the hospital insurance component of Original Medicare. It covers inpatient care in hospitals, skilled nursing facilities, and hospice programs, as well as some home health services. Part A is one of two parts of Original Medicare — the other being Part B, which covers outpatient medical services.</p>
-            <p className="text-gray-700 leading-relaxed mb-4">Most people who are 65 or older and have worked for at least 10 years (40 quarters) paying Medicare taxes receive Part A without paying a monthly premium. This is often called "premium-free Part A." If you don't meet the work history requirement, you can still enroll in Part A by paying a monthly premium.</p>
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
-              <div className="flex items-start gap-3">
-                <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
-                <div>
-                  <p className="font-semibold text-blue-900 mb-1">Part A vs. Part B</p>
-                  <p className="text-sm text-blue-800">Part A covers <strong>inpatient</strong> (hospital) services. Part B covers <strong>outpatient</strong> (doctor visits, lab tests, preventive care). Together, they form "Original Medicare." Most people need both.</p>
+            <p className="text-gray-700 leading-relaxed mb-4"><strong>Medicare Part A</strong> is the hospital insurance component of <strong>Original Medicare</strong>. It covers inpatient care in hospitals, skilled nursing facilities, and hospice programs, as well as some home health services. Part A is one of two parts of Original Medicare — the other being <strong>Part B</strong>, which covers outpatient medical services.</p>
+            <p className="text-gray-700 leading-relaxed mb-4">Most people who are 65 or older and have worked for at least 10 years (40 quarters) paying Medicare taxes receive Part A without paying a monthly <strong>premium</strong>. This is often called "premium-free Part A." If you don't meet the work history requirement, you can still enroll in Part A by paying a monthly premium.</p>
+            <aside aria-label="Note: Part A vs. Part B">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+                <div className="flex items-start gap-3">
+                  <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
+                  <div>
+                    <p className="font-semibold text-blue-900 mb-1">Part A vs. Part B</p>
+                    <p className="text-sm text-blue-800">Part A covers <strong>inpatient</strong> (hospital) services. Part B covers <strong>outpatient</strong> (doctor visits, lab tests, preventive care). Together, they form "Original Medicare." Most people need both.</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </aside>
           </section>
 
           <section id="coverage">
-            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Medicare Part a Covers</h2>
-            <div className="grid gap-3">
+            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Medicare Part A Covers</h2>
+            <ul className="grid gap-3 list-none">
               {coverageItems.map((item, i) => (
-                <div key={i} className={`flex items-start gap-3 p-4 rounded-lg border ${item.covered ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200"}`}>
+                <li key={i} className={`flex items-start gap-3 p-4 rounded-lg border ${item.covered ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200"}`}>
                   {item.covered ? <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" /> : <XCircle className="w-5 h-5 text-red-500 mt-0.5 shrink-0" aria-hidden="true" />}
                   <span className={`text-sm ${item.covered ? "text-green-900" : "text-red-900"}`}>{item.item}</span>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
 
           <section id="costs">
-            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">2026 Medicare Part a Costs</h2>
+            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">2026 Medicare Part A Costs</h2>
             <h3 className="text-lg font-semibold text-gray-800 mb-3">Hospital Inpatient Costs (per Benefit Period)</h3>
             <div className="overflow-x-auto mb-8">
               <table className="w-full border-collapse text-sm">
@@ -191,37 +197,39 @@ export default function PageContent() {
               </table>
             </div>
 
-            <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
-              <div className="flex items-start gap-3">
-                <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
-                <div>
-                  <p className="font-semibold text-amber-900 mb-1">No Out-of-Pocket Maximum</p>
-                  <p className="text-sm text-amber-800">Original Medicare Part A has no annual out-of-pocket cap. A long hospital stay or multiple benefit periods in one year can result in significant costs. A Medicare Supplement (Medigap) plan can cover these gaps.</p>
+            <aside aria-label="Warning: No Out-of-Pocket Maximum">
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
+                <div className="flex items-start gap-3">
+                  <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
+                  <div>
+                    <p className="font-semibold text-amber-900 mb-1">No Out-of-Pocket Maximum</p>
+                    <p className="text-sm text-amber-800">Original Medicare Part A has no annual <strong>out-of-pocket maximum</strong>. A long hospital stay or multiple benefit periods in one year can result in significant costs. A <strong>Medicare Supplement (Medigap)</strong> plan can cover these gaps.</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </aside>
           </section>
 
           <section id="eligibility">
             <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">Who Qualifies for Medicare Part A?</h2>
-            <div className="space-y-4">
+            <ul className="space-y-4 list-none">
               {[
                 { icon: Clock, title: "Age 65 with Work History", desc: "You or your spouse worked and paid Medicare taxes for at least 10 years (40 quarters). You receive premium-free Part A." },
                 { icon: Heart, title: "Disability (under 65)", desc: "You've received Social Security Disability Insurance (SSDI) benefits for 24 consecutive months. Enrollment is automatic." },
                 { icon: Shield, title: "ESRD or ALS", desc: "You have End-Stage Renal Disease (permanent kidney failure requiring dialysis or transplant) or ALS (Lou Gehrig's disease) at any age." },
-                { icon: DollarSign, title: "Premium Part a (No Work History)", desc: "If you don't meet the work history requirement, you can buy Part A. In 2026: $311/month (30–39 quarters) or $565/month (fewer than 30 quarters)." },
+                { icon: DollarSign, title: "Premium Part A (No Work History)", desc: "If you don't meet the work history requirement, you can buy Part A. In 2026: $311/month (30–39 quarters) or $565/month (fewer than 30 quarters)." },
               ].map((item, i) => (
-                <div key={i} className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-200">
-                  <div className="bg-[#1B3A6B]/10 rounded-lg p-2 shrink-0"><item.icon className="w-5 h-5 text-[#1B3A6B]" /></div>
+                <li key={i} className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-200">
+                  <div className="bg-[#1B3A6B]/10 rounded-lg p-2 shrink-0"><item.icon className="w-5 h-5 text-[#1B3A6B]" aria-hidden="true" /></div>
                   <div><p className="font-semibold text-gray-900 mb-1">{item.title}</p><p className="text-sm text-gray-600">{item.desc}</p></div>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
 
           <section id="enrollment">
             <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">When to Enroll in Part A</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">If you're already receiving Social Security benefits when you turn 65, you're automatically enrolled in Part A (and Part B) — no action required. If you're not yet receiving Social Security, you need to actively sign up during your Initial Enrollment Period (IEP).</p>
+            <p className="text-gray-700 leading-relaxed mb-4">If you're already receiving Social Security benefits when you turn 65, you're automatically enrolled in Part A (and Part B) — no action required. If you're not yet receiving Social Security, you need to actively sign up during your <strong>Initial Enrollment Period (IEP)</strong>.</p>
             <div className="bg-[#1B3A6B] text-white rounded-xl p-6 mb-4">
               <h3 className="font-bold text-lg mb-3">Initial Enrollment Period (IEP)</h3>
               <p className="text-blue-100 text-sm mb-3">A 7-month window centered on your 65th birthday month:</p>
@@ -231,30 +239,32 @@ export default function PageContent() {
                 <div className="bg-white/10 rounded-lg p-3"><div className="font-bold">3 Months After</div><div className="text-blue-200 text-xs">Coverage may be delayed</div></div>
               </div>
             </div>
-            <p className="text-gray-700 text-sm">Unlike Part B, there is generally no late enrollment penalty for Part A if you qualify for premium-free coverage. However, if you must pay a premium for Part A and delay enrollment, you may face a 10% penalty added to your premium for twice the number of years you delayed.</p>
+            <p className="text-gray-700 text-sm">Unlike Part B, there is generally no <strong>late enrollment penalty</strong> for Part A if you qualify for premium-free coverage. However, if you must pay a premium for Part A and delay enrollment, you may face a 10% penalty added to your premium for twice the number of years you delayed.</p>
           </section>
 
           <section id="not-covered">
-            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Part a Doesn't Cover</h2>
+            <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Part A Doesn't Cover</h2>
             <p className="text-gray-700 leading-relaxed mb-4">Medicare Part A has significant coverage gaps that can result in large out-of-pocket costs. Understanding these gaps is the first step toward choosing the right supplemental coverage.</p>
-            <div className="grid md:grid-cols-2 gap-4">
+            <ul className="grid md:grid-cols-2 gap-4 list-none">
               {[
                 { title: "Long-Term Custodial Care", desc: "Nursing home care for activities of daily living (bathing, dressing, eating) is not covered. Only skilled nursing care is covered, and only for up to 100 days." },
                 { title: "No Out-of-Pocket Cap", desc: "There's no limit on what you can spend in a year. Multiple benefit periods or a very long hospital stay can cost tens of thousands of dollars." },
                 { title: "Private Room Upgrade", desc: "Part A covers a semi-private room. If you want a private room, you pay the difference unless it's medically necessary." },
                 { title: "Custodial Home Care", desc: "Part A covers skilled home health care (physical therapy, wound care) but not custodial care (help with daily activities) at home." },
               ].map((item, i) => (
-                <div key={i} className="bg-red-50 border border-red-100 rounded-xl p-5">
+                <li key={i} className="bg-red-50 border border-red-100 rounded-xl p-5">
                   <p className="font-semibold text-red-900 mb-2">{item.title}</p>
                   <p className="text-sm text-red-800">{item.desc}</p>
-                </div>
+                </li>
               ))}
-            </div>
-            <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5">
-              <p className="font-semibold text-teal-900 mb-2">How to Fill These Gaps</p>
-              <p className="text-sm text-teal-800 mb-3">A Medicare Supplement (Medigap) plan can cover Part A deductibles, coinsurance, and hospital costs beyond the benefit period. Plans like Medigap Plan G cover nearly all Part A out-of-pocket costs.</p>
-              <Link href="/medicare-supplement-plans/plan-g" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-900">Learn about Medigap Plan G <ArrowRight className="w-4 h-4" aria-hidden="true" /></Link>
-            </div>
+            </ul>
+            <aside aria-label="Tip: How to Fill These Gaps" className="mt-6">
+              <div className="bg-teal-50 border border-teal-200 rounded-xl p-5">
+                <p className="font-semibold text-teal-900 mb-2">How to Fill These Gaps</p>
+                <p className="text-sm text-teal-800 mb-3">A <strong>Medicare Supplement (Medigap)</strong> plan can cover Part A deductibles, coinsurance, and hospital costs beyond the benefit period. Plans like <strong>Medigap Plan G</strong> cover nearly all Part A out-of-pocket costs.</p>
+                <Link href="/medicare-supplement-plans/plan-g" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-900">Learn about Medigap Plan G <ArrowRight className="w-4 h-4" aria-hidden="true" /></Link>
+              </div>
+            </aside>
           </section>
 
           <section id="faqs">
@@ -274,19 +284,21 @@ export default function PageContent() {
 
           <section id="next-steps">
             <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">Next Steps</h2>
-            <div className="grid md:grid-cols-3 gap-4">
+            <ul className="grid md:grid-cols-3 gap-4 list-none">
               {[
                 { title: "Learn about Part B", desc: "Understand outpatient medical coverage and the Part B premium.", href: "/original-medicare/medicare-parts/medicare-part-b", icon: FileText },
                 { title: "Add a Supplement Plan", desc: "Cover Part A deductibles and coinsurance with a Medigap plan.", href: "/medicare-supplement-plans", icon: Shield },
                 { title: "Compare All Plans", desc: "See how Original Medicare compares to Medicare Advantage.", href: "/medicare-supplement-plans", icon: ArrowRight },
               ].map((item, i) => (
-                <Link key={i} href={item.href} className="block bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-[#1B3A6B]/30 transition-all group">
-                  <div className="bg-[#1B3A6B]/10 rounded-lg p-2 w-fit mb-3 group-hover:bg-[#1B3A6B]/20 transition-colors"><item.icon className="w-5 h-5 text-[#1B3A6B]" /></div>
-                  <p className="font-semibold text-gray-900 mb-1">{item.title}</p>
-                  <p className="text-sm text-gray-600">{item.desc}</p>
-                </Link>
+                <li key={i}>
+                  <Link href={item.href} className="block bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-[#1B3A6B]/30 transition-all group">
+                    <div className="bg-[#1B3A6B]/10 rounded-lg p-2 w-fit mb-3 group-hover:bg-[#1B3A6B]/20 transition-colors"><item.icon className="w-5 h-5 text-[#1B3A6B]" aria-hidden="true" /></div>
+                    <p className="font-semibold text-gray-900 mb-1">{item.title}</p>
+                    <p className="text-sm text-gray-600">{item.desc}</p>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
         </article>
       </div>
@@ -294,7 +306,7 @@ export default function PageContent() {
       {/* CTA Banner */}
       <section className="bg-[#1B3A6B] text-white py-12 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-3">Questions about Your Part a Coverage?</h2>
+          <h2 className="text-2xl font-bold mb-3">Questions about Your Part A Coverage?</h2>
           <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand your costs, and find the right supplement plan to cover Part A gaps — at no cost to you.</p>
           <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_a" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">

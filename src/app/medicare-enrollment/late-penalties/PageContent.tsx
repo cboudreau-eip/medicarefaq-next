@@ -90,10 +90,6 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
   return (
     <article className="min-h-screen bg-white">
-      
-      
-      
-      
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-red-800 via-red-900 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -102,13 +98,25 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-amber-400 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-red-200/70 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-red-200/70">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-red-100">Late Penalties</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-red-200/70 mb-6 list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li>
+                <span className="text-red-200/70">Enrollment</span>
+              </li>
+              <li>
+                <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
+              </li>
+              <li aria-current="page">
+                <span className="text-red-100">Late Penalties</span>
+              </li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-red-500/20 rounded-xl flex items-center justify-center">
               <AlertCircle className="w-6 h-6 text-red-300" aria-hidden="true" />
@@ -174,41 +182,43 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
               {/* Part B Penalty */}
               <section id="part-b-penalty" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
-                  Part B Late Enrollment Penalty
+                  <strong>Part B</strong> Late Enrollment Penalty
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  The Part B late enrollment penalty is the most common and most impactful. It applies if you didn't enroll in Part B when first eligible and didn't have creditable employer coverage.
+                  The <strong>Part B late enrollment penalty</strong> is the most common and most impactful. It applies if you didn't enroll in Part B when first eligible and didn't have <strong>creditable</strong> employer coverage.
                 </p>
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 mb-6">
                   <h3 className="font-bold text-red-900 mb-3 text-lg">How It's Calculated</h3>
-                  <div className="bg-white rounded-lg p-4 border border-red-100 mb-4">
-                    <p className="text-sm text-slate-700 mb-2">
-                      <strong>Formula:</strong> 10% × (number of full 12-month periods you delayed) × standard Part B premium
-                    </p>
-                    <p className="text-sm text-slate-700">
-                      <strong>2026 Standard Premium:</strong> $202.90/month
-                    </p>
-                  </div>
+                  <dl className="bg-white rounded-lg p-4 border border-red-100 mb-4">
+                    <div className="mb-2">
+                      <dt className="inline text-sm text-slate-700"><strong>Formula:</strong> </dt>
+                      <dd className="inline text-sm text-slate-700">10% × (number of full 12-month periods you delayed) × standard Part B premium</dd>
+                    </div>
+                    <div>
+                      <dt className="inline text-sm text-slate-700"><strong>2026 Standard Premium:</strong> </dt>
+                      <dd className="inline text-sm text-slate-700">$202.90/month</dd>
+                    </div>
+                  </dl>
 
                   <h4 className="font-semibold text-red-900 mb-3">Example Scenarios:</h4>
-                  <div className="space-y-3">
-                    <div className="bg-white rounded-lg p-4 border border-red-100">
+                  <ul className="space-y-3 list-none">
+                    <li className="bg-white rounded-lg p-4 border border-red-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 2 years (24 months)</p>
                       <p className="text-sm text-slate-600">Penalty: 20% of $202.90 = <strong className="text-red-700">$37.00/month extra — permanently</strong></p>
-                    </div>
-                    <div className="bg-white rounded-lg p-4 border border-red-100">
+                    </li>
+                    <li className="bg-white rounded-lg p-4 border border-red-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 5 years (60 months)</p>
                       <p className="text-sm text-slate-600">Penalty: 50% of $202.90 = <strong className="text-red-700">$92.50/month extra — permanently</strong></p>
-                    </div>
-                    <div className="bg-white rounded-lg p-4 border border-red-100">
+                    </li>
+                    <li className="bg-white rounded-lg p-4 border border-red-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 10 years (120 months)</p>
                       <p className="text-sm text-slate-600">Penalty: 100% of $202.90 = <strong className="text-red-700">$202.90/month extra — permanently</strong></p>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
 
-                <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-6">
+                <aside aria-label="Warning: The Penalty Grows Over Time" className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-6">
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -218,7 +228,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
 
                 {/* Calculator CTA */}
                 <div className="bg-[#1B2A4A] rounded-xl p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
@@ -239,37 +249,39 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
               {/* Part D Penalty */}
               <section id="part-d-penalty" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
-                  Part D Late Enrollment Penalty
+                  <strong>Part D</strong> Late Enrollment Penalty
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
-                  The <Link href="/faqs/medicare-part-d-late-enrollment-penalty" className="text-amber-700 underline font-semibold hover:text-amber-900">Part D penalty</Link> applies if you went <strong>63 or more consecutive days</strong> without Part D or other creditable prescription drug coverage after your <Link href="/faqs/medicare-initial-enrollment-period" className="text-amber-700 underline font-semibold hover:text-amber-900">Initial Enrollment Period</Link> ended.
+                  The <Link href="/faqs/medicare-part-d-late-enrollment-penalty" className="text-amber-700 underline font-semibold hover:text-amber-900">Part D penalty</Link> applies if you went <strong>63 or more consecutive days</strong> without Part D or other <strong>creditable coverage</strong> prescription drug coverage after your <Link href="/faqs/medicare-initial-enrollment-period" className="text-amber-700 underline font-semibold hover:text-amber-900">Initial Enrollment Period</Link> ended.
                 </p>
 
                 <div className="bg-amber-50 border-2 border-amber-200 rounded-xl p-6 mb-6">
                   <h3 className="font-bold text-amber-900 mb-3 text-lg">How It's Calculated</h3>
-                  <div className="bg-white rounded-lg p-4 border border-amber-100 mb-4">
-                    <p className="text-sm text-slate-700 mb-2">
-                      <strong>Formula:</strong> 1% × national base beneficiary premium × number of months without coverage
-                    </p>
-                    <p className="text-sm text-slate-700">
-                      <strong>2026 National Base Premium:</strong> ~$38.99/month
-                    </p>
-                  </div>
+                  <dl className="bg-white rounded-lg p-4 border border-amber-100 mb-4">
+                    <div className="mb-2">
+                      <dt className="inline text-sm text-slate-700"><strong>Formula:</strong> </dt>
+                      <dd className="inline text-sm text-slate-700">1% × national base beneficiary premium × number of months without coverage</dd>
+                    </div>
+                    <div>
+                      <dt className="inline text-sm text-slate-700"><strong>2026 National Base Premium:</strong> </dt>
+                      <dd className="inline text-sm text-slate-700">~$38.99/month</dd>
+                    </div>
+                  </dl>
 
                   <h4 className="font-semibold text-amber-900 mb-3">Example Scenarios:</h4>
-                  <div className="space-y-3">
-                    <div className="bg-white rounded-lg p-4 border border-amber-100">
+                  <ul className="space-y-3 list-none">
+                    <li className="bg-white rounded-lg p-4 border border-amber-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 12 months</p>
                       <p className="text-sm text-slate-600">Penalty: 12% of $38.99 = <strong className="text-amber-700">~$4.68/month extra — permanently</strong></p>
-                    </div>
-                    <div className="bg-white rounded-lg p-4 border border-amber-100">
+                    </li>
+                    <li className="bg-white rounded-lg p-4 border border-amber-100">
                       <p className="text-sm font-semibold text-slate-900">Delayed 36 months (3 years)</p>
                       <p className="text-sm text-slate-600">Penalty: 36% of $38.99 = <strong className="text-amber-700">~$14.04/month extra — permanently</strong></p>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
+                <aside aria-label="Note: Penalty Is Recalculated Annually" className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
                     <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -279,43 +291,43 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* Part A Penalty */}
               <section id="part-a-penalty" className="mb-16">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
-                  Part A Late Enrollment Penalty (Rare)
+                  <strong>Part A</strong> Late Enrollment Penalty (Rare)
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-6">
                   Most people get Part A premium-free because they or their spouse paid Medicare taxes for 40+ quarters (10 years). The Part A penalty only applies to those who must <strong>pay a premium for Part A</strong> and delayed enrollment.
                 </p>
 
                 <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 mb-6">
-                  <h3 className="font-semibold text-slate-900 mb-3">Part a Penalty Details</h3>
-                  <div className="space-y-3">
+                  <h3 className="font-semibold text-slate-900 mb-3">Part A Penalty Details</h3>
+                  <dl className="space-y-3">
                     <div className="flex items-start gap-3">
                       <DollarSign className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
-                        <p className="text-sm font-semibold text-slate-900">Penalty Rate: 10% surcharge</p>
-                        <p className="text-xs text-slate-500">Added to the Part A premium for twice the number of years you delayed enrollment</p>
+                        <dt className="text-sm font-semibold text-slate-900">Penalty Rate: 10% surcharge</dt>
+                        <dd className="text-xs text-slate-500">Added to the Part A premium for twice the number of years you delayed enrollment</dd>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <Clock className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
-                        <p className="text-sm font-semibold text-slate-900">Duration: Not permanent</p>
-                        <p className="text-xs text-slate-500">Unlike Parts B and D, the Part A penalty is temporary — lasting twice the number of years you delayed</p>
+                        <dt className="text-sm font-semibold text-slate-900">Duration: Not permanent</dt>
+                        <dd className="text-xs text-slate-500">Unlike Parts B and D, the Part A penalty is temporary — lasting twice the number of years you delayed</dd>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <HelpCircle className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
-                        <p className="text-sm font-semibold text-slate-900">2026 Part A Premium: Up to $565/month</p>
-                        <p className="text-xs text-slate-500">Only applies to those who didn't work 40+ quarters paying Medicare taxes</p>
+                        <dt className="text-sm font-semibold text-slate-900">2026 Part A Premium: Up to $565/month</dt>
+                        <dd className="text-xs text-slate-500">Only applies to those who didn't work 40+ quarters paying Medicare taxes</dd>
                       </div>
                     </div>
-                  </div>
+                  </dl>
                 </div>
               </section>
 
@@ -356,7 +368,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   </table>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
+                <aside aria-label="Note: IRMAA Is Based on Your Tax Return From 2 Years Ago" className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
                     <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
@@ -366,7 +378,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                       </p>
                     </div>
                   </div>
-                </div>
+                </aside>
               </section>
 
               {/* How to Avoid */}
@@ -378,38 +390,38 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   The good news: penalties are entirely avoidable if you understand the rules and act within your enrollment windows.
                 </p>
 
-                <div className="space-y-4">
-                  <div className="bg-green-50 rounded-xl p-5 border border-green-200">
+                <ul className="space-y-4 list-none">
+                  <li className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
-                        <h3 className="font-semibold text-green-900 mb-1">Enroll during Your Initial Enrollment Period</h3>
+                        <h3 className="font-semibold text-green-900 mb-1">Enroll during Your <strong>Initial Enrollment Period</strong></h3>
                         <p className="text-sm text-green-800">Sign up for Parts A, B, and D during your 7-month IEP around your 65th birthday. See our <Link href="/medicare-enrollment/turning-65" className="text-green-900 underline font-semibold hover:text-green-700">Turning 65 guide</Link> for details. This is the simplest way to avoid all penalties.</p>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-green-50 rounded-xl p-5 border border-green-200">
+                  <li className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
-                        <h3 className="font-semibold text-green-900 mb-1">Maintain Creditable Coverage if Delaying</h3>
+                        <h3 className="font-semibold text-green-900 mb-1">Maintain <strong>Creditable Coverage</strong> if Delaying</h3>
                         <p className="text-sm text-green-800">If you're <Link href="/medicare-enrollment/working-past-65" className="text-green-900 underline font-semibold hover:text-green-700">working past 65</Link> with employer coverage (20+ employees), keep that coverage active. Get a creditable coverage letter from your employer as proof.</p>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-green-50 rounded-xl p-5 border border-green-200">
+                  <li className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
-                        <h3 className="font-semibold text-green-900 mb-1">Use Your Special Enrollment Period</h3>
+                        <h3 className="font-semibold text-green-900 mb-1">Use Your <strong>Special Enrollment Period</strong></h3>
                         <p className="text-sm text-green-800">When your employer coverage ends, enroll in Medicare within your 8-month <Link href="/faqs/medicare-special-enrollment-periods" className="text-green-900 underline font-semibold hover:text-green-700">Special Enrollment Period</Link>. Don't wait — the clock starts when your employment or coverage ends.</p>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-green-50 rounded-xl p-5 border border-green-200">
+                  <li className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
@@ -417,9 +429,9 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                         <p className="text-sm text-green-800">COBRA is not creditable coverage. If you're 65+ and your employment has ended, enroll in Medicare — don't use COBRA as a substitute.</p>
                       </div>
                     </div>
-                  </div>
+                  </li>
 
-                  <div className="bg-green-50 rounded-xl p-5 border border-green-200">
+                  <li className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
@@ -427,8 +439,8 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                         <p className="text-sm text-green-800">A licensed Medicare agent can review your situation, confirm your enrollment deadlines, and ensure you don't miss any critical windows.</p>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  </li>
+                </ul>
               </section>
 
               {/* FAQs */}
@@ -479,31 +491,38 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
               </section>
 
               {/* Related Pages */}
-              <div className="grid sm:grid-cols-3 gap-4">
-                <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
-                  <Calendar className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Turning 65 Enrollment</h3>
-                  <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
-                </Link>
-                <Link href="/medicare-enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
-                  <Briefcase className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Working past 65</h3>
-                  <p className="text-xs text-slate-500">Employer coverage coordination</p>
-                </Link>
-                <Link href="/medicare-enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
-                  <Shield className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">How to Enroll</h3>
-                  <p className="text-xs text-slate-500">Step-by-step enrollment guide</p>
-                </Link>
-              </div>
+              <ul className="grid sm:grid-cols-3 gap-4 list-none">
+                <li>
+                  <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors block">
+                    <Calendar className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Turning 65 Enrollment</h3>
+                    <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/medicare-enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors block">
+                    <Briefcase className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Working past 65</h3>
+                    <p className="text-xs text-slate-500">Employer coverage coordination</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/medicare-enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors block">
+                    <Shield className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
+                    <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">How to Enroll</h3>
+                    <p className="text-xs text-slate-500">Step-by-step enrollment guide</p>
+                  </Link>
+                </li>
+              </ul>
             </div>
+
             {/* Right Sidebar */}
             <aside className="hidden xl:block w-64 shrink-0 order-last">
-              <nav className="sticky top-40">
+              <nav aria-label="Table of contents" className="sticky top-40">
                 <h3 className="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-4">
                   In This Guide
                 </h3>
-                <ul className="space-y-1">
+                <ul className="space-y-1 list-none">
                   {tableOfContents.map((item) => (
                     <li key={item.id}>
                       <a
@@ -543,7 +562,6 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
         </div>
       </section>
 
-      
     </article>
   );
 }

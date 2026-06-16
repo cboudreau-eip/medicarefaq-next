@@ -105,7 +105,7 @@ const comparisonTable = {
 
 export default function PageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-const faqs = [
+  const faqs = [
     { q: "Which Medicare Advantage plan type is most popular?", a: "HMO plans are the most common Medicare Advantage plan type, followed by PPO plans. Together they account for the vast majority of Medicare Advantage enrollment. HMOs typically offer lower premiums while PPOs offer more flexibility." },
     { q: "Can I switch between Medicare Advantage plan types?", a: "Yes. During the Annual Enrollment Period (October 15 – December 7), you can switch from one Medicare Advantage plan type to another. Changes take effect January 1. You can also switch during the Medicare Advantage Open Enrollment Period (January 1 – March 31)." },
     { q: "Do all Medicare Advantage plans include prescription drug coverage?", a: "Most Medicare Advantage plans include Part D prescription drug coverage (called MA-PD plans). However, some plans do not include drug coverage. If you choose a plan without drug coverage, you cannot enroll in a standalone Part D plan." },
@@ -113,149 +113,164 @@ const faqs = [
   ];
 
   return (
-    
-
-<main className="flex-1">
-        {/* Hero */}
-        <section className="bg-[#1B3A6B] text-white py-12 px-4">
-          <div className="container max-w-5xl">
-            <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
-              <Link href="/" className="hover:text-white">Home</Link>
-              <span>/</span>
-              <Link href="/medicare-part-c/medicare-advantage-plans" className="hover:text-white">Medicare Advantage</Link>
-              <span>/</span>
-              <span className="text-white">Plan Types</span>
-            </nav>
-            <div className="flex items-start gap-4">
-              <div className="bg-teal-500 rounded-xl p-3 shrink-0">
-                <LayoutGrid className="text-white" size={28} />
-              </div>
-              <div>
-                <h1 className="text-3xl lg:text-4xl font-bold mb-3">Medicare Advantage Plan Types</h1>
-                <p className="text-blue-100 text-lg leading-relaxed max-w-2xl">
-                  Medicare Advantage plans come in four main types: HMO, PPO, PFFS, and SNP. Each has different rules about which providers you can see, whether you need referrals, and how much you pay.
-                </p>
-              </div>
+    <main className="flex-1">
+      {/* Hero */}
+      <section className="bg-[#1B3A6B] text-white py-12 px-4">
+        <div className="container max-w-5xl">
+          <nav aria-label="Breadcrumb">
+            <ol className="text-sm text-blue-200 mb-4 flex items-center gap-2 list-none">
+              <li>
+                <Link href="/" className="hover:text-white">Home</Link>
+              </li>
+              <li aria-hidden="true"><span>/</span></li>
+              <li>
+                <Link href="/medicare-part-c/medicare-advantage-plans" className="hover:text-white">Medicare Advantage</Link>
+              </li>
+              <li aria-hidden="true"><span>/</span></li>
+              <li aria-current="page">
+                <span className="text-white">Plan Types</span>
+              </li>
+            </ol>
+          </nav>
+          <div className="flex items-start gap-4">
+            <div className="bg-teal-500 rounded-xl p-3 shrink-0">
+              <LayoutGrid className="text-white" size={28} aria-hidden="true" />
             </div>
+            <div>
+              <h1 className="text-3xl lg:text-4xl font-bold mb-3">Medicare Advantage Plan Types</h1>
+              <p className="text-blue-100 text-lg leading-relaxed max-w-2xl">
+                <strong>Medicare Advantage</strong> plans come in four main types: <strong>HMO</strong>, <strong>PPO</strong>, <strong>PFFS</strong>, and <strong>SNP</strong>. Each has different rules about which providers you can see, whether you need referrals, and how much you pay.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="container max-w-5xl py-10">
+        {/* Plan Type Cards */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold text-[#1B3A6B] mb-6">The Four Types of Medicare Advantage Plans</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {planTypes.map((plan) => (
+              <article key={plan.id} className={`border-2 rounded-xl overflow-hidden ${plan.color}`}>
+                <div className={`${plan.headerColor} text-white px-5 py-3`}>
+                  <h3 className="font-bold text-lg">{plan.name}</h3>
+                  <p className="text-white/80 text-sm">{plan.tagline}</p>
+                </div>
+                <div className="p-5">
+                  <div className="mb-3">
+                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Pros</div>
+                    <ul className="space-y-1 list-none">
+                      {plan.pros.map((pro, i) => (
+                        <li key={i} className="flex items-start gap-1.5 text-sm text-gray-700">
+                          <CheckCircle2 className="text-green-500 mt-0.5 shrink-0" size={13} aria-hidden="true" />
+                          {pro}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="mb-3">
+                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Cons</div>
+                    <ul className="space-y-1 list-none">
+                      {plan.cons.map((con, i) => (
+                        <li key={i} className="flex items-start gap-1.5 text-sm text-gray-700">
+                          <XCircle className="text-red-400 mt-0.5 shrink-0" size={13} aria-hidden="true" />
+                          {con}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="bg-white/60 rounded-lg p-3 mb-3">
+                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Best For</div>
+                    <p className="text-sm text-gray-700">{plan.bestFor}</p>
+                  </div>
+                  <Link
+                    href={plan.href}
+                    className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-800"
+                  >
+                    Learn more about {plan.name.split(" (")[0]} plans <ArrowRight size={14} aria-hidden="true" />
+                  </Link>
+                </div>
+              </article>
+            ))}
           </div>
         </section>
 
-        <div className="container max-w-5xl py-10">
-          {/* Plan Type Cards */}
-          <section className="mb-12">
-            <h2 className="text-xl font-bold text-[#1B3A6B] mb-6">The Four Types of Medicare Advantage Plans</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {planTypes.map((plan) => (
-                <div key={plan.id} className={`border-2 rounded-xl overflow-hidden ${plan.color}`}>
-                  <div className={`${plan.headerColor} text-white px-5 py-3`}>
-                    <h3 className="font-bold text-lg">{plan.name}</h3>
-                    <p className="text-white/80 text-sm">{plan.tagline}</p>
-                  </div>
-                  <div className="p-5">
-                    <div className="mb-3">
-                      <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Pros</div>
-                      <ul className="space-y-1">
-                        {plan.pros.map((pro, i) => (
-                          <li key={i} className="flex items-start gap-1.5 text-sm text-gray-700">
-                            <CheckCircle2 className="text-green-500 mt-0.5 shrink-0" size={13} />
-                            {pro}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="mb-3">
-                      <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Cons</div>
-                      <ul className="space-y-1">
-                        {plan.cons.map((con, i) => (
-                          <li key={i} className="flex items-start gap-1.5 text-sm text-gray-700">
-                            <XCircle className="text-red-400 mt-0.5 shrink-0" size={13} />
-                            {con}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="bg-white/60 rounded-lg p-3 mb-3">
-                      <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-1">Best For</div>
-                      <p className="text-sm text-gray-700">{plan.bestFor}</p>
-                    </div>
-                    <Link
-                      href={plan.href}
-                      className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-800"
-                    >
-                      Learn more about {plan.name.split(" (")[0]} plans <ArrowRight size={14} />
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Comparison Table */}
-          <section className="mb-12">
-            <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">Quick Comparison</h2>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm border-collapse">
-                <thead>
-                  <tr className="bg-[#1B3A6B] text-white">
-                    {comparisonTable.headers.map((h, i) => (
-                      <th key={i} className="px-4 py-2.5 text-left font-semibold">{h}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {comparisonTable.rows.map((row, ri) => (
-                    <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                      {row.map((cell, ci) => (
-                        <td key={ci} className={`px-4 py-2.5 border-b border-gray-100 ${ci === 0 ? "font-medium text-gray-800" : "text-gray-600"}`}>
+        {/* Comparison Table */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">Quick Comparison</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-[#1B3A6B] text-white">
+                  {comparisonTable.headers.map((h, i) => (
+                    <th key={i} className="px-4 py-2.5 text-left font-semibold" scope={i === 0 ? "col" : "col"}>{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonTable.rows.map((row, ri) => (
+                  <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                    {row.map((cell, ci) => (
+                      ci === 0 ? (
+                        <th key={ci} scope="row" className="px-4 py-2.5 border-b border-gray-100 font-medium text-gray-800 text-left">
+                          {cell}
+                        </th>
+                      ) : (
+                        <td key={ci} className="px-4 py-2.5 border-b border-gray-100 text-gray-600">
                           {cell}
                         </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
-
-          {/* FAQs */}
-          <section className="mb-12">
-            <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">Frequently Asked Questions</h2>
-            <div className="space-y-3">
-              {faqs.map((faq, i) => (
-                <div key={i} className="border border-gray-200 rounded-lg overflow-hidden">
-                  <button
-                    className="w-full flex items-center justify-between px-4 py-3 text-left font-semibold text-gray-800 hover:bg-gray-50 transition-colors"
-                    onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  >
-                    <span>{faq.q}</span>
-                    <ChevronDown
-                      className={`shrink-0 text-gray-400 transition-transform ${openFaq === i ? "rotate-180" : ""}`}
-                      size={18}
-                    />
-                  </button>
-                  {openFaq === i && (
-                    <div className="px-4 pb-4 text-gray-700 leading-relaxed border-t border-gray-100 pt-3 text-sm">
-                      {faq.a}
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* CTA */}
-          <div className="bg-[#1B3A6B] rounded-2xl p-8 text-white text-center">
-            <h3 className="text-xl font-bold mb-2">Find the Right Medicare Advantage Plan</h3>
-            <p className="text-blue-200 mb-6">
-              Compare HMO, PPO, and other Medicare Advantage plans available in your area with help from our licensed specialists.
-            </p>
-            <ZipFormModal
-              coverageType="ma"
-              triggerLabel="Compare Plans"
-              triggerClassName="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"              pageSection="medicare_advantage_plan_types"
-                triggerId="compare-plans-ma-plan-types" />
+                      )
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
-        </div>
-      </main>
+        </section>
+
+        {/* FAQs */}
+        <section className="mb-12">
+          <h2 className="text-xl font-bold text-[#1B3A6B] mb-4">Frequently Asked Questions</h2>
+          <div className="space-y-3">
+            {faqs.map((faq, i) => (
+              <div key={i} className="border border-gray-200 rounded-lg overflow-hidden">
+                <button
+                  className="w-full flex items-center justify-between px-4 py-3 text-left font-semibold text-gray-800 hover:bg-gray-50 transition-colors"
+                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  aria-expanded={openFaq === i}
+                >
+                  <span>{faq.q}</span>
+                  <ChevronDown
+                    className={`shrink-0 text-gray-400 transition-transform ${openFaq === i ? "rotate-180" : ""}`}
+                    size={18}
+                    aria-hidden="true"
+                  />
+                </button>
+                {openFaq === i && (
+                  <div className="px-4 pb-4 text-gray-700 leading-relaxed border-t border-gray-100 pt-3 text-sm">
+                    {faq.a}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* CTA */}
+        <aside aria-label="Find the Right Medicare Advantage Plan" className="bg-[#1B3A6B] rounded-2xl p-8 text-white text-center">
+          <h3 className="text-xl font-bold mb-2">Find the Right Medicare Advantage Plan</h3>
+          <p className="text-blue-200 mb-6">
+            Compare HMO, PPO, and other Medicare Advantage plans available in your area with help from our licensed specialists.
+          </p>
+          <ZipFormModal
+            coverageType="ma"
+            triggerLabel="Compare Plans"
+            triggerClassName="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+            pageSection="medicare_advantage_plan_types"
+            triggerId="compare-plans-ma-plan-types" />
+        </aside>
+      </div>
+    </main>
   );
 }

@@ -95,23 +95,31 @@ export default function PageContent() {
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-teal-400 rounded-full blur-3xl" />
         </div>
         <div className="container relative z-10">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
-            <span className="text-teal-400">Compare Plans</span>
-          </div>
+          <nav aria-label="Breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap list-none">
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              </li>
+              <li aria-hidden="true"><ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" /></li>
+              <li>
+                <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
+              </li>
+              <li aria-hidden="true"><ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" /></li>
+              <li aria-current="page">
+                <span className="text-teal-400">Compare Plans</span>
+              </li>
+            </ol>
+          </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center">
               <Shield className="w-6 h-6 text-blue-400" aria-hidden="true" />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
-            Compare Medicare Supplement Plans
+            Compare <strong>Medicare Supplement Plans</strong>
           </h1>
           <p className="text-lg text-slate-300 max-w-2xl mb-8">
-            All 10 standardized Medigap plan letters compared side by side. Benefits are identical regardless of insurer - only premiums differ.
+            All 10 standardized <strong>Medigap</strong> plan letters compared side by side. Benefits are identical regardless of insurer - only <strong>premiums</strong> differ.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
@@ -147,7 +155,7 @@ export default function PageContent() {
                   ))}
                 </tr>
                 <tr className="bg-slate-50 border-b border-slate-200">
-                  <td className="px-4 py-2 text-xs text-slate-500 font-medium">Monthly Premium (est.)</td>
+                  <td className="px-4 py-2 text-xs text-slate-500 font-medium">Monthly <strong>Premium</strong> (est.)</td>
                   {PLANS.map((p) => (
                     <td key={p} className="px-3 py-2 text-center text-xs text-slate-600 font-medium">{PLAN_PREMIUM[p]}</td>
                   ))}
@@ -197,7 +205,7 @@ export default function PageContent() {
             High Deductible Plans
           </h2>
           <p className="text-slate-500 text-sm mb-6">
-            High Deductible plans offer the same coverage as their standard counterparts after you meet the annual deductible ($2,950 in 2026).
+            High Deductible plans offer the same coverage as their standard counterparts after you meet the annual <strong>deductible</strong> ($2,950 in 2026).
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -226,16 +234,16 @@ export default function PageContent() {
                   )}
                 </div>
                 <p className="text-sm text-slate-600 mb-4">{p.desc}</p>
-                <div className="flex gap-6 text-sm mb-4">
+                <dl className="flex gap-6 text-sm mb-4">
                   <div>
-                    <span className="text-slate-500 text-xs">Monthly Premium</span>
-                    <div className="font-bold text-slate-900">{p.premium}</div>
+                    <dt className="text-slate-500 text-xs">Monthly Premium</dt>
+                    <dd className="font-bold text-slate-900">{p.premium}</dd>
                   </div>
                   <div>
-                    <span className="text-slate-500 text-xs">Annual Deductible</span>
-                    <div className="font-bold text-slate-900">{p.deductible}</div>
+                    <dt className="text-slate-500 text-xs">Annual Deductible</dt>
+                    <dd className="font-bold text-slate-900">{p.deductible}</dd>
                   </div>
-                </div>
+                </dl>
                 <Link href={`/medicare-supplement-plans/${p.slug}`} className="inline-flex items-center gap-1 text-teal-700 font-semibold text-sm hover:underline">
                   Learn More <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </Link>
@@ -247,24 +255,26 @@ export default function PageContent() {
           <h2 className="text-2xl font-bold text-slate-900 mt-14 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
             Explore Each Plan
           </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <ul className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 list-none">
             {PLANS.map((p) => (
-              <Link key={p} href={`/medicare-supplement-plans/plan-${p.toLowerCase()}`}
-                className="p-5 border border-slate-200 rounded-xl hover:border-teal-400 hover:shadow-md transition-all group">
-                <div className="text-2xl font-black text-slate-900 mb-1 group-hover:text-teal-700">Plan {p}</div>
-                <div className="text-xs text-slate-500 mb-3">{PLAN_PREMIUM[p]}/mo</div>
-                {!PLAN_AVAILABLE[p] && (
-                  <span className="text-xs bg-amber-100 text-amber-700 font-semibold px-2 py-0.5 rounded-full">Pre-2020 Only</span>
-                )}
-                <div className="flex items-center gap-1 text-teal-600 text-xs font-semibold mt-3">
-                  View Details <ArrowRight className="w-3 h-3" aria-hidden="true" />
-                </div>
-              </Link>
+              <li key={p}>
+                <Link href={`/medicare-supplement-plans/plan-${p.toLowerCase()}`}
+                  className="p-5 border border-slate-200 rounded-xl hover:border-teal-400 hover:shadow-md transition-all group flex flex-col">
+                  <div className="text-2xl font-black text-slate-900 mb-1 group-hover:text-teal-700">Plan {p}</div>
+                  <div className="text-xs text-slate-500 mb-3">{PLAN_PREMIUM[p]}/mo</div>
+                  {!PLAN_AVAILABLE[p] && (
+                    <span className="text-xs bg-amber-100 text-amber-700 font-semibold px-2 py-0.5 rounded-full">Pre-2020 Only</span>
+                  )}
+                  <div className="flex items-center gap-1 text-teal-600 text-xs font-semibold mt-3">
+                    View Details <ArrowRight className="w-3 h-3" aria-hidden="true" />
+                  </div>
+                </Link>
+              </li>
             ))}
-          </div>
+          </ul>
 
           {/* CTA */}
-          <div className="mt-14 p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
+          <aside aria-label="Get help choosing a plan" className="mt-14 p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
             <h3 className="text-2xl font-bold mb-3">Not Sure Which Plan is Right for You?</h3>
             <p className="text-slate-300 mb-6 max-w-2xl">
               Our licensed Medicare agents compare rates from multiple carriers at no cost to you. We'll help you find the right plan for your health needs and budget.
@@ -282,7 +292,7 @@ export default function PageContent() {
                 triggerId="compare-rates-online-compare"
               />
             </div>
-          </div>
+          </aside>
         </div>
       </section>
 

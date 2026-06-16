@@ -283,13 +283,22 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
             <motion.nav
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
+              aria-label="Breadcrumb"
               className="flex items-center gap-2 text-sm text-slate-400 mb-8"
             >
-              <Link href="/" className="hover:text-white transition-colors">
-                Home
-              </Link>
-              <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
-              <span className="text-white">Medicare 101 Guide</span>
+              <ol className="flex items-center gap-2">
+                <li>
+                  <Link href="/" className="hover:text-white transition-colors">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
+                </li>
+                <li aria-current="page">
+                  <span className="text-white">Medicare 101 Guide</span>
+                </li>
+              </ol>
             </motion.nav>
 
             <div className="flex items-center gap-3 mb-6">
@@ -352,11 +361,11 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
           <div className="flex gap-12 lg:gap-16 justify-center">
             {/* Sticky Table of Contents — Desktop (right side) */}
             <aside className="hidden xl:block w-64 shrink-0 order-last">
-              <nav className="sticky top-40">
+              <nav aria-label="Table of contents" className="sticky top-40">
                 <h3 className="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-4">
                   In This Guide
                 </h3>
-                <ul className="space-y-1">
+                <ul className="space-y-1 list-none">
                   {tableOfContents.map(({ id, label }) => (
                     <li key={id}>
                       <a
@@ -416,8 +425,8 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                     </p>
                     <p>
                       <strong className="text-slate-800">Original Medicare</strong> consists of two
-                      parts: <strong className="text-slate-800">Part A</strong> (hospital insurance) and{" "}
-                      <strong className="text-slate-800">Part B</strong> (medical insurance). Together,
+                      parts: <strong className="text-slate-800">Medicare Part A</strong> (hospital insurance) and{" "}
+                      <strong className="text-slate-800">Medicare Part B</strong> (medical insurance). Together,
                       they cover a wide range of inpatient and outpatient services. With
                       Original Medicare, you can visit any doctor or hospital in the
                       country that accepts Medicare — no referrals or prior
@@ -435,7 +444,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                   </div>
 
                   {/* Key stats bar */}
-                  <div className="mt-8 grid grid-cols-2 lg:grid-cols-4 gap-4">
+                  <dl className="mt-8 grid grid-cols-2 lg:grid-cols-4 gap-4">
                     {[
                       { label: "Americans Covered", value: "67M+" },
                       { label: "Established", value: "1965" },
@@ -446,11 +455,11 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                         key={label}
                         className="bg-slate-50 rounded-xl p-4 text-center"
                       >
-                        <p className="text-2xl font-bold text-slate-900">{value}</p>
-                        <p className="text-xs text-slate-500 mt-1">{label}</p>
+                        <dd className="text-2xl font-bold text-slate-900">{value}</dd>
+                        <dt className="text-xs text-slate-500 mt-1">{label}</dt>
                       </div>
                     ))}
-                  </div>
+                  </dl>
                 </motion.div>
               </section>
 
@@ -485,9 +494,9 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                     >
                       {/* Part header */}
                       <div className={`${part.color} px-6 py-4 flex items-center gap-3`}>
-                        <part.icon className="w-5 h-5 text-white" />
+                        <part.icon className="w-5 h-5 text-white" aria-hidden="true" />
                         <h3 className="text-lg font-bold text-white">
-                          {part.part}: {part.title}
+                          <strong>{part.part}</strong>: {part.title}
                         </h3>
                       </div>
 
@@ -503,13 +512,13 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                               <CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" />
                               What It Covers
                             </h4>
-                            <ul className="space-y-2">
+                            <ul className="space-y-2 list-none">
                               {part.covers.map((item) => (
                                 <li
                                   key={item}
                                   className="flex items-start gap-2 text-sm text-slate-600"
                                 >
-                                  <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-1.5 shrink-0" />
+                                  <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-1.5 shrink-0" aria-hidden="true" />
                                   {item}
                                 </li>
                               ))}
@@ -522,13 +531,13 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                               <XCircle className="w-4 h-4 text-red-500" aria-hidden="true" />
                               What It Doesn't Cover
                             </h4>
-                            <ul className="space-y-2">
+                            <ul className="space-y-2 list-none">
                               {part.doesNotCover.map((item) => (
                                 <li
                                   key={item}
                                   className="flex items-start gap-2 text-sm text-slate-600"
                                 >
-                                  <span className="w-1.5 h-1.5 rounded-full bg-red-400 mt-1.5 shrink-0" />
+                                  <span className="w-1.5 h-1.5 rounded-full bg-red-400 mt-1.5 shrink-0" aria-hidden="true" />
                                   {item}
                                 </li>
                               ))}
@@ -569,7 +578,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                     qualifying circumstances.
                   </p>
 
-                  <div className="space-y-4">
+                  <ul className="space-y-4 list-none">
                     {[
                       {
                         icon: Users,
@@ -596,7 +605,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                           "Individuals diagnosed with ALS (Lou Gehrig's disease) automatically qualify for Medicare as soon as their SSDI benefits begin — no 24-month waiting period.",
                       },
                     ].map((item, i) => (
-                      <motion.div
+                      <motion.li
                         key={item.title}
                         initial="hidden"
                         whileInView="visible"
@@ -606,7 +615,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                         className="flex gap-4 p-5 bg-slate-50 rounded-xl"
                       >
                         <div className="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center shrink-0">
-                          <item.icon className="w-5 h-5 text-teal-600" />
+                          <item.icon className="w-5 h-5 text-teal-600" aria-hidden="true" />
                         </div>
                         <div>
                           <h3 className="font-semibold text-slate-900 mb-1">
@@ -616,12 +625,12 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                             {item.description}
                           </p>
                         </div>
-                      </motion.div>
+                      </motion.li>
                     ))}
-                  </div>
+                  </ul>
 
                   {/* Documents needed */}
-                  <div className="mt-8 border border-amber-200 bg-amber-50 rounded-xl p-5">
+                  <aside aria-label="Documents needed to apply" className="mt-8 border border-amber-200 bg-amber-50 rounded-xl p-5">
                     <div className="flex items-start gap-3">
                       <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
@@ -637,7 +646,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </aside>
                 </motion.div>
               </section>
 
@@ -660,9 +669,9 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                   </p>
                 </motion.div>
 
-                <div className="space-y-6">
+                <ul className="space-y-6 list-none">
                   {enrollmentPeriods.map((period, i) => (
-                    <motion.div
+                    <motion.li
                       key={period.title}
                       initial="hidden"
                       whileInView="visible"
@@ -673,11 +682,11 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                     >
                       <div className="flex items-start gap-4">
                         <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center shrink-0">
-                          <period.icon className="w-5 h-5 text-blue-600" />
+                          <period.icon className="w-5 h-5 text-blue-600" aria-hidden="true" />
                         </div>
                         <div className="flex-1">
                           <h3 className="text-lg font-bold text-slate-900 mb-1">
-                            {period.title}
+                            <strong>{period.title}</strong>
                           </h3>
                           <p className="text-sm font-medium text-teal-600 mb-3">
                             {period.timing}
@@ -685,16 +694,16 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                           <p className="text-slate-600 leading-relaxed mb-4">
                             {period.description}
                           </p>
-                          <div className="bg-teal-50 rounded-lg p-3">
+                          <aside aria-label="Pro tip" className="bg-teal-50 rounded-lg p-3">
                             <p className="text-sm text-teal-800">
                               <strong>Pro Tip:</strong> {period.tip}
                             </p>
-                          </div>
+                          </aside>
                         </div>
                       </div>
-                    </motion.div>
+                    </motion.li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* Section: Costs & Premiums */}
@@ -762,7 +771,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                   </p>
 
                   {/* Cost gap callout */}
-                  <div className="mt-8 bg-rose-50 border border-rose-200 rounded-xl p-5">
+                  <aside aria-label="Warning: The 20% coverage gap" className="mt-8 bg-rose-50 border border-rose-200 rounded-xl p-5">
                     <div className="flex items-start gap-3">
                       <AlertTriangle className="w-5 h-5 text-rose-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
@@ -774,12 +783,12 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                           costs — leaving you responsible for the remaining 20%
                           with <strong>no annual out-of-pocket maximum</strong>.
                           For a $100,000 surgery, that's $20,000 out of your
-                          pocket. This is why most beneficiaries add a Medicare
-                          Supplement plan or choose Medicare Advantage.
+                          pocket. This is why most beneficiaries add a <strong>Medicare
+                          Supplement</strong> plan or choose <strong>Medicare Advantage</strong>.
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </aside>
                 </motion.div>
               </section>
 
@@ -911,9 +920,9 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                   </p>
                 </motion.div>
 
-                <div className="space-y-3">
+                <ul className="space-y-3 list-none">
                   {faqs.map((faq, i) => (
-                    <motion.div
+                    <motion.li
                       key={i}
                       initial="hidden"
                       whileInView="visible"
@@ -945,9 +954,9 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                           </div>
                         </div>
                       )}
-                    </motion.div>
+                    </motion.li>
                   ))}
-                </div>
+                </ul>
               </section>
 
               {/* Section: Next Steps */}
@@ -988,7 +997,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                     </Link>
                   </div>
 
-                  <div className="mt-8 pt-6 border-t border-white/10 grid sm:grid-cols-3 gap-6">
+                  <ul className="mt-8 pt-6 border-t border-white/10 grid sm:grid-cols-3 gap-6 list-none">
                     {[
                       {
                         icon: Shield,
@@ -1003,12 +1012,12 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                         label: "5.0 Satisfaction Rating",
                       },
                     ].map(({ icon: Icon, label }) => (
-                      <div key={label} className="flex items-center gap-3">
+                      <li key={label} className="flex items-center gap-3">
                         <Icon className="w-5 h-5 text-teal-400" aria-hidden="true" />
                         <span className="text-sm text-slate-300">{label}</span>
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </motion.div>
               </section>
             </div>

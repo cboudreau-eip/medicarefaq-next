@@ -97,12 +97,20 @@ export default function PageContent() {
         {/* Hero */}
         <section className="bg-[#1B3A6B] text-white py-14 px-4">
           <div className="container max-w-5xl">
-            <nav className="text-sm text-blue-200 mb-4 flex items-center gap-2">
-              <Link href="/" className="hover:text-white">Home</Link>
-              <span>/</span>
-              <Link href="/original-medicare" className="hover:text-white">Original Medicare</Link>
-              <span>/</span>
-              <span className="text-white">Part B</span>
+            <nav aria-label="Breadcrumb" className="text-sm text-blue-200 mb-4">
+              <ol className="flex items-center gap-2">
+                <li>
+                  <Link href="/" className="hover:text-white">Home</Link>
+                </li>
+                <li aria-hidden="true"><span>/</span></li>
+                <li>
+                  <Link href="/original-medicare" className="hover:text-white">Original Medicare</Link>
+                </li>
+                <li aria-hidden="true"><span>/</span></li>
+                <li aria-current="page">
+                  <span className="text-white">Part B</span>
+                </li>
+              </ol>
             </nav>
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-blue-500/30 rounded-xl p-3">
@@ -112,7 +120,7 @@ export default function PageContent() {
             </div>
             <h1 className="text-4xl font-bold mb-4">Medicare Part B</h1>
             <p className="text-xl text-blue-100 max-w-2xl mb-6">
-              Outpatient medical insurance covering doctor visits, preventive care, lab tests, and durable medical equipment. The standard 2026 premium is $202.90/month.
+              Outpatient medical insurance covering doctor visits, preventive care, lab tests, and durable medical equipment. The standard 2026 <strong>premium</strong> is $202.90/month.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
@@ -151,15 +159,17 @@ export default function PageContent() {
           <aside className="hidden lg:block w-56 shrink-0">
             <div className="sticky top-28 bg-gray-50 rounded-xl p-4 border border-gray-200">
               <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">On This Page</p>
-              <ul className="space-y-1">
-                {tableOfContents.map((item) => (
-                  <li key={item.id}>
-                    <a href={`#${item.id}`} className="text-sm text-gray-600 hover:text-[#1B3A6B] block py-1 transition-colors">
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <nav aria-label="Table of contents">
+                <ul className="space-y-1 list-none">
+                  {tableOfContents.map((item) => (
+                    <li key={item.id}>
+                      <a href={`#${item.id}`} className="text-sm text-gray-600 hover:text-[#1B3A6B] block py-1 transition-colors">
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
             </div>
           </aside>
 
@@ -168,71 +178,71 @@ export default function PageContent() {
             <section id="overview">
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What is Medicare Part B?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Medicare Part B is the medical insurance component of Original Medicare. While Part A covers inpatient hospital care, Part B covers outpatient services — everything from routine doctor visits and lab tests to preventive screenings and durable medical equipment. Part B is optional, but most people enroll because the late enrollment penalty is permanent and the coverage is essential.
+                <strong>Medicare Part B</strong> is the medical insurance component of <strong>Original Medicare</strong>. While Part A covers inpatient hospital care, Part B covers outpatient services — everything from routine doctor visits and lab tests to preventive screenings and durable medical equipment. Part B is optional, but most people enroll because the <strong>late enrollment penalty</strong> is permanent and the coverage is essential.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Unlike Part A, Part B always has a monthly premium. The standard premium in 2026 is $202.90/month, though higher-income beneficiaries pay more through IRMAA (Income-Related Monthly Adjustment Amount) surcharges.
+                Unlike Part A, Part B always has a monthly <strong>premium</strong>. The standard premium in 2026 is $202.90/month, though higher-income beneficiaries pay more through <strong>IRMAA (Income-Related Monthly Adjustment Amount)</strong> surcharges.
               </p>
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <aside aria-label="Note: The 20% Gap" className="bg-blue-50 border border-blue-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
                   <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                   <div>
                     <p className="font-semibold text-blue-900 mb-1">The 20% Gap</p>
-                    <p className="text-sm text-blue-800">After meeting the $283 deductible, Medicare pays 80% of approved costs. You pay the remaining 20% with no annual cap. A Medigap supplement plan can cover this 20% coinsurance entirely.</p>
+                    <p className="text-sm text-blue-800">After meeting the $283 <strong>deductible</strong>, Medicare pays 80% of approved costs. You pay the remaining 20% <strong>coinsurance</strong> with no annual cap. A <strong>Medigap</strong> supplement plan can cover this 20% coinsurance entirely.</p>
                   </div>
                 </div>
-              </div>
+              </aside>
             </section>
 
             {/* Coverage */}
             <section id="coverage">
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">What Medicare Part B Covers</h2>
-              <div className="grid gap-3">
+              <ul className="grid gap-3 list-none">
                 {coverageItems.map((item, i) => (
-                  <div key={i} className={`flex items-start gap-3 p-4 rounded-lg border ${item.covered ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200"}`}>
+                  <li key={i} className={`flex items-start gap-3 p-4 rounded-lg border ${item.covered ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200"}`}>
                     {item.covered ? (
                       <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                     ) : (
                       <XCircle className="w-5 h-5 text-red-500 mt-0.5 shrink-0" aria-hidden="true" />
                     )}
                     <span className={`text-sm ${item.covered ? "text-green-900" : "text-red-900"}`}>{item.item}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </section>
 
             {/* Costs */}
             <section id="costs">
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">2026 Medicare Part B Costs</h2>
-              <div className="grid md:grid-cols-3 gap-4 mb-6">
+              <dl className="grid md:grid-cols-3 gap-4 mb-6">
                 {[
                   { label: "Monthly Premium", value: "$202.90", note: "Standard amount; higher for high earners" },
                   { label: "Annual Deductible", value: "$283", note: "You pay 100% of costs until this is met" },
                   { label: "Coinsurance", value: "20%", note: "Your share after the deductible; no cap" },
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-5 text-center">
-                    <div className="text-3xl font-bold text-[#1B3A6B] mb-1">{item.value}</div>
-                    <div className="font-semibold text-gray-800 text-sm mb-1">{item.label}</div>
-                    <div className="text-xs text-gray-500">{item.note}</div>
+                    <dd className="text-3xl font-bold text-[#1B3A6B] mb-1">{item.value}</dd>
+                    <dt className="font-semibold text-gray-800 text-sm mb-1">{item.label}</dt>
+                    <dd className="text-xs text-gray-500">{item.note}</dd>
                   </div>
                 ))}
-              </div>
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
+              </dl>
+              <aside aria-label="Warning: No Out-of-Pocket Maximum" className="bg-amber-50 border border-amber-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
                   <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                   <div>
                     <p className="font-semibold text-amber-900 mb-1">No Out-of-Pocket Maximum</p>
-                    <p className="text-sm text-amber-800">The 20% coinsurance has no annual cap. If you have a serious illness requiring frequent specialist visits or expensive procedures, your costs can be substantial. Medigap Plan G or Plan N can significantly limit your exposure.</p>
+                    <p className="text-sm text-amber-800">The 20% coinsurance has no annual cap. If you have a serious illness requiring frequent specialist visits or expensive procedures, your costs can be substantial. <strong>Medigap</strong> Plan G or Plan N can significantly limit your exposure.</p>
                   </div>
                 </div>
-              </div>
+              </aside>
             </section>
 
             {/* IRMAA */}
             <section id="irmaa">
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">IRMAA: Income-Related Premium Surcharges</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                If your modified adjusted gross income (MAGI) exceeds certain thresholds, you pay a higher Part B premium. These surcharges are called IRMAA (Income-Related Monthly Adjustment Amount). Medicare uses your income from two years prior — so 2026 premiums are based on your 2024 tax return.
+                If your modified adjusted gross income (MAGI) exceeds certain thresholds, you pay a higher Part B premium. These surcharges are called <strong>IRMAA (Income-Related Monthly Adjustment Amount)</strong>. Medicare uses your income from two years prior — so 2026 premiums are based on your 2024 tax return.
               </p>
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-sm">
@@ -260,60 +270,60 @@ export default function PageContent() {
                   </tbody>
                 </table>
               </div>
-              <p className="text-xs text-gray-500 mt-2">IRMAA also applies to Part D premiums. You can appeal an IRMAA determination if your income has decreased due to a life-changing event (retirement, divorce, death of spouse).</p>
+              <p className="text-xs text-gray-500 mt-2">IRMAA also applies to <strong>Part D</strong> premiums. You can appeal an IRMAA determination if your income has decreased due to a life-changing event (retirement, divorce, death of spouse).</p>
             </section>
 
             {/* Eligibility */}
             <section id="eligibility">
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">Who Qualifies for Medicare Part B?</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                You're eligible for Part B if you're eligible for Part A. This includes U.S. citizens and permanent residents who are age 65 or older, or under 65 with a qualifying disability, ESRD, or ALS. Unlike Part A, Part B always has a premium — there's no premium-free version.
+                You're eligible for Part B if you're eligible for Part A. This includes U.S. citizens and permanent residents who are age 65 or older, or under 65 with a qualifying disability, ESRD, or ALS. Unlike Part A, Part B always has a <strong>premium</strong> — there's no premium-free version.
               </p>
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <aside aria-label="Note: Part B Is Optional" className="bg-blue-50 border border-blue-200 rounded-xl p-5">
                 <p className="font-semibold text-blue-900 mb-2">Part B Is Optional — But Declining Has Consequences</p>
-                <p className="text-sm text-blue-800">You can decline Part B when you first become eligible, but if you don't have other creditable coverage (like employer insurance), you'll face a permanent late enrollment penalty when you eventually enroll.</p>
-              </div>
+                <p className="text-sm text-blue-800">You can decline Part B when you first become eligible, but if you don't have other <strong>creditable coverage</strong> (like employer insurance), you'll face a permanent <strong>late enrollment penalty</strong> when you eventually enroll.</p>
+              </aside>
             </section>
 
             {/* Enrollment */}
             <section id="enrollment">
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">When to Enroll in Part B</h2>
-              <div className="space-y-4">
+              <ol className="space-y-4 list-none">
                 {[
                   { title: "Initial Enrollment Period (IEP)", desc: "A 7-month window: 3 months before your 65th birthday month, your birthday month, and 3 months after. Enroll early to avoid a gap in coverage." },
                   { title: "Special Enrollment Period (SEP)", desc: "If you have employer coverage through active employment, you can delay Part B and enroll during an 8-month SEP after that coverage ends or employment ends — whichever comes first." },
                   { title: "General Enrollment Period (GEP)", desc: "If you miss your IEP and don't qualify for a SEP, you can enroll January 1 – March 31 each year. Coverage starts July 1. A late enrollment penalty applies." },
                 ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-200">
+                  <li key={i} className="flex items-start gap-4 p-5 bg-gray-50 rounded-xl border border-gray-200">
                     <div className="bg-[#1B3A6B] text-white rounded-full w-7 h-7 flex items-center justify-center text-sm font-bold shrink-0">{i + 1}</div>
                     <div>
-                      <p className="font-semibold text-gray-900 mb-1">{item.title}</p>
+                      <p className="font-semibold text-gray-900 mb-1"><strong>{item.title}</strong></p>
                       <p className="text-sm text-gray-600">{item.desc}</p>
                     </div>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ol>
             </section>
 
             {/* Penalty */}
             <section id="penalty">
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">Late Enrollment Penalty</h2>
-              <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-4">
+              <aside aria-label="Warning: Late Enrollment Penalty" className="bg-red-50 border border-red-200 rounded-xl p-6 mb-4">
                 <div className="flex items-start gap-3">
                   <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                   <div>
                     <p className="font-bold text-red-900 text-lg mb-2">10% Per Year — Permanently</p>
                     <p className="text-sm text-red-800 mb-3">
-                      For every 12-month period you were eligible for Part B but didn't enroll (without creditable coverage), your premium increases by 10%. This penalty is added to your monthly premium for as long as you have Part B.
+                      For every 12-month period you were eligible for Part B but didn't enroll (without <strong>creditable coverage</strong>), your <strong>premium</strong> increases by 10%. This penalty is added to your monthly premium for as long as you have Part B.
                     </p>
                     <p className="text-sm text-red-800">
                       <strong>Example:</strong> If you delayed Part B for 2 years without creditable coverage, your premium would be $202.90 × 1.20 = $243.48/month in 2026 — and this higher rate stays with you permanently.
                     </p>
                   </div>
                 </div>
-              </div>
+              </aside>
               <p className="text-sm text-gray-600">
-                The penalty does not apply if you had creditable coverage (like employer group health insurance based on active employment) during the delay period.
+                The penalty does not apply if you had <strong>creditable coverage</strong> (like employer group health insurance based on active employment) during the delay period.
               </p>
             </section>
 
@@ -346,7 +356,7 @@ export default function PageContent() {
         <section className="bg-[#1B3A6B] text-white py-12 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl font-bold mb-3">Questions about Your Part B Coverage?</h2>
-            <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand IRMAA, and find the right Medigap plan to cover the 20% coinsurance — at no cost to you.</p>
+            <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand IRMAA, and find the right <strong>Medigap</strong> plan to cover the 20% coinsurance — at no cost to you.</p>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_b" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
               <Phone className="w-5 h-5" aria-hidden="true" />
