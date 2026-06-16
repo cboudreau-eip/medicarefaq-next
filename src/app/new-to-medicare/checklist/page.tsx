@@ -5,11 +5,11 @@ import Checklist from "./PageContent";
 export const metadata: Metadata = {
   title: "Medicare Enrollment Checklist | Steps to Enroll in Medicare",
   description: "Use our Medicare enrollment checklist to make sure you don",
-  alternates: { canonical: "https://www.medicarefaq.com/new-to-medicare/checklist/" },
+  alternates: { canonical: "https://www.medicarefaq.com/medicare-enrollment/checklist/" },
   openGraph: {
     title: "Medicare Enrollment Checklist | Steps to Enroll in Medicare",
     description: "Use our Medicare enrollment checklist to make sure you don",
-    url: "https://www.medicarefaq.com/new-to-medicare/checklist/",
+    url: "https://www.medicarefaq.com/medicare-enrollment/checklist/",
     type: "article",
     images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
   },
@@ -21,7 +21,7 @@ export default function Page() {
     "@type": "Article",
     headline: "Medicare Enrollment Checklist | Steps to Enroll in Medicare",
     description: "Use our Medicare enrollment checklist to make sure you don",
-    url: "https://www.medicarefaq.com/new-to-medicare/checklist/",
+    url: "https://www.medicarefaq.com/medicare-enrollment/checklist/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },
     publisher: {

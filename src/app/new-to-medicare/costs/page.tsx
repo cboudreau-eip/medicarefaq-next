@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How Much Does Medicare Cost? 2026 Premiums & Out-of-Pocket",
     description: "Learn what Medicare costs in 2026 — including Part A and Part B premiums, deductibles, and out-of-pocket expenses. Find out how to reduce your Medicare costs.",
-    url: "https://www.medicarefaq.com/new-to-medicare/costs/",
+    url: "https://www.medicarefaq.com/original-medicare/costs/",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.medicarefaq.com/new-to-medicare/costs/",
+    canonical: "https://www.medicarefaq.com/original-medicare/costs/",
   },
 };
 
@@ -22,7 +22,7 @@ export default function Page() {
     "@type": "Article",
     headline: "How Much Does Medicare Cost? 2026 Premiums & Out-of-Pocket",
     description: "Learn what Medicare costs in 2026 — including Part A and Part B premiums, deductibles, and out-of-pocket expenses. Find out how to reduce your Medicare costs.",
-    url: "https://www.medicarefaq.com/new-to-medicare/costs/",
+    url: "https://www.medicarefaq.com/original-medicare/costs/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },
     publisher: {
