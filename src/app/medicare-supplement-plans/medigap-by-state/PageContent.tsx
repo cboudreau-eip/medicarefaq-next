@@ -77,22 +77,22 @@ function getTagStyles(tag: StateEntry["tag"]) {
     case "birthday-rule":
       return {
         badge: "bg-amber-100 text-amber-800 border border-amber-200",
-        icon: <Gift className="w-3 h-3" />,
+        icon: <Gift className="w-3 h-3" aria-hidden="true" />,
       };
     case "anniversary-rule":
       return {
         badge: "bg-orange-100 text-orange-800 border border-orange-200",
-        icon: <Star className="w-3 h-3" />,
+        icon: <Star className="w-3 h-3" aria-hidden="true" />,
       };
     case "guaranteed-issue":
       return {
         badge: "bg-emerald-100 text-emerald-800 border border-emerald-200",
-        icon: <Shield className="w-3 h-3" />,
+        icon: <Shield className="w-3 h-3" aria-hidden="true" />,
       };
     case "state-specific":
       return {
         badge: "bg-purple-100 text-purple-800 border border-purple-200",
-        icon: <Star className="w-3 h-3" />,
+        icon: <Star className="w-3 h-3" aria-hidden="true" />,
       };
     default:
       return null;
@@ -104,21 +104,21 @@ export default function PageContent() {
   const standardStates = ALL_STATES.filter((s) => s.tag === "standard");
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16">
         <div className="container">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">By State</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <MapPin className="w-6 h-6 text-teal-400" />
+              <MapPin className="w-6 h-6 text-teal-400" aria-hidden="true" />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -137,13 +137,13 @@ export default function PageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Get State-Specific Rates <ArrowRight className="w-4 h-4" />
+                  Get State-Specific Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_by_state" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -157,16 +157,16 @@ export default function PageContent() {
             <p className="text-sm font-semibold text-slate-700 mb-3">State Rule Legend</p>
             <div className="flex flex-wrap gap-3 text-xs">
               <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-100 text-amber-800 border border-amber-200 font-medium">
-                <Gift className="w-3 h-3" /> Birthday Rule - annual guaranteed switching window
+                <Gift className="w-3 h-3" aria-hidden="true" /> Birthday Rule - annual guaranteed switching window
               </span>
               <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-orange-100 text-orange-800 border border-orange-200 font-medium">
-                <Star className="w-3 h-3" /> Anniversary Rule - annual switching tied to policy date
+                <Star className="w-3 h-3" aria-hidden="true" /> Anniversary Rule - annual switching tied to policy date
               </span>
               <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 font-medium">
-                <Shield className="w-3 h-3" /> Guaranteed Issue - switch anytime, no underwriting
+                <Shield className="w-3 h-3" aria-hidden="true" /> Guaranteed Issue - switch anytime, no underwriting
               </span>
               <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-purple-100 text-purple-800 border border-purple-200 font-medium">
-                <Star className="w-3 h-3" /> State-Specific Plans - unique plan structure
+                <Star className="w-3 h-3" aria-hidden="true" /> State-Specific Plans - unique plan structure
               </span>
             </div>
           </div>
@@ -199,7 +199,7 @@ export default function PageContent() {
                         </span>
                       )}
                     </div>
-                    <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all shrink-0" aria-hidden="true" />
                   </Link>
                 );
               })}
@@ -228,7 +228,7 @@ export default function PageContent() {
                     <h3 className="font-bold text-slate-900 group-hover:text-blue-800 transition-colors">{state.name}</h3>
                     <p className="text-xs text-slate-500">Full carrier rankings and premium guide</p>
                   </div>
-                  <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all shrink-0" />
+                  <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all shrink-0" aria-hidden="true" />
                 </Link>
               ))}
             </div>
@@ -250,19 +250,19 @@ export default function PageContent() {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-8 py-3 rounded-lg transition-colors">
-                    Compare Plans in Your Area <ArrowRight className="w-4 h-4" />
+                    Compare Plans in Your Area <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </button>
                 }
               />
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_by_state" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-3 rounded-lg transition-colors border border-white/20">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      </div>
+      </article>
   );
 }

@@ -65,7 +65,7 @@ export default function MedicareCoverage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       <FAQSchema faqs={faqs}  />
       <BreadcrumbSchema
         items={[
@@ -109,12 +109,12 @@ export default function MedicareCoverage() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-green-50 border border-green-200 rounded-xl p-6">
               <h3 className="font-bold text-green-800 mb-4 flex items-center gap-2">
-                <CheckCircle2 className="w-5 h-5" /> Covered by Medicare
+                <CheckCircle2 className="w-5 h-5" aria-hidden="true" /> Covered by Medicare
               </h3>
               <ul className="space-y-2">
                 {coveredServices.map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-green-900">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                     {item}
                   </li>
                 ))}
@@ -122,12 +122,12 @@ export default function MedicareCoverage() {
             </div>
             <div className="bg-red-50 border border-red-200 rounded-xl p-6">
               <h3 className="font-bold text-red-800 mb-4 flex items-center gap-2">
-                <XCircle className="w-5 h-5" /> Not Covered by Medicare
+                <XCircle className="w-5 h-5" aria-hidden="true" /> Not Covered by Medicare
               </h3>
               <ul className="space-y-2">
                 {notCoveredServices.map((item, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-red-900">
-                    <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" />
+                    <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" />
                     {item}
                   </li>
                 ))}
@@ -175,7 +175,7 @@ export default function MedicareCoverage() {
                 <ul className="mt-3 grid sm:grid-cols-2 gap-1">
                   {section.items.map((item, j) => (
                     <li key={j} className="flex items-center gap-2 text-sm text-gray-700">
-                      <CheckCircle2 className="w-4 h-4 text-gray-400 shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-gray-400 shrink-0" aria-hidden="true" />
                       {item}
                     </li>
                   ))}
@@ -213,7 +213,7 @@ export default function MedicareCoverage() {
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                 >
                   <span className="font-semibold text-[#1B2A4A] pr-4">{faq.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                  <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                 </button>
                 {openFaq === i && (
                   <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100">
@@ -238,6 +238,6 @@ export default function MedicareCoverage() {
         </section>
         </section>
       </div>
-    </div>
+    </article>
   );
 }

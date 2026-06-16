@@ -227,7 +227,7 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -238,15 +238,15 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
           <nav className="flex items-center gap-2 text-sm text-slate-300 mb-8">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-3.5 h-3.5" />
+            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
             <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
-            <ChevronRight className="w-3.5 h-3.5" />
+            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
             <span className="text-teal-300">Turning 65 Timeline</span>
           </nav>
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 rounded-xl bg-teal-500/20 flex items-center justify-center">
-              <Calendar className="w-6 h-6 text-teal-300" />
+              <Calendar className="w-6 h-6 text-teal-300" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-teal-300 uppercase tracking-wider">Enrollment Timeline</span>
           </div>
@@ -260,11 +260,11 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
 
           <div className="flex flex-wrap gap-4">
             <a href="#overview" className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              View Timeline <ArrowRight className="w-4 h-4" />
+              View Timeline <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -298,7 +298,7 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                 <p className="text-xs text-teal-700 mb-3">Our licensed agents can guide you through enrollment.</p>
                 <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900">
-                  <Phone className="w-4 h-4" /> (888) 335-8996
+                  <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
               </div>
             </div>
@@ -409,11 +409,11 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                         <td className="p-4 text-center">
                           {row.recommended ? (
                             <span className="inline-flex items-center gap-1 text-green-600 font-semibold text-xs bg-green-50 px-2.5 py-1 rounded-full">
-                              <CheckCircle2 className="w-3.5 h-3.5" /> Best
+                              <CheckCircle2 className="w-3.5 h-3.5" aria-hidden="true" /> Best
                             </span>
                           ) : (
                             <span className="inline-flex items-center gap-1 text-amber-600 font-semibold text-xs bg-amber-50 px-2.5 py-1 rounded-full">
-                              <Clock className="w-3.5 h-3.5" /> Delayed
+                              <Clock className="w-3.5 h-3.5" aria-hidden="true" /> Delayed
                             </span>
                           )}
                         </td>
@@ -462,7 +462,7 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                 {penalties.map((penalty) => (
                   <div key={penalty.part} className="bg-red-50 border border-red-200 rounded-xl p-6">
                     <div className="flex items-center gap-2 mb-3">
-                      <AlertTriangle className="w-5 h-5 text-red-600" />
+                      <AlertTriangle className="w-5 h-5 text-red-600" aria-hidden="true" />
                       <h3 className="text-lg font-bold text-red-900">{penalty.part}</h3>
                       {penalty.permanent && (
                         <span className="text-xs font-semibold bg-red-100 text-red-700 px-2 py-0.5 rounded-full">Permanent</span>
@@ -485,14 +485,14 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                   <div key={index} className="border border-slate-200 rounded-xl overflow-hidden">
                     <button
                       onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                      aria-expanded={openFaq === index}
                       className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                     >
                       <span className="font-semibold text-slate-900 pr-4">{faq.question}</span>
                       <ChevronDown
                         className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${
                           openFaq === index ? "rotate-180" : ""
-                        }`}
-                      />
+                        }`} aria-hidden="true" />
                     </button>
                     {openFaq === index && (
                       <div className="px-5 pb-5 text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -517,7 +517,7 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
                     Call (888) 335-8996
                   </a>
                   <Link href="/new-to-medicare/costs" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    What Does It Cost? <ArrowRight className="w-4 h-4" />
+                    What Does It Cost? <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </Link>
                 </div>
               </div>
@@ -527,6 +527,6 @@ export default function Turning65() {  const [activeSection, setActiveSection] =
       </div>
 
       
-    </div>
+    </article>
   );
 }

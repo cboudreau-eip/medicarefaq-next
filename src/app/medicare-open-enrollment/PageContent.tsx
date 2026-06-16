@@ -94,7 +94,7 @@ export default function PageContent() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Dark Navy Hero */}
       <section className="relative bg-gradient-to-br from-[#1a2b4a] to-[#0f1e38] pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -105,14 +105,14 @@ export default function PageContent() {
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-slate-400 mb-6" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/enrollment" className="hover:text-white transition-colors">Enrollment</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-amber-400">Medicare Open Enrollment</span>
           </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-amber-600/20 rounded-xl flex items-center justify-center">
-              <Calendar className="w-6 h-6 text-amber-400" />
+              <Calendar className="w-6 h-6 text-amber-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-amber-400 uppercase tracking-wider">Enrollment Period</span>
           </div>
@@ -132,14 +132,14 @@ export default function PageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Compare Plans in Your Area <ArrowRight className="w-4 h-4" />
+                  Compare Plans in Your Area <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "open-enrollment-hero" })}
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function PageContent() {
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "open-enrollment-sidebar" })}
                     className="flex items-center gap-2 text-sm font-bold text-amber-700">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -196,7 +196,7 @@ export default function PageContent() {
               {/* Key Takeaways */}
               <div className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <Lightbulb className="w-5 h-5 text-teal-700" />
+                  <Lightbulb className="w-5 h-5 text-teal-700" aria-hidden="true" />
                   <h3 className="font-bold text-teal-900 text-sm uppercase tracking-wider">Key Takeaways</h3>
                 </div>
                 <ul className="space-y-2">
@@ -207,7 +207,7 @@ export default function PageContent() {
                     "Review your plan\u2019s Annual Notice of Change (ANOC) each fall \u2014 benefits, costs, and provider networks can change annually",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-teal-800">
-                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" />
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -278,7 +278,7 @@ export default function PageContent() {
                 <div className="grid md:grid-cols-2 gap-5 mb-6">
                   <div className="bg-green-50 border border-green-200 rounded-xl p-5">
                     <h3 className="font-bold text-green-800 mb-3 flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5" /> You CAN
+                      <CheckCircle2 className="w-5 h-5" aria-hidden="true" /> You CAN
                     </h3>
                     <ul className="space-y-2 text-sm text-slate-700">
                       {[
@@ -290,14 +290,14 @@ export default function PageContent() {
                         "Drop Part D coverage",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" /> {item}
+                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" /> {item}
                         </li>
                       ))}
                     </ul>
                   </div>
                   <div className="bg-red-50 border border-red-200 rounded-xl p-5">
                     <h3 className="font-bold text-red-800 mb-3 flex items-center gap-2">
-                      <XCircle className="w-5 h-5" /> You CANNOT
+                      <XCircle className="w-5 h-5" aria-hidden="true" /> You CANNOT
                     </h3>
                     <ul className="space-y-2 text-sm text-slate-700">
                       {[
@@ -306,7 +306,7 @@ export default function PageContent() {
                         "Make changes to employer/union group coverage",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2">
-                          <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> {item}
+                          <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" /> {item}
                         </li>
                       ))}
                     </ul>
@@ -395,7 +395,7 @@ export default function PageContent() {
                     { mistake: "Forgetting about Part D coverage gaps", fix: "Check if your medications hit the coverage gap (donut hole) and what your plan charges during that phase." },
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-4 p-5 rounded-xl border border-amber-200 bg-amber-50/50">
-                      <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                      <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="font-bold text-amber-900 text-sm">{item.mistake}</p>
                         <p className="text-slate-600 text-sm mt-1">{item.fix}</p>
@@ -415,10 +415,11 @@ export default function PageContent() {
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 text-sm pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -452,7 +453,7 @@ export default function PageContent() {
                     onClick={() => trackPhoneClick({ phone_number: "(800) 845-2484", page_section: "open-enrollment-cta" })}
                     className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg border border-white/30 transition-colors"
                   >
-                    <Phone className="w-4 h-4" /> (800) 845-2484
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (800) 845-2484
                   </a>
                 </div>
               </section>
@@ -460,6 +461,6 @@ export default function PageContent() {
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

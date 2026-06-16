@@ -148,7 +148,7 @@ export default function Guides() {  useEffect(() => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -163,14 +163,14 @@ export default function Guides() {  useEffect(() => {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-indigo-200/70 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-indigo-200/70">Medicare Library</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-indigo-100">Guides</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <BookOpen className="w-6 h-6 text-indigo-200" />
+              <BookOpen className="w-6 h-6 text-indigo-200" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-indigo-200 uppercase tracking-wider">Medicare Library</span>
           </div>
@@ -181,9 +181,9 @@ export default function Guides() {  useEffect(() => {
             In-depth, expert-written guides that break down every aspect of Medicare. Whether you're new to Medicare or reviewing your options, start here.
           </p>
           <div className="flex items-center gap-6 text-sm text-indigo-200/80">
-            <span className="flex items-center gap-1.5"><FileText className="w-4 h-4" /> {featuredGuides.length + topicGuides.length} Guides</span>
-            <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" /> Written by Licensed Agents</span>
-            <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> Updated for 2026</span>
+            <span className="flex items-center gap-1.5"><FileText className="w-4 h-4" aria-hidden="true" /> {featuredGuides.length + topicGuides.length} Guides</span>
+            <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Written by Licensed Agents</span>
+            <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" aria-hidden="true" /> Updated for 2026</span>
           </div>
         </div>
       </section>
@@ -192,7 +192,7 @@ export default function Guides() {  useEffect(() => {
       <section className="py-16">
         <div className="container">
           <div className="flex items-center gap-2 mb-2">
-            <Star className="w-5 h-5 text-indigo-600" />
+            <Star className="w-5 h-5 text-indigo-600" aria-hidden="true" />
             <span className="text-sm font-bold text-indigo-600 uppercase tracking-wider">Essential Reading</span>
           </div>
           <h2 className="text-3xl font-bold text-slate-900 mb-3" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -213,7 +213,7 @@ export default function Guides() {  useEffect(() => {
                 >
                   <div className="flex items-start gap-4 mb-4">
                     <div className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: `${guide.color}12` }}>
-                      <Icon className="w-6 h-6" style={{ color: guide.color }} />
+                      <Icon className="w-6 h-6" style={{ color: guide.color }} aria-hidden="true" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 mb-1">
@@ -228,13 +228,13 @@ export default function Guides() {  useEffect(() => {
                   <div className="grid grid-cols-2 gap-2 mb-4">
                     {guide.topics.map((topic, j) => (
                       <div key={j} className="flex items-center gap-1.5 text-xs text-slate-500">
-                        <CheckCircle2 className="w-3 h-3 text-indigo-400 shrink-0" />
+                        <CheckCircle2 className="w-3 h-3 text-indigo-400 shrink-0" aria-hidden="true" />
                         <span>{topic}</span>
                       </div>
                     ))}
                   </div>
                   <div className="flex items-center gap-1.5 text-sm font-semibold text-indigo-600 group-hover:text-indigo-700">
-                    Read Guide <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    Read Guide <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                   </div>
                 </Link>
               );
@@ -264,7 +264,7 @@ export default function Guides() {  useEffect(() => {
                 >
                   <div className="flex items-start gap-3 mb-3">
                     <div className="w-10 h-10 bg-indigo-50 rounded-lg flex items-center justify-center shrink-0">
-                      <Icon className="w-5 h-5 text-indigo-600" />
+                      <Icon className="w-5 h-5 text-indigo-600" aria-hidden="true" />
                     </div>
                     <div>
                       <span className="text-[10px] font-semibold text-indigo-500 uppercase tracking-wider">{guide.category}</span>
@@ -273,7 +273,7 @@ export default function Guides() {  useEffect(() => {
                   </div>
                   <p className="text-xs text-slate-500 leading-relaxed mb-3">{guide.description}</p>
                   <span className="text-xs font-semibold text-indigo-600 flex items-center gap-1 group-hover:text-indigo-700">
-                    Read Guide <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+                    Read Guide <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" aria-hidden="true" />
                   </span>
                 </Link>
               );
@@ -295,10 +295,10 @@ export default function Guides() {  useEffect(() => {
             <div className="flex flex-wrap gap-4">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "guides" })} className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <Link href="/medicare-enrollment/how-to-enroll" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                How to Enroll <ArrowRight className="w-4 h-4" />
+                How to Enroll <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
@@ -306,6 +306,6 @@ export default function Guides() {  useEffect(() => {
       </section>
 
       
-    </div>
+    </article>
   );
 }

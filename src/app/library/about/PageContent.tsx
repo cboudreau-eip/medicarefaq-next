@@ -83,7 +83,7 @@ export default function AboutTeam() {  useEffect(() => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -98,14 +98,14 @@ export default function AboutTeam() {  useEffect(() => {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-indigo-200/70 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-indigo-200/70">Medicare Library</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-indigo-100">About Our Team</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Users className="w-6 h-6 text-indigo-200" />
+              <Users className="w-6 h-6 text-indigo-200" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-indigo-200 uppercase tracking-wider">Our Team</span>
           </div>
@@ -116,9 +116,9 @@ export default function AboutTeam() {  useEffect(() => {
             At MedicareFAQ, our mission is simple: make sure each individual we help is educated on all their Medicare options so they can make an informed decision.
           </p>
           <div className="flex items-center gap-6 text-sm text-indigo-200/80">
-            <span className="flex items-center gap-1.5"><Shield className="w-4 h-4" /> Licensed in All 50 States</span>
-            <span className="flex items-center gap-1.5"><Star className="w-4 h-4" /> BBB A+ Rated</span>
-            <span className="flex items-center gap-1.5"><Award className="w-4 h-4" /> 2,500+ 5-Star Reviews</span>
+            <span className="flex items-center gap-1.5"><Shield className="w-4 h-4" aria-hidden="true" /> Licensed in All 50 States</span>
+            <span className="flex items-center gap-1.5"><Star className="w-4 h-4" aria-hidden="true" /> BBB A+ Rated</span>
+            <span className="flex items-center gap-1.5"><Award className="w-4 h-4" aria-hidden="true" /> 2,500+ 5-Star Reviews</span>
           </div>
         </div>
       </section>
@@ -156,7 +156,7 @@ export default function AboutTeam() {  useEffect(() => {
               return (
                 <div key={i} className="bg-white border border-slate-200 rounded-xl p-5 hover:border-indigo-200 hover:shadow-sm transition-all">
                   <div className="w-10 h-10 bg-indigo-50 rounded-lg flex items-center justify-center mb-3">
-                    <Icon className="w-5 h-5 text-indigo-600" />
+                    <Icon className="w-5 h-5 text-indigo-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-sm font-bold text-slate-900 mb-2">{val.title}</h3>
                   <p className="text-xs text-slate-500 leading-relaxed">{val.description}</p>
@@ -196,7 +196,7 @@ export default function AboutTeam() {  useEffect(() => {
                 <div className="space-y-1.5">
                   {person.credentials.map((cred, j) => (
                     <div key={j} className="flex items-center gap-1.5 text-xs text-slate-600">
-                      <CheckCircle2 className="w-3 h-3 text-indigo-400 shrink-0" />
+                      <CheckCircle2 className="w-3 h-3 text-indigo-400 shrink-0" aria-hidden="true" />
                       <span>{cred}</span>
                     </div>
                   ))}
@@ -214,7 +214,7 @@ export default function AboutTeam() {  useEffect(() => {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-3">
-                  <Building2 className="w-5 h-5 text-indigo-600" />
+                  <Building2 className="w-5 h-5 text-indigo-600" aria-hidden="true" />
                   <span className="text-sm font-bold text-indigo-600 uppercase tracking-wider">Powered By</span>
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-3" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -224,18 +224,18 @@ export default function AboutTeam() {  useEffect(() => {
                   MedicareFAQ.com is powered by Elite Insurance Partners, a nationally recognized Medicare agency. We represent dozens of top-rated insurance carriers and are licensed in all 50 states, ensuring you have access to the best plans available in your area.
                 </p>
                 <div className="flex items-center gap-4 text-xs text-slate-500">
-                  <span className="flex items-center gap-1"><MapPin className="w-3 h-3" /> Tampa, FL</span>
-                  <span className="flex items-center gap-1"><Briefcase className="w-3 h-3" /> Est. 2014</span>
-                  <span className="flex items-center gap-1"><Star className="w-3 h-3" /> BBB A+ Rated</span>
+                  <span className="flex items-center gap-1"><MapPin className="w-3 h-3" aria-hidden="true" /> Tampa, FL</span>
+                  <span className="flex items-center gap-1"><Briefcase className="w-3 h-3" aria-hidden="true" /> Est. 2014</span>
+                  <span className="flex items-center gap-1"><Star className="w-3 h-3" aria-hidden="true" /> BBB A+ Rated</span>
                 </div>
               </div>
               <div className="flex flex-col gap-3">
                 <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "about" })} className="inline-flex items-center gap-2 bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
-                  <Phone className="w-4 h-4" /> (888) 335-8996
+                  <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
                 <a href="mailto:info@medicarefaq.com" className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors border border-indigo-200">
-                  <Mail className="w-4 h-4" /> info@medicarefaq.com
+                  <Mail className="w-4 h-4" aria-hidden="true" /> info@medicarefaq.com
                 </a>
               </div>
             </div>
@@ -256,10 +256,10 @@ export default function AboutTeam() {  useEffect(() => {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "about" })} className="inline-flex items-center gap-2 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <Link href="/about-us" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                Learn More About Us <ArrowRight className="w-4 h-4" />
+                Learn More About Us <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
@@ -267,6 +267,6 @@ export default function AboutTeam() {  useEffect(() => {
       </section>
 
       
-    </div>
+    </article>
   );
 }

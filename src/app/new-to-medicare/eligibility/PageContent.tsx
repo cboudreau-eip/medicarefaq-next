@@ -210,7 +210,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -221,15 +221,15 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
           <nav className="flex items-center gap-2 text-sm text-slate-300 mb-8">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-3.5 h-3.5" />
+            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
             <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
-            <ChevronRight className="w-3.5 h-3.5" />
+            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
             <span className="text-teal-300">Am I Eligible?</span>
           </nav>
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 rounded-xl bg-teal-500/20 flex items-center justify-center">
-              <HelpCircle className="w-6 h-6 text-teal-300" />
+              <HelpCircle className="w-6 h-6 text-teal-300" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-teal-300 uppercase tracking-wider">Eligibility Guide</span>
           </div>
@@ -243,11 +243,11 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
 
           <div className="flex flex-wrap gap-4">
             <a href="#overview" className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              Check Eligibility <ArrowRight className="w-4 h-4" />
+              Check Eligibility <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "eligibility" })} className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -281,7 +281,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                 <p className="text-xs text-teal-700 mb-3">Our licensed agents can help determine your eligibility.</p>
                 <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "eligibility" })} className="flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900">
-                  <Phone className="w-4 h-4" /> (888) 335-8996
+                  <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
               </div>
             </div>
@@ -325,7 +325,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
 
               <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
                 <h3 className="text-lg font-bold text-teal-900 mb-4 flex items-center gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-teal-600" /> Automatic Enrollment
+                  <CheckCircle2 className="w-5 h-5 text-teal-600" aria-hidden="true" /> Automatic Enrollment
                 </h3>
                 <p className="text-teal-800 mb-4">
                   If you're already receiving Social Security benefits when you turn 65, you'll be <strong>automatically enrolled</strong> in Medicare Parts A and B. Your Medicare card will arrive in the mail approximately 3 months before your 65th birthday.
@@ -337,7 +337,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
 
               <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-amber-900 mb-4 flex items-center gap-2">
-                  <AlertTriangle className="w-5 h-5 text-amber-600" /> Not Receiving Social Security?
+                  <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" /> Not Receiving Social Security?
                 </h3>
                 <p className="text-amber-800">
                   If you haven't started collecting Social Security benefits, you'll need to <strong>actively sign up</strong> for Medicare during your Initial Enrollment Period (IEP) — the 7-month window that starts 3 months before your 65th birthday and ends 3 months after.
@@ -377,7 +377,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                       <ul className="space-y-2 mb-4">
                         {path.requirements.map((req, i) => (
                           <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                            <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                            <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
                             {req}
                           </li>
                         ))}
@@ -411,7 +411,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                   ].map((item) => (
                     <div key={item.scenario} className="flex items-start gap-4">
                       <div className="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center shrink-0 mt-0.5">
-                        <Clock className="w-4 h-4 text-amber-600" />
+                        <Clock className="w-4 h-4 text-amber-600" aria-hidden="true" />
                       </div>
                       <div>
                         <p className="font-semibold text-slate-900">{item.scenario}: <span className="text-amber-700">{item.timing}</span></p>
@@ -446,11 +446,11 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                         <td className="p-4 text-center">
                           {item.eligible ? (
                             <span className="inline-flex items-center gap-1 text-green-600 font-semibold text-xs bg-green-50 px-2.5 py-1 rounded-full">
-                              <CheckCircle2 className="w-3.5 h-3.5" /> Yes
+                              <CheckCircle2 className="w-3.5 h-3.5" aria-hidden="true" /> Yes
                             </span>
                           ) : (
                             <span className="inline-flex items-center gap-1 text-red-600 font-semibold text-xs bg-red-50 px-2.5 py-1 rounded-full">
-                              <XCircle className="w-3.5 h-3.5" /> No
+                              <XCircle className="w-3.5 h-3.5" aria-hidden="true" /> No
                             </span>
                           )}
                         </td>
@@ -482,7 +482,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                       <div>
                         <div className="flex items-center gap-2 mb-1">
-                          {tier.highlight && <Star className="w-4 h-4 text-green-600" />}
+                          {tier.highlight && <Star className="w-4 h-4 text-green-600" aria-hidden="true" />}
                           <h3 className="font-bold text-slate-900">{tier.quarters}</h3>
                         </div>
                         <p className="text-sm text-slate-600">{tier.description}</p>
@@ -513,7 +513,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                 {specialSituations.map((situation) => (
                   <div key={situation.title} className="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-2 mb-3">
-                      <Briefcase className="w-5 h-5 text-slate-400" />
+                      <Briefcase className="w-5 h-5 text-slate-400" aria-hidden="true" />
                       <h3 className="font-bold text-slate-900">{situation.title}</h3>
                     </div>
                     <p className="text-sm text-slate-600 mb-4">{situation.description}</p>
@@ -534,14 +534,14 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                   <div key={index} className="border border-slate-200 rounded-xl overflow-hidden">
                     <button
                       onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                      aria-expanded={openFaq === index}
                       className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                     >
                       <span className="font-semibold text-slate-900 pr-4">{faq.question}</span>
                       <ChevronDown
                         className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${
                           openFaq === index ? "rotate-180" : ""
-                        }`}
-                      />
+                        }`} aria-hidden="true" />
                     </button>
                     {openFaq === index && (
                       <div className="px-5 pb-5 text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -566,7 +566,7 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
                     Call (888) 335-8996
                   </a>
                   <Link href="/new-to-medicare/turning-65" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    Turning 65 Timeline <ArrowRight className="w-4 h-4" />
+                    Turning 65 Timeline <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </Link>
                 </div>
               </div>
@@ -576,6 +576,6 @@ export default function Eligibility() {  const [activeSection, setActiveSection]
       </div>
 
       
-    </div>
+    </article>
   );
 }

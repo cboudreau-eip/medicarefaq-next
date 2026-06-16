@@ -82,7 +82,7 @@ export default function PageContent() {
       {/* The Math */}
       <div className="mb-10 p-5 bg-slate-50 border border-slate-200 rounded-2xl">
         <h3 className="font-bold text-slate-900 mb-3 flex items-center gap-2">
-          <TrendingUp className="w-5 h-5 text-blue-600" />
+          <TrendingUp className="w-5 h-5 text-blue-600" aria-hidden="true" />
           The Math: Plan G vs. Plan N
         </h3>
         <ul className="space-y-2 text-sm text-slate-700">
@@ -173,7 +173,7 @@ export default function PageContent() {
 
       {/* CTA - Compare Plans */}
       <div className="my-10 p-6 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white text-center">
-        <Search className="w-8 h-8 text-teal-400 mx-auto mb-3" />
+        <Search className="w-8 h-8 text-teal-400 mx-auto mb-3" aria-hidden="true" />
         <h3 className="text-xl font-bold mb-2">{cta.heading}</h3>
         <p className="text-slate-300 mb-5 text-sm max-w-lg mx-auto">
           Rates vary significantly by ZIP code. Enter yours to see personalized quotes from top-rated
@@ -189,7 +189,7 @@ export default function PageContent() {
             buttonLabel="Compare Plans"
             trigger={
               <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                {cta.buttonLabel} <ArrowRight className="w-4 h-4" />
+                {cta.buttonLabel} <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </button>
             }
           />
@@ -197,7 +197,7 @@ export default function PageContent() {
             href="/medicare-supplement-plans/medigap-by-state"
             className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
           >
-            Browse by State <ArrowRight className="w-4 h-4" />
+            Browse by State <ArrowRight className="w-4 h-4" aria-hidden="true" />
           </Link>
         </div>
       </div>

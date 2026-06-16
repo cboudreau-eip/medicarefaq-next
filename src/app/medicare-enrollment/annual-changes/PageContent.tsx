@@ -119,7 +119,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Structured Data (JSON-LD) */}
       <FAQSchema faqs={faqsForSchema} />
       <BreadcrumbSchema
@@ -153,14 +153,14 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-amber-200/70 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-amber-200/70">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-amber-100">Annual Changes</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <ArrowRightLeft className="w-6 h-6 text-amber-200" />
+              <ArrowRightLeft className="w-6 h-6 text-amber-200" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-amber-200 uppercase tracking-wider">Yearly Updates</span>
           </div>
@@ -172,11 +172,11 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#2026-costs" className="inline-flex items-center gap-2 bg-white text-amber-800 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
-              See 2026 Changes <ArrowRight className="w-4 h-4" />
+              See 2026 Changes <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "annual_changes" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -258,7 +258,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
 
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
-                    <TrendingUp className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                    <TrendingUp className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">New for 2026: Part D Out-of-Pocket Cap</p>
                       <p className="text-sm text-blue-800">
@@ -280,7 +280,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
 
                 <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-200 rounded-xl p-6 mb-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <Calendar className="w-6 h-6 text-amber-600" />
+                    <Calendar className="w-6 h-6 text-amber-600" aria-hidden="true" />
                     <h3 className="font-bold text-amber-900 text-lg">October 15 – December 7</h3>
                   </div>
                   <div className="grid sm:grid-cols-2 gap-3">
@@ -293,7 +293,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                       "No health questions or medical underwriting",
                     ].map((item, i) => (
                       <div key={i} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-amber-600 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-amber-800">{item}</span>
                       </div>
                     ))}
@@ -314,14 +314,14 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                   <h3 className="font-semibold text-slate-900 mb-4">During the MA OEP, You Can:</h3>
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-slate-900">Switch to a different Medicare Advantage plan</p>
                         <p className="text-xs text-slate-500">Including plans with or without drug coverage</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-slate-900">Drop your MA plan and return to Original Medicare</p>
                         <p className="text-xs text-slate-500">You can also enroll in a standalone Part D plan</p>
@@ -332,7 +332,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
 
                 <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Important Limitation</p>
                       <p className="text-sm text-amber-800">
@@ -364,7 +364,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                       { label: "Benefit Changes", desc: "New or discontinued supplemental benefits" },
                     ].map((item, i) => (
                       <div key={i} className="flex items-start gap-2 p-3 bg-white rounded-lg border border-slate-100">
-                        <FileText className="w-4 h-4 text-amber-600 mt-0.5 shrink-0" />
+                        <FileText className="w-4 h-4 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <div>
                           <p className="text-sm font-semibold text-slate-900">{item.label}</p>
                           <p className="text-xs text-slate-500">{item.desc}</p>
@@ -405,21 +405,21 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                           <td className="p-4 text-sm font-semibold text-slate-700">{row.action}</td>
                           <td className="p-4 text-center">
                             {row.aep ? (
-                              <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" />
+                              <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" aria-hidden="true" />
                             ) : (
                               <span className="text-slate-300">—</span>
                             )}
                           </td>
                           <td className="p-4 text-center">
                             {row.maoep ? (
-                              <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" />
+                              <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" aria-hidden="true" />
                             ) : (
                               <span className="text-slate-300">—</span>
                             )}
                           </td>
                           <td className="p-4 text-center">
                             {row.anytime ? (
-                              <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" />
+                              <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" aria-hidden="true" />
                             ) : (
                               <span className="text-slate-300">—</span>
                             )}
@@ -451,7 +451,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
                       <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center shrink-0">
-                        <AlertTriangle className="w-4 h-4 text-amber-700" />
+                        <AlertTriangle className="w-4 h-4 text-amber-700" aria-hidden="true" />
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-slate-900">{item.trigger}</p>
@@ -472,10 +472,11 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -499,7 +500,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                   <div className="flex flex-wrap gap-4">
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "annual_changes" })} className="inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal
                       coverageType="ms"
@@ -513,17 +514,17 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
               {/* Related Pages */}
               <div className="grid sm:grid-cols-3 gap-4">
                 <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <Calendar className="w-5 h-5 text-amber-600 mb-2" />
+                  <Calendar className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Turning 65 Enrollment</h3>
                   <p className="text-xs text-slate-500">First-time enrollment guide</p>
                 </Link>
                 <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" />
+                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly penalties</p>
                 </Link>
                 <Link href="/medicare-plans/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <DollarSign className="w-5 h-5 text-amber-600 mb-2" />
+                  <DollarSign className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Medicare Costs</h3>
                   <p className="text-xs text-slate-500">Full cost breakdown</p>
                 </Link>
@@ -565,7 +566,7 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "annual_changes_sidebar" })}
                     className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996
                   </a>
                 </div>
@@ -576,6 +577,6 @@ export default function AnnualChanges() {  const [activeSection, setActiveSectio
       </section>
 
       
-    </div>
+    </article>
   );
 }

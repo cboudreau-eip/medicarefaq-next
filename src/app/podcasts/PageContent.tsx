@@ -147,7 +147,7 @@ export default function Podcast() {  useEffect(() => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -162,14 +162,14 @@ export default function Podcast() {  useEffect(() => {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-indigo-200/70 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-indigo-200/70">Medicare Library</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-indigo-100">Podcast</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Headphones className="w-6 h-6 text-indigo-200" />
+              <Headphones className="w-6 h-6 text-indigo-200" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-indigo-200 uppercase tracking-wider">MedicareFAQ Podcast</span>
           </div>
@@ -181,9 +181,9 @@ export default function Podcast() {  useEffect(() => {
           </p>
           <div className="flex flex-wrap items-center gap-4 mb-8">
             <div className="flex items-center gap-6 text-sm text-indigo-200/80">
-              <span className="flex items-center gap-1.5"><Mic className="w-4 h-4" /> 114+ Episodes</span>
-              <span className="flex items-center gap-1.5"><Star className="w-4 h-4" /> 5.0 Rating</span>
-              <span className="flex items-center gap-1.5"><Radio className="w-4 h-4" /> New Episodes Weekly</span>
+              <span className="flex items-center gap-1.5"><Mic className="w-4 h-4" aria-hidden="true" /> 114+ Episodes</span>
+              <span className="flex items-center gap-1.5"><Star className="w-4 h-4" aria-hidden="true" /> 5.0 Rating</span>
+              <span className="flex items-center gap-1.5"><Radio className="w-4 h-4" aria-hidden="true" /> New Episodes Weekly</span>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -195,7 +195,7 @@ export default function Podcast() {  useEffect(() => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white text-sm font-medium px-4 py-2.5 rounded-lg transition-colors border border-white/20"
               >
-                <Headphones className="w-4 h-4" /> {p.name} <ExternalLink className="w-3 h-3 opacity-60" />
+                <Headphones className="w-4 h-4" aria-hidden="true" /> {p.name} <ExternalLink className="w-3 h-3 opacity-60" aria-hidden="true" />
               </a>
             ))}
           </div>
@@ -207,22 +207,22 @@ export default function Podcast() {  useEffect(() => {
         <div className="container">
           <div className="bg-gradient-to-r from-indigo-50 to-violet-50 border border-indigo-100 rounded-2xl p-6 md:p-8">
             <div className="flex items-center gap-2 mb-3">
-              <Star className="w-4 h-4 text-indigo-600" />
+              <Star className="w-4 h-4 text-indigo-600" aria-hidden="true" />
               <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">Featured Episode</span>
             </div>
             <div className="flex flex-col md:flex-row gap-6">
               <div className="w-full md:w-48 h-32 md:h-auto bg-indigo-600 rounded-xl flex items-center justify-center shrink-0">
                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
-                  <Play className="w-8 h-8 text-white ml-1" />
+                  <Play className="w-8 h-8 text-white ml-1" aria-hidden="true" />
                 </div>
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-xs font-semibold text-indigo-600 uppercase tracking-wider">{featuredEpisode.category}</span>
                   <span className="text-xs text-slate-400">·</span>
-                  <span className="text-xs text-slate-400 flex items-center gap-1"><Clock className="w-3 h-3" /> {featuredEpisode.duration}</span>
+                  <span className="text-xs text-slate-400 flex items-center gap-1"><Clock className="w-3 h-3" aria-hidden="true" /> {featuredEpisode.duration}</span>
                   <span className="text-xs text-slate-400">·</span>
-                  <span className="text-xs text-slate-400 flex items-center gap-1"><Calendar className="w-3 h-3" /> {featuredEpisode.date}</span>
+                  <span className="text-xs text-slate-400 flex items-center gap-1"><Calendar className="w-3 h-3" aria-hidden="true" /> {featuredEpisode.date}</span>
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2" style={{ fontFamily: "'Merriweather', serif" }}>
                   {featuredEpisode.title}
@@ -234,7 +234,7 @@ export default function Podcast() {  useEffect(() => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-indigo-600 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-indigo-700 transition-colors"
                 >
-                  <Play className="w-4 h-4" /> Listen Now <ExternalLink className="w-3 h-3 opacity-60" />
+                  <Play className="w-4 h-4" aria-hidden="true" /> Listen Now <ExternalLink className="w-3 h-3 opacity-60" aria-hidden="true" />
                 </a>
               </div>
             </div>
@@ -256,7 +256,7 @@ export default function Podcast() {  useEffect(() => {
                   <div key={i} className="group border border-slate-200 rounded-xl p-5 hover:border-indigo-200 hover:shadow-sm transition-all">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-indigo-50 rounded-lg flex items-center justify-center shrink-0 group-hover:bg-indigo-100 transition-colors">
-                        <Play className="w-4 h-4 text-indigo-600 ml-0.5" />
+                        <Play className="w-4 h-4 text-indigo-600 ml-0.5" aria-hidden="true" />
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-1">
@@ -281,7 +281,7 @@ export default function Podcast() {  useEffect(() => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors"
                 >
-                  View All 114+ Episodes <ExternalLink className="w-4 h-4" />
+                  View All 114+ Episodes <ExternalLink className="w-4 h-4" aria-hidden="true" />
                 </a>
               </div>
             </div>
@@ -314,8 +314,8 @@ export default function Podcast() {  useEffect(() => {
                         rel="noopener noreferrer"
                         className="flex items-center justify-between text-sm text-indigo-700 hover:text-indigo-900 transition-colors"
                       >
-                        <span className="flex items-center gap-2"><Headphones className="w-4 h-4" /> {p.name}</span>
-                        <ExternalLink className="w-3 h-3 opacity-50" />
+                        <span className="flex items-center gap-2"><Headphones className="w-4 h-4" aria-hidden="true" /> {p.name}</span>
+                        <ExternalLink className="w-3 h-3 opacity-50" aria-hidden="true" />
                       </a>
                     ))}
                   </div>
@@ -327,7 +327,7 @@ export default function Podcast() {  useEffect(() => {
                   <p className="text-xs text-indigo-200 mb-3">Our licensed agents are ready to help</p>
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "podcasts" })} className="flex items-center gap-2 text-sm font-bold text-white">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -337,6 +337,6 @@ export default function Podcast() {  useEffect(() => {
       </section>
 
       
-    </div>
+    </article>
   );
 }

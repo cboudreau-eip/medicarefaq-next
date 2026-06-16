@@ -72,7 +72,7 @@ export default function PageContent() {
           </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="bg-blue-500/30 rounded-xl p-3">
-              <Building2 className="w-8 h-8 text-blue-200" />
+              <Building2 className="w-8 h-8 text-blue-200" aria-hidden="true" />
             </div>
             <span className="text-blue-200 text-sm font-medium uppercase tracking-wide">Hospital Insurance</span>
           </div>
@@ -83,10 +83,10 @@ export default function PageContent() {
           <div className="flex flex-wrap gap-4">
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_a" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              <Phone className="w-4 h-4" /> Get Free Guidance
+              <Phone className="w-4 h-4" aria-hidden="true" /> Get Free Guidance
             </a>
             <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors">
-              Compare Supplement Plans <ArrowRight className="w-4 h-4" />
+              Compare Supplement Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </Link>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function PageContent() {
             <p className="text-gray-700 leading-relaxed mb-4">Most people who are 65 or older and have worked for at least 10 years (40 quarters) paying Medicare taxes receive Part A without paying a monthly premium. This is often called "premium-free Part A." If you don't meet the work history requirement, you can still enroll in Part A by paying a monthly premium.</p>
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
               <div className="flex items-start gap-3">
-                <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                 <div>
                   <p className="font-semibold text-blue-900 mb-1">Part A vs. Part B</p>
                   <p className="text-sm text-blue-800">Part A covers <strong>inpatient</strong> (hospital) services. Part B covers <strong>outpatient</strong> (doctor visits, lab tests, preventive care). Together, they form "Original Medicare." Most people need both.</p>
@@ -146,7 +146,7 @@ export default function PageContent() {
             <div className="grid gap-3">
               {coverageItems.map((item, i) => (
                 <div key={i} className={`flex items-start gap-3 p-4 rounded-lg border ${item.covered ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200"}`}>
-                  {item.covered ? <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" /> : <XCircle className="w-5 h-5 text-red-500 mt-0.5 shrink-0" />}
+                  {item.covered ? <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" /> : <XCircle className="w-5 h-5 text-red-500 mt-0.5 shrink-0" aria-hidden="true" />}
                   <span className={`text-sm ${item.covered ? "text-green-900" : "text-red-900"}`}>{item.item}</span>
                 </div>
               ))}
@@ -193,7 +193,7 @@ export default function PageContent() {
 
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
               <div className="flex items-start gap-3">
-                <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                 <div>
                   <p className="font-semibold text-amber-900 mb-1">No Out-of-Pocket Maximum</p>
                   <p className="text-sm text-amber-800">Original Medicare Part A has no annual out-of-pocket cap. A long hospital stay or multiple benefit periods in one year can result in significant costs. A Medicare Supplement (Medigap) plan can cover these gaps.</p>
@@ -253,7 +253,7 @@ export default function PageContent() {
             <div className="mt-6 bg-teal-50 border border-teal-200 rounded-xl p-5">
               <p className="font-semibold text-teal-900 mb-2">How to Fill These Gaps</p>
               <p className="text-sm text-teal-800 mb-3">A Medicare Supplement (Medigap) plan can cover Part A deductibles, coinsurance, and hospital costs beyond the benefit period. Plans like Medigap Plan G cover nearly all Part A out-of-pocket costs.</p>
-              <Link href="/medicare-supplement-plans/plan-g" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-900">Learn about Medigap Plan G <ArrowRight className="w-4 h-4" /></Link>
+              <Link href="/medicare-supplement-plans/plan-g" className="inline-flex items-center gap-1 text-sm font-semibold text-teal-700 hover:text-teal-900">Learn about Medigap Plan G <ArrowRight className="w-4 h-4" aria-hidden="true" /></Link>
             </div>
           </section>
 
@@ -264,7 +264,7 @@ export default function PageContent() {
                 <div key={i} className="border border-gray-200 rounded-xl overflow-hidden">
                   <button className="w-full flex items-center justify-between p-5 text-left bg-white hover:bg-gray-50 transition-colors" onClick={() => setOpenFaq(openFaq === i ? null : i)}>
                     <span className="font-semibold text-gray-900 pr-4">{faq.q}</span>
-                    <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                    <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                   </button>
                   {openFaq === i && <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100 pt-4">{faq.a}</div>}
                 </div>
@@ -298,7 +298,7 @@ export default function PageContent() {
           <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand your costs, and find the right supplement plan to cover Part A gaps — at no cost to you.</p>
           <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_a" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
-            <Phone className="w-5 h-5" /> Call (888) 335-8996
+            <Phone className="w-5 h-5" aria-hidden="true" /> Call (888) 335-8996
           </a>
         </div>
       </section>

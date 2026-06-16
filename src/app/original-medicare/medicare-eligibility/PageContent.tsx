@@ -51,7 +51,7 @@ export default function MedicareEligibility() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       <FAQSchema faqs={faqs}  />
       <BreadcrumbSchema
         items={[
@@ -113,9 +113,9 @@ export default function MedicareEligibility() {
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
               {[
-                { icon: <Clock className="w-6 h-6 text-[#0D9488]" />, title: "Age 65+", desc: "The most common pathway — available to U.S. citizens and qualifying permanent residents." },
-                { icon: <Users className="w-6 h-6 text-[#D97706]" />, title: "Disability (SSDI)", desc: "After receiving Social Security Disability Insurance for 24 months. ALS qualifies immediately." },
-                { icon: <Heart className="w-6 h-6 text-[#DC2626]" />, title: "ESRD // Kidney Failure", desc: "End-Stage Renal Disease requiring dialysis or a kidney transplant, at any age." },
+                { icon: <Clock className="w-6 h-6 text-[#0D9488]" aria-hidden="true" />, title: "Age 65+", desc: "The most common pathway — available to U.S. citizens and qualifying permanent residents." },
+                { icon: <Users className="w-6 h-6 text-[#D97706]" aria-hidden="true" />, title: "Disability (SSDI)", desc: "After receiving Social Security Disability Insurance for 24 months. ALS qualifies immediately." },
+                { icon: <Heart className="w-6 h-6 text-[#DC2626]" aria-hidden="true" />, title: "ESRD // Kidney Failure", desc: "End-Stage Renal Disease requiring dialysis or a kidney transplant, at any age." },
               ].map((item, i) => (
                 <div key={i} className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm">
                   <div className="mb-3">{item.icon}</div>
@@ -148,7 +148,7 @@ export default function MedicareEligibility() {
             </p>
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-4">
               <div className="flex items-start gap-3">
-                <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                 <div>
                   <p className="font-semibold text-amber-800 mb-1">ALS Exception</p>
                   <p className="text-sm text-amber-700">
@@ -224,7 +224,7 @@ export default function MedicareEligibility() {
                     onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   >
                     <span className="font-semibold text-[#1B2A4A] pr-4">{faq.q}</span>
-                    <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                    <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                   </button>
                   {openFaq === i && (
                     <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100">
@@ -257,12 +257,12 @@ export default function MedicareEligibility() {
             </p>
             <a href="tel:+18005551234"
               onClick={() => trackPhoneClick({ phone_number: "(800) 555-1234", page_section: "medicare_eligibility" })} className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-teal-600 text-white font-semibold px-8 py-3 rounded-full transition-colors">
-              <Phone className="w-5 h-5" />
+              <Phone className="w-5 h-5" aria-hidden="true" />
               Speak with a Licensed Agent
             </a>
           </section>
         </article>
       </div>
-    </div>
+    </article>
   );
 }

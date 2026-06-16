@@ -105,7 +105,7 @@ export default function MedicareAdvantage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -115,14 +115,14 @@ export default function MedicareAdvantage() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medicare Advantage</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-teal-600/20 rounded-xl flex items-center justify-center">
-              <Heart className="w-6 h-6 text-teal-400" />
+              <Heart className="w-6 h-6 text-teal-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-teal-400 uppercase tracking-wider">Part C</span>
           </div>
@@ -141,13 +141,13 @@ export default function MedicareAdvantage() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Find Plans in Your Area <ArrowRight className="w-4 h-4" />
+                  Find Plans in Your Area <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_advantage_plans" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function MedicareAdvantage() {
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_advantage_plans" })} className="flex items-center gap-2 text-sm font-bold text-blue-700">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -187,7 +187,7 @@ export default function MedicareAdvantage() {
               {/* Key Takeaways */}
               <div className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <Lightbulb className="w-5 h-5 text-teal-700" />
+                  <Lightbulb className="w-5 h-5 text-teal-700" aria-hidden="true" />
                   <h3 className="font-bold text-teal-900 text-sm uppercase tracking-wider">Key Takeaways</h3>
                 </div>
                 <ul className="space-y-2">
@@ -198,7 +198,7 @@ export default function MedicareAdvantage() {
                     (<>Medicare Advantage plans have provider networks and may require referrals for specialists, but offer out-of-pocket maximums that <Link href="/original-medicare" className="text-teal-700 underline hover:text-teal-900">Original Medicare</Link> lacks.</>),
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-teal-800">
-                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" />
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -308,7 +308,7 @@ export default function MedicareAdvantage() {
                     },
                   ].map((item, i) => (
                     <div key={i} className="flex gap-4 p-5 bg-slate-50 rounded-xl border border-slate-100">
-                      <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1 text-sm">{item.title}</h3>
                         <p className="text-sm text-slate-600">{item.desc}</p>
@@ -405,7 +405,7 @@ export default function MedicareAdvantage() {
 
                 <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
                   <div className="flex items-center gap-2 mb-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" />
                     <h3 className="font-semibold text-amber-900 text-sm">Services That Commonly Require Prior Authorization</h3>
                   </div>
                   <ul className="space-y-2">
@@ -417,7 +417,7 @@ export default function MedicareAdvantage() {
                       "Durable medical equipment (wheelchairs, oxygen equipment)",
                     ].map((item, i) => (
                       <li key={i} className="flex items-start gap-2 text-sm text-amber-800">
-                        <FileCheck className="w-4 h-4 mt-0.5 shrink-0 text-amber-600" />
+                        <FileCheck className="w-4 h-4 mt-0.5 shrink-0 text-amber-600" aria-hidden="true" />
                         {item}
                       </li>
                     ))}
@@ -489,7 +489,7 @@ export default function MedicareAdvantage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-green-50 rounded-xl p-6 border border-green-100">
                     <h3 className="font-semibold text-green-800 mb-4 flex items-center gap-2 text-lg">
-                      <CheckCircle2 className="w-5 h-5" /> Medicare Advantage Is Best If You...
+                      <CheckCircle2 className="w-5 h-5" aria-hidden="true" /> Medicare Advantage Is Best If You...
                     </h3>
                     <ul className="space-y-3">
                       {[
@@ -501,14 +501,14 @@ export default function MedicareAdvantage() {
                         "Want low or $0 monthly premiums",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-green-800">
-                          <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-green-600" /> {item}
+                          <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-green-600" aria-hidden="true" /> {item}
                         </li>
                       ))}
                     </ul>
                   </div>
                   <div className="bg-blue-50 rounded-xl p-6 border border-blue-100">
                     <h3 className="font-semibold text-blue-800 mb-4 flex items-center gap-2 text-lg">
-                      <Shield className="w-5 h-5" /> Original Medicare Is Better If You...
+                      <Shield className="w-5 h-5" aria-hidden="true" /> Original Medicare Is Better If You...
                     </h3>
                     <ul className="space-y-3">
                       {[
@@ -520,7 +520,7 @@ export default function MedicareAdvantage() {
                         "See specialists regularly without needing referrals",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-blue-800">
-                          <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> {item}
+                          <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> {item}
                         </li>
                       ))}
                     </ul>
@@ -540,7 +540,7 @@ export default function MedicareAdvantage() {
                 <div className="space-y-4 mb-6">
                   <div className="p-5 bg-green-50 rounded-xl border border-green-100">
                     <div className="flex items-center gap-2 mb-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600" aria-hidden="true" />
                       <h3 className="font-semibold text-green-900 text-sm">Emergency Care: Covered Nationwide</h3>
                     </div>
                     <p className="text-sm text-green-800">
@@ -549,7 +549,7 @@ export default function MedicareAdvantage() {
                   </div>
                   <div className="p-5 bg-amber-50 rounded-xl border border-amber-100">
                     <div className="flex items-center gap-2 mb-2">
-                      <AlertTriangle className="w-5 h-5 text-amber-600" />
+                      <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" />
                       <h3 className="font-semibold text-amber-900 text-sm">Routine Care: Generally Not Covered Outside Your Area</h3>
                     </div>
                     <p className="text-sm text-amber-800">
@@ -558,7 +558,7 @@ export default function MedicareAdvantage() {
                   </div>
                   <div className="p-5 bg-blue-50 rounded-xl border border-blue-100">
                     <div className="flex items-center gap-2 mb-2">
-                      <Plane className="w-5 h-5 text-blue-600" />
+                      <Plane className="w-5 h-5 text-blue-600" aria-hidden="true" />
                       <h3 className="font-semibold text-blue-900 text-sm">International Travel: Major Limitation</h3>
                     </div>
                     <p className="text-sm text-blue-800">
@@ -617,7 +617,7 @@ export default function MedicareAdvantage() {
                   ].map((item, i) => (
                     <div key={i} className="p-5 bg-white rounded-xl border border-slate-200">
                       <div className="flex items-start gap-3">
-                        <Clock className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" />
+                        <Clock className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <div>
                           <h3 className="font-semibold text-slate-900 mb-1">{item.period}</h3>
                           <p className="text-sm font-medium text-teal-700 mb-1">{item.dates}</p>
@@ -639,10 +639,11 @@ export default function MedicareAdvantage() {
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</div>
@@ -670,13 +671,13 @@ export default function MedicareAdvantage() {
                       buttonLabel="Compare Plans"
                       trigger={
                         <button className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
-                          <Heart className="w-4 h-4" /> Find Plans in Your Area
+                          <Heart className="w-4 h-4" aria-hidden="true" /> Find Plans in Your Area
                         </button>
                       }
                     />
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_advantage_plans" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                   </div>
                 </div>
@@ -685,6 +686,6 @@ export default function MedicareAdvantage() {
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

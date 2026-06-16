@@ -98,7 +98,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -113,14 +113,14 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Part D</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-purple-600/20 rounded-xl flex items-center justify-center">
-              <Pill className="w-6 h-6 text-purple-400" />
+              <Pill className="w-6 h-6 text-purple-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-purple-400 uppercase tracking-wider">Prescription Drug Plans</span>
           </div>
@@ -132,11 +132,11 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#coverage-phases" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              How Coverage Works <ArrowRight className="w-4 h-4" />
+              How Coverage Works <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -176,13 +176,13 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                     buttonLabel="Compare Plans"
                     trigger={
                       <button className="flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-600 transition-colors w-full">
-                        <ArrowRight className="w-4 h-4" /> Compare Part D Plans
+                        <ArrowRight className="w-4 h-4" aria-hidden="true" /> Compare Part D Plans
                       </button>
                     }
                   />
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -301,7 +301,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                   ].map((item, i) => (
                     <div key={i} className="p-5 bg-white rounded-xl border border-slate-200">
                       <div className="flex items-start gap-3">
-                        <Clock className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" />
+                        <Clock className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <div>
                           <h3 className="font-semibold text-slate-900 mb-1">{item.period}</h3>
                           <p className="text-sm font-medium text-teal-700 mb-1">{item.dates}</p>
@@ -320,7 +320,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                 </h2>
                 <div className="bg-red-50 rounded-xl p-6 border border-red-100">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <h3 className="font-bold text-red-800 text-lg mb-2">This Penalty is Permanent</h3>
                       <p className="text-sm text-red-800 mb-4">
@@ -342,7 +342,7 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                             "Keep your creditable coverage notice as proof",
                           ].map((item, i) => (
                             <li key={i} className="flex items-start gap-2 text-sm text-red-800">
-                              <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-red-600" /> {item}
+                              <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-red-600" aria-hidden="true" /> {item}
                             </li>
                           ))}
                         </ul>
@@ -362,10 +362,11 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</div>
@@ -394,13 +395,13 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
                       buttonLabel="Compare Plans"
                       trigger={
                         <button className="inline-flex items-center gap-2 bg-white text-purple-700 font-semibold px-6 py-3 rounded-lg hover:bg-purple-50 transition-colors">
-                          Compare Part D Plans <ArrowRight className="w-4 h-4" />
+                          Compare Part D Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
                         </button>
                       }
                     />
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_d" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                   </div>
                 </div>
@@ -411,6 +412,6 @@ export default function PartD() {  const [activeSection, setActiveSection] = use
       </section>
 
       
-    </div>
+    </article>
   );
 }

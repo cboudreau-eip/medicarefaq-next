@@ -74,7 +74,7 @@ export default function PageContent() {
       {/* Personalization indicator */}
       {loaded && profile && (
         <div className="mb-8 p-3 bg-teal-50 border border-teal-200 rounded-xl flex items-center gap-2">
-          <Sparkles className="w-4 h-4 text-teal-600 shrink-0" />
+          <Sparkles className="w-4 h-4 text-teal-600 shrink-0" aria-hidden="true" />
           <p className="text-sm text-teal-800">
             <span className="font-semibold">Personalized for you</span> — We have highlighted the section most relevant to your situation below.
           </p>
@@ -89,11 +89,11 @@ export default function PageContent() {
       }`}>
         {primarySection === "turning-65" && (
           <div className="mb-3 inline-flex items-center gap-1.5 bg-blue-700 text-white text-xs font-bold px-2.5 py-1 rounded-full">
-            <Star className="w-3 h-3" /> YOUR ACTION PLAN
+            <Star className="w-3 h-3" aria-hidden="true" /> YOUR ACTION PLAN
           </div>
         )}
         <div className="flex items-center gap-2 mb-4">
-          <Calendar className="w-5 h-5 text-blue-700" />
+          <Calendar className="w-5 h-5 text-blue-700" aria-hidden="true" />
           <h2 className="text-xl font-bold text-blue-900" style={{ fontFamily: "'Merriweather', serif" }}>
             If You Are Turning 65 in the Next 6 Months
           </h2>
@@ -124,11 +124,11 @@ export default function PageContent() {
       }`}>
         {primarySection === "on-medicare" && (
           <div className="mb-3 inline-flex items-center gap-1.5 bg-amber-700 text-white text-xs font-bold px-2.5 py-1 rounded-full">
-            <Star className="w-3 h-3" /> YOUR ACTION PLAN
+            <Star className="w-3 h-3" aria-hidden="true" /> YOUR ACTION PLAN
           </div>
         )}
         <div className="flex items-center gap-2 mb-4">
-          <Shield className="w-5 h-5 text-amber-700" />
+          <Shield className="w-5 h-5 text-amber-700" aria-hidden="true" />
           <h2 className="text-xl font-bold text-amber-900" style={{ fontFamily: "'Merriweather', serif" }}>
             If You Are Already on Medicare Without Supplemental Coverage
           </h2>
@@ -158,11 +158,11 @@ export default function PageContent() {
       }`}>
         {primarySection === "switching" && (
           <div className="mb-3 inline-flex items-center gap-1.5 bg-purple-700 text-white text-xs font-bold px-2.5 py-1 rounded-full">
-            <Star className="w-3 h-3" /> YOUR ACTION PLAN
+            <Star className="w-3 h-3" aria-hidden="true" /> YOUR ACTION PLAN
           </div>
         )}
         <div className="flex items-center gap-2 mb-4">
-          <Clock className="w-5 h-5 text-purple-700" />
+          <Clock className="w-5 h-5 text-purple-700" aria-hidden="true" />
           <h2 className="text-xl font-bold text-purple-900" style={{ fontFamily: "'Merriweather', serif" }}>
             If You Are on Medicare Advantage and Considering a Switch
           </h2>
@@ -201,7 +201,7 @@ export default function PageContent() {
             return (
               <div key={item.text} className="flex items-start gap-3">
                 <div className="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-                  <Icon className="w-4 h-4 text-teal-700" />
+                  <Icon className="w-4 h-4 text-teal-700" aria-hidden="true" />
                 </div>
                 <p className="text-slate-700 text-sm leading-relaxed">{item.text}</p>
               </div>
@@ -228,7 +228,7 @@ export default function PageContent() {
 
       {/* Primary CTA — personalized */}
       <div className="my-10 p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white text-center">
-        <CheckCircle2 className="w-10 h-10 text-teal-400 mx-auto mb-4" />
+        <CheckCircle2 className="w-10 h-10 text-teal-400 mx-auto mb-4" aria-hidden="true" />
         <h3 className="text-2xl font-bold mb-2">{cta.heading}</h3>
         <p className="text-slate-300 mb-6 max-w-lg mx-auto">
           {cta.subtext}
@@ -243,13 +243,13 @@ export default function PageContent() {
             buttonLabel="Compare Plans"
             trigger={
               <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-lg">
-                {cta.buttonLabel} <ArrowRight className="w-5 h-5" />
+                {cta.buttonLabel} <ArrowRight className="w-5 h-5" aria-hidden="true" />
               </button>
             }
           />
         </div>
         <div className="flex items-center justify-center gap-2 text-slate-300">
-          <Phone className="w-4 h-4" />
+          <Phone className="w-4 h-4" aria-hidden="true" />
           <span className="text-sm">Prefer to talk?</span>
           <a
             href="tel:+18883358996"
@@ -269,7 +269,7 @@ export default function PageContent() {
           href="/medicare-supplement-plans/medigap-by-state"
           className="p-4 border border-slate-200 rounded-xl hover:border-blue-300 hover:bg-blue-50 transition-all text-center group"
         >
-          <MapPin className="w-5 h-5 text-blue-600 mx-auto mb-2" />
+          <MapPin className="w-5 h-5 text-blue-600 mx-auto mb-2" aria-hidden="true" />
           <p className="text-sm font-semibold text-slate-900 group-hover:text-blue-800">
             Top Carriers by State
           </p>
@@ -278,7 +278,7 @@ export default function PageContent() {
           href="/faqs/medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling"
           className="p-4 border border-slate-200 rounded-xl hover:border-blue-300 hover:bg-blue-50 transition-all text-center group"
         >
-          <Shield className="w-5 h-5 text-blue-600 mx-auto mb-2" />
+          <Shield className="w-5 h-5 text-blue-600 mx-auto mb-2" aria-hidden="true" />
           <p className="text-sm font-semibold text-slate-900 group-hover:text-blue-800">
             Full Medigap vs. Advantage Guide
           </p>
@@ -287,7 +287,7 @@ export default function PageContent() {
           href="/new-to-medicare/costs"
           className="p-4 border border-slate-200 rounded-xl hover:border-blue-300 hover:bg-blue-50 transition-all text-center group"
         >
-          <Star className="w-5 h-5 text-blue-600 mx-auto mb-2" />
+          <Star className="w-5 h-5 text-blue-600 mx-auto mb-2" aria-hidden="true" />
           <p className="text-sm font-semibold text-slate-900 group-hover:text-blue-800">
             Medicare Costs for {new Date().getFullYear()}
           </p>

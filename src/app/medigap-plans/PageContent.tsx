@@ -109,7 +109,7 @@ export default function PageContent() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Dark Navy Hero */}
       <section className="relative bg-gradient-to-br from-[#1a2b4a] to-[#0f1e38] pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -120,14 +120,14 @@ export default function PageContent() {
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-slate-400 mb-6" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplements</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medigap Plans</span>
           </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-teal-600/20 rounded-xl flex items-center justify-center">
-              <Shield className="w-6 h-6 text-teal-400" />
+              <Shield className="w-6 h-6 text-teal-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-teal-400 uppercase tracking-wider">Medicare Supplement</span>
           </div>
@@ -147,14 +147,14 @@ export default function PageContent() {
               buttonLabel="Compare Rates"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Compare Rates in Your Area <ArrowRight className="w-4 h-4" />
+                  Compare Rates in Your Area <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap-plans-hero" })}
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -200,7 +200,7 @@ export default function PageContent() {
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap-plans-sidebar" })}
                     className="flex items-center gap-2 text-sm font-bold text-blue-700">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -211,7 +211,7 @@ export default function PageContent() {
               {/* Key Takeaways */}
               <div className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <Lightbulb className="w-5 h-5 text-teal-700" />
+                  <Lightbulb className="w-5 h-5 text-teal-700" aria-hidden="true" />
                   <h3 className="font-bold text-teal-900 text-sm uppercase tracking-wider">Key Takeaways</h3>
                 </div>
                 <ul className="space-y-2">
@@ -222,7 +222,7 @@ export default function PageContent() {
                     "The best time to enroll is during your 6-month Medigap Open Enrollment Period (starting at age 65 + Part B enrollment) when no medical underwriting applies",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-teal-800">
-                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" />
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -433,10 +433,10 @@ export default function PageContent() {
                     </h3>
                     <p className="text-slate-600 text-sm mb-3">Covers everything except the annual Part B deductible ($257 in 2026). The go-to choice for new Medicare beneficiaries who want comprehensive, predictable coverage.</p>
                     <ul className="text-sm text-slate-600 space-y-1.5">
-                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> All Part A &amp; B cost-sharing</li>
-                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> Skilled nursing coinsurance</li>
-                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> Part B excess charges</li>
-                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> Foreign travel emergency</li>
+                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" /> All Part A &amp; B cost-sharing</li>
+                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" /> Skilled nursing coinsurance</li>
+                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" /> Part B excess charges</li>
+                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" /> Foreign travel emergency</li>
                     </ul>
                   </div>
                   <div className="bg-white border-2 border-blue-200 rounded-xl p-6 relative">
@@ -446,10 +446,10 @@ export default function PageContent() {
                     </h3>
                     <p className="text-slate-600 text-sm mb-3">Similar to Plan G but with small copays ($20 office / $50 ER). Premiums are typically 15-25% lower, making it ideal for healthy beneficiaries who want to save on monthly costs.</p>
                     <ul className="text-sm text-slate-600 space-y-1.5">
-                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> All Part A &amp; B cost-sharing</li>
-                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> Skilled nursing coinsurance</li>
-                      <li className="flex items-center gap-2"><XCircle className="w-4 h-4 text-red-400" /> No Part B excess charges</li>
-                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" /> Foreign travel emergency</li>
+                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" /> All Part A &amp; B cost-sharing</li>
+                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" /> Skilled nursing coinsurance</li>
+                      <li className="flex items-center gap-2"><XCircle className="w-4 h-4 text-red-400" aria-hidden="true" /> No Part B excess charges</li>
+                      <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" /> Foreign travel emergency</li>
                     </ul>
                   </div>
                 </div>
@@ -494,19 +494,19 @@ export default function PageContent() {
                   <div className="bg-teal-50 border border-teal-200 rounded-xl p-5">
                     <p className="font-bold text-teal-900 text-sm mb-2">Choose Medigap if you:</p>
                     <ul className="space-y-1.5 text-sm text-teal-800">
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" /> Want predictable, low out-of-pocket costs</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" /> Want freedom to see any doctor nationwide</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" /> Travel frequently or split time between states</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" /> Can afford higher monthly premiums</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" /> Want predictable, low out-of-pocket costs</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" /> Want freedom to see any doctor nationwide</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" /> Travel frequently or split time between states</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" /> Can afford higher monthly premiums</li>
                     </ul>
                   </div>
                   <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
                     <p className="font-bold text-blue-900 text-sm mb-2">Choose Medicare Advantage if you:</p>
                     <ul className="space-y-1.5 text-sm text-blue-800">
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Want lower monthly premiums</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Want dental, vision, and drugs in one plan</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Don&apos;t mind using a provider network</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Prefer an all-in-one plan</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> Want lower monthly premiums</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> Want dental, vision, and drugs in one plan</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> Don&apos;t mind using a provider network</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> Prefer an all-in-one plan</li>
                     </ul>
                   </div>
                 </div>
@@ -522,10 +522,11 @@ export default function PageContent() {
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 text-sm pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -559,7 +560,7 @@ export default function PageContent() {
                     onClick={() => trackPhoneClick({ phone_number: "(800) 845-2484", page_section: "medigap-plans-cta" })}
                     className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg border border-white/30 transition-colors"
                   >
-                    <Phone className="w-4 h-4" /> (800) 845-2484
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (800) 845-2484
                   </a>
                 </div>
               </section>
@@ -567,6 +568,6 @@ export default function PageContent() {
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

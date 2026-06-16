@@ -89,7 +89,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -104,14 +104,14 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-red-200/70 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-red-200/70">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-red-100">Late Penalties</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-red-500/20 rounded-xl flex items-center justify-center">
-              <AlertCircle className="w-6 h-6 text-red-300" />
+              <AlertCircle className="w-6 h-6 text-red-300" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-red-300 uppercase tracking-wider">Penalty Prevention</span>
           </div>
@@ -123,11 +123,11 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#how-to-avoid" className="inline-flex items-center gap-2 bg-white text-red-800 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
-              How to Avoid Penalties <ArrowRight className="w-4 h-4" />
+              How to Avoid Penalties <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -154,17 +154,17 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
                 <div className="grid md:grid-cols-3 gap-4">
                   <div className="bg-red-50 rounded-xl p-5 border border-red-100 text-center">
-                    <DollarSign className="w-6 h-6 text-red-600 mx-auto mb-2" />
+                    <DollarSign className="w-6 h-6 text-red-600 mx-auto mb-2" aria-hidden="true" />
                     <div className="text-2xl font-bold text-red-700 mb-1">10%</div>
                     <p className="text-xs text-red-600 font-semibold">Part B penalty per 12-month period</p>
                   </div>
                   <div className="bg-amber-50 rounded-xl p-5 border border-amber-100 text-center">
-                    <DollarSign className="w-6 h-6 text-amber-600 mx-auto mb-2" />
+                    <DollarSign className="w-6 h-6 text-amber-600 mx-auto mb-2" aria-hidden="true" />
                     <div className="text-2xl font-bold text-amber-700 mb-1">1%</div>
                     <p className="text-xs text-amber-600 font-semibold">Part D penalty per month delayed</p>
                   </div>
                   <div className="bg-slate-50 rounded-xl p-5 border border-slate-200 text-center">
-                    <Clock className="w-6 h-6 text-slate-600 mx-auto mb-2" />
+                    <Clock className="w-6 h-6 text-slate-600 mx-auto mb-2" aria-hidden="true" />
                     <div className="text-2xl font-bold text-slate-700 mb-1">Forever</div>
                     <p className="text-xs text-slate-600 font-semibold">Penalties are permanent</p>
                   </div>
@@ -210,7 +210,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
                 <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-6">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">The Penalty Grows Over Time</p>
                       <p className="text-sm text-amber-800">
@@ -231,7 +231,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     className="shrink-0 bg-amber-500 hover:bg-amber-400 text-white font-bold py-2.5 px-5 rounded-lg transition-colors text-sm flex items-center gap-2 whitespace-nowrap"
                   >
                     Open Calculator
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </Link>
                 </div>
               </section>
@@ -271,7 +271,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
-                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">Penalty Is Recalculated Annually</p>
                       <p className="text-sm text-blue-800">
@@ -295,21 +295,21 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   <h3 className="font-semibold text-slate-900 mb-3">Part a Penalty Details</h3>
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
-                      <DollarSign className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" />
+                      <DollarSign className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-slate-900">Penalty Rate: 10% surcharge</p>
                         <p className="text-xs text-slate-500">Added to the Part A premium for twice the number of years you delayed enrollment</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <Clock className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" />
+                      <Clock className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-slate-900">Duration: Not permanent</p>
                         <p className="text-xs text-slate-500">Unlike Parts B and D, the Part A penalty is temporary — lasting twice the number of years you delayed</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <HelpCircle className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" />
+                      <HelpCircle className="w-5 h-5 text-slate-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-slate-900">2026 Part A Premium: Up to $565/month</p>
                         <p className="text-xs text-slate-500">Only applies to those who didn't work 40+ quarters paying Medicare taxes</p>
@@ -358,7 +358,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
-                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">IRMAA Is Based on Your Tax Return From 2 Years Ago</p>
                       <p className="text-sm text-blue-800">
@@ -381,7 +381,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                 <div className="space-y-4">
                   <div className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Enroll during Your Initial Enrollment Period</h3>
                         <p className="text-sm text-green-800">Sign up for Parts A, B, and D during your 7-month IEP around your 65th birthday. See our <Link href="/medicare-enrollment/turning-65" className="text-green-900 underline font-semibold hover:text-green-700">Turning 65 guide</Link> for details. This is the simplest way to avoid all penalties.</p>
@@ -391,7 +391,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
                   <div className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Maintain Creditable Coverage if Delaying</h3>
                         <p className="text-sm text-green-800">If you're <Link href="/medicare-enrollment/working-past-65" className="text-green-900 underline font-semibold hover:text-green-700">working past 65</Link> with employer coverage (20+ employees), keep that coverage active. Get a creditable coverage letter from your employer as proof.</p>
@@ -401,7 +401,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
                   <div className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Use Your Special Enrollment Period</h3>
                         <p className="text-sm text-green-800">When your employer coverage ends, enroll in Medicare within your 8-month <Link href="/faqs/medicare-special-enrollment-periods" className="text-green-900 underline font-semibold hover:text-green-700">Special Enrollment Period</Link>. Don't wait — the clock starts when your employment or coverage ends.</p>
@@ -411,7 +411,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
                   <div className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Don't Rely on COBRA</h3>
                         <p className="text-sm text-green-800">COBRA is not creditable coverage. If you're 65+ and your employment has ended, enroll in Medicare — don't use COBRA as a substitute.</p>
@@ -421,7 +421,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
 
                   <div className="bg-green-50 rounded-xl p-5 border border-green-200">
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h3 className="font-semibold text-green-900 mb-1">Get Professional Help</h3>
                         <p className="text-sm text-green-800">A licensed Medicare agent can review your situation, confirm your enrollment deadlines, and ensure you don't miss any critical windows.</p>
@@ -441,10 +441,11 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -468,10 +469,10 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   <div className="flex flex-wrap gap-4">
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <Link href="/medicare-enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                      Enrollment Guide <ArrowRight className="w-4 h-4" />
+                      Enrollment Guide <ArrowRight className="w-4 h-4" aria-hidden="true" />
                     </Link>
                   </div>
                 </div>
@@ -480,17 +481,17 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
               {/* Related Pages */}
               <div className="grid sm:grid-cols-3 gap-4">
                 <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
-                  <Calendar className="w-5 h-5 text-red-600 mb-2" />
+                  <Calendar className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Turning 65 Enrollment</h3>
                   <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
                 </Link>
                 <Link href="/medicare-enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
-                  <Briefcase className="w-5 h-5 text-red-600 mb-2" />
+                  <Briefcase className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">Working past 65</h3>
                   <p className="text-xs text-slate-500">Employer coverage coordination</p>
                 </Link>
                 <Link href="/medicare-enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-red-200 hover:bg-red-50/50 transition-colors">
-                  <Shield className="w-5 h-5 text-red-600 mb-2" />
+                  <Shield className="w-5 h-5 text-red-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-red-700 text-sm mb-1">How to Enroll</h3>
                   <p className="text-xs text-slate-500">Step-by-step enrollment guide</p>
                 </Link>
@@ -532,7 +533,7 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties_sidebar" })}
                     className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996
                   </a>
                 </div>
@@ -543,6 +544,6 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
       </section>
 
       
-    </div>
+    </article>
   );
 }

@@ -118,7 +118,7 @@ export default function PageContent() {
             <div key={part.letter} className={`border-2 ${part.border} rounded-2xl overflow-hidden`}>
               {/* Header */}
               <div className={`${part.color} px-6 py-4 flex items-center gap-3`}>
-                <Icon className="w-6 h-6 text-white" />
+                <Icon className="w-6 h-6 text-white" aria-hidden="true" />
                 <h2 className="text-xl font-bold text-white">
                   Part {part.letter}: {part.title}
                 </h2>
@@ -134,7 +134,7 @@ export default function PageContent() {
                     <ul className="space-y-1.5">
                       {part.covers.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-sm text-slate-700">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-4 h-4 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
                           {item}
                         </li>
                       ))}
@@ -146,7 +146,7 @@ export default function PageContent() {
                     <ul className="space-y-1.5">
                       {part.doesNotCover.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-sm text-slate-700">
-                          <XCircle className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
+                          <XCircle className="w-4 h-4 text-red-500 shrink-0 mt-0.5" aria-hidden="true" />
                           {item}
                         </li>
                       ))}

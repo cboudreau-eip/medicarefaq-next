@@ -91,7 +91,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -106,14 +106,14 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/original-medicare" className="hover:text-white transition-colors">Medicare Plans</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Original Medicare</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center">
-              <Shield className="w-6 h-6 text-blue-400" />
+              <Shield className="w-6 h-6 text-blue-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-blue-400 uppercase tracking-wider">Parts A & B</span>
           </div>
@@ -125,11 +125,11 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#costs" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              View 2026 Costs <ArrowRight className="w-4 h-4" />
+              View 2026 Costs <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -163,7 +163,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="flex items-center gap-2 text-sm font-bold text-blue-700">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -198,7 +198,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                 </div>
                 <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Important: No Out-of-Pocket Maximum</p>
                       <p className="text-sm text-amber-800">
@@ -213,7 +213,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
               <section id="part-a" className="mb-16">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-blue-600" />
+                    <Building2 className="w-5 h-5 text-blue-600" aria-hidden="true" />
                   </div>
                   <h2 className="text-3xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
                     Part A: Hospital Insurance
@@ -225,7 +225,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-green-50 rounded-xl p-6 border border-green-100">
                     <h3 className="font-semibold text-green-800 mb-3 flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5" /> What Part A Covers
+                      <CheckCircle2 className="w-5 h-5" aria-hidden="true" /> What Part A Covers
                     </h3>
                     <ul className="space-y-2">
                       {[
@@ -237,7 +237,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                         "Blood transfusions (after first 3 pints)",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-green-800">
-                          <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-green-600" />
+                          <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-green-600" aria-hidden="true" />
                           {item}
                         </li>
                       ))}
@@ -245,7 +245,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                   </div>
                   <div className="bg-red-50 rounded-xl p-6 border border-red-100">
                     <h3 className="font-semibold text-red-800 mb-3 flex items-center gap-2">
-                      <XCircle className="w-5 h-5" /> What Part A Doesn't Cover
+                      <XCircle className="w-5 h-5" aria-hidden="true" /> What Part A Doesn't Cover
                     </h3>
                     <ul className="space-y-2">
                       {[
@@ -256,7 +256,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                         "Hospital stays outside the U.S. (with limited exceptions)",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-red-800">
-                          <XCircle className="w-4 h-4 mt-0.5 shrink-0 text-red-500" />
+                          <XCircle className="w-4 h-4 mt-0.5 shrink-0 text-red-500" aria-hidden="true" />
                           {item}
                         </li>
                       ))}
@@ -298,7 +298,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
               <section id="part-b" className="mb-16">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center">
-                    <Stethoscope className="w-5 h-5 text-teal-600" />
+                    <Stethoscope className="w-5 h-5 text-teal-600" aria-hidden="true" />
                   </div>
                   <h2 className="text-3xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
                     Part B: Medical Insurance
@@ -310,7 +310,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-green-50 rounded-xl p-6 border border-green-100">
                     <h3 className="font-semibold text-green-800 mb-3 flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5" /> What Part B Covers
+                      <CheckCircle2 className="w-5 h-5" aria-hidden="true" /> What Part B Covers
                     </h3>
                     <ul className="space-y-2">
                       {[
@@ -324,7 +324,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                         "Home health care (Part B portion)",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-green-800">
-                          <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-green-600" />
+                          <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-green-600" aria-hidden="true" />
                           {item}
                         </li>
                       ))}
@@ -332,7 +332,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                   </div>
                   <div className="bg-red-50 rounded-xl p-6 border border-red-100">
                     <h3 className="font-semibold text-red-800 mb-3 flex items-center gap-2">
-                      <XCircle className="w-5 h-5" /> What Part B Doesn't Cover
+                      <XCircle className="w-5 h-5" aria-hidden="true" /> What Part B Doesn't Cover
                     </h3>
                     <ul className="space-y-2">
                       {[
@@ -345,7 +345,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                         "Routine foot care",
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-red-800">
-                          <XCircle className="w-4 h-4 mt-0.5 shrink-0 text-red-500" />
+                          <XCircle className="w-4 h-4 mt-0.5 shrink-0 text-red-500" aria-hidden="true" />
                           {item}
                         </li>
                       ))}
@@ -449,7 +449,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white rounded-xl border-2 border-blue-200 p-6 hover:border-blue-400 transition-colors">
                     <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                      <Shield className="w-5 h-5 text-blue-600" />
+                      <Shield className="w-5 h-5 text-blue-600" aria-hidden="true" />
                     </div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Medigap (Medicare Supplement)</h3>
                     <p className="text-sm text-slate-600 mb-4">
@@ -463,17 +463,17 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                         "10 standardized plan options",
                       ].map((item, i) => (
                         <li key={i} className="flex items-center gap-2 text-sm text-slate-700">
-                          <CheckCircle2 className="w-4 h-4 text-blue-500 shrink-0" /> {item}
+                          <CheckCircle2 className="w-4 h-4 text-blue-500 shrink-0" aria-hidden="true" /> {item}
                         </li>
                       ))}
                     </ul>
                     <Link href="/medicare-supplement-plans" className="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 hover:text-blue-800">
-                      Learn about Medigap <ArrowRight className="w-4 h-4" />
+                      Learn about Medigap <ArrowRight className="w-4 h-4" aria-hidden="true" />
                     </Link>
                   </div>
                   <div className="bg-white rounded-xl border-2 border-slate-200 p-6 hover:border-slate-400 transition-colors">
                     <div className="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
-                      <Heart className="w-5 h-5 text-slate-600" />
+                      <Heart className="w-5 h-5 text-slate-600" aria-hidden="true" />
                     </div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">Or Switch to Medicare Advantage</h3>
                     <p className="text-sm text-slate-600 mb-4">
@@ -487,12 +487,12 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                         "Uses provider networks",
                       ].map((item, i) => (
                         <li key={i} className="flex items-center gap-2 text-sm text-slate-700">
-                          <CheckCircle2 className="w-4 h-4 text-slate-500 shrink-0" /> {item}
+                          <CheckCircle2 className="w-4 h-4 text-slate-500 shrink-0" aria-hidden="true" /> {item}
                         </li>
                       ))}
                     </ul>
                     <Link href="/medicare-part-c/medicare-advantage-plans" className="inline-flex items-center gap-1 text-sm font-semibold text-slate-600 hover:text-slate-800">
-                      Learn about Medicare Advantage <ArrowRight className="w-4 h-4" />
+                      Learn about Medicare Advantage <ArrowRight className="w-4 h-4" aria-hidden="true" />
                     </Link>
                   </div>
                 </div>
@@ -508,10 +508,11 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -535,7 +536,7 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                   <div className="flex flex-wrap gap-4">
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="inline-flex items-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal
                       coverageType="ms"
@@ -551,17 +552,17 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
               {/* Related Pages */}
               <div className="grid sm:grid-cols-3 gap-4">
                 <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
-                  <Shield className="w-5 h-5 text-blue-600 mb-2" />
+                  <Shield className="w-5 h-5 text-blue-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Supplement</h3>
                   <p className="text-xs text-slate-500">Fill the gaps in Original Medicare</p>
                 </Link>
                 <Link href="/medicare-part-c/medicare-advantage-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
-                  <Heart className="w-5 h-5 text-blue-600 mb-2" />
+                  <Heart className="w-5 h-5 text-blue-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Advantage</h3>
                   <p className="text-xs text-slate-500">All-in-one alternative to Original Medicare</p>
                 </Link>
                 <Link href="/new-to-medicare/costs" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
-                  <DollarSign className="w-5 h-5 text-blue-600 mb-2" />
+                  <DollarSign className="w-5 h-5 text-blue-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-blue-700 text-sm mb-1">Medicare Costs 2026</h3>
                   <p className="text-xs text-slate-500">Complete cost breakdown</p>
                 </Link>
@@ -572,6 +573,6 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
       </section>
 
       
-    </div>
+    </article>
   );
 }

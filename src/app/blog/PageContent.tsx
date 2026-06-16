@@ -136,11 +136,11 @@ export default function Blog() {
                         <div className="flex items-center justify-between">
                           <div className="flex items-center gap-4 text-xs text-[#9CA3AF]">
                             <span className="flex items-center gap-1">
-                              <User className="w-3.5 h-3.5" />
+                              <User className="w-3.5 h-3.5" aria-hidden="true" />
                               {post.author}
                             </span>
                             <span className="flex items-center gap-1">
-                              <Clock className="w-3.5 h-3.5" />
+                              <Clock className="w-3.5 h-3.5" aria-hidden="true" />
                               {post.readTime}
                             </span>
                           </div>
@@ -199,7 +199,7 @@ export default function Blog() {
                         </p>
                         <div className="flex items-center justify-between text-xs text-[#9CA3AF]">
                           <span className="flex items-center gap-1">
-                            <Clock className="w-3 h-3" />
+                            <Clock className="w-3 h-3" aria-hidden="true" />
                             {post.readTime}
                           </span>
                           <span>{post.date}</span>

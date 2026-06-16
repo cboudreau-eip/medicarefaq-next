@@ -17,7 +17,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-red-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <TrendingUp className="w-5 h-5 text-red-700" />
+            <TrendingUp className="w-5 h-5 text-red-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             The 20% Problem: No Out-of-Pocket Maximum
@@ -49,7 +49,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-amber-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <DollarSign className="w-5 h-5 text-amber-700" />
+            <DollarSign className="w-5 h-5 text-amber-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             Part A Hospital Gaps
@@ -94,7 +94,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-slate-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <XCircle className="w-5 h-5 text-slate-700" />
+            <XCircle className="w-5 h-5 text-slate-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             Services Medicare Does NOT Cover At All
@@ -113,7 +113,7 @@ export default function PageContent() {
               "Routine foot care",
             ].map((item) => (
               <div key={item} className="flex items-start gap-2 text-sm text-slate-700">
-                <XCircle className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
+                <XCircle className="w-4 h-4 text-red-500 shrink-0 mt-0.5" aria-hidden="true" />
                 {item}
               </div>
             ))}
@@ -125,7 +125,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-teal-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <AlertTriangle className="w-5 h-5 text-teal-700" />
+            <AlertTriangle className="w-5 h-5 text-teal-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             The Financial Risk: With vs. Without Medigap

@@ -83,7 +83,7 @@ export default function PageContent() {
             <div key={period.title} className={`border-2 ${period.border} rounded-2xl overflow-hidden`}>
               <div className={`${period.color} px-6 py-4 flex items-center justify-between`}>
                 <div className="flex items-center gap-3">
-                  <Icon className="w-5 h-5 text-white" />
+                  <Icon className="w-5 h-5 text-white" aria-hidden="true" />
                   <h2 className="text-lg font-bold text-white">{period.title}</h2>
                 </div>
                 {period.importance === "critical" && (
@@ -94,7 +94,7 @@ export default function PageContent() {
               </div>
               <div className={`${period.lightBg} px-6 py-5`}>
                 <p className="font-semibold text-slate-800 mb-3 flex items-center gap-2">
-                  <Calendar className="w-4 h-4 text-slate-500" />
+                  <Calendar className="w-4 h-4 text-slate-500" aria-hidden="true" />
                   {period.timing}
                 </p>
                 <ul className="space-y-2">
@@ -114,7 +114,7 @@ export default function PageContent() {
       {/* Late Enrollment Penalties */}
       <div className="mb-10 p-6 bg-red-50 border-2 border-red-200 rounded-2xl">
         <div className="flex items-center gap-2 mb-3">
-          <AlertTriangle className="w-5 h-5 text-red-600" />
+          <AlertTriangle className="w-5 h-5 text-red-600" aria-hidden="true" />
           <h2 className="text-xl font-bold text-red-900" style={{ fontFamily: "'Merriweather', serif" }}>
             Late Enrollment Penalties
           </h2>

@@ -27,9 +27,9 @@ import { MEDIGAP_PLANS, type MedigapPlanData } from "@/lib/medigap-plan-data";
 import { trackPhoneClick } from "@/lib/analytics";
 
 function BenefitIcon({ covered }: { covered: "full" | "partial" | "none" }) {
-  if (covered === "full") return <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0" />;
-  if (covered === "partial") return <MinusCircle className="w-5 h-5 text-amber-500 shrink-0" />;
-  return <XCircle className="w-5 h-5 text-red-400 shrink-0" />;
+  if (covered === "full") return <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0" aria-hidden="true" />;
+  if (covered === "partial") return <MinusCircle className="w-5 h-5 text-amber-500 shrink-0" aria-hidden="true" />;
+  return <XCircle className="w-5 h-5 text-red-400 shrink-0" aria-hidden="true" />;
 }
 
 export default function PageContent({ planSlug }: { planSlug: string }) {
@@ -43,7 +43,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
     .filter(Boolean);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero */}
       <section className={`relative bg-gradient-to-br ${plan.heroColor} pt-8 pb-16 overflow-hidden`}>
         <div className="absolute inset-0 opacity-10">
@@ -54,15 +54,15 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Plan {plan.letter}</span>
           </div>
 
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Shield className="w-6 h-6 text-white" />
+              <Shield className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
             <span className={`text-xs font-bold text-white uppercase tracking-wider px-3 py-1 rounded-full ${plan.badgeColor}`}>
               {plan.badge}
@@ -104,13 +104,13 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Get a Free Quote <ArrowRight className="w-4 h-4" />
+                  Get a Free Quote <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_plan_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
       {!plan.availableToNewEnrollees && (
         <div className="bg-amber-50 border-b border-amber-200">
           <div className="container py-3 flex items-center gap-3">
-            <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0" />
+            <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0" aria-hidden="true" />
             <p className="text-sm text-amber-800">
               <strong>Availability Notice:</strong> {plan.displayName} is only available to people who were eligible for Medicare before January 1, 2020. If you became eligible after that date, consider{" "}
               <Link href="/medicare-supplement-plans/plan-g" className="underline font-semibold">Plan G</Link> instead.
@@ -178,13 +178,13 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                     buttonLabel="Compare Plans"
                     trigger={
                       <button className="flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-600 transition-colors">
-                        <ArrowRight className="w-4 h-4" /> Compare Rates Online
+                        <ArrowRight className="w-4 h-4" aria-hidden="true" /> Compare Rates Online
                       </button>
                     }
                   />
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_plan_detail" })} className="flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -206,12 +206,12 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 {/* Highlights */}
                 <div className="mt-8 p-6 bg-slate-50 rounded-xl border border-slate-200">
                   <h3 className="font-bold text-slate-900 mb-4 flex items-center gap-2">
-                    <Star className="w-5 h-5 text-teal-600" /> Key Highlights
+                    <Star className="w-5 h-5 text-teal-600" aria-hidden="true" /> Key Highlights
                   </h3>
                   <ul className="space-y-2">
                     {plan.highlights.map((h, i) => (
                       <li key={i} className="flex items-start gap-3 text-sm text-slate-700">
-                        <CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                         {h}
                       </li>
                     ))}
@@ -246,7 +246,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                   ))}
                 </div>
                 <p className="text-xs text-slate-500 mt-3 flex items-center gap-1">
-                  <Info className="w-3 h-3" /> All Medigap plans are standardized by federal law. Benefits are identical regardless of which insurer you choose.
+                  <Info className="w-3 h-3" aria-hidden="true" /> All Medigap plans are standardized by federal law. Benefits are identical regardless of which insurer you choose.
                 </p>
               </section>
 
@@ -258,7 +258,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="p-6 bg-green-50 rounded-xl border border-green-100">
                     <h3 className="font-bold text-green-800 mb-4 flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5" /> Pros
+                      <CheckCircle2 className="w-5 h-5" aria-hidden="true" /> Pros
                     </h3>
                     <ul className="space-y-3">
                       {plan.proscons.pros.map((pro, i) => (
@@ -270,7 +270,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                   </div>
                   <div className="p-6 bg-red-50 rounded-xl border border-red-100">
                     <h3 className="font-bold text-red-800 mb-4 flex items-center gap-2">
-                      <XCircle className="w-5 h-5" /> Cons
+                      <XCircle className="w-5 h-5" aria-hidden="true" /> Cons
                     </h3>
                     <ul className="space-y-3">
                       {plan.proscons.cons.map((con, i) => (
@@ -293,10 +293,11 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-800 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-slate-600 leading-relaxed text-sm border-t border-slate-100 pt-4">
@@ -324,7 +325,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                         <p className="font-semibold text-slate-800 text-sm mb-1 group-hover:text-teal-700">{related.displayName}</p>
                         <p className="text-xs text-slate-500">{related.monthlyPremiumRange}</p>
                         <div className="flex items-center gap-1 text-teal-600 text-xs font-semibold mt-3">
-                          View Plan <ArrowRight className="w-3 h-3" />
+                          View Plan <ArrowRight className="w-3 h-3" aria-hidden="true" />
                         </div>
                       </Link>
                     ))}
@@ -336,7 +337,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
               <section className="p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-teal-500/20 rounded-xl flex items-center justify-center shrink-0">
-                    <Users className="w-6 h-6 text-teal-400" />
+                    <Users className="w-6 h-6 text-teal-400" aria-hidden="true" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Ready to Compare {plan.displayName} Quotes?</h3>
@@ -353,13 +354,13 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                         buttonLabel="Compare Plans"
                         trigger={
                           <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm">
-                            Compare Rates Online <ArrowRight className="w-4 h-4" />
+                            Compare Rates Online <ArrowRight className="w-4 h-4" aria-hidden="true" />
                           </button>
                         }
                       />
                       <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_plan_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20 text-sm">
-                        <Phone className="w-4 h-4" /> Call (888) 335-8996
+                        <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                       </a>
                     </div>
                   </div>
@@ -369,6 +370,6 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

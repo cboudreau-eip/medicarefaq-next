@@ -131,7 +131,7 @@ export default function Videos() {  useEffect(() => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -146,14 +146,14 @@ export default function Videos() {  useEffect(() => {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-indigo-200/70 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-indigo-200/70">Medicare Library</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-indigo-100">Videos</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Video className="w-6 h-6 text-indigo-200" />
+              <Video className="w-6 h-6 text-indigo-200" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-indigo-200 uppercase tracking-wider">MedicareFAQ Videos</span>
           </div>
@@ -165,9 +165,9 @@ export default function Videos() {  useEffect(() => {
           </p>
           <div className="flex flex-wrap items-center gap-4 mb-8">
             <div className="flex items-center gap-6 text-sm text-indigo-200/80">
-              <span className="flex items-center gap-1.5"><Video className="w-4 h-4" /> 89+ Videos</span>
-              <span className="flex items-center gap-1.5"><Eye className="w-4 h-4" /> New Videos Weekly</span>
-              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" /> Expert Produced</span>
+              <span className="flex items-center gap-1.5"><Video className="w-4 h-4" aria-hidden="true" /> 89+ Videos</span>
+              <span className="flex items-center gap-1.5"><Eye className="w-4 h-4" aria-hidden="true" /> New Videos Weekly</span>
+              <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Expert Produced</span>
             </div>
           </div>
           <a
@@ -176,7 +176,7 @@ export default function Videos() {  useEffect(() => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"
           >
-            <Video className="w-5 h-5" /> Subscribe on YouTube <ExternalLink className="w-3 h-3 opacity-60" />
+            <Video className="w-5 h-5" aria-hidden="true" /> Subscribe on YouTube <ExternalLink className="w-3 h-3 opacity-60" aria-hidden="true" />
           </a>
         </div>
       </section>
@@ -185,7 +185,7 @@ export default function Videos() {  useEffect(() => {
       <section className="py-12">
         <div className="container">
           <div className="flex items-center gap-2 mb-6">
-            <Star className="w-5 h-5 text-indigo-600" />
+            <Star className="w-5 h-5 text-indigo-600" aria-hidden="true" />
             <span className="text-sm font-bold text-indigo-600 uppercase tracking-wider">Featured Video</span>
           </div>
           <div className="bg-slate-900 rounded-2xl overflow-hidden">
@@ -205,7 +205,7 @@ export default function Videos() {  useEffect(() => {
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">{featuredVideo.category}</span>
                   <span className="text-xs text-slate-500">·</span>
-                  <span className="text-xs text-slate-500 flex items-center gap-1"><Clock className="w-3 h-3" /> {featuredVideo.duration}</span>
+                  <span className="text-xs text-slate-500 flex items-center gap-1"><Clock className="w-3 h-3" aria-hidden="true" /> {featuredVideo.duration}</span>
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3" style={{ fontFamily: "'Merriweather', serif" }}>
                   {featuredVideo.title}
@@ -217,7 +217,7 @@ export default function Videos() {  useEffect(() => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-semibold text-indigo-400 hover:text-indigo-300 transition-colors"
                 >
-                  Watch on YouTube <ExternalLink className="w-3 h-3" />
+                  Watch on YouTube <ExternalLink className="w-3 h-3" aria-hidden="true" />
                 </a>
               </div>
             </div>
@@ -261,7 +261,7 @@ export default function Videos() {  useEffect(() => {
                       <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
                       <div className="absolute inset-0 flex items-center justify-center">
                         <div className="w-14 h-14 bg-red-600/90 rounded-full flex items-center justify-center group-hover:bg-red-600 group-hover:scale-110 transition-all shadow-lg">
-                          <Play className="w-6 h-6 text-white ml-0.5" />
+                          <Play className="w-6 h-6 text-white ml-0.5" aria-hidden="true" />
                         </div>
                       </div>
                       <div className="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-2 py-0.5 rounded">
@@ -288,7 +288,7 @@ export default function Videos() {  useEffect(() => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-red-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-red-700 transition-colors"
                 >
-                  <Video className="w-5 h-5" /> View All 89+ Videos on YouTube <ExternalLink className="w-4 h-4" />
+                  <Video className="w-5 h-5" aria-hidden="true" /> View All 89+ Videos on YouTube <ExternalLink className="w-4 h-4" aria-hidden="true" />
                 </a>
               </div>
             </div>
@@ -319,7 +319,7 @@ export default function Videos() {  useEffect(() => {
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 bg-red-600 text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-red-700 transition-colors w-full"
                   >
-                    <Video className="w-4 h-4" /> Subscribe
+                    <Video className="w-4 h-4" aria-hidden="true" /> Subscribe
                   </a>
                 </div>
 
@@ -329,7 +329,7 @@ export default function Videos() {  useEffect(() => {
                   <p className="text-xs text-indigo-200 mb-3">Our licensed agents are ready to help</p>
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "videos" })} className="flex items-center gap-2 text-sm font-bold text-white">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -339,6 +339,6 @@ export default function Videos() {  useEffect(() => {
       </section>
 
       
-    </div>
+    </article>
   );
 }

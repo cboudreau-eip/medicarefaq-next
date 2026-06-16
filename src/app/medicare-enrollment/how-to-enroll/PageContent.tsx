@@ -93,7 +93,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -108,14 +108,14 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-teal-200/70 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-200/70">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-100">How to Enroll</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <FileText className="w-6 h-6 text-teal-200" />
+              <FileText className="w-6 h-6 text-teal-200" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-teal-200 uppercase tracking-wider">Step-by-Step Guide</span>
           </div>
@@ -127,11 +127,11 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#original-medicare" className="inline-flex items-center gap-2 bg-white text-teal-800 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
-              Start Enrolling <ArrowRight className="w-4 h-4" />
+              Start Enrolling <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Get Free Help
+              <Phone className="w-4 h-4" aria-hidden="true" /> Get Free Help
             </a>
           </div>
         </div>
@@ -158,7 +158,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
 
                 <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Enroll During the Right Window</p>
                       <p className="text-sm text-amber-800">
@@ -182,7 +182,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <div className="bg-white rounded-xl border-2 border-teal-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center shrink-0">
-                        <Monitor className="w-6 h-6 text-teal-700" />
+                        <Monitor className="w-6 h-6 text-teal-700" aria-hidden="true" />
                       </div>
                       <div>
                         <div className="flex items-center gap-2 mb-1">
@@ -193,9 +193,9 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                           The quickest way to enroll. Visit <strong>ssa.gov</strong> and use the online application. It takes about 10-15 minutes and you can do it from home.
                         </p>
                         <div className="space-y-1">
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" /> Available 24/7</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" /> No appointment needed</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" /> Get confirmation immediately</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> Available 24/7</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> No appointment needed</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-teal-600" aria-hidden="true" /> Get confirmation immediately</p>
                         </div>
                       </div>
                     </div>
@@ -204,7 +204,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <div className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center shrink-0">
-                        <Phone className="w-6 h-6 text-blue-700" />
+                        <Phone className="w-6 h-6 text-blue-700" aria-hidden="true" />
                       </div>
                       <div>
                         <h3 className="font-bold text-slate-900 text-lg mb-1">Option 2: By Phone</h3>
@@ -212,9 +212,9 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                           Call Social Security at <strong>1-800-772-1213</strong> (TTY: 1-800-325-0778). Representatives are available Monday through Friday, 8 a.m. to 7 p.m. local time.
                         </p>
                         <div className="space-y-1">
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-blue-600" /> Speak with a representative</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-blue-600" /> Ask questions during enrollment</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><AlertTriangle className="w-3 h-3 text-amber-500" /> Wait times may be long</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-blue-600" aria-hidden="true" /> Speak with a representative</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-blue-600" aria-hidden="true" /> Ask questions during enrollment</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><AlertTriangle className="w-3 h-3 text-amber-500" aria-hidden="true" /> Wait times may be long</p>
                         </div>
                       </div>
                     </div>
@@ -223,7 +223,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <div className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center shrink-0">
-                        <MapPin className="w-6 h-6 text-purple-700" />
+                        <MapPin className="w-6 h-6 text-purple-700" aria-hidden="true" />
                       </div>
                       <div>
                         <h3 className="font-bold text-slate-900 text-lg mb-1">Option 3: In Person</h3>
@@ -231,9 +231,9 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                           Visit your local Social Security office. You can find the nearest office at <strong>ssa.gov/locator</strong>. An appointment is recommended but walk-ins are accepted.
                         </p>
                         <div className="space-y-1">
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-purple-600" /> Face-to-face assistance</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-purple-600" /> Bring documents for immediate processing</p>
-                          <p className="text-xs text-slate-500 flex items-center gap-1"><AlertTriangle className="w-3 h-3 text-amber-500" /> Limited hours, may require appointment</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-purple-600" aria-hidden="true" /> Face-to-face assistance</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><CheckCircle2 className="w-3 h-3 text-purple-600" aria-hidden="true" /> Bring documents for immediate processing</p>
+                          <p className="text-xs text-slate-500 flex items-center gap-1"><AlertTriangle className="w-3 h-3 text-amber-500" aria-hidden="true" /> Limited hours, may require appointment</p>
                         </div>
                       </div>
                     </div>
@@ -275,7 +275,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
 
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
-                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">Enrollment Methods for MA Plans</p>
                       <p className="text-sm text-blue-800">
@@ -319,7 +319,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
 
                 <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Don't Skip Part D</p>
                       <p className="text-sm text-amber-800">
@@ -343,21 +343,21 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <h3 className="font-bold text-teal-900 mb-4">Medigap Enrollment Best Practices</h3>
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-teal-900">Enroll during your Medigap OEP</p>
                         <p className="text-xs text-teal-700">6-month window starting when Part B is effective. Guaranteed issue — no health questions.</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-teal-900">Compare plans and rates</p>
                         <p className="text-xs text-teal-700">All Medigap plans with the same letter (e.g., Plan G) offer identical benefits regardless of company. Compare on price and company reputation.</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <p className="text-sm font-semibold text-teal-900">Work with a licensed agent</p>
                         <p className="text-xs text-teal-700">An independent agent can compare rates from multiple carriers and handle the application for you — at no cost.</p>
@@ -368,7 +368,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
 
                 <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-red-900 mb-1">Outside Your Medigap OEP</p>
                       <p className="text-sm text-red-800">
@@ -400,7 +400,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                         "Bank account info (for premium payments)",
                       ].map((doc, i) => (
                         <div key={i} className="flex items-start gap-2">
-                          <FileText className="w-3.5 h-3.5 text-slate-400 mt-0.5 shrink-0" />
+                          <FileText className="w-3.5 h-3.5 text-slate-400 mt-0.5 shrink-0" aria-hidden="true" />
                           <span className="text-xs text-slate-600">{doc}</span>
                         </div>
                       ))}
@@ -418,7 +418,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                         "Creditable coverage letter (if applicable)",
                       ].map((doc, i) => (
                         <div key={i} className="flex items-start gap-2">
-                          <FileText className="w-3.5 h-3.5 text-slate-400 mt-0.5 shrink-0" />
+                          <FileText className="w-3.5 h-3.5 text-slate-400 mt-0.5 shrink-0" aria-hidden="true" />
                           <span className="text-xs text-slate-600">{doc}</span>
                         </div>
                       ))}
@@ -435,7 +435,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                         "Creditable coverage letter from employer",
                       ].map((doc, i) => (
                         <div key={i} className="flex items-start gap-2">
-                          <FileText className="w-3.5 h-3.5 text-amber-500 mt-0.5 shrink-0" />
+                          <FileText className="w-3.5 h-3.5 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" />
                           <span className="text-xs text-amber-800">{doc}</span>
                         </div>
                       ))}
@@ -487,10 +487,11 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -514,7 +515,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                   <div className="flex flex-wrap gap-4">
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal
                       coverageType="ms"
@@ -528,22 +529,22 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
               {/* Related Pages */}
               <div className="grid sm:grid-cols-4 gap-4">
                 <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
-                  <Calendar className="w-5 h-5 text-teal-600 mb-2" />
+                  <Calendar className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Turning 65 Enrollment</h3>
                   <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
                 </Link>
                 <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
-                  <AlertTriangle className="w-5 h-5 text-teal-600 mb-2" />
+                  <AlertTriangle className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly penalties</p>
                 </Link>
                 <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
-                  <Shield className="w-5 h-5 text-teal-600 mb-2" />
+                  <Shield className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Compare Plans</h3>
                   <p className="text-xs text-slate-500">Side-by-side plan comparison</p>
                 </Link>
                 <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-teal-200 hover:bg-teal-50/50 transition-colors">
-                  <FileText className="w-5 h-5 text-teal-600 mb-2" />
+                  <FileText className="w-5 h-5 text-teal-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-teal-700 text-sm mb-1">Apply for Part B</h3>
                   <p className="text-xs text-slate-500">Step-by-step Part B application</p>
                 </Link>
@@ -585,7 +586,7 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll_sidebar" })}
                     className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996
                   </a>
                 </div>
@@ -596,6 +597,6 @@ export default function HowToEnroll() {  const [activeSection, setActiveSection]
       </section>
 
       
-    </div>
+    </article>
   );
 }

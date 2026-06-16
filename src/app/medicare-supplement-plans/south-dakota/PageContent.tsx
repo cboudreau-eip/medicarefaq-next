@@ -60,9 +60,9 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
       >
         <span className="font-semibold text-slate-900 pr-4">{question}</span>
         {open ? (
-          <ChevronUp className="w-5 h-5 text-slate-400 shrink-0" />
+          <ChevronUp className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
         ) : (
-          <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" />
+          <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
         )}
       </button>
       {open && (
@@ -88,8 +88,7 @@ function StarRating({ score }: { score: number }) {
               : i === fullStars && hasHalf
               ? "fill-amber-400/50 text-amber-400"
               : "fill-slate-200 text-slate-200"
-          }`}
-        />
+          }`} aria-hidden="true" />
       ))}
     </div>
   );
@@ -109,7 +108,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
           <div className="flex-1 min-w-0">
             <div className="flex items-start gap-3 mb-3">
               <div className="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center shrink-0">
-                <Building2 className="w-6 h-6 text-white" />
+                <Building2 className="w-6 h-6 text-white" aria-hidden="true" />
               </div>
               <div>
                 <h3 className="text-lg font-bold text-slate-900">{carrier.name}</h3>
@@ -151,7 +150,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
               buttonLabel="Get a Quote"
               trigger={
                 <button className="w-full inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-4 py-2.5 rounded-lg transition-colors text-sm">
-                  Get a Quote <ArrowRight className="w-4 h-4" />
+                  Get a Quote <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
@@ -167,7 +166,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
               }
               className="w-full inline-flex items-center justify-center gap-2 border border-slate-300 hover:border-blue-400 text-slate-700 font-medium px-4 py-2.5 rounded-lg transition-colors text-sm"
             >
-              <Phone className="w-3.5 h-3.5" /> (888) 335-8996
+              <Phone className="w-3.5 h-3.5" aria-hidden="true" /> (888) 335-8996
             </a>
           </div>
         </div>
@@ -178,9 +177,9 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
         >
           {expanded ? "Hide details" : "Show pros & cons"}
           {expanded ? (
-            <ChevronUp className="w-4 h-4" />
+            <ChevronUp className="w-4 h-4" aria-hidden="true" />
           ) : (
-            <ChevronDown className="w-4 h-4" />
+            <ChevronDown className="w-4 h-4" aria-hidden="true" />
           )}
         </button>
         {expanded && (
@@ -192,7 +191,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
               <ul className="space-y-1.5">
                 {carrier.pros.map((pro, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" aria-hidden="true" />
                     {pro}
                   </li>
                 ))}
@@ -205,7 +204,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
               <ul className="space-y-1.5">
                 {carrier.cons.map((con, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
+                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" aria-hidden="true" />
                     {con}
                   </li>
                 ))}
@@ -262,27 +261,27 @@ export default function SouthDakotaPageContent() {
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Users className="w-4 h-4 text-teal-400" />
+              <Users className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span>
                 <strong className="text-white">{STATE_STATS.enrollees}</strong> South Dakotans
                 with Medigap
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <DollarSign className="w-4 h-4 text-teal-400" />
+              <DollarSign className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span>
                 Plan G from{" "}
                 <strong className="text-white">{STATE_STATS.lowestPlanG}</strong> in Sioux Falls
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <TrendingDown className="w-4 h-4 text-teal-400" />
+              <TrendingDown className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span>
                 Plan N from <strong className="text-white">{STATE_STATS.lowestPlanN}</strong>
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Award className="w-4 h-4 text-amber-400" />
+              <Award className="w-4 h-4 text-amber-400" aria-hidden="true" />
               <span>
                 <strong className="text-white">{STATE_STATS.carriers}</strong> carriers licensed in
                 South Dakota
@@ -299,7 +298,7 @@ export default function SouthDakotaPageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Compare SD Rates <ArrowRight className="w-4 h-4" />
+                  Compare SD Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
@@ -315,7 +314,7 @@ export default function SouthDakotaPageContent() {
               }
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
             >
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -326,7 +325,7 @@ export default function SouthDakotaPageContent() {
         <div className="container py-5">
           <div className="flex items-start gap-4 max-w-4xl">
             <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center shrink-0">
-              <AlertTriangle className="w-5 h-5 text-amber-700" />
+              <AlertTriangle className="w-5 h-5 text-amber-700" aria-hidden="true" />
             </div>
             <div>
               <p className="font-bold text-amber-900 text-base mb-1">
@@ -349,19 +348,19 @@ export default function SouthDakotaPageContent() {
         <div className="container py-4">
           <div className="flex flex-wrap gap-6 text-sm text-slate-600">
             <div className="flex items-center gap-2">
-              <Shield className="w-4 h-4 text-blue-600" />
+              <Shield className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>Independent, unbiased ratings</span>
             </div>
             <div className="flex items-center gap-2">
-              <BarChart3 className="w-4 h-4 text-blue-600" />
+              <BarChart3 className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>Based on CMS, NAIC, and AM Best data</span>
             </div>
             <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4 text-blue-600" />
+              <Clock className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>Updated May 2026</span>
             </div>
             <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-blue-600" />
+              <MapPin className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>Rates based on Sioux Falls, SD</span>
             </div>
           </div>
@@ -483,11 +482,11 @@ export default function SouthDakotaPageContent() {
                       {typeof row.g === "boolean" ? (
                         row.g ? (
                           <span className="text-emerald-600 font-semibold">
-                            <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                            <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                           </span>
                         ) : (
                           <span className="text-red-500 font-semibold">
-                            <XCircle className="w-4 h-4 inline" /> Not covered
+                            <XCircle className="w-4 h-4 inline" aria-hidden="true" /> Not covered
                           </span>
                         )
                       ) : (
@@ -502,12 +501,12 @@ export default function SouthDakotaPageContent() {
                       {typeof row.n === "boolean" ? (
                         row.n ? (
                           <span className="text-emerald-600 font-semibold">
-                            <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                            <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                             {(row as { nNote?: string }).nNote ?? ""}
                           </span>
                         ) : (
                           <span className="text-red-500 font-semibold">
-                            <XCircle className="w-4 h-4 inline" /> Not covered
+                            <XCircle className="w-4 h-4 inline" aria-hidden="true" /> Not covered
                           </span>
                         )
                       ) : (
@@ -566,7 +565,7 @@ export default function SouthDakotaPageContent() {
         <div className="container max-w-4xl">
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 flex items-start gap-4">
             <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center shrink-0">
-              <Phone className="w-5 h-5 text-blue-700" />
+              <Phone className="w-5 h-5 text-blue-700" aria-hidden="true" />
             </div>
             <div>
               <p className="font-bold text-blue-900 text-base mb-1">
@@ -583,7 +582,7 @@ export default function SouthDakotaPageContent() {
                 href="tel:18336639673"
                 className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
               >
-                <Phone className="w-4 h-4" /> Call SD SHIP: 1-833-663-9673
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call SD SHIP: 1-833-663-9673
               </a>
             </div>
           </div>
@@ -609,8 +608,7 @@ export default function SouthDakotaPageContent() {
                   className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-200"
                 >
                   <Icon
-                    className={`w-5 h-5 ${iconColors[i % iconColors.length]} shrink-0 mt-0.5`}
-                  />
+                    className={`w-5 h-5 ${iconColors[i % iconColors.length]} shrink-0 mt-0.5`} aria-hidden="true" />
                   <div>
                     <p className="font-semibold text-slate-900 mb-1">{rule.title}</p>
                     <p className="text-sm text-slate-600">{rule.description}</p>
@@ -703,7 +701,7 @@ export default function SouthDakotaPageContent() {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    Compare SD Rates <ArrowRight className="w-4 h-4" />
+                    Compare SD Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </button>
                 }
               />
@@ -719,7 +717,7 @@ export default function SouthDakotaPageContent() {
                 }
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
               >
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
             </div>
           </div>

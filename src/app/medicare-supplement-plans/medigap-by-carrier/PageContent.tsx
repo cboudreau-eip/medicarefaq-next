@@ -25,7 +25,7 @@ export default function PageContent() {
   const otherCarriers = CARRIER_DATA.filter((c) => !topCarriers.includes(c));
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -36,14 +36,14 @@ export default function PageContent() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">By Carrier</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Building2 className="w-6 h-6 text-white" />
+              <Building2 className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -54,7 +54,7 @@ export default function PageContent() {
           </p>
           <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_by_carrier" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-            <Phone className="w-4 h-4" /> Compare Rates Free
+            <Phone className="w-4 h-4" aria-hidden="true" /> Compare Rates Free
           </a>
         </div>
       </section>
@@ -64,7 +64,7 @@ export default function PageContent() {
 
           {/* Key reminder */}
           <div className="p-5 bg-blue-50 border border-blue-200 rounded-xl mb-12 flex items-start gap-3">
-            <Shield className="w-5 h-5 text-blue-700 shrink-0 mt-0.5" />
+            <Shield className="w-5 h-5 text-blue-700 shrink-0 mt-0.5" aria-hidden="true" />
             <div>
               <p className="font-semibold text-blue-900 mb-1">All Medigap Plans Are Federally Standardized</p>
               <p className="text-sm text-blue-800">
@@ -95,12 +95,12 @@ export default function PageContent() {
                       <span className={`text-xs font-semibold px-2 py-0.5 rounded-full border ${badge.color}`}>{badge.label}</span>
                     </div>
                     <div className="flex items-center gap-3 mb-3 text-xs text-slate-500">
-                      <span className="flex items-center gap-1"><Star className="w-3 h-3 text-amber-500" /> {carrier.amBestRating}</span>
-                      <span className="flex items-center gap-1"><Globe className="w-3 h-3 text-blue-500" /> {carrier.statesAvailable} states</span>
+                      <span className="flex items-center gap-1"><Star className="w-3 h-3 text-amber-500" aria-hidden="true" /> {carrier.amBestRating}</span>
+                      <span className="flex items-center gap-1"><Globe className="w-3 h-3 text-blue-500" aria-hidden="true" /> {carrier.statesAvailable} states</span>
                     </div>
                     <p className="text-sm text-slate-600 line-clamp-2 mb-3">{carrier.overview.split(".")[0]}.</p>
                     <div className="flex items-center gap-1 text-teal-700 font-semibold text-sm">
-                      View Plans <ArrowRight className="w-4 h-4" />
+                      View Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
                     </div>
                   </Link>
                 );
@@ -127,8 +127,8 @@ export default function PageContent() {
                       <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-full border ${badge.color}`}>{badge.label}</span>
                     </div>
                     <div className="flex items-center gap-3 text-xs text-slate-500 mb-2">
-                      <span className="flex items-center gap-1"><Star className="w-3 h-3 text-amber-500" /> {carrier.amBestRating}</span>
-                      <span className="flex items-center gap-1"><Globe className="w-3 h-3 text-blue-500" /> {carrier.statesAvailable} states</span>
+                      <span className="flex items-center gap-1"><Star className="w-3 h-3 text-amber-500" aria-hidden="true" /> {carrier.amBestRating}</span>
+                      <span className="flex items-center gap-1"><Globe className="w-3 h-3 text-blue-500" aria-hidden="true" /> {carrier.statesAvailable} states</span>
                     </div>
                     <div className="flex flex-wrap gap-1">
                       {carrier.popularPlans.map((p) => (
@@ -150,16 +150,16 @@ export default function PageContent() {
             <div className="flex flex-wrap gap-3">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_by_carrier" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-                Compare All Plans <ArrowRight className="w-4 h-4" />
+                Compare All Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      </div>
+      </article>
   );
 }

@@ -106,7 +106,7 @@ export default function PageContent() {
             </nav>
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-blue-500/30 rounded-xl p-3">
-                <Stethoscope className="w-8 h-8 text-blue-200" />
+                <Stethoscope className="w-8 h-8 text-blue-200" aria-hidden="true" />
               </div>
               <span className="text-blue-200 text-sm font-medium uppercase tracking-wide">Medical Insurance</span>
             </div>
@@ -117,11 +117,11 @@ export default function PageContent() {
             <div className="flex flex-wrap gap-4">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_b" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                <Phone className="w-4 h-4" />
+                <Phone className="w-4 h-4" aria-hidden="true" />
                 Get Free Guidance
               </a>
               <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors">
-                Cover the 20% Gap <ArrowRight className="w-4 h-4" />
+                Cover the 20% Gap <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
@@ -175,7 +175,7 @@ export default function PageContent() {
               </p>
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
-                  <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                  <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                   <div>
                     <p className="font-semibold text-blue-900 mb-1">The 20% Gap</p>
                     <p className="text-sm text-blue-800">After meeting the $283 deductible, Medicare pays 80% of approved costs. You pay the remaining 20% with no annual cap. A Medigap supplement plan can cover this 20% coinsurance entirely.</p>
@@ -191,9 +191,9 @@ export default function PageContent() {
                 {coverageItems.map((item, i) => (
                   <div key={i} className={`flex items-start gap-3 p-4 rounded-lg border ${item.covered ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200"}`}>
                     {item.covered ? (
-                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                     ) : (
-                      <XCircle className="w-5 h-5 text-red-500 mt-0.5 shrink-0" />
+                      <XCircle className="w-5 h-5 text-red-500 mt-0.5 shrink-0" aria-hidden="true" />
                     )}
                     <span className={`text-sm ${item.covered ? "text-green-900" : "text-red-900"}`}>{item.item}</span>
                   </div>
@@ -219,7 +219,7 @@ export default function PageContent() {
               </div>
               <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
                 <div className="flex items-start gap-3">
-                  <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                  <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                   <div>
                     <p className="font-semibold text-amber-900 mb-1">No Out-of-Pocket Maximum</p>
                     <p className="text-sm text-amber-800">The 20% coinsurance has no annual cap. If you have a serious illness requiring frequent specialist visits or expensive procedures, your costs can be substantial. Medigap Plan G or Plan N can significantly limit your exposure.</p>
@@ -300,7 +300,7 @@ export default function PageContent() {
               <h2 className="text-2xl font-bold text-[#1B3A6B] mb-4">Late Enrollment Penalty</h2>
               <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-4">
                 <div className="flex items-start gap-3">
-                  <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" />
+                  <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                   <div>
                     <p className="font-bold text-red-900 text-lg mb-2">10% Per Year — Permanently</p>
                     <p className="text-sm text-red-800 mb-3">
@@ -328,7 +328,7 @@ export default function PageContent() {
                       onClick={() => setOpenFaq(openFaq === i ? null : i)}
                     >
                       <span className="font-semibold text-gray-900 pr-4">{faq.q}</span>
-                      <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                      <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                     </button>
                     {openFaq === i && (
                       <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100 pt-4">
@@ -349,7 +349,7 @@ export default function PageContent() {
             <p className="text-blue-100 mb-6">Our licensed Medicare agents can explain your benefits, help you understand IRMAA, and find the right Medigap plan to cover the 20% coinsurance — at no cost to you.</p>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_part_b" })} className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
-              <Phone className="w-5 h-5" />
+              <Phone className="w-5 h-5" aria-hidden="true" />
               Call (888) 335-8996
             </a>
           </div>

@@ -30,7 +30,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
   const pricingBadge = PRICING_BADGE[carrier.pricingTier];
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -40,16 +40,16 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans/medigap-by-carrier" className="hover:text-white transition-colors">By Carrier</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">{carrier.shortName}</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Building2 className="w-6 h-6 text-white" />
+              <Building2 className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
             <span className={`text-xs font-bold px-3 py-1 rounded-full border ${pricingBadge.color}`}>
               {pricingBadge.label}
@@ -64,24 +64,24 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
           {/* Quick stats */}
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Star className="w-4 h-4 text-amber-400" />
+              <Star className="w-4 h-4 text-amber-400" aria-hidden="true" />
               <span>AM Best: <strong className="text-white">{carrier.amBestRating}</strong></span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <MapPin className="w-4 h-4 text-teal-400" />
+              <MapPin className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span>HQ: <strong className="text-white">{carrier.hq}</strong></span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Globe className="w-4 h-4 text-blue-400" />
+              <Globe className="w-4 h-4 text-blue-400" aria-hidden="true" />
               <span>Available in <strong className="text-white">{carrier.statesAvailable} states</strong></span>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
             <a href={`tel:${carrier.phone.replace(/\D/g, "")}`} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              <Phone className="w-4 h-4" /> Compare {carrier.shortName} Rates
+              <Phone className="w-4 h-4" aria-hidden="true" /> Compare {carrier.shortName} Rates
             </a>
             <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              Compare All Carriers <ArrowRight className="w-4 h-4" />
+              Compare All Carriers <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </Link>
           </div>
         </div>
@@ -116,9 +116,9 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
                       {letter}
                     </div>
                     {available ? (
-                      <CheckCircle2 className="w-4 h-4 text-teal-600 mx-auto" />
+                      <CheckCircle2 className="w-4 h-4 text-teal-600 mx-auto" aria-hidden="true" />
                     ) : (
-                      <XCircle className="w-4 h-4 text-slate-300 mx-auto" />
+                      <XCircle className="w-4 h-4 text-slate-300 mx-auto" aria-hidden="true" />
                     )}
                     {planData?.note && (
                       <p className="text-[9px] text-amber-700 mt-1 leading-tight">{planData.note}</p>
@@ -128,7 +128,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
               })}
             </div>
             <p className="text-xs text-slate-500 mt-3 flex items-center gap-1">
-              <AlertTriangle className="w-3 h-3" /> Plan C and Plan F are not available to anyone who became eligible for Medicare on or after January 1, 2020.
+              <AlertTriangle className="w-3 h-3" aria-hidden="true" /> Plan C and Plan F are not available to anyone who became eligible for Medicare on or after January 1, 2020.
             </p>
           </div>
 
@@ -145,7 +145,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
                   className="flex items-center gap-2 px-4 py-2.5 bg-blue-900 text-white rounded-lg font-semibold hover:bg-blue-800 transition-colors"
                 >
                   Plan {letter}
-                  <ArrowRight className="w-4 h-4" />
+                  <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </Link>
               ))}
             </div>
@@ -155,13 +155,13 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
           <div className="grid md:grid-cols-2 gap-6 mb-14">
             <div className="p-6 bg-green-50 border border-green-200 rounded-xl">
               <h3 className="font-bold text-green-900 mb-4 flex items-center gap-2">
-                <CheckCircle2 className="w-5 h-5 text-green-600" />
+                <CheckCircle2 className="w-5 h-5 text-green-600" aria-hidden="true" />
                 Strengths
               </h3>
               <ul className="space-y-2">
                 {carrier.strengths.map((s, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-green-800">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
                     {s}
                   </li>
                 ))}
@@ -169,13 +169,13 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
             </div>
             <div className="p-6 bg-amber-50 border border-amber-200 rounded-xl">
               <h3 className="font-bold text-amber-900 mb-4 flex items-center gap-2">
-                <AlertTriangle className="w-5 h-5 text-amber-600" />
+                <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" />
                 Considerations
               </h3>
               <ul className="space-y-2">
                 {carrier.considerations.map((c, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-amber-800">
-                    <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                    <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" />
                     {c}
                   </li>
                 ))}
@@ -221,7 +221,7 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
                         <p className="font-semibold text-slate-900 text-sm">{rel.shortName}</p>
                         <p className="text-xs text-slate-500 mt-0.5">AM Best: {rel.amBestRating}</p>
                       </div>
-                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-colors" />
+                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-colors" aria-hidden="true" />
                     </Link>
                   );
                 })}
@@ -238,15 +238,15 @@ export default function PageContent({ carrierSlug }: { carrierSlug: string }) {
             <div className="flex flex-wrap gap-3">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_carrier_detail" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-                Compare All Plans <ArrowRight className="w-4 h-4" />
+                Compare All Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

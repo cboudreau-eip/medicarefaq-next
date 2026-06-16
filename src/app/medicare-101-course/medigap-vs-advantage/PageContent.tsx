@@ -28,30 +28,30 @@ export default function PageContent() {
       <div className="grid md:grid-cols-2 gap-4 mb-10">
         <div className="p-5 bg-blue-50 border-2 border-blue-200 rounded-2xl">
           <div className="flex items-center gap-2 mb-3">
-            <Shield className="w-5 h-5 text-blue-700" />
+            <Shield className="w-5 h-5 text-blue-700" aria-hidden="true" />
             <h3 className="font-bold text-blue-900">Path 1: Original Medicare + Medigap</h3>
           </div>
           <p className="text-sm text-blue-800 mb-3">
             Parts A &amp; B + Medicare Supplement + standalone Part D
           </p>
           <ul className="space-y-1.5 text-sm text-blue-800">
-            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" /> Maximum freedom</li>
-            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" /> Predictable costs</li>
-            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" /> Higher monthly premium</li>
+            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" /> Maximum freedom</li>
+            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" /> Predictable costs</li>
+            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" /> Higher monthly premium</li>
           </ul>
         </div>
         <div className="p-5 bg-amber-50 border-2 border-amber-200 rounded-2xl">
           <div className="flex items-center gap-2 mb-3">
-            <Shield className="w-5 h-5 text-amber-700" />
+            <Shield className="w-5 h-5 text-amber-700" aria-hidden="true" />
             <h3 className="font-bold text-amber-900">Path 2: Medicare Advantage</h3>
           </div>
           <p className="text-sm text-amber-800 mb-3">
             Part C — private plan that replaces Original Medicare
           </p>
           <ul className="space-y-1.5 text-sm text-amber-800">
-            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" /> Lower monthly premium</li>
-            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" /> Bundled benefits</li>
-            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" /> Network restrictions</li>
+            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" /> Lower monthly premium</li>
+            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" /> Bundled benefits</li>
+            <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" /> Network restrictions</li>
           </ul>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function PageContent() {
           return (
             <div key={item.title} className="flex items-start gap-4">
               <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-                <Icon className="w-5 h-5 text-blue-700" />
+                <Icon className="w-5 h-5 text-blue-700" aria-hidden="true" />
               </div>
               <div>
                 <h3 className="font-bold text-slate-900 mb-1">{item.title}</h3>
@@ -108,30 +108,30 @@ export default function PageContent() {
       <div className="mb-10 p-5 bg-amber-50 border border-amber-200 rounded-2xl">
         <h3 className="font-bold text-amber-900 mb-3">When Medicare Advantage May Make Sense</h3>
         <ul className="space-y-2 text-sm text-amber-800">
-          <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" /> You are healthy, on a tight budget, and comfortable with network restrictions</li>
-          <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" /> You want dental, vision, and hearing included without separate policies</li>
-          <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" /> You live in an area with strong Advantage plan networks</li>
-          <li className="flex items-start gap-2"><AlertTriangle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" /> You understand you can switch back to Original Medicare later — but may not qualify for Medigap without underwriting</li>
+          <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" /> You are healthy, on a tight budget, and comfortable with network restrictions</li>
+          <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" /> You want dental, vision, and hearing included without separate policies</li>
+          <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" /> You live in an area with strong Advantage plan networks</li>
+          <li className="flex items-start gap-2"><AlertTriangle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" /> You understand you can switch back to Original Medicare later — but may not qualify for Medigap without underwriting</li>
         </ul>
       </div>
 
       {/* The Advantage Trap */}
       <div className="mb-10 p-5 bg-red-50 border-2 border-red-200 rounded-2xl">
         <div className="flex items-center gap-2 mb-3">
-          <Lock className="w-5 h-5 text-red-700" />
+          <Lock className="w-5 h-5 text-red-700" aria-hidden="true" />
           <h3 className="font-bold text-red-900">The &ldquo;Advantage Trap&rdquo; — What Most People Do Not Realize</h3>
         </div>
         <ul className="space-y-2 text-sm text-red-800">
           <li className="flex items-start gap-2">
-            <ArrowRight className="w-4 h-4 text-green-600 shrink-0 mt-0.5" />
+            <ArrowRight className="w-4 h-4 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
             You can switch FROM Medigap TO Advantage at any time during AEP.
           </li>
           <li className="flex items-start gap-2">
-            <XCircle className="w-4 h-4 text-red-600 shrink-0 mt-0.5" />
+            <XCircle className="w-4 h-4 text-red-600 shrink-0 mt-0.5" aria-hidden="true" />
             Switching FROM Advantage BACK TO Original Medicare + Medigap is much harder. After your Medigap OEP, you face medical underwriting.
           </li>
           <li className="flex items-start gap-2">
-            <XCircle className="w-4 h-4 text-red-600 shrink-0 mt-0.5" />
+            <XCircle className="w-4 h-4 text-red-600 shrink-0 mt-0.5" aria-hidden="true" />
             If you have developed health conditions while on Advantage, you may be denied Medigap entirely.
           </li>
         </ul>

@@ -17,15 +17,15 @@ export default function PageContent() {
   })).sort((a, b) => a.name.localeCompare(b.name));
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero */}
       <section className="bg-gradient-to-br from-teal-900 via-teal-800 to-slate-900 pt-8 pb-16">
         <div className="container">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-plans" className="hover:text-white transition-colors">Medicare Plans</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medicare by State</span>
           </div>
 
@@ -37,11 +37,11 @@ export default function PageContent() {
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-slate-400">
             <span className="flex items-center gap-1.5">
-              <Calendar className="w-4 h-4 text-teal-400" />
+              <Calendar className="w-4 h-4 text-teal-400" aria-hidden="true" />
               Updated for 2026
             </span>
             <span className="flex items-center gap-1.5">
-              <Shield className="w-4 h-4 text-teal-400" />
+              <Shield className="w-4 h-4 text-teal-400" aria-hidden="true" />
               {birthdayRuleStates.length} states with birthday rules
             </span>
           </div>
@@ -107,7 +107,7 @@ export default function PageContent() {
                     <td className="px-4 py-3 text-sm text-gray-700">{state.window}</td>
                     <td className="px-4 py-3">
                       <Link href={state.link} className="text-sm text-teal-600 hover:text-teal-800 flex items-center gap-1">
-                        Learn more <ArrowRight className="w-3 h-3" />
+                        Learn more <ArrowRight className="w-3 h-3" aria-hidden="true" />
                       </Link>
                     </td>
                   </tr>
@@ -185,7 +185,7 @@ export default function PageContent() {
             <details className="bg-white border border-gray-200 rounded-lg p-4 group">
               <summary className="font-semibold text-gray-900 cursor-pointer list-none flex items-center justify-between">
                 Can I switch to a higher-benefit plan during the birthday rule window?
-                <ChevronDown className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" />
+                <ChevronDown className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" aria-hidden="true" />
               </summary>
               <p className="mt-3 text-gray-700">
                 Generally, no. The birthday rule allows you to switch to a plan with equal or lesser benefits. For example, if you have Plan G, you could switch to another carrier&apos;s Plan G or to Plan N, but not to Plan F (which has more benefits). The specific rules vary by state.
@@ -194,7 +194,7 @@ export default function PageContent() {
             <details className="bg-white border border-gray-200 rounded-lg p-4 group">
               <summary className="font-semibold text-gray-900 cursor-pointer list-none flex items-center justify-between">
                 Do I need to notify my current insurance company?
-                <ChevronDown className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" />
+                <ChevronDown className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" aria-hidden="true" />
               </summary>
               <p className="mt-3 text-gray-700">
                 You don&apos;t need permission from your current carrier, but you should cancel your old plan once the new one is in effect to avoid paying double premiums. Work with your new carrier to coordinate the effective date.
@@ -203,7 +203,7 @@ export default function PageContent() {
             <details className="bg-white border border-gray-200 rounded-lg p-4 group">
               <summary className="font-semibold text-gray-900 cursor-pointer list-none flex items-center justify-between">
                 What if my state doesn&apos;t have a birthday rule?
-                <ChevronDown className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" />
+                <ChevronDown className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" aria-hidden="true" />
               </summary>
               <p className="mt-3 text-gray-700">
                 If your state doesn&apos;t have a birthday rule, you can still switch Medigap plans, but you may need to pass medical underwriting. Some carriers are more lenient than others. You can also switch during your initial Medigap Open Enrollment Period (the 6-month window when you first enroll in Medicare Part B).
@@ -212,7 +212,7 @@ export default function PageContent() {
             <details className="bg-white border border-gray-200 rounded-lg p-4 group">
               <summary className="font-semibold text-gray-900 cursor-pointer list-none flex items-center justify-between">
                 Can I use the birthday rule every year?
-                <ChevronDown className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" />
+                <ChevronDown className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" aria-hidden="true" />
               </summary>
               <p className="mt-3 text-gray-700">
                 Yes! The birthday rule window recurs every year around your birthday. You can take advantage of it annually to shop for better rates. This is especially useful as Medigap premiums tend to increase with age.
@@ -235,10 +235,10 @@ export default function PageContent() {
             href="/compare-rates"
             className="inline-flex items-center px-8 py-4 bg-[#f5a623] hover:bg-[#e09515] text-white font-semibold rounded-lg shadow-lg transition-colors text-lg"
           >
-            Compare Plans Now <ArrowRight className="w-5 h-5 ml-2" />
+            Compare Plans Now <ArrowRight className="w-5 h-5 ml-2" aria-hidden="true" />
           </Link>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

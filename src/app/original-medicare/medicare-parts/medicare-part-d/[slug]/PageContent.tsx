@@ -27,16 +27,16 @@ import type { PartDSubPage } from "@/lib/part-d-sub-data";
 import { trackPhoneClick } from "@/lib/analytics";
 
 const iconMap: Record<string, React.ReactNode> = {
-  Pill: <Pill className="w-8 h-8 text-blue-200" />,
-  Calendar: <Calendar className="w-8 h-8 text-blue-200" />,
-  Shield: <Shield className="w-8 h-8 text-blue-200" />,
-  DollarSign: <DollarSign className="w-8 h-8 text-blue-200" />,
-  FileText: <FileText className="w-8 h-8 text-blue-200" />,
-  AlertTriangle: <AlertTriangle className="w-8 h-8 text-blue-200" />,
-  TrendingDown: <TrendingDown className="w-8 h-8 text-blue-200" />,
-  Layers: <Layers className="w-8 h-8 text-blue-200" />,
-  Scale: <Scale className="w-8 h-8 text-blue-200" />,
-  ArrowRight: <ArrowRight className="w-8 h-8 text-blue-200" />,
+  Pill: <Pill className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  Calendar: <Calendar className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  Shield: <Shield className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  DollarSign: <DollarSign className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  FileText: <FileText className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  AlertTriangle: <AlertTriangle className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  TrendingDown: <TrendingDown className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  Layers: <Layers className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  Scale: <Scale className="w-8 h-8 text-blue-200" aria-hidden="true" />,
+  ArrowRight: <ArrowRight className="w-8 h-8 text-blue-200" aria-hidden="true" />,
 };
 
 export default function PageContent({ page }: { page: PartDSubPage }) {
@@ -73,7 +73,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
             </nav>
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-blue-500/30 rounded-xl p-3">
-                {iconMap[page.heroIcon] ?? <Pill className="w-8 h-8 text-blue-200" />}
+                {iconMap[page.heroIcon] ?? <Pill className="w-8 h-8 text-blue-200" aria-hidden="true" />}
               </div>
               <span className="text-blue-200 text-sm font-medium uppercase tracking-wide">Medicare Part D</span>
             </div>
@@ -85,14 +85,14 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "part_d_detail" })}
                 className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
-                <Phone className="w-4 h-4" />
+                <Phone className="w-4 h-4" aria-hidden="true" />
                 Get Free Guidance
               </a>
               <Link
                 href="/original-medicare/medicare-parts/medicare-part-d"
                 className="inline-flex items-center gap-2 border border-white/40 hover:bg-white/10 text-white font-medium px-6 py-3 rounded-lg transition-colors"
               >
-                Part D Overview <ArrowRight className="w-4 h-4" />
+                Part D Overview <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                   <ul className="space-y-2 mb-4">
                     {section.bullets.map((bullet, i) => (
                       <li key={i} className="flex items-start gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-gray-700 text-sm">{bullet}</span>
                       </li>
                     ))}
@@ -188,11 +188,11 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                   >
                     <div className="flex items-start gap-3">
                       {section.callout.type === "warning" ? (
-                        <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                        <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                       ) : section.callout.type === "tip" ? (
-                        <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                       ) : (
-                        <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                        <Shield className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                       )}
                       <p
                         className={`text-sm ${
@@ -224,8 +224,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                       >
                         <span className="font-semibold text-gray-900 pr-4">{faq.q}</span>
                         <ChevronDown
-                          className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`}
-                        />
+                          className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100 pt-4">
@@ -249,7 +248,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                       href={link.href}
                       className="flex items-center gap-2 p-4 bg-gray-50 rounded-xl border border-gray-200 hover:border-[#1B3A6B] hover:bg-blue-50 transition-colors group"
                     >
-                      <ArrowRight className="w-4 h-4 text-[#1B3A6B] shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                      <ArrowRight className="w-4 h-4 text-[#1B3A6B] shrink-0 group-hover:translate-x-0.5 transition-transform" aria-hidden="true" />
                       <span className="text-sm font-medium text-gray-700 group-hover:text-[#1B3A6B]">{link.label}</span>
                     </Link>
                   ))}
@@ -277,7 +276,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-[#E8871E] hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
-                    <ArrowRight className="w-5 h-5" />
+                    <ArrowRight className="w-5 h-5" aria-hidden="true" />
                     Compare Part D Plans
                   </button>
                 }
@@ -287,7 +286,7 @@ export default function PageContent({ page }: { page: PartDSubPage }) {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "part_d_detail" })}
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors border border-white/30"
               >
-                <Phone className="w-5 h-5" />
+                <Phone className="w-5 h-5" aria-hidden="true" />
                 Call (888) 335-8996
               </a>
             </div>

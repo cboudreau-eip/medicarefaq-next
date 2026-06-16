@@ -91,7 +91,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -106,14 +106,14 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-amber-400">Working Past 65</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-amber-600/20 rounded-xl flex items-center justify-center">
-              <Briefcase className="w-6 h-6 text-amber-400" />
+              <Briefcase className="w-6 h-6 text-amber-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-amber-400 uppercase tracking-wider">Employer Coverage</span>
           </div>
@@ -125,11 +125,11 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#employer-size" className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              Check Your Situation <ArrowRight className="w-4 h-4" />
+              Check Your Situation <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "working_past_65" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   <div className="bg-green-50 rounded-xl p-6 border-2 border-green-200">
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                        <Building2 className="w-5 h-5 text-green-700" />
+                        <Building2 className="w-5 h-5 text-green-700" aria-hidden="true" />
                       </div>
                       <div>
                         <h3 className="font-bold text-green-900">20+ Employees</h3>
@@ -178,19 +178,19 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                     </div>
                     <div className="space-y-3 mb-4">
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-green-800">Can delay Part B without penalty</span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-green-800">Employer coverage is creditable</span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-green-800">Enroll in Part A (it's free)</span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-green-800">8-month SEP when you leave</span>
                       </div>
                     </div>
@@ -203,7 +203,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   <div className="bg-red-50 rounded-xl p-6 border-2 border-red-200">
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
-                        <Building2 className="w-5 h-5 text-red-700" />
+                        <Building2 className="w-5 h-5 text-red-700" aria-hidden="true" />
                       </div>
                       <div>
                         <h3 className="font-bold text-red-900">Fewer than 20 Employees</h3>
@@ -212,19 +212,19 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                     </div>
                     <div className="space-y-3 mb-4">
                       <div className="flex items-start gap-2">
-                        <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" />
+                        <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-red-800">Must enroll in Parts A & B at 65</span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" />
+                        <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-red-800">Medicare pays first, employer pays second</span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" />
+                        <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-red-800">Delaying Part B = penalties</span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" />
+                        <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-red-800">Employer may require Medicare enrollment</span>
                       </div>
                     </div>
@@ -236,7 +236,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
 
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
-                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">Not Sure About Your Employer Size?</p>
                       <p className="text-sm text-blue-800">
@@ -270,12 +270,12 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                         <td className="p-4 text-sm font-semibold text-slate-700">Part A</td>
                         <td className="p-4">
                           <span className="inline-flex items-center gap-1 text-sm text-green-700">
-                            <CheckCircle2 className="w-4 h-4" /> Enroll (free)
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Enroll (free)
                           </span>
                         </td>
                         <td className="p-4">
                           <span className="inline-flex items-center gap-1 text-sm text-green-700">
-                            <CheckCircle2 className="w-4 h-4" /> Enroll (free)
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Enroll (free)
                           </span>
                         </td>
                       </tr>
@@ -283,12 +283,12 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                         <td className="p-4 text-sm font-semibold text-slate-700">Part B</td>
                         <td className="p-4">
                           <span className="inline-flex items-center gap-1 text-sm text-amber-700">
-                            <Clock className="w-4 h-4" /> Can delay
+                            <Clock className="w-4 h-4" aria-hidden="true" /> Can delay
                           </span>
                         </td>
                         <td className="p-4">
                           <span className="inline-flex items-center gap-1 text-sm text-green-700">
-                            <CheckCircle2 className="w-4 h-4" /> Must enroll
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Must enroll
                           </span>
                         </td>
                       </tr>
@@ -296,12 +296,12 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                         <td className="p-4 text-sm font-semibold text-slate-700">Part D</td>
                         <td className="p-4">
                           <span className="inline-flex items-center gap-1 text-sm text-amber-700">
-                            <Clock className="w-4 h-4" /> Can delay if creditable
+                            <Clock className="w-4 h-4" aria-hidden="true" /> Can delay if creditable
                           </span>
                         </td>
                         <td className="p-4">
                           <span className="inline-flex items-center gap-1 text-sm text-green-700">
-                            <CheckCircle2 className="w-4 h-4" /> Enroll
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Enroll
                           </span>
                         </td>
                       </tr>
@@ -309,12 +309,12 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                         <td className="p-4 text-sm font-semibold text-slate-700">Medigap / MA</td>
                         <td className="p-4">
                           <span className="inline-flex items-center gap-1 text-sm text-amber-700">
-                            <Clock className="w-4 h-4" /> Wait until Part B starts
+                            <Clock className="w-4 h-4" aria-hidden="true" /> Wait until Part B starts
                           </span>
                         </td>
                         <td className="p-4">
                           <span className="inline-flex items-center gap-1 text-sm text-green-700">
-                            <CheckCircle2 className="w-4 h-4" /> Enroll with Part B
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Enroll with Part B
                           </span>
                         </td>
                       </tr>
@@ -336,22 +336,22 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   <h3 className="font-bold text-amber-900 mb-4 text-lg">SEP Key Details</h3>
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div className="bg-white rounded-lg p-4 border border-amber-100">
-                      <Calendar className="w-5 h-5 text-amber-600 mb-2" />
+                      <Calendar className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                       <p className="text-sm font-semibold text-slate-900">Duration</p>
                       <p className="text-sm text-slate-600">8 months from the month employment or coverage ends (whichever comes first)</p>
                     </div>
                     <div className="bg-white rounded-lg p-4 border border-amber-100">
-                      <Clock className="w-5 h-5 text-amber-600 mb-2" />
+                      <Clock className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                       <p className="text-sm font-semibold text-slate-900">Coverage Start</p>
                       <p className="text-sm text-slate-600">Part B starts the 1st of the month after you enroll during your SEP</p>
                     </div>
                     <div className="bg-white rounded-lg p-4 border border-amber-100">
-                      <Shield className="w-5 h-5 text-amber-600 mb-2" />
+                      <Shield className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                       <p className="text-sm font-semibold text-slate-900">Medigap Rights</p>
                       <p className="text-sm text-slate-600">Your 6-month <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap OEP</Link> begins when Part B starts — guaranteed issue rights apply</p>
                     </div>
                     <div className="bg-white rounded-lg p-4 border border-amber-100">
-                      <CheckCircle2 className="w-5 h-5 text-amber-600 mb-2" />
+                      <CheckCircle2 className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                       <p className="text-sm font-semibold text-slate-900">No Penalty</p>
                       <p className="text-sm text-slate-600">No late enrollment penalty when you enroll during your SEP</p>
                     </div>
@@ -360,7 +360,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
 
                 <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-red-900 mb-1">Don't Miss Your 8-Month Window</p>
                       <p className="text-sm text-red-800">
@@ -382,7 +382,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
 
                 <div className="space-y-4 mb-6">
                   <div className="flex items-start gap-4 p-5 bg-red-50 rounded-xl border border-red-100">
-                    <XCircle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" />
+                    <XCircle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-red-900 mb-1">You Cannot Contribute to an HSA Once Enrolled in Medicare</p>
                       <p className="text-sm text-red-800">
@@ -392,7 +392,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   </div>
 
                   <div className="flex items-start gap-4 p-5 bg-amber-50 rounded-xl border border-amber-100">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Social Security = Automatic Part A</p>
                       <p className="text-sm text-amber-800">
@@ -402,7 +402,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   </div>
 
                   <div className="flex items-start gap-4 p-5 bg-green-50 rounded-xl border border-green-100">
-                    <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-green-900 mb-1">You Can Still Use HSA Funds</p>
                       <p className="text-sm text-green-800">
@@ -414,7 +414,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
 
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
-                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">Pro Tip: Stop HSA Contributions 6 Months Early</p>
                       <p className="text-sm text-blue-800">
@@ -436,24 +436,24 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
 
                 <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 mb-6">
                   <div className="flex items-center gap-2 mb-4">
-                    <AlertTriangle className="w-6 h-6 text-red-600" />
+                    <AlertTriangle className="w-6 h-6 text-red-600" aria-hidden="true" />
                     <h3 className="font-bold text-red-900 text-lg">COBRA is not Creditable Coverage</h3>
                   </div>
                   <div className="space-y-3">
                     <div className="flex items-start gap-2">
-                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" />
+                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <span className="text-sm text-red-800">COBRA does not count as creditable coverage for delaying Medicare Part B</span>
                     </div>
                     <div className="flex items-start gap-2">
-                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" />
+                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <span className="text-sm text-red-800">COBRA does not trigger a Special Enrollment Period when it ends</span>
                     </div>
                     <div className="flex items-start gap-2">
-                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" />
+                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <span className="text-sm text-red-800">If you're 65+ on COBRA, Medicare is always primary</span>
                     </div>
                     <div className="flex items-start gap-2">
-                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" />
+                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <span className="text-sm text-red-800">Relying on COBRA instead of Medicare can result in permanent late penalties</span>
                     </div>
                   </div>
@@ -504,10 +504,11 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -531,10 +532,10 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                   <div className="flex flex-wrap gap-4">
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "working_past_65" })} className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <Link href="/medicare-enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                      Turning 65 Guide <ArrowRight className="w-4 h-4" />
+                      Turning 65 Guide <ArrowRight className="w-4 h-4" aria-hidden="true" />
                     </Link>
                   </div>
                 </div>
@@ -543,22 +544,22 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
               {/* Related Pages */}
               <div className="grid sm:grid-cols-4 gap-4">
                 <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <Calendar className="w-5 h-5 text-amber-600 mb-2" />
+                  <Calendar className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Turning 65 Enrollment</h3>
                   <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
                 </Link>
                 <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" />
+                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly penalties</p>
                 </Link>
                 <Link href="/medicare-enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <Shield className="w-5 h-5 text-amber-600 mb-2" />
+                  <Shield className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">How to Enroll</h3>
                   <p className="text-xs text-slate-500">Step-by-step enrollment guide</p>
                 </Link>
                 <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <FileText className="w-5 h-5 text-amber-600 mb-2" />
+                  <FileText className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Apply for Part B</h3>
                   <p className="text-xs text-slate-500">Step-by-step Part B application</p>
                 </Link>
@@ -600,7 +601,7 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "working_past_65_sidebar" })}
                     className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996
                   </a>
                 </div>
@@ -611,6 +612,6 @@ export default function WorkingPast65() {  const [activeSection, setActiveSectio
       </section>
 
       
-    </div>
+    </article>
   );
 }

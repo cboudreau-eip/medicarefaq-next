@@ -76,8 +76,8 @@ const PLAN_AVAILABLE: Record<string, boolean> = {
 };
 
 function CoverageCell({ value }: { value: CoverageValue }) {
-  if (value === "✓") return <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" />;
-  if (value === "✗") return <XCircle className="w-5 h-5 text-red-400 mx-auto" />;
+  if (value === "✓") return <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" aria-hidden="true" />;
+  if (value === "✗") return <XCircle className="w-5 h-5 text-red-400 mx-auto" aria-hidden="true" />;
   return <span className="text-xs font-semibold text-amber-600 block text-center">{value}</span>;
 }
 
@@ -86,7 +86,7 @@ export default function PageContent() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -97,14 +97,14 @@ export default function PageContent() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Compare Plans</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center">
-              <Shield className="w-6 h-6 text-blue-400" />
+              <Shield className="w-6 h-6 text-blue-400" aria-hidden="true" />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -116,7 +116,7 @@ export default function PageContent() {
           <div className="flex flex-wrap gap-4">
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              <Phone className="w-4 h-4" /> Get Free Quotes
+              <Phone className="w-4 h-4" aria-hidden="true" /> Get Free Quotes
             </a>
           </div>
         </div>
@@ -178,7 +178,7 @@ export default function PageContent() {
                     {row.note && (
                       <tr key={`${i}-note`} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                         <td colSpan={PLANS.length + 1} className="px-4 pb-3 text-xs text-slate-500 italic">
-                          <Info className="w-3 h-3 inline mr-1" />{row.note}
+                          <Info className="w-3 h-3 inline mr-1" aria-hidden="true" />{row.note}
                         </td>
                       </tr>
                     )}
@@ -237,7 +237,7 @@ export default function PageContent() {
                   </div>
                 </div>
                 <Link href={`/medicare-supplement-plans/${p.slug}`} className="inline-flex items-center gap-1 text-teal-700 font-semibold text-sm hover:underline">
-                  Learn More <ArrowRight className="w-4 h-4" />
+                  Learn More <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </Link>
               </div>
             ))}
@@ -257,7 +257,7 @@ export default function PageContent() {
                   <span className="text-xs bg-amber-100 text-amber-700 font-semibold px-2 py-0.5 rounded-full">Pre-2020 Only</span>
                 )}
                 <div className="flex items-center gap-1 text-teal-600 text-xs font-semibold mt-3">
-                  View Details <ArrowRight className="w-3 h-3" />
+                  View Details <ArrowRight className="w-3 h-3" aria-hidden="true" />
                 </div>
               </Link>
             ))}
@@ -272,7 +272,7 @@ export default function PageContent() {
             <div className="flex flex-wrap gap-3">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <ZipFormModal
                 coverageType="ms"
@@ -286,6 +286,6 @@ export default function PageContent() {
         </div>
       </section>
 
-      </div>
+      </article>
   );
 }

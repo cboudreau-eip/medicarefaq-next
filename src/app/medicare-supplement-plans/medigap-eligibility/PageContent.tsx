@@ -90,7 +90,7 @@ export default function PageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -101,14 +101,14 @@ export default function PageContent() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medigap Eligibility</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Shield className="w-6 h-6 text-white" />
+              <Shield className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -119,7 +119,7 @@ export default function PageContent() {
           </p>
           <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_eligibility" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-            <Phone className="w-4 h-4" /> Speak with a Licensed Agent
+            <Phone className="w-4 h-4" aria-hidden="true" /> Speak with a Licensed Agent
           </a>
         </div>
       </section>
@@ -160,7 +160,7 @@ export default function PageContent() {
             </p>
             <div className="p-6 bg-blue-50 border border-blue-200 rounded-xl mb-6">
               <div className="flex items-start gap-3 mb-4">
-                <Clock className="w-6 h-6 text-blue-700 shrink-0 mt-0.5" />
+                <Clock className="w-6 h-6 text-blue-700 shrink-0 mt-0.5" aria-hidden="true" />
                 <h3 className="font-bold text-blue-900 text-lg">Your 6-Month Window</h3>
               </div>
               <div className="space-y-3">
@@ -173,7 +173,7 @@ export default function PageContent() {
               </div>
             </div>
             <div className="p-5 bg-amber-50 border border-amber-200 rounded-xl flex items-start gap-3">
-              <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+              <AlertTriangle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-amber-900 mb-1">Don't Miss Your OEP</p>
                 <p className="text-sm text-amber-800">
@@ -194,13 +194,13 @@ export default function PageContent() {
             <div className="border border-slate-200 rounded-xl overflow-hidden">
               {GUARANTEED_ISSUE_SITUATIONS.map((situation, i) => (
                 <div key={i} className={`flex items-start gap-3 px-5 py-4 ${i % 2 === 0 ? "bg-white" : "bg-slate-50"} ${i < GUARANTEED_ISSUE_SITUATIONS.length - 1 ? "border-b border-slate-100" : ""}`}>
-                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
                   <p className="text-sm text-slate-700">{situation}</p>
                 </div>
               ))}
             </div>
             <p className="text-xs text-slate-500 mt-3 flex items-center gap-1">
-              <Info className="w-3 h-3" /> In most guaranteed issue situations, you have 63 days from losing your previous coverage to enroll in a Medigap plan.
+              <Info className="w-3 h-3" aria-hidden="true" /> In most guaranteed issue situations, you have 63 days from losing your previous coverage to enroll in a Medigap plan.
             </p>
           </div>
 
@@ -219,7 +219,7 @@ export default function PageContent() {
                 "Exclude pre-existing conditions from coverage for up to 6 months",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                  <XCircle className="w-4 h-4 text-red-400 mt-0.5 shrink-0" />
+                  <XCircle className="w-4 h-4 text-red-400 mt-0.5 shrink-0" aria-hidden="true" />
                   {item}
                 </li>
               ))}
@@ -239,10 +239,11 @@ export default function PageContent() {
                 <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                   <button
                     onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                    aria-expanded={openFaq === i}
                     className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-slate-50 transition-colors"
                   >
                     <span className="font-semibold text-slate-800 pr-4">{faq.q}</span>
-                    <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                    <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                   </button>
                   {openFaq === i && (
                     <div className="px-5 pb-5 text-slate-600 leading-relaxed text-sm border-t border-slate-100 pt-4">
@@ -263,19 +264,19 @@ export default function PageContent() {
             <div className="flex flex-wrap gap-3">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_eligibility" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-                Compare Plans <ArrowRight className="w-4 h-4" />
+                Compare Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
               <Link href="/medicare-supplement-plans/medicare-supplement-plans-2026" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-                2026 Plan Changes <ArrowRight className="w-4 h-4" />
+                2026 Plan Changes <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      </div>
+      </article>
   );
 }

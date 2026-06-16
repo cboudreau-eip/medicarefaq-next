@@ -177,12 +177,12 @@ export default function PartBPenaltyCalculator() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero Header */}
       <div className="bg-[#1B2A4A] text-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
           <div className="flex items-center gap-2 text-amber-300 text-sm font-semibold mb-4 uppercase tracking-wider">
-            <Calculator className="w-4 h-4" />
+            <Calculator className="w-4 h-4" aria-hidden="true" />
             <span>Free Tool</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">
@@ -192,9 +192,9 @@ export default function PartBPenaltyCalculator() {
             Find out exactly how much your Part B late enrollment penalty will cost you — every month, every year, for the rest of your life.
           </p>
           <div className="flex flex-wrap gap-4 mt-6 text-sm text-blue-200">
-            <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-400" /> Free to use</span>
-            <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-400" /> No sign-up required</span>
-            <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-400" /> Instant results</span>
+            <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-400" aria-hidden="true" /> Free to use</span>
+            <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-400" aria-hidden="true" /> No sign-up required</span>
+            <span className="flex items-center gap-1.5"><CheckCircle className="w-4 h-4 text-green-400" aria-hidden="true" /> Instant results</span>
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@ export default function PartBPenaltyCalculator() {
             <div className="bg-white border border-gray-200 rounded-2xl shadow-sm overflow-hidden">
               <div className="bg-amber-50 border-b border-amber-100 px-6 py-4 flex items-center gap-3">
                 <div className="w-9 h-9 rounded-full bg-amber-100 flex items-center justify-center">
-                  <Calculator className="w-5 h-5 text-amber-700" />
+                  <Calculator className="w-5 h-5 text-amber-700" aria-hidden="true" />
                 </div>
                 <div>
                   <p className="font-bold text-[#1B2A4A] text-base">Calculate Your Penalty</p>
@@ -297,7 +297,7 @@ export default function PartBPenaltyCalculator() {
                   </div>
                   {isFormValid && !enrolledDateAfterEligible && (
                     <p className="ml-8 mt-2 text-sm text-red-600 flex items-center gap-1.5">
-                      <AlertTriangle className="w-4 h-4" />
+                      <AlertTriangle className="w-4 h-4" aria-hidden="true" />
                       Enrollment date must be after your eligibility date.
                     </p>
                   )}
@@ -305,7 +305,7 @@ export default function PartBPenaltyCalculator() {
 
                 {/* Creditable Coverage Note */}
                 <div className="ml-8 bg-blue-50 border border-blue-100 rounded-xl p-4 flex gap-3">
-                  <Info className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
+                  <Info className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" aria-hidden="true" />
                   <div>
                     <p className="text-sm font-semibold text-blue-800 mb-1">Had creditable employer coverage?</p>
                     <p className="text-sm text-blue-700">
@@ -322,7 +322,7 @@ export default function PartBPenaltyCalculator() {
                     disabled={!canCalculate}
                     className="flex-1 bg-amber-500 hover:bg-amber-600 disabled:bg-gray-200 disabled:text-gray-400 disabled:cursor-not-allowed text-white font-bold py-3 px-6 rounded-xl transition-colors text-base flex items-center justify-center gap-2"
                   >
-                    <Calculator className="w-5 h-5" />
+                    <Calculator className="w-5 h-5" aria-hidden="true" />
                     Calculate My Penalty
                   </button>
                   {calculated && (
@@ -330,7 +330,7 @@ export default function PartBPenaltyCalculator() {
                       onClick={handleReset}
                       className="px-4 py-3 border border-gray-300 rounded-xl text-gray-600 hover:bg-gray-50 transition-colors flex items-center gap-2 text-sm font-medium"
                     >
-                      <RefreshCw className="w-4 h-4" />
+                      <RefreshCw className="w-4 h-4" aria-hidden="true" />
                       Reset
                     </button>
                   )}
@@ -346,7 +346,7 @@ export default function PartBPenaltyCalculator() {
                   <div className="bg-green-50 border border-green-200 rounded-2xl p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center shrink-0">
-                        <CheckCircle className="w-6 h-6 text-green-600" />
+                        <CheckCircle className="w-6 h-6 text-green-600" aria-hidden="true" />
                       </div>
                       <div>
                         <h2 className="text-xl font-bold text-green-800 mb-1">No Penalty!</h2>
@@ -365,7 +365,7 @@ export default function PartBPenaltyCalculator() {
                     {/* Summary Card */}
                     <div className="bg-red-50 border border-red-200 rounded-2xl overflow-hidden">
                       <div className="bg-red-600 text-white px-6 py-4 flex items-center gap-3">
-                        <AlertTriangle className="w-5 h-5" />
+                        <AlertTriangle className="w-5 h-5" aria-hidden="true" />
                         <p className="font-bold text-lg">Your Penalty Results</p>
                       </div>
                       <div className="p-6">
@@ -395,7 +395,7 @@ export default function PartBPenaltyCalculator() {
                         {/* Penalty Breakdown */}
                         <div className="bg-white rounded-xl border border-gray-200 p-5 mb-4">
                           <h3 className="font-bold text-[#1B2A4A] mb-3 flex items-center gap-2">
-                            <Calculator className="w-4 h-4 text-amber-500" />
+                            <Calculator className="w-4 h-4 text-amber-500" aria-hidden="true" />
                             How This Was Calculated
                           </h3>
                           <div className="space-y-2 text-sm text-gray-700">
@@ -425,7 +425,7 @@ export default function PartBPenaltyCalculator() {
                         {/* Lifetime Cost */}
                         <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
                           <h3 className="font-bold text-[#1B2A4A] mb-3 flex items-center gap-2">
-                            <TrendingUp className="w-4 h-4 text-amber-600" />
+                            <TrendingUp className="w-4 h-4 text-amber-600" aria-hidden="true" />
                             Lifetime Cost of This Penalty
                           </h3>
                           <div className="grid grid-cols-3 gap-3 text-center">
@@ -467,7 +467,7 @@ export default function PartBPenaltyCalculator() {
                           onClick={() => trackPhoneClick({ phone_number: "18883358996", page_section: "part-b-penalty-results" })}
                           className="flex items-center justify-center gap-2 bg-white text-[#1B2A4A] font-bold py-3 px-5 rounded-xl hover:bg-blue-50 transition-colors text-sm"
                         >
-                          <Phone className="w-4 h-4" />
+                          <Phone className="w-4 h-4" aria-hidden="true" />
                           Call (888) 335-8996
                         </a>
                         <button
@@ -475,7 +475,7 @@ export default function PartBPenaltyCalculator() {
                           className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold py-3 px-5 rounded-xl transition-colors text-sm"
                         >
                           Compare Plans
-                          <ArrowRight className="w-4 h-4" />
+                          <ArrowRight className="w-4 h-4" aria-hidden="true" />
                         </button>
                       </div>
                     </div>
@@ -502,7 +502,7 @@ export default function PartBPenaltyCalculator() {
               {/* Visual penalty scale */}
               <div className="mt-6 bg-gray-50 border border-gray-200 rounded-2xl p-6">
                 <h3 className="font-bold text-[#1B2A4A] mb-4 flex items-center gap-2">
-                  <Clock className="w-4 h-4 text-amber-500" />
+                  <Clock className="w-4 h-4 text-amber-500" aria-hidden="true" />
                   Penalty by Delay Length (2026 Rates)
                 </h3>
                 <div className="overflow-x-auto">
@@ -614,12 +614,12 @@ export default function PartBPenaltyCalculator() {
                   return (
                     <div key={i} className={`border rounded-xl p-5 ${colorMap[item.color].split(" ").slice(0, 2).join(" ")} border-opacity-60`}>
                       <div className={`w-9 h-9 rounded-full flex items-center justify-center mb-3 ${iconBg[item.color]}`}>
-                        <Icon className="w-5 h-5" />
+                        <Icon className="w-5 h-5" aria-hidden="true" />
                       </div>
                       <h3 className="font-bold text-[#1B2A4A] mb-1.5">{item.title}</h3>
                       <p className="text-sm text-gray-600 mb-3 leading-relaxed">{item.desc}</p>
                       <Link href={item.link} className="text-sm font-semibold text-[#0066CC] hover:underline flex items-center gap-1">
-                        {item.linkText} <ArrowRight className="w-3.5 h-3.5" />
+                        {item.linkText} <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
                       </Link>
                     </div>
                   );
@@ -635,13 +635,14 @@ export default function PartBPenaltyCalculator() {
                   <div key={i} className="border border-gray-200 rounded-xl overflow-hidden">
                     <button
                       onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                      aria-expanded={openFaq === i}
                       className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-gray-50 transition-colors"
                     >
                       <span className="font-semibold text-[#1B2A4A] text-sm pr-4">{faq.q}</span>
                       {openFaq === i ? (
-                        <ChevronUp className="w-4 h-4 text-gray-400 shrink-0" />
+                        <ChevronUp className="w-4 h-4 text-gray-400 shrink-0" aria-hidden="true" />
                       ) : (
-                        <ChevronDown className="w-4 h-4 text-gray-400 shrink-0" />
+                        <ChevronDown className="w-4 h-4 text-gray-400 shrink-0" aria-hidden="true" />
                       )}
                     </button>
                     {openFaq === i && (
@@ -666,7 +667,7 @@ export default function PartBPenaltyCalculator() {
                   className="flex items-start gap-3 p-3 rounded-xl hover:bg-gray-50 transition-colors group"
                 >
                   <div className="w-8 h-8 rounded-lg bg-teal-100 flex items-center justify-center shrink-0">
-                    <Calendar className="w-4 h-4 text-teal-600" />
+                    <Calendar className="w-4 h-4 text-teal-600" aria-hidden="true" />
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-[#1B2A4A] group-hover:text-teal-700 transition-colors">Enrollment Timeline Calculator</p>
@@ -690,7 +691,7 @@ export default function PartBPenaltyCalculator() {
                   const Icon = fact.icon;
                   return (
                     <li key={i} className="flex items-start gap-2.5 text-sm text-gray-700">
-                      <Icon className={`w-4 h-4 shrink-0 mt-0.5 ${fact.color}`} />
+                      <Icon className={`w-4 h-4 shrink-0 mt-0.5 ${fact.color}`} aria-hidden="true" />
                       <span>{fact.text}</span>
                     </li>
                   );
@@ -709,7 +710,7 @@ export default function PartBPenaltyCalculator() {
                 onClick={() => trackPhoneClick({ phone_number: "18883358996", page_section: "part-b-penalty-sidebar" })}
                 className="flex items-center justify-center gap-2 bg-white text-[#1B2A4A] font-bold py-2.5 px-4 rounded-xl hover:bg-blue-50 transition-colors text-sm w-full mb-2"
               >
-                <Phone className="w-4 h-4" />
+                <Phone className="w-4 h-4" aria-hidden="true" />
                 (888) 335-8996
               </a>
               <button
@@ -717,7 +718,7 @@ export default function PartBPenaltyCalculator() {
                 className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold py-2.5 px-4 rounded-xl transition-colors text-sm w-full"
               >
                 Compare Plans
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </button>
             </div>
 
@@ -736,7 +737,7 @@ export default function PartBPenaltyCalculator() {
                     href={link.href}
                     className="flex items-start gap-2 text-sm text-[#0066CC] hover:underline leading-snug"
                   >
-                    <ArrowRight className="w-3.5 h-3.5 shrink-0 mt-0.5" />
+                    <ArrowRight className="w-3.5 h-3.5 shrink-0 mt-0.5" aria-hidden="true" />
                     {link.label}
                   </Link>
                 ))}
@@ -747,6 +748,6 @@ export default function PartBPenaltyCalculator() {
       </div>
 
 
-    </div>
+    </article>
   );
 }

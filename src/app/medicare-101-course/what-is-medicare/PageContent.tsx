@@ -11,7 +11,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <Building2 className="w-5 h-5 text-blue-700" />
+            <Building2 className="w-5 h-5 text-blue-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             Medicare Is Federal Health Insurance for People 65+
@@ -29,7 +29,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-amber-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <DollarSign className="w-5 h-5 text-amber-700" />
+            <DollarSign className="w-5 h-5 text-amber-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             Medicare Is NOT Free Health Insurance
@@ -47,7 +47,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-red-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <AlertTriangle className="w-5 h-5 text-red-700" />
+            <AlertTriangle className="w-5 h-5 text-red-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             Medicare Does NOT Cover Everything
@@ -65,7 +65,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-teal-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <GitBranch className="w-5 h-5 text-teal-700" />
+            <GitBranch className="w-5 h-5 text-teal-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             Two Paths to Get Medicare Coverage
@@ -99,7 +99,7 @@ export default function PageContent() {
       <div className="mb-10">
         <div className="flex items-start gap-3 mb-3">
           <div className="w-9 h-9 bg-purple-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
-            <Shield className="w-5 h-5 text-purple-700" />
+            <Shield className="w-5 h-5 text-purple-700" aria-hidden="true" />
           </div>
           <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
             You Do Not Choose Between Medicare and Private Insurance

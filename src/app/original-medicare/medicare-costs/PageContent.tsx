@@ -38,7 +38,7 @@ export default function MedicareCosts() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       <FAQSchema faqs={faqs}  />
       <BreadcrumbSchema
         items={[
@@ -148,7 +148,7 @@ export default function MedicareCosts() {
           <h2 className="text-2xl font-bold text-[#1B2A4A] mb-4">Medicare Costs and IRMAA (Higher-Income Surcharges)</h2>
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-4">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+              <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
               <p className="text-sm text-amber-800">
                 If your income was above <strong>$103,000</strong> (individual) or <strong>$206,000</strong> (married filing jointly) in 2024, you will pay higher Part B and Part D premiums in 2026 through IRMAA surcharges. IRMAA is based on your tax return from 2 years prior.
               </p>
@@ -184,7 +184,7 @@ export default function MedicareCosts() {
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                 >
                   <span className="font-semibold text-[#1B2A4A] pr-4">{faq.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                  <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                 </button>
                 {openFaq === i && (
                   <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100">
@@ -209,6 +209,6 @@ export default function MedicareCosts() {
         </section>
         </section>
       </div>
-    </div>
+    </article>
   );
 }

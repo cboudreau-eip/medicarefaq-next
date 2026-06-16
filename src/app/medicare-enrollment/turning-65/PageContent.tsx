@@ -109,7 +109,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -124,14 +124,14 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-amber-200/70 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-amber-200/70">Enrollment</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-amber-100">Turning 65</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Calendar className="w-6 h-6 text-amber-200" />
+              <Calendar className="w-6 h-6 text-amber-200" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-amber-200 uppercase tracking-wider">Initial Enrollment</span>
           </div>
@@ -143,11 +143,11 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#timeline" className="inline-flex items-center gap-2 bg-white text-amber-800 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
-              View Your Timeline <ArrowRight className="w-4 h-4" />
+              View Your Timeline <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
 
                 <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-8">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">First-of-the-Month Birthday Exception</p>
                       <p className="text-sm text-amber-800">
@@ -230,11 +230,11 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                             : "bg-red-100 text-red-700"
                         }`}>
                           {step.status === "ideal" ? (
-                            <CheckCircle2 className="w-5 h-5" />
+                            <CheckCircle2 className="w-5 h-5" aria-hidden="true" />
                           ) : step.status === "ok" ? (
-                            <Clock className="w-5 h-5" />
+                            <Clock className="w-5 h-5" aria-hidden="true" />
                           ) : (
-                            <AlertTriangle className="w-5 h-5" />
+                            <AlertTriangle className="w-5 h-5" aria-hidden="true" />
                           )}
                         </div>
                         <div>
@@ -307,7 +307,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
 
                 <div className="bg-blue-50 border border-blue-100 rounded-xl p-5">
                   <div className="flex items-start gap-3">
-                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
+                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-blue-900 mb-1">Example</p>
                       <p className="text-sm text-blue-800">
@@ -330,20 +330,20 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                 <div className="grid md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-green-50 rounded-xl p-6 border border-green-100">
                     <div className="flex items-center gap-2 mb-3">
-                      <CheckCircle2 className="w-5 h-5 text-green-600" />
+                      <CheckCircle2 className="w-5 h-5 text-green-600" aria-hidden="true" />
                       <h3 className="font-semibold text-green-900">You WILL be Auto-Enrolled If:</h3>
                     </div>
                     <ul className="space-y-2 text-sm text-green-800">
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span>You're already receiving Social Security retirement benefits</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span>You're receiving Railroad Retirement Board benefits</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span>You've received Social Security Disability for 24+ months</span>
                       </li>
                     </ul>
@@ -352,20 +352,20 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
 
                   <div className="bg-amber-50 rounded-xl p-6 border border-amber-100">
                     <div className="flex items-center gap-2 mb-3">
-                      <AlertTriangle className="w-5 h-5 text-amber-600" />
+                      <AlertTriangle className="w-5 h-5 text-amber-600" aria-hidden="true" />
                       <h3 className="font-semibold text-amber-900">You MUST Sign up If:</h3>
                     </div>
                     <ul className="space-y-2 text-sm text-amber-800">
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" />
+                        <ArrowRight className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span>You haven't started collecting Social Security yet</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" />
+                        <ArrowRight className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span>You plan to delay Social Security past age 65</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <ArrowRight className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" />
+                        <ArrowRight className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" />
                         <span>You want Part A only (declining Part B for now)</span>
                       </li>
                     </ul>
@@ -387,7 +387,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <div className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
-                        <Shield className="w-5 h-5 text-blue-600" />
+                        <Shield className="w-5 h-5 text-blue-600" aria-hidden="true" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-a" className="hover:text-amber-700 transition-colors">Medicare Part A (Hospital Insurance)</Link></h3>
@@ -402,7 +402,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <div className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center shrink-0">
-                        <Users className="w-5 h-5 text-teal-600" />
+                        <Users className="w-5 h-5 text-teal-600" aria-hidden="true" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-b" className="hover:text-amber-700 transition-colors">Medicare Part B (Medical Insurance)</Link></h3>
@@ -417,7 +417,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <div className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center shrink-0">
-                        <FileText className="w-5 h-5 text-purple-600" />
+                        <FileText className="w-5 h-5 text-purple-600" aria-hidden="true" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1"><Link href="/original-medicare/medicare-parts/medicare-part-d" className="hover:text-amber-700 transition-colors">Medicare Part D (Prescription Drug Coverage)</Link></h3>
@@ -432,7 +432,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <div className="bg-white rounded-xl border border-slate-200 p-6">
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 bg-rose-100 rounded-lg flex items-center justify-center shrink-0">
-                        <Shield className="w-5 h-5 text-rose-600" />
+                        <Shield className="w-5 h-5 text-rose-600" aria-hidden="true" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-slate-900 mb-1">Supplemental Coverage (Choose One Path)</h3>
@@ -469,7 +469,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                       "Can choose any Medigap plan available in your state",
                     ].map((item, i) => (
                       <div key={i} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                         <span className="text-sm text-teal-800">{item}</span>
                       </div>
                     ))}
@@ -478,7 +478,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
 
                 <div className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-red-900 mb-1">Don't Miss This Window</p>
                       <p className="text-sm text-red-800">
@@ -532,10 +532,11 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -559,10 +560,10 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   <div className="flex flex-wrap gap-4">
                     <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
-                      <Phone className="w-4 h-4" /> Call (888) 335-8996
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <Link href="/medicare-enrollment/how-to-enroll" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                      How to Enroll Guide <ArrowRight className="w-4 h-4" />
+                      How to Enroll Guide <ArrowRight className="w-4 h-4" aria-hidden="true" />
                     </Link>
                   </div>
                 </div>
@@ -571,22 +572,22 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
               {/* Related Pages */}
               <div className="grid sm:grid-cols-4 gap-4">
                 <Link href="/medicare-enrollment/working-past-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <Briefcase className="w-5 h-5 text-amber-600 mb-2" />
+                  <Briefcase className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Working past 65</h3>
                   <p className="text-xs text-slate-500">Medicare & employer coverage coordination</p>
                 </Link>
                 <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" />
+                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
                   <p className="text-xs text-slate-500">Avoid costly late enrollment penalties</p>
                 </Link>
                 <Link href="/medicare-supplement-plans" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <Shield className="w-5 h-5 text-amber-600 mb-2" />
+                  <Shield className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Compare Plans</h3>
                   <p className="text-xs text-slate-500">Side-by-side plan comparison</p>
                 </Link>
                 <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
-                  <FileText className="w-5 h-5 text-amber-600 mb-2" />
+                  <FileText className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
                   <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Apply for Part B</h3>
                   <p className="text-xs text-slate-500">Step-by-step Part B application</p>
                 </Link>
@@ -628,7 +629,7 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65_sidebar" })}
                     className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996
                   </a>
                 </div>
@@ -639,6 +640,6 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
       </section>
 
       
-    </div>
+    </article>
   );
 }

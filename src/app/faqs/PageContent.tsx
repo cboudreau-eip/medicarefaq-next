@@ -203,12 +203,12 @@ export default function FAQIndex() {
                 >
                   Home
                 </Link>
-                <ChevronRight className="w-3.5 h-3.5" />
+                <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
                 <span className="text-white/80">Medicare FAQs</span>
               </nav>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center">
-                  <HelpCircle className="w-5 h-5 text-white" />
+                  <HelpCircle className="w-5 h-5 text-white" aria-hidden="true" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-white">
                   Medicare FAQs
@@ -221,11 +221,11 @@ export default function FAQIndex() {
               </p>
               <div className="flex items-center gap-6 mt-6 text-sm text-white/50">
                 <span className="flex items-center gap-1.5">
-                  <BookOpen className="w-4 h-4" />
+                  <BookOpen className="w-4 h-4" aria-hidden="true" />
                   {allArticles.length} Articles
                 </span>
                 <span className="flex items-center gap-1.5">
-                  <User className="w-4 h-4" />
+                  <User className="w-4 h-4" aria-hidden="true" />
                   Written by Licensed Agents
                 </span>
               </div>
@@ -238,7 +238,7 @@ export default function FAQIndex() {
           <div className="container max-w-6xl mx-auto py-3">
             {/* Search bar */}
             <div className="relative mb-3">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9CA3AF]" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#9CA3AF]" aria-hidden="true" />
               <input
                 type="text"
                 placeholder="Search articles..."
@@ -267,10 +267,10 @@ export default function FAQIndex() {
                     const IconComp = getGroupIcon(activeCategory);
                     return (
                       <>
-                        <IconComp className="w-3.5 h-3.5 shrink-0" style={{ color: activeCategory === "All Topics" ? "#6B7280" : color }} />
+                        <IconComp className="w-3.5 h-3.5 shrink-0" style={{ color: activeCategory === "All Topics" ? "#6B7280" : color }} aria-hidden="true" />
                         <span className="font-medium text-[#1B2A4A] flex-1 text-left">{activeCategory}</span>
                         <span className="text-xs bg-[#1B2A4A] text-white px-1.5 py-0.5 rounded-full">{active?.count ?? 0}</span>
-                        <ChevronDown className="w-3.5 h-3.5 text-[#9CA3AF] shrink-0" />
+                        <ChevronDown className="w-3.5 h-3.5 text-[#9CA3AF] shrink-0" aria-hidden="true" />
                       </>
                     );
                   })()}
@@ -291,7 +291,7 @@ export default function FAQIndex() {
                             value={cat.name}
                             className="flex items-center gap-2.5 px-3 py-2 text-sm rounded-md cursor-pointer text-[#1B2A4A] hover:bg-[#F5F7FA] focus:bg-[#F5F7FA] focus:outline-none data-[state=checked]:bg-[#EEF2FF] select-none"
                           >
-                            <IconComp className="w-3.5 h-3.5 shrink-0" style={{ color: cat.name === "All Topics" ? "#6B7280" : color }} />
+                            <IconComp className="w-3.5 h-3.5 shrink-0" style={{ color: cat.name === "All Topics" ? "#6B7280" : color }} aria-hidden="true" />
                             <SelectPrimitive.ItemText>
                               <span className="flex-1">{cat.name}</span>
                             </SelectPrimitive.ItemText>
@@ -368,7 +368,7 @@ export default function FAQIndex() {
           <div className="container max-w-6xl mx-auto">
             {filteredArticles.length === 0 ? (
               <div className="text-center py-16">
-                <HelpCircle className="w-12 h-12 text-[#D1D5DB] mx-auto mb-4" />
+                <HelpCircle className="w-12 h-12 text-[#D1D5DB] mx-auto mb-4" aria-hidden="true" />
                 <p className="text-[#9CA3AF] text-lg mb-2">
                   No articles found.
                 </p>
@@ -410,8 +410,7 @@ export default function FAQIndex() {
                             >
                               <IconComponent
                                 className="w-4 h-4"
-                                style={{ color: groupColor }}
-                              />
+                                style={{ color: groupColor }} aria-hidden="true" />
                             </div>
                             <div className="flex-1 min-w-0">
                               <span
@@ -430,16 +429,16 @@ export default function FAQIndex() {
                           </p>
                           <div className="flex items-center justify-between text-[11px] text-[#9CA3AF] pt-3 border-t border-[#F0F0F0]">
                             <span className="flex items-center gap-1">
-                              <User className="w-3 h-3" />
+                              <User className="w-3 h-3" aria-hidden="true" />
                               {article.authorName}
                             </span>
                             <span className="flex items-center gap-1">
-                              <Clock className="w-3 h-3" />
+                              <Clock className="w-3 h-3" aria-hidden="true" />
                               {article.readTime}
                             </span>
                           </div>
                           <div className="flex items-center gap-1 text-[#C41230] text-xs font-semibold mt-3 group-hover:gap-2 transition-all">
-                            Read article <ArrowRight className="w-3 h-3" />
+                            Read article <ArrowRight className="w-3 h-3" aria-hidden="true" />
                           </div>
                         </div>
                       </Link>

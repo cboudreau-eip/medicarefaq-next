@@ -95,12 +95,12 @@ export default function PageContent() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-10 pb-16">
         <div className="container max-w-4xl text-center">
           <div className="w-16 h-16 bg-teal-500/20 border border-teal-400/30 rounded-2xl flex items-center justify-center mx-auto mb-5">
-            <Trophy className="w-8 h-8 text-teal-400" />
+            <Trophy className="w-8 h-8 text-teal-400" aria-hidden="true" />
           </div>
           <h1
             className="text-3xl md:text-4xl font-bold text-white mb-3"
@@ -195,9 +195,9 @@ export default function PageContent() {
                             {lessonScore.score}/{lessonScore.total}
                           </span>
                           {isPerfect ? (
-                            <Star className="w-4 h-4 text-green-600" />
+                            <Star className="w-4 h-4 text-green-600" aria-hidden="true" />
                           ) : (
-                            <CheckCircle2 className="w-4 h-4 text-blue-500" />
+                            <CheckCircle2 className="w-4 h-4 text-blue-500" aria-hidden="true" />
                           )}
                         </>
                       ) : (
@@ -221,21 +221,21 @@ export default function PageContent() {
               onClick={handleRetake}
               className="inline-flex items-center gap-2 px-5 py-2.5 border border-slate-300 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors"
             >
-              <RotateCcw className="w-4 h-4" />
+              <RotateCcw className="w-4 h-4" aria-hidden="true" />
               Retake Course
             </button>
             <Link
               href="/medicare-101-course"
               className="inline-flex items-center gap-2 px-5 py-2.5 border border-slate-300 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors"
             >
-              <BookOpen className="w-4 h-4" />
+              <BookOpen className="w-4 h-4" aria-hidden="true" />
               Review Lessons
             </Link>
           </div>
 
           {/* CTA — personalized */}
           <div className="p-8 bg-gradient-to-br from-blue-900 to-slate-900 rounded-2xl text-white text-center">
-            <CheckCircle2 className="w-10 h-10 text-teal-400 mx-auto mb-4" />
+            <CheckCircle2 className="w-10 h-10 text-teal-400 mx-auto mb-4" aria-hidden="true" />
             <h3 className="text-2xl font-bold mb-2">{cta.heading}</h3>
             <p className="text-slate-300 mb-6 max-w-lg mx-auto">
               {cta.subtext}
@@ -250,13 +250,13 @@ export default function PageContent() {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-lg">
-                    {cta.buttonLabel} <ArrowRight className="w-5 h-5" />
+                    {cta.buttonLabel} <ArrowRight className="w-5 h-5" aria-hidden="true" />
                   </button>
                 }
               />
             </div>
             <div className="flex items-center justify-center gap-2 text-slate-300">
-              <Phone className="w-4 h-4" />
+              <Phone className="w-4 h-4" aria-hidden="true" />
               <span className="text-sm">Prefer to talk?</span>
               <a
                 href="tel:+18883358996"
@@ -276,6 +276,6 @@ export default function PageContent() {
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

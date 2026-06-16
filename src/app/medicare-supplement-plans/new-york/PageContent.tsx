@@ -62,8 +62,7 @@ function StarRating({ score }: { score: number }) {
               : i === fullStars && hasHalf
               ? "fill-amber-400/50 text-amber-400"
               : "fill-slate-200 text-slate-200"
-          }`}
-        />
+          }`} aria-hidden="true" />
       ))}
     </div>
   );
@@ -90,7 +89,7 @@ function CarrierCard({ carrier, rank }: { carrier: NewYorkCarrier; rank: number 
           <div className="flex-1 min-w-0">
             <div className="flex items-start gap-3 mb-3">
               <div className="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center shrink-0">
-                <Building2 className="w-6 h-6 text-white" />
+                <Building2 className="w-6 h-6 text-white" aria-hidden="true" />
               </div>
               <div>
                 <h3 className="text-lg font-bold text-slate-900">
@@ -144,7 +143,7 @@ function CarrierCard({ carrier, rank }: { carrier: NewYorkCarrier; rank: number 
               buttonLabel="Get a Quote"
               trigger={
                 <button className="w-full inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-4 py-2.5 rounded-lg transition-colors text-sm">
-                  Get a Quote <ArrowRight className="w-4 h-4" />
+                  Get a Quote <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
@@ -160,7 +159,7 @@ function CarrierCard({ carrier, rank }: { carrier: NewYorkCarrier; rank: number 
               }
               className="w-full inline-flex items-center justify-center gap-2 border border-slate-300 hover:border-blue-400 text-slate-700 font-medium px-4 py-2.5 rounded-lg transition-colors text-sm"
             >
-              <Phone className="w-3.5 h-3.5" /> (888) 335-8996
+              <Phone className="w-3.5 h-3.5" aria-hidden="true" /> (888) 335-8996
             </a>
           </div>
         </div>
@@ -172,9 +171,9 @@ function CarrierCard({ carrier, rank }: { carrier: NewYorkCarrier; rank: number 
         >
           {expanded ? "Hide details" : "Show pros & cons"}
           {expanded ? (
-            <ChevronUp className="w-4 h-4" />
+            <ChevronUp className="w-4 h-4" aria-hidden="true" />
           ) : (
-            <ChevronDown className="w-4 h-4" />
+            <ChevronDown className="w-4 h-4" aria-hidden="true" />
           )}
         </button>
 
@@ -187,7 +186,7 @@ function CarrierCard({ carrier, rank }: { carrier: NewYorkCarrier; rank: number 
               <ul className="space-y-1.5">
                 {carrier.pros.map((pro, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" aria-hidden="true" />
                     {pro}
                   </li>
                 ))}
@@ -200,7 +199,7 @@ function CarrierCard({ carrier, rank }: { carrier: NewYorkCarrier; rank: number 
               <ul className="space-y-1.5">
                 {carrier.cons.map((con, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
+                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" aria-hidden="true" />
                     {con}
                   </li>
                 ))}
@@ -234,9 +233,9 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
       >
         <span className="font-semibold text-slate-900 text-sm pr-4">{question}</span>
         {open ? (
-          <ChevronUp className="w-5 h-5 text-slate-400 shrink-0" />
+          <ChevronUp className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
         ) : (
-          <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" />
+          <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
         )}
       </button>
       {open && (
@@ -251,7 +250,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 /* ─── Main Page Content ─── */
 export default function NewYorkPageContent() {
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -264,14 +263,14 @@ export default function NewYorkPageContent() {
             <Link href="/" className="hover:text-white transition-colors">
               Home
             </Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link
               href="/medicare-supplement-plans"
               className="hover:text-white transition-colors"
             >
               Medicare Supplement
             </Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">New York</span>
           </div>
 
@@ -302,21 +301,21 @@ export default function NewYorkPageContent() {
           {/* Quick stats */}
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Users className="w-4 h-4 text-teal-400" />
+              <Users className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span>
                 <strong className="text-white">{NEW_YORK_STATS.medigapEnrollees}</strong>{" "}
                 New Yorkers with Medigap
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <TrendingDown className="w-4 h-4 text-teal-400" />
+              <TrendingDown className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span>
                 Plan G from{" "}
                 <strong className="text-white">{NEW_YORK_STATS.lowestPlanGPremium}</strong>
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <CalendarCheck className="w-4 h-4 text-green-400" />
+              <CalendarCheck className="w-4 h-4 text-green-400" aria-hidden="true" />
               <span>
                 <strong className="text-white">Switch any time</strong> - no underwriting
               </span>
@@ -333,7 +332,7 @@ export default function NewYorkPageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Compare New York Rates <ArrowRight className="w-4 h-4" />
+                  Compare New York Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
@@ -349,7 +348,7 @@ export default function NewYorkPageContent() {
               }
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
             >
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -360,21 +359,21 @@ export default function NewYorkPageContent() {
         <div className="container py-4">
           <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-600">
             <div className="flex items-center gap-1.5">
-              <Shield className="w-4 h-4 text-blue-600" />
+              <Shield className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>
                 <strong>{NEW_YORK_CARRIERS.length}</strong> carriers analyzed
               </span>
             </div>
             <div className="flex items-center gap-1.5">
-              <BarChart3 className="w-4 h-4 text-blue-600" />
+              <BarChart3 className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>Data-driven MedicareFAQ Scores</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <CalendarCheck className="w-4 h-4 text-green-600" />
+              <CalendarCheck className="w-4 h-4 text-green-600" aria-hidden="true" />
               <span>Guaranteed issue - switch any month</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Equal className="w-4 h-4 text-blue-600" />
+              <Equal className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>Community-rated - same price regardless of age</span>
             </div>
           </div>
@@ -388,7 +387,7 @@ export default function NewYorkPageContent() {
             {/* Community Rating */}
             <div className="flex items-start gap-4 p-4 bg-white rounded-xl border border-green-200">
               <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center shrink-0">
-                <Equal className="w-5 h-5 text-green-700" />
+                <Equal className="w-5 h-5 text-green-700" aria-hidden="true" />
               </div>
               <div>
                 <div className="flex items-center gap-2 mb-1">
@@ -409,7 +408,7 @@ export default function NewYorkPageContent() {
             {/* Guaranteed Issue */}
             <div className="flex items-start gap-4 p-4 bg-white rounded-xl border border-green-200">
               <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center shrink-0">
-                <ShieldCheck className="w-5 h-5 text-green-700" />
+                <ShieldCheck className="w-5 h-5 text-green-700" aria-hidden="true" />
               </div>
               <div>
                 <div className="flex items-center gap-2 mb-1">
@@ -551,7 +550,7 @@ export default function NewYorkPageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  <MapPin className="w-4 h-4" /> See Rates in Your ZIP Code
+                  <MapPin className="w-4 h-4" aria-hidden="true" /> See Rates in Your ZIP Code
                 </button>
               }
             />
@@ -653,11 +652,11 @@ export default function NewYorkPageContent() {
                           </span>
                         ) : row.g.covered ? (
                           <span className="text-emerald-600 font-semibold">
-                            <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                            <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                           </span>
                         ) : (
                           <span className="text-red-500 font-semibold">
-                            <XCircle className="w-4 h-4 inline" /> Not covered
+                            <XCircle className="w-4 h-4 inline" aria-hidden="true" /> Not covered
                           </span>
                         )}
                       </td>
@@ -674,12 +673,12 @@ export default function NewYorkPageContent() {
                           </span>
                         ) : row.n.covered ? (
                           <span className="text-emerald-600 font-semibold">
-                            <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                            <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                             {row.n.note}
                           </span>
                         ) : (
                           <span className="text-red-500 font-semibold">
-                            <XCircle className="w-4 h-4 inline" /> Not covered
+                            <XCircle className="w-4 h-4 inline" aria-hidden="true" /> Not covered
                           </span>
                         )}
                       </td>
@@ -730,7 +729,7 @@ export default function NewYorkPageContent() {
 
           <div className="space-y-4">
             <div className="p-5 bg-white border border-green-200 rounded-xl flex items-start gap-3">
-              <ShieldCheck className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+              <ShieldCheck className="w-5 h-5 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   Guaranteed Issue Year-Round
@@ -746,7 +745,7 @@ export default function NewYorkPageContent() {
             </div>
 
             <div className="p-5 bg-white border border-green-200 rounded-xl flex items-start gap-3">
-              <Equal className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+              <Equal className="w-5 h-5 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   Community Rating (No-Age-Rated Pricing)
@@ -762,7 +761,7 @@ export default function NewYorkPageContent() {
             </div>
 
             <div className="p-5 bg-white border border-slate-200 rounded-xl flex items-start gap-3">
-              <Users className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+              <Users className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   Coverage for Medicare Beneficiaries Under 65
@@ -778,7 +777,7 @@ export default function NewYorkPageContent() {
             </div>
 
             <div className="p-5 bg-white border border-slate-200 rounded-xl flex items-start gap-3">
-              <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+              <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   Regulated by the NY Department of Financial Services (DFS)
@@ -794,7 +793,7 @@ export default function NewYorkPageContent() {
             </div>
 
             <div className="p-5 bg-white border border-slate-200 rounded-xl flex items-start gap-3">
-              <Info className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+              <Info className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   Why Are New York Premiums Higher?
@@ -897,7 +896,7 @@ export default function NewYorkPageContent() {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    Compare New York Rates <ArrowRight className="w-4 h-4" />
+                    Compare New York Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </button>
                 }
               />
@@ -913,12 +912,12 @@ export default function NewYorkPageContent() {
                 }
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
               >
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

@@ -135,7 +135,7 @@ export default function SearchResults() {
                 <Link href="/" className="hover:text-[#1B2A4A] transition-colors">
                   Home
                 </Link>
-                <ChevronRight className="w-3.5 h-3.5" />
+                <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
                 <span className="text-[#1B2A4A] font-medium">Search</span>
               </nav>
 
@@ -145,7 +145,7 @@ export default function SearchResults() {
 
               {/* Search Input */}
               <form onSubmit={handleSearch} className="relative">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]" />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#9CA3AF]" aria-hidden="true" />
                 <input
                   type="text"
                   value={query}
@@ -160,7 +160,7 @@ export default function SearchResults() {
                     onClick={clearSearch}
                     className="absolute right-4 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-[#E5E7EB] hover:bg-[#D1D5DB] flex items-center justify-center transition-colors"
                   >
-                    <X className="w-4 h-4 text-[#6B7280]" />
+                    <X className="w-4 h-4 text-[#6B7280]" aria-hidden="true" />
                   </button>
                 )}
               </form>
@@ -196,10 +196,10 @@ export default function SearchResults() {
                       const Icon = active?.icon || SlidersHorizontal;
                       return (
                         <>
-                          <Icon className="w-3.5 h-3.5 text-[#6B7280] shrink-0" />
+                          <Icon className="w-3.5 h-3.5 text-[#6B7280] shrink-0" aria-hidden="true" />
                           <span className="font-medium text-[#1B2A4A] flex-1 text-left">{active?.label || "All Results"}</span>
                           <span className="text-xs bg-[#1B2A4A] text-white px-1.5 py-0.5 rounded-full">{count}</span>
-                          <ChevronDown className="w-3.5 h-3.5 text-[#9CA3AF] shrink-0" />
+                          <ChevronDown className="w-3.5 h-3.5 text-[#9CA3AF] shrink-0" aria-hidden="true" />
                         </>
                       );
                     })()}
@@ -221,7 +221,7 @@ export default function SearchResults() {
                               value={filter.key}
                               className="flex items-center gap-2.5 px-3 py-2 text-sm rounded-md cursor-pointer text-[#1B2A4A] hover:bg-[#F5F7FA] focus:bg-[#F5F7FA] focus:outline-none data-[state=checked]:bg-[#EEF2FF] select-none"
                             >
-                              <Icon className="w-3.5 h-3.5 text-[#6B7280] shrink-0" />
+                              <Icon className="w-3.5 h-3.5 text-[#6B7280] shrink-0" aria-hidden="true" />
                               <SelectPrimitive.ItemText>
                                 <span className="flex-1">{filter.label}</span>
                               </SelectPrimitive.ItemText>
@@ -250,7 +250,7 @@ export default function SearchResults() {
                 className="text-center py-12"
               >
                 <div className="w-16 h-16 rounded-2xl bg-[#F5F7FA] flex items-center justify-center mx-auto mb-5">
-                  <Search className="w-7 h-7 text-[#9CA3AF]" />
+                  <Search className="w-7 h-7 text-[#9CA3AF]" aria-hidden="true" />
                 </div>
                 <h2 className="text-xl font-bold text-[#1B2A4A] mb-2">
                   What are you looking for?
@@ -282,7 +282,7 @@ export default function SearchResults() {
                 className="text-center py-12"
               >
                 <div className="w-16 h-16 rounded-2xl bg-[#FEF2F2] flex items-center justify-center mx-auto mb-5">
-                  <Search className="w-7 h-7 text-[#F87171]" />
+                  <Search className="w-7 h-7 text-[#F87171]" aria-hidden="true" />
                 </div>
                 <h2 className="text-xl font-bold text-[#1B2A4A] mb-2">
                   No results found
@@ -307,7 +307,7 @@ export default function SearchResults() {
                   className="inline-flex items-center gap-2 text-[#C41230] font-semibold text-sm hover:underline"
                 >
                   Browse all Coverage FAQs
-                  <ArrowRight className="w-4 h-4" />
+                  <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </Link>
               </motion.div>
             )}
@@ -398,16 +398,16 @@ function ResultCard({ result, index }: { result: SearchResult; index: number }) 
             style={{ backgroundColor: badge.bg }}
           >
             {result.type === "blog" && (
-              <FileText className="w-5 h-5" style={{ color: badge.text }} />
+              <FileText className="w-5 h-5" style={{ color: badge.text }} aria-hidden="true" />
             )}
             {result.type === "coverage" && (
-              <Shield className="w-5 h-5" style={{ color: badge.text }} />
+              <Shield className="w-5 h-5" style={{ color: badge.text }} aria-hidden="true" />
             )}
             {result.type === "guide" && (
-              <BookOpen className="w-5 h-5" style={{ color: badge.text }} />
+              <BookOpen className="w-5 h-5" style={{ color: badge.text }} aria-hidden="true" />
             )}
             {result.type === "page" && (
-              <Layout className="w-5 h-5" style={{ color: badge.text }} />
+              <Layout className="w-5 h-5" style={{ color: badge.text }} aria-hidden="true" />
             )}
           </div>
 
@@ -439,19 +439,19 @@ function ResultCard({ result, index }: { result: SearchResult; index: number }) 
             <div className="flex items-center gap-4 text-[11px] text-[#9CA3AF]">
               {result.author && (
                 <span className="flex items-center gap-1">
-                  <User className="w-3 h-3" />
+                  <User className="w-3 h-3" aria-hidden="true" />
                   {result.author}
                 </span>
               )}
               {result.readTime && (
                 <span className="flex items-center gap-1">
-                  <Clock className="w-3 h-3" />
+                  <Clock className="w-3 h-3" aria-hidden="true" />
                   {result.readTime}
                 </span>
               )}
               {result.date && <span>{result.date}</span>}
               <span className="ml-auto flex items-center gap-1 text-[#C41230] font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
-                Read <ArrowRight className="w-3 h-3" />
+                Read <ArrowRight className="w-3 h-3" aria-hidden="true" />
               </span>
             </div>
           </div>

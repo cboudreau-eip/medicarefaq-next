@@ -140,7 +140,7 @@ export default function PageContent() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -151,14 +151,14 @@ export default function PageContent() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medicare Costs</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-green-600/20 rounded-xl flex items-center justify-center">
-              <DollarSign className="w-6 h-6 text-green-400" />
+              <DollarSign className="w-6 h-6 text-green-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-green-400 uppercase tracking-wider">Cost Comparison</span>
           </div>
@@ -279,10 +279,11 @@ export default function PageContent() {
               <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  aria-expanded={openFaq === i}
                   className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                 >
                   <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                 </button>
                 {openFaq === i && (
                   <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</div>
@@ -302,7 +303,7 @@ export default function PageContent() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "costs" })} className="inline-flex items-center gap-2 bg-white text-green-700 font-semibold px-6 py-3 rounded-lg hover:bg-green-50 transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <ZipFormModal
                 coverageType="ms"
@@ -331,6 +332,6 @@ export default function PageContent() {
           </div>
         </div>
       </section>
-      </div>
+      </article>
   );
 }

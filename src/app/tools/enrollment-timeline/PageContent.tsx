@@ -105,7 +105,7 @@ function TimelineEventCard({ event, index }: { event: TimelineEvent; index: numb
         className="absolute left-2 md:left-3.5 top-1 w-5 h-5 md:w-6 md:h-6 rounded-full flex items-center justify-center ring-4 ring-white"
         style={{ backgroundColor: event.color }}
       >
-        <IconComponent className="w-2.5 h-2.5 md:w-3 md:h-3 text-white" />
+        <IconComponent className="w-2.5 h-2.5 md:w-3 md:h-3 text-white" aria-hidden="true" />
       </div>
 
       {/* Card */}
@@ -137,9 +137,9 @@ function TimelineEventCard({ event, index }: { event: TimelineEvent; index: numb
           </div>
           <div className="shrink-0 mt-1">
             {expanded ? (
-              <ChevronDown className="w-5 h-5 text-[#6B7280]" />
+              <ChevronDown className="w-5 h-5 text-[#6B7280]" aria-hidden="true" />
             ) : (
-              <ChevronRight className="w-5 h-5 text-[#6B7280]" />
+              <ChevronRight className="w-5 h-5 text-[#6B7280]" aria-hidden="true" />
             )}
           </div>
         </button>
@@ -179,7 +179,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
         <div className="bg-white rounded-xl border border-[#E5E7EB] p-5 shadow-sm">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-10 h-10 rounded-lg bg-[#1B2A4A]/10 flex items-center justify-center">
-              <Cake className="w-5 h-5 text-[#1B2A4A]" />
+              <Cake className="w-5 h-5 text-[#1B2A4A]" aria-hidden="true" />
             </div>
             <span className="text-sm font-medium text-[#6B7280]">You Turn 65</span>
           </div>
@@ -189,7 +189,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
         <div className="bg-white rounded-xl border border-[#E5E7EB] p-5 shadow-sm">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-10 h-10 rounded-lg bg-[#0D9488]/10 flex items-center justify-center">
-              <CalendarCheck className="w-5 h-5 text-[#0D9488]" />
+              <CalendarCheck className="w-5 h-5 text-[#0D9488]" aria-hidden="true" />
             </div>
             <span className="text-sm font-medium text-[#6B7280]">Enrollment Window</span>
           </div>
@@ -204,7 +204,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
         <div className="bg-white rounded-xl border border-[#E5E7EB] p-5 shadow-sm">
           <div className="flex items-center gap-3 mb-3">
             <div className="w-10 h-10 rounded-lg bg-[#059669]/10 flex items-center justify-center">
-              <Star className="w-5 h-5 text-[#059669]" />
+              <Star className="w-5 h-5 text-[#059669]" aria-hidden="true" />
             </div>
             <span className="text-sm font-medium text-[#6B7280]">Coverage Starts</span>
           </div>
@@ -235,7 +235,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
       <div className="bg-white rounded-2xl border border-[#E5E7EB] p-6 md:p-8">
         <div className="flex items-center gap-3 mb-5">
           <div className="w-10 h-10 rounded-lg bg-[#D97706]/10 flex items-center justify-center">
-            <Lightbulb className="w-5 h-5 text-[#D97706]" />
+            <Lightbulb className="w-5 h-5 text-[#D97706]" aria-hidden="true" />
           </div>
           <h3 className="text-lg md:text-xl font-bold text-[#1B2A4A]">
             Personalized Recommendations
@@ -245,7 +245,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
         <div className="space-y-3">
           {result.personalizedTips.map((tip, i) => (
             <div key={i} className="flex items-start gap-3">
-              <CheckCircle className="w-5 h-5 text-[#0D9488] shrink-0 mt-0.5" />
+              <CheckCircle className="w-5 h-5 text-[#0D9488] shrink-0 mt-0.5" aria-hidden="true" />
               <p className="text-sm md:text-base text-[#4B5563] leading-relaxed">{tip}</p>
             </div>
           ))}
@@ -267,7 +267,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "enrollment_timeline" })}
             className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-6 py-3.5 rounded-lg transition-colors shadow-lg"
           >
-            <Phone className="w-4 h-4" />
+            <Phone className="w-4 h-4" aria-hidden="true" />
             Call (888) 335-8996
           </a>
             <ZipFormModal
@@ -283,7 +283,7 @@ function ResultsSection({ result }: { result: CalculatorResult }) {
       {/* Disclaimer */}
       <div className="bg-[#FEF3C7] border border-[#F59E0B]/30 rounded-xl p-4 md:p-5">
         <div className="flex items-start gap-3">
-          <Info className="w-5 h-5 text-[#D97706] shrink-0 mt-0.5" />
+          <Info className="w-5 h-5 text-[#D97706] shrink-0 mt-0.5" aria-hidden="true" />
           <div>
             <p className="text-sm font-semibold text-[#92400E] mb-1">Important Disclaimer</p>
             <p className="text-sm text-[#92400E]/80 leading-relaxed">
@@ -358,15 +358,15 @@ export default function PageContent() {
         <div className="container">
           <nav className="flex items-center gap-2 text-sm text-white/50 mb-6">
             <Link href="/" className="hover:text-white/80 transition-colors">Home</Link>
-            <ChevronRight className="w-3.5 h-3.5" />
+            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
             <span className="text-white/80">Tools</span>
-            <ChevronRight className="w-3.5 h-3.5" />
+            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
             <span className="text-white/80">Enrollment Timeline Calculator</span>
           </nav>
 
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-[#4F46E5]/20 text-[#A5B4FC] text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full mb-4">
-              <Calendar className="w-3.5 h-3.5" />
+              <Calendar className="w-3.5 h-3.5" aria-hidden="true" />
               Interactive Tool
             </div>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-4">
@@ -387,7 +387,7 @@ export default function PageContent() {
           <div className="bg-white rounded-2xl border border-[#E5E7EB] shadow-sm p-6 md:p-8">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-lg bg-[#0D9488]/10 flex items-center justify-center">
-                <HelpCircle className="w-5 h-5 text-[#0D9488]" />
+                <HelpCircle className="w-5 h-5 text-[#0D9488]" aria-hidden="true" />
               </div>
               <div>
                 <h2 className="text-lg font-bold text-[#1B2A4A]">Tell Us about Yourself</h2>
@@ -524,7 +524,7 @@ export default function PageContent() {
                     : "bg-[#E5E7EB] text-[#9CA3AF] cursor-not-allowed"
                 }`}
               >
-                <Calendar className="w-5 h-5" />
+                <Calendar className="w-5 h-5" aria-hidden="true" />
                 Calculate My Timeline
               </button>
               {showResults && (
@@ -601,8 +601,7 @@ function FAQItem({ question, answer }: { question: string; answer: ReactNode }) 
         <ChevronDown
           className={`w-5 h-5 text-[#6B7280] shrink-0 transition-transform duration-200 ${
             open ? "rotate-180" : ""
-          }`}
-        />
+          }`} aria-hidden="true" />
       </button>
       <AnimatePresence>
         {open && (

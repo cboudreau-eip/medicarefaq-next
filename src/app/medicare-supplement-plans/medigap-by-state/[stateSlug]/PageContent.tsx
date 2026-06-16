@@ -21,7 +21,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
   if (!state) return null;
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -31,11 +31,11 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans/medigap-by-state" className="hover:text-white transition-colors">By State</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">{state.name}</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
@@ -61,12 +61,12 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
           {/* Quick stats */}
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Users className="w-4 h-4 text-teal-400" />
+              <Users className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span><strong className="text-white">{state.medicareEnrollees}</strong> Medicare enrollees</span>
             </div>
             {state.isStandardized && (
               <div className="flex items-center gap-2 text-sm text-slate-300">
-                <Star className="w-4 h-4 text-amber-400" />
+                <Star className="w-4 h-4 text-amber-400" aria-hidden="true" />
                 <span>Avg Plan G: <strong className="text-white">{state.avgPlanGPremium}</strong></span>
               </div>
             )}
@@ -81,13 +81,13 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Compare {state.name} Rates <ArrowRight className="w-4 h-4" />
+                  Compare {state.name} Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_state_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
           {/* State-specific standardization note */}
           {!state.isStandardized && state.standardizationNote && (
             <div className="p-5 bg-amber-50 border border-amber-200 rounded-xl mb-10 flex items-start gap-3">
-              <AlertTriangle className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
+              <AlertTriangle className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-amber-900 mb-1">State-Specific Plan Structure</p>
                 <p className="text-sm text-amber-800">{state.standardizationNote}</p>
@@ -127,7 +127,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
 
           {/* Open enrollment note */}
           <div className="mb-12 p-5 bg-blue-50 border border-blue-200 rounded-xl flex items-start gap-3">
-            <Info className="w-5 h-5 text-blue-700 shrink-0 mt-0.5" />
+            <Info className="w-5 h-5 text-blue-700 shrink-0 mt-0.5" aria-hidden="true" />
             <div>
               <p className="font-semibold text-blue-900 mb-1">Open Enrollment in {state.name}</p>
               <p className="text-sm text-blue-800">{state.openEnrollmentNote}</p>
@@ -142,7 +142,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
             <ul className="space-y-3">
               {state.stateSpecificRules.map((rule, i) => (
                 <li key={i} className="flex items-start gap-3 p-3 bg-slate-50 rounded-lg border border-slate-200">
-                  <CheckCircle2 className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" aria-hidden="true" />
                   <span className="text-sm text-slate-700">{rule}</span>
                 </li>
               ))}
@@ -157,7 +157,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {state.topCarriers.map((carrier, i) => (
                 <div key={i} className="flex items-center gap-2 p-3 border border-slate-200 rounded-lg">
-                  <Building2 className="w-4 h-4 text-blue-600 shrink-0" />
+                  <Building2 className="w-4 h-4 text-blue-600 shrink-0" aria-hidden="true" />
                   <span className="text-sm font-medium text-slate-700">{carrier}</span>
                 </div>
               ))}
@@ -178,7 +178,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                     className="flex items-center gap-2 px-4 py-2.5 bg-blue-900 text-white rounded-lg font-semibold hover:bg-blue-800 transition-colors"
                   >
                     Plan {letter}
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </Link>
                 ))}
               </div>
@@ -210,7 +210,7 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                           <p className="text-xs text-slate-500">Medigap Plans</p>
                         </div>
                       </div>
-                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-colors" />
+                      <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 transition-colors" aria-hidden="true" />
                     </Link>
                   );
                 })}
@@ -234,18 +234,18 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    Compare {state.name} Rates <ArrowRight className="w-4 h-4" />
+                    Compare {state.name} Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </button>
                 }
               />
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_state_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

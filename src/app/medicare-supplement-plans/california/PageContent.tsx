@@ -62,8 +62,7 @@ function StarRating({ score }: { score: number }) {
               : i === fullStars && hasHalf
               ? "fill-amber-400/50 text-amber-400"
               : "fill-slate-200 text-slate-200"
-          }`}
-        />
+          }`} aria-hidden="true" />
       ))}
     </div>
   );
@@ -90,7 +89,7 @@ function CarrierCard({ carrier, rank }: { carrier: CaliforniaCarrier; rank: numb
           <div className="flex-1 min-w-0">
             <div className="flex items-start gap-3 mb-3">
               <div className="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center shrink-0">
-                <Building2 className="w-6 h-6 text-white" />
+                <Building2 className="w-6 h-6 text-white" aria-hidden="true" />
               </div>
               <div>
                 <h3 className="text-lg font-bold text-slate-900">
@@ -142,7 +141,7 @@ function CarrierCard({ carrier, rank }: { carrier: CaliforniaCarrier; rank: numb
               buttonLabel="Get a Quote"
               trigger={
                 <button className="w-full inline-flex items-center justify-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-4 py-2.5 rounded-lg transition-colors text-sm">
-                  Get a Quote <ArrowRight className="w-4 h-4" />
+                  Get a Quote <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
@@ -158,7 +157,7 @@ function CarrierCard({ carrier, rank }: { carrier: CaliforniaCarrier; rank: numb
               }
               className="w-full inline-flex items-center justify-center gap-2 border border-slate-300 hover:border-blue-400 text-slate-700 font-medium px-4 py-2.5 rounded-lg transition-colors text-sm"
             >
-              <Phone className="w-3.5 h-3.5" /> (888) 335-8996
+              <Phone className="w-3.5 h-3.5" aria-hidden="true" /> (888) 335-8996
             </a>
           </div>
         </div>
@@ -170,9 +169,9 @@ function CarrierCard({ carrier, rank }: { carrier: CaliforniaCarrier; rank: numb
         >
           {expanded ? "Hide details" : "Show pros & cons"}
           {expanded ? (
-            <ChevronUp className="w-4 h-4" />
+            <ChevronUp className="w-4 h-4" aria-hidden="true" />
           ) : (
-            <ChevronDown className="w-4 h-4" />
+            <ChevronDown className="w-4 h-4" aria-hidden="true" />
           )}
         </button>
 
@@ -185,7 +184,7 @@ function CarrierCard({ carrier, rank }: { carrier: CaliforniaCarrier; rank: numb
               <ul className="space-y-1.5">
                 {carrier.pros.map((pro, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" aria-hidden="true" />
                     {pro}
                   </li>
                 ))}
@@ -198,7 +197,7 @@ function CarrierCard({ carrier, rank }: { carrier: CaliforniaCarrier; rank: numb
               <ul className="space-y-1.5">
                 {carrier.cons.map((con, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
+                    <XCircle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" aria-hidden="true" />
                     {con}
                   </li>
                 ))}
@@ -232,9 +231,9 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
       >
         <span className="font-semibold text-slate-900 text-sm pr-4">{question}</span>
         {open ? (
-          <ChevronUp className="w-5 h-5 text-slate-400 shrink-0" />
+          <ChevronUp className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
         ) : (
-          <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" />
+          <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
         )}
       </button>
       {open && (
@@ -249,7 +248,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
 /* ─── Main Page Content ─── */
 export default function CaliforniaPageContent() {
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -262,14 +261,14 @@ export default function CaliforniaPageContent() {
             <Link href="/" className="hover:text-white transition-colors">
               Home
             </Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link
               href="/medicare-supplement-plans"
               className="hover:text-white transition-colors"
             >
               Medicare Supplement
             </Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">California</span>
           </div>
 
@@ -300,21 +299,21 @@ export default function CaliforniaPageContent() {
           {/* Quick stats */}
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Users className="w-4 h-4 text-teal-400" />
+              <Users className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span>
                 <strong className="text-white">{CALIFORNIA_STATS.medigapEnrollees}</strong>{" "}
                 Californians with Medigap
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <TrendingDown className="w-4 h-4 text-teal-400" />
+              <TrendingDown className="w-4 h-4 text-teal-400" aria-hidden="true" />
               <span>
                 Plan G from{" "}
                 <strong className="text-white">{CALIFORNIA_STATS.lowestPlanGPremium}</strong>
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
-              <Gift className="w-4 h-4 text-amber-400" />
+              <Gift className="w-4 h-4 text-amber-400" aria-hidden="true" />
               <span>
                 <strong className="text-white">Birthday rule</strong> - switch carriers annually
               </span>
@@ -331,7 +330,7 @@ export default function CaliforniaPageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Compare California Rates <ArrowRight className="w-4 h-4" />
+                  Compare California Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
@@ -347,7 +346,7 @@ export default function CaliforniaPageContent() {
               }
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
             >
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -358,21 +357,21 @@ export default function CaliforniaPageContent() {
         <div className="container py-4">
           <div className="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-600">
             <div className="flex items-center gap-1.5">
-              <Shield className="w-4 h-4 text-blue-600" />
+              <Shield className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>
                 <strong>{CALIFORNIA_CARRIERS.length}</strong> carriers analyzed
               </span>
             </div>
             <div className="flex items-center gap-1.5">
-              <BarChart3 className="w-4 h-4 text-blue-600" />
+              <BarChart3 className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>Data-driven MedicareFAQ Scores</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Gift className="w-4 h-4 text-amber-600" />
+              <Gift className="w-4 h-4 text-amber-600" aria-hidden="true" />
               <span>Birthday rule: switch carriers annually</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Award className="w-4 h-4 text-blue-600" />
+              <Award className="w-4 h-4 text-blue-600" aria-hidden="true" />
               <span>Independent, unbiased ratings</span>
             </div>
           </div>
@@ -384,7 +383,7 @@ export default function CaliforniaPageContent() {
         <div className="container max-w-4xl">
           <div className="flex items-start gap-4">
             <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center shrink-0">
-              <CalendarDays className="w-6 h-6 text-amber-700" />
+              <CalendarDays className="w-6 h-6 text-amber-700" aria-hidden="true" />
             </div>
             <div>
               <div className="flex items-center gap-2 mb-1">
@@ -529,7 +528,7 @@ export default function CaliforniaPageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  <MapPin className="w-4 h-4" /> See Rates in Your ZIP Code
+                  <MapPin className="w-4 h-4" aria-hidden="true" /> See Rates in Your ZIP Code
                 </button>
               }
             />
@@ -565,64 +564,64 @@ export default function CaliforniaPageContent() {
                   <tr className="bg-white">
                     <td className="px-5 py-3 text-slate-700">Part A hospital coinsurance</td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                   </tr>
                   <tr className="bg-slate-50">
                     <td className="px-5 py-3 text-slate-700">Part B coinsurance (20%)</td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered*
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered*
                     </td>
                   </tr>
                   <tr className="bg-white">
                     <td className="px-5 py-3 text-slate-700">Part A deductible ($1,736)</td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                   </tr>
                   <tr className="bg-slate-50">
                     <td className="px-5 py-3 text-slate-700">Part B deductible ($283)</td>
                     <td className="px-5 py-3 text-center text-red-500 font-semibold">
-                      <XCircle className="w-4 h-4 inline" /> Not covered
+                      <XCircle className="w-4 h-4 inline" aria-hidden="true" /> Not covered
                     </td>
                     <td className="px-5 py-3 text-center text-red-500 font-semibold">
-                      <XCircle className="w-4 h-4 inline" /> Not covered
+                      <XCircle className="w-4 h-4 inline" aria-hidden="true" /> Not covered
                     </td>
                   </tr>
                   <tr className="bg-white">
                     <td className="px-5 py-3 text-slate-700">Part B excess charges</td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                     <td className="px-5 py-3 text-center text-red-500 font-semibold">
-                      <XCircle className="w-4 h-4 inline" /> Not covered
+                      <XCircle className="w-4 h-4 inline" aria-hidden="true" /> Not covered
                     </td>
                   </tr>
                   <tr className="bg-slate-50">
                     <td className="px-5 py-3 text-slate-700">Skilled nursing coinsurance</td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                   </tr>
                   <tr className="bg-white">
                     <td className="px-5 py-3 text-slate-700">Foreign travel emergency</td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                     <td className="px-5 py-3 text-center text-emerald-600 font-semibold">
-                      <CheckCircle2 className="w-4 h-4 inline" /> Covered
+                      <CheckCircle2 className="w-4 h-4 inline" aria-hidden="true" /> Covered
                     </td>
                   </tr>
                   <tr className="bg-slate-50">
@@ -699,7 +698,7 @@ export default function CaliforniaPageContent() {
 
           <div className="space-y-4">
             <div className="p-5 bg-white border border-amber-200 rounded-xl flex items-start gap-3">
-              <Gift className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+              <Gift className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   California Birthday Rule (Effective July 1, 2020)
@@ -717,7 +716,7 @@ export default function CaliforniaPageContent() {
             </div>
 
             <div className="p-5 bg-white border border-slate-200 rounded-xl flex items-start gap-3">
-              <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+              <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   Regulated by the California Department of Insurance (CDI)
@@ -733,7 +732,7 @@ export default function CaliforniaPageContent() {
             </div>
 
             <div className="p-5 bg-white border border-slate-200 rounded-xl flex items-start gap-3">
-              <Info className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+              <Info className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   Rating Methods in California
@@ -749,7 +748,7 @@ export default function CaliforniaPageContent() {
             </div>
 
             <div className="p-5 bg-white border border-slate-200 rounded-xl flex items-start gap-3">
-              <Users className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+              <Users className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-slate-900 mb-1">
                   Largest Medicare Market in the Country
@@ -850,7 +849,7 @@ export default function CaliforniaPageContent() {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    Compare California Rates <ArrowRight className="w-4 h-4" />
+                    Compare California Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </button>
                 }
               />
@@ -866,12 +865,12 @@ export default function CaliforniaPageContent() {
                 }
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
               >
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

@@ -97,7 +97,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -112,14 +112,14 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medicare Supplement</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center">
-              <Shield className="w-6 h-6 text-blue-400" />
+              <Shield className="w-6 h-6 text-blue-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-blue-400 uppercase tracking-wider">Medigap Plans</span>
           </div>
@@ -139,7 +139,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] text-white font-bold px-7 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-[#0D9488]/25 text-base">
-                  <ArrowRight className="w-4 h-4" />
+                  <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   Compare Plans in Your Area
                 </button>
               }
@@ -149,7 +149,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })}
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/20 text-base"
             >
-              <Phone className="w-4 h-4" />
+              <Phone className="w-4 h-4" aria-hidden="true" />
               (888) 335-8996
             </a>
           </div>
@@ -178,7 +178,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })} className="flex items-center gap-2 text-sm font-bold text-blue-700">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -237,7 +237,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 </div>
                 <div className="bg-red-50 rounded-xl p-6 border border-red-100">
                   <h3 className="font-semibold text-red-800 mb-3 flex items-center gap-2">
-                    <XCircle className="w-5 h-5" /> What Medigap Does NOT Cover
+                    <XCircle className="w-5 h-5" aria-hidden="true" /> What Medigap Does NOT Cover
                   </h3>
                   <div className="grid sm:grid-cols-2 gap-2">
                     {[
@@ -247,7 +247,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                       "Private-duty nursing",
                     ].map((item, i) => (
                       <div key={i} className="flex items-center gap-2 text-sm text-red-800">
-                        <XCircle className="w-4 h-4 text-red-500 shrink-0" /> {item}
+                        <XCircle className="w-4 h-4 text-red-500 shrink-0" aria-hidden="true" /> {item}
                       </div>
                     ))}
                   </div>
@@ -281,9 +281,9 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                           {[row.A, row.B, row.C, row.D, row.F, row.G, row.K, row.L, row.M, row.N].map((val, j) => (
                             <td key={j} className={`py-2.5 px-2 text-center ${j === 5 ? "bg-teal-50" : ""}`}>
                               {val === "✓" ? (
-                                <CheckCircle2 className="w-4 h-4 text-green-600 mx-auto" />
+                                <CheckCircle2 className="w-4 h-4 text-green-600 mx-auto" aria-hidden="true" />
                               ) : val === "✗" ? (
-                                <XCircle className="w-4 h-4 text-slate-300 mx-auto" />
+                                <XCircle className="w-4 h-4 text-slate-300 mx-auto" aria-hidden="true" />
                               ) : (
                                 <span className="text-amber-600 font-semibold">{val}</span>
                               )}
@@ -342,13 +342,13 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 </div>
                 <div className="flex gap-3 flex-wrap">
                   <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
-                    Compare all plans side-by-side <ArrowRight className="w-3.5 h-3.5" />
+                    Compare all plans side-by-side <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
                   </Link>
                   <Link href="/medicare-supplement-plans/medigap-eligibility" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
-                    Check your eligibility <ArrowRight className="w-3.5 h-3.5" />
+                    Check your eligibility <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
                   </Link>
                   <Link href="/medicare-supplement-plans/medicare-supplement-plans-2026" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900 underline underline-offset-2">
-                    2026 plan changes <ArrowRight className="w-3.5 h-3.5" />
+                    2026 plan changes <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
                   </Link>
                 </div>
               </section>
@@ -362,7 +362,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                   {/* Plan G */}
                   <div className="bg-white rounded-xl border-2 border-teal-200 p-6 relative overflow-hidden">
                     <div className="absolute top-0 right-0 bg-teal-600 text-white text-xs font-bold px-4 py-1.5 rounded-bl-lg flex items-center gap-1">
-                      <Star className="w-3 h-3" /> Most Popular
+                      <Star className="w-3 h-3" aria-hidden="true" /> Most Popular
                     </div>
                     <h3 className="text-2xl font-bold text-slate-900 mb-2">Plan G</h3>
                     <p className="text-slate-600 mb-4">
@@ -374,7 +374,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                         <ul className="space-y-1.5">
                           {["Part A hospital deductible ($1,736)", "Part B coinsurance (20%)", "Part B excess charges", "Skilled nursing facility coinsurance", "Foreign travel emergency", "Blood (first 3 pints)", "Hospice coinsurance"].map((item, i) => (
                             <li key={i} className="flex items-start gap-1.5 text-xs text-green-800">
-                              <CheckCircle2 className="w-3.5 h-3.5 mt-0.5 shrink-0 text-green-600" /> {item}
+                              <CheckCircle2 className="w-3.5 h-3.5 mt-0.5 shrink-0 text-green-600" aria-hidden="true" /> {item}
                             </li>
                           ))}
                         </ul>
@@ -483,7 +483,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 </h2>
                 <div className="bg-blue-50 rounded-xl p-6 border border-blue-100 mb-6">
                   <div className="flex items-start gap-3">
-                    <Clock className="w-6 h-6 text-blue-600 mt-0.5 shrink-0" />
+                    <Clock className="w-6 h-6 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <h3 className="font-bold text-blue-900 text-lg mb-2">Medigap Open Enrollment Period</h3>
                       <p className="text-blue-800 mb-3">
@@ -499,7 +499,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                             "Cannot impose waiting periods for pre-existing conditions",
                           ].map((item, i) => (
                             <li key={i} className="flex items-start gap-2 text-sm text-blue-800">
-                              <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> {item}
+                              <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> {item}
                             </li>
                           ))}
                         </ul>
@@ -509,7 +509,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                 </div>
                 <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
                   <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <p className="font-semibold text-amber-900 mb-1">Don't Miss This Window</p>
                       <p className="text-sm text-amber-800">
@@ -530,10 +530,11 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</div>
@@ -562,7 +563,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
                       buttonLabel="Compare Plans"
                       trigger={
                         <button className="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-7 py-3.5 rounded-lg hover:bg-blue-50 transition-colors text-base shadow-lg">
-                          <ArrowRight className="w-4 h-4" />
+                          <ArrowRight className="w-4 h-4" aria-hidden="true" />
                           Get Started
                         </button>
                       }
@@ -572,7 +573,7 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })}
                       className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/30 text-base"
                     >
-                      <Phone className="w-4 h-4" />
+                      <Phone className="w-4 h-4" aria-hidden="true" />
                       Call (888) 335-8996
                     </a>
                   </div>
@@ -584,6 +585,6 @@ export default function MedicareSupplement() {  const [activeSection, setActiveS
       </section>
 
       
-    </div>
+    </article>
   );
 }

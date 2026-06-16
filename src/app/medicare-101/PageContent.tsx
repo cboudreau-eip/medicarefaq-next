@@ -288,13 +288,13 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
               <Link href="/" className="hover:text-white transition-colors">
                 Home
               </Link>
-              <ChevronRight className="w-3.5 h-3.5" />
+              <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
               <span className="text-white">Medicare 101 Guide</span>
             </motion.nav>
 
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-xl bg-teal-500/20 flex items-center justify-center">
-                <BookOpen className="w-6 h-6 text-teal-400" />
+                <BookOpen className="w-6 h-6 text-teal-400" aria-hidden="true" />
               </div>
               <span className="text-xs font-semibold tracking-widest text-teal-400 uppercase">
                 Beginner's Guide
@@ -333,14 +333,14 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                 className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 Start Learning
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </a>
               <a
                 href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101" })}
                 className="inline-flex items-center gap-2 border border-white/20 hover:bg-white/10 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
-                <Phone className="w-4 h-4" />
+                <Phone className="w-4 h-4" aria-hidden="true" />
                 Talk to an Agent
               </a>
             </motion.div>
@@ -385,7 +385,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101" })}
                     className="inline-flex items-center gap-2 text-sm font-semibold text-teal-600 hover:text-teal-700"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996
                   </a>
                 </div>
@@ -500,7 +500,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                           {/* What it covers */}
                           <div>
                             <h4 className="flex items-center gap-2 text-sm font-semibold text-slate-800 mb-3">
-                              <CheckCircle2 className="w-4 h-4 text-green-600" />
+                              <CheckCircle2 className="w-4 h-4 text-green-600" aria-hidden="true" />
                               What It Covers
                             </h4>
                             <ul className="space-y-2">
@@ -519,7 +519,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                           {/* What it doesn't cover */}
                           <div>
                             <h4 className="flex items-center gap-2 text-sm font-semibold text-slate-800 mb-3">
-                              <XCircle className="w-4 h-4 text-red-500" />
+                              <XCircle className="w-4 h-4 text-red-500" aria-hidden="true" />
                               What It Doesn't Cover
                             </h4>
                             <ul className="space-y-2">
@@ -540,7 +540,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                         <div className={`${part.lightBg} rounded-xl p-4`}>
                           <p className="text-sm">
                             <span className={`font-semibold ${part.lightText}`}>
-                              <DollarSign className="w-3.5 h-3.5 inline -mt-0.5 mr-1" />
+                              <DollarSign className="w-3.5 h-3.5 inline -mt-0.5 mr-1" aria-hidden="true" />
                               Cost:
                             </span>{" "}
                             <span className="text-slate-600">{part.cost}</span>
@@ -623,7 +623,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                   {/* Documents needed */}
                   <div className="mt-8 border border-amber-200 bg-amber-50 rounded-xl p-5">
                     <div className="flex items-start gap-3">
-                      <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+                      <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h4 className="font-semibold text-amber-900 mb-1">
                           Documents You'll Need to Apply
@@ -764,7 +764,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                   {/* Cost gap callout */}
                   <div className="mt-8 bg-rose-50 border border-rose-200 rounded-xl p-5">
                     <div className="flex items-start gap-3">
-                      <AlertTriangle className="w-5 h-5 text-rose-600 mt-0.5 shrink-0" />
+                      <AlertTriangle className="w-5 h-5 text-rose-600 mt-0.5 shrink-0" aria-hidden="true" />
                       <div>
                         <h4 className="font-semibold text-rose-900 mb-1">
                           The 20% Gap
@@ -888,7 +888,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                       className="inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium px-5 py-3 rounded-lg transition-colors text-sm"
                     >
                       Read Full Comparison
-                      <ArrowRight className="w-4 h-4" />
+                      <ArrowRight className="w-4 h-4" aria-hidden="true" />
                     </Link>
                   </div>
                 </motion.div>
@@ -924,10 +924,11 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                     >
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <div className="flex items-start gap-3">
-                          <HelpCircle className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" />
+                          <HelpCircle className="w-5 h-5 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" />
                           <span className="font-medium text-slate-800">
                             {faq.question}
                           </span>
@@ -935,8 +936,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                         <ChevronDown
                           className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${
                             openFaq === i ? "rotate-180" : ""
-                          }`}
-                        />
+                          }`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 pt-0">
@@ -976,7 +976,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101" })}
                       className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
                     >
-                      <Phone className="w-4 h-4" />
+                      <Phone className="w-4 h-4" aria-hidden="true" />
                       Call (888) 335-8996
                     </a>
                     <Link
@@ -984,7 +984,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                       className="inline-flex items-center gap-2 border border-white/20 hover:bg-white/10 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
                     >
                       Browse All FAQs
-                      <ArrowRight className="w-4 h-4" />
+                      <ArrowRight className="w-4 h-4" aria-hidden="true" />
                     </Link>
                   </div>
 
@@ -1004,7 +1004,7 @@ export default function Medicare101() {  const [activeSection, setActiveSection]
                       },
                     ].map(({ icon: Icon, label }) => (
                       <div key={label} className="flex items-center gap-3">
-                        <Icon className="w-5 h-5 text-teal-400" />
+                        <Icon className="w-5 h-5 text-teal-400" aria-hidden="true" />
                         <span className="text-sm text-slate-300">{label}</span>
                       </div>
                     ))}

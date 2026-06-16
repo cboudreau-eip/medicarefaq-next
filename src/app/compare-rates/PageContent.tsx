@@ -107,7 +107,7 @@ export default function PageContent() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -118,9 +118,9 @@ export default function PageContent() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Compare Plans</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -138,13 +138,13 @@ export default function PageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Compare Plans in Your Area <ArrowRight className="w-4 h-4" />
+                  Compare Plans in Your Area <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare_rates" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -163,25 +163,25 @@ export default function PageContent() {
                   <th className="text-left py-4 px-4 font-semibold min-w-[180px]">Feature</th>
                   <th className="py-4 px-4 font-semibold text-center min-w-[160px]">
                     <div className="flex flex-col items-center gap-1">
-                      <Shield className="w-5 h-5 text-blue-300" />
+                      <Shield className="w-5 h-5 text-blue-300" aria-hidden="true" />
                       <span>Original Medicare</span>
                     </div>
                   </th>
                   <th className="py-4 px-4 font-semibold text-center min-w-[160px]">
                     <div className="flex flex-col items-center gap-1">
-                      <Heart className="w-5 h-5 text-teal-300" />
+                      <Heart className="w-5 h-5 text-teal-300" aria-hidden="true" />
                       <span>Medicare Advantage</span>
                     </div>
                   </th>
                   <th className="py-4 px-4 font-semibold text-center min-w-[160px] bg-teal-700">
                     <div className="flex flex-col items-center gap-1">
-                      <Shield className="w-5 h-5 text-teal-200" />
+                      <Shield className="w-5 h-5 text-teal-200" aria-hidden="true" />
                       <span>Medigap (Supplement)</span>
                     </div>
                   </th>
                   <th className="py-4 px-4 font-semibold text-center min-w-[160px]">
                     <div className="flex flex-col items-center gap-1">
-                      <Pill className="w-5 h-5 text-purple-300" />
+                      <Pill className="w-5 h-5 text-purple-300" aria-hidden="true" />
                       <span>Part D (Drugs)</span>
                     </div>
                   </th>
@@ -249,10 +249,11 @@ export default function PageContent() {
               <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  aria-expanded={openFaq === i}
                   className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                 >
                   <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                 </button>
                 {openFaq === i && (
                   <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</div>
@@ -278,19 +279,19 @@ export default function PageContent() {
                 buttonLabel="Compare Plans"
                 trigger={
                   <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    <Shield className="w-4 h-4" /> Compare Plans in Your Area
+                    <Shield className="w-4 h-4" aria-hidden="true" /> Compare Plans in Your Area
                   </button>
                 }
               />
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "compare_rates" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      </div>
+      </article>
   );
 }

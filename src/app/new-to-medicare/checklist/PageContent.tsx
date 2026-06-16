@@ -325,7 +325,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -336,15 +336,15 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
           <nav className="flex items-center gap-2 text-sm text-slate-300 mb-8">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-3.5 h-3.5" />
+            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
             <Link href="/medicare-101" className="hover:text-white transition-colors">New to Medicare</Link>
-            <ChevronRight className="w-3.5 h-3.5" />
+            <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
             <span className="text-purple-300">Getting Started Checklist</span>
           </nav>
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center">
-              <CheckCircle2 className="w-6 h-6 text-purple-300" />
+              <CheckCircle2 className="w-6 h-6 text-purple-300" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-purple-300 uppercase tracking-wider">Interactive Checklist</span>
           </div>
@@ -408,7 +408,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                 <p className="text-xs text-purple-700 mb-3">Our licensed agents can walk you through every step.</p>
                 <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })} className="flex items-center gap-2 text-sm font-semibold text-purple-700 hover:text-purple-900">
-                  <Phone className="w-4 h-4" /> (888) 335-8996
+                  <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
               </div>
             </div>
@@ -432,7 +432,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                         <h2 className="text-2xl md:text-3xl font-bold text-slate-900">{phase.title}</h2>
                         {isComplete && (
                           <span className="text-xs font-semibold bg-green-100 text-green-700 px-2.5 py-1 rounded-full flex items-center gap-1">
-                            <CheckCircle2 className="w-3.5 h-3.5" /> Complete
+                            <CheckCircle2 className="w-3.5 h-3.5" aria-hidden="true" /> Complete
                           </span>
                         )}
                       </div>
@@ -473,9 +473,9 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                                 className="mt-0.5 shrink-0 transition-transform hover:scale-110"
                               >
                                 {isChecked ? (
-                                  <CheckCircle2 className="w-6 h-6 text-green-500" />
+                                  <CheckCircle2 className="w-6 h-6 text-green-500" aria-hidden="true" />
                                 ) : (
-                                  <Circle className="w-6 h-6 text-slate-300" />
+                                  <Circle className="w-6 h-6 text-slate-300" aria-hidden="true" />
                                 )}
                               </button>
                               <div className="flex-1">
@@ -501,7 +501,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                                     className="text-xs font-medium text-slate-500 hover:text-slate-700 flex items-center gap-1"
                                   >
                                     {isExpanded ? "Show less" : "Learn more"}
-                                    <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
+                                    <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isExpanded ? "rotate-180" : ""}`} aria-hidden="true" />
                                   </button>
                                 )}
                               </div>
@@ -521,7 +521,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                                     href={item.link.href}
                                     className="inline-flex items-center gap-1 text-sm font-semibold text-teal-600 hover:text-teal-800"
                                   >
-                                    {item.link.label} <ArrowRight className="w-3.5 h-3.5" />
+                                    {item.link.label} <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
                                   </Link>
                                 )}
                               </motion.div>
@@ -548,7 +548,7 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                     Call (888) 335-8996
                   </a>
                   <Link href="/medicare-101" className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                    Back to Medicare 101 <ArrowRight className="w-4 h-4" />
+                    Back to Medicare 101 <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </Link>
                 </div>
               </div>
@@ -558,6 +558,6 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
       </div>
 
       
-    </div>
+    </article>
   );
 }

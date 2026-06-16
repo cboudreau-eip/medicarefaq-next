@@ -106,7 +106,7 @@ export default function PageContent() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Dark Navy Hero */}
       <section className="relative bg-gradient-to-br from-[#1a2b4a] to-[#0f1e38] pt-8 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -117,14 +117,14 @@ export default function PageContent() {
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-slate-400 mb-6" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medicare Advantage Plans</span>
           </nav>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-teal-600/20 rounded-xl flex items-center justify-center">
-              <Heart className="w-6 h-6 text-teal-400" />
+              <Heart className="w-6 h-6 text-teal-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-teal-400 uppercase tracking-wider">Medicare Advantage</span>
           </div>
@@ -144,14 +144,14 @@ export default function PageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Find Plans in Your Area <ArrowRight className="w-4 h-4" />
+                  Find Plans in Your Area <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "ma-plans-hero" })}
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -197,7 +197,7 @@ export default function PageContent() {
                   <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "ma-plans-sidebar" })}
                     className="flex items-center gap-2 text-sm font-bold text-blue-700">
-                    <Phone className="w-4 h-4" /> (888) 335-8996
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
               </div>
@@ -208,7 +208,7 @@ export default function PageContent() {
               {/* Key Takeaways */}
               <div className="mb-12 bg-teal-50 border border-teal-200 rounded-xl p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <Lightbulb className="w-5 h-5 text-teal-700" />
+                  <Lightbulb className="w-5 h-5 text-teal-700" aria-hidden="true" />
                   <h3 className="font-bold text-teal-900 text-sm uppercase tracking-wider">Key Takeaways</h3>
                 </div>
                 <ul className="space-y-2">
@@ -220,7 +220,7 @@ export default function PageContent() {
                     "Medicare Advantage caps your annual out-of-pocket costs, unlike Original Medicare which has no limit",
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-teal-800">
-                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" />
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -257,24 +257,24 @@ export default function PageContent() {
                 <div className="grid md:grid-cols-2 gap-4 mb-6">
                   <div className="bg-white border border-slate-200 rounded-xl p-5">
                     <h3 className="font-bold text-slate-900 mb-3 flex items-center gap-2">
-                      <Shield className="w-5 h-5 text-teal-600" /> Required Benefits
+                      <Shield className="w-5 h-5 text-teal-600" aria-hidden="true" /> Required Benefits
                     </h3>
                     <ul className="space-y-2 text-sm text-slate-700">
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" /> Hospital stays (Part A)</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" /> Doctor visits &amp; outpatient services (Part B)</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" /> Preventive care (annual wellness visits, screenings)</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" /> Emergency &amp; urgent care (nationwide)</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" /> Hospital stays (Part A)</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" /> Doctor visits &amp; outpatient services (Part B)</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" /> Preventive care (annual wellness visits, screenings)</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-teal-600 mt-0.5 shrink-0" aria-hidden="true" /> Emergency &amp; urgent care (nationwide)</li>
                     </ul>
                   </div>
                   <div className="bg-white border border-slate-200 rounded-xl p-5">
                     <h3 className="font-bold text-slate-900 mb-3 flex items-center gap-2">
-                      <Star className="w-5 h-5 text-amber-500" /> Common Extras
+                      <Star className="w-5 h-5 text-amber-500" aria-hidden="true" /> Common Extras
                     </h3>
                     <ul className="space-y-2 text-sm text-slate-700">
-                      <li className="flex items-start gap-2"><Pill className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" /> Prescription drug coverage (96% of plans)</li>
-                      <li className="flex items-start gap-2"><Eye className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" /> Dental, vision &amp; hearing coverage</li>
-                      <li className="flex items-start gap-2"><Activity className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" /> Fitness memberships &amp; wellness programs</li>
-                      <li className="flex items-start gap-2"><Heart className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" /> OTC allowances, telehealth, transportation</li>
+                      <li className="flex items-start gap-2"><Pill className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" /> Prescription drug coverage (96% of plans)</li>
+                      <li className="flex items-start gap-2"><Eye className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" /> Dental, vision &amp; hearing coverage</li>
+                      <li className="flex items-start gap-2"><Activity className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" /> Fitness memberships &amp; wellness programs</li>
+                      <li className="flex items-start gap-2"><Heart className="w-4 h-4 text-amber-500 mt-0.5 shrink-0" aria-hidden="true" /> OTC allowances, telehealth, transportation</li>
                     </ul>
                   </div>
                 </div>
@@ -371,26 +371,26 @@ export default function PageContent() {
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="bg-green-50 border border-green-200 rounded-xl p-6">
                     <h3 className="font-bold text-green-900 mb-4 flex items-center gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-green-600" /> Advantages
+                      <CheckCircle2 className="w-5 h-5 text-green-600" aria-hidden="true" /> Advantages
                     </h3>
                     <ul className="space-y-3 text-sm text-green-800">
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" /> Lower monthly premiums (often $0)</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" /> Annual out-of-pocket maximum provides cost protection</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" /> Extra benefits like dental, vision, drugs included</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" /> Coordinated care through provider networks</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" /> Many plans offer additional perks and wellness programs</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" /> Lower monthly premiums (often $0)</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" /> Annual out-of-pocket maximum provides cost protection</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" /> Extra benefits like dental, vision, drugs included</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" /> Coordinated care through provider networks</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" /> Many plans offer additional perks and wellness programs</li>
                     </ul>
                   </div>
                   <div className="bg-red-50 border border-red-200 rounded-xl p-6">
                     <h3 className="font-bold text-red-900 mb-4 flex items-center gap-2">
-                      <XCircle className="w-5 h-5 text-red-600" /> Disadvantages
+                      <XCircle className="w-5 h-5 text-red-600" aria-hidden="true" /> Disadvantages
                     </h3>
                     <ul className="space-y-3 text-sm text-red-800">
-                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Limited to provider networks (except emergencies)</li>
-                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> May need referrals to see specialists</li>
-                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Plan networks and benefits can change annually</li>
-                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Less flexibility than Original Medicare + <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></li>
-                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" /> Prior authorization may be required for some services</li>
+                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" /> Limited to provider networks (except emergencies)</li>
+                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" /> May need referrals to see specialists</li>
+                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" /> Plan networks and benefits can change annually</li>
+                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" /> Less flexibility than Original Medicare + <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></li>
+                      <li className="flex items-start gap-2"><XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" /> Prior authorization may be required for some services</li>
                     </ul>
                   </div>
                 </div>
@@ -487,17 +487,17 @@ export default function PageContent() {
                   <div className="bg-teal-50 border border-teal-200 rounded-xl p-5">
                     <p className="font-bold text-teal-900 text-sm mb-2">Choose Medicare Advantage if you:</p>
                     <ul className="space-y-1.5 text-sm text-teal-800">
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" /> Want lower premiums and extra benefits</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" /> Don&apos;t mind network restrictions</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" /> Want cost predictability with an out-of-pocket cap</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" /> Want lower premiums and extra benefits</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" /> Don&apos;t mind network restrictions</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-teal-600" aria-hidden="true" /> Want cost predictability with an out-of-pocket cap</li>
                     </ul>
                   </div>
                   <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
                     <p className="font-bold text-blue-900 text-sm mb-2">Choose Original Medicare if you:</p>
                     <ul className="space-y-1.5 text-sm text-blue-800">
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Want maximum flexibility to see any provider</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Travel frequently or live in multiple states</li>
-                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" /> Are willing to pay for <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> Want maximum flexibility to see any provider</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> Travel frequently or live in multiple states</li>
+                      <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0 text-blue-600" aria-hidden="true" /> Are willing to pay for <Link href="/medicare-supplement-plans" className="text-teal-700 underline hover:text-teal-900">Medigap</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -513,10 +513,11 @@ export default function PageContent() {
                     <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                       <button
                         onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        aria-expanded={openFaq === i}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                       >
                         <span className="font-semibold text-slate-900 text-sm pr-4">{faq.q}</span>
-                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                       </button>
                       {openFaq === i && (
                         <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
@@ -550,7 +551,7 @@ export default function PageContent() {
                     onClick={() => trackPhoneClick({ phone_number: "(800) 845-2484", page_section: "ma-plans-cta" })}
                     className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg border border-white/30 transition-colors"
                   >
-                    <Phone className="w-4 h-4" /> (800) 845-2484
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (800) 845-2484
                   </a>
                 </div>
               </section>
@@ -558,6 +559,6 @@ export default function PageContent() {
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

@@ -104,7 +104,7 @@ export default function PageContent() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -115,9 +115,9 @@ export default function PageContent() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Supplement vs. Advantage</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -128,11 +128,11 @@ export default function PageContent() {
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#comparison" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              See Full Comparison <ArrowRight className="w-4 h-4" />
+              See Full Comparison <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_vs_advantage" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              <Phone className="w-4 h-4" /> Talk to an Agent
+              <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
         </div>
@@ -146,7 +146,7 @@ export default function PageContent() {
             <div className="bg-blue-50 rounded-2xl p-8 border border-blue-100">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center">
-                  <Shield className="w-6 h-6 text-white" />
+                  <Shield className="w-6 h-6 text-white" aria-hidden="true" />
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-slate-900">Medicare Supplement</h2>
@@ -160,7 +160,7 @@ export default function PageContent() {
                 <p className="text-sm font-semibold text-green-800">Pros:</p>
                 {supplementPros.map((pro, i) => (
                   <div key={i} className="flex items-start gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <span className="text-sm text-slate-700">{pro}</span>
                   </div>
                 ))}
@@ -169,13 +169,13 @@ export default function PageContent() {
                 <p className="text-sm font-semibold text-red-800">Cons:</p>
                 {supplementCons.map((con, i) => (
                   <div key={i} className="flex items-start gap-2">
-                    <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" />
+                    <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" />
                     <span className="text-sm text-slate-700">{con}</span>
                   </div>
                 ))}
               </div>
               <Link href="/medicare-supplement-plans" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 mt-6 hover:text-blue-900 transition-colors">
-                Learn more about Medigap <ArrowRight className="w-4 h-4" />
+                Learn more about Medigap <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
 
@@ -183,7 +183,7 @@ export default function PageContent() {
             <div className="bg-teal-50 rounded-2xl p-8 border border-teal-100">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-teal-600 rounded-xl flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-white" />
+                  <Heart className="w-6 h-6 text-white" aria-hidden="true" />
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-slate-900">Medicare Advantage</h2>
@@ -197,7 +197,7 @@ export default function PageContent() {
                 <p className="text-sm font-semibold text-green-800">Pros:</p>
                 {advantagePros.map((pro, i) => (
                   <div key={i} className="flex items-start gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
+                    <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                     <span className="text-sm text-slate-700">{pro}</span>
                   </div>
                 ))}
@@ -206,13 +206,13 @@ export default function PageContent() {
                 <p className="text-sm font-semibold text-red-800">Cons:</p>
                 {advantageCons.map((con, i) => (
                   <div key={i} className="flex items-start gap-2">
-                    <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" />
+                    <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" />
                     <span className="text-sm text-slate-700">{con}</span>
                   </div>
                 ))}
               </div>
               <Link href="/medicare-part-c/medicare-advantage-plans" className="inline-flex items-center gap-2 text-sm font-semibold text-teal-700 mt-6 hover:text-teal-900 transition-colors">
-                Learn more about Medicare Advantage <ArrowRight className="w-4 h-4" />
+                Learn more about Medicare Advantage <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
@@ -220,7 +220,7 @@ export default function PageContent() {
           {/* Warning */}
           <div className="bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl mb-16">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" />
+              <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
               <div>
                 <p className="font-semibold text-amber-900 mb-1">Important: This Decision May Be Permanent</p>
                 <p className="text-sm text-amber-800">
@@ -242,12 +242,12 @@ export default function PageContent() {
                     <th className="text-left py-4 px-4 font-semibold min-w-[180px]">Feature</th>
                     <th className="py-4 px-4 font-semibold text-center min-w-[200px] bg-blue-800">
                       <div className="flex items-center justify-center gap-2">
-                        <Shield className="w-4 h-4" /> Medicare Supplement
+                        <Shield className="w-4 h-4" aria-hidden="true" /> Medicare Supplement
                       </div>
                     </th>
                     <th className="py-4 px-4 font-semibold text-center min-w-[200px] bg-teal-700">
                       <div className="flex items-center justify-center gap-2">
-                        <Heart className="w-4 h-4" /> Medicare Advantage
+                        <Heart className="w-4 h-4" aria-hidden="true" /> Medicare Advantage
                       </div>
                     </th>
                   </tr>
@@ -274,10 +274,11 @@ export default function PageContent() {
               <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  aria-expanded={openFaq === i}
                   className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                 >
                   <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                 </button>
                 {openFaq === i && (
                   <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</div>
@@ -297,7 +298,7 @@ export default function PageContent() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_vs_advantage" })} className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <ZipFormModal
                 coverageType="ms"
@@ -326,6 +327,6 @@ export default function PageContent() {
           </div>
         </div>
       </section>
-      </div>
+      </article>
   );
 }

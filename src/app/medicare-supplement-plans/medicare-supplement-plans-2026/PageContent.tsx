@@ -71,7 +71,7 @@ export default function PageContent() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -82,14 +82,14 @@ export default function PageContent() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <Link href="/medicare-supplement-plans" className="hover:text-white transition-colors">Medicare Supplement</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Plans 2026</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-              <Shield className="w-6 h-6 text-white" />
+              <Shield className="w-6 h-6 text-white" aria-hidden="true" />
             </div>
             <span className="text-xs font-bold text-white uppercase tracking-wider px-3 py-1 rounded-full bg-teal-600">
               2026 Update
@@ -104,10 +104,10 @@ export default function PageContent() {
           <div className="flex flex-wrap gap-4">
             <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplement_plans_2026" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              <Phone className="w-4 h-4" /> Compare 2026 Rates
+              <Phone className="w-4 h-4" aria-hidden="true" /> Compare 2026 Rates
             </a>
             <Link href="/medicare-supplement-plans/compare" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
-              Compare All Plans <ArrowRight className="w-4 h-4" />
+              Compare All Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </Link>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function PageContent() {
             <div className="space-y-5">
               {WHAT_CHANGED.map((item, i) => (
                 <div key={i} className="flex items-start gap-4 p-5 border border-slate-200 rounded-xl">
-                  <TrendingUp className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" />
+                  <TrendingUp className="w-6 h-6 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">{item.title}</h3>
                     <p className="text-sm text-slate-600 leading-relaxed">{item.desc}</p>
@@ -178,7 +178,7 @@ export default function PageContent() {
                   <p className="text-xs text-slate-500 mb-2">{plan.premium}/mo</p>
                   <p className="text-sm text-slate-600 mb-4">{plan.summary}</p>
                   <Link href={`/medicare-supplement-plans/${plan.slug}`} className="inline-flex items-center gap-1 text-teal-700 font-semibold text-sm hover:underline">
-                    Learn More <ArrowRight className="w-4 h-4" />
+                    Learn More <ArrowRight className="w-4 h-4" aria-hidden="true" />
                   </Link>
                 </div>
               ))}
@@ -188,7 +188,7 @@ export default function PageContent() {
           {/* Premium Trends */}
           <div className="mb-14 p-6 bg-blue-50 rounded-xl border border-blue-200">
             <div className="flex items-start gap-3 mb-4">
-              <DollarSign className="w-6 h-6 text-blue-700 shrink-0 mt-0.5" />
+              <DollarSign className="w-6 h-6 text-blue-700 shrink-0 mt-0.5" aria-hidden="true" />
               <h2 className="text-xl font-bold text-blue-900">2026 Premium Trends</h2>
             </div>
             <p className="text-slate-700 mb-4 text-sm leading-relaxed">
@@ -202,13 +202,13 @@ export default function PageContent() {
                 "Older Plan F enrollees saw some of the steepest increases as the risk pool ages",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm text-slate-700">
-                  <CheckCircle2 className="w-4 h-4 text-blue-600 mt-0.5 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
                   {item}
                 </li>
               ))}
             </ul>
             <div className="flex items-start gap-2 p-3 bg-white rounded-lg border border-blue-100">
-              <Info className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
+              <Info className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" aria-hidden="true" />
               <p className="text-xs text-blue-800">
                 The same Plan G can vary by 50% or more between insurers in the same zip code. Comparing quotes annually is the most effective way to control your Medigap costs.
               </p>
@@ -224,7 +224,7 @@ export default function PageContent() {
             <div className="flex flex-wrap gap-3">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplement_plans_2026" })} className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <ZipFormModal
                 coverageType="ms"
@@ -238,6 +238,6 @@ export default function PageContent() {
         </div>
       </section>
 
-      </div>
+      </article>
   );
 }

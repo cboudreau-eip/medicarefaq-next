@@ -100,7 +100,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       
       
       
@@ -115,12 +115,12 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronRight className="w-3 h-3" />
+            <ChevronRight className="w-3 h-3" aria-hidden="true" />
             <span className="text-slate-300">Contact Us</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-teal-500/20 rounded-xl flex items-center justify-center">
-              <MessageSquare className="w-6 h-6 text-teal-400" />
+              <MessageSquare className="w-6 h-6 text-teal-400" aria-hidden="true" />
             </div>
             <span className="text-sm font-semibold text-teal-400 uppercase tracking-wider">Get In Touch</span>
           </div>
@@ -131,9 +131,9 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
             Have questions about Medicare? Our licensed agents are here to help — at no cost to you. Call us, email us, or fill out the form below.
           </p>
           <div className="flex flex-wrap items-center gap-6 text-sm text-slate-400">
-            <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-teal-400" /> Licensed in All 50 States</span>
-            <span className="flex items-center gap-1.5"><Star className="w-4 h-4 text-teal-400" /> BBB A+ Rated</span>
-            <span className="flex items-center gap-1.5"><Users className="w-4 h-4 text-teal-400" /> 1,000,000+ Clients Helped</span>
+            <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-teal-400" aria-hidden="true" /> Licensed in All 50 States</span>
+            <span className="flex items-center gap-1.5"><Star className="w-4 h-4 text-teal-400" aria-hidden="true" /> BBB A+ Rated</span>
+            <span className="flex items-center gap-1.5"><Users className="w-4 h-4 text-teal-400" aria-hidden="true" /> 1,000,000+ Clients Helped</span>
           </div>
         </div>
       </section>
@@ -148,7 +148,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
               className="bg-white rounded-xl border border-slate-200 p-5 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-teal-200 transition-all group"
             >
               <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center group-hover:bg-teal-100 transition-colors">
-                <Phone className="w-5 h-5 text-teal-600" />
+                <Phone className="w-5 h-5 text-teal-600" aria-hidden="true" />
               </div>
               <div>
                 <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-0.5">Call Us</div>
@@ -160,7 +160,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
               className="bg-white rounded-xl border border-slate-200 p-5 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-teal-200 transition-all group"
             >
               <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center group-hover:bg-blue-100 transition-colors">
-                <Mail className="w-5 h-5 text-blue-600" />
+                <Mail className="w-5 h-5 text-blue-600" aria-hidden="true" />
               </div>
               <div>
                 <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-0.5">Email Us</div>
@@ -169,7 +169,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
             </a>
             <div className="bg-white rounded-xl border border-slate-200 p-5 flex items-center gap-4 shadow-sm">
               <div className="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center">
-                <MapPin className="w-5 h-5 text-amber-600" />
+                <MapPin className="w-5 h-5 text-amber-600" aria-hidden="true" />
               </div>
               <div>
                 <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-0.5">Visit Us</div>
@@ -190,7 +190,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
               <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 bg-teal-50 rounded-lg flex items-center justify-center">
-                    <Send className="w-5 h-5 text-teal-600" />
+                    <Send className="w-5 h-5 text-teal-600" aria-hidden="true" />
                   </div>
                   <div>
                     <h2 className="text-xl font-bold text-slate-900" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -203,7 +203,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
                 {submitted ? (
                   <div className="text-center py-12">
                     <div className="w-16 h-16 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <CheckCircle2 className="w-8 h-8 text-teal-600" />
+                      <CheckCircle2 className="w-8 h-8 text-teal-600" aria-hidden="true" />
                     </div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2" style={{ fontFamily: "'Merriweather', serif" }}>
                       Thank You!
@@ -375,7 +375,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
                       {submitting ? (
                         <><span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" /> Sending...</>
                       ) : (
-                        <><Send className="w-4 h-4" /> Send Message</>
+                        <><Send className="w-4 h-4" aria-hidden="true" /> Send Message</>
                       )}
                     </button>
                   </form>
@@ -388,7 +388,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
               {/* Hours */}
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <div className="flex items-center gap-2 mb-4">
-                  <Clock className="w-5 h-5 text-teal-600" />
+                  <Clock className="w-5 h-5 text-teal-600" aria-hidden="true" />
                   <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider">Hours of Operation</h3>
                 </div>
                 <p className="text-xs text-slate-500 mb-3">All times Eastern (EST)</p>
@@ -420,7 +420,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
               {/* Call CTA */}
               <div className="bg-gradient-to-br from-teal-600 to-teal-700 rounded-2xl p-5 text-white">
                 <div className="flex items-center gap-2 mb-3">
-                  <Headphones className="w-5 h-5 text-teal-200" />
+                  <Headphones className="w-5 h-5 text-teal-200" aria-hidden="true" />
                   <h3 className="text-sm font-bold uppercase tracking-wider text-teal-100">Prefer to Talk?</h3>
                 </div>
                 <p className="text-sm text-teal-100 mb-4">
@@ -431,33 +431,33 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "contact" })}
                   className="flex items-center justify-center gap-2 bg-white text-teal-700 font-bold px-5 py-3 rounded-lg hover:bg-teal-50 transition-colors w-full"
                 >
-                  <Phone className="w-4 h-4" /> (888) 335-8996
+                  <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
               </div>
 
               {/* Office Info */}
               <div className="bg-white border border-slate-200 rounded-2xl p-5">
                 <div className="flex items-center gap-2 mb-4">
-                  <Building2 className="w-5 h-5 text-slate-600" />
+                  <Building2 className="w-5 h-5 text-slate-600" aria-hidden="true" />
                   <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider">Our Office</h3>
                 </div>
                 <div className="space-y-3 text-sm">
                   <div className="flex items-start gap-2">
-                    <MapPin className="w-4 h-4 text-slate-400 mt-0.5 shrink-0" />
+                    <MapPin className="w-4 h-4 text-slate-400 mt-0.5 shrink-0" aria-hidden="true" />
                     <div>
                       <div className="font-medium text-slate-900">8745 Henderson Rd, STE 220</div>
                       <div className="text-slate-500">Tampa, FL 33634</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Phone className="w-4 h-4 text-slate-400 shrink-0" />
+                    <Phone className="w-4 h-4 text-slate-400 shrink-0" aria-hidden="true" />
                     <div>
                       <span className="text-slate-500 text-xs">General: </span>
                       <span className="font-medium text-slate-900">(800) 845-2484</span>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Mail className="w-4 h-4 text-slate-400 shrink-0" />
+                    <Mail className="w-4 h-4 text-slate-400 shrink-0" aria-hidden="true" />
                     <a href="mailto:info@medicarefaq.com" className="font-medium text-teal-600 hover:text-teal-700 transition-colors">
                       info@medicarefaq.com
                     </a>
@@ -482,7 +482,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
                     >
                       <span className="text-base">{link.icon}</span>
                       <span className="group-hover:translate-x-0.5 transition-transform">{link.label}</span>
-                      <ArrowRight className="w-3 h-3 ml-auto opacity-0 group-hover:opacity-100 transition-opacity text-teal-500" />
+                      <ArrowRight className="w-3 h-3 ml-auto opacity-0 group-hover:opacity-100 transition-opacity text-teal-500" aria-hidden="true" />
                     </Link>
                   ))}
                 </div>
@@ -553,13 +553,13 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "contact" })}
                 className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <Link
                 href="/medicare-101"
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
               >
-                Explore Medicare 101 <ArrowRight className="w-4 h-4" />
+                Explore Medicare 101 <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
@@ -567,6 +567,6 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
       </section>
 
       
-    </div>
+    </article>
   );
 }

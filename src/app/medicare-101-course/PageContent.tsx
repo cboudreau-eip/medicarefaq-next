@@ -63,18 +63,18 @@ export default function PageContent() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-8 pb-16">
         <div className="container max-w-4xl">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Medicare 101 Course</span>
           </div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-teal-500/20 border border-teal-400/30 rounded-xl flex items-center justify-center">
-              <GraduationCap className="w-6 h-6 text-teal-400" />
+              <GraduationCap className="w-6 h-6 text-teal-400" aria-hidden="true" />
             </div>
           </div>
           <h1
@@ -93,13 +93,13 @@ export default function PageContent() {
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-slate-300">
             <span className="flex items-center gap-1.5">
-              <BookOpen className="w-4 h-4 text-teal-400" /> 7 lessons
+              <BookOpen className="w-4 h-4 text-teal-400" aria-hidden="true" /> 7 lessons
             </span>
             <span className="flex items-center gap-1.5">
-              <Clock className="w-4 h-4 text-teal-400" /> ~35 min total
+              <Clock className="w-4 h-4 text-teal-400" aria-hidden="true" /> ~35 min total
             </span>
             <span className="flex items-center gap-1.5">
-              <Shield className="w-4 h-4 text-teal-400" /> Free, no sign-up required
+              <Shield className="w-4 h-4 text-teal-400" aria-hidden="true" /> Free, no sign-up required
             </span>
           </div>
         </div>
@@ -125,7 +125,7 @@ export default function PageContent() {
               "Your exact next steps to get covered",
             ].map((item) => (
               <div key={item} className="flex items-start gap-2.5">
-                <CheckCircle2 className="w-5 h-5 text-teal-600 shrink-0 mt-0.5" />
+                <CheckCircle2 className="w-5 h-5 text-teal-600 shrink-0 mt-0.5" aria-hidden="true" />
                 <span className="text-slate-700 text-sm">{item}</span>
               </div>
             ))}
@@ -160,9 +160,9 @@ export default function PageContent() {
                 </div>
                 <div className="hidden sm:flex items-center gap-3 shrink-0">
                   <span className="text-xs text-slate-400 flex items-center gap-1">
-                    <Clock className="w-3.5 h-3.5" /> {lesson.readTime}
+                    <Clock className="w-3.5 h-3.5" aria-hidden="true" /> {lesson.readTime}
                   </span>
-                  <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all" />
+                  <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all" aria-hidden="true" />
                 </div>
               </Link>
             ))}
@@ -173,7 +173,7 @@ export default function PageContent() {
       {/* CTA */}
       <section className="py-14 bg-slate-50 border-t border-slate-200">
         <div className="container max-w-4xl text-center">
-          <Star className="w-8 h-8 text-amber-500 mx-auto mb-4" />
+          <Star className="w-8 h-8 text-amber-500 mx-auto mb-4" aria-hidden="true" />
           <h3
             className="text-2xl font-bold text-slate-900 mb-3"
             style={{ fontFamily: "'Merriweather', serif" }}
@@ -194,7 +194,7 @@ export default function PageContent() {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-8 py-3 rounded-lg transition-colors">
-                  Get Personalized Rates <ArrowRight className="w-4 h-4" />
+                  Get Personalized Rates <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
@@ -205,11 +205,11 @@ export default function PageContent() {
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101_course" })}
               className="inline-flex items-center gap-2 bg-white hover:bg-slate-100 text-slate-800 font-semibold px-8 py-3 rounded-lg transition-colors border border-slate-300"
             >
-              <Phone className="w-4 h-4" /> Call (888) 335-8996
+              <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
             </a>
           </div>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

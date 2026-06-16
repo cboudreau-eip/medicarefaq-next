@@ -124,7 +124,7 @@ export default function About() {  return (
               <Link href="/" className="hover:text-white transition-colors">
                 Home
               </Link>
-              <ChevronRight className="w-3.5 h-3.5" />
+              <ChevronRight className="w-3.5 h-3.5" aria-hidden="true" />
               <span className="text-white">About Us</span>
             </motion.nav>
 
@@ -214,7 +214,7 @@ export default function About() {  return (
                 <div className="bg-slate-50 rounded-2xl p-8 lg:p-10">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-amber-600" />
+                    <Building2 className="w-5 h-5 text-amber-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900">
                     Company Snapshot
@@ -382,7 +382,7 @@ export default function About() {  return (
                   custom={i}
                   className="bg-white/5 border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-colors"
                 >
-                  <Trophy className="w-8 h-8 text-amber-400 mx-auto mb-3" />
+                  <Trophy className="w-8 h-8 text-amber-400 mx-auto mb-3" aria-hidden="true" />
                   <h3 className="text-lg font-bold">{award.title}</h3>
                   <p className="text-sm text-slate-400">{award.subtitle}</p>
                 </motion.div>
@@ -410,7 +410,7 @@ export default function About() {  return (
                     custom={i}
                     className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-lg px-5 py-3"
                   >
-                    <Award className="w-5 h-5 text-amber-400 shrink-0" />
+                    <Award className="w-5 h-5 text-amber-400 shrink-0" aria-hidden="true" />
                     <span className="text-sm text-slate-300">{award}</span>
                   </motion.div>
                 ))}
@@ -433,7 +433,7 @@ export default function About() {  return (
               >
                 <div className="flex items-center gap-3 mb-5">
                   <div className="w-10 h-10 bg-indigo-50 rounded-lg flex items-center justify-center">
-                    <Users className="w-5 h-5 text-indigo-600" />
+                    <Users className="w-5 h-5 text-indigo-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900">
                     Editorial Team
@@ -460,7 +460,7 @@ export default function About() {  return (
               >
                 <div className="flex items-center gap-3 mb-5">
                   <div className="w-10 h-10 bg-teal-50 rounded-lg flex items-center justify-center">
-                    <Briefcase className="w-5 h-5 text-teal-600" />
+                    <Briefcase className="w-5 h-5 text-teal-600" aria-hidden="true" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900">
                     Client Care Team
@@ -559,7 +559,7 @@ export default function About() {  return (
                 className="text-center p-6"
               >
                 <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="w-6 h-6 text-teal-600" />
+                  <MapPin className="w-6 h-6 text-teal-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-semibold text-slate-900 mb-1">Address</h3>
                 <p className="text-sm text-slate-500 leading-relaxed">
@@ -578,7 +578,7 @@ export default function About() {  return (
                 className="text-center p-6"
               >
                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Phone className="w-6 h-6 text-blue-600" />
+                  <Phone className="w-6 h-6 text-blue-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-semibold text-slate-900 mb-1">Phone</h3>
                 <p className="text-sm text-slate-500">
@@ -604,7 +604,7 @@ export default function About() {  return (
                 className="text-center p-6"
               >
                 <div className="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Mail className="w-6 h-6 text-amber-600" />
+                  <Mail className="w-6 h-6 text-amber-600" aria-hidden="true" />
                 </div>
                 <h3 className="font-semibold text-slate-900 mb-1">Email</h3>
                 <p className="text-sm text-slate-500">
@@ -636,7 +636,7 @@ export default function About() {  return (
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "about_us" })}
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#C41230] font-semibold px-8 py-3.5 rounded-lg hover:bg-slate-100 transition-colors"
               >
-                <Phone className="w-4 h-4" />
+                <Phone className="w-4 h-4" aria-hidden="true" />
                 Call (888) 335-8996
               </a>
               <ZipFormModal

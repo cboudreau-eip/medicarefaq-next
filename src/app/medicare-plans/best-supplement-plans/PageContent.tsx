@@ -117,7 +117,7 @@ export default function PageContent() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
 
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 pt-8 pb-16 overflow-hidden">
@@ -128,13 +128,13 @@ export default function PageContent() {
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-slate-400">Medicare Plans</span>
-            <ChevronDown className="w-3 h-3 rotate-[-90deg]" />
+            <ChevronDown className="w-3 h-3 rotate-[-90deg]" aria-hidden="true" />
             <span className="text-teal-400">Best Supplement Plans</span>
           </div>
           <div className="flex items-center gap-2 mb-4">
-            <Trophy className="w-6 h-6 text-amber-400" />
+            <Trophy className="w-6 h-6 text-amber-400" aria-hidden="true" />
             <span className="text-sm font-semibold text-amber-400 uppercase tracking-wider">2026 Rankings</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
@@ -185,7 +185,7 @@ export default function PageContent() {
                       <div className="space-y-1.5">
                         {plan.pros.map((pro, i) => (
                           <div key={i} className="flex items-start gap-2">
-                            <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
+                            <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                             <span className="text-xs text-slate-700">{pro}</span>
                           </div>
                         ))}
@@ -196,7 +196,7 @@ export default function PageContent() {
                       <div className="space-y-1.5">
                         {plan.cons.map((con, i) => (
                           <div key={i} className="flex items-start gap-2">
-                            <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" />
+                            <XCircle className="w-4 h-4 text-red-500 mt-0.5 shrink-0" aria-hidden="true" />
                             <span className="text-xs text-slate-700">{con}</span>
                           </div>
                         ))}
@@ -230,9 +230,9 @@ export default function PageContent() {
                     {[row.g, row.n, row.f, row.gHd].map((val, j) => (
                       <td key={j} className="py-3 px-4 text-center">
                         {val === true ? (
-                          <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" />
+                          <CheckCircle2 className="w-5 h-5 text-green-600 mx-auto" aria-hidden="true" />
                         ) : val === false ? (
-                          <XCircle className="w-5 h-5 text-red-400 mx-auto" />
+                          <XCircle className="w-5 h-5 text-red-400 mx-auto" aria-hidden="true" />
                         ) : (
                           <span className="text-xs font-medium text-amber-700">{val}</span>
                         )}
@@ -254,10 +254,11 @@ export default function PageContent() {
               <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  aria-expanded={openFaq === i}
                   className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
                 >
                   <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                 </button>
                 {openFaq === i && (
                   <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.a}</div>
@@ -277,16 +278,16 @@ export default function PageContent() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "best_supplement_plans" })} className="inline-flex items-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
-                <Phone className="w-4 h-4" /> Call (888) 335-8996
+                <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
               <Link href="/medicare-plans/supplement-vs-advantage" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
-                Supplement vs. Advantage <ArrowRight className="w-4 h-4" />
+                Supplement vs. Advantage <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      </div>
+      </article>
   );
 }

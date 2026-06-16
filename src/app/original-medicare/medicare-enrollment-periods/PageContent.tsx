@@ -97,7 +97,7 @@ export default function MedicareEnrollmentPeriods() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
-    <div className="min-h-screen bg-white">
+    <article className="min-h-screen bg-white">
       <FAQSchema faqs={faqs}  />
       <BreadcrumbSchema
         items={[
@@ -144,7 +144,7 @@ export default function MedicareEnrollmentPeriods() {
               <div key={i} className={`border-l-4 rounded-xl p-5 ${period.color}`}>
                 <h3 className={`font-bold text-lg mb-1 ${period.titleColor}`}>{period.name}</h3>
                 <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2 flex items-center gap-1">
-                  <Calendar className="w-3 h-3" /> {period.dates}
+                  <Calendar className="w-3 h-3" aria-hidden="true" /> {period.dates}
                 </p>
                 <p className="text-sm text-gray-700 mb-3">{period.description}</p>
                 <Link href={period.link} className="text-sm text-[#0D9488] hover:underline font-medium">
@@ -159,7 +159,7 @@ export default function MedicareEnrollmentPeriods() {
         <section className="mb-10">
           <div className="bg-red-50 border border-red-200 rounded-xl p-6">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" />
+              <AlertTriangle className="w-6 h-6 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
               <div>
                 <h3 className="font-bold text-red-800 mb-2">Missing Your Enrollment Window Has Permanent Consequences</h3>
                 <p className="text-sm text-red-700 mb-3">
@@ -188,7 +188,7 @@ export default function MedicareEnrollmentPeriods() {
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                 >
                   <span className="font-semibold text-[#1B2A4A] pr-4">{faq.q}</span>
-                  <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                  <ChevronDown className={`w-5 h-5 text-gray-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                 </button>
                 {openFaq === i && (
                   <div className="px-5 pb-5 text-gray-700 text-sm leading-relaxed border-t border-gray-100">
@@ -200,6 +200,6 @@ export default function MedicareEnrollmentPeriods() {
           </div>
         </section>
       </div>
-    </div>
+    </article>
   );
 }
