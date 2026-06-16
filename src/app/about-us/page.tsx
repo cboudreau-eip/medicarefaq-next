@@ -15,9 +15,24 @@ export const metadata: Metadata = {
   },
 };
 
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  name: "About MedicareFAQ",
+  description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
+  url: "https://www.medicarefaq.com/about-us/",
+  publisher: {
+    "@type": "Organization",
+    name: "MedicareFAQ",
+    url: "https://www.medicarefaq.com",
+    logo: { "@type": "ImageObject", url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png" },
+  },
+};
+
 export default function Page() {
   return (
     <SiteLayout>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }} />
       <About />
     </SiteLayout>
   );

@@ -15,9 +15,24 @@ export const metadata: Metadata = {
   },
 };
 
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  name: "MedicareFAQ Blog",
+  description: "Check out our Medicare blog where we answer the most frequently asked questions regarding everything Medicare!",
+  url: "https://www.medicarefaq.com/blog/",
+  publisher: {
+    "@type": "Organization",
+    name: "MedicareFAQ",
+    url: "https://www.medicarefaq.com",
+    logo: { "@type": "ImageObject", url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png" },
+  },
+};
+
 export default function Page() {
   return (
     <SiteLayout>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       <Blog />
     </SiteLayout>
   );

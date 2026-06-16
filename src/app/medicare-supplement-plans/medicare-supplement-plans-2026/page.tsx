@@ -4,10 +4,10 @@ import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
   title: "Medicare Supplement Plans 2026 | Medigap Plan Options & Updates",
-  description: "See what",
+  description: "See what's new with Medicare Supplement plans in 2026. Compare Medigap plan options, understand rate changes, and find the best coverage for your needs.",
   openGraph: {
     title: "Medicare Supplement Plans 2026 | Medigap Plan Options & Updates",
-    description: "See what",
+    description: "See what's new with Medicare Supplement plans in 2026. Compare Medigap plan options and find the best coverage for your needs.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/medicare-supplement-plans-2026/",
     type: "website",
   },
@@ -21,7 +21,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Medicare Supplement Plans 2026 | Medigap Plan Options & Updates",
-    description: "See what",
+    description: "See what's new with Medicare Supplement plans in 2026. Compare Medigap plan options, understand rate changes, and find the best coverage for your needs.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/medicare-supplement-plans-2026/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

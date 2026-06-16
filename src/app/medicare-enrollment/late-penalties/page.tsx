@@ -5,11 +5,11 @@ import LatePenalties from "./PageContent";
 export const metadata: Metadata = {
   title: "Medicare Late Enrollment Penalties: What They are & How to Avoid Them",
   description: "Missing your Medicare enrollment window can result in permanent late penalties on Part A, Part B, and Part D. Learn how the penalties work and how to avoid them.",
-  alternates: { canonical: "https://www.medicarefaq.com/medicare-enrollment/late-enrollment-penalty/" },
+  alternates: { canonical: "https://www.medicarefaq.com/medicare-enrollment/late-penalties/" },
   openGraph: {
     title: "Medicare Late Enrollment Penalties: What They are & How to Avoid Them",
     description: "Missing your Medicare enrollment window can result in permanent late penalties on Part A, Part B, and Part D. Learn how the penalties work and how to avoid them.",
-    url: "https://www.medicarefaq.com/medicare-enrollment/late-enrollment-penalty/",
+    url: "https://www.medicarefaq.com/medicare-enrollment/late-penalties/",
     type: "article",
     images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
   },

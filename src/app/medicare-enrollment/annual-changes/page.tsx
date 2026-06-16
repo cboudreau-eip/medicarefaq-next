@@ -5,11 +5,11 @@ import AnnualChanges from "./PageContent";
 export const metadata: Metadata = {
   title: "Medicare Annual Enrollment Period | AEP Dates & Changes",
   description: "The Medicare Annual Enrollment Period runs October 15 – December 7 each year. Learn what changes you can make and how to review your coverage for the coming year.",
-  alternates: { canonical: "https://www.medicarefaq.com/medicare-enrollment/annual-enrollment-period/" },
+  alternates: { canonical: "https://www.medicarefaq.com/medicare-enrollment/annual-changes/" },
   openGraph: {
     title: "Medicare Annual Enrollment Period | AEP Dates & Changes",
     description: "The Medicare Annual Enrollment Period runs October 15 – December 7 each year. Learn what changes you can make and how to review your coverage for the coming year.",
-    url: "https://www.medicarefaq.com/medicare-enrollment/annual-enrollment-period/",
+    url: "https://www.medicarefaq.com/medicare-enrollment/annual-changes/",
     type: "article",
     images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
   },
@@ -21,7 +21,7 @@ export default function Page() {
     "@type": "Article",
     name: "Medicare Annual Enrollment Period | AEP Dates & Changes",
     description: "The Medicare Annual Enrollment Period runs October 15 – December 7 each year. Learn what changes you can make and how to review your coverage for the coming year.",
-    url: "https://www.medicarefaq.com/medicare-enrollment/annual-enrollment-period/",
+    url: "https://www.medicarefaq.com/medicare-enrollment/annual-changes/",
     publisher: {
       "@type": "Organization",
       name: "MedicareFAQ",

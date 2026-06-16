@@ -5,11 +5,11 @@ import AboutTeam from "./PageContent";
 export const metadata: Metadata = {
   title: "About Us",
   description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
-  alternates: { canonical: "https://www.medicarefaq.com/about-us/" },
+  alternates: { canonical: "https://www.medicarefaq.com/library/about/" },
   openGraph: {
     title: "About Us",
     description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
-    url: "https://www.medicarefaq.com/about-us/",
+    url: "https://www.medicarefaq.com/library/about/",
     type: "website",
     images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/xxbdybfbexe.jpg" }],
   },

@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Medicare Supplement Plans 2026 | Top Medigap Plans Ranked",
     description: "Find the best Medicare Supplement plans for 2026. We compare Plan G, Plan N, and other top Medigap options by cost, coverage, and value.",
-    url: "https://www.medicarefaq.com/medicare-supplement-plans/best-supplement-plans/",
+    url: "https://www.medicarefaq.com/medicare-plans/best-supplement-plans/",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.medicarefaq.com/medicare-supplement-plans/best-supplement-plans/",
+    canonical: "https://www.medicarefaq.com/medicare-plans/best-supplement-plans/",
   },
 };
 

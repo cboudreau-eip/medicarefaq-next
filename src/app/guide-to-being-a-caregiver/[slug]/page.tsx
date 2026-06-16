@@ -20,7 +20,7 @@ export async function generateMetadata({
     title: page ? page.title : "Caregiver Guide",
     description: page?.heroDescription ?? "",
     alternates: {
-      canonical: `https://www.medicarefaq.com/guide-to-being-a-caregiver/${slug}`,
+      canonical: `https://www.medicarefaq.com/guide-to-being-a-caregiver/${slug}/`,
     },
   };
 }
@@ -32,8 +32,34 @@ export default async function Page({
 }) {
   const { slug } = await params;
   const page = CAREGIVER_PAGES.find((p) => p.slug === slug)!;
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: page?.title ?? "Caregiver Guide",
+    description: page?.heroDescription ?? "",
+    url: `https://www.medicarefaq.com/guide-to-being-a-caregiver/${slug}/`,
+    publisher: {
+      "@type": "Organization",
+      name: "MedicareFAQ",
+      logo: { "@type": "ImageObject", url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png" },
+    },
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.medicarefaq.com/" },
+        { "@type": "ListItem", position: 2, name: "Guide to Being a Caregiver", item: "https://www.medicarefaq.com/guide-to-being-a-caregiver/" },
+        { "@type": "ListItem", position: 3, name: page?.title ?? slug, item: `https://www.medicarefaq.com/guide-to-being-a-caregiver/${slug}/` },
+      ],
+    },
+  };
+
   return (
     <SiteLayout>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <CaregiverPageContent page={page} slug={slug} />
     </SiteLayout>
   );
