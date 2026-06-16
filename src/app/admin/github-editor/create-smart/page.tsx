@@ -1830,9 +1830,19 @@ function SmartCreatePageInner() {
                         articleTitle={title}
                         keyword={focusKeyword}
                         onKeywordChange={setFocusKeyword}
-                        onFixSlug={(newSlug) => {
+                        authToken={password}
+                        onApplySlug={(newSlug) => {
                           setSlugManuallyEdited(true);
                           setSlug(newSlug);
+                        }}
+                        onApplyMetaTitle={(v) => setSeoTitle(v)}
+                        onApplyMetaDescription={(v) => setSeoDescription(v)}
+                        onApplyArticleTitle={(v) => setTitle(v)}
+                        onApplyHtml={(v) => {
+                          // Smart Create stores content as sections; convert the
+                          // applied HTML back into sections so the editor stays in sync.
+                          const newSections = htmlToSections(v);
+                          if (newSections.length > 0) setSections(newSections);
                         }}
                         onScrollToLinks={() => {
                           linksRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -1840,42 +1850,6 @@ function SmartCreatePageInner() {
                           if (linkSuggestions.length === 0 && acceptedLinks.length === 0 && sections) {
                             suggestInternalLinks();
                           }
-                        }}
-                        onRewriteIntro={async (kw) => {
-                          if (!sections || sections.length === 0) return;
-                          // Find the first paragraph section
-                          const firstParaIdx = sections.findIndex((s) => s.type === "paragraph");
-                          if (firstParaIdx === -1) return;
-                          const firstPara = sections[firstParaIdx] as { type: "paragraph"; content: string };
-                          // Convert the paragraph to HTML for the API
-                          const introHtml = `<p>${firstPara.content
-                            .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-                            .replace(/\*(.*?)\*/g, "<em>$1</em>")
-                            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')}</p>`;
-                          const res = await authFetch("/api/cms/seo-fix", {
-                            method: "POST",
-                            headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify({ action: "rewrite-intro", keyword: kw, introHtml, articleTitle: title }),
-                          });
-                          const data = await res.json();
-                          if (!res.ok || !data.result) throw new Error(data.error || "Rewrite failed");
-                          // Parse the returned HTML back to a paragraph section
-                          const newSections = htmlToSections(data.result);
-                          if (newSections.length > 0 && newSections[0].type === "paragraph") {
-                            const updated = [...sections];
-                            updated[firstParaIdx] = newSections[0];
-                            setSections(updated);
-                          }
-                        }}
-                        onExpandDescription={async (currentDesc, kw) => {
-                          const res = await authFetch("/api/cms/seo-fix", {
-                            method: "POST",
-                            headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify({ action: "expand-description", description: currentDesc, keyword: kw }),
-                          });
-                          const data = await res.json();
-                          if (!res.ok || !data.result) throw new Error(data.error || "Expand failed");
-                          setSeoDescription(data.result);
                         }}
                       />
                     );

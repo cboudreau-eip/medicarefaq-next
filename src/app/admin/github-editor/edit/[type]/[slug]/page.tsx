@@ -688,7 +688,7 @@ export default function EditArticlePage() {
                 </div>
               </div>
 
-              {/* SEO Score Panel */}
+              {/* SEO Score Panel — all AI fixes route through the in-panel before/after review modal */}
               <SeoScorePanel
                 title={editSeoTitle}
                 description={editSeoDesc}
@@ -697,93 +697,13 @@ export default function EditArticlePage() {
                 articleTitle={editTitle}
                 keyword={editFocusKeyword}
                 onKeywordChange={setEditFocusKeyword}
-                onFixSlug={(newSlug) => setEditSlug(newSlug)}
-                onRewriteIntro={async (kw) => {
-                  // Find the first <p> tag in the HTML and rewrite it to include the keyword
-                  const match = editHtml.match(/<p[^>]*>([\s\S]*?)<\/p>/);
-                  if (!match) return;
-                  const introHtml = match[0];
-                  const res = await authFetch("/api/cms/seo-fix", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ action: "rewrite-intro", keyword: kw, introHtml, articleTitle: editTitle }),
-                  });
-                  const data = await res.json();
-                  if (!res.ok || !data.result) throw new Error(data.error || "Rewrite failed");
-                  // Replace only the first <p> in the HTML
-                  setEditHtml((prev) => prev.replace(/<p[^>]*>[\s\S]*?<\/p>/, data.result));
-                  setHtmlDirty(true);
-                }}
-                onExpandDescription={async (currentDesc, kw) => {
-                  const res = await authFetch("/api/cms/seo-fix", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ action: "expand-description", description: currentDesc, keyword: kw }),
-                  });
-                  const data = await res.json();
-                  if (!res.ok || !data.result) throw new Error(data.error || "Expand failed");
-                  setEditSeoDesc(data.result);
-                }}
-                onFixTitleLength={async (currentTitle, kw) => {
-                  const res = await authFetch("/api/cms/seo-fix", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ action: "fix-title-length", metaTitle: currentTitle, keyword: kw }),
-                  });
-                  const data = await res.json();
-                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
-                  setEditSeoTitle(data.result);
-                }}
-                onAddKeywordToTitle={async (currentTitle, kw) => {
-                  const res = await authFetch("/api/cms/seo-fix", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ action: "add-keyword-to-title", metaTitle: currentTitle, keyword: kw }),
-                  });
-                  const data = await res.json();
-                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
-                  setEditSeoTitle(data.result);
-                }}
-                onAddKeywordToH1={async (currentH1, kw) => {
-                  const res = await authFetch("/api/cms/seo-fix", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ action: "add-keyword-to-h1", h1Title: currentH1, keyword: kw }),
-                  });
-                  const data = await res.json();
-                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
-                  setEditTitle(data.result);
-                }}
-                onAddKeywordToDesc={async (currentDesc, kw) => {
-                  const res = await authFetch("/api/cms/seo-fix", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ action: "add-keyword-to-desc", description: currentDesc, keyword: kw }),
-                  });
-                  const data = await res.json();
-                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
-                  setEditSeoDesc(data.result);
-                }}
-                onBoostKeywordDensity={async (kw) => {
-                  const res = await authFetch("/api/cms/seo-fix", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ action: "boost-keyword-density", bodyHtml: editHtml, keyword: kw, articleTitle: editTitle }),
-                  });
-                  const data = await res.json();
-                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
-                  setEditHtml(data.result);
-                  setHtmlDirty(true);
-                }}
-                onFixImageAltText={async () => {
-                  const res = await authFetch("/api/cms/seo-fix", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ action: "fix-image-alt-text", bodyHtml: editHtml, articleTitle: editTitle, keyword: editFocusKeyword }),
-                  });
-                  const data = await res.json();
-                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
-                  setEditHtml(data.result);
+                authToken={password}
+                onApplySlug={(newSlug) => setEditSlug(newSlug)}
+                onApplyMetaTitle={(v) => setEditSeoTitle(v)}
+                onApplyMetaDescription={(v) => setEditSeoDesc(v)}
+                onApplyArticleTitle={(v) => setEditTitle(v)}
+                onApplyHtml={(v) => {
+                  setEditHtml(v);
                   setHtmlDirty(true);
                 }}
               />

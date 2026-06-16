@@ -13,6 +13,7 @@ import {
   RotateCcw,
   Loader2,
 } from "lucide-react";
+import SeoFixReviewModal, { SeoFixReview } from "./seo-fix-review-modal";
 
 type CheckStatus = "good" | "warn" | "bad";
 
@@ -24,6 +25,9 @@ interface SeoCheck {
   weight: number; // contribution to the score
 }
 
+/** A single field value (meta title / description / slug). */
+type ApplyValue = (value: string) => void;
+
 interface SeoScorePanelProps {
   title: string; // meta title
   description: string; // meta description
@@ -33,27 +37,26 @@ interface SeoScorePanelProps {
   onKeywordChange?: (value: string) => void; // called when keyword changes
   articleTitle?: string; // the H1 / article title
 
-  // --- Optional action callbacks (all are no-ops when omitted) ---
-  /** Called with a new slug when the user clicks "Fix slug". */
-  onFixSlug?: (newSlug: string) => void;
-  /** Called when the user clicks "Go to links" on the no-links check. */
+  /**
+   * Auth token / password sent as `x-cms-password` for the seo-fix API.
+   * When omitted, the panel falls back to a global getter if present.
+   */
+  authToken?: string;
+
+  // --- Apply callbacks: invoked only AFTER the user approves the AI change ---
+  /** Apply a new slug (from "Fix slug" — non-AI, applied immediately, no modal). */
+  onApplySlug?: ApplyValue;
+  /** Apply a new meta title. */
+  onApplyMetaTitle?: ApplyValue;
+  /** Apply a new meta description. */
+  onApplyMetaDescription?: ApplyValue;
+  /** Apply a new article H1 title. */
+  onApplyArticleTitle?: ApplyValue;
+  /** Apply new body HTML (intro rewrite, density boost, alt-text fix). */
+  onApplyHtml?: ApplyValue;
+
+  /** Scroll to the internal links panel (Smart Create only; non-AI). */
   onScrollToLinks?: () => void;
-  /** Called when the user clicks "Rewrite intro with AI". */
-  onRewriteIntro?: (keyword: string) => Promise<void>;
-  /** Called when the user clicks "Expand with AI" on the description check. */
-  onExpandDescription?: (currentDescription: string, keyword: string) => Promise<void>;
-  /** Called when the user clicks "Fix title length" — receives current meta title. */
-  onFixTitleLength?: (currentTitle: string, keyword: string) => Promise<void>;
-  /** Called when the user clicks "Add keyword" on the meta title check. */
-  onAddKeywordToTitle?: (currentTitle: string, keyword: string) => Promise<void>;
-  /** Called when the user clicks "Add keyword" on the H1 check. */
-  onAddKeywordToH1?: (currentH1: string, keyword: string) => Promise<void>;
-  /** Called when the user clicks "Add keyword" on the meta description check. */
-  onAddKeywordToDesc?: (currentDesc: string, keyword: string) => Promise<void>;
-  /** Called when the user clicks "Boost density" on the keyword density check. */
-  onBoostKeywordDensity?: (keyword: string) => Promise<void>;
-  /** Called when the user clicks "Fix alt text" on the images check. */
-  onFixImageAltText?: () => Promise<void>;
 }
 
 // Strip HTML tags to get plain text
@@ -87,13 +90,18 @@ function buildKeywordSlug(title: string, keyword: string): string {
   ]);
   const kwWords = keyword.trim().toLowerCase().replace(/[^a-z0-9\s]/g, "").split(/\s+/).filter(Boolean);
   const titleWords = title.toLowerCase().replace(/[^a-z0-9\s]/g, "").split(/\s+/).filter(w => w && !stopWords.has(w));
-  // Start with keyword words, then append non-duplicate title words up to 4 total
   const combined: string[] = [...kwWords];
   for (const w of titleWords) {
     if (!combined.includes(w)) combined.push(w);
     if (combined.length >= 4) break;
   }
   return combined.slice(0, 4).join("-").replace(/-+/g, "-").replace(/^-|-$/g, "").slice(0, 45) || kwWords.slice(0,3).join("-");
+}
+
+/** Extract the first paragraph (intro) from body HTML. */
+function extractIntro(html: string): string {
+  const m = html.match(/<p[\s>][\s\S]*?<\/p>/i);
+  return m ? m[0] : "";
 }
 
 export default function SeoScorePanel({
@@ -104,19 +112,15 @@ export default function SeoScorePanel({
   keyword: keywordProp,
   onKeywordChange,
   articleTitle,
-  onFixSlug,
+  authToken,
+  onApplySlug,
+  onApplyMetaTitle,
+  onApplyMetaDescription,
+  onApplyArticleTitle,
+  onApplyHtml,
   onScrollToLinks,
-  onRewriteIntro,
-  onExpandDescription,
-  onFixTitleLength,
-  onAddKeywordToTitle,
-  onAddKeywordToH1,
-  onAddKeywordToDesc,
-  onBoostKeywordDensity,
-  onFixImageAltText,
 }: SeoScorePanelProps) {
   const [expanded, setExpanded] = useState(true);
-  // Controlled if onKeywordChange is provided; otherwise falls back to internal state.
   const [internalKeyword, setInternalKeyword] = useState(keywordProp ?? "");
   const keyword = onKeywordChange ? (keywordProp ?? "") : internalKeyword;
   const setKeyword = (value: string) => {
@@ -124,15 +128,85 @@ export default function SeoScorePanel({
     else setInternalKeyword(value);
   };
 
-  // Loading states for AI actions
-  const [rewritingIntro, setRewritingIntro] = useState(false);
-  const [expandingDesc, setExpandingDesc] = useState(false);
-  const [fixingTitleLen, setFixingTitleLen] = useState(false);
-  const [addingKwToTitle, setAddingKwToTitle] = useState(false);
-  const [addingKwToH1, setAddingKwToH1] = useState(false);
-  const [addingKwToDesc, setAddingKwToDesc] = useState(false);
-  const [boostingDensity, setBoostingDensity] = useState(false);
-  const [fixingAltText, setFixingAltText] = useState(false);
+  // Which check currently has an AI request running (by check id).
+  const [loadingId, setLoadingId] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
+
+  // The pending review (before/after) awaiting user Apply/Discard.
+  const [review, setReview] = useState<SeoFixReview | null>(null);
+  // The function to run when the user clicks "Apply" in the modal.
+  const [applyFn, setApplyFn] = useState<(() => void) | null>(null);
+
+  /** Resolve the auth token for the seo-fix API call. */
+  function getAuthToken(): string {
+    if (authToken) return authToken;
+    if (typeof window !== "undefined") {
+      try {
+        return window.sessionStorage.getItem("cms_session_token") || "";
+      } catch {
+        return "";
+      }
+    }
+    return "";
+  }
+
+  /** Call the seo-fix API for a given action; returns the AI result string. */
+  async function callSeoFix(action: string, payload: Record<string, unknown>): Promise<string> {
+    const res = await fetch("/api/cms/seo-fix", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-cms-password": getAuthToken(),
+      },
+      body: JSON.stringify({ action, keyword, articleTitle, ...payload }),
+    });
+    const data = await res.json();
+    if (!res.ok || !data?.success) {
+      throw new Error(data?.error || `Request failed (${res.status})`);
+    }
+    return String(data.result ?? "");
+  }
+
+  /**
+   * Run an AI fix: call the API, then open the review modal. The actual
+   * apply only happens when the user confirms in the modal.
+   */
+  async function runAiFix(opts: {
+    id: string;
+    action: string;
+    payload: Record<string, unknown>;
+    before: string;
+    title: string;
+    summary: string;
+    highlight?: string;
+    isHtml?: boolean;
+    apply: (result: string) => void;
+  }) {
+    setError(null);
+    setLoadingId(opts.id);
+    try {
+      const result = await callSeoFix(opts.action, opts.payload);
+      const after = result.trim();
+      // Open the review modal; capture the apply action in a closure.
+      setReview({
+        title: opts.title,
+        summary: opts.summary,
+        before: opts.before,
+        after,
+        highlight: opts.highlight,
+        isHtml: opts.isHtml,
+      });
+      setApplyFn(() => () => {
+        opts.apply(after);
+        setReview(null);
+        setApplyFn(null);
+      });
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setLoadingId(null);
+    }
+  }
 
   const { score, checks } = useMemo(() => {
     const plainText = stripHtml(html);
@@ -152,10 +226,10 @@ export default function SeoScorePanel({
       label: "Meta title length",
       weight: 15,
       ...(titleLen >= 50 && titleLen <= 60
-        ? { status: "good" as CheckStatus, detail: `${titleLen} chars — ideal (50–60)` }
+        ? { status: "good" as CheckStatus, detail: `${titleLen} chars — ideal (50-60)` }
         : titleLen >= 40 && titleLen <= 65
-        ? { status: "warn" as CheckStatus, detail: `${titleLen} chars — acceptable, aim for 50–60` }
-        : { status: "bad" as CheckStatus, detail: `${titleLen} chars — should be 50–60` }),
+        ? { status: "warn" as CheckStatus, detail: `${titleLen} chars — acceptable, aim for 50-60` }
+        : { status: "bad" as CheckStatus, detail: `${titleLen} chars — should be 50-60` }),
     });
 
     // 2. Meta description length (150-160 ideal)
@@ -165,15 +239,14 @@ export default function SeoScorePanel({
       label: "Meta description length",
       weight: 15,
       ...(descLen >= 150 && descLen <= 160
-        ? { status: "good" as CheckStatus, detail: `${descLen} chars — ideal (150–160)` }
+        ? { status: "good" as CheckStatus, detail: `${descLen} chars — ideal (150-160)` }
         : descLen >= 120 && descLen <= 165
-        ? { status: "warn" as CheckStatus, detail: `${descLen} chars — acceptable, aim for 150–160` }
-        : { status: "bad" as CheckStatus, detail: `${descLen} chars — should be 150–160` }),
+        ? { status: "warn" as CheckStatus, detail: `${descLen} chars — acceptable, aim for 150-160` }
+        : { status: "bad" as CheckStatus, detail: `${descLen} chars — should be 150-160` }),
     });
 
     // 3. Keyword present (only scored if a keyword is provided)
     if (kw) {
-      // 3a. Keyword in meta title
       checks.push({
         id: "kw-title",
         label: "Keyword in meta title",
@@ -183,7 +256,6 @@ export default function SeoScorePanel({
           : { status: "bad" as CheckStatus, detail: "Not found in meta title" }),
       });
 
-      // 3b. Keyword in H1 / article title
       checks.push({
         id: "kw-h1",
         label: "Keyword in article title (H1)",
@@ -193,7 +265,6 @@ export default function SeoScorePanel({
           : { status: "warn" as CheckStatus, detail: "Not found in article title" }),
       });
 
-      // 3c. Keyword in meta description
       checks.push({
         id: "kw-desc",
         label: "Keyword in meta description",
@@ -203,7 +274,6 @@ export default function SeoScorePanel({
           : { status: "warn" as CheckStatus, detail: "Not found in meta description" }),
       });
 
-      // 3d. Keyword in slug
       const kwSlug = kw.replace(/\s+/g, "-");
       checks.push({
         id: "kw-slug",
@@ -214,7 +284,6 @@ export default function SeoScorePanel({
           : { status: "warn" as CheckStatus, detail: "Not reflected in slug" }),
       });
 
-      // 3e. Keyword density in body
       const kwCount = countOccurrences(lowerText, kw);
       const density = wordCount > 0 ? (kwCount * kw.split(/\s+/).length * 100) / wordCount : 0;
       checks.push({
@@ -224,13 +293,12 @@ export default function SeoScorePanel({
         ...(kwCount === 0
           ? { status: "bad" as CheckStatus, detail: "Keyword not found in body content" }
           : density >= 0.5 && density <= 2.5
-          ? { status: "good" as CheckStatus, detail: `${density.toFixed(1)}% (${kwCount}×) — ideal range` }
+          ? { status: "good" as CheckStatus, detail: `${density.toFixed(1)}% (${kwCount}x) — ideal range` }
           : density < 0.5
-          ? { status: "warn" as CheckStatus, detail: `${density.toFixed(1)}% (${kwCount}×) — a bit low` }
-          : { status: "warn" as CheckStatus, detail: `${density.toFixed(1)}% (${kwCount}×) — may be over-optimized` }),
+          ? { status: "warn" as CheckStatus, detail: `${density.toFixed(1)}% (${kwCount}x) — a bit low` }
+          : { status: "warn" as CheckStatus, detail: `${density.toFixed(1)}% (${kwCount}x) — may be over-optimized` }),
       });
 
-      // 3f. Keyword in first paragraph
       const firstChunk = lowerText.slice(0, 600);
       checks.push({
         id: "kw-intro",
@@ -242,7 +310,7 @@ export default function SeoScorePanel({
       });
     }
 
-    // 4. Word count (>= 600 good, 300-600 warn)
+    // 4. Word count
     checks.push({
       id: "word-count",
       label: "Content length",
@@ -267,7 +335,7 @@ export default function SeoScorePanel({
         : { status: "bad" as CheckStatus, detail: "No H2 subheadings" }),
     });
 
-    // 6. Internal/external links
+    // 6. Links
     const linkCount = countOccurrences(html, "<a ");
     checks.push({
       id: "links",
@@ -294,7 +362,6 @@ export default function SeoScorePanel({
         : { status: "warn" as CheckStatus, detail: `${imgWithAlt}/${imgCount} images have alt text` }),
     });
 
-    // Compute weighted score
     const totalWeight = checks.reduce((sum, c) => sum + c.weight, 0);
     const earned = checks.reduce((sum, c) => {
       const factor = c.status === "good" ? 1 : c.status === "warn" ? 0.5 : 0;
@@ -316,15 +383,49 @@ export default function SeoScorePanel({
     return <XCircle className="w-4 h-4 text-red-500 flex-shrink-0" />;
   };
 
+  /** A small AI button used inside check rows. */
+  const AiButton = ({
+    id,
+    label,
+    onClick,
+    color = "purple",
+  }: {
+    id: string;
+    label: string;
+    onClick: () => void;
+    color?: "purple" | "teal" | "amber" | "blue";
+  }) => {
+    const busy = loadingId === id;
+    const palette: Record<string, string> = {
+      purple: "bg-purple-50 text-purple-700 border-purple-200 hover:bg-purple-100",
+      teal: "bg-teal-50 text-teal-700 border-teal-200 hover:bg-teal-100",
+      amber: "bg-amber-50 text-amber-700 border-amber-200 hover:bg-amber-100",
+      blue: "bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100",
+    };
+    return (
+      <button
+        type="button"
+        disabled={busy || loadingId !== null}
+        onClick={onClick}
+        className={`ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded border transition-colors disabled:opacity-50 ${palette[color]}`}
+      >
+        {busy ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+        {busy ? "Working…" : label}
+      </button>
+    );
+  };
+
   /** Render an optional inline action button for a check row. */
   const CheckAction = ({ check }: { check: SeoCheck }) => {
-    // Fix slug: only show when keyword is set, slug doesn't include keyword, and callback provided
-    if (check.id === "kw-slug" && check.status !== "good" && onFixSlug && keyword) {
+    if (check.status === "good") return null;
+
+    // Fix slug — non-AI, applied immediately (no modal needed for a deterministic slug).
+    if (check.id === "kw-slug" && onApplySlug && keyword) {
       const suggestedSlug = buildKeywordSlug(articleTitle || title, keyword);
       return (
         <button
           type="button"
-          onClick={() => onFixSlug(suggestedSlug)}
+          onClick={() => onApplySlug(suggestedSlug)}
           className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-amber-50 text-amber-700 border border-amber-200 hover:bg-amber-100 transition-colors"
           title={`Set slug to: ${suggestedSlug}`}
         >
@@ -334,8 +435,8 @@ export default function SeoScorePanel({
       );
     }
 
-    // Links shortcut: show when no/few links and callback provided
-    if (check.id === "links" && check.status !== "good" && onScrollToLinks) {
+    // Links shortcut — non-AI scroll.
+    if (check.id === "links" && onScrollToLinks) {
       return (
         <button
           type="button"
@@ -348,147 +449,195 @@ export default function SeoScorePanel({
       );
     }
 
-    // Rewrite intro: show when keyword not in intro and callback provided
-    if (check.id === "kw-intro" && check.status !== "good" && onRewriteIntro && keyword) {
+    // Fix meta title length (AI → review modal).
+    if (check.id === "title-length" && onApplyMetaTitle && title) {
       return (
-        <button
-          type="button"
-          disabled={rewritingIntro}
-          onClick={async () => {
-            setRewritingIntro(true);
-            try { await onRewriteIntro(keyword); } finally { setRewritingIntro(false); }
-          }}
-          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition-colors disabled:opacity-50"
-        >
-          {rewritingIntro ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
-          {rewritingIntro ? "Rewriting…" : "Rewrite intro"}
-        </button>
+        <AiButton
+          id="title-length"
+          label="Fix with AI"
+          color="teal"
+          onClick={() =>
+            runAiFix({
+              id: "title-length",
+              action: "fix-title-length",
+              payload: { metaTitle: title },
+              before: title,
+              title: "Fix meta title length",
+              summary: "AI adjusted the meta title to the ideal 50-60 characters.",
+              highlight: keyword,
+              apply: (r) => onApplyMetaTitle(r),
+            })
+          }
+        />
       );
     }
 
-    // Expand description: show when description is short/bad and callback provided
-    if (check.id === "desc-length" && check.status !== "good" && onExpandDescription && description) {
+    // Add keyword to meta title (AI → review modal).
+    if (check.id === "kw-title" && onApplyMetaTitle && title && keyword) {
       return (
-        <button
-          type="button"
-          disabled={expandingDesc}
-          onClick={async () => {
-            setExpandingDesc(true);
-            try { await onExpandDescription(description, keyword); } finally { setExpandingDesc(false); }
-          }}
-          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-teal-50 text-teal-700 border border-teal-200 hover:bg-teal-100 transition-colors disabled:opacity-50"
-        >
-          {expandingDesc ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
-          {expandingDesc ? "Expanding…" : "Expand with AI"}
-        </button>
+        <AiButton
+          id="kw-title"
+          label="Add keyword"
+          onClick={() =>
+            runAiFix({
+              id: "kw-title",
+              action: "add-keyword-to-title",
+              payload: { metaTitle: title },
+              before: title,
+              title: "Add keyword to meta title",
+              summary: `AI rewrote the meta title to include "${keyword}".`,
+              highlight: keyword,
+              apply: (r) => onApplyMetaTitle(r),
+            })
+          }
+        />
       );
     }
 
-    // Fix meta title length
-    if (check.id === "title-length" && check.status !== "good" && onFixTitleLength && title) {
+    // Add keyword to H1 / article title (AI → review modal).
+    if (check.id === "kw-h1" && onApplyArticleTitle && articleTitle && keyword) {
       return (
-        <button
-          type="button"
-          disabled={fixingTitleLen}
-          onClick={async () => {
-            setFixingTitleLen(true);
-            try { await onFixTitleLength(title, keyword); } finally { setFixingTitleLen(false); }
-          }}
-          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-teal-50 text-teal-700 border border-teal-200 hover:bg-teal-100 transition-colors disabled:opacity-50"
-        >
-          {fixingTitleLen ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
-          {fixingTitleLen ? "Fixing…" : "Fix with AI"}
-        </button>
+        <AiButton
+          id="kw-h1"
+          label="Add keyword"
+          onClick={() =>
+            runAiFix({
+              id: "kw-h1",
+              action: "add-keyword-to-h1",
+              payload: { h1Title: articleTitle },
+              before: articleTitle,
+              title: "Add keyword to article title",
+              summary: `AI rewrote the H1 to include "${keyword}".`,
+              highlight: keyword,
+              apply: (r) => onApplyArticleTitle(r),
+            })
+          }
+        />
       );
     }
 
-    // Add keyword to meta title
-    if (check.id === "kw-title" && check.status !== "good" && onAddKeywordToTitle && title && keyword) {
+    // Add keyword to meta description (AI → review modal).
+    if (check.id === "kw-desc" && onApplyMetaDescription && description && keyword) {
       return (
-        <button
-          type="button"
-          disabled={addingKwToTitle}
-          onClick={async () => {
-            setAddingKwToTitle(true);
-            try { await onAddKeywordToTitle(title, keyword); } finally { setAddingKwToTitle(false); }
-          }}
-          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition-colors disabled:opacity-50"
-        >
-          {addingKwToTitle ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
-          {addingKwToTitle ? "Adding…" : "Add keyword"}
-        </button>
+        <AiButton
+          id="kw-desc"
+          label="Add keyword"
+          onClick={() =>
+            runAiFix({
+              id: "kw-desc",
+              action: "add-keyword-to-desc",
+              payload: { description },
+              before: description,
+              title: "Add keyword to meta description",
+              summary: `AI rewrote the description to include "${keyword}".`,
+              highlight: keyword,
+              apply: (r) => onApplyMetaDescription(r),
+            })
+          }
+        />
       );
     }
 
-    // Add keyword to H1 / article title
-    if (check.id === "kw-h1" && check.status !== "good" && onAddKeywordToH1 && articleTitle && keyword) {
+    // Expand / fix meta description length (AI → review modal).
+    if (check.id === "desc-length" && onApplyMetaDescription && description) {
       return (
-        <button
-          type="button"
-          disabled={addingKwToH1}
-          onClick={async () => {
-            setAddingKwToH1(true);
-            try { await onAddKeywordToH1(articleTitle, keyword); } finally { setAddingKwToH1(false); }
-          }}
-          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition-colors disabled:opacity-50"
-        >
-          {addingKwToH1 ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
-          {addingKwToH1 ? "Adding…" : "Add keyword"}
-        </button>
+        <AiButton
+          id="desc-length"
+          label="Expand with AI"
+          color="teal"
+          onClick={() =>
+            runAiFix({
+              id: "desc-length",
+              action: "expand-description",
+              payload: { description },
+              before: description,
+              title: "Adjust meta description length",
+              summary: "AI rewrote the description to the ideal 150-160 characters.",
+              highlight: keyword,
+              apply: (r) => onApplyMetaDescription(r),
+            })
+          }
+        />
       );
     }
 
-    // Add keyword to meta description
-    if (check.id === "kw-desc" && check.status !== "good" && onAddKeywordToDesc && description && keyword) {
+    // Rewrite intro (AI → review modal). Operates on the first paragraph only.
+    if (check.id === "kw-intro" && onApplyHtml && keyword) {
+      const intro = extractIntro(html);
+      if (!intro) return null;
       return (
-        <button
-          type="button"
-          disabled={addingKwToDesc}
-          onClick={async () => {
-            setAddingKwToDesc(true);
-            try { await onAddKeywordToDesc(description, keyword); } finally { setAddingKwToDesc(false); }
-          }}
-          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition-colors disabled:opacity-50"
-        >
-          {addingKwToDesc ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
-          {addingKwToDesc ? "Adding…" : "Add keyword"}
-        </button>
+        <AiButton
+          id="kw-intro"
+          label="Rewrite intro"
+          onClick={() =>
+            runAiFix({
+              id: "kw-intro",
+              action: "rewrite-intro",
+              payload: { introHtml: intro },
+              before: intro,
+              title: "Rewrite intro with keyword",
+              summary: `AI rewrote the opening paragraph to include "${keyword}".`,
+              highlight: keyword,
+              isHtml: true,
+              apply: (newIntro) => {
+                // Replace only the first paragraph in the body HTML.
+                const updated = html.replace(intro, newIntro);
+                onApplyHtml(updated);
+              },
+            })
+          }
+        />
       );
     }
 
-    // Boost keyword density
-    if (check.id === "kw-density" && check.status !== "good" && onBoostKeywordDensity && keyword) {
+    // Boost keyword density (AI → review modal). Operates on full body HTML.
+    if (check.id === "kw-density" && onApplyHtml && keyword) {
       return (
-        <button
-          type="button"
-          disabled={boostingDensity}
-          onClick={async () => {
-            setBoostingDensity(true);
-            try { await onBoostKeywordDensity(keyword); } finally { setBoostingDensity(false); }
-          }}
-          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-amber-50 text-amber-700 border border-amber-200 hover:bg-amber-100 transition-colors disabled:opacity-50"
-        >
-          {boostingDensity ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
-          {boostingDensity ? "Boosting…" : "Boost density"}
-        </button>
+        <AiButton
+          id="kw-density"
+          label="Boost density"
+          color="amber"
+          onClick={() =>
+            runAiFix({
+              id: "kw-density",
+              action: "boost-keyword-density",
+              payload: { bodyHtml: html },
+              before: html,
+              title: "Boost keyword density",
+              summary: `AI added 2-3 natural uses of "${keyword}" into the body.`,
+              highlight: keyword,
+              isHtml: true,
+              apply: (r) => onApplyHtml(r),
+            })
+          }
+        />
       );
     }
 
-    // Fix image alt text
-    if (check.id === "images" && check.status !== "good" && onFixImageAltText) {
+    // Fix image alt text (AI → review modal). Operates on full body HTML.
+    if (check.id === "images" && onApplyHtml) {
+      // Only offer when there is at least one image missing alt text.
+      const imgCount = countOccurrences(html, "<img");
+      const imgWithAlt = (html.match(/<img[^>]*\salt="[^"]+"/gi) || []).length;
+      if (imgCount === 0 || imgWithAlt === imgCount) return null;
       return (
-        <button
-          type="button"
-          disabled={fixingAltText}
-          onClick={async () => {
-            setFixingAltText(true);
-            try { await onFixImageAltText(); } finally { setFixingAltText(false); }
-          }}
-          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 hover:bg-blue-100 transition-colors disabled:opacity-50"
-        >
-          {fixingAltText ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
-          {fixingAltText ? "Fixing…" : "Fix alt text"}
-        </button>
+        <AiButton
+          id="images"
+          label="Fix alt text"
+          color="blue"
+          onClick={() =>
+            runAiFix({
+              id: "images",
+              action: "fix-image-alt-text",
+              payload: { bodyHtml: html },
+              before: html,
+              title: "Add missing image alt text",
+              summary: "AI generated descriptive alt text for images missing it.",
+              isHtml: true,
+              apply: (r) => onApplyHtml(r),
+            })
+          }
+        />
       );
     }
 
@@ -557,6 +706,12 @@ export default function SeoScorePanel({
             </p>
           </div>
 
+          {error && (
+            <div className="text-xs text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+              {error}
+            </div>
+          )}
+
           {/* Checklist */}
           <ul className="space-y-2">
             {checks.map((c) => (
@@ -575,6 +730,16 @@ export default function SeoScorePanel({
           </ul>
         </div>
       )}
+
+      {/* Review modal — shown after an AI fix returns, before applying. */}
+      <SeoFixReviewModal
+        review={review}
+        onApply={() => applyFn?.()}
+        onDiscard={() => {
+          setReview(null);
+          setApplyFn(null);
+        }}
+      />
     </div>
   );
 }
