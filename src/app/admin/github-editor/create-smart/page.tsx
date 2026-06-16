@@ -37,6 +37,8 @@ import SketchLayout from "../components/sketch-layout";
 import "../sketch-theme.css";
 import ImageUpload from "../components/image-upload";
 import { validateContent, ValidationResult } from "@/lib/content-validator";
+import SeoScorePanel from "../components/seo-score-panel";
+import { sectionsToHtml, htmlToSections } from "@/lib/html-sections-converter";
 
 // --- Constants ---
 
@@ -412,6 +414,7 @@ function SmartCreatePageInner() {
   const autoLoadIcp = searchParams.get("icp");
   const autoLoadAttempted = useRef(false);
   const autoLoadContextAttempted = useRef(false);
+  const linksRef = useRef<HTMLDivElement | null>(null);
 
   // Input state
   const [title, setTitle] = useState("");
@@ -439,6 +442,7 @@ function SmartCreatePageInner() {
   const [keyTakeaways, setKeyTakeaways] = useState<string[]>([]);
   const [seoTitle, setSeoTitle] = useState("");
   const [seoDescription, setSeoDescription] = useState("");
+  const [focusKeyword, setFocusKeyword] = useState("");
 
   // Image generation state
   const [generatingImage, setGeneratingImage] = useState(false);
@@ -513,9 +517,10 @@ function SmartCreatePageInner() {
       if (mapped) setCategory(mapped);
     }
 
-    // Seed the SEO title with the target keyword if nothing set yet.
+    // Seed the SEO title and focus keyword with the target keyword if nothing set yet.
     if (autoLoadKeyword) {
       setSeoTitle((prev) => prev || (autoLoadTitle ? autoLoadTitle : autoLoadKeyword));
+      setFocusKeyword((prev) => prev || autoLoadKeyword);
     }
 
     // Seed the Raw Content box with an editable content brief so the editor
@@ -1441,30 +1446,68 @@ function SmartCreatePageInner() {
                   {/* SEO Fields */}
                   <div className="space-y-3">
                     <div>
-                      <label className="block text-xs font-medium text-gray-500 mb-1">SEO Title</label>
+                      <div className="flex items-center justify-between mb-1">
+                        <label className="block text-xs font-medium text-gray-500">SEO Title</label>
+                        <span className={`text-xs font-medium tabular-nums ${
+                          seoTitle.length >= 50 && seoTitle.length <= 60
+                            ? "text-green-600"
+                            : seoTitle.length >= 40 && seoTitle.length <= 65
+                            ? "text-amber-500"
+                            : seoTitle.length > 0
+                            ? "text-red-500"
+                            : "text-gray-400"
+                        }`}>
+                          {seoTitle.length}/60
+                          {seoTitle.length >= 50 && seoTitle.length <= 60 && " ✓"}
+                          {(seoTitle.length < 50 && seoTitle.length > 0) && " — aim for 50–60"}
+                          {seoTitle.length > 60 && " — too long"}
+                        </span>
+                      </div>
                       <input
                         type="text"
                         value={seoTitle}
                         onChange={(e) => setSeoTitle(e.target.value)}
-                        className="w-full text-sm sketch-input px-3 py-2"
-                        placeholder="SEO title (max 60 chars)"
+                        className={`w-full text-sm sketch-input px-3 py-2 ${
+                          seoTitle.length >= 50 && seoTitle.length <= 60
+                            ? "border-green-300 focus:ring-green-400"
+                            : seoTitle.length > 65
+                            ? "border-red-300 focus:ring-red-400"
+                            : ""
+                        }`}
+                        placeholder="SEO title (ideal: 50–60 chars)"
                       />
-                      <span className={`text-xs ${seoTitle.length > 60 ? "text-amber-500" : "text-gray-400"}`}>
-                        {seoTitle.length}/60
-                      </span>
                     </div>
                     <div>
-                      <label className="block text-xs font-medium text-gray-500 mb-1">SEO Description</label>
-                      <input
-                        type="text"
+                      <div className="flex items-center justify-between mb-1">
+                        <label className="block text-xs font-medium text-gray-500">SEO Description</label>
+                        <span className={`text-xs font-medium tabular-nums ${
+                          seoDescription.length >= 150 && seoDescription.length <= 160
+                            ? "text-green-600"
+                            : seoDescription.length >= 120 && seoDescription.length <= 165
+                            ? "text-amber-500"
+                            : seoDescription.length > 0
+                            ? "text-red-500"
+                            : "text-gray-400"
+                        }`}>
+                          {seoDescription.length}/160
+                          {seoDescription.length >= 150 && seoDescription.length <= 160 && " ✓"}
+                          {(seoDescription.length < 150 && seoDescription.length > 0) && " — aim for 150–160"}
+                          {seoDescription.length > 160 && " — too long"}
+                        </span>
+                      </div>
+                      <textarea
                         value={seoDescription}
                         onChange={(e) => setSeoDescription(e.target.value)}
-                        className="w-full text-sm sketch-input px-3 py-2"
-                        placeholder="Meta description (max 150 chars)"
+                        rows={2}
+                        className={`w-full text-sm sketch-input px-3 py-2 resize-none ${
+                          seoDescription.length >= 150 && seoDescription.length <= 160
+                            ? "border-green-300 focus:ring-green-400"
+                            : seoDescription.length > 160
+                            ? "border-red-300 focus:ring-red-400"
+                            : ""
+                        }`}
+                        placeholder="Meta description (ideal: 150–160 chars)"
                       />
-                      <span className={`text-xs ${seoDescription.length > 150 ? "text-red-500 font-medium" : seoDescription.length > 130 ? "text-amber-500" : "text-gray-400"}`}>
-                        {seoDescription.length}/150
-                      </span>
                     </div>
                   </div>
 
@@ -1607,7 +1650,7 @@ function SmartCreatePageInner() {
                   </div>
 
                   {/* Internal Link Suggestions */}
-                  <div>
+                  <div ref={linksRef}>
                     <div className="flex items-center justify-between mb-2">
                       <label className="block text-xs font-medium text-gray-500 flex items-center gap-1">
                         <Link2 className="w-3 h-3" />
@@ -1775,6 +1818,68 @@ function SmartCreatePageInner() {
                       </div>
                     )}
                   </div>
+                  {/* SEO Score Panel */}
+                  {(() => {
+                    const bodyHtml = sections ? sectionsToHtml(sections) : "";
+                    return (
+                      <SeoScorePanel
+                        title={seoTitle}
+                        description={seoDescription}
+                        slug={slug}
+                        html={bodyHtml}
+                        articleTitle={title}
+                        keyword={focusKeyword}
+                        onKeywordChange={setFocusKeyword}
+                        onFixSlug={(newSlug) => {
+                          setSlugManuallyEdited(true);
+                          setSlug(newSlug);
+                        }}
+                        onScrollToLinks={() => {
+                          linksRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+                          // If no suggestions yet, trigger the suggest flow
+                          if (linkSuggestions.length === 0 && acceptedLinks.length === 0 && sections) {
+                            suggestInternalLinks();
+                          }
+                        }}
+                        onRewriteIntro={async (kw) => {
+                          if (!sections || sections.length === 0) return;
+                          // Find the first paragraph section
+                          const firstParaIdx = sections.findIndex((s) => s.type === "paragraph");
+                          if (firstParaIdx === -1) return;
+                          const firstPara = sections[firstParaIdx] as { type: "paragraph"; content: string };
+                          // Convert the paragraph to HTML for the API
+                          const introHtml = `<p>${firstPara.content
+                            .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+                            .replace(/\*(.*?)\*/g, "<em>$1</em>")
+                            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')}</p>`;
+                          const res = await authFetch("/api/cms/seo-fix", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ action: "rewrite-intro", keyword: kw, introHtml, articleTitle: title }),
+                          });
+                          const data = await res.json();
+                          if (!res.ok || !data.result) throw new Error(data.error || "Rewrite failed");
+                          // Parse the returned HTML back to a paragraph section
+                          const newSections = htmlToSections(data.result);
+                          if (newSections.length > 0 && newSections[0].type === "paragraph") {
+                            const updated = [...sections];
+                            updated[firstParaIdx] = newSections[0];
+                            setSections(updated);
+                          }
+                        }}
+                        onExpandDescription={async (currentDesc, kw) => {
+                          const res = await authFetch("/api/cms/seo-fix", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ action: "expand-description", description: currentDesc, keyword: kw }),
+                          });
+                          const data = await res.json();
+                          if (!res.ok || !data.result) throw new Error(data.error || "Expand failed");
+                          setSeoDescription(data.result);
+                        }}
+                      />
+                    );
+                  })()}
                 </div>
               )}
             </div>

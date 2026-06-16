@@ -8,6 +8,10 @@ import {
   ChevronDown,
   ChevronUp,
   Gauge,
+  Wand2,
+  Link2,
+  RotateCcw,
+  Loader2,
 } from "lucide-react";
 
 type CheckStatus = "good" | "warn" | "bad";
@@ -28,6 +32,21 @@ interface SeoScorePanelProps {
   keyword?: string; // primary keyword (controlled value)
   onKeywordChange?: (value: string) => void; // called when keyword changes
   articleTitle?: string; // the H1 / article title
+
+  // --- Optional action callbacks (all are no-ops when omitted) ---
+  /** Called with a new slug when the user clicks "Fix slug". */
+  onFixSlug?: (newSlug: string) => void;
+  /** Called when the user clicks "Go to links" on the no-links check. */
+  onScrollToLinks?: () => void;
+  /** Called when the user clicks "Rewrite intro with AI".
+   *  Receives the current keyword; the caller is responsible for the AI call
+   *  and updating the content. Returns a promise so the button can show a
+   *  loading state. */
+  onRewriteIntro?: (keyword: string) => Promise<void>;
+  /** Called when the user clicks "Expand with AI" on the description check.
+   *  Receives the current description; the caller handles the AI call and
+   *  updates seoDescription. Returns a promise for loading state. */
+  onExpandDescription?: (currentDescription: string, keyword: string) => Promise<void>;
 }
 
 // Strip HTML tags to get plain text
@@ -47,6 +66,29 @@ function countOccurrences(haystack: string, needle: string): number {
   return matches ? matches.length : 0;
 }
 
+/** Derive a short slug from a title + keyword, inserting the keyword words. */
+function buildKeywordSlug(title: string, keyword: string): string {
+  const stopWords = new Set([
+    "a","an","the","and","or","but","in","on","at","to","for","of","with","by",
+    "from","is","are","was","were","be","been","being","have","has","had","do",
+    "does","did","will","would","could","should","may","might","shall","can",
+    "it","this","that","you","your","what","which","who","how","all","some",
+    "understanding","explained","guide","complete","comprehensive","everything",
+    "know","things","way","ways","best","top","right","good","new","full",
+    "simple","easy","tips","ultimate","essential","important","comparison",
+    "compare","versus","vs","choosing","choose","find","effectively",
+  ]);
+  const kwWords = keyword.trim().toLowerCase().replace(/[^a-z0-9\s]/g, "").split(/\s+/).filter(Boolean);
+  const titleWords = title.toLowerCase().replace(/[^a-z0-9\s]/g, "").split(/\s+/).filter(w => w && !stopWords.has(w));
+  // Start with keyword words, then append non-duplicate title words up to 4 total
+  const combined: string[] = [...kwWords];
+  for (const w of titleWords) {
+    if (!combined.includes(w)) combined.push(w);
+    if (combined.length >= 4) break;
+  }
+  return combined.slice(0, 4).join("-").replace(/-+/g, "-").replace(/^-|-$/g, "").slice(0, 45) || kwWords.slice(0,3).join("-");
+}
+
 export default function SeoScorePanel({
   title,
   description,
@@ -55,6 +97,10 @@ export default function SeoScorePanel({
   keyword: keywordProp,
   onKeywordChange,
   articleTitle,
+  onFixSlug,
+  onScrollToLinks,
+  onRewriteIntro,
+  onExpandDescription,
 }: SeoScorePanelProps) {
   const [expanded, setExpanded] = useState(true);
   // Controlled if onKeywordChange is provided; otherwise falls back to internal state.
@@ -64,6 +110,10 @@ export default function SeoScorePanel({
     if (onKeywordChange) onKeywordChange(value);
     else setInternalKeyword(value);
   };
+
+  // Loading states for AI actions
+  const [rewritingIntro, setRewritingIntro] = useState(false);
+  const [expandingDesc, setExpandingDesc] = useState(false);
 
   const { score, checks } = useMemo(() => {
     const plainText = stripHtml(html);
@@ -247,6 +297,77 @@ export default function SeoScorePanel({
     return <XCircle className="w-4 h-4 text-red-500 flex-shrink-0" />;
   };
 
+  /** Render an optional inline action button for a check row. */
+  const CheckAction = ({ check }: { check: SeoCheck }) => {
+    // Fix slug: only show when keyword is set, slug doesn't include keyword, and callback provided
+    if (check.id === "kw-slug" && check.status !== "good" && onFixSlug && keyword) {
+      const suggestedSlug = buildKeywordSlug(articleTitle || title, keyword);
+      return (
+        <button
+          type="button"
+          onClick={() => onFixSlug(suggestedSlug)}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-amber-50 text-amber-700 border border-amber-200 hover:bg-amber-100 transition-colors"
+          title={`Set slug to: ${suggestedSlug}`}
+        >
+          <RotateCcw className="w-3 h-3" />
+          Fix slug
+        </button>
+      );
+    }
+
+    // Links shortcut: show when no/few links and callback provided
+    if (check.id === "links" && check.status !== "good" && onScrollToLinks) {
+      return (
+        <button
+          type="button"
+          onClick={onScrollToLinks}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 hover:bg-blue-100 transition-colors"
+        >
+          <Link2 className="w-3 h-3" />
+          Add links
+        </button>
+      );
+    }
+
+    // Rewrite intro: show when keyword not in intro and callback provided
+    if (check.id === "kw-intro" && check.status !== "good" && onRewriteIntro && keyword) {
+      return (
+        <button
+          type="button"
+          disabled={rewritingIntro}
+          onClick={async () => {
+            setRewritingIntro(true);
+            try { await onRewriteIntro(keyword); } finally { setRewritingIntro(false); }
+          }}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition-colors disabled:opacity-50"
+        >
+          {rewritingIntro ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+          {rewritingIntro ? "Rewriting…" : "Rewrite intro"}
+        </button>
+      );
+    }
+
+    // Expand description: show when description is short/bad and callback provided
+    if (check.id === "desc-length" && check.status !== "good" && onExpandDescription && description) {
+      return (
+        <button
+          type="button"
+          disabled={expandingDesc}
+          onClick={async () => {
+            setExpandingDesc(true);
+            try { await onExpandDescription(description, keyword); } finally { setExpandingDesc(false); }
+          }}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-teal-50 text-teal-700 border border-teal-200 hover:bg-teal-100 transition-colors disabled:opacity-50"
+        >
+          {expandingDesc ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+          {expandingDesc ? "Expanding…" : "Expand with AI"}
+        </button>
+      );
+    }
+
+    return null;
+  };
+
   return (
     <div className="sketch-section">
       <button
@@ -314,13 +435,14 @@ export default function SeoScorePanel({
             {checks.map((c) => (
               <li
                 key={c.id}
-                className="flex items-start gap-2.5 text-sm"
+                className="flex items-center gap-2.5 text-sm"
               >
                 <StatusIcon status={c.status} />
                 <div className="flex-1 min-w-0">
                   <span className="font-medium text-gray-700">{c.label}</span>
                   <span className="text-gray-400"> — {c.detail}</span>
                 </div>
+                <CheckAction check={c} />
               </li>
             ))}
           </ul>
