@@ -38,15 +38,22 @@ interface SeoScorePanelProps {
   onFixSlug?: (newSlug: string) => void;
   /** Called when the user clicks "Go to links" on the no-links check. */
   onScrollToLinks?: () => void;
-  /** Called when the user clicks "Rewrite intro with AI".
-   *  Receives the current keyword; the caller is responsible for the AI call
-   *  and updating the content. Returns a promise so the button can show a
-   *  loading state. */
+  /** Called when the user clicks "Rewrite intro with AI". */
   onRewriteIntro?: (keyword: string) => Promise<void>;
-  /** Called when the user clicks "Expand with AI" on the description check.
-   *  Receives the current description; the caller handles the AI call and
-   *  updates seoDescription. Returns a promise for loading state. */
+  /** Called when the user clicks "Expand with AI" on the description check. */
   onExpandDescription?: (currentDescription: string, keyword: string) => Promise<void>;
+  /** Called when the user clicks "Fix title length" — receives current meta title. */
+  onFixTitleLength?: (currentTitle: string, keyword: string) => Promise<void>;
+  /** Called when the user clicks "Add keyword" on the meta title check. */
+  onAddKeywordToTitle?: (currentTitle: string, keyword: string) => Promise<void>;
+  /** Called when the user clicks "Add keyword" on the H1 check. */
+  onAddKeywordToH1?: (currentH1: string, keyword: string) => Promise<void>;
+  /** Called when the user clicks "Add keyword" on the meta description check. */
+  onAddKeywordToDesc?: (currentDesc: string, keyword: string) => Promise<void>;
+  /** Called when the user clicks "Boost density" on the keyword density check. */
+  onBoostKeywordDensity?: (keyword: string) => Promise<void>;
+  /** Called when the user clicks "Fix alt text" on the images check. */
+  onFixImageAltText?: () => Promise<void>;
 }
 
 // Strip HTML tags to get plain text
@@ -101,6 +108,12 @@ export default function SeoScorePanel({
   onScrollToLinks,
   onRewriteIntro,
   onExpandDescription,
+  onFixTitleLength,
+  onAddKeywordToTitle,
+  onAddKeywordToH1,
+  onAddKeywordToDesc,
+  onBoostKeywordDensity,
+  onFixImageAltText,
 }: SeoScorePanelProps) {
   const [expanded, setExpanded] = useState(true);
   // Controlled if onKeywordChange is provided; otherwise falls back to internal state.
@@ -114,6 +127,12 @@ export default function SeoScorePanel({
   // Loading states for AI actions
   const [rewritingIntro, setRewritingIntro] = useState(false);
   const [expandingDesc, setExpandingDesc] = useState(false);
+  const [fixingTitleLen, setFixingTitleLen] = useState(false);
+  const [addingKwToTitle, setAddingKwToTitle] = useState(false);
+  const [addingKwToH1, setAddingKwToH1] = useState(false);
+  const [addingKwToDesc, setAddingKwToDesc] = useState(false);
+  const [boostingDensity, setBoostingDensity] = useState(false);
+  const [fixingAltText, setFixingAltText] = useState(false);
 
   const { score, checks } = useMemo(() => {
     const plainText = stripHtml(html);
@@ -361,6 +380,114 @@ export default function SeoScorePanel({
         >
           {expandingDesc ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
           {expandingDesc ? "Expanding…" : "Expand with AI"}
+        </button>
+      );
+    }
+
+    // Fix meta title length
+    if (check.id === "title-length" && check.status !== "good" && onFixTitleLength && title) {
+      return (
+        <button
+          type="button"
+          disabled={fixingTitleLen}
+          onClick={async () => {
+            setFixingTitleLen(true);
+            try { await onFixTitleLength(title, keyword); } finally { setFixingTitleLen(false); }
+          }}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-teal-50 text-teal-700 border border-teal-200 hover:bg-teal-100 transition-colors disabled:opacity-50"
+        >
+          {fixingTitleLen ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+          {fixingTitleLen ? "Fixing…" : "Fix with AI"}
+        </button>
+      );
+    }
+
+    // Add keyword to meta title
+    if (check.id === "kw-title" && check.status !== "good" && onAddKeywordToTitle && title && keyword) {
+      return (
+        <button
+          type="button"
+          disabled={addingKwToTitle}
+          onClick={async () => {
+            setAddingKwToTitle(true);
+            try { await onAddKeywordToTitle(title, keyword); } finally { setAddingKwToTitle(false); }
+          }}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition-colors disabled:opacity-50"
+        >
+          {addingKwToTitle ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+          {addingKwToTitle ? "Adding…" : "Add keyword"}
+        </button>
+      );
+    }
+
+    // Add keyword to H1 / article title
+    if (check.id === "kw-h1" && check.status !== "good" && onAddKeywordToH1 && articleTitle && keyword) {
+      return (
+        <button
+          type="button"
+          disabled={addingKwToH1}
+          onClick={async () => {
+            setAddingKwToH1(true);
+            try { await onAddKeywordToH1(articleTitle, keyword); } finally { setAddingKwToH1(false); }
+          }}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition-colors disabled:opacity-50"
+        >
+          {addingKwToH1 ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+          {addingKwToH1 ? "Adding…" : "Add keyword"}
+        </button>
+      );
+    }
+
+    // Add keyword to meta description
+    if (check.id === "kw-desc" && check.status !== "good" && onAddKeywordToDesc && description && keyword) {
+      return (
+        <button
+          type="button"
+          disabled={addingKwToDesc}
+          onClick={async () => {
+            setAddingKwToDesc(true);
+            try { await onAddKeywordToDesc(description, keyword); } finally { setAddingKwToDesc(false); }
+          }}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-purple-50 text-purple-700 border border-purple-200 hover:bg-purple-100 transition-colors disabled:opacity-50"
+        >
+          {addingKwToDesc ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+          {addingKwToDesc ? "Adding…" : "Add keyword"}
+        </button>
+      );
+    }
+
+    // Boost keyword density
+    if (check.id === "kw-density" && check.status !== "good" && onBoostKeywordDensity && keyword) {
+      return (
+        <button
+          type="button"
+          disabled={boostingDensity}
+          onClick={async () => {
+            setBoostingDensity(true);
+            try { await onBoostKeywordDensity(keyword); } finally { setBoostingDensity(false); }
+          }}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-amber-50 text-amber-700 border border-amber-200 hover:bg-amber-100 transition-colors disabled:opacity-50"
+        >
+          {boostingDensity ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+          {boostingDensity ? "Boosting…" : "Boost density"}
+        </button>
+      );
+    }
+
+    // Fix image alt text
+    if (check.id === "images" && check.status !== "good" && onFixImageAltText) {
+      return (
+        <button
+          type="button"
+          disabled={fixingAltText}
+          onClick={async () => {
+            setFixingAltText(true);
+            try { await onFixImageAltText(); } finally { setFixingAltText(false); }
+          }}
+          className="ml-auto shrink-0 flex items-center gap-1 text-[11px] font-medium px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200 hover:bg-blue-100 transition-colors disabled:opacity-50"
+        >
+          {fixingAltText ? <Loader2 className="w-3 h-3 animate-spin" /> : <Wand2 className="w-3 h-3" />}
+          {fixingAltText ? "Fixing…" : "Fix alt text"}
         </button>
       );
     }

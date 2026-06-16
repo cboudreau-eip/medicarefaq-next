@@ -724,6 +724,68 @@ export default function EditArticlePage() {
                   if (!res.ok || !data.result) throw new Error(data.error || "Expand failed");
                   setEditSeoDesc(data.result);
                 }}
+                onFixTitleLength={async (currentTitle, kw) => {
+                  const res = await authFetch("/api/cms/seo-fix", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ action: "fix-title-length", metaTitle: currentTitle, keyword: kw }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
+                  setEditSeoTitle(data.result);
+                }}
+                onAddKeywordToTitle={async (currentTitle, kw) => {
+                  const res = await authFetch("/api/cms/seo-fix", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ action: "add-keyword-to-title", metaTitle: currentTitle, keyword: kw }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
+                  setEditSeoTitle(data.result);
+                }}
+                onAddKeywordToH1={async (currentH1, kw) => {
+                  const res = await authFetch("/api/cms/seo-fix", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ action: "add-keyword-to-h1", h1Title: currentH1, keyword: kw }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
+                  setEditTitle(data.result);
+                }}
+                onAddKeywordToDesc={async (currentDesc, kw) => {
+                  const res = await authFetch("/api/cms/seo-fix", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ action: "add-keyword-to-desc", description: currentDesc, keyword: kw }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
+                  setEditSeoDesc(data.result);
+                }}
+                onBoostKeywordDensity={async (kw) => {
+                  const res = await authFetch("/api/cms/seo-fix", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ action: "boost-keyword-density", bodyHtml: editHtml, keyword: kw, articleTitle: editTitle }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
+                  setEditHtml(data.result);
+                  setHtmlDirty(true);
+                }}
+                onFixImageAltText={async () => {
+                  const res = await authFetch("/api/cms/seo-fix", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ action: "fix-image-alt-text", bodyHtml: editHtml, articleTitle: editTitle, keyword: editFocusKeyword }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok || !data.result) throw new Error(data.error || "Fix failed");
+                  setEditHtml(data.result);
+                  setHtmlDirty(true);
+                }}
               />
 
               {/* Body Content Editor */}
