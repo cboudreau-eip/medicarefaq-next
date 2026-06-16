@@ -13,6 +13,50 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <SiteLayout>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Your Course Results — Medicare 101 Course",
+    "description": "Your personalized Medicare 101 Course results and recommendations based on your answers.",
+    "url": "https://www.medicarefaq.com/medicare-101-course/results/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MedicareFAQ",
+      "url": "https://www.medicarefaq.com"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.medicarefaq.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Medicare 101 Course",
+      "item": "https://www.medicarefaq.com/medicare-101-course/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Results",
+      "item": "https://www.medicarefaq.com/medicare-101-course/results/"
+    }
+    ]
+  }
+          ])
+        }}
+      />
+
       <PageContent />
     </SiteLayout>
   );

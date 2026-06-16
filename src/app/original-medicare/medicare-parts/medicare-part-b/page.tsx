@@ -41,5 +41,63 @@ export default function Page() {
     ],
   };
 
-  return <SiteLayout><PageContent /></SiteLayout>;
+  return <SiteLayout><PageContent />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What Is Medicare Part B? Medical Insurance Coverage & Costs 2026",
+    "description": "Medicare Part B covers doctor visits, outpatient care, preventive services, and medical equipment. Learn what Part B covers, what it costs, and how to enroll.",
+    "url": "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-b/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MedicareFAQ",
+      "url": "https://www.medicarefaq.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.medicarefaq.com/images/medicarefaq-logo.png"
+      }
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "MedicareFAQ Editorial Team"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.medicarefaq.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Original Medicare",
+      "item": "https://www.medicarefaq.com/original-medicare/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Medicare Parts",
+      "item": "https://www.medicarefaq.com/original-medicare/medicare-parts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Medicare Part B",
+      "item": "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-b/"
+    }
+    ]
+  }
+          ])
+        }}
+      />
+      </SiteLayout>;
 }

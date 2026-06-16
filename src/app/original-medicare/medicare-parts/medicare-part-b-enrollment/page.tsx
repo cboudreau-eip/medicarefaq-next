@@ -41,5 +41,63 @@ export default function Page() {
     ],
   };
 
-  return <SiteLayout><PageContent /></SiteLayout>;
+  return <SiteLayout><PageContent />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Medicare Part B Enrollment: When and How to Sign Up",
+    "description": "Learn when and how to enroll in Medicare Part B, including enrollment periods, deadlines, and how to avoid late enrollment penalties.",
+    "url": "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-b-enrollment/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MedicareFAQ",
+      "url": "https://www.medicarefaq.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.medicarefaq.com/images/medicarefaq-logo.png"
+      }
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "MedicareFAQ Editorial Team"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.medicarefaq.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Original Medicare",
+      "item": "https://www.medicarefaq.com/original-medicare/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Medicare Parts",
+      "item": "https://www.medicarefaq.com/original-medicare/medicare-parts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Part B Enrollment",
+      "item": "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-b-enrollment/"
+    }
+    ]
+  }
+          ])
+        }}
+      />
+      </SiteLayout>;
 }

@@ -41,5 +41,59 @@ export default function Page() {
     ],
   };
 
-  return <SiteLayout><PageContent /></SiteLayout>;
+  return <SiteLayout><PageContent />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Apply for Medicare Part B",
+    "description": "Learn how to apply for Medicare Part B: online, by phone, or in person. Step-by-step instructions for new applicants and those adding Part B after employer coverage.",
+    "url": "https://www.medicarefaq.com/original-medicare/medicare-parts/apply-for-medicare-part-b/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MedicareFAQ",
+      "url": "https://www.medicarefaq.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.medicarefaq.com/images/medicarefaq-logo.png"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.medicarefaq.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Original Medicare",
+      "item": "https://www.medicarefaq.com/original-medicare/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Medicare Parts",
+      "item": "https://www.medicarefaq.com/original-medicare/medicare-parts/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Apply for Part B",
+      "item": "https://www.medicarefaq.com/original-medicare/medicare-parts/apply-for-medicare-part-b/"
+    }
+    ]
+  }
+          ])
+        }}
+      />
+      </SiteLayout>;
 }
