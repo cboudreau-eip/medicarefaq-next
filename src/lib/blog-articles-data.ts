@@ -10,8 +10,9 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-plan-tool",
     seo: {
+      focusKeyword: "Medicare Plan Comparison Tool",
       title: "Medicare Plan Comparison Tool: Simplify Your Decision",
-      description: "Simplify your Medicare plan selection. Use a comparison tool to find the best plan for your needs and budget. MedicareFAQ.",
+      description: "Simplify your Medicare plan selection. Use a comparison tool to find the best plan for your needs and budget.",
       canonical: "https://www.medicarefaq.com/blog/medicare-plan-tool/",
       ogImage: "/images/generated/medicare-plan-tool.png",
     },
