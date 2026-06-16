@@ -348,7 +348,16 @@ export default function ContentIntelligencePage() {
                         )}
                       </div>
                       <a
-                        href={`/admin/github-editor/create-smart?title=${encodeURIComponent(gap.title)}`}
+                        href={(() => {
+                          const params = new URLSearchParams({ title: gap.title });
+                          if (gap.primaryKeyword) params.set("keyword", gap.primaryKeyword);
+                          if (gap.category) params.set("category", gap.category);
+                          if (gap.priority) params.set("priority", gap.priority);
+                          if (gap.rationale) params.set("rationale", gap.rationale);
+                          if (gap.icpAlignment) params.set("icpType", gap.icpAlignment);
+                          if (gap.icpDetail) params.set("icp", gap.icpDetail);
+                          return `/admin/github-editor/create-smart?${params.toString()}`;
+                        })()}
                         className="shrink-0 flex items-center gap-1.5 text-xs font-medium text-purple-600 bg-purple-50 rounded-lg px-3 py-2 hover:bg-purple-100 transition-colors"
                       >
                         Create

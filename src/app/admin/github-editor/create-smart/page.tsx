@@ -119,6 +119,57 @@ interface TransformMeta {
 
 // --- Helper ---
 
+/**
+ * Map a category coming from the Content Intelligence gap finder (which uses a
+ * different, looser vocabulary) onto one of the editor's fixed CATEGORIES.
+ * Falls back to a fuzzy contains-match, then to "General".
+ */
+function mapToEditorCategory(raw: string): string {
+  if (!raw) return "General";
+  const norm = raw.trim().toLowerCase();
+
+  // Exact (case-insensitive) match against the canonical list first.
+  const exact = CATEGORIES.find((c) => c.toLowerCase() === norm);
+  if (exact) return exact;
+
+  // Explicit aliases for the gap-finder's focus areas / common phrasings.
+  const aliases: Record<string, string> = {
+    "medigap": "Medicare Supplement",
+    "medigap / supplements": "Medicare Supplement",
+    "supplement": "Medicare Supplement",
+    "supplements": "Medicare Supplement",
+    "part d": "Medicare Plans",
+    "part d / prescriptions": "Medicare Plans",
+    "prescriptions": "Medicare Plans",
+    "prescription drugs": "Medicare Plans",
+    "enrollment & eligibility": "Enrollment",
+    "eligibility & enrollment": "Enrollment",
+    "costs": "Medicare Costs",
+    "costs & premiums": "Medicare Costs",
+    "premiums": "Medicare Costs",
+    "coverage": "Medicare Coverage",
+    "coverage & benefits": "Medicare Coverage",
+    "special situations": "General",
+    "basics": "Medicare Basics",
+  };
+  if (aliases[norm]) return aliases[norm];
+
+  // Fuzzy: pick the first canonical category whose words overlap.
+  const fuzzy = CATEGORIES.find(
+    (c) => norm.includes(c.toLowerCase()) || c.toLowerCase().includes(norm)
+  );
+  if (fuzzy) return fuzzy;
+
+  // Keyword-based last resort.
+  if (norm.includes("advantage")) return "Medicare Advantage";
+  if (norm.includes("enroll")) return "Enrollment";
+  if (norm.includes("cost") || norm.includes("premium")) return "Medicare Costs";
+  if (norm.includes("cover") || norm.includes("benefit")) return "Medicare Coverage";
+  if (norm.includes("supplement") || norm.includes("medigap")) return "Medicare Supplement";
+
+  return "General";
+}
+
 function generateSlug(title: string): string {
   // Aggressively short SEO slug: max 3-4 core keywords
   const stopWords = new Set([
@@ -352,7 +403,15 @@ function SmartCreatePageInner() {
   const { authenticated, authLoading, password, login, logout, authFetch } = useCMSAuth();
   const autoLoadDraftId = searchParams.get("draft");
   const autoLoadTitle = searchParams.get("title");
+  // Extra context passed from the Content Intelligence "Create" button.
+  const autoLoadKeyword = searchParams.get("keyword");
+  const autoLoadCategory = searchParams.get("category");
+  const autoLoadPriority = searchParams.get("priority");
+  const autoLoadRationale = searchParams.get("rationale");
+  const autoLoadIcpType = searchParams.get("icpType");
+  const autoLoadIcp = searchParams.get("icp");
   const autoLoadAttempted = useRef(false);
+  const autoLoadContextAttempted = useRef(false);
 
   // Input state
   const [title, setTitle] = useState("");
@@ -435,6 +494,69 @@ function SmartCreatePageInner() {
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [autoLoadTitle]);
+
+  // Auto-populate richer context (category, SEO title, and a starter brief)
+  // when arriving from the Content Intelligence "Create" button. Runs once,
+  // and only when the editor is empty so it never clobbers a loaded draft or
+  // anything the user has already typed.
+  useEffect(() => {
+    if (autoLoadDraftId) return; // a draft load takes precedence
+    if (autoLoadContextAttempted.current) return;
+    const hasContext =
+      autoLoadKeyword || autoLoadCategory || autoLoadRationale || autoLoadIcp;
+    if (!hasContext) return;
+    autoLoadContextAttempted.current = true;
+
+    // Map the gap-card category onto a valid editor category.
+    if (autoLoadCategory) {
+      const mapped = mapToEditorCategory(autoLoadCategory);
+      if (mapped) setCategory(mapped);
+    }
+
+    // Seed the SEO title with the target keyword if nothing set yet.
+    if (autoLoadKeyword) {
+      setSeoTitle((prev) => prev || (autoLoadTitle ? autoLoadTitle : autoLoadKeyword));
+    }
+
+    // Seed the Raw Content box with an editable content brief so the editor
+    // is not empty and "Transform with AI" has real context to work from.
+    setRawContent((prev) => {
+      if (prev && prev.trim()) return prev; // never overwrite existing content
+      const icpLabel =
+        autoLoadIcpType === "pain_point"
+          ? "Pain point"
+          : autoLoadIcpType === "goal"
+          ? "Goal"
+          : autoLoadIcpType === "objection"
+          ? "Objection"
+          : autoLoadIcpType === "decision_trigger"
+          ? "Decision trigger"
+          : "Audience focus";
+      const lines: string[] = [];
+      lines.push(`<!-- CONTENT BRIEF (from Content Intelligence) — edit or replace, then click "Transform with AI" -->`);
+      if (autoLoadTitle) lines.push(`# ${autoLoadTitle}`);
+      lines.push("");
+      if (autoLoadKeyword) lines.push(`**Target keyword:** ${autoLoadKeyword}`);
+      if (autoLoadPriority) lines.push(`**Priority:** ${autoLoadPriority}`);
+      if (autoLoadIcp) lines.push(`**${icpLabel}:** ${autoLoadIcp}`);
+      if (autoLoadRationale) {
+        lines.push("");
+        lines.push(`**Why this article:** ${autoLoadRationale}`);
+      }
+      lines.push("");
+      lines.push("## Suggested outline");
+      lines.push("- Introduction that addresses the reader's situation above");
+      lines.push("- Key concepts and definitions in plain language");
+      lines.push("- Step-by-step guidance or comparison the reader needs");
+      lines.push("- Common mistakes / things to watch out for");
+      lines.push("- Frequently asked questions");
+      lines.push("- Clear next step / call to action");
+      lines.push("");
+      lines.push("<!-- Replace this brief with your draft, or expand each section above, then Transform. -->");
+      return lines.join("\n");
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoLoadKeyword, autoLoadCategory, autoLoadPriority, autoLoadRationale, autoLoadIcp, autoLoadIcpType, autoLoadTitle, autoLoadDraftId]);
 
   // Auto-generate slug from title
   useEffect(() => {
