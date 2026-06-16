@@ -3,6 +3,7 @@ import SiteLayout from "@/components/SiteLayout";
 import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
+  robots: { index: true, follow: true },
   title: "Jagger Esch | Founder & CEO of MedicareFAQ",
   description: "Learn about Jagger Esch, the founder and CEO of MedicareFAQ, his background in Medicare insurance, and his mission to simplify Medicare for everyone.",
   openGraph: {
@@ -15,5 +16,17 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <SiteLayout><PageContent /></SiteLayout>;
+  const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "",
+  "description": "",
+  "url": ""
+};
+
+  return <SiteLayout>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      /><PageContent /></SiteLayout>;
 }
