@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T17:08:09.666Z",
-  "count": 124,
+  "generatedAt": "2026-06-16T17:08:53.903Z",
+  "count": 122,
   "pages": [
     {
       "route": "/about-us/jagger-esch",
@@ -278,16 +278,6 @@
       "title": "Turning 65 and Medicare: When and How to Enroll",
       "hasMetadata": true,
       "schemaCount": 2,
-      "seoEditable": true,
-      "contentEditable": false,
-      "section": "medicare-enrollment"
-    },
-    {
-      "route": "/medicare-enrollment/working-past-65-semantic-fix",
-      "file": "src/app/medicare-enrollment/working-past-65-semantic-fix/page.tsx",
-      "title": "Working past 65 and Medicare | Semantic Fix Comparison",
-      "hasMetadata": true,
-      "schemaCount": 0,
       "seoEditable": true,
       "contentEditable": false,
       "section": "medicare-enrollment"
@@ -978,16 +968,6 @@
       "title": "Medicare Eligibility | Who Qualifies for Medicare?",
       "hasMetadata": true,
       "schemaCount": 2,
-      "seoEditable": true,
-      "contentEditable": false,
-      "section": "new-to-medicare"
-    },
-    {
-      "route": "/new-to-medicare/turning-65-semantic-fix",
-      "file": "src/app/new-to-medicare/turning-65-semantic-fix/page.tsx",
-      "title": "Turning 65 Medicare Timeline | Semantic Fix Comparison",
-      "hasMetadata": true,
-      "schemaCount": 0,
       "seoEditable": true,
       "contentEditable": false,
       "section": "new-to-medicare"
