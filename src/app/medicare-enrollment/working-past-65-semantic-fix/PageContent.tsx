@@ -1,0 +1,630 @@
+"use client";
+
+/**
+ * Working Past 65 Page — SEMANTIC FIX VERSION
+ * Same visual appearance as the original, but with proper semantic HTML:
+ * - ul/li for list content instead of flex divs
+ * - <table> for comparison data
+ * - <dl>/<dt>/<dd> for definition-like content
+ * - <nav aria-label="Breadcrumb"> with <ol> for breadcrumbs
+ * - <strong>/<em> for key terms
+ * - <aside> for callout/tip blocks
+ * - <blockquote> for important warnings
+ */
+
+import { useState, useEffect, type ReactNode } from "react";
+import Link from "next/link";
+import { trackPhoneClick } from "@/lib/analytics";
+import {
+  Briefcase,
+  ChevronDown,
+  Phone,
+  ArrowRight,
+  AlertTriangle,
+  CheckCircle2,
+  XCircle,
+  Shield,
+  Clock,
+  HelpCircle,
+  Building2,
+  Users,
+  Calendar,
+  DollarSign,
+  FileText,
+} from "lucide-react";
+
+const tableOfContents = [
+  { id: "overview", label: "Working past 65 & Medicare" },
+  { id: "employer-size", label: "Employer Size Matters" },
+  { id: "what-to-enroll", label: "What to Enroll in Now" },
+  { id: "sep", label: "Special Enrollment Period" },
+  { id: "hsa", label: "HSA Considerations" },
+  { id: "cobra", label: "COBRA & Medicare" },
+  { id: "spouse-coverage", label: "Spouse's Employer Coverage" },
+  { id: "faqs", label: "Frequently Asked Questions" },
+  { id: "next-steps", label: "Next Steps" },
+];
+
+const faqs: { q: string; a: ReactNode }[] = [
+  {
+    q: "I'm 65 and still working. Do I have to sign up for Medicare?",
+    a: "It depends on your employer size. If your employer has 20 or more employees, your employer coverage is primary and you can delay Part B without penalty. However, you should still enroll in Part A since it's free and doesn't affect your employer coverage. If your employer has fewer than 20 employees, Medicare is primary and you should enroll in both Parts A and B at 65.",
+  },
+  {
+    q: "What is creditable coverage?",
+    a: "Creditable coverage is health insurance that is considered at least as good as Medicare. Employer group health plans from companies with 20+ employees generally qualify as creditable coverage. This means you can delay Medicare Part B enrollment without facing a late enrollment penalty. Your employer's HR department can confirm whether your coverage is creditable.",
+  },
+  {
+    q: "When should I enroll in Part B after I stop working?",
+    a: <>You have an 8-month <Link href="/faqs/medicare-special-enrollment-periods" className="text-amber-700 underline font-semibold hover:text-amber-900"><strong>Special Enrollment Period (SEP)</strong></Link> that begins the month after your employment ends or your employer coverage ends, whichever comes first. You should enroll in Part B during this window to avoid a gap in coverage and <Link href="/medicare-enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>.</>,
+  },
+  {
+    q: "Can I keep my employer coverage and have Medicare too?",
+    a: "Yes, in many cases you can have both. If your employer has 20+ employees, your employer plan pays first (primary) and Medicare pays second (secondary). Some people keep employer coverage for their spouse or dependents while also enrolling in Medicare. Talk to your HR department about how your plan coordinates with Medicare.",
+  },
+  {
+    q: "What happens to my HSA when I enroll in Medicare?",
+    a: "Once you enroll in any part of Medicare (including Part A), you can no longer contribute to a Health Savings Account. If you want to keep contributing to your HSA, you should delay all parts of Medicare, including Part A. Note: If you're collecting Social Security, you'll be automatically enrolled in Part A, which would end your HSA eligibility.",
+  },
+  {
+    q: "Is COBRA considered creditable coverage for Medicare?",
+    a: <>No. <strong>COBRA is not considered creditable coverage</strong> for Medicare purposes. If you&apos;re 65+ and on COBRA, you should enroll in Medicare during your <Link href="/faqs/medicare-initial-enrollment-period" className="text-amber-700 underline font-semibold hover:text-amber-900">Initial Enrollment Period</Link> or you may face <Link href="/medicare-enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>. Medicare is always primary over COBRA coverage.</>,
+  },
+];
+
+export default function WorkingPast65Semantic() {
+  const [activeSection, setActiveSection] = useState("overview");
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = tableOfContents.map((item) => document.getElementById(item.id));
+      const scrollPosition = window.scrollY + 200;
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = sections[i];
+        if (section && section.offsetTop <= scrollPosition) {
+          setActiveSection(tableOfContents[i].id);
+          break;
+        }
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <article className="min-h-screen bg-white">
+      {/* Hero */}
+      <header className="relative bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 pt-8 pb-16 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-10 w-72 h-72 bg-amber-400 rounded-full blur-3xl" />
+          <div className="absolute bottom-10 right-20 w-96 h-96 bg-orange-400 rounded-full blur-3xl" />
+        </div>
+        <div className="container relative z-10">
+          {/* Semantic breadcrumb with nav + ol */}
+          <nav aria-label="Breadcrumb" className="mb-6">
+            <ol className="flex items-center gap-2 text-sm text-slate-400">
+              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
+              <li aria-hidden="true"><ChevronDown className="w-3 h-3 rotate-[-90deg]" /></li>
+              <li><span className="text-slate-400">Enrollment</span></li>
+              <li aria-hidden="true"><ChevronDown className="w-3 h-3 rotate-[-90deg]" /></li>
+              <li aria-current="page"><span className="text-amber-400">Working Past 65</span></li>
+            </ol>
+          </nav>
+          <div className="flex items-center gap-3 mb-4">
+            <div className="w-12 h-12 bg-amber-600/20 rounded-xl flex items-center justify-center">
+              <Briefcase className="w-6 h-6 text-amber-400" />
+            </div>
+            <span className="text-sm font-semibold text-amber-400 uppercase tracking-wider">Employer Coverage</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-3xl" style={{ fontFamily: "'Merriweather', serif" }}>
+            Working Past 65: Medicare & Employer Coverage
+          </h1>
+          <p className="text-lg text-slate-300 max-w-2xl mb-8">
+            Still working with employer health insurance? Learn when to enroll in Medicare, how your coverage coordinates, and how to avoid penalties when you retire.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <a href="#employer-size" className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+              Check Your Situation <ArrowRight className="w-4 h-4" />
+            </a>
+            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "working_past_65" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+              <Phone className="w-4 h-4" /> Talk to an Agent
+            </a>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <div className="py-16">
+        <div className="container">
+          <div className="flex gap-12 lg:gap-16 justify-center">
+
+            {/* Main Content */}
+            <div className="flex-1 min-w-0 max-w-3xl order-first mx-auto xl:mx-0">
+              {/* Overview */}
+              <section id="overview" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
+                  Working Past 65 & Medicare
+                </h2>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  If you're still working when you turn 65, you don't necessarily have to enroll in all parts of Medicare right away. Whether you should enroll now or delay depends primarily on the <strong>size of your employer</strong> and whether your employer coverage qualifies as <strong>creditable coverage</strong>.
+                </p>
+                <p className="text-slate-600 leading-relaxed mb-8">
+                  Making the wrong decision here can be costly — enrolling too early could mean paying for duplicate coverage, while delaying too long without <strong>creditable coverage</strong> can result in permanent <Link href="/medicare-enrollment/late-penalties" className="text-amber-700 underline font-semibold hover:text-amber-900">late enrollment penalties</Link>. This guide helps you navigate the decision.
+                </p>
+              </section>
+
+              {/* Employer Size — using comparison table instead of cards */}
+              <section id="employer-size" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
+                  Your Employer Size Determines Your Path
+                </h2>
+                <p className="text-slate-600 leading-relaxed mb-8">
+                  The number of employees at your company determines which insurance — Medicare or your employer plan — pays first (is &ldquo;primary&rdquo;). This is the single most important factor in your decision.
+                </p>
+
+                {/* Comparison table for the two employer size scenarios */}
+                <div className="overflow-x-auto mb-8">
+                  <table className="w-full border-collapse">
+                    <thead>
+                      <tr>
+                        <th className="bg-green-700 text-white text-left p-4 font-semibold text-sm rounded-tl-lg w-1/2">
+                          <div className="flex items-center gap-2">
+                            <Building2 className="w-5 h-5" aria-hidden="true" />
+                            <span>20+ Employees</span>
+                          </div>
+                          <span className="text-xs font-normal text-green-100 block mt-1">Employer Plan Is Primary</span>
+                        </th>
+                        <th className="bg-red-700 text-white text-left p-4 font-semibold text-sm rounded-tr-lg w-1/2">
+                          <div className="flex items-center gap-2">
+                            <Building2 className="w-5 h-5" aria-hidden="true" />
+                            <span>Fewer than 20 Employees</span>
+                          </div>
+                          <span className="text-xs font-normal text-red-100 block mt-1">Medicare Is Primary</span>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="p-4 bg-green-50 border-b border-green-100 align-top">
+                          <ul className="space-y-3 list-none">
+                            <li className="flex items-start gap-2">
+                              <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
+                              <span className="text-sm text-green-800">Can delay <strong>Part B</strong> without penalty</span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                              <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
+                              <span className="text-sm text-green-800">Employer plan pays first, Medicare pays second</span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                              <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
+                              <span className="text-sm text-green-800">Enroll in <strong>Part A</strong> (it&apos;s free)</span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                              <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
+                              <span className="text-sm text-green-800">8-month <strong>Special Enrollment Period</strong> when you leave</span>
+                            </li>
+                          </ul>
+                        </td>
+                        <td className="p-4 bg-red-50 border-b border-red-100 align-top">
+                          <ul className="space-y-3 list-none">
+                            <li className="flex items-start gap-2">
+                              <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                              <span className="text-sm text-red-800">Must enroll in <strong>Parts A &amp; B</strong> at 65</span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                              <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                              <span className="text-sm text-red-800">Medicare pays first, employer pays second</span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                              <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                              <span className="text-sm text-red-800">Delaying <strong>Part B</strong> = permanent penalties</span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                              <AlertTriangle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                              <span className="text-sm text-red-800">Employer may require Medicare enrollment</span>
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="p-4 bg-green-50">
+                          <p className="text-xs text-green-700 bg-green-100 rounded-lg p-3">
+                            <strong>Action:</strong> Enroll in Part A at 65. Delay Part B until you leave your job or lose employer coverage.
+                          </p>
+                        </td>
+                        <td className="p-4 bg-red-50">
+                          <p className="text-xs text-red-700 bg-red-100 rounded-lg p-3">
+                            <strong>Action:</strong> Enroll in both Part A and Part B during your <abbr title="Initial Enrollment Period">IEP</abbr>. Also enroll in Part D or supplemental coverage.
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <aside className="bg-blue-50 border border-blue-100 rounded-xl p-5" aria-label="Helpful tip">
+                  <div className="flex items-start gap-3">
+                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
+                    <div>
+                      <p className="font-semibold text-blue-900 mb-1">Not Sure About Your Employer Size?</p>
+                      <p className="text-sm text-blue-800">
+                        Contact your HR department or benefits administrator. Ask specifically whether your employer group health plan is considered <strong>creditable coverage</strong> for Medicare purposes. They're required to provide this information.
+                      </p>
+                    </div>
+                  </div>
+                </aside>
+              </section>
+
+              {/* What to Enroll In */}
+              <section id="what-to-enroll" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
+                  What to Enroll In While Still Working
+                </h2>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  Even if you're delaying full Medicare enrollment, there are steps you should take at 65:
+                </p>
+
+                <div className="overflow-x-auto mb-8">
+                  <table className="w-full border-collapse">
+                    <thead>
+                      <tr className="bg-slate-800 text-white">
+                        <th className="text-left p-4 font-semibold text-sm rounded-tl-lg">Coverage</th>
+                        <th className="text-left p-4 font-semibold text-sm">Large Employer (20+)</th>
+                        <th className="text-left p-4 font-semibold text-sm rounded-tr-lg">Small Employer (&lt;20)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b border-slate-100">
+                        <td className="p-4 text-sm font-semibold text-slate-700">Part A</td>
+                        <td className="p-4">
+                          <span className="inline-flex items-center gap-1 text-sm text-green-700">
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Enroll (free)
+                          </span>
+                        </td>
+                        <td className="p-4">
+                          <span className="inline-flex items-center gap-1 text-sm text-green-700">
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Enroll (free)
+                          </span>
+                        </td>
+                      </tr>
+                      <tr className="border-b border-slate-100 bg-slate-50/50">
+                        <td className="p-4 text-sm font-semibold text-slate-700">Part B</td>
+                        <td className="p-4">
+                          <span className="inline-flex items-center gap-1 text-sm text-amber-700">
+                            <Clock className="w-4 h-4" aria-hidden="true" /> Can delay
+                          </span>
+                        </td>
+                        <td className="p-4">
+                          <span className="inline-flex items-center gap-1 text-sm text-green-700">
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Must enroll
+                          </span>
+                        </td>
+                      </tr>
+                      <tr className="border-b border-slate-100">
+                        <td className="p-4 text-sm font-semibold text-slate-700">Part D</td>
+                        <td className="p-4">
+                          <span className="inline-flex items-center gap-1 text-sm text-amber-700">
+                            <Clock className="w-4 h-4" aria-hidden="true" /> Can delay if creditable
+                          </span>
+                        </td>
+                        <td className="p-4">
+                          <span className="inline-flex items-center gap-1 text-sm text-green-700">
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Enroll
+                          </span>
+                        </td>
+                      </tr>
+                      <tr className="border-b border-slate-100 bg-slate-50/50">
+                        <td className="p-4 text-sm font-semibold text-slate-700">Medigap / MA</td>
+                        <td className="p-4">
+                          <span className="inline-flex items-center gap-1 text-sm text-amber-700">
+                            <Clock className="w-4 h-4" aria-hidden="true" /> Wait until Part B starts
+                          </span>
+                        </td>
+                        <td className="p-4">
+                          <span className="inline-flex items-center gap-1 text-sm text-green-700">
+                            <CheckCircle2 className="w-4 h-4" aria-hidden="true" /> Enroll with Part B
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              {/* Special Enrollment Period */}
+              <section id="sep" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
+                  Your Special Enrollment Period (SEP)
+                </h2>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  When you stop working or lose your employer coverage, you qualify for a <strong>Special Enrollment Period (SEP)</strong> to sign up for <strong>Medicare Part B</strong> without penalty. This is your critical transition window.
+                </p>
+
+                <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-2 border-amber-200 rounded-xl p-6 mb-6">
+                  <h3 className="font-bold text-amber-900 mb-4 text-lg">SEP Key Details</h3>
+                  <dl className="grid sm:grid-cols-2 gap-4">
+                    <div className="bg-white rounded-lg p-4 border border-amber-100">
+                      <Calendar className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                      <dt className="text-sm font-semibold text-slate-900">Duration</dt>
+                      <dd className="text-sm text-slate-600">8 months from the month employment or coverage ends (whichever comes first)</dd>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 border border-amber-100">
+                      <Clock className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                      <dt className="text-sm font-semibold text-slate-900">Coverage Start</dt>
+                      <dd className="text-sm text-slate-600">Part B starts the 1st of the month after you enroll during your SEP</dd>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 border border-amber-100">
+                      <Shield className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                      <dt className="text-sm font-semibold text-slate-900">Medigap Rights</dt>
+                      <dd className="text-sm text-slate-600">Your 6-month <Link href="/faqs/medicare-supplement-open-enrollment" className="text-amber-700 underline font-semibold hover:text-amber-900">Medigap Open Enrollment Period</Link> begins when Part B starts — <strong>guaranteed issue rights</strong> apply</dd>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 border border-amber-100">
+                      <CheckCircle2 className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                      <dt className="text-sm font-semibold text-slate-900">No Penalty</dt>
+                      <dd className="text-sm text-slate-600">No <strong>late enrollment penalty</strong> when you enroll during your SEP</dd>
+                    </div>
+                  </dl>
+                </div>
+
+                <blockquote className="bg-red-50 border-l-4 border-red-400 p-5 rounded-r-xl">
+                  <div className="flex items-start gap-3">
+                    <AlertTriangle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                    <div>
+                      <p className="font-semibold text-red-900 mb-1">Don&apos;t Miss Your 8-Month Window</p>
+                      <p className="text-sm text-red-800">
+                        If you miss your SEP, you'll have to wait until the <Link href="/faqs/medicare-general-enrollment-period" className="text-red-900 underline font-semibold hover:text-red-700">General Enrollment Period</Link> (January 1 – March 31), your coverage won't start until July 1, and you'll face a permanent <Link href="/faqs/medicare-part-b-late-enrollment-penalty" className="text-red-900 underline font-semibold hover:text-red-700"><strong>Part B late enrollment penalty</strong></Link>.
+                      </p>
+                    </div>
+                  </div>
+                </blockquote>
+              </section>
+
+              {/* HSA Considerations */}
+              <section id="hsa" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
+                  HSA Considerations
+                </h2>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  If you have a <strong>Health Savings Account (HSA)</strong>, Medicare enrollment has important implications. Understanding these rules can save you from tax penalties.
+                </p>
+
+                <ul className="space-y-4 mb-6 list-none">
+                  <li className="flex items-start gap-4 p-5 bg-red-50 rounded-xl border border-red-100">
+                    <XCircle className="w-5 h-5 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                    <div>
+                      <p className="font-semibold text-red-900 mb-1">You Cannot Contribute to an HSA Once Enrolled in Medicare</p>
+                      <p className="text-sm text-red-800">
+                        Once you enroll in any part of Medicare — including <Link href="/original-medicare/medicare-parts/medicare-part-a" className="text-red-900 underline font-semibold hover:text-red-700"><strong>Part A</strong></Link> — you are no longer eligible to contribute to an HSA. This applies even if you're still working and have an HSA-eligible health plan.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li className="flex items-start gap-4 p-5 bg-amber-50 rounded-xl border border-amber-100">
+                    <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5 shrink-0" aria-hidden="true" />
+                    <div>
+                      <p className="font-semibold text-amber-900 mb-1">Social Security = Automatic Part A</p>
+                      <p className="text-sm text-amber-800">
+                        If you're collecting <strong>Social Security benefits</strong>, you'll be automatically enrolled in Part A at 65, which ends your HSA contribution eligibility. To keep contributing, you must delay Social Security.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li className="flex items-start gap-4 p-5 bg-green-50 rounded-xl border border-green-100">
+                    <CheckCircle2 className="w-5 h-5 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
+                    <div>
+                      <p className="font-semibold text-green-900 mb-1">You Can Still Use HSA Funds</p>
+                      <p className="text-sm text-green-800">
+                        Even after enrolling in Medicare, you can use existing HSA funds tax-free to pay for Medicare premiums, deductibles, copays, and other qualified medical expenses. You just can't make <em>new</em> contributions.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <aside className="bg-blue-50 border border-blue-100 rounded-xl p-5" aria-label="Pro tip">
+                  <div className="flex items-start gap-3">
+                    <HelpCircle className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" aria-hidden="true" />
+                    <div>
+                      <p className="font-semibold text-blue-900 mb-1">Pro Tip: Stop HSA Contributions 6 Months Early</p>
+                      <p className="text-sm text-blue-800">
+                        <strong>Medicare Part A</strong> can be retroactive up to 6 months. If you plan to enroll in Part A, stop HSA contributions at least 6 months before your Part A effective date to avoid potential tax penalties on excess contributions.
+                      </p>
+                    </div>
+                  </div>
+                </aside>
+              </section>
+
+              {/* COBRA */}
+              <section id="cobra" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
+                  COBRA & Medicare: Important Warning
+                </h2>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  Many people assume <strong>COBRA</strong> continuation coverage will protect them from Medicare penalties. <strong>It will not.</strong> This is one of the most common and costly mistakes people make.
+                </p>
+
+                <blockquote className="bg-red-50 border-2 border-red-200 rounded-xl p-6 mb-6">
+                  <div className="flex items-center gap-2 mb-4">
+                    <AlertTriangle className="w-6 h-6 text-red-600" aria-hidden="true" />
+                    <h3 className="font-bold text-red-900 text-lg">COBRA is <em>not</em> Creditable Coverage</h3>
+                  </div>
+                  <ul className="space-y-3 list-none">
+                    <li className="flex items-start gap-2">
+                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                      <span className="text-sm text-red-800">COBRA does <strong>not</strong> count as creditable coverage for delaying Medicare Part B</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                      <span className="text-sm text-red-800">COBRA does <strong>not</strong> trigger a Special Enrollment Period when it ends</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                      <span className="text-sm text-red-800">If you're 65+ on COBRA, <strong>Medicare is always primary</strong></span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <XCircle className="w-4 h-4 text-red-600 mt-0.5 shrink-0" aria-hidden="true" />
+                      <span className="text-sm text-red-800">Relying on COBRA instead of Medicare can result in <strong>permanent late penalties</strong></span>
+                    </li>
+                  </ul>
+                  <p className="text-sm text-red-700 mt-4 bg-red-100 rounded-lg p-3">
+                    <strong>Bottom line:</strong> If you're 65 or older and your employment has ended, enroll in Medicare — don't rely on COBRA as your primary coverage.
+                  </p>
+                </blockquote>
+              </section>
+
+              {/* Spouse Coverage — using dl/dt/dd */}
+              <section id="spouse-coverage" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
+                  Covered Under Your Spouse&apos;s Employer Plan?
+                </h2>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  If you're covered under your <strong>spouse's employer health plan</strong>, the same rules apply based on the employer's size. The key factor is whether your spouse's employer has 20 or more employees.
+                </p>
+
+                <dl className="space-y-4">
+                  <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+                    <dt className="font-semibold text-slate-900 mb-2">Spouse&apos;s Employer Has 20+ Employees</dt>
+                    <dd className="text-sm text-slate-600">
+                      Your spouse's employer plan is primary. You can delay <strong>Part B</strong> without penalty. When your spouse retires or you lose coverage, you'll get an 8-month <strong>SEP</strong> to enroll in Part B.
+                    </dd>
+                  </div>
+                  <div className="bg-slate-50 rounded-xl p-5 border border-slate-200">
+                    <dt className="font-semibold text-slate-900 mb-2">Spouse&apos;s Employer Has Fewer than 20 Employees</dt>
+                    <dd className="text-sm text-slate-600">
+                      Medicare is primary. You should enroll in both <strong>Parts A and B</strong> during your <abbr title="Initial Enrollment Period">IEP</abbr> at 65. Your spouse's plan would pay secondary to Medicare.
+                    </dd>
+                  </div>
+                  <div className="bg-amber-50 rounded-xl p-5 border border-amber-200">
+                    <dt className="font-semibold text-amber-900 mb-2">Your Spouse is Under 65</dt>
+                    <dd className="text-sm text-amber-800">
+                      If your spouse is under 65 and covered under your employer plan, consider how your Medicare enrollment affects their coverage. Some people keep employer coverage specifically to cover a younger spouse until they become Medicare-eligible.
+                    </dd>
+                  </div>
+                </dl>
+              </section>
+
+              {/* FAQs */}
+              <section id="faqs" className="mb-16">
+                <h2 className="text-3xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
+                  Frequently Asked Questions
+                </h2>
+                <div className="space-y-3">
+                  {faqs.map((faq, i) => (
+                    <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
+                      <button
+                        onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                        className="w-full flex items-center justify-between p-5 text-left hover:bg-slate-50 transition-colors"
+                        aria-expanded={openFaq === i}
+                      >
+                        <span className="font-semibold text-slate-900 pr-4">{faq.q}</span>
+                        <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
+                      </button>
+                      {openFaq === i && (
+                        <div className="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+                          {faq.a}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              {/* Next Steps CTA */}
+              <section id="next-steps" className="mb-8">
+                <div className="bg-gradient-to-br from-slate-700 to-slate-900 rounded-2xl p-8 md:p-10 text-white">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-3" style={{ fontFamily: "'Merriweather', serif" }}>
+                    Need Help Coordinating Coverage?
+                  </h2>
+                  <p className="text-slate-300 mb-6 max-w-xl">
+                    Our licensed agents specialize in helping people who are working past 65 navigate the transition to Medicare. We'll review your employer coverage, help you understand your options, and ensure you don't face any penalties.
+                  </p>
+                  <div className="flex flex-wrap gap-4">
+                    <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "working_past_65" })} className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
+                      <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
+                    </a>
+                    <Link href="/medicare-enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
+                      Turning 65 Guide <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                    </Link>
+                  </div>
+                </div>
+              </section>
+
+              {/* Related Pages */}
+              <nav aria-label="Related guides" className="grid sm:grid-cols-4 gap-4">
+                <Link href="/medicare-enrollment/turning-65" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                  <Calendar className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Turning 65 Enrollment</h3>
+                  <p className="text-xs text-slate-500">Your Initial Enrollment Period</p>
+                </Link>
+                <Link href="/medicare-enrollment/late-penalties" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                  <AlertTriangle className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Late Penalties</h3>
+                  <p className="text-xs text-slate-500">Avoid costly penalties</p>
+                </Link>
+                <Link href="/medicare-enrollment/how-to-enroll" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                  <Shield className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">How to Enroll</h3>
+                  <p className="text-xs text-slate-500">Step-by-step enrollment guide</p>
+                </Link>
+                <Link href="/original-medicare/medicare-parts/apply-for-medicare-part-b" className="group p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-amber-200 hover:bg-amber-50/50 transition-colors">
+                  <FileText className="w-5 h-5 text-amber-600 mb-2" aria-hidden="true" />
+                  <h3 className="font-semibold text-slate-900 group-hover:text-amber-700 text-sm mb-1">Apply for Part B</h3>
+                  <p className="text-xs text-slate-500">Step-by-step Part B application</p>
+                </Link>
+              </nav>
+            </div>
+
+            {/* Right Sidebar */}
+            <aside className="hidden xl:block w-64 shrink-0 order-last" aria-label="Page navigation">
+              <nav className="sticky top-40" aria-label="Table of contents">
+                <h3 className="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-4">
+                  In This Guide
+                </h3>
+                <ul className="space-y-1">
+                  {tableOfContents.map((item) => (
+                    <li key={item.id}>
+                      <a
+                        href={`#${item.id}`}
+                        className={`block text-sm py-2 px-3 rounded-lg transition-all ${
+                          activeSection === item.id
+                            ? "bg-amber-50 text-amber-700 font-medium"
+                            : "text-slate-500 hover:text-slate-800 hover:bg-slate-50"
+                        }`}
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <div className="mt-8 p-4 bg-[#1B2A4A] rounded-xl">
+                  <p className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-2">
+                    Have Questions?
+                  </p>
+                  <p className="text-sm text-white/80 mb-3">
+                    Speak with a licensed Medicare agent — free, no obligation.
+                  </p>
+                  <a
+                    href="tel:+18883358996"
+                    id="callInNum"
+                    data-invoca-phone-number="18883358996"
+                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "working_past_65_sidebar" })}
+                    className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
+                  >
+                    <Phone className="w-4 h-4" aria-hidden="true" />
+                    (888) 335-8996
+                  </a>
+                </div>
+              </nav>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </article>
+  );
+}
