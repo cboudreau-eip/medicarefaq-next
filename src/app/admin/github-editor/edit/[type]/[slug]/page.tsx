@@ -584,28 +584,38 @@ export default function EditArticlePage() {
                       </label>
                       <span
                         className={`text-xs font-medium ${
-                          titleCharCount > 60
+                          titleCharCount >= 50 && titleCharCount <= 60
+                            ? "text-green-600"
+                            : titleCharCount > 60
                             ? "text-red-500"
-                            : titleCharCount > 50
+                            : titleCharCount >= 40
                             ? "text-amber-500"
                             : "text-gray-400"
                         }`}
                       >
-                        {titleCharCount}/60
+                        {titleCharCount}/60{titleCharCount >= 50 && titleCharCount <= 60 ? " ✓" : ""}
                       </span>
                     </div>
                     <input
                       type="text"
                       value={editSeoTitle}
                       onChange={(e) => setEditSeoTitle(e.target.value)}
-                      className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                      className={`w-full text-sm border rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent ${
+                        titleCharCount >= 50 && titleCharCount <= 60
+                          ? "border-green-400"
+                          : titleCharCount > 60
+                          ? "border-red-400"
+                          : "border-gray-200"
+                      }`}
                       placeholder="Meta title for search engines..."
                     />
-                    {titleCharCount > 60 && (
-                      <p className="text-xs text-red-500 mt-1">
-                        Title exceeds 60 characters and may be truncated in search results
-                      </p>
-                    )}
+                    {titleCharCount > 60 ? (
+                      <p className="text-xs text-red-500 mt-1">Title exceeds 60 characters and may be truncated in search results</p>
+                    ) : titleCharCount >= 50 ? (
+                      <p className="text-xs text-green-600 mt-1">Ideal length — good to go</p>
+                    ) : titleCharCount > 0 ? (
+                      <p className="text-xs text-amber-500 mt-1">Aim for 50–60 characters for best results</p>
+                    ) : null}
                   </div>
 
                   {/* Meta Description */}
@@ -616,28 +626,38 @@ export default function EditArticlePage() {
                       </label>
                       <span
                         className={`text-xs font-medium ${
-                          descCharCount > 160
+                          descCharCount >= 150 && descCharCount <= 160
+                            ? "text-green-600"
+                            : descCharCount > 160
                             ? "text-red-500"
-                            : descCharCount > 140
+                            : descCharCount >= 120
                             ? "text-amber-500"
                             : "text-gray-400"
                         }`}
                       >
-                        {descCharCount}/160
+                        {descCharCount}/160{descCharCount >= 150 && descCharCount <= 160 ? " ✓" : ""}
                       </span>
                     </div>
                     <textarea
                       value={editSeoDesc}
                       onChange={(e) => setEditSeoDesc(e.target.value)}
                       rows={3}
-                      className="w-full text-sm border border-gray-200 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none"
+                      className={`w-full text-sm border rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none ${
+                        descCharCount >= 150 && descCharCount <= 160
+                          ? "border-green-400"
+                          : descCharCount > 160
+                          ? "border-red-400"
+                          : "border-gray-200"
+                      }`}
                       placeholder="Meta description for search engines..."
                     />
-                    {descCharCount > 160 && (
-                      <p className="text-xs text-red-500 mt-1">
-                        Description exceeds 160 characters and may be truncated in search results
-                      </p>
-                    )}
+                    {descCharCount > 160 ? (
+                      <p className="text-xs text-red-500 mt-1">Description exceeds 160 characters and may be truncated in search results</p>
+                    ) : descCharCount >= 150 ? (
+                      <p className="text-xs text-green-600 mt-1">Ideal length — good to go</p>
+                    ) : descCharCount > 0 ? (
+                      <p className="text-xs text-amber-500 mt-1">Aim for 150–160 characters for best results</p>
+                    ) : null}
                   </div>
 
                   {/* OG Image */}
@@ -677,6 +697,33 @@ export default function EditArticlePage() {
                 articleTitle={editTitle}
                 keyword={editFocusKeyword}
                 onKeywordChange={setEditFocusKeyword}
+                onFixSlug={(newSlug) => setEditSlug(newSlug)}
+                onRewriteIntro={async (kw) => {
+                  // Find the first <p> tag in the HTML and rewrite it to include the keyword
+                  const match = editHtml.match(/<p[^>]*>([\s\S]*?)<\/p>/);
+                  if (!match) return;
+                  const introHtml = match[0];
+                  const res = await authFetch("/api/cms/seo-fix", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ action: "rewrite-intro", keyword: kw, introHtml, articleTitle: editTitle }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok || !data.result) throw new Error(data.error || "Rewrite failed");
+                  // Replace only the first <p> in the HTML
+                  setEditHtml((prev) => prev.replace(/<p[^>]*>[\s\S]*?<\/p>/, data.result));
+                  setHtmlDirty(true);
+                }}
+                onExpandDescription={async (currentDesc, kw) => {
+                  const res = await authFetch("/api/cms/seo-fix", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ action: "expand-description", description: currentDesc, keyword: kw }),
+                  });
+                  const data = await res.json();
+                  if (!res.ok || !data.result) throw new Error(data.error || "Expand failed");
+                  setEditSeoDesc(data.result);
+                }}
               />
 
               {/* Body Content Editor */}
