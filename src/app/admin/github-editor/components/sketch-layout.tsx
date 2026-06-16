@@ -16,6 +16,7 @@ import {
   Pencil,
   Wand2,
   Workflow,
+  LayoutGrid,
 } from "lucide-react";
 import "../sketch-theme.css";
 
@@ -158,6 +159,13 @@ export default function SketchLayout({
               label="Drafts"
               active={isActive("/admin/github-editor/drafts")}
               rotation={NAV_ROTATIONS[3]}
+            />
+            <NavItem
+              href="/admin/github-editor/pages"
+              icon={LayoutGrid}
+              label="Pages"
+              active={isActive("/admin/github-editor/pages")}
+              rotation={NAV_ROTATIONS[1]}
             />
           </div>
         </div>

@@ -1,0 +1,1246 @@
+{
+  "generatedAt": "2026-06-16T17:08:09.666Z",
+  "count": 124,
+  "pages": [
+    {
+      "route": "/about-us/jagger-esch",
+      "file": "src/app/about-us/jagger-esch/page.tsx",
+      "title": "Jagger Esch | Founder & CEO of MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "about-us"
+    },
+    {
+      "route": "/about-us",
+      "file": "src/app/about-us/page.tsx",
+      "title": "About Us",
+      "hasMetadata": true,
+      "schemaCount": 1,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "about-us"
+    },
+    {
+      "route": "/blog",
+      "file": "src/app/blog/page.tsx",
+      "title": "Blog",
+      "hasMetadata": true,
+      "schemaCount": 1,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "blog"
+    },
+    {
+      "route": "/client-care-team",
+      "file": "src/app/client-care-team/page.tsx",
+      "title": "Client Care Team",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "client-care-team"
+    },
+    {
+      "route": "/compare-rates",
+      "file": "src/app/compare-rates/page.tsx",
+      "title": "Compare Medicare Plan Types: Original Medicare, Advantage, Medigap & Part D",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "compare-rates"
+    },
+    {
+      "route": "/contact",
+      "file": "src/app/contact/page.tsx",
+      "title": "Contact MedicareFAQ | Speak with a Licensed Medicare Agent",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "contact"
+    },
+    {
+      "route": "/faqs",
+      "file": "src/app/faqs/page.tsx",
+      "title": "Medicare FAQs | Answers to Common Medicare Questions",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "faqs"
+    },
+    {
+      "route": "/guide-to-being-a-caregiver",
+      "file": "src/app/guide-to-being-a-caregiver/page.tsx",
+      "title": "Guide to Being a Caregiver",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "guide-to-being-a-caregiver"
+    },
+    {
+      "route": "/library/about",
+      "file": "src/app/library/about/page.tsx",
+      "title": "About Us",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "library"
+    },
+    {
+      "route": "/library/guides",
+      "file": "src/app/library/guides/page.tsx",
+      "title": "Medicare Guides & Resources | Free Medicare Education",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "library"
+    },
+    {
+      "route": "/library",
+      "file": "src/app/library/page.tsx",
+      "title": "(untitled)",
+      "hasMetadata": false,
+      "schemaCount": 0,
+      "seoEditable": false,
+      "contentEditable": false,
+      "section": "library"
+    },
+    {
+      "route": "/medicare-101-course/choosing-a-medigap-plan",
+      "file": "src/app/medicare-101-course/choosing-a-medigap-plan/page.tsx",
+      "title": "How to Choose a Medigap Plan | Medicare 101 Course - Lesson 6 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101-course/coverage-gaps",
+      "file": "src/app/medicare-101-course/coverage-gaps/page.tsx",
+      "title": "The Coverage Gap: What Medicare Does NOT Cover | Medicare 101 Course - Lesson 4 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101-course/enrollment-windows",
+      "file": "src/app/medicare-101-course/enrollment-windows/page.tsx",
+      "title": "Enrollment Windows & Deadlines | Medicare 101 Course - Lesson 3 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101-course/medigap-vs-advantage",
+      "file": "src/app/medicare-101-course/medigap-vs-advantage/page.tsx",
+      "title": "Medigap vs. Medicare Advantage | Medicare 101 Course - Lesson 5 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101-course/next-steps",
+      "file": "src/app/medicare-101-course/next-steps/page.tsx",
+      "title": "Your Next Steps | Medicare 101 Course - Lesson 7 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101-course",
+      "file": "src/app/medicare-101-course/page.tsx",
+      "title": "Medicare 101 Course: Understand Medicare in 7 Simple Lessons | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101-course/parts-of-medicare",
+      "file": "src/app/medicare-101-course/parts-of-medicare/page.tsx",
+      "title": "The 4 Parts of Medicare | Medicare 101 Course - Lesson 2 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101-course/results",
+      "file": "src/app/medicare-101-course/results/page.tsx",
+      "title": "Your Course Results | Medicare 101 Course | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101-course/what-is-medicare",
+      "file": "src/app/medicare-101-course/what-is-medicare/page.tsx",
+      "title": "What Is Medicare? | Medicare 101 Course - Lesson 1 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101-course"
+    },
+    {
+      "route": "/medicare-101",
+      "file": "src/app/medicare-101/page.tsx",
+      "title": "Medicare 101 | A Beginner's Guide to Understanding Medicare",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-101"
+    },
+    {
+      "route": "/medicare-advantage-plans",
+      "file": "src/app/medicare-advantage-plans/page.tsx",
+      "title": "Medicare Advantage Plans: What They Are, How They Work & How to Enroll (2026) | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-advantage-plans"
+    },
+    {
+      "route": "/medicare-by-state",
+      "file": "src/app/medicare-by-state/page.tsx",
+      "title": "Medigap Birthday Rule by State 2026 | Which States Allow Plan Switching?",
+      "hasMetadata": true,
+      "schemaCount": 1,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-by-state"
+    },
+    {
+      "route": "/medicare-enrollment/annual-changes",
+      "file": "src/app/medicare-enrollment/annual-changes/page.tsx",
+      "title": "Medicare Annual Enrollment Period | AEP Dates & Changes",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-enrollment"
+    },
+    {
+      "route": "/medicare-enrollment/how-to-enroll",
+      "file": "src/app/medicare-enrollment/how-to-enroll/page.tsx",
+      "title": "How to Enroll in Medicare | Step-by-Step Guide",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-enrollment"
+    },
+    {
+      "route": "/medicare-enrollment/late-penalties",
+      "file": "src/app/medicare-enrollment/late-penalties/page.tsx",
+      "title": "Medicare Late Enrollment Penalties: What They are & How to Avoid Them",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-enrollment"
+    },
+    {
+      "route": "/medicare-enrollment",
+      "file": "src/app/medicare-enrollment/page.tsx",
+      "title": "(untitled)",
+      "hasMetadata": false,
+      "schemaCount": 0,
+      "seoEditable": false,
+      "contentEditable": false,
+      "section": "medicare-enrollment"
+    },
+    {
+      "route": "/medicare-enrollment/turning-65",
+      "file": "src/app/medicare-enrollment/turning-65/page.tsx",
+      "title": "Turning 65 and Medicare: When and How to Enroll",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-enrollment"
+    },
+    {
+      "route": "/medicare-enrollment/working-past-65-semantic-fix",
+      "file": "src/app/medicare-enrollment/working-past-65-semantic-fix/page.tsx",
+      "title": "Working past 65 and Medicare | Semantic Fix Comparison",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-enrollment"
+    },
+    {
+      "route": "/medicare-enrollment/working-past-65",
+      "file": "src/app/medicare-enrollment/working-past-65/page.tsx",
+      "title": "Working past 65 and Medicare | What You Need to Know",
+      "hasMetadata": true,
+      "schemaCount": 1,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-enrollment"
+    },
+    {
+      "route": "/medicare-open-enrollment",
+      "file": "src/app/medicare-open-enrollment/page.tsx",
+      "title": "Medicare Open Enrollment 2026: Dates, Rules & What You Can Change | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 1,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-open-enrollment"
+    },
+    {
+      "route": "/medicare-part-c/medicare-advantage-plan-types",
+      "file": "src/app/medicare-part-c/medicare-advantage-plan-types/page.tsx",
+      "title": "Medicare Advantage Plan Types",
+      "hasMetadata": true,
+      "schemaCount": 1,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-part-c"
+    },
+    {
+      "route": "/medicare-part-c/medicare-advantage-plans",
+      "file": "src/app/medicare-part-c/medicare-advantage-plans/page.tsx",
+      "title": "Medicare Part C (Medicare Advantage) Explained 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 1,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-part-c"
+    },
+    {
+      "route": "/medicare-plans/best-supplement-plans",
+      "file": "src/app/medicare-plans/best-supplement-plans/page.tsx",
+      "title": "Best Medicare Supplement Plans 2026 | Top Medigap Plans Ranked",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-plans"
+    },
+    {
+      "route": "/medicare-plans/costs",
+      "file": "src/app/medicare-plans/costs/page.tsx",
+      "title": "Medicare Costs by Plan Type: 2026 Premiums, Deductibles & Out-of-Pocket",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-plans"
+    },
+    {
+      "route": "/medicare-plans",
+      "file": "src/app/medicare-plans/page.tsx",
+      "title": "(untitled)",
+      "hasMetadata": false,
+      "schemaCount": 0,
+      "seoEditable": false,
+      "contentEditable": false,
+      "section": "medicare-plans"
+    },
+    {
+      "route": "/medicare-plans/supplement-vs-advantage",
+      "file": "src/app/medicare-plans/supplement-vs-advantage/page.tsx",
+      "title": "Medicare Supplement vs. Medicare Advantage | Which is Better?",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/alabama",
+      "file": "src/app/medicare-supplement-plans/alabama/page.tsx",
+      "title": "Best Medicare Supplement Plans in Alabama 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/alaska",
+      "file": "src/app/medicare-supplement-plans/alaska/page.tsx",
+      "title": "Best Medicare Supplement Plans in Alaska 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/arizona",
+      "file": "src/app/medicare-supplement-plans/arizona/page.tsx",
+      "title": "Best Medicare Supplement Plans in Arizona 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/arkansas",
+      "file": "src/app/medicare-supplement-plans/arkansas/page.tsx",
+      "title": "Best Medicare Supplement Plans in Arkansas 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/california",
+      "file": "src/app/medicare-supplement-plans/california/page.tsx",
+      "title": "Best Medicare Supplement Plans in California 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/colorado",
+      "file": "src/app/medicare-supplement-plans/colorado/page.tsx",
+      "title": "Best Medicare Supplement Plans in Colorado 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/compare",
+      "file": "src/app/medicare-supplement-plans/compare/page.tsx",
+      "title": "Compare All Medicare Supplement Plans Side by Side | 2026",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/connecticut",
+      "file": "src/app/medicare-supplement-plans/connecticut/page.tsx",
+      "title": "Best Medicare Supplement Plans in Connecticut 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/delaware",
+      "file": "src/app/medicare-supplement-plans/delaware/page.tsx",
+      "title": "Best Medicare Supplement Plans in Delaware 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/florida",
+      "file": "src/app/medicare-supplement-plans/florida/page.tsx",
+      "title": "Best Medicare Supplement Plans in Florida 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/georgia",
+      "file": "src/app/medicare-supplement-plans/georgia/page.tsx",
+      "title": "Best Medicare Supplement Plans in Georgia 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/hawaii",
+      "file": "src/app/medicare-supplement-plans/hawaii/page.tsx",
+      "title": "Best Medicare Supplement Plans in Hawaii 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/idaho",
+      "file": "src/app/medicare-supplement-plans/idaho/page.tsx",
+      "title": "Best Medicare Supplement Plans in Idaho 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/illinois",
+      "file": "src/app/medicare-supplement-plans/illinois/page.tsx",
+      "title": "Best Medicare Supplement Plans in Illinois 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/indiana",
+      "file": "src/app/medicare-supplement-plans/indiana/page.tsx",
+      "title": "Best Medicare Supplement Plans in Indiana 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/iowa",
+      "file": "src/app/medicare-supplement-plans/iowa/page.tsx",
+      "title": "Best Medicare Supplement Plans in Iowa 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/kansas",
+      "file": "src/app/medicare-supplement-plans/kansas/page.tsx",
+      "title": "Best Medicare Supplement Plans in Kansas 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/kentucky",
+      "file": "src/app/medicare-supplement-plans/kentucky/page.tsx",
+      "title": "Best Medicare Supplement Plans in Kentucky 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/louisiana",
+      "file": "src/app/medicare-supplement-plans/louisiana/page.tsx",
+      "title": "Best Medicare Supplement Plans in Louisiana 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/maine",
+      "file": "src/app/medicare-supplement-plans/maine/page.tsx",
+      "title": "Best Medicare Supplement Plans in Maine 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/maryland",
+      "file": "src/app/medicare-supplement-plans/maryland/page.tsx",
+      "title": "Best Medicare Supplement Plans in Maryland 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/massachusetts",
+      "file": "src/app/medicare-supplement-plans/massachusetts/page.tsx",
+      "title": "Best Medicare Supplement Plans in Massachusetts 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/medicare-supplement-plans-2026",
+      "file": "src/app/medicare-supplement-plans/medicare-supplement-plans-2026/page.tsx",
+      "title": "Medicare Supplement Plans 2026 | Medigap Plan Options & Updates",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/medigap-by-carrier",
+      "file": "src/app/medicare-supplement-plans/medigap-by-carrier/page.tsx",
+      "title": "Medigap Plans by Carrier: Compare Top Medicare Supplement Insurers",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/medigap-by-state",
+      "file": "src/app/medicare-supplement-plans/medigap-by-state/page.tsx",
+      "title": "Medigap Plans by State 2026 | Medicare Supplement State Guide",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/medigap-eligibility",
+      "file": "src/app/medicare-supplement-plans/medigap-eligibility/page.tsx",
+      "title": "Medigap Eligibility 2026 | Who Can Enroll in Medicare Supplement?",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/michigan",
+      "file": "src/app/medicare-supplement-plans/michigan/page.tsx",
+      "title": "Best Medicare Supplement Plans in Michigan 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/minnesota",
+      "file": "src/app/medicare-supplement-plans/minnesota/page.tsx",
+      "title": "Best Medicare Supplement Plans in Minnesota 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/mississippi",
+      "file": "src/app/medicare-supplement-plans/mississippi/page.tsx",
+      "title": "Best Medicare Supplement Plans in Mississippi 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/missouri",
+      "file": "src/app/medicare-supplement-plans/missouri/page.tsx",
+      "title": "Best Medicare Supplement Plans in Missouri 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/montana",
+      "file": "src/app/medicare-supplement-plans/montana/page.tsx",
+      "title": "Best Medicare Supplement Plans in Montana 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/nebraska",
+      "file": "src/app/medicare-supplement-plans/nebraska/page.tsx",
+      "title": "Best Medicare Supplement Plans in Nebraska 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/nevada",
+      "file": "src/app/medicare-supplement-plans/nevada/page.tsx",
+      "title": "Best Medicare Supplement Plans in Nevada 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/new-hampshire",
+      "file": "src/app/medicare-supplement-plans/new-hampshire/page.tsx",
+      "title": "Best Medicare Supplement Plans in New Hampshire 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/new-jersey",
+      "file": "src/app/medicare-supplement-plans/new-jersey/page.tsx",
+      "title": "Best Medicare Supplement Plans in New Jersey 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/new-mexico",
+      "file": "src/app/medicare-supplement-plans/new-mexico/page.tsx",
+      "title": "Best Medicare Supplement Plans in New Mexico 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/new-york",
+      "file": "src/app/medicare-supplement-plans/new-york/page.tsx",
+      "title": "Best Medicare Supplement Plans in New York 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/north-carolina",
+      "file": "src/app/medicare-supplement-plans/north-carolina/page.tsx",
+      "title": "Best Medicare Supplement Plans in North Carolina 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/north-dakota",
+      "file": "src/app/medicare-supplement-plans/north-dakota/page.tsx",
+      "title": "Best Medicare Supplement Plans in North Dakota 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/ohio",
+      "file": "src/app/medicare-supplement-plans/ohio/page.tsx",
+      "title": "Best Medicare Supplement Plans in Ohio 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/oklahoma",
+      "file": "src/app/medicare-supplement-plans/oklahoma/page.tsx",
+      "title": "Best Medicare Supplement Plans in Oklahoma 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/oregon",
+      "file": "src/app/medicare-supplement-plans/oregon/page.tsx",
+      "title": "Best Medicare Supplement Plans in Oregon 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans",
+      "file": "src/app/medicare-supplement-plans/page.tsx",
+      "title": "What is a Medicare Supplement Plan? How Medigap Works",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/pennsylvania",
+      "file": "src/app/medicare-supplement-plans/pennsylvania/page.tsx",
+      "title": "Best Medicare Supplement Plans in Pennsylvania 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/rhode-island",
+      "file": "src/app/medicare-supplement-plans/rhode-island/page.tsx",
+      "title": "Best Medicare Supplement Plans in RhodeIsland 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/south-carolina",
+      "file": "src/app/medicare-supplement-plans/south-carolina/page.tsx",
+      "title": "Best Medicare Supplement Plans in South Carolina 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/south-dakota",
+      "file": "src/app/medicare-supplement-plans/south-dakota/page.tsx",
+      "title": "Best Medicare Supplement Plans in South Dakota 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/tennessee",
+      "file": "src/app/medicare-supplement-plans/tennessee/page.tsx",
+      "title": "Best Medicare Supplement Plans in Tennessee 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/texas",
+      "file": "src/app/medicare-supplement-plans/texas/page.tsx",
+      "title": "Best Medicare Supplement Plans in Texas 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/utah",
+      "file": "src/app/medicare-supplement-plans/utah/page.tsx",
+      "title": "Best Medicare Supplement Plans in Utah (2026) | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/vermont",
+      "file": "src/app/medicare-supplement-plans/vermont/page.tsx",
+      "title": "Best Medicare Supplement Plans in Vermont (2026) | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/virginia",
+      "file": "src/app/medicare-supplement-plans/virginia/page.tsx",
+      "title": "Best Medicare Supplement Plans in Virginia 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/washington",
+      "file": "src/app/medicare-supplement-plans/washington/page.tsx",
+      "title": "Best Medicare Supplement Plans in Washington State 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/west-virginia",
+      "file": "src/app/medicare-supplement-plans/west-virginia/page.tsx",
+      "title": "Best Medicare Supplement Plans in West Virginia (2026) | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/wisconsin",
+      "file": "src/app/medicare-supplement-plans/wisconsin/page.tsx",
+      "title": "Best Medicare Supplement Plans in Wisconsin 2026 | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medicare-supplement-plans/wyoming",
+      "file": "src/app/medicare-supplement-plans/wyoming/page.tsx",
+      "title": "Best Medicare Supplement Plans in Wyoming (2026) | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": true,
+      "section": "medicare-supplement-plans"
+    },
+    {
+      "route": "/medigap-plans",
+      "file": "src/app/medigap-plans/page.tsx",
+      "title": "Medigap Plans Explained 2026: Compare All 10 Plan Types | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "medigap-plans"
+    },
+    {
+      "route": "/meet-the-editorial-team",
+      "file": "src/app/meet-the-editorial-team/page.tsx",
+      "title": "Meet the Editorial Team",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "meet-the-editorial-team"
+    },
+    {
+      "route": "/new-to-medicare/checklist",
+      "file": "src/app/new-to-medicare/checklist/page.tsx",
+      "title": "Medicare Enrollment Checklist | Steps to Enroll in Medicare",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "new-to-medicare"
+    },
+    {
+      "route": "/new-to-medicare/costs",
+      "file": "src/app/new-to-medicare/costs/page.tsx",
+      "title": "How Much Does Medicare Cost? 2026 Premiums & Out-of-Pocket",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "new-to-medicare"
+    },
+    {
+      "route": "/new-to-medicare/eligibility",
+      "file": "src/app/new-to-medicare/eligibility/page.tsx",
+      "title": "Medicare Eligibility | Who Qualifies for Medicare?",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "new-to-medicare"
+    },
+    {
+      "route": "/new-to-medicare/turning-65-semantic-fix",
+      "file": "src/app/new-to-medicare/turning-65-semantic-fix/page.tsx",
+      "title": "Turning 65 Medicare Timeline | Semantic Fix Comparison",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "new-to-medicare"
+    },
+    {
+      "route": "/new-to-medicare/turning-65",
+      "file": "src/app/new-to-medicare/turning-65/page.tsx",
+      "title": "Turning 65 and Medicare | What You Need to Do",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "new-to-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-costs",
+      "file": "src/app/original-medicare/medicare-costs/page.tsx",
+      "title": "How Much Does Medicare Cost in 2026? | Medicare Premiums & Deductibles",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-coverage",
+      "file": "src/app/original-medicare/medicare-coverage/page.tsx",
+      "title": "What Does Medicare Cover in 2026? | Medicare Coverage Guide",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-eligibility",
+      "file": "src/app/original-medicare/medicare-eligibility/page.tsx",
+      "title": "Medicare Eligibility Requirements 2026 | Who Qualifies for Medicare?",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-enrollment-periods",
+      "file": "src/app/original-medicare/medicare-enrollment-periods/page.tsx",
+      "title": "Medicare Enrollment Periods 2026 | IEP, SEP, GEP, AEP Explained",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-parts/apply-for-medicare-part-b",
+      "file": "src/app/original-medicare/medicare-parts/apply-for-medicare-part-b/page.tsx",
+      "title": "How to Apply for Medicare Part B | Step-by-Step Guide",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-parts/medicare-part-a",
+      "file": "src/app/original-medicare/medicare-parts/medicare-part-a/page.tsx",
+      "title": "Medicare Part a (Hospital Insurance) 2026 | Coverage, Costs & Eligibility",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-parts/medicare-part-b-enrollment",
+      "file": "src/app/original-medicare/medicare-parts/medicare-part-b-enrollment/page.tsx",
+      "title": "Medicare Part B Enrollment: How and When to Sign up (2026)",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-parts/medicare-part-b",
+      "file": "src/app/original-medicare/medicare-parts/medicare-part-b/page.tsx",
+      "title": "Medicare Part B (Medical Insurance) 2026 | Premiums, Coverage & Enrollment",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha",
+      "file": "src/app/original-medicare/medicare-parts/medicare-part-d/mutual-of-omaha/page.tsx",
+      "title": "Mutual of Omaha Medicare Part D Plans 2026 | Prescription Drug Coverage",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare/medicare-parts/medicare-part-d",
+      "file": "src/app/original-medicare/medicare-parts/medicare-part-d/page.tsx",
+      "title": "Medicare Part D Drug Coverage",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/original-medicare",
+      "file": "src/app/original-medicare/page.tsx",
+      "title": "Original Medicare | What is Original Medicare?",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "original-medicare"
+    },
+    {
+      "route": "/",
+      "file": "src/app/page.tsx",
+      "title": "MedicareFAQ | Your Supplemental Medicare Resource Center",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "(root)"
+    },
+    {
+      "route": "/podcasts",
+      "file": "src/app/podcasts/page.tsx",
+      "title": "Medicare Podcasts | Listen & Learn about Medicare",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "podcasts"
+    },
+    {
+      "route": "/privacy-policy",
+      "file": "src/app/privacy-policy/page.tsx",
+      "title": "Privacy Policy | MedicareFAQ.com",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "privacy-policy"
+    },
+    {
+      "route": "/scholarship-opportunities",
+      "file": "src/app/scholarship-opportunities/page.tsx",
+      "title": "Scholarship Opportunities",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "scholarship-opportunities"
+    },
+    {
+      "route": "/search",
+      "file": "src/app/search/page.tsx",
+      "title": "Search Medicare Topics",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "search"
+    },
+    {
+      "route": "/seniors-guide-to-medicare-gov/tools-and-resources",
+      "file": "src/app/seniors-guide-to-medicare-gov/tools-and-resources/page.tsx",
+      "title": "Tools & Resources on Medicare.gov",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "seniors-guide-to-medicare-gov"
+    },
+    {
+      "route": "/sitemap-page",
+      "file": "src/app/sitemap-page/page.tsx",
+      "title": "Sitemap",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "sitemap-page"
+    },
+    {
+      "route": "/terms-of-use",
+      "file": "src/app/terms-of-use/page.tsx",
+      "title": "Terms of Use | MedicareFAQ.com",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "terms-of-use"
+    },
+    {
+      "route": "/testimonials",
+      "file": "src/app/testimonials/page.tsx",
+      "title": "Client Testimonials | MedicareFAQ Reviews",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "testimonials"
+    },
+    {
+      "route": "/third-party-partners",
+      "file": "src/app/third-party-partners/page.tsx",
+      "title": "Third-Party Partners",
+      "hasMetadata": true,
+      "schemaCount": 0,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "third-party-partners"
+    },
+    {
+      "route": "/tools/enrollment-timeline",
+      "file": "src/app/tools/enrollment-timeline/page.tsx",
+      "title": "Medicare Enrollment Timeline Calculator",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "tools"
+    },
+    {
+      "route": "/tools/part-b-penalty-calculator",
+      "file": "src/app/tools/part-b-penalty-calculator/page.tsx",
+      "title": "Medicare Part B Late Enrollment Penalty Calculator | MedicareFAQ",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "tools"
+    },
+    {
+      "route": "/videos",
+      "file": "src/app/videos/page.tsx",
+      "title": "Medicare Videos | Watch & Learn about Medicare",
+      "hasMetadata": true,
+      "schemaCount": 2,
+      "seoEditable": true,
+      "contentEditable": false,
+      "section": "videos"
+    }
+  ]
+}
