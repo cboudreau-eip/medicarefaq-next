@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { S3Client, ListObjectsV2Command, GetObjectCommand } from "@aws-sdk/client-s3";
+import { getPipelineItemIds } from "@/lib/pipeline-db";
 
 function getS3Client() {
   return new S3Client({
@@ -41,7 +42,17 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json().catch(() => ({}));
     const prefix = (body.prefix as string) || PREFIX;
-    const alreadyIngested: string[] = (body.alreadyIngested as string[]) || [];
+
+    // Server owns dedup: read the ids already in the database rather than
+    // trusting a list sent by the browser. Fall back to any client-provided
+    // list if the DB read fails, so ingest still works degraded.
+    let alreadyIngested: string[] = [];
+    try {
+      alreadyIngested = await getPipelineItemIds();
+    } catch (e) {
+      console.error("Pipeline ingest: DB dedup read failed, falling back to client list", e);
+      alreadyIngested = (body.alreadyIngested as string[]) || [];
+    }
 
     // List all objects in the incoming prefix
     const s3 = getS3Client();

@@ -66,22 +66,10 @@ interface PipelineItem {
 
 type Tab = "intake" | "review" | "queue" | "output";
 
-const STORAGE_KEY = "medicarefaq-pipeline-items";
-
-function loadItems(): PipelineItem[] {
-  if (typeof window === "undefined") return [];
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveItems(items: PipelineItem[]) {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-}
+// Pipeline state now lives in the Neon Postgres database, served via
+// /api/cms/pipeline/items (GET to load, POST to persist the full set).
+// This replaces the previous browser-localStorage storage so state is shared
+// across devices and readable by external tools (e.g. the Relay Engine dashboard).
 
 export default function PipelinePage() {
   const { authenticated, authLoading, login, logout, authFetch } = useCMSAuth();
@@ -94,17 +82,73 @@ export default function PipelinePage() {
   const [editingBrief, setEditingBrief] = useState<string | null>(null);
   const [editForm, setEditForm] = useState<any>(null);
 
-  useEffect(() => {
-    setItems(loadItems());
-  }, []);
+  // Persist the full item set to the database. Replaces the old localStorage save.
+  const persist = useCallback(
+    async (next: PipelineItem[]) => {
+      try {
+        await authFetch("/api/cms/pipeline/items", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ items: next }),
+        });
+      } catch (err: any) {
+        setError(err?.message || "Failed to save pipeline state.");
+      }
+    },
+    [authFetch]
+  );
 
-  const updateItems = useCallback((updater: (prev: PipelineItem[]) => PipelineItem[]) => {
-    setItems((prev) => {
-      const next = updater(prev);
-      saveItems(next);
-      return next;
-    });
-  }, []);
+  // Load items from the database once the admin is authenticated.
+  useEffect(() => {
+    if (!authenticated) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await authFetch("/api/cms/pipeline/items");
+        const data = await res.json();
+        const dbItems: PipelineItem[] = Array.isArray(data.items) ? data.items : [];
+
+        // One-time migration: if the database is empty but this browser still
+        // has the old localStorage pipeline, push those items up so existing
+        // briefs/approvals aren't lost in the move to server-side storage.
+        if (dbItems.length === 0 && typeof window !== "undefined") {
+          try {
+            const legacy = localStorage.getItem("medicarefaq-pipeline-items");
+            const legacyItems: PipelineItem[] = legacy ? JSON.parse(legacy) : [];
+            if (legacyItems.length > 0) {
+              await authFetch("/api/cms/pipeline/items", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ items: legacyItems }),
+              });
+              if (!cancelled) setItems(legacyItems);
+              return;
+            }
+          } catch {
+            // Ignore migration errors; fall through to whatever the DB returned.
+          }
+        }
+
+        if (!cancelled) setItems(dbItems);
+      } catch {
+        // Leave items empty on failure; the error banner is reserved for actions.
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [authenticated, authFetch]);
+
+  const updateItems = useCallback(
+    (updater: (prev: PipelineItem[]) => PipelineItem[]) => {
+      setItems((prev) => {
+        const next = updater(prev);
+        void persist(next);
+        return next;
+      });
+    },
+    [persist]
+  );
 
   // --- INTAKE ---
   const handlePollS3 = async () => {
