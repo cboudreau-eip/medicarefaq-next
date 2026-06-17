@@ -17,6 +17,7 @@ import {
   Wand2,
   Workflow,
   LayoutGrid,
+  ShieldCheck,
 } from "lucide-react";
 import "../sketch-theme.css";
 
@@ -223,6 +224,13 @@ export default function SketchLayout({
 
         {/* Bottom */}
         <div className="mt-auto px-4 pb-5 space-y-2">
+          <NavItem
+            href="/admin/github-editor/security"
+            icon={ShieldCheck}
+            label="Security (2FA)"
+            active={isActive("/admin/github-editor/security")}
+            rotation={NAV_ROTATIONS[8]}
+          />
           <NavItem
             href="/admin/github-editor/settings"
             icon={Settings}

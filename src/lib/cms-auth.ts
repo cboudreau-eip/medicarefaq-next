@@ -38,6 +38,14 @@ export function isTotpEnabled(): boolean {
   return TOTP_ENABLED && !!TOTP_SECRET;
 }
 
+/**
+ * Returns the raw Base32 TOTP secret for SERVER-SIDE use only (e.g. building an
+ * enrollment QR code). Never expose this on a public/unauthenticated route.
+ */
+export function getTotpSecret(): string {
+  return TOTP_SECRET;
+}
+
 export function isPasswordConfigured(): boolean {
   return !!CMS_PASSWORD;
 }
