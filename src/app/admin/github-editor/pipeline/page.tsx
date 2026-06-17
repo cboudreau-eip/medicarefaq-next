@@ -20,7 +20,9 @@ import {
   Sparkles,
   Edit3,
   Trash2,
+  CalendarDays,
 } from "lucide-react";
+import Link from "next/link";
 
 // --- Types ---
 interface PipelineItem {
@@ -62,6 +64,8 @@ interface PipelineItem {
   producedAt?: string;
   draftSlug?: string;
   error?: string;
+  /** EST calendar date "YYYY-MM-DD" this item is scheduled to be produced. */
+  scheduledFor?: string;
 }
 
 type Tab = "intake" | "review" | "queue" | "output";
@@ -690,20 +694,30 @@ export default function PipelinePage() {
             <p className="text-sm text-gray-600">
               {approvedItems.length} article(s) in production queue
             </p>
-            {approvedItems.some((i) => i.status !== "producing") && (
-              <button
-                onClick={() => {
-                  if (confirm("Remove all articles from the production queue? This cannot be undone.")) {
-                    handleDeleteAll("approved");
-                  }
-                }}
-                disabled={!!isProducing}
-                className="flex items-center gap-1 px-3 py-1.5 text-sm text-red-600 hover:bg-red-50 rounded-lg disabled:opacity-50"
+            <div className="flex items-center gap-2">
+              <Link
+                href="/admin/github-editor/pipeline/calendar"
+                className="flex items-center gap-1.5 px-3 py-1.5 text-sm bg-teal-600 text-white rounded-lg hover:bg-teal-700"
+                title="Plan queued articles on the editorial calendar"
               >
-                <Trash2 size={14} />
-                Clear queue
-              </button>
-            )}
+                <CalendarDays size={14} />
+                Calendar
+              </Link>
+              {approvedItems.some((i) => i.status !== "producing") && (
+                <button
+                  onClick={() => {
+                    if (confirm("Remove all articles from the production queue? This cannot be undone.")) {
+                      handleDeleteAll("approved");
+                    }
+                  }}
+                  disabled={!!isProducing}
+                  className="flex items-center gap-1 px-3 py-1.5 text-sm text-red-600 hover:bg-red-50 rounded-lg disabled:opacity-50"
+                >
+                  <Trash2 size={14} />
+                  Clear queue
+                </button>
+              )}
+            </div>
           </div>
 
           {approvedItems.length === 0 ? (
