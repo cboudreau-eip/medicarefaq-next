@@ -339,6 +339,14 @@ export default function PipelinePage() {
             )}
           </button>
         ))}
+        <Link
+          href="/admin/github-editor/pipeline/calendar"
+          className="flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
+          title="Open the editorial calendar"
+        >
+          <CalendarDays size={16} />
+          Calendar
+        </Link>
       </div>
 
       {/* Error/Info Banner */}
