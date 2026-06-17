@@ -155,18 +155,18 @@ export default function SketchLayout({
               rotation={NAV_ROTATIONS[2]}
             />
             <NavItem
-              href="/admin/github-editor/drafts"
-              icon={FilePen}
-              label="Drafts"
-              active={isActive("/admin/github-editor/drafts")}
-              rotation={NAV_ROTATIONS[3]}
-            />
-            <NavItem
               href="/admin/github-editor/pages"
               icon={LayoutGrid}
               label="Pages"
               active={isActive("/admin/github-editor/pages")}
               rotation={NAV_ROTATIONS[1]}
+            />
+            <NavItem
+              href="/admin/github-editor/drafts"
+              icon={FilePen}
+              label="Drafts"
+              active={isActive("/admin/github-editor/drafts")}
+              rotation={NAV_ROTATIONS[3]}
             />
           </div>
         </div>
