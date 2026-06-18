@@ -1,79 +1,13 @@
 /**
- * Shared client-side store + helpers for the Content Pipeline / Editorial Calendar.
+ * calendar-dates.ts
  *
- * The pipeline UI persists its items in localStorage (no backend). Both the
- * pipeline page and the calendar page read/write the SAME key so scheduling
- * stays in sync across views.
+ * EST-aware date helpers for the editorial calendar grid. The calendar operates
+ * in US Eastern time per project preference, so "today" and all date keys are
+ * derived in America/New_York regardless of the viewer's local timezone.
  *
- * Calendar scheduling is stored directly on each item via `scheduledFor`
- * (an EST calendar date string, "YYYY-MM-DD"). This sets up cleanly for a
- * future automation step that looks for items whose scheduledFor is due.
+ * Pure client-safe utilities (no DB / node deps) — extracted from the former
+ * cms-pipeline-store.ts when pipeline + calendar state moved to Postgres.
  */
-
-export interface PipelineItem {
-  id: string;
-  status:
-    | "ingested"
-    | "briefed"
-    | "approved"
-    | "rejected"
-    | "producing"
-    | "done"
-    | "failed";
-  sourceTitle: string;
-  sourceUrl: string;
-  sourceCategory: string;
-  sourceSnippet: string;
-  sourceSeo: {
-    suggestedTitle: string;
-    metaDescription: string;
-    primaryKeyword: string;
-    semanticKeywords: string[];
-    contentAngle: string;
-  };
-  topic: string;
-  importanceScore: number;
-  ingestedAt: string;
-  brief?: {
-    title: string;
-    keyword: string;
-    secondaryKeywords: string[];
-    wordCount: number;
-    linkCount: number;
-    description: string;
-    category: string;
-  };
-  briefGeneratedAt?: string;
-  approvedAt?: string;
-  rejectedAt?: string;
-  producedAt?: string;
-  draftSlug?: string;
-  error?: string;
-  /** EST calendar date "YYYY-MM-DD" this item is scheduled to be produced. */
-  scheduledFor?: string;
-}
-
-export const PIPELINE_STORAGE_KEY = "medicarefaq-pipeline-items";
-
-export function loadPipelineItems(): PipelineItem[] {
-  if (typeof window === "undefined") return [];
-  try {
-    const raw = localStorage.getItem(PIPELINE_STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as PipelineItem[]) : [];
-  } catch {
-    return [];
-  }
-}
-
-export function savePipelineItems(items: PipelineItem[]): void {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(PIPELINE_STORAGE_KEY, JSON.stringify(items));
-}
-
-// --- EST date helpers -------------------------------------------------------
-// The calendar operates in US Eastern time per project preference. We derive
-// the "today" date and format date keys using the America/New_York timezone so
-// the grid is stable regardless of the viewer's local timezone.
 
 const EST_TZ = "America/New_York";
 

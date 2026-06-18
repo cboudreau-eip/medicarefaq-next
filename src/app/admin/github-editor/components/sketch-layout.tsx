@@ -18,6 +18,7 @@ import {
   Workflow,
   LayoutGrid,
   ShieldCheck,
+  CalendarDays,
 } from "lucide-react";
 import "../sketch-theme.css";
 
@@ -216,8 +217,15 @@ export default function SketchLayout({
               href="/admin/github-editor/pipeline"
               icon={Workflow}
               label="Pipeline"
-              active={isActive("/admin/github-editor/pipeline")}
+              active={isActive("/admin/github-editor/pipeline") && !pathname.includes("/pipeline/calendar")}
               rotation={NAV_ROTATIONS[10]}
+            />
+            <NavItem
+              href="/admin/github-editor/pipeline/calendar"
+              icon={CalendarDays}
+              label="Calendar"
+              active={isActive("/admin/github-editor/pipeline/calendar")}
+              rotation={NAV_ROTATIONS[3]}
             />
           </div>
         </div>

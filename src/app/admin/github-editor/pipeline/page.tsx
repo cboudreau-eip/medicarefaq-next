@@ -64,8 +64,6 @@ interface PipelineItem {
   producedAt?: string;
   draftSlug?: string;
   error?: string;
-  /** EST calendar date "YYYY-MM-DD" this item is scheduled to be produced. */
-  scheduledFor?: string;
 }
 
 type Tab = "intake" | "review" | "queue" | "output";
