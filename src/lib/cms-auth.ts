@@ -34,6 +34,16 @@ const SESSION_SECRET =
 
 const SESSION_TTL_MS = 12 * 60 * 60 * 1000; // 12 hours
 
+/**
+ * Whether the CMS is enabled on this deployment. Fail-closed: only the exact
+ * string "true" enables it. This mirrors the gate in `src/middleware.ts` and
+ * acts as defense-in-depth so CMS API routes reject requests even if the
+ * middleware matcher were ever misconfigured.
+ */
+export function isCmsEnabled(): boolean {
+  return process.env.ENABLE_CMS === "true";
+}
+
 export function isTotpEnabled(): boolean {
   return TOTP_ENABLED && !!TOTP_SECRET;
 }
@@ -146,6 +156,7 @@ export function verifySessionToken(token: string): boolean {
  * Reads the `x-cms-password` header (kept for backwards compatibility).
  */
 export function checkCmsAuth(request: Request): boolean {
+  if (!isCmsEnabled()) return false; // hard off-switch (defense-in-depth)
   const value = request.headers.get("x-cms-password") ?? "";
   if (!value) return false;
   if (verifySessionToken(value)) return true;
