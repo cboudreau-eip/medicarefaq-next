@@ -52,8 +52,12 @@ export default function Blog() {
     (post, index, self) => self.findIndex((p) => p.slug === post.slug) === index
   );
 
-  const featuredPosts = uniquePosts.filter((p) => p.featured).sort(sortByDate);
-  const regularPosts = uniquePosts.filter((p) => !p.featured).sort(sortByDate);
+  // Sort all posts by date (newest first)
+  const allSorted = uniquePosts.sort(sortByDate);
+
+  // Latest 2 posts become the "Latest Articles" hero row
+  const featuredPosts = allSorted.slice(0, 2);
+  const regularPosts = allSorted.slice(2);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -97,7 +101,7 @@ export default function Blog() {
           <section className="bg-white py-10 md:py-14">
             <div className="container">
               <h2 className="text-xs font-bold tracking-wider text-[#C41230] uppercase mb-6">
-                Featured Articles
+                Latest Articles
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {featuredPosts.map((post, index) => (
