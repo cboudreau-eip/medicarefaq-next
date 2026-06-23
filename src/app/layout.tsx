@@ -3,6 +3,7 @@ import Script from "next/script";
 import HeatmapTracker from "@/components/HeatmapTracker";
 import InvocaRefresh from "@/components/InvocaRefresh";
 import ChatWidget from "@/components/ChatWidget";
+import PostHogProvider from "@/components/PostHogProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -103,7 +104,9 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-        {children}
+        <PostHogProvider>
+          {children}
+        </PostHogProvider>
         <HeatmapTracker />
         <InvocaRefresh />
         {/* Chat widget is fail-closed: only render when ENABLE_CHAT === "true".
