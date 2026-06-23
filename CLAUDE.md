@@ -19,6 +19,30 @@ This repo uses a long-running `develop` branch as the integration/preview branch
 4. **Hotfixes**: if something must skip the queue, branch off `main`, PR into `main`, then merge `main` back into `develop` so the branches don't drift.
 5. Keep `develop` ahead of (or equal to) `main` at all times — never let `main` contain commits that aren't in `develop`.
 
+### Sync check — don't let `develop` fall behind `main`
+
+Production (and the CMS) deploys from `main`, and release PRs merge `develop` → `main`, so
+`main` regularly gains a merge commit (and the occasional hotfix) that `develop` does not have.
+Left unchecked, `develop` drifts behind `main` and later merges get messy. **This has already
+happened once** — treat it as a recurring chore, not a one-off.
+
+**Run this at the start of any work session, and after every merge into `main`:**
+
+```
+git fetch origin
+git log --oneline origin/develop..origin/main   # commits on main NOT yet on develop
+```
+
+- **Empty output** → branches are in sync. Proceed.
+- **Any commits listed** → `develop` is behind. Resync it before doing anything else:
+  ```
+  git checkout develop && git pull
+  git merge origin/main
+  git push origin develop
+  ```
+
+This enforces rule 5 and keeps the branching graph linear instead of divergent.
+
 ### Branch naming
 
 - `feature/<name>` — new functionality
@@ -38,3 +62,15 @@ defense-in-depth in `src/lib/cms-auth.ts` (`isCmsEnabled()` / `checkCmsAuth()`).
 
 Public tracking endpoints (`/api/heatmap/track`, base `/api/chat-log` POST, `…/init`) are
 intentionally NOT gated — see the matcher in `src/middleware.ts`.
+
+## Chat widget gate
+
+The public-facing chat widget (`src/components/ChatWidget.tsx`) is gated behind the
+`ENABLE_CHAT` env var (fail-closed: only the exact string `"true"` renders it). The gate is a
+single conditional in `src/app/layout.tsx`.
+
+- Default (unset / any other value): the widget does not render anywhere.
+- To re-enable on a deployment: set `ENABLE_CHAT=true` (or add it to `.env.local` for local dev).
+
+Note: this only hides the widget. The chat API routes still exist server-side but go unused
+when nothing calls them.
