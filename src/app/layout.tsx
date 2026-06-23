@@ -106,7 +106,9 @@ export default function RootLayout({
         {children}
         <HeatmapTracker />
         <InvocaRefresh />
-        <ChatWidget />
+        {/* Chat widget is fail-closed: only render when ENABLE_CHAT === "true".
+            Unset / any other value (prod default) keeps the chat system off. */}
+        {process.env.ENABLE_CHAT === "true" && <ChatWidget />}
       </body>
     </html>
   );

@@ -62,3 +62,15 @@ defense-in-depth in `src/lib/cms-auth.ts` (`isCmsEnabled()` / `checkCmsAuth()`).
 
 Public tracking endpoints (`/api/heatmap/track`, base `/api/chat-log` POST, `…/init`) are
 intentionally NOT gated — see the matcher in `src/middleware.ts`.
+
+## Chat widget gate
+
+The public-facing chat widget (`src/components/ChatWidget.tsx`) is gated behind the
+`ENABLE_CHAT` env var (fail-closed: only the exact string `"true"` renders it). The gate is a
+single conditional in `src/app/layout.tsx`.
+
+- Default (unset / any other value): the widget does not render anywhere.
+- To re-enable on a deployment: set `ENABLE_CHAT=true` (or add it to `.env.local` for local dev).
+
+Note: this only hides the widget. The chat API routes still exist server-side but go unused
+when nothing calls them.
