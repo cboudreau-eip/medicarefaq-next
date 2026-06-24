@@ -200,10 +200,10 @@ export default function PageContent() {
             />
             <a
               href="tel:+18883358996"
-              id="callInNum"
+              
               data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101_course" })}
-              className="inline-flex items-center gap-2 bg-white hover:bg-slate-100 text-slate-800 font-semibold px-8 py-3 rounded-lg transition-colors border border-slate-300"
+              className="invoca-phone inline-flex items-center gap-2 bg-white hover:bg-slate-100 text-slate-800 font-semibold px-8 py-3 rounded-lg transition-colors border border-slate-300"
             >
               <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
             </a>

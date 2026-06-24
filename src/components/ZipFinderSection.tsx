@@ -53,9 +53,9 @@ export default function ZipFinderSection() {
               }
             />
             <a
-              href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+              href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "zip_finder_section" })}
-              className="inline-flex items-center gap-2 text-white/70 hover:text-white font-semibold text-sm transition-colors"
+              className="invoca-phone inline-flex items-center gap-2 text-white/70 hover:text-white font-semibold text-sm transition-colors"
             >
               <Phone className="w-4 h-4" />
               or call (888) 335-8996

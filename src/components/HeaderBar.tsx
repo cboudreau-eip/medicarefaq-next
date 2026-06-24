@@ -238,8 +238,8 @@ export default function HeaderBar() {
                   <p className="text-xs text-slate-400 mt-1">
                     Try different keywords or call{" "}
                     <a
-                      href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-                      className="text-[#0D9488] font-medium hover:underline"
+                      href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+                      className="invoca-phone text-[#0D9488] font-medium hover:underline"
                     >
                       (888) 335-8996
                     </a>
@@ -253,11 +253,11 @@ export default function HeaderBar() {
         {/* Phone + CTA */}
         <div className="flex items-center gap-4">
           <a
-            href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+            href="tel:+18883358996"  data-invoca-phone-number="18883358996"
             onClick={() =>
               trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "header" })
             }
-            className="hidden lg:flex items-center gap-2 text-[#1B2A4A] font-bold text-lg hover:text-[#0D9488] transition-colors duration-150"
+            className="invoca-phone hidden lg:flex items-center gap-2 text-[#1B2A4A] font-bold text-lg hover:text-[#0D9488] transition-colors duration-150"
           >
             <Phone className="w-5 h-5" />
             (888) 335-8996

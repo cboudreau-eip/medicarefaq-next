@@ -27,14 +27,14 @@ export default function CTABanner() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+              href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() =>
                 trackPhoneClick({
                   phone_number: "(888) 335-8996",
                   page_section: "cta_banner",
                 })
               }
-              className="inline-flex items-center gap-2 bg-white text-[#C41230] font-bold px-6 py-3.5 rounded-lg transition-all duration-150 hover:bg-white/90 shadow-lg"
+              className="invoca-phone inline-flex items-center gap-2 bg-white text-[#C41230] font-bold px-6 py-3.5 rounded-lg transition-all duration-150 hover:bg-white/90 shadow-lg"
             >
               <Phone className="w-4 h-4" />
               Call Us Now

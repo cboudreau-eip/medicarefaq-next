@@ -143,9 +143,9 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
         <div className="container">
           <div className="grid sm:grid-cols-3 gap-4">
             <a
-              href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+              href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "contact" })}
-              className="bg-white rounded-xl border border-slate-200 p-5 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-teal-200 transition-all group"
+              className="invoca-phone bg-white rounded-xl border border-slate-200 p-5 flex items-center gap-4 shadow-sm hover:shadow-md hover:border-teal-200 transition-all group"
             >
               <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center group-hover:bg-teal-100 transition-colors">
                 <Phone className="w-5 h-5 text-teal-600" aria-hidden="true" />
@@ -427,9 +427,9 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
                   Speak directly with a licensed Medicare agent. No obligation, no pressure — just honest answers.
                 </p>
                 <a
-                  href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+                  href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "contact" })}
-                  className="flex items-center justify-center gap-2 bg-white text-teal-700 font-bold px-5 py-3 rounded-lg hover:bg-teal-50 transition-colors w-full"
+                  className="invoca-phone flex items-center justify-center gap-2 bg-white text-teal-700 font-bold px-5 py-3 rounded-lg hover:bg-teal-50 transition-colors w-full"
                 >
                   <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
@@ -549,9 +549,9 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+                href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "contact" })}
-                className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+                className="invoca-phone inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>

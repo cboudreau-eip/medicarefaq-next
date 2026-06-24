@@ -273,10 +273,10 @@ export default function Turning65() {
             </a>
             <a
               href="tel:+18883358996"
-              id="callInNum"
+              
               data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })}
-              className="inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+              className="invoca-phone inline-flex items-center gap-2 border border-slate-500 hover:border-white text-white font-semibold px-6 py-3 rounded-lg transition-colors"
             >
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
@@ -315,10 +315,10 @@ export default function Turning65() {
                 <p className="text-xs text-teal-700 mb-3">Our licensed agents can guide you through enrollment.</p>
                 <a
                   href="tel:+18883358996"
-                  id="callInNum"
+                  
                   data-invoca-phone-number="18883358996"
                   onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })}
-                  className="flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900"
+                  className="invoca-phone flex items-center gap-2 text-sm font-semibold text-teal-700 hover:text-teal-900"
                 >
                   <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
@@ -540,10 +540,10 @@ export default function Turning65() {
                 <div className="flex flex-wrap gap-4">
                   <a
                     href="tel:+18883358996"
-                    id="callInNum"
+                    
                     data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })}
-                    className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+                    className="invoca-phone inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
                   >
                     Call (888) 335-8996
                   </a>

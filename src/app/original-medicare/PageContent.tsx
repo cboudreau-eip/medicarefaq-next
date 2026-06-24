@@ -129,8 +129,8 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
             <a href="#costs" className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
               View 2026 Costs <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
-            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
@@ -166,8 +166,8 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                 <div className="mt-8 p-4 bg-blue-50 rounded-xl border border-blue-100">
                   <p className="text-sm font-semibold text-blue-900 mb-1">Need Help?</p>
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
-                  <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="flex items-center gap-2 text-sm font-bold text-blue-700">
+                  <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="invoca-phone flex items-center gap-2 text-sm font-bold text-blue-700">
                     <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
@@ -540,8 +540,8 @@ export default function OriginalMedicare() {  const [activeSection, setActiveSec
                     Our licensed Medicare agents can help you understand how Original Medicare works with supplemental coverage, compare plans in your area, and find the best fit for your needs — at no cost to you.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="inline-flex items-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+                    <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "original_medicare" })} className="invoca-phone inline-flex items-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors">
                       <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal

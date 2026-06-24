@@ -253,10 +253,10 @@ export default function PageContent() {
           <span className="text-sm">Prefer to talk?</span>
           <a
             href="tel:+18883358996"
-            id="callInNum"
+            
             data-invoca-phone-number="18883358996"
             onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_101_course_lesson_7" })}
-            className="text-teal-400 font-semibold hover:text-teal-300 transition-colors"
+            className="invoca-phone text-teal-400 font-semibold hover:text-teal-300 transition-colors"
           >
             Call (888) 335-8996
           </a>

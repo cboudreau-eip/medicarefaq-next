@@ -153,8 +153,8 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
             <a href="#timeline" className="inline-flex items-center gap-2 bg-white text-amber-800 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
               View Your Timeline <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
-            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
@@ -566,8 +566,8 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                     Our licensed Medicare agents will walk you through the enrollment process, compare plans in your area, and help you make the right choice — all at no cost to you.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
+                    <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65" })} className="invoca-phone inline-flex items-center gap-2 bg-white text-amber-700 font-semibold px-6 py-3 rounded-lg hover:bg-amber-50 transition-colors">
                       <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <Link href="/medicare-enrollment/how-to-enroll" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
@@ -641,10 +641,10 @@ export default function Turning65Enrollment() {  const [activeSection, setActive
                   </p>
                   <a
                     href="tel:+18883358996"
-                    id="callInNum"
+                    
                     data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "turning_65_sidebar" })}
-                    className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
+                    className="invoca-phone flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
                     <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996

@@ -133,8 +133,8 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
             <a href="#how-to-avoid" className="inline-flex items-center gap-2 bg-white text-red-800 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
               How to Avoid Penalties <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
-            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
@@ -479,8 +479,8 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                     Our licensed Medicare agents can review your enrollment timeline, confirm whether you have creditable coverage, and help you enroll before any penalty windows close — all at no cost to you.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
+                    <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties" })} className="invoca-phone inline-flex items-center gap-2 bg-white text-red-700 font-semibold px-6 py-3 rounded-lg hover:bg-red-50 transition-colors">
                       <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <Link href="/medicare-enrollment/turning-65" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/30">
@@ -547,10 +547,10 @@ export default function LatePenalties() {  const [activeSection, setActiveSectio
                   </p>
                   <a
                     href="tel:+18883358996"
-                    id="callInNum"
+                    
                     data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "late_penalties_sidebar" })}
-                    className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
+                    className="invoca-phone flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
                     <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996

@@ -138,8 +138,8 @@ export default function HowToEnroll() {
             <a href="#original-medicare" className="inline-flex items-center gap-2 bg-white text-teal-800 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
               Start Enrolling <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </a>
-            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" aria-hidden="true" /> Get Free Help
             </a>
           </div>
@@ -522,8 +522,8 @@ export default function HowToEnroll() {
                     Our licensed Medicare agents can compare plans in your area, walk you through the enrollment process, and handle the paperwork — all at no cost to you. We work with multiple carriers to find the best fit for your needs.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-                      onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
+                    <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+                      onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll" })} className="invoca-phone inline-flex items-center gap-2 bg-white text-teal-700 font-semibold px-6 py-3 rounded-lg hover:bg-teal-50 transition-colors">
                       <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
                     </a>
                     <ZipFormModal
@@ -602,10 +602,10 @@ export default function HowToEnroll() {
                   </p>
                   <a
                     href="tel:+18883358996"
-                    id="callInNum"
+                    
                     data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "how_to_enroll_sidebar" })}
-                    className="flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
+                    className="invoca-phone flex items-center gap-2 text-sm font-bold text-white bg-[#C41230] hover:bg-[#A50F28] transition-colors py-2.5 px-4 rounded-lg w-full justify-center"
                   >
                     <Phone className="w-4 h-4" aria-hidden="true" />
                     (888) 335-8996
