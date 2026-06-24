@@ -8,6 +8,249 @@ import type { CoverageArticleData } from "./article-types";
 
 export const coverageArticles: CoverageArticleData[] = [
   {
+    slug: "does-medicare-cover-continuous-glucose-monitors",
+    seo: {
+      title: "Does Medicare Cover Continuous Glucose Monitors (CGMs)? | 2026 Guide",
+      description: "Yes, Medicare Part B covers continuous glucose monitors (CGMs) like Dexcom and FreeStyle Libre for eligible diabetics. Learn the coverage criteria, costs, and how to qualify.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-continuous-glucose-monitors/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-cgm.jpg",
+    },
+    title: "Does Medicare Cover Continuous Glucose Monitors (CGMs)?",
+    subtitle: "Yes, Medicare Part B covers FDA-approved continuous glucose monitors as durable medical equipment (DME) for beneficiaries with diabetes who meet specific criteria. Coverage was significantly expanded in April 2023 to include more diabetics.",
+    category: "Medicare Coverage",
+    dateUpdated: "June 24, 2026",
+    lastReviewed: "2026-06-24",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Yes, Medicare Part B covers continuous glucose monitors (CGMs) as durable medical equipment. Since April 2023, coverage has been expanded beyond intensive insulin users to include beneficiaries on basal insulin and those with problematic hypoglycemia. You'll pay 20% of the Medicare-approved amount after meeting your Part B deductible — unless you have Medigap or Medicare Advantage coverage that reduces your out-of-pocket costs.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "covered" },
+      ],
+    },
+    subNavLinks: [
+      { label: "Original Medicare", href: "/faqs/does-medicare-cover-continuous-glucose-monitors" },
+      { label: "Medicare Advantage", href: "/faqs/does-medicare-cover-continuous-glucose-monitors" },
+      { label: "Medigap", href: "/faqs/does-medicare-cover-continuous-glucose-monitors" },
+      { label: "Costs", href: "/faqs/does-medicare-cover-continuous-glucose-monitors" },
+      { label: "FAQs", href: "/faqs/does-medicare-cover-continuous-glucose-monitors" },
+    ],
+    comparisonTable: [
+      { planType: "Original Medicare (Part B)", coverage: "Covered as DME", icon: "shield", notes: "Covers FDA-approved CGMs for diabetics on insulin or with problematic hypoglycemia; 20% coinsurance after deductible" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same as Original Medicare; may offer lower copays or $0 DME benefits" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covers Cost-Sharing", icon: "users", notes: "Pays the 20% coinsurance Original Medicare leaves behind; may reduce CGM costs to $0" },
+      { planType: "Part D (Prescription Drug)", coverage: "Some CGMs Covered", icon: "filetext", notes: "Some Part D plans cover CGMs as pharmacy benefit; check your plan's formulary" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered as DME",
+        coverageType: "covered",
+        statusBadge: "Covers CGMs as Durable Medical Equipment",
+        paragraphs: [
+          "Medicare Part B covers continuous glucose monitors as [durable medical equipment (DME)](/faqs/does-medicare-cover-durable-medical-equipment). This means CGMs are treated the same way as blood glucose monitors, wheelchairs, and oxygen equipment — covered under Part B with standard cost-sharing after you meet your annual deductible.",
+          "CMS significantly expanded CGM coverage in April 2023. Previously, only beneficiaries using intensive insulin therapy (3+ daily injections or an insulin pump) qualified. The updated Local Coverage Determination (LCD) now covers a much broader population of diabetics, removing barriers that kept millions of Medicare beneficiaries from accessing this technology.",
+          "Importantly, the 2023 update also eliminated the requirement to prove you were testing your blood sugar 4+ times daily with fingersticks. This was a major barrier that prevented many beneficiaries from qualifying even when their doctors recommended a CGM.",
+        ],
+        whatItCovers: [
+          "FDA-approved CGM devices (Dexcom G7, Dexcom G6, FreeStyle Libre 3, FreeStyle Libre 2, Eversense E3)",
+          "CGM sensors and transmitters (replacement supplies on manufacturer-recommended schedule)",
+          "Initial device setup and training by your healthcare provider",
+          "Implantable CGMs (Eversense) under separate LCD criteria",
+          "CGM receivers if needed (though most now use smartphones)",
+        ],
+        whatItDoesntCover: [
+          "CGMs for pre-diabetes or general wellness monitoring (no diabetes diagnosis)",
+          "Over-the-counter CGMs purchased without going through a DME supplier",
+          "CGMs for Type 2 diabetics not on insulin AND without documented problematic hypoglycemia",
+          "Smartphone apps or third-party software used with CGMs",
+          "CGM supplies from non-Medicare-enrolled suppliers",
+        ],
+        callout: {
+          type: "info",
+          title: "2023 Coverage Expansion — Key Change",
+          text: "Before April 16, 2023, Medicare only covered CGMs for beneficiaries on intensive insulin therapy (3+ injections/day or insulin pump). The updated LCD now covers anyone on ANY insulin regimen, plus non-insulin users with documented problematic hypoglycemia. This opened CGM access to millions of additional Medicare beneficiaries.",
+        },
+        costNote: "$ Cost: You pay 20% of the Medicare-approved amount after meeting the $257 annual Part B deductible (2026). Monthly out-of-pocket is typically $50–$70 for sensors and supplies.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covers CGMs — may offer lower costs",
+        paragraphs: [
+          "All [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover everything Original Medicare covers — including CGMs under the same eligibility criteria. However, MA plans may offer different cost-sharing structures that could reduce your out-of-pocket costs compared to Original Medicare alone.",
+          "Some Medicare Advantage plans include CGM supplies in their $0 copay DME benefit, meaning you could pay nothing for your CGM after meeting plan requirements. Others may have copays or coinsurance that differ from Original Medicare's standard 20%. The key is checking your specific plan's Evidence of Coverage document.",
+          "One important difference: Medicare Advantage plans may require prior authorization before approving a CGM, and they may restrict you to specific in-network DME suppliers. Always verify coverage with your plan before ordering.",
+        ],
+        whatItCovers: [
+          "Same CGM devices and supplies as Original Medicare",
+          "May offer $0 copay DME benefits (plan-dependent)",
+          "Some plans include supplemental diabetes management benefits",
+          "May cover CGM-related telehealth visits for device training",
+        ],
+        whatItDoesntCover: [
+          "CGMs that don't meet Medicare's eligibility criteria",
+          "Devices from out-of-network DME suppliers (if plan requires in-network)",
+          "CGMs without prior authorization (if plan requires it)",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check Your Plan's DME Network",
+          text: "While all MA plans must cover CGMs, they may prefer specific brands or require you to use a contracted DME supplier. Call your plan before ordering to confirm which devices are covered and which suppliers are in-network.",
+        },
+        costNote: "$ Cost: Varies by plan. Some MA plans offer $0 copay for DME; others charge copays of $20–$50 per supply order. Check your Evidence of Coverage.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covers Cost-Sharing",
+        coverageType: "covered",
+        statusBadge: "Covers the 20% coinsurance Medicare leaves behind",
+        paragraphs: [
+          "[Medigap plans](/medigap) help pay the out-of-pocket costs that Original Medicare leaves behind. Since Part B covers CGMs at 80%, your Medigap plan covers the remaining 20% coinsurance — potentially reducing your annual CGM costs to just the Part B deductible.",
+          "With a Medigap Plan G (the most popular plan), you pay the $257 Part B deductible once per year, and then your CGM sensors and supplies are covered at 100% for the rest of the year. There are no network restrictions, no prior authorization requirements, and you can use any Medicare-enrolled DME supplier nationwide.",
+          "If you have a grandfathered Plan F, even the deductible is covered — meaning your CGM costs could be $0 out of pocket for the entire year.",
+        ],
+        whatItCovers: [
+          "20% Part B coinsurance for CGM devices and supplies",
+          "Part B excess charges (Plan G and Plan F)",
+          "No network restrictions — any Medicare-accepting DME supplier works",
+        ],
+        whatItDoesntCover: [
+          "CGMs that Original Medicare doesn't cover",
+          "The Part B deductible ($257 in 2026) — except Plan F",
+        ],
+        callout: {
+          type: "tip",
+          title: "Medigap + CGM = Lowest Out-of-Pocket Cost",
+          text: "With Original Medicare plus a Medigap Plan G, your total annual cost for a CGM is typically just the $257 Part B deductible. After that, your CGM sensors and supplies are covered at 100% for the rest of the year — no copays, no network restrictions.",
+        },
+        costNote: "$ Cost: With Plan G, your total annual CGM cost is approximately $257 (the Part B deductible). With Plan F, it could be $0.",
+      },
+    ],
+    costTable: {
+      title: "What You'll Pay for a CGM in 2026",
+      headers: ["Coverage Type", "Annual Estimate", "Monthly Estimate", "Notes"],
+      rows: [
+        { "Coverage Type": "Original Medicare Only", "Annual Estimate": "$700–$1,200", "Monthly Estimate": "$50–$70", "Notes": "20% coinsurance after $257 deductible" },
+        { "Coverage Type": "Medicare + Medigap Plan G", "Annual Estimate": "$257", "Monthly Estimate": "$0 after deductible", "Notes": "Only the Part B deductible; coinsurance covered" },
+        { "Coverage Type": "Medicare Advantage", "Annual Estimate": "$0–$800", "Monthly Estimate": "$0–$50", "Notes": "Varies by plan; some offer $0 DME copay" },
+        { "Coverage Type": "No Medicare Coverage", "Annual Estimate": "$3,000–$6,000", "Monthly Estimate": "$250–$500", "Notes": "Full retail cost without insurance" },
+      ],
+      footnote: "Estimates based on Medicare-approved amounts for CGM sensors and transmitters in 2026. Actual costs depend on the specific device, supplier pricing, and your plan's cost-sharing structure.",
+    },
+    exceptionsSection: {
+      title: "Eligibility Criteria — Who Qualifies for a Medicare-Covered CGM",
+      items: [
+        {
+          title: "Insulin Users (Any Type)",
+          text: "If you have Type 1 or Type 2 diabetes and are treated with any form of insulin — including basal-only regimens like Lantus or Basaglar — you qualify for a Medicare-covered CGM. This is the broadest eligibility category since the April 2023 expansion.",
+          highlight: "You no longer need to be on intensive insulin therapy (3+ daily injections). Any insulin use qualifies.",
+        },
+        {
+          title: "Non-Insulin Users with Problematic Hypoglycemia",
+          text: "If you have diabetes but are not on insulin, you may still qualify if you have documented problematic hypoglycemia — meaning you experience recurrent low blood sugar events that pose a safety risk. Your doctor must document these episodes in your medical records.",
+          highlight: "This is a narrower criteria. Your physician must document specific hypoglycemic events to establish medical necessity.",
+        },
+        {
+          title: "Physician Order Required",
+          text: "All CGM coverage requires a written order from your treating physician who has seen you within the past 6 months. The order must document your diabetes diagnosis, your treatment regimen, and the medical necessity for continuous glucose monitoring.",
+          highlight: "A face-to-face visit with your prescribing physician within 6 months of ordering is mandatory under CMS rules.",
+        },
+      ],
+    },
+    relatedEquipment: {
+      title: "Medicare-Covered CGM Devices in 2026",
+      paragraphs: [
+        "The following FDA-approved CGM systems are currently covered under Medicare Part B when obtained through a Medicare-enrolled DME supplier: Dexcom G7 (10-day sensor, real-time readings, smartphone alerts), Dexcom G6 (10-day sensor, share feature, insulin pump compatible), FreeStyle Libre 3 (14-day sensor, smallest available, real-time glucose), FreeStyle Libre 2 (14-day sensor, optional alarms, reader or smartphone), and Eversense E3 (6-month implantable sensor, vibration alerts).",
+        "Medicare covers replacement sensors on the manufacturer-recommended schedule. For Dexcom devices, that means a new sensor every 10 days. For FreeStyle Libre systems, it's every 14 days. Your DME supplier will typically set up automatic shipments.",
+      ],
+      callout: {
+        type: "warning",
+        title: "Important: Purchase Through a DME Supplier",
+        text: "To receive Medicare coverage, you must obtain your CGM through a Medicare-enrolled DME supplier — not a retail pharmacy. Purchasing a CGM over the counter (even with a prescription) typically means Medicare will not reimburse you. Ask your doctor for a DME supplier referral.",
+      },
+    },
+    faqs: [
+      {
+        question: "Do I need to be on insulin to qualify for a Medicare-covered CGM?",
+        answer: "Not necessarily. While most CGM coverage requires insulin use (any type, including basal-only), Medicare also covers CGMs for non-insulin users who have documented problematic hypoglycemia. However, if you manage your diabetes with oral medications only and don't experience low blood sugar events, you likely won't qualify.",
+      },
+      {
+        question: "Do I still need to do fingerstick tests if I have a CGM?",
+        answer: "No. As of the April 2023 coverage update, Medicare eliminated the requirement to prove you were testing 4+ times daily with fingersticks. The CGM replaces fingerstick testing for most purposes, though your doctor may still recommend occasional fingerstick verification.",
+      },
+      {
+        question: "Can I get my CGM from a regular pharmacy with Medicare?",
+        answer: "Generally no. Medicare covers CGMs as DME under Part B, which requires obtaining the device through a Medicare-enrolled DME supplier. Some pharmacies are also DME suppliers, but purchasing a CGM at a retail pharmacy counter typically won't be covered by Medicare Part B. Some Part D plans may cover certain CGMs as a pharmacy benefit — check with your plan.",
+      },
+      {
+        question: "How often does Medicare replace CGM sensors?",
+        answer: "Medicare covers replacement sensors on the schedule recommended by the manufacturer. For Dexcom G7, that's every 10 days. For FreeStyle Libre 2 and 3, it's every 14 days. Your DME supplier will typically set up automatic shipments on the appropriate schedule.",
+      },
+      {
+        question: "Will Medicare cover a CGM if I have pre-diabetes?",
+        answer: "No. Medicare CGM coverage requires a confirmed diagnosis of diabetes (Type 1 or Type 2). Pre-diabetes, gestational diabetes, or general wellness monitoring do not qualify for Medicare-covered CGMs.",
+      },
+      {
+        question: "What if my Medicare Advantage plan denies my CGM request?",
+        answer: "If your MA plan denies coverage, you have the right to appeal. Request a written denial with the specific reason, then file a formal appeal with your plan. If the denial is upheld, you can escalate to an Independent Review Entity (IRE). Many initial denials are overturned on appeal, especially if your doctor provides strong documentation of medical necessity.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Original Medicare Part B</strong> covers CGMs as durable medical equipment" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> must cover CGMs; may offer lower copays" },
+      { icon: "check", text: "<strong>Medigap</strong> covers the 20% coinsurance — may reduce costs to $0" },
+      { icon: "info", text: "Coverage expanded <strong>April 2023</strong> — now includes all insulin users, not just intensive therapy" },
+      { icon: "dollar", text: "Out-of-pocket with Original Medicare: <strong>$50–$70/month</strong> after deductible" },
+      { icon: "alert", text: "Must purchase through a <strong>Medicare-enrolled DME supplier</strong> — not retail pharmacy" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Diabetic Shoes?", description: "Learn how Medicare covers therapeutic shoes and inserts for diabetics.", slug: "medicare-coverage-for-diabetic-shoes" },
+      { title: "Medicare Diabetes Coverage", description: "Comprehensive guide to all Medicare diabetes benefits and supplies.", slug: "medicare-diabetes" },
+      { title: "Does Medicare Cover Durable Medical Equipment?", description: "Understand how Medicare Part B covers DME and what you'll pay.", slug: "does-medicare-cover-durable-medical-equipment" },
+      { title: "Medicare Part B Costs", description: "Learn about Part B premiums, deductibles, and coinsurance in 2026.", slug: "medicare-part-b-costs" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Diabetes Coverage",
+      "Durable Medical Equipment Coverage",
+      "Medicare Part B Costs",
+      "Medicare Advantage Plans",
+      "Medigap Plan G",
+    ],
+    ctaBanner: {
+      title: "Need Help Understanding Your CGM Coverage?",
+      text: "Our licensed Medicare agents can help you determine whether you qualify for a Medicare-covered CGM, compare plans that offer the lowest out-of-pocket costs for diabetes supplies, and connect you with a DME supplier — at no cost to you.",
+    },
+    relatedSlugs: [
+      "medicare-coverage-for-diabetic-shoes",
+      "medicare-diabetes",
+      "does-medicare-cover-durable-medical-equipment",
+      "does-medicare-cover-hearing-aids",
+      "does-medicare-cover-sleep-apnea",
+    ],
+  },
+
+  {
     slug: "does-medicare-cover-assisted-living",
     seo: {
       title: "Does Medicare Cover Assisted Living? What Families Need to Know",
