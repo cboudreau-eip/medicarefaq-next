@@ -8,6 +8,232 @@ import type { CoverageArticleData } from "./article-types";
 
 export const coverageArticles: CoverageArticleData[] = [
   {
+    slug: "does-medicare-cover-assisted-living",
+    seo: {
+      title: "Does Medicare Cover Assisted Living? What Families Need to Know",
+      description: "Medicare does not cover assisted living. Learn why, what the difference is between assisted living and skilled nursing, and what actually pays for assisted living costs.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-assisted-living/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-assisted-living.jpg",
+    },
+    title: "Does Medicare Cover Assisted Living?",
+    subtitle: "No, Medicare does not cover assisted living. Medicare only covers medically necessary care — not custodial care like help with bathing, dressing, or daily activities. Learn what does pay for assisted living and what your options are.",
+    category: "Medicare Coverage",
+    dateUpdated: "June 24, 2026",
+    lastReviewed: "2026-06-24",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "No, Medicare does not cover assisted living at any level. Medicare only pays for medically necessary skilled care — not custodial care, which is the type of help provided in assisted living facilities. Costs are typically paid through Medicaid (for those who qualify), long-term care insurance, Medicare Advantage supplemental benefits, or private funds.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+      ],
+    },
+    subNavLinks: [
+      { label: "Original Medicare", href: "/faqs/does-medicare-cover-assisted-living" },
+      { label: "Medicare Advantage", href: "/faqs/does-medicare-cover-assisted-living" },
+      { label: "Medigap", href: "/faqs/does-medicare-cover-assisted-living" },
+      { label: "What Does Pay", href: "/faqs/does-medicare-cover-assisted-living" },
+      { label: "FAQs", href: "/faqs/does-medicare-cover-assisted-living" },
+    ],
+    comparisonTable: [
+      { planType: "Original Medicare (Part A & B)", coverage: "Not Covered", icon: "shield", notes: "Does not cover custodial care or room and board in assisted living" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Limited Extras Only", icon: "heart", notes: "Some plans offer meal delivery, transportation, or in-home support — not room and board" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "users", notes: "Only supplements Original Medicare benefits; no custodial care coverage" },
+      { planType: "Medicaid", coverage: "May Cover", icon: "filetext", notes: "Covers assisted living in some states through HCBS waivers for eligible low-income beneficiaries" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Part A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Does NOT cover assisted living",
+        paragraphs: [
+          "[Original Medicare (Part A and Part B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) does not cover assisted living. This is one of the most significant and widely misunderstood gaps in Medicare coverage. The reason comes down to a single distinction: Medicare only pays for medically necessary skilled care — it does not pay for custodial care.",
+          "Custodial care refers to help with activities of daily living (ADLs) such as bathing, dressing, grooming, eating, toileting, and transferring. This is exactly the type of care provided in assisted living facilities. Because custodial care is not considered medically necessary under Medicare's definition, it is explicitly excluded from coverage regardless of how long you need it or how much it costs.",
+          "Medicare Part A does cover short-term stays in a [skilled nursing facility (SNF)](/faqs/medicare-coverage-for-skilled-nursing-facilities) following a qualifying hospital stay of at least three days — but this is not the same as assisted living. SNF coverage is temporary (up to 100 days), requires skilled nursing or therapy services, and ends once you no longer need skilled care. Assisted living is a long-term residential arrangement, not a short-term medical stay.",
+        ],
+        whatItCovers: [
+          "Short-term skilled nursing facility stays (after a 3-day hospital stay)",
+          "Home health care when skilled nursing or therapy is needed",
+          "Hospice care for terminal illness",
+        ],
+        whatItDoesntCover: [
+          "Assisted living room and board",
+          "Custodial care (help with bathing, dressing, eating, etc.)",
+          "Long-term nursing home care for daily activities",
+          "Memory care units in assisted living facilities",
+          "Personal care aides in any residential setting",
+        ],
+        costNote: "Medicare pays $0 toward assisted living costs. The national median cost of assisted living is approximately $5,350 per month ($64,200 annually) as of 2026.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Limited Extras Only",
+        coverageType: "partial",
+        statusBadge: "Does NOT cover room and board",
+        paragraphs: [
+          "[Medicare Advantage plans (Part C)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover everything Original Medicare covers, and many offer supplemental benefits that Original Medicare does not. However, no Medicare Advantage plan covers the room and board costs of assisted living — that remains entirely excluded.",
+          "What some Medicare Advantage plans do offer are supplemental benefits that can reduce the burden of care at home or in a facility. These may include meal delivery after a hospital stay, non-emergency medical transportation, in-home support services, personal emergency response systems, and caregiver support programs. These benefits vary significantly by plan and ZIP code.",
+          "If you or a loved one is considering assisted living, it is worth reviewing the Evidence of Coverage for any Medicare Advantage plan to understand what supplemental benefits are included. A licensed Medicare agent can help you compare plans in your area.",
+        ],
+        whatItCovers: [
+          "All Original Medicare services (Part A and Part B)",
+          "Meal delivery programs (some plans)",
+          "Non-emergency medical transportation (some plans)",
+          "In-home support services (some plans)",
+          "Personal emergency response systems (some plans)",
+        ],
+        whatItDoesntCover: [
+          "Assisted living room and board",
+          "Custodial care in any residential facility",
+          "Memory care unit costs",
+        ],
+        callout: {
+          type: "tip",
+          title: "Check Your Plan's Supplemental Benefits",
+          text: "Some Medicare Advantage plans include in-home support or caregiver respite benefits that can delay or reduce the need for assisted living. Review your plan's Evidence of Coverage or call your plan directly to ask what supplemental benefits are available.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
+        statusBadge: "Does NOT cover assisted living",
+        paragraphs: [
+          "[Medicare Supplement plans (Medigap)](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) are designed to fill the cost-sharing gaps in Original Medicare — things like the Part A deductible, Part B coinsurance, and excess charges. Because Medigap only pays secondary to Original Medicare, it cannot cover services that Medicare itself does not cover.",
+          "Since Original Medicare excludes assisted living entirely, no Medigap plan — including the most comprehensive options like Plan G or Plan F — will contribute anything toward assisted living costs. Beneficiaries with Medigap who need long-term care coverage must look to other options such as Medicaid, long-term care insurance, or private funds.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Assisted Living Costs at a Glance (2026)",
+      headers: ["Care Setting", "National Median Monthly Cost", "National Median Annual Cost", "Medicare Covers?"],
+      rows: [
+        { "Care Setting": "Assisted Living Facility", "National Median Monthly Cost": "$5,350", "National Median Annual Cost": "$64,200", "Medicare Covers?": "No" },
+        { "Care Setting": "Memory Care Unit", "National Median Monthly Cost": "$6,935", "National Median Annual Cost": "$83,220", "Medicare Covers?": "No" },
+        { "Care Setting": "Skilled Nursing Facility (Private Room)", "National Median Monthly Cost": "$9,034", "National Median Annual Cost": "$108,408", "Medicare Covers?": "Short-term only (up to 100 days)" },
+        { "Care Setting": "Home Health Aide (44 hrs/week)", "National Median Monthly Cost": "$5,720", "National Median Annual Cost": "$68,640", "Medicare Covers?": "Skilled care only" },
+      ],
+      footnote: "Source: Genworth Cost of Care Survey, 2024. Costs vary significantly by state and city.",
+    },
+    exceptionsSection: {
+      title: "What Medicare Does Cover Near Assisted Living",
+      items: [
+        {
+          title: "Skilled Nursing Facility (SNF) Stays",
+          text: "If you are admitted to a hospital for at least three consecutive days and then require skilled nursing or rehabilitation care, Medicare Part A will cover a short-term SNF stay — up to 20 days at no cost, then days 21–100 with a daily coinsurance of $204.00 in 2026. This is not the same as assisted living, but it is a related benefit many families use during recovery.",
+          highlight: "Medicare covers SNF care only when skilled nursing or therapy is required. Once you only need custodial care, Medicare coverage ends.",
+        },
+        {
+          title: "Home Health Care",
+          text: "If you are homebound and require skilled nursing care or physical/occupational/speech therapy, Medicare Part A or Part B may cover home health visits from a Medicare-certified agency. This can sometimes delay the need for assisted living. However, Medicare does not cover 24-hour home care or personal care aides who only help with daily activities.",
+          highlight: "Home health care under Medicare requires a doctor's order and must involve skilled nursing or therapy — not just personal care.",
+        },
+      ],
+    },
+    alternativesSection: {
+      title: "What Actually Pays for Assisted Living",
+      paragraphs: [
+        "Because Medicare does not cover assisted living, families typically rely on one or more of the following funding sources. Planning ahead is critical — most of these options require action well before care is needed.",
+        "Medicaid is the primary payer for long-term care in the United States, but eligibility is based on income and assets. Many states offer Home and Community Based Services (HCBS) waivers that can cover assisted living costs for Medicaid-eligible individuals. Eligibility rules and covered services vary significantly by state.",
+      ],
+      checklist: {
+        title: "Funding Sources to Explore",
+        type: "search",
+        items: [
+          "Medicaid HCBS waivers (income and asset limits apply)",
+          "Long-term care insurance (must be purchased before you need it)",
+          "Veterans benefits — VA Aid & Attendance pension",
+          "Medicare Advantage supplemental benefits (limited)",
+          "Life insurance with long-term care riders",
+          "Reverse mortgage or home equity",
+          "Personal savings and private pay",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare ever cover any assisted living costs?",
+        answer: "No. Medicare does not cover room and board, personal care, or custodial care in an assisted living facility under any circumstances. Some Medicare Advantage plans offer supplemental benefits like meal delivery or in-home support, but these do not cover assisted living facility costs.",
+      },
+      {
+        question: "What is the difference between assisted living and a skilled nursing facility?",
+        answer: "Assisted living provides residential care and help with daily activities (bathing, dressing, meals) for people who need some support but not 24-hour medical care. Skilled nursing facilities (nursing homes) provide round-the-clock medical care and rehabilitation services. Medicare covers short-term SNF stays after a hospital admission; it does not cover assisted living at all.",
+      },
+      {
+        question: "Will Medicaid pay for assisted living?",
+        answer: "Medicaid may cover assisted living in some states through Home and Community Based Services (HCBS) waivers. Eligibility is based on income and assets, and coverage varies by state. Not all assisted living facilities accept Medicaid. Contact your state Medicaid office to find out what is available in your area.",
+      },
+      {
+        question: "Does Medicare cover memory care in assisted living?",
+        answer: "No. Memory care units within assisted living facilities are not covered by Medicare. Memory care is considered custodial care, which Medicare explicitly excludes. Medicaid, long-term care insurance, or private funds are typically used to pay for memory care.",
+      },
+      {
+        question: "Can I use a Medicare Supplement plan to pay for assisted living?",
+        answer: "No. Medigap plans only cover cost-sharing for services that Original Medicare covers. Since Medicare does not cover assisted living, no Medigap plan will pay for it regardless of the plan letter.",
+      },
+      {
+        question: "What is the average cost of assisted living in 2026?",
+        answer: "The national median cost of assisted living is approximately $5,350 per month ($64,200 per year) as of 2026, according to Genworth's Cost of Care Survey. Costs vary widely by state — from under $3,000/month in some rural areas to over $8,000/month in high-cost states like California and New York.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare</strong> does not cover assisted living" },
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> may offer limited supplemental benefits — not room and board" },
+      { icon: "x", text: "<strong>Medigap</strong> does not cover assisted living" },
+      { icon: "check", text: "<strong>Medicaid</strong> may cover assisted living in some states for eligible individuals" },
+      { icon: "dollar", text: "National median cost: <strong>$5,350/month</strong> ($64,200/year)" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Skilled Nursing Facilities?", description: "Learn how Medicare covers short-term skilled nursing care and what you'll pay.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
+      { title: "Does Medicare Cover In-Home Caregivers?", description: "Find out what Medicare covers for home health care and personal care aides.", slug: "medicare-coverage-for-in-home-caregivers" },
+      { title: "Medicare Savings Programs", description: "Learn about programs that help low-income Medicare beneficiaries with costs.", slug: "medicare-savings-programs" },
+      { title: "Does Medicare Cover Hospice Care?", description: "Understand Medicare's hospice benefit and what it covers for end-of-life care.", slug: "does-medicare-cover-hospice-care" },
+      { title: "Medicare vs. Medicaid", description: "Understand the key differences between Medicare and Medicaid coverage.", slug: "medicare-vs-medicaid" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Skilled Nursing Coverage",
+      "Medicare vs. Medicaid",
+      "Medicare Savings Programs",
+      "Medicare Advantage Plans",
+      "Does Medicare Cover Home Health Care",
+    ],
+    ctaBanner: {
+      title: "Have Questions About Long-Term Care Coverage?",
+      text: "Medicare doesn't cover assisted living, but there may be options available to help. Our licensed Medicare agents can review your situation and explain what coverage you have — at no cost to you.",
+    },
+    relatedSlugs: [
+      "medicare-coverage-for-skilled-nursing-facilities",
+      "medicare-coverage-for-in-home-caregivers",
+      "medicare-vs-medicaid",
+      "medicare-savings-programs",
+      "does-medicare-cover-hospice-care",
+      "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job",
+      "what-medicare-doesnt-cover-common-surprises",
+      "medicare-maximum-out-of-pocket",
+    ],
+  },
+
+  {
     slug: "does-medicare-cover-dental-implants",
     seo: {
       title: "Does Medicare Cover Dental Implants?",
