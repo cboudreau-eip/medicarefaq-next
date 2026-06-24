@@ -102,7 +102,7 @@ export default function Blog() {
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">
         {/* Page Header */}
-        <section className="bg-[#1B2A4A] py-12 md:py-16">
+        <section className={`bg-[#1B2A4A] ${currentPage === 1 ? "py-12 md:py-16" : "py-6 md:py-8"}`}>
           <div className="container">
             <motion.div
               initial={{ opacity: 0, y: 15 }}
@@ -119,10 +119,12 @@ export default function Blog() {
               <h1 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-white mb-4">
                 Medicare News & Insights
               </h1>
-              <p className="text-white/70 text-lg max-w-2xl">
-                Expert articles, guides, and analysis to help you navigate Medicare
-                with confidence. Updated regularly by licensed professionals.
-              </p>
+              {currentPage === 1 && (
+                <p className="text-white/70 text-lg max-w-2xl">
+                  Expert articles, guides, and analysis to help you navigate Medicare
+                  with confidence. Updated regularly by licensed professionals.
+                </p>
+              )}
             </motion.div>
           </div>
         </section>
