@@ -65,6 +65,7 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
     message: "",
     isCustomer: "",
   });
+  const [honeypot, setHoneypot] = useState("");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -75,11 +76,18 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
     setSubmitting(true);
     setSubmitError("");
 
+    // Honeypot check — if filled, silently "succeed" without submitting
+    if (honeypot) {
+      setSubmitted(true);
+      setSubmitting(false);
+      return;
+    }
+
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, _website: honeypot }),
       });
 
       if (res.ok) {
@@ -350,6 +358,20 @@ export default function Contact() {  const [submitted, setSubmitted] = useState(
                         rows={5}
                         className="w-full px-4 py-2.5 rounded-lg border border-slate-200 text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-400 transition-all resize-none"
                         placeholder="How can we help you?"
+                      />
+                    </div>
+
+                    {/* Honeypot — hidden from real users, bots will fill it */}
+                    <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', top: '-9999px', opacity: 0, height: 0, overflow: 'hidden' }}>
+                      <label htmlFor="website">Website</label>
+                      <input
+                        type="text"
+                        id="website"
+                        name="website"
+                        autoComplete="off"
+                        tabIndex={-1}
+                        value={honeypot}
+                        onChange={(e) => setHoneypot(e.target.value)}
                       />
                     </div>
 
