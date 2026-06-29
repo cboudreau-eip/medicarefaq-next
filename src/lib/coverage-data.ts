@@ -2771,7 +2771,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Protect Yourself from Rising Medicare Costs",
       text: "Our licensed agents can help you find a Medicare Supplement plan that covers the gaps and gives you predictable monthly costs.",
     },
-    relatedSlugs: ["medicare-costs-2025", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "new-in-2025-medicares-part-d-payment-plan-explained", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
+    relatedSlugs: ["medicare-costs-2025", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-part-d-payment-plan-2026", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
   },
   {
     slug: "does-medicare-cover-life-alert",
@@ -3365,7 +3365,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Get Expert Medicare Guidance",
       text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
     },
-    relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-costs-2025", "medicare-changes"],
+    relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "medicare-part-d-payment-plan-2026", "medicare-costs-2025", "medicare-changes"],
   },
   {
     slug: "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends",
@@ -26633,7 +26633,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Choosing a Part D Plan with Mail Order Benefits?",
       text: "Our licensed agents can help you compare Part D plans and find the best mail order pharmacy options for your medications.",
     },
-    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary"],
+    relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "medicare-part-d-payment-plan-2026", "medicare-and-prescription-drugs-whats-covered-and-whats-not", "part-d-formulary"],
   },
 
   {
@@ -27058,7 +27058,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Navigating 2026 Medicare Changes?",
       text: "Our licensed agents can help you review your current coverage and find the best plan for your needs in light of the 2026 Medicare changes.",
     },
-    relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "new-in-2025-medicares-part-d-payment-plan-explained", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "new-medicare-changes"],
+    relatedSlugs: ["medicare-news", "how-is-medicare-part-d-changing-in-2026", "medicare-part-d-payment-plan-2026", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "new-medicare-changes"],
   },
   {
     slug: "medicare-and-va-benefits",
@@ -29404,7 +29404,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "how-is-medicare-part-d-changing-in-2026",
       "mapd-vs-part-d",
       "why-some-drugs-are-covered-under-part-b-instead-of-part-d",
-      "new-in-2025-medicares-part-d-payment-plan-explained",
+      "medicare-part-d-payment-plan-2026",
       "six-protected-classes"],
     ctaBanner: {
       title: "Questions about Your Part D Coverage?",
@@ -29414,7 +29414,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "how-is-medicare-part-d-changing-in-2026",
       "mapd-vs-part-d",
       "why-some-drugs-are-covered-under-part-b-instead-of-part-d",
-      "new-in-2025-medicares-part-d-payment-plan-explained",
+      "medicare-part-d-payment-plan-2026",
       "six-protected-classes", "medicare-part-d-six-protected-classes"],
   },
 
