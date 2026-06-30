@@ -19,6 +19,7 @@ import {
   LayoutGrid,
   ShieldCheck,
   CalendarDays,
+  MessageSquare,
 } from "lucide-react";
 import "../sketch-theme.css";
 
@@ -226,6 +227,13 @@ export default function SketchLayout({
               label="Calendar"
               active={isActive("/admin/github-editor/pipeline/calendar")}
               rotation={NAV_ROTATIONS[3]}
+            />
+            <NavItem
+              href="/admin/chat-logs"
+              icon={MessageSquare}
+              label="Chat Logs"
+              active={isActive("/admin/chat-logs")}
+              rotation={NAV_ROTATIONS[5]}
             />
           </div>
         </div>
