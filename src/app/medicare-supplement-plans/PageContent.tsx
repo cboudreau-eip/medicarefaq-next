@@ -146,9 +146,9 @@ export default function MedicareSupplement() {
               }
             />
             <a
-              href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+              href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })}
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/20 text-base"
+              className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/20 text-base"
             >
               <Phone className="w-4 h-4" aria-hidden="true" />
               (888) 335-8996
@@ -181,8 +181,8 @@ export default function MedicareSupplement() {
                 <div className="mt-8 p-4 bg-blue-50 rounded-xl border border-blue-100">
                   <p className="text-sm font-semibold text-blue-900 mb-1">Need Help?</p>
                   <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent</p>
-                  <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })} className="flex items-center gap-2 text-sm font-bold text-blue-700">
+                  <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })} className="invoca-phone flex items-center gap-2 text-sm font-bold text-blue-700">
                     <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>
@@ -585,9 +585,9 @@ export default function MedicareSupplement() {
                       }
                     />
                     <a
-                      href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+                      href="tel:+18883358996"  data-invoca-phone-number="18883358996"
                       onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medicare_supplements" })}
-                      className="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/30 text-base"
+                      className="invoca-phone inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 text-white font-semibold px-6 py-3.5 rounded-lg transition-colors border border-white/30 text-base"
                     >
                       <Phone className="w-4 h-4" aria-hidden="true" />
                       Call (888) 335-8996

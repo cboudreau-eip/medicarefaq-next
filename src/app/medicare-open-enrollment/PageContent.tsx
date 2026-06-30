@@ -148,9 +148,9 @@ export default function PageContent() {
                 </button>
               }
             />
-            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+            <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "open-enrollment-hero" })}
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+              className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
@@ -198,9 +198,9 @@ export default function PageContent() {
                 <div className="mt-8 p-4 bg-amber-50 rounded-xl border border-amber-100">
                   <p className="text-sm font-semibold text-amber-900 mb-1">Need Help Choosing a Plan?</p>
                   <p className="text-xs text-amber-700 mb-3">Our licensed agents walk you through your options</p>
-                  <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+                  <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "open-enrollment-sidebar" })}
-                    className="flex items-center gap-2 text-sm font-bold text-amber-700">
+                    className="invoca-phone flex items-center gap-2 text-sm font-bold text-amber-700">
                     <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                   </a>
                 </div>

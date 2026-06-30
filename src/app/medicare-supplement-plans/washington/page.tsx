@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Washington State 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Washington state for 2026. Washington has a unique year-round switching rule - switch Medigap plans any month with no health screening. Compare top carriers including Regence BlueShield, Premera Blue Cross, and more.",
+    "Compare the best Medicare Supplement plans in Washington state for 2026. Washington has a unique year-round switching rule - switch Medigap plans any month with no health screening. Compare rates from top-rated carriers in your area. Get free quotes and expert guidance.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/washington/",
   },
@@ -23,7 +23,7 @@ export default function WashingtonMedicareSupplementPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Washington State 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in Washington state for 2026. Washington has a unique year-round switching rule - switch Medigap plans any month with no health screening. Compare top carriers including Regence BlueShield, Premera Blue Cross, and more.",
+    description: "Compare the best Medicare Supplement plans in Washington state for 2026. Washington has a unique year-round switching rule - switch Medigap plans any month with no health screening. Compare rates from top-rated carriers in your area. Get free quotes and expert guidance.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/washington/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

@@ -85,8 +85,8 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                 </button>
               }
             />
-            <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_state_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+            <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_state_detail" })} className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
           </div>
@@ -238,8 +238,8 @@ export default function PageContent({ stateSlug }: { stateSlug: string }) {
                   </button>
                 }
               />
-              <a href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_state_detail" })} className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
+              <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "medigap_state_detail" })} className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20">
                 <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>
             </div>

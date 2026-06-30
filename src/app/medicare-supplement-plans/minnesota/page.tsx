@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Minnesota 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Minnesota for 2026. Minnesota uses a unique Basic and Extended Basic plan system with community rating. Compare top carriers including BCBS MN, HealthPartners, Medica, and Mutual of Omaha. Get free quotes.",
+    "Compare the best Medicare Supplement plans in Minnesota for 2026. Minnesota uses a unique Basic and Extended Basic plan system with community rating. Compare rates from top-rated carriers in your area. Get free quotes and expert guidance.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/minnesota/",
   },
@@ -24,7 +24,7 @@ export default function MinnesotaMedicareSupplementPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Minnesota 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in Minnesota for 2026. Minnesota uses a unique Basic and Extended Basic plan system with community rating. Compare top carriers including BCBS MN, HealthPartners, Medica, and Mutual of Omaha. Get free quotes.",
+    description: "Compare the best Medicare Supplement plans in Minnesota for 2026. Minnesota uses a unique Basic and Extended Basic plan system with community rating. Compare rates from top-rated carriers in your area. Get free quotes and expert guidance.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/minnesota/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

@@ -21,7 +21,13 @@ const NOTIFICATION_EMAIL = "marketing@teameip.com";
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { firstName, lastName, email, phone, reason, zipcode, message, isCustomer } = body;
+    const { firstName, lastName, email, phone, reason, zipcode, message, isCustomer, _website } = body;
+
+    // Honeypot check — if the hidden field has a value, it's a bot
+    if (_website) {
+      // Return success to the bot so it thinks it worked, but don't store anything
+      return NextResponse.json({ success: true });
+    }
 
     // Validate required fields
     if (!firstName || !lastName || !email || !reason) {

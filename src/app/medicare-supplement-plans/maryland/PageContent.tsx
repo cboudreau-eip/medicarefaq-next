@@ -161,7 +161,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
             />
             <a
               href="tel:+18883358996"
-              id="callInNum"
+              
               data-invoca-phone-number="18883358996"
               onClick={() =>
                 trackPhoneClick({
@@ -169,7 +169,7 @@ function CarrierCard({ carrier, rank }: { carrier: Carrier; rank: number }) {
                   page_section: "maryland_carrier_card",
                 })
               }
-              className="w-full inline-flex items-center justify-center gap-2 border border-slate-300 hover:border-blue-400 text-slate-700 font-medium px-4 py-2.5 rounded-lg transition-colors text-sm"
+              className="invoca-phone w-full inline-flex items-center justify-center gap-2 border border-slate-300 hover:border-blue-400 text-slate-700 font-medium px-4 py-2.5 rounded-lg transition-colors text-sm"
             >
               <Phone className="w-3.5 h-3.5" aria-hidden="true" /> (888) 335-8996
             </a>
@@ -359,7 +359,7 @@ export default function MarylandPageContent() {
             />
             <a
               href="tel:+18883358996"
-              id="callInNum"
+              
               data-invoca-phone-number="18883358996"
               onClick={() =>
                 trackPhoneClick({
@@ -367,7 +367,7 @@ export default function MarylandPageContent() {
                   page_section: "maryland_hero",
                 })
               }
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
+              className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
             >
               <Phone className="w-4 h-4" aria-hidden="true" /> Talk to an Agent
             </a>
@@ -875,7 +875,7 @@ export default function MarylandPageContent() {
               />
               <a
                 href="tel:+18883358996"
-                id="callInNum"
+                
                 data-invoca-phone-number="18883358996"
                 onClick={() =>
                   trackPhoneClick({
@@ -883,7 +883,7 @@ export default function MarylandPageContent() {
                     page_section: "maryland_bottom_cta",
                   })
                 }
-                className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
+                className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-lg transition-colors border border-white/20"
               >
                 <Phone className="w-4 h-4" aria-hidden="true" /> Call (888) 335-8996
               </a>

@@ -187,6 +187,9 @@ const nextConfig: NextConfig = {
       { source: "/medicare-eligibility", destination: "/new-to-medicare/eligibility", permanent: true },
       { source: "/turning-65", destination: "/new-to-medicare/turning-65", permanent: true },
       { source: "/medicare-supplement-insurance", destination: "/medicare-supplement-plans", permanent: true },
+
+      // ── Blog article slug updates ──
+      { source: "/blog/new-in-2025-medicares-part-d-payment-plan-explained", destination: "/blog/medicare-part-d-payment-plan-2026", permanent: true },
     ];
   },
   async headers() {

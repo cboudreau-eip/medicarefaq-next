@@ -415,10 +415,10 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                 <p className="text-xs text-purple-700 mb-3">Our licensed agents can walk you through every step.</p>
                 <a
                   href="tel:+18883358996"
-                  id="callInNum"
+                  
                   data-invoca-phone-number="18883358996"
                   onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })}
-                  className="flex items-center gap-2 text-sm font-semibold text-purple-700 hover:text-purple-900"
+                  className="invoca-phone flex items-center gap-2 text-sm font-semibold text-purple-700 hover:text-purple-900"
                 >
                   <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
                 </a>
@@ -560,10 +560,10 @@ export default function Checklist() {  const [checked, setChecked] = useState<Se
                 <div className="flex flex-wrap gap-4">
                   <a
                     href="tel:+18883358996"
-                    id="callInNum"
+                    
                     data-invoca-phone-number="18883358996"
                     onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "checklist" })}
-                    className="inline-flex items-center gap-2 bg-purple-500 hover:bg-purple-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+                    className="invoca-phone inline-flex items-center gap-2 bg-purple-500 hover:bg-purple-400 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
                   >
                     Call (888) 335-8996
                   </a>

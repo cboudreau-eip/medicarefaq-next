@@ -3,6 +3,7 @@ import Script from "next/script";
 import HeatmapTracker from "@/components/HeatmapTracker";
 import InvocaRefresh from "@/components/InvocaRefresh";
 import ChatWidget from "@/components/ChatWidget";
+import PostHogProvider from "@/components/PostHogProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -89,7 +90,7 @@ export default function RootLayout({
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-M64G2VVG');`,
+            })(window,document,'script','dataLayer','GTM-5L4D58F');`,
           }}
         />
       </head>
@@ -97,13 +98,15 @@ export default function RootLayout({
         {/* Google Tag Manager (noscript fallback) */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-M64G2VVG"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5L4D58F"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-        {children}
+        <PostHogProvider>
+          {children}
+        </PostHogProvider>
         <HeatmapTracker />
         <InvocaRefresh />
         {/* Chat widget is fail-closed: only render when ENABLE_CHAT === "true".

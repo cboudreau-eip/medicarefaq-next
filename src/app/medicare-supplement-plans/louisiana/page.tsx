@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Louisiana 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Louisiana for 2026. Louisiana has a birthday rule letting you switch plans annually. Compare Plan G rates from $111/mo in New Orleans from top carriers including Mutual of Omaha, State Farm, AARP/UHC, and more.",
+    "Compare the best Medicare Supplement plans in Louisiana for 2026. Louisiana has a birthday rule letting you switch plans annually. Compare Plan G rates from $111/mo in New Orleans from top-rated carriers. Get free quotes and expert guidance.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/louisiana/",
   },
@@ -23,7 +23,7 @@ export default function LouisianaPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Louisiana 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in Louisiana for 2026. Louisiana has a birthday rule letting you switch plans annually. Compare Plan G rates from $111/mo in New Orleans from top carriers including Mutual of Omaha, State Farm, AARP/UHC, and more.",
+    description: "Compare the best Medicare Supplement plans in Louisiana for 2026. Louisiana has a birthday rule letting you switch plans annually. Compare Plan G rates from $111/mo in New Orleans from top-rated carriers. Get free quotes and expert guidance.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/louisiana/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import SiteLayout from "@/components/SiteLayout";
 import Blog from "./PageContent";
 
@@ -33,7 +34,9 @@ export default function Page() {
   return (
     <SiteLayout>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
-      <Blog />
+      <Suspense fallback={<div className="min-h-screen bg-[#F5F7FA]" />}>
+        <Blog />
+      </Suspense>
     </SiteLayout>
   );
 }

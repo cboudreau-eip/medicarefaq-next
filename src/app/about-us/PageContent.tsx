@@ -632,9 +632,9 @@ export default function About() {  return (
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+18883358996" id="callInNum" data-invoca-phone-number="18883358996"
+                href="tel:+18883358996"  data-invoca-phone-number="18883358996"
               onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "about_us" })}
-                className="inline-flex items-center justify-center gap-2 bg-white text-[#C41230] font-semibold px-8 py-3.5 rounded-lg hover:bg-slate-100 transition-colors"
+                className="invoca-phone inline-flex items-center justify-center gap-2 bg-white text-[#C41230] font-semibold px-8 py-3.5 rounded-lg hover:bg-slate-100 transition-colors"
               >
                 <Phone className="w-4 h-4" aria-hidden="true" />
                 Call (888) 335-8996

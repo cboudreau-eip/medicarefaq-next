@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Kentucky 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Kentucky for 2026. Birthday rule active since January 2024. LifeShield National Plan G from $148/mo. State Farm A++ rated. Free quotes from 40+ carriers.",
+    "Compare the best Medicare Supplement plans in Kentucky for 2026. Birthday rule active since January 2024. Plan G rates from $148/mo from top-rated carriers. Free quotes from 40+ carriers.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/kentucky/",
   },
@@ -23,7 +23,7 @@ export default function KentuckyPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Kentucky 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in Kentucky for 2026. Birthday rule active since January 2024. LifeShield National Plan G from $148/mo. State Farm A++ rated. Free quotes from 40+ carriers.",
+    description: "Compare the best Medicare Supplement plans in Kentucky for 2026. Birthday rule active since January 2024. Plan G rates from $148/mo from top-rated carriers. Free quotes from 40+ carriers.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/kentucky/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

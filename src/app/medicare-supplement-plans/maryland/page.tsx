@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Maryland 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Maryland for 2026. Maryland has a birthday rule letting you switch plans annually. Compare Plan G rates from $126/mo in Baltimore from top carriers including Mutual of Omaha, AARP/UHC, Humana, and more.",
+    "Compare the best Medicare Supplement plans in Maryland for 2026. Maryland has a birthday rule letting you switch plans annually. Compare Plan G rates from $126/mo in Baltimore from top-rated carriers. Get free quotes and expert guidance.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/maryland/",
   },
@@ -23,7 +23,7 @@ export default function MarylandPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Maryland 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in Maryland for 2026. Maryland has a birthday rule letting you switch plans annually. Compare Plan G rates from $126/mo in Baltimore from top carriers including Mutual of Omaha, AARP/UHC, Humana, and more.",
+    description: "Compare the best Medicare Supplement plans in Maryland for 2026. Maryland has a birthday rule letting you switch plans annually. Compare Plan G rates from $126/mo in Baltimore from top-rated carriers. Get free quotes and expert guidance.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/maryland/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

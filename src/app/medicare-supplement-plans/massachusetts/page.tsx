@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Massachusetts 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Massachusetts for 2026. Massachusetts uses a unique plan system (Core, Supplement 1A) with community rating and year-round open enrollment. Compare rates from $123/mo in Boston from top carriers including BCBS MA, Harvard Pilgrim, and AARP/UHC.",
+    "Compare the best Medicare Supplement plans in Massachusetts for 2026. Massachusetts uses a unique plan system (Core, Supplement 1A) with community rating and year-round open enrollment. Compare rates from $123/mo in Boston from top-rated carriers. Get free quotes and expert guidance.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/massachusetts/",
   },
@@ -23,7 +23,7 @@ export default function MassachusettsPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Massachusetts 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in Massachusetts for 2026. Massachusetts uses a unique plan system (Core, Supplement 1A) with community rating and year-round open enrollment. Compare rates from $123/mo in Boston from top carriers including BCBS MA, Harvard Pilgrim, and AARP/UHC.",
+    description: "Compare the best Medicare Supplement plans in Massachusetts for 2026. Massachusetts uses a unique plan system (Core, Supplement 1A) with community rating and year-round open enrollment. Compare rates from $123/mo in Boston from top-rated carriers. Get free quotes and expert guidance.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/massachusetts/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

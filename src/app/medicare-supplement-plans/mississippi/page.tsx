@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Mississippi 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Mississippi for 2026. LifeShield National offers Plan G from $123/mo, saving $101/mo vs. the state average. Free quotes from 38 carriers.",
+    "Compare the best Medicare Supplement plans in Mississippi for 2026. Plan G rates from $123/mo, saving $101/mo vs. the state average. Free quotes from 38 carriers.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/mississippi/",
   },
@@ -23,7 +23,7 @@ export default function MississippiPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Mississippi 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in Mississippi for 2026. LifeShield National offers Plan G from $123/mo, saving $101/mo vs. the state average. Free quotes from 38 carriers.",
+    description: "Compare the best Medicare Supplement plans in Mississippi for 2026. Plan G rates from $123/mo, saving $101/mo vs. the state average. Free quotes from 38 carriers.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/mississippi/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },
