@@ -14,7 +14,6 @@ import {
   Lightbulb,
   Settings,
   Wand2,
-  MessageSquare,
 } from "lucide-react";
 
 interface CMSHeaderProps {
@@ -153,14 +152,6 @@ export default function CMSHeader({
               >
                 <Lightbulb className="w-3.5 h-3.5" />
                 Intelligence
-              </Link>
-              <Link
-                href="/admin/chat-logs"
-                className="flex items-center gap-1.5 text-xs font-medium text-gray-600 bg-gray-100 rounded-lg px-3 py-1.5 hover:bg-gray-200 transition-colors"
-                title="Chat Logs"
-              >
-                <MessageSquare className="w-3.5 h-3.5" />
-                Chat Logs
               </Link>
               <Link
                 href="/admin/github-editor/settings"
