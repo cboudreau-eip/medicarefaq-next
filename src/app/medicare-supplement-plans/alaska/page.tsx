@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in Alaska 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in Alaska for 2026. No Medicare Advantage available in Alaska. Plan G starts at $137/mo in Anchorage. We ranked 5 top carriers including Premera BCBS of Alaska.",
+    "Compare the best Medicare Supplement plans in Alaska for 2026. No Medicare Advantage available in Alaska. Plan G starts at $137/mo in Anchorage. Compare top-rated carriers and get free quotes.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/alaska/",
   },
@@ -23,7 +23,7 @@ export default function AlaskaPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in Alaska 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in Alaska for 2026. No Medicare Advantage available in Alaska. Plan G starts at $137/mo in Anchorage. We ranked 5 top carriers including Premera BCBS of Alaska.",
+    description: "Compare the best Medicare Supplement plans in Alaska for 2026. No Medicare Advantage available in Alaska. Plan G starts at $137/mo in Anchorage. Compare top-rated carriers and get free quotes.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/alaska/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

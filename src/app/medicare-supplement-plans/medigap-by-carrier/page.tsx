@@ -4,10 +4,10 @@ import PageContent from "./PageContent";
 
 export const metadata: Metadata = {
   title: "Medigap Plans by Carrier: Compare Top Medicare Supplement Insurers",
-  description: "Compare Medicare Supplement plans from top carriers including Mutual of Omaha, Aetna, Humana, UnitedHealthcare, and more. Find the best Medigap carrier for your needs.",
+  description: "Compare Medicare Supplement plans from top-rated carriers. See financial strength ratings, plan availability, pricing methods, and find the best Medigap carrier for your needs.",
   openGraph: {
     title: "Medigap Plans by Carrier: Compare Top Medicare Supplement Insurers",
-    description: "Compare Medicare Supplement plans from top carriers including Mutual of Omaha, Aetna, Humana, UnitedHealthcare, and more. Find the best Medigap carrier for your needs.",
+    description: "Compare Medicare Supplement plans from top-rated carriers. See financial strength ratings, plan availability, pricing methods, and find the best Medigap carrier for your needs.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/",
     type: "website",
   },
@@ -21,7 +21,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Medigap Plans by Carrier: Compare Top Medicare Supplement Insurers",
-    description: "Compare Medicare Supplement plans from top carriers including Mutual of Omaha, Aetna, Humana, UnitedHealthcare, and more. Find the best Medigap carrier for your needs.",
+    description: "Compare Medicare Supplement plans from top-rated carriers. See financial strength ratings, plan availability, pricing methods, and find the best Medigap carrier for your needs.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/medigap-by-carrier/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },

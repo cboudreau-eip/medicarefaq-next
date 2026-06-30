@@ -5,7 +5,7 @@ import PageContent from "./PageContent";
 export const metadata: Metadata = {
   title: "Best Medicare Supplement Plans in New Jersey 2026 | MedicareFAQ",
   description:
-    "Compare the best Medicare Supplement plans in New Jersey for 2026. AARP/UHC holds 47% market share. See top carriers, premiums from $139/mo, under-65 coverage rules, and state regulations.",
+    "Compare the best Medicare Supplement plans in New Jersey for 2026. See top-rated carriers, premiums from $139/mo, under-65 coverage rules, and state regulations.",
   alternates: {
     canonical: "https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/",
   },
@@ -23,7 +23,7 @@ export default function NewJerseyPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Best Medicare Supplement Plans in New Jersey 2026 | MedicareFAQ",
-    description: "Compare the best Medicare Supplement plans in New Jersey for 2026. AARP/UHC holds 47% market share. See top carriers, premiums from $139/mo, under-65 coverage rules, and state regulations.",
+    description: "Compare the best Medicare Supplement plans in New Jersey for 2026. See top-rated carriers, premiums from $139/mo, under-65 coverage rules, and state regulations.",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/new-jersey/",
     dateModified: "2026-01-01",
     author: { "@type": "Organization", name: "MedicareFAQ" },
