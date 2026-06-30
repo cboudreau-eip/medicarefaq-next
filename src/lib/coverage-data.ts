@@ -712,6 +712,8 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
     },
     readTime: "7 min read",
+    youtubeVideoId: "y0DnD9vmhKE",
+    youtubeVideoTitle: "Does Medicare Cover Hearing Aids?",
     quickAnswer: {
       text: "No, Original Medicare does not cover hearing aids or exams for fitting hearing aids. However, some Medicare Advantage (Part C) plans may offer hearing benefits that include hearing aids. Medicare Supplement (Medigap) plans do not cover hearing aids either, as they only supplement what Original Medicare covers. Over-the-counter hearing aids are available without a prescription since October 2022.",
       badges: [
