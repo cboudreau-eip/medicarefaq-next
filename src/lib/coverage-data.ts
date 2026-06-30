@@ -502,7 +502,7 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
     },
     readTime: "6 min read",
-    youtubeVideoId: "s38iyLpeG10",
+    youtubeVideoId: "gxE7zdYJ8p0",
     youtubeVideoTitle: "Does Medicare Cover Dental Implants",
     quickAnswer: {
       text: "Dental implants permanently anchor prosthetic teeth, but Original Medicare doesn't cover them. However, beneficiaries have other plan options for dental implant coverage.",
