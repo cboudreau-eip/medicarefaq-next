@@ -166,7 +166,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Marketplace (ACA) coverage does NOT count as creditable coverage for Medicare purposes",
         ],
         callout: {
-          type: "eddie-pro-tip",
+          type: "tip",
           title: "Don't Confuse Social Security Age with Medicare Age",
           text: "You can start collecting Social Security retirement benefits as early as age 62, but the Medicare eligibility age remains 65 regardless of when you claim Social Security. Starting Social Security early does NOT give you Medicare early. If you retire at 62, you'll need to find other health coverage (employer COBRA, ACA marketplace, or spouse's plan) for the three years until you reach the age to get Medicare at 65.",
         },
