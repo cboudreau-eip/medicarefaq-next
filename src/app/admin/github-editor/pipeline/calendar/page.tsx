@@ -308,7 +308,7 @@ export default function PipelineCalendarPage() {
                 notes: "",
               })
             }
-            className="flex items-center gap-2 px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors shrink-0"
+            className="flex items-center gap-2 px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors shrink-0"
           >
             <Plus size={16} />
             Add Idea
@@ -398,7 +398,7 @@ export default function PipelineCalendarPage() {
                       <span
                         className={
                           isToday
-                            ? "bg-teal-600 text-white rounded-full w-5 h-5 flex items-center justify-center"
+                            ? "bg-orange-600 text-white rounded-full w-5 h-5 flex items-center justify-center"
                             : ""
                         }
                       >
@@ -593,7 +593,7 @@ export default function PipelineCalendarPage() {
                 <button
                   onClick={saveIdea}
                   disabled={saving}
-                  className="flex items-center gap-2 px-4 py-2 text-sm bg-teal-600 text-white rounded-lg hover:bg-teal-700 disabled:opacity-50"
+                  className="flex items-center gap-2 px-4 py-2 text-sm bg-orange-600 text-white rounded-lg hover:bg-orange-700 disabled:opacity-50"
                 >
                   {saving ? <Loader2 size={14} className="animate-spin" /> : <Plus size={14} />}
                   Save

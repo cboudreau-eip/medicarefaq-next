@@ -176,7 +176,7 @@ export default function SeoFixReviewModal({
               type="button"
               onClick={onApply}
               disabled={applying}
-              className="flex items-center gap-1.5 text-sm font-semibold px-4 py-2 rounded-lg bg-teal-600 text-white hover:bg-teal-700 transition-colors disabled:opacity-50"
+              className="flex items-center gap-1.5 text-sm font-semibold px-4 py-2 rounded-lg bg-orange-600 text-white hover:bg-orange-700 transition-colors disabled:opacity-50"
             >
               <Check className="w-4 h-4" />
               Apply change
