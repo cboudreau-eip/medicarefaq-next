@@ -107,7 +107,7 @@ export default function ArticleCardGrid({
             {/* New Article */}
             <Link
               href="/admin/github-editor/create"
-              className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-4 py-2 hover:bg-teal-700 transition-colors"
+              className="flex items-center gap-2 text-sm font-semibold bg-orange-600 text-white rounded-lg px-4 py-2 hover:bg-orange-700 transition-colors"
             >
               <Plus className="w-3.5 h-3.5" />
               New Article

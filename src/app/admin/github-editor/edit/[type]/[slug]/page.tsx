@@ -368,7 +368,7 @@ export default function EditArticlePage() {
               <button
                 onClick={handlePublish}
                 disabled={saveStatus === "saving" || detailLoading}
-                className="flex items-center gap-1.5 text-sm font-semibold bg-teal-600 text-white rounded-lg px-4 py-1.5 hover:bg-teal-700 transition-colors disabled:opacity-50"
+                className="flex items-center gap-1.5 text-sm font-semibold bg-orange-600 text-white rounded-lg px-4 py-1.5 hover:bg-orange-700 transition-colors disabled:opacity-50"
               >
                 {saveStatus === "saving" ? (
                   <>
@@ -860,7 +860,7 @@ export default function EditArticlePage() {
                               setEditSectionsRaw(tsString);
                               setHtmlDirty(false);
                             }}
-                            className="flex items-center gap-1.5 text-xs font-semibold bg-teal-600 text-white rounded-lg px-3 py-1.5 hover:bg-teal-700 transition-colors"
+                            className="flex items-center gap-1.5 text-xs font-semibold bg-orange-600 text-white rounded-lg px-3 py-1.5 hover:bg-orange-700 transition-colors"
                           >
                             <CheckCircle2 className="w-3 h-3" />
                             Apply Changes
@@ -1015,7 +1015,7 @@ export default function EditArticlePage() {
                 <button
                   onClick={handlePublish}
                   disabled={saveStatus === "saving"}
-                  className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-5 py-2 hover:bg-teal-700 transition-colors disabled:opacity-50"
+                  className="flex items-center gap-2 text-sm font-semibold bg-orange-600 text-white rounded-lg px-5 py-2 hover:bg-orange-700 transition-colors disabled:opacity-50"
                 >
                   {saveStatus === "saving" ? (
                     <>
