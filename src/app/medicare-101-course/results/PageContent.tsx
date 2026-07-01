@@ -6,6 +6,7 @@ import { getStoredScores, resetScores, type QuizScores } from "@/components/Cour
 import { COURSE_LESSONS } from "@/components/CourseLayout";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
+import { appendPostHogParams } from "@/lib/posthog-params";
 import { getCourseProfile, clearCourseProfile, type CourseUserProfile } from "@/components/CourseOnboarding";
 import {
   Trophy,
@@ -91,7 +92,7 @@ export default function PageContent() {
   const handleRetake = () => {
     resetScores();
     clearCourseProfile();
-    window.location.href = "/medicare-101-course";
+    window.location.href = appendPostHogParams("/medicare-101-course");
   };
 
   return (

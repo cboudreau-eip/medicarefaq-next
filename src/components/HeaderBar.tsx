@@ -5,6 +5,7 @@ import { useState, useRef, useEffect, useMemo } from "react";
 import Link from "next/link";
 import ZipFormModal from "@/components/ZipFormModal";
 import { trackPhoneClick } from "@/lib/analytics";
+import { appendPostHogParams } from "@/lib/posthog-params";
 
 const LOGO_URL =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicarefaq-logo-updated_eca101e5.png";
@@ -121,7 +122,7 @@ export default function HeaderBar() {
       setSelectedIndex((prev) => (prev > 0 ? prev - 1 : results.length - 1));
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       e.preventDefault();
-      window.location.href = results[selectedIndex].url;
+      window.location.href = appendPostHogParams(results[selectedIndex].url);
     } else if (e.key === "Escape") {
       setShowDropdown(false);
       inputRef.current?.blur();

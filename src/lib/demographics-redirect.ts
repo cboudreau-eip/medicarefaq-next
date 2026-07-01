@@ -1,5 +1,7 @@
 "use client";
 
+import { appendPostHogParams } from "./posthog-params";
+
 /**
  * Medicare Compared - Demographics App Redirect
  *
@@ -213,7 +215,7 @@ function submitForm(
   const fullURL = targetURL + "?" + params.toString();
 
   // Primary: navigate directly via window.location
-  window.location.href = fullURL;
+  window.location.href = appendPostHogParams(fullURL);
 }
 
 // ─── Public API ──────────────────────────────────────────────────────────────
