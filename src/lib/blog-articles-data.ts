@@ -3462,7 +3462,7 @@ export const blogArticles: BlogArticleData[] = [
     category: "Costs & Savings",
     categoryColor: "#D97706",
     date: "June 29, 2026",
-    author: "Dori Rivera",
+    author: "David Haass",
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
