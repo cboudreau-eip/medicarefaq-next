@@ -52,9 +52,9 @@ export const coverageArticles: CoverageArticleData[] = [
       { planType: "Age 65+ (worked 10+ years)", coverage: "Eligible", icon: "check", notes: "Premium-free Part A; Part B available with standard premium of $185/month in 2026" },
       { planType: "Age 65+ (less than 10 years of work)", coverage: "Eligible", icon: "alert", notes: "Must pay Part A premium ($278–$505/month in 2026); Part B standard premium applies" },
       { planType: "Under 65 with SSDI (24 months)", coverage: "Eligible", icon: "check", notes: "Automatically enrolled in Medicare after 24 consecutive months of SSDI benefits" },
-      { planType: "Under 65 with ALS", coverage: "Eligible", icon: "check", notes: "Automatically enrolled in Medicare the first month of SSDI — no 24-month wait" },
+      { planType: "Under 65 with ALS", coverage: "Eligible", icon: "check", notes: "Automatically enrolled in Medicare the first month of SSDI - no 24-month wait" },
       { planType: "Under 65 with ESRD", coverage: "Eligible", icon: "check", notes: "Eligible regardless of age once dialysis begins or transplant is scheduled" },
-      { planType: "Under 62 (no qualifying condition)", coverage: "Not Eligible", icon: "x", notes: "Cannot enroll in Medicare at age 62 — there is no early Medicare option" },
+      { planType: "Under 62 (no qualifying condition)", coverage: "Not Eligible", icon: "x", notes: "Cannot enroll in Medicare at age 62 - there is no early Medicare option" },
     ],
     planBreakdowns: [
       {
@@ -67,12 +67,12 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "The standard Medicare eligibility age is 65. This has been the qualifying age for Medicare since the program was created in 1965. If you are a U.S. citizen or permanent legal resident who has lived in the United States for at least five consecutive years, you become eligible to start Medicare at age 65.",
           "For most Americans, the question of how old do you have to be to get Medicare has a simple answer: 65. At this age, you can enroll in [Medicare Part A (hospital insurance)](/faqs/what-does-medicare-part-a-cover) and [Medicare Part B (medical insurance)](/faqs/what-does-medicare-part-b-cover), which together form Original Medicare. If you or your spouse paid Medicare taxes for at least 10 years (40 quarters), your Part A premium is $0.",
-          "Your Initial Enrollment Period (IEP) begins three months before the month you turn 65 and extends three months after your birthday month — a total seven-month window. Enrolling during this period ensures your coverage starts on time with no gaps and no late enrollment penalties.",
+          "Your Initial Enrollment Period (IEP) begins three months before the month you turn 65 and extends three months after your birthday month - a total seven-month window. Enrolling during this period ensures your coverage starts on time with no gaps and no late enrollment penalties.",
           "If you're already receiving Social Security benefits when you turn 65, you'll be automatically enrolled in Medicare Part A and Part B. Your Medicare card will arrive in the mail approximately three months before your 65th birthday. If you're not yet collecting Social Security, you'll need to actively sign up through the Social Security Administration.",
         ],
         whatItCovers: [
-          "Medicare Part A (hospital insurance) — premium-free with 40+ quarters of work history",
-          "Medicare Part B (medical insurance) — $185/month standard premium in 2026",
+          "Medicare Part A (hospital insurance) - premium-free with 40+ quarters of work history",
+          "Medicare Part B (medical insurance) - $185/month standard premium in 2026",
           "Option to enroll in Medicare Part D (prescription drug coverage)",
           "Option to choose Medicare Advantage (Part C) instead of Original Medicare",
           "Option to purchase a Medicare Supplement (Medigap) policy during open enrollment",
@@ -95,7 +95,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "While 65 is the standard Medicare qualifying age, there are three pathways to Medicare eligibility before age 65. These exceptions exist for individuals with serious medical conditions or long-term disabilities who need access to healthcare coverage regardless of their age.",
           "Social Security Disability Insurance (SSDI): If you've been approved for SSDI benefits and have received them for 24 consecutive months, you are automatically enrolled in Medicare. The 24-month waiting period begins from the date you first became entitled to disability benefits (which is typically five months after your disability onset date). This means the total wait from disability onset to Medicare coverage is approximately 29 months.",
           "Amyotrophic Lateral Sclerosis (ALS / Lou Gehrig's Disease): If you are diagnosed with ALS and approved for SSDI, the 24-month waiting period is waived entirely. You become eligible for Medicare the same month your SSDI benefits begin. This exception was enacted in 2000 because ALS progresses rapidly and patients need immediate access to care.",
-          "End-Stage Renal Disease (ESRD): If you have permanent kidney failure requiring regular dialysis or a kidney transplant, you can qualify for Medicare at any age — even if you don't meet the standard age requirement for Medicare. Coverage typically begins the fourth month after dialysis starts, though it can begin sooner if you participate in a home dialysis training program or receive a transplant.",
+          "End-Stage Renal Disease (ESRD): If you have permanent kidney failure requiring regular dialysis or a kidney transplant, you can qualify for Medicare at any age - even if you don't meet the standard age requirement for Medicare. Coverage typically begins the fourth month after dialysis starts, though it can begin sooner if you participate in a home dialysis training program or receive a transplant.",
         ],
         whatItCovers: [
           "Full Medicare Part A and Part B benefits (same as age 65+ enrollees)",
@@ -122,10 +122,10 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Work credits determine Part A premium",
         paragraphs: [
-          "Meeting the Medicare age requirement alone doesn't determine your costs — your work history also matters. Medicare Part A premiums are directly tied to how many quarters (three-month periods) you or your spouse paid Medicare payroll taxes during your working years.",
+          "Meeting the Medicare age requirement alone doesn't determine your costs - your work history also matters. Medicare Part A premiums are directly tied to how many quarters (three-month periods) you or your spouse paid Medicare payroll taxes during your working years.",
           "If you have 40 or more quarters of Medicare-taxed employment (approximately 10 years), you pay $0 for Part A. If you have between 30 and 39 quarters, you pay a reduced Part A premium of $278 per month in 2026. If you have fewer than 30 quarters, you pay the full Part A premium of $505 per month in 2026.",
-          "Part B premiums are the same regardless of work history — the standard 2026 premium is $185 per month. However, higher-income beneficiaries pay an Income-Related Monthly Adjustment Amount ([IRMAA](/faqs/irmaa)) surcharge on top of the standard premium based on their modified adjusted gross income from two years prior.",
-          "Your spouse's work history counts too. If your spouse has 40+ quarters of work credits, you can qualify for premium-free Part A based on their record — even if you never worked or didn't accumulate enough credits on your own. This applies to current spouses and, in some cases, ex-spouses (if the marriage lasted at least 10 years).",
+          "Part B premiums are the same regardless of work history - the standard 2026 premium is $185 per month. However, higher-income beneficiaries pay an Income-Related Monthly Adjustment Amount ([IRMAA](/faqs/irmaa)) surcharge on top of the standard premium based on their modified adjusted gross income from two years prior.",
+          "Your spouse's work history counts too. If your spouse has 40+ quarters of work credits, you can qualify for premium-free Part A based on their record - even if you never worked or didn't accumulate enough credits on your own. This applies to current spouses and, in some cases, ex-spouses (if the marriage lasted at least 10 years).",
         ],
         whatItCovers: [
           "40+ quarters: $0 Part A premium (premium-free)",
@@ -148,9 +148,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Missing deadlines costs money",
         paragraphs: [
-          "Knowing the age to start Medicare is only half the equation — you also need to enroll during the correct window to avoid permanent late enrollment penalties. Medicare has strict enrollment periods, and missing them can result in higher premiums for the rest of your life.",
+          "Knowing the age to start Medicare is only half the equation - you also need to enroll during the correct window to avoid permanent late enrollment penalties. Medicare has strict enrollment periods, and missing them can result in higher premiums for the rest of your life.",
           "Initial Enrollment Period (IEP): This is your primary enrollment window. It spans seven months: the three months before your 65th birthday month, your birthday month itself, and the three months after. If you miss this window and don't have qualifying employer coverage, you'll face penalties.",
-          "Part B Late Enrollment Penalty: If you don't sign up for Part B when you're first eligible and don't have creditable employer coverage, your Part B premium increases by 10% for each full 12-month period you could have had Part B but didn't. This penalty is permanent — you'll pay it for as long as you have Part B.",
+          "Part B Late Enrollment Penalty: If you don't sign up for Part B when you're first eligible and don't have creditable employer coverage, your Part B premium increases by 10% for each full 12-month period you could have had Part B but didn't. This penalty is permanent - you'll pay it for as long as you have Part B.",
           "Part D Late Enrollment Penalty: If you go 63 or more consecutive days without creditable prescription drug coverage after your Initial Enrollment Period ends, you'll pay a penalty of 1% of the national base beneficiary premium ($36.78 in 2026) multiplied by the number of months you went without coverage. This penalty is also permanent.",
           "The one major exception: if you have creditable employer coverage (health insurance through your own or your spouse's current employer with 20+ employees), you can delay Medicare enrollment without penalty. When that coverage ends, you'll receive a Special Enrollment Period (SEP) to sign up.",
         ],
@@ -176,16 +176,16 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Medicare Age Eligibility at a Glance",
       paragraphs: [
         "The most common question we receive is: what age do you get Medicare? For the vast majority of Americans, the answer is 65. This has been the standard Medicare eligibility age since the program's inception in 1965, and despite occasional political discussions about lowering it, the age limit for Medicare has never changed.",
-        "Age 65+ — Eligible for Medicare Part A and Part B (must be a U.S. citizen or permanent resident for 5+ years). Under 65 with SSDI — Eligible after 24 months of receiving disability benefits. Under 65 with ALS — Eligible immediately upon SSDI approval (no waiting period). Under 65 with ESRD — Eligible at any age once dialysis begins or transplant is scheduled. Age 62 — NOT eligible for Medicare (despite being eligible for early Social Security).",
+        "Age 65+ - Eligible for Medicare Part A and Part B (must be a U.S. citizen or permanent resident for 5+ years). Under 65 with SSDI - Eligible after 24 months of receiving disability benefits. Under 65 with ALS - Eligible immediately upon SSDI approval (no waiting period). Under 65 with ESRD - Eligible at any age once dialysis begins or transplant is scheduled. Age 62 - NOT eligible for Medicare (despite being eligible for early Social Security).",
         "The qualifying age for Medicare is not the same as the age for Social Security retirement benefits. While you can claim reduced Social Security as early as 62, there is no equivalent 'early Medicare' option. The minimum age for Medicare is firmly set at 65 unless you meet one of the disability or medical condition exceptions above.",
       ],
     },
     decisionSection: {
       title: "What Happens When You Turn 65",
       paragraphs: [
-        "When you reach the age for Medicare eligibility, several things happen — some automatic, some requiring action on your part.",
+        "When you reach the age for Medicare eligibility, several things happen - some automatic, some requiring action on your part.",
         "If you're already receiving Social Security benefits: You'll be automatically enrolled in Medicare Part A and Part B. Your Medicare card will arrive approximately three months before your 65th birthday. If you don't want Part B (because you have employer coverage, for example), you must actively opt out or you'll be charged the premium.",
-        "If you're NOT receiving Social Security: You must actively enroll in Medicare through the Social Security Administration — either online at ssa.gov, by phone, or at your local Social Security office. Nobody will automatically sign you up, and missing your enrollment window triggers permanent penalties.",
+        "If you're NOT receiving Social Security: You must actively enroll in Medicare through the Social Security Administration - either online at ssa.gov, by phone, or at your local Social Security office. Nobody will automatically sign you up, and missing your enrollment window triggers permanent penalties.",
         "If you're still working with employer coverage: You may be able to delay Part B enrollment without penalty, but you should still sign up for Part A (since it's free). When you eventually retire or lose employer coverage, you'll have an 8-month Special Enrollment Period to sign up for Part B penalty-free.",
         "The age to start Medicare is 65, but the best time to start planning is at least 6 months before your birthday. This gives you time to compare your options: Original Medicare with a Medigap supplement versus Medicare Advantage, and which Part D drug plan best covers your prescriptions.",
       ],
@@ -201,17 +201,17 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           title: "ALS (Lou Gehrig's Disease)",
           text: "The ALS exception eliminates the 24-month wait entirely. Medicare coverage begins the first month you receive SSDI benefits. This is the only condition with immediate Medicare enrollment upon disability approval.",
-          highlight: "No waiting period — immediate enrollment",
+          highlight: "No waiting period - immediate enrollment",
         },
         {
           title: "End-Stage Renal Disease (ESRD)",
           text: "Permanent kidney failure requiring dialysis or transplant qualifies you for Medicare regardless of age or disability status. Coverage typically starts the fourth month of dialysis. After a successful kidney transplant, Medicare ESRD coverage continues for 36 months post-transplant.",
-          highlight: "Any age — no disability requirement",
+          highlight: "Any age - no disability requirement",
         },
         {
           title: "Medicare at Age 62?",
           text: "There is no pathway to Medicare at 62 without a qualifying disability or medical condition. Despite being the age you can claim early Social Security retirement benefits, early Medicare does not exist. If you retire at 62, you'll need alternative health coverage until age 65.",
-          highlight: "NOT eligible — no early Medicare option",
+          highlight: "NOT eligible - no early Medicare option",
         },
       ],
     },
@@ -247,10 +247,10 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Can I get Medicare at 62 when I start Social Security?",
-        answer: "No. While you can claim early Social Security retirement benefits at age 62, Medicare eligibility does not begin until age 65. The only way to get Medicare before 65 is through qualifying disability (SSDI for 24 months), ALS diagnosis, or End-Stage Renal Disease. If you retire at 62, you'll need other health coverage — such as COBRA, a spouse's employer plan, or an ACA marketplace plan — until you turn 65.",
+        answer: "No. While you can claim early Social Security retirement benefits at age 62, Medicare eligibility does not begin until age 65. The only way to get Medicare before 65 is through qualifying disability (SSDI for 24 months), ALS diagnosis, or End-Stage Renal Disease. If you retire at 62, you'll need other health coverage - such as COBRA, a spouse's employer plan, or an ACA marketplace plan - until you turn 65.",
       },
       {
-        question: "What if I'm still working at 65 — do I have to enroll in Medicare?",
+        question: "What if I'm still working at 65 - do I have to enroll in Medicare?",
         answer: "If you have creditable employer coverage through your own job or your spouse's job (at a company with 20+ employees), you can delay Medicare Part B without penalty. You should still enroll in premium-free Part A. When you retire or lose employer coverage, you'll have an 8-month Special Enrollment Period to sign up for Part B. If your employer has fewer than 20 employees, Medicare becomes your primary insurance at 65 and you should enroll on time.",
       },
       {
@@ -259,23 +259,23 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does my spouse's age affect my Medicare eligibility?",
-        answer: "No — your Medicare eligibility is based on your own age, not your spouse's. However, your spouse's work history can affect your Part A premium. If your spouse has 40+ quarters of Medicare-taxed work, you can qualify for premium-free Part A based on their record (even if you don't have enough credits yourself). You must still be 65 or older (or qualify through disability) to enroll.",
+        answer: "No - your Medicare eligibility is based on your own age, not your spouse's. However, your spouse's work history can affect your Part A premium. If your spouse has 40+ quarters of Medicare-taxed work, you can qualify for premium-free Part A based on their record (even if you don't have enough credits yourself). You must still be 65 or older (or qualify through disability) to enroll.",
       },
       {
         question: "Is there a maximum age limit for Medicare?",
-        answer: "No. There is no upper age limit for Medicare. Once you're enrolled, you remain eligible for life. There is also no maximum age to initially enroll — if someone turns 65 and doesn't sign up until age 70, they can still enroll (though they'll face late enrollment penalties for the gap years without creditable coverage).",
+        answer: "No. There is no upper age limit for Medicare. Once you're enrolled, you remain eligible for life. There is also no maximum age to initially enroll - if someone turns 65 and doesn't sign up until age 70, they can still enroll (though they'll face late enrollment penalties for the gap years without creditable coverage).",
       },
       {
-        question: "I'm a legal permanent resident — can I get Medicare at 65?",
+        question: "I'm a legal permanent resident - can I get Medicare at 65?",
         answer: "Yes, but you must have lived continuously in the United States for at least five years. If you meet the residency requirement and have 40+ quarters of Medicare-taxed work (or your spouse does), you qualify for premium-free Part A at 65. If you don't have enough work credits, you can still enroll in Part A by paying the full premium ($505/month in 2026) and Part B ($185/month).",
       },
       {
         question: "Will the Medicare age requirement ever change?",
-        answer: "As of 2026, there are no enacted laws changing the Medicare eligibility age. Various proposals have been introduced over the years — some suggesting lowering the age to 60 or 55, others suggesting raising it to 67 to match Social Security's full retirement age. None have passed. The Medicare qualifying age has remained 65 since the program began in 1965.",
+        answer: "As of 2026, there are no enacted laws changing the Medicare eligibility age. Various proposals have been introduced over the years - some suggesting lowering the age to 60 or 55, others suggesting raising it to 67 to match Social Security's full retirement age. None have passed. The Medicare qualifying age has remained 65 since the program began in 1965.",
       },
     ],
     quickReference: [
-      { icon: "check", text: "<strong>Standard Medicare age:</strong> 65 years old — this is the qualifying age for most Americans" },
+      { icon: "check", text: "<strong>Standard Medicare age:</strong> 65 years old - this is the qualifying age for most Americans" },
       { icon: "check", text: "<strong>Under 65 eligibility:</strong> Available through SSDI (24-month wait), ALS (no wait), or ESRD (any age)" },
       { icon: "x", text: "<strong>No Medicare at 62:</strong> Early Social Security does NOT grant early Medicare access" },
       { icon: "alert", text: "<strong>Enrollment penalties:</strong> Missing your window at 65 triggers permanent premium increases" },
@@ -298,7 +298,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     ctaBanner: {
       title: "Turning 65 Soon? Let Us Help You Navigate Medicare",
-      text: "Understanding Medicare eligibility is just the first step. Our licensed agents can walk you through your options — Original Medicare, Medicare Advantage, Medigap, and Part D — at no cost to you. Get personalized guidance before your enrollment window opens.",
+      text: "Understanding Medicare eligibility is just the first step. Our licensed agents can walk you through your options - Original Medicare, Medicare Advantage, Medigap, and Part D - at no cost to you. Get personalized guidance before your enrollment window opens.",
     },
     relatedSlugs: [
       "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
