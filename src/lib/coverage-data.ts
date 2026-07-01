@@ -172,24 +172,74 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
     ],
-    sections: [
-      {
-        title: "Medicare Age Eligibility at a Glance",
-        content: "<p>The most common question we receive is: <strong>what age do you get Medicare?</strong> For the vast majority of Americans, the answer is 65. This has been the standard Medicare eligibility age since the program's inception in 1965, and despite occasional political discussions about lowering it, the age limit for Medicare has never changed.</p><p>Here's a quick breakdown of who qualifies and when:</p><ul><li><strong>Age 65+</strong> — Eligible for Medicare Part A and Part B (must be a U.S. citizen or permanent resident for 5+ years)</li><li><strong>Under 65 with SSDI</strong> — Eligible after 24 months of receiving disability benefits</li><li><strong>Under 65 with ALS</strong> — Eligible immediately upon SSDI approval (no waiting period)</li><li><strong>Under 65 with ESRD</strong> — Eligible at any age once dialysis begins or transplant is scheduled</li><li><strong>Age 62</strong> — NOT eligible for Medicare (despite being eligible for early Social Security)</li></ul><p>The <strong>qualifying age for Medicare</strong> is not the same as the age for Social Security retirement benefits. While you can claim reduced Social Security as early as 62, there is no equivalent \"early Medicare\" option. The <strong>minimum age for Medicare</strong> is firmly set at 65 unless you meet one of the disability or medical condition exceptions above.</p>",
-      },
-      {
-        title: "What Happens When You Turn 65",
-        content: "<p>When you reach the <strong>age for Medicare eligibility</strong>, several things happen — some automatic, some requiring action on your part:</p><p><strong>If you're already receiving Social Security benefits:</strong> You'll be automatically enrolled in Medicare Part A and Part B. Your Medicare card will arrive approximately three months before your 65th birthday. If you don't want Part B (because you have employer coverage, for example), you must actively opt out or you'll be charged the premium.</p><p><strong>If you're NOT receiving Social Security:</strong> You must actively enroll in Medicare through the Social Security Administration — either online at ssa.gov, by phone, or at your local Social Security office. Nobody will automatically sign you up, and missing your enrollment window triggers permanent penalties.</p><p><strong>If you're still working with employer coverage:</strong> You may be able to delay Part B enrollment without penalty, but you should still sign up for Part A (since it's free). Your employer's HR department can provide a creditable coverage letter confirming your insurance meets Medicare standards. When you eventually retire or lose employer coverage, you'll have an 8-month Special Enrollment Period to sign up for Part B penalty-free.</p><p>The <strong>age to start Medicare</strong> is 65, but the <em>best time</em> to start planning is at least 6 months before your birthday. This gives you time to compare your options: [Original Medicare with a Medigap supplement](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) versus [Medicare Advantage](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included), and which Part D drug plan best covers your prescriptions.</p>",
-      },
-      {
-        title: "Can You Get Medicare Before Age 65?",
-        content: "<p>Yes — but only under specific circumstances. The <strong>age for Medicare benefits</strong> can be younger than 65 if you qualify through one of three pathways:</p><p><strong>1. Social Security Disability (SSDI) — 24-month qualifying period:</strong> If the Social Security Administration approves your disability claim, you must wait 24 consecutive months from the date of entitlement before Medicare begins. During this waiting period, you may qualify for Medicaid, COBRA continuation coverage, or ACA marketplace plans. Approximately 15% of all Medicare beneficiaries (about 10 million people) are under age 65 and enrolled through disability.</p><p><strong>2. ALS (Lou Gehrig's Disease) — no waiting period:</strong> The ALS exception eliminates the 24-month wait entirely. Medicare coverage begins the first month you receive SSDI benefits. This is the only condition with an immediate Medicare enrollment upon disability approval.</p><p><strong>3. End-Stage Renal Disease (ESRD) — any age:</strong> Permanent kidney failure requiring dialysis or transplant qualifies you for Medicare regardless of age or disability status. You don't even need to be receiving Social Security benefits. Coverage typically starts the fourth month of dialysis (or the first month if you complete home dialysis training). After a successful kidney transplant, Medicare ESRD coverage continues for 36 months post-transplant.</p><p>For those wondering about <strong>Medicare eligibility at 62</strong>: it does not exist. Despite being the age you can claim early Social Security retirement benefits, there is no pathway to Medicare at 62 without a qualifying disability or medical condition. If you retire at 62, you'll need alternative health coverage until you reach the standard <strong>Medicare eligible age</strong> of 65.</p>",
-      },
-      {
-        title: "Medicare Age vs. Social Security Age: Key Differences",
-        content: "<p>One of the most common points of confusion is the relationship between the <strong>age of Medicare eligibility</strong> and Social Security retirement age. They are separate programs with different age thresholds:</p><table><thead><tr><th>Program</th><th>Earliest Age</th><th>Full Benefit Age</th><th>Notes</th></tr></thead><tbody><tr><td>Social Security</td><td>62</td><td>66-67 (varies by birth year)</td><td>Reduced benefits if claimed early</td></tr><tr><td>Medicare</td><td>65 (or younger with disability)</td><td>65</td><td>Full benefits at 65 — no reduction for \"early\" enrollment</td></tr></tbody></table><p>Key distinctions to understand:</p><ul><li><strong>Claiming Social Security at 62 does NOT trigger Medicare.</strong> You must wait until 65 (or qualify through disability).</li><li><strong>Delaying Social Security past 65 does NOT delay Medicare.</strong> You should still enroll in Medicare at 65 regardless of when you plan to claim Social Security.</li><li><strong>If you delay Social Security but are 65+, you must actively enroll in Medicare.</strong> You won't be automatically enrolled because automatic enrollment only happens if you're already receiving Social Security checks.</li><li><strong>Your Social Security income at 65+ can trigger [IRMAA](/faqs/irmaa) surcharges</strong> on your Medicare premiums if your modified adjusted gross income exceeds $106,000 (single) or $212,000 (married filing jointly).</li></ul><p>The bottom line: the <strong>age to get Medicare</strong> is always 65, regardless of what you do with Social Security. Plan for both programs independently.</p>",
-      },
-    ],
+    alternativesSection: {
+      title: "Medicare Age Eligibility at a Glance",
+      paragraphs: [
+        "The most common question we receive is: <strong>what age do you get Medicare?</strong> For the vast majority of Americans, the answer is 65. This has been the standard Medicare eligibility age since the program's inception in 1965, and despite occasional political discussions about lowering it, the age limit for Medicare has never changed.",
+        "<strong>Age 65+</strong> — Eligible for Medicare Part A and Part B (must be a U.S. citizen or permanent resident for 5+ years). <strong>Under 65 with SSDI</strong> — Eligible after 24 months of receiving disability benefits. <strong>Under 65 with ALS</strong> — Eligible immediately upon SSDI approval (no waiting period). <strong>Under 65 with ESRD</strong> — Eligible at any age once dialysis begins or transplant is scheduled. <strong>Age 62</strong> — NOT eligible for Medicare (despite being eligible for early Social Security).",
+        "The <strong>qualifying age for Medicare</strong> is not the same as the age for Social Security retirement benefits. While you can claim reduced Social Security as early as 62, there is no equivalent 'early Medicare' option. The <strong>minimum age for Medicare</strong> is firmly set at 65 unless you meet one of the disability or medical condition exceptions above.",
+      ],
+    },
+    decisionSection: {
+      title: "What Happens When You Turn 65",
+      paragraphs: [
+        "When you reach the <strong>age for Medicare eligibility</strong>, several things happen — some automatic, some requiring action on your part.",
+        "<strong>If you're already receiving Social Security benefits:</strong> You'll be automatically enrolled in Medicare Part A and Part B. Your Medicare card will arrive approximately three months before your 65th birthday. If you don't want Part B (because you have employer coverage, for example), you must actively opt out or you'll be charged the premium.",
+        "<strong>If you're NOT receiving Social Security:</strong> You must actively enroll in Medicare through the Social Security Administration — either online at ssa.gov, by phone, or at your local Social Security office. Nobody will automatically sign you up, and missing your enrollment window triggers permanent penalties.",
+        "<strong>If you're still working with employer coverage:</strong> You may be able to delay Part B enrollment without penalty, but you should still sign up for Part A (since it's free). When you eventually retire or lose employer coverage, you'll have an 8-month Special Enrollment Period to sign up for Part B penalty-free.",
+        "The <strong>age to start Medicare</strong> is 65, but the best time to start planning is at least 6 months before your birthday. This gives you time to compare your options: Original Medicare with a Medigap supplement versus Medicare Advantage, and which Part D drug plan best covers your prescriptions.",
+      ],
+    },
+    exceptionsSection: {
+      title: "Can You Get Medicare Before Age 65?",
+      items: [
+        {
+          title: "Social Security Disability (SSDI)",
+          text: "If the Social Security Administration approves your disability claim, you must wait 24 consecutive months from the date of entitlement before Medicare begins. Approximately 15% of all Medicare beneficiaries (about 10 million people) are under age 65 and enrolled through disability.",
+          highlight: "24-month waiting period required",
+        },
+        {
+          title: "ALS (Lou Gehrig's Disease)",
+          text: "The ALS exception eliminates the 24-month wait entirely. Medicare coverage begins the first month you receive SSDI benefits. This is the only condition with immediate Medicare enrollment upon disability approval.",
+          highlight: "No waiting period — immediate enrollment",
+        },
+        {
+          title: "End-Stage Renal Disease (ESRD)",
+          text: "Permanent kidney failure requiring dialysis or transplant qualifies you for Medicare regardless of age or disability status. Coverage typically starts the fourth month of dialysis. After a successful kidney transplant, Medicare ESRD coverage continues for 36 months post-transplant.",
+          highlight: "Any age — no disability requirement",
+        },
+        {
+          title: "Medicare at Age 62?",
+          text: "There is no pathway to Medicare at 62 without a qualifying disability or medical condition. Despite being the age you can claim early Social Security retirement benefits, early Medicare does not exist. If you retire at 62, you'll need alternative health coverage until age 65.",
+          highlight: "NOT eligible — no early Medicare option",
+        },
+      ],
+    },
+    legislativeUpdate: {
+      title: "Medicare Age vs. Social Security Age: Key Differences",
+      items: [
+        {
+          title: "Claiming Social Security at 62 does NOT trigger Medicare",
+          status: "Passed",
+          description: "You must wait until 65 (or qualify through disability) to enroll in Medicare regardless of when you start Social Security.",
+        },
+        {
+          title: "Delaying Social Security past 65 does NOT delay Medicare",
+          status: "Passed",
+          description: "You should still enroll in Medicare at 65 regardless of when you plan to claim Social Security retirement benefits.",
+        },
+        {
+          title: "If you delay Social Security but are 65+, you must actively enroll",
+          status: "Passed",
+          description: "Automatic enrollment only happens if you're already receiving Social Security checks when you turn 65.",
+        },
+        {
+          title: "Social Security income can trigger IRMAA surcharges",
+          status: "Passed",
+          description: "Your modified adjusted gross income exceeding $106,000 (single) or $212,000 (married filing jointly) triggers higher Medicare premiums.",
+        },
+      ],
+    },
     faqs: [
       {
         question: "What is the Medicare eligibility age in 2026?",
@@ -224,7 +274,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "As of 2026, there are no enacted laws changing the Medicare eligibility age. Various proposals have been introduced over the years — some suggesting lowering the age to 60 or 55, others suggesting raising it to 67 to match Social Security's full retirement age. None have passed. The Medicare qualifying age has remained 65 since the program began in 1965.",
       },
     ],
-    bottomLine: [
+    quickReference: [
       { icon: "check", text: "<strong>Standard Medicare age:</strong> 65 years old — this is the qualifying age for most Americans" },
       { icon: "check", text: "<strong>Under 65 eligibility:</strong> Available through SSDI (24-month wait), ALS (no wait), or ESRD (any age)" },
       { icon: "x", text: "<strong>No Medicare at 62:</strong> Early Social Security does NOT grant early Medicare access" },
