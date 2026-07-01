@@ -1343,7 +1343,7 @@ function SmartCreatePageInner() {
                   <button
                     onClick={handleTransform}
                     disabled={transforming || !rawContent.trim()}
-                    className="flex items-center gap-2 text-sm font-semibold bg-purple-600 text-white rounded-lg px-5 py-2.5 hover:bg-purple-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="flex items-center gap-2 text-sm font-semibold bg-orange-600 text-white rounded-lg px-5 py-2.5 hover:bg-orange-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {transforming ? (
                       <>

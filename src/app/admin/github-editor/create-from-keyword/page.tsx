@@ -626,7 +626,7 @@ function CreateFromKeywordInner() {
               <button
                 onClick={handleGenerateOutline}
                 disabled={generatingOutline || !topic.trim()}
-                className="w-full flex items-center justify-center gap-2 text-sm font-semibold bg-purple-600 text-white rounded-xl px-6 py-3.5 hover:bg-purple-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full flex items-center justify-center gap-2 text-sm font-semibold bg-orange-600 text-white rounded-xl px-6 py-3.5 hover:bg-orange-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {generatingOutline ? (
                   <>
@@ -693,7 +693,7 @@ function CreateFromKeywordInner() {
                     <button
                       onClick={handleGenerateArticle}
                       disabled={generatingArticle}
-                      className="flex items-center gap-1.5 text-sm font-semibold bg-teal-600 text-white rounded-lg px-4 py-2 hover:bg-teal-700 transition-colors disabled:opacity-50"
+                      className="flex items-center gap-1.5 text-sm font-semibold bg-orange-600 text-white rounded-lg px-4 py-2 hover:bg-orange-700 transition-colors disabled:opacity-50"
                     >
                       {generatingArticle ? (
                         <>
@@ -864,7 +864,7 @@ function CreateFromKeywordInner() {
                 <button
                   onClick={handleGenerateArticle}
                   disabled={generatingArticle}
-                  className="flex items-center gap-2 text-sm font-semibold bg-teal-600 text-white rounded-lg px-5 py-2.5 hover:bg-teal-700 transition-colors disabled:opacity-50"
+                  className="flex items-center gap-2 text-sm font-semibold bg-orange-600 text-white rounded-lg px-5 py-2.5 hover:bg-orange-700 transition-colors disabled:opacity-50"
                 >
                   {generatingArticle ? (
                     <>

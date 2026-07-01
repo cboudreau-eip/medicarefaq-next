@@ -107,7 +107,7 @@ export default function CMSHeader({
             <>
               <Link
                 href="/admin/github-editor/create-from-keyword"
-                className="flex items-center gap-1.5 text-xs font-semibold bg-purple-600 text-white rounded-lg px-3 py-1.5 hover:bg-purple-700 transition-colors"
+                className="flex items-center gap-1.5 text-xs font-semibold bg-orange-600 text-white rounded-lg px-3 py-1.5 hover:bg-orange-700 transition-colors"
                 title="Create from Keyword"
               >
                 <Wand2 className="w-3.5 h-3.5" />
@@ -115,7 +115,7 @@ export default function CMSHeader({
               </Link>
               <Link
                 href="/admin/github-editor/create-smart"
-                className="flex items-center gap-1.5 text-xs font-semibold bg-purple-600 text-white rounded-lg px-3 py-1.5 hover:bg-purple-700 transition-colors"
+                className="flex items-center gap-1.5 text-xs font-semibold bg-orange-600 text-white rounded-lg px-3 py-1.5 hover:bg-orange-700 transition-colors"
                 title="Smart Create with AI"
               >
                 <Sparkles className="w-3.5 h-3.5" />
