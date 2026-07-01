@@ -423,7 +423,7 @@ export default function PipelinePage() {
               <button
                 onClick={handlePollS3}
                 disabled={isPolling}
-                className="flex items-center gap-2 px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 disabled:opacity-50 transition-colors"
+                className="flex items-center gap-2 px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 disabled:opacity-50 transition-colors"
               >
                 {isPolling ? (
                   <Loader2 size={16} className="animate-spin" />
@@ -436,7 +436,7 @@ export default function PipelinePage() {
                 <button
                   onClick={handleGenerateAllBriefs}
                   disabled={!!isGeneratingBrief}
-                  className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 disabled:opacity-50 transition-colors"
+                  className="flex items-center gap-2 px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 disabled:opacity-50 transition-colors"
                 >
                   {isGeneratingBrief ? (
                     <Loader2 size={16} className="animate-spin" />
@@ -627,7 +627,7 @@ export default function PipelinePage() {
                           <div className="flex gap-2">
                             <button
                               onClick={() => handleSaveEdit(item.id)}
-                              className="px-3 py-1.5 text-sm bg-teal-600 text-white rounded-lg hover:bg-teal-700"
+                              className="px-3 py-1.5 text-sm bg-orange-600 text-white rounded-lg hover:bg-orange-700"
                             >
                               Save
                             </button>
@@ -747,7 +747,7 @@ export default function PipelinePage() {
             <div className="flex items-center gap-2">
               <Link
                 href="/admin/github-editor/pipeline/calendar"
-                className="flex items-center gap-1.5 px-3 py-1.5 text-sm bg-teal-600 text-white rounded-lg hover:bg-teal-700"
+                className="flex items-center gap-1.5 px-3 py-1.5 text-sm bg-orange-600 text-white rounded-lg hover:bg-orange-700"
                 title="Plan queued articles on the editorial calendar"
               >
                 <CalendarDays size={14} />
@@ -804,7 +804,7 @@ export default function PipelinePage() {
                         <button
                           onClick={() => handleProduce(item)}
                           disabled={!!isProducing}
-                          className="flex items-center gap-2 px-4 py-2 text-sm bg-teal-600 text-white rounded-lg hover:bg-teal-700 disabled:opacity-50"
+                          className="flex items-center gap-2 px-4 py-2 text-sm bg-orange-600 text-white rounded-lg hover:bg-orange-700 disabled:opacity-50"
                         >
                           <Play size={14} />
                           Produce Article

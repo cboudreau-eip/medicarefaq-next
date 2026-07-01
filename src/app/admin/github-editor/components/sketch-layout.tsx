@@ -19,6 +19,7 @@ import {
   LayoutGrid,
   ShieldCheck,
   CalendarDays,
+  MessageSquare,
 } from "lucide-react";
 import "../sketch-theme.css";
 
@@ -40,9 +41,10 @@ interface NavItemProps {
   count?: number;
   active: boolean;
   rotation: number;
+  labelClassName?: string;
 }
 
-function NavItem({ href, icon: Icon, label, count, active, rotation }: NavItemProps) {
+function NavItem({ href, icon: Icon, label, count, active, rotation, labelClassName }: NavItemProps) {
   return (
     <Link
       href={href}
@@ -59,7 +61,7 @@ function NavItem({ href, icon: Icon, label, count, active, rotation }: NavItemPr
       >
         <div className="flex items-center gap-3">
           <Icon className="w-5 h-5 text-[#2b2b2b]" style={{ strokeWidth: 2.4 }} />
-          <span className="text-base text-[#2b2b2b]">{label}</span>
+          <span className={`text-base text-[#2b2b2b] ${labelClassName ?? ""}`}>{label}</span>
         </div>
         {count !== undefined && (
           <span
@@ -219,6 +221,7 @@ export default function SketchLayout({
               label="Pipeline"
               active={isActive("/admin/github-editor/pipeline") && !pathname.includes("/pipeline/calendar")}
               rotation={NAV_ROTATIONS[10]}
+              labelClassName="font-bold text-green-600"
             />
             <NavItem
               href="/admin/github-editor/pipeline/calendar"
@@ -226,6 +229,13 @@ export default function SketchLayout({
               label="Calendar"
               active={isActive("/admin/github-editor/pipeline/calendar")}
               rotation={NAV_ROTATIONS[3]}
+            />
+            <NavItem
+              href="/admin/chat-logs"
+              icon={MessageSquare}
+              label="Chat Logs"
+              active={isActive("/admin/chat-logs")}
+              rotation={NAV_ROTATIONS[5]}
             />
           </div>
         </div>

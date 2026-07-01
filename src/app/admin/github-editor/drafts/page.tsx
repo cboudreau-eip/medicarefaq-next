@@ -186,7 +186,7 @@ export default function DraftsPage() {
             </p>
             <Link
               href="/admin/github-editor/create-smart"
-              className="inline-flex items-center gap-2 text-sm font-semibold bg-purple-600 text-white rounded-lg px-4 py-2 hover:bg-purple-700 transition-colors"
+              className="inline-flex items-center gap-2 text-sm font-semibold bg-orange-600 text-white rounded-lg px-4 py-2 hover:bg-orange-700 transition-colors"
             >
               Create with Smart Create
             </Link>
