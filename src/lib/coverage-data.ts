@@ -8,6 +8,216 @@ import type { CoverageArticleData } from "./article-types";
 
 export const coverageArticles: CoverageArticleData[] = [
   {
+    slug: "does-medicare-cover-zepbound",
+    seo: {
+      title: "Does Medicare Cover Zepbound? (2026 Update)",
+      description: "Yes, Medicare now covers Zepbound through the GLP-1 Bridge Program starting July 1, 2026. Learn about eligibility, costs, and how to get Zepbound for $50 per month.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-zepbound/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-zepbound.jpg",
+    },
+    title: "Does Medicare Cover Zepbound?",
+    subtitle: "Starting July 1, 2026, Medicare covers Zepbound (tirzepatide) through the GLP-1 Bridge Program for eligible beneficiaries at $50 per month. Learn who qualifies, what formulations are covered, and how to get started.",
+    category: "Medicare Coverage",
+    dateUpdated: "July 6, 2026",
+    lastReviewed: "2026-07-06",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Yes. Starting July 1, 2026, Medicare covers Zepbound (tirzepatide) through the Medicare GLP-1 Bridge Program. Only the Zepbound KwikPen (multi-dose pen) is covered. Single-dose vials and pens are not included. Eligible Medicare Part D beneficiaries pay a flat $50 copay for a 28-day supply. The program runs through December 31, 2027, and does not require your Part D plan to opt in.",
+      badges: [
+        { plan: "GLP-1 Bridge Program", status: "covered" },
+        { plan: "Medicare Part D (Standard)", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "covered" }],
+    },
+    comparisonTable: [
+      { planType: "Medicare GLP-1 Bridge Program", coverage: "Covered", icon: "shield", notes: "Zepbound KwikPen only. $50/month copay. Available July 1, 2026 through December 31, 2027." },
+      { planType: "Medicare Part D (Standard Benefit)", coverage: "Not Covered", icon: "shield", notes: "Federal law prohibits Part D from covering drugs prescribed solely for weight loss." },
+      { planType: "Medicare Advantage (MA-PD)", coverage: "Covered via Bridge", icon: "heart", notes: "MA-PD enrollees are eligible for the GLP-1 Bridge Program. No plan opt-in required." },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Applicable", icon: "users", notes: "Medigap does not cover prescription drugs. You need Part D enrollment to access the Bridge Program." }],
+    planBreakdowns: [
+      {
+        planName: "Medicare GLP-1 Bridge Program",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered at $50/month for eligible beneficiaries",
+        paragraphs: [
+          "The [Medicare GLP-1 Bridge Program](/blog/medicare-glp-1-bridge-program/) is a short-term demonstration launched by CMS on July 1, 2026. It provides eligible Medicare Part D beneficiaries with access to certain GLP-1 medications, including Zepbound, at a fixed $50 monthly copay for a 28-day supply.",
+          "The Bridge Program operates outside the standard Part D benefit structure. This means CMS manages prior authorization, claims processing, and pharmacy payments through a single central processor. Your Part D plan does not need to opt in for you to participate. The program is available nationwide, including all U.S. states and territories.",
+          "Only the Zepbound KwikPen (multi-dose pen containing 4 weekly doses) is covered under the Bridge Program. Single-dose Zepbound vials and single-dose pens are not included. The KwikPen is available in all approved dosage strengths: 2.5 mg, 5 mg, 7.5 mg, 10 mg, 12.5 mg, and 15 mg. Pen needles are sold separately and are not included with the medication."],
+        whatItCovers: [
+          "Zepbound KwikPen (multi-dose, 4 doses per pen) at all dosage strengths",
+          "28-day supply for $50 flat copay",
+          "Prior authorization valid through December 31, 2027",
+          "Dose changes without new prior authorization (unless switching drugs)",
+          "Available at any participating pharmacy or through LillyDirect home delivery"],
+        whatItDoesntCover: [
+          "Single-dose Zepbound vials",
+          "Single-dose Zepbound pens",
+          "Pen needles (sold separately)",
+          "Beneficiaries who already receive GLP-1 coverage through standard Part D",
+          "Beneficiaries with type 2 diabetes, moderate-to-severe sleep apnea, or fatty liver disease (Part D may cover GLP-1s for these conditions instead)"],
+        callout: {
+          type: "warning",
+          title: "Important: Only the KwikPen Is Covered",
+          text: "The Medicare GLP-1 Bridge Program covers only the Zepbound KwikPen formulation. If your pharmacy dispenses a single-dose vial or single-dose pen, it will not be covered under this program. Confirm with your pharmacy that they are filling the KwikPen specifically.",
+        },
+        costNote: "You pay a flat $50 copay for a 28-day supply. This copay does not count toward your Part D deductible or annual out-of-pocket limit ($2,100 in 2026). The copay cannot be reduced by Extra Help or spread across months using the Medicare Prescription Payment Plan.",
+      },
+      {
+        planName: "Medicare Part D (Standard Benefit)",
+        icon: "shield",
+        iconColor: "#6B7280",
+        coverageLabel: "Not Covered for Weight Loss",
+        coverageType: "not-covered",
+        statusBadge: "Federal law prohibits coverage for weight-loss drugs",
+        paragraphs: [
+          "Under the standard [Medicare Part D](/faqs/what-is-medicare-part-d) benefit, Zepbound is not covered when prescribed for weight loss. A longstanding federal law (Social Security Act Section 1927) prohibits Medicare Part D from covering drugs used for weight loss, weight gain, or anorexia. Because Zepbound (tirzepatide) is FDA-approved for chronic weight management, it falls under this exclusion.",
+          "However, tirzepatide is also marketed as Mounjaro for the treatment of type 2 diabetes. If you have type 2 diabetes, your doctor may prescribe Mounjaro (the same active ingredient) for diabetes management, which is covered under standard Part D benefits. The GLP-1 Bridge Program was created specifically to bypass the weight-loss drug exclusion for qualifying beneficiaries."],
+        whatItCovers: [
+          "Mounjaro (tirzepatide) when prescribed for type 2 diabetes",
+          "Other GLP-1 medications for diabetes (Ozempic, Trulicity, etc.)"],
+        whatItDoesntCover: [
+          "Zepbound for weight loss or weight management",
+          "Any anti-obesity medication under the standard Part D benefit"],
+        costNote: "Standard Part D does not cover Zepbound for weight loss. If you have type 2 diabetes, Mounjaro (same active ingredient) may be covered under your plan's formulary with standard Part D cost-sharing.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered via Bridge Program",
+        coverageType: "covered",
+        statusBadge: "MA-PD enrollees eligible for GLP-1 Bridge",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) with prescription drug coverage (MA-PD plans) qualify for the GLP-1 Bridge Program. If you are enrolled in an MA-PD plan (including HMO, HMOPOS, and Local or Regional PPO plans), you can access Zepbound through the Bridge Program at the same $50 monthly copay.",
+          "Your Medicare Advantage plan does not need to opt in or make any changes for you to participate. The Bridge Program operates independently of your plan's formulary and benefit structure. CMS processes all Bridge Program claims through its central processor, not through your MA plan."],
+        whatItCovers: [
+          "Zepbound KwikPen through the GLP-1 Bridge Program ($50/month)",
+          "Same eligibility criteria as standalone Part D enrollees"],
+        whatItDoesntCover: [
+          "Zepbound under the plan's standard drug formulary for weight loss",
+          "Single-dose Zepbound formulations"],
+        callout: {
+          type: "info",
+          title: "Check Your Plan for Diabetes Coverage",
+          text: "If you have type 2 diabetes, your Medicare Advantage plan may already cover Mounjaro (tirzepatide) under its standard formulary. Check with your plan before applying for the Bridge Program, as standard Part D coverage may offer different cost-sharing that works better for your situation.",
+        },
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Not Applicable",
+        coverageType: "not-covered",
+        statusBadge: "Medigap does not cover prescription drugs",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) do not cover prescription drugs of any kind. Medigap supplements Original Medicare (Part A and Part B) by covering cost-sharing like deductibles and coinsurance for medical services. It does not add drug coverage.",
+          "To access Zepbound through the GLP-1 Bridge Program, you must be enrolled in a Medicare Part D plan (either standalone or through a Medicare Advantage plan). If you have Original Medicare with a Medigap plan, you will also need a standalone Part D plan to qualify for the Bridge Program."],
+        whatItCovers: [
+          "Part A and Part B cost-sharing (deductibles, coinsurance)",
+          "Hospital costs, skilled nursing facility coinsurance"],
+        whatItDoesntCover: [
+          "Prescription drugs (including Zepbound)",
+          "GLP-1 medications of any kind"],
+        costNote: "Medigap does not cover Zepbound or any prescription drug. You need a separate Medicare Part D plan to access the GLP-1 Bridge Program.",
+      }],
+    decisionSection: {
+      title: "Pro Tip: How to Get Started with Zepbound Under Medicare",
+      paragraphs: [
+        "Follow these steps to access Zepbound through the Medicare GLP-1 Bridge Program as smoothly as possible."],
+      checklist: {
+        title: "Steps to Get Started:",
+        type: "tip",
+        items: [
+          "Confirm your BMI and any qualifying conditions with your doctor before your appointment. Bring documentation of your weight history and any relevant diagnoses.",
+          "Ask your doctor to prescribe Zepbound KwikPen specifically (not the single-dose vial or pen). The prescription must be part of a lifestyle program that includes diet and exercise.",
+          "Tell your pharmacy to route the claim through the Medicare GLP-1 Bridge processor. If they are unfamiliar with the program, direct them to the CMS GLP-1 Bridge pharmacy resources page.",
+          "You can also fill your prescription through LillyDirect Pharmacy for home delivery. Visit zepbound.lilly.com/medicare for details.",
+          "Your prior authorization is valid through December 31, 2027, including refills and dose changes. You only need a new prior authorization if you switch to a different GLP-1 drug.",
+          "Keep in mind that the $50 copay does not count toward your Part D out-of-pocket limit. Budget accordingly if you also have other Part D drug costs."],
+      },
+    },
+    legislativeUpdate: {
+      title: "Legislative and Regulatory Updates on GLP-1 Coverage",
+      items: [
+        {
+          title: "Medicare GLP-1 Bridge Program (July 2026)",
+          status: "Passed",
+          description: "CMS launched the Medicare GLP-1 Bridge Program on July 1, 2026, providing eligible Part D beneficiaries access to Zepbound, Wegovy, and Foundayo at $50/month. The program was originally set to end December 31, 2026, but has been extended through December 31, 2027.",
+        },
+        {
+          title: "BALANCE Model (Originally Planned for 2027)",
+          status: "Failed",
+          description: "The BALANCE Model was originally planned as a follow-up to the Bridge Program starting in 2027. CMS announced the BALANCE Model will not launch, and instead extended the GLP-1 Bridge Program through the end of 2027.",
+        },
+        {
+          title: "Treat and Reduce Obesity Act (TROA)",
+          status: "Pending",
+          description: "The Treat and Reduce Obesity Act would permanently remove the federal prohibition on Medicare Part D coverage for FDA-approved anti-obesity medications. The bill has been introduced in multiple congressional sessions but has not yet passed into law.",
+        },
+        {
+          title: "Inflation Reduction Act $2,100 Out-of-Pocket Cap",
+          status: "Passed",
+          description: "The IRA established a $2,100 annual out-of-pocket cap for Medicare Part D beneficiaries in 2026. However, GLP-1 Bridge Program copays do not count toward this cap since the program operates outside the standard Part D benefit.",
+        }],
+    },
+    alternativesSection: {
+      title: "Alternatives If You Do Not Qualify for the Bridge Program",
+      paragraphs: [
+        "If you do not meet the eligibility requirements for the GLP-1 Bridge Program, or if you have a condition that disqualifies you (such as type 2 diabetes), there are other options to explore for weight management and GLP-1 access."],
+      checklist: {
+        title: "Options to Consider:",
+        type: "tip",
+        items: [
+          "If you have type 2 diabetes, ask your doctor about Mounjaro (same active ingredient as Zepbound). It is covered under standard Part D for diabetes.",
+          "Check Eli Lilly's patient assistance program (Lilly Cares) for income-based discounts on Zepbound",
+          "Ask your doctor about LillyDirect, which offers self-pay pricing for Zepbound outside of insurance",
+          "Consider Medicare's covered obesity behavioral counseling (available under Part B at no cost if your BMI is 30+)",
+          "Ask about Wegovy or Foundayo as alternative GLP-1 options under the Bridge Program",
+          "If you have sleep apnea or fatty liver disease, your Part D plan may cover a GLP-1 for those conditions separately"],
+      },
+    },
+    faqs: [
+      { question: "What formulations of Zepbound does Medicare cover?", answer: "Medicare covers only the Zepbound KwikPen (multi-dose pen with 4 weekly doses). Single-dose vials and single-dose pens are not covered under the GLP-1 Bridge Program." },
+      { question: "How much does Zepbound cost with Medicare?", answer: "You pay a flat $50 copay for a 28-day supply through the GLP-1 Bridge Program. This applies to all dosage strengths (2.5 mg through 15 mg). Pen needles are not included and must be purchased separately." },
+      { question: "Do I need prior authorization for Zepbound?", answer: "Yes. Your doctor must complete a prior authorization form certifying your eligibility and that you are using Zepbound as part of a lifestyle program including diet and exercise. Once approved, the authorization is valid through December 31, 2027." },
+      { question: "Does the $50 copay count toward my Part D out-of-pocket limit?", answer: "No. The GLP-1 Bridge Program operates outside the standard Part D benefit. Your $50 monthly copay does not count toward your Part D deductible or the $2,100 annual out-of-pocket cap." },
+      { question: "Can I get Zepbound if I have type 2 diabetes?", answer: "If you have type 2 diabetes, you are not eligible for the GLP-1 Bridge Program. However, your Part D plan may cover Mounjaro (the same active ingredient, tirzepatide) for diabetes management under its standard formulary." },
+      { question: "How long will the GLP-1 Bridge Program last?", answer: "The program runs from July 1, 2026, through December 31, 2027. CMS extended the original end date after announcing that the planned BALANCE Model will not launch. Future coverage beyond 2027 depends on congressional action." }],
+    quickReference: [
+      { icon: "check", text: "<strong>Covered:</strong> Zepbound KwikPen through the Medicare GLP-1 Bridge Program at $50/month" },
+      { icon: "x", text: "<strong>Not Covered:</strong> Single-dose Zepbound vials or pens are excluded from the Bridge Program" },
+      { icon: "info", text: "<strong>Eligibility:</strong> BMI 35+, or BMI 30+ with qualifying conditions, or BMI 27+ with specific cardiovascular conditions" },
+      { icon: "alert", text: "<strong>Important:</strong> The $50 copay does NOT count toward your Part D $2,100 out-of-pocket cap" },
+      { icon: "dollar", text: "<strong>Without Medicare:</strong> Zepbound list price is approximately $1,060/month without insurance" },
+      { icon: "info", text: "<strong>Duration:</strong> Program runs July 1, 2026, through December 31, 2027" }],
+    relatedTopics: [
+      { title: "Medicare GLP-1 Bridge Program", description: "Complete guide to the Medicare GLP-1 Bridge Program, eligibility, and covered medications.", slug: "medicare-glp-1-bridge-program" },
+      { title: "Does Medicare Cover Wegovy?", description: "Learn about Medicare coverage for Wegovy (semaglutide) weight loss injections.", slug: "does-medicare-cover-wegovy" },
+      { title: "Does Medicare Cover Ozempic?", description: "Find out how Medicare covers Ozempic for diabetes and weight management.", slug: "does-medicare-cover-ozempic" },
+      { title: "How Is Medicare Part D Changing in 2026?", description: "Key changes to Medicare Part D including the $2,100 out-of-pocket cap.", slug: "how-is-medicare-part-d-changing-in-2026" },
+      { title: "Medicare Coverage for Bariatric Surgery", description: "Learn about Medicare coverage for weight loss surgery as an alternative.", slug: "medicare-coverage-for-bariatric-surgery" }],
+    sidebarRelatedLinks: ["does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-coverage-for-bariatric-surgery"],
+    ctaBanner: {
+      title: "Need Help with Medicare Drug Coverage?",
+      text: "Our licensed agents can help you understand your Part D options and determine if you qualify for the GLP-1 Bridge Program. Get personalized guidance at no cost to you.",
+    },
+    relatedSlugs: ["does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-coverage-for-bariatric-surgery", "what-is-a-medicare-part-d-formulary", "medicare-part-d-six-protected-classes", "medicare-diabetes", "does-medicare-cover-a-nutritionist", "medicare-coverage-for-blood-pressure-monitors", "does-medicare-cover-diabetic-supplies"],
+  },
+  {
     slug: "how-medigap-covers-cancer-compared-to-ma",
     seo: {
       title: "How Medigap Covers Cancer Compared to Medicare Advantage | 2026 Guide",
