@@ -91,16 +91,22 @@ export default function HeaderBar() {
     inputRef.current?.focus();
   };
 
-  // Highlight matching text
+  // Highlight matching text (safe: won't match inside HTML tags)
   const highlightMatch = (text: string) => {
     if (!query.trim()) return text;
-    const words = query.toLowerCase().trim().split(/\s+/);
-    let result = text;
-    words.forEach((word) => {
-      const regex = new RegExp(`(${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi");
-      result = result.replace(regex, `<mark class="bg-teal-100 text-teal-800 rounded-sm px-0.5">$1</mark>`);
-    });
-    return result;
+    const words = query.toLowerCase().trim().split(/\s+/).filter(w => w.length > 0);
+    // Build a single regex that matches any of the search words
+    const escaped = words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    const pattern = new RegExp(`(${escaped.join("|")})`, "gi");
+    // Split text by matches and rebuild with <mark> tags in one pass (no nested HTML issue)
+    const parts = text.split(pattern);
+    return parts
+      .map(part =>
+        pattern.test(part)
+          ? `<mark class="bg-teal-100/60 text-inherit font-semibold">${part}</mark>`
+          : part
+      )
+      .join("");
   };
 
   return (
