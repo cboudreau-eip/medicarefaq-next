@@ -5,8 +5,137 @@
  */
 
 import type { BlogArticleData } from "./article-types";
-
 export const blogArticles: BlogArticleData[] = [
+  {
+    slug: "what-is-foundayo-medicare-coverage-and-cost",
+    seo: {
+      title: "What Is Foundayo? Medicare Coverage and Cost (2026 Guide)",
+      description: "Foundayo (orforglipron) is the first GLP-1 weight loss pill with no food or water restrictions. Learn how Medicare covers it for $50/month through the GLP-1 Bridge Program.",
+      canonical: "https://www.medicarefaq.com/blog/what-is-foundayo-medicare-coverage-and-cost/",
+      ogImage: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1200&q=80",
+    },
+    title: "What Is Foundayo? Medicare Coverage and Cost",
+    excerpt: "Foundayo (orforglipron) is Eli Lilly's once-daily GLP-1 weight loss pill approved by the FDA in April 2026. It can be taken any time of day without food or water restrictions, and Medicare covers it for $50/month through the GLP-1 Bridge Program.",
+    category: "Medicare Coverage",
+    categoryColor: "#059669",
+    date: "July 6, 2026",
+    author: "David Haass",
+    reviewer: "Ashlee Zareczny",
+    readTime: "9 min read",
+    featured: false,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Prescription medication tablets on a clean white surface",
+    keyTakeaways: [
+      "Foundayo (orforglipron) is the first and only GLP-1 weight loss pill that can be taken any time of day without food or water restrictions.",
+      "FDA approved on April 1, 2026. Manufactured by Eli Lilly. Available at retail pharmacies and through LillyDirect with free home delivery.",
+      "Medicare covers Foundayo through the GLP-1 Bridge Program at $50/month for eligible Part D beneficiaries starting July 1, 2026.",
+      "In clinical trials (ATTAIN-1), participants lost an average of 27 pounds (12.4% body weight) on the highest dose over 72 weeks.",
+      "Self-pay pricing starts at $149/month through LillyDirect. Commercial insurance copay starts at $25/month with the Foundayo savings card.",
+      "Foundayo is a GLP-1 only agonist (oral pill). Zepbound is a dual GIP/GLP-1 agonist (injection). Both are made by Eli Lilly and both cost $50/month under the Bridge Program."
+    ],
+    tableOfContents: [
+      { id: "what-is-foundayo", title: "What Is Foundayo?" },
+      { id: "how-it-works", title: "How Foundayo Works" },
+      { id: "clinical-results", title: "Clinical Trial Results" },
+      { id: "medicare-coverage", title: "Medicare Coverage Through the GLP-1 Bridge Program" },
+      { id: "eligibility", title: "Who Is Eligible for Medicare Coverage" },
+      { id: "cost-breakdown", title: "Cost Breakdown: Medicare vs. Self-Pay vs. Commercial" },
+      { id: "how-to-get-started", title: "How to Get Started with Foundayo on Medicare" },
+      { id: "foundayo-vs-zepbound", title: "Foundayo vs. Zepbound: Which Is Right for You?" },
+      { id: "foundayo-vs-wegovy", title: "Foundayo vs. Wegovy Tablets" },
+      { id: "side-effects", title: "Side Effects and Safety Information" },
+      { id: "after-2027", title: "What Happens After the Bridge Program Ends" }
+    ],
+    sections: [
+      { type: "heading", level: 2, text: "What Is Foundayo?", id: "what-is-foundayo" },
+      { type: "paragraph", content: "Foundayo (orforglipron) is a once-daily oral GLP-1 receptor agonist manufactured by Eli Lilly and approved by the FDA on April 1, 2026, for chronic weight management in adults with obesity (BMI 30 or higher) or overweight (BMI 27 or higher) with at least one weight-related medical condition. It is the first GLP-1 weight loss medication that can be taken as a pill at any time of day without restrictions on food or water intake." },
+      { type: "paragraph", content: "Unlike injectable GLP-1 medications such as [Zepbound](/faqs/does-medicare-cover-zepbound/) and Wegovy, Foundayo is a small-molecule (non-peptide) compound. This distinction matters because traditional GLP-1 drugs are peptide-based and must be injected or taken on an empty stomach to avoid being broken down by digestive enzymes. Foundayo's non-peptide structure allows it to survive the digestive process intact, which is why it has no food or water restrictions." },
+      { type: "paragraph", content: "Foundayo is Eli Lilly's second FDA-approved obesity medicine, joining Zepbound (tirzepatide injection). It became available at retail pharmacies and through LillyDirect (Lilly's direct-to-patient pharmacy with free home delivery) beginning April 6, 2026." },
+      { type: "callout", calloutType: "info", calloutTitle: "Key Distinction: Foundayo vs. Other GLP-1 Pills", calloutText: "Wegovy is also available as an oral tablet, but it must be taken on an empty stomach with no more than 4 ounces of water, and you must wait at least 30 minutes before eating or drinking anything else. Foundayo has none of these restrictions. You can take it with breakfast, at bedtime, or any other time that fits your routine." },
+
+      { type: "heading", level: 2, text: "How Foundayo Works", id: "how-it-works" },
+      { type: "paragraph", content: "Foundayo works by mimicking a natural hormone called GLP-1 (glucagon-like peptide-1) that your body produces after eating. GLP-1 signals your brain to feel full, slows the rate at which your stomach empties, and helps regulate blood sugar levels. By activating GLP-1 receptors, Foundayo reduces appetite and food intake, leading to sustained weight loss when combined with a reduced-calorie diet and increased physical activity." },
+      { type: "paragraph", content: "The medication is available in six dosage strengths: 0.8 mg, 2.5 mg, 5.5 mg, 9 mg, 14.5 mg, and 17.2 mg. Treatment typically begins at the lowest dose (0.8 mg) and is gradually increased over several weeks to allow your body to adjust and minimize side effects. Your doctor will determine the appropriate target dose based on your response and tolerability." },
+      { type: "paragraph", content: "Because Foundayo is a once-daily pill rather than a weekly injection, it offers a different experience than Zepbound or Wegovy injections. Some patients prefer the daily routine of taking a pill, while others prefer the convenience of a once-weekly injection. Both approaches deliver meaningful weight loss when used consistently." },
+
+      { type: "heading", level: 2, text: "Clinical Trial Results", id: "clinical-results" },
+      { type: "paragraph", content: "Foundayo's FDA approval was based on the ATTAIN clinical trial program, which studied the drug in adults with obesity or overweight with comorbidities." },
+      { type: "table", title: "ATTAIN-1 Trial Results (72 Weeks)", headers: ["Measure", "Foundayo (Highest Dose)", "Placebo"], rows: [["Average weight loss (on-treatment)", "27.3 lbs (12.4%)", "2.2 lbs (0.9%)"], ["Average weight loss (all participants)", "25 lbs (11.1%)", "5.3 lbs (2.1%)"], ["Waist circumference reduction", "Significant", "Minimal"], ["Non-HDL cholesterol", "Reduced", "No change"], ["Triglycerides", "Reduced", "No change"], ["Systolic blood pressure", "Reduced", "No change"]] },
+      { type: "paragraph", content: "The ATTAIN-1 trial enrolled adults with obesity or overweight with at least one weight-related comorbidity. Participants who stayed on the highest dose of Foundayo for the full 72 weeks lost an average of 27.3 pounds (12.4% of body weight), compared to just 2.2 pounds (0.9%) in the placebo group. Even when accounting for participants who did not complete the trial, the average weight loss was 25 pounds (11.1%)." },
+      { type: "paragraph", content: "Beyond weight loss, Foundayo also demonstrated improvements in several cardiovascular risk markers, including reductions in waist circumference, non-HDL cholesterol, triglycerides, and systolic blood pressure. The ATTAIN-2 trial studied Foundayo in adults with obesity or overweight who also had type 2 diabetes, showing similar weight reduction benefits." },
+
+      { type: "heading", level: 2, text: "Medicare Coverage Through the GLP-1 Bridge Program", id: "medicare-coverage" },
+      { type: "paragraph", content: "Starting July 1, 2026, Medicare covers Foundayo through the [Medicare GLP-1 Bridge Program](/blog/medicare-glp-1-bridge-program/) at a flat $50 monthly copay. The Bridge Program is a short-term CMS demonstration that provides eligible Medicare Part D beneficiaries with access to FDA-approved GLP-1 weight loss medications. It runs through December 31, 2027." },
+      { type: "paragraph", content: "The Bridge Program operates outside of the standard Part D benefit. This means your Part D plan does not need to opt in, CMS handles all prior authorization and claims processing through a central processor, and the $50 copay does not count toward your Part D deductible or annual out-of-pocket limit ($2,100 in 2026)." },
+      { type: "paragraph", content: "All tablet formulations of Foundayo are covered under the Bridge Program. Unlike [Zepbound](/faqs/does-medicare-cover-zepbound/), which is limited to the KwikPen formulation only, there are no formulation restrictions for Foundayo since it is only available as an oral tablet." },
+      { type: "callout", calloutType: "tip", calloutTitle: "Standard Part D Does Not Cover Foundayo for Weight Loss", calloutText: "Federal law prohibits Medicare Part D from covering drugs prescribed solely for weight loss. The GLP-1 Bridge Program was created specifically to bypass this restriction. Without the Bridge Program, you would need to pay full price out of pocket." },
+
+      { type: "heading", level: 2, text: "Who Is Eligible for Medicare Coverage", id: "eligibility" },
+      { type: "paragraph", content: "To qualify for Foundayo coverage under the Medicare GLP-1 Bridge Program, you must be 18 or older, enrolled in a Medicare Part D plan (standalone PDP or Medicare Advantage with drug coverage), and meet one of the following BMI-based criteria:" },
+      { type: "table", title: "GLP-1 Bridge Program Eligibility Criteria", headers: ["BMI Range", "Additional Requirements"], rows: [["35 or higher", "No additional conditions required"], ["30 to 34.99", "At least one: heart failure (HFpEF), uncontrolled hypertension, chronic kidney disease (stage 3a+), prediabetes, previous heart attack or stroke, or peripheral artery disease with symptoms"], ["27 to 29.99", "At least one: prediabetes, previous heart attack or stroke, or peripheral artery disease with symptoms"]] },
+      { type: "paragraph", content: "You are not eligible for the Bridge Program if you already receive GLP-1 drugs through your Part D plan for another covered condition, or if you have type 2 diabetes, moderate-to-severe sleep apnea, or fatty liver disease. For these conditions, your Part D plan may cover a GLP-1 medication (such as Mounjaro for diabetes) under its standard formulary." },
+
+      { type: "heading", level: 2, text: "Cost Breakdown: Medicare vs. Self-Pay vs. Commercial", id: "cost-breakdown" },
+      { type: "table", title: "Foundayo Cost Comparison", headers: ["Coverage Type", "Monthly Cost", "Notes"], rows: [["Medicare GLP-1 Bridge", "$50/month", "Flat copay for all doses. Does not count toward Part D OOP cap."], ["Commercial Insurance", "Starting at $25/month", "With Foundayo savings card. Actual cost depends on plan formulary tier."], ["Self-Pay (LillyDirect)", "Starting at $149/month", "For lowest dose. Price may vary by dose. Free home delivery included."], ["Retail (No Insurance)", "Approximately $550 to $800/month", "Varies by pharmacy and dose. Significantly less than injectable GLP-1s."]] },
+      { type: "paragraph", content: "Foundayo's pricing represents a significant shift in the GLP-1 market. At $149/month for self-pay through LillyDirect, it is substantially less expensive than injectable options like Zepbound (approximately $1,060/month list price) or Wegovy (approximately $1,350/month list price). For Medicare beneficiaries, the $50/month Bridge Program copay makes all three drugs equally affordable, but the self-pay fallback price matters if the Bridge Program ends after 2027." },
+      { type: "callout", calloutType: "warning", calloutTitle: "The $50 Copay Has Limitations", calloutText: "The Bridge Program's $50 copay does not count toward your Part D deductible or $2,100 annual out-of-pocket cap. It cannot be reduced by Extra Help (Low-Income Subsidy) and cannot be spread across months using the Medicare Prescription Payment Plan. Budget for this as a separate monthly expense." },
+
+      { type: "heading", level: 2, text: "How to Get Started with Foundayo on Medicare", id: "how-to-get-started" },
+      { type: "paragraph", content: "Getting started with Foundayo through the Medicare GLP-1 Bridge Program involves a straightforward process, though it does require a prior authorization from CMS." },
+      { type: "list", ordered: true, items: [
+        "Schedule an appointment with your doctor to discuss whether Foundayo is appropriate for you. Bring documentation of your BMI and any qualifying conditions.",
+        "Your doctor prescribes Foundayo and submits a prior authorization to CMS, certifying that you meet the eligibility criteria and that the medication is being prescribed as part of a lifestyle program including diet and exercise.",
+        "Take your prescription to any participating pharmacy. The pharmacy routes the claim through the CMS GLP-1 Bridge processor (not your Part D plan).",
+        "If CMS confirms your eligibility, you will receive a letter in the mail. Your pharmacy fills the prescription and you pay $50 for a 28-day supply.",
+        "Your prior authorization is valid through December 31, 2027, including refills and dose changes. You only need a new authorization if you switch to a different GLP-1 medication."
+      ]},
+      { type: "paragraph", content: "You can also fill your Foundayo prescription through LillyDirect Pharmacy for free home delivery. Visit foundayo.lilly.com for details on the home delivery option." },
+      { type: "callout", calloutType: "tip", calloutTitle: "Pro Tip: Confirm Pharmacy Routing", calloutText: "Some pharmacies may not yet be familiar with the GLP-1 Bridge Program claims process. If your pharmacy has difficulty processing the claim, direct them to the CMS GLP-1 Bridge pharmacy resources page or consider using LillyDirect for a smoother experience." },
+
+      { type: "heading", level: 2, text: "Foundayo vs. Zepbound: Which Is Right for You?", id: "foundayo-vs-zepbound" },
+      { type: "paragraph", content: "Both Foundayo and [Zepbound](/faqs/does-medicare-cover-zepbound/) are manufactured by Eli Lilly and both are covered under the Medicare GLP-1 Bridge Program at $50/month. However, they are fundamentally different medications with different mechanisms, delivery methods, and efficacy profiles." },
+      { type: "table", title: "Foundayo vs. Zepbound Comparison", headers: ["Feature", "Foundayo (orforglipron)", "Zepbound (tirzepatide)"], rows: [["Drug class", "GLP-1 receptor agonist (single)", "GIP/GLP-1 receptor agonist (dual)"], ["Delivery method", "Oral tablet, once daily", "Injection (KwikPen), once weekly"], ["Food/water restrictions", "None. Take any time of day.", "N/A (injection)"], ["Average weight loss", "12.4% (highest dose, 72 weeks)", "Approximately 20-25% (highest dose)"], ["Available doses", "0.8, 2.5, 5.5, 9, 14.5, 17.2 mg", "2.5, 5, 7.5, 10, 12.5, 15 mg"], ["Medicare Bridge cost", "$50/month", "$50/month"], ["Self-pay cost", "Starting at $149/month", "Approximately $1,060/month"], ["Manufacturer", "Eli Lilly", "Eli Lilly"]] },
+      { type: "paragraph", content: "The key tradeoff is efficacy versus convenience. Zepbound's dual GIP/GLP-1 mechanism generally produces greater weight loss (approximately 20-25% in clinical trials) compared to Foundayo's 12.4%. However, Foundayo offers the convenience of a daily pill with no injection required and no food or water restrictions. For patients who are needle-averse or prefer oral medications, Foundayo may be the better choice even with somewhat lower average weight loss." },
+      { type: "paragraph", content: "Under the Medicare GLP-1 Bridge Program, both medications cost the same ($50/month), so cost is not a differentiating factor while the program is active. However, if the Bridge Program ends after 2027, the self-pay price difference is substantial: $149/month for Foundayo versus approximately $1,060/month for Zepbound." },
+
+      { type: "heading", level: 2, text: "Foundayo vs. Wegovy Tablets", id: "foundayo-vs-wegovy" },
+      { type: "paragraph", content: "Wegovy is also available as an oral tablet (semaglutide), but there is a critical practical difference. Wegovy tablets must be taken first thing in the morning on an empty stomach with no more than 4 ounces of plain water. You then must wait at least 30 minutes before eating, drinking, or taking other oral medications. This is because semaglutide is a peptide that can be degraded by food and stomach acid." },
+      { type: "paragraph", content: "Foundayo has none of these restrictions. Because orforglipron is a non-peptide small molecule, it survives the digestive process regardless of food intake. You can take Foundayo with breakfast, after dinner, at bedtime, or any other time that works for your schedule. For Medicare beneficiaries who take multiple morning medications or who find fasting requirements difficult to maintain, this flexibility can be a meaningful quality-of-life improvement." },
+      { type: "paragraph", content: "Both Foundayo and Wegovy tablets are covered under the Medicare GLP-1 Bridge Program at $50/month. Both are also covered in all formulations (unlike Zepbound, which is limited to the KwikPen only)." },
+
+      { type: "heading", level: 2, text: "Side Effects and Safety Information", id: "side-effects" },
+      { type: "paragraph", content: "Like all GLP-1 medications, Foundayo can cause gastrointestinal side effects, particularly during the dose-titration period when your body is adjusting to the medication. The most common side effects reported in clinical trials include:" },
+      { type: "list", ordered: false, items: [
+        "Nausea",
+        "Constipation",
+        "Diarrhea",
+        "Vomiting",
+        "Indigestion",
+        "Stomach (abdominal) pain",
+        "Headache",
+        "Swollen belly",
+        "Fatigue",
+        "Belching, heartburn, and gas",
+        "Hair loss"
+      ]},
+      { type: "paragraph", content: "These side effects are generally mild to moderate and tend to decrease over time as your body adjusts. Starting at the lowest dose and gradually increasing helps minimize these effects." },
+      { type: "callout", calloutType: "warning", calloutTitle: "Important Safety Warning", calloutText: "Foundayo may cause tumors in the thyroid, including thyroid cancer. Watch for symptoms such as a lump or swelling in the neck, hoarseness, trouble swallowing, or shortness of breath. Do not use Foundayo if you or your family have a history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2). Do not use Foundayo with other GLP-1 receptor agonist medicines." },
+
+      { type: "heading", level: 2, text: "What Happens After the Bridge Program Ends", id: "after-2027" },
+      { type: "paragraph", content: "The Medicare GLP-1 Bridge Program is currently scheduled to run through December 31, 2027. After that date, continued Medicare coverage for Foundayo is uncertain. Several possible outcomes exist: CMS could extend the Bridge Program again, Congress could pass the Treat and Reduce Obesity Act (TROA) to permanently lift the ban on Medicare covering weight loss drugs, or coverage could lapse entirely." },
+      { type: "paragraph", content: "If the Bridge Program ends without replacement, Foundayo's self-pay price ($149/month through LillyDirect) makes it significantly more affordable than injectable alternatives as an out-of-pocket option. This is one practical advantage of choosing Foundayo over Zepbound or Wegovy: if Medicare coverage disappears, the ongoing cost burden is substantially lower." },
+      { type: "paragraph", content: "Discuss this uncertainty with your doctor before starting any GLP-1 medication through the Bridge Program. These medications are most effective when taken consistently over the long term, and understanding your options after 2027 is an important part of the decision." }
+    ],
+    faqs: [
+      { question: "Is Foundayo the same as Zepbound?", answer: "No. Foundayo (orforglipron) is a once-daily oral GLP-1 pill. Zepbound (tirzepatide) is a once-weekly dual GIP/GLP-1 injection. Both are made by Eli Lilly, but they have different active ingredients, mechanisms, and delivery methods. Zepbound generally produces greater weight loss, while Foundayo offers the convenience of a daily pill with no food restrictions." },
+      { question: "Can I take Foundayo with food?", answer: "Yes. Foundayo can be taken at any time of day with or without food and without water restrictions. This is its primary advantage over other oral GLP-1 options like Wegovy tablets, which must be taken on an empty stomach." },
+      { question: "How much weight can I expect to lose on Foundayo?", answer: "In the ATTAIN-1 clinical trial, participants on the highest dose lost an average of 27 pounds (12.4% of body weight) over 72 weeks. Individual results vary based on starting weight, dose, adherence to diet and exercise, and other factors." },
+      { question: "Does Medicare cover Foundayo?", answer: "Yes, through the Medicare GLP-1 Bridge Program starting July 1, 2026. Eligible Part D beneficiaries pay $50/month. Standard Part D does not cover Foundayo for weight loss due to federal law restrictions." },
+      { question: "What if I have type 2 diabetes?", answer: "If you have type 2 diabetes, you are not eligible for the GLP-1 Bridge Program. However, your Part D plan may cover Mounjaro (tirzepatide, the same active ingredient as Zepbound) for diabetes management under its standard formulary." },
+      { question: "How long does it take for Foundayo to start working?", answer: "Most patients begin to notice reduced appetite within the first few weeks. Clinically meaningful weight loss typically becomes apparent within 8 to 12 weeks as the dose is gradually increased. Full results in clinical trials were measured at 72 weeks." }
+    ],
+    relatedSlugs: ["medicare-glp-1-bridge-program", "does-medicare-cover-zepbound", "does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-coverage-for-bariatric-surgery"],
+  },
   {
     slug: "managing-diabetes-on-medicare-complete-guide",
     seo: {
@@ -10865,7 +10994,7 @@ export const blogArticles: BlogArticleData[] = [
 
       { type: "heading", level: 2, text: "Which Medications Are Covered", id: "medications-covered" },
       { type: "paragraph", content: "Three GLP-1 medications are included in the Bridge program, all approved by the FDA for weight reduction:" },
-      { type: "table", title: "GLP-1 Medications Covered Under the Bridge Program", headers: ["Medication", "Manufacturer", "Formulations Covered"], rows: [["Wegovy (semaglutide)", "Novo Nordisk", "Injection and oral tablet"], ["Foundayo (semaglutide)", "Novo Nordisk", "All formulations"], ["Zepbound (tirzepatide)", "Eli Lilly", "KwikPen formulation"]] },
+      { type: "table", title: "GLP-1 Medications Covered Under the Bridge Program", headers: ["Medication", "Manufacturer", "Formulations Covered"], rows: [["Wegovy (semaglutide)", "Novo Nordisk", "Injection and oral tablet"], ["Foundayo (orforglipron)", "Eli Lilly", "Oral tablet (all doses)"], ["Zepbound (tirzepatide)", "Eli Lilly", "KwikPen formulation"]] },
       { type: "paragraph", content: "It is important to note that the Bridge program covers these drugs only when prescribed for weight management. If you are already receiving a GLP-1 through your Part D plan for a covered indication, such as type 2 diabetes, cardiovascular disease risk reduction, or obstructive sleep apnea, you will continue to get your medication through Part D, not through the Bridge." },
       { type: "callout", calloutType: "warning", calloutTitle: "Ozempic and Mounjaro Are Not Covered", calloutText: "While Ozempic and Mounjaro use the same active ingredients as Wegovy and Zepbound respectively, they are approved for different indications (primarily type 2 diabetes) and are covered under Part D for those uses. The Bridge program specifically covers the weight-management formulations." },
 
@@ -10928,6 +11057,6 @@ export const blogArticles: BlogArticleData[] = [
       { question: "How do I sign up?", answer: "You do not sign up directly. Your healthcare provider submits a prior authorization request to CMS on your behalf after determining that you meet the eligibility criteria." },
       { question: "What happens to my medication access after 2027?", answer: "That remains uncertain. CMS has not announced a definitive plan for continued coverage after the Bridge expires. Possible outcomes include another extension, a restructured BALANCE Model, or congressional action to lift Medicare's statutory ban on covering weight loss drugs." },
     ],
-    relatedSlugs: ["does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-savings-programs-guide", "how-can-seniors-save-on-prescription-drug-costs"],
+    relatedSlugs: ["what-is-foundayo-medicare-coverage-and-cost", "does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-savings-programs-guide", "how-can-seniors-save-on-prescription-drug-costs"],
   },
 ];

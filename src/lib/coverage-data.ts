@@ -215,7 +215,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help with Medicare Drug Coverage?",
       text: "Our licensed agents can help you understand your Part D options and determine if you qualify for the GLP-1 Bridge Program. Get personalized guidance at no cost to you.",
     },
-    relatedSlugs: ["does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-coverage-for-bariatric-surgery", "what-is-a-medicare-part-d-formulary", "medicare-part-d-six-protected-classes", "medicare-diabetes", "does-medicare-cover-a-nutritionist", "medicare-coverage-for-blood-pressure-monitors", "does-medicare-cover-diabetic-supplies"],
+    relatedSlugs: ["what-is-foundayo-medicare-coverage-and-cost", "does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-coverage-for-bariatric-surgery", "what-is-a-medicare-part-d-formulary", "medicare-part-d-six-protected-classes", "medicare-diabetes", "does-medicare-cover-a-nutritionist", "medicare-coverage-for-blood-pressure-monitors", "does-medicare-cover-diabetic-supplies"],
   },
   {
     slug: "how-medigap-covers-cancer-compared-to-ma",
@@ -12358,7 +12358,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Paying out of Pocket for Wegovy?",
       text: "Compare Medicare Part D plans to find the best formulary for your medications. A plan with better drug coverage could save you thousands per year.",
     },
-    relatedSlugs: ["does-medicare-cover-ozempic", "what-is-medicare-part-d", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-hormone-therapy-for-menopause", "medicare-part-d-penalty", "what-is-a-medicare-part-d-formulary"],
+    relatedSlugs: ["what-is-foundayo-medicare-coverage-and-cost", "does-medicare-cover-zepbound", "does-medicare-cover-ozempic", "what-is-medicare-part-d", "medicare-coverage-for-bariatric-surgery", "does-medicare-cover-hormone-therapy-for-menopause", "medicare-part-d-penalty", "what-is-a-medicare-part-d-formulary"],
   },
 
 // ─── Does Medicare Cover Ostomy Supplies ────────────────────────────────────
