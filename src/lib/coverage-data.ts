@@ -46,9 +46,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Full benefit at no extra cost",
         coverageType: "covered",
         paragraphs: [
-          "SilverSneakers provides a basic fitness membership at any participating gym or fitness center in the network. Unlike a standard gym membership where you choose one location, SilverSneakers gives you access to every participating location nationwide. You can work out at a Planet Fitness near your home and visit an Anytime Fitness when traveling.",
-          "The program includes group fitness classes designed specifically for older adults. SilverSneakers Classic focuses on full-body strength using hand weights and resistance bands. SilverSneakers Circuit combines cardio and strength training. SilverSneakers Yoga and SilverSneakers Splash (water aerobics) offer lower-impact options. SilverSneakers Stability targets balance and fall prevention.",
-          "Beyond gym access, SilverSneakers includes the SilverSneakers GO app with on-demand and live-streamed fitness videos you can do from home. FLEX classes are community-based sessions held at parks, senior centers, churches, and other non-gym locations. Social events and wellness resources round out the benefit.",
+          "SilverSneakers provides a basic fitness membership at any participating gym or fitness center in the network. Unlike a standard gym membership where you choose one location, SilverSneakers gives you access to every participating location nationwide. You can work out at a Planet Fitness near your home and visit an Anytime Fitness when traveling. It is one of the most popular supplemental benefits offered through [Medicare Advantage plans](/faqs/what-is-medicare-advantage).",
+          "The program includes group fitness classes designed specifically for older adults. SilverSneakers Classic focuses on full-body strength using hand weights and resistance bands. SilverSneakers Circuit combines cardio and strength training. SilverSneakers Yoga and SilverSneakers Splash (water aerobics) offer lower-impact options. SilverSneakers Stability targets balance and [fall prevention](/faqs/medicare-coverage-for-physical-therapy).",
+          "Beyond gym access, SilverSneakers includes the SilverSneakers GO app with on-demand and live-streamed fitness videos you can do from home. FLEX classes are community-based sessions held at parks, senior centers, churches, and other non-gym locations. Social events and wellness resources round out the benefit. For a full list of [supplemental benefits Medicare plans can offer](/faqs/medicare-and-vision-dental-and-hearing-what-are-your-options), including vision, dental, and hearing, see our guide.",
         ],
         whatItCovers: [
           "Unlimited gym access at all 17,000+ participating locations",
@@ -105,9 +105,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Free with qualifying plans",
         coverageType: "covered",
         paragraphs: [
-          "SilverSneakers eligibility depends entirely on your Medicare plan. If your Medicare Advantage or Medicare Supplement plan includes SilverSneakers as a benefit, you are automatically eligible at no additional cost. You do not need to sign up separately or pay any enrollment fee.",
+          "SilverSneakers eligibility depends entirely on your Medicare plan. If your [Medicare Advantage](/faqs/what-is-medicare-advantage) or [Medicare Supplement](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) plan includes SilverSneakers as a benefit, you are automatically eligible at no additional cost. You do not need to sign up separately or pay any enrollment fee.",
           "To check your eligibility, visit the SilverSneakers eligibility tool at silversneakers.com/eligibility. Enter your health plan information and you will immediately see whether you qualify. If eligible, you can print or save your 16-digit SilverSneakers member ID right from the website. You can also call your plan's member services number or check your Summary of Benefits document.",
-          "Once you have your member ID, simply present it at the front desk of any participating gym. Most locations will scan or enter your ID number and you can begin using the facility immediately. There is no waiting period and no additional paperwork at the gym.",
+          "Once you have your member ID, simply present it at the front desk of any participating gym. Most locations will scan or enter your ID number and you can begin using the facility immediately. There is no waiting period and no additional paperwork at the gym. If you are still deciding between plan types, our [Medicare Supplement vs. Medicare Advantage comparison](/faqs/the-essentials-medicare-supplement-vs-medicare-advantage-explained) explains the key differences.",
         ],
         whatItCovers: [
           "Step 1: Visit silversneakers.com/eligibility or call 1-888-423-4632",
