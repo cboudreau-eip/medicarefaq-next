@@ -2,7 +2,7 @@
  * video-script-generator.ts
  *
  * Server-side utility that takes a structured article object and uses the
- * Manus Forge LLM API (OpenAI-compatible) to generate a 2-minute HeyGen video script.
+ * Anthropic Messages API to generate a 2-minute HeyGen video script.
  *
  * The script follows this structure:
  *   Hook       (~15 sec)  - attention-grabbing opening question/statement
@@ -12,6 +12,10 @@
  *
  * Total target: ~250–280 words (reads at ~130 wpm = ~2 minutes)
  */
+
+import Anthropic from "@anthropic-ai/sdk";
+
+const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
 
 export interface ArticleSummaryInput {
   title: string;
@@ -68,18 +72,15 @@ export function extractPlainText(html: string): string {
 }
 
 /**
- * Generates a 2-minute video script for the given article using the Manus Forge LLM API.
+ * Generates a 2-minute video script for the given article using the Anthropic Messages API.
  */
 export async function generateVideoScript(
   article: ArticleSummaryInput
 ): Promise<VideoScriptResult> {
-  const apiUrl = process.env.BUILT_IN_FORGE_API_URL;
-  const apiKey = process.env.BUILT_IN_FORGE_API_KEY;
+  const apiKey = process.env.ANTHROPIC_API_KEY;
 
-  if (!apiUrl || !apiKey) {
-    throw new Error(
-      "BUILT_IN_FORGE_API_URL or BUILT_IN_FORGE_API_KEY is not configured"
-    );
+  if (!apiKey) {
+    throw new Error("ANTHROPIC_API_KEY is not configured");
   }
 
   const userPrompt = `Write a 2-minute video script for the following Medicare article:
@@ -93,31 +94,18 @@ ${article.bodyText}
 
 Remember: 250-280 words total, four labeled sections (hook, key_facts, next_steps, cta), no em dashes, conversational tone.`;
 
-  const response = await fetch(`${apiUrl}/v1/chat/completions`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model: "claude-sonnet-4-5",
-      max_tokens: 1024,
-      messages: [
-        { role: "system", content: SYSTEM_PROMPT },
-        { role: "user", content: userPrompt }],
-    }),
+  const anthropic = new Anthropic({ apiKey });
+  const message = await anthropic.messages.create({
+    model: MODEL,
+    max_tokens: 1024,
+    system: SYSTEM_PROMPT,
+    messages: [{ role: "user", content: userPrompt }],
   });
 
-  if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(
-      `LLM API request failed (${response.status}): ${errorText}`
-    );
-  }
-
-  const data = await response.json();
-  const rawText: string =
-    data?.choices?.[0]?.message?.content ?? "";
+  const rawText: string = message.content
+    .filter((block): block is Anthropic.TextBlock => block.type === "text")
+    .map((block) => block.text)
+    .join("");
 
   if (!rawText) {
     throw new Error("LLM returned an empty response");

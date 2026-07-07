@@ -1,12 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
+import Anthropic from "@anthropic-ai/sdk";
 import { verifySessionToken } from "@/lib/cms-auth";
 import { buildWritingPrompt } from "@/lib/writing-config";
 import { validateContent } from "@/lib/content-validator";
 import type { ValidationIssue } from "@/lib/content-validator";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
-const FORGE_API_URL = process.env.BUILT_IN_FORGE_API_URL;
-const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY;
+const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
+
+function extractText(message: Anthropic.Message): string {
+  return message.content
+    .filter((block): block is Anthropic.TextBlock => block.type === "text")
+    .map((block) => block.text)
+    .join("");
+}
 
 const MIN_QUALITY_SCORE = 87;
 const MAX_RETRIES = 3;
@@ -291,32 +298,20 @@ async function fixArticleQuality(
 
   const fixPrompt = buildFixInstructions(fixableIssues, title, targetKeyword);
 
-  const response = await fetch(`${FORGE_API_URL}/v1/chat/completions`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${FORGE_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "claude-sonnet-4-5",
-      max_tokens: 12000,
-      messages: [
-        { role: "system", content: FIX_SYSTEM_PROMPT },
-        {
-          role: "user",
-          content: `${fixPrompt}\n\n=== CURRENT ARTICLE SECTIONS (JSON) ===\n${JSON.stringify(sections, null, 2)}\n=== END ARTICLE SECTIONS ===\n\nReturn the complete corrected JSON array now.`,
-        },
-      ],
-    }),
+  const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const message = await anthropic.messages.create({
+    model: MODEL,
+    max_tokens: 12000,
+    system: FIX_SYSTEM_PROMPT,
+    messages: [
+      {
+        role: "user",
+        content: `${fixPrompt}\n\n=== CURRENT ARTICLE SECTIONS (JSON) ===\n${JSON.stringify(sections, null, 2)}\n=== END ARTICLE SECTIONS ===\n\nReturn the complete corrected JSON array now.`,
+      },
+    ],
   });
 
-  if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`LLM fix API error (${response.status}): ${err}`);
-  }
-
-  const data = await response.json();
-  const rawOutput = data?.choices?.[0]?.message?.content ?? "";
+  const rawOutput = extractText(message);
 
   const cleaned = cleanLLMJson(rawOutput);
   const fixedSections = JSON.parse(cleaned);
@@ -341,7 +336,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "rawContent is required" }, { status: 400 });
     }
 
-    if (!FORGE_API_URL || !FORGE_API_KEY) {
+    if (!process.env.ANTHROPIC_API_KEY) {
       return NextResponse.json({ error: "LLM service not configured" }, { status: 503 });
     }
 
@@ -359,29 +354,15 @@ Article title: ${title || "Untitled"}
 Raw content:
 ${rawContent}`;
 
-    const response = await fetch(`${FORGE_API_URL}/v1/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${FORGE_API_KEY}`,
-      },
-      body: JSON.stringify({
-        model: "claude-sonnet-4-5",
-        max_tokens: 8192,
-        messages: [
-          { role: "system", content: TRANSFORM_SYSTEM_PROMPT },
-          { role: "user", content: userPrompt },
-        ],
-      }),
+    const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+    const message = await anthropic.messages.create({
+      model: MODEL,
+      max_tokens: 8192,
+      system: TRANSFORM_SYSTEM_PROMPT,
+      messages: [{ role: "user", content: userPrompt }],
     });
 
-    if (!response.ok) {
-      const err = await response.text();
-      throw new Error(`LLM API error (${response.status}): ${err}`);
-    }
-
-    const data = await response.json();
-    const rawOutput = data?.choices?.[0]?.message?.content ?? "";
+    const rawOutput = extractText(message);
 
     // Parse the JSON output
     let sections;
@@ -464,7 +445,7 @@ ${rawContent}`;
     // ─── STEP 4: Optionally generate metadata ────────────────────────────────
     let meta = null;
     if (generateMeta) {
-      meta = await generateArticleMeta(rawContent, title || "Untitled", FORGE_API_URL, FORGE_API_KEY);
+      meta = await generateArticleMeta(rawContent, title || "Untitled");
     }
 
     return NextResponse.json({
@@ -490,9 +471,7 @@ ${rawContent}`;
 // Helper: Generate article metadata
 async function generateArticleMeta(
   rawContent: string,
-  title: string,
-  apiUrl: string,
-  apiKey: string
+  title: string
 ) {
   const metaPrompt = `Given this article titled "${title}", generate:
 1. excerpt: A 1-2 sentence summary (max 200 chars)
@@ -507,26 +486,17 @@ Article content:
 ${rawContent.slice(0, 3000)}`;
 
   try {
-    const response = await fetch(`${apiUrl}/v1/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify({
-        model: "claude-sonnet-4-5",
-        max_tokens: 1024,
-        messages: [
-          { role: "system", content: META_SYSTEM_PROMPT },
-          { role: "user", content: metaPrompt },
-        ],
-      }),
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) return null;
+    const anthropic = new Anthropic({ apiKey });
+    const message = await anthropic.messages.create({
+      model: MODEL,
+      max_tokens: 1024,
+      system: META_SYSTEM_PROMPT,
+      messages: [{ role: "user", content: metaPrompt }],
     });
 
-    if (!response.ok) return null;
-
-    const data = await response.json();
-    const raw = data?.choices?.[0]?.message?.content ?? "";
+    const raw = extractText(message);
     try {
       const cleaned = cleanLLMJson(raw);
       return JSON.parse(cleaned);

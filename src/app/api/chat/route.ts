@@ -1,15 +1,18 @@
 import { NextRequest } from "next/server";
+import Anthropic from "@anthropic-ai/sdk";
 
 /**
  * POST /api/chat
  *
  * Accepts a JSON payload with a messages array and streams back an AI response
- * using the Forge LLM API (OpenAI-compatible with SSE streaming).
+ * from the Anthropic Messages API (SSE streaming).
  *
  * The AI is configured as a Medicare Assistant that answers Medicare-related
  * questions using 2026 data and directs users to call (800) 845-2484 for
  * personalized plan advice.
  */
+
+const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
 
 const MEDICARE_SYSTEM_PROMPT = `You are the Medicare Assistant for MedicareFAQ.com. You help visitors understand Medicare plans, enrollment, eligibility, and coverage.
 
@@ -85,91 +88,47 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    const apiUrl = process.env.BUILT_IN_FORGE_API_URL;
-    const apiKey = process.env.BUILT_IN_FORGE_API_KEY;
+    const apiKey = process.env.ANTHROPIC_API_KEY;
 
-    if (!apiUrl || !apiKey) {
+    if (!apiKey) {
       return new Response(
         JSON.stringify({ error: "Chat service is not configured" }),
         { status: 503, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    // Call the Forge LLM API with streaming enabled
-    const llmResponse = await fetch(`${apiUrl}/v1/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify({
-        model: "claude-sonnet-4-5",
-        max_tokens: 1024,
-        stream: true,
-        messages: [
-          { role: "system", content: MEDICARE_SYSTEM_PROMPT },
-          ...recentMessages.map((msg) => ({
-            role: msg.role,
-            content: msg.content,
-          })),
-        ],
-      }),
-    });
+    const anthropic = new Anthropic({ apiKey });
 
-    if (!llmResponse.ok) {
-      const errorText = await llmResponse.text();
-      console.error(`LLM API error (${llmResponse.status}): ${errorText}`);
-      return new Response(
-        JSON.stringify({ error: "Failed to generate response" }),
-        { status: 502, headers: { "Content-Type": "application/json" } }
-      );
-    }
-
-    // Stream the response back to the client
+    // Stream the Anthropic response back to the client, re-emitting the same
+    // `data: {content}` / `data: [DONE]` SSE shape the widget already consumes.
     const encoder = new TextEncoder();
     const stream = new ReadableStream({
       async start(controller) {
-        const reader = llmResponse.body?.getReader();
-        if (!reader) {
-          controller.close();
-          return;
-        }
-
-        const decoder = new TextDecoder();
-        let buffer = "";
-
         try {
-          while (true) {
-            const { done, value } = await reader.read();
-            if (done) break;
+          const llmStream = anthropic.messages.stream({
+            model: MODEL,
+            max_tokens: 1024,
+            system: MEDICARE_SYSTEM_PROMPT,
+            messages: recentMessages.map((msg) => ({
+              role: msg.role,
+              content: msg.content,
+            })),
+          });
 
-            buffer += decoder.decode(value, { stream: true });
-            const lines = buffer.split("\n");
-            buffer = lines.pop() || "";
-
-            for (const line of lines) {
-              const trimmed = line.trim();
-              if (!trimmed || !trimmed.startsWith("data: ")) continue;
-              const data = trimmed.slice(6);
-              if (data === "[DONE]") {
-                controller.enqueue(encoder.encode("data: [DONE]\n\n"));
-                continue;
-              }
-              try {
-                const parsed = JSON.parse(data);
-                const content = parsed.choices?.[0]?.delta?.content;
-                if (content) {
-                  controller.enqueue(
-                    encoder.encode(
-                      `data: ${JSON.stringify({ content })}\n\n`
-                    )
-                  );
-                }
-              } catch {
-                // Skip malformed chunks
-              }
+          for await (const event of llmStream) {
+            if (
+              event.type === "content_block_delta" &&
+              event.delta.type === "text_delta" &&
+              event.delta.text
+            ) {
+              controller.enqueue(
+                encoder.encode(
+                  `data: ${JSON.stringify({ content: event.delta.text })}\n\n`
+                )
+              );
             }
           }
+          controller.enqueue(encoder.encode("data: [DONE]\n\n"));
         } catch (err) {
           console.error("Stream error:", err);
         } finally {

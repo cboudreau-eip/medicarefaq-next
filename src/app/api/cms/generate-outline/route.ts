@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
+import Anthropic from "@anthropic-ai/sdk";
 import { verifySessionToken } from "@/lib/cms-auth";
 import { writingConfig } from "@/lib/writing-config";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
-const FORGE_API_URL = process.env.BUILT_IN_FORGE_API_URL;
-const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY;
+const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
 
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  if (!FORGE_API_URL || !FORGE_API_KEY) {
+  if (!process.env.ANTHROPIC_API_KEY) {
     return NextResponse.json(
       { error: "LLM API not configured" },
       { status: 503 }
@@ -182,29 +182,18 @@ BRAND VOICE REQUIREMENTS FOR OUTLINE:
     const userMessage = `Generate a detailed article outline for the ${targetKeyword ? `keyword: "${keyword}"\n\nTopic/Title context: "${topic}"` : `topic: "${topic}"`}`;
 
     // ─── Call LLM ───
-    const response = await fetch(`${FORGE_API_URL}/v1/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${FORGE_API_KEY}`,
-      },
-      body: JSON.stringify({
-        model: "claude-sonnet-4-5",
-        max_tokens: 4096,
-        messages: [
-          { role: "system", content: systemPrompt },
-          { role: "user", content: userMessage },
-        ],
-      }),
+    const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+    const message = await anthropic.messages.create({
+      model: MODEL,
+      max_tokens: 4096,
+      system: systemPrompt,
+      messages: [{ role: "user", content: userMessage }],
     });
 
-    if (!response.ok) {
-      const err = await response.text();
-      throw new Error(`LLM API error (${response.status}): ${err}`);
-    }
-
-    const data = await response.json();
-    const rawOutput = data?.choices?.[0]?.message?.content ?? "";
+    const rawOutput = message.content
+      .filter((block): block is Anthropic.TextBlock => block.type === "text")
+      .map((block) => block.text)
+      .join("");
 
     // Parse JSON output — robust parser that handles markdown fences, extra text, etc.
     let outline: GeneratedOutline;

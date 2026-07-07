@@ -1,11 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
+import Anthropic from "@anthropic-ai/sdk";
 import { verifySessionToken } from "@/lib/cms-auth";
 import { buildWritingPrompt } from "@/lib/writing-config";
 import type { ValidationIssue } from "@/lib/content-validator";
 
 const CMS_PASSWORD = process.env.CMS_ADMIN_PASSWORD ?? "";
-const FORGE_API_URL = process.env.BUILT_IN_FORGE_API_URL;
-const FORGE_API_KEY = process.env.BUILT_IN_FORGE_API_KEY;
+const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
 
 function checkCmsAuth(request: Request): boolean {
   if (!CMS_PASSWORD) return false;
@@ -211,7 +211,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  if (!FORGE_API_URL || !FORGE_API_KEY) {
+  if (!process.env.ANTHROPIC_API_KEY) {
     return NextResponse.json({ error: "LLM API not configured" }, { status: 503 });
   }
 
@@ -258,29 +258,18 @@ export async function POST(req: NextRequest) {
 
     const userPrompt = buildFixPrompt(sections, fixableIssues, title, targetKeyword);
 
-    const response = await fetch(`${FORGE_API_URL}/v1/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${FORGE_API_KEY}`,
-      },
-      body: JSON.stringify({
-        model: "claude-sonnet-4-5",
-        max_tokens: 12000,
-        messages: [
-          { role: "system", content: FIX_SYSTEM_PROMPT },
-          { role: "user", content: userPrompt },
-        ],
-      }),
+    const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+    const message = await anthropic.messages.create({
+      model: MODEL,
+      max_tokens: 12000,
+      system: FIX_SYSTEM_PROMPT,
+      messages: [{ role: "user", content: userPrompt }],
     });
 
-    if (!response.ok) {
-      const err = await response.text();
-      throw new Error(`LLM API error (${response.status}): ${err}`);
-    }
-
-    const data = await response.json();
-    const rawOutput = data?.choices?.[0]?.message?.content ?? "";
+    const rawOutput = message.content
+      .filter((block): block is Anthropic.TextBlock => block.type === "text")
+      .map((block) => block.text)
+      .join("");
 
     // Parse JSON output
     let fixedSections;
