@@ -119,7 +119,7 @@ export const coverageArticles: CoverageArticleData[] = [
         callout: {
           type: "warning",
           title: "Your Plan Can Change Year to Year",
-          text: "Medicare Advantage plans can add or remove SilverSneakers from their benefits each year. If you had SilverSneakers in 2025 but your plan dropped it for 2026, you will lose access. Always check your Annual Notice of Change (ANOC) letter in September to see if your fitness benefit is continuing. If it is not, you can switch plans during the Annual Enrollment Period (October 15 to December 7).",
+          text: "Medicare Advantage plans can add or remove SilverSneakers from their benefits each year. If you had SilverSneakers in 2025 but your plan dropped it for 2026, you will lose access. Always check your Annual Notice of Change (ANOC) letter in September to see if your fitness benefit is continuing. If it is not, you can switch plans during the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period) (October 15 to December 7).",
         },
       },
       {
@@ -171,7 +171,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { question: "Does Anytime Fitness accept SilverSneakers?", answer: "Yes, Anytime Fitness is one of the most widely participating chains in the SilverSneakers network. Most locations accept it, but confirm with the finder since each franchise location sets its own participation." },
       { question: "Is SilverSneakers free with Medicare?", answer: "SilverSneakers is free if your Medicare Advantage or Medicare Supplement plan includes it as a benefit. There is no additional monthly fee, no sign-up cost, and no cancellation fee. However, Original Medicare (Parts A and B) alone does not include SilverSneakers. You need a plan that specifically offers it." },
       { question: "Can I use SilverSneakers at more than one gym?", answer: "Yes. Unlike a standard gym membership, SilverSneakers gives you access to every participating location in the network. You are not limited to one home gym. You can use a different gym every day if you choose, including when traveling." },
-      { question: "What if my plan dropped SilverSneakers for 2026?", answer: "If your plan removed SilverSneakers, check whether it now offers an alternative like Silver&Fit or Renew Active. If not, you can switch to a plan that includes SilverSneakers during the Annual Enrollment Period (October 15 to December 7). You can also check whether you qualify for a Special Enrollment Period due to a benefit reduction." },
+      { question: "What if my plan dropped SilverSneakers for 2026?", answer: "If your plan removed SilverSneakers, check whether it now offers an alternative like Silver&Fit or Renew Active. If not, you can switch to a plan that includes SilverSneakers during the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period) (October 15 to December 7). You can also check whether you qualify for a Special Enrollment Period due to a benefit reduction." },
       { question: "How many minutes is 2 units of SilverSneakers?", answer: "SilverSneakers does not use a unit-based system. It provides unlimited access to participating gyms with no time restrictions per visit. You can stay as long as you want during the gym's operating hours. There are no visit limits or minimum time requirements." },
     ],
     quickReference: [
