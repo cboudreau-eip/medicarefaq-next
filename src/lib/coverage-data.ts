@@ -32232,10 +32232,10 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Must enroll in an eligible Medicare Advantage plan",
         coverageType: "covered",
         paragraphs: [
-          "To receive a Medicare grocery allowance, you must be enrolled in a <a href='/faqs/what-is-medicare-advantage'>Medicare Advantage plan</a> that includes this benefit. Not all MA plans offer grocery benefits, and eligibility requirements vary by plan type.",
-          "<strong>Special Needs Plans (SNPs)</strong> are the most common source of grocery allowances. Chronic Condition SNPs (C-SNPs) serve members with specific chronic illnesses such as diabetes, heart failure, or chronic lung disease. Dual-Eligible SNPs (D-SNPs) serve members who qualify for both Medicare and Medicaid. These plans frequently offer the most generous food allowances because nutrition directly impacts the chronic conditions they manage.",
-          "<strong>Standard Medicare Advantage HMO and PPO plans</strong> may also include grocery benefits, though typically at lower amounts. Carriers like Humana, UnitedHealthcare, Anthem, and Aetna offer grocery allowances in select plans and service areas. Availability changes each plan year, so a plan that offered this benefit in 2025 may not offer it in 2026, or vice versa.",
-          "You must live in the plan's service area and meet any plan-specific eligibility criteria. During the <a href='/faqs/medicare-annual-enrollment-period'>Annual Enrollment Period</a> (October 15 through December 7), you can compare plans in your area to find those offering grocery benefits for the upcoming year.",
+          "To receive a Medicare grocery allowance, you must be enrolled in a [Medicare Advantage plan](/faqs/what-is-medicare-advantage) that includes this benefit. Not all MA plans offer grocery benefits, and eligibility requirements vary by plan type.",
+          "[Special Needs Plans (SNPs)]() are the most common source of grocery allowances. Chronic Condition SNPs (C-SNPs) serve members with specific chronic illnesses such as diabetes, heart failure, or chronic lung disease. Dual-Eligible SNPs (D-SNPs) serve members who qualify for both Medicare and Medicaid. These plans frequently offer the most generous food allowances because nutrition directly impacts the chronic conditions they manage.",
+          "[Standard Medicare Advantage HMO and PPO plans]() may also include grocery benefits, though typically at lower amounts. Carriers like Humana, UnitedHealthcare, Anthem, and Aetna offer grocery allowances in select plans and service areas. Availability changes each plan year, so a plan that offered this benefit in 2025 may not offer it in 2026, or vice versa.",
+          "You must live in the plan's service area and meet any plan-specific eligibility criteria. During the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period) (October 15 through December 7), you can compare plans in your area to find those offering grocery benefits for the upcoming year.",
         ],
       },
       {
@@ -32270,7 +32270,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "There is no separate application for a Medicare grocery card. You receive it automatically when you enroll in a Medicare Advantage plan that includes this benefit. First, determine if plans in your area offer grocery benefits. You can search plans on Medicare.gov, call 1-800-MEDICARE, or work with a licensed Medicare agent who can compare all available plans in your ZIP code.",
-          "During the <a href='/faqs/medicare-annual-enrollment-period'>Annual Enrollment Period</a> or a <a href='/faqs/medicare-special-enrollment-period'>Special Enrollment Period</a>, enroll in the plan that best fits your overall needs. After enrollment, your plan will mail you a prepaid benefits card (sometimes called a flex card or healthy foods card). This card is typically separate from your plan ID card. You will receive instructions on how to activate it, check your balance, and find participating stores.",
+          "During the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period) or a [Special Enrollment Period](/faqs/medicare-special-enrollment-period), enroll in the plan that best fits your overall needs. After enrollment, your plan will mail you a prepaid benefits card (sometimes called a flex card or healthy foods card). This card is typically separate from your plan ID card. You will receive instructions on how to activate it, check your balance, and find participating stores.",
           "If you are already enrolled in a Medicare Advantage plan, check your Evidence of Coverage or call your plan's member services number to confirm whether your current plan includes a grocery benefit. If it does not, you can switch to a plan that offers one during the next Annual Enrollment Period.",
         ],
       },
@@ -32281,7 +32281,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Different benefits with different eligible items",
         coverageType: "partial",
         paragraphs: [
-          "Many Medicare Advantage plans offer both a grocery allowance and an OTC (over-the-counter) benefit, but these are separate benefits with different rules. The <a href='/faqs/medicare-advantage-extra-benefits-explained-whats-really-included'>OTC benefit</a> covers health and wellness products such as vitamins, supplements, pain relievers, first-aid supplies, cold medicine, digestive aids, and personal care items. It is typically used at pharmacies like CVS, Walgreens, or through a plan's mail-order catalog.",
+          "Many Medicare Advantage plans offer both a grocery allowance and an OTC (over-the-counter) benefit, but these are separate benefits with different rules. The [OTC benefit](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) covers health and wellness products such as vitamins, supplements, pain relievers, first-aid supplies, cold medicine, digestive aids, and personal care items. It is typically used at pharmacies like CVS, Walgreens, or through a plan's mail-order catalog.",
           "The grocery allowance covers food items only and is used at grocery stores and approved retailers. Some plans combine both benefits onto a single card with separate spending categories, while others issue two different cards.",
           "A few plans offer a broader \"flex card\" that combines grocery, OTC, and sometimes utility assistance into one monthly allowance. The terminology varies by carrier, so always read your plan materials carefully to understand exactly what your card covers and where it can be used.",
         ],
@@ -32312,7 +32312,7 @@ export const coverageArticles: CoverageArticleData[] = [
     decisionSection: {
       title: "Eddie's Pro Tip: Getting the Most From Your Medicare Grocery Benefit",
       paragraphs: [
-        "If you are considering a plan with a grocery allowance, remember to evaluate the plan holistically. The <a href='/faqs/average-cost-of-medicare-advantage'>cost of Medicare Advantage</a> plans varies, and a generous grocery benefit may come with trade-offs in other areas. Compare premiums, copays, drug coverage, provider networks, and star ratings alongside supplemental benefits to find the plan that truly fits your healthcare needs and budget.",
+        "If you are considering a plan with a grocery allowance, remember to evaluate the plan holistically. The [cost of Medicare Advantage](/faqs/average-cost-of-medicare-advantage) plans varies, and a generous grocery benefit may come with trade-offs in other areas. Compare premiums, copays, drug coverage, provider networks, and star ratings alongside supplemental benefits to find the plan that truly fits your healthcare needs and budget.",
       ],
       checklist: {
         title: "Medicare Grocery Card Quick Tips",
