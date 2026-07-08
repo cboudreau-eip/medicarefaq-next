@@ -32223,7 +32223,7 @@ export const coverageArticles: CoverageArticleData[] = [
       focusKeyword: "medicare tax rate",
     },
     title: "Medicare Tax Rate: How Much Do You Pay in 2026?",
-    subtitle: "The Medicare tax is a payroll tax that funds Medicare Part A (hospital insurance). In 2026, the standard Medicare tax rate is 1.45% for employees and 1.45% for employers, totaling 2.9%. Self-employed individuals pay the full 2.9%. High-income earners pay an Additional Medicare Tax of 0.9% on earnings above $200,000 (single) or $250,000 (married filing jointly). Unlike Social Security tax, there is no wage cap on Medicare tax -- every dollar of earned income is subject to it.",
+    subtitle: "The Medicare tax is a payroll tax that funds Medicare Part A (hospital insurance). In 2026, the standard Medicare tax rate is 1.45% for employees and 1.45% for employers, totaling 2.9%. Self-employed individuals pay the full 2.9%. High-income earners pay an Additional Medicare Tax of 0.9% on earnings above $200,000 (single) or $250,000 (married filing jointly). Unlike Social Security tax, there is no wage cap on Medicare tax - every dollar of earned income is subject to it.",
     category: "Medicare Coverage",
     dateUpdated: "July 8, 2026",
     lastReviewed: "2026-07-08",
@@ -32262,7 +32262,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "1.45% each (2.9% total)",
         coverageType: "covered",
         paragraphs: [
-          "The standard Medicare tax rate is 1.45% for employees and 1.45% for employers, totaling 2.9% of all wages. This tax is part of FICA (Federal Insurance Contributions Act) and is automatically withheld from your paycheck. Your employer pays the other 1.45% on your behalf -- you never see this amount deducted from your pay.",
+          "The standard Medicare tax rate is 1.45% for employees and 1.45% for employers, totaling 2.9% of all wages. This tax is part of FICA (Federal Insurance Contributions Act) and is automatically withheld from your paycheck. Your employer pays the other 1.45% on your behalf - you never see this amount deducted from your pay.",
           "Unlike Social Security tax, which has a wage base limit ($184,500 in 2026), the Medicare tax has no income cap. Every dollar you earn in wages, salaries, and tips is subject to the 1.45% Medicare tax, regardless of how much you make. This means someone earning $50,000 pays $725 in Medicare tax, while someone earning $500,000 pays $7,250 (before the Additional Medicare Tax kicks in).",
           "The Medicare tax funds the [Hospital Insurance (HI) Trust Fund](/blog/medicare-part-a-trust-fund), which pays for Medicare Part A benefits including inpatient hospital care, skilled nursing facility stays, hospice care, and some home health services. When you see 'MedFICA' or 'Medicare' on your pay stub, this is the 1.45% being withheld.",
         ],
@@ -32279,7 +32279,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Extra 0.9% above thresholds",
         coverageType: "partial",
         paragraphs: [
-          "Since 2013, an Additional Medicare Tax of 0.9% applies to earned income above certain thresholds. This brings the total Medicare tax rate to 2.35% (1.45% + 0.9%) on income above the threshold for employees. Employers do not match this additional tax -- it is paid entirely by the employee.",
+          "Since 2013, an Additional Medicare Tax of 0.9% applies to earned income above certain thresholds. This brings the total Medicare tax rate to 2.35% (1.45% + 0.9%) on income above the threshold for employees. Employers do not match this additional tax - it is paid entirely by the employee.",
           "The Additional Medicare Tax thresholds are: $200,000 for single filers and head of household, $250,000 for married filing jointly, and $125,000 for married filing separately. These thresholds are not indexed for inflation and have not changed since the tax was introduced in 2013. Your employer must begin withholding the additional 0.9% once your wages exceed $200,000 in a calendar year, regardless of your filing status.",
           "If you are married filing jointly and your combined income exceeds $250,000, you may owe Additional Medicare Tax even if neither spouse individually earned over $200,000. In this case, you would calculate the tax owed on Form 8959 when filing your return and pay any difference. Conversely, if you are married filing jointly and your individual wages triggered withholding at $200,000 but your joint income is under $250,000, you can claim a credit for the over-withholding.",
         ],
@@ -32308,9 +32308,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Pays for Part A (Hospital Insurance)",
         coverageType: "covered",
         paragraphs: [
-          "The Medicare tax you pay during your working years funds [Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply) (Hospital Insurance). If you or your spouse paid Medicare taxes for at least 10 years (40 quarters), you qualify for premium-free Part A when you turn 65. This is why most people do not pay a monthly premium for Part A -- they already paid for it through decades of Medicare tax contributions.",
+          "The Medicare tax you pay during your working years funds [Medicare Part A](/blog/medicare-parts-a-b-c-and-d-explained-simply) (Hospital Insurance). If you or your spouse paid Medicare taxes for at least 10 years (40 quarters), you qualify for premium-free Part A when you turn 65. This is why most people do not pay a monthly premium for Part A - they already paid for it through decades of Medicare tax contributions.",
           "Medicare Part A covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health services. The [Part A Trust Fund](/blog/medicare-part-a-trust-fund) collects all Medicare payroll tax revenue and uses it to pay these benefits. The fund is currently projected to be depleted by 2031, at which point it could only cover about 89% of scheduled benefits from incoming tax revenue.",
-          "It is important to understand that Medicare tax only funds Part A. Medicare Part B (outpatient/doctor visits) and Part D (prescription drugs) are funded separately through a combination of general tax revenues and monthly premiums paid by beneficiaries. If your income is high enough, you may also pay [IRMAA surcharges](/faqs/irmaa) on your Part B and Part D premiums -- but that is a separate system from the Medicare payroll tax.",
+          "It is important to understand that Medicare tax only funds Part A. Medicare Part B (outpatient/doctor visits) and Part D (prescription drugs) are funded separately through a combination of general tax revenues and monthly premiums paid by beneficiaries. If your income is high enough, you may also pay [IRMAA surcharges](/faqs/irmaa) on your Part B and Part D premiums - but that is a separate system from the Medicare payroll tax.",
         ],
       },
       {
@@ -32321,7 +32321,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "People often confuse the Medicare tax (a payroll tax on earned income) with [IRMAA](/faqs/irmaa) (Income-Related Monthly Adjustment Amount, a surcharge on Medicare premiums based on total income). These are two completely separate systems that affect you at different stages of life.",
-          "Medicare tax is paid during your working years on earned income (wages and self-employment income). It funds Part A and determines whether you qualify for premium-free Part A at age 65. IRMAA, on the other hand, is assessed after you enroll in Medicare and is based on your Modified Adjusted Gross Income (MAGI) from two years prior. IRMAA applies to all income sources including investments, pensions, and Social Security -- not just earned income.",
+          "Medicare tax is paid during your working years on earned income (wages and self-employment income). It funds Part A and determines whether you qualify for premium-free Part A at age 65. IRMAA, on the other hand, is assessed after you enroll in Medicare and is based on your Modified Adjusted Gross Income (MAGI) from two years prior. IRMAA applies to all income sources including investments, pensions, and Social Security - not just earned income.",
           "For 2026, the IRMAA threshold begins at $109,000 for single filers ($218,000 married filing jointly). If your income exceeds these levels, you pay higher monthly premiums for Part B and Part D. The highest IRMAA bracket (income above $500,000 single / $750,000 joint) adds $406.90 per month to your Part B premium alone. See our full [IRMAA brackets guide](/faqs/irmaa) for all 2026 thresholds and strategies to reduce your surcharge.",
         ],
       },
@@ -32342,12 +32342,12 @@ export const coverageArticles: CoverageArticleData[] = [
       checklist: {
         title: "Medicare Tax Quick Reference",
         items: [
-          "Check your pay stub for 'MedFICA' or 'Medicare' -- this is your 1.45% contribution being withheld each pay period",
-          "If you earn over $200,000, your employer will automatically begin withholding the additional 0.9% -- no action needed on your part",
+          "Check your pay stub for 'MedFICA' or 'Medicare' - this is your 1.45% contribution being withheld each pay period",
+          "If you earn over $200,000, your employer will automatically begin withholding the additional 0.9% - no action needed on your part",
           "If you are married filing jointly and your combined income exceeds $250,000, you may owe additional Medicare tax at filing even if neither spouse hit the $200,000 withholding threshold individually",
           "Self-employed? Remember you can deduct the employer-equivalent half (1.45%) of your Medicare tax on Form 1040 to reduce your AGI",
           "You need 40 quarters (10 years) of Medicare tax payments to qualify for premium-free Part A at age 65",
-          "Medicare tax has no income cap -- unlike Social Security tax, which stops at $184,500 in 2026",
+          "Medicare tax has no income cap - unlike Social Security tax, which stops at $184,500 in 2026",
           "Do not confuse Medicare payroll tax with IRMAA. The payroll tax funds Part A during working years; IRMAA is a premium surcharge in retirement based on total income",
           "If you are approaching retirement with high income, review our [IRMAA guide](/faqs/irmaa) to understand how your income will affect Medicare premiums",
         ],
@@ -32383,7 +32383,7 @@ export const coverageArticles: CoverageArticleData[] = [
     sidebarRelatedLinks: ["irmaa", "medicare-part-a-trust-fund", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-parts-a-b-c-and-d-explained-simply"],
     ctaBanner: {
       title: "Questions About Medicare Costs and Premiums?",
-      text: "Understanding how Medicare is funded is just the beginning. Our licensed agents can help you find the right Medicare plan to minimize your out-of-pocket costs in retirement -- at no charge to you.",
+      text: "Understanding how Medicare is funded is just the beginning. Our licensed agents can help you find the right Medicare plan to minimize your out-of-pocket costs in retirement - at no charge to you.",
     },
     relatedSlugs: ["irmaa", "medicare-part-a-trust-fund", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "medicare-parts-a-b-c-and-d-explained-simply", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "deductible-copay-coinsurance-premium"],
   },
