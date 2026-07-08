@@ -20,6 +20,20 @@ export interface ArticleSection {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "2026-aep-prep-checklist",
+    title: "2026 AEP Prep Checklist: Get Ready for 2027 Changes",
+    excerpt:
+      "The Medicare Annual Enrollment Period runs October 15 through December 7. Use this step-by-step checklist to review your current plan, compare 2027 options, and make confident coverage decisions before the deadline.",
+    category: "Enrollment",
+    categoryColor: "#D97706",
+    date: "July 8, 2026",
+    author: "David Haass",
+    reviewer: "Ashlee Zareczny",
+    readTime: "10 min read",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop",
+  },
+  {
     slug: "medicare-at-65-month-by-month-timeline",
     title: "Medicare at 65: A Month-by-Month Timeline of What to Do and When",
     excerpt:
