@@ -168,6 +168,7 @@ const nextConfig: NextConfig = {
       { source: "/blog/medicare-supplement-plan-g-reviews", destination: "/faqs/medicare-plan-g-reviews", permanent: true },
       { source: "/blog/medicare-supplement-plan-g-vs-plan-f", destination: "/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n", permanent: true },
       { source: "/blog/medicare-supplement-plan-g-vs-plan-n", destination: "/faqs/medicare-supplement-plan-f-vs-plan-g-vs-plan-n", permanent: true },
+      { source: "/blog/medicare-tax-rate", destination: "/faqs/medicare-tax-rate", permanent: true },
 
       // ── High-deductible plan slug corrections ──
       { source: "/medicare-supplement-plans/plan-high-deductible-f", destination: "/medicare-supplement-plans/high-deductible-plan-f", permanent: true },
