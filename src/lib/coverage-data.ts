@@ -32241,7 +32241,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "9 min read",
     quickAnswer: {
-      text: "The Medicare tax rate in 2026 is **1.45%** for employees and **1.45%** for employers (**2.9%** combined). Self-employed individuals pay the full **2.9%** as part of self-employment tax. An Additional Medicare Tax of **0.9%** applies to earnings exceeding **$200,000** for single filers, **$250,000** for married filing jointly, or **$125,000** for married filing separately. Unlike Social Security tax, there is no income cap on Medicare tax. The Medicare tax funds Part A (hospital insurance), which covers inpatient hospital stays, skilled nursing, hospice, and some home health care.",
+      text: "The Medicare tax rate in 2026 is <strong>1.45%</strong> for employees and <strong>1.45%</strong> for employers (<strong>2.9%</strong> combined). Self-employed individuals pay the full <strong>2.9%</strong> as part of self-employment tax. An Additional Medicare Tax of <strong>0.9%</strong> applies to earnings exceeding <strong>$200,000</strong> for single filers, <strong>$250,000</strong> for married filing jointly, or <strong>$125,000</strong> for married filing separately. Unlike Social Security tax, there is no income cap on Medicare tax. The Medicare tax funds Part A (hospital insurance), which covers inpatient hospital stays, skilled nursing, hospice, and some home health care.",
       badges: [
         { plan: "Employee Rate", status: "covered" },
         { plan: "Employer Rate", status: "covered" },
