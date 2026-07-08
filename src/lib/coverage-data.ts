@@ -1671,7 +1671,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers dental implants and more.",
     },
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-chiropractic-care", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors", "dental-and-vision-insurance-for-seniors", "medicare-paperless-billing", "all-in-one-medicare-plan", "ambulance-and-medicare-coverage", "average-cost-of-medicare-advantage", "can-you-get-medicare-without-receiving-social-security-benefits", "coverage-gap-discount-program", "delay-medicare", "differences-between-medicare-and-social-security", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "do-i-really-need-supplemental-insurance-with-medicare", "does-medicare-cover-a-biopsy", "does-medicare-cover-alzheimers-care", "does-medicare-cover-an-echocardiogram", "does-medicare-cover-asthma-inhalers", "does-medicare-cover-atrial-fibrillation", "does-medicare-cover-atrial-fibrillation-afib", "does-medicare-cover-bathroom-safety-devices", "does-medicare-cover-botox", "does-medicare-cover-cataract-surgery", "does-medicare-cover-cologuard", "does-medicare-cover-copd", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-eye-exams", "does-medicare-cover-glasses", "does-medicare-cover-wegovy", "extra-help-low-income-subsidy", "fehb-and-medicare", "medicare-appeals-process", "medicare-benefits", "medicare-changes", "medicare-coverage-for-diabetic-shoes", "medicare-coverage-for-hearing-aids", "medicare-diabetes", "medicare-give-back-benefit", "medicare-reimbursement", "medicare-silversneakers-program", "medicare-vision-care-coverage", "medicare-visiting-angels", "what-medicare-doesnt-cover-common-surprises", "will-medicare-pay-for-a-nebulizer-machine"],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "does-medicare-cover-dentures", "does-medicare-cover-root-canals", "medicare-and-vision-dental-and-hearing-what-are-your-options", "will-medicare-supplement-plan-g-pay-for-anesthesia-for-pain-management", "does-medicare-cover-glaucoma", "medicare-coverage-for-botox-treatments", "does-medicare-cover-varicose-veins", "does-medicare-cover-chiropractic-care", "does-medicare-cover-knee-replacement", "will-medicare-cover-naturopathy", "medicare-coverage-for-lower-back-pain-management", "does-medicare-cover-acupuncture", "top-5-dental-insurance-for-seniors", "dental-and-vision-insurance-for-seniors", "medicare-paperless-billing", "all-in-one-medicare-plan", "ambulance-and-medicare-coverage", "average-cost-of-medicare-advantage", "can-you-get-medicare-without-receiving-social-security-benefits", "coverage-gap-discount-program", "delay-medicare", "differences-between-medicare-and-social-security", "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends", "do-i-really-need-supplemental-insurance-with-medicare", "does-medicare-cover-a-biopsy", "does-medicare-cover-alzheimers-care", "does-medicare-cover-an-echocardiogram", "does-medicare-cover-asthma-inhalers", "does-medicare-cover-atrial-fibrillation", "does-medicare-cover-atrial-fibrillation-afib", "does-medicare-cover-bathroom-safety-devices", "does-medicare-cover-botox", "does-medicare-cover-cataract-surgery", "does-medicare-cover-cologuard", "does-medicare-cover-copd", "does-medicare-cover-end-stage-renal-disease", "does-medicare-cover-eye-exams", "does-medicare-cover-glasses", "does-medicare-cover-wegovy", "extra-help-low-income-subsidy", "fehb-and-medicare", "medicare-appeals-process", "medicare-benefits", "medicare-changes", "medicare-coverage-for-diabetic-shoes", "does-medicare-cover-hearing-aids", "medicare-diabetes", "medicare-give-back-benefit", "medicare-reimbursement", "medicare-silversneakers-program", "medicare-vision-care-coverage", "medicare-visiting-angels", "what-medicare-doesnt-cover-common-surprises", "will-medicare-pay-for-a-nebulizer-machine"],
   },
   {
     slug: "does-medicare-cover-glasses",
@@ -1770,7 +1770,7 @@ export const coverageArticles: CoverageArticleData[] = [
     seo: {
       title: "Does Medicare Cover Hearing Aids",
       description: "Medicare alone does not cover hearing aids. Find out if your supplemental Medicare benefits include coverage for hearing aids here.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-hearing-aids/",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-hearing-aids/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hearing-aids.jpg",
     },
     title: "Does Medicare Cover Hearing Aids?",
@@ -2591,7 +2591,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Help Understanding Your Coverage?",
       text: "Our licensed agents can help you find the right Medicare plan that covers hospice and palliative care and more.",
     },
-    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-calendar-year-and-benefit-periods", "medicare-8-minute-rule", "medicare-visiting-angels", "does-medicare-cover-speech-therapy", "does-medicare-cover-glasses", "does-medicare-cover-glaucoma", "does-medicare-cover-hepatitis-c-screening", "eliquis-cost-with-medicare", "manufacturers-coupons-and-medicare", "married-divorced-widowed-how-relationship-status-affects-medicare", "medicare-and-divorce", "medicare-and-employer-coverage", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "medicare-coverage-for-hearing-aids", "medicare-vision-care-coverage", "medicare-vs-medicaid", "native-american-health-and-medicare", "new-medicare-changes", "protect-yourself-from-medicare-penalties-and-deadlines", "what-is-medicare-cost-sharing"],
+    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-calendar-year-and-benefit-periods", "medicare-8-minute-rule", "medicare-visiting-angels", "does-medicare-cover-speech-therapy", "does-medicare-cover-glasses", "does-medicare-cover-glaucoma", "does-medicare-cover-hepatitis-c-screening", "eliquis-cost-with-medicare", "manufacturers-coupons-and-medicare", "married-divorced-widowed-how-relationship-status-affects-medicare", "medicare-and-divorce", "medicare-and-employer-coverage", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-hearing-aids", "medicare-vision-care-coverage", "medicare-vs-medicaid", "native-american-health-and-medicare", "new-medicare-changes", "protect-yourself-from-medicare-penalties-and-deadlines", "what-is-medicare-cost-sharing"],
   },
   {
     slug: "does-medicare-cover-dentures",
@@ -13363,7 +13363,7 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedTopics: [
       { title: "What Dental Services Does Medicare Cover?", description: "Learn about the limited dental services that Medicare does cover.", slug: "what-dental-expenses-does-medicare-cover" },
       { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including dental.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
-      { title: "Does Medicare Cover Hearing Aids?", description: "Learn about Medicare's coverage for hearing aids and audiology services.", slug: "medicare-coverage-for-hearing-aids" },
+      { title: "Does Medicare Cover Hearing Aids?", description: "Learn about Medicare's coverage for hearing aids and audiology services.", slug: "does-medicare-cover-hearing-aids" },
       { title: "What is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and what they cover.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" }],
     sidebarRelatedLinks: [
       "What Dental Services Does Medicare Cover",
@@ -13374,7 +13374,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Need Dental Coverage with Medicare?",
       text: "Our licensed Medicare agents can help you find a Medicare Advantage plan with dental benefits or a standalone dental plan that fits your needs. Compare plans in your area for free.",
     },
-    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "medicare-advantage-extra-benefits-explained-whats-really-included", "medicare-coverage-for-hearing-aids", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-coverage-for-cancer"],
+    relatedSlugs: ["what-dental-expenses-does-medicare-cover", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-hearing-aids", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-coverage-for-cancer"],
   },
 
   // ─── Medicare Coverage for Erectile Dysfunction ──────────────────────────────
@@ -15229,212 +15229,6 @@ export const coverageArticles: CoverageArticleData[] = [
       text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for diabetic shoes and other diabetes supplies. Compare plans in your area for free.",
     },
     relatedSlugs: ["medicare-diabetes", "durable-medical-equipment", "does-medicare-cover-chiropractic-care", "plan-g", "medicare-coverage-for-diabetic-shoes"],
-  },
-
-  // ─── Medicare Coverage for Hearing Aids ──────────────────────────────────────
-  {
-    slug: "medicare-coverage-for-hearing-aids",
-    seo: {
-      title: "Does Medicare Cover Hearing Aids?",
-      description: "Original Medicare does not cover hearing aids. Learn about your options through Medicare Advantage, OTC hearing aids, and how to reduce hearing aid costs.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-hearing-aids/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hearing-aids.jpg",
-    },
-    title: "Does Medicare Cover Hearing Aids?",
-    subtitle: "Original Medicare does not cover hearing aids or hearing aid fitting exams. However, Medicare Advantage plans may offer hearing benefits, and over-the-counter hearing aids are now available. Learn about your options and how to reduce hearing aid costs.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 15, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "No, Original Medicare (Part A and Part B) does not cover hearing aids or exams for fitting hearing aids. Medicare does not consider hearing aids medically necessary. However, Medicare Part B does cover diagnostic hearing exams when ordered by a doctor for a medical reason. Medicare Advantage plans may offer hearing aid benefits that vary by plan. Over-the-counter (OTC) hearing aids are available without a prescription for $250–$3,000 per pair, but Medicare does not cover them.",
-      badges: [
-        { plan: "Original Medicare", status: "not-covered" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Diagnostic Hearing Exams", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare (Part A & B)", coverage: "Not Covered", icon: "x", notes: "Does not cover hearing aids or hearing aid fitting exams" },
-      { planType: "Medicare Part B (diagnostic exams)", coverage: "Covered", icon: "shield", notes: "Covers diagnostic hearing exams when ordered by a doctor for a medical reason" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Varies", icon: "heart", notes: "Some plans offer hearing aid benefits; coverage varies by plan and location" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "x", notes: "Does not cover hearing aids; only supplements what Original Medicare covers" },
-      { planType: "Cochlear implants", coverage: "Covered", icon: "shield", notes: "Covered by Medicare Part B when medically necessary" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Not Covered",
-        coverageType: "not-covered",
-        statusBadge: "Does not cover hearing aids or hearing aid fitting exams",
-        paragraphs: [
-          "[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) (Medicare Part A and Part B) does not provide coverage for hearing aids or exams for fitting hearing aids. When Medicare was established in 1965, hearing aids were specifically excluded from benefits in the Social Security Act. CMS still does not consider hearing aids medically necessary, so beneficiaries are responsible for 100% of hearing aid costs under Original Medicare.",
-          "However, [Medicare Part B](/faqs/what-is-medicare-part-b) does cover diagnostic hearing and balance exams when a doctor orders them for a medical reason - for example, if you have a history of falling regularly or your provider suspects a medical condition affecting your hearing. If a diagnostic exam reveals hearing loss, Medicare will not pay for hearing aids to treat it.",
-          "Medicare Part B also covers cochlear implants when medically necessary. Cochlear implants are surgically implanted devices for severe hearing loss and are classified differently from hearing aids under Medicare's coverage rules."],
-        whatItCovers: [
-          "Diagnostic hearing and balance exams (when ordered by a doctor for a medical reason)",
-          "Cochlear implants (when medically necessary)",
-          "Treatment of medical conditions affecting hearing (ear infections, etc.)"],
-        whatItDoesntCover: [
-          "Hearing aids (any type, including prescription and OTC)",
-          "Hearing aid fitting exams",
-          "Hearing aid batteries or repairs",
-          "Routine hearing screenings without a medical reason"],
-        costNote: "Diagnostic hearing exams: 20% coinsurance after $283 Part B deductible (2026). Hearing aids: 100% out of pocket ($250–$8,000+ per pair).",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        statusBadge: "Some plans offer hearing aid benefits - coverage varies",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) (Medicare Part C) may offer hearing benefits that include hearing aid coverage. However, not all plans have this benefit, and the coverage varies by plan and location. Some plans may cover a portion of hearing aid costs, while others may offer a fixed annual hearing benefit allowance.",
-          "Before signing up for a Medicare Advantage plan for hearing aid coverage, verify that the plan is available in your area, that it includes hearing aid benefits, and that the network includes a reputable audiologist. Also check the plan's maximum hearing benefit amount, as it may not cover the full cost of premium hearing aids.",
-          "When you enroll in a Medicare Advantage plan with hearing benefits, budget for out-of-pocket costs such as copayments, coinsurance, and the plan's deductible. If you purchase hearing aids, keep the plan's maximum hearing benefit in mind."],
-        whatItCovers: [
-          "Hearing aids - if your plan includes hearing benefits (varies by plan)",
-          "Hearing exams and audiologist visits (varies by plan)",
-          "All diagnostic hearing exams covered by Original Medicare"],
-        whatItDoesntCover: [
-          "Hearing aids if your plan does not include hearing benefits",
-          "Out-of-network audiologists (unless your plan allows out-of-network benefits)",
-          "Costs exceeding your plan's maximum hearing benefit allowance"],
-        callout: {
-          type: "tip",
-          title: "Compare Medicare Advantage Hearing Benefits",
-          text: "Medicare Advantage hearing benefits vary widely by plan. Some plans offer $0 copay hearing exams and up to $2,500 in hearing aid benefits per year. Compare plans in your area to find the best hearing coverage for your needs.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Not Covered",
-        coverageType: "not-covered",
-        statusBadge: "Does not cover hearing aids",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) only cover the out-of-pocket balance of what Original Medicare covers. Because Original Medicare does not cover hearing aids, Medigap plans do not cover them either.",
-          "However, Medigap does cover the 20% Part B coinsurance for diagnostic hearing exams that Medicare covers. If your doctor orders a medically necessary hearing exam, Medigap Plan G will cover the coinsurance after your $283 annual deductible.",
-          "You can enroll in a separate insurance policy that includes [hearing, vision, and dental coverage](/faqs/medicare-and-vision-dental-and-hearing-what-are-your-options) to supplement your Medigap plan. These standalone policies are available from various carriers and can help cover hearing aids and other services that Medicare excludes."],
-        whatItCovers: [
-          "Part B coinsurance (20%) for covered diagnostic hearing exams",
-          "Part B coinsurance for cochlear implant procedures"],
-        whatItDoesntCover: [
-          "Hearing aids (not covered by Original Medicare)",
-          "Hearing aid fitting exams",
-          "Routine hearing screenings"],
-        costNote: "Medigap covers coinsurance for covered hearing services only. Hearing aids are 100% out of pocket unless you have a separate hearing insurance policy.",
-      }],
-    costTable: {
-      title: "Hearing Aid Costs and Medicare Coverage (2026)",
-      headers: ["Item", "Medicare Coverage", "Estimated Cost", "Notes"],
-      rows: [
-        {
-          "Item": "Prescription hearing aids (per pair)",
-          "Medicare Coverage": "Not covered",
-          "Estimated Cost": "$1,000–$8,000",
-          "Notes": "Average $4,600/pair; includes fitting, adjustments, warranty",
-        },
-        {
-          "Item": "OTC hearing aids (per pair)",
-          "Medicare Coverage": "Not covered",
-          "Estimated Cost": "$250–$3,000",
-          "Notes": "Average $1,600/pair; available without prescription since Oct 2022",
-        },
-        {
-          "Item": "Diagnostic hearing exam (medically necessary)",
-          "Medicare Coverage": "80% after deductible",
-          "Estimated Cost": "20% coinsurance + $283 deductible",
-          "Notes": "Covered under Part B when ordered by a doctor",
-        },
-        {
-          "Item": "Hearing aid fitting exam",
-          "Medicare Coverage": "Not covered",
-          "Estimated Cost": "$50–$250 (full cost)",
-          "Notes": "Not covered by Original Medicare or Medigap",
-        },
-        {
-          "Item": "Cochlear implant (surgery + device)",
-          "Medicare Coverage": "80% after deductible",
-          "Estimated Cost": "20% coinsurance + $283 deductible",
-          "Notes": "Covered under Part B when medically necessary",
-        }],
-      footnote: "Costs based on 2026 Medicare figures and industry averages. Actual hearing aid prices vary by brand, technology level, and provider.",
-    },
-    exceptionsSection: {
-      title: "Alternatives for Hearing Aid Coverage",
-      items: [
-        {
-          title: "Over-the-Counter (OTC) Hearing Aids",
-          text: "Since October 2022, the FDA has approved over-the-counter hearing aids for adults with mild to moderate hearing loss. OTC hearing aids are available in stores and online without a medical exam or prescription, and they typically cost $250–$3,000 per pair - significantly less than prescription hearing aids. However, Original Medicare does not cover OTC hearing aids. If you have more significant hearing loss, you may still need prescription hearing aids from an audiologist.",
-          highlight: "OTC hearing aids are designed for mild to moderate hearing loss only. If you have trouble hearing louder sounds or conversations in quiet rooms, consult an audiologist for a proper evaluation.",
-        },
-        {
-          title: "Standalone Hearing Insurance and Assistance Programs",
-          text: "If you need hearing aid coverage, you can enroll in a standalone hearing, vision, and dental insurance policy. These policies are available from various carriers and can help cover hearing aids, hearing exams, and other services that Medicare excludes. Additionally, some state Medicaid programs cover hearing aids for low-income beneficiaries. If you have both Medicare and Medicaid (dual eligible), Medicaid may cover hearing aids that Medicare does not.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Hearing Aids?",
-        answer: "No. Original Medicare (Part A and Part B) does not cover hearing aids or hearing aid fitting exams. Medicare does not consider hearing aids medically necessary. Some Medicare Advantage plans may offer hearing aid benefits that vary by plan and location.",
-      },
-      {
-        question: "Does Medicare Part B Cover Hearing Aids?",
-        answer: "No. Medicare Part B does not cover hearing aids. However, Part B does cover diagnostic hearing and balance exams when ordered by a doctor for a medical reason. If a diagnostic exam reveals hearing loss, Medicare will not pay for hearing aids.",
-      },
-      {
-        question: "Does Medicare Part D Cover Hearing Aids?",
-        answer: "No. Medicare Part D covers prescription drugs only. Hearing aids are medical devices, not prescription drugs, and are not covered under Part D.",
-      },
-      {
-        question: "How Much do Hearing Aids Cost without Medicare Coverage?",
-        answer: "Prescription hearing aids typically cost $1,000–$8,000 per pair, with an average of $4,600. This often includes consultation, hearing test, fitting, adjustments, and warranty. Over-the-counter hearing aids cost $250–$3,000 per pair, with an average of $1,600.",
-      },
-      {
-        question: "Does Medicare Cover Cochlear Implants?",
-        answer: "Yes. Medicare Part B covers cochlear implants when medically necessary. Cochlear implants are surgically implanted devices for severe hearing loss and are classified differently from hearing aids. You pay 20% coinsurance after your Part B deductible.",
-      },
-      {
-        question: "Does TRICARE for Life Cover Hearing Aids?",
-        answer: "Yes. TRICARE for Life covers hearing aids for eligible military retirees. TRICARE provides coverage for one hearing aid per ear every three years. If you have both Medicare and TRICARE for Life, TRICARE may cover hearing aids that Medicare does not.",
-      }],
-    quickReference: [
-      { icon: "x", text: "<strong>Original Medicare does NOT cover</strong> hearing aids or hearing aid fitting exams" },
-      { icon: "check", text: "<strong>Diagnostic hearing exams</strong> covered under Part B when ordered by a doctor" },
-      { icon: "check", text: "Some <strong>Medicare Advantage plans</strong> offer hearing aid benefits (varies by plan)" },
-      { icon: "check", text: "<strong>Cochlear implants</strong> covered under Part B when medically necessary" },
-      { icon: "info", text: "<strong>OTC hearing aids</strong> available without prescription for $250–$3,000/pair (not covered by Medicare)" },
-      { icon: "info", text: "<strong>Standalone hearing insurance</strong> available to supplement Medicare coverage" }],
-    relatedTopics: [
-      { title: "Medicare and Vision, Dental, and Hearing Options", description: "Explore your options for hearing, vision, and dental coverage with Medicare.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
-      { title: "Medicare Advantage Extra Benefits Explained", description: "Discover the extra benefits available through Medicare Advantage plans, including hearing coverage.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
-      { title: "Does Medicare Cover Glasses?", description: "Learn about Medicare's coverage for vision care and eyeglasses.", slug: "does-medicare-cover-glasses" },
-      { title: "Original Medicare vs. Medicare Advantage", description: "Compare Original Medicare and Medicare Advantage to find the best fit for your hearing needs.", slug: "original-medicare-vs-medicare-advantage" }],
-    sidebarRelatedLinks: [
-      "Medicare and Vision, Dental, and Hearing Options",
-      "Medicare Advantage Extra Benefits Explained",
-      "Does Medicare Cover Glasses",
-      "Original Medicare vs. Medicare Advantage"],
-    ctaBanner: {
-      title: "Need Help Finding Hearing Aid Coverage?",
-      text: "Our licensed Medicare agents can help you find a Medicare Advantage plan with hearing benefits or a standalone hearing insurance policy. Compare plans in your area for free.",
-    },
-    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-glasses", "original-medicare-vs-medicare-advantage", "medicare-advantage-denied-claims-crisis"],
   },
 
   // ─── Medicare Coverage for Hip Injections ──────────────────────────────────
