@@ -7,11 +7,11 @@
 import type { BlogArticleData } from "./article-types";
 export const blogArticles: BlogArticleData[] = [
   {
-    slug: "2026-aep-prep-checklist",
+    slug: "aep-prep-checklist",
     seo: {
       title: "2026 AEP Prep Checklist: Get Ready for 2027 Medicare Changes",
       description: "Your complete AEP checklist for the 2026 Medicare Annual Enrollment Period (October 15 - December 7). Step-by-step guide to reviewing plans, comparing costs, and making smart coverage decisions for 2027.",
-      canonical: "https://www.medicarefaq.com/blog/2026-aep-prep-checklist/",
+      canonical: "https://www.medicarefaq.com/blog/aep-prep-checklist/",
       ogImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1200&q=80",
       focusKeyword: "aep checklist",
     },

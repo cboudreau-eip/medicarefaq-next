@@ -20,7 +20,7 @@ export interface ArticleSection {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: "2026-aep-prep-checklist",
+    slug: "aep-prep-checklist",
     title: "2026 AEP Prep Checklist: Get Ready for 2027 Changes",
     excerpt:
       "The Medicare Annual Enrollment Period runs October 15 through December 7. Use this step-by-step checklist to review your current plan, compare 2027 options, and make confident coverage decisions before the deadline.",
