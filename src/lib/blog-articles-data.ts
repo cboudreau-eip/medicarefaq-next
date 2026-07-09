@@ -1023,6 +1023,9 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "8 min read",
     featured: false,
     image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=500&fit=crop",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19470590-medicare-s-part-d-payment-plan-in-2026.mp3?download=true",
+    podcastDate: "July 9, 2026",
+    podcastDuration: "5:00",
     tableOfContents: [
       { id: "what-is-the-medicare-prescription-payment-plan", title: "What Is the Medicare Prescription Payment Plan?" },
       { id: "how-the-2100-out-of-pocket-cap-works-in-2026", title: "How the $2,100 Out-of-Pocket Cap Works in 2026" },
