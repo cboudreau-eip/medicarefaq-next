@@ -32197,10 +32197,10 @@ export const coverageArticles: CoverageArticleData[] = [
     dateUpdated: "July 8, 2026",
     lastReviewed: "2026-07-08",
     author: {
-      name: "Lindsay Malzone",
-      initials: "LM",
+      name: "David Haass",
+      initials: "DH",
       role: "Author",
-      bio: "Lindsay Malzone is a Medicare expert and licensed insurance agent. She has been in the Medicare industry for over 10 years, educating beneficiaries on their coverage options.",
+      bio: "David Haass is a Medicare expert and licensed insurance agent. He specializes in helping beneficiaries navigate their Medicare options and find the right coverage for their needs.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
