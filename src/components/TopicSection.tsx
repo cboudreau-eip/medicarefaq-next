@@ -124,7 +124,7 @@ export default function TopicSection() {
                     <h3 className="font-bold text-[#1B2A4A] text-[15px] mb-1 group-hover:text-[#1B2A4A]">
                       {topic.title}
                     </h3>
-                    <p className="text-[13px] text-[#6B7280] leading-relaxed mb-2">
+                    <p className="text-[17px] text-[#6B7280] leading-relaxed mb-2">
                       {topic.description}
                     </p>
                     <div className="flex items-center justify-between">
