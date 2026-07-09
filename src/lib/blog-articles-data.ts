@@ -1007,7 +1007,7 @@ export const blogArticles: BlogArticleData[] = [
 {
     seo: {
     title: "Medicare's Part D Payment Plan in 2026: How the $2,100 Cap Works",
-    description: "Learn how the Medicare Prescription Payment Plan works in 2026, who qualifies, how to enroll, and how the $2,100 out-of-pocket cap helps you budget for prescription drug costs.",
+    description: "Learn how the Medicare Prescription Payment Plan works in 2026, who qualifies, how to enroll, and how the $2,000 cap helps you budget drug costs.",
     canonical: "https://www.medicarefaq.com/blog/medicare-part-d-payment-plan-2026/",
     ogImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=500&fit=crop",
   },
