@@ -6030,7 +6030,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: `switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know`,
-    seo: {title: `Switching from Medicare Advantage to Original Medicare: What You Need to Know`, description: `Switching from Medicare Advantage to Original Medicare is possible during specific enrollment periods. Understand your options, timing, and coverage changes before making the switch.`, canonical: `https://www.medicarefaq.com/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
+    seo: {title: `Switching from Medicare Advantage to Original Medicare: What You Need to Know`, description: `Learn when and how to switch from Medicare Advantage to Original Medicare, including enrollment windows, Medigap eligibility, and what changes to expect.`, canonical: `https://www.medicarefaq.com/blog/switching-from-medicare-advantage-to-original-medicare-what-you-need-to-know/`, ogImage: `https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg`},
     title: `Switching from Medicare Advantage to Original Medicare: What You Need to Know`,
     excerpt: `Switching from Medicare Advantage to Original Medicare is possible during specific enrollment periods. Understand your options, timing, and coverage changes before making the switch.`,
     category: `Medicare Plans`,
