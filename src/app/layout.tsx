@@ -81,6 +81,15 @@ export default function RootLayout({
           src="https://solutions.invocacdn.com/js/invoca-latest.min.js"
         />
 
+        {/* VWO SmartCode */}
+        <Script
+          id="vwoCode"
+          strategy="afterInteractive"
+          src="https://dev.visualwebsiteoptimizer.com/lib/735615.js"
+          data-cfasync="false"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
