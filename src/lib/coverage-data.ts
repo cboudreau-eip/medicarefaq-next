@@ -10384,12 +10384,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "October 24, 2023",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is the Medicare Educator for MedicareFAQ and the founder, president, and CEO of Elite Insurance Partners and MedicareFAQ.com.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -18324,12 +18319,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is the Medicare Educator at MedicareFAQ and the founder of Elite Insurance Partners. He has helped thousands of Medicare beneficiaries understand their coverage options.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -18533,12 +18523,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is the Medicare Educator at MedicareFAQ and the founder of Elite Insurance Partners.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -18684,12 +18669,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is the Medicare Educator at MedicareFAQ and the founder of Elite Insurance Partners.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -18828,12 +18808,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is the Medicare Educator at MedicareFAQ and the founder of Elite Insurance Partners.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -18969,12 +18944,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "April 14, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is the Medicare Educator at MedicareFAQ and the founder of Elite Insurance Partners.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -21901,12 +21871,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare Eligibility",
     dateUpdated: "April 29, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is a licensed insurance agent and founder of MedicareFAQ.com.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -24260,12 +24225,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare FAQ",
     dateUpdated: "April 29, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is the founder and CEO of MedicareFAQ and a licensed Medicare insurance agent.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -25006,12 +24966,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Costs & Savings",
     dateUpdated: "April 29, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is the founder and CEO of MedicareFAQ and a licensed Medicare insurance agent.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
@@ -28439,12 +28394,7 @@ export const coverageArticles: CoverageArticleData[] = [
     category: "Medicare FAQ",
     dateUpdated: "April 28, 2026",
     lastReviewed: "2026-05-18",
-    author: {
-      name: "Jagger Esch",
-      initials: "JE",
-      role: "Author",
-      bio: "Jagger Esch is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
-    },
+    author: { name: "David Haass", initials: "DH", role: "Author", bio: "David Haass is a licensed Medicare insurance agent with years of experience helping beneficiaries understand their coverage options." },
     reviewer: {
       name: "Ashlee Zareczny",
       initials: "AZ",
