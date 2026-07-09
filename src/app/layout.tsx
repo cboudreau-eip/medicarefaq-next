@@ -84,7 +84,7 @@ export default function RootLayout({
         {/* VWO SmartCode */}
         <Script
           id="vwoCode"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
           src="https://dev.visualwebsiteoptimizer.com/lib/735615.js"
           data-cfasync="false"
           referrerPolicy="no-referrer-when-downgrade"
