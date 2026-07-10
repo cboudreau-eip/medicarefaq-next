@@ -31,7 +31,7 @@ export const blogPosts: BlogPost[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "11 min read",
     featured: false,
-    image: "https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1758691031749-607d43c14f63?auto=format&fit=crop&w=800&h=500&q=80",
   },
   {
     slug: "aep-prep-checklist",
