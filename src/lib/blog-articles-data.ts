@@ -8517,6 +8517,9 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "11 min read",
     featured: false,
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19475439-how-to-waive-medicare-part-d-penalties.mp3?download=true",
+    podcastDate: "July 10, 2026",
+    podcastDuration: "5:00",
     image: "https://images.unsplash.com/photo-1758691031749-607d43c14f63?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Elderly couple reviewing documents at home, representing Medicare Part D penalty waiver research and appeals process",
     keyTakeaways: [
