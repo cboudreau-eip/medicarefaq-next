@@ -20,6 +20,20 @@ export interface ArticleSection {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "part-d-penalty-waived",
+    title: "How to Get Your Medicare Part D Penalty Waived",
+    excerpt:
+      "Thousands pay the Medicare Part D late enrollment penalty unnecessarily. Find out how to get your Part D penalty waived, reduced, or appealed in 2026.",
+    category: "Medicare Costs",
+    categoryColor: "#C41230",
+    date: "July 10, 2026",
+    author: "David Haass",
+    reviewer: "Ashlee Zareczny",
+    readTime: "11 min read",
+    featured: false,
+    image: "https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop",
+  },
+  {
     slug: "aep-prep-checklist",
     title: "2026 AEP Prep Checklist: Get Ready for 2027 Changes",
     excerpt:
