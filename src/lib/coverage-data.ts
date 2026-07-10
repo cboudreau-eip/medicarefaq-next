@@ -2006,7 +2006,7 @@ export const coverageArticles: CoverageArticleData[] = [
   faqs: [
     {
       question: "Does TRICARE for Life Cover Hearing Aids?",
-      answer: "Hearing aids do not receive coverage from TRICARE for Life for retired service members or their families. However, if you are a former service member, you may be eligible for other government programs to help pay for hearing aids. If you enrolled at a VA Medical Center, you could obtain audiology services and hearing aids at the center for no cost. [CMS-TEST-EDIT-VERIFY-AND-REVERT]",
+      answer: "Hearing aids do not receive coverage from TRICARE for Life for retired service members or their families. However, if you are a former service member, you may be eligible for other government programs to help pay for hearing aids. If you enrolled at a VA Medical Center, you could obtain audiology services and hearing aids at the center for no cost.",
     },
     {
       question: "Does Medicare Part D Pay for Hearing Aids?",
