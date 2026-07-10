@@ -9815,8 +9815,9 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-medical-alert-systems",
     seo: {
+      focusKeyword: "Does Medicare Cover Medical Alert Systems?",
       title: "Does Medicare Cover Medical Alert Systems? Life Alert & More",
-      description: "Original Medicare does not cover Life Alert or medical alert systems. Some Medicare Advantage plans may include them as supplemental benefits. Learn about costs and alternatives.",
+      description: "Does Medicare Cover Medical Alert Systems? Original Medicare doesn't, but some Advantage plans include them as supplemental benefits. Learn costs and options.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-medical-alert-systems.jpg",
     },
