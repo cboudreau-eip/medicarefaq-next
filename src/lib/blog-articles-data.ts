@@ -8644,7 +8644,7 @@ export const blogArticles: BlogArticleData[] = [
       title: "What Happens to Your Medicare When You Go Back to Work?",
       description: "Already on Medicare and heading back to work? Learn how employer size, Part B, Medigap, and coordination of benefits all change when you return to the workforce.",
       canonical: "https://www.medicarefaq.com/blog/going-back-to-work-on-medicare/",
-      ogImage: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
+      ogImage: "https://images.unsplash.com/photo-1758612898691-afe3e1d08a0a?auto=format&fit=crop&w=1200&q=80",
       focusKeyword: "going back to work on Medicare",
     },
     title: "What Happens to Your Medicare When You Go Back to Work?",
@@ -8656,7 +8656,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1758612898691-afe3e1d08a0a?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Senior professional woman working at a desk, representing Medicare beneficiaries who return to work after retirement",
     keyTakeaways: [
       "Employer size is the single most important factor — if your new employer has 20 or more employees, their plan becomes primary and Medicare becomes secondary.",

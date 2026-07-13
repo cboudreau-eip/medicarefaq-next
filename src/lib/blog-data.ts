@@ -31,7 +31,7 @@ export const blogPosts: BlogPost[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&h=500&q=80",
+    image: "https://images.unsplash.com/photo-1758612898691-afe3e1d08a0a?auto=format&fit=crop&w=800&h=500&q=80",
   },
   {
     slug: "part-d-penalty-waived",
