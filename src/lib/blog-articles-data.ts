@@ -8715,6 +8715,7 @@ export const blogArticles: BlogArticleData[] = [
         ["Self-employed or no employer coverage offered", "No", "High. No creditable coverage to replace Part B"],
         ["Part-time with no benefits", "No", "High. No employer coverage to serve as primary"],
       ]},
+      { type: "paragraph", content: "For a complete breakdown of every scenario, including COBRA, VA benefits, and retiree coverage, read our full guide: [Can You Drop Medicare Part B?](/faqs/can-you-drop-medicare-part-b)" },
       { type: "paragraph", content: "One more important note: if you have a Medigap plan, dropping Part B also means losing your Medigap coverage, since Medigap requires active Part B enrollment. That creates an additional layer of risk discussed in the next section." },
 
       { type: "heading", level: 2, text: "What Happens to Your Medigap Plan?", id: "medigap" },
