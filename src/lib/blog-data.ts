@@ -20,6 +20,20 @@ export interface ArticleSection {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "going-back-to-work-on-medicare",
+    title: "What Happens to Your Medicare When You Go Back to Work?",
+    excerpt:
+      "Already on Medicare and heading back to work? Learn how employer size, Part B, Medigap, and coordination of benefits all change when you return to the workforce.",
+    category: "Medicare Basics",
+    categoryColor: "#1B2A4A",
+    date: "July 13, 2026",
+    author: "David Haass",
+    reviewer: "Ashlee Zareczny",
+    readTime: "10 min read",
+    featured: false,
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&h=500&q=80",
+  },
+  {
     slug: "part-d-penalty-waived",
     title: "How to Get Your Medicare Part D Penalty Waived",
     excerpt:
