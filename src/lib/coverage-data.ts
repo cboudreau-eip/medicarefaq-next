@@ -33211,11 +33211,12 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           title: "COBRA Does Not Count as Creditable Coverage",
           text: "COBRA continuation coverage does not qualify as creditable employer coverage for Medicare purposes. If you are on COBRA and have not enrolled in Part B, you should sign up immediately. Waiting until COBRA ends will not give you a Special Enrollment Period, and you may face the GEP timeline and a late penalty.",
+        },
+        {
+          title: "Eddie's Pro Tip: When in Doubt, Enroll During Your IEP",
+          text: "If you are approaching 65 and still working, sign up for Part B during your IEP even if you plan to keep your employer coverage. Here is why: if your employer has fewer than 20 employees, Medicare is primary anyway, and delaying Part B means you have a coverage gap right now. If your employer has 20+ employees, you can safely delay. But if you are unsure about your employer's size or your future employment, enrolling during the IEP eliminates all risk of penalties and coverage gaps later. The $185/month premium is almost always cheaper than the consequences of getting this wrong.",
+          highlight: "When in doubt, enroll in Part B during your IEP. The $185/month premium is almost always cheaper than the consequences of getting this wrong.",
         }],
-    },
-    eddieTip: {
-      title: "Eddie's Pro Tip",
-      text: "If you are approaching 65 and still working, sign up for Part B during your IEP even if you plan to keep your employer coverage. Here is why: if your employer has fewer than 20 employees, Medicare is primary anyway, and delaying Part B means you have a coverage gap right now. If your employer has 20+ employees, you can safely delay. But if you are unsure about your employer's size or your future employment, enrolling during the IEP eliminates all risk of penalties and coverage gaps later. The $185/month premium is almost always cheaper than the consequences of getting this wrong.",
     },
     faqs: [
       {
