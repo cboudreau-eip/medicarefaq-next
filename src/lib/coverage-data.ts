@@ -33034,4 +33034,250 @@ export const coverageArticles: CoverageArticleData[] = [
       "what-is-medicare-creditable-coverage",
     ],
   },
+
+  // ─── How Long Does It Take to Get Medicare Part B After Applying ─────────────
+  {
+    slug: "how-long-does-it-take-to-get-medicare-part-b",
+    seo: {
+      focusKeyword: "how long does it take to get medicare part b after applying",
+      title: "How Long Does It Take to Get Medicare Part B After Applying?",
+      description: "Medicare Part B can take 1 to 3 months to start after applying. Learn when coverage begins based on IEP, GEP, and SEP enrollment timelines.",
+      canonical: "https://www.medicarefaq.com/faqs/how-long-does-it-take-to-get-medicare-part-b/",
+      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    },
+    title: "How Long Does It Take to Get Medicare Part B After Applying?",
+    subtitle: "Medicare Part B processing typically takes 2 to 8 weeks, but when your coverage actually starts depends on which enrollment period you use. Learn the exact timelines for IEP, GEP, and SEP enrollment so you can plan ahead and avoid gaps in coverage.",
+    category: "Medicare Enrollment",
+    dateUpdated: "July 13, 2026",
+    lastReviewed: "2026-07-13",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "7 min read",
+    quickAnswer: {
+      text: "Medicare Part B applications are typically processed within 2 to 8 weeks, but the date your coverage actually starts depends on when you enroll. If you sign up during your Initial Enrollment Period (IEP), coverage can begin as early as the first day of your birthday month. If you enroll during the General Enrollment Period (January 1 through March 31), coverage does not start until July 1. Special Enrollment Period applicants generally receive coverage the first of the month after enrollment.",
+      badges: [
+        { plan: "Initial Enrollment Period", status: "covered" },
+        { plan: "General Enrollment Period", status: "partial" },
+        { plan: "Special Enrollment Period", status: "covered" }],
+    },
+    comparisonTable: [
+      { planType: "Initial Enrollment Period (IEP)", coverage: "1-3 months", icon: "shield", notes: "Coverage start depends on which month of the 7-month window you enroll" },
+      { planType: "General Enrollment Period (GEP)", coverage: "3-6 months wait", icon: "alert", notes: "Enroll Jan 1 - Mar 31, but coverage does not start until July 1" },
+      { planType: "Special Enrollment Period (SEP)", coverage: "1 month", icon: "heart", notes: "Coverage typically starts the first of the month after you enroll" },
+      { planType: "Disability (under 65)", coverage: "Automatic after 24 months", icon: "info", notes: "Part B starts automatically after 24 months of SSDI benefits" }],
+    planBreakdowns: [
+      {
+        planName: "Initial Enrollment Period (IEP)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Coverage Starts Within 1-3 Months",
+        coverageType: "covered",
+        statusBadge: "Best timeline for new enrollees turning 65",
+        paragraphs: [
+          "Your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) is a 7-month window that begins 3 months before your 65th birthday month, includes your birthday month, and extends 3 months after. When your Part B coverage starts depends on which month within this window you actually sign up.",
+          "If you enroll during the 3 months before your birthday month or during your birthday month itself, coverage starts on the first day of your birthday month. If you enroll during the 3 months after your birthday month, there is a delay of 1 to 3 months before coverage begins.",
+          "The application itself is processed relatively quickly (usually 2 to 4 weeks), but the coverage effective date follows a fixed schedule set by CMS regardless of processing speed."],
+        whatItCovers: [
+          "Enroll 3 months before birthday month: coverage starts the 1st of your birthday month",
+          "Enroll during birthday month: coverage starts the 1st of your birthday month",
+          "Enroll 1 month after birthday month: coverage starts 1 month later",
+          "Enroll 2 months after birthday month: coverage starts 2 months later",
+          "Enroll 3 months after birthday month: coverage starts 3 months later"],
+        whatItDoesntCover: [
+          "Any medical services received before your Part B effective date",
+          "Retroactive coverage for the gap period if you enrolled late in your IEP"],
+        costNote: "There is no penalty for enrolling during your IEP. The standard Part B premium in 2026 is $185.00 per month. Signing up early in your IEP window gives you the fastest coverage start date.",
+      },
+      {
+        planName: "General Enrollment Period (GEP)",
+        icon: "alert",
+        iconColor: "#D97706",
+        coverageLabel: "Coverage Starts July 1",
+        coverageType: "partial",
+        statusBadge: "Longest wait time of any enrollment method",
+        paragraphs: [
+          "If you missed your IEP and do not qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period), you must wait for the General Enrollment Period, which runs from January 1 through March 31 each year. Regardless of when during this window you apply, your Part B coverage will not start until July 1 of that year.",
+          "This means if you enroll on January 2, you will wait nearly 6 months for coverage to begin. If you enroll on March 31, you will still wait until July 1. During this gap, you have no Part B coverage and are responsible for 100% of outpatient medical costs.",
+          "Additionally, enrolling during the GEP typically means you will pay a [Part B late enrollment penalty](/faqs/medicare-part-b-late-enrollment-penalty) of 10% for every 12-month period you were eligible but did not enroll. This penalty is added to your monthly premium permanently."],
+        whatItCovers: [
+          "Enrollment window: January 1 through March 31 each year",
+          "Coverage effective date: always July 1 of the same year",
+          "Processing time: application processed within 2 to 8 weeks, but coverage date is fixed"],
+        whatItDoesntCover: [
+          "Any medical services between enrollment and July 1",
+          "Retroactive coverage for the months you were without Part B",
+          "Waiver of the late enrollment penalty (in most cases)"],
+        callout: {
+          type: "warning",
+          title: "The GEP Gap Can Be Costly",
+          text: "If you enroll in January and have a medical emergency in March, you have no Part B coverage. Plan ahead: if you know you missed your IEP, enroll on January 1 and budget for the gap period. Consider short-term health insurance to bridge the coverage gap until July 1.",
+        },
+      },
+      {
+        planName: "Special Enrollment Period (SEP)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Coverage Starts Next Month",
+        coverageType: "covered",
+        statusBadge: "Fastest path for those leaving employer coverage",
+        paragraphs: [
+          "If you delayed Medicare because you had [creditable employer coverage](/faqs/what-is-medicare-creditable-coverage), you qualify for a Special Enrollment Period. The SEP gives you 8 months after your employment ends (or your employer coverage ends, whichever comes first) to sign up for Part B without a penalty.",
+          "When you enroll during an SEP, your Part B coverage typically starts the first of the month after you sign up. This is significantly faster than the GEP timeline. For example, if you enroll on March 15, your coverage starts April 1.",
+          "You will need to provide documentation proving you had creditable employer coverage. This is done using CMS Form CMS-L564, which your employer's HR department fills out. Processing may take slightly longer (3 to 6 weeks) because Social Security must verify your employer coverage documentation."],
+        whatItCovers: [
+          "Coverage starts the 1st of the month after enrollment",
+          "No late enrollment penalty if you had creditable employer coverage",
+          "8-month enrollment window after employment or coverage ends",
+          "Processing time: 3 to 6 weeks for application with employer verification"],
+        whatItDoesntCover: [
+          "Retroactive coverage before your effective date",
+          "Situations where employer had fewer than 20 employees (you should have enrolled during IEP)"],
+        callout: {
+          type: "tip",
+          title: "Get Form CMS-L564 Before You Leave Your Job",
+          text: "Ask your employer to complete Form CMS-L564 before your last day. This form proves you had creditable coverage and speeds up your Part B enrollment. If you wait until after you leave, it can be harder to get HR to respond quickly.",
+        },
+      }],
+    costTable: {
+      title: "Part B Enrollment Timeline Summary (2026)",
+      headers: ["Enrollment Period", "When You Can Enroll", "Coverage Start Date", "Processing Time", "Penalty?"],
+      rows: [
+        {
+          "Enrollment Period": "IEP (3 months before birthday)",
+          "When You Can Enroll": "3 months before 65th birthday month",
+          "Coverage Start Date": "1st of birthday month",
+          "Processing Time": "2-4 weeks",
+          "Penalty?": "No",
+        },
+        {
+          "Enrollment Period": "IEP (birthday month)",
+          "When You Can Enroll": "Month you turn 65",
+          "Coverage Start Date": "1st of birthday month",
+          "Processing Time": "2-4 weeks",
+          "Penalty?": "No",
+        },
+        {
+          "Enrollment Period": "IEP (1 month after)",
+          "When You Can Enroll": "1 month after birthday month",
+          "Coverage Start Date": "1st of the following month",
+          "Processing Time": "2-4 weeks",
+          "Penalty?": "No",
+        },
+        {
+          "Enrollment Period": "IEP (2-3 months after)",
+          "When You Can Enroll": "2-3 months after birthday month",
+          "Coverage Start Date": "2-3 months after enrollment",
+          "Processing Time": "2-4 weeks",
+          "Penalty?": "No",
+        },
+        {
+          "Enrollment Period": "General Enrollment Period",
+          "When You Can Enroll": "January 1 - March 31",
+          "Coverage Start Date": "July 1",
+          "Processing Time": "2-8 weeks",
+          "Penalty?": "Yes (10% per year missed)",
+        },
+        {
+          "Enrollment Period": "Special Enrollment Period",
+          "When You Can Enroll": "Within 8 months of leaving employer coverage",
+          "Coverage Start Date": "1st of month after enrollment",
+          "Processing Time": "3-6 weeks",
+          "Penalty?": "No",
+        }],
+      footnote: "Processing time refers to how long Social Security takes to process your application. The coverage start date is set by CMS rules and does not change based on processing speed. The 2026 standard Part B premium is $185.00/month.",
+    },
+    exceptionsSection: {
+      title: "Special Circumstances That Affect Your Timeline",
+      items: [
+        {
+          title: "Automatic Enrollment (Social Security Recipients)",
+          text: "If you are already receiving Social Security benefits when you turn 65, you are automatically enrolled in Part A and Part B. Your Medicare card will arrive in the mail approximately 3 months before your 65th birthday. You do not need to apply separately. If you do not want Part B, you must actively opt out.",
+          highlight: "If you are collecting Social Security, you do not need to apply. Part B enrollment is automatic and your card arrives about 3 months before you turn 65.",
+        },
+        {
+          title: "Disability Enrollment (Under 65)",
+          text: "If you qualify for Medicare through disability (SSDI), Part B begins automatically after you have received disability benefits for 24 months. There is no separate application required. Your Medicare card will arrive approximately 3 months before your 25th month of SSDI benefits.",
+        },
+        {
+          title: "COBRA Does Not Count as Creditable Coverage",
+          text: "COBRA continuation coverage does not qualify as creditable employer coverage for Medicare purposes. If you are on COBRA and have not enrolled in Part B, you should sign up immediately. Waiting until COBRA ends will not give you a Special Enrollment Period, and you may face the GEP timeline and a late penalty.",
+        }],
+    },
+    eddieTip: {
+      title: "Eddie's Pro Tip",
+      text: "If you are approaching 65 and still working, sign up for Part B during your IEP even if you plan to keep your employer coverage. Here is why: if your employer has fewer than 20 employees, Medicare is primary anyway, and delaying Part B means you have a coverage gap right now. If your employer has 20+ employees, you can safely delay. But if you are unsure about your employer's size or your future employment, enrolling during the IEP eliminates all risk of penalties and coverage gaps later. The $185/month premium is almost always cheaper than the consequences of getting this wrong.",
+    },
+    faqs: [
+      {
+        question: "How long does Medicare Part B take to process?",
+        answer: "Social Security typically processes Part B applications within 2 to 8 weeks. However, the date your coverage starts is determined by which enrollment period you use, not by how fast the application is processed.",
+      },
+      {
+        question: "Can I get Medicare Part B to start immediately?",
+        answer: "No. Even in the best case (enrolling early in your IEP or during an SEP), coverage starts the first of the following month at the earliest. There is no way to get same-day or retroactive Part B coverage.",
+      },
+      {
+        question: "Why does the General Enrollment Period make me wait until July 1?",
+        answer: "CMS sets a fixed July 1 start date for all GEP enrollees to simplify administration. This is one of the main reasons it is important to enroll during your IEP or qualify for an SEP instead.",
+      },
+      {
+        question: "How do I check the status of my Part B application?",
+        answer: "Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778) to check your application status. You can also visit your local Social Security office or check your my Social Security account online at ssa.gov.",
+      },
+      {
+        question: "What if I need medical care while waiting for Part B to start?",
+        answer: "If you have a coverage gap while waiting for Part B, you are responsible for 100% of outpatient medical costs. Consider short-term health insurance, COBRA, or marketplace coverage to bridge the gap. Emergency room visits are still covered under Part A if you have it.",
+      },
+      {
+        question: "Does applying online speed up the process?",
+        answer: "Applying online at ssa.gov is generally the fastest method because it eliminates mail delays and scheduling wait times. However, the coverage effective date is the same regardless of whether you apply online, by phone, or in person.",
+      },
+      {
+        question: "I missed my IEP. Is there any way to avoid waiting until July 1?",
+        answer: "Only if you qualify for a Special Enrollment Period. If you had creditable employer coverage through a large employer (20+ employees), you can enroll during the 8-month SEP and get coverage starting the first of the next month. If you do not qualify for an SEP, the GEP with its July 1 start date is your only option.",
+      },
+      {
+        question: "How long does it take to get my Medicare card after enrolling?",
+        answer: "Your Medicare card typically arrives in the mail within 2 to 4 weeks after your application is approved. If you need proof of coverage before your card arrives, you can call Social Security to request a letter confirming your enrollment and effective date.",
+      }],
+    quickReference: [
+      { icon: "shield", text: "<strong>IEP enrollment</strong> (before or during birthday month): coverage starts the 1st of your birthday month" },
+      { icon: "alert", text: "<strong>General Enrollment Period</strong>: coverage always starts July 1, regardless of when you apply" },
+      { icon: "heart", text: "<strong>Special Enrollment Period</strong>: coverage starts the 1st of the month after enrollment" },
+      { icon: "info", text: "<strong>Processing time</strong>: 2 to 8 weeks for application, but effective date is fixed by CMS rules" },
+      { icon: "dollar", text: "<strong>2026 Part B premium</strong>: $185.00/month (no penalty if enrolled during IEP or SEP)" },
+      { icon: "alert", text: "<strong>GEP penalty</strong>: 10% added to premium for every 12-month period you could have had Part B but did not" }],
+    relatedTopics: [
+      { title: "Medicare Initial Enrollment Period", description: "Learn about the 7-month window to sign up for Medicare when you first become eligible.", slug: "medicare-initial-enrollment-period" },
+      { title: "Medicare Part B Late Enrollment Penalty", description: "Understand how the Part B penalty is calculated and how to avoid it.", slug: "medicare-part-b-late-enrollment-penalty" },
+      { title: "Medicare Special Enrollment Period", description: "Find out if you qualify for an SEP to enroll in Medicare outside of standard enrollment windows.", slug: "medicare-special-enrollment-period" },
+      { title: "Can You Drop Medicare Part B?", description: "Learn when it is safe to disenroll from Part B and the risks involved.", slug: "can-you-drop-medicare-part-b" }],
+    sidebarRelatedLinks: [
+      "Medicare Initial Enrollment Period",
+      "Medicare Part B Late Enrollment Penalty",
+      "Medicare Special Enrollment Period",
+      "Can You Drop Medicare Part B?"],
+    ctaBanner: {
+      title: "Need Help Enrolling in Medicare Part B?",
+      text: "Our licensed agents can walk you through the enrollment process, help you understand your timeline, and make sure you avoid penalties. Call us for free, no-obligation guidance.",
+    },
+    relatedSlugs: [
+      "medicare-initial-enrollment-period",
+      "medicare-part-b-late-enrollment-penalty",
+      "medicare-special-enrollment-period",
+      "can-you-drop-medicare-part-b",
+      "what-is-medicare-creditable-coverage",
+      "going-back-to-work-on-medicare",
+    ],
+  },
 ];
