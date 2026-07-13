@@ -8656,6 +8656,9 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: false,
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19487938-medicare-traps-for-workers-over-65.mp3?download=true",
+    podcastDate: "July 13, 2026",
+    podcastDuration: "5:00",
     image: "https://images.unsplash.com/photo-1758612898691-afe3e1d08a0a?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Senior professional woman working at a desk, representing Medicare beneficiaries who return to work after retirement",
     keyTakeaways: [
