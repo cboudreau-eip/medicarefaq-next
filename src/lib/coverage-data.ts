@@ -33251,9 +33251,9 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "Your Medicare card typically arrives in the mail within 2 to 4 weeks after your application is approved. If you need proof of coverage before your card arrives, you can call Social Security to request a letter confirming your enrollment and effective date.",
       }],
     quickReference: [
-      { icon: "shield", text: "<strong>IEP enrollment</strong> (before or during birthday month): coverage starts the 1st of your birthday month" },
+      { icon: "check", text: "<strong>IEP enrollment</strong> (before or during birthday month): coverage starts the 1st of your birthday month" },
       { icon: "alert", text: "<strong>General Enrollment Period</strong>: coverage always starts July 1, regardless of when you apply" },
-      { icon: "heart", text: "<strong>Special Enrollment Period</strong>: coverage starts the 1st of the month after enrollment" },
+      { icon: "check", text: "<strong>Special Enrollment Period</strong>: coverage starts the 1st of the month after enrollment" },
       { icon: "info", text: "<strong>Processing time</strong>: 2 to 8 weeks for application, but effective date is fixed by CMS rules" },
       { icon: "dollar", text: "<strong>2026 Part B premium</strong>: $185.00/month (no penalty if enrolled during IEP or SEP)" },
       { icon: "alert", text: "<strong>GEP penalty</strong>: 10% added to premium for every 12-month period you could have had Part B but did not" }],
