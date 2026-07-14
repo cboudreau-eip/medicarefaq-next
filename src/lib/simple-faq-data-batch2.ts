@@ -224,10 +224,10 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
   {
     slug: "scope-of-appointment",
     seo: {
-      focusKeyword: "",
-      title: "Medicare Scope of Appointment (SOA): What It Is and How It Protects You | MedicareFAQ",
+      focusKeyword: "scope of appointment",
+      title: "Medicare Scope of Appointment: What It Is & Why It Matters",
       description:
-        "The Medicare Scope of Appointment is a federally required form that limits what plan types an agent can discuss with you. Learn how it works, when to complete it, and how to use it to protect yourself in 2026.",
+        "Learn how the Medicare Scope of Appointment works, when it's required, and how to use this form to protect yourself when meeting with agents in 2026.",
       canonical: "https://www.medicarefaq.com/faqs/scope-of-appointment/",
       ogImage:
         "https://www.medicarefaq.com/wp-content/uploads/medicare-scope-of-appointment-rules.jpg",
