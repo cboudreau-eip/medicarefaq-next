@@ -2758,16 +2758,17 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-hospice",
     seo: {
-      title: "Does Medicare Cover Hospice and Palliative Care?",
-      description: "Medicare coverage for hospice care is available if you qualify per Medicare guidelines and use a Medicare-approved hospice provider. Learn about coverage, guidelines, and costs.",
+      title: "Does Medicare Cover Hospice Care? Benefits, Costs & Eligibility (2026)",
+      description: "Medicare Part A covers hospice care at little to no cost when a doctor certifies a terminal illness with 6 months or less to live. Learn eligibility, covered services, and costs.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-hospice/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-hospice.jpg",
+      focusKeyword: "does medicare cover hospice",
     },
-    title: "Does Medicare Cover Hospice and Palliative Care?",
-    subtitle: "Medicare coverage for hospice care is available if you qualify per Medicare guidelines and use a Medicare-approved hospice provider. However, not all circumstances warrant Medicare coverage for hospic",
+    title: "Does Medicare Cover Hospice Care? Your Complete 2026 Guide",
+    subtitle: "Yes, Medicare Part A covers hospice care for beneficiaries with a terminal illness who have a life expectancy of six months or less. Hospice is one of the most comprehensive Medicare benefits, covering nursing care, medications for pain and symptom management, medical equipment, counseling, and respite care at little to no cost to you.",
     category: "Medicare Coverage",
-    dateUpdated: "May 8, 2023",
-    lastReviewed: "2026-05-18",
+    dateUpdated: "July 14, 2026",
+    lastReviewed: "2026-07-14",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -2780,78 +2781,184 @@ export const coverageArticles: CoverageArticleData[] = [
       role: "Reviewer",
       bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
     },
-    readTime: "9 min read",
+    readTime: "11 min read",
     quickAnswer: {
-      text: "Medicare coverage for hospice care is available if you qualify per Medicare guidelines and use a Medicare-approved hospice provider. However, not all circumstances warrant Medicare coverage for hospice. So, you’ll need to thoroughly understand the guidelines to ensure your needs are covered.",
+      text: "Yes, Medicare Part A covers hospice care when you meet the eligibility requirements: your doctor and the hospice medical director certify that you have a terminal illness with a life expectancy of six months or less (if the illness runs its normal course), you accept comfort care rather than curative treatment, and you use a Medicare-approved hospice program. The benefit covers nursing visits, medications for pain and symptom control, medical equipment, home health aides, counseling, and respite care. You pay little to nothing for hospice services, with only small copays for outpatient drugs ($5 or less) and respite care (5% of the Medicare-approved amount).",
       badges: [
-        { plan: "Original Medicare", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "not-covered" }],
+        { plan: "Medicare Part A", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+        { plan: "Palliative Care", status: "covered" }],
     },
     comparisonTable: [
-      { planType: "Original Medicare", coverage: "Some Plans", icon: "shield", notes: "Limited coverage under specific conditions" },
-      { planType: "Medicare Advantage", coverage: "Some Plans", icon: "shield", notes: "Coverage varies by plan and ZIP code" },
-      { planType: "Medigap", coverage: "Not Covered", icon: "shield", notes: "Only supplements Original Medicare benefits" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover related prescriptions" }],
+      { planType: "Medicare Part A (Hospice)", coverage: "Fully Covered", icon: "check-circle", notes: "Covers all hospice services with minimal cost-sharing" },
+      { planType: "Medicare Part B (Palliative Care)", coverage: "Covered", icon: "check-circle", notes: "Covers palliative care without requiring terminal diagnosis" },
+      { planType: "Medicare Advantage", coverage: "Covered (via Part A)", icon: "check-circle", notes: "Hospice reverts to Original Medicare; MA plan covers non-hospice care" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covers Cost-Sharing", icon: "check-circle", notes: "Pays the 5% respite care coinsurance and drug copays" },
+      { planType: "Medicare Part D", coverage: "Suspended During Hospice", icon: "x-circle", notes: "Hospice covers all pain/symptom medications; Part D suspended" },
+      { planType: "Medicaid (Dual Eligible)", coverage: "Additional Support", icon: "check-circle", notes: "May cover room and board in a nursing facility during hospice" }],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "[Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply."],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
+        planName: "What Medicare Hospice Covers",
         icon: "heart",
         iconColor: "#059669",
-        coverageLabel: "Varies",
-        coverageType: "partial",
-        paragraphs: [
-          "Medigap plans do not have networks. Therefore, if you have a [Medicare Supplement plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), you can enjoy supplemental coverage regardless of the network for your skilled nursing facility."],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covered",
+        coverageLabel: "Comprehensive Coverage",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Supplement (Medigap)](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply."],
-      }],
+          "Medicare's hospice benefit is one of the most comprehensive benefits in the entire Medicare program. Once you elect hospice, nearly all services related to your terminal illness are covered with little to no out-of-pocket cost. The benefit is provided under [Medicare Part A](/faqs/what-is-medicare-part-a), so you must be enrolled in Part A to receive hospice coverage.",
+          "Hospice care is delivered wherever you live. This can be your home, a family member's home, an assisted living facility, or a nursing home. Hospice is not a place; it is a philosophy of care focused on comfort, dignity, and quality of life rather than curing the illness. A team of professionals comes to you.",
+          "The hospice team includes a physician (the hospice medical director), registered nurses, home health aides, social workers, chaplains or spiritual counselors, trained volunteers, and bereavement counselors for your family. This interdisciplinary team creates a personalized care plan and coordinates all services related to your terminal condition.",
+          "Medicare continues to cover treatment for conditions unrelated to your terminal illness. For example, if you are in hospice for terminal cancer but break your arm, Medicare will still cover the emergency room visit and orthopedic treatment. You also retain the right to see your primary care physician for non-hospice conditions."
+        ],
+        whatItCovers: [
+          "Physician services (hospice medical director and attending physician)",
+          "Nursing care (regular visits from registered nurses and LPNs)",
+          "Medications for pain management and symptom control",
+          "Durable medical equipment (hospital bed, wheelchair, oxygen, walker)",
+          "Medical supplies (bandages, catheters, wound care supplies)",
+          "Home health aide and homemaker services",
+          "Physical therapy, occupational therapy, and speech therapy",
+          "Social work services and counseling",
+          "Spiritual care and chaplain services",
+          "Dietary counseling",
+          "Respite care (up to 5 consecutive days in a facility)",
+          "Bereavement support for family (up to 13 months after death)",
+          "Continuous home care during periods of crisis"
+        ],
+        whatItDoesntCover: [
+          "Curative treatments for the terminal illness (by definition of hospice election)",
+          "Room and board at home or in an assisted living facility",
+          "Care from a non-Medicare-approved hospice provider",
+          "Emergency room visits or hospitalizations for the terminal illness (unless arranged by hospice)",
+          "Medications not related to pain/symptom management of terminal condition"
+        ],
+        callout: {
+          type: "tip",
+          title: "You Can Revoke Hospice at Any Time",
+          text: "Electing hospice does not mean giving up. You can revoke your hospice election at any time and return to curative treatment under regular Medicare. If your condition improves or you change your mind, simply sign a revocation statement. You can also re-elect hospice later if needed. There is no penalty for revoking.",
+        },
+      },
+      {
+        planName: "Hospice Eligibility Requirements",
+        icon: "clipboard-check",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Must Meet All Criteria",
+        coverageType: "partial",
+        paragraphs: [
+          "To qualify for Medicare hospice benefits, you must meet three requirements. First, you must be enrolled in Medicare Part A. Second, your doctor and the hospice program's medical director must certify that you have a terminal illness with a life expectancy of six months or less if the disease runs its normal course. Third, you must sign a statement choosing hospice care (comfort care) instead of routine Medicare-covered treatments intended to cure your terminal illness.",
+          "The six-month prognosis is an estimate, not a guarantee. Many hospice patients live longer than six months. If you are still alive after six months, you can continue receiving hospice care as long as the hospice medical director recertifies that you remain terminally ill. There is no maximum time limit on Medicare hospice benefits.",
+          "Hospice coverage is organized into benefit periods. The first two benefit periods are 90 days each. After that, you receive an unlimited number of 60-day benefit periods. At the start of each new benefit period, the hospice medical director must recertify your terminal prognosis.",
+          "Common terminal diagnoses that qualify for hospice include advanced cancer, end-stage heart failure, end-stage COPD, end-stage renal disease (when dialysis is declined), advanced dementia or Alzheimer's disease, end-stage liver disease, ALS (Lou Gehrig's disease), and advanced HIV/AIDS. However, any terminal illness qualifies. There is no list of approved diagnoses.",
+          "To find a [Medicare-approved hospice provider](/faqs/medicare-coverage-for-skilled-nursing-facilities) in your area, visit Medicare.gov's Care Compare tool or call 1-800-MEDICARE (1-800-633-4227). Your doctor can also provide referrals to local hospice programs."
+        ],
+        callout: {
+          type: "info",
+          title: "No Time Limit on Hospice Benefits",
+          text: "A common misconception is that Medicare limits hospice to six months. In reality, you can receive hospice care indefinitely as long as the hospice medical director recertifies your terminal prognosis at the start of each benefit period. Some patients receive hospice care for a year or longer.",
+        },
+      },
+      {
+        planName: "Hospice vs. Palliative Care",
+        icon: "scale",
+        iconColor: "#7C3AED",
+        coverageLabel: "Different Benefits, Different Rules",
+        coverageType: "partial",
+        paragraphs: [
+          "Hospice care and palliative care are related but distinct. Understanding the difference is important because they have different eligibility requirements, different coverage rules, and can be used at different stages of illness.",
+          "**Palliative care** focuses on relieving symptoms and improving quality of life for people with serious illnesses. It can be provided at any stage of illness, alongside curative treatments. You do not need a terminal diagnosis to receive palliative care. Medicare Part B covers palliative care services (doctor visits, pain management, counseling) with standard [Part B cost-sharing](/faqs/medicare-part-b-deductible) (20% coinsurance after the deductible).",
+          "**Hospice care** is specifically for people with a terminal illness and a life expectancy of six months or less. When you elect hospice, you agree to forgo curative treatment for the terminal illness and focus on comfort. Medicare Part A covers hospice with almost no cost-sharing. Hospice provides a much broader range of services than palliative care alone.",
+          "You can receive palliative care for months or years before transitioning to hospice. Many patients start with palliative care while still receiving curative treatment, then transition to hospice when curative options are exhausted or they choose to focus entirely on comfort. Your doctor can help determine the right time for this transition.",
+          "Medicare Advantage plans must cover hospice through Original Medicare (Part A), but they may offer additional palliative care benefits as a supplemental benefit. Some MA plans now include [in-home palliative care programs](/faqs/medicare-coverage-for-in-home-caregivers) that go beyond what Original Medicare covers."
+        ],
+      },
+      {
+        planName: "Costs and What You Pay for Hospice",
+        icon: "dollar-sign",
+        iconColor: "#D97706",
+        coverageLabel: "Minimal Cost-Sharing",
+        coverageType: "covered",
+        paragraphs: [
+          "Medicare hospice care has remarkably low cost-sharing compared to other Medicare benefits. For most hospice services, you pay nothing. The two exceptions are outpatient prescription drugs and respite care.",
+          "**Prescription drugs:** You may pay a copay of up to $5 per prescription for outpatient drugs for pain and symptom management. The hospice may charge less or nothing. Drugs administered by the hospice nurse during a visit are covered at no cost to you.",
+          "**Respite care:** If your primary caregiver needs a break, Medicare covers up to 5 consecutive days of inpatient respite care in a Medicare-approved facility. You pay 5% of the Medicare-approved amount for respite care. In 2026, this works out to approximately $10 to $20 per day depending on the facility.",
+          "**Room and board:** Medicare does not pay for room and board (rent, food, utilities) in your home or an assisted living facility. If you live in a nursing home, Medicare does not cover the room and board charges. However, if you are a dual-eligible beneficiary (Medicare and Medicaid), Medicaid may cover nursing home room and board during hospice.",
+          "If you have a [Medicare Supplement (Medigap) plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one), it will cover the 5% respite care coinsurance and may cover drug copays, reducing your out-of-pocket costs to zero. Medicare Advantage enrollees receive hospice through Original Medicare Part A, so their MA plan does not apply cost-sharing to hospice services."
+        ],
+      }
+    ],
+    costTable: {
+      title: "Medicare Hospice Costs (2026)",
+      headers: ["Service", "What Medicare Pays", "What You Pay"],
+      rows: [
+        { "Service": "Nursing visits", "What Medicare Pays": "100%", "What You Pay": "$0" },
+        { "Service": "Doctor services", "What Medicare Pays": "100%", "What You Pay": "$0" },
+        { "Service": "Medical equipment (bed, oxygen, etc.)", "What Medicare Pays": "100%", "What You Pay": "$0" },
+        { "Service": "Medications (pain/symptom)", "What Medicare Pays": "Most of cost", "What You Pay": "Up to $5 copay per Rx" },
+        { "Service": "Home health aide services", "What Medicare Pays": "100%", "What You Pay": "$0" },
+        { "Service": "Respite care (up to 5 days)", "What Medicare Pays": "95%", "What You Pay": "5% coinsurance (~$10-$20/day)" },
+        { "Service": "Bereavement counseling (family)", "What Medicare Pays": "100%", "What You Pay": "$0" },
+        { "Service": "Room and board (home/ALF)", "What Medicare Pays": "Not covered", "What You Pay": "100% (your responsibility)" }
+      ],
+      footnote: "Hospice is covered under Medicare Part A. If you have a Medigap plan, it covers the 5% respite coinsurance and drug copays. Dual-eligible beneficiaries may have Medicaid cover room and board."
+    },
+    exceptionsSection: {
+      title: "Important Hospice Rules and Exceptions",
+      items: [
+        {
+          title: "Medicare Advantage and Hospice",
+          text: "When you elect hospice, your hospice care is provided through Original Medicare Part A, not your Medicare Advantage plan. However, your MA plan continues to cover services unrelated to your terminal illness (such as routine doctor visits, prescriptions for non-terminal conditions, and other benefits). You do not need to disenroll from your MA plan to receive hospice."
+        },
+        {
+          title: "Attending Physician Exception",
+          text: "You may designate an attending physician (your personal doctor) who is not employed by the hospice. Medicare Part B covers your attending physician's services related to your terminal illness separately from the hospice benefit. This means you can keep seeing your own doctor while receiving hospice care."
+        },
+        {
+          title: "Emergency and Unrelated Care",
+          text: "If you need emergency care or treatment for a condition unrelated to your terminal illness, regular Medicare coverage applies. You should inform the emergency department that you are enrolled in hospice so they can coordinate with your hospice team. Hospice does not cover emergency treatment for your terminal illness unless the hospice arranged it."
+        },
+        {
+          title: "Revoking and Re-Electing Hospice",
+          text: "You can revoke hospice at any time by signing a revocation statement. Once revoked, you return to standard Medicare coverage and can pursue curative treatment. You can re-elect hospice later if your condition worsens. Each revocation uses the remainder of your current benefit period, but you can start a new benefit period upon re-election."
+        }
+      ]
+    },
     faqs: [
+      { question: "Does Medicare Part A cover hospice care?", answer: "Yes. Medicare Part A covers hospice care when you have a terminal illness with a life expectancy of six months or less (certified by your doctor and the hospice medical director), you choose comfort care over curative treatment, and you use a Medicare-approved hospice program. Nearly all hospice services are covered at no cost to you." },
+      { question: "How long does Medicare pay for hospice?", answer: "There is no time limit on Medicare hospice benefits. Coverage continues as long as the hospice medical director recertifies your terminal prognosis at the start of each benefit period (two 90-day periods followed by unlimited 60-day periods). Many patients receive hospice care for longer than six months." },
+      { question: "Can you still see your own doctor while on hospice?", answer: "Yes. You can designate your personal physician as your attending doctor. Medicare Part B covers their services related to your terminal illness separately from the hospice benefit. You can also see doctors for conditions unrelated to your terminal illness under regular Medicare coverage." },
+      { question: "Does hospice mean giving up?", answer: "No. Hospice means choosing to focus on comfort and quality of life rather than curative treatment for a terminal illness. You can revoke hospice at any time and return to curative treatment. Many families report that hospice improved their loved one's final months by providing comprehensive support, pain management, and dignity." },
+      { question: "What is the difference between hospice and palliative care?", answer: "Palliative care relieves symptoms at any stage of serious illness and can be received alongside curative treatment (covered by Part B with standard cost-sharing). Hospice is specifically for terminal illness with six months or less to live, requires forgoing curative treatment, and is covered by Part A with almost no cost-sharing. Hospice provides broader services than palliative care alone." },
+      { question: "Does Medicare cover hospice in a nursing home?", answer: "Yes. Medicare covers hospice services wherever you live, including nursing homes. However, Medicare does not pay for room and board in the nursing home. If you are dual-eligible (Medicare and Medicaid), Medicaid may cover room and board. The hospice benefit covers all medical care related to your terminal illness." },
+      { question: "Can you receive hospice care at home?", answer: "Yes. Most hospice care is provided at home. The hospice team (nurses, aides, social workers, chaplains) visits you on a scheduled basis. Medicare covers all medical equipment needed at home (hospital bed, oxygen, wheelchair) and supplies. Continuous home care is available during periods of medical crisis." },
+      { question: "What happens to my Medicare Advantage plan if I elect hospice?", answer: "Your hospice care is provided through Original Medicare Part A, not your MA plan. However, you remain enrolled in your MA plan, which continues to cover services unrelated to your terminal illness. You do not need to switch plans or disenroll from Medicare Advantage to receive hospice benefits." },
+      { question: "Does Medicare cover respite care under hospice?", answer: "Yes. Medicare covers up to 5 consecutive days of inpatient respite care to give your primary caregiver a break. You pay 5% of the Medicare-approved amount (approximately $10 to $20 per day in 2026). Respite care is provided in a Medicare-approved facility such as a hospital or skilled nursing facility." },
+      { question: "Can you go back to regular Medicare after hospice?", answer: "Yes. You can revoke your hospice election at any time by signing a written revocation statement. Once revoked, you immediately return to standard Medicare coverage and can pursue any treatment, including curative care. You can also re-elect hospice later if your condition worsens." }
     ],
     quickReference: [
-      { icon: "alert", text: "<strong>Original Medicare</strong> coverage varies by plan" },
-      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
-      { icon: "x", text: "<strong>Medigap</strong> does not cover this service" },
-      { icon: "info", text: "Always verify coverage with your specific plan" }],
+      { icon: "check", text: "<strong>Medicare Part A:</strong> Covers hospice care with minimal cost-sharing" },
+      { icon: "info", text: "<strong>Eligibility:</strong> Terminal illness, 6-month prognosis, Medicare-approved hospice" },
+      { icon: "dollar", text: "<strong>Your cost:</strong> $0 for most services; up to $5/Rx copay; 5% for respite care" },
+      { icon: "info", text: "<strong>No time limit:</strong> Benefits continue as long as prognosis is recertified" },
+      { icon: "check", text: "<strong>Where:</strong> Home, assisted living, nursing home, or inpatient hospice facility" },
+      { icon: "alert", text: "<strong>Not covered:</strong> Room and board, curative treatment for terminal illness" }
+    ],
     relatedTopics: [
-      { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare and supplemental plans.", slug: "does-medicare-cover-dental-implants" },
-      { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
-      { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
-      { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    
-      { title: "Does Medicare Cover Life Alert and Medical Alert Systems?", description: "Learn whether Medicare covers Life Alert and other personal emergency response systems.", slug: "does-medicare-cover-life-alert" },
-      { title: "Do Adult Diaper Manufacturers Have Assistance Programs?", description: "Explore assistance programs for free or reduced-cost adult diapers and incontinence supplies.", slug: "do-disposable-adult-diaper-manufacturers-have-assistance-programs-for-free-or-reduced-cost-depends" },
-      { title: "Does Medicare Cover Alzheimer's Care?", description: "Understand what Medicare covers for Alzheimer's disease treatment and long-term care.", slug: "does-medicare-cover-alzheimers-care" },
-      { title: "Does Medicare Cover Memory Care?", description: "Learn whether Medicare covers memory care facilities and services for dementia patients.", slug: "does-medicare-cover-memory-care" },
-      { title: "Does Medicare Cover Alcohol Rehab and Misuse Screenings?", description: "Learn about Medicare coverage for alcohol misuse screenings, counseling, and treatment.", slug: "medicare-coverage-for-alcohol-misuse" },
-      { title: "Medicare Coverage for Mental Health Services", description: "Learn what Medicare covers for mental health, including therapy, counseling, and inpatient care.", slug: "medicare-coverage-for-mental-health" },
-      { title: "Does Medicare Cover Skilled Nursing Facility Care?", description: "Learn about Medicare's coverage for skilled nursing facilities and what qualifications are required.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
-      { title: "Medicare Coverage for Cancer Treatment", description: "Find out what Medicare covers for cancer treatment, including chemotherapy and radiation.", slug: "medicare-coverage-for-cancer" }],
+      { title: "Medicare Coverage for Skilled Nursing Facilities", description: "What Medicare covers for skilled nursing facility stays.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
+      { title: "Medicare Coverage for In-Home Caregivers", description: "Home health aide and caregiver coverage under Medicare.", slug: "medicare-coverage-for-in-home-caregivers" },
+      { title: "Does Medicare Cover Memory Care?", description: "Coverage options for dementia and Alzheimer's care.", slug: "does-medicare-cover-memory-care" },
+      { title: "Medicare Coverage for Mental Health", description: "Mental health and counseling services covered by Medicare.", slug: "medicare-coverage-for-mental-health" }
+    ],
     sidebarRelatedLinks: [
-      "Does Medicare Cover Dental Implants",
-      "Does Medicare Cover Glasses",
-      "Does Medicare Cover Hearing Aids",
-      "Does Medicare Cover Chiropractic Care"],
+      "Medicare Coverage for Skilled Nursing Facilities",
+      "Medicare Coverage for In-Home Caregivers",
+      "Does Medicare Cover Memory Care",
+      "Medicare Coverage for Mental Health"
+    ],
     ctaBanner: {
-      title: "Need Help Understanding Your Coverage?",
-      text: "Our licensed agents can help you find the right Medicare plan that covers hospice and palliative care and more.",
+      title: "Questions About Hospice or End-of-Life Coverage?",
+      text: "Our licensed agents can help you understand your Medicare hospice benefits, find approved providers in your area, and ensure you have the right coverage for your needs.",
     },
-    relatedSlugs: ["how-medicare-handles-skilled-nursing-vs-custodial-care", "medicare-coverage-for-in-home-caregivers", "medicare-coverage-for-skilled-nursing-facilities", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "does-medicare-pay-for-emergency-medical-transport-from-one-hospital-to-another", "observation-vs-inpatient-why-it-can-affect-your-medicare-bill", "medicare-calendar-year-and-benefit-periods", "medicare-8-minute-rule", "medicare-visiting-angels", "does-medicare-cover-speech-therapy", "does-medicare-cover-glasses", "does-medicare-cover-glaucoma", "does-medicare-cover-hepatitis-c-screening", "eliquis-cost-with-medicare", "manufacturers-coupons-and-medicare", "married-divorced-widowed-how-relationship-status-affects-medicare", "medicare-and-divorce", "medicare-and-employer-coverage", "medicare-cost-sharing-plans", "medicare-coverage-for-disabled-under-65", "does-medicare-cover-hearing-aids", "medicare-vision-care-coverage", "medicare-vs-medicaid", "native-american-health-and-medicare", "new-medicare-changes", "protect-yourself-from-medicare-penalties-and-deadlines", "what-is-medicare-cost-sharing"],
+    relatedSlugs: ["medicare-coverage-for-skilled-nursing-facilities", "medicare-coverage-for-in-home-caregivers", "does-medicare-cover-memory-care", "medicare-coverage-for-mental-health", "how-medicare-handles-skilled-nursing-vs-custodial-care", "does-medicare-cover-alzheimers-care"],
   },
   {
     slug: "does-medicare-cover-dentures",
@@ -3242,16 +3349,17 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-copd",
     seo: {
-      title: "Finding a Pulmonologist on Medicare",
-      description: "Finding a pulmonologist while on Medicare is vital for beneficiaries suffering from Chronic Obstructive Pulmonary Disease (COPD). Unfortunately, COPD isn’t curable, but the condition is treatable. Thankfully, your Medicare plan may offer coverage for treatment costs if they are medically necessary. Medicare Part B provides annual lung cancer screening coverage with Low Dose Computed Tomography (LDCT) for qualifying beneficiaries.",
-      canonical: "https://www.medicarefaq.com/medicare-benefits/finding-a-pulmonologist-on-medicare/",
+      title: "Does Medicare Cover COPD Treatment? Inhalers, Oxygen & Pulmonary Rehab (2026)",
+      description: "Medicare covers COPD treatment including inhalers, oxygen therapy, pulmonary rehabilitation, and specialist visits. Learn costs, coverage rules, and how to find a pulmonologist.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-copd/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+      focusKeyword: "does medicare cover copd",
     },
-    title: "Finding a Pulmonologist on Medicare",
-    subtitle: "Finding a pulmonologist while on Medicare is vital for beneficiaries suffering from Chronic Obstructive Pulmonary Disease (COPD). Unfortunately, COPD isn’t curable, but the condition is treatable.",
+    title: "Does Medicare Cover COPD? Treatment, Inhalers, Oxygen & Costs (2026)",
+    subtitle: "Yes, Medicare covers COPD (Chronic Obstructive Pulmonary Disease) treatment comprehensively. Medicare Part B covers pulmonologist visits, pulmonary rehabilitation, oxygen therapy, and lung cancer screenings. Medicare Part D covers COPD medications including inhalers and nebulizer solutions. While COPD is not curable, Medicare provides coverage for the treatments that manage symptoms and slow disease progression.",
     category: "Medicare Coverage",
-    dateUpdated: "May 8, 2023",
-    lastReviewed: "2026-05-18",
+    dateUpdated: "July 14, 2026",
+    lastReviewed: "2026-07-14",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3264,70 +3372,184 @@ export const coverageArticles: CoverageArticleData[] = [
       role: "Reviewer",
       bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
     },
-    readTime: "5 min read",
+    readTime: "11 min read",
     quickAnswer: {
-      text: "Finding a pulmonologist while on Medicare is vital for beneficiaries suffering from Chronic Obstructive Pulmonary Disease (COPD). Unfortunately, COPD isn’t curable, but the condition is treatable.",
+      text: "Yes, Medicare covers COPD treatment across multiple parts of the program. Medicare Part B covers doctor and specialist visits (including pulmonologists), diagnostic tests (spirometry, chest X-rays, CT scans), pulmonary rehabilitation programs, and home oxygen therapy when medically necessary. Medicare Part D covers COPD medications including rescue inhalers, maintenance inhalers, nebulizer solutions, and oral medications. The 2025 Inflation Reduction Act cap of $2,000 per year on Part D out-of-pocket costs significantly reduces inhaler expenses for COPD patients in 2026.",
       badges: [
-        { plan: "Original Medicare", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "not-covered" }],
+        { plan: "Medicare Part B", status: "covered" },
+        { plan: "Medicare Part D", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" }],
     },
     comparisonTable: [
-      { planType: "Original Medicare", coverage: "Some Plans", icon: "shield", notes: "Limited coverage under specific conditions" },
-      { planType: "Medicare Advantage", coverage: "Some Plans", icon: "shield", notes: "Coverage varies by plan and ZIP code" },
-      { planType: "Medigap", coverage: "Not Covered", icon: "shield", notes: "Only supplements Original Medicare benefits" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover related prescriptions" }],
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "check-circle", notes: "Covers COPD-related hospitalizations, ICU stays, and inpatient rehab" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "check-circle", notes: "Covers pulmonologist visits, pulmonary rehab, oxygen therapy, diagnostics" },
+      { planType: "Medicare Part D (Drugs)", coverage: "Covered", icon: "check-circle", notes: "Covers inhalers, nebulizer solutions, oral COPD medications" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered + Extras", icon: "check-circle", notes: "All Original Medicare benefits plus possible extra benefits (telehealth, fitness)" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covers Cost-Sharing", icon: "check-circle", notes: "Pays Part B deductible, 20% coinsurance on treatments" },
+      { planType: "Lung Cancer Screening (LDCT)", coverage: "Covered Preventive", icon: "check-circle", notes: "$0 cost for qualifying beneficiaries (age 50-80, 20+ pack-year history)" }],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a & B)",
+        planName: "Medicare Part B: COPD Treatments and Services",
         icon: "shield",
         iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
+        coverageLabel: "Covered (with cost-sharing)",
         coverageType: "covered",
         paragraphs: [
-          "[Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply."],
+          "Medicare Part B provides extensive coverage for outpatient COPD treatment. This includes visits to your primary care physician and pulmonologist (lung specialist), diagnostic testing, pulmonary rehabilitation, oxygen therapy, and preventive screenings. You pay 20% coinsurance after meeting the annual [Part B deductible](/faqs/medicare-part-b-deductible) ($257 in 2026).",
+          "**Pulmonologist visits:** Medicare Part B covers visits to a pulmonologist (lung specialist) when referred by your doctor or when medically necessary. If your pulmonologist accepts [Medicare assignment](/faqs/what-is-medicare-assignment), you pay 20% of the Medicare-approved amount. Finding a pulmonologist who accepts Medicare is straightforward: use the Medicare.gov Physician Compare tool or call 1-800-MEDICARE.",
+          "**Diagnostic tests:** Medicare covers spirometry (breathing tests), chest X-rays, CT scans, arterial blood gas tests, pulse oximetry, and other tests used to diagnose and monitor COPD. These are covered under Part B with standard 20% coinsurance.",
+          "**Pulmonary rehabilitation:** Medicare Part B covers pulmonary rehabilitation programs for COPD patients. These programs include supervised exercise, breathing techniques, education about managing your condition, and psychological support. Medicare covers up to 36 sessions (with physician approval for up to 36 additional sessions). You pay 20% coinsurance per session.",
+          "**Oxygen therapy:** When your doctor prescribes home oxygen, Medicare Part B covers the rental of oxygen equipment (concentrators, tanks, regulators, tubing, masks) for up to 36 months. After 36 months, the supplier must continue providing the equipment and maintenance for an additional 24 months at no cost to you. You pay 20% of the Medicare-approved rental amount during the initial 36 months."
+        ],
+        whatItCovers: [
+          "Pulmonologist and specialist visits",
+          "Spirometry and pulmonary function tests",
+          "Chest X-rays and CT scans",
+          "Pulmonary rehabilitation (up to 72 sessions with approval)",
+          "Home oxygen therapy equipment (concentrators, tanks, supplies)",
+          "Nebulizer machines (as durable medical equipment)",
+          "Lung cancer screening (LDCT) for qualifying patients",
+          "Smoking cessation counseling (up to 8 sessions per year)",
+          "Flu, pneumonia, and COVID-19 vaccines ($0 cost)"
+        ],
+        whatItDoesntCover: [
+          "Inhaler medications (covered under Part D, not Part B)",
+          "Over-the-counter supplements or air purifiers",
+          "Long-term custodial care for COPD disability",
+          "Experimental treatments not approved by Medicare"
+        ],
+        callout: {
+          type: "tip",
+          title: "Pulmonary Rehab Can Significantly Improve Quality of Life",
+          text: "Studies show pulmonary rehabilitation reduces COPD hospitalizations by up to 40% and significantly improves exercise capacity and daily functioning. Medicare covers up to 72 sessions with physician approval. Ask your pulmonologist for a referral to a Medicare-certified pulmonary rehab program.",
+        },
       },
       {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
+        planName: "Medicare Part D: COPD Medications and Inhalers",
+        icon: "pill",
         iconColor: "#059669",
-        coverageLabel: "Varies",
-        coverageType: "partial",
-        paragraphs: [
-          "For those enrolling in a health maintenance plan (HMO), you’ll need a referral to see a pulmonologist with [Medicare Advantage](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). You won’t need a referral if your Medicare Advantage plan is a preferred provider organization plan (PPO).",
-          "Depending on your healthcare needs, [Medicare Supplement plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) can help you reduce healthcare costs when seeing a specialist and more freedom to do so than enrolling in a [Medicare Advantage plan](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans). But it’s still important to speak with your specialist to understand whether or not they accept Medicare Assignment and a licensed Medicare agent to ensure which coverage works best for you."],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covered",
+        coverageLabel: "Covered (formulary-dependent)",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Supplement (Medigap) provides coverage for this service when medically necessary. Standard cost-sharing (deductibles and coinsurance) may apply."],
-      }],
+          "Medicare Part D covers prescription medications for COPD, including rescue inhalers, maintenance inhalers, nebulizer solutions, and oral medications. The specific drugs covered and your cost depend on your plan's formulary (drug list) and which tier the medication is placed on.",
+          "**Common COPD medications covered by Part D:** Rescue inhalers (albuterol/ProAir, Ventolin), maintenance inhalers (Spiriva, Advair/Wixela, Breo Ellipta, Symbicort, Trelegy Ellipta, Anoro Ellipta), nebulizer solutions (ipratropium, budesonide), oral medications (prednisone, roflumilast/Daliresp), and combination therapies.",
+          "**The $2,000 out-of-pocket cap:** Starting in 2025, the Inflation Reduction Act caps total Part D out-of-pocket spending at $2,000 per year. This is a major benefit for COPD patients who often take multiple expensive inhalers. Before this cap, some patients paid $5,000 to $10,000+ annually for their COPD medications. The $2,000 cap applies to all Part D drugs combined, and you can spread payments monthly through the [Medicare Prescription Payment Plan](/faqs/new-medicare-changes).",
+          "**Tier placement matters:** Brand-name inhalers like Trelegy Ellipta or Breo Ellipta are often on Tier 3 or Tier 4, meaning higher copays ($40 to $100+ per fill before reaching the cap). Generic alternatives and preferred brands on lower tiers cost less. Ask your doctor about equally effective medications that may be on a lower tier in your specific Part D plan.",
+          "**Nebulizer solutions vs. inhalers:** If you cannot use a metered-dose inhaler effectively, your doctor may prescribe nebulizer treatments. The nebulizer machine itself is covered under Part B as durable medical equipment, while the nebulizer solutions (medications) are covered under Part D. This split coverage can be confusing but ensures both the device and medications are covered."
+        ],
+        callout: {
+          type: "info",
+          title: "$2,000 Annual Cap Helps COPD Patients",
+          text: "The Inflation Reduction Act's $2,000 annual out-of-pocket cap on Part D drugs is especially beneficial for COPD patients who take multiple inhalers. Once you reach $2,000 in total out-of-pocket drug costs for the year, you pay $0 for all additional prescriptions. You can also enroll in the Medicare Prescription Payment Plan to spread costs into equal monthly payments.",
+        },
+      },
+      {
+        planName: "Medicare Advantage Plans and COPD",
+        icon: "heart",
+        iconColor: "#7C3AED",
+        coverageLabel: "All Original Medicare + Extras",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/what-is-medicare-advantage) (Part C) must cover everything Original Medicare covers, including all COPD treatments. Most MA plans also include Part D drug coverage (MAPD plans), so your inhalers and COPD medications are covered under the same plan. Additionally, many MA plans offer extra benefits relevant to COPD patients.",
+          "**Extra benefits for COPD patients:** Some Medicare Advantage plans offer fitness programs (like SilverSneakers or gym memberships) that can help maintain lung function, telehealth visits for routine COPD check-ins, transportation to medical appointments, and over-the-counter allowances that may cover items like peak flow meters or saline solutions.",
+          "**Network considerations:** If you have COPD, ensure your pulmonologist and preferred hospital are in-network before choosing a Medicare Advantage plan. HMO plans require referrals to see specialists, while PPO plans allow you to see any pulmonologist (though at higher cost for out-of-network providers). For a chronic condition like COPD requiring ongoing specialist care, network access is critical.",
+          "**Prior authorization:** Some Medicare Advantage plans require prior authorization for certain COPD treatments, particularly pulmonary rehabilitation sessions beyond the initial approval, specific brand-name inhalers, or home oxygen therapy. Ask about prior authorization requirements when comparing plans during the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period)."
+        ],
+      },
+      {
+        planName: "Oxygen Therapy: Coverage Rules and Costs",
+        icon: "wind",
+        iconColor: "#0891B2",
+        coverageLabel: "Covered Under Part B",
+        coverageType: "covered",
+        paragraphs: [
+          "Home oxygen therapy is one of the most important treatments for advanced COPD. Medicare Part B covers oxygen equipment when your doctor documents that your blood oxygen level falls below specific thresholds (typically an arterial PO2 at or below 55 mm Hg, or oxygen saturation at or below 88%).",
+          "**How oxygen rental works:** Medicare rents oxygen equipment from a supplier for 36 months. During this rental period, you pay 20% of the Medicare-approved rental amount (typically $30 to $80 per month depending on the equipment). After 36 months, ownership transfers to you, and the supplier must provide the equipment, maintenance, and servicing for an additional 24 months at no charge.",
+          "**What is covered:** Oxygen concentrators (stationary and portable), compressed gas systems, liquid oxygen systems, tubing, nasal cannulas, masks, regulators, humidifiers, and related supplies. Your doctor's prescription determines which type of system you receive based on your oxygen flow requirements and mobility needs.",
+          "**Qualifying for oxygen:** Your doctor must order an arterial blood gas test or pulse oximetry to document your oxygen levels. The test must show that your oxygen levels meet Medicare's criteria. Your doctor must also provide a Certificate of Medical Necessity (CMN) and a written order specifying the flow rate, frequency of use, and duration. Re-testing may be required after 90 days to confirm ongoing need."
+        ],
+        callout: {
+          type: "warning",
+          title: "Use a Medicare-Enrolled Oxygen Supplier",
+          text: "You must obtain oxygen equipment from a Medicare-enrolled supplier for Medicare to cover the cost. Using a non-enrolled supplier means Medicare will not pay, and you will be responsible for the full cost. Ask your doctor for a referral to an enrolled supplier, or search Medicare.gov's Supplier Directory.",
+        },
+      }
+    ],
+    costTable: {
+      title: "COPD Treatment Costs Under Medicare (2026)",
+      headers: ["Treatment", "Medicare Coverage", "Your Estimated Cost"],
+      rows: [
+        { "Treatment": "Pulmonologist visit", "Medicare Coverage": "Part B (80%)", "Your Estimated Cost": "20% coinsurance (~$30-$60)" },
+        { "Treatment": "Spirometry/pulmonary function test", "Medicare Coverage": "Part B (80%)", "Your Estimated Cost": "20% coinsurance (~$15-$40)" },
+        { "Treatment": "Pulmonary rehabilitation (per session)", "Medicare Coverage": "Part B (80%)", "Your Estimated Cost": "20% coinsurance (~$20-$50)" },
+        { "Treatment": "Home oxygen equipment (monthly rental)", "Medicare Coverage": "Part B (80%)", "Your Estimated Cost": "20% coinsurance (~$30-$80/month)" },
+        { "Treatment": "Rescue inhaler (albuterol/generic)", "Medicare Coverage": "Part D", "Your Estimated Cost": "$0-$15 copay (Tier 1-2)" },
+        { "Treatment": "Maintenance inhaler (brand-name)", "Medicare Coverage": "Part D", "Your Estimated Cost": "$40-$100 copay (Tier 3-4)" },
+        { "Treatment": "Trelegy Ellipta (triple therapy)", "Medicare Coverage": "Part D", "Your Estimated Cost": "$40-$100+ (until $2,000 cap)" },
+        { "Treatment": "Lung cancer screening (LDCT)", "Medicare Coverage": "Part B preventive", "Your Estimated Cost": "$0 (no cost-sharing)" },
+        { "Treatment": "Smoking cessation counseling", "Medicare Coverage": "Part B preventive", "Your Estimated Cost": "$0 (up to 8 sessions/year)" }
+      ],
+      footnote: "Part B costs assume the $257 annual deductible has been met. Part D costs vary by plan formulary. The $2,000 annual Part D out-of-pocket cap applies to all drug costs combined. Medigap plans cover the 20% Part B coinsurance."
+    },
+    exceptionsSection: {
+      title: "Preventive Services and Screenings for COPD Patients",
+      items: [
+        {
+          title: "Lung Cancer Screening (LDCT)",
+          text: "Medicare covers an annual Low-Dose Computed Tomography (LDCT) lung cancer screening at $0 cost for beneficiaries aged 50 to 80 who have a 20+ pack-year smoking history and currently smoke or quit within the past 15 years. COPD patients who meet these criteria should take advantage of this preventive benefit, as COPD and lung cancer share common risk factors."
+        },
+        {
+          title: "Smoking Cessation Counseling",
+          text: "Medicare covers up to 8 face-to-face smoking cessation counseling sessions per year at no cost to you. This is critical for COPD patients who still smoke, as quitting is the single most effective intervention to slow COPD progression. Medicare also covers FDA-approved smoking cessation medications under Part D."
+        },
+        {
+          title: "Flu, Pneumonia, and COVID-19 Vaccines",
+          text: "COPD patients are at higher risk for respiratory infections. Medicare covers flu shots (annually), pneumococcal vaccines (pneumonia), COVID-19 vaccines, and RSV vaccines at $0 cost. These preventive vaccines are especially important for COPD patients to prevent exacerbations that can lead to hospitalization."
+        },
+        {
+          title: "COPD Exacerbation and Hospitalization",
+          text: "When COPD flares require hospitalization, Medicare Part A covers the inpatient stay including ICU care, respiratory therapy, medications administered in the hospital, and discharge planning. You pay the Part A deductible ($1,676 in 2026) for each benefit period. Medigap plans cover this deductible."
+        }
+      ]
+    },
     faqs: [
+      { question: "Does Medicare cover COPD inhalers?", answer: "Yes. Medicare Part D covers COPD inhalers including rescue inhalers (albuterol, ProAir, Ventolin), maintenance inhalers (Spiriva, Advair, Breo Ellipta, Symbicort, Trelegy Ellipta), and combination therapies. Your cost depends on the plan's formulary tier placement. The $2,000 annual Part D out-of-pocket cap (effective 2025) limits your total inhaler costs for the year." },
+      { question: "Does Medicare cover oxygen for COPD?", answer: "Yes. Medicare Part B covers home oxygen therapy when your doctor documents that your blood oxygen level meets Medicare's criteria (arterial PO2 at or below 55 mm Hg or oxygen saturation at or below 88%). Medicare rents the equipment for 36 months (you pay 20% coinsurance), then the supplier provides it free for an additional 24 months." },
+      { question: "Does Medicare cover pulmonary rehabilitation?", answer: "Yes. Medicare Part B covers pulmonary rehabilitation for COPD patients. The program includes supervised exercise, breathing techniques, disease management education, and psychological support. Medicare covers up to 36 sessions initially, with physician approval for up to 36 additional sessions (72 total). You pay 20% coinsurance per session." },
+      { question: "How much do COPD inhalers cost with Medicare?", answer: "With Medicare Part D, rescue inhalers (generic albuterol) typically cost $0 to $15 per fill. Brand-name maintenance inhalers cost $40 to $100+ per fill depending on tier placement. However, the $2,000 annual out-of-pocket cap means once your total drug costs reach $2,000 for the year, all additional prescriptions are $0. You can spread payments monthly through the Medicare Prescription Payment Plan." },
+      { question: "Does Medicare cover nebulizer treatments for COPD?", answer: "Yes. The nebulizer machine is covered under Medicare Part B as durable medical equipment (you pay 20% coinsurance). The nebulizer solutions (medications like ipratropium or budesonide) are covered under Medicare Part D. Your doctor must provide a prescription and Certificate of Medical Necessity for the nebulizer." },
+      { question: "Does Medicare cover a pulmonologist for COPD?", answer: "Yes. Medicare Part B covers visits to a pulmonologist (lung specialist) when medically necessary. You pay 20% coinsurance after meeting the Part B deductible ($257 in 2026). With an HMO Medicare Advantage plan, you need a referral from your primary care doctor. With a PPO or Original Medicare, no referral is needed." },
+      { question: "Does Medicare cover lung cancer screening for COPD patients?", answer: "Yes. Medicare covers an annual Low-Dose CT (LDCT) lung cancer screening at $0 cost for beneficiaries aged 50 to 80 with a 20+ pack-year smoking history who currently smoke or quit within the past 15 years. Many COPD patients meet these criteria. No referral is needed, but you must get a written order from your doctor." },
+      { question: "Does Medicare Advantage cover COPD treatment?", answer: "Yes. Medicare Advantage plans must cover everything Original Medicare covers, including all COPD treatments. Most MA plans also include Part D drug coverage for inhalers. Some plans offer additional benefits like fitness programs, telehealth visits, and transportation to appointments that can benefit COPD patients. Network restrictions apply." },
+      { question: "Does Medigap help with COPD costs?", answer: "Yes. Medicare Supplement (Medigap) plans cover the cost-sharing associated with COPD treatment under Original Medicare. This includes the 20% Part B coinsurance for pulmonologist visits, pulmonary rehab, oxygen therapy, and the Part A deductible for hospitalizations. Medigap does not cover Part D drug costs (inhalers), so you still need a separate Part D plan." },
+      { question: "Can I get a portable oxygen concentrator with Medicare?", answer: "Yes. Medicare covers portable oxygen concentrators (POCs) when your doctor prescribes oxygen therapy and documents medical necessity. The POC is rented from a Medicare-enrolled supplier under the same 36-month rental terms as stationary equipment. You pay 20% of the Medicare-approved rental amount. Ensure the supplier provides a POC that meets your prescribed flow rate." }
     ],
     quickReference: [
-      { icon: "alert", text: "<strong>Original Medicare</strong> coverage varies by plan" },
-      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
-      { icon: "x", text: "<strong>Medigap</strong> does not cover this service" },
-      { icon: "info", text: "Always verify coverage with your specific plan" }],
+      { icon: "check", text: "<strong>Part B:</strong> Covers pulmonologist visits, pulmonary rehab, oxygen therapy, diagnostics" },
+      { icon: "check", text: "<strong>Part D:</strong> Covers inhalers, nebulizer solutions, oral COPD medications" },
+      { icon: "dollar", text: "<strong>$2,000 cap:</strong> Maximum annual out-of-pocket for all Part D drugs (inhalers included)" },
+      { icon: "check", text: "<strong>Preventive:</strong> Lung cancer screening, smoking cessation, vaccines at $0" },
+      { icon: "info", text: "<strong>Oxygen:</strong> Covered when O2 saturation ≤88%; 36-month rental then free" },
+      { icon: "alert", text: "<strong>Medigap:</strong> Covers Part B coinsurance but not Part D drug costs" }
+    ],
     relatedTopics: [
-      { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare and supplemental plans.", slug: "does-medicare-cover-dental-implants" },
-      { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
-      { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
-      { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" }],
+      { title: "Does Medicare Cover Asthma Inhalers?", description: "Inhaler coverage and costs under Medicare Part D.", slug: "does-medicare-cover-asthma-inhalers" },
+      { title: "Medicare Coverage for Cardiovascular Disease", description: "Heart disease treatment coverage under Medicare.", slug: "medicare-coverage-for-cardiovascular-disease" },
+      { title: "Medicare Preventive Services", description: "All preventive screenings and services covered at $0.", slug: "medicare-preventive-services" },
+      { title: "Does Medicare Cover Sleep Apnea?", description: "CPAP and sleep study coverage under Medicare.", slug: "does-medicare-cover-sleep-apnea" }
+    ],
     sidebarRelatedLinks: [
-      "Does Medicare Cover Dental Implants",
-      "Does Medicare Cover Glasses",
-      "Does Medicare Cover Hearing Aids",
-      "Does Medicare Cover Chiropractic Care"],
+      "Does Medicare Cover Asthma Inhalers",
+      "Medicare Coverage for Cardiovascular Disease",
+      "Medicare Preventive Services",
+      "Does Medicare Cover Sleep Apnea"
+    ],
     ctaBanner: {
-      title: "Need Help Understanding Your Coverage?",
-      text: "Our licensed agents can help you find the right Medicare plan that covers finding a pulmonologist on medicare and more.",
+      title: "Need Help Finding COPD Coverage?",
+      text: "Our licensed agents can help you compare Medicare plans with the best coverage for COPD treatments, inhalers, and pulmonary care in your area at no cost to you.",
     },
-    relatedSlugs: ["does-medicare-cover-asthma-inhalers", "medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "does-medicare-cover-sleep-apnea", "does-medicare-cover-ostomy-supplies"],
+    relatedSlugs: ["does-medicare-cover-asthma-inhalers", "medicare-coverage-for-cardiovascular-disease", "medicare-preventive-services", "does-medicare-cover-sleep-apnea", "does-medicare-cover-ostomy-supplies", "new-medicare-changes"],
   },
   {
     slug: "does-medicare-cover-pre-existing-conditions",
