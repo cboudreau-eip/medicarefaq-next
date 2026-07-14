@@ -2661,100 +2661,203 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["does-medicare-cover-copd", "will-medicare-pay-for-a-nebulizer-machine", "medicare-parts-a-b-c-and-d-explained-simply", "hsa-and-medicare", "medicare-low-income-subsidy", "medicare-visiting-angels", "your-medicare-rights-and-protections"],
   },
   {
-    slug: "does-medicare-cover-cataract-surgery",
-    seo: {
-      title: "Does Medicare Cover Cataract Surgery? -- Medicare Cataract Surgery",
-      description: "Does Medicare cover cataract surgery? It can, but how you're covered, what is covered, and when all depend on a litany of factors. Learn more.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-cataract-surgery/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Cataract-Surgery.jpg",
-    },
-    title: "Does Medicare Cover Cataract Surgery? -- Medicare Cataract Surgery",
-    subtitle: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
-    category: "General Medicare",
-    dateUpdated: "November 15, 2024",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "22 mins",
-    quickAnswer: {
-      text: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
-      badges: [
-        { plan: "Original Medicare", status: "partial" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "Original Medicare", coverage: "Some Plans", icon: "shield", notes: "Limited coverage under specific conditions" },
-      { planType: "Medicare Advantage", coverage: "Some Plans", icon: "shield", notes: "Coverage varies by plan and ZIP code" },
-      { planType: "Medigap", coverage: "Not Covered", icon: "shield", notes: "Only supplements Original Medicare benefits" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover related prescriptions" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Varies",
-        coverageType: "partial",
-        paragraphs: [
-          "Some [Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's [Evidence of Coverage](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) or speak with a licensed agent."],
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Varies",
-        coverageType: "partial",
-        paragraphs: [
-          "Some [Medicare Advantage (Part C)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent."],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Varies",
-        coverageType: "partial",
-        paragraphs: [
-          "Some [Medicare Supplement (Medigap)](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent."],
-      }],
-    faqs: [
-      { question: "Does Medicare Pay for Cataract Surgery with Astigmatism?", answer: "No, in most cases, you can’t receive coverage for cataract surgery from Medicare benefits for astigmatism. Here’s why:  In many cases, you can treat astigmatism with glasses or contacts. Therefore, it’s not medically necessary for you to undergo surgery. A key component for any procedure receiving coverage from Medicare benefits. To fix astigmatism through cataract surgery, you’ll likely need to receive a type of lens that is not covered by Medicare benefits. Remember, lenses using advanced technology are not included.  The combination of those who have astigmatism having viable options combined with the inaccessibility to the necessary technology to complete the procedure means that Medicare benefits aren’t really an option.  If you do suffer from astigmatism, glasses or contacts may be an alternative route. Otherwise, you’ll likely need to pay for it out of your own pockets. Even when enrolling in a separate vision plan, it’s unlikely that your vision insurance will offer coverage for this procedure." },
-      { question: "Is Cataract Surgery Covered by Medicare Advantage Plans?", answer: "Yes, the cost of cataract surgery with Medicare Advantage is covered by your benefits. This is because Medicare Advantage plans must cover the same medical procedures as Original Medicare benefits, including cataract surgery used to implant an intraocular lens when medically necessary.  The key point to remember is when it comes to Medicare Advantage plans, while many enrollees benefit from the coverage, some restrictions come with your policy. Specifically, unlike Medicare Supplement plans, there are networks to be aware of.  This can be a limiting factor for seniors looking to receive healthcare from their preferred providers and use their benefits. If you are looking to help cover the expenses of your cataract surgery or any other Medicare-approved healthcare procedure without the worry of networks, Original Medicare and Medigap benefits may be the right option for you. Enrolling in both Medicare Supplement and Medicare Advantage is not allowed.  Find Medicare Plans in 3 Easy Steps  Let us help you navigate your Medicare journey  Additionally, suppose you find that a Medicare Advantage plan is your best option after speaking with a licensed Medicare agent. In that case, you’ll want to know whether or not your healthcare provider is within your network. You can search for cataract surgeons that accept Medicare using the program’s find and compare tool, but you will still need to refer to your individual Advantage plan to determine whether or not they are in your network." },
-      { question: "Does Medicare Cover Multifocal Lens for Cataract Surgery?", answer: "No, multifocal lenses aren’t covered following cataract surgery by Medicare benefits. Remember, when Medicare covers cataract surgery, the type of lens used, standard IOLs, are monofocal. You can correct issues that persist after your surgery with glasses or contacts instead of receiving multifocal lenses through cataract surgery.  Because vision insurance isn’t covering cataract surgery in most cases, multifocal lenses aren’t usually covered through other means either. This is another situation in which, even with Medicare benefits and ancillary coverage, you’ll likely pay for the healthcare service on your own." },
-      { question: "Does Medicare Cover Glasses after Cataract Surgery?", answer: "Yes, Medicare post-cataract glasses are available as part of your benefits. This equates to a one-time benefit following your procedure that includes either a pair of eyeglasses with standard frames or one set of contact lenses. To qualify, your cataract surgery must meet the standards of Medicare and be medically necessary, as glasses are typically not covered by your benefits.  If you require additional pairs, you’ll need to purchase them on your own or through your vision benefits. But Medicare doesn’t provide such coverage. Furthermore, the same applies if you are looking to receive premium frames or lenses.  There are also stipulations that can change from location to location, which you’ll want to be aware of. This is because to use your benefits, you’ll need to understand Medicare post-cataract glasses billing.  Your Medicare benefits allow for you to receive post-cataract glasses, but there are local coverage determinations (LCDs) that may have policy limits you’ll need to abide by. LCDs can even stipulate that if you have cataract surgery and only purchase new lenses but never get new frames, you won’t be able to get new frames later on unless you have a cataract extraction on another eye.  LCDs also dictate that if you undergo cataract surgery on one eye but have the procedure done on another eye later without receiving your glasses or contacts between the two, your Medicare will only cover your eyewear following your second cataract surgery." }],
-    quickReference: [
-      { icon: "alert", text: "<strong>Original Medicare</strong> coverage varies by plan" },
-      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
-      { icon: "x", text: "<strong>Medigap</strong> does not cover this service" },
-      { icon: "info", text: "Always verify coverage with your specific plan" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare and supplemental plans.", slug: "does-medicare-cover-dental-implants" },
-      { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
-      { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
-      { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    
-      { title: "Does Medicare Cover Glaucoma Treatment?", description: "Find out if Medicare covers glaucoma screenings, eye drops, and surgical procedures.", slug: "does-medicare-cover-glaucoma" },
-      { title: "Does Medicare Cover Robotic Surgery?", description: "Find out if Medicare covers robotic-assisted surgical procedures and what you'll pay.", slug: "does-medicare-cover-robotic-surgery" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Dental Implants",
-      "Does Medicare Cover Glasses",
-      "Does Medicare Cover Hearing Aids",
-      "Does Medicare Cover Chiropractic Care"],
-    ctaBanner: {
-      title: "Need Help Understanding Your Coverage?",
-      text: "Our licensed agents can help you find the right Medicare plan that covers cataract surgery - medicare cataract surgery and more.",
-    },
-    relatedSlugs: ["does-medicare-cover-glasses", "medicare-vision-care-coverage", "medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-macular-degeneration", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "does-medicare-cover-gender-reassignment-surgery", "hsa-and-medicare", "illinois-birthday-rule", "manufacturers-coupons-and-medicare", "medicare-coverage-for-bariatric-surgery", "medicare-coverage-for-plastic-surgery", "medicare-low-income-subsidy", "medicare-visiting-angels", "medicare-vs-medicaid", "your-medicare-rights-and-protections"],
+  slug: "does-medicare-cover-cataract-surgery",
+  seo: {
+    title: "Does Medicare Cover Cataract Surgery? Coverage Details",
+    description: "Does Medicare cover cataract surgery? It can, but how you're covered, what is covered, and when all depend on a litany of factors. Learn more today.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-cataract-surgery/",
+    ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Cataract-Surgery.jpg",
+    focusKeyword: "does medicare cover cataract surgery",
   },
+  title: "Does Medicare Cover Cataract Surgery? -- Medicare Cataract Surgery",
+  subtitle: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
+  category: "General Medicare",
+  dateUpdated: "November 15, 2024",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "Author",
+    bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "22 mins",
+  quickAnswer: {
+    text: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "partial",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare",
+      coverage: "Some Plans",
+      icon: "shield",
+      notes: "Limited coverage under specific conditions",
+    },
+    {
+      planType: "Medicare Advantage",
+      coverage: "Some Plans",
+      icon: "shield",
+      notes: "Coverage varies by plan and ZIP code",
+    },
+    {
+      planType: "Medigap",
+      coverage: "Not Covered",
+      icon: "shield",
+      notes: "Only supplements Original Medicare benefits",
+    },
+    {
+      planType: "Medicare Part D",
+      coverage: "May Cover Related Rx",
+      icon: "filetext",
+      notes: "May cover related prescriptions",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part a & B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Varies",
+      coverageType: "partial",
+      paragraphs: [
+      "Some [Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's [Evidence of Coverage](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) or speak with a licensed agent.",
+    ],
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Varies",
+      coverageType: "partial",
+      paragraphs: [
+      "Some [Medicare Advantage (Part C)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+    ],
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Varies",
+      coverageType: "partial",
+      paragraphs: [
+      "Some [Medicare Supplement (Medigap)](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent.",
+    ],
+    },
+  ],
+  faqs: [
+    {
+      question: "Does Medicare Pay for Cataract Surgery with Astigmatism?",
+      answer: "No, in most cases, you can’t receive coverage for cataract surgery from Medicare benefits for astigmatism. Here’s why:  In many cases, you can treat astigmatism with glasses or contacts. Therefore, it’s not medically necessary for you to undergo surgery. A key component for any procedure receiving coverage from Medicare benefits. To fix astigmatism through cataract surgery, you’ll likely need to receive a type of lens that is not covered by Medicare benefits. Remember, lenses using advanced technology are not included.  The combination of those who have astigmatism having viable options combined with the inaccessibility to the necessary technology to complete the procedure means that Medicare benefits aren’t really an option.  If you do suffer from astigmatism, glasses or contacts may be an alternative route. Otherwise, you’ll likely need to pay for it out of your own pockets. Even when enrolling in a separate vision plan, it’s unlikely that your vision insurance will offer coverage for this procedure.",
+    },
+    {
+      question: "Is Cataract Surgery Covered by Medicare Advantage Plans?",
+      answer: "Yes, the cost of cataract surgery with Medicare Advantage is covered by your benefits. This is because Medicare Advantage plans must cover the same medical procedures as Original Medicare benefits, including cataract surgery used to implant an intraocular lens when medically necessary.  The key point to remember is when it comes to Medicare Advantage plans, while many enrollees benefit from the coverage, some restrictions come with your policy. Specifically, unlike Medicare Supplement plans, there are networks to be aware of.  This can be a limiting factor for seniors looking to receive healthcare from their preferred providers and use their benefits. If you are looking to help cover the expenses of your cataract surgery or any other Medicare-approved healthcare procedure without the worry of networks, Original Medicare and Medigap benefits may be the right option for you. Enrolling in both Medicare Supplement and Medicare Advantage is not allowed.  Find Medicare Plans in 3 Easy Steps  Let us help you navigate your Medicare journey  Additionally, suppose you find that a Medicare Advantage plan is your best option after speaking with a licensed Medicare agent. In that case, you’ll want to know whether or not your healthcare provider is within your network. You can search for cataract surgeons that accept Medicare using the program’s find and compare tool, but you will still need to refer to your individual Advantage plan to determine whether or not they are in your network.",
+    },
+    {
+      question: "Does Medicare Cover Multifocal Lens for Cataract Surgery?",
+      answer: "No, multifocal lenses aren’t covered following cataract surgery by Medicare benefits. Remember, when Medicare covers cataract surgery, the type of lens used, standard IOLs, are monofocal. You can correct issues that persist after your surgery with glasses or contacts instead of receiving multifocal lenses through cataract surgery.  Because vision insurance isn’t covering cataract surgery in most cases, multifocal lenses aren’t usually covered through other means either. This is another situation in which, even with Medicare benefits and ancillary coverage, you’ll likely pay for the healthcare service on your own.",
+    },
+    {
+      question: "Does Medicare Cover Glasses after Cataract Surgery?",
+      answer: "Yes, Medicare post-cataract glasses are available as part of your benefits. This equates to a one-time benefit following your procedure that includes either a pair of eyeglasses with standard frames or one set of contact lenses. To qualify, your cataract surgery must meet the standards of Medicare and be medically necessary, as glasses are typically not covered by your benefits.  If you require additional pairs, you’ll need to purchase them on your own or through your vision benefits. But Medicare doesn’t provide such coverage. Furthermore, the same applies if you are looking to receive premium frames or lenses.  There are also stipulations that can change from location to location, which you’ll want to be aware of. This is because to use your benefits, you’ll need to understand Medicare post-cataract glasses billing.  Your Medicare benefits allow for you to receive post-cataract glasses, but there are local coverage determinations (LCDs) that may have policy limits you’ll need to abide by. LCDs can even stipulate that if you have cataract surgery and only purchase new lenses but never get new frames, you won’t be able to get new frames later on unless you have a cataract extraction on another eye.  LCDs also dictate that if you undergo cataract surgery on one eye but have the procedure done on another eye later without receiving your glasses or contacts between the two, your Medicare will only cover your eyewear following your second cataract surgery.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "alert",
+      text: "<strong>Original Medicare</strong> coverage varies by plan",
+    },
+    {
+      icon: "alert",
+      text: "<strong>Medicare Advantage</strong> coverage varies by plan",
+    },
+    {
+      icon: "x",
+      text: "<strong>Medigap</strong> does not cover this service",
+    },
+    {
+      icon: "info",
+      text: "Always verify coverage with your specific plan",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Dental Implants?",
+      description: "Learn about dental coverage options under Medicare and supplemental plans.",
+      slug: "does-medicare-cover-dental-implants",
+    },
+    {
+      title: "Does Medicare Cover Glasses?",
+      description: "Explore what Medicare covers for vision care, glasses, and eye exams.",
+      slug: "does-medicare-cover-glasses",
+    },
+    {
+      title: "Does Medicare Cover Hearing Aids?",
+      description: "Find out about hearing aid coverage and your options under Medicare.",
+      slug: "does-medicare-cover-hearing-aids",
+    },
+    {
+      title: "Does Medicare Cover Chiropractic Care?",
+      description: "Understand Medicare's limited chiropractic coverage and alternatives.",
+      slug: "does-medicare-cover-chiropractic-care",
+    },
+    {
+      title: "Does Medicare Cover Glaucoma Treatment?",
+      description: "Find out if Medicare covers glaucoma screenings, eye drops, and surgical procedures.",
+      slug: "does-medicare-cover-glaucoma",
+    },
+    {
+      title: "Does Medicare Cover Robotic Surgery?",
+      description: "Find out if Medicare covers robotic-assisted surgical procedures and what you'll pay.",
+      slug: "does-medicare-cover-robotic-surgery",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover Dental Implants",
+    "Does Medicare Cover Glasses",
+    "Does Medicare Cover Hearing Aids",
+    "Does Medicare Cover Chiropractic Care",
+  ],
+  ctaBanner: {
+    title: "Need Help Understanding Your Coverage?",
+    text: "Our licensed agents can help you find the right Medicare plan that covers cataract surgery - medicare cataract surgery and more.",
+  },
+  relatedSlugs: [
+    "does-medicare-cover-glasses",
+    "medicare-vision-care-coverage",
+    "medicare-and-vision-dental-and-hearing-what-are-your-options",
+    "does-medicare-cover-macular-degeneration",
+    "does-medicare-cover-second-opinions-and-when-should-you-get-one",
+    "does-medicare-cover-gender-reassignment-surgery",
+    "hsa-and-medicare",
+    "illinois-birthday-rule",
+    "manufacturers-coupons-and-medicare",
+    "medicare-coverage-for-bariatric-surgery",
+    "medicare-coverage-for-plastic-surgery",
+    "medicare-low-income-subsidy",
+    "medicare-visiting-angels",
+    "medicare-vs-medicaid",
+    "your-medicare-rights-and-protections",
+  ],
+},
   {
     slug: "does-medicare-cover-hospice",
     seo: {
