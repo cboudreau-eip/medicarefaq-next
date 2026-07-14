@@ -3066,16 +3066,17 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-dentures",
     seo: {
-      title: "Does Medicare Pay and Cover the Cost of Dentures?",
-      description: "Does Medicare pay and cover the cost of dentures? This article breaks down the process and options available for Medicare dental coverage for dentures.",
+      title: "Does Medicare Cover Dentures? Costs, Options & Alternatives (2026)",
+      description: "Original Medicare does not cover dentures. Learn which Medicare Advantage plans include dental benefits, standalone dental plan options, and how to get affordable dentures.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-dentures/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/Does-Medicare-Cover-Dentures.jpg",
+      focusKeyword: "does medicare cover dentures",
     },
-    title: "Does Medicare Pay and Cover the Cost of Dentures?",
-    subtitle: "Dentures for seniors on Medicare is available, but only under certain circumstances. Original Medicare doesn’t ordinarily provide coverage for dental care, but other options are available, primarily t",
-    category: "General Medicare",
-    dateUpdated: "June 13, 2023",
-    lastReviewed: "2026-05-18",
+    title: "Does Medicare Cover Dentures? Your Complete 2026 Guide",
+    subtitle: "No, Original Medicare does not cover dentures or most dental care. However, Medicare Advantage plans frequently include dental benefits that cover dentures (often with annual allowances of $1,000 to $3,000+), and standalone dental insurance plans are available. Medicare Part A may cover dental services when they are medically necessary as part of a covered inpatient procedure.",
+    category: "Medicare Coverage",
+    dateUpdated: "July 14, 2026",
+    lastReviewed: "2026-07-14",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -3088,72 +3089,189 @@ export const coverageArticles: CoverageArticleData[] = [
       role: "Reviewer",
       bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
     },
-    readTime: "8 min read",
+    readTime: "10 min read",
     quickAnswer: {
-      text: "Dentures for seniors on Medicare is available, but only under certain circumstances. Original Medicare doesn’t ordinarily provide coverage for dental care, but other options are available, primarily through Medicare Advantage plans. Nevertheless, beneficiaries have many options available.",
+      text: "No, Original Medicare (Parts A and B) does not cover dentures, dental exams, cleanings, fillings, tooth extractions, or any routine dental care. The one exception is when dental work is medically necessary as part of a covered inpatient hospital procedure (such as jaw reconstruction after an accident or dental clearance before heart valve surgery). Many Medicare Advantage plans include comprehensive dental benefits that cover dentures, typically with annual maximums of $1,000 to $3,000. Standalone dental insurance plans are also available for $20 to $60 per month.",
       badges: [
-        { plan: "Original Medicare", status: "partial" },
-        { plan: "Medicare Advantage", status: "not-covered" },
-        { plan: "Medigap", status: "not-covered" }],
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+        { plan: "Standalone Dental", status: "covered" }],
     },
     comparisonTable: [
-      { planType: "Original Medicare", coverage: "Some Plans", icon: "shield", notes: "Limited coverage under specific conditions" },
-      { planType: "Medicare Advantage", coverage: "Not Covered", icon: "shield", notes: "Check plan's Evidence of Coverage" },
-      { planType: "Medigap", coverage: "Not Covered", icon: "shield", notes: "Only supplements Original Medicare benefits" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover related prescriptions" }],
+      { planType: "Original Medicare (Parts A & B)", coverage: "Not Covered", icon: "x-circle", notes: "Does not cover dentures, dental exams, or routine dental care" },
+      { planType: "Original Medicare (Inpatient Exception)", coverage: "Limited", icon: "check-circle", notes: "Covers dental work medically necessary for a covered inpatient procedure" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Many Plans Cover", icon: "check-circle", notes: "Dental benefits common; $1,000 to $3,000+ annual maximum typical" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "x-circle", notes: "Only supplements Original Medicare; does not add dental benefits" },
+      { planType: "Standalone Dental Plan", coverage: "Covered", icon: "check-circle", notes: "Plans available for $20 to $60/month with denture coverage" },
+      { planType: "Dental Discount Plans", coverage: "Discounted", icon: "check-circle", notes: "20% to 60% off dental services for $8 to $15/month membership" }],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a & B)",
+        planName: "Original Medicare and Dentures",
         icon: "shield",
         iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
+        coverageLabel: "Not Covered",
+        coverageType: "not-covered",
         paragraphs: [
-          "But it’s important to note that coverage for dentures on Medicare can still occur. To better illustrate how this is possible, it’s important to understand [how Medicare benefits are provided](/faqs/what-is-medicare):",
-          "There are guidelines that private insurance companies must follow, but there is also the opportunity to provide additional benefits. Therefore, while Original Medicare doesn’t cover dentures, without rare exceptions, [other forms of coverage provided](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) by private insurance companies may be at the company’s discretion for each individual plan."],
+          "[Original Medicare](/faqs/original-medicare-vs-medicare-advantage) explicitly excludes dentures and routine dental care from its covered benefits. This exclusion has been in place since Medicare's creation in 1965. Medicare Part A and Part B will not pay for dentures, dental exams, cleanings, fillings, tooth extractions, dental X-rays, or any other routine dental service.",
+          "The one narrow exception is when dental services are medically necessary as part of a covered inpatient hospital procedure. For example, Medicare Part A may cover tooth extractions or dental work if you need jaw reconstruction after a traumatic injury, dental clearance before heart valve replacement surgery, or treatment of a dental infection that has spread and requires hospitalization. In these cases, the dental work is considered part of the medical procedure, not standalone dental care.",
+          "This exclusion means that if you have Original Medicare without any supplemental dental coverage, you are responsible for 100% of denture costs out of pocket. The average cost of a complete set of dentures ranges from $1,000 to $3,000 for basic dentures and $4,000 to $8,000+ for premium or implant-supported dentures.",
+          "Because Original Medicare does not cover dentures, [Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) also do not cover them. Medigap plans only supplement what Original Medicare already covers. Since there is no dental benefit to supplement, Medigap provides no dental coverage whatsoever."
+        ],
+        whatItDoesntCover: [
+          "Dentures (full or partial)",
+          "Tooth extractions for denture preparation",
+          "Dental exams and X-rays",
+          "Denture fittings, adjustments, and relines",
+          "Dental implants to support dentures",
+          "Routine cleanings and fillings",
+          "Any dental care not tied to a covered inpatient procedure"
+        ],
+        callout: {
+          type: "warning",
+          title: "Original Medicare Has No Dental Benefit",
+          text: "Unlike vision and hearing, which some Medicare Advantage plans cover as extras, dental care is explicitly excluded from Original Medicare by law. If you rely solely on Original Medicare and Medigap, you must pay for dentures entirely out of pocket or obtain separate dental coverage.",
+        },
       },
       {
-        planName: "Medicare Advantage (Part C)",
+        planName: "Medicare Advantage Dental Benefits",
         icon: "heart",
         iconColor: "#059669",
-        coverageLabel: "Varies",
+        coverageLabel: "Many Plans Include Dentures",
         coverageType: "partial",
         paragraphs: [
-          "There are guidelines that [private insurance companies](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) must follow, but there is also the opportunity to provide additional benefits. Therefore, while Original Medicare doesn’t cover dentures, without rare exceptions, other forms of coverage provided by private insurance companies may be at the company’s discretion for each individual plan."],
+          "[Medicare Advantage plans](/faqs/what-is-medicare-advantage) (Part C) frequently include dental benefits as supplemental coverage beyond Original Medicare. According to CMS data, approximately 97% of Medicare Advantage plans offered some dental benefit in 2025. However, the scope of dental coverage varies significantly between plans, ranging from basic preventive-only coverage to comprehensive benefits that include dentures.",
+          "**Preventive dental benefits** (covered by most MA plans) include routine exams, cleanings, and X-rays, typically at $0 copay for 1-2 visits per year. These benefits help maintain oral health but do not cover major procedures like dentures.",
+          "**Comprehensive dental benefits** (available in many MA plans) include coverage for major services like dentures, crowns, bridges, root canals, and extractions. These plans typically have an annual maximum benefit (the most the plan will pay per year for dental care), commonly ranging from $1,000 to $3,000. Some premium MA plans offer $4,000 to $5,000+ annual dental maximums.",
+          "When evaluating Medicare Advantage plans for denture coverage, check these details: the annual dental maximum (higher is better for dentures), the percentage the plan pays for major services (typically 50% for dentures), any waiting periods before major services are covered (some plans require 12 months of enrollment), whether the plan covers both full and partial dentures, and whether denture relines and repairs are included.",
+          "**Example:** A Medicare Advantage plan with a $2,000 annual dental maximum that covers dentures at 50% would pay up to $1,000 toward your dentures (50% of cost, capped at the $2,000 maximum). If your dentures cost $2,000, you would pay $1,000 out of pocket. Plans with higher maximums or higher coverage percentages reduce your cost further."
+        ],
+        whatItCovers: [
+          "Preventive dental: exams, cleanings, X-rays (typically $0 copay)",
+          "Full dentures (usually 50% coverage up to annual maximum)",
+          "Partial dentures (usually 50% coverage up to annual maximum)",
+          "Tooth extractions (for denture preparation)",
+          "Denture relines and repairs (plan-dependent)",
+          "Some plans: dental implants to support dentures"
+        ],
+        whatItDoesntCover: [
+          "Costs exceeding the annual dental maximum",
+          "Cosmetic dental procedures",
+          "Services during waiting periods (if applicable)",
+          "Out-of-network dental work (HMO plans)"
+        ],
+        callout: {
+          type: "tip",
+          title: "Compare Dental Maximums During AEP",
+          text: "During the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period) (October 15 to December 7), compare Medicare Advantage plans specifically for their dental annual maximum, denture coverage percentage, and any waiting periods. A plan with a $3,000 dental maximum at 50% coverage provides $1,500 toward dentures versus only $500 from a plan with a $1,000 maximum.",
+        },
       },
       {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
+        planName: "Standalone Dental Insurance Plans",
+        icon: "clipboard-check",
         iconColor: "#7C3AED",
-        coverageLabel: "Varies",
+        coverageLabel: "Available for All Medicare Beneficiaries",
+        coverageType: "covered",
+        paragraphs: [
+          "If you have Original Medicare with a Medigap plan (or prefer not to switch to Medicare Advantage), standalone dental insurance plans are available that cover dentures. These plans are separate from your Medicare coverage and can be enrolled in at any time. There is no limited enrollment period for standalone dental plans.",
+          "**Dental insurance plans** (DHMO and DPPO) typically cost $20 to $60 per month and cover preventive care at 100%, basic procedures at 50-80%, and major procedures (including dentures) at 50%. Most plans have annual maximums of $1,000 to $2,000. Common carriers include Delta Dental, Humana Dental, AARP/UnitedHealthcare Dental, Cigna Dental, and Guardian.",
+          "**Dental discount plans** (not insurance) charge a monthly membership fee of $8 to $15 and provide 20% to 60% discounts on dental services at participating providers. There are no annual maximums, no waiting periods, and no claims to file. For expensive procedures like dentures, a discount plan can save $500 to $2,000+ depending on the provider's fees.",
+          "**Important considerations for denture coverage:** Most dental insurance plans have a 12-month waiting period before covering major services like dentures. This means you must be enrolled and paying premiums for a full year before the plan will pay for dentures. Dental discount plans have no waiting period. If you need dentures soon, a discount plan may be more practical than insurance.",
+          "Some [standalone dental plans designed for seniors](/faqs/top-5-dental-insurance-for-seniors) offer higher annual maximums ($2,000 to $5,000) specifically to accommodate expensive procedures like dentures and implants. These premium plans cost more per month ($40 to $75) but provide significantly more coverage for major dental work."
+        ],
+        callout: {
+          type: "info",
+          title: "Watch for Waiting Periods",
+          text: "Most standalone dental insurance plans require a 12-month waiting period before covering major services like dentures. If you need dentures within the next year, consider a dental discount plan (no waiting period) or a Medicare Advantage plan with dental benefits (some have no waiting period for dentures).",
+        },
+      },
+      {
+        planName: "Types of Dentures and Costs",
+        icon: "dollar-sign",
+        iconColor: "#D97706",
+        coverageLabel: "Cost Comparison",
         coverageType: "partial",
         paragraphs: [
-          "There are guidelines that private insurance companies must follow, but there is also the opportunity to provide additional benefits. Therefore, while Original Medicare doesn’t cover dentures, without rare exceptions, other forms of coverage provided by private insurance companies may be at the company’s discretion for each individual plan."],
-      }],
+          "Understanding the different types of dentures and their costs helps you plan your budget and evaluate which coverage option provides the best value. Denture costs vary widely based on the type, materials, and your geographic location.",
+          "**Complete (full) dentures** replace all teeth in the upper jaw, lower jaw, or both. Basic complete dentures cost $600 to $1,500 per arch (upper or lower). Mid-range dentures cost $1,500 to $3,000 per arch. Premium dentures with better materials and fit cost $3,000 to $5,000+ per arch.",
+          "**Partial dentures** replace some missing teeth while preserving remaining natural teeth. Cast metal partial dentures cost $1,500 to $3,000. Flexible partial dentures (Valplast) cost $900 to $2,000. Acrylic partial dentures cost $600 to $1,500.",
+          "**Implant-supported dentures** are anchored to dental implants surgically placed in the jawbone, providing superior stability and comfort. The implants cost $1,500 to $3,000 each (typically 2-4 needed), plus $2,000 to $5,000 for the denture itself. Total cost: $5,000 to $30,000. Most dental plans do not cover implants, though some premium Medicare Advantage plans include partial implant coverage.",
+          "**Additional costs to budget for:** Tooth extractions before dentures ($75 to $300 per tooth), denture relines ($200 to $500 every 1-2 years), denture repairs ($100 to $300), and replacement dentures every 5-8 years. These ongoing costs should factor into your coverage decision."
+        ],
+      }
+    ],
+    costTable: {
+      title: "Denture Costs and Coverage Options (2026)",
+      headers: ["Denture Type", "Average Cost", "With MA Dental (50%)", "With Standalone Dental (50%)"],
+      rows: [
+        { "Denture Type": "Complete dentures (basic, per arch)", "Average Cost": "$600-$1,500", "With MA Dental (50%)": "$300-$750 (up to plan max)", "With Standalone Dental (50%)": "$300-$750 (up to annual max)" },
+        { "Denture Type": "Complete dentures (premium, per arch)", "Average Cost": "$3,000-$5,000", "With MA Dental (50%)": "$1,500-$2,500 (may exceed max)", "With Standalone Dental (50%)": "$1,500-$2,500 (may exceed max)" },
+        { "Denture Type": "Partial dentures (cast metal)", "Average Cost": "$1,500-$3,000", "With MA Dental (50%)": "$750-$1,500", "With Standalone Dental (50%)": "$750-$1,500" },
+        { "Denture Type": "Partial dentures (flexible)", "Average Cost": "$900-$2,000", "With MA Dental (50%)": "$450-$1,000", "With Standalone Dental (50%)": "$450-$1,000" },
+        { "Denture Type": "Implant-supported dentures", "Average Cost": "$5,000-$30,000", "With MA Dental (50%)": "Rarely covered fully", "With Standalone Dental (50%)": "Rarely covered fully" },
+        { "Denture Type": "Denture reline", "Average Cost": "$200-$500", "With MA Dental (50%)": "$100-$250", "With Standalone Dental (50%)": "$100-$250" },
+        { "Denture Type": "Tooth extraction (per tooth)", "Average Cost": "$75-$300", "With MA Dental (50%)": "$37-$150", "With Standalone Dental (50%)": "$37-$150" }
+      ],
+      footnote: "Coverage percentages are typical but vary by plan. Most plans have annual maximums ($1,000-$3,000) that cap total payments. Costs exceeding the annual maximum are your responsibility. Waiting periods of 12 months may apply for major services."
+    },
+    exceptionsSection: {
+      title: "When Medicare Does Cover Dental Work",
+      items: [
+        {
+          title: "Inpatient Hospital Dental Services",
+          text: "Medicare Part A covers dental services when they are an integral part of a covered inpatient hospital procedure. Examples include jaw reconstruction after trauma, dental extractions required before radiation therapy for head/neck cancer, and dental clearance before organ transplant or heart valve surgery."
+        },
+        {
+          title: "Dental Exams Before Kidney Transplant",
+          text: "Medicare covers a dental exam before kidney transplant surgery because oral infections can complicate the transplant. This is considered part of the transplant preparation, not routine dental care."
+        },
+        {
+          title: "Dental Infections Requiring Hospitalization",
+          text: "If a dental infection spreads and becomes life-threatening (requiring emergency hospitalization), Medicare Part A covers the hospital stay and treatment. However, follow-up dental work after discharge (such as the extraction that caused the infection) is not covered."
+        },
+        {
+          title: "Jaw-Related Medical Procedures",
+          text: "Medicare may cover dental services related to jaw fractures, jaw tumors, or temporomandibular joint (TMJ) disorders when they are part of a medically necessary surgical procedure. The dental component is covered as part of the medical treatment."
+        }
+      ]
+    },
     faqs: [
+      { question: "Does Original Medicare cover dentures?", answer: "No. Original Medicare (Parts A and B) does not cover dentures, tooth extractions for denture preparation, dental exams, or any routine dental care. The only exception is when dental work is medically necessary as part of a covered inpatient hospital procedure (such as jaw surgery or dental clearance before organ transplant)." },
+      { question: "Does Medicare Advantage cover dentures?", answer: "Many Medicare Advantage plans include dental benefits that cover dentures. Approximately 97% of MA plans offer some dental benefit, and many include comprehensive coverage for major services like dentures. Coverage typically pays 50% of denture costs up to an annual maximum ($1,000 to $3,000). Check for waiting periods and coverage percentages when comparing plans." },
+      { question: "How much do dentures cost without insurance?", answer: "Without insurance, basic complete dentures cost $600 to $1,500 per arch (upper or lower). Mid-range dentures cost $1,500 to $3,000 per arch. Premium dentures cost $3,000 to $5,000+ per arch. A full set (upper and lower) typically costs $1,200 to $10,000+ depending on quality. Additional costs include extractions ($75-$300 per tooth) and relines ($200-$500 every 1-2 years)." },
+      { question: "Can I get dental insurance for dentures with Medicare?", answer: "Yes. You can purchase standalone dental insurance plans (from Delta Dental, Humana, AARP, Cigna, etc.) for $20 to $60 per month. These plans typically cover dentures at 50% up to an annual maximum of $1,000 to $2,000. Most have a 12-month waiting period for major services. You can enroll at any time; there is no limited enrollment period." },
+      { question: "Does Medigap cover dentures?", answer: "No. Medicare Supplement (Medigap) plans do not cover dentures or any dental services. Medigap only supplements Original Medicare's covered benefits. Since Original Medicare excludes dental care, Medigap has nothing to supplement. If you have Medigap and need dentures, you must pay out of pocket or purchase a separate standalone dental plan." },
+      { question: "What is the cheapest way to get dentures on Medicare?", answer: "The most affordable options include: dental schools (40-60% less than private dentists), community health centers with sliding-scale fees, dental discount plans ($8-$15/month for 20-60% off), charitable organizations (Dental Lifeline Network, Give Back a Smile), and state Medicaid programs (if dual-eligible). Some Medicare Advantage plans also cover dentures with no waiting period." },
+      { question: "Does Medicare cover implant-supported dentures?", answer: "Original Medicare does not cover dental implants or implant-supported dentures. Some premium Medicare Advantage plans include partial coverage for dental implants as part of their comprehensive dental benefit, but this is uncommon and typically subject to the annual dental maximum. Most patients pay the majority of implant costs out of pocket." },
+      { question: "How long is the waiting period for dentures with dental insurance?", answer: "Most standalone dental insurance plans have a 12-month waiting period before covering major services like dentures. This means you must pay premiums for a full year before the plan pays for dentures. Some Medicare Advantage plans have no waiting period for dental benefits. Dental discount plans have no waiting period but provide discounts rather than insurance coverage." },
+      { question: "Does Medicare cover denture repairs and relines?", answer: "Original Medicare does not cover denture repairs or relines. Medicare Advantage plans with dental benefits typically cover denture repairs and relines as part of their major services benefit (usually at 50% up to the annual maximum). Standalone dental plans also typically cover repairs and relines. Budget $200-$500 every 1-2 years for relines." },
+      { question: "Can I switch to Medicare Advantage just for dental coverage?", answer: "Yes. You can switch from Original Medicare to a Medicare Advantage plan during the Annual Enrollment Period (October 15 to December 7) or during certain Special Enrollment Periods. Many people switch specifically for the dental, vision, and hearing benefits. However, switching means giving up your Medigap plan, which you may not be able to get back with guaranteed issue rights." }
     ],
     quickReference: [
-      { icon: "alert", text: "<strong>Original Medicare</strong> coverage varies by plan" },
-      { icon: "x", text: "<strong>Medicare Advantage</strong> does not cover this service" },
-      { icon: "x", text: "<strong>Medigap</strong> does not cover this service" },
-      { icon: "info", text: "Always verify coverage with your specific plan" }],
+      { icon: "x", text: "<strong>Original Medicare:</strong> Does not cover dentures or routine dental care" },
+      { icon: "check", text: "<strong>Medicare Advantage:</strong> ~97% of plans offer dental; many cover dentures at 50%" },
+      { icon: "x", text: "<strong>Medigap:</strong> Does not cover dental; consider standalone dental plan" },
+      { icon: "dollar", text: "<strong>Denture costs:</strong> $600-$5,000+ per arch depending on type and quality" },
+      { icon: "alert", text: "<strong>Waiting periods:</strong> Most dental insurance requires 12 months before covering dentures" },
+      { icon: "info", text: "<strong>Alternatives:</strong> Dental schools, discount plans, community health centers" }
+    ],
     relatedTopics: [
-      { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare and supplemental plans.", slug: "does-medicare-cover-dental-implants" },
-      { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
-      { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
-      { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    
-      { title: "Top 5 Dental Insurance Plans for Seniors", description: "Compare the best dental insurance options for Medicare beneficiaries who need dental coverage.", slug: "top-5-dental-insurance-for-seniors" }],
+      { title: "Does Medicare Cover Dental Implants?", description: "Dental implant coverage options under Medicare.", slug: "does-medicare-cover-dental-implants" },
+      { title: "Top 5 Dental Insurance for Seniors", description: "Compare the best standalone dental plans for Medicare beneficiaries.", slug: "top-5-dental-insurance-for-seniors" },
+      { title: "Medicare Vision, Dental, and Hearing Options", description: "Complete guide to supplemental VDH coverage.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
+      { title: "Does Medicare Cover Root Canals?", description: "Root canal coverage and dental alternatives under Medicare.", slug: "does-medicare-cover-root-canals" }
+    ],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
-      "Does Medicare Cover Glasses",
-      "Does Medicare Cover Hearing Aids",
-      "Does Medicare Cover Chiropractic Care"],
+      "Top 5 Dental Insurance for Seniors",
+      "Medicare Vision Dental and Hearing Options",
+      "Does Medicare Cover Root Canals"
+    ],
     ctaBanner: {
-      title: "Need Help Understanding Your Coverage?",
-      text: "Our licensed agents can help you find the right Medicare plan that covers does medicare pay and cover the cost of dentures and more.",
+      title: "Need a Medicare Plan That Covers Dentures?",
+      text: "Our licensed agents can compare Medicare Advantage plans in your area with the best dental benefits, including denture coverage and annual maximums, at no cost to you.",
     },
-    relatedSlugs: ["does-medicare-cover-dental-implants", "what-dental-expenses-does-medicare-cover", "medicare-and-vision-dental-and-hearing-what-are-your-options", "dental-and-vision-insurance-for-seniors", "does-medicare-cover-root-canals", "does-medicare-cover-hormone-therapy-for-menopause", "medicare-and-divorce", "six-protected-classes"],
+    relatedSlugs: ["does-medicare-cover-dental-implants", "top-5-dental-insurance-for-seniors", "medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-root-canals", "what-dental-expenses-does-medicare-cover", "dental-and-vision-insurance-for-seniors"],
   },
   {
     slug: "does-medicare-cover-mental-health",
@@ -11689,21 +11807,22 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "medicare-coverage-for-mammograms",
     seo: {
-      title: "Does Medicare Cover Mammograms?",
-      description: "Medicare covers annual screening mammograms for women 40 and older at no cost. Learn about 3D mammograms, diagnostic mammograms, and your costs.",
+      title: "Does Medicare Cover Mammograms? Screening, 3D & Diagnostic (2026)",
+      description: "Medicare covers annual screening mammograms at $0 for women 40+. Learn about 3D mammograms, diagnostic costs, dense breast screening, and when you pay nothing.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-coverage-for-mammograms/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+      focusKeyword: "does medicare cover mammograms",
     },
-    title: "Does Medicare Cover Mammograms?",
-    subtitle: "Medicare Part B covers annual screening mammograms for women 40 and older at no cost. Diagnostic mammograms are also covered, with 20% coinsurance after the Part B deductible.",
+    title: "Does Medicare Cover Mammograms? Complete 2026 Coverage Guide",
+    subtitle: "Yes, Medicare Part B covers annual screening mammograms at $0 cost for women age 40 and older. Diagnostic mammograms, 3D mammograms (tomosynthesis), breast ultrasounds, and breast MRIs are also covered when medically necessary. There is no upper age limit for mammogram coverage under Medicare.",
     category: "Medicare Coverage",
-    dateUpdated: "May 3, 2023",
-    lastReviewed: "2026-05-18",
+    dateUpdated: "July 14, 2026",
+    lastReviewed: "2026-07-14",
     author: {
       name: "David Haass",
       initials: "DH",
       role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -11711,123 +11830,178 @@ export const coverageArticles: CoverageArticleData[] = [
       role: "Reviewer",
       bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
     },
-    readTime: "5 min read",
+    readTime: "9 min read",
     quickAnswer: {
-      text: "Medicare Part B covers annual screening mammograms for women age 40 and older at no cost (100% covered as a preventive service). Diagnostic mammograms are covered at 80%, with the beneficiary responsible for 20% coinsurance after the Part B deductible. Medicare also covers 3D mammograms and breast ultrasounds when medically necessary.",
+      text: "Yes, Medicare Part B covers annual screening mammograms for women age 40 and older at $0 cost (no deductible, no coinsurance) when your provider accepts Medicare Assignment. Diagnostic mammograms are covered at 80% after the Part B deductible ($257 in 2026). Medicare also covers 3D mammograms (digital breast tomosynthesis) at the same rates as 2D mammograms, breast ultrasounds, and breast MRIs when medically necessary. There is no upper age limit for mammogram coverage.",
       badges: [
         { plan: "Original Medicare", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
         { plan: "Medigap", status: "partial" }],
     },
     comparisonTable: [
-      { planType: "Original Medicare Part B", coverage: "Covered (Screening: $0 / Diagnostic: 20%)", icon: "shield", notes: "Annual screening mammogram at no cost; diagnostic mammogram with 20% coinsurance" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover all Original Medicare benefits; many plans offer $0 cost for both types" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Covers Your 20%", icon: "users", notes: "Medigap plans cover the 20% coinsurance for diagnostic mammograms" },
-      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "filetext", notes: "Part D covers prescription drugs, not diagnostic imaging" }],
+      { planType: "Original Medicare Part B (Screening)", coverage: "100% Covered ($0)", icon: "check-circle", notes: "Annual screening mammogram at no cost for women 40+" },
+      { planType: "Original Medicare Part B (Diagnostic)", coverage: "80% Covered", icon: "check-circle", notes: "20% coinsurance after $257 Part B deductible (2026)" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "check-circle", notes: "Must cover all Original Medicare benefits; many plans offer $0 for both types" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Covers Your 20%", icon: "check-circle", notes: "Pays the 20% coinsurance for diagnostic mammograms" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "x-circle", notes: "Part D covers prescription drugs, not diagnostic imaging" }],
     planBreakdowns: [
       {
-        planName: "Original Medicare Part B",
+        planName: "Screening Mammograms (Preventive)",
         icon: "shield",
         iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
+        coverageLabel: "$0 Cost",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers screening mammograms as a preventive service for women age 40 and older - once every 12 months at no cost to you (no deductible, no coinsurance) when your provider accepts Medicare Assignment. For women under 65 enrolled in Medicare, Part B also covers one baseline mammogram between ages 35 and 39.",
-          "Diagnostic mammograms are covered when ordered by a healthcare provider as medically necessary - for example, when a lump is detected or other symptoms are present. For diagnostic mammograms, you pay 20% of the Medicare-approved amount after meeting your [Part B deductible](/faqs/what-is-the-medicare-part-b-deductible). If your screening mammogram detects an abnormality, it is automatically reclassified and billed as a diagnostic mammogram."],
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers screening mammograms as a preventive service for women age 40 and older. You are eligible for one screening mammogram every 12 months at absolutely no cost to you: no deductible, no coinsurance, no copay. This applies as long as your provider accepts [Medicare Assignment](/faqs/what-is-medicare-assignment).",
+          "Medicare covers both 2D (standard digital) and 3D mammograms (digital breast tomosynthesis) as screening mammograms at the same $0 cost. Since 2015, Medicare has covered 3D mammograms without any additional out-of-pocket expense. 3D mammograms are particularly beneficial for women with dense breast tissue, as they can detect cancers that 2D mammograms may miss.",
+          "For women under 65 enrolled in Medicare due to disability, Part B also covers one baseline mammogram between ages 35 and 39. After age 40, the annual screening benefit applies regardless of how you qualified for Medicare.",
+          "There is no upper age limit for screening mammograms under Medicare. Women in their 70s, 80s, 90s, and beyond remain eligible for annual screening mammograms at $0 cost. About 6% of breast cancers are diagnosed in women aged 85 and older, making continued screening important."
+        ],
+        whatItCovers: [
+          "One screening mammogram every 12 months (age 40+)",
+          "2D digital mammograms at $0 cost",
+          "3D mammograms (tomosynthesis) at $0 cost",
+          "One baseline mammogram between ages 35-39",
+          "No deductible, no coinsurance, no copay for screening"
+        ],
+        whatItDoesntCover: [
+          "More than one screening mammogram per 12-month period",
+          "Screening mammograms at facilities that do not accept Medicare Assignment",
+          "Screening mammograms for men (unless symptoms are present)"
+        ],
+        callout: {
+          type: "tip",
+          title: "Request a 3D Mammogram at No Extra Cost",
+          text: "Medicare covers 3D mammograms (tomosynthesis) at the same $0 cost as standard 2D mammograms. 3D mammograms detect 20-65% more invasive cancers than 2D alone, especially in women with dense breast tissue. Ask your imaging center if they offer 3D mammography when scheduling your annual screening.",
+        },
       },
       {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
+        planName: "Diagnostic Mammograms and Additional Imaging",
+        icon: "search",
         iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        paragraphs: [
-          "[Medicare Advantage plans](/medicare-part-c/medicare-advantage-plans) must cover all Original Medicare benefits, including mammograms. Many Medicare Advantage plans cover both screening and diagnostic mammograms at $0 cost to you, with no deductible or coinsurance. Check your plan's Summary of Benefits for specific cost-sharing details."],
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Covers Your 20%",
+        coverageLabel: "Covered (with cost-sharing)",
         coverageType: "partial",
         paragraphs: [
-          "If you have a [Medicare Supplement (Medigap) plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), it will cover your 20% coinsurance for diagnostic mammograms after Medicare pays its 80% share. For screening mammograms, there is no cost-sharing to supplement since Medicare covers them at 100%.",
-          "Comprehensive Medigap plans like [Plan G](/faqs/medicare-supplement-plan-g) cover the Part B coinsurance, meaning your diagnostic mammogram would be covered at no additional cost to you after Medicare pays."],
-      }],
+          "When a screening mammogram detects an abnormality, or when you have symptoms such as a breast lump, nipple discharge, or breast pain, your doctor may order a diagnostic mammogram. Medicare Part B covers diagnostic mammograms at 80% of the Medicare-approved amount after you meet the annual [Part B deductible](/faqs/medicare-part-b-deductible) ($257 in 2026).",
+          "**Important:** If your screening mammogram is reclassified as diagnostic during the same visit (because the radiologist finds something that needs closer examination), you will be responsible for 20% coinsurance even though you came in for a routine screening. This is a common surprise for beneficiaries. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) or Medicare Advantage plan can eliminate this unexpected cost.",
+          "Medicare also covers additional breast imaging when medically necessary, including breast ultrasounds (often used for women with dense breast tissue or to evaluate a specific area), breast MRI (for high-risk patients or to evaluate the extent of known cancer), and follow-up imaging at intervals shorter than 12 months when monitoring a previously detected abnormality.",
+          "The average total cost of a diagnostic mammogram under Medicare is approximately $170 to $250. Your 20% share would be approximately $34 to $50 without supplemental coverage. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g) or similar comprehensive supplement, your 20% coinsurance is covered, making your out-of-pocket cost $0."
+        ],
+        whatItCovers: [
+          "Diagnostic mammograms (2D and 3D) when medically necessary",
+          "Breast ultrasound for further evaluation of abnormalities",
+          "Breast MRI for high-risk patients or cancer staging",
+          "Follow-up imaging at intervals shorter than 12 months",
+          "Computer-aided detection (CAD) used with mammography"
+        ],
+        whatItDoesntCover: [
+          "Screening mammograms more frequently than every 12 months (unless diagnostic)",
+          "Genetic testing (BRCA) without meeting specific risk criteria",
+          "Experimental imaging techniques not yet approved by Medicare"
+        ],
+        callout: {
+          type: "warning",
+          title: "Screening Can Be Reclassified as Diagnostic",
+          text: "If your radiologist finds something during a routine screening mammogram that requires additional views, the visit may be reclassified and billed as a diagnostic mammogram. This means you could owe 20% coinsurance for a visit you expected to be free. A Medigap plan protects you from this unexpected cost.",
+        },
+      },
+      {
+        planName: "Medicare Advantage and Mammogram Coverage",
+        icon: "heart",
+        iconColor: "#7C3AED",
+        coverageLabel: "Covered (often $0 for both)",
+        coverageType: "covered",
+        paragraphs: [
+          "[Medicare Advantage plans](/faqs/what-is-medicare-advantage) must cover all Original Medicare benefits, including screening and diagnostic mammograms. Many Medicare Advantage plans go further by covering diagnostic mammograms at $0 cost (no coinsurance), eliminating the 20% cost-sharing that applies under Original Medicare.",
+          "When comparing Medicare Advantage plans for breast health coverage, look for plans that offer $0 copay for diagnostic mammograms and breast imaging, cover 3D mammograms at in-network imaging centers, include supplemental benefits like genetic counseling for high-risk patients, and have breast cancer centers of excellence in their network.",
+          "Some Medicare Advantage plans also cover supplemental breast cancer screening for high-risk women, such as annual breast MRI in addition to mammography. These enhanced benefits vary by plan and are typically available in plans with higher premiums or in areas with strong competition between insurers."
+        ],
+      },
+      {
+        planName: "Dense Breast Tissue and Additional Screening",
+        icon: "info",
+        iconColor: "#D97706",
+        coverageLabel: "Covered When Medically Necessary",
+        coverageType: "partial",
+        paragraphs: [
+          "Approximately 40% of women have dense breast tissue, which makes mammograms less effective at detecting cancer. Dense tissue appears white on a mammogram, the same color as tumors, making cancers harder to identify. Women with dense breasts have a 4 to 6 times higher risk of breast cancer compared to women with fatty breast tissue.",
+          "As of 2024, the FDA requires all mammography facilities to notify patients about their breast density. If you are told you have dense breast tissue (categories C or D), talk to your doctor about additional screening options. Medicare Part B covers breast ultrasound and breast MRI when your doctor determines they are medically necessary based on your risk factors.",
+          "Medicare covers 3D mammograms at $0 cost for screening, and 3D technology is particularly beneficial for dense breast tissue. Studies show 3D mammograms detect 20-65% more invasive cancers in women with dense breasts compared to 2D mammograms alone. Always request 3D mammography if your facility offers it.",
+          "If your doctor recommends supplemental screening with breast ultrasound or MRI due to dense tissue, Medicare covers these services at 80% after the Part B deductible. Your 20% coinsurance is covered by Medigap plans. Some Medicare Advantage plans cover supplemental dense breast screening at $0."
+        ],
+      }
+    ],
     costTable: {
-      title: "Mammogram Costs under Medicare",
-      headers: ["Mammogram Type", "Medicare Covers", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
+      title: "Mammogram Costs Under Medicare (2026)",
+      headers: ["Service", "Medicare Covers", "Your Cost (No Supplement)", "Your Cost (With Medigap)"],
       rows: [
-        { "Mammogram Type": "Annual Screening Mammogram (2D)", "Medicare Covers": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Plan G)": "$0" },
-        { "Mammogram Type": "Annual Screening Mammogram (3D/Tomosynthesis)", "Medicare Covers": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Plan G)": "$0" },
-        { "Mammogram Type": "Diagnostic Mammogram", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "~$34–$50 (20%)", "Your Cost (With Plan G)": "$0" },
-        { "Mammogram Type": "Breast Ultrasound (medically necessary)", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "20% of approved amount", "Your Cost (With Plan G)": "$0" },
-        { "Mammogram Type": "Breast MRI (medically necessary)", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "20% of approved amount", "Your Cost (With Plan G)": "$0" }],
-      footnote: "The average cost of a diagnostic mammogram with Medicare is approximately $170 total; you pay about $34 (20%) without supplemental coverage. Costs vary by location and provider.",
+        { "Service": "Annual Screening Mammogram (2D)", "Medicare Covers": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Medigap)": "$0" },
+        { "Service": "Annual Screening Mammogram (3D)", "Medicare Covers": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Medigap)": "$0" },
+        { "Service": "Diagnostic Mammogram", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "~$34-$50 (20%)", "Your Cost (With Medigap)": "$0" },
+        { "Service": "Breast Ultrasound", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "~$30-$80 (20%)", "Your Cost (With Medigap)": "$0" },
+        { "Service": "Breast MRI", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "~$100-$300 (20%)", "Your Cost (With Medigap)": "$0" },
+        { "Service": "Biopsy (if needed)", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "~$200-$600 (20%)", "Your Cost (With Medigap)": "$0" }
+      ],
+      footnote: "Screening mammograms have $0 cost-sharing as a Medicare preventive benefit. Diagnostic services require meeting the $257 Part B deductible (2026) first, then 20% coinsurance. Medigap plans (like Plan G) cover the 20% coinsurance."
     },
     exceptionsSection: {
       title: "Special Mammogram Coverage Rules",
       items: [
         {
-          title: "Baseline Mammogram (Ages 35–39)",
-          text: "Medicare covers one baseline screening mammogram for women between ages 35 and 39 who are enrolled in Medicare. This is a one-time benefit.",
+          title: "Baseline Mammogram (Ages 35-39)",
+          text: "Medicare covers one baseline screening mammogram for women between ages 35 and 39 who are enrolled in Medicare due to disability or other qualifying conditions. This is a one-time benefit separate from the annual screening that begins at age 40."
         },
         {
-          title: "Annual Screening (Age 40+)",
-          text: "Once you turn 40, Medicare covers one screening mammogram every 12 months at no cost. There is no upper age limit - Medicare covers annual mammograms for women in their 70s, 80s, 90s, and beyond.",
+          title: "No Upper Age Limit",
+          text: "Medicare covers annual screening mammograms for as long as you are enrolled, regardless of age. There is no cutoff at 75 or any other age. About 6% of breast cancers are diagnosed in women aged 85 and older. The American Cancer Society recommends continuing screening as long as you are in good health with a life expectancy of 10+ years."
         },
         {
           title: "Screening Reclassified as Diagnostic",
-          text: "If your screening mammogram detects an abnormality (such as a lump), it is automatically reclassified and billed as a diagnostic mammogram. This means you will be responsible for 20% coinsurance, even though the visit started as a routine screening.",
-        }],
+          text: "If your screening mammogram detects an abnormality requiring additional views during the same visit, it may be reclassified and billed as a diagnostic mammogram. This means you will owe 20% coinsurance (~$34-$50) even though you came in for a free screening. A Medigap plan or $0-diagnostic MA plan protects against this surprise cost."
+        },
+        {
+          title: "Men and Mammograms",
+          text: "Medicare does not cover routine screening mammograms for men. However, if a man has symptoms (breast lump, nipple discharge, or breast pain), Medicare Part B covers a diagnostic mammogram as medically necessary. Male breast cancer accounts for about 1% of all breast cancers."
+        }
+      ]
     },
     faqs: [
-      {
-        question: "Does Medicare Cover Mammograms after Age 70?",
-        answer: "Yes. Medicare covers annual screening mammograms for women 70 and older at the same rates as younger beneficiaries - 100% covered for screening, 80% for diagnostic. There is no upper age limit for mammogram coverage under Medicare.",
-      },
-      {
-        question: "Does Medicare Cover 3D Mammograms?",
-        answer: "Yes. Medicare has covered 3D mammograms (digital breast tomosynthesis) since 2015. Screening 3D mammograms are covered at 100% with no cost to you. Diagnostic 3D mammograms are covered at 80%, with 20% coinsurance.",
-      },
-      {
-        question: "Does Medicare Cover Breast Ultrasounds?",
-        answer: "Yes. Medicare Part B covers breast ultrasounds when ordered by a healthcare provider as medically necessary - for example, when a mammogram shows an abnormality or when a woman has dense breast tissue. You pay 20% coinsurance after the Part B deductible.",
-      },
-      {
-        question: "What is the Cost of a Mammogram with Medicare?",
-        answer: "Annual screening mammograms are covered at 100% - no cost to you. For diagnostic mammograms, Medicare pays 80% and you pay 20% after the Part B deductible. The average total cost of a diagnostic mammogram is approximately $170, so your share would be about $34. With a [Medigap plan](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained), your 20% is covered.",
-      },
-      {
-        question: "At What Age Does Medicare Stop Paying for Mammograms?",
-        answer: "There is no cutoff age. Medicare covers annual screening mammograms for as long as you are enrolled, regardless of age. About 6% of breast cancers are diagnosed in women aged 85 and older.",
-      },
-      {
-        question: "Does Medicare Cover Mammograms for Men?",
-        answer: "Medicare does not routinely cover screening mammograms for men. However, if a man has symptoms such as a breast lump, Medicare Part B may cover a diagnostic mammogram as a medically necessary service.",
-      }],
+      { question: "Does Medicare cover mammograms after age 70?", answer: "Yes. Medicare covers annual screening mammograms for women age 70 and older at the same $0 cost as younger beneficiaries. There is no upper age limit for mammogram coverage under Medicare. About 6% of breast cancers are diagnosed in women aged 85 and older, so continued screening remains important." },
+      { question: "Does Medicare cover 3D mammograms?", answer: "Yes. Medicare has covered 3D mammograms (digital breast tomosynthesis) since 2015 at the same rates as 2D mammograms. Screening 3D mammograms are covered at $0 cost. Diagnostic 3D mammograms are covered at 80% with 20% coinsurance. 3D mammograms detect 20-65% more invasive cancers, especially in women with dense breast tissue." },
+      { question: "Does Medicare cover breast ultrasounds?", answer: "Yes. Medicare Part B covers breast ultrasounds when ordered by your doctor as medically necessary, such as when a mammogram shows an abnormality or when you have dense breast tissue. You pay 20% coinsurance after the Part B deductible ($257 in 2026). Medigap plans cover this coinsurance." },
+      { question: "What does a mammogram cost with Medicare?", answer: "Annual screening mammograms cost $0 (no deductible, no coinsurance). Diagnostic mammograms cost approximately $34 to $50 out of pocket (your 20% share after the deductible). With a Medigap plan like Plan G, diagnostic mammograms also cost $0 because the plan covers your 20% coinsurance." },
+      { question: "How often does Medicare pay for mammograms?", answer: "Medicare covers one screening mammogram every 12 months for women age 40 and older. The 12-month clock starts from the date of your last screening mammogram. Diagnostic mammograms can be covered more frequently when medically necessary (for example, 6-month follow-up imaging for a previously detected abnormality)." },
+      { question: "Does Medicare cover mammograms for men?", answer: "Medicare does not cover routine screening mammograms for men. However, if a man has symptoms such as a breast lump, nipple discharge, or breast pain, Medicare Part B covers a diagnostic mammogram as a medically necessary service. Male breast cancer accounts for about 1% of all breast cancer cases." },
+      { question: "Does Medicare cover genetic testing for breast cancer (BRCA)?", answer: "Medicare covers BRCA genetic testing when your doctor determines you meet specific risk criteria, such as a strong family history of breast or ovarian cancer, Ashkenazi Jewish heritage, or a personal history of certain cancers. The test is covered under Part B with standard 20% coinsurance. Genetic counseling is also covered." },
+      { question: "What happens if my screening mammogram finds something?", answer: "If your screening mammogram detects an abnormality, your doctor will order follow-up testing, which may include a diagnostic mammogram, breast ultrasound, or biopsy. These follow-up tests are covered by Medicare Part B at 80% (you pay 20% coinsurance). The screening visit itself may be reclassified as diagnostic, triggering cost-sharing." },
+      { question: "Does Medicare Advantage cover mammograms better than Original Medicare?", answer: "Medicare Advantage plans must cover mammograms at least as well as Original Medicare (screening at $0). Many MA plans go further by covering diagnostic mammograms at $0 copay (eliminating the 20% coinsurance). Some plans also cover supplemental screening like breast MRI for high-risk women at reduced or no cost." },
+      { question: "Does Medicare cover breast MRI?", answer: "Yes. Medicare Part B covers breast MRI when your doctor determines it is medically necessary, such as for high-risk patients, to evaluate the extent of known cancer, or when mammography is inconclusive. You pay 20% coinsurance after the Part B deductible. Some Medicare Advantage plans cover breast MRI at $0 for high-risk women." }
+    ],
     quickReference: [
-      { icon: "check", text: "<strong>Annual screening mammograms</strong> are covered at 100% for women age 40+" },
-      { icon: "check", text: "<strong>3D mammograms</strong> are covered at the same rates as 2D mammograms" },
-      { icon: "dollar", text: "<strong>Diagnostic mammograms</strong> cost you 20% coinsurance (~$34 average)" },
-      { icon: "alert", text: "A screening mammogram <strong>reclassified as diagnostic</strong> will have cost-sharing" },
-      { icon: "info", text: "There is <strong>no upper age limit</strong> - Medicare covers mammograms at any age" },
-      { icon: "check", text: "<strong>Medigap plans</strong> cover your 20% coinsurance for diagnostic mammograms" }],
+      { icon: "check", text: "<strong>Screening mammograms:</strong> $0 cost for women age 40+ (once every 12 months)" },
+      { icon: "check", text: "<strong>3D mammograms:</strong> Covered at same $0 rate as 2D (request it!)" },
+      { icon: "dollar", text: "<strong>Diagnostic mammograms:</strong> 20% coinsurance (~$34-$50) after $257 deductible" },
+      { icon: "alert", text: "<strong>Surprise cost:</strong> Screening reclassified as diagnostic triggers 20% coinsurance" },
+      { icon: "info", text: "<strong>No age limit:</strong> Medicare covers mammograms at any age, no cutoff" },
+      { icon: "check", text: "<strong>Medigap:</strong> Covers your 20% coinsurance, making diagnostic mammograms $0" }
+    ],
     relatedTopics: [
-      { title: "Medicare Coverage for Cancer", description: "Learn about Medicare's comprehensive coverage for cancer diagnosis and treatment.", slug: "medicare-coverage-for-cancer" },
-      { title: "What is Medicare Part B?", description: "Understand what Medicare Part B covers and how it works.", slug: "what-is-medicare-part-b" },
-      { title: "Medicare Supplement Plan G", description: "Learn how Plan G covers your 20% coinsurance for diagnostic tests.", slug: "plan-g" },
-      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare's coverage for biopsies and related procedures.", slug: "does-medicare-cover-a-biopsy" }],
+      { title: "Medicare Coverage for Cancer Treatment", description: "Comprehensive guide to cancer diagnosis and treatment coverage.", slug: "medicare-coverage-for-cancer" },
+      { title: "What Is Medicare Part B?", description: "Understand what Part B covers and how preventive services work.", slug: "what-is-medicare-part-b" },
+      { title: "Medicare Supplement Plan G", description: "How Plan G covers your 20% coinsurance for all Part B services.", slug: "medicare-supplement-plan-g" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Biopsy coverage and costs under Medicare.", slug: "does-medicare-cover-a-biopsy" }
+    ],
     sidebarRelatedLinks: [
       "Medicare Coverage for Cancer",
       "What Is Medicare Part B",
       "Medicare Supplement Plan G",
-      "Does Medicare Cover a Biopsy"],
+      "Does Medicare Cover a Biopsy"
+    ],
     ctaBanner: {
       title: "Want $0 Cost for All Your Preventive Care?",
-      text: "A Medicare Supplement or Medicare Advantage plan can eliminate or reduce your out-of-pocket costs for diagnostic mammograms and other medical services. Our licensed agents can help you compare options.",
+      text: "A Medicare Supplement or Medicare Advantage plan can eliminate your out-of-pocket costs for diagnostic mammograms and other medical services. Our licensed agents can help you compare options at no cost.",
     },
-    relatedSlugs: ["medicare-coverage-for-cancer", "what-is-medicare-part-b", "plan-g", "does-medicare-cover-a-biopsy", "medicare-coverage-for-blood-pressure-monitors", "medicare-coverage-for-my-children"],
+    relatedSlugs: ["medicare-coverage-for-cancer", "what-is-medicare-part-b", "medicare-supplement-plan-g", "does-medicare-cover-a-biopsy", "medicare-preventive-services", "medicare-coverage-for-blood-pressure-monitors"],
   },
   {
     slug: "medicare-coverage-for-compression-socks",
