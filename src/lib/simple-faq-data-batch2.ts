@@ -433,6 +433,11 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
               "CMS requires agents and their agencies to retain completed SOA forms for a minimum of 10 years. This retention requirement creates accountability and ensures a paper trail exists if compliance questions arise later.",
           },
           {
+            question: "How long is a Medicare Scope of Appointment good for?",
+            answer:
+              "A Medicare Scope of Appointment is good for 12 months from the date it was signed. Within that 12-month window, the same SOA can be used for follow-up meetings between you and the same agent, as long as the discussion stays within the plan types originally checked on the form. After 12 months, or if you want to discuss different plan types not listed on the original SOA, a new form must be completed before the appointment can take place. This 12-month validity period applies regardless of whether you enrolled in a plan or not during the original meeting.",
+          },
+          {
             question: "Does the SOA apply to Medicare Supplement (Medigap) plans?",
             answer:
               "Yes. Medigap has its own checkbox on the SOA, separate from Medicare Advantage and Part D. If you want to discuss how Medicare cost-sharing works and how Medigap addresses it, make sure that box is checked before the appointment begins.",
