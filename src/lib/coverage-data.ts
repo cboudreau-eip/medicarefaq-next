@@ -3234,13 +3234,13 @@ export const coverageArticles: CoverageArticleData[] = [
       role: "Reviewer",
       bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
     },
-    readTime: "6 min read",
+    readTime: "9 min read",
     quickAnswer: {
-      text: "Medicare isn’t dependent on the status of your health. Meaning pre-existing health conditions won’t impact eligibility as long as you apply at the right time.",
+      text: "Yes. Medicare covers pre-existing conditions without waiting periods, exclusions, or higher premiums. Original Medicare (Parts A and B) accepts all eligible beneficiaries regardless of health status. Medicare Advantage plans cannot deny enrollment based on pre-existing conditions. Medigap plans cover pre-existing conditions when you enroll during your 6-month Open Enrollment Period, which starts the month your Part B begins. Outside that window, insurers can use medical underwriting and may deny coverage or impose a waiting period of up to 6 months.",
       badges: [
         { plan: "Original Medicare", status: "covered" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "not-covered" }],
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap (during OEP)", status: "covered" }],
     },
     comparisonTable: [
       { planType: "Original Medicare", coverage: "Covered", icon: "shield", notes: "Covered when medically necessary" },
@@ -3278,25 +3278,53 @@ export const coverageArticles: CoverageArticleData[] = [
           "If you don’t enroll during your [Open Enrollment Period](/blog/your-guide-to-medicare-enrollment-periods-when-to-sign-up), you can be denied coverage or charges a higher premium due to pre-existing health conditions."],
       }],
     faqs: [
+      {
+        question: "Can Medicare deny you for pre-existing conditions?",
+        answer: "No. Original Medicare (Parts A and B) and Medicare Advantage plans cannot deny enrollment based on pre-existing conditions. This is a federal protection. The only exception is Medigap: outside your 6-month Open Enrollment Period, Medigap insurers can use medical underwriting and may deny your application based on health history.",
+      },
+      {
+        question: "Is there a waiting period for pre-existing conditions with Medicare?",
+        answer: "No. Original Medicare and Medicare Advantage have no waiting periods for pre-existing conditions. Coverage begins on your effective date for all conditions. Medigap plans enrolled during your OEP also have no waiting period. However, if you enroll in Medigap outside your OEP and are accepted with underwriting, the insurer may impose a waiting period of up to 6 months for conditions treated in the 6 months before your policy start date.",
+      },
+      {
+        question: "What pre-existing conditions does Medicare cover?",
+        answer: "Medicare covers all pre-existing conditions including diabetes, heart disease, cancer, COPD, arthritis, kidney disease, Alzheimer's, Parkinson's, multiple sclerosis, and any other chronic or acute condition. There is no list of excluded conditions. If a service is medically necessary and covered by Medicare, it is covered regardless of when the condition was diagnosed.",
+      },
+      {
+        question: "Does Medicare Advantage cover pre-existing conditions?",
+        answer: "Yes. Medicare Advantage plans are required by federal law to accept all Medicare-eligible beneficiaries regardless of health status. They cannot deny enrollment, charge higher premiums, or exclude coverage for any pre-existing condition. However, out-of-pocket costs (copays, coinsurance) for managing chronic conditions vary by plan.",
+      },
+      {
+        question: "Can I get a Medigap plan with a pre-existing condition?",
+        answer: "Yes, if you apply during your 6-month Medigap Open Enrollment Period (starts the month your Part B begins). During this window, insurers must accept you at standard rates regardless of health. Outside this window, you may be denied or charged more. Some states (New York, Connecticut, Massachusetts, Maine, Vermont) offer year-round guaranteed issue protections.",
+      },
+      {
+        question: "What happens if I miss my Medigap Open Enrollment Period?",
+        answer: "If you miss your OEP, Medigap insurers can use medical underwriting to evaluate your application. They may deny coverage, charge higher premiums, or impose a pre-existing condition waiting period. Your alternatives include staying on Original Medicare and paying the 20% coinsurance out of pocket, enrolling in a Medicare Advantage plan (which must accept you), or waiting for a Guaranteed Issue event.",
+      },
+      {
+        question: "Does Medicare cover pre-existing conditions for people under 65?",
+        answer: "Yes. People under 65 who qualify for Medicare through disability (after 24 months of SSDI) or specific conditions (ALS, ESRD) receive the same pre-existing condition protections. Original Medicare and Medicare Advantage cannot deny coverage based on health status. However, Medigap protections for those under 65 vary by state, as not all states require insurers to offer Medigap to beneficiaries under 65.",
+      },
+      {
+        question: "How is Medicare different from private insurance for pre-existing conditions?",
+        answer: "Before the ACA (2014), private insurers could deny coverage for pre-existing conditions. Medicare has never had this restriction. Since its creation in 1965, Medicare has accepted all eligible beneficiaries regardless of health. Today, both Medicare and ACA-compliant private plans cover pre-existing conditions, but Medicare's Medigap market still allows underwriting outside the OEP, which is a key difference from ACA marketplace plans.",
+      },
     ],
     quickReference: [
-      { icon: "check", text: "<strong>Original Medicare</strong> covers this service" },
-      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
-      { icon: "x", text: "<strong>Medigap</strong> does not cover this service" },
-      { icon: "info", text: "Always verify coverage with your specific plan" }],
+      { icon: "check", text: "<strong>Original Medicare</strong> covers all pre-existing conditions with no waiting periods or denials" },
+      { icon: "check", text: "<strong>Medicare Advantage</strong> must accept all eligible beneficiaries regardless of health status" },
+      { icon: "alert", text: "<strong>Medigap</strong> covers pre-existing conditions during your 6-month OEP; underwriting applies outside that window" },
+      { icon: "check", text: "<strong>Part D</strong> cannot deny enrollment based on health; formulary determines drug coverage" },
+      { icon: "info", text: "<strong>2026 costs:</strong> Part A deductible $1,676, Part B deductible $257, Part B premium $185/month" },
+      { icon: "info", text: "<strong>Part D cap:</strong> $2,000 maximum out-of-pocket for prescription drugs in 2026" }],
     relatedTopics: [
+      { title: "Can You Be Denied a Medicare Supplement Plan?", description: "Learn when Medigap insurers can deny your application and what your options are.", slug: "can-you-be-denied-a-medicare-supplement-plan" },
+      { title: "Medicare Supplement Open Enrollment Period", description: "Understand your guaranteed issue rights during the Medigap OEP.", slug: "medicare-supplement-open-enrollment" },
       { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare and supplemental plans.", slug: "does-medicare-cover-dental-implants" },
-      { title: "Does Medicare Cover Glasses?", description: "Explore what Medicare covers for vision care, glasses, and eye exams.", slug: "does-medicare-cover-glasses" },
       { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
-      { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-    
-      { title: "Is Medicare Free? Free Parts of Medicare Explained", description: "Understand which parts of Medicare are free and what costs to expect.", slug: "is-medicare-free" },
-      { title: "Medicare SilverSneakers Program: Fitness Benefits Explained", description: "Learn about the SilverSneakers fitness program available through many Medicare Advantage plans.", slug: "medicare-silversneakers-program" },
-      { title: "Medicare Cost-Sharing Plans Explained", description: "Understand how Medicare cost-sharing works and which plans reduce your out-of-pocket costs.", slug: "medicare-cost-sharing-plans" },
       { title: "Medicare Coverage for Disabled Individuals under 65", description: "Find out how people under 65 with disabilities can qualify for Medicare coverage.", slug: "medicare-coverage-for-disabled-under-65" },
-      { title: "Medicare Coverage for Disabled Dependents", description: "Learn whether Medicare can cover your children or dependents with disabilities.", slug: "medicare-coverage-for-my-children" },
-      { title: "Your Medicare Rights and Protections", description: "Know your rights as a Medicare beneficiary, including appeal rights and coverage protections.", slug: "your-medicare-rights-and-protections" },
-      { title: "Native American Health and Medicare", description: "Learn how Medicare works for Native Americans and what special programs are available.", slug: "native-american-health-and-medicare" }],
+      { title: "Your Medicare Rights and Protections", description: "Know your rights as a Medicare beneficiary, including appeal rights and coverage protections.", slug: "your-medicare-rights-and-protections" }],
     sidebarRelatedLinks: [
       "Does Medicare Cover Dental Implants",
       "Does Medicare Cover Glasses",
