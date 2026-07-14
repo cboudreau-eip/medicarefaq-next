@@ -3219,11 +3219,11 @@ export const coverageArticles: CoverageArticleData[] = [
       focusKeyword: "does medicare cover pre-existing conditions",
     },
     title: "Does Medicare Cover Pre-Existing Conditions?",
-    subtitle: "Medicare isn’t dependent on the status of your health. Meaning pre-existing health conditions won’t impact eligibility as long as you apply at the right time.",
     subtitle: "Yes. Original Medicare and Medicare Advantage cannot deny you coverage or charge higher premiums because of pre-existing health conditions. Medigap plans also cover pre-existing conditions if you enroll during your Open Enrollment Period. Here is how each part of Medicare handles pre-existing conditions in 2026.",
     category: "Medicare Coverage",
     dateUpdated: "July 14, 2026",
     lastReviewed: "2026-07-14",
+    author: {
       name: "David Haass",
       initials: "DH",
       role: "Author",
