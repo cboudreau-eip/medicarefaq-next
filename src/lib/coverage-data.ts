@@ -1676,16 +1676,17 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-glasses",
     seo: {
-      title: "Does Medicare Cover Glasses?",
-      description: "Medicare covers many health care services but does not cover routine eye care. In some cases, Medicare covers glasses. Learn more here.",
+      title: "Does Medicare Cover Glasses? Vision Coverage Explained (2026)",
+      description: "Original Medicare does not cover glasses or routine eye exams. Learn the one exception, Medicare Advantage vision benefits, and how to get affordable eyewear.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-glasses/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-glasses.jpg",
+      focusKeyword: "does medicare cover glasses",
     },
-    title: "Does Medicare Cover Glasses?",
-    subtitle: "As we age, our vision tends to deteriorate. By age 65, close to 75% of all people require some kind of vision correction. However, Original Medicare typically does not cover eye exams or glasses.",
+    title: "Does Medicare Cover Glasses? Your Complete 2026 Vision Coverage Guide",
+    subtitle: "Original Medicare does not cover eyeglasses, contact lenses, or routine eye exams in almost all cases. The one exception is after cataract surgery, when Medicare Part B covers one pair of corrective lenses. Medicare Advantage plans frequently include vision benefits that cover glasses, but coverage varies significantly by plan.",
     category: "Medicare Coverage",
-    dateUpdated: "April 25, 2023",
-    lastReviewed: "2026-05-18",
+    dateUpdated: "July 14, 2026",
+    lastReviewed: "2026-07-14",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -1698,72 +1699,191 @@ export const coverageArticles: CoverageArticleData[] = [
       role: "Reviewer",
       bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
     },
-    readTime: "3 min read",
+    readTime: "10 min read",
     quickAnswer: {
-      text: "As we age, our vision tends to deteriorate. By age 65, close to 75% of all people require some kind of vision correction. However, Original Medicare typically does not cover eye exams or glasses.",
+      text: "No, Original Medicare (Parts A and B) does not cover eyeglasses, contact lenses, or routine eye exams for vision correction. The one exception is after cataract surgery with an intraocular lens implant, when Medicare Part B covers one pair of corrective lenses (either eyeglasses or contact lenses) from a Medicare-enrolled supplier. Many Medicare Advantage plans include vision benefits that cover routine eye exams and provide an annual eyewear allowance, typically ranging from $100 to $400 per year.",
       badges: [
         { plan: "Original Medicare", status: "not-covered" },
+        { plan: "After Cataract Surgery", status: "covered" },
         { plan: "Medicare Advantage", status: "partial" },
         { plan: "Medigap", status: "not-covered" }],
     },
     comparisonTable: [
-      { planType: "Original Medicare", coverage: "Not Covered", icon: "shield", notes: "Does not cover this service directly" },
-      { planType: "Medicare Advantage", coverage: "Some Plans", icon: "shield", notes: "Coverage varies by plan and ZIP code" },
-      { planType: "Medigap", coverage: "Not Covered", icon: "shield", notes: "Only supplements Original Medicare benefits" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover related prescriptions" }],
+      { planType: "Original Medicare (Parts A & B)", coverage: "Not Covered", icon: "x-circle", notes: "No coverage for routine eye exams, glasses, or contacts" },
+      { planType: "Original Medicare (Post-Cataract)", coverage: "One Pair Covered", icon: "check-circle", notes: "One pair of glasses or contacts after cataract surgery with IOL implant" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Many Plans Cover", icon: "check-circle", notes: "Vision benefits common; $100 to $400 annual eyewear allowance typical" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "x-circle", notes: "Only supplements Original Medicare; does not add vision benefits" },
+      { planType: "Standalone Vision Plan", coverage: "Covered", icon: "check-circle", notes: "VSP, EyeMed, or similar plans available for $15 to $50/month" },
+      { planType: "Medicare Part D", coverage: "Not Applicable", icon: "x-circle", notes: "Covers prescription drugs only; does not cover eyewear" }],
     planBreakdowns: [
       {
-        planName: "Original Medicare (Part a & B)",
+        planName: "Original Medicare and Glasses",
         icon: "shield",
         iconColor: "#1B2A4A",
-        coverageLabel: "Not Covered",
+        coverageLabel: "Not Covered (with one exception)",
         coverageType: "not-covered",
         paragraphs: [
-          "There are few circumstances where [Original Medicare](/faqs/original-medicare-vs-medicare-advantage) will cover glasses, contact lenses, or eye exams. However, do not count on Original Medicare for ordinary vision coverage."],
+          "Original Medicare (Part A and Part B) explicitly excludes routine vision care from its covered benefits. This means Medicare will not pay for eye exams to prescribe glasses, the glasses themselves, contact lenses, or lens fittings. This exclusion applies regardless of how much you need corrective lenses or how long you have had Medicare.",
+          "The single exception to this rule is after cataract surgery. When you have cataract surgery that includes the implantation of an intraocular lens (IOL), Medicare Part B will cover one pair of eyeglasses or one set of contact lenses. This coverage applies only to corrective lenses needed after the surgery, not to any future pairs. You must obtain the glasses from a [Medicare-enrolled supplier](/faqs/what-is-medicare-assignment) for the benefit to apply.",
+          "After cataract surgery, Medicare Part B pays 80% of the Medicare-approved amount for one pair of standard frames and prescription lenses (or contact lenses). You pay the remaining 20% coinsurance plus any costs above the Medicare-approved amount if you choose upgraded frames or lens features. The [Part B deductible](/faqs/medicare-part-b-deductible) ($257 in 2026) also applies if you have not already met it for the year.",
+          "Medicare Part B does cover certain medically necessary eye exams that are diagnostic rather than refractive. For example, if your doctor suspects [glaucoma](/faqs/does-medicare-cover-glaucoma), [macular degeneration](/faqs/does-medicare-cover-macular-degeneration), or diabetic retinopathy, Medicare will cover the diagnostic exam. However, these medical eye exams do not include a glasses prescription, and any resulting need for corrective lenses remains your financial responsibility."
+        ],
+        whatItCovers: [
+          "One pair of eyeglasses or contact lenses after cataract surgery with IOL implant",
+          "Standard frames and prescription lenses (80% of Medicare-approved amount)",
+          "Diagnostic eye exams for suspected eye diseases (glaucoma, macular degeneration, diabetic retinopathy)",
+          "Annual glaucoma screening for high-risk individuals"
+        ],
+        whatItDoesntCover: [
+          "Routine eye exams for glasses prescriptions",
+          "Eyeglasses or contact lenses (except post-cataract)",
+          "Lens upgrades (progressive, anti-reflective, photochromic coatings)",
+          "Frame upgrades beyond the Medicare-approved amount",
+          "Contact lens fittings or follow-up visits for contacts",
+          "Low-vision aids or magnifying devices"
+        ],
+        callout: {
+          type: "warning",
+          title: "The Post-Cataract Benefit Is a One-Time Allowance",
+          text: "Medicare covers only one pair of glasses or contacts per cataract surgery. If you need a new prescription six months later, Medicare will not cover a second pair. Choose your frames and lenses carefully, and consider whether you want single-vision, bifocal, or progressive lenses before placing your order.",
+        },
       },
       {
-        planName: "Medicare Advantage (Part C)",
+        planName: "Medicare Advantage Vision Benefits",
         icon: "heart",
         iconColor: "#059669",
-        coverageLabel: "Varies",
+        coverageLabel: "Many Plans Include Vision",
         coverageType: "partial",
         paragraphs: [
-          "Some [Medicare Advantage (Part C) plans](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's Evidence of Coverage or speak with a licensed agent."],
+          "[Medicare Advantage plans](/faqs/what-is-medicare-advantage) (Part C) frequently include vision benefits as a supplemental benefit beyond what Original Medicare covers. According to CMS data, approximately 97% of Medicare Advantage plans offered some form of vision benefit in 2025. However, the scope and generosity of these benefits varies dramatically between plans.",
+          "Most Medicare Advantage vision benefits include a routine eye exam (typically one per year) and an annual eyewear allowance. The eyewear allowance is a fixed dollar amount you can apply toward glasses frames, prescription lenses, or contact lenses from an in-network provider. Common allowance amounts range from $100 to $400 per year, with some premium plans offering up to $500.",
+          "The eyewear allowance typically resets each calendar year. If you do not use it, you lose it. The allowance usually cannot be combined across years or applied to non-vision purchases. Some plans require you to use specific optical retailers (like a plan-affiliated network), while others provide more flexibility.",
+          "When comparing Medicare Advantage plans for vision benefits, pay attention to these details: the annual eyewear allowance amount, whether the plan covers progressive or bifocal lenses within the allowance, the copay for routine eye exams, the optical network (which stores and providers are included), and whether contacts are covered as an alternative to glasses. Plans in the same area can differ by hundreds of dollars in vision benefits.",
+          "Some Medicare Advantage plans also cover medically necessary contact lenses (for conditions like keratoconus or post-surgical correction) beyond the routine eyewear allowance. Check your plan's [Evidence of Coverage](/faqs/medicare-evidence-of-coverage) document for the specific terms of your vision benefit."
+        ],
+        whatItCovers: [
+          "Routine eye exam (typically 1 per year, $0 to $40 copay)",
+          "Annual eyewear allowance ($100 to $400+ depending on plan)",
+          "Prescription eyeglasses (frames and lenses within allowance)",
+          "Contact lenses (as alternative to glasses, within allowance)",
+          "Lens options: single-vision, bifocal, or progressive (plan-dependent)",
+          "Some plans: anti-reflective coating, photochromic lenses within allowance"
+        ],
+        whatItDoesntCover: [
+          "Costs exceeding the annual eyewear allowance (you pay the difference)",
+          "Designer frames above the allowance cap",
+          "Second pair of glasses in the same benefit year (unless allowance permits)",
+          "LASIK or refractive surgery (considered cosmetic by most plans)"
+        ],
+        callout: {
+          type: "tip",
+          title: "Compare Plans During AEP for Better Vision Benefits",
+          text: "Vision benefits change every year. During the [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period) (October 15 to December 7), compare Medicare Advantage plans in your area specifically for their vision allowance amounts, optical networks, and whether they cover progressive lenses. A plan with a $300 allowance versus $150 can save you significant money over time.",
+        },
       },
       {
-        planName: "Medicare Supplement (Medigap)",
+        planName: "Medicare Supplement (Medigap) and Vision",
         icon: "users",
         iconColor: "#7C3AED",
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "[Medicare Supplement plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained) do not offer coverage for glasses or eye exams. Medicare Supplement plans only provide coverage for the remaining balance after Original Medicare pays its share. Because Original Medicare does not cover these services, neither do Medicare Supplement plans.",
-          "If you enroll in a Medicare Supplement plan, you are not out of coverage options when it comes to glasses and eye exams. [Stand-alone vision plans](/blog/medicare-and-vision-dental-and-hearing-what-are-your-options) available that offer coverage for glasses, eye exams, and more may be available in your area. Stand-alone plans may also offer coverage for additional services like hearing aids and dental care."],
-      }],
-    faqs: [
-      { question: "Does Medicare Part a Cover Glasses?", answer: "No. Medicare Part A covers inpatient hospital, hospice, and home health care services. Medicare Part B only covers glasses if you receive cataract surgery." },
-      { question: "How Much do Glasses Cost with Medicare?", answer: "If you only have Original Medicare, you will be responsible for 100% of the cost of glasses." },
-      { question: "What Kind of Glasses Will Medicare Cover?", answer: "If you recently had cataract surgery, Medicare will cover a basic pair of glasses or contacts. If you add any upgrades to the lenses or frames, you will be responsible for 100% of this cost." }],
-    quickReference: [
-      { icon: "x", text: "<strong>Original Medicare</strong> does not cover this service" },
-      { icon: "alert", text: "<strong>Medicare Advantage</strong> coverage varies by plan" },
-      { icon: "x", text: "<strong>Medigap</strong> does not cover this service" },
-      { icon: "info", text: "Always verify coverage with your specific plan" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Dental Implants?", description: "Learn about dental coverage options under Medicare and supplemental plans.", slug: "does-medicare-cover-dental-implants" },
-      { title: "Does Medicare Cover Hearing Aids?", description: "Find out about hearing aid coverage and your options under Medicare.", slug: "does-medicare-cover-hearing-aids" },
-      { title: "Does Medicare Cover Chiropractic Care?", description: "Understand Medicare's limited chiropractic coverage and alternatives.", slug: "does-medicare-cover-chiropractic-care" },
-      { title: "Does Medicare Cover Acupuncture?", description: "Learn about Medicare's acupuncture coverage for chronic pain.", slug: "does-medicare-cover-acupuncture" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Dental Implants",
-      "Does Medicare Cover Hearing Aids",
-      "Does Medicare Cover Chiropractic Care",
-      "Does Medicare Cover Acupuncture"],
-    ctaBanner: {
-      title: "Need Help Understanding Your Coverage?",
-      text: "Our licensed agents can help you find the right Medicare plan that covers glasses and more.",
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) do not cover glasses, contact lenses, or routine eye exams. Medigap plans are designed exclusively to cover cost-sharing gaps in Original Medicare (deductibles, copays, and coinsurance). Because Original Medicare does not cover routine vision care, Medigap plans have nothing to supplement in this area.",
+          "If you are on Original Medicare with a Medigap plan and need glasses, you have two main options. First, you can purchase a standalone vision insurance plan (such as VSP, EyeMed, or Davis Vision) that covers routine eye exams and provides an eyewear allowance. These plans typically cost $15 to $50 per month. Second, you can pay out of pocket for your eye exam and glasses, potentially using discount programs or warehouse retailers to reduce costs.",
+          "Some Medigap carriers offer value-added extras that include vision discounts (not insurance). These are not part of the standardized Medigap benefit but are perks the insurer adds to attract customers. They typically provide 10% to 40% off eye exams and eyewear at participating providers. Check with your Medigap carrier to see if any vision discounts are included with your plan."
+        ],
+        callout: {
+          type: "info",
+          title: "Standalone Vision Plans for Medigap Enrollees",
+          text: "If you have a Medigap plan and want vision coverage, standalone vision plans from VSP or EyeMed typically cost $15 to $30 per month and cover one routine eye exam per year plus $100 to $200 toward glasses. These plans are separate from your Medicare coverage and can be enrolled in at any time.",
+        },
+      },
+      {
+        planName: "How to Get Affordable Glasses Without Medicare Coverage",
+        icon: "dollar-sign",
+        iconColor: "#D97706",
+        coverageLabel: "Cost-Saving Options",
+        coverageType: "partial",
+        paragraphs: [
+          "Even without Medicare coverage for glasses, there are several ways to reduce your out-of-pocket costs for eyewear. The average cost of a complete pair of prescription glasses in the United States ranges from $200 to $600 at traditional optical shops, but you can find options for significantly less.",
+          "**Online retailers** like Zenni Optical, EyeBuyDirect, Warby Parker, and GlassesUSA offer prescription glasses starting at $10 to $50 for basic frames with single-vision lenses. Progressive lenses cost more (typically $30 to $100 additional) but are still far less expensive than brick-and-mortar retailers. You will need your current prescription and pupillary distance (PD) measurement to order online.",
+          "**Warehouse clubs** like Costco, Sam's Club, and BJ's Wholesale offer optical departments with competitive pricing. Costco's optical department is consistently rated among the most affordable options for quality eyewear, with complete pairs often running $100 to $250 including progressive lenses. You do not need a warehouse membership to use the optical department in some states.",
+          "**Discount programs** are available through organizations like AARP (which offers discounts at LensCrafters and Target Optical), EyeMed Access, and AAA. These are not insurance but provide 20% to 60% off retail prices at participating locations.",
+          "**Charitable organizations** provide free or low-cost glasses to those who qualify based on income. The Lions Club International, New Eyes for the Needy, and OneSight all have programs specifically for seniors. Your local Area Agency on Aging can help connect you with vision assistance programs in your community."
+        ],
+      }
+    ],
+    costTable: {
+      title: "Typical Costs for Glasses and Eye Exams (2026)",
+      headers: ["Service", "Without Coverage", "With MA Vision Benefit"],
+      rows: [
+        { "Service": "Routine Eye Exam", "Without Coverage": "$75 to $250", "With MA Vision Benefit": "$0 to $40 copay" },
+        { "Service": "Single-Vision Glasses (basic)", "Without Coverage": "$100 to $300", "With MA Vision Benefit": "$0 to $50 (within allowance)" },
+        { "Service": "Progressive/Bifocal Glasses", "Without Coverage": "$250 to $600", "With MA Vision Benefit": "$0 to $150 (within allowance)" },
+        { "Service": "Contact Lenses (annual supply)", "Without Coverage": "$150 to $500", "With MA Vision Benefit": "$0 to $100 (within allowance)" },
+        { "Service": "Anti-Reflective Coating", "Without Coverage": "$50 to $150 add-on", "With MA Vision Benefit": "May be included in allowance" },
+        { "Service": "Post-Cataract Glasses (Medicare)", "Without Coverage": "20% coinsurance + deductible", "With MA Vision Benefit": "Plan cost-sharing applies" }
+      ],
+      footnote: "Medicare Advantage vision allowances typically range from $100 to $400 per year. Costs above the allowance are your responsibility. Prices reflect 2026 national averages."
     },
-    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-cataract-surgery", "medicare-vision-care-coverage", "does-medicare-cover-macular-degeneration"],
+    exceptionsSection: {
+      title: "When Medicare Does Cover Eye Care",
+      items: [
+        {
+          title: "After Cataract Surgery (IOL Implant)",
+          text: "Medicare Part B covers one pair of prescription eyeglasses or contact lenses after each cataract surgery that includes an intraocular lens implant. You pay 20% coinsurance after meeting the Part B deductible. The glasses must be obtained from a Medicare-enrolled supplier."
+        },
+        {
+          title: "Glaucoma Screening (High-Risk Patients)",
+          text: "Medicare covers one glaucoma screening per year for high-risk individuals, including those with diabetes, a family history of glaucoma, African Americans age 50+, and Hispanic Americans age 65+. The screening is covered at no cost if performed by a Medicare-enrolled eye care provider."
+        },
+        {
+          title: "Diabetic Retinopathy Screening",
+          text: "If you have diabetes, Medicare Part B covers an annual dilated eye exam to check for diabetic retinopathy. This is a diagnostic exam, not a routine vision exam. It does not include a glasses prescription, but it can detect serious eye disease early."
+        },
+        {
+          title: "Macular Degeneration Treatment",
+          text: "Medicare covers diagnostic tests and treatments for age-related macular degeneration (AMD), including anti-VEGF injections. However, this is medical treatment for eye disease, not coverage for corrective lenses or routine vision care."
+        }
+      ]
+    },
+    faqs: [
+      { question: "Does Medicare cover eye exams for glasses?", answer: "No. Original Medicare does not cover routine eye exams for the purpose of prescribing glasses or contact lenses. Medicare only covers diagnostic eye exams when your doctor suspects a specific eye disease such as glaucoma, macular degeneration, or diabetic retinopathy. Many Medicare Advantage plans do cover one routine eye exam per year as a supplemental benefit." },
+      { question: "Does Medicare cover glasses after cataract surgery?", answer: "Yes. Medicare Part B covers one pair of prescription eyeglasses (frames and lenses) or one set of contact lenses after cataract surgery that includes an intraocular lens (IOL) implant. Medicare pays 80% of the approved amount, and you pay 20% coinsurance plus the Part B deductible ($257 in 2026) if not already met. You must use a Medicare-enrolled supplier." },
+      { question: "How much does Medicare pay for glasses after cataract surgery?", answer: "Medicare pays 80% of the Medicare-approved amount for one pair of standard frames and prescription lenses after cataract surgery. The approved amount varies by region but typically covers basic frames and standard lenses. If you choose upgraded frames, progressive lenses, or premium coatings, you pay the difference out of pocket in addition to your 20% coinsurance." },
+      { question: "Do Medicare Advantage plans cover glasses?", answer: "Many Medicare Advantage plans include vision benefits that cover glasses. Approximately 97% of MA plans offer some vision benefit, typically including one routine eye exam per year and an annual eyewear allowance ranging from $100 to $400. The allowance can be applied toward frames, lenses, or contacts from in-network providers. Coverage details vary significantly between plans." },
+      { question: "Can I buy a standalone vision plan with Medicare?", answer: "Yes. If you have Original Medicare (with or without a Medigap plan), you can purchase a standalone vision insurance plan from companies like VSP, EyeMed, or Davis Vision. These plans typically cost $15 to $50 per month and cover routine eye exams plus an eyewear allowance. You can enroll at any time; there is no limited enrollment period for standalone vision plans." },
+      { question: "Does Medicare cover progressive lenses?", answer: "Original Medicare does not cover progressive lenses except after cataract surgery, and even then, only standard lenses are fully covered at the Medicare-approved rate. If you choose progressive lenses after cataract surgery, you may pay extra above the approved amount. Some Medicare Advantage plans cover progressive lenses within their annual eyewear allowance, but this varies by plan." },
+      { question: "Does Medicare cover contact lenses?", answer: "Original Medicare does not cover contact lenses except after cataract surgery (one set of contacts as an alternative to glasses). Medicare Advantage plans with vision benefits often allow you to use your annual eyewear allowance for contacts instead of glasses. Medically necessary contacts (for conditions like keratoconus) may be covered under some plans as durable medical equipment." },
+      { question: "What is the cheapest way to get glasses on Medicare?", answer: "The most affordable options include: online retailers like Zenni Optical or EyeBuyDirect (starting at $10 to $50 for basic glasses), warehouse clubs like Costco ($100 to $250 for complete pairs), discount programs through AARP or EyeMed Access, and charitable organizations like the Lions Club for income-qualifying seniors. If eligible, switching to a Medicare Advantage plan with a vision allowance during AEP can also reduce costs significantly." },
+      { question: "Does Medigap cover glasses or eye exams?", answer: "No. Medicare Supplement (Medigap) plans do not cover glasses, contact lenses, or routine eye exams. Medigap plans only supplement Original Medicare's covered benefits by paying deductibles, copays, and coinsurance. Since Original Medicare excludes routine vision care, Medigap has nothing to supplement. Some carriers offer vision discount programs as a non-standardized perk, but these are not insurance benefits." },
+      { question: "How often does Medicare Advantage cover new glasses?", answer: "Most Medicare Advantage plans with vision benefits provide a new eyewear allowance once per calendar year. The allowance resets on January 1 and does not roll over if unused. Some plans offer allowances every two years for frames but annually for lenses. Check your specific plan's Evidence of Coverage document for the exact frequency and allowance amount." }
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare:</strong> Does not cover glasses, contacts, or routine eye exams" },
+      { icon: "check", text: "<strong>Exception:</strong> One pair of glasses covered after cataract surgery with IOL implant" },
+      { icon: "info", text: "<strong>Medicare Advantage:</strong> ~97% of plans offer vision benefits ($100 to $400 eyewear allowance)" },
+      { icon: "x", text: "<strong>Medigap:</strong> Does not cover vision; consider standalone vision plan ($15 to $50/month)" },
+      { icon: "dollar", text: "<strong>Post-cataract cost:</strong> You pay 20% coinsurance + $257 Part B deductible (2026)" },
+      { icon: "info", text: "<strong>Affordable options:</strong> Online retailers from $10, Costco from $100, charitable programs available" }
+    ],
+    relatedTopics: [
+      { title: "Medicare Vision, Dental, and Hearing Options", description: "Complete guide to supplemental vision, dental, and hearing coverage.", slug: "medicare-and-vision-dental-and-hearing-what-are-your-options" },
+      { title: "Does Medicare Cover Cataract Surgery?", description: "What Medicare covers for cataract diagnosis and surgery.", slug: "does-medicare-cover-cataract-surgery" },
+      { title: "Medicare Vision Care Coverage", description: "Detailed breakdown of all Medicare vision benefits.", slug: "medicare-vision-care-coverage" },
+      { title: "Does Medicare Cover Glaucoma?", description: "Glaucoma screening and treatment coverage under Medicare.", slug: "does-medicare-cover-glaucoma" }
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Vision, Dental, and Hearing Options",
+      "Does Medicare Cover Cataract Surgery",
+      "Medicare Vision Care Coverage",
+      "Does Medicare Cover Glaucoma"
+    ],
+    ctaBanner: {
+      title: "Want a Medicare Plan That Covers Glasses?",
+      text: "Our licensed agents can compare Medicare Advantage plans in your area with the best vision benefits, including eyewear allowances and routine eye exams, at no cost to you.",
+    },
+    relatedSlugs: ["medicare-and-vision-dental-and-hearing-what-are-your-options", "does-medicare-cover-cataract-surgery", "medicare-vision-care-coverage", "does-medicare-cover-macular-degeneration", "does-medicare-cover-glaucoma", "what-is-medicare-advantage"],
   },
   {
   slug: "does-medicare-cover-hearing-aids",
