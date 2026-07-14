@@ -82,43 +82,52 @@ function getIcon(name: string): React.ElementType {
  * Internal links (starting with /) use Next.js Link; external links open in new tab.
  */
 function renderParagraph(text: string, key: number, className?: string) {
+  // Combined regex handles both markdown links [text](url) and bold **text**
+  const combinedRegex = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*/g;
   const parts: React.ReactNode[] = [];
-  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
   let lastIndex = 0;
   let match;
-  while ((match = linkRegex.exec(text)) !== null) {
+  while ((match = combinedRegex.exec(text)) !== null) {
     if (match.index > lastIndex) {
       parts.push(text.slice(lastIndex, match.index));
     }
-    const [, linkText, href] = match;
-    if (!href || href.trim() === "") {
-      // Empty link — render as bold text instead of a broken link
+    if (match[3] !== undefined) {
+      // Bold text: **text**
       parts.push(
-        <strong key={`bold-${match.index}`}>{linkText}</strong>
+        <strong key={`bold-${match.index}`}>{match[3]}</strong>
       );
     } else {
-      const isInternal = href.startsWith("/");
-      parts.push(
-        isInternal ? (
-          <Link
-            key={`link-${match.index}`}
-            href={href}
-            className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-          >
-            {linkText}
-          </Link>
-        ) : (
-          <a
-            key={`link-${match.index}`}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
-          >
-            {linkText}
-          </a>
-        )
-      );
+      // Link: [text](url)
+      const linkText = match[1];
+      const href = match[2];
+      if (!href || href.trim() === "") {
+        parts.push(
+          <strong key={`bold-${match.index}`}>{linkText}</strong>
+        );
+      } else {
+        const isInternal = href.startsWith("/");
+        parts.push(
+          isInternal ? (
+            <Link
+              key={`link-${match.index}`}
+              href={href}
+              className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
+            >
+              {linkText}
+            </Link>
+          ) : (
+            <a
+              key={`link-${match.index}`}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#0D6EFD] underline hover:text-[#0A58CA] transition-colors"
+            >
+              {linkText}
+            </a>
+          )
+        );
+      }
     }
     lastIndex = match.index + match[0].length;
   }
