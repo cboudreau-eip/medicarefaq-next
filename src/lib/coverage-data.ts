@@ -2859,10 +2859,10 @@ export const coverageArticles: CoverageArticleData[] = [
         { plan: "Medigap", status: "not-covered" }],
     },
     comparisonTable: [
-      { planType: "Original Medicare", coverage: "Covered", icon: "shield", notes: "Covered when medically necessary" },
-      { planType: "Medicare Advantage", coverage: "Some Plans", icon: "shield", notes: "Coverage varies by plan and ZIP code" },
-      { planType: "Medigap", coverage: "Not Covered", icon: "shield", notes: "Only supplements Original Medicare benefits" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover related prescriptions" }],
+      { planType: "Original Medicare (Parts A & B)", coverage: "Fully Covered", icon: "check-circle", notes: "No health questions, no waiting periods, no denials based on health status" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Fully Covered", icon: "check-circle", notes: "Cannot deny enrollment or charge more for pre-existing conditions" },
+      { planType: "Medigap (Medicare Supplement)", coverage: "Covered During OEP", icon: "check-circle", notes: "Guaranteed issue during 6-month OEP; underwriting applies outside OEP" },
+      { planType: "Medicare Part D", coverage: "Fully Covered", icon: "check-circle", notes: "Cannot deny enrollment; formulary determines which drugs are covered" }],
     planBreakdowns: [
       {
         planName: "Original Medicare (Part a & B)",
@@ -3212,17 +3212,18 @@ export const coverageArticles: CoverageArticleData[] = [
   {
     slug: "does-medicare-cover-pre-existing-conditions",
     seo: {
-      title: "Does Medicare Cover Pre-Existing Health Conditions",
-      description: "If you're just aging into Medicare, knowing what pre-existing conditions are, and are not covered by Medicare, is important. Learn more here.",
+      title: "Does Medicare Cover Pre-Existing Conditions? (2026 Guide)",
+      description: "Medicare covers pre-existing conditions with no waiting periods or denials. Learn how Original Medicare, Medicare Advantage, and Medigap handle pre-existing conditions in 2026.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-pre-existing-conditions/",
       ogImage: "https://www.medicarefaq.com/wp-content/uploads/does-medicare-cover-pre-existing-conditions.jpg",
+      focusKeyword: "does medicare cover pre-existing conditions",
     },
-    title: "Does Medicare Cover Pre-Existing Health Conditions",
+    title: "Does Medicare Cover Pre-Existing Conditions?",
     subtitle: "Medicare isn’t dependent on the status of your health. Meaning pre-existing health conditions won’t impact eligibility as long as you apply at the right time.",
-    category: "General Medicare",
-    dateUpdated: "February 21, 2023",
-    lastReviewed: "2026-05-18",
-    author: {
+    subtitle: "Yes. Original Medicare and Medicare Advantage cannot deny you coverage or charge higher premiums because of pre-existing health conditions. Medigap plans also cover pre-existing conditions if you enroll during your Open Enrollment Period. Here is how each part of Medicare handles pre-existing conditions in 2026.",
+    category: "Medicare Coverage",
+    dateUpdated: "July 14, 2026",
+    lastReviewed: "2026-07-14",
       name: "David Haass",
       initials: "DH",
       role: "Author",
@@ -3243,10 +3244,10 @@ export const coverageArticles: CoverageArticleData[] = [
         { plan: "Medigap (during OEP)", status: "covered" }],
     },
     comparisonTable: [
-      { planType: "Original Medicare", coverage: "Covered", icon: "shield", notes: "Covered when medically necessary" },
-      { planType: "Medicare Advantage", coverage: "Some Plans", icon: "shield", notes: "Coverage varies by plan and ZIP code" },
-      { planType: "Medigap", coverage: "Not Covered", icon: "shield", notes: "Only supplements Original Medicare benefits" },
-      { planType: "Medicare Part D", coverage: "May Cover Related Rx", icon: "filetext", notes: "May cover related prescriptions" }],
+      { planType: "Original Medicare (Parts A & B)", coverage: "Fully Covered", icon: "check-circle", notes: "No health questions, no waiting periods, no denials based on health status" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Fully Covered", icon: "check-circle", notes: "Cannot deny enrollment or charge more for pre-existing conditions" },
+      { planType: "Medigap (Medicare Supplement)", coverage: "Covered During OEP", icon: "check-circle", notes: "Guaranteed issue during 6-month OEP; underwriting applies outside OEP" },
+      { planType: "Medicare Part D", coverage: "Fully Covered", icon: "check-circle", notes: "Cannot deny enrollment; formulary determines which drugs are covered" }],
     planBreakdowns: [
       {
         planName: "Original Medicare (Part a & B)",
