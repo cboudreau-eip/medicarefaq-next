@@ -2672,7 +2672,7 @@ export const coverageArticles: CoverageArticleData[] = [
   title: "Does Medicare Cover Cataract Surgery? -- Medicare Cataract Surgery",
   subtitle: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
   category: "General Medicare",
-  dateUpdated: "November 15, 2024",
+  dateUpdated: "May 18, 2026",
   lastReviewed: "2026-05-18",
   author: {
     name: "David Haass",
@@ -2686,7 +2686,7 @@ export const coverageArticles: CoverageArticleData[] = [
     role: "Reviewer",
     bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
   },
-  readTime: "22 mins",
+  readTime: "7 mins",
   quickAnswer: {
     text: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
     badges: [
