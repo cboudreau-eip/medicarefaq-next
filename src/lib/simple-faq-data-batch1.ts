@@ -371,19 +371,25 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     slug: 'can-my-employer-pay-my-medicare-premiums',
     seo: {
       title: 'Can My Employer Pay My Medicare Premiums? (2026 Guide)',
-      description: 'Yes, employers can reimburse Medicare premiums in certain ways, but the rules are strict. Learn about HRAs, ICHRA, Medicare Secondary Payer rules, and the tax implications of employer Medicare reimbursement.',
+      description: 'Yes, employers can reimburse Medicare premiums tax-free through ICHRA, QSEHRA, or Section 105 plans. Learn the 2026 rules, contribution limits, and Medicare Secondary Payer requirements.',
       canonical: 'https://www.medicarefaq.com/faqs/can-my-employer-pay-my-medicare-premiums/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-premiums-reimbursement-through-employer.jpg',
     },
     title: 'Can My Employer Pay My Medicare Premiums?',
-    summary: 'Employers can help pay Medicare premiums, but the rules depend on the size of the employer, the type of arrangement used, and whether you are actively working or retired. This guide explains the legal ways employers can reimburse Medicare premiums, the tax implications, and the important Medicare Secondary Payer rules you need to understand.',
+    summary: 'Employers can help pay Medicare premiums, but the rules depend on the size of the employer, the type of arrangement used, and whether you are actively working or retired. This guide explains the legal ways employers can reimburse Medicare premiums through ICHRA, QSEHRA, and Section 105 plans, the tax implications, and the important Medicare Secondary Payer rules you need to understand.',
     category: 'Costs & Savings',
-    dateUpdated: 'May 11, 2026',
+    dateUpdated: 'July 15, 2026',
     author: 'David Haass',
     reviewer: 'Ashlee Zareczny',
-    readTime: '7 min',
+    readTime: '9 min',
     sections: [],
     richSections: [
+      {
+        type: 'callout',
+        calloutType: 'success',
+        calloutTitle: 'Direct Answer',
+        calloutText: 'Yes, your employer can help pay your Medicare premiums, but not by writing a check directly to Medicare. The legal way is through a tax-free Health Reimbursement Arrangement (HRA) or Section 105 medical reimbursement plan. The most common options are: **Individual Coverage HRA (ICHRA)** with no annual cap on employer contributions, **QSEHRA** for small employers (2026 limits: $6,150 individual / $12,450 family), or a **Section 105 self-insured plan**. Medicare Parts A, B, C, and D premiums all qualify for tax-free reimbursement under these arrangements.',
+      },
       {
         type: 'paragraph',
         content: 'Many people who are still working past age 65, or who are retired and receiving employer-sponsored retiree benefits, wonder whether their employer can help cover the cost of Medicare premiums. The short answer is yes, but the rules governing how employers can do this are specific and have changed significantly over the past decade. Getting this wrong can create tax problems or, worse, affect your Medicare coverage itself.',
@@ -392,7 +398,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         type: 'callout',
         calloutType: 'info',
         calloutTitle: '2026 Medicare Part B Premium',
-        calloutText: 'The standard Medicare Part B premium in 2026 is **$202.90 per month**. Higher-income beneficiaries pay more due to IRMAA surcharges. Part A is premium-free for most people who worked at least 40 quarters.',
+        calloutText: 'The standard Medicare Part B premium in 2026 is **$202.90 per month**. Higher-income beneficiaries pay more due to [IRMAA surcharges](/faqs/irmaa). Part A is premium-free for most people who worked at least 40 quarters.',
       },
       {
         type: 'heading',
@@ -402,7 +408,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Employers generally **cannot pay Medicare premiums directly** on behalf of an active employee without creating a taxable benefit. If an employer simply adds money to your paycheck to cover Medicare premiums, that amount is treated as taxable wages. However, there are structured arrangements that allow employers to reimburse Medicare premiums on a tax-advantaged basis, specifically through Health Reimbursement Arrangements (HRAs).',
+        content: 'Employers generally **cannot pay Medicare premiums directly** on behalf of an active employee without creating a taxable benefit. If an employer simply adds money to your paycheck to cover Medicare premiums, that amount is treated as taxable wages. However, there are structured arrangements that allow employers to reimburse Medicare premiums on a tax-advantaged basis, specifically through Health Reimbursement Arrangements (HRAs) and Section 105 medical reimbursement plans.',
       },
       {
         type: 'heading',
@@ -412,14 +418,15 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'A **Health Reimbursement Arrangement (HRA)** is an employer-funded account that reimburses employees for qualified medical expenses, including Medicare premiums, on a tax-free basis. The employer funds the HRA; the employee submits receipts for reimbursement. There are two main HRA types relevant to Medicare beneficiaries:',
+        content: 'A **Health Reimbursement Arrangement (HRA)** is an employer-funded account that reimburses employees for qualified medical expenses, including Medicare premiums, on a tax-free basis. The employer funds the HRA; the employee submits receipts for reimbursement. There are several HRA types relevant to Medicare beneficiaries:',
       },
       {
         type: 'table',
         headers: ['HRA Type', 'Who It Is For', 'Can It Reimburse Medicare Premiums?', 'Key Rules'],
         rows: [
-          ['Individual Coverage HRA (ICHRA)', 'Active employees (any size employer)', 'Yes. Medicare Parts A, B, C, and D premiums qualify', 'Employee must be enrolled in individual health coverage (Medicare qualifies); employer sets the monthly allowance'],
-          ['Qualified Small Employer HRA (QSEHRA)', 'Active employees at employers with fewer than 50 employees', 'Yes. Medicare premiums qualify', 'Annual reimbursement limits apply ($6,350 individual / $12,800 family in 2025; 2026 limits typically announced mid-year)'],
+          ['Individual Coverage HRA (ICHRA)', 'Active employees (any size employer)', 'Yes. Medicare Parts A, B, C, and D premiums qualify', 'Employee must be enrolled in individual health coverage (Medicare qualifies); employer sets the monthly allowance; no annual cap'],
+          ['Qualified Small Employer HRA (QSEHRA)', 'Active employees at employers with fewer than 50 employees', 'Yes. Medicare premiums qualify', '2026 annual limits: $6,150 individual / $12,450 family (IRS Revenue Procedure 2025-19)'],
+          ['Section 105 Self-Insured Plan', 'Active employees or retirees (any size employer)', 'Yes. All Medicare premiums qualify', 'Employer adopts written plan document; must comply with IRC Section 105(h) nondiscrimination rules'],
           ['Retiree HRA', 'Retired former employees', 'Yes. Medicare premiums qualify', 'Only available to retirees, not active employees; employer designs the plan'],
           ['Group HRA (pre-2017 rules)', 'No longer permitted for active employees', 'Not allowed for active employees', 'IRS Notice 2013-54 prohibited standalone HRAs for active employees; ICHRA replaced this in 2020'],
         ],
@@ -433,11 +440,52 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'The **Individual Coverage HRA (ICHRA)**, available since January 1, 2020, is the primary mechanism through which employers of any size can reimburse active employees for Medicare premiums tax-free. Under ICHRA rules, Medicare Parts A, B, C (Medicare Advantage), and D premiums all qualify as reimbursable expenses. The employer sets a monthly dollar allowance, and the employee submits documentation of their Medicare premium payments to receive tax-free reimbursement.',
+        content: 'The **Individual Coverage HRA (ICHRA)**, available since January 1, 2020, is the primary mechanism through which employers of any size can reimburse active employees for Medicare premiums tax-free. Under ICHRA rules, Medicare Parts A, B, C ([Medicare Advantage](/faqs/what-is-medicare-advantage)), and D premiums all qualify as reimbursable expenses. The employer sets a monthly dollar allowance, and the employee submits documentation of their Medicare premium payments to receive tax-free reimbursement.',
       },
       {
         type: 'paragraph',
         content: 'There is no annual cap on ICHRA contributions. Employers can set any allowance amount they choose. Employees must be enrolled in Medicare (or another qualifying individual health coverage) to participate. Importantly, employees cannot be offered both an ICHRA and a traditional group health plan for the same class of employees.',
+      },
+      {
+        type: 'callout',
+        calloutType: 'tip',
+        calloutTitle: 'ICHRA and Medicare Advantage',
+        calloutText: 'If you are enrolled in a [Medicare Advantage plan](/faqs/what-is-medicare-advantage), your ICHRA can reimburse both your Part B premium ($202.90/month in 2026) and your MA plan premium. This makes ICHRA particularly valuable for employees who want the additional benefits of Medicare Advantage, such as dental, vision, and hearing coverage.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        id: 'section-105',
+        text: 'Section 105 Plans: A Proven Tax-Free Reimbursement Option',
+      },
+      {
+        type: 'paragraph',
+        content: 'A **Section 105 plan** (named after Internal Revenue Code Section 105) is a self-insured medical reimbursement plan that allows employers to reimburse employees for medical expenses, including Medicare premiums, on a tax-free basis. While ICHRAs are the newer and more commonly discussed option, Section 105 plans have been available for decades and remain a valid approach, particularly for small businesses and S-corporations.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Under a Section 105 plan, the employer adopts a written plan document specifying which expenses are reimbursable, the eligible class of employees, and the reimbursement limits. Medicare Part A, Part B, Part D, [Medicare Advantage](/faqs/what-is-medicare-advantage) premiums, and [Medigap premiums](/faqs/medigap-vs-medicare-advantage) all qualify as eligible expenses. Reimbursements are tax-deductible for the employer and tax-free for the employee.',
+      },
+      {
+        type: 'paragraph',
+        content: 'Key Section 105 requirements for 2026:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          '**Written plan document** is required before any reimbursements are made',
+          '**Nondiscrimination rules** under IRC Section 105(h) apply: the plan cannot favor highly compensated employees in eligibility or benefits',
+          '**No employee contributions**: Section 105 plans are entirely employer-funded',
+          '**Substantiation required**: employees must submit proof of premium payments before reimbursement',
+          '**S-corporation shareholders** who own more than 2% are treated as self-employed and receive reimbursements as taxable W-2 income (though they can deduct health insurance premiums on their personal return)',
+        ],
+      },
+      {
+        type: 'callout',
+        calloutType: 'info',
+        calloutTitle: 'Section 105 vs. ICHRA: Which Is Right for Your Employer?',
+        calloutText: 'Both Section 105 plans and ICHRAs allow tax-free Medicare premium reimbursement. The key differences: ICHRA has specific regulatory requirements (employee classes, integration rules, annual notice requirements) established in 2020 and is better suited for larger employers with multiple employee classes. A Section 105 plan is more flexible in design, has been tested in courts for decades, and many small employers (especially those with fewer than 10 employees) find it simpler to administer.',
       },
       {
         type: 'heading',
@@ -457,7 +505,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'For employers with **fewer than 20 employees**, Medicare is the primary payer and the employer group plan is secondary. In this situation, it may make more financial sense for the employee to rely primarily on Medicare, and an ICHRA or QSEHRA reimbursement arrangement is a legitimate way for the employer to help cover Medicare premium costs.',
+        content: 'For employers with **fewer than 20 employees**, Medicare is the primary payer and the employer group plan is secondary. In this situation, it may make more financial sense for the employee to rely primarily on Medicare, and an ICHRA, QSEHRA, or Section 105 reimbursement arrangement is a legitimate way for the employer to help cover Medicare premium costs. If you are navigating this transition, our guide on [enrolling in Medicare while still working](/faqs/when-should-you-enroll-in-medicare-if-still-working) explains the timeline and steps.',
       },
       {
         type: 'heading',
@@ -478,10 +526,14 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ordered: false,
         items: [
           '**Retiree HRA:** The employer funds an account that reimburses Medicare premiums and other qualified medical expenses tax-free',
-          '**Employer-sponsored Medicare Advantage plan:** Some large employers contract with an insurer to offer a group Medicare Advantage plan to retirees',
+          '**Employer-sponsored Medicare Advantage plan:** Some large employers contract with an insurer to offer a group [Medicare Advantage plan](/faqs/what-is-medicare-advantage) to retirees',
           '**Medicare Part B premium reimbursement:** Some pension plans include a flat monthly reimbursement for Part B premiums as part of the retirement benefit',
-          '**Medigap group plan:** Some employers offer group Medigap coverage to retirees at lower rates than individual policies',
+          '**Medigap group plan:** Some employers offer group [Medigap coverage](/faqs/medigap-vs-medicare-advantage) to retirees at lower rates than individual policies',
         ],
+      },
+      {
+        type: 'paragraph',
+        content: 'If you are transitioning from employer coverage to Medicare as a retiree, understanding your [enrollment periods](/faqs/medicare-enrollment-periods) is critical to avoiding [late enrollment penalties](/blog/protect-yourself-from-medicare-penalties-key-tips-and-deadlines). You have an 8-month [Special Enrollment Period](/faqs/medicare-special-enrollment-period) after your employer coverage ends to sign up for Part B without penalty.',
       },
       {
         type: 'heading',
@@ -494,12 +546,13 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         headers: ['Arrangement', 'Tax Treatment for Employee', 'Tax Treatment for Employer'],
         rows: [
           ['ICHRA reimbursement of Medicare premiums', 'Tax-free (excluded from gross income)', 'Deductible as a business expense'],
+          ['Section 105 plan reimbursement', 'Tax-free (excluded from gross income)', 'Deductible as a business expense'],
           ['QSEHRA reimbursement of Medicare premiums', 'Tax-free up to annual limits', 'Deductible as a business expense'],
           ['Employer adds money to paycheck for Medicare', 'Taxable wages (subject to income tax and FICA)', 'Deductible, but employer must pay payroll taxes'],
           ['Retiree HRA reimbursement', 'Tax-free', 'Deductible as a business expense'],
           ['Pension plan Medicare Part B reimbursement', 'Generally taxable as pension income', 'Deductible as part of pension obligation'],
         ],
-        footnote: 'Tax treatment may vary based on individual circumstances. Consult a tax advisor for guidance specific to your situation.',
+        footnote: 'Tax treatment may vary based on individual circumstances. S-corporation shareholders owning more than 2% have special rules. Consult a tax advisor for guidance specific to your situation.',
       },
       {
         type: 'heading',
@@ -512,11 +565,15 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         faqs: [
           {
             question: 'Can my employer pay my Medicare Part B premium directly?',
-            answer: 'Not directly without creating a taxable benefit. The proper way is through an ICHRA or QSEHRA, which reimburses you for Medicare premiums on a tax-free basis after you submit documentation of your premium payments.',
+            answer: 'Not directly without creating a taxable benefit. The proper way is through an ICHRA, QSEHRA, or Section 105 plan, which reimburses you for Medicare premiums on a tax-free basis after you submit documentation of your premium payments.',
+          },
+          {
+            question: 'What is the difference between ICHRA and a Section 105 plan for Medicare reimbursement?',
+            answer: 'Both allow tax-free reimbursement of Medicare premiums. ICHRA was established in 2020 with specific regulatory requirements including employee class definitions and annual notice obligations. Section 105 plans have existed for decades, are more flexible in design, and are often preferred by small employers. Both require a written plan document and substantiation of expenses.',
           },
           {
             question: 'Is employer Medicare premium reimbursement taxable income?',
-            answer: 'If done through a properly structured ICHRA or QSEHRA, reimbursements are tax-free. If the employer simply pays you extra money to cover premiums without a formal HRA arrangement, that amount is treated as taxable wages.',
+            answer: 'If done through a properly structured ICHRA, QSEHRA, or Section 105 plan, reimbursements are tax-free. If the employer simply pays you extra money to cover premiums without a formal arrangement, that amount is treated as taxable wages.',
           },
           {
             question: 'Can my employer require me to take Medicare instead of the group health plan?',
@@ -524,16 +581,24 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
           },
           {
             question: 'My employer has fewer than 20 employees. Can they help me pay for Medicare?',
-            answer: 'Yes. For small employers (fewer than 20 employees), a QSEHRA is a common option. It allows the employer to reimburse Medicare premiums tax-free up to annual IRS limits. An ICHRA is also available with no contribution cap.',
+            answer: 'Yes. For small employers (fewer than 20 employees), a QSEHRA allows tax-free Medicare premium reimbursement up to $6,150 individual / $12,450 family in 2026. An ICHRA or Section 105 plan is also available with no contribution cap.',
+          },
+          {
+            question: 'What are the 2026 QSEHRA contribution limits?',
+            answer: 'For 2026, the QSEHRA annual limits are $6,150 for self-only coverage and $12,450 for family coverage, as established by IRS Revenue Procedure 2025-19. These limits are adjusted annually for inflation.',
+          },
+          {
+            question: 'Can an ICHRA reimburse Medigap premiums?',
+            answer: 'Yes. Under ICHRA rules, any individual health coverage qualifies, including Medicare Supplement (Medigap) premiums. Your employer can reimburse your Medigap Plan G or Plan N premium in addition to your Part B premium, all tax-free.',
           },
           {
             question: 'Do retiree Medicare reimbursements count toward my IRMAA calculation?',
-            answer: 'IRMAA is based on your modified adjusted gross income (MAGI) from two years prior. Tax-free HRA reimbursements do not count toward MAGI. Taxable pension reimbursements do. Your Medicare premium itself is not affected by whether your employer reimburses it.',
+            answer: 'IRMAA is based on your modified adjusted gross income (MAGI) from two years prior. Tax-free HRA and Section 105 reimbursements do not count toward MAGI. Taxable pension reimbursements do. Your Medicare premium itself is not affected by whether your employer reimburses it.',
           },
         ],
       },
     ],
-    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "when-should-you-enroll-in-medicare-if-still-working", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-and-hsa-rules-what-happens-when-you-turn-65"],
+    relatedSlugs: ["understanding-how-medicare-works-with-employer-health-plans", "medicare-and-employment-how-to-navigate-coverage-when-youre-still-on-the-job", "transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide", "when-should-you-enroll-in-medicare-if-still-working", "surprised-by-higher-medicare-premiums-it-could-be-irmaa", "medicare-and-hsa-rules-what-happens-when-you-turn-65", "medigap-vs-medicare-advantage", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines"],
   },
   {
     slug: 'medicare-and-prescription-drugs-whats-covered-and-whats-not',
