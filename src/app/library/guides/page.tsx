@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Browse free Medicare guides and educational resources from MedicareFAQ. Learn about Medicare plans, enrollment, costs, and coverage in plain language.",
     url: "https://www.medicarefaq.com/library/guides/",
     type: "website",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

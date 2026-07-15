@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       "If you're working past 65, you may be able to delay Medicare enrollment without penalty. Learn when to sign up and how to avoid late fees.",
     url: "https://www.medicarefaq.com/medicare-enrollment/working-past-65/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

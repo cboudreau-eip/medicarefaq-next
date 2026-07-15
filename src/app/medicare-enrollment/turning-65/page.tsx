@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Learn exactly when to enroll in Medicare when turning 65, what your Initial Enrollment Period covers, and how to avoid costly late penalties.",
     url: "https://www.medicarefaq.com/medicare-enrollment/turning-65/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

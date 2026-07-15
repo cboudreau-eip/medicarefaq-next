@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Browse hundreds of Medicare FAQs covering plans, enrollment, costs, and coverage. Get clear, unbiased answers to your Medicare questions.",
     url: "https://www.medicarefaq.com/faqs/",
     type: "website",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

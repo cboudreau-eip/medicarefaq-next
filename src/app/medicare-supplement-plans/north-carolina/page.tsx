@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+        url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
         width: 1200,
         height: 630,
         alt: "Best Medicare Supplement Plans in North Carolina",

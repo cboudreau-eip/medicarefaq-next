@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Check out our Medicare blog where we answer the most frequently asked questions regarding everything Medicare!",
     url: "https://www.medicarefaq.com/blog/",
     type: "website",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

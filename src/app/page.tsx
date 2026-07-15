@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "MedicareFAQ specializes in supplemental Medicare insurance. We make Medicare plans easy to understand, as well as easy to enroll.",
     url: "https://www.medicarefaq.com/",
     type: "website",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg", width: 1200, height: 630, alt: "MedicareFAQ" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg", width: 1200, height: 630, alt: "MedicareFAQ" }],
   },
 };
 

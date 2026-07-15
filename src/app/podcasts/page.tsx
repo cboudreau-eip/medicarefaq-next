@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Listen to the MedicareFAQ podcast — short, expert-led audio episodes covering Medicare plans, enrollment, costs, and common questions. Free to stream.",
     url: "https://www.medicarefaq.com/podcasts/",
     type: "website",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

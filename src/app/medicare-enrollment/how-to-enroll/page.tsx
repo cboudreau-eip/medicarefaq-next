@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Learn how to enroll in Medicare step by step. Find out when to sign up, how to apply online or by phone, and what to do if you missed your enrollment window.",
     url: "https://www.medicarefaq.com/medicare-enrollment/how-to-enroll/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

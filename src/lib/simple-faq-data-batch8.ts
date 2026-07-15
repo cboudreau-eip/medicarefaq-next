@@ -8,7 +8,7 @@ export const simpleFAQBatch8: SimpleFAQArticleData[] = [
       description:
         "Original Medicare does not cover routine eye exams for glasses or contacts, but Medicare Part B covers medically necessary eye care for certain conditions, and Medicare Advantage plans often include routine vision benefits.",
       canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-eye-exams/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+      ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
     },
     title: "Does Medicare Cover Eye Exams?",
     summary:

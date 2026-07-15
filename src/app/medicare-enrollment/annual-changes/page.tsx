@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "The Medicare Annual Enrollment Period runs October 15 – December 7 each year. Learn what changes you can make and how to review your coverage for the coming year.",
     url: "https://www.medicarefaq.com/medicare-enrollment/annual-enrollment-period/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

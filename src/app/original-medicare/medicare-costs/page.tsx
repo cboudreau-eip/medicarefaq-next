@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "See the 2026 Medicare costs for Parts A, B, C, and D — including premiums, deductibles, coinsurance, and out-of-pocket limits. Updated for 2026.",
     url: "https://www.medicarefaq.com/original-medicare/medicare-costs/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
   alternates: {
     canonical: "https://www.medicarefaq.com/original-medicare/medicare-costs/",

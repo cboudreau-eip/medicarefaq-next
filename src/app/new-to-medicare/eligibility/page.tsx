@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Find out if you qualify for Medicare. Learn about age requirements, disability eligibility, and how to enroll when you become eligible.",
     url: "https://www.medicarefaq.com/original-medicare/eligibility/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

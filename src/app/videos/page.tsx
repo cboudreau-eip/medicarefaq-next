@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Watch Medicare educational videos from MedicareFAQ. Our video library covers Medicare basics, plan comparisons, enrollment tips, and more.",
     url: "https://www.medicarefaq.com/videos/",
     type: "website",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Understand all Medicare enrollment periods in 2026 — Initial Enrollment Period (IEP), Special Enrollment Period (SEP), General Enrollment Period (GEP), and Annual Enrollment Period (AEP).",
     url: "https://www.medicarefaq.com/original-medicare/medicare-enrollment-periods/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
   alternates: {
     canonical: "https://www.medicarefaq.com/original-medicare/medicare-enrollment-periods/",

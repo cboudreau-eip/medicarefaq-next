@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Use our Medicare enrollment checklist to make sure you don",
     url: "https://www.medicarefaq.com/medicare-enrollment/checklist/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Learn what Medicare covers in 2026 — from hospital stays and doctor visits to prescription drugs and preventive care. Understand Parts A, B, C, and D coverage.",
     url: "https://www.medicarefaq.com/original-medicare/medicare-coverage/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
   alternates: {
     canonical: "https://www.medicarefaq.com/original-medicare/medicare-coverage/",

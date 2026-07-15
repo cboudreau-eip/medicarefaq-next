@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Turning 65? Learn everything you need to know about enrolling in Medicare, your coverage options, and the steps to take before your 65th birthday.",
     url: "https://www.medicarefaq.com/medicare-enrollment/turning-65/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

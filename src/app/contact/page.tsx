@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Have questions about Medicare? Contact MedicareFAQ to speak with a licensed Medicare agent. We",
     url: "https://www.medicarefaq.com/contact/",
     type: "website",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

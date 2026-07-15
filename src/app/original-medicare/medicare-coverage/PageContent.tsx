@@ -82,7 +82,7 @@ export default function MedicareCoverage() {
         dateModified="2026-01-10T00:00:00+00:00"
         authorName="David Haass"
         authorUrl="https://www.medicarefaq.com/about/"
-        imageUrl="https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg"
+        imageUrl="https://www.medicarefaq.com/images/medicarefaq-cover.jpg"
       />
 
       {/* Hero */}

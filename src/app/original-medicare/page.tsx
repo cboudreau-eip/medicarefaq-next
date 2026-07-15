@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Original Medicare is the traditional fee-for-service health insurance program offered by the federal government. Learn about Parts A and B, what they cover, and how they work.",
     url: "https://www.medicarefaq.com/original-medicare/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

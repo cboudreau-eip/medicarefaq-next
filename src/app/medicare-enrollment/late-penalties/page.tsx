@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Missing your Medicare enrollment window can result in permanent late penalties on Part A, Part B, and Part D. Learn how the penalties work and how to avoid them.",
     url: "https://www.medicarefaq.com/medicare-enrollment/late-enrollment-penalty/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg" }],
+    images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
   },
 };
 

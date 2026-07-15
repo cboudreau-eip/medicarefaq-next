@@ -10,7 +10,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
       canonical:
         "https://www.medicarefaq.com/faqs/what-medicare-doesnt-cover-common-surprises/",
       ogImage:
-        "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+        "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
     },
     title: "What Medicare Doesn't Cover: Common Surprises",
     summary:
