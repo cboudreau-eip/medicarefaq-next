@@ -8835,7 +8835,7 @@ export const blogArticles: BlogArticleData[] = [
       title: "2027 Medicare Physician Fee Schedule: Conversion Factor Cut Explained",
       description: "Understand the proposed 2027 Medicare Physician Fee Schedule's $0.56 conversion factor cut, leading to a 2.2% reduction for physicians. Learn its financial impact.",
       canonical: "https://www.medicarefaq.com/blog/medicare-physician-fee-schedule/",
-      ogImage: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+      ogImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
     },
     title: "2027 Medicare Physician Fee Schedule: Conversion Factor Cut Explained",
     excerpt: "The proposed 2027 Medicare Physician Fee Schedule includes a $0.56 conversion factor reduction, translating to a 2.2% cut for standard physicians. This guide explains the financial impact, specialty-specific effects, legislative pushback, and what it means for Medicare beneficiaries.",
@@ -8846,7 +8846,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "12 min",
     featured: false,
-    image: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-cover.jpg",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "2027 Medicare Physician Fee Schedule conversion factor analysis",
     keyTakeaways: [
       "The proposed 2027 conversion factor drops to $32.84 for standard physicians, representing a 2.2% year-over-year reduction driven largely by the expiration of a temporary pay increase.",
