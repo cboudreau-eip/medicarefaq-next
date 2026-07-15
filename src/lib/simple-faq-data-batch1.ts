@@ -371,7 +371,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     slug: 'can-my-employer-pay-my-medicare-premiums',
     seo: {
       title: 'Can My Employer Pay My Medicare Premiums? (2026 Guide)',
-      description: 'Yes, employers can reimburse Medicare premiums in certain ways -- but the rules are strict. Learn about HRAs, ICHRA, Medicare Secondary Payer rules, and the tax implications of employer Medicare reimbursement.',
+      description: 'Yes, employers can reimburse Medicare premiums in certain ways, but the rules are strict. Learn about HRAs, ICHRA, Medicare Secondary Payer rules, and the tax implications of employer Medicare reimbursement.',
       canonical: 'https://www.medicarefaq.com/faqs/can-my-employer-pay-my-medicare-premiums/',
       ogImage: 'https://www.medicarefaq.com/wp-content/uploads/medicare-premiums-reimbursement-through-employer.jpg',
     },
@@ -386,7 +386,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     richSections: [
       {
         type: 'paragraph',
-        content: 'Many people who are still working past age 65 -- or who are retired and receiving employer-sponsored retiree benefits -- wonder whether their employer can help cover the cost of Medicare premiums. The short answer is yes, but the rules governing how employers can do this are specific and have changed significantly over the past decade. Getting this wrong can create tax problems or, worse, affect your Medicare coverage itself.',
+        content: 'Many people who are still working past age 65, or who are retired and receiving employer-sponsored retiree benefits, wonder whether their employer can help cover the cost of Medicare premiums. The short answer is yes, but the rules governing how employers can do this are specific and have changed significantly over the past decade. Getting this wrong can create tax problems or, worse, affect your Medicare coverage itself.',
       },
       {
         type: 'callout',
@@ -402,7 +402,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Employers generally **cannot pay Medicare premiums directly** on behalf of an active employee without creating a taxable benefit. If an employer simply adds money to your paycheck to cover Medicare premiums, that amount is treated as taxable wages. However, there are structured arrangements that allow employers to reimburse Medicare premiums on a tax-advantaged basis -- specifically through Health Reimbursement Arrangements (HRAs).',
+        content: 'Employers generally **cannot pay Medicare premiums directly** on behalf of an active employee without creating a taxable benefit. If an employer simply adds money to your paycheck to cover Medicare premiums, that amount is treated as taxable wages. However, there are structured arrangements that allow employers to reimburse Medicare premiums on a tax-advantaged basis, specifically through Health Reimbursement Arrangements (HRAs).',
       },
       {
         type: 'heading',
@@ -418,9 +418,9 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         type: 'table',
         headers: ['HRA Type', 'Who It Is For', 'Can It Reimburse Medicare Premiums?', 'Key Rules'],
         rows: [
-          ['Individual Coverage HRA (ICHRA)', 'Active employees (any size employer)', 'Yes -- Medicare Parts A, B, C, and D premiums qualify', 'Employee must be enrolled in individual health coverage (Medicare qualifies); employer sets the monthly allowance'],
-          ['Qualified Small Employer HRA (QSEHRA)', 'Active employees at employers with fewer than 50 employees', 'Yes -- Medicare premiums qualify', 'Annual reimbursement limits apply ($6,350 individual / $12,800 family in 2025; 2026 limits typically announced mid-year)'],
-          ['Retiree HRA', 'Retired former employees', 'Yes -- Medicare premiums qualify', 'Only available to retirees, not active employees; employer designs the plan'],
+          ['Individual Coverage HRA (ICHRA)', 'Active employees (any size employer)', 'Yes. Medicare Parts A, B, C, and D premiums qualify', 'Employee must be enrolled in individual health coverage (Medicare qualifies); employer sets the monthly allowance'],
+          ['Qualified Small Employer HRA (QSEHRA)', 'Active employees at employers with fewer than 50 employees', 'Yes. Medicare premiums qualify', 'Annual reimbursement limits apply ($6,350 individual / $12,800 family in 2025; 2026 limits typically announced mid-year)'],
+          ['Retiree HRA', 'Retired former employees', 'Yes. Medicare premiums qualify', 'Only available to retirees, not active employees; employer designs the plan'],
           ['Group HRA (pre-2017 rules)', 'No longer permitted for active employees', 'Not allowed for active employees', 'IRS Notice 2013-54 prohibited standalone HRAs for active employees; ICHRA replaced this in 2020'],
         ],
         footnote: 'ICHRA rules were established by final regulations published in June 2019, effective January 1, 2020. QSEHRA limits are adjusted annually by the IRS.',
@@ -437,7 +437,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'There is no annual cap on ICHRA contributions -- employers can set any allowance amount they choose. Employees must be enrolled in Medicare (or another qualifying individual health coverage) to participate. Importantly, employees cannot be offered both an ICHRA and a traditional group health plan for the same class of employees.',
+        content: 'There is no annual cap on ICHRA contributions. Employers can set any allowance amount they choose. Employees must be enrolled in Medicare (or another qualifying individual health coverage) to participate. Importantly, employees cannot be offered both an ICHRA and a traditional group health plan for the same class of employees.',
       },
       {
         type: 'heading',
@@ -467,7 +467,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Retiree health benefits are a separate category from active employee benefits. Many large employers -- particularly in the public sector, unions, and large corporations -- offer **retiree health plans** that either supplement Medicare or reimburse Medicare premiums. These arrangements are generally not subject to the same MSP restrictions that apply to active employees.',
+        content: 'Retiree health benefits are a separate category from active employee benefits. Many large employers, particularly in the public sector, unions, and large corporations, offer **retiree health plans** that either supplement Medicare or reimburse Medicare premiums. These arrangements are generally not subject to the same MSP restrictions that apply to active employees.',
       },
       {
         type: 'paragraph',
