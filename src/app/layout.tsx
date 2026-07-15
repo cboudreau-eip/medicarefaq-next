@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { VWOScript } from "vwo-smartcode-nextjs";
 import HeatmapTracker from "@/components/HeatmapTracker";
 import InvocaRefresh from "@/components/InvocaRefresh";
 import ChatWidget from "@/components/ChatWidget";
@@ -83,7 +82,12 @@ export default function RootLayout({
         />
 
         {/* VWO SmartCode */}
-        <VWOScript accountId="735615" type="SYNC" />
+        <script
+          src="https://dev.visualwebsiteoptimizer.com/lib/735615.js"
+          data-cfasync="false"
+          referrerPolicy="no-referrer-when-downgrade"
+          id="vwoCode"
+        />
 
         {/* Google Tag Manager */}
         <Script
