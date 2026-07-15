@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Medicare Supplement (Medigap) plans help fill the gaps in Original Medicare. See how the plans work, what they cover, and how to choose the right one",
     url: "https://www.medicarefaq.com/medicare-supplement-plans/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg" }],
+    images: [{ url: "/images/medicarefaq-cover.jpg" }],
   },
 };
 

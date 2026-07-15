@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free.",
     url: "https://www.medicarefaq.com/about-us/",
     type: "website",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/xxbdybfbexe.jpg" }],
+    images: [{ url: "/images/medicarefaq-cover.jpg" }],
   },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Medicare provides health insurance coverage for Americans over age 65 and individuals with qualified disabilities. Learn everything you need to know about Medicare.",
     url: "https://www.medicarefaq.com/medicare-101/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicare-101.jpg" }],
+    images: [{ url: "/images/medicarefaq-cover.jpg" }],
   },
 };
 

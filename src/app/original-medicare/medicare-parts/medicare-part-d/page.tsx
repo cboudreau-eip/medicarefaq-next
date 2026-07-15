@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Medicare Part D involves different coverage phases. Learn how it works here and how to find the best plan for you.",
     url: "https://www.medicarefaq.com/original-medicare/medicare-parts/medicare-part-d/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicare-part-d-1.jpeg" }],
+    images: [{ url: "/images/medicarefaq-cover.jpg" }],
   },
 };
 

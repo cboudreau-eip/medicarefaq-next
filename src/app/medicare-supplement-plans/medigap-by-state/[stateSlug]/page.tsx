@@ -29,7 +29,7 @@ export async function generateMetadata({
       description: state.metaDescription,
       url: state.canonical,
       type: "article",
-      images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg" }],
+      images: [{ url: "/images/medicarefaq-cover.jpg" }],
     },
     alternates: {
       canonical: state.canonical,

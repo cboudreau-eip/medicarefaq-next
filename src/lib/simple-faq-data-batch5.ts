@@ -13,7 +13,7 @@ export const simpleFAQBatch5: SimpleFAQArticleData[] = [
       title: 'How Medicare Supplements Extend Coverage with Lifetime Reserve Hospital Days (2026)',
       description: 'Original Medicare only covers 90 days per benefit period plus 60 lifetime reserve days. Most Medigap plans add 365 extra hospital days after Medicare runs out. Learn how this works and why it matters.',
       canonical: 'https://www.medicarefaq.com/faqs/how-medicare-supplements-can-extend-your-coverage-with-lifetime-reserve-hospital-days/',
-      ogImage: 'https://www.medicarefaq.com/wp-content/uploads/How-Medicare-Supplements-Can-Extend-Your-Coverage-with-Lifetime-Reserve-Hospital-Days.jpg',
+      ogImage: '/images/medicarefaq-cover.jpg',
     },
     title: 'How Medicare Supplements Can Extend Your Coverage with Lifetime Reserve Hospital Days',
     summary: 'Original Medicare Part A covers inpatient hospital stays, but coverage has strict limits. After 90 days in a benefit period, you draw from a pool of 60 lifetime reserve days, and after those are gone, you pay 100% of hospital costs. Most Medigap plans add 365 additional hospital days beyond what Medicare covers, providing a critical safety net for extended stays.',

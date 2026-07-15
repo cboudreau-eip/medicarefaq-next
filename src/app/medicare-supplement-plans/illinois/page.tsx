@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: "article",
     images: [
       {
-        url: "https://www.medicarefaq.com/wp-content/uploads/Medicare-Supplement-8.jpg",
+        url: "/images/medicarefaq-cover.jpg",
       },
     ],
   },

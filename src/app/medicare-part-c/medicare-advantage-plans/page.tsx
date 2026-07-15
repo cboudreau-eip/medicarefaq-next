@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Learn what Medicare Part C (Medicare Advantage) covers, costs, plan types, pros & cons, and how to enroll. Compare plans in your area for 2026.",
     url: "https://www.medicarefaq.com/medicare-part-c/",
     type: "article",
-    images: [{ url: "https://www.medicarefaq.com/wp-content/uploads/medicare-part-c.jpeg" }],
+    images: [{ url: "/images/medicarefaq-cover.jpg" }],
   },
 };
 
