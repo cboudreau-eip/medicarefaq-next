@@ -31,16 +31,18 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self'",
+      // Allow VWO to spawn blob: web workers (offloads campaign computation off the main thread)
+      "worker-src 'self' blob:",
       // GTM, Google Analytics, Google Ads, PostHog, and VWO script loading
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://ade.googlesyndication.com https://adservice.google.com https://www.google.com https://bat.bing.com https://connect.facebook.net https://solutions.invocacdn.com https://*.invoca.net https://app.posthog.com https://us-assets.i.posthog.com https://*.posthog.com https://dev.visualwebsiteoptimizer.com https://*.vwo.com https://*.wingify.com",
-      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://tagmanager.google.com",
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://tagmanager.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://ade.googlesyndication.com https://adservice.google.com https://www.google.com https://bat.bing.com https://connect.facebook.net https://solutions.invocacdn.com https://*.invoca.net https://app.posthog.com https://us-assets.i.posthog.com https://*.posthog.com https://dev.visualwebsiteoptimizer.com https://*.visualwebsiteoptimizer.com https://*.vwo.com https://*.wingify.com",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://tagmanager.google.com https://*.vwo.com https://*.visualwebsiteoptimizer.com",
       "font-src 'self' https://fonts.gstatic.com",
       // Allow GTM, GA, and VWO images (pixel tracking)
-      "img-src 'self' data: https: blob: https://www.googletagmanager.com https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com https://*.vwo.com https://*.wingify.com",
-      // Allow GTM iframe, YouTube embeds, Google Ads, and self (for heatmap admin iframe viewer)
-      "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com https://bid.g.doubleclick.net https://googleads.g.doubleclick.net https://www.facebook.com",
+      "img-src 'self' data: https: blob: https://www.googletagmanager.com https://www.google-analytics.com https://ssl.gstatic.com https://www.gstatic.com https://*.vwo.com https://*.visualwebsiteoptimizer.com https://*.vwo.io https://*.wingify.com",
+      // Allow GTM iframe, YouTube embeds, Google Ads, VWO (surveys/editor/previews/heatmaps), and self (for heatmap admin iframe viewer)
+      "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.googletagmanager.com https://bid.g.doubleclick.net https://googleads.g.doubleclick.net https://www.facebook.com https://*.vwo.com https://*.visualwebsiteoptimizer.com",
       // Allow GA/GTM beacons, Google Ads, PostHog, VWO, and demographics redirect domains
-      "connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://ad.doubleclick.net https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://ade.googlesyndication.com https://adservice.google.com https://www.google.com https://bat.bing.com https://www.facebook.com https://demographics.medicarecompared.com https://demographicsqa.medicarecompared.com https://solutions.invocacdn.com https://*.invoca.net https://app.posthog.com https://us.i.posthog.com https://us-assets.i.posthog.com https://*.posthog.com https://dev.visualwebsiteoptimizer.com https://*.vwo.com https://*.wingify.com",
+      "connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://ad.doubleclick.net https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://ade.googlesyndication.com https://adservice.google.com https://www.google.com https://bat.bing.com https://www.facebook.com https://demographics.medicarecompared.com https://demographicsqa.medicarecompared.com https://solutions.invocacdn.com https://*.invoca.net https://app.posthog.com https://us.i.posthog.com https://us-assets.i.posthog.com https://*.posthog.com https://dev.visualwebsiteoptimizer.com https://*.visualwebsiteoptimizer.com https://*.vwo.com https://*.wingify.com",
       "media-src 'self' https:",
       "object-src 'none'",
       "base-uri 'self'",
