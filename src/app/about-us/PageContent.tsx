@@ -293,7 +293,7 @@ export default function About() {  return (
               {/* Photo column */}
               <div className="flex justify-center lg:justify-end order-first lg:order-last">
                 <img
-                  src="https://eliteinsurancepartners.com/wp-content/uploads/2023/02/Jagger-Esch-12-2023-1200-800.jpg"
+                  src="/images/Jagger-Esch-12-2023-1200-800.jpg"
                   alt="Jagger Esch — President & CEO of MedicareFAQ"
                   className="w-full max-w-md rounded-2xl shadow-xl object-cover"
                 />
