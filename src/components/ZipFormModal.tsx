@@ -141,7 +141,7 @@ export default function ZipFormModal({
     setCityState("");
     setError("");
     try {
-      const res = await fetch(`/api/validate-zip?zip=${value}`);
+      const res = await fetch(`/api/validate-zip/?zip=${value}`);
       const data = await res.json();
       if (data.valid) {
         setCityState(data.city && data.state ? `${data.city}, ${data.state}` : "");
