@@ -28,7 +28,7 @@ export default function Page() {
       url: "https://www.medicarefaq.com",
       telephone: "+18883358996",
       email: "info@medicarefaq.com",
-      logo: { "@type": "ImageObject", url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png" },
+      logo: { "@type": "ImageObject", url: "https://www.medicarefaq.com/images/medicarefaq-logo.png" },
     },
   };
 

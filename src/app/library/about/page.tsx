@@ -26,7 +26,7 @@ export default function Page() {
       "@type": "Organization",
       "name": "MedicareFAQ",
       "url": "https://www.medicarefaq.com",
-      "logo": { "@type": "ImageObject", "url": "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png" },
+      "logo": { "@type": "ImageObject", "url": "https://www.medicarefaq.com/images/medicarefaq-logo.png" },
       "description": "MedicareFAQ is dedicated to helping Medicare beneficiaries understand all their Medicare options. Our services are 100% free."
     },
     "breadcrumb": {

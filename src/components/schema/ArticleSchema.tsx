@@ -59,7 +59,7 @@ export default function ArticleSchema({
       url: "https://www.medicarefaq.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png",
+        url: "https://www.medicarefaq.com/images/medicarefaq-logo.png",
       },
     },
     ...(imageUrl

@@ -99,7 +99,7 @@ function buildCoverageArticleSchema(article: (typeof coverageArticles)[0], slug:
         url: BASE_URL,
         logo: {
           "@type": "ImageObject",
-          url: `${BASE_URL}/wp-content/uploads/medicarefaq-logo.png`,
+          url: `${BASE_URL}/images/medicarefaq-logo.png`,
         },
       },
       ...(article.seo?.ogImage
@@ -168,7 +168,7 @@ function buildSimpleFAQSchema(article: (typeof simpleFAQArticles)[0], slug: stri
         url: BASE_URL,
         logo: {
           "@type": "ImageObject",
-          url: `${BASE_URL}/wp-content/uploads/medicarefaq-logo.png`,
+          url: `${BASE_URL}/images/medicarefaq-logo.png`,
         },
       },
       ...(article.seo?.ogImage

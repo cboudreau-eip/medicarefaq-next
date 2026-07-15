@@ -33,7 +33,7 @@ export default function HomePage() {
     "@type": "Organization",
     name: "MedicareFAQ",
     url: "https://www.medicarefaq.com",
-    logo: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png",
+    logo: "https://www.medicarefaq.com/images/medicarefaq-logo.png",
     description: "MedicareFAQ specializes in supplemental Medicare insurance. We make Medicare plans easy to understand, as well as easy to enroll.",
     foundingDate: "2014",
     sameAs: [

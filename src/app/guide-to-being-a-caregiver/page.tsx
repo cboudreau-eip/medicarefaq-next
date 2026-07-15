@@ -24,7 +24,7 @@ export default function Page() {
       "@type": "Organization",
       "name": "MedicareFAQ",
       "url": "https://www.medicarefaq.com",
-      "logo": { "@type": "ImageObject", "url": "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png" }
+      "logo": { "@type": "ImageObject", "url": "https://www.medicarefaq.com/images/medicarefaq-logo.png" }
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",

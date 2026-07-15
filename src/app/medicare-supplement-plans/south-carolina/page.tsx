@@ -19,7 +19,7 @@ export default function SouthCarolinaPage() {
     publisher: {
       "@type": "Organization",
       name: "MedicareFAQ",
-      logo: { "@type": "ImageObject", url: "https://www.medicarefaq.com/wp-content/uploads/medicarefaq-logo.png" },
+      logo: { "@type": "ImageObject", url: "https://www.medicarefaq.com/images/medicarefaq-logo.png" },
     },
   };
 

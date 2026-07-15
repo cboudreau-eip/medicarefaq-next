@@ -81,7 +81,7 @@ function buildBlogSchema(article: (typeof blogArticles)[0], slug: string) {
         url: BASE_URL,
         logo: {
           "@type": "ImageObject",
-          url: `${BASE_URL}/wp-content/uploads/medicarefaq-logo.png`,
+          url: `${BASE_URL}/images/medicarefaq-logo.png`,
         },
       },
       ...(article.seo?.ogImage || article.image
