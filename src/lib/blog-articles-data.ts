@@ -8848,6 +8848,9 @@ export const blogArticles: BlogArticleData[] = [
     featured: false,
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "2027 Medicare Physician Fee Schedule conversion factor analysis",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19498408-2027-medicare-physician-fee-schedule-proposed-cuts.mp3?download=true",
+    podcastDate: "July 15, 2026",
+    podcastDuration: "5:00",
     keyTakeaways: [
       "The proposed 2027 conversion factor drops to $32.84 for standard physicians, representing a 2.2% year-over-year reduction driven largely by the expiration of a temporary pay increase.",
       "Specialty groups including interventional radiology and radiation oncology face unique financial pressures despite projected positive percentage adjustments in their payment rates.",
