@@ -304,7 +304,7 @@ export const tampaAgentsArticle: BlogArticleData = {
     {
       type: "paragraph",
       content:
-        "Every Medicare agent must hold a valid Florida insurance license (2-15 or 2-40 designation) and complete annual certifications for each carrier they represent. You can verify an agent's license status through the <a href=\"https://licenseesearch.fldfs.com/\" target=\"_blank\" rel=\"noopener\">Florida Department of Financial Services license search</a>.",
+        "Every Medicare agent must hold a valid Florida insurance license (2-15 or 2-40 designation) and complete annual certifications for each carrier they represent. You can verify an agent's license status through the [Florida Department of Financial Services license search](https://licenseesearch.fldfs.com/).",
     },
     {
       type: "heading",
@@ -426,7 +426,7 @@ export const tampaAgentsArticle: BlogArticleData = {
       ordered: true,
       items: [
         "Gather your Medicare card, medication list, and preferred doctor names",
-        "Use <a href=\"https://www.medicare.gov/plan-compare/\" target=\"_blank\" rel=\"noopener\">Medicare Plan Finder</a> to see what is available in your ZIP code",
+        "Use [Medicare Plan Finder](https://www.medicare.gov/plan-compare/) to see what is available in your ZIP code",
         "Contact a licensed independent broker to compare your options at no cost",
         "Review your choice before the Annual Enrollment Period closes on December 7",
       ],
@@ -439,7 +439,7 @@ export const tampaAgentsArticle: BlogArticleData = {
     {
       type: "paragraph",
       content:
-        "For more information on choosing between plan types, see our guides on <a href=\"/faqs/what-is-medicare-advantage/\">What Is Medicare Advantage</a>, <a href=\"/faqs/medicare-hmo-vs-ppo/\">Medicare HMO vs. PPO</a>, <a href=\"/faqs/medicare-advantage-vs-medicare-supplement/\">Medicare Advantage vs. Medicare Supplement</a>, <a href=\"/faqs/medicare-annual-enrollment-period/\">Annual Enrollment Period</a>, and <a href=\"/faqs/medicare-part-d-prescription-drug-coverage/\">Medicare Part D Coverage</a>.",
+        "For more information on choosing between plan types, see our guides on [What Is Medicare Advantage](/faqs/what-is-medicare-advantage/), [Medicare HMO vs. PPO](/faqs/medicare-hmo-vs-ppo/), [Medicare Advantage vs. Medicare Supplement](/faqs/medicare-advantage-vs-medicare-supplement/), [Annual Enrollment Period](/faqs/medicare-annual-enrollment-period/), and [Medicare Part D Coverage](/faqs/medicare-part-d-prescription-drug-coverage/).",
     },
   ],
   faqs: [
