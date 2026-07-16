@@ -12,7 +12,7 @@ export const tampaAgentsArticle: BlogArticleData = {
     title: "Find a Medicare Agent in Tampa, FL (2026 Guide)",
     description: "Compare Medicare agents in Tampa. 58 Advantage plans, $0 premiums, and local brokers who know Hillsborough County networks.",
     canonical: "https://www.medicarefaq.com/blog/medicare-agents-tampa-fl/",
-    ogImage: "/images/medicarefaq-cover.jpg",
+    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/tampa-medicare-agents-hero-3ooa7FL622mf2UTxRnWXjf.png",
   },
   title: "Find a Medicare Agent in Tampa: Your 2026 Local Guide",
   excerpt:
@@ -24,7 +24,7 @@ export const tampaAgentsArticle: BlogArticleData = {
   reviewer: "Ashlee Zareczny",
   readTime: "11 min read",
   featured: false,
-  image: "/images/medicarefaq-cover.jpg",
+  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/tampa-medicare-agents-hero-NrvySKvkoabTTjUTcMp3zf.webp",
   imageAlt: "Find a Medicare Agent in Tampa FL 2026 Guide",
   keyTakeaways: [
     "Tampa (Hillsborough County) has 58 Medicare Advantage plans available in 2026, with 52 offering $0 monthly premiums and 74% rated 4 stars or higher by CMS",
