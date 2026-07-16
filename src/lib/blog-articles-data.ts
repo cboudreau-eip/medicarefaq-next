@@ -5154,7 +5154,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "14 min read",
     featured: false,
-    image: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    image: "",
     keyTakeaways: [
       "Medicare late enrollment penalties are permanent and increase your premiums for life",
       "Part B penalty: 10% per full 12-month period you were eligible but did not enroll (added to the $202.90/month 2026 premium)",
