@@ -5139,7 +5139,7 @@ export const blogArticles: BlogArticleData[] = [
     slug: "medicare-penalty-avoidance-strategies",
     seo: {
       title: "7 Strategies to Avoid Medicare Late Enrollment Penalties (2026 Guide)",
-      description: "Medicare late enrollment penalties are permanent. Learn 7 proven strategies to avoid Part B and Part D penalties, including IEP timing, employer coverage rules, and Special Enrollment Periods.",
+      description: "Medicare late enrollment penalties last a lifetime. Discover 7 proven strategies to avoid Part B and Part D penalties, from IEP timing to SEP rules.",
       canonical: "https://www.medicarefaq.com/blog/medicare-penalty-avoidance-strategies/",
       ogImage: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
       focusKeyword: "medicare late enrollment penalties",
@@ -5238,6 +5238,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "What is a Medicare Special Enrollment Period and who qualifies?", answer: "A SEP is a defined window outside your IEP when you can enroll without penalty due to a qualifying life event. Common triggers include losing employer-sponsored coverage, moving to a new service area, or losing Medicaid eligibility. Each SEP has a strict deadline, so prompt action after a qualifying event is essential to avoid permanent surcharges." }
     ],
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-part-d-late-enrollment-penalty", "medicare-part-b-late-enrollment-penalty", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "when-should-you-enroll-in-medicare-if-still-working", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "what-is-medicare-creditable-coverage"],
+    youtubeVideoId: "ULz_FAlPYCQ",
   },
 {
     slug: "coverage-gap-discount-program",
