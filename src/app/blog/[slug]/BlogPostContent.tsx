@@ -527,31 +527,47 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 />
               )}
 
-              {/* Key takeaways */}
-              {article.keyTakeaways && article.keyTakeaways.length > 0 && (
-                <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 mb-8 shadow-sm">
-                  <h2 className="text-lg font-bold text-[#1B2A4A] mb-4 flex items-center gap-2">
-                    <BookOpen className="w-5 h-5 text-[#C41230]" />
-                    Key Takeaways
-                  </h2>
-                  <ul className="space-y-2">
-                    {article.keyTakeaways.map((item, i) => (
-                      <li key={i} className="flex items-start gap-2 text-[#374151] text-[15px]">
-                        <CheckCircle className="w-4 h-4 text-[#059669] shrink-0 mt-0.5" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {/* Article sections */}
+              {/* Article sections with key takeaways after intro */}
               <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 mb-8">
                 {(() => {
                   const elements: React.ReactNode[] = [];
                   let i = 0;
+                  // Find the index of the second h2 heading (end of intro section)
+                  let secondH2Index = -1;
+                  let h2Count = 0;
+                  for (let j = 0; j < article.sections.length; j++) {
+                    if (article.sections[j].type === "heading" && (article.sections[j] as any).level === 2) {
+                      h2Count++;
+                      if (h2Count === 2) {
+                        secondH2Index = j;
+                        break;
+                      }
+                    }
+                  }
+                  // Track whether we've inserted key takeaways
+                  let keyTakeawaysInserted = false;
                   while (i < article.sections.length) {
                     const section = article.sections[i];
+                    // Insert key takeaways before the second h2 (after intro paragraphs)
+                    if (!keyTakeawaysInserted && i === secondH2Index && article.keyTakeaways && article.keyTakeaways.length > 0) {
+                      elements.push(
+                        <div key="key-takeaways" className="bg-[#F9FAFB] border border-[#E5E7EB] rounded-xl p-6 my-8">
+                          <h2 className="text-lg font-bold text-[#1B2A4A] mb-4 flex items-center gap-2">
+                            <BookOpen className="w-5 h-5 text-[#C41230]" />
+                            Key Takeaways
+                          </h2>
+                          <ul className="space-y-2">
+                            {article.keyTakeaways.map((item, idx) => (
+                              <li key={idx} className="flex items-start gap-2 text-[#374151] text-[15px]">
+                                <CheckCircle className="w-4 h-4 text-[#059669] shrink-0 mt-0.5" />
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                      keyTakeawaysInserted = true;
+                    }
                     // Detect h3 heading followed by numbered paragraphs → wrap in soft-gray box
                     if (
                       section.type === "heading" &&
