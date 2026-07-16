@@ -43,7 +43,7 @@ export const tampaAgentsArticle: BlogArticleData = {
     { id: "top-carriers-tampa", title: "Major Carriers Serving Tampa in 2026" },
     { id: "tampa-zip-codes", title: "Tampa Area ZIP Codes and Plan Availability" },
     { id: "how-to-choose-agent", title: "How to Choose the Right Agent" },
-    { id: "tampa-medicare-agents-list", title: "Medicare Agents and Brokers Serving Tampa" },
+    { id: "tampa-medicare-agents-list", title: "Talk to a Licensed Medicare Broker in Tampa" },
     { id: "faq-tampa-medicare-agents", title: "Frequently Asked Questions" },
     { id: "next-steps", title: "Your Next Steps" },
   ],
@@ -342,34 +342,20 @@ export const tampaAgentsArticle: BlogArticleData = {
     {
       type: "heading",
       level: 2,
-      text: "Medicare Agents and Brokers Serving Tampa",
+      text: "Talk to a Licensed Medicare Broker in Tampa",
       id: "tampa-medicare-agents-list",
     },
     {
       type: "paragraph",
       content:
-        "The following agencies and independent brokers serve the Tampa and Hillsborough County area. This is not an exhaustive list, but it includes well-established professionals with verifiable track records.",
-    },
-    {
-      type: "table",
-      title: "Tampa Medicare Agents and Brokers",
-      headers: ["Agency / Agent", "Type", "Phone", "Specialty"],
-      rows: [
-        ["Medicare Insurance Agency of Florida (Joe Faulk)", "Independent Broker", "(813) 928-5454", "Medicare Advantage, Supplements, Part D"],
-        ["Timothy Gibson (HealthPlan4U)", "Independent Broker", "(813) 501-5011", "16 years Medicare experience, full market comparison"],
-        ["Dave Silver Insurance", "Independent Broker", "Tampa & Sarasota offices", "Medicare Supplement specialist"],
-        ["MRS Insurance", "Independent Broker", "(813) 553-3822", "Medicare Advantage and Supplement plans"],
-        ["Moore Medicare Options", "Independent Broker", "Tampa Bay area", "5/5 Yelp rating, personalized consultations"],
-        ["MedicareFAQ", "Independent Broker", "(888) 228-4580", "Licensed in FL, full carrier comparison, free consultations"],
-      ],
-      footnote: "Listing does not imply endorsement. Verify credentials independently through the Florida Department of Financial Services.",
+        "MedicareFAQ is an independent Medicare brokerage licensed in all 50 states, including Florida. Our agents are contracted with every major carrier in Hillsborough County and can compare all 58 Medicare Advantage plans, Medigap policies, and Part D options at no cost to you. Call us at (888) 228-4580 for a free consultation.",
     },
     {
       type: "callout",
       calloutType: "info",
-      calloutTitle: "Important Disclosure",
+      calloutTitle: "CMS Required Disclosure",
       calloutText:
-        "No single agent or broker is contracted with every plan available in your area. CMS requires this disclosure: the plans represented may not include all plans available in your service area. Always ask which carriers an agent represents before your consultation.",
+        "We do not offer every plan available in your area. Any information we provide is limited to those plans we do offer in your area. Please contact Medicare.gov or 1-800-MEDICARE to get information on all of your options.",
     },
     {
       type: "heading",
