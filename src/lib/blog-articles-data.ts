@@ -6,7 +6,9 @@
 
 import type { BlogArticleData } from "./article-types";
 import { tampaAgentsArticle } from "./blog-article-tampa-agents";
+import { miamiAgentsArticle } from "./blog-article-miami-agents";
 export const blogArticles: BlogArticleData[] = [
+  miamiAgentsArticle,
   tampaAgentsArticle,
   {
     slug: "medicares-skilled-nursing-care",
