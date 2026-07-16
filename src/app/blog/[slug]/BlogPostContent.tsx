@@ -395,7 +395,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 <Clock className="w-4 h-4" />
                 {article.readTime}
               </span>
-              <span>{article.date}</span>
+              <span>{article.dateUpdated ? `Updated: ${article.dateUpdated}` : article.date}</span>
             </div>
           </motion.div>
         </div>
