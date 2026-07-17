@@ -479,8 +479,8 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
           <div className="flex gap-8 items-start">
             {/* Main content */}
             <article className="flex-1 min-w-0">
-              {/* Hero image */}
-              {article.image && (
+              {/* Hero image (hidden when YouTube video is present) */}
+              {article.image && !article.youtubeVideoId && (
                 <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
                   <img
                     src={article.image}
