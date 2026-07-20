@@ -39,10 +39,10 @@ export async function POST(request: NextRequest) {
 }
 
 async function sendLeadNotification(data: LeadData) {
-  const resendApiKey = process.env.RESEND_API_KEY;
+  const resendApiKey = process.env.RESEND_LEAD_GEN_API_KEY;
 
   if (!resendApiKey) {
-    console.warn("[Lead Gen] RESEND_API_KEY not set — skipping email notification");
+    console.warn("[Lead Gen] RESEND_LEAD_GEN_API_KEY not set — skipping email notification");
     return;
   }
 
