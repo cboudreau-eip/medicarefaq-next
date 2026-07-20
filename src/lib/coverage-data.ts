@@ -2114,6 +2114,12 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
     },
   ],
+  comparisonTable: [
+    { planType: "Original Medicare (Part A & B)", coverage: "Not Covered", icon: "shield", notes: "Hearing aids explicitly excluded. Part B covers diagnostic exams and cochlear implants only." },
+    { planType: "Medicare Advantage (Part C)", coverage: "Varies by Plan", icon: "heart", notes: "73% of MA plans offer hearing benefits in 2026. Allowances range from $250 to $2,500/year." },
+    { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "users", notes: "Only supplements Original Medicare benefits. Cannot add hearing aid coverage." },
+    { planType: "OTC Hearing Aids (No Rx)", coverage: "Available to All", icon: "ear", notes: "FDA-approved since Oct 2022 for mild-to-moderate loss. $100-$2,000/pair at retail." },
+  ],
   costTable: {
     title: "Hearing Aid Cost Comparison (2026)",
     headers: ["Option", "Cost Range (Per Pair)", "Includes"],
