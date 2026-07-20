@@ -145,7 +145,7 @@ export default function LeadGenForm() {
   // ─── Thank You Page ──────────────────────────────────────────────────────
   if (submitted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-teal-50/30 flex flex-col">
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-[#1B2A4A]/5 flex flex-col">
         <Header />
         <div className="flex-1 flex items-center justify-center px-4 py-12">
           <motion.div
@@ -153,8 +153,8 @@ export default function LeadGenForm() {
             animate={{ opacity: 1, scale: 1 }}
             className="bg-white rounded-2xl shadow-xl p-8 md:p-12 max-w-lg w-full text-center"
           >
-            <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <CheckCircle2 className="w-8 h-8 text-teal-600" />
+            <div className="w-16 h-16 bg-[#0D9488]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <CheckCircle2 className="w-8 h-8 text-[#0D9488]" />
             </div>
             <h1 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
               Thank You!
@@ -174,7 +174,7 @@ export default function LeadGenForm() {
               <a
                 href="tel:+18883358996"
                 data-invoca-phone-number="18883358996"
-                className="invoca-phone inline-flex items-center gap-2 text-xl font-bold text-[#1B2A4A] hover:text-teal-700 transition-colors"
+                className="invoca-phone inline-flex items-center gap-2 text-xl font-bold text-[#1B2A4A] hover:text-[#0D9488] transition-colors"
               >
                 <Phone className="w-5 h-5" />
                 {PHONE_NUMBER}
@@ -183,7 +183,7 @@ export default function LeadGenForm() {
             </div>
             <Link
               href="/"
-              className="text-teal-600 hover:text-teal-700 font-medium text-sm"
+              className="text-[#0D9488] hover:text-[#0B7C72] font-medium text-sm"
             >
               ← Return to MedicareFAQ
             </Link>
@@ -196,7 +196,7 @@ export default function LeadGenForm() {
 
   // ─── Form Steps ──────────────────────────────────────────────────────────
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-teal-50/30 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-[#1B2A4A]/5 flex flex-col">
       <Header />
 
       {/* Progress Bar */}
@@ -208,7 +208,7 @@ export default function LeadGenForm() {
         </div>
         <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
           <motion.div
-            className="h-full bg-teal-500 rounded-full"
+            className="h-full bg-[#0D9488] rounded-full"
             initial={false}
             animate={{ width: `${(step / totalSteps) * 100}%` }}
             transition={{ duration: 0.3, ease: "easeOut" }}
@@ -229,7 +229,7 @@ export default function LeadGenForm() {
             >
               {step === 1 && (
                 <StepCard
-                  icon={<MapPin className="w-6 h-6 text-teal-600" />}
+                  icon={<MapPin className="w-6 h-6 text-[#0D9488]" />}
                   title="What's your ZIP code?"
                   subtitle="We'll find Medicare plans available in your area."
                 >
@@ -239,8 +239,8 @@ export default function LeadGenForm() {
                         zipStatus === "invalid"
                           ? "border-red-300"
                           : zipStatus === "valid"
-                          ? "border-teal-300"
-                          : "border-slate-200 focus-within:border-teal-400"
+                          ? "border-[#0D9488]"
+                          : "border-slate-200 focus-within:border-[#0D9488]"
                       }`}
                     >
                       <input
@@ -259,11 +259,11 @@ export default function LeadGenForm() {
                         <Loader2 className="w-5 h-5 text-slate-400 animate-spin mr-4" />
                       )}
                       {zipStatus === "valid" && (
-                        <CheckCircle2 className="w-5 h-5 text-teal-500 mr-4" />
+                        <CheckCircle2 className="w-5 h-5 text-[#0D9488] mr-4" />
                       )}
                     </div>
                     {zipStatus === "valid" && formData.city && (
-                      <p className="text-sm text-teal-600 font-medium flex items-center gap-1.5">
+                      <p className="text-sm text-[#0D9488] font-medium flex items-center gap-1.5">
                         <MapPin className="w-3.5 h-3.5" />
                         {formData.city}, {formData.state}
                       </p>
@@ -276,8 +276,7 @@ export default function LeadGenForm() {
                     <button
                       onClick={goNext}
                       disabled={zipStatus !== "valid"}
-                      className="w-full flex items-center justify-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-40 disabled:cursor-not-allowed text-white font-semibold px-6 py-4 rounded-xl transition-colors text-base"
-                    >
+                      className="w-full flex items-center justify-center gap-2 bg-[#1B2A4A] hover:bg-[#0F1C35] disabled:opacity-40 disabled:cursor-not-allowed text-white font-semibold px-6 py-4 rounded-xl transition-colors text-base">
                       Continue
                       <ArrowRight className="w-4 h-4" />
                     </button>
@@ -287,7 +286,7 @@ export default function LeadGenForm() {
 
               {step === 2 && (
                 <StepCard
-                  icon={<Shield className="w-6 h-6 text-teal-600" />}
+                  icon={<Shield className="w-6 h-6 text-[#0D9488]" />}
                   title="Do you currently have Medicare?"
                   subtitle="This helps us understand where you are in your Medicare journey."
                 >
@@ -323,7 +322,7 @@ export default function LeadGenForm() {
 
               {step === 3 && (
                 <StepCard
-                  icon={<Stethoscope className="w-6 h-6 text-teal-600" />}
+                  icon={<Stethoscope className="w-6 h-6 text-[#0D9488]" />}
                   title="What type of coverage interests you?"
                   subtitle="Select the option that best fits your needs."
                 >
@@ -371,7 +370,7 @@ export default function LeadGenForm() {
 
               {step === 4 && (
                 <StepCard
-                  icon={<Smile className="w-6 h-6 text-teal-600" />}
+                  icon={<Smile className="w-6 h-6 text-[#0D9488]" />}
                   title="How important is dental coverage?"
                   subtitle="Some plans include dental, vision, and hearing benefits."
                 >
@@ -407,7 +406,7 @@ export default function LeadGenForm() {
 
               {step === 5 && (
                 <StepCard
-                  icon={<Pill className="w-6 h-6 text-teal-600" />}
+                  icon={<Pill className="w-6 h-6 text-[#0D9488]" />}
                   title="How important is prescription drug coverage?"
                   subtitle="This helps us find plans that cover your medications."
                 >
@@ -443,7 +442,7 @@ export default function LeadGenForm() {
 
               {step === 6 && (
                 <StepCard
-                  icon={<User className="w-6 h-6 text-teal-600" />}
+                  icon={<User className="w-6 h-6 text-[#0D9488]" />}
                   title="What's your name?"
                   subtitle="This helps us personalize your Medicare experience."
                 >
@@ -456,13 +455,13 @@ export default function LeadGenForm() {
                         setFormData((prev) => ({ ...prev, name: e.target.value }))
                       }
                       placeholder="Enter your name"
-                      className="w-full border-2 border-slate-200 focus:border-teal-400 rounded-xl px-5 py-4 text-lg font-medium text-slate-900 placeholder:text-slate-400 outline-none transition-colors"
+                      className="w-full border-2 border-slate-200 focus:border-[#0D9488] rounded-xl px-5 py-4 text-lg font-medium text-slate-900 placeholder:text-slate-400 outline-none transition-colors"
                       autoComplete="name"
                     />
                     <button
                       onClick={goNext}
                       disabled={!formData.name.trim()}
-                      className="w-full flex items-center justify-center gap-2 bg-[#0D9488] hover:bg-[#0B7C72] disabled:opacity-40 disabled:cursor-not-allowed text-white font-semibold px-6 py-4 rounded-xl transition-colors text-base"
+                      className="w-full flex items-center justify-center gap-2 bg-[#1B2A4A] hover:bg-[#0F1C35] disabled:opacity-40 disabled:cursor-not-allowed text-white font-semibold px-6 py-4 rounded-xl transition-colors text-base"
                     >
                       Continue
                       <ArrowRight className="w-4 h-4" />
@@ -474,7 +473,7 @@ export default function LeadGenForm() {
 
               {step === 7 && (
                 <StepCard
-                  icon={<Phone className="w-6 h-6 text-teal-600" />}
+                  icon={<Phone className="w-6 h-6 text-[#0D9488]" />}
                   title="What's the best number to reach you?"
                   subtitle="A licensed agent will call to review your plan options. No spam, no obligation."
                 >
@@ -489,11 +488,11 @@ export default function LeadGenForm() {
                         setError("");
                       }}
                       placeholder="(555) 123-4567"
-                      className="w-full border-2 border-slate-200 focus:border-teal-400 rounded-xl px-5 py-4 text-lg font-medium text-slate-900 placeholder:text-slate-400 outline-none transition-colors"
+                      className="w-full border-2 border-slate-200 focus:border-[#0D9488] rounded-xl px-5 py-4 text-lg font-medium text-slate-900 placeholder:text-slate-400 outline-none transition-colors"
                       autoComplete="tel"
                     />
                     <div className="flex items-center gap-2 text-sm text-slate-500">
-                      <Lock className="w-3.5 h-3.5 text-teal-600" />
+                      <Lock className="w-3.5 h-3.5 text-[#0D9488]" />
                       <span>We never share or sell your information.</span>
                     </div>
                     {error && (
@@ -543,9 +542,8 @@ function Header() {
       <a
         href="tel:+18883358996"
         data-invoca-phone-number="18883358996"
-        className="invoca-phone inline-flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-teal-700 transition-colors"
-      >
-        <Phone className="w-4 h-4 text-teal-600" />
+        className="invoca-phone inline-flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-[#1B2A4A] transition-colors">
+        <Phone className="w-4 h-4 text-[#0D9488]" />
         <span className="hidden sm:inline">{PHONE_NUMBER}</span>
         <span className="sm:hidden">Call Us</span>
       </a>
@@ -562,7 +560,7 @@ function TrustFooter() {
       </span>
       <span className="w-1 h-1 rounded-full bg-slate-300" />
       <span className="flex items-center gap-1.5">
-        <Shield className="w-3 h-3 text-teal-600" />
+        <Shield className="w-3 h-3 text-[#0D9488]" />
         Licensed in All 50 States
       </span>
       <span className="w-1 h-1 rounded-full bg-slate-300 hidden sm:block" />
@@ -613,8 +611,8 @@ function OptionButton({
       onClick={onClick}
       className={`w-full text-left px-5 py-4 rounded-xl border-2 transition-all duration-150 ${
         selected
-          ? "border-teal-500 bg-teal-50 shadow-sm"
-          : "border-slate-200 hover:border-teal-300 hover:bg-teal-50/50"
+          ? "border-[#0D9488] bg-[#0D9488]/5 shadow-sm"
+          : "border-slate-200 hover:border-[#0D9488]/50 hover:bg-[#0D9488]/5"
       }`}
     >
       <span className="font-semibold text-slate-900 text-base">{label}</span>
