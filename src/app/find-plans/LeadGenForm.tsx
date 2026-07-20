@@ -132,7 +132,7 @@ export default function LeadGenForm() {
           source: "find-plans",
         }}
       });
-      const backendRes = await fetch("https://rebuild.medicarecompared.com/api/trpc/leads.submit?batch=1", {
+      const backendRes = await fetch("https://medicarefaq-gundzjha.manus.space/api/trpc/leads.submit?batch=1", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: backendPayload,
