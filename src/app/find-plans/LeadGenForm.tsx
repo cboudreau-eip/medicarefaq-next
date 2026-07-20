@@ -119,8 +119,8 @@ export default function LeadGenForm() {
     setError("");
     try {
       // Submit to medicarefaq-home backend (primary — stores in database)
-      const backendPayload = JSON.stringify([
-        { "0": { json: {
+      const backendPayload = JSON.stringify({
+        "0": { json: {
           name: formData.name || undefined,
           phone: formData.phone.replace(/\D/g, ""),
           zip: formData.zip,
@@ -130,8 +130,8 @@ export default function LeadGenForm() {
           dentalImportance: formData.dentalImportance || undefined,
           drugImportance: formData.drugImportance || undefined,
           source: "find-plans",
-        }}}
-      ]);
+        }}
+      });
       const backendRes = await fetch("https://rebuild.medicarecompared.com/api/trpc/leads.submit?batch=1", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
