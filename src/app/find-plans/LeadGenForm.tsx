@@ -11,7 +11,6 @@ import {
   Phone,
   Shield,
   Star,
-  Stethoscope,
   Pill,
   Smile,
   User,
@@ -31,15 +30,13 @@ interface FormData {
   city: string;
   state: string;
   hasMedicare: string;
-  coverageType: string;
   dentalImportance: string;
   drugImportance: string;
-  doctorImportance: string;
   name: string;
   phone: string;
 }
 
-type Step = 1 | 2 | 3 | 4 | 5 | 6 | 7;
+type Step = 1 | 2 | 3 | 4 | 5 | 6;
 
 // ─── Component ───────────────────────────────────────────────────────────────
 export default function LeadGenForm() {
@@ -49,10 +46,8 @@ export default function LeadGenForm() {
     city: "",
     state: "",
     hasMedicare: "",
-    coverageType: "",
     dentalImportance: "",
     drugImportance: "",
-    doctorImportance: "",
     name: "",
     phone: "",
   });
@@ -63,7 +58,7 @@ export default function LeadGenForm() {
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const totalSteps = 7;
+  const totalSteps = 6;
 
   // Focus input when step changes
   useEffect(() => {
@@ -322,54 +317,6 @@ export default function LeadGenForm() {
 
               {step === 3 && (
                 <StepCard
-                  icon={<Stethoscope className="w-6 h-6 text-[#0D9488]" />}
-                  title="What type of coverage interests you?"
-                  subtitle="Select the option that best fits your needs."
-                >
-                  <div className="space-y-3">
-                    <OptionButton
-                      label="Medicare Advantage (Part C)"
-                      sublabel="All-in-one plans with extra benefits"
-                      selected={formData.coverageType === "ma"}
-                      onClick={() => {
-                        setFormData((prev) => ({ ...prev, coverageType: "ma" }));
-                        goNext();
-                      }}
-                    />
-                    <OptionButton
-                      label="Medicare Supplement (Medigap)"
-                      sublabel="Fill the gaps in Original Medicare"
-                      selected={formData.coverageType === "ms"}
-                      onClick={() => {
-                        setFormData((prev) => ({ ...prev, coverageType: "ms" }));
-                        goNext();
-                      }}
-                    />
-                    <OptionButton
-                      label="Prescription Drug Plan (Part D)"
-                      sublabel="Standalone drug coverage"
-                      selected={formData.coverageType === "pdp"}
-                      onClick={() => {
-                        setFormData((prev) => ({ ...prev, coverageType: "pdp" }));
-                        goNext();
-                      }}
-                    />
-                    <OptionButton
-                      label="I'm not sure yet"
-                      sublabel="Help me figure it out"
-                      selected={formData.coverageType === "unsure"}
-                      onClick={() => {
-                        setFormData((prev) => ({ ...prev, coverageType: "unsure" }));
-                        goNext();
-                      }}
-                    />
-                  </div>
-                  <NavRow onBack={goBack} />
-                </StepCard>
-              )}
-
-              {step === 4 && (
-                <StepCard
                   icon={<Smile className="w-6 h-6 text-[#0D9488]" />}
                   title="How important is dental coverage?"
                   subtitle="Some plans include dental, vision, and hearing benefits."
@@ -404,7 +351,7 @@ export default function LeadGenForm() {
                 </StepCard>
               )}
 
-              {step === 5 && (
+              {step === 4 && (
                 <StepCard
                   icon={<Pill className="w-6 h-6 text-[#0D9488]" />}
                   title="How important is prescription drug coverage?"
@@ -440,7 +387,7 @@ export default function LeadGenForm() {
                 </StepCard>
               )}
 
-              {step === 6 && (
+              {step === 5 && (
                 <StepCard
                   icon={<User className="w-6 h-6 text-[#0D9488]" />}
                   title="What's your name?"
@@ -471,7 +418,7 @@ export default function LeadGenForm() {
                 </StepCard>
               )}
 
-              {step === 7 && (
+              {step === 6 && (
                 <StepCard
                   icon={<Phone className="w-6 h-6 text-[#0D9488]" />}
                   title="What's the best number to reach you?"

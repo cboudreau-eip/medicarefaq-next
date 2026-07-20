@@ -7,10 +7,8 @@ interface LeadData {
   city: string;
   state: string;
   hasMedicare: string;
-  coverageType: string;
   dentalImportance: string;
   drugImportance: string;
-  doctorImportance: string;
   name: string;
   phone: string;
 }
@@ -48,13 +46,6 @@ async function sendLeadNotification(data: LeadData) {
     return;
   }
 
-  const coverageLabels: Record<string, string> = {
-    ma: "Medicare Advantage (Part C)",
-    ms: "Medicare Supplement (Medigap)",
-    pdp: "Prescription Drug Plan (Part D)",
-    unsure: "Not sure yet",
-  };
-
   const importanceLabels: Record<string, string> = {
     very: "Very Important",
     somewhat: "Somewhat Important",
@@ -69,7 +60,6 @@ async function sendLeadNotification(data: LeadData) {
     "": "Skipped",
   };
 
-  const coverageLabel = coverageLabels[data.coverageType] || data.coverageType || "Not specified";
   const medicareLabel = medicareLabels[data.hasMedicare] || data.hasMedicare || "Not specified";
   const dentalLabel = importanceLabels[data.dentalImportance] || "Not specified";
   const drugLabel = importanceLabels[data.drugImportance] || "Not specified";
@@ -77,9 +67,9 @@ async function sendLeadNotification(data: LeadData) {
 
   const htmlBody = `
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto;">
-      <div style="background: #0D9488; padding: 20px 24px; border-radius: 8px 8px 0 0;">
+      <div style="background: #1B2A4A; padding: 20px 24px; border-radius: 8px 8px 0 0;">
         <h2 style="color: #ffffff; margin: 0; font-size: 18px;">🎯 New Lead from MedicareFAQ</h2>
-        <p style="color: #ccfbf1; margin: 4px 0 0; font-size: 13px;">Find Plans Form Submission</p>
+        <p style="color: #94a3b8; margin: 4px 0 0; font-size: 13px;">Find Plans Form Submission</p>
       </div>
       <div style="border: 1px solid #e2e8f0; border-top: none; padding: 24px; border-radius: 0 0 8px 8px;">
         <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
@@ -102,14 +92,10 @@ async function sendLeadNotification(data: LeadData) {
             <td style="padding: 10px 12px; color: #1e293b; border-bottom: 1px solid #f1f5f9;">${medicareLabel}</td>
           </tr>
           <tr>
-            <td style="padding: 10px 12px; font-weight: 600; color: #475569; vertical-align: top; border-bottom: 1px solid #f1f5f9;">Coverage Interest</td>
-            <td style="padding: 10px 12px; color: #1e293b; border-bottom: 1px solid #f1f5f9;">${coverageLabel}</td>
-          </tr>
-          <tr style="background: #f8fafc;">
             <td style="padding: 10px 12px; font-weight: 600; color: #475569; vertical-align: top; border-bottom: 1px solid #f1f5f9;">Dental Importance</td>
             <td style="padding: 10px 12px; color: #1e293b; border-bottom: 1px solid #f1f5f9;">${dentalLabel}</td>
           </tr>
-          <tr>
+          <tr style="background: #f8fafc;">
             <td style="padding: 10px 12px; font-weight: 600; color: #475569; vertical-align: top;">Drug Coverage Importance</td>
             <td style="padding: 10px 12px; color: #1e293b;">${drugLabel}</td>
           </tr>
@@ -132,7 +118,7 @@ async function sendLeadNotification(data: LeadData) {
       body: JSON.stringify({
         from: "MedicareFAQ Leads <onboarding@resend.dev>",
         to: [NOTIFICATION_EMAIL],
-        subject: `🎯 New Lead: ${data.name || "Unknown"} — ${location} — ${coverageLabel}`,
+        subject: `🎯 New Lead: ${data.name || "Unknown"} — ${location}`,
         html: htmlBody,
       }),
     });
