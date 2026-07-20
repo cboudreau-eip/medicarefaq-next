@@ -33,6 +33,7 @@ import {
 import { motion } from "framer-motion";
 import type { BlogArticleData, BlogSectionContent } from "@/lib/article-types";
 import EddieProTip from "@/components/EddieProTip";
+import InlineCardCTA from "@/components/InlineCardCTA";
 import PodcastPlayer from "@/components/PodcastPlayer";
 import { blogArticles } from "@/lib/blog-articles-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
@@ -604,6 +605,11 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   return elements;
                 })()}
               </div>
+
+              {/* Inline Card CTA */}
+              {article.showInlineCta && (
+                <InlineCardCTA pageSection={`blog_${article.slug}`} />
+              )}
 
               {/* Bottom FAQs */}
               {article.faqs && article.faqs.length > 0 && (

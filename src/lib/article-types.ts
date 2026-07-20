@@ -268,6 +268,7 @@ export interface BlogArticleData {
   sections: BlogSectionContent[];
 
   faqs?: FAQItemData[];
+  showInlineCta?: boolean;
   relatedSlugs?: string[];
 
   // Custom JSON-LD schema (additive — rendered alongside auto-generated schema)

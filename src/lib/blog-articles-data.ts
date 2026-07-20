@@ -176,6 +176,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "The best time to compare your plan options is now, while you're not in the middle of a hospital discharge or recovery. A calm review today can prevent a stressful scramble later." },
       { type: "paragraph", content: "Whenever you're ready, whether that's this week or a few months from now, help is available to walk through your specific situation at your own pace." },
     ],
+    showInlineCta: true,
     relatedSlugs: ["does-medicare-cover-assisted-living", "medicare-part-a-vs-part-b", "medicare-advantage-over-the-counter-cards", "medicare-savings-programs-guide"],
   },
 
@@ -365,6 +366,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "callout", calloutType: "info", calloutTitle: "Conclusion: Taking Control of Your Medicare Choices Every Year", calloutText: "The AEP prep checklist laid out here is not a one-time tool. Medicare plans change every year: premiums shift, formularies update, and networks evolve. Using this checklist annually gives you a structured way to stay on top of those changes before they affect your care or your wallet. The beneficiaries who get the most from their Medicare coverage are the ones who review it proactively, compare their options with real numbers, and make deliberate choices. That process starts months before October 15, and it is entirely manageable when you work through it one step at a time." }
     ],
     relatedSlugs: ["medicare-annual-enrollment-period", "medicare-annual-notice-of-change-letter", "what-is-medicare-advantage", "original-medicare-vs-medicare-advantage", "what-is-medicare-part-d", "how-is-medicare-part-d-changing-in-2026", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-advantage-open-enrollment-period", "medicare-special-enrollment-period", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
+    showInlineCta: true,
   },
 {
     slug: "medicare-at-65-month-by-month-timeline",
@@ -5318,6 +5320,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Can the Medicare late enrollment penalty be waived or appealed?", answer: "Penalties are generally permanent and rarely waived. Appeals are possible if you can show the penalty was assessed incorrectly, for example, if creditable coverage wasn't properly recognized. Qualifying for the Extra Help (Low-Income Subsidy) program is the main route to eliminating the Part D penalty entirely for those who meet income and resource thresholds." },
       { question: "What is a Medicare Special Enrollment Period and who qualifies?", answer: "A SEP is a defined window outside your IEP when you can enroll without penalty due to a qualifying life event. Common triggers include losing employer-sponsored coverage, moving to a new service area, or losing Medicaid eligibility. Each SEP has a strict deadline, so prompt action after a qualifying event is essential to avoid permanent surcharges." }
     ],
+    showInlineCta: true,
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-part-d-late-enrollment-penalty", "medicare-part-b-late-enrollment-penalty", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "when-should-you-enroll-in-medicare-if-still-working", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "what-is-medicare-creditable-coverage"],
     youtubeVideoId: "ULz_FAlPYCQ",
   },
@@ -8868,6 +8871,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Is there a specific form to request a Part D penalty waiver?", answer: "There is no single universal waiver form. You apply for Extra Help through SSA, or you file an appeal with your Part D plan directly. For a CMS reconsideration, Form CMS-10198 is used to initiate the IRE review process." },
       { question: "Who can I contact for help with my Part D penalty waiver?", answer: "Contact your Part D plan's appeals department, the SSA for Extra Help applications, your local SHIP office for free counseling, or the Medicare Rights Center helpline. All of these resources are available at no cost to you." },
     ],
+    showInlineCta: true,
     relatedSlugs: ["medicare-part-d-penalty", "medicare-part-d-late-enrollment-penalty", "medicare-extra-help-program", "the-lifetime-medicare-penalties-how-people-accidentally-owe-them-forever", "how-is-medicare-part-d-changing-in-2026", "protect-yourself-from-medicare-penalties-key-tips-and-deadlines"],
   },
   {
@@ -9000,6 +9004,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "How does going back to work affect my Part B premium?", answer: "Going back to work does not directly change your Part B premium. However, if your new income pushes you into a higher IRMAA bracket, your Part B premium could increase in two years (Medicare uses a two-year lookback on income). Plan for this possibility if your new salary is significantly higher than your retirement income." },
       { question: "Can I drop Medicare Advantage when I go back to work?", answer: "You can disenroll from Medicare Advantage during specific enrollment windows: the Annual Enrollment Period (October 15 to December 7), the Medicare Advantage Open Enrollment Period (January 1 to March 31), or if you qualify for a Special Enrollment Period. You cannot disenroll mid-year outside of these windows in most cases." },
     ],
+    showInlineCta: true,
     relatedSlugs: ["medicare-and-employer-coverage", "understanding-how-medicare-works-with-employer-health-plans", "medicare-special-enrollment-period", "medicare-part-b-late-enrollment-penalty", "plan-g", "medicare-and-retiree-insurance"],
   },
   {
@@ -9090,6 +9095,7 @@ export const blogArticles: BlogArticleData[] = [
       { question: "What role does the RAND report play in the 2027 fee schedule proposals?", answer: "The RAND Corporation analyzed Medicare's practice expense methodology, and CMS is using those findings to update Work RVU and clinical labor RVU calculations. These methodological changes can redistribute practice expense payments across specialties, benefiting some while reducing others." },
       { question: "When is the deadline for public comments on the 2027 Medicare Physician Fee Schedule?", answer: "CMS typically opens a 60-day public comment window following release of a proposed rule. Stakeholders, including physician practices, specialty societies, and patient advocates, are encouraged to submit formal comments before the deadline to influence the final rule." },
     ],
+    showInlineCta: true,
     relatedSlugs: ["medicare-physician-fee-schedule-lookup-tool", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "what-is-medicare-creditable-coverage", "medicare-and-employer-coverage"],
   },
 ];
