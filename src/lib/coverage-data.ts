@@ -34392,4 +34392,252 @@ export const coverageArticles: CoverageArticleData[] = [
       "going-back-to-work-on-medicare",
     ],
   },
+  // ─── Does Medicare Cover MRI and CT Scans ──────────────────────────────────────
+  {
+    slug: "does-medicare-cover-mri-ct-scans",
+    seo: {
+      title: "Does Medicare Cover MRI & CT Scans? (2026 Costs & Rules)",
+      description: "Medicare Part B covers MRI, CT, and PET scans when medically necessary. Learn 2026 costs, prior authorization rules, how to save, and what Medicare Advantage covers.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-mri-ct-scans/",
+      ogImage: "/images/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover MRI & CT Scans?",
+    subtitle: "Yes. Medicare Part B covers MRI, CT, and PET scans when your doctor orders them as medically necessary. You pay 20% coinsurance after meeting the $283 annual deductible (2026). Learn about coverage rules, costs at different facilities, prior authorization for Medicare Advantage, and how Medigap can eliminate your out-of-pocket expenses.",
+    category: "Medicare Coverage",
+    dateUpdated: "July 20, 2026",
+    lastReviewed: "2026-07-20",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "9 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers MRI, CT, and PET scans when medically necessary. Medicare Part B pays 80% of the Medicare-approved amount for outpatient imaging after you meet the $283 annual deductible (2026). Medicare Part A covers scans performed during an inpatient hospital stay after the $1,736 deductible. Advanced imaging must be performed at an accredited facility. Medicare Advantage plans must cover the same imaging services but may require prior authorization.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers 80% after $283 deductible; you pay 20% coinsurance" },
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covered during qualifying hospital stay after $1,736 deductible" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "Must cover same services; may require prior authorization and have fixed copays" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers some or all of the 20% coinsurance left by Part B" },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered when medically necessary",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers MRI, CT, and PET scans when a physician orders the test because it is [medically necessary](/faqs/what-does-medically-necessary-mean). This means your doctor must document a clinical reason for the scan, such as diagnosing a suspected condition, monitoring disease progression, or planning a surgical procedure.",
+          "**Medicare Part B** covers outpatient imaging performed at a doctor's office, hospital outpatient department, or freestanding imaging center. After you meet the annual Part B deductible ($283 in 2026), Medicare pays 80% of the Medicare-approved amount and you pay the remaining 20%. If you are a hospital inpatient, **Medicare Part A** covers imaging during that stay after the $1,736 deductible.",
+          "**Important:** For advanced diagnostic imaging (MRI, CT, nuclear medicine, and PET scans) performed outside a hospital, the facility must be accredited by an approved organization. If the facility is not accredited, Medicare will not pay for the scan and the provider cannot bill you for it.",
+          "The only imaging scan covered as a **preventive service** is a low-dose CT scan for lung cancer screening. Medicare covers this annually for adults aged 50 to 77 who have a 20 pack-year smoking history and currently smoke or quit within the past 15 years. This preventive scan has no deductible or coinsurance."],
+        whatItCovers: [
+          "MRI scans (brain, spine, joints, abdomen, pelvis, breast, cardiac)",
+          "CT scans (head, chest, abdomen, pelvis, extremities)",
+          "PET scans (cancer staging, cardiac viability, brain disorders)",
+          "Low-dose CT lung cancer screening (preventive, $0 cost)",
+          "X-rays and bone density scans (DEXA)",
+          "Ultrasound and Doppler studies",
+          "Nuclear medicine imaging",
+          "CT angiography and MR angiography"],
+        whatItDoesntCover: [
+          "Routine or screening MRI/CT scans without a documented medical reason",
+          "Imaging ordered by a provider who does not accept Medicare assignment",
+          "Scans performed at a non-accredited freestanding imaging facility",
+          "Whole-body screening scans marketed directly to consumers",
+          "Experimental or investigational imaging not approved by CMS"],
+        costNote: "Part B: You pay 20% coinsurance after the $283 annual deductible (2026). For a brain MRI with a Medicare-approved amount of ~$500, your cost would be approximately $100 after meeting the deductible.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered with possible prior authorization",
+        paragraphs: [
+          "[Medicare Advantage](/faqs/what-is-medicare-advantage) plans must cover all imaging services that Original Medicare covers, including MRI, CT, and PET scans. However, your cost-sharing and access rules may differ significantly from Original Medicare.",
+          "Many Medicare Advantage plans use **prior authorization** for advanced imaging. This means your doctor must get approval from the plan before scheduling an MRI, CT, or PET scan. Some plans contract with radiology benefit managers (such as eviCore or Carelon) to review imaging requests. If prior authorization is not obtained, the plan may deny coverage.",
+          "The good news: some major insurers, including UnitedHealthcare, have eliminated prior authorization requirements for CT, MRI, and MRA scans on their Medicare Advantage plans. Check your plan's Evidence of Coverage document for specific rules.",
+          "Cost-sharing on Medicare Advantage plans often uses **fixed copays** rather than percentage-based coinsurance. For example, your plan might charge a $150 copay for an outpatient MRI versus the 20% coinsurance under Original Medicare. Plans also have an annual out-of-pocket maximum (typically $3,500 to $8,850 in 2026), after which the plan pays 100%."],
+        whatItCovers: [
+          "All imaging services covered by Original Medicare",
+          "May include additional imaging benefits not covered by Original Medicare",
+          "Annual out-of-pocket maximum protects against high imaging costs",
+          "Some plans offer $0 copays for diagnostic imaging at in-network facilities"],
+        whatItDoesntCover: [
+          "Imaging at out-of-network facilities (HMO plans)",
+          "Scans without required prior authorization (if applicable)",
+          "Non-medically necessary imaging"],
+        costNote: "Costs vary by plan. Typical copays range from $50 to $350 for outpatient MRI/CT scans. Annual out-of-pocket maximum applies.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Covers Part B cost-sharing",
+        paragraphs: [
+          "[Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) do not cover imaging directly. Instead, they pay some or all of the out-of-pocket costs that Original Medicare leaves behind. Since Medicare Part B pays 80% of approved imaging costs, you are responsible for the remaining 20% coinsurance unless you have supplemental coverage.",
+          "**Medigap Plan G** (the most popular plan) covers 100% of Part B coinsurance, meaning you pay nothing for an MRI or CT scan after meeting the $283 annual Part B deductible. Plan G also covers the Part A deductible ($1,736 in 2026), so inpatient imaging is fully covered as well.",
+          "If you anticipate needing multiple imaging studies (for example, ongoing cancer monitoring or chronic pain management), a Medigap plan can save you hundreds or thousands of dollars per year compared to paying 20% coinsurance on each scan."],
+        whatItCovers: [
+          "Plan G: 100% of Part B coinsurance after $283 deductible",
+          "Plan N: Part B coinsurance minus up to $20 copay per office visit",
+          "Plan F (closed to new enrollees after 2020): 100% of Part B coinsurance with no deductible",
+          "Part A deductible coverage (Plans C, D, F, G, M, N)"],
+        whatItDoesntCover: [
+          "Does not replace Original Medicare; works alongside it",
+          "Does not cover services Original Medicare does not cover",
+          "Does not apply to Medicare Advantage plan cost-sharing"],
+        costNote: "Medigap Plan G: After the $283 Part B deductible, your MRI/CT scan cost is $0. Monthly premiums vary by age, location, and insurer (typically $100 to $300/month).",
+      },
+    ],
+    costTable: {
+      title: "What You'll Pay for Imaging Scans Under Medicare (2026)",
+      headers: ["Scan Type", "Avg. Total Cost", "Medicare Pays (80%)", "You Pay (20%)", "With Medigap Plan G"],
+      rows: [
+        { "Scan Type": "Brain MRI (CPT 70553)", "Avg. Total Cost": "$500 - $700", "Medicare Pays (80%)": "$400 - $560", "You Pay (20%)": "$100 - $140", "With Medigap Plan G": "$0 (after deductible)" },
+        { "Scan Type": "Knee/Shoulder MRI", "Avg. Total Cost": "$500 - $1,000", "Medicare Pays (80%)": "$400 - $800", "You Pay (20%)": "$100 - $200", "With Medigap Plan G": "$0 (after deductible)" },
+        { "Scan Type": "Abdominal CT Scan", "Avg. Total Cost": "$300 - $600", "Medicare Pays (80%)": "$240 - $480", "You Pay (20%)": "$60 - $120", "With Medigap Plan G": "$0 (after deductible)" },
+        { "Scan Type": "Chest CT Scan", "Avg. Total Cost": "$300 - $500", "Medicare Pays (80%)": "$240 - $400", "You Pay (20%)": "$60 - $100", "With Medigap Plan G": "$0 (after deductible)" },
+        { "Scan Type": "PET Scan", "Avg. Total Cost": "$1,000 - $2,000", "Medicare Pays (80%)": "$800 - $1,600", "You Pay (20%)": "$200 - $400", "With Medigap Plan G": "$0 (after deductible)" },
+        { "Scan Type": "Low-Dose CT (Lung Screening)", "Avg. Total Cost": "$0", "Medicare Pays (80%)": "$0 (preventive)", "You Pay (20%)": "$0", "With Medigap Plan G": "$0" },
+      ],
+      footnote: "Costs are based on Medicare-approved amounts at outpatient facilities. Hospital outpatient departments may charge additional facility fees. All costs assume the $283 Part B deductible has been met.",
+    },
+    exceptionsSection: {
+      title: "When Medicare May Deny Imaging Coverage",
+      items: [
+        { title: "No Medical Necessity Documented", text: "Medicare requires your doctor to document a specific clinical reason for the scan. Without this documentation, the claim will be denied." },
+        { title: "Non-Accredited Facility", text: "Advanced imaging (MRI, CT, PET) performed outside a hospital must be at an accredited facility. If not accredited, Medicare will not pay and the provider cannot bill you." },
+        { title: "Missing Prior Authorization (MA Plans)", text: "Many Medicare Advantage plans require prior authorization for advanced imaging. If your doctor does not obtain approval before the scan, the plan may deny coverage." },
+        { title: "Duplicate Imaging Without Justification", text: "Repeated scans within a short timeframe without new symptoms or clinical changes may be questioned and denied by Medicare." },
+        { title: "Whole-Body Screening Scans", text: "Medicare does not cover consumer-marketed whole-body MRI or CT screening scans without a specific medical indication or documented symptoms." },
+        { title: "Provider Does Not Accept Assignment", text: "If your ordering provider or the imaging facility does not accept Medicare assignment, you may face higher costs or coverage issues." },
+      ],
+    },
+    decisionSection: {
+      title: "Freestanding Imaging Center vs. Hospital Outpatient: Where to Get Your Scan",
+      paragraphs: [
+        "Where you get your MRI or CT scan can significantly affect your out-of-pocket cost. Hospital outpatient departments typically charge a facility fee on top of the professional fee, which can double or triple your total cost compared to a freestanding imaging center.",
+        "For example, a knee MRI at a hospital outpatient department might have a Medicare-approved amount of $900 (your cost: $180), while the same scan at a freestanding center might be approved at $450 (your cost: $90). Both provide the same clinical quality.",
+        "Before scheduling your scan, ask your doctor if a freestanding imaging center is appropriate for your situation. Verify the center is accredited and accepts Medicare assignment."],
+      checklist: {
+        title: "How to Save on Medicare Imaging Costs",
+        type: "tip",
+        items: [
+          "Ask your doctor about freestanding imaging centers (often 40-60% cheaper than hospitals)",
+          "Verify the facility is accredited before scheduling",
+          "Confirm the provider accepts Medicare assignment",
+          "Use Medicare's Procedure Price Lookup tool at Medicare.gov to compare costs",
+          "Consider a Medigap Plan G to eliminate the 20% coinsurance entirely",
+          "If you have Medicare Advantage, use in-network facilities for lowest copays",
+          "Ask if your scan qualifies as preventive (lung cancer CT screening is $0)"],
+      },
+    },
+    alternativesSection: {
+      title: "Types of Imaging Scans Medicare Covers",
+      paragraphs: [
+        "Medicare Part B covers a wide range of diagnostic imaging when ordered by your physician. Each type of scan serves a different clinical purpose, and your doctor will recommend the most appropriate test based on your symptoms and medical history."],
+      checklist: {
+        title: "Imaging Modalities Covered by Medicare",
+        type: "info",
+        items: [
+          "MRI (Magnetic Resonance Imaging) \u2014 detailed soft tissue images without radiation; best for brain, spine, joints, and organs",
+          "CT (Computed Tomography) \u2014 fast 3D images using X-rays; best for bones, lungs, abdomen, and emergency situations",
+          "PET (Positron Emission Tomography) \u2014 detects metabolic activity; used for cancer staging, cardiac viability, and brain disorders",
+          "X-ray \u2014 basic bone and chest imaging; fastest and least expensive",
+          "Ultrasound \u2014 real-time imaging using sound waves; no radiation; used for abdomen, pelvis, vascular, and cardiac",
+          "DEXA (Bone Density Scan) \u2014 measures bone mineral density; covered every 24 months for those at risk of osteoporosis",
+          "Nuclear Medicine \u2014 uses small amounts of radioactive material; includes thyroid scans, bone scans, and cardiac perfusion imaging",
+          "Fluoroscopy \u2014 real-time X-ray imaging; used for barium studies, joint injections, and catheter placement"],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare Cover MRI Scans?",
+        answer: "Yes. Medicare Part B covers MRI scans when your doctor orders them as medically necessary to diagnose or monitor a medical condition. You pay 20% of the Medicare-approved amount after meeting the $283 annual deductible (2026). The scan must be performed at a Medicare-approved, accredited facility.",
+      },
+      {
+        question: "Does Medicare Cover CT Scans?",
+        answer: "Yes. Medicare Part B covers CT scans when medically necessary. The same cost-sharing applies: 20% coinsurance after the $283 deductible. Medicare also covers a low-dose CT scan for lung cancer screening at $0 cost for eligible beneficiaries aged 50 to 77 with a qualifying smoking history.",
+      },
+      {
+        question: "Does Medicare Cover PET Scans?",
+        answer: "Yes. Medicare Part B covers PET scans when medically necessary for cancer diagnosis and staging, cardiac conditions, and certain brain disorders. You pay 20% coinsurance after the deductible. Some PET scan indications may require additional documentation of medical necessity.",
+      },
+      {
+        question: "How Much Does an MRI Cost with Medicare?",
+        answer: "After meeting your $283 Part B deductible, you pay 20% of the Medicare-approved amount. For a typical outpatient MRI, this ranges from $60 to $200 depending on the body part and facility type. Freestanding imaging centers are generally cheaper than hospital outpatient departments. A Medigap Plan G eliminates this cost entirely.",
+      },
+      {
+        question: "Do I Need Prior Authorization for an MRI with Medicare?",
+        answer: "With Original Medicare, you generally do not need prior authorization for imaging. However, many Medicare Advantage plans do require prior authorization for MRI, CT, and PET scans. Your doctor's office typically handles the prior authorization process. If authorization is not obtained, the plan may deny coverage.",
+      },
+      {
+        question: "Does Medicare Cover a Full-Body MRI or CT Scan?",
+        answer: "No. Medicare does not cover whole-body screening scans marketed directly to consumers without specific symptoms or a documented medical reason. Your doctor must order the scan for a specific clinical indication. Targeted scans of specific body areas are covered when medically necessary.",
+      },
+      {
+        question: "Is an MRI Cheaper at a Hospital or Imaging Center?",
+        answer: "Freestanding imaging centers are typically 40% to 60% cheaper than hospital outpatient departments for the same scan. Hospitals charge an additional facility fee that increases the Medicare-approved amount. Ask your doctor if a freestanding center is appropriate for your scan.",
+      },
+      {
+        question: "What If Medicare Denies My MRI or CT Scan?",
+        answer: "You have the right to appeal. For Original Medicare, file a redetermination within 120 days. For Medicare Advantage, request an appeal (or expedited appeal if urgent) within 60 days. Ask your doctor to provide a letter of medical necessity. About 75% of imaging denials are overturned on appeal.",
+      },
+      {
+        question: "Does Medicare Cover Contrast Dye for MRI and CT Scans?",
+        answer: "Yes. When your doctor orders an MRI or CT scan with contrast, Medicare covers both the scan and the contrast material as part of the same service. You pay the same 20% coinsurance on the total Medicare-approved amount, which includes the contrast.",
+      },
+      {
+        question: "How Often Will Medicare Pay for an MRI?",
+        answer: "Medicare does not set a specific limit on how many MRI or CT scans you can have per year. Coverage is based on medical necessity. As long as your doctor documents a valid clinical reason for each scan, Medicare will cover it. However, repeated scans without new symptoms or clinical changes may be questioned.",
+      },
+    ],
+    quickReference: [
+      { icon: "check", text: "<strong>Medicare Part B</strong> covers MRI, CT, and PET scans when medically necessary" },
+      { icon: "dollar", text: "Your cost: <strong>20% coinsurance</strong> after the $283 Part B deductible (2026)" },
+      { icon: "check", text: "<strong>Lung cancer CT screening</strong> is covered at $0 for eligible beneficiaries" },
+      { icon: "alert", text: "Advanced imaging outside hospitals <strong>must be at an accredited facility</strong>" },
+      { icon: "info", text: "<strong>Medicare Advantage</strong> may require prior authorization for imaging" },
+      { icon: "check", text: "<strong>Medigap Plan G</strong> covers the 20% coinsurance, leaving you with $0 after deductible" },
+      { icon: "dollar", text: "Freestanding imaging centers are <strong>40-60% cheaper</strong> than hospital outpatient" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover an Echocardiogram?", description: "Learn about Medicare coverage for echocardiograms and cardiac diagnostic tests.", slug: "does-medicare-cover-an-echocardiogram" },
+      { title: "Does Medicare Cover Anesthesia?", description: "Understand how Medicare covers anesthesia for surgeries and procedures.", slug: "does-medicare-cover-anesthesia" },
+      { title: "Medicare Preventive Services", description: "Discover the free preventive screenings and services available under Medicare Part B.", slug: "medicare-preventive-services" },
+      { title: "What Is a Medicare Supplement Plan?", description: "Learn how Medigap plans can reduce your out-of-pocket costs for covered services.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+    ],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover an Echocardiogram",
+      "Does Medicare Cover Anesthesia",
+      "Medicare Preventive Services",
+      "What Is a Medicare Supplement Plan",
+    ],
+    showInlineCta: true,
+    ctaBanner: {
+      title: "Need Help Covering Your Imaging Costs?",
+      text: "Our licensed Medicare agents can help you find a Medigap or Medicare Advantage plan that minimizes your out-of-pocket costs for MRI, CT, and PET scans. Compare plans in your area for free.",
+    },
+    relatedSlugs: ["does-medicare-cover-an-echocardiogram", "does-medicare-cover-anesthesia", "medicare-preventive-services", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-coverage-for-colonoscopy-screenings", "does-medicare-cover-a-biopsy"],
+  },
 ];
