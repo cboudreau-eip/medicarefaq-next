@@ -611,13 +611,13 @@ function OptionButton({
       onClick={onClick}
       className={`w-full text-left px-5 py-4 rounded-xl border-2 transition-all duration-150 ${
         selected
-          ? "border-[#0D9488] bg-[#0D9488]/5 shadow-sm"
-          : "border-slate-200 hover:border-[#0D9488]/50 hover:bg-[#0D9488]/5"
+          ? "border-[#1B2A4A] bg-[#1B2A4A] text-white shadow-sm"
+          : "border-[#1B2A4A] bg-[#1B2A4A] text-white hover:bg-[#0F1C35]"
       }`}
     >
-      <span className="font-semibold text-slate-900 text-base">{label}</span>
+      <span className="font-semibold text-base">{label}</span>
       {sublabel && (
-        <span className="block text-sm text-slate-500 mt-0.5">{sublabel}</span>
+        <span className="block text-sm text-white/70 mt-0.5">{sublabel}</span>
       )}
     </button>
   );
