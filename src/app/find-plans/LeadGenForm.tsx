@@ -422,7 +422,6 @@ export default function LeadGenForm() {
                 <StepCard
                   icon={<Phone className="w-6 h-6 text-[#0D9488]" />}
                   title="What's the best number to reach you?"
-                  subtitle="A licensed agent will call to review your plan options. No spam, no obligation."
                 >
                   <div className="space-y-4">
                     <input
