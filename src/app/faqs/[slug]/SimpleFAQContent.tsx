@@ -36,6 +36,7 @@ import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 import ZipFormModal from "@/components/ZipFormModal";
+import InlineCardCTA from "@/components/InlineCardCTA";
 
 const BASE_URL = "https://www.medicarefaq.com";
 
@@ -580,6 +581,11 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                 )}
               </div>
 
+
+              {/* ─── Inline Card CTA ─── */}
+              {article.showInlineCta && (
+                <InlineCardCTA pageSection={`faq_simple_${article.slug}`} />
+              )}
 
               {/* ─── CTA Banner ─── */}
               <div className="mt-10 bg-gradient-to-r from-[#1B2A4A] to-[#2D3F63] rounded-2xl p-8 md:p-10 text-center">

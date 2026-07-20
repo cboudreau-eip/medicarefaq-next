@@ -1730,6 +1730,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    showInlineCta: true,
     relatedSlugs: ["making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "when-to-switch-medigap-plans-what-you-need-to-know", "medicare-guaranteed-issue", "what-is-the-best-medicare-supplement-plan", "medigap-underwriting-how-preexisting-conditions-still-matter", "can-i-cancel-medicare-advantage-plan"],
   },
   {

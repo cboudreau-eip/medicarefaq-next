@@ -52,6 +52,7 @@ import PodcastPlayer from "@/components/PodcastPlayer";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 import ZipFormModal from "@/components/ZipFormModal";
+import InlineCardCTA from "@/components/InlineCardCTA";
 import { blogArticles } from "@/lib/blog-articles-data";
 /* Blog slug set — used to route relatedTopics links to /blog/ vs /faqs/ */
 const blogSlugSet = new Set(blogArticles.map((a) => a.slug));
@@ -843,6 +844,10 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 </div>
               )}
 
+              {/* Inline Card CTA */}
+              {article.showInlineCta && (
+                <InlineCardCTA pageSection={`faq_coverage_${article.slug}`} />
+              )}
               {/* FAQs */}
               <div id="faqs" className="mb-10 mt-10">
                 <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6 flex items-center gap-2">

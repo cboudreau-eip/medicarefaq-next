@@ -171,6 +171,7 @@ export interface CoverageArticleData {
   relatedTopics: RelatedTopicData[];
   sidebarRelatedLinks: string[];
 
+  showInlineCta?: boolean;
   ctaBanner: {
     title: string;
     text: string;
@@ -206,6 +207,7 @@ export interface SimpleFAQArticleData {
   sections: SimpleFAQSection[];
   /** Rich blog-style sections with tables, callouts, lists, FAQs. If present, rendered instead of sections. */
   richSections?: BlogSectionContent[];
+  showInlineCta?: boolean;
   relatedSlugs?: string[];
 }
 

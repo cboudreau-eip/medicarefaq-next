@@ -301,6 +301,7 @@ export const coverageArticles: CoverageArticleData[] = [
     "5-government-benefits-for-seniors",
     "discounts-for-seniors",
   ],
+  showInlineCta: true,
   ctaBanner: {
     title: "Want a Medicare Plan with SilverSneakers?",
     text: "Our licensed agents can help you find Medicare Advantage or Medigap plans in your area that include SilverSneakers at no extra cost. Get personalized guidance today.",
@@ -22805,6 +22806,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Costs 2026",
       "Medicare Late Enrollment Penalties",
       "Working Past 65 and Medicare"],
+    showInlineCta: true,
     ctaBanner: {
       title: "Need Help Coordinating Your HSA and Medicare?",
       text: "Our licensed Medicare agents can help you plan the transition from employer coverage and HSA to Medicare without penalties or tax surprises.",
@@ -32275,6 +32277,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "medicare-coverage-for-in-home-caregivers",
       "5-government-benefits-for-seniors",
       "does-medicare-cover-meals-on-wheels"],
+    showInlineCta: true,
     ctaBanner: {
       title: "Looking for a Plan that Covers Medical Rides?",
       text: "Many Medicare Advantage plans include free transportation to medical appointments. A licensed Medicare specialist can help you find a plan with the transportation benefits you need.",
