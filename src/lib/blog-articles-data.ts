@@ -7,6 +7,7 @@
 import type { BlogArticleData } from "./article-types";
 import { tampaAgentsArticle } from "./blog-article-tampa-agents";
 import { miamiAgentsArticle } from "./blog-article-miami-agents";
+import { drugNegotiationArticle } from "./blog-article-drug-negotiation";
 export const blogArticles: BlogArticleData[] = [
   {
     slug: "doctors-dropping-medicare",
@@ -86,6 +87,7 @@ export const blogArticles: BlogArticleData[] = [
     relatedSlugs: ["medicare-advantage-annual-enrollment-period-aep-dates", "original-medicare-vs-medicare-advantage", "how-medigap-covers-cancer-compared-to-ma", "medicare-physician-fee-schedule"],
   },
 
+  drugNegotiationArticle,
   miamiAgentsArticle,
   tampaAgentsArticle,
   {
