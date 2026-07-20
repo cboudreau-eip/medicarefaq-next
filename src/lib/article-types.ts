@@ -172,6 +172,7 @@ export interface CoverageArticleData {
   sidebarRelatedLinks: string[];
 
   showInlineCta?: boolean;
+  showMidInlineCta?: boolean;
   ctaBanner: {
     title: string;
     text: string;

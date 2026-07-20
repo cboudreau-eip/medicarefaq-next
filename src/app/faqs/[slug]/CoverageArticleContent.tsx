@@ -601,7 +601,12 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               <h2 id="plan-breakdowns" className="text-2xl font-bold text-[#1B2A4A] mb-4">Understanding Your Coverage Options</h2>
               <div className="space-y-4 mb-8">
                 {article.planBreakdowns.map((plan, i) => (
-                  <PlanSection key={i} data={plan} />
+                  <>
+                    <PlanSection key={i} data={plan} />
+                    {article.showMidInlineCta && i === 0 && (
+                      <InlineCardCTA key="mid-cta" pageSection={`mid_${article.slug}`} />
+                    )}
+                  </>
                 ))}
               </div>
 

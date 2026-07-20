@@ -302,6 +302,7 @@ export const coverageArticles: CoverageArticleData[] = [
     "discounts-for-seniors",
   ],
   showInlineCta: true,
+  showMidInlineCta: true,
   ctaBanner: {
     title: "Want a Medicare Plan with SilverSneakers?",
     text: "Our licensed agents can help you find Medicare Advantage or Medigap plans in your area that include SilverSneakers at no extra cost. Get personalized guidance today.",
