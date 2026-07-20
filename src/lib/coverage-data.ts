@@ -34640,4 +34640,245 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     relatedSlugs: ["does-medicare-cover-an-echocardiogram", "does-medicare-cover-anesthesia", "medicare-preventive-services", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-coverage-for-colonoscopy-screenings", "does-medicare-cover-a-biopsy"],
   },
+  {
+    slug: "does-medicare-cover-long-term-care",
+    seo: {
+      title: "Does Medicare Cover Long-Term Care? (2026 Guide)",
+      description: "Medicare does not cover long-term custodial care. Learn what Medicare does cover, SNF costs in 2026, and your real options for financing long-term care.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-long-term-care/",
+      ogImage: "/images/medicarefaq-cover.jpg",
+    },
+    title: "Does Medicare Cover Long-Term Care?",
+    subtitle: "Medicare only covers short-term skilled nursing care — not ongoing custodial or long-term care. Understanding this distinction now, before you need care, is one of the most important financial steps you can take.",
+    category: "Medicare Coverage",
+    dateUpdated: "July 20, 2026",
+    lastReviewed: "2026-07-20",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "No. Medicare does not cover long-term custodial care — the ongoing help with bathing, dressing, eating, and daily activities that most people picture when they think of nursing home care. Medicare Part A covers short-term skilled nursing facility (SNF) care up to 100 days per benefit period, but only when specific medical conditions are met. After day 100, you pay 100% of all costs.",
+      badges: [
+        { plan: "Original Medicare", status: "not-covered" },
+        { plan: "Medicare Advantage", status: "partial" },
+        { plan: "Medigap", status: "not-covered" },
+        { plan: "Medicaid", status: "covered" },
+      ],
+    },
+    comparisonTable: [
+      { planType: "Original Medicare (Part A)", coverage: "Not Covered", icon: "x", notes: "Covers short-term SNF care only (up to 100 days). No custodial care coverage." },
+      { planType: "Medicare Advantage (Part C)", coverage: "Limited", icon: "alert-triangle", notes: "May offer limited supplemental personal care benefits. Not a substitute for long-term care coverage." },
+      { planType: "Medigap (Supplement)", coverage: "Not Covered", icon: "x", notes: "Only covers cost-sharing for services Medicare covers. Does not cover custodial care." },
+      { planType: "Medicaid", coverage: "Covered (if eligible)", icon: "check", notes: "Primary public payer for long-term custodial care. Requires meeting income and asset eligibility thresholds." },
+    ],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts A & B)",
+        icon: "shield",
+        iconColor: "text-blue-600",
+        coverageType: "not-covered",
+        coverageLabel: "Limited — Short-Term Skilled Care Only",
+        paragraphs: [
+          "Medicare Part A covers skilled nursing facility (SNF) care, but only under specific conditions and for a limited time. To qualify, you must first have a qualifying hospital inpatient stay of at least three consecutive days. After that, Medicare covers up to 100 days of skilled nursing care per benefit period.",
+          "Days 1–20 are covered in full. Days 21–100 require a $217 daily coinsurance in 2026. After day 100, you pay 100% of all costs. This benefit exists for rehabilitation and recovery — not permanent residence. Once your condition stabilizes or your recovery plateaus, coverage can end well before day 100.",
+          "Medicare does not cover custodial care under any circumstances. Even if you are still recovering from an illness or injury, once your primary need shifts to personal assistance rather than skilled treatment, Medicare stops paying.",
+        ],
+        callout: {
+          type: "warning",
+          title: "The Custodial Care Gap",
+          text: "A Medicare beneficiary returns home from a hospital stay, receives 20 covered SNF days, then hears Medicare has ended coverage because they've plateaued in therapy. Suddenly, nursing home costs of $9,000 or more per month fall entirely on the family.",
+        },
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "star",
+        iconColor: "text-purple-600",
+        coverageType: "partial",
+        coverageLabel: "Limited Supplemental Benefits Only",
+        paragraphs: [
+          "Some Medicare Advantage plans offer supplemental benefits that go beyond Original Medicare — things like limited home health aide visits, meal delivery, or personal care services. These extras can be helpful, but they are not a substitute for dedicated long-term care coverage.",
+          "Whether you have Original Medicare or a Medicare Advantage plan, the fundamental rule remains: neither is designed to cover ongoing custodial care. In 2026, Medicare Advantage plans carry a maximum out-of-pocket limit of $9,250 for covered services — but that cap does not apply to long-term custodial care, which typically falls outside covered benefits entirely.",
+          "Before enrolling in any plan, carefully review the Evidence of Coverage document to understand exactly what long-term care-related benefits are included and what their limits are.",
+        ],
+      },
+      {
+        planName: "Medigap (Medicare Supplement)",
+        icon: "file-text",
+        iconColor: "text-gray-600",
+        coverageType: "not-covered",
+        coverageLabel: "Not Covered",
+        paragraphs: [
+          "Medigap plans are designed to cover cost-sharing for services that Original Medicare covers — deductibles, coinsurance, and copayments. Since Medicare does not cover custodial long-term care, no Medigap plan will pay for it regardless of the plan letter.",
+          "Medigap can help reduce your out-of-pocket costs during a covered SNF stay (for example, covering the $217 daily coinsurance for days 21–100), but it provides no protection against the cost of ongoing custodial care after Medicare coverage ends.",
+        ],
+      },
+      {
+        planName: "Medicaid",
+        icon: "heart",
+        iconColor: "text-green-600",
+        coverageType: "covered",
+        coverageLabel: "Primary Public Payer for Long-Term Care",
+        paragraphs: [
+          "When Medicare runs out, Medicaid becomes the primary public safety net for long-term custodial care. Nationally, Medicaid covers roughly 42% of all long-term care spending — far more than Medicare. It pays for nursing home care, home- and community-based services, and in some states, assisted living.",
+          "The catch is eligibility. Medicaid requires you to meet strict income and asset thresholds that vary by state. Many people must spend down their savings and assets before qualifying. A married couple may retain a protected amount for the community spouse, but the rules are complex and differ significantly by state.",
+          "Many people assume Medicare will protect them from catastrophic care costs. In reality, Medicaid functions as a payer of last resort — after your personal resources are largely exhausted. Understanding this distinction early gives you time to plan proactively rather than scrambling during a care crisis.",
+        ],
+      },
+    ],
+    costTable: {
+      title: "Average Annual Long-Term Care Costs (2026)",
+      headers: ["Type of Care", "Medicare Pays", "Your Cost"],
+      rows: [
+        { "Type of Care": "Nursing Home (days 1–20)", "Medicare Pays": "100%", "Your Cost": "$0" },
+        { "Type of Care": "Nursing Home (days 21–100)", "Medicare Pays": "All but $217/day", "Your Cost": "$217/day coinsurance" },
+        { "Type of Care": "Nursing Home (day 101+)", "Medicare Pays": "Nothing", "Your Cost": "100% of all costs" },
+        { "Type of Care": "Nursing Home (private room, long-term)", "Medicare Pays": "Nothing", "Your Cost": "$108,000–$116,000/year" },
+        { "Type of Care": "Assisted Living Facility", "Medicare Pays": "Nothing", "Your Cost": "$60,000–$75,000/year" },
+        { "Type of Care": "In-Home Care (full-time aide)", "Medicare Pays": "Nothing (custodial)", "Your Cost": "Exceeds $50,000/year" },
+      ],
+      footnote: "Costs based on 2026 Genworth Cost of Care Survey data and CMS SNF coinsurance rates. Part A deductible is $1,736 per benefit period in 2026.",
+    },
+    exceptionsSection: {
+      title: "When Medicare Does Cover Nursing-Level Care",
+      items: [
+        {
+          title: "Skilled Nursing Facility (Short-Term)",
+          text: "Up to 100 days per benefit period following a qualifying 3-day hospital inpatient stay. Must require daily skilled care such as IV medications, wound care, or physical therapy.",
+          highlight: "Covered",
+        },
+        {
+          title: "Home Health Care (Skilled Services)",
+          text: "Medicare covers home health aide services when they accompany a need for skilled care and you are homebound. It does not cover home health aides when personal assistance is the only care required.",
+          highlight: "Conditional",
+        },
+        {
+          title: "Hospice Care",
+          text: "Medicare Part A covers hospice care for beneficiaries with a terminal illness and a life expectancy of 6 months or less. Hospice is fully covered including medications, equipment, and support services.",
+          highlight: "Covered",
+        },
+        {
+          title: "Inpatient Psychiatric Care",
+          text: "Medicare Part A covers up to 190 days of inpatient psychiatric hospital care in a lifetime, separate from general hospital days.",
+          highlight: "Limited",
+        },
+      ],
+    },
+    decisionSection: {
+      title: "Your Options for Financing Long-Term Care",
+      paragraphs: [
+        "Given the gaps in Medicare long-term care coverage, having an alternative plan is essential. The right answer depends on your health, assets, family situation, and how early you start planning.",
+      ],
+      checklist: {
+        title: "Long-Term Care Financing Options",
+        type: "tip",
+        items: [
+          "Private long-term care insurance — purchased before you need care, covers custodial care at home, in assisted living, or in a nursing home. Premiums are lower the younger and healthier you are.",
+          "Hybrid life/long-term care policies — combine a life insurance death benefit with a pool of funds for long-term care. If you never use the LTC benefit, your heirs receive the death benefit.",
+          "Self-funding — using personal savings, investments, or home equity. Viable if you have substantial assets, but a prolonged care need can deplete even large portfolios quickly.",
+          "Medicaid planning — working with an elder law attorney to structure your finances in a way that preserves assets for a spouse while potentially qualifying for Medicaid coverage.",
+        ],
+      },
+    },
+    alternativesSection: {
+      title: "Planning Ahead: Key Resources",
+      paragraphs: [
+        "These resources can help you understand your options and plan ahead for long-term care costs:",
+        "State Health Insurance Assistance Program (SHIP) — free, unbiased Medicare counseling from trained volunteers who can help you understand your coverage and options. Find your local SHIP at shiphelp.org.",
+        "Eldercare Locator — a public service of the U.S. Administration on Aging that connects older adults and caregivers to local services. Available at eldercare.acl.gov.",
+        "Medicaid.gov — official resource for understanding Medicaid eligibility, benefits, and state-specific rules for long-term care coverage.",
+        "Genworth Cost of Care Survey — annual survey providing detailed long-term care cost data by state and care type, essential for financial planning.",
+      ],
+      checklist: {
+        title: "When to Start Planning",
+        type: "info",
+        items: [
+          "If you are in your late 50s or early 60s, now is the ideal time to consult a fee-only financial planner who specializes in retirement and long-term care planning.",
+          "The cost of long-term care insurance premiums increases significantly with age, and many policies become unavailable if you develop certain health conditions.",
+          "Acting before you need coverage is far more cost-effective than waiting until a health event forces the issue.",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "Does Medicare cover nursing home care permanently?",
+        answer: "No. Medicare only covers short-term skilled nursing care — up to 100 days per benefit period — when specific conditions are met. It does not pay for permanent or long-term custodial nursing home stays.",
+      },
+      {
+        question: "How many days does Medicare pay for a skilled nursing facility?",
+        answer: "Medicare covers up to 100 days per benefit period. The first 20 days are paid in full; days 21–100 require a $217 daily coinsurance in 2026. After day 100, you pay all costs.",
+      },
+      {
+        question: "What is the difference between custodial care and skilled nursing care?",
+        answer: "Skilled nursing care involves medically necessary services from licensed professionals, such as wound care or physical therapy. Custodial care means help with daily tasks like bathing or eating. Medicare does not cover custodial care.",
+      },
+      {
+        question: "Does Medicare cover home health aides for long-term care at home?",
+        answer: "Medicare can cover home health aide services when they accompany a need for skilled care and you are homebound. It does not cover home health aides when personal assistance is the only care required.",
+      },
+      {
+        question: "What pays for long-term care if Medicare doesn't?",
+        answer: "Your options include personal savings, private long-term care insurance, hybrid life insurance policies, and Medicaid if you meet income and asset eligibility requirements. Medicaid covers roughly 42% of all long-term care spending nationally.",
+      },
+      {
+        question: "Does Medicare Advantage cover more long-term care than Original Medicare?",
+        answer: "Some Medicare Advantage plans offer limited supplemental personal care benefits. However, neither Original Medicare nor Medicare Advantage is designed to provide comprehensive long-term custodial care coverage.",
+      },
+      {
+        question: "Can I get Medicare to cover long-term care if I have a chronic condition?",
+        answer: "Medicare will cover skilled services related to your chronic condition if those services require a licensed professional and you are demonstrating measurable progress. It will not cover ongoing custodial care simply because a chronic condition makes daily activities difficult.",
+      },
+      {
+        question: "What should I do if Medicare stops paying for my skilled nursing facility stay?",
+        answer: "Request the formal Notice of Medicare Non-Coverage and file an appeal immediately — it can delay the termination while your case is reviewed. Simultaneously, explore Medicaid eligibility, personal funds, and any private insurance you may have.",
+      },
+    ],
+    quickReference: [
+      { icon: "x", text: "<strong>Original Medicare</strong> does not cover long-term custodial care" },
+      { icon: "alert", text: "<strong>SNF coverage</strong> is limited to 100 days per benefit period — days 21–100 cost $217/day in 2026" },
+      { icon: "x", text: "<strong>Medigap</strong> does not cover custodial care" },
+      { icon: "alert", text: "<strong>Medicare Advantage</strong> may offer limited supplemental personal care benefits only" },
+      { icon: "check", text: "<strong>Medicaid</strong> is the primary public payer for long-term custodial care" },
+      { icon: "dollar", text: "Nursing home private room costs <strong>$108,000–$116,000/year</strong> in 2026" },
+      { icon: "info", text: "~<strong>70% of adults</strong> turning 65 today will need some form of long-term care" },
+    ],
+    relatedTopics: [
+      { title: "Does Medicare Cover Skilled Nursing Facilities?", description: "Learn how Medicare covers short-term skilled nursing care and what you'll pay.", slug: "medicare-coverage-for-skilled-nursing-facilities" },
+      { title: "Does Medicare Cover Assisted Living?", description: "Find out why Medicare doesn't cover assisted living and what does pay for it.", slug: "does-medicare-cover-assisted-living" },
+      { title: "Does Medicare Cover In-Home Caregivers?", description: "Find out what Medicare covers for home health care and personal care aides.", slug: "medicare-coverage-for-in-home-caregivers" },
+      { title: "Medicare vs. Medicaid", description: "Understand the key differences between Medicare and Medicaid coverage.", slug: "medicare-vs-medicaid" },
+      { title: "Does Medicare Cover Hospice Care?", description: "Understand Medicare's hospice benefit and what it covers for end-of-life care.", slug: "does-medicare-cover-hospice-care" },
+    ],
+    sidebarRelatedLinks: [
+      "Medicare Skilled Nursing Coverage",
+      "Does Medicare Cover Assisted Living",
+      "Medicare vs. Medicaid",
+      "Medicare Savings Programs",
+      "Does Medicare Cover Home Health Care",
+    ],
+    showInlineCta: true,
+    ctaBanner: {
+      title: "Have Questions About Long-Term Care Coverage?",
+      text: "Medicare doesn't cover long-term custodial care, but there may be options available to help. Our licensed Medicare agents can review your situation and explain what coverage you have — at no cost to you.",
+    },
+    relatedSlugs: [
+      "medicare-coverage-for-skilled-nursing-facilities",
+      "does-medicare-cover-assisted-living",
+      "medicare-coverage-for-in-home-caregivers",
+      "medicare-vs-medicaid",
+      "medicare-savings-programs",
+      "does-medicare-cover-hospice-care",
+      "what-medicare-doesnt-cover-common-surprises",
+      "medicare-maximum-out-of-pocket",
+    ],
+  },
 ];
