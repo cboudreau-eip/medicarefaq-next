@@ -526,7 +526,7 @@ function StepCard({
 }: {
   icon: React.ReactNode;
   title: string;
-  subtitle: string;
+  subtitle?: string;
   children: React.ReactNode;
 }) {
   return (
@@ -535,7 +535,8 @@ function StepCard({
         {icon}
         <h2 className="text-xl md:text-2xl font-bold text-slate-900">{title}</h2>
       </div>
-      <p className="text-slate-500 text-sm md:text-base mb-6 ml-9">{subtitle}</p>
+      {subtitle && <p className="text-slate-500 text-sm md:text-base mb-6 ml-9">{subtitle}</p>}
+      {!subtitle && <div className="mb-6" />}
       {children}
     </div>
   );
