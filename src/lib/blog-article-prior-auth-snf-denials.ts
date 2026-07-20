@@ -18,6 +18,9 @@ export const priorAuthSNFDenialsArticle: BlogArticleData = {
   reviewer: "Ashlee Zareczny",
   readTime: "14 min read",
   featured: false,
+  buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19520929-95-of-medicare-advantage-nursing-facility-denials-get-overturned.mp3?download=true",
+  podcastDate: "July 20, 2026",
+  podcastDuration: "14 min",
   image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-advantage-prior-authorization-snf-denials-hero-WJkBC5Ugm7a7MdFhwJvW5g.png",
   imageAlt: "Elderly patient in wheelchair at skilled nursing facility with healthcare worker reviewing paperwork",
   keyTakeaways: [
