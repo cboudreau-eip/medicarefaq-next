@@ -118,7 +118,15 @@ export default function LeadGenForm() {
     setSubmitting(true);
     setError("");
     try {
-      // Submit to medicarefaq-home backend (primary — stores in database)
+      // Primary: send email notification (this is what matters for lead capture)
+      const emailRes = await fetch("/api/lead-gen", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (!emailRes.ok) throw new Error("Submission failed");
+
+      // Secondary: store in database (best-effort, non-blocking)
       const backendPayload = JSON.stringify({
         "0": { json: {
           name: formData.name || undefined,
@@ -132,18 +140,12 @@ export default function LeadGenForm() {
           source: "find-plans",
         }}
       });
-      const backendRes = await fetch("https://medicarefaq-gundzjha.manus.space/api/trpc/leads.submit?batch=1", {
+      fetch("https://medicarefaq-gundzjha.manus.space/api/trpc/leads.submit?batch=1", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: backendPayload,
-      });
-      // Also try email notification (non-blocking)
-      fetch("/api/lead-gen", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
       }).catch(() => {});
-      if (!backendRes.ok) throw new Error("Submission failed");
+
       setSubmitted(true);
       trackCtaClick({
         button_label: "lead_form_submitted",
