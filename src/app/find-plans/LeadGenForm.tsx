@@ -118,12 +118,32 @@ export default function LeadGenForm() {
     setSubmitting(true);
     setError("");
     try {
-      const res = await fetch("/api/lead-gen", {
+      // Submit to medicarefaq-home backend (primary — stores in database)
+      const backendPayload = JSON.stringify([
+        { "0": { json: {
+          name: formData.name || undefined,
+          phone: formData.phone.replace(/\D/g, ""),
+          zip: formData.zip,
+          city: formData.city || undefined,
+          state: formData.state || undefined,
+          hasMedicare: formData.hasMedicare || undefined,
+          dentalImportance: formData.dentalImportance || undefined,
+          drugImportance: formData.drugImportance || undefined,
+          source: "find-plans",
+        }}}
+      ]);
+      const backendRes = await fetch("https://rebuild.medicarecompared.com/api/trpc/leads.submit?batch=1", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: backendPayload,
+      });
+      // Also try email notification (non-blocking)
+      fetch("/api/lead-gen", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
-      });
-      if (!res.ok) throw new Error("Submission failed");
+      }).catch(() => {});
+      if (!backendRes.ok) throw new Error("Submission failed");
       setSubmitted(true);
       trackCtaClick({
         button_label: "lead_form_submitted",
