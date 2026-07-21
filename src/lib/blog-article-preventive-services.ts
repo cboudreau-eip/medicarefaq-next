@@ -6,7 +6,7 @@ export const preventiveServicesArticle: BlogArticleData = {
     title: "8 Free Preventive Services Medicare Covers That Most Seniors Skip | MedicareFAQ",
     description: "Medicare covers dozens of preventive services at no cost, but most beneficiaries only use a handful. Here are 8 free screenings and programs you may be missing.",
     canonical: "https://www.medicarefaq.com/blog/free-preventive-services-medicare-covers/",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/drug-negotiation-hero-Pw3fEbLVqPc8Qq3WzW3hwg.png",
+    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/preventive-services-hero-9cRJBH4R53ZiEu3qgQSEbQ.png",
     focusKeyword: "free preventive services medicare",
   },
   title: "8 Free Preventive Services Medicare Covers That Most Seniors Skip",
@@ -18,7 +18,7 @@ export const preventiveServicesArticle: BlogArticleData = {
   reviewer: "Ashlee Zareczny",
   readTime: "10 min read",
   featured: true,
-  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/drug-negotiation-hero-Pw3fEbLVqPc8Qq3WzW3hwg.png",
+  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/preventive-services-hero-9cRJBH4R53ZiEu3qgQSEbQ.png",
   imageAlt: "Senior patient receiving a preventive health screening at a doctor's office",
   keyTakeaways: [
     "Medicare Part B covers over 40 preventive services at $0 out-of-pocket when you see a provider who accepts Medicare assignment.",
