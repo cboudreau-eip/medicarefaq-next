@@ -6,7 +6,7 @@ export const medicareScamsArticle: BlogArticleData = {
     title: "7 Medicare Scams Targeting Seniors in 2026 (and How to Spot Them)",
     description: "Protect your peace of mind! Discover 7 sophisticated Medicare scams targeting seniors in 2026. Learn how to spot and avoid fraud, impersonators, and deceptive tactics.",
     canonical: "https://www.medicarefaq.com/blog/7-medicare-scams-targeting-seniors/",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-scams-hero-dvafbuoa4h6qCJofmubQdk.png",
+    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-scams-hero-v2-oRMTnnRN2w5sYV37DUoxuA.png",
     focusKeyword: "7 Medicare Scams Targeting Seniors and How to Spot Them",
   },
   title: "Protect Your Peace of Mind: 7 Medicare Scams Targeting Seniors in 2026 and How to Spot Them",
@@ -18,7 +18,7 @@ export const medicareScamsArticle: BlogArticleData = {
   reviewer: "Ashlee Zareczny",
   readTime: "11 min read",
   featured: false,
-  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-scams-hero-dvafbuoa4h6qCJofmubQdk.png",
+  image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-scams-hero-v2-oRMTnnRN2w5sYV37DUoxuA.png",
   imageAlt: "Senior reviewing Medicare documents to protect against fraud and scams",
   keyTakeaways: [
     "Medicare will never call you unsolicited to ask for your Medicare number, banking details, or Social Security number. Any such call is a scam.",
