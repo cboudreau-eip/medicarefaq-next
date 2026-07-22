@@ -182,6 +182,7 @@ export const blogArticles: BlogArticleData[] = [
     ],
     showInlineCta: true,
     relatedSlugs: ["does-medicare-cover-assisted-living", "medicare-part-a-vs-part-b", "medicare-advantage-over-the-counter-cards", "medicare-savings-programs-guide"],
+    youtubeVideoId: "Sc1oNrOSYpQ",
   },
 
   {
