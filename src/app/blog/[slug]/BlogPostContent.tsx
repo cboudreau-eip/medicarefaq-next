@@ -302,7 +302,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
         </figure>
       ) : null;
     case "eddie-pro-tip": {
-      const tipText = section.content || section.calloutText || "";
+      const tipText = section.content || section.calloutText || section.text || "";
       const tipContent = tipText
         ? <>{parseInline(tipText, `tip-${idx}`)}</>
         : null;
