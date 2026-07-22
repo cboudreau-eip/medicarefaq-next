@@ -364,7 +364,7 @@ export default function PageContent() {
             <span className="text-white/80">Enrollment Timeline Calculator</span>
           </nav>
 
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-[#4F46E5]/20 text-[#A5B4FC] text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full mb-4">
               <Calendar className="w-3.5 h-3.5" aria-hidden="true" />
               Interactive Tool
@@ -372,7 +372,7 @@ export default function PageContent() {
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-4">
               Medicare Enrollment Timeline Calculator
             </h1>
-            <p className="text-white/70 text-base md:text-lg leading-relaxed max-w-2xl">
+            <p className="text-white/70 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
               Enter your birthday and employment status to see exactly when you should enroll in
               Medicare and what deadlines to watch. Get a personalized timeline with all your key
               dates.
