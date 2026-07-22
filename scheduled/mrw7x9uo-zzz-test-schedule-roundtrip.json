@@ -1,13 +1,13 @@
 {
   "id": "mrw7x9uo-zzz-test-schedule-roundtrip",
-  "title": "ZZZ Test Schedule Roundtrip",
+  "title": "ZZZ Test Schedule EDITED",
   "slug": "zzz-test-schedule-roundtrip",
-  "publishAt": "2026-07-22T16:09:20.542Z",
+  "publishAt": "2026-07-22T17:09:22.307Z",
   "status": "pending",
   "payload": {
-    "title": "ZZZ Test Schedule Roundtrip",
+    "title": "ZZZ Test Schedule EDITED",
     "slug": "zzz-test-schedule-roundtrip",
-    "excerpt": "Temporary test item — safe to delete.",
+    "excerpt": "edited excerpt",
     "category": "General",
     "structuredSections": [
       {
