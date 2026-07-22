@@ -34544,6 +34544,8 @@ export const coverageArticles: CoverageArticleData[] = [
       bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
     },
     readTime: "9 min read",
+    youtubeVideoId: "goVFdW0SfyQ",
+    youtubeVideoTitle: "Your Medicare MRI Is Covered | So Why the Huge Bill? (2026)",
     quickAnswer: {
       text: "Yes, Medicare covers MRI, CT, and PET scans when medically necessary. Medicare Part B pays 80% of the Medicare-approved amount for outpatient imaging after you meet the $283 annual deductible (2026). Medicare Part A covers scans performed during an inpatient hospital stay after the $1,736 deductible. Advanced imaging must be performed at an accredited facility. Medicare Advantage plans must cover the same imaging services but may require prior authorization.",
       badges: [
