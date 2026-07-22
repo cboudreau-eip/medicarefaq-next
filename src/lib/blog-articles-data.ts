@@ -9128,12 +9128,12 @@ export const blogArticles: BlogArticleData[] = [
     relatedSlugs: ["medicare-physician-fee-schedule-lookup-tool", "medicare-costs-in-2026-premiums-deductibles-and-key-changes", "does-medicare-cover-second-opinions-and-when-should-you-get-one", "what-is-medicare-creditable-coverage", "medicare-and-employer-coverage"],
   },
   {
-    slug: "medicare-inpatient-pay-rules-heres-what-you-need-to-know",
+    slug: "medicare-inpatient-pay-rules",
     seo: {
       focusKeyword: "Medicare inpatient pay rules",
       title: "Medicare Inpatient Pay Rules 2027: Your Complete Guide",
       description: "Prepare for 2027 Medicare inpatient pay rules. This guide explains CMS updates, potential out-of-pocket costs, and how to manage your hospital care coverage.",
-      canonical: "https://www.medicarefaq.com/blog/medicare-inpatient-pay-rules-heres-what-you-need-to-know/",
+      canonical: "https://www.medicarefaq.com/blog/medicare-inpatient-pay-rules/",
       ogImage: "/images/generated/medicare-inpatient-pay-rules.png",
     },
     title: "Medicare Inpatient Pay Rules 2027: Here's What You Need to Know",
