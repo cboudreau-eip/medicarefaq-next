@@ -695,7 +695,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "10 min read",
     quickAnswer: {
-      text: "For cancer treatment, Medigap (especially Plan G) typically provides better financial protection than Medicare Advantage. With Plan G, your only out-of-pocket cost for Part B services is the $257 annual deductible, regardless of how expensive your treatment becomes. Medicare Advantage plans cap your costs at up to $9,250 in 2026, but also impose network restrictions and prior authorization requirements that can delay or limit cancer care. Original Medicare without any supplement has no out-of-pocket maximum at all.",
+      text: "For cancer treatment, Medigap (especially Plan G) typically provides better financial protection than Medicare Advantage. With Plan G, your only out-of-pocket cost for Part B services is the $283 annual deductible, regardless of how expensive your treatment becomes. Medicare Advantage plans cap your costs at up to $9,250 in 2026, but also impose network restrictions and prior authorization requirements that can delay or limit cancer care. Original Medicare without any supplement has no out-of-pocket maximum at all.",
       badges: [
         { plan: "Medigap Plan G", status: "covered" },
         { plan: "Medicare Advantage", status: "partial" },
@@ -725,9 +725,9 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Best financial protection for cancer",
         paragraphs: [
-          "Medigap plans work alongside Original Medicare to cover the cost-sharing that Medicare leaves behind. For cancer patients, this means Medigap covers the 20% Part B coinsurance on chemotherapy, radiation therapy, oncologist visits, imaging scans, and other outpatient cancer services. With [Plan G](/faqs/the-essentials-medicare-supplement-vs-medicare-advantage-explained), your maximum annual out-of-pocket cost for Part B services is just the $257 deductible in 2026.",
+          "Medigap plans work alongside Original Medicare to cover the cost-sharing that Medicare leaves behind. For cancer patients, this means Medigap covers the 20% Part B coinsurance on chemotherapy, radiation therapy, oncologist visits, imaging scans, and other outpatient cancer services. With [Plan G](/faqs/the-essentials-medicare-supplement-vs-medicare-advantage-explained), your maximum annual out-of-pocket cost for Part B services is just the $283 deductible in 2026.",
           "The financial protection Medigap provides becomes clear when you consider the cost of cancer treatment. A year of chemotherapy can easily exceed $100,000 in Medicare-approved charges. Under Original Medicare alone, you would owe 20% of that amount ($20,000+) with no cap. With Medigap Plan G, you pay $257 for the year regardless of how many treatments, scans, or specialist visits you need.",
-          "Medigap also covers the Part A deductible ($1,676 per benefit period in 2026) for hospital stays, skilled nursing facility coinsurance, and Part B excess charges. This means cancer-related hospitalizations for surgery, inpatient chemotherapy, or complications are covered with no additional cost-sharing beyond your monthly premium.",
+          "Medigap also covers the Part A deductible ($1,736 per benefit period in 2026) for hospital stays, skilled nursing facility coinsurance, and Part B excess charges. This means cancer-related hospitalizations for surgery, inpatient chemotherapy, or complications are covered with no additional cost-sharing beyond your monthly premium.",
           "Critically, Medigap plans have no network restrictions. You can see any oncologist, visit any cancer center, and participate in clinical trials at any facility that accepts Medicare. There are no referral requirements and no prior authorization for any Medicare-covered service. Your treatment decisions remain between you and your doctor without insurance company interference.",
         ],
         whatItCovers: [
@@ -860,7 +860,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Medigap cover chemotherapy?",
-        answer: "Yes. Medigap covers your 20% coinsurance for IV chemotherapy administered in a doctor's office or outpatient facility (covered under Part B). With Plan G, you pay only the $257 annual Part B deductible. Oral chemotherapy drugs are covered under Part D, which has a separate $2,100 annual out-of-pocket cap in 2026.",
+        answer: "Yes. Medigap covers your 20% coinsurance for IV chemotherapy administered in a doctor's office or outpatient facility (covered under Part B). With Plan G, you pay only the $283 annual Part B deductible. Oral chemotherapy drugs are covered under Part D, which has a separate $2,100 annual out-of-pocket cap in 2026.",
       },
       {
         question: "Do Medicare Advantage plans require prior authorization for cancer treatment?",
@@ -978,7 +978,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Private room (unless medically necessary)",
           "Personal items such as phone or television charges",
         ],
-        costNote: "In 2026, the Part A deductible is $1,676 per benefit period. Days 1-60 have no coinsurance. Days 61-90 require $419/day coinsurance. Beyond 90 days, lifetime reserve days cost $838/day.",
+        costNote: "In 2026, the Part A deductible is $1,736 per benefit period. Days 1-60 have no coinsurance. Days 61-90 require $434/day coinsurance. Beyond 90 days, lifetime reserve days cost $868/day.",
         callout: {
           type: "warning" as const,
           title: "Hospital Readmission Reduction Program",
@@ -1012,7 +1012,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Personal care assistance (bathing, dressing) without skilled need",
           "24-hour home care or live-in caregiver services",
         ],
-        costNote: "After the $257 Part B deductible in 2026, you pay 20% coinsurance for most outpatient services. Home health care has no coinsurance. Cardiac rehab costs approximately $20-50 per session after coinsurance.",
+        costNote: "After the $283 Part B deductible in 2026, you pay 20% coinsurance for most outpatient services. Home health care has no coinsurance. Cardiac rehab costs approximately $20-50 per session after coinsurance.",
         callout: {
           type: "tip" as const,
           title: "Cardiac Rehab Eligibility for Heart Failure",
@@ -1077,7 +1077,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Immediate Medicare enrollment (no ALS-type waiver for heart failure)",
           "Guaranteed approval - must meet SSA medical criteria under Listing 4.02",
         ],
-        costNote: "SSDI beneficiaries pay the same Medicare premiums as other enrollees. Part A is premium-free with sufficient work history. Part B is $185/month in 2026. You may qualify for Medicare Savings Programs or Extra Help if your income is limited.",
+        costNote: "SSDI beneficiaries pay the same Medicare premiums as other enrollees. Part A is premium-free with sufficient work history. Part B is $202.90/month in 2026. You may qualify for Medicare Savings Programs or Extra Help if your income is limited.",
         callout: {
           type: "info" as const,
           title: "C-SNPs for Heart Failure Patients",
@@ -1189,7 +1189,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { label: "FAQs", href: "/faqs/how-old-to-get-medicare" },
     ],
     comparisonTable: [
-      { planType: "Age 65+ (worked 10+ years)", coverage: "Eligible", icon: "check", notes: "Premium-free Part A; Part B available with standard premium of $185/month in 2026" },
+      { planType: "Age 65+ (worked 10+ years)", coverage: "Eligible", icon: "check", notes: "Premium-free Part A; Part B available with standard premium of $202.90/month in 2026" },
       { planType: "Age 65+ (less than 10 years of work)", coverage: "Eligible", icon: "alert", notes: "Must pay Part A premium ($278–$505/month in 2026); Part B standard premium applies" },
       { planType: "Under 65 with SSDI (24 months)", coverage: "Eligible", icon: "check", notes: "Automatically enrolled in Medicare after 24 consecutive months of SSDI benefits" },
       { planType: "Under 65 with ALS", coverage: "Eligible", icon: "check", notes: "Automatically enrolled in Medicare the first month of SSDI - no 24-month wait" },
@@ -1212,7 +1212,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         whatItCovers: [
           "Medicare Part A (hospital insurance) - premium-free with 40+ quarters of work history",
-          "Medicare Part B (medical insurance) - $185/month standard premium in 2026",
+          "Medicare Part B (medical insurance) - $202.90/month standard premium in 2026",
           "Option to enroll in Medicare Part D (prescription drug coverage)",
           "Option to choose Medicare Advantage (Part C) instead of Original Medicare",
           "Option to purchase a Medicare Supplement (Medigap) policy during open enrollment",
@@ -1222,7 +1222,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Routine dental, vision, and hearing (under Original Medicare)",
           "Care received outside the United States (with limited exceptions)",
         ],
-        costNote: "In 2026, the Part B standard monthly premium is $185. Part A is premium-free for those with 40+ quarters of work history. Those with fewer than 30 quarters pay up to $505/month for Part A.",
+        costNote: "In 2026, the Part B standard monthly premium is $202.90. Part A is premium-free for those with 40+ quarters of work history. Those with fewer than 30 quarters pay up to $505/month for Part A.",
       },
       {
         planName: "Medicare Eligibility Under Age 65",
@@ -1264,7 +1264,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "Meeting the Medicare age requirement alone doesn't determine your costs - your work history also matters. Medicare Part A premiums are directly tied to how many quarters (three-month periods) you or your spouse paid Medicare payroll taxes during your working years.",
           "If you have 40 or more quarters of Medicare-taxed employment (approximately 10 years), you pay $0 for Part A. If you have between 30 and 39 quarters, you pay a reduced Part A premium of $278 per month in 2026. If you have fewer than 30 quarters, you pay the full Part A premium of $505 per month in 2026.",
-          "Part B premiums are the same regardless of work history - the standard 2026 premium is $185 per month. However, higher-income beneficiaries pay an Income-Related Monthly Adjustment Amount ([IRMAA](/faqs/irmaa)) surcharge on top of the standard premium based on their modified adjusted gross income from two years prior.",
+          "Part B premiums are the same regardless of work history - the standard 2026 premium is $202.90 per month. However, higher-income beneficiaries pay an Income-Related Monthly Adjustment Amount ([IRMAA](/faqs/irmaa)) surcharge on top of the standard premium based on their modified adjusted gross income from two years prior.",
           "Your spouse's work history counts too. If your spouse has 40+ quarters of work credits, you can qualify for premium-free Part A based on their record - even if you never worked or didn't accumulate enough credits on your own. This applies to current spouses and, in some cases, ex-spouses (if the marriage lasted at least 10 years).",
         ],
         whatItCovers: [
@@ -1278,7 +1278,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Work credits do not reduce Part D premiums",
           "Self-employment quarters count only if Medicare taxes were paid",
         ],
-        costNote: "In 2026: Part A premium-free with 40+ quarters, $278/month with 30-39 quarters, or $505/month with fewer than 30 quarters. Part B is $185/month for everyone (before IRMAA adjustments).",
+        costNote: "In 2026: Part A premium-free with 40+ quarters, $278/month with 30-39 quarters, or $505/month with fewer than 30 quarters. Part B is $202.90/month for everyone (before IRMAA adjustments).",
       },
       {
         planName: "Enrollment Windows & Penalties",
@@ -1407,7 +1407,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "I'm a legal permanent resident - can I get Medicare at 65?",
-        answer: "Yes, but you must have lived continuously in the United States for at least five years. If you meet the residency requirement and have 40+ quarters of Medicare-taxed work (or your spouse does), you qualify for premium-free Part A at 65. If you don't have enough work credits, you can still enroll in Part A by paying the full premium ($505/month in 2026) and Part B ($185/month).",
+        answer: "Yes, but you must have lived continuously in the United States for at least five years. If you meet the residency requirement and have 40+ quarters of Medicare-taxed work (or your spouse does), you qualify for premium-free Part A at 65. If you don't have enough work credits, you can still enroll in Part A by paying the full premium ($505/month in 2026) and Part B ($202.90/month).",
       },
       {
         question: "Will the Medicare age requirement ever change?",
@@ -1419,7 +1419,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Under 65 eligibility:</strong> Available through SSDI (24-month wait), ALS (no wait), or ESRD (any age)" },
       { icon: "x", text: "<strong>No Medicare at 62:</strong> Early Social Security does NOT grant early Medicare access" },
       { icon: "alert", text: "<strong>Enrollment penalties:</strong> Missing your window at 65 triggers permanent premium increases" },
-      { icon: "dollar", text: "<strong>2026 costs:</strong> Part A is $0 with 40+ work quarters; Part B is $185/month standard" },
+      { icon: "dollar", text: "<strong>2026 costs:</strong> Part A is $0 with 40+ work quarters; Part B is $202.90/month standard" },
       { icon: "check", text: "<strong>Automatic enrollment:</strong> Only if you're already receiving Social Security at 65" },
     ],
     relatedTopics: [
@@ -1847,7 +1847,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "Original Medicare (Part A and Part B) explicitly excludes routine vision care from its covered benefits. This means Medicare will not pay for eye exams to prescribe glasses, the glasses themselves, contact lenses, or lens fittings. This exclusion applies regardless of how much you need corrective lenses or how long you have had Medicare.",
           "The single exception to this rule is after cataract surgery. When you have cataract surgery that includes the implantation of an intraocular lens (IOL), Medicare Part B will cover one pair of eyeglasses or one set of contact lenses. This coverage applies only to corrective lenses needed after the surgery, not to any future pairs. You must obtain the glasses from a [Medicare-enrolled supplier](/faqs/what-is-medicare-assignment) for the benefit to apply.",
-          "After cataract surgery, Medicare Part B pays 80% of the Medicare-approved amount for one pair of standard frames and prescription lenses (or contact lenses). You pay the remaining 20% coinsurance plus any costs above the Medicare-approved amount if you choose upgraded frames or lens features. The [Part B deductible](/faqs/medicare-part-b-deductible) ($257 in 2026) also applies if you have not already met it for the year.",
+          "After cataract surgery, Medicare Part B pays 80% of the Medicare-approved amount for one pair of standard frames and prescription lenses (or contact lenses). You pay the remaining 20% coinsurance plus any costs above the Medicare-approved amount if you choose upgraded frames or lens features. The [Part B deductible](/faqs/medicare-part-b-deductible) ($283 in 2026) also applies if you have not already met it for the year.",
           "Medicare Part B does cover certain medically necessary eye exams that are diagnostic rather than refractive. For example, if your doctor suspects [glaucoma](/faqs/does-medicare-cover-glaucoma), [macular degeneration](/faqs/does-medicare-cover-macular-degeneration), or diabetic retinopathy, Medicare will cover the diagnostic exam. However, these medical eye exams do not include a glasses prescription, and any resulting need for corrective lenses remains your financial responsibility."
         ],
         whatItCovers: [
@@ -1971,7 +1971,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       { question: "Does Medicare cover eye exams for glasses?", answer: "No. Original Medicare does not cover routine eye exams for the purpose of prescribing glasses or contact lenses. Medicare only covers diagnostic eye exams when your doctor suspects a specific eye disease such as glaucoma, macular degeneration, or diabetic retinopathy. Many Medicare Advantage plans do cover one routine eye exam per year as a supplemental benefit." },
-      { question: "Does Medicare cover glasses after cataract surgery?", answer: "Yes. Medicare Part B covers one pair of prescription eyeglasses (frames and lenses) or one set of contact lenses after cataract surgery that includes an intraocular lens (IOL) implant. Medicare pays 80% of the approved amount, and you pay 20% coinsurance plus the Part B deductible ($257 in 2026) if not already met. You must use a Medicare-enrolled supplier." },
+      { question: "Does Medicare cover glasses after cataract surgery?", answer: "Yes. Medicare Part B covers one pair of prescription eyeglasses (frames and lenses) or one set of contact lenses after cataract surgery that includes an intraocular lens (IOL) implant. Medicare pays 80% of the approved amount, and you pay 20% coinsurance plus the Part B deductible ($283 in 2026) if not already met. You must use a Medicare-enrolled supplier." },
       { question: "How much does Medicare pay for glasses after cataract surgery?", answer: "Medicare pays 80% of the Medicare-approved amount for one pair of standard frames and prescription lenses after cataract surgery. The approved amount varies by region but typically covers basic frames and standard lenses. If you choose upgraded frames, progressive lenses, or premium coatings, you pay the difference out of pocket in addition to your 20% coinsurance." },
       { question: "Do Medicare Advantage plans cover glasses?", answer: "Many Medicare Advantage plans include vision benefits that cover glasses. Approximately 97% of MA plans offer some vision benefit, typically including one routine eye exam per year and an annual eyewear allowance ranging from $100 to $400. The allowance can be applied toward frames, lenses, or contacts from in-network providers. Coverage details vary significantly between plans." },
       { question: "Can I buy a standalone vision plan with Medicare?", answer: "Yes. If you have Original Medicare (with or without a Medigap plan), you can purchase a standalone vision insurance plan from companies like VSP, EyeMed, or Davis Vision. These plans typically cost $15 to $50 per month and cover routine eye exams plus an eyewear allowance. You can enroll at any time; there is no limited enrollment period for standalone vision plans." },
@@ -1986,7 +1986,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Exception:</strong> One pair of glasses covered after cataract surgery with IOL implant" },
       { icon: "info", text: "<strong>Medicare Advantage:</strong> ~97% of plans offer vision benefits ($100 to $400 eyewear allowance)" },
       { icon: "x", text: "<strong>Medigap:</strong> Does not cover vision; consider standalone vision plan ($15 to $50/month)" },
-      { icon: "dollar", text: "<strong>Post-cataract cost:</strong> You pay 20% coinsurance + $257 Part B deductible (2026)" },
+      { icon: "dollar", text: "<strong>Post-cataract cost:</strong> You pay 20% coinsurance + $283 Part B deductible (2026)" },
       { icon: "info", text: "<strong>Affordable options:</strong> Online retailers from $10, Costco from $100, charitable programs available" }
     ],
     relatedTopics: [
@@ -3712,7 +3712,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "11 min read",
     quickAnswer: {
-      text: "Yes, Medicare covers COPD treatment across multiple parts of the program. Medicare Part B covers doctor and specialist visits (including pulmonologists), diagnostic tests (spirometry, chest X-rays, CT scans), pulmonary rehabilitation programs, and home oxygen therapy when medically necessary. Medicare Part D covers COPD medications including rescue inhalers, maintenance inhalers, nebulizer solutions, and oral medications. The 2025 Inflation Reduction Act cap of $2,000 per year on Part D out-of-pocket costs significantly reduces inhaler expenses for COPD patients in 2026.",
+      text: "Yes, Medicare covers COPD treatment across multiple parts of the program. Medicare Part B covers doctor and specialist visits (including pulmonologists), diagnostic tests (spirometry, chest X-rays, CT scans), pulmonary rehabilitation programs, and home oxygen therapy when medically necessary. Medicare Part D covers COPD medications including rescue inhalers, maintenance inhalers, nebulizer solutions, and oral medications. The 2025 Inflation Reduction Act cap of $2,100 per year on Part D out-of-pocket costs significantly reduces inhaler expenses for COPD patients in 2026.",
       badges: [
         { plan: "Medicare Part B", status: "covered" },
         { plan: "Medicare Part D", status: "covered" },
@@ -3734,7 +3734,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered (with cost-sharing)",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Part B provides extensive coverage for outpatient COPD treatment. This includes visits to your primary care physician and pulmonologist (lung specialist), diagnostic testing, pulmonary rehabilitation, oxygen therapy, and preventive screenings. You pay 20% coinsurance after meeting the annual [Part B deductible](/faqs/medicare-part-b-deductible) ($257 in 2026).",
+          "Medicare Part B provides extensive coverage for outpatient COPD treatment. This includes visits to your primary care physician and pulmonologist (lung specialist), diagnostic testing, pulmonary rehabilitation, oxygen therapy, and preventive screenings. You pay 20% coinsurance after meeting the annual [Part B deductible](/faqs/medicare-part-b-deductible) ($283 in 2026).",
           "**Pulmonologist visits:** Medicare Part B covers visits to a pulmonologist (lung specialist) when referred by your doctor or when medically necessary. If your pulmonologist accepts [Medicare assignment](/faqs/what-is-medicare-assignment), you pay 20% of the Medicare-approved amount. Finding a pulmonologist who accepts Medicare is straightforward: use the Medicare.gov Physician Compare tool or call 1-800-MEDICARE.",
           "**Diagnostic tests:** Medicare covers spirometry (breathing tests), chest X-rays, CT scans, arterial blood gas tests, pulse oximetry, and other tests used to diagnose and monitor COPD. These are covered under Part B with standard 20% coinsurance.",
           "**Pulmonary rehabilitation:** Medicare Part B covers pulmonary rehabilitation programs for COPD patients. These programs include supervised exercise, breathing techniques, education about managing your condition, and psychological support. Medicare covers up to 36 sessions (with physician approval for up to 36 additional sessions). You pay 20% coinsurance per session.",
@@ -3847,7 +3847,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
         {
           title: "COPD Exacerbation and Hospitalization",
-          text: "When COPD flares require hospitalization, Medicare Part A covers the inpatient stay including ICU care, respiratory therapy, medications administered in the hospital, and discharge planning. You pay the Part A deductible ($1,676 in 2026) for each benefit period. Medigap plans cover this deductible."
+          text: "When COPD flares require hospitalization, Medicare Part A covers the inpatient stay including ICU care, respiratory therapy, medications administered in the hospital, and discharge planning. You pay the Part A deductible ($1,736 in 2026) for each benefit period. Medigap plans cover this deductible."
         }
       ]
     },
@@ -3857,7 +3857,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { question: "Does Medicare cover pulmonary rehabilitation?", answer: "Yes. Medicare Part B covers pulmonary rehabilitation for COPD patients. The program includes supervised exercise, breathing techniques, disease management education, and psychological support. Medicare covers up to 36 sessions initially, with physician approval for up to 36 additional sessions (72 total). You pay 20% coinsurance per session." },
       { question: "How much do COPD inhalers cost with Medicare?", answer: "With Medicare Part D, rescue inhalers (generic albuterol) typically cost $0 to $15 per fill. Brand-name maintenance inhalers cost $40 to $100+ per fill depending on tier placement. However, the $2,000 annual out-of-pocket cap means once your total drug costs reach $2,000 for the year, all additional prescriptions are $0. You can spread payments monthly through the Medicare Prescription Payment Plan." },
       { question: "Does Medicare cover nebulizer treatments for COPD?", answer: "Yes. The nebulizer machine is covered under Medicare Part B as durable medical equipment (you pay 20% coinsurance). The nebulizer solutions (medications like ipratropium or budesonide) are covered under Medicare Part D. Your doctor must provide a prescription and Certificate of Medical Necessity for the nebulizer." },
-      { question: "Does Medicare cover a pulmonologist for COPD?", answer: "Yes. Medicare Part B covers visits to a pulmonologist (lung specialist) when medically necessary. You pay 20% coinsurance after meeting the Part B deductible ($257 in 2026). With an HMO Medicare Advantage plan, you need a referral from your primary care doctor. With a PPO or Original Medicare, no referral is needed." },
+      { question: "Does Medicare cover a pulmonologist for COPD?", answer: "Yes. Medicare Part B covers visits to a pulmonologist (lung specialist) when medically necessary. You pay 20% coinsurance after meeting the Part B deductible ($283 in 2026). With an HMO Medicare Advantage plan, you need a referral from your primary care doctor. With a PPO or Original Medicare, no referral is needed." },
       { question: "Does Medicare cover lung cancer screening for COPD patients?", answer: "Yes. Medicare covers an annual Low-Dose CT (LDCT) lung cancer screening at $0 cost for beneficiaries aged 50 to 80 with a 20+ pack-year smoking history who currently smoke or quit within the past 15 years. Many COPD patients meet these criteria. No referral is needed, but you must get a written order from your doctor." },
       { question: "Does Medicare Advantage cover COPD treatment?", answer: "Yes. Medicare Advantage plans must cover everything Original Medicare covers, including all COPD treatments. Most MA plans also include Part D drug coverage for inhalers. Some plans offer additional benefits like fitness programs, telehealth visits, and transportation to appointments that can benefit COPD patients. Network restrictions apply." },
       { question: "Does Medigap help with COPD costs?", answer: "Yes. Medicare Supplement (Medigap) plans cover the cost-sharing associated with COPD treatment under Original Medicare. This includes the 20% Part B coinsurance for pulmonologist visits, pulmonary rehab, oxygen therapy, and the Part A deductible for hospitalizations. Medigap does not cover Part D drug costs (inhalers), so you still need a separate Part D plan." },
@@ -3997,8 +3997,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "<strong>Medicare Advantage</strong> must accept all eligible beneficiaries regardless of health status" },
       { icon: "alert", text: "<strong>Medigap</strong> covers pre-existing conditions during your 6-month OEP; underwriting applies outside that window" },
       { icon: "check", text: "<strong>Part D</strong> cannot deny enrollment based on health; formulary determines drug coverage" },
-      { icon: "info", text: "<strong>2026 costs:</strong> Part A deductible $1,676, Part B deductible $257, Part B premium $185/month" },
-      { icon: "info", text: "<strong>Part D cap:</strong> $2,000 maximum out-of-pocket for prescription drugs in 2026" }],
+      { icon: "info", text: "<strong>2026 costs:</strong> Part A deductible $1,736, Part B deductible $283, Part B premium $202.90/month" },
+      { icon: "info", text: "<strong>Part D cap:</strong> $2,100 maximum out-of-pocket for prescription drugs in 2026" }],
     relatedTopics: [
       { title: "Can You Be Denied a Medicare Supplement Plan?", description: "Learn when Medigap insurers can deny your application and what your options are.", slug: "can-you-be-denied-a-medicare-supplement-plan" },
       { title: "Medicare Supplement Open Enrollment Period", description: "Understand your guaranteed issue rights during the Medigap OEP.", slug: "medicare-supplement-open-enrollment" },
@@ -8298,9 +8298,9 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "2026 Medicare Costs (Current Year)",
       headers: ["Cost Component", "2026 Amount", "Notes"],
       rows: [
-        { "Cost Component": "Part B Monthly Premium", "2026 Amount": "$185.00", "Notes": "Standard premium; higher earners pay IRMAA surcharge" },
-        { "Cost Component": "Part B Annual Deductible", "2026 Amount": "$257.00", "Notes": "Must be met before Medicare pays 80%" },
-        { "Cost Component": "Part A Inpatient Deductible", "2026 Amount": "$1,676 per benefit period", "Notes": "Applies each time you are admitted to a hospital" },
+        { "Cost Component": "Part B Monthly Premium", "2026 Amount": "$202.90", "Notes": "Standard premium; higher earners pay IRMAA surcharge" },
+        { "Cost Component": "Part B Annual Deductible", "2026 Amount": "$283.00", "Notes": "Must be met before Medicare pays 80%" },
+        { "Cost Component": "Part A Inpatient Deductible", "2026 Amount": "$1,736 per benefit period", "Notes": "Applies each time you are admitted to a hospital" },
         { "Cost Component": "Part D Base Premium", "2026 Amount": "Varies by plan", "Notes": "National average is approximately $40/month" },
         { "Cost Component": "Part D Maximum Out-of-Pocket", "2026 Amount": "$2,000", "Notes": "New cap effective 2025; includes the Medicare Prescription Payment Plan option" },
         { "Cost Component": "MA Maximum Out-of-Pocket", "2026 Amount": "Varies by plan", "Notes": "CMS sets annual cap; check your specific plan" }
@@ -8344,7 +8344,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "info", text: "<strong>AEP Dates:</strong> October 15 to December 7 every year" },
       { icon: "info", text: "<strong>Changes take effect:</strong> January 1 of the following year" },
       { icon: "alert", text: "<strong>ANOC letter arrives:</strong> By September 30 each year" },
-      { icon: "dollar", text: "<strong>2026 Part B premium:</strong> $185.00/month standard" },
+      { icon: "dollar", text: "<strong>2026 Part B premium:</strong> $202.90/month standard" },
       { icon: "info", text: "<strong>Key actions:</strong> Switch MA plans, switch Part D, drop MA to Original, enroll in Part D" },
       { icon: "alert", text: "<strong>Cannot do during AEP:</strong> Switch Medigap with guaranteed issue, enroll in Part A/B for first time" }
     ],
@@ -11949,7 +11949,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "9 min read",
     quickAnswer: {
-      text: "Yes, Medicare Part B covers annual screening mammograms for women age 40 and older at $0 cost (no deductible, no coinsurance) when your provider accepts Medicare Assignment. Diagnostic mammograms are covered at 80% after the Part B deductible ($257 in 2026). Medicare also covers 3D mammograms (digital breast tomosynthesis) at the same rates as 2D mammograms, breast ultrasounds, and breast MRIs when medically necessary. There is no upper age limit for mammogram coverage.",
+      text: "Yes, Medicare Part B covers annual screening mammograms for women age 40 and older at $0 cost (no deductible, no coinsurance) when your provider accepts Medicare Assignment. Diagnostic mammograms are covered at 80% after the Part B deductible ($283 in 2026). Medicare also covers 3D mammograms (digital breast tomosynthesis) at the same rates as 2D mammograms, breast ultrasounds, and breast MRIs when medically necessary. There is no upper age limit for mammogram coverage.",
       badges: [
         { plan: "Original Medicare", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
@@ -11957,7 +11957,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     comparisonTable: [
       { planType: "Original Medicare Part B (Screening)", coverage: "100% Covered ($0)", icon: "check-circle", notes: "Annual screening mammogram at no cost for women 40+" },
-      { planType: "Original Medicare Part B (Diagnostic)", coverage: "80% Covered", icon: "check-circle", notes: "20% coinsurance after $257 Part B deductible (2026)" },
+      { planType: "Original Medicare Part B (Diagnostic)", coverage: "80% Covered", icon: "check-circle", notes: "20% coinsurance after $283 Part B deductible (2026)" },
       { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "check-circle", notes: "Must cover all Original Medicare benefits; many plans offer $0 for both types" },
       { planType: "Medicare Supplement (Medigap)", coverage: "Covers Your 20%", icon: "check-circle", notes: "Pays the 20% coinsurance for diagnostic mammograms" },
       { planType: "Medicare Part D", coverage: "Not Applicable", icon: "x-circle", notes: "Part D covers prescription drugs, not diagnostic imaging" }],
@@ -11999,7 +11999,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered (with cost-sharing)",
         coverageType: "partial",
         paragraphs: [
-          "When a screening mammogram detects an abnormality, or when you have symptoms such as a breast lump, nipple discharge, or breast pain, your doctor may order a diagnostic mammogram. Medicare Part B covers diagnostic mammograms at 80% of the Medicare-approved amount after you meet the annual [Part B deductible](/faqs/medicare-part-b-deductible) ($257 in 2026).",
+          "When a screening mammogram detects an abnormality, or when you have symptoms such as a breast lump, nipple discharge, or breast pain, your doctor may order a diagnostic mammogram. Medicare Part B covers diagnostic mammograms at 80% of the Medicare-approved amount after you meet the annual [Part B deductible](/faqs/medicare-part-b-deductible) ($283 in 2026).",
           "**Important:** If your screening mammogram is reclassified as diagnostic during the same visit (because the radiologist finds something that needs closer examination), you will be responsible for 20% coinsurance even though you came in for a routine screening. This is a common surprise for beneficiaries. A [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) or Medicare Advantage plan can eliminate this unexpected cost.",
           "Medicare also covers additional breast imaging when medically necessary, including breast ultrasounds (often used for women with dense breast tissue or to evaluate a specific area), breast MRI (for high-risk patients or to evaluate the extent of known cancer), and follow-up imaging at intervals shorter than 12 months when monitoring a previously detected abnormality.",
           "The average total cost of a diagnostic mammogram under Medicare is approximately $170 to $250. Your 20% share would be approximately $34 to $50 without supplemental coverage. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g) or similar comprehensive supplement, your 20% coinsurance is covered, making your out-of-pocket cost $0."
@@ -12059,7 +12059,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Service": "Breast MRI", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "~$100-$300 (20%)", "Your Cost (With Medigap)": "$0" },
         { "Service": "Biopsy (if needed)", "Medicare Covers": "80% after deductible", "Your Cost (No Supplement)": "~$200-$600 (20%)", "Your Cost (With Medigap)": "$0" }
       ],
-      footnote: "Screening mammograms have $0 cost-sharing as a Medicare preventive benefit. Diagnostic services require meeting the $257 Part B deductible (2026) first, then 20% coinsurance. Medigap plans (like Plan G) cover the 20% coinsurance."
+      footnote: "Screening mammograms have $0 cost-sharing as a Medicare preventive benefit. Diagnostic services require meeting the $283 Part B deductible (2026) first, then 20% coinsurance. Medigap plans (like Plan G) cover the 20% coinsurance."
     },
     exceptionsSection: {
       title: "Special Mammogram Coverage Rules",
@@ -12085,7 +12085,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       { question: "Does Medicare cover mammograms after age 70?", answer: "Yes. Medicare covers annual screening mammograms for women age 70 and older at the same $0 cost as younger beneficiaries. There is no upper age limit for mammogram coverage under Medicare. About 6% of breast cancers are diagnosed in women aged 85 and older, so continued screening remains important." },
       { question: "Does Medicare cover 3D mammograms?", answer: "Yes. Medicare has covered 3D mammograms (digital breast tomosynthesis) since 2015 at the same rates as 2D mammograms. Screening 3D mammograms are covered at $0 cost. Diagnostic 3D mammograms are covered at 80% with 20% coinsurance. 3D mammograms detect 20-65% more invasive cancers, especially in women with dense breast tissue." },
-      { question: "Does Medicare cover breast ultrasounds?", answer: "Yes. Medicare Part B covers breast ultrasounds when ordered by your doctor as medically necessary, such as when a mammogram shows an abnormality or when you have dense breast tissue. You pay 20% coinsurance after the Part B deductible ($257 in 2026). Medigap plans cover this coinsurance." },
+      { question: "Does Medicare cover breast ultrasounds?", answer: "Yes. Medicare Part B covers breast ultrasounds when ordered by your doctor as medically necessary, such as when a mammogram shows an abnormality or when you have dense breast tissue. You pay 20% coinsurance after the Part B deductible ($283 in 2026). Medigap plans cover this coinsurance." },
       { question: "What does a mammogram cost with Medicare?", answer: "Annual screening mammograms cost $0 (no deductible, no coinsurance). Diagnostic mammograms cost approximately $34 to $50 out of pocket (your 20% share after the deductible). With a Medigap plan like Plan G, diagnostic mammograms also cost $0 because the plan covers your 20% coinsurance." },
       { question: "How often does Medicare pay for mammograms?", answer: "Medicare covers one screening mammogram every 12 months for women age 40 and older. The 12-month clock starts from the date of your last screening mammogram. Diagnostic mammograms can be covered more frequently when medically necessary (for example, 6-month follow-up imaging for a previously detected abnormality)." },
       { question: "Does Medicare cover mammograms for men?", answer: "Medicare does not cover routine screening mammograms for men. However, if a man has symptoms such as a breast lump, nipple discharge, or breast pain, Medicare Part B covers a diagnostic mammogram as a medically necessary service. Male breast cancer accounts for about 1% of all breast cancer cases." },
@@ -12386,7 +12386,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Days in SNF": "Days 21–100", "Medicare Pays": "All but $217/day", "You Pay (No Supplement)": "$217/day", "You Pay (With Plan G)": "$0" },
         { "Days in SNF": "Day 101+", "Medicare Pays": "$0", "You Pay (No Supplement)": "Full daily rate", "You Pay (With Plan G)": "Full daily rate" },
         { "Days in SNF": "Max 80-day coinsurance exposure", "Medicare Pays": "-", "You Pay (No Supplement)": "Up to $16,760", "You Pay (With Plan G)": "$0" }],
-      footnote: "2024 figures. The Part A deductible ($1,632 in 2024) applies to the qualifying hospital stay, not the SNF stay itself.",
+      footnote: "2026 figures. The Part A deductible ($1,736 in 2026) applies to the qualifying hospital stay, not the SNF stay itself.",
     },
     exceptionsSection: {
       title: "When Medicare Won't Cover SNF Care",
@@ -12509,8 +12509,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered - HSCT and AuSCT for qualifying conditions",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient stem cell transplants during a hospital stay. The transplant process - which can last 3 to 4 weeks as an inpatient - is covered after you meet the Part A deductible ($1,632 in 2024). Part A also covers any [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities) needed after discharge.",
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient stem cell therapy sessions. You pay 20% of the Medicare-approved amount after meeting the Part B deductible ($240 in 2024). Given the high cost of stem cell treatments ($5,000–$50,000+), this 20% can be substantial.",
+          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient stem cell transplants during a hospital stay. The transplant process - which can last 3 to 4 weeks as an inpatient - is covered after you meet the Part A deductible ($1,736 in 2026). Part A also covers any [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities) needed after discharge.",
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers outpatient stem cell therapy sessions. You pay 20% of the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). Given the high cost of stem cell treatments ($5,000–$50,000+), this 20% can be substantial.",
           "The critical requirement is FDA approval. Medicare only covers stem cell therapies approved by the FDA - specifically HSCT and AuSCT for certain cancers, blood disorders, and immune system conditions. Any non-FDA-approved therapy will be denied."],
         whatItCovers: [
           "Hematopoietic Stem Cell Transplantation (HSCT) for certain cancers and blood disorders",
@@ -12559,7 +12559,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible and the 20% Part B coinsurance for Medicare-approved stem cell therapy. Given the high cost of these treatments, Medigap can save you thousands of dollars.",
           "Medigap covers any service that Original Medicare approves - so if Medicare approves a stem cell therapy, your Medigap plan will cover your share of the cost. This provides significant financial protection for expensive cancer treatments.",
           "If you have a Medicare Advantage plan, you cannot use Medigap. Medigap only supplements Original Medicare (Parts A and B)."],
-        costNote: "With Plan G: pay only the Part B deductible ($240 in 2024). Without Medigap: 20% of all outpatient costs plus the Part A deductible for inpatient stays.",
+        costNote: "With Plan G: pay only the Part B deductible ($283 in 2026). Without Medigap: 20% of all outpatient costs plus the Part A deductible for inpatient stays.",
       }],
     costTable: {
       title: "Stem Cell Therapy Coverage by Condition",
@@ -12608,7 +12608,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Does Stem Cell Therapy Cost with Medicare?",
-        answer: "With Original Medicare, you pay the Part A deductible ($1,632 in 2024) for inpatient transplants and 20% of outpatient costs. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can reduce your share to just the annual Part B deductible ($240 in 2024).",
+        answer: "With Original Medicare, you pay the Part A deductible ($1,736 in 2026) for inpatient transplants and 20% of outpatient costs. A [Medigap Plan G](/faqs/medicare-supplement-plan-g) can reduce your share to just the annual Part B deductible ($283 in 2026).",
       },
       {
         question: "Does Medicare Cover Stem Cell Therapy for COPD?",
@@ -12694,7 +12694,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered when medically necessary and FDA-approved",
         paragraphs: [
-          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers Botox injections administered in a doctor's office or outpatient clinic when the treatment is medically necessary and FDA-approved. Part B pays 80% of the Medicare-approved amount; you pay the remaining 20% after meeting your annual Part B deductible ($240 in 2024).",
+          "[Medicare Part B](/faqs/what-is-medicare-part-b) covers Botox injections administered in a doctor's office or outpatient clinic when the treatment is medically necessary and FDA-approved. Part B pays 80% of the Medicare-approved amount; you pay the remaining 20% after meeting your annual Part B deductible ($283 in 2026).",
           "The typical Botox dosage for chronic migraines is 155 units, costing approximately $300–$600 per treatment session. With Part B covering 80%, your out-of-pocket cost per session would be approximately $60–$120 without a [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one).",
           "Before receiving Botox, you must typically try other treatments first and show no improvement. Your doctor must document that Botox is medically necessary for your specific condition. Contact your plan before treatment to confirm coverage and whether prior authorization is required."],
         whatItCovers: [
@@ -12743,7 +12743,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covers 20% coinsurance for all Medicare-approved Botox",
         paragraphs: [
           "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the 20% Part B coinsurance for Medicare-approved Botox treatments. Since Botox for conditions like chronic migraines requires repeated treatments (typically every 12 weeks), Medigap can provide significant savings over time.",
-          "With Plan G, your only out-of-pocket cost for Medicare-approved Botox is the annual Part B deductible ($240 in 2024), after which all covered Botox treatments are paid at 100%.",
+          "With Plan G, your only out-of-pocket cost for Medicare-approved Botox is the annual Part B deductible ($283 in 2026), after which all covered Botox treatments are paid at 100%.",
           "If you receive Botox reimbursement from Medicare (i.e., your doctor does not bill Medicare directly), you may need to file a Medicare reimbursement claim. This is rare but can happen if your doctor does not accept Medicare assignment."],
         costNote: "With Plan G: $0 per Botox session after the annual Part B deductible. Without Medigap: 20% of each session's cost.",
       }],
@@ -12932,7 +12932,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Best combination for cancer coverage",
         paragraphs: [
           "[Medicare Part D](/faqs/what-is-medicare-part-d) covers oral cancer medications not covered by Part B - including oral chemotherapy drugs, anti-nausea medications only available in pill form, self-injected drugs, and medications to prevent cancer recurrence. Cancer drugs are often in the highest drug tiers, so your copay or coinsurance can be substantial without Part D.",
-          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible, the 20% Part B coinsurance, and all Part A hospital coinsurance. Combined with Part D, this creates near-complete coverage for most cancer treatments. The only out-of-pocket cost is the annual Part B deductible ($240 in 2024) and Part D drug costs.",
+          "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible, the 20% Part B coinsurance, and all Part A hospital coinsurance. Combined with Part D, this creates near-complete coverage for most cancer treatments. The only out-of-pocket cost is the annual Part B deductible ($283 in 2026) and Part D drug costs.",
           "The Medicare Catastrophic Coverage cap (effective 2024) limits your out-of-pocket Part D drug costs to $8,000/year, providing additional protection for expensive oral cancer drugs."],
         callout: {
           type: "tip",
@@ -12945,7 +12945,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Medicare Cancer Coverage by Treatment Type",
       headers: ["Treatment", "Medicare Part", "Medicare Pays", "Your Cost (No Supplement)", "Your Cost (With Plan G)"],
       rows: [
-        { "Treatment": "Inpatient surgery/chemo", "Medicare Part": "Part A", "Medicare Pays": "All after deductible", "Your Cost (No Supplement)": "$1,632 deductible (2024)", "Your Cost (With Plan G)": "$0" },
+        { "Treatment": "Inpatient surgery/chemo", "Medicare Part": "Part A", "Medicare Pays": "All after deductible", "Your Cost (No Supplement)": "$1,736 deductible (2026)", "Your Cost (With Plan G)": "$0" },
         { "Treatment": "Outpatient chemotherapy", "Medicare Part": "Part B", "Medicare Pays": "80%", "Your Cost (No Supplement)": "20% of approved amount", "Your Cost (With Plan G)": "$0 after Part B deductible" },
         { "Treatment": "Radiation therapy", "Medicare Part": "Part B (outpatient)", "Medicare Pays": "80%", "Your Cost (No Supplement)": "20%", "Your Cost (With Plan G)": "$0 after Part B deductible" },
         { "Treatment": "Cancer screenings (mammogram, colonoscopy)", "Medicare Part": "Part B (preventive)", "Medicare Pays": "100%", "Your Cost (No Supplement)": "$0", "Your Cost (With Plan G)": "$0" },
@@ -13061,7 +13061,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { plan: "Medigap", status: "covered" }],
     },
     comparisonTable: [
-      { planType: "Original Medicare (Part A)", coverage: "Covered - inpatient surgery", icon: "shield", notes: "Inpatient bariatric surgery hospital stay after Part A deductible ($1,632 in 2024)" },
+      { planType: "Original Medicare (Part A)", coverage: "Covered - inpatient surgery", icon: "shield", notes: "Inpatient bariatric surgery hospital stay after Part A deductible ($1,736 in 2026)" },
       { planType: "Original Medicare (Part B)", coverage: "Covered - outpatient surgery", icon: "activity", notes: "Outpatient bariatric surgery and follow-up visits at 80% after Part B deductible" },
       { planType: "Medicare Part D", coverage: "Partial - post-surgery drugs", icon: "pill", notes: "Prescription medications after surgery - copay/coinsurance by tier" },
       { planType: "Medigap (Plan G)", coverage: "Covered - cost-sharing", icon: "users", notes: "Covers Part A deductible + Part B 20% coinsurance; reduces your cost to near $0" }],
@@ -13074,7 +13074,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covered - BMI ≥ 35 with obesity-related condition required",
         paragraphs: [
-          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient bariatric surgery - the hospital stay, operating room, [anesthesia](/faqs/does-medicare-cover-anesthesia), and recovery. You pay the Part A deductible ($1,632 in 2024) for each benefit period. If your surgery is performed as an outpatient procedure, [Medicare Part B](/faqs/what-is-medicare-part-b) covers 80% of the doctor's services and surgical supplies after the Part B deductible.",
+          "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) covers inpatient bariatric surgery - the hospital stay, operating room, [anesthesia](/faqs/does-medicare-cover-anesthesia), and recovery. You pay the Part A deductible ($1,736 in 2026) for each benefit period. If your surgery is performed as an outpatient procedure, [Medicare Part B](/faqs/what-is-medicare-part-b) covers 80% of the doctor's services and surgical supplies after the Part B deductible.",
           "Medicare Part B also covers obesity counseling - up to 22 sessions in the first year for beneficiaries with a BMI over 30. This counseling is covered at 100% as a preventive service when provided by a primary care physician in a primary care setting.",
           "Medicare Part D covers prescription medications prescribed after bariatric surgery, such as vitamins, supplements, and any medications needed for post-surgical management. Coverage depends on your specific Part D plan's formulary."],
         whatItCovers: [
@@ -13096,7 +13096,7 @@ export const coverageArticles: CoverageArticleData[] = [
           title: "Free Obesity Counseling Available",
           text: "Medicare covers obesity screening and counseling as a preventive service at 100% - no cost to you. This is a valuable benefit even if you do not ultimately qualify for bariatric surgery.",
         },
-        costNote: "Average bariatric surgery cost: $25,000–$30,000. With Medicare: you pay the Part A deductible ($1,632) for inpatient surgery. With Plan G: $0.",
+        costNote: "Average bariatric surgery cost: $25,000–$30,000. With Medicare: you pay the Part A deductible ($1,736) for inpatient surgery. With Plan G: $0.",
       },
       {
         planName: "Medicare Advantage",
@@ -13125,9 +13125,9 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Reduces your bariatric surgery cost to near $0",
         paragraphs: [
           "A [Medigap Plan G](/faqs/medicare-supplement-plan-g) covers the Part A deductible for inpatient bariatric surgery and the 20% Part B coinsurance for outpatient procedures. Given the high cost of bariatric surgery ($25,000–$30,000), Medigap can save you thousands of dollars.",
-          "With Plan G, your only out-of-pocket cost for bariatric surgery is the annual Part B deductible ($240 in 2024), after which all Medicare-approved surgical costs are covered at 100%.",
+          "With Plan G, your only out-of-pocket cost for bariatric surgery is the annual Part B deductible ($283 in 2026), after which all Medicare-approved surgical costs are covered at 100%.",
           "Medigap also covers any post-surgical hospital stays, [skilled nursing facility care](/faqs/medicare-coverage-for-skilled-nursing-facilities), and follow-up outpatient visits - providing comprehensive protection throughout your recovery."],
-        costNote: "With Plan G: $240 total out-of-pocket (Part B deductible only). Without Medigap: $1,632 (Part A deductible) + 20% of outpatient costs.",
+        costNote: "With Plan G: $283 total out-of-pocket (Part B deductible only). Without Medigap: $1,736 (Part A deductible) + 20% of outpatient costs.",
       }],
     costTable: {
       title: "Medicare Bariatric Surgery Eligibility Requirements",
@@ -13184,7 +13184,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Does Bariatric Surgery Cost with Medicare?",
-        answer: "The average cost of bariatric surgery is $25,000–$30,000. With Original Medicare, you pay the Part A deductible ($1,632 in 2024) for an inpatient procedure. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g), your out-of-pocket cost is just the annual Part B deductible ($240 in 2024).",
+        answer: "The average cost of bariatric surgery is $25,000–$30,000. With Original Medicare, you pay the Part A deductible ($1,736 in 2026) for an inpatient procedure. With a [Medigap Plan G](/faqs/medicare-supplement-plan-g), your out-of-pocket cost is just the annual Part B deductible ($283 in 2026).",
       },
       {
         question: "Does Medicare Cover Obesity Counseling?",
@@ -19741,7 +19741,7 @@ export const coverageArticles: CoverageArticleData[] = [
         whatItDoesntCover: [
           "Leqembi (lecanemab) - covered under Part B instead",
           "Medications not on your plan's formulary"],
-        costNote: "In 2026, the maximum out-of-pocket cap for Part D is $2,000, providing significant protection for those on expensive medications.",
+        costNote: "In 2026, the maximum out-of-pocket cap for Part D is $2,100, providing significant protection for those on expensive medications.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -20050,7 +20050,7 @@ export const coverageArticles: CoverageArticleData[] = [
         statusBadge: "Covered - formulary varies by plan",
         paragraphs: [
           "[Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) covers prescription glaucoma medications including prostaglandin analogs (latanoprost, bimatoprost), beta-blockers (timolol), and carbonic anhydrase inhibitors (dorzolamide). Coverage and cost-sharing vary by plan formulary.",
-          "In 2026, the maximum out-of-pocket cap for Part D is $2,000, providing protection for beneficiaries on multiple medications."],
+          "In 2026, the maximum out-of-pocket cap for Part D is $2,100, providing protection for beneficiaries on multiple medications."],
         whatItCovers: [
           "Prostaglandin analogs (latanoprost/Xalatan, bimatoprost/Lumigan, travoprost/Travatan)",
           "Beta-blockers (timolol, betaxolol)",
@@ -20546,8 +20546,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers the inpatient hospital stay for knee replacement surgery, including the operating room, anesthesia, nursing care, and any inpatient rehabilitation. You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay.",
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers the surgeon's fees, pre-operative visits, and outpatient physical therapy after surgery. After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount for these services. As same-day outpatient knee replacements become more common, Part B also covers the procedure when performed in an approved outpatient setting."],
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers the inpatient hospital stay for knee replacement surgery, including the operating room, anesthesia, nursing care, and any inpatient rehabilitation. You pay the Part A inpatient deductible ($1,736 per benefit period in 2026) for the hospital stay.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers the surgeon's fees, pre-operative visits, and outpatient physical therapy after surgery. After meeting the Part B deductible ($283 in 2026), you pay 20% of the Medicare-approved amount for these services. As same-day outpatient knee replacements become more common, Part B also covers the procedure when performed in an approved outpatient setting."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -20582,7 +20582,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Will I Pay for Knee Replacement with Medicare?",
-        answer: "You pay the Part A inpatient deductible ($1,676 per benefit period in 2026) for the hospital stay, plus 20% of Part B-covered costs for surgeon fees and follow-up care. A Medigap plan can cover most of this.",
+        answer: "You pay the Part A inpatient deductible ($1,736 per benefit period in 2026) for the hospital stay, plus 20% of Part B-covered costs for surgeon fees and follow-up care. A Medigap plan can cover most of this.",
       }],
     quickReference: [
       { icon: "check", text: "<strong>Original Medicare</strong> covers knee replacement when medically necessary" },
@@ -20660,7 +20660,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers podiatry services that are medically necessary. This includes treatment for foot injuries, infections, plantar fasciitis, heel spurs, and diabetic foot care. If you have diabetes or a condition affecting circulation in your feet, Medicare also covers routine foot care such as nail trimming when performed by a podiatrist as part of your treatment plan.",
-          "Routine foot care that is not related to a medical condition is generally not covered. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($257 in 2026), you pay 20% of the Medicare-approved amount for covered podiatry visits."],
+          "Routine foot care that is not related to a medical condition is generally not covered. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($283 in 2026), you pay 20% of the Medicare-approved amount for covered podiatry visits."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -20695,7 +20695,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Does a Podiatry Visit Cost with Medicare?",
-        answer: "After the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%.",
+        answer: "After the Part B deductible ($283 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20%.",
       }],
     quickReference: [
       { icon: "alert", text: "<strong>Original Medicare</strong> covers medically necessary podiatry; routine care generally not covered" },
@@ -20883,7 +20883,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered",
         coverageType: "covered",
         paragraphs: [
-          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers outpatient mental health services, including individual and group psychotherapy, psychiatric evaluations, depression screenings, alcohol misuse counseling, and substance use disorder treatment. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($257 in 2026), you pay 20% of the Medicare-approved amount for these services.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers outpatient mental health services, including individual and group psychotherapy, psychiatric evaluations, depression screenings, alcohol misuse counseling, and substance use disorder treatment. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($283 in 2026), you pay 20% of the Medicare-approved amount for these services.",
           "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a) covers inpatient psychiatric hospital stays, up to 190 days in a lifetime in a freestanding psychiatric facility. Telehealth mental health visits from home are permanently covered under Medicare with no geographic restrictions, making it easier to access care from anywhere in the U.S."],
       },
       {
@@ -21554,7 +21554,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b) covers Botox injections when administered by a physician for a medically necessary condition. Covered conditions include: chronic migraines (defined as 15 or more headache days per month, with at least 8 being migraines), upper and lower limb spasticity, cervical dystonia (abnormal head position and neck pain), overactive bladder, and primary hyperhidrosis (excessive sweating).",
-          "Botox must be prescribed and administered by a Medicare-participating provider. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($257 in 2026), you pay 20% of the Medicare-approved amount. Botox for cosmetic purposes - including wrinkle reduction or facial aesthetics - is explicitly excluded from Medicare coverage."],
+          "Botox must be prescribed and administered by a Medicare-participating provider. After meeting the [Part B deductible](/original-medicare/medicare-costs) ($283 in 2026), you pay 20% of the Medicare-approved amount. Botox for cosmetic purposes - including wrinkle reduction or facial aesthetics - is explicitly excluded from Medicare coverage."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -21589,7 +21589,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Does Botox Cost with Medicare?",
-        answer: "After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20% coinsurance.",
+        answer: "After meeting the Part B deductible ($283 in 2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover that 20% coinsurance.",
       }],
     quickReference: [
       { icon: "check", text: "<strong>Covered</strong> for chronic migraines, spasticity, cervical dystonia, overactive bladder" },
@@ -21685,7 +21685,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Soft elastic supports that do not meet the rigid/semi-rigid requirement",
           "Braces from suppliers not enrolled in Medicare",
           "Devices not ordered by a doctor or qualified provider"],
-        costNote: "After meeting the Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount for your brace.",
+        costNote: "After meeting the Part B deductible ($283 in 2026), you pay 20% of the Medicare-approved amount for your brace.",
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -21731,7 +21731,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Brace Type": "Ankle-Foot Orthosis (AFO)", "Typical Cost Range": "$200 \u2013 $2,000", "Medicare Pays (80%)": "$160 \u2013 $1,600", "You Pay (20%)": "$40 \u2013 $400", "With Medigap": "$0 \u2013 $0" },
         { "Brace Type": "Neck Brace (Cervical)", "Typical Cost Range": "$50 \u2013 $500", "Medicare Pays (80%)": "$40 \u2013 $400", "You Pay (20%)": "$10 \u2013 $100", "With Medigap": "$0 \u2013 $0" },
         { "Brace Type": "Wrist/Arm Brace", "Typical Cost Range": "$50 \u2013 $500", "Medicare Pays (80%)": "$40 \u2013 $400", "You Pay (20%)": "$10 \u2013 $100", "With Medigap": "$0 \u2013 $0" }],
-      footnote: "Costs shown are for the Medicare-approved amount after meeting the Part B deductible ($257 in 2026). Actual costs vary by supplier, location, and whether the supplier accepts assignment. Medigap coverage assumes a plan that covers Part B coinsurance (most plans do).",
+      footnote: "Costs shown are for the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). Actual costs vary by supplier, location, and whether the supplier accepts assignment. Medigap coverage assumes a plan that covers Part B coinsurance (most plans do).",
     },
     exceptionsSection: {
       title: "Important: Requirements for Medicare Coverage",
@@ -21787,7 +21787,7 @@ export const coverageArticles: CoverageArticleData[] = [
     quickReference: [
       { icon: "check", text: "<strong>Medicare Part B</strong> covers arm, leg, back, and neck braces" },
       { icon: "check", text: "Must be <strong>medically necessary</strong> and ordered by a doctor" },
-      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible ($257 in 2026)" },
+      { icon: "dollar", text: "You pay <strong>20% coinsurance</strong> after the Part B deductible ($283 in 2026)" },
       { icon: "alert", text: "Must use a <strong>Medicare-enrolled supplier</strong>" },
       { icon: "info", text: "A <strong>Medigap plan</strong> can cover the 20% coinsurance" }],
     relatedTopics: [
@@ -21904,7 +21904,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "You can suspend (not cancel) FEHB if desired"],
         whatItDoesntCover: [
           "FEHB alone does not replace Medicare Part A benefits",
-          "You still pay the Part B premium ($185/month in 2026) if you enroll",
+          "You still pay the Part B premium ($202.90/month in 2026) if you enroll",
           "Not all FEHB plans coordinate the same way - check your plan details"],
         callout: {
           type: "tip",
@@ -21940,7 +21940,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Work History": "10+ years of MQGE or FICA employment", "Quarters": "40+", "Monthly Part A Premium": "$0", "Annual Cost": "$0" },
         { "Work History": "7.5 to 10 years", "Quarters": "30–39", "Monthly Part A Premium": "~$283", "Annual Cost": "~$3,396" },
         { "Work History": "Less than 7.5 years", "Quarters": "< 30", "Monthly Part A Premium": "~$518", "Annual Cost": "~$6,216" }],
-      footnote: "Premiums are for 2026. MQGE quarters and private-sector quarters are combined when calculating eligibility. Part B standard premium is $185/month regardless of work history.",
+      footnote: "Premiums are for 2026. MQGE quarters and private-sector quarters are combined when calculating eligibility. Part B standard premium is $202.90/month regardless of work history.",
     },
     exceptionsSection: {
       title: "Important: Combining MQGE and Private-Sector Quarters",
@@ -21996,7 +21996,7 @@ export const coverageArticles: CoverageArticleData[] = [
     quickReference: [
       { icon: "info", text: "<strong>MQGE</strong> = government wages taxed for Medicare but not Social Security" },
       { icon: "check", text: "<strong>40 quarters</strong> of MQGE/FICA work = premium-free Part A" },
-      { icon: "dollar", text: "Fewer than 30 quarters = <strong>~$518/month</strong> Part A premium in 2026" },
+      { icon: "dollar", text: "Fewer than 30 quarters = <strong>~$565/month</strong> Part A premium in 2026" },
       { icon: "alert", text: "<strong>FEHB</strong> counts as creditable coverage - no Part D late penalty" },
       { icon: "check", text: "MQGE + private-sector + self-employment quarters <strong>all combine</strong>" }],
     relatedTopics: [
@@ -22088,7 +22088,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Even if you cannot use an ex-spouse's work record, you can still enroll in Medicare. You may need to pay a monthly premium for Part A if you have fewer than 40 work credits of your own.",
           "Part B, Medicare Advantage, and Part D prescription drug coverage are available to everyone age 65 and older regardless of work history or marital status."],
         whatItCovers: [
-          "Part B available to everyone 65+ ($185/month in 2026)",
+          "Part B available to everyone 65+ ($202.90/month in 2026)",
           "Part A purchasable: ~$283/month (30–39 credits) or ~$518/month (<30 credits)",
           "Medicare Advantage plans available with Parts A and B",
           "Part D prescription drug coverage available to all"],
@@ -22311,7 +22311,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Assessments without a physician's referral or order",
           "Evaluations for non-medical purposes",
           "Home modifications or construction work"],
-        costNote: "After meeting the $257 Part B deductible (2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover this coinsurance.",
+        costNote: "After meeting the $283 Part B deductible (2026), you pay 20% of the Medicare-approved amount. A Medigap plan can cover this coinsurance.",
       },
       {
         planName: "Medicare Advantage Coverage",
@@ -22339,7 +22339,7 @@ export const coverageArticles: CoverageArticleData[] = [
       headers: ["Cost Component", "Original Medicare", "Medicare Advantage", "Without Medicare"],
       rows: [
         { "Cost Component": "Assessment Cost", "Original Medicare": "20% coinsurance after deductible", "Medicare Advantage": "Varies by plan ($0–$50 copay typical)", "Without Medicare": "$150–$400 out of pocket" },
-        { "Cost Component": "Part B Deductible", "Original Medicare": "$257/year (2026)", "Medicare Advantage": "Varies by plan", "Without Medicare": "N/A" },
+        { "Cost Component": "Part B Deductible", "Original Medicare": "$283/year (2026)", "Medicare Advantage": "Varies by plan", "Without Medicare": "N/A" },
         { "Cost Component": "Grab Bar Installation", "Original Medicare": "Not covered", "Medicare Advantage": "Some plans cover", "Without Medicare": "$100–$300 per bar" },
         { "Cost Component": "Follow-up OT Visits", "Original Medicare": "20% coinsurance", "Medicare Advantage": "Copay varies", "Without Medicare": "$100–$200 per visit" }],
     },
@@ -22399,7 +22399,7 @@ export const coverageArticles: CoverageArticleData[] = [
     quickReference: [
       { icon: "check" as const, text: "Part B covers home safety assessments when ordered by a physician" },
       { icon: "check" as const, text: "Must be performed by a Medicare-approved occupational therapist" },
-      { icon: "dollar" as const, text: "You pay 20% coinsurance after the $257 Part B deductible (2026)" },
+      { icon: "dollar" as const, text: "You pay 20% coinsurance after the $283 Part B deductible (2026)" },
       { icon: "alert" as const, text: "The assessment is covered, but recommended home modifications generally are not" },
       { icon: "info" as const, text: "Some MA plans offer expanded home safety and modification benefits" }],
     relatedTopics: [
@@ -22536,7 +22536,7 @@ export const coverageArticles: CoverageArticleData[] = [
       headers: ["Cost Component", "Amount", "Notes"],
       rows: [
         { "Cost Component": "Part A Premium", "Amount": "$0 (most people)", "Notes": "Free with 40+ quarters of Medicare-taxed work" },
-        { "Cost Component": "Part B Premium", "Amount": "$185/month (2026)", "Notes": "Standard premium; IRMAA surcharge may apply for higher incomes" },
+        { "Cost Component": "Part B Premium", "Amount": "$202.90/month (2026)", "Notes": "Standard premium; IRMAA surcharge may apply for higher incomes" },
         { "Cost Component": "Part B Deductible", "Amount": "$257/year", "Notes": "Annual deductible before Medicare pays its share" },
         { "Cost Component": "Part B Late Penalty", "Amount": "10% per 12-month delay", "Notes": "Permanent addition to your monthly premium" },
         { "Cost Component": "Medigap Plan G", "Amount": "$100–$300/month", "Notes": "Varies by age, location, and carrier" }],
@@ -22730,7 +22730,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Item": "HSA Contribution Limit (Family)", "2026 Amount": "$8,550", "Notes": "Cannot contribute if enrolled in any part of Medicare" },
         { "Item": "Catch-Up Contribution (55+)", "2026 Amount": "$1,000", "Notes": "Not available after Medicare enrollment" },
         { "Item": "Excess Contribution Penalty", "2026 Amount": "6% excise tax/year", "Notes": "Applies to contributions made after Medicare enrollment" },
-        { "Item": "Part B Premium (payable from HSA)", "2026 Amount": "$185/month", "Notes": "Qualified HSA expense - tax-free withdrawal" }],
+        { "Item": "Part B Premium (payable from HSA)", "2026 Amount": "$202.90/month", "Notes": "Qualified HSA expense - tax-free withdrawal" }],
     },
     exceptionsSection: {
       title: "Common HSA and Medicare Mistakes to Avoid",
@@ -22819,7 +22819,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200",
     },
     title: "Medicare Part B Premiums 2026: What You'll Pay and How to Save",
-    subtitle: "The standard Medicare Part B premium for 2026 is $185.00 per month. Higher earners pay more through IRMAA surcharges based on income from two years prior.",
+    subtitle: "The standard Medicare Part B premium for 2026 is $202.90 per month. Higher earners pay more through IRMAA surcharges based on income from two years prior.",
     category: "Medicare Costs",
     dateUpdated: "April 2026",
     lastReviewed: "2026-05-18",
@@ -22861,7 +22861,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "$202.90/month",
         coverageType: "covered",
         paragraphs: [
-          "The standard [Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) premium for 2026 is $202.90 per month, an increase of $17.90 from the 2025 premium of $185.00. This premium is typically deducted directly from your Social Security check.",
+          "The standard [Medicare Part B](/blog/understanding-medicare-part-b-premiums-deductibles-and-whats-covered) premium for 2026 is $202.90 per month, an increase of $17.90 from the 2025 premium of $202.90. This premium is typically deducted directly from your Social Security check.",
           "Part B covers outpatient services, doctor visits, preventive care, durable medical equipment, and some home health services. The 2026 annual deductible is $283 (up from $257 in 2025)."],
         whatItCovers: [
           "Doctor and outpatient services",
@@ -26112,7 +26112,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "The Medicare-approved amount is set by CMS in the Medicare Physician Fee Schedule. The provider cannot charge you more than this amount for covered services."],
         whatItCovers: [
           "Provider bills Medicare directly and accepts the approved amount as full payment",
-          "You pay: Part B deductible ($257 in 2026) + 20% coinsurance of the approved amount",
+          "You pay: Part B deductible ($283 in 2026) + 20% coinsurance of the approved amount",
           "Provider cannot bill you for the difference between their usual fee and Medicare's approved amount",
           "Applies to Part B services: doctor visits, outpatient care, durable medical equipment, lab tests"],
         whatItDoesntCover: [
@@ -26186,7 +26186,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Provider Type": "Participating (accepts assignment)", "Medicare Pays": "80% of approved amount", "You Pay (After Deductible)": "20% of approved amount", "Excess Charge": "None", "Medigap Covers Excess?": "N/A" },
         { "Provider Type": "Non-participating (no assignment)", "Medicare Pays": "80% of approved amount", "You Pay (After Deductible)": "20% + up to 15% excess", "Excess Charge": "Up to 15% above approved", "Medigap Covers Excess?": "Plan F and G only" },
         { "Provider Type": "Opt-out provider", "Medicare Pays": "$0", "You Pay (After Deductible)": "Full provider fee", "Excess Charge": "No limit", "Medigap Covers Excess?": "No" }],
-      footnote: "Part B deductible is $257 in 2026. After meeting the deductible, you pay 20% coinsurance for participating providers. Non-participating providers can add up to 15% on top of that.",
+      footnote: "Part B deductible is $283 in 2026. After meeting the deductible, you pay 20% coinsurance for participating providers. Non-participating providers can add up to 15% on top of that.",
     },
     exceptionsSection: {
       title: "Important Exceptions & Notes",
@@ -26218,7 +26218,7 @@ export const coverageArticles: CoverageArticleData[] = [
           description: "CMS updated the Medicare Physician Fee Schedule for 2026, adjusting approved amounts for thousands of services. Participating providers must accept these updated amounts as full payment.",
         },
         {
-          title: "Part B Deductible Increased to $257 in 2026",
+          title: "Part B Deductible Increased to $283 in 2026",
           status: "Passed",
           description: "The Part B deductible increased to $257 in 2026 (from $240 in 2025). This is the amount you pay before Medicare covers its 80% share for Part B services.",
         }],
@@ -26301,7 +26301,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "7 min read",
     quickAnswer: {
-      text: "The five most effective ways to reduce your Medicare premiums in 2026 are: (1) Apply for a Medicare Savings Program (MSP) to have the state pay your Part B premium; (2) Apply for Extra Help (Low Income Subsidy) to reduce Part D costs; (3) Appeal your IRMAA surcharge if your income has dropped; (4) Switch to a Medicare Advantage plan with a Part B Giveback benefit; and (5) Avoid late enrollment penalties by enrolling on time. The Part B standard premium is $185.00/month in 2026.",
+      text: "The five most effective ways to reduce your Medicare premiums in 2026 are: (1) Apply for a Medicare Savings Program (MSP) to have the state pay your Part B premium; (2) Apply for Extra Help (Low Income Subsidy) to reduce Part D costs; (3) Appeal your IRMAA surcharge if your income has dropped; (4) Switch to a Medicare Advantage plan with a Part B Giveback benefit; and (5) Avoid late enrollment penalties by enrolling on time. The Part B standard premium is $202.90/month in 2026.",
       badges: [
         { plan: "Part B", status: "covered" },
         { plan: "Part D", status: "covered" },
@@ -26341,7 +26341,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "State Pays Your Part B Premium",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Savings Programs (MSPs) are state-run programs that help people with limited income and resources pay their Medicare costs. The most valuable benefit is having the state pay your Part B premium ($185.00/month in 2026) on your behalf."],
+          "Medicare Savings Programs (MSPs) are state-run programs that help people with limited income and resources pay their Medicare costs. The most valuable benefit is having the state pay your Part B premium ($202.90/month in 2026) on your behalf."],
         whatItCovers: [
           "QMB (Qualified Medicare Beneficiary): Pays Part A and Part B premiums, deductibles, and cost-sharing. Income limit: ~$1,255/month (individual), ~$1,703/month (couple) in 2026",
           "SLMB (Specified Low-Income Medicare Beneficiary): Pays Part B premium only. Income limit: ~$1,478/month (individual) in 2026",
@@ -26448,7 +26448,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Strategy": "IRMAA Appeal", "Who Qualifies": "Income dropped due to life event", "Potential Monthly Savings": "$81–$487 (IRMAA surcharge)", "How to Apply": "SSA Form SSA-44" },
         { "Strategy": "Part B Giveback (MA)", "Who Qualifies": "Enroll in qualifying MA plan", "Potential Monthly Savings": "$0.10–$148.50", "How to Apply": "During AEP or SEP" },
         { "Strategy": "Avoid Late Penalties", "Who Qualifies": "All Medicare enrollees", "Potential Monthly Savings": "10%+ of premium (permanent)", "How to Apply": "Enroll on time" }],
-      footnote: "Income limits are approximate and may vary by state. Verify current limits at Medicare.gov or SSA.gov. Part B standard premium is $185.00/month in 2026.",
+      footnote: "Income limits are approximate and may vary by state. Verify current limits at Medicare.gov or SSA.gov. Part B standard premium is $202.90/month in 2026.",
     },
     exceptionsSection: {
       title: "Additional Ways to Reduce Medicare Costs",
@@ -26475,7 +26475,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "2026 Medicare Cost Updates",
       items: [
         {
-          title: "Part B Premium Increased to $185.00 in 2026",
+          title: "Part B Premium Increased to $202.90 in 2026",
           status: "Passed",
           description: "The standard Part B premium increased to $185.00/month in 2026 (from $174.70 in 2025), making premium reduction strategies more valuable than ever.",
         },
@@ -26826,7 +26826,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "TRICARE For Life (TFL) is Medicare-wraparound coverage for military retirees who have both Medicare Part A and Part B. Medicare pays first; TRICARE For Life pays second, covering most remaining costs. When both Medicare and TRICARE cover a service, you typically pay $0 out-of-pocket. TFL has no enrollment fee or premium - you only pay your Medicare Part B premium ($185.00/month in 2026). The TFL catastrophic cap is $3,000/year.",
+      text: "TRICARE For Life (TFL) is Medicare-wraparound coverage for military retirees who have both Medicare Part A and Part B. Medicare pays first; TRICARE For Life pays second, covering most remaining costs. When both Medicare and TRICARE cover a service, you typically pay $0 out-of-pocket. TFL has no enrollment fee or premium - you only pay your Medicare Part B premium ($202.90/month in 2026). The TFL catastrophic cap is $3,000/year.",
       badges: [
         { plan: "Part A", status: "covered" },
         { plan: "Part B", status: "covered" },
@@ -26914,7 +26914,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "TFL has no enrollment fee or premium beyond the Medicare Part B premium. Your out-of-pocket costs depend on the type of service and whether it is covered by Medicare, TRICARE, both, or neither."],
         whatItCovers: [
           "TFL premium: $0 (no enrollment fee)",
-          "Medicare Part B premium: $185.00/month (2026 standard rate)",
+          "Medicare Part B premium: $202.90/month (2026 standard rate)",
           "Services covered by both Medicare and TRICARE: $0 out-of-pocket",
           "TFL catastrophic cap: $3,000/calendar year (after which TFL covers 100% of TRICARE-covered services)",
           "Pharmacy: Covered through the TRICARE Pharmacy Program (generic $0 at military pharmacy, $14 at retail network)",
@@ -26974,7 +26974,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Scenario": "Medicare opt-out provider", "Medicare Pays": "$0", "TRICARE For Life Pays": "Up to 20% of TRICARE-allowable", "Your Cost": "Remaining balance" },
         { "Scenario": "Neither Medicare nor TRICARE covers", "Medicare Pays": "$0", "TRICARE For Life Pays": "$0", "Your Cost": "100% of bill" },
         { "Scenario": "After $3,000 catastrophic cap", "Medicare Pays": "Normal share", "TRICARE For Life Pays": "100% of TRICARE-covered services", "Your Cost": "$0 for TRICARE-covered services" }],
-      footnote: "Part B premium: $185.00/month (2026). TFL catastrophic cap: $3,000/year. TRICARE deductible (E-4+): $150/individual, $300/family.",
+      footnote: "Part B premium: $202.90/month (2026). TFL catastrophic cap: $3,000/year. TRICARE deductible (E-4+): $150/individual, $300/family.",
     },
     exceptionsSection: {
       title: "Important Exceptions & Notes",
@@ -27007,7 +27007,7 @@ export const coverageArticles: CoverageArticleData[] = [
           description: "The TRICARE For Life catastrophic cap remains at $3,000/calendar year in 2026, providing a hard limit on out-of-pocket costs for TFL beneficiaries.",
         },
         {
-          title: "Medicare Part B Premium Increased to $185.00 in 2026",
+          title: "Medicare Part B Premium Increased to $202.90 in 2026",
           status: "Passed",
           description: "The standard Medicare Part B premium increased to $185.00/month in 2026 (from $174.70 in 2025). This is the only premium TFL beneficiaries must pay to maintain TFL coverage.",
         },
@@ -27038,7 +27038,7 @@ export const coverageArticles: CoverageArticleData[] = [
     faqs: [
       {
         question: "Do I Need to Pay a Premium for TRICARE for Life?",
-        answer: "No. TFL has no enrollment fee or premium. You only pay the Medicare Part B premium ($185.00/month in 2026) to maintain TFL coverage.",
+        answer: "No. TFL has no enrollment fee or premium. You only pay the Medicare Part B premium ($202.90/month in 2026) to maintain TFL coverage.",
       },
       {
         question: "Does TRICARE For Life cover what Medicare doesn't?",
@@ -27057,7 +27057,7 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "You keep TFL, but the MA plan becomes primary. TFL claims won't automatically cross over - you may need to submit claims manually. Most TFL beneficiaries find Original Medicare + TFL simpler.",
       }],
     quickReference: [
-      { icon: "check", text: "TFL has no premium - only pay Medicare Part B ($185/month in 2026)" },
+      { icon: "check", text: "TFL has no premium - only pay Medicare Part B ($202.90/month in 2026)" },
       { icon: "check", text: "$0 out-of-pocket when both Medicare and TRICARE cover the service" },
       { icon: "alert", text: "Must keep Medicare Part B - dropping it means losing TRICARE For Life" },
       { icon: "info", text: "TFL catastrophic cap: $3,000/year" },
@@ -27175,7 +27175,7 @@ export const coverageArticles: CoverageArticleData[] = [
         callout: {
           type: "info",
           title: "Part B Cost-Sharing for Vision",
-          text: "For covered vision services, you pay 20% of the Medicare-approved amount after meeting the Part B deductible ($257 in 2026). Medigap plans can cover this 20% cost-share.",
+          text: "For covered vision services, you pay 20% of the Medicare-approved amount after meeting the Part B deductible ($283 in 2026). Medigap plans can cover this 20% cost-share.",
         },
       },
       {
@@ -27231,7 +27231,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Service": "Glaucoma screening (high-risk)", "Original Medicare": "Covered annually", "Medicare Advantage": "Covered", "Your Cost (Original Medicare)": "20% after deductible" },
         { "Service": "Diabetic retinopathy exam", "Original Medicare": "Covered annually", "Medicare Advantage": "Covered", "Your Cost (Original Medicare)": "20% after deductible" },
         { "Service": "Macular degeneration treatment", "Original Medicare": "Covered (Part B)", "Medicare Advantage": "Covered", "Your Cost (Original Medicare)": "20% after deductible" }],
-      footnote: "Part B deductible: $257 in 2026. Medigap plans can cover the 20% Part B cost-share for covered services. MA vision benefits vary by plan.",
+      footnote: "Part B deductible: $283 in 2026. Medigap plans can cover the 20% Part B cost-share for covered services. MA vision benefits vary by plan.",
     },
     exceptionsSection: {
       title: "Important Exceptions & Notes",
@@ -27263,7 +27263,7 @@ export const coverageArticles: CoverageArticleData[] = [
           description: "Some Medicare Advantage plans reduced or eliminated vision benefits in 2026 due to CMS funding changes. Beneficiaries should review their plan's Evidence of Coverage during AEP.",
         },
         {
-          title: "Part B Deductible Increased to $257 in 2026",
+          title: "Part B Deductible Increased to $283 in 2026",
           status: "Passed",
           description: "The Medicare Part B deductible increased to $257 in 2026 (from $240 in 2025), affecting cost-sharing for covered vision services like cataract surgery.",
         }],
@@ -27352,7 +27352,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "5 min read",
     quickAnswer: {
-      text: "Medicare beneficiaries CAN use prescription discount cards like GoodRx, RxSaver, and manufacturer coupons - but NOT at the same time as Medicare Part D. You must choose one or the other for each prescription fill. Using a discount card instead of Part D means that purchase does NOT count toward your Part D deductible or out-of-pocket maximum. In 2026, with the new $2,000 Part D out-of-pocket cap, it's often better to use Part D for expensive drugs and discount cards only for cheap generics not covered by your plan.",
+      text: "Medicare beneficiaries CAN use prescription discount cards like GoodRx, RxSaver, and manufacturer coupons - but NOT at the same time as Medicare Part D. You must choose one or the other for each prescription fill. Using a discount card instead of Part D means that purchase does NOT count toward your Part D deductible or out-of-pocket maximum. In 2026, with the new $2,100 Part D out-of-pocket cap, it's often better to use Part D for expensive drugs and discount cards only for cheap generics not covered by your plan.",
       badges: [
         { plan: "Part D", status: "partial" },
         { plan: "GoodRx", status: "covered" },
@@ -27364,7 +27364,7 @@ export const coverageArticles: CoverageArticleData[] = [
         planType: "Medicare Part D",
         coverage: "Covers formulary drugs; counts toward deductible and OOP max",
         icon: "shield-check",
-        notes: "$2,000 OOP cap in 2026; best for expensive brand-name drugs and high-cost medications",
+        notes: "$2,100 OOP cap in 2026; best for expensive brand-name drugs and high-cost medications",
       },
       {
         planType: "GoodRx / Discount Cards",
@@ -27407,7 +27407,7 @@ export const coverageArticles: CoverageArticleData[] = [
         callout: {
           type: "warning",
           title: "GoodRx vs. Part D: The $2,000 Cap Tradeoff",
-          text: "In 2026, Part D has a $2,000 out-of-pocket cap. If you use GoodRx for expensive drugs, those costs don't count toward the cap. For high-cost brand-name drugs, using Part D is usually better so you reach the cap faster. Use GoodRx only for cheap generics where Part D copays are higher.",
+          text: "In 2026, Part D has a $2,100 out-of-pocket cap. If you use GoodRx for expensive drugs, those costs don't count toward the cap. For high-cost brand-name drugs, using Part D is usually better so you reach the cap faster. Use GoodRx only for cheap generics where Part D copays are higher.",
         },
       },
       {
@@ -27473,13 +27473,13 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Prescription Savings Options for Medicare Beneficiaries",
       headers: ["Option", "Can Use with Medicare?", "Counts Toward OOP Cap?", "Best For"],
       rows: [
-        { "Option": "Medicare Part D", "Can Use with Medicare?": "Yes (primary)", "Counts Toward OOP Cap?": "Yes ($2,000 cap in 2026)", "Best For": "Expensive brand-name and specialty drugs" },
+        { "Option": "Medicare Part D", "Can Use with Medicare?": "Yes (primary)", "Counts Toward OOP Cap?": "Yes ($2,100 cap in 2026)", "Best For": "Expensive brand-name and specialty drugs" },
         { "Option": "GoodRx (instead of Part D)", "Can Use with Medicare?": "Yes (instead of Part D)", "Counts Toward OOP Cap?": "No", "Best For": "Cheap generics with high Part D copays" },
         { "Option": "Manufacturer Copay Card (cash)", "Can Use with Medicare?": "Yes (instead of Part D only)", "Counts Toward OOP Cap?": "No", "Best For": "Brand-name drugs when paying cash" },
         { "Option": "Manufacturer Copay Card (with Part D)", "Can Use with Medicare?": "No - illegal", "Counts Toward OOP Cap?": "N/A", "Best For": "Never - violates anti-kickback statute" },
         { "Option": "Extra Help (LIS)", "Can Use with Medicare?": "Yes (with Part D)", "Counts Toward OOP Cap?": "Yes", "Best For": "Low-income beneficiaries (income ≤ ~$2,015/mo)" },
         { "Option": "Patient Assistance Programs", "Can Use with Medicare?": "Yes (separate from Part D)", "Counts Toward OOP Cap?": "No", "Best For": "Very low-income; free drugs from manufacturer" }],
-      footnote: "Part D OOP cap: $2,000 in 2026. Extra Help copays: $4.90 generic / $12.15 brand in 2026. Insulin cap: $35/month.",
+      footnote: "Part D OOP cap: $2,100 in 2026. Extra Help copays: $4.90 generic / $12.15 brand in 2026. Insulin cap: $35/month.",
     },
     exceptionsSection: {
       title: "Important Rules & Exceptions",
@@ -28066,7 +28066,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "Medicare cost-sharing is the amount you pay for covered services - including deductibles, copays, and coinsurance. In 2026, the Part B deductible is $257, the Part A deductible is $1,676/benefit period, and Part B coinsurance is 20% after the deductible. Medigap plans like Plan K, L, M, and N are designed to reduce these out-of-pocket costs.",
+      text: "Medicare cost-sharing is the amount you pay for covered services - including deductibles, copays, and coinsurance. In 2026, the Part B deductible is $283, the Part A deductible is $1,736/benefit period, and Part B coinsurance is 20% after the deductible. Medigap plans like Plan K, L, M, and N are designed to reduce these out-of-pocket costs.",
       badges: [
         { plan: "Original Medicare", status: "partial" },
         { plan: "Medigap Plan G", status: "covered" },
@@ -28075,7 +28075,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     comparisonTable: [
       { planType: "Original Medicare Only", coverage: "You Pay 20% + Deductibles", icon: "shield", notes: "No cap on out-of-pocket costs" },
-      { planType: "Medigap Plan G", coverage: "Covers Most Cost-Sharing", icon: "shield", notes: "You pay only Part B deductible ($257 in 2026)" },
+      { planType: "Medigap Plan G", coverage: "Covers Most Cost-Sharing", icon: "shield", notes: "You pay only Part B deductible ($283 in 2026)" },
       { planType: "Medigap Plan K or L", coverage: "Partial Cost-Sharing", icon: "shield", notes: "Lower premium; you share costs up to OOP limit" },
       { planType: "Medicare Advantage", coverage: "Fixed Copays", icon: "shield", notes: "Predictable copays but network restrictions apply" }],
     planBreakdowns: [
@@ -28089,9 +28089,9 @@ export const coverageArticles: CoverageArticleData[] = [
           "Medicare cost-sharing has four components: (1) **Premiums** - the monthly amount you pay for coverage regardless of whether you use services; (2) **Deductibles** - the amount you pay before Medicare starts covering costs; (3) **Copays** - a fixed dollar amount per service (common in Medicare Advantage); (4) **Coinsurance** - a percentage of the cost you pay after the deductible (Original Medicare typically charges 20%)."],
         whatItCovers: [
           "2026 Part B premium: $202.90/month (standard)",
-          "2026 Part B deductible: $257/year",
+          "2026 Part B deductible: $283/year",
           "2026 Part B coinsurance: 20% of Medicare-approved amount",
-          "2026 Part A deductible: $1,676/benefit period",
+          "2026 Part A deductible: $1,736/benefit period",
           "Part A coinsurance: $0 days 1–60; $419/day days 61–90; $838/day days 91+"],
         whatItDoesntCover: [
           "Does not include long-term care or custodial care costs",
@@ -28133,8 +28133,8 @@ export const coverageArticles: CoverageArticleData[] = [
           text: "Original Medicare has no annual out-of-pocket maximum. Without a Medigap plan or Medicare Advantage, you are exposed to unlimited cost-sharing for serious illnesses.",
         },
         whatItCovers: [
-          "Part A hospital deductible ($1,676 per benefit period in 2026)",
-          "Part B deductible ($257/year in 2026)",
+          "Part A hospital deductible ($1,736 per benefit period in 2026)",
+          "Part B deductible ($283/year in 2026)",
           "Part B coinsurance (20% of Medicare-approved amount)",
           "Part A coinsurance ($419/day for days 61–90 in hospital)"],
         whatItDoesntCover: [
@@ -28183,7 +28183,7 @@ export const coverageArticles: CoverageArticleData[] = [
         },
         {
           title: "Part D Has Separate Cost-Sharing",
-          text: "Part D (prescription drug coverage) has its own deductible (up to $590 in 2026), copays, and coinsurance. The IRA capped Part D out-of-pocket costs at $2,000 starting in 2025.",
+          text: "Part D (prescription drug coverage) has its own deductible (up to $615 in 2026), copays, and coinsurance. The IRA capped Part D out-of-pocket costs at $2,000 starting in 2025.",
         },
         {
           title: "Plan N Excess Charges",
@@ -28194,12 +28194,12 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Recent Legislative and Regulatory Updates",
       items: [
         {
-          title: "2026 Part B Deductible Increased to $257",
+          title: "2026 Part B Deductible Increased to $283",
           status: "Passed",
           description: "The Part B annual deductible increased to $257 for 2026, up from $240 in 2025. Medigap Plan G enrollees pay this deductible before their plan covers the remaining 20% coinsurance.",
         },
         {
-          title: "2026 Part A Deductible Increased to $1,676",
+          title: "2026 Part A Deductible Increased to $1,736",
           status: "Passed",
           description: "The Part A inpatient hospital deductible increased to $1,676 per benefit period for 2026, up from $1,632 in 2025.",
         },
@@ -28228,11 +28228,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "What is the 2026 Part B Deductible?",
-        answer: "The Part B deductible is $257 for 2026. After meeting the deductible, Medicare pays 80% of approved costs and you pay 20% (unless you have a Medigap plan).",
+        answer: "The Part B deductible is $283 for 2026. After meeting the deductible, Medicare pays 80% of approved costs and you pay 20% (unless you have a Medigap plan).",
       }],
     quickReference: [
-      { icon: "dollar", text: "2026 Part B deductible: $257; coinsurance: 20% of approved amount" },
-      { icon: "dollar", text: "2026 Part A deductible: $1,676 per benefit period" },
+      { icon: "dollar", text: "2026 Part B deductible: $283; coinsurance: 20% of approved amount" },
+      { icon: "dollar", text: "2026 Part A deductible: $1,736 per benefit period" },
       { icon: "alert", text: "Original Medicare has no annual out-of-pocket maximum" },
       { icon: "check", text: "Medigap Plan K/L have OOP caps: $7,220 and $3,610 in 2026" },
       { icon: "info", text: "Medigap cannot be used with Medicare Advantage" }],
@@ -28294,7 +28294,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered - 80% After Deductible",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Part B covers diabetes-related durable medical equipment (DME) when prescribed by a doctor and obtained from a Medicare-enrolled supplier. You pay 20% coinsurance after the Part B deductible ($257 in 2026)."],
+          "Medicare Part B covers diabetes-related durable medical equipment (DME) when prescribed by a doctor and obtained from a Medicare-enrolled supplier. You pay 20% coinsurance after the Part B deductible ($283 in 2026)."],
         whatItCovers: [
           "Blood glucose monitors (one every 5 years for most beneficiaries)",
           "Test strips: up to 100/month (non-insulin users) or 300/month (insulin users)",
@@ -28320,7 +28320,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Insulin: $35/month cap per covered insulin (IRA, 2023)",
           "Oral medications: metformin, sulfonylureas, DPP-4 inhibitors, SGLT-2 inhibitors",
           "Non-insulin injectables: GLP-1 agonists (when prescribed for diabetes)",
-          "2026 Part D OOP cap: $2,000/year",
+          "2026 Part D OOP cap: $2,100/year",
           "Coverage varies by plan formulary - check your plan's drug list"],
         whatItDoesntCover: [
           "Does not cover GLP-1 drugs (e.g., Ozempic) prescribed solely for weight loss",
@@ -28914,7 +28914,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "Medicare Part D plans offer mail order pharmacy options that typically provide a 90-day supply for the cost of a 60-day supply (or less). Mail order is best for maintenance medications you take regularly. In 2026, the Part D $2,000 out-of-pocket cap makes mail order even more valuable for managing costs.",
+      text: "Medicare Part D plans offer mail order pharmacy options that typically provide a 90-day supply for the cost of a 60-day supply (or less). Mail order is best for maintenance medications you take regularly. In 2026, the Part D $2,100 out-of-pocket cap makes mail order even more valuable for managing costs.",
       badges: [
         { plan: "Part D", status: "covered" },
         { plan: "Medicare Advantage (MAPD)", status: "covered" },
@@ -28954,7 +28954,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "The savings from mail order depend on your plan's cost-sharing structure. A typical example: a generic maintenance drug with a $10 retail copay costs $30 for 90 days at retail (3 copays) but only $20 for 90 days by mail order (2 copays) - saving $10 every 90 days, or $40/year per drug.",
-          "With the 2026 Part D $2,000 OOP cap, mail order helps you reach the cap faster on expensive brand-name drugs, after which the plan pays 100%. For high-cost specialty drugs, this can mean significant savings."],
+          "With the 2026 Part D $2,100 OOP cap, mail order helps you reach the cap faster on expensive brand-name drugs, after which the plan pays 100%. For high-cost specialty drugs, this can mean significant savings."],
         whatItCovers: [
           "Savings of 25–50% per dose for many maintenance medications",
           "Counts toward Part D OOP cap - same as retail pharmacy purchases",
@@ -29011,7 +29011,7 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Drug Type": "Preferred brand", "Retail 30-Day": "$45/month ($540/year)", "Mail Order 90-Day": "$90/90 days ($360/year)", "Extra Help Mail Order": "$12.15 × 2 = $24.30/90 days", "Notes": "Significant mail order savings" },
         { "Drug Type": "Non-preferred brand", "Retail 30-Day": "$95/month ($1,140/year)", "Mail Order 90-Day": "$190/90 days ($760/year)", "Extra Help Mail Order": "$12.15 × 2 = $24.30/90 days", "Notes": "Check formulary for alternatives" },
         { "Drug Type": "Insulin", "Retail 30-Day": "$35/month cap", "Mail Order 90-Day": "$35/month cap applies", "Extra Help Mail Order": "$4.90 copay", "Notes": "$35/month insulin cap applies at mail order" },
-        { "Drug Type": "Specialty drug", "Retail 30-Day": "33% coinsurance (up to OOP cap)", "Mail Order 90-Day": "33% coinsurance (up to OOP cap)", "Extra Help Mail Order": "$12.15 copay", "Notes": "OOP cap: $2,000 in 2026" }],
+        { "Drug Type": "Specialty drug", "Retail 30-Day": "33% coinsurance (up to OOP cap)", "Mail Order 90-Day": "33% coinsurance (up to OOP cap)", "Extra Help Mail Order": "$12.15 copay", "Notes": "OOP cap: $2,100 in 2026" }],
       footnote: "Costs are illustrative examples. Actual copays depend on your specific Part D plan and drug tier.",
     },
     exceptionsSection: {
@@ -29055,12 +29055,12 @@ export const coverageArticles: CoverageArticleData[] = [
       { question: "Does the $2,000 Part D OOP Cap Apply to Mail Order Purchases?", answer: "Yes. All Part D cost-sharing, including mail order copays, counts toward the $2,000 annual out-of-pocket cap." }],
     quickReference: [
       { icon: "check", text: "Mail order: 90-day supply for ~2 copays (vs. 3 at retail) - saves ~33% per fill" },
-      { icon: "dollar", text: "Part D OOP cap: $2,000 in 2026 - mail order counts toward the cap" },
+      { icon: "dollar", text: "Part D OOP cap: $2,100 in 2026 - mail order counts toward the cap" },
       { icon: "info", text: "Use your plan's designated mail order pharmacy - out-of-network mail order may not be covered" },
       { icon: "alert", text: "Plan ahead: mail order takes 7–10 business days - request refills early" },
       { icon: "check", text: "$35 insulin cap and Extra Help copays apply at mail order pharmacies" }],
     relatedTopics: [
-      { title: "Medicare Part D Changes in 2026", description: "How the IRA's $2,000 cap and other changes affect drug costs.", slug: "how-is-medicare-part-d-changing-in-2026" },
+      { title: "Medicare Part D Changes in 2026", description: "How the IRA's $2,100 cap and other changes affect drug costs.", slug: "how-is-medicare-part-d-changing-in-2026" },
       { title: "Medicare Extra Help Program", description: "Low-income subsidy for Part D costs.", slug: "medicare-extra-help-program" },
       { title: "Part D Formulary", description: "How drug formularies work and how to check yours.", slug: "part-d-formulary" },
       { title: "Medicare Prescription Drug Coverage", description: "What Part D covers and what it doesn't.", slug: "medicare-and-prescription-drugs-whats-covered-and-whats-not" }],
@@ -29290,7 +29290,7 @@ export const coverageArticles: CoverageArticleData[] = [
     slug: "medicare-changes",
     seo: {
       title: "New Medicare Changes for 2026: Premiums, Part D, and More",
-      description: "Key Medicare changes for 2026 include a higher Part B premium ($202.90), the Part D $2,000 OOP cap, 10 negotiated drug prices, and MA plan updates.",
+      description: "Key Medicare changes for 2026 include a higher Part B premium ($202.90), the Part D $2,100 OOP cap, 10 negotiated drug prices, and MA plan updates.",
       canonical: "https://www.medicarefaq.com/faqs/medicare-changes/",
       ogImage: "/images/medicarefaq-cover.jpg",
     },
@@ -29313,7 +29313,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "8 min read",
     quickAnswer: {
-      text: "The biggest Medicare changes for 2026 are: Part B premium increased to $202.90/month, Part D out-of-pocket cap is $2,000 (from the IRA), 10 drugs have negotiated prices, IRMAA brackets adjusted upward, and Medicare Advantage plans reduced some extra benefits. The Part D redesign is the most impactful change for beneficiaries with high drug costs.",
+      text: "The biggest Medicare changes for 2026 are: Part B premium increased to $202.90/month, Part D out-of-pocket cap is $2,100 (from the IRA), 10 drugs have negotiated prices, IRMAA brackets adjusted upward, and Medicare Advantage plans reduced some extra benefits. The Part D redesign is the most impactful change for beneficiaries with high drug costs.",
       badges: [
         { plan: "Part B", status: "partial" },
         { plan: "Part D", status: "covered" },
@@ -29352,8 +29352,8 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Major Improvement",
         coverageType: "covered",
         paragraphs: [
-          "The most impactful Medicare change in recent years is the Part D out-of-pocket cap of $2,000, which took effect in 2025 and continues in 2026. Before this change, beneficiaries with high drug costs could face unlimited out-of-pocket expenses in the catastrophic phase.",
-          "In 2026, once you spend $2,000 on covered Part D drugs, the plan pays 100% for the rest of the year. This is especially significant for beneficiaries on expensive specialty medications, biologics, or cancer drugs. The Medicare Prescription Payment Plan (M3P) also allows you to spread costs across monthly installments."],
+          "The most impactful Medicare change in recent years is the Part D out-of-pocket cap of $2,100, which took effect in 2025 and continues in 2026. Before this change, beneficiaries with high drug costs could face unlimited out-of-pocket expenses in the catastrophic phase.",
+          "In 2026, once you spend $2,100 on covered Part D drugs, the plan pays 100% for the rest of the year. This is especially significant for beneficiaries on expensive specialty medications, biologics, or cancer drugs. The Medicare Prescription Payment Plan (M3P) also allows you to spread costs across monthly installments."],
         whatItCovers: [
           "$2,000 annual OOP cap on all covered Part D drugs",
           "Plan pays 100% after the $2,000 cap is reached",
@@ -29430,10 +29430,10 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Key Medicare Cost Changes: 2025 vs. 2026",
       headers: ["Cost Item", "2025", "2026", "Change"],
       rows: [
-        { "Cost Item": "Part B Standard Premium", "2025": "$185.00/month", "2026": "$202.90/month", "Change": "+$17.90/month (+9.7%)" },
-        { "Cost Item": "Part B Deductible", "2025": "$240/year", "2026": "$257/year", "Change": "+$17/year" },
-        { "Cost Item": "Part A Deductible", "2025": "$1,676/benefit period", "2026": "$1,732/benefit period", "Change": "+$56/benefit period" },
-        { "Cost Item": "Part D OOP Cap", "2025": "$2,000", "2026": "$2,000", "Change": "No change (new in 2025)" },
+        { "Cost Item": "Part B Standard Premium", "2025": "$202.90/month", "2026": "$202.90/month", "Change": "+$17.90/month (+9.7%)" },
+        { "Cost Item": "Part B Deductible", "2025": "$240/year", "2026": "$283/year", "Change": "+$17/year" },
+        { "Cost Item": "Part A Deductible", "2025": "$1,736/benefit period", "2026": "$1,732/benefit period", "Change": "+$56/benefit period" },
+        { "Cost Item": "Part D OOP Cap", "2025": "$2,100", "2026": "$2,100", "Change": "No change (new in 2025)" },
         { "Cost Item": "Part D Base Premium", "2025": "$34.70/month", "2026": "$36.78/month", "Change": "+$2.08/month" },
         { "Cost Item": "IRMAA Threshold (Single)", "2025": "$106,000", "2026": "$109,000", "Change": "+$3,000 (favorable)" },
         { "Cost Item": "MA OOP Maximum", "2025": "$9,350", "2026": "$9,350", "Change": "No change" }],
@@ -29443,7 +29443,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "What Did not Change in 2026",
       items: [
         { title: "Part a Premium (Most Beneficiaries)", text: "Most beneficiaries (40+ work quarters) pay $0 for Part A. This did not change in 2026." },
-        { title: "Part D $2,000 OOP Cap", text: "The $2,000 cap was introduced in 2025 and continues in 2026 - no change." },
+        { title: "Part D $2,100 OOP Cap", text: "The $2,100 cap was introduced in 2025 and continues in 2026 - no change." },
         { title: "MA OOP Maximum", text: "The Medicare Advantage in-network OOP maximum remains $9,350 in 2026." },
         { title: "$35 Insulin Cap", text: "The $35/month insulin cap for Part D continues in 2026 - no change." }],
     },
@@ -29474,7 +29474,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     faqs: [
       { question: "What is the Part B Premium for 2026?", answer: "$202.90/month for most beneficiaries. Higher-income beneficiaries pay more due to IRMAA surcharges." },
-      { question: "What is the Part D Out-of-pocket Cap for 2026?", answer: "$2,000. Once you spend $2,000 on covered Part D drugs, the plan pays 100% for the rest of the year." },
+      { question: "What is the Part D Out-of-pocket Cap for 2026?", answer: "$2,100. Once you spend $2,100 on covered Part D drugs, the plan pays 100% for the rest of the year." },
       { question: "Which Drugs Have Negotiated Prices in 2026?", answer: "Eliquis, Xarelto, Jardiance, Farxiga, Entresto, Enbrel, Imbruvica, Stelara, Fiasp/NovoLog, and Januvia." },
       { question: "Did Medicare Advantage Benefits Change in 2026?", answer: "Some plans reduced dental, vision, and hearing benefits due to CMS tightening rules on extra benefits. Review your plan's ANOC." },
       { question: "What is the IRMAA Threshold for 2026?", answer: "$109,000 for single filers and $218,000 for joint filers. Income above these thresholds triggers Part B and Part D surcharges." }],
@@ -29486,7 +29486,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "dollar", text: "IRMAA threshold: $109,000 (single) / $218,000 (joint) in 2026" }],
     relatedTopics: [
       { title: "Medicare Costs in 2026", description: "Complete breakdown of all 2026 Medicare premiums, deductibles, and cost-sharing.", slug: "medicare-costs-in-2026-premiums-deductibles-and-key-changes" },
-      { title: "How is Medicare Part D Changing in 2026?", description: "Detailed guide to the Part D $2,000 cap and drug price negotiation.", slug: "how-is-medicare-part-d-changing-in-2026" },
+      { title: "How is Medicare Part D Changing in 2026?", description: "Detailed guide to the Part D $2,100 cap and drug price negotiation.", slug: "how-is-medicare-part-d-changing-in-2026" },
       { title: "IRMAA: Medicare Premium Surcharges", description: "How IRMAA works and how to appeal.", slug: "irmaa" },
       { title: "Medicare News", description: "Latest Medicare news and updates.", slug: "medicare-news" }],
     sidebarRelatedLinks: ["medicare-costs-in-2026-premiums-deductibles-and-key-changes", "how-is-medicare-part-d-changing-in-2026", "irmaa"],
@@ -29587,7 +29587,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "VA drug coverage IS considered creditable coverage for Medicare Part D purposes. This means you can delay enrolling in a Part D plan without penalty as long as you have VA drug coverage. If you later lose VA drug coverage, you have a 63-day window to enroll in Part D without penalty.",
-          "Many veterans choose to use VA drug coverage instead of Part D because VA drug prices are often lower, especially for generic medications. However, with the 2026 Part D $2,000 OOP cap and 10 negotiated drug prices, Part D may now be competitive with VA pricing for some medications."],
+          "Many veterans choose to use VA drug coverage instead of Part D because VA drug prices are often lower, especially for generic medications. However, with the 2026 Part D $2,100 OOP cap and 10 negotiated drug prices, Part D may now be competitive with VA pricing for some medications."],
         whatItCovers: [
           "VA drug coverage: prescriptions filled at VA pharmacies, often at very low cost ($0–$11/month copay)",
           "VA drug coverage is creditable - no Part D penalty for delaying enrollment",
@@ -29729,7 +29729,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "7 min read",
     quickAnswer: {
-      text: "Medicare and Social Security are two separate federal programs. Social Security provides retirement income; Medicare provides health insurance. You can receive one without the other. In 2026, Medicare Part B premiums of $185/month are typically deducted automatically from Social Security checks.",
+      text: "Medicare and Social Security are two separate federal programs. Social Security provides retirement income; Medicare provides health insurance. You can receive one without the other. In 2026, Medicare Part B premiums of $202.90/month are typically deducted automatically from Social Security checks.",
       badges: [
         { plan: "Original Medicare", status: "covered" },
         { plan: "Social Security", status: "covered" },
@@ -29788,10 +29788,10 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Coordinated Programs",
         coverageType: "partial",
         paragraphs: [
-          "While Medicare and Social Security are separate programs, they often interact. If you receive Social Security at 65, you are automatically enrolled in Medicare Parts A and B. Your Part B premium ($185/month in 2026) is automatically deducted from your Social Security check."],
+          "While Medicare and Social Security are separate programs, they often interact. If you receive Social Security at 65, you are automatically enrolled in Medicare Parts A and B. Your Part B premium ($202.90/month in 2026) is automatically deducted from your Social Security check."],
         whatItCovers: [
           "SSA automatically enrolls you in Medicare Parts A & B at 65 if you receive Social Security",
-          "Part B premiums ($185/month in 2026) are deducted directly from your Social Security check",
+          "Part B premiums ($202.90/month in 2026) are deducted directly from your Social Security check",
           "Part D IRMAA surcharges are also deducted from Social Security",
           "Medicare Savings Programs can help low-income beneficiaries pay Part B premiums",
           "SSDI recipients automatically get Medicare after 24 months of disability benefits"],
@@ -29903,7 +29903,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Does Social Security Pay My Medicare Premiums?",
-        answer: "Social Security deducts your Part B premium ($185/month in 2026) from your check automatically. It doesn't 'pay' them - it's a deduction from your benefit.",
+        answer: "Social Security deducts your Part B premium ($202.90/month in 2026) from your check automatically. It doesn't 'pay' them - it's a deduction from your benefit.",
       },
       {
         question: "What Happens to Medicare if I Delay Social Security?",
@@ -29915,7 +29915,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Can I Get Medicare if I Never Worked?",
-        answer: "Yes, through a spouse's work record (if married 10+ years), or by paying Part A premiums ($285 or $518/month in 2026 depending on work history).",
+        answer: "Yes, through a spouse's work record (if married 10+ years), or by paying Part A premiums ($311 or $565/month in 2026 depending on work history).",
       }],
     quickReference: [
       { icon: "info", text: "Medicare = health insurance; Social Security = retirement income" },
@@ -29965,7 +29965,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "7 min read",
     quickAnswer: {
-      text: "Medicare Part B covers durable medical equipment (DME) that is medically necessary, prescribed by a doctor, and suitable for home use. You pay 20% coinsurance after the Part B deductible ($257 in 2026). Equipment must be purchased from a Medicare-enrolled supplier.",
+      text: "Medicare Part B covers durable medical equipment (DME) that is medically necessary, prescribed by a doctor, and suitable for home use. You pay 20% coinsurance after the Part B deductible ($283 in 2026). Equipment must be purchased from a Medicare-enrolled supplier.",
       badges: [
         { plan: "Part B", status: "covered" },
         { plan: "Medicare Advantage", status: "partial" },
@@ -30202,7 +30202,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "Medicare has four main types of out-of-pocket costs: premiums (monthly fee to have coverage), deductibles (amount you pay before Medicare starts), copays (fixed dollar amount per service), and coinsurance (percentage of the cost). In 2026, Part B coinsurance is 20% after a $257 deductible. Original Medicare has no out-of-pocket maximum.",
+      text: "Medicare has four main types of out-of-pocket costs: premiums (monthly fee to have coverage), deductibles (amount you pay before Medicare starts), copays (fixed dollar amount per service), and coinsurance (percentage of the cost). In 2026, Part B coinsurance is 20% after a $283 deductible. Original Medicare has no out-of-pocket maximum.",
       badges: [
         { plan: "Part A", status: "covered" },
         { plan: "Part B", status: "covered" },
@@ -30210,8 +30210,8 @@ export const coverageArticles: CoverageArticleData[] = [
         { plan: "Medigap", status: "partial" }],
     },
     comparisonTable: [
-      { planType: "Premium", coverage: "Monthly fee to maintain coverage", icon: "calendar", notes: "Part B: $185/month in 2026; deducted from SS check" },
-      { planType: "Deductible", coverage: "Amount you pay before Medicare pays", icon: "trending-up", notes: "Part B: $257/year; Part A: $1,676/benefit period in 2026" },
+      { planType: "Premium", coverage: "Monthly fee to maintain coverage", icon: "calendar", notes: "Part B: $202.90/month in 2026; deducted from SS check" },
+      { planType: "Deductible", coverage: "Amount you pay before Medicare pays", icon: "trending-up", notes: "Part B: $283/year; Part A: $1,736/benefit period in 2026" },
       { planType: "Copay", coverage: "Fixed dollar amount per service", icon: "dollar-sign", notes: "Common in MA plans: $10–$50 per PCP visit" },
       { planType: "Coinsurance", coverage: "Percentage of the cost you pay", icon: "percent", notes: "Part B: 20% after deductible; Medigap Plan G covers this" }],
     planBreakdowns: [
@@ -30222,11 +30222,11 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Monthly Fee",
         coverageType: "covered",
         paragraphs: [
-          "A premium is the monthly fee you pay to maintain Medicare coverage. Part A is free for most people (40+ quarters of Medicare taxes). Part B costs $185/month in 2026. Part D and Medigap premiums vary by plan."],
+          "A premium is the monthly fee you pay to maintain Medicare coverage. Part A is free for most people (40+ quarters of Medicare taxes). Part B costs $202.90/month in 2026. Part D and Medigap premiums vary by plan."],
         whatItCovers: [
           "Part A: $0/month if you have 40+ quarters of Medicare taxes",
-          "Part A: $285/month (30–39 quarters) or $518/month (under 30 quarters) in 2026",
-          "Part B: $185/month standard premium in 2026",
+          "Part A: $311/month (30–39 quarters) or $565/month (under 30 quarters) in 2026",
+          "Part B: $202.90/month standard premium in 2026",
           "Part D: Varies by plan; average ~$46/month in 2026",
           "Medigap: Varies by plan and age; Plan G typically $100–$200/month",
           "IRMAA surcharges apply to Part B and Part D for higher-income beneficiaries"],
@@ -30237,7 +30237,7 @@ export const coverageArticles: CoverageArticleData[] = [
         callout: {
           type: "info",
           title: "Part B Giveback",
-          text: "Some Medicare Advantage plans offer a 'Part B Giveback' benefit that reduces your Part B premium by up to $185/month. About 25% of MA plans offered this in 2026.",
+          text: "Some Medicare Advantage plans offer a 'Part B Giveback' benefit that reduces your Part B premium by up to $202.90/month. About 25% of MA plans offered this in 2026.",
         },
       },
       {
@@ -30247,11 +30247,11 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Annual Threshold",
         coverageType: "covered",
         paragraphs: [
-          "A deductible is the amount you pay out-of-pocket before Medicare starts paying. The Part B deductible is $257/year in 2026. The Part A deductible is $1,676 per benefit period - not per year."],
+          "A deductible is the amount you pay out-of-pocket before Medicare starts paying. The Part B deductible is $283/year in 2026. The Part A deductible is $1,736 per benefit period - not per year."],
         whatItCovers: [
-          "Part A deductible: $1,676 per benefit period in 2026 (not per year)",
-          "Part B deductible: $257 per year in 2026",
-          "Part D deductible: Up to $590/year in 2026 (varies by plan)",
+          "Part A deductible: $1,736 per benefit period in 2026 (not per year)",
+          "Part B deductible: $283 per year in 2026",
+          "Part D deductible: Up to $615/year in 2026 (varies by plan)",
           "After meeting the deductible, Medicare pays its share of covered services",
           "Medigap Plan G covers the Part A deductible; Plan F covers both A and B deductibles"],
         whatItDoesntCover: [
@@ -30275,9 +30275,9 @@ export const coverageArticles: CoverageArticleData[] = [
         whatItCovers: [
           "Part B: 20% of the Medicare-approved amount after the $257 deductible",
           "Part A hospital days 1–60: $0 coinsurance",
-          "Part A hospital days 61–90: $419/day coinsurance in 2026",
-          "Part A hospital days 91+: $838/day (lifetime reserve days) in 2026",
-          "Skilled nursing facility days 21–100: $209.50/day coinsurance in 2026"],
+          "Part A hospital days 61–90: $434/day coinsurance in 2026",
+          "Part A hospital days 91+: $868/day (lifetime reserve days) in 2026",
+          "Skilled nursing facility days 21–100: $217.00/day coinsurance in 2026"],
         whatItDoesntCover: [
           "Original Medicare has NO out-of-pocket maximum - coinsurance can be unlimited",
           "Medigap is the main way to cap coinsurance costs",
@@ -30307,14 +30307,14 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "2026 Medicare Cost-Sharing Quick Reference",
       headers: ["Cost Item", "Amount (2026)", "Type", "How to Reduce"],
       rows: [
-        { "Cost Item": "Part B Premium", "Amount (2026)": "$185.00/month", "Type": "Premium", "How to Reduce": "MSP, Part B Giveback, IRMAA appeal" },
+        { "Cost Item": "Part B Premium", "Amount (2026)": "$202.90/month", "Type": "Premium", "How to Reduce": "MSP, Part B Giveback, IRMAA appeal" },
         { "Cost Item": "Part A Premium", "Amount (2026)": "$0 (40+ quarters)", "Type": "Premium", "How to Reduce": "N/A if premium-free" },
-        { "Cost Item": "Part B Deductible", "Amount (2026)": "$257/year", "Type": "Deductible", "How to Reduce": "Medigap Plan F (pre-2020 enrollees)" },
-        { "Cost Item": "Part A Deductible", "Amount (2026)": "$1,676/benefit period", "Type": "Deductible", "How to Reduce": "Medigap Plan G" },
+        { "Cost Item": "Part B Deductible", "Amount (2026)": "$283/year", "Type": "Deductible", "How to Reduce": "Medigap Plan F (pre-2020 enrollees)" },
+        { "Cost Item": "Part A Deductible", "Amount (2026)": "$1,736/benefit period", "Type": "Deductible", "How to Reduce": "Medigap Plan G" },
         { "Cost Item": "Part B Coinsurance", "Amount (2026)": "20% after deductible", "Type": "Coinsurance", "How to Reduce": "Medigap Plan G" },
-        { "Cost Item": "Part A Days 61–90", "Amount (2026)": "$419/day", "Type": "Coinsurance", "How to Reduce": "Medigap Plan G" },
-        { "Cost Item": "SNF Days 21–100", "Amount (2026)": "$209.50/day", "Type": "Coinsurance", "How to Reduce": "Medigap Plan G" },
-        { "Cost Item": "Part D Deductible", "Amount (2026)": "Up to $590/year", "Type": "Deductible", "How to Reduce": "Extra Help, low-deductible plans" },
+        { "Cost Item": "Part A Days 61–90", "Amount (2026)": "$434/day", "Type": "Coinsurance", "How to Reduce": "Medigap Plan G" },
+        { "Cost Item": "SNF Days 21–100", "Amount (2026)": "$217.00/day", "Type": "Coinsurance", "How to Reduce": "Medigap Plan G" },
+        { "Cost Item": "Part D Deductible", "Amount (2026)": "Up to $615/year", "Type": "Deductible", "How to Reduce": "Extra Help, low-deductible plans" },
         { "Cost Item": "MA PCP Visit", "Amount (2026)": "$0–$20 typical", "Type": "Copay", "How to Reduce": "Choose $0 copay plans" },
         { "Cost Item": "MA OOP Maximum", "Amount (2026)": "$9,350 in-network", "Type": "Annual Cap", "How to Reduce": "Choose lower OOP max plans" }],
     },
@@ -30389,11 +30389,11 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "What is the Part B Deductible in 2026?",
-        answer: "The Part B deductible is $257 in 2026. After meeting it, Medicare pays 80% of covered outpatient services and you pay 20%.",
+        answer: "The Part B deductible is $283 in 2026. After meeting it, Medicare pays 80% of covered outpatient services and you pay 20%.",
       },
       {
         question: "How Does the Part a Deductible Work?",
-        answer: "The Part A deductible is $1,676 per benefit period in 2026 - not per year. A new benefit period begins if you're out of the hospital for 60 consecutive days.",
+        answer: "The Part A deductible is $1,736 per benefit period in 2026 - not per year. A new benefit period begins if you're out of the hospital for 60 consecutive days.",
       },
       {
         question: "Can Medigap Cover My Deductibles and Coinsurance?",
@@ -30401,7 +30401,7 @@ export const coverageArticles: CoverageArticleData[] = [
       }],
     quickReference: [
       { icon: "dollar", text: "Premium = monthly fee; Deductible = annual threshold before coverage kicks in" },
-      { icon: "info", text: "Part B coinsurance = 20% after $257 deductible in 2026" },
+      { icon: "info", text: "Part B coinsurance = 20% after $283 deductible in 2026" },
       { icon: "alert", text: "Original Medicare has NO out-of-pocket maximum - Medigap fills this gap" },
       { icon: "check", text: "Part D OOP cap = $2,000/year starting 2025" }],
     relatedTopics: [
@@ -30853,7 +30853,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "6 min read",
     quickAnswer: {
-      text: "The average Medicare Advantage premium is $17/month in 2026, but many plans have $0 premiums. You still pay the Part B premium ($185/month). The annual out-of-pocket maximum is $9,350 for in-network care.",
+      text: "The average Medicare Advantage premium is $17/month in 2026, but many plans have $0 premiums. You still pay the Part B premium ($202.90/month). The annual out-of-pocket maximum is $9,350 for in-network care.",
       badges: [
         { plan: "Medicare Advantage HMO", status: "covered" },
         { plan: "Medicare Advantage PPO", status: "covered" },
@@ -30945,14 +30945,14 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Plan Type": "MA with Part B Giveback", "Avg Monthly Premium": "$0", "Part B Premium": "$185 minus giveback", "Deductible": "Varies", "OOP Max (In-Network)": "Varies", "Dental/Vision": "Varies" },
         { "Plan Type": "Original Medicare only", "Avg Monthly Premium": "$0", "Part B Premium": "$185", "Deductible": "$257 (Part B)", "OOP Max (In-Network)": "No cap", "Dental/Vision": "Not covered" },
         { "Plan Type": "Original Medicare + Medigap G", "Avg Monthly Premium": "$100–$300", "Part B Premium": "$185", "Deductible": "$257 (Part B only)", "OOP Max (In-Network)": "Near $0 after deductible", "Dental/Vision": "Not covered" }],
-      footnote: "Premiums are averages and vary significantly by state, county, and plan. Part B premium is $185/month in 2026 for most beneficiaries.",
+      footnote: "Premiums are averages and vary significantly by state, county, and plan. Part B premium is $202.90/month in 2026 for most beneficiaries.",
     },
     exceptionsSection: {
       title: "Important Cost Considerations",
       items: [
         {
           title: "You Always Pay the Part B Premium",
-          text: "Even with a $0-premium Medicare Advantage plan, you still pay the Medicare Part B premium ($185/month in 2026). Some MA plans offer a Part B Give Back benefit that reduces this amount.",
+          text: "Even with a $0-premium Medicare Advantage plan, you still pay the Medicare Part B premium ($202.90/month in 2026). Some MA plans offer a Part B Give Back benefit that reduces this amount.",
           highlight: "A '$0 premium' MA plan does not mean $0 total cost - you still pay Part B ($185/month).",
         },
         {
@@ -31004,7 +31004,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
     },
     faqs: [
-      { question: "What is the Average Medicare Advantage Premium?", answer: "The average MA premium is about $17/month in 2026, but many plans have $0 premiums. You still pay the Part B premium ($185/month) regardless." },
+      { question: "What is the Average Medicare Advantage Premium?", answer: "The average MA premium is about $17/month in 2026, but many plans have $0 premiums. You still pay the Part B premium ($202.90/month) regardless." },
       { question: "Why do Medicare Advantage Costs Vary by State?", answer: "MA plans are offered by private insurers and priced based on local healthcare costs, competition, and Medicare reimbursement rates. Urban areas with more competition tend to have lower premiums." },
       { question: "What is the Out-of-pocket Maximum for Medicare Advantage?", answer: "In 2026, the in-network OOP maximum is capped at $9,350 by CMS. Once you reach this limit, your plan covers 100% of covered services for the rest of the year." },
       { question: "Is Medicare Advantage Cheaper than Original Medicare?", answer: "MA can be cheaper if you're healthy and use in-network providers. If you have high medical needs, Original Medicare with Medigap may provide more predictable costs." },
@@ -31179,7 +31179,7 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           title: "Part B Premium Increased to $185",
           status: "Passed",
-          description: "The standard Part B premium is $185/month in 2026. Late enrollees pay a permanent surcharge of 10% per year of delay on top of this amount.",
+          description: "The standard Part B premium is $202.90/month in 2026. Late enrollees pay a permanent surcharge of 10% per year of delay on top of this amount.",
         },
         {
           title: "Medicare Enrollment Simplification Act",
@@ -31827,7 +31827,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "alert", text: "Prior authorization or step therapy may apply even to formulary drugs" },
       { icon: "dollar", text: "Specialty drugs (Tier 5) can cost 25–33% coinsurance per fill" }],
     relatedTopics: [
-      { title: "How is Medicare Part D Changing in 2026?", description: "Key changes to Part D benefits, costs, and the $2,000 out-of-pocket cap.", slug: "how-is-medicare-part-d-changing-in-2026" },
+      { title: "How is Medicare Part D Changing in 2026?", description: "Key changes to Part D benefits, costs, and the $2,100 out-of-pocket cap.", slug: "how-is-medicare-part-d-changing-in-2026" },
       { title: "MAPD vs. PDP: Part D Options Explained", description: "Compare standalone Part D plans vs. Medicare Advantage drug coverage.", slug: "mapd-vs-part-d" },
       { title: "Six Protected Classes in Medicare Part D", description: "Why CMS requires broad coverage for six critical drug categories.", slug: "six-protected-classes" },
       { title: "Medicare Part D Explained", description: "Complete guide to how Medicare prescription drug coverage works.", slug: "medicare-part-d-explained" }],
@@ -31977,7 +31977,7 @@ export const coverageArticles: CoverageArticleData[] = [
         {
           title: "You Must Keep Part B",
           text: "To enroll in a Medicare Advantage plan, you must be enrolled in both Medicare Part A and Part B and continue paying your Part B premium. The Medicare Advantage plan does not replace your Part B premium - it replaces Original Medicare as your primary coverage.",
-          highlight: "Part B premium still applies - typically $185/month in 2026",
+          highlight: "Part B premium still applies - typically $202.90/month in 2026",
         },
         {
           title: "You Can Return to Original Medicare",
@@ -32109,7 +32109,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "Medicare Part B covers emergency ambulance transportation to the nearest appropriate medical facility when an emergency exists and any other form of transportation would endanger your health. This includes ground ambulance, air ambulance (helicopter), and fixed-wing aircraft when medically necessary.",
-          "After you meet your Part B deductible ($257 in 2026), you pay 20% of the Medicare-approved amount for the ambulance service. If you have a Medigap plan, it typically covers that 20% coinsurance. Medicare Advantage plans cover emergency ambulance at in-network rates regardless of where the emergency occurs."],
+          "After you meet your Part B deductible ($283 in 2026), you pay 20% of the Medicare-approved amount for the ambulance service. If you have a Medigap plan, it typically covers that 20% coinsurance. Medicare Advantage plans cover emergency ambulance at in-network rates regardless of where the emergency occurs."],
         whatItCovers: [
           "Ground ambulance to the nearest appropriate hospital or facility",
           "Air ambulance (helicopter or fixed-wing) when ground transport is not appropriate",
@@ -32125,7 +32125,7 @@ export const coverageArticles: CoverageArticleData[] = [
           title: "Air Ambulance Costs Can be Very High",
           text: "Air ambulance rides can cost $20,000–$50,000 or more. Medicare covers 80% of the approved amount after your deductible, but the approved amount may be far less than the actual bill. Always verify that the air ambulance provider accepts Medicare assignment to avoid balance billing.",
         },
-        costNote: "$ Cost: 20% coinsurance after the Part B deductible ($257 in 2026). Medigap covers this coinsurance for most plan types.",
+        costNote: "$ Cost: 20% coinsurance after the Part B deductible ($283 in 2026). Medigap covers this coinsurance for most plan types.",
       },
       {
         planName: "Non-Emergency Ambulance (Part B)",
@@ -32240,7 +32240,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How Much Does Medicare Pay for an Ambulance?",
-        answer: "Medicare Part B pays 80% of the Medicare-approved amount for covered ambulance services after you meet your Part B deductible ($257 in 2026). You are responsible for the remaining 20%. If you have a Medigap plan, it typically covers that 20%. If the ambulance provider does not accept Medicare assignment, you may owe more.",
+        answer: "Medicare Part B pays 80% of the Medicare-approved amount for covered ambulance services after you meet your Part B deductible ($283 in 2026). You are responsible for the remaining 20%. If you have a Medigap plan, it typically covers that 20%. If the ambulance provider does not accept Medicare assignment, you may owe more.",
       },
       {
         question: "What is Non-emergency Medical Transportation (NEMT)?",
@@ -32672,7 +32672,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "What is the Most Popular Medicare Supplement Plan?",
-        answer: "Plan G is currently the most popular Medigap plan for new enrollees. It covers all Medicare-approved costs except the Part B deductible ($257 in 2026), making it one of the most comprehensive options available. Plan N is the second most popular, offering lower premiums in exchange for small copays at doctor visits and emergency rooms.",
+        answer: "Plan G is currently the most popular Medigap plan for new enrollees. It covers all Medicare-approved costs except the Part B deductible ($283 in 2026), making it one of the most comprehensive options available. Plan N is the second most popular, offering lower premiums in exchange for small copays at doctor visits and emergency rooms.",
       },
       {
         question: "Is AARP Medicare Supplement a Good Plan?",
@@ -32765,10 +32765,10 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "Original Medicare (Parts A and B) covers most medically necessary hospital and medical services, but it has several significant gaps that can lead to large out-of-pocket costs. The most important gap is the lack of an out-of-pocket maximum. Unlike private insurance, Original Medicare has no cap on what you can owe in a given year. If you have a serious illness requiring extended hospital stays and ongoing treatment, your costs can accumulate without limit.",
-          "Part B charges a 20% coinsurance on all covered services after the annual deductible ($257 in 2026). There is no cap on this 20%. A $100,000 surgery, for example, would leave you responsible for $20,000 in coinsurance under Original Medicare alone. Part A has its own deductible ($1,676 per benefit period in 2026) and daily coinsurance for extended hospital stays."],
+          "Part B charges a 20% coinsurance on all covered services after the annual deductible ($283 in 2026). There is no cap on this 20%. A $100,000 surgery, for example, would leave you responsible for $20,000 in coinsurance under Original Medicare alone. Part A has its own deductible ($1,736 per benefit period in 2026) and daily coinsurance for extended hospital stays."],
         whatItCovers: [
-          "Part A deductible: $1,676 per benefit period in 2026",
-          "Part B deductible: $257 per year in 2026",
+          "Part A deductible: $1,736 per benefit period in 2026",
+          "Part B deductible: $283 per year in 2026",
           "Part B coinsurance: 20% of all covered services (no annual cap)",
           "Hospital coinsurance: $419/day for days 61–90; $838/day for lifetime reserve days",
           "Skilled nursing facility coinsurance: $209.50/day for days 21–100",
@@ -32793,7 +32793,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Fills Most or All Gaps: Predictable Costs",
         coverageType: "covered",
         paragraphs: [
-          "A Medicare Supplement (Medigap) plan works alongside Original Medicare to cover most or all of the cost-sharing gaps. The most popular option is Plan G, which covers the Part A deductible, all Part B coinsurance (after the Part B deductible), skilled nursing facility coinsurance, and foreign travel emergency coverage. With Plan G, your only predictable out-of-pocket cost is the annual Part B deductible ($257 in 2026).",
+          "A Medicare Supplement (Medigap) plan works alongside Original Medicare to cover most or all of the cost-sharing gaps. The most popular option is Plan G, which covers the Part A deductible, all Part B coinsurance (after the Part B deductible), skilled nursing facility coinsurance, and foreign travel emergency coverage. With Plan G, your only predictable out-of-pocket cost is the annual Part B deductible ($283 in 2026).",
           "Medigap plans are sold by private insurance companies but are standardized by the federal government. Plan G covers the same benefits regardless of which company you buy it from. Premiums vary by carrier, age, location, and pricing method. In 2026, Plan G premiums typically range from $100 to $250/month depending on your age and location. You also need a separate Part D plan for prescription drugs."],
         whatItCovers: [
           "Plan G: covers Part A deductible, all Part B coinsurance, SNF coinsurance, foreign travel emergency",
@@ -32837,7 +32837,7 @@ export const coverageArticles: CoverageArticleData[] = [
           title: "Medicare Advantage vs. Medigap: The Core Trade-Off",
           text: "Medicare Advantage typically offers lower monthly premiums and extra benefits (dental, vision, hearing) but restricts you to a network and may require prior authorization. Medigap offers more predictable costs and complete freedom to see any Medicare provider nationwide, but has higher monthly premiums and no extra benefits.",
         },
-        costNote: "$ Many Medicare Advantage plans have $0 monthly premiums. You still pay the Part B premium ($185/month in 2026). Out-of-pocket costs depend on how much care you use and whether you stay in-network.",
+        costNote: "$ Many Medicare Advantage plans have $0 monthly premiums. You still pay the Part B premium ($202.90/month in 2026). Out-of-pocket costs depend on how much care you use and whether you stay in-network.",
       }],
     costTable: {
       title: "Out-of-Pocket Cost Comparison: Original Medicare vs. Supplemental Options (2026)",
@@ -32846,8 +32846,8 @@ export const coverageArticles: CoverageArticleData[] = [
         { "Coverage Type": "Original Medicare Only", "Monthly Premium": "$185 (Part B only)", "Out-of-Pocket Max": "None", "Doctor Visit Cost": "20% of approved amount", "Hospital Stay Cost": "$1,676 deductible + daily coinsurance" },
         { "Coverage Type": "Original Medicare + Plan G", "Monthly Premium": "$185 + $100–$250 (Medigap)", "Out-of-Pocket Max": "~$257/year (Part B deductible)", "Doctor Visit Cost": "$0 after Part B deductible", "Hospital Stay Cost": "$0 (Plan G covers Part A deductible)" },
         { "Coverage Type": "Original Medicare + Plan N", "Monthly Premium": "$185 + $80–$180 (Medigap)", "Out-of-Pocket Max": "~$257 + copays", "Doctor Visit Cost": "$20 copay", "Hospital Stay Cost": "$0 (Plan N covers Part A deductible)" },
-        { "Coverage Type": "Medicare Advantage (HMO)", "Monthly Premium": "$185 (Part B) + $0–$50 (MA)", "Out-of-Pocket Max": "$9,350 in-network (2026)", "Doctor Visit Cost": "$0–$30 copay (in-network)", "Hospital Stay Cost": "$0–$350/day (in-network, varies)" },
-        { "Coverage Type": "Medicare Advantage (PPO)", "Monthly Premium": "$185 (Part B) + $0–$100 (MA)", "Out-of-Pocket Max": "$9,350 in-network (2026)", "Doctor Visit Cost": "$0–$50 copay (in-network)", "Hospital Stay Cost": "$0–$500/day (in-network, varies)" }],
+        { "Coverage Type": "Medicare Advantage (HMO)", "Monthly Premium": "$202.90 (Part B) + $0–$50 (MA)", "Out-of-Pocket Max": "$9,350 in-network (2026)", "Doctor Visit Cost": "$0–$30 copay (in-network)", "Hospital Stay Cost": "$0–$350/day (in-network, varies)" },
+        { "Coverage Type": "Medicare Advantage (PPO)", "Monthly Premium": "$202.90 (Part B) + $0–$100 (MA)", "Out-of-Pocket Max": "$9,350 in-network (2026)", "Doctor Visit Cost": "$0–$50 copay (in-network)", "Hospital Stay Cost": "$0–$500/day (in-network, varies)" }],
       footnote: "Costs are approximate 2026 figures. Actual costs vary by location, carrier, plan, and utilization. Medigap premiums increase with age. Medicare Advantage benefits and costs vary by plan and change annually.",
     },
     exceptionsSection: {
@@ -32952,7 +32952,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "8 min read",
     quickAnswer: {
-      text: "Medicare Part D helps cover prescription drug costs, but the amount you pay depends heavily on which plan you choose, which tier your drugs fall on, and whether you take advantage of available savings programs. Key strategies to minimize costs include comparing plans annually during the Annual Enrollment Period (October 15 – December 7), choosing generic drugs when possible, using mail-order pharmacies for maintenance medications, and applying for the Extra Help (Low Income Subsidy) program if you qualify. In 2026, the Part D out-of-pocket cap is $2,000 - the first time a hard cap has existed.",
+      text: "Medicare Part D helps cover prescription drug costs, but the amount you pay depends heavily on which plan you choose, which tier your drugs fall on, and whether you take advantage of available savings programs. Key strategies to minimize costs include comparing plans annually during the Annual Enrollment Period (October 15 – December 7), choosing generic drugs when possible, using mail-order pharmacies for maintenance medications, and applying for the Extra Help (Low Income Subsidy) program if you qualify. In 2026, the Part D out-of-pocket cap is $2,100 - the first time a hard cap has existed.",
       badges: [
         { plan: "Part A", status: "not-covered" },
         { plan: "Part B", status: "not-covered" },
@@ -32990,7 +32990,7 @@ export const coverageArticles: CoverageArticleData[] = [
           title: "Always Check the Formulary before Enrolling",
           text: "Before enrolling in any Part D plan, look up your specific medications on the plan's formulary at Medicare.gov or the plan's website. Verify the tier, any restrictions (prior authorization, step therapy), and the pharmacy network to estimate your true annual drug costs.",
         },
-        costNote: "$ In 2026, the Part D out-of-pocket cap is $2,000. Once you reach $2,000 in out-of-pocket drug costs, you pay $0 for the rest of the year - a major improvement from prior years.",
+        costNote: "$ In 2026, the Part D out-of-pocket cap is $2,100. Once you reach $2,100 in out-of-pocket drug costs, you pay $0 for the rest of the year - a major improvement from prior years.",
       },
       {
         planName: "Part D Cost-Sharing: What You Pay",
@@ -33000,12 +33000,12 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "partial",
         paragraphs: [
           "Part D cost-sharing has several components. Most plans charge a monthly premium, which varies by plan and location. The national base beneficiary premium in 2026 is $36.78/month, but actual plan premiums vary widely. High-income beneficiaries pay an additional Income-Related Monthly Adjustment Amount (IRMAA) on top of their plan premium.",
-          "Many Part D plans also have a deductible - the maximum standard deductible in 2026 is $590. Some plans waive the deductible for lower-tier drugs. After the deductible, you pay copays or coinsurance based on the drug's tier until you reach the $2,000 out-of-pocket cap, at which point your cost-sharing drops to $0 for the remainder of the year."],
+          "Many Part D plans also have a deductible - the maximum standard deductible in 2026 is $615. Some plans waive the deductible for lower-tier drugs. After the deductible, you pay copays or coinsurance based on the drug's tier until you reach the $2,100 out-of-pocket cap, at which point your cost-sharing drops to $0 for the remainder of the year."],
         whatItCovers: [
           "Monthly premium: varies by plan (average ~$36.78/month in 2026)",
-          "Annual deductible: up to $590 in 2026 (some plans waive for Tier 1/2 drugs)",
+          "Annual deductible: up to $615 in 2026 (some plans waive for Tier 1/2 drugs)",
           "Copays/coinsurance: based on drug tier (see tier breakdown above)",
-          "Out-of-pocket cap: $2,000 in 2026 - after this, you pay $0 for covered drugs",
+          "Out-of-pocket cap: $2,100 in 2026 - after this, you pay $0 for covered drugs",
           "Medicare Prescription Payment Plan: option to spread costs across monthly installments"],
         whatItDoesntCover: [
           "IRMAA surcharge applies if your income exceeds $106,000 (individual) or $212,000 (joint) in 2026",
@@ -33013,8 +33013,8 @@ export const coverageArticles: CoverageArticleData[] = [
           "Discount card purchases (GoodRx, etc.) do not count toward the $2,000 cap"],
         callout: {
           type: "tip",
-          title: "The $2,000 Cap is New in 2026 - a Major Benefit",
-          text: "Starting in 2026, there is a hard $2,000 annual out-of-pocket cap on Part D drug costs. This is a significant change from prior years when there was effectively no cap for most beneficiaries. Once you hit $2,000 in out-of-pocket costs, you pay $0 for covered drugs for the rest of the year.",
+          title: "The $2,100 Cap is New in 2026 - a Major Benefit",
+          text: "Starting in 2026, there is a hard $2,100 annual out-of-pocket cap on Part D drug costs. This is a significant change from prior years when there was effectively no cap for most beneficiaries. Once you hit $2,100 in out-of-pocket costs, you pay $0 for covered drugs for the rest of the year.",
         },
         costNote: "$ IRMAA for Part D in 2026 ranges from $13.70 to $85.80/month added to your plan premium, depending on your income. Check your income bracket at Medicare.gov.",
       },
@@ -33051,13 +33051,13 @@ export const coverageArticles: CoverageArticleData[] = [
       headers: ["Cost Component", "2026 Amount", "Notes"],
       rows: [
         { "Cost Component": "Monthly Premium", "2026 Amount": "Varies by plan (~$36.78 avg)", "Notes": "Higher-income beneficiaries pay IRMAA surcharge on top" },
-        { "Cost Component": "Annual Deductible", "2026 Amount": "Up to $590", "Notes": "Some plans waive deductible for Tier 1/2 drugs" },
+        { "Cost Component": "Annual Deductible", "2026 Amount": "Up to $615", "Notes": "Some plans waive deductible for Tier 1/2 drugs" },
         { "Cost Component": "Tier 1 Copay (Preferred Generic)", "2026 Amount": "$0–$10", "Notes": "Lowest cost-sharing; most generic drugs" },
         { "Cost Component": "Tier 2 Copay (Generic)", "2026 Amount": "$5–$20", "Notes": "Standard generic drugs" },
         { "Cost Component": "Tier 3 Copay (Preferred Brand)", "2026 Amount": "$35–$60", "Notes": "Preferred brand-name drugs" },
         { "Cost Component": "Tier 4 Copay (Non-Preferred Brand)", "2026 Amount": "$60–$100+", "Notes": "Non-preferred brand-name drugs" },
-        { "Cost Component": "Tier 5 Coinsurance (Specialty)", "2026 Amount": "25–33% coinsurance", "Notes": "High-cost specialty drugs; subject to $2,000 cap" },
-        { "Cost Component": "Out-of-Pocket Cap", "2026 Amount": "$2,000", "Notes": "NEW in 2026 - after $2,000, you pay $0 for covered drugs" },
+        { "Cost Component": "Tier 5 Coinsurance (Specialty)", "2026 Amount": "25–33% coinsurance", "Notes": "High-cost specialty drugs; subject to $2,100 cap" },
+        { "Cost Component": "Out-of-Pocket Cap", "2026 Amount": "$2,100", "Notes": "NEW in 2026 - after $2,100, you pay $0 for covered drugs" },
         { "Cost Component": "Extra Help (LIS) Copays", "2026 Amount": "$0–$11.20 (specialty)", "Notes": "For qualifying low-income beneficiaries" }],
       footnote: "Costs are 2026 figures. Actual plan premiums, deductibles, and copays vary by plan and location. Always verify with the specific plan before enrolling.",
     },
@@ -33087,7 +33087,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "What is the Part D Out-of-pocket Cap in 2026?",
-        answer: "In 2026, the Part D out-of-pocket cap is $2,000. Once you reach $2,000 in out-of-pocket drug costs for the year, you pay $0 for covered drugs for the remainder of the year. This is a significant improvement from prior years and provides important protection for beneficiaries with high drug costs.",
+        answer: "In 2026, the Part D out-of-pocket cap is $2,100. Once you reach $2,100 in out-of-pocket drug costs for the year, you pay $0 for covered drugs for the remainder of the year. This is a significant improvement from prior years and provides important protection for beneficiaries with high drug costs.",
       },
       {
         question: "What is the Extra Help Program for Part D?",
@@ -33095,7 +33095,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Can I Use GoodRx with Medicare Part D?",
-        answer: "You can use GoodRx or other discount programs for drugs not covered by your Part D plan, but there is an important limitation: purchases made with discount cards do not count toward your Part D out-of-pocket cap ($2,000 in 2026). Use discount programs strategically for drugs not on your formulary, but for covered drugs, use your Part D plan to accumulate toward the cap.",
+        answer: "You can use GoodRx or other discount programs for drugs not covered by your Part D plan, but there is an important limitation: purchases made with discount cards do not count toward your Part D out-of-pocket cap ($2,100 in 2026). Use discount programs strategically for drugs not on your formulary, but for covered drugs, use your Part D plan to accumulate toward the cap.",
       },
       {
         question: "When Can I Change My Part D Plan?",
@@ -33106,13 +33106,13 @@ export const coverageArticles: CoverageArticleData[] = [
         answer: "A formulary exception is a request to have your insurance plan cover a drug that is not on its formulary (or to cover it at a lower tier's cost-sharing). To request an exception, your doctor must submit documentation showing the drug is medically necessary and that covered alternatives are not appropriate. The plan must respond within 72 hours (24 hours for urgent requests). If denied, you have the right to appeal.",
       }],
     quickReference: [
-      { icon: "check", text: "$2,000 out-of-pocket cap in 2026 - after this, covered drugs cost $0 for the rest of the year" },
+      { icon: "check", text: "$2,100 out-of-pocket cap in 2026 - after this, covered drugs cost $0 for the rest of the year" },
       { icon: "check", text: "Compare plans every year during AEP (Oct 15 – Dec 7) - formularies and premiums change annually" },
       { icon: "info", text: "Tier 1/2 generics: $0–$20/month. Tier 5 specialty: 25–33% coinsurance" },
       { icon: "info", text: "Extra Help can reduce Part D costs to near $0 for qualifying low-income beneficiaries" },
       { icon: "info", text: "Mail-order pharmacy: 90-day supply often costs less than two 30-day retail fills" },
       { icon: "alert", text: "GoodRx purchases do NOT count toward your $2,000 out-of-pocket cap" },
-      { icon: "dollar", text: "2026 Part D deductible: up to $590. Average premium: ~$36.78/month" }],
+      { icon: "dollar", text: "2026 Part D deductible: up to $615. Average premium: ~$36.78/month" }],
     relatedTopics: [
       { title: "Part D Formulary: How Drug Tiers Work", description: "Understand how Part D formularies are structured and what to do if your drug isn't covered.", slug: "part-d-formulary" },
       { title: "Extra Help // Low Income Subsidy (LIS)", description: "Learn how to qualify for Extra Help and reduce your Part D costs to near zero.", slug: "extra-help-low-income-subsidy" },
@@ -33433,7 +33433,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { question: "What does Medicare tax pay for?", answer: "Medicare tax funds the Hospital Insurance (HI) Trust Fund, which pays for Medicare Part A benefits: inpatient hospital stays, skilled nursing facility care, hospice, and some home health services. It does not fund Part B, Part D, or Medicare Advantage." },
       { question: "Do I still pay Medicare tax after age 65?", answer: "Yes. If you continue working and earning income after age 65, you still pay Medicare tax on those earnings regardless of whether you are enrolled in Medicare. There is no age at which Medicare tax stops." },
       { question: "How is Medicare tax different from IRMAA?", answer: "Medicare tax is a payroll tax on earned income paid during working years (1.45% + possible 0.9%). IRMAA is a surcharge on Medicare Part B and Part D premiums based on your total income (including investments) from two years prior. They are completely separate systems." },
-      { question: "How many years do I need to pay Medicare tax to get free Part A?", answer: "You need at least 40 quarters (10 years) of Medicare tax-covered employment to qualify for premium-free Part A at age 65. If you have fewer than 40 quarters, you can still enroll in Part A but will pay a monthly premium (up to $518 per month in 2026)." },
+      { question: "How many years do I need to pay Medicare tax to get free Part A?", answer: "You need at least 40 quarters (10 years) of Medicare tax-covered employment to qualify for premium-free Part A at age 65. If you have fewer than 40 quarters, you can still enroll in Part A but will pay a monthly premium (up to $565 per month in 2026)." },
     ],
     quickReference: [
       { icon: "check", text: "Employee Medicare tax rate: 1.45% of all wages (no income cap)" },
@@ -33791,7 +33791,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "9 min read",
     quickAnswer: {
-      text: "<strong>Medicare Part A</strong> is hospital insurance. It covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. The <strong>2026 Part A deductible is $1,736 per benefit period</strong>. <strong>Medicare Part B</strong> is medical insurance. It covers doctor visits, outpatient services, preventive care, and medically necessary services. The <strong>2026 Part B standard premium is $185/month</strong> and the <strong>Part B deductible is $257</strong>. Most people pay <strong>$0 for Part A</strong> if they or their spouse worked at least 10 years. Both parts together make up <strong>Original Medicare</strong>.",
+      text: "<strong>Medicare Part A</strong> is hospital insurance. It covers inpatient hospital stays, skilled nursing facility care, hospice, and some home health care. The <strong>2026 Part A deductible is $1,736 per benefit period</strong>. <strong>Medicare Part B</strong> is medical insurance. It covers doctor visits, outpatient services, preventive care, and medically necessary services. The <strong>2026 Part B standard premium is $202.90/month</strong> and the <strong>Part B deductible is $283</strong>. Most people pay <strong>$0 for Part A</strong> if they or their spouse worked at least 10 years. Both parts together make up <strong>Original Medicare</strong>.",
       badges: [
         { plan: "Part A: Hospital Insurance", status: "covered" },
         { plan: "Part B: Medical Insurance", status: "covered" },
@@ -33801,8 +33801,8 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     comparisonTable: [
       { planType: "What It Covers", coverage: "Part A: Inpatient hospital, SNF, hospice, home health", icon: "building", notes: "Part B: Doctor visits, outpatient care, preventive services, DME" },
-      { planType: "2026 Premium", coverage: "Part A: $0 for most (40+ work quarters)", icon: "dollar-sign", notes: "Part B: $185/month standard; higher with IRMAA" },
-      { planType: "2026 Deductible", coverage: "Part A: $1,736 per benefit period", icon: "alert-circle", notes: "Part B: $257 per calendar year" },
+      { planType: "2026 Premium", coverage: "Part A: $0 for most (40+ work quarters)", icon: "dollar-sign", notes: "Part B: $202.90/month standard; higher with IRMAA" },
+      { planType: "2026 Deductible", coverage: "Part A: $1,736 per benefit period", icon: "alert-circle", notes: "Part B: $283 per calendar year" },
       { planType: "Coinsurance", coverage: "Part A: $0 days 1-60; $434/day days 61-90", icon: "percent", notes: "Part B: 20% after deductible for most services" },
       { planType: "Late Penalty", coverage: "Part A: 10% premium increase per 12-month period", icon: "alert-triangle", notes: "Part B: 10% premium increase per 12-month period (permanent)" },
       { planType: "Funded By", coverage: "Part A: Medicare payroll taxes and Part A Trust Fund", icon: "landmark", notes: "Part B: Monthly premiums and general federal revenue" },
@@ -33818,7 +33818,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "[Medicare Part A](/faqs/what-does-medicare-part-a-cover) is often called hospital insurance because its primary function is covering inpatient care. When you are admitted to a hospital as an inpatient, Part A pays for your room, meals, nursing care, and most other hospital services. Part A also covers care in a skilled nursing facility (SNF) after a qualifying hospital stay of at least 3 days, hospice care for terminal illness, and some home health care when medically necessary.",
           "The [2026 Part A deductible is $1,736 per benefit period](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes), not per year. A benefit period begins the day you are admitted as an inpatient and ends after you have been out of the hospital or SNF for 60 consecutive days. If you are readmitted after 60 days, a new benefit period begins and a new deductible applies. There is no limit to the number of benefit periods you can have in a year.",
           "After the deductible, Part A pays 100% of covered hospital costs for days 1 through 60. From day 61 to day 90, you pay $434 per day in 2026. Beyond 90 days, you draw from a 60-day lifetime reserve at $868 per day. Once lifetime reserve days are exhausted, you pay all costs. This cost structure is one reason many beneficiaries choose a Medigap plan to cover the gaps.",
-          "Most people pay $0 for Part A because they or their spouse paid Medicare payroll taxes for at least 40 quarters (10 years). If you have 30 to 39 quarters, the 2026 premium is $284/month. With fewer than 30 quarters, the premium is $518/month.",
+          "Most people pay $0 for Part A because they or their spouse paid Medicare payroll taxes for at least 40 quarters (10 years). If you have 30 to 39 quarters, the 2026 premium is $284/month. With fewer than 30 quarters, the premium is $565/month.",
         ],
         costNote: "$ 2026 Cost: $0 premium for most. $1,736 deductible per benefit period. $434/day coinsurance days 61-90.",
       },
@@ -33830,11 +33830,11 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "[Medicare Part B](/faqs/what-does-medicare-part-b-cover) covers the medical services you receive outside of a hospital stay. This includes visits to your primary care doctor and specialists, outpatient surgery, emergency room visits when not admitted, lab tests, X-rays, physical therapy, mental health services, and durable medical equipment like wheelchairs and walkers. Part B also covers many preventive services at no cost, including an annual wellness visit, flu shots, mammograms, and colonoscopies.",
-          "Unlike Part A, Part B requires a monthly premium. The standard 2026 Part B premium is $185 per month. However, if your income exceeds certain thresholds, you pay an IRMAA surcharge on top of the standard premium. IRMAA is based on your tax return from two years prior. For 2026, IRMAA surcharges begin for individuals with income above $106,000 and couples above $212,000.",
+          "Unlike Part A, Part B requires a monthly premium. The standard 2026 Part B premium is $202.90 per month. However, if your income exceeds certain thresholds, you pay an IRMAA surcharge on top of the standard premium. IRMAA is based on your tax return from two years prior. For 2026, IRMAA surcharges begin for individuals with income above $106,000 and couples above $212,000.",
           "After meeting the $257 annual Part B deductible, Medicare pays 80% of approved costs and you pay the remaining 20% coinsurance. There is no out-of-pocket maximum under Original Medicare, which means a serious illness could result in significant costs. Many beneficiaries add a [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) to cover the 20% coinsurance and eliminate exposure to unlimited costs.",
           "Part B is optional, but most people should enroll when first eligible. If you delay Part B enrollment without qualifying coverage from an employer, you will face a permanent 10% premium penalty for each 12-month period you went without coverage.",
         ],
-        costNote: "$ 2026 Cost: $185/month standard premium. $257 annual deductible. 20% coinsurance after deductible.",
+        costNote: "$ 2026 Cost: $202.90/month standard premium. $283 annual deductible. 20% coinsurance after deductible.",
       },
       {
         planName: "How Part A and Part B Work Together",
@@ -33909,7 +33909,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "Is Part A really free?",
-        answer: "Part A is premium-free for most people because they or their spouse paid Medicare payroll taxes for at least 40 quarters (10 years) while working. If you have 30 to 39 quarters of work history, the 2026 Part A premium is $284/month. With fewer than 30 quarters, it is $518/month. Even if you pay a premium, Part A is still worth enrolling in because it covers potentially catastrophic hospital costs.",
+        answer: "Part A is premium-free for most people because they or their spouse paid Medicare payroll taxes for at least 40 quarters (10 years) while working. If you have 30 to 39 quarters of work history, the 2026 Part A premium is $284/month. With fewer than 30 quarters, it is $565/month. Even if you pay a premium, Part A is still worth enrolling in because it covers potentially catastrophic hospital costs.",
       },
       {
         question: "What does Part A cover that Part B does not?",
@@ -33917,7 +33917,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "What is the difference between the Part A and Part B deductibles?",
-        answer: "The Part A deductible is $1,736 per benefit period in 2026, not per year. A benefit period resets after you have been out of the hospital for 60 consecutive days, so you could owe the deductible multiple times in a year. The Part B deductible is $257 per calendar year in 2026, meaning you pay it once per year regardless of how many times you see a doctor.",
+        answer: "The Part A deductible is $1,736 per benefit period in 2026, not per year. A benefit period resets after you have been out of the hospital for 60 consecutive days, so you could owe the deductible multiple times in a year. The Part B deductible is $283 per calendar year in 2026, meaning you pay it once per year regardless of how many times you see a doctor.",
       },
       {
         question: "Can I have Part A without Part B?",
@@ -33940,7 +33940,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "check", text: "Part A = hospital insurance (inpatient, SNF, hospice, home health)" },
       { icon: "check", text: "Part B = medical insurance (doctors, outpatient, preventive, DME)" },
       { icon: "check", text: "2026 Part A deductible: $1,736 per benefit period" },
-      { icon: "check", text: "2026 Part B premium: $185/month standard; $257 annual deductible" },
+      { icon: "check", text: "2026 Part B premium: $202.90/month standard; $283 annual deductible" },
       { icon: "check", text: "Most people pay $0 for Part A (40+ quarters of work history)" },
       { icon: "info", text: "Original Medicare has no out-of-pocket maximum; consider adding Medigap or MA" },
       { icon: "alert", text: "Late Part B enrollment penalty: 10% per 12-month period without coverage, permanent" },
@@ -34075,7 +34075,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "When you drop Part B under these conditions, you are protected by a [Special Enrollment Period](/faqs/medicare-special-enrollment-period) that gives you 8 months to re-enroll after the employer coverage ends. As long as you re-enroll within that window, you pay no penalty and coverage begins the first of the month after enrollment.",
       "To disenroll from Part B, contact Social Security directly. You can call 1-800-772-1213 or visit your local Social Security office. Keep all documentation of your employer coverage, including enrollment confirmation letters and the dates your coverage was active. You will need these when you re-enroll.",
     ],
-      costNote: "$ Savings: Dropping Part B saves $185/month ($2,220/year) in 2026. Ensure your employer plan provides equivalent or better coverage before disenrolling.",
+      costNote: "$ Savings: Dropping Part B saves $202.90/month ($2,220/year) in 2026. Ensure your employer plan provides equivalent or better coverage before disenrolling.",
     },
     {
       planName: "When You Should Not Drop Part B",
@@ -34103,7 +34103,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "If you miss the 8-month SEP window, your only option is the General Enrollment Period, which runs January 1 through March 31 each year. Coverage under the GEP does not begin until July 1, creating a potential gap of several months. You will also owe the [Part B late enrollment penalty](/faqs/medicare-part-b-late-enrollment-penalty), which adds 10% to your monthly premium for each full 12-month period you were without Part B coverage.",
       "Part B coverage under the SEP typically starts the first of the month after you enroll. There is no waiting period if you enroll promptly. Set a calendar reminder the day your employer coverage ends so you do not miss the deadline.",
     ],
-      costNote: "$ 2026 Part B premium: $185/month. Late penalty adds 10% per 12-month gap. A 3-year gap means paying $240.50/month permanently.",
+      costNote: "$ 2026 Part B premium: $202.90/month. Late penalty adds 10% per 12-month gap. A 3-year gap means paying $240.50/month permanently.",
     },
     {
       planName: "What Dropping Part B Means for Your Other Coverage",
@@ -34332,7 +34332,7 @@ export const coverageArticles: CoverageArticleData[] = [
         whatItDoesntCover: [
           "Any medical services received before your Part B effective date",
           "Retroactive coverage for the gap period if you enrolled late in your IEP"],
-        costNote: "There is no penalty for enrolling during your IEP. The standard Part B premium in 2026 is $185.00 per month. Signing up early in your IEP window gives you the fastest coverage start date.",
+        costNote: "There is no penalty for enrolling during your IEP. The standard Part B premium in 2026 is $202.90 per month. Signing up early in your IEP window gives you the fastest coverage start date.",
       },
       {
         planName: "General Enrollment Period (GEP)",
@@ -34430,7 +34430,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Processing Time": "3-6 weeks",
           "Penalty?": "No",
         }],
-      footnote: "Processing time refers to how long Social Security takes to process your application. The coverage start date is set by CMS rules and does not change based on processing speed. The 2026 standard Part B premium is $185.00/month.",
+      footnote: "Processing time refers to how long Social Security takes to process your application. The coverage start date is set by CMS rules and does not change based on processing speed. The 2026 standard Part B premium is $202.90/month.",
     },
     exceptionsSection: {
       title: "Special Circumstances That Affect Your Timeline",
@@ -34492,7 +34492,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { icon: "alert", text: "<strong>General Enrollment Period</strong>: coverage always starts July 1, regardless of when you apply" },
       { icon: "check", text: "<strong>Special Enrollment Period</strong>: coverage starts the 1st of the month after enrollment" },
       { icon: "info", text: "<strong>Processing time</strong>: 2 to 8 weeks for application, but effective date is fixed by CMS rules" },
-      { icon: "dollar", text: "<strong>2026 Part B premium</strong>: $185.00/month (no penalty if enrolled during IEP or SEP)" },
+      { icon: "dollar", text: "<strong>2026 Part B premium</strong>: $202.90/month (no penalty if enrolled during IEP or SEP)" },
       { icon: "alert", text: "<strong>GEP penalty</strong>: 10% added to premium for every 12-month period you could have had Part B but did not" }],
     relatedTopics: [
       { title: "Medicare Initial Enrollment Period", description: "Learn about the 7-month window to sign up for Medicare when you first become eligible.", slug: "medicare-initial-enrollment-period" },
@@ -34601,7 +34601,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "[Medicare Advantage](/faqs/what-is-medicare-advantage) plans must cover all imaging services that Original Medicare covers, including MRI, CT, and PET scans. However, your cost-sharing and access rules may differ significantly from Original Medicare.",
           "Many Medicare Advantage plans use **prior authorization** for advanced imaging. This means your doctor must get approval from the plan before scheduling an MRI, CT, or PET scan. Some plans contract with radiology benefit managers (such as eviCore or Carelon) to review imaging requests. If prior authorization is not obtained, the plan may deny coverage.",
           "The good news: some major insurers, including UnitedHealthcare, have eliminated prior authorization requirements for CT, MRI, and MRA scans on their Medicare Advantage plans. Check your plan's Evidence of Coverage document for specific rules.",
-          "Cost-sharing on Medicare Advantage plans often uses **fixed copays** rather than percentage-based coinsurance. For example, your plan might charge a $150 copay for an outpatient MRI versus the 20% coinsurance under Original Medicare. Plans also have an annual out-of-pocket maximum (typically $3,500 to $8,850 in 2026), after which the plan pays 100%."],
+          "Cost-sharing on Medicare Advantage plans often uses **fixed copays** rather than percentage-based coinsurance. For example, your plan might charge a $150 copay for an outpatient MRI versus the 20% coinsurance under Original Medicare. Plans also have an annual out-of-pocket maximum (typically $3,500 to $9,250 in 2026), after which the plan pays 100%."],
         whatItCovers: [
           "All imaging services covered by Original Medicare",
           "May include additional imaging benefits not covered by Original Medicare",
