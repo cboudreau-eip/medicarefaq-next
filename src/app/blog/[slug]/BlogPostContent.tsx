@@ -561,7 +561,7 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                             {article.keyTakeaways.map((item, idx) => (
                               <li key={idx} className="flex items-start gap-2 text-[#374151] text-[15px]">
                                 <CheckCircle className="w-4 h-4 text-[#059669] shrink-0 mt-0.5" />
-                                {item}
+                                <span>{parseInline(item, `kt-${idx}`)}</span>
                               </li>
                             ))}
                           </ul>
