@@ -9696,327 +9696,217 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-second-opinions-and-when-should-you-get-one"],
   },
   {
-  slug: "does-medicare-cover-endstage",
-  seo: {
+    slug: "does-medicare-cover-end-stage-renal-disease",
+    seo: {
+      title: "Does Medicare Cover End-Stage Renal Disease (ESRD)?",
+      description:
+        "Medicare covers ESRD patients of any age - not just those 65 and older. Learn about dialysis, kidney transplants, waiting periods, and how to minimize your out-of-pocket costs.",
+      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-end-stage-renal-disease/",
+      ogImage: "/images/medicarefaq-cover.jpg",
+    },
     title: "Does Medicare Cover End-Stage Renal Disease (ESRD)?",
-    description: "Does Medicare Cover End-Stage Renal Disease? Yes, at any age. Learn about dialysis, transplants, waiting periods, and ways to lower your out-of-pocket costs.",
-    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-end-stage-renal-disease/",
-    ogImage: "/images/medicarefaq-cover.jpg",
-    focusKeyword: "Does Medicare Cover End-Stage Renal Disease",
+    subtitle:
+      "Yes - Medicare covers ESRD patients of any age, not just those 65 and older. Coverage includes dialysis, kidney transplants, and immunosuppressive drugs. Learn about waiting periods, cost-sharing, and your plan options.",
+    category: "Medicare Coverage",
+    dateUpdated: "April 14, 2026",
+    lastReviewed: "2026-05-18",
+    author: {
+      name: "David Haass",
+      initials: "DH",
+      role: "Author",
+      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+    },
+    reviewer: {
+      name: "Ashlee Zareczny",
+      initials: "AZ",
+      role: "Reviewer",
+      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+    },
+    readTime: "8 min read",
+    quickAnswer: {
+      text: "Yes, Medicare covers end-stage renal disease (ESRD) patients of any age - not just those 65 and older. Coverage includes outpatient dialysis (Part B), inpatient hospital stays and kidney transplants (Part A), home dialysis equipment and training, and immunosuppressive drugs post-transplant. A 3-month waiting period typically applies before coverage begins.",
+      badges: [
+        { plan: "Original Medicare", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Medigap", status: "partial" }],
+    },
+    comparisonTable: [
+      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers inpatient hospital stays, kidney transplant surgery, and related hospital care" },
+      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers outpatient dialysis, home dialysis equipment, immunosuppressive drugs post-transplant" },
+      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "ESRD Special Needs Plans (SNPs) available; all Original Medicare ESRD benefits covered" },
+      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers Part A deductible, Part B coinsurance; availability under 65 varies by state" }],
+    planBreakdowns: [
+      {
+        planName: "Original Medicare (Parts a & B)",
+        icon: "shield",
+        iconColor: "#1B2A4A",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "Covered - available at any age with ESRD",
+        paragraphs: [
+          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers end-stage renal disease regardless of age. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security - or be the child or spouse of someone who qualifies.",
+          "**Medicare Part A** covers inpatient hospital stays related to ESRD, kidney transplant surgery, and related hospital care. **Medicare Part B** covers outpatient dialysis at a certified dialysis facility, home dialysis training and equipment, dialysis supplies, and immunosuppressive drugs after a kidney transplant.",
+          "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The 3-month waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months."],
+        whatItCovers: [
+          "Inpatient hospital stays related to ESRD (Part A)",
+          "Kidney transplant surgery and related hospital care (Part A)",
+          "Outpatient dialysis at a certified dialysis facility (Part B)",
+          "Home dialysis training and equipment (Part B)",
+          "Dialysis supplies and equipment for home use",
+          "Doctor visits and specialist consultations",
+          "Immunosuppressive drugs post-transplant (Part B)",
+          "Lab tests and diagnostic services related to ESRD"],
+        whatItDoesntCover: [
+          "Prescription drugs not related to immunosuppression (covered under Part D)",
+          "Custodial care or long-term care",
+          "Dental, vision, or hearing services"],
+        costNote: "For outpatient dialysis, you pay 20% coinsurance after your Part B deductible. For inpatient stays, the $1,736 Part A deductible applies per benefit period. Without supplemental coverage, dialysis costs can be substantial.",
+      },
+      {
+        planName: "Medicare Advantage (Part C)",
+        icon: "heart",
+        iconColor: "#059669",
+        coverageLabel: "Covered",
+        coverageType: "covered",
+        statusBadge: "ESRD Special Needs Plans (SNPs) available",
+        paragraphs: [
+          "Since 2021, [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
+          "ESRD SNPs often include Part D drug coverage, transportation to dialysis, and care coordination services. Compare plans carefully to find one that covers your dialysis facility and nephrologist."],
+        whatItCovers: [
+          "All Original Medicare ESRD benefits (Parts A & B)",
+          "Special Needs Plans (SNPs) specifically designed for ESRD patients",
+          "Usually includes Part D prescription drug coverage",
+          "May include additional benefits like transportation to dialysis"],
+        whatItDoesntCover: [
+          "Out-of-network providers unless your plan allows it",
+          "Services requiring prior authorization that was denied"],
+        callout: {
+          type: "info",
+          title: "ESRD Special Needs Plans (SNPs)",
+          text: "ESRD SNPs are Medicare Advantage plans specifically designed for people with end-stage renal disease. They often have lower cost-sharing for dialysis and kidney-related services, plus care coordination benefits. Ask your Medicare agent about SNPs available in your area.",
+        },
+        costNote: "ESRD SNPs often have lower cost-sharing for dialysis and kidney-related services. Compare plans carefully to find one that covers your dialysis facility and nephrologist.",
+      },
+      {
+        planName: "Medicare Supplement (Medigap)",
+        icon: "users",
+        iconColor: "#7C3AED",
+        coverageLabel: "Varies by Plan",
+        coverageType: "partial",
+        statusBadge: "Availability under 65 varies by state",
+        paragraphs: [
+          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for dialysis and the Part A deductible for hospital stays. For ESRD patients with frequent outpatient dialysis visits, Medigap can provide significant financial protection.",
+          "**Important:** Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap is available but expensive. If you are 65 or older with ESRD, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights."],
+        whatItCovers: [
+          "Part A hospital deductible and coinsurance",
+          "Part B coinsurance (20%) for all outpatient dialysis and ESRD services",
+          "Part B excess charges (Plan F and Plan G)",
+          "Skilled nursing facility coinsurance"],
+        whatItDoesntCover: [
+          "Prescription drugs - you need a separate Part D plan",
+          "Dental, vision, or hearing benefits"],
+        costNote: "If you qualify for Medigap, Plan G is typically the most comprehensive option. It covers all Medicare-approved costs except the Part B deductible, which is especially valuable for ESRD patients with frequent outpatient dialysis visits.",
+      }],
+    costTable: {
+      title: "ESRD Medicare Coverage: Key Cost Scenarios",
+      headers: ["Service", "Medicare Part", "Without Supplement", "With Plan G"],
+      rows: [
+        { "Service": "Outpatient dialysis (per session)", "Medicare Part": "Part B", "Without Supplement": "~$60–$80 (20% of bundled rate)", "With Plan G": "$0 after Part B deductible" },
+        { "Service": "Kidney transplant (inpatient)", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible per benefit period", "With Plan G": "$0" },
+        { "Service": "Home dialysis equipment", "Medicare Part": "Part B", "Without Supplement": "20% coinsurance", "With Plan G": "$0 after Part B deductible" },
+        { "Service": "Immunosuppressive drugs (post-transplant)", "Medicare Part": "Part B", "Without Supplement": "20% after Part B deductible", "With Plan G": "$0 after Part B deductible" },
+        { "Service": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible + $434/day (days 61–90)", "With Plan G": "$0" }],
+    },
+    exceptionsSection: {
+      title: "Key ESRD Medicare Rules and Exceptions",
+      items: [
+        {
+          title: "The 3-Month Waiting Period",
+          text: "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. This waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
+        },
+        {
+          title: "The 30-Month Coordination Period",
+          text: "If you have employer group health coverage when you are diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare becomes primary. This coordination period begins on the first date you become entitled to enroll in Medicare due to ESRD.",
+        },
+        {
+          title: "Medicare Advantage ESRD Enrollment",
+          text: "Since 2021 (under the Consolidated Appropriations Act), Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are available and specifically designed for people with end-stage renal disease.",
+        },
+        {
+          title: "Part B Immunosuppressive Drug Benefit",
+          text: "Under Section 402 of the Consolidated Appropriations Act of 2021, Medicare Part B now covers immunosuppressive drugs for certain ESRD patients even after their standard Medicare coverage ends 36 months post-transplant. This Part B-ID benefit allows eligible beneficiaries to enroll at any time with a lower monthly premium and no late enrollment penalty.",
+        },
+        {
+          title: "Medigap under 65 Rules",
+          text: "Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap costs the same for everyone regardless of age. Check your state's specific rules before applying.",
+        }],
+    },
+    faqs: [
+      {
+        question: "Can I get Medicare if I have ESRD and I'm under 65?",
+        answer:
+          "Yes. Medicare covers ESRD patients of any age, not just those 65 and older. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security Disability Insurance (SSDI) - or be the child or spouse of someone who qualifies.",
+      },
+      {
+        question: "When Does Medicare Coverage Start for ESRD?",
+        answer:
+          "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
+      },
+      {
+        question: "What is the 30-month Coordination Period for ESRD?",
+        answer:
+          "If you have employer group health coverage when diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare automatically becomes your primary insurance. For ESRD patients without other insurance, Medicare is primary from the start.",
+      },
+      {
+        question: "Can I Enroll in a Medicare Advantage Plan if I Have ESRD?",
+        answer:
+          "Yes. Since 2021, Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
+      },
+      {
+        question: "Can I Get a Medigap Plan if I Have ESRD?",
+        answer:
+          "It depends on your state and age. If you are under 65 with ESRD, many states do not require insurers to sell Medigap to you. In some states, Medigap is available but expensive. If you are 65 or older, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights. Check your state's specific rules.",
+      },
+      {
+        question: "Does Medicare Cover Kidney Transplants for ESRD?",
+        answer:
+          "Yes. Medicare Part A covers kidney transplant surgery and the related inpatient hospital stay. Medicare Part B covers immunosuppressive drugs after the transplant. Under the Part B-ID benefit, immunosuppressive drug coverage can continue even after your standard Medicare coverage ends 36 months post-transplant.",
+      },
+      {
+        question: "Does Medicare Cover Home Dialysis for ESRD?",
+        answer:
+          "Yes. Medicare Part B covers home dialysis training, equipment, and supplies. Home dialysis allows you to perform dialysis in the comfort of your own home, either peritoneal dialysis or home hemodialysis. Your nephrologist must certify that home dialysis is appropriate for your condition.",
+      }],
+    quickReference: [
+      { icon: "check", text: "ESRD covered at any age - not just 65+" },
+      { icon: "check", text: "Dialysis and kidney transplants covered under Parts A & B" },
+      { icon: "alert", text: "3-month waiting period before coverage begins (may be waived)" },
+      { icon: "alert", text: "30-month coordination period if you have employer coverage" },
+      { icon: "check", text: "Medicare Advantage SNPs available for ESRD patients since 2021" },
+      { icon: "info", text: "Medigap availability under 65 varies by state" }],
+    relatedTopics: [
+      { title: "Does Medicare Cover Dialysis Treatments?", description: "Learn about Medicare's coverage for dialysis treatments and what you'll pay.", slug: "medicare-cover-dialysis-treatments" },
+      { title: "Medicare Coverage for the Disabled under 65", description: "Understand how Medicare works for beneficiaries under 65 with disabilities.", slug: "medicare-coverage-for-disabled-under-65" },
+      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
+      { title: "What is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
+    
+      { title: "Does Medicare Cover Stem Cell Therapy?", description: "Find out if Medicare covers stem cell treatments and bone marrow transplants.", slug: "medicare-coverage-for-stem-cell-treatments" }],
+    sidebarRelatedLinks: [
+      "Does Medicare Cover Dialysis Treatments?",
+      "Medicare Coverage for the Disabled Under 65",
+      "Does Medicare Cover a Biopsy?",
+      "What Is a Medicare Supplement Plan?"],
+    ctaBanner: {
+      title: "Need Help Finding Medicare Coverage for ESRD?",
+      text: "Managing end-stage renal disease is challenging enough without worrying about coverage gaps. Our licensed Medicare agents can help you find the right plan - whether Original Medicare with Medigap or a Medicare Advantage SNP. Compare options in your area for free.",
+    },
+    relatedSlugs: [
+      "medicare-cover-dialysis-treatments",
+      "medicare-coverage-for-disabled-under-65",
+      "does-medicare-cover-a-biopsy",
+      "medicare-supplement-plans-medigap-pricing-methods",
+      "medicare-part-d-penalty", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "medicare-coverage-for-cardiovascular-disease", "what-std-treatments-and-services-does-medicare-cover"],
   },
-  title: "Does Medicare Cover End-Stage Renal Disease (ESRD)?",
-  subtitle: "Yes - Medicare covers ESRD patients of any age, not just those 65 and older. Coverage includes dialysis, kidney transplants, and immunosuppressive drugs. Learn about waiting periods, cost-sharing, and your plan options.",
-  category: "Medicare Coverage",
-  dateUpdated: "April 14, 2026",
-  lastReviewed: "2026-05-18",
-  author: {
-    name: "David Haass",
-    initials: "DH",
-    role: "Author",
-    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-  },
-  reviewer: {
-    name: "Ashlee Zareczny",
-    initials: "AZ",
-    role: "Reviewer",
-    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-  },
-  readTime: "8 min read",
-  quickAnswer: {
-    text: "Yes, Medicare covers end-stage renal disease (ESRD) patients of any age - not just those 65 and older. Coverage includes outpatient dialysis (Part B), inpatient hospital stays and kidney transplants (Part A), home dialysis equipment and training, and immunosuppressive drugs post-transplant. A 3-month waiting period typically applies before coverage begins.",
-    badges: [
-      {
-        plan: "Original Medicare",
-        status: "covered",
-      },
-      {
-        plan: "Medicare Advantage",
-        status: "covered",
-      },
-      {
-        plan: "Medigap",
-        status: "partial",
-      },
-    ],
-  },
-  comparisonTable: [
-    {
-      planType: "Medicare Part A (Inpatient)",
-      coverage: "Covered",
-      icon: "shield",
-      notes: "Covers inpatient hospital stays, kidney transplant surgery, and related hospital care",
-    },
-    {
-      planType: "Medicare Part B (Outpatient)",
-      coverage: "Covered",
-      icon: "shield",
-      notes: "Covers outpatient dialysis, home dialysis equipment, immunosuppressive drugs post-transplant",
-    },
-    {
-      planType: "Medicare Advantage (Part C)",
-      coverage: "Covered",
-      icon: "heart",
-      notes: "ESRD Special Needs Plans (SNPs) available; all Original Medicare ESRD benefits covered",
-    },
-    {
-      planType: "Medicare Supplement (Medigap)",
-      coverage: "Varies by Plan",
-      icon: "users",
-      notes: "Covers Part A deductible, Part B coinsurance; availability under 65 varies by state",
-    },
-  ],
-  planBreakdowns: [
-    {
-      planName: "Original Medicare (Parts a & B)",
-      icon: "shield",
-      iconColor: "#1B2A4A",
-      coverageLabel: "Covered",
-      coverageType: "covered",
-      statusBadge: "Covered - available at any age with ESRD",
-      paragraphs: [
-      "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers end-stage renal disease regardless of age. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security - or be the child or spouse of someone who qualifies.",
-      "**Medicare Part A** covers inpatient hospital stays related to ESRD, kidney transplant surgery, and related hospital care. **Medicare Part B** covers outpatient dialysis at a certified dialysis facility, home dialysis training and equipment, dialysis supplies, and immunosuppressive drugs after a kidney transplant.",
-      "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The 3-month waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
-    ],
-      whatItCovers: [
-      "Inpatient hospital stays related to ESRD (Part A)",
-      "Kidney transplant surgery and related hospital care (Part A)",
-      "Outpatient dialysis at a certified dialysis facility (Part B)",
-      "Home dialysis training and equipment (Part B)",
-      "Dialysis supplies and equipment for home use",
-      "Doctor visits and specialist consultations",
-      "Immunosuppressive drugs post-transplant (Part B)",
-      "Lab tests and diagnostic services related to ESRD",
-    ],
-      whatItDoesntCover: [
-      "Prescription drugs not related to immunosuppression (covered under Part D)",
-      "Custodial care or long-term care",
-      "Dental, vision, or hearing services",
-    ],
-      costNote: "For outpatient dialysis, you pay 20% coinsurance after your Part B deductible. For inpatient stays, the $1,736 Part A deductible applies per benefit period. Without supplemental coverage, dialysis costs can be substantial.",
-    },
-    {
-      planName: "Medicare Advantage (Part C)",
-      icon: "heart",
-      iconColor: "#059669",
-      coverageLabel: "Covered",
-      coverageType: "covered",
-      statusBadge: "ESRD Special Needs Plans (SNPs) available",
-      paragraphs: [
-      "Since 2021, [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
-      "ESRD SNPs often include Part D drug coverage, transportation to dialysis, and care coordination services. Compare plans carefully to find one that covers your dialysis facility and nephrologist.",
-    ],
-      whatItCovers: [
-      "All Original Medicare ESRD benefits (Parts A & B)",
-      "Special Needs Plans (SNPs) specifically designed for ESRD patients",
-      "Usually includes Part D prescription drug coverage",
-      "May include additional benefits like transportation to dialysis",
-    ],
-      whatItDoesntCover: [
-      "Out-of-network providers unless your plan allows it",
-      "Services requiring prior authorization that was denied",
-    ],
-      callout: {
-      type: "info",
-      title: "ESRD Special Needs Plans (SNPs)",
-      text: "ESRD SNPs are Medicare Advantage plans specifically designed for people with end-stage renal disease. They often have lower cost-sharing for dialysis and kidney-related services, plus care coordination benefits. Ask your Medicare agent about SNPs available in your area.",
-    },
-      costNote: "ESRD SNPs often have lower cost-sharing for dialysis and kidney-related services. Compare plans carefully to find one that covers your dialysis facility and nephrologist.",
-    },
-    {
-      planName: "Medicare Supplement (Medigap)",
-      icon: "users",
-      iconColor: "#7C3AED",
-      coverageLabel: "Varies by Plan",
-      coverageType: "partial",
-      statusBadge: "Availability under 65 varies by state",
-      paragraphs: [
-      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for dialysis and the Part A deductible for hospital stays. For ESRD patients with frequent outpatient dialysis visits, Medigap can provide significant financial protection.",
-      "**Important:** Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap is available but expensive. If you are 65 or older with ESRD, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights.",
-    ],
-      whatItCovers: [
-      "Part A hospital deductible and coinsurance",
-      "Part B coinsurance (20%) for all outpatient dialysis and ESRD services",
-      "Part B excess charges (Plan F and Plan G)",
-      "Skilled nursing facility coinsurance",
-    ],
-      whatItDoesntCover: [
-      "Prescription drugs - you need a separate Part D plan",
-      "Dental, vision, or hearing benefits",
-    ],
-      costNote: "If you qualify for Medigap, Plan G is typically the most comprehensive option. It covers all Medicare-approved costs except the Part B deductible, which is especially valuable for ESRD patients with frequent outpatient dialysis visits.",
-    },
-  ],
-  costTable: {
-    title: "ESRD Medicare Coverage: Key Cost Scenarios",
-    headers: [
-    "Service",
-    "Medicare Part",
-    "Without Supplement",
-    "With Plan G",
-  ],
-    rows: [
-      {
-        "Service": "Outpatient dialysis (per session)",
-        "Medicare Part": "Part B",
-        "Without Supplement": "~$60–$80 (20% of bundled rate)",
-        "With Plan G": "$0 after Part B deductible",
-      },
-      {
-        "Service": "Kidney transplant (inpatient)",
-        "Medicare Part": "Part A",
-        "Without Supplement": "$1,736 deductible per benefit period",
-        "With Plan G": "$0",
-      },
-      {
-        "Service": "Home dialysis equipment",
-        "Medicare Part": "Part B",
-        "Without Supplement": "20% coinsurance",
-        "With Plan G": "$0 after Part B deductible",
-      },
-      {
-        "Service": "Immunosuppressive drugs (post-transplant)",
-        "Medicare Part": "Part B",
-        "Without Supplement": "20% after Part B deductible",
-        "With Plan G": "$0 after Part B deductible",
-      },
-      {
-        "Service": "Inpatient hospital stay",
-        "Medicare Part": "Part A",
-        "Without Supplement": "$1,736 deductible + $434/day (days 61–90)",
-        "With Plan G": "$0",
-      },
-    ],
-  },
-  exceptionsSection: {
-    title: "Key ESRD Medicare Rules and Exceptions",
-    items: [
-      {
-        title: "The 3-Month Waiting Period",
-        text: "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. This waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
-      },
-      {
-        title: "The 30-Month Coordination Period",
-        text: "If you have employer group health coverage when you are diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare becomes primary. This coordination period begins on the first date you become entitled to enroll in Medicare due to ESRD.",
-      },
-      {
-        title: "Medicare Advantage ESRD Enrollment",
-        text: "Since 2021 (under the Consolidated Appropriations Act), Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are available and specifically designed for people with end-stage renal disease.",
-      },
-      {
-        title: "Part B Immunosuppressive Drug Benefit",
-        text: "Under Section 402 of the Consolidated Appropriations Act of 2021, Medicare Part B now covers immunosuppressive drugs for certain ESRD patients even after their standard Medicare coverage ends 36 months post-transplant. This Part B-ID benefit allows eligible beneficiaries to enroll at any time with a lower monthly premium and no late enrollment penalty.",
-      },
-      {
-        title: "Medigap under 65 Rules",
-        text: "Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap costs the same for everyone regardless of age. Check your state's specific rules before applying.",
-      },
-    ],
-  },
-  faqs: [
-    {
-      question: "Can I get Medicare if I have ESRD and I'm under 65?",
-      answer: "Yes. Medicare covers ESRD patients of any age, not just those 65 and older. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security Disability Insurance (SSDI) - or be the child or spouse of someone who qualifies.",
-    },
-    {
-      question: "When Does Medicare Coverage Start for ESRD?",
-      answer: "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
-    },
-    {
-      question: "What is the 30-month Coordination Period for ESRD?",
-      answer: "If you have employer group health coverage when diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare automatically becomes your primary insurance. For ESRD patients without other insurance, Medicare is primary from the start.",
-    },
-    {
-      question: "Can I Enroll in a Medicare Advantage Plan if I Have ESRD?",
-      answer: "Yes. Since 2021, Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
-    },
-    {
-      question: "Can I Get a Medigap Plan if I Have ESRD?",
-      answer: "It depends on your state and age. If you are under 65 with ESRD, many states do not require insurers to sell Medigap to you. In some states, Medigap is available but expensive. If you are 65 or older, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights. Check your state's specific rules.",
-    },
-    {
-      question: "Does Medicare Cover Kidney Transplants for ESRD?",
-      answer: "Yes. Medicare Part A covers kidney transplant surgery and the related inpatient hospital stay. Medicare Part B covers immunosuppressive drugs after the transplant. Under the Part B-ID benefit, immunosuppressive drug coverage can continue even after your standard Medicare coverage ends 36 months post-transplant.",
-    },
-    {
-      question: "Does Medicare Cover Home Dialysis for ESRD?",
-      answer: "Yes. Medicare Part B covers home dialysis training, equipment, and supplies. Home dialysis allows you to perform dialysis in the comfort of your own home, either peritoneal dialysis or home hemodialysis. Your nephrologist must certify that home dialysis is appropriate for your condition.",
-    },
-  ],
-  quickReference: [
-    {
-      icon: "check",
-      text: "ESRD covered at any age - not just 65+",
-    },
-    {
-      icon: "check",
-      text: "Dialysis and kidney transplants covered under Parts A & B",
-    },
-    {
-      icon: "alert",
-      text: "3-month waiting period before coverage begins (may be waived)",
-    },
-    {
-      icon: "alert",
-      text: "30-month coordination period if you have employer coverage",
-    },
-    {
-      icon: "check",
-      text: "Medicare Advantage SNPs available for ESRD patients since 2021",
-    },
-    {
-      icon: "info",
-      text: "Medigap availability under 65 varies by state",
-    },
-  ],
-  relatedTopics: [
-    {
-      title: "Does Medicare Cover Dialysis Treatments?",
-      description: "Learn about Medicare's coverage for dialysis treatments and what you'll pay.",
-      slug: "medicare-cover-dialysis-treatments",
-    },
-    {
-      title: "Medicare Coverage for the Disabled under 65",
-      description: "Understand how Medicare works for beneficiaries under 65 with disabilities.",
-      slug: "medicare-coverage-for-disabled-under-65",
-    },
-    {
-      title: "Does Medicare Cover a Biopsy?",
-      description: "Learn about Medicare coverage for different types of biopsies.",
-      slug: "does-medicare-cover-a-biopsy",
-    },
-    {
-      title: "What is a Medicare Supplement Plan?",
-      description: "Understand how Medigap plans work and who needs one.",
-      slug: "what-is-a-medicare-supplement-plan-and-who-needs-one",
-    },
-    {
-      title: "Does Medicare Cover Stem Cell Therapy?",
-      description: "Find out if Medicare covers stem cell treatments and bone marrow transplants.",
-      slug: "medicare-coverage-for-stem-cell-treatments",
-    },
-  ],
-  sidebarRelatedLinks: [
-    "Does Medicare Cover Dialysis Treatments?",
-    "Medicare Coverage for the Disabled Under 65",
-    "Does Medicare Cover a Biopsy?",
-    "What Is a Medicare Supplement Plan?",
-  ],
-  ctaBanner: {
-    title: "Need Help Finding Medicare Coverage for ESRD?",
-    text: "Managing end-stage renal disease is challenging enough without worrying about coverage gaps. Our licensed Medicare agents can help you find the right plan - whether Original Medicare with Medigap or a Medicare Advantage SNP. Compare options in your area for free.",
-  },
-  relatedSlugs: [
-    "medicare-cover-dialysis-treatments",
-    "medicare-coverage-for-disabled-under-65",
-    "does-medicare-cover-a-biopsy",
-    "medicare-supplement-plans-medigap-pricing-methods",
-    "medicare-part-d-penalty",
-    "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
-    "medicare-coverage-for-cardiovascular-disease",
-    "what-std-treatments-and-services-does-medicare-cover",
-  ],
-},
   {
     slug: "does-medicare-cover-gender-reassignment-surgery",
     seo: {
@@ -34383,250 +34273,337 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ─── How Long Does It Take to Get Medicare Part B After Applying ─────────────
   {
-    slug: "how-long-does-it-take-to-get-medicare-part-b",
-    seo: {
-      focusKeyword: "how long does it take to get medicare part b after applying",
-      title: "How Long Does It Take to Get Medicare Part B After Applying?",
-      description: "Medicare Part B can take 1 to 3 months to start after applying. Learn when coverage begins based on IEP, GEP, and SEP enrollment timelines.",
-      canonical: "https://www.medicarefaq.com/faqs/how-long-does-it-take-to-get-medicare-part-b/",
-      ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
-    },
+  slug: "how-long-does-it-take-to-get-medicare-part-b",
+  seo: {
     title: "How Long Does It Take to Get Medicare Part B After Applying?",
-    subtitle: "Medicare Part B processing typically takes 2 to 8 weeks, but when your coverage actually starts depends on which enrollment period you use. Learn the exact timelines for IEP, GEP, and SEP enrollment so you can plan ahead and avoid gaps in coverage.",
-    category: "Medicare Enrollment",
-    dateUpdated: "July 13, 2026",
-    lastReviewed: "2026-07-13",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "Medicare Part B applications are typically processed within 2 to 8 weeks, but the date your coverage actually starts depends on when you enroll. If you sign up during your Initial Enrollment Period (IEP), coverage can begin as early as the first day of your birthday month. If you enroll during the General Enrollment Period (January 1 through March 31), coverage does not start until July 1. Special Enrollment Period applicants generally receive coverage the first of the month after enrollment.",
-      badges: [
-        { plan: "Initial Enrollment Period", status: "covered" },
-        { plan: "General Enrollment Period", status: "partial" },
-        { plan: "Special Enrollment Period", status: "covered" }],
-    },
-    comparisonTable: [
-      { planType: "Initial Enrollment Period (IEP)", coverage: "1-3 months", icon: "shield", notes: "Coverage start depends on which month of the 7-month window you enroll" },
-      { planType: "General Enrollment Period (GEP)", coverage: "3-6 months wait", icon: "alert", notes: "Enroll Jan 1 - Mar 31, but coverage does not start until July 1" },
-      { planType: "Special Enrollment Period (SEP)", coverage: "1 month", icon: "heart", notes: "Coverage typically starts the first of the month after you enroll" },
-      { planType: "Disability (under 65)", coverage: "Automatic after 24 months", icon: "info", notes: "Part B starts automatically after 24 months of SSDI benefits" }],
-    planBreakdowns: [
+    description: "How long does it take to get Medicare Part B after applying? Usually 1 to 3 months. Learn how coverage start dates work with IEP, GEP, and SEP.",
+    canonical: "https://www.medicarefaq.com/faqs/how-long-does-it-take-to-get-medicare-part-b/",
+    ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
+    focusKeyword: "how long does it take to get medicare part b after applying",
+  },
+  title: "How Long Does It Take to Get Medicare Part B After Applying?",
+  subtitle: "Medicare Part B processing typically takes 2 to 8 weeks, but when your coverage actually starts depends on which enrollment period you use. Learn the exact timelines for IEP, GEP, and SEP enrollment so you can plan ahead and avoid gaps in coverage.",
+  category: "Medicare Enrollment",
+  dateUpdated: "July 13, 2026",
+  lastReviewed: "2026-07-13",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "Author",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "Medicare Part B applications are typically processed within 2 to 8 weeks, but the date your coverage actually starts depends on when you enroll. If you sign up during your Initial Enrollment Period (IEP), coverage can begin as early as the first day of your birthday month. If you enroll during the General Enrollment Period (January 1 through March 31), coverage does not start until July 1. Special Enrollment Period applicants generally receive coverage the first of the month after enrollment.",
+    badges: [
       {
-        planName: "Initial Enrollment Period (IEP)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Coverage Starts Within 1-3 Months",
-        coverageType: "covered",
-        statusBadge: "Best timeline for new enrollees turning 65",
-        paragraphs: [
-          "Your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) is a 7-month window that begins 3 months before your 65th birthday month, includes your birthday month, and extends 3 months after. When your Part B coverage starts depends on which month within this window you actually sign up.",
-          "If you enroll during the 3 months before your birthday month or during your birthday month itself, coverage starts on the first day of your birthday month. If you enroll during the 3 months after your birthday month, there is a delay of 1 to 3 months before coverage begins.",
-          "The application itself is processed relatively quickly (usually 2 to 4 weeks), but the coverage effective date follows a fixed schedule set by CMS regardless of processing speed."],
-        whatItCovers: [
-          "Enroll 3 months before birthday month: coverage starts the 1st of your birthday month",
-          "Enroll during birthday month: coverage starts the 1st of your birthday month",
-          "Enroll 1 month after birthday month: coverage starts 1 month later",
-          "Enroll 2 months after birthday month: coverage starts 2 months later",
-          "Enroll 3 months after birthday month: coverage starts 3 months later"],
-        whatItDoesntCover: [
-          "Any medical services received before your Part B effective date",
-          "Retroactive coverage for the gap period if you enrolled late in your IEP"],
-        costNote: "There is no penalty for enrolling during your IEP. The standard Part B premium in 2026 is $202.90 per month. Signing up early in your IEP window gives you the fastest coverage start date.",
+        plan: "Initial Enrollment Period",
+        status: "covered",
       },
       {
-        planName: "General Enrollment Period (GEP)",
-        icon: "alert",
-        iconColor: "#D97706",
-        coverageLabel: "Coverage Starts July 1",
-        coverageType: "partial",
-        statusBadge: "Longest wait time of any enrollment method",
-        paragraphs: [
-          "If you missed your IEP and do not qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period), you must wait for the General Enrollment Period, which runs from January 1 through March 31 each year. Regardless of when during this window you apply, your Part B coverage will not start until July 1 of that year.",
-          "This means if you enroll on January 2, you will wait nearly 6 months for coverage to begin. If you enroll on March 31, you will still wait until July 1. During this gap, you have no Part B coverage and are responsible for 100% of outpatient medical costs.",
-          "Additionally, enrolling during the GEP typically means you will pay a [Part B late enrollment penalty](/faqs/medicare-part-b-late-enrollment-penalty) of 10% for every 12-month period you were eligible but did not enroll. This penalty is added to your monthly premium permanently."],
-        whatItCovers: [
-          "Enrollment window: January 1 through March 31 each year",
-          "Coverage effective date: always July 1 of the same year",
-          "Processing time: application processed within 2 to 8 weeks, but coverage date is fixed"],
-        whatItDoesntCover: [
-          "Any medical services between enrollment and July 1",
-          "Retroactive coverage for the months you were without Part B",
-          "Waiver of the late enrollment penalty (in most cases)"],
-        callout: {
-          type: "warning",
-          title: "The GEP Gap Can Be Costly",
-          text: "If you enroll in January and have a medical emergency in March, you have no Part B coverage. Plan ahead: if you know you missed your IEP, enroll on January 1 and budget for the gap period. Consider short-term health insurance to bridge the coverage gap until July 1.",
-        },
+        plan: "General Enrollment Period",
+        status: "partial",
       },
       {
-        planName: "Special Enrollment Period (SEP)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Coverage Starts Next Month",
-        coverageType: "covered",
-        statusBadge: "Fastest path for those leaving employer coverage",
-        paragraphs: [
-          "If you delayed Medicare because you had [creditable employer coverage](/faqs/what-is-medicare-creditable-coverage), you qualify for a Special Enrollment Period. The SEP gives you 8 months after your employment ends (or your employer coverage ends, whichever comes first) to sign up for Part B without a penalty.",
-          "When you enroll during an SEP, your Part B coverage typically starts the first of the month after you sign up. This is significantly faster than the GEP timeline. For example, if you enroll on March 15, your coverage starts April 1.",
-          "You will need to provide documentation proving you had creditable employer coverage. This is done using CMS Form CMS-L564, which your employer's HR department fills out. Processing may take slightly longer (3 to 6 weeks) because Social Security must verify your employer coverage documentation."],
-        whatItCovers: [
-          "Coverage starts the 1st of the month after enrollment",
-          "No late enrollment penalty if you had creditable employer coverage",
-          "8-month enrollment window after employment or coverage ends",
-          "Processing time: 3 to 6 weeks for application with employer verification"],
-        whatItDoesntCover: [
-          "Retroactive coverage before your effective date",
-          "Situations where employer had fewer than 20 employees (you should have enrolled during IEP)"],
-        callout: {
-          type: "tip",
-          title: "Get Form CMS-L564 Before You Leave Your Job",
-          text: "Ask your employer to complete Form CMS-L564 before your last day. This form proves you had creditable coverage and speeds up your Part B enrollment. If you wait until after you leave, it can be harder to get HR to respond quickly.",
-        },
-      }],
-    costTable: {
-      title: "Part B Enrollment Timeline Summary (2026)",
-      headers: ["Enrollment Period", "When You Can Enroll", "Coverage Start Date", "Processing Time", "Penalty?"],
-      rows: [
-        {
-          "Enrollment Period": "IEP (3 months before birthday)",
-          "When You Can Enroll": "3 months before 65th birthday month",
-          "Coverage Start Date": "1st of birthday month",
-          "Processing Time": "2-4 weeks",
-          "Penalty?": "No",
-        },
-        {
-          "Enrollment Period": "IEP (birthday month)",
-          "When You Can Enroll": "Month you turn 65",
-          "Coverage Start Date": "1st of birthday month",
-          "Processing Time": "2-4 weeks",
-          "Penalty?": "No",
-        },
-        {
-          "Enrollment Period": "IEP (1 month after)",
-          "When You Can Enroll": "1 month after birthday month",
-          "Coverage Start Date": "1st of the following month",
-          "Processing Time": "2-4 weeks",
-          "Penalty?": "No",
-        },
-        {
-          "Enrollment Period": "IEP (2-3 months after)",
-          "When You Can Enroll": "2-3 months after birthday month",
-          "Coverage Start Date": "2-3 months after enrollment",
-          "Processing Time": "2-4 weeks",
-          "Penalty?": "No",
-        },
-        {
-          "Enrollment Period": "General Enrollment Period",
-          "When You Can Enroll": "January 1 - March 31",
-          "Coverage Start Date": "July 1",
-          "Processing Time": "2-8 weeks",
-          "Penalty?": "Yes (10% per year missed)",
-        },
-        {
-          "Enrollment Period": "Special Enrollment Period",
-          "When You Can Enroll": "Within 8 months of leaving employer coverage",
-          "Coverage Start Date": "1st of month after enrollment",
-          "Processing Time": "3-6 weeks",
-          "Penalty?": "No",
-        }],
-      footnote: "Processing time refers to how long Social Security takes to process your application. The coverage start date is set by CMS rules and does not change based on processing speed. The 2026 standard Part B premium is $202.90/month.",
-    },
-    exceptionsSection: {
-      title: "Special Circumstances That Affect Your Timeline",
-      items: [
-        {
-          title: "Automatic Enrollment (Social Security Recipients)",
-          text: "If you are already receiving Social Security benefits when you turn 65, you are automatically enrolled in Part A and Part B. Your Medicare card will arrive in the mail approximately 3 months before your 65th birthday. You do not need to apply separately. If you do not want Part B, you must actively opt out.",
-          highlight: "If you are collecting Social Security, you do not need to apply. Part B enrollment is automatic and your card arrives about 3 months before you turn 65.",
-        },
-        {
-          title: "Disability Enrollment (Under 65)",
-          text: "If you qualify for Medicare through disability (SSDI), Part B begins automatically after you have received disability benefits for 24 months. There is no separate application required. Your Medicare card will arrive approximately 3 months before your 25th month of SSDI benefits.",
-        },
-        {
-          title: "COBRA Does Not Count as Creditable Coverage",
-          text: "COBRA continuation coverage does not qualify as creditable employer coverage for Medicare purposes. If you are on COBRA and have not enrolled in Part B, you should sign up immediately. Waiting until COBRA ends will not give you a Special Enrollment Period, and you may face the GEP timeline and a late penalty.",
-        },
-        {
-          title: "Eddie's Pro Tip: When in Doubt, Enroll During Your IEP",
-          text: "If you are approaching 65 and still working, sign up for Part B during your IEP even if you plan to keep your employer coverage. Here is why: if your employer has fewer than 20 employees, Medicare is primary anyway, and delaying Part B means you have a coverage gap right now. If your employer has 20+ employees, you can safely delay. But if you are unsure about your employer's size or your future employment, enrolling during the IEP eliminates all risk of penalties and coverage gaps later. The $185/month premium is almost always cheaper than the consequences of getting this wrong.",
-          highlight: "When in doubt, enroll in Part B during your IEP. The $185/month premium is almost always cheaper than the consequences of getting this wrong.",
-        }],
-    },
-    faqs: [
-      {
-        question: "How long does Medicare Part B take to process?",
-        answer: "Social Security typically processes Part B applications within 2 to 8 weeks. However, the date your coverage starts is determined by which enrollment period you use, not by how fast the application is processed.",
+        plan: "Special Enrollment Period",
+        status: "covered",
       },
-      {
-        question: "Can I get Medicare Part B to start immediately?",
-        answer: "No. Even in the best case (enrolling early in your IEP or during an SEP), coverage starts the first of the following month at the earliest. There is no way to get same-day or retroactive Part B coverage.",
-      },
-      {
-        question: "Why does the General Enrollment Period make me wait until July 1?",
-        answer: "CMS sets a fixed July 1 start date for all GEP enrollees to simplify administration. This is one of the main reasons it is important to enroll during your IEP or qualify for an SEP instead.",
-      },
-      {
-        question: "How do I check the status of my Part B application?",
-        answer: "Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778) to check your application status. You can also visit your local Social Security office or check your my Social Security account online at ssa.gov.",
-      },
-      {
-        question: "What if I need medical care while waiting for Part B to start?",
-        answer: "If you have a coverage gap while waiting for Part B, you are responsible for 100% of outpatient medical costs. Consider short-term health insurance, COBRA, or marketplace coverage to bridge the gap. Emergency room visits are still covered under Part A if you have it.",
-      },
-      {
-        question: "Does applying online speed up the process?",
-        answer: "Applying online at ssa.gov is generally the fastest method because it eliminates mail delays and scheduling wait times. However, the coverage effective date is the same regardless of whether you apply online, by phone, or in person.",
-      },
-      {
-        question: "I missed my IEP. Is there any way to avoid waiting until July 1?",
-        answer: "Only if you qualify for a Special Enrollment Period. If you had creditable employer coverage through a large employer (20+ employees), you can enroll during the 8-month SEP and get coverage starting the first of the next month. If you do not qualify for an SEP, the GEP with its July 1 start date is your only option.",
-      },
-      {
-        question: "How long does it take to get my Medicare card after enrolling?",
-        answer: "Your Medicare card typically arrives in the mail within 2 to 4 weeks after your application is approved. If you need proof of coverage before your card arrives, you can call Social Security to request a letter confirming your enrollment and effective date.",
-      }],
-    quickReference: [
-      { icon: "check", text: "<strong>IEP enrollment</strong> (before or during birthday month): coverage starts the 1st of your birthday month" },
-      { icon: "alert", text: "<strong>General Enrollment Period</strong>: coverage always starts July 1, regardless of when you apply" },
-      { icon: "check", text: "<strong>Special Enrollment Period</strong>: coverage starts the 1st of the month after enrollment" },
-      { icon: "info", text: "<strong>Processing time</strong>: 2 to 8 weeks for application, but effective date is fixed by CMS rules" },
-      { icon: "dollar", text: "<strong>2026 Part B premium</strong>: $202.90/month (no penalty if enrolled during IEP or SEP)" },
-      { icon: "alert", text: "<strong>GEP penalty</strong>: 10% added to premium for every 12-month period you could have had Part B but did not" }],
-    relatedTopics: [
-      { title: "Medicare Initial Enrollment Period", description: "Learn about the 7-month window to sign up for Medicare when you first become eligible.", slug: "medicare-initial-enrollment-period" },
-      { title: "Medicare Part B Late Enrollment Penalty", description: "Understand how the Part B penalty is calculated and how to avoid it.", slug: "medicare-part-b-late-enrollment-penalty" },
-      { title: "Medicare Special Enrollment Period", description: "Find out if you qualify for an SEP to enroll in Medicare outside of standard enrollment windows.", slug: "medicare-special-enrollment-period" },
-      { title: "Can You Drop Medicare Part B?", description: "Learn when it is safe to disenroll from Part B and the risks involved.", slug: "can-you-drop-medicare-part-b" }],
-    sidebarRelatedLinks: [
-      "Medicare Initial Enrollment Period",
-      "Medicare Part B Late Enrollment Penalty",
-      "Medicare Special Enrollment Period",
-      "Can You Drop Medicare Part B?"],
-    ctaBanner: {
-      title: "Need Help Enrolling in Medicare Part B?",
-      text: "Our licensed agents can walk you through the enrollment process, help you understand your timeline, and make sure you avoid penalties. Call us for free, no-obligation guidance.",
-    },
-    relatedSlugs: [
-      "medicare-initial-enrollment-period",
-      "medicare-part-b-late-enrollment-penalty",
-      "medicare-special-enrollment-period",
-      "can-you-drop-medicare-part-b",
-      "what-is-medicare-creditable-coverage",
-      "going-back-to-work-on-medicare",
     ],
   },
+  comparisonTable: [
+    {
+      planType: "Initial Enrollment Period (IEP)",
+      coverage: "1-3 months",
+      icon: "shield",
+      notes: "Coverage start depends on which month of the 7-month window you enroll",
+    },
+    {
+      planType: "General Enrollment Period (GEP)",
+      coverage: "3-6 months wait",
+      icon: "alert",
+      notes: "Enroll Jan 1 - Mar 31, but coverage does not start until July 1",
+    },
+    {
+      planType: "Special Enrollment Period (SEP)",
+      coverage: "1 month",
+      icon: "heart",
+      notes: "Coverage typically starts the first of the month after you enroll",
+    },
+    {
+      planType: "Disability (under 65)",
+      coverage: "Automatic after 24 months",
+      icon: "info",
+      notes: "Part B starts automatically after 24 months of SSDI benefits",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Initial Enrollment Period (IEP)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Coverage Starts Within 1-3 Months",
+      coverageType: "covered",
+      statusBadge: "Best timeline for new enrollees turning 65",
+      paragraphs: [
+      "Your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period) is a 7-month window that begins 3 months before your 65th birthday month, includes your birthday month, and extends 3 months after. When your Part B coverage starts depends on which month within this window you actually sign up.",
+      "If you enroll during the 3 months before your birthday month or during your birthday month itself, coverage starts on the first day of your birthday month. If you enroll during the 3 months after your birthday month, there is a delay of 1 to 3 months before coverage begins.",
+      "The application itself is processed relatively quickly (usually 2 to 4 weeks), but the coverage effective date follows a fixed schedule set by CMS regardless of processing speed.",
+    ],
+      whatItCovers: [
+      "Enroll 3 months before birthday month: coverage starts the 1st of your birthday month",
+      "Enroll during birthday month: coverage starts the 1st of your birthday month",
+      "Enroll 1 month after birthday month: coverage starts 1 month later",
+      "Enroll 2 months after birthday month: coverage starts 2 months later",
+      "Enroll 3 months after birthday month: coverage starts 3 months later",
+    ],
+      whatItDoesntCover: [
+      "Any medical services received before your Part B effective date",
+      "Retroactive coverage for the gap period if you enrolled late in your IEP",
+    ],
+      costNote: "There is no penalty for enrolling during your IEP. The standard Part B premium in 2026 is $202.90 per month. Signing up early in your IEP window gives you the fastest coverage start date.",
+    },
+    {
+      planName: "General Enrollment Period (GEP)",
+      icon: "alert",
+      iconColor: "#D97706",
+      coverageLabel: "Coverage Starts July 1",
+      coverageType: "partial",
+      statusBadge: "Longest wait time of any enrollment method",
+      paragraphs: [
+      "If you missed your IEP and do not qualify for a [Special Enrollment Period](/faqs/medicare-special-enrollment-period), you must wait for the General Enrollment Period, which runs from January 1 through March 31 each year. Regardless of when during this window you apply, your Part B coverage will not start until July 1 of that year.",
+      "This means if you enroll on January 2, you will wait nearly 6 months for coverage to begin. If you enroll on March 31, you will still wait until July 1. During this gap, you have no Part B coverage and are responsible for 100% of outpatient medical costs.",
+      "Additionally, enrolling during the GEP typically means you will pay a [Part B late enrollment penalty](/faqs/medicare-part-b-late-enrollment-penalty) of 10% for every 12-month period you were eligible but did not enroll. This penalty is added to your monthly premium permanently.",
+    ],
+      whatItCovers: [
+      "Enrollment window: January 1 through March 31 each year",
+      "Coverage effective date: always July 1 of the same year",
+      "Processing time: application processed within 2 to 8 weeks, but coverage date is fixed",
+    ],
+      whatItDoesntCover: [
+      "Any medical services between enrollment and July 1",
+      "Retroactive coverage for the months you were without Part B",
+      "Waiver of the late enrollment penalty (in most cases)",
+    ],
+      callout: {
+      type: "warning",
+      title: "The GEP Gap Can Be Costly",
+      text: "If you enroll in January and have a medical emergency in March, you have no Part B coverage. Plan ahead: if you know you missed your IEP, enroll on January 1 and budget for the gap period. Consider short-term health insurance to bridge the coverage gap until July 1.",
+    },
+    },
+    {
+      planName: "Special Enrollment Period (SEP)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Coverage Starts Next Month",
+      coverageType: "covered",
+      statusBadge: "Fastest path for those leaving employer coverage",
+      paragraphs: [
+      "If you delayed Medicare because you had [creditable employer coverage](/faqs/what-is-medicare-creditable-coverage), you qualify for a Special Enrollment Period. The SEP gives you 8 months after your employment ends (or your employer coverage ends, whichever comes first) to sign up for Part B without a penalty.",
+      "When you enroll during an SEP, your Part B coverage typically starts the first of the month after you sign up. This is significantly faster than the GEP timeline. For example, if you enroll on March 15, your coverage starts April 1.",
+      "You will need to provide documentation proving you had creditable employer coverage. This is done using CMS Form CMS-L564, which your employer's HR department fills out. Processing may take slightly longer (3 to 6 weeks) because Social Security must verify your employer coverage documentation.",
+    ],
+      whatItCovers: [
+      "Coverage starts the 1st of the month after enrollment",
+      "No late enrollment penalty if you had creditable employer coverage",
+      "8-month enrollment window after employment or coverage ends",
+      "Processing time: 3 to 6 weeks for application with employer verification",
+    ],
+      whatItDoesntCover: [
+      "Retroactive coverage before your effective date",
+      "Situations where employer had fewer than 20 employees (you should have enrolled during IEP)",
+    ],
+      callout: {
+      type: "tip",
+      title: "Get Form CMS-L564 Before You Leave Your Job",
+      text: "Ask your employer to complete Form CMS-L564 before your last day. This form proves you had creditable coverage and speeds up your Part B enrollment. If you wait until after you leave, it can be harder to get HR to respond quickly.",
+    },
+    },
+  ],
+  costTable: {
+    title: "Part B Enrollment Timeline Summary (2026)",
+    headers: [
+    "Enrollment Period",
+    "When You Can Enroll",
+    "Coverage Start Date",
+    "Processing Time",
+    "Penalty?",
+  ],
+    rows: [
+      {
+        "Enrollment Period": "IEP (3 months before birthday)",
+        "When You Can Enroll": "3 months before 65th birthday month",
+        "Coverage Start Date": "1st of birthday month",
+        "Processing Time": "2-4 weeks",
+        "Penalty?": "No",
+      },
+      {
+        "Enrollment Period": "IEP (birthday month)",
+        "When You Can Enroll": "Month you turn 65",
+        "Coverage Start Date": "1st of birthday month",
+        "Processing Time": "2-4 weeks",
+        "Penalty?": "No",
+      },
+      {
+        "Enrollment Period": "IEP (1 month after)",
+        "When You Can Enroll": "1 month after birthday month",
+        "Coverage Start Date": "1st of the following month",
+        "Processing Time": "2-4 weeks",
+        "Penalty?": "No",
+      },
+      {
+        "Enrollment Period": "IEP (2-3 months after)",
+        "When You Can Enroll": "2-3 months after birthday month",
+        "Coverage Start Date": "2-3 months after enrollment",
+        "Processing Time": "2-4 weeks",
+        "Penalty?": "No",
+      },
+      {
+        "Enrollment Period": "General Enrollment Period",
+        "When You Can Enroll": "January 1 - March 31",
+        "Coverage Start Date": "July 1",
+        "Processing Time": "2-8 weeks",
+        "Penalty?": "Yes (10% per year missed)",
+      },
+      {
+        "Enrollment Period": "Special Enrollment Period",
+        "When You Can Enroll": "Within 8 months of leaving employer coverage",
+        "Coverage Start Date": "1st of month after enrollment",
+        "Processing Time": "3-6 weeks",
+        "Penalty?": "No",
+      },
+    ],
+    footnote: "Processing time refers to how long Social Security takes to process your application. The coverage start date is set by CMS rules and does not change based on processing speed. The 2026 standard Part B premium is $202.90/month.",
+  },
+  exceptionsSection: {
+    title: "Special Circumstances That Affect Your Timeline",
+    items: [
+      {
+        title: "Automatic Enrollment (Social Security Recipients)",
+        text: "If you are already receiving Social Security benefits when you turn 65, you are automatically enrolled in Part A and Part B. Your Medicare card will arrive in the mail approximately 3 months before your 65th birthday. You do not need to apply separately. If you do not want Part B, you must actively opt out.",
+        highlight: "If you are collecting Social Security, you do not need to apply. Part B enrollment is automatic and your card arrives about 3 months before you turn 65.",
+      },
+      {
+        title: "Disability Enrollment (Under 65)",
+        text: "If you qualify for Medicare through disability (SSDI), Part B begins automatically after you have received disability benefits for 24 months. There is no separate application required. Your Medicare card will arrive approximately 3 months before your 25th month of SSDI benefits.",
+      },
+      {
+        title: "COBRA Does Not Count as Creditable Coverage",
+        text: "COBRA continuation coverage does not qualify as creditable employer coverage for Medicare purposes. If you are on COBRA and have not enrolled in Part B, you should sign up immediately. Waiting until COBRA ends will not give you a Special Enrollment Period, and you may face the GEP timeline and a late penalty.",
+      },
+      {
+        title: "Eddie's Pro Tip: When in Doubt, Enroll During Your IEP",
+        text: "If you are approaching 65 and still working, sign up for Part B during your IEP even if you plan to keep your employer coverage. Here is why: if your employer has fewer than 20 employees, Medicare is primary anyway, and delaying Part B means you have a coverage gap right now. If your employer has 20+ employees, you can safely delay. But if you are unsure about your employer's size or your future employment, enrolling during the IEP eliminates all risk of penalties and coverage gaps later. The $185/month premium is almost always cheaper than the consequences of getting this wrong.",
+        highlight: "When in doubt, enroll in Part B during your IEP. The $185/month premium is almost always cheaper than the consequences of getting this wrong.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "How long does Medicare Part B take to process?",
+      answer: "Social Security typically processes Part B applications within 2 to 8 weeks. However, the date your coverage starts is determined by which enrollment period you use, not by how fast the application is processed.",
+    },
+    {
+      question: "Can I get Medicare Part B to start immediately?",
+      answer: "No. Even in the best case (enrolling early in your IEP or during an SEP), coverage starts the first of the following month at the earliest. There is no way to get same-day or retroactive Part B coverage.",
+    },
+    {
+      question: "Why does the General Enrollment Period make me wait until July 1?",
+      answer: "CMS sets a fixed July 1 start date for all GEP enrollees to simplify administration. This is one of the main reasons it is important to enroll during your IEP or qualify for an SEP instead.",
+    },
+    {
+      question: "How do I check the status of my Part B application?",
+      answer: "Call Social Security at 1-800-772-1213 (TTY: 1-800-325-0778) to check your application status. You can also visit your local Social Security office or check your my Social Security account online at ssa.gov.",
+    },
+    {
+      question: "What if I need medical care while waiting for Part B to start?",
+      answer: "If you have a coverage gap while waiting for Part B, you are responsible for 100% of outpatient medical costs. Consider short-term health insurance, COBRA, or marketplace coverage to bridge the gap. Emergency room visits are still covered under Part A if you have it.",
+    },
+    {
+      question: "Does applying online speed up the process?",
+      answer: "Applying online at ssa.gov is generally the fastest method because it eliminates mail delays and scheduling wait times. However, the coverage effective date is the same regardless of whether you apply online, by phone, or in person.",
+    },
+    {
+      question: "I missed my IEP. Is there any way to avoid waiting until July 1?",
+      answer: "Only if you qualify for a Special Enrollment Period. If you had creditable employer coverage through a large employer (20+ employees), you can enroll during the 8-month SEP and get coverage starting the first of the next month. If you do not qualify for an SEP, the GEP with its July 1 start date is your only option.",
+    },
+    {
+      question: "How long does it take to get my Medicare card after enrolling?",
+      answer: "Your Medicare card typically arrives in the mail within 2 to 4 weeks after your application is approved. If you need proof of coverage before your card arrives, you can call Social Security to request a letter confirming your enrollment and effective date.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "<strong>IEP enrollment</strong> (before or during birthday month): coverage starts the 1st of your birthday month",
+    },
+    {
+      icon: "alert",
+      text: "<strong>General Enrollment Period</strong>: coverage always starts July 1, regardless of when you apply",
+    },
+    {
+      icon: "check",
+      text: "<strong>Special Enrollment Period</strong>: coverage starts the 1st of the month after enrollment",
+    },
+    {
+      icon: "info",
+      text: "<strong>Processing time</strong>: 2 to 8 weeks for application, but effective date is fixed by CMS rules",
+    },
+    {
+      icon: "dollar",
+      text: "<strong>2026 Part B premium</strong>: $202.90/month (no penalty if enrolled during IEP or SEP)",
+    },
+    {
+      icon: "alert",
+      text: "<strong>GEP penalty</strong>: 10% added to premium for every 12-month period you could have had Part B but did not",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Initial Enrollment Period",
+      description: "Learn about the 7-month window to sign up for Medicare when you first become eligible.",
+      slug: "medicare-initial-enrollment-period",
+    },
+    {
+      title: "Medicare Part B Late Enrollment Penalty",
+      description: "Understand how the Part B penalty is calculated and how to avoid it.",
+      slug: "medicare-part-b-late-enrollment-penalty",
+    },
+    {
+      title: "Medicare Special Enrollment Period",
+      description: "Find out if you qualify for an SEP to enroll in Medicare outside of standard enrollment windows.",
+      slug: "medicare-special-enrollment-period",
+    },
+    {
+      title: "Can You Drop Medicare Part B?",
+      description: "Learn when it is safe to disenroll from Part B and the risks involved.",
+      slug: "can-you-drop-medicare-part-b",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Medicare Initial Enrollment Period",
+    "Medicare Part B Late Enrollment Penalty",
+    "Medicare Special Enrollment Period",
+    "Can You Drop Medicare Part B?",
+  ],
+  ctaBanner: {
+    title: "Need Help Enrolling in Medicare Part B?",
+    text: "Our licensed agents can walk you through the enrollment process, help you understand your timeline, and make sure you avoid penalties. Call us for free, no-obligation guidance.",
+  },
+  relatedSlugs: [
+    "medicare-initial-enrollment-period",
+    "medicare-part-b-late-enrollment-penalty",
+    "medicare-special-enrollment-period",
+    "can-you-drop-medicare-part-b",
+    "what-is-medicare-creditable-coverage",
+    "going-back-to-work-on-medicare",
+  ],
+},
   // ─── Does Medicare Cover MRI and CT Scans ──────────────────────────────────────
   {
     slug: "does-medicare-cover-mri-ct-scans",
