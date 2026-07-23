@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import Script from "next/script";
 import { VWOScript } from "vwo-smartcode-nextjs";
 import HeatmapTracker from "@/components/HeatmapTracker";
@@ -7,13 +6,6 @@ import InvocaRefresh from "@/components/InvocaRefresh";
 import ChatWidget from "@/components/ChatWidget";
 import PostHogProvider from "@/components/PostHogProvider";
 import "./globals.css";
-
-const plusJakartaSans = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-  variable: "--font-plus-jakarta-sans",
-});
 
 export const metadata: Metadata = {
   title: {
@@ -61,7 +53,20 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Preconnect hints — open connections early to reduce latency */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://d2xsxph8kpxj0f.cloudfront.net" />
+
+        {/* Google Fonts — preloaded as non-render-blocking, then applied as stylesheet */}
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
 
         {/* Invoca Call Tracking — loads after page is interactive so it can scan DOM for phone elements */}
         <Script
@@ -93,7 +98,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${plusJakartaSans.variable} antialiased`}>
+      <body className="antialiased">
         {/* Google Tag Manager (noscript fallback) */}
         <noscript>
           <iframe
