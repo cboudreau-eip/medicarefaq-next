@@ -109,7 +109,7 @@ export default function SlideInCTA({
           </div>
 
           {/* Heading */}
-          <h2 className="text-2xl font-bold text-[#00263A] mb-3 leading-tight">
+          <h2 className="text-[26px] font-bold text-[#00263A] mb-3 leading-tight">
             Free Workbook That Makes Medicare Simple
           </h2>
 
