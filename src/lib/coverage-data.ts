@@ -9696,217 +9696,327 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-second-opinions-and-when-should-you-get-one"],
   },
   {
-    slug: "does-medicare-cover-end-stage-renal-disease",
-    seo: {
-      title: "Does Medicare Cover End-Stage Renal Disease (ESRD)?",
-      description:
-        "Medicare covers ESRD patients of any age - not just those 65 and older. Learn about dialysis, kidney transplants, waiting periods, and how to minimize your out-of-pocket costs.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-end-stage-renal-disease/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
+  slug: "does-medicare-cover-endstage",
+  seo: {
     title: "Does Medicare Cover End-Stage Renal Disease (ESRD)?",
-    subtitle:
-      "Yes - Medicare covers ESRD patients of any age, not just those 65 and older. Coverage includes dialysis, kidney transplants, and immunosuppressive drugs. Learn about waiting periods, cost-sharing, and your plan options.",
-    category: "Medicare Coverage",
-    dateUpdated: "April 14, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "8 min read",
-    quickAnswer: {
-      text: "Yes, Medicare covers end-stage renal disease (ESRD) patients of any age - not just those 65 and older. Coverage includes outpatient dialysis (Part B), inpatient hospital stays and kidney transplants (Part A), home dialysis equipment and training, and immunosuppressive drugs post-transplant. A 3-month waiting period typically applies before coverage begins.",
-      badges: [
-        { plan: "Original Medicare", status: "covered" },
-        { plan: "Medicare Advantage", status: "covered" },
-        { plan: "Medigap", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part A (Inpatient)", coverage: "Covered", icon: "shield", notes: "Covers inpatient hospital stays, kidney transplant surgery, and related hospital care" },
-      { planType: "Medicare Part B (Outpatient)", coverage: "Covered", icon: "shield", notes: "Covers outpatient dialysis, home dialysis equipment, immunosuppressive drugs post-transplant" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Covered", icon: "heart", notes: "ESRD Special Needs Plans (SNPs) available; all Original Medicare ESRD benefits covered" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Varies by Plan", icon: "users", notes: "Covers Part A deductible, Part B coinsurance; availability under 65 varies by state" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Parts a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "Covered - available at any age with ESRD",
-        paragraphs: [
-          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers end-stage renal disease regardless of age. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security - or be the child or spouse of someone who qualifies.",
-          "**Medicare Part A** covers inpatient hospital stays related to ESRD, kidney transplant surgery, and related hospital care. **Medicare Part B** covers outpatient dialysis at a certified dialysis facility, home dialysis training and equipment, dialysis supplies, and immunosuppressive drugs after a kidney transplant.",
-          "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The 3-month waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months."],
-        whatItCovers: [
-          "Inpatient hospital stays related to ESRD (Part A)",
-          "Kidney transplant surgery and related hospital care (Part A)",
-          "Outpatient dialysis at a certified dialysis facility (Part B)",
-          "Home dialysis training and equipment (Part B)",
-          "Dialysis supplies and equipment for home use",
-          "Doctor visits and specialist consultations",
-          "Immunosuppressive drugs post-transplant (Part B)",
-          "Lab tests and diagnostic services related to ESRD"],
-        whatItDoesntCover: [
-          "Prescription drugs not related to immunosuppression (covered under Part D)",
-          "Custodial care or long-term care",
-          "Dental, vision, or hearing services"],
-        costNote: "For outpatient dialysis, you pay 20% coinsurance after your Part B deductible. For inpatient stays, the $1,736 Part A deductible applies per benefit period. Without supplemental coverage, dialysis costs can be substantial.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Covered",
-        coverageType: "covered",
-        statusBadge: "ESRD Special Needs Plans (SNPs) available",
-        paragraphs: [
-          "Since 2021, [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
-          "ESRD SNPs often include Part D drug coverage, transportation to dialysis, and care coordination services. Compare plans carefully to find one that covers your dialysis facility and nephrologist."],
-        whatItCovers: [
-          "All Original Medicare ESRD benefits (Parts A & B)",
-          "Special Needs Plans (SNPs) specifically designed for ESRD patients",
-          "Usually includes Part D prescription drug coverage",
-          "May include additional benefits like transportation to dialysis"],
-        whatItDoesntCover: [
-          "Out-of-network providers unless your plan allows it",
-          "Services requiring prior authorization that was denied"],
-        callout: {
-          type: "info",
-          title: "ESRD Special Needs Plans (SNPs)",
-          text: "ESRD SNPs are Medicare Advantage plans specifically designed for people with end-stage renal disease. They often have lower cost-sharing for dialysis and kidney-related services, plus care coordination benefits. Ask your Medicare agent about SNPs available in your area.",
-        },
-        costNote: "ESRD SNPs often have lower cost-sharing for dialysis and kidney-related services. Compare plans carefully to find one that covers your dialysis facility and nephrologist.",
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        statusBadge: "Availability under 65 varies by state",
-        paragraphs: [
-          "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for dialysis and the Part A deductible for hospital stays. For ESRD patients with frequent outpatient dialysis visits, Medigap can provide significant financial protection.",
-          "**Important:** Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap is available but expensive. If you are 65 or older with ESRD, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights."],
-        whatItCovers: [
-          "Part A hospital deductible and coinsurance",
-          "Part B coinsurance (20%) for all outpatient dialysis and ESRD services",
-          "Part B excess charges (Plan F and Plan G)",
-          "Skilled nursing facility coinsurance"],
-        whatItDoesntCover: [
-          "Prescription drugs - you need a separate Part D plan",
-          "Dental, vision, or hearing benefits"],
-        costNote: "If you qualify for Medigap, Plan G is typically the most comprehensive option. It covers all Medicare-approved costs except the Part B deductible, which is especially valuable for ESRD patients with frequent outpatient dialysis visits.",
-      }],
-    costTable: {
-      title: "ESRD Medicare Coverage: Key Cost Scenarios",
-      headers: ["Service", "Medicare Part", "Without Supplement", "With Plan G"],
-      rows: [
-        { "Service": "Outpatient dialysis (per session)", "Medicare Part": "Part B", "Without Supplement": "~$60–$80 (20% of bundled rate)", "With Plan G": "$0 after Part B deductible" },
-        { "Service": "Kidney transplant (inpatient)", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible per benefit period", "With Plan G": "$0" },
-        { "Service": "Home dialysis equipment", "Medicare Part": "Part B", "Without Supplement": "20% coinsurance", "With Plan G": "$0 after Part B deductible" },
-        { "Service": "Immunosuppressive drugs (post-transplant)", "Medicare Part": "Part B", "Without Supplement": "20% after Part B deductible", "With Plan G": "$0 after Part B deductible" },
-        { "Service": "Inpatient hospital stay", "Medicare Part": "Part A", "Without Supplement": "$1,736 deductible + $434/day (days 61–90)", "With Plan G": "$0" }],
-    },
-    exceptionsSection: {
-      title: "Key ESRD Medicare Rules and Exceptions",
-      items: [
-        {
-          title: "The 3-Month Waiting Period",
-          text: "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. This waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
-        },
-        {
-          title: "The 30-Month Coordination Period",
-          text: "If you have employer group health coverage when you are diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare becomes primary. This coordination period begins on the first date you become entitled to enroll in Medicare due to ESRD.",
-        },
-        {
-          title: "Medicare Advantage ESRD Enrollment",
-          text: "Since 2021 (under the Consolidated Appropriations Act), Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are available and specifically designed for people with end-stage renal disease.",
-        },
-        {
-          title: "Part B Immunosuppressive Drug Benefit",
-          text: "Under Section 402 of the Consolidated Appropriations Act of 2021, Medicare Part B now covers immunosuppressive drugs for certain ESRD patients even after their standard Medicare coverage ends 36 months post-transplant. This Part B-ID benefit allows eligible beneficiaries to enroll at any time with a lower monthly premium and no late enrollment penalty.",
-        },
-        {
-          title: "Medigap under 65 Rules",
-          text: "Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap costs the same for everyone regardless of age. Check your state's specific rules before applying.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Can I get Medicare if I have ESRD and I'm under 65?",
-        answer:
-          "Yes. Medicare covers ESRD patients of any age, not just those 65 and older. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security Disability Insurance (SSDI) - or be the child or spouse of someone who qualifies.",
-      },
-      {
-        question: "When Does Medicare Coverage Start for ESRD?",
-        answer:
-          "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
-      },
-      {
-        question: "What is the 30-month Coordination Period for ESRD?",
-        answer:
-          "If you have employer group health coverage when diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare automatically becomes your primary insurance. For ESRD patients without other insurance, Medicare is primary from the start.",
-      },
-      {
-        question: "Can I Enroll in a Medicare Advantage Plan if I Have ESRD?",
-        answer:
-          "Yes. Since 2021, Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
-      },
-      {
-        question: "Can I Get a Medigap Plan if I Have ESRD?",
-        answer:
-          "It depends on your state and age. If you are under 65 with ESRD, many states do not require insurers to sell Medigap to you. In some states, Medigap is available but expensive. If you are 65 or older, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights. Check your state's specific rules.",
-      },
-      {
-        question: "Does Medicare Cover Kidney Transplants for ESRD?",
-        answer:
-          "Yes. Medicare Part A covers kidney transplant surgery and the related inpatient hospital stay. Medicare Part B covers immunosuppressive drugs after the transplant. Under the Part B-ID benefit, immunosuppressive drug coverage can continue even after your standard Medicare coverage ends 36 months post-transplant.",
-      },
-      {
-        question: "Does Medicare Cover Home Dialysis for ESRD?",
-        answer:
-          "Yes. Medicare Part B covers home dialysis training, equipment, and supplies. Home dialysis allows you to perform dialysis in the comfort of your own home, either peritoneal dialysis or home hemodialysis. Your nephrologist must certify that home dialysis is appropriate for your condition.",
-      }],
-    quickReference: [
-      { icon: "check", text: "ESRD covered at any age - not just 65+" },
-      { icon: "check", text: "Dialysis and kidney transplants covered under Parts A & B" },
-      { icon: "alert", text: "3-month waiting period before coverage begins (may be waived)" },
-      { icon: "alert", text: "30-month coordination period if you have employer coverage" },
-      { icon: "check", text: "Medicare Advantage SNPs available for ESRD patients since 2021" },
-      { icon: "info", text: "Medigap availability under 65 varies by state" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Dialysis Treatments?", description: "Learn about Medicare's coverage for dialysis treatments and what you'll pay.", slug: "medicare-cover-dialysis-treatments" },
-      { title: "Medicare Coverage for the Disabled under 65", description: "Understand how Medicare works for beneficiaries under 65 with disabilities.", slug: "medicare-coverage-for-disabled-under-65" },
-      { title: "Does Medicare Cover a Biopsy?", description: "Learn about Medicare coverage for different types of biopsies.", slug: "does-medicare-cover-a-biopsy" },
-      { title: "What is a Medicare Supplement Plan?", description: "Understand how Medigap plans work and who needs one.", slug: "what-is-a-medicare-supplement-plan-and-who-needs-one" },
-    
-      { title: "Does Medicare Cover Stem Cell Therapy?", description: "Find out if Medicare covers stem cell treatments and bone marrow transplants.", slug: "medicare-coverage-for-stem-cell-treatments" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Dialysis Treatments?",
-      "Medicare Coverage for the Disabled Under 65",
-      "Does Medicare Cover a Biopsy?",
-      "What Is a Medicare Supplement Plan?"],
-    ctaBanner: {
-      title: "Need Help Finding Medicare Coverage for ESRD?",
-      text: "Managing end-stage renal disease is challenging enough without worrying about coverage gaps. Our licensed Medicare agents can help you find the right plan - whether Original Medicare with Medigap or a Medicare Advantage SNP. Compare options in your area for free.",
-    },
-    relatedSlugs: [
-      "medicare-cover-dialysis-treatments",
-      "medicare-coverage-for-disabled-under-65",
-      "does-medicare-cover-a-biopsy",
-      "medicare-supplement-plans-medigap-pricing-methods",
-      "medicare-part-d-penalty", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "medicare-coverage-for-cardiovascular-disease", "what-std-treatments-and-services-does-medicare-cover"],
+    description: "Does Medicare Cover End-Stage Renal Disease? Yes, at any age. Learn about dialysis, transplants, waiting periods, and ways to lower your out-of-pocket costs.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-end-stage-renal-disease/",
+    ogImage: "/images/medicarefaq-cover.jpg",
+    focusKeyword: "Does Medicare Cover End-Stage Renal Disease",
   },
+  title: "Does Medicare Cover End-Stage Renal Disease (ESRD)?",
+  subtitle: "Yes - Medicare covers ESRD patients of any age, not just those 65 and older. Coverage includes dialysis, kidney transplants, and immunosuppressive drugs. Learn about waiting periods, cost-sharing, and your plan options.",
+  category: "Medicare Coverage",
+  dateUpdated: "April 14, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "Author",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "8 min read",
+  quickAnswer: {
+    text: "Yes, Medicare covers end-stage renal disease (ESRD) patients of any age - not just those 65 and older. Coverage includes outpatient dialysis (Part B), inpatient hospital stays and kidney transplants (Part A), home dialysis equipment and training, and immunosuppressive drugs post-transplant. A 3-month waiting period typically applies before coverage begins.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "covered",
+      },
+      {
+        plan: "Medigap",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part A (Inpatient)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covers inpatient hospital stays, kidney transplant surgery, and related hospital care",
+    },
+    {
+      planType: "Medicare Part B (Outpatient)",
+      coverage: "Covered",
+      icon: "shield",
+      notes: "Covers outpatient dialysis, home dialysis equipment, immunosuppressive drugs post-transplant",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Covered",
+      icon: "heart",
+      notes: "ESRD Special Needs Plans (SNPs) available; all Original Medicare ESRD benefits covered",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Varies by Plan",
+      icon: "users",
+      notes: "Covers Part A deductible, Part B coinsurance; availability under 65 varies by state",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Parts a & B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "Covered - available at any age with ESRD",
+      paragraphs: [
+      "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers end-stage renal disease regardless of age. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security - or be the child or spouse of someone who qualifies.",
+      "**Medicare Part A** covers inpatient hospital stays related to ESRD, kidney transplant surgery, and related hospital care. **Medicare Part B** covers outpatient dialysis at a certified dialysis facility, home dialysis training and equipment, dialysis supplies, and immunosuppressive drugs after a kidney transplant.",
+      "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The 3-month waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
+    ],
+      whatItCovers: [
+      "Inpatient hospital stays related to ESRD (Part A)",
+      "Kidney transplant surgery and related hospital care (Part A)",
+      "Outpatient dialysis at a certified dialysis facility (Part B)",
+      "Home dialysis training and equipment (Part B)",
+      "Dialysis supplies and equipment for home use",
+      "Doctor visits and specialist consultations",
+      "Immunosuppressive drugs post-transplant (Part B)",
+      "Lab tests and diagnostic services related to ESRD",
+    ],
+      whatItDoesntCover: [
+      "Prescription drugs not related to immunosuppression (covered under Part D)",
+      "Custodial care or long-term care",
+      "Dental, vision, or hearing services",
+    ],
+      costNote: "For outpatient dialysis, you pay 20% coinsurance after your Part B deductible. For inpatient stays, the $1,736 Part A deductible applies per benefit period. Without supplemental coverage, dialysis costs can be substantial.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Covered",
+      coverageType: "covered",
+      statusBadge: "ESRD Special Needs Plans (SNPs) available",
+      paragraphs: [
+      "Since 2021, [Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
+      "ESRD SNPs often include Part D drug coverage, transportation to dialysis, and care coordination services. Compare plans carefully to find one that covers your dialysis facility and nephrologist.",
+    ],
+      whatItCovers: [
+      "All Original Medicare ESRD benefits (Parts A & B)",
+      "Special Needs Plans (SNPs) specifically designed for ESRD patients",
+      "Usually includes Part D prescription drug coverage",
+      "May include additional benefits like transportation to dialysis",
+    ],
+      whatItDoesntCover: [
+      "Out-of-network providers unless your plan allows it",
+      "Services requiring prior authorization that was denied",
+    ],
+      callout: {
+      type: "info",
+      title: "ESRD Special Needs Plans (SNPs)",
+      text: "ESRD SNPs are Medicare Advantage plans specifically designed for people with end-stage renal disease. They often have lower cost-sharing for dialysis and kidney-related services, plus care coordination benefits. Ask your Medicare agent about SNPs available in your area.",
+    },
+      costNote: "ESRD SNPs often have lower cost-sharing for dialysis and kidney-related services. Compare plans carefully to find one that covers your dialysis facility and nephrologist.",
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Varies by Plan",
+      coverageType: "partial",
+      statusBadge: "Availability under 65 varies by state",
+      paragraphs: [
+      "[Medicare Supplement (Medigap) plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) pay the out-of-pocket costs that Original Medicare leaves behind - including the 20% Part B coinsurance for dialysis and the Part A deductible for hospital stays. For ESRD patients with frequent outpatient dialysis visits, Medigap can provide significant financial protection.",
+      "**Important:** Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap is available but expensive. If you are 65 or older with ESRD, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights.",
+    ],
+      whatItCovers: [
+      "Part A hospital deductible and coinsurance",
+      "Part B coinsurance (20%) for all outpatient dialysis and ESRD services",
+      "Part B excess charges (Plan F and Plan G)",
+      "Skilled nursing facility coinsurance",
+    ],
+      whatItDoesntCover: [
+      "Prescription drugs - you need a separate Part D plan",
+      "Dental, vision, or hearing benefits",
+    ],
+      costNote: "If you qualify for Medigap, Plan G is typically the most comprehensive option. It covers all Medicare-approved costs except the Part B deductible, which is especially valuable for ESRD patients with frequent outpatient dialysis visits.",
+    },
+  ],
+  costTable: {
+    title: "ESRD Medicare Coverage: Key Cost Scenarios",
+    headers: [
+    "Service",
+    "Medicare Part",
+    "Without Supplement",
+    "With Plan G",
+  ],
+    rows: [
+      {
+        "Service": "Outpatient dialysis (per session)",
+        "Medicare Part": "Part B",
+        "Without Supplement": "~$60–$80 (20% of bundled rate)",
+        "With Plan G": "$0 after Part B deductible",
+      },
+      {
+        "Service": "Kidney transplant (inpatient)",
+        "Medicare Part": "Part A",
+        "Without Supplement": "$1,736 deductible per benefit period",
+        "With Plan G": "$0",
+      },
+      {
+        "Service": "Home dialysis equipment",
+        "Medicare Part": "Part B",
+        "Without Supplement": "20% coinsurance",
+        "With Plan G": "$0 after Part B deductible",
+      },
+      {
+        "Service": "Immunosuppressive drugs (post-transplant)",
+        "Medicare Part": "Part B",
+        "Without Supplement": "20% after Part B deductible",
+        "With Plan G": "$0 after Part B deductible",
+      },
+      {
+        "Service": "Inpatient hospital stay",
+        "Medicare Part": "Part A",
+        "Without Supplement": "$1,736 deductible + $434/day (days 61–90)",
+        "With Plan G": "$0",
+      },
+    ],
+  },
+  exceptionsSection: {
+    title: "Key ESRD Medicare Rules and Exceptions",
+    items: [
+      {
+        title: "The 3-Month Waiting Period",
+        text: "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. This waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
+      },
+      {
+        title: "The 30-Month Coordination Period",
+        text: "If you have employer group health coverage when you are diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare becomes primary. This coordination period begins on the first date you become entitled to enroll in Medicare due to ESRD.",
+      },
+      {
+        title: "Medicare Advantage ESRD Enrollment",
+        text: "Since 2021 (under the Consolidated Appropriations Act), Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are available and specifically designed for people with end-stage renal disease.",
+      },
+      {
+        title: "Part B Immunosuppressive Drug Benefit",
+        text: "Under Section 402 of the Consolidated Appropriations Act of 2021, Medicare Part B now covers immunosuppressive drugs for certain ESRD patients even after their standard Medicare coverage ends 36 months post-transplant. This Part B-ID benefit allows eligible beneficiaries to enroll at any time with a lower monthly premium and no late enrollment penalty.",
+      },
+      {
+        title: "Medigap under 65 Rules",
+        text: "Medigap availability for ESRD patients under 65 varies significantly by state. In many states, insurers are not required to sell Medigap to beneficiaries under 65. In some states, Medigap costs the same for everyone regardless of age. Check your state's specific rules before applying.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Can I get Medicare if I have ESRD and I'm under 65?",
+      answer: "Yes. Medicare covers ESRD patients of any age, not just those 65 and older. To qualify, you must have permanent kidney failure requiring dialysis or a kidney transplant, and you must have enough work history to qualify for Social Security Disability Insurance (SSDI) - or be the child or spouse of someone who qualifies.",
+    },
+    {
+      question: "When Does Medicare Coverage Start for ESRD?",
+      answer: "Medicare ESRD coverage typically begins on the first day of the third month following the month when regular dialysis starts. The waiting period may be waived if you receive a kidney transplant or participate in a self-dialysis training program within those three months.",
+    },
+    {
+      question: "What is the 30-month Coordination Period for ESRD?",
+      answer: "If you have employer group health coverage when diagnosed with ESRD, Medicare acts as the secondary payer for the first 30 months. Your employer plan pays first. After 30 months, Medicare automatically becomes your primary insurance. For ESRD patients without other insurance, Medicare is primary from the start.",
+    },
+    {
+      question: "Can I Enroll in a Medicare Advantage Plan if I Have ESRD?",
+      answer: "Yes. Since 2021, Medicare Advantage plans can enroll ESRD patients without restrictions. ESRD Special Needs Plans (SNPs) are specifically designed for people with end-stage renal disease and often provide more coordinated care with lower cost-sharing for dialysis and kidney-related services.",
+    },
+    {
+      question: "Can I Get a Medigap Plan if I Have ESRD?",
+      answer: "It depends on your state and age. If you are under 65 with ESRD, many states do not require insurers to sell Medigap to you. In some states, Medigap is available but expensive. If you are 65 or older, you can enroll in Medigap during your Open Enrollment Period with guaranteed issue rights. Check your state's specific rules.",
+    },
+    {
+      question: "Does Medicare Cover Kidney Transplants for ESRD?",
+      answer: "Yes. Medicare Part A covers kidney transplant surgery and the related inpatient hospital stay. Medicare Part B covers immunosuppressive drugs after the transplant. Under the Part B-ID benefit, immunosuppressive drug coverage can continue even after your standard Medicare coverage ends 36 months post-transplant.",
+    },
+    {
+      question: "Does Medicare Cover Home Dialysis for ESRD?",
+      answer: "Yes. Medicare Part B covers home dialysis training, equipment, and supplies. Home dialysis allows you to perform dialysis in the comfort of your own home, either peritoneal dialysis or home hemodialysis. Your nephrologist must certify that home dialysis is appropriate for your condition.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "ESRD covered at any age - not just 65+",
+    },
+    {
+      icon: "check",
+      text: "Dialysis and kidney transplants covered under Parts A & B",
+    },
+    {
+      icon: "alert",
+      text: "3-month waiting period before coverage begins (may be waived)",
+    },
+    {
+      icon: "alert",
+      text: "30-month coordination period if you have employer coverage",
+    },
+    {
+      icon: "check",
+      text: "Medicare Advantage SNPs available for ESRD patients since 2021",
+    },
+    {
+      icon: "info",
+      text: "Medigap availability under 65 varies by state",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Dialysis Treatments?",
+      description: "Learn about Medicare's coverage for dialysis treatments and what you'll pay.",
+      slug: "medicare-cover-dialysis-treatments",
+    },
+    {
+      title: "Medicare Coverage for the Disabled under 65",
+      description: "Understand how Medicare works for beneficiaries under 65 with disabilities.",
+      slug: "medicare-coverage-for-disabled-under-65",
+    },
+    {
+      title: "Does Medicare Cover a Biopsy?",
+      description: "Learn about Medicare coverage for different types of biopsies.",
+      slug: "does-medicare-cover-a-biopsy",
+    },
+    {
+      title: "What is a Medicare Supplement Plan?",
+      description: "Understand how Medigap plans work and who needs one.",
+      slug: "what-is-a-medicare-supplement-plan-and-who-needs-one",
+    },
+    {
+      title: "Does Medicare Cover Stem Cell Therapy?",
+      description: "Find out if Medicare covers stem cell treatments and bone marrow transplants.",
+      slug: "medicare-coverage-for-stem-cell-treatments",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover Dialysis Treatments?",
+    "Medicare Coverage for the Disabled Under 65",
+    "Does Medicare Cover a Biopsy?",
+    "What Is a Medicare Supplement Plan?",
+  ],
+  ctaBanner: {
+    title: "Need Help Finding Medicare Coverage for ESRD?",
+    text: "Managing end-stage renal disease is challenging enough without worrying about coverage gaps. Our licensed Medicare agents can help you find the right plan - whether Original Medicare with Medigap or a Medicare Advantage SNP. Compare options in your area for free.",
+  },
+  relatedSlugs: [
+    "medicare-cover-dialysis-treatments",
+    "medicare-coverage-for-disabled-under-65",
+    "does-medicare-cover-a-biopsy",
+    "medicare-supplement-plans-medigap-pricing-methods",
+    "medicare-part-d-penalty",
+    "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
+    "medicare-coverage-for-cardiovascular-disease",
+    "what-std-treatments-and-services-does-medicare-cover",
+  ],
+},
   {
     slug: "does-medicare-cover-gender-reassignment-surgery",
     seo: {
