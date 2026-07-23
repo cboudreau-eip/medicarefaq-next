@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { X } from "lucide-react";
-import Link from "next/link";
+import { X, Download } from "lucide-react";
+import Image from "next/image";
 
 interface SlideInCTAProps {
-  /** Delay in ms before the panel slides in */
-  delay?: number;
+  /** Scroll percentage (0-100) at which the panel slides in */
+  scrollPercent?: number;
   /** localStorage key to track dismissal */
   storageKey?: string;
   /** How long (in hours) before showing again after dismissal */
@@ -14,12 +14,13 @@ interface SlideInCTAProps {
 }
 
 export default function SlideInCTA({
-  delay = 5000,
+  scrollPercent = 50,
   storageKey = "slideInCTA_dismissed",
   dismissDurationHours = 24,
 }: SlideInCTAProps) {
   const [visible, setVisible] = useState(false);
   const [shouldRender, setShouldRender] = useState(false);
+  const [triggered, setTriggered] = useState(false);
 
   useEffect(() => {
     // TODO: Re-enable localStorage check after testing
@@ -32,19 +33,29 @@ export default function SlideInCTA({
     //   }
     // }
 
-    // Show after delay
-    const timer = setTimeout(() => {
-      setShouldRender(true);
-      // Small delay to trigger CSS transition
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          setVisible(true);
-        });
-      });
-    }, delay);
+    const handleScroll = () => {
+      if (triggered) return;
 
-    return () => clearTimeout(timer);
-  }, [delay, storageKey, dismissDurationHours]);
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const docHeight =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+      const scrolled = (scrollTop / docHeight) * 100;
+
+      if (scrolled >= scrollPercent) {
+        setTriggered(true);
+        setShouldRender(true);
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            setVisible(true);
+          });
+        });
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [scrollPercent, storageKey, dismissDurationHours, triggered]);
 
   const handleDismiss = () => {
     setVisible(false);
@@ -73,7 +84,7 @@ export default function SlideInCTA({
           visible ? "translate-x-0" : "translate-x-full"
         }`}
         role="dialog"
-        aria-label="Find the right Medicare plan"
+        aria-label="Get your free Medicare Decision Kit"
       >
         {/* Close button */}
         <button
@@ -86,41 +97,43 @@ export default function SlideInCTA({
 
         {/* Content */}
         <div className="flex flex-col items-center justify-center h-full px-8 py-12 text-center">
-          {/* Icon/Visual */}
-          <div className="w-16 h-16 bg-[#00263A] rounded-full flex items-center justify-center mb-6">
-            <svg
-              className="w-8 h-8 text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
+          {/* Eddie - subtle, small avatar at top */}
+          <div className="w-20 h-20 mb-4 relative">
+            <Image
+              src="/eddie_eagle_arms_transparent.png"
+              alt="Eddie the Eagle"
+              width={80}
+              height={80}
+              className="object-cover object-top rounded-full border-2 border-[#00263A]/10"
+            />
+          </div>
+
+          {/* Icon */}
+          <div className="w-12 h-12 bg-[#00263A] rounded-full flex items-center justify-center mb-5">
+            <Download className="w-6 h-6 text-white" aria-hidden="true" />
           </div>
 
           {/* Heading */}
           <h2 className="text-2xl font-bold text-[#00263A] mb-3 leading-tight">
-            Find the Right Medicare Plan for You
+            Get Your Free Medicare Decision Kit
           </h2>
 
           {/* Subtext */}
           <p className="text-gray-600 mb-8 leading-relaxed">
-            Answer a few quick questions and we will help match you with plans available in your area. It takes less than 2 minutes.
+            A printable workbook to organize your deadlines, doctors,
+            prescriptions, and costs — so you&apos;re fully prepared before
+            choosing a plan.
           </p>
 
           {/* CTA Button */}
-          <Link
-            href="/find-plans/"
+          <a
+            href="https://rebuild.medicarecompared.com/tools/decision-kit"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center w-full px-6 py-4 bg-[#C41E3A] hover:bg-[#a01830] text-white font-semibold text-lg rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
           >
-            Get Started - It&apos;s Free
-          </Link>
+            Download Free Kit
+          </a>
 
           {/* Trust signals */}
           <div className="mt-6 flex items-center gap-2 text-sm text-gray-500">
@@ -136,7 +149,7 @@ export default function SlideInCTA({
                 clipRule="evenodd"
               />
             </svg>
-            No cost. No obligation. No spam.
+            Free. No obligation. Updated for 2026.
           </div>
         </div>
       </div>
