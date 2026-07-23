@@ -3,12 +3,12 @@ import SiteLayout from "@/components/SiteLayout";
 import Eligibility from "./PageContent";
 
 export const metadata: Metadata = {
-  title: "Medicare Eligibility Requirements (2025) | Who Qualifies for Medicare?",
-  description: "Learn the requirements to qualify for Medicare. Covers age 65+, disability, ALS, ESRD eligibility, citizenship rules, and enrollment windows.",
+  title: "Medicare Eligibility Requirements (2026) | Who Qualifies for Medicare?",
+  description: "Learn the requirements to qualify for Medicare in 2026. Covers age 65+, disability, ALS, ESRD eligibility, citizenship rules, work history, and enrollment windows.",
   alternates: { canonical: "https://www.medicarefaq.com/new-to-medicare/eligibility/" },
   openGraph: {
-    title: "Medicare Eligibility Requirements | Who Qualifies for Medicare?",
-    description: "Learn the requirements to qualify for Medicare. Covers age 65+, disability, ALS, ESRD eligibility, citizenship rules, and enrollment windows.",
+    title: "Medicare Eligibility Requirements (2026) | Who Qualifies for Medicare?",
+    description: "Complete guide to Medicare requirements and qualifications. Covers all pathways to qualify for Medicare including age, disability, ALS, ESRD, citizenship rules, and enrollment windows.",
     url: "https://www.medicarefaq.com/new-to-medicare/eligibility/",
     type: "article",
     images: [{ url: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg" }],
@@ -19,11 +19,11 @@ export default function Page() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Medicare Eligibility Requirements: Who Qualifies for Medicare in 2025",
+    headline: "Medicare Eligibility Requirements: Who Qualifies for Medicare in 2026",
     description: "Comprehensive guide to Medicare eligibility requirements including age, disability, ALS, ESRD pathways, citizenship rules, work history, and enrollment windows.",
     url: "https://www.medicarefaq.com/new-to-medicare/eligibility/",
     datePublished: "2024-06-15",
-    dateModified: "2025-07-16",
+    dateModified: "2026-07-23",
     author: { "@type": "Organization", name: "MedicareFAQ" },
     publisher: {
       "@type": "Organization",
@@ -54,7 +54,7 @@ export default function Page() {
       {
         "@type": "Question",
         name: "Can I get Medicare if I have never worked?",
-        acceptedAnswer: { "@type": "Answer", text: "Yes, but you may need to pay a premium for Part A. If your spouse has worked and paid Medicare taxes for at least 10 years (40 quarters), you can qualify for premium-free Part A based on their work record. Otherwise, you can purchase Part A at the full premium rate." },
+        acceptedAnswer: { "@type": "Answer", text: "Yes, but you may need to pay a premium for Part A. If your spouse has worked and paid Medicare taxes for at least 10 years (40 quarters), you can qualify for premium-free Part A based on their work record. Otherwise, you can purchase Part A at the full premium rate of $565 per month in 2026." },
       },
       {
         "@type": "Question",

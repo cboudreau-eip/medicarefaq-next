@@ -162,14 +162,14 @@ const workHistoryTiers = [
   },
   {
     quarters: "30 to 39 quarters (7.5 to 9.75 years)",
-    partAPremium: "$285/month (2025)",
+    partAPremium: "$311/month (2026)",
     description:
       "Reduced premium for those close to the 40-quarter threshold",
     highlight: false,
   },
   {
     quarters: "Under 30 quarters",
-    partAPremium: "$518/month (2025)",
+    partAPremium: "$565/month (2026)",
     description:
       "Full premium required for fewer than 30 quarters of Medicare tax payments",
     highlight: false,
@@ -309,61 +309,133 @@ const relatedTopics = [
     title: "Medicare Initial Enrollment Period",
     description: "The 7-month window to sign up when you first become eligible",
     slug: "/faqs/medicare-initial-enrollment-period/",
+    category: "enrollment",
   },
   {
     title: "Medicare Special Enrollment Periods",
     description: "When and how to use an SEP after losing employer coverage",
     slug: "/faqs/medicare-special-enrollment-periods/",
+    category: "enrollment",
+  },
+  {
+    title: "Medicare General Enrollment Period",
+    description: "Sign up from January 1 through March 31 if you missed your IEP",
+    slug: "/faqs/medicare-general-enrollment-period/",
+    category: "enrollment",
   },
   {
     title: "Medicare Part B Late Enrollment Penalty",
     description: "How the Part B penalty is calculated and how to avoid it",
     slug: "/faqs/medicare-part-b-late-enrollment-penalty/",
+    category: "penalties",
   },
   {
     title: "Medicare Part D Late Enrollment Penalty",
     description: "Understanding the Part D penalty and creditable coverage",
     slug: "/faqs/medicare-part-d-late-enrollment-penalty/",
+    category: "penalties",
   },
   {
-    title: "Turning 65: Common Medicare Questions",
-    description: "Everything you need to know as you approach Medicare eligibility",
-    slug: "/faqs/turning-65-these-are-the-most-common-medicare-questions-answered/",
+    title: "Penalty Avoidance Strategies",
+    description: "Practical tips to avoid permanent Medicare premium surcharges",
+    slug: "/blog/medicare-penalty-avoidance-strategies/",
+    category: "penalties",
+  },
+  {
+    title: "How to Sign Up for Medicare",
+    description: "Step-by-step walkthrough of the Medicare enrollment process",
+    slug: "/blog/how-to-sign-up-for-medicare/",
+    category: "enrollment",
+  },
+  {
+    title: "Medicare at 65: Month-by-Month Timeline",
+    description: "A detailed timeline of what to do as you approach 65",
+    slug: "/blog/medicare-at-65-month-by-month-timeline/",
+    category: "enrollment",
   },
   {
     title: "Medicare Enrollment Checklist",
     description: "Step-by-step checklist to prepare before you turn 65",
     slug: "/faqs/medicare-enrollment-checklist/",
+    category: "enrollment",
   },
   {
     title: "When to Enroll if Still Working",
     description: "Enrollment rules for those with employer coverage past 65",
     slug: "/faqs/when-should-you-enroll-in-medicare-if-still-working/",
+    category: "special",
   },
   {
     title: "Medicare and Employer Coverage",
     description: "How Medicare coordinates with employer health insurance",
     slug: "/faqs/medicare-and-employer-coverage/",
+    category: "special",
+  },
+  {
+    title: "Transitioning from Employer Coverage to Medicare",
+    description: "A friendly step-by-step guide for when employer coverage ends",
+    slug: "/blog/transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide/",
+    category: "special",
+  },
+  {
+    title: "Medicare and HSA Rules at 65",
+    description: "What happens to your Health Savings Account when you enroll",
+    slug: "/blog/medicare-and-hsa-rules-what-happens-when-you-turn-65/",
+    category: "special",
+  },
+  {
+    title: "How Medicare Works with Employer Plans",
+    description: "Coordination of benefits between Medicare and group coverage",
+    slug: "/blog/understanding-how-medicare-works-with-employer-health-plans/",
+    category: "special",
   },
   {
     title: "What Is Medicare Creditable Coverage?",
     description: "Which coverage counts to avoid late enrollment penalties",
     slug: "/faqs/what-is-medicare-creditable-coverage/",
+    category: "penalties",
   },
   {
     title: "Medigap Open Enrollment Period",
     description: "Your best window to enroll in a Medicare Supplement plan",
     slug: "/faqs/medicare-supplement-open-enrollment/",
+    category: "enrollment",
   },
   {
-    title: "Can I Delay Medicare?",
-    description: "When it makes sense to postpone Medicare enrollment",
-    slug: "/faqs/delay-medicare/",
+    title: "Best Time to Enroll in a Medicare Supplement Plan",
+    description: "Why timing matters for Medigap and how to get guaranteed issue",
+    slug: "/blog/the-best-time-to-enroll-in-a-medicare-supplement-plan-and-why-it-matters/",
+    category: "enrollment",
   },
   {
     title: "Medicare for Green Card Holders",
     description: "Eligibility rules for permanent residents",
     slug: "/faqs/medicare-for-green-card-holders/",
+    category: "eligibility",
+  },
+  {
+    title: "Medicare and Divorce",
+    description: "How to qualify for Medicare through an ex-spouse's work record",
+    slug: "/faqs/medicare-and-divorce/",
+    category: "eligibility",
+  },
+  {
+    title: "Medicare-Qualified Government Wages",
+    description: "Eligibility rules for government employees and their quarters",
+    slug: "/faqs/medicare-qualified-government-wages/",
+    category: "eligibility",
+  },
+  {
+    title: "Medicare for Disabled Individuals",
+    description: "Complete guide to disability-based Medicare qualifications",
+    slug: "/faqs/medicare-for-disabled-individuals/",
+    category: "eligibility",
+  },
+  {
+    title: "Medicare 2026 Costs Guide",
+    description: "All premiums, deductibles, and key cost changes for 2026",
+    slug: "/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/",
+    category: "costs",
   },
 ];
 
@@ -450,13 +522,14 @@ export default function Eligibility() {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-4xl">
-            Medicare Eligibility Requirements: Who Qualifies in 2025
+            Medicare Eligibility Requirements: Who Qualifies in 2026
           </h1>
           <p className="text-lg md:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed">
-            Find out if you qualify for Medicare based on your age, work
-            history, disability status, or medical condition. This guide
-            covers every pathway to eligibility and what to do once you
-            qualify.
+            Find out if you meet the requirements for Medicare based on
+            your age, work history, disability status, or medical condition.
+            This comprehensive guide covers every pathway to qualify for
+            Medicare, the Medicare qualifications you need to meet, and
+            what to do once you are eligible.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -543,16 +616,18 @@ export default function Eligibility() {
             {/* Overview */}
             <section id="overview" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">
-                Medicare Eligibility Overview
+                Who Qualifies for Medicare? Eligibility Overview
               </h2>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Medicare eligibility is determined by three primary factors:{" "}
+                Understanding the requirements for Medicare is the first
+                step toward securing your healthcare coverage. The Medicare
+                qualifications are based on three primary factors:{" "}
                 <strong>age</strong>, <strong>disability status</strong>,
                 and <strong>specific medical conditions</strong>. Most
-                Americans become eligible when they turn 65, but there are
-                pathways to qualify earlier. Understanding which category
-                applies to you is the first step toward getting the
-                coverage you need.
+                Americans qualify for Medicare when they turn 65, but there
+                are pathways to meet the Medicare requirements earlier.
+                Knowing which category applies to you helps you plan your
+                enrollment and avoid costly penalties.
               </p>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 In addition to meeting one of the eligibility pathways
@@ -560,7 +635,14 @@ export default function Eligibility() {
                 <strong>citizenship or residency requirements</strong> and
                 may need a certain amount of{" "}
                 <strong>work history</strong> (or your spouse's) to receive
-                premium-free Part A coverage.
+                premium-free Part A coverage. Special rules apply if you are{" "}
+                <Link
+                  href="/faqs/medicare-and-divorce/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  divorced and qualifying through an ex-spouse
+                </Link>
+                .
               </p>
 
               {/* Quick eligibility summary cards */}
@@ -632,7 +714,14 @@ export default function Eligibility() {
                 >
                   how old you have to be to get Medicare
                 </Link>
-                .
+                . If you are approaching 65, our{" "}
+                <Link
+                  href="/blog/medicare-at-65-month-by-month-timeline/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  month-by-month Medicare at 65 timeline
+                </Link>{" "}
+                walks you through exactly what to do and when.
               </p>
 
               <aside
@@ -665,6 +754,13 @@ export default function Eligibility() {
                     className="underline hover:text-teal-900"
                   >
                     automatic vs. manual enrollment
+                  </Link>
+                  , or see our step-by-step guide on{" "}
+                  <Link
+                    href="/blog/how-to-sign-up-for-medicare/"
+                    className="underline hover:text-teal-900"
+                  >
+                    how to sign up for Medicare
                   </Link>
                   .
                 </p>
@@ -705,15 +801,21 @@ export default function Eligibility() {
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 You do not have to be 65 to qualify for Medicare. Younger
                 individuals with qualifying disabilities or certain medical
-                conditions can receive Medicare coverage. Here are the main
-                pathways for those{" "}
+                conditions can receive Medicare coverage. Our guide on{" "}
                 <Link
                   href="/faqs/medicare-coverage-for-disabled-under-65/"
                   className="text-teal-700 underline hover:text-teal-900"
                 >
-                  under 65 with a disability
+                  Medicare coverage for those disabled and under 65
+                </Link>{" "}
+                covers the full details. You can also read about{" "}
+                <Link
+                  href="/faqs/medicare-for-disabled-individuals/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  Medicare for disabled individuals
                 </Link>
-                :
+                . Here are the main pathways:
               </p>
 
               <ul className="space-y-6 list-none">
@@ -1008,6 +1110,14 @@ export default function Eligibility() {
                 >
                   2026 Medicare costs guide
                 </Link>
+                . If you or your spouse worked in a government position
+                that did not pay Medicare taxes, read about{" "}
+                <Link
+                  href="/faqs/medicare-qualified-government-wages/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  Medicare-qualified government wages
+                </Link>
                 .
               </p>
             </section>
@@ -1028,7 +1138,22 @@ export default function Eligibility() {
                 >
                   guide to Medicare enrollment periods
                 </Link>
-                .
+                . If you are{" "}
+                <Link
+                  href="/blog/transitioning-to-medicare-after-employer-coverage-ends-a-friendly-step-by-step-guide/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  transitioning to Medicare after employer coverage ends
+                </Link>
+                , timing is especially important. You should also understand
+                the{" "}
+                <Link
+                  href="/faqs/medicare-supplement-open-enrollment/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  Medigap Open Enrollment Period
+                </Link>{" "}
+                for choosing a Medicare Supplement plan.
               </p>
 
               <ul className="space-y-4 list-none">
@@ -1075,8 +1200,28 @@ export default function Eligibility() {
               </h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Several common life situations can affect your Medicare
-                eligibility and enrollment timing. Here is what you need to
-                know:
+                eligibility and enrollment timing. Whether you are{" "}
+                <Link
+                  href="/blog/when-should-you-enroll-in-medicare-if-still-working/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  still working past 65
+                </Link>
+                , navigating{" "}
+                <Link
+                  href="/blog/understanding-how-medicare-works-with-employer-health-plans/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  how Medicare works with employer health plans
+                </Link>
+                , or wondering about{" "}
+                <Link
+                  href="/blog/medicare-and-hsa-rules-what-happens-when-you-turn-65/"
+                  className="text-teal-700 underline hover:text-teal-900"
+                >
+                  Medicare and HSA rules at 65
+                </Link>
+                , here is what you need to know:
               </p>
 
               <ul className="grid md:grid-cols-2 gap-4 list-none">
@@ -1197,6 +1342,13 @@ export default function Eligibility() {
                   Part D penalty details{" "}
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
+                <Link
+                  href="/blog/medicare-penalty-avoidance-strategies/"
+                  className="inline-flex items-center gap-1 text-sm font-medium text-teal-700 hover:text-teal-900 underline"
+                >
+                  Penalty avoidance strategies{" "}
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
             </section>
 
@@ -1241,35 +1393,138 @@ export default function Eligibility() {
             {/* Related Topics (Hub-and-Spoke Links) */}
             <section id="related-topics" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">
-                Related Medicare Eligibility Topics
+                Related Medicare Eligibility and Enrollment Topics
               </h2>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Explore these related guides for more detail on specific
-                eligibility scenarios, enrollment periods, and coverage
-                decisions:
+                Explore these related guides for more detail on Medicare
+                requirements, eligibility scenarios, enrollment periods,
+                and coverage decisions. Each guide covers a specific topic
+                in depth to help you qualify for Medicare with confidence.
               </p>
 
-              <ul className="grid md:grid-cols-2 gap-3 list-none">
-                {relatedTopics.map((topic) => (
-                  <li key={topic.slug}>
-                    <Link
-                      href={topic.slug}
-                      className="block p-4 bg-slate-50 border border-slate-100 rounded-xl hover:bg-teal-50 hover:border-teal-200 transition-colors group"
-                    >
-                      <h3 className="font-semibold text-slate-900 group-hover:text-teal-800 mb-1 flex items-center gap-2">
-                        <FileText
-                          className="w-4 h-4 text-slate-400 group-hover:text-teal-600"
-                          aria-hidden="true"
-                        />
-                        {topic.title}
-                      </h3>
-                      <p className="text-sm text-slate-500 group-hover:text-teal-700">
-                        {topic.description}
-                      </p>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              {/* Eligibility */}
+              <div className="mb-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-3 flex items-center gap-2">
+                  <Shield className="w-5 h-5 text-teal-600" aria-hidden="true" />
+                  Medicare Qualifications and Requirements
+                </h3>
+                <ul className="grid md:grid-cols-2 gap-3 list-none">
+                  {relatedTopics
+                    .filter((t) => t.category === "eligibility")
+                    .map((topic) => (
+                      <li key={topic.slug}>
+                        <Link
+                          href={topic.slug}
+                          className="block p-4 bg-slate-50 border border-slate-100 rounded-xl hover:bg-teal-50 hover:border-teal-200 transition-colors group"
+                        >
+                          <h4 className="font-semibold text-slate-900 group-hover:text-teal-800 mb-1 flex items-center gap-2">
+                            <FileText
+                              className="w-4 h-4 text-slate-400 group-hover:text-teal-600"
+                              aria-hidden="true"
+                            />
+                            {topic.title}
+                          </h4>
+                          <p className="text-sm text-slate-500 group-hover:text-teal-700">
+                            {topic.description}
+                          </p>
+                        </Link>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+
+              {/* Enrollment */}
+              <div className="mb-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-3 flex items-center gap-2">
+                  <Calendar className="w-5 h-5 text-teal-600" aria-hidden="true" />
+                  Enrollment Periods and How to Sign Up
+                </h3>
+                <ul className="grid md:grid-cols-2 gap-3 list-none">
+                  {relatedTopics
+                    .filter((t) => t.category === "enrollment")
+                    .map((topic) => (
+                      <li key={topic.slug}>
+                        <Link
+                          href={topic.slug}
+                          className="block p-4 bg-slate-50 border border-slate-100 rounded-xl hover:bg-teal-50 hover:border-teal-200 transition-colors group"
+                        >
+                          <h4 className="font-semibold text-slate-900 group-hover:text-teal-800 mb-1 flex items-center gap-2">
+                            <FileText
+                              className="w-4 h-4 text-slate-400 group-hover:text-teal-600"
+                              aria-hidden="true"
+                            />
+                            {topic.title}
+                          </h4>
+                          <p className="text-sm text-slate-500 group-hover:text-teal-700">
+                            {topic.description}
+                          </p>
+                        </Link>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+
+              {/* Special Situations */}
+              <div className="mb-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-3 flex items-center gap-2">
+                  <Briefcase className="w-5 h-5 text-teal-600" aria-hidden="true" />
+                  Special Situations and Employer Coverage
+                </h3>
+                <ul className="grid md:grid-cols-2 gap-3 list-none">
+                  {relatedTopics
+                    .filter((t) => t.category === "special")
+                    .map((topic) => (
+                      <li key={topic.slug}>
+                        <Link
+                          href={topic.slug}
+                          className="block p-4 bg-slate-50 border border-slate-100 rounded-xl hover:bg-teal-50 hover:border-teal-200 transition-colors group"
+                        >
+                          <h4 className="font-semibold text-slate-900 group-hover:text-teal-800 mb-1 flex items-center gap-2">
+                            <FileText
+                              className="w-4 h-4 text-slate-400 group-hover:text-teal-600"
+                              aria-hidden="true"
+                            />
+                            {topic.title}
+                          </h4>
+                          <p className="text-sm text-slate-500 group-hover:text-teal-700">
+                            {topic.description}
+                          </p>
+                        </Link>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+
+              {/* Penalties & Costs */}
+              <div className="mb-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-3 flex items-center gap-2">
+                  <AlertTriangle className="w-5 h-5 text-teal-600" aria-hidden="true" />
+                  Penalties, Costs, and Creditable Coverage
+                </h3>
+                <ul className="grid md:grid-cols-2 gap-3 list-none">
+                  {relatedTopics
+                    .filter((t) => t.category === "penalties" || t.category === "costs")
+                    .map((topic) => (
+                      <li key={topic.slug}>
+                        <Link
+                          href={topic.slug}
+                          className="block p-4 bg-slate-50 border border-slate-100 rounded-xl hover:bg-teal-50 hover:border-teal-200 transition-colors group"
+                        >
+                          <h4 className="font-semibold text-slate-900 group-hover:text-teal-800 mb-1 flex items-center gap-2">
+                            <FileText
+                              className="w-4 h-4 text-slate-400 group-hover:text-teal-600"
+                              aria-hidden="true"
+                            />
+                            {topic.title}
+                          </h4>
+                          <p className="text-sm text-slate-500 group-hover:text-teal-700">
+                            {topic.description}
+                          </p>
+                        </Link>
+                      </li>
+                    ))}
+                </ul>
+              </div>
             </section>
 
             {/* Next Steps CTA */}
@@ -1279,10 +1534,11 @@ export default function Eligibility() {
                   Ready to Get Started?
                 </h2>
                 <p className="text-slate-300 mb-8 max-w-xl">
-                  Now that you understand the requirements for Medicare, the
-                  next step is determining when and how to enroll. Our
-                  licensed agents can walk you through the entire process
-                  and help you choose the right plan.
+                  Now that you understand the Medicare requirements and
+                  qualifications, the next step is determining when and how
+                  to enroll. Our licensed agents can walk you through the
+                  entire process, confirm that you qualify for Medicare, and
+                  help you choose the right plan for your situation.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a
