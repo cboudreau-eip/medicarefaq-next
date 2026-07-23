@@ -9306,6 +9306,7 @@ export const blogArticles: BlogArticleData[] = [
       ]},
       { type: "paragraph", content: "Higher-income beneficiaries pay more through [IRMAA surcharges](/faqs/what-is-irmaa/). For details on how income affects your premiums, see our [IRMAA guide](/faqs/what-is-irmaa/)." },
 
+      { type: "image", src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png", alt: "Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area" },
       { type: "heading", level: 2, text: "What Is NOT Covered by Original Medicare?", id: "what-is-not-covered" },
       { type: "paragraph", content: "Original Medicare (Parts A and B combined) has notable gaps. These are services that Medicare simply does not pay for, regardless of medical necessity:" },
       { type: "list", ordered: false, items: [
