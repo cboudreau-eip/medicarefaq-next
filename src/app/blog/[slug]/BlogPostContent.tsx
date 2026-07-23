@@ -287,7 +287,62 @@ function renderSection(section: BlogSectionContent, idx: number) {
         </div>
       );
     case "image":
-      return section.src ? (
+      if (!section.src) return null;
+      if (section.link === "zip-form-modal") {
+        return (
+          <figure key={idx} className="my-8">
+            <ZipFormModal
+              coverageType="ms"
+              trigger={
+                <img
+                  src={section.src}
+                  alt={section.alt || ""}
+                  className="w-full rounded-xl shadow-md border border-[#E5E7EB] hover:shadow-lg transition-shadow cursor-pointer"
+                  loading="lazy"
+                />
+              }
+              pageSection={`blog_cta_banner_${idx}`}
+            />
+            {section.caption && (
+              <figcaption className="text-sm text-[#6B7280] text-center mt-3 italic">
+                {section.caption}
+              </figcaption>
+            )}
+          </figure>
+        );
+      }
+      if (section.link) {
+        const isInternalLink = section.link.startsWith("/");
+        return (
+          <figure key={idx} className="my-8">
+            {isInternalLink ? (
+              <Link href={section.link}>
+                <img
+                  src={section.src}
+                  alt={section.alt || ""}
+                  className="w-full rounded-xl shadow-md border border-[#E5E7EB] hover:shadow-lg transition-shadow cursor-pointer"
+                  loading="lazy"
+                />
+              </Link>
+            ) : (
+              <a href={section.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={section.src}
+                  alt={section.alt || ""}
+                  className="w-full rounded-xl shadow-md border border-[#E5E7EB] hover:shadow-lg transition-shadow cursor-pointer"
+                  loading="lazy"
+                />
+              </a>
+            )}
+            {section.caption && (
+              <figcaption className="text-sm text-[#6B7280] text-center mt-3 italic">
+                {section.caption}
+              </figcaption>
+            )}
+          </figure>
+        );
+      }
+      return (
         <figure key={idx} className="my-8">
           <img
             src={section.src}
@@ -301,7 +356,7 @@ function renderSection(section: BlogSectionContent, idx: number) {
             </figcaption>
           )}
         </figure>
-      ) : null;
+      );
     case "eddie-pro-tip": {
       const tipText = section.content || section.calloutText || section.text || "";
       const tipContent = tipText

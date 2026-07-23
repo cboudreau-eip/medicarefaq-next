@@ -240,6 +240,7 @@ export interface BlogSectionContent {
   src?: string;
   alt?: string;
   caption?: string;
+  link?: string;
 }
 
 export interface BlogArticleData {
