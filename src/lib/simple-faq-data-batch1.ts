@@ -34,6 +34,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         'Part A and Part B coinsurance and copayments',
       ]},
       { type: 'callout', calloutType: 'info', calloutTitle: 'Providers Cannot Bill QMB Enrollees for Cost-Sharing', calloutText: 'Federal law prohibits Medicare providers from billing QMB enrollees for Medicare deductibles, coinsurance, or copayments. If a provider attempts to bill you, you have the right to refuse payment and report it to your State Health Insurance Assistance Program (SHIP).' },
+            { type: "image", src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
       { type: 'heading', level: 2, text: '2026 QMB Income and Resource Limits', id: 'qmb-eligibility' },
       { type: 'table', title: 'QMB Eligibility Limits (2026)', headers: ['Household Size', 'Monthly Income Limit', 'Resource Limit'], rows: [
         ['Individual', '~$1,255/month', '$9,660'],
@@ -193,6 +194,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
         ['Hepatitis A', 'Part D', '$0 (since 2023)'],
       ]},
       { type: 'callout', calloutType: 'info', calloutTitle: 'All Part D Vaccines Are Now $0', calloutText: 'As of January 1, 2023, the Inflation Reduction Act requires Medicare Part D plans to cover all ACIP-recommended vaccines at $0 cost-sharing. This includes shingles, Tdap, RSV, and others that previously had out-of-pocket costs.' },
+            { type: "image", src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
       { type: 'heading', level: 2, text: 'Where to Get Vaccines', id: 'where-to-get' },
       { type: 'paragraph', content: 'Part B vaccines (flu, COVID-19, pneumococcal) can be administered by any Medicare-enrolled provider, including pharmacies. Part D vaccines are typically obtained at in-network pharmacies. If your doctor administers a Part D vaccine in their office, it may still be billed through Part D, so confirm with your pharmacy or plan beforehand to avoid billing confusion.' },
       { type: 'faq', faqs: [

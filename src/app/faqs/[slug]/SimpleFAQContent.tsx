@@ -296,6 +296,29 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
           ))}
         </div>
       );
+    case "image": {
+      if (!section.src) return null;
+      const imgElement = (
+        <img
+          src={section.src}
+          alt={section.alt || ""}
+          className={`w-full rounded-xl shadow-md border border-[#E5E7EB]${section.link ? " hover:shadow-lg transition-shadow cursor-pointer" : ""}`}
+          loading="lazy"
+        />
+      );
+      return (
+        <figure key={idx} className="my-8">
+          {section.link ? (
+            <Link href={section.link}>{imgElement}</Link>
+          ) : imgElement}
+          {section.caption && (
+            <figcaption className="text-sm text-[#6B7280] text-center mt-3 italic">
+              {section.caption}
+            </figcaption>
+          )}
+        </figure>
+      );
+    }
     default:
       return null;
   }

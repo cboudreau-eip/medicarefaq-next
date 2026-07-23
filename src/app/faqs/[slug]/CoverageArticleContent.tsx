@@ -604,7 +604,20 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                   <>
                     <PlanSection key={i} data={plan} />
                     {article.showMidInlineCta && i === 0 && (
-                      <InlineCardCTA key="mid-cta" pageSection={`mid_${article.slug}`} />
+                      article.midCtaImage ? (
+                        <figure key="mid-cta-img" className="my-8">
+                          <Link href={article.midCtaImage.link || "/find-plans/"}>
+                            <img
+                              src={article.midCtaImage.src}
+                              alt={article.midCtaImage.alt || "Find the Right Medicare Plan for You"}
+                              className="w-full rounded-xl shadow-md border border-[#E5E7EB] hover:shadow-lg transition-shadow cursor-pointer"
+                              loading="lazy"
+                            />
+                          </Link>
+                        </figure>
+                      ) : (
+                        <InlineCardCTA key="mid-cta" pageSection={`mid_${article.slug}`} />
+                      )
                     )}
                   </>
                 ))}

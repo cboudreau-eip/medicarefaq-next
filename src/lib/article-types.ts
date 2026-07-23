@@ -173,6 +173,11 @@ export interface CoverageArticleData {
 
   showInlineCta?: boolean;
   showMidInlineCta?: boolean;
+  midCtaImage?: {
+    src: string;
+    alt?: string;
+    link?: string;
+  };
   ctaBanner: {
     title: string;
     text: string;

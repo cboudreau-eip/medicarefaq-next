@@ -303,6 +303,7 @@ export const coverageArticles: CoverageArticleData[] = [
   ],
   showInlineCta: true,
   showMidInlineCta: true,
+  midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
   ctaBanner: {
     title: "Want a Medicare Plan with SilverSneakers?",
     text: "Our licensed agents can help you find Medicare Advantage or Medigap plans in your area that include SilverSneakers at no extra cost. Get personalized guidance today.",
@@ -789,6 +790,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "How Is Medicare Part D Changing in 2026?", description: "Key changes to Medicare Part D including the $2,100 out-of-pocket cap.", slug: "how-is-medicare-part-d-changing-in-2026" },
       { title: "Medicare Coverage for Bariatric Surgery", description: "Learn about Medicare coverage for weight loss surgery as an alternative.", slug: "medicare-coverage-for-bariatric-surgery" }],
     sidebarRelatedLinks: ["does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-coverage-for-bariatric-surgery"],
+    showMidInlineCta: true,
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
     ctaBanner: {
       title: "Need Help with Medicare Drug Coverage?",
       text: "Our licensed agents can help you understand your Part D options and determine if you qualify for the GLP-1 Bridge Program. Get personalized guidance at no cost to you.",
@@ -4666,6 +4669,8 @@ export const coverageArticles: CoverageArticleData[] = [
     "Medicare Enrollment Timeline",
     "Pre-Existing Conditions",
   ],
+    showMidInlineCta: true,
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
   ctaBanner: {
     title: "Ready to Explore Your Medicare Options?",
     text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
@@ -24094,6 +24099,8 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare Parts Explained",
       "Medicare for Disabled",
       "Employer to Medicare Transition"],
+    showMidInlineCta: true,
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
     ctaBanner: {
       title: "Questions about Medicare Eligibility?",
       text: "Our licensed agents specialize in helping green card holders understand their Medicare options. Get free, personalized guidance on enrollment, costs, and coverage.",
@@ -26161,6 +26168,8 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Nevada Birthday Rule", description: "How the birthday rule works in Nevada.", slug: "nevada-birthday-rule" },
       { title: "Maryland Birthday Rule", description: "How the birthday rule works in Maryland.", slug: "maryland-medicare-supplement-birthday-rule" }],
     sidebarRelatedLinks: ["Illinois Birthday Rule", "Louisiana Birthday Rule", "Kentucky Birthday Rule", "Nevada Birthday Rule"],
+    showMidInlineCta: true,
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
     ctaBanner: {
       title: "Ready to Use Your Birthday Rule?",
       text: "Our licensed agents can help you compare Medigap plans and switch during your birthday window to get the best rate.",
@@ -32401,6 +32410,8 @@ export const coverageArticles: CoverageArticleData[] = [
       "5-government-benefits-for-seniors",
       "does-medicare-cover-meals-on-wheels"],
     showInlineCta: true,
+    showMidInlineCta: true,
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
     ctaBanner: {
       title: "Looking for a Plan that Covers Medical Rides?",
       text: "Many Medicare Advantage plans include free transportation to medical appointments. A licensed Medicare specialist can help you find a plan with the transportation benefits you need.",

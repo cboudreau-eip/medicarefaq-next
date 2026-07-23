@@ -199,10 +199,20 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                   What Is {plan.displayName}?
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-5 text-lg">{plan.intro}</p>
-                {plan.detailParagraphs.map((para, i) => (
+                                {plan.detailParagraphs.map((para, i) => (
                   <p key={i} className="text-slate-600 leading-relaxed mb-4">{para}</p>
                 ))}
-
+                {/* CTA Banner Image */}
+                <figure className="my-8">
+                  <Link href="/find-plans/">
+                    <img
+                      src="/images/cta-banner-find-plan.jpg"
+                      alt="Find the Right Medicare Plan for You"
+                      className="w-full rounded-xl shadow-md border border-slate-200 hover:shadow-lg transition-shadow cursor-pointer"
+                      loading="lazy"
+                    />
+                  </Link>
+                </figure>
                 {/* Highlights */}
                 <div className="mt-8 p-6 bg-slate-50 rounded-xl border border-slate-200">
                   <h3 className="font-bold text-slate-900 mb-4 flex items-center gap-2">
