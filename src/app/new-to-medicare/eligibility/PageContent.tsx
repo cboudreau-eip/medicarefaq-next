@@ -1193,6 +1193,20 @@ export default function Eligibility() {
               </ul>
             </section>
 
+            {/* Eddie CTA Banner */}
+            <section className="mb-16">
+              <Link
+                href="/find-plans/"
+                className="block rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
+              >
+                <img
+                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png"
+                  alt="Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area"
+                  className="w-full h-auto"
+                />
+              </Link>
+            </section>
+
             {/* Special Situations */}
             <section id="special-situations" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">
