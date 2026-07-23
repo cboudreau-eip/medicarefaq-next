@@ -9246,7 +9246,17 @@ export const blogArticles: BlogArticleData[] = [
       "**Medicare Part D** covers outpatient prescription drugs with a $2,100 out-of-pocket cap in 2026.",
       "A **Medicare Supplement (Medigap)** plan can cover most or all of the cost-sharing that Original Medicare leaves behind.",
     ],
-    content: [
+        tableOfContents: [
+      { id: "how-medicare-is-organized", title: "How Medicare Coverage Is Organized" },
+      { id: "what-does-part-a-cover", title: "What Does Medicare Part A Cover?" },
+      { id: "what-does-part-b-cover", title: "What Does Medicare Part B Cover?" },
+      { id: "what-is-not-covered", title: "What Is NOT Covered by Original Medicare?" },
+      { id: "what-does-part-c-cover", title: "What Does Medicare Part C (Medicare Advantage) Cover?" },
+      { id: "what-does-part-d-cover", title: "What Does Medicare Part D Cover?" },
+      { id: "filling-the-gaps", title: "How to Fill the Gaps in Medicare Coverage" },
+      { id: "common-coverage-questions", title: "Common Coverage Questions" },
+    ],
+    sections: [
       { type: "heading", level: 2, text: "How Medicare Coverage Is Organized", id: "how-medicare-is-organized" },
       { type: "paragraph", content: "Medicare is a federal health insurance program for people 65 and older, as well as certain younger individuals with disabilities or specific conditions. The program is divided into four parts, and each part covers a different category of healthcare services. Understanding how the parts fit together is the first step toward knowing what you are (and are not) covered for." },
       { type: "paragraph", content: "For a detailed breakdown of all four parts in one place, see our guide to [Medicare Parts A, B, C, and D explained simply](/blog/medicare-parts-a-b-c-and-d-explained-simply/)." },
