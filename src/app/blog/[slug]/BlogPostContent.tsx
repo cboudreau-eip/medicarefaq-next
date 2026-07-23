@@ -53,8 +53,9 @@ function parseInline(text: string, keyPrefix: string): React.ReactNode[] {
       nodes.push(text.slice(lastIndex, match.index));
     }
     if (match[2] !== undefined) {
-      // **bold**
-      nodes.push(<strong key={`${keyPrefix}-b-${match.index}`}>{match[2]}</strong>);
+      // **bold** — recursively parse inner content for nested links
+      const innerNodes = parseInline(match[2], `${keyPrefix}-bi-${match.index}`);
+      nodes.push(<strong key={`${keyPrefix}-b-${match.index}`}>{innerNodes}</strong>);
     } else if (match[3] !== undefined) {
       // *italic*
       nodes.push(<em key={`${keyPrefix}-i-${match.index}`}>{match[3]}</em>);
