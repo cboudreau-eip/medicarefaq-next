@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { X, Download } from "lucide-react";
+import { X } from "lucide-react";
 import Image from "next/image";
 
 interface SlideInCTAProps {
@@ -97,20 +97,15 @@ export default function SlideInCTA({
 
         {/* Content */}
         <div className="flex flex-col items-center justify-center h-full px-8 py-12 text-center">
-          {/* Eddie - subtle, small avatar at top */}
-          <div className="w-20 h-20 mb-4 relative">
+          {/* Eddie */}
+          <div className="w-28 h-28 mb-5 relative">
             <Image
               src="/eddie_eagle_arms_transparent.png"
               alt="Eddie the Eagle"
-              width={80}
-              height={80}
-              className="object-cover object-top rounded-full border-2 border-[#00263A]/10"
+              width={112}
+              height={112}
+              className="object-contain"
             />
-          </div>
-
-          {/* Icon */}
-          <div className="w-12 h-12 bg-[#00263A] rounded-full flex items-center justify-center mb-5">
-            <Download className="w-6 h-6 text-white" aria-hidden="true" />
           </div>
 
           {/* Heading */}
