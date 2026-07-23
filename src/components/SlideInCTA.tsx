@@ -115,7 +115,7 @@ export default function SlideInCTA({
 
           {/* Heading */}
           <h2 className="text-2xl font-bold text-[#00263A] mb-3 leading-tight">
-            Get Your Free Medicare Decision Kit
+            The Free Workbook That Makes Medicare Simple
           </h2>
 
           {/* Subtext */}
