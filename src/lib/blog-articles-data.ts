@@ -9264,7 +9264,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "What Does Medicare Part A Cover?", id: "what-does-part-a-cover" },
       { type: "paragraph", content: "[Medicare Part A](/faqs/what-does-medicare-part-a-cover/) is hospital insurance. It covers medically necessary inpatient care when you are formally admitted to a hospital. Part A also covers several other categories of care that follow a hospital stay or relate to end-of-life services." },
       { type: "paragraph", content: "Here is what Part A covers in 2026:" },
-      { type: "list", style: "unordered", items: [
+      { type: "list", ordered: false, items: [
         "**Inpatient hospital stays** including semi-private room, meals, nursing care, medications administered during your stay, and lab tests",
         "**[Skilled nursing facility (SNF) care](/faqs/medicare-coverage-for-skilled-nursing-facilities/)** for up to 100 days per benefit period following a qualifying 3-day hospital stay",
         "**[Home health care](/faqs/does-medicare-cover-home-health-care/)** including skilled nursing, physical therapy, and occupational therapy when you are homebound",
@@ -9286,7 +9286,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "What Does Medicare Part B Cover?", id: "what-does-part-b-cover" },
       { type: "paragraph", content: "[Medicare Part B](/faqs/what-is-medicare-part-b/) is medical insurance. It covers medically necessary outpatient services, doctor visits, and preventive care. Part B is where the majority of your day-to-day healthcare interactions are covered." },
       { type: "paragraph", content: "Part B covers:" },
-      { type: "list", style: "unordered", items: [
+      { type: "list", ordered: false, items: [
         "**Doctor and specialist visits** including primary care, cardiologists, oncologists, and other specialists",
         "**Outpatient surgery and procedures** performed in ambulatory surgical centers or hospital outpatient departments",
         "**Preventive services** including annual wellness visits, cancer screenings ([mammograms](/faqs/medicare-coverage-for-mammograms/), [colonoscopies](/faqs/does-medicare-cover-colonoscopy/)), flu shots, and cardiovascular screenings",
@@ -9308,7 +9308,7 @@ export const blogArticles: BlogArticleData[] = [
 
       { type: "heading", level: 2, text: "What Is NOT Covered by Original Medicare?", id: "what-is-not-covered" },
       { type: "paragraph", content: "Original Medicare (Parts A and B combined) has notable gaps. These are services that Medicare simply does not pay for, regardless of medical necessity:" },
-      { type: "list", style: "unordered", items: [
+      { type: "list", ordered: false, items: [
         "**Routine dental care** (cleanings, fillings, dentures, extractions)",
         "**Routine vision care** (eye exams for glasses, eyeglasses, contact lenses)",
         "**Routine hearing care** ([hearing aids](/faqs/does-medicare-cover-hearing-aids/), hearing exams for fitting)",
@@ -9323,7 +9323,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "What Does Medicare Part C (Medicare Advantage) Cover?", id: "what-does-part-c-cover" },
       { type: "paragraph", content: "[Medicare Advantage (Part C)](/faqs/what-is-medicare-advantage/) is an alternative way to receive your Medicare benefits. These plans are offered by private insurance companies approved by Medicare. Every Medicare Advantage plan must cover everything Original Medicare covers, but most plans also include additional benefits." },
       { type: "paragraph", content: "Common extra benefits in Medicare Advantage plans include:" },
-      { type: "list", style: "unordered", items: [
+      { type: "list", ordered: false, items: [
         "**Prescription drug coverage** (Part D built into the plan)",
         "**Routine dental** (cleanings, X-rays, sometimes major dental)",
         "**Routine vision** (eye exams, glasses allowance)",
@@ -9339,7 +9339,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "What Does Medicare Part D Cover?", id: "what-does-part-d-cover" },
       { type: "paragraph", content: "[Medicare Part D](/faqs/what-is-medicare-part-d/) is prescription drug coverage. It is offered through private insurance companies as either a standalone plan (paired with Original Medicare) or built into a Medicare Advantage plan." },
       { type: "paragraph", content: "Part D covers:" },
-      { type: "list", style: "unordered", items: [
+      { type: "list", ordered: false, items: [
         "**Brand-name and generic prescription drugs** (varies by plan formulary)",
         "**Specialty medications** including biologics and cancer drugs",
         "**Vaccines** covered under Part D (shingles, Tdap, RSV)",
