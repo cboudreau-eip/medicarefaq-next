@@ -110,14 +110,13 @@ export default function SlideInCTA({
 
           {/* Heading */}
           <h2 className="text-2xl font-bold text-[#00263A] mb-3 leading-tight">
-            The Free Workbook That Makes Medicare Simple
+            Free Workbook That Makes Medicare Simple
           </h2>
 
           {/* Subtext */}
           <p className="text-gray-600 mb-8 leading-relaxed">
             A printable workbook to organize your deadlines, doctors,
-            prescriptions, and costs — so you&apos;re fully prepared before
-            choosing a plan.
+            prescriptions, and costs.
           </p>
 
           {/* CTA Button */}
@@ -125,7 +124,7 @@ export default function SlideInCTA({
             href="https://rebuild.medicarecompared.com/tools/decision-kit"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center w-full px-6 py-4 bg-[#C41E3A] hover:bg-[#a01830] text-white font-semibold text-lg rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
+            className="inline-flex items-center justify-center w-full px-6 py-4 bg-[#F5820B] hover:bg-[#d96f08] text-white font-semibold text-lg rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
           >
             Download Free Kit
           </a>
