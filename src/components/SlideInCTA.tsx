@@ -98,13 +98,13 @@ export default function SlideInCTA({
         {/* Content */}
         <div className="flex flex-col items-center justify-center h-full px-8 py-12 text-center">
           {/* Eddie */}
-          <div className="w-28 h-28 mb-5 relative">
+          <div className="w-28 h-28 mb-8 relative overflow-hidden">
             <Image
               src="/eddie_eagle_arms_transparent.png"
               alt="Eddie the Eagle"
               width={112}
               height={112}
-              className="object-contain"
+              className="object-contain object-top"
             />
           </div>
 
