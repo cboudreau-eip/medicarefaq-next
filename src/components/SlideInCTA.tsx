@@ -22,15 +22,15 @@ export default function SlideInCTA({
   const [shouldRender, setShouldRender] = useState(false);
 
   useEffect(() => {
-    // Check if user has dismissed recently
-    const dismissedAt = localStorage.getItem(storageKey);
-    if (dismissedAt) {
-      const elapsed = Date.now() - parseInt(dismissedAt, 10);
-      const dismissDurationMs = dismissDurationHours * 60 * 60 * 1000;
-      if (elapsed < dismissDurationMs) {
-        return; // Don't show
-      }
-    }
+    // TODO: Re-enable localStorage check after testing
+    // const dismissedAt = localStorage.getItem(storageKey);
+    // if (dismissedAt) {
+    //   const elapsed = Date.now() - parseInt(dismissedAt, 10);
+    //   const dismissDurationMs = dismissDurationHours * 60 * 60 * 1000;
+    //   if (elapsed < dismissDurationMs) {
+    //     return; // Don't show
+    //   }
+    // }
 
     // Show after delay
     const timer = setTimeout(() => {
@@ -48,7 +48,8 @@ export default function SlideInCTA({
 
   const handleDismiss = () => {
     setVisible(false);
-    localStorage.setItem(storageKey, Date.now().toString());
+    // TODO: Re-enable localStorage save after testing
+    // localStorage.setItem(storageKey, Date.now().toString());
     // Remove from DOM after animation completes
     setTimeout(() => setShouldRender(false), 400);
   };
