@@ -14,7 +14,7 @@ interface SlideInCTAProps {
 }
 
 export default function SlideInCTA({
-  scrollPercent = 50,
+  scrollPercent = 40,
   storageKey = "slideInCTA_dismissed",
   dismissDurationHours = 24,
 }: SlideInCTAProps) {
