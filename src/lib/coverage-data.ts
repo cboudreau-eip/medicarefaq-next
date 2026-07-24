@@ -1575,6 +1575,9 @@ export const coverageArticles: CoverageArticleData[] = [
       "IRMAA Surcharges",
       "Medicare Supplement Plans",
     ],
+    showInlineCta: true,
+    showMidInlineCta: true,
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
     ctaBanner: {
       title: "Turning 65 Soon? Let Us Help You Navigate Medicare",
       text: "Understanding Medicare eligibility is just the first step. Our licensed agents can walk you through your options - Original Medicare, Medicare Advantage, Medigap, and Part D - at no cost to you. Get personalized guidance before your enrollment window opens.",
