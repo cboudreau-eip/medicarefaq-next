@@ -220,7 +220,7 @@ export interface SimpleFAQArticleData {
 /* ─── Blog Article Schema ─── */
 
 export interface BlogSectionContent {
-  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image" | "warning" | "info" | "tip" | "success" | "note" | "error" | "eddie-pro-tip";
+  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image" | "warning" | "info" | "tip" | "success" | "note" | "error" | "eddie-pro-tip" | "steps";
   // For headings
   level?: 2 | 3;
   text?: string;
@@ -246,6 +246,8 @@ export interface BlogSectionContent {
   alt?: string;
   caption?: string;
   link?: string;
+  // For steps
+  steps?: { title: string; description: string }[];
 }
 
 export interface BlogArticleData {

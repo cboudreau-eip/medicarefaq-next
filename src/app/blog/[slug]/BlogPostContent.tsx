@@ -357,6 +357,29 @@ function renderSection(section: BlogSectionContent, idx: number) {
           )}
         </figure>
       );
+    case "steps": {
+      return (
+        <div key={idx} className="my-8 space-y-0">
+          {(section.steps || []).map((step, i) => (
+            <div key={i} className="flex gap-4 relative">
+              {/* Vertical connector line */}
+              {i < (section.steps || []).length - 1 && (
+                <div className="absolute left-[23px] top-[48px] bottom-0 w-[2px] bg-[#E5E7EB]" />
+              )}
+              {/* Big number circle */}
+              <div className="flex-shrink-0 w-[48px] h-[48px] rounded-full bg-[#0F766E] flex items-center justify-center shadow-md z-10">
+                <span className="text-white font-bold text-lg">{i + 1}</span>
+              </div>
+              {/* Step content */}
+              <div className="pb-6 pt-1 flex-1">
+                <h4 className="text-[17px] font-bold text-[#1B2A4A] mb-1">{step.title}</h4>
+                <p className="text-[#374151] text-[15px] leading-relaxed">{parseInline(step.description, `step-${idx}-${i}`)}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      );
+    }
     case "eddie-pro-tip": {
       const tipText = section.content || section.calloutText || section.text || "";
       const tipContent = tipText
