@@ -121,9 +121,7 @@ export default function SlideInCTA({
 
           {/* CTA Button */}
           <a
-            href="https://rebuild.medicarecompared.com/tools/decision-kit"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/tools/decision-kit/"
             className="inline-flex items-center justify-center w-full px-6 py-4 bg-[#F5820B] hover:bg-[#d96f08] text-white font-semibold text-lg rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
           >
             Download Free Kit
