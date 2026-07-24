@@ -6894,7 +6894,7 @@ export const blogArticles: BlogArticleData[] = [
         ["Who's covered", "Age 65+, disabled (SSDI 24 months), ESRD, ALS", "All U.S. residents from birth"],
         ["Enrollment", "~67 million beneficiaries", "~330 million people"],
         ["Private insurance role", "Medicare Advantage, Medigap, Part D plans available", "Eliminated for covered services"],
-        ["Premiums", "Part B: $202.90/month; Part D: varies", "$0 — funded through taxes"],
+        ["Premiums", "Part B: $202.90/month; Part D: varies", "$0 (funded through taxes)"],
         ["Deductibles", "Part A: $1,676; Part B: $257 (2026)", "$0"],
         ["Copays/coinsurance", "20% Part B coinsurance; varies by plan", "Minimal or $0"],
         ["Dental, vision, hearing", "Not covered under Original Medicare", "Fully covered"],
@@ -6904,7 +6904,7 @@ export const blogArticles: BlogArticleData[] = [
         ["Out-of-pocket maximum", "None under Original Medicare", "$0 or near-$0"]]},
 
       { type: "heading", level: 2, text: "How Much Would Medicare for All Cost?", id: "costs" },
-      { type: "paragraph", content: "The cost of Medicare for All is the most contested aspect of the proposal. U.S. health spending reached $5.3 trillion in 2024 — $15,474 per person, or 18% of GDP — roughly double what peer nations spend per capita. The question is whether shifting to single-payer would reduce or increase that total." },
+      { type: "paragraph", content: "The cost of Medicare for All is the most contested aspect of the proposal. U.S. health spending reached $5.3 trillion in 2024, or $15,474 per person (18% of GDP), roughly double what peer nations spend per capita. The question is whether shifting to single-payer would reduce or increase that total." },
       { type: "paragraph", content: "The Congressional Budget Office (CBO) analyzed single-payer models in 2020 and estimated they would increase federal spending in 2030 by $1.5 trillion to $3.0 trillion per year depending on design specifics. However, the CBO also found that total national health expenditure (public + private combined) could fall by up to $700 billion or rise by $300 billion, depending on utilization assumptions and payment rates." },
       { type: "paragraph", content: "Proponents cite a Yale study estimating Medicare for All would save $650 billion annually by eliminating insurance company administrative costs, marketing, claims processing, and plan-by-plan billing. They also argue the government could negotiate significantly lower drug prices. Critics counter that eliminating cost-sharing would increase healthcare utilization, potentially overwhelming the system and driving actual costs far above projections." },
       { type: "table", headers: ["Cost Metric", "Estimate"], rows: [
@@ -6926,7 +6926,7 @@ export const blogArticles: BlogArticleData[] = [
         ["UE Union / Navigator (Feb 2026)", "Majority support; 77% among Black Americans, 71% among women under 50"],
         ["Becker's / AP-NORC (July 2026)", "Only 29% have confidence government could successfully run the program"],
         ["KFF (historical)", "Support drops 20+ points when 'higher taxes' or 'losing current plan' is mentioned"]]},
-      { type: "paragraph", content: "The polling reveals a consistent pattern: Americans broadly support the goal of universal coverage but are divided on whether single-payer is the right mechanism — particularly when confronted with trade-offs like tax increases, loss of employer coverage, or potential wait times." },
+      { type: "paragraph", content: "The polling reveals a consistent pattern: Americans broadly support the goal of universal coverage but are divided on whether single-payer is the right mechanism, particularly when confronted with trade-offs like tax increases, loss of employer coverage, or potential wait times." },
 
       { type: "heading", level: 2, text: "How Would Medicare for All Affect Current Medicare Beneficiaries?", id: "beneficiaries" },
       { type: "paragraph", content: "If you are currently on Medicare, here is what would change under the Medicare for All proposal:" },
@@ -6935,7 +6935,7 @@ export const blogArticles: BlogArticleData[] = [
         "Your Part B premium ($202.90/month in 2026) and Part D premium would be eliminated",
         "Your deductibles ($1,676 Part A, $257 Part B) would be eliminated",
         "Your 20% Part B coinsurance would be eliminated",
-        "[Medicare Advantage](/faqs/what-is-medicare-advantage) plans would cease to exist — you could not keep your MA plan",
+        "[Medicare Advantage](/faqs/what-is-medicare-advantage) plans would cease to exist. You could not keep your MA plan",
         "[Medigap/Medicare Supplement](/faqs/what-is-a-medicare-supplement-insurance-plan) policies would be eliminated since there would be no cost-sharing to supplement",
         "[Part D drug plans](/faqs/how-is-medicare-part-d-changing-in-2026) would be replaced by the national plan's drug benefit",
         "You would keep your choice of doctors and hospitals (no network restrictions)",
@@ -6943,7 +6943,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "callout", calloutType: "info", calloutTitle: "Bottom Line for Current Beneficiaries", calloutText: "Current Medicare beneficiaries would gain expanded benefits and lose cost-sharing, but would also lose the ability to choose Medicare Advantage, Medigap, or standalone Part D plans. Whether you come out ahead financially depends on your current plan costs, health status, and how the new taxes are structured." },
 
       { type: "heading", level: 2, text: "Impact on Private Insurance", id: "private-insurance" },
-      { type: "paragraph", content: "As of March 2025, approximately 165.6 million Americans under age 65 have employer-sponsored health insurance. Medicare for All would eliminate this coverage for services covered by the national plan. The private insurance industry — which employs roughly 2.7 million people — would be dramatically reduced." },
+      { type: "paragraph", content: "As of March 2025, approximately 165.6 million Americans under age 65 have employer-sponsored health insurance. Medicare for All would eliminate this coverage for services covered by the national plan. The private insurance industry, which employs roughly 2.7 million people, would be dramatically reduced." },
       { type: "paragraph", content: "Under the proposal, [Medicare Advantage](/faqs/medicare-advantage-vs-medicare-supplement) (which covers 33+ million seniors) and all private health insurance for covered services would end. Some supplemental private insurance might remain for non-covered services like cosmetic procedures. Opponents argue this would eliminate plans that millions of Americans chose and negotiated through their employers or unions." },
 
       { type: "heading", level: 2, text: "Wait Times in Single-Payer Countries", id: "wait-times" },
@@ -6962,12 +6962,12 @@ export const blogArticles: BlogArticleData[] = [
 
       { type: "heading", level: 2, text: "Pros and Cons of Medicare for All", id: "pros-cons" },
       { type: "table", headers: ["Pros", "Cons"], rows: [
-        ["Universal coverage — all 330M Americans insured", "Federal spending increases $1.5–$3.0 trillion/year"],
+        ["Universal coverage for all 330M Americans", "Federal spending increases $1.5–$3.0 trillion/year"],
         ["No premiums, deductibles, or copays", "Significant tax increases required"],
         ["Expanded benefits (dental, vision, hearing, LTC)", "Elimination of private insurance industry (2.7M jobs)"],
         ["Administrative savings up to $650B/year", "Loss of plan choice for 165M+ with employer coverage"],
         ["Government negotiation of drug prices", "Potential provider payment reductions"],
-        ["No network restrictions — any doctor, any hospital", "Possible longer wait times based on international evidence"],
+        ["No network restrictions (any doctor, any hospital)", "Possible longer wait times based on international evidence"],
         ["Eliminates medical bankruptcy and debt", "Massive transition disruption over 4-year phase-in"],
         ["Covers pre-existing conditions by default", "Government control over healthcare decisions"],
         ["Frees workers from job-lock for insurance", "Uncertain impact on medical innovation investment"]]},
@@ -6977,7 +6977,7 @@ export const blogArticles: BlogArticleData[] = [
         { question: "Is Medicare for All the same as socialized medicine?", answer: "No. Medicare for All is a single-payer financing system where the government pays for care, but doctors and hospitals remain privately owned and operated. Socialized medicine (like the UK's NHS) involves government ownership of healthcare facilities and employment of providers." },
         { question: "What is the current status of Medicare for All legislation?", answer: "The Medicare for All Act was reintroduced in April 2025 as H.R. 3069 (House) and S. 1506 (Senate) with 102 House cosponsors. It has not advanced to a committee vote and faces no realistic path to passage in the current Congress." },
         { question: "Is Medicare for All likely to pass?", answer: "Not in the near term. The bill has never received a floor vote in either chamber despite being introduced repeatedly since 2003. It would require both chambers of Congress and a presidential signature, which is not politically feasible under current conditions." },
-        { question: "Would Medicare for All cover dental and vision?", answer: "Yes. The proposal explicitly includes comprehensive dental, vision, hearing, mental health, reproductive care, and long-term care services — all of which are either not covered or only partially covered under current Medicare." },
+        { question: "Would Medicare for All cover dental and vision?", answer: "Yes. The proposal explicitly includes comprehensive dental, vision, hearing, mental health, reproductive care, and long-term care services, all of which are either not covered or only partially covered under current Medicare." },
         { question: "How much would Medicare for All cost in taxes?", answer: "The exact tax structure has not been specified in the legislation. Proponents suggest a combination of progressive income taxes, payroll taxes, and taxes on wealth and financial transactions. Most analyses suggest middle-class families would pay more in taxes but less overall when premiums and cost-sharing are eliminated." },
         { question: "What countries have a system like Medicare for All?", answer: "Canada, the UK, Taiwan, and South Korea have single-payer or single-payer-like systems. However, each differs significantly in design. Canada's system is provincially administered; the UK's NHS is fully socialized; Taiwan uses a single national insurer. None is identical to the U.S. proposal." }]}],
     faqs: [
