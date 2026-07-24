@@ -602,7 +602,7 @@ export const blogArticles: BlogArticleData[] = [
       ogImage: "https://images.unsplash.com/photo-1664382950513-939431ef4e5c?auto=format&fit=crop&w=1200&q=80",
     },
     title: "How to Sign Up for Medicare: Step-by-Step Enrollment Guide (2026)",
-    excerpt: "A clear, step-by-step walkthrough of how to sign up for Medicare in 2026 — whether you're turning 65, leaving employer coverage, or enrolling late.",
+    excerpt: "A clear, step-by-step walkthrough of how to sign up for Medicare in 2026, whether you're turning 65, leaving employer coverage, or enrolling late.",
     category: "Enrollment",
     categoryColor: "#F59E0B",
     date: "July 24, 2026",
@@ -613,10 +613,10 @@ export const blogArticles: BlogArticleData[] = [
     image: "https://images.unsplash.com/photo-1664382950513-939431ef4e5c?auto=format&fit=crop&w=1200&q=80",
     imageAlt: "Senior woman using a laptop to sign up for Medicare online",
     keyTakeaways: [
-      "You sign up for Medicare through the Social Security Administration (SSA) — online at SSA.gov, by phone at 1-800-772-1213, or in person.",
+      "You sign up for Medicare through the Social Security Administration (SSA): online at SSA.gov, by phone at 1-800-772-1213, or in person.",
       "Your enrollment path depends on your situation: turning 65 (IEP), missed your window (GEP), or leaving employer coverage (SEP).",
       "The online application takes 10–30 minutes. You can apply for Medicare only without triggering early Social Security retirement benefits.",
-      "Late enrollment penalties are permanent — 10% per year for Part B, 1% per month for Part D — so enrolling on time matters.",
+      "Late enrollment penalties are permanent (10% per year for Part B, 1% per month for Part D), so enrolling on time matters.",
       "A licensed Medicare agent can help you navigate the process at no cost to you."],
     tableOfContents: [
       { id: "which-path", title: "Which Enrollment Path Is Yours?" },
@@ -630,8 +630,8 @@ export const blogArticles: BlogArticleData[] = [
       { id: "late-penalties", title: "Late Enrollment Penalties" },
       { id: "get-help", title: "Get Free Help From a Licensed Agent" }],
     sections: [
-      { type: "paragraph", content: "Signing up for Medicare doesn't have to be complicated. The process takes as little as 10 minutes online — but the *timing* of when you enroll matters enormously. Enroll too late and you could face permanent penalties added to your premiums for life. This guide walks you through exactly how to sign up for Medicare based on your specific situation." },
-      { type: "paragraph", content: "Below, we break the process into **three clear enrollment paths** — find yours, follow the steps, and you'll be enrolled correctly without overpaying." },
+      { type: "paragraph", content: "Signing up for Medicare doesn't have to be complicated. The process takes as little as 10 minutes online, but the *timing* of when you enroll matters enormously. Enroll too late and you could face permanent penalties added to your premiums for life. This guide walks you through exactly how to sign up for Medicare based on your specific situation." },
+      { type: "paragraph", content: "Below, we break the process into **three clear enrollment paths**. Find yours, follow the steps, and you'll be enrolled correctly without overpaying." },
 
       { type: "heading", level: 2, text: "Which Enrollment Path Is Yours?", id: "which-path" },
       { type: "paragraph", content: "Your enrollment path depends on where you are in life right now. Choose the path that matches your situation:" },
@@ -639,10 +639,10 @@ export const blogArticles: BlogArticleData[] = [
         ["Turning 65 (or within 3 months of 65)", "Initial Enrollment Period (IEP)", "7-month window around your 65th birthday"],
         ["Already past 65, missed your IEP", "General Enrollment Period (GEP)", "January 1 \u2013 March 31 each year"],
         ["Leaving employer coverage (any age)", "Special Enrollment Period (SEP)", "8 months after coverage or employment ends"],
-        ["Receiving SSDI for 24+ months", "Automatic enrollment", "No action needed \u2014 card arrives by mail"],
+        ["Receiving SSDI for 24+ months", "Automatic enrollment", "No action needed. Card arrives by mail."],
         ["Diagnosed with ALS or ESRD", "Automatic enrollment", "Begins with first SSDI month (ALS) or 4th month of dialysis (ESRD)"]]},
 
-      { type: "heading", level: 2, text: "Path 1: Turning 65 \u2014 Initial Enrollment Period (IEP)", id: "iep-path" },
+      { type: "heading", level: 2, text: "Path 1: Turning 65 - Initial Enrollment Period (IEP)", id: "iep-path" },
       { type: "paragraph", content: "This is the most common path. Your IEP is a **7-month window** centered on your 65th birthday month: it starts 3 months before, includes your birthday month, and extends 3 months after. Enrolling in the first 3 months gives you the earliest possible coverage start date." },
       { type: "callout", calloutType: "info", calloutTitle: "Already receiving Social Security?", calloutText: "If you're already collecting Social Security or Railroad Retirement Board benefits before turning 65, you're **automatically enrolled** in Parts A and B. Your Medicare card will arrive in the mail about 3 months before your 65th birthday. No action needed unless you want to decline Part B." },
       { type: "steps", steps: [
@@ -652,9 +652,9 @@ export const blogArticles: BlogArticleData[] = [
         { title: "Apply through SSA", description: "Go to SSA.gov, call 1-800-772-1213, or visit your local office. The online application takes 10\u201330 minutes. See the step-by-step walkthrough below." },
         { title: "Enroll in Part D and Medigap", description: "Once Part B is active, your 6-month [Medigap Open Enrollment](/faqs/medicare-supplement-open-enrollment/) window begins. Enroll in a [Part D drug plan](/medicare-plans/part-d/) during your IEP to avoid the late penalty." }
       ]},
-      { type: "callout", calloutType: "tip", calloutTitle: "Pro Tip", calloutText: "Set a reminder the moment you turn 64. Having a full year to research Part D and Medigap options means you can submit your application on the first day of your IEP and lock in the earliest coverage start date." },
+      { type: "eddie-pro-tip", content: "Set a reminder the moment you turn 64. Having a full year to research Part D and Medigap options means you can submit your application on the first day of your IEP and lock in the earliest coverage start date." },
 
-      { type: "heading", level: 2, text: "Path 2: Missed Your Window \u2014 General Enrollment Period (GEP)", id: "gep-path" },
+      { type: "heading", level: 2, text: "Path 2: Missed Your Window - General Enrollment Period (GEP)", id: "gep-path" },
       { type: "paragraph", content: "If you missed your IEP and don't qualify for a Special Enrollment Period, the **General Enrollment Period** runs **January 1 through March 31** each year. Coverage from a GEP enrollment begins **July 1** of that year." },
       { type: "callout", calloutType: "warning", calloutTitle: "Penalty Alert", calloutText: "Enrolling through the GEP means you likely missed your IEP without qualifying coverage. A **Part B late enrollment penalty** of 10% per year of delay is added permanently to your monthly premium. A 2-year gap means a 20% surcharge for life. Read our [penalty avoidance strategies](/blog/medicare-penalty-avoidance-strategies/) to understand your options." },
       { type: "steps", steps: [
@@ -663,17 +663,19 @@ export const blogArticles: BlogArticleData[] = [
         { title: "Enroll in Part D and supplemental coverage", description: "You can enroll in a Part D plan during the same January\u2013March window. Medigap enrollment may require medical underwriting since your Open Enrollment Period has passed." }
       ]},
 
-      { type: "heading", level: 2, text: "Path 3: Leaving Employer Coverage \u2014 Special Enrollment Period (SEP)", id: "sep-path" },
-      { type: "paragraph", content: "If you delayed Medicare because you (or your spouse) had **active employer coverage** from a company with 20+ employees, you qualify for a Special Enrollment Period. You have **8 months** to enroll after the coverage ends or the employment ends, whichever comes first \u2014 with no late penalty." },
+      { type: "heading", level: 2, text: "Path 3: Leaving Employer Coverage - Special Enrollment Period (SEP)", id: "sep-path" },
+      { type: "paragraph", content: "If you delayed Medicare because you (or your spouse) had **active employer coverage** from a company with 20+ employees, you qualify for a Special Enrollment Period. You have **8 months** to enroll after the coverage ends or the employment ends, whichever comes first, with no late penalty." },
       { type: "callout", calloutType: "warning", calloutTitle: "COBRA and Retiree Plans Don't Count", calloutText: "COBRA continuation coverage and retiree health plans do **not** qualify as active employer coverage. If you're relying on COBRA to delay Medicare, you may already be accruing a Part B penalty. Learn more about [how Medicare works with employer health plans](/blog/understanding-how-medicare-works-with-employer-health-plans/)." },
       { type: "steps", steps: [
         { title: "Confirm your employer has 20+ employees", description: "The SEP protection only applies if the employer group plan is based on active employment with a company of 20 or more employees. Smaller employers' plans don't carry the same exemption." },
         { title: "Get your employment/coverage end date in writing", description: "Request a letter from your employer or HR department confirming when your group health coverage will end. You'll need this for your application." },
-        { title: "Apply within your 8-month SEP window", description: "Your 8-month window starts the month after employment ends or coverage ends (whichever is first). Don't wait \u2014 apply as soon as your coverage termination date is confirmed." },
+        { title: "Apply within your 8-month SEP window", description: "Your 8-month window starts the month after employment ends or coverage ends (whichever is first). Don't wait. Apply as soon as your coverage termination date is confirmed." },
         { title: "Submit Form CMS-L564 and CMS-40B", description: "These forms document your employer coverage. Your employer completes CMS-L564 (proof of group health plan coverage). You complete CMS-40B (request for enrollment in Part B). Submit both to your local Social Security office." },
-        { title: "Enroll in Part D and Medigap immediately", description: "Your Medigap Open Enrollment Period starts when Part B begins. Don't miss this 6-month window \u2014 it's your guaranteed-issue opportunity regardless of health history." }
+        { title: "Enroll in Part D and Medigap immediately", description: "Your Medigap Open Enrollment Period starts when Part B begins. Don't miss this 6-month window. It's your guaranteed-issue opportunity regardless of health history." }
       ]},
       { type: "paragraph", content: "For a detailed walkthrough of this transition, see our guide on [transitioning to Medicare after employer coverage ends](/blog/transitioning-to-medicare-after-employer-coverage-ends/)." },
+
+      { type: "image", src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png", alt: "Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area", link: "/find-plans/" },
 
       { type: "heading", level: 2, text: "How to Apply for Medicare: 3 Methods", id: "how-to-apply" },
       { type: "paragraph", content: "Regardless of which enrollment path you're on, you apply for Medicare through the **Social Security Administration (SSA)**. Choose the method that works best for you:" },
@@ -701,7 +703,7 @@ export const blogArticles: BlogArticleData[] = [
         "**Information about current health coverage** (insurer name, policy number, coverage dates)",
         "**Employment history** (W-2 or self-employment tax return from the prior year)",
         "**Bank account information** (if you want automatic premium payments)",
-        "**Employer coverage letter** (if applying through a SEP \u2014 Form CMS-L564)",
+        "**Employer coverage letter** (if applying through a SEP, specifically Form CMS-L564)",
         "**Spouse's employment information** (if your coverage is through a spouse's employer)"
       ]},
       { type: "callout", calloutType: "tip", calloutTitle: "Save Time", calloutText: "Gather all documents before starting your application. Missing information is the most common reason applications stall or require follow-up calls." },
@@ -720,11 +722,11 @@ export const blogArticles: BlogArticleData[] = [
       { type: "table", headers: ["Part", "Penalty Calculation", "Example"], rows: [
         ["Part B", "10% added for each full 12-month period you were eligible but didn't enroll", "2-year delay = 20% surcharge on your Part B premium, permanently"],
         ["Part D", "1% of the national base premium for each full month without creditable drug coverage", "12-month gap = ~12% added to your Part D premium, permanently"]]},
-      { type: "paragraph", content: "You may be exempt if you had **creditable coverage** \u2014 employer, union, or other coverage at least as good as Medicare's standard. Keep all notices of creditable coverage as documentation. Read our full guide on [Medicare penalty avoidance strategies](/blog/medicare-penalty-avoidance-strategies/)." },
+      { type: "paragraph", content: "You may be exempt if you had **creditable coverage** (employer, union, or other coverage at least as good as Medicare's standard). Keep all notices of creditable coverage as documentation. Read our full guide on [Medicare penalty avoidance strategies](/blog/medicare-penalty-avoidance-strategies/)." },
       { type: "paragraph", content: "Higher-income enrollees also face **IRMAA (Income-Related Monthly Adjustment Amount)** surcharges. In 2026, IRMAA begins for individuals with MAGI above $109,000. If your income has recently decreased due to retirement, you can request a review using SSA Form SSA-44." },
 
       { type: "heading", level: 2, text: "Get Free Help From a Licensed Medicare Agent", id: "get-help" },
-      { type: "paragraph", content: "The enrollment process is manageable, but the decisions surrounding it \u2014 timing, coverage path, supplemental plans \u2014 carry real financial consequences. If your situation involves employer coverage, SSDI, or other complexities, a licensed Medicare agent can walk you through the entire process at **no cost to you**." },
+      { type: "paragraph", content: "The enrollment process is manageable, but the decisions surrounding it (timing, coverage path, supplemental plans) carry real financial consequences. If your situation involves employer coverage, SSDI, or other complexities, a licensed Medicare agent can walk you through the entire process at **no cost to you**." },
       { type: "paragraph", content: "Our agents specialize in helping people navigate Medicare enrollment, compare plans, and avoid costly mistakes. [Find plans available in your area](/find-plans/) or call **(844) 253-4964** to speak with a licensed agent today." }
     ],
     faqs: [
@@ -746,7 +748,7 @@ export const blogArticles: BlogArticleData[] = [
       },
       {
         question: "Is there a fee to sign up for Medicare?",
-        answer: "There is no application fee. Part A is premium-free for most people who worked at least 40 quarters (10 years). Part B has a standard monthly premium of $202.90 in 2026. Part D premiums vary by plan. You won't pay anything to apply \u2014 only ongoing monthly premiums once coverage begins.",
+        answer: "There is no application fee. Part A is premium-free for most people who worked at least 40 quarters (10 years). Part B has a standard monthly premium of $202.90 in 2026. Part D premiums vary by plan. You won't pay anything to apply. You only pay ongoing monthly premiums once coverage begins.",
       },
       {
         question: "What happens if I miss my Initial Enrollment Period?",
