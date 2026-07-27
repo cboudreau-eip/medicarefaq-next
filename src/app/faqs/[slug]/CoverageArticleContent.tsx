@@ -49,6 +49,7 @@ import type {
   QuickReferenceItem,
 } from "@/lib/article-types";
 import PodcastPlayer from "@/components/PodcastPlayer";
+import MedicareTaxCalculator from "@/components/MedicareTaxCalculator";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 import ZipFormModal from "@/components/ZipFormModal";
@@ -302,6 +303,7 @@ function buildTOC(article: CoverageArticleData) {
   ];
   if (article.advantageSteps) toc.push({ id: "advantage-steps", label: "Finding the Right Plan" });
   if (article.costTable) toc.push({ id: "costs", label: "Costs & Pricing" });
+  if (article.slug === "medicare-tax-rate") toc.push({ id: "tax-calculator", label: "Tax Calculator" });
   if (article.exceptionsSection) toc.push({ id: "exceptions", label: "Important Exceptions" });
   if (article.legislativeUpdate) toc.push({ id: "legislative-update", label: "Legislative Update" });
   if (article.alternativesSection) toc.push({ id: "alternatives", label: "Alternatives" });
@@ -672,6 +674,13 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                   {article.costTable.footnote && (
                     <div className="px-6 py-3 bg-[#F5F7FA] text-xs text-[#6B7280] border-t border-[#E5E7EB]">{article.costTable.footnote}</div>
                   )}
+                </div>
+              )}
+
+              {/* Medicare Tax Calculator (slug-specific) */}
+              {article.slug === "medicare-tax-rate" && (
+                <div id="tax-calculator" className="mb-8">
+                  <MedicareTaxCalculator />
                 </div>
               )}
 
