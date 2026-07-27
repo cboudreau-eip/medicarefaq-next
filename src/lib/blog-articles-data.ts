@@ -8495,8 +8495,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Senior reviewing Medicare supplement plan documents with calculator and pen",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Senior couple meeting with insurance advisor to review Medicare supplement plan options",
     keyTakeaways: [
       "Plan G covers nearly all Medicare cost-sharing except the $283 Part B deductible, making your annual out-of-pocket exposure highly predictable.",
       "The biggest con is the premium itself: $130 to $300+ per month in 2026, with many carriers raising rates 12-26% this year.",
@@ -8572,6 +8572,8 @@ export const blogArticles: BlogArticleData[] = [
         ["Standardized benefits (same coverage from every carrier)", "Does not cover the $283 Part B deductible"]
       ] },
 
+      { type: "image", src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png", alt: "Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area", link: "/find-plans/" },
+
       { type: "heading", level: 2, text: "Is the Premium Worth It? A Real Cost Analysis", id: "is-it-worth-it" },
       { type: "paragraph", content: "Whether Plan G's premium is 'worth it' depends on how much healthcare you actually use. Here is a straightforward comparison for a 67-year-old in 2026:" },
       { type: "table", headers: ["Scenario", "Plan G Total Annual Cost", "Original Medicare Only (No Supplement)", "Difference"], rows: [
@@ -8613,8 +8615,7 @@ export const blogArticles: BlogArticleData[] = [
       ] },
       { type: "paragraph", content: "For a detailed comparison of Plan G vs. Plan N, including a breakeven calculator, see our guide to [finding your best Medigap plan](/blog/finding-your-best-medigap-plan/). If you are considering Medicare Advantage as an alternative, read our [Medigap vs. Medicare Advantage comparison](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained/)." },
 
-      { type: "eddie-pro-tip", calloutTitle: "Eddie's Pro Tip", calloutText: "Here is what I tell everyone who asks me whether Plan G is worth it: do not just compare the monthly premium to zero. Compare it to what you would actually spend without it. Pull up your last year of Medicare Summary Notices, add up the cost-sharing amounts, and compare that to 12 months of Plan G premiums. If your cost-sharing was under $2,000, Plan N or High-Deductible Plan G might save you money. If it was over $3,000, Plan G is already paying for itself. And if you had a hospital stay, Plan G probably saved you $10,000 or more in a single event. The real risk is not overpaying in a healthy year. The real risk is being uninsured for a bad year." },
-      { type: "image", src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png", alt: "Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area", link: "/find-plans/" },
+      { type: "eddie-pro-tip", calloutTitle: "Eddie's Pro Tip", calloutText: "Do not compare Plan G's premium to zero. Compare it to what you would actually spend without it. Pull up last year's Medicare Summary Notices and add up your cost-sharing. Under $2,000? Plan N might save you money. Over $3,000? Plan G is already paying for itself." },
     ],
     showInlineCta: true,
     faqs: [
