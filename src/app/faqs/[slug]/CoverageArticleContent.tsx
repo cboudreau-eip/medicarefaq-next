@@ -560,11 +560,54 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                 <p className="text-[#4B5563] text-[15px] leading-relaxed" dangerouslySetInnerHTML={{ __html: article.quickAnswer.text }} />
               </div>
 
+              {/* Static Rate Table for Medicare Tax Rate page */}
+              {article.slug === "medicare-tax-rate" && (
+                <div id="rate-summary" className="bg-white border border-[#E5E7EB] rounded-xl overflow-hidden mb-8 shadow-sm">
+                  <div className="bg-[#1B2A4A] px-6 py-4 flex items-center gap-3">
+                    <Shield className="w-5 h-5 text-white" />
+                    <h2 className="font-bold text-white text-lg">2026 Medicare Tax Rates</h2>
+                  </div>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="bg-[#F5F7FA] border-b border-[#E5E7EB]">
+                          <th className="text-left px-6 py-3 font-semibold text-[#1B2A4A]">Tax Type</th>
+                          <th className="text-left px-4 py-3 font-semibold text-[#1B2A4A]">Rate</th>
+                          <th className="text-left px-4 py-3 font-semibold text-[#1B2A4A]">Applies To</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="border-b border-[#E5E7EB]">
+                          <td className="px-6 py-4 font-medium text-[#1B2A4A]">Employee Medicare Tax</td>
+                          <td className="px-4 py-4"><span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">1.45%</span></td>
+                          <td className="px-4 py-4 text-[#6B7280] text-xs">All wages (no cap)</td>
+                        </tr>
+                        <tr className="border-b border-[#E5E7EB] bg-[#FAFAFA]">
+                          <td className="px-6 py-4 font-medium text-[#1B2A4A]">Employer Medicare Tax</td>
+                          <td className="px-4 py-4"><span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">1.45%</span></td>
+                          <td className="px-4 py-4 text-[#6B7280] text-xs">Matches employee rate; paid by employer</td>
+                        </tr>
+                        <tr className="border-b border-[#E5E7EB]">
+                          <td className="px-6 py-4 font-medium text-[#1B2A4A]">Self-Employed Medicare Tax</td>
+                          <td className="px-4 py-4"><span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">2.9%</span></td>
+                          <td className="px-4 py-4 text-[#6B7280] text-xs">Net self-employment income (both halves)</td>
+                        </tr>
+                        <tr className="border-b border-[#E5E7EB] bg-[#FAFAFA]">
+                          <td className="px-6 py-4 font-medium text-[#1B2A4A]">Additional Medicare Tax</td>
+                          <td className="px-4 py-4"><span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-1 rounded-full bg-amber-50 text-amber-700">0.9%</span></td>
+                          <td className="px-4 py-4 text-[#6B7280] text-xs">Income above $200K (single) / $250K (joint)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+
               {/* Coverage Comparison Table */}
               <div id="coverage-comparison" className="bg-white border border-[#E5E7EB] rounded-xl overflow-hidden mb-8 shadow-sm">
                 <div className="bg-[#D97706] px-6 py-4 flex items-center gap-3">
                   <Shield className="w-5 h-5 text-white" />
-                  <h2 className="font-bold text-white text-lg">Coverage Comparison by Plan Type</h2>
+                  <h2 className="font-bold text-white text-lg">{article.slug === "medicare-tax-rate" ? "Detailed Rate Breakdown" : "Coverage Comparison by Plan Type"}</h2>
                 </div>
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm">
@@ -600,7 +643,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               </div>
 
               {/* Plan Breakdowns */}
-              <h2 id="plan-breakdowns" className="text-2xl font-bold text-[#1B2A4A] mb-4">Understanding Your Coverage Options</h2>
+              <h2 id="plan-breakdowns" className="text-2xl font-bold text-[#1B2A4A] mb-4">{article.slug === "medicare-tax-rate" ? "Medicare Tax Rate Details" : "Understanding Your Coverage Options"}</h2>
               <div className="space-y-4 mb-8">
                 {article.planBreakdowns.map((plan, i) => (
                   <>
@@ -712,8 +755,8 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               {/* Legislative Update */}
               {article.legislativeUpdate && (
                 <>
-                  <h2 id="legislative-update" className="text-2xl font-bold text-[#1B2A4A] mb-4 mt-10 flex items-center gap-2">
-                    <span className="text-[#D97706]">&#10022;</span> {article.legislativeUpdate.title}
+                  <h2 id="legislative-update" className="text-2xl font-bold text-[#1B2A4A] mb-4 mt-10">
+                    {article.legislativeUpdate.title}
                   </h2>
                   <div className="space-y-4 mb-8">
                     {article.legislativeUpdate.items.map((item, i) => {
@@ -877,8 +920,8 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
               )}
               {/* FAQs */}
               <div id="faqs" className="mb-10 mt-10">
-                <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6 flex items-center gap-2">
-                  <span className="text-[#D97706]">&#10022;</span> Frequently Asked Questions
+                <h2 className="text-2xl font-bold text-[#1B2A4A] mb-6">
+                  Frequently Asked Questions
                 </h2>
                 <div className="space-y-3">
                   {article.faqs.map((faq, i) => (
