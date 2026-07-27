@@ -8495,8 +8495,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
     featured: false,
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Senior couple meeting with insurance advisor to review Medicare supplement plan options",
+    image: "https://images.pexels.com/photos/8441812/pexels-photo-8441812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    imageAlt: "Senior couple reviewing Medicare supplement plan options with an insurance agent",
     keyTakeaways: [
       "Plan G covers nearly all Medicare cost-sharing except the $283 Part B deductible, making your annual out-of-pocket exposure highly predictable.",
       "The biggest con is the premium itself: $130 to $300+ per month in 2026, with many carriers raising rates 12-26% this year.",
