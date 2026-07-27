@@ -1443,6 +1443,27 @@ export const coverageArticles: CoverageArticleData[] = [
         },
       },
     ],
+    costTable: {
+      title: "When Do You Qualify for Medicare? Birth Year to Eligibility Date",
+      headers: ["Birth Year", "You Turn 65 In", "Initial Enrollment Period Starts", "Medicare Coverage Can Begin"],
+      rows: [
+        { "Birth Year": "1957", "You Turn 65 In": "2022", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1958", "You Turn 65 In": "2023", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1959", "You Turn 65 In": "2024", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1960", "You Turn 65 In": "2025", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1961", "You Turn 65 In": "2026", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1962", "You Turn 65 In": "2027", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1963", "You Turn 65 In": "2028", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1964", "You Turn 65 In": "2029", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1965", "You Turn 65 In": "2030", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1966", "You Turn 65 In": "2031", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1967", "You Turn 65 In": "2032", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1968", "You Turn 65 In": "2033", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1969", "You Turn 65 In": "2034", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+        { "Birth Year": "1970", "You Turn 65 In": "2035", "Initial Enrollment Period Starts": "3 months before 65th birthday", "Medicare Coverage Can Begin": "The month you turn 65" },
+      ],
+      footnote: "Your Initial Enrollment Period (IEP) is a 7-month window: 3 months before your 65th birthday month, your birthday month, and 3 months after. If your birthday is on the 1st of the month, your IEP starts one month earlier. Coverage start date depends on when during your IEP you enroll.",
+    },
     alternativesSection: {
       title: "Medicare Age Eligibility at a Glance",
       paragraphs: [
