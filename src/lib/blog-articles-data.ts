@@ -1108,8 +1108,8 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     seo: {
-    title: "How to Compare Medicare Advantage Plans: A Step-by-Step Framework (2026)",
-    description: "Compare Medicare Advantage plans using our 7-dimension framework: networks, out-of-pocket maximums, drug coverage, extra benefits, star ratings, prior authorization, and costs. Updated for 2026.",
+    title: "How to Compare Medicare Advantage Plans: Step-by-Step (2026)",
+    description: "Compare Medicare Advantage plans with our 7-dimension framework covering networks, costs, drug coverage, extra benefits, star ratings, and prior authorization rules.",
     canonical: "https://www.medicarefaq.com/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans/",
     ogImage: "/images/medicarefaq-cover.jpg",
     focusKeyword: "compare medicare advantage plans",
@@ -1148,155 +1148,58 @@ export const blogArticles: BlogArticleData[] = [
     sections: [
       { type: "paragraph", content: "There are over 4,000 Medicare Advantage plans available in 2026. The average beneficiary has access to 43 plans in their county. Comparing them without a structured approach is like shopping for a car by only looking at the sticker price. You need a framework that evaluates what actually determines your experience and total cost of care." },
       { type: "paragraph", content: "This guide gives you that framework. Instead of generic questions, you will get 7 specific comparison dimensions, what to look for in each one, and a worksheet you can use to evaluate plans side by side." },
-
       { type: "heading", level: 2, text: "Why You Need a Comparison Framework", id: "why-a-framework-matters" },
       { type: "paragraph", content: "Most people compare Medicare Advantage plans by looking at the monthly premium and maybe checking if their doctor is in-network. That approach misses the factors that actually determine how much you spend and how easily you access care throughout the year." },
       { type: "paragraph", content: "Consider: two plans in the same zip code can both have a $0 monthly premium but differ by $5,000 in maximum out-of-pocket exposure, cover completely different medications, and require prior authorization for different services. One might have a 4.5-star CMS rating while the other has 2.5 stars. The premium tells you almost nothing about the plan's real value." },
       { type: "paragraph", content: "A structured comparison framework ensures you evaluate every plan on the same criteria, so you can make an apples-to-apples decision rather than being swayed by marketing materials or a single attractive number." },
-
       { type: "heading", level: 2, text: "The 7 Comparison Dimensions", id: "the-7-dimensions" },
       { type: "paragraph", content: "When you compare Medicare Advantage plans, evaluate each one across these 7 dimensions. They are listed in order of impact on your healthcare experience:" },
-      { type: "table", headers: ["Dimension", "What It Determines", "Where to Find It"], rows: [
-        ["1. Network type and provider access", "Which doctors, specialists, and hospitals you can use", "Plan's provider directory or Medicare.gov Plan Finder"],
-        ["2. Maximum out-of-pocket (MOOP)", "Your worst-case annual spending on covered services", "Plan's Summary of Benefits or Medicare.gov"],
-        ["3. Prescription drug coverage", "What you pay for each medication", "Plan's formulary (drug list) on their website"],
-        ["4. Extra benefits", "Dental, vision, hearing, OTC, fitness, transportation", "Summary of Benefits, Section 4"],
-        ["5. CMS star rating", "Quality of care, customer service, and complaint rates", "Medicare.gov Plan Finder (star ratings tab)"],
-        ["6. Prior authorization burden", "How often you need plan approval before getting care", "Plan's Evidence of Coverage document, Section 3"],
-        ["7. Total annual cost", "Premium + deductibles + copays + coinsurance for YOUR usage", "Medicare.gov Plan Finder (estimated annual cost tool)"]
-      ] },
-
+      { type: "table", title: "", headers: ["Dimension", "What It Determines", "Where to Find It"], rows: [["1. Network type and provider access", "Which doctors, specialists, and hospitals you can use", "Plan's provider directory or Medicare.gov Plan Finder"], ["2. Maximum out-of-pocket (MOOP)", "Your worst-case annual spending on covered services", "Plan's Summary of Benefits or Medicare.gov"], ["3. Prescription drug coverage", "What you pay for each medication", "Plan's formulary (drug list) on their website"], ["4. Extra benefits", "Dental, vision, hearing, OTC, fitness, transportation", "Summary of Benefits, Section 4"], ["5. CMS star rating", "Quality of care, customer service, and complaint rates", "Medicare.gov Plan Finder (star ratings tab)"], ["6. Prior authorization burden", "How often you need plan approval before getting care", "Plan's Evidence of Coverage document, Section 3"], ["7. Total annual cost", "Premium + deductibles + copays + coinsurance for YOUR usage", "Medicare.gov Plan Finder (estimated annual cost tool)"]] },
       { type: "heading", level: 2, text: "1. Network Type and Provider Access", id: "dimension-1-network" },
       { type: "paragraph", content: "The network type determines the fundamental rules of how you access care. This is the single most important structural difference between Medicare Advantage plans." },
-      { type: "table", headers: ["Network Type", "Can You Go Out-of-Network?", "Need Referrals?", "Best For"], rows: [
-        ["HMO (Health Maintenance Organization)", "No (except emergencies)", "Usually yes", "People who use one health system and want lower costs"],
-        ["PPO (Preferred Provider Organization)", "Yes, at higher cost", "No", "People who want flexibility to see any provider"],
-        ["HMO-POS (Point of Service)", "Limited out-of-network allowed", "Usually yes", "People who want HMO savings with occasional flexibility"],
-        ["PFFS (Private Fee-for-Service)", "Any Medicare provider who accepts plan terms", "No", "Rural areas with limited plan options"]
-      ] },
+      { type: "table", title: "", headers: ["Network Type", "Can You Go Out-of-Network?", "Need Referrals?", "Best For"], rows: [["HMO (Health Maintenance Organization)", "No (except emergencies)", "Usually yes", "People who use one health system and want lower costs"], ["PPO (Preferred Provider Organization)", "Yes, at higher cost", "No", "People who want flexibility to see any provider"], ["HMO-POS (Point of Service)", "Limited out-of-network allowed", "Usually yes", "People who want HMO savings with occasional flexibility"], ["PFFS (Private Fee-for-Service)", "Any Medicare provider who accepts plan terms", "No", "Rural areas with limited plan options"]] },
       { type: "paragraph", content: "To compare networks effectively, make a list of every provider you currently see (primary care, specialists, preferred hospital, lab, imaging center) and verify each one is in-network for the plans you are considering. Do not rely on the plan's marketing. Call the provider's office directly and confirm they accept the specific plan, not just the carrier." },
       { type: "callout", calloutType: "warning", calloutTitle: "Network Changes Happen Annually", calloutText: "Providers can leave a plan's network at any time. Even if your doctor was in-network last year, verify again for the upcoming plan year. About 15% of MA plan networks experience provider turnover annually." },
-
       { type: "heading", level: 2, text: "2. Maximum Out-of-Pocket (MOOP)", id: "dimension-2-moop" },
       { type: "paragraph", content: "The MOOP is the most you will pay for covered services in a calendar year (excluding premiums and Part D drugs). Once you hit this limit, the plan pays 100% for the rest of the year. This number represents your worst-case financial exposure." },
-      { type: "table", headers: ["MOOP Category", "Typical Range (2026)", "What It Means"], rows: [
-        ["Low MOOP", "$2,000 - $4,000", "Better financial protection; usually higher premiums or narrower networks"],
-        ["Average MOOP", "$4,000 - $6,000", "Balanced protection; most plans fall here"],
-        ["High MOOP", "$6,000 - $8,850", "Higher risk exposure; often paired with $0 premiums"],
-        ["CMS maximum allowed (in-network)", "$8,850", "The absolute ceiling CMS allows for 2026"],
-        ["CMS maximum allowed (combined in/out)", "$13,300", "Applies to PPO out-of-network services"]
-      ] },
+      { type: "table", title: "", headers: ["MOOP Category", "Typical Range (2026)", "What It Means"], rows: [["Low MOOP", "$2,000 - $4,000", "Better financial protection; usually higher premiums or narrower networks"], ["Average MOOP", "$4,000 - $6,000", "Balanced protection; most plans fall here"], ["High MOOP", "$6,000 - $8,850", "Higher risk exposure; often paired with $0 premiums"], ["CMS maximum allowed (in-network)", "$8,850", "The absolute ceiling CMS allows for 2026"], ["CMS maximum allowed (combined in/out)", "$13,300", "Applies to PPO out-of-network services"]] },
       { type: "paragraph", content: "When comparing plans, do not just look at the MOOP number in isolation. A plan with a $3,500 MOOP and a $50/month premium may provide better protection than a $0 premium plan with an $8,850 MOOP. If you have a major health event (hospitalization, surgery, cancer treatment), the difference between a $3,500 MOOP and an $8,850 MOOP is $5,350 in real money out of your pocket." },
-
-      { type: "image", src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png", alt: "Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area", link: "/find-plans/" },
-
+      { type: "image", src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png", alt: "Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area" },
       { type: "heading", level: 2, text: "3. Prescription Drug Coverage", id: "dimension-3-drugs" },
       { type: "paragraph", content: "Most Medicare Advantage plans (MAPD) include Part D drug coverage, but formularies vary dramatically. The same medication can be Tier 2 (preferred brand, $20 copay) on one plan and Tier 4 (non-preferred specialty, 33% coinsurance) on another. For 2026, the new $2,000 annual Part D out-of-pocket cap applies to all MAPD plans, which limits your maximum drug spending." },
       { type: "paragraph", content: "To compare drug coverage properly:" },
-      { type: "list", ordered: true, items: [
-        "Make a complete list of every medication you take, including dosage and quantity.",
-        "Enter your drug list into Medicare.gov's Plan Finder tool. It will show you the estimated annual cost for each plan.",
-        "Check which tier each drug falls on for each plan you are considering.",
-        "Look for restrictions: prior authorization (PA), step therapy (ST), and quantity limits (QL).",
-        "Verify your preferred pharmacy is in the plan's preferred pharmacy network (costs are lower at preferred pharmacies).",
-        "Check if mail-order is available for maintenance medications (often 90-day supplies at lower cost)."] },
+      { type: "list", ordered: true, items: ["Make a complete list of every medication you take, including dosage and quantity.", "Enter your drug list into Medicare.gov's Plan Finder tool. It will show you the estimated annual cost for each plan.", "Check which tier each drug falls on for each plan you are considering.", "Look for restrictions: prior authorization (PA), step therapy (ST), and quantity limits (QL).", "Verify your preferred pharmacy is in the plan's preferred pharmacy network (costs are lower at preferred pharmacies).", "Check if mail-order is available for maintenance medications (often 90-day supplies at lower cost)."] },
       { type: "callout", calloutType: "info", calloutTitle: "2026 Part D Cap", calloutText: "Starting in 2025, no Medicare beneficiary pays more than $2,000 per year for Part D prescription drugs, regardless of which MAPD plan they choose. This cap applies to all plans equally, so the real comparison point is now your monthly copays and whether your drugs require prior authorization, not catastrophic coverage." },
-
       { type: "heading", level: 2, text: "4. Extra Benefits", id: "dimension-4-extras" },
       { type: "paragraph", content: "Extra benefits are where Medicare Advantage plans differentiate themselves most visibly. These are benefits that [Original Medicare does not cover](/faqs/what-is-medicare-advantage) but that MA plans can offer because of how they are funded. In 2026, the most common extra benefits include:" },
-      { type: "table", headers: ["Benefit Category", "What to Compare", "Typical Value Range"], rows: [
-        ["Dental", "Preventive-only vs. comprehensive (crowns, dentures, implants)", "$0 (preventive only) to $3,000+/year comprehensive"],
-        ["Vision", "Routine exams + eyewear allowance", "$0 to $400/year for frames/lenses"],
-        ["Hearing", "Annual exam + hearing aid allowance", "$0 to $3,000+ per ear for hearing aids"],
-        ["OTC allowance", "Quarterly card for health products", "$0 to $255/month (D-SNP plans)"],
-        ["Fitness", "Gym membership (SilverSneakers, Renew Active)", "$0 included or not offered"],
-        ["Transportation", "Rides to medical appointments", "0 to 72 one-way trips per year"],
-        ["Telehealth", "Virtual visits with $0 copay", "Most plans include; copay varies $0-$20"],
-        ["Meal delivery", "Post-discharge or chronic condition meals", "0 to 28 meals per discharge"]
-      ] },
+      { type: "table", title: "", headers: ["Benefit Category", "What to Compare", "Typical Value Range"], rows: [["Dental", "Preventive-only vs. comprehensive (crowns, dentures, implants)", "$0 (preventive only) to $3,000+/year comprehensive"], ["Vision", "Routine exams + eyewear allowance", "$0 to $400/year for frames/lenses"], ["Hearing", "Annual exam + hearing aid allowance", "$0 to $3,000+ per ear for hearing aids"], ["OTC allowance", "Quarterly card for health products", "$0 to $255/month (D-SNP plans)"], ["Fitness", "Gym membership (SilverSneakers, Renew Active)", "$0 included or not offered"], ["Transportation", "Rides to medical appointments", "0 to 72 one-way trips per year"], ["Telehealth", "Virtual visits with $0 copay", "Most plans include; copay varies $0-$20"], ["Meal delivery", "Post-discharge or chronic condition meals", "0 to 28 meals per discharge"]] },
       { type: "paragraph", content: "When comparing extra benefits, focus on what you will actually use. A plan with a $2,000 dental allowance sounds impressive, but if you have healthy teeth and only need cleanings, a plan with basic preventive dental and a lower MOOP may serve you better. Prioritize benefits that address your specific health needs." },
-
       { type: "heading", level: 2, text: "5. CMS Star Ratings", id: "dimension-5-stars" },
       { type: "paragraph", content: "The Centers for Medicare and Medicaid Services (CMS) rates every Medicare Advantage plan on a 1 to 5 star scale based on quality of care, customer experience, member complaints, and health outcomes. Star ratings are not marketing. They are based on audited performance data." },
-      { type: "table", headers: ["Star Rating", "What It Means", "% of Plans (2026)"], rows: [
-        ["5 stars", "Excellent performance across all measures", "~4%"],
-        ["4 - 4.5 stars", "Above average; qualifies for CMS bonus payments", "~52%"],
-        ["3 - 3.5 stars", "Average performance", "~30%"],
-        ["2 - 2.5 stars", "Below average; may face CMS sanctions", "~12%"],
-        ["1 - 1.5 stars", "Poor performance; at risk of termination", "~2%"]
-      ] },
+      { type: "table", title: "", headers: ["Star Rating", "What It Means", "% of Plans (2026)"], rows: [["5 stars", "Excellent performance across all measures", "~4%"], ["4 - 4.5 stars", "Above average; qualifies for CMS bonus payments", "~52%"], ["3 - 3.5 stars", "Average performance", "~30%"], ["2 - 2.5 stars", "Below average; may face CMS sanctions", "~12%"], ["1 - 1.5 stars", "Poor performance; at risk of termination", "~2%"]] },
       { type: "paragraph", content: "Star ratings matter for a practical reason beyond quality: plans with 4+ stars receive bonus payments from CMS, which they typically reinvest into richer benefits, lower cost-sharing, or broader networks. A 4.5-star plan often has materially better benefits than a 3-star plan from the same carrier in the same county because of this funding difference." },
       { type: "paragraph", content: "You can find star ratings on [Medicare.gov Plan Finder](https://www.medicare.gov/plan-compare/) or by searching your zip code on our [Medicare Advantage plans page](/medicare-part-c/medicare-advantage-plans)." },
-
       { type: "heading", level: 2, text: "6. Prior Authorization Burden", id: "dimension-6-prior-auth" },
       { type: "paragraph", content: "Prior authorization (PA) is the plan's requirement that you get approval before receiving certain services. This is one of the most overlooked comparison dimensions, and it directly affects how quickly you can access care. In 2026, CMS data shows that MA plans issue prior authorization requirements on an average of 14% of service requests, with denial rates varying from 2% to 13% depending on the carrier." },
       { type: "paragraph", content: "Services that commonly require prior authorization in Medicare Advantage plans:" },
-      { type: "list", ordered: false, items: [
-        "Inpatient hospital admissions (non-emergency)",
-        "Outpatient surgeries and procedures",
-        "Advanced imaging (MRI, CT, PET scans)",
-        "Specialist referrals (HMO plans)",
-        "Skilled nursing facility stays beyond initial days",
-        "Durable medical equipment (wheelchairs, CPAP, oxygen)",
-        "Home health services",
-        "Certain injectable or infused medications"] },
+      { type: "list", ordered: false, items: ["Inpatient hospital admissions (non-emergency)", "Outpatient surgeries and procedures", "Advanced imaging (MRI, CT, PET scans)", "Specialist referrals (HMO plans)", "Skilled nursing facility stays beyond initial days", "Durable medical equipment (wheelchairs, CPAP, oxygen)", "Home health services", "Certain injectable or infused medications"] },
       { type: "paragraph", content: "To compare prior authorization burden, look at the plan's Evidence of Coverage (EOC) document, Section 3. Plans with fewer PA requirements give you faster access to care. If you have chronic conditions requiring regular specialist visits, imaging, or procedures, a plan with heavy PA requirements can create delays and administrative frustration." },
       { type: "callout", calloutType: "info", calloutTitle: "2026 CMS Rule Change", calloutText: "Starting in 2026, CMS requires all MA plans to process standard prior authorization requests within 7 calendar days (down from 14) and expedited requests within 72 hours. Plans must also publicly report their approval and denial rates. This makes it easier to compare plans on this dimension." },
-
       { type: "heading", level: 2, text: "7. Total Annual Cost (Not Just Premium)", id: "dimension-7-total-cost" },
       { type: "paragraph", content: "The monthly premium is the least useful number for comparing Medicare Advantage plans. Your real cost is: Premium + Part B premium ($202.90/month in 2026) + deductibles + copays/coinsurance for services you actually use + drug costs. Two plans with the same $0 premium can differ by thousands of dollars in total annual cost depending on your health usage." },
       { type: "paragraph", content: "Medicare.gov's Plan Finder has an estimated annual cost calculator that factors in your specific medications, doctors, and expected healthcare usage. Use it. It is the single most useful comparison tool available and it is free." },
-      { type: "table", headers: ["Cost Component", "What to Check", "Typical Range"], rows: [
-        ["Monthly premium", "Your fixed monthly cost (many plans are $0)", "$0 - $200/month"],
-        ["Medical deductible", "Amount you pay before plan starts covering", "$0 - $500/year"],
-        ["Drug deductible", "Amount before Part D coverage kicks in", "$0 - $590 (2026 max)"],
-        ["PCP copay", "Per-visit cost for primary care", "$0 - $30/visit"],
-        ["Specialist copay", "Per-visit cost for specialists", "$10 - $65/visit"],
-        ["Inpatient hospital", "Per-day or per-admission cost", "$150 - $500/day (days 1-5 typical)"],
-        ["MOOP", "Your absolute maximum annual exposure", "$2,000 - $8,850"]
-      ] },
-
+      { type: "table", title: "", headers: ["Cost Component", "What to Check", "Typical Range"], rows: [["Monthly premium", "Your fixed monthly cost (many plans are $0)", "$0 - $200/month"], ["Medical deductible", "Amount you pay before plan starts covering", "$0 - $500/year"], ["Drug deductible", "Amount before Part D coverage kicks in", "$0 - $590 (2026 max)"], ["PCP copay", "Per-visit cost for primary care", "$0 - $30/visit"], ["Specialist copay", "Per-visit cost for specialists", "$10 - $65/visit"], ["Inpatient hospital", "Per-day or per-admission cost", "$150 - $500/day (days 1-5 typical)"], ["MOOP", "Your absolute maximum annual exposure", "$2,000 - $8,850"]] },
       { type: "heading", level: 2, text: "Your Plan Comparison Worksheet", id: "comparison-worksheet" },
       { type: "paragraph", content: "Use this worksheet to compare up to 3 plans side by side. Fill in the details for each plan you are considering, then compare across all 7 dimensions:" },
-      { type: "table", headers: ["Comparison Dimension", "Plan A", "Plan B", "Plan C"], rows: [
-        ["Plan name and carrier", "___________", "___________", "___________"],
-        ["Network type (HMO/PPO/HMO-POS)", "___________", "___________", "___________"],
-        ["My PCP in-network?", "Yes / No", "Yes / No", "Yes / No"],
-        ["My specialists in-network?", "Yes / No", "Yes / No", "Yes / No"],
-        ["My hospital in-network?", "Yes / No", "Yes / No", "Yes / No"],
-        ["Maximum out-of-pocket (MOOP)", "$___________", "$___________", "$___________"],
-        ["Monthly premium", "$___________", "$___________", "$___________"],
-        ["Annual drug cost (from Plan Finder)", "$___________", "$___________", "$___________"],
-        ["All my drugs on formulary?", "Yes / No", "Yes / No", "Yes / No"],
-        ["Any drugs need prior auth?", "Yes / No", "Yes / No", "Yes / No"],
-        ["Dental coverage type", "___________", "___________", "___________"],
-        ["Vision allowance", "$___________", "$___________", "$___________"],
-        ["Hearing aid coverage", "$___________", "$___________", "$___________"],
-        ["OTC allowance (annual)", "$___________", "$___________", "$___________"],
-        ["Fitness benefit included?", "Yes / No", "Yes / No", "Yes / No"],
-        ["CMS star rating", "_____ stars", "_____ stars", "_____ stars"],
-        ["Estimated annual total cost", "$___________", "$___________", "$___________"]
-      ] },
+      { type: "table", title: "", headers: ["Comparison Dimension", "Plan A", "Plan B", "Plan C"], rows: [["Plan name and carrier", "___________", "___________", "___________"], ["Network type (HMO/PPO/HMO-POS)", "___________", "___________", "___________"], ["My PCP in-network?", "Yes / No", "Yes / No", "Yes / No"], ["My specialists in-network?", "Yes / No", "Yes / No", "Yes / No"], ["My hospital in-network?", "Yes / No", "Yes / No", "Yes / No"], ["Maximum out-of-pocket (MOOP)", "$___________", "$___________", "$___________"], ["Monthly premium", "$___________", "$___________", "$___________"], ["Annual drug cost (from Plan Finder)", "$___________", "$___________", "$___________"], ["All my drugs on formulary?", "Yes / No", "Yes / No", "Yes / No"], ["Any drugs need prior auth?", "Yes / No", "Yes / No", "Yes / No"], ["Dental coverage type", "___________", "___________", "___________"], ["Vision allowance", "$___________", "$___________", "$___________"], ["Hearing aid coverage", "$___________", "$___________", "$___________"], ["OTC allowance (annual)", "$___________", "$___________", "$___________"], ["Fitness benefit included?", "Yes / No", "Yes / No", "Yes / No"], ["CMS star rating", "_____ stars", "_____ stars", "_____ stars"], ["Estimated annual total cost", "$___________", "$___________", "$___________"]] },
       { type: "paragraph", content: "After filling this out, the right plan usually becomes obvious. The plan that covers your providers, has a manageable MOOP, covers your drugs affordably, and carries a strong star rating is almost always the best choice, regardless of what the premium says." },
-
       { type: "heading", level: 2, text: "Common Comparison Mistakes", id: "common-mistakes" },
-      { type: "list", ordered: false, items: [
-        "Choosing based on premium alone. A $0 premium plan with an $8,850 MOOP and narrow network can cost you far more than a $50/month plan with a $3,500 MOOP and your doctors in-network.",
-        "Ignoring star ratings. A 2.5-star plan is below average for a reason: higher denial rates, worse customer service, and fewer bonus-funded benefits.",
-        "Not checking the formulary. Your $300/month medication might be Tier 2 on one plan and Tier 5 on another. The difference could be $2,000+/year.",
-        "Assuming all extras are equal. A '$3,000 dental allowance' might only cover in-network dentists using plan-contracted rates, which limits your actual choices.",
-        "Forgetting prior authorization. If you need regular MRIs or specialist procedures, a plan with heavy PA requirements can delay your care by weeks.",
-        "Not rechecking annually. Plans change networks, formularies, benefits, and costs every January 1. Last year's best plan may not be this year's best plan."] },
-
+      { type: "list", ordered: false, items: ["Choosing based on premium alone. A $0 premium plan with an $8,850 MOOP and narrow network can cost you far more than a $50/month plan with a $3,500 MOOP and your doctors in-network.", "Ignoring star ratings. A 2.5-star plan is below average for a reason: higher denial rates, worse customer service, and fewer bonus-funded benefits.", "Not checking the formulary. Your $300/month medication might be Tier 2 on one plan and Tier 5 on another. The difference could be $2,000+/year.", "Assuming all extras are equal. A '$3,000 dental allowance' might only cover in-network dentists using plan-contracted rates, which limits your actual choices.", "Forgetting prior authorization. If you need regular MRIs or specialist procedures, a plan with heavy PA requirements can delay your care by weeks.", "Not rechecking annually. Plans change networks, formularies, benefits, and costs every January 1. Last year's best plan may not be this year's best plan."] },
       { type: "heading", level: 2, text: "When to Compare Plans", id: "when-to-compare" },
       { type: "paragraph", content: "The primary window to compare and switch Medicare Advantage plans is the [Annual Enrollment Period (AEP)](/blog/medicare-advantage-annual-enrollment-period-aep-dates), which runs from October 15 through December 7 each year. Changes take effect January 1. You should also compare plans during:" },
-      { type: "list", ordered: false, items: [
-        "Medicare Advantage Open Enrollment Period (January 1 to March 31): If you already have an MA plan, you can make one switch to a different MA plan or drop back to Original Medicare.",
-        "Special Enrollment Periods: Triggered by qualifying events like moving to a new service area, losing employer coverage, or qualifying for Medicaid.",
-        "Initial Enrollment Period: When you first become eligible for Medicare (typically around your 65th birthday)."] },
+      { type: "list", ordered: false, items: ["Medicare Advantage Open Enrollment Period (January 1 to March 31): If you already have an MA plan, you can make one switch to a different MA plan or drop back to Original Medicare.", "Special Enrollment Periods: Triggered by qualifying events like moving to a new service area, losing employer coverage, or qualifying for Medicaid.", "Initial Enrollment Period: When you first become eligible for Medicare (typically around your 65th birthday)."] },
       { type: "paragraph", content: "For a complete guide to [Medicare Advantage vs. Medicare Supplement](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained/) (Medigap), including when each path makes more sense, see our detailed comparison. If you are considering switching from Medicare Advantage to Medigap, read our [switching guide](/blog/making-the-switch-a-guide-to-moving-from-a-medicare-advantage-to-a-medicare-supplement-plan/) to understand the underwriting implications." },
-
-      { type: "eddie-pro-tip", calloutTitle: "Eddie's Pro Tip", calloutText: "Start your comparison on Medicare.gov Plan Finder. Enter your zip code, your doctors, and your drug list. It will estimate your total annual cost for every plan available in your area. Then use the worksheet above to compare the top 3 plans on the dimensions that matter most to you." },
+      { type: "eddie-pro-tip", content: "" },
     ],
     showInlineCta: true,
     faqs: [
