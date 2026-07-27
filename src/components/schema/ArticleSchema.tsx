@@ -43,6 +43,10 @@ export default function ArticleSchema({
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
     headline: title,
     description,
     url,

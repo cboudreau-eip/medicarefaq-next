@@ -365,8 +365,9 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
         description={article.seo?.description || article.subtitle}
         url={pageUrl}
         datePublished={article.dateUpdated}
-        dateModified={article.dateUpdated}
+        dateModified={article.lastReviewed || article.dateUpdated}
         authorName={article.author.name}
+        authorUrl="https://www.medicarefaq.com/about"
         imageUrl={article.seo?.ogImage || undefined}
       />
       <BreadcrumbSchema
