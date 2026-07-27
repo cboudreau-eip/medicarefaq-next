@@ -8570,6 +8570,9 @@ export const blogArticles: BlogArticleData[] = [
   },
 {
     slug: "medicare-plan-g-pros-and-cons",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19557244-is-medicare-plan-g-worth-the-cost.mp3?download=true",
+    podcastDate: "July 27, 2026",
+    podcastDuration: "5:00",
     seo: {
       focusKeyword: "medicare plan g pros and cons",
       title: "Medicare Plan G Pros and Cons: Is the Premium Worth It in 2026?",
