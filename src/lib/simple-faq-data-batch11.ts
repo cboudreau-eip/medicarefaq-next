@@ -10,7 +10,7 @@ export const simpleFAQBatch11: SimpleFAQArticleData[] = [
       focusKeyword: 'age for medicare',
     },
     title: 'What Age Do You Qualify for Medicare?',
-    summary: 'The age for Medicare is 65. Most Americans become eligible for Medicare Part A and Part B at 65, though certain individuals qualify earlier through disability, ALS, or end-stage renal disease. This guide covers the standard age requirement, under-65 pathways, your turning-65 enrollment timeline, and how to avoid permanent late penalties.',
+    summary: '',
     category: 'Medicare Eligibility',
     datePublished: 'May 11, 2026',
     dateUpdated: 'July 28, 2026',
