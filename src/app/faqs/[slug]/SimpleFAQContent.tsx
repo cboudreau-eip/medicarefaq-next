@@ -34,6 +34,7 @@ import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 import ZipFormModal from "@/components/ZipFormModal";
 import InlineCardCTA from "@/components/InlineCardCTA";
+import EddieProTip from "@/components/EddieProTip";
 
 const BASE_URL = "https://www.medicarefaq.com";
 
@@ -293,6 +294,17 @@ function renderRichSection(section: BlogSectionContent, idx: number) {
           ))}
         </div>
       );
+    case "eddie-pro-tip": {
+      const tipText = section.content || section.calloutText || section.text || "";
+      const tipContent = tipText
+        ? <>{renderParagraph(tipText, idx)}</>
+        : null;
+      return (
+        <div key={idx}>
+          <EddieProTip tip={tipContent ?? ""} />
+        </div>
+      );
+    }
     case "image": {
       if (!section.src) return null;
       const imgElement = (
