@@ -16,22 +16,21 @@ interface SlideInCTAProps {
 export default function SlideInCTA({
   scrollPercent = 40,
   storageKey = "slideInCTA_dismissed",
-  dismissDurationHours = 24,
+  dismissDurationHours = 120,
 }: SlideInCTAProps) {
   const [visible, setVisible] = useState(false);
   const [shouldRender, setShouldRender] = useState(false);
   const [triggered, setTriggered] = useState(false);
 
   useEffect(() => {
-    // TODO: Re-enable localStorage check after testing
-    // const dismissedAt = localStorage.getItem(storageKey);
-    // if (dismissedAt) {
-    //   const elapsed = Date.now() - parseInt(dismissedAt, 10);
-    //   const dismissDurationMs = dismissDurationHours * 60 * 60 * 1000;
-    //   if (elapsed < dismissDurationMs) {
-    //     return; // Don't show
-    //   }
-    // }
+    const dismissedAt = localStorage.getItem(storageKey);
+    if (dismissedAt) {
+      const elapsed = Date.now() - parseInt(dismissedAt, 10);
+      const dismissDurationMs = dismissDurationHours * 60 * 60 * 1000;
+      if (elapsed < dismissDurationMs) {
+        return; // Don't show
+      }
+    }
 
     const handleScroll = () => {
       if (triggered) return;
@@ -59,8 +58,7 @@ export default function SlideInCTA({
 
   const handleDismiss = () => {
     setVisible(false);
-    // TODO: Re-enable localStorage save after testing
-    // localStorage.setItem(storageKey, Date.now().toString());
+    localStorage.setItem(storageKey, Date.now().toString());
     // Remove from DOM after animation completes
     setTimeout(() => setShouldRender(false), 400);
   };

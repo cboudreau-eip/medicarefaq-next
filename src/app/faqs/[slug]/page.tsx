@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import SiteLayout from "@/components/SiteLayout";
 import CoverageArticleContent from "./CoverageArticleContent";
 import SimpleFAQContent from "./SimpleFAQContent";
-import SlideInCTA from "@/components/SlideInCTA";
 import { coverageArticles } from "@/lib/coverage-data";
 import { simpleFAQArticles } from "@/lib/simple-faq-data";
 import { blogArticles } from "@/lib/blog-articles-data";
@@ -311,7 +310,6 @@ export default async function FAQArticlePage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
         <CoverageArticleContent article={coverageArticle} />
-        {slug === "medicare-part-b-give-back-plan" && <SlideInCTA />}
       </SiteLayout>
     );
   }

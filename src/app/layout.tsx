@@ -5,6 +5,7 @@ import HeatmapTracker from "@/components/HeatmapTracker";
 import InvocaRefresh from "@/components/InvocaRefresh";
 import ChatWidget from "@/components/ChatWidget";
 import PostHogProvider from "@/components/PostHogProvider";
+import SlideInCTA from "@/components/SlideInCTA";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -113,6 +114,7 @@ export default function RootLayout({
         </PostHogProvider>
         <HeatmapTracker />
         <InvocaRefresh />
+        <SlideInCTA />
         {/* Chat widget is fail-closed: only render when ENABLE_CHAT === "true".
             Unset / any other value (prod default) keeps the chat system off. */}
         {process.env.ENABLE_CHAT === "true" && <ChatWidget />}
