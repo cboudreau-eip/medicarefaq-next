@@ -218,9 +218,9 @@ async function sendDecisionKitNotification(data: {
   iepStart: string;
   iepEnd: string;
 }) {
-  const resendApiKey = process.env.RESEND_API_KEY;
+  const resendApiKey = process.env.RESEND_LEAD_GEN_API_KEY;
   if (!resendApiKey) {
-    console.warn("[Decision Kit] RESEND_API_KEY not set — skipping email notification");
+    console.warn("[Decision Kit] RESEND_LEAD_GEN_API_KEY not set — skipping email notification");
     return;
   }
 
