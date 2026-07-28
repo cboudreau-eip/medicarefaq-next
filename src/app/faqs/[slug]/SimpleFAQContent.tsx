@@ -560,7 +560,17 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
               <div className="prose prose-lg max-w-none">
                 {useRich ? (
                   /* ─── Rich Sections (tables, callouts, lists, FAQs) ─── */
-                  article.richSections!.map((section, i) => renderRichSection(section, i))
+                  article.richSections!.map((section, i) => {
+                    const midpoint = Math.floor(article.richSections!.length / 2);
+                    return (
+                      <React.Fragment key={i}>
+                        {renderRichSection(section, i)}
+                        {article.showInlineCta && i === midpoint && (
+                          <InlineCardCTA pageSection={`faq_simple_${article.slug}`} />
+                        )}
+                      </React.Fragment>
+                    );
+                  })
                 ) : (
                   /* ─── Legacy Simple Sections (heading + paragraphs) ─── */
                   article.sections.map((section, i) => (
@@ -588,8 +598,8 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
               </div>
 
 
-              {/* ─── Inline Card CTA ─── */}
-              {article.showInlineCta && (
+              {/* ─── Inline Card CTA (for legacy sections only) ─── */}
+              {!useRich && article.showInlineCta && (
                 <InlineCardCTA pageSection={`faq_simple_${article.slug}`} />
               )}
 
