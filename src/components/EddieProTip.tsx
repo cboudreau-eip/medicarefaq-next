@@ -61,9 +61,9 @@ export default function EddieProTip({
         className={`flex-shrink-0 w-16 h-16 rounded-full overflow-hidden border-2 shadow bg-white ${styles.avatar}`}
       >
         <img
-          src="/eddie_eagle_arms_transparent.png"
+          src="/eddie_eagle_head.png"
           alt="Eddie the Eagle — MedicareFAQ mascot"
-          className="w-full h-full object-cover object-[center_20%]"
+          className="w-full h-full object-cover"
         />
       </div>
 
