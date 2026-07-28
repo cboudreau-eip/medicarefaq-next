@@ -32,12 +32,12 @@ export const simpleFAQBatch11: SimpleFAQArticleData[] = [
       {
         type: 'paragraph',
         content:
-          'The age for Medicare is 65. If you are a U.S. citizen or legal permanent resident who has lived in the country for at least five years, you become eligible for Medicare the month you turn 65. This has been the standard qualifying age since Medicare was signed into law in 1965, and it has never changed despite periodic proposals in Congress.',
+          'The standard age to qualify for Medicare is 65. Most people become eligible during a 7-month Initial Enrollment Period that starts 3 months before the month of their 65th birthday, includes their birthday month, and ends 3 months after. If you already receive benefits from Social Security or the Railroad Retirement Board, you are signed up automatically - your Medicare card arrives about 3 months before you turn 65.',
       },
       {
         type: 'paragraph',
         content:
-          'However, not everyone has to wait until 65. Roughly 10 million Americans currently receive Medicare before age 65 through qualifying disabilities or medical conditions. Below, we break down exactly who qualifies, when coverage starts, and how to navigate the enrollment process without triggering permanent penalties.',
+          'Some people qualify younger. If you have received Social Security Disability Insurance (SSDI) for 24 months, have been diagnosed with ALS, or have end-stage renal disease, you can get Medicare before 65. About 10 million Americans are currently enrolled through one of these under-65 pathways.',
       },
       {
         type: 'heading',
