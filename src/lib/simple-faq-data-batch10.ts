@@ -1,5 +1,306 @@
 import type { SimpleFAQArticleData } from "@/lib/article-types";
+
 export const simpleFAQBatch10: SimpleFAQArticleData[] = [
+  {
+    slug: 'does-medicare-cover-a-hysterectomy',
+    seo: {
+      title: 'Does Medicare Cover a Hysterectomy? Costs & Requirements',
+      description: 'Learn how Medicare covers hysterectomy surgery, including what Part A and Part B pay, your out-of-pocket costs, and what qualifies as medically necessary.',
+      canonical: 'https://www.medicarefaq.com/faqs/does-medicare-cover-a-hysterectomy/',
+      ogImage: '/images/medicarefaq-cover.jpg',
+      focusKeyword: 'does medicare cover a hysterectomy',
+    },
+    title: 'Does Medicare Cover a Hysterectomy?',
+    summary: 'Yes, Medicare covers hysterectomy surgery when your doctor determines it is medically necessary. Medicare Part A covers the inpatient hospital stay, while Part B covers surgeon fees and outpatient services. This guide explains what qualifies, what you will pay, and how to reduce your out-of-pocket costs.',
+    category: 'Medicare Coverage',
+    datePublished: 'July 28, 2026',
+    dateUpdated: 'July 28, 2026',
+    author: 'David Haass',
+    authorUrl: '/about-us/david-haass',
+    authorTitle: 'Licensed Insurance Agent',
+    reviewer: 'Ashlee Zareczny',
+    reviewerUrl: '/meet-the-editorial-team',
+    reviewerTitle: 'Compliance & Editorial Manager',
+    readTime: '8 min',
+    showInlineCta: true,
+    sections: [
+      {
+        heading: '',
+        paragraphs: [],
+      },
+    ],
+    richSections: [
+      {
+        type: 'paragraph',
+        content:
+          'A hysterectomy is one of the most common surgical procedures performed on women in the United States, with roughly 600,000 performed each year. Whether you are facing a recommendation for this surgery due to fibroids, cancer, endometriosis, or another condition, understanding how Medicare handles the costs can help you plan ahead and avoid unexpected bills.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'The short answer is yes: Medicare does cover hysterectomy surgery when it is deemed medically necessary by your treating physician. However, the details of what you pay depend on whether the procedure is performed as an inpatient hospital stay or an outpatient surgery, and whether you have supplemental coverage like a [Medigap plan](/faqs/plan-g/) to help with cost-sharing.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Key Takeaways',
+        id: 'key-takeaways',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Medicare covers hysterectomy surgery when your doctor certifies it is medically necessary for conditions like cancer, fibroids, endometriosis, uterine prolapse, or abnormal bleeding.',
+          'Part A covers inpatient hospital costs (room, nursing, anesthesia) after a $1,676 deductible in 2026. Part B covers the surgeon and outpatient services at 80% after a $283 annual deductible.',
+          'A Medicare Supplement plan can significantly reduce or eliminate your out-of-pocket costs for the procedure.',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'What Makes a Hysterectomy Medically Necessary Under Medicare?',
+        id: 'medically-necessary',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Medicare requires that any covered procedure be medically necessary, meaning it is needed to diagnose or treat a medical condition. For a hysterectomy, this includes a range of diagnoses that your doctor must document. Medicare does not cover elective hysterectomies performed solely for sterilization purposes without an underlying medical condition.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Common conditions that qualify a hysterectomy as medically necessary include:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Uterine cancer, cervical cancer, or ovarian cancer',
+          'Uterine fibroids causing significant symptoms (heavy bleeding, pain, pressure)',
+          'Endometriosis that has not responded to other treatments',
+          'Uterine prolapse',
+          'Chronic pelvic pain unresponsive to conservative treatment',
+          'Abnormal uterine bleeding that cannot be controlled by other means',
+          'Precancerous conditions (cervical dysplasia, endometrial hyperplasia)',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Your physician will need to document that less invasive treatments have been considered or attempted before recommending a hysterectomy. This documentation is part of what Medicare reviews when processing the claim. Understanding what Medicare considers [medically necessary](/faqs/what-does-medically-necessary-mean/) can help you prepare for conversations with your doctor.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'How Medicare Part A Covers Inpatient Hysterectomy',
+        id: 'part-a-coverage',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'When a hysterectomy requires an inpatient hospital stay (typically for abdominal hysterectomies or complex cases), Medicare Part A covers the hospital costs. This includes your semi-private room, meals, nursing care, medications administered during your stay, operating room fees, and anesthesia.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'For 2026, your Part A costs for an inpatient hysterectomy look like this:',
+      },
+      {
+        type: 'table',
+        headers: ['Cost Component', '2026 Amount'],
+        rows: [
+          ['Part A Deductible (per benefit period)', '$1,676'],
+          ['Days 1-60 coinsurance', '$0 per day'],
+          ['Days 61-90 coinsurance', '$434 per day'],
+          ['Part B Deductible (for surgeon fees)', '$283 per year'],
+          ['Part B Coinsurance (surgeon, anesthesiologist)', '20% of Medicare-approved amount'],
+        ],
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Most hysterectomies require a hospital stay of 1 to 3 days for minimally invasive approaches or 3 to 5 days for open abdominal procedures. Since most stays fall within the first 60 days of a benefit period, you would pay the Part A deductible plus 20% of surgeon fees under Part B. The total out-of-pocket cost for a Medicare beneficiary without supplemental coverage typically ranges from $2,000 to $4,000 depending on the procedure type and facility. For a full breakdown of [Medicare costs in 2026](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes/), including premiums and deductibles, see our dedicated guide.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'How Medicare Part B Covers Outpatient Hysterectomy',
+        id: 'part-b-coverage',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Many laparoscopic and robotic-assisted hysterectomies are now performed as outpatient procedures in ambulatory surgical centers or hospital outpatient departments. When performed on an outpatient basis, Medicare Part B covers the procedure rather than Part A.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Under Part B outpatient coverage, you pay the $283 annual deductible (if not already met) plus 20% coinsurance of the Medicare-approved amount. According to Medicare.gov procedure pricing data, the average patient cost for a laparoscopic total hysterectomy is approximately $1,189 to $1,245 depending on the specific procedure code, while Medicare pays the remaining 80%.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Part B also covers pre-surgical consultations, pathology services, and follow-up visits related to the procedure. If your doctor orders imaging, blood work, or other diagnostic tests before the surgery, those are covered under Part B as well.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Types of Hysterectomy Procedures Medicare Covers',
+        id: 'types-of-hysterectomy',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Medicare covers all standard types of hysterectomy when medically necessary. The type recommended depends on your specific condition, uterus size, and overall health:',
+      },
+      {
+        type: 'table',
+        headers: ['Type', 'Approach', 'Typical Recovery', 'Setting'],
+        rows: [
+          ['Total Abdominal Hysterectomy', 'Open incision through abdomen', '4 to 6 weeks', 'Inpatient (Part A)'],
+          ['Vaginal Hysterectomy', 'Through the vaginal canal', '3 to 4 weeks', 'Inpatient or Outpatient'],
+          ['Laparoscopic Hysterectomy', 'Small incisions with camera', '2 to 3 weeks', 'Often Outpatient (Part B)'],
+          ['Robotic-Assisted Hysterectomy', 'Small incisions with robotic arms', '2 to 3 weeks', 'Often Outpatient (Part B)'],
+          ['Supracervical (Partial) Hysterectomy', 'Removes uterus, keeps cervix', '2 to 4 weeks', 'Varies'],
+        ],
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Robotic-assisted and laparoscopic approaches have become increasingly common because they offer shorter recovery times and smaller incisions. Medicare covers these newer techniques at the same rate as traditional approaches, so the choice should be based on your medical situation rather than cost concerns.',
+      },
+      {
+        type: 'eddie-pro-tip',
+        content: 'Ask your surgeon whether your hysterectomy can be performed as an outpatient procedure. Outpatient procedures often result in lower out-of-pocket costs and faster recovery. If you have a Medicare Supplement plan, your cost-sharing may be fully covered either way.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Medicare Advantage Coverage for Hysterectomy',
+        id: 'medicare-advantage',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'If you are enrolled in a [Medicare Advantage plan](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included/), your hysterectomy is still covered because all MA plans must provide at least the same benefits as Original Medicare. However, your cost-sharing structure will differ based on your specific plan.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Medicare Advantage plans typically use copays or coinsurance for inpatient stays and outpatient surgeries. Many plans require prior authorization before scheduling a hysterectomy. Check your plan documents or call your plan directly to confirm what you will owe and whether your surgeon is in-network, as going out-of-network can significantly increase your costs.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'How to Reduce Your Out-of-Pocket Costs',
+        id: 'reduce-costs',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Several strategies can help minimize what you pay for a hysterectomy under Medicare:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Enroll in a Medicare Supplement (Medigap) plan before you need surgery. [Plan G](/faqs/plan-g/) covers the Part A deductible and all Part B coinsurance after you meet the Part B deductible.',
+          'Confirm your surgeon accepts Medicare assignment, meaning they agree to charge only the Medicare-approved amount.',
+          'Ask whether the procedure can be performed at an ambulatory surgical center, which often has lower facility fees than a hospital outpatient department.',
+          'If you have a Medicare Advantage plan, use in-network providers and confirm prior authorization requirements in advance.',
+          'Check whether your plan has a maximum out-of-pocket limit that would cap your total spending.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        content:
+          'For beneficiaries who do not yet have supplemental coverage, understanding your options during [Medicare Supplement Open Enrollment](/faqs/medicare-supplement-open-enrollment/) is important. During this period, you can enroll in any Medigap plan without medical underwriting, regardless of [pre-existing conditions](/faqs/does-medicare-cover-pre-existing-conditions/).',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'What Medicare Does Not Cover Related to Hysterectomy',
+        id: 'what-is-not-covered',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'While Medicare covers the surgery itself and related medical care, there are some costs and services that fall outside coverage:',
+      },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          'Elective hysterectomy performed solely for sterilization without a qualifying medical condition',
+          'Private hospital room (unless medically necessary)',
+          'Personal convenience items during your hospital stay',
+          'Long-term custodial care during recovery (though short-term [skilled nursing facility](/faqs/medicare-coverage-for-skilled-nursing-facilities/) care may be covered if you qualify)',
+          'Cosmetic procedures performed at the same time as the hysterectomy',
+        ],
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Recovery and Follow-Up Care Medicare Covers',
+        id: 'recovery-care',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'Medicare covers medically necessary follow-up care after your hysterectomy. This includes post-operative doctor visits, lab work to monitor your recovery, and [physical therapy](/faqs/medicare-coverage-for-physical-therapy/) if prescribed by your physician. If you require home health services after discharge, Medicare Part A covers [home health care](/faqs/does-medicare-cover-home-health-care/) when you are homebound and need skilled nursing or therapy services.',
+      },
+      {
+        type: 'paragraph',
+        content:
+          'If complications arise that require readmission to the hospital, Medicare Part A covers the subsequent stay under the same benefit period rules. Your doctor will also schedule follow-up appointments to check your incision site, monitor healing, and address any concerns about hormone changes if your ovaries were removed during the procedure.',
+      },
+      {
+        type: 'heading',
+        level: 2,
+        text: 'Frequently Asked Questions',
+        id: 'faq-section',
+      },
+      {
+        type: 'faq',
+        faqs: [
+          {
+            question: 'Does Medicare require prior authorization for a hysterectomy?',
+            answer: 'Original Medicare (Parts A and B) does not require prior authorization for a hysterectomy. However, Medicare Advantage plans often do require prior authorization before scheduling the surgery. Always check with your specific plan before your procedure date.',
+          },
+          {
+            question: 'How much does a hysterectomy cost with Medicare?',
+            answer: 'With Original Medicare alone, you can expect to pay the Part A deductible ($1,676 in 2026) for an inpatient stay plus 20% of surgeon fees under Part B. For outpatient procedures, costs average $1,189 to $1,245 in patient responsibility. A Medigap plan can reduce these costs significantly.',
+          },
+          {
+            question: 'Does Medicare cover robotic-assisted hysterectomy?',
+            answer: 'Yes, Medicare covers robotic-assisted hysterectomy at the same rate as other surgical approaches when the procedure is medically necessary. The choice of surgical technique should be based on your medical needs and your surgeon recommendation.',
+          },
+          {
+            question: 'Can I get a hysterectomy covered by Medicare for fibroids?',
+            answer: 'Yes, uterine fibroids are one of the most common reasons Medicare approves hysterectomy coverage. Your doctor will need to document that the fibroids are causing significant symptoms and that other treatments have been considered or attempted.',
+          },
+          {
+            question: 'Does Medicare cover hormone replacement therapy after a hysterectomy?',
+            answer: 'Medicare Part D (prescription drug coverage) covers hormone replacement medications prescribed after a hysterectomy when medically necessary. Your specific Part D plan formulary determines which medications are covered and at what cost tier.',
+          },
+          {
+            question: 'How long is the hospital stay for a hysterectomy covered by Medicare?',
+            answer: 'Medicare covers the hospital stay for as long as it is medically necessary. Minimally invasive procedures typically require 0 to 1 overnight stays, while open abdominal hysterectomies may require 3 to 5 days. Your medical team determines the appropriate length of stay.',
+          },
+        ],
+      },
+    ],
+    relatedSlugs: [
+      'does-medicare-cover-hip-replacement',
+      'does-medicare-cover-knee-replacement',
+      'medicare-coverage-for-physical-therapy',
+      'does-medicare-cover-pre-existing-conditions',
+      'medicare-costs-in-2026-premiums-deductibles-and-key-changes',
+      'plan-g',
+      'medicare-supplement-open-enrollment',
+      'what-does-medically-necessary-mean',
+    ],
+  },
   {
     slug: 'how-to-designate-medicare-authorized-representative',
     seo: {
