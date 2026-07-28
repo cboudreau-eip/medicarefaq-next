@@ -1,5 +1,7 @@
 "use client";
 
+import { useShopperApproved } from "@/hooks/useShopperApproved";
+
 /**
  * TrustBadgeBar — full-width horizontal trust strip
  * Badges: Forbes Finance Council · Shopper Approved · BBB Accredited Business
@@ -7,6 +9,8 @@
  */
 
 export default function TrustBadgeBar() {
+  const { totalReviews } = useShopperApproved();
+  const formattedReviews = totalReviews.toLocaleString();
   return (
     <section className="w-full border-t border-gray-200 bg-gray-50 py-6">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,7 +66,7 @@ export default function TrustBadgeBar() {
               </div>
             </div>
             <div className="text-[11px] font-medium text-gray-500">
-              2,353 Ratings
+              {formattedReviews} Ratings
             </div>
             <div
               className="text-[10px] font-semibold tracking-widest uppercase"
