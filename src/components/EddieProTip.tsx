@@ -63,7 +63,7 @@ export default function EddieProTip({
         <img
           src="/eddie_eagle_arms_transparent.png"
           alt="Eddie the Eagle — MedicareFAQ mascot"
-          className="w-full h-full object-cover object-top scale-110"
+          className="w-full h-full object-contain"
         />
       </div>
 
