@@ -58,7 +58,7 @@ export default function EddieProTip({
     >
       {/* Eddie avatar */}
       <div
-        className={`flex-shrink-0 w-16 h-16 rounded-full overflow-hidden border-2 shadow bg-white ${styles.avatar}`}
+        className={`flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-[3px] shadow bg-white ${styles.avatar}`}
       >
         <img
           src="/eddie_eagle_head.png"
