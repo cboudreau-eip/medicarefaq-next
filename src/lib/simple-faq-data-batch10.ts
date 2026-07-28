@@ -108,7 +108,7 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
       },
       {
         type: 'eddie-pro-tip',
-        content: 'Download Form CMS-1696 directly from the official CMS website today, even if you do not plan to submit it immediately. Fill out your personal information now, discuss the role with your chosen representative, and store a completed draft somewhere accessible. Having it ready means you will not be scrambling to gather information during a stressful moment like a hospital stay or an appeal deadline.',
+        content: 'Download Form CMS-1696 directly from the official CMS website today, even if you do not plan to submit it immediately. Fill out your personal information now, discuss the role with your chosen representative, and store a completed draft somewhere accessible.',
       },
       {
         type: 'heading',
