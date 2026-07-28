@@ -16,6 +16,7 @@ import { simpleFAQBatch7 } from "./simple-faq-data-batch7";
 import { simpleFAQBatch8 } from "./simple-faq-data-batch8";
 import { simpleFAQBatch9 } from "./simple-faq-data-batch9";
 import { simpleFAQBatch10 } from "./simple-faq-data-batch10";
+import { simpleFAQBatch11 } from "./simple-faq-data-batch11";
 
 export const simpleFAQArticles: SimpleFAQArticleData[] = [
   ...simpleFAQBatch1,
@@ -28,4 +29,5 @@ export const simpleFAQArticles: SimpleFAQArticleData[] = [
   ...simpleFAQBatch8,
   ...simpleFAQBatch9,
   ...simpleFAQBatch10,
+  ...simpleFAQBatch11,
 ];
