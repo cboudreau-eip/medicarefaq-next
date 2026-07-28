@@ -184,6 +184,15 @@ export async function POST(request: NextRequest) {
     const pdfBytes = await pdfDoc.save();
     const base64 = Buffer.from(pdfBytes).toString("base64");
 
+    // Send email notification (fire-and-forget)
+    sendDecisionKitNotification({
+      firstName: firstName || "Not provided",
+      dob: formatDate(dob),
+      birthday65: formatDate(dates.birthday65),
+      iepStart: formatDate(dates.iepStart),
+      iepEnd: formatDate(dates.iepEnd),
+    }).catch((err) => console.error("[Decision Kit] Email notification failed:", err));
+
     return NextResponse.json({
       pdf: base64,
       filename: `Medicare_Decision_Kit_${firstName || "Personalized"}.pdf`,
@@ -199,5 +208,75 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error("Decision Kit generation error:", error);
     return NextResponse.json({ error: "Failed to generate PDF" }, { status: 500 });
+  }
+}
+
+async function sendDecisionKitNotification(data: {
+  firstName: string;
+  dob: string;
+  birthday65: string;
+  iepStart: string;
+  iepEnd: string;
+}) {
+  const resendApiKey = process.env.RESEND_API_KEY;
+  if (!resendApiKey) {
+    console.warn("[Decision Kit] RESEND_API_KEY not set — skipping email notification");
+    return;
+  }
+
+  const htmlBody = `
+    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto;">
+      <div style="background: #0f4c5c; padding: 20px 24px; border-radius: 8px 8px 0 0;">
+        <h2 style="color: #ffffff; margin: 0; font-size: 18px;">New Decision Kit Download</h2>
+        <p style="color: #a7d8e4; margin: 4px 0 0; font-size: 13px;">MedicareFAQ Website</p>
+      </div>
+      <div style="border: 1px solid #e2e8f0; border-top: none; padding: 24px; border-radius: 0 0 8px 8px;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+          <tr>
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569; width: 140px;">First Name</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.firstName}</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Date of Birth</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.dob}</td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">65th Birthday</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.birthday65}</td>
+          </tr>
+          <tr style="background: #f8fafc;">
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">IEP Window</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.iepStart} - ${data.iepEnd}</td>
+          </tr>
+        </table>
+        <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 20px 0;" />
+        <p style="font-size: 12px; color: #94a3b8; margin: 0;">
+          Generated via medicarefaq.com/tools/decision-kit • ${new Date().toLocaleString("en-US", { timeZone: "America/New_York" })} ET
+        </p>
+      </div>
+    </div>
+  `;
+
+  try {
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${resendApiKey}`,
+      },
+      body: JSON.stringify({
+        from: "MedicareFAQ <onboarding@resend.dev>",
+        to: ["cboudreau@teameip.com"],
+        subject: `Decision Kit Download: ${data.firstName} (65 in ${data.birthday65.split(",")[0]?.trim() || ""})`,
+        html: htmlBody,
+      }),
+    });
+
+    if (!res.ok) {
+      const errorBody = await res.text();
+      console.error("[Decision Kit] Resend API error:", res.status, errorBody);
+    }
+  } catch (error) {
+    console.error("[Decision Kit] Email send failed:", error);
   }
 }
