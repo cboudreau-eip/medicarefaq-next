@@ -107,12 +107,6 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
           'Always confirm you are working with the most current version of the form. CMS updates its forms periodically, and using an outdated version can result in your submission being rejected. The 2026 version is available directly on the CMS website and through [Medicare.gov](https://www.medicare.gov). For a broader look at Medicare forms and documentation, additional guidance is available to help you stay organized.',
       },
       {
-        type: 'heading',
-        level: 2,
-        id: 'eddie-pro-tip',
-        text: "Eddie's Pro Tip",
-      },
-      {
         type: 'eddie-pro-tip',
         content: 'Download Form CMS-1696 directly from the official CMS website today, even if you do not plan to submit it immediately. Fill out your personal information now, discuss the role with your chosen representative, and store a completed draft somewhere accessible. Having it ready means you will not be scrambling to gather information during a stressful moment like a hospital stay or an appeal deadline.',
       },
