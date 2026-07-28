@@ -20,7 +20,7 @@ export const preventiveServicesArticle: BlogArticleData = {
   featured: true,
   image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/preventive-services-hero-9cRJBH4R53ZiEu3qgQSEbQ.png",
   imageAlt: "Senior patient receiving a preventive health screening at a doctor's office",
-  youtubeVideoId: "mAnT_mIGEY0",
+  youtubeVideoId: "JmsKvC3TszM",
   youtubeVideoTitle: "Free Preventive Services Medicare Covers",
   keyTakeaways: [
     "Medicare Part B covers over 40 preventive services at $0 out-of-pocket when you see a provider who accepts Medicare assignment.",
