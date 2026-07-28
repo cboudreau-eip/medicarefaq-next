@@ -8,9 +8,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import FAQSchema from "@/components/schema/FAQSchema";
-import ArticleSchema from "@/components/schema/ArticleSchema";
-import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 import {
   Clock,
   User,
@@ -351,33 +348,9 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
     }
   };
 
-  const BASE_URL = "https://www.medicarefaq.com";
-  const pageUrl = `${BASE_URL}/faqs/${article.slug}/`;
-
-  // Build FAQ schema items from article.faqs
-  const faqSchemaItems = (article.faqs || []).map((f) => ({ q: f.question, a: f.answer }));
 
   return (
     <main className="flex-1">
-      {/* ─── JSON-LD Schema ─── */}
-      <ArticleSchema
-        title={article.seo?.title || article.title}
-        description={article.seo?.description || article.subtitle}
-        url={pageUrl}
-        datePublished={article.dateUpdated}
-        dateModified={article.lastReviewed || article.dateUpdated}
-        authorName={article.author.name}
-        authorUrl="https://www.medicarefaq.com/about"
-        imageUrl={article.seo?.ogImage || undefined}
-      />
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: `${BASE_URL}/` },
-          { name: "FAQs", url: `${BASE_URL}/faqs/` },
-          { name: article.title },
-        ]}
-      />
-      {faqSchemaItems.length > 0 && <FAQSchema faqs={faqSchemaItems} />}
 
       {/* ─── Article Header ─── */}
       <section className="bg-[#1B2A4A] py-10 md:py-14">

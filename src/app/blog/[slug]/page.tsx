@@ -4,7 +4,50 @@ import SiteLayout from "@/components/SiteLayout";
 import BlogPostContent from "./BlogPostContent";
 import { blogArticles } from "@/lib/blog-articles-data";
 
-const BASE_URL = "https://medicarefaq-next-nine.vercel.app";
+const BASE_URL = "https://www.medicarefaq.com";
+
+/* ─── Author URL lookup ─── */
+const AUTHOR_URLS: Record<string, string> = {
+  "David Haass": `${BASE_URL}/about-us`,
+  "Jagger Esch": `${BASE_URL}/about-us/jagger-esch`,
+  "Ashlee Zareczny": `${BASE_URL}/meet-the-editorial-team`,
+};
+
+const AUTHOR_TITLES: Record<string, string> = {
+  "David Haass": "Licensed Medicare Expert",
+  "Jagger Esch": "Licensed Insurance Agent",
+  "Ashlee Zareczny": "Compliance & Editorial Manager",
+};
+
+/* ─── Parse human-readable date to ISO 8601 ─── */
+function toISO(dateStr: string): string {
+  if (/^\d{4}-\d{2}-\d{2}/.test(dateStr)) return dateStr.slice(0, 10);
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr;
+  return d.toISOString().slice(0, 10);
+}
+
+/* ─── Shared Organization entity ─── */
+const ORGANIZATION = {
+  "@type": "Organization",
+  "@id": `${BASE_URL}/#organization`,
+  name: "MedicareFAQ",
+  url: BASE_URL,
+  logo: {
+    "@type": "ImageObject",
+    url: `${BASE_URL}/images/medicarefaq-logo.png`,
+    width: 600,
+    height: 60,
+  },
+  sameAs: [
+    "https://www.facebook.com/MedicareFAQ",
+    "https://www.youtube.com/@MedicareFAQ",
+    "https://www.linkedin.com/company/medicarefaq",
+  ],
+};
+
+/* ─── Default fallback image ─── */
+const DEFAULT_IMAGE = `${BASE_URL}/images/medicarefaq-cover.jpg`;
 
 /**
  * Generates static params for all blog article slugs.
@@ -30,13 +73,13 @@ export async function generateMetadata({
     title: article.seo?.title || article.title,
     description: article.seo?.description || article.excerpt,
     alternates: {
-      canonical: article.seo?.canonical || `https://www.medicarefaq.com/blog/${slug}/`,
+      canonical: article.seo?.canonical || `${BASE_URL}/blog/${slug}/`,
     },
     openGraph: {
       title: article.seo?.title || article.title,
       description: article.seo?.description || article.excerpt,
       type: "article",
-      url: article.seo?.canonical || `https://www.medicarefaq.com/blog/${slug}/`,
+      url: article.seo?.canonical || `${BASE_URL}/blog/${slug}/`,
       ...(article.seo?.ogImage
         ? { images: [{ url: article.seo.ogImage }] }
         : article.image
@@ -47,55 +90,63 @@ export async function generateMetadata({
 }
 
 /**
- * Build JSON-LD schemas for a blog article.
- * Injects Article, BreadcrumbList, and FAQPage (if FAQs present) schemas
- * into the static HTML so AI agents and crawlers can read them without JS.
+ * Build a single @graph JSON-LD for a blog article.
+ * Includes MedicalWebPage, Article, BreadcrumbList, FAQPage, Organization.
  */
 function buildBlogSchema(article: (typeof blogArticles)[0], slug: string) {
-  const pageUrl = `${BASE_URL}/blog/${slug}/`;
+  const pageUrl = article.seo?.canonical || `${BASE_URL}/blog/${slug}/`;
+  const datePublished = toISO(article.date);
+  const dateModified = toISO(article.dateUpdated || article.date);
+  const imageUrl = article.seo?.ogImage || article.image || DEFAULT_IMAGE;
 
-  const schemas: object[] = [
+  const graph: object[] = [
+    ORGANIZATION,
     {
-      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": `${BASE_URL}/#website`,
+      name: "MedicareFAQ",
+      url: BASE_URL,
+      publisher: { "@id": `${BASE_URL}/#organization` },
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": pageUrl,
+      url: pageUrl,
+      name: article.seo?.title || article.title,
+      isPartOf: { "@id": `${BASE_URL}/#website` },
+      lastReviewed: dateModified,
+    },
+    {
       "@type": "Article",
+      "@id": `${pageUrl}#article`,
+      mainEntityOfPage: { "@id": pageUrl },
       headline: article.seo?.title || article.title,
       description: article.seo?.description || article.excerpt,
       url: pageUrl,
-      datePublished: article.date,
-      dateModified: article.date,
+      datePublished,
+      dateModified,
+      image: { "@type": "ImageObject", url: imageUrl },
       author: {
         "@type": "Person",
         name: article.author,
+        url: AUTHOR_URLS[article.author] || `${BASE_URL}/about-us`,
+        jobTitle: AUTHOR_TITLES[article.author] || "Medicare Expert",
       },
       ...(article.reviewer
         ? {
             reviewedBy: {
               "@type": "Person",
               name: article.reviewer,
+              url: AUTHOR_URLS[article.reviewer] || `${BASE_URL}/meet-the-editorial-team`,
+              jobTitle: AUTHOR_TITLES[article.reviewer] || "Compliance Manager",
             },
           }
         : {}),
-      publisher: {
-        "@type": "Organization",
-        name: "MedicareFAQ",
-        url: BASE_URL,
-        logo: {
-          "@type": "ImageObject",
-          url: `${BASE_URL}/images/medicarefaq-logo.png`,
-        },
-      },
-      ...(article.seo?.ogImage || article.image
-        ? {
-            image: {
-              "@type": "ImageObject",
-              url: article.seo?.ogImage || article.image,
-            },
-          }
-        : {}),
+      publisher: { "@id": `${BASE_URL}/#organization` },
     },
     {
-      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
+      "@id": `${pageUrl}#breadcrumb`,
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: `${BASE_URL}/` },
         { "@type": "ListItem", position: 2, name: "Blog", item: `${BASE_URL}/blog/` },
@@ -106,9 +157,9 @@ function buildBlogSchema(article: (typeof blogArticles)[0], slug: string) {
 
   // Add FAQPage schema if the article has FAQ items
   if (article.faqs && article.faqs.length > 0) {
-    schemas.push({
-      "@context": "https://schema.org",
+    graph.push({
       "@type": "FAQPage",
+      "@id": `${pageUrl}#faq`,
       mainEntity: article.faqs.map((faq) => ({
         "@type": "Question",
         name: faq.question,
@@ -120,7 +171,7 @@ function buildBlogSchema(article: (typeof blogArticles)[0], slug: string) {
     });
   }
 
-  return schemas;
+  return { "@context": "https://schema.org", "@graph": graph };
 }
 
 export default async function BlogPostPage({
@@ -132,18 +183,22 @@ export default async function BlogPostPage({
   const article = blogArticles.find((a) => a.slug === slug);
   if (!article) notFound();
 
-  const schemas = buildBlogSchema(article, slug);
+  const schema = buildBlogSchema(article, slug);
 
-  // Combine auto-generated schema with any custom schema (additive)
-  const allSchemas = [...schemas, ...(article.customSchema || [])];
+  // Combine auto-generated @graph with any custom schema (additive, separate scripts)
+  const customSchemas = article.customSchema || [];
 
   return (
     <SiteLayout>
-      {allSchemas.map((schema, i) => (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      {customSchemas.map((cs: object, i: number) => (
         <script
-          key={i}
+          key={`custom-${i}`}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(cs) }}
         />
       ))}
       <BlogPostContent article={article} />

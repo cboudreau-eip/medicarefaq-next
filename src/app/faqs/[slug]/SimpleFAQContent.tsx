@@ -30,9 +30,6 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import type { SimpleFAQArticleData, BlogSectionContent } from "@/lib/article-types";
-import FAQSchema from "@/components/schema/FAQSchema";
-import ArticleSchema from "@/components/schema/ArticleSchema";
-import BreadcrumbSchema from "@/components/schema/BreadcrumbSchema";
 import { trackPhoneClick, trackCtaClick } from "@/lib/analytics";
 import { getAuthorPhoto } from "@/lib/authors";
 import ZipFormModal from "@/components/ZipFormModal";
@@ -344,12 +341,6 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
         .filter((s) => s.heading)
         .map((s, i) => ({ id: `section-${i}`, label: s.heading }));
 
-  // Extract FAQ items from richSections for schema
-  const faqSchemaItems = useRich
-    ? article.richSections!
-        .filter((s) => s.type === "faq")
-        .flatMap((s) => (s.faqs || []).map((f) => ({ q: f.question, a: f.answer })))
-    : [];
 
   // Scroll spy
   useEffect(() => {
@@ -377,29 +368,9 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
     }
   };
 
-  const pageUrl = `${BASE_URL}/faqs/${article.slug}/`;
 
   return (
     <main className="flex-1">
-      {/* ─── JSON-LD Schema ─── */}
-      <ArticleSchema
-        title={article.seo?.title || article.title}
-        description={article.seo?.description || article.summary}
-        url={pageUrl}
-        datePublished={article.datePublished || article.dateUpdated}
-        dateModified={article.dateUpdated}
-        authorName={article.author}
-        authorUrl={article.authorUrl ? `${BASE_URL}${article.authorUrl}` : undefined}
-        imageUrl={article.seo?.ogImage || undefined}
-      />
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: `${BASE_URL}/` },
-          { name: "FAQs", url: `${BASE_URL}/faqs/` },
-          { name: article.title },
-        ]}
-      />
-      {faqSchemaItems.length > 0 && <FAQSchema faqs={faqSchemaItems} />}
 
       {/* ─── Article Header ─── */}
       <section className="bg-[#1B2A4A] py-10 md:py-14">
