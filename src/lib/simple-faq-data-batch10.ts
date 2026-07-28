@@ -33,12 +33,12 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
       {
         type: 'paragraph',
         content:
-          'A hysterectomy is one of the most common surgical procedures performed on women in the United States, with roughly 600,000 performed each year. Whether you are facing a recommendation for this surgery due to fibroids, cancer, endometriosis, or another condition, understanding how Medicare handles the costs can help you plan ahead and avoid unexpected bills.',
+          'Yes, Medicare covers hysterectomy surgery when your doctor determines it is medically necessary. Medicare Part A pays for the inpatient hospital stay, while Part B covers surgeon fees and outpatient procedures. What you pay out of pocket depends on whether the surgery is performed inpatient or outpatient, and whether you carry supplemental coverage like a [Medigap plan](/faqs/plan-g/).',
       },
       {
         type: 'paragraph',
         content:
-          'The short answer is yes: Medicare does cover hysterectomy surgery when it is deemed medically necessary by your treating physician. However, the details of what you pay depend on whether the procedure is performed as an inpatient hospital stay or an outpatient surgery, and whether you have supplemental coverage like a [Medigap plan](/faqs/plan-g/) to help with cost-sharing.',
+          'A hysterectomy is one of the most common surgical procedures performed on women in the United States, with roughly 600,000 performed each year. Whether you are facing a recommendation due to fibroids, cancer, endometriosis, or another condition, this guide explains what qualifies for coverage, what each part of Medicare pays, and how to reduce your costs.',
       },
       {
         type: 'heading',
