@@ -261,7 +261,7 @@ export default function FloridaPageContent() {
           <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400 rounded-full blur-3xl" />
           <div className="absolute bottom-10 right-20 w-96 h-96 bg-teal-400 rounded-full blur-3xl" />
         </div>
-        <div className="container relative z-10">
+        <div className="container relative z-10 md:pl-[20%]">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6 flex-wrap">
             <Link href="/" className="hover:text-white transition-colors">
