@@ -82,60 +82,7 @@ export default function NotFound() {
               className="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl"
             />
           </div>
-          <span className="inline-block text-teal-400 font-bold text-sm tracking-widest uppercase mb-3">
-            404 — Page Not Found
-          </span>
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">
-            This page may have moved
-          </h1>
-          <p className="text-slate-300 text-lg mb-8">
-            Here are some helpful starting points, or search for what you need below.
-          </p>
 
-          {/* Search bar */}
-          <div ref={searchRef} className="relative max-w-xl mx-auto">
-            <form onSubmit={handleSubmit} className="relative">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400 pointer-events-none" />
-              <input
-                type="text"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                onFocus={() => results.length > 0 && setShowDropdown(true)}
-                placeholder="Search Medicare topics..."
-                className="w-full pl-12 pr-4 py-4 rounded-xl text-slate-900 text-base focus:outline-none focus:ring-2 focus:ring-teal-400"
-              />
-            </form>
-            {showDropdown && (
-              <div className="absolute top-full mt-1 left-0 right-0 bg-white rounded-xl shadow-xl border border-slate-200 z-50 overflow-hidden">
-                {results.map((result, i) => (
-                  <Link
-                    key={i}
-                    href={result.href}
-                    className="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 border-b border-slate-100 last:border-0 text-left"
-                    onClick={() => setShowDropdown(false)}
-                  >
-                    <div className="flex-1 min-w-0">
-                      <div className="text-sm font-semibold text-slate-800 truncate">
-                        {result.title}
-                      </div>
-                      {result.description && (
-                        <div className="text-xs text-slate-500 truncate mt-0.5">
-                          {result.description}
-                        </div>
-                      )}
-                    </div>
-                    <ArrowRight className="w-4 h-4 text-slate-400 shrink-0" />
-                  </Link>
-                ))}
-                <Link
-                  href={`/search?q=${encodeURIComponent(query.trim())}`}
-                  className="flex items-center justify-center gap-2 px-4 py-3 bg-slate-50 text-teal-600 text-sm font-semibold hover:bg-slate-100"
-                >
-                  See all results for &ldquo;{query}&rdquo; <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-            )}
-          </div>
         </div>
       </div>
 
