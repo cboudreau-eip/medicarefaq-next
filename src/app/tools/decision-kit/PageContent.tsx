@@ -15,7 +15,7 @@ export default function DecisionKitPage() {
   const [error, setError] = useState(false);
 
   const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  const isFormValid = month && day && year && year.length === 4 && isEmailValid;
+  const isFormValid = month && day && year && year.length === 4 && isEmailValid && firstName.trim().length > 0;
 
   const handleGenerate = async () => {
     if (!isFormValid) return;
@@ -30,7 +30,7 @@ export default function DecisionKitPage() {
           month: parseInt(month),
           day: parseInt(day),
           year: parseInt(year),
-          firstName: firstName || undefined,
+          firstName,
           email,
         }),
       });
@@ -120,7 +120,7 @@ export default function DecisionKitPage() {
               <div className="space-y-4">
                 <div>
                   <label className="text-sm font-medium text-slate-700 mb-1.5 block">
-                    First Name <span className="text-slate-400 font-normal">(optional)</span>
+                    First Name <span className="text-red-500">*</span>
                   </label>
                   <input
                     type="text"
