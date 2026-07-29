@@ -9999,6 +9999,7 @@ export const blogArticles: BlogArticleData[] = [
       ]},
     ],
     showInlineCta: true,
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19571964-why-two-medigap-plan-g-policies-can-cost-completely-different-amounts.mp3?download=true",
     relatedSlugs: ["finding-your-best-medigap-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "how-the-medigap-free-look-period-protects-you", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
   },
 ];
