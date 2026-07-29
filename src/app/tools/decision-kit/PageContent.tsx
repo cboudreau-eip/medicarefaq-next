@@ -9,11 +9,13 @@ export default function DecisionKitPage() {
   const [day, setDay] = useState("");
   const [year, setYear] = useState("");
   const [firstName, setFirstName] = useState("");
+  const [email, setEmail] = useState("");
   const [generated, setGenerated] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
-  const isFormValid = month && day && year && year.length === 4;
+  const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const isFormValid = month && day && year && year.length === 4 && isEmailValid;
 
   const handleGenerate = async () => {
     if (!isFormValid) return;
@@ -29,6 +31,7 @@ export default function DecisionKitPage() {
           day: parseInt(day),
           year: parseInt(year),
           firstName: firstName || undefined,
+          email,
         }),
       });
 
@@ -117,7 +120,7 @@ export default function DecisionKitPage() {
               <div className="space-y-4">
                 <div>
                   <label className="text-sm font-medium text-slate-700 mb-1.5 block">
-                    First Name (optional)
+                    First Name <span className="text-slate-400 font-normal">(optional)</span>
                   </label>
                   <input
                     type="text"
@@ -126,6 +129,24 @@ export default function DecisionKitPage() {
                     onChange={(e) => setFirstName(e.target.value)}
                     className="w-full h-11 px-3 rounded-md border border-slate-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                   />
+                </div>
+
+                <div>
+                  <label className="text-sm font-medium text-slate-700 mb-1.5 block">
+                    Email Address <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="e.g. john@example.com"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    className={`w-full h-11 px-3 rounded-md border text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-teal-500 ${
+                      email && !isEmailValid ? "border-red-400" : "border-slate-300"
+                    }`}
+                  />
+                  {email && !isEmailValid && (
+                    <p className="text-xs text-red-500 mt-1">Please enter a valid email address.</p>
+                  )}
                 </div>
 
                 <div>

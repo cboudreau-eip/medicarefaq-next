@@ -64,7 +64,7 @@ function formatMonthYear(date: Date): string {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { firstName = "", month, day, year } = body;
+    const { firstName = "", email = "", month, day, year } = body;
 
     // Validate inputs
     if (!month || !day || !year || month < 1 || month > 12 || day < 1 || day > 31 || year < 1940 || year > 1975) {
@@ -187,6 +187,7 @@ export async function POST(request: NextRequest) {
     // Send email notification (fire-and-forget)
     sendDecisionKitNotification({
       firstName: firstName || "Not provided",
+      email: email || "Not provided",
       dob: formatDate(dob),
       birthday65: formatDate(dates.birthday65),
       iepStart: formatDate(dates.iepStart),
@@ -213,6 +214,7 @@ export async function POST(request: NextRequest) {
 
 async function sendDecisionKitNotification(data: {
   firstName: string;
+  email: string;
   dob: string;
   birthday65: string;
   iepStart: string;
@@ -237,6 +239,10 @@ async function sendDecisionKitNotification(data: {
             <td style="padding: 8px 12px; color: #1e293b;">${data.firstName}</td>
           </tr>
           <tr style="background: #f8fafc;">
+            <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Email</td>
+            <td style="padding: 8px 12px; color: #1e293b;">${data.email}</td>
+          </tr>
+          <tr>
             <td style="padding: 8px 12px; font-weight: 600; color: #475569;">Date of Birth</td>
             <td style="padding: 8px 12px; color: #1e293b;">${data.dob}</td>
           </tr>
