@@ -15,6 +15,7 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "psa",
     seo: {
+      focusKeyword: "",
       title: "Why Plan G Prices Vary by Carrier | MedicareFAQ",
       description: "Same Plan G benefits, different prices. Learn why Medigap Plan G premiums vary by insurer and how to compare rates before you enroll.",
       canonical: "https://www.medicarefaq.com/blog/psa/",
@@ -72,6 +73,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "If you'd like help comparing Plan G options available where you live, you can speak with a **licensed Medicare agent** who can walk through rating methods, rate histories, and carrier options based on your specific situation." },
     ],
     relatedSlugs: ["medicare-plan-g-pros-and-cons", "how-to-sign-up-for-medicare", "california-birthday-rule"],
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19571964-why-two-medigap-plan-g-policies-can-cost-completely-different-amounts.mp3?download=true",
   },
 
 {
