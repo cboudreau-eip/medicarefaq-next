@@ -9948,7 +9948,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "Other Reasons Premiums Differ Between Companies", id: "other-factors" },
       { type: "paragraph", content: "Rating method explains a lot, but not everything. Insurers also factor in their own claims experience, administrative costs, profit margins, and how aggressively they want to grow in your state." },
       { type: "paragraph", content: "A company with a large, healthy pool of policyholders in your area may price more competitively than a smaller carrier still building its book of business. Household discounts, payment method discounts, and underwriting practices at the time you applied can also shift your rate." },
-      { type: "steps", items: [
+      { type: "list", items: [
         "Company size and claims pool: larger, more stable pools tend to have steadier pricing",
         "Household or multi-policy discounts: some insurers reduce premiums when a spouse also enrolls",
         "Underwriting timing: rates locked in during open enrollment vs. later medical underwriting can differ",
@@ -9970,7 +9970,7 @@ export const blogArticles: BlogArticleData[] = [
       { type: "callout", calloutType: "info", calloutTitle: "Medical Underwriting After Your First Six Months", calloutText: "Your Medigap Open Enrollment Period lasts six months starting the month you are 65 and enrolled in Part B. After that window closes, switching to a different Plan G carrier usually requires medical underwriting, and a health condition could mean denial or a higher rate." },
       { type: "heading", level: 2, text: "How to Compare Plan G Quotes the Right Way", id: "how-to-compare" },
       { type: "paragraph", content: "A fair comparison looks at more than the monthly number on the quote sheet. Since coverage is identical, your job is to evaluate the company behind the policy, not the benefits." },
-      { type: "steps", items: [
+      { type: "list", items: [
         "Confirm the rating method used by each carrier you are considering",
         "Request rate history for the specific plan over the last three to five years",
         "Check financial strength ratings from independent agencies like AM Best",
