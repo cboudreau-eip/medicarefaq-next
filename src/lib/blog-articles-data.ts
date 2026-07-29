@@ -9922,7 +9922,7 @@ export const blogArticles: BlogArticleData[] = [
       "Attained-age policies may look cheaper at 65 but can become more expensive than community-rated plans by your mid-70s",
       "Requesting a carrier rate increase history and comparing during your Medigap Open Enrollment Period can help you avoid overpaying",
     ],
-    richSections: [
+    sections: [
       { type: "paragraph", content: "A woman in Ohio pays $118 a month for Medigap Plan G. Her neighbor, same age, same zip code, pays $189 for the exact same plan letter. Both policies cover the identical benefits required by federal law, yet one costs 60% more than the other for no medical reason at all." },
       { type: "paragraph", content: "This price gap surprises a lot of people shopping for [Medicare Supplement coverage](/medicare-supplement-plans/) for the first time. Plan G is Plan G no matter which company sells it, since benefits are standardized by the federal government. What is not standardized is the price, and that difference comes down to how each insurance company sets its rates." },
       { type: "callout", calloutType: "info", calloutTitle: "Why Standardization Does Not Mean Same Price", calloutText: "Medicare requires that Plan G cover the same benefits regardless of insurer. Pricing, however, is set independently by each company based on their own rating method, claims history, and business strategy. That is why identical coverage can carry very different price tags." },
