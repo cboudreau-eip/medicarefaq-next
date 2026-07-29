@@ -77,7 +77,7 @@ export default function NotFound() {
           <span className="inline-block text-teal-400 font-bold text-sm tracking-widest uppercase mb-3">
             404 — Page Not Found
           </span>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4">
             This page may have moved
           </h1>
           <p className="text-slate-300 text-lg mb-8">
