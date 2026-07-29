@@ -9898,8 +9898,6 @@ export const blogArticles: BlogArticleData[] = [
     showInlineCta: true,
     relatedSlugs: ["medicare-costs-2026", "how-is-medicare-part-d-changing-in-2026", "what-is-a-medicare-supplement-plan-and-who-needs-one", "your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicares-skilled-nursing-care"],
   },
-];
-
   {
     slug: "why-two-medigap-plan-g-policies-cost-different-amounts",
     seo: {
@@ -10003,3 +10001,4 @@ export const blogArticles: BlogArticleData[] = [
     showInlineCta: true,
     relatedSlugs: ["finding-your-best-medigap-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "how-the-medigap-free-look-period-protects-you", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
   },
+];
