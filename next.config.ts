@@ -194,6 +194,8 @@ const nextConfig: NextConfig = {
 
       // ── Blog article slug updates ──
       { source: "/blog/new-in-2025-medicares-part-d-payment-plan-explained", destination: "/blog/medicare-part-d-payment-plan-2026", permanent: true },
+      { source: "/blog/psa", destination: "/blog/why-two-medigap-plan-g-policies-cost-different-amounts", permanent: true },
+      { source: "/blog/psa/", destination: "/blog/why-two-medigap-plan-g-policies-cost-different-amounts/", permanent: true },
     ];
   },
   async headers() {
