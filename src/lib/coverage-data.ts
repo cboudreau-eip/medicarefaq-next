@@ -10987,231 +10987,333 @@ export const coverageArticles: CoverageArticleData[] = [
 
   // ─── Does Medicare Cover Medical Alert Systems ──────────────────────────────
   {
-    slug: "does-medicare-cover-medical-alert-systems",
-    seo: {
-      focusKeyword: "life alert cost covered by medicare",
-      title: "Life Alert & Medical Alert Systems: Cost + Medicare Coverage (2026)",
-      description: "Life Alert costs $49.95 to $89.85/mo. Medicare does not cover it, but some MA plans do. Compare costs for 6 top systems and find coverage options.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "Life Alert & Medical Alert Systems: Cost + Medicare Coverage",
-    subtitle: "Life Alert costs $49.95 to $89.85 per month. Original Medicare does not cover it, but some Medicare Advantage plans include medical alert devices as supplemental benefits. Compare costs for 6 top systems and learn how to find coverage.",
-    category: "Medicare Coverage",
-    dateUpdated: "July 13, 2026",
-    lastReviewed: "2026-07-13",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "Author",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
-    },
-    readTime: "8 min read",
-    quickAnswer: {
-      text: "No, Original Medicare does not cover Life Alert or medical alert systems. Life Alert costs $49.95 to $89.85 per month with a 3-year contract. Other providers like Medical Guardian ($27.95 to $39.95/mo) and Bay Alarm Medical ($24.95 to $34.95/mo) offer similar monitoring without long-term contracts. Some Medicare Advantage plans include medical alert devices as supplemental benefits at no extra cost. If your plan does not include this benefit, you pay the full cost out of pocket.",
-      badges: [
-        { plan: "Original Medicare", status: "not-covered" },
-        { plan: "Medicare Advantage", status: "partial" },
-        { plan: "Medigap", status: "not-covered" }],
-    },
-    comparisonTable: [
-      { planType: "Medicare Part B (Outpatient)", coverage: "Not Covered", icon: "x", notes: "Classified as a convenience item, not medically necessary DME" },
-      { planType: "Medicare Part A (Inpatient)", coverage: "Not Covered", icon: "x", notes: "Not applicable - medical alert systems are for home use" },
-      { planType: "Medicare Advantage (Part C)", coverage: "Sometimes", icon: "heart", notes: "Some plans include medical alert devices as supplemental benefits" },
-      { planType: "Medicare Supplement (Medigap)", coverage: "Not Covered", icon: "x", notes: "Medigap only covers what Original Medicare covers - not medical alert systems" }],
-    planBreakdowns: [
-      {
-        planName: "Original Medicare (Part a & B)",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Not Covered",
-        coverageType: "not-covered",
-        statusBadge: "Not covered - classified as a convenience item",
-        paragraphs: [
-          "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers durable medical equipment (DME) under Part B when a doctor prescribes it for a medical condition. However, personal emergency response systems like Life Alert do not qualify as DME because Medicare classifies them as convenience items rather than medically necessary equipment.",
-          "The key distinction is that Medicare focuses on treating medical conditions. A medical alert button can summon help in an emergency, but it does not treat a medical condition - so it falls outside Medicare's coverage criteria. This applies to all types of personal emergency response systems, regardless of brand or features.",
-          "Since [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) only cover what Original Medicare covers, they also do not cover medical alert systems. If you have a Medigap plan, you will still pay the full cost of a medical alert device out of pocket."],
-        whatItCovers: [
-          "Durable medical equipment prescribed for medical conditions (walkers, wheelchairs, etc.)",
-          "Fall-related emergency services (ambulance, ER visit) - but not the alert device itself",
-          "Home health care following a fall or injury"],
-        whatItDoesntCover: [
-          "Life Alert and all personal emergency response systems",
-          "Medical alert buttons, pendants, or wristbands",
-          "GPS tracking devices for seniors",
-          "Smartphone-based medical alert apps",
-          "Fall detection devices"],
-        costNote: "Medical alert systems are not covered by Original Medicare. You pay 100% of the cost out of pocket. Monthly fees typically range from $25 to $100 depending on the provider and features.",
-      },
-      {
-        planName: "Medicare Advantage (Part C)",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Sometimes Covered",
-        coverageType: "partial",
-        statusBadge: "Available as a supplemental benefit on some plans",
-        paragraphs: [
-          "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) can offer supplemental benefits beyond what Original Medicare covers, and some include medical alert systems as part of their wellness or safety programs. This benefit typically works in one of two ways: the plan provides a specific device at no extra cost, or it offers a monthly allowance you can apply toward a device of your choice.",
-          "Coverage varies significantly between plans and geographic areas. A plan in one state may offer comprehensive medical alert benefits, while a similar plan in another state may not include this benefit at all. You need to review each plan's Summary of Benefits to understand what supplemental services are offered."],
-        whatItCovers: [
-          "Medical alert device provided by the plan (on qualifying plans)",
-          "Monthly monitoring fee allowance (on qualifying plans)",
-          "GPS-enabled devices (on some plans)",
-          "Fall detection features (on some plans)"],
-        whatItDoesntCover: [
-          "Medical alert systems on plans that don't include this supplemental benefit",
-          "Upgrades beyond the plan's allowance"],
-        callout: {
-          type: "tip",
-          title: "Shop for Plans with Medical Alert Benefits during Enrollment",
-          text: "If a medical alert system is important to you, look for Medicare Advantage plans that include it as a supplemental benefit during the Annual Enrollment Period (October 15 – December 7). Use the Medicare Plan Finder at medicare.gov to filter for plans with this benefit.",
-        },
-      },
-      {
-        planName: "Medicare Supplement (Medigap)",
-        icon: "users",
-        iconColor: "#7C3AED",
-        coverageLabel: "Not Covered",
-        coverageType: "not-covered",
-        statusBadge: "Not covered - Medigap follows Original Medicare",
-        paragraphs: [
-          "Medigap plans are designed to cover the out-of-pocket costs that Original Medicare leaves behind - such as deductibles and coinsurance. Because Original Medicare does not cover medical alert systems, Medigap plans do not cover them either.",
-          "If you have a Medigap plan and want a medical alert system, you will need to pay for it out of pocket or look into other assistance programs such as veterans' benefits or state assistance programs."],
-        whatItCovers: [
-          "Part B coinsurance for covered services (not medical alert systems)",
-          "Part A deductible and coinsurance",
-          "Emergency care costs after a fall (ER visit, ambulance) - but not the alert device"],
-        whatItDoesntCover: [
-          "Medical alert devices or monitoring fees",
-          "Any service not covered by Original Medicare"],
-        costNote: "Medigap does not cover medical alert systems. However, if you fall and need emergency care, Medigap can cover the resulting ER visit, ambulance, or hospital costs that Original Medicare doesn't fully pay.",
-      }],
-    costTable: {
-      title: "Medical Alert System Costs Compared (2026 Pricing)",
-      headers: ["Provider", "Monthly Fee", "Setup/Activation Fee", "Contract Required?", "Key Features"],
-      rows: [
-        {
-          "Provider": "Life Alert",
-          "Monthly Fee": "$49.95–$89.85",
-          "Setup/Activation Fee": "$95–$198",
-          "Contract Required?": "Yes (3 years)",
-          "Key Features": "24/7 monitoring, GPS pendant, wall-mounted button, medication reminders",
-        },
-        {
-          "Provider": "Medical Guardian",
-          "Monthly Fee": "$27.95–$39.95",
-          "Setup/Activation Fee": "$0 (equipment from $149.95)",
-          "Contract Required?": "No",
-          "Key Features": "Fall detection, mobile GPS, caregiver app, smartwatch option",
-        },
-        {
-          "Provider": "Bay Alarm Medical",
-          "Monthly Fee": "$24.95–$34.95",
-          "Setup/Activation Fee": "$0",
-          "Contract Required?": "No",
-          "Key Features": "In-home and mobile systems, fall detection add-on ($10/mo), 30-day trial",
-        },
-        {
-          "Provider": "Philips Lifeline (now Lively Home)",
-          "Monthly Fee": "$29.95–$49.95",
-          "Setup/Activation Fee": "$99.95",
-          "Contract Required?": "No",
-          "Key Features": "AutoAlert fall detection, home and mobile systems, medication dispensers",
-        },
-        {
-          "Provider": "Lively (formerly GreatCall)",
-          "Monthly Fee": "$24.99–$49.99",
-          "Setup/Activation Fee": "$0 (device from $49.99)",
-          "Contract Required?": "No",
-          "Key Features": "Smartphone-based, urgent response, health and safety apps",
-        },
-        {
-          "Provider": "Smartphone Apps (Medical ID, Noonlight)",
-          "Monthly Fee": "$0–$10",
-          "Setup/Activation Fee": "$0",
-          "Contract Required?": "No",
-          "Key Features": "Fall detection, emergency contacts, GPS sharing, limited monitoring",
-        }],
-      footnote: "Prices verified as of July 2026. Original Medicare does not cover any of these costs. Some Medicare Advantage plans cover part or all of the monthly fee as a supplemental benefit. Fall detection typically adds $5 to $10/month where not included.",
-    },
-    exceptionsSection: {
-      title: "Alternatives to Medicare Coverage for Medical Alert Systems",
-      items: [
-        {
-          title: "Veterans' Benefits (VA)",
-          text: "If you are a veteran, the U.S. Department of Veterans Affairs (VA) may provide medical alert systems or personal emergency response devices as part of your VA benefits. Contact your VA healthcare provider or local VA office to find out what assistive technology benefits are available to you.",
-          highlight: "Veterans may be eligible for medical alert devices through the VA at no cost. This is separate from Medicare and does not require Medicare coverage.",
-        },
-        {
-          title: "State and Local Assistance Programs",
-          text: "Many states and local Area Agencies on Aging offer subsidized or free medical alert systems for low-income seniors. Contact your local Area Agency on Aging (find yours at eldercare.acl.gov) to ask about available programs in your area. Some Medicaid programs also cover personal emergency response systems for qualifying beneficiaries.",
-        }],
-    },
-    faqs: [
-      {
-        question: "Does Medicare Cover Life Alert?",
-        answer: "No. Original Medicare does not cover Life Alert or any personal emergency response system. Medicare classifies these devices as convenience items rather than medically necessary durable medical equipment. Some Medicare Advantage plans may include Life Alert or similar devices as a supplemental benefit - check your plan's Summary of Benefits.",
-      },
-      {
-        question: "Does Medicare Advantage Cover Medical Alert Systems?",
-        answer: "Some Medicare Advantage plans include medical alert systems as a supplemental benefit, either providing a device at no cost or offering a monthly allowance. Coverage varies significantly by plan and location. Review your plan's Summary of Benefits or call member services to find out if your plan includes this benefit.",
-      },
-      {
-        question: "How Much Does Life Alert Cost Per Month in 2026?",
-        answer: "Life Alert costs $49.95 per month for the basic in-home system. Adding the GPS mobile unit costs an additional $20/month, and the wall-mounted button adds another $20/month. Most customers pay between $69.95 and $89.85 per month for a full package. Life Alert also charges a one-time activation fee of $95 to $198 and requires a 3-year contract. This is significantly more expensive than competitors like Bay Alarm Medical ($24.95/mo, no contract) or Medical Guardian ($27.95/mo, no contract).",
-      },
-      {
-        question: "What Is the Cheapest Medical Alert System for Seniors?",
-        answer: "Bay Alarm Medical is one of the most affordable monitored medical alert systems at $24.95 per month with no activation fee and no long-term contract. Lively (formerly GreatCall) starts at $24.99 per month. Free smartphone apps like Medical ID and Noonlight offer basic emergency features but lack 24/7 professional monitoring. If you have a Medicare Advantage plan, check whether it includes a medical alert device as a supplemental benefit at no extra cost.",
-      },
-      {
-        question: "Is Life Alert Worth the Cost Compared to Other Systems?",
-        answer: "Life Alert is one of the most expensive medical alert systems on the market. At $49.95 to $89.85 per month with a 3-year contract, it costs roughly double what competitors charge for similar features. Medical Guardian, Bay Alarm Medical, and Philips Lifeline all offer 24/7 monitoring, fall detection, and GPS tracking at lower monthly rates without requiring long-term contracts. Life Alert does have strong brand recognition and a long track record, but the features are comparable across providers.",
-      },
-      {
-        question: "Does Medicare Cover Fall Detection Devices?",
-        answer: "No. Original Medicare does not cover fall detection devices. These are classified as convenience items, not medically necessary equipment. Some Medicare Advantage plans may include fall detection as part of a medical alert system benefit.",
-      },
-      {
-        question: "Can Veterans Get a Free Medical Alert System?",
-        answer: "Yes. The U.S. Department of Veterans Affairs (VA) may provide medical alert systems or personal emergency response devices as part of VA benefits for eligible veterans. Contact your VA healthcare provider or local VA office to find out what assistive technology benefits are available to you.",
-      },
-      {
-        question: "Does Medicaid Cover Medical Alert Systems?",
-        answer: "Medicaid may cover personal emergency response systems for qualifying low-income beneficiaries through state waiver programs. Coverage varies by state. Contact your state Medicaid office or case manager to find out if this benefit is available in your area.",
-      }],
-    quickReference: [
-      { icon: "x", text: "<strong>Original Medicare</strong> does NOT cover Life Alert or medical alert systems" },
-      { icon: "x", text: "<strong>Medigap</strong> does not cover medical alert systems (follows Original Medicare)" },
-      { icon: "alert", text: "Some <strong>Medicare Advantage plans</strong> include medical alert devices as supplemental benefits" },
-      { icon: "dollar", text: "<strong>Life Alert</strong> costs $49.95 to $89.85/month with a 3-year contract" },
-      { icon: "dollar", text: "<strong>Alternatives</strong> start at $24.95/month with no contract (Bay Alarm Medical, Medical Guardian)" },
-      { icon: "info", text: "<strong>Veterans</strong> may be eligible for free medical alert devices through VA benefits" },
-      { icon: "info", text: "State programs and <strong>Area Agencies on Aging</strong> may offer subsidized devices for low-income seniors" }],
-    relatedTopics: [
-      { title: "Does Medicare Cover Durable Medical Equipment?", description: "Learn what types of durable medical equipment Medicare covers and how to qualify.", slug: "does-medicare-cover-durable-medical-equipment" },
-      { title: "Medicare Advantage Extra Benefits", description: "Explore the supplemental benefits Medicare Advantage plans offer beyond Original Medicare.", slug: "medicare-advantage-extra-benefits-explained-whats-really-included" },
-      { title: "Does Medicare Cover Home Health Care?", description: "Find out what Medicare covers for home health aide services and skilled nursing at home.", slug: "does-medicare-cover-home-health-care" },
-      { title: "Does Medicare Cover Wheelchairs and Scooters?", description: "Learn how Medicare covers power wheelchairs, manual wheelchairs, and mobility scooters.", slug: "medicare-coverage-for-wheelchairs-and-scooters" },
-    
-      { title: "Does Medicare Cover Life Alert and Medical Alert Systems?", description: "Learn whether Medicare covers Life Alert and other personal emergency response systems.", slug: "does-medicare-cover-life-alert" }],
-    sidebarRelatedLinks: [
-      "Does Medicare Cover Durable Medical Equipment",
-      "Medicare Advantage Extra Benefits",
-      "Does Medicare Cover Home Health Care",
-      "Does Medicare Cover Wheelchairs and Scooters"],
-    ctaBanner: {
-      title: "Want a Medicare Plan that Covers More?",
-      text: "Some Medicare Advantage plans include medical alert systems, dental, vision, and other benefits that Original Medicare doesn't cover. Our licensed agents can help you compare plans in your area for free.",
-    },
-    relatedSlugs: ["does-medicare-cover-durable-medical-equipment", "medicare-advantage-extra-benefits-explained-whats-really-included", "does-medicare-cover-home-health-care", "medicare-coverage-for-wheelchairs-and-scooters", "does-medicare-cover-life-alert", "medical-rides", "medicare-coverage-for-amyotrophic-lateral-sclerosis-als", "medicare-coverage-for-lung-transplants"],
+  slug: "does-medicare-cover-medical-alert-systems",
+  seo: {
+    title: "Life Alert Cost: Is it Covered by Medicare? (2026 Guide)",
+    description: "Does Medicare cover Life Alert? Original Medicare typically doesn't, but some Medicare Advantage plans might. Discover costs and coverage options. ",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-medical-alert-systems/",
+    ogImage: "/images/medicarefaq-cover.jpg",
+    focusKeyword: "life alert cost covered by medicare",
   },
+  title: "Life Alert & Medical Alert Systems: Cost + Medicare Coverage",
+  subtitle: "Life Alert costs $49.95 to $89.85 per month. Original Medicare does not cover it, but some Medicare Advantage plans include medical alert devices as supplemental benefits. Compare costs for 6 top systems and learn how to find coverage.",
+  category: "Medicare Coverage",
+  dateUpdated: "July 13, 2026",
+  lastReviewed: "2026-07-13",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "Author",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent in all 50 states dedicated to educating those eligible for Medicare. She trains agents on CMS compliance guidelines.",
+  },
+  readTime: "8 min read",
+  quickAnswer: {
+    text: "No, Original Medicare does not cover Life Alert or medical alert systems. Life Alert costs $49.95 to $89.85 per month with a 3-year contract. Other providers like Medical Guardian ($27.95 to $39.95/mo) and Bay Alarm Medical ($24.95 to $34.95/mo) offer similar monitoring without long-term contracts. Some Medicare Advantage plans include medical alert devices as supplemental benefits at no extra cost. If your plan does not include this benefit, you pay the full cost out of pocket.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "not-covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Medicare Part B (Outpatient)",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Classified as a convenience item, not medically necessary DME",
+    },
+    {
+      planType: "Medicare Part A (Inpatient)",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Not applicable - medical alert systems are for home use",
+    },
+    {
+      planType: "Medicare Advantage (Part C)",
+      coverage: "Sometimes",
+      icon: "heart",
+      notes: "Some plans include medical alert devices as supplemental benefits",
+    },
+    {
+      planType: "Medicare Supplement (Medigap)",
+      coverage: "Not Covered",
+      icon: "x",
+      notes: "Medigap only covers what Original Medicare covers - not medical alert systems",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Original Medicare (Part a & B)",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Not Covered",
+      coverageType: "not-covered",
+      statusBadge: "Not covered - classified as a convenience item",
+      paragraphs: [
+      "[Original Medicare](/blog/medicare-parts-a-b-c-and-d-explained-simply) covers durable medical equipment (DME) under Part B when a doctor prescribes it for a medical condition. However, personal emergency response systems like Life Alert do not qualify as DME because Medicare classifies them as convenience items rather than medically necessary equipment.",
+      "The key distinction is that Medicare focuses on treating medical conditions. A medical alert button can summon help in an emergency, but it does not treat a medical condition - so it falls outside Medicare's coverage criteria. This applies to all types of personal emergency response systems, regardless of brand or features.",
+      "Since [Medigap plans](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) only cover what Original Medicare covers, they also do not cover medical alert systems. If you have a Medigap plan, you will still pay the full cost of a medical alert device out of pocket.",
+    ],
+      whatItCovers: [
+      "Durable medical equipment prescribed for medical conditions (walkers, wheelchairs, etc.)",
+      "Fall-related emergency services (ambulance, ER visit) - but not the alert device itself",
+      "Home health care following a fall or injury",
+    ],
+      whatItDoesntCover: [
+      "Life Alert and all personal emergency response systems",
+      "Medical alert buttons, pendants, or wristbands",
+      "GPS tracking devices for seniors",
+      "Smartphone-based medical alert apps",
+      "Fall detection devices",
+    ],
+      costNote: "Medical alert systems are not covered by Original Medicare. You pay 100% of the cost out of pocket. Monthly fees typically range from $25 to $100 depending on the provider and features.",
+    },
+    {
+      planName: "Medicare Advantage (Part C)",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Sometimes Covered",
+      coverageType: "partial",
+      statusBadge: "Available as a supplemental benefit on some plans",
+      paragraphs: [
+      "[Medicare Advantage plans](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) can offer supplemental benefits beyond what Original Medicare covers, and some include medical alert systems as part of their wellness or safety programs. This benefit typically works in one of two ways: the plan provides a specific device at no extra cost, or it offers a monthly allowance you can apply toward a device of your choice.",
+      "Coverage varies significantly between plans and geographic areas. A plan in one state may offer comprehensive medical alert benefits, while a similar plan in another state may not include this benefit at all. You need to review each plan's Summary of Benefits to understand what supplemental services are offered.",
+    ],
+      whatItCovers: [
+      "Medical alert device provided by the plan (on qualifying plans)",
+      "Monthly monitoring fee allowance (on qualifying plans)",
+      "GPS-enabled devices (on some plans)",
+      "Fall detection features (on some plans)",
+    ],
+      whatItDoesntCover: [
+      "Medical alert systems on plans that don't include this supplemental benefit",
+      "Upgrades beyond the plan's allowance",
+    ],
+      callout: {
+      type: "tip",
+      title: "Shop for Plans with Medical Alert Benefits during Enrollment",
+      text: "If a medical alert system is important to you, look for Medicare Advantage plans that include it as a supplemental benefit during the Annual Enrollment Period (October 15 – December 7). Use the Medicare Plan Finder at medicare.gov to filter for plans with this benefit.",
+    },
+    },
+    {
+      planName: "Medicare Supplement (Medigap)",
+      icon: "users",
+      iconColor: "#7C3AED",
+      coverageLabel: "Not Covered",
+      coverageType: "not-covered",
+      statusBadge: "Not covered - Medigap follows Original Medicare",
+      paragraphs: [
+      "Medigap plans are designed to cover the out-of-pocket costs that Original Medicare leaves behind - such as deductibles and coinsurance. Because Original Medicare does not cover medical alert systems, Medigap plans do not cover them either.",
+      "If you have a Medigap plan and want a medical alert system, you will need to pay for it out of pocket or look into other assistance programs such as veterans' benefits or state assistance programs.",
+    ],
+      whatItCovers: [
+      "Part B coinsurance for covered services (not medical alert systems)",
+      "Part A deductible and coinsurance",
+      "Emergency care costs after a fall (ER visit, ambulance) - but not the alert device",
+    ],
+      whatItDoesntCover: [
+      "Medical alert devices or monitoring fees",
+      "Any service not covered by Original Medicare",
+    ],
+      costNote: "Medigap does not cover medical alert systems. However, if you fall and need emergency care, Medigap can cover the resulting ER visit, ambulance, or hospital costs that Original Medicare doesn't fully pay.",
+    },
+  ],
+  costTable: {
+    title: "Medical Alert System Costs Compared (2026 Pricing)",
+    headers: [
+    "Provider",
+    "Monthly Fee",
+    "Setup/Activation Fee",
+    "Contract Required?",
+    "Key Features",
+  ],
+    rows: [
+      {
+        "Provider": "Life Alert",
+        "Monthly Fee": "$49.95–$89.85",
+        "Setup/Activation Fee": "$95–$198",
+        "Contract Required?": "Yes (3 years)",
+        "Key Features": "24/7 monitoring, GPS pendant, wall-mounted button, medication reminders",
+      },
+      {
+        "Provider": "Medical Guardian",
+        "Monthly Fee": "$27.95–$39.95",
+        "Setup/Activation Fee": "$0 (equipment from $149.95)",
+        "Contract Required?": "No",
+        "Key Features": "Fall detection, mobile GPS, caregiver app, smartwatch option",
+      },
+      {
+        "Provider": "Bay Alarm Medical",
+        "Monthly Fee": "$24.95–$34.95",
+        "Setup/Activation Fee": "$0",
+        "Contract Required?": "No",
+        "Key Features": "In-home and mobile systems, fall detection add-on ($10/mo), 30-day trial",
+      },
+      {
+        "Provider": "Philips Lifeline (now Lively Home)",
+        "Monthly Fee": "$29.95–$49.95",
+        "Setup/Activation Fee": "$99.95",
+        "Contract Required?": "No",
+        "Key Features": "AutoAlert fall detection, home and mobile systems, medication dispensers",
+      },
+      {
+        "Provider": "Lively (formerly GreatCall)",
+        "Monthly Fee": "$24.99–$49.99",
+        "Setup/Activation Fee": "$0 (device from $49.99)",
+        "Contract Required?": "No",
+        "Key Features": "Smartphone-based, urgent response, health and safety apps",
+      },
+      {
+        "Provider": "Smartphone Apps (Medical ID, Noonlight)",
+        "Monthly Fee": "$0–$10",
+        "Setup/Activation Fee": "$0",
+        "Contract Required?": "No",
+        "Key Features": "Fall detection, emergency contacts, GPS sharing, limited monitoring",
+      },
+    ],
+    footnote: "Prices verified as of July 2026. Original Medicare does not cover any of these costs. Some Medicare Advantage plans cover part or all of the monthly fee as a supplemental benefit. Fall detection typically adds $5 to $10/month where not included.",
+  },
+  exceptionsSection: {
+    title: "Alternatives to Medicare Coverage for Medical Alert Systems",
+    items: [
+      {
+        title: "Veterans' Benefits (VA)",
+        text: "If you are a veteran, the U.S. Department of Veterans Affairs (VA) may provide medical alert systems or personal emergency response devices as part of your VA benefits. Contact your VA healthcare provider or local VA office to find out what assistive technology benefits are available to you.",
+        highlight: "Veterans may be eligible for medical alert devices through the VA at no cost. This is separate from Medicare and does not require Medicare coverage.",
+      },
+      {
+        title: "State and Local Assistance Programs",
+        text: "Many states and local Area Agencies on Aging offer subsidized or free medical alert systems for low-income seniors. Contact your local Area Agency on Aging (find yours at eldercare.acl.gov) to ask about available programs in your area. Some Medicaid programs also cover personal emergency response systems for qualifying beneficiaries.",
+      },
+    ],
+  },
+  faqs: [
+    {
+      question: "Does Medicare Cover Life Alert?",
+      answer: "No. Original Medicare does not cover Life Alert or any personal emergency response system. Medicare classifies these devices as convenience items rather than medically necessary durable medical equipment. Some Medicare Advantage plans may include Life Alert or similar devices as a supplemental benefit - check your plan's Summary of Benefits.",
+    },
+    {
+      question: "Does Medicare Advantage Cover Medical Alert Systems?",
+      answer: "Some Medicare Advantage plans include medical alert systems as a supplemental benefit, either providing a device at no cost or offering a monthly allowance. Coverage varies significantly by plan and location. Review your plan's Summary of Benefits or call member services to find out if your plan includes this benefit.",
+    },
+    {
+      question: "How Much Does Life Alert Cost Per Month in 2026?",
+      answer: "Life Alert costs $49.95 per month for the basic in-home system. Adding the GPS mobile unit costs an additional $20/month, and the wall-mounted button adds another $20/month. Most customers pay between $69.95 and $89.85 per month for a full package. Life Alert also charges a one-time activation fee of $95 to $198 and requires a 3-year contract. This is significantly more expensive than competitors like Bay Alarm Medical ($24.95/mo, no contract) or Medical Guardian ($27.95/mo, no contract).",
+    },
+    {
+      question: "What Is the Cheapest Medical Alert System for Seniors?",
+      answer: "Bay Alarm Medical is one of the most affordable monitored medical alert systems at $24.95 per month with no activation fee and no long-term contract. Lively (formerly GreatCall) starts at $24.99 per month. Free smartphone apps like Medical ID and Noonlight offer basic emergency features but lack 24/7 professional monitoring. If you have a Medicare Advantage plan, check whether it includes a medical alert device as a supplemental benefit at no extra cost.",
+    },
+    {
+      question: "Is Life Alert Worth the Cost Compared to Other Systems?",
+      answer: "Life Alert is one of the most expensive medical alert systems on the market. At $49.95 to $89.85 per month with a 3-year contract, it costs roughly double what competitors charge for similar features. Medical Guardian, Bay Alarm Medical, and Philips Lifeline all offer 24/7 monitoring, fall detection, and GPS tracking at lower monthly rates without requiring long-term contracts. Life Alert does have strong brand recognition and a long track record, but the features are comparable across providers.",
+    },
+    {
+      question: "Does Medicare Cover Fall Detection Devices?",
+      answer: "No. Original Medicare does not cover fall detection devices. These are classified as convenience items, not medically necessary equipment. Some Medicare Advantage plans may include fall detection as part of a medical alert system benefit.",
+    },
+    {
+      question: "Can Veterans Get a Free Medical Alert System?",
+      answer: "Yes. The U.S. Department of Veterans Affairs (VA) may provide medical alert systems or personal emergency response devices as part of VA benefits for eligible veterans. Contact your VA healthcare provider or local VA office to find out what assistive technology benefits are available to you.",
+    },
+    {
+      question: "Does Medicaid Cover Medical Alert Systems?",
+      answer: "Medicaid may cover personal emergency response systems for qualifying low-income beneficiaries through state waiver programs. Coverage varies by state. Contact your state Medicaid office or case manager to find out if this benefit is available in your area.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "x",
+      text: "<strong>Original Medicare</strong> does NOT cover Life Alert or medical alert systems",
+    },
+    {
+      icon: "x",
+      text: "<strong>Medigap</strong> does not cover medical alert systems (follows Original Medicare)",
+    },
+    {
+      icon: "alert",
+      text: "Some <strong>Medicare Advantage plans</strong> include medical alert devices as supplemental benefits",
+    },
+    {
+      icon: "dollar",
+      text: "<strong>Life Alert</strong> costs $49.95 to $89.85/month with a 3-year contract",
+    },
+    {
+      icon: "dollar",
+      text: "<strong>Alternatives</strong> start at $24.95/month with no contract (Bay Alarm Medical, Medical Guardian)",
+    },
+    {
+      icon: "info",
+      text: "<strong>Veterans</strong> may be eligible for free medical alert devices through VA benefits",
+    },
+    {
+      icon: "info",
+      text: "State programs and <strong>Area Agencies on Aging</strong> may offer subsidized devices for low-income seniors",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Does Medicare Cover Durable Medical Equipment?",
+      description: "Learn what types of durable medical equipment Medicare covers and how to qualify.",
+      slug: "does-medicare-cover-durable-medical-equipment",
+    },
+    {
+      title: "Medicare Advantage Extra Benefits",
+      description: "Explore the supplemental benefits Medicare Advantage plans offer beyond Original Medicare.",
+      slug: "medicare-advantage-extra-benefits-explained-whats-really-included",
+    },
+    {
+      title: "Does Medicare Cover Home Health Care?",
+      description: "Find out what Medicare covers for home health aide services and skilled nursing at home.",
+      slug: "does-medicare-cover-home-health-care",
+    },
+    {
+      title: "Does Medicare Cover Wheelchairs and Scooters?",
+      description: "Learn how Medicare covers power wheelchairs, manual wheelchairs, and mobility scooters.",
+      slug: "medicare-coverage-for-wheelchairs-and-scooters",
+    },
+    {
+      title: "Does Medicare Cover Life Alert and Medical Alert Systems?",
+      description: "Learn whether Medicare covers Life Alert and other personal emergency response systems.",
+      slug: "does-medicare-cover-life-alert",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Does Medicare Cover Durable Medical Equipment",
+    "Medicare Advantage Extra Benefits",
+    "Does Medicare Cover Home Health Care",
+    "Does Medicare Cover Wheelchairs and Scooters",
+  ],
+  ctaBanner: {
+    title: "Want a Medicare Plan that Covers More?",
+    text: "Some Medicare Advantage plans include medical alert systems, dental, vision, and other benefits that Original Medicare doesn't cover. Our licensed agents can help you compare plans in your area for free.",
+  },
+  relatedSlugs: [
+    "does-medicare-cover-durable-medical-equipment",
+    "medicare-advantage-extra-benefits-explained-whats-really-included",
+    "does-medicare-cover-home-health-care",
+    "medicare-coverage-for-wheelchairs-and-scooters",
+    "does-medicare-cover-life-alert",
+    "medical-rides",
+    "medicare-coverage-for-amyotrophic-lateral-sclerosis-als",
+    "medicare-coverage-for-lung-transplants",
+  ],
+},
 
   // ─── Does Medicare Cover Medical Nutritional Therapy ────────────────────────
   {
