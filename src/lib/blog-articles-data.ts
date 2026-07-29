@@ -9915,6 +9915,14 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "7 min read",
     featured: false,
     image: "https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
+    tableOfContents: [
+      { id: "plan-g-standardized", title: "What Makes Plan G the Same Everywhere" },
+      { id: "rating-methods", title: "The Three Pricing Methods That Create Cost Gaps" },
+      { id: "other-factors", title: "Other Reasons Premiums Differ Between Companies" },
+      { id: "common-mistakes", title: "Common Mistakes When Comparing Medigap Quotes" },
+      { id: "how-to-compare", title: "How to Compare Plan G Quotes the Right Way" },
+      { id: "faq", title: "Frequently Asked Questions" },
+    ],
     keyTakeaways: [
       "Plan G benefits are standardized nationwide (except MA, MN, WI), so coverage is identical no matter which insurer sells it",
       "Only pricing varies between carriers, based on rating method, claims history, and business strategy",
