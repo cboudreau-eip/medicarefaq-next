@@ -73,7 +73,15 @@ export default function NotFound() {
     <SiteLayout>
       {/* Hero */}
       <div className="bg-navy-900 text-white py-16 px-4">
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* 404 Illustration */}
+          <div className="mb-8">
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/404-illustration-DV5EByQcy3DyPWqrUo69Av.webp"
+              alt="A senior at a crossroads with a 404 road sign"
+              className="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl"
+            />
+          </div>
           <span className="inline-block text-teal-400 font-bold text-sm tracking-widest uppercase mb-3">
             404 — Page Not Found
           </span>
