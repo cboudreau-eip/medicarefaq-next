@@ -24652,7 +24652,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "/images/medicarefaq-cover.jpg",
     },
     title: "Medicare Cards & Medicare Beneficiary Identifiers",
-    subtitle: "Your Medicare Beneficiary Identifier (MBI) is your unique Medicare ID number. It replaced Social Security Numbers on Medicare cards to protect against identity theft.",
+    subtitle: "Your Medicare Beneficiary Identifier (MBI) is your unique Medicare ID number. Also referred to as your MBI number, it replaced Social Security Numbers on Medicare cards to protect against identity theft.",
     category: "Medicare Basics",
     dateUpdated: "April 29, 2026",
     lastReviewed: "2026-05-18",
@@ -24854,7 +24854,7 @@ export const coverageArticles: CoverageArticleData[] = [
       },
       {
         question: "How do I Find My Medicare Number?",
-        answer: "Your Medicare number (MBI) is on your red, white, and blue Medicare card. You can also find it by logging into your Medicare.gov account or by calling 1-800-MEDICARE.",
+        answer: "Your MBI number is printed on your red, white, and blue Medicare card. You can also find your Medicare ID by logging into your Medicare.gov account or by calling 1-800-MEDICARE.",
       },
       {
         question: "Can I Get a New MBI if Mine is Compromised?",
