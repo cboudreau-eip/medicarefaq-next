@@ -228,6 +228,7 @@ export default function HeaderBar() {
         {/* Phone + CTA */}
         <div className="flex items-center gap-4">
           <a
+            id="callInNum"
             href="tel:+18883358996"  data-invoca-phone-number="18883358996"
             onClick={() =>
               trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "header" })
