@@ -17,7 +17,7 @@ export const coverageArticles: CoverageArticleData[] = [
     focusKeyword: "does medicare cover chemotherapy",
   },
   title: "Does Medicare Cover Chemotherapy and Cancer Drugs?",
-  subtitle: "Medicare covers most chemotherapy and cancer treatments, but your out-of-pocket costs depend on whether the drug is infused in a clinic (Part B) or taken orally at home (Part D). Here is what each plan type pays, what you owe, and how new negotiated drug prices are lowering costs for cancer patients.",
+  subtitle: "Does Medicare pay for cancer treatment? Yes. Medicare covers most chemotherapy and cancer drugs, but your out-of-pocket costs depend on whether the drug is infused in a clinic (Part B) or taken orally at home (Part D). Here is what each plan type pays, what chemo costs with Medicare, and how new negotiated drug prices are lowering costs for cancer patients.",
   category: "Medicare Coverage",
   dateUpdated: "July 17, 2026",
   lastReviewed: "2026-07-17",
@@ -60,7 +60,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Covered",
       coverageType: "covered",
       paragraphs: [
-        "Medicare Part B covers chemotherapy drugs, immunotherapy, and targeted therapy that are administered by a healthcare provider in an outpatient setting. This includes infusions given in your oncologist's office, hospital outpatient departments, and freestanding infusion centers. Part B also covers the administration itself, including the nursing time, supplies, and facility fees associated with your treatment.",
+        "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers chemotherapy drugs, immunotherapy, and targeted therapy that are administered by a healthcare provider in an outpatient setting. This includes infusions given in your oncologist's office, hospital outpatient departments, and freestanding infusion centers. Part B also covers the administration itself, including the nursing time, supplies, and facility fees associated with your treatment.",
         "Medicare reimburses providers for Part B drugs at the Average Sales Price (ASP) plus 6%. You pay 20% of the Medicare-approved amount after meeting your annual Part B deductible of $283 in 2026. There is no annual cap on Part B out-of-pocket costs under Original Medicare, which means a year of expensive infused cancer treatment could cost you thousands in coinsurance alone.",
       ],
       whatItCovers: [
@@ -91,7 +91,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Covered",
       coverageType: "covered",
       paragraphs: [
-        "Oral cancer drugs that you take at home are covered under Medicare Part D. These include oral chemotherapy agents, hormone therapies, and targeted oral medications for various cancers. Many newer cancer treatments are oral, including drugs for breast cancer (Ibrance, Kisqali, Verzenio), prostate cancer (Xtandi, Erleada), blood cancers (Imbruvica, Calquence), and multiple myeloma (Pomalyst).",
+        "Oral cancer drugs that you take at home are covered under [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d/). These include oral chemotherapy agents, hormone therapies, and targeted oral medications for various cancers. Many newer cancer treatments are oral, including drugs for breast cancer (Ibrance, Kisqali, Verzenio), prostate cancer (Xtandi, Erleada), blood cancers (Imbruvica, Calquence), and multiple myeloma (Pomalyst).",
         "Under Part D, oral cancer drugs are typically placed on Tier 4 (preferred specialty) or Tier 5 (non-preferred specialty), which carry the highest cost-sharing. However, the Inflation Reduction Act's $2,100 annual out-of-pocket cap means that no matter how expensive your oral cancer drug is, you will never pay more than $2,100 total for all Part D drugs in a calendar year. The Medicare Prescription Payment Plan (M3P) lets you spread this cost into monthly installments of approximately $175.",
       ],
       whatItCovers: [
@@ -148,8 +148,8 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Covers Part B Cost-Sharing",
       coverageType: "covered",
       paragraphs: [
-        "Medicare Supplement (Medigap) plans are specifically designed to cover the gaps in Original Medicare, including the 20% Part B coinsurance that makes infused cancer treatment so expensive. With a Medigap Plan G, for example, your only out-of-pocket cost for Part B cancer treatment is the $283 annual deductible. After that, Plan G pays 100% of the Medicare-approved coinsurance for all Part B services, including chemotherapy infusions, immunotherapy, radiation, and related lab work.",
-        "This is why many Medicare advisors recommend Medigap for beneficiaries with cancer or at high risk for cancer. The predictability of costs is unmatched: you pay your monthly Medigap premium plus the $283 deductible, and everything else is covered. There are no networks, no prior authorization requirements, and no risk of surprise bills from out-of-network providers. You can see any oncologist in the country who accepts Medicare.",
+        "[Medicare Supplement (Medigap) plans](/medicare-supplement-plans/) are specifically designed to cover the gaps in Original Medicare, including the 20% Part B coinsurance that makes infused cancer treatment so expensive. With a [Medigap Plan G](/medicare-supplement-plans/plan-g), for example, your only out-of-pocket cost for Part B cancer treatment is the $283 annual deductible. After that, Plan G pays 100% of the Medicare-approved coinsurance for all Part B services, including chemotherapy infusions, immunotherapy, radiation, and related lab work.",
+        "This is why many Medicare advisors recommend Medigap for beneficiaries with cancer or at high risk for cancer. The predictability of costs is unmatched: you pay your monthly Medigap premium plus the $283 deductible, and everything else is covered. There are no networks, no prior authorization requirements, and no risk of surprise bills from out-of-network providers. You can see any oncologist in the country who accepts Medicare. [Compare plans in your area](/find-plans/) to see what Medigap options are available.",
       ],
       whatItCovers: [
         "20% Part B coinsurance for all infused cancer drugs",
@@ -566,7 +566,7 @@ export const coverageArticles: CoverageArticleData[] = [
     focusKeyword: "Does Medicare Cover Hip Replacement Surgery",
   },
   title: "Does Medicare Cover Hip Replacement Surgery?",
-  subtitle: "Medicare covers hip replacement surgery when your doctor determines it is medically necessary. Whether your procedure is performed as an inpatient or outpatient determines which part of Medicare pays and what you owe. Here is what you need to know about costs, recovery coverage, and how to minimize your out-of-pocket expenses in 2026.",
+  subtitle: "How much does a hip replacement cost with Medicare? Medicare covers hip replacement surgery when your doctor determines it is medically necessary. Whether your procedure is performed as an inpatient or outpatient determines which part of Medicare pays and what you owe. Here is what you need to know about Medicare joint replacement coverage, recovery costs, and how to minimize your out-of-pocket expenses in 2026.",
   category: "Medicare Coverage",
   dateUpdated: "July 6, 2026",
   lastReviewed: "2026-07-06",
@@ -646,7 +646,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Covered",
       coverageType: "covered",
       paragraphs: [
-      "If your surgeon determines that your hip replacement requires an inpatient hospital stay, Medicare Part A covers the surgery, hospital room, nursing care, meals, medications administered during your stay, and any necessary lab work or imaging.",
+      "If your surgeon determines that your hip replacement requires an inpatient hospital stay, [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers the surgery, hospital room, nursing care, meals, medications administered during your stay, and any necessary lab work or imaging.",
       "In 2026, you pay the Part A deductible of $1,736 per benefit period. After that, you pay $0 coinsurance for days 1 through 60. If your stay extends beyond 60 days (rare for hip replacement), you pay $434 per day for days 61-90. Most inpatient hip replacements involve a 1-3 day hospital stay.",
       "There is no limit on the number of hip replacements Medicare will cover over your lifetime, as long as each is medically necessary. Medicare also covers a second opinion from another surgeon under Part B if you want one before proceeding.",
     ],
@@ -659,8 +659,8 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Covered",
       coverageType: "covered",
       paragraphs: [
-      "More than half of all hip replacements in the United States are now performed as outpatient procedures, meaning you go home the same day or within 23 hours. CMS removed total hip arthroplasty from the Inpatient-Only list in 2020, making outpatient hip replacement widely available.",
-      "Under Part B, you pay 20% of the Medicare-approved amount after meeting your $283 annual deductible. According to Medicare's Procedure Price Lookup tool, the average patient cost for outpatient total hip replacement (CPT 27130) is approximately $2,154 at an ambulatory surgical center and $1,927 at a hospital outpatient department.",
+      "More than half of all hip replacements in the United States are now performed as outpatient procedures, meaning you go home the same day or within 23 hours. CMS removed total hip arthroplasty from the Inpatient-Only list in 2020, making outpatient hip surgery under Medicare widely available.",
+      "Under [Part B](/original-medicare/medicare-parts/medicare-part-b/), you pay 20% of the Medicare-approved amount after meeting your $283 annual deductible. According to Medicare's Procedure Price Lookup tool, the average patient cost for outpatient total hip replacement (CPT 27130) is approximately $2,154 at an ambulatory surgical center and $1,927 at a hospital outpatient department.",
       "Your surgeon's fees, anesthesia, implant costs, and facility fees are all included in the Medicare-approved amount. You do not need a qualifying hospital stay to access outpatient rehabilitation services afterward.",
     ],
       costNote: "$ Cost: 20% coinsurance after $283 deductible. Average out-of-pocket: $1,927-$2,154.",
@@ -694,7 +694,7 @@ export const coverageArticles: CoverageArticleData[] = [
       paragraphs: [
       "A Medicare Supplement (Medigap) plan can dramatically reduce your out-of-pocket costs for hip replacement surgery. With Medigap Plan G, your maximum cost for an inpatient hip replacement is $283 (the Part B deductible) because Plan G covers the Part A deductible, all Part A coinsurance, and all Part B coinsurance.",
       "For an outpatient hip replacement, Plan G covers the 20% coinsurance, so you only pay the $283 Part B deductible instead of $1,927-$2,154. Plan G also covers SNF coinsurance for days 21-100, meaning your rehabilitation stay costs $0. There are no network restrictions with Medigap, so you can see any surgeon who accepts Medicare.",
-      "Compare this to Original Medicare alone, where an inpatient surgery costs $1,736 and outpatient costs $1,927-$2,154. For a comparison of how Medigap protects you during major medical events, see our guide on [how Medigap covers major surgery compared to Medicare Advantage](/faqs/how-medigap-covers-cancer-compared-to-ma).",
+      "Compare this to Original Medicare alone, where an inpatient surgery costs $1,736 and outpatient costs $1,927-$2,154. [Compare Medigap plans in your area](/find-plans/) to see what options are available. For a comparison of how Medigap protects you during major medical events, see our guide on [how Medigap covers major surgery compared to Medicare Advantage](/faqs/how-medigap-covers-cancer-compared-to-ma).",
     ],
       callout: {
       type: "tip",
@@ -1279,7 +1279,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "/images/medicarefaq-cover.jpg",
     },
     title: "Does Heart Failure Qualify for Medicare?",
-    subtitle: "Medicare covers heart failure treatment across all parts of the program. If you are already on Medicare, your plan covers hospitalizations, cardiac rehab, medications, and monitoring. If you are under 65, heart failure can also qualify you for early Medicare through Social Security Disability.",
+    subtitle: "Yes, Medicare covers congestive heart failure treatment across all parts of the program. If you are already on Medicare, your plan covers hospitalizations, cardiac rehab, heart disease medications, and remote monitoring. If you are under 65, heart failure can also qualify you for early Medicare through Social Security Disability.",
     category: "Medicare Coverage",
     dateUpdated: "July 2, 2026",
     lastReviewed: "2026-07-02",
@@ -1328,7 +1328,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         statusBadge: "Covers hospitalizations and devices",
         paragraphs: [
-          "Medicare Part A covers inpatient hospital stays for heart failure, including acute decompensated heart failure episodes that require emergency admission. Heart failure is one of the leading causes of hospital readmissions among Medicare beneficiaries, and Part A covers each benefit period regardless of how many times you are admitted.",
+          "[Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) covers inpatient hospital stays for heart failure, including acute decompensated heart failure episodes that require emergency admission. Heart failure is one of the leading causes of hospital readmissions among Medicare beneficiaries, and Part A covers each benefit period regardless of how many times you are admitted.",
           "During an inpatient stay, Part A covers your room, meals, nursing care, medications administered in the hospital, cardiac monitoring, and any procedures performed. This includes surgical implantation of devices such as [implantable cardioverter-defibrillators (ICDs)](/faqs/does-medicare-cover-an-echocardiogram) and left ventricular assist devices (LVADs) when medically necessary.",
           "Part A also covers up to 100 days in a skilled nursing facility (SNF) following a qualifying 3-day inpatient hospital stay. For heart failure patients who need cardiac rehabilitation or skilled nursing after discharge, this benefit provides continued monitoring and recovery support before returning home.",
         ],
@@ -1523,7 +1523,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "/images/medicarefaq-cover.jpg",
     },
     title: "Does Medicare Cover Assisted Living?",
-    subtitle: "No, Medicare does not cover assisted living. Medicare only covers medically necessary care — not custodial care like help with bathing, dressing, or daily activities. Learn what does pay for assisted living and what your options are.",
+    subtitle: "No, Medicare does not pay for assisted living or long-term care. Medicare only covers medically necessary care, not custodial care like help with bathing, dressing, or daily activities. Here is what actually pays for nursing home and assisted living costs and what your options are.",
     category: "Medicare Coverage",
     dateUpdated: "June 24, 2026",
     lastReviewed: "2026-06-24",
@@ -1598,7 +1598,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "[Medicare Advantage plans (Part C)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover everything Original Medicare covers, and many offer supplemental benefits that Original Medicare does not. However, no Medicare Advantage plan covers the room and board costs of assisted living — that remains entirely excluded.",
           "What some Medicare Advantage plans do offer are supplemental benefits that can reduce the burden of care at home or in a facility. These may include meal delivery after a hospital stay, non-emergency medical transportation, in-home support services, personal emergency response systems, and caregiver support programs. These benefits vary significantly by plan and ZIP code.",
-          "If you or a loved one is considering assisted living, it is worth reviewing the Evidence of Coverage for any Medicare Advantage plan to understand what supplemental benefits are included. A licensed Medicare agent can help you compare plans in your area.",
+          "If you or a loved one is considering assisted living, it is worth reviewing the Evidence of Coverage for any Medicare Advantage plan to understand what supplemental benefits are included. A licensed Medicare agent can help you [compare plans in your area](/find-plans/).",
         ],
         whatItCovers: [
           "All Original Medicare services (Part A and Part B)",
@@ -2850,7 +2850,7 @@ export const coverageArticles: CoverageArticleData[] = [
     focusKeyword: "does medicare cover cataract surgery",
   },
   title: "Does Medicare Cover Cataract Surgery? - Medicare Cataract Surgery",
-  subtitle: "Medicare cataract surgery coverage is available through Part B benefits if medically necessary, but there are many considerations that go along with the procedure.",
+  subtitle: "Yes, Medicare covers cataract surgery through Part B when medically necessary. Here is what cataract surgery costs with Medicare, what types of lenses are included, and whether Medicare covers glasses after cataract surgery.",
   category: "General Medicare",
   dateUpdated: "May 18, 2026",
   lastReviewed: "2026-05-18",
@@ -2918,7 +2918,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Varies",
       coverageType: "partial",
       paragraphs: [
-      "Some [Original Medicare (Part A & B)](/blog/medicare-parts-a-b-c-and-d-explained-simply) plans may offer coverage for this service. Coverage varies by plan, so it's important to review your plan's [Evidence of Coverage](/blog/medicare-supplement-vs-medicare-advantage-coverage-transparency-explained) or speak with a licensed agent.",
+      "[Original Medicare (Part A & B)](/original-medicare/) covers cataract surgery when medically necessary. [Part B](/original-medicare/medicare-parts/medicare-part-b/) pays 80% of the Medicare-approved amount after your annual deductible, and you pay the remaining 20% coinsurance. A [Medicare Supplement plan](/medicare-supplement-plans/) can cover that 20% coinsurance, reducing your out-of-pocket cost significantly.",
     ],
     },
     {
@@ -3561,7 +3561,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
     },
     title: "Does Medicare Cover Ozempic? 2026 Guide to Costs, Coverage, and Savings",
-    subtitle: "Managing type 2 diabetes while navigating Medicare coverage options can feel overwhelming, especially when you need prescription medications like Ozempic. With rising healthcare costs, understanding h",
+    subtitle: "Does Medicare Part D cover Ozempic? Managing type 2 diabetes while navigating Medicare coverage options can feel overwhelming, especially when you need prescription medications like Ozempic. Here is what Ozempic costs with Medicare, which plans include it on their formulary, and how to reduce your out-of-pocket expenses. Medicare does not cover Ozempic for weight loss alone.",
     category: "Medicare Part D",
     dateUpdated: "March 17, 2026",
     lastReviewed: "2026-05-18",
@@ -3598,10 +3598,10 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Not Covered",
         coverageType: "not-covered",
         paragraphs: [
-          "Original Medicare (Parts A & B) does not cover Ozempic directly. However, you have other options through Medicare plans that include prescription drug coverage.",
+          "[Original Medicare](/original-medicare/) (Parts A & B) does not cover Ozempic directly. However, you have other options through Medicare plans that include prescription drug coverage.",
           "[Medicare Part D (standalone)](/blog/how-is-medicare-part-d-changing-in-2026) may cover Ozempic if it is on the plan's formulary and deemed medically necessary. Typical copays range from $30–$150 per month, though costs vary by plan, tier, and coverage phase.",
           "[Medicare Advantage (Part C with drug coverage)](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) may also cover Ozempic if it is on the plan's formulary. Copays typically range from $25–$150 per month, and may be lower with some plans, including HMO and PPO options.",
-          "Medicare Supplement (Medigap) plans do not cover prescription drugs. You must pair a Medigap plan with a standalone Part D plan for prescription coverage."],
+          "[Medicare Supplement (Medigap) plans](/medicare-supplement-plans/) do not cover prescription drugs. You must pair a Medigap plan with a standalone [Part D plan](/original-medicare/medicare-parts/medicare-part-d/) for prescription coverage."],
       },
       {
         planName: "Medicare Advantage (Part C)",
@@ -4090,7 +4090,7 @@ export const coverageArticles: CoverageArticleData[] = [
       focusKeyword: "does medicare cover prosthetic devices",
     },
     title: "Does Medicare Cover Prosthetic Devices?",
-    subtitle: "Medicare Part B covers medically necessary prosthetic devices that replace a body part or function, including artificial limbs, breast prostheses after mastectomy, cochlear implants, and more. Coverage is based on your functional classification (K-level), and you pay 20% coinsurance after the Part B deductible. Here is what you need to know about eligibility, costs, prior authorization, and replacements in 2026.",
+    subtitle: "Yes, Medicare covers prosthetics and prosthetic devices through Part B when medically necessary. This includes artificial limbs, breast prostheses after mastectomy, cochlear implants, and more. Coverage is based on your functional classification (K-level), and you pay 20% coinsurance after the Part B deductible. Here is what you need to know about Medicare prosthetics coverage, durable medical equipment prosthetics costs, prior authorization, and replacements in 2026.",
     category: "Medicare Coverage",
     dateUpdated: "July 7, 2026",
     lastReviewed: "2026-07-07",
@@ -4129,7 +4129,7 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageLabel: "Covered when medically necessary",
         coverageType: "covered",
         paragraphs: [
-          "Medicare Part B covers external prosthetic devices as part of the Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS) benefit. Coverage requires a doctor's order confirming the device is medically necessary to replace a body part or function. You must obtain your prosthetic from a Medicare-enrolled supplier for coverage to apply.",
+          "[Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) covers external prosthetic devices as part of the Durable Medical Equipment, Prosthetics, Orthotics, and Supplies (DMEPOS) benefit. Coverage requires a doctor's order confirming the device is medically necessary to replace a body part or function. You must obtain your prosthetic from a Medicare-enrolled supplier for coverage to apply.",
           "After meeting the 2026 [Part B deductible](/faqs/deductible-copay-coinsurance-premium) of $283, Medicare pays 80% of the Medicare-approved amount and you pay 20% coinsurance. Prosthetic devices can be expensive. A basic below-knee prosthetic leg may cost $5,000 to $15,000, while advanced microprocessor-controlled limbs can exceed $50,000. Your 20% coinsurance on a $10,000 prosthetic would be $2,000, which is why many beneficiaries pair Original Medicare with a [Medigap plan](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) to cover this cost-sharing.",
           "Medicare also covers necessary repairs, adjustments, and replacements for prosthetic devices. Replacements are covered when the device is lost, stolen, irreparably damaged, or no longer meets your medical needs due to a change in condition. Unlike standard DME, prosthetic limbs are not subject to the typical 5-year reasonable useful lifetime (RUL) restriction for replacements.",
         ],
@@ -4294,7 +4294,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ogImage: "/images/medicarefaq-cover.jpg",
   },
   title: "When Should You Enroll in Medicare if Still Working?",
-  subtitle: "Many individuals continue working past 65. Understanding when to enroll in Medicare while still employed is critical to avoid penalties and coverage gaps.",
+  subtitle: "Many individuals continue working past 65 and wonder about Medicare enrollment while employed. Understanding when to enroll in Medicare while still working is critical to avoid late enrollment penalties and coverage gaps. Here is how Medicare and employer insurance coordinate based on company size.",
   category: "Medicare Enrollment",
   dateUpdated: "March 13, 2026",
   lastReviewed: "2026-05-18",
@@ -4365,7 +4365,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Key Factor",
       coverageType: "partial",
       paragraphs: [
-      "When you have health insurance through your employer or your spouse's employer, that coverage must coordinate directly with Medicare. The size of the company is the most critical factor in this coordination.",
+      "When you have health insurance through your employer or your spouse's employer, that coverage must coordinate directly with [Medicare](/original-medicare/). The size of the company is the most critical factor in this coordination.",
       "If the employer has twenty or more employees, the group health plan pays first, and Medicare pays second. In this specific scenario, you might choose to [delay Medicare Part B](/faqs/delay-medicare) to save on monthly premiums.",
       "However, if the company has fewer than twenty employees, Medicare pays first. You must [enroll in both Part A and Part B](/blog/medicare-parts-a-b-c-and-d-explained-simply) to avoid massive gaps in your healthcare coverage.",
     ],
@@ -4382,7 +4382,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Options Available",
       coverageType: "covered",
       paragraphs: [
-      "You have several distinct choices when you turn sixty-five. You can enroll in both Part A and Part B, regardless of your current employment status.",
+      "You have several distinct choices when you turn sixty-five. You can enroll in both [Part A](/original-medicare/medicare-parts/medicare-part-a/) and [Part B](/original-medicare/medicare-parts/medicare-part-b/), regardless of your current employment status.",
       "Because Part A is premium-free for most individuals who have worked at least ten years in the United States, it is generally wise to enroll in Part A immediately. [Part A covers inpatient hospital stays and skilled nursing facility care](/blog/how-medicare-handles-skilled-nursing-vs-custodial-care).",
       "You can then decide to safely delay Part B, which covers outpatient medical services, if your current employer coverage is officially considered creditable.",
     ],
@@ -4396,7 +4396,7 @@ export const coverageArticles: CoverageArticleData[] = [
       paragraphs: [
       "Delaying your enrollment carries significant risks if you do not follow the strict rules set by the Centers for Medicare and Medicaid Services.",
       "If you delay Part B without having creditable active employer coverage, you will face a permanent late enrollment penalty. This penalty increases your Part B premium by ten percent for every full twelve-month period you could have had Part B but did not sign up.",
-      "Additionally, you might experience a dangerous gap in your medical coverage while you wait for the next General Enrollment Period to open.",
+      "Additionally, you might experience a dangerous gap in your medical coverage while you wait for the next [General Enrollment Period](/faqs/medicare-general-enrollment-period/) to open.",
     ],
       callout: {
       type: "warning",
@@ -21344,7 +21344,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
     },
     title: "Medicare Coverage for People under 65 with a Disability",
-    subtitle: "You do not have to be 65 to qualify for Medicare. If you have been receiving Social Security Disability Insurance (SSDI) for 24 months, you automatically become eligible for Medicare regardless of your age. People with ALS or End-Stage Renal Disease qualify immediately without the waiting period.",
+    subtitle: "You do not have to be 65 to qualify for Medicare. If you have been receiving Social Security Disability Insurance (SSDI) for 24 months, you automatically become eligible for disability Medicare regardless of your age. Here is how SSDI Medicare eligibility works, what Medicare under 65 disability coverage includes, and how people with ALS or End-Stage Renal Disease qualify immediately without the waiting period.",
     category: "Medicare Coverage",
     dateUpdated: "April 24, 2026",
     lastReviewed: "2026-05-18",
