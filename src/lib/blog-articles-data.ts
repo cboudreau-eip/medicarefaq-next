@@ -10022,7 +10022,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: false,
-    image: "/images/generated/2027-medicare-part-b.png",
+    image: "/images/uploaded/2007-pemiums.jpg",
     imageAlt: "2027 Medicare Part B premium estimate projection",
     keyTakeaways: [
       "The 2026 Medicare Trustees Report projects a 2027 standard Part B premium of approximately $209.50 per month, up $6.60 from the confirmed 2026 premium of $202.90",
