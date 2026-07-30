@@ -10007,8 +10007,8 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "2027-medicare-part-b-premium-estimate",
     seo: {
-      title: "The 2027 Medicare Part B Premium Estimate: What Is Confirmed and What Is Not",
-      description: "The 2026 Trustees Report projects a 2027 Part B premium of $209.50. Here is what that means and what is still not final.",
+      title: "2027 Medicare Part B Premium: What's Confirmed So Far",
+      description: "The 2026 Trustees Report projects the 2027 Medicare Part B premium at $209.50. Here is what that means for seniors and what details remain unconfirmed.",
       canonical: "https://www.medicarefaq.com/blog/2027-medicare-part-b-premium-estimate/",
       ogImage: "/images/generated/2027-part-b-premium-estimate.png",
       focusKeyword: "2027 Medicare Part B premium",
