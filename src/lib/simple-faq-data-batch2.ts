@@ -1105,7 +1105,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
     richSections: [
       {
         type: 'paragraph' as const,
-        content: 'Medicare Supplement (Medigap) plans and Medicare Advantage (Part C) plans are the two primary ways to extend your Medicare coverage beyond what Original Medicare provides on its own. They are not interchangeable, and they cannot be used together. A Medigap plan works alongside Original Medicare and pays the deductibles, coinsurance, and copayments that Parts A and B leave behind. A Medicare Advantage plan replaces Original Medicare entirely, bundling your hospital and medical coverage into a single private plan that may also include prescription drugs, dental, vision, and hearing benefits.',
+        content: '[Medicare Supplement (Medigap)](/medicare-supplement-plans/) plans and [Medicare Advantage (Part C)](/medicare-part-c/medicare-advantage-plans/) plans are the two primary ways to extend your Medicare coverage beyond what [Original Medicare](/original-medicare/) provides on its own. They are not interchangeable, and they cannot be used together. A Medigap plan works alongside Original Medicare and pays the deductibles, coinsurance, and copayments that Parts A and B leave behind. A Medicare Advantage plan replaces Original Medicare entirely, bundling your hospital and medical coverage into a single private plan that may also include prescription drugs, dental, vision, and hearing benefits.',
       },
       {
         type: 'heading' as const,
@@ -1155,7 +1155,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'Medicare Supplement plans offer the most predictable cost structure available in Medicare. With Plan G, the most popular Medigap plan in 2026, your only out-of-pocket cost for Medicare-covered services is the annual Part B deductible of $283. After that, Plan G covers 100% of Medicare-approved costs for the remainder of the year, including the Part A deductible ($1,736 per benefit period in 2026), hospital coinsurance, skilled nursing facility coinsurance, and the 20% Part B coinsurance. You can see any doctor or hospital anywhere in the United States that accepts Original Medicare with no network restrictions, no referrals, and no prior authorization requirements. Plans C, D, F, G, M, and N also include coverage for foreign travel emergencies.',
+        content: '[Medicare Supplement plans](/medicare-supplement-plans/) offer the most predictable cost structure available in Medicare. With [Plan G](/medicare-supplement-plans/plan-g), the most popular Medigap plan in 2026, your only out-of-pocket cost for Medicare-covered services is the annual Part B deductible of $283. After that, Plan G covers 100% of Medicare-approved costs for the remainder of the year, including the Part A deductible ($1,736 per benefit period in 2026), hospital coinsurance, skilled nursing facility coinsurance, and the 20% Part B coinsurance. You can see any doctor or hospital anywhere in the United States that accepts Original Medicare with no network restrictions, no referrals, and no prior authorization requirements. Plans C, D, F, G, M, and N also include coverage for foreign travel emergencies.',
       },
       {
         type: 'heading' as const,
@@ -1165,7 +1165,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'Medigap plans carry higher monthly premiums than Medicare Advantage, typically ranging from $80 to $300 or more depending on your age, location, gender, and the carrier\'s rating method. You must purchase a separate Medicare Part D plan for prescription drug coverage, and Medigap does not include dental, vision, or hearing benefits, so those require additional standalone policies. There are 12 standardized plan letters to choose from, which can feel overwhelming without guidance. Most importantly, if you do not enroll during your one-time Medigap Open Enrollment Period (the six months starting when you turn 65 and enroll in Part B), carriers in most states can use medical underwriting to evaluate future applications, potentially charging more or denying coverage based on pre-existing conditions.',
+        content: 'Medigap plans carry higher monthly premiums than Medicare Advantage, typically ranging from $80 to $300 or more depending on your age, location, gender, and the carrier\'s rating method. You must purchase a separate [Medicare Part D plan](/original-medicare/medicare-parts/medicare-part-d/) for prescription drug coverage, and Medigap does not include dental, vision, or hearing benefits, so those require additional standalone policies. There are 12 standardized plan letters to choose from, which can feel overwhelming without guidance. Most importantly, if you do not enroll during your one-time [Medigap Open Enrollment Period](/medicare-supplement-plans/medigap-eligibility/), carriers in most states can use medical underwriting to evaluate future applications, potentially charging more or denying coverage based on pre-existing conditions.',
       },
       {
         type: 'heading' as const,
@@ -1294,7 +1294,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'Switching from a Medicare Advantage plan to a Medicare Supplement plan is possible but comes with a significant caveat. Outside of your initial Medigap Open Enrollment Period (the six months starting when you turn 65 and enroll in Part B), insurance carriers in most states can use medical underwriting to evaluate your application. This means a pre-existing health condition could result in a higher premium, a waiting period for coverage of that condition, or a denial of coverage entirely. A few states, including California, Connecticut, Maine, Massachusetts, Missouri, New York, and Oregon, offer additional guaranteed-issue rights that make switching easier.',
+        content: 'Switching from a Medicare Advantage plan to a Medicare Supplement plan is possible but comes with a significant caveat. Outside of your initial [Medigap Open Enrollment Period](/medicare-supplement-plans/medigap-eligibility/), insurance carriers in most states can use medical underwriting to evaluate your application. This means a pre-existing health condition could result in a higher premium, a waiting period for coverage of that condition, or a denial of coverage entirely. A few states, including California, Connecticut, Maine, Massachusetts, Missouri, New York, and Oregon, offer additional guaranteed-issue rights that make switching easier.',
       },
       {
         type: 'callout' as const,
@@ -1310,7 +1310,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph' as const,
-        content: 'Switching from a Medicare Supplement plan to a Medicare Advantage plan is straightforward. You can enroll in a Medicare Advantage plan during the Annual Enrollment Period (October 15 through December 7 each year) or, if you are within your first 12 months of Medicare Advantage enrollment, during the Medicare Advantage Open Enrollment Period (January 1 through March 31). Medicare Advantage plans cannot deny you based on health status. However, be aware that if you later want to switch back to Medigap, you may face underwriting at that point.',
+        content: 'Switching from a Medicare Supplement plan to a Medicare Advantage plan is straightforward. You can enroll in a Medicare Advantage plan during the [Annual Enrollment Period](/medicare-enrollment/) (October 15 through December 7 each year) or, if you are within your first 12 months of Medicare Advantage enrollment, during the Medicare Advantage Open Enrollment Period (January 1 through March 31). Medicare Advantage plans cannot deny you based on health status. However, be aware that if you later want to switch back to Medigap, you may face underwriting at that point.',
       },
       {
         type: 'heading' as const,
@@ -1380,6 +1380,7 @@ export const simpleFAQBatch2: SimpleFAQArticleData[] = [
         ],
       },
     ],
+    showInlineCta: true,
     relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medicare-supplement-vs-medicare-advantage-coverage-transparency-explained", "key-questions-to-ask-when-comparing-medicare-advantage-plans", "10-questions-to-ask-before-buying-a-medicare-supplement-plan", "medicare-supplement-vs-medicare-advantage-crucial-questions-to-ask-before-enrolling"],
   },
   {
