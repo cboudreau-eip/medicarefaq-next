@@ -9822,6 +9822,8 @@ export const blogArticles: BlogArticleData[] = [
       { question: "How much does Medicare cost in 2026?", answer: "The standard Part B premium is $202.90 per month in 2026. The Part B deductible is $283 per year. The Part A deductible is $1,736 per benefit period. Most people pay $0 for Part A premiums if they have 40+ quarters of work history." },
       { question: "What does Medicare not cover?", answer: "Original Medicare does not cover routine dental, vision, or hearing care, long-term custodial care (nursing homes), cosmetic surgery, prescription drugs (without Part D), care outside the U.S., and most over-the-counter medications." },
     ],
+    youtubeVideoId: "PaEU7CiEv6A",
+    youtubeVideoTitle: "What Does Medicare Cover? A Complete 2026 Guide",
     showInlineCta: true,
     relatedSlugs: ["medicare-parts-a-b-c-and-d-explained-simply", "medicare-costs-2026", "what-is-a-medicare-supplement-plan-and-who-needs-one", "the-essentials-medicare-supplement-vs-medicare-advantage-explained", "how-is-medicare-part-d-changing-in-2026"],
   },
