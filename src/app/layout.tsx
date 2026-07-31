@@ -114,7 +114,7 @@ export default function RootLayout({
         </PostHogProvider>
         <HeatmapTracker />
         <InvocaRefresh />
-        <SlideInCTA />
+        {/* <SlideInCTA /> — temporarily deactivated */}
         {/* Chat widget is fail-closed: only render when ENABLE_CHAT === "true".
             Unset / any other value (prod default) keeps the chat system off. */}
         {process.env.ENABLE_CHAT === "true" && <ChatWidget />}
