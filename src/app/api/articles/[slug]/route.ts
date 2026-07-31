@@ -68,9 +68,9 @@ export async function GET(
     });
   }
 
-  // 2. Check blog articles
+  // 2. Check blog articles (exclude drafts)
   const blog = blogArticles.find((a) => a.slug === slug);
-  if (blog) {
+  if (blog && !blog.draft) {
     return NextResponse.json({
       type: "blog",
       slug: blog.slug,

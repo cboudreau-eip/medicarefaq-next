@@ -10104,6 +10104,7 @@ export const blogArticles: BlogArticleData[] = [
 },
   {
     slug: "medicare-part-d-2000-out-of-pocket-cap-explained",
+    draft: true,
     seo: {
       title: "The $2,000 Medicare Part D Out-of-Pocket Cap: How It Works in 2026",
       description: "The Inflation Reduction Act capped Medicare Part D out-of-pocket drug costs at $2,000 per year starting in 2025. Learn what counts toward the cap, what does not, and how the Medicare Prescription Payment Plan works.",
@@ -10328,6 +10329,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "dual-eligible-special-needs-plans-dsnp-explained",
+    draft: true,
     seo: {
       title: "Dual-Eligible Special Needs Plans (D-SNPs) Explained: Benefits, Eligibility, and How to Enroll",
       description: "D-SNP plans coordinate Medicare and Medicaid benefits into one plan for dual-eligible beneficiaries. Learn who qualifies, what extra benefits are included, and how to enroll in 2026.",
@@ -10435,6 +10437,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "medicare-35-dollar-insulin-cap-explained",
+    draft: true,
     seo: {
       title: "The $35 Medicare Insulin Cap: How It Works, Who Qualifies, and What Is Covered in 2026",
       description: "Medicare caps insulin costs at $35 per month for Part D and Part B enrollees. Learn which insulin products are covered, how the cap works at the pharmacy, and what to do if you are paying more.",
@@ -10540,6 +10543,7 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "why-did-my-medigap-premium-go-up",
+    draft: true,
     seo: {
       title: "Why Did My Medigap Premium Go Up? Rate Increases Explained and What You Can Do",
       description: "Got a Medigap rate increase letter? Learn why Medicare Supplement premiums go up, what a normal increase looks like, and your options for lowering costs without losing coverage.",

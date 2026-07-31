@@ -34,10 +34,13 @@ export default function Blog() {
     return dateB - dateA; // newest first
   };
 
+  // Filter out draft articles
+  const publishedArticles = blogArticles.filter((a) => !a.draft);
+
   // Merge old static posts with new scraped articles
   const allPosts = [
     ...blogPosts.map((p) => ({ ...p, dateUpdated: undefined })),
-    ...blogArticles.map((a) => ({
+    ...publishedArticles.map((a) => ({
       slug: a.slug,
       title: a.title,
       excerpt: a.excerpt,

@@ -54,7 +54,7 @@ const DEFAULT_IMAGE = `${BASE_URL}/images/medicarefaq-cover.jpg`;
  * Enables full SSG at build time for all blog posts.
  */
 export function generateStaticParams() {
-  return blogArticles.map((a) => ({ slug: a.slug }));
+  return blogArticles.filter((a) => !a.draft).map((a) => ({ slug: a.slug }));
 }
 
 /**
@@ -67,7 +67,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const article = blogArticles.find((a) => a.slug === slug);
-  if (!article) return { title: "Not Found" };
+  if (!article || article.draft) return { title: "Not Found" };
 
   return {
     title: article.seo?.title || article.title,
@@ -181,7 +181,7 @@ export default async function BlogPostPage({
 }) {
   const { slug } = await params;
   const article = blogArticles.find((a) => a.slug === slug);
-  if (!article) notFound();
+  if (!article || article.draft) notFound();
 
   const schema = buildBlogSchema(article, slug);
 

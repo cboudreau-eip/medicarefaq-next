@@ -32,7 +32,7 @@ export async function GET() {
     url: `/faqs/${a.slug}/`,
   }));
 
-  const blog: ArticleListItem[] = blogArticles.map((a) => ({
+  const blog: ArticleListItem[] = blogArticles.filter((a) => !a.draft).map((a) => ({
     slug: a.slug,
     title: a.title,
     category: a.category,

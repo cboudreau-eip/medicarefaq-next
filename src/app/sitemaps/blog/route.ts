@@ -37,8 +37,8 @@ export function GET() {
       changefreq: "weekly",
       lastmod: new Date("2026-04-10").toISOString(),
     },
-    // Individual blog posts
-    ...blogArticles.map((article) => ({
+    // Individual blog posts (exclude drafts)
+    ...blogArticles.filter((a) => !a.draft).map((article) => ({
       url: `${BASE_URL}/blog/${article.slug}/`,
       priority: article.featured ? "0.8" : "0.7",
       changefreq: "monthly" as const,

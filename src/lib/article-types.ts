@@ -252,6 +252,7 @@ export interface BlogSectionContent {
 
 export interface BlogArticleData {
   slug: string;
+  draft?: boolean;
   seo?: ArticleSEO;
   title: string;
   excerpt: string;
