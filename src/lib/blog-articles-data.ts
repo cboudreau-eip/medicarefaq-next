@@ -10104,7 +10104,6 @@ export const blogArticles: BlogArticleData[] = [
 },
   {
     slug: "medicare-part-d-2000-out-of-pocket-cap-explained",
-    draft: true,
     seo: {
       title: "The $2,000 Medicare Part D Out-of-Pocket Cap: How It Works in 2026",
       description: "The Inflation Reduction Act capped Medicare Part D out-of-pocket drug costs at $2,000 per year starting in 2025. Learn what counts toward the cap, what does not, and how the Medicare Prescription Payment Plan works.",
@@ -10221,8 +10220,8 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "medicare-and-federal-retirement-fehb-fers-csrs",
     seo: {
-      title: "Medicare and Your Federal Retirement: How FEHB, FERS, and CSRS Work Together",
-      description: "Retiring from federal service? Learn how Medicare coordinates with FEHB, whether you need Part B, and what happens to your retiree health benefits when you turn 65.",
+      title: "Medicare and Federal Retirement: FEHB, FERS, CSRS Guide",
+      description: "Learn how Medicare and federal retirement work together, whether FEHB requires Part B, and what happens to your retiree health benefits at age 65.",
       canonical: "https://www.medicarefaq.com/blog/medicare-and-federal-retirement-fehb-fers-csrs/",
       ogImage: "/images/generated/navigating-medicare-and-health.png",
       focusKeyword: "medicare and federal retirement",
@@ -10236,7 +10235,8 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "9 min read",
     featured: false,
-    image: "/images/generated/navigating-medicare-and-health.png",
+    image: "/images/generated/medicare-and-federal-retirement.png",
+      imageAlt: "Medicare and Your Federal Retirement: How FEHB, FERS, and CSRS Work Together",
     keyTakeaways: [
         "FEHB coverage continues into retirement and does not end when you turn 65 or enroll in Medicare.",
         "Medicare Part A is free for most federal retirees and should always be enrolled in at 65, as it reduces what FEHB pays for hospital stays.",
@@ -10264,28 +10264,16 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "Medicare Part A and Federal Retirees", id: "part-a-federal" },
       { type: "paragraph", content: "Most FERS (Federal Employees Retirement System) retirees qualify for premium-free [Medicare Part A](/original-medicare/medicare-parts/medicare-part-a/) because they paid Medicare taxes throughout their federal career. FERS employees have paid the 1.45% Medicare tax since the system began in 1984. If you have 40 or more quarters of Medicare-taxed employment (10 years), Part A is free." },
       { type: "paragraph", content: "CSRS (Civil Service Retirement System) retirees face a different situation. CSRS employees hired before 1983 were exempt from Medicare taxes. If you spent your entire career under CSRS without other Medicare-taxed employment, you may not have the 40 quarters needed for premium-free Part A. In that case, you can either pay the Part A premium ($524 per month in 2026 for those with fewer than 30 quarters) or decline Part A and rely solely on FEHB." },
-      { type: "callout", calloutType: "info", calloutTitle: "CSRS Retirees: Check Your Quarters", calloutText: "Even if you spent most of your career under CSRS, you may have earned Medicare-taxed quarters from part-time jobs, military service, or self-employment. Contact the Social Security Administration at <a href='https://www.ssa.gov/medicare' target='_blank' rel='noopener noreferrer'>ssa.gov/medicare</a> to verify your quarter count before deciding on Part A." },
+      { type: "callout", calloutType: "info", calloutTitle: "CSRS Retirees: Check Your Quarters", calloutText: "Even if you spent most of your career under CSRS, you may have earned Medicare-taxed quarters from part-time jobs, military service, or self-employment. Contact the Social Security Administration at ssa.gov/medicare to verify your quarter count before deciding on Part A." },
       { type: "heading", level: 2, text: "Should You Enroll in Medicare Part B?", id: "part-b-decision" },
       { type: "paragraph", content: "This is the central question for every federal retiree at 65. [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) costs $202.90 per month in 2026 (more if your income triggers IRMAA surcharges). Since FEHB already covers doctor visits, outpatient care, and most of what Part B covers, many retirees wonder whether the additional premium is worth it." },
       { type: "paragraph", content: "The answer for most federal retirees is yes, and here is why: when Medicare Part B is your primary payer and FEHB is secondary, the two programs together typically cover 100% of your approved medical costs. Medicare pays 80% of the approved amount, and FEHB picks up the remaining 20% as secondary insurance. Without Part B, FEHB alone may leave you responsible for deductibles and coinsurance that would otherwise be covered." },
       { type: "heading", level: 3, text: "The Financial Math: Part B Premium vs. Out-of-Pocket Savings", id: "financial-math" },
-      { type: "table", title: "Annual Cost Comparison: FEHB Only vs. FEHB + Medicare Part B", headers: ["Scenario", "FEHB Only", "FEHB + Medicare Part B"], rows: [
-        ["Annual premium cost for Part B", "$0", "$2,435 ($202.90 x 12)"],
-        ["Typical doctor visit copay", "$20-$40 per visit", "$0 (Medicare + FEHB covers 100%)"],
-        ["Outpatient surgery coinsurance", "15-25% of approved amount", "$0 in most cases"],
-        ["Annual physical/wellness visit", "Covered with copay", "$0 (Medicare preventive benefit)"],
-        ["Durable medical equipment", "20-30% coinsurance", "$0 (Medicare 80% + FEHB 20%)"],
-        ["Estimated annual out-of-pocket (moderate use)", "$1,500-$3,000+", "$0-$200"],
-      ], footnote: "Figures are estimates based on typical FEHB Blue Cross Basic plan. Your specific plan may vary." },
+      { type: "table", title: "Annual Cost Comparison: FEHB Only vs. FEHB + Medicare Part B", headers: ["Scenario", "FEHB Only", "FEHB + Medicare Part B"], rows: [["Annual premium cost for Part B", "$0", "$2,435 ($202.90 x 12)"], ["Typical doctor visit copay", "$20-$40 per visit", "$0 (Medicare + FEHB covers 100%)"], ["Outpatient surgery coinsurance", "15-25% of approved amount", "$0 in most cases"], ["Annual physical/wellness visit", "Covered with copay", "$0 (Medicare preventive benefit)"], ["Durable medical equipment", "20-30% coinsurance", "$0 (Medicare 80% + FEHB 20%)"], ["Estimated annual out-of-pocket (moderate use)", "$1,500-$3,000+", "$0-$200"]], footnote: "Figures are estimates based on typical FEHB Blue Cross Basic plan. Your specific plan may vary." },
       { type: "eddie-pro-tip", content: "I tell every federal retiree the same thing: if you can afford the $202.90 per month, enroll in Part B. The math almost always works in your favor once you start using healthcare regularly. And here is the part most people miss: you can suspend FEHB during Open Season and switch to a cheaper FEHB plan once Medicare is doing the heavy lifting. Many retirees drop from a high-option plan to a basic plan and save $100 or more per month on FEHB premiums, which more than offsets the Part B cost." },
       { type: "heading", level: 2, text: "How Medicare and FEHB Coordinate Claims", id: "coordination-of-benefits" },
-      { type: "paragraph", content: "When you have both Medicare and FEHB, Medicare becomes the primary payer for services it covers. Your FEHB plan becomes secondary and pays some or all of the remaining costs. The coordination works automatically once your FEHB plan knows you have Medicare. According to <a href='https://www.cms.gov/' target='_blank' rel='noopener noreferrer'>CMS coordination of benefits rules</a>, you do not need to file separate claims with each program. Your provider bills Medicare first, and the remaining balance is sent to FEHB automatically." },
-      { type: "list", items: [
-        "Medicare pays first for Part A services (hospital stays, skilled nursing) and Part B services (doctor visits, outpatient care)",
-        "FEHB pays second, covering deductibles, coinsurance, and copays that Medicare leaves behind",
-        "For services Medicare does not cover (such as routine dental or vision), FEHB remains your only payer and covers them according to your plan's normal rules",
-        "Prescription drugs are handled by your FEHB plan's pharmacy benefit or a separate Part D plan (not both)",
-      ]},
+      { type: "paragraph", content: "When you have both Medicare and FEHB, Medicare becomes the primary payer for services it covers. Your FEHB plan becomes secondary and pays some or all of the remaining costs. The coordination works automatically once your FEHB plan knows you have Medicare. According to CMS coordination of benefits rules, you do not need to file separate claims with each program. Your provider bills Medicare first, and the remaining balance is sent to FEHB automatically." },
+      { type: "list", ordered: false, items: ["Medicare pays first for Part A services (hospital stays, skilled nursing) and Part B services (doctor visits, outpatient care)", "FEHB pays second, covering deductibles, coinsurance, and copays that Medicare leaves behind", "For services Medicare does not cover (such as routine dental or vision), FEHB remains your only payer and covers them according to your plan's normal rules", "Prescription drugs are handled by your FEHB plan's pharmacy benefit or a separate Part D plan (not both)"] },
       { type: "heading", level: 2, text: "Do Federal Retirees Need Medicare Part D?", id: "part-d-federal" },
       { type: "paragraph", content: "Most federal retirees do not need a separate [Medicare Part D plan](/original-medicare/medicare-parts/medicare-part-d/) because FEHB plans include prescription drug coverage that is considered creditable (meaning it is at least as good as standard Part D). As long as your FEHB plan's drug coverage remains creditable, you will not face a Part D late enrollment penalty if you decide to add Part D later." },
       { type: "paragraph", content: "However, some retirees on very expensive specialty medications find that a standalone Part D plan with the new $2,000 annual out-of-pocket cap offers better protection than their FEHB drug benefit alone. If your FEHB plan charges high coinsurance on specialty drugs, it may be worth comparing your projected costs under FEHB versus a Part D plan with the IRA cap." },
@@ -10295,27 +10283,13 @@ export const blogArticles: BlogArticleData[] = [
       { type: "heading", level: 2, text: "The Part B Late Enrollment Penalty and Federal Retirees", id: "penalty-protection" },
       { type: "paragraph", content: "Federal retirees are protected from the [Part B late enrollment penalty](/faqs/medicare-part-b-late-enrollment-penalty/) as long as they maintain continuous FEHB coverage. FEHB is considered creditable coverage by Medicare, which means you can delay Part B enrollment past age 65 without penalty. When you do decide to enroll, you can sign up during a [Special Enrollment Period](/faqs/medicare-special-enrollment-period/) rather than waiting for the General Enrollment Period." },
       { type: "paragraph", content: "This is different from most employer coverage situations where you must enroll in Part B within 8 months of losing group coverage. With FEHB, there is no 8-month deadline because the coverage continues indefinitely. You can enroll in Part B at 66, 70, or 75 without penalty as long as FEHB was active the entire time." },
-      { type: "image", src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png", alt: "Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area", link: "/find-plans/" },
+      { type: "image", src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663444965628/gUNDzJhadva78ZtnmXvVsR/medicare-cta-banner-find-plan-short-4CSv5jcpyyMJCXLKrN3fpo.png", alt: "Find the Right Medicare Plan for You - Answer a few quick questions and get matched with plans in your area" },
       { type: "heading", level: 2, text: "State and Local Government Pensions", id: "state-local-pensions" },
       { type: "paragraph", content: "If you are retiring from a state or local government position, your situation depends on whether your employer's retiree health plan continues past 65. Many state pension systems (such as CalPERS, New York State, and Texas ERS) offer retiree health benefits, but the rules vary dramatically by state. Some require Medicare enrollment at 65 and reduce their coverage to a Medicare supplement role. Others terminate retiree health coverage entirely at 65, leaving you with [Original Medicare](/original-medicare/) plus whatever supplemental coverage you arrange on your own." },
       { type: "paragraph", content: "Unlike FEHB, most state and local retiree plans do not guarantee lifetime coverage. Check with your pension system's benefits office well before turning 65 to understand what changes at Medicare eligibility age." },
       { type: "heading", level: 2, text: "Steps to Take Before You Turn 65", id: "steps-before-65" },
-      { type: "steps", steps: [
-        { title: "Verify your Medicare-taxed quarters", description: "Create a my Social Security account at ssa.gov and confirm you have 40+ quarters for premium-free Part A. CSRS retirees should check this early." },
-        { title: "Enroll in Medicare Part A three months before turning 65", description: "Apply through Social Security online or at your local office. Part A enrollment is automatic only if you are already receiving Social Security benefits." },
-        { title: "Decide on Medicare Part B", description: "Weigh the $202.90 monthly premium against your projected out-of-pocket savings. For most retirees with moderate healthcare use, Part B pays for itself." },
-        { title: "Notify your FEHB plan", description: "Once you have Medicare, contact your FEHB plan to update your coordination of benefits. This ensures claims are processed correctly with Medicare as primary." },
-        { title: "Review your FEHB plan choice during Open Season", description: "With Medicare handling primary coverage, you may be able to switch to a lower-cost FEHB option and save on premiums." },
-        { title: "Consider whether Part D makes sense for your medications", description: "Compare your FEHB drug costs against a standalone Part D plan, especially if you take specialty medications that would benefit from the $2,000 annual cap." },
-      ]},
       { type: "heading", level: 2, text: "Frequently Asked Questions", id: "faqs" },
-      { type: "faq", faqs: [
-        { question: "Can I keep FEHB and Medicare at the same time?", answer: "Yes. You can have both FEHB and Medicare simultaneously. Medicare becomes your primary insurance for services it covers, and FEHB becomes secondary. The two programs coordinate automatically to minimize your out-of-pocket costs." },
-        { question: "Will I face a penalty if I delay Part B because I have FEHB?", answer: "No. FEHB is considered creditable coverage by Medicare. You can delay Part B enrollment indefinitely without penalty as long as you maintain continuous FEHB coverage. When you decide to enroll, you qualify for a Special Enrollment Period." },
-        { question: "Should CSRS retirees without 40 quarters pay for Part A?", answer: "It depends on your health and financial situation. The Part A premium is $524 per month in 2026 (for those with fewer than 30 quarters). If your FEHB plan provides strong hospital coverage, you may decide the Part A premium is not worth it. However, having Part A can reduce your FEHB plan's costs for hospital stays, which may lower your plan's premiums over time." },
-        { question: "Do I need a Medigap plan if I have FEHB?", answer: "Almost never. FEHB already acts as secondary insurance to Medicare, covering most of what Medicare leaves behind. Adding a Medigap policy would be a third layer of coverage that rarely provides additional value. The exception is if you plan to drop FEHB entirely." },
-        { question: "What happens to my FEHB if I enroll in Medicare Advantage?", answer: "You can technically have both, but it is generally not recommended. Medicare Advantage plans have their own networks and rules that may conflict with FEHB coordination. Most federal retirees are better served by Original Medicare (Parts A and B) plus FEHB as secondary coverage." },
-      ]},
+      { type: "faq", faqs: [{ question: "Can I keep FEHB and Medicare at the same time?", answer: "Yes. You can have both FEHB and Medicare simultaneously. Medicare becomes your primary insurance for services it covers, and FEHB becomes secondary. The two programs coordinate automatically to minimize your out-of-pocket costs." }, { question: "Will I face a penalty if I delay Part B because I have FEHB?", answer: "No. FEHB is considered creditable coverage by Medicare. You can delay Part B enrollment indefinitely without penalty as long as you maintain continuous FEHB coverage. When you decide to enroll, you qualify for a Special Enrollment Period." }, { question: "Should CSRS retirees without 40 quarters pay for Part A?", answer: "It depends on your health and financial situation. The Part A premium is $524 per month in 2026 (for those with fewer than 30 quarters). If your FEHB plan provides strong hospital coverage, you may decide the Part A premium is not worth it. However, having Part A can reduce your FEHB plan's costs for hospital stays, which may lower your plan's premiums over time." }, { question: "Do I need a Medigap plan if I have FEHB?", answer: "Almost never. FEHB already acts as secondary insurance to Medicare, covering most of what Medicare leaves behind. Adding a Medigap policy would be a third layer of coverage that rarely provides additional value. The exception is if you plan to drop FEHB entirely." }, { question: "What happens to my FEHB if I enroll in Medicare Advantage?", answer: "You can technically have both, but it is generally not recommended. Medicare Advantage plans have their own networks and rules that may conflict with FEHB coordination. Most federal retirees are better served by Original Medicare (Parts A and B) plus FEHB as secondary coverage." }] },
     ],
     faqs: [
       { question: "Can I keep FEHB and Medicare at the same time?", answer: "Yes. You can have both FEHB and Medicare simultaneously. Medicare becomes your primary insurance for services it covers, and FEHB becomes secondary. The two programs coordinate automatically to minimize your out-of-pocket costs." },
@@ -10329,7 +10303,6 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "dual-eligible-special-needs-plans-dsnp-explained",
-    draft: true,
     seo: {
       title: "Dual-Eligible Special Needs Plans (D-SNPs) Explained: Benefits, Eligibility, and How to Enroll",
       description: "D-SNP plans coordinate Medicare and Medicaid benefits into one plan for dual-eligible beneficiaries. Learn who qualifies, what extra benefits are included, and how to enroll in 2026.",
@@ -10437,7 +10410,6 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "medicare-35-dollar-insulin-cap-explained",
-    draft: true,
     seo: {
       title: "The $35 Medicare Insulin Cap: How It Works, Who Qualifies, and What Is Covered in 2026",
       description: "Medicare caps insulin costs at $35 per month for Part D and Part B enrollees. Learn which insulin products are covered, how the cap works at the pharmacy, and what to do if you are paying more.",
@@ -10543,7 +10515,6 @@ export const blogArticles: BlogArticleData[] = [
   },
   {
     slug: "why-did-my-medigap-premium-go-up",
-    draft: true,
     seo: {
       title: "Why Did My Medigap Premium Go Up? Rate Increases Explained and What You Can Do",
       description: "Got a Medigap rate increase letter? Learn why Medicare Supplement premiums go up, what a normal increase looks like, and your options for lowering costs without losing coverage.",
