@@ -10106,7 +10106,7 @@ export const blogArticles: BlogArticleData[] = [
     slug: "medicare-and-federal-retirement-fehb-fers-csrs",
     seo: {
       title: "Medicare and Federal Retirement: FEHB, FERS, CSRS Guide",
-      description: "Retiring from federal service? Learn how Medicare and federal retirement work together, whether you need Part B, and what happens to FEHB at age 65.",
+      description: "Retiring from federal service? Learn how Medicare and federal retirement work together, if you need Part B, and what happens to your FEHB at 65.",
       canonical: "https://www.medicarefaq.com/blog/medicare-and-federal-retirement-fehb-fers-csrs/",
       ogImage: "/images/generated/medicare-federal-retirement-fehb.png",
       focusKeyword: "medicare and federal retirement",
@@ -10120,7 +10120,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "9 min read",
     featured: false,
-    image: "/images/generated/medicare-federal-retirement-fehb.png",
+    image: "/images/generated/medicare-and-federal-retirement.png",
     imageAlt: "Medicare and Your Federal Retirement: How FEHB, FERS, and CSRS Work Together",
     keyTakeaways: [
         "FEHB coverage continues into retirement and does not end when you turn 65 or enroll in Medicare.",
