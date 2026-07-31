@@ -5,7 +5,7 @@ import Link from "next/link";
 
 /**
  * InlineCardCTA — Navy card with teal left border and red CTA button.
- * Links to the new multi-step lead gen form at /find-plans/.
+ * Links to demographics.medicarecompared.com/ms/ (external lead gen form).
  *
  * Props:
  *   heading   — Override the default heading text
@@ -26,7 +26,7 @@ export default function InlineCardCTA({
         {heading}
       </h3>
       <Link
-        href="/find-plans/"
+        href="https://demographics.medicarecompared.com/ms/"
         id={`inline-cta-${pageSection}`}
         className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-red-900/20 text-[15px]"
       >

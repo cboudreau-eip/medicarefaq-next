@@ -1196,7 +1196,7 @@ export default function Eligibility() {
             {/* Eddie CTA Banner */}
             <section className="mb-16">
               <Link
-                href="/find-plans/"
+                href="https://demographics.medicarecompared.com/ms/"
                 className="block rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
               >
                 <img

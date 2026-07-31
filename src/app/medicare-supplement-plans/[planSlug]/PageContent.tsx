@@ -204,7 +204,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 ))}
                 {/* CTA Banner Image */}
                 <figure className="my-8">
-                  <Link href="/find-plans/">
+                  <Link href="https://demographics.medicarecompared.com/ms/">
                     <img
                       src="/images/cta-banner-find-plan.jpg"
                       alt="Find the Right Medicare Plan for You"

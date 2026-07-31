@@ -149,7 +149,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageType: "covered",
       paragraphs: [
         "[Medicare Supplement (Medigap) plans](/medicare-supplement-plans/) are specifically designed to cover the gaps in Original Medicare, including the 20% Part B coinsurance that makes infused cancer treatment so expensive. With a [Medigap Plan G](/medicare-supplement-plans/plan-g), for example, your only out-of-pocket cost for Part B cancer treatment is the $283 annual deductible. After that, Plan G pays 100% of the Medicare-approved coinsurance for all Part B services, including chemotherapy infusions, immunotherapy, radiation, and related lab work.",
-        "This is why many Medicare advisors recommend Medigap for beneficiaries with cancer or at high risk for cancer. The predictability of costs is unmatched: you pay your monthly Medigap premium plus the $283 deductible, and everything else is covered. There are no networks, no prior authorization requirements, and no risk of surprise bills from out-of-network providers. You can see any oncologist in the country who accepts Medicare. [Compare plans in your area](/find-plans/) to see what Medigap options are available.",
+        "This is why many Medicare advisors recommend Medigap for beneficiaries with cancer or at high risk for cancer. The predictability of costs is unmatched: you pay your monthly Medigap premium plus the $283 deductible, and everything else is covered. There are no networks, no prior authorization requirements, and no risk of surprise bills from out-of-network providers. You can see any oncologist in the country who accepts Medicare. [Compare plans in your area](https://demographics.medicarecompared.com/ms/) to see what Medigap options are available.",
       ],
       whatItCovers: [
         "20% Part B coinsurance for all infused cancer drugs",
@@ -540,7 +540,7 @@ export const coverageArticles: CoverageArticleData[] = [
   ],
   showInlineCta: true,
   showMidInlineCta: true,
-  midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
+  midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "https://demographics.medicarecompared.com/ms/" },
   ctaBanner: {
     title: "Want a Medicare Plan with SilverSneakers?",
     text: "Our licensed agents can help you find Medicare Advantage or Medigap plans in your area that include SilverSneakers at no extra cost. Get personalized guidance today.",
@@ -694,7 +694,7 @@ export const coverageArticles: CoverageArticleData[] = [
       paragraphs: [
       "A Medicare Supplement (Medigap) plan can dramatically reduce your out-of-pocket costs for hip replacement surgery. With Medigap Plan G, your maximum cost for an inpatient hip replacement is $283 (the Part B deductible) because Plan G covers the Part A deductible, all Part A coinsurance, and all Part B coinsurance.",
       "For an outpatient hip replacement, Plan G covers the 20% coinsurance, so you only pay the $283 Part B deductible instead of $1,927-$2,154. Plan G also covers SNF coinsurance for days 21-100, meaning your rehabilitation stay costs $0. There are no network restrictions with Medigap, so you can see any surgeon who accepts Medicare.",
-      "Compare this to Original Medicare alone, where an inpatient surgery costs $1,736 and outpatient costs $1,927-$2,154. [Compare Medigap plans in your area](/find-plans/) to see what options are available. For a comparison of how Medigap protects you during major medical events, see our guide on [how Medigap covers major surgery compared to Medicare Advantage](/faqs/how-medigap-covers-cancer-compared-to-ma).",
+      "Compare this to Original Medicare alone, where an inpatient surgery costs $1,736 and outpatient costs $1,927-$2,154. [Compare Medigap plans in your area](https://demographics.medicarecompared.com/ms/) to see what options are available. For a comparison of how Medigap protects you during major medical events, see our guide on [how Medigap covers major surgery compared to Medicare Advantage](/faqs/how-medigap-covers-cancer-compared-to-ma).",
     ],
       callout: {
       type: "tip",
@@ -1028,7 +1028,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Medicare Coverage for Bariatric Surgery", description: "Learn about Medicare coverage for weight loss surgery as an alternative.", slug: "medicare-coverage-for-bariatric-surgery" }],
     sidebarRelatedLinks: ["does-medicare-cover-wegovy", "does-medicare-cover-ozempic", "how-is-medicare-part-d-changing-in-2026", "medicare-coverage-for-bariatric-surgery"],
     showMidInlineCta: true,
-    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "https://demographics.medicarecompared.com/ms/" },
     ctaBanner: {
       title: "Need Help with Medicare Drug Coverage?",
       text: "Our licensed agents can help you understand your Part D options and determine if you qualify for the GLP-1 Bridge Program. Get personalized guidance at no cost to you.",
@@ -1598,7 +1598,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "[Medicare Advantage plans (Part C)](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) must cover everything Original Medicare covers, and many offer supplemental benefits that Original Medicare does not. However, no Medicare Advantage plan covers the room and board costs of assisted living — that remains entirely excluded.",
           "What some Medicare Advantage plans do offer are supplemental benefits that can reduce the burden of care at home or in a facility. These may include meal delivery after a hospital stay, non-emergency medical transportation, in-home support services, personal emergency response systems, and caregiver support programs. These benefits vary significantly by plan and ZIP code.",
-          "If you or a loved one is considering assisted living, it is worth reviewing the Evidence of Coverage for any Medicare Advantage plan to understand what supplemental benefits are included. A licensed Medicare agent can help you [compare plans in your area](/find-plans/).",
+          "If you or a loved one is considering assisted living, it is worth reviewing the Evidence of Coverage for any Medicare Advantage plan to understand what supplemental benefits are included. A licensed Medicare agent can help you [compare plans in your area](https://demographics.medicarecompared.com/ms/).",
         ],
         whatItCovers: [
           "All Original Medicare services (Part A and Part B)",
@@ -4603,7 +4603,7 @@ export const coverageArticles: CoverageArticleData[] = [
     "Pre-Existing Conditions",
   ],
     showMidInlineCta: true,
-    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "https://demographics.medicarecompared.com/ms/" },
   ctaBanner: {
     title: "Ready to Explore Your Medicare Options?",
     text: "Our licensed agents can help you understand your enrollment options and find the right plan for your situation.",
@@ -5197,7 +5197,7 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "Strategies to Minimize Medicare Out-of-Pocket Costs",
       paragraphs: [
         "Seeing these 2026 cost increases can be concerning, but you have options to manage them effectively.",
-        "The single most effective way to control unpredictable costs is by enrolling in a Medicare Supplement (Medigap) plan. By covering the Part A deductible and the 20% Part B coinsurance, a Medigap plan provides a powerful buffer against rising healthcare expenses. You can [compare plans in your area](/find-plans/) to see what options are available."],
+        "The single most effective way to control unpredictable costs is by enrolling in a Medicare Supplement (Medigap) plan. By covering the Part A deductible and the 20% Part B coinsurance, a Medigap plan provides a powerful buffer against rising healthcare expenses. You can [compare plans in your area](https://demographics.medicarecompared.com/ms/) to see what options are available."],
       checklist: {
         title: "Cost Management Strategies",
         items: [
@@ -7028,7 +7028,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "Do you want predictable costs, the freedom to choose any doctor, avoid referrals, and peace of mind while traveling? If you answered yes, you are looking for a Medicare Supplement plan.",
           "Are you comfortable with unpredictable copayments, strict doctor networks, and referrals in exchange for a lower monthly premium and additional benefits? If your answer is yes, Medicare Advantage could work for you.",
-          "The best part about working with agents is that no matter which option you choose, we make sure it is the best for you. Perhaps you are already thinking about making the [switch from a Medicare Advantage to a Medicare Supplement plan](/faqs/switching-from-medicare-advantage-to-original-medicare/), or the other way around. Either way, you can [compare plans in your area](/find-plans/) to see real pricing."],
+          "The best part about working with agents is that no matter which option you choose, we make sure it is the best for you. Perhaps you are already thinking about making the [switch from a Medicare Advantage to a Medicare Supplement plan](/faqs/switching-from-medicare-advantage-to-original-medicare/), or the other way around. Either way, you can [compare plans in your area](https://demographics.medicarecompared.com/ms/) to see real pricing."],
       }
     ],
     faqs: [],
@@ -24131,7 +24131,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Medicare for Disabled",
       "Employer to Medicare Transition"],
     showMidInlineCta: true,
-    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "https://demographics.medicarecompared.com/ms/" },
     ctaBanner: {
       title: "Questions about Medicare Eligibility?",
       text: "Our licensed agents specialize in helping green card holders understand their Medicare options. Get free, personalized guidance on enrollment, costs, and coverage.",
@@ -26200,7 +26200,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { title: "Maryland Birthday Rule", description: "How the birthday rule works in Maryland.", slug: "maryland-medicare-supplement-birthday-rule" }],
     sidebarRelatedLinks: ["Illinois Birthday Rule", "Louisiana Birthday Rule", "Kentucky Birthday Rule", "Nevada Birthday Rule"],
     showMidInlineCta: true,
-    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "https://demographics.medicarecompared.com/ms/" },
     ctaBanner: {
       title: "Ready to Use Your Birthday Rule?",
       text: "Our licensed agents can help you compare Medigap plans and switch during your birthday window to get the best rate.",
@@ -31357,7 +31357,7 @@ export const coverageArticles: CoverageArticleData[] = [
     alternativesSection: {
       title: "Avoid the GEP: Enroll on Time",
       paragraphs: [
-        "The best way to avoid the GEP and its penalties is to enroll during your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/). If you have employer coverage, work with your HR department to understand when you need to enroll in Medicare. You can also [compare plans in your area](/find-plans/) to see what coverage options are available once you are enrolled.",
+        "The best way to avoid the GEP and its penalties is to enroll during your [Initial Enrollment Period](/faqs/medicare-initial-enrollment-period/). If you have employer coverage, work with your HR department to understand when you need to enroll in Medicare. You can also [compare plans in your area](https://demographics.medicarecompared.com/ms/) to see what coverage options are available once you are enrolled.",
         "Contact Social Security Administration (1-800-772-1213) or visit SSA.gov to enroll. You can also enroll online at Medicare.gov."],
       checklist: {
         title: "GEP Enrollment Checklist",
@@ -32442,7 +32442,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "does-medicare-cover-meals-on-wheels"],
     showInlineCta: true,
     showMidInlineCta: true,
-    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "/find-plans/" },
+    midCtaImage: { src: "/images/cta-banner-find-plan.jpg", alt: "Find the Right Medicare Plan for You", link: "https://demographics.medicarecompared.com/ms/" },
     ctaBanner: {
       title: "Looking for a Plan that Covers Medical Rides?",
       text: "Many Medicare Advantage plans include free transportation to medical appointments. A licensed Medicare specialist can help you find a plan with the transportation benefits you need.",

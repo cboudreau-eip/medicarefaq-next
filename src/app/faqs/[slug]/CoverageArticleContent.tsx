@@ -625,7 +625,7 @@ export default function CoverageArticleContent({ article }: { article: CoverageA
                     {article.showMidInlineCta && i === 0 && (
                       article.midCtaImage ? (
                         <figure key="mid-cta-img" className="my-8">
-                          <Link href={article.midCtaImage.link || "/find-plans/"}>
+                          <Link href={article.midCtaImage.link || "https://demographics.medicarecompared.com/ms/"}>
                             <img
                               src={article.midCtaImage.src}
                               alt={article.midCtaImage.alt || "Find the Right Medicare Plan for You"}
