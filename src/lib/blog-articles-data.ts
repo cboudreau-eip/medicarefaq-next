@@ -10105,8 +10105,8 @@ export const blogArticles: BlogArticleData[] = [
 {
     slug: "medicare-and-federal-retirement-fehb-fers-csrs",
     seo: {
-      title: "Medicare and Your Federal Retirement: How FEHB, FERS, and CSRS Work Together",
-      description: "Retiring from federal service? Learn how Medicare coordinates with FEHB, whether you need Part B, and what happens to your retiree health benefits when you turn 65.",
+      title: "Medicare and Federal Retirement: FEHB, FERS, CSRS Guide",
+      description: "Retiring from federal service? Learn how Medicare and federal retirement work together, whether you need Part B, and what happens to FEHB at age 65.",
       canonical: "https://www.medicarefaq.com/blog/medicare-and-federal-retirement-fehb-fers-csrs/",
       ogImage: "/images/generated/navigating-medicare-and-health.png",
       focusKeyword: "medicare and federal retirement",
