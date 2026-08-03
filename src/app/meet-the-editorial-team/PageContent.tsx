@@ -30,6 +30,14 @@ const teamMembers = [
     href: "/about-us",
   },
   {
+    name: "David Haass",
+    title: "CTO & Co-Founder",
+    credentials: "Forbes Finance Council Member",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A member and regular contributor to Forbes Finance Council, David combines deep Medicare industry expertise with technology leadership to build tools and educational resources that help beneficiaries make informed coverage decisions.",
+    expertise: ["Medicare Technology", "Forbes Finance Council", "Insurance Innovation", "Consumer Education"],
+    href: "/about-us/david-haass",
+  },
+  {
     name: "Ashlee Zareczny",
     title: "Compliance & Editorial Manager",
     credentials: "Licensed Insurance Professional",

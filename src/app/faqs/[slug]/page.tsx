@@ -77,13 +77,13 @@ export async function generateMetadata({
 
 /* ─── Author URL lookup ─── */
 const AUTHOR_URLS: Record<string, string> = {
-  "David Haass": `${BASE_URL}/about-us`,
+  "David Haass": `${BASE_URL}/about-us/david-haass`,
   "Jagger Esch": `${BASE_URL}/about-us/jagger-esch`,
   "Ashlee Zareczny": `${BASE_URL}/meet-the-editorial-team`,
 };
 
 const AUTHOR_TITLES: Record<string, string> = {
-  "David Haass": "Licensed Medicare Expert",
+  "David Haass": "CTO & Co-Founder, MedicareFAQ",
   "Jagger Esch": "Licensed Insurance Agent",
   "Ashlee Zareczny": "Compliance & Editorial Manager",
 };
