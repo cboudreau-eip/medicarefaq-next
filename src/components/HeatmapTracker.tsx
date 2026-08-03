@@ -70,7 +70,7 @@ export default function HeatmapTracker() {
 
     try {
       const heatmapSecret = process.env.NEXT_PUBLIC_HEATMAP_TRACK_SECRET || "";
-      await fetch("/api/heatmap/track", {
+      await fetch("/api/heatmap/track/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
