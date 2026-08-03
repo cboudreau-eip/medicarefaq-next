@@ -18,7 +18,7 @@ export const simpleFAQBatch9: SimpleFAQArticleData[] = [
     category: "Medicare Coverage",
     dateUpdated: "May 8, 2026",
     author: "David Haass",
-    authorTitle: "Licensed Medicare Expert",
+    authorTitle: "CTO & Co-Founder",
     reviewer: "Ashlee Zareczny",
     reviewerTitle: "Compliance & Editorial Manager",
     readTime: "10 min read",

@@ -81,7 +81,7 @@ export interface QuickReferenceItem {
 export interface AuthorData {
   name: string;
   initials: string;
-  role: "Author" | "Reviewer";
+  role: string;
   bio: string;
 }
 

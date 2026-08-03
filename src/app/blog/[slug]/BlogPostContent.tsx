@@ -513,6 +513,12 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   <div className="text-sm">
                     <p className="text-[#6B7280] text-xs uppercase tracking-wide font-semibold">Written By</p>
                     <span className="font-semibold text-[#1B2A4A]">{article.author}</span>
+                    {article.author === "David Haass" && (
+                      <p className="text-[#6B7280] text-xs">CTO & Co-Founder</p>
+                    )}
+                    {article.author === "Jagger Esch" && (
+                      <p className="text-[#6B7280] text-xs">Founder & President</p>
+                    )}
                   </div>
                 </div>
               )}

@@ -982,7 +982,7 @@ export const simpleFAQBatch1: SimpleFAQArticleData[] = [
     datePublished: 'January 1, 2020',
     dateUpdated: 'July 6, 2026',
     author: 'David Haass',
-    authorTitle: 'Licensed Medicare Expert',
+    authorTitle: 'CTO & Co-Founder',
     reviewer: 'Ashlee Zareczny',
     reviewerTitle: 'Licensed Medicare Agent',
     readTime: '9 min',

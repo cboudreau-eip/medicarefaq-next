@@ -24,8 +24,8 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
-    bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
   },
   reviewer: {
     name: "Ashlee Zareczny",
@@ -260,8 +260,8 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
-    bio: "David Haass is a licensed insurance agent specializing in Medicare.",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
   },
   reviewer: {
     name: "Ashlee Zareczny",
@@ -573,7 +573,7 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
+    role: "CTO & Co-Founder",
     bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
   },
   reviewer: {
@@ -839,7 +839,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -1051,7 +1051,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -1286,7 +1286,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -1530,7 +1530,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -1756,7 +1756,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -1875,7 +1875,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -2087,7 +2087,7 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
+    role: "CTO & Co-Founder",
     bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
   },
   reviewer: {
@@ -2405,7 +2405,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -2591,7 +2591,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -2759,7 +2759,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -2857,7 +2857,7 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
+    role: "CTO & Co-Founder",
     bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
   },
   reviewer: {
@@ -3055,7 +3055,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -3260,7 +3260,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -3469,7 +3469,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -3568,7 +3568,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -3673,7 +3673,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -3764,7 +3764,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -3969,7 +3969,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -4097,7 +4097,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -4301,7 +4301,7 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
+    role: "CTO & Co-Founder",
     bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
   },
   reviewer: {
@@ -4678,7 +4678,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -4843,7 +4843,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -4989,7 +4989,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -5104,7 +5104,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -5268,7 +5268,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -5428,7 +5428,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -5568,7 +5568,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -5709,7 +5709,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -5862,7 +5862,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -5980,7 +5980,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -6099,7 +6099,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -6220,7 +6220,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -6381,7 +6381,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -6521,7 +6521,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -6658,7 +6658,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author" as const,
+      role: "CTO & Co-Founder" as const,
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -6937,7 +6937,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -7093,7 +7093,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -7258,7 +7258,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -7418,7 +7418,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -7589,7 +7589,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -7758,7 +7758,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -7931,7 +7931,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -8099,7 +8099,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -8269,7 +8269,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -8446,7 +8446,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -8646,7 +8646,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -8871,7 +8871,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -9113,7 +9113,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -9353,7 +9353,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -9578,7 +9578,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -9774,7 +9774,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -9986,7 +9986,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -10196,7 +10196,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -10400,7 +10400,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -10598,7 +10598,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -10800,7 +10800,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -10999,7 +10999,7 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
+    role: "CTO & Co-Founder",
     bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
   },
   reviewer: {
@@ -11328,7 +11328,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -11534,7 +11534,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare insurance agent and co-founder of MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -11956,7 +11956,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -12101,7 +12101,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -12299,7 +12299,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -12449,7 +12449,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -12640,7 +12640,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -12825,7 +12825,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -13012,7 +13012,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -13205,7 +13205,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -13397,7 +13397,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -13600,7 +13600,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -13764,7 +13764,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -13932,7 +13932,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -14119,7 +14119,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -14283,7 +14283,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -14470,7 +14470,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -14673,7 +14673,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -14877,7 +14877,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -15075,7 +15075,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -15283,7 +15283,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -15489,7 +15489,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -15702,7 +15702,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -15896,7 +15896,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -16108,7 +16108,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -16316,7 +16316,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -16526,7 +16526,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -16731,7 +16731,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -16938,7 +16938,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -17151,7 +17151,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -17337,7 +17337,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -17505,7 +17505,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -17665,7 +17665,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -17825,7 +17825,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -17985,7 +17985,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -18148,7 +18148,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -18310,7 +18310,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -18468,7 +18468,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -18625,7 +18625,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -18785,7 +18785,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -18938,7 +18938,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a Licensed Medicare Expert at MedicareFAQ, helping beneficiaries navigate Medicare coverage options with clarity and confidence.",
     },
     reviewer: {
@@ -19112,7 +19112,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -19285,7 +19285,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -19458,7 +19458,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -19627,7 +19627,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -20566,7 +20566,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -20679,7 +20679,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -20792,7 +20792,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -20904,7 +20904,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21016,7 +21016,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21128,7 +21128,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21240,7 +21240,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21351,7 +21351,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21462,7 +21462,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21574,7 +21574,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21686,7 +21686,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21798,7 +21798,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -21994,7 +21994,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -22196,7 +22196,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author" as const,
+      role: "CTO & Co-Founder" as const,
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -22408,7 +22408,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author" as const,
+      role: "CTO & Co-Founder" as const,
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -22598,7 +22598,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author" as const,
+      role: "CTO & Co-Founder" as const,
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -22797,7 +22797,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author" as const,
+      role: "CTO & Co-Founder" as const,
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
     },
     reviewer: {
@@ -22989,7 +22989,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "Licensed Medicare agent specializing in Medicare costs and enrollment guidance.",
     },
     reviewer: {
@@ -23180,7 +23180,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "Licensed Medicare agent specializing in Medicare benefits and coverage guidance.",
     },
     reviewer: {
@@ -23624,7 +23624,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -23874,7 +23874,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -24155,7 +24155,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -24406,7 +24406,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -24655,7 +24655,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -24903,7 +24903,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -25190,7 +25190,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -25470,7 +25470,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -25962,7 +25962,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -26224,7 +26224,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -26731,7 +26731,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -26982,7 +26982,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -27258,7 +27258,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -27508,7 +27508,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed insurance agent and Medicare specialist at MedicareFAQ.com.",
     },
     reviewer: {
@@ -27761,7 +27761,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
     },
     reviewer: {
@@ -27991,7 +27991,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
     },
     reviewer: {
@@ -28222,7 +28222,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
     },
     reviewer: {
@@ -28430,7 +28430,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who helps beneficiaries understand their Medicare options.",
     },
     reviewer: {
@@ -28660,7 +28660,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -28862,7 +28862,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -29070,7 +29070,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -29255,7 +29255,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -29469,7 +29469,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -29679,7 +29679,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -30121,7 +30121,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare insurance agent and content contributor at MedicareFAQ.",
     },
     reviewer: {
@@ -30358,7 +30358,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert and member of the Forbes Finance Council who has been helping beneficiaries navigate their Medicare options.",
     },
     reviewer: {
@@ -30604,7 +30604,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -30807,7 +30807,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -31009,7 +31009,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -31214,7 +31214,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
     },
     reviewer: {
@@ -31416,8 +31416,8 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
-      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+      role: "CTO & Co-Founder",
+      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -31607,8 +31607,8 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
-      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+      role: "CTO & Co-Founder",
+      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -31820,8 +31820,8 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
-      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+      role: "CTO & Co-Founder",
+      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -32032,8 +32032,8 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
-      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+      role: "CTO & Co-Founder",
+      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -32244,8 +32244,8 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
-      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+      role: "CTO & Co-Founder",
+      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -32471,8 +32471,8 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
-      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+      role: "CTO & Co-Founder",
+      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -32694,8 +32694,8 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
-      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+      role: "CTO & Co-Founder",
+      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -32902,8 +32902,8 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
-      bio: "David Haass is a Medicare content writer at MedicareFAQ with extensive experience explaining Medicare benefits, enrollment, and coverage options to beneficiaries.",
+      role: "CTO & Co-Founder",
+      bio: "David Haass is the CTO and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. A Forbes Finance Council member, he leads the technology and editorial strategy behind one of America's most trusted Medicare education resources.",
     },
     reviewer: {
       name: "Ashlee Zareczny",
@@ -33110,7 +33110,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council and stays up-to-date with the latest Medicare trends and changes.",
     },
     reviewer: {
@@ -33320,7 +33320,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -33470,7 +33470,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -33645,7 +33645,7 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
+    role: "CTO & Co-Founder",
     bio: "David Haass is a Medicare expert and licensed insurance agent. He specializes in helping beneficiaries navigate their Medicare options and find the right coverage for their needs.",
   },
   reviewer: {
@@ -33949,7 +33949,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -34162,7 +34162,7 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
+    role: "CTO & Co-Founder",
     bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
   },
   reviewer: {
@@ -34458,7 +34458,7 @@ export const coverageArticles: CoverageArticleData[] = [
   author: {
     name: "David Haass",
     initials: "DH",
-    role: "Author",
+    role: "CTO & Co-Founder",
     bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
   },
   reviewer: {
@@ -34790,7 +34790,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
@@ -35039,7 +35039,7 @@ export const coverageArticles: CoverageArticleData[] = [
     author: {
       name: "David Haass",
       initials: "DH",
-      role: "Author",
+      role: "CTO & Co-Founder",
       bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com. He is a member and regular contributor to Forbes Finance Council.",
     },
     reviewer: {
