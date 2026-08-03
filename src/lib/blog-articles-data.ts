@@ -10476,6 +10476,7 @@ export const blogArticles: BlogArticleData[] = [
 
       { type: "heading", level: 2, text: "The Four Parts of Medicare Explained", id: "the-four-parts-explained" },
       { type: "paragraph", content: "Before looking at combinations, it helps to understand what each part does on its own. Think of the four parts as building blocks." },
+      { type: "paragraph", content: "Medicare is divided into four distinct parts, each covering a different category of healthcare. Here is a quick overview of what each one does and what it typically costs." },
       { type: "table", title: "The Four Parts of Medicare at a Glance", headers: ["Part", "What It Covers", "Who Administers It", "Typical Monthly Cost (2026)"], rows: [
         ["Part A", "Inpatient hospital stays, skilled nursing facility care, hospice, some home health", "Federal government (Original Medicare)", "$0 for most people (premium-free if you worked 40+ quarters)"],
         ["Part B", "Doctor visits, outpatient care, preventive services, durable medical equipment", "Federal government (Original Medicare)", "$185.00 standard premium"],
