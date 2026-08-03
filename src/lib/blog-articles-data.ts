@@ -14,6 +14,7 @@ import { medicareScamsArticle } from "./blog-article-medicare-scams";
 export const blogArticles: BlogArticleData[] = [
   {
     slug: "psa",
+    draft: true,
     seo: {
       focusKeyword: "",
       title: "Why Plan G Prices Vary by Carrier | MedicareFAQ",
