@@ -10392,7 +10392,6 @@ export const blogArticles: BlogArticleData[] = [
       { id: "what-to-do-before-open-enrollment", title: "What to Do Before Open Enrollment" },
       { id: "faqs", title: "Frequently Asked Questions" },
     ],
-    showInlineCta: true,
     relatedSlugs: ["how-is-medicare-part-d-changing-in-2026", "medicare-drug-price-negotiation-program-explained", "medicare-part-d-payment-plan-2026", "how-can-seniors-save-on-prescription-drug-costs", "medicare-costs-2026"],
     sections: [
       { type: "heading", level: 2, text: "What Is the Part D Premium Subsidy?", id: "what-is-the-part-d-subsidy" },
