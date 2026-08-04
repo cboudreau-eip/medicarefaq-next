@@ -220,7 +220,11 @@ export interface SimpleFAQArticleData {
 /* ─── Blog Article Schema ─── */
 
 export interface BlogSectionContent {
-  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image" | "warning" | "info" | "tip" | "success" | "note" | "error" | "eddie-pro-tip" | "steps";
+  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image" | "warning" | "info" | "tip" | "success" | "note" | "error" | "eddie-pro-tip" | "steps" | "zip-cta";
+  // For zip-cta
+  headline?: string;
+  subtext?: string;
+  buttonLabel?: string;
   // For headings
   level?: 2 | 3;
   text?: string;
