@@ -649,6 +649,10 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   }
                   // Track whether we've inserted key takeaways
                   let keyTakeawaysInserted = false;
+                  // Track whether we've auto-injected the mid-article zip-cta
+                  let midCtaInserted = false;
+                  // Count rendered sections to find midpoint injection spot
+                  let renderedSectionCount = 0;
                   while (i < article.sections.length) {
                     const section = article.sections[i];
                     // Insert key takeaways before the second h2 (after intro paragraphs)
@@ -702,6 +706,28 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                       }
                     }
                     elements.push(renderSection(section, i));
+                    renderedSectionCount++;
+                    // Auto-inject mid-article zip-cta after the 4th rendered section
+                    if (
+                      !midCtaInserted &&
+                      article.showInlineCta &&
+                      renderedSectionCount === 4 &&
+                      section.type !== 'zip-cta'
+                    ) {
+                      elements.push(
+                        <div key="auto-mid-cta" className="my-8 rounded-2xl bg-[#1B2A4A] px-8 py-8 text-center shadow-lg">
+                          <h3 className="text-xl font-bold text-white mb-2">Not Sure Which Medicare Plan Is Right for You?</h3>
+                          <p className="text-[#CBD5E1] text-[15px] mb-6 max-w-lg mx-auto">Answer a few quick questions and get matched with plans in your area. Free, no obligation.</p>
+                          <ZipFormModal
+                            coverageType="ms"
+                            triggerLabel="Get Started Free"
+                            triggerClassName="inline-flex items-center gap-2 bg-[#C0152A] hover:bg-[#a01122] text-white font-bold px-8 py-3 rounded-lg text-[15px] transition-colors"
+                            pageSection={`blog_mid_auto_${article.slug}`}
+                          />
+                        </div>
+                      );
+                      midCtaInserted = true;
+                    }
                     i++;
                   }
                   return elements;
