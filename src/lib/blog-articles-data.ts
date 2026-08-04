@@ -8997,7 +8997,7 @@ export const blogArticles: BlogArticleData[] = [
     seo: {
       focusKeyword: "utah birthday rule",
       title: "Utah Birthday Rule: How it Helps You Change Medigap Plans",
-      description: "Utah gives Medigap policyholders a 60-day window around their birthday to switch plans without medical underwriting. Learn how the Utah Birthday Rule works and how to use it to lower your premium or find better coverage.",
+      description: "Utah Medigap birthday rule: switch Medicare Supplement plans once a year without underwriting. See your 2026 window, which plans qualify, and how to apply.",
       canonical: "https://www.medicarefaq.com/blog/utah-birthday-rule/",
       ogImage: "https://images.pexels.com/photos/7810958/pexels-photo-7810958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
     },
