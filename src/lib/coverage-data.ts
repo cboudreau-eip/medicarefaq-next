@@ -31792,6 +31792,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "your-guide-to-medicare-enrollment-periods-when-to-sign-up",
       "turning-65-these-are-the-most-common-medicare-questions-answered",
       "medicare-starter-guide-what-to-do-in-your-first-90-days"],
+    showMidInlineCta: true,
     ctaBanner: {
       title: "Not Sure When Your Medicare Starts?",
       text: "A licensed Medicare specialist can walk you through your exact enrollment timeline and help you avoid coverage gaps or late penalties.",
