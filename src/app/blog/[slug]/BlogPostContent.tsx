@@ -650,7 +650,9 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                   // Track whether we've inserted key takeaways
                   let keyTakeawaysInserted = false;
                   // Track whether we've auto-injected the mid-article zip-cta
-                  let midCtaInserted = false;
+                  // Skip auto-inject if the article already has a manual zip-cta section
+                  const hasManualZipCta = article.sections.some(s => s.type === 'zip-cta');
+                  let midCtaInserted = hasManualZipCta;
                   // Count rendered sections to find midpoint injection spot
                   let renderedSectionCount = 0;
                   while (i < article.sections.length) {

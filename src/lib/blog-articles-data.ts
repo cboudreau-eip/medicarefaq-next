@@ -10435,6 +10435,7 @@ export const blogArticles: BlogArticleData[] = [
         "**Medicare Advantage enrollees** will likely see minimal impact, since their drug coverage is bundled differently.",
       ]},
       { type: "paragraph", content: "Some health policy experts have noted that making standalone Part D plans more expensive relative to Medicare Advantage could push more beneficiaries toward Medicare Advantage. For patients, this trade-off requires careful consideration. Medicare Advantage plans generally cost less up front, but they use narrower networks, require prior authorization more often, and can be difficult to leave. In most states, someone who switches to Medicare Advantage and later wants to return to Original Medicare may not be able to buy a [Medigap supplemental policy](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one/) at a standard rate." },
+      { type: "zip-cta", headline: "Not Sure Which Medicare Plan Is Right for You?", subtext: "Answer a few quick questions and get matched with plans in your area. Free, no obligation.", buttonLabel: "Get Started Free" },
       { type: "heading", level: 2, text: "What Is NOT Changing", id: "what-is-not-changing" },
       { type: "paragraph", content: "Several major protections from the Inflation Reduction Act remain fully in place for 2027, regardless of the subsidy ending:" },
       { type: "list", ordered: false, items: [
