@@ -2,11 +2,6 @@ import type { NextConfig } from "next";
 
 const securityHeaders = [
   {
-    // Prevent clickjacking — only allow the site to be framed by itself
-    key: "X-Frame-Options",
-    value: "SAMEORIGIN",
-  },
-  {
     // Prevent MIME-type sniffing — browsers must respect declared Content-Type
     key: "X-Content-Type-Options",
     value: "nosniff",
@@ -47,7 +42,8 @@ const securityHeaders = [
       "object-src 'none'",
       "base-uri 'self'",
       "form-action 'self' https://demographics.medicarecompared.com https://demographicsqa.medicarecompared.com",
-      "frame-ancestors 'self'",
+      // Allow framing by the site itself and by the CMS heatmap viewer (medicare-cms.vercel.app)
+      "frame-ancestors 'self' https://medicare-cms.vercel.app",
     ].join("; "),
   },
 ];
@@ -199,20 +195,11 @@ const nextConfig: NextConfig = {
     ];
   },
   async headers() {
-    // Security headers without X-Frame-Options restriction (for pages that embed iframes)
-    const securityHeadersIframeAllowed = securityHeaders.filter(
-      (h) => h.key !== "X-Frame-Options"
-    );
     return [
       {
         // Apply security headers to all routes
         source: "/(.*)",
         headers: securityHeaders,
-      },
-      {
-        // Admin heatmap dashboard needs to embed site pages in iframes — allow framing
-        source: "/admin/heatmap(.*)",
-        headers: securityHeadersIframeAllowed,
       },
     ];
   },
