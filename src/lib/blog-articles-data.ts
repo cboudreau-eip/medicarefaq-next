@@ -10640,7 +10640,6 @@ export const blogArticles: BlogArticleData[] = [
       { question: "Is there a penalty for not enrolling in Part D?", answer: "Yes. If you go 63 or more consecutive days without creditable prescription drug coverage after becoming eligible for Medicare, you will owe a late enrollment penalty. The penalty is 1% of the national base beneficiary premium for each month you went without coverage, and it is added to your Part D premium permanently." },
       { question: "Can I have Medicare and employer coverage at the same time?", answer: "Yes. If you or your spouse is still working and covered by an employer group health plan, you can delay Part B and Part D enrollment without penalty as long as the employer coverage is considered creditable. When that coverage ends, you have a Special Enrollment Period to sign up for Medicare without penalty." },
     ],
-    showInlineCta: true,
     relatedSlugs: [
       "medicare-parts-a-b-c-and-d-explained-simply",
       "medigap-vs-medicare-advantage",
