@@ -10371,6 +10371,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "8 min read",
     featured: true,
+    showInlineCta: true,
     image: "/images/generated/part-d-subsidy-ending-2027.png",
     imageAlt: "Medicare Part D prescription drug subsidy ending in 2027",
     keyTakeaways: [
@@ -10490,6 +10491,7 @@ export const blogArticles: BlogArticleData[] = [
     reviewer: "Ashlee Zareczny",
     readTime: "14 min read",
     featured: true,
+    showInlineCta: true,
     image: "/images/generated/how-to-combine-medicare-parts-hero.png",
     imageAlt: "Senior couple reviewing Medicare plan folders labeled A, B, C, and D at a kitchen table",
     keyTakeaways: [
