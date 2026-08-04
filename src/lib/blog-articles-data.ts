@@ -9991,7 +9991,7 @@ export const blogArticles: BlogArticleData[] = [
     showInlineCta: true,
     buzzsproutUrl: "",
     relatedSlugs: ["finding-your-best-medigap-plan", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "how-the-medigap-free-look-period-protects-you", "your-guide-to-medicare-enrollment-periods-when-to-sign-up"],
-    youtubeVideoId: "uiAV-co40Nc",
+    youtubeVideoId: "xWCvecJta3s",
   },
   {
     slug: "2027-medicare-part-b-premium-estimate",
