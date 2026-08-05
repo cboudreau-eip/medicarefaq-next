@@ -91,7 +91,14 @@ export default function HeatmapTracker() {
     maxScroll.current = 0;
 
     const handleClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
+      const raw = e.target as HTMLElement;
+      // Clicks usually land on an inner wrapper (a bare <div>/<span>), so walk up
+      // to the nearest meaningful element and record THAT, so the analytics show
+      // the button/link/heading instead of an unnamed container.
+      const target =
+        (raw?.closest?.(
+          "a, button, [role], [aria-label], input, select, textarea, label, summary, h1, h2, h3, h4, h5, h6"
+        ) as HTMLElement | null) || raw;
       const pageHeight = document.documentElement.scrollHeight;
       const scrollY = window.scrollY;
 
@@ -107,7 +114,14 @@ export default function HeatmapTracker() {
         element_tag: target.tagName.toLowerCase(),
         element_id: target.id || "",
         element_class: target.className?.toString().slice(0, 200) || "",
-        element_text: target.textContent?.slice(0, 100) || "",
+        element_text: (
+          target.getAttribute?.("aria-label") ||
+          target.textContent?.replace(/\s+/g, " ").trim() ||
+          target.getAttribute?.("href") ||
+          target.getAttribute?.("placeholder") ||
+          target.getAttribute?.("title") ||
+          ""
+        ).slice(0, 100),
         device_type: getDeviceType(),
         session_id: getSessionId(),
       });
