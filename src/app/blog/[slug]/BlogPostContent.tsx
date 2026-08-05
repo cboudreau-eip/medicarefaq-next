@@ -385,16 +385,20 @@ function renderSection(section: BlogSectionContent, idx: number) {
       const subtext = section.subtext || "Answer a few quick questions and get matched with plans in your area. Free, no obligation.";
       const btnLabel = section.buttonLabel || "Get Started Free";
       return (
-        <div key={idx} className="my-10 rounded-2xl bg-[#1B2A4A] px-8 py-8 text-center shadow-lg">
-          <h3 className="text-xl font-bold text-white mb-2">{headline}</h3>
-          <p className="text-[#CBD5E1] text-[15px] mb-6 max-w-lg mx-auto">{subtext}</p>
-          <ZipFormModal
-            coverageType="ms"
-            triggerLabel={btnLabel}
-            triggerClassName="inline-flex items-center gap-2 bg-[#C0152A] hover:bg-[#a01122] text-white font-bold px-8 py-3 rounded-lg text-[15px] transition-colors"
-            pageSection={`blog_mid_cta_${idx}`}
-          />
-        </div>
+        <ZipFormModal
+          key={idx}
+          coverageType="ms"
+          trigger={
+            <div className="my-10 rounded-2xl bg-[#1B2A4A] px-8 py-8 text-center shadow-lg cursor-pointer transition-all duration-150 hover:bg-[#243558] hover:shadow-xl group">
+              <h3 className="text-xl font-bold text-white mb-2">{headline}</h3>
+              <p className="text-[#CBD5E1] text-[15px] mb-6 max-w-lg mx-auto">{subtext}</p>
+              <span className="inline-flex items-center gap-2 bg-[#C0152A] group-hover:bg-[#a01122] text-white font-bold px-8 py-3 rounded-lg text-[15px] transition-colors">
+                {btnLabel}
+              </span>
+            </div>
+          }
+          pageSection={`blog_mid_cta_${idx}`}
+        />
       );
     }
     case "eddie-pro-tip": {
@@ -778,16 +782,20 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                       section.type !== 'zip-cta'
                     ) {
                       elements.push(
-                        <div key="auto-mid-cta" className="my-8 rounded-2xl bg-[#1B2A4A] px-8 py-8 text-center shadow-lg">
-                          <h3 className="text-xl font-bold text-white mb-2">Not Sure Which Medicare Plan Is Right for You?</h3>
-                          <p className="text-[#CBD5E1] text-[15px] mb-6 max-w-lg mx-auto">Answer a few quick questions and get matched with plans in your area. Free, no obligation.</p>
-                          <ZipFormModal
-                            coverageType="ms"
-                            triggerLabel="Get Started Free"
-                            triggerClassName="inline-flex items-center gap-2 bg-[#C0152A] hover:bg-[#a01122] text-white font-bold px-8 py-3 rounded-lg text-[15px] transition-colors"
-                            pageSection={`blog_mid_auto_${article.slug}`}
-                          />
-                        </div>
+                        <ZipFormModal
+                          key="auto-mid-cta"
+                          coverageType="ms"
+                          trigger={
+                            <div className="my-8 rounded-2xl bg-[#1B2A4A] px-8 py-8 text-center shadow-lg cursor-pointer transition-all duration-150 hover:bg-[#243558] hover:shadow-xl group">
+                              <h3 className="text-xl font-bold text-white mb-2">Not Sure Which Medicare Plan Is Right for You?</h3>
+                              <p className="text-[#CBD5E1] text-[15px] mb-6 max-w-lg mx-auto">Answer a few quick questions and get matched with plans in your area. Free, no obligation.</p>
+                              <span className="inline-flex items-center gap-2 bg-[#C0152A] group-hover:bg-[#a01122] text-white font-bold px-8 py-3 rounded-lg text-[15px] transition-colors">
+                                Get Started Free
+                              </span>
+                            </div>
+                          }
+                          pageSection={`blog_mid_auto_${article.slug}`}
+                        />
                       );
                       midCtaInserted = true;
                     }
