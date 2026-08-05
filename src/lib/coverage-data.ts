@@ -23013,10 +23013,12 @@ export const coverageArticles: CoverageArticleData[] = [
       { label: "How to Save", href: "/faqs/medicare-part-b-premiums" },
       { label: "FAQs", href: "/faqs/medicare-part-b-premiums" }],
     comparisonTable: [
-      { planType: "Standard Part B Premium (2026)", coverage: "$202.90/month", icon: "shield", notes: "Applies to most beneficiaries with income ≤$106,000 (single) or ≤$212,000 (married)" },
-      { planType: "IRMAA Tier 1", coverage: "$284.00/month", icon: "dollar-sign", notes: "Income $106,001–$133,500 (single) or $212,001–$267,000 (married)" },
-      { planType: "IRMAA Tier 2", coverage: "$405.80/month", icon: "dollar-sign", notes: "Income $133,501–$167,000 (single) or $267,001–$334,000 (married)" },
-      { planType: "IRMAA Tier 3 (highest)", coverage: "$609.90/month", icon: "dollar-sign", notes: "Income above $500,000 (single) or $750,000 (married)" }],
+      { planType: "Standard Part B Premium (2026)", coverage: "$202.90/month", icon: "shield", notes: "Applies to most beneficiaries with income ≤$109,000 (single) or ≤$218,000 (married)" },
+      { planType: "IRMAA (> 9K–K)", coverage: "$284.10/month", icon: "dollar-sign", notes: "Income >$109,000–$137,000 (single) or >$218,000–$274,000 (married)" },
+      { planType: "IRMAA Tier 2", coverage: "$405.80/month", icon: "dollar-sign", notes: "Income >$137,000–$171,000 (single) or >$274,000–$342,000 (married)" },
+      { planType: "IRMAA Tier 3", coverage: "$527.50/month", icon: "dollar-sign", notes: "Income >$171,000–$205,000 (single) or >$342,000–$410,000 (married). Based on 2024 tax return." },
+      { planType: "IRMAA Tier 4", coverage: "$649.20/month", icon: "dollar-sign", notes: "Income >$205,000–$500,000 (single) or >$410,000–$750,000 (married). Based on 2024 tax return." },
+      { planType: "IRMAA Tier 5 (highest)", coverage: "$689.90/month", icon: "dollar-sign", notes: "Income above $500,000 (single) or $750,000 (married)" }],
     planBreakdowns: [
       {
         planName: "Standard Part B Premium",
@@ -23087,11 +23089,12 @@ export const coverageArticles: CoverageArticleData[] = [
       title: "2026 Part B Premium & IRMAA Brackets",
       headers: ["Income (Single)", "Income (Married)", "Monthly Premium", "Annual Cost"],
       rows: [
-        { "Income (Single)": "≤$106,000", "Income (Married)": "≤$212,000", "Monthly Premium": "$202.90", "Annual Cost": "$2,434.80" },
-        { "Income (Single)": "$106,001–$133,500", "Income (Married)": "$212,001–$267,000", "Monthly Premium": "$284.00", "Annual Cost": "$3,408.00" },
-        { "Income (Single)": "$133,501–$167,000", "Income (Married)": "$267,001–$334,000", "Monthly Premium": "$405.80", "Annual Cost": "$4,869.60" },
-        { "Income (Single)": "$167,001–$200,000", "Income (Married)": "$334,001–$400,000", "Monthly Premium": "$527.50", "Annual Cost": "$6,330.00" },
-        { "Income (Single)": ">$500,000", "Income (Married)": ">$750,000", "Monthly Premium": "$609.90", "Annual Cost": "$7,318.80" }],
+        { "Income (Single)": "≤$109,000", "Income (Married)": "≤$218,000", "Monthly Premium": "$202.90", "Annual Cost": "$2,434.80" },
+        { "Income (Single)": ">$109,000–$137,000", "Income (Married)": ">$218,000–$274,000", "Monthly Premium": "$284.10", "Annual Cost": "$3,409.20" },
+        { "Income (Single)": ">$137,000–$171,000", "Income (Married)": ">$274,000–$342,000", "Monthly Premium": "$405.80", "Annual Cost": "$4,869.60" },
+        { "Income (Single)": ">$171,000–$205,000", "Income (Married)": ">$342,000–$410,000", "Monthly Premium": "$527.50", "Annual Cost": "$6,330.00" },
+        { "Income (Single)": ">$205,000–$500,000", "Income (Married)": ">$410,000–$750,000", "Monthly Premium": "$649.20", "Annual Cost": "$7,790.40" },
+        { "Income (Single)": ">$500,000", "Income (Married)": ">$750,000", "Monthly Premium": "$689.90", "Annual Cost": "$8,278.80" }],
       footnote: "IRMAA is based on your MAGI from 2 years prior (2024 tax return for 2026 premiums). Brackets are adjusted annually.",
     },
     exceptionsSection: {
@@ -23145,7 +23148,7 @@ export const coverageArticles: CoverageArticleData[] = [
       { question: "Does Everyone Pay the Same Part B Premium?", answer: "No. While most beneficiaries pay the standard $202.90/month in 2026, higher-income individuals pay more through IRMAA surcharges, and some may pay less through Giveback plans or Medicare Savings Programs." }],
     quickReference: [
       { icon: "dollar", text: "<strong>2026 Standard Premium:</strong> $202.90/month ($17.90 increase from 2025)" },
-      { icon: "alert", text: "<strong>IRMAA:</strong> Higher-income beneficiaries pay $284–$609.90/month based on income" },
+      { icon: "alert", text: "<strong>IRMAA:</strong> Higher-income beneficiaries pay $284.10–$689.90/month based on income" },
       { icon: "check", text: "<strong>Giveback Plans:</strong> Some MA plans reduce your Part B premium by up to $202.90/month" },
       { icon: "info", text: "<strong>Deductible:</strong> $283 annual Part B deductible in 2026" },
       { icon: "alert", text: "<strong>Late Penalty:</strong> 10% per year permanently if you don't enroll on time" }],
