@@ -471,7 +471,6 @@ export const blogArticles: BlogArticleData[] = [
       { id: "roth-vs-irmaa-math", title: "When the Math Still Favors Converting" },
       { id: "faqs-section", title: "Frequently Asked Questions" }
     ],
-    showInlineCta: true,
     sections: [
       { type: "heading", level: 2, text: "What Is a Roth Conversion?", id: "what-is-roth-conversion" },
       { type: "paragraph", content: "A Roth conversion moves money from a traditional IRA or 401(k) into a Roth IRA. The converted amount is taxed as ordinary income in the year of the conversion, but all future growth and qualified withdrawals from the Roth account are tax-free. The strategy is popular among retirees who want to reduce future Required Minimum Distributions (RMDs), eliminate taxes on investment gains, and leave tax-free assets to heirs." },
