@@ -458,7 +458,6 @@ export const blogArticles: BlogArticleData[] = [
     featured: false,
     image: "https://images.pexels.com/photos/6693661/pexels-photo-6693661.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     imageAlt: "Retirement planning documents and calculator on desk",
-    answerBlock: "A Roth conversion counts as taxable income in the year you convert. Medicare uses a 2-year lookback to set IRMAA surcharges, so a conversion in 2026 affects your 2028 premiums. To avoid surcharges, keep your total MAGI below $109,000 (single) or $218,000 (joint) in the conversion year. Spreading conversions across multiple years is the most common strategy.",
     keyTakeaways: ["Roth conversions add to your Modified Adjusted Gross Income (MAGI) in the year of conversion.", "Medicare uses a 2-year lookback: your 2026 income determines your 2028 IRMAA.", "IRMAA surcharges start at $109,001 (single) or $218,001 (joint) and can add up to $487/month to Part B premiums.", "Spreading conversions across multiple years can keep you below IRMAA thresholds each year.", "The optimal conversion window is before age 63, since Medicare eligibility starts at 65 and the lookback is 2 years.", "You cannot appeal IRMAA surcharges caused by voluntary Roth conversions — the SSA-44 form only covers life-changing events."],
     tableOfContents: [
       { id: "what-is-roth-conversion", title: "What Is a Roth Conversion?" },
