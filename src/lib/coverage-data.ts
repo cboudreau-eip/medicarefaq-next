@@ -822,6 +822,7 @@ export const coverageArticles: CoverageArticleData[] = [
     "does-medicare-cover-home-health-care",
     "how-medigap-covers-cancer-compared-to-ma",
   ],
+  youtubeVideoId: "17gj6EXEwf0",
 },
   {
     slug: "does-medicare-cover-zepbound",
