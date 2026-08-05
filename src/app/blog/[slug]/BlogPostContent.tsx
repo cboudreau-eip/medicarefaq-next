@@ -630,6 +630,15 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 />
               )}
 
+              {/* Answer Block — AI Overview-optimized, no preamble */}
+              {article.answerBlock && (
+                <div className="bg-[#F0F7F6] border border-[#B8D4D0] rounded-xl p-5 md:p-6 mb-6">
+                  <p className="text-[#1B2A4A] text-[16px] md:text-[17px] leading-relaxed font-medium m-0">
+                    {article.answerBlock}
+                  </p>
+                </div>
+              )}
+
               {/* Article sections with key takeaways after intro */}
               <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 mb-8">
                 {(() => {

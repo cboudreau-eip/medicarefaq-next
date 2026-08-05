@@ -277,6 +277,7 @@ export interface BlogArticleData {
   podcastDuration?: string;  // e.g. "5:18"
 
   // Full article content
+  answerBlock?: string;  // AI Overview-optimized answer — first 50 words, no preamble
   keyTakeaways?: string[];
   tableOfContents: { id: string; title: string }[];
   sections: BlogSectionContent[];
