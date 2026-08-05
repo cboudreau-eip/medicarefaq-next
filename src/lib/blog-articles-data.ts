@@ -7166,6 +7166,7 @@ export const blogArticles: BlogArticleData[] = [
         ["KFF (historical)", "Support drops 20+ points when 'higher taxes' or 'losing current plan' is mentioned"]]},
       { type: "paragraph", content: "The polling reveals a consistent pattern: Americans broadly support the goal of universal coverage but are divided on whether single-payer is the right mechanism, particularly when confronted with trade-offs like tax increases, loss of employer coverage, or potential wait times." },
 
+      { type: "zip-cta" },
       { type: "heading", level: 2, text: "How Would Medicare for All Affect Current Medicare Beneficiaries?", id: "beneficiaries" },
       { type: "paragraph", content: "If you are currently on Medicare, here is what would change under the Medicare for All proposal:" },
       { type: "list", ordered: false, items: [
@@ -7180,7 +7181,6 @@ export const blogArticles: BlogArticleData[] = [
         "Your taxes would likely increase to fund the expanded system"]},
       { type: "callout", calloutType: "info", calloutTitle: "Bottom Line for Current Beneficiaries", calloutText: "Current Medicare beneficiaries would gain expanded benefits and lose cost-sharing, but would also lose the ability to choose Medicare Advantage, Medigap, or standalone Part D plans. Whether you come out ahead financially depends on your current plan costs, health status, and how the new taxes are structured." },
 
-      { type: "zip-cta" },
       { type: "heading", level: 2, text: "Impact on Private Insurance", id: "private-insurance" },
       { type: "paragraph", content: "As of March 2025, approximately 165.6 million Americans under age 65 have employer-sponsored health insurance. Medicare for All would eliminate this coverage for services covered by the national plan. The private insurance industry, which employs roughly 2.7 million people, would be dramatically reduced." },
       { type: "paragraph", content: "Under the proposal, [Medicare Advantage](/faqs/medicare-advantage-vs-medicare-supplement) (which covers 33+ million seniors) and all private health insurance for covered services would end. Some supplemental private insurance might remain for non-covered services like cosmetic procedures. Opponents argue this would eliminate plans that millions of Americans chose and negotiated through their employers or unions." },
