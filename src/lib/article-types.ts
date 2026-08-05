@@ -220,7 +220,7 @@ export interface SimpleFAQArticleData {
 /* ─── Blog Article Schema ─── */
 
 export interface BlogSectionContent {
-  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image" | "warning" | "info" | "tip" | "success" | "note" | "error" | "eddie-pro-tip" | "steps" | "zip-cta";
+  type: "paragraph" | "heading" | "table" | "callout" | "list" | "faq" | "image" | "warning" | "info" | "tip" | "success" | "note" | "error" | "eddie-pro-tip" | "steps" | "zip-cta" | "window-graphic";
   // For zip-cta
   headline?: string;
   subtext?: string;
@@ -252,6 +252,15 @@ export interface BlogSectionContent {
   link?: string;
   // For steps
   steps?: { title: string; description: string }[];
+  // For window-graphic
+  stateName?: string;
+  windowDays?: number;
+  windowStart?: string; // e.g. "on birthday", "30 days before birthday"
+  exampleBirthday?: string; // e.g. "June 15"
+  exampleOpen?: string; // e.g. "June 15"
+  exampleClose?: string; // e.g. "August 13"
+  carrierRule?: string; // e.g. "Any carrier", "Current insurer only"
+  benefitRule?: string; // e.g. "Equal or lesser benefits"
 }
 
 export interface BlogArticleData {

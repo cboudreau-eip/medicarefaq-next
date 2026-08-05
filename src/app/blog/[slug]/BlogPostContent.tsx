@@ -408,6 +408,58 @@ function renderSection(section: BlogSectionContent, idx: number) {
         </div>
       );
     }
+    case "window-graphic": {
+      const state = section.stateName || "Your State";
+      const days = section.windowDays || 60;
+      const startDesc = section.windowStart || "on your birthday";
+      const exBday = section.exampleBirthday || "June 15";
+      const exOpen = section.exampleOpen || "June 15";
+      const exClose = section.exampleClose || "August 13";
+      const carrier = section.carrierRule || "Any carrier";
+      const benefit = section.benefitRule || "Equal or lesser benefits";
+      return (
+        <div key={idx} className="my-8 rounded-2xl border border-[#E5E7EB] bg-gradient-to-br from-[#F0FDFA] to-[#ECFDF5] p-6 shadow-sm" aria-label={`${state} birthday rule window diagram`}>
+          <div className="text-center mb-5">
+            <p className="text-sm font-semibold text-[#0F766E] uppercase tracking-wide mb-1">Your Switching Window</p>
+            <p className="text-2xl font-bold text-[#1B2A4A]">{days} Days — Starts {startDesc}</p>
+          </div>
+          {/* Timeline visual */}
+          <div className="relative mx-auto max-w-md mb-6">
+            <div className="flex items-center justify-between mb-2">
+              <div className="text-center">
+                <div className="w-4 h-4 rounded-full bg-[#0F766E] mx-auto mb-1" />
+                <p className="text-xs font-semibold text-[#0F766E]">Window Opens</p>
+                <p className="text-sm font-bold text-[#1B2A4A]">{exOpen}</p>
+              </div>
+              <div className="text-center">
+                <div className="w-4 h-4 rounded-full bg-[#DC2626] mx-auto mb-1" />
+                <p className="text-xs font-semibold text-[#DC2626]">Window Closes</p>
+                <p className="text-sm font-bold text-[#1B2A4A]">{exClose}</p>
+              </div>
+            </div>
+            <div className="h-3 rounded-full bg-[#D1FAE5] relative overflow-hidden">
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#0F766E] to-[#10B981]" />
+            </div>
+            <p className="text-center text-xs text-[#6B7280] mt-2">Example: If your birthday is {exBday}</p>
+          </div>
+          {/* Rules summary */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
+            <div className="bg-white rounded-lg p-3 border border-[#E5E7EB]">
+              <p className="text-xs text-[#6B7280] mb-0.5">Window Length</p>
+              <p className="text-sm font-bold text-[#1B2A4A]">{days} days</p>
+            </div>
+            <div className="bg-white rounded-lg p-3 border border-[#E5E7EB]">
+              <p className="text-xs text-[#6B7280] mb-0.5">Carrier Switching</p>
+              <p className="text-sm font-bold text-[#1B2A4A]">{carrier}</p>
+            </div>
+            <div className="bg-white rounded-lg p-3 border border-[#E5E7EB]">
+              <p className="text-xs text-[#6B7280] mb-0.5">Plan Benefits</p>
+              <p className="text-sm font-bold text-[#1B2A4A]">{benefit}</p>
+            </div>
+          </div>
+        </div>
+      );
+    }
     default:
       return null;
   }
