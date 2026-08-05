@@ -21,20 +21,20 @@ export default function InlineCardCTA({
   pageSection = "inline_card_cta",
 }: InlineCardCTAProps) {
   return (
-    <div className="bg-[#1B2A4A] border-l-4 border-[#0D9488] rounded-xl px-6 py-6 my-8 shadow-sm">
+    <a
+      href="https://demographics.medicarecompared.com/ms/"
+      id={`inline-cta-${pageSection}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block bg-[#1B2A4A] border-l-4 border-[#0D9488] rounded-xl px-6 py-6 my-8 shadow-sm cursor-pointer transition-all duration-150 hover:bg-[#243558] hover:shadow-md group"
+    >
       <h3 className="text-[28px] md:text-[32px] font-bold text-white leading-tight mb-4">
         {heading}
       </h3>
-      <a
-        href="https://demographics.medicarecompared.com/ms/"
-        id={`inline-cta-${pageSection}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-red-900/20 text-[15px]"
-      >
+      <span className="inline-flex items-center gap-2 bg-[#C41230] group-hover:bg-[#A30F28] text-white font-bold px-6 py-3.5 rounded-lg transition-all duration-150 shadow-lg shadow-red-900/20 text-[15px]">
         Get My Plan Recommendations
         <ArrowRight className="w-4 h-4" />
-      </a>
-    </div>
+      </span>
+    </a>
   );
 }
