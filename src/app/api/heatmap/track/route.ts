@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getDb } from "@/lib/heatmap/db";
+import { getDb, initHeatmapSchema } from "@/lib/heatmap/db";
+
+// Ensure the pageviews table exists once per warm instance (idempotent DDL).
+let pageviewSchemaReady = false;
 
 const ADMIN_EMAIL = process.env.HEATMAP_ADMIN_EMAIL ?? "";
 const ADMIN_PASSWORD = process.env.HEATMAP_ADMIN_PASSWORD ?? "";
@@ -37,14 +40,23 @@ interface ScrollEvent {
   session_id?: string;
 }
 
+interface PageviewEvent {
+  page_path: string;
+  device_type?: string;
+  session_id?: string;
+  referrer?: string;
+}
+
 interface TrackPayload {
   clicks?: ClickEvent[];
   scrolls?: ScrollEvent[];
+  pageviews?: PageviewEvent[];
 }
 
 // Maximum events per request to prevent abuse
 const MAX_CLICKS_PER_REQUEST = 50;
 const MAX_SCROLLS_PER_REQUEST = 10;
+const MAX_PAGEVIEWS_PER_REQUEST = 5;
 
 // Maximum string lengths to prevent oversized payloads
 const MAX_PATH_LENGTH = 500;
@@ -158,6 +170,25 @@ export async function POST(request: NextRequest) {
             ${scroll.page_path}, ${scroll.max_scroll_percent},
             ${scroll.viewport_height}, ${scroll.page_height},
             ${sanitizeString(scroll.device_type) ?? "unknown"}, ${sanitizeString(scroll.session_id)}
+          )
+        `;
+      }
+    }
+
+    // Insert pageviews (the traffic load-beacon)
+    const pageviews = (body.pageviews || []).slice(0, MAX_PAGEVIEWS_PER_REQUEST);
+    if (pageviews.length > 0) {
+      if (!pageviewSchemaReady) {
+        await initHeatmapSchema(); // idempotent; provisions heatmap_pageviews on first use
+        pageviewSchemaReady = true;
+      }
+      for (const pv of pageviews) {
+        if (!isValidPagePath(pv.page_path)) continue;
+        await sql`
+          INSERT INTO heatmap_pageviews (page_path, device_type, session_id, referrer)
+          VALUES (
+            ${pv.page_path}, ${sanitizeString(pv.device_type) ?? "unknown"},
+            ${sanitizeString(pv.session_id)}, ${sanitizeString(pv.referrer)}
           )
         `;
       }

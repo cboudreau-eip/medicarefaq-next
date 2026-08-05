@@ -55,4 +55,22 @@ export async function initHeatmapSchema() {
   await sql`
     CREATE INDEX IF NOT EXISTS idx_scroll_created_at ON heatmap_scroll(created_at)
   `;
+
+  // Pageviews (traffic beacon): one row per page load, for daily visits + top pages.
+  await sql`
+    CREATE TABLE IF NOT EXISTS heatmap_pageviews (
+      id SERIAL PRIMARY KEY,
+      page_path TEXT NOT NULL,
+      device_type TEXT NOT NULL DEFAULT 'desktop',
+      session_id TEXT,
+      referrer TEXT,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+    )
+  `;
+  await sql`
+    CREATE INDEX IF NOT EXISTS idx_pageviews_page_path ON heatmap_pageviews(page_path)
+  `;
+  await sql`
+    CREATE INDEX IF NOT EXISTS idx_pageviews_created_at ON heatmap_pageviews(created_at)
+  `;
 }

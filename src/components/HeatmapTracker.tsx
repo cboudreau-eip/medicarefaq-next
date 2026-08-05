@@ -161,5 +161,30 @@ export default function HeatmapTracker() {
     };
   }, [pathname, flush]);
 
+  // Record a pageview on load (the traffic beacon). Fires once per path and
+  // skips admin pages, the same as the click/scroll tracking. Sent immediately
+  // (not debounced) so a bounce with no interaction is still counted.
+  useEffect(() => {
+    if (pathname.startsWith("/admin")) return;
+    const heatmapSecret = process.env.NEXT_PUBLIC_HEATMAP_TRACK_SECRET || "";
+    fetch("/api/heatmap/track/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-heatmap-secret": heatmapSecret },
+      body: JSON.stringify({
+        pageviews: [
+          {
+            page_path: pathname || "/",
+            device_type: getDeviceType(),
+            session_id: getSessionId(),
+            referrer: typeof document !== "undefined" ? document.referrer || "" : "",
+          },
+        ],
+      }),
+      keepalive: true,
+    }).catch(() => {
+      // Silently fail — never disrupt the page.
+    });
+  }, [pathname]);
+
   return null; // Invisible component
 }
