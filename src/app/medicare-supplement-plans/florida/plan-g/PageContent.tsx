@@ -172,11 +172,12 @@ export default function FloridaPlanGContent() {
               buttonLabel={`Compare ${STATE_NAME} Plan G Rates`}
               title={`Compare Plan G Rates in ${STATE_NAME}`}
               subtitle="Enter your ZIP code to see personalized Plan G rates from top carriers in your area."
-            >
-              <span className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors cursor-pointer shadow-lg shadow-teal-500/25">
-                Compare {STATE_NAME} Plan G Rates <ArrowRight className="w-5 h-5" aria-hidden="true" />
-              </span>
-            </ZipFormModal>
+              trigger={
+                <span className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-400 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors cursor-pointer shadow-lg shadow-teal-500/25">
+                  Compare {STATE_NAME} Plan G Rates <ArrowRight className="w-5 h-5" aria-hidden="true" />
+                </span>
+              }
+            />
             <a
               href="tel:+18884410465"
               onClick={() => trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "florida_plan_g_hero" })}
@@ -294,24 +295,25 @@ export default function FloridaPlanGContent() {
       <section className="py-8">
         <div className="max-w-5xl mx-auto px-4">
           <ZipFormModal
-            pageSection="florida_plan_g_mid"
-            triggerId="fl-plan-g-mid-compare"
-            buttonLabel="Compare Plan G Rates"
-            title={`Compare Plan G Rates in ${STATE_NAME}`}
-            subtitle="Enter your ZIP code to see personalized Plan G rates from top carriers in your area."
-          >
-            <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 md:p-10 text-center cursor-pointer hover:shadow-xl transition-shadow group border-l-4 border-teal-500">
-              <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
-                See Plan G Rates in Your ZIP Code
-              </h3>
-              <p className="text-slate-300 mb-6 max-w-xl mx-auto">
-                Rates vary significantly by location. Enter your zip code to see what carriers charge for Plan G in your area of {STATE_NAME}.
-              </p>
-              <span className="inline-flex items-center gap-2 bg-teal-500 group-hover:bg-teal-400 text-white font-bold px-8 py-3.5 rounded-xl text-lg transition-colors shadow-lg shadow-teal-500/25">
-                Compare Plan G Rates <ArrowRight className="w-5 h-5" aria-hidden="true" />
-              </span>
-            </div>
-          </ZipFormModal>
+           pageSection="florida_plan_g_mid"
+           triggerId="fl-plan-g-mid-compare"
+           buttonLabel="Compare Plan G Rates"
+           title={`Compare Plan G Rates in ${STATE_NAME}`}
+           subtitle="Enter your ZIP code to see personalized Plan G rates from top carriers in your area."
+            trigger={
+              <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-8 md:p-10 text-center cursor-pointer hover:shadow-xl transition-shadow group border-l-4 border-teal-500">
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
+                  See Plan G Rates in Your ZIP Code
+                </h3>
+                <p className="text-slate-300 mb-6 max-w-xl mx-auto">
+                  Rates vary significantly by location. Enter your zip code to see what carriers charge for Plan G in your area of {STATE_NAME}.
+                </p>
+                <span className="inline-flex items-center gap-2 bg-teal-500 group-hover:bg-teal-400 text-white font-bold px-8 py-3.5 rounded-xl text-lg transition-colors shadow-lg shadow-teal-500/25">
+                  Compare Plan G Rates <ArrowRight className="w-5 h-5" aria-hidden="true" />
+                </span>
+              </div>
+            }
+          />
         </div>
       </section>
 
@@ -509,16 +511,17 @@ export default function FloridaPlanGContent() {
           {/* Inline CTA */}
           <div className="mt-10">
             <ZipFormModal
-              pageSection="florida_plan_g_enroll"
-              triggerId="fl-plan-g-enroll-compare"
-              buttonLabel="Compare Plan G Rates"
-              title={`Compare Plan G Rates in ${STATE_NAME}`}
-              subtitle="Enter your ZIP code to see personalized Plan G rates from top carriers in your area."
-            >
-              <span className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-bold px-6 py-3.5 rounded-xl transition-colors cursor-pointer">
-                Compare Plan G Rates in {STATE_NAME} <ArrowRight className="w-4 h-4" aria-hidden="true" />
-              </span>
-            </ZipFormModal>
+             pageSection="florida_plan_g_enroll"
+             triggerId="fl-plan-g-enroll-compare"
+             buttonLabel="Compare Plan G Rates"
+             title={`Compare Plan G Rates in ${STATE_NAME}`}
+             subtitle="Enter your ZIP code to see personalized Plan G rates from top carriers in your area."
+              trigger={
+                <span className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-bold px-6 py-3.5 rounded-xl transition-colors cursor-pointer">
+                  Compare Plan G Rates in {STATE_NAME} <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                </span>
+              }
+            />
           </div>
         </div>
       </section>
@@ -560,37 +563,38 @@ export default function FloridaPlanGContent() {
       <section className="py-16">
         <div className="max-w-5xl mx-auto px-4">
           <ZipFormModal
-            pageSection="florida_plan_g_bottom"
-            triggerId="fl-plan-g-bottom-compare"
-            buttonLabel="Compare Plan G Rates"
-            title={`Compare Plan G Rates in ${STATE_NAME}`}
-            subtitle="Enter your ZIP code to see personalized Plan G rates from top carriers in your area."
-          >
-            <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 rounded-2xl p-10 md:p-14 text-center cursor-pointer hover:shadow-2xl transition-shadow group border-l-4 border-teal-500">
-              <Shield className="w-12 h-12 text-teal-400 mx-auto mb-4" aria-hidden="true" />
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                Find the Lowest Plan G Rate in Your Area
-              </h3>
-              <p className="text-blue-200 mb-8 max-w-xl mx-auto">
-                The same Plan G can cost 50% more from one carrier to another in the same zip code.
-                Compare rates from {FLORIDA_STATS.numberOfCarriers} carriers in {STATE_NAME} to make sure you are not overpaying.
-              </p>
-              <span className="inline-flex items-center gap-2 bg-teal-500 group-hover:bg-teal-400 text-white font-bold px-10 py-4 rounded-xl text-lg transition-colors shadow-lg shadow-teal-500/25">
-                Compare Plan G Rates <ArrowRight className="w-5 h-5" aria-hidden="true" />
-              </span>
-              <p className="text-blue-300 text-sm mt-4">
-                Or call{" "}
-                <a
-                  href="tel:+18884410465"
-                  onClick={(e) => { e.stopPropagation(); trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "florida_plan_g_bottom" }); }}
-                  className="invoca-phone text-teal-400 hover:text-teal-300 font-semibold underline"
-                >
-                  (888) 441-0465
-                </a>{" "}
-                to speak with a licensed agent
-              </p>
-            </div>
-          </ZipFormModal>
+           pageSection="florida_plan_g_bottom"
+           triggerId="fl-plan-g-bottom-compare"
+           buttonLabel="Compare Plan G Rates"
+           title={`Compare Plan G Rates in ${STATE_NAME}`}
+           subtitle="Enter your ZIP code to see personalized Plan G rates from top carriers in your area."
+            trigger={
+              <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 rounded-2xl p-10 md:p-14 text-center cursor-pointer hover:shadow-2xl transition-shadow group border-l-4 border-teal-500">
+                <Shield className="w-12 h-12 text-teal-400 mx-auto mb-4" aria-hidden="true" />
+                <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
+                  Find the Lowest Plan G Rate in Your Area
+                </h3>
+                <p className="text-blue-200 mb-8 max-w-xl mx-auto">
+                  The same Plan G can cost 50% more from one carrier to another in the same zip code.
+                  Compare rates from {FLORIDA_STATS.numberOfCarriers} carriers in {STATE_NAME} to make sure you are not overpaying.
+                </p>
+                <span className="inline-flex items-center gap-2 bg-teal-500 group-hover:bg-teal-400 text-white font-bold px-10 py-4 rounded-xl text-lg transition-colors shadow-lg shadow-teal-500/25">
+                  Compare Plan G Rates <ArrowRight className="w-5 h-5" aria-hidden="true" />
+                </span>
+                <p className="text-blue-300 text-sm mt-4">
+                  Or call{" "}
+                  <a
+                    href="tel:+18884410465"
+                    onClick={(e) => { e.stopPropagation(); trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "florida_plan_g_bottom" }); }}
+                    className="invoca-phone text-teal-400 hover:text-teal-300 font-semibold underline"
+                  >
+                    (888) 441-0465
+                  </a>{" "}
+                  to speak with a licensed agent
+                </p>
+              </div>
+            }
+          />
         </div>
       </section>
 
