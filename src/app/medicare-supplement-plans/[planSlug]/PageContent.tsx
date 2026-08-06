@@ -104,7 +104,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
               buttonLabel="Compare Plans"
               trigger={
                 <button className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-                  Get a Free Quote <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                  Compare Plans <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </button>
               }
             />
