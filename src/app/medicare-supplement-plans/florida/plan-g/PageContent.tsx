@@ -167,6 +167,7 @@ export default function FloridaPlanGContent() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
             <ZipFormModal
+              coverageType="ms"
               pageSection="florida_plan_g_hero"
               triggerId="fl-plan-g-hero-compare"
               buttonLabel={`Compare ${STATE_NAME} Plan G Rates`}
@@ -295,7 +296,8 @@ export default function FloridaPlanGContent() {
       <section className="py-8">
         <div className="max-w-5xl mx-auto px-4">
           <ZipFormModal
-           pageSection="florida_plan_g_mid"
+           coverageType="ms"
+              pageSection="florida_plan_g_mid"
            triggerId="fl-plan-g-mid-compare"
            buttonLabel="Compare Plan G Rates"
            title={`Compare Plan G Rates in ${STATE_NAME}`}
@@ -511,7 +513,8 @@ export default function FloridaPlanGContent() {
           {/* Inline CTA */}
           <div className="mt-10">
             <ZipFormModal
-             pageSection="florida_plan_g_enroll"
+             coverageType="ms"
+              pageSection="florida_plan_g_enroll"
              triggerId="fl-plan-g-enroll-compare"
              buttonLabel="Compare Plan G Rates"
              title={`Compare Plan G Rates in ${STATE_NAME}`}
@@ -563,7 +566,8 @@ export default function FloridaPlanGContent() {
       <section className="py-16">
         <div className="max-w-5xl mx-auto px-4">
           <ZipFormModal
-           pageSection="florida_plan_g_bottom"
+           coverageType="ms"
+              pageSection="florida_plan_g_bottom"
            triggerId="fl-plan-g-bottom-compare"
            buttonLabel="Compare Plan G Rates"
            title={`Compare Plan G Rates in ${STATE_NAME}`}
