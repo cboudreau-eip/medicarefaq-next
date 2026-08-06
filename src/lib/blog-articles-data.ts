@@ -1386,6 +1386,9 @@ export const blogArticles: BlogArticleData[] = [
     featured: false,
     image: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&h=500&fit=crop",
     imageAlt: "Senior couple reviewing Medicare plan documents at kitchen table during Annual Enrollment Period",
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19608513-medicare-annual-enrollment-mistakes-to-avoid.mp3?download=true",
+    podcastDate: "August 6, 2026",
+    podcastDuration: "5:00",
     keyTakeaways: [
       "The 2026 Medicare Annual Enrollment Period (AEP) runs October 15 through December 7, 2026. Coverage changes take effect January 1, 2027.",
       "Your insurer must mail your Annual Notice of Change (ANOC) by September 30. Read it before the AEP opens.",
