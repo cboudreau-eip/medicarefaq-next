@@ -319,9 +319,6 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 </div>
               </section>
 
-              {/* Related Plans */}
-              {relatedPlans.length > 0 && (
-                <section id="related" className="mb-14">
               {/* Compare by State - Plan G only */}
               {planSlug === "plan-g" && (
                 <section id="compare-by-state" className="mb-14">
