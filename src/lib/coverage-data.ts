@@ -35611,12 +35611,20 @@ export const coverageArticles: CoverageArticleData[] = [
       { question: "Is insulin covered under Part D?", answer: "Yes. All Part D plans must cap insulin costs at $35 per month per covered insulin product, regardless of the coverage phase you are in. This applies to both vials and pens." },
       { question: "What happens if I do not sign up for Part D?", answer: "If you go 63+ days without creditable drug coverage and later enroll, you will pay a late enrollment penalty of 1% of the national base premium ($38.99 in 2026) for every month you were without coverage. This penalty is permanent and added to your monthly premium." },
     ],
-    tableOfContents: [
-      { title: "Plan Comparison Table", description: "Side-by-side comparison of the top-rated Part D plans for 2026.", slug: "top-5-medicare-prescription-drug-plans" },
-      { title: "How We Ranked These Plans", description: "Our methodology for evaluating Part D plans.", slug: "top-5-medicare-prescription-drug-plans" },
-      { title: "What Every Plan Covers", description: "Required coverage all Part D plans must provide.", slug: "top-5-medicare-prescription-drug-plans" },
-      { title: "The $2,000 Cap Explained", description: "How the new out-of-pocket maximum works.", slug: "top-5-medicare-prescription-drug-plans" },
-      { title: "How to Choose", description: "Step-by-step guide to selecting the right plan.", slug: "top-5-medicare-prescription-drug-plans" },
+
+    quickReference: [
+      { label: "Average Monthly Premium", value: "$38.99/mo (2026)" },
+      { label: "Maximum Deductible", value: "$615 (2026)" },
+      { label: "Out-of-Pocket Cap", value: "$2,000/year (2026)" },
+      { label: "Insulin Cap", value: "$35/month" },
+      { label: "Open Enrollment", value: "Oct 15 - Dec 7" },
+      { label: "Late Penalty", value: "1% per month without coverage" },
+    ],
+    relatedTopics: [
+      { title: "Medicare Part D Payment Plan 2026", description: "Spread your drug costs into monthly payments.", slug: "medicare-part-d-payment-plan-2026" },
+      { title: "Part D Formulary", description: "How to check if your drugs are covered.", slug: "part-d-formulary" },
+      { title: "Part D Subsidy Ending 2027", description: "The premium stabilization program is ending.", slug: "medicare-part-d-subsidy-ending-2027" },
+      { title: "Save on Prescription Drug Costs", description: "Tips to reduce what you pay for medications.", slug: "how-can-seniors-save-on-prescription-drug-costs" },
     ],
     sidebarRelatedLinks: [
       "Medicare Part D Costs",
