@@ -35518,18 +35518,14 @@ export const coverageArticles: CoverageArticleData[] = [
         { plan: "Part B", status: "not-covered" },
       ],
     },
-    comparisonTable: {
-      title: "Top Medicare Part D Plans Comparison (2026)",
-      headers: ["Plan Name", "Carrier", "Monthly Premium", "Deductible", "Star Rating", "Key Feature"],
-      rows: [
-        ["SilverScript Choice", "CVS Health/Aetna", "$28-$65/mo", "$0-$250", "4.5 stars", "Nationwide availability, preferred pharmacy network"],
-        ["Wellcare Value Script", "Centene", "$0-$30/mo", "$0-$615", "4 stars", "Lowest premiums, strong generic coverage"],
-        ["AARP MedicareRx Preferred", "UnitedHealthcare", "$45-$95/mo", "$0", "4.5 stars", "Largest formulary, $0 deductible, AARP member benefits"],
-        ["Humana Walmart Value Rx", "Humana", "$0-$25/mo", "$0-$615", "4 stars", "$0 premium option, Walmart preferred pharmacy"],
-        ["Cigna Secure Rx", "Cigna", "$15-$55/mo", "$0-$250", "4 stars", "$0 deductible option, strong specialty drug coverage"],
-        ["Blue Cross MedicareRx Plus", "Anthem/BCBS", "$35-$80/mo", "$0-$250", "4 stars", "Broad pharmacy network, gap coverage on generics"],
-      ],
-    },
+    comparisonTable: [
+      { planType: "SilverScript Choice (CVS Health/Aetna)", coverage: "$28-$65/mo premium, $0-$250 deductible", icon: "shield", notes: "4.5 stars. Nationwide availability, preferred pharmacy network" },
+      { planType: "Wellcare Value Script (Centene)", coverage: "$0-$30/mo premium, $0-$615 deductible", icon: "shield", notes: "4 stars. Lowest premiums, strong generic coverage" },
+      { planType: "AARP MedicareRx Preferred (UnitedHealthcare)", coverage: "$45-$95/mo premium, $0 deductible", icon: "shield", notes: "4.5 stars. Largest formulary, $0 deductible, AARP member benefits" },
+      { planType: "Humana Walmart Value Rx (Humana)", coverage: "$0-$25/mo premium, $0-$615 deductible", icon: "shield", notes: "4 stars. $0 premium option, Walmart preferred pharmacy" },
+      { planType: "Cigna Secure Rx (Cigna)", coverage: "$15-$55/mo premium, $0-$250 deductible", icon: "shield", notes: "4 stars. $0 deductible option, strong specialty drug coverage" },
+      { planType: "Blue Cross MedicareRx Plus (Anthem/BCBS)", coverage: "$35-$80/mo premium, $0-$250 deductible", icon: "shield", notes: "4 stars. Broad pharmacy network, gap coverage on generics" },
+    ],
     planBreakdowns: [
       {
         planName: "How We Ranked These Plans",
