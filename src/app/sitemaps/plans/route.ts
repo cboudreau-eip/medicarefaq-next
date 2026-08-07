@@ -80,7 +80,23 @@ export function GET() {
     });
   }
 
-  return new NextResponse(buildXml(entries), {
+
+  // Plan G state-specific rate pages
+  const planGStates = ["florida", "texas", "california", "new-york", "ohio", "pennsylvania", "illinois", "north-carolina", "georgia", "michigan"];
+  for (const state of planGStates) {
+    entries.push({
+      url: `${BASE_URL}/medicare-supplement-plans/${state}/plan-g/`,
+      priority: "0.8",
+      changefreq: "monthly",
+    });
+    entries.push({
+      url: `${BASE_URL}/medicare-supplement-plans/${state}/plan-n/`,
+      priority: "0.8",
+      changefreq: "monthly",
+    });
+  }
+
+    return new NextResponse(buildXml(entries), {
     headers: {
       "Content-Type": "application/xml",
       "Cache-Control": "public, max-age=86400, s-maxage=86400",
