@@ -918,6 +918,74 @@ export default function NorthCarolinaPageContent() {
         </div>
       </section>
 
+      
+      {/* ─── Explore Plans Section ─── */}
+      <section className="py-12 bg-white border-t border-slate-100">
+        <div className="container max-w-5xl">
+          <h2
+            className="text-2xl md:text-3xl font-bold text-slate-900 mb-2"
+            style={{ fontFamily: "'Merriweather', serif" }}
+          >
+            Explore North Carolina Medicare Supplement Plans
+          </h2>
+          <p className="text-slate-600 mb-8">
+            Compare rates and coverage details for specific plan types available to North Carolina Medicare beneficiaries.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <a
+              href="/medicare-supplement-plans/north-carolina/plan-g/"
+              className="group block bg-white border-2 border-teal-200 hover:border-teal-500 rounded-2xl p-6 transition-all hover:shadow-lg"
+            >
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-teal-100 rounded-xl flex items-center justify-center">
+                  <span className="text-teal-700 font-bold text-sm">G</span>
+                </div>
+                <div>
+                  <div className="font-bold text-slate-900">Plan G Rates</div>
+                  <div className="text-xs text-teal-600 font-medium">Most Popular</div>
+                </div>
+              </div>
+              <p className="text-sm text-slate-600 mb-3">
+                Compare Plan G premiums from 30+ carriers in North Carolina. Covers everything except the Part B deductible.
+              </p>
+              
+              <div className="flex items-center gap-1 text-teal-600 font-semibold text-sm group-hover:gap-2 transition-all mt-3">
+                Compare NC Plan G Rates
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </div>
+            </a>
+            <div className="block bg-slate-50 border-2 border-slate-200 rounded-2xl p-6 opacity-75">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-slate-200 rounded-xl flex items-center justify-center">
+                  <span className="text-slate-500 font-bold text-sm">N</span>
+                </div>
+                <div>
+                  <div className="font-bold text-slate-700">Plan N Rates</div>
+                  <div className="text-xs text-slate-500 font-medium">Coming Soon</div>
+                </div>
+              </div>
+              <p className="text-sm text-slate-500 mb-3">
+                Lower premiums with small copays. A strong alternative to Plan G for healthy beneficiaries.
+              </p>
+            </div>
+            <div className="block bg-slate-50 border-2 border-slate-200 rounded-2xl p-6 opacity-75">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-slate-200 rounded-xl flex items-center justify-center">
+                  <span className="text-slate-500 font-bold text-sm">HD</span>
+                </div>
+                <div>
+                  <div className="font-bold text-slate-700">High-Deductible Plan G</div>
+                  <div className="text-xs text-slate-500 font-medium">Coming Soon</div>
+                </div>
+              </div>
+              <p className="text-sm text-slate-500 mb-3">
+                Lowest monthly premiums with a higher deductible. Best for those who rarely use healthcare.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-12 bg-slate-50">
         <div className="container max-w-4xl">
