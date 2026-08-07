@@ -30,6 +30,16 @@ export const blogArticles: BlogArticleData[] = [
     readTime: "10 min read",
     image: "/images/medicarefaq-cover.jpg",
     imageAlt: "Medicare plan comparison tools guide",
+    excerpt: "Find the best Medicare comparison tools to get quotes from multiple carriers at once. Learn how to compare Medicare Advantage, Part D, and Medigap plans side by side using free tools in 2026.",
+    tableOfContents: [
+      { id: "navigating-medicare-choices", title: "Navigating Medicare Choices Without the Confusion" },
+      { id: "official-government-tool", title: "The Official Government Tool for Multi-Carrier Quotes" },
+      { id: "private-marketplace-tools", title: "Private Marketplace Tools and What They Cover" },
+      { id: "comparing-medigap-plans", title: "Comparing Medigap Plans Across Different Companies" },
+      { id: "total-cost-of-ownership", title: "Looking Beyond the Monthly Premium: Total Cost of Ownership" },
+      { id: "ship-guidance", title: "Free, Unbiased Human Guidance Through SHIP" },
+      { id: "taking-next-step", title: "Taking the Next Step with Confidence" },
+    ],
     showInlineCta: true,
     keyTakeaways: [
       "Medicare.gov's Plan Finder is the only tool that displays all CMS-approved carriers in your area simultaneously, making it the most neutral starting point.",
