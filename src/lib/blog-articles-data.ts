@@ -5729,7 +5729,7 @@ export const blogArticles: BlogArticleData[] = [
     ],
     showInlineCta: true,
     relatedSlugs: ["your-guide-to-medicare-enrollment-periods-when-to-sign-up", "medicare-part-d-late-enrollment-penalty", "medicare-part-b-late-enrollment-penalty", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "medicare-initial-enrollment-period", "when-should-you-enroll-in-medicare-if-still-working", "eligibility-for-special-enrollment-period-after-medicare-coverage-loss", "what-is-medicare-creditable-coverage"],
-    youtubeVideoId: "youtube.com/watch?v=fIxjw0IcwY8&feature=youtu.be",
+    youtubeVideoId: "fIxjw0IcwY8",
   },
 {
     slug: "coverage-gap-discount-program",
