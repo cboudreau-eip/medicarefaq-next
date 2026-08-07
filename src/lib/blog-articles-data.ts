@@ -28,7 +28,7 @@ export const blogArticles: BlogArticleData[] = [
     author: "David Haass",
     reviewer: "Ashlee Zareczny",
     readTime: "10 min read",
-    image: "/manus-storage/medicare-comparison-tools-hero_abdbafd4.jpg",
+    image: "/images/generated/best-medicare-plan-comparison-tools.jpg",
     imageAlt: "Senior couple comparing Medicare plan options on a laptop at their kitchen table",
     excerpt: "Find the best Medicare comparison tools to get quotes from multiple carriers at once. Learn how to compare Medicare Advantage, Part D, and Medigap plans side by side using free tools in 2026.",
     tableOfContents: [
