@@ -273,7 +273,7 @@ export default function GeorgiaPlanGContent() {
                         <span className="font-medium text-slate-700">{carrier.amBest}</span>
                       </span>
                     </td>
-                    <td className="px-5 py-4 text-slate-600 max-w-[200px]">{carrier.discounts}</td>
+                    <td className="px-5 py-4 text-slate-600 max-w-[200px]">{carrier.highlight || "—"}</td>
                     <td className="px-5 py-4">
                       <span className="inline-flex items-center gap-1 bg-blue-50 text-blue-800 px-2.5 py-1 rounded-lg font-bold text-sm">
                         {carrier.score}
