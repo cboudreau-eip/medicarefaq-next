@@ -955,20 +955,27 @@ export default function MichiganPageContent() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </div>
             </a>
-            <div className="block bg-slate-50 border-2 border-slate-200 rounded-2xl p-6 opacity-75">
+            <a
+              href="/medicare-supplement-plans/michigan/plan-n/"
+              className="group block bg-white border-2 border-blue-200 hover:border-blue-500 rounded-2xl p-6 transition-all hover:shadow-lg"
+            >
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 bg-slate-200 rounded-xl flex items-center justify-center">
-                  <span className="text-slate-500 font-bold text-sm">N</span>
+                <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
+                  <span className="text-blue-700 font-bold text-sm">N</span>
                 </div>
                 <div>
-                  <div className="font-bold text-slate-700">Plan N Rates</div>
-                  <div className="text-xs text-slate-500 font-medium">Coming Soon</div>
+                  <div className="font-bold text-slate-900">Plan N Rates</div>
+                  <div className="text-xs text-blue-600 font-medium">Lower Premiums</div>
                 </div>
               </div>
-              <p className="text-sm text-slate-500 mb-3">
+              <p className="text-sm text-slate-600 mb-3">
                 Lower premiums with small copays. A strong alternative to Plan G for healthy beneficiaries.
               </p>
-            </div>
+              <div className="flex items-center gap-1 text-blue-600 font-semibold text-sm group-hover:gap-2 transition-all mt-3">
+                Compare Plan N Rates
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </div>
+            </a>
             <div className="block bg-slate-50 border-2 border-slate-200 rounded-2xl p-6 opacity-75">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 bg-slate-200 rounded-xl flex items-center justify-center">
