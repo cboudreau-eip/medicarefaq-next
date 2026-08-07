@@ -251,7 +251,7 @@ export default function GeorgiaPlanGContent() {
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {carriersByPlanG.map((carrier, i) => (
-                  <tr key={carrier.id} className="hover:bg-slate-50 transition-colors">
+                  <tr key={carrier.rank} className="hover:bg-slate-50 transition-colors">
                     <td className="px-5 py-4 text-slate-400 font-medium">{i + 1}</td>
                     <td className="px-5 py-4">
                       <div className="font-semibold text-slate-900">{carrier.name}</div>
@@ -270,13 +270,13 @@ export default function GeorgiaPlanGContent() {
                     <td className="px-5 py-4">
                       <span className="inline-flex items-center gap-1">
                         <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-500" aria-hidden="true" />
-                        <span className="font-medium text-slate-700">{carrier.amBestRating}</span>
+                        <span className="font-medium text-slate-700">{carrier.amBest}</span>
                       </span>
                     </td>
                     <td className="px-5 py-4 text-slate-600 max-w-[200px]">{carrier.discounts}</td>
                     <td className="px-5 py-4">
                       <span className="inline-flex items-center gap-1 bg-blue-50 text-blue-800 px-2.5 py-1 rounded-lg font-bold text-sm">
-                        {carrier.medicareFaqScore}
+                        {carrier.score}
                       </span>
                     </td>
                   </tr>
@@ -463,7 +463,7 @@ export default function GeorgiaPlanGContent() {
                 <h3 className="font-bold text-slate-900">Free Look Period Free Look Period & SHINE GeorgiaCares SHIP</h3>
               </div>
               <p className="text-sm text-slate-700">
-                {STATE_NAME} provides a {STATE_STATS.freeLookPeriod} free look period after purchasing a Medigap policy. If you are not satisfied, you can cancel for a full refund. {STATE_NAME} also offers the GeorgiaCares SHIP program, which provides free, unbiased Medicare counseling through the Georgia Department of Human Services.
+                {STATE_NAME} provides a {"30 days"} free look period after purchasing a Medigap policy. If you are not satisfied, you can cancel for a full refund. {STATE_NAME} also offers the GeorgiaCares SHIP program, which provides free, unbiased Medicare counseling through the Georgia Department of Human Services.
               </p>
             </div>
           </div>
@@ -494,8 +494,8 @@ export default function GeorgiaPlanGContent() {
               },
               {
                 step: 4,
-                title: `Review your policy during the ${STATE_STATS.freeLookPeriod} free look period`,
-                desc: `After your policy starts, you have ${STATE_STATS.freeLookPeriod} to review it. If you are not satisfied for any reason, you can cancel for a full refund of premiums paid.`,
+                title: `Review your policy during the ${"30 days"} free look period`,
+                desc: `After your policy starts, you have ${"30 days"} to review it. If you are not satisfied for any reason, you can cancel for a full refund of premiums paid.`,
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-5">

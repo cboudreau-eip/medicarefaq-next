@@ -25,7 +25,7 @@ import {
   HelpCircle,
 } from "lucide-react";
 import ZipFormModal from "@/components/ZipFormModal";
-import { NORTH_CAROLINA_CARRIERS, NORTH_CAROLINA_STATS, type NorthCarolinaCarrier } from "@/lib/north-carolina-medigap-data";
+import { NC_CARRIERS, NC_STATS, type NCCarrier } from "@/lib/north-carolina-medigap-data";
 import { trackPhoneClick } from "@/lib/analytics";
 
 /* ─── Constants ─── */
@@ -36,7 +36,7 @@ const PART_A_DEDUCTIBLE = "$1,676";
 const PLAN_SLUG = "plan-g";
 
 /* ─── Carrier sorted by Plan G premium ─── */
-const carriersByPlanG = [...NORTH_CAROLINA_CARRIERS].sort((a, b) => {
+const carriersByPlanG = [...NC_CARRIERS].sort((a, b) => {
   const aPrice = parseInt(a.planGMonthly.replace(/[$,]/g, ""));
   const bPrice = parseInt(b.planGMonthly.replace(/[$,]/g, ""));
   return aPrice - bPrice;
@@ -62,7 +62,7 @@ const PLAN_COMPARISON = [
   { feature: "Office visit copay", planG: "None", planN: "Up to $20" },
   { feature: "ER copay (not admitted)", planG: "None", planN: "Up to $50" },
   { feature: "Part B excess charges", planG: "100% covered", planN: "Not covered" },
-  { feature: "Avg. monthly premium (FL)", planG: NORTH_CAROLINA_STATS.averagePlanGPremium, planN: NORTH_CAROLINA_STATS.averagePlanNPremium },
+  { feature: "Avg. monthly premium (FL)", planG: NC_STATS.averagePlanGPremium, planN: NC_STATS.averagePlanNPremium },
   { feature: "Best for", planG: "Predictable costs, no surprises", planN: "Lower premiums, fewer doctor visits" },
 ];
 
@@ -145,22 +145,22 @@ export default function NorthCarolinaPlanGContent() {
 
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-3xl">
             Plan G covers everything except the {PART_B_DEDUCTIBLE} Part B deductible.
-            Compare rates from {NORTH_CAROLINA_STATS.numberOfCarriers} carriers in {STATE_NAME} to find the lowest premium.
+            Compare rates from {NC_STATS.numberOfCarriers} carriers in {STATE_NAME} to find the lowest premium.
           </p>
 
           {/* Stats Row */}
           <div className="grid grid-cols-3 gap-4 mb-10 max-w-2xl">
             <div className="bg-white/10 backdrop-blur rounded-xl p-4 text-center">
               <p className="text-sm text-blue-200">Lowest Rate</p>
-              <p className="text-2xl md:text-3xl font-bold text-teal-400">{NORTH_CAROLINA_STATS.lowestPlanGPremium}</p>
+              <p className="text-2xl md:text-3xl font-bold text-teal-400">{NC_STATS.lowestPlanGPremium}</p>
             </div>
             <div className="bg-white/10 backdrop-blur rounded-xl p-4 text-center">
               <p className="text-sm text-blue-200">Average Rate</p>
-              <p className="text-2xl md:text-3xl font-bold text-white">{NORTH_CAROLINA_STATS.averagePlanGPremium}</p>
+              <p className="text-2xl md:text-3xl font-bold text-white">{NC_STATS.averagePlanGPremium}</p>
             </div>
             <div className="bg-white/10 backdrop-blur rounded-xl p-4 text-center">
               <p className="text-sm text-blue-200">Carriers</p>
-              <p className="text-2xl md:text-3xl font-bold text-white">{NORTH_CAROLINA_STATS.numberOfCarriers}</p>
+              <p className="text-2xl md:text-3xl font-bold text-white">{NC_STATS.numberOfCarriers}</p>
             </div>
           </div>
 
@@ -463,7 +463,7 @@ export default function NorthCarolinaPlanGContent() {
                 <h3 className="font-bold text-slate-900">Free Look Period Free Look Period & SHINE SHIIP</h3>
               </div>
               <p className="text-sm text-slate-700">
-                {STATE_NAME} provides a {NORTH_CAROLINA_STATS.freeLookPeriod} free look period after purchasing a Medigap policy. If you are not satisfied, you can cancel for a full refund. {STATE_NAME} also offers the SHIIP program (Seniors Health Insurance Information Program), which provides free, unbiased Medicare counseling through the NC Department of Insurance.
+                {STATE_NAME} provides a {NC_STATS.freeLookPeriod} free look period after purchasing a Medigap policy. If you are not satisfied, you can cancel for a full refund. {STATE_NAME} also offers the SHIIP program (Seniors Health Insurance Information Program), which provides free, unbiased Medicare counseling through the NC Department of Insurance.
               </p>
             </div>
           </div>
@@ -494,8 +494,8 @@ export default function NorthCarolinaPlanGContent() {
               },
               {
                 step: 4,
-                title: `Review your policy during the ${NORTH_CAROLINA_STATS.freeLookPeriod} free look period`,
-                desc: `After your policy starts, you have ${NORTH_CAROLINA_STATS.freeLookPeriod} to review it. If you are not satisfied for any reason, you can cancel for a full refund of premiums paid.`,
+                title: `Review your policy during the ${NC_STATS.freeLookPeriod} free look period`,
+                desc: `After your policy starts, you have ${NC_STATS.freeLookPeriod} to review it. If you are not satisfied for any reason, you can cancel for a full refund of premiums paid.`,
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-5">
@@ -580,7 +580,7 @@ export default function NorthCarolinaPlanGContent() {
                 </h3>
                 <p className="text-blue-200 mb-8 max-w-xl mx-auto">
                   The same Plan G can cost 50% more from one carrier to another in the same zip code.
-                  Compare rates from {NORTH_CAROLINA_STATS.numberOfCarriers} carriers in {STATE_NAME} to make sure you are not overpaying.
+                  Compare rates from {NC_STATS.numberOfCarriers} carriers in {STATE_NAME} to make sure you are not overpaying.
                 </p>
                 <span className="inline-flex items-center gap-2 bg-teal-500 group-hover:bg-teal-400 text-white font-bold px-10 py-4 rounded-xl text-lg transition-colors shadow-lg shadow-teal-500/25">
                   Compare Plan G Rates <ArrowRight className="w-5 h-5" aria-hidden="true" />

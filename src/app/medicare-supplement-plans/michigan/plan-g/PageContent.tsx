@@ -463,7 +463,7 @@ export default function MichiganPlanGContent() {
                 <h3 className="font-bold text-slate-900">Free Look Period & MMAP</h3>
               </div>
               <p className="text-sm text-slate-700">
-                {STATE_NAME} provides a {MI_STATS.freeLookPeriod} free look period after purchasing a Medigap policy. If you are not satisfied, you can cancel for a full refund. {STATE_NAME} also offers the MMAP program (Michigan Medicare and Medicaid Assistance Program), which provides free, unbiased Medicare counseling.
+                {STATE_NAME} provides a {"30 days"} free look period after purchasing a Medigap policy. If you are not satisfied, you can cancel for a full refund. {STATE_NAME} also offers the MMAP program (Michigan Medicare and Medicaid Assistance Program), which provides free, unbiased Medicare counseling.
               </p>
             </div>
           </div>
@@ -494,8 +494,8 @@ export default function MichiganPlanGContent() {
               },
               {
                 step: 4,
-                title: `Review your policy during the ${MI_STATS.freeLookPeriod} free look period`,
-                desc: `After your policy starts, you have ${MI_STATS.freeLookPeriod} to review it. If you are not satisfied for any reason, you can cancel for a full refund of premiums paid.`,
+                title: `Review your policy during the ${"30 days"} free look period`,
+                desc: `After your policy starts, you have ${"30 days"} to review it. If you are not satisfied for any reason, you can cancel for a full refund of premiums paid.`,
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-5">
