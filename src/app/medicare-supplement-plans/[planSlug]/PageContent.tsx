@@ -322,6 +322,49 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
               {/* Related Plans */}
               {relatedPlans.length > 0 && (
                 <section id="related" className="mb-14">
+              {/* Compare by State - Plan G only */}
+              {planSlug === "plan-g" && (
+                <section id="compare-by-state" className="mb-14">
+                  <h2 className="text-2xl font-bold text-slate-900 mb-2" style={{ fontFamily: "'Merriweather', serif" }}>
+                    Compare Plan G Rates by State
+                  </h2>
+                  <p className="text-slate-600 mb-6">
+                    Plan G premiums vary significantly by state, carrier, and age. Select your state below to see a full rate comparison from all available carriers.
+                  </p>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+                    {[
+                      { name: "Florida", slug: "florida", low: "$194" },
+                      { name: "Texas", slug: "texas", low: "$145" },
+                      { name: "California", slug: "california", low: "$166" },
+                      { name: "New York", slug: "new-york", low: "$360" },
+                      { name: "Ohio", slug: "ohio", low: "$106" },
+                      { name: "Pennsylvania", slug: "pennsylvania", low: "$133" },
+                      { name: "Illinois", slug: "illinois", low: "$118" },
+                      { name: "North Carolina", slug: "north-carolina", low: "$95" },
+                      { name: "Georgia", slug: "georgia", low: "$118" },
+                      { name: "Michigan", slug: "michigan", low: "$99" },
+                    ].map((state) => (
+                      <Link
+                        key={state.slug}
+                        href={`/medicare-supplement-plans/${state.slug}/plan-g/`}
+                        className="group flex flex-col items-start p-4 bg-white border border-slate-200 hover:border-teal-400 hover:shadow-md rounded-xl transition-all"
+                      >
+                        <span className="font-semibold text-slate-800 text-sm group-hover:text-teal-700 leading-tight">{state.name}</span>
+                        <span className="text-xs text-slate-500 mt-1">From {state.low}/mo</span>
+                        <span className="flex items-center gap-0.5 text-teal-600 text-xs font-semibold mt-2 group-hover:gap-1 transition-all">
+                          View Rates <ArrowRight className="w-3 h-3" aria-hidden="true" />
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                  <p className="text-xs text-slate-500 mt-4">
+                    More states coming soon. Rates shown are the lowest available from publicly filed rate data and may vary by age, gender, and zip code.
+                  </p>
+                </section>
+              )}
+
+              {relatedPlans.length > 0 && (
+                <section id="related" className="mb-14">
                   <h2 className="text-2xl font-bold text-slate-900 mb-6" style={{ fontFamily: "'Merriweather', serif" }}>
                     Compare Related Plans
                   </h2>
