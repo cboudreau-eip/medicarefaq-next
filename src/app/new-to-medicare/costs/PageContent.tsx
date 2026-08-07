@@ -231,8 +231,8 @@ export default function PageContent() {
             ))}
           </dl>
           {/* Answer Block - AI Overview optimized */}
-          <div className="mt-10 bg-emerald-50/50 border border-emerald-200/50 rounded-xl p-6">
-            <p className="text-base text-slate-700 leading-relaxed">
+          <div className="mt-10 bg-white rounded-xl p-6 shadow-sm">
+            <p className="text-base text-slate-800 leading-relaxed">
               <strong>Most people pay $202.90 per month for Medicare Part B in 2026.</strong> Part A is premium-free if you worked 10+ years. The Part A hospital deductible is $1,736 per benefit period. Part D drug plans average $34.50/month with a $2,000 annual out-of-pocket cap. Total Medicare costs range from $203/month (Original Medicare only) to $350-$550/month with supplemental coverage.
             </p>
           </div>
