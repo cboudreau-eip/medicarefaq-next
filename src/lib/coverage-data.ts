@@ -35613,12 +35613,12 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
 
     quickReference: [
-      { label: "Average Monthly Premium", value: "$38.99/mo (2026)" },
-      { label: "Maximum Deductible", value: "$615 (2026)" },
-      { label: "Out-of-Pocket Cap", value: "$2,000/year (2026)" },
-      { label: "Insulin Cap", value: "$35/month" },
-      { label: "Open Enrollment", value: "Oct 15 - Dec 7" },
-      { label: "Late Penalty", value: "1% per month without coverage" },
+      { icon: "dollar", text: "Average monthly premium: $38.99/mo in 2026" },
+      { icon: "dollar", text: "Maximum deductible: $615 in 2026" },
+      { icon: "check", text: "Out-of-pocket cap: $2,000/year - you pay $0 after reaching this" },
+      { icon: "check", text: "Insulin capped at $35/month for all Part D plans" },
+      { icon: "info", text: "Open Enrollment: October 15 - December 7 each year" },
+      { icon: "alert", text: "Late penalty: 1% added per month without creditable coverage" },
     ],
     relatedTopics: [
       { title: "Medicare Part D Payment Plan 2026", description: "Spread your drug costs into monthly payments.", slug: "medicare-part-d-payment-plan-2026" },
