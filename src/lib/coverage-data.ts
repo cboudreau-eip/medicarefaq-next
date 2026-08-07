@@ -34006,8 +34006,8 @@ export const coverageArticles: CoverageArticleData[] = [
     "medicare-give-back-benefit",
   ],
   ctaBanner: {
-    title: "Need Help Finding a Plan With Grocery Benefits?",
-    text: "Our licensed agents can help you find Medicare Advantage plans in your area that offer grocery allowances and other supplemental benefits. There is no cost for our help, and we can compare all available options in your ZIP code.",
+    title: "Find a Medicare Advantage Plan With Grocery Benefits",
+    text: "Our licensed agents can help you find Medicare Advantage plans in your area that offer grocery allowances and other supplemental benefits, at no cost to you. Compare all available options in your ZIP code today.",
   },
   relatedSlugs: [
     "medicare-advantage-extra-benefits-explained-whats-really-included",
@@ -34019,6 +34019,7 @@ export const coverageArticles: CoverageArticleData[] = [
     "medicare-annual-enrollment-period",
   ],
   youtubeVideoId: "ygND54sGW6A",
+  showMidInlineCta: true,
 },
   {
     slug: "medicare-part-a-vs-part-b",
