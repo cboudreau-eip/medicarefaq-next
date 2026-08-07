@@ -35511,6 +35511,12 @@ export const coverageArticles: CoverageArticleData[] = [
     readTime: "11 min read",
     quickAnswer: {
       text: "The best Medicare Part D plans for 2026 depend on your specific medications, pharmacy preferences, and budget. In 2026, all Part D plans cap your out-of-pocket drug costs at $2,000 per year. The average monthly premium is $38.99, and the maximum deductible is $615. Top-rated plans include SilverScript Choice (4.5 stars, nationwide), Wellcare Value Script (4 stars, low premium), AARP MedicareRx Preferred (4.5 stars, large formulary), Humana Walmart Value Rx (4 stars, $0 premium option), and Cigna Secure Rx (4 stars, $0 deductible option).",
+      badges: [
+        { plan: "Part D", status: "covered" },
+        { plan: "Medicare Advantage", status: "covered" },
+        { plan: "Part A", status: "not-covered" },
+        { plan: "Part B", status: "not-covered" },
+      ],
     },
     comparisonTable: {
       title: "Top Medicare Part D Plans Comparison (2026)",
