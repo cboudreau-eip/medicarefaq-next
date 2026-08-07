@@ -69,7 +69,7 @@ const partDCosts = [
   { item: "Annual Deductible", amount: "Up to $615", note: "Some plans have $0 deductible" },
   { item: "Initial Coverage Phase", amount: "25% coinsurance", note: "Until drug costs reach $5,030" },
   { item: "Coverage Gap (Donut Hole)", amount: "$0 for generics", note: "Eliminated for brand-name drugs in 2025; $2,000 OOP cap in 2026" },
-  { item: "Out-of-Pocket Cap", amount: "$2,000", note: "New for 2025 — maximum you pay annually for Part D drugs" },
+  { item: "Out-of-Pocket Cap", amount: "$2,000", note: "New for 2025 - maximum you pay annually for Part D drugs" },
 ];
 
 const irmaaBrackets = [
@@ -86,7 +86,7 @@ const totalCostScenarios = [
     name: "Original Medicare ++ Medigap Plan G ++ Part D",
     monthly: "$350–$550/mo",
     annual: "$4,200–$6,600/yr",
-    maxOOP: "Predictable — very low out-of-pocket after premiums",
+    maxOOP: "Predictable - very low out-of-pocket after premiums",
     color: "bg-blue-600",
     items: [
       "Part B Premium: $202.90/mo",
@@ -112,7 +112,7 @@ const totalCostScenarios = [
     name: "Original Medicare Only (No Supplement)",
     monthly: "$202.90/mo",
     annual: "$2,220/yr (premiums only)",
-    maxOOP: "Unlimited — no cap on out-of-pocket costs",
+    maxOOP: "Unlimited - no cap on out-of-pocket costs",
     color: "bg-amber-600",
     items: [
       "Part B Premium: $202.90/mo",
@@ -130,7 +130,7 @@ const faqs = [
   },
   {
     question: "What's the most I could pay out-of-pocket in a year?",
-    answer: "With Original Medicare alone, there is NO maximum out-of-pocket limit — your costs are theoretically unlimited. With a Medigap Plan G, your only out-of-pocket cost is the $283 Part B deductible. With Medicare Advantage, the maximum out-of-pocket is capped at $9,250 in-network for 2026.",
+    answer: "With Original Medicare alone, there is NO maximum out-of-pocket limit - your costs are theoretically unlimited. With a Medigap Plan G, your only out-of-pocket cost is the $283 Part B deductible. With Medicare Advantage, the maximum out-of-pocket is capped at $9,250 in-network for 2026.",
   },
   {
     question: "Do I Have to Pay the Part B Premium Even with Medicare Advantage?",
@@ -146,7 +146,7 @@ const faqs = [
   },
   {
     question: "How Much Does a Medigap Plan Cost?",
-    answer: "Medigap premiums vary significantly based on your age, location, gender, tobacco use, and the plan letter you choose. Plan G (the most popular) typically ranges from $100–$300/month. Plans are standardized by letter, so benefits are the same regardless of the insurance company — only the premium differs.",
+    answer: "Medigap premiums vary significantly based on your age, location, gender, tobacco use, and the plan letter you choose. Plan G (the most popular) typically ranges from $100–$300/month. Plans are standardized by letter, so benefits are the same regardless of the insurance company - only the premium differs.",
   },
 ];
 
@@ -210,10 +210,10 @@ export default function PageContent() {
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 max-w-3xl">
-            What Does Medicare Cost in 2026?
+            How Much Does Medicare Cost in 2026?
           </h1>
           <p className="text-lg md:text-xl text-slate-300 max-w-2xl mb-10 leading-relaxed">
-            A complete breakdown of every Medicare <strong>premium</strong>, <strong>deductible</strong>, <strong>coinsurance</strong>, and out-of-pocket cost — plus how to minimize what you pay.
+            A complete breakdown of every Medicare <strong>premium</strong>, <strong>deductible</strong>, <strong>coinsurance</strong>, and out-of-pocket cost - plus how to minimize what you pay.
           </p>
 
           {/* Quick cost stats */}
@@ -230,6 +230,12 @@ export default function PageContent() {
               </div>
             ))}
           </dl>
+          {/* Answer Block - AI Overview optimized */}
+          <div className="mt-10 bg-emerald-50/50 border border-emerald-200/50 rounded-xl p-6">
+            <p className="text-base text-slate-700 leading-relaxed">
+              <strong>Most people pay $202.90 per month for Medicare Part B in 2026.</strong> Part A is premium-free if you worked 10+ years. The Part A hospital deductible is $1,736 per benefit period. Part D drug plans average $34.50/month with a $2,000 annual out-of-pocket cap. Total Medicare costs range from $203/month (Original Medicare only) to $350-$550/month with supplemental coverage.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -276,7 +282,7 @@ export default function PageContent() {
             <section id="overview" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6">2026 Medicare Cost Overview</h2>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Medicare isn't free — even with <strong>premium-free Part A</strong>, most beneficiaries pay <strong>several hundred dollars per month</strong> when you factor in Part B premiums, supplemental coverage, and prescription drug plans. Understanding these costs upfront helps you budget effectively and choose the right coverage.
+                Medicare isn't free - even with <strong>premium-free Part A</strong>, most beneficiaries pay <strong>several hundred dollars per month</strong> when you factor in Part B premiums, supplemental coverage, and prescription drug plans. Understanding these costs upfront helps you budget effectively and choose the right coverage.
               </p>
               <aside aria-label="Important warning about out-of-pocket maximum" className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
                 <div className="flex items-start gap-3">
@@ -418,7 +424,7 @@ export default function PageContent() {
                 <h2 className="text-3xl font-bold text-slate-900"><strong>Medigap</strong> (Medicare Supplement) Costs</h2>
               </div>
               <p className="text-lg text-slate-600 mb-6">
-                <strong>Medigap</strong> plans help cover the "gaps" in Original Medicare — deductibles, coinsurance, and copays. Plans are standardized by letter (A, B, C, D, F, G, K, L, M, N) so benefits are identical across insurers.
+                <strong>Medigap</strong> plans help cover the "gaps" in Original Medicare - deductibles, coinsurance, and copays. Plans are standardized by letter (A, B, C, D, F, G, K, L, M, N) so benefits are identical across insurers.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-6">
@@ -538,7 +544,7 @@ export default function PageContent() {
             <section id="irmaa" className="mb-16 scroll-mt-24">
               <h2 className="text-3xl font-bold text-slate-900 mb-6"><strong>IRMAA</strong> Surcharges (Higher-Income Beneficiaries)</h2>
               <p className="text-lg text-slate-600 mb-6">
-                If your modified adjusted gross income (MAGI) exceeds certain thresholds, you'll pay higher Part B and Part D premiums. This is called <strong>IRMAA</strong> — the Income-Related Monthly Adjustment Amount. It's based on your tax return from <strong>2 years prior</strong>.
+                If your modified adjusted gross income (MAGI) exceeds certain thresholds, you'll pay higher Part B and Part D premiums. This is called <strong>IRMAA</strong> - the Income-Related Monthly Adjustment Amount. It's based on your tax return from <strong>2 years prior</strong>.
               </p>
 
               <div className="overflow-x-auto rounded-xl border border-slate-200">
@@ -585,7 +591,7 @@ export default function PageContent() {
                   },
                   {
                     title: "Use Preventive Services",
-                    description: "Medicare covers many preventive services at no cost — annual wellness visits, screenings, and vaccinations. Using them can catch issues early and reduce long-term costs.",
+                    description: "Medicare covers many preventive services at no cost - annual wellness visits, screenings, and vaccinations. Using them can catch issues early and reduce long-term costs.",
                     icon: Shield,
                   },
                   {
@@ -644,7 +650,7 @@ export default function PageContent() {
               <div className="bg-gradient-to-br from-slate-900 to-emerald-900 rounded-2xl p-8 md:p-12 text-white">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Want a Personalized Cost Estimate?</h2>
                 <p className="text-slate-300 mb-8 max-w-xl">
-                  Our licensed agents can compare plans in your area and help you find the most affordable Medicare coverage for your specific situation — at no cost to you.
+                  Our licensed agents can compare plans in your area and help you find the most affordable Medicare coverage for your specific situation - at no cost to you.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
