@@ -22975,199 +22975,363 @@ export const coverageArticles: CoverageArticleData[] = [
   },
 
   {
-    slug: "medicare-part-b-premiums",
-    seo: {
-      title: "Medicare Part B Premiums 2026: What You'll Pay and How to Save",
-      description: "Learn about 2026 Medicare Part B premiums, IRMAA surcharges, and strategies to reduce your monthly costs including Giveback plans and savings programs.",
-      canonical: "https://www.medicarefaq.com/faqs/medicare-part-b-premiums/",
-      ogImage: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    },
-    title: "Medicare Part B Premiums 2026: What You'll Pay and How to Save",
-    subtitle: "How much is Medicare Part B? The standard Part B premium for 2026 is $202.90 per month. Higher earners pay more through IRMAA surcharges based on income from two years prior. Here is what Medicare Part B costs in 2026 and how to reduce your monthly premium.",
-    category: "Medicare Costs",
-    dateUpdated: "April 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "Licensed Medicare agent specializing in Medicare costs and enrollment guidance.",
-    },
-    reviewer: {
-      name: "Lindsay Malzone",
-      initials: "LM",
-      role: "Reviewer",
-      bio: "Medicare expert and compliance reviewer with over 10 years of experience.",
-    },
-    readTime: "6 min read",
-    quickAnswer: {
-      text: "The standard Medicare Part B premium for 2026 is $202.90 per month. Higher-income beneficiaries pay more through IRMAA surcharges. Some Medicare Advantage plans offer Part B Giveback benefits that can reduce your premium.",
-      badges: [
-        { plan: "Standard Premium", status: "covered" },
-        { plan: "IRMAA Surcharge", status: "partial" },
-        { plan: "Giveback Plans", status: "covered" }],
-    },
-    subNavLinks: [
-      { label: "2026 Premiums", href: "/faqs/medicare-part-b-premiums" },
-      { label: "IRMAA Brackets", href: "/faqs/medicare-part-b-premiums" },
-      { label: "How to Save", href: "/faqs/medicare-part-b-premiums" },
-      { label: "FAQs", href: "/faqs/medicare-part-b-premiums" }],
-    comparisonTable: [
-      { planType: "Standard Part B Premium (2026)", coverage: "$202.90/month", icon: "shield", notes: "Applies to most beneficiaries with income ≤$109,000 (single) or ≤$218,000 (married)" },
-      { planType: "IRMAA (> 9K–K)", coverage: "$284.10/month", icon: "dollar-sign", notes: "Income >$109,000–$137,000 (single) or >$218,000–$274,000 (married)" },
-      { planType: "IRMAA Tier 2", coverage: "$405.80/month", icon: "dollar-sign", notes: "Income >$137,000–$171,000 (single) or >$274,000–$342,000 (married)" },
-      { planType: "IRMAA Tier 3", coverage: "$527.50/month", icon: "dollar-sign", notes: "Income >$171,000–$205,000 (single) or >$342,000–$410,000 (married). Based on 2024 tax return." },
-      { planType: "IRMAA Tier 4", coverage: "$649.20/month", icon: "dollar-sign", notes: "Income >$205,000–$500,000 (single) or >$410,000–$750,000 (married). Based on 2024 tax return." },
-      { planType: "IRMAA Tier 5 (highest)", coverage: "$689.90/month", icon: "dollar-sign", notes: "Income above $500,000 (single) or $750,000 (married)" }],
-    planBreakdowns: [
-      {
-        planName: "Standard Part B Premium",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "$202.90/month",
-        coverageType: "covered",
-        paragraphs: [
-          "The standard [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) premium for 2026 is $202.90 per month, an increase of $17.90 from the 2025 premium of $185.00. This premium is typically deducted directly from your Social Security check.",
-          "Part B covers outpatient services, doctor visits, preventive care, durable medical equipment, and some home health services. The 2026 annual deductible is $283 (up from $257 in 2025). If you are [new to Medicare](/medicare-enrollment/), understanding your Part B cost is one of the first steps in planning your coverage."],
-        whatItCovers: [
-          "Doctor and outpatient services",
-          "Preventive care and screenings",
-          "Durable medical equipment (DME)",
-          "Mental health services",
-          "Some home health care"],
-        whatItDoesntCover: [
-          "Prescription drugs (covered by Part D)",
-          "Dental, vision, and hearing (most cases)",
-          "Long-term custodial care",
-          "Cosmetic surgery"],
-        costNote: "Most beneficiaries pay the standard $202.90/month. Premium is deducted from Social Security, Railroad Retirement, or Civil Service Retirement benefits.",
-      },
-      {
-        planName: "IRMAA Surcharges (Higher Income)",
-        icon: "dollar-sign",
-        iconColor: "#DC2626",
-        coverageLabel: "Income-Based",
-        coverageType: "partial",
-        paragraphs: [
-          "If your modified adjusted gross income (MAGI) from two years ago exceeds certain thresholds, you'll pay an Income-Related Monthly Adjustment Amount (IRMAA) on top of the standard premium. Social Security uses your tax return from 2 years prior to determine your bracket.",
-          "You can appeal IRMAA if you've experienced a life-changing event such as retirement, divorce, death of a spouse, or loss of income-producing property. File Form SSA-44 with supporting documentation."],
-        whatItCovers: [
-          "Same Part B benefits as standard premium",
-          "No difference in coverage regardless of premium tier",
-          "Appeal rights for life-changing events"],
-        whatItDoesntCover: [
-          "No additional benefits for paying higher premiums",
-          "IRMAA does not reduce your deductible or coinsurance",
-          "Does not count toward out-of-pocket maximum"],
-        callout: {
-          type: "tip",
-          title: "IRMAA Appeal",
-          text: "If you retired, divorced, or had another qualifying life-changing event, you can request a reduction by filing Form SSA-44 with Social Security.",
-        },
-      },
-      {
-        planName: "Part B Giveback Plans",
-        icon: "heart",
-        iconColor: "#059669",
-        coverageLabel: "Reduces Premium",
-        coverageType: "covered",
-        paragraphs: [
-          "Some [Medicare Advantage plans](/blog/how-the-medicare-part-b-giveback-can-lower-your-monthly-costs) offer a Part B premium reduction (Giveback) benefit. These plans use a portion of their CMS rebate to reduce your monthly Part B premium by up to $202.90 per month.",
-          "Giveback amounts vary by plan and location, typically ranging from $50 to $175 per month. The reduction appears as a higher Social Security check since less is deducted for Part B."],
-        whatItCovers: [
-          "Reduces your monthly Part B premium",
-          "Savings appear in your Social Security check",
-          "Available in many areas through MA plans",
-          "Can reduce premium to $0 in some cases"],
-        whatItDoesntCover: [
-          "Not available in all areas",
-          "Must enroll in a Medicare Advantage plan",
-          "Giveback amount varies by plan",
-          "May have network restrictions"],
-      }],
-    costTable: {
-      title: "2026 Part B Premium & IRMAA Brackets",
-      headers: ["Income (Single)", "Income (Married)", "Monthly Premium", "Annual Cost"],
-      rows: [
-        { "Income (Single)": "≤$109,000", "Income (Married)": "≤$218,000", "Monthly Premium": "$202.90", "Annual Cost": "$2,434.80" },
-        { "Income (Single)": ">$109,000–$137,000", "Income (Married)": ">$218,000–$274,000", "Monthly Premium": "$284.10", "Annual Cost": "$3,409.20" },
-        { "Income (Single)": ">$137,000–$171,000", "Income (Married)": ">$274,000–$342,000", "Monthly Premium": "$405.80", "Annual Cost": "$4,869.60" },
-        { "Income (Single)": ">$171,000–$205,000", "Income (Married)": ">$342,000–$410,000", "Monthly Premium": "$527.50", "Annual Cost": "$6,330.00" },
-        { "Income (Single)": ">$205,000–$500,000", "Income (Married)": ">$410,000–$750,000", "Monthly Premium": "$649.20", "Annual Cost": "$7,790.40" },
-        { "Income (Single)": ">$500,000", "Income (Married)": ">$750,000", "Monthly Premium": "$689.90", "Annual Cost": "$8,278.80" }],
-      footnote: "IRMAA is based on your MAGI from 2 years prior (2024 tax return for 2026 premiums). Brackets are adjusted annually.",
-    },
-    exceptionsSection: {
-      title: "Important: Late Enrollment Penalty",
-      items: [
-        {
-          title: "Part B Late Enrollment Penalty (LEP)",
-          text: "If you do not sign up for Part B when first eligible and do not have creditable employer coverage, you will pay a 10% penalty for each full 12-month period you could have had Part B but did not. This penalty is added to your premium permanently. You can only enroll late during the [General Enrollment Period](/faqs/medicare-general-enrollment-period/) (January 1 through March 31 each year).",
-          highlight: "Example: If you delayed Part B for 3 years without creditable coverage, your premium increases by 30% for life - that's an extra $60.87/month in 2026.",
-        }],
-    },
-    legislativeUpdate: {
-      title: "2026 Part B Premium Changes",
-      items: [
-        {
-          title: "2026 Standard Premium Increase",
-          status: "Passed",
-          description: "CMS announced the 2026 Part B premium of $202.90/month, a $17.90 increase from 2025. The increase reflects rising healthcare costs and expanded coverage for obesity medications.",
-        },
-        {
-          title: "Part B Deductible Increase",
-          status: "Passed",
-          description: "The annual Part B deductible increased to $283 in 2026, up $26 from $257 in 2025.",
-        },
-        {
-          title: "Medicare Savings Programs Expansion",
-          status: "Pending",
-          description: "Proposed legislation would expand Medicare Savings Programs (MSP) income thresholds, allowing more beneficiaries to qualify for help paying Part B premiums.",
-        }],
-    },
-    alternativesSection: {
-      title: "Ways to Reduce Your Part B Premium",
-      paragraphs: ["There are several strategies to lower your Medicare Part B costs depending on your income level and plan choices."],
-      checklist: {
-        title: "Premium Reduction Checklist",
-        type: "tip",
-        items: [
-          "Check if you qualify for a Medicare Savings Program (QMB, SLMB, or QI) - these programs pay your Part B premium partially or fully",
-          "Consider a Medicare Advantage plan with Part B Giveback benefit to reduce your monthly premium",
-          "If you have IRMAA, file Form SSA-44 to appeal if you've had a life-changing event",
-          "Manage your MAGI strategically - Roth conversions and capital gains timing affect your IRMAA bracket 2 years later",
-          "Enroll on time to avoid the permanent 10% per year late enrollment penalty",
-          "Review your income annually - if it drops, request a new IRMAA determination"],
-      },
-    },
-    faqs: [
-      { question: "When is the Part B Premium Deducted from Social Security?", answer: "Part B premiums are automatically deducted from your monthly Social Security benefit. If you don't receive Social Security, you'll get a bill from Medicare (CMS-500) quarterly." },
-      { question: "Can I Delay Part B if I Have Employer Coverage?", answer: "Yes. If you or your spouse has employer coverage through a company with 20+ employees, you can delay Part B without penalty. You'll get a Special Enrollment Period (SEP) when that coverage ends." },
-      { question: "What is the Part B Giveback Benefit?", answer: "Some Medicare Advantage plans reduce your Part B premium by giving back a portion of their CMS rebate. This appears as a higher Social Security check. Giveback amounts range from $50 to $202.90/month depending on the plan." },
-      { question: "How do I know if I'll pay IRMAA?", answer: "Social Security sends a letter (IRMAA determination notice) if your income from 2 years ago exceeds the threshold. You can also check by reviewing your MAGI on your tax return from 2 years prior." },
-      { question: "Does Everyone Pay the Same Part B Premium?", answer: "No. While most beneficiaries pay the standard $202.90/month in 2026, higher-income individuals pay more through IRMAA surcharges, and some may pay less through Giveback plans or Medicare Savings Programs." }],
-    quickReference: [
-      { icon: "dollar", text: "<strong>2026 Standard Premium:</strong> $202.90/month ($17.90 increase from 2025)" },
-      { icon: "alert", text: "<strong>IRMAA:</strong> Higher-income beneficiaries pay $284.10–$689.90/month based on income" },
-      { icon: "check", text: "<strong>Giveback Plans:</strong> Some MA plans reduce your Part B premium by up to $202.90/month" },
-      { icon: "info", text: "<strong>Deductible:</strong> $283 annual Part B deductible in 2026" },
-      { icon: "alert", text: "<strong>Late Penalty:</strong> 10% per year permanently if you don't enroll on time" }],
-    relatedTopics: [
-      { title: "IRMAA Explained", description: "Understand income-related Medicare premium surcharges and how to appeal.", slug: "irmaa" },
-      { title: "Medicare Costs 2026", description: "Complete breakdown of all Medicare costs for 2026.", slug: "medicare-costs-2026" },
-      { title: "Part B Giveback", description: "How Medicare Advantage Giveback plans can lower your monthly costs.", slug: "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs" },
-      { title: "Medicare Savings Programs", description: "Programs that help pay your Medicare premiums and cost-sharing.", slug: "medicare-savings-programs" }],
-    sidebarRelatedLinks: [
-      "IRMAA Explained",
-      "Medicare Costs 2026",
-      "Part B Giveback Plans",
-      "Medicare Savings Programs"],
-    ctaBanner: {
-      title: "Want to Reduce Your Part B Premium?",
-      text: "Our licensed Medicare agents can help you find Giveback plans in your area or determine if you qualify for a Medicare Savings Program - at no cost to you.",
-    },
-    relatedSlugs: ["irmaa", "medicare-costs-2026", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs", "medicare-savings-programs", "medicare-part-d-six-protected-classes", "part-d-plans-what-you-need-to-know-to-minimize-costs", "what-is-a-medicare-part-d-formulary"],
+  slug: "medicare-part-b-premiums",
+  seo: {
+    title: "Medicare Part B Premiums 2026: What You'll Pay & Save",
+    description: "Learn about 2026 Medicare Part B premiums, IRMAA surcharges, and strategies to reduce your monthly costs including Giveback plans and savings programs.",
+    canonical: "https://www.medicarefaq.com/faqs/medicare-part-b-premiums/",
+    ogImage: "https://images.pexels.com/photos/8439693/pexels-photo-8439693.jpeg?auto=compress&cs=tinysrgb&w=1200",
   },
+  title: "Medicare Part B Premiums 2026: What You'll Pay and How to Save",
+  subtitle: "How much is Medicare Part B? The standard Part B premium for 2026 is $202.90 per month. Higher earners pay more through IRMAA surcharges based on income from two years prior. Here is what Medicare Part B costs in 2026 and how to reduce your monthly premium.",
+  category: "Medicare Costs",
+  dateUpdated: "April 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "Licensed Medicare agent specializing in Medicare costs and enrollment guidance.",
+  },
+  reviewer: {
+    name: "Lindsay Malzone",
+    initials: "LM",
+    role: "Reviewer",
+    bio: "Medicare expert and compliance reviewer with over 10 years of experience.",
+  },
+  readTime: "6 min read",
+  quickAnswer: {
+    text: "The standard Medicare Part B premium for 2026 is $202.90 per month. Higher-income beneficiaries pay more through IRMAA surcharges. Some Medicare Advantage plans offer Part B Giveback benefits that can reduce your premium.",
+    badges: [
+      {
+        plan: "Standard Premium",
+        status: "covered",
+      },
+      {
+        plan: "IRMAA Surcharge",
+        status: "partial",
+      },
+      {
+        plan: "Giveback Plans",
+        status: "covered",
+      },
+    ],
+  },
+  subNavLinks: [
+    {
+      label: "2026 Premiums",
+      href: "/faqs/medicare-part-b-premiums",
+    },
+    {
+      label: "IRMAA Brackets",
+      href: "/faqs/medicare-part-b-premiums",
+    },
+    {
+      label: "How to Save",
+      href: "/faqs/medicare-part-b-premiums",
+    },
+    {
+      label: "FAQs",
+      href: "/faqs/medicare-part-b-premiums",
+    },
+  ],
+  comparisonTable: [
+    {
+      planType: "Standard Part B Premium (2026)",
+      coverage: "$202.90/month",
+      icon: "shield",
+      notes: "Applies to most beneficiaries with income ≤$109,000 (single) or ≤$218,000 (married)",
+    },
+    {
+      planType: "IRMAA (> 9K–K)",
+      coverage: "$284.10/month",
+      icon: "dollar-sign",
+      notes: "Income >$109,000–$137,000 (single) or >$218,000–$274,000 (married)",
+    },
+    {
+      planType: "IRMAA Tier 2",
+      coverage: "$405.80/month",
+      icon: "dollar-sign",
+      notes: "Income >$137,000–$171,000 (single) or >$274,000–$342,000 (married)",
+    },
+    {
+      planType: "IRMAA Tier 3",
+      coverage: "$527.50/month",
+      icon: "dollar-sign",
+      notes: "Income >$171,000–$205,000 (single) or >$342,000–$410,000 (married). Based on 2024 tax return.",
+    },
+    {
+      planType: "IRMAA Tier 4",
+      coverage: "$649.20/month",
+      icon: "dollar-sign",
+      notes: "Income >$205,000–$500,000 (single) or >$410,000–$750,000 (married). Based on 2024 tax return.",
+    },
+    {
+      planType: "IRMAA Tier 5 (highest)",
+      coverage: "$689.90/month",
+      icon: "dollar-sign",
+      notes: "Income above $500,000 (single) or $750,000 (married)",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Standard Part B Premium",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "$202.90/month",
+      coverageType: "covered",
+      paragraphs: [
+      "The standard [Medicare Part B](/original-medicare/medicare-parts/medicare-part-b/) premium for 2026 is $202.90 per month, an increase of $17.90 from the 2025 premium of $185.00. This premium is typically deducted directly from your Social Security check.",
+      "Part B covers outpatient services, doctor visits, preventive care, durable medical equipment, and some home health services. The 2026 annual deductible is $283 (up from $257 in 2025). If you are [new to Medicare](/medicare-enrollment/), understanding your Part B cost is one of the first steps in planning your coverage.",
+    ],
+      whatItCovers: [
+      "Doctor and outpatient services",
+      "Preventive care and screenings",
+      "Durable medical equipment (DME)",
+      "Mental health services",
+      "Some home health care",
+    ],
+      whatItDoesntCover: [
+      "Prescription drugs (covered by Part D)",
+      "Dental, vision, and hearing (most cases)",
+      "Long-term custodial care",
+      "Cosmetic surgery",
+    ],
+      costNote: "Most beneficiaries pay the standard $202.90/month. Premium is deducted from Social Security, Railroad Retirement, or Civil Service Retirement benefits.",
+    },
+    {
+      planName: "IRMAA Surcharges (Higher Income)",
+      icon: "dollar-sign",
+      iconColor: "#DC2626",
+      coverageLabel: "Income-Based",
+      coverageType: "partial",
+      paragraphs: [
+      "If your modified adjusted gross income (MAGI) from two years ago exceeds certain thresholds, you'll pay an Income-Related Monthly Adjustment Amount (IRMAA) on top of the standard premium. Social Security uses your tax return from 2 years prior to determine your bracket.",
+      "You can appeal IRMAA if you've experienced a life-changing event such as retirement, divorce, death of a spouse, or loss of income-producing property. File Form SSA-44 with supporting documentation.",
+    ],
+      whatItCovers: [
+      "Same Part B benefits as standard premium",
+      "No difference in coverage regardless of premium tier",
+      "Appeal rights for life-changing events",
+    ],
+      whatItDoesntCover: [
+      "No additional benefits for paying higher premiums",
+      "IRMAA does not reduce your deductible or coinsurance",
+      "Does not count toward out-of-pocket maximum",
+    ],
+      callout: {
+      type: "tip",
+      title: "IRMAA Appeal",
+      text: "If you retired, divorced, or had another qualifying life-changing event, you can request a reduction by filing Form SSA-44 with Social Security.",
+    },
+    },
+    {
+      planName: "Part B Giveback Plans",
+      icon: "heart",
+      iconColor: "#059669",
+      coverageLabel: "Reduces Premium",
+      coverageType: "covered",
+      paragraphs: [
+      "Some [Medicare Advantage plans](/blog/how-the-medicare-part-b-giveback-can-lower-your-monthly-costs) offer a Part B premium reduction (Giveback) benefit. These plans use a portion of their CMS rebate to reduce your monthly Part B premium by up to $202.90 per month.",
+      "Giveback amounts vary by plan and location, typically ranging from $50 to $175 per month. The reduction appears as a higher Social Security check since less is deducted for Part B.",
+    ],
+      whatItCovers: [
+      "Reduces your monthly Part B premium",
+      "Savings appear in your Social Security check",
+      "Available in many areas through MA plans",
+      "Can reduce premium to $0 in some cases",
+    ],
+      whatItDoesntCover: [
+      "Not available in all areas",
+      "Must enroll in a Medicare Advantage plan",
+      "Giveback amount varies by plan",
+      "May have network restrictions",
+    ],
+    },
+  ],
+  costTable: {
+    title: "2026 Part B Premium & IRMAA Brackets",
+    headers: [
+    "Income (Single)",
+    "Income (Married)",
+    "Monthly Premium",
+    "Annual Cost",
+  ],
+    rows: [
+      {
+        "Income (Single)": "≤$109,000",
+        "Income (Married)": "≤$218,000",
+        "Monthly Premium": "$202.90",
+        "Annual Cost": "$2,434.80",
+      },
+      {
+        "Income (Single)": ">$109,000–$137,000",
+        "Income (Married)": ">$218,000–$274,000",
+        "Monthly Premium": "$284.10",
+        "Annual Cost": "$3,409.20",
+      },
+      {
+        "Income (Single)": ">$137,000–$171,000",
+        "Income (Married)": ">$274,000–$342,000",
+        "Monthly Premium": "$405.80",
+        "Annual Cost": "$4,869.60",
+      },
+      {
+        "Income (Single)": ">$171,000–$205,000",
+        "Income (Married)": ">$342,000–$410,000",
+        "Monthly Premium": "$527.50",
+        "Annual Cost": "$6,330.00",
+      },
+      {
+        "Income (Single)": ">$205,000–$500,000",
+        "Income (Married)": ">$410,000–$750,000",
+        "Monthly Premium": "$649.20",
+        "Annual Cost": "$7,790.40",
+      },
+      {
+        "Income (Single)": ">$500,000",
+        "Income (Married)": ">$750,000",
+        "Monthly Premium": "$689.90",
+        "Annual Cost": "$8,278.80",
+      },
+    ],
+    footnote: "IRMAA is based on your MAGI from 2 years prior (2024 tax return for 2026 premiums). Brackets are adjusted annually.",
+  },
+  exceptionsSection: {
+    title: "Important: Late Enrollment Penalty",
+    items: [
+      {
+        title: "Part B Late Enrollment Penalty (LEP)",
+        text: "If you do not sign up for Part B when first eligible and do not have creditable employer coverage, you will pay a 10% penalty for each full 12-month period you could have had Part B but did not. This penalty is added to your premium permanently. You can only enroll late during the [General Enrollment Period](/faqs/medicare-general-enrollment-period/) (January 1 through March 31 each year).",
+        highlight: "Example: If you delayed Part B for 3 years without creditable coverage, your premium increases by 30% for life - that's an extra $60.87/month in 2026.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "2026 Part B Premium Changes",
+    items: [
+      {
+        title: "2026 Standard Premium Increase",
+        status: "Passed",
+        description: "CMS announced the 2026 Part B premium of $202.90/month, a $17.90 increase from 2025. The increase reflects rising healthcare costs and expanded coverage for obesity medications.",
+      },
+      {
+        title: "Part B Deductible Increase",
+        status: "Passed",
+        description: "The annual Part B deductible increased to $283 in 2026, up $26 from $257 in 2025.",
+      },
+      {
+        title: "Medicare Savings Programs Expansion",
+        status: "Pending",
+        description: "Proposed legislation would expand Medicare Savings Programs (MSP) income thresholds, allowing more beneficiaries to qualify for help paying Part B premiums.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "Ways to Reduce Your Part B Premium",
+    paragraphs: [
+    "There are several strategies to lower your Medicare Part B costs depending on your income level and plan choices.",
+  ],
+    checklist: {
+    title: "Premium Reduction Checklist",
+    items: [
+    "Check if you qualify for a Medicare Savings Program (QMB, SLMB, or QI) - these programs pay your Part B premium partially or fully",
+    "Consider a Medicare Advantage plan with Part B Giveback benefit to reduce your monthly premium",
+    "If you have IRMAA, file Form SSA-44 to appeal if you've had a life-changing event",
+    "Manage your MAGI strategically - Roth conversions and capital gains timing affect your IRMAA bracket 2 years later",
+    "Enroll on time to avoid the permanent 10% per year late enrollment penalty",
+    "Review your income annually - if it drops, request a new IRMAA determination",
+  ],
+    type: "tip",
+  },
+  },
+  faqs: [
+    {
+      question: "When is the Part B Premium Deducted from Social Security?",
+      answer: "Part B premiums are automatically deducted from your monthly Social Security benefit. If you don't receive Social Security, you'll get a bill from Medicare (CMS-500) quarterly.",
+    },
+    {
+      question: "Can I Delay Part B if I Have Employer Coverage?",
+      answer: "Yes. If you or your spouse has employer coverage through a company with 20+ employees, you can delay Part B without penalty. You'll get a Special Enrollment Period (SEP) when that coverage ends.",
+    },
+    {
+      question: "What is the Part B Giveback Benefit?",
+      answer: "Some Medicare Advantage plans reduce your Part B premium by giving back a portion of their CMS rebate. This appears as a higher Social Security check. Giveback amounts range from $50 to $202.90/month depending on the plan.",
+    },
+    {
+      question: "How do I know if I'll pay IRMAA?",
+      answer: "Social Security sends a letter (IRMAA determination notice) if your income from 2 years ago exceeds the threshold. You can also check by reviewing your MAGI on your tax return from 2 years prior.",
+    },
+    {
+      question: "Does Everyone Pay the Same Part B Premium?",
+      answer: "No. While most beneficiaries pay the standard $202.90/month in 2026, higher-income individuals pay more through IRMAA surcharges, and some may pay less through Giveback plans or Medicare Savings Programs.",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "dollar",
+      text: "<strong>2026 Standard Premium:</strong> $202.90/month ($17.90 increase from 2025)",
+    },
+    {
+      icon: "alert",
+      text: "<strong>IRMAA:</strong> Higher-income beneficiaries pay $284.10–$689.90/month based on income",
+    },
+    {
+      icon: "check",
+      text: "<strong>Giveback Plans:</strong> Some MA plans reduce your Part B premium by up to $202.90/month",
+    },
+    {
+      icon: "info",
+      text: "<strong>Deductible:</strong> $283 annual Part B deductible in 2026",
+    },
+    {
+      icon: "alert",
+      text: "<strong>Late Penalty:</strong> 10% per year permanently if you don't enroll on time",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "IRMAA Explained",
+      description: "Understand income-related Medicare premium surcharges and how to appeal.",
+      slug: "irmaa",
+    },
+    {
+      title: "Medicare Costs 2026",
+      description: "Complete breakdown of all Medicare costs for 2026.",
+      slug: "medicare-costs-2026",
+    },
+    {
+      title: "Part B Giveback",
+      description: "How Medicare Advantage Giveback plans can lower your monthly costs.",
+      slug: "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
+    },
+    {
+      title: "Medicare Savings Programs",
+      description: "Programs that help pay your Medicare premiums and cost-sharing.",
+      slug: "medicare-savings-programs",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "IRMAA Explained",
+    "Medicare Costs 2026",
+    "Part B Giveback Plans",
+    "Medicare Savings Programs",
+  ],
+  ctaBanner: {
+    title: "Want to Reduce Your Part B Premium?",
+    text: "Our licensed Medicare agents can help you find Giveback plans in your area or determine if you qualify for a Medicare Savings Program - at no cost to you.",
+  },
+  relatedSlugs: [
+    "irmaa",
+    "medicare-costs-2026",
+    "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs",
+    "medicare-savings-programs",
+    "medicare-part-d-six-protected-classes",
+    "part-d-plans-what-you-need-to-know-to-minimize-costs",
+    "what-is-a-medicare-part-d-formulary",
+  ],
+  youtubeVideoId: "iuCAy3Jdf7I",
+},
   {
     slug: "advance-beneficiary-notice",
     seo: {
