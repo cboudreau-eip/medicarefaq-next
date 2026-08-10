@@ -28813,207 +28813,369 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["does-medicare-cover-medical-nutritional-therapy", "medicare-coverage-for-diabetic-shoes", "medicare-preventive-services", "medicare-advantage-for-chronic-conditions-what-you-need-to-know", "part-d-plans-what-you-need-to-know-to-minimize-costs"],
   },
   {
-    slug: "all-in-one-medicare-plan",
-    seo: {
-      title: "All-In-One Medicare Plan: Medicare Advantage Explained (2026)",
-      description: "An all-in-one Medicare plan (Medicare Advantage) bundles Parts A, B, and usually D into a single plan. Compare MAPD, HMO, PPO, and SNP options for 2026.",
-      canonical: "https://www.medicarefaq.com/faqs/all-in-one-medicare-plan/",
-      ogImage: "/images/medicarefaq-cover.jpg",
-    },
-    title: "All-In-One Medicare Plan",
-    subtitle: "Medicare Advantage (Part C) Explained",
-    category: "Medicare Advantage",
-    dateUpdated: "January 16, 2024",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
-    },
-    readTime: "7 min read",
-    quickAnswer: {
-      text: "An all-in-one Medicare plan is a Medicare Advantage (Part C) plan that combines Original Medicare (Parts A and B) - and usually Part D prescription drug coverage - into a single plan from a private insurer. Most plans include extra benefits like dental, vision, and hearing not covered by Original Medicare.",
-      badges: [
-        { plan: "Medicare Advantage (MAPD)", status: "covered" },
-        { plan: "Original Medicare", status: "not-covered" },
-        { plan: "Medigap", status: "not-covered" },
-        { plan: "Part D (standalone)", status: "partial" }],
-    },
-    comparisonTable: [
-      { planType: "MAPD (HMO)", coverage: "All-in-one + drugs", icon: "shield", notes: "Lowest premium; requires referrals; network restricted" },
-      { planType: "MAPD (PPO)", coverage: "All-in-one + drugs", icon: "shield", notes: "More flexibility; higher premium; out-of-network allowed" },
-      { planType: "Original Medicare + Part D + Medigap", coverage: "Build-your-own", icon: "shield", notes: "Most flexibility; higher combined premium" },
-      { planType: "SNP (Special Needs Plan)", coverage: "All-in-one + targeted benefits", icon: "shield", notes: "For dual-eligibles, institutionalized, or chronic conditions" }],
-    planBreakdowns: [
-      {
-        planName: "What is an All-In-One Medicare Plan?",
-        icon: "info",
-        iconColor: "#0369A1",
-        coverageLabel: "Medicare Advantage (Part C)",
-        coverageType: "covered",
-        paragraphs: [
-          "Medicare Advantage (MA) plans, also called Part C, are offered by private insurers approved by Medicare. They must cover everything Original Medicare covers but can add extra benefits and structure costs differently. Most MA plans also include Part D drug coverage - making them a true all-in-one solution.",
-          "In 2026, approximately 33 million Americans are enrolled in Medicare Advantage, representing about 54% of all Medicare beneficiaries. Plans are available in most counties across the U.S., though availability varies by location."],
-        whatItCovers: [
-          "All Part A (hospital) and Part B (medical) services covered by Original Medicare",
-          "Prescription drug coverage (Part D) in most MAPD plans",
-          "Extra benefits: dental, vision, hearing, fitness, transportation, OTC allowances",
-          "Annual out-of-pocket maximum ($9,350 in-network for 2026)"],
-        whatItDoesntCover: [
-          "Does not cover providers outside the plan's network without prior authorization (HMO)",
-          "Does not allow use of Medigap alongside Medicare Advantage",
-          "Does not guarantee the same benefits year to year - plans can change annually"],
-      },
-      {
-        planName: "HMO vs. PPO: The Two Main Plan Types",
-        icon: "layers",
-        iconColor: "#0369A1",
-        coverageLabel: "Network Matters",
-        coverageType: "partial",
-        paragraphs: [
-          "HMO (Health Maintenance Organization) plans require you to use a network of doctors and hospitals. You typically need a referral from a primary care physician to see a specialist. HMOs generally have lower premiums and out-of-pocket costs but less flexibility.",
-          "PPO (Preferred Provider Organization) plans allow you to see any Medicare-approved provider, in or out of network, without a referral. Out-of-network care costs more, but the flexibility is valuable for those with established specialist relationships."],
-        whatItCovers: [
-          "HMO: in-network primary care, specialists (with referral), hospital, emergency care",
-          "PPO: in-network and out-of-network care (at higher cost-sharing)",
-          "Both: all Original Medicare-covered services plus plan extras",
-          "Both: emergency and urgent care anywhere in the U.S."],
-        whatItDoesntCover: [
-          "HMO: out-of-network non-emergency care (except emergencies)",
-          "HMO: specialist visits without PCP referral (in most cases)",
-          "PPO: out-of-network care at the same cost as in-network"],
-      },
-      {
-        planName: "Extra Benefits: What All-In-One Plans Add",
-        icon: "plus-circle",
-        iconColor: "#059669",
-        coverageLabel: "Beyond Original Medicare",
-        coverageType: "covered",
-        paragraphs: [
-          "One of the biggest draws of Medicare Advantage is the extra benefits not covered by Original Medicare. These vary widely by plan and location, but commonly include routine dental (exams, cleanings, X-rays), routine vision (exams and glasses allowance), hearing aids, fitness memberships (SilverSneakers), and over-the-counter allowances.",
-          "Some plans offer transportation to medical appointments, meal delivery after hospitalization, and home safety modifications. In 2026, CMS has tightened rules on what plans can offer, so verify benefits on Medicare.gov's Plan Finder before enrolling."],
-        whatItCovers: [
-          "Routine dental: exams, cleanings, X-rays; some plans cover fillings and dentures",
-          "Routine vision: annual exam + $100–$300 eyewear allowance",
-          "Hearing: exams and hearing aid allowances (varies by plan)",
-          "Fitness: SilverSneakers or similar gym membership"],
-        whatItDoesntCover: [
-          "Extra benefits vary by plan and county - not guaranteed in all MA plans",
-          "Dental benefits rarely cover major procedures like implants or crowns",
-          "Extra benefits can be reduced or eliminated at next Annual Enrollment Period"],
-      },
-      {
-        planName: "Special Needs Plans (SNPs): Targeted All-In-One Coverage",
-        icon: "heart",
-        iconColor: "#DC2626",
-        coverageLabel: "Specialized Coverage",
-        coverageType: "covered",
-        paragraphs: [
-          "Special Needs Plans (SNPs) are a type of Medicare Advantage plan designed for people with specific needs. There are three types: Dual Eligible SNPs (D-SNPs) for people with both Medicare and Medicaid, Institutional SNPs (I-SNPs) for nursing home residents, and Chronic Condition SNPs (C-SNPs) for people with specific chronic conditions like diabetes, heart failure, or ESRD.",
-          "SNPs tailor their benefits, provider networks, and drug formularies to the specific needs of their members. D-SNPs, in particular, can coordinate Medicare and Medicaid benefits to minimize out-of-pocket costs."],
-        whatItCovers: [
-          "D-SNP: coordinates Medicare and Medicaid benefits; often $0 premium",
-          "C-SNP: specialized care management for chronic conditions",
-          "I-SNP: coverage tailored for nursing facility residents",
-          "All SNPs: all Original Medicare services plus targeted extras"],
-        whatItDoesntCover: [
-          "SNPs require qualifying conditions or circumstances for enrollment",
-          "C-SNPs do not cover conditions outside the plan's designated chronic condition",
-          "I-SNPs do not cover community-based care for non-institutional members"],
-      },
-      {
-        planName: "All-In-One vs. Build-Your-Own: Which is Better?",
-        icon: "scale",
-        iconColor: "#7C3AED",
-        coverageLabel: "Comparison",
-        coverageType: "partial",
-        paragraphs: [
-          "The 'build-your-own' approach - Original Medicare + Part D + Medigap - offers maximum provider flexibility and predictable costs, but typically costs more in combined premiums ($200–$400/month for Medigap Plan G plus Part D). It works best for those with established specialist relationships or who travel frequently.",
-          "Medicare Advantage (all-in-one) typically has lower premiums (often $0–$50/month) but requires network adherence and can have higher out-of-pocket costs for heavy users. The $9,350 OOP cap protects against catastrophic costs. The best choice depends on your health needs, budget, and preferred providers."],
-        whatItCovers: [
-          "MA (all-in-one): lower premiums, OOP cap, extra benefits, drug coverage",
-          "Build-your-own: any Medicare provider nationwide, no referrals, predictable costs",
-          "Both: all medically necessary services covered by Original Medicare",
-          "Both: emergency care anywhere in the U.S."],
-        whatItDoesntCover: [
-          "MA does not allow Medigap enrollment simultaneously",
-          "Build-your-own does not include extra benefits like dental/vision/hearing",
-          "Neither covers long-term custodial care"],
-      }],
-    costTable: {
-      title: "All-In-One Medicare Plan Costs at a Glance (2026)",
-      headers: ["Cost Type", "Medicare Advantage (MAPD)", "Original Medicare + Medigap G + Part D", "SNP (D-SNP)"],
-      rows: [
-        { "Cost Type": "Monthly Premium", "Medicare Advantage (MAPD)": "$0–$50/month (avg)", "Original Medicare + Medigap G + Part D": "$200–$400/month combined", "SNP (D-SNP)": "Often $0" },
-        { "Cost Type": "Part B Deductible", "Medicare Advantage (MAPD)": "Often waived", "Original Medicare + Medigap G + Part D": "$257/year (Plan G covers)", "SNP (D-SNP)": "Often waived" },
-        { "Cost Type": "Annual OOP Max", "Medicare Advantage (MAPD)": "$9,350 in-network", "Original Medicare + Medigap G + Part D": "No cap (Original Medicare alone)", "SNP (D-SNP)": "$9,350 in-network" },
-        { "Cost Type": "Dental/Vision/Hearing", "Medicare Advantage (MAPD)": "Often included", "Original Medicare + Medigap G + Part D": "Not included", "SNP (D-SNP)": "Often included" },
-        { "Cost Type": "Network Restriction", "Medicare Advantage (MAPD)": "Yes (HMO) / Partial (PPO)", "Original Medicare + Medigap G + Part D": "Any Medicare provider", "SNP (D-SNP)": "Yes - specialized network" }],
-      footnote: "Costs vary by plan and location. Verify specific plan costs on Medicare.gov Plan Finder.",
-    },
-    exceptionsSection: {
-      title: "Important Exceptions and Considerations",
-      items: [
-        { title: "Annual Enrollment Period", text: "You can switch MA plans or return to Original Medicare each year Oct 15 – Dec 7. Changes take effect Jan 1." },
-        { title: "MA Open Enrollment Period", text: "Jan 1 – Mar 31: if already in MA, you can switch to another MA plan or return to Original Medicare once." },
-        { title: "5-Star Special Enrollment Period", text: "If a 5-star MA plan is available in your area, you can switch to it once per year outside standard enrollment periods." },
-        { title: "Medigap Trial Right", text: "If you leave MA within 12 months of first joining, you have a trial right to buy Medigap without medical underwriting." }],
-    },
-    legislativeUpdate: {
-      title: "Legislative Updates",
-      items: [
-        { title: "2026 MA OOP Cap Stays at $9,350", status: "Passed", description: "CMS maintained the $9,350 in-network OOP maximum for 2026 MA plans." },
-        { title: "CMS Marketing Rules Tightened (2023)", status: "Passed", description: "New rules restrict misleading MA advertising, including unsolicited calls and exaggerated benefit claims." },
-        { title: "Extra Benefits Scrutiny Increased", status: "Passed", description: "CMS required plans to demonstrate that extra benefits are primarily health-related, reducing some supplemental offerings in 2026." }],
-    },
-    alternativesSection: {
-      title: "How to Choose the Right All-In-One Plan",
-      paragraphs: [
-        "Use Medicare.gov's Plan Finder to compare all available plans in your zip code. Filter by your current doctors, prescriptions, and preferred pharmacies. Pay attention to total annual costs - not just the monthly premium.",
-        "Consider your health needs: if you use many specialists or have chronic conditions, compare the plan's network and copays carefully. If you travel frequently, a PPO or Original Medicare + Medigap may serve you better."],
-      checklist: {
-        title: "All-In-One Plan Enrollment Checklist",
-        items: [
-          "Compare plans on Medicare.gov Plan Finder - filter by your drugs, doctors, and zip code",
-          "Check if your current doctors and specialists are in-network before enrolling",
-          "Review the plan's formulary to ensure your prescriptions are covered at a reasonable tier",
-          "Compare total annual costs (premium + deductibles + copays), not just the monthly premium",
-          "Review the Annual Notice of Change (ANOC) each September if already enrolled",
-          "Check extra benefits (dental, vision, hearing) for the specific plan - not just the plan type",
-          "Consider a 5-star plan if available - quality ratings matter for care coordination"],
-        type: "tip",
-      },
-    },
-    faqs: [
-      { question: "Can I Have Both Medicare Advantage and Medigap?", answer: "No. Medigap cannot be used alongside Medicare Advantage. If you enroll in MA, your Medigap policy becomes useless." },
-      { question: "Do All Medicare Advantage Plans Include Drug Coverage?", answer: "Most do (MAPD plans), but some MA-only plans do not. Always verify before enrolling." },
-      { question: "What happens if I move out of my plan's service area?", answer: "You qualify for a Special Enrollment Period to switch plans. Emergency care is always covered anywhere." },
-      { question: "Can I Switch Back to Original Medicare from Medicare Advantage?", answer: "Yes, during the Annual Enrollment Period (Oct 15–Dec 7) or the MA Open Enrollment Period (Jan 1–Mar 31)." },
-      { question: "Are $0 Premium Medicare Advantage Plans Really Free?", answer: "The premium is $0, but you still pay the Part B premium ($202.90/month in 2026) and plan cost-sharing (copays, deductibles)." }],
-    quickReference: [
-      { icon: "check", text: "Medicare Advantage = Part A + Part B + usually Part D in one plan" },
-      { icon: "dollar", text: "Average MA premium: $0–$50/month; OOP max: $9,350 in-network (2026)" },
-      { icon: "info", text: "~54% of Medicare beneficiaries are enrolled in Medicare Advantage in 2026" },
-      { icon: "alert", text: "Extra benefits (dental, vision, hearing) vary by plan - verify on Medicare.gov" },
-      { icon: "check", text: "Trial right: leave MA within 12 months and get Medigap without underwriting" }],
-    relatedTopics: [
-      { title: "Medicare Advantage vs. Original Medicare", description: "Side-by-side comparison of both approaches.", slug: "original-medicare-vs-medicare-advantage" },
-      { title: "Medigap vs. Medicare Advantage", description: "Which supplemental approach is right for you?", slug: "medigap-vs-medicare-advantage" },
-      { title: "Key Questions When Comparing MA Plans", description: "What to ask before you enroll.", slug: "key-questions-to-ask-when-comparing-medicare-advantage-plans" }],
-    sidebarRelatedLinks: ["original-medicare-vs-medicare-advantage", "medigap-vs-medicare-advantage"],
-    ctaBanner: {
-      title: "Find the Best All-In-One Medicare Plan for You",
-      text: "Our licensed agents can help you compare Medicare Advantage plans in your area and find the right all-in-one coverage for your needs and budget.",
-    },
-    relatedSlugs: ["the-essentials-medicare-supplement-vs-medicare-advantage-explained", "medigap-vs-medicare-advantage", "original-medicare-vs-medicare-advantage", "key-questions-to-ask-when-comparing-medicare-advantage-plans"],
+  slug: "all-in-one-medicare-plan",
+  seo: {
+    title: "All-In-One Medicare Plan: Medicare Advantage Explained",
+    description: "An all-in-one Medicare plan (Medicare Advantage) bundles Parts A, B, and usually D into a single plan. Compare MAPD, HMO, PPO, and SNP options for 2026.",
+    canonical: "https://www.medicarefaq.com/faqs/all-in-one-medicare-plan/",
+    ogImage: "/images/medicarefaq-cover.jpg",
   },
+  title: "All-In-One Medicare Plan",
+  subtitle: "Medicare Advantage (Part C) Explained",
+  category: "Medicare Advantage",
+  dateUpdated: "January 16, 2024",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is a licensed Medicare expert who has been helping beneficiaries navigate their Medicare options for over a decade.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is a licensed Medicare agent dedicated to helping those eligible for Medicare find the best coverage options.",
+  },
+  readTime: "7 min read",
+  quickAnswer: {
+    text: "An all-in-one Medicare plan is a Medicare Advantage (Part C) plan that combines Original Medicare (Parts A and B) - and usually Part D prescription drug coverage - into a single plan from a private insurer. Most plans include extra benefits like dental, vision, and hearing not covered by Original Medicare.",
+    badges: [
+      {
+        plan: "Medicare Advantage (MAPD)",
+        status: "covered",
+      },
+      {
+        plan: "Original Medicare",
+        status: "not-covered",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+      {
+        plan: "Part D (standalone)",
+        status: "partial",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "MAPD (HMO)",
+      coverage: "All-in-one + drugs",
+      icon: "shield",
+      notes: "Lowest premium; requires referrals; network restricted",
+    },
+    {
+      planType: "MAPD (PPO)",
+      coverage: "All-in-one + drugs",
+      icon: "shield",
+      notes: "More flexibility; higher premium; out-of-network allowed",
+    },
+    {
+      planType: "Original Medicare + Part D + Medigap",
+      coverage: "Build-your-own",
+      icon: "shield",
+      notes: "Most flexibility; higher combined premium",
+    },
+    {
+      planType: "SNP (Special Needs Plan)",
+      coverage: "All-in-one + targeted benefits",
+      icon: "shield",
+      notes: "For dual-eligibles, institutionalized, or chronic conditions",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "What is an All-In-One Medicare Plan?",
+      icon: "info",
+      iconColor: "#0369A1",
+      coverageLabel: "Medicare Advantage (Part C)",
+      coverageType: "covered",
+      paragraphs: [
+      "Medicare Advantage (MA) plans, also called Part C, are offered by private insurers approved by Medicare. They must cover everything Original Medicare covers but can add extra benefits and structure costs differently. Most MA plans also include Part D drug coverage - making them a true all-in-one solution.",
+      "In 2026, approximately 33 million Americans are enrolled in Medicare Advantage, representing about 54% of all Medicare beneficiaries. Plans are available in most counties across the U.S., though availability varies by location.",
+    ],
+      whatItCovers: [
+      "All Part A (hospital) and Part B (medical) services covered by Original Medicare",
+      "Prescription drug coverage (Part D) in most MAPD plans",
+      "Extra benefits: dental, vision, hearing, fitness, transportation, OTC allowances",
+      "Annual out-of-pocket maximum ($9,350 in-network for 2026)",
+    ],
+      whatItDoesntCover: [
+      "Does not cover providers outside the plan's network without prior authorization (HMO)",
+      "Does not allow use of Medigap alongside Medicare Advantage",
+      "Does not guarantee the same benefits year to year - plans can change annually",
+    ],
+    },
+    {
+      planName: "HMO vs. PPO: The Two Main Plan Types",
+      icon: "layers",
+      iconColor: "#0369A1",
+      coverageLabel: "Network Matters",
+      coverageType: "partial",
+      paragraphs: [
+      "HMO (Health Maintenance Organization) plans require you to use a network of doctors and hospitals. You typically need a referral from a primary care physician to see a specialist. HMOs generally have lower premiums and out-of-pocket costs but less flexibility.",
+      "PPO (Preferred Provider Organization) plans allow you to see any Medicare-approved provider, in or out of network, without a referral. Out-of-network care costs more, but the flexibility is valuable for those with established specialist relationships.",
+    ],
+      whatItCovers: [
+      "HMO: in-network primary care, specialists (with referral), hospital, emergency care",
+      "PPO: in-network and out-of-network care (at higher cost-sharing)",
+      "Both: all Original Medicare-covered services plus plan extras",
+      "Both: emergency and urgent care anywhere in the U.S.",
+    ],
+      whatItDoesntCover: [
+      "HMO: out-of-network non-emergency care (except emergencies)",
+      "HMO: specialist visits without PCP referral (in most cases)",
+      "PPO: out-of-network care at the same cost as in-network",
+    ],
+    },
+    {
+      planName: "Extra Benefits: What All-In-One Plans Add",
+      icon: "plus-circle",
+      iconColor: "#059669",
+      coverageLabel: "Beyond Original Medicare",
+      coverageType: "covered",
+      paragraphs: [
+      "One of the biggest draws of Medicare Advantage is the extra benefits not covered by Original Medicare. These vary widely by plan and location, but commonly include routine dental (exams, cleanings, X-rays), routine vision (exams and glasses allowance), hearing aids, fitness memberships (SilverSneakers), and over-the-counter allowances.",
+      "Some plans offer transportation to medical appointments, meal delivery after hospitalization, and home safety modifications. In 2026, CMS has tightened rules on what plans can offer, so verify benefits on Medicare.gov's Plan Finder before enrolling.",
+    ],
+      whatItCovers: [
+      "Routine dental: exams, cleanings, X-rays; some plans cover fillings and dentures",
+      "Routine vision: annual exam + $100–$300 eyewear allowance",
+      "Hearing: exams and hearing aid allowances (varies by plan)",
+      "Fitness: SilverSneakers or similar gym membership",
+    ],
+      whatItDoesntCover: [
+      "Extra benefits vary by plan and county - not guaranteed in all MA plans",
+      "Dental benefits rarely cover major procedures like implants or crowns",
+      "Extra benefits can be reduced or eliminated at next Annual Enrollment Period",
+    ],
+    },
+    {
+      planName: "Special Needs Plans (SNPs): Targeted All-In-One Coverage",
+      icon: "heart",
+      iconColor: "#DC2626",
+      coverageLabel: "Specialized Coverage",
+      coverageType: "covered",
+      paragraphs: [
+      "Special Needs Plans (SNPs) are a type of Medicare Advantage plan designed for people with specific needs. There are three types: Dual Eligible SNPs (D-SNPs) for people with both Medicare and Medicaid, Institutional SNPs (I-SNPs) for nursing home residents, and Chronic Condition SNPs (C-SNPs) for people with specific chronic conditions like diabetes, heart failure, or ESRD.",
+      "SNPs tailor their benefits, provider networks, and drug formularies to the specific needs of their members. D-SNPs, in particular, can coordinate Medicare and Medicaid benefits to minimize out-of-pocket costs.",
+    ],
+      whatItCovers: [
+      "D-SNP: coordinates Medicare and Medicaid benefits; often $0 premium",
+      "C-SNP: specialized care management for chronic conditions",
+      "I-SNP: coverage tailored for nursing facility residents",
+      "All SNPs: all Original Medicare services plus targeted extras",
+    ],
+      whatItDoesntCover: [
+      "SNPs require qualifying conditions or circumstances for enrollment",
+      "C-SNPs do not cover conditions outside the plan's designated chronic condition",
+      "I-SNPs do not cover community-based care for non-institutional members",
+    ],
+    },
+    {
+      planName: "All-In-One vs. Build-Your-Own: Which is Better?",
+      icon: "scale",
+      iconColor: "#7C3AED",
+      coverageLabel: "Comparison",
+      coverageType: "partial",
+      paragraphs: [
+      "The 'build-your-own' approach - Original Medicare + Part D + Medigap - offers maximum provider flexibility and predictable costs, but typically costs more in combined premiums ($200–$400/month for Medigap Plan G plus Part D). It works best for those with established specialist relationships or who travel frequently.",
+      "Medicare Advantage (all-in-one) typically has lower premiums (often $0–$50/month) but requires network adherence and can have higher out-of-pocket costs for heavy users. The $9,350 OOP cap protects against catastrophic costs. The best choice depends on your health needs, budget, and preferred providers.",
+    ],
+      whatItCovers: [
+      "MA (all-in-one): lower premiums, OOP cap, extra benefits, drug coverage",
+      "Build-your-own: any Medicare provider nationwide, no referrals, predictable costs",
+      "Both: all medically necessary services covered by Original Medicare",
+      "Both: emergency care anywhere in the U.S.",
+    ],
+      whatItDoesntCover: [
+      "MA does not allow Medigap enrollment simultaneously",
+      "Build-your-own does not include extra benefits like dental/vision/hearing",
+      "Neither covers long-term custodial care",
+    ],
+    },
+  ],
+  costTable: {
+    title: "All-In-One Medicare Plan Costs at a Glance (2026)",
+    headers: [
+    "Cost Type",
+    "Medicare Advantage (MAPD)",
+    "Original Medicare + Medigap G + Part D",
+    "SNP (D-SNP)",
+  ],
+    rows: [
+      {
+        "Cost Type": "Monthly Premium",
+        "Medicare Advantage (MAPD)": "$0–$50/month (avg)",
+        "Original Medicare + Medigap G + Part D": "$200–$400/month combined",
+        "SNP (D-SNP)": "Often $0",
+      },
+      {
+        "Cost Type": "Part B Deductible",
+        "Medicare Advantage (MAPD)": "Often waived",
+        "Original Medicare + Medigap G + Part D": "$257/year (Plan G covers)",
+        "SNP (D-SNP)": "Often waived",
+      },
+      {
+        "Cost Type": "Annual OOP Max",
+        "Medicare Advantage (MAPD)": "$9,350 in-network",
+        "Original Medicare + Medigap G + Part D": "No cap (Original Medicare alone)",
+        "SNP (D-SNP)": "$9,350 in-network",
+      },
+      {
+        "Cost Type": "Dental/Vision/Hearing",
+        "Medicare Advantage (MAPD)": "Often included",
+        "Original Medicare + Medigap G + Part D": "Not included",
+        "SNP (D-SNP)": "Often included",
+      },
+      {
+        "Cost Type": "Network Restriction",
+        "Medicare Advantage (MAPD)": "Yes (HMO) / Partial (PPO)",
+        "Original Medicare + Medigap G + Part D": "Any Medicare provider",
+        "SNP (D-SNP)": "Yes - specialized network",
+      },
+    ],
+    footnote: "Costs vary by plan and location. Verify specific plan costs on Medicare.gov Plan Finder.",
+  },
+  exceptionsSection: {
+    title: "Important Exceptions and Considerations",
+    items: [
+      {
+        title: "Annual Enrollment Period",
+        text: "You can switch MA plans or return to Original Medicare each year Oct 15 – Dec 7. Changes take effect Jan 1.",
+      },
+      {
+        title: "MA Open Enrollment Period",
+        text: "Jan 1 – Mar 31: if already in MA, you can switch to another MA plan or return to Original Medicare once.",
+      },
+      {
+        title: "5-Star Special Enrollment Period",
+        text: "If a 5-star MA plan is available in your area, you can switch to it once per year outside standard enrollment periods.",
+      },
+      {
+        title: "Medigap Trial Right",
+        text: "If you leave MA within 12 months of first joining, you have a trial right to buy Medigap without medical underwriting.",
+      },
+    ],
+  },
+  legislativeUpdate: {
+    title: "Legislative Updates",
+    items: [
+      {
+        title: "2026 MA OOP Cap Stays at $9,350",
+        status: "Passed",
+        description: "CMS maintained the $9,350 in-network OOP maximum for 2026 MA plans.",
+      },
+      {
+        title: "CMS Marketing Rules Tightened (2023)",
+        status: "Passed",
+        description: "New rules restrict misleading MA advertising, including unsolicited calls and exaggerated benefit claims.",
+      },
+      {
+        title: "Extra Benefits Scrutiny Increased",
+        status: "Passed",
+        description: "CMS required plans to demonstrate that extra benefits are primarily health-related, reducing some supplemental offerings in 2026.",
+      },
+    ],
+  },
+  alternativesSection: {
+    title: "How to Choose the Right All-In-One Plan",
+    paragraphs: [
+    "Use Medicare.gov's Plan Finder to compare all available plans in your zip code. Filter by your current doctors, prescriptions, and preferred pharmacies. Pay attention to total annual costs - not just the monthly premium.",
+    "Consider your health needs: if you use many specialists or have chronic conditions, compare the plan's network and copays carefully. If you travel frequently, a PPO or Original Medicare + Medigap may serve you better.",
+  ],
+    checklist: {
+    title: "All-In-One Plan Enrollment Checklist",
+    items: [
+    "Compare plans on Medicare.gov Plan Finder - filter by your drugs, doctors, and zip code",
+    "Check if your current doctors and specialists are in-network before enrolling",
+    "Review the plan's formulary to ensure your prescriptions are covered at a reasonable tier",
+    "Compare total annual costs (premium + deductibles + copays), not just the monthly premium",
+    "Review the Annual Notice of Change (ANOC) each September if already enrolled",
+    "Check extra benefits (dental, vision, hearing) for the specific plan - not just the plan type",
+    "Consider a 5-star plan if available - quality ratings matter for care coordination",
+  ],
+    type: "tip",
+  },
+  },
+  faqs: [
+    {
+      question: "Can I Have Both Medicare Advantage and Medigap?",
+      answer: "No. Medigap cannot be used alongside Medicare Advantage. If you enroll in MA, your Medigap policy becomes useless.",
+    },
+    {
+      question: "Do All Medicare Advantage Plans Include Drug Coverage?",
+      answer: "Most do (MAPD plans), but some MA-only plans do not. Always verify before enrolling.",
+    },
+    {
+      question: "What happens if I move out of my plan's service area?",
+      answer: "You qualify for a Special Enrollment Period to switch plans. Emergency care is always covered anywhere.",
+    },
+    {
+      question: "Can I Switch Back to Original Medicare from Medicare Advantage?",
+      answer: "Yes, during the Annual Enrollment Period (Oct 15–Dec 7) or the MA Open Enrollment Period (Jan 1–Mar 31).",
+    },
+    {
+      question: "Are $0 Premium Medicare Advantage Plans Really Free?",
+      answer: "The premium is $0, but you still pay the Part B premium ($202.90/month in 2026) and plan cost-sharing (copays, deductibles).",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "check",
+      text: "Medicare Advantage = Part A + Part B + usually Part D in one plan",
+    },
+    {
+      icon: "dollar",
+      text: "Average MA premium: $0–$50/month; OOP max: $9,350 in-network (2026)",
+    },
+    {
+      icon: "info",
+      text: "~54% of Medicare beneficiaries are enrolled in Medicare Advantage in 2026",
+    },
+    {
+      icon: "alert",
+      text: "Extra benefits (dental, vision, hearing) vary by plan - verify on Medicare.gov",
+    },
+    {
+      icon: "check",
+      text: "Trial right: leave MA within 12 months and get Medigap without underwriting",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Medicare Advantage vs. Original Medicare",
+      description: "Side-by-side comparison of both approaches.",
+      slug: "original-medicare-vs-medicare-advantage",
+    },
+    {
+      title: "Medigap vs. Medicare Advantage",
+      description: "Which supplemental approach is right for you?",
+      slug: "medigap-vs-medicare-advantage",
+    },
+    {
+      title: "Key Questions When Comparing MA Plans",
+      description: "What to ask before you enroll.",
+      slug: "key-questions-to-ask-when-comparing-medicare-advantage-plans",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "original-medicare-vs-medicare-advantage",
+    "medigap-vs-medicare-advantage",
+  ],
+  ctaBanner: {
+    title: "Find the Best All-In-One Medicare Plan for You",
+    text: "Our licensed agents can help you compare Medicare Advantage plans in your area and find the right all-in-one coverage for your needs and budget.",
+  },
+  relatedSlugs: [
+    "the-essentials-medicare-supplement-vs-medicare-advantage-explained",
+    "medigap-vs-medicare-advantage",
+    "original-medicare-vs-medicare-advantage",
+    "key-questions-to-ask-when-comparing-medicare-advantage-plans",
+  ],
+},
   {
     slug: "delay-medicare",
     seo: {
@@ -35674,7 +35836,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "12 min read",
     quickAnswer: {
-      text: "The best Medicare Part D plans for 2026 balance low premiums, broad formulary coverage, and convenient pharmacy networks. All Part D plans now cap your annual out-of-pocket drug spending at $2,100, and the average monthly premium is $34.50. Our top picks: Humana Walmart Value Rx (best for low out-of-pocket costs), Wellcare Value Script (best for low premiums), AARP MedicareRx Preferred (best for large formulary and low deductible), and HealthSpring Secure Rx (best for generic drugs). Use Medicare Plan Finder at Medicare.gov to compare plans based on your specific prescriptions.",
+      text: "The best Medicare Part D plans for 2026 balance low premiums, broad formulary coverage, and convenient pharmacy networks. All Part D plans now cap your annual out-of-pocket drug spending at $2,100, and the average monthly premium is $34.50. Our top picks: Humana Walmart Value Rx (best for low out-of-pocket costs), Wellcare Value Script (best for low premiums), AARP MedicareRx Preferred (best for large formulary and low deductible), and HealthSpring Secure Rx (best for generic drugs). Use [Medicare Plan Finder](https://www.medicare.gov/plan-compare/) to compare plans based on your specific prescriptions.",
       badges: [
         { plan: "Part D", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
