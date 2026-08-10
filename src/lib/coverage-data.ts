@@ -35674,7 +35674,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "12 min read",
     quickAnswer: {
-      text: "The best Medicare Part D plans for 2026 balance low premiums, broad formulary coverage, and convenient pharmacy networks. All Part D plans now cap your annual out-of-pocket drug spending at $2,100, and the average monthly premium is $34.50. Our top picks: Humana Walmart Value Rx (best for low out-of-pocket costs), Wellcare Value Script (best for low premiums), AARP MedicareRx Preferred (best for large formulary and low deductible), and HealthSpring Secure Rx (best for generic drugs). Use [Medicare Plan Finder](https://www.medicare.gov/plan-compare/) to compare plans based on your specific prescriptions.",
+      text: "The best Medicare Part D plans for 2026 balance low premiums, broad formulary coverage, and convenient pharmacy networks. All Part D plans now cap your annual out-of-pocket drug spending at $2,100, and the average monthly premium is $34.50. Our top picks: Humana Walmart Value Rx (best for low out-of-pocket costs), Wellcare Value Script (best for low premiums), AARP MedicareRx Preferred (best for large formulary and low deductible), and HealthSpring Secure Rx (best for generic drugs). Use Medicare Plan Finder at Medicare.gov to compare plans based on your specific prescriptions.",
       badges: [
         { plan: "Part D", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
