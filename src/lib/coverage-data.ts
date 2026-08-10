@@ -35651,15 +35651,15 @@ export const coverageArticles: CoverageArticleData[] = [
     slug: "top-5-medicare-prescription-drug-plans",
     seo: {
       title: "Best Medicare Part D Plans in 2026: Compare Top Prescription Drug Coverage",
-      description: "Compare the best Medicare Part D prescription drug plans for 2026. See premiums from $0-$100/month, $0-$615 deductibles, star ratings, and the new $2,000 out-of-pocket cap.",
+      description: "Compare the best Medicare Part D prescription drug plans for 2026. See premiums from $0-$95/month, $0-$615 deductibles, star ratings, and the new $2,100 out-of-pocket cap.",
       canonical: "https://www.medicarefaq.com/faqs/top-5-medicare-prescription-drug-plans/",
       ogImage: "/images/medicarefaq-cover.jpg",
     },
     title: "Best Medicare Part D Prescription Drug Plans (2026)",
     subtitle: "Compare the top-rated Part D plans by premium, deductible, formulary coverage, star rating, and total out-of-pocket costs for 2026.",
     category: "Medicare Part D",
-    dateUpdated: "August 7, 2026",
-    lastReviewed: "2026-08-07",
+    dateUpdated: "August 10, 2026",
+    lastReviewed: "2026-08-10",
     author: {
       name: "David Haass",
       initials: "DH",
@@ -35674,7 +35674,7 @@ export const coverageArticles: CoverageArticleData[] = [
     },
     readTime: "11 min read",
     quickAnswer: {
-      text: "The best Medicare Part D plans for 2026 depend on your specific medications, pharmacy preferences, and budget. In 2026, all Part D plans cap your out-of-pocket drug costs at $2,000 per year. The average monthly premium is $38.99, and the maximum deductible is $615. Top-rated plans include SilverScript Choice (4.5 stars, nationwide), Wellcare Value Script (4 stars, low premium), AARP MedicareRx Preferred (4.5 stars, large formulary), Humana Walmart Value Rx (4 stars, $0 premium option), and Cigna Secure Rx (4 stars, $0 deductible option).",
+      text: "The best Medicare Part D plans for 2026 depend on your specific medications, pharmacy preferences, and budget. In 2026, all Part D plans cap your out-of-pocket drug costs at $2,100 per year. The average monthly premium is $34.50, and the maximum deductible is $615. Top-rated plans include SilverScript Choice (4.5 stars, nationwide), Wellcare Value Script (4 stars, low premium), AARP MedicareRx Preferred (4.5 stars, large formulary), Humana Walmart Value Rx (4 stars, $0 premium option), and Cigna Secure Rx (4 stars, $0 deductible option).",
       badges: [
         { plan: "Part D", status: "covered" },
         { plan: "Medicare Advantage", status: "covered" },
@@ -35710,19 +35710,19 @@ export const coverageArticles: CoverageArticleData[] = [
         coverageType: "covered",
         paragraphs: [
           "All Medicare Part D plans in 2026 must cover at least two drugs in every therapeutic category and class. Every plan must include all drugs in six protected classes: anticonvulsants, antidepressants, antineoplastics, antipsychotics, antiretrovirals, and immunosuppressants.",
-          "The maximum allowable deductible is $615 (many plans charge less or $0). After the deductible, you pay 25% coinsurance until reaching the $2,000 annual out-of-pocket cap. Once you hit $2,000 in out-of-pocket spending, you pay nothing more for covered drugs the rest of the year.",
+          "The maximum allowable deductible is $615 (many plans charge less or $0). After the deductible, you pay 25% coinsurance until reaching the $2,100 annual out-of-pocket cap. Once you hit $2,100 in out-of-pocket spending, you pay nothing more for covered drugs the rest of the year.",
           "Insulin is capped at $35/month regardless of plan. All recommended adult vaccines are covered at $0 cost-sharing.",
         ],
       },
       {
-        planName: "The $2,000 Out-of-Pocket Cap Explained",
+        planName: "The $2,100 Out-of-Pocket Cap Explained",
         icon: "DollarSign",
         iconColor: "text-green-600",
         coverageLabel: "2026 Benefit",
         coverageType: "covered",
         paragraphs: [
-          "Starting in 2025, Medicare Part D includes a hard cap on what you pay out of pocket for prescription drugs each year. In 2026, that cap is $2,000 (increasing to $2,400 in 2027).",
-          "This means once your total out-of-pocket drug spending (deductible + copays + coinsurance) reaches $2,000, you pay $0 for all covered drugs for the remainder of the year. This eliminates the old catastrophic coverage phase where beneficiaries still paid 5% of drug costs.",
+          "Starting in 2025, Medicare Part D includes a hard cap on what you pay out of pocket for prescription drugs each year. The cap started at $2,000 in 2025 and rose to $2,100 for 2026. The threshold is indexed annually and adjusts each plan year.",
+          "This means once your total out-of-pocket drug spending (deductible + copays + coinsurance) reaches $2,100, you pay $0 for all covered drugs for the remainder of the year. This eliminates the old catastrophic coverage phase where beneficiaries still paid 5% of drug costs.",
           "The Medicare Prescription Payment Plan also lets you spread your costs into equal monthly installments rather than paying large amounts upfront.",
         ],
       },
@@ -35747,7 +35747,7 @@ export const coverageArticles: CoverageArticleData[] = [
         paragraphs: [
           "You can get Part D coverage two ways: a stand-alone Prescription Drug Plan (PDP) paired with Original Medicare and optional Medigap, or through a Medicare Advantage Prescription Drug plan (MA-PD) that bundles medical and drug coverage.",
           "Stand-alone PDPs give you more flexibility to choose any Medicare-accepting doctor while keeping your drug coverage separate. MA-PDs may offer lower combined costs but restrict you to a provider network.",
-          "If you have a Medigap plan, you must use a stand-alone PDP. You cannot have both a Medigap plan and a Medicare Advantage plan.",
+          "If you have a Medigap plan, your only option for drug coverage is a stand-alone PDP. You cannot have both a Medigap plan and a Medicare Advantage plan.",
         ],
       },
       {
@@ -35765,10 +35765,10 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
     faqs: [
       { question: "What is the best Medicare Part D plan for 2026?", answer: "The best Part D plan depends on your specific medications, preferred pharmacy, and budget. Use Medicare.gov Plan Finder to compare total annual costs. Top-rated national plans include SilverScript Choice (4.5 stars) and AARP MedicareRx Preferred (4.5 stars)." },
-      { question: "How much does Medicare Part D cost per month?", answer: "Part D premiums range from $0 to over $100 per month depending on the plan. The national average premium is $38.99/month in 2026. Lower-premium plans may have higher deductibles or copays." },
-      { question: "What is the Part D out-of-pocket maximum in 2026?", answer: "The Part D out-of-pocket cap is $2,000 in 2026. Once your total out-of-pocket drug spending reaches $2,000, you pay nothing more for covered drugs the rest of the year." },
+      { question: "How much does Medicare Part D cost per month?", answer: "Part D premiums range from $0 to over $100 per month depending on the plan. The national average premium is $34.50/month in 2026. Lower-premium plans may have higher deductibles or copays." },
+      { question: "What is the Part D out-of-pocket maximum in 2026?", answer: "The Part D out-of-pocket cap is $2,100 in 2026. Once your total out-of-pocket drug spending reaches $2,100, you pay nothing more for covered drugs the rest of the year." },
       { question: "Is there a $0 premium Part D plan?", answer: "Yes, several Part D plans offer $0 monthly premiums in 2026, including options from Wellcare and Humana. However, $0 premium plans typically have the full $615 deductible and may have smaller formularies." },
-      { question: "What is the Part D deductible for 2026?", answer: "The maximum Part D deductible is $615 in 2026. Many plans charge less or have no deductible at all. After meeting the deductible, you typically pay 25% of drug costs until reaching the $2,000 out-of-pocket cap." },
+      { question: "What is the Part D deductible for 2026?", answer: "The maximum Part D deductible is $615 in 2026. Many plans charge less or have no deductible at all. After meeting the deductible, you typically pay 25% of drug costs until reaching the $2,100 out-of-pocket cap." },
       { question: "Does Medicare Part D cover all prescription drugs?", answer: "No. Each plan has a formulary (list of covered drugs). All plans must cover at least two drugs per therapeutic category and all drugs in six protected classes. If your drug is not on the formulary, you can request an exception or switch plans during open enrollment." },
       { question: "Can I change my Part D plan mid-year?", answer: "Generally no. You can only change during Medicare Open Enrollment (Oct 15 - Dec 7) or if you qualify for a Special Enrollment Period. People with Extra Help (Low-Income Subsidy) can change once per month." },
       { question: "What is the Medicare Prescription Payment Plan?", answer: "The Medicare Prescription Payment Plan lets you spread your out-of-pocket drug costs into predictable monthly payments rather than paying large amounts when you fill expensive prescriptions. Contact your Part D plan to enroll." },
@@ -35777,12 +35777,12 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
 
     quickReference: [
-      { icon: "dollar", text: "Average monthly premium: $38.99/mo in 2026" },
+      { icon: "dollar", text: "Average monthly premium: $34.50/mo in 2026" },
       { icon: "dollar", text: "Maximum deductible: $615 in 2026" },
-      { icon: "check", text: "Out-of-pocket cap: $2,000/year - you pay $0 after reaching this" },
+      { icon: "check", text: "Out-of-pocket cap: $2,100/year - you pay $0 after reaching this" },
       { icon: "check", text: "Insulin capped at $35/month for all Part D plans" },
       { icon: "info", text: "Open Enrollment: October 15 - December 7 each year" },
-      { icon: "alert", text: "Late penalty: 1% added per month without creditable coverage" },
+      { icon: "alert", text: "Late penalty: 1% of the $38.99 base premium per month without creditable coverage" },
     ],
     relatedTopics: [
       { title: "Medicare Part D Payment Plan 2026", description: "Spread your drug costs into monthly payments.", slug: "medicare-part-d-payment-plan-2026" },
