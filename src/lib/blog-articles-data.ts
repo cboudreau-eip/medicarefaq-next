@@ -103,9 +103,9 @@ export const blogArticles: BlogArticleData[] = [
     slug: "psa",
     draft: true,
     seo: {
-      focusKeyword: "",
-      title: "Why Plan G Prices Vary by Carrier | MedicareFAQ",
-      description: "Same Plan G benefits, different prices. Learn why Medigap Plan G premiums vary by insurer and how to compare rates before you enroll.",
+      focusKeyword: "How can I compare Medigap Plan G quotes easily",
+      title: "Why Medicare Plan G Prices Vary So Much by Carrier",
+      description: "Same Plan G benefits, different prices. Learn why Medigap Plan G premiums vary by insurer and how you can compare Medigap Plan G quotes easily and quickly.",
       canonical: "https://www.medicarefaq.com/blog/psa/",
       ogImage: "/images/generated/psa.png",
     },
