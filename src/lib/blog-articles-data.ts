@@ -10933,7 +10933,6 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
       "dual-eligible-special-needs-plans-dsnp-explained",
     ],
   },
-,
   {
     slug: "5-steps-to-choosing-the-right-medicare-plan",
     seo: {
