@@ -10953,7 +10953,7 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
     image: "/images/generated/5-steps-choosing-medicare-plan.jpg",
     imageAlt: "Person reviewing Medicare plan options at a desk with documents and laptop",
     excerpt: "Turning 65 triggers one of the most consequential health insurance decisions most people ever face. These five steps break the process into clear, sequential actions so you can match your medical needs and budget to the right plan.",
-    showMidInlineCta: true,
+    showInlineCta: true,
     tableOfContents: [
       { id: "enrollment-windows", title: "Step 1: Understand Enrollment Windows" },
       { id: "original-vs-advantage", title: "Step 2: Original Medicare vs. Medicare Advantage" },
