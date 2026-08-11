@@ -19,6 +19,17 @@ const AUTHOR_TITLES: Record<string, string> = {
   "Ashlee Zareczny": "Compliance & Editorial Manager",
 };
 
+/* ─── Author sameAs links for standalone Person schema (E-E-A-T) ─── */
+const AUTHOR_SAME_AS: Record<string, string[]> = {
+  "David Haass": [
+    "https://councils.forbes.com/profile/David-Haass-CTO-Co-Founder-MedicareFAQ/f8a1c2d3",
+    "https://www.linkedin.com/in/david-haass/",
+  ],
+  "Jagger Esch": [
+    "https://www.linkedin.com/in/jagger-esch/",
+  ],
+};
+
 /* ─── Parse human-readable date to ISO 8601 ─── */
 function toISO(dateStr: string): string {
   if (/^\d{4}-\d{2}-\d{2}/.test(dateStr)) return dateStr.slice(0, 10);
@@ -156,11 +167,18 @@ function buildBlogSchema(article: (typeof blogArticles)[0], slug: string) {
   ];
 
   // Add FAQPage schema if the article has FAQ items
-  if (article.faqs && article.faqs.length > 0) {
+  // Collect FAQs from top-level faqs property OR from sections with type "faq"
+  const allFaqs = article.faqs && article.faqs.length > 0
+    ? article.faqs
+    : article.sections
+        .filter((s) => s.type === "faq" && s.faqs && s.faqs.length > 0)
+        .flatMap((s) => s.faqs || []);
+
+  if (allFaqs.length > 0) {
     graph.push({
       "@type": "FAQPage",
       "@id": `${pageUrl}#faq`,
-      mainEntity: article.faqs.map((faq) => ({
+      mainEntity: allFaqs.map((faq) => ({
         "@type": "Question",
         name: faq.question,
         acceptedAnswer: {
@@ -168,6 +186,20 @@ function buildBlogSchema(article: (typeof blogArticles)[0], slug: string) {
           text: faq.answer,
         },
       })),
+    });
+  }
+
+  // Add standalone Person schema for the author (E-E-A-T signal)
+  if (article.author) {
+    const authorSlug = article.author.toLowerCase().replace(/\s+/g, "-");
+    graph.push({
+      "@type": "Person",
+      "@id": `${BASE_URL}/about-us/${authorSlug}#person`,
+      name: article.author,
+      url: AUTHOR_URLS[article.author] || `${BASE_URL}/about-us`,
+      jobTitle: AUTHOR_TITLES[article.author] || "Medicare Expert",
+      worksFor: { "@id": `${BASE_URL}/#organization` },
+      ...(AUTHOR_SAME_AS[article.author] ? { sameAs: AUTHOR_SAME_AS[article.author] } : {}),
     });
   }
 
