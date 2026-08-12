@@ -132,64 +132,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
       {/* Main Content */}
       <section className="py-16">
         <div className="container">
-          <div className="flex flex-row-reverse gap-12">
-            {/* Sidebar */}
-            <aside className="hidden lg:block w-64 shrink-0">
-              <div className="sticky top-28 space-y-6">
-                {/* Quick nav */}
-                <div>
-                  <p className="text-xs font-bold text-teal-700 uppercase tracking-wider mb-3">On This Page</p>
-                  <nav className="space-y-1">
-                    {[
-                      { id: "overview", label: "Overview" },
-                      { id: "benefits", label: "What's Covered" },
-                      { id: "pros-cons", label: "Pros & Cons" },
-                      { id: "faqs", label: "FAQs" },
-                      { id: "related", label: "Related Plans" },
-                    ].map((item) => (
-                      <a key={item.id} href={`#${item.id}`}
-                        className="block text-sm py-1.5 px-3 rounded-md text-slate-500 hover:text-slate-800 hover:bg-slate-50 transition-colors">
-                        {item.label}
-                      </a>
-                    ))}
-                  </nav>
-                </div>
-
-                {/* Best for / Not for */}
-                <div className="p-4 bg-green-50 rounded-xl border border-green-100">
-                  <p className="text-xs font-bold text-green-800 uppercase tracking-wider mb-2">Best For</p>
-                  <p className="text-sm text-green-700">{plan.bestFor}</p>
-                </div>
-                <div className="p-4 bg-red-50 rounded-xl border border-red-100">
-                  <p className="text-xs font-bold text-red-800 uppercase tracking-wider mb-2">Not Ideal For</p>
-                  <p className="text-sm text-red-700">{plan.notFor}</p>
-                </div>
-
-                {/* CTA */}
-                <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
-                  <p className="text-sm font-semibold text-blue-900 mb-1">Ready to Enroll?</p>
-                  <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent - free, no obligation</p>
-                  <ZipFormModal
-                    pageSection="supplement_plan_detail"
-                    triggerId="compare-plans-supp-detail-2"
-                    coverageType="ms"
-                    title={`Compare ${plan.displayName} Quotes`}
-                    subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers."
-                    buttonLabel="Compare Plans"
-                    trigger={
-                      <button className="flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-600 transition-colors">
-                        <ArrowRight className="w-4 h-4" aria-hidden="true" /> Compare Rates Online
-                      </button>
-                    }
-                  />
-                  <a href="tel:+18883358996"  data-invoca-phone-number="18883358996"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_plan_detail" })} className="invoca-phone flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
-                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
-                  </a>
-                </div>
-              </div>
-            </aside>
-
+          <div className="flex gap-12">
             {/* Content */}
             <div className="flex-1 min-w-0 max-w-3xl">
 
@@ -457,6 +400,63 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
                 </div>
               </section>
             </div>
+
+            {/* Sidebar */}
+            <aside className="hidden lg:block w-64 shrink-0">
+              <div className="sticky top-28 space-y-6">
+                {/* Quick nav */}
+                <div>
+                  <p className="text-xs font-bold text-teal-700 uppercase tracking-wider mb-3">On This Page</p>
+                  <nav className="space-y-1">
+                    {[
+                      { id: "overview", label: "Overview" },
+                      { id: "benefits", label: "What's Covered" },
+                      { id: "pros-cons", label: "Pros & Cons" },
+                      { id: "faqs", label: "FAQs" },
+                      { id: "related", label: "Related Plans" },
+                    ].map((item) => (
+                      <a key={item.id} href={`#${item.id}`}
+                        className="block text-sm py-1.5 px-3 rounded-md text-slate-500 hover:text-slate-800 hover:bg-slate-50 transition-colors">
+                        {item.label}
+                      </a>
+                    ))}
+                  </nav>
+                </div>
+
+                {/* Best for / Not for */}
+                <div className="p-4 bg-green-50 rounded-xl border border-green-100">
+                  <p className="text-xs font-bold text-green-800 uppercase tracking-wider mb-2">Best For</p>
+                  <p className="text-sm text-green-700">{plan.bestFor}</p>
+                </div>
+                <div className="p-4 bg-red-50 rounded-xl border border-red-100">
+                  <p className="text-xs font-bold text-red-800 uppercase tracking-wider mb-2">Not Ideal For</p>
+                  <p className="text-sm text-red-700">{plan.notFor}</p>
+                </div>
+
+                {/* CTA */}
+                <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
+                  <p className="text-sm font-semibold text-blue-900 mb-1">Ready to Enroll?</p>
+                  <p className="text-xs text-blue-700 mb-3">Speak with a licensed Medicare agent - free, no obligation</p>
+                  <ZipFormModal
+                    pageSection="supplement_plan_detail"
+                    triggerId="compare-plans-supp-detail-2"
+                    coverageType="ms"
+                    title={`Compare ${plan.displayName} Quotes`}
+                    subtitle="Enter your ZIP code to get personalized Medigap rates from top carriers."
+                    buttonLabel="Compare Plans"
+                    trigger={
+                      <button className="flex items-center gap-2 text-sm font-bold text-teal-700 hover:text-teal-600 transition-colors">
+                        <ArrowRight className="w-4 h-4" aria-hidden="true" /> Compare Rates Online
+                      </button>
+                    }
+                  />
+                  <a href="tel:+18883358996" data-invoca-phone-number="18883358996"
+                    onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "supplement_plan_detail" })} className="invoca-phone flex items-center gap-2 text-sm font-bold text-blue-700 mt-2">
+                    <Phone className="w-4 h-4" aria-hidden="true" /> (888) 335-8996
+                  </a>
+                </div>
+              </div>
+            </aside>
           </div>
         </div>
       </section>
