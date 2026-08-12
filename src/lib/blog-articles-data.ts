@@ -11220,5 +11220,6 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
     ],
     showInlineCta: false,
     relatedSlugs: ["medicare-part-d-subsidy-ending-2027", "how-is-medicare-part-d-changing-in-2026", "the-top-5-mistakes-people-make-during-medicare-annual-enrollment-and-how-to-avoid-them", "top-5-medicare-prescription-drug-plans", "medicare-part-d-enrollment-deadlines", "roth-conversion-medicare-irmaa"],
+    buzzsproutUrl: "https://www.buzzsprout.com/1033063/episodes/19637913-medicare-part-d-premium-spike.mp3?download=true",
   },
 ];
