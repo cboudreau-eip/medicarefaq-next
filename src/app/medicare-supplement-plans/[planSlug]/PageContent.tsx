@@ -132,7 +132,7 @@ export default function PageContent({ planSlug }: { planSlug: string }) {
       {/* Main Content */}
       <section className="py-16">
         <div className="container">
-          <div className="flex gap-12">
+          <div className="flex gap-12 mx-auto max-w-5xl">
             {/* Content */}
             <div className="flex-1 min-w-0 max-w-3xl">
 
