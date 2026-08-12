@@ -226,7 +226,7 @@ export const FLORIDA_STATS = {
   ratingType: "Attained-age (most carriers)",
   freeLookPeriod: "30 days",
   partBDeductible2026: "$257",
-  partADeductible2026: "$1,676",
+  partADeductible2026: "$1,736",
 };
 
 export const FLORIDA_FAQS = [

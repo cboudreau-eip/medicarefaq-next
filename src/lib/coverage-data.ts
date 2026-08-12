@@ -153,7 +153,7 @@ export const coverageArticles: CoverageArticleData[] = [
       ],
       whatItCovers: [
         "20% Part B coinsurance for all infused cancer drugs",
-        "Part A hospital deductible ($1,676 in 2026) for inpatient cancer stays",
+        "Part A hospital deductible ($1,736 in 2026) for inpatient cancer stays",
         "Coinsurance for radiation therapy, lab work, and imaging",
         "Skilled nursing facility coinsurance (days 21-100)",
         "Nationwide provider access with no network restrictions",
@@ -1100,7 +1100,7 @@ export const coverageArticles: CoverageArticleData[] = [
         ],
         whatItCovers: [
           "Part B 20% coinsurance on chemotherapy, radiation, and all outpatient cancer care",
-          "Part A deductible ($1,676) for cancer-related hospitalizations and surgery",
+          "Part A deductible ($1,736) for cancer-related hospitalizations and surgery",
           "Skilled nursing facility coinsurance (days 21-100) after hospital stays",
           "Part B excess charges (Plan G) if a doctor charges above Medicare-approved amounts",
           "Blood (first 3 pints per year)",
@@ -1162,7 +1162,7 @@ export const coverageArticles: CoverageArticleData[] = [
           "Consider a Medicare beneficiary diagnosed with breast cancer who needs surgery, 6 months of chemotherapy, radiation therapy, and ongoing monitoring. The total Medicare-approved charges for this treatment year might reach $150,000. Here is how costs compare across coverage options.",
           "With Medigap Plan G (assuming $200/month premium): You pay the $257 Part B deductible plus $2,400 in annual premiums for a total of $2,657. Every chemotherapy session, radiation treatment, CT scan, MRI, oncologist visit, and hospital stay is covered at 100% after that $257 deductible. Your cost is the same whether treatment costs $50,000 or $500,000.",
           "With Medicare Advantage (assuming $0 monthly premium): You pay copays and coinsurance for each service until reaching the MOOP. With $150,000 in treatment, you will almost certainly hit the $9,250 cap within the first 2-3 months. Your total annual cost is approximately $9,250 plus any out-of-network charges if you need care outside your plan's network.",
-          "With Original Medicare alone (no supplement): You pay 20% of all Part B services with no annual cap. On $150,000 in outpatient treatment, your coinsurance would be approximately $30,000. Add the Part A deductible ($1,676) for any hospital stays, and total costs could exceed $31,676 with no ceiling. This is why experts strongly recommend either Medigap or Medicare Advantage rather than Original Medicare alone for cancer patients.",
+          "With Original Medicare alone (no supplement): You pay 20% of all Part B services with no annual cap. On $150,000 in outpatient treatment, your coinsurance would be approximately $30,000. Add the Part A deductible ($1,736) for any hospital stays, and total costs could exceed $31,676 with no ceiling. This is why experts strongly recommend either Medigap or Medicare Advantage rather than Original Medicare alone for cancer patients.",
         ],
         whatItCovers: [
           "Medigap Plan G total annual cost: ~$2,657 (regardless of treatment intensity)",

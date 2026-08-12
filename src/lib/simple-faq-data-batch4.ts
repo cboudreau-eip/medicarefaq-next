@@ -33,7 +33,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         type: 'callout',
         calloutType: 'info',
         calloutTitle: '2026 Key Figures',
-        calloutText: '**Part B deductible:** $257/year. **Part A deductible:** $1,676 per benefit period. **Part B premium:** $185/month (standard). Plan G covers all gaps except the $257 Part B deductible. Plan N covers most gaps with small office and ER copays.',
+        calloutText: '**Part B deductible:** $283/year. **Part A deductible:** $1,736 per benefit period. **Part B premium:** $202.90/month (standard). Plan G covers all gaps except the $257 Part B deductible. Plan N covers most gaps with small office and ER copays.',
       },
       {
         type: 'heading',
@@ -644,7 +644,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         type: 'callout',
         calloutType: 'info',
         calloutTitle: '2026 Cost Gaps Medigap Can Fill',
-        calloutText: 'Part A hospital deductible: $1,676 per benefit period. Part B deductible: $257 per year. Part B coinsurance: 20% of all outpatient costs with no cap. Skilled nursing facility coinsurance: $209.50/day for days 21-100.',
+        calloutText: 'Part A hospital deductible: $1,736 per benefit period. Part B deductible: $283 per year. Part B coinsurance: 20% of all outpatient costs with no cap. Skilled nursing facility coinsurance: $214.50/day for days 21-100.',
       },
       {
         type: 'heading',
@@ -676,7 +676,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         headers: ['Benefit', 'Plan G', 'Plan N'],
         rows: [
           ['Part A hospital coinsurance (up to 365 extra days)', 'Covered', 'Covered'],
-          ['Part A hospital deductible ($1,676 per benefit period)', 'Covered', 'Covered'],
+          ['Part A hospital deductible ($1,736 per benefit period)', 'Covered', 'Covered'],
           ['Part B coinsurance (20% of outpatient costs)', 'Covered', 'Covered (with copays)'],
           ['Part B deductible ($257/year)', 'Not covered', 'Not covered'],
           ['Part B excess charges', 'Covered', 'Not covered'],
@@ -723,7 +723,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         title: 'Who Needs a Medicare Supplement Plan?',
         headers: ['Situation', 'Medigap Fits Well?', 'Why'],
         rows: [
-          ['Frequent hospitalizations or surgeries', 'Yes', 'Eliminates the $1,676 Part A deductible per benefit period'],
+          ['Frequent hospitalizations or surgeries', 'Yes', 'Eliminates the $1,736 Part A deductible per benefit period'],
           ['Chronic conditions with regular specialist visits', 'Yes', 'Covers the 20% Part B coinsurance with no annual cap'],
           ['Travel frequently or split time between states', 'Yes', 'Accepted by any Medicare provider nationwide; Plans D, G, M, N cover foreign travel emergencies'],
           ['Generally healthy, low healthcare use', 'Maybe', 'Lower-premium Plan N or Medicare Advantage may cost less overall'],
@@ -1031,7 +1031,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         type: 'callout',
         calloutType: 'info',
         calloutTitle: '2026 Key Figures at a Glance',
-        calloutText: 'Part B premium: $185/month (standard) | Part A deductible: $1,676 | Part B deductible: $257 | Part D deductible max: $615 | Part D OOP cap: $2,000 | SNF coinsurance: $209.50/day (days 21-100)',
+        calloutText: 'Part B premium: $202.90/month (standard) | Part A deductible: $1,736 | Part B deductible: $283 | Part D deductible max: $615 | Part D OOP cap: $2,100 | SNF coinsurance: $214.50/day (days 21-100)',
       },
       {
         type: 'heading',
@@ -1092,7 +1092,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         title: 'What Each Medicare Part Covers',
         headers: ['Part', 'What It Covers', '2026 Key Cost'],
         rows: [
-          ['Part A', 'Inpatient hospital, skilled nursing facility, hospice, some home health', 'Free for most; $1,676 deductible per benefit period'],
+          ['Part A', 'Inpatient hospital, skilled nursing facility, hospice, some home health', 'Free for most; $1,736 deductible per benefit period'],
           ['Part B', 'Doctor visits, outpatient services, preventive care, durable medical equipment', '$185/month premium; $257 deductible; 20% coinsurance'],
           ['Part C (Medicare Advantage)', 'Bundles A + B + usually D; offered by private insurers', 'Varies by plan; often $0 premium but network restrictions apply'],
           ['Part D', 'Prescription drugs; standalone or bundled with MA', 'Avg $34.50/month; $615 max deductible; $2,000 OOP cap in 2026'],
@@ -1268,7 +1268,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         type: 'callout',
         calloutType: 'info',
         calloutTitle: '2026 Medicare at a Glance',
-        calloutText: 'Part B premium: $185/month | Part A deductible: $1,676 per benefit period | Part B deductible: $257 | Part D OOP cap: $2,000 | Medicare Advantage OOP max: $9,350 in-network',
+        calloutText: 'Part B premium: $202.90/month | Part A deductible: $1,736 per benefit period | Part B deductible: $283 | Part D OOP cap: $2,100 | Medicare Advantage OOP max: $9,250 in-network',
       },
       {
         type: 'heading',
@@ -1306,7 +1306,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         title: 'The Four Parts of Medicare',
         headers: ['Part', 'Common Name', 'What It Covers', '2026 Key Cost'],
         rows: [
-          ['Part A', 'Hospital Insurance', 'Inpatient hospital stays, skilled nursing facility care (days 1-100), hospice, and some home health care', 'Free for most; $1,676 deductible per benefit period; $0 premium if 40+ work quarters'],
+          ['Part A', 'Hospital Insurance', 'Inpatient hospital stays, skilled nursing facility care (days 1-100), hospice, and some home health care', 'Free for most; $1,736 deductible per benefit period; $0 premium if 40+ work quarters'],
           ['Part B', 'Medical Insurance', 'Doctor visits, outpatient services, preventive care, lab tests, durable medical equipment, and most Part B drugs', '$185/month standard premium; $257 annual deductible; 20% coinsurance after deductible'],
           ['Part C', 'Medicare Advantage', 'Bundles Part A and Part B (and usually Part D) into a single private plan; often includes extra benefits', 'Varies by plan; often $0 premium; OOP max $9,350 in-network (2026 federal limit)'],
           ['Part D', 'Prescription Drug Coverage', 'Outpatient prescription drugs; available as a standalone plan or bundled with Medicare Advantage', 'Avg $34.50/month; $615 max deductible; $2,000 OOP cap in 2026'],
@@ -1320,14 +1320,14 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
       },
       {
         type: 'paragraph',
-        content: 'Part A covers inpatient care in hospitals, critical access hospitals, and skilled nursing facilities (SNFs). It also covers hospice care and some home health services. Most people do not pay a premium for Part A because they or their spouse paid Medicare taxes for at least 40 quarters (10 years) while working. In 2026, the Part A deductible is $1,676 per benefit period, which is not an annual deductible but resets each time you begin a new benefit period after being out of the hospital for 60 consecutive days.',
+        content: 'Part A covers inpatient care in hospitals, critical access hospitals, and skilled nursing facilities (SNFs). It also covers hospice care and some home health services. Most people do not pay a premium for Part A because they or their spouse paid Medicare taxes for at least 40 quarters (10 years) while working. In 2026, the Part A deductible is $1,736 per benefit period, which is not an annual deductible but resets each time you begin a new benefit period after being out of the hospital for 60 consecutive days.',
       },
       {
         type: 'list',
         ordered: false,
         items: [
-          'Inpatient hospital care: Days 1-60 covered after the $1,676 deductible; days 61-90 require a $419/day coinsurance; days 91+ draw from 60 lifetime reserve days at $838/day',
-          'Skilled nursing facility: Days 1-20 fully covered after a qualifying hospital stay; days 21-100 require $209.50/day coinsurance; day 101 and beyond not covered',
+          'Inpatient hospital care: Days 1-60 covered after the $1,736 deductible; days 61-90 require a $436/day coinsurance; days 91+ draw from 60 lifetime reserve days at $872/day',
+          'Skilled nursing facility: Days 1-20 fully covered after a qualifying hospital stay; days 21-100 require $214.50/day coinsurance; day 101 and beyond not covered',
           'Hospice care: Covered for terminally ill patients with a life expectancy of 6 months or less; small copays may apply for drugs and respite care',
           'Home health care: Covered when medically necessary and ordered by a physician; must be homebound and need skilled nursing or therapy',
         ],
@@ -1493,7 +1493,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
     richSections: [
       { type: 'heading' as const, level: 2 as const, text: 'The Shift That Changed Medigap Forever', id: 'the-shift' },
       { type: 'paragraph' as const, content: 'For decades, [Medigap Plan F](/faqs/what-is-the-best-medicare-supplement-plan) was the undisputed king of Medicare Supplement insurance. It covered every Medicare cost-sharing gap, including the Part B deductible, making it the simplest and most comprehensive option available. Then, in 2020, federal law closed Plan F to new enrollees, and Plan G stepped in to fill the void. Today, Plan G is the most popular Medigap plan in the country, and Plan F is on a slow but predictable decline.' },
-      { type: 'callout' as const, calloutType: 'info' as const, calloutTitle: '2026 Key Figures', calloutText: 'Part B deductible: $257 (the only gap Plan G does not cover). Plan G average premium: $120 to $280/month. Plan F is still available to people who were eligible for Medicare before January 1, 2020.' },
+      { type: 'callout' as const, calloutType: 'info' as const, calloutTitle: '2026 Key Figures', calloutText: 'Part B deductible: $283 (the only gap Plan G does not cover). Plan G average premium: $120 to $280/month. Plan F is still available to people who were eligible for Medicare before January 1, 2020.' },
 
       { type: 'heading' as const, level: 2 as const, text: 'Why Plan F Was the Most Popular Medigap Plan', id: 'plan-f-history' },
       { type: 'paragraph' as const, content: 'Plan F offered something no other Medigap plan could match: zero out-of-pocket costs after your monthly premium. It covered the Part A deductible, Part B deductible, Part B excess charges, skilled nursing facility coinsurance, and foreign travel emergencies. For beneficiaries who wanted complete predictability, Plan F was the answer.' },
@@ -1515,7 +1515,7 @@ export const simpleFAQBatch4: SimpleFAQArticleData[] = [
         ['Blood (first 3 pints)', 'Covered 100%', 'Covered 100%'],
         ['Part A hospice care coinsurance or copayment', 'Covered 100%', 'Covered 100%'],
         ['Skilled nursing facility coinsurance', 'Covered 100%', 'Covered 100%'],
-        ['Part A deductible ($1,676 in 2026)', 'Covered 100%', 'Covered 100%'],
+        ['Part A deductible ($1,736 in 2026)', 'Covered 100%', 'Covered 100%'],
         ['Part B deductible ($257 in 2026)', 'Covered 100%', 'NOT covered'],
         ['Part B excess charges', 'Covered 100%', 'Covered 100%'],
         ['Foreign travel emergency (up to plan limits)', 'Covered 80%', 'Covered 80%'],

@@ -51,7 +51,7 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
         ordered: false,
         items: [
           'Medicare covers hysterectomy surgery when your doctor certifies it is medically necessary for conditions like cancer, fibroids, endometriosis, uterine prolapse, or abnormal bleeding.',
-          'Part A covers inpatient hospital costs (room, nursing, anesthesia) after a $1,676 deductible in 2026. Part B covers the surgeon and outpatient services at 80% after a $283 annual deductible.',
+          'Part A covers inpatient hospital costs (room, nursing, anesthesia) after a $1,736 deductible in 2026. Part B covers the surgeon and outpatient services at 80% after a $283 annual deductible.',
           'A Medicare Supplement plan can significantly reduce or eliminate your out-of-pocket costs for the procedure.',
         ],
       },
@@ -109,7 +109,7 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
         type: 'table',
         headers: ['Cost Component', '2026 Amount'],
         rows: [
-          ['Part A Deductible (per benefit period)', '$1,676'],
+          ['Part A Deductible (per benefit period)', '$1,736'],
           ['Days 1-60 coinsurance', '$0 per day'],
           ['Days 61-90 coinsurance', '$434 per day'],
           ['Part B Deductible (for surgeon fees)', '$283 per year'],
@@ -269,7 +269,7 @@ export const simpleFAQBatch10: SimpleFAQArticleData[] = [
           },
           {
             question: 'How much does a hysterectomy cost with Medicare?',
-            answer: 'With Original Medicare alone, you can expect to pay the Part A deductible ($1,676 in 2026) for an inpatient stay plus 20% of surgeon fees under Part B. For outpatient procedures, costs average $1,189 to $1,245 in patient responsibility. A Medigap plan can reduce these costs significantly.',
+            answer: 'With Original Medicare alone, you can expect to pay the Part A deductible ($1,736 in 2026) for an inpatient stay plus 20% of surgeon fees under Part B. For outpatient procedures, costs average $1,189 to $1,245 in patient responsibility. A Medigap plan can reduce these costs significantly.',
           },
           {
             question: 'Does Medicare cover robotic-assisted hysterectomy?',
