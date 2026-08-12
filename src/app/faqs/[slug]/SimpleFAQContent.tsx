@@ -614,12 +614,12 @@ export default function SimpleFAQContent({ article, blogSlugs }: { article: Simp
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <a
-                    href="tel:+18884410465"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "faq_simple" })}
+                    href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "faq_simple" })}
                     className="inline-flex items-center gap-2 bg-[#C41230] hover:bg-[#A30F28] text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-lg"
                   >
                     <Phone className="w-5 h-5" />
-                    Call (888) 441-0465
+                    Call (888) 335-8996
                   </a>
                   <ZipFormModal
                     coverageType="ms"

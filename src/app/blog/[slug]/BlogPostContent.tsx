@@ -872,12 +872,12 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a
-                    href="tel:+18884410465"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "blog_post" })}
+                    href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "blog_post" })}
                     className="flex items-center justify-center gap-2 bg-[#C41230] hover:bg-[#A50E28] text-white font-semibold px-6 py-3 rounded-lg transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    Call 1-888-441-0465
+                    Call (888) 335-8996
                   </a>
                   <ZipFormModal
                     coverageType="ms"
@@ -919,11 +919,11 @@ export default function BlogPostContent({ article }: { article: BlogArticleData 
                     Speak with a licensed agent today
                   </p>
                   <a
-                    href="tel:+18884410465"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "blog_post" })}
+                    href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "blog_post" })}
                     className="block bg-white text-[#C41230] font-bold text-sm py-2 rounded-lg hover:bg-white/90 transition-colors"
                   >
-                    1-888-441-0465
+                    (888) 335-8996
                   </a>
                 </div>
               </aside>

@@ -180,8 +180,8 @@ export default function CaliforniaPlanGContent() {
               }
             />
             <a
-              href="tel:+18884410465"
-              onClick={() => trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "california_plan_g_hero" })}
+              href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+              onClick={() => trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "california_plan_g_hero" })}
               className="invoca-phone inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-6 py-4 rounded-xl text-lg transition-colors border border-white/20"
             >
               <Phone className="w-5 h-5" aria-hidden="true" /> Talk to an Agent
@@ -588,11 +588,11 @@ export default function CaliforniaPlanGContent() {
                 <p className="text-blue-300 text-sm mt-4">
                   Or call{" "}
                   <a
-                    href="tel:+18884410465"
-                    onClick={(e) => { e.stopPropagation(); trackPhoneClick({ phone_number: "(888) 441-0465", page_section: "california_plan_g_bottom" }); }}
+                    href="tel:+18883358996"  data-invoca-phone-number="18883358996"
+                    onClick={(e) => { e.stopPropagation(); trackPhoneClick({ phone_number: "(888) 335-8996", page_section: "california_plan_g_bottom" }); }}
                     className="invoca-phone text-teal-400 hover:text-teal-300 font-semibold underline"
                   >
-                    (888) 441-0465
+                    (888) 335-8996
                   </a>{" "}
                   to speak with a licensed agent
                 </p>
