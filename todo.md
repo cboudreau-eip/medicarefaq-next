@@ -206,3 +206,7 @@
 - [x] Draft the revised Plan G companies article outline with evidence-backed best-fit designation rules and methodology
 - [x] Write the Plan G companies FAQ section and document its FAQPage schema implementation
 - [x] Publish the evidence-backed Best Medicare Supplement Plan G Companies blog article with validated carrier claims and FAQPage schema
+- [x] Verify whether an AARP Plan G versus Plan F page already exists under any published route
+- [x] Draft a differentiated AARP Plan G versus Plan F comparison article outline with SEO and schema guidance
+- [x] Stress-test the AARP Plan G versus Plan F outline and document improvements before drafting
+- [x] Publish the complete revised AARP Plan G versus Plan F comparison article with verified evidence, FAQs, and schema

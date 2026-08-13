@@ -11568,5 +11568,394 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
     "why-two-medigap-plan-g-policies-cost-different-amounts",
     "medicare-advantage-hidden-costs"
   ]
+},
+  {
+  "slug": "aarp-plan-g-vs-plan-f",
+  "seo": {
+    "focusKeyword": "AARP Medicare Supplement Plan G",
+    "title": "Medicare Supplement Plan G vs. Plan F: Coverage and Eligibility",
+    "description": "Compare Medicare Supplement Plan G and Plan F benefits, eligibility, pricing factors, and when to compare local alternatives before enrolling.",
+    "canonical": "https://www.medicarefaq.com/blog/aarp-plan-g-vs-plan-f/",
+    "ogImage": "/images/generated/top-medigap-plans-unbiased-reviews-best-medicare-s.png"
+  },
+  "title": "AARP Plan G vs. Plan F: Which Medicare Supplement Fits Your Situation?",
+  "category": "Medicare Supplement",
+  "categoryColor": "#0F766E",
+  "date": "August 13, 2026",
+  "dateUpdated": "August 13, 2026",
+  "author": "David Haass",
+  "reviewer": "Ashlee Zareczny",
+  "readTime": "14 min read",
+  "image": "/images/generated/top-medigap-plans-unbiased-reviews-best-medicare-s.png",
+  "imageAlt": "Older couple reviewing Medicare Supplement Plan G and Plan F documents at their kitchen table",
+  "excerpt": "Compare AARP Medicare Supplement Plan G and Plan F with a focus on eligibility, standardized benefits, local quotes, underwriting details, and when to review alternatives.",
+  "answerBlock": "AARP Medicare Supplement Plan G and Plan F can offer similar standardized Medigap benefits in most states, but they differ in Part B deductible coverage and who may be eligible to buy Plan F. Compare your current coverage, local quote, underwriting details, and available alternatives before choosing either path.",
+  "tableOfContents": [
+    {
+      "id": "fast-answer",
+      "title": "The Fast Answer"
+    },
+    {
+      "id": "plan-g-vs-plan-f",
+      "title": "Plan G vs. Plan F at a Glance"
+    },
+    {
+      "id": "product-identity",
+      "title": "What Are You Actually Comparing?"
+    },
+    {
+      "id": "eligibility-gate",
+      "title": "Can You Consider Plan F?"
+    },
+    {
+      "id": "closed-block",
+      "title": "What Existing Plan F Members Should Review"
+    },
+    {
+      "id": "quote-method",
+      "title": "How to Compare Quotes Fairly"
+    },
+    {
+      "id": "alternatives",
+      "title": "Plan G, Plan F, Plan N, or Medicare Advantage?"
+    },
+    {
+      "id": "faqs",
+      "title": "Frequently Asked Questions"
+    }
+  ],
+  "showInlineCta": false,
+  "keyTakeaways": [
+    "Plan G and Plan F can have similar standardized Medigap benefits in most states, but Plan G does not cover the annual Part B deductible while Plan F does for eligible policyholders.",
+    "AARP Medicare Supplement plans are associated with UnitedHealthcare, but the exact underwriting company, plan availability, quote assumptions, discounts, and policy details can vary by state.",
+    "The most useful comparison is local and like-for-like: use the same plan letter, ZIP code, age, tobacco status, effective date, and household-discount assumptions before judging value.",
+    "If you already have Plan F, do not cancel it before confirming replacement eligibility, underwriting, benefits, and the effective date of any new policy."
+  ],
+  "sections": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Fast Answer: AARP Plan G vs. Plan F",
+      "id": "fast-answer"
+    },
+    {
+      "type": "paragraph",
+      "content": "The right choice depends first on your situation. If you already have an AARP Medicare Supplement Plan F policy, your question is usually whether the coverage still fits your budget and whether switching would be appropriate. If you are shopping for a new Medicare Supplement policy, the first question is which plans you are eligible to buy and which companies offer them in your state. In either case, a local comparison matters more than a national brand name alone."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "If this sounds like you",
+        "Start here",
+        "What to verify next"
+      ],
+      "rows": [
+        [
+          "I already have AARP Plan F",
+          "Review your current policy, premium notice, and enrollment protections before considering a replacement.",
+          "Your eligibility to switch, medical underwriting, the exact underwriting company, and a like-for-like local Plan G quote."
+        ],
+        [
+          "I am shopping for a Medicare Supplement policy",
+          "Confirm the plans you may buy, then compare local Plan G and other available options.",
+          "Plan availability, membership requirements, quote assumptions, discounts, and rating method."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "AARP Plan G vs. Plan F at a Glance",
+      "id": "plan-g-vs-plan-f"
+    },
+    {
+      "type": "paragraph",
+      "content": "In most states, Medigap benefits are standardized by plan letter. That means a standard Plan G sold by one insurer covers the same core Medicare-approved cost-sharing categories as a standard Plan G sold by another insurer. Plan F and Plan G are not identical, however, and Plan F availability is limited by federal eligibility rules. Use the official [Medicare.gov Medigap benefit comparison](https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits) as the starting point for benefit details."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Comparison factor",
+        "Plan G",
+        "Plan F",
+        "Question to ask before deciding"
+      ],
+      "rows": [
+        [
+          "Standardized medical benefits",
+          "Covers many Medicare-approved deductibles and coinsurance amounts in most states.",
+          "Covers many Medicare-approved deductibles and coinsurance amounts in most states for eligible policyholders.",
+          "Does the policy form offered in my state match the standard benefit outline?"
+        ],
+        [
+          "Part B deductible",
+          "You pay the 2026 Part B deductible of $283.",
+          "Covers the 2026 Part B deductible of $283 for eligible policyholders.",
+          "Is the annual premium difference greater or smaller than the deductible difference?"
+        ],
+        [
+          "Part A deductible",
+          "Helps cover the 2026 Part A deductible of $1,736 under the standard benefit design.",
+          "Helps cover the 2026 Part A deductible of $1,736 under the standard benefit design.",
+          "Am I comparing the same standardized benefit design in my state?"
+        ],
+        [
+          "New-policy eligibility",
+          "Availability depends on the policy being offered in your state.",
+          "Availability depends on federal eligibility rules and the policy being offered in your state.",
+          "Am I eligible to apply for this Plan F policy today?"
+        ],
+        [
+          "Local price",
+          "Varies by location, age, tobacco status, rating method, and discount assumptions.",
+          "Varies by location, age, tobacco status, rating method, and discount assumptions.",
+          "Are the quotes based on exactly the same assumptions?"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "calloutType": "info",
+      "calloutTitle": "Before you compare a quote",
+      "calloutText": "Ask to see the exact legal underwriting company, your state, the plan letter, the quote's effective date, and every discount included in the displayed premium. These details make a price comparison meaningful."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Are You Actually Comparing With an AARP Medicare Supplement Quote?",
+      "id": "product-identity"
+    },
+    {
+      "type": "paragraph",
+      "content": "AARP Medicare Supplement Insurance Plans are offered through UnitedHealthcare, but readers should still identify the exact underwriting company named on their quote or policy. UnitedHealthcare's Plan G and Plan F pages show that the legal insurer can differ by product and state. That matters when you review policy materials, rate documents, availability, and service information. AARP states that these Medicare Supplement plans are available to members, while plans and pricing are provided through UnitedHealthcare. [AARP's member-benefit page](https://www.aarp.org/membership/benefits/insurance/uhc-medicare-supplement/) and UnitedHealthcare's product materials are useful sources to review alongside any local quote."
+    },
+    {
+      "type": "paragraph",
+      "content": "This does not mean an AARP-branded policy is automatically the best or lowest-cost choice in every market. It means the policy belongs on a fair comparison list when it is available where you live and its documented terms fit your situation. For a broader carrier framework, see our [Best Medicare Supplement Plan G Companies guide](/blog/best-medicare-supplement-plan-g-companies/)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Can You Consider an AARP Plan F Policy?",
+      "id": "eligibility-gate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Plan F is not a universal option for new shoppers. Eligibility depends on when you first became eligible for Medicare under federal rules, as well as the policy availability in your state. UnitedHealthcare's Plan F materials state that the plan is available only to people first eligible for Medicare before the applicable federal cutoff. Before applying, confirm your eligibility directly with the carrier or a licensed professional and review the policy materials for your state."
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Confirm whether you already hold a Plan F policy or may be eligible to buy one.",
+        "Verify that the exact Plan F policy is available in your state.",
+        "Ask which legal underwriting company would issue the policy.",
+        "If replacing coverage, confirm whether medical underwriting or a guaranteed-issue right applies before making a decision."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "If Plan F is not available to you, Plan G is often a relevant standardized alternative to compare, but it is not the only possible choice. Our [Medicare Supplement Plan G overview](/medicare-supplement-plans/plan-g/) explains the standard benefit structure, while our [Medigap open enrollment guide](/faqs/medicare-supplement-open-enrollment/) explains why timing matters."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What Existing Plan F Members Should Review Before Switching",
+      "id": "closed-block"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you already have Plan F, the question is not whether Plan G is universally better. The right question is whether your current policy, current premium, access to providers, and ability to qualify for a replacement still fit your needs. Some existing Plan F members want to review alternatives because their price has changed or because a local Plan G quote looks different. A review is reasonable. An automatic switch is not."
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Bring your current policy certificate and most recent premium or rate notice to the comparison.",
+        "Confirm the name of your current underwriting company, not just the program or brand name.",
+        "Request a Plan G quote using the same ZIP code, age, tobacco status, effective date, and household assumptions.",
+        "Ask whether medical underwriting, a guaranteed-issue right, or a state-specific switching protection applies.",
+        "Do not cancel your current coverage until any replacement policy is approved and its effective date is confirmed."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "A closed group of policies does not automatically predict one outcome for every member, so avoid making decisions based on a generalized rate assumption. Instead, review your own notice and compare the documented terms of your current policy with available alternatives. Our article on [why two Medigap Plan G policies can cost different amounts](/blog/why-two-medigap-plan-g-policies-cost-different-amounts/) explains why a name-brand comparison is not enough."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "How to Compare AARP Plan G or Plan F Quotes Fairly",
+      "id": "quote-method"
+    },
+    {
+      "type": "paragraph",
+      "content": "A fair Medigap comparison uses the same facts for every quote. A premium shown without the applicant assumptions, policy form, or discount terms is not enough to tell you which option is the better value. Keep a written quote record and ask every company or broker for the same information."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Request in every quote",
+        "Why it matters"
+      ],
+      "rows": [
+        [
+          "Same plan letter",
+          "Standardized benefits are only comparable when the plan letter is the same."
+        ],
+        [
+          "Same ZIP code and effective date",
+          "Availability and premium assumptions can change by location and policy start date."
+        ],
+        [
+          "Same age and tobacco status",
+          "A different applicant profile makes the comparison unreliable."
+        ],
+        [
+          "Household-discount status",
+          "A displayed premium may include a discount that does not apply to every household."
+        ],
+        [
+          "Exact underwriting company",
+          "The legal insurer is the company to examine in policy materials and complaint information."
+        ],
+        [
+          "Rating method",
+          "Attained-age, issue-age, and community-rated methods can affect how a policy is priced."
+        ]
+      ]
+    },
+    {
+      "type": "zip-cta",
+      "headline": "Compare Medicare Supplement Plans in Your Area",
+      "subtext": "See local options and get help comparing the same plan letter, quote assumptions, and available carriers.",
+      "buttonLabel": "Compare Plans"
+    },
+    {
+      "type": "paragraph",
+      "content": "For a more complete comparison, use our [Medigap plans by state hub](/medicare-supplement-plans/) to understand the rules and options in your location, then review our [top Medicare Supplement insurance companies guide](/faqs/top-10-medicare-supplement-insurance-companies/) for broader company research."
+    },
+    {
+      "type": "eddie-pro-tip",
+      "content": "Ask every carrier or broker to show the legal underwriting company, rating method, discounts included in the quote, and effective date in writing. A low number without those details is not yet a fair comparison."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Should You Compare Plan G, Plan F, Plan N, or Medicare Advantage?",
+      "id": "alternatives"
+    },
+    {
+      "type": "paragraph",
+      "content": "Plan G and Plan F are not the only paths to consider. Plan N may appeal to people comfortable with some cost sharing in exchange for a potentially lower premium. Medicare Advantage is a separate way to receive Medicare benefits and involves plan networks, cost sharing, and plan rules that differ from Medigap. The right comparison depends on your provider preferences, travel needs, budget, and comfort with trade-offs."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Option to explore",
+        "Why it may belong in the comparison",
+        "Next step"
+      ],
+      "rows": [
+        [
+          "Plan G",
+          "You want broad standardized Medigap coverage and are comparing local premiums and policy terms.",
+          "Review [Plan G coverage](/medicare-supplement-plans/plan-g/)."
+        ],
+        [
+          "Plan F",
+          "You are eligible and want to compare its deductible coverage with local premium differences.",
+          "Confirm eligibility and policy availability before requesting a quote."
+        ],
+        [
+          "Plan N",
+          "You are comfortable with certain cost-sharing features in exchange for a potentially lower premium.",
+          "Review [Plan N](/medicare-supplement-plans/plan-n/)."
+        ],
+        [
+          "Medicare Advantage",
+          "You want to compare a different coverage model with plan networks and annual out-of-pocket limits.",
+          "Review [Medigap versus Medicare Advantage](/faqs/medigap-vs-medicare-advantage/)."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The Bottom Line",
+      "id": "bottom-line"
+    },
+    {
+      "type": "paragraph",
+      "content": "AARP Plan G and Plan F can both be reasonable policies to investigate when they are available and appropriate for your situation. The better choice is not determined by the brand name alone. Start with your eligibility, then compare standardized benefits, the annual Part B deductible, a local quote, the underwriting company, discount terms, and the protections that apply if you are replacing coverage."
+    },
+    {
+      "type": "paragraph",
+      "content": "A local comparison becomes especially important if you already hold Plan F or are considering a change after receiving a premium notice. Keep the current policy in place until you have confirmed every replacement detail."
+    },
+    {
+      "type": "zip-cta",
+      "headline": "Get Help Comparing Plan G and Other Medigap Options",
+      "subtext": "Review local Medicare Supplement options with the same assumptions before deciding which policy fits your needs.",
+      "buttonLabel": "Compare Plans"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Frequently Asked Questions",
+      "id": "faqs"
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "Is AARP Plan G the same as AARP Plan F?",
+          "answer": "No. Both are Medicare Supplement plan options associated with the AARP program from UnitedHealthcare, but they differ in how they treat the Part B deductible and in who may be eligible to buy Plan F. Compare the exact policy materials and local quote for your state before deciding."
+        },
+        {
+          "question": "Can I still enroll in an AARP Plan F policy?",
+          "answer": "Plan F availability depends on when you first became eligible for Medicare under federal rules and whether the policy is offered in your state. Confirm eligibility directly with the carrier or a licensed professional before assuming you can apply."
+        },
+        {
+          "question": "Does AARP Plan G cover the Medicare Part B deductible?",
+          "answer": "No. Standard Plan G does not cover the annual Part B deductible. In 2026, that deductible is $283. Standard Plan F covers the Part B deductible for policyholders who are eligible for Plan F."
+        },
+        {
+          "question": "Is Plan F worth keeping if I already have it?",
+          "answer": "It may be, depending on your current premium, benefits, health situation, ability to qualify for a replacement policy, and available local alternatives. Do not assume that a switch saves money or that staying put is always better. Compare documented terms and keep current coverage until any replacement is approved."
+        },
+        {
+          "question": "Why can AARP Plan G and Plan F premiums differ by state?",
+          "answer": "Premiums can differ because policies are offered by specific underwriting companies and are priced using state-level factors such as location, age, tobacco status, rating method, effective date, and discount eligibility. The same plan letter does not guarantee the same premium in every market."
+        },
+        {
+          "question": "Can I switch from Plan F to Plan G?",
+          "answer": "You may be able to switch, but medical underwriting, guaranteed-issue protections, and state-specific rules can affect your options. Review the new policy's terms and effective date before cancelling your existing Plan F policy."
+        },
+        {
+          "question": "Do I need to be an AARP member to apply for these Medicare Supplement plans?",
+          "answer": "UnitedHealthcare's AARP Medicare Supplement materials state that AARP membership is required to enroll in an AARP Medicare Supplement Plan. Confirm all current membership and plan requirements directly in the materials for your state."
+        },
+        {
+          "question": "Should I compare an AARP quote with other Medigap companies?",
+          "answer": "Yes. In most states, standardized benefits for the same Medigap plan letter are comparable, while premiums, rating methods, discounts, underwriting companies, and service processes can differ. A like-for-like local comparison helps you judge value more accurately."
+        },
+        {
+          "question": "Why might an AARP Plan F premium change over time?",
+          "answer": "A premium can change for several reasons, including the policy's rating method, location, insurer pricing decisions, and policy-specific factors. Review your rate notice and ask the insurer how the policy is priced instead of relying on a general assumption about any one plan or closed group of policyholders."
+        },
+        {
+          "question": "What information do I need before comparing AARP Plan G with another company?",
+          "answer": "Gather the exact plan letter, ZIP code, age, tobacco status, desired effective date, household-discount details, underwriting company, and policy form. Ask each company or broker to quote the same assumptions so you can compare the offers fairly."
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "best-medicare-supplement-plan-g-companies",
+    "why-two-medigap-plan-g-policies-cost-different-amounts",
+    "exploring-your-medigap-options-beyond-medicare-plan-f-and-plan-g",
+    "10-questions-to-ask-before-buying-a-medicare-supplement-plan"
+  ]
 }
 ];
