@@ -142,22 +142,16 @@ function renderParagraph(text: string, key: number, className?: string) {
 
 /* ─── FAQ Component ─── */
 function FAQItem({ question, answer }: { question: string; answer: string }) {
-  const [open, setOpen] = useState(false);
   return (
-    <div className="border border-[#E5E7EB] rounded-lg overflow-hidden">
-      <button
-        onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between p-4 text-left hover:bg-[#F5F7FA] transition-colors"
-      >
+    <details className="group border border-[#E5E7EB] rounded-lg overflow-hidden">
+      <summary className="w-full flex items-center justify-between p-4 text-left hover:bg-[#F5F7FA] transition-colors cursor-pointer list-none [&::-webkit-details-marker]:hidden">
         <span className="font-semibold text-[#1B2A4A] text-[15px] pr-4">{question}</span>
-        {open ? <ChevronUp className="w-5 h-5 text-[#6B7280] shrink-0" /> : <ChevronDown className="w-5 h-5 text-[#6B7280] shrink-0" />}
-      </button>
-      {open && (
-        <div className="px-4 pb-4 text-[#4B5563] text-[15px] leading-relaxed border-t border-[#E5E7EB]">
-          <div className="pt-3">{answer}</div>
-        </div>
-      )}
-    </div>
+        <ChevronDown className="w-5 h-5 text-[#6B7280] shrink-0 transition-transform group-open:rotate-180" />
+      </summary>
+      <div className="px-4 pb-4 text-[#4B5563] text-[15px] leading-relaxed border-t border-[#E5E7EB]">
+        <div className="pt-3">{answer}</div>
+      </div>
+    </details>
   );
 }
 

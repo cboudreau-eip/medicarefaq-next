@@ -199,3 +199,5 @@
 - [x] Create blog/medicare-at-65-month-by-month-timeline blog post (~3000 words, strong internal linking)
 - [x] Publish blog/10-medicare-questions-people-are-embarrassed-to-ask with corrected 2026 figures, semantic links, and valid structured sections
 - [x] Ensure /blog/ exposes article titles, dates, excerpts, and links in the server-rendered HTML
+- [x] Audit raw FAQ answer visibility and FAQPage schema coverage across shared blog and FAQ templates
+- [x] Convert blog, FAQ, coverage, and 50 state Medigap FAQ accordions to server-visible native details elements

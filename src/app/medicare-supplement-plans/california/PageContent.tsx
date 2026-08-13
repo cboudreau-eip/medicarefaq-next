@@ -222,26 +222,16 @@ function CarrierCard({ carrier, rank }: { carrier: CaliforniaCarrier; rank: numb
 
 /* ─── FAQ Accordion ─── */
 function FAQItem({ question, answer }: { question: string; answer: string }) {
-  const [open, setOpen] = useState(false);
   return (
-    <div className="border border-slate-200 rounded-lg overflow-hidden">
-      <button
-        onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between p-4 text-left hover:bg-slate-50 transition-colors"
-      >
+    <details className="group border border-slate-200 rounded-lg overflow-hidden">
+      <summary className="w-full flex items-center justify-between p-4 text-left hover:bg-slate-50 transition-colors cursor-pointer list-none [&::-webkit-details-marker]:hidden">
         <span className="font-semibold text-slate-900 text-sm pr-4">{question}</span>
-        {open ? (
-          <ChevronUp className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
-        ) : (
-          <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
-        )}
-      </button>
-      {open && (
-        <div className="px-4 pb-4">
-          <p className="text-sm text-slate-600 leading-relaxed">{answer}</p>
-        </div>
-      )}
-    </div>
+        <ChevronDown className="w-5 h-5 text-slate-400 shrink-0 transition-transform group-open:rotate-180" aria-hidden="true" />
+      </summary>
+      <div className="px-4 pb-4">
+        <p className="text-sm text-slate-600 leading-relaxed">{answer}</p>
+      </div>
+    </details>
   );
 }
 

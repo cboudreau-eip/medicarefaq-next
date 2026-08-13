@@ -50,27 +50,16 @@ function getScoreColor(score: number) {
 }
 
 function FAQItem({ question, answer }: { question: string; answer: string }) {
-  const [open, setOpen] = useState(false);
   return (
-    <div className="border border-slate-200 rounded-lg overflow-hidden bg-white">
-      <button
-        className="w-full flex items-center justify-between px-5 py-4 text-left hover:bg-slate-50 transition-colors"
-        onClick={() => setOpen(!open)}
-        aria-expanded={open}
-      >
-        <span className="font-semibold text-slate-900 pr-4">{question}</span>
-        {open ? (
-          <ChevronUp className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
-        ) : (
-          <ChevronDown className="w-5 h-5 text-slate-400 shrink-0" aria-hidden="true" />
-        )}
-      </button>
-      {open && (
-        <div className="px-5 pb-4 text-slate-600 text-sm leading-relaxed border-t border-slate-100">
-          {answer}
-        </div>
-      )}
-    </div>
+    <details className="group border border-slate-200 rounded-lg overflow-hidden">
+      <summary className="w-full flex items-center justify-between p-4 text-left hover:bg-slate-50 transition-colors cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+        <span className="font-semibold text-slate-900 text-sm pr-4">{question}</span>
+        <ChevronDown className="w-5 h-5 text-slate-400 shrink-0 transition-transform group-open:rotate-180" aria-hidden="true" />
+      </summary>
+      <div className="px-4 pb-4">
+        <p className="text-sm text-slate-600 leading-relaxed">{answer}</p>
+      </div>
+    </details>
   );
 }
 
