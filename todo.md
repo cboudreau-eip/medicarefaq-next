@@ -201,3 +201,8 @@
 - [x] Ensure /blog/ exposes article titles, dates, excerpts, and links in the server-rendered HTML
 - [x] Audit raw FAQ answer visibility and FAQPage schema coverage across shared blog and FAQ templates
 - [x] Convert blog, FAQ, coverage, and 50 state Medigap FAQ accordions to server-visible native details elements
+- [x] Draft a competitor-informed long-form outline for the Best Medicare Supplement Plan G Companies article
+- [x] Stress-test the Plan G companies article outline and document improvements before drafting
+- [x] Draft the revised Plan G companies article outline with evidence-backed best-fit designation rules and methodology
+- [x] Write the Plan G companies FAQ section and document its FAQPage schema implementation
+- [x] Publish the evidence-backed Best Medicare Supplement Plan G Companies blog article with validated carrier claims and FAQPage schema
