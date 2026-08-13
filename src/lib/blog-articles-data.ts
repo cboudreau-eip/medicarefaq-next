@@ -342,8 +342,8 @@ export const blogArticles: BlogArticleData[] = [
   {
     slug: "aep-prep-checklist",
     seo: {
-      title: "2026 AEP Prep Checklist: Get Ready for 2027 Medicare Changes",
-      description: "Your complete AEP prep checklist for the 2026 Medicare Annual Enrollment Period (October 15 - December 7). Step-by-step guide to reviewing plans, comparing costs, and making smart coverage decisions for 2027.",
+      title: "2026 AEP Checklist: Prep for 2027 Medicare Changes",
+      description: "Use our AEP checklist to prep for the 2026 Medicare Annual Enrollment Period (Oct 15-Dec 7). Compare plans, review costs, and pick smart 2027 coverage.",
       canonical: "https://www.medicarefaq.com/blog/aep-prep-checklist/",
       ogImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1200&q=80",
       focusKeyword: "aep checklist",
@@ -383,146 +383,72 @@ export const blogArticles: BlogArticleData[] = [
       { type: "paragraph", content: "Every fall, millions of Medicare beneficiaries have a limited window to review their coverage and make changes that affect the entire year ahead. That window is the [Annual Enrollment Period (AEP)](/faqs/medicare-annual-enrollment-period), which runs from October 15 through December 7 each year. Any plan changes made during AEP take effect January 1, 2027." },
       { type: "paragraph", content: "The problem? Most people wait until October to start thinking about it. By then, plans have already been finalized, and there is little time to research properly. This AEP prep checklist is designed to change that." },
       { type: "paragraph", content: "Working through this checklist starting in the summer gives you the time to review your current plan, understand what is changing, compare your options, and make a confident decision, not a rushed one. Each section covers a specific phase of preparation, from gathering documents to completing your enrollment." },
-
       { type: "heading", level: 2, text: "Your Complete Medicare AEP Prep Checklist: All Action Items at a Glance", id: "master-checklist" },
       { type: "paragraph", content: "Use this master checklist as your quick reference throughout the entire AEP process. Each item is covered in detail in the sections below." },
-      { type: "list", ordered: true, items: [
-        "Read your [Annual Notice of Change (ANOC)](/faqs/medicare-annual-notice-of-change-letter) letter when it arrives by September 30",
-        "Pull out your current plan's Evidence of Coverage (EOC) for reference",
-        "Write down all current prescriptions, dosages, and pharmacy preferences",
-        "List your primary care doctor and any specialists you use regularly",
-        "Review your 2026 Medicare Summary Notices to understand what services you actually used",
-        "Note any changes to your health needs heading into 2027",
-        "Check your current plan's Star Rating on Medicare.gov",
-        "Use the Medicare.gov Plan Finder tool starting October 1 to compare plans",
-        "Run the Drug Cost Estimator on Medicare.gov with your current medications",
-        "Verify that your doctors are in-network under any new plan you consider",
-        "Compare total annual costs, not just premiums, across your top plan options",
-        "Evaluate whether [Medicare Advantage](/faqs/what-is-medicare-advantage) or [Original Medicare with a Medigap plan](/faqs/original-medicare-vs-medicare-advantage) better fits your needs",
-        "Consult a licensed Medicare agent for personalized guidance",
-        "Complete your enrollment between October 15 and December 7",
-        "Confirm your new plan's effective date and save your enrollment confirmation"
-      ]},
-
+      { type: "list", ordered: true, items: ["Read your [Annual Notice of Change (ANOC)](/faqs/medicare-annual-notice-of-change-letter) letter when it arrives by September 30", "Pull out your current plan's Evidence of Coverage (EOC) for reference", "Write down all current prescriptions, dosages, and pharmacy preferences", "List your primary care doctor and any specialists you use regularly", "Review your 2026 Medicare Summary Notices to understand what services you actually used", "Note any changes to your health needs heading into 2027", "Check your current plan's Star Rating on [Medicare.gov](https://www.medicare.gov/)", "Use the Medicare.gov Plan Finder tool starting October 1 to compare plans", "Run the Drug Cost Estimator on Medicare.gov with your current medications", "Verify that your doctors are in-network under any new plan you consider", "Compare total annual costs, not just premiums, across your top plan options", "Evaluate whether [Medicare Advantage](/faqs/what-is-medicare-advantage) or [Original Medicare with a Medigap plan](/faqs/original-medicare-vs-medicare-advantage) better fits your needs", "Consult a licensed Medicare agent for personalized guidance", "Complete your enrollment between October 15 and December 7", "Confirm your new plan's effective date and save your enrollment confirmation"] },
       { type: "heading", level: 2, text: "Your AEP Prep Checklist Timeline: Key Dates and Actions for 2027", id: "timeline" },
       { type: "paragraph", content: "Following a clear timeline prevents you from scrambling in October. Here is a month-by-month overview of what to do and when." },
-      { type: "table", title: "AEP Prep Timeline", headers: ["Timeframe", "Key Actions", "What to Expect"], rows: [
-        ["July - August 2026", "Gather documents, review current coverage, assess health needs", "No plan data released yet; focus on your own records"],
-        ["September 2026", "Read your ANOC letter, note premium and benefit changes", "ANOC must arrive by September 30"],
-        ["October 1-14, 2026", "Compare plans on Medicare.gov, run drug cost estimates, consult agent", "2027 plan data officially published October 1"],
-        ["October 15 - December 7, 2026", "Make enrollment decisions, submit applications, confirm changes", "AEP is open; all changes allowed"],
-        ["December 8, 2026 and beyond", "Confirm new plan ID cards, review benefits, note MA OEP window", "AEP closed; new coverage begins January 1, 2027"]
-      ]},
+      { type: "table", title: "AEP Prep Timeline", headers: ["Timeframe", "Key Actions", "What to Expect"], rows: [["July - August 2026", "Gather documents, review current coverage, assess health needs", "No plan data released yet; focus on your own records"], ["September 2026", "Read your ANOC letter, note premium and benefit changes", "ANOC must arrive by September 30"], ["October 1-14, 2026", "Compare plans on Medicare.gov, run drug cost estimates, consult agent", "2027 plan data officially published October 1"], ["October 15 - December 7, 2026", "Make enrollment decisions, submit applications, confirm changes", "AEP is open; all changes allowed"], ["December 8, 2026 and beyond", "Confirm new plan ID cards, review benefits, note MA OEP window", "AEP closed; new coverage begins January 1, 2027"]] },
       { type: "paragraph", content: "Mapping your tasks to specific months makes the process far less overwhelming. Each phase builds on the last, so nothing falls through the cracks." },
-
       { type: "heading", level: 2, text: "Phase 1: Pre-AEP Preparation (July - September 2026)", id: "phase-1" },
       { type: "paragraph", content: "Starting your AEP preparation in the summer might seem early, but there is good reason for it. By July, you have had six months of experience with your current plan. You know which doctors you have seen, which prescriptions you refill regularly, and whether your plan has caused any headaches with coverage or costs." },
       { type: "paragraph", content: "This pre-AEP phase is about organizing what you already have before comparing anything new. Pull together your Medicare cards, current plan documents, and a list of your medications. Review your Medicare Summary Notices from earlier in the year to see exactly which services were covered and what you paid out of pocket." },
       { type: "paragraph", content: "The cleaner your picture of current coverage, the easier it is to spot gaps, or confirm that your plan is still working well." },
-
-      { type: "heading", level: 3, text: "Understanding Your ANOC Letter and EOC" },
+      { type: "heading", level: 3, text: "Understanding Your ANOC Letter and EOC", id: "understanding-your-anoc-letter-and-eoc" },
       { type: "paragraph", content: "By law, your current Medicare Advantage or Part D plan must send you an [Annual Notice of Change (ANOC)](/faqs/medicare-annual-notice-of-change-letter) letter before September 30. This document summarizes every significant change your plan is making for the upcoming year." },
       { type: "paragraph", content: "When your ANOC arrives, read it carefully. Look specifically for:" },
-      { type: "list", ordered: false, items: [
-        "Premium changes: monthly costs going up or down",
-        "Formulary adjustments: whether your prescriptions are still covered at the same tier",
-        "Network updates: any doctors or hospitals being removed",
-        "Benefit modifications: changes to dental, vision, or other extras",
-        "Cost-sharing changes: updated copays, deductibles, or out-of-pocket maximums"
-      ]},
+      { type: "list", ordered: false, items: ["Premium changes: monthly costs going up or down", "Formulary adjustments: whether your prescriptions are still covered at the same tier", "Network updates: any doctors or hospitals being removed", "Benefit modifications: changes to dental, vision, or other extras", "Cost-sharing changes: updated copays, deductibles, or out-of-pocket maximums"] },
       { type: "paragraph", content: "If anything in the ANOC concerns you, the Evidence of Coverage (EOC) document provides the full policy details. The EOC is longer and more technical, but it is the authoritative source for exactly how your benefits work. Keep both documents accessible as you move into the comparison phase." },
-
-      { type: "heading", level: 3, text: "The Role of CMS in AEP" },
+      { type: "heading", level: 3, text: "The Role of CMS in AEP", id: "the-role-of-cms-in-aep" },
       { type: "paragraph", content: "The Centers for Medicare & Medicaid Services (CMS) sets all AEP rules and deadlines, including the requirement that ANOC letters arrive by September 30. CMS also controls when plan data becomes publicly available, publishing all approved 2027 plan information on October 1." },
       { type: "paragraph", content: "This is why the comparison phase does not officially begin until October 1. Before that date, finalized plan details simply are not available. CMS serves as the regulatory backbone of the entire enrollment process, ensuring plans meet coverage standards and that beneficiaries receive accurate, timely information." },
-
       { type: "heading", level: 2, text: "Phase 2: Warm-Up & Research (October 1 - 14, 2026)", id: "phase-2" },
       { type: "paragraph", content: "October 1 is a significant day. That is when CMS releases all finalized 2027 plan data, and the Medicare.gov Plan Finder tool updates with the new information. You still have two weeks before AEP officially opens, which gives you time to research without pressure." },
       { type: "paragraph", content: "Use this window deliberately. Compare multiple plans side by side, check drug formularies, and verify that your providers are in-network. The goal is to walk into October 15 with a clear top choice, not start from scratch." },
-
-      { type: "heading", level: 3, text: "Leveraging the Medicare.gov Plan Finder" },
+      { type: "heading", level: 3, text: "Leveraging the Medicare.gov Plan Finder", id: "leveraging-the-medicaregov-plan-finder" },
       { type: "paragraph", content: "The Medicare.gov Plan Finder is the most reliable tool available for comparing [Medicare Advantage](/faqs/what-is-medicare-advantage) and [Part D plans](/faqs/what-is-medicare-part-d) in your area. It pulls from CMS's official plan data, so you can trust what you are seeing." },
       { type: "paragraph", content: "To get accurate, personalized results:" },
-      { type: "list", ordered: false, items: [
-        "Enter your zip code to see plans available in your area",
-        "Add all your current medications with exact dosages",
-        "Enter your preferred pharmacy (mail-order or retail)",
-        "Add your primary care physician and any specialists",
-        "Filter results by Star Rating; plans with 4 or more stars generally indicate higher quality care and member satisfaction"
-      ]},
+      { type: "list", ordered: false, items: ["Enter your zip code to see plans available in your area", "Add all your current medications with exact dosages", "Enter your preferred pharmacy (mail-order or retail)", "Add your primary care physician and any specialists", "Filter results by Star Rating; plans with 4 or more stars generally indicate higher quality care and member satisfaction"] },
       { type: "paragraph", content: "The tool then generates personalized cost estimates that account for premiums, deductibles, and expected drug costs. This gives you a true annual cost estimate rather than just a monthly premium number." },
-
-      { type: "heading", level: 3, text: "Using the Medicare Plan Finder Drug Cost Estimator" },
+      { type: "heading", level: 3, text: "Using the Medicare Plan Finder Drug Cost Estimator", id: "using-the-medicare-plan-finder-drug-cost-estimator" },
       { type: "paragraph", content: "Drug costs are one of the most common reasons people switch plans during AEP, and one of the easiest things to research in advance. Within the Plan Finder, the drug cost estimator shows exactly what you would pay for each medication under different plans." },
       { type: "paragraph", content: "Check whether each of your drugs is on the plan's formulary, and note which tier it falls under. A medication moved to a higher tier can mean significantly higher copays. Also confirm whether your preferred pharmacy is in-network, since using an out-of-network pharmacy can increase costs substantially." },
       { type: "paragraph", content: "One major development for 2027 is the continuation of the $2,000 annual out-of-pocket cap on [Part D drug costs](/faqs/how-is-medicare-part-d-changing-in-2026). This cap, which took effect in 2025, limits what you pay for covered prescription drugs under Medicare Part D each year. For anyone taking expensive medications, this makes verifying formulary placement even more valuable, because once you hit that cap, your costs stop entirely for the rest of the year." },
       { type: "paragraph", content: "The 2026 maximum Part D deductible is $615, and the average Part D premium is approximately $34.50 per month. Both figures factor into your total drug cost picture when comparing plans." },
-
-      { type: "heading", level: 3, text: "Considering Medigap and Original Medicare" },
+      { type: "heading", level: 3, text: "Considering Medigap and Original Medicare", id: "considering-medigap-and-original-medicare" },
       { type: "paragraph", content: "AEP is primarily associated with Medicare Advantage and Part D changes. [Medigap (Medicare Supplement)](/faqs/what-is-a-medicare-supplement-plan-and-who-needs-one) plans operate on different enrollment rules and are generally not switched during AEP without health underwriting. That said, October is still a smart time to evaluate whether your current coverage structure, Original Medicare plus a Medigap plan versus Medicare Advantage, still fits your needs." },
       { type: "paragraph", content: "If you are considering switching from Medicare Advantage to a Medicare Supplement, the timing and eligibility rules are specific. A licensed Medicare agent can walk you through what is possible and when guaranteed issue rights may apply to your situation." },
-
       { type: "heading", level: 2, text: "Phase 3: Showtime - Enrollment Decisions (October 15 - December 7, 2026)", id: "phase-3" },
       { type: "paragraph", content: "AEP is officially open. From October 15 through December 7, you can make any of the following changes to your Medicare coverage, effective January 1, 2027:" },
-      { type: "list", ordered: false, items: [
-        "Switch from one Medicare Advantage plan to another",
-        "Switch from Medicare Advantage back to Original Medicare",
-        "Join, switch, or drop a [Medicare Part D plan](/faqs/what-is-medicare-part-d)",
-        "Move from Original Medicare to a Medicare Advantage plan"
-      ]},
+      { type: "list", ordered: false, items: ["Switch from one Medicare Advantage plan to another", "Switch from Medicare Advantage back to Original Medicare", "Join, switch, or drop a [Medicare Part D plan](/faqs/what-is-medicare-part-d)", "Move from Original Medicare to a Medicare Advantage plan"] },
       { type: "paragraph", content: "If you are happy with your current plan and the ANOC showed no major changes, staying enrolled is a valid choice. You do not have to act. But if your research surfaced a better option, this is your window to make the switch." },
-
-      { type: "heading", level: 3, text: "Your Enrollment Checklist: Making the Final Choice" },
+      { type: "heading", level: 3, text: "Your Enrollment Checklist: Making the Final Choice", id: "your-enrollment-checklist-making-the-final-choice" },
       { type: "paragraph", content: "Before submitting any application, work through this final verification checklist:" },
-      { type: "list", ordered: false, items: [
-        "Confirm your preferred doctors are in-network under the new plan",
-        "Verify all your prescriptions are on the formulary at acceptable cost tiers",
-        "Review the new plan's total annual cost estimate, not just the monthly premium",
-        "Check the plan's Star Rating (4+ stars is a good benchmark)",
-        "Note the plan's out-of-pocket maximum; in 2026, Medicare Advantage plans cap at $9,250",
-        "Confirm the effective date is January 1, 2027",
-        "Save or screenshot your enrollment confirmation"
-      ]},
+      { type: "list", ordered: false, items: ["Confirm your preferred doctors are in-network under the new plan", "Verify all your prescriptions are on the formulary at acceptable cost tiers", "Review the new plan's total annual cost estimate, not just the monthly premium", "Check the plan's Star Rating (4+ stars is a good benchmark)", "Note the plan's out-of-pocket maximum; in 2026, Medicare Advantage plans cap at $9,250", "Confirm the effective date is January 1, 2027", "Save or screenshot your enrollment confirmation"] },
       { type: "paragraph", content: "You can enroll directly through Medicare.gov, by calling 1-800-MEDICARE (1-800-633-4227), or by working with a licensed agent. If you enroll more than once during AEP, the last enrollment submitted before December 7 is the one that takes effect." },
-
-      { type: "heading", level: 3, text: "Key 2027 Changes to Watch For" },
+      { type: "heading", level: 3, text: "Key 2027 Changes to Watch For", id: "key-2027-changes-to-watch-for" },
       { type: "paragraph", content: "Several [Medicare cost updates](/faqs/medicare-costs-in-2026-premiums-deductibles-and-key-changes) are relevant as you evaluate plans for 2027. The standard Part B premium is $202.90 per month in 2026, and the Part B deductible is $283. These figures typically adjust annually, so watch for CMS's announced 2027 rates in the fall." },
       { type: "paragraph", content: "The Part D $2,000 out-of-pocket cap remains a significant benefit for people with high drug costs. Additionally, check any plans you are considering for changes in prior authorization requirements, which can affect how easily you access certain treatments or specialists." },
       { type: "paragraph", content: "Network changes are also worth scrutinizing. Even if your plan looks the same on paper, a hospital or specialist you rely on may have left the network. Always verify before enrolling." },
-
-      { type: "heading", level: 3, text: "Special Considerations for LIS/Extra Help Beneficiaries" },
+      { type: "heading", level: 3, text: "Special Considerations for LIS/Extra Help Beneficiaries", id: "special-considerations-for-lisextra-help-beneficiaries" },
       { type: "paragraph", content: "If you receive Low Income Subsidy (LIS) or Extra Help assistance for prescription drug costs, the AEP rules work slightly differently for you. LIS beneficiaries can switch Part D plans once per quarter during the first three quarters of the year, in addition to AEP." },
       { type: "paragraph", content: "Some LIS beneficiaries may be automatically reassigned to a new plan if their current plan no longer qualifies for the program. If this applies to you, you should receive a reassignment notice. Review it carefully; you always have the right to choose a different plan during AEP rather than accepting the auto-assignment." },
       { type: "paragraph", content: "The Extra Help program can significantly reduce your Part D premiums, deductibles, and copays. If you are not sure whether you qualify, the income and resource limits are updated annually. A licensed Medicare agent or your State Health Insurance Assistance Program (SHIP) can help you check eligibility." },
-
       { type: "heading", level: 2, text: "Phase 4: Post-AEP & Beyond (December 8, 2026 Onward)", id: "phase-4" },
       { type: "paragraph", content: "Once December 7 passes, AEP closes and no further enrollment changes can be made through that window. Your new coverage begins January 1, 2027. Watch for your new plan's ID card in the mail; it should arrive before January 1." },
       { type: "paragraph", content: "When your new coverage starts, notify your doctors and pharmacy of the change. Confirm that your prescriptions will be covered under the new formulary before your first refill. If anything looks incorrect on your first explanation of benefits, address it promptly." },
       { type: "paragraph", content: "For people who missed AEP or realize they made the wrong choice, there are still options. Certain [special enrollment periods](/faqs/medicare-special-enrollment-period) are triggered by life events such as moving, losing other coverage, or qualifying for Medicaid. These may allow plan changes outside of AEP." },
-
-      { type: "heading", level: 3, text: "Medicare Advantage Open Enrollment Period (MA OEP)" },
+      { type: "heading", level: 3, text: "Medicare Advantage Open Enrollment Period (MA OEP)", id: "medicare-advantage-open-enrollment-period-ma-oep" },
       { type: "paragraph", content: "The [Medicare Advantage Open Enrollment Period](/faqs/medicare-advantage-open-enrollment-period) runs from January 1 through March 31 each year. If you are enrolled in a Medicare Advantage plan on January 1, 2027, you can use this period to switch to a different Medicare Advantage plan or return to Original Medicare (and add a Part D plan)." },
       { type: "paragraph", content: "MA OEP is specifically for Medicare Advantage enrollees. It does not apply to stand-alone Part D plans, and it does not allow you to add or change a Medigap policy. Think of it as a second chance if your new plan is not working as expected, but not a substitute for careful AEP preparation." },
-
       { type: "heading", level: 2, text: "Navigating AEP with a Licensed Medicare Agent", id: "working-with-agent" },
       { type: "paragraph", content: "Medicare plan comparisons involve a lot of moving parts: formularies, networks, star ratings, cost-sharing structures, and eligibility rules. A licensed Medicare agent can simplify the process considerably." },
       { type: "paragraph", content: "Agents who specialize in Medicare can compare multiple plans across carriers simultaneously, identify options you might not find on your own, and explain tradeoffs in plain language. They are particularly valuable if you have multiple chronic conditions, take several medications, or are considering switching between Medicare Advantage and Original Medicare." },
       { type: "paragraph", content: "When working with an agent, look for someone who is licensed in your state and can offer plans from multiple carriers, not just one. Ask how they are compensated and whether there is any cost to you (in most cases, there is not). An agent cannot make enrollment decisions for you, but they can make sure you understand exactly what you are choosing." },
-
-      { type: "eddie-pro-tip", calloutTitle: "Eddie's Pro Tip", calloutText: "Do not wait until October 15 to start your AEP research. The beneficiaries who make the best decisions are the ones who prepare in advance. Here is my recommended approach: (1) Pull your medication list and doctor list together by August. (2) Read your ANOC letter the day it arrives. (3) Use the Medicare.gov Plan Finder on October 1 when fresh data drops. (4) Compare at least 3 plans using total annual cost, not just premiums. (5) Talk to a licensed agent if you are unsure. (6) Enroll by mid-November to avoid the last-minute rush. (7) Save your confirmation number and verify your new ID card arrives in December." },
-
+      { type: "eddie-pro-tip", content: "" },
       { type: "heading", level: 2, text: "Frequently Asked Questions About Your Medicare AEP Prep Checklist", id: "faqs" },
-      { type: "faq", faqs: [
-        { question: "What should be on my AEP prep checklist for 2027?", answer: "Your checklist should include reviewing your ANOC letter, gathering your medication list, verifying your doctors are in-network, using the Medicare.gov Plan Finder, and confirming your enrollment before December 7. The master checklist in this article covers all 15 core action items." },
-        { question: "When should I start my Medicare AEP preparation checklist?", answer: "Start in July or August, well before AEP opens. Early preparation lets you review your current plan, organize your records, and enter October ready to compare rather than starting from scratch." },
-        { question: "What documents do I need for my Medicare AEP checklist?", answer: "You will need your current plan's ANOC letter, your Evidence of Coverage (EOC), a list of all current prescriptions and dosages, your Medicare card, and your Medicare Summary Notices from the current year. Having these ready saves time during the comparison phase." },
-        { question: "Can I change my Medigap plan during the AEP prep checklist process?", answer: "Medigap plans are not part of AEP. Switching them typically requires passing medical underwriting outside of your open enrollment window. Review your Medigap options with a licensed agent, who can explain when guaranteed issue rights may apply to your situation." },
-        { question: "How can a Medicare AEP prep checklist help me save money?", answer: "Comparing plans systematically, especially drug formularies and total annual costs, often reveals lower-cost options that offer the same or better coverage. Many people save hundreds of dollars annually just by switching to a plan that better matches their actual medication needs." },
-        { question: "What if I miss an item on my AEP prep checklist?", answer: "If you miss AEP entirely, the Medicare Advantage Open Enrollment Period (January 1 through March 31) provides a limited second window for MA plan changes. Special enrollment periods also exist for specific life events. A licensed agent can help you identify which options apply to your situation." },
-        { question: "What is the AEP deadline for 2027?", answer: "The AEP deadline for 2027 is December 7, 2026." }
-      ]},
-
-      { type: "callout", calloutType: "info", calloutTitle: "Conclusion: Taking Control of Your Medicare Choices Every Year", calloutText: "The AEP prep checklist laid out here is not a one-time tool. Medicare plans change every year: premiums shift, formularies update, and networks evolve. Using this checklist annually gives you a structured way to stay on top of those changes before they affect your care or your wallet. The beneficiaries who get the most from their Medicare coverage are the ones who review it proactively, compare their options with real numbers, and make deliberate choices. That process starts months before October 15, and it is entirely manageable when you work through it one step at a time." }
+      { type: "faq", faqs: [{ question: "What should be on my AEP prep checklist for 2027?", answer: "Your checklist should include reviewing your ANOC letter, gathering your medication list, verifying your doctors are in-network, using the Medicare.gov Plan Finder, and confirming your enrollment before December 7. The master checklist in this article covers all 15 core action items." }, { question: "When should I start my Medicare AEP preparation checklist?", answer: "Start in July or August, well before AEP opens. Early preparation lets you review your current plan, organize your records, and enter October ready to compare rather than starting from scratch." }, { question: "What documents do I need for my Medicare AEP checklist?", answer: "You will need your current plan's ANOC letter, your Evidence of Coverage (EOC), a list of all current prescriptions and dosages, your Medicare card, and your Medicare Summary Notices from the current year. Having these ready saves time during the comparison phase." }, { question: "Can I change my Medigap plan during the AEP prep checklist process?", answer: "Medigap plans are not part of AEP. Switching them typically requires passing medical underwriting outside of your open enrollment window. Review your Medigap options with a licensed agent, who can explain when guaranteed issue rights may apply to your situation." }, { question: "How can a Medicare AEP prep checklist help me save money?", answer: "Comparing plans systematically, especially drug formularies and total annual costs, often reveals lower-cost options that offer the same or better coverage. Many people save hundreds of dollars annually just by switching to a plan that better matches their actual medication needs." }, { question: "What if I miss an item on my AEP prep checklist?", answer: "If you miss AEP entirely, the Medicare Advantage Open Enrollment Period (January 1 through March 31) provides a limited second window for MA plan changes. Special enrollment periods also exist for specific life events. A licensed agent can help you identify which options apply to your situation." }, { question: "What is the AEP deadline for 2027?", answer: "The AEP deadline for 2027 is December 7, 2026." }] },
+      { type: "callout", calloutType: "info", calloutTitle: "Conclusion: Taking Control of Your Medicare Choices Every Year", calloutText: "The AEP prep checklist laid out here is not a one-time tool. Medicare plans change every year: premiums shift, formularies update, and networks evolve. Using this checklist annually gives you a structured way to stay on top of those changes before they affect your care or your wallet. The beneficiaries who get the most from their Medicare coverage are the ones who review it proactively, compare their options with real numbers, and make deliberate choices. That process starts months before October 15, and it is entirely manageable when you work through it one step at a time." },
     ],
     relatedSlugs: ["medicare-annual-enrollment-period", "medicare-annual-notice-of-change-letter", "what-is-medicare-advantage", "original-medicare-vs-medicare-advantage", "what-is-medicare-part-d", "how-is-medicare-part-d-changing-in-2026", "what-is-a-medicare-supplement-plan-and-who-needs-one", "medicare-advantage-open-enrollment-period", "medicare-special-enrollment-period", "medicare-costs-in-2026-premiums-deductibles-and-key-changes"],
     showInlineCta: true,
