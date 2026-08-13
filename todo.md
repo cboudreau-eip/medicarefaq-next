@@ -197,3 +197,4 @@
 ## New Blog Post
 - [x] Create blog/finding-your-best-medigap-plan blog post from provided content
 - [x] Create blog/medicare-at-65-month-by-month-timeline blog post (~3000 words, strong internal linking)
+- [x] Publish blog/10-medicare-questions-people-are-embarrassed-to-ask with corrected 2026 figures, semantic links, and valid structured sections
