@@ -9,17 +9,12 @@
 
 import Link from "next/link";
 import { Clock, ArrowRight, User, ChevronLeft, ChevronRight } from "lucide-react";
-import { motion } from "framer-motion";
-import { useSearchParams, useRouter } from "next/navigation";
 import { blogPosts } from "@/lib/blog-data";
 import { blogArticles } from "@/lib/blog-articles-data";
 
 const POSTS_PER_PAGE = 12;
 
-export default function Blog() {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const currentPage = Math.max(1, parseInt(searchParams.get("page") || "1", 10));
+export default function Blog({ currentPage }: { currentPage: number }) {
 
   // Parse date string (e.g., "May 15, 2026") into a sortable timestamp
   const parseDate = (dateStr: string): number => {
@@ -76,16 +71,7 @@ export default function Blog() {
     currentPage * POSTS_PER_PAGE
   );
 
-  const goToPage = (page: number) => {
-    const params = new URLSearchParams(searchParams.toString());
-    if (page === 1) {
-      params.delete("page");
-    } else {
-      params.set("page", String(page));
-    }
-    router.push(`/blog${params.toString() ? `?${params.toString()}` : ""}`);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  const pageHref = (page: number) => (page <= 1 ? "/blog/" : `/blog/?page=${page}`);
 
   // Build page number array with ellipsis
   const getPageNumbers = (): (number | "...")[] => {
@@ -107,11 +93,7 @@ export default function Blog() {
         {/* Page Header */}
         <section className={`bg-[#1B2A4A] ${currentPage === 1 ? "py-12 md:py-16" : "py-6 md:py-8"}`}>
           <div className="container">
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-            >
+            <div>
               <nav className="text-sm text-white/50 mb-4">
                 <Link href="/" className="hover:text-white/80 transition-colors">
                   Home
@@ -128,7 +110,7 @@ export default function Blog() {
                   with confidence. Updated regularly by licensed professionals.
                 </p>
               )}
-            </motion.div>
+            </div>
           </div>
         </section>
 
@@ -141,12 +123,7 @@ export default function Blog() {
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 {featuredPosts.map((post, index) => (
-                  <motion.div
-                    key={post.slug}
-                    initial={{ opacity: 0, y: 15 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.3, delay: index * 0.08 }}
-                  >
+                  <div key={post.slug}>
                     <Link
                       href={`/blog/${post.slug}`}
                       className="group block bg-white border border-[#E5E7EB] rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 transition-all duration-200"
@@ -188,7 +165,7 @@ export default function Blog() {
                         </div>
                       </div>
                     </Link>
-                  </motion.div>
+                  </div>
                 ))}
               </div>
             </div>
@@ -208,14 +185,8 @@ export default function Blog() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {paginatedPosts.map((post, index) => (
-                <motion.div
-                  key={post.slug}
-                  initial={{ opacity: 0, y: 15 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.3, delay: index * 0.04 }}
-                >
+              {paginatedPosts.map((post) => (
+                <div key={post.slug}>
                   <Link
                     href={`/blog/${post.slug}`}
                     className="group block bg-white border border-[#E5E7EB] rounded-xl overflow-hidden hover:shadow-lg hover:shadow-black/5 transition-all duration-200 h-full"
@@ -251,7 +222,7 @@ export default function Blog() {
                       </div>
                     </div>
                   </Link>
-                </motion.div>
+                </div>
               ))}
             </div>
 
@@ -259,14 +230,19 @@ export default function Blog() {
             {totalPages > 1 && (
               <div className="mt-12 flex items-center justify-center gap-1.5">
                 {/* Prev */}
-                <button
-                  onClick={() => goToPage(currentPage - 1)}
-                  disabled={currentPage === 1}
-                  aria-label="Previous page"
-                  className="flex items-center justify-center w-9 h-9 rounded-lg border border-[#E5E7EB] bg-white text-[#6B7280] hover:bg-[#F5F7FA] hover:border-[#1B2A4A] hover:text-[#1B2A4A] disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-150"
-                >
-                  <ChevronLeft className="w-4 h-4" />
-                </button>
+                {currentPage === 1 ? (
+                  <span aria-disabled="true" className="flex items-center justify-center w-9 h-9 rounded-lg border border-[#E5E7EB] bg-white text-[#6B7280] opacity-30 cursor-not-allowed">
+                    <ChevronLeft className="w-4 h-4" />
+                  </span>
+                ) : (
+                  <Link
+                    href={pageHref(currentPage - 1)}
+                    aria-label="Previous page"
+                    className="flex items-center justify-center w-9 h-9 rounded-lg border border-[#E5E7EB] bg-white text-[#6B7280] hover:bg-[#F5F7FA] hover:border-[#1B2A4A] hover:text-[#1B2A4A] transition-all duration-150"
+                  >
+                    <ChevronLeft className="w-4 h-4" />
+                  </Link>
+                )}
 
                 {/* Page numbers */}
                 {getPageNumbers().map((page, idx) =>
@@ -275,9 +251,9 @@ export default function Blog() {
                       …
                     </span>
                   ) : (
-                    <button
+                    <Link
                       key={page}
-                      onClick={() => goToPage(page as number)}
+                      href={pageHref(page as number)}
                       aria-label={`Page ${page}`}
                       aria-current={currentPage === page ? "page" : undefined}
                       className={`w-9 h-9 rounded-lg text-sm font-semibold transition-all duration-150 ${
@@ -287,19 +263,24 @@ export default function Blog() {
                       }`}
                     >
                       {page}
-                    </button>
+                    </Link>
                   )
                 )}
 
                 {/* Next */}
-                <button
-                  onClick={() => goToPage(currentPage + 1)}
-                  disabled={currentPage === totalPages}
-                  aria-label="Next page"
-                  className="flex items-center justify-center w-9 h-9 rounded-lg border border-[#E5E7EB] bg-white text-[#6B7280] hover:bg-[#F5F7FA] hover:border-[#1B2A4A] hover:text-[#1B2A4A] disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-150"
-                >
-                  <ChevronRight className="w-4 h-4" />
-                </button>
+                {currentPage === totalPages ? (
+                  <span aria-disabled="true" className="flex items-center justify-center w-9 h-9 rounded-lg border border-[#E5E7EB] bg-white text-[#6B7280] opacity-30 cursor-not-allowed">
+                    <ChevronRight className="w-4 h-4" />
+                  </span>
+                ) : (
+                  <Link
+                    href={pageHref(currentPage + 1)}
+                    aria-label="Next page"
+                    className="flex items-center justify-center w-9 h-9 rounded-lg border border-[#E5E7EB] bg-white text-[#6B7280] hover:bg-[#F5F7FA] hover:border-[#1B2A4A] hover:text-[#1B2A4A] transition-all duration-150"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </Link>
+                )}
               </div>
             )}
 

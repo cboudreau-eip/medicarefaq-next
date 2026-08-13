@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import SiteLayout from "@/components/SiteLayout";
 import Blog from "./PageContent";
 
@@ -30,13 +29,20 @@ const blogSchema = {
   },
 };
 
-export default function Page() {
+type BlogPageProps = {
+  searchParams: Promise<{ page?: string | string[] }>;
+};
+
+export default async function Page({ searchParams }: BlogPageProps) {
+  const params = await searchParams;
+  const requestedPage = Array.isArray(params.page) ? params.page[0] : params.page;
+  const parsedPage = Number.parseInt(requestedPage ?? "1", 10);
+  const currentPage = Number.isFinite(parsedPage) && parsedPage > 0 ? parsedPage : 1;
+
   return (
     <SiteLayout>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
-      <Suspense fallback={<div className="min-h-screen bg-[#F5F7FA]" />}>
-        <Blog />
-      </Suspense>
+      <Blog currentPage={currentPage} />
     </SiteLayout>
   );
 }
