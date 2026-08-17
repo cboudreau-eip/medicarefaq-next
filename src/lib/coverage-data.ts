@@ -26666,7 +26666,7 @@ export const coverageArticles: CoverageArticleData[] = [
       planType: "Medicare Savings Programs (MSP)",
       coverage: "State pays Part B premium and may cover deductibles/copays",
       icon: "shield-check",
-      notes: "Income-based; 4 levels (QMB, SLMB, QI, QDWI); can save up to $185/month on Part B",
+      notes: "Income-based; 4 levels (QMB, SLMB, QI, QDWI); can save up to $202.90/month on the standard Part B premium",
     },
     {
       planType: "Extra Help (Low Income Subsidy)",
@@ -26711,7 +26711,7 @@ export const coverageArticles: CoverageArticleData[] = [
       callout: {
       type: "tip",
       title: "MSP == Free Part B Premium",
-      text: "If you qualify for QMB, SLMB, or QI, your state pays your $185.00/month Part B premium for you. That's up to $2,220/year in savings. Apply through your state Medicaid office or call 1-800-MEDICARE.",
+      text: "If you qualify for QMB, SLMB, or QI, your state pays your $202.90/month standard Part B premium for you. That's up to $2,434.80/year in savings. Apply through your state Medicaid office or call 1-800-MEDICARE.",
     },
     },
     {
@@ -26749,7 +26749,7 @@ export const coverageArticles: CoverageArticleData[] = [
       "Life-changing events that qualify for appeal: retirement, reduced work hours, divorce, death of spouse, loss of income-producing property, employer settlement payment",
       "File SSA Form SSA-44 with your local Social Security office",
       "If approved, SSA will use your more recent (lower) income to recalculate your IRMAA",
-      "IRMAA surcharge ranges from $81.20 to $487.00/month for Part B in 2026 (on top of $185.00 base premium)",
+      "IRMAA surcharge ranges from $81.20 to $487.00/month for Part B in 2026 (on top of the $202.90 standard Part B premium)",
     ],
       whatItDoesntCover: [
       "Cannot appeal IRMAA simply because you disagree with the threshold - must have a qualifying life-changing event",
@@ -26768,7 +26768,7 @@ export const coverageArticles: CoverageArticleData[] = [
       coverageLabel: "Part B Premium Reduction Benefit",
       coverageType: "partial",
       paragraphs: [
-      "Some Medicare Advantage plans offer a Part B Giveback (also called Part B Premium Reduction) benefit. With this benefit, the MA plan pays part of your $185.00/month Part B premium, reducing your monthly Medicare costs.",
+      "Some Medicare Advantage plans offer a Part B Giveback (also called Part B Premium Reduction) benefit. With this benefit, the MA plan pays part of your $202.90/month standard Part B premium, reducing your monthly Medicare costs.",
     ],
       whatItCovers: [
       "About 32% of Medicare Advantage plans offer some Part B premium reduction in 2026",
@@ -26798,7 +26798,7 @@ export const coverageArticles: CoverageArticleData[] = [
     ],
       whatItCovers: [
       "Part B late penalty: 10% added to your premium for each 12-month period you delayed enrollment without creditable coverage - permanent",
-      "Part D late penalty: 1% of the national base beneficiary premium ($36.78 in 2026) × number of months without creditable coverage - permanent",
+      "Part D late penalty: 1% of the national base beneficiary premium ($38.99 in 2026) × number of months without creditable coverage - permanent",
       "Part A late penalty (if you have to pay a premium): 10% added for twice the number of years you delayed",
       "Creditable coverage (employer, union, VA, TRICARE) exempts you from penalties while active",
     ],
@@ -26820,13 +26820,13 @@ export const coverageArticles: CoverageArticleData[] = [
       {
         "Strategy": "Medicare Savings Program (QMB)",
         "Who Qualifies": "Income ≤ ~$1,255/mo (individual)",
-        "Potential Monthly Savings": "Up to $185 + deductibles",
+        "Potential Monthly Savings": "Up to $202.90 + deductibles",
         "How to Apply": "State Medicaid office",
       },
       {
         "Strategy": "Medicare Savings Program (SLMB/QI)",
         "Who Qualifies": "Income ≤ ~$1,660/mo (individual)",
-        "Potential Monthly Savings": "$185 (Part B premium)",
+        "Potential Monthly Savings": "$202.90 (standard Part B premium)",
         "How to Apply": "State Medicaid office",
       },
       {
@@ -26884,12 +26884,12 @@ export const coverageArticles: CoverageArticleData[] = [
       {
         title: "Part B Premium Increased to $202.90 in 2026",
         status: "Passed",
-        description: "The standard Part B premium increased to $185.00/month in 2026 (from $174.70 in 2025), making premium reduction strategies more valuable than ever.",
+        description: "The standard Part B premium is $202.90/month in 2026, up from $185/month in 2025, making premium reduction strategies more valuable than ever.",
       },
       {
-        title: "Part D $2,000 Out-of-Pocket Cap (IRA)",
+        title: "Part D Out-of-Pocket Cap: $2,100 in 2026",
         status: "Passed",
-        description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000/year starting in 2025, significantly reducing costs for high-cost drug users.",
+        description: "The Inflation Reduction Act capped Part D out-of-pocket costs at $2,000 in 2025. In 2026, the cap is $2,100, significantly reducing costs for high-cost drug users.",
       },
       {
         title: "Extra Help Expanded (IRA)",
@@ -26921,7 +26921,7 @@ export const coverageArticles: CoverageArticleData[] = [
   faqs: [
     {
       question: "What is the Easiest Way to Reduce My Medicare Premiums?",
-      answer: "If you have limited income, applying for a Medicare Savings Program is the most impactful step - it can eliminate your $185/month Part B premium entirely.",
+      answer: "If you have limited income, applying for a Medicare Savings Program is the most impactful step - it can eliminate your $202.90/month standard Part B premium entirely.",
     },
     {
       question: "What is the Part B Giveback Benefit?",
@@ -26943,7 +26943,7 @@ export const coverageArticles: CoverageArticleData[] = [
   quickReference: [
     {
       icon: "check",
-      text: "Medicare Savings Programs can eliminate your $185/month Part B premium",
+      text: "Medicare Savings Programs can eliminate your $202.90/month standard Part B premium",
     },
     {
       icon: "check",

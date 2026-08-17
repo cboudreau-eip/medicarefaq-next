@@ -210,3 +210,5 @@
 - [x] Draft a differentiated AARP Plan G versus Plan F comparison article outline with SEO and schema guidance
 - [x] Stress-test the AARP Plan G versus Plan F outline and document improvements before drafting
 - [x] Publish the complete revised AARP Plan G versus Plan F comparison article with verified evidence, FAQs, and schema
+- [x] Fact-check /faqs/reduce-medicare-premiums against MedicareReferenceData26.txt and document corrections
+- [x] Correct verified stale 2026 premium, savings, penalty, and Part D cap figures on /faqs/reduce-medicare-premiums
