@@ -11457,11 +11457,11 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
       "type": "list",
       "ordered": true,
       "items": [
-        "Confirm that every quote is for the same plan letter, ZIP code, effective date, age, tobacco status, and household assumptions.",
-        "Ask for the precise underwriting company and policy form for each quote.",
-        "Identify the rating method and ask how the carrier explains future premium changes.",
-        "Verify discount eligibility in writing and compare the price with and without the discount if possible.",
-        "Review complaint information, enrollment protections, and the company's service process before choosing only on the first-year premium."
+        "**Confirm that every quote is for the same plan letter, ZIP code, effective date, age, tobacco status, and household assumptions.**",
+        "**Ask for the precise underwriting company and policy form for each quote.**",
+        "**Identify the rating method and ask how the carrier explains future premium changes.**",
+        "**Verify discount eligibility in writing and compare the price with and without the discount if possible.**",
+        "**Review complaint information, enrollment protections, and the company's service process before choosing only on the first-year premium.**"
       ]
     },
     {
