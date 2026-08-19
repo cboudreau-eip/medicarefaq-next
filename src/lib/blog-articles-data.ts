@@ -4147,7 +4147,8 @@ export const blogArticles: BlogArticleData[] = [
 {
       slug: "amazon-rx-pass",
       seo: {
-        title: "Amazon RxPass and Medicare: What You Need to Know",
+      focusKeyword: "",
+        title: "Amazon RxPass and Medicare: What Seniors Need to Know",
         description: "Amazon's RxPass offers generic medications for a flat monthly fee, but Medicare beneficiaries face important restrictions. Learn what RxPass covers and whe",
         canonical: "https://www.medicarefaq.com/blog/amazon-rx-pass/",
         ogImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop",
@@ -4170,72 +4171,20 @@ export const blogArticles: BlogArticleData[] = [
         { id: "comparing-costs", title: "RxPass vs. Medicare Part D" },
         { id: "how-to-use", title: "How to Use RxPass with Medicare" }],
       sections: [
-        {
-          type: "paragraph",
-          content: "Amazon RxPass is a prescription discount service offering generic medications for a flat $5 monthly fee. While it sounds attractive, Medicare beneficiaries need to understand important restrictions before using it alongside their coverage. RxPass cannot be combined with traditional [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) plans, creating a significant choice for seniors managing medication costs.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "What Is Amazon RxPass?",
-          id: "what-is-rxpass",
-        },
-        {
-          type: "paragraph",
-          content: "Amazon RxPass is a membership service providing access to generic medications for $5 per month. Members can fill unlimited prescriptions from the covered medication list at participating pharmacies. The service is separate from insurance and operates as a discount program, making it fundamentally different from prescription drug insurance like Medicare Part D.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "RxPass and Medicare Compatibility",
-          id: "rxpass-medicare-compatibility",
-        },
-        {
-          type: "paragraph",
-          content: "Medicare beneficiaries cannot use RxPass while enrolled in Part D. If you have Part D coverage, using RxPass violates your plan's terms. However, Medicare beneficiaries without Part D coverage can use RxPass. This is only viable if you've actively declined Part D during your [Initial Enrollment Period](/medicare-enrollment/initial-enrollment-period) or don't qualify for Part D.",
-        },
-        {
-          type: "callout",
-          calloutType: "info",
-          calloutTitle: "Important Coverage Note",
-          calloutText: "Using RxPass while enrolled in Medicare Part D could result in coverage denial and plan violations. Verify your enrollment status before using RxPass.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "What Medications Does RxPass Cover?",
-          id: "rxpass-coverage",
-        },
-        {
-          type: "paragraph",
-          content: "RxPass covers approximately 50 generic medications, including common drugs for diabetes, high blood pressure, and cholesterol. This limited formulary is much smaller than typical Medicare Part D plans, which cover hundreds of drugs. Check RxPass's medication list to confirm your prescriptions are covered before deciding it\'s right for you.",
-        },
-        {
-          type: "table",
-          headers: ["Feature", "Amazon RxPass", "Medicare Part D (2026)"],
-          rows: [["Monthly Cost", "$5 flat fee", "$202.90 average premium"], ["Covered Medications", "~50 generics", "Hundreds of drugs"], ["Deductible", "$0", "$283"], ["Pharmacies Accepted", "Participating only", "Network pharmacies"], ["Insurance Integration", "No", "Yes"]],
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "RxPass vs. Medicare Part D",
-          id: "comparing-costs",
-        },
-        {
-          type: "paragraph",
-          content: "For beneficiaries taking only the 50 covered RxPass medications, the $5 monthly fee ($60/year) is significantly cheaper than Part D's average $202.90 monthly premium ($2,220/year). However, [Part D](/original-medicare/medicare-parts/medicare-part-d) offers broader coverage for brand-name and specialty drugs. The choice depends on your specific medications and health needs.",
-        },
-        {
-          type: "heading",
-          level: 2,
-          text: "How to Use RxPass with Medicare",
-          id: "how-to-use",
-        },
-        {
-          type: "paragraph",
-          content: "To use RxPass as a Medicare beneficiary, you must not be enrolled in Part D. Visit Amazon's RxPass website, verify your medications are covered, and pay the $5 monthly fee. You can then fill prescriptions at participating pharmacies. If you currently have Part D but want to explore RxPass, contact your plan administrator about disenrollment options during the [Annual Enrollment Period](/medicare-enrollment/annual-changes).",
-        }
-      ],
+      { type: "paragraph", content: "Amazon RxPass is a prescription discount service offering generic medications for a flat $5 monthly fee. While it sounds attractive, Medicare beneficiaries need to understand important restrictions before using it alongside their coverage. RxPass cannot be combined with traditional [Medicare Part D](/original-medicare/medicare-parts/medicare-part-d) plans, creating a significant choice for seniors managing medication costs." },
+      { type: "heading", level: 2, text: "What Is Amazon RxPass?", id: "what-is-rxpass" },
+      { type: "paragraph", content: "Amazon RxPass is a membership service providing access to generic medications for $5 per month. Members can fill unlimited prescriptions from the covered medication list at participating pharmacies. The service is separate from insurance and operates as a discount program, making it fundamentally different from [prescription drug insurance like Medicare Part D](https://www.medicare.gov/)." },
+      { type: "heading", level: 2, text: "RxPass and Medicare Compatibility", id: "rxpass-medicare-compatibility" },
+      { type: "paragraph", content: "Medicare beneficiaries cannot use RxPass while enrolled in Part D. If you have Part D coverage, using RxPass violates your plan's terms. However, Medicare beneficiaries without Part D coverage can use RxPass. This is only viable if you've actively declined Part D during your [Initial Enrollment Period](/medicare-enrollment/initial-enrollment-period) or don't qualify for Part D." },
+      { type: "callout", calloutType: "info", calloutTitle: "Important Coverage Note", calloutText: "Using RxPass while enrolled in Medicare Part D could result in coverage denial and plan violations. Verify your enrollment status before using RxPass." },
+      { type: "heading", level: 2, text: "What Medications Does RxPass Cover?", id: "rxpass-coverage" },
+      { type: "paragraph", content: "RxPass covers approximately 50 generic medications, including common drugs for diabetes, high blood pressure, and cholesterol. This limited formulary is much smaller than [typical Medicare Part D plans](https://www.medicare.gov/), which cover hundreds of drugs. Check RxPass's medication list to confirm your prescriptions are covered before deciding it's right for you." },
+      { type: "table", title: "", headers: ["Feature", "Amazon RxPass", "Medicare Part D (2026)"], rows: [["Monthly Cost", "$5 flat fee", "$202.90 average premium"], ["Covered Medications", "~50 generics", "Hundreds of drugs"], ["Deductible", "$0", "$283"], ["Pharmacies Accepted", "Participating only", "Network pharmacies"], ["Insurance Integration", "No", "Yes"]] },
+      { type: "heading", level: 2, text: "RxPass vs. Medicare Part D", id: "comparing-costs" },
+      { type: "paragraph", content: "For beneficiaries taking only the 50 covered RxPass medications, the $5 monthly fee ($60/year) is significantly cheaper than Part D's average $202.90 monthly premium ($2,220/year). However, [Part D](/original-medicare/medicare-parts/medicare-part-d) offers broader coverage for brand-name and specialty drugs. The choice depends on your specific medications and health needs." },
+      { type: "heading", level: 2, text: "How to Use RxPass with Medicare", id: "how-to-use" },
+      { type: "paragraph", content: "To use RxPass as a Medicare beneficiary, you must not be enrolled in Part D. Visit Amazon's RxPass website, verify your medications are covered, and pay the $5 monthly fee. You can then fill prescriptions at participating pharmacies. If you currently have Part D but want to explore RxPass, contact your plan administrator about disenrollment options during the [Annual Enrollment Period](/medicare-enrollment/annual-changes)." },
+    ],
       faqs: [
         { question: "Can I Use Amazon RxPass with My Medicare Part D Plan?", answer: "No. Medicare beneficiaries cannot use RxPass while enrolled in Part D. Part D plans prohibit using other prescription discount programs. You can only use RxPass if you've declined Part D coverage." },
         { question: "Is Amazon RxPass Cheaper than Medicare Part D?", answer: "RxPass costs $5/month versus Part D's average $202.90/month premium. However, RxPass covers only 50 generic drugs compared to Part D\'s broader formulary. For limited medication needs, RxPass may save money, but Part D provides better coverage for complex or brand-name prescriptions." },
