@@ -12,32 +12,7 @@ import { priorAuthSNFDenialsArticle } from "./blog-article-prior-auth-snf-denial
 import { preventiveServicesArticle } from "./blog-article-preventive-services";
 import { medicareScamsArticle } from "./blog-article-medicare-scams";
 export const blogArticles: BlogArticleData[] = [
-  {
-    slug: "medicare-enrollment",
-    seo: {
-      title: "Medicare Enrollment",
-      description: "",
-      canonical: "https://www.medicarefaq.com/blog/medicare-enrollment/",
-      ogImage: "",
-    },
-    title: "Medicare Enrollment",
-    excerpt: "",
-    category: "Enrollment",
-    categoryColor: "#D97706",
-    date: "August 19, 2026",
-    author: "David Haass",
-    reviewer: "Ashlee Zareczny",
-    readTime: "1 min read",
-    featured: false,
-    image: "",
-    imageAlt: "Medicare Enrollment",
-    tableOfContents: [],
-    sections: [
-      { type: "paragraph", content: "Article content coming soon." },
-    ],
-  },
-
-  {
+{
     slug: "best-medicare-plan-comparison-tools",
     seo: {
       title: "Best Medicare Plan Comparison Tools (2026): Compare Plans Side by Side",
