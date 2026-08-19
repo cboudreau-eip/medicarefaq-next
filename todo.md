@@ -215,3 +215,4 @@
 - [x] Publish the Top 5 Strategies for Choosing a Medicare Part D Prescription Drug Plan blog article with verified 2026 data and FAQPage schema
 - [x] Audit /faqs/medicare-annual-notice-of-change-letter for content, SEO, AI-readiness, internal links, and CTA improvements
 - [x] Refresh /faqs/medicare-annual-notice-of-change-letter as a concise action-oriented FAQ with visible FAQs and FAQPage schema compatibility
+- [x] Add the Top 5 Strategies for Choosing a Medicare Part D Prescription Drug Plan podcast to its matching blog article

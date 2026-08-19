@@ -12192,6 +12192,7 @@ author: "David Haass",reviewer: "Ashlee Zareczny",readTime: "12 min read",featur
       "medicare-part-d-late-enrollment-penalty",
       "medicare-part-d-enrollment-deadlines",
       "how-is-medicare-part-d-changing-in-2026"
-    ]
+    ],
+    "buzzsproutUrl": "https://www.buzzsprout.com/1033063/episodes/19672582-top-5-strategies-for-choosing-a-medicare-part-d-prescription-drug-plan.mp3?download=true"
   }
 ];

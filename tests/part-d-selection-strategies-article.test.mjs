@@ -24,3 +24,10 @@ test("Part D selection article includes visible FAQs for the shared FAQPage sche
   assert.ok(questions.length >= 8, "Article must include at least eight FAQ questions");
   assert.equal(questions.length, answers.length, "Each FAQ question must have an answer");
 });
+
+test("Part D selection article includes the matching Buzzsprout episode", () => {
+  assert.ok(
+    article.includes("19672582-top-5-strategies-for-choosing-a-medicare-part-d-prescription-drug-plan"),
+    "Article must include the supplied Part D strategy podcast episode",
+  );
+});
