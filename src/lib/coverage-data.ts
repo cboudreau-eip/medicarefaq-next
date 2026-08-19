@@ -5254,165 +5254,184 @@ export const coverageArticles: CoverageArticleData[] = [
     relatedSlugs: ["medicare-costs-2025", "understanding-medigap-premiums-does-a-higher-price-mean-better-coverage", "how-medigap-plans-affect-your-overall-medicare-costs", "medicare-part-d-payment-plan-2026", "how-the-medicare-part-b-giveback-can-lower-your-monthly-costs"],
   },
   {
-    slug: "does-medicare-cover-life-alert",
-    seo: {
-      title: "Page not Found",
-      description: "Get clear, unbiased answers to your Medicare questions.",
-      canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-life-alert/",
-      ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
-    },
-    title: "Does Medicare Cover Life Alert? (2026 Cost & Coverage Guide)",
-    subtitle: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
-    category: "Medicare Coverage",
-    dateUpdated: "March 10, 2026",
-    lastReviewed: "2026-05-18",
-    author: {
-      name: "David Haass",
-      initials: "DH",
-      role: "CTO & Co-Founder",
-      bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
-    },
-    reviewer: {
-      name: "Ashlee Zareczny",
-      initials: "AZ",
-      role: "Reviewer",
-      bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
-    },
-    readTime: "5 min read",
-    quickAnswer: {
-      text: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
-      badges: [
-{
-          plan: "Original Medicare",
-          status: "not-covered",
-        },
-{
-          plan: "Medicare Advantage",
-          status: "partial",
-        },
-{
-          plan: "Medigap",
-          status: "not-covered",
-        }],
-    },
-    comparisonTable: [
-{
-        planType: "Original Medicare",
-        coverage: "Not Covered",
-        icon: "shield",
-        notes: "Does not cover this service directly",
-      },
-{
-        planType: "Medicare Advantage",
-        coverage: "Some Plans",
-        icon: "shield",
-        notes: "Coverage varies by plan and ZIP code",
-      },
-{
-        planType: "Medigap",
-        coverage: "Not Covered",
-        icon: "shield",
-        notes: "Only supplements Original Medicare benefits",
-      }],
-    planBreakdowns: [
-{
-        planName: "Understanding Medicare and Medical Alert System Coverage",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Not Covered",
-        coverageType: "not-covered",
-        paragraphs: [
-          "Medicare treats medical alert systems as convenience items rather than medically necessary equipment. Medicare Part B covers [durable medical equipment](/faqs/durable-medical-equipment) that your doctor prescribes for medical conditions, but personal emergency response systems do not meet these requirements.",
-          "According to Medicare.gov, which is managed by CMS, items that are primarily for convenience or comfort, such as medical alert systems, are excluded from coverage.",
-          "The distinction matters because Medicare focuses on treating medical conditions rather than preventing potential emergencies."],
-      },
-{
-        planName: "Medicare Advantage Plans and Medical Alert Benefits",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Varies by Plan",
-        coverageType: "partial",
-        paragraphs: [
-          "Your best chance for Medicare-related coverage of medical alert systems comes through [Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). Many Medicare Advantage insurers offer [supplemental benefits](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) that go beyond what Original Medicare covers, and some include medical alert devices as part of their wellness programs.",
-          "These benefits typically work in one of two ways. Some plans provide a specific medical alert device at no extra cost, while others offer a monthly allowance that you can apply toward the device of your choice. The allowance might cover the full monthly cost or provide a partial discount.",
-          "However, coverage varies significantly between plans and geographic areas. A [Medicare Advantage plan](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) in Florida might offer comprehensive medical alert benefits, while a similar plan in your state might not include this benefit at all."],
-      },
-{
-        planName: "Life Alert Costs without Medicare Coverage",
-        icon: "shield",
-        iconColor: "#1B2A4A",
-        coverageLabel: "Not Covered",
-        coverageType: "not-covered",
-        paragraphs: [
-          "Since Medicare does not cover Life Alert, you will pay the full cost out of pocket. Life Alert pricing typically includes an activation fee, monthly monitoring fees, and potential equipment costs depending on which package you choose. According to industry pricing reports and Life Alert’s own published information, these costs can vary based on features and service level.",
-          "Typical Medical Alert System Costs (2026): Life Alert's basic plan starts around $49.95 per month with a one-time activation fee of approximately $95–$198. Medical Guardian offers plans from $29.95–$49.95 per month with setup fees ranging from $0–$149. Bay Alarm Medical starts at $24.95 per month with free activation. Features vary by provider and plan level, including fall detection, GPS tracking, and 24/7 monitoring."],
-      }],
-    faqs: [
-{
-        question: "Does Medicare Cover Life Alert?",
-        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
-      },
-{
-        question: "Do Any Medicare Plans Cover Medical Alert Systems?",
-        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
-      },
-{
-        question: "How Much Does Life Alert Cost per Month?",
-        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
-      },
-{
-        question: "Are There Cheaper Alternatives to Life Alert?",
-        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
-      },
-{
-        question: "Does the VA Cover Medical Alert Systems?",
-        answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
-      }],
-    quickReference: [
-{
-        icon: "info",
-        text: "<strong>Medicare Coverage</strong> topic",
-      },
-{
-        icon: "alert",
-        text: "Coverage details vary by plan and location",
-      },
-{
-        icon: "dollar",
-        text: "Compare plans to find the best value",
-      }],
-    relatedTopics: [
-{
-        title: "Dental Implants",
-        description: "Learn more about dental implants",
-        slug: "does-medicare-cover-dental-implants",
-      },
-{
-        title: "Glasses",
-        description: "Learn more about glasses",
-        slug: "does-medicare-cover-glasses",
-      },
-{
-        title: "Hearing Aids",
-        description: "Learn more about hearing aids",
-        slug: "does-medicare-cover-hearing-aids",
-      },
-{
-        title: "Sleep Apnea",
-        description: "Learn more about sleep apnea",
-        slug: "does-medicare-cover-sleep-apnea",
-      }],
-    sidebarRelatedLinks: [
-      "Dental Implants",
-      "Glasses",
-      "Hearing Aids",
-      "Sleep Apnea"],
-    ctaBanner: {
-      title: "Get Expert Medicare Guidance",
-      text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
-    },
-    relatedSlugs: ["does-medicare-cover-medical-alert-systems", "does-medicare-cover-a-shower-transfer-bench", "home-safety-assessment-for-the-elderly", "durable-medical-equipment"],
+  slug: "does-medicare-cover-life-alert",
+  seo: {
+    title: "Page not Found",
+    description: "Get clear, unbiased answers to your Medicare questions.",
+    canonical: "https://www.medicarefaq.com/faqs/does-medicare-cover-life-alert/",
+    ogImage: "https://www.medicarefaq.com/images/medicarefaq-cover.jpg",
   },
+  title: "Does Medicare Cover Life Alert? (2026 Cost & Coverage Guide)",
+  subtitle: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
+  category: "Medicare Coverage",
+  dateUpdated: "March 10, 2026",
+  lastReviewed: "2026-05-18",
+  author: {
+    name: "David Haass",
+    initials: "DH",
+    role: "CTO & Co-Founder",
+    bio: "David Haass is the Chief Technology Officer and Co-Founder of Elite Insurance Partners and MedicareFAQ.com.",
+  },
+  reviewer: {
+    name: "Ashlee Zareczny",
+    initials: "AZ",
+    role: "Reviewer",
+    bio: "Ashlee Zareczny is the Director of Operations for MedicareFAQ. As a licensed Medicare agent in all 50 states, she is dedicated to educating those eligible for Medicare.",
+  },
+  readTime: "5 min read",
+  quickAnswer: {
+    text: "If you are turning 65 or already on Medicare, you might worry about what happens if you fall or have a medical emergency while alone at home. Medical alert systems like Life Alert promise peace of mind, but the monthly costs can add up quickly when you are managing your Medicare budget.",
+    badges: [
+      {
+        plan: "Original Medicare",
+        status: "not-covered",
+      },
+      {
+        plan: "Medicare Advantage",
+        status: "partial",
+      },
+      {
+        plan: "Medigap",
+        status: "not-covered",
+      },
+    ],
+  },
+  comparisonTable: [
+    {
+      planType: "Original Medicare",
+      coverage: "Not Covered",
+      icon: "shield",
+      notes: "Does not cover this service directly",
+    },
+    {
+      planType: "Medicare Advantage",
+      coverage: "Some Plans",
+      icon: "shield",
+      notes: "Coverage varies by plan and ZIP code",
+    },
+    {
+      planType: "Medigap",
+      coverage: "Not Covered",
+      icon: "shield",
+      notes: "Only supplements Original Medicare benefits",
+    },
+  ],
+  planBreakdowns: [
+    {
+      planName: "Understanding Medicare and Medical Alert System Coverage",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Not Covered",
+      coverageType: "not-covered",
+      paragraphs: [
+      "Medicare treats medical alert systems as convenience items rather than medically necessary equipment. Medicare Part B covers [durable medical equipment](/faqs/durable-medical-equipment) that your doctor prescribes for medical conditions, but personal emergency response systems do not meet these requirements.",
+      "According to Medicare.gov, which is managed by CMS, items that are primarily for convenience or comfort, such as medical alert systems, are excluded from coverage.",
+      "The distinction matters because Medicare focuses on treating medical conditions rather than preventing potential emergencies.",
+    ],
+    },
+    {
+      planName: "Medicare Advantage Plans and Medical Alert Benefits",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Varies by Plan",
+      coverageType: "partial",
+      paragraphs: [
+      "Your best chance for Medicare-related coverage of medical alert systems comes through [Medicare Advantage plans](/blog/the-essentials-medicare-supplement-vs-medicare-advantage-explained). Many Medicare Advantage insurers offer [supplemental benefits](/faqs/medicare-advantage-extra-benefits-explained-whats-really-included) that go beyond what Original Medicare covers, and some include medical alert devices as part of their wellness programs.",
+      "These benefits typically work in one of two ways. Some plans provide a specific medical alert device at no extra cost, while others offer a monthly allowance that you can apply toward the device of your choice. The allowance might cover the full monthly cost or provide a partial discount.",
+      "However, coverage varies significantly between plans and geographic areas. A [Medicare Advantage plan](/blog/key-questions-to-ask-when-comparing-medicare-advantage-plans) in Florida might offer comprehensive medical alert benefits, while a similar plan in your state might not include this benefit at all.",
+    ],
+    },
+    {
+      planName: "Life Alert Costs without Medicare Coverage",
+      icon: "shield",
+      iconColor: "#1B2A4A",
+      coverageLabel: "Not Covered",
+      coverageType: "not-covered",
+      paragraphs: [
+      "Since Medicare does not cover Life Alert, you will pay the full cost out of pocket. Life Alert pricing typically includes an activation fee, monthly monitoring fees, and potential equipment costs depending on which package you choose. According to industry pricing reports and Life Alert’s own published information, these costs can vary based on features and service level.",
+      "Typical Medical Alert System Costs (2026): Life Alert's basic plan starts around $49.95 per month with a one-time activation fee of approximately $95–$198. Medical Guardian offers plans from $29.95–$49.95 per month with setup fees ranging from $0–$149. Bay Alarm Medical starts at $24.95 per month with free activation. Features vary by provider and plan level, including fall detection, GPS tracking, and 24/7 monitoring.",
+    ],
+    },
+  ],
+  faqs: [
+    {
+      question: "Does Medicare Cover Life Alert?",
+      answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+    },
+    {
+      question: "Do Any Medicare Plans Cover Medical Alert Systems?",
+      answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+    },
+    {
+      question: "How Much Does Life Alert Cost per Month?",
+      answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+    },
+    {
+      question: "Are There Cheaper Alternatives to Life Alert?",
+      answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+    },
+    {
+      question: "Does the VA Cover Medical Alert Systems?",
+      answer: "Contact a licensed Medicare agent at (888) 335-8996 for detailed information about this topic.",
+    },
+    {
+      question: "Will a Medicare Supplement plan help pay for Life Alert?",
+      answer: "No, Medigap (Medicare Supplement) plans only cover out-of-pocket costs for Original Medicare-covered services, like copayments, coinsurance, and deductibles, so they do not pay for Life Alert or other medical alert systems since Original Medicare doesn't cover them in the first place. Buying a Medigap plan won't reduce your medical alert costs, but it can lower your overall healthcare spending, freeing up budget to cover a device out of pocket. If cost is a concern, look instead at Medicare Advantage plans with supplemental benefits, which are more likely to include an allowance for personal emergency response systems.</strong>",
+    },
+  ],
+  quickReference: [
+    {
+      icon: "info",
+      text: "<strong>Medicare Coverage</strong> topic",
+    },
+    {
+      icon: "alert",
+      text: "Coverage details vary by plan and location",
+    },
+    {
+      icon: "dollar",
+      text: "Compare plans to find the best value",
+    },
+  ],
+  relatedTopics: [
+    {
+      title: "Dental Implants",
+      description: "Learn more about dental implants",
+      slug: "does-medicare-cover-dental-implants",
+    },
+    {
+      title: "Glasses",
+      description: "Learn more about glasses",
+      slug: "does-medicare-cover-glasses",
+    },
+    {
+      title: "Hearing Aids",
+      description: "Learn more about hearing aids",
+      slug: "does-medicare-cover-hearing-aids",
+    },
+    {
+      title: "Sleep Apnea",
+      description: "Learn more about sleep apnea",
+      slug: "does-medicare-cover-sleep-apnea",
+    },
+  ],
+  sidebarRelatedLinks: [
+    "Dental Implants",
+    "Glasses",
+    "Hearing Aids",
+    "Sleep Apnea",
+  ],
+  ctaBanner: {
+    title: "Get Expert Medicare Guidance",
+    text: "Our licensed agents can help you understand your Medicare options and find the right coverage for your needs.",
+  },
+  relatedSlugs: [
+    "does-medicare-cover-medical-alert-systems",
+    "does-medicare-cover-a-shower-transfer-bench",
+    "home-safety-assessment-for-the-elderly",
+    "durable-medical-equipment",
+  ],
+},
   {
     slug: "is-medicare-free",
     seo: {
