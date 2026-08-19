@@ -213,3 +213,5 @@
 - [x] Fact-check /faqs/reduce-medicare-premiums against MedicareReferenceData26.txt and document corrections
 - [x] Correct verified stale 2026 premium, savings, penalty, and Part D cap figures on /faqs/reduce-medicare-premiums
 - [x] Publish the Top 5 Strategies for Choosing a Medicare Part D Prescription Drug Plan blog article with verified 2026 data and FAQPage schema
+- [x] Audit /faqs/medicare-annual-notice-of-change-letter for content, SEO, AI-readiness, internal links, and CTA improvements
+- [x] Refresh /faqs/medicare-annual-notice-of-change-letter as a concise action-oriented FAQ with visible FAQs and FAQPage schema compatibility
